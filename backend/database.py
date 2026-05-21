@@ -67,6 +67,40 @@ def generate_embedding(text: str) -> List[float]:
             # Silently log/warn and proceed to fallback so development doesn't break
             warnings.warn(f"OpenAI embedding API call failed: {e}. Falling back to mock generator.")
 
+    # Attempt real Gemini embedding if API key is present
+    if settings.gemini_api_key:
+        try:
+            import urllib.request
+            import json
+            
+            url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:embedContent?key={settings.gemini_api_key}"
+            headers = {
+                "Content-Type": "application/json"
+            }
+            req_data = {
+                "model": "models/gemini-embedding-001",
+                "content": {
+                    "parts": [{"text": text}]
+                },
+                "outputDimensionality": 1536
+            }
+            
+            req = urllib.request.Request(
+                url, 
+                data=json.dumps(req_data).encode("utf-8"), 
+                headers=headers,
+                method="POST"
+            )
+            
+            with urllib.request.urlopen(req, timeout=5) as response:
+                if response.status == 200:
+                    res_body = json.loads(response.read().decode("utf-8"))
+                    return res_body["embedding"]["values"]
+        except Exception as e:
+            warnings.warn(f"Gemini embedding API call failed: {e}. Falling back to mock generator.")
+
+
+
     # Fallback: Deterministic mock vector generation based on SHA-256 hash
     hash_digest = hashlib.sha256(text.encode("utf-8")).digest()
     raw_vals = []

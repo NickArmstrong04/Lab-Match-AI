@@ -106,20 +106,20 @@ BEGIN
 
     RETURN QUERY
     SELECT 
-        id as grant_id,
-        pi_name,
-        university,
-        department,
-        grant_title,
-        grant_abstract,
-        methodologies,
-        funding_source,
-        funding_badge_url,
-        award_amount,
-        (1 - (labs_cached_grants.embedding <=> student_vector))::float AS similarity
-    FROM labs_cached_grants
-    WHERE 1 - (labs_cached_grants.embedding <=> student_vector) > match_threshold
-    ORDER BY labs_cached_grants.embedding <=> student_vector ASC
+        g.id as grant_id,
+        g.pi_name,
+        g.university,
+        g.department,
+        g.grant_title,
+        g.grant_abstract,
+        g.methodologies,
+        g.funding_source,
+        g.funding_badge_url,
+        g.award_amount,
+        (1 - (g.embedding <=> student_vector))::float AS similarity
+    FROM labs_cached_grants g
+    WHERE 1 - (g.embedding <=> student_vector) > match_threshold
+    ORDER BY g.embedding <=> student_vector ASC
     LIMIT match_limit;
 END;
 $$;

@@ -11,7 +11,7 @@ def seed():
     try:
         db = get_db()
     except Exception as e:
-        print(f"\n❌ Connection Error: Could not connect to Supabase.")
+        print(f"\n[CONNECTION ERROR] Could not connect to Supabase.")
         print(f"Details: {e}")
         print("\nPlease ensure you have created a '/backend/.env' file with real SUPABASE_URL and SUPABASE_KEY values.")
         return
@@ -67,14 +67,14 @@ def seed():
             # Check for existing record
             existing = db.table("labs_cached_grants").select("id").eq("grant_title", grant["grant_title"]).execute()
             if existing.data:
-                print(f"ℹ️ Skipping '{grant['grant_title']}' (already present).")
+                print(f"[INFO] Skipping '{grant['grant_title']}' (already present).")
                 continue
                 
             response = db.table("labs_cached_grants").insert(grant).execute()
             if response.data:
-                print(f"✅ Successfully seeded: {grant['grant_title']}")
+                print(f"[SUCCESS] Successfully seeded: {grant['grant_title']}")
         except Exception as e:
-            print(f"❌ Failed to seed '{grant['grant_title']}': {e}")
+            print(f"[ERROR] Failed to seed '{grant['grant_title']}': {e}")
 
 if __name__ == "__main__":
     seed()
