@@ -1,0 +1,47 @@
+# Python caches and virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+ENV/
+env/
+
+# Node modules and web builds
+node_modules/
+dist/
+build/
+.svelte-kit/
+.next/
+out/
+.nuxt/
+
+# Environments and Secrets
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Local caches
+.sass-cache/
+.eslintcache
+.parcel-cache
+.cache/
+.temp/
+tmp/
