@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
-import { X, Heart, Mail, Sparkles, Building, Calendar, DollarSign, ArrowRight, Award, Trash2 } from 'lucide-react';
+import React, { useState, useEffect } from 'react';
+import { X, Heart, Mail, Sparkles, Building, Calendar, DollarSign, ArrowRight, Award, Trash2, RefreshCw } from 'lucide-react';
 import GlassCard from '../components/GlassCard';
 import CircularScore from '../components/CircularScore';
+import api from '../api/axios';
 
 export interface GrantMatch {
   id: string;
@@ -22,6 +23,7 @@ export interface GrantMatch {
 }
 
 interface DashboardProps {
+  studentId: string;
   studentName: string;
   researchInterests: string;
   matches: GrantMatch[];
@@ -33,6 +35,7 @@ interface DashboardProps {
 }
 
 export const Dashboard: React.FC<DashboardProps> = ({
+  studentId,
   studentName,
   researchInterests,
   matches,
@@ -42,33 +45,105 @@ export const Dashboard: React.FC<DashboardProps> = ({
   skippedMatches,
   setSkippedMatches,
 }) => {
-  // We keep track of the current match in the swipe deck
+  // We keep track of the matches deck fetched from the database
+  const [deckMatches, setDeckMatches] = useState<GrantMatch[]>(matches);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [swipeDirection, setSwipeDirection] = useState<'left' | 'right' | null>(null);
   
+  // Gesture-based swiping states
+  const [isDragging, setIsDragging] = useState(false);
+  const [dragStart, setDragStart] = useState<{ x: number; y: number } | null>(null);
+  const [dragOffset, setDragOffset] = useState<{ x: number; y: number }>({ x: 0, y: 0 });
+
   // A local selected card ID if the user clicks a saved card to inspect it
   const [inspectedMatch, setInspectedMatch] = useState<GrantMatch | null>(null);
 
+  const getDynamicGlow = () => {
+    if (inspectedMatch) return 'none';
+    if (dragOffset.x > 50) return 'emerald';
+    if (dragOffset.x < -50) return 'rose';
+    if (!currentMatch) return 'none';
+    return currentMatch.score >= 90 ? 'teal' : 'purple';
+  };
+
+  const cardStyle: React.CSSProperties = !inspectedMatch && isDragging
+    ? {
+        transform: `translate3d(${dragOffset.x}px, ${dragOffset.y * 0.25}px, 0) rotate(${dragOffset.x * 0.08}deg)`,
+        transition: 'none',
+        cursor: 'grabbing',
+        userSelect: 'none',
+      }
+    : {
+        transform: 'translate3d(0, 0, 0) rotate(0deg)',
+        transition: 'transform 0.45s cubic-bezier(0.175, 0.885, 0.32, 1.275)',
+      };
+
+  // Syncing states for live ingestion
+  const [isSyncing, setIsSyncing] = useState(false);
+  const [syncStatus, setSyncStatus] = useState<'idle' | 'success' | 'error'>('idle');
+
+  // Load matches deck and rebuild queues based on database status on mount
+  useEffect(() => {
+    const fetchDeck = async () => {
+      try {
+        const response = await api.get(`/grants/matches?student_id=${studentId}&threshold=0.2&limit=10`);
+        const fetchedMatches = response.data;
+        if (fetchedMatches && fetchedMatches.length > 0) {
+          setDeckMatches(fetchedMatches);
+          
+          // Rebuild saved matches queue (saved or emailed statuses)
+          const dbSaved = fetchedMatches.filter((m: any) => m.status === 'saved' || m.status === 'emailed');
+          setSavedMatches(dbSaved);
+          
+          // Rebuild skipped matches queue
+          const dbSkipped = fetchedMatches.filter((m: any) => m.status === 'skipped').map((m: any) => m.id);
+          setSkippedMatches(dbSkipped);
+        }
+      } catch (err) {
+        console.error("Failed to load active matches deck from API:", err);
+      }
+    };
+    fetchDeck();
+  }, [studentId, setSavedMatches, setSkippedMatches]);
+
   // Filter out skipped and saved matches from the deck, unless inspected
-  const activeDeck = matches.filter(
+  const activeDeck = deckMatches.filter(
     (m) => !skippedMatches.includes(m.id) && !savedMatches.some((s) => s.id === m.id)
   );
 
   const currentMatch = inspectedMatch || activeDeck[currentIndex] || null;
 
-  const handleSwipe = (direction: 'left' | 'right') => {
+  const handleSwipe = async (direction: 'left' | 'right') => {
     if (!currentMatch || inspectedMatch) return;
 
     setSwipeDirection(direction);
+    const targetStatus = direction === 'right' ? 'saved' : 'skipped';
+
+    try {
+      // Background-persist swipe state in Supabase via FastAPI router
+      api.post('/grants/matches/state', {
+        student_id: studentId,
+        grant_id: currentMatch.id,
+        status: targetStatus,
+      }).catch(err => console.error("Failed to sync match state in database:", err));
+    } catch (err) {
+      console.error(err);
+    }
 
     // Wait for animation to finish
     setTimeout(() => {
       if (direction === 'right') {
         // Save
-        setSavedMatches((prev) => [...prev, currentMatch]);
+        setSavedMatches((prev) => {
+          if (prev.some((s) => s.id === currentMatch.id)) return prev;
+          return [...prev, currentMatch];
+        });
       } else {
         // Skip
-        setSkippedMatches((prev) => [...prev, currentMatch.id]);
+        setSkippedMatches((prev) => {
+          if (prev.includes(currentMatch.id)) return prev;
+          return [...prev, currentMatch.id];
+        });
       }
       setSwipeDirection(null);
       // Reset index if we are swiping the last card
@@ -82,16 +157,63 @@ export const Dashboard: React.FC<DashboardProps> = ({
     setInspectedMatch(match);
   };
 
-  const handleRemoveSaved = (matchId: string, e: React.MouseEvent) => {
+  const handleRemoveSaved = async (matchId: string, e: React.MouseEvent) => {
     e.stopPropagation();
+    
+    // Update local state queues immediately
     setSavedMatches((prev) => prev.filter((m) => m.id !== matchId));
     if (inspectedMatch?.id === matchId) {
       setInspectedMatch(null);
+    }
+
+    try {
+      // Mark as skipped in the backend database
+      await api.post('/grants/matches/state', {
+        student_id: studentId,
+        grant_id: matchId,
+        status: 'skipped',
+      });
+      setSkippedMatches((prev) => {
+        if (prev.includes(matchId)) return prev;
+        return [...prev, matchId];
+      });
+    } catch (err) {
+      console.error("Failed to update status for removed match:", err);
     }
   };
 
   const handleReturnToDeck = () => {
     setInspectedMatch(null);
+  };
+
+  const triggerLiveSync = async () => {
+    setIsSyncing(true);
+    setSyncStatus('idle');
+    try {
+      await api.post('/grants/ingest', { 
+        keywords: ["CRISPR", "Microfluidics", "Machine Learning", "Bioinformatics", "Neurobiology"] 
+      });
+      setSyncStatus('success');
+      
+      // Wait for background ingestion to index and refresh deck
+      setTimeout(async () => {
+        setSyncStatus('idle');
+        try {
+          const reloadResp = await api.get(`/grants/matches?student_id=${studentId}&threshold=0.2&limit=10`);
+          if (reloadResp.data && reloadResp.data.length > 0) {
+            setDeckMatches(reloadResp.data);
+          }
+        } catch (rErr) {
+          console.error("Failed to reload deck after sync:", rErr);
+        }
+      }, 3000);
+    } catch (err) {
+      console.error(err);
+      setSyncStatus('error');
+      setTimeout(() => setSyncStatus('idle'), 3000);
+    } finally {
+      setIsSyncing(false);
+    }
   };
 
   return (
@@ -102,13 +224,32 @@ export const Dashboard: React.FC<DashboardProps> = ({
         <div className="lg:col-span-1 space-y-6">
           <GlassCard className="h-[600px] flex flex-col justify-between" glowColor="none">
             <div className="flex flex-col h-full overflow-hidden">
-              <div className="border-b border-slate-800/80 pb-4 mb-4">
-                <h3 className="text-xl font-bold font-outfit text-white flex items-center gap-2">
-                  <Heart className="w-5 h-5 text-rose-500 fill-rose-500/20" /> Pipeline Alignment
-                </h3>
-                <p className="text-slate-400 text-xs font-light mt-1">
-                  Saved labs matching {studentName.split(' ')[0]}'s profile.
-                </p>
+              <div className="border-b border-slate-800/80 pb-4 mb-4 flex items-center justify-between gap-2">
+                <div>
+                  <h3 className="text-xl font-bold font-outfit text-white flex items-center gap-2">
+                    <Heart className="w-5 h-5 text-rose-500 fill-rose-500/20" /> Pipeline Alignment
+                  </h3>
+                  <p className="text-slate-400 text-xs font-light mt-1">
+                    Saved labs matching {studentName.split(' ')[0]}'s profile.
+                  </p>
+                </div>
+                <button
+                  type="button"
+                  onClick={triggerLiveSync}
+                  disabled={isSyncing}
+                  className={`p-2 rounded-lg border transition-all duration-200 cursor-pointer flex items-center justify-center shrink-0
+                    ${isSyncing 
+                      ? 'bg-purple-500/10 border-purple-500/30 text-purple-400' 
+                      : syncStatus === 'success'
+                        ? 'bg-teal-500/10 border-teal-500/30 text-teal-400 animate-pulse'
+                        : syncStatus === 'error'
+                          ? 'bg-rose-500/10 border-rose-500/30 text-rose-400'
+                          : 'bg-slate-900/60 border-slate-800 hover:border-slate-700 text-slate-400 hover:text-white'}
+                  `}
+                  title="Synchronize Live NIH/NSF Awards"
+                >
+                  <RefreshCw className={`w-4 h-4 ${isSyncing ? 'animate-spin' : ''}`} />
+                </button>
               </div>
 
               {/* Saved matches list scrollable viewport */}
@@ -191,15 +332,65 @@ export const Dashboard: React.FC<DashboardProps> = ({
             </div>
           )}
 
-          {currentMatch ? (
+           {currentMatch ? (
             <div
               className={`
-                transition-all duration-300
+                transition-all duration-300 select-none
                 ${swipeDirection === 'left' ? 'swipe-left' : ''}
                 ${swipeDirection === 'right' ? 'swipe-right' : ''}
               `}
+              style={cardStyle}
+              onMouseDown={(e) => {
+                if (inspectedMatch) return;
+                setIsDragging(true);
+                setDragStart({ x: e.clientX, y: e.clientY });
+              }}
+              onMouseMove={(e) => {
+                if (!isDragging || !dragStart) return;
+                setDragOffset({ x: e.clientX - dragStart.x, y: e.clientY - dragStart.y });
+              }}
+              onMouseUp={() => {
+                if (!isDragging) return;
+                setIsDragging(false);
+                setDragStart(null);
+                if (dragOffset.x > 140) {
+                  handleSwipe('right');
+                } else if (dragOffset.x < -140) {
+                  handleSwipe('left');
+                }
+                setDragOffset({ x: 0, y: 0 });
+              }}
+              onMouseLeave={() => {
+                if (!isDragging) return;
+                setIsDragging(false);
+                setDragStart(null);
+                setDragOffset({ x: 0, y: 0 });
+              }}
+              onTouchStart={(e) => {
+                if (inspectedMatch) return;
+                setIsDragging(true);
+                setDragStart({ x: e.touches[0].clientX, y: e.touches[0].clientY });
+              }}
+              onTouchMove={(e) => {
+                if (!isDragging || !dragStart) return;
+                setDragOffset({
+                  x: e.touches[0].clientX - dragStart.x,
+                  y: e.touches[0].clientY - dragStart.y,
+                });
+              }}
+              onTouchEnd={() => {
+                if (!isDragging) return;
+                setIsDragging(false);
+                setDragStart(null);
+                if (dragOffset.x > 140) {
+                  handleSwipe('right');
+                } else if (dragOffset.x < -140) {
+                  handleSwipe('left');
+                }
+                setDragOffset({ x: 0, y: 0 });
+              }}
             >
-              <GlassCard className="relative overflow-hidden min-h-[500px] flex flex-col justify-between" glowColor={currentMatch.score >= 90 ? 'teal' : 'purple'}>
+              <GlassCard className="relative overflow-hidden min-h-[500px] flex flex-col justify-between" glowColor={getDynamicGlow()}>
                 {/* Visual Accent Glow according to score */}
                 <div className={`absolute top-0 left-0 w-full h-[4px] bg-gradient-to-r 
                   ${currentMatch.score >= 90 ? 'from-teal-500/50 via-emerald-500/80 to-teal-500/50' : 'from-purple-500/50 via-teal-500/80 to-purple-500/50'}

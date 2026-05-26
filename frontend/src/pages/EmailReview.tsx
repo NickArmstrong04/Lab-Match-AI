@@ -1,13 +1,15 @@
 import React, { useState, useEffect } from 'react';
-import { Send, FolderClosed, ArrowLeft, Mail, Sparkles, AlertCircle, CheckCircle2 } from 'lucide-react';
+import { Send, FolderClosed, ArrowLeft, Mail, Sparkles, AlertCircle, CheckCircle2, RefreshCw } from 'lucide-react';
 import GlassCard from '../components/GlassCard';
 import CircularScore from '../components/CircularScore';
 import { type GrantMatch } from './Dashboard';
+import api from '../api/axios';
 
 interface EmailReviewProps {
   match: GrantMatch;
   studentName: string;
   resumeName: string;
+  studentId: string;
   onSendComplete: (matchId: string, emailBody: string) => void;
   onCancel: () => void;
 }
@@ -16,6 +18,7 @@ export const EmailReview: React.FC<EmailReviewProps> = ({
   match,
   studentName,
   resumeName,
+  studentId,
   onSendComplete,
   onCancel,
 }) => {
@@ -23,44 +26,109 @@ export const EmailReview: React.FC<EmailReviewProps> = ({
   const [subject, setSubject] = useState('');
   const [body, setBody] = useState('');
   
-  // Gmail integration sending states
-  const [sendState, setSendState] = useState<'idle' | 'auth_prompt' | 'sending' | 'success'>('idle');
-  const [oauthStep, setOauthStep] = useState(0);
+  // Dynamic API integration states
+  const [isDrafting, setIsDrafting] = useState(true);
+  const [isConnected, setIsConnected] = useState(false);
+  const [checkingAuth, setCheckingAuth] = useState(true);
+  const [sendState, setSendState] = useState<'idle' | 'sending' | 'success' | 'error'>('idle');
+  const [errorMsg, setErrorMsg] = useState('');
 
-  // Initialize pre-populated fields
+  // 1. Fetch Dynamic Gemini Draft on Mount
   useEffect(() => {
-    // Generate clean keywords from matching skills
-    const keywords = match.matching_skills.slice(0, 2).join(' & ');
-    setSubject(`Inquiry: Research Alignment on ${keywords} — ${studentName}`);
+    const fetchDraft = async () => {
+      setIsDrafting(true);
+      try {
+        const response = await api.post('/agent/draft-email', {
+          student_id: studentId,
+          grant_id: match.id,
+        });
+        const data = response.data;
+        setSubject(data.subject || `Inquiry: Research Alignment — ${studentName}`);
+        setBody(data.body || '');
+      } catch (err) {
+        console.error("Draft generation error, loading fallback template:", err);
+        // Clean fallback email template if API is down
+        const keywords = match.matching_skills.slice(0, 2).join(' & ');
+        setSubject(`Inquiry: Research Alignment on ${keywords} — ${studentName}`);
+        
+        const intro = `Dear Dr. ${match.pi_name.split(' ').pop()},\n\nI hope this email finds you well. My name is ${studentName}, and I am a student developer researching active labs. I recently analyzed your active ${match.agency} funded project, "${match.title}" (award amount $${match.award_amount.toLocaleString()}), and was immediately struck by the alignment between your lab's focus and my competencies.`;
+        const center = `Specifically, my background is highly optimized for your current methodologies. According to my parsed CV (${resumeName}), I have demonstrated experience in ${match.matching_skills.join(', ')}. I noticed your project leverages research techniques in these exact sectors, making me an excellent fit to assist.`;
+        const outro = `I would love the opportunity to learn more about your research goals and discuss how my skills could accelerate your pipeline. Would you be open to a brief 10-minute Zoom call or a quick lab introduction next week? I've attached my full CV to this email.\n\nSincerely,\n\n${studentName}`;
+        setBody(`${intro}\n\n${center}\n\n${outro}`);
+      } finally {
+        setIsDrafting(false);
+      }
+    };
 
-    // Generate highly specific 3-paragraph cold outreach
-    const introParagraph = `Dear Dr. ${match.pi_name.split(' ').pop()},\n\nI hope this email finds you well. My name is ${studentName}, and I am a student developer researching active labs in collegiate environments. I recently analyzed your active ${match.agency} funded project, "${match.title}" (award amount $${match.award_amount.toLocaleString()}), and was immediately struck by the deep alignment between your lab's focus in the ${match.department} and my own technical competencies.`;
+    fetchDraft();
+  }, [match, studentName, resumeName, studentId]);
 
-    const bodyParagraph = `Specifically, my background is highly optimized for your current methodologies. According to my parsed CV (${resumeName}), I have demonstrated experience in ${match.matching_skills.join(', ')}. I noticed your project leverages research techniques in these exact sectors, making me an excellent fit to assist as a research assistant, programmer, or junior researcher.`;
-
-    const callToAction = `I would love the opportunity to learn more about your research goals and discuss how my skills could accelerate your pipeline. Would you be open to a brief 10-minute Zoom call or a quick lab introduction next week? I've attached my full CV to this email for your convenience.\n\nThank you for your time and outstanding contributions to scientific research.\n\nSincerely,\n\n${studentName}`;
-
-    setBody(`${introParagraph}\n\n${bodyParagraph}\n\n${callToAction}`);
-  }, [match, studentName, resumeName]);
-
-  const handleSend = () => {
-    // Mock the Google OAuth workflow
-    setSendState('auth_prompt');
-    setOauthStep(1);
+  // 2. Check Google OAuth connection status
+  const checkGoogleAuth = async () => {
+    setCheckingAuth(true);
+    try {
+      const response = await api.get(`/auth/google/status?student_id=${studentId}`);
+      setIsConnected(response.data.connected);
+    } catch (err) {
+      console.error("Failed to fetch Google auth status:", err);
+    } finally {
+      setCheckingAuth(false);
+    }
   };
 
-  const proceedOAuth = () => {
-    setOauthStep(2);
-    setTimeout(() => {
-      setSendState('sending');
-      // Simulate email transmitting over Google SMTP/API
+  useEffect(() => {
+    checkGoogleAuth();
+  }, [studentId]);
+
+  // 3. Listen to OAuth cross-origin message events from popup window
+  useEffect(() => {
+    const handleOauthMessage = (event: MessageEvent) => {
+      if (event.data && event.data.type === "google_oauth_success") {
+        console.log("OAuth secure handshake detected from popup callback page!");
+        setIsConnected(true);
+      }
+    };
+    window.addEventListener("message", handleOauthMessage);
+    return () => window.removeEventListener("message", handleOauthMessage);
+  }, []);
+
+  // 4. Initiate Popup-based secure OAuth login flow
+  const handleConnectGoogle = () => {
+    const width = 500;
+    const height = 650;
+    const left = window.screenX + (window.innerWidth - width) / 2;
+    const top = window.screenY + (window.innerHeight - height) / 2;
+    const baseUrl = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+    
+    window.open(
+      `${baseUrl}/auth/google/login?student_id=${studentId}`,
+      'Google OAuth Handshake',
+      `width=${width},height=${height},left=${left},top=${top},status=no,toolbar=no,menubar=no`
+    );
+  };
+
+  // 5. Send Outreach cold email via backend Gmail Gateway
+  const handleSendEmail = async () => {
+    setSendState('sending');
+    setErrorMsg('');
+    try {
+      await api.post('/agent/send-email', {
+        student_id: studentId,
+        grant_id: match.id,
+        subject: subject,
+        body: body,
+        match_id: match.id
+      });
+
+      setSendState('success');
       setTimeout(() => {
-        setSendState('success');
-        setTimeout(() => {
-          onSendComplete(match.id, body);
-        }, 1500);
+        onSendComplete(match.id, body);
       }, 1800);
-    }, 1200);
+    } catch (err: any) {
+      console.error("Email transmission failed:", err);
+      setErrorMsg(err.response?.data?.detail || err.message || 'Gateway handshake error.');
+      setSendState('error');
+    }
   };
 
   return (
@@ -128,118 +196,118 @@ export const EmailReview: React.FC<EmailReviewProps> = ({
           </div>
         </GlassCard>
 
-        {/* Right Pane (50%) - Gmail Composer Mockup */}
+        {/* Right Pane (50%) - Gmail Composer Workspace */}
         <GlassCard className="relative overflow-hidden min-h-[550px] flex flex-col justify-between" glowColor="purple">
           <div className="absolute top-0 left-0 w-full h-[3px] bg-gradient-to-r from-transparent via-purple-500/40 to-transparent" />
 
-          {/* Email interface mockup wrapper */}
-          <div className="flex flex-col h-full space-y-4">
-            <div className="border-b border-slate-800/80 pb-3 mb-1">
-              <h3 className="text-xl font-bold font-outfit text-white flex items-center gap-2">
-                <Mail className="w-5 h-5 text-purple-400" /> Interactive Composer
-              </h3>
-              <p className="text-slate-400 text-xs font-light mt-0.5">
-                Draft a high-impact alignment introduction. Highly personalized.
-              </p>
-            </div>
-
-            {/* To & Subject Inputs */}
-            <div className="space-y-3 text-sm">
-              <div className="flex items-center gap-3 bg-slate-900/60 border border-slate-850 px-3.5 py-2.5 rounded-xl">
-                <span className="text-slate-500 font-semibold w-12 text-right">To:</span>
-                <input
-                  type="email"
-                  value={to}
-                  onChange={(e) => setTo(e.target.value)}
-                  className="bg-transparent border-none text-slate-200 focus:outline-none flex-1 font-mono text-xs"
-                />
+          {isDrafting ? (
+            /* Premium Glassmorphic Shimmering Skeleton Loader */
+            <div className="flex-1 flex flex-col justify-center items-center py-20 space-y-6 text-center animate-pulse">
+              <div className="w-14 h-14 rounded-full bg-purple-500/10 border border-purple-500/25 flex items-center justify-center shadow-lg shadow-purple-500/5">
+                <RefreshCw className="w-7 h-7 text-purple-400 animate-spin" />
               </div>
-              <div className="flex items-center gap-3 bg-slate-900/60 border border-slate-850 px-3.5 py-2.5 rounded-xl">
-                <span className="text-slate-500 font-semibold w-12 text-right">Subject:</span>
-                <input
-                  type="text"
-                  value={subject}
-                  onChange={(e) => setSubject(e.target.value)}
-                  className="bg-transparent border-none text-slate-200 focus:outline-none flex-1 text-xs font-medium"
-                />
+              <div className="space-y-2">
+                <h4 className="text-sm font-bold text-white uppercase tracking-widest font-mono">Agentic Ghostwriter Active</h4>
+                <p className="text-slate-400 text-xs font-light max-w-xs leading-relaxed">
+                  Google Gemini model is analyzing your CV narrative and PI grant abstract to compile a bespoke, high-impact research pitch...
+                </p>
+              </div>
+              <div className="w-44 h-1 bg-slate-900 rounded-full overflow-hidden relative">
+                <div className="absolute inset-0 bg-gradient-to-r from-teal-400 to-purple-500 animate-shimmer-progress" style={{ width: '60%' }} />
               </div>
             </div>
+          ) : (
+            /* Email interface workspace */
+            <div className="flex flex-col h-full space-y-4">
+              <div className="border-b border-slate-800/80 pb-3 mb-1">
+                <h3 className="text-xl font-bold font-outfit text-white flex items-center gap-2">
+                  <Mail className="w-5 h-5 text-purple-400" /> Interactive Composer
+                </h3>
+                <p className="text-slate-400 text-xs font-light mt-0.5">
+                  Draft a high-impact alignment introduction. Highly personalized.
+                </p>
+              </div>
 
-            {/* Email Narrative Body */}
-            <div className="flex-1 flex flex-col">
-              <textarea
-                value={body}
-                onChange={(e) => setBody(e.target.value)}
-                className="w-full h-[280px] bg-slate-900/40 border border-slate-800 rounded-xl p-4 text-slate-200 text-xs focus:outline-none focus:ring-1 focus:ring-purple-500/50 resize-none font-light leading-relaxed"
-              />
+              {/* To & Subject Inputs */}
+              <div className="space-y-3 text-sm">
+                <div className="flex items-center gap-3 bg-slate-900/60 border border-slate-850 px-3.5 py-2.5 rounded-xl">
+                  <span className="text-slate-500 font-semibold w-12 text-right font-mono text-xs">To:</span>
+                  <input
+                    type="email"
+                    value={to}
+                    onChange={(e) => setTo(e.target.value)}
+                    className="bg-transparent border-none text-slate-200 focus:outline-none flex-1 font-mono text-xs"
+                  />
+                </div>
+                <div className="flex items-center gap-3 bg-slate-900/60 border border-slate-850 px-3.5 py-2.5 rounded-xl">
+                  <span className="text-slate-500 font-semibold w-12 text-right font-mono text-xs">Subject:</span>
+                  <input
+                    type="text"
+                    value={subject}
+                    onChange={(e) => setSubject(e.target.value)}
+                    className="bg-transparent border-none text-slate-200 focus:outline-none flex-1 text-xs font-medium"
+                  />
+                </div>
+              </div>
+
+              {/* Email Narrative Body */}
+              <div className="flex-1 flex flex-col">
+                <textarea
+                  value={body}
+                  onChange={(e) => setBody(e.target.value)}
+                  className="w-full h-[280px] bg-slate-900/40 border border-slate-800 rounded-xl p-4 text-slate-200 text-xs focus:outline-none focus:ring-1 focus:ring-purple-500/50 resize-none font-light leading-relaxed"
+                />
+              </div>
+
+              {/* Control buttons */}
+              <div className="flex items-center justify-between border-t border-slate-800/80 pt-4 mt-2">
+                <button
+                  onClick={onCancel}
+                  disabled={sendState === 'sending'}
+                  className="px-4 py-2 rounded-xl text-slate-400 hover:text-white hover:bg-slate-800/60 transition-colors text-xs font-semibold flex items-center gap-1.5 cursor-pointer disabled:opacity-50"
+                >
+                  <FolderClosed className="w-4 h-4" /> Save Draft
+                </button>
+
+                {checkingAuth ? (
+                  <button
+                    disabled
+                    className="px-6 py-2.5 rounded-xl bg-slate-800 border border-slate-700 text-slate-400 font-semibold flex items-center gap-2 text-xs opacity-55"
+                  >
+                    Checking Google Sync... <RefreshCw className="w-3.5 h-3.5 animate-spin" />
+                  </button>
+                ) : isConnected ? (
+                  <button
+                    onClick={handleSendEmail}
+                    disabled={sendState === 'sending'}
+                    className="px-6 py-2.5 rounded-xl bg-gradient-to-r from-teal-500 to-purple-600 hover:from-teal-400 hover:to-purple-500 text-white font-semibold flex items-center gap-2 shadow-lg shadow-teal-500/10 glow-action transition-all text-xs cursor-pointer disabled:opacity-50"
+                  >
+                    Send via Gmail <Send className="w-3.5 h-3.5" />
+                  </button>
+                ) : (
+                  <button
+                    onClick={handleConnectGoogle}
+                    className="px-6 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-semibold flex items-center gap-2 shadow-lg shadow-blue-500/10 transition-all text-xs cursor-pointer"
+                  >
+                    Connect Gmail Account <Sparkles className="w-3.5 h-3.5" />
+                  </button>
+                )}
+              </div>
             </div>
+          )}
 
-            {/* Control buttons */}
-            <div className="flex items-center justify-between border-t border-slate-800/80 pt-4 mt-2">
-              <button
-                onClick={onCancel}
-                disabled={sendState === 'sending'}
-                className="px-4 py-2 rounded-xl text-slate-400 hover:text-white hover:bg-slate-800/60 transition-colors text-xs font-semibold flex items-center gap-1.5 cursor-pointer disabled:opacity-50"
-              >
-                <FolderClosed className="w-4 h-4" /> Save Draft
-              </button>
-
-              <button
-                onClick={handleSend}
-                disabled={sendState === 'sending'}
-                className="px-6 py-2.5 rounded-xl bg-gradient-to-r from-teal-500 to-purple-600 hover:from-teal-400 hover:to-purple-500 text-white font-semibold flex items-center gap-2 shadow-lg shadow-teal-500/10 glow-action transition-all text-xs cursor-pointer disabled:opacity-50"
-              >
-                Send via Gmail <Send className="w-3.5 h-3.5" />
-              </button>
-            </div>
-          </div>
-
-          {/* Dynamic Google OAuth mockup and sending modal */}
+          {/* Handshake Verification and Dispatching Overlays */}
           {sendState !== 'idle' && (
-            <div className="absolute inset-0 bg-slate-950/90 backdrop-blur-md flex flex-col items-center justify-center p-6 text-center animate-fade-in z-50">
-              {sendState === 'auth_prompt' && oauthStep === 1 && (
-                <div className="max-w-sm space-y-4">
-                  <div className="w-14 h-14 rounded-full bg-slate-900 border border-slate-800 flex items-center justify-center mx-auto shadow-md">
-                    <img
-                      src="https://www.google.com/images/branding/googleg/1x/googleg_standard_color_128dp.png"
-                      alt="Google Logo"
-                      className="w-6 h-6 object-contain"
-                    />
-                  </div>
-                  <h3 className="text-xl font-bold font-outfit text-white">Google OAuth Authentication</h3>
-                  <p className="text-slate-400 text-xs font-light leading-relaxed">
-                    LabMatch AI requests secure access to your Gmail account to dispatch cold outreach pitches directly from your collegiate inbox.
-                  </p>
-                  <div className="flex gap-3 justify-center pt-2">
-                    <button
-                      onClick={() => setSendState('idle')}
-                      className="px-4 py-2 rounded-xl bg-slate-900 border border-slate-800 text-slate-400 hover:text-white transition-colors text-xs font-semibold cursor-pointer"
-                    >
-                      Cancel
-                    </button>
-                    <button
-                      onClick={proceedOAuth}
-                      className="px-5 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-semibold text-xs transition-colors flex items-center gap-1.5 cursor-pointer shadow-lg shadow-blue-600/20"
-                    >
-                      Approve & Grant Gmail Access
-                    </button>
-                  </div>
-                </div>
-              )}
-
-              {sendState === 'auth_prompt' && oauthStep === 2 && (
-                <div className="space-y-4">
-                  <div className="w-12 h-12 border-2 border-t-blue-500 border-r-transparent border-slate-800 rounded-full animate-spin mx-auto" />
-                  <p className="text-white font-medium text-sm">Authenticating secure handshake tokens...</p>
-                  <p className="text-slate-500 text-xs font-light">Verifying credentials and scope permissions</p>
-                </div>
-              )}
-
+            <div className="absolute inset-0 bg-slate-950/95 backdrop-blur-md flex flex-col items-center justify-center p-6 text-center animate-fade-in z-50">
+              
               {sendState === 'sending' && (
-                <div className="space-y-4">
+                <div className="space-y-5">
                   <div className="w-12 h-12 border-2 border-t-purple-500 border-r-transparent border-slate-800 rounded-full animate-spin mx-auto" />
-                  <p className="text-white font-medium text-sm">Transmitting secure outbound packet to Dr. {match.pi_name.split(' ').pop()}...</p>
-                  <p className="text-slate-500 text-xs font-light">SMTP Secure Link • Gmail API Gateway</p>
+                  <div className="space-y-1">
+                    <p className="text-white font-semibold text-sm">Transmitting Secure Outbound Packet...</p>
+                    <p className="text-slate-400 text-xs font-light">Validating OAuth tokens • Constructing MIME body • Fetching PDF CV attachment</p>
+                  </div>
+                  <p className="text-teal-400 text-[10px] font-mono tracking-wider uppercase">Gmail API Gateway Secure Handshake</p>
                 </div>
               )}
 
@@ -250,8 +318,39 @@ export const EmailReview: React.FC<EmailReviewProps> = ({
                   </div>
                   <h3 className="text-xl font-bold font-outfit text-white">Outreach Dispatched!</h3>
                   <p className="text-slate-400 text-xs font-light leading-relaxed">
-                    The cold email has successfully transmitted and logged in your Gmail sent folder. Matches state synced to <strong className="text-slate-200">"emailed"</strong>.
+                    Your cold outreach email has successfully transmitted and logged in your Gmail sent folder. Matches state synced to <strong className="text-slate-200">"emailed"</strong>.
                   </p>
+                </div>
+              )}
+
+              {sendState === 'error' && (
+                <div className="space-y-4 max-w-sm animate-scale-up">
+                  <div className="w-14 h-14 rounded-full bg-rose-500/10 border border-rose-500/30 flex items-center justify-center mx-auto shadow-lg shadow-rose-500/10">
+                    <AlertCircle className="w-8 h-8 text-rose-400" />
+                  </div>
+                  <h3 className="text-xl font-bold font-outfit text-white">Transmission Failed</h3>
+                  <p className="text-slate-400 text-xs font-light leading-relaxed">
+                    {errorMsg || "The Gmail API gateway returned an unexpected response. Please re-authenticate your connection."}
+                  </p>
+                  <div className="flex gap-2 justify-center mt-2">
+                    <button
+                      onClick={() => setSendState('idle')}
+                      className="px-4 py-1.5 rounded-lg bg-slate-900 border border-slate-800 text-slate-300 hover:text-white transition-all text-xs font-semibold"
+                    >
+                      Modify Email & Retry
+                    </button>
+                    {(errorMsg.toLowerCase().includes("auth") || errorMsg.toLowerCase().includes("token") || errorMsg.toLowerCase().includes("invalid_grant")) && (
+                      <button
+                        onClick={() => {
+                          setSendState('idle');
+                          handleConnectGoogle();
+                        }}
+                        className="px-4 py-1.5 rounded-lg bg-blue-600/20 border border-blue-500/50 text-blue-400 hover:text-white hover:bg-blue-600/40 transition-all text-xs font-semibold"
+                      >
+                        Reconnect Gmail
+                      </button>
+                    )}
+                  </div>
                 </div>
               )}
             </div>

@@ -64,8 +64,7 @@ def generate_embedding(text: str) -> List[float]:
                     res_body = json.loads(response.read().decode("utf-8"))
                     return res_body["data"][0]["embedding"]
         except Exception as e:
-            # Silently log/warn and proceed to fallback so development doesn't break
-            warnings.warn(f"OpenAI embedding API call failed: {e}. Falling back to mock generator.")
+            warnings.warn(f"OpenAI embedding API call failed: {e}. Trying Gemini next.")
 
     # Attempt real Gemini embedding if API key is present
     if settings.gemini_api_key:
@@ -81,8 +80,7 @@ def generate_embedding(text: str) -> List[float]:
                 "model": "models/gemini-embedding-001",
                 "content": {
                     "parts": [{"text": text}]
-                },
-                "outputDimensionality": 1536
+                }
             }
             
             req = urllib.request.Request(
@@ -95,24 +93,19 @@ def generate_embedding(text: str) -> List[float]:
             with urllib.request.urlopen(req, timeout=5) as response:
                 if response.status == 200:
                     res_body = json.loads(response.read().decode("utf-8"))
-                    return res_body["embedding"]["values"]
+                    vec = res_body["embedding"]["values"]
+                    # Pad or truncate to 1536 dimensions to match database schema
+                    if len(vec) > 1536:
+                        vec = vec[:1536]
+                        import math
+                        sq_sum = sum(v * v for v in vec)
+                        norm = math.sqrt(sq_sum) if sq_sum > 0 else 1.0
+                        vec = [v / norm for v in vec]
+                    elif len(vec) < 1536:
+                        vec.extend([0.0] * (1536 - len(vec)))
+                    return vec
         except Exception as e:
-            warnings.warn(f"Gemini embedding API call failed: {e}. Falling back to mock generator.")
+            warnings.warn(f"Gemini embedding API call failed: {e}.")
 
-
-
-    # Fallback: Deterministic mock vector generation based on SHA-256 hash
-    hash_digest = hashlib.sha256(text.encode("utf-8")).digest()
-    raw_vals = []
-    for i in range(1536):
-        byte_val = hash_digest[(i * 7) % len(hash_digest)]
-        # Map byte 0..255 to a baseline value between -1.0 and 1.0
-        val = (byte_val - 128.0) / 128.0
-        # Overlay a sine wave to create index-specific variation
-        val += math.sin(i / 15.0)
-        raw_vals.append(val)
-        
-    # Normalize the vector to a unit length of 1.0 (vital for cosine similarity math)
-    sq_sum = sum(v * v for v in raw_vals)
-    norm = math.sqrt(sq_sum) if sq_sum > 0 else 1.0
-    return [v / norm for v in raw_vals]
+    # Raise an error instead of falling back to mock vectors
+    raise ValueError("Failed to generate embedding: No valid API key provided or API calls failed.")

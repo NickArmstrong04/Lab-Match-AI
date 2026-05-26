@@ -1,9 +1,10 @@
 import React, { useState, useRef } from 'react';
 import { Upload, FileText, CheckCircle2, AlertCircle, Sparkles, ChevronRight, RefreshCw } from 'lucide-react';
 import GlassCard from '../components/GlassCard';
+import api from '../api/axios';
 
 interface OnboardingProps {
-  onComplete: (data: { resumeName: string; researchInterests: string }) => void;
+  onComplete: (data: { resumeName: string; researchInterests: string; matches: any[]; studentId?: string; studentName?: string }) => void;
 }
 
 export const Onboarding: React.FC<OnboardingProps> = ({ onComplete }) => {
@@ -12,7 +13,10 @@ export const Onboarding: React.FC<OnboardingProps> = ({ onComplete }) => {
   const [uploadStatus, setUploadStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
   const [uploadProgress, setUploadProgress] = useState(0);
   const [researchInterests, setResearchInterests] = useState('');
+  const [fullName, setFullName] = useState('');
+  const [emailAddress, setEmailAddress] = useState('');
   const [errorMsg, setErrorMsg] = useState('');
+  const [isAnalyzing, setIsAnalyzing] = useState(false);
   
   const fileInputRef = useRef<HTMLInputElement>(null);
 
@@ -35,7 +39,7 @@ export const Onboarding: React.FC<OnboardingProps> = ({ onComplete }) => {
     }
   };
 
-  const simulateUpload = (selectedFile: File) => {
+  const uploadResume = async (selectedFile: File) => {
     if (selectedFile.type !== 'application/pdf') {
       setErrorMsg('Please upload a PDF file only.');
       setUploadStatus('error');
@@ -44,20 +48,14 @@ export const Onboarding: React.FC<OnboardingProps> = ({ onComplete }) => {
 
     setFile(selectedFile);
     setUploadStatus('loading');
-    setUploadProgress(0);
+    setUploadProgress(40);
     setErrorMsg('');
 
-    // Simulate upload progress
-    const interval = setInterval(() => {
-      setUploadProgress((prev) => {
-        if (prev >= 100) {
-          clearInterval(interval);
-          setUploadStatus('success');
-          return 100;
-        }
-        return prev + 10;
-      });
-    }, 120);
+    // Simulate premium local parsing progress prior to form submit
+    setTimeout(() => {
+      setUploadProgress(100);
+      setUploadStatus('success');
+    }, 600);
   };
 
   const handleDrop = (e: React.DragEvent) => {
@@ -66,13 +64,13 @@ export const Onboarding: React.FC<OnboardingProps> = ({ onComplete }) => {
     setDragActive(false);
 
     if (e.dataTransfer.files && e.dataTransfer.files[0]) {
-      simulateUpload(e.dataTransfer.files[0]);
+      uploadResume(e.dataTransfer.files[0]);
     }
   };
 
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.files && e.target.files[0]) {
-      simulateUpload(e.target.files[0]);
+      uploadResume(e.target.files[0]);
     }
   };
 
@@ -96,22 +94,64 @@ export const Onboarding: React.FC<OnboardingProps> = ({ onComplete }) => {
     });
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (!file) {
-      setErrorMsg('A professional CV or Resume (PDF) is required to parse competencies.');
-      setUploadStatus('error');
+    if (!file && !researchInterests.trim()) {
+      setErrorMsg('Please either upload a CV/Resume (PDF) OR detail your research interests.');
+      if (!file) setUploadStatus('error');
       return;
     }
-    if (!researchInterests.trim()) {
-      setErrorMsg('Please detail your research interests or project ideas.');
+    if (!fullName.trim() || !emailAddress.trim()) {
+      setErrorMsg('Please provide your Full Name and Email Address.');
       return;
     }
 
-    onComplete({
-      resumeName: file.name,
-      researchInterests: researchInterests,
-    });
+    setIsAnalyzing(true);
+    setErrorMsg('');
+
+    try {
+      const authId = crypto.randomUUID();
+      const name = fullName;
+      const email = emailAddress;
+
+      const formData = new FormData();
+      formData.append('auth_id', authId);
+      formData.append('name', name);
+      formData.append('email', email);
+      formData.append('research_interests', researchInterests);
+      if (file) {
+        formData.append('file', file);
+      }
+
+      // Trigger single-pass multipart analysis
+      const analyzeResp = await api.post('/profile/analyze', formData, {
+        headers: { 'Content-Type': 'multipart/form-data' }
+      });
+
+      const analyzeData = analyzeResp.data;
+      if (analyzeData.status !== 'success' && analyzeData.status !== 'partial_success') {
+        throw new Error(analyzeData.message || 'Profile synthesis failed.');
+      }
+
+      const studentId = analyzeData.student.id;
+      
+      // Fetch matched research grants
+      const matchResp = await api.get(`/grants/matches?student_id=${studentId}&threshold=0.2&limit=5`);
+      const matchedGrants = matchResp.data;
+
+      onComplete({
+        resumeName: file ? file.name : 'No Resume Provided',
+        researchInterests: researchInterests,
+        matches: matchedGrants,
+        studentId: studentId,
+        studentName: name,
+      });
+    } catch (err: any) {
+      console.error(err);
+      setErrorMsg(err.response?.data?.detail || err.message || 'Communication with the matching engine failed.');
+    } finally {
+      setIsAnalyzing(false);
+    }
   };
 
   return (
@@ -226,6 +266,25 @@ export const Onboarding: React.FC<OnboardingProps> = ({ onComplete }) => {
             </p>
 
             <div className="space-y-4">
+              <div className="flex gap-4">
+                <input
+                  type="text"
+                  value={fullName}
+                  onChange={(e) => setFullName(e.target.value)}
+                  placeholder="Full Name"
+                  className="w-full rounded-xl bg-slate-900/60 border border-slate-700/60 focus:border-purple-500/70 p-3 text-slate-200 placeholder-slate-500 focus:outline-none focus:ring-1 focus:ring-purple-500/50 text-sm font-light"
+                  required
+                />
+                <input
+                  type="email"
+                  value={emailAddress}
+                  onChange={(e) => setEmailAddress(e.target.value)}
+                  placeholder="Email Address"
+                  className="w-full rounded-xl bg-slate-900/60 border border-slate-700/60 focus:border-purple-500/70 p-3 text-slate-200 placeholder-slate-500 focus:outline-none focus:ring-1 focus:ring-purple-500/50 text-sm font-light"
+                  required
+                />
+              </div>
+
               <textarea
                 value={researchInterests}
                 onChange={(e) => setResearchInterests(e.target.value)}
@@ -256,9 +315,18 @@ export const Onboarding: React.FC<OnboardingProps> = ({ onComplete }) => {
           <div className="mt-8 pt-4 border-t border-slate-800/80 flex justify-end">
             <button
               type="submit"
-              className="px-6 py-3 rounded-xl bg-gradient-to-r from-teal-500 to-purple-600 hover:from-teal-400 hover:to-purple-500 text-white font-semibold flex items-center gap-2 shadow-lg shadow-teal-500/10 glow-action transition-all duration-300 text-sm cursor-pointer"
+              disabled={isAnalyzing || uploadStatus === 'loading'}
+              className="px-6 py-3 rounded-xl bg-gradient-to-r from-teal-500 to-purple-600 hover:from-teal-400 hover:to-purple-500 text-white font-semibold flex items-center gap-2 shadow-lg shadow-teal-500/10 glow-action transition-all duration-300 text-sm cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
             >
-              Analyze & Sync Matches <ChevronRight className="w-4 h-4" />
+              {isAnalyzing ? (
+                <>
+                  Synthesizing Profile... <RefreshCw className="w-4 h-4 animate-spin" />
+                </>
+              ) : (
+                <>
+                  Analyze & Sync Matches <ChevronRight className="w-4 h-4" />
+                </>
+              )}
             </button>
           </div>
         </GlassCard>
