@@ -85,6 +85,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
   // Load matches deck and rebuild queues based on database status on mount
   useEffect(() => {
     const fetchDeck = async () => {
+      if (!studentId || studentId === 'undefined') return;
       try {
         const response = await api.get(`/grants/matches?student_id=${studentId}&threshold=0.2&limit=10`);
         const fetchedMatches = response.data;

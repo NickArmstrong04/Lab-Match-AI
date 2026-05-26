@@ -233,7 +233,7 @@ async def parse_resume(
         
         response = db.table("students").upsert(
             student_data,
-            on_conflict="auth_id"
+            on_conflict="email"
         ).execute()
         
         if hasattr(response, 'data') and response.data:
@@ -248,6 +248,7 @@ async def parse_resume(
             return {
                 "status": "success",
                 "student": {
+                    "id": auth_id,
                     "auth_id": auth_id,
                     "name": name,
                     "email": email,
@@ -261,6 +262,7 @@ async def parse_resume(
             "status": "partial_success",
             "message": f"Saved profile locally (Supabase write bypassed: {str(e)})",
             "student": {
+                "id": auth_id,
                 "auth_id": auth_id,
                 "name": name,
                 "email": email,
@@ -342,7 +344,7 @@ async def analyze_profile(
         
         response = db.table("students").upsert(
             student_data,
-            on_conflict="auth_id"
+            on_conflict="email"
         ).execute()
         
         if hasattr(response, 'data') and response.data:
@@ -357,6 +359,7 @@ async def analyze_profile(
             return {
                 "status": "success",
                 "student": {
+                    "id": auth_id,
                     "auth_id": auth_id,
                     "name": name,
                     "email": email,
@@ -371,6 +374,7 @@ async def analyze_profile(
             "status": "partial_success",
             "message": f"Profile analyzed but database write failed: {str(e)}",
             "student": {
+                "id": auth_id,
                 "auth_id": auth_id,
                 "name": name,
                 "email": email,

@@ -94,7 +94,7 @@ def scan_methodologies(title: str, abstract: str) -> List[str]:
         methodologies = ["Research Analysis"]
     return methodologies
 
-def fetch_nih_grants(keywords: List[str], limit: int = 15) -> List[dict]:
+def fetch_nih_grants(keywords: List[str], limit: int = 15, offset: int = 0) -> List[dict]:
     """
     Fetch active, funded projects from NIH RePORTER API v2 matching keywords.
     """
@@ -112,7 +112,7 @@ def fetch_nih_grants(keywords: List[str], limit: int = 15) -> List[dict]:
             }
         },
         "limit": limit,
-        "offset": 0,
+        "offset": offset,
         "sort_field": "project_start_date",
         "sort_order": "desc"
     }
@@ -186,7 +186,7 @@ def fetch_nih_grants(keywords: List[str], limit: int = 15) -> List[dict]:
         
     return []
 
-def fetch_nsf_grants(keywords: List[str], limit: int = 15) -> List[dict]:
+def fetch_nsf_grants(keywords: List[str], limit: int = 15, offset: int = 0) -> List[dict]:
     """
     Fetch active projects from NSF Award Search API matching keywords.
     """
@@ -194,7 +194,7 @@ def fetch_nsf_grants(keywords: List[str], limit: int = 15) -> List[dict]:
     search_term = "+OR+".join(urllib.parse.quote(f'"{kw}"') for kw in keywords)
     fields = "id,title,startDate,expDate,abstractText,fundsObligatedAmt,pdPIName,awardeeName"
     
-    url = f"https://api.nsf.gov/services/v1/awards.json?ActiveAwards=True&keyword={search_term}&printFields={fields}&rpp={limit}"
+    url = f"https://api.nsf.gov/services/v1/awards.json?ActiveAwards=True&keyword={search_term}&printFields={fields}&rpp={limit}&offset={offset}"
     
     try:
         req = urllib.request.Request(url, method="GET")
@@ -240,7 +240,7 @@ def fetch_nsf_grants(keywords: List[str], limit: int = 15) -> List[dict]:
         
     return []
 
-def run_grant_ingestion(keywords: List[str] = None, limit: int = 15) -> dict:
+def run_grant_ingestion(keywords: List[str] = None, limit: int = 15, offset: int = 0) -> dict:
     """
     Ingest research awards from NIH & NSF, deduplicate, calculate embeddings, and save to Supabase.
     """
@@ -250,8 +250,8 @@ def run_grant_ingestion(keywords: List[str] = None, limit: int = 15) -> dict:
     print(f"Starting grant ingestion for keywords: {keywords}")
     
     # 1. Fetch from APIs
-    nih_list = fetch_nih_grants(keywords, limit=limit)
-    nsf_list = fetch_nsf_grants(keywords, limit=limit)
+    nih_list = fetch_nih_grants(keywords, limit=limit, offset=offset)
+    nsf_list = fetch_nsf_grants(keywords, limit=limit, offset=offset)
     
     combined_grants = nih_list + nsf_list
     print(f"Fetched {len(nih_list)} NIH grants and {len(nsf_list)} NSF awards. Total: {len(combined_grants)}")

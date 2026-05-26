@@ -133,7 +133,10 @@ export const Onboarding: React.FC<OnboardingProps> = ({ onComplete }) => {
         throw new Error(analyzeData.message || 'Profile synthesis failed.');
       }
 
-      const studentId = analyzeData.student.id;
+      const studentId = analyzeData.student.id || analyzeData.student.auth_id;
+      if (!studentId || studentId === 'undefined') {
+        throw new Error('Failed to retrieve a valid student ID from profile analysis.');
+      }
       
       // Fetch matched research grants
       const matchResp = await api.get(`/grants/matches?student_id=${studentId}&threshold=0.2&limit=5`);

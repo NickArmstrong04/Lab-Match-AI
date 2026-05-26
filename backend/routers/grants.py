@@ -2,10 +2,18 @@ from fastapi import APIRouter, HTTPException, Query, BackgroundTasks
 from typing import List, Optional
 from pydantic import BaseModel
 import warnings
+import uuid
 from ..database import get_db
 from ..services.ingest import run_grant_ingestion
 
 router = APIRouter()
+
+def validate_uuid(uuid_str: str, name: str = "ID") -> None:
+    try:
+        uuid.UUID(uuid_str)
+    except ValueError:
+        raise HTTPException(status_code=400, detail=f"Invalid {name} format. Must be a valid UUID.")
+
 
 @router.get("/")
 async def get_grants():
@@ -36,6 +44,11 @@ async def match_student_to_grants(
     Perform semantic matching using the pgvector match_grants database stored function.
     Pulls the student profile vector and runs a Cosine Similarity match against all cached grants.
     """
+    validate_uuid(student_id, "student_id")
+    if hasattr(threshold, "default"):
+        threshold = threshold.default
+    if hasattr(limit, "default"):
+        limit = limit.default
     try:
         db = get_db()
         
@@ -164,6 +177,13 @@ async def get_matches(
     Matchmaker scoring endpoint that calculates compatibility scores by matching the student's
     extracted competencies against grant abstracts using embedding cosine similarity, keyword overlap, or hybrid methods.
     """
+    validate_uuid(student_id, "student_id")
+    if hasattr(weight, "default"):
+        weight = weight.default
+    if hasattr(limit, "default"):
+        limit = limit.default
+    if hasattr(threshold, "default"):
+        threshold = threshold.default
     try:
         db = get_db()
         
@@ -360,6 +380,8 @@ async def update_match_state(req: MatchStateRequest):
     """
     Upsert the match status (saved, skipped, emailed) for a student and grant.
     """
+    validate_uuid(req.student_id, "student_id")
+    validate_uuid(req.grant_id, "grant_id")
     try:
         db = get_db()
         
