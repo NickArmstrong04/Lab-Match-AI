@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { X, Heart, Mail, Sparkles, Building, Calendar, DollarSign, ArrowRight, Award, Trash2, RefreshCw } from 'lucide-react';
+import { X, Heart, Mail, Sparkles, Building, Calendar, DollarSign, ArrowLeft, ArrowRight, Award, Trash2, RefreshCw } from 'lucide-react';
 import GlassCard from '../components/GlassCard';
 import CircularScore from '../components/CircularScore';
 import api from '../api/axios';
@@ -219,20 +219,17 @@ export const Dashboard: React.FC<DashboardProps> = ({
 
   return (
     <div className="w-full max-w-7xl mx-auto px-4 py-6 animate-fade-in">
-      <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
+      <div className="flex flex-col lg:flex-row gap-8 min-h-0">
         
-        {/* Left 25% Sidebar - Saved Matches Queue */}
-        <div className="lg:col-span-1 space-y-6">
-          <GlassCard className="h-[600px] flex flex-col justify-between" glowColor="none">
-            <div className="flex flex-col h-full overflow-hidden">
-              <div className="border-b border-slate-800/80 pb-4 mb-4 flex items-center justify-between gap-2">
+        {/* Left 25% Sidebar — locked height; saved list scrolls inside */}
+        <div className="w-full lg:w-1/4 dashboard-panel-shell">
+          <GlassCard className="w-full h-full flex flex-col overflow-hidden" glowColor="none">
+            <div className="flex flex-col flex-1 min-h-0 overflow-hidden">
+              <div className="shrink-0 border-b border-stone-200 pb-4 mb-4 flex items-center justify-between gap-2">
                 <div>
-                  <h3 className="text-xl font-bold font-outfit text-white flex items-center gap-2">
-                    <Heart className="w-5 h-5 text-rose-500 fill-rose-500/20" /> Pipeline Alignment
+                  <h3 className="text-xl font-semibold font-outfit text-stone-900 flex items-center gap-2">
+                    <Heart className="w-5 h-5 text-rose-600 fill-rose-100" /> Saved Labs
                   </h3>
-                  <p className="text-slate-400 text-xs font-light mt-1">
-                    Saved labs matching {studentName.split(' ')[0]}'s profile.
-                  </p>
                 </div>
                 <button
                   type="button"
@@ -240,12 +237,12 @@ export const Dashboard: React.FC<DashboardProps> = ({
                   disabled={isSyncing}
                   className={`p-2 rounded-lg border transition-all duration-200 cursor-pointer flex items-center justify-center shrink-0
                     ${isSyncing 
-                      ? 'bg-purple-500/10 border-purple-500/30 text-purple-400' 
+                      ? 'bg-stone-100 border-stone-300 text-stone-600' 
                       : syncStatus === 'success'
-                        ? 'bg-teal-500/10 border-teal-500/30 text-teal-400 animate-pulse'
+                        ? 'bg-[#e6f0f0] border-[#c5dddd] text-[#0d5c5c]'
                         : syncStatus === 'error'
-                          ? 'bg-rose-500/10 border-rose-500/30 text-rose-400'
-                          : 'bg-slate-900/60 border-slate-800 hover:border-slate-700 text-slate-400 hover:text-white'}
+                          ? 'bg-rose-50 border-rose-200 text-rose-700'
+                          : 'bg-stone-50 border-stone-200 hover:border-stone-300 text-stone-500 hover:text-stone-800'}
                   `}
                   title="Synchronize Live NIH/NSF Awards"
                 >
@@ -253,15 +250,15 @@ export const Dashboard: React.FC<DashboardProps> = ({
                 </button>
               </div>
 
-              {/* Saved matches list scrollable viewport */}
-              <div className="flex-1 overflow-y-auto space-y-3 pr-1">
+              {/* Saved matches list — scroll when more than fit in the fixed panel */}
+              <div className="flex-1 min-h-0 overflow-y-auto overscroll-y-contain space-y-3 pr-1">
                 {savedMatches.length === 0 ? (
                   <div className="h-full flex flex-col items-center justify-center text-center p-4">
-                    <div className="w-12 h-12 rounded-full bg-slate-900 border border-slate-800 flex items-center justify-center mb-3">
-                      <Sparkles className="w-5 h-5 text-slate-500" />
+                    <div className="w-12 h-12 rounded-full bg-stone-100 border border-stone-200 flex items-center justify-center mb-3">
+                      <Sparkles className="w-5 h-5 text-stone-400" />
                     </div>
-                    <p className="text-slate-500 text-sm font-medium">No saved matches yet</p>
-                    <p className="text-slate-600 text-xs mt-1 font-light leading-relaxed">
+                    <p className="text-stone-600 text-sm font-medium">No saved matches yet</p>
+                    <p className="text-stone-500 text-xs mt-1 leading-relaxed">
                       Swipe RIGHT or click SAVE on labs in the deck to save them here.
                     </p>
                   </div>
@@ -275,26 +272,26 @@ export const Dashboard: React.FC<DashboardProps> = ({
                         className={`
                           p-3.5 rounded-xl border transition-all duration-200 cursor-pointer flex items-start justify-between gap-2 group
                           ${isActive 
-                            ? 'bg-purple-950/20 border-purple-500/50 shadow-[0_0_15px_rgba(168,85,247,0.1)]' 
-                            : 'bg-slate-900/40 border-slate-800/80 hover:border-slate-700 hover:bg-slate-900/80'}
+                            ? 'bg-[#e8eef1] border-[#1e3a4a]/40' 
+                            : 'bg-stone-50 border-stone-200 hover:border-stone-300 hover:bg-white'}
                         `}
                       >
                         <div className="min-w-0">
                           <span className={`inline-block text-[9px] px-2 py-0.5 rounded-full font-bold font-mono tracking-wide uppercase mb-1.5
-                            ${m.agency === 'NIH' ? 'bg-blue-500/10 text-blue-400 border border-blue-500/20' : 'bg-green-500/10 text-green-400 border border-green-500/20'}
+                            ${m.agency === 'NIH' ? 'bg-blue-50 text-blue-800 border border-blue-200' : 'bg-emerald-50 text-emerald-800 border border-emerald-200'}
                           `}>
                             {m.agency} • {m.score}%
                           </span>
-                          <h4 className="text-slate-200 text-sm font-bold truncate group-hover:text-white transition-colors">
+                          <h4 className="text-stone-800 text-sm font-semibold truncate group-hover:text-stone-900 transition-colors">
                             {m.pi_name}
                           </h4>
-                          <p className="text-slate-400 text-xs truncate mt-0.5 font-light">
+                          <p className="text-stone-500 text-xs truncate mt-0.5">
                             {m.institution}
                           </p>
                         </div>
                         <button
                           onClick={(e) => handleRemoveSaved(m.id, e)}
-                          className="text-slate-500 hover:text-rose-400 p-1 rounded-lg hover:bg-slate-800/80 transition-all cursor-pointer shrink-0"
+                          className="text-stone-400 hover:text-rose-700 p-1 rounded-lg hover:bg-rose-50 transition-all cursor-pointer shrink-0"
                           title="Remove Match"
                         >
                           <Trash2 className="w-3.5 h-3.5" />
@@ -306,10 +303,10 @@ export const Dashboard: React.FC<DashboardProps> = ({
               </div>
 
               {/* Quick Resume info bar */}
-              <div className="border-t border-slate-800/80 pt-4 mt-4 text-xs font-light text-slate-400">
-                <div className="flex items-center justify-between text-slate-500 font-medium mb-1">
+              <div className="shrink-0 border-t border-stone-200 pt-4 mt-4 text-xs text-stone-600">
+                <div className="flex items-center justify-between text-stone-500 font-medium mb-1">
                   <span>narrative parsing</span>
-                  <span className="text-teal-400 font-semibold">Active</span>
+                  <span className="text-[#0d5c5c] font-semibold">Active</span>
                 </div>
                 <p className="truncate italic">"{researchInterests}"</p>
               </div>
@@ -317,25 +314,12 @@ export const Dashboard: React.FC<DashboardProps> = ({
           </GlassCard>
         </div>
 
-        {/* Right 75% Viewport - Detailed Swipe Deck card */}
-        <div className="lg:col-span-3 space-y-6">
-          {inspectedMatch && (
-            <div className="flex items-center justify-between">
-              <button
-                onClick={handleReturnToDeck}
-                className="px-4 py-2 rounded-xl bg-slate-900/60 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800/60 font-semibold text-xs transition-all flex items-center gap-1.5 cursor-pointer"
-              >
-                ← Back to Swipe Deck
-              </button>
-              <div className="text-xs text-purple-400 font-mono flex items-center gap-1">
-                <Sparkles className="w-3 h-3 animate-pulse" /> INSPECT MODE
-              </div>
-            </div>
-          )}
-
+        {/* Right 75% Viewport — same locked height as saved labs; body scrolls inside */}
+        <div className="w-full lg:flex-1 min-w-0 dashboard-panel-shell flex flex-col min-h-0 overflow-hidden">
            {currentMatch ? (
             <div
               className={`
+                flex-1 flex flex-col min-h-0 overflow-hidden
                 transition-all duration-300 select-none
                 ${swipeDirection === 'left' ? 'swipe-left' : ''}
                 ${swipeDirection === 'right' ? 'swipe-right' : ''}
@@ -391,43 +375,38 @@ export const Dashboard: React.FC<DashboardProps> = ({
                 setDragOffset({ x: 0, y: 0 });
               }}
             >
-              <GlassCard className="relative overflow-hidden min-h-[500px] flex flex-col justify-between" glowColor={getDynamicGlow()}>
-                {/* Visual Accent Glow according to score */}
-                <div className={`absolute top-0 left-0 w-full h-[4px] bg-gradient-to-r 
-                  ${currentMatch.score >= 90 ? 'from-teal-500/50 via-emerald-500/80 to-teal-500/50' : 'from-purple-500/50 via-teal-500/80 to-purple-500/50'}
-                `} />
-
-                <div>
+              <GlassCard className="relative overflow-hidden h-full flex flex-col" glowColor={getDynamicGlow()}>
+                <div className="flex-1 min-h-0 overflow-y-auto overscroll-y-contain pr-1">
                   {/* Top segment: PI metadata & Score */}
-                  <div className="flex flex-col md:flex-row md:items-start justify-between gap-6 border-b border-slate-800/80 pb-6 mb-6">
-                    <div className="space-y-3 max-w-xl">
+                  <div className="flex flex-col md:flex-row md:items-start gap-4 md:gap-6 border-b border-stone-200 pb-6 mb-6">
+                    <div className="flex-1 min-w-0 space-y-3 md:pr-2">
+                      <h2 className="text-2xl md:text-3xl font-semibold text-stone-900 font-outfit tracking-tight leading-snug">
+                        {currentMatch.title}
+                      </h2>
+
                       <div className="flex flex-wrap items-center gap-2">
                         <span className={`px-2.5 py-1 rounded-full text-xs font-bold font-mono tracking-wider border
                           ${currentMatch.agency === 'NIH' 
-                            ? 'bg-blue-500/10 text-blue-400 border-blue-500/30' 
-                            : 'bg-green-500/10 text-green-400 border-green-500/30'}
+                            ? 'bg-blue-50 text-blue-800 border-blue-200' 
+                            : 'bg-emerald-50 text-emerald-800 border-emerald-200'}
                         `}>
                           {currentMatch.agency} FUNDED
                         </span>
-                        <span className="px-2.5 py-1 rounded-full bg-slate-900 border border-slate-800 text-slate-300 text-xs font-medium font-mono">
+                        <span className="px-2.5 py-1 rounded-full bg-stone-100 border border-stone-200 text-stone-700 text-xs font-medium font-mono">
                           ROLE: {currentMatch.recommended_role}
                         </span>
                       </div>
 
-                      <h2 className="text-2xl md:text-3xl font-extrabold text-white font-outfit tracking-tight">
-                        {currentMatch.title}
-                      </h2>
-
                       {/* PI and Location details */}
-                      <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm text-slate-400">
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm text-stone-600">
                         <div className="flex items-center gap-2">
-                          <Building className="w-4 h-4 text-slate-500 shrink-0" />
+                          <Building className="w-4 h-4 text-stone-400 shrink-0" />
                           <span>
-                            <strong className="text-slate-200">{currentMatch.pi_name}</strong> • {currentMatch.department}
+                            <strong className="text-stone-800">{currentMatch.pi_name}</strong> • {currentMatch.department}
                           </span>
                         </div>
                         <div className="flex items-center gap-2">
-                          <Award className="w-4 h-4 text-slate-500 shrink-0" />
+                          <Award className="w-4 h-4 text-stone-400 shrink-0" />
                           <span className="truncate">{currentMatch.institution}</span>
                         </div>
                       </div>
@@ -441,23 +420,22 @@ export const Dashboard: React.FC<DashboardProps> = ({
 
                   {/* High contrast matching methodology tags */}
                   <div className="mb-6 space-y-3">
-                    <h4 className="text-xs font-bold text-slate-400 uppercase tracking-widest flex items-center gap-1.5">
-                      <Sparkles className="w-3.5 h-3.5 text-teal-400" /> Alignment Score Logic
+                    <h4 className="text-xs font-semibold text-stone-500 uppercase tracking-widest flex items-center gap-1.5">
+                      <Sparkles className="w-3.5 h-3.5 text-[#0d5c5c]" /> Alignment Score Logic
                     </h4>
                     <div className="flex flex-wrap gap-2">
                       {currentMatch.matching_skills.map((skill, index) => (
                         <span
                           key={index}
-                          className="px-2.5 py-1 rounded-lg text-xs font-semibold bg-teal-500/10 border border-teal-500/30 text-teal-300 flex items-center gap-1.5 shadow-[0_0_10px_rgba(45,212,191,0.05)]"
+                          className="px-2.5 py-1 rounded-full text-xs font-medium bg-[#e6f0f0] border border-[#c5dddd] text-[#0d5c5c]"
                         >
-                          <span className="w-1.5 h-1.5 rounded-full bg-teal-400 animate-pulse" />
                           {skill}
                         </span>
                       ))}
                       {currentMatch.missing_skills.map((skill, index) => (
                         <span
                           key={index}
-                          className="px-2.5 py-1 rounded-lg text-xs font-semibold bg-slate-900 border border-slate-800 text-slate-400"
+                          className="px-2.5 py-1 rounded-full text-xs font-medium bg-stone-100 border border-stone-200 text-stone-600"
                         >
                           {skill}
                         </span>
@@ -466,74 +444,75 @@ export const Dashboard: React.FC<DashboardProps> = ({
                   </div>
 
                   {/* Financial & Timeframe highlights bar */}
-                  <div className="grid grid-cols-2 md:grid-cols-3 gap-4 p-4 rounded-xl bg-slate-900/60 border border-slate-800/80 mb-6 text-sm">
+                  <div className="grid grid-cols-2 md:grid-cols-3 gap-4 p-4 rounded-lg bg-stone-50 border border-stone-200 mb-6 text-sm">
                     <div className="space-y-1">
-                      <div className="text-slate-500 text-xs font-medium uppercase tracking-wider flex items-center gap-1">
+                      <div className="text-stone-500 text-xs font-medium uppercase tracking-wider flex items-center gap-1">
                         <DollarSign className="w-3.5 h-3.5 shrink-0" /> Award Amount
                       </div>
-                      <div className="text-teal-400 font-bold font-mono">
+                      <div className="text-[#0d5c5c] font-bold font-mono">
                         ${currentMatch.award_amount.toLocaleString()}
                       </div>
                     </div>
                     <div className="space-y-1">
-                      <div className="text-slate-500 text-xs font-medium uppercase tracking-wider flex items-center gap-1">
+                      <div className="text-stone-500 text-xs font-medium uppercase tracking-wider flex items-center gap-1">
                         <Calendar className="w-3.5 h-3.5 shrink-0" /> Project Horizon
                       </div>
-                      <div className="text-slate-200 font-medium font-mono text-xs">
+                      <div className="text-stone-800 font-medium font-mono text-xs">
                         {new Date(currentMatch.project_start).toLocaleDateString(undefined, { year: 'numeric', month: 'short' })} – {new Date(currentMatch.project_end).toLocaleDateString(undefined, { year: 'numeric', month: 'short' })}
                       </div>
                     </div>
                     <div className="col-span-2 md:col-span-1 space-y-1">
-                      <div className="text-slate-500 text-xs font-medium uppercase tracking-wider">
+                      <div className="text-stone-500 text-xs font-medium uppercase tracking-wider">
                         PI Contact Endpoint
                       </div>
-                      <div className="text-slate-300 font-mono text-xs truncate">
+                      <div className="text-stone-700 font-mono text-xs truncate">
                         {currentMatch.pi_email}
                       </div>
                     </div>
                   </div>
 
                   {/* Abstract preview */}
-                  <div className="space-y-2 mb-6">
-                    <h4 className="text-xs font-bold text-slate-400 uppercase tracking-widest">
+                  <div className="space-y-2">
+                    <h4 className="text-xs font-semibold text-stone-500 uppercase tracking-widest">
                       Grant Abstract & Project Synthesis
                     </h4>
-                    <p className="text-slate-300 font-light leading-relaxed text-sm h-36 overflow-y-auto pr-1">
+                    <p className="text-stone-700 leading-relaxed text-sm">
                       {currentMatch.abstract}
                     </p>
                   </div>
                 </div>
 
                 {/* Bottom Swipe and outreach controllers */}
-                <div className="border-t border-slate-800/80 pt-6 flex flex-col md:flex-row items-center justify-between gap-4">
+                <div className="shrink-0 border-t border-stone-200 pt-6 mt-4 flex flex-col md:flex-row items-center justify-between gap-4">
                   {/* Left swipe deck buttons */}
                   {!inspectedMatch ? (
                     <div className="flex items-center gap-4">
                       <button
                         onClick={() => handleSwipe('left')}
-                        className="w-12 h-12 rounded-full bg-slate-900 border border-slate-800 text-slate-400 hover:text-rose-400 hover:border-rose-500/40 hover:bg-rose-950/15 flex items-center justify-center transition-all duration-200 group cursor-pointer shadow-md"
+                        className="w-12 h-12 rounded-full bg-white border border-stone-300 text-stone-500 hover:text-rose-700 hover:border-rose-300 hover:bg-rose-50 flex items-center justify-center transition-all duration-200 group cursor-pointer shadow-sm"
                         title="Skip Lab"
                       >
                         <X className="w-5 h-5 group-hover:scale-110 transition-transform" />
                       </button>
                       <button
                         onClick={() => handleSwipe('right')}
-                        className="w-12 h-12 rounded-full bg-slate-900 border border-slate-800 text-slate-400 hover:text-teal-400 hover:border-teal-500/40 hover:bg-teal-950/15 flex items-center justify-center transition-all duration-200 group cursor-pointer shadow-md"
+                        className="w-12 h-12 rounded-full bg-white border border-stone-300 text-stone-500 hover:text-[#0d5c5c] hover:border-[#c5dddd] hover:bg-[#f4f9f9] flex items-center justify-center transition-all duration-200 group cursor-pointer shadow-sm"
                         title="Save Lab Match"
                       >
                         <Heart className="w-5 h-5 group-hover:scale-110 transition-transform" />
                       </button>
-                      <span className="text-slate-500 text-xs font-light italic">
+                      <span className="text-stone-500 text-xs italic">
                         Swipe deck: {currentIndex + 1} of {activeDeck.length} matching
                       </span>
                     </div>
                   ) : (
                     <div className="flex items-center gap-3">
                       <button
+                        type="button"
                         onClick={handleReturnToDeck}
-                        className="px-4 py-2 rounded-xl bg-slate-900 border border-slate-800 text-slate-400 hover:text-white transition-colors text-xs font-semibold cursor-pointer"
+                        className="flex items-center gap-1.5 p-0 border-0 bg-transparent text-xs font-semibold text-stone-600 transition-colors hover:text-blue-600 cursor-pointer"
                       >
-                        Return to Active Deck
+                        <ArrowLeft className="w-4 h-4" /> Return to Active Deck
                       </button>
                     </div>
                   )}
@@ -541,18 +520,22 @@ export const Dashboard: React.FC<DashboardProps> = ({
                   {/* Primary interactive Gmail Outreach triggers */}
                   <button
                     onClick={() => onInitiateOutreach(currentMatch)}
-                    className="w-full md:w-auto px-6 py-3 rounded-xl bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-500 hover:to-indigo-500 text-white font-semibold flex items-center justify-center gap-2 shadow-lg shadow-purple-600/10 hover:shadow-purple-600/20 active:scale-98 transition-all cursor-pointer text-sm font-outfit"
+                    className="w-full md:w-auto btn-primary"
                   >
-                    Draft Cold Outreach <Mail className="w-4 h-4" />
+                    <span className="inline-flex items-start gap-2 leading-none">
+                      <Mail className="size-[1em] shrink-0" aria-hidden />
+                      Draft Cold Outreach
+                    </span>
                   </button>
                 </div>
               </GlassCard>
             </div>
           ) : (
-            <GlassCard className="h-[500px] flex flex-col items-center justify-center text-center p-8" glowColor="teal">
-              <Sparkles className="w-16 h-16 text-teal-400 animate-bounce mb-6" />
-              <h2 className="text-3xl font-bold font-outfit text-white mb-2">Deck Fully Evaluated!</h2>
-              <p className="text-slate-400 text-md font-light max-w-md mx-auto leading-relaxed mb-6">
+            <div className="flex-1 min-h-0">
+            <GlassCard className="h-full flex flex-col items-center justify-center text-center p-8 overflow-hidden" glowColor="teal">
+              <Sparkles className="w-14 h-14 text-[#0d5c5c] mb-6" />
+              <h2 className="text-3xl font-semibold font-outfit text-stone-900 mb-2">Deck Fully Evaluated!</h2>
+              <p className="text-stone-600 text-md max-w-md mx-auto leading-relaxed mb-6">
                 You've successfully audited all research alignments for your current profile vector. 
                 Inspect your pipeline in the left sidebar to draft outreach emails or reset lists below to retry.
               </p>
@@ -562,12 +545,13 @@ export const Dashboard: React.FC<DashboardProps> = ({
                     setSkippedMatches([]);
                     setCurrentIndex(0);
                   }}
-                  className="px-5 py-2.5 rounded-xl bg-slate-900 border border-slate-800 text-slate-300 hover:text-white hover:border-slate-700 transition-colors text-sm font-semibold cursor-pointer flex items-center gap-2"
+                  className="px-5 py-2.5 rounded-lg bg-white border border-stone-300 text-stone-700 hover:text-stone-900 hover:border-stone-400 transition-colors text-sm font-semibold cursor-pointer flex items-center gap-2"
                 >
                   <ArrowRight className="w-4 h-4 rotate-180" /> Reset Skipped Queue
                 </button>
               </div>
             </GlassCard>
+            </div>
           )}
         </div>
 

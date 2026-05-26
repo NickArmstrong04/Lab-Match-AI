@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Sparkles, GraduationCap, LayoutDashboard, Send, Mail, User, Info, FileText } from 'lucide-react';
+import { Mail, User, Info, FileText } from 'lucide-react';
 import Onboarding from './pages/Onboarding';
 import Dashboard, { type GrantMatch } from './pages/Dashboard';
 import EmailReview from './pages/EmailReview';
@@ -76,70 +76,81 @@ function App() {
     <div className="min-h-screen flex flex-col justify-between">
       
       {/* Top Navbar */}
-      <header className="sticky top-0 w-full glass-panel border-b border-white/5 bg-[#080d1a]/85 backdrop-blur-md z-40 transition-all duration-300">
-        <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
+      <header className="sticky top-0 w-full glass-panel border-b border-stone-200/80 z-40">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 h-[4.25rem] flex items-center justify-between gap-4">
           
           {/* Logo brand */}
-          <div className="flex items-center gap-2.5 cursor-pointer" onClick={() => setView(isOnboarded ? 'dashboard' : 'onboarding')}>
-            <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-teal-400 to-purple-600 flex items-center justify-center shadow-lg shadow-teal-500/20">
-              <Sparkles className="w-5 h-5 text-white" />
-            </div>
-            <span className="font-extrabold font-outfit text-xl bg-gradient-to-r from-teal-400 to-purple-400 bg-clip-text text-transparent tracking-tight">
+          <div className="flex items-center gap-2.5 cursor-pointer shrink-0" onClick={() => setView(isOnboarded ? 'dashboard' : 'onboarding')}>
+            <img
+              src="/labmatch-icon.png"
+              alt=""
+              width={36}
+              height={36}
+              className="w-9 h-9 object-contain shrink-0"
+            />
+            <span className="font-semibold font-outfit text-lg text-stone-900 tracking-tight">
               LabMatch AI
             </span>
           </div>
 
-          {/* Stepper / Tab Navs */}
-          <nav className="hidden md:flex items-center gap-2 text-xs font-semibold">
+          {/* Step progress navigation */}
+          <nav className="hidden md:flex step-progress" aria-label="Application steps">
             <button
+              type="button"
               onClick={() => setView('onboarding')}
-              className={`px-4 py-2 rounded-xl transition-all duration-300 flex items-center gap-1.5 cursor-pointer
-                ${view === 'onboarding' 
-                  ? 'bg-teal-500/10 text-teal-400 border border-teal-500/20' 
-                  : 'text-slate-400 hover:text-slate-200'}
-              `}
+              className={`step-progress-item cursor-pointer ${view === 'onboarding' ? 'is-active' : isOnboarded ? 'is-complete' : ''}`}
             >
-              <GraduationCap className="w-4 h-4" /> 1. Profile narrative
+              <span className="step-progress-marker">1</span>
+              <span className="hidden lg:inline">Profile narrative</span>
             </button>
+            <span className="step-progress-connector" aria-hidden="true" />
             <button
+              type="button"
               onClick={() => {
                 if (isOnboarded) setView('dashboard');
               }}
               disabled={!isOnboarded}
-              className={`px-4 py-2 rounded-xl transition-all duration-300 flex items-center gap-1.5 disabled:opacity-40 disabled:cursor-not-allowed cursor-pointer
-                ${view === 'dashboard' 
-                  ? 'bg-teal-500/10 text-teal-400 border border-teal-500/20' 
-                  : 'text-slate-400 hover:text-slate-200'}
-              `}
+              className={`step-progress-item disabled:opacity-45 disabled:cursor-not-allowed cursor-pointer ${
+                view === 'dashboard' ? 'is-active' : isOnboarded && view !== 'onboarding' ? 'is-complete' : ''
+              }`}
             >
-              <LayoutDashboard className="w-4 h-4" /> 2. Alignment Swiper
+              <span className="step-progress-marker">2</span>
+              <span className="hidden lg:inline">Alignment Swiper</span>
             </button>
+            <span className="step-progress-connector" aria-hidden="true" />
             <button
+              type="button"
               onClick={() => {
                 if (isOnboarded && activeOutreachMatch) setView('email_review');
               }}
               disabled={!isOnboarded || !activeOutreachMatch}
-              className={`px-4 py-2 rounded-xl transition-all duration-300 flex items-center gap-1.5 disabled:opacity-40 disabled:cursor-not-allowed cursor-pointer
-                ${view === 'email_review' 
-                  ? 'bg-teal-500/10 text-teal-400 border border-teal-500/20' 
-                  : 'text-slate-400 hover:text-slate-200'}
-              `}
+              className={`step-progress-item disabled:opacity-45 disabled:cursor-not-allowed cursor-pointer ${
+                view === 'email_review' ? 'is-active' : ''
+              }`}
             >
-              <Send className="w-4 h-4" /> 3. Cold Composer
+              <span className="step-progress-marker">3</span>
+              <span className="hidden lg:inline">Cold Composer</span>
             </button>
           </nav>
 
+          {/* Mobile step hint */}
+          <div className="md:hidden text-xs text-stone-500 font-medium truncate">
+            {view === 'onboarding' && 'Step 1 · Profile'}
+            {view === 'dashboard' && 'Step 2 · Matches'}
+            {view === 'email_review' && 'Step 3 · Outreach'}
+          </div>
+
           {/* User state badge */}
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-3 shrink-0">
             {isOnboarded ? (
-              <div className="flex items-center gap-2 bg-slate-900/80 border border-slate-800 px-3.5 py-1.5 rounded-xl text-xs font-medium">
-                <User className="w-3.5 h-3.5 text-teal-400" />
-                <span className="text-slate-200 truncate max-w-[120px]">{studentName}</span>
-                <span className="w-1.5 h-1.5 rounded-full bg-teal-400 shrink-0" />
+              <div className="flex items-center gap-2 bg-stone-50 border border-stone-200 px-3 py-1.5 rounded-lg text-xs font-medium text-stone-700">
+                <User className="w-3.5 h-3.5 text-[#0d5c5c]" />
+                <span className="truncate max-w-[120px]">{studentName}</span>
+                <span className="w-1.5 h-1.5 rounded-full bg-[#0d5c5c] shrink-0" aria-hidden="true" />
               </div>
             ) : (
-              <div className="text-xs text-slate-500 font-medium italic flex items-center gap-1">
-                <Info className="w-3.5 h-3.5" /> Awaiting Profile Setup
+              <div className="text-xs text-stone-500 font-medium flex items-center gap-1">
+                <Info className="w-3.5 h-3.5 shrink-0" /> Awaiting profile
               </div>
             )}
           </div>
@@ -147,7 +158,7 @@ function App() {
       </header>
 
       {/* Main Viewport Content */}
-      <main className="flex-1 w-full flex items-center justify-center py-6 bg-transparent">
+      <main className={`flex-1 w-full flex py-6 bg-transparent overflow-y-auto ${view === 'onboarding' ? 'flex-col items-stretch' : 'items-center justify-center'}`}>
         {view === 'onboarding' ? (
           <Onboarding onComplete={handleOnboardingComplete} />
         ) : view === 'dashboard' ? (
@@ -177,14 +188,14 @@ function App() {
       </main>
 
       {/* Modern High-End Footer */}
-      <footer className="w-full glass-panel border-t border-white/5 py-4 bg-[#050913]/90 text-xs text-slate-500 font-light">
-        <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-3 text-center md:text-left">
+      <footer className="w-full glass-panel border-t border-stone-200/80 py-4 text-xs text-stone-500">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 flex flex-col md:flex-row items-center justify-between gap-3 text-center md:text-left">
           <div>
-            <span>LabMatch AI — Asymmetric Research Alignment Engine. Designed with 💜 inside the Anti-Gravity IDE.</span>
+            <span>LabMatch AI — Research alignment for funded NIH &amp; NSF labs.</span>
           </div>
-          <div className="flex items-center gap-4">
-            <span className="flex items-center gap-1"><FileText className="w-3.5 h-3.5 text-slate-600" /> NIH RePORTER & NSF Award APIs</span>
-            <span className="flex items-center gap-1"><Mail className="w-3.5 h-3.5 text-slate-600" /> Secure Gmail Access</span>
+          <div className="flex flex-wrap items-center justify-center gap-4">
+            <span className="flex items-center gap-1"><FileText className="w-3.5 h-3.5 text-stone-400" /> NIH RePORTER &amp; NSF Award APIs</span>
+            <span className="flex items-center gap-1"><Mail className="w-3.5 h-3.5 text-stone-400" /> Secure Gmail Access</span>
           </div>
         </div>
       </footer>

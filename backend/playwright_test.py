@@ -73,7 +73,7 @@ async def run_e2e_test():
         print("  Awaiting Gemini Profile Synthesis and pgvector matching...")
         # The button will display "Synthesizing Profile..." then page will navigate
         # Let's wait for dashboard navigation. The dashboard has navigation button "2. Alignment Swiper"
-        await page.wait_for_selector("text=Pipeline Alignment", timeout=20000)
+        await page.wait_for_selector("text=Saved Labs", timeout=20000)
         await page.screenshot(path="step5_dashboard.png")
         print("  [SUCCESS] Matches successfully calculated! Saved step5_dashboard.png")
 

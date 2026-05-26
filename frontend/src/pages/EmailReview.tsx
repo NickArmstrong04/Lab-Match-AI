@@ -138,141 +138,138 @@ export const EmailReview: React.FC<EmailReviewProps> = ({
         <button
           onClick={onCancel}
           disabled={sendState === 'sending'}
-          className="px-4 py-2 rounded-xl bg-slate-900/60 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800/60 font-semibold text-xs transition-all flex items-center gap-1.5 cursor-pointer disabled:opacity-50 disabled:pointer-events-none"
+          className="flex items-center gap-1.5 p-0 border-0 bg-transparent text-xs font-semibold text-stone-600 transition-colors hover:text-blue-600 cursor-pointer disabled:opacity-50 disabled:pointer-events-none"
         >
           <ArrowLeft className="w-4 h-4" /> Return to Dashboard
         </button>
-        <div className="text-xs text-teal-400 font-mono flex items-center gap-1.5">
-          <span className="w-2 h-2 rounded-full bg-teal-400 animate-ping" /> Outreach Synthesis Workspace
+        <div className="text-xs text-[#0d5c5c] font-mono flex items-center gap-1.5">
+          <span className="w-2 h-2 rounded-full bg-[#0d5c5c]" /> Outreach Synthesis Workspace
         </div>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:items-stretch">
         
         {/* Left Pane (50%) - Grant Context Details */}
-        <GlassCard className="relative overflow-hidden min-h-[550px] flex flex-col justify-between" glowColor="none">
-          <div className="absolute top-0 left-0 w-full h-[3px] bg-gradient-to-r from-transparent via-teal-500/40 to-transparent" />
-          
+        <GlassCard className="relative overflow-hidden min-h-[550px] h-full flex flex-col justify-between" glowColor="none">
           <div className="space-y-6">
             <div>
               <span className={`inline-block text-[9px] px-2 py-0.5 rounded-full font-bold font-mono tracking-wide uppercase mb-3
-                ${match.agency === 'NIH' ? 'bg-blue-500/10 text-blue-400 border border-blue-500/20' : 'bg-green-500/10 text-green-400 border border-green-500/20'}
+                ${match.agency === 'NIH' ? 'bg-blue-50 text-blue-800 border border-blue-200' : 'bg-emerald-50 text-emerald-800 border border-emerald-200'}
               `}>
                 {match.agency} FUNDING TARGET
               </span>
-              <h3 className="text-2xl font-bold font-outfit text-white leading-tight">
+              <h3 className="text-2xl font-semibold font-outfit text-stone-900 leading-tight">
                 {match.title}
               </h3>
-              <p className="text-slate-400 text-sm mt-2">
-                Dr. {match.pi_name} • <span className="text-slate-300">{match.institution}</span>
+              <p className="text-stone-600 text-sm mt-2">
+                Dr. {match.pi_name} • <span className="text-stone-800">{match.institution}</span>
               </p>
             </div>
 
             {/* Score dial context */}
-            <div className="flex items-center gap-5 p-4 rounded-xl bg-slate-900/40 border border-slate-800/80">
+            <div className="flex items-center gap-5 p-4 rounded-lg bg-stone-50 border border-stone-200">
               <CircularScore score={match.score} size={80} strokeWidth={7} />
               <div className="space-y-1">
-                <h4 className="text-sm font-semibold text-white">Synthesized Match Analysis</h4>
-                <p className="text-xs text-slate-400 font-light leading-relaxed">
-                  Your parsed profile demonstrates high proficiency in <span className="text-teal-400 font-semibold">{match.matching_skills.slice(0, 3).join(', ')}</span>, directly requested in this lab's methodology.
+                <h4 className="text-sm font-semibold text-stone-900">Synthesized Match Analysis</h4>
+                <p className="text-xs text-stone-600 leading-relaxed">
+                  Your parsed profile demonstrates high proficiency in <span className="text-[#0d5c5c] font-semibold">{match.matching_skills.slice(0, 3).join(', ')}</span>, directly requested in this lab's methodology.
                 </p>
               </div>
             </div>
 
             {/* Methodology Focus */}
             <div className="space-y-3">
-              <h4 className="text-xs font-bold text-slate-400 uppercase tracking-widest flex items-center gap-1.5">
-                <Sparkles className="w-3.5 h-3.5 text-teal-400" /> Key Project Methodologies
+              <h4 className="text-xs font-semibold text-stone-500 uppercase tracking-widest flex items-center gap-1.5">
+                <Sparkles className="w-3.5 h-3.5 text-[#0d5c5c]" /> Key Project Methodologies
               </h4>
-              <p className="text-slate-300 text-sm font-light leading-relaxed h-44 overflow-y-auto pr-1">
+              <p className="text-stone-700 text-sm leading-relaxed h-44 overflow-y-auto pr-1">
                 {match.abstract}
               </p>
             </div>
           </div>
 
-          <div className="border-t border-slate-800/80 pt-4 mt-6 text-xs text-slate-500 font-light flex items-center gap-2">
-            <AlertCircle className="w-4 h-4 text-slate-600 shrink-0" />
+          <div className="border-t border-stone-200 pt-4 mt-6 text-xs text-stone-500 flex items-center gap-2">
+            <AlertCircle className="w-4 h-4 text-stone-400 shrink-0" />
             <span>Outreach emails are automatically saved as drafts in outreach_logs for user transparency.</span>
           </div>
         </GlassCard>
 
         {/* Right Pane (50%) - Gmail Composer Workspace */}
-        <GlassCard className="relative overflow-hidden min-h-[550px] flex flex-col justify-between" glowColor="purple">
-          <div className="absolute top-0 left-0 w-full h-[3px] bg-gradient-to-r from-transparent via-purple-500/40 to-transparent" />
-
+        <GlassCard className="relative overflow-hidden min-h-[550px] h-full flex flex-col justify-between" glowColor="none">
           {isDrafting ? (
-            /* Premium Glassmorphic Shimmering Skeleton Loader */
-            <div className="flex-1 flex flex-col justify-center items-center py-20 space-y-6 text-center animate-pulse">
-              <div className="w-14 h-14 rounded-full bg-purple-500/10 border border-purple-500/25 flex items-center justify-center shadow-lg shadow-purple-500/5">
-                <RefreshCw className="w-7 h-7 text-purple-400 animate-spin" />
+            <div className="flex-1 min-h-0 flex flex-col justify-center items-center py-20 space-y-6 text-center animate-pulse">
+              <div className="w-14 h-14 rounded-full bg-stone-100 border border-stone-200 flex items-center justify-center">
+                <RefreshCw className="w-7 h-7 text-[#1e3a4a] animate-spin" />
               </div>
               <div className="space-y-2">
-                <h4 className="text-sm font-bold text-white uppercase tracking-widest font-mono">Agentic Ghostwriter Active</h4>
-                <p className="text-slate-400 text-xs font-light max-w-xs leading-relaxed">
+                <h4 className="text-sm font-semibold text-stone-900 uppercase tracking-widest font-mono">Drafting outreach</h4>
+                <p className="text-stone-600 text-xs max-w-xs leading-relaxed">
                   Google Gemini model is analyzing your CV narrative and PI grant abstract to compile a bespoke, high-impact research pitch...
                 </p>
               </div>
-              <div className="w-44 h-1 bg-slate-900 rounded-full overflow-hidden relative">
-                <div className="absolute inset-0 bg-gradient-to-r from-teal-400 to-purple-500 animate-shimmer-progress" style={{ width: '60%' }} />
+              <div className="w-44 h-1 bg-stone-200 rounded-full overflow-hidden relative">
+                <div className="absolute inset-0 bg-[#1e3a4a] rounded-full" style={{ width: '60%' }} />
               </div>
             </div>
           ) : (
-            /* Email interface workspace */
-            <div className="flex flex-col h-full space-y-4">
-              <div className="border-b border-slate-800/80 pb-3 mb-1">
-                <h3 className="text-xl font-bold font-outfit text-white flex items-center gap-2">
-                  <Mail className="w-5 h-5 text-purple-400" /> Interactive Composer
+            <div className="flex flex-col flex-1 min-h-0 h-full space-y-4">
+              <div className="border-b border-stone-200 pb-3 mb-1">
+                <h3 className="text-xl font-semibold font-outfit text-stone-900 flex items-center gap-2">
+                  <Mail className="w-5 h-5 text-[#1e3a4a]" /> Interactive Composer
                 </h3>
-                <p className="text-slate-400 text-xs font-light mt-0.5">
+                <p className="text-stone-600 text-xs mt-0.5">
                   Draft a high-impact alignment introduction. Highly personalized.
                 </p>
               </div>
 
               {/* To & Subject Inputs */}
               <div className="space-y-3 text-sm">
-                <div className="flex items-center gap-3 bg-slate-900/60 border border-slate-850 px-3.5 py-2.5 rounded-xl">
-                  <span className="text-slate-500 font-semibold w-12 text-right font-mono text-xs">To:</span>
+                <div className="flex items-center gap-3 bg-stone-50 border border-stone-200 px-3.5 py-2.5 rounded-lg">
+                  <span className="text-stone-500 font-semibold w-12 text-right font-mono text-xs">To:</span>
                   <input
                     type="email"
                     value={to}
                     onChange={(e) => setTo(e.target.value)}
-                    className="bg-transparent border-none text-slate-200 focus:outline-none flex-1 font-mono text-xs"
+                    className="bg-transparent border-none text-stone-800 focus:outline-none flex-1 font-mono text-xs"
                   />
                 </div>
-                <div className="flex items-center gap-3 bg-slate-900/60 border border-slate-850 px-3.5 py-2.5 rounded-xl">
-                  <span className="text-slate-500 font-semibold w-12 text-right font-mono text-xs">Subject:</span>
+                <div className="flex items-center gap-3 bg-stone-50 border border-stone-200 px-3.5 py-2.5 rounded-lg">
+                  <span className="text-stone-500 font-semibold w-12 text-right font-mono text-xs">Subject:</span>
                   <input
                     type="text"
                     value={subject}
                     onChange={(e) => setSubject(e.target.value)}
-                    className="bg-transparent border-none text-slate-200 focus:outline-none flex-1 text-xs font-medium"
+                    className="bg-transparent border-none text-stone-800 focus:outline-none flex-1 text-xs font-medium"
                   />
                 </div>
               </div>
 
               {/* Email Narrative Body */}
-              <div className="flex-1 flex flex-col">
+              <div className="flex-1 min-h-0 flex flex-col">
                 <textarea
                   value={body}
                   onChange={(e) => setBody(e.target.value)}
-                  className="w-full h-[280px] bg-slate-900/40 border border-slate-800 rounded-xl p-4 text-slate-200 text-xs focus:outline-none focus:ring-1 focus:ring-purple-500/50 resize-none font-light leading-relaxed"
+                  className="w-full flex-1 min-h-[280px] input-field text-xs resize-none leading-relaxed"
                 />
               </div>
 
               {/* Control buttons */}
-              <div className="flex items-center justify-between border-t border-slate-800/80 pt-4 mt-2">
+              <div className="flex items-center justify-between border-t border-stone-200 pt-4 mt-2">
                 <button
                   onClick={onCancel}
                   disabled={sendState === 'sending'}
-                  className="px-4 py-2 rounded-xl text-slate-400 hover:text-white hover:bg-slate-800/60 transition-colors text-xs font-semibold flex items-center gap-1.5 cursor-pointer disabled:opacity-50"
+                  className="px-4 py-2 rounded-lg text-stone-600 hover:text-stone-900 hover:bg-stone-100 transition-colors text-xs font-semibold inline-flex items-center justify-center gap-2 cursor-pointer disabled:opacity-50"
                 >
-                  <FolderClosed className="w-4 h-4" /> Save Draft
+                  <span className="icon-btn-slot" aria-hidden>
+                    <FolderClosed className="size-3.5" />
+                  </span>
+                  <span className="icon-btn-label">Save Draft</span>
                 </button>
 
                 {checkingAuth ? (
                   <button
                     disabled
-                    className="px-6 py-2.5 rounded-xl bg-slate-800 border border-slate-700 text-slate-400 font-semibold flex items-center gap-2 text-xs opacity-55"
+                    className="px-6 py-2.5 rounded-lg bg-stone-100 border border-stone-200 text-stone-500 font-semibold flex items-center gap-2 text-xs opacity-55"
                   >
                     Checking Google Sync... <RefreshCw className="w-3.5 h-3.5 animate-spin" />
                   </button>
@@ -280,16 +277,36 @@ export const EmailReview: React.FC<EmailReviewProps> = ({
                   <button
                     onClick={handleSendEmail}
                     disabled={sendState === 'sending'}
-                    className="px-6 py-2.5 rounded-xl bg-gradient-to-r from-teal-500 to-purple-600 hover:from-teal-400 hover:to-purple-500 text-white font-semibold flex items-center gap-2 shadow-lg shadow-teal-500/10 glow-action transition-all text-xs cursor-pointer disabled:opacity-50"
+                    className="btn-primary text-xs py-2.5 disabled:opacity-50"
                   >
                     Send via Gmail <Send className="w-3.5 h-3.5" />
                   </button>
                 ) : (
                   <button
                     onClick={handleConnectGoogle}
-                    className="px-6 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-semibold flex items-center gap-2 shadow-lg shadow-blue-500/10 transition-all text-xs cursor-pointer"
+                    className="px-6 py-2.5 rounded-lg bg-[#1e3a4a] hover:bg-[#163040] text-white font-semibold inline-flex items-center justify-center gap-2 transition-all text-xs cursor-pointer"
                   >
-                    Connect Gmail Account <Sparkles className="w-3.5 h-3.5" />
+                    <span className="icon-btn-slot" aria-hidden>
+                      <svg className="size-3.5 block" viewBox="0 0 24 24">
+                        <path
+                          fill="#4285F4"
+                          d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"
+                        />
+                        <path
+                          fill="#34A853"
+                          d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
+                        />
+                        <path
+                          fill="#FBBC05"
+                          d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"
+                        />
+                        <path
+                          fill="#EA4335"
+                          d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"
+                        />
+                      </svg>
+                    </span>
+                    <span className="icon-btn-label">Connect Gmail Account</span>
                   </button>
                 )}
               </div>
@@ -298,44 +315,44 @@ export const EmailReview: React.FC<EmailReviewProps> = ({
 
           {/* Handshake Verification and Dispatching Overlays */}
           {sendState !== 'idle' && (
-            <div className="absolute inset-0 bg-slate-950/95 backdrop-blur-md flex flex-col items-center justify-center p-6 text-center animate-fade-in z-50">
+            <div className="absolute inset-0 bg-white/95 backdrop-blur-sm flex flex-col items-center justify-center p-6 text-center animate-fade-in z-50">
               
               {sendState === 'sending' && (
                 <div className="space-y-5">
-                  <div className="w-12 h-12 border-2 border-t-purple-500 border-r-transparent border-slate-800 rounded-full animate-spin mx-auto" />
+                  <div className="w-12 h-12 border-2 border-t-[#1e3a4a] border-r-transparent border-stone-200 rounded-full animate-spin mx-auto" />
                   <div className="space-y-1">
-                    <p className="text-white font-semibold text-sm">Transmitting Secure Outbound Packet...</p>
-                    <p className="text-slate-400 text-xs font-light">Validating OAuth tokens • Constructing MIME body • Fetching PDF CV attachment</p>
+                    <p className="text-stone-900 font-semibold text-sm">Transmitting Secure Outbound Packet...</p>
+                    <p className="text-stone-600 text-xs">Validating OAuth tokens • Constructing MIME body • Fetching PDF CV attachment</p>
                   </div>
-                  <p className="text-teal-400 text-[10px] font-mono tracking-wider uppercase">Gmail API Gateway Secure Handshake</p>
+                  <p className="text-[#0d5c5c] text-[10px] font-mono tracking-wider uppercase">Gmail API Gateway Secure Handshake</p>
                 </div>
               )}
 
               {sendState === 'success' && (
-                <div className="space-y-4 max-w-sm animate-scale-up">
-                  <div className="w-14 h-14 rounded-full bg-teal-500/10 border border-teal-500/30 flex items-center justify-center mx-auto shadow-lg shadow-teal-500/10">
-                    <CheckCircle2 className="w-8 h-8 text-teal-400" />
+                <div className="space-y-4 max-w-sm">
+                  <div className="w-14 h-14 rounded-full bg-[#e6f0f0] border border-[#c5dddd] flex items-center justify-center mx-auto">
+                    <CheckCircle2 className="w-8 h-8 text-[#0d5c5c]" />
                   </div>
-                  <h3 className="text-xl font-bold font-outfit text-white">Outreach Dispatched!</h3>
-                  <p className="text-slate-400 text-xs font-light leading-relaxed">
-                    Your cold outreach email has successfully transmitted and logged in your Gmail sent folder. Matches state synced to <strong className="text-slate-200">"emailed"</strong>.
+                  <h3 className="text-xl font-semibold font-outfit text-stone-900">Outreach Dispatched!</h3>
+                  <p className="text-stone-600 text-xs leading-relaxed">
+                    Your cold outreach email has successfully transmitted and logged in your Gmail sent folder. Matches state synced to <strong className="text-stone-800">"emailed"</strong>.
                   </p>
                 </div>
               )}
 
               {sendState === 'error' && (
-                <div className="space-y-4 max-w-sm animate-scale-up">
-                  <div className="w-14 h-14 rounded-full bg-rose-500/10 border border-rose-500/30 flex items-center justify-center mx-auto shadow-lg shadow-rose-500/10">
-                    <AlertCircle className="w-8 h-8 text-rose-400" />
+                <div className="space-y-4 max-w-sm">
+                  <div className="w-14 h-14 rounded-full bg-rose-50 border border-rose-200 flex items-center justify-center mx-auto">
+                    <AlertCircle className="w-8 h-8 text-rose-700" />
                   </div>
-                  <h3 className="text-xl font-bold font-outfit text-white">Transmission Failed</h3>
-                  <p className="text-slate-400 text-xs font-light leading-relaxed">
+                  <h3 className="text-xl font-semibold font-outfit text-stone-900">Transmission Failed</h3>
+                  <p className="text-stone-600 text-xs leading-relaxed">
                     {errorMsg || "The Gmail API gateway returned an unexpected response. Please re-authenticate your connection."}
                   </p>
                   <div className="flex gap-2 justify-center mt-2">
                     <button
                       onClick={() => setSendState('idle')}
-                      className="px-4 py-1.5 rounded-lg bg-slate-900 border border-slate-800 text-slate-300 hover:text-white transition-all text-xs font-semibold"
+                      className="px-4 py-1.5 rounded-lg bg-white border border-stone-300 text-stone-700 hover:text-stone-900 transition-all text-xs font-semibold"
                     >
                       Modify Email & Retry
                     </button>
@@ -345,7 +362,7 @@ export const EmailReview: React.FC<EmailReviewProps> = ({
                           setSendState('idle');
                           handleConnectGoogle();
                         }}
-                        className="px-4 py-1.5 rounded-lg bg-blue-600/20 border border-blue-500/50 text-blue-400 hover:text-white hover:bg-blue-600/40 transition-all text-xs font-semibold"
+                        className="px-4 py-1.5 rounded-lg bg-blue-50 border border-blue-200 text-blue-800 hover:bg-blue-100 transition-all text-xs font-semibold"
                       >
                         Reconnect Gmail
                       </button>
