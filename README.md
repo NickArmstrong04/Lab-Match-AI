@@ -122,6 +122,25 @@ Deploy the schemas located in `supabase/migrations/` using the Supabase SQL edit
 
 ---
 
+## 🛠️ Troubleshooting & Common Issues
+
+If you or a collaborator encounter network issues during setup, check the following:
+
+- **🔌 "Network Error" on Onboarding / Profile Sync**:
+  - Ensure the **FastAPI backend** is actively running on `http://localhost:8000`. Uvicorn must be started from the `backend/` directory:
+    ```bash
+    uvicorn main:app --reload
+    ```
+  - Check your `.env` configuration. Ensure `SUPABASE_URL` and `SUPABASE_KEY` are valid and reachable.
+- **🚫 "CORS Blocked" or Console Network Error**:
+  - The backend's CORS origins are pre-configured to allow `http://localhost:5173` and `http://localhost:5174`. 
+  - If Vite starts on a different port (e.g., `http://localhost:5175` because others are occupied), FastAPI will block the request. You can close active background terminals to free port `5173` or add your custom port to the `origins` list inside `backend/main.py`.
+- **🔄 "404: Student profile not found" on Matchmaker**:
+  - The `students` table enforces a `UNIQUE` constraint on the `email` column.
+  - *Fixed in latest release*: We upgraded the profile endpoint database strategy from `on_conflict="auth_id"` to `on_conflict="email"`. Now, submitting the onboarding form multiple times with the same email address successfully updates your profile instead of failing with a duplicate key constraint violation.
+
+---
+
 ## 🧪 Integration & Diagnostics Testing
 
 We have built rigorous end-to-end diagnostics test suites that you can run on the FastAPI backend to verify the stability of your configuration:
@@ -131,12 +150,17 @@ We have built rigorous end-to-end diagnostics test suites that you can run on th
    cd backend
    python test_phase4.py
    ```
-2. **Verify live database pgvector similarity matching and matchingRPC alignments**:
+2. **Verify live database pgvector similarity matching and matching RPC alignments**:
    ```bash
    cd backend
    python test_integration.py
    ```
-3. **Verify frontend static checks and production bundle packaging**:
+3. **Verify specific student vector indexing and custom matchmaker scenarios** (e.g. Nicholas Armstrong validation):
+   ```bash
+   cd backend
+   python -m unittest test_ingest.py
+   ```
+4. **Verify frontend static checks and production bundle packaging**:
    ```bash
    cd frontend
    npm run build
