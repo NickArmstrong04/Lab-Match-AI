@@ -171,11 +171,14 @@ async def get_matches(
     method: str = "hybrid", # embedding, keyword, hybrid
     weight: float = Query(0.65, ge=0.0, le=1.0),
     limit: int = Query(5, ge=1, le=50),
-    threshold: float = Query(0.2, ge=0.0, le=1.0)
+    threshold: float = Query(0.2, ge=0.0, le=1.0),
+    location_filter: Optional[str] = Query(None),
+    local_only: bool = Query(False)
 ):
     """
     Matchmaker scoring endpoint that calculates compatibility scores by matching the student's
     extracted competencies against grant abstracts using embedding cosine similarity, keyword overlap, or hybrid methods.
+    Supports local proximity filtering and massive +30% compatibility score boosts for home campus labs.
     """
     validate_uuid(student_id, "student_id")
     if hasattr(weight, "default"):
@@ -196,6 +199,9 @@ async def get_matches(
         structured_comp = student.get("structured_competencies") or {}
         student_skills = [s.lower() for s in structured_comp.get("skills", [])]
         student_roles = structured_comp.get("recommended_roles", ["Research Assistant"])
+        
+        # Load saved student location (resilient fallback if DB migration hasn't run yet)
+        student_loc = student.get("location") or structured_comp.get("location")
         
         # Fetch existing match statuses from DB for this student
         existing_matches = {}
@@ -221,6 +227,27 @@ async def get_matches(
                 university = g.get("university", "N/A")
                 methodologies = g.get("methodologies") or []
                 
+                # Proximity calculation
+                location_match = False
+                target_loc = location_filter or student_loc
+                if target_loc and university:
+                    s_clean = target_loc.lower().replace("university", "").replace("institute of technology", "").replace("college", "").strip()
+                    u_clean = university.lower().replace("university", "").replace("institute of technology", "").replace("college", "").strip()
+                    if len(s_clean) >= 2 and len(u_clean) >= 2:
+                        if s_clean in u_clean or u_clean in s_clean:
+                            location_match = True
+                        elif s_clean == "mit" and "massachusetts institute of technology" in university.lower():
+                            location_match = True
+                        elif s_clean == "caltech" and "california institute of technology" in university.lower():
+                            location_match = True
+                
+                # If strict local only is selected and it's not a match, skip this grant
+                if local_only and not location_match:
+                    continue
+                # If location filter search query is set, we also enforce it as a search query
+                if location_filter and not location_match:
+                    continue
+                
                 # Calculate matching & missing skills
                 matching_skills = [m for m in methodologies if m.lower() in student_skills]
                 missing_skills = [m for m in methodologies if m.lower() not in student_skills]
@@ -232,8 +259,13 @@ async def get_matches(
                 else:
                     keyword_score = 50 # Default middle-ground fallback
                 
+                # Apply massive +30% boost for local fit
+                final_score = keyword_score
+                if location_match:
+                    final_score = min(final_score + 30, 100)
+                
                 # Minimum score threshold filtering
-                if keyword_score < (threshold * 100):
+                if final_score < (threshold * 100):
                     continue
                     
                 # Clean PI email
@@ -260,13 +292,14 @@ async def get_matches(
                     "project_end": g.get("end_date", "2029-08-31"),
                     "abstract": g.get("grant_abstract", ""),
                     "grant_abstract": g.get("grant_abstract", ""),
-                    "score": keyword_score,
-                    "compatibility_score": keyword_score,
+                    "score": final_score,
+                    "compatibility_score": final_score,
                     "matching_skills": matching_skills,
                     "missing_skills": missing_skills,
                     "methodologies": methodologies,
                     "recommended_role": recommended_role,
-                    "status": existing_matches.get(g_id)
+                    "status": existing_matches.get(g_id),
+                    "location_match": location_match
                 })
             
             # Sort by keyword score descending and slice
@@ -274,13 +307,16 @@ async def get_matches(
             return matches[:limit]
             
         else: # embedding or hybrid
+            # Fetch extra records if local_only or location_filter is active to ensure we find local ones (increased to 1000 to prevent semantic cutoff)
+            fetch_limit = 1000 if (local_only or location_filter) else limit * 2
+            
             # We fetch using the RPC vector search helper (match_grants)
             response = db.rpc(
                 "match_grants",
                 {
                     "student_id": student_id,
                     "match_threshold": threshold,
-                    "match_limit": limit * 2 # fetch extra to allow hybrid blending/sorting
+                    "match_limit": fetch_limit
                 }
             ).execute()
             
@@ -310,6 +346,27 @@ async def get_matches(
                 university = item.get("university", "N/A")
                 methodologies = item.get("methodologies") or []
                 
+                # Proximity calculation
+                location_match = False
+                target_loc = location_filter or student_loc
+                if target_loc and university:
+                    s_clean = target_loc.lower().replace("university", "").replace("institute of technology", "").replace("college", "").strip()
+                    u_clean = university.lower().replace("university", "").replace("institute of technology", "").replace("college", "").strip()
+                    if len(s_clean) >= 2 and len(u_clean) >= 2:
+                        if s_clean in u_clean or u_clean in s_clean:
+                            location_match = True
+                        elif s_clean == "mit" and "massachusetts institute of technology" in university.lower():
+                            location_match = True
+                        elif s_clean == "caltech" and "california institute of technology" in university.lower():
+                            location_match = True
+                
+                # If strict local only is selected and it's not a match, skip this grant
+                if local_only and not location_match:
+                    continue
+                # If location filter search query is set, we also enforce it as a search query
+                if location_filter and not location_match:
+                    continue
+                
                 matching_skills = [m for m in methodologies if m.lower() in student_skills]
                 missing_skills = [m for m in methodologies if m.lower() not in student_skills]
                 
@@ -337,6 +394,10 @@ async def get_matches(
                     final_score = round(weight * emb_score + (1.0 - weight) * keyword_score)
                 else:
                     final_score = emb_score
+                
+                # Apply massive +30% boost for local fit
+                if location_match:
+                    final_score = min(final_score + 30, 100)
                     
                 formatted_matches.append({
                     "id": g_id,
@@ -360,7 +421,8 @@ async def get_matches(
                     "missing_skills": missing_skills,
                     "methodologies": methodologies,
                     "recommended_role": recommended_role,
-                    "status": existing_matches.get(g_id)
+                    "status": existing_matches.get(g_id),
+                    "location_match": location_match
                 })
                 
             # Re-sort by final calculated score and slice to requested limit

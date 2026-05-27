@@ -3,6 +3,7 @@ import { X, Heart, Mail, Sparkles, Building, Calendar, DollarSign, ArrowLeft, Ar
 import GlassCard from '../components/GlassCard';
 import CircularScore from '../components/CircularScore';
 import api from '../api/axios';
+import { trackEvent } from '../utils/analytics';
 
 export interface GrantMatch {
   id: string;
@@ -20,11 +21,13 @@ export interface GrantMatch {
   matching_skills: string[];
   missing_skills: string[];
   recommended_role: string;
+  location_match?: boolean;
 }
 
 interface DashboardProps {
   studentId: string;
   studentName: string;
+  studentLocation: string;
   researchInterests: string;
   matches: GrantMatch[];
   onInitiateOutreach: (match: GrantMatch) => void;
@@ -36,7 +39,7 @@ interface DashboardProps {
 
 export const Dashboard: React.FC<DashboardProps> = ({
   studentId,
-  studentName,
+  studentLocation,
   researchInterests,
   matches,
   onInitiateOutreach,
@@ -58,12 +61,16 @@ export const Dashboard: React.FC<DashboardProps> = ({
   // A local selected card ID if the user clicks a saved card to inspect it
   const [inspectedMatch, setInspectedMatch] = useState<GrantMatch | null>(null);
 
+  // Proximity filtering & search states
+  const [localOnly, setLocalOnly] = useState(!!studentLocation);
+  const [locationSearch, setLocationSearch] = useState('');
+
   const getDynamicGlow = () => {
     if (inspectedMatch) return 'none';
     if (dragOffset.x > 50) return 'emerald';
     if (dragOffset.x < -50) return 'rose';
     if (!currentMatch) return 'none';
-    return currentMatch.score >= 90 ? 'teal' : 'purple';
+    return currentMatch.location_match ? 'teal' : currentMatch.score >= 90 ? 'teal' : 'purple';
   };
 
   const cardStyle: React.CSSProperties = !inspectedMatch && isDragging
@@ -82,14 +89,22 @@ export const Dashboard: React.FC<DashboardProps> = ({
   const [isSyncing, setIsSyncing] = useState(false);
   const [syncStatus, setSyncStatus] = useState<'idle' | 'success' | 'error'>('idle');
 
-  // Load matches deck and rebuild queues based on database status on mount
+  // Analytics: Track dashboard page view
+  useEffect(() => {
+    trackEvent('view_page', 'dashboard', 'page_view');
+  }, []);
+
+  // Load matches deck and rebuild queues based on database status on mount, and reload when location filters change
   useEffect(() => {
     const fetchDeck = async () => {
       if (!studentId || studentId === 'undefined') return;
       try {
-        const response = await api.get(`/grants/matches?student_id=${studentId}&threshold=0.2&limit=10`);
+        const locFilterStr = locationSearch.trim() ? `&location_filter=${encodeURIComponent(locationSearch.trim())}` : '';
+        const response = await api.get(
+          `/grants/matches?student_id=${studentId}&threshold=0.2&limit=12&local_only=${localOnly}${locFilterStr}`
+        );
         const fetchedMatches = response.data;
-        if (fetchedMatches && fetchedMatches.length > 0) {
+        if (fetchedMatches) {
           setDeckMatches(fetchedMatches);
           
           // Rebuild saved matches queue (saved or emailed statuses)
@@ -105,7 +120,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
       }
     };
     fetchDeck();
-  }, [studentId, setSavedMatches, setSkippedMatches]);
+  }, [studentId, localOnly, locationSearch, setSavedMatches, setSkippedMatches]);
 
   // Filter out skipped and saved matches from the deck, unless inspected
   const activeDeck = deckMatches.filter(
@@ -114,11 +129,31 @@ export const Dashboard: React.FC<DashboardProps> = ({
 
   const currentMatch = inspectedMatch || activeDeck[currentIndex] || null;
 
+  const [cardLoadedTime, setCardLoadedTime] = useState<number>(Date.now());
+
+  useEffect(() => {
+    if (currentMatch) {
+      setCardLoadedTime(Date.now());
+    }
+  }, [currentMatch?.id]);
+
   const handleSwipe = async (direction: 'left' | 'right') => {
     if (!currentMatch || inspectedMatch) return;
 
     setSwipeDirection(direction);
     const targetStatus = direction === 'right' ? 'saved' : 'skipped';
+
+    const decision_duration_ms = Date.now() - cardLoadedTime;
+
+    // Telemetry: log swipe interaction
+    trackEvent(direction === 'right' ? 'swipe_saved' : 'swipe_skipped', 'dashboard', 'action', {
+      grant_id: currentMatch.id,
+      pi_name: currentMatch.pi_name,
+      institution: currentMatch.institution,
+      score: currentMatch.score,
+      title: currentMatch.title,
+      decision_duration_ms
+    });
 
     try {
       // Background-persist swipe state in Supabase via FastAPI router
@@ -161,6 +196,12 @@ export const Dashboard: React.FC<DashboardProps> = ({
   const handleRemoveSaved = async (matchId: string, e: React.MouseEvent) => {
     e.stopPropagation();
     
+    // Telemetry: log removal from saved pipeline
+    trackEvent('swipe_skipped', 'dashboard', 'action', {
+      grant_id: matchId,
+      action: 'remove_saved'
+    });
+
     // Update local state queues immediately
     setSavedMatches((prev) => prev.filter((m) => m.id !== matchId));
     if (inspectedMatch?.id === matchId) {
@@ -303,8 +344,16 @@ export const Dashboard: React.FC<DashboardProps> = ({
               </div>
 
               {/* Quick Resume info bar */}
-              <div className="shrink-0 border-t border-stone-200 pt-4 mt-4 text-xs text-stone-600">
-                <div className="flex items-center justify-between text-stone-500 font-medium mb-1">
+              <div className="shrink-0 border-t border-stone-200 pt-4 mt-4 text-xs text-stone-600 space-y-1">
+                {studentLocation && (
+                  <div className="flex items-center justify-between text-stone-500 font-medium">
+                    <span>home campus</span>
+                    <span className="text-[#0d5c5c] font-semibold truncate max-w-[120px]" title={studentLocation}>
+                      {studentLocation}
+                    </span>
+                  </div>
+                )}
+                <div className="flex items-center justify-between text-stone-500 font-medium">
                   <span>narrative parsing</span>
                   <span className="text-[#0d5c5c] font-semibold">Active</span>
                 </div>
@@ -316,6 +365,31 @@ export const Dashboard: React.FC<DashboardProps> = ({
 
         {/* Right 75% Viewport — same locked height as saved labs; body scrolls inside */}
         <div className="w-full lg:flex-1 min-w-0 dashboard-panel-shell flex flex-col min-h-0 overflow-hidden">
+           {/* Interactive proximity filters bar */}
+           <div className="shrink-0 mb-4 bg-white/40 backdrop-blur-md border border-stone-200/60 p-3 rounded-2xl flex flex-col sm:flex-row items-center justify-between gap-3 text-sm">
+             <div className="flex items-center gap-3 w-full sm:w-auto">
+               <span className="font-semibold text-stone-700 whitespace-nowrap">📍 Proximity Filter:</span>
+               <input
+                 type="text"
+                 value={locationSearch}
+                 onChange={(e) => setLocationSearch(e.target.value)}
+                 placeholder="Search specific university or city..."
+                 className="flex-1 sm:w-64 px-3 py-1.5 rounded-lg border border-stone-200 bg-white/80 focus:outline-none focus:border-[#0d5c5c] text-xs font-semibold placeholder-stone-400"
+               />
+             </div>
+             {studentLocation && (
+               <label className="flex items-center gap-2 cursor-pointer select-none font-semibold text-stone-700 text-xs">
+                 <input
+                   type="checkbox"
+                   checked={localOnly}
+                   onChange={(e) => setLocalOnly(e.target.checked)}
+                   className="rounded border-stone-300 text-[#0d5c5c] focus:ring-[#0d5c5c] cursor-pointer"
+                 />
+                 <span>Only My University ({studentLocation})</span>
+               </label>
+             )}
+           </div>
+
            {currentMatch ? (
             <div
               className={`
@@ -385,6 +459,12 @@ export const Dashboard: React.FC<DashboardProps> = ({
                       </h2>
 
                       <div className="flex flex-wrap items-center gap-2">
+                        {currentMatch.location_match && (
+                          <span className="px-2.5 py-1 rounded-full text-[10px] font-bold font-mono tracking-wider border border-[#b2ddcf] bg-[#e6f7f0] text-[#0d5c48] flex items-center gap-1.5 animate-pulse shrink-0">
+                            <span className="w-1.5 h-1.5 rounded-full bg-[#10b981]" />
+                            📍 Home Campus Match
+                          </span>
+                        )}
                         <span className={`px-2.5 py-1 rounded-full text-xs font-bold font-mono tracking-wider border
                           ${currentMatch.agency === 'NIH' 
                             ? 'bg-blue-50 text-blue-800 border-blue-200' 
@@ -533,22 +613,41 @@ export const Dashboard: React.FC<DashboardProps> = ({
           ) : (
             <div className="flex-1 min-h-0">
             <GlassCard className="h-full flex flex-col items-center justify-center text-center p-8 overflow-hidden" glowColor="teal">
-              <Sparkles className="w-14 h-14 text-[#0d5c5c] mb-6" />
-              <h2 className="text-3xl font-semibold font-outfit text-stone-900 mb-2">Deck Fully Evaluated!</h2>
+              <Sparkles className="w-14 h-14 text-[#0d5c5c] mb-6 animate-pulse" />
+              <h2 className="text-3xl font-semibold font-outfit text-stone-900 mb-2">
+                {localOnly && deckMatches.length === 0 ? 'No Home Campus Matches' : 'Deck Fully Evaluated!'}
+              </h2>
               <p className="text-stone-600 text-md max-w-md mx-auto leading-relaxed mb-6">
-                You've successfully audited all research alignments for your current profile vector. 
-                Inspect your pipeline in the left sidebar to draft outreach emails or reset lists below to retry.
+                {localOnly && deckMatches.length === 0 ? (
+                  <span className="block text-rose-800 bg-rose-50/50 border border-rose-100 p-4 rounded-xl text-sm font-medium">
+                    📍 We couldn't find active, funded research grants matching your home campus (<strong className="font-semibold text-rose-900">{studentLocation}</strong>).
+                    <span className="block mt-2 font-normal text-rose-700">
+                      Try unchecking the <strong className="font-semibold">"Only My University"</strong> filter at the top right, or click the button below to explore fully-funded labs across the country!
+                    </span>
+                  </span>
+                ) : (
+                  "You've successfully audited all research alignments for your current profile vector. Inspect your pipeline in the left sidebar to draft outreach emails or reset lists below to retry."
+                )}
               </p>
               <div className="flex items-center gap-4 justify-center">
-                <button
-                  onClick={() => {
-                    setSkippedMatches([]);
-                    setCurrentIndex(0);
-                  }}
-                  className="px-5 py-2.5 rounded-lg bg-white border border-stone-300 text-stone-700 hover:text-stone-900 hover:border-stone-400 transition-colors text-sm font-semibold cursor-pointer flex items-center gap-2"
-                >
-                  <ArrowRight className="w-4 h-4 rotate-180" /> Reset Skipped Queue
-                </button>
+                {localOnly && deckMatches.length === 0 ? (
+                  <button
+                    onClick={() => setLocalOnly(false)}
+                    className="px-6 py-2.5 rounded-lg bg-[#0d5c5c] hover:bg-[#0a4848] text-white transition-colors text-sm font-bold cursor-pointer flex items-center gap-2 shadow-lg hover:shadow-xl border-0"
+                  >
+                    Explore Nationwide Labs ➔
+                  </button>
+                ) : (
+                  <button
+                    onClick={() => {
+                      setSkippedMatches([]);
+                      setCurrentIndex(0);
+                    }}
+                    className="px-5 py-2.5 rounded-lg bg-white border border-stone-300 text-stone-700 hover:text-stone-900 hover:border-stone-400 transition-colors text-sm font-semibold cursor-pointer flex items-center gap-2"
+                  >
+                    <ArrowRight className="w-4 h-4 rotate-180" /> Reset Skipped Queue
+                  </button>
+                )}
               </div>
             </GlassCard>
             </div>

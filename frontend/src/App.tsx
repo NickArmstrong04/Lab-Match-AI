@@ -1,9 +1,11 @@
-import { useState } from 'react';
-import { Mail, User, Info, FileText } from 'lucide-react';
+import { useState, useEffect } from 'react';
+import { Mail, User, Info, FileText, BarChart3 } from 'lucide-react';
 import Onboarding from './pages/Onboarding';
 import Dashboard, { type GrantMatch } from './pages/Dashboard';
 import EmailReview from './pages/EmailReview';
+import AnalyticsDashboard from './pages/AnalyticsDashboard';
 import './App.css';
+import { trackEvent, setStudentId as saveStudentIdToAnalytics } from './utils/analytics';
 
 
 
@@ -11,12 +13,22 @@ function App() {
   // Global student narrative profile states
   const [studentId, setStudentId] = useState<string>('');
   const [studentName, setStudentName] = useState<string>('');
+  const [studentLocation, setStudentLocation] = useState<string>('');
   const [resumeName, setResumeName] = useState<string>('');
   const [researchInterests, setResearchInterests] = useState('');
   
   // Navigation & Page views
-  const [view, setView] = useState<'onboarding' | 'dashboard' | 'email_review'>('onboarding');
+  const [view, setView] = useState<'onboarding' | 'dashboard' | 'email_review' | 'analytics'>('onboarding');
   const [isOnboarded, setIsOnboarded] = useState(false);
+
+  // Analytics: Track session start and routing transitions
+  useEffect(() => {
+    trackEvent('session_start', 'onboarding', 'action');
+  }, []);
+
+  useEffect(() => {
+    trackEvent('view_page', view, 'page_view');
+  }, [view]);
 
   // Matches states
   const [matches, setMatches] = useState<GrantMatch[]>([]);
@@ -25,14 +37,18 @@ function App() {
   const [activeOutreachMatch, setActiveOutreachMatch] = useState<GrantMatch | null>(null);
 
   // Complete onboarding sequence
-  const handleOnboardingComplete = (data: { resumeName: string; researchInterests: string; matches: any[]; studentId?: string; studentName?: string }) => {
+  const handleOnboardingComplete = (data: { resumeName: string; researchInterests: string; matches: any[]; studentId?: string; studentName?: string; location?: string }) => {
     setResumeName(data.resumeName);
     setResearchInterests(data.researchInterests);
     if (data.studentId) {
       setStudentId(data.studentId);
+      saveStudentIdToAnalytics(data.studentId);
     }
     if (data.studentName) {
       setStudentName(data.studentName);
+    }
+    if (data.location) {
+      setStudentLocation(data.location);
     }
     if (data.matches && data.matches.length > 0) {
       setMatches(data.matches);
@@ -43,6 +59,10 @@ function App() {
 
   // Initiate Gmail Outreach view transition
   const handleInitiateOutreach = (match: GrantMatch) => {
+    trackEvent('email_review_started', 'dashboard', 'action', {
+      grant_id: match.id,
+      pi_name: match.pi_name
+    });
     setActiveOutreachMatch(match);
     setView('email_review');
   };
@@ -68,6 +88,12 @@ function App() {
   };
 
   const handleCancelOutreach = () => {
+    if (activeOutreachMatch) {
+      trackEvent('email_cancelled', 'email_review', 'action', {
+        grant_id: activeOutreachMatch.id,
+        pi_name: activeOutreachMatch.pi_name
+      });
+    }
     setActiveOutreachMatch(null);
     setView('dashboard');
   };
@@ -140,8 +166,25 @@ function App() {
             {view === 'email_review' && 'Step 3 · Outreach'}
           </div>
 
-          {/* User state badge */}
+          {/* User state badge & Analytics Toggle */}
           <div className="flex items-center gap-3 shrink-0">
+            {import.meta.env.DEV && (
+              <button
+                type="button"
+                onClick={() => setView(view === 'analytics' ? (isOnboarded ? 'dashboard' : 'onboarding') : 'analytics')}
+                className={`p-2 px-3 rounded-lg border flex items-center justify-center transition-all duration-200 cursor-pointer text-xs font-semibold gap-1.5
+                  ${view === 'analytics'
+                    ? 'bg-[#0d5c5c] border-[#0d5c5c] text-white font-semibold'
+                    : 'bg-stone-50 border-stone-200 text-stone-600 hover:text-stone-900 hover:bg-stone-100'
+                  }
+                `}
+                title="View Site Metrics & User Journeys"
+              >
+                <BarChart3 className="w-4 h-4" />
+                <span className="hidden sm:inline">Metrics</span>
+              </button>
+            )}
+
             {isOnboarded ? (
               <div className="flex items-center gap-2 bg-stone-50 border border-stone-200 px-3 py-1.5 rounded-lg text-xs font-medium text-stone-700">
                 <User className="w-3.5 h-3.5 text-[#0d5c5c]" />
@@ -158,13 +201,14 @@ function App() {
       </header>
 
       {/* Main Viewport Content */}
-      <main className={`flex-1 w-full flex py-6 bg-transparent overflow-y-auto ${view === 'onboarding' ? 'flex-col items-stretch' : 'items-center justify-center'}`}>
+      <main className={`flex-1 w-full flex py-6 bg-transparent overflow-y-auto ${view === 'onboarding' || view === 'analytics' ? 'flex-col items-stretch' : 'items-center justify-center'}`}>
         {view === 'onboarding' ? (
           <Onboarding onComplete={handleOnboardingComplete} />
         ) : view === 'dashboard' ? (
           <Dashboard
             studentId={studentId}
             studentName={studentName}
+            studentLocation={studentLocation}
             researchInterests={researchInterests}
             matches={matches}
             onInitiateOutreach={handleInitiateOutreach}
@@ -173,7 +217,7 @@ function App() {
             skippedMatches={skippedMatches}
             setSkippedMatches={setSkippedMatches}
           />
-        ) : (
+        ) : view === 'email_review' ? (
           activeOutreachMatch && (
             <EmailReview
               match={activeOutreachMatch}
@@ -184,6 +228,8 @@ function App() {
               onCancel={handleCancelOutreach}
             />
           )
+        ) : (
+          <AnalyticsDashboard onViewBack={() => setView(isOnboarded ? 'dashboard' : 'onboarding')} />
         )}
       </main>
 

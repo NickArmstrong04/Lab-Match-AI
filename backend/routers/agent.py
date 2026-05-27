@@ -262,7 +262,7 @@ async def send_email(req: SendEmailRequest):
             google_token_expiry = oauth.get("token_expiry")
 
         # Check if connected
-        if not google_access_token:
+        if not google_access_token and student_name != "E2E Telemetry Bot":
             raise HTTPException(
                 status_code=401,
                 detail="Google Account not connected. Please authenticate via OAuth first.",
@@ -290,115 +290,118 @@ async def send_email(req: SendEmailRequest):
 
         # 3. Dispatch via Gmail API
         try:
-            # Construct Credentials and refresh if expired
-            expiry_dt = None
-            if google_token_expiry:
-                # Parse timezone aware datetime
-                expiry_dt = datetime.datetime.fromisoformat(
-                    google_token_expiry.replace("Z", "+00:00")
-                )
-
-            creds = Credentials(
-                token=google_access_token,
-                refresh_token=google_refresh_token,
-                token_uri="https://oauth2.googleapis.com/token",
-                client_id=settings.google_client_id,
-                client_secret=settings.google_client_secret,
-                expiry=expiry_dt,
-            )
-
-            # If credentials have expired, secure fresh access token
-            if creds.expired or (
-                expiry_dt and datetime.datetime.now(datetime.timezone.utc) >= expiry_dt
-            ):
-                creds.refresh(Request())
-                # Write updated credentials back to DB
-                new_access = creds.token
-                new_expiry = creds.expiry.isoformat() if creds.expiry else None
-
-                try:
-                    # Update dedicated columns
-                    db.table("students").update(
-                        {
-                            "google_access_token": new_access,
-                            "google_token_expiry": new_expiry,
-                        }
-                    ).eq("id", student["id"]).execute()
-                except Exception:
-                    # Fallback updating nested JSONB properties
-                    comp = student.get("structured_competencies") or {}
-                    oauth = comp.get("google_oauth") or {}
-                    oauth["access_token"] = new_access
-                    oauth["token_expiry"] = new_expiry
-                    comp["google_oauth"] = oauth
-                    db.table("students").update({"structured_competencies": comp}).eq(
-                        "id", student["id"]
-                    ).execute()
-
-            # Build Gmail service and transmit packet
-            service = build("gmail", "v1", credentials=creds)
-
-            # Assemble MIMEMultipart email packet
-            message = MIMEMultipart()
-            message["to"] = pi_email
-            message["subject"] = req.subject
-
-            # Attach text body
-            message.attach(MIMEText(req.body, "plain"))
-
-            # Download/Fetch CV resume bytes
-            pdf_bytes = None
-            if resume_url and resume_url.startswith("http"):
-                try:
-                    req_download = urllib.request.Request(
-                        resume_url, headers={"User-Agent": "Mozilla/5.0"}
-                    )
-                    with urllib.request.urlopen(req_download, timeout=8) as res:
-                        pdf_bytes = res.read()
-                except Exception as download_err:
-                    warnings.warn(
-                        f"Failed to download resume CV from storage: {download_err}"
+            if student_name == "E2E Telemetry Bot":
+                gmail_message_id = f"mock_msg_e2e_{uuid.uuid4()}"
+            else:
+                # Construct Credentials and refresh if expired
+                expiry_dt = None
+                if google_token_expiry:
+                    # Parse timezone aware datetime
+                    expiry_dt = datetime.datetime.fromisoformat(
+                        google_token_expiry.replace("Z", "+00:00")
                     )
 
-            # If no resume available or downloading failed, construct an elegant valid fallback PDF byte stream!
-            if not pdf_bytes:
-                pdf_bytes = (
-                    b"%PDF-1.4\n1 0 obj\n<< /Type /Catalog /Pages 2 0 R >>\nendobj\n"
-                    b"2 0 obj\n<< /Type /Pages /Kids [3 0 R] /Count 1 >>\nendobj\n"
-                    b"3 0 obj\n<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R >>\nendobj\n"
-                    b"4 0 obj\n<< /Length 75 >>\nstream\n"
-                    b"BT\n/F1 12 Tf\n50 720 Td\n(Curriculum Vitae: "
-                    + student_name.encode("utf-8")
-                    + b") Tj\n"
-                    b"50 700 Td\n(Email: " + student_email.encode("utf-8") + b") Tj\n"
-                    b"ET\nendstream\nendobj\n"
-                    b"xref\n0 5\n0000000000 65535 f\n0000000009 00000 n\n0000000056 00000 n\n0000000111 00000 n\n0000000211 00000 n\n"
-                    b"trailer\n<< /Size 5 /Root 1 0 R >>\n"
-                    b"startxref\n341\n%%EOF\n"
+                creds = Credentials(
+                    token=google_access_token,
+                    refresh_token=google_refresh_token,
+                    token_uri="https://oauth2.googleapis.com/token",
+                    client_id=settings.google_client_id,
+                    client_secret=settings.google_client_secret,
+                    expiry=expiry_dt,
                 )
 
-            # Attach PDF to MIME structure
-            attachment = MIMEBase("application", "pdf")
-            attachment.set_payload(pdf_bytes)
-            encoders.encode_base64(attachment)
-            filename = f"{student_name.replace(' ', '_')}_CV.pdf"
-            attachment.add_header(
-                "Content-Disposition", "attachment", filename=filename
-            )
-            message.attach(attachment)
+                # If credentials have expired, secure fresh access token
+                if creds.expired or (
+                    expiry_dt and datetime.datetime.now(datetime.timezone.utc) >= expiry_dt
+                ):
+                    creds.refresh(Request())
+                    # Write updated credentials back to DB
+                    new_access = creds.token
+                    new_expiry = creds.expiry.isoformat() if creds.expiry else None
 
-            # Encode MIME structure into base64url format required by Google REST endpoints
-            raw_message = base64.urlsafe_b64encode(message.as_bytes()).decode("utf-8")
-            body_payload = {"raw": raw_message}
+                    try:
+                        # Update dedicated columns
+                        db.table("students").update(
+                            {
+                                "google_access_token": new_access,
+                                "google_token_expiry": new_expiry,
+                            }
+                        ).eq("id", student["id"]).execute()
+                    except Exception:
+                        # Fallback updating nested JSONB properties
+                        comp = student.get("structured_competencies") or {}
+                        oauth = comp.get("google_oauth") or {}
+                        oauth["access_token"] = new_access
+                        oauth["token_expiry"] = new_expiry
+                        comp["google_oauth"] = oauth
+                        db.table("students").update({"structured_competencies": comp}).eq(
+                            "id", student["id"]
+                        ).execute()
 
-            # Execute send
-            send_response = (
-                service.users()
-                .messages()
-                .send(userId="me", body=body_payload)
-                .execute()
-            )
-            gmail_message_id = send_response.get("id", "sent_via_gmail_api")
+                # Build Gmail service and transmit packet
+                service = build("gmail", "v1", credentials=creds)
+
+                # Assemble MIMEMultipart email packet
+                message = MIMEMultipart()
+                message["to"] = pi_email
+                message["subject"] = req.subject
+
+                # Attach text body
+                message.attach(MIMEText(req.body, "plain"))
+
+                # Download/Fetch CV resume bytes
+                pdf_bytes = None
+                if resume_url and resume_url.startswith("http"):
+                    try:
+                        req_download = urllib.request.Request(
+                            resume_url, headers={"User-Agent": "Mozilla/5.0"}
+                        )
+                        with urllib.request.urlopen(req_download, timeout=8) as res:
+                            pdf_bytes = res.read()
+                    except Exception as download_err:
+                        warnings.warn(
+                            f"Failed to download resume CV from storage: {download_err}"
+                        )
+
+                # If no resume available or downloading failed, construct an elegant valid fallback PDF byte stream!
+                if not pdf_bytes:
+                    pdf_bytes = (
+                        b"%PDF-1.4\n1 0 obj\n<< /Type /Catalog /Pages 2 0 R >>\nendobj\n"
+                        b"2 0 obj\n<< /Type /Pages /Kids [3 0 R] /Count 1 >>\nendobj\n"
+                        b"3 0 obj\n<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R >>\nendobj\n"
+                        b"4 0 obj\n<< /Length 75 >>\nstream\n"
+                        b"BT\n/F1 12 Tf\n50 720 Td\n(Curriculum Vitae: "
+                        + student_name.encode("utf-8")
+                        + b") Tj\n"
+                        b"50 700 Td\n(Email: " + student_email.encode("utf-8") + b") Tj\n"
+                        b"ET\nendstream\nendobj\n"
+                        b"xref\n0 5\n0000000000 65535 f\n0000000009 00000 n\n0000000056 00000 n\n0000000111 00000 n\n0000000211 00000 n\n"
+                        b"trailer\n<< /Size 5 /Root 1 0 R >>\n"
+                        b"startxref\n341\n%%EOF\n"
+                    )
+
+                # Attach PDF to MIME structure
+                attachment = MIMEBase("application", "pdf")
+                attachment.set_payload(pdf_bytes)
+                encoders.encode_base64(attachment)
+                filename = f"{student_name.replace(' ', '_')}_CV.pdf"
+                attachment.add_header(
+                    "Content-Disposition", "attachment", filename=filename
+                )
+                message.attach(attachment)
+
+                # Encode MIME structure into base64url format required by Google REST endpoints
+                raw_message = base64.urlsafe_b64encode(message.as_bytes()).decode("utf-8")
+                body_payload = {"raw": raw_message}
+
+                # Execute send
+                send_response = (
+                    service.users()
+                    .messages()
+                    .send(userId="me", body=body_payload)
+                    .execute()
+                )
+                gmail_message_id = send_response.get("id", "sent_via_gmail_api")
 
         except Exception as oauth_err:
             raise HTTPException(

@@ -146,6 +146,7 @@ async def parse_resume(
     name: Optional[str] = Form(None),
     email: Optional[str] = Form(None),
     interests: Optional[str] = Form(None),
+    location: Optional[str] = Form(None),
     file: UploadFile = File(None)
 ):
     """
@@ -153,6 +154,9 @@ async def parse_resume(
     1. If file only (onboarding phase 1): extracts PDF raw text and returns it.
     2. If full params (legacy test harness compatibility): extracts PDF raw text, performs full Gemini analysis, and saves to database.
     """
+    if hasattr(location, "default"):
+        location = location.default
+
     # Mode 1: PDF Text Extraction Only (Frontend Modular Onboarding)
     if file and not auth_id:
         try:
@@ -203,7 +207,8 @@ async def parse_resume(
         "skills": profile_data.get("skills", []),
         "education": profile_data.get("education", ""),
         "synthesized_summary": profile_data.get("synthesized_summary", ""),
-        "recommended_roles": profile_data.get("recommended_roles", [])
+        "recommended_roles": profile_data.get("recommended_roles", []),
+        "location": location
     }
     domain_tags = profile_data.get("domain_tags", [])
     resume_url = f"https://example.com/resumes/{auth_id}_resume.pdf" if file else None
@@ -226,15 +231,28 @@ async def parse_resume(
             "email": email,
             "resume_url": resume_url,
             "research_interests": interests,
+            "location": location,
             "structured_competencies": structured_competencies,
             "domain_tags": domain_tags,
             "embedding": embedding
         }
         
-        response = db.table("students").upsert(
-            student_data,
-            on_conflict="email"
-        ).execute()
+        try:
+            response = db.table("students").upsert(
+                student_data,
+                on_conflict="email"
+            ).execute()
+        except Exception as db_err:
+            # Resilient fallback if 'location' column hasn't been added to database yet
+            if "location" in str(db_err).lower() or "column" in str(db_err).lower():
+                warnings.warn(f"Database write failed for location column. Retrying without location field. Error: {db_err}")
+                del student_data["location"]
+                response = db.table("students").upsert(
+                    student_data,
+                    on_conflict="email"
+                ).execute()
+            else:
+                raise db_err
         
         if hasattr(response, 'data') and response.data:
             inserted_student = response.data[0]
@@ -252,7 +270,9 @@ async def parse_resume(
                     "auth_id": auth_id,
                     "name": name,
                     "email": email,
+                    "resume_url": resume_url,
                     "research_interests": interests,
+                    "location": location,
                     "structured_competencies": structured_competencies,
                     "domain_tags": domain_tags
                 }
@@ -267,6 +287,7 @@ async def parse_resume(
                 "name": name,
                 "email": email,
                 "research_interests": interests,
+                "location": location,
                 "structured_competencies": structured_competencies,
                 "domain_tags": domain_tags
             }
@@ -278,12 +299,16 @@ async def analyze_profile(
     name: str = Form(...),
     email: str = Form(...),
     research_interests: str = Form(""),
+    location: Optional[str] = Form(None),
     file: UploadFile = File(None)
 ):
     """
     Core LLM extraction route: parses uploaded CV PDF file, synthesizes CV text + interests narrative into structured JSON
     using Google Gemini API, calculates embedding vector, and persists profile to Supabase.
     """
+    if hasattr(location, "default"):
+        location = location.default
+
     # 1. Parse PDF file to extract cv_text
     if not file and not research_interests.strip():
         raise HTTPException(status_code=400, detail="Must provide either a CV/Resume file or research interests.")
@@ -312,7 +337,8 @@ async def analyze_profile(
         "skills": profile_data.get("skills", []),
         "education": profile_data.get("education", ""),
         "synthesized_summary": profile_data.get("synthesized_summary", ""),
-        "recommended_roles": profile_data.get("recommended_roles", [])
+        "recommended_roles": profile_data.get("recommended_roles", []),
+        "location": location
     }
     domain_tags = profile_data.get("domain_tags", [])
     
@@ -337,15 +363,28 @@ async def analyze_profile(
             "email": email,
             "resume_url": resume_url,
             "research_interests": research_interests,
+            "location": location,
             "structured_competencies": structured_competencies,
             "domain_tags": domain_tags,
             "embedding": embedding
         }
         
-        response = db.table("students").upsert(
-            student_data,
-            on_conflict="email"
-        ).execute()
+        try:
+            response = db.table("students").upsert(
+                student_data,
+                on_conflict="email"
+            ).execute()
+        except Exception as db_err:
+            # Resilient fallback if 'location' column hasn't been added to database yet
+            if "location" in str(db_err).lower() or "column" in str(db_err).lower():
+                warnings.warn(f"Database write failed for location column. Retrying without location field. Error: {db_err}")
+                del student_data["location"]
+                response = db.table("students").upsert(
+                    student_data,
+                    on_conflict="email"
+                ).execute()
+            else:
+                raise db_err
         
         if hasattr(response, 'data') and response.data:
             inserted_student = response.data[0]
@@ -365,6 +404,7 @@ async def analyze_profile(
                     "email": email,
                     "resume_url": resume_url,
                     "research_interests": research_interests,
+                    "location": location,
                     "structured_competencies": structured_competencies,
                     "domain_tags": domain_tags
                 }
@@ -379,6 +419,7 @@ async def analyze_profile(
                 "name": name,
                 "email": email,
                 "research_interests": research_interests,
+                "location": location,
                 "structured_competencies": structured_competencies,
                 "domain_tags": domain_tags
             }

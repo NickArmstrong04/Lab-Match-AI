@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from .routers import auth, profile, grants, agent
+from .routers import auth, profile, grants, agent, analytics
 
 app = FastAPI(
     title="LabMatch AI API",
@@ -9,12 +9,18 @@ app = FastAPI(
     version="1.0.0",
 )
 
+import os
+
 # Setup CORS
 origins = [
     "http://localhost:5173",  # Vite default
     "http://localhost:5174",  # Vite fallback port
     "http://localhost:3000",
 ]
+
+cors_env = os.getenv("CORS_ORIGINS")
+if cors_env:
+    origins.extend([o.strip() for o in cors_env.split(",") if o.strip()])
 
 app.add_middleware(
     CORSMiddleware,
@@ -29,12 +35,23 @@ app.include_router(auth.router, prefix="/auth", tags=["Auth"])
 app.include_router(profile.router, prefix="/profile", tags=["Profile"])
 app.include_router(grants.router, prefix="/grants", tags=["Grants"])
 app.include_router(agent.router, prefix="/agent", tags=["Agent"])
+app.include_router(analytics.router, prefix="/analytics", tags=["Analytics"])
 
 @app.on_event("startup")
 async def start_scheduler():
+    import os
+    import warnings
     from apscheduler.schedulers.background import BackgroundScheduler
     from .services.ingest import run_grant_ingestion
-    import warnings
+    
+    # Pre-flight environment keys check
+    required_keys = ["SUPABASE_URL", "SUPABASE_KEY", "GEMINI_API_KEY", "GOOGLE_CLIENT_ID", "GOOGLE_CLIENT_SECRET"]
+    missing_keys = [k for k in required_keys if not os.getenv(k)]
+    if missing_keys:
+        warnings.warn(
+            f"\n[⚠️  ENVIRONMENT WARNING] Missing critical keys: {', '.join(missing_keys)}.\n"
+            f"The server is running, but core features (embeddings, database tables, or Google dispatches) may encounter runtime exceptions.\n"
+        )
     
     app.state.scheduler = BackgroundScheduler()
     

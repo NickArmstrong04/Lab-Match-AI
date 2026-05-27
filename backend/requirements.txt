@@ -6,3 +6,6 @@ supabase
 pydantic-settings
 pypdf
 apscheduler
+google-auth-oauthlib
+google-api-python-client
+google-auth

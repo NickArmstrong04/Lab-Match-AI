@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { Send, FolderClosed, ArrowLeft, Mail, Sparkles, AlertCircle, CheckCircle2, RefreshCw } from 'lucide-react';
+import { Send, FolderClosed, ArrowLeft, Mail, Sparkles, AlertCircle, CheckCircle2, RefreshCw, Copy } from 'lucide-react';
 import GlassCard from '../components/GlassCard';
 import CircularScore from '../components/CircularScore';
 import { type GrantMatch } from './Dashboard';
 import api from '../api/axios';
+import { trackEvent } from '../utils/analytics';
 
 interface EmailReviewProps {
   match: GrantMatch;
@@ -25,6 +26,8 @@ export const EmailReview: React.FC<EmailReviewProps> = ({
   const [to, setTo] = useState(match.pi_email);
   const [subject, setSubject] = useState('');
   const [body, setBody] = useState('');
+  const [originalDraftBody, setOriginalDraftBody] = useState('');
+  const [isCopied, setIsCopied] = useState(false);
   
   // Dynamic API integration states
   const [isDrafting, setIsDrafting] = useState(true);
@@ -32,6 +35,20 @@ export const EmailReview: React.FC<EmailReviewProps> = ({
   const [checkingAuth, setCheckingAuth] = useState(true);
   const [sendState, setSendState] = useState<'idle' | 'sending' | 'success' | 'error'>('idle');
   const [errorMsg, setErrorMsg] = useState('');
+
+  // Analytics: Track email review page view
+  useEffect(() => {
+    trackEvent('view_page', 'email_review', 'page_view');
+  }, []);
+
+  const handleCopyToClipboard = () => {
+    const fullText = `Subject: ${subject}\n\n${body}`;
+    navigator.clipboard.writeText(fullText);
+    setIsCopied(true);
+    setTimeout(() => {
+      setIsCopied(false);
+    }, 2000);
+  };
 
   // 1. Fetch Dynamic Gemini Draft on Mount
   useEffect(() => {
@@ -43,8 +60,10 @@ export const EmailReview: React.FC<EmailReviewProps> = ({
           grant_id: match.id,
         });
         const data = response.data;
+        const draftBody = data.body || '';
         setSubject(data.subject || `Inquiry: Research Alignment — ${studentName}`);
-        setBody(data.body || '');
+        setBody(draftBody);
+        setOriginalDraftBody(draftBody);
       } catch (err) {
         console.error("Draft generation error, loading fallback template:", err);
         // Clean fallback email template if API is down
@@ -54,7 +73,9 @@ export const EmailReview: React.FC<EmailReviewProps> = ({
         const intro = `Dear Dr. ${match.pi_name.split(' ').pop()},\n\nI hope this email finds you well. My name is ${studentName}, and I am a student developer researching active labs. I recently analyzed your active ${match.agency} funded project, "${match.title}" (award amount $${match.award_amount.toLocaleString()}), and was immediately struck by the alignment between your lab's focus and my competencies.`;
         const center = `Specifically, my background is highly optimized for your current methodologies. According to my parsed CV (${resumeName}), I have demonstrated experience in ${match.matching_skills.join(', ')}. I noticed your project leverages research techniques in these exact sectors, making me an excellent fit to assist.`;
         const outro = `I would love the opportunity to learn more about your research goals and discuss how my skills could accelerate your pipeline. Would you be open to a brief 10-minute Zoom call or a quick lab introduction next week? I've attached my full CV to this email.\n\nSincerely,\n\n${studentName}`;
-        setBody(`${intro}\n\n${center}\n\n${outro}`);
+        const fallbackBody = `${intro}\n\n${center}\n\n${outro}`;
+        setBody(fallbackBody);
+        setOriginalDraftBody(fallbackBody);
       } finally {
         setIsDrafting(false);
       }
@@ -111,6 +132,16 @@ export const EmailReview: React.FC<EmailReviewProps> = ({
   const handleSendEmail = async () => {
     setSendState('sending');
     setErrorMsg('');
+
+    // Telemetry: track outreach send attempt
+    trackEvent('email_sent_attempt', 'email_review', 'action', {
+      grant_id: match.id,
+      pi_name: match.pi_name,
+      institution: match.institution
+    });
+
+    const draft_modified_chars_diff = Math.abs(body.length - originalDraftBody.length);
+
     try {
       await api.post('/agent/send-email', {
         student_id: studentId,
@@ -120,13 +151,30 @@ export const EmailReview: React.FC<EmailReviewProps> = ({
         match_id: match.id
       });
 
+      // Telemetry: track successful outreach sent
+      trackEvent('email_sent', 'email_review', 'action', {
+        grant_id: match.id,
+        pi_name: match.pi_name,
+        institution: match.institution,
+        draft_modified_chars_diff
+      });
+
       setSendState('success');
       setTimeout(() => {
         onSendComplete(match.id, body);
       }, 1800);
     } catch (err: any) {
       console.error("Email transmission failed:", err);
-      setErrorMsg(err.response?.data?.detail || err.message || 'Gateway handshake error.');
+      const errStr = err.response?.data?.detail || err.message || 'Gateway handshake error.';
+      setErrorMsg(errStr);
+
+      // Telemetry: track failed outreach transmission
+      trackEvent('email_sent_failed', 'email_review', 'action', {
+        grant_id: match.id,
+        pi_name: match.pi_name,
+        error: errStr
+      });
+
       setSendState('error');
     }
   };
@@ -255,16 +303,33 @@ export const EmailReview: React.FC<EmailReviewProps> = ({
 
               {/* Control buttons */}
               <div className="flex items-center justify-between border-t border-stone-200 pt-4 mt-2">
-                <button
-                  onClick={onCancel}
-                  disabled={sendState === 'sending'}
-                  className="px-4 py-2 rounded-lg text-stone-600 hover:text-stone-900 hover:bg-stone-100 transition-colors text-xs font-semibold inline-flex items-center justify-center gap-2 cursor-pointer disabled:opacity-50"
-                >
-                  <span className="icon-btn-slot" aria-hidden>
-                    <FolderClosed className="size-3.5" />
-                  </span>
-                  <span className="icon-btn-label">Save Draft</span>
-                </button>
+                <div className="flex gap-2">
+                  <button
+                    onClick={onCancel}
+                    disabled={sendState === 'sending'}
+                    className="px-4 py-2 rounded-lg text-stone-600 hover:text-stone-900 hover:bg-stone-100 transition-colors text-xs font-semibold inline-flex items-center justify-center gap-2 cursor-pointer disabled:opacity-50"
+                  >
+                    <span className="icon-btn-slot" aria-hidden>
+                      <FolderClosed className="size-3.5" />
+                    </span>
+                    <span className="icon-btn-label">Save Draft</span>
+                  </button>
+
+                  <button
+                    onClick={handleCopyToClipboard}
+                    disabled={sendState === 'sending'}
+                    className="px-4 py-2.5 rounded-lg text-[#0d5c5c] hover:bg-[#e6f0f0] border border-[#c5dddd] transition-colors text-xs font-semibold inline-flex items-center justify-center gap-2 cursor-pointer disabled:opacity-50"
+                  >
+                    <span className="icon-btn-slot" aria-hidden>
+                      {isCopied ? (
+                        <CheckCircle2 className="size-3.5 text-[#0d5c48]" />
+                      ) : (
+                        <Copy className="size-3.5" strokeWidth={1.75} />
+                      )}
+                    </span>
+                    <span className="icon-btn-label">{isCopied ? 'Copied!' : 'Copy Pitch'}</span>
+                  </button>
+                </div>
 
                 {checkingAuth ? (
                   <button
