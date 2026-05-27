@@ -516,11 +516,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: -0.5rem;
   margin-right: -0.5rem;
   margin-bottom: 0.75rem;
-  padding-left: calc(
-    (
-      clamp(1rem, 3vw, 2rem) + 1rem + (100% - min(42rem, 100%)) / 2
-    ) / 2 - 0.5rem
-  );
+  padding-left: calc((100% - min(42rem, 100%)) / 2 + 1rem);
   padding-right: 1rem;
   box-sizing: border-box;
 }
@@ -529,11 +525,7 @@ h1, h2, h3, h4, h5, h6 {
   .onboarding-back-home-row {
     margin-left: -0.75rem;
     margin-right: -0.75rem;
-    padding-left: calc(
-      (
-        clamp(1rem, 3vw, 2rem) + 1.5rem + (100% - min(42rem, 100%)) / 2
-      ) / 2 - 0.75rem
-    );
+    padding-left: calc((100% - min(42rem, 100%)) / 2 + 1.5rem);
   }
 }
 
