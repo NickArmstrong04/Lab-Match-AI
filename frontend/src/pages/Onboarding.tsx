@@ -1,14 +1,28 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { Upload, FileText, CheckCircle2, AlertCircle, ChevronRight, RefreshCw, Database, ScanSearch, Mail } from 'lucide-react';
+import { Upload, FileText, CheckCircle2, AlertCircle, ChevronRight, RefreshCw } from 'lucide-react';
 import GlassCard from '../components/GlassCard';
 import api from '../api/axios';
 import { trackEvent, setStudentId } from '../utils/analytics';
 
+export type OnboardingEntry = 'new' | 'returning';
+
 interface OnboardingProps {
   onComplete: (data: { resumeName: string; researchInterests: string; matches: any[]; studentId?: string; studentName?: string; location?: string }) => void;
+  entry?: OnboardingEntry;
+  onBackToCover?: () => void;
+  showHero?: boolean;
+  lockNewProfile?: boolean;
+  lockReturning?: boolean;
 }
 
-export const Onboarding: React.FC<OnboardingProps> = ({ onComplete }) => {
+export const Onboarding: React.FC<OnboardingProps> = ({
+  onComplete,
+  entry = 'new',
+  onBackToCover,
+  showHero: showHeroProp,
+  lockNewProfile = false,
+  lockReturning = false,
+}) => {
   const [dragActive, setDragActive] = useState(false);
   const [file, setFile] = useState<File | null>(null);
   const [uploadStatus, setUploadStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
@@ -24,7 +38,7 @@ export const Onboarding: React.FC<OnboardingProps> = ({ onComplete }) => {
   const [tempCompletedData, setTempCompletedData] = useState<any>(null);
   const [password, setPassword] = useState('');
   const [isSavingPassword, setIsSavingPassword] = useState(false);
-  const [isReturningUser, setIsReturningUser] = useState(false);
+  const [isReturningUser, setIsReturningUser] = useState(entry === 'returning' || lockReturning);
   const [isLoggingIn, setIsLoggingIn] = useState(false);
   const [isGoogleConnected, setIsGoogleConnected] = useState(false);
   
@@ -41,31 +55,20 @@ export const Onboarding: React.FC<OnboardingProps> = ({ onComplete }) => {
     "Single-cell RNA-sequencing"
   ];
 
-  const whyUseBlocks = [
-    {
-      icon: Database,
-      title: 'Live federal grant alignment',
-      description:
-        'Surface actively funded NIH and NSF labs that overlap with your stated interests and parsed background—not stale job boards or generic listings.',
-    },
-    {
-      icon: ScanSearch,
-      title: 'CV-aware profile synthesis',
-      description:
-        'Upload a PDF resume and our parser extracts publications, methods, and skills to power semantic matching against real award abstracts.',
-    },
-    {
-      icon: Mail,
-      title: 'From match to outreach',
-      description:
-        'Review ranked lab fits, save your pipeline, and draft tailored cold emails grounded in both your narrative and each PI’s funded project.',
-    },
-  ];
-
   // Telemetry: Track page view on mount
   useEffect(() => {
     trackEvent('view_page', 'onboarding', 'page_view');
   }, []);
+
+  useEffect(() => {
+    if (lockReturning) {
+      setIsReturningUser(true);
+    } else if (lockNewProfile) {
+      setIsReturningUser(false);
+    } else {
+      setIsReturningUser(entry === 'returning');
+    }
+  }, [entry, lockReturning, lockNewProfile]);
 
   const handleInteraction = () => {
     if (!hasInteracted) {
@@ -518,56 +521,77 @@ export const Onboarding: React.FC<OnboardingProps> = ({ onComplete }) => {
     );
   }
 
+  const showHero = showHeroProp ?? !onBackToCover;
+  const showAccountTabs = !lockNewProfile && !lockReturning;
+
   return (
     <div className="w-full px-4 sm:px-6 py-6 md:py-8 animate-fade-in">
-      {/* Title block */}
-      <div className="text-center mb-8 md:mb-10 max-w-2xl mx-auto shrink-0">
-        <h1 className="text-3xl sm:text-4xl md:text-[2.75rem] font-semibold tracking-tight text-stone-900 font-outfit mb-4 leading-[1.15]">
-          {isReturningUser ? 'Welcome Back!' : 'Build Your Research Profile'}
-        </h1>
-        <p className="text-stone-600 text-base md:text-lg leading-relaxed">
-          {isReturningUser 
-            ? 'Login with your email and password to load your academic CV narrative, research interests, and active lab matches.'
-            : 'Upload your academic credentials and detail your research interests to align immediately with active, fully-funded NIH & NSF labs.'}
-        </p>
-      </div>
+      {showHero && onBackToCover && (
+        <div className="onboarding-back-home-row">
+          <button type="button" onClick={onBackToCover} className="onboarding-back-home">
+            ← Back to home
+          </button>
+        </div>
+      )}
+
+      {showHero && (
+        <div className="onboarding-hero max-w-2xl mx-auto mb-8 md:mb-10 shrink-0">
+          <h1 className="onboarding-hero-title">
+            {isReturningUser ? 'Welcome Back!' : 'Build Your Research Profile'}
+          </h1>
+          <p className="onboarding-hero-subtitle">
+            {isReturningUser
+              ? 'Login with your email and password to load your academic CV narrative, research interests, and active lab matches.'
+              : 'Upload your academic credentials and detail your research interests to align immediately with active, fully-funded NIH & NSF labs.'}
+          </p>
+        </div>
+      )}
+
+      {!showHero && onBackToCover && (
+        <div className="onboarding-back-home-row mb-4">
+          <button type="button" onClick={onBackToCover} className="onboarding-back-home">
+            ← Back to home
+          </button>
+        </div>
+      )}
 
       <div className="w-full max-w-2xl mx-auto">
         <GlassCard
           className="relative flex flex-col w-full min-h-[28rem] p-6 md:p-8"
           glowColor={uploadStatus === 'success' ? 'teal' : 'none'}
         >
-          {/* Account Form Mode Tabs */}
-          <div className="flex border-b border-stone-200 pb-3 mb-6 gap-4 shrink-0 justify-center sm:justify-start">
-            <button
-              type="button"
-              onClick={() => {
-                setIsReturningUser(false);
-                setErrorMsg('');
-              }}
-              className={`px-3 py-1.5 text-xs font-bold border-b-2 transition-all cursor-pointer bg-transparent border-0 ${
-                !isReturningUser 
-                  ? 'text-[#0d5c5c] border-[#0d5c5c]' 
-                  : 'text-stone-400 border-transparent hover:text-stone-600'
-              }`}
-            >
-              Build New Profile
-            </button>
-            <button
-              type="button"
-              onClick={() => {
-                setIsReturningUser(true);
-                setErrorMsg('');
-              }}
-              className={`px-3 py-1.5 text-xs font-bold border-b-2 transition-all cursor-pointer bg-transparent border-0 ${
-                isReturningUser 
-                  ? 'text-[#0d5c5c] border-[#0d5c5c]' 
-                  : 'text-stone-400 border-transparent hover:text-stone-600'
-              }`}
-            >
-              Returning Student Login
-            </button>
-          </div>
+          {showAccountTabs && (
+            <div className="flex border-b border-stone-200 pb-3 mb-6 gap-4 shrink-0 justify-center sm:justify-start">
+              <button
+                type="button"
+                onClick={() => {
+                  setIsReturningUser(false);
+                  setErrorMsg('');
+                }}
+                className={`px-3 py-1.5 text-xs font-bold border-b-2 transition-all cursor-pointer bg-transparent border-0 ${
+                  !isReturningUser
+                    ? 'text-[#0d5c5c] border-[#0d5c5c]'
+                    : 'text-stone-400 border-transparent hover:text-stone-600'
+                }`}
+              >
+                Build New Profile
+              </button>
+              <button
+                type="button"
+                onClick={() => {
+                  setIsReturningUser(true);
+                  setErrorMsg('');
+                }}
+                className={`px-3 py-1.5 text-xs font-bold border-b-2 transition-all cursor-pointer bg-transparent border-0 ${
+                  isReturningUser
+                    ? 'text-[#0d5c5c] border-[#0d5c5c]'
+                    : 'text-stone-400 border-transparent hover:text-stone-600'
+                }`}
+              >
+                Returning Student Login
+              </button>
+            </div>
+          )}
 
           {isReturningUser ? (
             /* RETURNING STUDENT LOGIN FORM */
@@ -623,7 +647,7 @@ export const Onboarding: React.FC<OnboardingProps> = ({ onComplete }) => {
                     </>
                   ) : (
                     <>
-                      Login & Load Pipeline ➔
+                      Login ➔
                     </>
                   )}
                 </button>
@@ -800,41 +824,6 @@ export const Onboarding: React.FC<OnboardingProps> = ({ onComplete }) => {
           )}
         </GlassCard>
       </div>
-
-      <section
-        className="w-full max-w-5xl mx-auto mt-16 md:mt-24 pb-8 md:pb-12"
-        aria-labelledby="why-labmatch-heading"
-      >
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-x-6 md:gap-y-5">
-          <h2
-            id="why-labmatch-heading"
-            className="text-left text-xl sm:text-2xl md:text-3xl font-semibold font-outfit text-stone-900 tracking-tight whitespace-nowrap md:col-start-1 md:row-start-1"
-          >
-            Why people use LabMatch AI
-          </h2>
-          {whyUseBlocks.map(({ icon: Icon, title, description }, index) => (
-            <GlassCard
-              key={title}
-              className={`p-5 md:p-6 h-full md:row-start-2 ${
-                index === 0 ? 'md:col-start-1' : index === 1 ? 'md:col-start-2' : 'md:col-start-3'
-              }`}
-              glowColor="none"
-            >
-              <div className="flex items-center gap-3 mb-3">
-                <div className="w-10 h-10 shrink-0 rounded-lg bg-[#e8eef1] border border-stone-200 flex items-center justify-center">
-                  <Icon className="w-5 h-5 text-[#1e3a4a]" strokeWidth={1.75} />
-                </div>
-                <h3 className="text-base font-semibold font-outfit text-stone-900 leading-snug min-w-0">
-                  {title}
-                </h3>
-              </div>
-              <p className="text-stone-600 text-sm leading-relaxed">
-                {description}
-              </p>
-            </GlassCard>
-          ))}
-        </div>
-      </section>
 
       {isAnalyzing && (
         <div className="fixed inset-0 bg-stone-900/40 backdrop-blur-md flex items-center justify-center p-4 z-50 animate-fade-in">

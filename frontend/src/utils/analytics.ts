@@ -54,7 +54,7 @@ export const setStudentId = (studentId: string) => {
  */
 export const trackEvent = async (
   eventName: string,
-  pageName: 'onboarding' | 'dashboard' | 'email_review' | 'analytics',
+  pageName: 'cover' | 'get_started' | 'sign_in' | 'explore' | 'onboarding' | 'dashboard' | 'email_review' | 'analytics',
   eventType: 'page_view' | 'action',
   metadata: Record<string, any> = {}
 ) => {

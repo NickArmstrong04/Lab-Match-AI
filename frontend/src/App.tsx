@@ -1,5 +1,10 @@
 import { useState, useEffect } from 'react';
 import { Mail, User, Info, FileText, BarChart3 } from 'lucide-react';
+import Cover, { type CoverNavigate } from './pages/Cover';
+import LandingSignInBar from './components/LandingSignInBar';
+import GetStarted from './pages/GetStarted';
+import SignIn from './pages/SignIn';
+import ExploreUseCases from './pages/ExploreUseCases';
 import Onboarding from './pages/Onboarding';
 import Dashboard, { type GrantMatch } from './pages/Dashboard';
 import EmailReview from './pages/EmailReview';
@@ -18,8 +23,13 @@ function App() {
   const [researchInterests, setResearchInterests] = useState('');
   
   // Navigation & Page views
-  const [view, setView] = useState<'onboarding' | 'dashboard' | 'email_review' | 'analytics'>('onboarding');
+  const [view, setView] = useState<
+    'cover' | 'get_started' | 'sign_in' | 'explore' | 'onboarding' | 'dashboard' | 'email_review' | 'analytics'
+  >('cover');
   const [isOnboarded, setIsOnboarded] = useState(false);
+
+  const isLandingView =
+    view === 'cover' || view === 'get_started' || view === 'sign_in' || view === 'explore';
 
   // Analytics: Track session start and routing transitions
   useEffect(() => {
@@ -87,6 +97,12 @@ function App() {
     setView('dashboard');
   };
 
+  const handleCoverNavigate = (target: CoverNavigate) => {
+    setView(target);
+  };
+
+  const goHome = () => setView('cover');
+
   const handleCancelOutreach = () => {
     if (activeOutreachMatch) {
       trackEvent('email_cancelled', 'email_review', 'action', {
@@ -100,13 +116,25 @@ function App() {
 
   return (
     <div className="min-h-screen flex flex-col justify-between">
-      
-      {/* Top Navbar */}
+
+      {isLandingView && (
+        <LandingSignInBar
+          view={view}
+          onSignIn={() => setView('sign_in')}
+          onGetStarted={() => setView('get_started')}
+        />
+      )}
+
+      {/* Top Navbar (hidden on landing routes for full-bleed hero) */}
+      {!isLandingView && (
       <header className="sticky top-0 w-full glass-panel border-b border-stone-200/80 z-40">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 h-[4.25rem] flex items-center justify-between gap-4">
           
           {/* Logo brand */}
-          <div className="flex items-center gap-2.5 cursor-pointer shrink-0" onClick={() => setView(isOnboarded ? 'dashboard' : 'onboarding')}>
+          <div
+            className="flex items-center gap-2.5 cursor-pointer shrink-0"
+            onClick={() => setView(isOnboarded ? 'dashboard' : 'cover')}
+          >
             <img
               src="/labmatch-icon.png"
               alt=""
@@ -171,7 +199,7 @@ function App() {
             {import.meta.env.DEV && (
               <button
                 type="button"
-                onClick={() => setView(view === 'analytics' ? (isOnboarded ? 'dashboard' : 'onboarding') : 'analytics')}
+                onClick={() => setView(view === 'analytics' ? (isOnboarded ? 'dashboard' : 'cover') : 'analytics')}
                 className={`p-2 px-3 rounded-lg border flex items-center justify-center transition-all duration-200 cursor-pointer text-xs font-semibold gap-1.5
                   ${view === 'analytics'
                     ? 'bg-[#0d5c5c] border-[#0d5c5c] text-white font-semibold'
@@ -199,11 +227,29 @@ function App() {
           </div>
         </div>
       </header>
+      )}
 
       {/* Main Viewport Content */}
-      <main className={`flex-1 w-full flex py-6 bg-transparent overflow-y-auto ${view === 'onboarding' || view === 'analytics' ? 'flex-col items-stretch' : 'items-center justify-center'}`}>
-        {view === 'onboarding' ? (
-          <Onboarding onComplete={handleOnboardingComplete} />
+      <main className={`flex-1 w-full flex bg-transparent overflow-y-auto ${
+        isLandingView
+          ? 'flex-col items-stretch py-0'
+          : view === 'onboarding' || view === 'analytics'
+            ? 'flex-col items-stretch py-6'
+            : 'items-center justify-center py-6'
+      }`}>
+        {view === 'cover' ? (
+          <Cover onNavigate={handleCoverNavigate} />
+        ) : view === 'get_started' ? (
+          <GetStarted onComplete={handleOnboardingComplete} onHome={goHome} />
+        ) : view === 'sign_in' ? (
+          <SignIn onComplete={handleOnboardingComplete} onHome={goHome} />
+        ) : view === 'explore' ? (
+          <ExploreUseCases onGetStarted={() => setView('get_started')} onHome={goHome} />
+        ) : view === 'onboarding' ? (
+          <Onboarding
+            onComplete={handleOnboardingComplete}
+            onBackToCover={goHome}
+          />
         ) : view === 'dashboard' ? (
           <Dashboard
             studentId={studentId}
@@ -234,6 +280,7 @@ function App() {
       </main>
 
       {/* Modern High-End Footer */}
+      {!isLandingView && (
       <footer className="w-full glass-panel border-t border-stone-200/80 py-4 text-xs text-stone-500">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 flex flex-col md:flex-row items-center justify-between gap-3 text-center md:text-left">
           <div>
@@ -245,6 +292,7 @@ function App() {
           </div>
         </div>
       </footer>
+      )}
 
     </div>
   );
