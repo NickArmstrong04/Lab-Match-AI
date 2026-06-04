@@ -90,6 +90,12 @@ export const AnalyticsDashboard: React.FC<AnalyticsDashboardProps> = ({ onViewBa
         return 'bg-teal-50 text-teal-700 border-teal-200';
       case 'email_cancelled':
         return 'bg-stone-50 text-stone-500 border-stone-200';
+      case 'paywall_view':
+        return 'bg-purple-100 text-purple-800 border-purple-300 font-bold';
+      case 'paywall_upgrade_click':
+        return 'bg-emerald-100 text-emerald-800 border-emerald-300 font-bold';
+      case 'paywall_close':
+        return 'bg-stone-100 text-stone-600 border-stone-300';
       default:
         return 'bg-stone-100 text-stone-700 border-stone-200';
     }

@@ -49,6 +49,40 @@ export const setStudentId = (studentId: string) => {
 };
 
 /**
+ * Capture and store standard UTM parameters and other referral sources from the landing URL.
+ * Persists in sessionStorage to stay with the user throughout their session.
+ */
+const getLandingParams = (): Record<string, string> => {
+  try {
+    const cached = sessionStorage.getItem('labmatch_analytics_landing_params');
+    if (cached) {
+      return JSON.parse(cached);
+    }
+
+    const params: Record<string, string> = {};
+    const searchParams = new URLSearchParams(window.location.search);
+    const keys = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content', 'ref', 'source', 'gclid'];
+
+    keys.forEach((key) => {
+      const val = searchParams.get(key);
+      if (val) {
+        params[key] = val;
+      }
+    });
+
+    if (document.referrer) {
+      params['initial_referrer'] = document.referrer;
+    }
+
+    sessionStorage.setItem('labmatch_analytics_landing_params', JSON.stringify(params));
+    return params;
+  } catch (error) {
+    console.warn('[Telemetry Warning] Failed to parse and store UTM parameters:', error);
+    return {};
+  }
+};
+
+/**
  * High-fidelity non-blocking event telemetry tracker.
  * Dispatches page views and user interactions to the backend API.
  */
@@ -63,6 +97,13 @@ export const trackEvent = async (
     const studentId = getStudentId();
     const userAgent = navigator.userAgent;
     const referrer = document.referrer || '';
+    
+    // Capture and merge UTM landing parameters for rich telemetry attribution
+    const landingParams = getLandingParams();
+    const eventMetadata = {
+      ...landingParams,
+      ...metadata
+    };
 
     // Dispatched asynchronously. Failures are caught and logged, never disrupting the user.
     await api.post('/analytics/log', {
@@ -71,7 +112,7 @@ export const trackEvent = async (
       event_type: eventType,
       page_name: pageName,
       event_name: eventName,
-      metadata: metadata,
+      metadata: eventMetadata,
       user_agent: userAgent,
       referrer: referrer
     });
@@ -79,3 +120,4 @@ export const trackEvent = async (
     console.warn('[Telemetry Warning] Safe suppression of telemetry dispatch failure:', error);
   }
 };
+

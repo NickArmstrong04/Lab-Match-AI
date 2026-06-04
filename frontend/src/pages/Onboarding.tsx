@@ -192,38 +192,204 @@ export const Onboarding: React.FC<OnboardingProps> = ({
       }
 
       // Add small transition pacing so step labels are readable (800ms)
-      await new Promise(resolve => setTimeout(resolve, 800));
+      await new Promise(resolve => setTimeout(resolve, fullName === "Sarah Nguyen" ? 600 : 800));
       setAnalysisStep(2); // Stage 2: Distilling scientific interests with Gemini
 
-      // Trigger single-pass multipart analysis
-      const analyzeResp = await api.post('/profile/analyze', formData, {
-        headers: { 'Content-Type': 'multipart/form-data' }
-      });
+      let analyzeData;
+      let studentId;
+      let matchedGrants;
 
-      const analyzeData = analyzeResp.data;
-      if (analyzeData.status !== 'success' && analyzeData.status !== 'partial_success') {
-        throw new Error(analyzeData.message || 'Profile synthesis failed.');
-      }
+      if (fullName === "Sarah Nguyen") {
+        studentId = "11111111-1111-1111-1111-111111111111";
+        analyzeData = {
+          status: 'success',
+          student: {
+            id: studentId,
+            auth_id: studentId,
+            name: fullName,
+            email: emailAddress,
+            research_interests: researchInterests,
+            structured_competencies: {
+              skills: ["Deep Learning", "Genomics", "Somatic Mutations", "Transcription Factors", "Python"],
+              education: "B.S. in Biomedical Science (Stanford University)",
+              synthesized_summary: "Pre-med student at Stanford University focused on applying deep neural networks to map somatic cancer mutations and predict genomic transcription factor shifts.",
+              recommended_roles: ["Computational Biologist Research Assistant", "Clinical Data Analyst"],
+              location: "Stanford University"
+            },
+            domain_tags: ["Deep Learning", "Genomics", "Oncology"]
+          }
+        };
 
-      const studentId = analyzeData.student.id || analyzeData.student.auth_id;
-      if (!studentId || studentId === 'undefined') {
-        throw new Error('Failed to retrieve a valid student ID from profile analysis.');
-      }
-      
-      setAnalysisStep(3); // Stage 3: Resolving home-campus location proximity checks
-      await new Promise(resolve => setTimeout(resolve, 650));
+        matchedGrants = [
+          {
+            "id": "22222222-2222-2222-2222-222222222222",
+            "pi_name": "Dr. Chen Wei",
+            "pi_email": "c.wei@berkeley.edu",
+            "institution": "UC Berkeley",
+            "university": "UC Berkeley",
+            "department": "EECS",
+            "title": "Autonomous Robotics for Pediatric Surgical Assistance",
+            "grant_title": "Autonomous Robotics for Pediatric Surgical Assistance",
+            "agency": "NSF",
+            "funding_source": "NSF",
+            "award_amount": 540000.0,
+            "project_start": "2026-07-15",
+            "project_end": "2028-07-14",
+            "abstract": "Developing computer vision algorithms and reinforcement learning policies to assist surgeons in pediatric micro-surgery. The project targets automated tool tracking, semantic segmentation of blood vessels, and real-time path planning in delicate environments.",
+            "score": 68,
+            "compatibility_score": 68,
+            "matching_skills": ["python"],
+            "missing_skills": ["computer vision", "robotics", "reinforcement learning"],
+            "methodologies": ["Computer Vision", "Robotics", "Reinforcement Learning"],
+            "recommended_role": "Research Assistant",
+            "status": null,
+            "location_match": false
+          },
+          {
+            "id": "11111111-1111-1111-1111-111111111111",
+            "pi_name": "Dr. Sarah Jenkins",
+            "pi_email": "s.jenkins@stanford.edu",
+            "institution": "Stanford University",
+            "university": "Stanford University",
+            "department": "Bioengineering",
+            "title": "Deep Learning for Genomic Mutation Analysis",
+            "grant_title": "Deep Learning for Genomic Mutation Analysis",
+            "agency": "NIH",
+            "funding_source": "NIH",
+            "award_amount": 750000.0,
+            "project_start": "2026-09-01",
+            "project_end": "2029-08-31",
+            "abstract": "This research focuses on utilizing deep neural networks to identify non-coding genomic variants associated with cardiovascular diseases. We apply transformer models and convolutional neural networks to predict splicing disruption and transcription factor binding shifts.",
+            "score": 98,
+            "compatibility_score": 98,
+            "matching_skills": ["deep learning", "genomics", "transformers", "python"],
+            "missing_skills": [],
+            "methodologies": ["Deep Learning", "Genomics", "Transformers", "Python"],
+            "recommended_role": "Computational Biologist Research Assistant",
+            "status": null,
+            "location_match": true
+          }
+        ];
 
-      setAnalysisStep(4); // Stage 4: Executing live pgvector similarity matching against federal grants
-      await new Promise(resolve => setTimeout(resolve, 600));
-      
-      // Fetch matched research grants: Default to local campus matches first
-      let matchResp = await api.get(`/grants/matches?student_id=${studentId}&threshold=0.2&limit=5&local_only=true`);
-      let matchedGrants = matchResp.data;
+        // Snappy simulation pauses for the progress steps - optimized for a smooth, high-fidelity 2.4s total visual pacing on ads!
+        await new Promise(resolve => setTimeout(resolve, 600));
+        setAnalysisStep(2);
+        await new Promise(resolve => setTimeout(resolve, 600));
+        setAnalysisStep(3);
+        await new Promise(resolve => setTimeout(resolve, 600));
+        setAnalysisStep(4);
+        await new Promise(resolve => setTimeout(resolve, 600));
+      } else if (fullName === "Elena Rostova") {
+        studentId = "33333333-3333-3333-3333-333333333333";
+        analyzeData = {
+          status: 'success',
+          student: {
+            id: studentId,
+            auth_id: studentId,
+            name: fullName,
+            email: emailAddress,
+            research_interests: researchInterests,
+            structured_competencies: {
+              skills: ["Molecular Biology", "CRISPR-Cas9", "Stem Cells", "Epigenetics", "Python"],
+              education: "B.S. in Molecular Biology (Harvard University)",
+              synthesized_summary: "Molecular biology student at Harvard University interested in stem cell screening and CRISPR base editing.",
+              recommended_roles: ["Molecular Biology Research Assistant", "Stem Cell Laboratory Intern"],
+              location: "Harvard University"
+            },
+            domain_tags: ["Molecular Biology", "CRISPR-Cas9", "Epigenetics"]
+          }
+        };
 
-      // Fallback: If no local matches are found, fetch all grants
-      if (!matchedGrants || matchedGrants.length === 0) {
-        matchResp = await api.get(`/grants/matches?student_id=${studentId}&threshold=0.2&limit=5&local_only=false`);
+        matchedGrants = [
+          {
+            "id": "44444444-4444-4444-4444-444444444444",
+            "pi_name": "Dr. Wei-An Lim",
+            "pi_email": "w.lim@mit.edu",
+            "institution": "MIT",
+            "university": "MIT",
+            "department": "Biology",
+            "title": "Plant Genomes and Environmental Stress Proximity",
+            "grant_title": "Plant Genomes and Environmental Stress Proximity",
+            "agency": "NSF",
+            "funding_source": "NSF",
+            "award_amount": 520000.0,
+            "project_start": "2026-07-15",
+            "project_end": "2028-07-14",
+            "abstract": "Investigating epigenetic changes in Arabidopsis thaliana under high salinity and drought conditions to maximize crop yield. We examine histones and chromatin dynamics using next-generation sequencing libraries and plant microfluidic arrays.",
+            "score": 58,
+            "compatibility_score": 58,
+            "matching_skills": ["python"],
+            "missing_skills": ["plant biology", "epigenetics", "microfluidics"],
+            "methodologies": ["Plant Biology", "Epigenetics", "Microfluidics"],
+            "recommended_role": "Research Assistant",
+            "status": null,
+            "location_match": false
+          },
+          {
+            "id": "33333333-3333-3333-3333-333333333333",
+            "pi_name": "Dr. Sternberg",
+            "pi_email": "s.sternberg@harvard.edu",
+            "institution": "Harvard University",
+            "university": "Harvard University",
+            "department": "Molecular & Cellular Biology",
+            "title": "Precision Epigenetic Base Editing in Human Stem Cells",
+            "grant_title": "Precision Epigenetic Base Editing in Human Stem Cells",
+            "agency": "NIH",
+            "funding_source": "NIH",
+            "award_amount": 820000.0,
+            "project_start": "2026-09-01",
+            "project_end": "2029-08-31",
+            "abstract": "Developing next-generation CRISPR-Cas base editors to modify genomic loci in hematopoietic stem cells. We optimize target specificity and construct engineered guide RNAs to achieve highly localized nucleobase transitions and study disease phenotypic recovery.",
+            "score": 98,
+            "compatibility_score": 98,
+            "matching_skills": ["molecular biology", "crispr-cas9", "stem cells", "epigenetics"],
+            "missing_skills": [],
+            "methodologies": ["Molecular Biology", "CRISPR-Cas9", "Stem Cells", "Epigenetics"],
+            "recommended_role": "Molecular Biology Research Assistant",
+            "status": null,
+            "location_match": true
+          }
+        ];
+
+        // Snappy simulation pauses for the progress steps - optimized for a smooth, high-fidelity 2.4s total visual pacing on ads!
+        await new Promise(resolve => setTimeout(resolve, 600));
+        setAnalysisStep(2);
+        await new Promise(resolve => setTimeout(resolve, 600));
+        setAnalysisStep(3);
+        await new Promise(resolve => setTimeout(resolve, 600));
+        setAnalysisStep(4);
+        await new Promise(resolve => setTimeout(resolve, 600));
+      } else {
+        // Trigger single-pass multipart analysis
+        const analyzeResp = await api.post('/profile/analyze', formData, {
+          headers: { 'Content-Type': 'multipart/form-data' }
+        });
+
+        analyzeData = analyzeResp.data;
+        if (analyzeData.status !== 'success' && analyzeData.status !== 'partial_success') {
+          throw new Error(analyzeData.message || 'Profile synthesis failed.');
+        }
+
+        studentId = analyzeData.student.id || analyzeData.student.auth_id;
+        if (!studentId || studentId === 'undefined') {
+          throw new Error('Failed to retrieve a valid student ID from profile analysis.');
+        }
+        
+        setAnalysisStep(3); // Stage 3: Resolving home-campus location proximity checks
+        await new Promise(resolve => setTimeout(resolve, 650));
+
+        setAnalysisStep(4); // Stage 4: Executing live pgvector similarity matching against federal grants
+        await new Promise(resolve => setTimeout(resolve, 600));
+        
+        // Fetch matched research grants: Default to local campus matches first
+        let matchResp = await api.get(`/grants/matches?student_id=${studentId}&threshold=0.2&limit=5&local_only=true`);
         matchedGrants = matchResp.data;
+
+        // Fallback: If no local matches are found, fetch all grants
+        if (!matchedGrants || matchedGrants.length === 0) {
+          matchResp = await api.get(`/grants/matches?student_id=${studentId}&threshold=0.2&limit=5&local_only=false`);
+          matchedGrants = matchResp.data;
+        }
       }
 
       setTempCompletedData({
@@ -346,7 +512,7 @@ export const Onboarding: React.FC<OnboardingProps> = ({
     const height = 650;
     const left = window.screenX + (window.innerWidth - width) / 2;
     const top = window.screenY + (window.innerHeight - height) / 2;
-    const baseUrl = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+    const baseUrl = import.meta.env.VITE_API_URL || (window.location.hostname === 'localhost' ? 'http://localhost:8000' : window.location.origin);
     
     // Open OAuth window popup
     window.open(

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { X, Heart, Mail, Sparkles, Building, Calendar, DollarSign, ArrowLeft, ArrowRight, Award, Trash2, RefreshCw } from 'lucide-react';
 import GlassCard from '../components/GlassCard';
 import CircularScore from '../components/CircularScore';
+import PaywallModal from '../components/PaywallModal';
 import api from '../api/axios';
 import { trackEvent } from '../utils/analytics';
 
@@ -60,6 +61,19 @@ export const Dashboard: React.FC<DashboardProps> = ({
 
   // A local selected card ID if the user clicks a saved card to inspect it
   const [inspectedMatch, setInspectedMatch] = useState<GrantMatch | null>(null);
+
+  // Daily swipe tracking & Paywall state
+  const getTodayKey = () => {
+    const dateObj = new Date();
+    return `labmatch_swipes_${dateObj.getFullYear()}-${String(dateObj.getMonth() + 1).padStart(2, '0')}-${String(dateObj.getDate()).padStart(2, '0')}`;
+  };
+
+  const [swipeCount, setSwipeCount] = useState<number>(() => {
+    const key = getTodayKey();
+    const stored = localStorage.getItem(key);
+    return stored ? parseInt(stored, 10) : 0;
+  });
+  const [showPaywall, setShowPaywall] = useState(false);
 
   // Proximity filtering & search states
   const [localOnly, setLocalOnly] = useState(!!studentLocation);
@@ -140,6 +154,11 @@ export const Dashboard: React.FC<DashboardProps> = ({
   const handleSwipe = async (direction: 'left' | 'right') => {
     if (!currentMatch || inspectedMatch) return;
 
+    if (swipeCount >= 2) {
+      setShowPaywall(true);
+      return;
+    }
+
     setSwipeDirection(direction);
     const targetStatus = direction === 'right' ? 'saved' : 'skipped';
 
@@ -182,6 +201,12 @@ export const Dashboard: React.FC<DashboardProps> = ({
         });
       }
       setSwipeDirection(null);
+
+      // Increment swipe count and persist in localStorage
+      const nextCount = swipeCount + 1;
+      setSwipeCount(nextCount);
+      localStorage.setItem(getTodayKey(), String(nextCount));
+
       // Reset index if we are swiping the last card
       if (currentIndex >= activeDeck.length - 1) {
         setCurrentIndex(0);
@@ -260,6 +285,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
 
   return (
     <div className="w-full max-w-7xl mx-auto px-4 py-6 animate-fade-in">
+      <PaywallModal isOpen={showPaywall} onClose={() => setShowPaywall(false)} />
       <div className="flex flex-col lg:flex-row gap-8 min-h-0">
         
         {/* Left 25% Sidebar — locked height; saved list scrolls inside */}
