@@ -692,24 +692,27 @@ export const Onboarding: React.FC<OnboardingProps> = ({
 
   return (
     <div className="w-full px-4 sm:px-6 py-6 md:py-8 animate-fade-in">
-      {showHero && onBackToCover && (
-        <div className="onboarding-back-home-row">
-          <button type="button" onClick={onBackToCover} className="onboarding-back-home">
-            ← Back to home
-          </button>
-        </div>
-      )}
-
       {showHero && (
-        <div className="onboarding-hero max-w-2xl mx-auto mb-8 md:mb-10 shrink-0">
-          <h1 className="onboarding-hero-title">
-            {isReturningUser ? 'Welcome Back!' : 'Build Your Research Profile'}
-          </h1>
-          <p className="onboarding-hero-subtitle">
-            {isReturningUser
-              ? 'Login with your email and password to load your academic CV narrative, research interests, and active lab matches.'
-              : 'Upload your academic credentials and detail your research interests to align immediately with active, fully-funded NIH & NSF labs.'}
-          </p>
+        <div className="onboarding-hero mb-8 md:mb-10 shrink-0">
+          <div className="w-full max-w-2xl mx-auto onboarding-hero-inner">
+            <div
+              className={`onboarding-hero-header${onBackToCover ? '' : ' onboarding-hero-header--solo'}`}
+            >
+              {onBackToCover && (
+                <button type="button" onClick={onBackToCover} className="onboarding-back-home">
+                  ← Back to home
+                </button>
+              )}
+              <h1 className="onboarding-hero-title">
+                {isReturningUser ? 'Welcome Back!' : 'Build Your Research Profile'}
+              </h1>
+            </div>
+            <p className="onboarding-hero-subtitle">
+              {isReturningUser
+                ? 'Login with your email and password to load your academic CV narrative, research interests, and active lab matches.'
+                : 'Upload your academic credentials and detail your research interests to align immediately with active, fully-funded NIH & NSF labs.'}
+            </p>
+          </div>
         </div>
       )}
 

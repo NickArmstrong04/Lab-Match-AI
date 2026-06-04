@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import type { LucideIcon } from 'lucide-react';
 import { Database, ScanSearch, Mail, GraduationCap, BookOpen } from 'lucide-react';
-import LandingTopBar from '../components/LandingTopBar';
 import { trackEvent } from '../utils/analytics';
 
 export type UseCaseId =
@@ -83,8 +82,6 @@ export const ExploreUseCases: React.FC<ExploreUseCasesProps> = ({ onGetStarted, 
 
   return (
     <div className="explore-page animate-fade-in">
-      <LandingTopBar onHome={onHome} />
-
       <div className="explore-body">
         <div className="explore-back-home-wrap w-full px-4 sm:px-6">
           <div className="onboarding-back-home-row">
