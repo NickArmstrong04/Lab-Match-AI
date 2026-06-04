@@ -7,12 +7,23 @@ import { trackEvent, setStudentId } from '../utils/analytics';
 export type OnboardingEntry = 'new' | 'returning';
 
 interface OnboardingProps {
-  onComplete: (data: { resumeName: string; researchInterests: string; matches: any[]; studentId?: string; studentName?: string; location?: string }) => void;
+  onComplete: (data: {
+    resumeName: string;
+    researchInterests: string;
+    matches: any[];
+    studentId?: string;
+    studentName?: string;
+    location?: string;
+    email?: string;
+    isAuthenticated?: boolean;
+  }) => void;
   entry?: OnboardingEntry;
   onBackToCover?: () => void;
   showHero?: boolean;
   lockNewProfile?: boolean;
   lockReturning?: boolean;
+  initialStage?: 'form' | 'auth_setup';
+  initialTempData?: any;
 }
 
 export const Onboarding: React.FC<OnboardingProps> = ({
@@ -22,20 +33,22 @@ export const Onboarding: React.FC<OnboardingProps> = ({
   showHero: showHeroProp,
   lockNewProfile = false,
   lockReturning = false,
+  initialStage,
+  initialTempData,
 }) => {
   const [dragActive, setDragActive] = useState(false);
   const [file, setFile] = useState<File | null>(null);
   const [uploadStatus, setUploadStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
   const [uploadProgress, setUploadProgress] = useState(0);
-  const [researchInterests, setResearchInterests] = useState('');
-  const [fullName, setFullName] = useState('');
-  const [emailAddress, setEmailAddress] = useState('');
-  const [location, setLocation] = useState('');
+  const [researchInterests, setResearchInterests] = useState(initialTempData?.researchInterests || '');
+  const [fullName, setFullName] = useState(initialTempData?.studentName || '');
+  const [emailAddress, setEmailAddress] = useState(initialTempData?.email || '');
+  const [location, setLocation] = useState(initialTempData?.location || '');
   const [errorMsg, setErrorMsg] = useState('');
   const [isAnalyzing, setIsAnalyzing] = useState(false);
   const [analysisStep, setAnalysisStep] = useState<number>(0);
-  const [onboardingStage, setOnboardingStage] = useState<'form' | 'auth_setup'>('form');
-  const [tempCompletedData, setTempCompletedData] = useState<any>(null);
+  const [onboardingStage, setOnboardingStage] = useState<'form' | 'auth_setup'>(initialStage || 'form');
+  const [tempCompletedData, setTempCompletedData] = useState<any>(initialTempData || null);
   const [password, setPassword] = useState('');
   const [isSavingPassword, setIsSavingPassword] = useState(false);
   const [isReturningUser, setIsReturningUser] = useState(entry === 'returning' || lockReturning);
@@ -141,7 +154,7 @@ export const Onboarding: React.FC<OnboardingProps> = ({
 
   const appendInterest = (term: string) => {
     handleInteraction();
-    setResearchInterests((prev) => {
+    setResearchInterests((prev: string) => {
       const trimmed = prev.trim();
       if (!trimmed) return term;
       if (trimmed.endsWith(',')) return `${trimmed} ${term}`;
@@ -398,6 +411,7 @@ export const Onboarding: React.FC<OnboardingProps> = ({
         matches: matchedGrants,
         studentId: studentId,
         studentName: name,
+        email: email,
         location: location.trim(),
         synthesis_duration_ms: Date.now() - submitStartTime,
         has_parser_error: analyzeData.status === 'partial_success'
@@ -460,7 +474,9 @@ export const Onboarding: React.FC<OnboardingProps> = ({
         matches: matchedGrants,
         studentId: studentId,
         studentName: student.name,
-        location: student.location || ''
+        email: student.email || '',
+        location: student.location || '',
+        isAuthenticated: true
       });
     } catch (err: any) {
       console.error(err);
@@ -498,7 +514,10 @@ export const Onboarding: React.FC<OnboardingProps> = ({
       }
 
       // Complete onboarding and advance to dashboard
-      onComplete(tempCompletedData);
+      onComplete({
+        ...tempCompletedData,
+        isAuthenticated: true
+      });
     } catch (err: any) {
       console.error(err);
       setErrorMsg(err.response?.data?.detail || err.message || 'Failed to save password. Please try again.');
@@ -543,7 +562,10 @@ export const Onboarding: React.FC<OnboardingProps> = ({
         // Automatically proceed after 1s delay
         setTimeout(() => {
           if (tempCompletedData) {
-            onComplete(tempCompletedData);
+            onComplete({
+              ...tempCompletedData,
+              isAuthenticated: true
+            });
           }
         }, 1000);
       }
@@ -661,8 +683,16 @@ export const Onboarding: React.FC<OnboardingProps> = ({
               )}
             </button>
 
-            <div className="border-t border-stone-100 pt-4 mt-6 flex justify-center">
+            <div className="border-t border-stone-100 pt-4 mt-6 flex flex-col sm:flex-row items-center justify-between gap-3">
               <button
+                type="button"
+                onClick={() => setOnboardingStage('form')}
+                className="px-4 py-2 rounded-lg text-stone-500 hover:text-stone-800 hover:bg-stone-50 transition-colors text-xs font-semibold flex items-center gap-1.5 cursor-pointer border-0 bg-transparent"
+              >
+                ← Edit Profile Details
+              </button>
+              <button
+                type="button"
                 onClick={() => {
                   // Telemetry: track skipped auth completed
                   if (tempCompletedData?.studentId) {
@@ -674,9 +704,12 @@ export const Onboarding: React.FC<OnboardingProps> = ({
                       has_parser_error: tempCompletedData.has_parser_error
                     });
                   }
-                  onComplete(tempCompletedData);
+                  onComplete({
+                    ...tempCompletedData,
+                    isAuthenticated: false
+                  });
                 }}
-                className="px-4 py-2 rounded-lg text-stone-500 hover:text-stone-800 hover:bg-stone-50 transition-colors text-xs font-semibold flex items-center gap-1.5 cursor-pointer border-0 bg-transparent"
+                className="px-4 py-2 rounded-lg text-[#0d5c5c] hover:text-[#0b4d4d] hover:bg-[#e6f0f0] transition-colors text-xs font-semibold flex items-center gap-1.5 cursor-pointer border-0 bg-transparent font-outfit"
               >
                 Skip & View Matches directly ➔
               </button>

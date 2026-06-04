@@ -5,10 +5,12 @@ interface SignInProps {
   onComplete: (data: {
     resumeName: string;
     researchInterests: string;
-    matches: unknown[];
+    matches: any[];
     studentId?: string;
     studentName?: string;
     location?: string;
+    email?: string;
+    isAuthenticated?: boolean;
   }) => void;
   onHome: () => void;
 }

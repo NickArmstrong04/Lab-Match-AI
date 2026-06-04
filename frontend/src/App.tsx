@@ -21,6 +21,8 @@ function App() {
   const [studentLocation, setStudentLocation] = useState<string>('');
   const [resumeName, setResumeName] = useState<string>('');
   const [researchInterests, setResearchInterests] = useState('');
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [tempOnboardingData, setTempOnboardingData] = useState<any>(null);
   
   // Navigation & Page views
   const [view, setView] = useState<
@@ -47,7 +49,16 @@ function App() {
   const [activeOutreachMatch, setActiveOutreachMatch] = useState<GrantMatch | null>(null);
 
   // Complete onboarding sequence
-  const handleOnboardingComplete = (data: { resumeName: string; researchInterests: string; matches: any[]; studentId?: string; studentName?: string; location?: string }) => {
+  const handleOnboardingComplete = (data: {
+    resumeName: string;
+    researchInterests: string;
+    matches: any[];
+    studentId?: string;
+    studentName?: string;
+    location?: string;
+    email?: string;
+    isAuthenticated?: boolean;
+  }) => {
     setResumeName(data.resumeName);
     setResearchInterests(data.researchInterests);
     if (data.studentId) {
@@ -63,6 +74,8 @@ function App() {
     if (data.matches && data.matches.length > 0) {
       setMatches(data.matches);
     }
+    setIsAuthenticated(!!data.isAuthenticated);
+    setTempOnboardingData(data);
     setIsOnboarded(true);
     setView('dashboard');
   };
@@ -215,11 +228,31 @@ function App() {
             )}
 
             {isOnboarded ? (
-              <div className="flex items-center gap-2 bg-stone-50 border border-stone-200 px-3 py-1.5 rounded-lg text-xs font-medium text-stone-700">
-                <User className="w-3.5 h-3.5 text-[#0d5c5c]" />
-                <span className="truncate max-w-[120px]">{studentName}</span>
-                <span className="w-1.5 h-1.5 rounded-full bg-[#0d5c5c] shrink-0" aria-hidden="true" />
-              </div>
+              isAuthenticated ? (
+                <div className="flex items-center gap-2 bg-stone-50 border border-stone-200 px-3 py-1.5 rounded-lg text-xs font-medium text-stone-700 shadow-sm">
+                  <User className="w-3.5 h-3.5 text-[#0d5c5c]" />
+                  <span className="truncate max-w-[120px]">{studentName}</span>
+                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 shrink-0" aria-hidden="true" title="Signed in" />
+                </div>
+              ) : (
+                <div className="flex items-center gap-2.5">
+                  <div className="flex items-center gap-2 bg-amber-50/65 border border-amber-200/80 px-3 py-1.5 rounded-lg text-xs font-medium text-amber-900 shadow-sm" title="Guest Session - Progress not saved">
+                    <User className="w-3.5 h-3.5 text-amber-700" />
+                    <span className="truncate max-w-[120px]">{studentName || 'Guest'} (Guest)</span>
+                    <span className="w-1.5 h-1.5 rounded-full bg-amber-400 shrink-0" aria-hidden="true" />
+                  </div>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      trackEvent('guest_save_profile_clicked', 'dashboard', 'action');
+                      setView('onboarding');
+                    }}
+                    className="bg-[#0d5c5c] hover:bg-[#0b4d4d] text-white border border-[#0d5c5c] px-3 py-1.5 rounded-lg text-xs font-semibold shadow-sm transition-all duration-200 cursor-pointer flex items-center gap-1 hover:scale-[1.02] active:scale-[0.98]"
+                  >
+                    Save Profile
+                  </button>
+                </div>
+              )
             ) : (
               <div className="text-xs text-stone-500 font-medium flex items-center gap-1">
                 <Info className="w-3.5 h-3.5 shrink-0" /> Awaiting profile
@@ -250,6 +283,8 @@ function App() {
           <Onboarding
             onComplete={handleOnboardingComplete}
             onBackToCover={goHome}
+            initialStage={!isAuthenticated && tempOnboardingData ? 'auth_setup' : 'form'}
+            initialTempData={tempOnboardingData}
           />
         ) : view === 'dashboard' ? (
           <Dashboard
