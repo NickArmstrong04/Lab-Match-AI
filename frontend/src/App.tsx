@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Mail, User, Info, FileText, BarChart3 } from 'lucide-react';
 import Cover, { type CoverNavigate } from './pages/Cover';
-import LandingSignInBar from './components/LandingSignInBar';
+import LandingTopBar from './components/LandingTopBar';
 import GetStarted from './pages/GetStarted';
 import SignIn from './pages/SignIn';
 import ExploreUseCases from './pages/ExploreUseCases';
@@ -118,8 +118,9 @@ function App() {
     <div className="min-h-screen flex flex-col justify-between">
 
       {isLandingView && (
-        <LandingSignInBar
+        <LandingTopBar
           view={view}
+          onHome={goHome}
           onSignIn={() => setView('sign_in')}
           onGetStarted={() => setView('get_started')}
         />

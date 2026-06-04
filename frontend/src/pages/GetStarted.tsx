@@ -1,5 +1,4 @@
 import React from 'react';
-import LandingTopBar from '../components/LandingTopBar';
 import Onboarding from './Onboarding';
 
 interface GetStartedProps {
@@ -17,7 +16,6 @@ interface GetStartedProps {
 export const GetStarted: React.FC<GetStartedProps> = ({ onComplete, onHome }) => {
   return (
     <div className="landing-shell">
-      <LandingTopBar onHome={onHome} />
       <Onboarding
         entry="new"
         showHero
