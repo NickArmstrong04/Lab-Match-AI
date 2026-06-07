@@ -638,7 +638,7 @@ export const Onboarding: React.FC<OnboardingProps> = ({
       <div className="w-full px-4 sm:px-6 py-6 md:py-8 animate-fade-in flex flex-col items-center justify-center min-h-[70vh]">
         <div className="text-center mb-8 max-w-xl mx-auto shrink-0">
           <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-[#0d5c5c] font-outfit mb-3 leading-tight">
-            🎉 Profile Synthesized Successfully!
+            Profile Synthesized Successfully!
           </h1>
           <p className="text-stone-600 text-sm md:text-base leading-relaxed">
             Your semantic research vector and lab matches are ready. Set a password or connect your Google account to save your results permanently (optional).
@@ -1147,7 +1147,7 @@ export const Onboarding: React.FC<OnboardingProps> = ({
                   {analysisStep > 1 ? '✓' : '1'}
                 </span>
                 <span className={`transition-colors duration-300 ${analysisStep === 1 ? 'font-semibold text-stone-900' : analysisStep > 1 ? 'text-stone-500' : 'text-stone-400'}`}>
-                  📂 Ingesting academic CV credentials & reading text stream
+                  Ingesting academic CV credentials & reading text stream
                 </span>
               </div>
 
@@ -1162,7 +1162,7 @@ export const Onboarding: React.FC<OnboardingProps> = ({
                   {analysisStep > 2 ? '✓' : '2'}
                 </span>
                 <span className={`transition-colors duration-300 ${analysisStep === 2 ? 'font-semibold text-stone-900' : analysisStep > 2 ? 'text-stone-500' : 'text-stone-400'}`}>
-                  🧠 Distilling research interests & scientific tags with Gemini
+                  Distilling research interests & scientific tags with Gemini
                 </span>
               </div>
 
@@ -1177,7 +1177,7 @@ export const Onboarding: React.FC<OnboardingProps> = ({
                   {analysisStep > 3 ? '✓' : '3'}
                 </span>
                 <span className={`transition-colors duration-300 ${analysisStep === 3 ? 'font-semibold text-stone-900' : analysisStep > 3 ? 'text-stone-500' : 'text-stone-400'}`}>
-                  📍 Resolving university home-campus location proximity checks
+                  Resolving university home-campus location proximity checks
                 </span>
               </div>
 
@@ -1192,7 +1192,7 @@ export const Onboarding: React.FC<OnboardingProps> = ({
                   {analysisStep > 4 ? '✓' : '4'}
                 </span>
                 <span className={`transition-colors duration-300 ${analysisStep === 4 ? 'font-semibold text-stone-900' : 'text-stone-400'}`}>
-                  ⚡ Executing pgvector similarity search matching active grants
+                  Executing pgvector similarity search matching active grants
                 </span>
               </div>
             </div>

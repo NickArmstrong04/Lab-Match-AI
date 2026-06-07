@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { X, Heart, Mail, Sparkles, Building, Calendar, DollarSign, ArrowLeft, ArrowRight, Award, Trash2, RefreshCw } from 'lucide-react';
+import { X, Heart, Mail, Building, Calendar, DollarSign, ArrowLeft, ArrowRight, Award, Trash2, RefreshCw } from 'lucide-react';
 import GlassCard from '../components/GlassCard';
 import CircularScore from '../components/CircularScore';
 import PaywallModal from '../components/PaywallModal';
@@ -321,9 +321,6 @@ export const Dashboard: React.FC<DashboardProps> = ({
               <div className="flex-1 min-h-0 overflow-y-auto overscroll-y-contain space-y-3 pr-1">
                 {savedMatches.length === 0 ? (
                   <div className="h-full flex flex-col items-center justify-center text-center p-4">
-                    <div className="w-12 h-12 rounded-full bg-stone-100 border border-stone-200 flex items-center justify-center mb-3">
-                      <Sparkles className="w-5 h-5 text-stone-400" />
-                    </div>
                     <p className="text-stone-600 text-sm font-medium">No saved matches yet</p>
                     <p className="text-stone-500 text-xs mt-1 leading-relaxed">
                       Swipe RIGHT or click SAVE on labs in the deck to save them here.
@@ -394,7 +391,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
            {/* Interactive proximity filters bar */}
            <div className="shrink-0 mb-4 bg-white/40 backdrop-blur-md border border-stone-200/60 p-3 rounded-2xl flex flex-col sm:flex-row items-center justify-between gap-3 text-sm">
              <div className="flex items-center gap-3 w-full sm:w-auto">
-               <span className="font-semibold text-stone-700 whitespace-nowrap">📍 Proximity Filter:</span>
+               <span className="font-semibold text-stone-700 whitespace-nowrap">Proximity Filter:</span>
                <input
                  type="text"
                  value={locationSearch}
@@ -488,7 +485,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
                         {currentMatch.location_match && (
                           <span className="px-2.5 py-1 rounded-full text-[10px] font-bold font-mono tracking-wider border border-[#b2ddcf] bg-[#e6f7f0] text-[#0d5c48] flex items-center gap-1.5 animate-pulse shrink-0">
                             <span className="w-1.5 h-1.5 rounded-full bg-[#10b981]" />
-                            📍 Home Campus Match
+                            Home Campus Match
                           </span>
                         )}
                         <span className={`px-2.5 py-1 rounded-full text-xs font-bold font-mono tracking-wider border
@@ -526,8 +523,8 @@ export const Dashboard: React.FC<DashboardProps> = ({
 
                   {/* High contrast matching methodology tags */}
                   <div className="mb-6 space-y-3">
-                    <h4 className="text-xs font-semibold text-stone-500 uppercase tracking-widest flex items-center gap-1.5">
-                      <Sparkles className="w-3.5 h-3.5 text-[#0d5c5c]" /> Alignment Score Logic
+                    <h4 className="text-xs font-semibold text-stone-500 uppercase tracking-widest">
+                      Alignment Score Logic
                     </h4>
                     <div className="flex flex-wrap gap-2">
                       {currentMatch.matching_skills.map((skill, index) => (
@@ -639,14 +636,13 @@ export const Dashboard: React.FC<DashboardProps> = ({
           ) : (
             <div className="flex-1 min-h-0">
             <GlassCard className="h-full flex flex-col items-center justify-center text-center p-8 overflow-hidden" glowColor="teal">
-              <Sparkles className="w-14 h-14 text-[#0d5c5c] mb-6 animate-pulse" />
               <h2 className="text-3xl font-semibold font-outfit text-stone-900 mb-2">
                 {localOnly && deckMatches.length === 0 ? 'No Home Campus Matches' : 'Deck Fully Evaluated!'}
               </h2>
               <p className="text-stone-600 text-md max-w-md mx-auto leading-relaxed mb-6">
                 {localOnly && deckMatches.length === 0 ? (
                   <span className="block text-rose-800 bg-rose-50/50 border border-rose-100 p-4 rounded-xl text-sm font-medium">
-                    📍 We couldn't find active, funded research grants matching your home campus (<strong className="font-semibold text-rose-900">{studentLocation}</strong>).
+                    We couldn't find active, funded research grants matching your home campus (<strong className="font-semibold text-rose-900">{studentLocation}</strong>).
                     <span className="block mt-2 font-normal text-rose-700">
                       Try unchecking the <strong className="font-semibold">"Only My University"</strong> filter at the top right, or click the button below to explore fully-funded labs across the country!
                     </span>

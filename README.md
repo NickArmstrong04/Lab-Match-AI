@@ -42,16 +42,16 @@ graph TD
 
 ---
 
-## ✨ Features
+## Features
 
-- **🚀 Direct Multipart Profile Synthesizer**: Upload an academic CV PDF and detail your research interests in a single click. The backend extracts text from the PDF stream, runs Gemini synthesis to distill competencies and domain tags, computes a 1536-dimensional embedding, and upserts it to Supabase.
-- **💘 High-Fidelity Matchmaker Deck**: Swiper deck driven by Cosine Similarity vector queries against NIH & NSF database abstracts. Tracks match statuses (`saved`, `skipped`, `emailed`) natively in the Supabase PostgreSQL database.
-- **✍️ Gemini-Powered Ghostwriter Agent**: BESPOKE academic pitch composer that synthesizes your technical skills and the Principal Investigator's (PI) award abstract into a highly personalized 3-paragraph cold outreach email.
-- **✉️ Gmail Gateway API & Popup OAuth**: Handles secure Workspace OAuth consent handshakes using standard window message protocols, exchanges refreshed tokens in the background, downloads your CV from remote storage, and dispatches the pitch directly from your Gmail inbox with attachments.
+- **Direct Multipart Profile Synthesizer**: Upload an academic CV PDF and detail your research interests in a single click. The backend extracts text from the PDF stream, runs Gemini synthesis to distill competencies and domain tags, computes a 1536-dimensional embedding, and upserts it to Supabase.
+- **High-Fidelity Matchmaker Deck**: Swiper deck driven by Cosine Similarity vector queries against NIH & NSF database abstracts. Tracks match statuses (`saved`, `skipped`, `emailed`) natively in the Supabase PostgreSQL database.
+- **Gemini-Powered Ghostwriter Agent**: BESPOKE academic pitch composer that synthesizes your technical skills and the Principal Investigator's (PI) award abstract into a highly personalized 3-paragraph cold outreach email.
+- **Gmail Gateway API & Popup OAuth**: Handles secure Workspace OAuth consent handshakes using standard window message protocols, exchanges refreshed tokens in the background, downloads your CV from remote storage, and dispatches the pitch directly from your Gmail inbox with attachments.
 
 ---
 
-## 🛠️ Repository Layout
+## Repository Layout
 
 ```
 .
@@ -74,7 +74,7 @@ graph TD
 
 ---
 
-## 🚀 Quickstart Guide
+## Quickstart Guide
 
 ### 1. Database Configuration (Supabase)
 Deploy the schemas located in `supabase/migrations/` using the Supabase SQL editor or CLI. This:

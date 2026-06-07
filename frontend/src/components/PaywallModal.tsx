@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Sparkles, Check, X, Shield, Zap, CreditCard } from 'lucide-react';
+import { Check, X, Shield, Zap, CreditCard } from 'lucide-react';
 import GlassCard from './GlassCard';
 import { trackEvent } from '../utils/analytics';
 
@@ -72,7 +72,6 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({ isOpen, onClose }) =
             {/* Header Badge */}
             <div className="flex justify-center">
               <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-bold font-mono tracking-wider bg-purple-500/10 border border-purple-500/30 text-purple-300">
-                <Sparkles className="w-3.5 h-3.5" />
                 LABMATCH PREMIUM
               </span>
             </div>

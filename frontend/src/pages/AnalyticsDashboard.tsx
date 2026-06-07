@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { ArrowLeft, RefreshCw, Users, Eye, Mail, TrendingUp, Sparkles, Heart, Flame, Terminal, AlertCircle } from 'lucide-react';
+import { ArrowLeft, RefreshCw, Users, Eye, Mail, TrendingUp, Heart, Flame, Terminal, AlertCircle } from 'lucide-react';
 import GlassCard from '../components/GlassCard';
 import api from '../api/axios';
 
@@ -257,9 +257,6 @@ export const AnalyticsDashboard: React.FC<AnalyticsDashboardProps> = ({ onViewBa
                     Average LLM &amp; index duration
                   </span>
                 </div>
-                <div className="w-12 h-12 rounded-xl bg-cyan-50 border border-cyan-100 flex items-center justify-center text-cyan-600 group-hover:scale-105 transition-transform">
-                  <Sparkles className="w-5 h-5 animate-pulse" />
-                </div>
               </GlassCard>
 
               {/* Swiper Decision Latency */}
@@ -319,8 +316,8 @@ export const AnalyticsDashboard: React.FC<AnalyticsDashboardProps> = ({ onViewBa
             <div className="lg:col-span-2">
               <GlassCard className="p-6 h-full flex flex-col justify-between" glowColor="teal">
                 <div className="space-y-1 mb-6">
-                  <h3 className="text-lg font-semibold font-outfit text-stone-900 flex items-center gap-1.5">
-                    <Sparkles className="w-4 h-4 text-[#0d5c5c]" /> User Trajectory Funnel
+                  <h3 className="text-lg font-semibold font-outfit text-stone-900">
+                    User Trajectory Funnel
                   </h3>
                   <p className="text-stone-500 text-xs leading-relaxed">
                     Visual conversion funnel mapping unique visits through onboarding checkpoints to email outbox deliveries.

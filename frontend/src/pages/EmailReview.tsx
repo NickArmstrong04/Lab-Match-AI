@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Send, FolderClosed, ArrowLeft, Mail, Sparkles, AlertCircle, CheckCircle2, RefreshCw, Copy } from 'lucide-react';
+import { Send, FolderClosed, ArrowLeft, Mail, AlertCircle, CheckCircle2, RefreshCw, Copy } from 'lucide-react';
 import GlassCard from '../components/GlassCard';
 import CircularScore from '../components/CircularScore';
 import { type GrantMatch } from './Dashboard';
@@ -232,8 +232,8 @@ Elena Rostova`;
 
             {/* Methodology Focus */}
             <div className="space-y-3">
-              <h4 className="text-xs font-semibold text-stone-500 uppercase tracking-widest flex items-center gap-1.5">
-                <Sparkles className="w-3.5 h-3.5 text-[#0d5c5c]" /> Key Project Methodologies
+              <h4 className="text-xs font-semibold text-stone-500 uppercase tracking-widest">
+                Key Project Methodologies
               </h4>
               <p className="text-stone-700 text-sm leading-relaxed h-44 overflow-y-auto pr-1">
                 {match.abstract}
