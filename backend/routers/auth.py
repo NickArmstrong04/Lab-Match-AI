@@ -132,6 +132,7 @@ async def google_login(
                 "https://www.googleapis.com/auth/userinfo.email",
                 "openid",
             ],
+            autogenerate_code_verifier=False,
         )
         flow.redirect_uri = settings.google_redirect_uri
 
@@ -175,6 +176,7 @@ async def google_callback(
                 "https://www.googleapis.com/auth/userinfo.email",
                 "openid",
             ],
+            autogenerate_code_verifier=False,
         )
         flow.redirect_uri = settings.google_redirect_uri
         flow.fetch_token(code=code)
