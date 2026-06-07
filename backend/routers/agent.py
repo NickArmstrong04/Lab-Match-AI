@@ -245,14 +245,13 @@ async def draft_email(req: DraftEmailRequest):
 @router.post("/send-email")
 async def send_email(req: SendEmailRequest):
     """
-    SMTP Dispatcher Gateway: packages outreach email into MIMEMultipart packet,
-    attaches student's resume (downloading from storage URL or constructing fallback),
-    exchanges expired Google tokens, and dispatches via official Gmail API.
+    Outreach logging endpoint: records that an email has been drafted and
+    initiated for dispatch by the user manually, updating matching state.
     """
     try:
         db = get_db()
 
-        # 1. Fetch Student credentials
+        # 1. Fetch Student Profile
         student_res = (
             db.table("students").select("*").eq("id", req.student_id).execute()
         )
@@ -265,173 +264,10 @@ async def send_email(req: SendEmailRequest):
             raise HTTPException(status_code=404, detail="Student profile not found.")
 
         student = student_res.data[0]
-        student_name = student.get("name", "Student Candidate")
-        student_email = student.get("email", "")
-        resume_url = student.get("resume_url", "")
 
-        # Pull tokens from either dedicated columns or structured_competencies fallback
-        google_access_token = student.get("google_access_token")
-        google_refresh_token = student.get("google_refresh_token")
-        google_token_expiry = student.get("google_token_expiry")
-
-        if not google_access_token:
-            comp = student.get("structured_competencies") or {}
-            oauth = comp.get("google_oauth") or {}
-            google_access_token = oauth.get("access_token")
-            google_refresh_token = oauth.get("refresh_token")
-            google_token_expiry = oauth.get("token_expiry")
-
-        # Check if connected
-        if not google_access_token and student_name != "E2E Telemetry Bot":
-            raise HTTPException(
-                status_code=401,
-                detail="Google Account not connected. Please authenticate via OAuth first.",
-            )
-
-        # 2. Fetch PI Details
-        grant_res = (
-            db.table("labs_cached_grants").select("*").eq("id", req.grant_id).execute()
-        )
-        if not grant_res.data:
-            raise HTTPException(status_code=404, detail="Grant record not found.")
-
-        grant = grant_res.data[0]
-        pi_name = grant.get("pi_name", "PI")
-        # Format a realistic PI email if none exists (pi_name -> first.last@university.edu)
-        pi_email = f"pi_inquiry_sandbox_ref_{req.grant_id[:8]}@example.edu"
+        # 2. Sync Outreach Log & Match status
         try:
-            clean_name = (
-                pi_name.replace("Dr. ", "").replace("Dr.  ", "").strip().lower()
-            )
-            parts = clean_name.split(" ")
-            pi_email = f"{parts[0]}.{parts[-1]}@{grant.get('university', 'edu').replace(' ', '').lower()}.edu"
-        except Exception:
-            pass
-
-        # 3. Dispatch via Gmail API
-        try:
-            if student_name == "E2E Telemetry Bot":
-                gmail_message_id = f"mock_msg_e2e_{uuid.uuid4()}"
-            else:
-                # Construct Credentials and refresh if expired
-                expiry_dt = None
-                if google_token_expiry:
-                    # Parse timezone aware datetime
-                    expiry_dt = datetime.datetime.fromisoformat(
-                        google_token_expiry.replace("Z", "+00:00")
-                    )
-
-                creds = Credentials(
-                    token=google_access_token,
-                    refresh_token=google_refresh_token,
-                    token_uri="https://oauth2.googleapis.com/token",
-                    client_id=settings.google_client_id,
-                    client_secret=settings.google_client_secret,
-                    expiry=expiry_dt,
-                )
-
-                # If credentials have expired, secure fresh access token
-                if creds.expired or (
-                    expiry_dt and datetime.datetime.now(datetime.timezone.utc) >= expiry_dt
-                ):
-                    creds.refresh(Request())
-                    # Write updated credentials back to DB
-                    new_access = creds.token
-                    new_expiry = creds.expiry.isoformat() if creds.expiry else None
-
-                    try:
-                        # Update dedicated columns
-                        db.table("students").update(
-                            {
-                                "google_access_token": new_access,
-                                "google_token_expiry": new_expiry,
-                            }
-                        ).eq("id", student["id"]).execute()
-                    except Exception:
-                        # Fallback updating nested JSONB properties
-                        comp = student.get("structured_competencies") or {}
-                        oauth = comp.get("google_oauth") or {}
-                        oauth["access_token"] = new_access
-                        oauth["token_expiry"] = new_expiry
-                        comp["google_oauth"] = oauth
-                        db.table("students").update({"structured_competencies": comp}).eq(
-                            "id", student["id"]
-                        ).execute()
-
-                # Build Gmail service and transmit packet
-                service = build("gmail", "v1", credentials=creds)
-
-                # Assemble MIMEMultipart email packet
-                message = MIMEMultipart()
-                message["to"] = pi_email
-                message["subject"] = req.subject
-
-                # Attach text body
-                message.attach(MIMEText(req.body, "plain"))
-
-                # Download/Fetch CV resume bytes
-                pdf_bytes = None
-                if resume_url and resume_url.startswith("http"):
-                    try:
-                        req_download = urllib.request.Request(
-                            resume_url, headers={"User-Agent": "Mozilla/5.0"}
-                        )
-                        with urllib.request.urlopen(req_download, timeout=8) as res:
-                            pdf_bytes = res.read()
-                    except Exception as download_err:
-                        warnings.warn(
-                            f"Failed to download resume CV from storage: {download_err}"
-                        )
-
-                # If no resume available or downloading failed, construct an elegant valid fallback PDF byte stream!
-                if not pdf_bytes:
-                    pdf_bytes = (
-                        b"%PDF-1.4\n1 0 obj\n<< /Type /Catalog /Pages 2 0 R >>\nendobj\n"
-                        b"2 0 obj\n<< /Type /Pages /Kids [3 0 R] /Count 1 >>\nendobj\n"
-                        b"3 0 obj\n<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R >>\nendobj\n"
-                        b"4 0 obj\n<< /Length 75 >>\nstream\n"
-                        b"BT\n/F1 12 Tf\n50 720 Td\n(Curriculum Vitae: "
-                        + student_name.encode("utf-8")
-                        + b") Tj\n"
-                        b"50 700 Td\n(Email: " + student_email.encode("utf-8") + b") Tj\n"
-                        b"ET\nendstream\nendobj\n"
-                        b"xref\n0 5\n0000000000 65535 f\n0000000009 00000 n\n0000000056 00000 n\n0000000111 00000 n\n0000000211 00000 n\n"
-                        b"trailer\n<< /Size 5 /Root 1 0 R >>\n"
-                        b"startxref\n341\n%%EOF\n"
-                    )
-
-                # Attach PDF to MIME structure
-                attachment = MIMEBase("application", "pdf")
-                attachment.set_payload(pdf_bytes)
-                encoders.encode_base64(attachment)
-                filename = f"{student_name.replace(' ', '_')}_CV.pdf"
-                attachment.add_header(
-                    "Content-Disposition", "attachment", filename=filename
-                )
-                message.attach(attachment)
-
-                # Encode MIME structure into base64url format required by Google REST endpoints
-                raw_message = base64.urlsafe_b64encode(message.as_bytes()).decode("utf-8")
-                body_payload = {"raw": raw_message}
-
-                # Execute send
-                send_response = (
-                    service.users()
-                    .messages()
-                    .send(userId="me", body=body_payload)
-                    .execute()
-                )
-                gmail_message_id = send_response.get("id", "sent_via_gmail_api")
-
-        except Exception as oauth_err:
-            raise HTTPException(
-                status_code=500,
-                detail=f"Gmail API transmission failed: {str(oauth_err)}",
-            )
-
-        # 4. Sync Outreach Log & Match status
-        try:
-            # 4a. Find or Upsert match record
+            # Find or Upsert match record
             match_id = req.match_id
             if not match_id:
                 # Seek match from table
@@ -454,7 +290,7 @@ async def send_email(req: SendEmailRequest):
                                 "grant_id": req.grant_id,
                                 "match_score": 85.0,
                                 "status": "emailed",
-                                "compatibility_tags": ["OAuth Inquired"],
+                                "compatibility_tags": ["Manual Inquired"],
                             }
                         )
                         .execute()
@@ -468,14 +304,14 @@ async def send_email(req: SendEmailRequest):
                     "id", match_id
                 ).execute()
 
-            # 4b. Write entry into outreach_logs
+            # Write entry into outreach_logs (sent_via_gmail is set to False)
             db.table("outreach_logs").insert(
                 {
                     "match_id": match_id,
                     "student_id": student["id"],
                     "drafted_email": req.body,
-                    "sent_via_gmail": True,
-                    "gmail_message_id": gmail_message_id,
+                    "sent_via_gmail": False,
+                    "gmail_message_id": "manual_dispatch",
                     "sent_at": datetime.datetime.now(datetime.timezone.utc).isoformat(),
                 }
             ).execute()
@@ -485,12 +321,12 @@ async def send_email(req: SendEmailRequest):
 
         return {
             "status": "success",
-            "message_id": gmail_message_id,
-            "sent_via_gmail": True,
-            "message": "Outreach pitch successfully dispatched!",
+            "message_id": "manual_dispatch",
+            "sent_via_gmail": False,
+            "message": "Outreach log successfully recorded!",
         }
 
     except Exception as e:
         raise HTTPException(
-            status_code=500, detail=f"Failed to transmit email package: {str(e)}"
+            status_code=500, detail=f"Failed to record outreach log: {str(e)}"
         )

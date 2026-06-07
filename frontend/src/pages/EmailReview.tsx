@@ -31,8 +31,6 @@ export const EmailReview: React.FC<EmailReviewProps> = ({
   
   // Dynamic API integration states
   const [isDrafting, setIsDrafting] = useState(true);
-  const [isConnected, setIsConnected] = useState(false);
-  const [checkingAuth, setCheckingAuth] = useState(true);
   const [sendState, setSendState] = useState<'idle' | 'sending' | 'success' | 'error'>('idle');
   const [errorMsg, setErrorMsg] = useState('');
 
@@ -129,51 +127,9 @@ Elena Rostova`;
     fetchDraft();
   }, [match, studentName, resumeName, studentId]);
 
-  // 2. Check Google OAuth connection status
-  const checkGoogleAuth = async () => {
-    setCheckingAuth(true);
-    try {
-      const response = await api.get(`/auth/google/status?student_id=${studentId}`);
-      setIsConnected(response.data.connected);
-    } catch (err) {
-      console.error("Failed to fetch Google auth status:", err);
-    } finally {
-      setCheckingAuth(false);
-    }
-  };
 
-  useEffect(() => {
-    checkGoogleAuth();
-  }, [studentId]);
 
-  // 3. Listen to OAuth cross-origin message events from popup window
-  useEffect(() => {
-    const handleOauthMessage = (event: MessageEvent) => {
-      if (event.data && event.data.type === "google_oauth_success") {
-        console.log("OAuth secure handshake detected from popup callback page!");
-        setIsConnected(true);
-      }
-    };
-    window.addEventListener("message", handleOauthMessage);
-    return () => window.removeEventListener("message", handleOauthMessage);
-  }, []);
-
-  // 4. Initiate Popup-based secure OAuth login flow
-  const handleConnectGoogle = () => {
-    const width = 500;
-    const height = 650;
-    const left = window.screenX + (window.innerWidth - width) / 2;
-    const top = window.screenY + (window.innerHeight - height) / 2;
-    const baseUrl = import.meta.env.VITE_API_URL || (window.location.hostname === 'localhost' ? 'http://localhost:8000' : window.location.origin);
-    
-    window.open(
-      `${baseUrl}/auth/google/login?student_id=${studentId}`,
-      'Google OAuth Handshake',
-      `width=${width},height=${height},left=${left},top=${top},status=no,toolbar=no,menubar=no`
-    );
-  };
-
-  // 5. Send Outreach cold email via backend Gmail Gateway
+  // 5. Send Outreach cold email by invoking client-side mailto and logging transaction
   const handleSendEmail = async () => {
     setSendState('sending');
     setErrorMsg('');
@@ -204,12 +160,16 @@ Elena Rostova`;
         draft_modified_chars_diff
       });
 
+      // Invoke local email client
+      const mailtoUrl = `mailto:${to}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+      window.location.href = mailtoUrl;
+
       setSendState('success');
       setTimeout(() => {
         onSendComplete(match.id, body);
       }, 1800);
     } catch (err: any) {
-      console.error("Email transmission failed:", err);
+      console.error("Email logging failed:", err);
       const errStr = err.response?.data?.detail || err.message || 'Gateway handshake error.';
       setErrorMsg(errStr);
 
@@ -376,49 +336,13 @@ Elena Rostova`;
                   </button>
                 </div>
 
-                {checkingAuth ? (
-                  <button
-                    disabled
-                    className="px-6 py-2.5 rounded-lg bg-stone-100 border border-stone-200 text-stone-500 font-semibold flex items-center gap-2 text-xs opacity-55"
-                  >
-                    Checking Google Sync... <RefreshCw className="w-3.5 h-3.5 animate-spin" />
-                  </button>
-                ) : isConnected ? (
-                  <button
-                    onClick={handleSendEmail}
-                    disabled={sendState === 'sending'}
-                    className="btn-primary text-xs py-2.5 disabled:opacity-50"
-                  >
-                    Send via Gmail <Send className="w-3.5 h-3.5" />
-                  </button>
-                ) : (
-                  <button
-                    onClick={handleConnectGoogle}
-                    className="px-6 py-2.5 rounded-lg bg-[#1e3a4a] hover:bg-[#163040] text-white font-semibold inline-flex items-center justify-center gap-2 transition-all text-xs cursor-pointer"
-                  >
-                    <span className="icon-btn-slot" aria-hidden>
-                      <svg className="size-3.5 block" viewBox="0 0 24 24">
-                        <path
-                          fill="#4285F4"
-                          d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"
-                        />
-                        <path
-                          fill="#34A853"
-                          d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
-                        />
-                        <path
-                          fill="#FBBC05"
-                          d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"
-                        />
-                        <path
-                          fill="#EA4335"
-                          d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"
-                        />
-                      </svg>
-                    </span>
-                    <span className="icon-btn-label">Connect Gmail Account</span>
-                  </button>
-                )}
+                <button
+                  onClick={handleSendEmail}
+                  disabled={sendState === 'sending'}
+                  className="btn-primary text-xs py-2.5 disabled:opacity-50"
+                >
+                  Send Email <Send className="w-3.5 h-3.5" />
+                </button>
               </div>
             </div>
           )}
@@ -431,10 +355,10 @@ Elena Rostova`;
                 <div className="space-y-5">
                   <div className="w-12 h-12 border-2 border-t-[#1e3a4a] border-r-transparent border-stone-200 rounded-full animate-spin mx-auto" />
                   <div className="space-y-1">
-                    <p className="text-stone-900 font-semibold text-sm">Transmitting Secure Outbound Packet...</p>
-                    <p className="text-stone-600 text-xs">Validating OAuth tokens • Constructing MIME body • Fetching PDF CV attachment</p>
+                    <p className="text-stone-900 font-semibold text-sm">Recording Outreach Status...</p>
+                    <p className="text-stone-600 text-xs">Updating matching database • Launching local mail client</p>
                   </div>
-                  <p className="text-[#0d5c5c] text-[10px] font-mono tracking-wider uppercase">Gmail API Gateway Secure Handshake</p>
+                  <p className="text-[#0d5c5c] text-[10px] font-mono tracking-wider uppercase">LabMatch AI Gateway</p>
                 </div>
               )}
 
@@ -443,9 +367,9 @@ Elena Rostova`;
                   <div className="w-14 h-14 rounded-full bg-[#e6f0f0] border border-[#c5dddd] flex items-center justify-center mx-auto">
                     <CheckCircle2 className="w-8 h-8 text-[#0d5c5c]" />
                   </div>
-                  <h3 className="text-xl font-semibold font-outfit text-stone-900">Outreach Dispatched!</h3>
+                  <h3 className="text-xl font-semibold font-outfit text-stone-900">Outreach Logged!</h3>
                   <p className="text-stone-600 text-xs leading-relaxed">
-                    Your cold outreach email has successfully transmitted and logged in your Gmail sent folder. Matches state synced to <strong className="text-stone-800">"emailed"</strong>.
+                    Your outreach log has been recorded, and your local email client was initiated. Matches state synced to <strong className="text-stone-800">"emailed"</strong>.
                   </p>
                 </div>
               )}
@@ -455,9 +379,9 @@ Elena Rostova`;
                   <div className="w-14 h-14 rounded-full bg-rose-50 border border-rose-200 flex items-center justify-center mx-auto">
                     <AlertCircle className="w-8 h-8 text-rose-700" />
                   </div>
-                  <h3 className="text-xl font-semibold font-outfit text-stone-900">Transmission Failed</h3>
+                  <h3 className="text-xl font-semibold font-outfit text-stone-900">Logging Failed</h3>
                   <p className="text-stone-600 text-xs leading-relaxed">
-                    {errorMsg || "The Gmail API gateway returned an unexpected response. Please re-authenticate your connection."}
+                    {errorMsg || "The server returned an unexpected error logging this outreach."}
                   </p>
                   <div className="flex gap-2 justify-center mt-2">
                     <button
@@ -466,17 +390,6 @@ Elena Rostova`;
                     >
                       Modify Email & Retry
                     </button>
-                    {(errorMsg.toLowerCase().includes("auth") || errorMsg.toLowerCase().includes("token") || errorMsg.toLowerCase().includes("invalid_grant")) && (
-                      <button
-                        onClick={() => {
-                          setSendState('idle');
-                          handleConnectGoogle();
-                        }}
-                        className="px-4 py-1.5 rounded-lg bg-blue-50 border border-blue-200 text-blue-800 hover:bg-blue-100 transition-all text-xs font-semibold"
-                      >
-                        Reconnect Gmail
-                      </button>
-                    )}
                   </div>
                 </div>
               )}

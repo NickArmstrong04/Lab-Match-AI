@@ -10,6 +10,103 @@ from ..database import get_db
 router = APIRouter()
 
 
+def get_error_html(error_message: str) -> str:
+    return f"""
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <title>Authentication Failed</title>
+      <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+      <style>
+        body {{
+          background: radial-gradient(circle at top, #0f172a 0%, #020617 100%);
+          color: #f8fafc;
+          font-family: 'Outfit', -apple-system, sans-serif;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 100vh;
+          margin: 0;
+          overflow: hidden;
+        }}
+        .container {{
+          background: rgba(15, 23, 42, 0.45);
+          backdrop-filter: blur(16px);
+          border: 1px solid rgba(220, 38, 38, 0.15);
+          border-radius: 24px;
+          padding: 40px;
+          text-align: center;
+          box-shadow: 0 20px 50px rgba(0,0,0,0.3);
+          max-width: 400px;
+          width: 90%;
+          animation: fadeInUp 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+        }}
+        .icon {{
+          width: 60px;
+          height: 60px;
+          border-radius: 50%;
+          background: rgba(220, 38, 38, 0.1);
+          border: 1px solid rgba(220, 38, 38, 0.3);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin: 0 auto 20px;
+        }}
+        .icon svg {{
+          color: #ef4444;
+          width: 30px;
+          height: 30px;
+        }}
+        h2 {{
+          color: #f8fafc;
+          margin-bottom: 10px;
+          font-weight: 600;
+          font-size: 22px;
+        }}
+        p {{
+          color: #94a3b8;
+          font-size: 14px;
+          line-height: 1.6;
+          font-weight: 300;
+        }}
+        @keyframes fadeInUp {{
+          from {{
+            opacity: 0;
+            transform: translateY(20px);
+          }}
+          to {{
+            opacity: 1;
+            transform: translateY(0);
+          }}
+        }}
+      </style>
+    </head>
+    <body>
+      <div class="container">
+        <div class="icon">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path>
+          </svg>
+        </div>
+        <h2>Sign-In Failed</h2>
+        <p>{error_message}</p>
+      </div>
+      <script>
+        setTimeout(function() {{
+          if (window.opener) {{
+            window.opener.postMessage({{ 
+              type: "google_oauth_error",
+              error: "{error_message}"
+            }}, "*");
+          }}
+          window.close();
+        }}, 3000);
+      </script>
+    </body>
+    </html>
+    """
+
+
 @router.get("/google/login")
 async def google_login(
     student_id: str = Query(
@@ -32,8 +129,8 @@ async def google_login(
         flow = Flow.from_client_config(
             client_config,
             scopes=[
-                "https://www.googleapis.com/auth/gmail.send",
-                "https://www.googleapis.com/auth/gmail.compose",
+                "https://www.googleapis.com/auth/userinfo.email",
+                "openid",
             ],
         )
         flow.redirect_uri = settings.google_redirect_uri
@@ -75,8 +172,8 @@ async def google_callback(
         flow = Flow.from_client_config(
             client_config,
             scopes=[
-                "https://www.googleapis.com/auth/gmail.send",
-                "https://www.googleapis.com/auth/gmail.compose",
+                "https://www.googleapis.com/auth/userinfo.email",
+                "openid",
             ],
         )
         flow.redirect_uri = settings.google_redirect_uri
@@ -89,9 +186,55 @@ async def google_callback(
     except Exception as e:
         raise HTTPException(status_code=400, detail=f"Token exchange failed: {str(e)}")
 
+    db = get_db()
+    student = None
+
+    # Handle login mode where student_id is "login"
+    if student_id == "login":
+        email = None
+        try:
+            import urllib.request
+            import json
+
+            # Fetch user email from Google UserInfo endpoint
+            userinfo_url = "https://www.googleapis.com/oauth2/v3/userinfo"
+            req = urllib.request.Request(
+                userinfo_url,
+                headers={"Authorization": f"Bearer {access_token}"}
+            )
+            with urllib.request.urlopen(req, timeout=5) as response:
+                user_info = json.loads(response.read().decode("utf-8"))
+                email = user_info.get("email")
+        except Exception as ue:
+            return HTMLResponse(
+                content=get_error_html(f"Failed to fetch Google profile: {str(ue)}"),
+                status_code=400
+            )
+
+        if not email:
+            return HTMLResponse(
+                content=get_error_html("Google authentication did not return an email address."),
+                status_code=400
+            )
+
+        # Lookup student by email
+        try:
+            student_res = db.table("students").select("*").eq("email", email).execute()
+            if not student_res.data:
+                return HTMLResponse(
+                    content=get_error_html(f"No student profile found for email: {email}."),
+                    status_code=200
+                )
+            student = student_res.data[0]
+            student_id = student["id"]
+        except Exception as db_err:
+            return HTMLResponse(
+                content=get_error_html(f"Database lookup failed: {str(db_err)}"),
+                status_code=500
+            )
+
     # Persist the tokens in the Supabase database
     try:
-        db = get_db()
         # Attempt to save directly into dedicated columns (in case migrations have been applied)
         try:
             db.table("students").update(
@@ -144,15 +287,23 @@ async def google_callback(
 
         warnings.warn(f"Failed to persist Google tokens in database: {db_err}")
 
-    # Return premium premium glassmorphic response page
-    html_content = """
+    # Clean embedding vector before transmission if returning student
+    student_json = "null"
+    if student:
+        if "embedding" in student:
+            del student["embedding"]
+        import json
+        student_json = json.dumps(student)
+
+    # Return premium glassmorphic response page
+    html_content = f"""
     <!DOCTYPE html>
     <html>
     <head>
       <title>Authentication Successful</title>
       <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
       <style>
-        body {
+        body {{
           background: radial-gradient(circle at top, #0f172a 0%, #020617 100%);
           color: #f8fafc;
           font-family: 'Outfit', -apple-system, sans-serif;
@@ -162,8 +313,8 @@ async def google_callback(
           height: 100vh;
           margin: 0;
           overflow: hidden;
-        }
-        .container {
+        }}
+        .container {{
           background: rgba(15, 23, 42, 0.45);
           backdrop-filter: blur(16px);
           border: 1px solid rgba(255, 255, 255, 0.08);
@@ -174,8 +325,8 @@ async def google_callback(
           max-width: 400px;
           width: 90%;
           animation: fadeInUp 0.6s cubic-bezier(0.16, 1, 0.3, 1);
-        }
-        .icon {
+        }}
+        .icon {{
           width: 60px;
           height: 60px;
           border-radius: 50%;
@@ -185,25 +336,25 @@ async def google_callback(
           align-items: center;
           justify-content: center;
           margin: 0 auto 20px;
-        }
-        .icon svg {
+        }}
+        .icon svg {{
           color: #14b8a6;
           width: 30px;
           height: 30px;
-        }
-        h2 {
+        }}
+        h2 {{
           color: #f8fafc;
           margin-bottom: 10px;
           font-weight: 600;
           font-size: 22px;
-        }
-        p {
+        }}
+        p {{
           color: #94a3b8;
           font-size: 14px;
           line-height: 1.6;
           font-weight: 300;
-        }
-        .spinner {
+        }}
+        .spinner {{
           width: 32px;
           height: 32px;
           border: 2px solid rgba(20, 184, 166, 0.1);
@@ -211,21 +362,21 @@ async def google_callback(
           border-radius: 50%;
           animation: spin 1s infinite linear;
           margin: 24px auto 0;
-        }
-        @keyframes spin {
-          0% { transform: rotate(0deg); }
-          100% { transform: rotate(360deg); }
-        }
-        @keyframes fadeInUp {
-          from {
+        }}
+        @keyframes spin {{
+          0% {{ transform: rotate(0deg); }}
+          100% {{ transform: rotate(360deg); }}
+        }}
+        @keyframes fadeInUp {{
+          from {{
             opacity: 0;
             transform: translateY(20px);
-          }
-          to {
+          }}
+          to {{
             opacity: 1;
             transform: translateY(0);
-          }
-        }
+          }}
+        }}
       </style>
     </head>
     <body>
@@ -240,12 +391,15 @@ async def google_callback(
         <div class="spinner"></div>
       </div>
       <script>
-        setTimeout(function() {
-          if (window.opener) {
-            window.opener.postMessage({ type: "google_oauth_success" }, "*");
-          }
+        setTimeout(function() {{
+          if (window.opener) {{
+            window.opener.postMessage({{ 
+              type: "google_oauth_success", 
+              student: {student_json}
+            }}, "*");
+          }}
           window.close();
-        }, 1500);
+        }}, 1500);
       </script>
     </body>
     </html>
