@@ -26,14 +26,14 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({ isOpen, onClose }) =
     // Track modal view event
     trackEvent('paywall_view', 'dashboard', 'action', {
       variant: activeVariant,
-      price: activeVariant === 'subscription' ? '$9.99/mo' : '$13.99 one-time'
+      price: activeVariant === 'subscription' ? '$4.99/mo' : '$4.99 one-time'
     });
   }, [isOpen]);
 
   if (!isOpen) return null;
 
-  const priceText = variant === 'subscription' ? '$9.99/month' : '$13.99 one-time';
-  const ctaText = variant === 'subscription' ? 'Unlock Unlimited Swipes ($9.99/mo)' : 'Get Lifetime Access ($13.99 one-time)';
+  const priceText = variant === 'subscription' ? '$4.99/month' : '$4.99 one-time';
+  const ctaText = variant === 'subscription' ? 'Unlock Unlimited Swipes ($4.99/mo)' : 'Get Lifetime Access ($4.99 one-time)';
 
   const handleUpgrade = () => {
     // Log conversion event
