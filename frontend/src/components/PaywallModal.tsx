@@ -41,6 +41,17 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({ isOpen, onClose }) =
       variant: variant,
       price: priceText
     });
+
+    // Google Ads Purchase Conversion Trigger
+    if (typeof window !== 'undefined' && (window as any).gtag) {
+      (window as any).gtag('event', 'conversion', {
+        'send_to': 'AW-18029844848/ZhTKCNTMkrwcEPCyppVD',
+        'value': 4.99,
+        'currency': 'USD',
+        'transaction_id': `tx_${Date.now()}`
+      });
+    }
+
     setIsUpgraded(true);
   };
 

@@ -152,17 +152,22 @@ async def match_student_to_grants(
 
 class IngestRequest(BaseModel):
     keywords: Optional[List[str]] = None
+    pages: Optional[int] = 10
+    limit_per_page: Optional[int] = 25
 
 @router.post("/ingest")
 async def ingest_grants(background_tasks: BackgroundTasks, req: Optional[IngestRequest] = None):
     """
-    Trigger active research award ingestion from NIH & NSF.
+    Trigger active research award ingestion from NIH, NSF, and USAspending (DOD, DNR, DOE, EPA, NASA, USDA).
     """
     keywords = req.keywords if req else None
-    background_tasks.add_task(run_grant_ingestion, keywords)
+    pages = req.pages if (req and req.pages is not None) else 10
+    limit_per_page = req.limit_per_page if (req and req.limit_per_page is not None) else 25
+    
+    background_tasks.add_task(run_grant_ingestion, keywords, pages, limit_per_page)
     return {
         "status": "started",
-        "message": "Ingestion pipeline triggered successfully in the background."
+        "message": f"Ingestion pipeline triggered successfully in the background (pages: {pages}, limit_per_page: {limit_per_page})."
     }
 
 @router.get("/matches")
@@ -187,6 +192,10 @@ async def get_matches(
         limit = limit.default
     if hasattr(threshold, "default"):
         threshold = threshold.default
+    if hasattr(location_filter, "default"):
+        location_filter = location_filter.default
+    if hasattr(local_only, "default"):
+        local_only = local_only.default
     try:
         db = get_db()
         

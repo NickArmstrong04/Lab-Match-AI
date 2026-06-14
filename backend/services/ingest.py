@@ -1,3 +1,9 @@
+import sys
+try:
+    sys.stdout.reconfigure(encoding='utf-8')
+except Exception:
+    pass
+
 import json
 import urllib.request
 import urllib.error
@@ -6,13 +12,26 @@ import html
 import warnings
 from typing import List, Dict, Optional
 from datetime import datetime
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from ..database import get_db, generate_embedding
 
 # Constants
 DEFAULT_KEYWORDS = [
+    # CS & AI
     "CRISPR", "Microfluidics", "Machine Learning", "Deep Learning",
-    "Bioinformatics", "RNA-Seq", "Genomics", "Robotics", "Neurobiology"
+    "Bioinformatics", "RNA-Seq", "Genomics", "Robotics", "Neurobiology",
+    "Computer Vision", "Natural Language Processing", "Quantum Computing",
+    "Cybersecurity", "Reinforcement Learning", "Autonomous Systems",
+    # Physical Sciences & Engineering
+    "Nanotechnology", "Fusion Energy", "Materials Science", "Aerospace Engineering",
+    "SolidWorks", "Additive Manufacturing", "Semiconductors",
+    # Environmental & Climate
+    "Wildlife Habitat", "Hydrology", "Ecological Restoration", "Climate Resilience",
+    "Marine Biology", "Forestry", "Carbon Sequestration", "Biofuels",
+    # Biomedical
+    "Gene Therapy", "Somatic Mutations", "Immunotherapy", "Stem Cells",
+    "Cancer Genomics", "Medical Devices", "Virology"
 ]
 
 KEYWORDS_METHODOLOGIES = [
@@ -20,7 +39,9 @@ KEYWORDS_METHODOLOGIES = [
     "TensorFlow", "PyTorch", "RNA-Seq", "Sequencing", "Electrophysiology",
     "CAD", "SolidWorks", "Cell Culture", "Imaging", "Mass Spectrometry",
     "Stem Cells", "Gene Editing", "Bioinformatics", "Microtunnels",
-    "Organ-on-a-chip", "High-Throughput Screening", "Robotics", "Computer Vision"
+    "Organ-on-a-chip", "High-Throughput Screening", "Robotics", "Computer Vision",
+    "Quantum Computing", "Cybersecurity", "Nanotechnology", "Fusion", "Hydrology",
+    "Ecological", "Immunotherapy", "Cancer", "Aerospace", "Genetics", "Biophysics"
 ]
 
 def clean_pi_name(raw_name: str) -> str:
@@ -53,7 +74,40 @@ def clean_nsf_pi(raw_pi: str) -> str:
         return f"Dr. {name.title()}"
     return name.title()
 
+def is_valid_pi(name: str) -> bool:
+    """
+    Check if the resolved PI name is a valid person's name and not a placeholder.
+    """
+    if not name or name == "Dr. Unknown Investigator":
+        return False
+    name_lower = name.lower()
+    invalid_keywords = [
+        "unknown", "not found", "not specified", "not available", 
+        "unable to determine", "n/a", "no pi", "information not", 
+        "name not", "not provided", "dr. first last", "dr. name",
+        "no principal investigator", "not explicitly", "not identified",
+        "search results", "not show", "does not contain", "further investigation",
+        "not clear", "not list", "no investigator", "not yield", "no name"
+    ]
+    if any(k in name_lower for k in invalid_keywords):
+        return False
+        
+    # Remove Dr. prefix
+    clean_name = re.sub(r'^dr\.\s+', '', name, flags=re.IGNORECASE).strip()
+    
+    # Person's name should be relatively short (typically 2 to 4 words, and less than 40 chars)
+    words = clean_name.split()
+    if len(words) < 2 or len(words) > 4 or len(clean_name) > 40:
+        return False
+        
+    # Make sure it's not a full sentence (doesn't contain verbs like 'was', 'is', 'has')
+    if any(verb in words for verb in ["was", "is", "has", "been", "were", "are", "have", "would", "could"]):
+        return False
+        
+    return True
+
 def clean_abstract_html(raw_html: str) -> str:
+
     """
     Remove HTML tags and unescape symbols from grant abstracts.
     """
@@ -94,15 +148,15 @@ def scan_methodologies(title: str, abstract: str) -> List[str]:
         methodologies = ["Research Analysis"]
     return methodologies
 
-def fetch_nih_grants(keywords: List[str], limit: int = 15, offset: int = 0) -> List[dict]:
+def fetch_nih_grants(keyword: str, limit: int = 15, offset: int = 0) -> List[dict]:
     """
-    Fetch active, funded projects from NIH RePORTER API v2 matching keywords.
+    Fetch active, funded projects from NIH RePORTER API v2 matching keyword.
     """
     url = "https://api.reporter.nih.gov/v2/projects/search"
     headers = {"Content-Type": "application/json"}
     
     # Create keyword search term
-    search_term = " OR ".join(f'"{kw}"' for kw in keywords)
+    search_term = f'"{keyword}"'
     
     payload = {
         "criteria": {
@@ -186,12 +240,12 @@ def fetch_nih_grants(keywords: List[str], limit: int = 15, offset: int = 0) -> L
         
     return []
 
-def fetch_nsf_grants(keywords: List[str], limit: int = 15, offset: int = 0) -> List[dict]:
+def fetch_nsf_grants(keyword: str, limit: int = 15, offset: int = 0) -> List[dict]:
     """
-    Fetch active projects from NSF Award Search API matching keywords.
+    Fetch active projects from NSF Award Search API matching keyword.
     """
     # Create keyword search term
-    search_term = "+OR+".join(urllib.parse.quote(f'"{kw}"') for kw in keywords)
+    search_term = urllib.parse.quote(f'"{keyword}"')
     fields = "id,title,startDate,expDate,abstractText,fundsObligatedAmt,pdPIName,awardeeName"
     
     url = f"https://api.nsf.gov/services/v1/awards.json?ActiveAwards=True&keyword={search_term}&printFields={fields}&rpp={limit}&offset={offset}"
@@ -240,68 +294,439 @@ def fetch_nsf_grants(keywords: List[str], limit: int = 15, offset: int = 0) -> L
         
     return []
 
-def run_grant_ingestion(keywords: List[str] = None, limit: int = 15, offset: int = 0) -> dict:
+def fetch_usaspending_grants(agency_name: str, keyword: str, limit: int = 15, offset: int = 0) -> List[dict]:
     """
-    Ingest research awards from NIH & NSF, deduplicate, calculate embeddings, and save to Supabase.
+    Fetch active, funded projects from USAspending.gov API matching agency and keyword.
+    Includes rate-limiting delays and robust retry logic to prevent firewall blocks.
+    """
+    import time
+    
+    # Enforce basic rate-limiting delay between calls
+    time.sleep(1.0)
+    
+    url = "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+    headers = {"Content-Type": "application/json"}
+    
+    payload = {
+        "filters": {
+            "award_type_codes": ["02", "03", "04", "05"],  # Grants
+            "agencies": [
+                {
+                    "type": "awarding",
+                    "tier": "toptier",
+                    "name": agency_name
+                }
+            ],
+            "keywords": [keyword]
+        },
+        "fields": [
+            "Award ID",
+            "Recipient Name",
+            "Start Date",
+            "End Date",
+            "Award Amount",
+            "Awarding Agency",
+            "Awarding Sub Agency",
+            "Description"
+        ],
+        "limit": limit,
+        "page": (offset // limit) + 1,
+        "sort": "Award Amount",
+        "order": "desc"
+    }
+    
+    max_retries = 3
+    retry_delay = 2.0
+    
+    for attempt in range(max_retries):
+        try:
+            req = urllib.request.Request(
+                url,
+                data=json.dumps(payload).encode("utf-8"),
+                headers=headers,
+                method="POST"
+            )
+            
+            with urllib.request.urlopen(req, timeout=15) as response:
+                if response.status == 200:
+                    res_body = json.loads(response.read().decode("utf-8"))
+                    results = res_body.get("results", [])
+                    
+                    parsed_grants = []
+                    for p in results:
+                        title = p.get("Description", "Untitled Research Grant")
+                        if not title:
+                            continue
+                        if title.startswith("'") and title.endswith("'"):
+                            title = title[1:-1]
+                        if title.startswith('"') and title.endswith('"'):
+                            title = title[1:-1]
+                        title = clean_abstract_html(title)
+                        
+                        org_name = p.get("Recipient Name", "Unknown Institution").strip().title()
+                        
+                        start_date = p.get("Start Date")
+                        end_date = p.get("End Date")
+                        award_amount = p.get("Award Amount", 0)
+                        if award_amount is None:
+                            award_amount = 0
+                            
+                        methodologies = scan_methodologies(title, title)
+                        
+                        if agency_name == "Department of Defense":
+                            funding_source = "DOD"
+                            funding_badge_url = "https://img.shields.io/badge/DOD-Funding-maroon"
+                        elif agency_name == "Department of the Interior":
+                            funding_source = "DNR"
+                            funding_badge_url = "https://img.shields.io/badge/DNR-Funding-green"
+                        elif agency_name == "Department of Energy":
+                            funding_source = "DOE"
+                            funding_badge_url = "https://img.shields.io/badge/DOE-Funding-darkgreen"
+                        elif agency_name == "Environmental Protection Agency":
+                            funding_source = "EPA"
+                            funding_badge_url = "https://img.shields.io/badge/EPA-Funding-orange"
+                        elif agency_name == "National Aeronautics and Space Administration":
+                            funding_source = "NASA"
+                            funding_badge_url = "https://img.shields.io/badge/NASA-Funding-blue"
+                        elif agency_name == "Department of Agriculture":
+                            funding_source = "USDA"
+                            funding_badge_url = "https://img.shields.io/badge/USDA-Funding-olive"
+                        else:
+                            funding_source = "Federal"
+                            funding_badge_url = "https://img.shields.io/badge/Federal-Funding-grey"
+                            
+                        parsed_grants.append({
+                            "pi_name": "Dr. Unknown Investigator",
+                            "university": org_name,
+                            "department": p.get("Awarding Sub Agency", "Research Division").strip().title() or "Research Division",
+                            "grant_title": title,
+                            "grant_abstract": title,
+                            "methodologies": methodologies,
+                            "funding_source": funding_source,
+                            "funding_badge_url": funding_badge_url,
+                            "award_amount": float(award_amount),
+                            "start_date": start_date,
+                            "end_date": end_date,
+                            "award_id": p.get("Award ID")
+                        })
+                    return parsed_grants
+                else:
+                    raise Exception(f"USAspending API status code {response.status}")
+        except Exception as e:
+            if attempt < max_retries - 1:
+                print(f"[USAspending API] Connection error on attempt {attempt + 1}/{max_retries}: {e}. Retrying in {retry_delay}s...")
+                time.sleep(retry_delay)
+                retry_delay *= 2.0
+            else:
+                warnings.warn(f"Failed to fetch USAspending grants for {agency_name} after {max_retries} attempts: {e}")
+                
+    return []
+
+def resolve_grant_pi_and_abstract(award_id: str, institution: str, title: str) -> dict:
+    """
+    Use Google Gemini 2.5 Flash with search grounding to resolve the Principal Investigator
+    and abstract/description of a grant. Includes robust retries and backoff for rate limits.
+    """
+    from ..config import settings
+    if not settings.gemini_api_key:
+        warnings.warn("GEMINI_API_KEY is not configured. Skipping PI resolution.")
+        return {"pi_name": "Dr. Unknown Investigator", "grant_abstract": title}
+        
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key={settings.gemini_api_key}"
+    headers = {"Content-Type": "application/json"}
+    
+    prompt = f"""
+    You are an expert research grant metadata extractor. Your job is to find the Principal Investigator (PI) name and a short project abstract for the following U.S. federal research grant award:
+    Award ID: {award_id}
+    Recipient Institution: {institution}
+    Title: {title}
+    
+    Use Google Search to find the official award record (e.g. from DTIC, CDMRP, NSF, NIH, USAspending, or the university's research page).
+    Identify the contact Principal Investigator's name (formatted as 'Dr. First Last').
+    Extract a technical research abstract/description of the project (1-2 paragraphs).
+    
+    Please output the information in the following format exactly:
+    PI: [Name]
+    ABSTRACT: [Description]
+    """
+    
+    payload = {
+        "contents": [
+            {
+                "parts": [
+                    {"text": prompt}
+                ]
+            }
+        ],
+        "tools": [
+            {
+                "google_search": {}
+            }
+        ]
+    }
+    
+    max_retries = 3
+    backoff = 10.0
+    
+    for attempt in range(max_retries):
+        try:
+            req = urllib.request.Request(
+                url,
+                data=json.dumps(payload).encode("utf-8"),
+                headers=headers,
+                method="POST"
+            )
+            
+            with urllib.request.urlopen(req, timeout=30) as response:
+                if response.status == 200:
+                    res_body = json.loads(response.read().decode("utf-8"))
+                    candidates = res_body.get("candidates", [])
+                    if not candidates:
+                        raise Exception("API returned status code 200 but candidates list is empty.")
+                    
+                    cand = candidates[0]
+                    content = cand.get("content", {})
+                    parts = content.get("parts", [])
+                    if not parts:
+                        raise Exception(f"API returned status code 200 but content parts is empty. finishReason={cand.get('finishReason')}, contentKeys={list(content.keys())}")
+                    
+                    text_content = parts[0].get("text", "")
+                    if not text_content:
+                        raise Exception("API returned status code 200 but text field in parts is empty.")
+                    
+                    text_content = text_content.strip()
+                    
+                    # Parse the plain text response
+                    pi_name = "Dr. Unknown Investigator"
+                    grant_abstract = title
+                    
+                    lines = text_content.split("\n")
+                    pi_found = False
+                    abstract_lines = []
+                    in_abstract = False
+                    
+                    for line in lines:
+                        line_strip = line.strip()
+                        if not line_strip:
+                            if in_abstract and abstract_lines:
+                                abstract_lines.append("")
+                            continue
+                            
+                        # Check for PI line
+                        if re.match(r'^(?:PI|Principal Investigator)\s*:\s*(.*)', line_strip, re.IGNORECASE):
+                            pi_name = re.sub(r'^(?:PI|Principal Investigator)\s*:\s*', '', line_strip, flags=re.IGNORECASE).strip()
+                            pi_name = re.sub(r'[\*\#\_\[\]]', '', pi_name).strip()
+                            pi_found = True
+                            in_abstract = False
+                            continue
+                            
+                        # Check for Abstract header
+                        if re.match(r'^(?:ABSTRACT|Description)\s*:\s*(.*)', line_strip, re.IGNORECASE):
+                            first_part = re.sub(r'^(?:ABSTRACT|Description)\s*:\s*', '', line_strip, flags=re.IGNORECASE).strip()
+                            first_part = re.sub(r'[\*\#\_\[\]]', '', first_part).strip()
+                            if first_part:
+                                abstract_lines.append(first_part)
+                            in_abstract = True
+                            continue
+                            
+                        # If we are in abstract mode, accumulate lines
+                        if in_abstract:
+                            line_clean = re.sub(r'[\*\#\_\[\]]', '', line_strip).strip()
+                            abstract_lines.append(line_clean)
+                        elif not pi_found and ("dr." in line_strip.lower() or "investigator" in line_strip.lower()):
+                            # Fallback check for PI name in text
+                            dr_match = re.search(r'Dr\.\s+[A-Z][a-zA-Z\-\']+\s+[A-Z][a-zA-Z\-\']+', line_strip)
+                            if dr_match:
+                                pi_name = dr_match.group(0)
+                                pi_found = True
+                                
+                    if abstract_lines:
+                        grant_abstract = "\n".join(abstract_lines).strip()
+                        grant_abstract = re.sub(r'\n{3,}', '\n\n', grant_abstract)
+                        
+                    return {
+                        "pi_name": pi_name,
+                        "grant_abstract": grant_abstract
+                    }
+                else:
+                    raise Exception(f"API returned status code {response.status}")
+                
+        except urllib.error.HTTPError as he:
+            if he.code == 429:
+                print(f"[Gemini API] Rate limit hit (429) on attempt {attempt + 1}/{max_retries}. Sleeping {backoff}s...")
+            else:
+                print(f"[Gemini API] HTTP Error {he.code} on attempt {attempt + 1}/{max_retries}. Sleeping {backoff}s...")
+        except Exception as e:
+            print(f"[Gemini API] Error on attempt {attempt + 1}/{max_retries}: {e}. Sleeping {backoff}s...")
+            
+        if attempt < max_retries - 1:
+            import time
+            time.sleep(backoff)
+            backoff *= 2.0
+            
+    warnings.warn(f"Failed to resolve PI/abstract via Gemini for Award ID {award_id} after {max_retries} attempts.")
+    return {"pi_name": "Dr. Unknown Investigator", "grant_abstract": title}
+
+def process_single_grant(grant: dict) -> Optional[dict]:
+    """
+    Process a single grant: resolve PI/abstract if needed, and compute vector embedding.
+    """
+    title = grant.get("grant_title")
+    if not title:
+        return None
+    try:
+        # For USAspending grants, dynamically resolve PI name and abstract before embedding calculation
+        if grant["funding_source"] in ["DOD", "DNR", "DOE", "EPA", "NASA", "USDA"]:
+            print(f"    Resolving PI and abstract for {grant['funding_source']} grant: '{title[:40]}...' (Award ID: {grant.get('award_id')})")
+            resolved = resolve_grant_pi_and_abstract(grant.get("award_id"), grant["university"], title)
+            resolved_pi = resolved["pi_name"]
+            if not is_valid_pi(resolved_pi):
+                resolved_pi = "Dr. Unknown Investigator"
+            grant["pi_name"] = resolved_pi
+            grant["grant_abstract"] = resolved["grant_abstract"]
+            # Re-scan methodologies using the resolved abstract
+            grant["methodologies"] = scan_methodologies(title, grant["grant_abstract"])
+
+            
+        # Compute vector embedding
+        emb_text = f"Title: {title}. Abstract: {grant['grant_abstract']} PI: {grant['pi_name']} Methodologies: {', '.join(grant['methodologies'])}."
+        embedding = generate_embedding(emb_text)
+        
+        return {
+            "pi_name": grant["pi_name"],
+            "university": grant["university"],
+            "department": grant["department"],
+            "grant_title": title,
+            "grant_abstract": grant["grant_abstract"],
+            "methodologies": grant["methodologies"],
+            "funding_source": grant["funding_source"],
+            "funding_badge_url": grant["funding_badge_url"],
+            "award_amount": grant["award_amount"],
+            "start_date": grant["start_date"],
+            "end_date": grant["end_date"],
+            "embedding": embedding,
+            "award_id": grant.get("award_id")
+        }
+    except Exception as e:
+        warnings.warn(f"Failed to process grant '{title[:40]}...': {e}")
+        return None
+
+def load_all_existing_titles(db) -> set:
+    """
+    Load all existing grant titles from database in batches to bypass Postgrest default limits.
+    """
+    titles = set()
+    limit = 1000
+    offset = 0
+    while True:
+        try:
+            res = db.table("labs_cached_grants").select("grant_title").range(offset, offset + limit - 1).execute()
+            batch = res.data or []
+            if not batch:
+                break
+            for item in batch:
+                t = item.get("grant_title")
+                if t:
+                    titles.add(t)
+            if len(batch) < limit:
+                break
+            offset += limit
+        except Exception as e:
+            warnings.warn(f"Failed to fetch titles batch at offset {offset}: {e}")
+            break
+    return titles
+
+def run_grant_ingestion(keywords: List[str] = None, pages: int = 10, limit_per_page: int = 25) -> dict:
+    """
+    Ingest research awards from NIH, NSF, and USAspending (DOD, DNR, DOE, EPA, NASA, USDA)
+    by querying each keyword individually, deduplicating in-memory, calculating embeddings,
+    and saving new unique awards to Supabase.
     """
     if not keywords:
         keywords = DEFAULT_KEYWORDS
         
-    print(f"Starting grant ingestion for keywords: {keywords}")
+    print(f"Starting keyword-by-keyword grant ingestion for {len(keywords)} keywords, pages: {pages}, limit_per_page: {limit_per_page}")
     
-    # 1. Fetch from APIs
-    nih_list = fetch_nih_grants(keywords, limit=limit, offset=offset)
-    nsf_list = fetch_nsf_grants(keywords, limit=limit, offset=offset)
-    
-    combined_grants = nih_list + nsf_list
-    print(f"Fetched {len(nih_list)} NIH grants and {len(nsf_list)} NSF awards. Total: {len(combined_grants)}")
-    
-    if not combined_grants:
-        return {"status": "success", "inserted": 0, "skipped": 0, "message": "No new grants found from external APIs."}
-        
     db = get_db()
+    
+    # Pre-fetch existing titles to optimize duplicate checking and avoid redundant DB queries
+    try:
+        existing_titles = load_all_existing_titles(db)
+        print(f"Pre-loaded {len(existing_titles)} existing grant titles from database.")
+    except Exception as e:
+        existing_titles = set()
+        warnings.warn(f"Failed to pre-fetch existing grant titles from DB: {e}")
+        
+    seen_titles = existing_titles.copy()
+    
+    # USAspending agencies
+    agencies = [
+        "Department of Defense",
+        "Department of the Interior",
+        "Department of Energy",
+        "Environmental Protection Agency",
+        "National Aeronautics and Space Administration",
+        "Department of Agriculture"
+    ]
+    
     inserted_count = 0
     skipped_count = 0
     
-    # 2. Sync to Supabase
-    for grant in combined_grants:
-        try:
-            # Check for duplicates by title to prevent duplication
-            existing = db.table("labs_cached_grants").select("id").eq("grant_title", grant["grant_title"]).execute()
-            if hasattr(existing, 'data') and existing.data:
-                skipped_count += 1
-                continue
+    for kw_idx, keyword in enumerate(keywords):
+        print(f"\n[{kw_idx + 1}/{len(keywords)}] Querying keyword: '{keyword}'...")
+        
+        for page in range(pages):
+            offset = page * limit_per_page
+            print(f"  Fetching page {page + 1}/{pages} (offset: {offset})...")
+            
+            # Fetch from NIH, NSF, and USAspending
+            nih_list = fetch_nih_grants(keyword, limit=limit_per_page, offset=offset)
+            nsf_list = fetch_nsf_grants(keyword, limit=limit_per_page, offset=offset)
+            
+            usa_list = []
+            for agency in agencies:
+                usa_list += fetch_usaspending_grants(agency, keyword, limit=limit_per_page, offset=offset)
                 
-            # Compute vector embedding
-            import time
-            time.sleep(1.5) # Prevent Gemini API rate limit exceptions during massive bulk ingestion
-            emb_text = f"Title: {grant['grant_title']}. Abstract: {grant['grant_abstract']} PI: {grant['pi_name']} Methodologies: {', '.join(grant['methodologies'])}."
-            embedding = generate_embedding(emb_text)
+            batch_grants = nih_list + nsf_list + usa_list
             
-            # Prepare payload
-            grant_data = {
-                "pi_name": grant["pi_name"],
-                "university": grant["university"],
-                "department": grant["department"],
-                "grant_title": grant["grant_title"],
-                "grant_abstract": grant["grant_abstract"],
-                "methodologies": grant["methodologies"],
-                "funding_source": grant["funding_source"],
-                "funding_badge_url": grant["funding_badge_url"],
-                "award_amount": grant["award_amount"],
-                "start_date": grant["start_date"],
-                "end_date": grant["end_date"],
-                "embedding": embedding
-            }
-            
-            db.table("labs_cached_grants").insert(grant_data).execute()
-            inserted_count += 1
-            
-        except Exception as e:
-            warnings.warn(f"Failed to save grant '{grant.get('grant_title')[:40]}...': {e}")
-            skipped_count += 1
-            
-    print(f"Ingestion complete: {inserted_count} inserted, {skipped_count} skipped/failed.")
+            # Filter batch grants to get new ones
+            new_grants = []
+            for grant in batch_grants:
+                title = grant["grant_title"]
+                if not title:
+                    continue
+                    
+                # Deduplication check
+                if title in seen_titles:
+                    skipped_count += 1
+                    continue
+                    
+                seen_titles.add(title)
+                new_grants.append(grant)
+                
+            if new_grants:
+                print(f"  Processing {len(new_grants)} new unique grants in parallel...")
+                processed_grants = []
+                # Process in parallel using up to 10 workers (safe for API and concurrent embedding gen)
+                with ThreadPoolExecutor(max_workers=10) as executor:
+                    futures = {executor.submit(process_single_grant, g): g for g in new_grants}
+                    for future in as_completed(futures):
+                        res = future.result()
+                        if res:
+                            processed_grants.append(res)
+                            
+                if processed_grants:
+                    try:
+                        db.table("labs_cached_grants").insert(processed_grants).execute()
+                        inserted_count += len(processed_grants)
+                        print(f"  Successfully batch inserted {len(processed_grants)} grants.")
+                    except Exception as e:
+                        warnings.warn(f"Failed to batch insert grants: {e}")
+                        skipped_count += len(new_grants)
+                else:
+                    print("  No grants successfully processed in this batch.")
+                    
+    print(f"\nIngestion complete: {inserted_count} inserted, {skipped_count} skipped/failed.")
     return {
         "status": "success",
         "inserted": inserted_count,

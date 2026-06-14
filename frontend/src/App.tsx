@@ -36,6 +36,12 @@ function App() {
   // Analytics: Track session start and routing transitions
   useEffect(() => {
     trackEvent('session_start', 'onboarding', 'action');
+
+    // Auto-route ad traffic (Google Ads clicks) directly to the onboarding page to bypass the cover screen
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('gclid') || params.get('utm_source') || params.get('start') === 'true') {
+      setView('get_started');
+    }
   }, []);
 
   useEffect(() => {

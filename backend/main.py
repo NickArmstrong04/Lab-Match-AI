@@ -44,12 +44,20 @@ async def start_scheduler():
     from apscheduler.schedulers.background import BackgroundScheduler
     from .services.ingest import run_grant_ingestion
     
+    from .config import settings
+    
     # Pre-flight environment keys check
-    required_keys = ["SUPABASE_URL", "SUPABASE_KEY", "GEMINI_API_KEY", "GOOGLE_CLIENT_ID", "GOOGLE_CLIENT_SECRET"]
-    missing_keys = [k for k in required_keys if not os.getenv(k)]
+    config_keys = {
+        "SUPABASE_URL": settings.supabase_url,
+        "SUPABASE_KEY": settings.supabase_key,
+        "GEMINI_API_KEY": settings.gemini_api_key,
+        "GOOGLE_CLIENT_ID": settings.google_client_id,
+        "GOOGLE_CLIENT_SECRET": settings.google_client_secret
+    }
+    missing_keys = [k for k, v in config_keys.items() if not v or v in ["mock_client_id", "mock_client_secret"]]
     if missing_keys:
         warnings.warn(
-            f"\n[⚠️  ENVIRONMENT WARNING] Missing critical keys: {', '.join(missing_keys)}.\n"
+            f"\n[⚠️  ENVIRONMENT WARNING] Missing or default critical keys in config: {', '.join(missing_keys)}.\n"
             f"The server is running, but core features (embeddings, database tables, or Google dispatches) may encounter runtime exceptions.\n"
         )
     

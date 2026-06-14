@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Send, FolderClosed, ArrowLeft, Mail, AlertCircle, CheckCircle2, RefreshCw, Copy } from 'lucide-react';
+import { ArrowLeft, Mail, AlertCircle, CheckCircle2, RefreshCw, Copy } from 'lucide-react';
 import GlassCard from '../components/GlassCard';
 import CircularScore from '../components/CircularScore';
 import { type GrantMatch } from './Dashboard';
@@ -20,19 +20,16 @@ export const EmailReview: React.FC<EmailReviewProps> = ({
   studentName,
   resumeName,
   studentId,
-  onSendComplete,
   onCancel,
 }) => {
   const [to, setTo] = useState(match.pi_email);
   const [subject, setSubject] = useState('');
   const [body, setBody] = useState('');
-  const [originalDraftBody, setOriginalDraftBody] = useState('');
   const [isCopied, setIsCopied] = useState(false);
   
   // Dynamic API integration states
   const [isDrafting, setIsDrafting] = useState(true);
   const [sendState, setSendState] = useState<'idle' | 'sending' | 'success' | 'error'>('idle');
-  const [errorMsg, setErrorMsg] = useState('');
 
   // Analytics: Track email review page view
   useEffect(() => {
@@ -43,6 +40,14 @@ export const EmailReview: React.FC<EmailReviewProps> = ({
     const fullText = `Subject: ${subject}\n\n${body}`;
     navigator.clipboard.writeText(fullText);
     setIsCopied(true);
+    
+    // Telemetry: track pitch copy event
+    trackEvent('email_copied', 'email_review', 'action', {
+      grant_id: match.id,
+      pi_name: match.pi_name,
+      institution: match.institution
+    });
+
     setTimeout(() => {
       setIsCopied(false);
     }, 2000);
@@ -69,7 +74,6 @@ Sarah Nguyen`;
         
         setSubject(sampleSubject);
         setBody(sampleBody);
-        setOriginalDraftBody(sampleBody);
         // 50ms organic transition loading state
         await new Promise(resolve => setTimeout(resolve, 50));
         setIsDrafting(false);
@@ -91,7 +95,6 @@ Elena Rostova`;
         
         setSubject(sampleSubject);
         setBody(sampleBody);
-        setOriginalDraftBody(sampleBody);
         // 50ms organic transition loading state
         await new Promise(resolve => setTimeout(resolve, 50));
         setIsDrafting(false);
@@ -106,7 +109,6 @@ Elena Rostova`;
         const draftBody = data.body || '';
         setSubject(data.subject || `Inquiry: Research Alignment — ${studentName}`);
         setBody(draftBody);
-        setOriginalDraftBody(draftBody);
       } catch (err) {
         console.error("Draft generation error, loading fallback template:", err);
         // Clean fallback email template if API is down
@@ -118,7 +120,6 @@ Elena Rostova`;
         const outro = `I would love the opportunity to learn more about your research goals and discuss how my skills could accelerate your pipeline. Would you be open to a brief 10-minute Zoom call or a quick lab introduction next week? I've attached my full CV to this email.\n\nSincerely,\n\n${studentName}`;
         const fallbackBody = `${intro}\n\n${center}\n\n${outro}`;
         setBody(fallbackBody);
-        setOriginalDraftBody(fallbackBody);
       } finally {
         setIsDrafting(false);
       }
@@ -129,60 +130,7 @@ Elena Rostova`;
 
 
 
-  // 5. Send Outreach cold email by invoking client-side mailto and logging transaction
-  const handleSendEmail = async () => {
-    setSendState('sending');
-    setErrorMsg('');
 
-    // Telemetry: track outreach send attempt
-    trackEvent('email_sent_attempt', 'email_review', 'action', {
-      grant_id: match.id,
-      pi_name: match.pi_name,
-      institution: match.institution
-    });
-
-    const draft_modified_chars_diff = Math.abs(body.length - originalDraftBody.length);
-
-    try {
-      await api.post('/agent/send-email', {
-        student_id: studentId,
-        grant_id: match.id,
-        subject: subject,
-        body: body,
-        match_id: match.id
-      });
-
-      // Telemetry: track successful outreach sent
-      trackEvent('email_sent', 'email_review', 'action', {
-        grant_id: match.id,
-        pi_name: match.pi_name,
-        institution: match.institution,
-        draft_modified_chars_diff
-      });
-
-      // Invoke local email client
-      const mailtoUrl = `mailto:${to}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-      window.location.href = mailtoUrl;
-
-      setSendState('success');
-      setTimeout(() => {
-        onSendComplete(match.id, body);
-      }, 1800);
-    } catch (err: any) {
-      console.error("Email logging failed:", err);
-      const errStr = err.response?.data?.detail || err.message || 'Gateway handshake error.';
-      setErrorMsg(errStr);
-
-      // Telemetry: track failed outreach transmission
-      trackEvent('email_sent_failed', 'email_review', 'action', {
-        grant_id: match.id,
-        pi_name: match.pi_name,
-        error: errStr
-      });
-
-      setSendState('error');
-    }
-  };
 
   return (
     <div className="w-full max-w-7xl mx-auto px-4 py-6 animate-fade-in">
@@ -308,40 +256,23 @@ Elena Rostova`;
 
               {/* Control buttons */}
               <div className="flex items-center justify-between border-t border-stone-200 pt-4 mt-2">
-                <div className="flex gap-2">
-                  <button
-                    onClick={onCancel}
-                    disabled={sendState === 'sending'}
-                    className="px-4 py-2 rounded-lg text-stone-600 hover:text-stone-900 hover:bg-stone-100 transition-colors text-xs font-semibold inline-flex items-center justify-center gap-2 cursor-pointer disabled:opacity-50"
-                  >
-                    <span className="icon-btn-slot" aria-hidden>
-                      <FolderClosed className="size-3.5" />
-                    </span>
-                    <span className="icon-btn-label">Save Draft</span>
-                  </button>
-
-                  <button
-                    onClick={handleCopyToClipboard}
-                    disabled={sendState === 'sending'}
-                    className="px-4 py-2.5 rounded-lg text-[#0d5c5c] hover:bg-[#e6f0f0] border border-[#c5dddd] transition-colors text-xs font-semibold inline-flex items-center justify-center gap-2 cursor-pointer disabled:opacity-50"
-                  >
-                    <span className="icon-btn-slot" aria-hidden>
-                      {isCopied ? (
-                        <CheckCircle2 className="size-3.5 text-[#0d5c48]" />
-                      ) : (
-                        <Copy className="size-3.5" strokeWidth={1.75} />
-                      )}
-                    </span>
-                    <span className="icon-btn-label">{isCopied ? 'Copied!' : 'Copy Pitch'}</span>
-                  </button>
-                </div>
+                <button
+                  onClick={onCancel}
+                  className="px-4 py-2 rounded-lg text-stone-600 hover:text-stone-900 hover:bg-stone-100 transition-colors text-xs font-semibold inline-flex items-center justify-center gap-2 cursor-pointer"
+                >
+                  <ArrowLeft className="w-3.5 h-3.5" /> Back to Swiper
+                </button>
 
                 <button
-                  onClick={handleSendEmail}
-                  disabled={sendState === 'sending'}
-                  className="btn-primary text-xs py-2.5 disabled:opacity-50"
+                  onClick={handleCopyToClipboard}
+                  className="btn-primary text-xs py-2.5 px-6 font-bold flex items-center justify-center gap-2"
                 >
-                  Send Email <Send className="w-3.5 h-3.5" />
+                  {isCopied ? (
+                    <CheckCircle2 className="w-4 h-4 text-emerald-300 fill-emerald-800" />
+                  ) : (
+                    <Copy className="w-4 h-4" />
+                  )}
+                  {isCopied ? 'Pitch Copied!' : 'Copy Pitch'}
                 </button>
               </div>
             </div>
@@ -381,7 +312,7 @@ Elena Rostova`;
                   </div>
                   <h3 className="text-xl font-semibold font-outfit text-stone-900">Logging Failed</h3>
                   <p className="text-stone-600 text-xs leading-relaxed">
-                    {errorMsg || "The server returned an unexpected error logging this outreach."}
+                    The server returned an unexpected error logging this outreach.
                   </p>
                   <div className="flex gap-2 justify-center mt-2">
                     <button

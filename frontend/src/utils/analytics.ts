@@ -98,10 +98,17 @@ export const trackEvent = async (
     const userAgent = navigator.userAgent;
     const referrer = document.referrer || '';
     
+    // Detect localhost/development and check localStorage developer settings
+    const isLocalhost = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+    const isTestMode = localStorage.getItem('labmatch_analytics_test_mode') === 'true' || (isLocalhost && localStorage.getItem('labmatch_analytics_test_mode') !== 'false');
+    const testerName = localStorage.getItem('labmatch_analytics_tester_name') || (isLocalhost ? 'Local Developer' : '');
+
     // Capture and merge UTM landing parameters for rich telemetry attribution
     const landingParams = getLandingParams();
     const eventMetadata = {
       ...landingParams,
+      is_test: isTestMode,
+      tester_name: isTestMode && testerName ? testerName : undefined,
       ...metadata
     };
 

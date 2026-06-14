@@ -31,7 +31,7 @@ def test_model(model_name):
         return False
 
 print("Testing different model identifiers...")
-test_model("gemini-1.5-flash")
-test_model("gemini-1.5-flash-latest")
-test_model("gemini-pro")
+test_model("gemini-2.5-flash-lite")
+test_model("gemini-2.5-pro")
+test_model("gemini-2.0-flash")
 test_model("gemini-2.5-flash")

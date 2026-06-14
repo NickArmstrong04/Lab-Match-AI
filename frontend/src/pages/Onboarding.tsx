@@ -561,6 +561,13 @@ export const Onboarding: React.FC<OnboardingProps> = ({
     const handleOauthMessage = async (event: MessageEvent) => {
       if (event.data) {
         if (event.data.type === "google_oauth_success") {
+          // 🚀 Trigger Google Ads Secondary Sign-in Conversion
+          if (typeof window !== 'undefined' && (window as any).gtag) {
+            (window as any).gtag('event', 'conversion', {
+              'send_to': 'AW-18029844848/9pnNCJOw_bscEPCyppVD'
+            });
+          }
+
           // Handle returning user login flow
           if (event.data.student) {
             console.log("OAuth login success!");
@@ -966,7 +973,7 @@ export const Onboarding: React.FC<OnboardingProps> = ({
                     Research Profile
                   </h2>
                   <p className="text-stone-600 text-sm leading-relaxed">
-                    Add your CV for background parsing, then describe your scientific goals and research interests.
+                    Upload your CV (optional) or simply enter your research interests below to search matching funded labs immediately.
                   </p>
                 </div>
 

@@ -1,0 +1,1 @@
+ALTER TABLE labs_cached_grants ADD COLUMN IF NOT EXISTS award_id VARCHAR(255);

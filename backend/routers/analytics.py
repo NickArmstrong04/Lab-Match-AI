@@ -44,7 +44,7 @@ async def log_event(event: EventLog):
         return {"status": "error", "message": str(e)}
 
 @router.get("/metrics")
-async def get_metrics():
+async def get_metrics(traffic_type: str = "all", since: Optional[str] = None):
     """
     Fetch analytics events from database and calculate conversion funnels, session trajectory metrics,
     and engagement counts.
@@ -58,9 +58,82 @@ async def get_metrics():
             .limit(5000) \
             .execute()
         
-        events = response.data or []
+        all_events = response.data or []
         
-        # Calculate distinct session IDs
+        # Filter events if 'since' timestamp is provided
+        if since:
+            try:
+                # Convert since to naive UTC
+                since_clean = since.replace("Z", "+00:00")
+                if '+' not in since_clean and '-' not in since_clean[-6:]:
+                    since_clean += '+00:00'
+                
+                from datetime import timezone as dt_timezone
+                since_aware = datetime.fromisoformat(since_clean)
+                since_utc = since_aware.astimezone(dt_timezone.utc).replace(tzinfo=None)
+                
+                def to_naive_utc(dt_str) -> datetime:
+                    if not dt_str:
+                        return datetime.min
+                    try:
+                        clean = str(dt_str).replace("Z", "+00:00")
+                        if " " in clean and "T" not in clean:
+                            clean = clean.replace(" ", "T")
+                        dt = datetime.fromisoformat(clean)
+                        if dt.tzinfo is not None:
+                            return dt.astimezone(dt_timezone.utc).replace(tzinfo=None)
+                        return dt
+                    except:
+                        return datetime.min
+
+                filtered_events = []
+                for e in all_events:
+                    try:
+                        event_dt = to_naive_utc(e.get("created_at"))
+                        if event_dt >= since_utc:
+                            filtered_events.append(e)
+                    except Exception as event_err:
+                        print(f"[Warning] Error filtering event: {event_err}")
+                all_events = filtered_events
+            except Exception as e:
+                print(f"[Warning] Failed to initialize since filter for {since}: {e}")
+        
+        # Calculate overall distinct session IDs and test/real breakdowns across all events
+        real_sessions = set()
+        test_sessions = set()
+        tester_breakdown = {}  # tester_name -> set(session_ids)
+        
+        for e in all_events:
+            sess_id = e["session_id"]
+            meta = e.get("metadata") or {}
+            is_test = str(meta.get("is_test")).lower() == "true" or meta.get("is_test") is True
+            
+            if is_test:
+                test_sessions.add(sess_id)
+                t_name = meta.get("tester_name") or "Unspecified Tester"
+                if t_name not in tester_breakdown:
+                    tester_breakdown[t_name] = set()
+                tester_breakdown[t_name].add(sess_id)
+            else:
+                real_sessions.add(sess_id)
+        
+        tester_sessions_count = {name: len(sess_ids) for name, sess_ids in tester_breakdown.items()}
+        
+        # Filter events based on traffic_type
+        if traffic_type == "real":
+            events = [
+                e for e in all_events 
+                if not (str((e.get("metadata") or {}).get("is_test")).lower() == "true" or (e.get("metadata") or {}).get("is_test") is True)
+            ]
+        elif traffic_type == "test":
+            events = [
+                e for e in all_events 
+                if (str((e.get("metadata") or {}).get("is_test")).lower() == "true" or (e.get("metadata") or {}).get("is_test") is True)
+            ]
+        else:
+            events = all_events
+            
+        # Calculate distinct session IDs for the filtered events
         unique_sessions = set(e["session_id"] for e in events)
         total_sessions = len(unique_sessions)
         
@@ -95,6 +168,15 @@ async def get_metrics():
         draft_diffs = []
         parser_errors = 0
         total_onboardings_with_synthesis = 0
+
+        # Paywall A/B test telemetry aggregators
+        paywall_views = set()
+        paywall_upgrades = set()
+        paywall_closes = set()
+        
+        variant_views = {"subscription": set(), "lifetime": set()}
+        variant_upgrades = {"subscription": set(), "lifetime": set()}
+        variant_closes = {"subscription": set(), "lifetime": set()}
 
         # Scan events to categorize session progress and actions
         for e in events:
@@ -138,6 +220,23 @@ async def get_metrics():
                 if "decision_duration_ms" in meta and meta["decision_duration_ms"] is not None:
                     decision_durations.append(meta["decision_duration_ms"])
 
+            # Paywall and A/B variant tracking
+            if name == "paywall_view":
+                paywall_views.add(sess_id)
+                var = meta.get("variant")
+                if var in ["subscription", "lifetime"]:
+                    variant_views[var].add(sess_id)
+            elif name == "paywall_upgrade_click":
+                paywall_upgrades.add(sess_id)
+                var = meta.get("variant")
+                if var in ["subscription", "lifetime"]:
+                    variant_upgrades[var].add(sess_id)
+            elif name == "paywall_close":
+                paywall_closes.add(sess_id)
+                var = meta.get("variant")
+                if var in ["subscription", "lifetime"]:
+                    variant_closes[var].add(sess_id)
+
         # Funnel trajectory steps
         funnel = [
             {
@@ -162,10 +261,35 @@ async def get_metrics():
             }
         ]
 
+        # Compile paywall metrics dictionary
+        paywall_metrics = {
+            "total_views": len(paywall_views),
+            "total_upgrades": len(paywall_upgrades),
+            "total_closes": len(paywall_closes),
+            "conversion_rate": round(len(paywall_upgrades) / len(paywall_views) * 100, 1) if paywall_views else 0.0,
+            "variants": {
+                "subscription": {
+                    "views": len(variant_views["subscription"]),
+                    "upgrades": len(variant_upgrades["subscription"]),
+                    "closes": len(variant_closes["subscription"]),
+                    "conversion_rate": round(len(variant_upgrades["subscription"]) / len(variant_views["subscription"]) * 100, 1) if variant_views["subscription"] else 0.0,
+                },
+                "lifetime": {
+                    "views": len(variant_views["lifetime"]),
+                    "upgrades": len(variant_upgrades["lifetime"]),
+                    "closes": len(variant_closes["lifetime"]),
+                    "conversion_rate": round(len(variant_upgrades["lifetime"]) / len(variant_views["lifetime"]) * 100, 1) if variant_views["lifetime"] else 0.0,
+                }
+            }
+        }
+
         # Calculate general trajectory percentages relative to onboarding page landings
         metrics = {
             "total_sessions": total_sessions,
             "total_events": len(events),
+            "total_real_sessions": len(real_sessions),
+            "total_test_sessions": len(test_sessions),
+            "tester_breakdown": tester_sessions_count,
             "page_views": page_views,
             "funnel": funnel,
             "swipes": {
@@ -175,6 +299,7 @@ async def get_metrics():
                 "save_ratio": round((swipes_saved / total_swipes * 100), 1) if total_swipes > 0 else 0.0
             },
             "emails_sent": len(sessions_sent),
+            "paywall": paywall_metrics,
             "advanced": {
                 "avg_synthesis_duration_ms": round(sum(synthesis_durations) / len(synthesis_durations), 1) if synthesis_durations else 0.0,
                 "avg_decision_duration_ms": round(sum(decision_durations) / len(decision_durations), 1) if decision_durations else 0.0,

@@ -61,8 +61,17 @@ async def run_tests():
     print(f"  Login Redirect URL: {login_res.headers.get('location')}")
     assert login_res.headers.get("location") is not None, "Login failed to return redirect URL"
 
-    # Test callback endpoint
-    callback_res = await google_callback(code="mock_code", state=student_id)
+    # Test callback endpoint (Mocking Google Flow to avoid real API requests)
+    from unittest.mock import patch, MagicMock
+    mock_flow = MagicMock()
+    mock_credentials = MagicMock()
+    mock_credentials.token = "mock_access_token"
+    mock_credentials.refresh_token = "mock_refresh_token"
+    mock_credentials.expiry = datetime.datetime.now() + datetime.timedelta(hours=1)
+    mock_flow.credentials = mock_credentials
+    
+    with patch("backend.routers.auth.Flow.from_client_config", return_value=mock_flow):
+        callback_res = await google_callback(code="mock_code", state=student_id)
     print(f"  Callback Endpoint Response Class: {callback_res.__class__.__name__}")
     # Callback returns HTML content with the handshake completion
     assert callback_res is not None and "Handshake Complete!" in callback_res, "Callback response body is empty"

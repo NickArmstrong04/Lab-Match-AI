@@ -1,13 +1,37 @@
 import uuid
 import datetime
+from typing import Optional
 from pydantic import BaseModel
-from fastapi import APIRouter, HTTPException, Query
+from fastapi import APIRouter, HTTPException, Query, Request
 from fastapi.responses import HTMLResponse, RedirectResponse
 from google_auth_oauthlib.flow import Flow
 from ..config import settings
 from ..database import get_db
 
 router = APIRouter()
+
+
+def get_redirect_uri(request: Optional[Request] = None) -> str:
+    """
+    Dynamically determines the Google OAuth redirect URI.
+    If settings.google_redirect_uri is customized (doesn't contain localhost:8000), it honors it.
+    Otherwise, it checks for standard reverse proxy headers (X-Forwarded-Host, X-Forwarded-Proto)
+    to build the URI dynamically, falling back to request.base_url or the setting default.
+    """
+    if settings.google_redirect_uri and "localhost:8000" not in settings.google_redirect_uri:
+        return settings.google_redirect_uri
+
+    if request is not None:
+        forwarded_host = request.headers.get("x-forwarded-host")
+        forwarded_proto = request.headers.get("x-forwarded-proto", "https")
+        if forwarded_host:
+            return f"{forwarded_proto}://{forwarded_host}/auth/google/callback"
+        
+        base_url = str(request.base_url).rstrip("/")
+        return f"{base_url}/auth/google/callback"
+
+    return settings.google_redirect_uri or "http://localhost:8000/auth/google/callback"
+
 
 
 def get_error_html(error_message: str) -> str:
@@ -109,6 +133,7 @@ def get_error_html(error_message: str) -> str:
 
 @router.get("/google/login")
 async def google_login(
+    request: Request = None,
     student_id: str = Query(
         ..., description="The unique student UUID matching the profiles table."
     )
@@ -117,13 +142,14 @@ async def google_login(
     Initiates Google OAuth 2.0 flow.
     """
     try:
+        redirect_uri = get_redirect_uri(request)
         client_config = {
             "web": {
                 "client_id": settings.google_client_id,
                 "client_secret": settings.google_client_secret,
                 "auth_uri": "https://accounts.google.com/o/oauth2/auth",
                 "token_uri": "https://oauth2.googleapis.com/token",
-                "redirect_uris": [settings.google_redirect_uri],
+                "redirect_uris": [redirect_uri],
             }
         }
         flow = Flow.from_client_config(
@@ -134,7 +160,7 @@ async def google_login(
             ],
             autogenerate_code_verifier=False,
         )
-        flow.redirect_uri = settings.google_redirect_uri
+        flow.redirect_uri = redirect_uri
 
         # State parameter carries student_id to tie the credentials in callback
         authorization_url, _ = flow.authorization_url(
@@ -149,7 +175,9 @@ async def google_login(
 
 @router.get("/google/callback", response_class=HTMLResponse)
 async def google_callback(
-    code: str = Query(...), state: str = Query(..., alias="state")
+    request: Request = None,
+    code: str = Query(...),
+    state: str = Query(..., alias="state")
 ):
     """
     Handles the Google redirect. Exchanges authorization code for tokens
@@ -161,13 +189,14 @@ async def google_callback(
     token_expiry = None
 
     try:
+        redirect_uri = get_redirect_uri(request)
         client_config = {
             "web": {
                 "client_id": settings.google_client_id,
                 "client_secret": settings.google_client_secret,
                 "auth_uri": "https://accounts.google.com/o/oauth2/auth",
                 "token_uri": "https://oauth2.googleapis.com/token",
-                "redirect_uris": [settings.google_redirect_uri],
+                "redirect_uris": [redirect_uri],
             }
         }
         flow = Flow.from_client_config(
@@ -178,7 +207,7 @@ async def google_callback(
             ],
             autogenerate_code_verifier=False,
         )
-        flow.redirect_uri = settings.google_redirect_uri
+        flow.redirect_uri = redirect_uri
         flow.fetch_token(code=code)
         credentials = flow.credentials
 
