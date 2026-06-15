@@ -4,9 +4,79 @@ from pydantic import BaseModel
 import warnings
 import uuid
 from ..database import get_db
-from ..services.ingest import run_grant_ingestion
+from ..services.ingest import run_grant_ingestion, is_brief_abstract, expand_grant_abstract_via_llm, scan_methodologies
 
 router = APIRouter()
+
+def update_grant_abstract_in_db(grant_id: str, expanded_abstract: str, title: str, pi_name: str, methodologies: list):
+    try:
+        from ..database import generate_embedding
+        db = get_db()
+        
+        # Re-scan methodologies using the expanded abstract
+        new_methodologies = scan_methodologies(title, expanded_abstract)
+        
+        # Generate new embedding
+        emb_text = f"Title: {title}. Abstract: {expanded_abstract} PI: {pi_name} Methodologies: {', '.join(new_methodologies)}."
+        embedding = generate_embedding(emb_text)
+        
+        # Update database cache
+        db.table("labs_cached_grants").update({
+            "grant_abstract": expanded_abstract,
+            "methodologies": new_methodologies,
+            "embedding": embedding
+        }).eq("id", grant_id).execute()
+        print(f"[Background Task] Successfully enriched and cached abstract for grant ID {grant_id[:8]}.")
+    except Exception as e:
+        warnings.warn(f"Failed to update grant abstract in background: {e}")
+
+
+def enrich_sliced_matches(sliced_matches: List[dict], background_tasks: Optional[BackgroundTasks] = None, student_skills: Optional[List[str]] = None) -> List[dict]:
+    for item in sliced_matches:
+        abstract = item.get("grant_abstract", "")
+        title = item.get("grant_title", "N/A")
+        pi_name = item.get("pi_name", "N/A")
+        university = item.get("institution", "N/A")
+        g_id = item.get("id")
+        methodologies = item.get("methodologies") or []
+        
+        if is_brief_abstract(abstract, title):
+            print(f"Enriching brief abstract inline for matched grant '{title[:40]}...' (ID: {g_id[:8] if g_id else 'None'})")
+            temp_grant = {
+                "grant_title": title,
+                "grant_abstract": abstract,
+                "pi_name": pi_name,
+                "university": university,
+                "funding_source": item.get("funding_source", "NIH"),
+                "methodologies": methodologies
+            }
+            expanded = expand_grant_abstract_via_llm(temp_grant)
+            if expanded and expanded != abstract:
+                item["abstract"] = expanded
+                item["grant_abstract"] = expanded
+                new_methodologies = scan_methodologies(title, expanded)
+                item["methodologies"] = new_methodologies
+                
+                # Update matching and missing skills if student_skills is provided
+                if student_skills is not None:
+                    item["matching_skills"] = [m for m in new_methodologies if m.lower() in student_skills]
+                    item["missing_skills"] = [m for m in new_methodologies if m.lower() not in student_skills]
+                
+                # Schedule background database update if we have a valid grant ID and background_tasks is provided
+                if g_id and background_tasks is not None:
+                    background_tasks.add_task(
+                        update_grant_abstract_in_db,
+                        g_id,
+                        expanded,
+                        title,
+                        pi_name,
+                        new_methodologies
+                    )
+    return sliced_matches
+
+
+
+
 
 def validate_uuid(uuid_str: str, name: str = "ID") -> None:
     try:
@@ -37,6 +107,7 @@ async def get_grants():
 @router.post("/match")
 async def match_student_to_grants(
     student_id: str,
+    background_tasks: BackgroundTasks = None,
     threshold: float = Query(0.5, ge=0.0, le=1.0),
     limit: int = Query(5, ge=1, le=50)
 ):
@@ -89,7 +160,7 @@ async def match_student_to_grants(
                         grant_details = {g.get("id"): g for g in details_resp.data}
                 except Exception as e:
                     warnings.warn(f"Failed to fetch start/end dates for matched grants: {e}")
-
+ 
             formatted_matches = []
             for item in matches:
                 g_id = item.get("grant_id")
@@ -143,7 +214,7 @@ async def match_student_to_grants(
                     "methodologies": methodologies,  # Keep for test compatibility
                     "recommended_role": recommended_role
                 })
-            return formatted_matches
+            return enrich_sliced_matches(formatted_matches, background_tasks, student_skills)
         return []
         
     except Exception as e:
@@ -173,6 +244,7 @@ async def ingest_grants(background_tasks: BackgroundTasks, req: Optional[IngestR
 @router.get("/matches")
 async def get_matches(
     student_id: str,
+    background_tasks: BackgroundTasks = None,
     method: str = "hybrid", # embedding, keyword, hybrid
     weight: float = Query(0.65, ge=0.0, le=1.0),
     limit: int = Query(5, ge=1, le=50),
@@ -384,7 +456,7 @@ async def get_matches(
             
             # Sort by keyword score descending and slice
             matches.sort(key=lambda x: x["score"], reverse=True)
-            return matches[:limit]
+            return enrich_sliced_matches(matches[:limit], background_tasks, student_skills)
             
         else: # embedding or hybrid
             # Fetch extra records if local_only or location_filter is active to ensure we find local ones (increased to 1000 to prevent semantic cutoff)
@@ -507,7 +579,7 @@ async def get_matches(
                 
             # Re-sort by final calculated score and slice to requested limit
             formatted_matches.sort(key=lambda x: x["score"], reverse=True)
-            return formatted_matches[:limit]
+            return enrich_sliced_matches(formatted_matches[:limit], background_tasks, student_skills)
             
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Matchmaker scoring failed: {str(e)}")

@@ -567,6 +567,134 @@ def resolve_grant_pi_and_abstract(award_id: str, institution: str, title: str) -
     warnings.warn(f"Failed to resolve PI/abstract via Gemini for Award ID {award_id} after {max_retries} attempts.")
     return {"pi_name": "Dr. Unknown Investigator", "grant_abstract": title}
 
+def is_brief_abstract(abstract: str, title: str) -> bool:
+    """
+    Check if the grant abstract is missing, too brief, or contains placeholder text.
+    """
+    if not abstract:
+        return True
+    
+    a_clean = abstract.strip().lower()
+    t_clean = title.strip().lower()
+    
+    # Remove final periods/spaces for comparison
+    a_compare = re.sub(r'[\s\.]+$', '', a_clean)
+    t_compare = re.sub(r'[\s\.]+$', '', t_clean)
+    
+    if a_compare == t_compare:
+        return True
+        
+    # Check for placeholder indicators
+    placeholders = [
+        "not available", "information not found", "no abstract", 
+        "n/a", "unknown", "not specified", "not provided", 
+        "information not available", "not show", "does not contain"
+    ]
+    if any(p in a_clean for p in placeholders) and len(abstract.split()) < 15:
+        return True
+        
+    # Check length: if less than 25 words, it's considered brief
+    if len(abstract.split()) < 25:
+        return True
+        
+    return False
+
+def expand_grant_abstract_via_llm(grant: dict) -> str:
+    """
+    Use Google Gemini (gemini-2.5-flash) to generate a comprehensive, scientifically-accurate
+    project description/synthesis based on the grant metadata.
+    """
+    from ..config import settings
+    if not settings.gemini_api_key:
+        warnings.warn("GEMINI_API_KEY is not configured. Skipping abstract expansion.")
+        return grant.get("grant_abstract") or grant.get("grant_title") or ""
+        
+    title = grant.get("grant_title", "Untitled Research Project")
+    pi_name = grant.get("pi_name", "Dr. Unknown Investigator")
+    university = grant.get("university", "Unknown Institution")
+    funding_source = grant.get("funding_source", "Federal Agency")
+    methodologies = grant.get("methodologies") or ["Research Analysis"]
+    
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={settings.gemini_api_key}"
+    headers = {"Content-Type": "application/json"}
+    
+    prompt = f"""
+    You are an expert science writer and research grant advisor. We have a research grant with the following metadata:
+    Title: {title}
+    Principal Investigator: {pi_name}
+    Institution: {university}
+    Funding Agency: {funding_source}
+    Methodologies: {', '.join(methodologies)}
+    
+    The current description/abstract is either missing or too brief. Please generate a comprehensive, technical, and scientifically accurate research abstract and project synthesis (1-2 paragraphs, around 150-250 words) that describes what this research project likely entails.
+    
+    Focus on:
+    - The background, significance, and objective of the research based on the title.
+    - How the methodologies ({', '.join(methodologies)}) are likely applied to achieve these objectives.
+    - The potential impact on the field (e.g., healthcare, energy, computer science, environment).
+    
+    Ensure it sounds professional, scientific, and reads like a real federal grant abstract. Do not include any meta-text, intro/outro, or pleasantries. Output only the generated abstract text.
+    """
+    
+    payload = {
+        "contents": [
+            {
+                "parts": [
+                    {"text": prompt}
+                ]
+            }
+        ]
+    }
+    
+    max_retries = 3
+    backoff = 2.0
+    
+    for attempt in range(max_retries):
+        try:
+            req = urllib.request.Request(
+                url,
+                data=json.dumps(payload).encode("utf-8"),
+                headers=headers,
+                method="POST"
+            )
+            
+            with urllib.request.urlopen(req, timeout=20) as response:
+                if response.status == 200:
+                    res_body = json.loads(response.read().decode("utf-8"))
+                    candidates = res_body.get("candidates", [])
+                    if not candidates:
+                        raise Exception("API returned status code 200 but candidates list is empty.")
+                    
+                    cand = candidates[0]
+                    content = cand.get("content", {})
+                    parts = content.get("parts", [])
+                    if not parts:
+                        raise Exception("API returned status code 200 but content parts is empty.")
+                    
+                    text_content = parts[0].get("text", "")
+                    if not text_content:
+                        raise Exception("API returned status code 200 but text field in parts is empty.")
+                    
+                    text_content = text_content.strip()
+                    # Strip any markdown formatting block if Gemini tried to put it in a block
+                    text_content = re.sub(r'^```[a-zA-Z]*\n', '', text_content)
+                    text_content = re.sub(r'\n```$', '', text_content)
+                    text_content = text_content.strip()
+                    
+                    if text_content:
+                        return text_content
+                else:
+                    raise Exception(f"API returned status code {response.status}")
+        except Exception as e:
+            print(f"[Gemini Abstract Expansion] Error on attempt {attempt + 1}/{max_retries}: {e}")
+            if attempt < max_retries - 1:
+                import time
+                time.sleep(backoff)
+                backoff *= 2.0
+                
+    warnings.warn("Failed to expand abstract via Gemini. Using fallback.")
+    return grant.get("grant_abstract") or grant.get("grant_title") or ""
+
 def process_single_grant(grant: dict) -> Optional[dict]:
     """
     Process a single grant: resolve PI/abstract if needed, and compute vector embedding.
@@ -587,7 +715,14 @@ def process_single_grant(grant: dict) -> Optional[dict]:
             # Re-scan methodologies using the resolved abstract
             grant["methodologies"] = scan_methodologies(title, grant["grant_abstract"])
 
-            
+        # Check if the abstract is brief/uninformative and expand it via LLM
+        if is_brief_abstract(grant.get("grant_abstract", ""), title):
+            print(f"    Abstract is brief/missing for '{title[:40]}...'. Expanding via Gemini...")
+            expanded_abstract = expand_grant_abstract_via_llm(grant)
+            grant["grant_abstract"] = expanded_abstract
+            # Re-scan methodologies with the newly expanded abstract
+            grant["methodologies"] = scan_methodologies(title, expanded_abstract)
+
         # Compute vector embedding
         emb_text = f"Title: {title}. Abstract: {grant['grant_abstract']} PI: {grant['pi_name']} Methodologies: {', '.join(grant['methodologies'])}."
         embedding = generate_embedding(emb_text)

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Check, X, Shield, Zap, CreditCard } from 'lucide-react';
+import { Check, X, Shield, CreditCard, HelpCircle } from 'lucide-react';
 import GlassCard from './GlassCard';
 import { trackEvent } from '../utils/analytics';
 
@@ -8,12 +8,21 @@ interface PaywallModalProps {
   onClose: () => void;
 }
 
+const getTodayDateString = () => {
+  const dateObj = new Date();
+  return `${dateObj.getFullYear()}-${String(dateObj.getMonth() + 1).padStart(2, '0')}-${String(dateObj.getDate()).padStart(2, '0')}`;
+};
+
 export const PaywallModal: React.FC<PaywallModalProps> = ({ isOpen, onClose }) => {
   const [variant, setVariant] = useState<'subscription' | 'lifetime'>('subscription');
   const [isUpgraded, setIsUpgraded] = useState(false);
+  const [hasFeedbackToday, setHasFeedbackToday] = useState(false);
 
   useEffect(() => {
     if (!isOpen) return;
+
+    // Reset feedback submission state on reopen
+    setIsUpgraded(false);
 
     // Check if variant is already assigned, otherwise assign 50/50 randomly
     let activeVariant = localStorage.getItem('labmatch_ab_variant') as 'subscription' | 'lifetime' | null;
@@ -23,34 +32,34 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({ isOpen, onClose }) =
     }
     setVariant(activeVariant);
 
+    // Check if feedback was already provided today
+    const todayStr = getTodayDateString();
+    const storedFeedbackDate = localStorage.getItem('labmatch_feedback_date');
+    const hasFeedback = storedFeedbackDate === todayStr;
+    setHasFeedbackToday(hasFeedback);
+
     // Track modal view event
     trackEvent('paywall_view', 'dashboard', 'action', {
       variant: activeVariant,
-      price: activeVariant === 'subscription' ? '$4.99/mo' : '$4.99 one-time'
+      price: activeVariant === 'subscription' ? '$4.99/mo' : '$4.99 one-time',
+      already_has_feedback: hasFeedback
     });
   }, [isOpen]);
 
   if (!isOpen) return null;
 
   const priceText = variant === 'subscription' ? '$4.99/month' : '$4.99 one-time';
-  const ctaText = variant === 'subscription' ? 'Unlock Unlimited Swipes ($4.99/mo)' : 'Get Lifetime Access ($4.99 one-time)';
 
-  const handleUpgrade = () => {
-    // Log conversion event
-    trackEvent('paywall_upgrade_click', 'dashboard', 'action', {
+  const handleFeedback = (answer: 'yes' | 'no') => {
+    const todayStr = getTodayDateString();
+    localStorage.setItem('labmatch_feedback_date', todayStr);
+    localStorage.setItem('labmatch_pricing_feedback', answer);
+
+    trackEvent('paywall_feedback', 'dashboard', 'action', {
+      answer: answer,
       variant: variant,
       price: priceText
     });
-
-    // Google Ads Purchase Conversion Trigger
-    if (typeof window !== 'undefined' && (window as any).gtag) {
-      (window as any).gtag('event', 'conversion', {
-        'send_to': 'AW-18029844848/ZhTKCNTMkrwcEPCyppVD',
-        'value': 4.99,
-        'currency': 'USD',
-        'transaction_id': `tx_${Date.now()}`
-      });
-    }
 
     setIsUpgraded(true);
   };
@@ -78,7 +87,35 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({ isOpen, onClose }) =
           <X className="w-5 h-5" />
         </button>
 
-        {!isUpgraded ? (
+        {hasFeedbackToday ? (
+          <div className="space-y-6 py-4 text-center">
+            {/* Warning/Limit Icon */}
+            <div className="mx-auto w-16 h-16 rounded-full bg-amber-50 border border-amber-200 flex items-center justify-center">
+              <Shield className="w-8 h-8 text-amber-600 animate-pulse" />
+            </div>
+
+            {/* Limit Message */}
+            <div className="space-y-2">
+              <h3 className="text-3xl font-extrabold font-outfit text-stone-900 tracking-tight">
+                Daily Limit Reached (20/20)
+              </h3>
+              <p className="text-stone-600 text-sm max-w-sm mx-auto leading-relaxed">
+                You've used all 20 of your unlocked swipes for today. Since we are currently in invite-only private beta, we limit daily swipes to manage compute load.
+              </p>
+              <p className="text-stone-500 text-xs max-w-xs mx-auto leading-relaxed pt-2">
+                We've noted your pricing preference and marked your profile as an early adapter. We will email you the moment Stripe payments are activated!
+              </p>
+            </div>
+
+            {/* Back to Dashboard Button */}
+            <button
+              onClick={onClose}
+              className="w-full py-4 px-6 rounded-xl bg-[#1e3a4a] hover:bg-[#163040] text-white font-bold transition-all duration-200 cursor-pointer shadow-md hover:shadow-lg hover:shadow-[#1e3a4a]/10 text-center flex items-center justify-center gap-2 border-0"
+            >
+              Back to Dashboard
+            </button>
+          </div>
+        ) : !isUpgraded ? (
           <div className="space-y-6">
             {/* Header Badge */}
             <div className="flex justify-center">
@@ -93,7 +130,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({ isOpen, onClose }) =
                 Daily Swipe Limit Reached
               </h3>
               <p className="text-stone-500 text-sm max-w-sm mx-auto leading-relaxed">
-                Aligning student vectors with federal NIH & NSF grants takes serious compute power. Upgrade to unlock full research potential.
+                Aligning student vectors with federal NIH & NSF grants takes serious compute power. Give us feedback to unlock extra swipes today.
               </p>
             </div>
 
@@ -104,8 +141,8 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({ isOpen, onClose }) =
                   <Check className="w-3 h-3 text-stone-600" />
                 </div>
                 <div>
-                  <strong className="text-stone-900 font-semibold">Unlimited Swiping & Deck Restarts</strong>
-                  <p className="text-stone-500 text-xs">Swipe through hundreds of NIH & NSF grants across the country.</p>
+                  <strong className="text-stone-900 font-semibold">20 Swipes & Deck Restarts Today</strong>
+                  <p className="text-stone-500 text-xs">Explore more NIH & NSF grant matches across the country.</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
@@ -128,29 +165,41 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({ isOpen, onClose }) =
               </div>
             </div>
 
-            {/* Price Box */}
-            <div className="text-center py-4 bg-stone-50 border border-stone-200 rounded-2xl">
-              <span className="text-stone-500 text-xs font-semibold uppercase tracking-widest">
-                {variant === 'subscription' ? 'Subscription Rate' : 'One-Time Payment'}
-              </span>
-              <div className="text-4xl font-extrabold text-stone-900 mt-1 tracking-tight font-mono">
-                {priceText}
+            {/* Pricing Feedback Survey Box */}
+            <div className="space-y-4 py-5 px-6 bg-stone-50 border border-stone-200 rounded-2xl">
+              <div className="flex items-center gap-2 text-stone-700">
+                <HelpCircle className="w-5 h-5 text-[#0d5c5c] shrink-0" />
+                <span className="text-xs font-semibold uppercase tracking-wider text-stone-500">
+                  Quick feedback request
+                </span>
               </div>
-              <span className="text-stone-600 text-xs font-medium block mt-1">
-                🔒 Safe & secure sandbox validation
+              <p className="text-stone-800 text-sm font-semibold leading-relaxed">
+                {variant === 'subscription' 
+                  ? "Would you subscribe at $4.99/month for this service?" 
+                  : "Would you pay $4.99 one-time for this service?"}
+              </p>
+              
+              <div className="flex gap-3">
+                <button
+                  onClick={() => handleFeedback('yes')}
+                  className="flex-1 py-3.5 px-4 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold transition-all duration-200 cursor-pointer shadow-sm text-center flex items-center justify-center gap-1.5 border-0 hover:shadow-emerald-600/10 hover:shadow-md"
+                >
+                  Yes
+                </button>
+                <button
+                  onClick={() => handleFeedback('no')}
+                  className="flex-1 py-3.5 px-4 rounded-xl bg-stone-200 hover:bg-stone-300 text-stone-800 font-bold transition-all duration-200 cursor-pointer shadow-sm text-center flex items-center justify-center gap-1.5 border-0"
+                >
+                  No
+                </button>
+              </div>
+              <span className="text-[11px] text-stone-500 block text-center mt-1">
+                Answering unlocks <strong>20 swipes</strong> for today!
               </span>
             </div>
 
-            {/* Checkout / Conversion Call to Action */}
+            {/* Close / Keep Free button */}
             <div className="space-y-3">
-              <button
-                onClick={handleUpgrade}
-                className="w-full py-4 px-6 rounded-xl bg-[#1e3a4a] hover:bg-[#163040] text-white font-bold transition-all duration-200 cursor-pointer shadow-md hover:shadow-lg hover:shadow-[#1e3a4a]/10 text-center flex items-center justify-center gap-2 border-0"
-              >
-                <Zap className="w-5 h-5 fill-current" />
-                {ctaText}
-              </button>
-              
               <button
                 onClick={handleClose}
                 className="w-full py-3 px-6 rounded-xl bg-transparent border border-stone-200 hover:border-stone-300 text-stone-600 hover:text-stone-800 hover:bg-stone-50 transition-all text-sm font-semibold cursor-pointer text-center"
@@ -182,10 +231,10 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({ isOpen, onClose }) =
                 You're on the List!
               </h3>
               <p className="text-stone-600 text-sm max-w-sm mx-auto leading-relaxed">
-                Thank you for your interest in LabMatch Pro! Since we are currently in invite-only private beta, we won't charge you today.
+                Thank you for your interest and feedback on LabMatch Pro! Since we are currently in invite-only private beta, we won't charge you today.
               </p>
-              <p className="text-stone-500 text-xs max-w-xs mx-auto leading-relaxed pt-2">
-                We've noted your price preference ({priceText}) and marked your profile as an early adapter. We will email you the moment Stripe payments are activated!
+              <p className="text-stone-500 text-xs max-w-xs mx-auto leading-relaxed pt-2 font-semibold text-emerald-700">
+                🎉 Your 20 daily swipes have been unlocked for today! We've noted your pricing feedback.
               </p>
             </div>
 

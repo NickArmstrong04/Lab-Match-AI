@@ -73,7 +73,22 @@ export const Dashboard: React.FC<DashboardProps> = ({
     const stored = localStorage.getItem(key);
     return stored ? parseInt(stored, 10) : 0;
   });
+
+  const [hasFeedbackToday, setHasFeedbackToday] = useState<boolean>(() => {
+    const d = new Date();
+    const todayStr = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+    return localStorage.getItem('labmatch_feedback_date') === todayStr;
+  });
+
   const [showPaywall, setShowPaywall] = useState(false);
+
+  const handlePaywallClose = () => {
+    setShowPaywall(false);
+    // Refresh feedback status when paywall is closed
+    const d = new Date();
+    const todayStr = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+    setHasFeedbackToday(localStorage.getItem('labmatch_feedback_date') === todayStr);
+  };
 
   // Proximity filtering & search states
   const [localOnly, setLocalOnly] = useState(!!studentLocation);
@@ -154,7 +169,8 @@ export const Dashboard: React.FC<DashboardProps> = ({
   const handleSwipe = async (direction: 'left' | 'right') => {
     if (!currentMatch || inspectedMatch) return;
 
-    if (swipeCount >= 2) {
+    const limit = hasFeedbackToday ? 20 : 2;
+    if (swipeCount >= limit) {
       setShowPaywall(true);
       return;
     }
@@ -285,7 +301,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
 
   return (
     <div className="w-full max-w-7xl mx-auto px-4 py-6 animate-fade-in">
-      <PaywallModal isOpen={showPaywall} onClose={() => setShowPaywall(false)} />
+      <PaywallModal isOpen={showPaywall} onClose={handlePaywallClose} />
       <div className="flex flex-col lg:flex-row gap-8 min-h-0">
         
         {/* Left 25% Sidebar — locked height; saved list scrolls inside */}

@@ -1,0 +1,51 @@
+{
+  "hosting": {
+    "public": "frontend/dist",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "/auth/**",
+        "run": {
+          "serviceId": "labmatch-backend",
+          "region": "us-central1"
+        }
+      },
+      {
+        "source": "/profile/**",
+        "run": {
+          "serviceId": "labmatch-backend",
+          "region": "us-central1"
+        }
+      },
+      {
+        "source": "/grants/**",
+        "run": {
+          "serviceId": "labmatch-backend",
+          "region": "us-central1"
+        }
+      },
+      {
+        "source": "/agent/**",
+        "run": {
+          "serviceId": "labmatch-backend",
+          "region": "us-central1"
+        }
+      },
+      {
+        "source": "/analytics/**",
+        "run": {
+          "serviceId": "labmatch-backend",
+          "region": "us-central1"
+        }
+      },
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
