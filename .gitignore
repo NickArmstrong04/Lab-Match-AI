@@ -46,3 +46,10 @@ Thumbs.db
 .cache/
 .temp/
 tmp/
+
+# Firebase deploy cache
+.firebase/
+
+# Debug and test artifacts
+backend/screenshots_debug/
+backend/videos/
