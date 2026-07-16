@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { X, Heart, Mail, Building, Calendar, DollarSign, ArrowLeft, ArrowRight, Award, Trash2, RefreshCw } from 'lucide-react';
+import { X, Heart, Mail, Building, Calendar, DollarSign, ArrowLeft, ArrowRight, Award, Trash2, RefreshCw, ExternalLink } from 'lucide-react';
 import GlassCard from '../components/GlassCard';
 import CircularScore from '../components/CircularScore';
 import PaywallModal from '../components/PaywallModal';
@@ -9,7 +9,7 @@ import { trackEvent } from '../utils/analytics';
 export interface GrantMatch {
   id: string;
   pi_name: string;
-  pi_email: string;
+  pi_lookup_url: string;
   institution: string;
   department: string;
   title: string;
@@ -23,6 +23,7 @@ export interface GrantMatch {
   missing_skills: string[];
   recommended_role: string;
   location_match?: boolean;
+  abstract_is_generated?: boolean;
 }
 
 interface DashboardProps {
@@ -36,6 +37,7 @@ interface DashboardProps {
   setSavedMatches: React.Dispatch<React.SetStateAction<GrantMatch[]>>;
   skippedMatches: string[];
   setSkippedMatches: React.Dispatch<React.SetStateAction<string[]>>;
+  onRefineInterests: () => void;
 }
 
 export const Dashboard: React.FC<DashboardProps> = ({
@@ -48,6 +50,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
   setSavedMatches,
   skippedMatches,
   setSkippedMatches,
+  onRefineInterests,
 }) => {
   // We keep track of the matches deck fetched from the database
   const [deckMatches, setDeckMatches] = useState<GrantMatch[]>(matches);
@@ -118,6 +121,12 @@ export const Dashboard: React.FC<DashboardProps> = ({
   const [isSyncing, setIsSyncing] = useState(false);
   const [syncStatus, setSyncStatus] = useState<'idle' | 'success' | 'error'>('idle');
 
+  // Set when the backend reports the profile is missing (404), so we show a recoverable
+  // error instead of an empty deck that reads as "you've seen everything".
+  const [profileMissing, setProfileMissing] = useState(false);
+  // Bumped by Retry to re-run the deck fetch effect.
+  const [deckReloadKey, setDeckReloadKey] = useState(0);
+
   // Analytics: Track dashboard page view
   useEffect(() => {
     trackEvent('view_page', 'dashboard', 'page_view');
@@ -134,22 +143,27 @@ export const Dashboard: React.FC<DashboardProps> = ({
         );
         const fetchedMatches = response.data;
         if (fetchedMatches) {
+          setProfileMissing(false);
           setDeckMatches(fetchedMatches);
-          
+
           // Rebuild saved matches queue (saved or emailed statuses)
           const dbSaved = fetchedMatches.filter((m: any) => m.status === 'saved' || m.status === 'emailed');
           setSavedMatches(dbSaved);
-          
+
           // Rebuild skipped matches queue
           const dbSkipped = fetchedMatches.filter((m: any) => m.status === 'skipped').map((m: any) => m.id);
           setSkippedMatches(dbSkipped);
         }
-      } catch (err) {
+      } catch (err: any) {
         console.error("Failed to load active matches deck from API:", err);
+        if (err?.response?.status === 404) {
+          setProfileMissing(true);
+          setDeckMatches([]);
+        }
       }
     };
     fetchDeck();
-  }, [studentId, localOnly, locationSearch, setSavedMatches, setSkippedMatches]);
+  }, [studentId, localOnly, locationSearch, deckReloadKey, setSavedMatches, setSkippedMatches]);
 
   // Filter out skipped and saved matches from the deck, unless inspected
   const activeDeck = deckMatches.filter(
@@ -582,19 +596,38 @@ export const Dashboard: React.FC<DashboardProps> = ({
                     </div>
                     <div className="col-span-2 md:col-span-1 space-y-1">
                       <div className="text-stone-500 text-xs font-medium uppercase tracking-wider">
-                        PI Contact Endpoint
+                        PI Contact
                       </div>
-                      <div className="text-stone-700 font-mono text-xs truncate">
-                        {currentMatch.pi_email}
-                      </div>
+                      <a
+                        href={currentMatch.pi_lookup_url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        onMouseDown={(e) => e.stopPropagation()}
+                        className="text-[#0d5c5c] font-semibold text-xs inline-flex items-center gap-1 hover:underline"
+                      >
+                        Find PI Contact <ExternalLink className="w-3 h-3 shrink-0" />
+                      </a>
+                      <p className="text-stone-400 text-[10px] leading-snug">
+                        Verify the PI's email on their lab page before sending.
+                      </p>
                     </div>
                   </div>
 
                   {/* Abstract preview */}
                   <div className="space-y-2">
-                    <h4 className="text-xs font-semibold text-stone-500 uppercase tracking-widest">
-                      Grant Abstract & Project Synthesis
-                    </h4>
+                    <div className="flex items-center gap-2 flex-wrap">
+                      <h4 className="text-xs font-semibold text-stone-500 uppercase tracking-widest">
+                        Grant Abstract & Project Synthesis
+                      </h4>
+                      {currentMatch.abstract_is_generated && (
+                        <span
+                          className="px-2 py-0.5 rounded-full text-[10px] font-bold font-mono tracking-wide bg-amber-50 border border-amber-300 text-amber-800"
+                          title="The funding agency didn't publish a detailed abstract. This description was AI-generated from the grant title and metadata, and may be inaccurate."
+                        >
+                          AI-generated summary
+                        </span>
+                      )}
+                    </div>
                     <p className="text-stone-700 leading-relaxed text-sm">
                       {currentMatch.abstract}
                     </p>
@@ -649,6 +682,32 @@ export const Dashboard: React.FC<DashboardProps> = ({
                 </div>
               </GlassCard>
             </div>
+          ) : profileMissing ? (
+            <div className="flex-1 min-h-0">
+              <GlassCard className="h-full flex flex-col items-center justify-center text-center p-8 overflow-hidden" glowColor="teal">
+                <h2 className="text-3xl font-semibold font-outfit text-stone-900 mb-2">
+                  We couldn't load your profile
+                </h2>
+                <p className="text-stone-600 text-md max-w-md mx-auto leading-relaxed mb-6">
+                  Your profile couldn't be found, so we can't match you to labs yet. Retry, or
+                  rebuild your profile to get back to your matches.
+                </p>
+                <div className="flex items-center gap-4 justify-center">
+                  <button
+                    onClick={() => setDeckReloadKey((k) => k + 1)}
+                    className="px-5 py-2.5 rounded-lg bg-white border border-stone-300 text-stone-700 hover:text-stone-900 hover:border-stone-400 transition-colors text-sm font-semibold cursor-pointer flex items-center gap-2"
+                  >
+                    Retry
+                  </button>
+                  <button
+                    onClick={onRefineInterests}
+                    className="btn-primary px-6 py-2.5 text-sm font-bold flex items-center gap-2"
+                  >
+                    Rebuild My Profile ➔
+                  </button>
+                </div>
+              </GlassCard>
+            </div>
           ) : (
             <div className="flex-1 min-h-0">
             <GlassCard className="h-full flex flex-col items-center justify-center text-center p-8 overflow-hidden" glowColor="teal">
@@ -676,15 +735,23 @@ export const Dashboard: React.FC<DashboardProps> = ({
                     Explore Nationwide Labs ➔
                   </button>
                 ) : (
-                  <button
-                    onClick={() => {
-                      setSkippedMatches([]);
-                      setCurrentIndex(0);
-                    }}
-                    className="px-5 py-2.5 rounded-lg bg-white border border-stone-300 text-stone-700 hover:text-stone-900 hover:border-stone-400 transition-colors text-sm font-semibold cursor-pointer flex items-center gap-2"
-                  >
-                    <ArrowRight className="w-4 h-4 rotate-180" /> Reset Skipped Queue
-                  </button>
+                  <>
+                    <button
+                      onClick={() => {
+                        setSkippedMatches([]);
+                        setCurrentIndex(0);
+                      }}
+                      className="px-5 py-2.5 rounded-lg bg-white border border-stone-300 text-stone-700 hover:text-stone-900 hover:border-stone-400 transition-colors text-sm font-semibold cursor-pointer flex items-center gap-2"
+                    >
+                      <ArrowRight className="w-4 h-4 rotate-180" /> Reset Skipped Queue
+                    </button>
+                    <button
+                      onClick={onRefineInterests}
+                      className="btn-primary px-6 py-2.5 text-sm font-bold flex items-center gap-2"
+                    >
+                      Refine Interests ➔
+                    </button>
+                  </>
                 )}
               </div>
             </GlassCard>

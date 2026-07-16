@@ -9,6 +9,7 @@ import urllib.error
 import warnings
 
 from ..database import get_db, generate_embedding
+from .auth import scrub_student_record
 from ..config import settings
 
 router = APIRouter()
@@ -255,43 +256,26 @@ async def parse_resume(
                 raise db_err
         
         if hasattr(response, 'data') and response.data:
-            inserted_student = response.data[0]
-            if "embedding" in inserted_student:
-                del inserted_student["embedding"]
+            inserted_student = scrub_student_record(response.data[0])
             return {
                 "status": "success",
                 "student": inserted_student
             }
-        else:
-            return {
-                "status": "success",
-                "student": {
-                    "id": auth_id,
-                    "auth_id": auth_id,
-                    "name": name,
-                    "email": email,
-                    "resume_url": resume_url,
-                    "research_interests": interests,
-                    "location": location,
-                    "structured_competencies": structured_competencies,
-                    "domain_tags": domain_tags
-                }
-            }
+
+        # An upsert that returns no row wrote nothing. Handing back `auth_id` as if it
+        # were a real student id sends the student into a deck they can never load.
+        raise HTTPException(
+            status_code=502,
+            detail="Your profile couldn't be saved. Please try again."
+        )
+    except HTTPException:
+        raise
     except Exception as e:
-        return {
-            "status": "partial_success",
-            "message": f"Saved profile locally (Supabase write bypassed: {str(e)})",
-            "student": {
-                "id": auth_id,
-                "auth_id": auth_id,
-                "name": name,
-                "email": email,
-                "research_interests": interests,
-                "location": location,
-                "structured_competencies": structured_competencies,
-                "domain_tags": domain_tags
-            }
-        }
+        warnings.warn(f"Student profile write failed for {email}: {e}")
+        raise HTTPException(
+            status_code=502,
+            detail="Your profile couldn't be saved. Please try again."
+        )
 
 @router.post("/analyze")
 async def analyze_profile(
@@ -399,40 +383,24 @@ async def analyze_profile(
                 raise db_err
         
         if hasattr(response, 'data') and response.data:
-            inserted_student = response.data[0]
-            if "embedding" in inserted_student:
-                del inserted_student["embedding"]
+            inserted_student = scrub_student_record(response.data[0])
             return {
                 "status": "success",
                 "student": inserted_student
             }
-        else:
-            return {
-                "status": "success",
-                "student": {
-                    "id": auth_id,
-                    "auth_id": auth_id,
-                    "name": name,
-                    "email": email,
-                    "resume_url": resume_url,
-                    "research_interests": research_interests,
-                    "location": location,
-                    "structured_competencies": structured_competencies,
-                    "domain_tags": domain_tags
-                }
-            }
+
+        # No returned row means nothing was written. Previously this (and the exception
+        # path below) handed back `auth_id` as the student id with a success-ish status;
+        # the frontend accepted it, and every later deck load failed to find the student.
+        raise HTTPException(
+            status_code=502,
+            detail="Your profile couldn't be saved. Please try again."
+        )
+    except HTTPException:
+        raise
     except Exception as e:
-        return {
-            "status": "partial_success",
-            "message": f"Profile analyzed but database write failed: {str(e)}",
-            "student": {
-                "id": auth_id,
-                "auth_id": auth_id,
-                "name": name,
-                "email": email,
-                "research_interests": research_interests,
-                "location": location,
-                "structured_competencies": structured_competencies,
-                "domain_tags": domain_tags
-            }
-        }
+        warnings.warn(f"Student profile write failed for {email}: {e}")
+        raise HTTPException(
+            status_code=502,
+            detail="Your profile couldn't be saved. Please try again."
+        )
