@@ -158,17 +158,23 @@ def fetch_nih_grants(keyword: str, limit: int = 15, offset: int = 0) -> List[dic
     # Create keyword search term
     search_term = f'"{keyword}"'
     
+    # "abstracttext" is the field RePORTER v2 actually accepts. "abstract" is silently
+    # ignored: the API drops the criterion and returns the whole ~2.9M-project corpus,
+    # identically for every keyword. Verified 2026-07-16 — "CRISPR" and "coral reef" both
+    # returned total=2951995 with the same top results under "abstract", vs 23620 and 82
+    # on-topic results under "abstracttext".
+    #
+    # No sort_field, so RePORTER ranks by relevance to search_text. Sorting by
+    # project_start_date desc returned newest-first regardless of topical fit.
     payload = {
         "criteria": {
             "advanced_text_search": {
-                "search_field": "abstract",
+                "search_field": "abstracttext",
                 "search_text": search_term
             }
         },
         "limit": limit,
-        "offset": offset,
-        "sort_field": "project_start_date",
-        "sort_order": "desc"
+        "offset": offset
     }
     
     try:
@@ -703,6 +709,10 @@ def process_single_grant(grant: dict) -> Optional[dict]:
     if not title:
         return None
     try:
+        # Provenance: flips to True the moment the abstract text stops being
+        # verbatim federal API output (see abstract_is_generated migration).
+        abstract_is_generated = False
+
         # For USAspending grants, dynamically resolve PI name and abstract before embedding calculation
         if grant["funding_source"] in ["DOD", "DNR", "DOE", "EPA", "NASA", "USDA"]:
             print(f"    Resolving PI and abstract for {grant['funding_source']} grant: '{title[:40]}...' (Award ID: {grant.get('award_id')})")
@@ -712,6 +722,9 @@ def process_single_grant(grant: dict) -> Optional[dict]:
                 resolved_pi = "Dr. Unknown Investigator"
             grant["pi_name"] = resolved_pi
             grant["grant_abstract"] = resolved["grant_abstract"]
+            # USAspending provides no abstract; this text is LLM-mediated even
+            # when grounded in search results.
+            abstract_is_generated = True
             # Re-scan methodologies using the resolved abstract
             grant["methodologies"] = scan_methodologies(title, grant["grant_abstract"])
 
@@ -719,6 +732,8 @@ def process_single_grant(grant: dict) -> Optional[dict]:
         if is_brief_abstract(grant.get("grant_abstract", ""), title):
             print(f"    Abstract is brief/missing for '{title[:40]}...'. Expanding via Gemini...")
             expanded_abstract = expand_grant_abstract_via_llm(grant)
+            if expanded_abstract != grant.get("grant_abstract", ""):
+                abstract_is_generated = True
             grant["grant_abstract"] = expanded_abstract
             # Re-scan methodologies with the newly expanded abstract
             grant["methodologies"] = scan_methodologies(title, expanded_abstract)
@@ -740,7 +755,8 @@ def process_single_grant(grant: dict) -> Optional[dict]:
             "start_date": grant["start_date"],
             "end_date": grant["end_date"],
             "embedding": embedding,
-            "award_id": grant.get("award_id")
+            "award_id": grant.get("award_id"),
+            "abstract_is_generated": abstract_is_generated
         }
     except Exception as e:
         warnings.warn(f"Failed to process grant '{title[:40]}...': {e}")
