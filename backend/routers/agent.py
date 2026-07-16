@@ -1,22 +1,10 @@
-import io
-import uuid
 import json
-import base64
 import datetime
 import urllib.request
-import urllib.parse
 import warnings
 from typing import Optional
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
-from email.mime.multipart import MIMEMultipart
-from email.mime.text import MIMEText
-from email.mime.base import MIMEBase
-from email import encoders
-
-from google.oauth2.credentials import Credentials
-from google.auth.transport.requests import Request
-from googleapiclient.discovery import build
 
 from ..config import settings
 from ..database import get_db
@@ -73,7 +61,8 @@ def query_gemini_draft(
         "Draft a highly personal, 3-paragraph cold outreach email from the student to the PI.\n"
         "Paragraph 1: Direct personal introduction from the student and recognition of the PI's active grant, mentioning the title and department.\n"
         "Paragraph 2: Deep technical alignment connecting the student's competencies (skills) to specific methodologies or directions in the grant abstract.\n"
-        "Paragraph 3: Low-pressure call to action (Zoom chat/meeting) and mentioning that their CV resume is attached.\n\n"
+        "Paragraph 3: Low-pressure call to action (Zoom chat/meeting) and offering to send their CV/resume on request. "
+        "Do NOT claim a CV or any file is attached — no attachment is included with this email.\n\n"
         "Requirements:\n"
         "- Do NOT use generic placeholders or templates.\n"
         "- Tone must be respectful and scientifically engaged.\n"
@@ -140,7 +129,7 @@ def get_fallback_draft(
         f"with data analysis, laboratory processing, or software modeling under your supervision.\n\n"
         f"I would love the opportunity to learn more about your research goals and discuss how my skills could accelerate "
         f"your pipeline. Would you be open to a brief 10-minute Zoom call or a quick lab introduction next week? "
-        f"I have attached my full CV resume to this email for your convenience.\n\n"
+        f"I would be happy to send along my full CV.\n\n"
         f"Thank you for your time and outstanding contributions to scientific research.\n\n"
         f"Sincerely,\n\n"
         f"{student_name}"
@@ -208,7 +197,7 @@ async def draft_email(req: DraftEmailRequest):
                         f"factor shifts, which directly matches the computational research pipeline I want to assist with.\n\n"
                         f"I would love the opportunity to learn more about your research goals and discuss how my skills could accelerate "
                         f"your pipeline. Would you be open to a brief 10-minute Zoom call or a quick lab introduction next week? "
-                        f"I have attached my full CV resume to this email for your convenience.\n\n"
+                        f"I'd be happy to send along my full CV.\n\n"
                         f"Sincerely,\n\n"
                         f"Sarah Nguyen"
                     )

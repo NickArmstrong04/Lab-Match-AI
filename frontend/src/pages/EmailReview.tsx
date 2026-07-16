@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { ArrowLeft, Mail, AlertCircle, CheckCircle2, RefreshCw, Copy } from 'lucide-react';
+import { ArrowLeft, Mail, AlertCircle, CheckCircle2, RefreshCw, Copy, ExternalLink } from 'lucide-react';
 import GlassCard from '../components/GlassCard';
 import CircularScore from '../components/CircularScore';
 import { type GrantMatch } from './Dashboard';
@@ -11,7 +11,6 @@ interface EmailReviewProps {
   studentName: string;
   resumeName: string;
   studentId: string;
-  onSendComplete: (matchId: string, emailBody: string) => void;
   onCancel: () => void;
 }
 
@@ -22,14 +21,15 @@ export const EmailReview: React.FC<EmailReviewProps> = ({
   studentId,
   onCancel,
 }) => {
-  const [to, setTo] = useState(match.pi_email);
+  // Never pre-fill a guessed address — the user must find the PI's real email
+  // on the lab's own page (award APIs don't provide contact emails).
+  const [to, setTo] = useState('');
   const [subject, setSubject] = useState('');
   const [body, setBody] = useState('');
   const [isCopied, setIsCopied] = useState(false);
   
   // Dynamic API integration states
   const [isDrafting, setIsDrafting] = useState(true);
-  const [sendState, setSendState] = useState<'idle' | 'sending' | 'success' | 'error'>('idle');
 
   // Analytics: Track email review page view
   useEffect(() => {
@@ -66,7 +66,7 @@ I hope this email finds you well. My name is Sarah Nguyen, and I am a pre-med st
 
 Specifically, my research interests are highly optimized for your current methodologies. According to my parsed CV, I have hands-on experience in machine learning architectures, genomic analysis, and tumor cellular target engagement. I noticed your project leverages advanced deep learning models to map somatic cancer mutations and transcription factor shifts, which directly matches the computational research pipeline I want to assist with.
 
-I would love the opportunity to learn more about your research goals and discuss how my skills could accelerate your pipeline. Would you be open to a brief 10-minute Zoom call or a quick lab introduction next week? I have attached my full CV resume to this email for your convenience.
+I would love the opportunity to learn more about your research goals and discuss how my skills could accelerate your pipeline. Would you be open to a brief 10-minute Zoom call or a quick lab introduction next week? I'd be happy to send along my full CV.
 
 Sincerely,
 
@@ -87,7 +87,7 @@ I hope this email finds you well. My name is Elena Rostova, and I am a molecular
 
 Specifically, my research interests are highly optimized for your current methodologies. According to my parsed CV, I have hands-on experience in molecular cloning, CRISPR-Cas9 genome editing, mammalian cell transfection, and epigenetic assay profiling. I noticed your project leverages advanced CRISPR base editors to modify genomic loci in hematopoietic stem cells, which directly matches the molecular research pipeline I want to assist with.
 
-I would love the opportunity to learn more about your research goals and discuss how my skills could accelerate your pipeline. Would you be open to a brief 10-minute Zoom call or a quick lab introduction next week? I have attached my full CV resume to this email for your convenience.
+I would love the opportunity to learn more about your research goals and discuss how my skills could accelerate your pipeline. Would you be open to a brief 10-minute Zoom call or a quick lab introduction next week? I'd be happy to send along my full CV.
 
 Sincerely,
 
@@ -117,7 +117,7 @@ Elena Rostova`;
         
         const intro = `Dear Dr. ${match.pi_name.split(' ').pop()},\n\nI hope this email finds you well. My name is ${studentName}, and I am a student developer researching active labs. I recently analyzed your active ${match.agency} funded project, "${match.title}" (award amount $${match.award_amount.toLocaleString()}), and was immediately struck by the alignment between your lab's focus and my competencies.`;
         const center = `Specifically, my background is highly optimized for your current methodologies. According to my parsed CV (${resumeName}), I have demonstrated experience in ${match.matching_skills.join(', ')}. I noticed your project leverages research techniques in these exact sectors, making me an excellent fit to assist.`;
-        const outro = `I would love the opportunity to learn more about your research goals and discuss how my skills could accelerate your pipeline. Would you be open to a brief 10-minute Zoom call or a quick lab introduction next week? I've attached my full CV to this email.\n\nSincerely,\n\n${studentName}`;
+        const outro = `I would love the opportunity to learn more about your research goals and discuss how my skills could accelerate your pipeline. Would you be open to a brief 10-minute Zoom call or a quick lab introduction next week? I'd be happy to send along my full CV.\n\nSincerely,\n\n${studentName}`;
         const fallbackBody = `${intro}\n\n${center}\n\n${outro}`;
         setBody(fallbackBody);
       } finally {
@@ -138,8 +138,7 @@ Elena Rostova`;
       <div className="flex items-center justify-between mb-6">
         <button
           onClick={onCancel}
-          disabled={sendState === 'sending'}
-          className="flex items-center gap-1.5 p-0 border-0 bg-transparent text-xs font-semibold text-stone-600 transition-colors hover:text-blue-600 cursor-pointer disabled:opacity-50 disabled:pointer-events-none"
+          className="flex items-center gap-1.5 p-0 border-0 bg-transparent text-xs font-semibold text-stone-600 transition-colors hover:text-blue-600 cursor-pointer"
         >
           <ArrowLeft className="w-4 h-4" /> Return to Dashboard
         </button>
@@ -180,9 +179,19 @@ Elena Rostova`;
 
             {/* Methodology Focus */}
             <div className="space-y-3">
-              <h4 className="text-xs font-semibold text-stone-500 uppercase tracking-widest">
-                Key Project Methodologies
-              </h4>
+              <div className="flex items-center gap-2 flex-wrap">
+                <h4 className="text-xs font-semibold text-stone-500 uppercase tracking-widest">
+                  Key Project Methodologies
+                </h4>
+                {match.abstract_is_generated && (
+                  <span
+                    className="px-2 py-0.5 rounded-full text-[10px] font-bold font-mono tracking-wide bg-amber-50 border border-amber-300 text-amber-800"
+                    title="The funding agency didn't publish a detailed abstract. This description was AI-generated from the grant title and metadata, and may be inaccurate."
+                  >
+                    AI-generated summary
+                  </span>
+                )}
+              </div>
               <p className="text-stone-700 text-sm leading-relaxed h-44 overflow-y-auto pr-1">
                 {match.abstract}
               </p>
@@ -195,7 +204,7 @@ Elena Rostova`;
           </div>
         </GlassCard>
 
-        {/* Right Pane (50%) - Gmail Composer Workspace */}
+        {/* Right Pane (50%) - Pitch composer workspace */}
         <GlassCard className="relative overflow-hidden min-h-[550px] h-full flex flex-col justify-between" glowColor="none">
           {isDrafting ? (
             <div className="flex-1 min-h-0 flex flex-col justify-center items-center py-20 space-y-6 text-center animate-pulse">
@@ -225,13 +234,22 @@ Elena Rostova`;
 
               {/* To & Subject Inputs */}
               <div className="space-y-3 text-sm">
+                <a
+                  href={match.pi_lookup_url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[#0d5c5c] font-semibold text-xs inline-flex items-center gap-1 hover:underline"
+                >
+                  Find {match.pi_name}'s email on their lab page <ExternalLink className="w-3 h-3 shrink-0" />
+                </a>
                 <div className="flex items-center gap-3 bg-stone-50 border border-stone-200 px-3.5 py-2.5 rounded-lg">
                   <span className="text-stone-500 font-semibold w-12 text-right font-mono text-xs">To:</span>
                   <input
                     type="email"
                     value={to}
                     onChange={(e) => setTo(e.target.value)}
-                    className="bg-transparent border-none text-stone-800 focus:outline-none flex-1 font-mono text-xs"
+                    placeholder="Paste the PI's email from their lab page"
+                    className="bg-transparent border-none text-stone-800 focus:outline-none flex-1 font-mono text-xs placeholder-stone-400"
                   />
                 </div>
                 <div className="flex items-center gap-3 bg-stone-50 border border-stone-200 px-3.5 py-2.5 rounded-lg">
@@ -278,54 +296,6 @@ Elena Rostova`;
             </div>
           )}
 
-          {/* Handshake Verification and Dispatching Overlays */}
-          {sendState !== 'idle' && (
-            <div className="absolute inset-0 bg-white/95 backdrop-blur-sm flex flex-col items-center justify-center p-6 text-center animate-fade-in z-50">
-              
-              {sendState === 'sending' && (
-                <div className="space-y-5">
-                  <div className="w-12 h-12 border-2 border-t-[#1e3a4a] border-r-transparent border-stone-200 rounded-full animate-spin mx-auto" />
-                  <div className="space-y-1">
-                    <p className="text-stone-900 font-semibold text-sm">Recording Outreach Status...</p>
-                    <p className="text-stone-600 text-xs">Updating matching database • Launching local mail client</p>
-                  </div>
-                  <p className="text-[#0d5c5c] text-[10px] font-mono tracking-wider uppercase">LabMatch AI Gateway</p>
-                </div>
-              )}
-
-              {sendState === 'success' && (
-                <div className="space-y-4 max-w-sm">
-                  <div className="w-14 h-14 rounded-full bg-[#e6f0f0] border border-[#c5dddd] flex items-center justify-center mx-auto">
-                    <CheckCircle2 className="w-8 h-8 text-[#0d5c5c]" />
-                  </div>
-                  <h3 className="text-xl font-semibold font-outfit text-stone-900">Outreach Logged!</h3>
-                  <p className="text-stone-600 text-xs leading-relaxed">
-                    Your outreach log has been recorded, and your local email client was initiated. Matches state synced to <strong className="text-stone-800">"emailed"</strong>.
-                  </p>
-                </div>
-              )}
-
-              {sendState === 'error' && (
-                <div className="space-y-4 max-w-sm">
-                  <div className="w-14 h-14 rounded-full bg-rose-50 border border-rose-200 flex items-center justify-center mx-auto">
-                    <AlertCircle className="w-8 h-8 text-rose-700" />
-                  </div>
-                  <h3 className="text-xl font-semibold font-outfit text-stone-900">Logging Failed</h3>
-                  <p className="text-stone-600 text-xs leading-relaxed">
-                    The server returned an unexpected error logging this outreach.
-                  </p>
-                  <div className="flex gap-2 justify-center mt-2">
-                    <button
-                      onClick={() => setSendState('idle')}
-                      className="px-4 py-1.5 rounded-lg bg-white border border-stone-300 text-stone-700 hover:text-stone-900 transition-all text-xs font-semibold"
-                    >
-                      Modify Email & Retry
-                    </button>
-                  </div>
-                </div>
-              )}
-            </div>
-          )}
         </GlassCard>
       </div>
     </div>

@@ -212,7 +212,9 @@ async def parse_resume(
         "location": location
     }
     domain_tags = profile_data.get("domain_tags", [])
-    resume_url = f"https://example.com/resumes/{auth_id}_resume.pdf" if file else None
+    # Presence marker only -- the CV is never stored, so there is no URL to serve.
+    # See the matching note in analyze_profile below.
+    resume_url = file.filename if file else None
 
     # 3. Construct text representation and generate embedding vector
     profile_text = (
@@ -335,8 +337,12 @@ async def analyze_profile(
     }
     domain_tags = profile_data.get("domain_tags", [])
     
-    # Elegant resume_url generation (matches parse-resume legacy URL)
-    resume_url = f"https://example.com/resumes/{auth_id}_resume.pdf"
+    # Presence marker only: the CV is parsed and discarded, never stored, so there is
+    # no URL to hand out. We record the uploaded filename (a true fact) instead of a
+    # fabricated example.com link to a file that does not exist. Only set when a file
+    # was actually uploaded -- this used to be populated unconditionally, so students
+    # who never uploaded a CV still showed "Saved Resume" in the UI.
+    resume_url = file.filename if file else None
 
     # 3. Build profile text for high-fidelity vector matching
     profile_text = (

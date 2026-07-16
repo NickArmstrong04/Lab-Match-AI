@@ -396,13 +396,13 @@ export const AnalyticsDashboard: React.FC<AnalyticsDashboardProps> = ({ onViewBa
               </div>
             </GlassCard>
 
-            {/* Outreach Dispatched */}
+            {/* Pitches copied — the app has no send mechanism; the student sends from their own client */}
             <GlassCard className="p-5 flex items-center justify-between group hover:scale-[1.01] transition-transform duration-200" glowColor="none">
               <div className="space-y-1.5">
-                <span className="text-stone-500 text-xs font-semibold uppercase tracking-wider block">Outreach Sent</span>
+                <span className="text-stone-500 text-xs font-semibold uppercase tracking-wider block">Pitches Copied</span>
                 <span className="text-3xl font-bold font-outfit text-stone-900 block font-mono">{metrics.emails_sent}</span>
                 <span className="text-xs text-stone-500">
-                  Gmail dispatches completed
+                  Pitches copied / marked sent
                 </span>
               </div>
               <div className="w-12 h-12 rounded-xl bg-teal-50 border border-teal-100 flex items-center justify-center text-teal-600 group-hover:scale-105 transition-transform">
