@@ -39,7 +39,8 @@ def process_grant_backfill(db, grant: dict) -> Optional[dict]:
             "id": grant_id,
             "grant_abstract": expanded_abstract,
             "methodologies": methodologies,
-            "embedding": embedding
+            "embedding": embedding,
+            "abstract_is_generated": True
         }
     except Exception as e:
         print(f"  ❌ Error expanding grant {grant_id[:8]}: {e}")
@@ -82,7 +83,8 @@ def run_backfill():
                                 db.table("labs_cached_grants").update({
                                     "grant_abstract": res_update["grant_abstract"],
                                     "methodologies": res_update["methodologies"],
-                                    "embedding": res_update["embedding"]
+                                    "embedding": res_update["embedding"],
+                                    "abstract_is_generated": res_update["abstract_is_generated"]
                                 }).eq("id", res_update["id"]).execute()
                                 total_updated += 1
                                 print(f"  ✅ Updated record {res_update['id'][:8]} in database.")

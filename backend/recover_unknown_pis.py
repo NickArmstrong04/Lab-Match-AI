@@ -214,7 +214,10 @@ def run_recovery():
                             "grant_abstract": res["grant_abstract"],
                             "methodologies": res["methodologies"],
                             "embedding": res["embedding"],
-                            "award_id": res["award_id"]
+                            "award_id": res["award_id"],
+                            # Abstract came from Gemini search-grounding, not verbatim
+                            # federal text, so it must carry the provenance flag.
+                            "abstract_is_generated": True
                         }).eq("id", grant_id).execute()
                         success_count += 1
                         print(f"  [UPDATED] Record {grant_id[:8]}... -> PI: {res['pi_name']} (Award ID: {res['award_id']})")

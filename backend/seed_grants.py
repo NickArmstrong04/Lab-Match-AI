@@ -59,6 +59,11 @@ def seed():
     ]
 
     for grant in sample_grants:
+        # These labs are fictional and their abstracts were hand-written, not taken
+        # verbatim from NIH/NSF, so they must carry the provenance flag rather than
+        # pose as federal text. See migration 20260716000006.
+        grant["abstract_is_generated"] = True
+
         # Build text string to calculate embedding
         text_representation = f"PI: {grant['pi_name']}. Title: {grant['grant_title']}. Abstract: {grant['grant_abstract']}. Methodologies: {', '.join(grant['methodologies'])}."
         grant["embedding"] = generate_embedding(text_representation)
