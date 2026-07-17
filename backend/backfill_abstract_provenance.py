@@ -109,14 +109,16 @@ def fetch_reporter_abstract(title: str) -> Optional[str]:
     return None
 
 
-def run(apply_changes: bool) -> None:
+def run(apply_changes: bool, max_rows: Optional[int] = None) -> None:
     db = get_db()
     limit, offset = 200, 0
     generated = verbatim = undecided = 0
     undecided_titles = []
+    scanned = 0
 
     mode = "APPLY" if apply_changes else "DRY RUN (no writes)"
-    print(f"Backfilling abstract_is_generated for NIH rows -- {mode}\n")
+    cap = f", sampling first {max_rows} rows" if max_rows else ""
+    print(f"Backfilling abstract_is_generated for NIH rows -- {mode}{cap}\n")
 
     while True:
         try:
@@ -137,6 +139,9 @@ def run(apply_changes: bool) -> None:
             break
 
         for grant in batch:
+            if max_rows is not None and scanned >= max_rows:
+                break
+            scanned += 1
             title = grant.get("grant_title") or ""
             stored = grant.get("grant_abstract") or ""
             federal = fetch_reporter_abstract(title)
@@ -162,6 +167,8 @@ def run(apply_changes: bool) -> None:
                 except Exception as e:
                     print(f"    [ERROR] update failed for {grant['id'][:8]}: {e}")
 
+        if max_rows is not None and scanned >= max_rows:
+            break
         if len(batch) < limit:
             break
         offset += limit
@@ -185,4 +192,7 @@ def run(apply_changes: bool) -> None:
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--apply", action="store_true", help="Write updates (default: report only)")
-    run(parser.parse_args().apply)
+    parser.add_argument("--limit", type=int, default=None,
+                        help="Only examine the first N rows (sampling; the full run is ~2.5k rows)")
+    args = parser.parse_args()
+    run(args.apply, args.limit)
