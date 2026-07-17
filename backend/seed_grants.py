@@ -1,3 +1,25 @@
+"""
+Seeds three FICTIONAL demo labs into labs_cached_grants.
+
+These labs do not exist. Dr. Sarah Jenkins, Dr. Chen Wei and Dr. James Fletcher are
+invented, and their award numbers, amounts and dates are made up. They are tagged
+NIH/NSF and land in the same table as genuine federal awards, so once seeded they
+are indistinguishable to the matcher and can be matched, saved, and cold-emailed by
+a real student -- who would be writing to a person who does not exist.
+
+That already happened once: all three were live in production from 2026-05-26 until
+2026-07-17 and were matched (and skipped) by a real students row. They were deleted
+on 2026-07-17.
+
+The demo personas do NOT need these rows. Sarah's and Elena's decks are served from
+_demo_decks() in routers/grants.py, keyed on their own hardcoded UUIDs, and never
+read this table.
+
+So this script now refuses to run without --apply, and should only ever be pointed at
+a scratch database. If you are considering seeding these into the corpus that real
+students match against: don't.
+"""
+import argparse
 import sys
 import os
 
@@ -6,8 +28,14 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from backend.database import get_db, generate_embedding
 
-def seed():
-    print("Connecting to Supabase and seeding database with high-quality research grants...")
+def seed(apply_changes: bool = False):
+    if not apply_changes:
+        print(__doc__)
+        print("Refusing to seed fictional labs without --apply. No changes made.")
+        return
+
+    print("[WARNING] Seeding three FICTIONAL labs into labs_cached_grants.")
+    print("[WARNING] Never do this against the database real students match against.\n")
     try:
         db = get_db()
     except Exception as e:
@@ -82,4 +110,6 @@ def seed():
             print(f"[ERROR] Failed to seed '{grant['grant_title']}': {e}")
 
 if __name__ == "__main__":
-    seed()
+    parser = argparse.ArgumentParser(description="Seed fictional demo labs (scratch databases only).")
+    parser.add_argument("--apply", action="store_true", help="Actually insert the fictional labs")
+    seed(parser.parse_args().apply)
