@@ -24,6 +24,8 @@ class SendEmailRequest(BaseModel):
     subject: str
     body: str
     match_id: Optional[str] = None
+    # The address the STUDENT pasted from the PI's lab page. Never constructed by us.
+    pi_email: Optional[str] = None
 
 
 def query_gemini_draft(
@@ -296,6 +298,7 @@ async def send_email(
                             "match_score": None,
                             "status": "emailed",
                             "compatibility_tags": ["Manual Inquired"],
+                            "pi_email": (req.pi_email or "").strip() or None,
                         }
                     )
                     .execute()
@@ -308,7 +311,11 @@ async def send_email(
                 match_id = new_match.data[0]["id"]
 
         # Flip to emailed, preserving the real score already stored at swipe time.
-        db.table("matches").update({"status": "emailed"}).eq("id", match_id).execute()
+        # Keep the PI address the student found, so a follow-up needn't repeat the lookup.
+        match_update = {"status": "emailed"}
+        if (req.pi_email or "").strip():
+            match_update["pi_email"] = req.pi_email.strip()
+        db.table("matches").update(match_update).eq("id", match_id).execute()
 
         db.table("outreach_logs").insert(
             {

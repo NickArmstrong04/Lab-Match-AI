@@ -134,10 +134,20 @@ def clamp_score(value) -> Optional[int]:
 
 def fetch_existing_match_statuses(db, student_id: str) -> dict:
     """Map of grant_id -> swipe status for this student, empty if the lookup fails."""
+    return {g: row.get("status") for g, row in fetch_existing_match_rows(db, student_id).items()}
+
+
+def fetch_existing_match_rows(db, student_id: str) -> dict:
+    """Map of grant_id -> the student's match row (status, pi_email)."""
     try:
-        matches_resp = db.table("matches").select("grant_id, status").eq("student_id", student_id).execute()
+        matches_resp = (
+            db.table("matches")
+            .select("grant_id, status, pi_email")
+            .eq("student_id", student_id)
+            .execute()
+        )
         if hasattr(matches_resp, 'data') and matches_resp.data:
-            return {m.get("grant_id"): m.get("status") for m in matches_resp.data}
+            return {m.get("grant_id"): m for m in matches_resp.data}
     except Exception as e:
         warnings.warn(f"Failed to retrieve existing matches for student {student_id}: {e}")
     return {}
@@ -305,6 +315,8 @@ def format_saved_card(grant: dict, match: dict, student_skills: List[str], stude
         "methodologies": methodologies,
         "recommended_role": (grant.get("department") or "Research Assistant"),
         "status": match.get("status"),
+        # What the student pasted, if they already found it. Never generated.
+        "pi_email": match.get("pi_email"),
         "location_match": location_match,
     }
 
@@ -336,7 +348,7 @@ async def get_saved_matches(
 
         matches_resp = (
             db.table("matches")
-            .select("grant_id, status, match_score")
+            .select("grant_id, status, match_score, pi_email")
             .eq("student_id", student_id)
             .in_("status", ["saved", "emailed"])
             .execute()
@@ -605,7 +617,8 @@ async def get_matches(
         student_loc = student.get("location") or structured_comp.get("location")
         
         # Fetch existing match statuses from DB for this student
-        existing_matches = fetch_existing_match_statuses(db, student_id)
+        existing_match_rows = fetch_existing_match_rows(db, student_id)
+        existing_matches = {g: r.get("status") for g, r in existing_match_rows.items()}
 
         # 2. Match based on selected method
         if method == "keyword":
@@ -703,6 +716,9 @@ async def get_matches(
                     "methodologies": methodologies,
                     "recommended_role": recommended_role,
                     "status": existing_matches.get(g_id),
+                    # The student's own pasted address, if they already found it.
+                    # Never generated -- see build_pi_lookup_url.
+                    "pi_email": (existing_match_rows.get(g_id) or {}).get("pi_email"),
                     "location_match": location_match
                 })
             
@@ -838,6 +854,9 @@ async def get_matches(
                     "methodologies": methodologies,
                     "recommended_role": recommended_role,
                     "status": existing_matches.get(g_id),
+                    # The student's own pasted address, if they already found it.
+                    # Never generated -- see build_pi_lookup_url.
+                    "pi_email": (existing_match_rows.get(g_id) or {}).get("pi_email"),
                     "location_match": location_match
                 })
                 
@@ -851,6 +870,59 @@ async def get_matches(
         raise
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Matchmaker scoring failed: {str(e)}")
+
+class PiEmailRequest(BaseModel):
+    student_id: str
+    grant_id: str
+    pi_email: str
+
+
+@router.post("/matches/pi-email")
+async def save_pi_email(
+    req: PiEmailRequest,
+    caller_id: Optional[str] = Depends(get_optional_student_id)
+):
+    """
+    Remember the PI address this student found, so a follow-up doesn't repeat the lookup.
+
+    The composer forces the student's hardest manual step -- leave the app, find the PI's
+    lab page, copy the address -- and then threw the result away. This keeps it.
+
+    Stores ONLY what the student typed. We never construct PI emails: the award APIs
+    don't publish them and a guess sends a student's cold email to a stranger.
+
+    Updates an existing match row only. It deliberately does NOT create one: drafting is
+    not saving, and a paste should not silently add a lab to someone's pipeline. If they
+    mark it as sent, /agent/send-email creates the row and stores the address then.
+    """
+    validate_uuid(req.student_id, "student_id")
+    validate_uuid(req.grant_id, "grant_id")
+    authorize_student(req.student_id, caller_id)
+
+    if req.student_id in _demo_decks():
+        return {"status": "success", "stored": False}
+
+    try:
+        db = get_db()
+        existing = (
+            db.table("matches")
+            .select("id")
+            .eq("student_id", req.student_id)
+            .eq("grant_id", req.grant_id)
+            .execute()
+        )
+        if not getattr(existing, "data", None):
+            return {"status": "success", "stored": False}
+
+        db.table("matches").update({"pi_email": (req.pi_email or "").strip() or None}).eq(
+            "id", existing.data[0]["id"]
+        ).execute()
+        return {"status": "success", "stored": True}
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to save the PI email: {str(e)}")
+
 
 class ResetSkippedRequest(BaseModel):
     student_id: str

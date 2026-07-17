@@ -21,9 +21,11 @@ export const EmailReview: React.FC<EmailReviewProps> = ({
   studentId,
   onCancel,
 }) => {
-  // Never pre-fill a guessed address — the user must find the PI's real email
-  // on the lab's own page (award APIs don't provide contact emails).
-  const [to, setTo] = useState('');
+  // Never pre-fill a GUESSED address — the user must find the PI's real email on the
+  // lab's own page (award APIs don't provide contact emails). Pre-filling what THIS
+  // student already pasted for THIS grant is different: it's their own verified find,
+  // not our invention, and it saves them repeating the lookup for a follow-up.
+  const [to, setTo] = useState(match.pi_email || '');
   const [subject, setSubject] = useState('');
   const [body, setBody] = useState('');
   const [isCopied, setIsCopied] = useState(false);
@@ -42,6 +44,46 @@ export const EmailReview: React.FC<EmailReviewProps> = ({
   useEffect(() => {
     trackEvent('view_page', 'email_review', 'page_view');
   }, []);
+
+  // A deliberately loose check: enough to avoid building a mailto: from obvious junk,
+  // but we do not police what the student found on the lab page.
+  const looksLikeEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(to.trim());
+
+  /** Remember the address so a follow-up doesn't repeat the lab-page lookup. */
+  const persistPiEmail = async () => {
+    const trimmed = to.trim();
+    if (!trimmed || !looksLikeEmail || trimmed === match.pi_email) return;
+    try {
+      await api.post('/grants/matches/pi-email', {
+        student_id: studentId,
+        grant_id: match.id,
+        pi_email: trimmed,
+      });
+    } catch (err) {
+      // Non-fatal: they can still send. Losing the convenience beats blocking outreach.
+      console.error('Failed to save the PI email:', err);
+    }
+  };
+
+  const mailtoHref = () => {
+    const params = new URLSearchParams({ subject, body });
+    return `mailto:${encodeURIComponent(to.trim())}?${params.toString()}`;
+  };
+
+  const gmailHref = () => {
+    const params = new URLSearchParams({ view: 'cm', fs: '1', to: to.trim(), su: subject, body });
+    return `https://mail.google.com/mail/?${params.toString()}`;
+  };
+
+  const handleHandoff = (target: 'mailto' | 'gmail') => {
+    persistPiEmail();
+    trackEvent('outreach_handoff', 'email_review', 'action', {
+      grant_id: match.id,
+      target,
+    });
+    // The student has taken the pitch somewhere, so offer the mark-as-sent confirm.
+    setHasCopied(true);
+  };
 
   const handleCopyToClipboard = async () => {
     const fullText = `Subject: ${subject}\n\n${body}`;
@@ -89,6 +131,8 @@ export const EmailReview: React.FC<EmailReviewProps> = ({
         grant_id: match.id,
         subject,
         body,
+        // Carry the address they found, so the follow-up flow has it.
+        pi_email: to.trim() || null,
       });
       setIsMarkedSent(true);
       trackEvent('outreach_marked_sent', 'email_review', 'action', {
@@ -303,6 +347,7 @@ Elena Rostova`;
                     type="email"
                     value={to}
                     onChange={(e) => setTo(e.target.value)}
+                    onBlur={persistPiEmail}
                     placeholder="Paste the PI's email from their lab page"
                     className="bg-transparent border-none text-stone-800 focus:outline-none flex-1 font-mono text-xs placeholder-stone-400"
                   />
@@ -325,6 +370,45 @@ Elena Rostova`;
                   onChange={(e) => setBody(e.target.value)}
                   className="w-full flex-1 min-h-[280px] input-field text-xs resize-none leading-relaxed"
                 />
+              </div>
+
+              {/* Hand the pitch to the student's own mail client, pre-addressed.
+                  Copy Pitch alone copied "Subject: ...\n\n{body}" and dropped the To
+                  address entirely, leaving them to paste it a second time by hand. */}
+              <div className="flex items-center gap-2 flex-wrap">
+                <a
+                  href={looksLikeEmail ? mailtoHref() : undefined}
+                  onClick={() => looksLikeEmail && handleHandoff('mailto')}
+                  aria-disabled={!looksLikeEmail}
+                  className={`px-3.5 py-2 rounded-lg text-xs font-semibold inline-flex items-center gap-1.5 border transition-colors ${
+                    looksLikeEmail
+                      ? 'bg-white border-stone-300 text-stone-700 hover:text-stone-900 hover:border-stone-400 cursor-pointer'
+                      : 'bg-stone-50 border-stone-200 text-stone-400 cursor-not-allowed pointer-events-none'
+                  }`}
+                  title={looksLikeEmail ? 'Open in your default email app' : "Add the PI's email above first"}
+                >
+                  <Mail className="w-3.5 h-3.5 shrink-0" /> Open in my email app
+                </a>
+                <a
+                  href={looksLikeEmail ? gmailHref() : undefined}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={() => looksLikeEmail && handleHandoff('gmail')}
+                  aria-disabled={!looksLikeEmail}
+                  className={`px-3.5 py-2 rounded-lg text-xs font-semibold inline-flex items-center gap-1.5 border transition-colors ${
+                    looksLikeEmail
+                      ? 'bg-white border-stone-300 text-stone-700 hover:text-stone-900 hover:border-stone-400 cursor-pointer'
+                      : 'bg-stone-50 border-stone-200 text-stone-400 cursor-not-allowed pointer-events-none'
+                  }`}
+                  title={looksLikeEmail ? 'Open a Gmail compose window' : "Add the PI's email above first"}
+                >
+                  <ExternalLink className="w-3.5 h-3.5 shrink-0" /> Open in Gmail
+                </a>
+                {!looksLikeEmail && (
+                  <span className="text-[11px] text-stone-500">
+                    Add the PI's email above to send directly.
+                  </span>
+                )}
               </div>
 
               {/* Clipboard permission denied — the pitch is still in the textarea above */}
