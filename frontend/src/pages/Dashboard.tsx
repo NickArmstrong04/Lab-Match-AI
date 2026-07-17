@@ -24,6 +24,9 @@ export interface GrantMatch {
   recommended_role: string;
   location_match?: boolean;
   abstract_is_generated?: boolean;
+  // Swipe state from the matches table. The backend has always returned this; it was
+  // just undeclared, so callers cast to `any` to read it.
+  status?: 'saved' | 'skipped' | 'emailed' | null;
 }
 
 interface DashboardProps {
@@ -371,11 +374,24 @@ export const Dashboard: React.FC<DashboardProps> = ({
                         `}
                       >
                         <div className="min-w-0">
-                          <span className={`inline-block text-[9px] px-2 py-0.5 rounded-full font-bold font-mono tracking-wide uppercase mb-1.5
-                            ${m.agency === 'NIH' ? 'bg-blue-50 text-blue-800 border border-blue-200' : 'bg-emerald-50 text-emerald-800 border border-emerald-200'}
-                          `}>
-                            {m.agency} • {m.score}%
-                          </span>
+                          <div className="flex items-center gap-1.5 mb-1.5 flex-wrap">
+                            <span className={`inline-block text-[9px] px-2 py-0.5 rounded-full font-bold font-mono tracking-wide uppercase
+                              ${m.agency === 'NIH' ? 'bg-blue-50 text-blue-800 border border-blue-200' : 'bg-emerald-50 text-emerald-800 border border-emerald-200'}
+                            `}>
+                              {m.agency} • {m.score}%
+                            </span>
+                            {/* Until Copy Pitch was wired to send-email, no match ever
+                                reached 'emailed', so the sidebar couldn't tell a lab the
+                                student had contacted from one they'd merely saved. */}
+                            {m.status === 'emailed' && (
+                              <span
+                                className="inline-flex items-center gap-1 text-[9px] px-2 py-0.5 rounded-full font-bold font-mono tracking-wide uppercase bg-[#e6f0f0] text-[#0d5c5c] border border-[#c5dddd]"
+                                title="You marked this lab as reached out"
+                              >
+                                <Mail className="w-2.5 h-2.5 shrink-0" /> Contacted
+                              </span>
+                            )}
+                          </div>
                           <h4 className="text-stone-800 text-sm font-semibold truncate group-hover:text-stone-900 transition-colors">
                             {m.pi_name}
                           </h4>

@@ -27,30 +27,82 @@ export const EmailReview: React.FC<EmailReviewProps> = ({
   const [subject, setSubject] = useState('');
   const [body, setBody] = useState('');
   const [isCopied, setIsCopied] = useState(false);
-  
+  const [copyFailed, setCopyFailed] = useState(false);
+
   // Dynamic API integration states
   const [isDrafting, setIsDrafting] = useState(true);
+
+  // Mark-as-sent: the only way outreach ever reaches the database.
+  const [hasCopied, setHasCopied] = useState(false);
+  const [isMarkingSent, setIsMarkingSent] = useState(false);
+  const [isMarkedSent, setIsMarkedSent] = useState(false);
+  const [markError, setMarkError] = useState('');
 
   // Analytics: Track email review page view
   useEffect(() => {
     trackEvent('view_page', 'email_review', 'page_view');
   }, []);
 
-  const handleCopyToClipboard = () => {
+  const handleCopyToClipboard = async () => {
     const fullText = `Subject: ${subject}\n\n${body}`;
-    navigator.clipboard.writeText(fullText);
-    setIsCopied(true);
-    
+    try {
+      // Awaited: this used to be fire-and-forget, so a permission denial still showed
+      // "Pitch Copied!" while the clipboard held nothing and the student pasted an
+      // empty email -- or lost the pitch they had just edited.
+      await navigator.clipboard.writeText(fullText);
+      setCopyFailed(false);
+      setIsCopied(true);
+      setHasCopied(true);
+      setTimeout(() => setIsCopied(false), 2000);
+    } catch {
+      setCopyFailed(true);
+      // Still reveal the confirm: they can select the text manually and send it.
+      setHasCopied(true);
+    }
+
     // Telemetry: track pitch copy event
     trackEvent('email_copied', 'email_review', 'action', {
       grant_id: match.id,
       pi_name: match.pi_name,
       institution: match.institution
     });
+  };
 
-    setTimeout(() => {
-      setIsCopied(false);
-    }, 2000);
+  /**
+   * Record that the student actually reached out.
+   *
+   * POST /agent/send-email has existed all along with zero callers, so outreach_logs
+   * was empty in production, no match ever reached 'emailed', the sidebar couldn't
+   * distinguish "contacted" from "saved", and the analytics funnel's final stage sat
+   * at 0% forever. This is the call that closes that loop.
+   *
+   * It does NOT send anything -- the app has no send mechanism. It records what the
+   * student tells us they did, which is why it is a separate explicit confirm rather
+   * than an automatic side effect of copying.
+   */
+  const handleMarkAsSent = async () => {
+    setIsMarkingSent(true);
+    setMarkError('');
+    try {
+      await api.post('/agent/send-email', {
+        student_id: studentId,
+        grant_id: match.id,
+        subject,
+        body,
+      });
+      setIsMarkedSent(true);
+      trackEvent('outreach_marked_sent', 'email_review', 'action', {
+        grant_id: match.id,
+        pi_name: match.pi_name,
+        institution: match.institution,
+      });
+    } catch (err: any) {
+      setMarkError(
+        err?.response?.data?.detail || "We couldn't record that. Please try again."
+      );
+    } finally {
+      setIsMarkingSent(false);
+    }
   };
 
   // 1. Fetch Dynamic Gemini Draft on Mount
@@ -200,7 +252,10 @@ Elena Rostova`;
 
           <div className="border-t border-stone-200 pt-4 mt-6 text-xs text-stone-500 flex items-center gap-2">
             <AlertCircle className="w-4 h-4 text-stone-400 shrink-0" />
-            <span>Outreach emails are automatically saved as drafts in outreach_logs for user transparency.</span>
+            {/* Was: "Outreach emails are automatically saved as drafts in outreach_logs
+                for user transparency." Nothing was ever saved -- send-email had no
+                callers, so outreach_logs was empty. This now describes what happens. */}
+            <span>Nothing is sent from here. Your pitch is saved to your pipeline only when you mark it as reached out.</span>
           </div>
         </GlassCard>
 
@@ -271,6 +326,46 @@ Elena Rostova`;
                   className="w-full flex-1 min-h-[280px] input-field text-xs resize-none leading-relaxed"
                 />
               </div>
+
+              {/* Clipboard permission denied — the pitch is still in the textarea above */}
+              {copyFailed && (
+                <div className="border border-amber-200 bg-amber-50/70 text-amber-900 rounded-lg px-3.5 py-2.5 text-xs leading-relaxed">
+                  We couldn't reach your clipboard. Select the text above and copy it with
+                  <span className="font-mono font-semibold"> Ctrl+C</span> — your edits are safe.
+                </div>
+              )}
+
+              {/* Mark-as-sent. Appears only after a copy: the student has to have taken
+                  the pitch somewhere before claiming they sent it. */}
+              {hasCopied && !isMarkedSent && (
+                <div className="border border-stone-200 bg-stone-50/80 rounded-lg px-3.5 py-3 space-y-2">
+                  <p className="text-xs text-stone-600 leading-relaxed">
+                    Sent it from your own email? Mark it so this lab shows as contacted in
+                    your pipeline.
+                  </p>
+                  <button
+                    onClick={handleMarkAsSent}
+                    disabled={isMarkingSent}
+                    className="px-4 py-2 rounded-lg bg-[#0d5c5c] hover:bg-[#0a4848] disabled:opacity-60 text-white text-xs font-bold transition-colors cursor-pointer inline-flex items-center gap-2"
+                  >
+                    {isMarkingSent ? (
+                      <><RefreshCw className="w-3.5 h-3.5 animate-spin" /> Recording…</>
+                    ) : (
+                      <><CheckCircle2 className="w-3.5 h-3.5" /> I sent it — mark as reached out</>
+                    )}
+                  </button>
+                  {markError && (
+                    <p className="text-xs text-rose-700 font-medium">{markError}</p>
+                  )}
+                </div>
+              )}
+
+              {isMarkedSent && (
+                <div className="border border-emerald-200 bg-emerald-50/70 text-emerald-900 rounded-lg px-3.5 py-2.5 text-xs font-medium inline-flex items-center gap-2">
+                  <CheckCircle2 className="w-4 h-4 shrink-0" />
+                  Marked as reached out — saved to your pipeline.
+                </div>
+              )}
 
               {/* Control buttons */}
               <div className="flex items-center justify-between border-t border-stone-200 pt-4 mt-2">

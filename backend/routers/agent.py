@@ -266,67 +266,74 @@ async def send_email(
 
         student = student_res.data[0]
 
-        # 2. Sync Outreach Log & Match status
-        try:
-            # Find or Upsert match record
-            match_id = req.match_id
-            if not match_id:
-                # Seek match from table
-                match_res = (
+        # 2. Sync Outreach Log & Match status.
+        # Not wrapped in a swallow: this endpoint's entire job is to record the
+        # outreach, so if the write fails the caller must hear about it. It used to
+        # warn and still return "success", which is how outreach could be silently
+        # lost while the UI said it was saved.
+        match_id = req.match_id
+        if not match_id:
+            match_res = (
+                db.table("matches")
+                .select("id")
+                .eq("student_id", student["id"])
+                .eq("grant_id", req.grant_id)
+                .execute()
+            )
+            if match_res.data:
+                match_id = match_res.data[0]["id"]
+            else:
+                # No match row means the student never swiped this grant, so no score
+                # was ever computed. match_score is nullable: record NULL rather than
+                # the fabricated 85.0 this used to insert, which put an invented
+                # number next to a real award and fed the analytics funnel.
+                new_match = (
                     db.table("matches")
-                    .select("id")
-                    .eq("student_id", student["id"])
-                    .eq("grant_id", req.grant_id)
+                    .insert(
+                        {
+                            "student_id": student["id"],
+                            "grant_id": req.grant_id,
+                            "match_score": None,
+                            "status": "emailed",
+                            "compatibility_tags": ["Manual Inquired"],
+                        }
+                    )
                     .execute()
                 )
-                if match_res.data:
-                    match_id = match_res.data[0]["id"]
-                else:
-                    # Insert fresh matching entry
-                    new_match = (
-                        db.table("matches")
-                        .insert(
-                            {
-                                "student_id": student["id"],
-                                "grant_id": req.grant_id,
-                                "match_score": 85.0,
-                                "status": "emailed",
-                                "compatibility_tags": ["Manual Inquired"],
-                            }
-                        )
-                        .execute()
+                if not new_match.data:
+                    raise HTTPException(
+                        status_code=502,
+                        detail="Couldn't record your outreach. Please try again.",
                     )
-                    if new_match.data:
-                        match_id = new_match.data[0]["id"]
+                match_id = new_match.data[0]["id"]
 
-            if match_id:
-                # Update status of match
-                db.table("matches").update({"status": "emailed"}).eq(
-                    "id", match_id
-                ).execute()
+        # Flip to emailed, preserving the real score already stored at swipe time.
+        db.table("matches").update({"status": "emailed"}).eq("id", match_id).execute()
 
-            # Write entry into outreach_logs (sent_via_gmail is set to False)
-            db.table("outreach_logs").insert(
-                {
-                    "match_id": match_id,
-                    "student_id": student["id"],
-                    "drafted_email": req.body,
-                    "sent_via_gmail": False,
-                    "gmail_message_id": "manual_dispatch",
-                    "sent_at": datetime.datetime.now(datetime.timezone.utc).isoformat(),
-                }
-            ).execute()
-
-        except Exception as log_err:
-            warnings.warn(f"Failed to log outreach metrics in DB tables: {log_err}")
+        db.table("outreach_logs").insert(
+            {
+                "match_id": match_id,
+                "student_id": student["id"],
+                "subject": req.subject,
+                "drafted_email": req.body,
+                # The app has no send mechanism: OAuth requests identity scopes only and
+                # the composer ends at "Copy Pitch". The student sends from their own
+                # client, so there is no Gmail message id -- NULL, not "manual_dispatch".
+                "sent_via_gmail": False,
+                "gmail_message_id": None,
+                "sent_at": datetime.datetime.now(datetime.timezone.utc).isoformat(),
+            }
+        ).execute()
 
         return {
             "status": "success",
-            "message_id": "manual_dispatch",
+            "match_id": match_id,
             "sent_via_gmail": False,
-            "message": "Outreach log successfully recorded!",
+            "message": "Outreach recorded.",
         }
 
+    except HTTPException:
+        raise
     except Exception as e:
         raise HTTPException(
             status_code=500, detail=f"Failed to record outreach log: {str(e)}"
