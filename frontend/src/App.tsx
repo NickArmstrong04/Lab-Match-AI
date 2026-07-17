@@ -1,5 +1,5 @@
-import { useState, useEffect } from 'react';
-import { Mail, User, Info, FileText, BarChart3 } from 'lucide-react';
+import { useState, useEffect, useRef } from 'react';
+import { User, Info, FileText, BarChart3 } from 'lucide-react';
 import Cover, { type CoverNavigate } from './pages/Cover';
 import LandingTopBar from './components/LandingTopBar';
 import GetStarted from './pages/GetStarted';
@@ -11,37 +11,82 @@ import EmailReview from './pages/EmailReview';
 import AnalyticsDashboard from './pages/AnalyticsDashboard';
 import './App.css';
 import { trackEvent, setStudentId as saveStudentIdToAnalytics } from './utils/analytics';
+import { getSession, saveSession, clearSession } from './utils/session';
 
+type View =
+  | 'cover' | 'get_started' | 'sign_in' | 'explore' | 'onboarding' | 'dashboard' | 'email_review' | 'analytics';
 
+// Minimal hash routing. There is no router library and App is a useState view machine;
+// this gives the funnel real history entries so browser Back steps through it instead of
+// leaving the site, and so a refresh lands where the student was.
+const VIEW_TO_HASH: Record<View, string> = {
+  cover: '#/',
+  get_started: '#/get-started',
+  sign_in: '#/sign-in',
+  explore: '#/explore',
+  onboarding: '#/profile',
+  dashboard: '#/dashboard',
+  email_review: '#/compose',
+  analytics: '#/metrics',
+};
+const HASH_TO_VIEW = Object.fromEntries(
+  Object.entries(VIEW_TO_HASH).map(([v, h]) => [h, v as View])
+) as Record<string, View>;
+
+const viewFromHash = (hash: string): View | null => HASH_TO_VIEW[hash] ?? null;
+
+/**
+ * Where to start on a cold load.
+ *
+ * A stored session wins over the ad-traffic redirect: a returning student who clicks an
+ * ad should land on their dashboard, which is already past the cover the redirect exists
+ * to skip.
+ */
+const resolveInitialView = (hasSession: boolean): View => {
+  const hashView = viewFromHash(window.location.hash);
+
+  if (hasSession) {
+    // '#/compose' can't be restored: the composer needs an activeOutreachMatch, which
+    // lives only in React state, so restoring it would render a blank pane.
+    if (hashView && hashView !== 'email_review' && hashView !== 'cover') return hashView;
+    return 'dashboard';
+  }
+
+  // Without a session, only the pre-onboarding views are reachable.
+  if (hashView && ['cover', 'get_started', 'sign_in', 'explore'].includes(hashView)) return hashView;
+
+  const params = new URLSearchParams(window.location.search);
+  if (params.get('gclid') || params.get('utm_source') || params.get('start') === 'true') {
+    return 'get_started';
+  }
+  return 'cover';
+};
 
 function App() {
+  // Rehydrated once, synchronously, so the first render is already the right view --
+  // routing to the dashboard in an effect would flash the cover page first.
+  const restored = getSession();
+
   // Global student narrative profile states
-  const [studentId, setStudentId] = useState<string>('');
-  const [studentName, setStudentName] = useState<string>('');
-  const [studentLocation, setStudentLocation] = useState<string>('');
-  const [resumeName, setResumeName] = useState<string>('');
-  const [researchInterests, setResearchInterests] = useState('');
-  const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [studentId, setStudentId] = useState<string>(restored?.studentId ?? '');
+  const [studentName, setStudentName] = useState<string>(restored?.studentName ?? '');
+  const [studentLocation, setStudentLocation] = useState<string>(restored?.location ?? '');
+  const [resumeName, setResumeName] = useState<string>(restored?.resumeName ?? '');
+  const [researchInterests, setResearchInterests] = useState(restored?.researchInterests ?? '');
+  const [isAuthenticated, setIsAuthenticated] = useState(!!restored?.isAuthenticated);
   const [tempOnboardingData, setTempOnboardingData] = useState<any>(null);
-  
+
   // Navigation & Page views
-  const [view, setView] = useState<
-    'cover' | 'get_started' | 'sign_in' | 'explore' | 'onboarding' | 'dashboard' | 'email_review' | 'analytics'
-  >('cover');
-  const [isOnboarded, setIsOnboarded] = useState(false);
+  const [view, setView] = useState<View>(() => resolveInitialView(!!restored));
+  const [isOnboarded, setIsOnboarded] = useState(!!restored);
 
   const isLandingView =
     view === 'cover' || view === 'get_started' || view === 'sign_in' || view === 'explore';
 
-  // Analytics: Track session start and routing transitions
+  // Analytics: Track session start. The ad-traffic redirect and session restore both
+  // happen in resolveInitialView above, so the first render is already correct.
   useEffect(() => {
     trackEvent('session_start', 'onboarding', 'action');
-
-    // Auto-route ad traffic (Google Ads clicks) directly to the onboarding page to bypass the cover screen
-    const params = new URLSearchParams(window.location.search);
-    if (params.get('gclid') || params.get('utm_source') || params.get('start') === 'true') {
-      setView('get_started');
-    }
   }, []);
 
   useEffect(() => {
@@ -53,6 +98,42 @@ function App() {
   const [savedMatches, setSavedMatches] = useState<GrantMatch[]>([]);
   const [skippedMatches, setSkippedMatches] = useState<string[]>([]);
   const [activeOutreachMatch, setActiveOutreachMatch] = useState<GrantMatch | null>(null);
+
+  // Keep the URL in step with the view so Back/Forward walk the funnel and a refresh
+  // resumes here. replace (not push) on the first render, otherwise the initial view
+  // would sit on the stack twice and Back would appear to do nothing.
+  const isFirstRender = useRef(true);
+  useEffect(() => {
+    const hash = VIEW_TO_HASH[view];
+    if (isFirstRender.current) {
+      isFirstRender.current = false;
+      window.history.replaceState({ view }, '', hash);
+      return;
+    }
+    if (window.location.hash !== hash) {
+      window.history.pushState({ view }, '', hash);
+    }
+  }, [view]);
+
+  // Browser Back/Forward. Guarded, because a hash can name a view the current state
+  // can't render -- e.g. '#/compose' with no match selected, or '#/dashboard' before
+  // onboarding -- and rendering those would show a blank pane.
+  useEffect(() => {
+    const onPopState = () => {
+      const target = viewFromHash(window.location.hash) ?? 'cover';
+      if (target === 'email_review' && !activeOutreachMatch) {
+        setView(isOnboarded ? 'dashboard' : 'cover');
+        return;
+      }
+      if ((target === 'dashboard' || target === 'email_review') && !isOnboarded) {
+        setView('cover');
+        return;
+      }
+      setView(target);
+    };
+    window.addEventListener('popstate', onPopState);
+    return () => window.removeEventListener('popstate', onPopState);
+  }, [isOnboarded, activeOutreachMatch]);
 
   // Complete onboarding sequence
   const handleOnboardingComplete = (data: {
@@ -83,6 +164,20 @@ function App() {
     setIsAuthenticated(!!data.isAuthenticated);
     setTempOnboardingData(data);
     setIsOnboarded(true);
+
+    // Onboarding/login already stored the token and core identity; this adds the fields
+    // App owns, so a refresh restores the whole dashboard rather than a bare studentId.
+    if (data.studentId) {
+      saveSession({
+        studentId: data.studentId,
+        studentName: data.studentName,
+        location: data.location,
+        researchInterests: data.researchInterests,
+        resumeName: data.resumeName,
+        isAuthenticated: !!data.isAuthenticated,
+      });
+    }
+
     setView('dashboard');
   };
 
@@ -96,31 +191,36 @@ function App() {
     setView('email_review');
   };
 
-  // Synchronize matches state after successful mock sending
-  const handleSendComplete = (matchId: string, emailBody: string) => {
-    // Relocate match out of active deck and log to console for student
-    console.log(`Dispatched outreach to match ${matchId} with body:`, emailBody);
-    
-    // To ensure the sent match is categorized in history or logs, let's track it
-    // Add to savedMatches if it isn't already there (so it shows in sidebar as contacted)
-    setSavedMatches((prev) => {
-      if (prev.some((m) => m.id === matchId)) {
-        return prev;
-      }
-      const matchObj = matches.find((m) => m.id === matchId);
-      return matchObj ? [...prev, matchObj] : prev;
-    });
-
-    // Reset outreach states and return to dashboard
-    setActiveOutreachMatch(null);
-    setView('dashboard');
-  };
-
   const handleCoverNavigate = (target: CoverNavigate) => {
     setView(target);
   };
 
   const goHome = () => setView('cover');
+
+  /**
+   * Sign out. Only offered to authenticated students -- see the header.
+   *
+   * The session now survives refreshes and tab closes (Task 9), so without this a
+   * student's profile and saved pipeline would stay loaded on a shared machine, which
+   * for a campus library computer is a real exposure rather than a convenience.
+   */
+  const handleSignOut = () => {
+    trackEvent('sign_out', 'dashboard', 'action');
+    clearSession();
+    setStudentId('');
+    setStudentName('');
+    setStudentLocation('');
+    setResumeName('');
+    setResearchInterests('');
+    setIsAuthenticated(false);
+    setTempOnboardingData(null);
+    setMatches([]);
+    setSavedMatches([]);
+    setSkippedMatches([]);
+    setActiveOutreachMatch(null);
+    setIsOnboarded(false);
+    setView('cover');
+  };
 
   const handleCancelOutreach = () => {
     if (activeOutreachMatch) {
@@ -235,10 +335,22 @@ function App() {
 
             {isOnboarded ? (
               isAuthenticated ? (
-                <div className="flex items-center gap-2 bg-stone-50 border border-stone-200 px-3 py-1.5 rounded-lg text-xs font-medium text-stone-700 shadow-sm">
-                  <User className="w-3.5 h-3.5 text-[#0d5c5c]" />
-                  <span className="truncate max-w-[120px]">{studentName}</span>
-                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 shrink-0" aria-hidden="true" title="Signed in" />
+                <div className="flex items-center gap-2.5">
+                  <div className="flex items-center gap-2 bg-stone-50 border border-stone-200 px-3 py-1.5 rounded-lg text-xs font-medium text-stone-700 shadow-sm">
+                    <User className="w-3.5 h-3.5 text-[#0d5c5c]" />
+                    <span className="truncate max-w-[120px]">{studentName}</span>
+                    <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 shrink-0" aria-hidden="true" title="Signed in" />
+                  </div>
+                  {/* Offered only to authenticated students: a guest has no credential,
+                      so clearing their session would orphan their pipeline for good. */}
+                  <button
+                    type="button"
+                    onClick={handleSignOut}
+                    className="px-3 py-1.5 rounded-lg border border-stone-200 bg-white text-stone-600 hover:text-stone-900 hover:border-stone-300 text-xs font-semibold shadow-sm transition-colors cursor-pointer"
+                    title="Sign out on this device"
+                  >
+                    Sign out
+                  </button>
                 </div>
               ) : (
                 <div className="flex items-center gap-2.5">
@@ -304,6 +416,7 @@ function App() {
             setSavedMatches={setSavedMatches}
             skippedMatches={skippedMatches}
             setSkippedMatches={setSkippedMatches}
+            onRefineInterests={() => setView('onboarding')}
           />
         ) : view === 'email_review' ? (
           activeOutreachMatch && (
@@ -312,7 +425,6 @@ function App() {
               studentName={studentName}
               resumeName={resumeName}
               studentId={studentId}
-              onSendComplete={handleSendComplete}
               onCancel={handleCancelOutreach}
             />
           )
@@ -330,7 +442,6 @@ function App() {
           </div>
           <div className="flex flex-wrap items-center justify-center gap-4">
             <span className="flex items-center gap-1"><FileText className="w-3.5 h-3.5 text-stone-400" /> NIH RePORTER &amp; NSF Award APIs</span>
-            <span className="flex items-center gap-1"><Mail className="w-3.5 h-3.5 text-stone-400" /> Secure Gmail Access</span>
           </div>
         </div>
       </footer>
