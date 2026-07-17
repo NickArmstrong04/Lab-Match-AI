@@ -10,7 +10,7 @@ import warnings
 
 from ..database import get_db, generate_embedding
 from .auth import scrub_student_record
-from ..auth_deps import create_access_token
+from ..auth_deps import create_access_token, get_optional_student_id
 from ..config import settings
 
 router = APIRouter()
@@ -287,11 +287,15 @@ async def analyze_profile(
     email: str = Form(...),
     research_interests: str = Form(""),
     location: Optional[str] = Form(None),
-    file: UploadFile = File(None)
+    file: UploadFile = File(None),
+    caller_id: Optional[str] = Depends(get_optional_student_id)
 ):
     """
     Core LLM extraction route: parses uploaded CV PDF file, synthesizes CV text + interests narrative into structured JSON
     using Google Gemini API, calculates embedding vector, and persists profile to Supabase.
+
+    Open by design -- new students have no session yet -- but it must never let a caller
+    take over an existing account. See the ownership check below.
     """
     if hasattr(location, "default"):
         location = location.default
@@ -300,7 +304,41 @@ async def analyze_profile(
     if not file and not research_interests.strip():
         raise HTTPException(status_code=400, detail="Must provide either a CV/Resume file or research interests.")
 
+    # 1b. Resolve who this write belongs to, BEFORE doing expensive Gemini work.
+    #
+    # This route used to upsert on_conflict="email" unconditionally. Anyone could POST a
+    # victim's email with no token and no password and receive that victim's student
+    # record -- and, once /analyze started minting sessions, a valid token for their
+    # account -- while silently overwriting their name and interests. Verified against a
+    # live row before this fix: the returned id, and the token subject, were the
+    # victim's. It bypassed every route dependency added in Task 5.
+    #
+    # Rules:
+    #   email not in use                  -> create a new student
+    #   email owned by the caller's token -> update THAT row in place ("Refine Interests")
+    #   email owned by someone else       -> 409, never a silent overwrite
+    existing_id = None
+    try:
+        db_lookup = get_db()
+        existing = db_lookup.table("students").select("id").eq("email", email).execute()
+        if getattr(existing, "data", None):
+            existing_id = existing.data[0]["id"]
+    except HTTPException:
+        raise
+    except Exception as e:
+        warnings.warn(f"Could not check for an existing profile with this email: {e}")
+
+    if existing_id and existing_id != caller_id:
+        raise HTTPException(
+            status_code=409,
+            detail="An account already uses this email. Please sign in instead.",
+        )
+
+    # A CV that can't be read is not fatal if we have interests to work with -- but the
+    # student MUST be told, because their matches will be interests-only and they have no
+    # other way to know their CV contributed nothing.
     cv_text = ""
+    cv_parse_failed = False
     if file:
         try:
             pdf_bytes = await file.read()
@@ -311,8 +349,21 @@ async def analyze_profile(
                 if text:
                     cv_text += text + "\n"
         except Exception as e:
-            raise HTTPException(status_code=400, detail=f"Failed to parse PDF resume: {str(e)}")
-            
+            warnings.warn(f"Failed to parse PDF resume for {email}: {e}")
+            cv_parse_failed = True
+
+        # A scanned/image-only PDF parses without error and yields nothing. Same outcome
+        # for the student, so treat it the same rather than letting it pass silently.
+        if not cv_text.strip():
+            cv_parse_failed = True
+
+        if cv_parse_failed and not research_interests.strip():
+            # Nothing usable at all -- there is no profile to synthesize.
+            raise HTTPException(
+                status_code=400,
+                detail="We couldn't read any text from that PDF. Please add your research interests, or upload a different file.",
+            )
+
     # 2. Query Gemini or Fallback (Bypassed instantly for Sarah Nguyen's video walk-through!)
     try:
         if name == "Sarah Nguyen":
@@ -361,7 +412,6 @@ async def analyze_profile(
     try:
         db = get_db()
         student_data = {
-            "auth_id": auth_id,
             "name": name,
             "email": email,
             "resume_url": resume_url,
@@ -371,28 +421,44 @@ async def analyze_profile(
             "domain_tags": domain_tags,
             "embedding": embedding
         }
-        
+        # Only stamp auth_id when creating. "Refine Interests" sends a fresh
+        # crypto.randomUUID() on every submit, and rewriting auth_id would rotate the
+        # identity that links this student to their Google account.
+        if not existing_id:
+            student_data["auth_id"] = auth_id
+
+        def _write(payload):
+            # Update the caller's OWN row by id when refining; insert otherwise. Keyed on
+            # id rather than email: the email-conflict upsert was the account-takeover
+            # vector, and it also meant a refine could land on somebody else's row.
+            if existing_id:
+                return db.table("students").update(payload).eq("id", existing_id).execute()
+            return db.table("students").insert(payload).execute()
+
         try:
-            response = db.table("students").upsert(
-                student_data,
-                on_conflict="email"
-            ).execute()
+            response = _write(student_data)
         except Exception as db_err:
             # Resilient fallback if 'location' column hasn't been added to database yet
             if "location" in str(db_err).lower() or "column" in str(db_err).lower():
                 warnings.warn(f"Database write failed for location column. Retrying without location field. Error: {db_err}")
                 del student_data["location"]
-                response = db.table("students").upsert(
-                    student_data,
-                    on_conflict="email"
-                ).execute()
+                response = _write(student_data)
             else:
                 raise db_err
-        
+
         if hasattr(response, 'data') and response.data:
             inserted_student = scrub_student_record(response.data[0])
             return {
-                "status": "success",
+                # partial_success now means exactly one thing: the profile WAS saved, but
+                # the uploaded CV contributed nothing because it couldn't be read. It used
+                # to also mean "the database write failed and this id is fictional", which
+                # is why the frontend could accept it and march on into a broken deck.
+                "status": "partial_success" if cv_parse_failed else "success",
+                "cv_parse_failed": cv_parse_failed,
+                "message": (
+                    "We couldn't read any text from your CV, so your matches use your "
+                    "research interests only."
+                ) if cv_parse_failed else None,
                 "student": inserted_student,
                 # Guests who never set a password still own a real students row, so they
                 # are a real identity and need a session -- without this, "Skip & View

@@ -55,7 +55,9 @@ export const Onboarding: React.FC<OnboardingProps> = ({
   const [isReturningUser, setIsReturningUser] = useState(entry === 'returning' || lockReturning);
   const [isLoggingIn, setIsLoggingIn] = useState(false);
   const [isGoogleConnected, setIsGoogleConnected] = useState(false);
-  
+  // The uploaded CV couldn't be read, so matches came from interests alone.
+  const [cvParseFailed, setCvParseFailed] = useState(!!initialTempData?.has_parser_error);
+
   const fileInputRef = useRef<HTMLInputElement>(null);
 
   const [hasInteracted, setHasInteracted] = useState(false);
@@ -189,6 +191,10 @@ export const Onboarding: React.FC<OnboardingProps> = ({
     setErrorMsg('');
 
     try {
+      // Only used when creating a brand-new student. On a re-submit ("Refine Interests")
+      // the backend resolves the row from the session token and updates it in place,
+      // ignoring this value -- it used to mint a fresh auth_id every submit, which
+      // rotated the identity linking the student to their Google account.
       const authId = crypto.randomUUID();
       const name = fullName;
       const email = emailAddress;
@@ -419,6 +425,13 @@ export const Onboarding: React.FC<OnboardingProps> = ({
         }
       }
 
+      // The CV couldn't be read, so these matches came from interests alone. This was
+      // recorded in telemetry only while the student was shown "Profile Synthesized
+      // Successfully!" -- so someone who uploaded a CV had no way to know it contributed
+      // nothing. Surface it.
+      const cvFailed = analyzeData.status === 'partial_success' || !!analyzeData.cv_parse_failed;
+      setCvParseFailed(cvFailed);
+
       setTempCompletedData({
         resumeName: file ? file.name : 'No Resume Provided',
         researchInterests: researchInterests,
@@ -428,7 +441,7 @@ export const Onboarding: React.FC<OnboardingProps> = ({
         email: email,
         location: location.trim(),
         synthesis_duration_ms: Date.now() - submitStartTime,
-        has_parser_error: analyzeData.status === 'partial_success'
+        has_parser_error: cvFailed
       });
       setOnboardingStage('auth_setup');
     } catch (err: any) {
@@ -712,6 +725,19 @@ export const Onboarding: React.FC<OnboardingProps> = ({
             Your semantic research vector and lab matches are ready. Set a password or connect your Google account to save your results permanently (optional).
           </p>
         </div>
+
+        {/* The CV contributed nothing. Previously this went to telemetry only, under a
+            heading that said everything had worked. */}
+        {cvParseFailed && (
+          <div className="w-full max-w-md mx-auto mb-5">
+            <div className="border border-amber-200 bg-amber-50/80 text-amber-900 rounded-xl px-4 py-3 text-sm leading-relaxed">
+              <span className="font-semibold">We couldn't read your CV.</span>{' '}
+              These matches use your research interests only. You can re-upload a
+              text-based PDF from <span className="font-semibold">Profile narrative</span> —
+              scanned or image-only PDFs can't be read.
+            </div>
+          </div>
+        )}
 
         <div className="w-full max-w-md mx-auto">
           <GlassCard className="p-6 md:p-8 space-y-6" glowColor="teal">

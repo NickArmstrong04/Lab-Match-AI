@@ -76,6 +76,16 @@ function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(!!restored?.isAuthenticated);
   const [tempOnboardingData, setTempOnboardingData] = useState<any>(null);
 
+  /**
+   * Why we're on the onboarding view.
+   *
+   * The stage used to be inferred: `!isAuthenticated && tempOnboardingData` meant
+   * auth_setup. But that's true for ANY guest who has finished onboarding, so a guest
+   * clicking "Refine Interests" was dropped on the password-save screen instead of the
+   * interests editor -- the two buttons led to the same place. Intent is explicit now.
+   */
+  const [onboardingIntent, setOnboardingIntent] = useState<'edit_profile' | 'save_account'>('edit_profile');
+
   // Navigation & Page views
   const [view, setView] = useState<View>(() => resolveInitialView(!!restored));
   const [isOnboarded, setIsOnboarded] = useState(!!restored);
@@ -271,7 +281,11 @@ function App() {
           <nav className="hidden md:flex step-progress" aria-label="Application steps">
             <button
               type="button"
-              onClick={() => setView('onboarding')}
+              onClick={() => {
+                // "Profile narrative" is the profile editor, never the password screen.
+                setOnboardingIntent('edit_profile');
+                setView('onboarding');
+              }}
               className={`step-progress-item cursor-pointer ${view === 'onboarding' ? 'is-active' : isOnboarded ? 'is-complete' : ''}`}
             >
               <span className="step-progress-marker">1</span>
@@ -363,6 +377,7 @@ function App() {
                     type="button"
                     onClick={() => {
                       trackEvent('guest_save_profile_clicked', 'dashboard', 'action');
+                      setOnboardingIntent('save_account');
                       setView('onboarding');
                     }}
                     className="bg-[#0d5c5c] hover:bg-[#0b4d4d] text-white border border-[#0d5c5c] px-3 py-1.5 rounded-lg text-xs font-semibold shadow-sm transition-all duration-200 cursor-pointer flex items-center gap-1 hover:scale-[1.02] active:scale-[0.98]"
@@ -401,7 +416,7 @@ function App() {
           <Onboarding
             onComplete={handleOnboardingComplete}
             onBackToCover={goHome}
-            initialStage={!isAuthenticated && tempOnboardingData ? 'auth_setup' : 'form'}
+            initialStage={onboardingIntent === 'save_account' && tempOnboardingData ? 'auth_setup' : 'form'}
             initialTempData={tempOnboardingData}
           />
         ) : view === 'dashboard' ? (
@@ -416,7 +431,11 @@ function App() {
             setSavedMatches={setSavedMatches}
             skippedMatches={skippedMatches}
             setSkippedMatches={setSkippedMatches}
-            onRefineInterests={() => setView('onboarding')}
+            onRefineInterests={() => {
+              // Editing interests, not creating an account -- see onboardingIntent.
+              setOnboardingIntent('edit_profile');
+              setView('onboarding');
+            }}
           />
         ) : view === 'email_review' ? (
           activeOutreachMatch && (

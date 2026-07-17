@@ -711,8 +711,22 @@ async def get_matches(
             return enrich_sliced_matches(matches[:limit], background_tasks, student_skills)
             
         else: # embedding or hybrid
-            # Fetch extra records if local_only or location_filter is active to ensure we find local ones (increased to 1000 to prevent semantic cutoff)
-            fetch_limit = 1000 if (local_only or location_filter) else limit * 2
+            # Fetch a wider candidate pool when a location filter is active, because that
+            # filtering happens in Python after the fetch.
+            #
+            # 200, not 1000. Measured on this instance at ivfflat.probes=10 there is a
+            # hard cliff in the RPC:
+            #     24 rows -> 1.8s     200 rows -> 1.8s
+            #    300 rows -> 25.4s   1000 rows -> 30.3s
+            # The old 1000 breached the frontend's 30s timeout outright, so every student
+            # WITH a home campus (local_only defaults on when they have one) would have
+            # had their deck abort. It was survivable only while probes=1 capped the
+            # reachable candidates at ~380; raising probes for recall exposed it.
+            #
+            # 200 still gives 8x the nationwide pool. When it yields no local labs the
+            # frontend falls back to nationwide and says so, rather than showing nothing.
+            # The real fix is to filter location in SQL instead of over-fetching.
+            fetch_limit = 200 if (local_only or location_filter) else limit * 2
 
             # We fetch using the RPC vector search helper (match_grants).
             # The RPC now excludes grants this student has already swiped, so every

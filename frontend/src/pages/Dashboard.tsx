@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect, useCallback, useRef } from 'react';
 import { X, Heart, Mail, Building, Calendar, DollarSign, ArrowLeft, ArrowRight, Award, Trash2, RefreshCw, ExternalLink } from 'lucide-react';
 import GlassCard from '../components/GlassCard';
 import CircularScore from '../components/CircularScore';
@@ -67,6 +67,10 @@ interface DashboardProps {
   setSkippedMatches: React.Dispatch<React.SetStateAction<string[]>>;
   onRefineInterests: () => void;
 }
+
+// How many extra pages the deck will pull automatically before giving up and telling the
+// student it's out. Bounds the local-filter case described in loadMoreMatches.
+const MAX_AUTO_LOAD_PAGES = 4;
 
 export const Dashboard: React.FC<DashboardProps> = ({
   studentId,
@@ -165,6 +169,9 @@ export const Dashboard: React.FC<DashboardProps> = ({
   const [deckOffset, setDeckOffset] = useState(0);
   const [isLoadingMore, setIsLoadingMore] = useState(false);
   const [deckExhausted, setDeckExhausted] = useState(false);
+  // Consecutive auto-loads since the filters last changed. A ref, not state: bumping it
+  // must not re-run the effect that calls loadMoreMatches.
+  const autoLoadAttempts = useRef(0);
 
   // Analytics: Track dashboard page view
   useEffect(() => {
@@ -181,9 +188,10 @@ export const Dashboard: React.FC<DashboardProps> = ({
       setIsDeckLoading(true);
       setDeckError('');
       // Filters changed (or a manual reload): this is page 0 of a different ranking, so
-      // pagination and the exhausted flag must not carry over from the previous filters.
+      // pagination, the exhausted flag and the auto-load budget must not carry over.
       setDeckOffset(0);
       setDeckExhausted(false);
+      autoLoadAttempts.current = 0;
       try {
         const locFilterStr = locationSearch.trim() ? `&location_filter=${encodeURIComponent(locationSearch.trim())}` : '';
         const url = (local: boolean) =>
@@ -297,6 +305,18 @@ export const Dashboard: React.FC<DashboardProps> = ({
    */
   const loadMoreMatches = useCallback(async () => {
     if (!studentId || isLoadingMore || deckExhausted) return;
+    // Bound the auto-paging.
+    //
+    // `offset` skips candidates in the VECTOR ranking, but "Only My University" filters
+    // after that, so a student with few local labs gets a near-empty page every time and
+    // the low-deck trigger fires again immediately -- paging through thousands of grants
+    // a dozen at a time. Observed reaching offset 48 in 20s on a 2-card local deck.
+    // Cap the run and let the empty-deck UI offer the nationwide search instead.
+    if (autoLoadAttempts.current >= MAX_AUTO_LOAD_PAGES) {
+      setDeckExhausted(true);
+      return;
+    }
+    autoLoadAttempts.current += 1;
     setIsLoadingMore(true);
     try {
       const nextOffset = deckOffset + 12;
