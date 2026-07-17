@@ -142,6 +142,36 @@ def get_fallback_profile(cv_text: str, interests: str) -> dict:
         "domain_tags": ["Data Science", "Interdisciplinary Research", "Bioengineering"]
     }
 
+def resolve_profile_owner(email: str, caller_id: Optional[str]) -> Optional[str]:
+    """Return the id of the existing students row for `email`, or None if it's free.
+
+    Raises 409 when the email belongs to someone other than the caller.
+
+    Both profile write paths must go through this. They previously upserted on
+    on_conflict="email", which meant anyone could POST a victim's email with no token
+    and no password and silently overwrite that student's profile -- and, on /analyze,
+    receive a session token for it. /analyze was fixed first and parse-resume was not,
+    so the fix was trivially sidestepped by posting the same body to the other route.
+    Shared so a third write path can't reintroduce it.
+    """
+    try:
+        existing = get_db().table("students").select("id").eq("email", email).execute()
+    except Exception as e:
+        warnings.warn(f"Could not check for an existing profile with this email: {e}")
+        return None
+
+    if not getattr(existing, "data", None):
+        return None
+
+    existing_id = existing.data[0]["id"]
+    if existing_id != caller_id:
+        raise HTTPException(
+            status_code=409,
+            detail="An account already uses this email. Please sign in instead.",
+        )
+    return existing_id
+
+
 @router.post("/parse-resume")
 async def parse_resume(
     auth_id: Optional[str] = Form(None),
@@ -149,7 +179,8 @@ async def parse_resume(
     email: Optional[str] = Form(None),
     interests: Optional[str] = Form(None),
     location: Optional[str] = Form(None),
-    file: UploadFile = File(None)
+    file: UploadFile = File(None),
+    caller_id: Optional[str] = Depends(get_optional_student_id)
 ):
     """
     Dual-mode endpoint:
@@ -183,6 +214,10 @@ async def parse_resume(
             status_code=400,
             detail="Missing required parameters for end-to-end profile parsing."
         )
+
+    # Same ownership gate as /analyze. Without it this route was an unauthenticated
+    # write into any student's row, keyed on nothing but their email address.
+    existing_id = resolve_profile_owner(email, caller_id)
 
     # 1. Parse CV text if file is uploaded
     cv_text = ""
@@ -226,11 +261,10 @@ async def parse_resume(
     )
     embedding = generate_embedding(profile_text)
 
-    # 4. Upsert profile into Supabase
+    # 4. Write profile to Supabase
     try:
         db = get_db()
         student_data = {
-            "auth_id": auth_id,
             "name": name,
             "email": email,
             "resume_url": resume_url,
@@ -240,24 +274,29 @@ async def parse_resume(
             "domain_tags": domain_tags,
             "embedding": embedding
         }
-        
+        # Only stamp auth_id on create; rewriting it would rotate the identity that
+        # links this student to their Google account.
+        if not existing_id:
+            student_data["auth_id"] = auth_id
+
+        def _write(payload):
+            # Keyed on id, never on email. upsert(on_conflict="email") here was an
+            # unauthenticated overwrite of any student's row -- see resolve_profile_owner.
+            if existing_id:
+                return db.table("students").update(payload).eq("id", existing_id).execute()
+            return db.table("students").insert(payload).execute()
+
         try:
-            response = db.table("students").upsert(
-                student_data,
-                on_conflict="email"
-            ).execute()
+            response = _write(student_data)
         except Exception as db_err:
             # Resilient fallback if 'location' column hasn't been added to database yet
             if "location" in str(db_err).lower() or "column" in str(db_err).lower():
                 warnings.warn(f"Database write failed for location column. Retrying without location field. Error: {db_err}")
                 del student_data["location"]
-                response = db.table("students").upsert(
-                    student_data,
-                    on_conflict="email"
-                ).execute()
+                response = _write(student_data)
             else:
                 raise db_err
-        
+
         if hasattr(response, 'data') and response.data:
             inserted_student = scrub_student_record(response.data[0])
             return {
@@ -317,22 +356,7 @@ async def analyze_profile(
     #   email not in use                  -> create a new student
     #   email owned by the caller's token -> update THAT row in place ("Refine Interests")
     #   email owned by someone else       -> 409, never a silent overwrite
-    existing_id = None
-    try:
-        db_lookup = get_db()
-        existing = db_lookup.table("students").select("id").eq("email", email).execute()
-        if getattr(existing, "data", None):
-            existing_id = existing.data[0]["id"]
-    except HTTPException:
-        raise
-    except Exception as e:
-        warnings.warn(f"Could not check for an existing profile with this email: {e}")
-
-    if existing_id and existing_id != caller_id:
-        raise HTTPException(
-            status_code=409,
-            detail="An account already uses this email. Please sign in instead.",
-        )
+    existing_id = resolve_profile_owner(email, caller_id)
 
     # A CV that can't be read is not fatal if we have interests to work with -- but the
     # student MUST be told, because their matches will be interests-only and they have no

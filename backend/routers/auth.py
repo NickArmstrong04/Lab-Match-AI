@@ -6,6 +6,7 @@ import secrets
 import time
 import uuid
 import datetime
+from html import escape as html_escape
 from typing import Optional
 import bcrypt
 from pydantic import BaseModel
@@ -17,6 +18,28 @@ from ..database import get_db
 from ..auth_deps import create_access_token, get_optional_student_id, authorize_student
 
 router = APIRouter()
+
+
+def json_for_script(value) -> str:
+    """JSON-encode a value for embedding inside an inline <script> block.
+
+    json.dumps escapes for JSON, not for HTML: it leaves "</" intact, so any string
+    containing "</script>" closes the block early and everything after it is parsed as
+    markup. The student record interpolated below carries their `name`, which another
+    student could previously write (see resolve_profile_owner in routers/profile.py) --
+    and this page also carries a 30-day session token, so an injected script running on
+    this origin could read the token straight out of the DOM and replay it.
+
+    Escaping "</" is sufficient and leaves the JSON semantically identical: "<\\/" is a
+    valid escape for "/" inside a JSON string. U+2028/U+2029 are escaped too -- they are
+    legal in JSON but are line terminators in JS, so they can break out of the expression.
+    """
+    return (
+        json.dumps(value)
+        .replace("</", "<\\/")
+        .replace(" ", "\\u2028")
+        .replace(" ", "\\u2029")
+    )
 
 
 def make_oauth_state(student_id: str, ttl_seconds: int = 600) -> str:
@@ -121,6 +144,12 @@ def get_redirect_uri(request: Optional[Request] = None) -> str:
 
 
 def get_error_html(error_message: str) -> str:
+    # error_message reaches both an HTML body and a JS string literal below. Today every
+    # caller passes a server-generated string (a urllib exception, a literal, a
+    # Google-verified email, a DB error), so this is defence in depth rather than a live
+    # hole -- but the two sinks are one careless caller away from being one.
+    safe_html = html_escape(error_message)
+    safe_js = json_for_script(error_message)
     return f"""
     <!DOCTYPE html>
     <html>
@@ -199,14 +228,14 @@ def get_error_html(error_message: str) -> str:
           </svg>
         </div>
         <h2>Sign-In Failed</h2>
-        <p>{error_message}</p>
+        <p>{safe_html}</p>
       </div>
       <script>
         setTimeout(function() {{
           if (window.opener) {{
             window.opener.postMessage({{
               type: "google_oauth_error",
-              error: "{error_message}"
+              error: {safe_js}
             }}, "{settings.frontend_origin}");
           }}
           window.close();
@@ -437,11 +466,11 @@ async def google_callback(
     access_token_json = "null"
     if student:
         student = scrub_student_record(student)
-        student_json = json.dumps(student)
+        student_json = json_for_script(student)
         # Google has just proven this identity, so this is a legitimate session.
         resolved_id = student.get("id") or student.get("auth_id")
         if resolved_id:
-            access_token_json = json.dumps(create_access_token(resolved_id))
+            access_token_json = json_for_script(create_access_token(resolved_id))
 
     # Return premium glassmorphic response page
     html_content = f"""
