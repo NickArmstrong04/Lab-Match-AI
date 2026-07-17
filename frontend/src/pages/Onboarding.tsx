@@ -237,7 +237,7 @@ export const Onboarding: React.FC<OnboardingProps> = ({
           {
             "id": "22222222-2222-2222-2222-222222222222",
             "pi_name": "Dr. Chen Wei",
-            "pi_email": "c.wei@berkeley.edu",
+            "pi_lookup_url": "https://www.google.com/search?q=%22Chen+Wei%22+UC+Berkeley+lab+contact",
             "institution": "UC Berkeley",
             "university": "UC Berkeley",
             "department": "EECS",
@@ -261,7 +261,7 @@ export const Onboarding: React.FC<OnboardingProps> = ({
           {
             "id": "11111111-1111-1111-1111-111111111111",
             "pi_name": "Dr. Sarah Jenkins",
-            "pi_email": "s.jenkins@stanford.edu",
+            "pi_lookup_url": "https://www.google.com/search?q=%22Sarah+Jenkins%22+Stanford+University+lab+contact",
             "institution": "Stanford University",
             "university": "Stanford University",
             "department": "Bioengineering",
@@ -317,7 +317,7 @@ export const Onboarding: React.FC<OnboardingProps> = ({
           {
             "id": "44444444-4444-4444-4444-444444444444",
             "pi_name": "Dr. Wei-An Lim",
-            "pi_email": "w.lim@mit.edu",
+            "pi_lookup_url": "https://www.google.com/search?q=%22Wei-An+Lim%22+MIT+lab+contact",
             "institution": "MIT",
             "university": "MIT",
             "department": "Biology",
@@ -341,7 +341,7 @@ export const Onboarding: React.FC<OnboardingProps> = ({
           {
             "id": "33333333-3333-3333-3333-333333333333",
             "pi_name": "Dr. Sternberg",
-            "pi_email": "s.sternberg@harvard.edu",
+            "pi_lookup_url": "https://www.google.com/search?q=%22Sternberg%22+Harvard+University+lab+contact",
             "institution": "Harvard University",
             "university": "Harvard University",
             "department": "Molecular & Cellular Biology",
@@ -558,7 +558,21 @@ export const Onboarding: React.FC<OnboardingProps> = ({
 
   // Listen to Google callback message to automatically complete flow on success or login
   useEffect(() => {
+    // The popup is served by the BACKEND, so a genuine message arrives from the API
+    // origin -- not our own. Without this check any page could postMessage a forged
+    // google_oauth_success and inject a session.
+    const apiBase = import.meta.env.VITE_API_URL || (window.location.hostname === 'localhost' ? 'http://localhost:8000' : window.location.origin);
+    let expectedOrigin: string;
+    try {
+      expectedOrigin = new URL(apiBase, window.location.origin).origin;
+    } catch {
+      expectedOrigin = window.location.origin;
+    }
+
     const handleOauthMessage = async (event: MessageEvent) => {
+      if (event.origin !== expectedOrigin) {
+        return;
+      }
       if (event.data) {
         if (event.data.type === "google_oauth_success") {
           // 🚀 Trigger Google Ads Secondary Sign-in Conversion

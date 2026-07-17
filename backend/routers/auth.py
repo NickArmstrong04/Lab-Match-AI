@@ -1,3 +1,9 @@
+import base64
+import hashlib
+import hmac
+import json
+import secrets
+import time
 import uuid
 import datetime
 from typing import Optional
@@ -10,6 +16,58 @@ from ..config import settings
 from ..database import get_db
 
 router = APIRouter()
+
+
+def make_oauth_state(student_id: str, ttl_seconds: int = 600) -> str:
+    """
+    Build a tamper-proof `state` for the OAuth handshake.
+
+    `state` used to be the raw student_id (or the literal "login"), which is
+    guessable, so anyone could forge a callback for an arbitrary student. This
+    signs {student_id, nonce, expiry} with an HMAC the client cannot produce.
+
+    Signed rather than server-stored on purpose: an in-memory nonce dict would be
+    lost by Cloud Run's scale-to-zero and would not be shared across instances, so
+    a login could fail depending on which container answered the callback.
+    """
+    payload = {
+        "sid": student_id,
+        "nonce": secrets.token_urlsafe(16),
+        "exp": int(time.time()) + ttl_seconds,
+    }
+    raw = base64.urlsafe_b64encode(json.dumps(payload).encode()).decode().rstrip("=")
+    sig = hmac.new(settings.state_signing_key.encode(), raw.encode(), hashlib.sha256).hexdigest()[:32]
+    return f"{raw}.{sig}"
+
+
+def parse_oauth_state(state: str) -> str:
+    """Verify a state produced by make_oauth_state and return the student_id.
+
+    Raises HTTPException(400) on tampering, expiry, or malformed input.
+    """
+    try:
+        raw, sig = state.rsplit(".", 1)
+    except ValueError:
+        raise HTTPException(status_code=400, detail="Invalid OAuth state.")
+
+    expected = hmac.new(settings.state_signing_key.encode(), raw.encode(), hashlib.sha256).hexdigest()[:32]
+    # compare_digest to avoid leaking the signature through timing.
+    if not hmac.compare_digest(sig, expected):
+        raise HTTPException(status_code=400, detail="Invalid OAuth state.")
+
+    try:
+        padded = raw + "=" * (-len(raw) % 4)
+        payload = json.loads(base64.urlsafe_b64decode(padded.encode()).decode())
+    except Exception:
+        raise HTTPException(status_code=400, detail="Invalid OAuth state.")
+
+    if int(payload.get("exp", 0)) < int(time.time()):
+        raise HTTPException(status_code=400, detail="OAuth state expired. Please try again.")
+
+    sid = payload.get("sid")
+    if not sid:
+        raise HTTPException(status_code=400, detail="Invalid OAuth state.")
+    return sid
 
 
 def scrub_student_record(student: dict) -> dict:
@@ -145,10 +203,10 @@ def get_error_html(error_message: str) -> str:
       <script>
         setTimeout(function() {{
           if (window.opener) {{
-            window.opener.postMessage({{ 
+            window.opener.postMessage({{
               type: "google_oauth_error",
               error: "{error_message}"
-            }}, "*");
+            }}, "{settings.frontend_origin}");
           }}
           window.close();
         }}, 3000);
@@ -189,9 +247,18 @@ async def google_login(
         )
         flow.redirect_uri = redirect_uri
 
-        # State parameter carries student_id to tie the credentials in callback
+        # access_type="online" must be passed EXPLICITLY: google_auth_oauthlib's
+        # Flow.authorization_url defaults it to "offline", so merely dropping the
+        # argument still mints a long-lived refresh token (verified against the live
+        # redirect URL). Nothing uses a refresh token -- the flow requests identity
+        # scopes only -- so it was pure liability; see scrub_student_record.
+        # prompt="consent" is likewise gone: it forced the consent screen every time
+        # purely to re-issue that refresh token.
+        # State is signed rather than the raw student_id, which was guessable and let
+        # anyone forge a callback for an arbitrary student.
         authorization_url, _ = flow.authorization_url(
-            access_type="offline", prompt="consent", state=student_id
+            access_type="online",
+            state=make_oauth_state(student_id),
         )
         return RedirectResponse(authorization_url)
     except Exception as e:
@@ -210,7 +277,8 @@ async def google_callback(
     Handles the Google redirect. Exchanges authorization code for tokens
     and stores them securely in the database.
     """
-    student_id = state
+    # Verifies the HMAC and expiry; rejects a forged or stale state.
+    student_id = parse_oauth_state(state)
     access_token = None
     refresh_token = None
     token_expiry = None
@@ -450,10 +518,10 @@ async def google_callback(
       <script>
         setTimeout(function() {{
           if (window.opener) {{
-            window.opener.postMessage({{ 
-              type: "google_oauth_success", 
+            window.opener.postMessage({{
+              type: "google_oauth_success",
               student: {student_json}
-            }}, "*");
+            }}, "{settings.frontend_origin}");
           }}
           window.close();
         }}, 1500);
