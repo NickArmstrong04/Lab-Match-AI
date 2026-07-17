@@ -2,6 +2,7 @@ from fastapi import APIRouter, HTTPException, Query, BackgroundTasks, Depends
 from typing import List, Optional
 from pydantic import BaseModel
 from urllib.parse import quote_plus
+import datetime
 import warnings
 import uuid
 from ..database import get_db
@@ -494,8 +495,11 @@ async def match_student_to_grants(
                     "agency": item.get("funding_source", "NIH"),
                     "funding_source": item.get("funding_source", "NIH"),  # Keep for test compatibility
                     "award_amount": float(item.get("award_amount") or 0),
-                    "project_start": details.get("start_date", "2026-09-01"),
-                    "project_end": details.get("end_date", "2029-08-31"),
+                    # Real dates or None. These used to default to 2026-09-01/2029-08-31,
+                    # inventing a three-year funding window for any award whose dates we
+                    # didn't have -- a fabricated fact next to a real award number.
+                    "project_start": details.get("start_date") or None,
+                    "project_end": details.get("end_date") or None,
                     "abstract": item.get("grant_abstract", ""),
                     "grant_abstract": item.get("grant_abstract", ""),  # Keep for test compatibility
                     "abstract_is_generated": bool(details.get("abstract_is_generated", False)),
@@ -601,8 +605,18 @@ async def get_matches(
 
         # 2. Match based on selected method
         if method == "keyword":
-            # Fetch all grants to perform keyword overlapping calculations
-            grants_resp = db.table("labs_cached_grants").select("*").execute()
+            # Fetch all grants to perform keyword overlapping calculations.
+            # Ended awards are excluded here exactly as they are in the match_grants RPC:
+            # this path had no date predicate at all, so it served expired awards even
+            # after the RPC stopped doing so. NULL end_date is kept -- unpublished is not
+            # the same as ended.
+            today = datetime.date.today().isoformat()
+            grants_resp = (
+                db.table("labs_cached_grants")
+                .select("*")
+                .or_(f"end_date.is.null,end_date.gte.{today}")
+                .execute()
+            )
             if not hasattr(grants_resp, 'data') or not grants_resp.data:
                 return []
                 
@@ -672,8 +686,9 @@ async def get_matches(
                     "agency": g.get("funding_source", "NIH"),
                     "funding_source": g.get("funding_source", "NIH"),
                     "award_amount": float(g.get("award_amount") or 0),
-                    "project_start": g.get("start_date", "2026-09-01"),
-                    "project_end": g.get("end_date", "2029-08-31"),
+                    # Real dates or None -- never an invented funding window.
+                    "project_start": g.get("start_date") or None,
+                    "project_end": g.get("end_date") or None,
                     "abstract": g.get("grant_abstract", ""),
                     "grant_abstract": g.get("grant_abstract", ""),
                     "abstract_is_generated": bool(g.get("abstract_is_generated", False)),
@@ -786,8 +801,11 @@ async def get_matches(
                     "agency": item.get("funding_source", "NIH"),
                     "funding_source": item.get("funding_source", "NIH"),
                     "award_amount": float(item.get("award_amount") or 0),
-                    "project_start": details.get("start_date", "2026-09-01"),
-                    "project_end": details.get("end_date", "2029-08-31"),
+                    # Real dates or None. These used to default to 2026-09-01/2029-08-31,
+                    # inventing a three-year funding window for any award whose dates we
+                    # didn't have -- a fabricated fact next to a real award number.
+                    "project_start": details.get("start_date") or None,
+                    "project_end": details.get("end_date") or None,
                     "abstract": item.get("grant_abstract", ""),
                     "grant_abstract": item.get("grant_abstract", ""),
                     "abstract_is_generated": bool(details.get("abstract_is_generated", False)),

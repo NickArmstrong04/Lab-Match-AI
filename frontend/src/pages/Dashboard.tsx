@@ -7,6 +7,29 @@ import axios from 'axios';
 import api from '../api/axios';
 import { trackEvent } from '../utils/analytics';
 
+/**
+ * Render a funding window honestly.
+ *
+ * `new Date(null)` is 1 Jan 1970, so a missing date used to render as "Jan 1970" next to
+ * a real award number. Dates are now nullable end-to-end (the backend stopped defaulting
+ * them to an invented 2026-09-01–2029-08-31 window), so say when they aren't published.
+ */
+const formatMonthYear = (value?: string | null): string | null => {
+  if (!value) return null;
+  const d = new Date(value);
+  if (isNaN(d.getTime())) return null;
+  return d.toLocaleDateString(undefined, { year: 'numeric', month: 'short' });
+};
+
+export const formatHorizon = (start?: string | null, end?: string | null): string => {
+  const s = formatMonthYear(start);
+  const e = formatMonthYear(end);
+  if (s && e) return `${s} – ${e}`;
+  if (s) return `${s} – end date not published`;
+  if (e) return `Start not published – ${e}`;
+  return 'Dates not published';
+};
+
 export interface GrantMatch {
   id: string;
   pi_name: string;
@@ -16,8 +39,9 @@ export interface GrantMatch {
   title: string;
   agency: 'NIH' | 'NSF';
   award_amount: number;
-  project_start: string;
-  project_end: string;
+  // Nullable: the agency may not publish these, and we no longer invent them.
+  project_start: string | null;
+  project_end: string | null;
   abstract: string;
   score: number;
   matching_skills: string[];
@@ -624,6 +648,17 @@ export const Dashboard: React.FC<DashboardProps> = ({
                         <span className="px-2.5 py-1 rounded-full bg-stone-100 border border-stone-200 text-stone-700 text-xs font-medium font-mono">
                           ROLE: {currentMatch.recommended_role}
                         </span>
+                        {/* The deck now excludes ended awards, but say so on the card:
+                            "currently-funded" is the product's core claim, and the
+                            student is about to cold-email a PI on the strength of it. */}
+                        {formatMonthYear(currentMatch.project_end) && (
+                          <span
+                            className="px-2.5 py-1 rounded-full bg-[#e6f0f0] border border-[#c5dddd] text-[#0d5c5c] text-xs font-medium font-mono"
+                            title="Award funding runs through this date"
+                          >
+                            ACTIVE THROUGH {formatMonthYear(currentMatch.project_end)}
+                          </span>
+                        )}
                       </div>
 
                       {/* PI and Location details */}
@@ -687,7 +722,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
                         <Calendar className="w-3.5 h-3.5 shrink-0" /> Project Horizon
                       </div>
                       <div className="text-stone-800 font-medium font-mono text-xs">
-                        {new Date(currentMatch.project_start).toLocaleDateString(undefined, { year: 'numeric', month: 'short' })} – {new Date(currentMatch.project_end).toLocaleDateString(undefined, { year: 'numeric', month: 'short' })}
+                        {formatHorizon(currentMatch.project_start, currentMatch.project_end)}
                       </div>
                     </div>
                     <div className="col-span-2 md:col-span-1 space-y-1">
