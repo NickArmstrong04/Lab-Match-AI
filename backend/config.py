@@ -22,6 +22,12 @@ class Settings(BaseSettings):
     # is required to get CSRF protection. Set explicitly to rotate independently.
     oauth_state_secret: Optional[str] = None
 
+    # Signing key for session JWTs. Must be set in production: if it is empty the
+    # backend refuses to mint or verify tokens rather than falling back to a
+    # guessable default, because a predictable key means anyone can forge a session.
+    jwt_secret: str = ""
+    jwt_ttl_seconds: int = 60 * 60 * 24 * 30  # 30 days; the app has no refresh flow
+
     @property
     def state_signing_key(self) -> str:
         return self.oauth_state_secret or self.google_client_secret or ""

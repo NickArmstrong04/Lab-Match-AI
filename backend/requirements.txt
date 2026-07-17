@@ -1,5 +1,7 @@
 fastapi
 uvicorn
+bcrypt
+pyjwt
 pydantic
 python-multipart
 supabase
