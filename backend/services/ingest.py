@@ -290,7 +290,12 @@ def fetch_nsf_grants(keyword: str, limit: int = 15, offset: int = 0) -> List[dic
                         "funding_badge_url": "https://img.shields.io/badge/NSF-Funding-blue",
                         "award_amount": float(award_amount),
                         "start_date": start_date,
-                        "end_date": end_date
+                        "end_date": end_date,
+                        # `id` is already requested in printFields above but used to be
+                        # discarded, leaving every NSF row with a NULL award_id. Without it
+                        # an award can only be re-found by title (see
+                        # backfill_abstract_provenance.py), and dedup has no natural key.
+                        "award_id": a.get("id")
                     })
                 return parsed_grants
             else:
