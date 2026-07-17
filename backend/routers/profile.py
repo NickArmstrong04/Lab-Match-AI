@@ -10,6 +10,7 @@ import warnings
 
 from ..database import get_db, generate_embedding
 from .auth import scrub_student_record
+from ..auth_deps import create_access_token
 from ..config import settings
 
 router = APIRouter()
@@ -392,7 +393,12 @@ async def analyze_profile(
             inserted_student = scrub_student_record(response.data[0])
             return {
                 "status": "success",
-                "student": inserted_student
+                "student": inserted_student,
+                # Guests who never set a password still own a real students row, so they
+                # are a real identity and need a session -- without this, "Skip & View
+                # Matches" would 401 on every deck load once routes enforce auth.
+                "access_token": create_access_token(inserted_student.get("id") or inserted_student.get("auth_id")),
+                "token_type": "bearer",
             }
 
         # No returned row means nothing was written. Previously this (and the exception

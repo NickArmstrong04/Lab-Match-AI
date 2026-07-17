@@ -14,6 +14,7 @@ from fastapi.responses import HTMLResponse, RedirectResponse
 from google_auth_oauthlib.flow import Flow
 from ..config import settings
 from ..database import get_db
+from ..auth_deps import create_access_token
 
 router = APIRouter()
 
@@ -415,10 +416,14 @@ async def google_callback(
 
     # Strip credentials/vectors before transmission if returning student
     student_json = "null"
+    access_token_json = "null"
     if student:
         student = scrub_student_record(student)
-        import json
         student_json = json.dumps(student)
+        # Google has just proven this identity, so this is a legitimate session.
+        resolved_id = student.get("id") or student.get("auth_id")
+        if resolved_id:
+            access_token_json = json.dumps(create_access_token(resolved_id))
 
     # Return premium glassmorphic response page
     html_content = f"""
@@ -520,7 +525,8 @@ async def google_callback(
           if (window.opener) {{
             window.opener.postMessage({{
               type: "google_oauth_success",
-              student: {student_json}
+              student: {student_json},
+              access_token: {access_token_json}
             }}, "{settings.frontend_origin}");
           }}
           window.close();
@@ -713,9 +719,15 @@ async def login(req: LoginRequest):
                 "structured_competencies": comp,
             }).eq("id", student["id"]).execute()
 
+        scrubbed = scrub_student_record(student)
         return {
             "status": "success",
-            "student": scrub_student_record(student)
+            "student": scrubbed,
+            # Login previously minted nothing and just returned the record, so
+            # "authenticated" was a client-side boolean and every route trusted a
+            # caller-supplied student_id. This is the actual session.
+            "access_token": create_access_token(scrubbed.get("id") or scrubbed.get("auth_id")),
+            "token_type": "bearer",
         }
     except HTTPException as he:
         raise he

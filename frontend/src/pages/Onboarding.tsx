@@ -3,6 +3,7 @@ import { Upload, FileText, CheckCircle2, AlertCircle, ChevronRight, RefreshCw } 
 import GlassCard from '../components/GlassCard';
 import api from '../api/axios';
 import { trackEvent, setStudentId } from '../utils/analytics';
+import { setToken, saveSession } from '../utils/session';
 
 export type OnboardingEntry = 'new' | 'returning';
 
@@ -387,6 +388,19 @@ export const Onboarding: React.FC<OnboardingProps> = ({
         if (!studentId || studentId === 'undefined') {
           throw new Error('Failed to retrieve a valid student ID from profile analysis.');
         }
+
+        // Must precede the match fetch below, same as the login path: the interceptor
+        // reads the token per-request. This is also what keeps guests working -- they
+        // own a real students row and so hold a real session even with no password.
+        setToken(analyzeData.access_token);
+        saveSession({
+          studentId,
+          studentName: name,
+          location: location.trim(),
+          researchInterests: researchInterests,
+          resumeName: file ? file.name : 'No Resume Provided',
+          isAuthenticated: false,
+        });
         
         setAnalysisStep(3); // Stage 3: Resolving home-campus location proximity checks
         await new Promise(resolve => setTimeout(resolve, 650));
@@ -450,6 +464,18 @@ export const Onboarding: React.FC<OnboardingProps> = ({
 
       const student = loginResp.data.student;
       const studentId = student.id || student.auth_id;
+
+      // Store the session BEFORE the match fetch below: the axios interceptor reads the
+      // token per-request, so storing it later would leave that first call unauthenticated.
+      setToken(loginResp.data.access_token);
+      saveSession({
+        studentId,
+        studentName: student.name,
+        location: student.location || '',
+        researchInterests: student.research_interests || '',
+        resumeName: student.resume_url ? 'Saved Resume' : 'No Resume Provided',
+        isAuthenticated: true,
+      });
 
       // Telemetry: track successful login completion
       setStudentId(studentId);
@@ -587,7 +613,19 @@ export const Onboarding: React.FC<OnboardingProps> = ({
             console.log("OAuth login success!");
             const student = event.data.student;
             const studentId = student.id || student.auth_id;
-            
+
+            // Google just proved this identity; store the session before the match
+            // fetch below so the interceptor can authenticate it.
+            setToken(event.data.access_token);
+            saveSession({
+              studentId,
+              studentName: student.name,
+              location: student.location || '',
+              researchInterests: student.research_interests || '',
+              resumeName: student.resume_url ? 'Saved Resume' : 'No Resume Provided',
+              isAuthenticated: true,
+            });
+
             setIsLoggingIn(true);
             setErrorMsg('');
             
@@ -624,6 +662,15 @@ export const Onboarding: React.FC<OnboardingProps> = ({
           // Handle onboarding account connection flow
           console.log("OAuth success during onboarding account connection!");
           setIsGoogleConnected(true);
+
+          // Connecting Google upgrades the guest session minted at /profile/analyze
+          // into an authenticated one. Refresh the token so it reflects that identity.
+          if (event.data.access_token) {
+            setToken(event.data.access_token);
+          }
+          if (tempCompletedData?.studentId) {
+            saveSession({ studentId: tempCompletedData.studentId, isAuthenticated: true });
+          }
 
           // Telemetry: track successful Google OAuth connected completion
           if (tempCompletedData?.studentId) {
