@@ -1,10 +1,11 @@
-from fastapi import APIRouter, HTTPException, Query, BackgroundTasks
+from fastapi import APIRouter, HTTPException, Query, BackgroundTasks, Depends
 from typing import List, Optional
 from pydantic import BaseModel
 from urllib.parse import quote_plus
 import warnings
 import uuid
 from ..database import get_db
+from ..auth_deps import get_optional_student_id, authorize_student
 from ..services.ingest import run_grant_ingestion, is_brief_abstract, expand_grant_abstract_via_llm, scan_methodologies
 
 router = APIRouter()
@@ -268,13 +269,15 @@ async def match_student_to_grants(
     student_id: str,
     background_tasks: BackgroundTasks = None,
     threshold: float = Query(0.5, ge=0.0, le=1.0),
-    limit: int = Query(5, ge=1, le=50)
+    limit: int = Query(5, ge=1, le=50),
+    caller_id: Optional[str] = Depends(get_optional_student_id)
 ):
     """
     Perform semantic matching using the pgvector match_grants database stored function.
     Pulls the student profile vector and runs a Cosine Similarity match against all cached grants.
     """
     validate_uuid(student_id, "student_id")
+    authorize_student(student_id, caller_id)
     if hasattr(threshold, "default"):
         threshold = threshold.default
     if hasattr(limit, "default"):
@@ -400,7 +403,8 @@ async def get_matches(
     limit: int = Query(5, ge=1, le=50),
     threshold: float = Query(0.2, ge=0.0, le=1.0),
     location_filter: Optional[str] = Query(None),
-    local_only: bool = Query(False)
+    local_only: bool = Query(False),
+    caller_id: Optional[str] = Depends(get_optional_student_id)
 ):
     """
     Matchmaker scoring endpoint that calculates compatibility scores by matching the student's
@@ -408,6 +412,9 @@ async def get_matches(
     Supports local proximity filtering and massive +30% compatibility score boosts for home campus labs.
     """
     validate_uuid(student_id, "student_id")
+    # Deck contents are student-scoped: without this, anyone who guessed a UUID could
+    # read that student's matches and saved pipeline.
+    authorize_student(student_id, caller_id)
     if hasattr(weight, "default"):
         weight = weight.default
     if hasattr(limit, "default"):
@@ -672,12 +679,17 @@ class MatchStateRequest(BaseModel):
     status: str  # 'saved', 'skipped', 'emailed'
 
 @router.post("/matches/state")
-async def update_match_state(req: MatchStateRequest):
+async def update_match_state(
+    req: MatchStateRequest,
+    caller_id: Optional[str] = Depends(get_optional_student_id)
+):
     """
     Upsert the match status (saved, skipped, emailed) for a student and grant.
     """
     validate_uuid(req.student_id, "student_id")
     validate_uuid(req.grant_id, "grant_id")
+    # Otherwise anyone could write swipe state into another student's pipeline.
+    authorize_student(req.student_id, caller_id)
     try:
         db = get_db()
         

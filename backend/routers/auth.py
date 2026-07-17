@@ -9,12 +9,12 @@ import datetime
 from typing import Optional
 import bcrypt
 from pydantic import BaseModel
-from fastapi import APIRouter, HTTPException, Query, Request
+from fastapi import APIRouter, HTTPException, Query, Request, Depends
 from fastapi.responses import HTMLResponse, RedirectResponse
 from google_auth_oauthlib.flow import Flow
 from ..config import settings
 from ..database import get_db
-from ..auth_deps import create_access_token
+from ..auth_deps import create_access_token, get_optional_student_id, authorize_student
 
 router = APIRouter()
 
@@ -227,6 +227,24 @@ async def google_login(
     """
     Initiates Google OAuth 2.0 flow.
     """
+    # Deliberately NOT authorized, unlike every other student_id route.
+    #
+    # This is opened with window.open -- a top-level navigation, which cannot carry an
+    # Authorization header, so the session token can't reach here. Passing it in the
+    # query string would leak it to Google in the Referer of the immediate redirect,
+    # which is worse than the exposure below.
+    #
+    # The residual risk is bounded: a caller can start a "connect" flow naming someone
+    # else's student_id and complete it with their own Google account, writing their
+    # tokens onto that row. It does not grant access, because /google/callback in login
+    # mode resolves the account from the *Google* email, not from student_id -- so the
+    # attacker still lands on their own row. The tokens themselves are inert: nothing
+    # reads them, and scrub_student_record strips them from every response (Task 6).
+    # Connect mode also mints no session token (student stays None below).
+    #
+    # The clean fix is an authenticated endpoint returning a pre-signed authorization
+    # URL, so the popup goes straight to Google and never hits our origin with an id.
+    # Tracked as follow-up; state is already signed (see make_oauth_state).
     try:
         redirect_uri = get_redirect_uri(request)
         client_config = {
@@ -540,11 +558,14 @@ async def google_callback(
 
 @router.get("/google/status")
 async def google_status(
-    student_id: str = Query(..., description="The unique student UUID.")
+    student_id: str = Query(..., description="The unique student UUID."),
+    caller_id: Optional[str] = Depends(get_optional_student_id)
 ):
     """
     Checks if a student is connected to Google OAuth and returns expiry info.
     """
+    # Reveals whether a given student has connected Google, which is account state.
+    authorize_student(student_id, caller_id)
     try:
         db = get_db()
         access_token = None
@@ -651,12 +672,32 @@ class LoginRequest(BaseModel):
     email: str
     password: str
 
+MIN_PASSWORD_LENGTH = 8
+
+
 @router.post("/save-password")
-async def save_password(req: SavePasswordRequest):
+async def save_password(
+    req: SavePasswordRequest,
+    caller_id: Optional[str] = Depends(get_optional_student_id)
+):
     """
     Saves a bcrypt hash of the password in the dedicated password_hash column.
     The plaintext is never stored.
     """
+    # This route used to overwrite password_hash for ANY student_id with no proof of
+    # ownership -- a complete account-takeover primitive. It now requires a session for
+    # that student. Guests hold one from /profile/analyze, so setting a password at the
+    # end of onboarding still works; a stranger with a guessed UUID does not.
+    authorize_student(req.student_id, caller_id)
+
+    # Server-side length check: the only previous constraint was in the React form, and
+    # nothing stops a direct POST.
+    if len(req.password or "") < MIN_PASSWORD_LENGTH:
+        raise HTTPException(
+            status_code=400,
+            detail=f"Password must be at least {MIN_PASSWORD_LENGTH} characters.",
+        )
+
     try:
         db = get_db()
         # Fetch existing student profile

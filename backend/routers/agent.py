@@ -3,11 +3,12 @@ import datetime
 import urllib.request
 import warnings
 from typing import Optional
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, HTTPException, Depends
 from pydantic import BaseModel
 
 from ..config import settings
 from ..database import get_db
+from ..auth_deps import get_optional_student_id, authorize_student
 
 router = APIRouter()
 
@@ -138,11 +139,17 @@ def get_fallback_draft(
 
 
 @router.post("/draft-email")
-async def draft_email(req: DraftEmailRequest):
+async def draft_email(
+    req: DraftEmailRequest,
+    caller_id: Optional[str] = Depends(get_optional_student_id)
+):
     """
     Ghostwriter endpoint: extracts student CV text and PI grant abstract,
     prompts Gemini to synthesize a customized outreach email pitch.
     """
+    # The draft is built from the student's CV and competencies, so this route reads
+    # their profile -- it must be owner-only.
+    authorize_student(req.student_id, caller_id)
     try:
         db = get_db()
 
@@ -232,11 +239,16 @@ async def draft_email(req: DraftEmailRequest):
 
 
 @router.post("/send-email")
-async def send_email(req: SendEmailRequest):
+async def send_email(
+    req: SendEmailRequest,
+    caller_id: Optional[str] = Depends(get_optional_student_id)
+):
     """
     Outreach logging endpoint: records that an email has been drafted and
     initiated for dispatch by the user manually, updating matching state.
     """
+    # Writes outreach_logs and flips match state on the student's behalf.
+    authorize_student(req.student_id, caller_id)
     try:
         db = get_db()
 
