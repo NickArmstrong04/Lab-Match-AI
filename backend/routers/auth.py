@@ -1,6 +1,7 @@
 import uuid
 import datetime
 from typing import Optional
+import bcrypt
 from pydantic import BaseModel
 from fastapi import APIRouter, HTTPException, Query, Request
 from fastapi.responses import HTMLResponse, RedirectResponse
@@ -9,6 +10,32 @@ from ..config import settings
 from ..database import get_db
 
 router = APIRouter()
+
+
+def scrub_student_record(student: dict) -> dict:
+    """
+    Strip credentials and vectors from a student row before it leaves the API:
+    the bcrypt hash, any legacy plaintext password still in the JSONB blob,
+    the Google OAuth tokens (dedicated columns *and* the legacy JSONB fallback),
+    and the embedding.
+
+    The token columns were previously omitted here while /auth/login and the OAuth
+    callback both select("*") through this function, so a long-lived refresh token
+    was handed to the browser -- and the callback broadcasts the student JSON via
+    postMessage. No feature reads these tokens client-side; they are pure liability.
+    """
+    student.pop("embedding", None)
+    student.pop("password_hash", None)
+    student.pop("google_access_token", None)
+    student.pop("google_refresh_token", None)
+    student.pop("google_token_expiry", None)
+    comp = student.get("structured_competencies")
+    if isinstance(comp, dict):
+        comp.pop("password", None)
+        # Fallback path when the token columns don't exist: auth.py stuffs the same
+        # tokens into this JSONB blob, which is returned to clients verbatim.
+        comp.pop("google_oauth", None)
+    return student
 
 
 def get_redirect_uri(request: Optional[Request] = None) -> str:
@@ -318,11 +345,10 @@ async def google_callback(
 
         warnings.warn(f"Failed to persist Google tokens in database: {db_err}")
 
-    # Clean embedding vector before transmission if returning student
+    # Strip credentials/vectors before transmission if returning student
     student_json = "null"
     if student:
-        if "embedding" in student:
-            del student["embedding"]
+        student = scrub_student_record(student)
         import json
         student_json = json.dumps(student)
 
@@ -554,31 +580,40 @@ class LoginRequest(BaseModel):
 @router.post("/save-password")
 async def save_password(req: SavePasswordRequest):
     """
-    Saves a password inside the student's structured_competencies JSONB column.
+    Saves a bcrypt hash of the password in the dedicated password_hash column.
+    The plaintext is never stored.
     """
     try:
         db = get_db()
         # Fetch existing student profile
-        res = db.table("students").select("structured_competencies").eq("id", req.student_id).execute()
+        res = db.table("students").select("id, structured_competencies").eq("id", req.student_id).execute()
         if not res.data:
-            res = db.table("students").select("structured_competencies").eq("auth_id", req.student_id).execute()
-            
+            res = db.table("students").select("id, structured_competencies").eq("auth_id", req.student_id).execute()
+
         if not res.data:
             raise HTTPException(status_code=404, detail="Student profile not found.")
-            
-        comp = res.data[0].get("structured_competencies") or {}
-        comp["password"] = req.password # Store password nested in JSONB
-        
-        # Save password back to the database
-        db.table("students").update({"structured_competencies": comp}).eq("id", req.student_id).execute()
+
+        row = res.data[0]
+        hashed = bcrypt.hashpw(req.password.encode("utf-8"), bcrypt.gensalt()).decode("utf-8")
+        update_payload = {"password_hash": hashed}
+
+        # Purge any legacy plaintext password from the JSONB blob
+        comp = row.get("structured_competencies") or {}
+        if isinstance(comp, dict) and "password" in comp:
+            comp.pop("password", None)
+            update_payload["structured_competencies"] = comp
+
+        db.table("students").update(update_payload).eq("id", row["id"]).execute()
         return {"status": "success", "message": "Password saved successfully."}
+    except HTTPException as he:
+        raise he
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Failed to save password: {str(e)}")
 
 @router.post("/login")
 async def login(req: LoginRequest):
     """
-    Returns student profile if credentials match the stored JSONB password.
+    Returns student profile if credentials match the stored bcrypt hash.
     """
     try:
         db = get_db()
@@ -586,21 +621,33 @@ async def login(req: LoginRequest):
         res = db.table("students").select("*").eq("email", req.email).execute()
         if not res.data:
             raise HTTPException(status_code=401, detail="Invalid email or password.")
-            
+
         student = res.data[0]
         comp = student.get("structured_competencies") or {}
-        stored_password = comp.get("password")
-        
-        if not stored_password or stored_password != req.password:
-            raise HTTPException(status_code=401, detail="Invalid email or password.")
-            
-        # Clean embedding vector before transmission
-        if "embedding" in student:
-            del student["embedding"]
-            
+        password_bytes = req.password.encode("utf-8")
+        stored_hash = student.get("password_hash")
+
+        if stored_hash:
+            if not bcrypt.checkpw(password_bytes, stored_hash.encode("utf-8")):
+                raise HTTPException(status_code=401, detail="Invalid email or password.")
+        else:
+            # Legacy plaintext fallback: verify, then transparently upgrade to
+            # a bcrypt hash and purge the plaintext from the JSONB blob.
+            # TODO(remove after 2026-10-01): delete this branch once existing
+            # accounts have logged in and been migrated.
+            legacy_password = comp.get("password") if isinstance(comp, dict) else None
+            if not legacy_password or legacy_password != req.password:
+                raise HTTPException(status_code=401, detail="Invalid email or password.")
+            new_hash = bcrypt.hashpw(password_bytes, bcrypt.gensalt()).decode("utf-8")
+            comp.pop("password", None)
+            db.table("students").update({
+                "password_hash": new_hash,
+                "structured_competencies": comp,
+            }).eq("id", student["id"]).execute()
+
         return {
             "status": "success",
-            "student": student
+            "student": scrub_student_record(student)
         }
     except HTTPException as he:
         raise he
