@@ -547,12 +547,16 @@ async def get_matches(
     threshold: float = Query(0.2, ge=0.0, le=1.0),
     location_filter: Optional[str] = Query(None),
     local_only: bool = Query(False),
+    offset: int = Query(0, ge=0),
     caller_id: Optional[str] = Depends(get_optional_student_id)
 ):
     """
     Matchmaker scoring endpoint that calculates compatibility scores by matching the student's
     extracted competencies against grant abstracts using embedding cosine similarity, keyword overlap, or hybrid methods.
     Supports local proximity filtering and massive +30% compatibility score boosts for home campus labs.
+
+    Already-swiped grants are excluded by the match_grants RPC, and `offset` pages deeper
+    into the ranking, so the deck draws from the whole corpus instead of a fixed window.
     """
     validate_uuid(student_id, "student_id")
     # Deck contents are student-scoped: without this, anyone who guessed a UUID could
@@ -709,14 +713,18 @@ async def get_matches(
         else: # embedding or hybrid
             # Fetch extra records if local_only or location_filter is active to ensure we find local ones (increased to 1000 to prevent semantic cutoff)
             fetch_limit = 1000 if (local_only or location_filter) else limit * 2
-            
-            # We fetch using the RPC vector search helper (match_grants)
+
+            # We fetch using the RPC vector search helper (match_grants).
+            # The RPC now excludes grants this student has already swiped, so every
+            # candidate is fresh -- previously the client filtered them out after the
+            # fact, which silently wasted slots and eventually emptied the deck for good.
             response = db.rpc(
                 "match_grants",
                 {
                     "student_id": student_id,
                     "match_threshold": threshold,
-                    "match_limit": fetch_limit
+                    "match_limit": fetch_limit,
+                    "match_offset": offset
                 }
             ).execute()
             
@@ -829,6 +837,51 @@ async def get_matches(
         raise
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Matchmaker scoring failed: {str(e)}")
+
+class ResetSkippedRequest(BaseModel):
+    student_id: str
+
+
+@router.post("/matches/reset-skipped")
+async def reset_skipped_matches(
+    req: ResetSkippedRequest,
+    caller_id: Optional[str] = Depends(get_optional_student_id)
+):
+    """
+    Clear this student's skipped grants so they return to the deck.
+
+    "Reset Skipped Queue" was a placebo: it did setSkippedMatches([]) client-side and the
+    next fetch rehydrated `skipped` straight back from the database, so the button
+    appeared to work and changed nothing. The rows have to actually go.
+
+    Deletes rather than re-statuses: a match row exists to record a decision, and the
+    student is undoing the decision. Saved and emailed rows are untouched -- those are
+    the pipeline, not a filter.
+    """
+    validate_uuid(req.student_id, "student_id")
+    authorize_student(req.student_id, caller_id)
+
+    if req.student_id in _demo_decks():
+        return {"status": "success", "reset_count": 0}
+
+    try:
+        db = get_db()
+        skipped = (
+            db.table("matches")
+            .select("id")
+            .eq("student_id", req.student_id)
+            .eq("status", "skipped")
+            .execute()
+        )
+        count = len(getattr(skipped, "data", None) or [])
+        if count:
+            db.table("matches").delete().eq("student_id", req.student_id).eq("status", "skipped").execute()
+        return {"status": "success", "reset_count": count}
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to reset skipped matches: {str(e)}")
+
 
 class MatchStateRequest(BaseModel):
     student_id: str

@@ -159,6 +159,12 @@ export const Dashboard: React.FC<DashboardProps> = ({
   const [isDeckLoading, setIsDeckLoading] = useState(false);
   const [deckError, setDeckError] = useState('');
   const [didFallBackNationwide, setDidFallBackNationwide] = useState(false);
+  const [isResettingSkipped, setIsResettingSkipped] = useState(false);
+  // How far into the ranking the current deck starts. The server excludes swiped grants,
+  // so paging forward reaches genuinely new labs instead of re-serving the same head.
+  const [deckOffset, setDeckOffset] = useState(0);
+  const [isLoadingMore, setIsLoadingMore] = useState(false);
+  const [deckExhausted, setDeckExhausted] = useState(false);
 
   // Analytics: Track dashboard page view
   useEffect(() => {
@@ -174,6 +180,10 @@ export const Dashboard: React.FC<DashboardProps> = ({
     const fetchDeck = async () => {
       setIsDeckLoading(true);
       setDeckError('');
+      // Filters changed (or a manual reload): this is page 0 of a different ranking, so
+      // pagination and the exhausted flag must not carry over from the previous filters.
+      setDeckOffset(0);
+      setDeckExhausted(false);
       try {
         const locFilterStr = locationSearch.trim() ? `&location_filter=${encodeURIComponent(locationSearch.trim())}` : '';
         const url = (local: boolean) =>
@@ -242,6 +252,31 @@ export const Dashboard: React.FC<DashboardProps> = ({
    * every keystroke of the proximity search, which is exactly how saved labs used to
    * disappear.
    */
+  /**
+   * Put skipped labs back in the deck, for real.
+   *
+   * The old handler did setSkippedMatches([]) and nothing else, so the next fetch
+   * rehydrated `skipped` straight from the database and the labs never came back. The
+   * button looked like it worked and did nothing.
+   */
+  const handleResetSkipped = async () => {
+    if (!studentId || isResettingSkipped) return;
+    setIsResettingSkipped(true);
+    try {
+      await api.post('/grants/matches/reset-skipped', { student_id: studentId });
+      trackEvent('reset_skipped_queue', 'dashboard', 'action');
+      setSkippedMatches([]);
+      setCurrentIndex(0);
+      setDeckOffset(0);
+      setDeckReloadKey((k) => k + 1); // refetch: the server decides what's in the deck now
+    } catch (err) {
+      console.error('Failed to reset skipped matches:', err);
+      setDeckError("We couldn't reset your skipped labs. Please try again.");
+    } finally {
+      setIsResettingSkipped(false);
+    }
+  };
+
   const refreshSavedMatches = useCallback(async () => {
     if (!studentId || studentId === 'undefined') return;
     try {
@@ -253,6 +288,40 @@ export const Dashboard: React.FC<DashboardProps> = ({
     }
   }, [studentId, setSavedMatches]);
 
+  /**
+   * Page deeper into the ranking.
+   *
+   * The corpus holds ~23k active grants; the deck used to be a fixed 24-card window off
+   * the top, so once those were swiped it said "Deck Fully Evaluated!" forever. The
+   * server excludes swiped grants, so the next page is always genuinely new labs.
+   */
+  const loadMoreMatches = useCallback(async () => {
+    if (!studentId || isLoadingMore || deckExhausted) return;
+    setIsLoadingMore(true);
+    try {
+      const nextOffset = deckOffset + 12;
+      const locFilterStr = locationSearch.trim() ? `&location_filter=${encodeURIComponent(locationSearch.trim())}` : '';
+      const res = await api.get(
+        `/grants/matches?student_id=${studentId}&threshold=0.2&limit=12&local_only=${localOnly}${locFilterStr}&offset=${nextOffset}`
+      );
+      const more = Array.isArray(res.data) ? res.data : [];
+      if (more.length === 0) {
+        // Genuinely out of labs at these filters — now the message is true.
+        setDeckExhausted(true);
+      } else {
+        setDeckOffset(nextOffset);
+        setDeckMatches((prev) => {
+          const seen = new Set(prev.map((m) => m.id));
+          return [...prev, ...more.filter((m: GrantMatch) => !seen.has(m.id))];
+        });
+      }
+    } catch (err) {
+      console.error('Failed to load more matches:', err);
+    } finally {
+      setIsLoadingMore(false);
+    }
+  }, [studentId, deckOffset, deckExhausted, isLoadingMore, localOnly, locationSearch]);
+
   useEffect(() => {
     refreshSavedMatches();
   }, [refreshSavedMatches, deckReloadKey]);
@@ -263,6 +332,14 @@ export const Dashboard: React.FC<DashboardProps> = ({
   );
 
   const currentMatch = inspectedMatch || activeDeck[currentIndex] || null;
+
+  // Top up the deck before it runs dry, so swiping never dead-ends at a false
+  // "Deck Fully Evaluated!" while thousands of active grants remain.
+  useEffect(() => {
+    if (activeDeck.length <= 3 && !isDeckLoading && !isLoadingMore && !deckExhausted && !profileMissing && !deckError) {
+      loadMoreMatches();
+    }
+  }, [activeDeck.length, isDeckLoading, isLoadingMore, deckExhausted, profileMissing, deckError, loadMoreMatches]);
 
   const [cardLoadedTime, setCardLoadedTime] = useState<number>(Date.now());
 
@@ -893,13 +970,11 @@ export const Dashboard: React.FC<DashboardProps> = ({
                 ) : (
                   <>
                     <button
-                      onClick={() => {
-                        setSkippedMatches([]);
-                        setCurrentIndex(0);
-                      }}
-                      className="px-5 py-2.5 rounded-lg bg-white border border-stone-300 text-stone-700 hover:text-stone-900 hover:border-stone-400 transition-colors text-sm font-semibold cursor-pointer flex items-center gap-2"
+                      onClick={handleResetSkipped}
+                      disabled={isResettingSkipped}
+                      className="px-5 py-2.5 rounded-lg bg-white border border-stone-300 text-stone-700 hover:text-stone-900 hover:border-stone-400 disabled:opacity-60 transition-colors text-sm font-semibold cursor-pointer flex items-center gap-2"
                     >
-                      <ArrowRight className="w-4 h-4 rotate-180" /> Reset Skipped Queue
+                      <ArrowRight className={`w-4 h-4 rotate-180 ${isResettingSkipped ? 'animate-spin' : ''}`} /> Reset Skipped Queue
                     </button>
                     <button
                       onClick={onRefineInterests}
