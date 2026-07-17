@@ -3,6 +3,7 @@ import { X, Heart, Mail, Building, Calendar, DollarSign, ArrowLeft, ArrowRight, 
 import GlassCard from '../components/GlassCard';
 import CircularScore from '../components/CircularScore';
 import PaywallModal from '../components/PaywallModal';
+import axios from 'axios';
 import api from '../api/axios';
 import { trackEvent } from '../utils/analytics';
 
@@ -129,6 +130,11 @@ export const Dashboard: React.FC<DashboardProps> = ({
   const [profileMissing, setProfileMissing] = useState(false);
   // Bumped by Retry to re-run the deck fetch effect.
   const [deckReloadKey, setDeckReloadKey] = useState(0);
+  // Deck load state. Without these, a fetch failure and an empty result both rendered as
+  // the success-toned "Deck Fully Evaluated!".
+  const [isDeckLoading, setIsDeckLoading] = useState(false);
+  const [deckError, setDeckError] = useState('');
+  const [didFallBackNationwide, setDidFallBackNationwide] = useState(false);
 
   // Analytics: Track dashboard page view
   useEffect(() => {
@@ -137,36 +143,72 @@ export const Dashboard: React.FC<DashboardProps> = ({
 
   // Load matches deck and rebuild queues based on database status on mount, and reload when location filters change
   useEffect(() => {
+    if (!studentId || studentId === 'undefined') return;
+
+    const controller = new AbortController();
+
     const fetchDeck = async () => {
-      if (!studentId || studentId === 'undefined') return;
+      setIsDeckLoading(true);
+      setDeckError('');
       try {
         const locFilterStr = locationSearch.trim() ? `&location_filter=${encodeURIComponent(locationSearch.trim())}` : '';
-        const response = await api.get(
-          `/grants/matches?student_id=${studentId}&threshold=0.2&limit=12&local_only=${localOnly}${locFilterStr}`
-        );
-        const fetchedMatches = response.data;
-        if (fetchedMatches) {
+        const url = (local: boolean) =>
+          `/grants/matches?student_id=${studentId}&threshold=0.2&limit=12&local_only=${local}${locFilterStr}`;
+
+        let fetched = (await api.get(url(localOnly), { signal: controller.signal })).data;
+
+        // Auto-fall back to nationwide when a home-campus filter returns nothing. An
+        // empty array used to be written straight into the deck, wiping the nationwide
+        // results a new student had just been shown.
+        if (localOnly && Array.isArray(fetched) && fetched.length === 0) {
+          const nationwide = (await api.get(url(false), { signal: controller.signal })).data;
+          if (Array.isArray(nationwide) && nationwide.length > 0) {
+            fetched = nationwide;
+            setDidFallBackNationwide(true);
+          }
+        } else {
+          setDidFallBackNationwide(false);
+        }
+
+        if (controller.signal.aborted) return;
+
+        // Only replace the deck on success, and never with a bare empty response.
+        if (Array.isArray(fetched)) {
           setProfileMissing(false);
-          setDeckMatches(fetchedMatches);
-
-          // Saved labs are NOT derived from this response any more. This deck is the
-          // filtered top 12, so rebuilding the sidebar from it silently dropped every
-          // saved lab outside the current filters -- and "Only My University" is on by
-          // default. The sidebar now comes from /grants/matches/saved instead.
-
-          // Rebuild skipped matches queue
-          const dbSkipped = fetchedMatches.filter((m: any) => m.status === 'skipped').map((m: any) => m.id);
+          setDeckMatches(fetched);
+          const dbSkipped = fetched.filter((m: any) => m.status === 'skipped').map((m: any) => m.id);
           setSkippedMatches(dbSkipped);
         }
+
+        // Saved labs are NOT derived from this response. This deck is the filtered top
+        // 12, so rebuilding the sidebar from it silently dropped every saved lab outside
+        // the current filters. The sidebar comes from /grants/matches/saved instead.
       } catch (err: any) {
+        if (axios.isCancel(err) || err?.name === 'CanceledError' || controller.signal.aborted) return;
         console.error("Failed to load active matches deck from API:", err);
         if (err?.response?.status === 404) {
           setProfileMissing(true);
           setDeckMatches([]);
+        } else {
+          // A failed fetch used to be swallowed, so an error rendered as the
+          // success-toned "Deck Fully Evaluated!". Keep the previous deck and say so.
+          setDeckError(err?.normalized?.friendlyMessage || "We couldn't load your matches.");
         }
+      } finally {
+        if (!controller.signal.aborted) setIsDeckLoading(false);
       }
     };
-    fetchDeck();
+
+    // Debounced: locationSearch is a raw dependency, so typing "Stanford" fired eight
+    // requests whose responses could land out of order. AbortController cancels the
+    // in-flight one so a stale response can't overwrite a newer deck.
+    const debounceMs = locationSearch.trim() ? 400 : 0;
+    const timer = setTimeout(fetchDeck, debounceMs);
+
+    return () => {
+      clearTimeout(timer);
+      controller.abort();
+    };
   }, [studentId, localOnly, locationSearch, deckReloadKey, setSkippedMatches]);
 
   /**
@@ -489,6 +531,14 @@ export const Dashboard: React.FC<DashboardProps> = ({
              )}
            </div>
 
+           {/* We quietly widened the search — say so rather than let the student think
+               these are all home-campus labs. */}
+           {didFallBackNationwide && currentMatch && (
+             <div className="mb-3 text-xs text-amber-900 bg-amber-50/70 border border-amber-200 rounded-lg px-3.5 py-2 leading-relaxed">
+               No active awards matched <strong className="font-semibold">{studentLocation}</strong>, so these are labs from across the country.
+             </div>
+           )}
+
            {currentMatch ? (
             <div
               className={`
@@ -726,6 +776,31 @@ export const Dashboard: React.FC<DashboardProps> = ({
                     </span>
                   </button>
                 </div>
+              </GlassCard>
+            </div>
+          ) : isDeckLoading && deckMatches.length === 0 ? (
+            <div className="flex-1 min-h-0">
+              <GlassCard className="h-full flex flex-col items-center justify-center text-center p-8 overflow-hidden" glowColor="teal">
+                <RefreshCw className="w-7 h-7 text-stone-400 animate-spin mb-4" aria-hidden />
+                <h2 className="text-xl font-semibold font-outfit text-stone-800 mb-1">
+                  Finding funded labs for you
+                </h2>
+                <p className="text-stone-500 text-sm">Matching your profile against active federal awards…</p>
+              </GlassCard>
+            </div>
+          ) : deckError ? (
+            <div className="flex-1 min-h-0">
+              <GlassCard className="h-full flex flex-col items-center justify-center text-center p-8 overflow-hidden" glowColor="teal">
+                <h2 className="text-3xl font-semibold font-outfit text-stone-900 mb-2">
+                  We couldn't load your matches
+                </h2>
+                <p className="text-stone-600 text-md max-w-md mx-auto leading-relaxed mb-6">{deckError}</p>
+                <button
+                  onClick={() => setDeckReloadKey((k) => k + 1)}
+                  className="btn-primary px-6 py-2.5 text-sm font-bold flex items-center gap-2"
+                >
+                  <RefreshCw className="w-4 h-4" /> Retry
+                </button>
               </GlassCard>
             </div>
           ) : profileMissing ? (

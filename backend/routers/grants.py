@@ -177,48 +177,57 @@ def update_grant_abstract_in_db(grant_id: str, expanded_abstract: str, title: st
         warnings.warn(f"Failed to update grant abstract in background: {e}")
 
 
+def expand_and_store_abstract(grant_id: str, title: str, abstract: str, pi_name: str,
+                              university: str, funding_source: str, methodologies: list):
+    """Background: expand a brief abstract via Gemini and write it back.
+
+    Runs after the response is sent, so the student's deck never waits on Gemini.
+    """
+    try:
+        expanded = expand_grant_abstract_via_llm({
+            "grant_title": title,
+            "grant_abstract": abstract,
+            "pi_name": pi_name,
+            "university": university,
+            "funding_source": funding_source,
+            "methodologies": methodologies or [],
+        })
+        if expanded and expanded != abstract:
+            # Sets abstract_is_generated=True and recomputes the embedding.
+            update_grant_abstract_in_db(grant_id, expanded, title, pi_name, methodologies or [])
+    except Exception as e:
+        warnings.warn(f"Background abstract expansion failed for {grant_id[:8] if grant_id else '?'}: {e}")
+
+
 def enrich_sliced_matches(sliced_matches: List[dict], background_tasks: Optional[BackgroundTasks] = None, student_skills: Optional[List[str]] = None) -> List[dict]:
+    """Queue expansion of brief abstracts; return the cards immediately.
+
+    This used to call Gemini INLINE, serially, once per brief-abstract card, each with
+    retries and a 20s timeout. A thin batch or a Gemini hiccup held the deck for minutes
+    and could breach the frontend's 30s axios timeout -- aborting the onboarding match
+    fetch *after* profile synthesis had already succeeded, which is the worst possible
+    moment to fail.
+
+    The student now gets the real federal text as published (brief, and honestly
+    unlabelled, because it IS verbatim). The expansion lands in the database and shows up
+    on the next load.
+    """
     for item in sliced_matches:
         abstract = item.get("grant_abstract", "")
         title = item.get("grant_title", "N/A")
-        pi_name = item.get("pi_name", "N/A")
-        university = item.get("institution", "N/A")
         g_id = item.get("id")
-        methodologies = item.get("methodologies") or []
-        
-        if is_brief_abstract(abstract, title):
-            print(f"Enriching brief abstract inline for matched grant '{title[:40]}...' (ID: {g_id[:8] if g_id else 'None'})")
-            temp_grant = {
-                "grant_title": title,
-                "grant_abstract": abstract,
-                "pi_name": pi_name,
-                "university": university,
-                "funding_source": item.get("funding_source", "NIH"),
-                "methodologies": methodologies
-            }
-            expanded = expand_grant_abstract_via_llm(temp_grant)
-            if expanded and expanded != abstract:
-                item["abstract"] = expanded
-                item["grant_abstract"] = expanded
-                item["abstract_is_generated"] = True
-                new_methodologies = scan_methodologies(title, expanded)
-                item["methodologies"] = new_methodologies
-                
-                # Update matching and missing skills if student_skills is provided
-                if student_skills is not None:
-                    item["matching_skills"] = [m for m in new_methodologies if m.lower() in student_skills]
-                    item["missing_skills"] = [m for m in new_methodologies if m.lower() not in student_skills]
-                
-                # Schedule background database update if we have a valid grant ID and background_tasks is provided
-                if g_id and background_tasks is not None:
-                    background_tasks.add_task(
-                        update_grant_abstract_in_db,
-                        g_id,
-                        expanded,
-                        title,
-                        pi_name,
-                        new_methodologies
-                    )
+
+        if is_brief_abstract(abstract, title) and g_id and background_tasks is not None:
+            background_tasks.add_task(
+                expand_and_store_abstract,
+                g_id,
+                title,
+                abstract,
+                item.get("pi_name", "N/A"),
+                item.get("institution", "N/A"),
+                item.get("funding_source", "NIH"),
+                item.get("methodologies") or [],
+            )
     return sliced_matches
 
 
