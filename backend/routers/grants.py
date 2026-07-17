@@ -119,6 +119,18 @@ def _demo_decks() -> dict:
     }
 
 
+def clamp_score(value) -> Optional[int]:
+    """Clamp to the [0,100] range the matches.match_score CHECK constraint enforces.
+
+    Returns None for unusable input rather than substituting a default, so an unknown
+    score stays unknown instead of becoming a plausible-looking number.
+    """
+    try:
+        return max(0, min(100, round(float(value))))
+    except (TypeError, ValueError):
+        return None
+
+
 def fetch_existing_match_statuses(db, student_id: str) -> dict:
     """Map of grant_id -> swipe status for this student, empty if the lookup fails."""
     try:
@@ -236,6 +248,124 @@ def fetch_grant_details(db, grant_ids: List[str]) -> dict:
     if hasattr(resp, 'data') and resp.data:
         return {g.get("id"): g for g in resp.data}
     return {}
+
+
+def format_saved_card(grant: dict, match: dict, student_skills: List[str], student_loc: Optional[str]) -> dict:
+    """Build a deck card for a grant the student has already saved or emailed.
+
+    Scores come from the stored match row (what the student saw when they swiped) and
+    are never recomputed here: re-deriving them would make the sidebar disagree with
+    the deck. A NULL score stays None -- the card renders "score unavailable" rather
+    than a filler number.
+    """
+    pi_name = grant.get("pi_name", "N/A")
+    university = grant.get("university", "N/A")
+    methodologies = grant.get("methodologies") or []
+    abstract = grant.get("grant_abstract", "") or ""
+
+    haystack = f"{grant.get('grant_title','')} {abstract} {' '.join(methodologies)}".lower()
+    matching_skills = [s for s in student_skills if s in haystack]
+    missing_skills = [m.lower() for m in methodologies if m.lower() not in student_skills][:4]
+
+    location_match = bool(student_loc and university and student_loc.lower() in university.lower())
+
+    return {
+        "id": grant.get("id"),
+        "pi_name": pi_name,
+        "pi_lookup_url": build_pi_lookup_url(pi_name, university),
+        "institution": university,
+        "university": university,
+        "department": grant.get("department", "N/A"),
+        "title": grant.get("grant_title", "N/A"),
+        "grant_title": grant.get("grant_title", "N/A"),
+        "agency": grant.get("funding_source", "NIH"),
+        "funding_source": grant.get("funding_source", "NIH"),
+        "award_amount": float(grant.get("award_amount") or 0),
+        # Real stored dates, or None. The deck path substitutes 2026-09-01/2029-08-31
+        # when these are missing, which invents a funding window (roadmap Task 13).
+        "project_start": grant.get("start_date"),
+        "project_end": grant.get("end_date"),
+        "abstract": abstract,
+        "grant_abstract": abstract,
+        "abstract_is_generated": bool(grant.get("abstract_is_generated", False)),
+        "score": clamp_score(match.get("match_score")),
+        "compatibility_score": clamp_score(match.get("match_score")),
+        "matching_skills": matching_skills,
+        "missing_skills": missing_skills,
+        "methodologies": methodologies,
+        "recommended_role": (grant.get("department") or "Research Assistant"),
+        "status": match.get("status"),
+        "location_match": location_match,
+    }
+
+
+@router.get("/matches/saved")
+async def get_saved_matches(
+    student_id: str,
+    caller_id: Optional[str] = Depends(get_optional_student_id)
+):
+    """
+    Every lab the student has saved or contacted, independent of the deck's filters.
+
+    The Dashboard used to rebuild its sidebar by filtering the current 12-card deck
+    response, and no endpoint listed a student's saved matches. So any saved lab outside
+    the current top-12 for the current filters silently vanished: "Only My University" is
+    on by default and drops non-local saves, every keystroke in proximity search mutated
+    the list, and newly ingested higher-scoring grants pushed older saves out. The rows
+    survived in the database; the student's outreach launchpad just eroded on every visit.
+    """
+    validate_uuid(student_id, "student_id")
+    authorize_student(student_id, caller_id)
+
+    # The demo personas have no matches rows; their decks are hardcoded.
+    if student_id in _demo_decks():
+        return []
+
+    try:
+        db = get_db()
+
+        matches_resp = (
+            db.table("matches")
+            .select("grant_id, status, match_score")
+            .eq("student_id", student_id)
+            .in_("status", ["saved", "emailed"])
+            .execute()
+        )
+        matches = getattr(matches_resp, "data", None) or []
+        if not matches:
+            return []
+
+        by_grant = {m["grant_id"]: m for m in matches if m.get("grant_id")}
+        grants_resp = (
+            db.table("labs_cached_grants")
+            .select("*")
+            .in_("id", list(by_grant.keys()))
+            .execute()
+        )
+        grants = getattr(grants_resp, "data", None) or []
+
+        student_skills, student_loc = [], None
+        try:
+            s_resp = db.table("students").select("structured_competencies, location").eq("id", student_id).execute()
+            if getattr(s_resp, "data", None):
+                comp = s_resp.data[0].get("structured_competencies") or {}
+                student_skills = [s.lower() for s in comp.get("skills", [])]
+                student_loc = s_resp.data[0].get("location") or comp.get("location")
+        except Exception as e:
+            warnings.warn(f"Failed to load student competencies for saved matches: {e}")
+
+        cards = [
+            format_saved_card(g, by_grant[g["id"]], student_skills, student_loc)
+            for g in grants if g.get("id") in by_grant
+        ]
+        # Emailed first (the outreach already in flight), then by score, NULLs last.
+        cards.sort(key=lambda c: (c["status"] != "emailed", -(c["score"] or 0)))
+        return cards
+
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to load saved matches: {str(e)}")
 
 
 def validate_uuid(uuid_str: str, name: str = "ID") -> None:
@@ -677,6 +807,11 @@ class MatchStateRequest(BaseModel):
     student_id: str
     grant_id: str
     status: str  # 'saved', 'skipped', 'emailed'
+    # The score the student actually saw on the card. The deck's score (hybrid blend
+    # plus the +30 home-campus boost) was computed per request and thrown away, so the
+    # sidebar and the funnel showed a different number than the deck did. Optional so
+    # older clients still work; clamped and validated server-side regardless.
+    match_score: Optional[float] = None
 
 @router.post("/matches/state")
 async def update_match_state(
@@ -700,18 +835,24 @@ async def update_match_state(
         # 1. Check if match already exists
         existing = db.table("matches").select("*").eq("student_id", req.student_id).eq("grant_id", req.grant_id).execute()
         
-        score = 80.0 # Default fallback score
+        # None, not a number: match_score is nullable, and "we don't know" must not be
+        # recorded as a plausible-looking 80.0 sitting next to a real federal award.
+        score = None
         compatibility_tags = []
-        
-        if hasattr(existing, 'data') and existing.data:
-            score = float(existing.data[0].get("match_score") or 80.0)
+
+        if req.match_score is not None:
+            # Preferred: the score actually rendered on the card the student swiped.
+            score = clamp_score(req.match_score)
+        elif hasattr(existing, 'data') and existing.data:
+            existing_score = existing.data[0].get("match_score")
+            score = clamp_score(existing_score) if existing_score is not None else None
             compatibility_tags = existing.data[0].get("compatibility_tags") or []
         else:
-            # Dynamic similarity calculation if it's a new match
+            # Fallback for clients that don't send the displayed score.
             try:
                 student_resp = db.table("students").select("embedding").eq("id", req.student_id).execute()
                 grant_resp = db.table("labs_cached_grants").select("embedding").eq("id", req.grant_id).execute()
-                
+
                 if hasattr(student_resp, 'data') and student_resp.data and hasattr(grant_resp, 'data') and grant_resp.data:
                     s_emb = student_resp.data[0].get("embedding")
                     g_emb = grant_resp.data[0].get("embedding")
@@ -723,10 +864,13 @@ async def update_match_state(
                         if isinstance(g_emb, str):
                             import json
                             g_emb = json.loads(g_emb)
-                        
-                        # Unit-normalized cosine similarity is dot product
+
+                        # Unit-normalized cosine similarity is dot product. Clamped:
+                        # an unclamped dot product can go negative, which violates the
+                        # match_score >= 0 CHECK and throws on upsert, so a swipe on a
+                        # poorly-matched grant would fail outright.
                         dot_prod = sum(a*b for a, b in zip(s_emb, g_emb))
-                        score = round(dot_prod * 100)
+                        score = clamp_score(dot_prod * 100)
             except Exception as calc_err:
                 warnings.warn(f"Failed to dynamically compute similarity in match state upsert: {calc_err}")
                 

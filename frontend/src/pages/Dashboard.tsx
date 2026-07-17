@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { X, Heart, Mail, Building, Calendar, DollarSign, ArrowLeft, ArrowRight, Award, Trash2, RefreshCw, ExternalLink } from 'lucide-react';
 import GlassCard from '../components/GlassCard';
 import CircularScore from '../components/CircularScore';
@@ -149,9 +149,10 @@ export const Dashboard: React.FC<DashboardProps> = ({
           setProfileMissing(false);
           setDeckMatches(fetchedMatches);
 
-          // Rebuild saved matches queue (saved or emailed statuses)
-          const dbSaved = fetchedMatches.filter((m: any) => m.status === 'saved' || m.status === 'emailed');
-          setSavedMatches(dbSaved);
+          // Saved labs are NOT derived from this response any more. This deck is the
+          // filtered top 12, so rebuilding the sidebar from it silently dropped every
+          // saved lab outside the current filters -- and "Only My University" is on by
+          // default. The sidebar now comes from /grants/matches/saved instead.
 
           // Rebuild skipped matches queue
           const dbSkipped = fetchedMatches.filter((m: any) => m.status === 'skipped').map((m: any) => m.id);
@@ -166,7 +167,29 @@ export const Dashboard: React.FC<DashboardProps> = ({
       }
     };
     fetchDeck();
-  }, [studentId, localOnly, locationSearch, deckReloadKey, setSavedMatches, setSkippedMatches]);
+  }, [studentId, localOnly, locationSearch, deckReloadKey, setSkippedMatches]);
+
+  /**
+   * Load the saved pipeline from its own endpoint, independent of the deck's filters.
+   *
+   * Deliberately NOT in the deck effect: that effect re-runs on every filter change and
+   * every keystroke of the proximity search, which is exactly how saved labs used to
+   * disappear.
+   */
+  const refreshSavedMatches = useCallback(async () => {
+    if (!studentId || studentId === 'undefined') return;
+    try {
+      const res = await api.get(`/grants/matches/saved?student_id=${studentId}`);
+      if (Array.isArray(res.data)) setSavedMatches(res.data);
+    } catch (err) {
+      // Non-fatal: the deck still works, the sidebar just won't refresh.
+      console.error('Failed to load saved labs:', err);
+    }
+  }, [studentId, setSavedMatches]);
+
+  useEffect(() => {
+    refreshSavedMatches();
+  }, [refreshSavedMatches, deckReloadKey]);
 
   // Filter out skipped and saved matches from the deck, unless inspected
   const activeDeck = deckMatches.filter(
@@ -208,12 +231,17 @@ export const Dashboard: React.FC<DashboardProps> = ({
     });
 
     try {
-      // Background-persist swipe state in Supabase via FastAPI router
+      // Background-persist swipe state in Supabase via FastAPI router.
+      // match_score carries the score actually shown on this card, so the sidebar and
+      // the funnel record what the student saw rather than a re-derived number.
       api.post('/grants/matches/state', {
         student_id: studentId,
         grant_id: currentMatch.id,
         status: targetStatus,
-      }).catch(err => console.error("Failed to sync match state in database:", err));
+        match_score: currentMatch.score,
+      })
+        .then(() => { if (direction === 'right') refreshSavedMatches(); })
+        .catch(err => console.error("Failed to sync match state in database:", err));
     } catch (err) {
       console.error(err);
     }
@@ -378,7 +406,9 @@ export const Dashboard: React.FC<DashboardProps> = ({
                             <span className={`inline-block text-[9px] px-2 py-0.5 rounded-full font-bold font-mono tracking-wide uppercase
                               ${m.agency === 'NIH' ? 'bg-blue-50 text-blue-800 border border-blue-200' : 'bg-emerald-50 text-emerald-800 border border-emerald-200'}
                             `}>
-                              {m.agency} • {m.score}%
+                              {/* score can legitimately be unknown (a match row with no
+                                  stored score). Say so rather than render "null%". */}
+                              {m.agency}{typeof m.score === 'number' ? ` • ${m.score}%` : ''}
                             </span>
                             {/* Until Copy Pitch was wired to send-email, no match ever
                                 reached 'emailed', so the sidebar couldn't tell a lab the
