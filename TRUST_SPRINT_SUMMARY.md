@@ -1,7 +1,7 @@
 # Trust Sprint — Branch Summary & Analysis
 
 **Branch:** `trust-sprint` → `main`
-**Scope:** 34 commits · 32 files · +3.6k / −0.8k lines · 8 DB migrations
+**Scope:** 30 commits · 33 files · +3.7k / −0.8k lines · 7 tracked migrations (all applied)
 **Status:** every P0, P1, and code-reachable P2 item in `TASKS_FEATURE_ROADMAP.md` is
 landed, verified, and pushed. What remains is blocked on external access only (below).
 
