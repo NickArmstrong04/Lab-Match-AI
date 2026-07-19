@@ -29,6 +29,10 @@ export const EmailReview: React.FC<EmailReviewProps> = ({
   const [to, setTo] = useState(match.pi_email || '');
   const [subject, setSubject] = useState('');
   const [body, setBody] = useState('');
+  // The AI draft as first generated (NOT a restored saved draft), so we can measure how
+  // much the student changed it. null when we restored an edited draft and no longer
+  // know the original -- in that case drafting friction isn't attributed.
+  const originalDraftBody = useRef<string | null>(null);
   const [isCopied, setIsCopied] = useState(false);
   const [copyFailed, setCopyFailed] = useState(false);
 
@@ -103,11 +107,16 @@ export const EmailReview: React.FC<EmailReviewProps> = ({
       setHasCopied(true);
     }
 
-    // Telemetry: track pitch copy event
+    // Telemetry: track pitch copy event. Attach drafting friction -- how far the copied
+    // pitch drifted from the AI draft -- so the "Drafting Friction" stat is real. Omitted
+    // when we restored an edited draft and no longer hold the original (see generateDraft).
+    const orig = originalDraftBody.current;
     trackEvent('email_copied', 'email_review', 'action', {
       grant_id: match.id,
       pi_name: match.pi_name,
-      institution: match.institution
+      institution: match.institution,
+      // Coarse proxy: net change in length between the AI draft and what was copied.
+      ...(orig !== null ? { draft_modified_chars_diff: Math.abs(body.length - orig.length) } : {}),
     });
   };
 
@@ -163,6 +172,9 @@ export const EmailReview: React.FC<EmailReviewProps> = ({
       if (saved) {
         setSubject(saved.subject);
         setBody(saved.body);
+        // A restored draft may already contain edits, so we can't measure friction
+        // against it. Leave the reference null; the copy event just omits the diff.
+        originalDraftBody.current = null;
         setIsDrafting(false);
         return;
       }
@@ -187,6 +199,7 @@ Sarah Nguyen`;
         
         setSubject(sampleSubject);
         setBody(sampleBody);
+        originalDraftBody.current = sampleBody;
         // 50ms organic transition loading state
         await new Promise(resolve => setTimeout(resolve, 50));
         setIsDrafting(false);
@@ -208,6 +221,7 @@ Elena Rostova`;
         
         setSubject(sampleSubject);
         setBody(sampleBody);
+        originalDraftBody.current = sampleBody;
         // 50ms organic transition loading state
         await new Promise(resolve => setTimeout(resolve, 50));
         setIsDrafting(false);
@@ -222,6 +236,7 @@ Elena Rostova`;
         const draftBody = data.body || '';
         setSubject(data.subject || `Inquiry: Research Alignment — ${studentName}`);
         setBody(draftBody);
+        originalDraftBody.current = draftBody;
       } catch (err) {
         console.error("Draft generation error, loading fallback template:", err);
         // Clean fallback email template if API is down
@@ -233,6 +248,7 @@ Elena Rostova`;
         const outro = `I would love the opportunity to learn more about your research goals and discuss how my skills could accelerate your pipeline. Would you be open to a brief 10-minute Zoom call or a quick lab introduction next week? I'd be happy to send along my full CV.\n\nSincerely,\n\n${studentName}`;
         const fallbackBody = `${intro}\n\n${center}\n\n${outro}`;
         setBody(fallbackBody);
+        originalDraftBody.current = fallbackBody;
       } finally {
         setIsDrafting(false);
       }

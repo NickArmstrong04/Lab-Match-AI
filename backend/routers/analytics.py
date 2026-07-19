@@ -156,7 +156,12 @@ async def get_metrics(traffic_type: str = "all", since: Optional[str] = None):
         sessions_landed = set()
         sessions_onboarded = set()
         sessions_composer = set()
-        sessions_sent = set()
+        # Terminal stage = sessions that got a pitch out. The app has no send mechanism,
+        # so the real terminal signals are email_copied (Copy Pitch) and
+        # outreach_marked_sent (Task 8's "I sent it" confirm). This used to key on
+        # email_sent, which only a test script ever emits, so the stage read 0 forever.
+        sessions_copied = set()
+        sessions_marked_sent = set()
 
         total_swipes = 0
         swipes_saved = 0
@@ -171,11 +176,16 @@ async def get_metrics(traffic_type: str = "all", since: Optional[str] = None):
 
         # Paywall A/B test telemetry aggregators
         paywall_views = set()
-        paywall_upgrades = set()
         paywall_closes = set()
-        
+        # The price survey (a deliberate fake door) logs paywall_feedback with a yes/no
+        # answer, NOT paywall_upgrade_click (which has no emitter). answer == "yes" is the
+        # willingness-to-pay signal the whole survey exists to capture.
+        paywall_feedback_yes = set()
+        paywall_feedback_no = set()
+
         variant_views = {"subscription": set(), "lifetime": set()}
-        variant_upgrades = {"subscription": set(), "lifetime": set()}
+        variant_feedback_yes = {"subscription": set(), "lifetime": set()}
+        variant_feedback_no = {"subscription": set(), "lifetime": set()}
         variant_closes = {"subscription": set(), "lifetime": set()}
 
         # Scan events to categorize session progress and actions
@@ -202,13 +212,21 @@ async def get_metrics(traffic_type: str = "all", since: Optional[str] = None):
                 sessions_composer.add(sess_id)
                 sessions_onboarded.add(sess_id)
                 sessions_landed.add(sess_id)
-            if name == "email_sent":
-                sessions_sent.add(sess_id)
+            if name == "email_copied":
+                sessions_copied.add(sess_id)
                 sessions_composer.add(sess_id)
                 sessions_onboarded.add(sess_id)
                 sessions_landed.add(sess_id)
-                if "draft_modified_chars_diff" in meta and meta["draft_modified_chars_diff"] is not None:
+                # Drafting friction rides on the copy event now (Task 17): how much the
+                # student changed the AI draft before taking it.
+                if meta.get("draft_modified_chars_diff") is not None:
                     draft_diffs.append(meta["draft_modified_chars_diff"])
+            if name == "outreach_marked_sent":
+                sessions_marked_sent.add(sess_id)
+                sessions_copied.add(sess_id)
+                sessions_composer.add(sess_id)
+                sessions_onboarded.add(sess_id)
+                sessions_landed.add(sess_id)
 
             # Swipe calculations
             if name in ["swipe_saved", "swipe_skipped"]:
@@ -226,11 +244,16 @@ async def get_metrics(traffic_type: str = "all", since: Optional[str] = None):
                 var = meta.get("variant")
                 if var in ["subscription", "lifetime"]:
                     variant_views[var].add(sess_id)
-            elif name == "paywall_upgrade_click":
-                paywall_upgrades.add(sess_id)
+            elif name == "paywall_feedback":
                 var = meta.get("variant")
-                if var in ["subscription", "lifetime"]:
-                    variant_upgrades[var].add(sess_id)
+                if str(meta.get("answer")).lower() == "yes":
+                    paywall_feedback_yes.add(sess_id)
+                    if var in ["subscription", "lifetime"]:
+                        variant_feedback_yes[var].add(sess_id)
+                elif str(meta.get("answer")).lower() == "no":
+                    paywall_feedback_no.add(sess_id)
+                    if var in ["subscription", "lifetime"]:
+                        variant_feedback_no[var].add(sess_id)
             elif name == "paywall_close":
                 paywall_closes.add(sess_id)
                 var = meta.get("variant")
@@ -250,36 +273,49 @@ async def get_metrics(traffic_type: str = "all", since: Optional[str] = None):
                 "percent": round((len(sessions_onboarded) / len(sessions_landed) * 100), 1) if sessions_landed else 0.0
             },
             {
-                "stage": "Opened Outreach Composer", 
-                "count": len(sessions_composer), 
+                "stage": "Opened Outreach Composer",
+                "count": len(sessions_composer),
                 "percent": round((len(sessions_composer) / len(sessions_landed) * 100), 1) if sessions_landed else 0.0
             },
             {
-                "stage": "Dispatched Outreach Email", 
-                "count": len(sessions_sent), 
-                "percent": round((len(sessions_sent) / len(sessions_landed) * 100), 1) if sessions_landed else 0.0
+                # Renamed from "Dispatched Outreach Email": nothing is dispatched, the
+                # student copies the pitch and sends it themselves.
+                "stage": "Copied Pitch",
+                "count": len(sessions_copied),
+                "percent": round((len(sessions_copied) / len(sessions_landed) * 100), 1) if sessions_landed else 0.0
+            },
+            {
+                "stage": "Marked as Reached Out",
+                "count": len(sessions_marked_sent),
+                "percent": round((len(sessions_marked_sent) / len(sessions_landed) * 100), 1) if sessions_landed else 0.0
             }
         ]
 
-        # Compile paywall metrics dictionary
+        # Compile paywall metrics dictionary. "upgrades" here means "answered yes to
+        # would-you-pay" -- the fake door has no real purchase, so a yes IS the
+        # conversion signal, sourced from paywall_feedback rather than the
+        # never-emitted paywall_upgrade_click.
+        def _variant_metrics(v):
+            yes, no, views = len(variant_feedback_yes[v]), len(variant_feedback_no[v]), len(variant_views[v])
+            return {
+                "views": views,
+                "upgrades": yes,
+                "feedback_yes": yes,
+                "feedback_no": no,
+                "closes": len(variant_closes[v]),
+                "conversion_rate": round(yes / views * 100, 1) if views else 0.0,
+            }
+
         paywall_metrics = {
             "total_views": len(paywall_views),
-            "total_upgrades": len(paywall_upgrades),
+            "total_upgrades": len(paywall_feedback_yes),
+            "total_feedback_yes": len(paywall_feedback_yes),
+            "total_feedback_no": len(paywall_feedback_no),
             "total_closes": len(paywall_closes),
-            "conversion_rate": round(len(paywall_upgrades) / len(paywall_views) * 100, 1) if paywall_views else 0.0,
+            "conversion_rate": round(len(paywall_feedback_yes) / len(paywall_views) * 100, 1) if paywall_views else 0.0,
             "variants": {
-                "subscription": {
-                    "views": len(variant_views["subscription"]),
-                    "upgrades": len(variant_upgrades["subscription"]),
-                    "closes": len(variant_closes["subscription"]),
-                    "conversion_rate": round(len(variant_upgrades["subscription"]) / len(variant_views["subscription"]) * 100, 1) if variant_views["subscription"] else 0.0,
-                },
-                "lifetime": {
-                    "views": len(variant_views["lifetime"]),
-                    "upgrades": len(variant_upgrades["lifetime"]),
-                    "closes": len(variant_closes["lifetime"]),
-                    "conversion_rate": round(len(variant_upgrades["lifetime"]) / len(variant_views["lifetime"]) * 100, 1) if variant_views["lifetime"] else 0.0,
-                }
+                "subscription": _variant_metrics("subscription"),
+                "lifetime": _variant_metrics("lifetime"),
             }
         }
 
@@ -298,7 +334,11 @@ async def get_metrics(traffic_type: str = "all", since: Optional[str] = None):
                 "skipped": swipes_skipped,
                 "save_ratio": round((swipes_saved / total_swipes * 100), 1) if total_swipes > 0 else 0.0
             },
-            "emails_sent": len(sessions_sent),
+            # Pitches copied or marked as reached out (the AnalyticsDashboard caption
+            # already reads "Pitches copied / marked sent" from Task 4). Kept as
+            # emails_sent for payload compatibility with the frontend.
+            "emails_sent": len(sessions_copied),
+            "pitches_marked_sent": len(sessions_marked_sent),
             "paywall": paywall_metrics,
             "advanced": {
                 "avg_synthesis_duration_ms": round(sum(synthesis_durations) / len(synthesis_durations), 1) if synthesis_durations else 0.0,

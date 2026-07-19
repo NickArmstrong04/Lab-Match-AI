@@ -148,13 +148,15 @@ export const AnalyticsDashboard: React.FC<AnalyticsDashboardProps> = ({ onViewBa
         return 'bg-rose-50 text-rose-700 border-rose-200';
       case 'email_review_started':
         return 'bg-cyan-50 text-cyan-700 border-cyan-200';
-      case 'email_sent':
+      case 'email_copied':
         return 'bg-teal-50 text-teal-700 border-teal-200';
+      case 'outreach_marked_sent':
+        return 'bg-teal-100 text-teal-800 border-teal-300 font-bold';
       case 'email_cancelled':
         return 'bg-stone-50 text-stone-500 border-stone-200';
       case 'paywall_view':
         return 'bg-purple-100 text-purple-800 border-purple-300 font-bold';
-      case 'paywall_upgrade_click':
+      case 'paywall_feedback':
         return 'bg-emerald-100 text-emerald-800 border-emerald-300 font-bold';
       case 'paywall_close':
         return 'bg-stone-100 text-stone-600 border-stone-300';
@@ -504,7 +506,7 @@ export const AnalyticsDashboard: React.FC<AnalyticsDashboardProps> = ({ onViewBa
                     User Trajectory Funnel
                   </h3>
                   <p className="text-stone-500 text-xs leading-relaxed">
-                    Visual conversion funnel mapping unique visits through onboarding checkpoints to email outbox deliveries.
+                    Visual conversion funnel mapping unique visits through onboarding checkpoints to pitches copied for outreach.
                   </p>
                 </div>
 
@@ -674,7 +676,7 @@ export const AnalyticsDashboard: React.FC<AnalyticsDashboardProps> = ({ onViewBa
                   ⚖️ Paywall A/B Testing &amp; Conversion Analytics
                 </h3>
                 <p className="text-stone-500 text-xs leading-relaxed">
-                  Real-time A/B test telemetry tracking paywall views, purchase upgrades, and basic free-tier closures.
+                  Fake-door price survey: paywall views, willingness-to-pay responses (no real purchase), and closures.
                 </p>
               </div>
 
@@ -687,7 +689,7 @@ export const AnalyticsDashboard: React.FC<AnalyticsDashboardProps> = ({ onViewBa
                       {metrics.paywall.conversion_rate}%
                     </span>
                     <p className="text-stone-500 text-[11px] leading-tight">
-                      Percentage of unique sessions that encountered the paywall and converted to purchases.
+                      Percentage of unique sessions that saw the paywall and answered "yes, I'd pay" to the price survey.
                     </p>
                   </div>
                   
@@ -697,11 +699,11 @@ export const AnalyticsDashboard: React.FC<AnalyticsDashboardProps> = ({ onViewBa
                       <strong className="text-stone-900 font-mono">{metrics.paywall.total_views}</strong>
                     </div>
                     <div className="flex justify-between text-xs font-medium text-stone-600">
-                      <span>Purchased Upgrade</span>
+                      <span>Would Pay (Yes)</span>
                       <strong className="text-stone-900 font-mono">{metrics.paywall.total_upgrades}</strong>
                     </div>
                     <div className="flex justify-between text-xs font-medium text-stone-600">
-                      <span>Kept Free Basic</span>
+                      <span>Dismissed</span>
                       <strong className="text-stone-900 font-mono">{metrics.paywall.total_closes}</strong>
                     </div>
                   </div>
@@ -733,7 +735,7 @@ export const AnalyticsDashboard: React.FC<AnalyticsDashboardProps> = ({ onViewBa
                       <strong className="text-stone-900 font-mono">{metrics.paywall.variants.subscription.views}</strong>
                     </div>
                     <div className="flex justify-between text-xs font-medium text-stone-600">
-                      <span>Upgrades</span>
+                      <span>Would Pay</span>
                       <strong className="text-stone-900 font-mono">{metrics.paywall.variants.subscription.upgrades}</strong>
                     </div>
                     <div className="flex justify-between text-xs font-medium text-stone-600">
@@ -769,7 +771,7 @@ export const AnalyticsDashboard: React.FC<AnalyticsDashboardProps> = ({ onViewBa
                       <strong className="text-stone-900 font-mono">{metrics.paywall.variants.lifetime.views}</strong>
                     </div>
                     <div className="flex justify-between text-xs font-medium text-stone-600">
-                      <span>Upgrades</span>
+                      <span>Would Pay</span>
                       <strong className="text-stone-900 font-mono">{metrics.paywall.variants.lifetime.upgrades}</strong>
                     </div>
                     <div className="flex justify-between text-xs font-medium text-stone-600">
