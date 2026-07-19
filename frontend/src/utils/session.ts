@@ -70,6 +70,74 @@ export const clearSession = (): void => {
   try {
     localStorage.removeItem(TOKEN_KEY);
     localStorage.removeItem(SESSION_KEY);
+    clearAllDrafts();
+  } catch {
+    /* storage unavailable */
+  }
+};
+
+/**
+ * Outreach draft persistence.
+ *
+ * EmailReview regenerated the Gemini draft on EVERY mount and held edits only in
+ * component state, so "Back to Swiper" or a refresh discarded the student's careful
+ * personalization -- their highest-effort artifact -- and returning fired a fresh
+ * multi-second Gemini call that produced a DIFFERENT draft.
+ *
+ * Drafts live in localStorage rather than the database on purpose: a draft is a private
+ * working copy, keying it to a matches row would either require one (the composer opens
+ * on grants with no match row yet) or create one -- and matches.status defaults to
+ * 'saved', so a draft would silently add the lab to the pipeline. Same "drafting is not
+ * saving" line the pi_email store holds. Consistent with the app's localStorage session
+ * (Task 9); cleared on sign-out, which is correct for a shared machine.
+ */
+const DRAFT_PREFIX = 'labmatch_draft_';
+
+export interface StoredDraft {
+  subject: string;
+  body: string;
+}
+
+const draftKey = (studentId: string, grantId: string) => `${DRAFT_PREFIX}${studentId}_${grantId}`;
+
+export const getDraft = (studentId: string, grantId: string): StoredDraft | null => {
+  if (!studentId || !grantId) return null;
+  try {
+    const raw = localStorage.getItem(draftKey(studentId, grantId));
+    if (!raw) return null;
+    const parsed = JSON.parse(raw);
+    // A draft with no body is nothing to restore.
+    return typeof parsed?.body === 'string' ? { subject: parsed.subject || '', body: parsed.body } : null;
+  } catch {
+    return null;
+  }
+};
+
+export const saveDraft = (studentId: string, grantId: string, draft: StoredDraft): void => {
+  if (!studentId || !grantId || !draft.body) return;
+  try {
+    localStorage.setItem(draftKey(studentId, grantId), JSON.stringify(draft));
+  } catch {
+    /* storage unavailable */
+  }
+};
+
+export const clearDraft = (studentId: string, grantId: string): void => {
+  try {
+    localStorage.removeItem(draftKey(studentId, grantId));
+  } catch {
+    /* storage unavailable */
+  }
+};
+
+const clearAllDrafts = (): void => {
+  try {
+    const keys: string[] = [];
+    for (let i = 0; i < localStorage.length; i++) {
+      const k = localStorage.key(i);
+      if (k && k.startsWith(DRAFT_PREFIX)) keys.push(k);
+    }
+    keys.forEach((k) => localStorage.removeItem(k));
   } catch {
     /* storage unavailable */
   }

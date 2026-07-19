@@ -1,10 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { ArrowLeft, Mail, AlertCircle, CheckCircle2, RefreshCw, Copy, ExternalLink } from 'lucide-react';
 import GlassCard from '../components/GlassCard';
 import CircularScore from '../components/CircularScore';
 import { type GrantMatch } from './Dashboard';
 import api from '../api/axios';
 import { trackEvent } from '../utils/analytics';
+import { getDraft, saveDraft, clearDraft } from '../utils/session';
 
 interface EmailReviewProps {
   match: GrantMatch;
@@ -135,6 +136,8 @@ export const EmailReview: React.FC<EmailReviewProps> = ({
         pi_email: to.trim() || null,
       });
       setIsMarkedSent(true);
+      // Sent — the working draft is no longer needed. outreach_logs holds the sent copy.
+      clearDraft(studentId, match.id);
       trackEvent('outreach_marked_sent', 'email_review', 'action', {
         grant_id: match.id,
         pi_name: match.pi_name,
@@ -149,8 +152,22 @@ export const EmailReview: React.FC<EmailReviewProps> = ({
     }
   };
 
-  // 1. Fetch Dynamic Gemini Draft on Mount
-  useEffect(() => {
+  // Generate (or regenerate) the draft. `force` bypasses a saved draft — the explicit
+  // Regenerate button — so a normal mount never discards the student's edits.
+  const generateDraft = async (force: boolean) => {
+    // A saved draft wins unless the student explicitly asked for a fresh one. This is
+    // what makes edits survive "Back to Swiper" and refresh, and stops the multi-second
+    // Gemini call that used to fire on every return and produce a different draft.
+    if (!force) {
+      const saved = getDraft(studentId, match.id);
+      if (saved) {
+        setSubject(saved.subject);
+        setBody(saved.body);
+        setIsDrafting(false);
+        return;
+      }
+    }
+
     const fetchDraft = async () => {
       setIsDrafting(true);
       if (studentName === "Sarah Nguyen") {
@@ -221,8 +238,39 @@ Elena Rostova`;
       }
     };
 
-    fetchDraft();
-  }, [match, studentName, resumeName, studentId]);
+    await fetchDraft();
+  };
+
+  // 1. On mount: restore the saved draft if there is one, else generate.
+  useEffect(() => {
+    generateDraft(false);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [match.id, studentName]);
+
+  // 2. Persist edits so navigation and refresh don't lose them. Debounced to avoid a
+  //    write on every keystroke; also flushed on unmount below.
+  useEffect(() => {
+    if (isDrafting || !body) return;
+    const t = setTimeout(() => saveDraft(studentId, match.id, { subject, body }), 500);
+    return () => clearTimeout(t);
+  }, [subject, body, isDrafting, studentId, match.id]);
+
+  // 3. Flush the latest edit on unmount (e.g. "Back to Swiper" before the debounce fires).
+  //    A ref holds the current values so the cleanup isn't stale.
+  const latestDraft = useRef({ subject, body });
+  latestDraft.current = { subject, body };
+  useEffect(() => {
+    return () => {
+      const d = latestDraft.current;
+      if (d.body) saveDraft(studentId, match.id, d);
+    };
+  }, [studentId, match.id]);
+
+  const handleRegenerate = async () => {
+    clearDraft(studentId, match.id);
+    trackEvent('draft_regenerated', 'email_review', 'action', { grant_id: match.id });
+    await generateDraft(true);
+  };
 
 
 
@@ -365,6 +413,21 @@ Elena Rostova`;
 
               {/* Email Narrative Body */}
               <div className="flex-1 min-h-0 flex flex-col">
+                <div className="flex items-center justify-between mb-1.5">
+                  <span className="text-stone-500 text-[11px] font-semibold uppercase tracking-wider">Message</span>
+                  {/* Explicit, because a mount no longer regenerates -- edits are kept.
+                      This is the only way to get a fresh Gemini draft, and it discards
+                      the current one, so it's a deliberate button, not automatic. */}
+                  <button
+                    type="button"
+                    onClick={handleRegenerate}
+                    disabled={isDrafting}
+                    className="text-stone-500 hover:text-stone-800 disabled:opacity-50 text-[11px] font-semibold inline-flex items-center gap-1 cursor-pointer"
+                    title="Discard this draft and generate a new one"
+                  >
+                    <RefreshCw className={`w-3 h-3 ${isDrafting ? 'animate-spin' : ''}`} /> Regenerate draft
+                  </button>
+                </div>
                 <textarea
                   value={body}
                   onChange={(e) => setBody(e.target.value)}
