@@ -10,7 +10,6 @@ import { getDraft, saveDraft, clearDraft } from '../utils/session';
 interface EmailReviewProps {
   match: GrantMatch;
   studentName: string;
-  resumeName: string;
   studentId: string;
   // didCopy: true when the student took the pitch (copied / handed off / marked sent)
   // before leaving, so App can tell abandonment from a normal return.
@@ -20,7 +19,6 @@ interface EmailReviewProps {
 export const EmailReview: React.FC<EmailReviewProps> = ({
   match,
   studentName,
-  resumeName,
   studentId,
   onCancel,
 }) => {
@@ -40,6 +38,11 @@ export const EmailReview: React.FC<EmailReviewProps> = ({
 
   // Dynamic API integration states
   const [isDrafting, setIsDrafting] = useState(true);
+  // True when the shown draft is the static template, not a Gemini draft -- either the
+  // backend fell back (data.is_fallback) or the draft call itself failed. Drives the
+  // "template draft, review carefully" notice + Retry, so the fallback isn't passed off
+  // silently as the personalized pitch.
+  const [isFallbackDraft, setIsFallbackDraft] = useState(false);
 
   // Mark-as-sent: the only way outreach ever reaches the database.
   const [hasCopied, setHasCopied] = useState(false);
@@ -162,6 +165,8 @@ export const EmailReview: React.FC<EmailReviewProps> = ({
   // Generate (or regenerate) the draft. `force` bypasses a saved draft — the explicit
   // Regenerate button — so a normal mount never discards the student's edits.
   const generateDraft = async (force: boolean) => {
+    // Clear any prior fallback flag; only the two fallback branches below re-raise it.
+    setIsFallbackDraft(false);
     // A saved draft wins unless the student explicitly asked for a fresh one. This is
     // what makes edits survive "Back to Swiper" and refresh, and stops the multi-second
     // Gemini call that used to fire on every return and produce a different draft.
@@ -232,18 +237,25 @@ Elena Rostova`;
         });
         const data = response.data;
         const draftBody = data.body || '';
-        setSubject(data.subject || `Inquiry: Research Alignment — ${studentName}`);
+        setSubject(data.subject || `Research opportunity inquiry — ${studentName}`);
         setBody(draftBody);
         originalDraftBody.current = draftBody;
+        // The backend fell back to its static template (Gemini unavailable). Flag it so
+        // the student sees it's a template, not a personalized draft.
+        setIsFallbackDraft(!!data.is_fallback);
       } catch (err) {
         console.error("Draft generation error, loading fallback template:", err);
-        // Clean fallback email template if API is down
-        const keywords = match.matching_skills.slice(0, 2).join(' & ');
-        setSubject(`Inquiry: Research Alignment on ${keywords} — ${studentName}`);
-        
-        const intro = `Dear Dr. ${match.pi_name.split(' ').pop()},\n\nI hope this email finds you well. My name is ${studentName}, and I am a student developer researching active labs. I recently analyzed your active ${match.agency} funded project, "${match.title}" (award amount $${match.award_amount.toLocaleString()}), and was immediately struck by the alignment between your lab's focus and my competencies.`;
-        const center = `Specifically, my background is highly optimized for your current methodologies. According to my parsed CV (${resumeName}), I have demonstrated experience in ${match.matching_skills.join(', ')}. I noticed your project leverages research techniques in these exact sectors, making me an excellent fit to assist.`;
-        const outro = `I would love the opportunity to learn more about your research goals and discuss how my skills could accelerate your pipeline. Would you be open to a brief 10-minute Zoom call or a quick lab introduction next week? I'd be happy to send along my full CV.\n\nSincerely,\n\n${studentName}`;
+        setIsFallbackDraft(true);
+        // Client-side template when the draft call itself fails. Written from the
+        // student's field, with no award amount (mercenary) and no fabricated
+        // "parsed CV" claim.
+        const skills = (match.matching_skills || []).slice(0, 3);
+        setSubject(`Research opportunity inquiry — ${studentName}`);
+        const intro = `Dear Dr. ${match.pi_name.split(' ').pop()},\n\nI hope this email finds you well. My name is ${studentName}, and I am an undergraduate reaching out about research opportunities in your lab. I read about your ${match.agency}-funded project, "${match.title}", and it aligns closely with my research interests.`;
+        const center = skills.length
+          ? `I have hands-on experience with ${skills.join(', ')}, and I'd be glad to contribute to your group in whatever capacity would be most useful.`
+          : `I'd be glad to contribute to your group in whatever capacity would be most useful.`;
+        const outro = `Would you be open to a brief conversation about getting involved? I'd be happy to send along my full CV.\n\nSincerely,\n\n${studentName}`;
         const fallbackBody = `${intro}\n\n${center}\n\n${outro}`;
         setBody(fallbackBody);
         originalDraftBody.current = fallbackBody;
@@ -424,6 +436,24 @@ Elena Rostova`;
                   />
                 </div>
               </div>
+
+              {/* Fallback notice: this is the static template, not a personalized draft.
+                  Shown so the student doesn't send it thinking Gemini wrote it. */}
+              {isFallbackDraft && !isDrafting && (
+                <div className="border border-amber-200 bg-amber-50/80 text-amber-900 rounded-lg px-3.5 py-2.5 text-xs leading-relaxed flex items-start justify-between gap-3">
+                  <span>
+                    <span className="font-semibold">Template draft.</span> AI drafting is unavailable right now, so this is a generic template — review and personalize it before sending.
+                  </span>
+                  <button
+                    type="button"
+                    onClick={handleRegenerate}
+                    disabled={isDrafting}
+                    className="shrink-0 inline-flex items-center gap-1 font-bold text-amber-900 hover:text-amber-950 disabled:opacity-50 cursor-pointer"
+                  >
+                    <RefreshCw className={`w-3.5 h-3.5 ${isDrafting ? 'animate-spin' : ''}`} /> Retry
+                  </button>
+                </div>
+              )}
 
               {/* Email Narrative Body */}
               <div className="flex-1 min-h-0 flex flex-col">

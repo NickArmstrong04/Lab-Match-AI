@@ -115,29 +115,49 @@ def get_fallback_draft(
     pi_name: str,
     university: str,
     grant_title: str,
+    education: str = "",
 ) -> dict:
     """
-    Highly professional static email fallback when Gemini API is unconfigured/offline.
+    Static email fallback when the Gemini drafter is unconfigured/offline.
+
+    Written from the student's OWN field/education, not the old "student developer
+    researching active labs" line -- that was wrong for a pre-med and read as a
+    recruiter, not an applicant. No award amount and no dollar figure appear here: a
+    student opening with the grant's funding amount reads as mercenary to a PI.
+
+    Returns is_fallback=True so the composer can flag it as a template and offer a retry
+    rather than passing it off as the personalized draft.
     """
     clean_pi = pi_name.split(" ").pop()
-    subject = f"Inquiry: Research Assistant Role / Grant Alignment — {student_name}"
+    # Prefer the student's real education line; else lead with their skills; else neutral.
+    if education:
+        background = f"my background in {education}"
+    elif student_skills:
+        background = f"my background in {', '.join(student_skills[:3])}"
+    else:
+        background = "my academic background"
+
+    subject = f"Research opportunity inquiry — {student_name}"
 
     body = (
         f"Dear Dr. {clean_pi},\n\n"
-        f"I hope this email finds you well. My name is {student_name}, and I am a student developer researching "
-        f'active research labs. I recently read about your active project, "{grant_title}" at {university}, '
-        f"and was immediately struck by the alignment between your lab's directions and my technical focus.\n\n"
-        f"Specifically, my academic background includes hands-on experience in {', '.join(student_skills[:3])}. "
-        f"I noticed your project leverages advanced methodologies in these sectors, making me an excellent fit to assist "
-        f"with data analysis, laboratory processing, or software modeling under your supervision.\n\n"
-        f"I would love the opportunity to learn more about your research goals and discuss how my skills could accelerate "
-        f"your pipeline. Would you be open to a brief 10-minute Zoom call or a quick lab introduction next week? "
-        f"I would be happy to send along my full CV.\n\n"
-        f"Thank you for your time and outstanding contributions to scientific research.\n\n"
+        f"I hope this email finds you well. My name is {student_name}, and I am an undergraduate "
+        f'reaching out about research opportunities in your lab. I read about your project, "{grant_title}" '
+        f"at {university}, and it aligns closely with {background}.\n\n"
+    )
+    if student_skills:
+        body += (
+            f"I have hands-on experience with {', '.join(student_skills[:3])}, and I would be glad to "
+            f"contribute to the work in your group in whatever capacity would be most useful.\n\n"
+        )
+    body += (
+        f"Would you be open to a brief conversation about getting involved? "
+        f"I'd be happy to send along my full CV.\n\n"
+        f"Thank you for your time.\n\n"
         f"Sincerely,\n\n"
         f"{student_name}"
     )
-    return {"subject": subject, "body": body}
+    return {"subject": subject, "body": body, "is_fallback": True}
 
 
 @router.post("/draft-email")
@@ -169,10 +189,11 @@ async def draft_email(
             raise HTTPException(status_code=404, detail="Student profile not found.")
 
         student = student_res.data[0]
-        student_name = student.get("name", "Student Developer")
+        student_name = student.get("name") or "the applicant"
         student_interests = student.get("research_interests", "")
         comp = student.get("structured_competencies") or {}
         student_skills = comp.get("skills", [])
+        student_education = comp.get("education", "")
 
         # 2. Fetch Grant Record
         grant_res = (
@@ -227,9 +248,13 @@ async def draft_email(
                 f"Gemini email drafting failed: {e}. Activating clean static template."
             )
             draft = get_fallback_draft(
-                student_name, student_skills, pi_name, university, grant_title
+                student_name, student_skills, pi_name, university, grant_title,
+                education=student_education,
             )
 
+        # The Gemini/demo paths produce a real personalized draft; only get_fallback_draft
+        # sets is_fallback. Default it False so the composer can tell them apart.
+        draft.setdefault("is_fallback", False)
         return draft
     except HTTPException as he:
         raise he

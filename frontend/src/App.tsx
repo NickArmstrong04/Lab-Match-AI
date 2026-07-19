@@ -71,7 +71,9 @@ function App() {
   const [studentId, setStudentId] = useState<string>(restored?.studentId ?? '');
   const [studentName, setStudentName] = useState<string>(restored?.studentName ?? '');
   const [studentLocation, setStudentLocation] = useState<string>(restored?.location ?? '');
-  const [resumeName, setResumeName] = useState<string>(restored?.resumeName ?? '');
+  // resumeName is persisted to the session but not rendered in App itself (the composer
+  // no longer takes it), so only the setter is retained.
+  const [, setResumeName] = useState<string>(restored?.resumeName ?? '');
   const [researchInterests, setResearchInterests] = useState(restored?.researchInterests ?? '');
   const [isAuthenticated, setIsAuthenticated] = useState(!!restored?.isAuthenticated);
   const [tempOnboardingData, setTempOnboardingData] = useState<any>(null);
@@ -454,7 +456,6 @@ function App() {
             <EmailReview
               match={activeOutreachMatch}
               studentName={studentName}
-              resumeName={resumeName}
               studentId={studentId}
               onCancel={handleCancelOutreach}
             />
