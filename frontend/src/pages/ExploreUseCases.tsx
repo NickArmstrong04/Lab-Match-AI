@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import type { LucideIcon } from 'lucide-react';
 import { Database, ScanSearch, Mail, GraduationCap, BookOpen } from 'lucide-react';
 import { trackEvent } from '../utils/analytics';
@@ -71,9 +71,6 @@ export const ExploreUseCases: React.FC<ExploreUseCasesProps> = ({ onGetStarted, 
   const active = USE_CASES.find((u) => u.id === activeId) ?? USE_CASES[0];
   const ActiveIcon = active.icon;
 
-  useEffect(() => {
-    trackEvent('view_page', 'explore', 'page_view');
-  }, []);
 
   const handleSelect = (id: UseCaseId) => {
     setActiveId(id);

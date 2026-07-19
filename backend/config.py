@@ -28,6 +28,11 @@ class Settings(BaseSettings):
     jwt_secret: str = ""
     jwt_ttl_seconds: int = 60 * 60 * 24 * 30  # 30 days; the app has no refresh flow
 
+    # Admin secret gating GET /analytics/metrics, which returns per-student PII and drives
+    # launch decisions. If unset the metrics endpoint is DISABLED (503) rather than open,
+    # so an unconfigured deploy fails closed instead of leaking student data to anyone.
+    analytics_admin_secret: str = ""
+
     @property
     def state_signing_key(self) -> str:
         return self.oauth_state_secret or self.google_client_secret or ""

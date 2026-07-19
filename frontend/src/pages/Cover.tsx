@@ -1,5 +1,4 @@
-import React, { useEffect } from 'react';
-import { trackEvent } from '../utils/analytics';
+import React from 'react';
 
 export type CoverNavigate = 'get_started' | 'sign_in' | 'explore';
 
@@ -9,9 +8,6 @@ interface CoverProps {
 
 /** Antigravity-inspired landing: large headline, pill CTAs. */
 export const Cover: React.FC<CoverProps> = ({ onNavigate }) => {
-  useEffect(() => {
-    trackEvent('view_page', 'cover', 'page_view');
-  }, []);
 
   return (
     <div className="cover-page animate-fade-in">

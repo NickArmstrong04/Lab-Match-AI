@@ -89,7 +89,12 @@ export const AnalyticsDashboard: React.FC<AnalyticsDashboardProps> = ({ onViewBa
     try {
       const recordingStart = localStorage.getItem('labmatch_analytics_recording_start');
       const sinceQuery = recordingStart ? `&since=${encodeURIComponent(recordingStart)}` : '';
-      const response = await api.get(`/analytics/metrics?traffic_type=${type}${sinceQuery}`);
+      // /analytics/metrics is admin-gated (it returns per-student data). The secret is
+      // read from a build-time env var set only for local/admin builds -- a public
+      // production bundle must not embed it, so the endpoint stays admin-only there.
+      const adminSecret = import.meta.env.VITE_ANALYTICS_ADMIN_SECRET;
+      const response = await api.get(`/analytics/metrics?traffic_type=${type}${sinceQuery}`,
+        adminSecret ? { headers: { 'X-Admin-Secret': adminSecret } } : {});
       setMetrics(response.data);
     } catch (err: any) {
       console.error(err);

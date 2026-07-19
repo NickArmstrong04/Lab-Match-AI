@@ -71,10 +71,6 @@ export const Onboarding: React.FC<OnboardingProps> = ({
     "Single-cell RNA-sequencing"
   ];
 
-  // Telemetry: Track page view on mount
-  useEffect(() => {
-    trackEvent('view_page', 'onboarding', 'page_view');
-  }, []);
 
   useEffect(() => {
     if (lockReturning) {

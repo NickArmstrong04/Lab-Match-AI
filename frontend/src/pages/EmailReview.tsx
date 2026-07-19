@@ -12,7 +12,9 @@ interface EmailReviewProps {
   studentName: string;
   resumeName: string;
   studentId: string;
-  onCancel: () => void;
+  // didCopy: true when the student took the pitch (copied / handed off / marked sent)
+  // before leaving, so App can tell abandonment from a normal return.
+  onCancel: (didCopy: boolean) => void;
 }
 
 export const EmailReview: React.FC<EmailReviewProps> = ({
@@ -45,10 +47,6 @@ export const EmailReview: React.FC<EmailReviewProps> = ({
   const [isMarkedSent, setIsMarkedSent] = useState(false);
   const [markError, setMarkError] = useState('');
 
-  // Analytics: Track email review page view
-  useEffect(() => {
-    trackEvent('view_page', 'email_review', 'page_view');
-  }, []);
 
   // A deliberately loose check: enough to avoid building a mailto: from obvious junk,
   // but we do not police what the student found on the lab page.
@@ -297,7 +295,7 @@ Elena Rostova`;
       {/* Header breadcrumb control */}
       <div className="flex items-center justify-between mb-6">
         <button
-          onClick={onCancel}
+          onClick={() => onCancel(hasCopied || isMarkedSent)}
           className="flex items-center gap-1.5 p-0 border-0 bg-transparent text-xs font-semibold text-stone-600 transition-colors hover:text-blue-600 cursor-pointer"
         >
           <ArrowLeft className="w-4 h-4" /> Return to Dashboard
@@ -533,7 +531,7 @@ Elena Rostova`;
               {/* Control buttons */}
               <div className="flex items-center justify-between border-t border-stone-200 pt-4 mt-2">
                 <button
-                  onClick={onCancel}
+                  onClick={() => onCancel(hasCopied || isMarkedSent)}
                   className="px-4 py-2 rounded-lg text-stone-600 hover:text-stone-900 hover:bg-stone-100 transition-colors text-xs font-semibold inline-flex items-center justify-center gap-2 cursor-pointer"
                 >
                   <ArrowLeft className="w-3.5 h-3.5" /> Back to Swiper

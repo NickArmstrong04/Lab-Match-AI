@@ -99,8 +99,17 @@ function App() {
     trackEvent('session_start', 'onboarding', 'action');
   }, []);
 
+  // Single source of view_page telemetry. Each page component also fired its own on
+  // mount, so every view was logged twice -- and GetStarted/SignIn render Onboarding, so
+  // one landing logged two page names. Emitting once here, mapped to the canonical page
+  // names the metrics aggregator keys on, removes both problems.
   useEffect(() => {
-    trackEvent('view_page', view, 'page_view');
+    type PageName = 'cover' | 'onboarding' | 'explore' | 'dashboard' | 'email_review' | 'analytics';
+    const VIEW_TO_PAGE: Record<View, PageName> = {
+      cover: 'cover', get_started: 'onboarding', sign_in: 'onboarding', explore: 'explore',
+      onboarding: 'onboarding', dashboard: 'dashboard', email_review: 'email_review', analytics: 'analytics',
+    };
+    trackEvent('view_page', VIEW_TO_PAGE[view], 'page_view');
   }, [view]);
 
   // Matches states
@@ -232,8 +241,11 @@ function App() {
     setView('cover');
   };
 
-  const handleCancelOutreach = () => {
-    if (activeOutreachMatch) {
+  const handleCancelOutreach = (didCopy = false) => {
+    // Only log abandonment when the student left WITHOUT taking the pitch. This used to
+    // fire unconditionally, so someone who copied their pitch and went back to swipe more
+    // was counted identically to someone who bailed -- making email_cancelled meaningless.
+    if (activeOutreachMatch && !didCopy) {
       trackEvent('email_cancelled', 'email_review', 'action', {
         grant_id: activeOutreachMatch.id,
         pi_name: activeOutreachMatch.pi_name

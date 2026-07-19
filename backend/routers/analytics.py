@@ -1,11 +1,32 @@
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, HTTPException, Header
 from typing import Optional, Dict, Any, List
 from pydantic import BaseModel
 from datetime import datetime
 
 from ..database import get_db
+from ..config import settings
 
 router = APIRouter()
+
+
+def require_analytics_admin(x_admin_secret: Optional[str] = Header(None)) -> None:
+    """Gate the metrics read behind an admin secret.
+
+    /metrics returns per-student PII (ids, resume filenames, tester names) and the numbers
+    launch decisions rest on, and it had no auth at all. Fails CLOSED: if the secret is
+    unset the endpoint is disabled rather than open, so an unconfigured deploy can't leak
+    student data. The secret lives server-side; the dev dashboard sends it from a local
+    env var and a public production build must not embed it.
+
+    /analytics/log is deliberately NOT gated -- it is anonymous browser telemetry that
+    fires before login (session_start, view_page), so a real secret can't reach it and a
+    client-embedded one wouldn't be secret. The genuine exposure was the READ, closed here.
+    """
+    import hmac
+    if not settings.analytics_admin_secret:
+        raise HTTPException(status_code=503, detail="Analytics metrics are not configured.")
+    if not x_admin_secret or not hmac.compare_digest(x_admin_secret, settings.analytics_admin_secret):
+        raise HTTPException(status_code=403, detail="Admin access required.")
 
 class EventLog(BaseModel):
     session_id: str
@@ -44,60 +65,34 @@ async def log_event(event: EventLog):
         return {"status": "error", "message": str(e)}
 
 @router.get("/metrics")
-async def get_metrics(traffic_type: str = "all", since: Optional[str] = None):
+async def get_metrics(
+    traffic_type: str = "all",
+    since: Optional[str] = None,
+    _admin: None = __import__("fastapi").Depends(require_analytics_admin),
+):
     """
     Fetch analytics events from database and calculate conversion funnels, session trajectory metrics,
-    and engagement counts.
+    and engagement counts. Admin-only (see require_analytics_admin).
     """
     db = get_db()
     try:
-        # Retrieve the most recent 5000 events to compute metrics
-        response = db.table("analytics_events") \
-            .select("session_id, student_id, event_type, event_name, page_name, metadata, created_at") \
-            .order("created_at", desc=True) \
-            .limit(5000) \
-            .execute()
-        
-        all_events = response.data or []
-        
-        # Filter events if 'since' timestamp is provided
+        # Push the `since` window into the QUERY instead of pulling the latest 5000 rows
+        # and filtering in Python. The old approach silently truncated every funnel once
+        # traffic passed 5000 events -- the metrics would quietly start under-counting.
+        query = (
+            db.table("analytics_events")
+            .select("session_id, student_id, event_type, event_name, page_name, metadata, created_at")
+            .order("created_at", desc=True)
+        )
         if since:
             try:
-                # Convert since to naive UTC
                 since_clean = since.replace("Z", "+00:00")
-                if '+' not in since_clean and '-' not in since_clean[-6:]:
-                    since_clean += '+00:00'
-                
-                from datetime import timezone as dt_timezone
-                since_aware = datetime.fromisoformat(since_clean)
-                since_utc = since_aware.astimezone(dt_timezone.utc).replace(tzinfo=None)
-                
-                def to_naive_utc(dt_str) -> datetime:
-                    if not dt_str:
-                        return datetime.min
-                    try:
-                        clean = str(dt_str).replace("Z", "+00:00")
-                        if " " in clean and "T" not in clean:
-                            clean = clean.replace(" ", "T")
-                        dt = datetime.fromisoformat(clean)
-                        if dt.tzinfo is not None:
-                            return dt.astimezone(dt_timezone.utc).replace(tzinfo=None)
-                        return dt
-                    except:
-                        return datetime.min
-
-                filtered_events = []
-                for e in all_events:
-                    try:
-                        event_dt = to_naive_utc(e.get("created_at"))
-                        if event_dt >= since_utc:
-                            filtered_events.append(e)
-                    except Exception as event_err:
-                        print(f"[Warning] Error filtering event: {event_err}")
-                all_events = filtered_events
+                query = query.gte("created_at", datetime.fromisoformat(since_clean).isoformat())
             except Exception as e:
-                print(f"[Warning] Failed to initialize since filter for {since}: {e}")
-        
+                print(f"[Warning] Ignoring unparseable since={since!r}: {e}")
+
+        all_events = (query.execute().data) or []
+
         # Calculate overall distinct session IDs and test/real breakdowns across all events
         real_sessions = set()
         test_sessions = set()
@@ -319,6 +314,25 @@ async def get_metrics(traffic_type: str = "all", since: Optional[str] = None):
             }
         }
 
+        # Prune the activity timeline. It used to return each event's student_id and its
+        # raw metadata, which carries PII (resume filenames, names, locations, interests).
+        # Drop student_id and keep only an allowlist of non-PII metadata keys.
+        SAFE_META_KEYS = {
+            "is_test", "tester_name", "variant", "answer", "price", "target",
+            "save_method", "has_parser_error", "synthesis_duration_ms",
+            "decision_duration_ms", "draft_modified_chars_diff",
+        }
+
+        def sanitize_event(e: dict) -> dict:
+            meta = e.get("metadata") or {}
+            return {
+                "event_type": e.get("event_type"),
+                "event_name": e.get("event_name"),
+                "page_name": e.get("page_name"),
+                "created_at": e.get("created_at"),
+                "metadata": {k: v for k, v in meta.items() if k in SAFE_META_KEYS},
+            }
+
         # Calculate general trajectory percentages relative to onboarding page landings
         metrics = {
             "total_sessions": total_sessions,
@@ -346,7 +360,7 @@ async def get_metrics(traffic_type: str = "all", since: Optional[str] = None):
                 "avg_draft_modified_chars_diff": round(sum(draft_diffs) / len(draft_diffs), 1) if draft_diffs else 0.0,
                 "parser_error_rate": round((parser_errors / total_onboardings_with_synthesis * 100), 1) if total_onboardings_with_synthesis > 0 else 0.0
             },
-            "recent_events": events[:30]  # The latest 30 actions for the activity timeline
+            "recent_events": [sanitize_event(e) for e in events[:30]]  # timeline, PII stripped
         }
         return metrics
         

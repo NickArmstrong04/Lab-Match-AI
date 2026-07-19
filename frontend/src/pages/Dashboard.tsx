@@ -176,10 +176,6 @@ export const Dashboard: React.FC<DashboardProps> = ({
   // must not re-run the effect that calls loadMoreMatches.
   const autoLoadAttempts = useRef(0);
 
-  // Analytics: Track dashboard page view
-  useEffect(() => {
-    trackEvent('view_page', 'dashboard', 'page_view');
-  }, []);
 
   // Load matches deck and rebuild queues based on database status on mount, and reload when location filters change
   useEffect(() => {
