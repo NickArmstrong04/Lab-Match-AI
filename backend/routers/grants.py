@@ -969,6 +969,57 @@ async def reset_skipped_matches(
         raise HTTPException(status_code=500, detail=f"Failed to reset skipped matches: {str(e)}")
 
 
+class UndoSwipeRequest(BaseModel):
+    student_id: str
+    grant_id: str
+
+
+@router.post("/matches/undo")
+async def undo_swipe(
+    req: UndoSwipeRequest,
+    caller_id: Optional[str] = Depends(get_optional_student_id)
+):
+    """
+    Undo a single swipe: delete this student's match row for one grant.
+
+    An accidental left-swipe permanently hid a lab -- match_grants excludes swiped
+    grants server-side (Task 10), so the only way a card returns to the deck is if its
+    match row is gone. Deleting one row is exactly that, scoped to (student, grant).
+
+    Refuses to undo a grant already marked 'emailed': outreach was recorded against it,
+    so silently dropping the match would strand the outreach_logs row. Undo is for
+    swipe mistakes, not for un-sending.
+    """
+    validate_uuid(req.student_id, "student_id")
+    validate_uuid(req.grant_id, "grant_id")
+    authorize_student(req.student_id, caller_id)
+
+    if req.student_id in _demo_decks():
+        return {"status": "success", "undone": False}
+
+    try:
+        db = get_db()
+        existing = (
+            db.table("matches")
+            .select("id, status")
+            .eq("student_id", req.student_id)
+            .eq("grant_id", req.grant_id)
+            .execute()
+        )
+        rows = getattr(existing, "data", None) or []
+        if not rows:
+            return {"status": "success", "undone": False}
+        if rows[0].get("status") == "emailed":
+            raise HTTPException(status_code=409, detail="This lab has recorded outreach and can't be undone.")
+
+        db.table("matches").delete().eq("id", rows[0]["id"]).execute()
+        return {"status": "success", "undone": True}
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to undo swipe: {str(e)}")
+
+
 class MatchStateRequest(BaseModel):
     student_id: str
     grant_id: str

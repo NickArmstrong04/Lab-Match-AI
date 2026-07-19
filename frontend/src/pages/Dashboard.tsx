@@ -96,6 +96,19 @@ export const Dashboard: React.FC<DashboardProps> = ({
   const [isDragging, setIsDragging] = useState(false);
   const [dragStart, setDragStart] = useState<{ x: number; y: number } | null>(null);
   const [dragOffset, setDragOffset] = useState<{ x: number; y: number }>({ x: 0, y: 0 });
+  // Touch axis lock: null until the first move decides horizontal (swipe) vs vertical
+  // (let the abstract scroll). A drag starting on the scrollable body used to hijack
+  // vertical scrolls as swipes.
+  const dragAxis = useRef<'horizontal' | 'vertical' | null>(null);
+
+  // In-flight guard: a double-click / rapid tap used to fire two swipes against a stale
+  // count. A ref (not state) so re-entry is blocked synchronously, before any re-render.
+  const swipingRef = useRef(false);
+
+  // The last swipe, kept ~8s so an accidental skip can be undone (a left swipe used to
+  // hide a lab permanently, since the deck excludes swiped grants server-side).
+  const [lastSwipe, setLastSwipe] = useState<{ card: GrantMatch; direction: 'left' | 'right' } | null>(null);
+  const undoTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   // A local selected card ID if the user clicks a saved card to inspect it
   const [inspectedMatch, setInspectedMatch] = useState<GrantMatch | null>(null);
@@ -368,8 +381,33 @@ export const Dashboard: React.FC<DashboardProps> = ({
     }
   }, [currentMatch?.id]);
 
+  // Keyboard control (also an accessibility gap -- there were no key handlers anywhere).
+  // Left = skip, Right = save, Enter = draft outreach, Esc = undo or leave inspect.
+  // Ignored while typing in the proximity search or the composer.
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      const el = e.target as HTMLElement | null;
+      if (el && (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA' || el.isContentEditable)) return;
+      if (showPaywall) return;
+      if (e.key === 'Escape') {
+        if (inspectedMatch) { setInspectedMatch(null); }
+        else if (lastSwipe) { handleUndo(); }
+        return;
+      }
+      if (inspectedMatch || !currentMatch) return;
+      if (e.key === 'ArrowLeft') { e.preventDefault(); handleSwipe('left'); }
+      else if (e.key === 'ArrowRight') { e.preventDefault(); handleSwipe('right'); }
+      else if (e.key === 'Enter') { e.preventDefault(); onInitiateOutreach(currentMatch); }
+    };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  });
+
   const handleSwipe = async (direction: 'left' | 'right') => {
     if (!currentMatch || inspectedMatch) return;
+    // In-flight guard: block a second swipe until this one's animation completes, so a
+    // double-click can't fire twice against a stale count / advance two cards.
+    if (swipingRef.current) return;
 
     const limit = hasFeedbackToday ? 20 : 2;
     if (swipeCount >= limit) {
@@ -377,30 +415,30 @@ export const Dashboard: React.FC<DashboardProps> = ({
       return;
     }
 
+    swipingRef.current = true;
+    const card = currentMatch;  // capture before the deck advances
     setSwipeDirection(direction);
     const targetStatus = direction === 'right' ? 'saved' : 'skipped';
 
     const decision_duration_ms = Date.now() - cardLoadedTime;
 
-    // Telemetry: log swipe interaction
     trackEvent(direction === 'right' ? 'swipe_saved' : 'swipe_skipped', 'dashboard', 'action', {
-      grant_id: currentMatch.id,
-      pi_name: currentMatch.pi_name,
-      institution: currentMatch.institution,
-      score: currentMatch.score,
-      title: currentMatch.title,
+      grant_id: card.id,
+      pi_name: card.pi_name,
+      institution: card.institution,
+      score: card.score,
+      title: card.title,
       decision_duration_ms
     });
 
     try {
-      // Background-persist swipe state in Supabase via FastAPI router.
-      // match_score carries the score actually shown on this card, so the sidebar and
-      // the funnel record what the student saw rather than a re-derived number.
+      // match_score carries the score actually shown, so the sidebar and funnel record
+      // what the student saw rather than a re-derived number.
       api.post('/grants/matches/state', {
         student_id: studentId,
-        grant_id: currentMatch.id,
+        grant_id: card.id,
         status: targetStatus,
-        match_score: currentMatch.score,
+        match_score: card.score,
       })
         .then(() => { if (direction === 'right') refreshSavedMatches(); })
         .catch(err => console.error("Failed to sync match state in database:", err));
@@ -408,33 +446,63 @@ export const Dashboard: React.FC<DashboardProps> = ({
       console.error(err);
     }
 
-    // Wait for animation to finish
+    // Offer an undo for the next ~8 seconds.
+    if (undoTimerRef.current) clearTimeout(undoTimerRef.current);
+    setLastSwipe({ card, direction });
+    undoTimerRef.current = setTimeout(() => setLastSwipe(null), 8000);
+
+    // Wait for the animation to finish, then commit the queue + count.
     setTimeout(() => {
       if (direction === 'right') {
-        // Save
-        setSavedMatches((prev) => {
-          if (prev.some((s) => s.id === currentMatch.id)) return prev;
-          return [...prev, currentMatch];
-        });
+        setSavedMatches((prev) => (prev.some((s) => s.id === card.id) ? prev : [...prev, card]));
       } else {
-        // Skip
-        setSkippedMatches((prev) => {
-          if (prev.includes(currentMatch.id)) return prev;
-          return [...prev, currentMatch.id];
-        });
+        setSkippedMatches((prev) => (prev.includes(card.id) ? prev : [...prev, card.id]));
       }
       setSwipeDirection(null);
 
-      // Increment swipe count and persist in localStorage
-      const nextCount = swipeCount + 1;
-      setSwipeCount(nextCount);
-      localStorage.setItem(getTodayKey(), String(nextCount));
+      // Functional update: never double-count off a stale closure value.
+      setSwipeCount((c) => {
+        const next = c + 1;
+        localStorage.setItem(getTodayKey(), String(next));
+        return next;
+      });
 
-      // Reset index if we are swiping the last card
       if (currentIndex >= activeDeck.length - 1) {
         setCurrentIndex(0);
       }
+      swipingRef.current = false;
     }, 400);
+  };
+
+  /**
+   * Undo the last swipe: drop it from the local queue and delete the match row so the
+   * card returns to the deck. Also refunds the daily swipe count -- an undone swipe
+   * shouldn't burn one of two free evaluations.
+   */
+  const handleUndo = async () => {
+    const swipe = lastSwipe;
+    if (!swipe) return;
+    if (undoTimerRef.current) clearTimeout(undoTimerRef.current);
+    setLastSwipe(null);
+
+    if (swipe.direction === 'right') {
+      setSavedMatches((prev) => prev.filter((s) => s.id !== swipe.card.id));
+    } else {
+      setSkippedMatches((prev) => prev.filter((id) => id !== swipe.card.id));
+    }
+    setSwipeCount((c) => {
+      const next = Math.max(0, c - 1);
+      localStorage.setItem(getTodayKey(), String(next));
+      return next;
+    });
+    trackEvent('swipe_undo', 'dashboard', 'action', { grant_id: swipe.card.id, direction: swipe.direction });
+
+    try {
+      await api.post('/grants/matches/undo', { student_id: studentId, grant_id: swipe.card.id });
+      if (swipe.direction === 'right') refreshSavedMatches();
+    } catch (err) {
+      console.error('Failed to undo swipe:', err);
+    }
   };
 
   const handleSelectSaved = (match: GrantMatch) => {
@@ -509,6 +577,23 @@ export const Dashboard: React.FC<DashboardProps> = ({
   return (
     <div className="w-full max-w-7xl mx-auto px-4 py-6 animate-fade-in">
       <PaywallModal isOpen={showPaywall} onClose={handlePaywallClose} />
+
+      {/* Undo pill: an accidental swipe (especially a left-swipe that hides a lab) is
+          recoverable for ~8s. Also reachable via Esc. */}
+      {lastSwipe && (
+        <div className="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 flex items-center gap-3 bg-stone-900 text-white rounded-full pl-4 pr-2 py-2 shadow-xl animate-fade-in">
+          <span className="text-xs font-medium">
+            {lastSwipe.direction === 'right' ? 'Saved' : 'Skipped'} {lastSwipe.card.pi_name}
+          </span>
+          <button
+            type="button"
+            onClick={handleUndo}
+            className="text-xs font-bold bg-white/15 hover:bg-white/25 rounded-full px-3 py-1 inline-flex items-center gap-1 cursor-pointer transition-colors"
+          >
+            <ArrowLeft className="w-3.5 h-3.5" /> Undo
+          </button>
+        </div>
+      )}
       <div className="flex flex-col lg:flex-row gap-8 min-h-0">
         
         {/* Left 25% Sidebar — locked height; saved list scrolls inside */}
@@ -697,22 +782,36 @@ export const Dashboard: React.FC<DashboardProps> = ({
               onTouchStart={(e) => {
                 if (inspectedMatch) return;
                 setIsDragging(true);
+                dragAxis.current = null;  // decided on first move
                 setDragStart({ x: e.touches[0].clientX, y: e.touches[0].clientY });
               }}
               onTouchMove={(e) => {
                 if (!isDragging || !dragStart) return;
-                setDragOffset({
-                  x: e.touches[0].clientX - dragStart.x,
-                  y: e.touches[0].clientY - dragStart.y,
-                });
+                const dx = e.touches[0].clientX - dragStart.x;
+                const dy = e.touches[0].clientY - dragStart.y;
+                // Lock the axis once movement clears a small threshold. If the gesture is
+                // vertical, bail out of dragging so the abstract scrolls normally.
+                if (dragAxis.current === null && (Math.abs(dx) > 10 || Math.abs(dy) > 10)) {
+                  dragAxis.current = Math.abs(dx) > Math.abs(dy) ? 'horizontal' : 'vertical';
+                  if (dragAxis.current === 'vertical') {
+                    setIsDragging(false);
+                    setDragStart(null);
+                    return;
+                  }
+                }
+                if (dragAxis.current === 'horizontal') {
+                  setDragOffset({ x: dx, y: dy });
+                }
               }}
               onTouchEnd={() => {
                 if (!isDragging) return;
                 setIsDragging(false);
                 setDragStart(null);
-                if (dragOffset.x > 140) {
+                const wasHorizontal = dragAxis.current === 'horizontal';
+                dragAxis.current = null;
+                if (wasHorizontal && dragOffset.x > 140) {
                   handleSwipe('right');
-                } else if (dragOffset.x < -140) {
+                } else if (wasHorizontal && dragOffset.x < -140) {
                   handleSwipe('left');
                 }
                 setDragOffset({ x: 0, y: 0 });
@@ -883,6 +982,13 @@ export const Dashboard: React.FC<DashboardProps> = ({
                       <span className="text-stone-500 text-xs italic">
                         Swipe deck: {currentIndex + 1} of {activeDeck.length} matching
                       </span>
+                      {/* Warn before the paywall ambush: the free limit is 2/day and a
+                          new student's third swipe used to be a surprise paywall. */}
+                      {!hasFeedbackToday && (
+                        <span className="text-[11px] font-semibold text-amber-800 bg-amber-50 border border-amber-200 rounded-full px-2.5 py-1">
+                          {Math.max(0, 2 - swipeCount)} of 2 free evaluations left today
+                        </span>
+                      )}
                     </div>
                   ) : (
                     <div className="flex items-center gap-3">
