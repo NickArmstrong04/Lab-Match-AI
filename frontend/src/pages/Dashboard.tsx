@@ -33,7 +33,9 @@ export const formatHorizon = (start?: string | null, end?: string | null): strin
 export interface GrantMatch {
   id: string;
   pi_name: string;
-  pi_lookup_url: string;
+  // Null when the PI was never resolved (USAspending awards with failed PI resolution).
+  // The card shows "PI not yet identified" rather than a dead-end lookup link.
+  pi_lookup_url: string | null;
   institution: string;
   department: string;
   title: string;
@@ -548,23 +550,44 @@ export const Dashboard: React.FC<DashboardProps> = ({
     setIsSyncing(true);
     setSyncStatus('idle');
     try {
-      await api.post('/grants/ingest', { 
-        keywords: ["CRISPR", "Microfluidics", "Machine Learning", "Bioinformatics", "Neurobiology"] 
-      });
+      // Ingest keywords derived from THIS student's interests/skills, not five hardcoded
+      // topics unrelated to them. Falls back to their raw interests text if no skills.
+      const skillKeywords = (currentMatch?.matching_skills || [])
+        .concat((savedMatches[0]?.matching_skills) || []);
+      const derived = Array.from(new Set(
+        (skillKeywords.length ? skillKeywords : researchInterests.split(/[,;]/))
+          .map((k) => k.trim())
+          .filter((k) => k.length > 2)
+      )).slice(0, 5);
+
+      await api.post('/grants/ingest', { keywords: derived.length ? derived : undefined });
       setSyncStatus('success');
-      
-      // Wait for background ingestion to index and refresh deck
-      setTimeout(async () => {
-        setSyncStatus('idle');
+
+      // Ingestion runs in the background and takes minutes, not 3s. Poll the grant count
+      // via /healthz and refetch the deck when it grows -- WITHOUT dropping the active
+      // filters (the old reload hit /grants/matches with no local_only/location filter,
+      // so a filtered view silently reset).
+      let baseline: number | null = null;
+      try {
+        baseline = (await api.get('/healthz')).data?.grants?.total ?? null;
+      } catch { /* healthz optional */ }
+
+      let polls = 0;
+      const poll = setInterval(async () => {
+        polls += 1;
         try {
-          const reloadResp = await api.get(`/grants/matches?student_id=${studentId}&threshold=0.2&limit=10`);
-          if (reloadResp.data && reloadResp.data.length > 0) {
-            setDeckMatches(reloadResp.data);
+          const total = (await api.get('/healthz')).data?.grants?.total ?? null;
+          if ((baseline !== null && total !== null && total > baseline) || polls >= 12) {
+            clearInterval(poll);
+            setSyncStatus('idle');
+            if (total && baseline && total > baseline) {
+              setDeckReloadKey((k) => k + 1); // refetch through the normal filtered path
+            }
           }
-        } catch (rErr) {
-          console.error("Failed to reload deck after sync:", rErr);
+        } catch {
+          if (polls >= 12) { clearInterval(poll); setSyncStatus('idle'); }
         }
-      }, 3000);
+      }, 5000);  // up to ~60s
     } catch (err) {
       console.error(err);
       setSyncStatus('error');
@@ -924,15 +947,20 @@ export const Dashboard: React.FC<DashboardProps> = ({
                       <div className="text-stone-500 text-xs font-medium uppercase tracking-wider">
                         PI Contact
                       </div>
-                      <a
-                        href={currentMatch.pi_lookup_url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        onMouseDown={(e) => e.stopPropagation()}
-                        className="text-[#0d5c5c] font-semibold text-xs inline-flex items-center gap-1 hover:underline"
-                      >
-                        Find PI Contact <ExternalLink className="w-3 h-3 shrink-0" />
-                      </a>
+                      {currentMatch.pi_lookup_url ? (
+                        <a
+                          href={currentMatch.pi_lookup_url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          onMouseDown={(e) => e.stopPropagation()}
+                          className="text-[#0d5c5c] font-semibold text-xs inline-flex items-center gap-1 hover:underline"
+                        >
+                          Find PI Contact <ExternalLink className="w-3 h-3 shrink-0" />
+                        </a>
+                      ) : (
+                        // No PI on the funding record yet — honest instead of a dead-end search.
+                        <span className="text-stone-500 text-xs italic">PI not yet identified on this award</span>
+                      )}
                       <p className="text-stone-400 text-[10px] leading-snug">
                         Verify the PI's email on their lab page before sending.
                       </p>

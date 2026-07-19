@@ -153,13 +153,28 @@ def fetch_existing_match_rows(db, student_id: str) -> dict:
     return {}
 
 
-def build_pi_lookup_url(pi_name: str, university: str) -> str:
+PI_UNRESOLVED = "Dr. Unknown Investigator"
+
+
+def pi_is_resolved(pi_name: Optional[str]) -> bool:
+    """False when we never identified the PI (USAspending awards whose PI resolution
+    failed keep this placeholder). Such a card has no real person to look up."""
+    return bool(pi_name) and pi_name.strip() != PI_UNRESOLVED
+
+
+def build_pi_lookup_url(pi_name: str, university: str) -> Optional[str]:
     """
     Search link the student can use to find the PI's real contact info on their
     lab page. We never guess or fabricate email addresses — the award APIs do
     not provide them, and a wrong guess sends a student's cold email to a
     stranger or a dead inbox.
+
+    Returns None when the PI is unresolved: a Google search for "Unknown Investigator
+    ... lab contact" is a useless link, so the card surfaces "PI not yet identified"
+    instead of sending the student on a dead-end hunt.
     """
+    if not pi_is_resolved(pi_name):
+        return None
     clean_pi = pi_name.replace("Dr. ", "").replace("Dr.", "").strip()
     query = f'"{clean_pi}" {university} lab contact'
     return f"https://www.google.com/search?q={quote_plus(query)}"

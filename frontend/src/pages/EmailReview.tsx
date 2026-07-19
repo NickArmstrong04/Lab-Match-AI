@@ -407,14 +407,21 @@ Elena Rostova`;
 
               {/* To & Subject Inputs */}
               <div className="space-y-3 text-sm">
-                <a
-                  href={match.pi_lookup_url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-[#0d5c5c] font-semibold text-xs inline-flex items-center gap-1 hover:underline"
-                >
-                  Find {match.pi_name}'s email on their lab page <ExternalLink className="w-3 h-3 shrink-0" />
-                </a>
+                {match.pi_lookup_url ? (
+                  <a
+                    href={match.pi_lookup_url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-[#0d5c5c] font-semibold text-xs inline-flex items-center gap-1 hover:underline"
+                  >
+                    Find {match.pi_name}'s email on their lab page <ExternalLink className="w-3 h-3 shrink-0" />
+                  </a>
+                ) : (
+                  // PI unresolved on the funding record; don't send them on a dead-end search.
+                  <span className="text-stone-500 text-xs italic">
+                    This award doesn't list a named PI yet — you may need to look up the lab directly.
+                  </span>
+                )}
                 <div className="flex items-center gap-3 bg-stone-50 border border-stone-200 px-3.5 py-2.5 rounded-lg">
                   <span className="text-stone-500 font-semibold w-12 text-right font-mono text-xs">To:</span>
                   <input

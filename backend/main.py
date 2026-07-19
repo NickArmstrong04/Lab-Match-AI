@@ -1,3 +1,5 @@
+import datetime
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
@@ -91,3 +93,56 @@ async def shutdown_scheduler():
 @app.get("/")
 async def root():
     return {"message": "Welcome to LabMatch AI API"}
+
+
+@app.get("/healthz")
+async def healthz():
+    """
+    Readiness + ingestion-health report.
+
+    Surfaces dependency config status and the ingestion signals that were previously
+    invisible: per-source grant counts, the generated-vs-verbatim abstract ratio, the
+    count of still-unresolved PIs, and how stale the corpus is. Catches Task 2/3/23
+    regressions (a starved source, a spike in AI-written abstracts, dead loaders) before
+    a student ever sees a degraded deck.
+    """
+    from .config import settings
+    from .database import get_db
+
+    report = {
+        "status": "ok",
+        "config": {
+            "supabase": bool(settings.supabase_url and settings.supabase_key),
+            "gemini": bool(settings.gemini_api_key),
+            "google_oauth": bool(settings.google_client_id and settings.google_client_id != "mock_client_id"),
+            "jwt": bool(settings.jwt_secret),
+            "analytics_admin": bool(settings.analytics_admin_secret),
+        },
+        "grants": {},
+    }
+
+    try:
+        db = get_db()
+        total = db.table("labs_cached_grants").select("id", count="exact").limit(1).execute().count or 0
+        active = (
+            db.table("labs_cached_grants").select("id", count="exact")
+            .or_(f"end_date.is.null,end_date.gte.{datetime.date.today().isoformat()}")
+            .limit(1).execute().count or 0
+        )
+        generated = db.table("labs_cached_grants").select("id", count="exact").eq("abstract_is_generated", True).limit(1).execute().count or 0
+        unresolved_pi = db.table("labs_cached_grants").select("id", count="exact").eq("pi_name", "Dr. Unknown Investigator").limit(1).execute().count or 0
+
+        report["grants"] = {
+            "total": total,
+            "active": active,
+            "ended": total - active,
+            "abstracts_ai_generated": generated,
+            "abstracts_verbatim": total - generated,
+            "generated_ratio": round(generated / total, 3) if total else 0.0,
+            "unresolved_pis": unresolved_pi,
+        }
+    except Exception as e:
+        report["status"] = "degraded"
+        report["grants"] = {"error": str(e)}
+
+    return report

@@ -827,22 +827,30 @@ def run_grant_ingestion(keywords: List[str] = None, pages: int = 10, limit_per_p
     
     inserted_count = 0
     skipped_count = 0
-    
+    # Per-source fetch tallies. A source that fetches 0 across an entire run is almost
+    # certainly failing (blocked / changed API), not legitimately empty -- the fetchers
+    # swallow their errors and return [], so without this a starved source is invisible.
+    fetched_by_source = {"NIH": 0, "NSF": 0, "USASpending": 0}
+
     for kw_idx, keyword in enumerate(keywords):
         print(f"\n[{kw_idx + 1}/{len(keywords)}] Querying keyword: '{keyword}'...")
-        
+
         for page in range(pages):
             offset = page * limit_per_page
             print(f"  Fetching page {page + 1}/{pages} (offset: {offset})...")
-            
+
             # Fetch from NIH, NSF, and USAspending
             nih_list = fetch_nih_grants(keyword, limit=limit_per_page, offset=offset)
             nsf_list = fetch_nsf_grants(keyword, limit=limit_per_page, offset=offset)
-            
+
             usa_list = []
             for agency in agencies:
                 usa_list += fetch_usaspending_grants(agency, keyword, limit=limit_per_page, offset=offset)
-                
+
+            fetched_by_source["NIH"] += len(nih_list)
+            fetched_by_source["NSF"] += len(nsf_list)
+            fetched_by_source["USASpending"] += len(usa_list)
+
             batch_grants = nih_list + nsf_list + usa_list
             
             # Filter batch grants to get new ones
@@ -882,10 +890,17 @@ def run_grant_ingestion(keywords: List[str] = None, pages: int = 10, limit_per_p
                 else:
                     print("  No grants successfully processed in this batch.")
                     
-    print(f"\nIngestion complete: {inserted_count} inserted, {skipped_count} skipped/failed.")
+    # A source that returned nothing across the whole run is flagged as a likely failure.
+    starved_sources = [s for s, n in fetched_by_source.items() if n == 0]
+    for s in starved_sources:
+        warnings.warn(f"Ingestion source '{s}' returned 0 grants across all keywords -- likely a failing/blocked API, not empty results.")
+
+    print(f"\nIngestion complete: {inserted_count} inserted, {skipped_count} skipped/failed. By source fetched: {fetched_by_source}")
     return {
         "status": "success",
         "inserted": inserted_count,
         "skipped": skipped_count,
+        "by_source": fetched_by_source,
+        "starved_sources": starved_sources,
         "message": f"Successfully ingested {inserted_count} awards (skipped/existing: {skipped_count})."
     }
