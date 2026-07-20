@@ -315,29 +315,6 @@ def fetch_grant_details(db, grant_ids: List[str]) -> dict:
     return {}
 
 
-def compute_recommended_role(methodologies: list, student_roles: list) -> str:
-    """Pick a role suggestion from the student's roles based on the grant's methods.
-    Shared by every card path (was copy-pasted at each)."""
-    role = student_roles[0] if student_roles else "Research Assistant"
-    if len(student_roles) > 1:
-        methods_l = [m.lower() for m in (methodologies or [])]
-        if any("modeling" in m or "ml" in m or "ai" in m for m in methods_l):
-            role = next((r for r in student_roles if any(k in r.lower() for k in ("ml", "modeling", "computational"))), student_roles[0])
-        elif any("bio" in m or "wet" in m or "crispr" in m for m in methods_l):
-            role = next((r for r in student_roles if any(k in r.lower() for k in ("bio", "tech", "wet"))), student_roles[0])
-    return role
-
-
-def build_score_components(semantic=None, keyword=None, campus_boost=0) -> dict:
-    """The {semantic, keyword, campus_boost} breakdown behind a displayed score, so the
-    number is explainable (and the silent +30 home-campus boost is visible)."""
-    return {
-        "semantic": clamp_score(semantic) if semantic is not None else None,
-        "keyword": clamp_score(keyword) if keyword is not None else None,
-        "campus_boost": int(campus_boost or 0),
-    }
-
-
 def format_match_card(grant: dict, *, score, score_components: dict,
                       student_skills: list, student_roles: list,
                       location_match: bool = False, status=None, pi_email=None,
@@ -360,6 +337,14 @@ def format_match_card(grant: dict, *, score, score_components: dict,
     pi_name = grant.get("pi_name") or "N/A"
     university = grant.get("university") or "N/A"
     funding_source = grant.get("funding_source") or "NIH"
+    # Role suggestion drawn from the student's own roles, weighted by the grant's methods.
+    recommended_role = student_roles[0] if student_roles else "Research Assistant"
+    if len(student_roles) > 1:
+        methods_l = [m.lower() for m in methodologies]
+        if any("modeling" in m or "ml" in m or "ai" in m for m in methods_l):
+            recommended_role = next((r for r in student_roles if any(k in r.lower() for k in ("ml", "modeling", "computational"))), student_roles[0])
+        elif any("bio" in m or "wet" in m or "crispr" in m for m in methods_l):
+            recommended_role = next((r for r in student_roles if any(k in r.lower() for k in ("bio", "tech", "wet"))), student_roles[0])
     return {
         "id": grant.get("id"),
         "pi_name": pi_name,
@@ -384,7 +369,7 @@ def format_match_card(grant: dict, *, score, score_components: dict,
         "matching_skills": matching_skills,
         "missing_skills": missing_skills,
         "methodologies": methodologies,              # Keep for test compatibility
-        "recommended_role": compute_recommended_role(methodologies, student_roles),
+        "recommended_role": recommended_role,
         "location_match": location_match,
         "status": status,
         "pi_email": pi_email,
