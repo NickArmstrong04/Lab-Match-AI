@@ -112,15 +112,32 @@ def run(apply: bool, limit: int):
     print("====================================================\n")
 
     db = get_db()
-    query = (
-        db.table("labs_cached_grants")
-        .select("id, grant_title, university, award_id")
-        .eq("funding_source", "NIH")
-        .is_("award_id", "null")
-    )
-    if limit:
-        query = query.limit(limit)
-    rows = getattr(query.execute(), "data", None) or []
+    # Page through ALL matching rows. PostgREST caps a single response at 1000 rows by
+    # default, so a bare .execute() silently returns only the first 1000 -- the exact
+    # silent-truncation trap this repo warns about (it once left ~5600 NIH rows unbackfilled
+    # while reporting "done"). We gather every id up front (order by id + .range()), then
+    # process; because we collect before writing, filling award_id can't shift the paging.
+    PAGE = 1000
+    rows = []
+    start = 0
+    while True:
+        batch = getattr(
+            db.table("labs_cached_grants")
+            .select("id, grant_title, university, award_id")
+            .eq("funding_source", "NIH")
+            .is_("award_id", "null")
+            .order("id")
+            .range(start, start + PAGE - 1)
+            .execute(),
+            "data", None,
+        ) or []
+        rows.extend(batch)
+        if limit and len(rows) >= limit:
+            rows = rows[:limit]
+            break
+        if len(batch) < PAGE:
+            break
+        start += PAGE
 
     print(f"NIH rows missing award_id: {len(rows)}\n")
     if not rows:
