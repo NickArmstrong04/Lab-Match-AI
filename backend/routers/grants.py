@@ -26,6 +26,8 @@ def _demo_decks() -> dict:
                 "id": "22222222-2222-2222-2222-222222222222",
                 "pi_name": "Dr. Chen Wei",
                 "pi_lookup_url": build_pi_lookup_url("Dr. Chen Wei", "UC Berkeley"),
+                # Fictional ad-recording lab: no real federal record to deep-link to.
+                "source_record_url": None,
                 "institution": "UC Berkeley",
                 "university": "UC Berkeley",
                 "department": "EECS",
@@ -49,6 +51,7 @@ def _demo_decks() -> dict:
                 "id": "11111111-1111-1111-1111-111111111111",
                 "pi_name": "Dr. Sarah Jenkins",
                 "pi_lookup_url": build_pi_lookup_url("Dr. Sarah Jenkins", "Stanford University"),
+                "source_record_url": None,
                 "institution": "Stanford University",
                 "university": "Stanford University",
                 "department": "Bioengineering",
@@ -74,6 +77,7 @@ def _demo_decks() -> dict:
                 "id": "44444444-4444-4444-4444-444444444444",
                 "pi_name": "Dr. Wei-An Lim",
                 "pi_lookup_url": build_pi_lookup_url("Dr. Wei-An Lim", "MIT"),
+                "source_record_url": None,
                 "institution": "MIT",
                 "university": "MIT",
                 "department": "Biology",
@@ -97,6 +101,7 @@ def _demo_decks() -> dict:
                 "id": "33333333-3333-3333-3333-333333333333",
                 "pi_name": "Dr. Sternberg",
                 "pi_lookup_url": build_pi_lookup_url("Dr. Sternberg", "Harvard University"),
+                "source_record_url": None,
                 "institution": "Harvard University",
                 "university": "Harvard University",
                 "department": "Molecular & Cellular Biology",
@@ -178,6 +183,31 @@ def build_pi_lookup_url(pi_name: str, university: str) -> Optional[str]:
     clean_pi = pi_name.replace("Dr. ", "").replace("Dr.", "").strip()
     query = f'"{clean_pi}" {university} lab contact'
     return f"https://www.google.com/search?q={quote_plus(query)}"
+
+
+def build_source_record_url(funding_source: Optional[str], award_id: Optional[str]) -> Optional[str]:
+    """Deep link to the *authoritative federal record* for this award.
+
+    Unlike the PI email (which no agency publishes, so we never construct one), these
+    pages ARE the source of truth — clicking through shows the real PI, institution,
+    abstract, and dollar amount on the funder's own site. So the link is honest by
+    construction; there is no wrong-person risk the way a guessed profile URL would have.
+
+    - NIH: award_id holds the RePORTER appl_id (numeric); project-details/{appl_id} is the
+      canonical public page. Verified format 2026-07-20 (e.g. .../project-details/10255113).
+    - NSF: award_id holds the NSF award id; showAward?AWD_ID={id} is the public award page.
+    - USAspending (DOD/DOE/EPA/NASA/USDA/Interior): the display "Award ID" we store is not
+      the generated_internal_id its award pages resolve by, so we can't deep-link honestly.
+      Returns None -> the card keeps the honest Google lab-contact lookup instead.
+    """
+    if not award_id:
+        return None
+    if funding_source == "NIH":
+        return f"https://reporter.nih.gov/project-details/{quote_plus(str(award_id))}"
+    if funding_source == "NSF":
+        return f"https://www.nsf.gov/awardsearch/showAward?AWD_ID={quote_plus(str(award_id))}"
+    return None
+
 
 def update_grant_abstract_in_db(grant_id: str, expanded_abstract: str, title: str, pi_name: str, methodologies: list):
     try:
@@ -269,13 +299,13 @@ def fetch_grant_details(db, grant_ids: List[str]) -> dict:
         return {}
     try:
         resp = db.table("labs_cached_grants").select(
-            "id, start_date, end_date, abstract_is_generated"
+            "id, start_date, end_date, abstract_is_generated, award_id"
         ).in_("id", grant_ids).execute()
     except Exception:
         # abstract_is_generated migration not applied yet — keep dates working
         try:
             resp = db.table("labs_cached_grants").select(
-                "id, start_date, end_date"
+                "id, start_date, end_date, award_id"
             ).in_("id", grant_ids).execute()
         except Exception as e:
             warnings.warn(f"Failed to fetch grant details for matched grants: {e}")
@@ -285,55 +315,110 @@ def fetch_grant_details(db, grant_ids: List[str]) -> dict:
     return {}
 
 
-def format_saved_card(grant: dict, match: dict, student_skills: List[str], student_loc: Optional[str]) -> dict:
-    """Build a deck card for a grant the student has already saved or emailed.
+def compute_recommended_role(methodologies: list, student_roles: list) -> str:
+    """Pick a role suggestion from the student's roles based on the grant's methods.
+    Shared by every card path (was copy-pasted at each)."""
+    role = student_roles[0] if student_roles else "Research Assistant"
+    if len(student_roles) > 1:
+        methods_l = [m.lower() for m in (methodologies or [])]
+        if any("modeling" in m or "ml" in m or "ai" in m for m in methods_l):
+            role = next((r for r in student_roles if any(k in r.lower() for k in ("ml", "modeling", "computational"))), student_roles[0])
+        elif any("bio" in m or "wet" in m or "crispr" in m for m in methods_l):
+            role = next((r for r in student_roles if any(k in r.lower() for k in ("bio", "tech", "wet"))), student_roles[0])
+    return role
 
-    Scores come from the stored match row (what the student saw when they swiped) and
-    are never recomputed here: re-deriving them would make the sidebar disagree with
-    the deck. A NULL score stays None -- the card renders "score unavailable" rather
-    than a filler number.
+
+def build_score_components(semantic=None, keyword=None, campus_boost=0) -> dict:
+    """The {semantic, keyword, campus_boost} breakdown behind a displayed score, so the
+    number is explainable (and the silent +30 home-campus boost is visible)."""
+    return {
+        "semantic": clamp_score(semantic) if semantic is not None else None,
+        "keyword": clamp_score(keyword) if keyword is not None else None,
+        "campus_boost": int(campus_boost or 0),
+    }
+
+
+def format_match_card(grant: dict, *, score, score_components: dict,
+                      student_skills: list, student_roles: list,
+                      location_match: bool = False, status=None, pi_email=None,
+                      outreach_status=None, contacted_at=None, responded_at=None,
+                      next_follow_up_at=None) -> dict:
+    """Canonical deck-card shape shared by EVERY match path (RPC/hybrid, keyword, /match,
+    saved). Each site used to copy-paste this dict -- the exact class of duplication that
+    produced the original fabricated-email bug. `grant` is a normalized dict carrying:
+    id, pi_name, university, department, grant_title, grant_abstract, funding_source,
+    award_amount, methodologies, start_date, end_date, abstract_is_generated, award_id.
+
+    Dates are real-or-None (never the old invented 2026-09-01 window); pi_lookup_url is
+    None for an unresolved PI (Task 23); score is clamped; the score breakdown rides along.
+    source_record_url deep-links the authoritative federal record (NIH/NSF only). The
+    outreach_* fields are the student's self-reported follow-up state (saved path only).
     """
-    pi_name = grant.get("pi_name", "N/A")
-    university = grant.get("university", "N/A")
     methodologies = grant.get("methodologies") or []
-    abstract = grant.get("grant_abstract", "") or ""
-
-    haystack = f"{grant.get('grant_title','')} {abstract} {' '.join(methodologies)}".lower()
-    matching_skills = [s for s in student_skills if s in haystack]
-    missing_skills = [m.lower() for m in methodologies if m.lower() not in student_skills][:4]
-
-    location_match = bool(student_loc and university and student_loc.lower() in university.lower())
-
+    matching_skills = [m for m in methodologies if m.lower() in student_skills]
+    missing_skills = [m for m in methodologies if m.lower() not in student_skills]
+    pi_name = grant.get("pi_name") or "N/A"
+    university = grant.get("university") or "N/A"
+    funding_source = grant.get("funding_source") or "NIH"
     return {
         "id": grant.get("id"),
         "pi_name": pi_name,
         "pi_lookup_url": build_pi_lookup_url(pi_name, university),
+        "source_record_url": build_source_record_url(funding_source, grant.get("award_id")),
         "institution": university,
-        "university": university,
-        "department": grant.get("department", "N/A"),
-        "title": grant.get("grant_title", "N/A"),
-        "grant_title": grant.get("grant_title", "N/A"),
-        "agency": grant.get("funding_source", "NIH"),
-        "funding_source": grant.get("funding_source", "NIH"),
+        "university": university,                    # Keep for test compatibility
+        "department": grant.get("department") or "N/A",
+        "title": grant.get("grant_title") or "N/A",
+        "grant_title": grant.get("grant_title") or "N/A",   # Keep for test compatibility
+        "agency": funding_source,
+        "funding_source": funding_source,            # Keep for test compatibility
         "award_amount": float(grant.get("award_amount") or 0),
-        # Real stored dates, or None. The deck path substitutes 2026-09-01/2029-08-31
-        # when these are missing, which invents a funding window (roadmap Task 13).
-        "project_start": grant.get("start_date"),
-        "project_end": grant.get("end_date"),
-        "abstract": abstract,
-        "grant_abstract": abstract,
+        "project_start": grant.get("start_date") or None,
+        "project_end": grant.get("end_date") or None,
+        "abstract": grant.get("grant_abstract") or "",
+        "grant_abstract": grant.get("grant_abstract") or "",  # Keep for test compatibility
         "abstract_is_generated": bool(grant.get("abstract_is_generated", False)),
-        "score": clamp_score(match.get("match_score")),
-        "compatibility_score": clamp_score(match.get("match_score")),
+        "score": clamp_score(score),
+        "compatibility_score": clamp_score(score),   # Keep for test compatibility
+        "score_components": score_components,
         "matching_skills": matching_skills,
         "missing_skills": missing_skills,
-        "methodologies": methodologies,
-        "recommended_role": (grant.get("department") or "Research Assistant"),
-        "status": match.get("status"),
-        # What the student pasted, if they already found it. Never generated.
-        "pi_email": match.get("pi_email"),
+        "methodologies": methodologies,              # Keep for test compatibility
+        "recommended_role": compute_recommended_role(methodologies, student_roles),
         "location_match": location_match,
+        "status": status,
+        "pi_email": pi_email,
+        # Outreach tracker (Task 19) -- populated on the saved path, None on the deck.
+        "outreach_status": outreach_status,
+        "contacted_at": contacted_at,
+        "responded_at": responded_at,
+        "next_follow_up_at": next_follow_up_at,
     }
+
+
+def format_saved_card(grant: dict, match: dict, student_skills: List[str], student_loc: Optional[str]) -> dict:
+    """Deck card for a grant the student has already saved or emailed.
+
+    Scores come from the stored match row (what the student saw when they swiped) and
+    are never recomputed here: re-deriving them would make the sidebar disagree with the
+    deck. A NULL score stays None. Delegates to format_match_card for the canonical shape.
+    """
+    university = grant.get("university", "N/A")
+    location_match = bool(student_loc and university and student_loc.lower() in university.lower())
+    return format_match_card(
+        grant,
+        score=match.get("match_score"),
+        score_components=match.get("score_components"),
+        student_skills=student_skills,
+        student_roles=[grant.get("department") or "Research Assistant"],
+        location_match=location_match,
+        status=match.get("status"),
+        pi_email=match.get("pi_email"),
+        outreach_status=match.get("outreach_status"),
+        contacted_at=match.get("contacted_at"),
+        responded_at=match.get("responded_at"),
+        next_follow_up_at=match.get("next_follow_up_at"),
+    )
 
 
 @router.get("/matches/saved")
@@ -363,7 +448,7 @@ async def get_saved_matches(
 
         matches_resp = (
             db.table("matches")
-            .select("grant_id, status, match_score, pi_email")
+            .select("grant_id, status, match_score, pi_email, outreach_status, contacted_at, responded_at, next_follow_up_at")
             .eq("student_id", student_id)
             .in_("status", ["saved", "emailed"])
             .execute()
@@ -514,6 +599,7 @@ async def match_student_to_grants(
                     "id": g_id,
                     "pi_name": pi_name,
                     "pi_lookup_url": pi_lookup_url,
+                    "source_record_url": build_source_record_url(item.get("funding_source"), details.get("award_id")),
                     "institution": university,
                     "university": university,  # Keep for test compatibility
                     "department": item.get("department", "N/A"),
@@ -710,6 +796,7 @@ async def get_matches(
                     "id": g_id,
                     "pi_name": pi_name,
                     "pi_lookup_url": pi_lookup_url,
+                    "source_record_url": build_source_record_url(g.get("funding_source"), g.get("award_id")),
                     "institution": university,
                     "university": university,
                     "department": g.get("department", "N/A"),
@@ -846,6 +933,7 @@ async def get_matches(
                     "id": g_id,
                     "pi_name": pi_name,
                     "pi_lookup_url": pi_lookup_url,
+                    "source_record_url": build_source_record_url(item.get("funding_source"), details.get("award_id")),
                     "institution": university,
                     "university": university,
                     "department": item.get("department", "N/A"),
@@ -1128,5 +1216,85 @@ async def update_match_state(
         raise he
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Failed to update match state: {str(e)}")
+
+
+# The outcome states a student can record after they've reached out. These are the
+# student's own self-report -- honest by construction. We never infer an outcome the
+# student didn't enter (no "probably no reply" auto-transitions); the only thing set
+# automatically is responded_at, and only as a convenience timestamp for a reply the
+# student is affirmatively logging.
+OUTREACH_STATUSES = ["sent", "no_reply", "replied", "interview", "joined", "declined"]
+# Reaching one of these means the PI wrote back, so stamp responded_at if the client
+# didn't supply one.
+RESPONDED_STATUSES = {"replied", "interview", "joined"}
+
+
+class OutreachStateRequest(BaseModel):
+    student_id: str
+    grant_id: str
+    outreach_status: str
+    responded_at: Optional[str] = None
+    next_follow_up_at: Optional[str] = None
+
+
+@router.post("/matches/outreach")
+async def update_outreach_state(
+    req: OutreachStateRequest,
+    caller_id: Optional[str] = Depends(get_optional_student_id)
+):
+    """
+    Record what happened after the student reached out: replied / no reply / interview /
+    joined / declined, plus an optional follow-up reminder date.
+
+    Only valid once the match is already 'emailed' -- there is no outcome to log for a lab
+    the student never marked as contacted, and allowing it would let an outcome exist
+    without the outreach_logs row that /agent/send-email writes. So this endpoint updates;
+    it never creates a match.
+    """
+    validate_uuid(req.student_id, "student_id")
+    validate_uuid(req.grant_id, "grant_id")
+    authorize_student(req.student_id, caller_id)
+
+    if req.outreach_status not in OUTREACH_STATUSES:
+        raise HTTPException(
+            status_code=400,
+            detail=f"Invalid outreach status. Must be one of: {', '.join(OUTREACH_STATUSES)}.",
+        )
+
+    if req.student_id in _demo_decks():
+        return {"status": "success", "updated": False}
+
+    try:
+        db = get_db()
+        existing = (
+            db.table("matches")
+            .select("id, status, responded_at")
+            .eq("student_id", req.student_id)
+            .eq("grant_id", req.grant_id)
+            .execute()
+        )
+        rows = getattr(existing, "data", None) or []
+        if not rows:
+            raise HTTPException(status_code=404, detail="No contacted lab to update. Mark it as reached out first.")
+        if rows[0].get("status") != "emailed":
+            raise HTTPException(status_code=409, detail="Mark this lab as reached out before logging an outcome.")
+
+        update = {
+            "outreach_status": req.outreach_status,
+            "next_follow_up_at": req.next_follow_up_at,
+        }
+        # Stamp a reply timestamp when the student logs a response, unless they gave one
+        # or we already have one -- never overwrite a real recorded reply date.
+        if req.responded_at:
+            update["responded_at"] = req.responded_at
+        elif req.outreach_status in RESPONDED_STATUSES and not rows[0].get("responded_at"):
+            update["responded_at"] = datetime.datetime.now(datetime.timezone.utc).isoformat()
+
+        db.table("matches").update(update).eq("id", rows[0]["id"]).execute()
+        return {"status": "success", "updated": True, "outreach_status": req.outreach_status}
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to update outreach state: {str(e)}")
 
 

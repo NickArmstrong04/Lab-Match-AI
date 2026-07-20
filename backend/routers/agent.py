@@ -298,49 +298,70 @@ async def send_email(
         # outreach, so if the write fails the caller must hear about it. It used to
         # warn and still return "success", which is how outreach could be silently
         # lost while the UI said it was saved.
+        now = datetime.datetime.now(datetime.timezone.utc).isoformat()
+
+        # Resolve the match row (by id if given, else by student+grant) so we know whether
+        # this is the first time the student is reaching out -- that decides whether we
+        # stamp contacted_at / the initial 'sent' outreach state below.
         match_id = req.match_id
-        if not match_id:
+        existing_row = None
+        if match_id:
+            res = db.table("matches").select("id, contacted_at, outreach_status").eq("id", match_id).execute()
+            existing_row = res.data[0] if res.data else None
+        else:
             match_res = (
                 db.table("matches")
-                .select("id")
+                .select("id, contacted_at, outreach_status")
                 .eq("student_id", student["id"])
                 .eq("grant_id", req.grant_id)
                 .execute()
             )
             if match_res.data:
-                match_id = match_res.data[0]["id"]
-            else:
-                # No match row means the student never swiped this grant, so no score
-                # was ever computed. match_score is nullable: record NULL rather than
-                # the fabricated 85.0 this used to insert, which put an invented
-                # number next to a real award and fed the analytics funnel.
-                new_match = (
-                    db.table("matches")
-                    .insert(
-                        {
-                            "student_id": student["id"],
-                            "grant_id": req.grant_id,
-                            "match_score": None,
-                            "status": "emailed",
-                            "compatibility_tags": ["Manual Inquired"],
-                            "pi_email": (req.pi_email or "").strip() or None,
-                        }
-                    )
-                    .execute()
-                )
-                if not new_match.data:
-                    raise HTTPException(
-                        status_code=502,
-                        detail="Couldn't record your outreach. Please try again.",
-                    )
-                match_id = new_match.data[0]["id"]
+                existing_row = match_res.data[0]
+                match_id = existing_row["id"]
 
-        # Flip to emailed, preserving the real score already stored at swipe time.
-        # Keep the PI address the student found, so a follow-up needn't repeat the lookup.
-        match_update = {"status": "emailed"}
-        if (req.pi_email or "").strip():
-            match_update["pi_email"] = req.pi_email.strip()
-        db.table("matches").update(match_update).eq("id", match_id).execute()
+        if not match_id:
+            # No match row means the student never swiped this grant, so no score
+            # was ever computed. match_score is nullable: record NULL rather than
+            # the fabricated 85.0 this used to insert, which put an invented
+            # number next to a real award and fed the analytics funnel.
+            new_match = (
+                db.table("matches")
+                .insert(
+                    {
+                        "student_id": student["id"],
+                        "grant_id": req.grant_id,
+                        "match_score": None,
+                        "status": "emailed",
+                        "compatibility_tags": ["Manual Inquired"],
+                        "pi_email": (req.pi_email or "").strip() or None,
+                        # First contact: start the outreach tracker at 'sent' (Task 19).
+                        "outreach_status": "sent",
+                        "contacted_at": now,
+                    }
+                )
+                .execute()
+            )
+            if not new_match.data:
+                raise HTTPException(
+                    status_code=502,
+                    detail="Couldn't record your outreach. Please try again.",
+                )
+            match_id = new_match.data[0]["id"]
+        else:
+            # Flip to emailed, preserving the real score already stored at swipe time.
+            # Keep the PI address the student found, so a follow-up needn't repeat the lookup.
+            match_update = {"status": "emailed"}
+            if (req.pi_email or "").strip():
+                match_update["pi_email"] = req.pi_email.strip()
+            # Only stamp the first-contact fields once. A student re-confirming a send (or
+            # sending a follow-up) must not reset contacted_at or regress a richer outcome
+            # they already logged (replied/interview/...) back to 'sent'.
+            if not existing_row.get("contacted_at"):
+                match_update["contacted_at"] = now
+            if not existing_row.get("outreach_status"):
+                match_update["outreach_status"] = "sent"
+            db.table("matches").update(match_update).eq("id", match_id).execute()
 
         db.table("outreach_logs").insert(
             {

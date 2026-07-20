@@ -407,6 +407,20 @@ Elena Rostova`;
 
               {/* To & Subject Inputs */}
               <div className="space-y-3 text-sm">
+                {/* Authoritative federal record for this award (NIH RePORTER / NSF). The
+                    page itself is the source of truth, so it's honest by construction and
+                    a reliable jump-off to confirm the PI before the lab-page hunt below. */}
+                {match.source_record_url && (
+                  <a
+                    href={match.source_record_url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-[#0d5c5c] font-semibold text-xs flex items-center gap-1 hover:underline"
+                  >
+                    View this award on {match.agency === 'NSF' ? 'NSF Award Search' : 'NIH RePORTER'}
+                    <ExternalLink className="w-3 h-3 shrink-0" />
+                  </a>
+                )}
                 {match.pi_lookup_url ? (
                   <a
                     href={match.pi_lookup_url}

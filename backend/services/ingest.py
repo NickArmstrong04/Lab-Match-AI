@@ -236,7 +236,12 @@ def fetch_nih_grants(keyword: str, limit: int = 15, offset: int = 0) -> List[dic
                         "funding_badge_url": "https://img.shields.io/badge/NIH-Funding-blue",
                         "award_amount": float(award_amount),
                         "start_date": start_date,
-                        "end_date": end_date
+                        "end_date": end_date,
+                        # appl_id keys RePORTER's public record: reporter.nih.gov/project-details/{appl_id}.
+                        # Captured so the card can link the student straight to the authoritative
+                        # federal page (roadmap Task 20). Was discarded before, leaving NIH rows with a
+                        # NULL award_id and no natural key for dedup.
+                        "award_id": str(p.get("appl_id")) if p.get("appl_id") else None,
                     })
                 return parsed_grants
             else:
