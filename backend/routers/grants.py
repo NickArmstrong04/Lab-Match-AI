@@ -564,50 +564,36 @@ async def match_student_to_grants(
                 university = item.get("university", "N/A")
                 methodologies = item.get("methodologies") or []
                 
-                # Dynamic matching/missing skills
-                matching_skills = [m for m in methodologies if m.lower() in student_skills]
-                missing_skills = [m for m in methodologies if m.lower() not in student_skills]
-                
-                pi_lookup_url = build_pi_lookup_url(pi_name, university)
-
-                # Dynamic role allocation
-                recommended_role = student_roles[0] if student_roles else "Research Assistant"
-                if len(student_roles) > 1:
-                    if any("modeling" in m.lower() or "ml" in m.lower() or "ai" in m.lower() for m in methodologies):
-                        recommended_role = next((r for r in student_roles if "ml" in r.lower() or "modeling" in r.lower() or "computational" in r.lower()), student_roles[0])
-                    elif any("bio" in m.lower() or "wet" in m.lower() or "crispr" in m.lower() for m in methodologies):
-                        recommended_role = next((r for r in student_roles if "bio" in r.lower() or "tech" in r.lower() or "wet" in r.lower()), student_roles[0])
-                
                 details = grant_details.get(g_id) or {}
-                
-                formatted_matches.append({
+
+                # Semantic-only endpoint: the score is the embedding similarity, so the
+                # breakdown carries semantic alone (no keyword blend, no campus boost).
+                score_components = {
+                    "semantic": score,
+                    "keyword": None,
+                    "campus_boost": 0,
+                }
+                # Normalize the RPC row + detail fetch (award_id for source_record_url) into
+                # one grant dict; prefer the RPC's dates/provenance, fall back to the detail row.
+                grant = {
+                    **item,
                     "id": g_id,
-                    "pi_name": pi_name,
-                    "pi_lookup_url": pi_lookup_url,
-                    "source_record_url": build_source_record_url(item.get("funding_source"), details.get("award_id")),
-                    "institution": university,
-                    "university": university,  # Keep for test compatibility
-                    "department": item.get("department", "N/A"),
-                    "title": item.get("grant_title", "N/A"),
-                    "grant_title": item.get("grant_title", "N/A"),  # Keep for test compatibility
-                    "agency": item.get("funding_source", "NIH"),
-                    "funding_source": item.get("funding_source", "NIH"),  # Keep for test compatibility
-                    "award_amount": float(item.get("award_amount") or 0),
-                    # Real dates or None. These used to default to 2026-09-01/2029-08-31,
-                    # inventing a three-year funding window for any award whose dates we
-                    # didn't have -- a fabricated fact next to a real award number.
-                    "project_start": details.get("start_date") or None,
-                    "project_end": details.get("end_date") or None,
-                    "abstract": item.get("grant_abstract", ""),
-                    "grant_abstract": item.get("grant_abstract", ""),  # Keep for test compatibility
-                    "abstract_is_generated": bool(details.get("abstract_is_generated", False)),
-                    "score": score,
-                    "compatibility_score": score,  # Keep for test compatibility
-                    "matching_skills": matching_skills,
-                    "missing_skills": missing_skills,
-                    "methodologies": methodologies,  # Keep for test compatibility
-                    "recommended_role": recommended_role
-                })
+                    "start_date": item.get("start_date") or details.get("start_date"),
+                    "end_date": item.get("end_date") or details.get("end_date"),
+                    "abstract_is_generated": (
+                        item.get("abstract_is_generated")
+                        if item.get("abstract_is_generated") is not None
+                        else details.get("abstract_is_generated")
+                    ),
+                    "award_id": details.get("award_id"),
+                }
+                formatted_matches.append(format_match_card(
+                    grant,
+                    score=score,
+                    score_components=score_components,
+                    student_skills=student_skills,
+                    student_roles=student_roles,
+                ))
             return enrich_sliced_matches(formatted_matches, background_tasks, student_skills)
         return []
         
@@ -772,43 +758,27 @@ async def get_matches(
                 if final_score < (threshold * 100):
                     continue
                     
-                pi_lookup_url = build_pi_lookup_url(pi_name, university)
+                # The breakdown behind the number, so the score is explainable rather than a
+                # bare percentage. Keyword path uses no embedding, so semantic is None; the
+                # +30 home-campus boost (folded into final_score above) is made visible here.
+                score_components = {
+                    "semantic": None,
+                    "keyword": keyword_score,
+                    "campus_boost": 30 if location_match else 0,
+                }
+                # `g` is a full labs_cached_grants row, so it already carries every field the
+                # canonical card needs (dates, provenance, award_id) -- no second fetch.
+                matches.append(format_match_card(
+                    g,
+                    score=final_score,
+                    score_components=score_components,
+                    student_skills=student_skills,
+                    student_roles=student_roles,
+                    location_match=location_match,
+                    status=existing_matches.get(g_id),
+                    pi_email=(existing_match_rows.get(g_id) or {}).get("pi_email"),
+                ))
 
-                # Determine recommended role
-                recommended_role = student_roles[0] if student_roles else "Research Assistant"
-                
-                matches.append({
-                    "id": g_id,
-                    "pi_name": pi_name,
-                    "pi_lookup_url": pi_lookup_url,
-                    "source_record_url": build_source_record_url(g.get("funding_source"), g.get("award_id")),
-                    "institution": university,
-                    "university": university,
-                    "department": g.get("department", "N/A"),
-                    "title": g.get("grant_title", "N/A"),
-                    "grant_title": g.get("grant_title", "N/A"),
-                    "agency": g.get("funding_source", "NIH"),
-                    "funding_source": g.get("funding_source", "NIH"),
-                    "award_amount": float(g.get("award_amount") or 0),
-                    # Real dates or None -- never an invented funding window.
-                    "project_start": g.get("start_date") or None,
-                    "project_end": g.get("end_date") or None,
-                    "abstract": g.get("grant_abstract", ""),
-                    "grant_abstract": g.get("grant_abstract", ""),
-                    "abstract_is_generated": bool(g.get("abstract_is_generated", False)),
-                    "score": final_score,
-                    "compatibility_score": final_score,
-                    "matching_skills": matching_skills,
-                    "missing_skills": missing_skills,
-                    "methodologies": methodologies,
-                    "recommended_role": recommended_role,
-                    "status": existing_matches.get(g_id),
-                    # The student's own pasted address, if they already found it.
-                    # Never generated -- see build_pi_lookup_url.
-                    "pi_email": (existing_match_rows.get(g_id) or {}).get("pi_email"),
-                    "location_match": location_match
-                })
-            
             # Sort by keyword score descending and slice
             matches.sort(key=lambda x: x["score"], reverse=True)
             return enrich_sliced_matches(matches[:limit], background_tasks, student_skills)
@@ -886,22 +856,13 @@ async def get_matches(
                     continue
                 
                 matching_skills = [m for m in methodologies if m.lower() in student_skills]
-                missing_skills = [m for m in methodologies if m.lower() not in student_skills]
-                
-                pi_lookup_url = build_pi_lookup_url(pi_name, university)
 
-                recommended_role = student_roles[0] if student_roles else "Research Assistant"
-                if len(student_roles) > 1:
-                    if any("modeling" in m.lower() or "ml" in m.lower() or "ai" in m.lower() for m in methodologies):
-                        recommended_role = next((r for r in student_roles if "ml" in r.lower() or "modeling" in r.lower() or "computational" in r.lower()), student_roles[0])
-                    elif any("bio" in m.lower() or "wet" in m.lower() or "crispr" in m.lower() for m in methodologies):
-                        recommended_role = next((r for r in student_roles if "bio" in r.lower() or "tech" in r.lower() or "wet" in r.lower()), student_roles[0])
-                
                 details = grant_details.get(g_id) or {}
-                
-                # Hybrid Blending
+
+                # Hybrid blends embedding similarity with keyword overlap; embedding-only
+                # scores on similarity alone (no keyword component -> keyword stays None).
+                keyword_score = None
                 if method == "hybrid":
-                    keyword_score = 0
                     if methodologies:
                         keyword_score = round((len(matching_skills) / len(methodologies)) * 100)
                     else:
@@ -909,45 +870,45 @@ async def get_matches(
                     final_score = round(weight * emb_score + (1.0 - weight) * keyword_score)
                 else:
                     final_score = emb_score
-                
+
                 # Apply massive +30% boost for local fit
                 if location_match:
                     final_score = min(final_score + 30, 100)
-                    
-                formatted_matches.append({
+
+                # The breakdown behind the number, so a "94% match" is explainable and the
+                # otherwise-silent +30 home-campus boost is visible on the card.
+                score_components = {
+                    "semantic": emb_score,
+                    "keyword": keyword_score,
+                    "campus_boost": 30 if location_match else 0,
+                }
+                # Normalize the RPC row + detail fetch into one grant dict for the canonical
+                # card. The RPC now returns dates + provenance (migration 000013); award_id is
+                # still table-only, so fetch_grant_details supplies it for source_record_url.
+                # Prefer the RPC value, fall back to the detail row.
+                grant = {
+                    **item,
                     "id": g_id,
-                    "pi_name": pi_name,
-                    "pi_lookup_url": pi_lookup_url,
-                    "source_record_url": build_source_record_url(item.get("funding_source"), details.get("award_id")),
-                    "institution": university,
-                    "university": university,
-                    "department": item.get("department", "N/A"),
-                    "title": item.get("grant_title", "N/A"),
-                    "grant_title": item.get("grant_title", "N/A"),
-                    "agency": item.get("funding_source", "NIH"),
-                    "funding_source": item.get("funding_source", "NIH"),
-                    "award_amount": float(item.get("award_amount") or 0),
-                    # Real dates or None. These used to default to 2026-09-01/2029-08-31,
-                    # inventing a three-year funding window for any award whose dates we
-                    # didn't have -- a fabricated fact next to a real award number.
-                    "project_start": details.get("start_date") or None,
-                    "project_end": details.get("end_date") or None,
-                    "abstract": item.get("grant_abstract", ""),
-                    "grant_abstract": item.get("grant_abstract", ""),
-                    "abstract_is_generated": bool(details.get("abstract_is_generated", False)),
-                    "score": final_score,
-                    "compatibility_score": final_score,
-                    "matching_skills": matching_skills,
-                    "missing_skills": missing_skills,
-                    "methodologies": methodologies,
-                    "recommended_role": recommended_role,
-                    "status": existing_matches.get(g_id),
-                    # The student's own pasted address, if they already found it.
-                    # Never generated -- see build_pi_lookup_url.
-                    "pi_email": (existing_match_rows.get(g_id) or {}).get("pi_email"),
-                    "location_match": location_match
-                })
-                
+                    "start_date": item.get("start_date") or details.get("start_date"),
+                    "end_date": item.get("end_date") or details.get("end_date"),
+                    "abstract_is_generated": (
+                        item.get("abstract_is_generated")
+                        if item.get("abstract_is_generated") is not None
+                        else details.get("abstract_is_generated")
+                    ),
+                    "award_id": details.get("award_id"),
+                }
+                formatted_matches.append(format_match_card(
+                    grant,
+                    score=final_score,
+                    score_components=score_components,
+                    student_skills=student_skills,
+                    student_roles=student_roles,
+                    location_match=location_match,
+                    status=existing_matches.get(g_id),
+                    pi_email=(existing_match_rows.get(g_id) or {}).get("pi_email"),
+                ))
+
             # Re-sort by final calculated score and slice to requested limit
             formatted_matches.sort(key=lambda x: x["score"], reverse=True)
             return enrich_sliced_matches(formatted_matches[:limit], background_tasks, student_skills)
@@ -1117,6 +1078,10 @@ class MatchStateRequest(BaseModel):
     # sidebar and the funnel showed a different number than the deck did. Optional so
     # older clients still work; clamped and validated server-side regardless.
     match_score: Optional[float] = None
+    # The {semantic, keyword, campus_boost} breakdown behind that score, persisted so the
+    # saved-matches sidebar can explain the number the student actually swiped on instead
+    # of re-deriving (and disagreeing with) it. Optional; stored verbatim as JSONB.
+    score_components: Optional[dict] = None
 
 @router.post("/matches/state")
 async def update_match_state(
@@ -1144,6 +1109,9 @@ async def update_match_state(
         # recorded as a plausible-looking 80.0 sitting next to a real federal award.
         score = None
         compatibility_tags = []
+        # Persist the breakdown the student saw. If the client didn't send it, fall back
+        # to whatever is already stored (below) rather than dropping it to null.
+        score_components = req.score_components
 
         if req.match_score is not None:
             # Preferred: the score actually rendered on the card the student swiped.
@@ -1152,6 +1120,8 @@ async def update_match_state(
             existing_score = existing.data[0].get("match_score")
             score = clamp_score(existing_score) if existing_score is not None else None
             compatibility_tags = existing.data[0].get("compatibility_tags") or []
+            if score_components is None:
+                score_components = existing.data[0].get("score_components")
         else:
             # Fallback for clients that don't send the displayed score.
             try:
@@ -1184,7 +1154,8 @@ async def update_match_state(
             "grant_id": req.grant_id,
             "status": req.status,
             "match_score": score,
-            "compatibility_tags": compatibility_tags
+            "compatibility_tags": compatibility_tags,
+            "score_components": score_components,
         }
         
         response = db.table("matches").upsert(

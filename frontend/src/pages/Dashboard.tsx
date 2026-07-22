@@ -50,6 +50,15 @@ export interface GrantMatch {
   missing_skills: string[];
   recommended_role: string;
   location_match?: boolean;
+  // The {semantic, keyword, campus_boost} breakdown behind `score`, so the number is
+  // explainable instead of a bare percentage. A component is null when it didn't apply
+  // (keyword is null on the pure-embedding path; semantic is null on the keyword path).
+  // campus_boost surfaces the otherwise-silent +30 home-campus bump.
+  score_components?: {
+    semantic: number | null;
+    keyword: number | null;
+    campus_boost: number;
+  } | null;
   abstract_is_generated?: boolean;
   // Swipe state from the matches table. The backend has always returned this; it was
   // just undeclared, so callers cast to `any` to read it.
@@ -515,12 +524,14 @@ export const Dashboard: React.FC<DashboardProps> = ({
 
     try {
       // match_score carries the score actually shown, so the sidebar and funnel record
-      // what the student saw rather than a re-derived number.
+      // what the student saw rather than a re-derived number. score_components carries the
+      // breakdown behind it, so the saved sidebar can explain the number too.
       api.post('/grants/matches/state', {
         student_id: studentId,
         grant_id: card.id,
         status: targetStatus,
         match_score: card.score,
+        score_components: card.score_components,
       })
         .then(() => { if (direction === 'right') refreshSavedMatches(); })
         .catch(err => console.error("Failed to sync match state in database:", err));
@@ -1025,29 +1036,52 @@ export const Dashboard: React.FC<DashboardProps> = ({
                     </div>
                   </div>
 
-                  {/* High contrast matching methodology tags */}
+                  {/* Alignment breakdown: label what the student already has vs. what the
+                      lab uses that they don't, and surface the otherwise-silent home-campus
+                      boost, so the score is explainable rather than a bare number. */}
                   <div className="mb-6 space-y-3">
                     <h4 className="text-xs font-semibold text-stone-500 uppercase tracking-widest">
                       Alignment Score Logic
                     </h4>
-                    <div className="flex flex-wrap gap-2">
-                      {currentMatch.matching_skills.map((skill, index) => (
-                        <span
-                          key={index}
-                          className="px-2.5 py-1 rounded-full text-xs font-medium bg-[#e6f0f0] border border-[#c5dddd] text-[#0d5c5c]"
-                        >
-                          {skill}
-                        </span>
-                      ))}
-                      {currentMatch.missing_skills.map((skill, index) => (
-                        <span
-                          key={index}
-                          className="px-2.5 py-1 rounded-full text-xs font-medium bg-stone-100 border border-stone-200 text-stone-600"
-                        >
-                          {skill}
-                        </span>
-                      ))}
-                    </div>
+                    {currentMatch.matching_skills.length > 0 && (
+                      <div className="space-y-1.5">
+                        <p className="text-[11px] font-semibold text-[#0d5c5c] uppercase tracking-wider">
+                          Skills you match
+                        </p>
+                        <div className="flex flex-wrap gap-2">
+                          {currentMatch.matching_skills.map((skill, index) => (
+                            <span
+                              key={index}
+                              className="px-2.5 py-1 rounded-full text-xs font-medium bg-[#e6f0f0] border border-[#c5dddd] text-[#0d5c5c]"
+                            >
+                              {skill}
+                            </span>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+                    {currentMatch.missing_skills.length > 0 && (
+                      <div className="space-y-1.5">
+                        <p className="text-[11px] font-semibold text-stone-500 uppercase tracking-wider">
+                          Skills to grow
+                        </p>
+                        <div className="flex flex-wrap gap-2">
+                          {currentMatch.missing_skills.map((skill, index) => (
+                            <span
+                              key={index}
+                              className="px-2.5 py-1 rounded-full text-xs font-medium bg-stone-100 border border-stone-200 text-stone-600"
+                            >
+                              {skill}
+                            </span>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+                    {currentMatch.score_components && currentMatch.score_components.campus_boost > 0 && (
+                      <p className="text-[11px] font-medium text-[#0d5c48]">
+                        Includes a +{currentMatch.score_components.campus_boost} home-campus boost.
+                      </p>
+                    )}
                   </div>
 
                   {/* Financial & Timeframe highlights bar */}
