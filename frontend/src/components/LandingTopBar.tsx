@@ -1,7 +1,7 @@
 import React from 'react';
 
 interface LandingTopBarProps {
-  view: 'cover' | 'get_started' | 'sign_in' | 'explore';
+  view: 'cover' | 'get_started' | 'sign_in' | 'explore' | 'reset_password';
   onHome?: () => void;
   onSignIn: () => void;
   onGetStarted: () => void;

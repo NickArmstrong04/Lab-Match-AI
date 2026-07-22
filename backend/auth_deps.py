@@ -23,6 +23,7 @@ Two carve-outs, both deliberate:
 2. Guests who never set a password still get a token from /profile/analyze. They own a
    real students row, so they are a real identity even without a credential.
 """
+import hashlib
 import time
 from typing import Optional
 
@@ -32,6 +33,15 @@ from fastapi import Header, HTTPException
 from .config import settings
 
 ALGORITHM = "HS256"
+
+# Password-reset links live 30 minutes. Long enough to walk to an inbox, short
+# enough that a forwarded/leaked email goes stale before it becomes a liability.
+RESET_TOKEN_TTL_SECONDS = 30 * 60
+
+# One message for every reset-token failure mode (bad signature, expired, already
+# used, unknown student) -- distinguishing them tells an attacker which guesses
+# were structurally valid.
+RESET_LINK_INVALID = "This reset link is invalid or has expired. Please request a new one."
 
 # Fictional ad-recording personas. Exact UUIDs only -- see the module docstring.
 DEMO_STUDENT_IDS = frozenset({
@@ -70,10 +80,68 @@ def decode_access_token(token: str) -> str:
     except jwt.InvalidTokenError:
         raise HTTPException(status_code=401, detail="Invalid session token.")
 
+    # Reject purpose-scoped tokens (password reset) here. They share this signing key,
+    # so without this check an emailed reset link would double as a Bearer session for
+    # the account -- inbox access would become account access without ever setting a
+    # password. Session tokens have never carried a `purpose` claim, so None passes
+    # every token minted to date; "session" is accepted in case minting ever stamps it.
+    if payload.get("purpose") not in (None, "session"):
+        raise HTTPException(status_code=401, detail="Invalid session token.")
+
     sub = payload.get("sub")
     if not sub:
         raise HTTPException(status_code=401, detail="Invalid session token.")
     return sub
+
+
+def password_fingerprint(password_hash: Optional[str]) -> str:
+    """Short fingerprint of the stored bcrypt hash (or "" when no password is set).
+
+    Baked into reset tokens so a successful reset -- which rewrites password_hash --
+    invalidates every outstanding reset link at once. Truncated: it only needs to
+    detect "the credential changed", not resist collision search, and the full hash
+    must not ride around inside an emailed token.
+    """
+    return hashlib.sha256((password_hash or "").encode("utf-8")).hexdigest()[:16]
+
+
+def create_reset_token(student_id: str, password_hash: Optional[str]) -> str:
+    """Mint a password-reset token for an emailed link.
+
+    Stateless single-use-by-construction: `pwfp` fingerprints the CURRENT stored
+    hash, and /auth/reset-password rejects any token whose fingerprint no longer
+    matches. Using a link (or logging in via the legacy-plaintext upgrade path)
+    rewrites password_hash, so every outstanding link dies -- no DB token table.
+    Known caveat: an account that has never had a password fingerprints "" until
+    its first reset lands, so multiple pre-first-reset links stay valid for their
+    full 30-minute TTL. Accepted -- that's the stateless trade.
+    """
+    now = int(time.time())
+    payload = {
+        "sub": student_id,
+        "purpose": "password_reset",  # decode_access_token rejects this claim
+        "pwfp": password_fingerprint(password_hash),
+        "iat": now,
+        "exp": now + RESET_TOKEN_TTL_SECONDS,
+    }
+    return jwt.encode(payload, _require_secret(), algorithm=ALGORITHM)
+
+
+def decode_reset_token(token: str) -> dict:
+    """Return {"sub", "pwfp"} from a valid reset token, else raise 400.
+
+    400 (not 401) with one generic message for every failure mode: the caller is
+    an anonymous user pasting an emailed link, not a session holder, and the
+    message must not reveal which part of a guessed token was structurally valid.
+    """
+    try:
+        payload = jwt.decode(token, _require_secret(), algorithms=[ALGORITHM])
+    except jwt.InvalidTokenError:  # includes ExpiredSignatureError
+        raise HTTPException(status_code=400, detail=RESET_LINK_INVALID)
+
+    if payload.get("purpose") != "password_reset" or not payload.get("sub"):
+        raise HTTPException(status_code=400, detail=RESET_LINK_INVALID)
+    return {"sub": payload["sub"], "pwfp": payload.get("pwfp", "")}
 
 
 def get_optional_student_id(authorization: Optional[str] = Header(None)) -> Optional[str]:

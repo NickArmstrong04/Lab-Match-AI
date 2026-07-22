@@ -15,7 +15,17 @@ from fastapi.responses import HTMLResponse, RedirectResponse
 from google_auth_oauthlib.flow import Flow
 from ..config import settings
 from ..database import get_db
-from ..auth_deps import create_access_token, get_optional_student_id, authorize_student
+from ..auth_deps import (
+    RESET_LINK_INVALID,
+    RESET_TOKEN_TTL_SECONDS,
+    authorize_student,
+    create_access_token,
+    create_reset_token,
+    decode_reset_token,
+    get_optional_student_id,
+    password_fingerprint,
+)
+from ..services.mailer import is_email_configured, send_email
 
 router = APIRouter()
 
@@ -701,7 +711,30 @@ class LoginRequest(BaseModel):
     email: str
     password: str
 
+class RequestResetRequest(BaseModel):
+    email: str
+
+class ResetPasswordRequest(BaseModel):
+    token: str
+    password: str
+
 MIN_PASSWORD_LENGTH = 8
+
+# Best-effort per-email cooldown on reset requests, so one address can't be used to
+# spam an inbox (or burn SMTP quota) by hammering the endpoint. In-memory and
+# per-instance -- lost on restart and not shared across replicas, same accepted
+# limitation the make_oauth_state comment documents. That's fine: this is abuse
+# friction, not a security boundary; the security boundary is the signed token.
+RESET_COOLDOWN_SECONDS = 60
+_reset_last_request: dict = {}
+
+# One response body for "account exists, email sent", "no such account", and
+# "cooldown" -- a caller must not be able to probe which emails have accounts.
+RESET_REQUEST_RESPONSE = {
+    "status": "ok",
+    "message": "If an account with that email exists, a reset link has been sent. "
+               "Check your inbox (and spam) -- the link expires in 30 minutes.",
+}
 
 
 @router.post("/save-password")
@@ -803,3 +836,151 @@ async def login(req: LoginRequest):
         raise he
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Authentication error: {str(e)}")
+
+
+# Plain `def`, not `async def`: smtplib blocks for whole seconds and FastAPI runs
+# sync endpoints in its threadpool, so the event loop keeps serving other requests.
+@router.post("/request-reset")
+def request_reset(req: RequestResetRequest):
+    """
+    Email a short-lived password-reset link. Anonymous by design -- the caller has
+    forgotten their credential, so any Bearer header is ignored, not required.
+    """
+    try:
+        # Fail closed before touching anything else. Unconfigured SMTP is account-
+        # independent, so a 503 here leaks nothing -- and the alternative (returning
+        # the generic "link sent" body) would be the app claiming it sent an email
+        # it has no way to send.
+        if not is_email_configured():
+            raise HTTPException(
+                status_code=503,
+                detail="Password reset isn't available right now.",
+            )
+
+        # Trim only -- NO lowercasing. /auth/login matches with an exact .eq(), so
+        # normalizing here would make reset silently fail (generic success, no email)
+        # for exactly the accounts whose stored email has uppercase in it.
+        email = (req.email or "").strip()
+        if not email:
+            raise HTTPException(status_code=400, detail="Enter your email address.")
+
+        # Cooldown check. Prune expired entries first so the dict stays bounded by
+        # the number of distinct emails seen in the last minute.
+        now = time.time()
+        for known in [k for k, t in _reset_last_request.items() if now - t > RESET_COOLDOWN_SECONDS]:
+            _reset_last_request.pop(known, None)
+        if email in _reset_last_request:
+            return RESET_REQUEST_RESPONSE  # identical body: no probe signal, no spam
+        _reset_last_request[email] = now
+
+        db = get_db()
+        res = db.table("students").select("id, password_hash").eq("email", email).execute()
+        if not res.data:
+            # No account. Same body as success -- see RESET_REQUEST_RESPONSE. The
+            # demo personas land here too: they have no students row, so a reset
+            # request for their fictional emails sends nothing.
+            return RESET_REQUEST_RESPONSE
+
+        row = res.data[0]
+        token = create_reset_token(row["id"], row.get("password_hash"))
+        # Token rides in the hash fragment: fragments never leave the browser, so
+        # the token stays out of server/proxy access logs on the static host.
+        reset_link = f"{settings.frontend_origin}/#/reset-password?token={token}"
+
+        try:
+            send_email(
+                to=email,
+                subject="Reset your LabMatch AI password",
+                body=(
+                    "Someone (hopefully you) asked to reset the password for your "
+                    "LabMatch AI account.\n\n"
+                    f"Reset it here:\n{reset_link}\n\n"
+                    f"This link expires in {RESET_TOKEN_TTL_SECONDS // 60} minutes and "
+                    "stops working once your password changes.\n\n"
+                    "If you didn't request this, you can ignore this email -- your "
+                    "password has not been changed."
+                ),
+            )
+        except Exception as send_err:
+            # Honest failure over strict non-enumeration: this branch only exists for
+            # accounts that DO exist, so a 502 is technically a probe signal -- but it
+            # only fires during an SMTP outage, and the alternative is telling a real
+            # user a link is on its way when none is coming. Trust rule wins.
+            # Clear the cooldown so their immediate retry isn't swallowed by the
+            # generic response above.
+            _reset_last_request.pop(email, None)
+            raise HTTPException(
+                status_code=502,
+                detail="We couldn't send the reset email. Please try again in a few minutes.",
+            ) from send_err
+
+        return RESET_REQUEST_RESPONSE
+    except HTTPException as he:
+        raise he
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Password reset request failed: {str(e)}")
+
+
+# Plain `def` for the same threadpool reason: bcrypt.hashpw costs ~100ms by design.
+@router.post("/reset-password")
+def reset_password(req: ResetPasswordRequest):
+    """
+    Set a new password from an emailed reset token, then sign the student in.
+
+    Unlike /auth/save-password there is no session requirement: possession of an
+    unexpired, unconsumed token IS the proof of ownership (it was emailed to the
+    account's address). Returns the /auth/login response shape so the frontend can
+    land the student straight on their dashboard.
+    """
+    try:
+        claims = decode_reset_token(req.token)  # raises 400 RESET_LINK_INVALID itself
+
+        if len(req.password or "") < MIN_PASSWORD_LENGTH:
+            raise HTTPException(
+                status_code=400,
+                detail=f"Password must be at least {MIN_PASSWORD_LENGTH} characters.",
+            )
+
+        db = get_db()
+        # id only, no auth_id fallback: we minted `sub` from students.id ourselves in
+        # request_reset, so anything else is a forged or foreign token.
+        res = db.table("students").select("*").eq("id", claims["sub"]).execute()
+        if not res.data:
+            raise HTTPException(status_code=400, detail=RESET_LINK_INVALID)
+
+        student = res.data[0]
+        # The token fingerprints the hash it was minted against. A mismatch means the
+        # credential changed since -- the link was already used, or the student logged
+        # in through the legacy-plaintext upgrade path. Either way: consumed.
+        if claims["pwfp"] != password_fingerprint(student.get("password_hash")):
+            raise HTTPException(status_code=400, detail=RESET_LINK_INVALID)
+
+        hashed = bcrypt.hashpw(req.password.encode("utf-8"), bcrypt.gensalt()).decode("utf-8")
+        update_payload = {"password_hash": hashed}
+
+        # Purge any legacy plaintext password from the JSONB blob (same hygiene as
+        # save_password -- it couldn't authenticate once password_hash is set, but it
+        # shouldn't sit in the row either).
+        comp = student.get("structured_competencies") or {}
+        if isinstance(comp, dict) and "password" in comp:
+            comp.pop("password", None)
+            update_payload["structured_competencies"] = comp
+
+        db.table("students").update(update_payload).eq("id", student["id"]).execute()
+
+        # Reflect the write in the record we return; a re-fetch would race nothing
+        # but costs a round trip.
+        student.update(update_payload)
+        scrubbed = scrub_student_record(student)
+        return {
+            "status": "success",
+            "student": scrubbed,
+            # Auto-login: the student just proved control of the account's inbox,
+            # which is a stronger proof than the password they no longer know.
+            "access_token": create_access_token(student["id"]),
+            "token_type": "bearer",
+        }
+    except HTTPException as he:
+        raise he
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Password reset failed: {str(e)}")

@@ -108,6 +108,7 @@ async def healthz():
     """
     from .config import settings
     from .database import get_db
+    from .services.mailer import is_email_configured
 
     report = {
         "status": "ok",
@@ -117,6 +118,8 @@ async def healthz():
             "google_oauth": bool(settings.google_client_id and settings.google_client_id != "mock_client_id"),
             "jwt": bool(settings.jwt_secret),
             "analytics_admin": bool(settings.analytics_admin_secret),
+            # False => /auth/request-reset is 503 (fail-closed, never a fake "sent")
+            "smtp": is_email_configured(),
         },
         "grants": {},
     }

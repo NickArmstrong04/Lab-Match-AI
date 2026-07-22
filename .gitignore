@@ -53,3 +53,8 @@ tmp/
 # Debug and test artifacts
 backend/screenshots_debug/
 backend/videos/
+
+# Local agent/tooling config and byproducts (not part of the app)
+.claude/
+.mcp.json
+.playwright-mcp/

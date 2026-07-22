@@ -33,6 +33,18 @@ class Settings(BaseSettings):
     # so an unconfigured deploy fails closed instead of leaking student data to anyone.
     analytics_admin_secret: str = ""
 
+    # Outbound SMTP for password-reset emails (services/mailer.py) -- the app's ONLY
+    # send path; outreach drafts are still copy-paste by design. Provider-agnostic on
+    # purpose: a Gmail app password works today, SES/Mailgun later is an env change,
+    # not a code change. If username/password are unset, /auth/request-reset returns
+    # 503 rather than pretending an email went out (same fail-closed posture as
+    # jwt_secret and analytics_admin_secret).
+    smtp_host: str = "smtp.gmail.com"
+    smtp_port: int = 587  # STARTTLS
+    smtp_username: str = ""
+    smtp_password: str = ""
+    smtp_from: str = ""  # From header; falls back to smtp_username when empty
+
     @property
     def state_signing_key(self) -> str:
         return self.oauth_state_secret or self.google_client_secret or ""

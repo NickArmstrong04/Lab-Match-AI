@@ -54,6 +54,12 @@ export const Onboarding: React.FC<OnboardingProps> = ({
   const [isSavingPassword, setIsSavingPassword] = useState(false);
   const [isReturningUser, setIsReturningUser] = useState(entry === 'returning' || lockReturning);
   const [isLoggingIn, setIsLoggingIn] = useState(false);
+  // Forgot-password: swaps the login fields for a request-reset panel in place.
+  // The confirmation message comes from the server verbatim -- it is deliberately
+  // the same whether or not the email has an account (no enumeration).
+  const [showForgotPassword, setShowForgotPassword] = useState(false);
+  const [forgotStatus, setForgotStatus] = useState<'idle' | 'sending' | 'sent'>('idle');
+  const [forgotMessage, setForgotMessage] = useState('');
   const [isGoogleConnected, setIsGoogleConnected] = useState(false);
   // The uploaded CV couldn't be read, so matches came from interests alone.
   const [cvParseFailed, setCvParseFailed] = useState(!!initialTempData?.has_parser_error);
@@ -521,6 +527,30 @@ export const Onboarding: React.FC<OnboardingProps> = ({
     }
   };
 
+  const handleRequestReset = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!emailAddress.trim()) {
+      setErrorMsg('Enter your email address.');
+      return;
+    }
+
+    setForgotStatus('sending');
+    setErrorMsg('');
+    trackEvent('password_reset_requested', 'onboarding', 'action');
+
+    try {
+      const resp = await api.post('/auth/request-reset', { email: emailAddress.trim() });
+      setForgotMessage(resp.data?.message || 'If an account with that email exists, a reset link has been sent.');
+      setForgotStatus('sent');
+    } catch (err: any) {
+      console.error(err);
+      // 503 = SMTP not configured (honest fail-closed), 502 = send actually failed.
+      // Both surface the backend's own wording; neither pretends an email went out.
+      setErrorMsg(err.response?.data?.detail || err.message || 'Could not request a reset link. Please try again.');
+      setForgotStatus('idle');
+    }
+  };
+
   const handleSavePassword = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!password.trim()) {
@@ -945,6 +975,71 @@ export const Onboarding: React.FC<OnboardingProps> = ({
           )}
 
           {isReturningUser ? (
+            showForgotPassword ? (
+            /* FORGOT PASSWORD — request a reset link */
+            <form onSubmit={handleRequestReset} className="space-y-5 flex-1 flex flex-col justify-between">
+              <div className="space-y-4">
+                <div className="space-y-1">
+                  <label className="text-xs font-semibold text-stone-500 uppercase tracking-wider block">
+                    Email Address
+                  </label>
+                  <input
+                    type="email"
+                    value={emailAddress}
+                    onChange={(e) => setEmailAddress(e.target.value)}
+                    placeholder="Enter your account email address"
+                    className="input-field text-sm"
+                    required
+                  />
+                </div>
+
+                <p className="text-xs text-stone-500 leading-relaxed">
+                  We'll email you a link to set a new password. The link expires in 30 minutes.
+                </p>
+
+                {forgotStatus === 'sent' && (
+                  <div className="p-3.5 rounded-lg bg-[#e6f7f0] border border-[#b2ddcf] text-[#0d5c48] text-xs flex items-start gap-2.5">
+                    <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0" strokeWidth={1.75} />
+                    <span>{forgotMessage}</span>
+                  </div>
+                )}
+
+                {errorMsg && (
+                  <div className="p-3.5 rounded-lg bg-rose-50 border border-rose-200 text-rose-800 text-xs flex items-start gap-2.5">
+                    <AlertCircle className="w-4 h-4 mt-0.5 shrink-0" strokeWidth={1.75} />
+                    <span>{errorMsg}</span>
+                  </div>
+                )}
+              </div>
+
+              <div className="shrink-0 mt-6 pt-5 border-t border-stone-200 flex items-center justify-between gap-3">
+                <button
+                  type="button"
+                  onClick={() => {
+                    setShowForgotPassword(false);
+                    setForgotStatus('idle');
+                    setErrorMsg('');
+                  }}
+                  className="text-xs font-semibold text-stone-500 hover:text-stone-700 cursor-pointer"
+                >
+                  Back to login
+                </button>
+                <button
+                  type="submit"
+                  disabled={forgotStatus === 'sending' || forgotStatus === 'sent'}
+                  className="btn-primary py-2.5 px-6 font-bold text-xs"
+                >
+                  {forgotStatus === 'sending' ? (
+                    <>Sending... <RefreshCw className="w-4 h-4 animate-spin" /></>
+                  ) : forgotStatus === 'sent' ? (
+                    <>Link Sent</>
+                  ) : (
+                    <>Email Reset Link</>
+                  )}
+                </button>
+              </div>
+            </form>
+            ) : (
             /* RETURNING STUDENT LOGIN FORM */
             <form onSubmit={handleLogin} className="space-y-5 flex-1 flex flex-col justify-between">
               <div className="space-y-4">
@@ -976,6 +1071,18 @@ export const Onboarding: React.FC<OnboardingProps> = ({
                     className="input-field text-sm"
                     required
                   />
+                  <div className="flex justify-end pt-0.5">
+                    <button
+                      type="button"
+                      onClick={() => {
+                        setShowForgotPassword(true);
+                        setErrorMsg('');
+                      }}
+                      className="text-xs font-semibold text-[#0d5c5c] hover:text-[#0b4d4d] cursor-pointer"
+                    >
+                      Forgot password?
+                    </button>
+                  </div>
                 </div>
 
                 {errorMsg && (
@@ -1036,6 +1143,7 @@ export const Onboarding: React.FC<OnboardingProps> = ({
                 </button>
               </div>
             </form>
+            )
           ) : (
             /* NEW STUDENT PROFILE SIGNUP FORM */
             <form

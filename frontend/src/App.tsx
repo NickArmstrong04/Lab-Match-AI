@@ -6,6 +6,7 @@ import GetStarted from './pages/GetStarted';
 import SignIn from './pages/SignIn';
 import ExploreUseCases from './pages/ExploreUseCases';
 import Onboarding from './pages/Onboarding';
+import ResetPassword from './pages/ResetPassword';
 import Dashboard, { type GrantMatch } from './pages/Dashboard';
 import EmailReview from './pages/EmailReview';
 import AnalyticsDashboard from './pages/AnalyticsDashboard';
@@ -14,7 +15,8 @@ import { trackEvent, setStudentId as saveStudentIdToAnalytics } from './utils/an
 import { getSession, saveSession, clearSession } from './utils/session';
 
 type View =
-  | 'cover' | 'get_started' | 'sign_in' | 'explore' | 'onboarding' | 'dashboard' | 'email_review' | 'analytics';
+  | 'cover' | 'get_started' | 'sign_in' | 'explore' | 'onboarding' | 'dashboard' | 'email_review' | 'analytics'
+  | 'reset_password';
 
 // Minimal hash routing. There is no router library and App is a useState view machine;
 // this gives the funnel real history entries so browser Back steps through it instead of
@@ -28,12 +30,24 @@ const VIEW_TO_HASH: Record<View, string> = {
   dashboard: '#/dashboard',
   email_review: '#/compose',
   analytics: '#/metrics',
+  reset_password: '#/reset-password',
 };
 const HASH_TO_VIEW = Object.fromEntries(
   Object.entries(VIEW_TO_HASH).map(([v, h]) => [h, v as View])
 ) as Record<string, View>;
 
 const viewFromHash = (hash: string): View | null => HASH_TO_VIEW[hash] ?? null;
+
+// The emailed reset link is `#/reset-password?token=...` -- the token rides in the
+// hash fragment so it never reaches the static host's access logs. viewFromHash is an
+// exact-match lookup and can't see it, so the reset path is prefix-matched separately.
+const isResetPasswordHash = (hash: string): boolean => hash.startsWith('#/reset-password');
+
+const parseResetTokenFromHash = (hash: string): string | null => {
+  if (!isResetPasswordHash(hash)) return null;
+  const q = hash.indexOf('?');
+  return q === -1 ? null : new URLSearchParams(hash.slice(q + 1)).get('token');
+};
 
 /**
  * Where to start on a cold load.
@@ -43,6 +57,11 @@ const viewFromHash = (hash: string): View | null => HASH_TO_VIEW[hash] ?? null;
  * to skip.
  */
 const resolveInitialView = (hasSession: boolean): View => {
+  // Before everything, including the session branch: a browser holding a stale
+  // logged-in localStorage session must still land a clicked reset link on the reset
+  // page -- bouncing to the dashboard would silently strip the token from the URL.
+  if (isResetPasswordHash(window.location.hash)) return 'reset_password';
+
   const hashView = viewFromHash(window.location.hash);
 
   if (hasSession) {
@@ -92,8 +111,17 @@ function App() {
   const [view, setView] = useState<View>(() => resolveInitialView(!!restored));
   const [isOnboarded, setIsOnboarded] = useState(!!restored);
 
+  // Captured in a lazy initializer: it must run before the URL-sync effect below
+  // replaceState()s the hash to the clean '#/reset-password', which scrubs the token
+  // from the address bar and history (a feature -- but it means reading it later
+  // would find nothing).
+  const [resetToken, setResetToken] = useState<string | null>(
+    () => parseResetTokenFromHash(window.location.hash)
+  );
+
   const isLandingView =
-    view === 'cover' || view === 'get_started' || view === 'sign_in' || view === 'explore';
+    view === 'cover' || view === 'get_started' || view === 'sign_in' || view === 'explore' ||
+    view === 'reset_password';
 
   // Analytics: Track session start. The ad-traffic redirect and session restore both
   // happen in resolveInitialView above, so the first render is already correct.
@@ -110,6 +138,7 @@ function App() {
     const VIEW_TO_PAGE: Record<View, PageName> = {
       cover: 'cover', get_started: 'onboarding', sign_in: 'onboarding', explore: 'explore',
       onboarding: 'onboarding', dashboard: 'dashboard', email_review: 'email_review', analytics: 'analytics',
+      reset_password: 'onboarding',
     };
     trackEvent('view_page', VIEW_TO_PAGE[view], 'page_view');
   }, [view]);
@@ -141,6 +170,21 @@ function App() {
   // onboarding -- and rendering those would show a blank pane.
   useEffect(() => {
     const onPopState = () => {
+      // Prefix-matched (the exact lookup below can't see '?token=...'). Re-capture
+      // the token for the paste-a-link-into-a-running-app case, where only the hash
+      // changes and no reload re-runs the state initializer.
+      if (isResetPasswordHash(window.location.hash)) {
+        const token = parseResetTokenFromHash(window.location.hash);
+        if (token) {
+          setResetToken(token);
+          // Scrub the token here too: the URL-sync effect only fires on view
+          // *changes*, so pasting a fresh link while already on the reset view
+          // would otherwise leave the token sitting in the address bar.
+          window.history.replaceState({ view: 'reset_password' }, '', VIEW_TO_HASH.reset_password);
+        }
+        setView('reset_password');
+        return;
+      }
       const target = viewFromHash(window.location.hash) ?? 'cover';
       if (target === 'email_review' && !activeOutreachMatch) {
         setView(isOnboarded ? 'dashboard' : 'cover');
@@ -424,6 +468,16 @@ function App() {
           <GetStarted onComplete={handleOnboardingComplete} onHome={goHome} />
         ) : view === 'sign_in' ? (
           <SignIn onComplete={handleOnboardingComplete} onHome={goHome} />
+        ) : view === 'reset_password' ? (
+          // landing-shell supplies the padding that keeps content clear of the fixed
+          // LandingTopBar -- same wrapper SignIn.tsx uses.
+          <div className="landing-shell">
+            <ResetPassword
+              token={resetToken}
+              onComplete={handleOnboardingComplete}
+              onBackToSignIn={() => setView('sign_in')}
+            />
+          </div>
         ) : view === 'explore' ? (
           <ExploreUseCases onGetStarted={() => setView('get_started')} onHome={goHome} />
         ) : view === 'onboarding' ? (
