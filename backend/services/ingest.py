@@ -14,7 +14,7 @@ from typing import List, Dict, Optional
 from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-from ..database import get_db, generate_embedding
+from ..database import get_db, generate_embedding, generate_embedding_with_model
 
 # Constants
 DEFAULT_KEYWORDS = [
@@ -748,10 +748,11 @@ def process_single_grant(grant: dict) -> Optional[dict]:
             # Re-scan methodologies with the newly expanded abstract
             grant["methodologies"] = scan_methodologies(title, expanded_abstract)
 
-        # Compute vector embedding
+        # Compute vector embedding, recording which model produced it so the row's
+        # embedding_model provenance is truthful rather than assumed (Task 22).
         emb_text = f"Title: {title}. Abstract: {grant['grant_abstract']} PI: {grant['pi_name']} Methodologies: {', '.join(grant['methodologies'])}."
-        embedding = generate_embedding(emb_text)
-        
+        embedding, embedding_model = generate_embedding_with_model(emb_text)
+
         return {
             "pi_name": grant["pi_name"],
             "university": grant["university"],
@@ -765,6 +766,7 @@ def process_single_grant(grant: dict) -> Optional[dict]:
             "start_date": grant["start_date"],
             "end_date": grant["end_date"],
             "embedding": embedding,
+            "embedding_model": embedding_model,
             "award_id": grant.get("award_id"),
             "abstract_is_generated": abstract_is_generated
         }
@@ -885,12 +887,26 @@ def run_grant_ingestion(keywords: List[str] = None, pages: int = 10, limit_per_p
                             processed_grants.append(res)
                             
                 if processed_grants:
+                    # Upsert on award_id so re-ingesting an award updates it in place rather
+                    # than inserting yet another duplicate (the labs_cached_grants_award_id_uniq
+                    # index). NULL-award rows (USAspending has no award number) never conflict
+                    # and simply insert. Collapse any intra-batch award_id repeats first --
+                    # ON CONFLICT cannot affect the same row twice in one statement.
+                    seen_award_ids = set()
+                    deduped = []
+                    for g in processed_grants:
+                        aid = g.get("award_id")
+                        if aid is not None:
+                            if aid in seen_award_ids:
+                                continue
+                            seen_award_ids.add(aid)
+                        deduped.append(g)
                     try:
-                        db.table("labs_cached_grants").insert(processed_grants).execute()
-                        inserted_count += len(processed_grants)
-                        print(f"  Successfully batch inserted {len(processed_grants)} grants.")
+                        db.table("labs_cached_grants").upsert(deduped, on_conflict="award_id").execute()
+                        inserted_count += len(deduped)
+                        print(f"  Successfully upserted {len(deduped)} grants.")
                     except Exception as e:
-                        warnings.warn(f"Failed to batch insert grants: {e}")
+                        warnings.warn(f"Failed to batch upsert grants: {e}")
                         skipped_count += len(new_grants)
                 else:
                     print("  No grants successfully processed in this batch.")
