@@ -404,6 +404,7 @@ export const Onboarding: React.FC<OnboardingProps> = ({
         saveSession({
           studentId,
           studentName: name,
+          email,
           location: location.trim(),
           researchInterests: researchInterests,
           resumeName: file ? file.name : 'No Resume Provided',
@@ -486,6 +487,7 @@ export const Onboarding: React.FC<OnboardingProps> = ({
       saveSession({
         studentId,
         studentName: student.name,
+        email: student.email || '',
         location: student.location || '',
         researchInterests: student.research_interests || '',
         resumeName: student.resume_url ? 'Saved Resume' : 'No Resume Provided',
@@ -653,6 +655,7 @@ export const Onboarding: React.FC<OnboardingProps> = ({
             saveSession({
               studentId,
               studentName: student.name,
+              email: student.email || '',
               location: student.location || '',
               researchInterests: student.research_interests || '',
               resumeName: student.resume_url ? 'Saved Resume' : 'No Resume Provided',

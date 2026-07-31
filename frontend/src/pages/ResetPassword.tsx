@@ -65,6 +65,7 @@ export const ResetPassword: React.FC<ResetPasswordProps> = ({
       saveSession({
         studentId,
         studentName: student.name,
+        email: student.email || '',
         location: student.location || '',
         researchInterests: student.research_interests || '',
         resumeName: student.resume_url ? 'Saved Resume' : 'No Resume Provided',

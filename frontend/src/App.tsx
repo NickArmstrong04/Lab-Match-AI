@@ -123,6 +123,27 @@ function App() {
     view === 'cover' || view === 'get_started' || view === 'sign_in' || view === 'explore' ||
     view === 'reset_password';
 
+  /**
+   * Prefill for the Onboarding form when it is opened to EDIT an existing profile.
+   *
+   * `tempOnboardingData` only exists if onboarding finished in this browser session, so
+   * after a refresh "Refine Interests" (and the "Profile narrative" nav step) opened a
+   * blank form -- name, email, campus and narrative all empty. Submitting that either
+   * failed validation or overwrote a real profile with nothing. Live state first so an
+   * edit made in the narrative modal is reflected immediately; the session is the
+   * fallback that survives the reload.
+   *
+   * Shaped to match what Onboarding reads off initialTempData.
+   */
+  const profileEditSeed = studentId
+    ? {
+        studentName,
+        email: restored?.email ?? '',
+        location: studentLocation,
+        researchInterests,
+      }
+    : null;
+
   // Analytics: Track session start. The ad-traffic redirect and session restore both
   // happen in resolveInitialView above, so the first render is already correct.
   useEffect(() => {
@@ -236,6 +257,7 @@ function App() {
       saveSession({
         studentId: data.studentId,
         studentName: data.studentName,
+        email: data.email,
         location: data.location,
         researchInterests: data.researchInterests,
         resumeName: data.resumeName,
@@ -485,7 +507,7 @@ function App() {
             onComplete={handleOnboardingComplete}
             onBackToCover={goHome}
             initialStage={onboardingIntent === 'save_account' && tempOnboardingData ? 'auth_setup' : 'form'}
-            initialTempData={tempOnboardingData}
+            initialTempData={tempOnboardingData ?? profileEditSeed}
           />
         ) : view === 'dashboard' ? (
           <Dashboard
@@ -503,6 +525,12 @@ function App() {
               // Editing interests, not creating an account -- see onboardingIntent.
               setOnboardingIntent('edit_profile');
               setView('onboarding');
+            }}
+            onNarrativeUpdated={(narrative) => {
+              // The row is already written; this keeps App (and therefore the sidebar,
+              // and the Onboarding prefill) in step without a refetch.
+              setResearchInterests(narrative);
+              saveSession({ researchInterests: narrative });
             }}
           />
         ) : view === 'email_review' ? (

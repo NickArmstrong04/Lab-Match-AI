@@ -10,7 +10,12 @@ import warnings
 
 from ..database import get_db, generate_embedding
 from .auth import scrub_student_record
-from ..auth_deps import create_access_token, get_optional_student_id
+from ..auth_deps import (
+    DEMO_STUDENT_IDS,
+    authorize_student,
+    create_access_token,
+    get_optional_student_id,
+)
 from ..config import settings
 
 router = APIRouter()
@@ -142,6 +147,34 @@ def get_fallback_profile(cv_text: str, interests: str) -> dict:
         "domain_tags": ["Data Science", "Interdisciplinary Research", "Bioengineering"]
     }
 
+def build_profile_text(
+    name: str,
+    interests: str,
+    structured_competencies: dict,
+    domain_tags: List[str],
+) -> str:
+    """The exact text that becomes `students.embedding`.
+
+    Every write path that touches the student vector must build it here. This template
+    was copy-pasted across /parse-resume and /analyze, and the narrative editor would
+    have made a third copy -- the class of duplication that let the fabricated-email bug
+    live in three places at once.
+
+    The wording is load-bearing, not cosmetic: it must stay byte-identical to what the
+    two original sites emitted, because every vector already in the table was written
+    under this phrasing. Changing the labels or their order re-embeds new students into
+    a subtly different region of the space than existing ones, and match_grants compares
+    them all against the same grant vectors -- so the drift would show up as quietly
+    worse matches, with nothing to point at.
+    """
+    return (
+        f"Name: {name}. Interests: {interests}. "
+        f"Summary: {structured_competencies['synthesized_summary']} "
+        f"Skills: {', '.join(structured_competencies['skills'])}. "
+        f"Domains: {', '.join(domain_tags)}."
+    )
+
+
 def resolve_profile_owner(email: str, caller_id: Optional[str]) -> Optional[str]:
     """Return the id of the existing students row for `email`, or None if it's free.
 
@@ -253,12 +286,7 @@ async def parse_resume(
     resume_url = file.filename if file else None
 
     # 3. Construct text representation and generate embedding vector
-    profile_text = (
-        f"Name: {name}. Interests: {interests}. "
-        f"Summary: {structured_competencies['synthesized_summary']} "
-        f"Skills: {', '.join(structured_competencies['skills'])}. "
-        f"Domains: {', '.join(domain_tags)}."
-    )
+    profile_text = build_profile_text(name, interests, structured_competencies, domain_tags)
     embedding = generate_embedding(profile_text)
 
     # 4. Write profile to Supabase
@@ -267,13 +295,19 @@ async def parse_resume(
         student_data = {
             "name": name,
             "email": email,
-            "resume_url": resume_url,
             "research_interests": interests,
             "location": location,
             "structured_competencies": structured_competencies,
             "domain_tags": domain_tags,
             "embedding": embedding
         }
+        # Absent, not None, when no file came in. The key used to be written
+        # unconditionally, so re-submitting without re-attaching the CV nulled the
+        # column -- an edit to the narrative silently erased the resume marker, and the
+        # UI dropped from "Saved Resume" to "No Resume Provided" with nothing said.
+        # On insert, omitting it leaves the column NULL, which is what it should be.
+        if resume_url:
+            student_data["resume_url"] = resume_url
         # Only stamp auth_id on create; rewriting it would rotate the identity that
         # links this student to their Google account.
         if not existing_id:
@@ -421,12 +455,7 @@ async def analyze_profile(
     resume_url = file.filename if file else None
 
     # 3. Build profile text for high-fidelity vector matching
-    profile_text = (
-        f"Name: {name}. Interests: {research_interests}. "
-        f"Summary: {structured_competencies['synthesized_summary']} "
-        f"Skills: {', '.join(structured_competencies['skills'])}. "
-        f"Domains: {', '.join(domain_tags)}."
-    )
+    profile_text = build_profile_text(name, research_interests, structured_competencies, domain_tags)
     if name == "Sarah Nguyen":
         embedding = [0.1] * 1536
     else:
@@ -438,13 +467,17 @@ async def analyze_profile(
         student_data = {
             "name": name,
             "email": email,
-            "resume_url": resume_url,
             "research_interests": research_interests,
             "location": location,
             "structured_competencies": structured_competencies,
             "domain_tags": domain_tags,
             "embedding": embedding
         }
+        # Absent, not None, when no file came in -- see the matching note in
+        # parse_resume. Writing the key unconditionally meant every "Refine Interests"
+        # that didn't re-attach the CV nulled resume_url.
+        if resume_url:
+            student_data["resume_url"] = resume_url
         # Only stamp auth_id when creating. "Refine Interests" sends a fresh
         # crypto.randomUUID() on every submit, and rewriting auth_id would rotate the
         # identity that links this student to their Google account.
@@ -506,3 +539,167 @@ async def analyze_profile(
             status_code=502,
             detail="Your profile couldn't be saved. Please try again."
         )
+
+
+# A narrative long enough to hit this is a paste accident, not a research interest.
+# Bounded because this route hands the text straight to Gemini and to the embedding
+# model on a caller-triggered request; /analyze predates the limit and is unbounded.
+MAX_NARRATIVE_CHARS = 10000
+
+
+class NarrativeUpdateRequest(BaseModel):
+    student_id: str
+    research_interests: str
+
+
+@router.patch("/narrative")
+async def update_narrative(
+    payload: NarrativeUpdateRequest,
+    caller_id: Optional[str] = Depends(get_optional_student_id),
+):
+    """Rewrite a student's research narrative, re-parse it, and re-embed.
+
+    Backs the dashboard's narrative editor. /analyze cannot serve this: it is multipart,
+    demands name+email, can 409 through resolve_profile_owner, and rewrites the whole
+    identity payload -- far too much blast radius for editing one text field.
+
+    Re-embedding is the entire point, not a side effect. match_grants ranks the deck
+    purely by students.embedding, so a narrative saved without a new vector leaves the
+    student matched against interests they just replaced, with no error anywhere to
+    show for it. Either both land or neither does.
+    """
+    student_id = payload.student_id
+    authorize_student(student_id, caller_id)
+
+    # authorize_student waves the demo UUIDs through as public fictional data, but they
+    # have no students row to update (see auth_deps). The frontend edits them locally
+    # and never calls this; a 404 here is the backstop, and it must stay a 404 rather
+    # than silently pretending to save.
+    if student_id in DEMO_STUDENT_IDS:
+        raise HTTPException(
+            status_code=404,
+            detail="Demo profiles aren't stored, so they can't be edited.",
+        )
+
+    interests = (payload.research_interests or "").strip()
+    # A blank narrative is rejected, never saved. generate_embedding("") returns a
+    # 1536-dim zero vector, which cosine-compares as garbage against every grant -- the
+    # write would look like a success and quietly destroy the student's matching.
+    if not interests:
+        raise HTTPException(
+            status_code=400,
+            detail="Your research narrative can't be empty.",
+        )
+    if len(interests) > MAX_NARRATIVE_CHARS:
+        raise HTTPException(
+            status_code=400,
+            detail=f"Please keep your research narrative under {MAX_NARRATIVE_CHARS:,} characters.",
+        )
+
+    try:
+        existing = (
+            get_db()
+            .table("students")
+            .select("id, name, structured_competencies, location")
+            .eq("id", student_id)
+            .execute()
+        )
+    except HTTPException:
+        raise
+    except Exception as e:
+        warnings.warn(f"Could not load student {student_id} for narrative update: {e}")
+        raise HTTPException(
+            status_code=502,
+            detail="We couldn't reach your profile. Please try again.",
+        )
+
+    if not getattr(existing, "data", None):
+        raise HTTPException(status_code=404, detail="We couldn't find your profile.")
+
+    student = existing.data[0]
+
+    # Re-parse from the narrative ALONE. The CV is parsed and discarded at upload and
+    # never stored, so there is genuinely no CV text to feed back in -- any skill this
+    # student got from their resume is dropped here. The editor says so in plain words
+    # rather than quietly shrinking their profile.
+    #
+    # Deliberately NOT falling back to get_fallback_profile, which the two onboarding
+    # routes do. That fallback is a hardcoded substring scan, and for a NEW student it
+    # beats an empty profile. Here the student already has a real Gemini parse, so
+    # writing it would be a strict downgrade: measured on a live edit, five specific
+    # skills ("High-content imaging", "Drug Target Engagement Analysis", ...) collapsed
+    # to ["Seq-RNA"] with generic domain tags, and that is what gets embedded and
+    # ranked. Editing one field must never quietly make a profile worse -- so if the
+    # analyzer is down, nothing is written and the student is told to try again.
+    try:
+        profile_data = query_gemini_synthesis("", interests)
+    except Exception as e:
+        warnings.warn(f"Gemini synthesis failed during narrative update: {e}. Nothing written.")
+        raise HTTPException(
+            status_code=503,
+            detail=(
+                "Our analyzer is temporarily unavailable, so your narrative wasn't "
+                "changed. Please try again in a moment."
+            ),
+        )
+
+    structured_competencies = {
+        "skills": profile_data.get("skills", []),
+        "education": profile_data.get("education", ""),
+        "synthesized_summary": profile_data.get("synthesized_summary", ""),
+        "recommended_roles": profile_data.get("recommended_roles", []),
+        # Carried over, not re-derived: location is a form field the student typed on
+        # the onboarding screen, not a Gemini output, and this route never sees it.
+        "location": (student.get("structured_competencies") or {}).get("location") or student.get("location"),
+    }
+    domain_tags = profile_data.get("domain_tags", [])
+
+    profile_text = build_profile_text(
+        student.get("name") or "", interests, structured_competencies, domain_tags
+    )
+    embedding = generate_embedding(profile_text)
+
+    # Refuse to write a dead vector over a live one. generate_embedding returns all
+    # zeros for empty input and can return nothing if the provider call fails; either
+    # would leave the student with a profile that matches everything equally badly.
+    if not embedding or not any(embedding):
+        raise HTTPException(
+            status_code=502,
+            detail="We couldn't rebuild your match profile, so nothing was changed. Please try again.",
+        )
+
+    try:
+        # Exactly the four fields this edit owns. resume_url, auth_id, name and email
+        # are deliberately absent -- see the resume_url note in analyze_profile.
+        response = (
+            get_db()
+            .table("students")
+            .update({
+                "research_interests": interests,
+                "structured_competencies": structured_competencies,
+                "domain_tags": domain_tags,
+                "embedding": embedding,
+            })
+            .eq("id", student_id)
+            .execute()
+        )
+    except HTTPException:
+        raise
+    except Exception as e:
+        warnings.warn(f"Narrative update write failed for {student_id}: {e}")
+        raise HTTPException(
+            status_code=502,
+            detail="Your narrative couldn't be saved. Please try again.",
+        )
+
+    # No returned row means nothing was written, whatever the call looked like.
+    if not getattr(response, "data", None):
+        raise HTTPException(
+            status_code=502,
+            detail="Your narrative couldn't be saved. Please try again.",
+        )
+
+    return {
+        "status": "success",
+        "student": scrub_student_record(response.data[0]),
+    }

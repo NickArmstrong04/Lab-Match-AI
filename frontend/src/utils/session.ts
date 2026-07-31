@@ -22,6 +22,10 @@ const SESSION_KEY = 'labmatch_session';
 export interface StoredSession {
   studentId: string;
   studentName: string;
+  // Carried so the profile editor can reopen prefilled. Without it, "Refine Interests"
+  // after a refresh presented an empty required Email field, and a student who retyped
+  // it with a typo got a 409 ("An account already uses this email") on their own row.
+  email: string;
   location: string;
   researchInterests: string;
   resumeName: string;

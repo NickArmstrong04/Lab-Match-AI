@@ -13,6 +13,10 @@ const api = axios.create({
 // leaving a student row written with no way back to it.
 const SLOW_ROUTES: Array<[RegExp, number]> = [
   [/\/profile\/analyze/, 120000],
+  // /profile/narrative re-runs the same synthesis and re-embeds, minus the CV parse.
+  // Aborting it client-side is the worst outcome available: the server finishes the
+  // write anyway, so the student sees a failure over a profile that did change.
+  [/\/profile\/narrative/, 120000],
   [/\/agent\/draft-email/, 90000],
 ];
 

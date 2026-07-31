@@ -1,8 +1,9 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
-import { X, Heart, Mail, Building, Calendar, DollarSign, ArrowLeft, ArrowRight, Award, Trash2, RefreshCw, ExternalLink, Clock } from 'lucide-react';
+import { X, Heart, Mail, Building, Calendar, DollarSign, ArrowLeft, ArrowRight, Award, Trash2, RefreshCw, ExternalLink, Clock, Pencil } from 'lucide-react';
 import GlassCard from '../components/GlassCard';
 import CircularScore from '../components/CircularScore';
 import PaywallModal from '../components/PaywallModal';
+import EditNarrativeModal from '../components/EditNarrativeModal';
 import axios from 'axios';
 import api from '../api/axios';
 import { trackEvent } from '../utils/analytics';
@@ -127,6 +128,7 @@ interface DashboardProps {
   skippedMatches: string[];
   setSkippedMatches: React.Dispatch<React.SetStateAction<string[]>>;
   onRefineInterests: () => void;
+  onNarrativeUpdated: (narrative: string) => void;
 }
 
 // How many extra pages the deck will pull automatically before giving up and telling the
@@ -144,6 +146,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
   skippedMatches,
   setSkippedMatches,
   onRefineInterests,
+  onNarrativeUpdated,
 }) => {
   // We keep track of the matches deck fetched from the database
   const [deckMatches, setDeckMatches] = useState<GrantMatch[]>(matches);
@@ -253,6 +256,8 @@ export const Dashboard: React.FC<DashboardProps> = ({
   // Consecutive auto-loads since the filters last changed. A ref, not state: bumping it
   // must not re-run the effect that calls loadMoreMatches.
   const autoLoadAttempts = useRef(0);
+
+  const [showNarrativeEditor, setShowNarrativeEditor] = useState(false);
 
 
   // Load matches deck and rebuild queues based on database status on mount, and reload when location filters change
@@ -486,7 +491,9 @@ export const Dashboard: React.FC<DashboardProps> = ({
     const onKey = (e: KeyboardEvent) => {
       const el = e.target as HTMLElement | null;
       if (el && (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA' || el.isContentEditable)) return;
-      if (showPaywall) return;
+      // Any modal owns the keyboard while it's open. Without the narrative-editor guard,
+      // arrow keys pressed over one of its buttons still swiped the deck behind it.
+      if (showPaywall || showNarrativeEditor) return;
       if (e.key === 'Escape') {
         if (inspectedMatch) { setInspectedMatch(null); }
         else if (lastSwipe) { handleUndo(); }
@@ -695,9 +702,37 @@ export const Dashboard: React.FC<DashboardProps> = ({
     }
   };
 
+  /**
+   * A saved narrative means a NEW student vector, so the ranking the deck was built
+   * from no longer exists. Reset the position, the paging offset and the exhausted
+   * flag before refetching -- keeping currentIndex/deckOffset would resume partway
+   * through an ordering that has been replaced.
+   */
+  const handleNarrativeSaved = (narrative: string) => {
+    onNarrativeUpdated(narrative);
+    setDeckMatches([]);
+    setCurrentIndex(0);
+    setDeckOffset(0);
+    setDeckExhausted(false);
+    setInspectedMatch(null);
+    setLastSwipe(null);
+    autoLoadAttempts.current = 0;
+    setIsDeckLoading(true);
+    setDeckReloadKey((k) => k + 1);
+  };
+
   return (
     <div className="w-full max-w-7xl mx-auto px-4 py-6 animate-fade-in">
       <PaywallModal isOpen={showPaywall} onClose={handlePaywallClose} />
+      {/* Mounted only while open, so the draft resets to the saved narrative on reopen. */}
+      {showNarrativeEditor && (
+        <EditNarrativeModal
+          studentId={studentId}
+          initialNarrative={researchInterests}
+          onClose={() => setShowNarrativeEditor(false)}
+          onSaved={handleNarrativeSaved}
+        />
+      )}
 
       {/* Undo pill: an accidental swipe (especially a left-swipe that hides a lab) is
           recoverable for ~8s. Also reachable via Esc. */}
@@ -867,9 +902,16 @@ export const Dashboard: React.FC<DashboardProps> = ({
                 )}
                 <div className="flex items-center justify-between text-stone-500 font-medium">
                   <span>narrative parsing</span>
-                  <span className="text-[#0d5c5c] font-semibold">Active</span>
+                  <button
+                    type="button"
+                    onClick={() => setShowNarrativeEditor(true)}
+                    className="inline-flex items-center gap-1 rounded-md border border-stone-200 bg-stone-50 px-2 py-1 text-[#0d5c5c] font-semibold hover:border-stone-300 hover:bg-stone-100 transition-colors cursor-pointer"
+                    title="Edit the narrative your matches are built from"
+                  >
+                    <Pencil className="w-3 h-3" /> Edit
+                  </button>
                 </div>
-                <p className="truncate italic">"{researchInterests}"</p>
+                <p className="truncate italic" title={researchInterests}>"{researchInterests}"</p>
               </div>
             </div>
           </GlassCard>
