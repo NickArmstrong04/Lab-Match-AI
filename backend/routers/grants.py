@@ -3,6 +3,7 @@ from typing import List, Optional
 from pydantic import BaseModel
 from urllib.parse import quote_plus
 import datetime
+import re
 import warnings
 import uuid
 from ..database import get_db
@@ -209,6 +210,100 @@ def build_source_record_url(funding_source: Optional[str], award_id: Optional[st
     return None
 
 
+# A genuine grant title is never this long. Measured 2026-07-31 on the live corpus:
+# NIH tops out at 200 chars and NSF at 180, so at this threshold both pass through
+# untouched -- only the USAspending rows below get shortened.
+_TITLE_PASSTHROUGH_LEN = 200
+_TITLE_TARGET_LEN = 160
+
+# "** AWARDS ISSUED PRIOR TO JANUARY 20, 2025, WERE FUNDED UNDER PREVIOUS ADMINISTRATIONS
+# AND MAY NOT REFLECT ... **" -- a policy banner USDA prepends to the award description.
+# 1,353 rows begin with it; it says nothing about the research.
+_TITLE_BANNER_RE = re.compile(r"^\s*\*\*.*?\*\*\s*", re.DOTALL)
+
+# A leading list enumerator ("1. ", "2) ") left behind once the banner is gone.
+_TITLE_ENUM_RE = re.compile(r"^\s*\d+\s*[.)]\s+")
+
+# A start-anchored label, where the description opens by naming itself. The separator is
+# whatever the clerk typed -- ":", "-", "," or nothing at all.
+_TITLE_LABEL_RE = re.compile(r"^\s*(?:PROJECT\s+TITLE|TITLE|DESCRIPTION)\s*[:\-,]?\s*", re.IGNORECASE)
+
+# Interior's records lead with record-keeping fields and bury the real title midway:
+# "GRANTEE NAME UNIVERSITY OF ILLINOISGRANT NUMBER G23AC00228PROJECT TITLE ENHANCING ...".
+# Worth finding anywhere near the front, because what follows is a genuine agency title.
+_TITLE_LABEL_ANYWHERE_RE = re.compile(r"PROJECT\s+TITLE\s*[:\-,]?\s*", re.IGNORECASE)
+_TITLE_LABEL_SEARCH_WINDOW = 300
+
+# Where a labelled title ends: the next record section. The colon is optional and so is any
+# separator -- collapsed newlines routinely run these straight onto the title
+# ("...RIPARIAN RESTORATIONPROJECT DATES: 9 24 2025"), which is exactly the seam we cut on.
+_TITLE_SECTION_RE = re.compile(
+    r"(?:PROJECT\s+(?:PERIOD|DATES?|STATEMENT|OBJECTIVES?|SUMMARY|DESCRIPTION|GOALS?)|"
+    r"AWARD\s+PURPOSE|GRANT\s+NUMBER|GRANTEE\s+NAME|ACTIVITIES\s+TO\s+BE\s+PERFORMED|"
+    r"DELIVERABLES|INTENDED\s+BENEFICIAR|SUBRECIPIENT|ABSTRACT|BACKGROUND|NARRATIVE)",
+    re.IGNORECASE,
+)
+
+
+def derive_display_title(raw: Optional[str]) -> str:
+    """Shorten an over-long grant title for display. Never invents text.
+
+    USAspending publishes no title field, so ingest substitutes the free-text award
+    `Description` and writes it to BOTH grant_title and grant_abstract
+    (services/ingest.py). The result is a title averaging 1,800 chars for USDA and
+    reaching 17,970 -- rendered as the card headline it was a wall of capitals that
+    pushed the score, PI and abstract off the card entirely.
+
+    Every branch here returns a prefix of the agency's own words. Nothing is rephrased,
+    re-cased or LLM-generated: a synthesized "clean" title would read as a sourced
+    federal award title while being ours, which is exactly what this codebase forbids.
+    Casing is left as published because these descriptions are dense with acronyms
+    (PFAS, CRISPR, RNA-Seq) that any re-casing heuristic mangles.
+
+    The full text stays in the database and is what gets embedded, so shortening the
+    display string moves no match score.
+    """
+    if not raw:
+        return "N/A"
+    text = raw.strip()
+    if len(text) <= _TITLE_PASSTHROUGH_LEN:
+        return text
+
+    text = _TITLE_BANNER_RE.sub("", text, count=1).strip()
+    text = _TITLE_ENUM_RE.sub("", text, count=1).strip()
+
+    # A labelled title is the agency stating its own title -- prefer it over any
+    # heuristic cut, and end it where the next record section begins.
+    label = _TITLE_LABEL_RE.match(text)
+    if not label:
+        found = _TITLE_LABEL_ANYWHERE_RE.search(text, 0, _TITLE_LABEL_SEARCH_WINDOW)
+        label = found
+    if label:
+        rest = text[label.end():]
+        section = _TITLE_SECTION_RE.search(rest)
+        candidate = (rest[:section.start()] if section else rest).strip(" ,;:-.–—")
+        if 20 <= len(candidate) <= _TITLE_PASSTHROUGH_LEN:
+            return candidate
+        if candidate:
+            text = candidate
+
+    if len(text) <= _TITLE_PASSTHROUGH_LEN:
+        return text
+
+    # First sentence, when it is a plausible headline on its own.
+    sentence_end = text.find(". ")
+    if 20 <= sentence_end <= _TITLE_TARGET_LEN:
+        return text[:sentence_end + 1].strip()
+
+    # Otherwise clip on a word boundary. The ellipsis is the honest signal that the
+    # student is seeing an excerpt, not the whole award description.
+    clipped = text[:_TITLE_TARGET_LEN]
+    space = clipped.rfind(" ")
+    if space > 40:
+        clipped = clipped[:space]
+    return clipped.rstrip(" ,;:.-") + "…"
+
+
 def update_grant_abstract_in_db(grant_id: str, expanded_abstract: str, title: str, pi_name: str, methodologies: list):
     try:
         from ..database import generate_embedding
@@ -353,7 +448,11 @@ def format_match_card(grant: dict, *, score, score_components: dict,
         "institution": university,
         "university": university,                    # Keep for test compatibility
         "department": grant.get("department") or "N/A",
-        "title": grant.get("grant_title") or "N/A",
+        # `title` is what the card renders, so it gets the shortened form. `grant_title`
+        # stays the verbatim column value -- it is the deliberate test-compatibility
+        # duplicate, and keeping it equal to the DB means the raw agency text is still
+        # reachable rather than lost behind a display helper.
+        "title": derive_display_title(grant.get("grant_title")),
         "grant_title": grant.get("grant_title") or "N/A",   # Keep for test compatibility
         "agency": funding_source,
         "funding_source": funding_source,            # Keep for test compatibility
@@ -673,7 +772,15 @@ async def get_matches(
             if hasattr(student_resp, 'data') and student_resp.data:
                 student = student_resp.data[0]
         except Exception as db_err:
+            # A failed lookup is NOT a missing profile. This used to fall through into the
+            # 404 below, so a transient Supabase fault told a student with a perfectly good
+            # profile to rebuild it (Dashboard reads that 404 as `profileMissing`). Report
+            # the fault as a fault; only an empty result means the row is absent.
             warnings.warn(f"Failed to query students table: {db_err}")
+            raise HTTPException(
+                status_code=500,
+                detail="We couldn't reach your profile just now. Please try again."
+            )
 
         if not student:
             raise HTTPException(

@@ -234,7 +234,14 @@ export const Dashboard: React.FC<DashboardProps> = ({
   const [deckReloadKey, setDeckReloadKey] = useState(0);
   // Deck load state. Without these, a fetch failure and an empty result both rendered as
   // the success-toned "Deck Fully Evaluated!".
-  const [isDeckLoading, setIsDeckLoading] = useState(false);
+  //
+  // Starts TRUE whenever the mount effect below is going to run. Login no longer prefetches
+  // matches, so `matches` arrives empty and the first paint would otherwise fall through
+  // every branch to "Deck Fully Evaluated!" -- telling a student who has seen nothing that
+  // they have seen everything, for the whole duration of the fetch. The condition mirrors
+  // the effect's own guard, so a missing studentId (where the effect returns early and
+  // never clears this) starts false rather than stranding a spinner that never resolves.
+  const [isDeckLoading, setIsDeckLoading] = useState(!!studentId && studentId !== 'undefined');
   const [deckError, setDeckError] = useState('');
   const [didFallBackNationwide, setDidFallBackNationwide] = useState(false);
   const [isResettingSkipped, setIsResettingSkipped] = useState(false);
@@ -981,7 +988,14 @@ export const Dashboard: React.FC<DashboardProps> = ({
                   {/* Top segment: PI metadata & Score */}
                   <div className="flex flex-col md:flex-row md:items-start gap-4 md:gap-6 border-b border-stone-200 pb-6 mb-6">
                     <div className="flex-1 min-w-0 space-y-3 md:pr-2">
-                      <h2 className="text-2xl md:text-3xl font-semibold text-stone-900 font-outfit tracking-tight leading-snug">
+                      {/* line-clamp is a backstop, not the fix: the backend already shortens
+                          this (derive_display_title). USAspending publishes no title field, so
+                          some rows carry the whole award description here -- unbounded, that
+                          pushed the score, PI and abstract off the card entirely. */}
+                      <h2
+                        className="text-2xl md:text-3xl font-semibold text-stone-900 font-outfit tracking-tight leading-snug line-clamp-3"
+                        title={currentMatch.title}
+                      >
                         {currentMatch.title}
                       </h2>
 

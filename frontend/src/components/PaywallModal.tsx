@@ -159,8 +159,8 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({ isOpen, onClose }) =
                   <Check className="w-3 h-3 text-stone-600" />
                 </div>
                 <div>
-                  <strong className="text-stone-900 font-semibold">Direct Gmail Integration</strong>
-                  <p className="text-stone-500 text-xs">Send curated emails directly from your student inbox in one click.</p>
+                  <strong className="text-stone-900 font-semibold">Editable Pitch Composer</strong>
+                  <p className="text-stone-500 text-xs">Refine each draft and copy it straight into your own email client.</p>
                 </div>
               </div>
             </div>

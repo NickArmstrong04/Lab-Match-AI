@@ -9,6 +9,7 @@ from pydantic import BaseModel
 from ..config import settings
 from ..database import get_db
 from ..auth_deps import get_optional_student_id, authorize_student
+from .grants import derive_display_title
 
 router = APIRouter()
 
@@ -208,7 +209,12 @@ async def draft_email(
         pi_name = grant.get("pi_name", "Principal Investigator")
         university = grant.get("university", "Partner Institution")
         department = grant.get("department", "Research Department")
-        grant_title = grant.get("grant_title", "")
+        # Shortened for the same reason the deck card is: USAspending rows carry the whole
+        # award description in grant_title (up to 17,970 chars). Untrimmed it was pasted
+        # verbatim inside quotation marks into the fallback draft the student copies, and
+        # fed to Gemini with an explicit instruction to "mention the title". The abstract
+        # below stays full -- that is what the pitch should actually be built from.
+        grant_title = derive_display_title(grant.get("grant_title", ""))
         grant_abstract = grant.get("grant_abstract", "")
 
         # 3. Call Gemini dynamic drafter or fallback (Bypassed instantly for Sarah Nguyen's video walk-through!)

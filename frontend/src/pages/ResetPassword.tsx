@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { AlertCircle, CheckCircle2, RefreshCw, ChevronRight } from 'lucide-react';
+import { AlertCircle, RefreshCw, ChevronRight } from 'lucide-react';
 import GlassCard from '../components/GlassCard';
 import api from '../api/axios';
 import { trackEvent, setStudentId } from '../utils/analytics';
@@ -35,10 +35,6 @@ export const ResetPassword: React.FC<ResetPasswordProps> = ({
   const [confirmPassword, setConfirmPassword] = useState('');
   const [errorMsg, setErrorMsg] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
-  // The reset itself succeeded but the follow-up match fetch failed. Distinct from
-  // errorMsg on purpose: rendering a rose error after the password WAS changed would
-  // tell the student their reset failed when it didn't.
-  const [resetDoneLoadFailed, setResetDoneLoadFailed] = useState(false);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -63,8 +59,8 @@ export const ResetPassword: React.FC<ResetPasswordProps> = ({
       const student = resp.data.student;
       const studentId = student.id || student.auth_id;
 
-      // Store the session BEFORE the match fetch: the axios interceptor reads the
-      // token per-request (same ordering as the login handler in Onboarding.tsx).
+      // The axios interceptor reads the token per-request, so store it before anything
+      // else authenticated goes out (same ordering as the login handler in Onboarding.tsx).
       setToken(resp.data.access_token);
       saveSession({
         studentId,
@@ -80,29 +76,19 @@ export const ResetPassword: React.FC<ResetPasswordProps> = ({
         student_id: studentId,
       });
 
-      // From here on the password IS reset -- any failure below must not read as a
-      // failed reset.
-      try {
-        let matchResp = await api.get(`/grants/matches?student_id=${studentId}&threshold=0.2&limit=5&local_only=true`);
-        let matchedGrants = matchResp.data;
-        if (!matchedGrants || matchedGrants.length === 0) {
-          matchResp = await api.get(`/grants/matches?student_id=${studentId}&threshold=0.2&limit=5&local_only=false`);
-          matchedGrants = matchResp.data;
-        }
-
-        onComplete({
-          resumeName: student.resume_url ? 'Saved Resume' : 'No Resume Provided',
-          researchInterests: student.research_interests || '',
-          matches: matchedGrants,
-          studentId,
-          studentName: student.name,
-          email: student.email || '',
-          location: student.location || '',
-          isAuthenticated: true,
-        });
-      } catch {
-        setResetDoneLoadFailed(true);
-      }
+      // The password IS reset by this point. Nothing that can fail belongs after it --
+      // this used to prefetch matches, so a slow deck query stranded a student whose
+      // reset had actually succeeded. Dashboard loads (and error-handles) the deck itself.
+      onComplete({
+        resumeName: student.resume_url ? 'Saved Resume' : 'No Resume Provided',
+        researchInterests: student.research_interests || '',
+        matches: [],
+        studentId,
+        studentName: student.name,
+        email: student.email || '',
+        location: student.location || '',
+        isAuthenticated: true,
+      });
     } catch (err: any) {
       console.error(err);
       setErrorMsg(err.response?.data?.detail || err.message || 'Password reset failed. Please try again.');
@@ -133,34 +119,6 @@ export const ResetPassword: React.FC<ResetPasswordProps> = ({
               className="btn-primary w-full py-2.5 text-xs font-bold"
             >
               Back to Sign In <ChevronRight className="w-3.5 h-3.5" />
-            </button>
-          </GlassCard>
-        </div>
-      </div>
-    );
-  }
-
-  if (resetDoneLoadFailed) {
-    return (
-      <div className="w-full px-4 sm:px-6 py-6 md:py-8 animate-fade-in flex flex-col items-center justify-center min-h-[70vh]">
-        <div className="w-full max-w-md mx-auto">
-          <GlassCard className="p-6 md:p-8 space-y-5" glowColor="teal">
-            <div className="flex items-center gap-2.5">
-              <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0" />
-              <h1 className="text-xl font-semibold font-outfit text-stone-900">
-                Your password was reset
-              </h1>
-            </div>
-            <p className="text-sm text-stone-600 leading-relaxed">
-              The new password is saved, but we couldn't load your matches just now.
-              Sign in to continue to your dashboard.
-            </p>
-            <button
-              type="button"
-              onClick={onBackToSignIn}
-              className="btn-primary w-full py-2.5 text-xs font-bold"
-            >
-              Sign In <ChevronRight className="w-3.5 h-3.5" />
             </button>
           </GlassCard>
         </div>

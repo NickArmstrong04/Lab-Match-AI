@@ -774,29 +774,61 @@ def process_single_grant(grant: dict) -> Optional[dict]:
         warnings.warn(f"Failed to process grant '{title[:40]}...': {e}")
         return None
 
+def normalize_title_key(title: Optional[str]) -> str:
+    """Dedup key for a grant title: casefolded, whitespace-collapsed.
+
+    Applied to BOTH sides of the comparison -- the stored title and the incoming API
+    title -- so a re-published award that differs only in casing or spacing is still
+    recognised as the same record instead of inserting a second copy.
+    """
+    if not title:
+        return ""
+    return " ".join(title.split()).casefold()
+
+
 def load_all_existing_titles(db) -> set:
     """
-    Load all existing grant titles from database in batches to bypass Postgrest default limits.
+    Load every existing grant title as a normalized dedup key, paging past PostgREST's
+    1000-row response cap.
+
+    Raises on failure. This used to swallow the error and return whatever it had, and the
+    caller substituted an empty set on top of that -- so a single DB hiccup silently
+    disabled deduplication for the entire run while it went on reporting success. That is
+    how 7,846 duplicate rows accumulated (cleaned up in migration 20260730000017). An
+    ingest that cannot load the dedup set must stop, not quietly insert duplicates.
+
+    KNOWN-WRONG, unchanged here: this key is the title ALONE, globally across sources. That
+    errs the other way -- 20260722000015 records 13,752 legitimately distinct awards sharing
+    title+source+university, so some real grants are being skipped at ingest as false
+    duplicates. Widening the key (title + source + university + award period) would recover
+    them, but it also re-opens the insert path this fix just closed, so it needs its own
+    task and its own before/after measurement.
     """
     titles = set()
     limit = 1000
     offset = 0
     while True:
-        try:
-            res = db.table("labs_cached_grants").select("grant_title").range(offset, offset + limit - 1).execute()
-            batch = res.data or []
-            if not batch:
-                break
-            for item in batch:
-                t = item.get("grant_title")
-                if t:
-                    titles.add(t)
-            if len(batch) < limit:
-                break
-            offset += limit
-        except Exception as e:
-            warnings.warn(f"Failed to fetch titles batch at offset {offset}: {e}")
+        # ORDER BY id is load-bearing, not tidiness. .range() without an ORDER BY has no
+        # stable row order across pages, so rows get skipped or repeated and the set comes
+        # back incomplete -- over 42k rows that happened on essentially every run. Same
+        # trap documented in backfill_nih_appl_ids.py.
+        res = (
+            db.table("labs_cached_grants")
+            .select("grant_title")
+            .order("id")
+            .range(offset, offset + limit - 1)
+            .execute()
+        )
+        batch = res.data or []
+        if not batch:
             break
+        for item in batch:
+            key = normalize_title_key(item.get("grant_title"))
+            if key:
+                titles.add(key)
+        if len(batch) < limit:
+            break
+        offset += limit
     return titles
 
 def run_grant_ingestion(keywords: List[str] = None, pages: int = 10, limit_per_page: int = 25) -> dict:
@@ -812,14 +844,13 @@ def run_grant_ingestion(keywords: List[str] = None, pages: int = 10, limit_per_p
     
     db = get_db()
     
-    # Pre-fetch existing titles to optimize duplicate checking and avoid redundant DB queries
-    try:
-        existing_titles = load_all_existing_titles(db)
-        print(f"Pre-loaded {len(existing_titles)} existing grant titles from database.")
-    except Exception as e:
-        existing_titles = set()
-        warnings.warn(f"Failed to pre-fetch existing grant titles from DB: {e}")
-        
+    # Pre-fetch existing titles to optimize duplicate checking and avoid redundant DB queries.
+    # Deliberately NOT wrapped in a try/except that falls back to an empty set: running with
+    # no dedup set is worse than not running at all, because it inserts a full duplicate of
+    # everything it fetches and still reports success.
+    existing_titles = load_all_existing_titles(db)
+    print(f"Pre-loaded {len(existing_titles)} existing grant titles from database.")
+
     seen_titles = existing_titles.copy()
     
     # USAspending agencies
@@ -866,13 +897,16 @@ def run_grant_ingestion(keywords: List[str] = None, pages: int = 10, limit_per_p
                 title = grant["grant_title"]
                 if not title:
                     continue
-                    
-                # Deduplication check
-                if title in seen_titles:
+
+                # Deduplication check, on the same normalized key the stored titles were
+                # loaded under -- comparing raw strings let casing/whitespace drift through
+                # as a fresh insert.
+                title_key = normalize_title_key(title)
+                if title_key in seen_titles:
                     skipped_count += 1
                     continue
-                    
-                seen_titles.add(title)
+
+                seen_titles.add(title_key)
                 new_grants.append(grant)
                 
             if new_grants:

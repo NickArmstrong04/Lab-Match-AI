@@ -480,8 +480,8 @@ export const Onboarding: React.FC<OnboardingProps> = ({
       const student = loginResp.data.student;
       const studentId = student.id || student.auth_id;
 
-      // Store the session BEFORE the match fetch below: the axios interceptor reads the
-      // token per-request, so storing it later would leave that first call unauthenticated.
+      // The axios interceptor reads the token per-request, so store it before anything
+      // else authenticated goes out.
       setToken(loginResp.data.access_token);
       saveSession({
         studentId,
@@ -499,20 +499,14 @@ export const Onboarding: React.FC<OnboardingProps> = ({
         save_method: 'login'
       });
 
-      // 2. Fetch matched grants for the returning student
-      let matchResp = await api.get(`/grants/matches?student_id=${studentId}&threshold=0.2&limit=5&local_only=true`);
-      let matchedGrants = matchResp.data;
-
-      if (!matchedGrants || matchedGrants.length === 0) {
-        matchResp = await api.get(`/grants/matches?student_id=${studentId}&threshold=0.2&limit=5&local_only=false`);
-        matchedGrants = matchResp.data;
-      }
-
-      // 3. Complete onboarding and route to dashboard
+      // 2. Route to dashboard, which loads the deck itself. Prefetching matches here was
+      // wasted work (Dashboard's mount effect refetches and replaces it) and it put the
+      // match query inside this catch -- so a slow or failing /grants/matches told the
+      // student "Login failed. Please verify your credentials." when the password was fine.
       onComplete({
         resumeName: student.resume_url ? 'Saved Resume' : 'No Resume Provided',
         researchInterests: student.research_interests || '',
-        matches: matchedGrants,
+        matches: [],
         studentId: studentId,
         studentName: student.name,
         email: student.email || '',
@@ -665,36 +659,24 @@ export const Onboarding: React.FC<OnboardingProps> = ({
               isAuthenticated: true,
             });
 
-            setIsLoggingIn(true);
             setErrorMsg('');
-            
-            try {
-              // Fetch matched grants for the returning student
-              let matchResp = await api.get(`/grants/matches?student_id=${studentId}&threshold=0.2&limit=5&local_only=true`);
-              let matchedGrants = matchResp.data;
 
-              if (!matchedGrants || matchedGrants.length === 0) {
-                matchResp = await api.get(`/grants/matches?student_id=${studentId}&threshold=0.2&limit=5&local_only=false`);
-                matchedGrants = matchResp.data;
-              }
-
-              // Complete onboarding and route to dashboard
-              onComplete({
-                resumeName: student.resume_url ? 'Saved Resume' : 'No Resume Provided',
-                researchInterests: student.research_interests || '',
-                matches: matchedGrants,
-                studentId: studentId,
-                studentName: student.name,
-                email: student.email || '',
-                location: student.location || '',
-                isAuthenticated: true
-              });
-            } catch (err: any) {
-              console.error(err);
-              setErrorMsg('Failed to retrieve matches after Google Login.');
-            } finally {
-              setIsLoggingIn(false);
-            }
+            // No match fetch here. Dashboard's mount effect loads the deck itself and
+            // overwrote whatever we prefetched, so gating login on it bought nothing and
+            // cost everything: a slow /grants/matches turned a SUCCESSFUL sign-in into
+            // "Failed to retrieve matches after Google Login." Dashboard also reports deck
+            // failures honestly (404 -> rebuild-profile panel, otherwise the real message),
+            // which the blanket catch here did not.
+            onComplete({
+              resumeName: student.resume_url ? 'Saved Resume' : 'No Resume Provided',
+              researchInterests: student.research_interests || '',
+              matches: [],
+              studentId: studentId,
+              studentName: student.name,
+              email: student.email || '',
+              location: student.location || '',
+              isAuthenticated: true
+            });
             return;
           }
 

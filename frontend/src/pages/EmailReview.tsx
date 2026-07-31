@@ -328,7 +328,13 @@ Elena Rostova`;
               `}>
                 {match.agency} FUNDING TARGET
               </span>
-              <h3 className="text-2xl font-semibold font-outfit text-stone-900 leading-tight">
+              {/* Backstop for an over-long title (see Dashboard). This card is
+                  overflow-hidden, so without the clamp an oversized headline pushed the
+                  score dial and methodologies out of the pane entirely. */}
+              <h3
+                className="text-2xl font-semibold font-outfit text-stone-900 leading-tight line-clamp-3"
+                title={match.title}
+              >
                 {match.title}
               </h3>
               <p className="text-stone-600 text-sm mt-2">
