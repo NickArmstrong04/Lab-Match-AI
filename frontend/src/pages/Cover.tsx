@@ -43,6 +43,13 @@ export const Cover: React.FC<CoverProps> = ({ onNavigate }) => {
           >
             Explore use cases
           </button>
+          <button
+            type="button"
+            className="cover-pill cover-pill--tertiary"
+            onClick={() => onNavigate('sign_in')}
+          >
+            Log in
+          </button>
         </div>
       </div>
     </div>

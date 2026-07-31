@@ -384,9 +384,11 @@ h1, h2, h3, h4, h5, h6 {
   word-break: keep-all;
 }
 
+/* wrap, not nowrap: three pills overflow narrow viewports, and .cover-page is
+   overflow-x: visible, so they would spill off-screen rather than scroll. */
 .cover-cta-row {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   gap: 1rem;
@@ -399,10 +401,13 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 1.03125rem;
   font-weight: 500;
   border-radius: 9999px;
-  border: none;
+  /* transparent (not none) so the outlined --tertiary variant, which only sets
+     border-color, keeps identical box metrics to its filled siblings. */
+  border: 1px solid transparent;
   cursor: pointer;
   white-space: nowrap;
-  transition: background 0.15s ease, color 0.15s ease, transform 0.15s ease;
+  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease,
+    transform 0.15s ease;
 }
 
 .cover-pill:active {
@@ -425,6 +430,24 @@ h1, h2, h3, h4, h5, h6 {
 
 .cover-pill--secondary:hover {
   background: #e7e5e4;
+}
+
+/* Outlined third rank, below primary and secondary.
+   Border/text are one step darker than .explore-sidebar-pill's stone-200/500: at
+   that weight on white the pill reads as blank space, which pulled the row's
+   optical center ~61px left of the centered headline even though the row is
+   geometrically centered. Stone-300 border + stone-600 text keeps it clearly
+   third rank while still registering as an object anchoring the row's right end. */
+.cover-pill--tertiary {
+  background: transparent;
+  color: #57534e;
+  border-color: #d6d3d1;
+}
+
+.cover-pill--tertiary:hover {
+  color: var(--color-ink);
+  border-color: #a8a29e;
+  background: #fafaf9;
 }
 
 /* Shared landing chrome (get started, sign in, explore) */
