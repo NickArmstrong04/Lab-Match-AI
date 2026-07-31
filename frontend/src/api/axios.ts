@@ -48,6 +48,33 @@ export interface NormalizedError {
   original: unknown;
 }
 
+/**
+ * `detail` strings that Starlette generates itself, keyed by the status they belong to.
+ *
+ * The rule below -- "backend messages are already student-facing" -- holds for this app's own
+ * HTTPException details, which are deliberately written for students. It does NOT hold for the
+ * framework's, which are just the HTTP reason phrase.
+ *
+ * Observed 2026-07-31: a backend process that predated PATCH /profile/narrative returned
+ * Starlette's unmatched-route 404, so the narrative editor showed the student a bare
+ * "Not Found" -- which reads as the app stating their profile is missing, when the truth was
+ * that the route did not exist on that server.
+ *
+ * Keyed by status, not a flat set, so the app keeps control of its own copy: "We couldn't find
+ * your profile." still renders, and even a deliberate app message that happened to read
+ * "Not Found" would still render on any status other than 404.
+ */
+const FRAMEWORK_DEFAULT_DETAIL: Record<number, string> = {
+  401: 'Unauthorized',
+  403: 'Forbidden',
+  404: 'Not Found',
+  405: 'Method Not Allowed',
+  500: 'Internal Server Error',
+};
+
+const isFrameworkDefaultDetail = (status: number | null, detail: unknown): boolean =>
+  status !== null && typeof detail === 'string' && FRAMEWORK_DEFAULT_DETAIL[status] === detail;
+
 api.interceptors.response.use(
   (response) => response,
   (error) => {
@@ -55,12 +82,24 @@ api.interceptors.response.use(
     const isTimeout = error?.code === 'ECONNABORTED';
     const detail = error?.response?.data?.detail;
 
+    const isFrameworkDefault = isFrameworkDefaultDetail(status, detail);
+    if (isFrameworkDefault && import.meta.env.DEV) {
+      // The student gets the generic message below; the developer gets the actual cause,
+      // because a 404 here almost always means the running server is older than this
+      // frontend and simply has no such route.
+      console.warn(
+        `[api] ${status} ${detail} for ${error?.config?.method?.toUpperCase()} ${error?.config?.url} ` +
+          `-- Starlette's own message, not the app's. A 404 usually means the backend does not ` +
+          `have this route: restart it from the repo root.`
+      );
+    }
+
     let friendlyMessage: string;
     if (isTimeout) {
       friendlyMessage = 'That took too long. Please try again.';
     } else if (status === null) {
       friendlyMessage = "We couldn't reach the server. Check your connection and try again.";
-    } else if (typeof detail === 'string' && detail) {
+    } else if (typeof detail === 'string' && detail && !isFrameworkDefault) {
       friendlyMessage = detail; // backend messages are already student-facing
     } else if (status >= 500) {
       friendlyMessage = 'Something went wrong on our side. Please try again.';
