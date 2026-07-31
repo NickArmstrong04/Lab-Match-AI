@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { createPortal } from 'react-dom';
 import { X, AlertCircle, RefreshCw, Info } from 'lucide-react';
 import GlassCard from './GlassCard';
 import api from '../api/axios';
@@ -103,10 +104,18 @@ export const EditNarrativeModal: React.FC<EditNarrativeModalProps> = ({
     }
   };
 
-  return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-stone-950/80 backdrop-blur-md animate-fade-in">
+  // Portalled to <body> on purpose. Dashboard's root carries `animate-fade-in`, whose
+  // transform CREATES A STACKING CONTEXT, so a z-50 overlay rendered inside it is
+  // trapped below the app header's z-40 -- observed live: the "Edit your research
+  // narrative" heading rendered underneath the header bar. z-index alone cannot fix
+  // that; the overlay has to escape the transformed ancestor.
+  //
+  // overflow-y-auto + my-auto so a viewport shorter than the modal scrolls instead of
+  // clipping. Without it the Save button was simply unreachable on short screens.
+  return createPortal(
+    <div className="fixed inset-0 z-50 flex items-center justify-center overflow-y-auto p-4 bg-stone-950/80 backdrop-blur-md animate-fade-in">
       <GlassCard
-        className="relative w-full max-w-2xl overflow-hidden flex flex-col p-8 bg-white border border-stone-200 text-stone-900 shadow-2xl rounded-3xl"
+        className="relative my-auto w-full max-w-2xl overflow-hidden flex flex-col p-8 bg-white border border-stone-200 text-stone-900 shadow-2xl rounded-3xl"
         glowColor="none"
       >
         {/* Close Button */}
@@ -197,7 +206,8 @@ export const EditNarrativeModal: React.FC<EditNarrativeModalProps> = ({
           </div>
         </div>
       </GlassCard>
-    </div>
+    </div>,
+    document.body
   );
 };
 
