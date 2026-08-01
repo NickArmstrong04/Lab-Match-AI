@@ -148,4 +148,44 @@ async def healthz():
         report["status"] = "degraded"
         report["grants"] = {"error": str(e)}
 
+    # Contact coverage. Counted over DISTINCT PIs rather than grants because that is the
+    # unit resolution actually works in -- one address serves every award its PI holds --
+    # so a grant-denominated percentage would understate progress badly.
+    try:
+        db = get_db()
+        resolved = db.table("pi_contacts").select("identity_key", count="exact").limit(1).execute().count or 0
+        from_nsf = db.table("pi_contacts").select("identity_key", count="exact").eq("source", "nsf_award").limit(1).execute().count or 0
+        from_pubmed = db.table("pi_contacts").select("identity_key", count="exact").eq("source", "pubmed_corresponding").limit(1).execute().count or 0
+        confirmed = db.table("pi_contacts").select("identity_key", count="exact").eq("confidence", "confirmed").limit(1).execute().count or 0
+        suppressed = db.table("pi_contacts").select("identity_key", count="exact").gte("reported_bad_count", 2).limit(1).execute().count or 0
+        # Validation coverage (migration 20260731000017). Nine sequential count queries in
+        # total now; /healthz is not on a hot path and nothing renders against it.
+        val_ok = db.table("pi_contacts").select("identity_key", count="exact").eq("validation_state", "valid").limit(1).execute().count or 0
+        val_failed = db.table("pi_contacts").select("identity_key", count="exact").in_("validation_state", ["invalid_syntax", "undeliverable_domain"]).limit(1).execute().count or 0
+        tried_empty = db.table("pi_contact_attempts").select("identity_key", count="exact").limit(1).execute().count or 0
+        report["pi_contacts"] = {
+            "resolved_pis": resolved,
+            "from_nsf_award": from_nsf,
+            "from_pubmed": from_pubmed,
+            # Both NSF and PubMed independently named the same mailbox.
+            "cross_confirmed": confirmed,
+            # Withdrawn after students reported them wrong; no longer served.
+            "suppressed_bad": suppressed,
+            # Domain confirmed to accept mail.
+            "validated_ok": val_ok,
+            # Syntax checked but deliverability not (nightly ingest defers DNS), or written
+            # before the validation migration. These ARE served -- "not yet checked" is not
+            # evidence against an address.
+            "validation_unchecked": max(resolved - val_ok - val_failed, 0),
+            # Malformed, or DNS says the domain cannot receive mail. Not served.
+            "validation_failed": val_failed,
+            # PIs we looked for and found no published address for. The honest denominator:
+            # without it, "resolved_pis" alone cannot distinguish unresolved from untried.
+            "tried_no_contact": tried_empty,
+        }
+    except Exception as e:
+        # Absent until migrations 20260722000016 / 20260731000017 are applied -- not a
+        # health failure.
+        report["pi_contacts"] = {"error": str(e)}
+
     return report

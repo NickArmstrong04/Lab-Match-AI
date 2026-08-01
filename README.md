@@ -51,9 +51,19 @@ graph TD
 
 Two properties are deliberate and should not be "optimized" away:
 
-- **PI contact emails are never fabricated.** The award APIs do not publish contact
-  emails, so each card carries a `pi_lookup_url` search link to the PI's lab page
-  instead of a guessed address. The composer's **To** field starts empty on purpose.
+- **PI contact emails are never fabricated.** Every address the app shows is quoted from
+  a named public record and displayed with a link to it — either the **NSF award record**
+  (NSF publishes `piEmail` for each award) or the **PubMed article** where the PI is the
+  corresponding author. Nothing is ever inferred from a name pattern; the
+  `first.last@university.edu` guesser that once lived here is gone and is not coming back.
+  When no source publishes an address, the card falls back to a `pi_lookup_url` search
+  link to the PI's lab page and the composer's **To** field stays empty.
+  Trust is tiered accordingly: an agency-published address prefills the **To** field, a
+  PubMed-derived one is *offered* and requires an explicit "Use this address" click, and
+  any address can be reported wrong — two reports and it stops being served to anyone.
+  (An earlier version of this section claimed the award APIs publish no contact emails.
+  They do; NSF returned `piEmail` in the very response the ingester was already parsing,
+  and the field was simply never requested. See migration `20260722000016_pi_contacts.sql`.)
 - **LLM-written abstracts are labeled.** When an agency publishes no usable abstract,
   Gemini generates a description from the grant metadata. Those rows are flagged
   `abstract_is_generated = TRUE` and render an **"AI-generated summary"** badge, because

@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { ArrowLeft, Mail, AlertCircle, CheckCircle2, RefreshCw, Copy, ExternalLink } from 'lucide-react';
 import GlassCard from '../components/GlassCard';
 import CircularScore from '../components/CircularScore';
-import { type GrantMatch } from './Dashboard';
+import { type GrantMatch, type PiContact, piContactSourceLabel } from './Dashboard';
 import api from '../api/axios';
 import { trackEvent } from '../utils/analytics';
 import { getDraft, saveDraft, clearDraft } from '../utils/session';
@@ -22,11 +22,34 @@ export const EmailReview: React.FC<EmailReviewProps> = ({
   studentId,
   onCancel,
 }) => {
-  // Never pre-fill a GUESSED address — the user must find the PI's real email on the
-  // lab's own page (award APIs don't provide contact emails). Pre-filling what THIS
-  // student already pasted for THIS grant is different: it's their own verified find,
-  // not our invention, and it saves them repeating the lookup for a follow-up.
-  const [to, setTo] = useState(match.pi_email || '');
+  // Never pre-fill a GUESSED address. That rule is unchanged — there is still no
+  // first.last@university.edu inference anywhere — but "guessed" and "unknown" are not the
+  // same thing, and the old comment here conflated them. Three tiers, strongest first:
+  //
+  //   1. match.pi_email      — what THIS student pasted for THIS grant. Their own find,
+  //                            prefilled so a follow-up doesn't repeat the lookup.
+  //   2. pi_contact @ NSF    — the funding agency's own published piEmail for this award.
+  //                            More authoritative than anything a student could dig up,
+  //                            so it prefills, always shown with a link to the award page.
+  //   3. pi_contact @ PubMed — the address on the PI's own recent paper. Real and cited,
+  //                            but matched by name rather than published against this
+  //                            grant, so it is OFFERED below and never auto-filled: the
+  //                            student takes one deliberate action to accept it.
+  //
+  // Anything weaker leaves the field empty and shows the lab-page lookup link, as before.
+  const resolved = match.pi_contact ?? null;
+  const prefillable = resolved?.source === 'nsf_award' ? resolved.email : '';
+  const [to, setTo] = useState(match.pi_email || prefillable || '');
+  // The citation shown under a prefilled address. Set late too, when the on-mount lookup
+  // resolves one the deck didn't have cached.
+  const [citedContact, setCitedContact] = useState<PiContact | null>(
+    resolved?.source === 'nsf_award' ? resolved : null
+  );
+  // A PubMed-sourced address is only a suggestion until the student accepts it.
+  const [suggestion, setSuggestion] = useState<PiContact | null>(
+    !match.pi_email && resolved?.source === 'pubmed_corresponding' ? resolved : null
+  );
+  const [reportedBad, setReportedBad] = useState(false);
   const [subject, setSubject] = useState('');
   const [body, setBody] = useState('');
   // The AI draft as first generated (NOT a restored saved draft), so we can measure how
@@ -68,6 +91,71 @@ export const EmailReview: React.FC<EmailReviewProps> = ({
     } catch (err) {
       // Non-fatal: they can still send. Losing the convenience beats blocking outreach.
       console.error('Failed to save the PI email:', err);
+    }
+  };
+
+  /**
+   * Resolve the PI's contact if the deck didn't already carry one.
+   *
+   * NSF rows are cached at ingest, so this is mostly the NIH path: RePORTER publishes no
+   * email, so the address has to come from the PI's own recent paper in PubMed, and that
+   * lookup is only worth doing for a lab the student actually opened. Deliberately silent
+   * on failure — "no verifiable address" is a normal answer, and the lab-page lookup link
+   * below is the honest fallback.
+   */
+  useEffect(() => {
+    if (match.pi_email || resolved) return;
+    let cancelled = false;
+    (async () => {
+      try {
+        const { data } = await api.get('/grants/matches/pi-contact', {
+          params: { student_id: studentId, grant_id: match.id },
+        });
+        const found: PiContact | null = data?.pi_contact ?? null;
+        if (cancelled || !found) return;
+        if (found.source === 'nsf_award') {
+          // Don't clobber anything the student has started typing in the meantime.
+          setTo((prev) => prev || found.email);
+          setCitedContact(found);
+        } else {
+          setSuggestion(found);
+        }
+      } catch {
+        // Non-fatal: they can still look the address up themselves.
+      }
+    })();
+    return () => {
+      cancelled = true;
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [match.id]);
+
+  /** Accept a suggested address. An explicit action, never automatic — see the tier note
+   *  on `to` above. Persisted immediately so it survives as this student's own find. */
+  const acceptSuggestion = (c: PiContact) => {
+    setTo(c.email);
+    setCitedContact(c);
+    setSuggestion(null);
+    trackEvent('pi_contact_accepted', 'email_review', 'action', {
+      grant_id: match.id,
+      source: c.source,
+    });
+  };
+
+  /** Tell the backend a resolved address is wrong. Two reports and it stops being served
+   *  to anyone, so a confidently-prefilled mistake can be withdrawn without a deploy. */
+  const reportBadContact = async () => {
+    setReportedBad(true);
+    setTo('');
+    setCitedContact(null);
+    setSuggestion(null);
+    try {
+      await api.post('/grants/matches/pi-contact/report', {
+        student_id: studentId,
+        grant_id: match.id,
+      });
+    } catch {
+      // Non-fatal: the field is already cleared for them either way.
     }
   };
 
@@ -421,21 +509,57 @@ Elena Rostova`;
                     <ExternalLink className="w-3 h-3 shrink-0" />
                   </a>
                 )}
-                {match.pi_lookup_url ? (
-                  <a
-                    href={match.pi_lookup_url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-[#0d5c5c] font-semibold text-xs inline-flex items-center gap-1 hover:underline"
-                  >
-                    Find {match.pi_name}'s email on their lab page <ExternalLink className="w-3 h-3 shrink-0" />
-                  </a>
-                ) : (
-                  // PI unresolved on the funding record; don't send them on a dead-end search.
-                  <span className="text-stone-500 text-xs italic">
-                    This award doesn't list a named PI yet — you may need to look up the lab directly.
-                  </span>
+                {/* Only offer the lab-page hunt when we have nothing better. Once an
+                    address is resolved or suggested, this link is noise. */}
+                {!citedContact && !suggestion && (
+                  match.pi_lookup_url ? (
+                    <a
+                      href={match.pi_lookup_url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-[#0d5c5c] font-semibold text-xs inline-flex items-center gap-1 hover:underline"
+                    >
+                      Find {match.pi_name}'s email on their lab page <ExternalLink className="w-3 h-3 shrink-0" />
+                    </a>
+                  ) : (
+                    // PI unresolved on the funding record; don't send them on a dead-end search.
+                    <span className="text-stone-500 text-xs italic">
+                      This award doesn't list a named PI yet — you may need to look up the lab directly.
+                    </span>
+                  )
                 )}
+
+                {/* Suggested address (PubMed tier). Rendered ABOVE the empty To field and
+                    never written into it without this click — the address is real and
+                    cited, but it was matched to the PI by name rather than published
+                    against this award, and that gap is the student's call to close. */}
+                {suggestion && !to && (
+                  <div className="bg-[#0d5c5c]/5 border border-[#0d5c5c]/20 rounded-lg px-3.5 py-2.5 space-y-1.5">
+                    <div className="text-stone-700 text-xs">
+                      Found <span className="font-mono font-semibold break-all">{suggestion.email}</span>
+                    </div>
+                    <div className="flex items-center gap-2 flex-wrap">
+                      {suggestion.source_url && (
+                        <a
+                          href={suggestion.source_url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-[#0d5c5c] text-[10px] inline-flex items-center gap-1 hover:underline"
+                        >
+                          {piContactSourceLabel(suggestion)} <ExternalLink className="w-2.5 h-2.5 shrink-0" />
+                        </a>
+                      )}
+                      <button
+                        type="button"
+                        onClick={() => acceptSuggestion(suggestion)}
+                        className="text-[10px] font-semibold text-white bg-[#0d5c5c] px-2.5 py-1 rounded-md hover:bg-[#0a4a4a] transition-colors"
+                      >
+                        Use this address
+                      </button>
+                    </div>
+                  </div>
+                )}
+
                 <div className="flex items-center gap-3 bg-stone-50 border border-stone-200 px-3.5 py-2.5 rounded-lg">
                   <span className="text-stone-500 font-semibold w-12 text-right font-mono text-xs">To:</span>
                   <input
@@ -447,6 +571,40 @@ Elena Rostova`;
                     className="bg-transparent border-none text-stone-800 focus:outline-none flex-1 font-mono text-xs placeholder-stone-400"
                   />
                 </div>
+
+                {/* The citation for whatever is sitting in the To field. Showing the
+                    address without the record it came from would make it indistinguishable
+                    from the fabricated addresses this app removed — the link is the
+                    difference between a quote and a guess. */}
+                {citedContact && to === citedContact.email && (
+                  <div className="flex items-center gap-2 flex-wrap pl-[3.75rem] -mt-1.5">
+                    {citedContact.source_url ? (
+                      <a
+                        href={citedContact.source_url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-[#0d5c5c] text-[10px] inline-flex items-center gap-1 hover:underline"
+                      >
+                        {piContactSourceLabel(citedContact)} <ExternalLink className="w-2.5 h-2.5 shrink-0" />
+                      </a>
+                    ) : (
+                      <span className="text-stone-400 text-[10px]">{piContactSourceLabel(citedContact)}</span>
+                    )}
+                    <span className="text-stone-400 text-[10px]">— verify before sending</span>
+                    <button
+                      type="button"
+                      onClick={reportBadContact}
+                      className="text-stone-400 text-[10px] underline hover:text-stone-600"
+                    >
+                      Wrong address?
+                    </button>
+                  </div>
+                )}
+                {reportedBad && (
+                  <p className="text-stone-500 text-[10px] pl-[3.75rem] -mt-1.5">
+                    Thanks — we've flagged it. Use the lab-page lookup link above instead.
+                  </p>
+                )}
                 <div className="flex items-center gap-3 bg-stone-50 border border-stone-200 px-3.5 py-2.5 rounded-lg">
                   <span className="text-stone-500 font-semibold w-12 text-right font-mono text-xs">Subject:</span>
                   <input

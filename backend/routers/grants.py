@@ -8,6 +8,15 @@ import uuid
 from ..database import get_db
 from ..auth_deps import get_optional_student_id, authorize_student
 from ..services.ingest import run_grant_ingestion, is_brief_abstract, expand_grant_abstract_via_llm, scan_methodologies
+from ..services.pi_identity import PI_UNRESOLVED, identity_key, pi_is_resolved
+from ..services.pi_contact_store import (
+    CONTACT_TTL_DAYS,
+    MAX_BAD_REPORTS,
+    contact_is_servable,
+    contact_is_stale,
+    record_pubmed_contact,
+)
+from ..services.pubmed_contact import resolve_pubmed_contact
 
 router = APIRouter()
 
@@ -158,21 +167,24 @@ def fetch_existing_match_rows(db, student_id: str) -> dict:
     return {}
 
 
-PI_UNRESOLVED = "Dr. Unknown Investigator"
-
-
-def pi_is_resolved(pi_name: Optional[str]) -> bool:
-    """False when we never identified the PI (USAspending awards whose PI resolution
-    failed keep this placeholder). Such a card has no real person to look up."""
-    return bool(pi_name) and pi_name.strip() != PI_UNRESOLVED
+# PI_UNRESOLVED and pi_is_resolved now live in services/pi_identity.py (imported above)
+# alongside identity_key, which has to apply the same "is this a real person" rule. Keeping
+# a second copy here would let the two drift, which is how is_valid_pi ended up duplicated
+# verbatim in services/ingest.py and recover_unknown_pis.py.
 
 
 def build_pi_lookup_url(pi_name: str, university: str) -> Optional[str]:
     """
     Search link the student can use to find the PI's real contact info on their
-    lab page. We never guess or fabricate email addresses — the award APIs do
-    not provide them, and a wrong guess sends a student's cold email to a
-    stranger or a dead inbox.
+    lab page. This is the fallback for when we could not resolve a verifiable address:
+    we never GUESS one, because a wrong guess sends a student's cold email to a stranger
+    or a dead inbox.
+
+    Note the old wording here ("the award APIs do not provide them") was wrong, and cost
+    the corpus every NSF address for as long as it stood: NSF publishes `piEmail` in the
+    same response fetch_nsf_grants() parses. Resolved addresses now come from pi_contacts
+    (see migration 20260722000016) and this link is what a card falls back to when no
+    verifiable source has one.
 
     Returns None when the PI is unresolved: a Google search for "Unknown Investigator
     ... lab contact" is a useless link, so the card surfaces "PI not yet identified"
@@ -255,6 +267,83 @@ def expand_and_store_abstract(grant_id: str, title: str, abstract: str, pi_name:
         warnings.warn(f"Background abstract expansion failed for {grant_id[:8] if grant_id else '?'}: {e}")
 
 
+# MAX_BAD_REPORTS and CONTACT_TTL_DAYS now live in services/pi_contact_store.py (imported
+# above) because the backfill scripts enforce the same two thresholds and a router cannot
+# be imported by a CLI script. Re-exported here so existing references keep working.
+
+
+def contact_public_fields(row: dict) -> dict:
+    """The subset of a pi_contacts row the client is allowed to see.
+
+    source_url and source_ref are non-negotiable parts of this payload: the whole basis for
+    prefilling an address is that the student can click through to the NSF award or PubMed
+    article and check it. An address served without its citation is just a guess again.
+    """
+    return {
+        "email": row.get("email"),
+        "source": row.get("source"),
+        "source_ref": row.get("source_ref"),
+        "source_url": row.get("source_url"),
+        "source_date": row.get("source_date"),
+        "confidence": row.get("confidence"),
+    }
+
+
+def fetch_pi_contacts(db, cards: List[dict]) -> dict:
+    """identity_key -> pi_contacts row, for every card that has a keyable PI.
+
+    One batched query for the whole deck. Keying on (pi_name, university) -- both already
+    on the card -- is what lets this be a plain table read instead of a change to the
+    match_grants RPC, whose OUT columns cannot be altered without DROP FUNCTION.
+    """
+    keys = {identity_key(c.get("pi_name") or "", c.get("institution") or "") for c in cards}
+    keys.discard(None)
+    if not keys:
+        return {}
+    try:
+        resp = db.table("pi_contacts").select(
+            "identity_key, email, source, source_ref, source_url, source_date, "
+            "confidence, reported_bad_count, validation_state"
+        ).in_("identity_key", list(keys)).execute()
+    except Exception as e:
+        # Never fail a deck over contact enrichment -- the card is still useful without it.
+        warnings.warn(f"Failed to fetch PI contacts: {e}")
+        return {}
+    rows = getattr(resp, "data", None) or []
+    # contact_is_servable applies both withholding rules -- reported-bad and failed
+    # validation -- and deliberately serves a NULL validation_state, which is every row
+    # written before migration 20260731000017.
+    return {
+        r["identity_key"]: r for r in rows
+        if r.get("identity_key") and contact_is_servable(r)
+    }
+
+
+def attach_pi_contacts(cards: List[dict], db=None) -> List[dict]:
+    """Fill in each card's `pi_contact` from the shared resolved-contact table.
+
+    Leaves the field None when nothing is resolved, which is what makes the card fall back
+    to build_pi_lookup_url(). Never writes to matches.pi_email -- the student's own paste
+    is a separate, higher-precedence thing (see migration 20260717000011).
+    """
+    if not cards:
+        return cards
+    try:
+        db = db or get_db()
+        by_key = fetch_pi_contacts(db, cards)
+    except Exception as e:
+        warnings.warn(f"Skipping PI contact enrichment: {e}")
+        return cards
+    if not by_key:
+        return cards
+    for card in cards:
+        key = identity_key(card.get("pi_name") or "", card.get("institution") or "")
+        row = by_key.get(key) if key else None
+        if row:
+            card["pi_contact"] = contact_public_fields(row)
+    return cards
+
+
 def enrich_sliced_matches(sliced_matches: List[dict], background_tasks: Optional[BackgroundTasks] = None, student_skills: Optional[List[str]] = None) -> List[dict]:
     """Queue expansion of brief abstracts; return the cards immediately.
 
@@ -284,7 +373,9 @@ def enrich_sliced_matches(sliced_matches: List[dict], background_tasks: Optional
                 item.get("funding_source", "NIH"),
                 item.get("methodologies") or [],
             )
-    return sliced_matches
+    # Every deck path (RPC/hybrid, keyword, /match) funnels through here, so this is the
+    # one place resolved contacts need attaching for the swipe deck.
+    return attach_pi_contacts(sliced_matches)
 
 
 
@@ -373,6 +464,11 @@ def format_match_card(grant: dict, *, score, score_components: dict,
         "location_match": location_match,
         "status": status,
         "pi_email": pi_email,
+        # Machine-resolved contact, quoted from a public record and carrying the link to
+        # it. Filled in by attach_pi_contacts(); None means nothing verifiable was found,
+        # and the card falls back to pi_lookup_url. Distinct from pi_email above, which is
+        # what THIS student typed and always outranks it in the composer.
+        "pi_contact": None,
         # Outreach tracker (Task 19) -- populated on the saved path, None on the deck.
         "outreach_status": outreach_status,
         "contacted_at": contacted_at,
@@ -467,7 +563,8 @@ async def get_saved_matches(
         ]
         # Emailed first (the outreach already in flight), then by score, NULLs last.
         cards.sort(key=lambda c: (c["status"] != "emailed", -(c["score"] or 0)))
-        return cards
+        # The saved list is the one path that does not go through enrich_sliced_matches.
+        return attach_pi_contacts(cards, db)
 
     except HTTPException:
         raise
@@ -971,6 +1068,147 @@ async def save_pi_email(
         raise
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Failed to save the PI email: {str(e)}")
+
+
+@router.get("/matches/pi-contact")
+async def get_pi_contact(
+    student_id: str = Query(...),
+    grant_id: str = Query(...),
+    caller_id: Optional[str] = Depends(get_optional_student_id),
+):
+    """Resolve this grant's PI contact, from cache or by asking PubMed.
+
+    The composer calls this on mount. NSF rows are normally already cached by the ingest
+    path and the backfill, so this is a table read; NIH rows -- which RePORTER publishes no
+    email for -- fall through to a live PubMed lookup of the PI's corresponding-author
+    address. That is two HTTP calls, trivial next to the 90s Gemini draft the composer is
+    already waiting on, so it runs inline rather than as a background task.
+
+    Returns {"pi_contact": None} freely. "We could not verify an address for this person"
+    is a normal, honest answer, and the UI shows the lab-page lookup link for it.
+    """
+    validate_uuid(student_id, "student_id")
+    validate_uuid(grant_id, "grant_id")
+    authorize_student(student_id, caller_id)
+
+    # The scripted personas' labs are fictional. Resolving a real address for a made-up PI
+    # is the exact wrong-person failure the gating in _demo_decks() exists to prevent.
+    if student_id in _demo_decks():
+        return {"pi_contact": None}
+
+    db = get_db()
+    try:
+        resp = db.table("labs_cached_grants").select(
+            "pi_name, university, funding_source"
+        ).eq("id", grant_id).execute()
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to load grant: {str(e)}")
+
+    rows = getattr(resp, "data", None) or []
+    if not rows:
+        raise HTTPException(status_code=404, detail="Grant not found.")
+
+    pi_name = rows[0].get("pi_name") or ""
+    university = rows[0].get("university") or ""
+    key = identity_key(pi_name, university)
+    if not key:
+        # Unresolved PI or an unkeyable name. Nothing to look up, and nothing to guess.
+        return {"pi_contact": None}
+
+    cached = None
+    try:
+        c_resp = db.table("pi_contacts").select("*").eq("identity_key", key).execute()
+        c_rows = getattr(c_resp, "data", None) or []
+        cached = c_rows[0] if c_rows else None
+    except Exception as e:
+        warnings.warn(f"pi_contacts lookup failed for {key}: {e}")
+
+    if cached and not contact_is_servable(cached):
+        # Students have reported this address wrong, or validation found positive evidence
+        # against it. Withdraw it rather than keep serving a confident-looking mistake.
+        return {"pi_contact": None}
+
+    if cached and not contact_is_stale(cached):
+        return {"pi_contact": contact_public_fields(cached)}
+
+    # Cache miss or stale. Ask PubMed for a published corresponding-author address.
+    try:
+        found = resolve_pubmed_contact(pi_name, university)
+    except Exception as e:
+        warnings.warn(f"PubMed resolution failed for {pi_name}: {e}")
+        found = None
+
+    if not found:
+        # Keep serving a stale-but-real address rather than dropping to nothing; it is
+        # still a cited address and the student sees its date and can judge it.
+        #
+        # Note this path deliberately does NOT write a pi_contact_attempts miss marker. A
+        # student who opened this specific lab is worth a fresh query next time; the
+        # negative cache exists to stop the bulk backfill re-querying ten thousand known
+        # misses, not to stop one student's lookup.
+        return {"pi_contact": contact_public_fields(cached) if cached else None}
+
+    # NSF precedence, cross-source confirmation and validation all live in
+    # services/pi_contact_store.py, because backfill_pubmed_pi_emails.py has to apply the
+    # identical rules over the whole corpus and a second copy here would drift.
+    result = record_pubmed_contact(
+        db, key=key, pi_name=pi_name, university=university, found=found, cached=cached,
+    )
+    if result["action"] == "rejected":
+        # The paper's address failed validation. Fall back to whatever we already had --
+        # a stale cited address still beats prefilling a dead mailbox.
+        return {"pi_contact": contact_public_fields(cached) if cached else None}
+    return {"pi_contact": contact_public_fields(result["row"])}
+
+
+class PiContactReportRequest(BaseModel):
+    student_id: str
+    grant_id: str
+
+
+@router.post("/matches/pi-contact/report")
+async def report_pi_contact(
+    req: PiContactReportRequest,
+    caller_id: Optional[str] = Depends(get_optional_student_id),
+):
+    """Flag a resolved address as wrong.
+
+    Prefilling an address is a stronger claim than offering a search link, so it has to be
+    retractable by the people who find out it is wrong. At MAX_BAD_REPORTS the read path
+    stops serving the row entirely and cards fall back to the lab-page lookup link.
+    """
+    validate_uuid(req.student_id, "student_id")
+    validate_uuid(req.grant_id, "grant_id")
+    authorize_student(req.student_id, caller_id)
+
+    if req.student_id in _demo_decks():
+        return {"status": "success", "recorded": False}
+
+    db = get_db()
+    try:
+        g_resp = db.table("labs_cached_grants").select("pi_name, university").eq("id", req.grant_id).execute()
+        g_rows = getattr(g_resp, "data", None) or []
+        if not g_rows:
+            raise HTTPException(status_code=404, detail="Grant not found.")
+        key = identity_key(g_rows[0].get("pi_name") or "", g_rows[0].get("university") or "")
+        if not key:
+            return {"status": "success", "recorded": False}
+
+        c_resp = db.table("pi_contacts").select("reported_bad_count").eq("identity_key", key).execute()
+        c_rows = getattr(c_resp, "data", None) or []
+        if not c_rows:
+            return {"status": "success", "recorded": False}
+
+        count = (c_rows[0].get("reported_bad_count") or 0) + 1
+        db.table("pi_contacts").update({
+            "reported_bad_count": count,
+            "reported_bad_at": datetime.datetime.now(datetime.timezone.utc).isoformat(),
+        }).eq("identity_key", key).execute()
+        return {"status": "success", "recorded": True, "suppressed": count >= MAX_BAD_REPORTS}
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to record the report: {str(e)}")
 
 
 class ResetSkippedRequest(BaseModel):

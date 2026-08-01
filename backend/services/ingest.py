@@ -11,10 +11,12 @@ import re
 import html
 import warnings
 from typing import List, Dict, Optional
-from datetime import datetime
+from datetime import datetime, timezone
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from ..database import get_db, generate_embedding, generate_embedding_with_model
+from .contact_validation import flags_to_column, validate_contact_email
+from .pi_identity import identity_key
 
 # Constants
 DEFAULT_KEYWORDS = [
@@ -257,8 +259,14 @@ def fetch_nsf_grants(keyword: str, limit: int = 15, offset: int = 0) -> List[dic
     """
     # Create keyword search term
     search_term = urllib.parse.quote(f'"{keyword}"')
-    fields = "id,title,startDate,expDate,abstractText,fundsObligatedAmt,pdPIName,awardeeName"
-    
+    # `piEmail` and `piId` are returned by this same endpoint and used to be omitted from
+    # printFields, so every NSF award arrived with its PI's real, agency-published address
+    # discarded. That omission is why the app believed "the award APIs do not publish PI
+    # emails" and sent students off to Google. NSF does publish one; we now ask for it.
+    # `date` is the award date, shown to the student so they can judge how fresh it is.
+    fields = ("id,title,startDate,expDate,abstractText,fundsObligatedAmt,"
+              "pdPIName,awardeeName,piEmail,piId,date")
+
     url = f"https://api.nsf.gov/services/v1/awards.json?ActiveAwards=True&keyword={search_term}&printFields={fields}&rpp={limit}&offset={offset}"
     
     try:
@@ -300,7 +308,18 @@ def fetch_nsf_grants(keyword: str, limit: int = 15, offset: int = 0) -> List[dic
                         # discarded, leaving every NSF row with a NULL award_id. Without it
                         # an award can only be re-found by title (see
                         # backfill_abstract_provenance.py), and dedup has no natural key.
-                        "award_id": a.get("id")
+                        "award_id": a.get("id"),
+                        # Contact provenance. These are NOT columns on labs_cached_grants --
+                        # process_single_grant() rebuilds the DB payload from a fixed key set,
+                        # so they are dropped there and instead harvested straight off this
+                        # list by run_grant_ingestion() into pi_contacts. Harvesting from the
+                        # raw fetch rather than the processed batch means a duplicate award we
+                        # skip inserting still contributes its contact record.
+                        # Lowercased to match services/pubmed_contact.py, so the same
+                        # mailbox reported by both sources compares equal.
+                        "pi_email": (a.get("piEmail") or "").strip().lower() or None,
+                        "nsf_pi_id": str(a.get("piId")).strip() if a.get("piId") else None,
+                        "award_date": parse_nsf_date(a.get("date")),
                     })
                 return parsed_grants
             else:
@@ -799,6 +818,76 @@ def load_all_existing_titles(db) -> set:
             break
     return titles
 
+def nsf_award_url(award_id) -> Optional[str]:
+    """Public NSF page for an award -- the record a student can open to check an address."""
+    if not award_id:
+        return None
+    return f"https://www.nsf.gov/awardsearch/showAward?AWD_ID={award_id}"
+
+
+def store_nsf_pi_contacts(db, nsf_list: List[dict]) -> int:
+    """Record the PI addresses NSF published alongside this batch of awards.
+
+    Harvested from the RAW fetch rather than the processed batch on purpose: a duplicate
+    award we skip inserting still carries a perfectly good contact record, and dropping it
+    would leave long-standing labs permanently uncontactable.
+
+    An award with no id is skipped -- source_ref is NOT NULL because a quoted address the
+    student cannot click through and verify is exactly the unverifiable claim this feature
+    exists to avoid.
+
+    `confidence` is deliberately omitted from the payload: new rows take the column default
+    ('single_source') while existing rows keep whatever they have, so a nightly re-ingest
+    never downgrades a 'confirmed' address that PubMed independently corroborated.
+
+    Syntax is checked here but deliverability is NOT. NSF's piEmail is hand-keyed and does
+    arrive malformed -- trailing periods, two addresses in one field, literal
+    "none@none.com" -- so normalize_email() is worth the microseconds. A DNS lookup per
+    award would change this nightly job's runtime profile for a verdict the validation
+    sweep can fill in later, so rows land as 'unknown', which the read path serves.
+    """
+    now = datetime.now(timezone.utc).isoformat()
+    rows = {}
+    for a in nsf_list:
+        award_id = a.get("award_id")
+        key = identity_key(a.get("pi_name") or "", a.get("university") or "")
+        if not award_id or not key:
+            continue
+        verdict = validate_contact_email(a.get("pi_email"),
+                                         university=a.get("university") or "",
+                                         check_dns=False)
+        email = verdict["email"]
+        if not email:
+            continue
+        # Keyed by identity so one PI's several awards collapse to a single row --
+        # ON CONFLICT cannot affect the same row twice in one statement.
+        rows[key] = {
+            "identity_key": key,
+            "pi_name_raw": a.get("pi_name"),
+            "university_raw": a.get("university"),
+            "email": email,
+            "source": "nsf_award",
+            "source_ref": str(award_id),
+            "source_url": nsf_award_url(award_id),
+            "source_date": a.get("award_date"),
+            "nsf_pi_id": a.get("nsf_pi_id"),
+            "verified_at": now,
+            "last_checked_at": now,
+            "validation_state": verdict["state"],
+            "validation_flags": flags_to_column(verdict["flags"]),
+            "validated_at": now,
+        }
+    if not rows:
+        return 0
+    try:
+        db.table("pi_contacts").upsert(list(rows.values()), on_conflict="identity_key").execute()
+        return len(rows)
+    except Exception as e:
+        # Non-fatal: contact enrichment must never take grant ingestion down with it.
+        warnings.warn(f"Failed to upsert {len(rows)} NSF PI contacts: {e}")
+        return 0
+
+
 def run_grant_ingestion(keywords: List[str] = None, pages: int = 10, limit_per_page: int = 25) -> dict:
     """
     Ingest research awards from NIH, NSF, and USAspending (DOD, DNR, DOE, EPA, NASA, USDA)
@@ -834,6 +923,8 @@ def run_grant_ingestion(keywords: List[str] = None, pages: int = 10, limit_per_p
     
     inserted_count = 0
     skipped_count = 0
+    # NSF-published PI addresses recorded this run (see store_nsf_pi_contacts).
+    pi_contacts_recorded = 0
     # Per-source fetch tallies. A source that fetches 0 across an entire run is almost
     # certainly failing (blocked / changed API), not legitimately empty -- the fetchers
     # swallow their errors and return [], so without this a starved source is invisible.
@@ -857,6 +948,9 @@ def run_grant_ingestion(keywords: List[str] = None, pages: int = 10, limit_per_p
             fetched_by_source["NIH"] += len(nih_list)
             fetched_by_source["NSF"] += len(nsf_list)
             fetched_by_source["USASpending"] += len(usa_list)
+
+            # Before dedup: a repeat award still carries a valid published address.
+            pi_contacts_recorded += store_nsf_pi_contacts(db, nsf_list)
 
             batch_grants = nih_list + nsf_list + usa_list
             
@@ -916,12 +1010,14 @@ def run_grant_ingestion(keywords: List[str] = None, pages: int = 10, limit_per_p
     for s in starved_sources:
         warnings.warn(f"Ingestion source '{s}' returned 0 grants across all keywords -- likely a failing/blocked API, not empty results.")
 
-    print(f"\nIngestion complete: {inserted_count} inserted, {skipped_count} skipped/failed. By source fetched: {fetched_by_source}")
+    print(f"\nIngestion complete: {inserted_count} inserted, {skipped_count} skipped/failed. "
+          f"By source fetched: {fetched_by_source}. PI contacts recorded: {pi_contacts_recorded}")
     return {
         "status": "success",
         "inserted": inserted_count,
         "skipped": skipped_count,
         "by_source": fetched_by_source,
         "starved_sources": starved_sources,
+        "pi_contacts_recorded": pi_contacts_recorded,
         "message": f"Successfully ingested {inserted_count} awards (skipped/existing: {skipped_count})."
     }
