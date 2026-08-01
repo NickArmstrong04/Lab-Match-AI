@@ -45,6 +45,13 @@ class Settings(BaseSettings):
     smtp_password: str = ""
     smtp_from: str = ""  # From header; falls back to smtp_username when empty
 
+    # Optional NCBI E-utilities key used by services/pubmed_contact.py when resolving a
+    # PI's published corresponding-author address. Unlike the secrets above this one fails
+    # OPEN: PubMed serves anonymous callers at ~3 req/s and keyed callers at ~10 req/s, so
+    # an unset key costs throughput, not capability. Free from
+    # https://account.ncbi.nlm.nih.gov/settings/.
+    ncbi_api_key: str = ""
+
     @property
     def state_signing_key(self) -> str:
         return self.oauth_state_secret or self.google_client_secret or ""

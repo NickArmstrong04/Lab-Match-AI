@@ -96,7 +96,198 @@ top matches, up from 0–25% at the default probes=1). The better fix is an **HN
 (`CREATE INDEX CONCURRENTLY` exceeds the tooling's ~1-minute timeout). Current setting is
 a solid interim.
 
-## 8. Blocked / external
+## 8. PI contact coverage — [resolvers built and verified; bulk runs not yet applied]
+
+Finding the PI's email was the hardest manual step in the journey, and the app used to
+decline to help on the stated grounds that "the award APIs do not publish contact emails."
+**That premise was wrong.** NSF returns `piEmail` in the same response `fetch_nsf_grants`
+already parses — it was never listed in `printFields`, so every NSF award in this corpus
+was fetched with the PI's real address attached and had it discarded. NIH RePORTER
+genuinely publishes none, but NIH-funded PIs publish corresponding-author addresses in
+PubMed. Verified live 2026-07-31; the two sources independently returned byte-identical
+addresses for the same PIs.
+
+Resolution now writes to `pi_contacts`, keyed per PI (not per grant), every row carrying
+the award id or PMID it was quoted from.
+
+**Measured 2026-07-31** (note the corpus is 34,931 here, down from the 40,840 recorded on
+2026-07-20 — worth understanding separately, it is not explained in this doc):
+
+| Source | Grants | Share | Contact route |
+|---|---|---|---|
+| NSF | 10,215 | 29.2% | `piEmail`, agency-published, bulk backfill |
+| NIH | 6,289 | 18.0% | PubMed corresponding author, lazy |
+| USAspending (DOD/DNR/DOE/EPA/NASA/USDA) | 18,427 | 52.7% | mostly unreachable — no named PI |
+
+NSF's 10,215 grants collapse to **8,892 distinct PI identities**, so the backfill makes
+~8.9k API calls, not 10.2k. A 150-row dry run resolved **147 (98%)**; the 3 misses were 2
+postdoctoral fellowships NSF publishes no `piEmail` for, and 1 same-PI duplicate. Every NSF
+row has a named PI (0 unresolved), so NSF is fully keyable.
+
+**Runtime, corrected.** The "~50 min at 0.34s" figure previously recorded here counted only
+the rate-limit pause and is a floor, not an estimate. Each lookup also pays a ~0.5s network
+round-trip, so NSF is closer to ~2h and the PubMed pass — 2–3 *sequential* NCBI calls per PI
+over ~10k PIs — is ~6h anonymous or ~4.5h with `NCBI_API_KEY`. The key is worth having (it
+is free and it keeps us off 429s) but it buys roughly **25%, not 3×**: at this call shape the
+bottleneck is latency, not the rate limit. Going meaningfully faster would need concurrency,
+which this repo has no pattern for and which would put `_request`'s 429 backoff into the hot
+loop. Plan an overnight run and rely on the resume ledger.
+
+### NSF backfill: applied 2026-07-31
+
+Full pass over all 10,215 NSF rows. **8,700 PI contacts written, every one DNS-confirmed
+deliverable** (`validation_state='valid'`, 100%). 16 carry a `freemail` flag (0.18%) and 248
+`domain_unmatched` (2.9%) — both advisory, neither withheld.
+
+| Outcome | Rows | |
+|---|---|---|
+| resolved | 8,675 | plus 25 from a verification run = 8,700 |
+| skipped, same PI already resolved | 1,334 | the dedup-by-identity saving |
+| NSF publishes no `piEmail` | 125 | overwhelmingly `PRFB` postdoctoral fellowships |
+| title hit, PI differs | 73 | see below |
+| award not found | 4 | one was a transient NSF 502; free to re-run |
+| failed validation | 2 | see below |
+| unkeyable | 2 | |
+
+**The 2 validation failures were both real, and one is the case that justifies the DNS
+check existing.** `irene.georgakoudi@darmouth.edu` is a **typo for `dartmouth.edu`** in NSF's
+own published data — `darmouth.edu` is NXDOMAIN. Prefilled, it would have bounced silently
+and the student would never have known the pitch went nowhere. The other,
+`nnn@bethel.uchicago.edu`, is a retired subdomain (`uchicago.edu` resolves; `bethel.` does
+not).
+
+**The 73 "title hit, PI differs" refusals are two different things.** 25 are genuinely
+different people — the collaborative-award sibling guard doing its job. The other **48 are
+the same person**, refused only because NSF's `awardeeName` has drifted from what we stored:
+
+```
+NSF says  mirkin|c|northwestern-university-chicago
+we have   mirkin|c|northwestern-university
+```
+
+This is `normalize_institution`'s documented "wasteful but never wrong" tradeoff (§
+`pi_identity.py`) showing up as a refusal rather than a duplicate row. **Deliberately not
+loosened.** Northwestern is benign, but the rule that would rescue it — accepting a
+surname+initial match across differing institution slugs — is exactly what merges "J Smith
+at University of Washington" with "J Smith at Washington University". The 48 cost 0.5%
+coverage and get an independent second attempt in the PubMed `--source nsf` pass, which
+keys on the person and does not need NSF's institution string to agree.
+
+### Final state after all passes (2026-08-01)
+
+**12,210 PI contacts**: 8,700 from NSF `piEmail`, 3,510 from PubMed corresponding authors.
+12,209 carry `validation_state='valid'` (the one `unknown` is a DNS lookup that timed out
+and is correctly still served). 9,772 PIs are recorded in `pi_contact_attempts` as tried
+with nothing published — the honest denominator. Verified against the live read path: a real
+400-card deck comes back with a resolved contact on **81%** of cards.
+
+`confidence='confirmed'` is still 0. Nothing has yet had NSF and PubMed independently name
+the same mailbox, because `--confirm-nsf` has not been run.
+
+### Four wrong-person modes, all found by inspection — read this before trusting the number
+
+Every one of these was caught by eyeballing backfill output. **None was predicted by a
+test**, and each was only found because the bulk run produced enough volume to notice.
+
+1. **Article-level affiliation filter.** `[ad]` matches the *article*, satisfied by any
+   author on the paper. `jun.wang@nyulangone.org` → a Pittsburgh PI. Fixed by corroborating
+   against the matched author's own affiliation.
+2. **Three-letter token collisions.** `'new'` from "Pace University-New York Campus" matched
+   `"New Haven, CT"` → `lieping.chen@yale.edu` for a Pace PI. Fixed by requiring a 4+ char
+   token or two tokens — *but* the first version of that fix withdrew `pmolin@lsuhsc.edu`,
+   because "LSU Health Sciences Center" tokenizes to `['lsu']` alone. A lone short token is
+   now accepted when no longer token existed to check.
+3. **Unlisted abbreviations.** `_GENERIC_INST_WORDS` held `hospital`/`center`/`school` but
+   not this corpus's `hosp`/`ctr`/`sch`/`med`/`sci`/`res`, which were among the most common
+   short tokens in the data. `'children'` (8 chars, clearing every length guard) matched a
+   Xi'an Jiaotong affiliation for a CHOP PI.
+4. **Alumni subdomains.** A former student's mailbox is never the lab contact.
+
+**Two destructive bugs in `--reverify` itself**, both found the same way:
+
+- It deleted on a **single** PubMed miss. Misses are transient at a measured ~19% (4 of 21),
+  including `jonathan-wren@omrf.org` for Oklahoma Medical Research Foundation. It now
+  re-queries before withdrawing; that second call runs only on the miss path.
+- It deleted rows whose institution had been left with **no tokens** by fix 3 — 12 correct
+  Mass General / CHOP / Children's National addresses. "We can no longer form an opinion" is
+  not evidence of error. Those rows are now left alone, mirroring the DNS rule that `unknown`
+  never withdraws. All 12 restored.
+
+**What this means for the error rate.** Roughly 1.4% of PubMed rows were withdrawn as
+wrong-person matches. That figure covers only the modes listed above — the ones that happened
+to be noticed. It is a floor, not a measurement. Establishing a real precision number needs a
+sample of a few hundred resolved rows hand-labelled against their cited PMIDs; until that
+exists, the citation link on every card is what actually protects the student, which is why
+`contact_public_fields` treats `source_url` as non-negotiable.
+
+### The cross-institution bug, found and fixed 2026-07-31
+
+Bulk-running the PubMed resolver surfaced a wrong-person failure that the lazy path had
+never produced at enough volume to notice. `_acceptable()` used to accept any academic
+domain when the esearch had been institution-filtered, reasoning that the filter had
+"already constrained the result set."
+
+It had not. The `[ad]` filter matches the **article** — it is satisfied if *any* author on
+the paper carries the institution, not the author whose name we matched. So a paper
+co-authored by someone at Pittsburgh surfaced for "wang j", and our J Wang's own NYU
+Langone affiliation was accepted because `nyulangone.org` passes the academic-domain test.
+A 60-row NIH sample produced `jun.wang@nyulangone.org` for a University of Pittsburgh PI
+and `jennifer.nelson@nemours.org` for a SUNY Stony Brook PI — two different people, and two
+cold pitches into a stranger's inbox.
+
+The institution is now corroborated against the **matched author's own affiliation**
+regardless of which search pass found the article. Cost: 2 of 25 resolutions on that sample
+(8%), both of them those errors. Guarded by `test_pi_contact_resolution.py` §5b.
+
+**Residual, not fixed:** institution tokens can still collide. "University of Pennsylvania"
+tokenizes to `['pennsylvania']`, which also appears in "Pennsylvania State University", so a
+`psu.edu` address can satisfy an upenn grant — observed once in the same sample. Separating
+those needs real institution disambiguation rather than token overlap. The citation link is
+what protects the student in the meantime, which is exactly why it is non-negotiable in the
+payload.
+
+Still open:
+
+- **USAspending rows are largely unreachable**, since ~11.4k have no named PI at all (§2)
+  and an unresolved PI is never keyed or queried. Those that *do* carry a named PI get a
+  PubMed attempt like any other row — the resolver keys on the person, not the funder.
+- **`recover_unknown_pis.py` is deliberately NOT being run first** to unlock those ~11.4k.
+  An LLM-guessed PI name feeding a contact resolver is the wrong-person failure this whole
+  feature exists to prevent: we would confidently prefill a real, correctly-resolved address
+  for the wrong human. Named PIs first.
+- **Addresses go stale.** `last_checked_at` drives a 180-day re-check, and PIs who move
+  institutions key to a new row while the old one lingers. `source_date` is always shown so
+  the student can judge freshness themselves.
+- **Free-mail addresses are rejected** from PubMed affiliations (a PI may legitimately
+  publish one, so this trades a little coverage for precision — see `FREEMAIL_DOMAINS`).
+  NSF addresses are **not** filtered this way: the agency is the funder of record, and it
+  does publish the occasional gmail (e.g. award 2030060). `contact_validation` only *flags*
+  freemail for this reason; the rejection lives in `pubmed_contact._acceptable`.
+- **Deliverability is DNS-only, and deliberately so.** `contact_validation.py` checks MX or
+  A (RFC 5321 implicit-MX means an A record alone still accepts mail, so requiring MX would
+  falsely condemn real university domains). It does **not** and must never do SMTP
+  `RCPT TO`/`VRFY` probing: nearly every .edu runs Exchange Online or Google Workspace,
+  both of which accept at RCPT and bounce later, so the probe is usually wrong in the
+  direction that matters; it needs outbound :25, which Cloud Run blocks; and repeated
+  probing gets the source IP blocklisted, poisoning the outbound mail this product exists
+  to deliver. A DNS failure yields `unknown`, never `undeliverable` — we never withdraw a
+  cited address because *our* resolver hiccupped.
+- **`domain_institution_agreement` cannot reject anything, on purpose.** It returns
+  `match`/`acronym`/`unknown` with no failing verdict, because roughly a third of real
+  university domains are unrecognisable from the funder's name for the institution
+  (`umich.edu`, and `mssm.edu` for "Icahn School of Medicine at Mount Sinai" — a historic
+  name sharing not one character with the current one). It flags rows for human
+  spot-checking; it never gates a write or a read.
+- **NSF titles are not unique.** A "Collaborative Research:" project is issued as one
+  award per participating institution, all sharing a byte-identical title but each with
+  its own PI and address. Since 98% of rows have no `award_id` (§4), title is the only
+  handle for most of them, so `fetch_nsf_contact` requires a candidate award to agree on
+  PI identity before copying its address. Without that check the first sibling wins:
+  award 2030225 would have attached `schardl@uky.edu` (Kentucky) to Rebecca Creamer at
+  New Mexico State, whose real address sat in the same API response. Guarded by
+  `test_pi_contact_resolution.py` §3b.
+
+## 9. Blocked / external
 
 Infrastructure items blocked on external access (outbound email for password reset, Cloud
 Run identity for the Cloud Scheduler migration, Docker for image verification, Supabase
@@ -122,4 +313,26 @@ SELECT
 FROM labs_cached_grants;
 ```
 
-Or `GET /healthz` for the live totals, active/ended, generated ratio, and unresolved-PI count.
+Contact coverage (§8). Run the first query BEFORE `backfill_nsf_pi_emails.py` — the NSF
+share of the corpus is what determines how much that backfill is worth:
+
+```sql
+SELECT funding_source, count(*) AS grants,
+       count(*) FILTER (WHERE pi_name <> 'Dr. Unknown Investigator') AS named_pis
+FROM labs_cached_grants GROUP BY funding_source ORDER BY grants DESC;
+
+SELECT source, confidence, validation_state, count(*) AS pis,
+       count(*) FILTER (WHERE reported_bad_count >= 2) AS suppressed
+FROM pi_contacts GROUP BY 1, 2, 3 ORDER BY pis DESC;
+
+-- The honest denominator: PIs we looked for and found no published address for. Without
+-- this, resolved_pis alone cannot tell "unresolved" apart from "never tried".
+SELECT last_outcome, count(*) FROM pi_contact_attempts GROUP BY 1 ORDER BY 2 DESC;
+```
+
+`validation_state IS NULL` means "not yet validated" and those rows **are** served — see the
+header of `20260731000017_pi_contact_validation.sql`. Only `invalid_syntax` and
+`undeliverable_domain` are withheld.
+
+Or `GET /healthz` for the live totals, active/ended, generated ratio, unresolved-PI count,
+and the `pi_contacts` coverage block.
