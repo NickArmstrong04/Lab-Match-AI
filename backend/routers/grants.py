@@ -9,6 +9,7 @@ import uuid
 from ..database import get_db
 from ..auth_deps import get_optional_student_id, authorize_student
 from ..services.ingest import run_grant_ingestion, is_brief_abstract, expand_grant_abstract_via_llm, scan_methodologies
+from ..services.digest import DIGEST_MODEL, generate_abstract_digest
 from ..services.pi_identity import PI_UNRESOLVED, identity_key, pi_is_resolved
 from ..services.pi_contact_store import (
     CONTACT_TTL_DAYS,
@@ -328,16 +329,59 @@ def update_grant_abstract_in_db(grant_id: str, expanded_abstract: str, title: st
         emb_text = f"Title: {title}. Abstract: {expanded_abstract} PI: {pi_name} Methodologies: {', '.join(new_methodologies)}."
         embedding = generate_embedding(emb_text)
         
-        # Update database cache
-        db.table("labs_cached_grants").update({
+        # Update database cache. The digest columns are nulled deliberately: a digest of
+        # the replaced abstract text must not survive it. The caller re-generates one
+        # from the new text right after (see expand_and_store_abstract).
+        base_update = {
             "grant_abstract": expanded_abstract,
             "methodologies": new_methodologies,
             "embedding": embedding,
-            "abstract_is_generated": True
-        }).eq("id", grant_id).execute()
+            "abstract_is_generated": True,
+        }
+        try:
+            db.table("labs_cached_grants").update({
+                **base_update,
+                "abstract_digest": None,
+                "digest_model": None,
+                "digest_generated_at": None,
+            }).eq("id", grant_id).execute()
+        except Exception:
+            # abstract_digest migration not applied yet — keep expansion working
+            db.table("labs_cached_grants").update(base_update).eq("id", grant_id).execute()
         print(f"[Background Task] Successfully enriched and cached abstract for grant ID {grant_id[:8]}.")
     except Exception as e:
         warnings.warn(f"Failed to update grant abstract in background: {e}")
+
+
+def generate_and_store_digest(grant_id: str, grant: dict, *, skip_existing_check: bool = False):
+    """Background: generate the structured digest and write it back.
+
+    Re-checks the row first so N students loading the same grant concurrently don't
+    each burn a Gemini call -- first writer wins, the rest no-op. One cheap select
+    instead of an in-memory set, so it also holds across uvicorn workers.
+    """
+    try:
+        db = get_db()
+        if not skip_existing_check:
+            try:
+                resp = db.table("labs_cached_grants").select("abstract_digest").eq("id", grant_id).execute()
+            except Exception:
+                # abstract_digest migration not applied yet — nothing to store into.
+                return
+            rows = getattr(resp, "data", None) or []
+            if rows and rows[0].get("abstract_digest"):
+                return
+        digest = generate_abstract_digest(grant)
+        if digest is None:
+            return  # next deck load queues a retry
+        db.table("labs_cached_grants").update({
+            "abstract_digest": digest,
+            "digest_model": DIGEST_MODEL,
+            "digest_generated_at": datetime.datetime.now(datetime.timezone.utc).isoformat(),
+        }).eq("id", grant_id).execute()
+        print(f"[Background Task] Stored abstract digest for grant ID {grant_id[:8]}.")
+    except Exception as e:
+        warnings.warn(f"Background digest generation failed for {grant_id[:8] if grant_id else '?'}: {e}")
 
 
 def expand_and_store_abstract(grant_id: str, title: str, abstract: str, pi_name: str,
@@ -356,8 +400,21 @@ def expand_and_store_abstract(grant_id: str, title: str, abstract: str, pi_name:
             "methodologies": methodologies or [],
         })
         if expanded and expanded != abstract:
-            # Sets abstract_is_generated=True and recomputes the embedding.
+            # Sets abstract_is_generated=True, recomputes the embedding, and nulls any
+            # stale digest columns.
             update_grant_abstract_in_db(grant_id, expanded, title, pi_name, methodologies or [])
+            # Digest the expanded text sequentially in this same background task: one
+            # ordering (expand -> persist -> digest -> persist), no race with the
+            # enrich_sliced_matches queueing, which never digests a brief abstract.
+            # skip_existing_check: the update above just nulled the digest columns.
+            generate_and_store_digest(grant_id, {
+                "grant_title": title,
+                "grant_abstract": expanded,
+                "pi_name": pi_name,
+                "university": university,
+                "funding_source": funding_source,
+                "methodologies": methodologies or [],
+            }, skip_existing_check=True)
     except Exception as e:
         warnings.warn(f"Background abstract expansion failed for {grant_id[:8] if grant_id else '?'}: {e}")
 
@@ -458,6 +515,8 @@ def enrich_sliced_matches(sliced_matches: List[dict], background_tasks: Optional
         g_id = item.get("id")
 
         if is_brief_abstract(abstract, title) and g_id and background_tasks is not None:
+            # Expansion only — never digest the brief text. expand_and_store_abstract
+            # chains a digest of the expanded text itself.
             background_tasks.add_task(
                 expand_and_store_abstract,
                 g_id,
@@ -467,6 +526,21 @@ def enrich_sliced_matches(sliced_matches: List[dict], background_tasks: Optional
                 item.get("institution", "N/A"),
                 item.get("funding_source", "NIH"),
                 item.get("methodologies") or [],
+            )
+        elif g_id and not item.get("abstract_digest") and background_tasks is not None:
+            # Full abstract with no stored digest yet: generate one after the response
+            # is sent, same write-back pattern as expansion. Served on the next load.
+            background_tasks.add_task(
+                generate_and_store_digest,
+                g_id,
+                {
+                    "grant_title": title,
+                    "grant_abstract": abstract,
+                    "pi_name": item.get("pi_name", "N/A"),
+                    "university": item.get("institution", "N/A"),
+                    "funding_source": item.get("funding_source", "NIH"),
+                    "methodologies": item.get("methodologies") or [],
+                },
             )
     # Every deck path (RPC/hybrid, keyword, /match) funnels through here, so this is the
     # one place resolved contacts need attaching for the swipe deck.
@@ -485,10 +559,10 @@ def fetch_grant_details(db, grant_ids: List[str]) -> dict:
         return {}
     try:
         resp = db.table("labs_cached_grants").select(
-            "id, start_date, end_date, abstract_is_generated, award_id"
+            "id, start_date, end_date, abstract_is_generated, award_id, abstract_digest"
         ).in_("id", grant_ids).execute()
     except Exception:
-        # abstract_is_generated migration not applied yet — keep dates working
+        # abstract_digest / abstract_is_generated migration not applied yet — keep dates working
         try:
             resp = db.table("labs_cached_grants").select(
                 "id, start_date, end_date, award_id"
@@ -520,6 +594,11 @@ def format_match_card(grant: dict, *, score, score_components: dict,
     methodologies = grant.get("methodologies") or []
     matching_skills = [m for m in methodologies if m.lower() in student_skills]
     missing_skills = [m for m in methodologies if m.lower() not in student_skills]
+    # supabase-py returns JSONB pre-parsed; the guard protects against a legacy string
+    # row or junk write ever reaching the frontend renderer.
+    digest = grant.get("abstract_digest")
+    if not isinstance(digest, dict):
+        digest = None
     pi_name = grant.get("pi_name") or "N/A"
     university = grant.get("university") or "N/A"
     funding_source = grant.get("funding_source") or "NIH"
@@ -553,6 +632,9 @@ def format_match_card(grant: dict, *, score, score_components: dict,
         "abstract": grant.get("grant_abstract") or "",
         "grant_abstract": grant.get("grant_abstract") or "",  # Keep for test compatibility
         "abstract_is_generated": bool(grant.get("abstract_is_generated", False)),
+        # Structured AI digest (tldr/project/methods/lab_fit) or None when not yet
+        # generated -- the frontend clamps the raw abstract in that case.
+        "abstract_digest": digest,
         "score": clamp_score(score),
         "compatibility_score": clamp_score(score),   # Keep for test compatibility
         "score_components": score_components,
@@ -782,6 +864,9 @@ async def match_student_to_grants(
                         else details.get("abstract_is_generated")
                     ),
                     "award_id": details.get("award_id"),
+                    # RPC OUT columns can't change without DROP FUNCTION, so the digest
+                    # rides in on the same secondary lookup as award_id.
+                    "abstract_digest": details.get("abstract_digest"),
                 }
                 formatted_matches.append(format_match_card(
                     grant,
@@ -1101,6 +1186,9 @@ async def get_matches(
                         else details.get("abstract_is_generated")
                     ),
                     "award_id": details.get("award_id"),
+                    # RPC OUT columns can't change without DROP FUNCTION, so the digest
+                    # rides in on the same secondary lookup as award_id.
+                    "abstract_digest": details.get("abstract_digest"),
                 }
                 formatted_matches.append(format_match_card(
                     grant,

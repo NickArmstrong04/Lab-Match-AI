@@ -2,7 +2,8 @@ import React, { useState, useEffect, useRef } from 'react';
 import { ArrowLeft, Mail, AlertCircle, CheckCircle2, RefreshCw, Copy, ExternalLink, Paperclip } from 'lucide-react';
 import GlassCard from '../components/GlassCard';
 import CircularScore from '../components/CircularScore';
-import { type GrantMatch, type PiContact, piContactSourceLabel } from './Dashboard';
+import { AboutProject } from '../components/MatchCard';
+import { type GrantMatch, type PiContact, piContactSourceLabel } from '../types/match';
 import api from '../api/axios';
 import { trackEvent } from '../utils/analytics';
 import { getDraft, saveDraft, clearDraft, getSession } from '../utils/session';
@@ -455,35 +456,39 @@ Elena Rostova`;
               </p>
             </div>
 
-            {/* Score dial context */}
+            {/* Score dial context. Lead with the digest TL;DR when the background
+                generation has landed; the matched-skills sentence is the honest
+                fallback (it degrades gracefully and is always true). */}
             <div className="flex items-center gap-5 p-4 rounded-lg bg-stone-50 border border-stone-200">
               <CircularScore score={match.score} size={80} strokeWidth={7} />
               <div className="space-y-1">
-                <h4 className="text-sm font-semibold text-stone-900">Synthesized Match Analysis</h4>
+                <div className="flex items-center gap-2 flex-wrap">
+                  <h4 className="text-sm font-semibold text-stone-900">Synthesized Match Analysis</h4>
+                  {match.abstract_digest && (
+                    <span
+                      className="px-2 py-0.5 rounded-full text-[10px] font-bold font-mono tracking-wide bg-amber-50 border border-amber-300 text-amber-800"
+                      title="This summary was AI-generated from the published grant abstract and may be imperfect."
+                    >
+                      AI summary
+                    </span>
+                  )}
+                </div>
                 <p className="text-xs text-stone-600 leading-relaxed">
-                  Your parsed profile demonstrates high proficiency in <span className="text-[#0d5c5c] font-semibold">{match.matching_skills.slice(0, 3).join(', ')}</span>, directly requested in this lab's methodology.
+                  {match.abstract_digest ? (
+                    match.abstract_digest.tldr
+                  ) : (
+                    <>
+                      Your parsed profile demonstrates high proficiency in <span className="text-[#0d5c5c] font-semibold">{match.matching_skills.slice(0, 3).join(', ')}</span>, directly requested in this lab's methodology.
+                    </>
+                  )}
                 </p>
               </div>
             </div>
 
-            {/* Methodology Focus */}
-            <div className="space-y-3">
-              <div className="flex items-center gap-2 flex-wrap">
-                <h4 className="text-xs font-semibold text-stone-500 uppercase tracking-widest">
-                  Key Project Methodologies
-                </h4>
-                {match.abstract_is_generated && (
-                  <span
-                    className="px-2 py-0.5 rounded-full text-[10px] font-bold font-mono tracking-wide bg-amber-50 border border-amber-300 text-amber-800"
-                    title="The funding agency didn't publish a detailed abstract. This description was AI-generated from the grant title and metadata, and may be inaccurate."
-                  >
-                    AI-generated summary
-                  </span>
-                )}
-              </div>
-              <p className="text-stone-700 text-sm leading-relaxed h-44 overflow-y-auto pr-1">
-                {match.abstract}
-              </p>
+            {/* Project section, unified with the deck card (digest bullets + collapsible
+                full abstract). Bounded height so the composer pane stays level with it. */}
+            <div className="max-h-72 overflow-y-auto pr-1">
+              <AboutProject match={match} />
             </div>
           </div>
 
