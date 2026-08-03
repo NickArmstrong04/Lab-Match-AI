@@ -239,6 +239,25 @@ try:
     bg_none = BackgroundTasks()
     enrich_sliced_matches([fresh_card], None, ["python"])  # no task runner available
     check("no BackgroundTasks -> nothing queued, no crash", len(bg_none.tasks), 0)
+
+    # The cap is what keeps a 12-card deck fetch from firing 12 Gemini calls at once.
+    # It must bite on the TAIL: cards arrive score-sorted, so the budget goes to the
+    # ones the student sees first.
+    many = [card_for({**BASE_GRANT_ROW, "id": f"g-{i:02d}"}) for i in range(12)]
+    bg_capped = BackgroundTasks()
+    enrich_sliced_matches(many, bg_capped, ["python"])
+    capped_ids = [t.args[0] for t in bg_capped.tasks if t.func.__name__ == "generate_and_store_digest"]
+    check("digests capped per response", len(capped_ids), grants_mod.MAX_DIGESTS_PER_RESPONSE)
+    check("cap keeps the top-ranked cards",
+          capped_ids, [f"g-{i:02d}" for i in range(grants_mod.MAX_DIGESTS_PER_RESPONSE)])
+
+    # Brief-abstract expansion is NOT capped: it's the older, rarer path and a brief
+    # abstract is a worse defect than a missing digest.
+    briefs = [card_for({**BASE_GRANT_ROW, "id": f"b-{i:02d}", "grant_abstract": "Too short."})
+              for i in range(8)]
+    bg_briefs = BackgroundTasks()
+    enrich_sliced_matches(briefs, bg_briefs, ["python"])
+    check("expansion not subject to the digest cap", len(bg_briefs.tasks), 8)
 finally:
     grants_mod.attach_pi_contacts = _real_attach
 

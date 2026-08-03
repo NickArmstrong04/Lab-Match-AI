@@ -353,6 +353,12 @@ def update_grant_abstract_in_db(grant_id: str, expanded_abstract: str, title: st
         warnings.warn(f"Failed to update grant abstract in background: {e}")
 
 
+# How many abstract digests one match response may queue. The corpus is ~35k grants and
+# digests are generated lazily on view, so this is the knob that trades warm-up speed for
+# Gemini rate-limit headroom. Raise it if the project is on a paid tier with room to spare.
+MAX_DIGESTS_PER_RESPONSE = 6
+
+
 def generate_and_store_digest(grant_id: str, grant: dict, *, skip_existing_check: bool = False):
     """Background: generate the structured digest and write it back.
 
@@ -508,7 +514,15 @@ def enrich_sliced_matches(sliced_matches: List[dict], background_tasks: Optional
     The student now gets the real federal text as published (brief, and honestly
     unlabelled, because it IS verbatim). The expansion lands in the database and shows up
     on the next load.
+
+    Digest generation is capped per response (MAX_DIGESTS_PER_RESPONSE). `sliced_matches`
+    arrives score-sorted, so the cap spends the budget on the cards the student actually
+    sees first; the rest fall back to the clamped raw abstract and get picked up on a
+    later load. Without it a single 12-card deck fetch fires 12 Gemini calls, and the
+    auto-top-up pages another 48 -- enough to trip per-minute limits, whose only visible
+    effect would be digests silently failing to appear.
     """
+    digests_queued = 0
     for item in sliced_matches:
         abstract = item.get("grant_abstract", "")
         title = item.get("grant_title", "N/A")
@@ -527,9 +541,11 @@ def enrich_sliced_matches(sliced_matches: List[dict], background_tasks: Optional
                 item.get("funding_source", "NIH"),
                 item.get("methodologies") or [],
             )
-        elif g_id and not item.get("abstract_digest") and background_tasks is not None:
+        elif (g_id and not item.get("abstract_digest") and background_tasks is not None
+              and digests_queued < MAX_DIGESTS_PER_RESPONSE):
             # Full abstract with no stored digest yet: generate one after the response
             # is sent, same write-back pattern as expansion. Served on the next load.
+            digests_queued += 1
             background_tasks.add_task(
                 generate_and_store_digest,
                 g_id,

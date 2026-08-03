@@ -945,8 +945,13 @@ export const Dashboard: React.FC<DashboardProps> = ({
                 <div className="flex-1 min-h-0 overflow-y-auto overscroll-y-contain pr-1">
                   {/* Sectioned scan card: header → key facts → why you match → about the
                       project. Sections live in components/MatchCard.tsx and are shared
-                      with the EmailReview left pane. */}
-                  <MatchCardBody match={currentMatch} />
+                      with the EmailReview left pane.
+
+                      Keyed on the card id so the "Read full abstract" expander resets per
+                      lab. React reconciles by position, so without this the next card
+                      inherits the previous one's expanded state and the deck drifts back
+                      into the wall of text this redesign replaced. */}
+                  <MatchCardBody match={currentMatch} key={currentMatch.id} />
                 </div>
 
                 {/* Bottom Swipe and outreach controllers */}
