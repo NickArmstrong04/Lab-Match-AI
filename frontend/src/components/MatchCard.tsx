@@ -179,89 +179,6 @@ export const KeyFactsStrip: React.FC<{ match: GrantMatch }> = ({ match }) => {
   );
 };
 
-/** One thin labeled score bar, e.g. "Research overlap ▓▓▓▓▓░░ 82". */
-const ScoreBar: React.FC<{ label: string; value: number }> = ({ label, value }) => {
-  const pct = Math.max(0, Math.min(100, value));
-  return (
-    <div className="flex items-center gap-2">
-      <span className="w-28 shrink-0 text-[10px] font-mono uppercase tracking-wider text-stone-500">
-        {label}
-      </span>
-      <div className="flex-1 h-1.5 rounded-full bg-stone-200 overflow-hidden">
-        <div className="h-full rounded-full bg-[#0d5c5c]" style={{ width: `${pct}%` }} />
-      </div>
-      <span className="w-8 text-right text-[11px] font-mono font-semibold text-stone-700">{pct}</span>
-    </div>
-  );
-};
-
-/**
- * The breakdown behind the score number: component bars (plain-language labels, not
- * "semantic"/"keyword" jargon), the otherwise-silent home-campus boost, and the
- * matched/missing skill chips. Components can be null per path (keyword is null on the
- * pure-embedding path, semantic on the keyword path) and the whole breakdown can be
- * null on older saved rows — each piece simply doesn't render.
- */
-export const WhyYouMatch: React.FC<{ match: GrantMatch }> = ({ match }) => {
-  const components = match.score_components;
-  return (
-    <div className="mb-6 space-y-3">
-      <h4 className="text-xs font-semibold text-stone-500 uppercase tracking-widest">
-        Why You Match
-      </h4>
-      {components && (components.semantic != null || components.keyword != null) && (
-        <div className="space-y-1.5">
-          {components.semantic != null && (
-            <ScoreBar label="Research overlap" value={components.semantic} />
-          )}
-          {components.keyword != null && (
-            <ScoreBar label="Skills overlap" value={components.keyword} />
-          )}
-        </div>
-      )}
-      {components && components.campus_boost > 0 && (
-        <p className="text-[11px] font-medium text-[#0d5c48]">
-          Includes a +{components.campus_boost} home-campus boost.
-        </p>
-      )}
-      {match.matching_skills.length > 0 && (
-        <div className="space-y-1.5">
-          <p className="text-[11px] font-semibold text-[#0d5c5c] uppercase tracking-wider">
-            Skills you match
-          </p>
-          <div className="flex flex-wrap gap-2">
-            {match.matching_skills.map((skill, index) => (
-              <span
-                key={index}
-                className="px-2.5 py-1 rounded-full text-xs font-medium bg-[#e6f0f0] border border-[#c5dddd] text-[#0d5c5c]"
-              >
-                {skill}
-              </span>
-            ))}
-          </div>
-        </div>
-      )}
-      {match.missing_skills.length > 0 && (
-        <div className="space-y-1.5">
-          <p className="text-[11px] font-semibold text-stone-500 uppercase tracking-wider">
-            Skills to grow
-          </p>
-          <div className="flex flex-wrap gap-2">
-            {match.missing_skills.map((skill, index) => (
-              <span
-                key={index}
-                className="px-2.5 py-1 rounded-full text-xs font-medium bg-stone-100 border border-stone-200 text-stone-600"
-              >
-                {skill}
-              </span>
-            ))}
-          </div>
-        </div>
-      )}
-    </div>
-  );
-};
-
 /** Labeled bullet group inside the digest, e.g. "What you'd work with". */
 const DigestGroup: React.FC<{ label: string; bullets: string[] }> = ({ label, bullets }) =>
   bullets.length === 0 ? null : (
@@ -372,12 +289,11 @@ export const AboutProject: React.FC<{ match: GrantMatch }> = ({ match }) => {
   );
 };
 
-/** The full sectioned card body, in scan order: header → key facts → fit → project. */
+/** The full sectioned card body, in scan order: header → key facts → project. */
 export const MatchCardBody: React.FC<{ match: GrantMatch }> = ({ match }) => (
   <>
     <MatchCardHeader match={match} />
     <KeyFactsStrip match={match} />
-    <WhyYouMatch match={match} />
     <AboutProject match={match} />
   </>
 );
