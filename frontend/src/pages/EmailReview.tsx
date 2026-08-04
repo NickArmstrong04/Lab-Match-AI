@@ -1,11 +1,11 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { ArrowLeft, Mail, AlertCircle, CheckCircle2, RefreshCw, Copy, ExternalLink } from 'lucide-react';
+import { ArrowLeft, Mail, AlertCircle, CheckCircle2, RefreshCw, Copy, ExternalLink, Paperclip } from 'lucide-react';
 import GlassCard from '../components/GlassCard';
 import CircularScore from '../components/CircularScore';
 import { type GrantMatch } from './Dashboard';
 import api from '../api/axios';
 import { trackEvent } from '../utils/analytics';
-import { getDraft, saveDraft, clearDraft } from '../utils/session';
+import { getDraft, saveDraft, clearDraft, getSession } from '../utils/session';
 
 interface EmailReviewProps {
   match: GrantMatch;
@@ -43,6 +43,10 @@ export const EmailReview: React.FC<EmailReviewProps> = ({
   // "template draft, review carefully" notice + Retry, so the fallback isn't passed off
   // silently as the personalized pitch.
   const [isFallbackDraft, setIsFallbackDraft] = useState(false);
+  // True when the draft says the CV is attached. The app attaches nothing — the student
+  // sends from their own mail client — so this drives a reminder to actually attach it.
+  // Without that, Copy Pitch hands them an email whose first claim is untrue.
+  const [expectsCvAttachment, setExpectsCvAttachment] = useState(false);
 
   // Mark-as-sent: the only way outreach ever reaches the database.
   const [hasCopied, setHasCopied] = useState(false);
@@ -237,25 +241,46 @@ Elena Rostova`;
         });
         const data = response.data;
         const draftBody = data.body || '';
-        setSubject(data.subject || `Research opportunity inquiry — ${studentName}`);
+        setSubject(data.subject || `Research assistant inquiry — ${studentName}`);
         setBody(draftBody);
         originalDraftBody.current = draftBody;
         // The backend fell back to its static template (Gemini unavailable). Flag it so
         // the student sees it's a template, not a personalized draft.
         setIsFallbackDraft(!!data.is_fallback);
+        setExpectsCvAttachment(!!data.expects_cv_attachment);
       } catch (err) {
         console.error("Draft generation error, loading fallback template:", err);
         setIsFallbackDraft(true);
         // Client-side template when the draft call itself fails. Written from the
         // student's field, with no award amount (mercenary) and no fabricated
-        // "parsed CV" claim.
+        // "parsed CV" claim. It also names no award: we found this lab through a
+        // federal record, but the student didn't, and quoting the project title back
+        // at the PI reads as odd and exposes the funding-database provenance.
         const skills = (match.matching_skills || []).slice(0, 3);
-        setSubject(`Research opportunity inquiry — ${studentName}`);
-        const intro = `Dear Dr. ${match.pi_name.split(' ').pop()},\n\nI hope this email finds you well. My name is ${studentName}, and I am an undergraduate reaching out about research opportunities in your lab. I read about your ${match.agency}-funded project, "${match.title}", and it aligns closely with my research interests.`;
+        setSubject(`Research assistant inquiry — ${studentName}`);
+        // pi_lookup_url is null exactly when the PI was never resolved (same signal the
+        // To-field hint uses), so it also tells us there's no real name to address.
+        const piLast = match.pi_lookup_url ? match.pi_name.split(' ').pop() : null;
+        const greeting = piLast ? `Dear Dr. ${piLast},` : 'Dear Professor,';
+        // "Research Department" is the ingest placeholder, not a real department — naming it
+        // produced "your group's work in Research Department". Mirrors get_fallback_draft.
+        const dept = match.department && match.department.trim() !== 'Research Department'
+          && match.department.trim().length <= 40 ? match.department.trim() : '';
+        // Institution names like "Organos, Inc." already end in a period.
+        const uni = (match.institution || '').trim();
+        const stop = uni.endsWith('.') ? '' : '.';
+        const intro = `${greeting}\n\nI hope this email finds you well. My name is ${studentName}, and I am a student reaching out about research opportunities in your lab at ${uni}${stop} Your group's ${dept ? `work in ${dept}` : 'research'} connects closely with my research interests.`;
         const center = skills.length
           ? `I have hands-on experience with ${skills.join(', ')}, and I'd be glad to contribute to your group in whatever capacity would be most useful.`
           : `I'd be glad to contribute to your group in whatever capacity would be most useful.`;
-        const outro = `Would you be open to a brief conversation about getting involved? I'd be happy to send along my full CV.\n\nSincerely,\n\n${studentName}`;
+        // The backend is unreachable here, so resume_url isn't available — the stored
+        // session's resumeName is the same presence marker written at onboarding.
+        const hasCv = !!getSession()?.resumeName;
+        setExpectsCvAttachment(hasCv);
+        const cvLine = hasCv
+          ? `I've attached my CV with more detail on my background.`
+          : `I'd be glad to share more about my background if that would be useful.`;
+        const outro = `Would you be open to a brief 15-minute conversation about getting involved? ${cvLine}\n\nSincerely,\n\n${studentName}`;
         const fallbackBody = `${intro}\n\n${center}\n\n${outro}`;
         setBody(fallbackBody);
         originalDraftBody.current = fallbackBody;
@@ -479,6 +504,18 @@ Elena Rostova`;
                   >
                     <RefreshCw className={`w-3.5 h-3.5 ${isDrafting ? 'animate-spin' : ''}`} /> Retry
                   </button>
+                </div>
+              )}
+
+              {/* The draft says the CV is attached, and nothing in this app can attach it --
+                  the student sends from their own mail client. Amber, because an unattached
+                  CV makes the email's own claim false at the moment they hit send. */}
+              {expectsCvAttachment && !isDrafting && (
+                <div className="border border-amber-200 bg-amber-50/80 text-amber-900 rounded-lg px-3.5 py-2.5 text-xs leading-relaxed flex items-start gap-2">
+                  <Paperclip className="w-3.5 h-3.5 shrink-0 mt-0.5" />
+                  <span>
+                    <span className="font-semibold">Attach your CV.</span> This draft says your CV is attached — remember to attach it in your email app before sending.
+                  </span>
                 </div>
               )}
 
