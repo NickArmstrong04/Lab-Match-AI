@@ -456,31 +456,15 @@ Elena Rostova`;
               </p>
             </div>
 
-            {/* Score dial context. Lead with the digest TL;DR when the background
-                generation has landed; the matched-skills sentence is the honest
-                fallback (it degrades gracefully and is always true). */}
+            {/* Score dial context. This box explains the SCORE, so it stays about the
+                student's own overlap -- the project's TL;DR lives in AboutProject below,
+                and putting it here too rendered the same sentence twice, 100px apart. */}
             <div className="flex items-center gap-5 p-4 rounded-lg bg-stone-50 border border-stone-200">
               <CircularScore score={match.score} size={80} strokeWidth={7} />
               <div className="space-y-1">
-                <div className="flex items-center gap-2 flex-wrap">
-                  <h4 className="text-sm font-semibold text-stone-900">Synthesized Match Analysis</h4>
-                  {match.abstract_digest && (
-                    <span
-                      className="px-2 py-0.5 rounded-full text-[10px] font-bold font-mono tracking-wide bg-amber-50 border border-amber-300 text-amber-800"
-                      title="This summary was AI-generated from the published grant abstract and may be imperfect."
-                    >
-                      AI summary
-                    </span>
-                  )}
-                </div>
+                <h4 className="text-sm font-semibold text-stone-900">Synthesized Match Analysis</h4>
                 <p className="text-xs text-stone-600 leading-relaxed">
-                  {match.abstract_digest ? (
-                    match.abstract_digest.tldr
-                  ) : (
-                    <>
-                      Your parsed profile demonstrates high proficiency in <span className="text-[#0d5c5c] font-semibold">{match.matching_skills.slice(0, 3).join(', ')}</span>, directly requested in this lab's methodology.
-                    </>
-                  )}
+                  Your parsed profile demonstrates high proficiency in <span className="text-[#0d5c5c] font-semibold">{match.matching_skills.slice(0, 3).join(', ')}</span>, directly requested in this lab's methodology.
                 </p>
               </div>
             </div>
