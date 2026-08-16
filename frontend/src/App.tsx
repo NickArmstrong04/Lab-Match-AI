@@ -18,45 +18,61 @@ type View =
   | 'cover' | 'get_started' | 'sign_in' | 'explore' | 'onboarding' | 'dashboard' | 'email_review' | 'analytics'
   | 'reset_password';
 
-// Clean HTML5 path routing. There is no router library and App is a useState view machine;
-// this gives the funnel real history entries so browser Back steps through it instead of
-// leaving the site, and so a refresh lands where the student was without needing '#' symbols.
+// Path routing without hash fragments (e.g., lab-match.com/dashboard, lab-match.com/explore).
+// This gives the funnel clean URLs and real history entries for browser navigation.
 const VIEW_TO_PATH: Record<View, string> = {
   cover: '/',
   get_started: '/get-started',
   sign_in: '/sign-in',
   explore: '/explore',
-  onboarding: '/profile',
+  onboarding: '/onboarding',
   dashboard: '/dashboard',
   email_review: '/compose',
   analytics: '/metrics',
   reset_password: '/reset-password',
 };
+
 const PATH_TO_VIEW = Object.fromEntries(
   Object.entries(VIEW_TO_PATH).map(([v, p]) => [p, v as View])
 ) as Record<string, View>;
 
-// Reads normalized path, supporting legacy hash links (e.g. `/#/sign-in` -> `/sign-in`)
-const getNormalizedPath = (): string => {
+// Backward compatibility map for legacy bookmarked hash URLs (e.g. /#/dashboard)
+const LEGACY_HASH_TO_VIEW: Record<string, View> = {
+  '#/': 'cover',
+  '#/get-started': 'get_started',
+  '#/sign-in': 'sign_in',
+  '#/explore': 'explore',
+  '#/profile': 'onboarding',
+  '#/onboarding': 'onboarding',
+  '#/dashboard': 'dashboard',
+  '#/compose': 'email_review',
+  '#/metrics': 'analytics',
+  '#/reset-password': 'reset_password',
+};
+
+const viewFromUrl = (): View | null => {
+  const pathname = window.location.pathname;
+  if (PATH_TO_VIEW[pathname]) return PATH_TO_VIEW[pathname];
+
+  // Check legacy hash fragment
   const hash = window.location.hash;
-  if (hash.startsWith('#/')) {
-    const cleanHashPath = hash.slice(1).split('?')[0]; // '#/sign-in' -> '/sign-in'
-    return cleanHashPath || '/';
+  if (hash) {
+    const cleanHash = hash.split('?')[0];
+    if (LEGACY_HASH_TO_VIEW[cleanHash]) return LEGACY_HASH_TO_VIEW[cleanHash];
   }
-  const pathname = window.location.pathname.replace(/\/$/, '');
-  return pathname || '/';
+  return null;
 };
 
-const viewFromPath = (path: string = getNormalizedPath()): View | null => PATH_TO_VIEW[path] ?? null;
+// Reset link token resolution
+const isResetPasswordUrl = (): boolean =>
+  window.location.pathname.startsWith('/reset-password') || window.location.hash.startsWith('#/reset-password');
 
-const isResetPasswordPath = (): boolean => {
-  return window.location.pathname.startsWith('/reset-password') || window.location.hash.startsWith('#/reset-password');
-};
-
-const parseResetToken = (): string | null => {
-  if (!isResetPasswordPath()) return null;
+const parseResetTokenFromUrl = (): string | null => {
+  // Support both search parameters ?token=... and legacy hash parameters #/reset-password?token=...
   const searchParams = new URLSearchParams(window.location.search);
-  if (searchParams.get('token')) return searchParams.get('token');
+  const token = searchParams.get('token');
+  if (token) return token;
+
   const hash = window.location.hash;
   const q = hash.indexOf('?');
   return q === -1 ? null : new URLSearchParams(hash.slice(q + 1)).get('token');
@@ -70,22 +86,19 @@ const parseResetToken = (): string | null => {
  * to skip.
  */
 const resolveInitialView = (hasSession: boolean): View => {
-  // Before everything, including the session branch: a browser holding a stale
-  // logged-in localStorage session must still land a clicked reset link on the reset
-  // page -- bouncing to the dashboard would silently strip the token from the URL.
-  if (isResetPasswordPath()) return 'reset_password';
+  if (isResetPasswordUrl()) return 'reset_password';
 
-  const currentView = viewFromPath();
+  const pathView = viewFromUrl();
 
   if (hasSession) {
     // '/compose' can't be restored: the composer needs an activeOutreachMatch, which
     // lives only in React state, so restoring it would render a blank pane.
-    if (currentView && currentView !== 'email_review' && currentView !== 'cover') return currentView;
+    if (pathView && pathView !== 'email_review' && pathView !== 'cover') return pathView;
     return 'dashboard';
   }
 
   // Without a session, only the pre-onboarding views are reachable.
-  if (currentView && ['cover', 'get_started', 'sign_in', 'explore'].includes(currentView)) return currentView;
+  if (pathView && ['cover', 'get_started', 'sign_in', 'explore'].includes(pathView)) return pathView;
 
   const params = new URLSearchParams(window.location.search);
   if (params.get('gclid') || params.get('utm_source') || params.get('start') === 'true') {
@@ -125,11 +138,10 @@ function App() {
   const [isOnboarded, setIsOnboarded] = useState(!!restored);
 
   // Captured in a lazy initializer: it must run before the URL-sync effect below
-  // replaceState()s the hash to the clean '#/reset-password', which scrubs the token
-  // from the address bar and history (a feature -- but it means reading it later
-  // would find nothing).
+  // replaceState()s the URL to clean '/reset-password', which scrubs the token
+  // from the address bar and history.
   const [resetToken, setResetToken] = useState<string | null>(
-    () => parseResetToken()
+    () => parseResetTokenFromUrl()
   );
 
   const isLandingView =
@@ -138,15 +150,6 @@ function App() {
 
   /**
    * Prefill for the Onboarding form when it is opened to EDIT an existing profile.
-   *
-   * `tempOnboardingData` only exists if onboarding finished in this browser session, so
-   * after a refresh "Refine Interests" (and the "Profile narrative" nav step) opened a
-   * blank form -- name, email, campus and narrative all empty. Submitting that either
-   * failed validation or overwrote a real profile with nothing. Live state first so an
-   * edit made in the narrative modal is reflected immediately; the session is the
-   * fallback that survives the reload.
-   *
-   * Shaped to match what Onboarding reads off initialTempData.
    */
   const profileEditSeed = studentId
     ? {
@@ -157,16 +160,12 @@ function App() {
       }
     : null;
 
-  // Analytics: Track session start. The ad-traffic redirect and session restore both
-  // happen in resolveInitialView above, so the first render is already correct.
+  // Analytics: Track session start.
   useEffect(() => {
     trackEvent('session_start', 'onboarding', 'action');
   }, []);
 
-  // Single source of view_page telemetry. Each page component also fired its own on
-  // mount, so every view was logged twice -- and GetStarted/SignIn render Onboarding, so
-  // one landing logged two page names. Emitting once here, mapped to the canonical page
-  // names the metrics aggregator keys on, removes both problems.
+  // Single source of view_page telemetry.
   useEffect(() => {
     type PageName = 'cover' | 'onboarding' | 'explore' | 'dashboard' | 'email_review' | 'analytics';
     const VIEW_TO_PAGE: Record<View, PageName> = {
@@ -183,29 +182,27 @@ function App() {
   const [skippedMatches, setSkippedMatches] = useState<string[]>([]);
   const [activeOutreachMatch, setActiveOutreachMatch] = useState<GrantMatch | null>(null);
 
-  // Keep the URL in step with the view so Back/Forward walk the funnel and a refresh
-  // resumes here. replace (not push) on the first render, otherwise the initial view
-  // would sit on the stack twice and Back would appear to do nothing.
+  // Keep the URL path in step with the view so Back/Forward walk the funnel.
+  // replace (not push) on the first render so the initial view doesn't duplicate history.
   const isFirstRender = useRef(true);
   useEffect(() => {
-    const path = VIEW_TO_PATH[view];
+    const targetPath = VIEW_TO_PATH[view];
     if (isFirstRender.current) {
       isFirstRender.current = false;
-      window.history.replaceState({ view }, '', path);
+      // Strip any legacy hash when initializing to path routing
+      window.history.replaceState({ view }, '', targetPath + (view === 'reset_password' ? '' : window.location.search));
       return;
     }
-    if (window.location.pathname !== path || window.location.hash) {
-      window.history.pushState({ view }, '', path);
+    if (window.location.pathname !== targetPath) {
+      window.history.pushState({ view }, '', targetPath);
     }
   }, [view]);
 
-  // Browser Back/Forward. Guarded, because a path can name a view the current state
-  // can't render -- e.g. '/compose' with no match selected, or '/dashboard' before
-  // onboarding -- and rendering those would show a blank pane.
+  // Browser Back/Forward. Guarded against invalid/unrestorable states.
   useEffect(() => {
-    const onPopState = () => {
-      if (isResetPasswordPath()) {
-        const token = parseResetToken();
+    const onPopState = (event: PopStateEvent) => {
+      if (isResetPasswordUrl()) {
+        const token = parseResetTokenFromUrl();
         if (token) {
           setResetToken(token);
           window.history.replaceState({ view: 'reset_password' }, '', VIEW_TO_PATH.reset_password);
@@ -213,7 +210,7 @@ function App() {
         setView('reset_password');
         return;
       }
-      const target = viewFromPath() ?? 'cover';
+      const target = (event.state?.view as View) ?? viewFromUrl() ?? 'cover';
       if (target === 'email_review' && !activeOutreachMatch) {
         setView(isOnboarded ? 'dashboard' : 'cover');
         return;
