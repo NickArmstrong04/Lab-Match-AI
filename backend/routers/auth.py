@@ -52,13 +52,13 @@ def json_for_script(value) -> str:
     )
 
 
-def make_oauth_state(student_id: str, ttl_seconds: int = 600) -> str:
+def make_oauth_state(student_id: str, target_origin: Optional[str] = None, ttl_seconds: int = 600) -> str:
     """
     Build a tamper-proof `state` for the OAuth handshake.
 
     `state` used to be the raw student_id (or the literal "login"), which is
     guessable, so anyone could forge a callback for an arbitrary student. This
-    signs {student_id, nonce, expiry} with an HMAC the client cannot produce.
+    signs {student_id, target_origin, nonce, expiry} with an HMAC the client cannot produce.
 
     Signed rather than server-stored on purpose: an in-memory nonce dict would be
     lost by Cloud Run's scale-to-zero and would not be shared across instances, so
@@ -66,6 +66,7 @@ def make_oauth_state(student_id: str, ttl_seconds: int = 600) -> str:
     """
     payload = {
         "sid": student_id,
+        "origin": target_origin,
         "nonce": secrets.token_urlsafe(16),
         "exp": int(time.time()) + ttl_seconds,
     }
@@ -74,8 +75,8 @@ def make_oauth_state(student_id: str, ttl_seconds: int = 600) -> str:
     return f"{raw}.{sig}"
 
 
-def parse_oauth_state(state: str) -> str:
-    """Verify a state produced by make_oauth_state and return the student_id.
+def parse_oauth_state(state: str) -> tuple[str, Optional[str]]:
+    """Verify a state produced by make_oauth_state and return (student_id, target_origin).
 
     Raises HTTPException(400) on tampering, expiry, or malformed input.
     """
@@ -101,7 +102,7 @@ def parse_oauth_state(state: str) -> str:
     sid = payload.get("sid")
     if not sid:
         raise HTTPException(status_code=400, detail="Invalid OAuth state.")
-    return sid
+    return sid, payload.get("origin")
 
 
 def scrub_student_record(student: dict) -> dict:
@@ -153,13 +154,15 @@ def get_redirect_uri(request: Optional[Request] = None) -> str:
 
 
 
-def get_error_html(error_message: str) -> str:
+def get_error_html(error_message: str, target_origin: Optional[str] = None) -> str:
     # error_message reaches both an HTML body and a JS string literal below. Today every
     # caller passes a server-generated string (a urllib exception, a literal, a
     # Google-verified email, a DB error), so this is defence in depth rather than a live
     # hole -- but the two sinks are one careless caller away from being one.
     safe_html = html_escape(error_message)
     safe_js = json_for_script(error_message)
+    postmessage_origin = target_origin or settings.frontend_origin
+    safe_origin_js = json_for_script(postmessage_origin)
     return f"""
     <!DOCTYPE html>
     <html>
@@ -246,7 +249,7 @@ def get_error_html(error_message: str) -> str:
             window.opener.postMessage({{
               type: "google_oauth_error",
               error: {safe_js}
-            }}, "{settings.frontend_origin}");
+            }}, {safe_origin_js});
           }}
           window.close();
         }}, 3000);
@@ -266,25 +269,19 @@ async def google_login(
     """
     Initiates Google OAuth 2.0 flow.
     """
-    # Deliberately NOT authorized, unlike every other student_id route.
-    #
-    # This is opened with window.open -- a top-level navigation, which cannot carry an
-    # Authorization header, so the session token can't reach here. Passing it in the
-    # query string would leak it to Google in the Referer of the immediate redirect,
-    # which is worse than the exposure below.
-    #
-    # The residual risk is bounded: a caller can start a "connect" flow naming someone
-    # else's student_id and complete it with their own Google account, writing their
-    # tokens onto that row. It does not grant access, because /google/callback in login
-    # mode resolves the account from the *Google* email, not from student_id -- so the
-    # attacker still lands on their own row. The tokens themselves are inert: nothing
-    # reads them, and scrub_student_record strips them from every response (Task 6).
-    # Connect mode also mints no session token (student stays None below).
-    #
-    # The clean fix is an authenticated endpoint returning a pre-signed authorization
-    # URL, so the popup goes straight to Google and never hits our origin with an id.
-    # Tracked as follow-up; state is already signed (see make_oauth_state).
     try:
+        target_origin = None
+        if request:
+            referer = request.headers.get("referer")
+            if referer:
+                try:
+                    from urllib.parse import urlparse
+                    parsed = urlparse(referer)
+                    if parsed.scheme and parsed.netloc:
+                        target_origin = f"{parsed.scheme}://{parsed.netloc}"
+                except Exception:
+                    pass
+
         redirect_uri = get_redirect_uri(request)
         client_config = {
             "web": {
@@ -305,18 +302,9 @@ async def google_login(
         )
         flow.redirect_uri = redirect_uri
 
-        # access_type="online" must be passed EXPLICITLY: google_auth_oauthlib's
-        # Flow.authorization_url defaults it to "offline", so merely dropping the
-        # argument still mints a long-lived refresh token (verified against the live
-        # redirect URL). Nothing uses a refresh token -- the flow requests identity
-        # scopes only -- so it was pure liability; see scrub_student_record.
-        # prompt="consent" is likewise gone: it forced the consent screen every time
-        # purely to re-issue that refresh token.
-        # State is signed rather than the raw student_id, which was guessable and let
-        # anyone forge a callback for an arbitrary student.
         authorization_url, _ = flow.authorization_url(
             access_type="online",
-            state=make_oauth_state(student_id),
+            state=make_oauth_state(student_id, target_origin=target_origin),
         )
         return RedirectResponse(authorization_url)
     except Exception as e:
@@ -336,7 +324,8 @@ async def google_callback(
     and stores them securely in the database.
     """
     # Verifies the HMAC and expiry; rejects a forged or stale state.
-    student_id = parse_oauth_state(state)
+    student_id, target_origin = parse_oauth_state(state)
+    postmessage_target_origin = target_origin or settings.frontend_origin
     access_token = None
     refresh_token = None
     token_expiry = None
@@ -391,13 +380,13 @@ async def google_callback(
                 email = user_info.get("email")
         except Exception as ue:
             return HTMLResponse(
-                content=get_error_html(f"Failed to fetch Google profile: {str(ue)}"),
+                content=get_error_html(f"Failed to fetch Google profile: {str(ue)}", target_origin=postmessage_target_origin),
                 status_code=400
             )
 
         if not email:
             return HTMLResponse(
-                content=get_error_html("Google authentication did not return an email address."),
+                content=get_error_html("Google authentication did not return an email address.", target_origin=postmessage_target_origin),
                 status_code=400
             )
 
@@ -406,14 +395,14 @@ async def google_callback(
             student_res = db.table("students").select("*").eq("email", email).execute()
             if not student_res.data:
                 return HTMLResponse(
-                    content=get_error_html(f"No student profile found for email: {email}."),
+                    content=get_error_html(f"No student profile found for email: {email}.", target_origin=postmessage_target_origin),
                     status_code=200
                 )
             student = student_res.data[0]
             student_id = student["id"]
         except Exception as db_err:
             return HTMLResponse(
-                content=get_error_html(f"Database lookup failed: {str(db_err)}"),
+                content=get_error_html(f"Database lookup failed: {str(db_err)}", target_origin=postmessage_target_origin),
                 status_code=500
             )
 
@@ -584,7 +573,7 @@ async def google_callback(
               type: "google_oauth_success",
               student: {student_json},
               access_token: {access_token_json}
-            }}, "{settings.frontend_origin}");
+            }}, {json_for_script(postmessage_target_origin)});
           }}
           window.close();
         }}, 1500);

@@ -4,7 +4,7 @@ Matches undergrad pre-meds to **currently-funded** federal research labs (NIH + 
 corpus; DOD/DOE/EPA/NASA/USDA/Interior arrive via USAspending). FastAPI + React 19/TS/Vite +
 Tailwind 4 + Supabase/Postgres/pgvector.
 
-Pre-launch, about to recruit the first real users. That's the context for everything below: the
+Pre-launch, about to recruit the first real users (Production domain: `https://lab-match.com`). That's the context for everything below: the
 rules here exist because real students will act on what this app tells them.
 
 `README.md` (root) is accurate and detailed — setup, troubleshooting, the orphaned-uvicorn dance.

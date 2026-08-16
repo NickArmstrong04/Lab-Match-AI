@@ -159,6 +159,18 @@ to `http://localhost:8000` — keep the backend on port 8000 or update both.
 
 ---
 
+## 🌐 Production & Domain Configuration
+
+- **Owned Production Domain**: [`https://lab-match.com`](https://lab-match.com) (and `https://www.lab-match.com`)
+- **GCP Hosting Project**: `divine-display-497123-h7` (us-central1)
+- **Cloud Run Services**:
+  - `labmatch-frontend`: `https://labmatch-frontend-qji7c3n33a-uc.a.run.app`
+  - `labmatch-backend`: `https://labmatch-backend-qji7c3n33a-uc.a.run.app`
+- **Firebase Hosting Site**: `divine-display-497123-h7`
+- **Google OAuth Redirect URI**: `https://lab-match.com/auth/google/callback`
+
+---
+
 ## 🛠️ Troubleshooting & Common Issues
 
 If you or a collaborator encounter network issues during setup, check the following:

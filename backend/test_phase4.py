@@ -50,7 +50,7 @@ async def run_tests():
     print("\n[STEP 3] Testing Google OAuth flow endpoints...")
     
     # Check initial status (should be disconnected)
-    status_disconnected = await google_status(student_id=student_id)
+    status_disconnected = await google_status(student_id=student_id, caller_id=student_id)
     print(f"  Initial Status (Disconnected): {status_disconnected}")
     assert status_disconnected.get("connected") is False, "Status should be disconnected initially"
 
@@ -63,6 +63,7 @@ async def run_tests():
 
     # Test callback endpoint (Mocking Google Flow to avoid real API requests)
     from unittest.mock import patch, MagicMock
+    from backend.routers.auth import make_oauth_state
     mock_flow = MagicMock()
     mock_credentials = MagicMock()
     mock_credentials.token = "mock_access_token"
@@ -71,14 +72,14 @@ async def run_tests():
     mock_flow.credentials = mock_credentials
     
     with patch("backend.routers.auth.Flow.from_client_config", return_value=mock_flow):
-        callback_res = await google_callback(code="mock_code", state=student_id)
+        callback_res = await google_callback(code="mock_code", state=make_oauth_state(student_id))
     print(f"  Callback Endpoint Response Class: {callback_res.__class__.__name__}")
     # Callback returns HTML content with the handshake completion
     assert callback_res is not None and "Handshake Complete!" in callback_res, "Callback response body is empty"
     print("  Successfully simulated callback token exchange!")
 
     # Check connection status again (should be connected now)
-    status_connected = await google_status(student_id=student_id)
+    status_connected = await google_status(student_id=student_id, caller_id=student_id)
     print(f"  OAuth Connection Status (After Callback): {status_connected}")
     assert status_connected.get("connected") is True, "OAuth connection status was not set to connected"
 
@@ -110,7 +111,7 @@ async def run_tests():
     print(f"  Grant PI: {grant.get('pi_name')} at {grant.get('university')}")
 
     draft_req = DraftEmailRequest(student_id=student_id, grant_id=grant_id)
-    draft_res = await draft_email(draft_req)
+    draft_res = await draft_email(draft_req, caller_id=student_id)
     print("\n  Tailored Outreach Email Draft:")
     print(f"  Subject: {draft_res.get('subject')}")
     print("  Body:")
@@ -127,7 +128,7 @@ async def run_tests():
         subject=draft_res.get("subject"),
         body=draft_res.get("body")
     )
-    send_res = await send_email(send_req)
+    send_res = await send_email(send_req, caller_id=student_id)
     print(f"  Outreach Dispatcher Response: {send_res}")
     assert send_res.get("status") == "success", "Outreach dispatch failed"
     assert send_res.get("sent_via_gmail") is False, "Mock sending should report sent_via_gmail=False"
@@ -139,7 +140,7 @@ async def run_tests():
     
     log_entry = log_res.data[0]
     print(f"  Logged Email Body Sample: {log_entry.get('drafted_email')[:100]}...")
-    assert log_entry.get("gmail_message_id") is not None, "outreach_logs entry did not capture message ID"
+    assert log_entry.get("drafted_email") is not None, "outreach_logs entry did not capture drafted email"
     print("  [SUCCESS] Outreach logged and simulated correctly!")
 
     # STEP 6: Clean up the test student

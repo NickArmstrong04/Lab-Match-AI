@@ -631,7 +631,7 @@ export const Onboarding: React.FC<OnboardingProps> = ({
     }
 
     const handleOauthMessage = async (event: MessageEvent) => {
-      if (event.origin !== expectedOrigin) {
+      if (event.origin !== expectedOrigin && event.origin !== window.location.origin) {
         return;
       }
       if (event.data) {
