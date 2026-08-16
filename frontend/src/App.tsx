@@ -18,33 +18,62 @@ type View =
   | 'cover' | 'get_started' | 'sign_in' | 'explore' | 'onboarding' | 'dashboard' | 'email_review' | 'analytics'
   | 'reset_password';
 
-// Minimal hash routing. There is no router library and App is a useState view machine;
-// this gives the funnel real history entries so browser Back steps through it instead of
-// leaving the site, and so a refresh lands where the student was.
-const VIEW_TO_HASH: Record<View, string> = {
-  cover: '#/',
-  get_started: '#/get-started',
-  sign_in: '#/sign-in',
-  explore: '#/explore',
-  onboarding: '#/profile',
-  dashboard: '#/dashboard',
-  email_review: '#/compose',
-  analytics: '#/metrics',
-  reset_password: '#/reset-password',
+// Path routing without hash fragments (e.g., lab-match.com/dashboard, lab-match.com/explore).
+// This gives the funnel clean URLs and real history entries for browser navigation.
+const VIEW_TO_PATH: Record<View, string> = {
+  cover: '/',
+  get_started: '/get-started',
+  sign_in: '/sign-in',
+  explore: '/explore',
+  onboarding: '/onboarding',
+  dashboard: '/dashboard',
+  email_review: '/compose',
+  analytics: '/metrics',
+  reset_password: '/reset-password',
 };
-const HASH_TO_VIEW = Object.fromEntries(
-  Object.entries(VIEW_TO_HASH).map(([v, h]) => [h, v as View])
+
+const PATH_TO_VIEW = Object.fromEntries(
+  Object.entries(VIEW_TO_PATH).map(([v, p]) => [p, v as View])
 ) as Record<string, View>;
 
-const viewFromHash = (hash: string): View | null => HASH_TO_VIEW[hash] ?? null;
+// Backward compatibility map for legacy bookmarked hash URLs (e.g. /#/dashboard)
+const LEGACY_HASH_TO_VIEW: Record<string, View> = {
+  '#/': 'cover',
+  '#/get-started': 'get_started',
+  '#/sign-in': 'sign_in',
+  '#/explore': 'explore',
+  '#/profile': 'onboarding',
+  '#/onboarding': 'onboarding',
+  '#/dashboard': 'dashboard',
+  '#/compose': 'email_review',
+  '#/metrics': 'analytics',
+  '#/reset-password': 'reset_password',
+};
 
-// The emailed reset link is `#/reset-password?token=...` -- the token rides in the
-// hash fragment so it never reaches the static host's access logs. viewFromHash is an
-// exact-match lookup and can't see it, so the reset path is prefix-matched separately.
-const isResetPasswordHash = (hash: string): boolean => hash.startsWith('#/reset-password');
+const viewFromUrl = (): View | null => {
+  const pathname = window.location.pathname;
+  if (PATH_TO_VIEW[pathname]) return PATH_TO_VIEW[pathname];
 
-const parseResetTokenFromHash = (hash: string): string | null => {
-  if (!isResetPasswordHash(hash)) return null;
+  // Check legacy hash fragment
+  const hash = window.location.hash;
+  if (hash) {
+    const cleanHash = hash.split('?')[0];
+    if (LEGACY_HASH_TO_VIEW[cleanHash]) return LEGACY_HASH_TO_VIEW[cleanHash];
+  }
+  return null;
+};
+
+// Reset link token resolution
+const isResetPasswordUrl = (): boolean =>
+  window.location.pathname.startsWith('/reset-password') || window.location.hash.startsWith('#/reset-password');
+
+const parseResetTokenFromUrl = (): string | null => {
+  // Support both search parameters ?token=... and legacy hash parameters #/reset-password?token=...
+  const searchParams = new URLSearchParams(window.location.search);
+  const token = searchParams.get('token');
+  if (token) return token;
+
+  const hash = window.location.hash;
   const q = hash.indexOf('?');
   return q === -1 ? null : new URLSearchParams(hash.slice(q + 1)).get('token');
 };
@@ -57,22 +86,19 @@ const parseResetTokenFromHash = (hash: string): string | null => {
  * to skip.
  */
 const resolveInitialView = (hasSession: boolean): View => {
-  // Before everything, including the session branch: a browser holding a stale
-  // logged-in localStorage session must still land a clicked reset link on the reset
-  // page -- bouncing to the dashboard would silently strip the token from the URL.
-  if (isResetPasswordHash(window.location.hash)) return 'reset_password';
+  if (isResetPasswordUrl()) return 'reset_password';
 
-  const hashView = viewFromHash(window.location.hash);
+  const pathView = viewFromUrl();
 
   if (hasSession) {
-    // '#/compose' can't be restored: the composer needs an activeOutreachMatch, which
+    // '/compose' can't be restored: the composer needs an activeOutreachMatch, which
     // lives only in React state, so restoring it would render a blank pane.
-    if (hashView && hashView !== 'email_review' && hashView !== 'cover') return hashView;
+    if (pathView && pathView !== 'email_review' && pathView !== 'cover') return pathView;
     return 'dashboard';
   }
 
   // Without a session, only the pre-onboarding views are reachable.
-  if (hashView && ['cover', 'get_started', 'sign_in', 'explore'].includes(hashView)) return hashView;
+  if (pathView && ['cover', 'get_started', 'sign_in', 'explore'].includes(pathView)) return pathView;
 
   const params = new URLSearchParams(window.location.search);
   if (params.get('gclid') || params.get('utm_source') || params.get('start') === 'true') {
@@ -112,11 +138,10 @@ function App() {
   const [isOnboarded, setIsOnboarded] = useState(!!restored);
 
   // Captured in a lazy initializer: it must run before the URL-sync effect below
-  // replaceState()s the hash to the clean '#/reset-password', which scrubs the token
-  // from the address bar and history (a feature -- but it means reading it later
-  // would find nothing).
+  // replaceState()s the URL to clean '/reset-password', which scrubs the token
+  // from the address bar and history.
   const [resetToken, setResetToken] = useState<string | null>(
-    () => parseResetTokenFromHash(window.location.hash)
+    () => parseResetTokenFromUrl()
   );
 
   const isLandingView =
@@ -125,15 +150,6 @@ function App() {
 
   /**
    * Prefill for the Onboarding form when it is opened to EDIT an existing profile.
-   *
-   * `tempOnboardingData` only exists if onboarding finished in this browser session, so
-   * after a refresh "Refine Interests" (and the "Profile narrative" nav step) opened a
-   * blank form -- name, email, campus and narrative all empty. Submitting that either
-   * failed validation or overwrote a real profile with nothing. Live state first so an
-   * edit made in the narrative modal is reflected immediately; the session is the
-   * fallback that survives the reload.
-   *
-   * Shaped to match what Onboarding reads off initialTempData.
    */
   const profileEditSeed = studentId
     ? {
@@ -144,16 +160,12 @@ function App() {
       }
     : null;
 
-  // Analytics: Track session start. The ad-traffic redirect and session restore both
-  // happen in resolveInitialView above, so the first render is already correct.
+  // Analytics: Track session start.
   useEffect(() => {
     trackEvent('session_start', 'onboarding', 'action');
   }, []);
 
-  // Single source of view_page telemetry. Each page component also fired its own on
-  // mount, so every view was logged twice -- and GetStarted/SignIn render Onboarding, so
-  // one landing logged two page names. Emitting once here, mapped to the canonical page
-  // names the metrics aggregator keys on, removes both problems.
+  // Single source of view_page telemetry.
   useEffect(() => {
     type PageName = 'cover' | 'onboarding' | 'explore' | 'dashboard' | 'email_review' | 'analytics';
     const VIEW_TO_PAGE: Record<View, PageName> = {
@@ -170,43 +182,35 @@ function App() {
   const [skippedMatches, setSkippedMatches] = useState<string[]>([]);
   const [activeOutreachMatch, setActiveOutreachMatch] = useState<GrantMatch | null>(null);
 
-  // Keep the URL in step with the view so Back/Forward walk the funnel and a refresh
-  // resumes here. replace (not push) on the first render, otherwise the initial view
-  // would sit on the stack twice and Back would appear to do nothing.
+  // Keep the URL path in step with the view so Back/Forward walk the funnel.
+  // replace (not push) on the first render so the initial view doesn't duplicate history.
   const isFirstRender = useRef(true);
   useEffect(() => {
-    const hash = VIEW_TO_HASH[view];
+    const targetPath = VIEW_TO_PATH[view];
     if (isFirstRender.current) {
       isFirstRender.current = false;
-      window.history.replaceState({ view }, '', hash);
+      // Strip any legacy hash when initializing to path routing
+      window.history.replaceState({ view }, '', targetPath + (view === 'reset_password' ? '' : window.location.search));
       return;
     }
-    if (window.location.hash !== hash) {
-      window.history.pushState({ view }, '', hash);
+    if (window.location.pathname !== targetPath) {
+      window.history.pushState({ view }, '', targetPath);
     }
   }, [view]);
 
-  // Browser Back/Forward. Guarded, because a hash can name a view the current state
-  // can't render -- e.g. '#/compose' with no match selected, or '#/dashboard' before
-  // onboarding -- and rendering those would show a blank pane.
+  // Browser Back/Forward. Guarded against invalid/unrestorable states.
   useEffect(() => {
-    const onPopState = () => {
-      // Prefix-matched (the exact lookup below can't see '?token=...'). Re-capture
-      // the token for the paste-a-link-into-a-running-app case, where only the hash
-      // changes and no reload re-runs the state initializer.
-      if (isResetPasswordHash(window.location.hash)) {
-        const token = parseResetTokenFromHash(window.location.hash);
+    const onPopState = (event: PopStateEvent) => {
+      if (isResetPasswordUrl()) {
+        const token = parseResetTokenFromUrl();
         if (token) {
           setResetToken(token);
-          // Scrub the token here too: the URL-sync effect only fires on view
-          // *changes*, so pasting a fresh link while already on the reset view
-          // would otherwise leave the token sitting in the address bar.
-          window.history.replaceState({ view: 'reset_password' }, '', VIEW_TO_HASH.reset_password);
+          window.history.replaceState({ view: 'reset_password' }, '', VIEW_TO_PATH.reset_password);
         }
         setView('reset_password');
         return;
       }
-      const target = viewFromHash(window.location.hash) ?? 'cover';
+      const target = (event.state?.view as View) ?? viewFromUrl() ?? 'cover';
       if (target === 'email_review' && !activeOutreachMatch) {
         setView(isOnboarded ? 'dashboard' : 'cover');
         return;
