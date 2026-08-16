@@ -18,6 +18,14 @@ origins = [
     "http://localhost:5173",  # Vite default
     "http://localhost:5174",  # Vite fallback port
     "http://localhost:3000",
+    "https://lab-match.com",
+    "https://www.lab-match.com",
+    "http://lab-match.com",
+    "http://www.lab-match.com",
+    "https://labmatchai.com",
+    "https://www.labmatchai.com",
+    "http://labmatchai.com",
+    "http://www.labmatchai.com",
 ]
 
 cors_env = os.getenv("CORS_ORIGINS")

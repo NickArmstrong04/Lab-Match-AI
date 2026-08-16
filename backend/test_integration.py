@@ -10,7 +10,9 @@ from backend.routers.profile import parse_resume
 from backend.routers.grants import match_student_to_grants
 
 import asyncio
+import pytest
 
+@pytest.mark.anyio
 async def test_flow():
     print("==================================================")
     print("STARTING END-TO-END LABMATCH AI INTEGRATION TEST")
