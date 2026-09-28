@@ -9,6 +9,7 @@ from pydantic import BaseModel
 
 from ..config import settings
 from ..database import get_db
+from ..services.gemini_transport import gemini_endpoint, gemini_configured
 from ..auth_deps import get_optional_student_id, authorize_student
 from .grants import derive_display_title, pi_is_resolved
 
@@ -65,7 +66,7 @@ def query_gemini_draft(
     `violations` re-prompts once with the specific rules the previous draft broke; see
     find_draft_violations().
     """
-    if not settings.gemini_api_key:
+    if not gemini_configured():
         raise ValueError("GEMINI_API_KEY is not configured.")
 
     # The app still attaches nothing -- it has no send path at all. But the student sends this
@@ -234,11 +235,12 @@ def query_gemini_draft(
             f"acknowledge the revision in the email text."
         )
 
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={settings.gemini_api_key}"
-    headers = {"Content-Type": "application/json"}
+    # Routed through gemini_transport so the same call works against the Developer API
+    # (key) or Vertex AI (GCP credits) -- see services/gemini_transport.py.
+    url, headers = gemini_endpoint("gemini-2.5-flash:generateContent")
 
     payload = {
-        "contents": [{"parts": [{"text": f"{system_instruction}\n\n{user_prompt}"}]}],
+        "contents": [{"role": "user", "parts": [{"text": f"{system_instruction}\n\n{user_prompt}"}]}],
         "generationConfig": {
             "responseMimeType": "application/json",
             "responseSchema": {

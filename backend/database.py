@@ -1,5 +1,6 @@
 import hashlib
 import math
+import time
 import warnings
 from typing import List, Optional, Tuple
 from supabase import create_client, Client
@@ -84,45 +85,55 @@ def generate_embedding_with_model(text: str) -> Tuple[List[float], Optional[str]
         except Exception as e:
             warnings.warn(f"OpenAI embedding API call failed: {e}. Trying Gemini next.")
 
-    # Attempt real Gemini embedding if API key is present
-    if settings.gemini_api_key:
-        try:
-            import urllib.request
-            import json
+    # Attempt real Gemini embedding if API key is present.
+    # Retries with backoff because ingest calls this from a thread pool: during bulk
+    # repopulation a single 429/timeout used to drop the row permanently (ingest's
+    # process_single_grant catches the raise, warns, and returns None -- the row is
+    # never written and neither inserted nor skipped counts it). Three attempts at
+    # 2s/4s backoff, and a 30s timeout instead of 5s, which was tight for a ~2,000-char
+    # abstract even without quota contention.
+    from .services.gemini_transport import gemini_configured
+    if gemini_configured():
+        for attempt in range(3):
+            try:
+                import urllib.request
+                import json
 
-            url = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_EMBEDDING_MODEL}:embedContent?key={settings.gemini_api_key}"
-            headers = {
-                "Content-Type": "application/json"
-            }
-            req_data = {
-                "model": f"models/{GEMINI_EMBEDDING_MODEL}",
-                "content": {
-                    "parts": [{"text": text}]
-                }
-            }
+                # Endpoint + payload shape come from gemini_transport: Developer API
+                # uses :embedContent, Vertex uses :predict with instances/predictions.
+                # Truncation to 1536 below stays identical on both paths so Vertex rows
+                # land in the same vector space as the existing corpus.
+                from .services.gemini_transport import embed_endpoint, build_embed_payload, parse_embed_values
+                url, headers = embed_endpoint(GEMINI_EMBEDDING_MODEL)
+                req_data = build_embed_payload(GEMINI_EMBEDDING_MODEL, text)
 
-            req = urllib.request.Request(
-                url,
-                data=json.dumps(req_data).encode("utf-8"),
-                headers=headers,
-                method="POST"
-            )
+                req = urllib.request.Request(
+                    url,
+                    data=json.dumps(req_data).encode("utf-8"),
+                    headers=headers,
+                    method="POST"
+                )
 
-            with urllib.request.urlopen(req, timeout=5) as response:
-                if response.status == 200:
-                    res_body = json.loads(response.read().decode("utf-8"))
-                    vec = res_body["embedding"]["values"]
-                    # Pad or truncate to 1536 dimensions to match database schema
-                    if len(vec) > 1536:
-                        vec = vec[:1536]
-                        sq_sum = sum(v * v for v in vec)
-                        norm = math.sqrt(sq_sum) if sq_sum > 0 else 1.0
-                        vec = [v / norm for v in vec]
-                    elif len(vec) < 1536:
-                        vec.extend([0.0] * (1536 - len(vec)))
-                    return vec, GEMINI_EMBEDDING_MODEL
-        except Exception as e:
-            warnings.warn(f"Gemini embedding API call failed: {e}.")
+                with urllib.request.urlopen(req, timeout=30) as response:
+                    if response.status == 200:
+                        res_body = json.loads(response.read().decode("utf-8"))
+                        vec = parse_embed_values(res_body)
+                        # Pad or truncate to 1536 dimensions to match database schema
+                        if len(vec) > 1536:
+                            vec = vec[:1536]
+                            sq_sum = sum(v * v for v in vec)
+                            norm = math.sqrt(sq_sum) if sq_sum > 0 else 1.0
+                            vec = [v / norm for v in vec]
+                        elif len(vec) < 1536:
+                            vec.extend([0.0] * (1536 - len(vec)))
+                        return vec, GEMINI_EMBEDDING_MODEL
+            except Exception as e:
+                if attempt < 2:
+                    delay = 2 * (2 ** attempt)
+                    warnings.warn(f"Gemini embedding API call failed (attempt {attempt + 1}/3): {e}. Retrying in {delay}s.")
+                    time.sleep(delay)
+                else:
+                    warnings.warn(f"Gemini embedding API call failed after 3 attempts: {e}.")
 
     # Raise an error instead of falling back to mock vectors
     raise ValueError("Failed to generate embedding: No valid API key provided or API calls failed.")

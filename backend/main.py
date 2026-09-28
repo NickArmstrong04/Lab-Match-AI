@@ -73,21 +73,27 @@ async def start_scheduler():
     
     app.state.scheduler = BackgroundScheduler()
     
-    # Schedule the recurring grant ingestion daily at 02:00 AM local time
-    app.state.scheduler.add_job(
-        run_grant_ingestion,
-        "cron",
-        hour=2,
-        minute=0,
-        id="daily_grant_ingestion",
-        replace_existing=True
-    )
-    
-    try:
-        app.state.scheduler.start()
-        print("[SUCCESS] Daily grant ingestion background scheduler started successfully.")
-    except Exception as e:
-        warnings.warn(f"Failed to start grant ingestion scheduler: {e}")
+    # Schedule the recurring grant ingestion daily at 02:00 AM local time -- but only
+    # when opted in: this job bills the configured Gemini key for every new row it
+    # processes (see ingest_cron_enabled in config.py for the incident that made this
+    # opt-in). Disabled it costs nothing and the corpus simply stays as last populated.
+    if settings.ingest_cron_enabled:
+        app.state.scheduler.add_job(
+            run_grant_ingestion,
+            "cron",
+            hour=2,
+            minute=0,
+            id="daily_grant_ingestion",
+            replace_existing=True
+        )
+        
+        try:
+            app.state.scheduler.start()
+            print("[SUCCESS] Daily grant ingestion background scheduler started successfully.")
+        except Exception as e:
+            warnings.warn(f"Failed to start grant ingestion scheduler: {e}")
+    else:
+        print("[INFO] Daily grant ingestion cron is disabled (INGEST_CRON_ENABLED=false).")
 
 @app.on_event("shutdown")
 async def shutdown_scheduler():
@@ -115,6 +121,7 @@ async def healthz():
     a student ever sees a degraded deck.
     """
     from .config import settings
+    from .services.gemini_transport import gemini_configured
     from .database import get_db
     from .services.mailer import is_email_configured
 
@@ -122,7 +129,7 @@ async def healthz():
         "status": "ok",
         "config": {
             "supabase": bool(settings.supabase_url and settings.supabase_key),
-            "gemini": bool(settings.gemini_api_key),
+            "gemini": gemini_configured(),
             "google_oauth": bool(settings.google_client_id and settings.google_client_id != "mock_client_id"),
             "jwt": bool(settings.jwt_secret),
             "analytics_admin": bool(settings.analytics_admin_secret),

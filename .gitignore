@@ -58,3 +58,8 @@ backend/videos/
 .claude/
 .mcp.json
 .playwright-mcp/
+logs/
+
+# GCP service-account key for Vertex/Agent Platform routing -- never commit
+backend/vertex-sa.json
+*-sa.json

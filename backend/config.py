@@ -28,6 +28,24 @@ class Settings(BaseSettings):
     jwt_secret: str = ""
     jwt_ttl_seconds: int = 60 * 60 * 24 * 30  # 30 days; the app has no refresh flow
 
+    # Vertex AI routing (services/gemini_transport.py). When use_vertex is true and a
+    # project id is set, every Gemini call is billed to that GCP project instead of the
+    # Developer-API key -- promotional GCP credits apply there. The service-account JSON
+    # path is passed to google-auth explicitly (pydantic loads .env into settings, not
+    # os.environ, so the conventional env-var route would not fire).
+    use_vertex: bool = False
+    vertex_project_id: str = ""
+    vertex_location: str = "us-central1"
+    google_application_credentials: str = ""
+
+    # Gate for the daily 02:00 ingestion cron in main.py. Default OFF: the job spends
+    # real money (Gemini expansions/embeddings for every new row) on whatever key is
+    # configured, and on 2026-09-01 it silently consumed a fresh $15 prepaid top-up
+    # overnight -- then dropped 6,305 rows at the embedding step once credits hit zero,
+    # so the spend bought almost nothing. Opt in deliberately (INGEST_CRON_ENABLED=true)
+    # once the corpus is complete and a spending budget is decided.
+    ingest_cron_enabled: bool = False
+
     # Admin secret gating GET /analytics/metrics, which returns per-student PII and drives
     # launch decisions. If unset the metrics endpoint is DISABLED (503) rather than open,
     # so an unconfigured deploy fails closed instead of leaking student data to anyone.

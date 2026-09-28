@@ -15,6 +15,7 @@ from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from ..database import get_db, generate_embedding, generate_embedding_with_model
+from .gemini_transport import gemini_endpoint, gemini_configured
 
 # Constants
 DEFAULT_KEYWORDS = [
@@ -322,134 +323,229 @@ def fetch_usaspending_grants(agency_name: str, keyword: str, limit: int = 15, of
     
     url = "https://api.usaspending.gov/api/v2/search/spending_by_award/"
     headers = {"Content-Type": "application/json"}
-    
-    payload = {
-        "filters": {
-            "award_type_codes": ["02", "03", "04", "05"],  # Grants
-            "agencies": [
-                {
-                    "type": "awarding",
-                    "tier": "toptier",
-                    "name": agency_name
-                }
-            ],
-            "keywords": [keyword]
-        },
-        "fields": [
-            "Award ID",
-            "Recipient Name",
-            "Start Date",
-            "End Date",
-            "Award Amount",
-            "Awarding Agency",
-            "Awarding Sub Agency",
-            "Description"
-        ],
-        "limit": limit,
-        "page": (offset // limit) + 1,
-        "sort": "Award Amount",
-        "order": "desc"
-    }
-    
+
+    # spending_by_award rejects limit > 100 with HTTP 422 (verified live 2026-08-30:
+    # limit=200 -> 422 on every call, so a bulk run at limit_per_page=200 burned all 3
+    # retries per agency and ingested zero USAspending rows while reporting nothing
+    # louder than a warning). Translate the caller's (limit, offset) window into as many
+    # <=100-row API pages as needed, so run_grant_ingestion can keep its 200-row pages.
+    API_MAX_LIMIT = 100
+    page_size = min(limit, API_MAX_LIMIT)
+    first_page = (offset // page_size) + 1
+    pages_needed = -(-limit // page_size)  # ceil division
+
     max_retries = 3
-    retry_delay = 2.0
-    
-    for attempt in range(max_retries):
-        try:
-            req = urllib.request.Request(
-                url,
-                data=json.dumps(payload).encode("utf-8"),
-                headers=headers,
-                method="POST"
-            )
-            
-            with urllib.request.urlopen(req, timeout=15) as response:
-                if response.status == 200:
-                    res_body = json.loads(response.read().decode("utf-8"))
-                    results = res_body.get("results", [])
-                    
-                    parsed_grants = []
-                    for p in results:
-                        title = p.get("Description", "Untitled Research Grant")
-                        if not title:
-                            continue
-                        if title.startswith("'") and title.endswith("'"):
-                            title = title[1:-1]
-                        if title.startswith('"') and title.endswith('"'):
-                            title = title[1:-1]
-                        title = clean_abstract_html(title)
-                        
-                        org_name = p.get("Recipient Name", "Unknown Institution").strip().title()
-                        
-                        start_date = p.get("Start Date")
-                        end_date = p.get("End Date")
-                        award_amount = p.get("Award Amount", 0)
-                        if award_amount is None:
-                            award_amount = 0
-                            
-                        methodologies = scan_methodologies(title, title)
-                        
-                        if agency_name == "Department of Defense":
-                            funding_source = "DOD"
-                            funding_badge_url = "https://img.shields.io/badge/DOD-Funding-maroon"
-                        elif agency_name == "Department of the Interior":
-                            funding_source = "DNR"
-                            funding_badge_url = "https://img.shields.io/badge/DNR-Funding-green"
-                        elif agency_name == "Department of Energy":
-                            funding_source = "DOE"
-                            funding_badge_url = "https://img.shields.io/badge/DOE-Funding-darkgreen"
-                        elif agency_name == "Environmental Protection Agency":
-                            funding_source = "EPA"
-                            funding_badge_url = "https://img.shields.io/badge/EPA-Funding-orange"
-                        elif agency_name == "National Aeronautics and Space Administration":
-                            funding_source = "NASA"
-                            funding_badge_url = "https://img.shields.io/badge/NASA-Funding-blue"
-                        elif agency_name == "Department of Agriculture":
-                            funding_source = "USDA"
-                            funding_badge_url = "https://img.shields.io/badge/USDA-Funding-olive"
-                        else:
-                            funding_source = "Federal"
-                            funding_badge_url = "https://img.shields.io/badge/Federal-Funding-grey"
-                            
-                        parsed_grants.append({
-                            "pi_name": "Dr. Unknown Investigator",
-                            "university": org_name,
-                            "department": p.get("Awarding Sub Agency", "Research Division").strip().title() or "Research Division",
-                            "grant_title": title,
-                            "grant_abstract": title,
-                            "methodologies": methodologies,
-                            "funding_source": funding_source,
-                            "funding_badge_url": funding_badge_url,
-                            "award_amount": float(award_amount),
-                            "start_date": start_date,
-                            "end_date": end_date,
-                            "award_id": p.get("Award ID")
-                        })
-                    return parsed_grants
+    results = []
+    for api_page in range(first_page, first_page + pages_needed):
+        payload = {
+            "filters": {
+                "award_type_codes": ["02", "03", "04", "05"],  # Grants
+                "agencies": [
+                    {
+                        "type": "awarding",
+                        "tier": "toptier",
+                        "name": agency_name
+                    }
+                ],
+                "keywords": [keyword]
+            },
+            "fields": [
+                "Award ID",
+                "Recipient Name",
+                "Start Date",
+                "End Date",
+                "Award Amount",
+                "Awarding Agency",
+                "Awarding Sub Agency",
+                "Description"
+            ],
+            "limit": page_size,
+            "page": api_page,
+            "sort": "Award Amount",
+            "order": "desc"
+        }
+
+        retry_delay = 2.0
+        page_results = None
+        for attempt in range(max_retries):
+            try:
+                req = urllib.request.Request(
+                    url,
+                    data=json.dumps(payload).encode("utf-8"),
+                    headers=headers,
+                    method="POST"
+                )
+
+                with urllib.request.urlopen(req, timeout=15) as response:
+                    if response.status == 200:
+                        res_body = json.loads(response.read().decode("utf-8"))
+                        page_results = res_body.get("results", [])
+                        break
+                    else:
+                        raise Exception(f"USAspending API status code {response.status}")
+            except Exception as e:
+                if attempt < max_retries - 1:
+                    print(f"[USAspending API] Connection error on attempt {attempt + 1}/{max_retries}: {e}. Retrying in {retry_delay}s...")
+                    time.sleep(retry_delay)
+                    retry_delay *= 2.0
                 else:
-                    raise Exception(f"USAspending API status code {response.status}")
-        except Exception as e:
-            if attempt < max_retries - 1:
-                print(f"[USAspending API] Connection error on attempt {attempt + 1}/{max_retries}: {e}. Retrying in {retry_delay}s...")
-                time.sleep(retry_delay)
-                retry_delay *= 2.0
-            else:
-                warnings.warn(f"Failed to fetch USAspending grants for {agency_name} after {max_retries} attempts: {e}")
-                
-    return []
+                    warnings.warn(f"Failed to fetch USAspending grants for {agency_name} after {max_retries} attempts: {e}")
+
+        if page_results is None:
+            break  # keep rows from earlier pages rather than dropping the whole window
+        results.extend(page_results)
+        if len(page_results) < page_size:
+            break  # source exhausted for this keyword/agency
+        if api_page < first_page + pages_needed - 1:
+            time.sleep(1.0)  # same per-request throttle as the entry sleep
+
+    parsed_grants = []
+    for p in results:
+        title = p.get("Description", "Untitled Research Grant")
+        if not title:
+            continue
+        if title.startswith("'") and title.endswith("'"):
+            title = title[1:-1]
+        if title.startswith('"') and title.endswith('"'):
+            title = title[1:-1]
+        title = clean_abstract_html(title)
+
+        org_name = p.get("Recipient Name", "Unknown Institution").strip().title()
+
+        start_date = p.get("Start Date")
+        end_date = p.get("End Date")
+        award_amount = p.get("Award Amount", 0)
+        if award_amount is None:
+            award_amount = 0
+
+        methodologies = scan_methodologies(title, title)
+
+        if agency_name == "Department of Defense":
+            funding_source = "DOD"
+            funding_badge_url = "https://img.shields.io/badge/DOD-Funding-maroon"
+        elif agency_name == "Department of the Interior":
+            funding_source = "DNR"
+            funding_badge_url = "https://img.shields.io/badge/DNR-Funding-green"
+        elif agency_name == "Department of Energy":
+            funding_source = "DOE"
+            funding_badge_url = "https://img.shields.io/badge/DOE-Funding-darkgreen"
+        elif agency_name == "Environmental Protection Agency":
+            funding_source = "EPA"
+            funding_badge_url = "https://img.shields.io/badge/EPA-Funding-orange"
+        elif agency_name == "National Aeronautics and Space Administration":
+            funding_source = "NASA"
+            funding_badge_url = "https://img.shields.io/badge/NASA-Funding-blue"
+        elif agency_name == "Department of Agriculture":
+            funding_source = "USDA"
+            funding_badge_url = "https://img.shields.io/badge/USDA-Funding-olive"
+        else:
+            funding_source = "Federal"
+            funding_badge_url = "https://img.shields.io/badge/Federal-Funding-grey"
+
+        parsed_grants.append({
+            "pi_name": "Dr. Unknown Investigator",
+            "university": org_name,
+            "department": p.get("Awarding Sub Agency", "Research Division").strip().title() or "Research Division",
+            "grant_title": title,
+            "grant_abstract": title,
+            "methodologies": methodologies,
+            "funding_source": funding_source,
+            "funding_badge_url": funding_badge_url,
+            "award_amount": float(award_amount),
+            "start_date": start_date,
+            "end_date": end_date,
+            "award_id": p.get("Award ID")
+        })
+    return parsed_grants
+
+# Circuit breaker for the search-grounded resolution call below. Grounding has its own
+# DAILY quota, separate from the API balance: once it 429s it will keep 429ing until the
+# midnight-Pacific reset, and each doomed row still burned 3 retries x 10/20/40s of
+# backoff -- observed 2026-08-31 stalling a bulk run for hours with zero rows committed
+# (a page only upserts when every row in it finishes). After this many CONSECUTIVE
+# exhausted-retry failures we stop attempting resolution for the rest of the process and
+# fall back immediately; the fallback rows are identical to what each individual failure
+# would have produced anyway (Dr. Unknown Investigator + title, abstract_is_generated
+# stays True), and recover_unknown_pis.py / a later resweep can fill PIs in once the
+# quota window resets. Counter races between worker threads are benign.
+RESOLUTION_BREAKER_THRESHOLD = 8
+_resolution_consecutive_failures = 0
+_resolution_breaker_announced = False
+
+# Sibling breaker for the EMBEDDING call. An embedding failure permanently drops its
+# row, so once the quota/balance is truly gone (e.g. a free-tier key past its daily
+# allowance, or depleted prepaid credits) every further row in the run is a guaranteed
+# loss that still costs 3 retries of backoff. After this many CONSECUTIVE embedding
+# failures, process_single_grant returns None immediately for the rest of the process:
+# the run degrades to fetch-and-dedupe only and finishes quickly, and the skipped rows
+# are simply picked up by the next (nightly) run when quota is back.
+# Same cooldown pattern for abstract expansion. Expansion failures are benign per row
+# (the verbatim/fallback text is kept and abstract_is_generated stays correct), so this
+# breaker is not about data quality -- it is about not grinding. On 2026-09-18 the free
+# daily quota died mid-run and the expansion path alone logged 2,426 failures, each
+# paying 3 attempts with 2s/4s backoff, so the run swept 7 more keywords over an hour
+# and wrote nothing. That matters because free_fill.sh holds an flock: a run that keeps
+# grinding until morning makes the NEXT night's cron skip entirely.
+EXPANSION_BREAKER_THRESHOLD = 10
+EXPANSION_BREAKER_COOLDOWN_SECONDS = 300
+_expansion_consecutive_failures = 0
+_expansion_breaker_announced = False
+_expansion_breaker_opened_at = 0.0
+
+EMBEDDING_BREAKER_THRESHOLD = 10
+# Seconds to stay open before re-testing. The first version latched permanently, which
+# was wrong: on 2026-09-18 a transient burst of 429s (4 workers briefly outrunning the
+# per-minute embedding limit) tripped it 21 keywords into a 34-keyword run, and every
+# row after that was discarded for ~25 minutes even though a live probe showed the
+# embedding endpoint answering 200 OK the whole time. A genuinely exhausted daily quota
+# just re-trips the breaker after each cooldown, costing one failed row per 5 minutes;
+# a transient spike now costs at most 5 minutes of skipped rows instead of the run.
+EMBEDDING_BREAKER_COOLDOWN_SECONDS = 300
+_embedding_consecutive_failures = 0
+_embedding_breaker_announced = False
+_embedding_breaker_opened_at = 0.0
 
 def resolve_grant_pi_and_abstract(award_id: str, institution: str, title: str) -> dict:
     """
     Use Google Gemini 2.5 Flash with search grounding to resolve the Principal Investigator
     and abstract/description of a grant. Includes robust retries and backoff for rate limits.
     """
+    global _resolution_consecutive_failures, _resolution_breaker_announced
     from ..config import settings
-    if not settings.gemini_api_key:
+    if not gemini_configured():
         warnings.warn("GEMINI_API_KEY is not configured. Skipping PI resolution.")
         return {"pi_name": "Dr. Unknown Investigator", "grant_abstract": title}
+
+    if _resolution_consecutive_failures >= RESOLUTION_BREAKER_THRESHOLD:
+        if not _resolution_breaker_announced:
+            _resolution_breaker_announced = True
+            warnings.warn(
+                f"PI resolution circuit breaker tripped after {RESOLUTION_BREAKER_THRESHOLD} "
+                "consecutive failures (grounded-search quota exhausted?). Skipping resolution "
+                "for the remainder of this run; affected rows keep the Unknown-Investigator "
+                "fallback and can be recovered later."
+            )
+        return {"pi_name": "Dr. Unknown Investigator", "grant_abstract": title}
         
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key={settings.gemini_api_key}"
-    headers = {"Content-Type": "application/json"}
+    # Routed through gemini_transport so the same call works against the Developer API
+    # (key) or Vertex AI (GCP credits) -- see services/gemini_transport.py.
+    #
+    # Model history, all verified live against the free-tier key on 2026-09-17:
+    #   gemini-2.5-flash-lite -> 404 "no longer available to new users ... use
+    #                            models/gemini-3.5-flash-lite". Per-attempt, so every
+    #                            USAspending row burned 3 retries (10/20/40s) first.
+    #   gemini-3.5-flash-lite -> plain calls return 200, but WITH google_search grounding
+    #   (and 3.1-flash-lite)     both 429 on an otherwise idle key: the lite family has no
+    #                            free-tier grounding quota, whatever the retirement notice
+    #                            recommends.
+    #   gemini-2.5-flash      -> 200 both plain and grounded; the only combination that
+    #                            works on this key, so resolution uses it despite being
+    #                            the heavier model.
+    # Grounding is NOT optional here. Without live search the model would answer from
+    # memory and emit plausible-looking PI names for real award IDs -- precisely the
+    # fabrication this codebase forbids. If grounding ever stops working, the correct
+    # behaviour is to fail into the Unknown-Investigator fallback, never to drop the tool.
+    url, headers = gemini_endpoint("gemini-2.5-flash:generateContent")
     
     prompt = f"""
     You are an expert research grant metadata extractor. Your job is to find the Principal Investigator (PI) name and a short project abstract for the following U.S. federal research grant award:
@@ -469,6 +565,9 @@ def resolve_grant_pi_and_abstract(award_id: str, institution: str, title: str) -
     payload = {
         "contents": [
             {
+                # Vertex requires an explicit role ("Please use a valid role: user, model");
+                # the Developer API defaults it to user, so this is valid on both backends.
+                "role": "user",
                 "parts": [
                     {"text": prompt}
                 ]
@@ -560,6 +659,7 @@ def resolve_grant_pi_and_abstract(award_id: str, institution: str, title: str) -
                         grant_abstract = "\n".join(abstract_lines).strip()
                         grant_abstract = re.sub(r'\n{3,}', '\n\n', grant_abstract)
                         
+                    _resolution_consecutive_failures = 0
                     return {
                         "pi_name": pi_name,
                         "grant_abstract": grant_abstract
@@ -580,6 +680,7 @@ def resolve_grant_pi_and_abstract(award_id: str, institution: str, title: str) -
             time.sleep(backoff)
             backoff *= 2.0
             
+    _resolution_consecutive_failures += 1
     warnings.warn(f"Failed to resolve PI/abstract via Gemini for Award ID {award_id} after {max_retries} attempts.")
     return {"pi_name": "Dr. Unknown Investigator", "grant_abstract": title}
 
@@ -621,9 +722,28 @@ def expand_grant_abstract_via_llm(grant: dict) -> str:
     project description/synthesis based on the grant metadata.
     """
     from ..config import settings
-    if not settings.gemini_api_key:
+    if not gemini_configured():
         warnings.warn("GEMINI_API_KEY is not configured. Skipping abstract expansion.")
         return grant.get("grant_abstract") or grant.get("grant_title") or ""
+
+    global _expansion_consecutive_failures, _expansion_breaker_announced
+    global _expansion_breaker_opened_at
+    if _expansion_consecutive_failures >= EXPANSION_BREAKER_THRESHOLD:
+        import time as _time
+        if not _expansion_breaker_announced:
+            _expansion_breaker_announced = True
+            _expansion_breaker_opened_at = _time.time()
+            warnings.warn(
+                f"Abstract expansion circuit breaker tripped after {EXPANSION_BREAKER_THRESHOLD} "
+                "consecutive failures (quota exhausted, or a transient burst). Falling back to "
+                f"verbatim text for {EXPANSION_BREAKER_COOLDOWN_SECONDS}s, then re-testing."
+            )
+        if _time.time() - _expansion_breaker_opened_at < EXPANSION_BREAKER_COOLDOWN_SECONDS:
+            return grant.get("grant_abstract") or grant.get("grant_title") or ""
+        # Cooldown elapsed: half-open. This row is the probe -- success closes the
+        # breaker below, failure re-opens it for another cooldown.
+        _expansion_consecutive_failures = 0
+        _expansion_breaker_announced = False
         
     title = grant.get("grant_title", "Untitled Research Project")
     pi_name = grant.get("pi_name", "Dr. Unknown Investigator")
@@ -631,8 +751,9 @@ def expand_grant_abstract_via_llm(grant: dict) -> str:
     funding_source = grant.get("funding_source", "Federal Agency")
     methodologies = grant.get("methodologies") or ["Research Analysis"]
     
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={settings.gemini_api_key}"
-    headers = {"Content-Type": "application/json"}
+    # Routed through gemini_transport so the same call works against the Developer API
+    # (key) or Vertex AI (GCP credits) -- see services/gemini_transport.py.
+    url, headers = gemini_endpoint("gemini-2.5-flash:generateContent")
     
     prompt = f"""
     You are an expert science writer and research grant advisor. We have a research grant with the following metadata:
@@ -655,6 +776,9 @@ def expand_grant_abstract_via_llm(grant: dict) -> str:
     payload = {
         "contents": [
             {
+                # Vertex requires an explicit role ("Please use a valid role: user, model");
+                # the Developer API defaults it to user, so this is valid on both backends.
+                "role": "user",
                 "parts": [
                     {"text": prompt}
                 ]
@@ -698,6 +822,7 @@ def expand_grant_abstract_via_llm(grant: dict) -> str:
                     text_content = text_content.strip()
                     
                     if text_content:
+                        _expansion_consecutive_failures = 0
                         return text_content
                 else:
                     raise Exception(f"API returned status code {response.status}")
@@ -708,6 +833,7 @@ def expand_grant_abstract_via_llm(grant: dict) -> str:
                 time.sleep(backoff)
                 backoff *= 2.0
                 
+    _expansion_consecutive_failures += 1
     warnings.warn("Failed to expand abstract via Gemini. Using fallback.")
     return grant.get("grant_abstract") or grant.get("grant_title") or ""
 
@@ -751,7 +877,31 @@ def process_single_grant(grant: dict) -> Optional[dict]:
         # Compute vector embedding, recording which model produced it so the row's
         # embedding_model provenance is truthful rather than assumed (Task 22).
         emb_text = f"Title: {title}. Abstract: {grant['grant_abstract']} PI: {grant['pi_name']} Methodologies: {', '.join(grant['methodologies'])}."
-        embedding, embedding_model = generate_embedding_with_model(emb_text)
+        global _embedding_consecutive_failures, _embedding_breaker_announced
+        global _embedding_breaker_opened_at
+        if _embedding_consecutive_failures >= EMBEDDING_BREAKER_THRESHOLD:
+            import time as _time
+            if not _embedding_breaker_announced:
+                _embedding_breaker_announced = True
+                _embedding_breaker_opened_at = _time.time()
+                warnings.warn(
+                    f"Embedding circuit breaker tripped after {EMBEDDING_BREAKER_THRESHOLD} "
+                    "consecutive failures (quota exhausted, or a transient burst). Skipping "
+                    f"rows for {EMBEDDING_BREAKER_COOLDOWN_SECONDS}s, then re-testing."
+                )
+            if _time.time() - _embedding_breaker_opened_at < EMBEDDING_BREAKER_COOLDOWN_SECONDS:
+                return None
+            # Cooldown elapsed: half-open. Let exactly this row through as the probe --
+            # it either succeeds (counter resets below, breaker closes) or fails and
+            # re-opens the breaker for another cooldown.
+            _embedding_consecutive_failures = 0
+            _embedding_breaker_announced = False
+        try:
+            embedding, embedding_model = generate_embedding_with_model(emb_text)
+        except Exception:
+            _embedding_consecutive_failures += 1
+            raise
+        _embedding_consecutive_failures = 0
 
         return {
             "pi_name": grant["pi_name"],
@@ -912,8 +1062,12 @@ def run_grant_ingestion(keywords: List[str] = None, pages: int = 10, limit_per_p
             if new_grants:
                 print(f"  Processing {len(new_grants)} new unique grants in parallel...")
                 processed_grants = []
-                # Process in parallel using up to 10 workers (safe for API and concurrent embedding gen)
-                with ThreadPoolExecutor(max_workers=10) as executor:
+                # 4 workers, not 10: every worker fires unthrottled Gemini calls (embedding
+                # always; resolution + expansion for USAspending rows), and 10-way concurrency
+                # tripped rate limits during bulk repopulation -- each 429 on the embedding path
+                # silently drops its row. Matches the conservative pattern in
+                # expand_brief_abstracts.py (max_workers=3 with a sleep throttle).
+                with ThreadPoolExecutor(max_workers=4) as executor:
                     futures = {executor.submit(process_single_grant, g): g for g in new_grants}
                     for future in as_completed(futures):
                         res = future.result()

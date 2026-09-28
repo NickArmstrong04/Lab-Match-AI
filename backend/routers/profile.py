@@ -9,6 +9,7 @@ import urllib.error
 import warnings
 
 from ..database import get_db, generate_embedding
+from ..services.gemini_transport import gemini_endpoint, gemini_configured
 from .auth import scrub_student_record
 from ..auth_deps import (
     DEMO_STUDENT_IDS,
@@ -32,7 +33,7 @@ def query_gemini_synthesis(cv_text: str, interests: str) -> dict:
     Call Google Gemini API using a system prompt and structured JSON output schema
     to extract technical competencies, a 1-paragraph summary, recommended roles, and domain tags.
     """
-    if not settings.gemini_api_key:
+    if not gemini_configured():
         raise ValueError("GEMINI_API_KEY is not configured.")
 
     system_instruction = (
@@ -52,12 +53,16 @@ def query_gemini_synthesis(cv_text: str, interests: str) -> dict:
         "5. A list of 3-5 high-level research domains, e.g. AI, Bioinformatics, Microfluidics (domain_tags)."
     )
 
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={settings.gemini_api_key}"
-    headers = {"Content-Type": "application/json"}
+    # Routed through gemini_transport so the same call works against the Developer API
+    # (key) or Vertex AI (GCP credits) -- see services/gemini_transport.py.
+    url, headers = gemini_endpoint("gemini-2.5-flash:generateContent")
     
     payload = {
         "contents": [
             {
+                # Vertex requires an explicit role ("Please use a valid role: user, model");
+                # the Developer API defaults it to user, so this is valid on both backends.
+                "role": "user",
                 "parts": [
                     {"text": f"{system_instruction}\n\n{user_prompt}"}
                 ]
