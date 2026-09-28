@@ -96,22 +96,36 @@ def recover_single_grant(db, grant: dict) -> Optional[dict]:
                 # Sleep briefly to avoid firewall rate limit detection
                 time.sleep(1.2)
             
-            # Try to find a matching award
-            matching_award = None
+            # Confirmed-match-or-skip, mirroring backfill_nih_appl_ids.py. An earlier version
+            # fell back to results[0] when no title matched, then wrote THAT award's PI,
+            # abstract and award_id onto this row -- a correct grant title over another
+            # award's PI, presented as sourced fact. Whatever award_id we pick here drives
+            # the PI/abstract resolution below, so a wrong pick is a fabrication, not a miss.
+            # Also guards the empty-title case: `"" in title` is always True, so a result
+            # with a blank Description used to "match" every grant.
+            title_l = title.strip().lower()
+            uni_l = (uni or "").strip().lower()
+            confirmed = []
             for r in results:
-                r_title = r.get("grant_title", "").lower()
-                if title.lower() in r_title or r_title in title.lower():
-                    matching_award = r
-                    break
-                    
-            if not matching_award and results:
-                matching_award = results[0]
-                
-            if not matching_award:
-                print(f"  ❌ No matching award found in USAspending for title: '{title[:40]}...'")
+                r_title = (r.get("grant_title") or "").strip().lower()
+                if not r_title or not title_l:
+                    continue
+                if not (title_l in r_title or r_title in title_l):
+                    continue
+                # Same recipient, when both sides name one -- titles like "Research
+                # Support" recur across unrelated institutions.
+                r_uni = (r.get("university") or "").strip().lower()
+                if uni_l and r_uni and uni_l != r_uni:
+                    continue
+                confirmed.append(r)
+
+            award_ids = {r.get("award_id") for r in confirmed if r.get("award_id")}
+            if len(award_ids) != 1:
+                why = "no confirmed title match" if not award_ids else f"ambiguous ({len(award_ids)} distinct award_ids)"
+                print(f"  ❌ Skipping -- {why} in USAspending for title: '{title[:40]}...'")
                 return None
-                
-            award_id = matching_award.get("award_id")
+
+            award_id = award_ids.pop()
             
         print(f"  [Grounding] Award ID: {award_id} | Title: '{title[:40]}...' | Resolving via Gemini...")
         

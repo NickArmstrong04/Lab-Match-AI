@@ -180,6 +180,13 @@ def backfill_source(db, source: str, apply_changes: bool, max_rows: Optional[int
     undecided_titles = []
 
     print(f"\n--- {source} ---", flush=True)
+    # Collect every candidate row BEFORE writing anything. An earlier version paged with
+    # OFFSET over `abstract_is_generated = FALSE` while --apply flipped rows to TRUE
+    # mid-scan: each flip shrank the filtered set, so the next OFFSET slid past rows that
+    # were never examined -- silently leaving LLM-written abstracts unlabeled, the exact
+    # gap this script exists to close. With no ORDER BY, pages weren't even stable in a
+    # dry run. Same collect-then-process fix as backfill_nih_appl_ids.py.
+    rows = []
     while True:
         try:
             res = (
@@ -187,53 +194,55 @@ def backfill_source(db, source: str, apply_changes: bool, max_rows: Optional[int
                 .select("id, grant_title, grant_abstract")
                 .eq("funding_source", source)
                 .eq("abstract_is_generated", False)
+                .order("id")
                 .range(offset, offset + limit - 1)
                 .execute()
             )
         except Exception as e:
-            print(f"[FATAL] Could not fetch {source} batch at offset {offset}: {e}", flush=True)
-            break
+            # A partial candidate list would under-report, so abort rather than scan it.
+            print(f"[FATAL] Could not fetch {source} batch at offset {offset}: {e} -- "
+                  f"aborting {source} with nothing scanned", flush=True)
+            return {**counts, "undecided_titles": [], "scanned": 0}
 
         batch = res.data or []
-        if not batch:
-            break
-
-        for grant in batch:
-            if max_rows is not None and scanned >= max_rows:
-                break
-            scanned += 1
-            title = grant.get("grant_title") or ""
-            stored = grant.get("grant_abstract") or ""
-
-            outcome, federal = fetch(title)
-            time.sleep(0.34)  # stay well inside the agencies' rate limits
-
-            verdict, score = classify(stored, outcome, federal)
-            counts[verdict] += 1
-
-            if verdict == "undecided":
-                undecided_titles.append(title)
-            elif verdict == "generated":
-                why = "agency publishes no abstract" if outcome == FOUND_EMPTY else f"similarity={score:.2f}"
-                print(f"  [GENERATED] {why} '{title[:56]}'", flush=True)
-                if apply_changes:
-                    try:
-                        db.table("labs_cached_grants").update(
-                            {"abstract_is_generated": True}
-                        ).eq("id", grant["id"]).execute()
-                    except Exception as e:
-                        print(f"    [ERROR] update failed for {grant['id'][:8]}: {e}", flush=True)
-
-            if scanned % 100 == 0:
-                print(f"  ... {scanned} {source} rows scanned "
-                      f"(gen={counts['generated']} verb={counts['verbatim']} und={counts['undecided']})",
-                      flush=True)
-
-        if max_rows is not None and scanned >= max_rows:
+        rows.extend(batch)
+        if max_rows is not None and len(rows) >= max_rows:
+            rows = rows[:max_rows]
             break
         if len(batch) < limit:
             break
         offset += limit
+
+    print(f"  {len(rows)} {source} rows currently flagged FALSE", flush=True)
+
+    for grant in rows:
+        scanned += 1
+        title = grant.get("grant_title") or ""
+        stored = grant.get("grant_abstract") or ""
+
+        outcome, federal = fetch(title)
+        time.sleep(0.34)  # stay well inside the agencies' rate limits
+
+        verdict, score = classify(stored, outcome, federal)
+        counts[verdict] += 1
+
+        if verdict == "undecided":
+            undecided_titles.append(title)
+        elif verdict == "generated":
+            why = "agency publishes no abstract" if outcome == FOUND_EMPTY else f"similarity={score:.2f}"
+            print(f"  [GENERATED] {why} '{title[:56]}'", flush=True)
+            if apply_changes:
+                try:
+                    db.table("labs_cached_grants").update(
+                        {"abstract_is_generated": True}
+                    ).eq("id", grant["id"]).execute()
+                except Exception as e:
+                    print(f"    [ERROR] update failed for {grant['id'][:8]}: {e}", flush=True)
+
+        if scanned % 100 == 0:
+            print(f"  ... {scanned} {source} rows scanned "
+                  f"(gen={counts['generated']} verb={counts['verbatim']} und={counts['undecided']})",
+                  flush=True)
 
     counts["undecided_titles"] = undecided_titles
     counts["scanned"] = scanned
