@@ -73,7 +73,9 @@ export const CircularScore: React.FC<CircularScoreProps> = ({
           {score}
         </span>
       </div>
-      <span className="text-[10px] tracking-wider text-stone-500 uppercase font-medium font-mono text-center whitespace-nowrap">
+      {/* No `uppercase` on the span: it capitalised the whole string, "OF" included.
+          The label is written in capitals; "of" stays as written. */}
+      <span className="text-[10px] tracking-wider text-stone-500 font-medium font-mono text-center whitespace-nowrap">
         {isDemo ? 'SAMPLE SIMILARITY' : 'TEXT SIMILARITY'} {score} of 100
       </span>
     </div>

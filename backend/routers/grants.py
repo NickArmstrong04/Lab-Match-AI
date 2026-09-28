@@ -26,6 +26,13 @@ def _demo_decks() -> dict:
     # department is "" and recommended_role is None here exactly as on real cards: no
     # award record states a department or says what role a lab would offer, and these
     # decks are what the ad recordings show. Scores and text are otherwise untouched.
+    #
+    # location_match is False on every card. These decks are returned before the student
+    # lookup, so there is no typed campus here to compare against, and a hardcoded True
+    # rendered "Name matches the campus you entered" on a Harvard card for a persona
+    # whose campus was "Test University". The dashboard computes the pill for persona
+    # cards from the campus in the session, with the campus_name_match rule
+    # (cardLocationMatch in frontend/src/utils/card.ts).
     return {
         SARAH_DEMO_STUDENT_ID: [
             {
@@ -76,7 +83,7 @@ def _demo_decks() -> dict:
                 "missing_skills": [],
                 "methodologies": ["Deep Learning", "Genomics", "Transformers", "Python"],
                 "recommended_role": None,
-                "location_match": True,
+                "location_match": False,
                 "is_demo": True,
             },
         ],
@@ -128,7 +135,7 @@ def _demo_decks() -> dict:
                 "missing_skills": [],
                 "methodologies": ["Molecular Biology", "CRISPR-Cas9", "Stem Cells", "Epigenetics"],
                 "recommended_role": None,
-                "location_match": True,
+                "location_match": False,
                 "is_demo": True,
             },
         ],

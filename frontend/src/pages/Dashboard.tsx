@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
+import { createPortal } from 'react-dom';
 import { X, Heart, Mail, Building, Calendar, DollarSign, ArrowLeft, ArrowRight, Award, Trash2, RefreshCw, ExternalLink, Clock, Pencil } from 'lucide-react';
 import GlassCard from '../components/GlassCard';
 import CircularScore from '../components/CircularScore';
@@ -15,6 +16,7 @@ import {
   agencyPillText,
   agencyShortLabel,
   awardAmountDisplay,
+  cardLocationMatch,
   formatMonthYear,
   fundingWindow,
   isDemoCard,
@@ -22,6 +24,7 @@ import {
   recordSiteName,
   similarityValue,
 } from '../utils/card';
+import { isDemoStudent } from '../utils/demoPersonas';
 import AiPiBadge from '../components/AiPiBadge';
 import { SimilarityNotes } from '../components/CircularScore';
 
@@ -168,11 +171,84 @@ interface DashboardProps {
   setSkippedMatches: React.Dispatch<React.SetStateAction<string[]>>;
   onRefineInterests: () => void;
   onNarrativeUpdated: (narrative: string) => void;
+  // A write the server did not record (or could not be confirmed). Held by App, not
+  // here: App unmounts this component for the composer, and a request that fails after
+  // the student has left must still be reported when they come back.
+  writeError: string;
+  setWriteError: React.Dispatch<React.SetStateAction<string>>;
 }
 
 // How many extra pages the deck will pull automatically before giving up and telling the
 // student it's out. Bounds the local-filter case described in loadMoreMatches.
 const MAX_AUTO_LOAD_PAGES = 4;
+
+/**
+ * The daily evaluation count. localStorage is the record and component state follows it.
+ *
+ * The writes used to sit inside setSwipeCount updaters. A refund that arrived after App
+ * had swapped the Dashboard out for the composer ran against an unmounted component, so
+ * the updater never ran, storage kept the charge and the student lost an evaluation for
+ * a swipe that was never stored. Writing here and announcing the new value means the
+ * refund lands whichever Dashboard instance (if any) is mounted.
+ */
+const SWIPE_COUNT_EVENT = 'labmatch:swipe-count';
+
+const todaySwipeKey = () => {
+  const d = new Date();
+  return `labmatch_swipes_${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+};
+
+// Used when storage is unavailable (private window, blocked site data).
+let swipeCountFallback = 0;
+
+const readSwipeCount = (): number => {
+  try {
+    const stored = localStorage.getItem(todaySwipeKey());
+    const parsed = stored ? parseInt(stored, 10) : 0;
+    return Number.isFinite(parsed) ? parsed : 0;
+  } catch {
+    return swipeCountFallback;
+  }
+};
+
+const adjustSwipeCount = (delta: number): void => {
+  const next = Math.max(0, readSwipeCount() + delta);
+  swipeCountFallback = next;
+  try {
+    localStorage.setItem(todaySwipeKey(), String(next));
+  } catch {
+    /* storage unavailable: the fallback above carries the count for this page load */
+  }
+  window.dispatchEvent(new CustomEvent<number>(SWIPE_COUNT_EVENT, { detail: next }));
+};
+
+/**
+ * One write to `matches` at a time, for the whole page rather than per component.
+ *
+ * This was a ref released when the 400ms exit animation ended, so a student could act on
+ * the next card while the previous write was still unanswered. Everything that followed
+ * from that was a way of showing something untrue: the paywall opened on the strength of
+ * swipes the server then refused, a failure notice appeared beside another card's
+ * "Saved" pill, and a rollback swapped the card under a drag. Held until the request
+ * settles. Module-level because the request outlives the component when the student
+ * opens the composer mid-write, and the Dashboard they return to must honour it too.
+ */
+const writeInFlight = { current: false };
+
+// What became of a write. `unknown` is a request that got no HTTP answer (timeout,
+// dropped connection): the server may or may not hold the row, so nothing is claimed
+// either way until it has been asked.
+type WriteOutcome = 'recorded' | 'failed' | 'unknown';
+
+const settleWrite = async (request: Promise<unknown>, label: string): Promise<WriteOutcome> => {
+  try {
+    await request;
+    return 'recorded';
+  } catch (err: any) {
+    console.error(label, err);
+    return err?.response?.status ? 'failed' : 'unknown';
+  }
+};
 
 export const Dashboard: React.FC<DashboardProps> = ({
   studentId,
@@ -186,6 +262,8 @@ export const Dashboard: React.FC<DashboardProps> = ({
   setSkippedMatches,
   onRefineInterests,
   onNarrativeUpdated,
+  writeError,
+  setWriteError,
 }) => {
   // We keep track of the matches deck fetched from the database
   const [deckMatches, setDeckMatches] = useState<GrantMatch[]>(matches);
@@ -201,29 +279,34 @@ export const Dashboard: React.FC<DashboardProps> = ({
   // vertical scrolls as swipes.
   const dragAxis = useRef<'horizontal' | 'vertical' | null>(null);
 
-  // In-flight guard: a double-click / rapid tap used to fire two swipes against a stale
-  // count. A ref (not state) so re-entry is blocked synchronously, before any re-render.
-  const swipingRef = useRef(false);
+  // The in-flight guard is writeInFlight, at module level (see there).
+  // True once a write has been pending long enough to be worth saying so: the skip and
+  // save buttons do nothing while it is, and silence would read as a broken button.
+  const [isRecording, setIsRecording] = useState(false);
 
   // The last swipe, kept ~8s so an accidental skip can be undone (a left swipe used to
   // hide a lab permanently, since the deck excludes swiped grants server-side).
   const [lastSwipe, setLastSwipe] = useState<{ card: GrantMatch; direction: 'left' | 'right' } | null>(null);
   const undoTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  // writeError (a prop, held by App): a swipe, undo or removal the server did not record.
+  // Shown in the toast slot in place of the "Saved ..." pill until dismissed, until the
+  // next write starts or until one succeeds. Never retried automatically: the student
+  // decides whether to try again.
+
+  // The persona decks are hardcoded and the personas have no students row, so nothing
+  // they do is stored. Exact UUID, as everywhere else (utils/demoPersonas.ts).
+  const isDemoDeck = isDemoStudent(studentId);
 
   // A local selected card ID if the user clicks a saved card to inspect it
   const [inspectedMatch, setInspectedMatch] = useState<GrantMatch | null>(null);
 
-  // Daily swipe tracking & Paywall state
-  const getTodayKey = () => {
-    const dateObj = new Date();
-    return `labmatch_swipes_${dateObj.getFullYear()}-${String(dateObj.getMonth() + 1).padStart(2, '0')}-${String(dateObj.getDate()).padStart(2, '0')}`;
-  };
-
-  const [swipeCount, setSwipeCount] = useState<number>(() => {
-    const key = getTodayKey();
-    const stored = localStorage.getItem(key);
-    return stored ? parseInt(stored, 10) : 0;
-  });
+  // Daily swipe tracking & Paywall state. Follows adjustSwipeCount (module level).
+  const [swipeCount, setSwipeCount] = useState<number>(readSwipeCount);
+  useEffect(() => {
+    const onCount = (e: Event) => setSwipeCount((e as CustomEvent<number>).detail);
+    window.addEventListener(SWIPE_COUNT_EVENT, onCount);
+    return () => window.removeEventListener(SWIPE_COUNT_EVENT, onCount);
+  }, []);
 
   const [hasFeedbackToday, setHasFeedbackToday] = useState<boolean>(() => {
     const d = new Date();
@@ -242,15 +325,24 @@ export const Dashboard: React.FC<DashboardProps> = ({
   };
 
   // Proximity filtering & search states
-  const [localOnly, setLocalOnly] = useState(!!studentLocation);
+  // Off for the persona decks: the scripted deck is returned whatever the filter says, so
+  // a checked box over it claimed a restriction that was not applied.
+  const [localOnly, setLocalOnly] = useState(!!studentLocation && !isDemoStudent(studentId));
   const [locationSearch, setLocationSearch] = useState('');
+  // What the server is asked to filter by. Never the typed text on a persona deck: the
+  // backend returns the same two scripted cards whatever it is sent, so a refetch there
+  // cleared the deck, showed "Matching your profile against active federal awards" over
+  // a scripted deck and brought back a card the persona had skipped. The persona's two
+  // cards are filtered here instead (demoInstitutionFilter, below).
+  const deckLocationSearch = isDemoDeck ? '' : locationSearch.trim();
+  const demoInstitutionFilter = isDemoDeck ? locationSearch.trim().toLowerCase() : '';
 
   const getDynamicGlow = () => {
     if (inspectedMatch) return 'none';
     if (dragOffset.x > 50) return 'emerald';
     if (dragOffset.x < -50) return 'rose';
     if (!currentMatch) return 'none';
-    return currentMatch.location_match ? 'teal' : (currentMatch.score ?? 0) >= 90 ? 'teal' : 'purple';
+    return cardLocationMatch(studentId, studentLocation, currentMatch) ? 'teal' : (currentMatch.score ?? 0) >= 90 ? 'teal' : 'purple';
   };
 
   const cardStyle: React.CSSProperties = !inspectedMatch && isDragging
@@ -322,6 +414,15 @@ export const Dashboard: React.FC<DashboardProps> = ({
 
   const [showNarrativeEditor, setShowNarrativeEditor] = useState(false);
 
+  // The filters the deck in hand was requested with. When a fetch starts under different
+  // ones, the old deck is dropped first: its top card used to stay on screen for the
+  // length of the request, under a toggle that no longer described it.
+  const deckFiltersRef = useRef({ localOnly, locationSearch: deckLocationSearch });
+
+  // Card body scroller, for the "more below" fade (see the card body).
+  const cardBodyRef = useRef<HTMLDivElement | null>(null);
+  const [cardHasMoreBelow, setCardHasMoreBelow] = useState(false);
+
 
   // Load matches deck and rebuild queues based on database status on mount, and reload when location filters change
   useEffect(() => {
@@ -340,8 +441,17 @@ export const Dashboard: React.FC<DashboardProps> = ({
       setSearchPaused(false);
       setLoadMoreError('');
       autoLoadAttempts.current = 0;
+      const requested = { localOnly, locationSearch: deckLocationSearch };
+      if (
+        deckFiltersRef.current.localOnly !== requested.localOnly
+        || deckFiltersRef.current.locationSearch !== requested.locationSearch
+      ) {
+        deckFiltersRef.current = requested;
+        setDeckMatches([]);
+        setCurrentIndex(0);
+      }
       try {
-        const locFilterStr = locationSearch.trim() ? `&location_filter=${encodeURIComponent(locationSearch.trim())}` : '';
+        const locFilterStr = deckLocationSearch ? `&location_filter=${encodeURIComponent(deckLocationSearch)}` : '';
         const url = (local: boolean, offset: number) =>
           `/grants/matches?student_id=${studentId}&threshold=0.2&limit=12&local_only=${local}${locFilterStr}${offset > 0 ? `&offset=${offset}` : ''}`;
 
@@ -355,7 +465,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
         // each further hop ranks 200 more than the last (untimed on this instance, and
         // past the measured cliff described in get_matches). An empty campus page goes
         // straight to the nationwide fallback below, as it did before paging existed.
-        const locationFiltered = (local: boolean) => local || !!locationSearch.trim();
+        const locationFiltered = (local: boolean) => local || !!deckLocationSearch;
         const readFirstPage = async (local: boolean) => {
           let page = readMatchesPage((await api.get(url(local, 0), { signal: controller.signal })).data);
           let offset = 0;
@@ -397,8 +507,13 @@ export const Dashboard: React.FC<DashboardProps> = ({
           swipesSincePage.current = 0;
           // Only the server's word counts here: an empty page alone is not exhaustion.
           if (page.exhausted === true) setDeckExhausted(true);
-          const dbSkipped = fetched.filter((m) => m.status === 'skipped').map((m) => m.id);
-          setSkippedMatches(dbSkipped);
+          // Not for the personas. Their cards carry no status (nothing they do is
+          // stored), so this wrote [] over the skips App holds for them on every return
+          // from the composer, and the skipped card came back to the top of the deck.
+          if (!isDemoDeck) {
+            const dbSkipped = fetched.filter((m) => m.status === 'skipped').map((m) => m.id);
+            setSkippedMatches(dbSkipped);
+          }
         }
 
         // Saved labs are NOT derived from this response. This deck is the filtered top
@@ -423,14 +538,14 @@ export const Dashboard: React.FC<DashboardProps> = ({
     // Debounced: locationSearch is a raw dependency, so typing "Stanford" fired eight
     // requests whose responses could land out of order. AbortController cancels the
     // in-flight one so a stale response can't overwrite a newer deck.
-    const debounceMs = locationSearch.trim() ? 400 : 0;
+    const debounceMs = deckLocationSearch ? 400 : 0;
     const timer = setTimeout(fetchDeck, debounceMs);
 
     return () => {
       clearTimeout(timer);
       controller.abort();
     };
-  }, [studentId, localOnly, locationSearch, deckReloadKey, setSkippedMatches]);
+  }, [studentId, isDemoDeck, localOnly, deckLocationSearch, deckReloadKey, setSkippedMatches]);
 
   /**
    * Load the saved pipeline from its own endpoint, independent of the deck's filters.
@@ -448,6 +563,13 @@ export const Dashboard: React.FC<DashboardProps> = ({
    */
   const handleResetSkipped = async () => {
     if (!studentId || isResettingSkipped) return;
+    if (isDemoDeck) {
+      // Persona skips are held in this component only (see handleSwipe), so putting the
+      // cards back is a local change too.
+      setSkippedMatches([]);
+      setCurrentIndex(0);
+      return;
+    }
     setIsResettingSkipped(true);
     try {
       await api.post('/grants/matches/reset-skipped', { student_id: studentId });
@@ -464,15 +586,26 @@ export const Dashboard: React.FC<DashboardProps> = ({
     }
   };
 
-  const refreshSavedMatches = useCallback(async () => {
-    if (!studentId || studentId === 'undefined') return;
+  // Resolves to the server's list, or null when there was none to read. Callers that
+  // need to know whether a row exists (a write that got no answer) read the result.
+  const refreshSavedMatches = useCallback(async (): Promise<GrantMatch[] | null> => {
+    if (!studentId || studentId === 'undefined') return null;
+    // The personas have no rows: get_saved_matches answers [] for them by design. Read
+    // as the truth, that emptied the Saved Labs list App holds for the persona each
+    // time the Dashboard mounted, so a lab saved before opening the composer was gone
+    // on return while its evaluation stayed charged.
+    if (isDemoStudent(studentId)) return null;
     try {
       const res = await api.get(`/grants/matches/saved?student_id=${studentId}`);
-      if (Array.isArray(res.data)) setSavedMatches(res.data);
+      if (Array.isArray(res.data)) {
+        setSavedMatches(res.data);
+        return res.data as GrantMatch[];
+      }
     } catch (err) {
       // Non-fatal: the deck still works, the sidebar just won't refresh.
       console.error('Failed to load saved labs:', err);
     }
+    return null;
   }, [studentId, setSavedMatches]);
 
   /**
@@ -550,7 +683,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
       const nextOffset = serverNextOffset !== null
         ? Math.max(0, serverNextOffset - swipesAtSend)
         : deckOffset + 12;
-      const locFilterStr = locationSearch.trim() ? `&location_filter=${encodeURIComponent(locationSearch.trim())}` : '';
+      const locFilterStr = deckLocationSearch ? `&location_filter=${encodeURIComponent(deckLocationSearch)}` : '';
       const res = await api.get(
         `/grants/matches?student_id=${studentId}&threshold=0.2&limit=12&local_only=${localOnly}${locFilterStr}&offset=${nextOffset}`
       );
@@ -596,7 +729,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
     } finally {
       setIsLoadingMore(false);
     }
-  }, [studentId, deckOffset, deckExhausted, searchPaused, loadMoreError, serverNextOffset, isLoadingMore, localOnly, locationSearch]);
+  }, [studentId, deckOffset, deckExhausted, searchPaused, loadMoreError, serverNextOffset, isLoadingMore, localOnly, deckLocationSearch]);
 
   // Resume a paused search with a fresh auto-load budget.
   const handleKeepLooking = () => {
@@ -613,11 +746,28 @@ export const Dashboard: React.FC<DashboardProps> = ({
   }, [refreshSavedMatches, deckReloadKey]);
 
   // Filter out skipped and saved matches from the deck, unless inspected
-  const activeDeck = deckMatches.filter(
+  const unswipedDeck = deckMatches.filter(
     (m) => !skippedMatches.includes(m.id) && !savedMatches.some((s) => s.id === m.id)
   );
+  // Persona decks only: the proximity text is matched against the institution name of
+  // the scripted cards. They carry no city, which is why the placeholder there does not
+  // offer one.
+  const activeDeck = demoInstitutionFilter
+    ? unswipedDeck.filter((m) => (m.institution || '').toLowerCase().includes(demoInstitutionFilter))
+    : unswipedDeck;
 
   const currentMatch = inspectedMatch || activeDeck[currentIndex] || null;
+
+  // The card in hand changed. Any drag belongs to the card that was there before, so it
+  // is dropped: a rollback puts a card back ahead of the one on screen, and a drag that
+  // was started on B used to be released onto A and save the wrong lab.
+  const currentMatchId = currentMatch?.id;
+  useEffect(() => {
+    dragAxis.current = null;
+    setIsDragging(false);
+    setDragStart(null);
+    setDragOffset({ x: 0, y: 0 });
+  }, [currentMatchId]);
 
   // Top up the deck before it runs dry, so swiping never dead-ends at a false
   // "Deck Fully Evaluated!" while thousands of active grants remain.
@@ -631,6 +781,39 @@ export const Dashboard: React.FC<DashboardProps> = ({
   const isDemo = isDemoCard(studentId, currentMatch);
 
   const [cardLoadedTime, setCardLoadedTime] = useState<number>(Date.now());
+
+  // Whether the card body has content below its fold. Drives the fade at the bottom of
+  // the card: the body is an inner scroller, and without a cue the description simply
+  // looked cut off. Re-measured on scroll, on resize and when the card changes.
+  // Below lg the card is as tall as its content, so a full abstract (about 2,800
+  // characters on NIH and NSF rows) pushed skip, save and Draft Cold Outreach four
+  // screens below the title on a phone, with nothing to say they existed. The text is
+  // clamped there until the student asks for it; at lg and up the card scrolls inside
+  // itself and the clamp does not apply. Clamping hides text, it never rewrites it.
+  const [descriptionOpen, setDescriptionOpen] = useState(false);
+  useEffect(() => {
+    setDescriptionOpen(false);
+  }, [currentMatchId]);
+
+  const measureCardBody = useCallback(() => {
+    const el = cardBodyRef.current;
+    setCardHasMoreBelow(!!el && el.scrollHeight - el.scrollTop - el.clientHeight > 4);
+  }, []);
+
+  useEffect(() => {
+    const el = cardBodyRef.current;
+    if (!el) {
+      setCardHasMoreBelow(false);
+      return;
+    }
+    el.scrollTop = 0; // a new card starts at its title, not where the last one was left
+    measureCardBody();
+    if (typeof ResizeObserver === 'undefined') return;
+    const observer = new ResizeObserver(measureCardBody);
+    observer.observe(el);
+    if (el.firstElementChild) observer.observe(el.firstElementChild);
+    return () => observer.disconnect();
+  }, [currentMatch?.id, measureCardBody]);
 
   useEffect(() => {
     if (currentMatch) {
@@ -662,11 +845,10 @@ export const Dashboard: React.FC<DashboardProps> = ({
     return () => window.removeEventListener('keydown', onKey);
   });
 
-  const handleSwipe = async (direction: 'left' | 'right') => {
+  const handleSwipe = (direction: 'left' | 'right') => {
     if (!currentMatch || inspectedMatch) return;
-    // In-flight guard: block a second swipe until this one's animation completes, so a
-    // double-click can't fire twice against a stale count / advance two cards.
-    if (swipingRef.current) return;
+    // In-flight guard: nothing new until the previous write has settled (writeInFlight).
+    if (writeInFlight.current) return;
 
     const limit = hasFeedbackToday ? 20 : 2;
     if (swipeCount >= limit) {
@@ -674,69 +856,138 @@ export const Dashboard: React.FC<DashboardProps> = ({
       return;
     }
 
-    swipingRef.current = true;
+    writeInFlight.current = true;
     const card = currentMatch;  // capture before the deck advances
     setSwipeDirection(direction);
+    setWriteError('');
+    // The previous swipe's undo offer ends here. Left up, its "Saved <PI> / Undo" pill
+    // sat under this swipe's failure notice, and Esc then deleted the row that HAD been
+    // stored.
+    if (undoTimerRef.current) clearTimeout(undoTimerRef.current);
+    setLastSwipe(null);
     const targetStatus = direction === 'right' ? 'saved' : 'skipped';
 
     const decision_duration_ms = Date.now() - cardLoadedTime;
 
-    trackEvent(direction === 'right' ? 'swipe_saved' : 'swipe_skipped', 'dashboard', 'action', {
-      grant_id: card.id,
-      pi_name: card.pi_name,
-      institution: card.institution,
-      score: card.score,
-      title: card.title,
-      decision_duration_ms
-    });
+    const recordSwipeEvent = () =>
+      trackEvent(direction === 'right' ? 'swipe_saved' : 'swipe_skipped', 'dashboard', 'action', {
+        grant_id: card.id,
+        pi_name: card.pi_name,
+        institution: card.institution,
+        score: card.score,
+        title: card.title,
+        decision_duration_ms
+      });
 
-    try {
+    const offerUndo = () => {
+      if (undoTimerRef.current) clearTimeout(undoTimerRef.current);
+      setLastSwipe({ card, direction });
+      undoTimerRef.current = setTimeout(() => setLastSwipe(null), 8000);
+    };
+
+    // Sent now, read only after the local commit below, so a failure that arrives during
+    // the animation cannot be overwritten by that commit. settleWrite never rejects.
+    let write: Promise<WriteOutcome>;
+    if (isDemoDeck) {
+      // No request for the personas. update_match_state has no demo branch: it upserts
+      // into `matches`, whose student_id and grant_id are foreign keys to students and
+      // labs_cached_grants, and neither the persona nor its scripted cards has a row
+      // there (schema migration 20260521000000), so the write can only come back as a
+      // 500. The swipe is kept in App's saved/skipped lists instead, which is all the
+      // recordings ever showed; undo, reset and remove are local for the same reason,
+      // and the two server reads that would overwrite those lists are skipped
+      // (refreshSavedMatches, fetchDeck).
+      write = Promise.resolve<WriteOutcome>('recorded');
+    } else {
       // match_score carries the score actually shown, so the sidebar and funnel record
       // what the student saw rather than a re-derived number. score_components carries the
       // breakdown behind it, so the saved sidebar can explain the number too.
-      api.post('/grants/matches/state', {
-        student_id: studentId,
-        grant_id: card.id,
-        status: targetStatus,
-        match_score: card.score,
-        score_components: card.score_components,
-      })
-        .then(() => {
-          // Counted only once the server has the row: that is when the RPC starts
-          // leaving this award out of the ranking.
-          swipesSincePage.current += 1;
-          if (direction === 'right') refreshSavedMatches();
-        })
-        .catch(err => console.error("Failed to sync match state in database:", err));
-    } catch (err) {
-      console.error(err);
+      write = settleWrite(
+        api.post('/grants/matches/state', {
+          student_id: studentId,
+          grant_id: card.id,
+          status: targetStatus,
+          match_score: card.score,
+          score_components: card.score_components,
+        }),
+        'Failed to sync match state in database:'
+      );
     }
 
-    // Offer an undo for the next ~8 seconds.
-    if (undoTimerRef.current) clearTimeout(undoTimerRef.current);
-    setLastSwipe({ card, direction });
-    undoTimerRef.current = setTimeout(() => setLastSwipe(null), 8000);
-
     // Wait for the animation to finish, then commit the queue + count.
-    setTimeout(() => {
+    setTimeout(async () => {
       if (direction === 'right') {
         setSavedMatches((prev) => (prev.some((s) => s.id === card.id) ? prev : [...prev, card]));
       } else {
         setSkippedMatches((prev) => (prev.includes(card.id) ? prev : [...prev, card.id]));
       }
       setSwipeDirection(null);
-
-      // Functional update: never double-count off a stale closure value.
-      setSwipeCount((c) => {
-        const next = c + 1;
-        localStorage.setItem(getTodayKey(), String(next));
-        return next;
-      });
+      adjustSwipeCount(1);
 
       if (currentIndex >= activeDeck.length - 1) {
         setCurrentIndex(0);
       }
-      swipingRef.current = false;
+
+      if (isDemoDeck) {
+        recordSwipeEvent();
+        offerUndo();
+        writeInFlight.current = false;
+        return;
+      }
+
+      // Say so only if the answer is slow; a pill that flashed on every swipe would be noise.
+      const recordingTimer = setTimeout(() => setIsRecording(true), 600);
+      try {
+        let outcome = await write;
+        let savedListRead = false;
+        if (outcome === 'unknown' && direction === 'right') {
+          // No HTTP answer is not a refusal: the upsert may have committed and only the
+          // response been lost. For a save the server can be asked, so ask before
+          // telling the student anything.
+          const list = await refreshSavedMatches();
+          if (list) {
+            savedListRead = true;
+            outcome = list.some((m) => m.id === card.id) ? 'recorded' : 'failed';
+          }
+        }
+
+        if (outcome === 'recorded') {
+          // Counted only once the server has the row: that is when the RPC starts
+          // leaving this award out of the ranking. The toast and the funnel event wait
+          // for the same moment. They used to fire before the request had answered, so
+          // a swipe that was never stored still read "Saved <PI>" and still counted.
+          swipesSincePage.current += 1;
+          recordSwipeEvent();
+          offerUndo();
+          setWriteError('');
+          if (direction === 'right' && !savedListRead) refreshSavedMatches();
+          return;
+        }
+
+        // Not confirmed, so nothing above is shown as true. Take it all back: the card
+        // returns to the deck at its own position (the deck is deckMatches minus these
+        // two lists), and the evaluation is refunded. Swiping it again is safe either
+        // way, because the write is an upsert.
+        if (direction === 'right') {
+          setSavedMatches((prev) => prev.filter((s) => s.id !== card.id));
+        } else {
+          setSkippedMatches((prev) => prev.filter((id) => id !== card.id));
+        }
+        adjustSwipeCount(-1);
+        if (outcome === 'unknown') {
+          // The row may exist, in which case the ranking has already dropped this
+          // award. Counting it errs toward re-reading a row on the next page (dropped
+          // by the seen-id filter) rather than skipping one the student never saw.
+          swipesSincePage.current += 1;
+          setWriteError("We couldn't confirm that was recorded. Check your connection and try again.");
+        } else {
+          setWriteError("We couldn't record that. Nothing was saved. Try again.");
+        }
+      } finally {
+        clearTimeout(recordingTimer);
+        setIsRecording(false);
+        writeInFlight.current = false;
+      }
     }, 400);
   };
 
@@ -748,27 +999,76 @@ export const Dashboard: React.FC<DashboardProps> = ({
   const handleUndo = async () => {
     const swipe = lastSwipe;
     if (!swipe) return;
+    if (writeInFlight.current) return;
     if (undoTimerRef.current) clearTimeout(undoTimerRef.current);
     setLastSwipe(null);
+    setWriteError('');
 
     if (swipe.direction === 'right') {
       setSavedMatches((prev) => prev.filter((s) => s.id !== swipe.card.id));
     } else {
       setSkippedMatches((prev) => prev.filter((id) => id !== swipe.card.id));
     }
-    setSwipeCount((c) => {
-      const next = Math.max(0, c - 1);
-      localStorage.setItem(getTodayKey(), String(next));
-      return next;
-    });
-    trackEvent('swipe_undo', 'dashboard', 'action', { grant_id: swipe.card.id, direction: swipe.direction });
+    adjustSwipeCount(-1);
 
+    const recordUndoEvent = () =>
+      trackEvent('swipe_undo', 'dashboard', 'action', { grant_id: swipe.card.id, direction: swipe.direction });
+
+    // Persona swipes were never sent (see handleSwipe), so there is no row to delete.
+    if (isDemoDeck) {
+      recordUndoEvent();
+      return;
+    }
+
+    // Held for the length of the request. The card is back on top already, and a new
+    // swipe on it while the undo was unanswered let a later undo failure charge a
+    // second evaluation for the one lab.
+    writeInFlight.current = true;
     try {
-      await api.post('/grants/matches/undo', { student_id: studentId, grant_id: swipe.card.id });
-      swipesSincePage.current -= 1; // the award is back in the ranking
-      if (swipe.direction === 'right') refreshSavedMatches();
-    } catch (err) {
-      console.error('Failed to undo swipe:', err);
+      let outcome = await settleWrite(
+        api.post('/grants/matches/undo', { student_id: studentId, grant_id: swipe.card.id }),
+        'Failed to undo swipe:'
+      );
+      let savedListRead = false;
+      if (outcome === 'unknown' && swipe.direction === 'right') {
+        const list = await refreshSavedMatches();
+        if (list) {
+          savedListRead = true;
+          // Still listed: the row was not deleted. Gone: it was.
+          outcome = list.some((m) => m.id === swipe.card.id) ? 'failed' : 'recorded';
+        }
+      }
+
+      if (outcome === 'recorded') {
+        swipesSincePage.current -= 1; // the award is back in the ranking
+        recordUndoEvent(); // only an undo that happened is logged as one
+        if (swipe.direction === 'right' && !savedListRead) refreshSavedMatches();
+        return;
+      }
+
+      // Same shape as the swipe itself: as far as we know the row is still there, so a
+      // reload would show this lab as saved or skipped. Put the local state back to
+      // match, and offer the undo again instead of retrying it.
+      if (swipe.direction === 'right') {
+        setSavedMatches((prev) => (prev.some((s) => s.id === swipe.card.id) ? prev : [...prev, swipe.card]));
+      } else {
+        setSkippedMatches((prev) => (prev.includes(swipe.card.id) ? prev : [...prev, swipe.card.id]));
+      }
+      adjustSwipeCount(1);
+      const state = swipe.direction === 'right' ? 'saved' : 'skipped';
+      setWriteError(
+        outcome === 'unknown'
+          ? `We couldn't confirm that undo. The lab may still be ${state}. Check your connection and try again.`
+          : `We couldn't undo that. The lab is still ${state}. Try again.`
+      );
+      // Only one pill is drawn at a time and the notice comes first (see the toast
+      // slot), so this keeps Esc and Undo-after-Dismiss available without a "Saved"
+      // pill sitting under the error.
+      if (undoTimerRef.current) clearTimeout(undoTimerRef.current);
+      setLastSwipe(swipe);
+      undoTimerRef.current = setTimeout(() => setLastSwipe(null), 8000);
+    } finally {
+      writeInFlight.current = false;
     }
   };
 
@@ -778,33 +1078,59 @@ export const Dashboard: React.FC<DashboardProps> = ({
 
   const handleRemoveSaved = async (matchId: string, e: React.MouseEvent) => {
     e.stopPropagation();
-    
-    // Telemetry: log removal from saved pipeline
-    trackEvent('swipe_skipped', 'dashboard', 'action', {
-      grant_id: matchId,
-      action: 'remove_saved'
-    });
+
+    // Logged once the removal has happened, not when it is asked for: a removal the
+    // server refused used to stay in the funnel as a skip.
+    const recordRemovalEvent = () =>
+      trackEvent('swipe_skipped', 'dashboard', 'action', {
+        grant_id: matchId,
+        action: 'remove_saved'
+      });
 
     // Update local state queues immediately
+    const removed = savedMatches.find((m) => m.id === matchId);
     setSavedMatches((prev) => prev.filter((m) => m.id !== matchId));
     if (inspectedMatch?.id === matchId) {
       setInspectedMatch(null);
     }
+    setWriteError('');
 
-    try {
-      // Mark as skipped in the backend database
-      await api.post('/grants/matches/state', {
+    if (isDemoDeck) {
+      // Held locally, like the persona's swipes (see handleSwipe).
+      setSkippedMatches((prev) => (prev.includes(matchId) ? prev : [...prev, matchId]));
+      recordRemovalEvent();
+      return;
+    }
+
+    // Mark as skipped in the backend database
+    let outcome = await settleWrite(
+      api.post('/grants/matches/state', {
         student_id: studentId,
         grant_id: matchId,
         status: 'skipped',
-      });
-      setSkippedMatches((prev) => {
-        if (prev.includes(matchId)) return prev;
-        return [...prev, matchId];
-      });
-    } catch (err) {
-      console.error("Failed to update status for removed match:", err);
+      }),
+      'Failed to update status for removed match:'
+    );
+    if (outcome === 'unknown') {
+      // No answer: read the list back rather than guess which way it went.
+      const list = await refreshSavedMatches();
+      if (list) outcome = list.some((m) => m.id === matchId) ? 'failed' : 'recorded';
     }
+
+    if (outcome === 'recorded') {
+      setSkippedMatches((prev) => (prev.includes(matchId) ? prev : [...prev, matchId]));
+      recordRemovalEvent();
+      return;
+    }
+    // As far as we know the row still says saved, so the list goes back to saying so too.
+    if (removed) {
+      setSavedMatches((prev) => (prev.some((m) => m.id === matchId) ? prev : [...prev, removed]));
+    }
+    setWriteError(
+      outcome === 'unknown'
+        ? "We couldn't confirm that removal. The lab may still be saved. Check your connection and try again."
+        : "We couldn't remove that. The lab is still saved. Try again."
+    );
   };
 
   const handleReturnToDeck = () => {
@@ -905,21 +1231,68 @@ export const Dashboard: React.FC<DashboardProps> = ({
         />
       )}
 
-      {/* Undo pill: an accidental swipe (especially a left-swipe that hides a lab) is
-          recoverable for ~8s. Also reachable via Esc. */}
-      {lastSwipe && (
-        <div className="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 flex items-center gap-3 bg-stone-900 text-white rounded-full pl-4 pr-2 py-2 shadow-xl animate-fade-in">
-          <span className="text-xs font-medium">
-            {lastSwipe.direction === 'right' ? 'Saved' : 'Skipped'} {piIsResolved(lastSwipe.card) ? piDisplayName(lastSwipe.card) : lastSwipe.card.institution}
-          </span>
-          <button
-            type="button"
-            onClick={handleUndo}
-            className="text-xs font-bold bg-white/15 hover:bg-white/25 rounded-full px-3 py-1 inline-flex items-center gap-1 cursor-pointer transition-colors"
-          >
-            <ArrowLeft className="w-3.5 h-3.5" /> Undo
-          </button>
-        </div>
+      {/* Toast slot. Pinned under the app header (4.25rem tall), in the band between it
+          and the panels: at the bottom of the viewport it sat on top of the skip/save
+          row and the Draft Cold Outreach button at both 1280 and 390. The wrapper
+          ignores the pointer so only the pills themselves take clicks.
+
+          Below sm there is no empty band: the page scrolls and the pill was drawn over
+          the next card's amount and dates. There the slot is an opaque strip flush
+          under the header, so page content passes beneath it as it does beneath the
+          header and no text shows through.
+
+          One pill at a time, the notice first. An error beside a "Saved" pill reads as
+          both at once, and the student cannot tell which lab each is about.
+
+          Portalled to <body>: the root div above keeps a transform from animate-fade-in,
+          which makes it the containing block for `fixed` children. Inside it the toast
+          was positioned against the dashboard, not the viewport, and scrolled away with
+          the page on a phone. */}
+      {(writeError || lastSwipe || isRecording) && createPortal(
+        <div className="fixed top-[4.25rem] sm:top-[4.5rem] inset-x-0 z-50 px-4 flex flex-col items-center gap-1.5 pointer-events-none max-sm:pointer-events-auto max-sm:py-2 max-sm:bg-[var(--color-canvas)] max-sm:border-b max-sm:border-stone-200 max-sm:shadow-sm">
+          {/* A write the server did not record. Rose, never the dark "Saved" pill: an
+              error must not read as the success it replaced. */}
+          {writeError ? (
+            <div
+              role="alert"
+              className="pointer-events-auto max-w-full flex items-center gap-3 bg-rose-50 border border-rose-200 text-rose-900 rounded-2xl pl-4 pr-2 py-2 shadow-xl animate-fade-in"
+            >
+              <span className="text-xs font-medium leading-snug">{writeError}</span>
+              <button
+                type="button"
+                onClick={() => setWriteError('')}
+                className="shrink-0 text-xs font-bold bg-white border border-rose-200 hover:border-rose-300 rounded-full px-3 py-1 cursor-pointer transition-colors"
+              >
+                Dismiss
+              </button>
+            </div>
+          ) : isRecording ? (
+            // Stone and plain: nothing has been recorded yet, so nothing says it has.
+            <div
+              role="status"
+              className="pointer-events-auto max-w-full flex items-center gap-2 bg-stone-100 border border-stone-200 text-stone-700 rounded-full px-4 py-2 shadow-xl animate-fade-in"
+            >
+              <RefreshCw className="w-3.5 h-3.5 shrink-0 animate-spin" aria-hidden />
+              <span className="text-xs font-medium">Recording your choice…</span>
+            </div>
+          ) : lastSwipe && (
+            /* Undo pill: an accidental swipe (especially a left-swipe that hides a lab)
+               is recoverable for ~8s. Also reachable via Esc. */
+            <div className="pointer-events-auto max-w-full flex items-center gap-3 bg-stone-900 text-white rounded-full pl-4 pr-2 py-2 shadow-xl animate-fade-in">
+              <span className="text-xs font-medium truncate min-w-0">
+                {lastSwipe.direction === 'right' ? 'Saved' : 'Skipped'} {piIsResolved(lastSwipe.card) ? piDisplayName(lastSwipe.card) : lastSwipe.card.institution}
+              </span>
+              <button
+                type="button"
+                onClick={handleUndo}
+                className="shrink-0 text-xs font-bold bg-white/15 hover:bg-white/25 rounded-full px-3 py-1 inline-flex items-center gap-1 cursor-pointer transition-colors"
+              >
+                <ArrowLeft className="w-3.5 h-3.5" /> Undo
+              </button>
+            </div>
+          )}
+        </div>,
+        document.body
       )}
       <div className="flex flex-col lg:flex-row gap-8 min-h-0">
         
@@ -987,7 +1360,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
                   <div className="h-full flex flex-col items-center justify-center text-center p-4">
                     <p className="text-stone-600 text-sm font-medium">No saved matches yet</p>
                     <p className="text-stone-500 text-xs mt-1 leading-relaxed">
-                      Swipe RIGHT or click SAVE on labs in the deck to save them here.
+                      Swipe a lab to the right, or press the heart button under it, to save it here.
                     </p>
                   </div>
                 ) : (
@@ -1080,7 +1453,9 @@ export const Dashboard: React.FC<DashboardProps> = ({
                   </div>
                 )}
                 <div className="flex items-center justify-between text-stone-500 font-medium">
-                  <span>narrative parsing</span>
+                  {/* Was "narrative parsing", which claimed a process. It is the text the
+                      student wrote. */}
+                  <span>your narrative</span>
                   <button
                     type="button"
                     onClick={() => setShowNarrativeEditor(true)}
@@ -1099,18 +1474,27 @@ export const Dashboard: React.FC<DashboardProps> = ({
         {/* Right 75% Viewport — same locked height as saved labs; body scrolls inside */}
         <div className="w-full lg:flex-1 min-w-0 dashboard-panel-shell flex flex-col min-h-0 overflow-hidden">
            {/* Interactive proximity filters bar */}
-           <div className="shrink-0 mb-4 bg-white/40 backdrop-blur-md border border-stone-200/60 p-3 rounded-2xl flex flex-col sm:flex-row items-center justify-between gap-3 text-sm">
+           <div className="shrink-0 mb-3 bg-white/40 backdrop-blur-md border border-stone-200/60 p-3 rounded-2xl flex flex-col sm:flex-row items-center justify-between gap-3 text-sm">
              <div className="flex items-center gap-3 w-full sm:w-auto">
                <span className="font-semibold text-stone-700 whitespace-nowrap">Proximity Filter:</span>
                <input
                  type="text"
                  value={locationSearch}
-                 onChange={(e) => setLocationSearch(e.target.value)}
-                 placeholder="Search specific university or city..."
-                 className="flex-1 sm:w-64 px-3 py-1.5 rounded-lg border border-stone-200 bg-white/80 focus:outline-none focus:border-[#0d5c5c] text-xs font-semibold placeholder-stone-400"
+                 onChange={(e) => {
+                   setLocationSearch(e.target.value);
+                   // Persona decks filter in place, so the position is reset here; the
+                   // server-filtered deck resets it in fetchDeck.
+                   if (isDemoDeck) setCurrentIndex(0);
+                 }}
+                 // Short enough to fit the 155px the input has at 360px; the longer
+                 // text was cut mid-word. No city on persona decks: their cards have none.
+                 placeholder={isDemoDeck ? 'University name' : 'University or city'}
+                 aria-label={isDemoDeck ? 'Filter by university name' : 'Filter by university or city'}
+                 className="flex-1 min-w-0 sm:w-64 px-3 py-1.5 rounded-lg border border-stone-200 bg-white/80 focus:outline-none focus:border-[#0d5c5c] text-xs font-semibold placeholder-stone-400"
                />
              </div>
-             {studentLocation && (
+             {/* Not on the persona decks: the scripted deck ignores it (see localOnly). */}
+             {studentLocation && !isDemoDeck && (
                <label className="flex items-center gap-2 cursor-pointer select-none font-semibold text-stone-700 text-xs">
                  <input
                    type="checkbox"
@@ -1137,7 +1521,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
            {/* Not on the persona decks: they are hardcoded in a fixed order, so the
                sentence would be false there. */}
            {currentMatch && !inspectedMatch && !isDemo && (
-             <p className="shrink-0 mb-3 px-1 text-xs text-stone-500 leading-relaxed">
+             <p className="shrink-0 mb-2 px-1 text-xs text-stone-500 leading-relaxed">
                {DECK_ORDER_NOTE}
              </p>
            )}
@@ -1216,16 +1600,32 @@ export const Dashboard: React.FC<DashboardProps> = ({
               }}
             >
               <GlassCard className="relative overflow-hidden h-full flex flex-col" glowColor={getDynamicGlow()}>
-                <div className="flex-1 min-h-0 overflow-y-auto overscroll-y-contain pr-1">
+                {/* The body scrolls inside the card at lg and up, where the panel height
+                    is fixed. Two cues say so: a scrollbar that is always drawn
+                    (scrollbar-color opts out of the overlay style that hides it until
+                    hover) and a fade over the fold while there is more below. Vertical
+                    spacing in here is tight on purpose: at 1280x900 a two-line title
+                    has to leave three lines of the description above the fold. */}
+                <div className="relative flex-1 min-h-0 flex flex-col">
+                <div
+                  ref={cardBodyRef}
+                  onScroll={measureCardBody}
+                  className="flex-1 min-h-0 overflow-y-auto overscroll-y-contain pr-3 [scrollbar-width:thin] [scrollbar-color:#a8a29e_#f5f5f4]"
+                >
+                  {/* pb-3: below lg the card is as tall as its content, and without it
+                      the last line of the description sat on the action-row rule and
+                      read as clipped. Inside the scroller, so the fold at 1280x900 is
+                      where it was. */}
+                  <div className="pb-3">
                   {/* Top segment: PI metadata & Score */}
-                  <div className="flex flex-col md:flex-row md:items-start gap-4 md:gap-6 border-b border-stone-200 pb-6 mb-6">
-                    <div className="flex-1 min-w-0 space-y-3 md:pr-2">
+                  <div className="flex flex-col md:flex-row md:items-start gap-4 md:gap-6 border-b border-stone-200 pb-3 mb-3">
+                    <div className="flex-1 min-w-0 space-y-2 md:pr-2">
                       {/* line-clamp is a backstop, not the fix: the backend already shortens
                           this (derive_display_title). USAspending publishes no title field, so
                           some rows carry the whole award description here -- unbounded, that
                           pushed the score, PI and abstract off the card entirely. */}
                       <h2
-                        className="text-2xl md:text-3xl font-semibold text-stone-900 font-outfit tracking-tight leading-snug line-clamp-3"
+                        className="text-2xl font-semibold text-stone-900 font-outfit tracking-tight leading-snug line-clamp-3"
                         title={currentMatch.title}
                       >
                         {currentMatch.title}
@@ -1235,7 +1635,9 @@ export const Dashboard: React.FC<DashboardProps> = ({
                         {/* A string comparison between the institution name and what the
                             student typed -- so that is all the pill claims. No pulse: an
                             animated badge read as a recommendation. */}
-                        {currentMatch.location_match && (
+                        {/* Computed for persona cards, the server's answer otherwise
+                            (cardLocationMatch, utils/card.ts). */}
+                        {cardLocationMatch(studentId, studentLocation, currentMatch) && (
                           <span className="px-2.5 py-1 rounded-full text-[10px] font-bold font-mono tracking-wider border border-[#b2ddcf] bg-[#e6f7f0] text-[#0d5c48] flex items-center gap-1.5 shrink-0">
                             <span className="w-1.5 h-1.5 rounded-full bg-[#10b981]" />
                             Name matches the campus you entered
@@ -1296,7 +1698,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
                       cannot tell a student. Replaces the "Alignment Score Logic" block:
                       its skill chips were keyword-tag overlap presented as the student's
                       skills, and its +30 line described a boost that no longer exists. */}
-                  <div className="mb-6">
+                  <div className="mb-3">
                     <SimilarityNotes
                       hasScore={similarityValue(currentMatch) !== null}
                       abstractIsGenerated={!!currentMatch.abstract_is_generated}
@@ -1305,7 +1707,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
                   </div>
 
                   {/* Financial & Timeframe highlights bar */}
-                  <div className="grid grid-cols-2 md:grid-cols-3 gap-4 p-4 rounded-lg bg-stone-50 border border-stone-200 mb-6 text-sm">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-4 gap-y-3 px-4 py-3 rounded-lg bg-stone-50 border border-stone-200 mb-3 text-sm">
                     <div className="space-y-1">
                       <div className="text-stone-500 text-xs font-medium uppercase tracking-wider flex items-center gap-1">
                         <DollarSign className="w-3.5 h-3.5 shrink-0" /> Award Amount
@@ -1332,7 +1734,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
                         {formatHorizon(currentMatch.project_start, currentMatch.project_end)}
                       </div>
                     </div>
-                    <div className="col-span-2 md:col-span-1 space-y-1">
+                    <div className="sm:col-span-2 md:col-span-1 space-y-1">
                       <div className="text-stone-500 text-xs font-medium uppercase tracking-wider">
                         PI Contact
                       </div>
@@ -1342,6 +1744,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
                           USAspending card has no stable public id, and says so rather
                           than leaving the student to assume a record link exists. The
                           persona decks are fictional, so they get neither. */}
+                      <div className="flex flex-wrap items-center gap-x-4 gap-y-1">
                       {currentMatch.source_record_url ? (
                         <a
                           href={currentMatch.source_record_url}
@@ -1370,6 +1773,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
                         // No PI on the funding record yet — honest instead of a dead-end search.
                         <span className="text-stone-500 text-xs italic">PI not yet identified on this award</span>
                       )}
+                      </div>
                       <p className="text-stone-400 text-[10px] leading-snug">
                         Verify the PI's email on their lab page before sending.
                       </p>
@@ -1380,7 +1784,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
                   <div className="space-y-2">
                     <div className="flex items-center gap-2 flex-wrap">
                       <h4 className="text-xs font-semibold text-stone-500 uppercase tracking-widest">
-                        Grant Abstract & Project Synthesis
+                        Award description
                       </h4>
                       {currentMatch.abstract_is_generated && (
                         <span
@@ -1391,41 +1795,70 @@ export const Dashboard: React.FC<DashboardProps> = ({
                         </span>
                       )}
                     </div>
-                    <p className="text-stone-700 leading-relaxed text-sm">
+                    <p className={`text-stone-700 leading-relaxed text-sm ${descriptionOpen ? '' : 'max-lg:line-clamp-[8]'}`}>
                       {currentMatch.abstract}
                     </p>
+                    {(currentMatch.abstract || '').length > 400 && (
+                      <button
+                        type="button"
+                        onClick={() => setDescriptionOpen(open => !open)}
+                        aria-expanded={descriptionOpen}
+                        className="lg:hidden text-xs font-semibold text-[#0d5c5c] underline underline-offset-2 cursor-pointer"
+                      >
+                        {descriptionOpen ? 'Show less' : 'Read the full description'}
+                      </button>
+                    )}
                   </div>
+                  </div>
+                </div>
+                {cardHasMoreBelow && (
+                  <div
+                    aria-hidden
+                    className="pointer-events-none absolute bottom-0 left-0 right-3 h-5 bg-gradient-to-t from-white to-transparent"
+                  />
+                )}
                 </div>
 
                 {/* Bottom Swipe and outreach controllers */}
-                <div className="shrink-0 border-t border-stone-200 pt-6 mt-4 flex flex-col md:flex-row items-center justify-between gap-4">
+                <div className="shrink-0 border-t border-stone-200 pt-3 flex flex-col md:flex-row items-center justify-between gap-4">
                   {/* Left swipe deck buttons */}
                   {!inspectedMatch ? (
-                    <div className="flex items-center gap-4">
+                    <div className="w-full md:w-auto flex flex-wrap items-center gap-x-4 gap-y-3">
+                      {/* Icon-only buttons: the accessible name is the only name they
+                          have, and the Saved Labs empty state refers to the heart. */}
                       <button
+                        type="button"
                         onClick={() => handleSwipe('left')}
-                        className="w-12 h-12 rounded-full bg-white border border-stone-300 text-stone-500 hover:text-rose-700 hover:border-rose-300 hover:bg-rose-50 flex items-center justify-center transition-all duration-200 group cursor-pointer shadow-sm"
-                        title="Skip Lab"
+                        className="w-12 h-12 shrink-0 rounded-full bg-white border border-stone-300 text-stone-500 hover:text-rose-700 hover:border-rose-300 hover:bg-rose-50 flex items-center justify-center transition-all duration-200 group cursor-pointer shadow-sm"
+                        title="Skip this lab"
+                        aria-label="Skip this lab"
                       >
-                        <X className="w-5 h-5 group-hover:scale-110 transition-transform" />
+                        <X className="w-5 h-5 group-hover:scale-110 transition-transform" aria-hidden />
                       </button>
                       <button
+                        type="button"
                         onClick={() => handleSwipe('right')}
-                        className="w-12 h-12 rounded-full bg-white border border-stone-300 text-stone-500 hover:text-[#0d5c5c] hover:border-[#c5dddd] hover:bg-[#f4f9f9] flex items-center justify-center transition-all duration-200 group cursor-pointer shadow-sm"
-                        title="Save Lab Match"
+                        className="w-12 h-12 shrink-0 rounded-full bg-white border border-stone-300 text-stone-500 hover:text-[#0d5c5c] hover:border-[#c5dddd] hover:bg-[#f4f9f9] flex items-center justify-center transition-all duration-200 group cursor-pointer shadow-sm"
+                        title="Save this lab"
+                        aria-label="Save this lab"
                       >
-                        <Heart className="w-5 h-5 group-hover:scale-110 transition-transform" />
+                        <Heart className="w-5 h-5 group-hover:scale-110 transition-transform" aria-hidden />
                       </button>
-                      <span className="text-stone-500 text-xs italic">
-                        Swipe deck: {currentIndex + 1} of {activeDeck.length} matching
-                      </span>
-                      {/* Warn before the paywall ambush: the free limit is 2/day and a
-                          new student's third swipe used to be a surprise paywall. */}
-                      {!hasFeedbackToday && (
-                        <span className="text-[11px] font-semibold text-stone-700 bg-stone-100 border border-stone-200 rounded-full px-2.5 py-1">
-                          {Math.max(0, 2 - swipeCount)} of 2 free evaluations left today
+                      {/* Own row below sm: beside the buttons the two wrapped mid-phrase. */}
+                      <div className="basis-full sm:basis-auto flex flex-wrap items-center gap-x-3 gap-y-2">
+                        {/* "matching" describes a filtered ranking. A persona deck is two
+                            scripted cards, so it is only counted. */}
+                        <span className="text-stone-500 text-xs italic whitespace-nowrap">
+                          Swipe deck: {currentIndex + 1} of {activeDeck.length}{isDemoDeck ? '' : ' matching'}
                         </span>
-                      )}
+                        {/* Warn before the paywall ambush: the free limit is 2/day and a
+                            new student's third swipe used to be a surprise paywall. */}
+                        {!hasFeedbackToday && (
+                          <span className="text-[11px] font-semibold text-stone-700 bg-stone-100 border border-stone-200 rounded-full px-2.5 py-1 whitespace-nowrap">
+                            {Math.max(0, 2 - swipeCount)} of 2 free evaluations left today
+                          </span>
+                        )}
+                      </div>
                     </div>
                   ) : (
                     <div className="flex items-center gap-3">
@@ -1499,9 +1932,9 @@ export const Dashboard: React.FC<DashboardProps> = ({
                   </button>
                   <button
                     onClick={onRefineInterests}
-                    className="btn-primary px-6 py-2.5 text-sm font-bold flex items-center gap-2"
+                    className="btn-primary px-6 py-2.5 text-sm font-bold flex items-center gap-2 whitespace-nowrap"
                   >
-                    Rebuild My Profile ➔
+                    Rebuild My Profile <ArrowRight className="w-4 h-4 shrink-0" aria-hidden />
                   </button>
                 </div>
               </GlassCard>
@@ -1533,14 +1966,56 @@ export const Dashboard: React.FC<DashboardProps> = ({
                   No more awards found yet
                 </h2>
                 <p className="text-stone-600 text-md max-w-md mx-auto leading-relaxed mb-6">
-                  We stopped searching after several pages without a new award for the current
-                  filter. There are more records we have not checked.
+                  {locationSearch.trim() ? (
+                    <>
+                      We stopped searching after several pages without a new award from an
+                      institution matching{' '}
+                      <strong className="font-semibold text-stone-800 break-words">"{locationSearch.trim()}"</strong>
+                      {localOnly && studentLocation ? <> and "{studentLocation}"</> : null}.
+                    </>
+                  ) : (
+                    <>We stopped searching after several pages without a new award for the current filter.</>
+                  )}{' '}
+                  There are more records we have not checked.
+                </p>
+                <div className="flex flex-wrap items-center justify-center gap-3">
+                  <button
+                    onClick={handleKeepLooking}
+                    className="btn-primary px-6 py-2.5 text-sm font-bold flex items-center gap-2"
+                  >
+                    <RefreshCw className="w-4 h-4" /> Keep looking
+                  </button>
+                  {locationSearch.trim() && (
+                    <button
+                      type="button"
+                      onClick={() => setLocationSearch('')}
+                      className="px-5 py-2.5 rounded-lg bg-white border border-stone-300 text-stone-700 hover:text-stone-900 hover:border-stone-400 transition-colors text-sm font-semibold cursor-pointer"
+                    >
+                      Clear filter
+                    </button>
+                  )}
+                </div>
+              </GlassCard>
+            </div>
+          ) : demoInstitutionFilter && unswipedDeck.length > 0 ? (
+            // Persona deck, filtered in place: cards remain, none at an institution the
+            // typed text matches. Not the end-of-deck panel, which would say the persona
+            // had been through every lab.
+            <div className="flex-1 min-h-0">
+              <GlassCard className="h-full flex flex-col items-center justify-center text-center p-8 overflow-hidden" glowColor="none">
+                <h2 className="text-2xl font-semibold font-outfit text-stone-900 mb-2">
+                  No lab in this deck matches
+                </h2>
+                <p className="text-stone-600 text-md max-w-md mx-auto leading-relaxed mb-6">
+                  None of the labs left in this deck is at an institution whose name contains{' '}
+                  <strong className="font-semibold text-stone-800 break-words">"{locationSearch.trim()}"</strong>.
                 </p>
                 <button
-                  onClick={handleKeepLooking}
-                  className="btn-primary px-6 py-2.5 text-sm font-bold flex items-center gap-2"
+                  type="button"
+                  onClick={() => setLocationSearch('')}
+                  className="btn-primary px-6 py-2.5 text-sm font-bold whitespace-nowrap"
                 >
-                  <RefreshCw className="w-4 h-4" /> Keep looking
+                  Clear filter
                 </button>
               </GlassCard>
             </div>
@@ -1558,32 +2033,54 @@ export const Dashboard: React.FC<DashboardProps> = ({
                       Try unchecking the <strong className="font-semibold">"Only institutions matching"</strong> filter at the top right, or click the button below to explore funded awards across the country.
                     </span>
                   </span>
+                ) : isDemoDeck ? (
+                  // Two scripted cards: no awards ran out and no filter was applied, so
+                  // neither is named. The sidebar is mentioned only when it holds
+                  // something, and skipped labs only when there are some to bring back
+                  // (the persona's skips are all in skippedMatches; nothing is stored).
+                  <>
+                    You have been through every lab in this deck.{' '}
+                    {savedMatches.length > 0 && 'Open a saved lab in the Saved Labs list to draft outreach. '}
+                    {skippedMatches.length > 0
+                      ? 'Use the buttons below to bring back the labs you skipped or change your interests.'
+                      : 'Use the button below to change your interests.'}
+                  </>
+                ) : savedMatches.length > 0 ? (
+                  "There are no more awards to show for the current filter. Open a saved lab in the Saved Labs list to draft outreach, or use the buttons below to reset your skipped awards or change your interests."
                 ) : (
-                  "There are no more awards to show for the current filter. Open a saved lab in the left sidebar to draft outreach, or use the buttons below to reset your skipped awards or change your interests."
+                  "There are no more awards to show for the current filter. Use the buttons below to reset your skipped awards or change your interests."
                 )}
               </p>
-              <div className="flex items-center gap-4 justify-center">
+              {/* Stacked and full width below sm: side by side at 360px the labels
+                  wrapped to three lines. */}
+              <div className="w-full sm:w-auto flex flex-col sm:flex-row items-stretch sm:items-center gap-3 sm:gap-4 justify-center">
                 {localOnly && deckMatches.length === 0 ? (
                   <button
                     onClick={() => setLocalOnly(false)}
-                    className="px-6 py-2.5 rounded-lg bg-[#0d5c5c] hover:bg-[#0a4848] text-white transition-colors text-sm font-bold cursor-pointer flex items-center gap-2 shadow-lg hover:shadow-xl border-0"
+                    className="px-6 py-2.5 rounded-lg bg-[#0d5c5c] hover:bg-[#0a4848] text-white transition-colors text-sm font-bold cursor-pointer flex items-center justify-center gap-2 whitespace-nowrap shadow-lg hover:shadow-xl border-0"
                   >
-                    Explore Nationwide Labs ➔
+                    Explore Nationwide Labs <ArrowRight className="w-4 h-4 shrink-0" aria-hidden />
                   </button>
                 ) : (
                   <>
-                    <button
-                      onClick={handleResetSkipped}
-                      disabled={isResettingSkipped}
-                      className="px-5 py-2.5 rounded-lg bg-white border border-stone-300 text-stone-700 hover:text-stone-900 hover:border-stone-400 disabled:opacity-60 transition-colors text-sm font-semibold cursor-pointer flex items-center gap-2"
-                    >
-                      <ArrowRight className={`w-4 h-4 rotate-180 ${isResettingSkipped ? 'animate-spin' : ''}`} /> Reset Skipped Queue
-                    </button>
+                    {/* On a persona deck only when there is a skip to bring back: with
+                        none, the button changed nothing on screen. A real student's
+                        skips live on the server and are not all in this list, so
+                        theirs is always offered. */}
+                    {(!isDemoDeck || skippedMatches.length > 0) && (
+                      <button
+                        onClick={handleResetSkipped}
+                        disabled={isResettingSkipped}
+                        className="px-5 py-2.5 rounded-lg bg-white border border-stone-300 text-stone-700 hover:text-stone-900 hover:border-stone-400 disabled:opacity-60 transition-colors text-sm font-semibold cursor-pointer flex items-center justify-center gap-2 whitespace-nowrap"
+                      >
+                        <ArrowRight className={`w-4 h-4 shrink-0 rotate-180 ${isResettingSkipped ? 'animate-spin' : ''}`} /> Reset Skipped Queue
+                      </button>
+                    )}
                     <button
                       onClick={onRefineInterests}
-                      className="btn-primary px-6 py-2.5 text-sm font-bold flex items-center gap-2"
+                      className="btn-primary px-6 py-2.5 text-sm font-bold flex items-center justify-center gap-2 whitespace-nowrap"
                     >
-                      Refine Interests ➔
+                      Refine Interests <ArrowRight className="w-4 h-4 shrink-0" aria-hidden />
                     </button>
                   </>
                 )}

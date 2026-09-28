@@ -181,6 +181,17 @@ function App() {
   const [savedMatches, setSavedMatches] = useState<GrantMatch[]>([]);
   const [skippedMatches, setSkippedMatches] = useState<string[]>([]);
   const [activeOutreachMatch, setActiveOutreachMatch] = useState<GrantMatch | null>(null);
+  // A dashboard write the server did not record. Held here because the Dashboard is
+  // unmounted while the composer is open: a request that fails in that window has to be
+  // reported when the student returns, not dropped with the component that sent it.
+  const [dashboardWriteError, setDashboardWriteError] = useState('');
+
+  // Every view starts at its top. The window kept the scroll position of the view
+  // before it, so on a phone the composer opened about 1000px down, at the To field,
+  // with the award and the similarity block above the fold.
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [view]);
 
   // Keep the URL path in step with the view so Back/Forward walk the funnel.
   // replace (not push) on the first render so the initial view doesn't duplicate history.
@@ -238,6 +249,16 @@ function App() {
   }) => {
     setResumeName(data.resumeName);
     setResearchInterests(data.researchInterests);
+    // The saved and skipped lists belong to one student's one entry. A real student's
+    // are re-read from the server when the Dashboard mounts; a persona's exist only
+    // here (nothing a persona does is stored), so without this a lab saved as Sarah
+    // was still listed after entering as Elena, or at the start of the next take.
+    // Editing the profile of the student already in session keeps them.
+    if (data.studentId && (data.studentId !== studentId || view !== 'onboarding')) {
+      setSavedMatches([]);
+      setSkippedMatches([]);
+      setDashboardWriteError('');
+    }
     if (data.studentId) {
       setStudentId(data.studentId);
       saveStudentIdToAnalytics(data.studentId);
@@ -308,6 +329,7 @@ function App() {
     setMatches([]);
     setSavedMatches([]);
     setSkippedMatches([]);
+    setDashboardWriteError('');
     setActiveOutreachMatch(null);
     setIsOnboarded(false);
     setView('cover');
@@ -342,8 +364,12 @@ function App() {
       {/* Top Navbar (hidden on landing routes for full-bleed hero) */}
       {!isLandingView && (
       <header className="sticky top-0 w-full glass-panel border-b border-stone-200/80 z-40">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 h-[4.25rem] flex items-center justify-between gap-4">
-          
+        {/* Must fit from 360px up with no horizontal page scroll. At 390 the row was
+            wider than the viewport and Sign out / Save Profile sat off-screen: nothing
+            in it could shrink, and the step nav never hid (see below). Now the logo and
+            the buttons keep their size and the name in the chip gives way. */}
+        <div className="max-w-7xl mx-auto px-3 sm:px-6 h-[4.25rem] flex items-center justify-between gap-2 sm:gap-4 min-w-0">
+
           {/* Logo brand */}
           <div
             className="flex items-center gap-2.5 cursor-pointer shrink-0"
@@ -362,7 +388,11 @@ function App() {
           </div>
 
           {/* Step progress navigation */}
-          <nav className="hidden md:flex step-progress" aria-label="Application steps">
+          {/* The wrapper does the hiding. `hidden md:flex` on the nav itself never
+              applied: .step-progress sets display:flex in index.css outside any layer,
+              and unlayered rules beat Tailwind's layered utilities. */}
+          <div className="hidden md:block">
+          <nav className="step-progress" aria-label="Application steps">
             <button
               type="button"
               onClick={() => {
@@ -404,21 +434,25 @@ function App() {
               <span className="hidden lg:inline">Cold Composer</span>
             </button>
           </nav>
+          </div>
 
-          {/* Mobile step hint */}
-          <div className="md:hidden text-xs text-stone-500 font-medium truncate">
+          {/* Step hint, between sm and md only: below sm there is no room for it. */}
+          <div className="hidden sm:block md:hidden min-w-0 text-xs text-stone-500 font-medium truncate">
             {view === 'onboarding' && 'Step 1 · Profile'}
             {view === 'dashboard' && 'Step 2 · Matches'}
             {view === 'email_review' && 'Step 3 · Outreach'}
           </div>
 
           {/* User state badge & Analytics Toggle */}
-          <div className="flex items-center gap-3 shrink-0">
+          <div className="flex items-center justify-end gap-2 sm:gap-3 min-w-0">
+            {/* Dev builds only, and from lg up: it is not part of the shipped header,
+                so it must not be what pushes the header past a phone's width, nor what
+                truncates the student's name at 768 (where the step nav is also shown). */}
             {import.meta.env.DEV && (
               <button
                 type="button"
                 onClick={() => setView(view === 'analytics' ? (isOnboarded ? 'dashboard' : 'cover') : 'analytics')}
-                className={`p-2 px-3 rounded-lg border flex items-center justify-center transition-all duration-200 cursor-pointer text-xs font-semibold gap-1.5
+                className={`p-2 px-3 rounded-lg border hidden lg:flex shrink-0 items-center justify-center transition-all duration-200 cursor-pointer text-xs font-semibold gap-1.5
                   ${view === 'analytics'
                     ? 'bg-[#0d5c5c] border-[#0d5c5c] text-white font-semibold'
                     : 'bg-stone-50 border-stone-200 text-stone-600 hover:text-stone-900 hover:bg-stone-100'
@@ -433,10 +467,10 @@ function App() {
 
             {isOnboarded ? (
               isAuthenticated ? (
-                <div className="flex items-center gap-2.5">
-                  <div className="flex items-center gap-2 bg-stone-50 border border-stone-200 px-3 py-1.5 rounded-lg text-xs font-medium text-stone-700 shadow-sm">
-                    <User className="w-3.5 h-3.5 text-[#0d5c5c]" />
-                    <span className="truncate max-w-[120px]">{studentName}</span>
+                <div className="flex items-center gap-2 sm:gap-2.5 min-w-0">
+                  <div className="flex items-center gap-2 min-w-0 bg-stone-50 border border-stone-200 px-2.5 sm:px-3 py-1.5 rounded-lg text-xs font-medium text-stone-700 shadow-sm">
+                    <User className="hidden sm:block w-3.5 h-3.5 shrink-0 text-[#0d5c5c]" />
+                    <span className="truncate min-w-0 max-w-[120px]" title={studentName}>{studentName}</span>
                     <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 shrink-0" aria-hidden="true" title="Signed in" />
                   </div>
                   {/* Offered only to authenticated students: a guest has no credential,
@@ -444,19 +478,35 @@ function App() {
                   <button
                     type="button"
                     onClick={handleSignOut}
-                    className="px-3 py-1.5 rounded-lg border border-stone-200 bg-white text-stone-600 hover:text-stone-900 hover:border-stone-300 text-xs font-semibold shadow-sm transition-colors cursor-pointer"
+                    className="shrink-0 whitespace-nowrap px-3 py-1.5 rounded-lg border border-stone-200 bg-white text-stone-600 hover:text-stone-900 hover:border-stone-300 text-xs font-semibold shadow-sm transition-colors cursor-pointer"
                     title="Sign out on this device"
                   >
                     Sign out
                   </button>
                 </div>
               ) : (
-                <div className="flex items-center gap-2.5">
+                <div className="flex items-center gap-2 sm:gap-2.5 min-w-0">
                   {/* Stone, not amber: amber is reserved for provenance warnings on award data. */}
-                  <div className="flex items-center gap-2 bg-stone-100 border border-stone-200 px-3 py-1.5 rounded-lg text-xs font-medium text-stone-700 shadow-sm" title="Guest Session - Progress not saved">
-                    <User className="w-3.5 h-3.5 text-stone-500" />
-                    <span className="truncate max-w-[120px]">{studentName || 'Guest'} (Guest)</span>
-                    <span className="w-1.5 h-1.5 rounded-full bg-stone-400 shrink-0" aria-hidden="true" />
+                  <div className="flex items-center gap-1.5 min-w-0 bg-stone-100 border border-stone-200 px-2.5 sm:px-3 py-1.5 rounded-lg text-xs font-medium text-stone-700 shadow-sm" title={studentName ? `${studentName}: guest session, progress not saved` : 'Guest session, progress not saved'}>
+                    <User className="hidden sm:block w-3.5 h-3.5 shrink-0 text-stone-500" />
+                    {/* Two spans so the ellipsis lands on the name. As one truncated
+                        string, "(Guest)" was the part that got cut ("Sarah Nguyen (Gu…"),
+                        and it is the part that says progress is not saved. */}
+                    {/* The name is shown from sm up only. At 360px it had 7px: one
+                        clipped letter and no ellipsis ("S (Guest)"). The marker alone
+                        is the honest minimum; the name is in the title either way. */}
+                    {studentName && (
+                      <span className="hidden sm:inline truncate min-w-0 max-w-[120px]" title={studentName}>{studentName}</span>
+                    )}
+                    {studentName ? (
+                      <>
+                        <span className="shrink-0 whitespace-nowrap sm:hidden">Guest</span>
+                        <span className="shrink-0 whitespace-nowrap hidden sm:inline">(Guest)</span>
+                      </>
+                    ) : (
+                      <span className="shrink-0 whitespace-nowrap">Guest</span>
+                    )}
+                    <span className="w-1.5 h-1.5 rounded-full bg-stone-400 shrink-0 hidden sm:block" aria-hidden="true" />
                   </div>
                   <button
                     type="button"
@@ -465,7 +515,7 @@ function App() {
                       setOnboardingIntent('save_account');
                       setView('onboarding');
                     }}
-                    className="bg-[#0d5c5c] hover:bg-[#0b4d4d] text-white border border-[#0d5c5c] px-3 py-1.5 rounded-lg text-xs font-semibold shadow-sm transition-all duration-200 cursor-pointer flex items-center gap-1 hover:scale-[1.02] active:scale-[0.98]"
+                    className="shrink-0 whitespace-nowrap bg-[#0d5c5c] hover:bg-[#0b4d4d] text-white border border-[#0d5c5c] px-3 py-1.5 rounded-lg text-xs font-semibold shadow-sm transition-all duration-200 cursor-pointer flex items-center gap-1 hover:scale-[1.02] active:scale-[0.98]"
                   >
                     Save Profile
                   </button>
@@ -526,6 +576,8 @@ function App() {
             setSavedMatches={setSavedMatches}
             skippedMatches={skippedMatches}
             setSkippedMatches={setSkippedMatches}
+            writeError={dashboardWriteError}
+            setWriteError={setDashboardWriteError}
             onRefineInterests={() => {
               // Editing interests, not creating an account -- see onboardingIntent.
               setOnboardingIntent('edit_profile');
@@ -557,10 +609,10 @@ function App() {
       <footer className="w-full glass-panel border-t border-stone-200/80 py-4 text-xs text-stone-500">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 flex flex-col md:flex-row items-center justify-between gap-3 text-center md:text-left">
           <div>
-            <span>LabMatch AI — Research alignment for funded NIH &amp; NSF labs.</span>
+            <span>LabMatch AI — Research alignment for funded federal awards.</span>
           </div>
           <div className="flex flex-wrap items-center justify-center gap-4">
-            <span className="flex items-center gap-1"><FileText className="w-3.5 h-3.5 text-stone-400" /> NIH RePORTER &amp; NSF Award APIs</span>
+            <span className="flex items-center gap-1"><FileText className="w-3.5 h-3.5 text-stone-400" /> NIH RePORTER, NSF Award Search &amp; USAspending.gov</span>
           </div>
         </div>
       </footer>

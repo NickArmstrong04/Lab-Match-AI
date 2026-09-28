@@ -456,6 +456,81 @@ def get_fallback_draft(
     return {"subject": subject, "body": body, "is_fallback": True}
 
 
+# Persona deck card ids, as served by _demo_decks() in grants.py.
+_SARAH_CARD_ROBOTICS = "22222222-2222-2222-2222-222222222222"
+_SARAH_CARD_GENOMICS = "11111111-1111-1111-1111-111111111111"
+
+
+def _sarah_demo_draft(grant_id: str, pi_name: str, campus: str = "") -> dict:
+    """
+    Sample draft for the Sarah Nguyen ad-recording persona, one text per deck card.
+
+    This was a single template used for both of her cards. It said "your active NIH funded
+    project" (on the NSF robotics card too), quoted the award title, and described the
+    genomics card's science whichever card it was opened from. It also said "According to
+    my parsed CV" -- no CV is parsed for a persona -- and hardcoded Stanford whatever
+    campus the session showed.
+
+    It now obeys the rules query_gemini_draft() states and find_draft_violations() checks:
+    no agency, no award vocabulary, no quoted title, and lab science drawn only from that
+    card's own description. `campus` is the student's stored location; when there is none
+    the clause is dropped rather than guessed.
+
+    Keep the text in step with buildPersonaSampleDraft() in
+    frontend/src/pages/EmailReview.tsx, which is what the composer actually shows: the
+    persona has no students row, so draft_email 404s before reaching this.
+    """
+    topic = ""
+    link = (
+        "I would be glad to contribute to the work in your group in whatever capacity "
+        "would be most useful."
+    )
+    if grant_id == _SARAH_CARD_ROBOTICS:
+        topic = "computer vision and reinforcement learning for pediatric surgical assistance"
+        link = (
+            "My work so far has been in genomics rather than robotics, but your lab's work on "
+            "automated tool tracking, blood vessel segmentation, and real-time path planning is "
+            "the kind of applied machine learning research I want to assist with."
+        )
+    elif grant_id == _SARAH_CARD_GENOMICS:
+        topic = (
+            "deep learning to identify non-coding genomic variants associated with "
+            "cardiovascular disease"
+        )
+        link = (
+            "I noticed your lab applies transformer models and convolutional neural networks to "
+            "predict splicing disruption and transcription factor binding shifts, which directly "
+            "matches the computational research I want to assist with."
+        )
+
+    greeting = (
+        f"Dear Dr. {pi_name.strip().split(' ').pop()},"
+        if pi_is_resolved(pi_name)
+        else "Dear Professor,"
+    )
+    at = f" at {campus}" if campus else ""
+    work = f"your lab's work on {topic}" if topic else "your lab's research"
+    return {
+        "subject": "Inquiry: Biomedical Research Alignment — Sarah Nguyen",
+        "body": (
+            f"{greeting}\n\n"
+            f"I hope this email finds you well. My name is Sarah Nguyen, and I am a pre-med "
+            f"student{at}. I am writing because {work} aligns closely with my academic "
+            f"interests.\n\n"
+            f"Specifically, I have hands-on experience in machine learning architectures, genomic "
+            f"analysis, and tumor cellular target engagement. {link}\n\n"
+            f"I would love the opportunity to learn more about your research goals and discuss how "
+            f"my skills could contribute to your lab. Would you be open to a brief 10-minute Zoom "
+            f"call or a quick lab introduction next week? I'd be happy to send along my full CV.\n\n"
+            f"Sincerely,\n\n"
+            f"Sarah Nguyen"
+        ),
+        # Says the CV can be sent along, not that it is attached, so the composer's
+        # attach-your-CV reminder would be pointing at a claim the draft does not make.
+        "expects_cv_attachment": False,
+    }
+
+
 @router.post("/draft-email")
 async def draft_email(
     req: DraftEmailRequest,
@@ -542,25 +617,12 @@ async def draft_email(
             # Nguyen used to get this canned draft -- "pre-med at Stanford", "NIH funded
             # project" on a DOD grant -- written in their name. (The persona has no
             # students row, so in practice the composer short-circuits before this.)
+            # `funded_project` above is no longer read by this branch: the sample draft
+            # names no funder, same as every other draft.
             if req.student_id == SARAH_DEMO_STUDENT_ID:
-                draft = {
-                    "subject": "Inquiry: Biomedical Research Alignment — Sarah Nguyen",
-                    "body": (
-                        f"Dear Dr. {pi_name.split(' ').pop()},\n\n"
-                        f"I hope this email finds you well. My name is Sarah Nguyen, and I am a pre-med student at Stanford University. "
-                        f"I recently analyzed {funded_project}, \"{grant_title}\", "
-                        f"and was immediately struck by the outstanding alignment between your laboratory's focus and my academic competencies.\n\n"
-                        f"Specifically, my research interests are highly optimized for your current methodologies. According to my parsed CV, "
-                        f"I have hands-on experience in machine learning architectures, genomic analysis, and tumor cellular target engagement. "
-                        f"I noticed your project leverages advanced deep learning models to map somatic cancer mutations and transcription "
-                        f"factor shifts, which directly matches the computational research pipeline I want to assist with.\n\n"
-                        f"I would love the opportunity to learn more about your research goals and discuss how my skills could accelerate "
-                        f"your pipeline. Would you be open to a brief 10-minute Zoom call or a quick lab introduction next week? "
-                        f"I'd be happy to send along my full CV.\n\n"
-                        f"Sincerely,\n\n"
-                        f"Sarah Nguyen"
-                    )
-                }
+                draft = _sarah_demo_draft(
+                    req.grant_id, pi_name, (student.get("location") or "").strip()
+                )
             else:
                 draft_kwargs = dict(
                     student_name=student_name,

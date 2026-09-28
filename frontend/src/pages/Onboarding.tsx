@@ -248,6 +248,11 @@ export const Onboarding: React.FC<OnboardingProps> = ({
         // lists and recommended_role follow the live card contract (empty / null): they
         // were never sourced, and these cards drive the ad recordings. Keep in step with
         // _demo_decks() in backend/routers/grants.py.
+        //
+        // location_match is false on every persona card. The pill it drives states a
+        // fact about the campus the person typed, and a hardcoded true put it on a
+        // Harvard card for a campus of "Test University". The dashboard computes it for
+        // persona cards from the typed campus (cardLocationMatch, utils/card.ts).
         matchedGrants = [
           {
             "id": "22222222-2222-2222-2222-222222222222",
@@ -296,7 +301,7 @@ export const Onboarding: React.FC<OnboardingProps> = ({
             "methodologies": ["Deep Learning", "Genomics", "Transformers", "Python"],
             "recommended_role": null,
             "status": null,
-            "location_match": true,
+            "location_match": false,
             "is_demo": true
           }
         ];
@@ -378,7 +383,7 @@ export const Onboarding: React.FC<OnboardingProps> = ({
             "methodologies": ["Molecular Biology", "CRISPR-Cas9", "Stem Cells", "Epigenetics"],
             "recommended_role": null,
             "status": null,
-            "location_match": true,
+            "location_match": false,
             "is_demo": true
           }
         ];

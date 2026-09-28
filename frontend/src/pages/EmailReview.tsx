@@ -7,7 +7,7 @@ import api from '../api/axios';
 import { trackEvent } from '../utils/analytics';
 import { getDraft, saveDraft, clearDraft, getSession } from '../utils/session';
 import { piDisplayName } from '../utils/pi';
-import { SARAH_DEMO_STUDENT_ID, ELENA_DEMO_STUDENT_ID } from '../utils/demoPersonas';
+import { SARAH_DEMO_STUDENT_ID, ELENA_DEMO_STUDENT_ID, isDemoStudent } from '../utils/demoPersonas';
 import {
   NO_RECORD_LINK,
   agencyPillClass,
@@ -17,6 +17,91 @@ import {
   similarityValue,
 } from '../utils/card';
 import AiPiBadge from '../components/AiPiBadge';
+
+// Persona deck card ids, as minted in Onboarding.tsx and _demo_decks() (grants.py).
+const SARAH_CARD_ROBOTICS = '22222222-2222-2222-2222-222222222222';
+const SARAH_CARD_GENOMICS = '11111111-1111-1111-1111-111111111111';
+const ELENA_CARD_PLANTS = '44444444-4444-4444-4444-444444444444';
+const ELENA_CARD_BASE_EDITING = '33333333-3333-3333-3333-333333333333';
+
+// Persona drafts are never stored or restored (see generateDraft). That also retires
+// the phrase list that used to stand here to catch pre-rewrite sample drafts left in
+// localStorage: no stored persona draft is read at all now.
+
+/**
+ * Sample drafts for the two ad-recording personas, one per deck card.
+ *
+ * There used to be one template per persona, shown for both cards. Opened from the
+ * first card it called an NSF award "your active NIH funded project" and described the
+ * science of the second card. These follow the rules the real drafter is held to
+ * (query_gemini_draft / find_draft_violations in backend/routers/agent.py): no agency,
+ * no award vocabulary, no quoted title, and lab science taken only from the card's own
+ * description. The persona's skills sentence and the closing paragraph are unchanged so
+ * recordings keep their shape.
+ *
+ * `campus` is what was typed at onboarding. The drafts used to hardcode Stanford and
+ * Harvard, which contradicted the campus shown in the header whenever anything else
+ * was entered; with no campus on record the clause is dropped rather than guessed.
+ *
+ * Keep Sarah's text in step with _sarah_demo_draft() in backend/routers/agent.py.
+ */
+const buildPersonaSampleDraft = (
+  studentId: string,
+  match: GrantMatch,
+  campus: string,
+): { subject: string; body: string } | null => {
+  const isSarah = studentId === SARAH_DEMO_STUDENT_ID;
+  const isElena = studentId === ELENA_DEMO_STUDENT_ID;
+  if (!isSarah && !isElena) return null;
+
+  const name = isSarah ? 'Sarah Nguyen' : 'Elena Rostova';
+  const level = isSarah ? 'a pre-med student' : 'a molecular biology student';
+  const background = isSarah
+    ? 'machine learning architectures, genomic analysis, and tumor cellular target engagement'
+    : 'molecular cloning, CRISPR-Cas9 genome editing, mammalian cell transfection, and epigenetic assay profiling';
+
+  // topic: paragraph 1, the lab's area in plain words. link: paragraph 2, tying the
+  // persona's background to that card's description and nothing else.
+  let subjectTopic = isSarah ? 'Biomedical' : 'Molecular Biology';
+  let topic = '';
+  let link = 'I would be glad to contribute to the work in your group in whatever capacity would be most useful.';
+  if (isSarah && match.id === SARAH_CARD_ROBOTICS) {
+    topic = 'computer vision and reinforcement learning for pediatric surgical assistance';
+    link = 'My work so far has been in genomics rather than robotics, but your lab\'s work on automated tool tracking, blood vessel segmentation, and real-time path planning is the kind of applied machine learning research I want to assist with.';
+  } else if (isSarah && match.id === SARAH_CARD_GENOMICS) {
+    topic = 'deep learning to identify non-coding genomic variants associated with cardiovascular disease';
+    link = 'I noticed your lab applies transformer models and convolutional neural networks to predict splicing disruption and transcription factor binding shifts, which directly matches the computational research I want to assist with.';
+  } else if (isElena && match.id === ELENA_CARD_PLANTS) {
+    subjectTopic = 'Plant Epigenetics';
+    topic = 'epigenetic changes in Arabidopsis under high salinity and drought';
+    link = 'My bench work so far has been in mammalian cells rather than plants, but your lab\'s study of histones and chromatin dynamics using next-generation sequencing is the kind of epigenetics research I want to assist with.';
+  } else if (isElena && match.id === ELENA_CARD_BASE_EDITING) {
+    subjectTopic = 'CRISPR & Base Editing';
+    topic = 'CRISPR base editing in hematopoietic stem cells';
+    link = 'I noticed your lab optimizes target specificity and engineers guide RNAs for base editing in hematopoietic stem cells, which directly matches the molecular research I want to assist with.';
+  }
+
+  // Same signal the template fallback uses: no lookup link means no resolved PI name.
+  const piLast = match.pi_lookup_url && match.pi_name ? match.pi_name.trim().split(' ').pop() : '';
+  const greeting = piLast ? `Dear Dr. ${piLast},` : 'Dear Professor,';
+  const at = campus ? ` at ${campus}` : '';
+  const work = topic ? `your lab's work on ${topic}` : `your lab's research`;
+
+  return {
+    subject: `Inquiry: ${subjectTopic} Research Alignment — ${name}`,
+    body: `${greeting}
+
+I hope this email finds you well. My name is ${name}, and I am ${level}${at}. I am writing because ${work} aligns closely with my academic interests.
+
+Specifically, I have hands-on experience in ${background}. ${link}
+
+I would love the opportunity to learn more about your research goals and discuss how my skills could contribute to your lab. Would you be open to a brief 10-minute Zoom call or a quick lab introduction next week? I'd be happy to send along my full CV.
+
+Sincerely,
+
+${name}`,
+  };
+};
 
 interface EmailReviewProps {
   match: GrantMatch;
@@ -152,8 +237,17 @@ export const EmailReview: React.FC<EmailReviewProps> = ({
    * than an automatic side effect of copying.
    */
   const handleMarkAsSent = async () => {
-    setIsMarkingSent(true);
     setMarkError('');
+    // The personas have no students row, so /agent/send-email answers 404 for them and
+    // the button ended an ad recording on a rose error. Swipes and saves for a persona
+    // are already local (see handleSwipe in Dashboard.tsx); this is the same carve-out,
+    // gated on the exact persona UUIDs. Nothing is recorded, and the confirmation below
+    // says so rather than claiming a pipeline save.
+    if (isDemoStudent(studentId)) {
+      setIsMarkedSent(true);
+      return;
+    }
+    setIsMarkingSent(true);
     try {
       await api.post('/agent/send-email', {
         student_id: studentId,
@@ -188,7 +282,17 @@ export const EmailReview: React.FC<EmailReviewProps> = ({
     // A saved draft wins unless the student explicitly asked for a fresh one. This is
     // what makes edits survive "Back to Swiper" and refresh, and stops the multi-second
     // Gemini call that used to fire on every return and produce a different draft.
-    if (!force) {
+    //
+    // Not for the personas. Their ids are fixed and a guest has no Sign out (the only
+    // thing that clears drafts), so a sample stored under one typed campus was restored
+    // in every later persona session on that browser: header and campus pill said
+    // Stanford, the email said "a pre-med student at Test University". The sample is
+    // rebuilt from the session each time instead, and any copy an earlier build stored
+    // is removed. The cost is that edits to a persona draft do not survive leaving the
+    // composer.
+    if (isDemoStudent(studentId)) {
+      clearDraft(studentId, match.id);
+    } else if (!force) {
       const saved = getDraft(studentId, match.id);
       if (saved) {
         setSubject(saved.subject);
@@ -205,51 +309,27 @@ export const EmailReview: React.FC<EmailReviewProps> = ({
       setIsDrafting(true);
       // Exact persona UUID, never the display name -- a real student named Sarah Nguyen
       // or Elena Rostova used to get this canned Stanford/Harvard draft in their name.
-      if (studentId === SARAH_DEMO_STUDENT_ID) {
-        const piLastName = match.pi_name ? match.pi_name.split(' ').pop() : 'Jenkins';
-        const sampleSubject = "Inquiry: Biomedical Research Alignment — Sarah Nguyen";
-        const sampleBody = `Dear Dr. ${piLastName},
-
-I hope this email finds you well. My name is Sarah Nguyen, and I am a pre-med student at Stanford University. I recently analyzed your active NIH funded project, "${match.title || 'Deep Learning for Genomic Mutation Analysis'}\", and was immediately struck by the outstanding alignment between your laboratory's focus and my academic competencies.
-
-Specifically, my research interests are highly optimized for your current methodologies. According to my parsed CV, I have hands-on experience in machine learning architectures, genomic analysis, and tumor cellular target engagement. I noticed your project leverages advanced deep learning models to map somatic cancer mutations and transcription factor shifts, which directly matches the computational research pipeline I want to assist with.
-
-I would love the opportunity to learn more about your research goals and discuss how my skills could accelerate your pipeline. Would you be open to a brief 10-minute Zoom call or a quick lab introduction next week? I'd be happy to send along my full CV.
-
-Sincerely,
-
-Sarah Nguyen`;
-        
-        setSubject(sampleSubject);
-        setBody(sampleBody);
-        originalDraftBody.current = sampleBody;
-        // 50ms organic transition loading state
-        await new Promise(resolve => setTimeout(resolve, 50));
-        setIsDrafting(false);
-        return;
-      } else if (studentId === ELENA_DEMO_STUDENT_ID) {
-        const piLastName = match.pi_name ? match.pi_name.split(' ').pop() : 'Sternberg';
-        const sampleSubject = "Inquiry: CRISPR & Base Editing Research Alignment — Elena Rostova";
-        const sampleBody = `Dear Dr. ${piLastName},
-
-I hope this email finds you well. My name is Elena Rostova, and I am a molecular biology student at Harvard University. I recently analyzed your active NIH funded project, "${match.title || 'Precision Epigenetic Base Editing in Human Stem Cells'}\", and was immediately struck by the outstanding alignment between your laboratory's focus and my academic competencies.
-
-Specifically, my research interests are highly optimized for your current methodologies. According to my parsed CV, I have hands-on experience in molecular cloning, CRISPR-Cas9 genome editing, mammalian cell transfection, and epigenetic assay profiling. I noticed your project leverages advanced CRISPR base editors to modify genomic loci in hematopoietic stem cells, which directly matches the molecular research pipeline I want to assist with.
-
-I would love the opportunity to learn more about your research goals and discuss how my skills could accelerate your pipeline. Would you be open to a brief 10-minute Zoom call or a quick lab introduction next week? I'd be happy to send along my full CV.
-
-Sincerely,
-
-Elena Rostova`;
-        
-        setSubject(sampleSubject);
-        setBody(sampleBody);
-        originalDraftBody.current = sampleBody;
+      const sample = buildPersonaSampleDraft(
+        studentId,
+        match,
+        (getSession()?.location || '').trim(),
+      );
+      if (sample) {
+        setSubject(sample.subject);
+        setBody(sample.body);
+        originalDraftBody.current = sample.body;
         // 50ms organic transition loading state
         await new Promise(resolve => setTimeout(resolve, 50));
         setIsDrafting(false);
         return;
       }
+      // A session restored without a name (or a guest who never gave one) used to get
+      // "Research assistant inquiry — " and "My name is , and I am a student". The
+      // student fills their name in themselves; we do not invent one.
+      const senderName = (studentName || '').trim();
+      const templateSubject = senderName
+        ? `Research assistant inquiry — ${senderName}`
+        : 'Research assistant inquiry';
       try {
         const response = await api.post('/agent/draft-email', {
           student_id: studentId,
@@ -257,7 +337,7 @@ Elena Rostova`;
         });
         const data = response.data;
         const draftBody = data.body || '';
-        setSubject(data.subject || `Research assistant inquiry — ${studentName}`);
+        setSubject(data.subject || templateSubject);
         setBody(draftBody);
         originalDraftBody.current = draftBody;
         // The backend fell back to its static template (Gemini unavailable). Flag it so
@@ -272,7 +352,7 @@ Elena Rostova`;
         // "parsed CV" claim. It also names no award: we found this lab through a
         // federal record, but the student didn't, and quoting the project title back
         // at the PI reads as odd and exposes the funding-database provenance.
-        setSubject(`Research assistant inquiry — ${studentName}`);
+        setSubject(templateSubject);
         // pi_lookup_url is null exactly when the PI was never resolved (same signal the
         // To-field hint uses), so it also tells us there's no real name to address.
         const piLast = match.pi_lookup_url ? match.pi_name.split(' ').pop() : null;
@@ -284,7 +364,7 @@ Elena Rostova`;
         // Institution names like "Organos, Inc." already end in a period.
         const uni = (match.institution || '').trim();
         const stop = uni.endsWith('.') ? '' : '.';
-        const intro = `${greeting}\n\nI hope this email finds you well. My name is ${studentName}, and I am a student reaching out about research opportunities in your lab at ${uni}${stop} Your group's research connects closely with my research interests.`;
+        const intro = `${greeting}\n\nI hope this email finds you well. ${senderName ? `My name is ${senderName}, and I am` : 'I am'} a student reaching out about research opportunities in your lab at ${uni}${stop} Your group's research connects closely with my research interests.`;
         // No "hands-on experience with ..." sentence. It was filled from
         // matching_skills: our keyword scan of the award text intersected with the
         // profile, not anything the student told us they have done. New payloads send [],
@@ -298,7 +378,7 @@ Elena Rostova`;
         const cvLine = hasCv
           ? `I've attached my CV with more detail on my background.`
           : `I'd be glad to share more about my background if that would be useful.`;
-        const outro = `Would you be open to a brief 15-minute conversation about getting involved? ${cvLine}\n\nSincerely,\n\n${studentName}`;
+        const outro = `Would you be open to a brief 15-minute conversation about getting involved? ${cvLine}\n\nSincerely,${senderName ? `\n\n${senderName}` : ''}`;
         const fallbackBody = `${intro}\n\n${center}\n\n${outro}`;
         setBody(fallbackBody);
         originalDraftBody.current = fallbackBody;
@@ -319,7 +399,7 @@ Elena Rostova`;
   // 2. Persist edits so navigation and refresh don't lose them. Debounced to avoid a
   //    write on every keystroke; also flushed on unmount below.
   useEffect(() => {
-    if (isDrafting || !body) return;
+    if (isDrafting || !body || isDemoStudent(studentId)) return;
     const t = setTimeout(() => saveDraft(studentId, match.id, { subject, body }), 500);
     return () => clearTimeout(t);
   }, [subject, body, isDrafting, studentId, match.id]);
@@ -331,7 +411,7 @@ Elena Rostova`;
   useEffect(() => {
     return () => {
       const d = latestDraft.current;
-      if (d.body) saveDraft(studentId, match.id, d);
+      if (d.body && !isDemoStudent(studentId)) saveDraft(studentId, match.id, d);
     };
   }, [studentId, match.id]);
 
@@ -348,7 +428,7 @@ Elena Rostova`;
   return (
     <div className="w-full max-w-7xl mx-auto px-4 py-6 animate-fade-in">
       {/* Header breadcrumb control */}
-      <div className="flex items-center justify-between mb-6">
+      <div className="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mb-6">
         <button
           onClick={() => onCancel(hasCopied || isMarkedSent)}
           className="flex items-center gap-1.5 p-0 border-0 bg-transparent text-xs font-semibold text-stone-600 transition-colors hover:text-blue-600 cursor-pointer"
@@ -364,7 +444,7 @@ Elena Rostova`;
         
         {/* Left Pane (50%) - Grant Context Details */}
         <GlassCard className="relative overflow-hidden min-h-[550px] h-full flex flex-col justify-between" glowColor="none">
-          <div className="space-y-6">
+          <div className="flex flex-col flex-1 min-h-0 gap-6">
             <div>
               <span className={`inline-block text-[9px] px-2 py-0.5 rounded-full font-bold font-mono tracking-wide uppercase mb-3
                 ${agencyPillClass(match)}
@@ -390,7 +470,9 @@ Elena Rostova`;
             {/* Similarity context. The sentence that stood here asserted the student had
                 "high proficiency" in skills the lab had "directly requested": the skills
                 were keyword-tag overlap and no award record requests anything. */}
-            <div className="flex items-start gap-5 p-4 rounded-lg bg-stone-50 border border-stone-200">
+            {/* Below sm the ring sits above the notes: side by side at 390px the notes
+                were squeezed into a 95px column beside a 72px ring. */}
+            <div className="flex flex-col items-center gap-4 sm:flex-row sm:items-start sm:gap-5 p-4 rounded-lg bg-stone-50 border border-stone-200">
               <div className="shrink-0">
                 <CircularScore score={similarity} size={72} strokeWidth={6} isDemo={isDemo} />
               </div>
@@ -404,7 +486,7 @@ Elena Rostova`;
             {/* Award description. The "AI-generated summary" pill stays with the text it
                 labels; only the "Key Project Methodologies" heading went, since the text
                 under it is an abstract and nothing here lists methodologies. */}
-            <div className="space-y-3">
+            <div className="flex flex-col flex-1 min-h-0 gap-3">
               <div className="flex items-center gap-2 flex-wrap">
                 <h4 className="text-xs font-semibold text-stone-500 uppercase tracking-widest">
                   Award Description
@@ -418,9 +500,15 @@ Elena Rostova`;
                   </span>
                 )}
               </div>
-              <p className="text-stone-700 text-sm leading-relaxed h-44 overflow-y-auto pr-1">
-                {match.abstract}
-              </p>
+              {/* Was a fixed h-44 scroller sitting above empty space. At lg the panes are
+                  stretched to one height, so the text fills what is left of this pane
+                  (absolute, so a long abstract scrolls here and cannot stretch the row).
+                  Stacked, there is no spare height to fill: it is capped and scrolls. */}
+              <div className="relative flex-1 lg:min-h-44">
+                <p className="text-stone-700 text-sm leading-relaxed overflow-y-auto pr-1 max-h-80 lg:max-h-none lg:absolute lg:inset-0">
+                  {match.abstract}
+                </p>
+              </div>
             </div>
           </div>
 
@@ -429,7 +517,11 @@ Elena Rostova`;
             {/* Was: "Outreach emails are automatically saved as drafts in outreach_logs
                 for user transparency." Nothing was ever saved -- send-email had no
                 callers, so outreach_logs was empty. This now describes what happens. */}
-            <span>Nothing is sent from here. Your pitch is saved to your pipeline only when you mark it as reached out.</span>
+            <span>
+              {isDemoStudent(studentId)
+                ? 'Nothing is sent from here. This is a sample session, so nothing is saved.'
+                : 'Nothing is sent from here. Your pitch is saved to your pipeline only when you mark it as reached out.'}
+            </span>
           </div>
         </GlassCard>
 
@@ -457,7 +549,7 @@ Elena Rostova`;
                   <Mail className="w-5 h-5 text-[#1e3a4a]" /> Interactive Composer
                 </h3>
                 <p className="text-stone-600 text-xs mt-0.5">
-                  Draft a high-impact alignment introduction. Highly personalized.
+                  Draft your introduction. Edit it before you send it.
                 </p>
               </div>
 
@@ -496,30 +588,48 @@ Elena Rostova`;
                     This award doesn't list a named PI yet — you may need to look up the lab directly.
                   </span>
                 )}
-                <div className="flex items-center gap-3 bg-stone-50 border border-stone-200 px-3.5 py-2.5 rounded-lg">
-                  <span className="text-stone-500 font-semibold w-12 text-right font-mono text-xs">To:</span>
-                  <input
-                    type="email"
-                    value={to}
-                    onChange={(e) => setTo(e.target.value)}
-                    onBlur={persistPiEmail}
-                    placeholder="Paste the PI's email from their lab page"
-                    className="bg-transparent border-none text-stone-800 focus:outline-none flex-1 font-mono text-xs placeholder-stone-400"
-                  />
+                <div>
+                  <div className="flex items-center gap-3 bg-stone-50 border border-stone-200 px-3.5 py-2.5 rounded-lg">
+                    <span className="text-stone-500 font-semibold w-12 shrink-0 text-right font-mono text-xs">To:</span>
+                    <input
+                      type="email"
+                      value={to}
+                      onChange={(e) => setTo(e.target.value)}
+                      onBlur={persistPiEmail}
+                      placeholder="PI's email"
+                      aria-label="PI's email address"
+                      aria-describedby="pi-email-help"
+                      className="bg-transparent border-none text-stone-800 focus:outline-none flex-1 min-w-0 font-mono text-xs placeholder-stone-400"
+                    />
+                  </div>
+                  {/* The instruction used to live only in the placeholder, which a 390px
+                      screen cut off mid-sentence and which vanishes on the first keystroke.
+                      The field still starts empty: we never construct a PI address. */}
+                  <p id="pi-email-help" className="text-stone-500 text-[11px] leading-snug mt-1.5">
+                    Paste the PI's email from their lab page. We don't fill this in for you.
+                  </p>
                 </div>
-                <div className="flex items-center gap-3 bg-stone-50 border border-stone-200 px-3.5 py-2.5 rounded-lg">
-                  <span className="text-stone-500 font-semibold w-12 text-right font-mono text-xs">Subject:</span>
-                  <input
-                    type="text"
+                {/* A textarea so the subject can wrap: in a one-line input a phone cut
+                    it off mid-word ("Inquiry: Biomedical Research Alig"). It grows with
+                    its content where the browser supports field-sizing and is two lines
+                    tall below sm where it does not. A subject is one line of text, so
+                    line breaks are turned into spaces. */}
+                <div className="flex items-start sm:items-center gap-3 bg-stone-50 border border-stone-200 px-3.5 py-2.5 rounded-lg">
+                  <span className="text-stone-500 font-semibold w-12 shrink-0 text-right font-mono text-xs leading-4">Subject:</span>
+                  <textarea
+                    rows={1}
                     value={subject}
-                    onChange={(e) => setSubject(e.target.value)}
-                    className="bg-transparent border-none text-stone-800 focus:outline-none flex-1 text-xs font-medium"
+                    onChange={(e) => setSubject(e.target.value.replace(/[\r\n]+/g, ' '))}
+                    aria-label="Subject"
+                    className="bg-transparent border-none p-0 m-0 resize-none text-stone-800 focus:outline-none flex-1 min-w-0 text-xs leading-4 font-medium max-sm:min-h-8 [field-sizing:content]"
                   />
                 </div>
               </div>
 
               {/* Fallback notice: this is the static template, not a personalized draft.
-                  Shown so the student doesn't send it thinking Gemini wrote it. */}
+                  Shown so the student doesn't send it thinking Gemini wrote it.
+                  Amber on purpose: it labels the origin (template versus AI) of text the
+                  student is about to send, which is provenance, not a generic warning. */}
               {isFallbackDraft && !isDrafting && (
                 <div className="border border-amber-200 bg-amber-50/80 text-amber-900 rounded-lg px-3.5 py-2.5 text-xs leading-relaxed flex items-start justify-between gap-3">
                   <span>
@@ -648,22 +758,26 @@ Elena Rostova`;
               {isMarkedSent && (
                 <div className="border border-emerald-200 bg-emerald-50/70 text-emerald-900 rounded-lg px-3.5 py-2.5 text-xs font-medium inline-flex items-center gap-2">
                   <CheckCircle2 className="w-4 h-4 shrink-0" />
-                  Marked as reached out — saved to your pipeline.
+                  {isDemoStudent(studentId)
+                    ? 'Marked as reached out. This is a sample session, so nothing was recorded.'
+                    : 'Marked as reached out — saved to your pipeline.'}
                 </div>
               )}
 
               {/* Control buttons */}
-              <div className="flex items-center justify-between border-t border-stone-200 pt-4 mt-2">
+              {/* Below sm the two are stacked, Copy Pitch on top and full width: side by
+                  side at 360px both labels wrapped onto two lines. */}
+              <div className="flex flex-col-reverse sm:flex-row items-stretch sm:items-center justify-between gap-2 border-t border-stone-200 pt-4 mt-2">
                 <button
                   onClick={() => onCancel(hasCopied || isMarkedSent)}
-                  className="px-4 py-2 rounded-lg text-stone-600 hover:text-stone-900 hover:bg-stone-100 transition-colors text-xs font-semibold inline-flex items-center justify-center gap-2 cursor-pointer"
+                  className="px-4 py-2 rounded-lg text-stone-600 hover:text-stone-900 hover:bg-stone-100 transition-colors text-xs font-semibold inline-flex items-center justify-center gap-2 whitespace-nowrap cursor-pointer"
                 >
                   <ArrowLeft className="w-3.5 h-3.5" /> Back to Swiper
                 </button>
 
                 <button
                   onClick={handleCopyToClipboard}
-                  className="btn-primary text-xs py-2.5 px-6 font-bold flex items-center justify-center gap-2"
+                  className="btn-primary text-xs py-2.5 px-6 font-bold flex items-center justify-center gap-2 whitespace-nowrap"
                 >
                   {isCopied ? (
                     <CheckCircle2 className="w-4 h-4 text-emerald-300 fill-emerald-800" />

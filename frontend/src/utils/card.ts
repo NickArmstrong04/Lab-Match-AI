@@ -26,6 +26,64 @@ export const isDemoCard = (
 ): boolean => isDemoStudent(studentId) || !!card?.is_demo;
 
 // ---------------------------------------------------------------------------
+// Campus name match
+// ---------------------------------------------------------------------------
+
+// Mirror of _CAMPUS_ALIASES / _CAMPUS_MIN_CLEANED_LEN / campus_name_match in
+// backend/routers/grants.py. Keep the two in step: same aliases, same order (aliases
+// BEFORE the length gate), same minimum.
+const CAMPUS_ALIASES: Record<string, string> = {
+  mit: 'massachusetts institute of technology',
+  caltech: 'california institute of technology',
+};
+const CAMPUS_MIN_CLEANED_LEN = 4;
+
+const cleanCampusName = (name: string): string =>
+  name
+    .toLowerCase()
+    .split('university').join('')
+    .split('institute of technology').join('')
+    .split('college').join('')
+    .trim();
+
+/** Does the campus the student typed name the same institution as this award's? */
+export const campusNameMatch = (
+  studentLocation: string | null | undefined,
+  university: string | null | undefined,
+): boolean => {
+  if (!studentLocation || !university) return false;
+  const typed = studentLocation.trim().toLowerCase();
+  const uni = university.trim().toLowerCase();
+  if (!typed || !uni) return false;
+  if (typed === uni) return true;
+  for (const [short, full] of Object.entries(CAMPUS_ALIASES)) {
+    if ((typed === short && uni.includes(full)) || (uni === short && typed.includes(full))) return true;
+  }
+  const sClean = cleanCampusName(typed);
+  const uClean = cleanCampusName(uni);
+  if (sClean.length < CAMPUS_MIN_CLEANED_LEN || uClean.length < CAMPUS_MIN_CLEANED_LEN) return false;
+  return uClean.includes(sClean) || sClean.includes(uClean);
+};
+
+/**
+ * Whether the card may carry "Name matches the campus you entered".
+ *
+ * The pill states a fact about the student's own input, so on a persona card it is
+ * computed here from the campus that was typed. The persona decks are hardcoded and
+ * used to carry `location_match: true`, which put the pill on a Harvard card for someone
+ * who had typed "Test University". A real card keeps the server's answer: it was
+ * computed by campus_name_match against the stored profile.
+ */
+export const cardLocationMatch = (
+  studentId: string | null | undefined,
+  studentLocation: string | null | undefined,
+  card: Pick<GrantMatch, 'institution'> & Partial<Pick<GrantMatch, 'is_demo' | 'location_match'>>,
+): boolean =>
+  isDemoCard(studentId, card)
+    ? campusNameMatch(studentLocation, card.institution)
+    : !!card.location_match;
+
+// ---------------------------------------------------------------------------
 // Dates
 // ---------------------------------------------------------------------------
 
