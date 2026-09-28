@@ -4,8 +4,13 @@ Matches undergrad pre-meds to **currently-funded** federal research labs (NIH + 
 corpus; DOD/DOE/EPA/NASA/USDA/Interior arrive via USAspending). FastAPI + React 19/TS/Vite +
 Tailwind 4 + Supabase/Postgres/pgvector.
 
-Pre-launch, about to recruit the first real users (Production domain: `https://lab-match.com`). That's the context for everything below: the
-rules here exist because real students will act on what this app tells them.
+Pre-launch, about to recruit the first real users (Production domain: `https://lab-match.com`).
+That's the context for everything below: the rules here exist because real students will act on
+what this app tells them.
+
+**Production is self-hosted on this machine** (since 2026-09-28): Cloudflare Tunnel → Caddy →
+uvicorn → local Supabase in Docker. See README "Production & Domain Configuration" and
+`deploy/`. The database you query from here **is** production — there is no separate prod DB.
 
 `README.md` (root) is accurate and detailed — setup, troubleshooting, the orphaned-uvicorn dance.
 Go there for how to run things. This file is for what the code can't tell you.
@@ -22,12 +27,24 @@ uvicorn backend.main:app --reload --port 8000
 cd frontend && npm run dev
 ```
 
+**Port 8000 is the live site.** The `labmatch-backend` user service holds it. Running dev
+uvicorn means `systemctl --user stop labmatch-backend` first — which takes lab-match.com's API
+down until you start it again. Don't do that without the owner's go-ahead. Changes reach the
+live site on `systemctl --user restart labmatch-backend` (backend) or `npm run build` (frontend),
+so a restart is a deploy: confirm first.
+
+**Start Supabase with `./deploy/supabase-start.sh`, never bare `supabase start`** — the bare
+command republishes Postgres (password `postgres`) and Studio on the LAN. Migrations:
+`supabase migration list --local`, then `supabase migration up --local`.
+
 `backend/main.py` uses relative imports (`from .routers import ...`), so it must load as the
 `backend` package. `cd backend && uvicorn main:app` fails with `ImportError: attempted relative
 import with no known parent package`.
 
 `frontend/package.json` has exactly four scripts: `dev`, `build`, `lint`, `preview`. **There is no
 `test` and no `typecheck`** — `npm run build` runs `tsc -b` first, so it *is* the typecheck.
+**But `npm run build` also deploys:** Caddy serves `frontend/dist` live, so a build ships the
+working tree to lab-match.com. To typecheck without shipping, run `npx tsc -b` instead.
 
 `Start LabMatch AI.bat` launches both plus a browser. It hardcodes a miniconda path and only works
 on the owner's machine.

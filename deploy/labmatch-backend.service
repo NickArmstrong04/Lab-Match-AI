@@ -1,0 +1,15 @@
+[Unit]
+Description=LabMatch FastAPI backend (local production)
+After=network-online.target
+
+[Service]
+WorkingDirectory=%h/Lab-Match-AI
+# Override the dev values in backend/.env for the live site.
+Environment=GOOGLE_REDIRECT_URI=https://lab-match.com/auth/google/callback
+Environment=FRONTEND_ORIGIN=https://lab-match.com
+ExecStart=%h/Lab-Match-AI/.venv/bin/uvicorn backend.main:app --host 127.0.0.1 --port 8000 --proxy-headers --forwarded-allow-ips 127.0.0.1
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=default.target

@@ -98,8 +98,20 @@ The script pins the interpreter via `PYTHON_EXE` at the top — edit that line i
 Python with the backend dependencies lives elsewhere.
 
 ### 1. Database Configuration (Supabase)
-Deploy the schemas located in `supabase/migrations/` using the Supabase SQL editor or CLI,
-**in filename order**. This:
+The database is a **local Supabase stack in Docker** (the hosted project was deleted in
+Aug 2026). Start it with the wrapper, not bare `supabase start`:
+```bash
+./deploy/supabase-start.sh
+```
+Supabase recreates its Docker network on every start and publishes Postgres (password
+`postgres`), the API and Studio on **all interfaces** -- i.e. to anyone on your Wi-Fi. The
+wrapper pre-creates that network bound to `127.0.0.1`. (`"ip"` in `daemon.json` does not
+help: it only covers Docker's default bridge.) Check with
+`docker ps --format '{{.Ports}}' | grep 0.0.0.0` -- it should print nothing.
+
+Apply the schemas in `supabase/migrations/` **in filename order** with
+`supabase migration list --local` (confirm only the expected ones are pending), then
+`supabase migration up --local`. This:
 - Enables the `vector` extension.
 - Creates tables for `students`, `labs_cached_grants`, `matches`, `outreach_logs`, and `analytics_events`.
 - Registers the custom pgvector `match_grants` cosine similarity function.
@@ -161,19 +173,48 @@ to `http://localhost:8000` — keep the backend on port 8000 or update both.
 
 ## 🌐 Production & Domain Configuration
 
-- **Owned Production Domain**: [`https://lab-match.com`](https://lab-match.com) (and `https://www.lab-match.com`)
-- **GCP Hosting Project**: `divine-display-497123-h7` (us-central1)
-- **Cloud Run Services**:
-  - `labmatch-frontend`: `https://labmatch-frontend-qji7c3n33a-uc.a.run.app`
-  - `labmatch-backend`: `https://labmatch-backend-qji7c3n33a-uc.a.run.app`
-- **Firebase Hosting Site**: `divine-display-497123-h7`
-- **Google OAuth Redirect URI**: `https://lab-match.com/auth/google/callback`
+**Self-hosted on the owner's Linux machine since 2026-09-28.** Everything -- frontend, API,
+database -- runs locally; nothing listens on the LAN.
+
+```
+browser -> lab-match.com (Cloudflare DNS) =tunnel=> cloudflared
+        -> Caddy 127.0.0.1:8080 -+- /auth /profile /grants /agent /analytics -> uvicorn 127.0.0.1:8000 -> local Supabase
+                                 +- everything else -> frontend/dist (SPA fallback)
+```
+
+- **Domain**: [`https://lab-match.com`](https://lab-match.com) and `www` -- CNAMEs to Cloudflare
+  Tunnel `labmatch`. Tunnel config and credentials live in `~/.cloudflared/` (not in git).
+- **Services** (`systemd --user`, enabled with linger so they start at boot without a login):
+  `labmatch-backend`, `labmatch-web` (Caddy), `labmatch-tunnel`. Unit files and the
+  `Caddyfile` are in [`deploy/`](deploy/); install by copying the units to
+  `~/.config/systemd/user/`.
+- **Prod config**: `labmatch-backend.service` overrides `GOOGLE_REDIRECT_URI` and
+  `FRONTEND_ORIGIN` for the live origin; `backend/.env` keeps the dev values.
+- **Google OAuth Redirect URI**: `https://lab-match.com/auth/google/callback` (keep the
+  `localhost:8000` one too, for dev).
+- **Deploying a change**: the live site runs whatever is checked out in `~/Lab-Match-AI`.
+  Backend: `systemctl --user restart labmatch-backend`. Frontend: `npm run build` (Caddy
+  serves the new `dist/` immediately).
+- **Logs**: `journalctl --user -u labmatch-backend -f` (or `-u labmatch-web`, `-u labmatch-tunnel`).
+- **Single point of failure**: this machine, its SD card and home internet. Back up the DB
+  off-machine (`pg_dump`; restore steps in the backup's `RESTORE.md` -- note pgvector lives
+  in `public` and a `-n public` dump does not recreate it).
+
+**Retired**: Firebase Hosting + Cloud Run (`labmatch-backend`/`labmatch-frontend` in GCP
+project `divine-display-497123-h7`). They went down ~2026-09-17 when billing was unlinked,
+and pointed at a deleted hosted Supabase. `firebase.json` and the Dockerfiles are kept
+only as a fallback.
 
 ---
 
 ## 🛠️ Troubleshooting & Common Issues
 
 If you or a collaborator encounter network issues during setup, check the following:
+
+- **🔒 `Address already in use` on port 8000 (this machine)**:
+  - The live backend service holds `127.0.0.1:8000`. For local dev, pause it with
+    `systemctl --user stop labmatch-backend` (**this takes lab-match.com's API down**) and
+    `systemctl --user start labmatch-backend` when done.
 
 - **🔌 "Network Error" on Onboarding / Profile Sync**:
   - Ensure the **FastAPI backend** is actively running on `http://localhost:8000`. Uvicorn must be started from the **repository root** (not `backend/`):

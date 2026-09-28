@@ -1,0 +1,12 @@
+[Unit]
+Description=LabMatch Cloudflare Tunnel
+After=network-online.target labmatch-web.service
+
+[Service]
+ExecStart=%h/.local/bin/cloudflared \
+  --no-autoupdate tunnel run
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=default.target

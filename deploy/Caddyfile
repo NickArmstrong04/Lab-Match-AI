@@ -1,0 +1,27 @@
+# Local production web server: built frontend + API proxy on ONE origin.
+# Reached only through the Cloudflare Tunnel -- binds loopback, never the LAN.
+{
+      admin off
+      auto_https off
+}
+
+http://:8080 {
+      bind 127.0.0.1
+      encode gzip
+
+      # Same prefixes firebase.json forwarded to Cloud Run.
+      @api path /auth /auth/* /profile /profile/* /grants /grants/* /agent /agent/* /analytics /analytics/*
+      handle @api {
+              reverse_proxy 127.0.0.1:8000
+      }
+
+      handle {
+              root * {$LABMATCH_ROOT}/frontend/dist
+              @assets path /assets/*
+              header @assets Cache-Control "public, max-age=31536000, immutable"
+              @shell not path /assets/*
+              header @shell Cache-Control "no-cache"
+              try_files {path} /index.html
+              file_server
+      }
+}
