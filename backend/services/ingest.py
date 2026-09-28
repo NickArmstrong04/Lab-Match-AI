@@ -139,14 +139,19 @@ def parse_nsf_date(date_str: str) -> str:
 def scan_methodologies(title: str, abstract: str) -> List[str]:
     """
     Scan grant text and extract matching methodologies.
+
+    Returns [] when no keyword is present. This used to return ["Research Analysis"], a
+    tag we made up so the list was never empty. It was stored on the row, embedded into
+    the vector that drives the match score, and rendered on the card as one of the
+    project's methodologies, next to a real award number. An award whose text names none
+    of our keywords has no tags; that is the honest value. Rows ingested before this
+    change still carry the filler until they are re-scanned.
     """
-    combined = (title + " " + abstract).lower()
+    combined = ((title or "") + " " + (abstract or "")).lower()
     methodologies = []
     for kw in KEYWORDS_METHODOLOGIES:
         if kw.lower() in combined:
             methodologies.append(kw)
-    if not methodologies:
-        methodologies = ["Research Analysis"]
     return methodologies
 
 def fetch_nih_grants(keyword: str, limit: int = 15, offset: int = 0) -> List[dict]:
@@ -749,7 +754,18 @@ def expand_grant_abstract_via_llm(grant: dict) -> str:
     pi_name = grant.get("pi_name", "Dr. Unknown Investigator")
     university = grant.get("university", "Unknown Institution")
     funding_source = grant.get("funding_source", "Federal Agency")
-    methodologies = grant.get("methodologies") or ["Research Analysis"]
+    # No filler when the scan found nothing (scan_methodologies now returns []). The
+    # prompt lines that name methodologies are dropped instead: "Methodologies: Research
+    # Analysis" asked Gemini to explain how an invented tag is applied.
+    methodologies = grant.get("methodologies") or []
+    methodologies_line = (
+        f"Methodologies: {', '.join(methodologies)}" if methodologies else ""
+    )
+    methodologies_focus = (
+        f"- How the methodologies ({', '.join(methodologies)}) are likely applied to achieve these objectives."
+        if methodologies
+        else ""
+    )
     
     # Routed through gemini_transport so the same call works against the Developer API
     # (key) or Vertex AI (GCP credits) -- see services/gemini_transport.py.
@@ -761,13 +777,13 @@ def expand_grant_abstract_via_llm(grant: dict) -> str:
     Principal Investigator: {pi_name}
     Institution: {university}
     Funding Agency: {funding_source}
-    Methodologies: {', '.join(methodologies)}
+    {methodologies_line}
     
     The current description/abstract is either missing or too brief. Please generate a comprehensive, technical, and scientifically accurate research abstract and project synthesis (1-2 paragraphs, around 150-250 words) that describes what this research project likely entails.
     
     Focus on:
     - The background, significance, and objective of the research based on the title.
-    - How the methodologies ({', '.join(methodologies)}) are likely applied to achieve these objectives.
+    {methodologies_focus}
     - The potential impact on the field (e.g., healthcare, energy, computer science, environment).
     
     Ensure it sounds professional, scientific, and reads like a real federal grant abstract. Do not include any meta-text, intro/outro, or pleasantries. Output only the generated abstract text.

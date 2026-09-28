@@ -1,13 +1,21 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { ArrowLeft, Mail, AlertCircle, CheckCircle2, RefreshCw, Copy, ExternalLink, Paperclip } from 'lucide-react';
 import GlassCard from '../components/GlassCard';
-import CircularScore from '../components/CircularScore';
+import CircularScore, { SimilarityNotes } from '../components/CircularScore';
 import { type GrantMatch } from './Dashboard';
 import api from '../api/axios';
 import { trackEvent } from '../utils/analytics';
 import { getDraft, saveDraft, clearDraft, getSession } from '../utils/session';
 import { piDisplayName } from '../utils/pi';
 import { SARAH_DEMO_STUDENT_ID, ELENA_DEMO_STUDENT_ID } from '../utils/demoPersonas';
+import {
+  NO_RECORD_LINK,
+  agencyPillClass,
+  agencyPillText,
+  isDemoCard,
+  recordSiteName,
+  similarityValue,
+} from '../utils/card';
 import AiPiBadge from '../components/AiPiBadge';
 
 interface EmailReviewProps {
@@ -30,6 +38,9 @@ export const EmailReview: React.FC<EmailReviewProps> = ({
   // student already pasted for THIS grant is different: it's their own verified find,
   // not our invention, and it saves them repeating the lookup for a follow-up.
   const [to, setTo] = useState(match.pi_email || '');
+  // Demo personas: exact UUID, or the server's flag on the card itself.
+  const isDemo = isDemoCard(studentId, match);
+  const similarity = similarityValue(match);
   const [subject, setSubject] = useState('');
   const [body, setBody] = useState('');
   // The AI draft as first generated (NOT a restored saved draft), so we can measure how
@@ -199,7 +210,7 @@ export const EmailReview: React.FC<EmailReviewProps> = ({
         const sampleSubject = "Inquiry: Biomedical Research Alignment — Sarah Nguyen";
         const sampleBody = `Dear Dr. ${piLastName},
 
-I hope this email finds you well. My name is Sarah Nguyen, and I am a pre-med student at Stanford University. I recently analyzed your active NIH funded project, "${match.title || 'Deep Learning for Genomic Mutation Analysis'}\" within the Bioengineering department, and was immediately struck by the outstanding alignment between your laboratory's focus and my academic competencies.
+I hope this email finds you well. My name is Sarah Nguyen, and I am a pre-med student at Stanford University. I recently analyzed your active NIH funded project, "${match.title || 'Deep Learning for Genomic Mutation Analysis'}\", and was immediately struck by the outstanding alignment between your laboratory's focus and my academic competencies.
 
 Specifically, my research interests are highly optimized for your current methodologies. According to my parsed CV, I have hands-on experience in machine learning architectures, genomic analysis, and tumor cellular target engagement. I noticed your project leverages advanced deep learning models to map somatic cancer mutations and transcription factor shifts, which directly matches the computational research pipeline I want to assist with.
 
@@ -221,7 +232,7 @@ Sarah Nguyen`;
         const sampleSubject = "Inquiry: CRISPR & Base Editing Research Alignment — Elena Rostova";
         const sampleBody = `Dear Dr. ${piLastName},
 
-I hope this email finds you well. My name is Elena Rostova, and I am a molecular biology student at Harvard University. I recently analyzed your active NIH funded project, "${match.title || 'Precision Epigenetic Base Editing in Human Stem Cells'}\" within the Molecular & Cellular Biology department, and was immediately struck by the outstanding alignment between your laboratory's focus and my academic competencies.
+I hope this email finds you well. My name is Elena Rostova, and I am a molecular biology student at Harvard University. I recently analyzed your active NIH funded project, "${match.title || 'Precision Epigenetic Base Editing in Human Stem Cells'}\", and was immediately struck by the outstanding alignment between your laboratory's focus and my academic competencies.
 
 Specifically, my research interests are highly optimized for your current methodologies. According to my parsed CV, I have hands-on experience in molecular cloning, CRISPR-Cas9 genome editing, mammalian cell transfection, and epigenetic assay profiling. I noticed your project leverages advanced CRISPR base editors to modify genomic loci in hematopoietic stem cells, which directly matches the molecular research pipeline I want to assist with.
 
@@ -261,23 +272,25 @@ Elena Rostova`;
         // "parsed CV" claim. It also names no award: we found this lab through a
         // federal record, but the student didn't, and quoting the project title back
         // at the PI reads as odd and exposes the funding-database provenance.
-        const skills = (match.matching_skills || []).slice(0, 3);
         setSubject(`Research assistant inquiry — ${studentName}`);
         // pi_lookup_url is null exactly when the PI was never resolved (same signal the
         // To-field hint uses), so it also tells us there's no real name to address.
         const piLast = match.pi_lookup_url ? match.pi_name.split(' ').pop() : null;
         const greeting = piLast ? `Dear Dr. ${piLast},` : 'Dear Professor,';
-        // "Research Department" is the ingest placeholder, not a real department — naming it
-        // produced "your group's work in Research Department". Mirrors get_fallback_draft.
-        const dept = match.department && match.department.trim() !== 'Research Department'
-          && match.department.trim().length <= 40 ? match.department.trim() : '';
+        // No department, ever. The stored column holds constants written by ingest, not
+        // a published affiliation; filtering out one placeholder by name and anything
+        // over 40 characters still let the other constants through, into an email a
+        // student sends to a real PI under their own name.
         // Institution names like "Organos, Inc." already end in a period.
         const uni = (match.institution || '').trim();
         const stop = uni.endsWith('.') ? '' : '.';
-        const intro = `${greeting}\n\nI hope this email finds you well. My name is ${studentName}, and I am a student reaching out about research opportunities in your lab at ${uni}${stop} Your group's ${dept ? `work in ${dept}` : 'research'} connects closely with my research interests.`;
-        const center = skills.length
-          ? `I have hands-on experience with ${skills.join(', ')}, and I'd be glad to contribute to your group in whatever capacity would be most useful.`
-          : `I'd be glad to contribute to your group in whatever capacity would be most useful.`;
+        const intro = `${greeting}\n\nI hope this email finds you well. My name is ${studentName}, and I am a student reaching out about research opportunities in your lab at ${uni}${stop} Your group's research connects closely with my research interests.`;
+        // No "hands-on experience with ..." sentence. It was filled from
+        // matching_skills: our keyword scan of the award text intersected with the
+        // profile, not anything the student told us they have done. New payloads send [],
+        // but a card loaded before a backend restart still carries the old list, and this
+        // branch runs exactly when the backend is unreachable.
+        const center = `I'd be glad to contribute to your group in whatever capacity would be most useful.`;
         // The backend is unreachable here, so resume_url isn't available — the stored
         // session's resumeName is the same presence marker written at onboarding.
         const hasCv = !!getSession()?.resumeName;
@@ -354,13 +367,13 @@ Elena Rostova`;
           <div className="space-y-6">
             <div>
               <span className={`inline-block text-[9px] px-2 py-0.5 rounded-full font-bold font-mono tracking-wide uppercase mb-3
-                ${match.agency === 'NIH' ? 'bg-blue-50 text-blue-800 border border-blue-200' : 'bg-emerald-50 text-emerald-800 border border-emerald-200'}
+                ${agencyPillClass(match)}
               `}>
-                {match.agency} FUNDING TARGET
+                {agencyPillText(match)}
               </span>
               {/* Backstop for an over-long title (see Dashboard). This card is
                   overflow-hidden, so without the clamp an oversized headline pushed the
-                  score dial and methodologies out of the pane entirely. */}
+                  score dial and description out of the pane entirely. */}
               <h3
                 className="text-2xl font-semibold font-outfit text-stone-900 leading-tight line-clamp-3"
                 title={match.title}
@@ -368,28 +381,33 @@ Elena Rostova`;
                 {match.title}
               </h3>
               <p className="text-stone-600 text-sm mt-2">
-                {/* pi_name already carries "Dr." -- prefixing it again rendered "Dr. Dr. ..." */}
+                {/* piDisplayName drops the "Dr. " our ingest prepends; no agency publishes it. */}
                 {piDisplayName(match)}
                 {match.pi_is_generated && <> <AiPiBadge /></>} • <span className="text-stone-800">{match.institution}</span>
               </p>
             </div>
 
-            {/* Score dial context */}
-            <div className="flex items-center gap-5 p-4 rounded-lg bg-stone-50 border border-stone-200">
-              <CircularScore score={match.score} size={80} strokeWidth={7} />
-              <div className="space-y-1">
-                <h4 className="text-sm font-semibold text-stone-900">Synthesized Match Analysis</h4>
-                <p className="text-xs text-stone-600 leading-relaxed">
-                  Your parsed profile demonstrates high proficiency in <span className="text-[#0d5c5c] font-semibold">{match.matching_skills.slice(0, 3).join(', ')}</span>, directly requested in this lab's methodology.
-                </p>
+            {/* Similarity context. The sentence that stood here asserted the student had
+                "high proficiency" in skills the lab had "directly requested": the skills
+                were keyword-tag overlap and no award record requests anything. */}
+            <div className="flex items-start gap-5 p-4 rounded-lg bg-stone-50 border border-stone-200">
+              <div className="shrink-0">
+                <CircularScore score={similarity} size={72} strokeWidth={6} isDemo={isDemo} />
               </div>
+              <SimilarityNotes
+                hasScore={similarity !== null}
+                abstractIsGenerated={!!match.abstract_is_generated}
+                isDemo={isDemo}
+              />
             </div>
 
-            {/* Methodology Focus */}
+            {/* Award description. The "AI-generated summary" pill stays with the text it
+                labels; only the "Key Project Methodologies" heading went, since the text
+                under it is an abstract and nothing here lists methodologies. */}
             <div className="space-y-3">
               <div className="flex items-center gap-2 flex-wrap">
                 <h4 className="text-xs font-semibold text-stone-500 uppercase tracking-widest">
-                  Key Project Methodologies
+                  Award Description
                 </h4>
                 {match.abstract_is_generated && (
                   <span
@@ -448,16 +466,20 @@ Elena Rostova`;
                 {/* Authoritative federal record for this award (NIH RePORTER / NSF). The
                     page itself is the source of truth, so it's honest by construction and
                     a reliable jump-off to confirm the PI before the lab-page hunt below. */}
-                {match.source_record_url && (
+                {match.source_record_url ? (
                   <a
                     href={match.source_record_url}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-[#0d5c5c] font-semibold text-xs flex items-center gap-1 hover:underline"
                   >
-                    View this award on {match.agency === 'NSF' ? 'NSF Award Search' : 'NIH RePORTER'}
+                    View this award on {recordSiteName(match)}
                     <ExternalLink className="w-3 h-3 shrink-0" />
                   </a>
+                ) : !isDemo && (
+                  // Only NIH and NSF rows carry a link. Not on the persona decks: there
+                  // is no federal record behind a fictional award to be missing a link to.
+                  <p className="text-stone-500 text-xs leading-snug">{NO_RECORD_LINK}</p>
                 )}
                 {match.pi_lookup_url ? (
                   <a
@@ -466,7 +488,7 @@ Elena Rostova`;
                     rel="noopener noreferrer"
                     className="text-[#0d5c5c] font-semibold text-xs inline-flex items-center gap-1 hover:underline"
                   >
-                    Find {match.pi_name}'s email on their lab page <ExternalLink className="w-3 h-3 shrink-0" />
+                    Find {piDisplayName(match)}'s email on their lab page <ExternalLink className="w-3 h-3 shrink-0" />
                   </a>
                 ) : (
                   // PI unresolved on the funding record; don't send them on a dead-end search.
@@ -589,9 +611,10 @@ Elena Rostova`;
                 )}
               </div>
 
-              {/* Clipboard permission denied — the pitch is still in the textarea above */}
+              {/* Clipboard permission denied — the pitch is still in the textarea above.
+                  Stone: amber is reserved for provenance warnings. */}
               {copyFailed && (
-                <div className="border border-amber-200 bg-amber-50/70 text-amber-900 rounded-lg px-3.5 py-2.5 text-xs leading-relaxed">
+                <div className="border border-stone-200 bg-stone-100 text-stone-700 rounded-lg px-3.5 py-2.5 text-xs leading-relaxed">
                   We couldn't reach your clipboard. Select the text above and copy it with
                   <span className="font-mono font-semibold"> Ctrl+C</span> — your edits are safe.
                 </div>

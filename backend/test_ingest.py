@@ -109,25 +109,36 @@ async def run_tests():
     print(f"  Student created with ID: {student_id}")
     print(f"  Extracted competencies: {student_data.get('structured_competencies', {}).get('skills', [])}")
 
-    # Test GET /grants/matches under different methodologies
-    for method in ["embedding", "keyword", "hybrid"]:
-        print(f"\n  Calculating compatibility scores using method='{method}'...")
-        matches = await get_matches(
-            student_id=student_id,
-            method=method,
-            limit=3,
-            threshold=0.1
-        )
-        print(f"  Matches found for method '{method}': {len(matches)}")
-        for idx, m in enumerate(matches, 1):
-            print(f"    #{idx} [{m['agency']}] {m['title'][:50]}...")
-            print(f"      Score: {m['score']}% | PI: {m['pi_name']} | Matching: {m['matching_skills']}")
-
-    # Clean up the test student to keep DB clean
-    print("\n  Cleaning up temporary test student...")
-    db = get_db()
-    db.table("students").delete().eq("id", student_id).execute()
-    print("  Cleanup complete!")
+    # try/finally: this student is a real row in the production students table. A crash
+    # in the loop below used to skip the delete and leave it (and its embedding) behind.
+    try:
+        # Test GET /grants/matches under different methodologies
+        for method in ["embedding", "keyword", "hybrid"]:
+            print(f"\n  Reading the deck using method='{method}'...")
+            result = await get_matches(
+                student_id=student_id,
+                method=method,
+                limit=3,
+                threshold=0.1
+            )
+            # get_matches returns the envelope {matches, next_offset, exhausted}
+            # (deck_envelope), not a bare list. Iterating the dict walked its three keys.
+            assert isinstance(result, dict), "get_matches did not return the deck envelope"
+            assert isinstance(result.get("next_offset"), int), "next_offset is not an int"
+            assert isinstance(result.get("exhausted"), bool), "exhausted is not a bool"
+            matches = result["matches"]
+            print(f"  Matches found for method '{method}': {len(matches)} "
+                  f"(next_offset={result['next_offset']}, exhausted={result['exhausted']})")
+            for idx, m in enumerate(matches, 1):
+                print(f"    #{idx} [{m['agency']}] {m['title'][:50]}...")
+                # matching_skills is always [] now, so the breakdown is printed instead.
+                print(f"      Score: {m['score']} | PI: {m['pi_name']} | Components: {m['score_components']}")
+    finally:
+        # Clean up the test student to keep DB clean
+        print("\n  Cleaning up temporary test student...")
+        db = get_db()
+        db.table("students").delete().eq("id", student_id).execute()
+        print("  Cleanup complete!")
 
     print("\n==================================================")
     print("   [ALL TESTS PASSED] PHASE 3 PIPELINE IS READY!  ")

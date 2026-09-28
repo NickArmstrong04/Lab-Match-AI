@@ -40,7 +40,6 @@ def query_gemini_draft(
     student_education: str,
     pi_name: str,
     university: str,
-    department: str,
     grant_title: str,
     grant_abstract: str,
     abstract_is_generated: bool,
@@ -131,8 +130,11 @@ def query_gemini_draft(
     if pi_known:
         lab_lines.append(f"- PI: {pi_name}")
     lab_lines.append(f"- University: {university}")
-    if department:
-        lab_lines.append(f"- Department: {department}")
+    # No department line. No award API publishes the lab's department, so ingest fills
+    # labs_cached_grants.department with a stand-in: a DUNS description or the literal
+    # "Research Department" for NIH, a fixed string for NSF, and the awarding sub-agency
+    # for USAspending. None of those is the PI's department. Naming it here handed Gemini a department the lab may
+    # have nothing to do with and invited it into the email.
     lab_lines.append(f"- Research topic, per the project title: {grant_title}")
 
     if grant_abstract and abstract_is_generated:
@@ -141,7 +143,7 @@ def query_gemini_draft(
             f"award metadata, NOT the PI's own words; specific methods or aims stated in it may be "
             f"inaccurate): {grant_abstract}\n\n"
             "Because the description above is a paraphrase, keep every claim about the lab at the "
-            "TOPIC level: describe the lab's general research area using the title, department, and "
+            "TOPIC level: describe the lab's general research area using the title and "
             "broad subject matter. Do NOT assert that the lab uses any specific method, model, "
             "organism, dataset, or technique that appears only in the description."
         )
@@ -155,7 +157,7 @@ def query_gemini_draft(
     else:
         provenance_block = (
             "No research description is available. Ground the email only in the research topic from "
-            "the title and department, at the topic level."
+            "the title, at the topic level."
         )
 
     greeting_rule = (
@@ -381,7 +383,6 @@ def get_fallback_draft(
     student_skills: list,
     pi_name: str,
     university: str,
-    department: str = "",
     education: str = "",
     has_cv: bool = False,
 ) -> dict:
@@ -396,7 +397,11 @@ def get_fallback_draft(
     It also no longer quotes the grant title. We found this lab through a federal award
     record, but the student did not -- "I read about your project, <title>" both reads as
     odd to a PI and reveals that the pitch came out of a funding database. The template
-    now references the lab and its department instead.
+    references the lab instead.
+
+    It names no department either. The stored department is an ingest placeholder (see
+    query_gemini_draft), not something an agency published about this lab, so "your
+    group's work in <department>" was a claim about the PI that we had no source for.
 
     Returns is_fallback=True so the composer can flag it as a template and offer a retry
     rather than passing it off as the personalized draft.
@@ -415,25 +420,11 @@ def get_fallback_draft(
     else:
         background = "my academic background"
 
-    # The endpoint's own placeholder ("Research Department") is not a real department, and an
-    # over-long value is a data-quality artifact rather than something to put in a sentence.
-    dept = (department or "").strip()
-    if dept in ("", "Research Department") or len(dept) > 40:
-        dept = ""
-
     # "Undergraduate" is not ours to assert either: the app targets undergrads, but the
     # profile is the only evidence of a level and this template does not read it.
-    subject = (
-        f"Interested in your {dept} research — {student_name}"
-        if dept
-        else f"Research assistant inquiry — {student_name}"
-    )
+    subject = f"Research assistant inquiry — {student_name}"
 
-    lab_line = (
-        f"Your group's work in {dept} connects closely with {background}."
-        if dept
-        else f"Your group's research connects closely with {background}."
-    )
+    lab_line = f"Your group's research connects closely with {background}."
 
     # "Organos, Inc." already ends in a period; adding the sentence's own gave "Inc..".
     uni_display = (university or "").strip()
@@ -521,10 +512,18 @@ async def draft_email(
         grant = grant_res.data[0]
         pi_name = grant.get("pi_name", "Principal Investigator")
         university = grant.get("university", "Partner Institution")
-        # Empty means unknown. The old default here was "Biomedical/EECS", which handed
-        # Gemini a department this lab may have nothing to do with -- a small fabrication,
-        # but the prompt then asked it to name the department in the email.
-        department = grant.get("department") or ""
+        # grant["department"] is deliberately not read. No award API publishes the lab's
+        # department; the column holds ingest placeholders, so any draft or prompt that
+        # named it was asserting something about this lab that nobody ever sourced.
+        # The funder is the stored funding_source or nothing. This used to read
+        # grant.get('agency', 'NSF') -- the table has no `agency` column, so every award,
+        # NIH and DOD included, was described as NSF funded.
+        funding_source = grant.get("funding_source") or None
+        funded_project = (
+            f"your active {funding_source} funded project"
+            if funding_source
+            else "your active funded project"
+        )
         # False = the abstract is verbatim federal text and its research directions can be
         # referenced. True = Gemini wrote it from award metadata (every USAspending row),
         # so alignment has to stay topic-level. Same default as fetch_grant_details().
@@ -549,7 +548,7 @@ async def draft_email(
                     "body": (
                         f"Dear Dr. {pi_name.split(' ').pop()},\n\n"
                         f"I hope this email finds you well. My name is Sarah Nguyen, and I am a pre-med student at Stanford University. "
-                        f"I recently analyzed your active {grant.get('agency', 'NSF')} funded project, \"{grant_title}\" within the {department or 'Genetics'}, "
+                        f"I recently analyzed {funded_project}, \"{grant_title}\", "
                         f"and was immediately struck by the outstanding alignment between your laboratory's focus and my academic competencies.\n\n"
                         f"Specifically, my research interests are highly optimized for your current methodologies. According to my parsed CV, "
                         f"I have hands-on experience in machine learning architectures, genomic analysis, and tumor cellular target engagement. "
@@ -572,7 +571,6 @@ async def draft_email(
                     student_education=student_education,
                     pi_name=pi_name,
                     university=university,
-                    department=department,
                     grant_title=grant_title,
                     grant_abstract=grant_abstract,
                     abstract_is_generated=abstract_is_generated,
@@ -613,7 +611,6 @@ async def draft_email(
             )
             draft = get_fallback_draft(
                 student_name, student_skills, pi_name, university,
-                department=department,
                 education=student_education,
                 has_cv=has_cv,
             )

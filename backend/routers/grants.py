@@ -21,6 +21,11 @@ ELENA_DEMO_STUDENT_ID = "33333333-3333-3333-3333-333333333333"
 
 
 def _demo_decks() -> dict:
+    # Every card carries is_demo so the frontend can tell a scripted card from a federal
+    # record by the card itself, not only by the student id it happens to be holding.
+    # department is "" and recommended_role is None here exactly as on real cards: no
+    # award record states a department or says what role a lab would offer, and these
+    # decks are what the ad recordings show. Scores and text are otherwise untouched.
     return {
         SARAH_DEMO_STUDENT_ID: [
             {
@@ -31,7 +36,7 @@ def _demo_decks() -> dict:
                 "source_record_url": None,
                 "institution": "UC Berkeley",
                 "university": "UC Berkeley",
-                "department": "EECS",
+                "department": "",
                 "title": "Autonomous Robotics for Pediatric Surgical Assistance",
                 "grant_title": "Autonomous Robotics for Pediatric Surgical Assistance",
                 "agency": "NSF",
@@ -42,11 +47,12 @@ def _demo_decks() -> dict:
                 "abstract": "Developing computer vision algorithms and reinforcement learning policies to assist surgeons in pediatric micro-surgery. The project targets automated tool tracking, semantic segmentation of blood vessels, and real-time path planning in delicate environments.",
                 "score": 68,
                 "compatibility_score": 68,
-                "matching_skills": ["python"],
-                "missing_skills": ["computer vision", "robotics", "reinforcement learning"],
+                "matching_skills": [],
+                "missing_skills": [],
                 "methodologies": ["Computer Vision", "Robotics", "Reinforcement Learning"],
-                "recommended_role": "Research Assistant",
+                "recommended_role": None,
                 "location_match": False,
+                "is_demo": True,
             },
             {
                 "id": "11111111-1111-1111-1111-111111111111",
@@ -55,7 +61,7 @@ def _demo_decks() -> dict:
                 "source_record_url": None,
                 "institution": "Stanford University",
                 "university": "Stanford University",
-                "department": "Bioengineering",
+                "department": "",
                 "title": "Deep Learning for Genomic Mutation Analysis",
                 "grant_title": "Deep Learning for Genomic Mutation Analysis",
                 "agency": "NIH",
@@ -66,11 +72,12 @@ def _demo_decks() -> dict:
                 "abstract": "This research focuses on utilizing deep neural networks to identify non-coding genomic variants associated with cardiovascular diseases. We apply transformer models and convolutional neural networks to predict splicing disruption and transcription factor binding shifts.",
                 "score": 98,
                 "compatibility_score": 98,
-                "matching_skills": ["deep learning", "genomics", "transformers", "python"],
+                "matching_skills": [],
                 "missing_skills": [],
                 "methodologies": ["Deep Learning", "Genomics", "Transformers", "Python"],
-                "recommended_role": "Computational Biologist Research Assistant",
+                "recommended_role": None,
                 "location_match": True,
+                "is_demo": True,
             },
         ],
         ELENA_DEMO_STUDENT_ID: [
@@ -81,7 +88,7 @@ def _demo_decks() -> dict:
                 "source_record_url": None,
                 "institution": "MIT",
                 "university": "MIT",
-                "department": "Biology",
+                "department": "",
                 "title": "Plant Genomes and Environmental Stress Proximity",
                 "grant_title": "Plant Genomes and Environmental Stress Proximity",
                 "agency": "NSF",
@@ -92,11 +99,12 @@ def _demo_decks() -> dict:
                 "abstract": "Investigating epigenetic changes in Arabidopsis thaliana under high salinity and drought conditions to maximize crop yield. We examine histones and chromatin dynamics using next-generation sequencing libraries and plant microfluidic arrays.",
                 "score": 58,
                 "compatibility_score": 58,
-                "matching_skills": ["python"],
-                "missing_skills": ["plant biology", "epigenetics", "microfluidics"],
+                "matching_skills": [],
+                "missing_skills": [],
                 "methodologies": ["Plant Biology", "Epigenetics", "Microfluidics"],
-                "recommended_role": "Research Assistant",
+                "recommended_role": None,
                 "location_match": False,
+                "is_demo": True,
             },
             {
                 "id": "33333333-3333-3333-3333-333333333333",
@@ -105,7 +113,7 @@ def _demo_decks() -> dict:
                 "source_record_url": None,
                 "institution": "Harvard University",
                 "university": "Harvard University",
-                "department": "Molecular & Cellular Biology",
+                "department": "",
                 "title": "Precision Epigenetic Base Editing in Human Stem Cells",
                 "grant_title": "Precision Epigenetic Base Editing in Human Stem Cells",
                 "agency": "NIH",
@@ -116,11 +124,12 @@ def _demo_decks() -> dict:
                 "abstract": "Developing next-generation CRISPR-Cas base editors to modify genomic loci in hematopoietic stem cells. We optimize target specificity and construct engineered guide RNAs to achieve highly localized nucleobase transitions and study disease phenotypic recovery.",
                 "score": 98,
                 "compatibility_score": 98,
-                "matching_skills": ["molecular biology", "crispr-cas9", "stem cells", "epigenetics"],
+                "matching_skills": [],
                 "missing_skills": [],
                 "methodologies": ["Molecular Biology", "CRISPR-Cas9", "Stem Cells", "Epigenetics"],
-                "recommended_role": "Molecular Biology Research Assistant",
+                "recommended_role": None,
                 "location_match": True,
+                "is_demo": True,
             },
         ],
     }
@@ -165,13 +174,127 @@ PI_UNRESOLVED = "Dr. Unknown Investigator"
 def pi_is_resolved(pi_name: Optional[str]) -> bool:
     """False when we never identified the PI (USAspending awards whose PI resolution
     failed keep this placeholder). Such a card has no real person to look up."""
-    return bool(pi_name) and pi_name.strip() != PI_UNRESOLVED
+    # Whitespace-only counts as empty: it would otherwise pass as a name and keep a
+    # PI-less USAspending row in the deck (see is_unresolved_usaspending_row).
+    return bool(pi_name and pi_name.strip()) and pi_name.strip() != PI_UNRESOLVED
 
 
 # Sources routed through USAspending, which publishes no PI at all -- every named PI on
 # these rows came from Gemini search-grounding (services/ingest.py process_single_grant,
 # recover_unknown_pis.py). NIH RePORTER / NSF publish the PI, so theirs are verbatim.
 USASPENDING_SOURCES = frozenset({"DOD", "DNR", "DOE", "EPA", "NASA", "USDA"})
+
+
+def is_unresolved_usaspending_row(funding_source: Optional[str], pi_name: Optional[str]) -> bool:
+    """True for a USAspending award with nobody to write to.
+
+    Owner decision (phase 1): these rows are not shown. USAspending publishes no PI, so
+    when resolution failed the card had a recipient institution, a dollar figure and no
+    person -- nothing a student can act on. NIH/NSF rows are never dropped by this test;
+    those agencies publish the PI, and a missing one there is a different problem.
+    """
+    return (funding_source or "") in USASPENDING_SOURCES and not pi_is_resolved(pi_name)
+
+
+def amount_basis_for(funding_source: Optional[str]) -> Optional[str]:
+    """What the stored award_amount measures, which differs by agency and is not
+    comparable across them. Derived from funding_source in code because ingest writes one
+    field per source (services/ingest.py): RePORTER `award_amount` is one fiscal year of
+    the project, NSF `fundsObligatedAmt` is the amount obligated on the whole award, and
+    USAspending `Award Amount` is the total federal obligation. Shown bare, $400k for one
+    NIH year and $400k for a five-year NSF award read as the same thing.
+
+    None for an unknown or missing source: we do not guess a basis.
+    """
+    if funding_source == "NIH":
+        return "nih_fiscal_year"
+    if funding_source == "NSF":
+        return "nsf_obligated"
+    if funding_source in USASPENDING_SOURCES:
+        return "usaspending_obligation"
+    return None
+
+
+def award_amount_state(raw) -> tuple:
+    """(amount, state) for the stored award_amount.
+
+    The card used to emit float(x or 0), which turned "no amount on record" into $0 on
+    the card. The states are kept apart because they mean different things:
+      value          stored > 0; the only case that carries a number
+      not_published  stored NULL
+      zero           stored 0. Ingest coerces a missing API amount to 0 before writing
+                     (services/ingest.py), so a stored 0 cannot be told apart from a
+                     published 0 and is reported as its own state, not as not_published
+      negative       stored < 0 (USAspending net de-obligations)
+    A stored value that is not a number at all is reported as not_published: there is no
+    figure we can show, and no evidence for any of the other three.
+    """
+    if raw is None or isinstance(raw, bool):
+        return None, "not_published"
+    try:
+        amount = float(raw)
+    except (TypeError, ValueError):
+        return None, "not_published"
+    if amount != amount:  # NaN
+        return None, "not_published"
+    if amount > 0:
+        return amount, "value"
+    if amount == 0:
+        return None, "zero"
+    return None, "negative"
+
+
+# The two campus nicknames students actually type that share no substring with the
+# institution name the agencies publish.
+_CAMPUS_ALIASES = {
+    "mit": "massachusetts institute of technology",
+    "caltech": "california institute of technology",
+}
+_CAMPUS_MIN_CLEANED_LEN = 4
+
+
+def _clean_campus_name(name: str) -> str:
+    return (
+        name.lower()
+        .replace("university", "")
+        .replace("institute of technology", "")
+        .replace("college", "")
+        .strip()
+    )
+
+
+def campus_name_match(student_location: Optional[str], university: Optional[str]) -> bool:
+    """Does the campus the student typed name the same institution as this award's?
+
+    A name comparison and nothing more: it says nothing about distance, and the card
+    wording ("Name matches the campus you entered") is kept that literal on purpose.
+
+    One helper for the deck and the saved view. They used to disagree: get_matches had
+    this logic copy-pasted twice and format_saved_card used a bare substring test, so the
+    same lab could be "on your campus" in one list and not in the other.
+
+    Aliases run BEFORE the length gate. In the old order the alias branches sat behind a
+    substring test on the cleaned strings with a minimum length of 2, so "MIT" matched
+    any institution containing "mit" (Smith College) and only reached its alias if that
+    failed. The minimum is now 4 cleaned characters, which still admits Rice, Yale, Duke
+    and UCLA.
+    """
+    if not student_location or not university:
+        return False
+    typed = student_location.strip().lower()
+    uni = university.strip().lower()
+    if not typed or not uni:
+        return False
+    if typed == uni:
+        return True
+    for short, full in _CAMPUS_ALIASES.items():
+        if (typed == short and full in uni) or (uni == short and full in typed):
+            return True
+    s_clean = _clean_campus_name(typed)
+    u_clean = _clean_campus_name(uni)
+    if len(s_clean) < _CAMPUS_MIN_CLEANED_LEN or len(u_clean) < _CAMPUS_MIN_CLEANED_LEN:
+        return False
+    return s_clean in u_clean or u_clean in s_clean
 
 
 def pi_name_is_generated(grant: dict) -> bool:
@@ -374,38 +497,25 @@ def expand_and_store_abstract(grant_id: str, title: str, abstract: str, pi_name:
 
 
 def enrich_sliced_matches(sliced_matches: List[dict], background_tasks: Optional[BackgroundTasks] = None, student_skills: Optional[List[str]] = None) -> List[dict]:
-    """Queue expansion of brief abstracts; return the cards immediately.
+    """Pass-through. Serving a deck queues no write and no Gemini call.
 
-    This used to call Gemini INLINE, serially, once per brief-abstract card, each with
-    retries and a 20s timeout. A thin batch or a Gemini hiccup held the deck for minutes
-    and could breach the frontend's 30s axios timeout -- aborting the onboarding match
-    fetch *after* profile synthesis had already succeeded, which is the worst possible
-    moment to fail.
+    This used to queue expand_and_store_abstract for every brief-abstract card it
+    served. So a student's GET rewrote production rows: it replaced the agency's
+    verbatim abstract with Gemini text, re-scanned the tags and recomputed the
+    embedding, which moved that award's score for every other student. It also spent
+    Gemini quota in proportion to page views, and the row a student had just read was
+    different on the next load.
 
-    The student now gets the real federal text as published (brief, and honestly
-    unlabelled, because it IS verbatim). The expansion lands in the database and shows up
-    on the next load.
+    Abstract expansion belongs to the maintenance scripts (expand_brief_abstracts.py,
+    dry-run by default), where it is run on purpose. The student gets the federal text
+    as published, brief and unlabelled because it is verbatim.
+
+    The function and its signature stay so the call sites in the match paths do not
+    change shape, and so that re-introducing enrichment on the read path has to be done
+    here, in front of this comment. expand_and_store_abstract and
+    update_grant_abstract_in_db above are no longer reached from any route.
     """
-    for item in sliced_matches:
-        abstract = item.get("grant_abstract", "")
-        title = item.get("grant_title", "N/A")
-        g_id = item.get("id")
-
-        if is_brief_abstract(abstract, title) and g_id and background_tasks is not None:
-            background_tasks.add_task(
-                expand_and_store_abstract,
-                g_id,
-                title,
-                abstract,
-                item.get("pi_name", "N/A"),
-                item.get("institution", "N/A"),
-                item.get("funding_source", "NIH"),
-                item.get("methodologies") or [],
-            )
     return sliced_matches
-
-
-
 
 
 def fetch_grant_details(db, grant_ids: List[str]) -> dict:
@@ -420,10 +530,13 @@ def fetch_grant_details(db, grant_ids: List[str]) -> dict:
     # falls back to the source rule. A missing abstract_is_generated defaults False (the
     # older, known gap this chain has always carried).
     resp = None
+    last_err = None
     for cols in (
-        "id, start_date, end_date, abstract_is_generated, pi_is_generated, award_id",
-        "id, start_date, end_date, abstract_is_generated, award_id",
-        "id, start_date, end_date, award_id",
+        # created_at is in the base schema (20260521000000), so it is safe in every
+        # fallback. It becomes the card's record_read_at: match_grants does not return it.
+        "id, start_date, end_date, abstract_is_generated, pi_is_generated, award_id, created_at",
+        "id, start_date, end_date, abstract_is_generated, award_id, created_at",
+        "id, start_date, end_date, award_id, created_at",
     ):
         try:
             resp = db.table("labs_cached_grants").select(cols).in_("id", grant_ids).execute()
@@ -438,37 +551,183 @@ def fetch_grant_details(db, grant_ids: List[str]) -> dict:
     return {}
 
 
-def format_match_card(grant: dict, *, score, score_components: dict,
-                      student_skills: list, student_roles: list,
+def similarity_score(similarity) -> Optional[int]:
+    """round(similarity * 100), clamped, and nothing else. None when the RPC row carries
+    no usable similarity: an unknown score stays unknown (see clamp_score)."""
+    if similarity is None or isinstance(similarity, bool):
+        return None
+    try:
+        return clamp_score(float(similarity) * 100)
+    except (TypeError, ValueError):
+        return None
+
+
+def tag_overlap_score(methodologies: list, student_skills: list) -> Optional[int]:
+    """Share of the award's keyword tags that appear in the student's skills, 0-100.
+
+    Only the non-default keyword/hybrid methods use this. None when the award has no
+    tags: this used to return 50 as a "middle-ground fallback", a number with nothing
+    behind it, and scan_methodologies now returns [] for such awards instead of a filler
+    tag, so that branch would have been hit far more often.
+    """
+    if not methodologies:
+        return None
+    hits = [m for m in methodologies if isinstance(m, str) and m.lower() in student_skills]
+    return round((len(hits) / len(methodologies)) * 100)
+
+
+def normalize_rpc_grant(item: dict, details: dict) -> dict:
+    """One grant dict from a match_grants row plus its fetch_grant_details row.
+
+    The RPC returns dates and abstract provenance (migration 000013); award_id,
+    pi_is_generated and created_at are table-only. Prefer the RPC value, fall back to the
+    detail row.
+    """
+    details = details or {}
+    return {
+        **item,
+        "id": item.get("grant_id"),
+        "start_date": item.get("start_date") or details.get("start_date"),
+        "end_date": item.get("end_date") or details.get("end_date"),
+        "abstract_is_generated": (
+            item.get("abstract_is_generated")
+            if item.get("abstract_is_generated") is not None
+            else details.get("abstract_is_generated")
+        ),
+        "pi_is_generated": details.get("pi_is_generated"),
+        "award_id": details.get("award_id"),
+        "created_at": details.get("created_at"),
+    }
+
+
+def select_deck_rows(rows: List[dict], *, needed: int, target_loc: Optional[str],
+                     enforce_location: bool) -> tuple:
+    """Walk one raw RPC batch in rank order and keep the rows that may be shown.
+
+    Returns (kept, consumed). `kept` is a list of (row, location_match). `consumed` is
+    how many raw rows were looked at, dropped ones included, and is what the caller adds
+    to the raw offset. The walk stops as soon as `needed` rows are kept, so the rows
+    after that point are not consumed and the next page starts on them.
+
+    Counting consumed rows separately from kept rows is the point of this function. The
+    deck filters in Python after the RPC, so a page can come back short or empty while
+    thousands of rows remain. Paging on the kept count skipped rows; treating an empty
+    page as the end of the corpus told the student "Deck Fully Evaluated!" when it was
+    not.
+    """
+    kept = []
+    consumed = 0
+    for item in rows:
+        if len(kept) >= needed:
+            break
+        consumed += 1
+        if is_unresolved_usaspending_row(item.get("funding_source"), item.get("pi_name")):
+            continue
+        location_match = campus_name_match(target_loc, item.get("university"))
+        if enforce_location and not location_match:
+            continue
+        kept.append((item, location_match))
+    return kept, consumed
+
+
+# A deck request makes at most this many match_grants calls. Each is ~1.8s at the batch
+# sizes used (see the measurements in get_matches), and the frontend gives up at 30s.
+MAX_DECK_RPC_CALLS = 5
+
+# With a location filter the batch is 200 rows, the largest size measured on the fast
+# side of the RPC cliff (see get_matches), and LIMIT 200 OFFSET 200 makes Postgres rank
+# 400. Five of those in one synchronous request inside an async route would block the
+# only uvicorn worker for far longer than the client's 30s timeout. So a filtered request
+# makes ONE call, as it did before paging existed, and reports exhaustion from that
+# call's raw count. Deeper local pages have not been timed on this instance; raise this
+# only after they have.
+MAX_DECK_RPC_CALLS_LOCATION = 1
+
+
+def collect_deck_rows(fetch_batch, *, offset: int, limit: int, batch_size: int,
+                      target_loc: Optional[str], enforce_location: bool,
+                      max_calls: int = MAX_DECK_RPC_CALLS) -> tuple:
+    """Page the raw ranking until `limit` rows survive the filters.
+
+    fetch_batch(raw_offset, batch_size) returns the raw RPC rows; it is injected so this
+    loop can be exercised without a database. Returns (kept, next_offset, exhausted).
+
+    exhausted is decided from the RAW row count only: true when a batch came back
+    shorter than requested and every row of it was consumed. It is never inferred from
+    how many rows survived. If the call budget runs out first the result is a short or
+    empty page with exhausted False, and the client is expected to ask again from
+    next_offset.
+    """
+    kept = []
+    raw_offset = offset
+    exhausted = False
+    for _ in range(max_calls):
+        rows = fetch_batch(raw_offset, batch_size) or []
+        batch_kept, consumed = select_deck_rows(
+            rows, needed=limit - len(kept), target_loc=target_loc,
+            enforce_location=enforce_location,
+        )
+        kept.extend(batch_kept)
+        raw_offset += consumed
+        if len(rows) < batch_size and consumed == len(rows):
+            exhausted = True
+            break
+        if len(kept) >= limit:
+            break
+    return kept, raw_offset, exhausted
+
+
+def deck_envelope(cards: List[dict], next_offset: int, exhausted: bool) -> dict:
+    """Response body of GET /grants/matches.
+
+    This endpoint returned a bare JSON array until phase 1. An array cannot say "this
+    page is short because of filtering, keep going", which is what the client needs to
+    avoid declaring the deck finished early. next_offset is a RAW ranking offset: pass it
+    back as `offset` unchanged; do not add the page size to it.
+    """
+    return {"matches": cards, "next_offset": int(next_offset), "exhausted": bool(exhausted)}
+
+
+def format_match_card(grant: dict, *, score, score_components: Optional[dict],
+                      student_skills: Optional[list] = None,
+                      student_roles: Optional[list] = None,
                       location_match: bool = False, status=None, pi_email=None,
                       outreach_status=None, contacted_at=None, responded_at=None,
                       next_follow_up_at=None) -> dict:
     """Canonical deck-card shape shared by EVERY match path (RPC/hybrid, keyword, /match,
     saved). Each site used to copy-paste this dict -- the exact class of duplication that
     produced the original fabricated-email bug. `grant` is a normalized dict carrying:
-    id, pi_name, university, department, grant_title, grant_abstract, funding_source,
-    award_amount, methodologies, start_date, end_date, abstract_is_generated, award_id,
-    and (optionally) pi_is_generated.
+    id, pi_name, university, grant_title, grant_abstract, funding_source, award_amount,
+    methodologies, start_date, end_date, abstract_is_generated, award_id, and
+    (optionally) pi_is_generated and created_at.
 
     Dates are real-or-None (never the old invented 2026-09-01 window); pi_lookup_url is
     None for an unresolved PI (Task 23); score is clamped; the score breakdown rides along.
     source_record_url deep-links the authoritative federal record (NIH/NSF only). The
     outreach_* fields are the student's self-reported follow-up state (saved path only).
+
+    Fields this card no longer fills, and why (phase 1 honesty pass). The keys stay so
+    older clients keep parsing the payload:
+      matching_skills / missing_skills  always []. They compared the student's skills to
+          `methodologies`, which is our own keyword scan of the award text. "Skills to
+          grow" read as the lab's requirements; no award record states any.
+      recommended_role  None. It was the student's own first role, or "Research
+          Assistant", shown as if the lab had a position. Award records do not say
+          whether a lab takes undergraduates.
+      department  "". The column holds ingest stand-ins (a fixed string for NSF, the
+          awarding sub-agency for USAspending), never the PI's department, so it is not
+          read for display at all.
+    student_skills and student_roles are accepted and ignored for the same reason; they
+    remain in the signature only so existing callers do not break.
     """
     methodologies = grant.get("methodologies") or []
-    matching_skills = [m for m in methodologies if m.lower() in student_skills]
-    missing_skills = [m for m in methodologies if m.lower() not in student_skills]
     pi_name = grant.get("pi_name") or "N/A"
     university = grant.get("university") or "N/A"
-    funding_source = grant.get("funding_source") or "NIH"
-    # Role suggestion drawn from the student's own roles, weighted by the grant's methods.
-    recommended_role = student_roles[0] if student_roles else "Research Assistant"
-    if len(student_roles) > 1:
-        methods_l = [m.lower() for m in methodologies]
-        if any("modeling" in m or "ml" in m or "ai" in m for m in methods_l):
-            recommended_role = next((r for r in student_roles if any(k in r.lower() for k in ("ml", "modeling", "computational"))), student_roles[0])
-        elif any("bio" in m or "wet" in m or "crispr" in m for m in methods_l):
-            recommended_role = next((r for r in student_roles if any(k in r.lower() for k in ("bio", "tech", "wet"))), student_roles[0])
+    # The stored source or None. This defaulted to "NIH", which put an NIH badge and an
+    # NIH RePORTER link label on any row whose source was missing.
+    funding_source = grant.get("funding_source") or None
+    award_amount, amount_state = award_amount_state(grant.get("award_amount"))
+    created_at = grant.get("created_at")
     return {
         "id": grant.get("id"),
         "pi_name": pi_name,
@@ -481,7 +740,7 @@ def format_match_card(grant: dict, *, score, score_components: dict,
         "source_record_url": build_source_record_url(funding_source, grant.get("award_id")),
         "institution": university,
         "university": university,                    # Keep for test compatibility
-        "department": grant.get("department") or "N/A",
+        "department": "",
         # `title` is what the card renders, so it gets the shortened form. `grant_title`
         # stays the verbatim column value -- it is the deliberate test-compatibility
         # duplicate, and keeping it equal to the DB means the raw agency text is still
@@ -490,7 +749,17 @@ def format_match_card(grant: dict, *, score, score_components: dict,
         "grant_title": grant.get("grant_title") or "N/A",   # Keep for test compatibility
         "agency": funding_source,
         "funding_source": funding_source,            # Keep for test compatibility
-        "award_amount": float(grant.get("award_amount") or 0),
+        # A number only when the stored value is positive; the state says why not
+        # otherwise. amount_basis says what the number measures (it differs by agency).
+        "award_amount": award_amount,
+        "award_amount_state": amount_state,
+        "amount_basis": amount_basis_for(funding_source),
+        # When we FIRST read this record from the agency: the row's created_at. Not the
+        # date of the figure: ingest upserts on award_id and leaves created_at alone, so
+        # an amount revised by a later run keeps the original timestamp. The card words
+        # it as a first-read date for that reason. A true "as of" needs a column written
+        # on every upsert, which does not exist yet.
+        "record_read_at": str(created_at) if created_at else None,
         "project_start": grant.get("start_date") or None,
         "project_end": grant.get("end_date") or None,
         "abstract": grant.get("grant_abstract") or "",
@@ -499,11 +768,12 @@ def format_match_card(grant: dict, *, score, score_components: dict,
         "score": clamp_score(score),
         "compatibility_score": clamp_score(score),   # Keep for test compatibility
         "score_components": score_components,
-        "matching_skills": matching_skills,
-        "missing_skills": missing_skills,
+        "matching_skills": [],
+        "missing_skills": [],
         "methodologies": methodologies,              # Keep for test compatibility
-        "recommended_role": recommended_role,
+        "recommended_role": None,
         "location_match": location_match,
+        "is_demo": False,
         "status": status,
         "pi_email": pi_email,
         # Outreach tracker (Task 19) -- populated on the saved path, None on the deck.
@@ -521,15 +791,17 @@ def format_saved_card(grant: dict, match: dict, student_skills: List[str], stude
     are never recomputed here: re-deriving them would make the sidebar disagree with the
     deck. A NULL score stays None. Delegates to format_match_card for the canonical shape.
     """
-    university = grant.get("university", "N/A")
-    location_match = bool(student_loc and university and student_loc.lower() in university.lower())
+    # score_components is likewise the stored breakdown, so a card saved before the
+    # campus boost was removed still reports the boost that was in the number the
+    # student saw. None when the row predates the column.
+    #
+    # No student_roles: this used to pass the grant's department as the student's role,
+    # so the saved view showed "ROLE: Department Of Science & Engineering".
     return format_match_card(
         grant,
         score=match.get("match_score"),
         score_components=match.get("score_components"),
-        student_skills=student_skills,
-        student_roles=[grant.get("department") or "Research Assistant"],
-        location_match=location_match,
+        location_match=campus_name_match(student_loc, grant.get("university")),
         status=match.get("status"),
         pi_email=match.get("pi_email"),
         outreach_status=match.get("outreach_status"),
@@ -566,7 +838,9 @@ async def get_saved_matches(
 
         matches_resp = (
             db.table("matches")
-            .select("grant_id, status, match_score, pi_email, outreach_status, contacted_at, responded_at, next_follow_up_at")
+            # score_components (migration 20260720000013) was written on every swipe and
+            # never read back: format_saved_card asked for it and always got None.
+            .select("grant_id, status, match_score, score_components, pi_email, outreach_status, contacted_at, responded_at, next_follow_up_at")
             .eq("student_id", student_id)
             .in_("status", ["saved", "emailed"])
             .execute()
@@ -655,21 +929,10 @@ async def match_student_to_grants(
     try:
         db = get_db()
         
-        # 1. Fetch student competencies & skills to calculate dynamic alignment
-        student_skills = []
-        student_roles = ["Research Assistant"]
-        try:
-            student_resp = db.table("students").select("structured_competencies").eq("id", student_id).execute()
-            if hasattr(student_resp, 'data') and student_resp.data:
-                structured_comp = student_resp.data[0].get("structured_competencies") or {}
-                student_skills = [s.lower() for s in structured_comp.get("skills", [])]
-                extracted_roles = structured_comp.get("recommended_roles", [])
-                if extracted_roles:
-                    student_roles = extracted_roles
-        except Exception as e:
-            warnings.warn(f"Failed to fetch student profile details for alignment logic: {e}")
-            
-        # 2. Invoke the custom pgvector database RPC function defined in the schema
+        # The student's skills and roles are no longer loaded here. They fed the card's
+        # skill lists and role suggestion, which format_match_card no longer emits.
+
+        # Invoke the custom pgvector database RPC function defined in the schema
         response = db.rpc(
             "match_grants",
             {
@@ -688,17 +951,12 @@ async def match_student_to_grants(
  
             formatted_matches = []
             for item in matches:
-                g_id = item.get("grant_id")
-                similarity = item.get("similarity", 0.0)
-                # Map to 0-100 percentage compatibility score
-                score = round(similarity * 100)
-                
-                pi_name = item.get("pi_name", "N/A")
-                university = item.get("university", "N/A")
-                methodologies = item.get("methodologies") or []
-                
-                details = grant_details.get(g_id) or {}
-
+                # Same owner decision as the deck: a USAspending award with no resolved
+                # PI is not shown. This endpoint has no offset, so it can return fewer
+                # than `limit` cards; it makes no claim about exhaustion.
+                if is_unresolved_usaspending_row(item.get("funding_source"), item.get("pi_name")):
+                    continue
+                score = similarity_score(item.get("similarity"))
                 # Semantic-only endpoint: the score is the embedding similarity, so the
                 # breakdown carries semantic alone (no keyword blend, no campus boost).
                 score_components = {
@@ -706,32 +964,17 @@ async def match_student_to_grants(
                     "keyword": None,
                     "campus_boost": 0,
                 }
-                # Normalize the RPC row + detail fetch (award_id for source_record_url) into
-                # one grant dict; prefer the RPC's dates/provenance, fall back to the detail row.
-                grant = {
-                    **item,
-                    "id": g_id,
-                    "start_date": item.get("start_date") or details.get("start_date"),
-                    "end_date": item.get("end_date") or details.get("end_date"),
-                    "abstract_is_generated": (
-                        item.get("abstract_is_generated")
-                        if item.get("abstract_is_generated") is not None
-                        else details.get("abstract_is_generated")
-                    ),
-                    # The RPC doesn't return PI provenance; take it from the detail row.
-                    "pi_is_generated": details.get("pi_is_generated"),
-                    "award_id": details.get("award_id"),
-                }
                 formatted_matches.append(format_match_card(
-                    grant,
+                    normalize_rpc_grant(item, grant_details.get(item.get("grant_id"))),
                     score=score,
                     score_components=score_components,
-                    student_skills=student_skills,
-                    student_roles=student_roles,
                 ))
-            return enrich_sliced_matches(formatted_matches, background_tasks, student_skills)
+            return enrich_sliced_matches(formatted_matches, background_tasks)
         return []
-        
+
+    except HTTPException:
+        # Ahead of the broad catch so a deliberate status code is not re-wrapped as a 500.
+        raise
     except Exception as e:
         warnings.warn(f"Matching logic failed: {e}")
         raise HTTPException(status_code=500, detail=f"Matchmaker scoring failed: {str(e)}")
@@ -760,7 +1003,10 @@ async def ingest_grants(background_tasks: BackgroundTasks, req: Optional[IngestR
 async def get_matches(
     student_id: str,
     background_tasks: BackgroundTasks = None,
-    method: str = "hybrid", # embedding, keyword, hybrid
+    # embedding (default), keyword, hybrid. The default was hybrid, which blended tag
+    # overlap into a number the card presented as a match percentage. The frontend never
+    # passes `method`, so the default is what students see.
+    method: str = "embedding",
     weight: float = Query(0.65, ge=0.0, le=1.0),
     limit: int = Query(5, ge=1, le=50),
     threshold: float = Query(0.2, ge=0.0, le=1.0),
@@ -770,12 +1016,22 @@ async def get_matches(
     caller_id: Optional[str] = Depends(get_optional_student_id)
 ):
     """
-    Matchmaker scoring endpoint that calculates compatibility scores by matching the student's
-    extracted competencies against grant abstracts using embedding cosine similarity, keyword overlap, or hybrid methods.
-    Supports local proximity filtering and massive +30% compatibility score boosts for home campus labs.
+    Deck endpoint. Ranks awards by the cosine similarity between the student's profile
+    embedding and the text we hold for each award; score = round(similarity * 100).
 
-    Already-swiped grants are excluded by the match_grants RPC, and `offset` pages deeper
-    into the ranking, so the deck draws from the whole corpus instead of a fixed window.
+    There is no home-campus boost. A name match on the campus used to add 30 points, so
+    a weakly related award at the student's own institution outranked a closely related
+    one elsewhere while the card called the result a match percentage. The name match is
+    still reported (location_match) and still filters (local_only, location_filter); it
+    no longer moves the number. score_components.campus_boost is always 0.
+
+    `keyword` and `hybrid` remain reachable for comparison. keyword reports
+    score_components.semantic as None so a tag-overlap figure cannot be captioned as
+    similarity.
+
+    Returns {"matches": [...], "next_offset": int, "exhausted": bool}; see
+    deck_envelope and collect_deck_rows. Already-swiped grants are excluded by the
+    match_grants RPC.
     """
     validate_uuid(student_id, "student_id")
     # Deck contents are student-scoped: without this, anyone who guessed a UUID could
@@ -791,6 +1047,8 @@ async def get_matches(
         location_filter = location_filter.default
     if hasattr(local_only, "default"):
         local_only = local_only.default
+    if hasattr(offset, "default"):
+        offset = offset.default
     try:
         db = get_db()
 
@@ -799,7 +1057,12 @@ async def get_matches(
         demo_deck = _demo_decks().get(student_id)
         if demo_deck is not None:
             demo_statuses = fetch_existing_match_statuses(db, student_id)
-            return [dict(card, status=demo_statuses.get(card["id"])) for card in demo_deck]
+            # The scripted deck is the whole deck, so it is exhausted by definition.
+            return deck_envelope(
+                [dict(card, status=demo_statuses.get(card["id"])) for card in demo_deck],
+                offset,
+                True,
+            )
 
         # 1. Fetch student competencies
         student = None
@@ -825,12 +1088,16 @@ async def get_matches(
             )
 
         structured_comp = student.get("structured_competencies") or {}
-        student_skills = [s.lower() for s in structured_comp.get("skills", [])]
-        student_roles = structured_comp.get("recommended_roles", ["Research Assistant"])
-        
+        # Skills feed only the tag-overlap figure of the keyword/hybrid methods. They are
+        # not put on the card (format_match_card emits no skill lists and no role).
+        student_skills = [s.lower() for s in structured_comp.get("skills", []) if isinstance(s, str)]
+
         # Load saved student location (resilient fallback if DB migration hasn't run yet)
         student_loc = student.get("location") or structured_comp.get("location")
-        
+        target_loc = location_filter or student_loc
+        # Strict local-only and an explicit location search both drop non-matching rows.
+        enforce_location = bool(local_only or location_filter)
+
         # Fetch existing match statuses from DB for this student
         existing_match_rows = fetch_existing_match_rows(db, student_id)
         existing_matches = {g: r.get("status") for g, r in existing_match_rows.items()}
@@ -850,82 +1117,53 @@ async def get_matches(
                 .execute()
             )
             if not hasattr(grants_resp, 'data') or not grants_resp.data:
-                return []
-                
-            grants = grants_resp.data
+                return deck_envelope([], offset, True)
+
             matches = []
-            for g in grants:
+            for g in grants_resp.data:
                 g_id = g.get("id")
-                pi_name = g.get("pi_name", "N/A")
-                university = g.get("university", "N/A")
-                methodologies = g.get("methodologies") or []
-                
-                # Proximity calculation
-                location_match = False
-                target_loc = location_filter or student_loc
-                if target_loc and university:
-                    s_clean = target_loc.lower().replace("university", "").replace("institute of technology", "").replace("college", "").strip()
-                    u_clean = university.lower().replace("university", "").replace("institute of technology", "").replace("college", "").strip()
-                    if len(s_clean) >= 2 and len(u_clean) >= 2:
-                        if s_clean in u_clean or u_clean in s_clean:
-                            location_match = True
-                        elif s_clean == "mit" and "massachusetts institute of technology" in university.lower():
-                            location_match = True
-                        elif s_clean == "caltech" and "california institute of technology" in university.lower():
-                            location_match = True
-                
-                # If strict local only is selected and it's not a match, skip this grant
-                if local_only and not location_match:
+                if is_unresolved_usaspending_row(g.get("funding_source"), g.get("pi_name")):
                     continue
-                # If location filter search query is set, we also enforce it as a search query
-                if location_filter and not location_match:
+                location_match = campus_name_match(target_loc, g.get("university"))
+                if enforce_location and not location_match:
                     continue
-                
-                # Calculate matching & missing skills
-                matching_skills = [m for m in methodologies if m.lower() in student_skills]
-                missing_skills = [m for m in methodologies if m.lower() not in student_skills]
-                
-                # Direct keyword overlapping score: percentage of grant methodologies that the student has
-                keyword_score = 0
-                if methodologies:
-                    keyword_score = round((len(matching_skills) / len(methodologies)) * 100)
-                else:
-                    keyword_score = 50 # Default middle-ground fallback
-                
-                # Apply massive +30% boost for local fit
-                final_score = keyword_score
-                if location_match:
-                    final_score = min(final_score + 30, 100)
-                
-                # Minimum score threshold filtering
-                if final_score < (threshold * 100):
+
+                # An award with no tags has no overlap to measure, so this method cannot
+                # place it. It is left out instead of being given an invented 50.
+                keyword_score = tag_overlap_score(g.get("methodologies") or [], student_skills)
+                if keyword_score is None or keyword_score < (threshold * 100):
                     continue
-                    
-                # The breakdown behind the number, so the score is explainable rather than a
-                # bare percentage. Keyword path uses no embedding, so semantic is None; the
-                # +30 home-campus boost (folded into final_score above) is made visible here.
+
+                # semantic is None: no embedding was compared on this path, and the
+                # frontend captions the number as text similarity only when semantic is
+                # a number. No campus boost is added to the score.
                 score_components = {
                     "semantic": None,
                     "keyword": keyword_score,
-                    "campus_boost": 30 if location_match else 0,
+                    "campus_boost": 0,
                 }
                 # `g` is a full labs_cached_grants row, so it already carries every field the
                 # canonical card needs (dates, provenance, award_id) -- no second fetch.
                 matches.append(format_match_card(
                     g,
-                    score=final_score,
+                    score=keyword_score,
                     score_components=score_components,
-                    student_skills=student_skills,
-                    student_roles=student_roles,
                     location_match=location_match,
                     status=existing_matches.get(g_id),
                     pi_email=(existing_match_rows.get(g_id) or {}).get("pi_email"),
                 ))
 
-            # Sort by keyword score descending and slice
+            # Every candidate is already in hand and filtered, so paging is a slice of
+            # the sorted list and exhaustion is exact.
             matches.sort(key=lambda x: x["score"], reverse=True)
-            return enrich_sliced_matches(matches[:limit], background_tasks, student_skills)
-            
+            page = matches[offset:offset + limit]
+            next_offset = offset + len(page)
+            return deck_envelope(
+                enrich_sliced_matches(page, background_tasks, student_skills),
+                next_offset,
+                next_offset >= len(matches),
+            )
+
         else: # embedding or hybrid
             # Fetch a wider candidate pool when a location filter is active, because that
             # filtering happens in Python after the fetch.
@@ -942,121 +1180,82 @@ async def get_matches(
             # 200 still gives 8x the nationwide pool. When it yields no local labs the
             # frontend falls back to nationwide and says so, rather than showing nothing.
             # The real fix is to filter location in SQL instead of over-fetching.
-            fetch_limit = 200 if (local_only or location_filter) else limit * 2
+            fetch_limit = 200 if enforce_location else limit * 2
 
             # We fetch using the RPC vector search helper (match_grants).
             # The RPC now excludes grants this student has already swiped, so every
             # candidate is fresh -- previously the client filtered them out after the
             # fact, which silently wasted slots and eventually emptied the deck for good.
-            response = db.rpc(
-                "match_grants",
-                {
-                    "student_id": student_id,
-                    "match_threshold": threshold,
-                    "match_limit": fetch_limit,
-                    "match_offset": offset
-                }
-            ).execute()
-            
-            if not hasattr(response, 'data') or not response.data:
-                return []
-                
-            matches = response.data
-            
-            # Fetch additional start/end dates and abstract provenance
-            grant_ids = [item.get("grant_id") for item in matches if item.get("grant_id")]
-            grant_details = fetch_grant_details(db, grant_ids)
-                    
+            def fetch_batch(raw_offset: int, batch_size: int) -> list:
+                response = db.rpc(
+                    "match_grants",
+                    {
+                        "student_id": student_id,
+                        "match_threshold": threshold,
+                        "match_limit": batch_size,
+                        "match_offset": raw_offset
+                    }
+                ).execute()
+                return getattr(response, "data", None) or []
+
+            # The USAspending restriction and the location filter both run after the RPC,
+            # so one call can leave fewer than `limit` cards. collect_deck_rows keeps
+            # paging the raw ranking (bounded) and reports exhaustion from the raw count.
+            kept, next_offset, exhausted = collect_deck_rows(
+                fetch_batch,
+                offset=offset,
+                limit=limit,
+                batch_size=fetch_limit,
+                target_loc=target_loc,
+                enforce_location=enforce_location,
+                max_calls=MAX_DECK_RPC_CALLS_LOCATION if enforce_location else MAX_DECK_RPC_CALLS,
+            )
+
+            # Dates, provenance, award_id and created_at for the surviving rows only.
+            grant_details = fetch_grant_details(
+                db, [item.get("grant_id") for item, _ in kept if item.get("grant_id")]
+            )
+
             formatted_matches = []
-            for item in matches:
+            for item, location_match in kept:
                 g_id = item.get("grant_id")
-                similarity = item.get("similarity", 0.0)
-                emb_score = round(similarity * 100)
-                
-                pi_name = item.get("pi_name", "N/A")
-                university = item.get("university", "N/A")
-                methodologies = item.get("methodologies") or []
-                
-                # Proximity calculation
-                location_match = False
-                target_loc = location_filter or student_loc
-                if target_loc and university:
-                    s_clean = target_loc.lower().replace("university", "").replace("institute of technology", "").replace("college", "").strip()
-                    u_clean = university.lower().replace("university", "").replace("institute of technology", "").replace("college", "").strip()
-                    if len(s_clean) >= 2 and len(u_clean) >= 2:
-                        if s_clean in u_clean or u_clean in s_clean:
-                            location_match = True
-                        elif s_clean == "mit" and "massachusetts institute of technology" in university.lower():
-                            location_match = True
-                        elif s_clean == "caltech" and "california institute of technology" in university.lower():
-                            location_match = True
-                
-                # If strict local only is selected and it's not a match, skip this grant
-                if local_only and not location_match:
-                    continue
-                # If location filter search query is set, we also enforce it as a search query
-                if location_filter and not location_match:
-                    continue
-                
-                matching_skills = [m for m in methodologies if m.lower() in student_skills]
+                emb_score = similarity_score(item.get("similarity"))
 
-                details = grant_details.get(g_id) or {}
-
-                # Hybrid blends embedding similarity with keyword overlap; embedding-only
-                # scores on similarity alone (no keyword component -> keyword stays None).
+                # Hybrid blends embedding similarity with tag overlap; embedding-only
+                # scores on similarity alone (keyword stays None). An award with no tags
+                # has nothing to blend, so hybrid falls back to similarity for it.
                 keyword_score = None
+                final_score = emb_score
                 if method == "hybrid":
-                    if methodologies:
-                        keyword_score = round((len(matching_skills) / len(methodologies)) * 100)
-                    else:
-                        keyword_score = 50
-                    final_score = round(weight * emb_score + (1.0 - weight) * keyword_score)
-                else:
-                    final_score = emb_score
+                    keyword_score = tag_overlap_score(item.get("methodologies") or [], student_skills)
+                    if keyword_score is not None and emb_score is not None:
+                        final_score = round(weight * emb_score + (1.0 - weight) * keyword_score)
 
-                # Apply massive +30% boost for local fit
-                if location_match:
-                    final_score = min(final_score + 30, 100)
-
-                # The breakdown behind the number, so a "94% match" is explainable and the
-                # otherwise-silent +30 home-campus boost is visible on the card.
                 score_components = {
                     "semantic": emb_score,
                     "keyword": keyword_score,
-                    "campus_boost": 30 if location_match else 0,
-                }
-                # Normalize the RPC row + detail fetch into one grant dict for the canonical
-                # card. The RPC now returns dates + provenance (migration 000013); award_id is
-                # still table-only, so fetch_grant_details supplies it for source_record_url.
-                # Prefer the RPC value, fall back to the detail row.
-                grant = {
-                    **item,
-                    "id": g_id,
-                    "start_date": item.get("start_date") or details.get("start_date"),
-                    "end_date": item.get("end_date") or details.get("end_date"),
-                    "abstract_is_generated": (
-                        item.get("abstract_is_generated")
-                        if item.get("abstract_is_generated") is not None
-                        else details.get("abstract_is_generated")
-                    ),
-                    # The RPC doesn't return PI provenance; take it from the detail row.
-                    "pi_is_generated": details.get("pi_is_generated"),
-                    "award_id": details.get("award_id"),
+                    "campus_boost": 0,
                 }
                 formatted_matches.append(format_match_card(
-                    grant,
+                    normalize_rpc_grant(item, grant_details.get(g_id)),
                     score=final_score,
                     score_components=score_components,
-                    student_skills=student_skills,
-                    student_roles=student_roles,
                     location_match=location_match,
                     status=existing_matches.get(g_id),
                     pi_email=(existing_match_rows.get(g_id) or {}).get("pi_email"),
                 ))
 
-            # Re-sort by final calculated score and slice to requested limit
-            formatted_matches.sort(key=lambda x: x["score"], reverse=True)
-            return enrich_sliced_matches(formatted_matches[:limit], background_tasks, student_skills)
+            # The RPC returns rows in similarity order, so for the default method this
+            # sort changes nothing; it orders the hybrid blend. A card with no score
+            # sorts last instead of raising on None.
+            formatted_matches.sort(
+                key=lambda x: x["score"] if x["score"] is not None else -1, reverse=True
+            )
+            return deck_envelope(
+                enrich_sliced_matches(formatted_matches, background_tasks, student_skills),
+                next_offset,
+                exhausted,
+            )
 
     except HTTPException:
         # Deliberate status codes (e.g. the 404 for a missing profile) must reach the
@@ -1218,10 +1417,11 @@ class MatchStateRequest(BaseModel):
     student_id: str
     grant_id: str
     status: str  # 'saved', 'skipped', 'emailed'
-    # The score the student actually saw on the card. The deck's score (hybrid blend
-    # plus the +30 home-campus boost) was computed per request and thrown away, so the
-    # sidebar and the funnel showed a different number than the deck did. Optional so
-    # older clients still work; clamped and validated server-side regardless.
+    # The score the student actually saw on the card. It was computed per request and
+    # thrown away, so the sidebar and the funnel showed a different number than the deck
+    # did. Rows saved before phase 1 hold a score that included the since-removed +30
+    # home-campus boost. Optional so older clients still work; clamped and validated
+    # server-side regardless.
     match_score: Optional[float] = None
     # The {semantic, keyword, campus_boost} breakdown behind that score, persisted so the
     # saved-matches sidebar can explain the number the student actually swiped on instead

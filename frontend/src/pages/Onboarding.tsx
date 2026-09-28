@@ -4,6 +4,7 @@ import GlassCard from '../components/GlassCard';
 import api from '../api/axios';
 import { trackEvent, setStudentId } from '../utils/analytics';
 import { setToken, saveSession } from '../utils/session';
+import { readMatchesPage } from '../utils/card';
 
 export type OnboardingEntry = 'new' | 'returning';
 
@@ -242,6 +243,11 @@ export const Onboarding: React.FC<OnboardingProps> = ({
           }
         };
 
+        // Persona deck. `is_demo` marks every card so the dashboard can caption the
+        // number as a sample and skip agency-attributed captions. department, the skill
+        // lists and recommended_role follow the live card contract (empty / null): they
+        // were never sourced, and these cards drive the ad recordings. Keep in step with
+        // _demo_decks() in backend/routers/grants.py.
         matchedGrants = [
           {
             "id": "22222222-2222-2222-2222-222222222222",
@@ -249,7 +255,7 @@ export const Onboarding: React.FC<OnboardingProps> = ({
             "pi_lookup_url": "https://www.google.com/search?q=%22Chen+Wei%22+UC+Berkeley+lab+contact",
             "institution": "UC Berkeley",
             "university": "UC Berkeley",
-            "department": "EECS",
+            "department": "",
             "title": "Autonomous Robotics for Pediatric Surgical Assistance",
             "grant_title": "Autonomous Robotics for Pediatric Surgical Assistance",
             "agency": "NSF",
@@ -260,12 +266,13 @@ export const Onboarding: React.FC<OnboardingProps> = ({
             "abstract": "Developing computer vision algorithms and reinforcement learning policies to assist surgeons in pediatric micro-surgery. The project targets automated tool tracking, semantic segmentation of blood vessels, and real-time path planning in delicate environments.",
             "score": 68,
             "compatibility_score": 68,
-            "matching_skills": ["python"],
-            "missing_skills": ["computer vision", "robotics", "reinforcement learning"],
+            "matching_skills": [],
+            "missing_skills": [],
             "methodologies": ["Computer Vision", "Robotics", "Reinforcement Learning"],
-            "recommended_role": "Research Assistant",
+            "recommended_role": null,
             "status": null,
-            "location_match": false
+            "location_match": false,
+            "is_demo": true
           },
           {
             "id": "11111111-1111-1111-1111-111111111111",
@@ -273,7 +280,7 @@ export const Onboarding: React.FC<OnboardingProps> = ({
             "pi_lookup_url": "https://www.google.com/search?q=%22Sarah+Jenkins%22+Stanford+University+lab+contact",
             "institution": "Stanford University",
             "university": "Stanford University",
-            "department": "Bioengineering",
+            "department": "",
             "title": "Deep Learning for Genomic Mutation Analysis",
             "grant_title": "Deep Learning for Genomic Mutation Analysis",
             "agency": "NIH",
@@ -284,12 +291,13 @@ export const Onboarding: React.FC<OnboardingProps> = ({
             "abstract": "This research focuses on utilizing deep neural networks to identify non-coding genomic variants associated with cardiovascular diseases. We apply transformer models and convolutional neural networks to predict splicing disruption and transcription factor binding shifts.",
             "score": 98,
             "compatibility_score": 98,
-            "matching_skills": ["deep learning", "genomics", "transformers", "python"],
+            "matching_skills": [],
             "missing_skills": [],
             "methodologies": ["Deep Learning", "Genomics", "Transformers", "Python"],
-            "recommended_role": "Computational Biologist Research Assistant",
+            "recommended_role": null,
             "status": null,
-            "location_match": true
+            "location_match": true,
+            "is_demo": true
           }
         ];
 
@@ -329,7 +337,7 @@ export const Onboarding: React.FC<OnboardingProps> = ({
             "pi_lookup_url": "https://www.google.com/search?q=%22Wei-An+Lim%22+MIT+lab+contact",
             "institution": "MIT",
             "university": "MIT",
-            "department": "Biology",
+            "department": "",
             "title": "Plant Genomes and Environmental Stress Proximity",
             "grant_title": "Plant Genomes and Environmental Stress Proximity",
             "agency": "NSF",
@@ -340,12 +348,13 @@ export const Onboarding: React.FC<OnboardingProps> = ({
             "abstract": "Investigating epigenetic changes in Arabidopsis thaliana under high salinity and drought conditions to maximize crop yield. We examine histones and chromatin dynamics using next-generation sequencing libraries and plant microfluidic arrays.",
             "score": 58,
             "compatibility_score": 58,
-            "matching_skills": ["python"],
-            "missing_skills": ["plant biology", "epigenetics", "microfluidics"],
+            "matching_skills": [],
+            "missing_skills": [],
             "methodologies": ["Plant Biology", "Epigenetics", "Microfluidics"],
-            "recommended_role": "Research Assistant",
+            "recommended_role": null,
             "status": null,
-            "location_match": false
+            "location_match": false,
+            "is_demo": true
           },
           {
             "id": "33333333-3333-3333-3333-333333333333",
@@ -353,7 +362,7 @@ export const Onboarding: React.FC<OnboardingProps> = ({
             "pi_lookup_url": "https://www.google.com/search?q=%22Sternberg%22+Harvard+University+lab+contact",
             "institution": "Harvard University",
             "university": "Harvard University",
-            "department": "Molecular & Cellular Biology",
+            "department": "",
             "title": "Precision Epigenetic Base Editing in Human Stem Cells",
             "grant_title": "Precision Epigenetic Base Editing in Human Stem Cells",
             "agency": "NIH",
@@ -364,12 +373,13 @@ export const Onboarding: React.FC<OnboardingProps> = ({
             "abstract": "Developing next-generation CRISPR-Cas base editors to modify genomic loci in hematopoietic stem cells. We optimize target specificity and construct engineered guide RNAs to achieve highly localized nucleobase transitions and study disease phenotypic recovery.",
             "score": 98,
             "compatibility_score": 98,
-            "matching_skills": ["molecular biology", "crispr-cas9", "stem cells", "epigenetics"],
+            "matching_skills": [],
             "missing_skills": [],
             "methodologies": ["Molecular Biology", "CRISPR-Cas9", "Stem Cells", "Epigenetics"],
-            "recommended_role": "Molecular Biology Research Assistant",
+            "recommended_role": null,
             "status": null,
-            "location_match": true
+            "location_match": true,
+            "is_demo": true
           }
         ];
 
@@ -418,13 +428,16 @@ export const Onboarding: React.FC<OnboardingProps> = ({
         await new Promise(resolve => setTimeout(resolve, 600));
         
         // Fetch matched research grants: Default to local campus matches first
+        // readMatchesPage: the endpoint is gaining pagination fields, so the body may be
+        // the bare array it has always been or an object around it. Reading `.data` as
+        // an array directly would turn the new shape into "no matches".
         let matchResp = await api.get(`/grants/matches?student_id=${studentId}&threshold=0.2&limit=5&local_only=true`);
-        matchedGrants = matchResp.data;
+        matchedGrants = readMatchesPage(matchResp.data).cards;
 
         // Fallback: If no local matches are found, fetch all grants
         if (!matchedGrants || matchedGrants.length === 0) {
           matchResp = await api.get(`/grants/matches?student_id=${studentId}&threshold=0.2&limit=5&local_only=false`);
-          matchedGrants = matchResp.data;
+          matchedGrants = readMatchesPage(matchResp.data).cards ?? [];
         }
       }
 
@@ -907,7 +920,7 @@ export const Onboarding: React.FC<OnboardingProps> = ({
             <p className="onboarding-hero-subtitle">
               {isReturningUser
                 ? 'Login with your email and password to load your academic CV narrative, research interests, and active lab matches.'
-                : 'Upload your academic credentials and detail your research interests to align immediately with active, fully-funded NIH & NSF labs.'}
+                : 'Upload your academic credentials and detail your research interests to align immediately with active, funded awards.'}
             </p>
           </div>
         </div>

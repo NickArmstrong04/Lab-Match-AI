@@ -8,22 +8,30 @@ import axios from 'axios';
 import api from '../api/axios';
 import { trackEvent } from '../utils/analytics';
 import { piDisplayName, piIsResolved } from '../utils/pi';
+import {
+  DECK_ORDER_NOTE,
+  NO_RECORD_LINK,
+  agencyPillClass,
+  agencyPillText,
+  agencyShortLabel,
+  awardAmountDisplay,
+  formatMonthYear,
+  fundingWindow,
+  isDemoCard,
+  readMatchesPage,
+  recordSiteName,
+  similarityValue,
+} from '../utils/card';
 import AiPiBadge from '../components/AiPiBadge';
+import { SimilarityNotes } from '../components/CircularScore';
 
 /**
  * Render a funding window honestly.
  *
- * `new Date(null)` is 1 Jan 1970, so a missing date used to render as "Jan 1970" next to
- * a real award number. Dates are now nullable end-to-end (the backend stopped defaulting
- * them to an invented 2026-09-01–2029-08-31 window), so say when they aren't published.
+ * Dates are nullable end-to-end (the backend stopped defaulting them to an invented
+ * 2026-09-01–2029-08-31 window), so say when they aren't published. formatMonthYear lives
+ * in utils/card.ts, next to the funding-window pill that shares it.
  */
-const formatMonthYear = (value?: string | null): string | null => {
-  if (!value) return null;
-  const d = new Date(value);
-  if (isNaN(d.getTime())) return null;
-  return d.toLocaleDateString(undefined, { year: 'numeric', month: 'short' });
-};
-
 export const formatHorizon = (start?: string | null, end?: string | null): string => {
   const s = formatMonthYear(start);
   const e = formatMonthYear(end);
@@ -47,23 +55,45 @@ export interface GrantMatch {
   // The card shows "PI not yet identified" rather than a dead-end lookup link.
   pi_lookup_url: string | null;
   institution: string;
-  department: string;
+  // Still on the wire (now always ""), never rendered: the stored column holds three
+  // hardcoded constants written by ingest, not anything an agency published.
+  department?: string;
   title: string;
-  agency: 'NIH' | 'NSF';
-  award_amount: number;
+  // The stored funding_source (NIH, NSF, DOD, DOE, EPA, NASA, USDA, DNR), or null when
+  // the row has none. Was `'NIH' | 'NSF'` with a server-side "NIH" default, which
+  // labelled every USAspending award as one or the other. Render through utils/card.ts.
+  agency: string | null;
+  funding_source?: string | null;
+  // A positive number, or null. Never rendered as "$0" -- see awardAmountDisplay.
+  award_amount: number | null;
+  // Why award_amount is or is not a figure. Absent on old payloads and saved rows.
+  award_amount_state?: 'value' | 'not_published' | 'zero' | 'negative' | null;
+  // Which quantity the figure is; the three sources publish three different ones.
+  amount_basis?: 'nih_fiscal_year' | 'nsf_obligated' | 'usaspending_obligation' | null;
+  // When we FIRST read the federal record (the row's created_at). Not the date of the
+  // amount, which a later ingest run can revise in place; see awardAmountDisplay.
+  record_read_at?: string | null;
+  // Keyword tags from our own scan of the award text. Never rendered on the card; read
+  // only to choose search keywords for the sync button.
+  methodologies?: string[];
+  // True on every card from the hardcoded persona decks.
+  is_demo?: boolean;
   // Nullable: the agency may not publish these, and we no longer invent them.
   project_start: string | null;
   project_end: string | null;
   abstract: string;
-  score: number;
-  matching_skills: string[];
-  missing_skills: string[];
-  recommended_role: string;
+  // Null on a saved row that never stored a score.
+  score: number | null;
+  // Always [] / null from the current backend and never rendered: they were tag overlap
+  // presented as "skills you match" and an invented role. Optional so both payloads type.
+  matching_skills?: string[];
+  missing_skills?: string[];
+  recommended_role?: string | null;
   location_match?: boolean;
-  // The {semantic, keyword, campus_boost} breakdown behind `score`, so the number is
-  // explainable instead of a bare percentage. A component is null when it didn't apply
-  // (keyword is null on the pure-embedding path; semantic is null on the keyword path).
-  // campus_boost surfaces the otherwise-silent +30 home-campus bump.
+  // The {semantic, keyword, campus_boost} breakdown behind `score`. A component is null
+  // when it didn't apply (keyword is null on the pure-embedding path; semantic is null on
+  // the keyword path). campus_boost is 0 from the current backend; older payloads and
+  // saved rows can still carry 30, which is why the card shows `semantic`, not `score`.
   score_components?: {
     semantic: number | null;
     keyword: number | null;
@@ -220,7 +250,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
     if (dragOffset.x > 50) return 'emerald';
     if (dragOffset.x < -50) return 'rose';
     if (!currentMatch) return 'none';
-    return currentMatch.location_match ? 'teal' : currentMatch.score >= 90 ? 'teal' : 'purple';
+    return currentMatch.location_match ? 'teal' : (currentMatch.score ?? 0) >= 90 ? 'teal' : 'purple';
   };
 
   const cardStyle: React.CSSProperties = !inspectedMatch && isDragging
@@ -262,9 +292,33 @@ export const Dashboard: React.FC<DashboardProps> = ({
   const [deckOffset, setDeckOffset] = useState(0);
   const [isLoadingMore, setIsLoadingMore] = useState(false);
   const [deckExhausted, setDeckExhausted] = useState(false);
-  // Consecutive auto-loads since the filters last changed. A ref, not state: bumping it
-  // must not re-run the effect that calls loadMoreMatches.
+  // Where the server says to resume the RAW ranking (`next_offset`). null until a
+  // response carries one, and always null against a backend that still returns a bare
+  // array -- then loadMoreMatches falls back to deckOffset + 12 as before.
+  const [serverNextOffset, setServerNextOffset] = useState<number | null>(null);
+  // The auto-load budget ran out while the server was still reporting `exhausted: false`.
+  // Distinct from deckExhausted so the empty state never says "no more awards" about a
+  // ranking we simply stopped reading; the student can resume it.
+  const [searchPaused, setSearchPaused] = useState(false);
+  // Consecutive auto-loads that added NO new card. Reset whenever a page adds one, so
+  // the cap means what the paused panel says ("several pages without a new award"); as
+  // a per-session budget it paused a student whose every page had been full. A ref, not
+  // state: bumping it must not re-run the effect that calls loadMoreMatches.
   const autoLoadAttempts = useRef(0);
+  // A top-up request failed. It used to be logged and retried until the cap, after which
+  // the deck said no award was found (or that none were left): statements about the
+  // corpus made after requests that never answered. Now it stops the auto-loader and
+  // renders as an error with Retry.
+  const [loadMoreError, setLoadMoreError] = useState('');
+  // Swipes the server has recorded since the last page was read. match_grants leaves
+  // swiped awards out of the ranking, so every one of them moves the rows after it up
+  // by one and `next_offset` points that many rows too deep. Subtracted from the offset
+  // loadMoreMatches sends. Can go negative: undoing an older swipe puts a row back.
+  const swipesSincePage = useRef(0);
+  // The deck as of the latest render, for loadMoreMatches to tell new cards from
+  // repeats without taking deckMatches as a dependency.
+  const deckMatchesRef = useRef(deckMatches);
+  deckMatchesRef.current = deckMatches;
 
   const [showNarrativeEditor, setShowNarrativeEditor] = useState(false);
 
@@ -282,21 +336,49 @@ export const Dashboard: React.FC<DashboardProps> = ({
       // pagination, the exhausted flag and the auto-load budget must not carry over.
       setDeckOffset(0);
       setDeckExhausted(false);
+      setServerNextOffset(null);
+      setSearchPaused(false);
+      setLoadMoreError('');
       autoLoadAttempts.current = 0;
       try {
         const locFilterStr = locationSearch.trim() ? `&location_filter=${encodeURIComponent(locationSearch.trim())}` : '';
-        const url = (local: boolean) =>
-          `/grants/matches?student_id=${studentId}&threshold=0.2&limit=12&local_only=${local}${locFilterStr}`;
+        const url = (local: boolean, offset: number) =>
+          `/grants/matches?student_id=${studentId}&threshold=0.2&limit=12&local_only=${local}${locFilterStr}${offset > 0 ? `&offset=${offset}` : ''}`;
 
-        let fetched = (await api.get(url(localOnly), { signal: controller.signal })).data;
+        // The server now drops rows after ranking (USAspending awards with no resolved
+        // PI), so a page can come back empty while the ranking still has rows. It says so
+        // with `exhausted: false` + `next_offset`; keep reading until cards arrive or it
+        // reports the end. Bounded like the auto-loader. Against the old bare-array
+        // response `exhausted` is null and this reads exactly one page, as before.
+        //
+        // Never with a location filter. There the server ranks 200 rows per call, and
+        // each further hop ranks 200 more than the last (untimed on this instance, and
+        // past the measured cliff described in get_matches). An empty campus page goes
+        // straight to the nationwide fallback below, as it did before paging existed.
+        const locationFiltered = (local: boolean) => local || !!locationSearch.trim();
+        const readFirstPage = async (local: boolean) => {
+          let page = readMatchesPage((await api.get(url(local, 0), { signal: controller.signal })).data);
+          let offset = 0;
+          const maxHops = locationFiltered(local) ? 0 : MAX_AUTO_LOAD_PAGES;
+          for (let hop = 0; hop < maxHops; hop += 1) {
+            const emptyButNotDone = page.cards !== null && page.cards.length === 0
+              && page.exhausted === false && page.nextOffset !== null && page.nextOffset > offset;
+            if (!emptyButNotDone) break;
+            offset = page.nextOffset as number;
+            page = readMatchesPage((await api.get(url(local, offset), { signal: controller.signal })).data);
+          }
+          return { page, offset };
+        };
+
+        let { page, offset } = await readFirstPage(localOnly);
 
         // Auto-fall back to nationwide when a home-campus filter returns nothing. An
         // empty array used to be written straight into the deck, wiping the nationwide
         // results a new student had just been shown.
-        if (localOnly && Array.isArray(fetched) && fetched.length === 0) {
-          const nationwide = (await api.get(url(false), { signal: controller.signal })).data;
-          if (Array.isArray(nationwide) && nationwide.length > 0) {
-            fetched = nationwide;
+        if (localOnly && page.cards !== null && page.cards.length === 0) {
+          const nationwide = await readFirstPage(false);
+          if (nationwide.page.cards !== null && nationwide.page.cards.length > 0) {
+            ({ page, offset } = nationwide);
             setDidFallBackNationwide(true);
           }
         } else {
@@ -305,11 +387,17 @@ export const Dashboard: React.FC<DashboardProps> = ({
 
         if (controller.signal.aborted) return;
 
-        // Only replace the deck on success, and never with a bare empty response.
-        if (Array.isArray(fetched)) {
+        // Only replace the deck on success, and never with an unrecognised response.
+        if (page.cards !== null) {
+          const fetched = page.cards;
           setProfileMissing(false);
           setDeckMatches(fetched);
-          const dbSkipped = fetched.filter((m: any) => m.status === 'skipped').map((m: any) => m.id);
+          setDeckOffset(offset);
+          setServerNextOffset(page.nextOffset);
+          swipesSincePage.current = 0;
+          // Only the server's word counts here: an empty page alone is not exhaustion.
+          if (page.exhausted === true) setDeckExhausted(true);
+          const dbSkipped = fetched.filter((m) => m.status === 'skipped').map((m) => m.id);
           setSkippedMatches(dbSkipped);
         }
 
@@ -428,43 +516,97 @@ export const Dashboard: React.FC<DashboardProps> = ({
    * server excludes swiped grants, so the next page is always genuinely new labs.
    */
   const loadMoreMatches = useCallback(async () => {
-    if (!studentId || isLoadingMore || deckExhausted) return;
+    if (!studentId || isLoadingMore || deckExhausted || searchPaused || loadMoreError) return;
     // Bound the auto-paging.
     //
-    // `offset` skips candidates in the VECTOR ranking, but "Only My University" filters
+    // `offset` skips candidates in the VECTOR ranking, but the campus filter applies
     // after that, so a student with few local labs gets a near-empty page every time and
     // the low-deck trigger fires again immediately -- paging through thousands of grants
     // a dozen at a time. Observed reaching offset 48 in 20s on a 2-card local deck.
     // Cap the run and let the empty-deck UI offer the nationwide search instead.
+    //
+    // Hitting the cap is only "exhausted" when the server has not said otherwise. If it
+    // is reporting `exhausted: false` (serverNextOffset is only ever set alongside it),
+    // we stopped reading -- the ranking did not end -- so pause instead.
     if (autoLoadAttempts.current >= MAX_AUTO_LOAD_PAGES) {
-      setDeckExhausted(true);
+      if (serverNextOffset !== null) setSearchPaused(true);
+      else setDeckExhausted(true);
       return;
     }
     autoLoadAttempts.current += 1;
     setIsLoadingMore(true);
+    // Read once, before the request: a swipe that lands while it is in flight may or
+    // may not have been seen by the RPC, so it is carried over to the next page. That
+    // errs toward re-reading a row (dropped by the seen-id filter), never skipping one.
+    const swipesAtSend = swipesSincePage.current;
     try {
-      const nextOffset = deckOffset + 12;
+      // The server's raw offset when it gave one: it may have read several RPC pages to
+      // fill this one, so deckOffset + 12 would re-read rows it already passed over.
+      //
+      // Less the swipes recorded since that offset was issued. next_offset indexes the
+      // ranking as it was then; the RPC has since dropped each swiped award from it, so
+      // sending it unchanged skipped one unseen award per swipe (nine swipes: the nine
+      // next-closest awards never shown until a reload).
+      const nextOffset = serverNextOffset !== null
+        ? Math.max(0, serverNextOffset - swipesAtSend)
+        : deckOffset + 12;
       const locFilterStr = locationSearch.trim() ? `&location_filter=${encodeURIComponent(locationSearch.trim())}` : '';
       const res = await api.get(
         `/grants/matches?student_id=${studentId}&threshold=0.2&limit=12&local_only=${localOnly}${locFilterStr}&offset=${nextOffset}`
       );
-      const more = Array.isArray(res.data) ? res.data : [];
-      if (more.length === 0) {
-        // Genuinely out of labs at these filters — now the message is true.
-        setDeckExhausted(true);
-      } else {
-        setDeckOffset(nextOffset);
+      const page = readMatchesPage(res.data);
+      const more = page.cards ?? [];
+      if (serverNextOffset !== null) swipesSincePage.current -= swipesAtSend;
+      if (more.length > 0) {
+        const held = new Set(deckMatchesRef.current.map((m) => m.id));
+        // A page that added a card is progress, so the empty-page count starts over.
+        if (more.some((m: GrantMatch) => !held.has(m.id))) autoLoadAttempts.current = 0;
         setDeckMatches((prev) => {
           const seen = new Set(prev.map((m) => m.id));
           return [...prev, ...more.filter((m: GrantMatch) => !seen.has(m.id))];
         });
       }
-    } catch (err) {
+
+      if (page.exhausted === null) {
+        // Old bare-array response: an empty page is the only end-of-ranking signal.
+        if (more.length === 0) setDeckExhausted(true);
+        else setDeckOffset(nextOffset);
+      } else if (page.exhausted) {
+        setDeckOffset(nextOffset);
+        setServerNextOffset(null);
+        setDeckExhausted(true);
+      } else if (page.nextOffset !== null && page.nextOffset > nextOffset) {
+        // Not exhausted, possibly empty: every row on this stretch of the ranking was
+        // filtered out. Advance and let the top-up effect fetch again -- showing the
+        // exhausted state here would tell the student they had seen everything.
+        setDeckOffset(nextOffset);
+        setServerNextOffset(page.nextOffset);
+      } else {
+        // `exhausted: false` with nowhere to resume from. Asking again would re-read the
+        // same rows forever, so stop, without claiming the ranking ended.
+        setSearchPaused(true);
+      }
+    } catch (err: any) {
       console.error('Failed to load more matches:', err);
+      // A request that failed searched nothing, so it does not count as an empty page,
+      // and it is not retried behind the student's back: the top-up effect is gated on
+      // this state until they press Retry.
+      autoLoadAttempts.current = Math.max(0, autoLoadAttempts.current - 1);
+      setLoadMoreError(err?.normalized?.friendlyMessage || "We couldn't load more matches.");
     } finally {
       setIsLoadingMore(false);
     }
-  }, [studentId, deckOffset, deckExhausted, isLoadingMore, localOnly, locationSearch]);
+  }, [studentId, deckOffset, deckExhausted, searchPaused, loadMoreError, serverNextOffset, isLoadingMore, localOnly, locationSearch]);
+
+  // Resume a paused search with a fresh auto-load budget.
+  const handleKeepLooking = () => {
+    autoLoadAttempts.current = 0;
+    setSearchPaused(false);
+  };
+
+  // Clearing the error is the retry: the top-up effect below fires again from the same
+  // offset. Not a deck reload, which would throw away the student's place.
+  const handleRetryLoadMore = () => setLoadMoreError('');
 
   useEffect(() => {
     refreshSavedMatches();
@@ -480,10 +622,13 @@ export const Dashboard: React.FC<DashboardProps> = ({
   // Top up the deck before it runs dry, so swiping never dead-ends at a false
   // "Deck Fully Evaluated!" while thousands of active grants remain.
   useEffect(() => {
-    if (activeDeck.length <= 3 && !isDeckLoading && !isLoadingMore && !deckExhausted && !profileMissing && !deckError) {
+    if (activeDeck.length <= 3 && !isDeckLoading && !isLoadingMore && !deckExhausted && !searchPaused && !profileMissing && !deckError && !loadMoreError) {
       loadMoreMatches();
     }
-  }, [activeDeck.length, isDeckLoading, isLoadingMore, deckExhausted, profileMissing, deckError, loadMoreMatches]);
+  }, [activeDeck.length, isDeckLoading, isLoadingMore, deckExhausted, searchPaused, profileMissing, deckError, loadMoreError, loadMoreMatches]);
+
+  // Demo personas: exact UUID, or the server's flag on the card itself.
+  const isDemo = isDemoCard(studentId, currentMatch);
 
   const [cardLoadedTime, setCardLoadedTime] = useState<number>(Date.now());
 
@@ -556,7 +701,12 @@ export const Dashboard: React.FC<DashboardProps> = ({
         match_score: card.score,
         score_components: card.score_components,
       })
-        .then(() => { if (direction === 'right') refreshSavedMatches(); })
+        .then(() => {
+          // Counted only once the server has the row: that is when the RPC starts
+          // leaving this award out of the ranking.
+          swipesSincePage.current += 1;
+          if (direction === 'right') refreshSavedMatches();
+        })
         .catch(err => console.error("Failed to sync match state in database:", err));
     } catch (err) {
       console.error(err);
@@ -615,6 +765,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
 
     try {
       await api.post('/grants/matches/undo', { student_id: studentId, grant_id: swipe.card.id });
+      swipesSincePage.current -= 1; // the award is back in the ranking
       if (swipe.direction === 'right') refreshSavedMatches();
     } catch (err) {
       console.error('Failed to undo swipe:', err);
@@ -660,21 +811,31 @@ export const Dashboard: React.FC<DashboardProps> = ({
     setInspectedMatch(null);
   };
 
+  // Search keywords for the sync button: the keyword tags on the awards this student
+  // saved, then on the card in front of them.
+  //
+  // This read matching_skills, which the card no longer fills, so every click fell
+  // through to researchInterests.split(/[,;]/). That prop is the free-text narrative:
+  // fragments such as "I am a sophomore studying neuroscience at UCLA" were posted as
+  // keywords and sent verbatim to the agency searches, and the button still turned
+  // success-teal. The profile's own skill list is not held by the frontend, so the tags
+  // of awards the student chose are the nearest real keyword source here.
+  const syncKeywords = Array.from(new Set(
+    savedMatches.flatMap((m) => m.methodologies || [])
+      .concat(currentMatch?.methodologies || [])
+      .map((k) => (typeof k === 'string' ? k.trim() : ''))
+      .filter((k) => k.length > 2)
+  )).slice(0, 5);
+
   const triggerLiveSync = async () => {
+    // With nothing to search for, do nothing. Posting no keywords makes
+    // run_grant_ingestion use DEFAULT_KEYWORDS, a fixed list unrelated to the student,
+    // under a button that says the fetch is for their interests.
+    if (syncKeywords.length === 0) return;
     setIsSyncing(true);
     setSyncStatus('idle');
     try {
-      // Ingest keywords derived from THIS student's interests/skills, not five hardcoded
-      // topics unrelated to them. Falls back to their raw interests text if no skills.
-      const skillKeywords = (currentMatch?.matching_skills || [])
-        .concat((savedMatches[0]?.matching_skills) || []);
-      const derived = Array.from(new Set(
-        (skillKeywords.length ? skillKeywords : researchInterests.split(/[,;]/))
-          .map((k) => k.trim())
-          .filter((k) => k.length > 2)
-      )).slice(0, 5);
-
-      await api.post('/grants/ingest', { keywords: derived.length ? derived : undefined });
+      await api.post('/grants/ingest', { keywords: syncKeywords });
       setSyncStatus('success');
 
       // Ingestion runs in the background and takes minutes, not 3s. Poll the grant count
@@ -726,6 +887,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
     setInspectedMatch(null);
     setLastSwipe(null);
     autoLoadAttempts.current = 0;
+    setLoadMoreError('');
     setIsDeckLoading(true);
     setDeckReloadKey((k) => k + 1);
   };
@@ -748,7 +910,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
       {lastSwipe && (
         <div className="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 flex items-center gap-3 bg-stone-900 text-white rounded-full pl-4 pr-2 py-2 shadow-xl animate-fade-in">
           <span className="text-xs font-medium">
-            {lastSwipe.direction === 'right' ? 'Saved' : 'Skipped'} {piIsResolved(lastSwipe.card) ? lastSwipe.card.pi_name : lastSwipe.card.institution}
+            {lastSwipe.direction === 'right' ? 'Saved' : 'Skipped'} {piIsResolved(lastSwipe.card) ? piDisplayName(lastSwipe.card) : lastSwipe.card.institution}
           </span>
           <button
             type="button"
@@ -774,8 +936,8 @@ export const Dashboard: React.FC<DashboardProps> = ({
                 <button
                   type="button"
                   onClick={triggerLiveSync}
-                  disabled={isSyncing}
-                  className={`p-2 rounded-lg border transition-all duration-200 cursor-pointer flex items-center justify-center shrink-0
+                  disabled={isSyncing || syncKeywords.length === 0}
+                  className={`p-2 rounded-lg border transition-all duration-200 cursor-pointer disabled:cursor-not-allowed disabled:opacity-60 flex items-center justify-center shrink-0
                     ${isSyncing 
                       ? 'bg-stone-100 border-stone-300 text-stone-600' 
                       : syncStatus === 'success'
@@ -784,7 +946,9 @@ export const Dashboard: React.FC<DashboardProps> = ({
                           ? 'bg-rose-50 border-rose-200 text-rose-700'
                           : 'bg-stone-50 border-stone-200 hover:border-stone-300 text-stone-500 hover:text-stone-800'}
                   `}
-                  title="Synchronize Live NIH/NSF Awards"
+                  title={syncKeywords.length === 0
+                    ? 'Save an award first. We search for more using the keyword tags on awards you have saved.'
+                    : 'Fetch more awards for your interests'}
                 >
                   <RefreshCw className={`w-4 h-4 ${isSyncing ? 'animate-spin' : ''}`} />
                 </button>
@@ -843,11 +1007,16 @@ export const Dashboard: React.FC<DashboardProps> = ({
                         <div className="min-w-0">
                           <div className="flex items-center gap-1.5 mb-1.5 flex-wrap">
                             <span className={`inline-block text-[9px] px-2 py-0.5 rounded-full font-bold font-mono tracking-wide uppercase
-                              ${m.agency === 'NIH' ? 'bg-blue-50 text-blue-800 border border-blue-200' : 'bg-emerald-50 text-emerald-800 border border-emerald-200'}
+                              ${agencyPillClass(m)}
                             `}>
-                              {/* score can legitimately be unknown (a match row with no
-                                  stored score). Say so rather than render "null%". */}
-                              {m.agency}{typeof m.score === 'number' ? ` • ${m.score}%` : ''}
+                              {/* The similarity can legitimately be unknown (a match row
+                                  with no stored score, or one scored on the keyword path).
+                                  Then the chip names the funder alone. No percent sign:
+                                  it is a text similarity, not a likelihood. */}
+                              {agencyShortLabel(m)}
+                              {similarityValue(m) !== null
+                                ? ` • ${isDemoCard(studentId, m) ? 'sample ' : ''}similarity ${similarityValue(m)}`
+                                : ''}
                             </span>
                             {/* Outreach outcome chip. Until Copy Pitch was wired to
                                 send-email no match reached 'emailed'; now the chip also
@@ -949,17 +1118,28 @@ export const Dashboard: React.FC<DashboardProps> = ({
                    onChange={(e) => setLocalOnly(e.target.checked)}
                    className="rounded border-stone-300 text-[#0d5c5c] focus:ring-[#0d5c5c] cursor-pointer"
                  />
-                 <span>Only My University ({studentLocation})</span>
+                 {/* Says what the filter does: a name comparison against what the student
+                     typed. "Only My University" claimed we knew which campus is theirs. */}
+                 <span>Only institutions matching "{studentLocation}"</span>
                </label>
              )}
            </div>
 
            {/* We quietly widened the search — say so rather than let the student think
-               these are all home-campus labs. */}
+               these are all home-campus labs. Stone, not amber: this is a notice about
+               the filter, and amber is reserved for provenance warnings. */}
            {didFallBackNationwide && currentMatch && (
-             <div className="mb-3 text-xs text-amber-900 bg-amber-50/70 border border-amber-200 rounded-lg px-3.5 py-2 leading-relaxed">
+             <div className="mb-3 text-xs text-stone-700 bg-stone-100 border border-stone-200 rounded-lg px-3.5 py-2 leading-relaxed">
                No active awards matched <strong className="font-semibold">{studentLocation}</strong>, so these are labs from across the country.
              </div>
+           )}
+
+           {/* Not on the persona decks: they are hardcoded in a fixed order, so the
+               sentence would be false there. */}
+           {currentMatch && !inspectedMatch && !isDemo && (
+             <p className="shrink-0 mb-3 px-1 text-xs text-stone-500 leading-relaxed">
+               {DECK_ORDER_NOTE}
+             </p>
            )}
 
            {currentMatch ? (
@@ -1052,46 +1232,51 @@ export const Dashboard: React.FC<DashboardProps> = ({
                       </h2>
 
                       <div className="flex flex-wrap items-center gap-2">
+                        {/* A string comparison between the institution name and what the
+                            student typed -- so that is all the pill claims. No pulse: an
+                            animated badge read as a recommendation. */}
                         {currentMatch.location_match && (
-                          <span className="px-2.5 py-1 rounded-full text-[10px] font-bold font-mono tracking-wider border border-[#b2ddcf] bg-[#e6f7f0] text-[#0d5c48] flex items-center gap-1.5 animate-pulse shrink-0">
+                          <span className="px-2.5 py-1 rounded-full text-[10px] font-bold font-mono tracking-wider border border-[#b2ddcf] bg-[#e6f7f0] text-[#0d5c48] flex items-center gap-1.5 shrink-0">
                             <span className="w-1.5 h-1.5 rounded-full bg-[#10b981]" />
-                            Home Campus Match
+                            Name matches the campus you entered
                           </span>
                         )}
-                        <span className={`px-2.5 py-1 rounded-full text-xs font-bold font-mono tracking-wider border
-                          ${currentMatch.agency === 'NIH' 
-                            ? 'bg-blue-50 text-blue-800 border-blue-200' 
-                            : 'bg-emerald-50 text-emerald-800 border-emerald-200'}
-                        `}>
-                          {currentMatch.agency} FUNDED
+                        <span className={`px-2.5 py-1 rounded-full text-xs font-bold font-mono tracking-wider ${agencyPillClass(currentMatch)}`}>
+                          {agencyPillText(currentMatch)}
                         </span>
-                        <span className="px-2.5 py-1 rounded-full bg-stone-100 border border-stone-200 text-stone-700 text-xs font-medium font-mono">
-                          ROLE: {currentMatch.recommended_role}
-                        </span>
-                        {/* The deck now excludes ended awards, but say so on the card:
-                            "currently-funded" is the product's core claim, and the
-                            student is about to cold-email a PI on the strength of it. */}
-                        {formatMonthYear(currentMatch.project_end) && (
-                          <span
-                            className="px-2.5 py-1 rounded-full bg-[#e6f0f0] border border-[#c5dddd] text-[#0d5c5c] text-xs font-medium font-mono"
-                            title="Award funding runs through this date"
-                          >
-                            ACTIVE THROUGH {formatMonthYear(currentMatch.project_end)}
-                          </span>
-                        )}
+                        {/* "currently-funded" is the product's core claim, and the student
+                            is about to cold-email a PI on the strength of it -- so the pill
+                            says which of funded / not started / ended / unknown the record
+                            actually supports (fundingWindow, utils/card.ts). */}
+                        {(() => {
+                          const win = fundingWindow(currentMatch.project_start, currentMatch.project_end);
+                          return (
+                            <span
+                              className={`px-2.5 py-1 rounded-full border text-xs font-medium font-mono ${
+                                win.tone === 'teal'
+                                  ? 'bg-[#e6f0f0] border-[#c5dddd] text-[#0d5c5c]'
+                                  : 'bg-stone-100 border-stone-200 text-stone-600'
+                              }`}
+                              title={win.title}
+                            >
+                              {win.text}
+                            </span>
+                          );
+                        })()}
                       </div>
 
-                      {/* PI and Location details */}
+                      {/* PI and Location details. No department: the stored column holds
+                          constants written by ingest, not a published affiliation. */}
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm text-stone-600">
                         <div className="flex items-center gap-2">
                           <Building className="w-4 h-4 text-stone-400 shrink-0" />
                           <span>
                             {piIsResolved(currentMatch) ? (
-                              <strong className="text-stone-800">{currentMatch.pi_name}</strong>
+                              <strong className="text-stone-800">{piDisplayName(currentMatch)}</strong>
                             ) : (
                               <span className="italic text-stone-500">PI not yet identified</span>
-                            )}{' '}
-                            {currentMatch.pi_is_generated && <AiPiBadge />} • {currentMatch.department}
+                            )}
+                            {currentMatch.pi_is_generated && <> <AiPiBadge /></>}
                           </span>
                         </div>
                         <div className="flex items-center gap-2">
@@ -1101,58 +1286,22 @@ export const Dashboard: React.FC<DashboardProps> = ({
                       </div>
                     </div>
 
-                    {/* Circular dial */}
+                    {/* Similarity dial */}
                     <div className="shrink-0 self-center md:self-start">
-                      <CircularScore score={currentMatch.score} size={110} strokeWidth={9} />
+                      <CircularScore score={similarityValue(currentMatch)} size={84} strokeWidth={7} isDemo={isDemo} />
                     </div>
                   </div>
 
-                  {/* Alignment breakdown: label what the student already has vs. what the
-                      lab uses that they don't, and surface the otherwise-silent home-campus
-                      boost, so the score is explainable rather than a bare number. */}
-                  <div className="mb-6 space-y-3">
-                    <h4 className="text-xs font-semibold text-stone-500 uppercase tracking-widest">
-                      Alignment Score Logic
-                    </h4>
-                    {currentMatch.matching_skills.length > 0 && (
-                      <div className="space-y-1.5">
-                        <p className="text-[11px] font-semibold text-[#0d5c5c] uppercase tracking-wider">
-                          Skills you match
-                        </p>
-                        <div className="flex flex-wrap gap-2">
-                          {currentMatch.matching_skills.map((skill, index) => (
-                            <span
-                              key={index}
-                              className="px-2.5 py-1 rounded-full text-xs font-medium bg-[#e6f0f0] border border-[#c5dddd] text-[#0d5c5c]"
-                            >
-                              {skill}
-                            </span>
-                          ))}
-                        </div>
-                      </div>
-                    )}
-                    {currentMatch.missing_skills.length > 0 && (
-                      <div className="space-y-1.5">
-                        <p className="text-[11px] font-semibold text-stone-500 uppercase tracking-wider">
-                          Skills to grow
-                        </p>
-                        <div className="flex flex-wrap gap-2">
-                          {currentMatch.missing_skills.map((skill, index) => (
-                            <span
-                              key={index}
-                              className="px-2.5 py-1 rounded-full text-xs font-medium bg-stone-100 border border-stone-200 text-stone-600"
-                            >
-                              {skill}
-                            </span>
-                          ))}
-                        </div>
-                      </div>
-                    )}
-                    {currentMatch.score_components && currentMatch.score_components.campus_boost > 0 && (
-                      <p className="text-[11px] font-medium text-[#0d5c48]">
-                        Includes a +{currentMatch.score_components.campus_boost} home-campus boost.
-                      </p>
-                    )}
+                  {/* What the number is, always visible, and the one thing an award record
+                      cannot tell a student. Replaces the "Alignment Score Logic" block:
+                      its skill chips were keyword-tag overlap presented as the student's
+                      skills, and its +30 line described a boost that no longer exists. */}
+                  <div className="mb-6">
+                    <SimilarityNotes
+                      hasScore={similarityValue(currentMatch) !== null}
+                      abstractIsGenerated={!!currentMatch.abstract_is_generated}
+                      isDemo={isDemo}
+                    />
                   </div>
 
                   {/* Financial & Timeframe highlights bar */}
@@ -1161,9 +1310,19 @@ export const Dashboard: React.FC<DashboardProps> = ({
                       <div className="text-stone-500 text-xs font-medium uppercase tracking-wider flex items-center gap-1">
                         <DollarSign className="w-3.5 h-3.5 shrink-0" /> Award Amount
                       </div>
-                      <div className="text-[#0d5c5c] font-bold font-mono">
-                        ${currentMatch.award_amount.toLocaleString()}
-                      </div>
+                      {(() => {
+                        const amount = awardAmountDisplay(currentMatch, isDemo);
+                        return (
+                          <>
+                            {amount.figure && (
+                              <div className="text-[#0d5c5c] font-bold font-mono">{amount.figure}</div>
+                            )}
+                            {amount.note && (
+                              <p className="text-stone-500 text-[11px] leading-snug">{amount.note}</p>
+                            )}
+                          </>
+                        );
+                      })()}
                     </div>
                     <div className="space-y-1">
                       <div className="text-stone-500 text-xs font-medium uppercase tracking-wider flex items-center gap-1">
@@ -1180,8 +1339,10 @@ export const Dashboard: React.FC<DashboardProps> = ({
                       {/* Authoritative federal record for this award. This page IS the
                           source of truth (real PI, org, abstract, dollars), so it's honest
                           by construction — unlike a guessed profile URL. Only NIH/NSF; a
-                          USAspending card has no stable public id and falls back below. */}
-                      {currentMatch.source_record_url && (
+                          USAspending card has no stable public id, and says so rather
+                          than leaving the student to assume a record link exists. The
+                          persona decks are fictional, so they get neither. */}
+                      {currentMatch.source_record_url ? (
                         <a
                           href={currentMatch.source_record_url}
                           target="_blank"
@@ -1189,9 +1350,11 @@ export const Dashboard: React.FC<DashboardProps> = ({
                           onMouseDown={(e) => e.stopPropagation()}
                           className="text-[#0d5c5c] font-semibold text-xs flex items-center gap-1 hover:underline"
                         >
-                          View on {currentMatch.agency === 'NSF' ? 'NSF Award Search' : 'NIH RePORTER'}
+                          View on {recordSiteName(currentMatch)}
                           <ExternalLink className="w-3 h-3 shrink-0" />
                         </a>
+                      ) : !isDemo && (
+                        <p className="text-stone-500 text-xs leading-snug">{NO_RECORD_LINK}</p>
                       )}
                       {currentMatch.pi_lookup_url ? (
                         <a
@@ -1259,7 +1422,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
                       {/* Warn before the paywall ambush: the free limit is 2/day and a
                           new student's third swipe used to be a surprise paywall. */}
                       {!hasFeedbackToday && (
-                        <span className="text-[11px] font-semibold text-amber-800 bg-amber-50 border border-amber-200 rounded-full px-2.5 py-1">
+                        <span className="text-[11px] font-semibold text-stone-700 bg-stone-100 border border-stone-200 rounded-full px-2.5 py-1">
                           {Math.max(0, 2 - swipeCount)} of 2 free evaluations left today
                         </span>
                       )}
@@ -1289,7 +1452,10 @@ export const Dashboard: React.FC<DashboardProps> = ({
                 </div>
               </GlassCard>
             </div>
-          ) : isDeckLoading && deckMatches.length === 0 ? (
+          ) : (isDeckLoading && deckMatches.length === 0) || isLoadingMore ? (
+            // isLoadingMore too: with nothing left in hand and another page in flight,
+            // this used to fall through to the exhausted panel for the length of the
+            // request -- "no more awards" while we were still fetching them.
             <div className="flex-1 min-h-0">
               <GlassCard className="h-full flex flex-col items-center justify-center text-center p-8 overflow-hidden" glowColor="teal">
                 <RefreshCw className="w-7 h-7 text-stone-400 animate-spin mb-4" aria-hidden />
@@ -1340,6 +1506,44 @@ export const Dashboard: React.FC<DashboardProps> = ({
                 </div>
               </GlassCard>
             </div>
+          ) : loadMoreError ? (
+            // Ahead of the paused and exhausted panels: after a failed request neither
+            // "no new award found" nor "no more awards" is something we know.
+            <div className="flex-1 min-h-0">
+              <GlassCard className="h-full flex flex-col items-center justify-center text-center p-8 overflow-hidden" glowColor="none">
+                <h2 className="text-3xl font-semibold font-outfit text-stone-900 mb-2">
+                  We couldn't load more matches
+                </h2>
+                <p className="text-stone-600 text-md max-w-md mx-auto leading-relaxed mb-6">{loadMoreError}</p>
+                <button
+                  onClick={handleRetryLoadMore}
+                  className="btn-primary px-6 py-2.5 text-sm font-bold flex items-center gap-2"
+                >
+                  <RefreshCw className="w-4 h-4" /> Retry
+                </button>
+              </GlassCard>
+            </div>
+          ) : searchPaused ? (
+            // The server still reports more of the ranking to read; we stopped after
+            // MAX_AUTO_LOAD_PAGES requests. Neutral tone, and no claim that the awards
+            // ran out -- they did not.
+            <div className="flex-1 min-h-0">
+              <GlassCard className="h-full flex flex-col items-center justify-center text-center p-8 overflow-hidden" glowColor="none">
+                <h2 className="text-2xl font-semibold font-outfit text-stone-900 mb-2">
+                  No more awards found yet
+                </h2>
+                <p className="text-stone-600 text-md max-w-md mx-auto leading-relaxed mb-6">
+                  We stopped searching after several pages without a new award for the current
+                  filter. There are more records we have not checked.
+                </p>
+                <button
+                  onClick={handleKeepLooking}
+                  className="btn-primary px-6 py-2.5 text-sm font-bold flex items-center gap-2"
+                >
+                  <RefreshCw className="w-4 h-4" /> Keep looking
+                </button>
+              </GlassCard>
+            </div>
           ) : (
             <div className="flex-1 min-h-0">
             <GlassCard className="h-full flex flex-col items-center justify-center text-center p-8 overflow-hidden" glowColor="teal">
@@ -1351,11 +1555,11 @@ export const Dashboard: React.FC<DashboardProps> = ({
                   <span className="block text-rose-800 bg-rose-50/50 border border-rose-100 p-4 rounded-xl text-sm font-medium">
                     We couldn't find active, funded research grants matching your home campus (<strong className="font-semibold text-rose-900">{studentLocation}</strong>).
                     <span className="block mt-2 font-normal text-rose-700">
-                      Try unchecking the <strong className="font-semibold">"Only My University"</strong> filter at the top right, or click the button below to explore fully-funded labs across the country!
+                      Try unchecking the <strong className="font-semibold">"Only institutions matching"</strong> filter at the top right, or click the button below to explore funded awards across the country.
                     </span>
                   </span>
                 ) : (
-                  "You've successfully audited all research alignments for your current profile vector. Inspect your pipeline in the left sidebar to draft outreach emails or reset lists below to retry."
+                  "There are no more awards to show for the current filter. Open a saved lab in the left sidebar to draft outreach, or use the buttons below to reset your skipped awards or change your interests."
                 )}
               </p>
               <div className="flex items-center gap-4 justify-center">

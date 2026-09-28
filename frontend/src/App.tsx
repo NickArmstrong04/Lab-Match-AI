@@ -452,10 +452,11 @@ function App() {
                 </div>
               ) : (
                 <div className="flex items-center gap-2.5">
-                  <div className="flex items-center gap-2 bg-amber-50/65 border border-amber-200/80 px-3 py-1.5 rounded-lg text-xs font-medium text-amber-900 shadow-sm" title="Guest Session - Progress not saved">
-                    <User className="w-3.5 h-3.5 text-amber-700" />
+                  {/* Stone, not amber: amber is reserved for provenance warnings on award data. */}
+                  <div className="flex items-center gap-2 bg-stone-100 border border-stone-200 px-3 py-1.5 rounded-lg text-xs font-medium text-stone-700 shadow-sm" title="Guest Session - Progress not saved">
+                    <User className="w-3.5 h-3.5 text-stone-500" />
                     <span className="truncate max-w-[120px]">{studentName || 'Guest'} (Guest)</span>
-                    <span className="w-1.5 h-1.5 rounded-full bg-amber-400 shrink-0" aria-hidden="true" />
+                    <span className="w-1.5 h-1.5 rounded-full bg-stone-400 shrink-0" aria-hidden="true" />
                   </div>
                   <button
                     type="button"

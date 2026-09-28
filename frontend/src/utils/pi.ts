@@ -13,5 +13,13 @@ export const piIsResolved = (m: PiFields): boolean =>
   // Prefer the server's verdict; the hardcoded demo decks predate the field.
   m.pi_is_resolved ?? (!!m.pi_name && m.pi_name.trim() !== PI_UNRESOLVED);
 
+/**
+ * The name as the agency published it. Ingest prepends "Dr. " to every PI; no award API
+ * publishes a title, so on the card it read as a sourced credential. Stripped at display
+ * only -- the stored value is untouched, and the placeholder test above still sees it.
+ */
+export const piPublishedName = (m: Pick<GrantMatch, 'pi_name'>): string =>
+  (m.pi_name || '').trim().replace(/^Dr\.?\s+/i, '');
+
 export const piDisplayName = (m: PiFields): string =>
-  piIsResolved(m) ? m.pi_name : 'PI not yet identified';
+  piIsResolved(m) ? piPublishedName(m) : 'PI not yet identified';
