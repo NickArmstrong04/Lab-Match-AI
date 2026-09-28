@@ -304,6 +304,11 @@ async def google_login(
 
         authorization_url, _ = flow.authorization_url(
             access_type="online",
+            # Without this Google silently reuses the last-active account, so a student
+            # signed into both a personal Gmail and a school account had no way to pick
+            # -- and could create their LabMatch profile under the wrong address.
+            # Observed on the first live sign-in test, 2026-09-28.
+            prompt="select_account",
             state=make_oauth_state(student_id, target_origin=target_origin),
         )
         return RedirectResponse(authorization_url)
