@@ -168,6 +168,29 @@ def pi_is_resolved(pi_name: Optional[str]) -> bool:
     return bool(pi_name) and pi_name.strip() != PI_UNRESOLVED
 
 
+# Sources routed through USAspending, which publishes no PI at all -- every named PI on
+# these rows came from Gemini search-grounding (services/ingest.py process_single_grant,
+# recover_unknown_pis.py). NIH RePORTER / NSF publish the PI, so theirs are verbatim.
+USASPENDING_SOURCES = frozenset({"DOD", "DNR", "DOE", "EPA", "NASA", "USDA"})
+
+
+def pi_name_is_generated(grant: dict) -> bool:
+    """Provenance of the PI name shown on the card.
+
+    Reads the pi_is_generated column (migration 20260928000018). When that value is
+    absent -- migration not yet applied, or a caller whose select didn't carry it -- fall
+    back to the source-based rule rather than to False: a missing flag must over-warn,
+    never present an LLM-found name as the federal record's. A 2026-09-28 audit found
+    names like "Dr. Arthur O. M." on these rows, so the label is not hypothetical.
+    """
+    if not pi_is_resolved(grant.get("pi_name")):
+        return False  # nothing is shown as a name, so there is nothing to label
+    flag = grant.get("pi_is_generated")
+    if flag is not None:
+        return bool(flag)
+    return (grant.get("funding_source") or "") in USASPENDING_SOURCES
+
+
 def build_pi_lookup_url(pi_name: str, university: str) -> Optional[str]:
     """
     Search link the student can use to find the PI's real contact info on their
@@ -392,19 +415,24 @@ def fetch_grant_details(db, grant_ids: List[str]) -> dict:
     """
     if not grant_ids:
         return {}
-    try:
-        resp = db.table("labs_cached_grants").select(
-            "id, start_date, end_date, abstract_is_generated, award_id"
-        ).in_("id", grant_ids).execute()
-    except Exception:
-        # abstract_is_generated migration not applied yet — keep dates working
+    # Widest select first, shedding provenance columns whose migration may not be applied
+    # yet so dates keep working. A missing pi_is_generated is safe: pi_name_is_generated()
+    # falls back to the source rule. A missing abstract_is_generated defaults False (the
+    # older, known gap this chain has always carried).
+    resp = None
+    for cols in (
+        "id, start_date, end_date, abstract_is_generated, pi_is_generated, award_id",
+        "id, start_date, end_date, abstract_is_generated, award_id",
+        "id, start_date, end_date, award_id",
+    ):
         try:
-            resp = db.table("labs_cached_grants").select(
-                "id, start_date, end_date, award_id"
-            ).in_("id", grant_ids).execute()
+            resp = db.table("labs_cached_grants").select(cols).in_("id", grant_ids).execute()
+            break
         except Exception as e:
-            warnings.warn(f"Failed to fetch grant details for matched grants: {e}")
-            return {}
+            last_err = e
+    if resp is None:
+        warnings.warn(f"Failed to fetch grant details for matched grants: {last_err}")
+        return {}
     if hasattr(resp, 'data') and resp.data:
         return {g.get("id"): g for g in resp.data}
     return {}
@@ -419,7 +447,8 @@ def format_match_card(grant: dict, *, score, score_components: dict,
     saved). Each site used to copy-paste this dict -- the exact class of duplication that
     produced the original fabricated-email bug. `grant` is a normalized dict carrying:
     id, pi_name, university, department, grant_title, grant_abstract, funding_source,
-    award_amount, methodologies, start_date, end_date, abstract_is_generated, award_id.
+    award_amount, methodologies, start_date, end_date, abstract_is_generated, award_id,
+    and (optionally) pi_is_generated.
 
     Dates are real-or-None (never the old invented 2026-09-01 window); pi_lookup_url is
     None for an unresolved PI (Task 23); score is clamped; the score breakdown rides along.
@@ -443,6 +472,11 @@ def format_match_card(grant: dict, *, score, score_components: dict,
     return {
         "id": grant.get("id"),
         "pi_name": pi_name,
+        # pi_name keeps the raw column value (placeholder included) for test
+        # compatibility; the UI renders from these two instead. pi_is_generated drives the
+        # amber "AI-identified PI" label -- same contract as abstract_is_generated.
+        "pi_is_resolved": pi_is_resolved(pi_name),
+        "pi_is_generated": pi_name_is_generated({**grant, "pi_name": pi_name, "funding_source": funding_source}),
         "pi_lookup_url": build_pi_lookup_url(pi_name, university),
         "source_record_url": build_source_record_url(funding_source, grant.get("award_id")),
         "institution": university,
@@ -684,6 +718,8 @@ async def match_student_to_grants(
                         if item.get("abstract_is_generated") is not None
                         else details.get("abstract_is_generated")
                     ),
+                    # The RPC doesn't return PI provenance; take it from the detail row.
+                    "pi_is_generated": details.get("pi_is_generated"),
                     "award_id": details.get("award_id"),
                 }
                 formatted_matches.append(format_match_card(
@@ -1003,6 +1039,8 @@ async def get_matches(
                         if item.get("abstract_is_generated") is not None
                         else details.get("abstract_is_generated")
                     ),
+                    # The RPC doesn't return PI provenance; take it from the detail row.
+                    "pi_is_generated": details.get("pi_is_generated"),
                     "award_id": details.get("award_id"),
                 }
                 formatted_matches.append(format_match_card(

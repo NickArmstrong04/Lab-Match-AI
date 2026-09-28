@@ -9,10 +9,10 @@
  * set in `auth_deps.DEMO_STUDENT_IDS` for the same reason: "the lookup failed, so serve
  * the demo" is precisely the bug that once put fabricated labs in front of real users.
  */
-export const DEMO_STUDENT_IDS = [
-  '11111111-1111-1111-1111-111111111111', // Sarah Nguyen
-  '33333333-3333-3333-3333-333333333333', // Elena Rostova
-] as const;
+export const SARAH_DEMO_STUDENT_ID = '11111111-1111-1111-1111-111111111111';
+export const ELENA_DEMO_STUDENT_ID = '33333333-3333-3333-3333-333333333333';
+
+export const DEMO_STUDENT_IDS = [SARAH_DEMO_STUDENT_ID, ELENA_DEMO_STUDENT_ID] as const;
 
 export const isDemoStudent = (studentId: string | null | undefined): boolean =>
   !!studentId && (DEMO_STUDENT_IDS as readonly string[]).includes(studentId);

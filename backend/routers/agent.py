@@ -11,7 +11,7 @@ from ..config import settings
 from ..database import get_db
 from ..services.gemini_transport import gemini_endpoint, gemini_configured
 from ..auth_deps import get_optional_student_id, authorize_student
-from .grants import derive_display_title, pi_is_resolved
+from .grants import derive_display_title, pi_is_resolved, SARAH_DEMO_STUDENT_ID
 
 router = APIRouter()
 
@@ -539,7 +539,11 @@ async def draft_email(
 
         # 3. Call Gemini dynamic drafter or fallback (Bypassed instantly for Sarah Nguyen's video walk-through!)
         try:
-            if student_name == "Sarah Nguyen":
+            # Exact UUID, never the name: a real student who happens to be called Sarah
+            # Nguyen used to get this canned draft -- "pre-med at Stanford", "NIH funded
+            # project" on a DOD grant -- written in their name. (The persona has no
+            # students row, so in practice the composer short-circuits before this.)
+            if req.student_id == SARAH_DEMO_STUDENT_ID:
                 draft = {
                     "subject": "Inquiry: Biomedical Research Alignment — Sarah Nguyen",
                     "body": (

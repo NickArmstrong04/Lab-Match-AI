@@ -6,6 +6,9 @@ import { type GrantMatch } from './Dashboard';
 import api from '../api/axios';
 import { trackEvent } from '../utils/analytics';
 import { getDraft, saveDraft, clearDraft, getSession } from '../utils/session';
+import { piDisplayName } from '../utils/pi';
+import { SARAH_DEMO_STUDENT_ID, ELENA_DEMO_STUDENT_ID } from '../utils/demoPersonas';
+import AiPiBadge from '../components/AiPiBadge';
 
 interface EmailReviewProps {
   match: GrantMatch;
@@ -189,7 +192,9 @@ export const EmailReview: React.FC<EmailReviewProps> = ({
 
     const fetchDraft = async () => {
       setIsDrafting(true);
-      if (studentName === "Sarah Nguyen") {
+      // Exact persona UUID, never the display name -- a real student named Sarah Nguyen
+      // or Elena Rostova used to get this canned Stanford/Harvard draft in their name.
+      if (studentId === SARAH_DEMO_STUDENT_ID) {
         const piLastName = match.pi_name ? match.pi_name.split(' ').pop() : 'Jenkins';
         const sampleSubject = "Inquiry: Biomedical Research Alignment — Sarah Nguyen";
         const sampleBody = `Dear Dr. ${piLastName},
@@ -211,7 +216,7 @@ Sarah Nguyen`;
         await new Promise(resolve => setTimeout(resolve, 50));
         setIsDrafting(false);
         return;
-      } else if (studentName === "Elena Rostova") {
+      } else if (studentId === ELENA_DEMO_STUDENT_ID) {
         const piLastName = match.pi_name ? match.pi_name.split(' ').pop() : 'Sternberg';
         const sampleSubject = "Inquiry: CRISPR & Base Editing Research Alignment — Elena Rostova";
         const sampleBody = `Dear Dr. ${piLastName},
@@ -296,7 +301,7 @@ Elena Rostova`;
   useEffect(() => {
     generateDraft(false);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [match.id, studentName]);
+  }, [match.id, studentName, studentId]);
 
   // 2. Persist edits so navigation and refresh don't lose them. Debounced to avoid a
   //    write on every keystroke; also flushed on unmount below.
@@ -363,7 +368,9 @@ Elena Rostova`;
                 {match.title}
               </h3>
               <p className="text-stone-600 text-sm mt-2">
-                Dr. {match.pi_name} • <span className="text-stone-800">{match.institution}</span>
+                {/* pi_name already carries "Dr." -- prefixing it again rendered "Dr. Dr. ..." */}
+                {piDisplayName(match)}
+                {match.pi_is_generated && <> <AiPiBadge /></>} • <span className="text-stone-800">{match.institution}</span>
               </p>
             </div>
 

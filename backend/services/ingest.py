@@ -848,6 +848,10 @@ def process_single_grant(grant: dict) -> Optional[dict]:
         # Provenance: flips to True the moment the abstract text stops being
         # verbatim federal API output (see abstract_is_generated migration).
         abstract_is_generated = False
+        # Same contract for the PI name: USAspending publishes no PI, so any name we
+        # store for those rows is Gemini's (migration 20260928000018). NIH/NSF names come
+        # verbatim from the agency and stay False.
+        pi_is_generated = False
 
         # For USAspending grants, dynamically resolve PI name and abstract before embedding calculation
         if grant["funding_source"] in ["DOD", "DNR", "DOE", "EPA", "NASA", "USDA"]:
@@ -857,6 +861,7 @@ def process_single_grant(grant: dict) -> Optional[dict]:
             if not is_valid_pi(resolved_pi):
                 resolved_pi = "Dr. Unknown Investigator"
             grant["pi_name"] = resolved_pi
+            pi_is_generated = resolved_pi != "Dr. Unknown Investigator"
             grant["grant_abstract"] = resolved["grant_abstract"]
             # USAspending provides no abstract; this text is LLM-mediated even
             # when grounded in search results.
@@ -918,7 +923,8 @@ def process_single_grant(grant: dict) -> Optional[dict]:
             "embedding": embedding,
             "embedding_model": embedding_model,
             "award_id": grant.get("award_id"),
-            "abstract_is_generated": abstract_is_generated
+            "abstract_is_generated": abstract_is_generated,
+            "pi_is_generated": pi_is_generated,
         }
     except Exception as e:
         warnings.warn(f"Failed to process grant '{title[:40]}...': {e}")
@@ -1002,7 +1008,21 @@ def run_grant_ingestion(keywords: List[str] = None, pages: int = 10, limit_per_p
     print(f"Pre-loaded {len(existing_titles)} existing grant titles from database.")
 
     seen_titles = existing_titles.copy()
-    
+
+    # pi_is_generated arrives with migration 20260928000018. Until it is applied, PostgREST
+    # rejects the whole upsert page over the unknown column -- which would silently turn
+    # every run (including the nightly free-fill cron) into zero inserts. Probe once and
+    # strip the key if the column is missing; that migration's backfill then flags the
+    # USAspending rows written in the meantime, and the card falls back to the same
+    # source rule (routers/grants.py pi_name_is_generated) until it does.
+    try:
+        db.table("labs_cached_grants").select("pi_is_generated").limit(1).execute()
+        has_pi_provenance = True
+    except Exception:
+        has_pi_provenance = False
+        warnings.warn("labs_cached_grants.pi_is_generated missing -- apply migration "
+                      "20260928000018; ingesting without the column until then.")
+
     # USAspending agencies
     agencies = [
         "Department of Defense",
@@ -1088,6 +1108,8 @@ def run_grant_ingestion(keywords: List[str] = None, pages: int = 10, limit_per_p
                             if aid in seen_award_ids:
                                 continue
                             seen_award_ids.add(aid)
+                        if not has_pi_provenance:
+                            g = {k: v for k, v in g.items() if k != "pi_is_generated"}
                         deduped.append(g)
                     try:
                         db.table("labs_cached_grants").upsert(deduped, on_conflict="award_id").execute()

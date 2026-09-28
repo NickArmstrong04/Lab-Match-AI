@@ -91,6 +91,9 @@ def seed(apply_changes: bool = False):
         # verbatim from NIH/NSF, so they must carry the provenance flag rather than
         # pose as federal text. See migration 20260716000006.
         grant["abstract_is_generated"] = True
+        # Likewise the PI names are invented; flag them so no card presents a fictional
+        # person as the award's federal record (migration 20260928000018).
+        grant["pi_is_generated"] = True
 
         # Build text string to calculate embedding
         text_representation = f"PI: {grant['pi_name']}. Title: {grant['grant_title']}. Abstract: {grant['grant_abstract']}. Methodologies: {', '.join(grant['methodologies'])}."

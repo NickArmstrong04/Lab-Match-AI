@@ -7,6 +7,8 @@ import EditNarrativeModal from '../components/EditNarrativeModal';
 import axios from 'axios';
 import api from '../api/axios';
 import { trackEvent } from '../utils/analytics';
+import { piDisplayName, piIsResolved } from '../utils/pi';
+import AiPiBadge from '../components/AiPiBadge';
 
 /**
  * Render a funding window honestly.
@@ -33,7 +35,14 @@ export const formatHorizon = (start?: string | null, end?: string | null): strin
 
 export interface GrantMatch {
   id: string;
+  // Raw column value, placeholder included -- render through piDisplayName (utils/pi.ts).
   pi_name: string;
+  // False when pi_name is the "Dr. Unknown Investigator" placeholder.
+  pi_is_resolved?: boolean;
+  // True when an LLM found the name (every named USAspending PI; that API publishes
+  // none). Renders the amber "AI-identified PI" label. Same contract as
+  // abstract_is_generated.
+  pi_is_generated?: boolean;
   // Null when the PI was never resolved (USAspending awards with failed PI resolution).
   // The card shows "PI not yet identified" rather than a dead-end lookup link.
   pi_lookup_url: string | null;
@@ -739,7 +748,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
       {lastSwipe && (
         <div className="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 flex items-center gap-3 bg-stone-900 text-white rounded-full pl-4 pr-2 py-2 shadow-xl animate-fade-in">
           <span className="text-xs font-medium">
-            {lastSwipe.direction === 'right' ? 'Saved' : 'Skipped'} {lastSwipe.card.pi_name}
+            {lastSwipe.direction === 'right' ? 'Saved' : 'Skipped'} {piIsResolved(lastSwipe.card) ? lastSwipe.card.pi_name : lastSwipe.card.institution}
           </span>
           <button
             type="button"
@@ -853,8 +862,9 @@ export const Dashboard: React.FC<DashboardProps> = ({
                             )}
                           </div>
                           <h4 className="text-stone-800 text-sm font-semibold truncate group-hover:text-stone-900 transition-colors">
-                            {m.pi_name}
+                            {piDisplayName(m)}
                           </h4>
+                          {m.pi_is_generated && <div className="mt-0.5"><AiPiBadge compact /></div>}
                           <p className="text-stone-500 text-xs truncate mt-0.5">
                             {m.institution}
                           </p>
@@ -1076,7 +1086,12 @@ export const Dashboard: React.FC<DashboardProps> = ({
                         <div className="flex items-center gap-2">
                           <Building className="w-4 h-4 text-stone-400 shrink-0" />
                           <span>
-                            <strong className="text-stone-800">{currentMatch.pi_name}</strong> • {currentMatch.department}
+                            {piIsResolved(currentMatch) ? (
+                              <strong className="text-stone-800">{currentMatch.pi_name}</strong>
+                            ) : (
+                              <span className="italic text-stone-500">PI not yet identified</span>
+                            )}{' '}
+                            {currentMatch.pi_is_generated && <AiPiBadge />} • {currentMatch.department}
                           </span>
                         </div>
                         <div className="flex items-center gap-2">
