@@ -16,6 +16,18 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from ..database import get_db, generate_embedding, generate_embedding_with_model
 from .gemini_transport import gemini_endpoint, gemini_configured
+# The column list, the mappers and the two text helpers live in sourced_fields.py, a
+# pure module, so that backfill_sourced_fields.py can use the SAME functions without
+# importing this file's Gemini and embedding dependencies. Re-exported here by name:
+# existing imports of clean_abstract_html / parse_nsf_date from this module still work.
+from .sourced_fields import (  # noqa: F401
+    NEW_COLUMNS, INGEST_STAMP_COLUMNS, BACKFILL_ONLY_COLUMNS,
+    NIH_MAPPER_KEYS, NSF_MAPPER_KEYS,
+    utc_now_iso, amount_or_none, has_keys,
+    map_nih_record, map_nsf_record, map_usaspending_record,
+    clean_abstract_html, parse_nsf_date,
+)
+
 
 # Constants
 DEFAULT_KEYWORDS = [
@@ -107,35 +119,6 @@ def is_valid_pi(name: str) -> bool:
         
     return True
 
-def clean_abstract_html(raw_html: str) -> str:
-
-    """
-    Remove HTML tags and unescape symbols from grant abstracts.
-    """
-    if not raw_html:
-        return ""
-    # Unescape HTML entities
-    unescaped = html.unescape(raw_html)
-    # Strip HTML tags
-    clean = re.sub(r'<[^>]+>', '', unescaped)
-    # Replace multiple spaces/newlines
-    clean = re.sub(r'\s+', ' ', clean)
-    return clean.strip()
-
-def parse_nsf_date(date_str: str) -> str:
-    """
-    Convert NSF dates (MM/DD/YYYY) to ISO format (YYYY-MM-DD).
-    """
-    if not date_str:
-        return None
-    try:
-        parts = date_str.split("/")
-        if len(parts) == 3:
-            return f"{parts[2]}-{parts[0]}-{parts[1]}"
-    except Exception:
-        pass
-    return date_str
-
 def scan_methodologies(title: str, abstract: str) -> List[str]:
     """
     Scan grant text and extract matching methodologies.
@@ -195,6 +178,9 @@ def fetch_nih_grants(keyword: str, limit: int = 15, offset: int = 0) -> List[dic
             if response.status == 200:
                 res_body = json.loads(response.read().decode("utf-8"))
                 results = res_body.get("results", [])
+                # One stamp per response: every record below was read from the agency
+                # in this request.
+                stamp = utc_now_iso()
                 
                 parsed_grants = []
                 for p in results:
@@ -225,24 +211,42 @@ def fetch_nih_grants(keyword: str, limit: int = 15, offset: int = 0) -> List[dic
                     if end_date:
                         end_date = end_date[:10]
                         
-                    award_amount = p.get("award_amount", 0)
-                    if award_amount is None:
-                        award_amount = 0
+                    # None when NIH published no amount (see amount_or_none).
+                    award_amount = amount_or_none(p.get("award_amount"))
                         
                     methodologies = scan_methodologies(title, abstract)
+
+                    sourced = map_nih_record(p, fetched_at=stamp)
+                    if not has_keys(p, NIH_MAPPER_KEYS):
+                        # RePORTER left a field out of this record. Keep what did arrive,
+                        # but withhold the stamp: without it the card says "not loaded
+                        # yet" and the backfill picks the row up, instead of a dropped
+                        # field being shown as "NIH published nothing".
+                        sourced["fields_fetched_at"] = None
                     
                     parsed_grants.append({
                         "pi_name": pi_name,
                         "university": org_name,
-                        "department": p.get("duns_description", "Research Department").strip().title() or "Research Division",
+                        # NULL. This read `duns_description`, a key RePORTER does not
+                        # send, so every NIH row got the default "Research Department":
+                        # an invented department beside a real award number. NIH's
+                        # department CATEGORY goes to org_dept_category, labelled as that.
+                        "department": None,
                         "grant_title": title,
                         "grant_abstract": abstract,
                         "methodologies": methodologies,
                         "funding_source": "NIH",
                         "funding_badge_url": "https://img.shields.io/badge/NIH-Funding-blue",
-                        "award_amount": float(award_amount),
+                        "award_amount": award_amount,
                         "start_date": start_date,
                         "end_date": end_date,
+                        **sourced,
+                        # Set only when this record carried the end date we are storing.
+                        "dates_checked_at": stamp if end_date else None,
+                        # Not a column. process_single_grant uses it for
+                        # abstract_checked_at, which must not depend on whether the
+                        # fields_fetched_at stamp above was withheld.
+                        "record_fetched_at": stamp,
                         # appl_id keys RePORTER's public record: reporter.nih.gov/project-details/{appl_id}.
                         # Captured so the card can link the student straight to the authoritative
                         # federal page (roadmap Task 20). Was discarded before, leaving NIH rows with a
@@ -263,6 +267,14 @@ def fetch_nsf_grants(keyword: str, limit: int = 15, offset: int = 0) -> List[dic
     """
     # Create keyword search term
     search_term = urllib.parse.quote(f'"{keyword}"')
+    # printFields is left exactly as it was, and the new keys are deliberately NOT added to
+    # it. Consequence, handled below: these records carry 8 keys, so map_nsf_record can
+    # fill only pi_name_published and org_name_published, and the fields_fetched_at stamp
+    # is withheld so that the card reads "not loaded yet" (not "NSF published no city")
+    # and backfill_sourced_fields.py, which asks for one award with no printFields and
+    # gets the full record, picks the row up. Dropping printFields from THIS request
+    # would fill the columns at ingest, but what a keyword search returns without the
+    # list has not been verified live, and this request feeds the nightly run.
     fields = "id,title,startDate,expDate,abstractText,fundsObligatedAmt,pdPIName,awardeeName"
     
     url = f"https://api.nsf.gov/services/v1/awards.json?ActiveAwards=True&keyword={search_term}&printFields={fields}&rpp={limit}&offset={offset}"
@@ -273,6 +285,7 @@ def fetch_nsf_grants(keyword: str, limit: int = 15, offset: int = 0) -> List[dic
             if response.status == 200:
                 res_body = json.loads(response.read().decode("utf-8"))
                 results = res_body.get("response", {}).get("award", [])
+                stamp = utc_now_iso()
                 
                 parsed_grants = []
                 for a in results:
@@ -284,24 +297,33 @@ def fetch_nsf_grants(keyword: str, limit: int = 15, offset: int = 0) -> List[dic
                     start_date = parse_nsf_date(a.get("startDate"))
                     end_date = parse_nsf_date(a.get("expDate"))
                     
-                    award_amount = a.get("fundsObligatedAmt", 0)
-                    if award_amount is None:
-                        award_amount = 0
+                    # None when NSF published no obligated amount (see amount_or_none).
+                    award_amount = amount_or_none(a.get("fundsObligatedAmt"))
                         
                     methodologies = scan_methodologies(title, abstract)
+
+                    sourced = map_nsf_record(a, fetched_at=stamp)
+                    if not has_keys(a, NSF_MAPPER_KEYS):
+                        # Always the case while printFields is sent (see above).
+                        sourced["fields_fetched_at"] = None
                     
                     parsed_grants.append({
                         "pi_name": pi_name,
                         "university": org_name,
-                        "department": "Department of Science & Engineering",
+                        # NULL. This was the constant "Department of Science &
+                        # Engineering" on every NSF row; NSF publishes no department.
+                        "department": None,
                         "grant_title": title,
                         "grant_abstract": abstract,
                         "methodologies": methodologies,
                         "funding_source": "NSF",
                         "funding_badge_url": "https://img.shields.io/badge/NSF-Funding-blue",
-                        "award_amount": float(award_amount),
+                        "award_amount": award_amount,
                         "start_date": start_date,
                         "end_date": end_date,
+                        **sourced,
+                        "dates_checked_at": stamp if end_date else None,
+                        "record_fetched_at": stamp,  # not a column; see fetch_nih_grants
                         # `id` is already requested in printFields above but used to be
                         # discarded, leaving every NSF row with a NULL award_id. Without it
                         # an award can only be re-found by title (see
@@ -419,9 +441,8 @@ def fetch_usaspending_grants(agency_name: str, keyword: str, limit: int = 15, of
 
         start_date = p.get("Start Date")
         end_date = p.get("End Date")
-        award_amount = p.get("Award Amount", 0)
-        if award_amount is None:
-            award_amount = 0
+        # None when USAspending published no amount (see amount_or_none).
+        award_amount = amount_or_none(p.get("Award Amount"))
 
         methodologies = scan_methodologies(title, title)
 
@@ -450,15 +471,23 @@ def fetch_usaspending_grants(agency_name: str, keyword: str, limit: int = 15, of
         parsed_grants.append({
             "pi_name": "Dr. Unknown Investigator",
             "university": org_name,
-            "department": p.get("Awarding Sub Agency", "Research Division").strip().title() or "Research Division",
+            # The awarding sub-agency when USAspending published one, else NULL. The old
+            # fallback "Research Division" was invented. Still unread by any card: a
+            # sub-agency ("Department Of The Army") is the funder's, not a department of
+            # the recipient.
+            "department": ((p.get("Awarding Sub Agency") or "").strip().title() or None),
             "grant_title": title,
             "grant_abstract": title,
             "methodologies": methodologies,
             "funding_source": funding_source,
             "funding_badge_url": funding_badge_url,
-            "award_amount": float(award_amount),
+            "award_amount": award_amount,
             "start_date": start_date,
             "end_date": end_date,
+            # 19 Nones: identical keys across sources for the bulk upsert. No stamp, and
+            # no dates_checked_at either: nothing here was compared with anything.
+            **map_usaspending_record(p),
+            "dates_checked_at": None,
             "award_id": p.get("Award ID")
         })
     return parsed_grants
@@ -924,6 +953,17 @@ def process_single_grant(grant: dict) -> Optional[dict]:
             raise
         _embedding_consecutive_failures = 0
 
+        sourced = {k: grant.get(k) for k in NEW_COLUMNS + INGEST_STAMP_COLUMNS}
+        # "The stored abstract is the agency's text" is true here only when the text came
+        # from NIH or NSF in this same request and no Gemini path replaced it above. A
+        # grant dict built by anything other than the two fetchers has no
+        # record_fetched_at and gets no stamp.
+        sourced["abstract_checked_at"] = (
+            grant.get("record_fetched_at")
+            if grant.get("funding_source") in ("NIH", "NSF") and abstract_is_generated is False
+            else None
+        )
+
         return {
             "pi_name": grant["pi_name"],
             "university": grant["university"],
@@ -941,6 +981,7 @@ def process_single_grant(grant: dict) -> Optional[dict]:
             "award_id": grant.get("award_id"),
             "abstract_is_generated": abstract_is_generated,
             "pi_is_generated": pi_is_generated,
+            **sourced,
         }
     except Exception as e:
         warnings.warn(f"Failed to process grant '{title[:40]}...': {e}")
@@ -1003,6 +1044,44 @@ def load_all_existing_titles(db) -> set:
         offset += limit
     return titles
 
+def shed_unfetched_sourced_keys(row: dict) -> dict:
+    """`row` without the sourced columns it has nothing to say about.
+
+    The upsert is ON CONFLICT (award_id) DO UPDATE over every key in the payload. A row
+    whose fields_fetched_at was withheld (every NSF row while printFields is sent, an
+    NIH record that arrived with a key missing, every USAspending row) carries None in
+    most NEW_COLUMNS, and None there means "this request did not read it", not "the
+    agency published nothing". Sent as they are, those Nones overwrite what
+    backfill_sourced_fields.py stored for an award that comes round again under an
+    amended title: city, state, co-investigators and the fetch stamp go back to NULL
+    and the card to "not loaded yet" until someone re-runs the backfill by hand.
+
+    So for such a row the None-valued NEW_COLUMNS keys are left out of the payload, the
+    stamp included, and so is an EMPTY co_pis: map_nsf_record reads an absent coPDPI as
+    "no co-investigators" (contract 1.3), which is right for a full record and wrong
+    for one whose printFields never asked for the key. A new row gets NULL in them from the column default, which is the
+    same value; an existing row keeps what it holds. Values the record DID carry (NSF's
+    published PI and institution names) are still sent. A row whose stamp is set is
+    returned unchanged: there a None is the agency's answer and is stored.
+
+    The two ingest stamps are always sent. They describe end_date and grant_abstract,
+    which this same payload overwrites.
+    """
+    if row.get("fields_fetched_at"):
+        return row
+    return {k: v for k, v in row.items() if not (k in NEW_COLUMNS and (v is None or v == []))}
+
+
+def group_by_keys(rows: List[dict]) -> List[List[dict]]:
+    """Rows split into groups with identical key sets, first-seen order kept. PostgREST
+    builds one column list per bulk request, so rows of different shapes cannot share
+    one."""
+    groups: dict = {}
+    for row in rows:
+        groups.setdefault(frozenset(row), []).append(row)
+    return list(groups.values())
+
+
 def run_grant_ingestion(keywords: List[str] = None, pages: int = 10, limit_per_page: int = 25) -> dict:
     """
     Ingest research awards from NIH, NSF, and USAspending (DOD, DNR, DOE, EPA, NASA, USDA)
@@ -1038,6 +1117,22 @@ def run_grant_ingestion(keywords: List[str] = None, pages: int = 10, limit_per_p
         has_pi_provenance = False
         warnings.warn("labs_cached_grants.pi_is_generated missing -- apply migration "
                       "20260928000018; ingesting without the column until then.")
+
+    # Same trap, 21 columns wide (migration 20260928000019). This code reaches the nightly
+    # run as soon as it is merged into the production tree, because the 03:00 cron starts a
+    # fresh Python, and the migration is a separate owner-confirmed step that may come
+    # later. Probe all of them in ONE select: if any is missing, strip every one from the
+    # payload, so rows keep identical keys and the run keeps inserting. Rows written in the
+    # meantime have fields_fetched_at NULL and are picked up by backfill_sourced_fields.py.
+    sourced_columns = NEW_COLUMNS + INGEST_STAMP_COLUMNS
+    try:
+        db.table("labs_cached_grants").select(", ".join(sourced_columns)).limit(1).execute()
+        has_sourced_columns = True
+    except Exception:
+        has_sourced_columns = False
+        warnings.warn("labs_cached_grants is missing one or more sourced card columns -- apply "
+                      "migration 20260928000019_sourced_card_fields.sql; ingesting without "
+                      f"these {len(sourced_columns)} columns until then.")
 
     # USAspending agencies
     agencies = [
@@ -1126,14 +1221,22 @@ def run_grant_ingestion(keywords: List[str] = None, pages: int = 10, limit_per_p
                             seen_award_ids.add(aid)
                         if not has_pi_provenance:
                             g = {k: v for k, v in g.items() if k != "pi_is_generated"}
+                        if not has_sourced_columns:
+                            g = {k: v for k, v in g.items() if k not in sourced_columns}
+                        else:
+                            g = shed_unfetched_sourced_keys(g)
                         deduped.append(g)
-                    try:
-                        db.table("labs_cached_grants").upsert(deduped, on_conflict="award_id").execute()
-                        inserted_count += len(deduped)
-                        print(f"  Successfully upserted {len(deduped)} grants.")
-                    except Exception as e:
-                        warnings.warn(f"Failed to batch upsert grants: {e}")
-                        skipped_count += len(new_grants)
+                    # One request per row shape (see shed_unfetched_sourced_keys). In
+                    # practice that is two or three: NIH rows with the full set, NSF
+                    # rows with two published names, USAspending rows with none.
+                    for group in group_by_keys(deduped):
+                        try:
+                            db.table("labs_cached_grants").upsert(group, on_conflict="award_id").execute()
+                            inserted_count += len(group)
+                            print(f"  Successfully upserted {len(group)} grants.")
+                        except Exception as e:
+                            warnings.warn(f"Failed to batch upsert grants: {e}")
+                            skipped_count += len(group)
                 else:
                     print("  No grants successfully processed in this batch.")
                     

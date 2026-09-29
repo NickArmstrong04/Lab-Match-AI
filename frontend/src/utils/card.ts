@@ -108,6 +108,12 @@ export const formatMonthYear = (value?: string | null): string | null => {
 
 export interface FundingWindow {
   text: string;
+  // Sentence-case form for the card front's funding line ("Funded through Jun 2030").
+  // The caller of fundingWindow does not know whether the dates were re-checked against
+  // the agency, so the label never says "Award ended": a passed end date reads as the
+  // date on file. The re-checked wording comes from the card's own `funding` key
+  // (utils/cardFront.ts), and this is what stands in for it on a card without one.
+  label: string;
   // teal = funding is current or upcoming; stone = everything we cannot vouch for.
   tone: 'teal' | 'stone';
   title: string;
@@ -144,6 +150,9 @@ export const fundingWindow = (
   if (!endDate || !endLabel) {
     return {
       text: 'END DATE NOT PUBLISHED',
+      // "on file", not "not published": without the phase 3 keys nothing says the
+      // agency was asked, so the line states only what our row holds.
+      label: 'No end date on file',
       tone: 'stone',
       title: 'The record we hold has no end date for this award.',
     };
@@ -154,6 +163,7 @@ export const fundingWindow = (
   if (endDate.getTime() > horizon.getTime()) {
     return {
       text: `END DATE ON RECORD: ${endLabel}, LIKELY A DATA ERROR`,
+      label: `End date on file: ${endLabel}, likely a data error`,
       tone: 'stone',
       title: `The end date on record is more than ${IMPLAUSIBLE_END_YEARS} years away.`,
     };
@@ -164,6 +174,7 @@ export const fundingWindow = (
   if (recordDayKey(endDate) < today) {
     return {
       text: `AWARD ENDED ${endLabel}`,
+      label: `End date on file: ${endLabel} (passed)`,
       tone: 'stone',
       title: 'The end date on record has passed.',
     };
@@ -174,6 +185,7 @@ export const fundingWindow = (
   if (startDate && startLabel && recordDayKey(startDate) > today) {
     return {
       text: `STARTS ${startLabel}, funded through ${endLabel}`,
+      label: `Starts ${startLabel} · funded through ${endLabel}`,
       tone: 'teal',
       title: 'The start date on record has not been reached yet.',
     };
@@ -181,6 +193,7 @@ export const fundingWindow = (
 
   return {
     text: `FUNDED THROUGH ${endLabel}`,
+    label: `Funded through ${endLabel}`,
     tone: 'teal',
     title: 'Award funding runs through this date, according to the record we hold.',
   };

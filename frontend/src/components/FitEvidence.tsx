@@ -7,6 +7,7 @@ import {
   EVIDENCE_ZERO_STATE_SAMPLE,
   NO_TERMS_NOTE,
   evidenceCountLine,
+  evidenceCountLineShort,
   evidenceSourceLine,
   evidenceSourceTone,
   groupEvidenceRows,
@@ -24,6 +25,14 @@ interface FitEvidenceProps {
   onReviewProfile?: () => void;
   // Persona cards: the panel behind the link is read-only, so the link says "view".
   isDemo?: boolean;
+  // Inside Details (CardDetails). The section there has its own heading and Details
+  // ends on one merged caveat paragraph, so this mode draws no box, no heading and no
+  // undergraduates line, shortens the count line, and draws nothing at all for a card
+  // without evidence keys.
+  embedded?: boolean;
+  // "Sep 2026" when the stored description was compared with the agency's and matched.
+  // Absent, the source line keeps saying the text has not been re-checked.
+  textCheckedLabel?: string | null;
 }
 
 /**
@@ -45,7 +54,13 @@ interface FitEvidenceProps {
 // How many sentences are shown below lg before "Show all".
 const PHONE_VISIBLE_GROUPS = 2;
 
-export const FitEvidence: React.FC<FitEvidenceProps> = ({ card, onReviewProfile, isDemo = false }) => {
+export const FitEvidence: React.FC<FitEvidenceProps> = ({
+  card,
+  onReviewProfile,
+  isDemo = false,
+  embedded = false,
+  textCheckedLabel = null,
+}) => {
   const evidence = readCardEvidence(card);
   const [showAll, setShowAll] = useState(false);
 
@@ -53,16 +68,22 @@ export const FitEvidence: React.FC<FitEvidenceProps> = ({ card, onReviewProfile,
     <p className="text-xs text-stone-600 leading-relaxed">{UNDERGRADUATE_NOTE}</p>
   );
 
-  if (!evidence) return undergraduateNote;
+  if (!evidence) return embedded ? null : undergraduateNote;
 
   const { rows, matched, total, basis } = evidence;
   const groups = groupEvidenceRows(rows);
   const agency = agencyShortLabel(card);
-  const sourceLine = evidenceSourceLine(basis, agency === FUNDER_NOT_RECORDED ? null : agency);
+  const sourceLine = evidenceSourceLine(
+    basis,
+    agency === FUNDER_NOT_RECORDED ? null : agency,
+    textCheckedLabel,
+  );
   // Either signal: the composer passes no isDemo, and the basis is the server's own
   // statement that this is a sample card.
   const isSample = isDemo || basis === 'sample';
-  const countLine = evidenceCountLine(matched, total, isSample);
+  const countLine = embedded
+    ? evidenceCountLineShort(matched, total, isSample)
+    : evidenceCountLine(matched, total, isSample);
   const searched = basis !== 'llm_generated';
   // Zero state only when the server says it searched and counted none. `matched` is null
   // when nothing was counted, and that is not the same as zero.
@@ -72,8 +93,9 @@ export const FitEvidence: React.FC<FitEvidenceProps> = ({ card, onReviewProfile,
   return (
     <section
       aria-label={EVIDENCE_HEADING}
-      className="rounded-lg border border-stone-200 bg-white px-4 py-3 space-y-2.5"
+      className={embedded ? 'space-y-2.5' : 'rounded-lg border border-stone-200 bg-white px-4 py-3 space-y-2.5'}
     >
+      {!embedded && (
       <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
         {/* Inline letter-spacing: index.css tightens every heading outside any layer,
             which beats a Tailwind utility, and at 12px the words ran together. */}
@@ -96,6 +118,7 @@ export const FitEvidence: React.FC<FitEvidenceProps> = ({ card, onReviewProfile,
           </button>
         )}
       </div>
+      )}
 
       {groups.length > 0 && (
         <ul className="space-y-2.5">
@@ -175,7 +198,19 @@ export const FitEvidence: React.FC<FitEvidenceProps> = ({ card, onReviewProfile,
       )}
       {countLine && <p className="text-[11px] text-stone-500 leading-relaxed">{countLine}</p>}
 
-      <div className="border-t border-stone-200 pt-2">{undergraduateNote}</div>
+      {embedded ? (
+        onReviewProfile && (
+          <button
+            type="button"
+            onClick={onReviewProfile}
+            className="p-0 border-0 bg-transparent text-xs font-semibold text-[#0d5c5c] underline underline-offset-2 cursor-pointer"
+          >
+            {isDemo ? 'View the sample profile' : 'Review your profile'}
+          </button>
+        )
+      ) : (
+        <div className="border-t border-stone-200 pt-2">{undergraduateNote}</div>
+      )}
     </section>
   );
 };

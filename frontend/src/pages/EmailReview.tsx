@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { ArrowLeft, Mail, AlertCircle, CheckCircle2, RefreshCw, Copy, ExternalLink, Paperclip } from 'lucide-react';
 import GlassCard from '../components/GlassCard';
-import CircularScore, { SimilarityNotes } from '../components/CircularScore';
 import { type GrantMatch } from './Dashboard';
 import api from '../api/axios';
 import { trackEvent } from '../utils/analytics';
@@ -10,14 +9,12 @@ import { piDisplayName } from '../utils/pi';
 import { SARAH_DEMO_STUDENT_ID, ELENA_DEMO_STUDENT_ID, isDemoStudent } from '../utils/demoPersonas';
 import {
   NO_RECORD_LINK,
-  agencyPillClass,
-  agencyPillText,
+  cardLocationMatch,
   isDemoCard,
   recordSiteName,
-  similarityValue,
 } from '../utils/card';
-import AiPiBadge from '../components/AiPiBadge';
-import FitEvidence from '../components/FitEvidence';
+import CardFront from '../components/CardFront';
+import CardDetails from '../components/CardDetails';
 
 // Persona deck card ids, as minted in Onboarding.tsx and _demo_decks() (grants.py).
 const SARAH_CARD_ROBOTICS = '22222222-2222-2222-2222-222222222222';
@@ -126,7 +123,8 @@ export const EmailReview: React.FC<EmailReviewProps> = ({
   const [to, setTo] = useState(match.pi_email || '');
   // Demo personas: exact UUID, or the server's flag on the card itself.
   const isDemo = isDemoCard(studentId, match);
-  const similarity = similarityValue(match);
+  // The award's Details, closed until asked for, as on the deck.
+  const [detailsOpen, setDetailsOpen] = useState(false);
   const [subject, setSubject] = useState('');
   const [body, setBody] = useState('');
   // The AI draft as first generated (NOT a restored saved draft), so we can measure how
@@ -444,81 +442,43 @@ export const EmailReview: React.FC<EmailReviewProps> = ({
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:items-stretch">
         
         {/* Left Pane (50%) - Grant Context Details */}
-        <GlassCard className="relative overflow-hidden min-h-[550px] h-full flex flex-col justify-between" glowColor="none">
-          <div className="flex flex-col flex-1 min-h-0 gap-6">
-            <div>
-              <span className={`inline-block text-[9px] px-2 py-0.5 rounded-full font-bold font-mono tracking-wide uppercase mb-3
-                ${agencyPillClass(match)}
-              `}>
-                {agencyPillText(match)}
-              </span>
-              {/* Backstop for an over-long title (see Dashboard). This card is
-                  overflow-hidden, so without the clamp an oversized headline pushed the
-                  score dial and description out of the pane entirely. */}
-              <h3
-                className="text-2xl font-semibold font-outfit text-stone-900 leading-tight line-clamp-3"
-                title={match.title}
-              >
-                {match.title}
-              </h3>
-              <p className="text-stone-600 text-sm mt-2">
-                {/* piDisplayName drops the "Dr. " our ingest prepends; no agency publishes it. */}
-                {piDisplayName(match)}
-                {match.pi_is_generated && <> <AiPiBadge /></>} • <span className="text-stone-800">{match.institution}</span>
-              </p>
-            </div>
+        <GlassCard className="relative overflow-hidden lg:min-h-[550px] h-full flex flex-col justify-between" glowColor="none">
+          <div className="flex flex-col flex-1 min-h-0">
+            {/* The same front as the deck card, from the same card object, so the award
+                a student chose and the award they are writing about read alike. The
+                similarity dial, the evidence block and the full description that used
+                to fill this pane are behind Details, as they are on the deck.
 
-            {/* Similarity context. The sentence that stood here asserted the student had
-                "high proficiency" in skills the lab had "directly requested": the skills
-                were keyword-tag overlap and no award record requests anything. */}
-            {/* Below sm the ring sits above the notes: side by side at 390px the notes
-                were squeezed into a 95px column beside a 72px ring. */}
-            <div className="flex flex-col items-center gap-4 sm:flex-row sm:items-start sm:gap-5 p-4 rounded-lg bg-stone-50 border border-stone-200">
-              <div className="shrink-0">
-                <CircularScore score={similarity} size={72} strokeWidth={6} isDemo={isDemo} />
+                Details here has no "Review your profile" link: a save changes the
+                terms, and this card's rows were found with the old ones, so the panel
+                is offered on the dashboard, where a save reloads the deck. Nothing in
+                it can be copied into the draft: the drafting rules forbid naming the
+                award. */}
+            <CardFront
+              card={match}
+              isDemo={isDemo}
+              // The campus typed at onboarding for a persona, the server's answer
+              // otherwise (cardLocationMatch, utils/card.ts).
+              campusMatch={cardLocationMatch(studentId, getSession()?.location, match)}
+              headingLevel="h3"
+            >
+              <div className="mt-3.5">
+                <button
+                  type="button"
+                  onClick={() => setDetailsOpen((open) => !open)}
+                  aria-expanded={detailsOpen}
+                  aria-controls="composer-card-details"
+                  className="h-10 rounded-full border border-stone-300 bg-white px-4 text-[13px] font-medium text-stone-800 hover:border-stone-400 transition-colors cursor-pointer"
+                >
+                  {detailsOpen ? 'Hide award details' : 'Award details'}
+                </button>
               </div>
-              <SimilarityNotes
-                hasScore={similarity !== null}
-                abstractIsGenerated={!!match.abstract_is_generated}
-                isDemo={isDemo}
-                showUndergraduateNote={false}
-              />
-            </div>
-
-            {/* The same evidence block as the card, from the same card object. No
-                "Review your profile" link here: a save changes the terms, and this
-                card's rows were found with the old ones, so the panel is offered on
-                the dashboard, where a save reloads the deck. Nothing in this block can
-                be copied into the draft: the drafting rules forbid naming the award. */}
-            <FitEvidence card={match} />
-
-            {/* Award description. The "AI-generated summary" pill stays with the text it
-                labels; only the "Key Project Methodologies" heading went, since the text
-                under it is an abstract and nothing here lists methodologies. */}
-            <div className="flex flex-col flex-1 min-h-0 gap-3">
-              <div className="flex items-center gap-2 flex-wrap">
-                <h4 className="text-xs font-semibold text-stone-500 uppercase tracking-widest">
-                  Award Description
-                </h4>
-                {match.abstract_is_generated && (
-                  <span
-                    className="px-2 py-0.5 rounded-full text-[10px] font-bold font-mono tracking-wide bg-amber-50 border border-amber-300 text-amber-800"
-                    title="The funding agency didn't publish a detailed abstract. This description was AI-generated from the grant title and metadata, and may be inaccurate."
-                  >
-                    AI-generated summary
-                  </span>
-                )}
+            </CardFront>
+            {detailsOpen && (
+              <div id="composer-card-details" className="mt-4 border-t border-stone-200 pt-4">
+                <CardDetails card={match} isDemo={isDemo} />
               </div>
-              {/* Was a fixed h-44 scroller sitting above empty space. At lg the panes are
-                  stretched to one height, so the text fills what is left of this pane
-                  (absolute, so a long abstract scrolls here and cannot stretch the row).
-                  Stacked, there is no spare height to fill: it is capped and scrolls. */}
-              <div className="relative flex-1 lg:min-h-44">
-                <p className="text-stone-700 text-sm leading-relaxed overflow-y-auto pr-1 max-h-80 lg:max-h-none lg:absolute lg:inset-0">
-                  {match.abstract}
-                </p>
-              </div>
-            </div>
+            )}
           </div>
 
           <div className="border-t border-stone-200 pt-4 mt-6 text-xs text-stone-500 flex items-center gap-2">

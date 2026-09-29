@@ -251,6 +251,13 @@ export const NO_TERMS_NOTE =
   'We could not extract any terms. Add a few so we can look for them in award records.';
 
 /**
+ * What a set abstract_checked_at lets the card say, in one place for the evidence line
+ * and the abstract's subline in Details. See the note on `checkedLabel` below.
+ */
+export const textSameAsRecord = (whose: string, checkedLabel: string): string =>
+  `It was the same as the text in ${whose} record when we read that record in ${checkedLabel}.`;
+
+/**
  * The line under the rows that says what text was searched.
  *
  * `agency` is the funder label already shown on the card, or null when the row records
@@ -259,9 +266,18 @@ export const NO_TERMS_NOTE =
 export const evidenceSourceLine = (
   basis: EvidenceBasis | null,
   agency: string | null,
+  // "Sep 2026" from abstract_checked_at. Only then does the line stop saying "not yet
+  // re-checked". The stamp has two origins: the backfill compared the stored text with
+  // the agency's and found them equal, or ingest stored the text from the record in
+  // that same request and compared nothing. The card cannot tell which, so the line
+  // says what is true of both (textSameAsRecord) and never that a comparison ran.
+  checkedLabel: string | null = null,
 ): string | null => {
   switch (basis) {
     case 'held_as_published':
+      if (checkedLabel) {
+        return `Text we hold for this award, as published by ${agency || 'the funding agency'}. ${textSameAsRecord('the agency', checkedLabel)}`;
+      }
       return `Text we hold for this award, recorded as published by ${agency || 'the funding agency'}. Not yet re-checked against the agency record.`;
     case 'federal_description_only':
       return 'The agency published only a short description of this award.';
@@ -294,4 +310,18 @@ export const evidenceCountLine = (
   // A persona has no profile of its own: the terms are the sample profile's.
   const whose = isSample ? 'the sample profile\'s' : 'your';
   return `${matched} of ${whose} ${total} ${total === 1 ? 'term' : 'terms'} found. Counted by exact word match; similar ideas in different words are not counted.`;
+};
+
+/**
+ * The count line inside Details, where the longer explanation is one tap away in the
+ * profile panel. Same numbers, same nulls.
+ */
+export const evidenceCountLineShort = (
+  matched: number | null,
+  total: number | null,
+  isSample = false,
+): string | null => {
+  if (matched === null || total === null || total === 0) return null;
+  const whose = isSample ? 'the sample profile\'s' : 'your';
+  return `${matched} of ${whose} ${total} ${total === 1 ? 'term' : 'terms'} found, by exact words.`;
 };

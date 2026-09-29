@@ -63,6 +63,32 @@ class Settings(BaseSettings):
     smtp_password: str = ""
     smtp_from: str = ""  # From header; falls back to smtp_username when empty
 
+    # Which USAspending-sourced awards (DOD, DNR, DOE, EPA, NASA, USDA) may enter a deck.
+    #   "off"           -- none. Owner decision O3 of 2026-09-28: those records publish no
+    #                      abstract, no PI, no award type and no place, so every line of
+    #                      their card is either LLM-mediated or empty, and no extractive
+    #                      rule can give them a front a student can read in five seconds.
+    #                      The rows stay in the database; saved lists are not filtered.
+    #   "resolved_only" -- phase 1 behaviour: shown when a PI was resolved.
+    # Any other value is treated as "off" by the reader, so a typo in .env fails towards
+    # showing less, not towards showing unlabelled LLM text.
+    usaspending_deck_mode: str = "off"
+
+    # Gate for writing the labelled AI one-liner (plain_summary*) from a student's deck
+    # request. Default OFF: a GET that spends Gemini quota and writes production rows is
+    # what phase 1 removed for abstracts. This one is narrower (it writes four separate,
+    # labelled columns and never touches grant_abstract or the embedding), but it is still
+    # a write and a spend triggered by a read, so it is opt-in. With it off, one-liners
+    # come only from generate_plain_summaries.py --apply, run by the owner.
+    #
+    # With it on, the Gemini spend is reachable by anyone holding a session token, and
+    # /profile/analyze gives one to every guest. routers/grants.py caps it (3 per
+    # request, one attempt per award per day, a daily allowance per process), which
+    # bounds the spend and does not make it free. Turn it on only after the
+    # sourced-fields backfill has run: before that no stored abstract carries
+    # abstract_checked_at and only public_statement can be summarised.
+    plain_summary_on_serve: bool = False
+
     @property
     def state_signing_key(self) -> str:
         return self.oauth_state_secret or self.google_client_secret or ""

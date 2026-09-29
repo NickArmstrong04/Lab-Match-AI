@@ -1,8 +1,7 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
 import { createPortal } from 'react-dom';
-import { X, Heart, Mail, Building, Calendar, DollarSign, ArrowLeft, ArrowRight, Award, Trash2, RefreshCw, ExternalLink, Clock, Pencil } from 'lucide-react';
+import { X, Heart, Mail, ArrowLeft, ArrowRight, Trash2, RefreshCw, Clock, Pencil } from 'lucide-react';
 import GlassCard from '../components/GlassCard';
-import CircularScore from '../components/CircularScore';
 import PaywallModal from '../components/PaywallModal';
 import EditNarrativeModal from '../components/EditNarrativeModal';
 import axios from 'axios';
@@ -11,24 +10,20 @@ import { trackEvent } from '../utils/analytics';
 import { piDisplayName, piIsResolved } from '../utils/pi';
 import {
   DECK_ORDER_NOTE,
-  NO_RECORD_LINK,
   agencyPillClass,
-  agencyPillText,
   agencyShortLabel,
-  awardAmountDisplay,
   cardLocationMatch,
   formatMonthYear,
-  fundingWindow,
   isDemoCard,
   readMatchesPage,
-  recordSiteName,
   similarityValue,
 } from '../utils/card';
 import { isDemoStudent } from '../utils/demoPersonas';
 import AiPiBadge from '../components/AiPiBadge';
-import { SimilarityNotes } from '../components/CircularScore';
-import FitEvidence from '../components/FitEvidence';
+import CardFront from '../components/CardFront';
+import CardDetails from '../components/CardDetails';
 import ProfileBasisPanel from '../components/ProfileBasisPanel';
+import { readOutreachOk, type CardFrontFields } from '../utils/cardFront';
 import { NO_TERMS_NOTE, type EvidenceFields } from '../utils/evidence';
 import { fetchProfileTerms, termsSignature, type ProfileTerms } from '../utils/profileTerms';
 
@@ -51,7 +46,11 @@ export const formatHorizon = (start?: string | null, end?: string | null): strin
 // The evidence keys (evidence, evidence_matched, evidence_total, evidence_basis) come
 // from EvidenceFields. All optional: saved rows, an older backend and Onboarding's
 // hardcoded persona deck send cards without them. Read through readCardEvidence.
-export interface GrantMatch extends EvidenceFields {
+//
+// The phase 3 keys (front_sentence, award_kind, pi, place, funding, profile_hits_front,
+// outreach_ok, details, ...) come from CardFrontFields and are optional for the same
+// reason. Read through the readers in utils/cardFront.ts, never directly.
+export interface GrantMatch extends EvidenceFields, CardFrontFields {
   id: string;
   // Raw column value, placeholder included -- render through piDisplayName (utils/pi.ts).
   pi_name: string;
@@ -447,9 +446,9 @@ export const Dashboard: React.FC<DashboardProps> = ({
   // length of the request, under a toggle that no longer described it.
   const deckFiltersRef = useRef({ localOnly, locationSearch: deckLocationSearch });
 
-  // Card body scroller, for the "more below" fade (see the card body).
-  const cardBodyRef = useRef<HTMLDivElement | null>(null);
-  const [cardHasMoreBelow, setCardHasMoreBelow] = useState(false);
+  // The column the card sits in. At lg it has a fixed height and scrolls when Details
+  // is open; below lg it is as tall as its content and the page scrolls.
+  const cardScrollRef = useRef<HTMLDivElement | null>(null);
 
 
   // Load matches deck and rebuild queues based on database status on mount, and reload when location filters change
@@ -831,38 +830,15 @@ export const Dashboard: React.FC<DashboardProps> = ({
 
   const [cardLoadedTime, setCardLoadedTime] = useState<number>(Date.now());
 
-  // Whether the card body has content below its fold. Drives the fade at the bottom of
-  // the card: the body is an inner scroller, and without a cue the description simply
-  // looked cut off. Re-measured on scroll, on resize and when the card changes.
-  // Below lg the card is as tall as its content, so a full abstract (about 2,800
-  // characters on NIH and NSF rows) pushed skip, save and Draft Cold Outreach four
-  // screens below the title on a phone, with nothing to say they existed. The text is
-  // clamped there until the student asks for it; at lg and up the card scrolls inside
-  // itself and the clamp does not apply. Clamping hides text, it never rewrites it.
-  const [descriptionOpen, setDescriptionOpen] = useState(false);
+  // Details is closed on every new card. The front is what is meant to be read first;
+  // a disclosure left open from the last card would put that card's length of text
+  // between this one's title and its buttons, which is the layout this replaced.
+  const [detailsOpen, setDetailsOpen] = useState(false);
   useEffect(() => {
-    setDescriptionOpen(false);
+    setDetailsOpen(false);
+    // A new card starts at its title, not where the last one was left.
+    if (cardScrollRef.current) cardScrollRef.current.scrollTop = 0;
   }, [currentMatchId]);
-
-  const measureCardBody = useCallback(() => {
-    const el = cardBodyRef.current;
-    setCardHasMoreBelow(!!el && el.scrollHeight - el.scrollTop - el.clientHeight > 4);
-  }, []);
-
-  useEffect(() => {
-    const el = cardBodyRef.current;
-    if (!el) {
-      setCardHasMoreBelow(false);
-      return;
-    }
-    el.scrollTop = 0; // a new card starts at its title, not where the last one was left
-    measureCardBody();
-    if (typeof ResizeObserver === 'undefined') return;
-    const observer = new ResizeObserver(measureCardBody);
-    observer.observe(el);
-    if (el.firstElementChild) observer.observe(el.firstElementChild);
-    return () => observer.disconnect();
-  }, [currentMatch?.id, measureCardBody]);
 
   useEffect(() => {
     if (currentMatch) {
@@ -877,6 +853,9 @@ export const Dashboard: React.FC<DashboardProps> = ({
     const onKey = (e: KeyboardEvent) => {
       const el = e.target as HTMLElement | null;
       if (el && (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA' || el.isContentEditable)) return;
+      // Enter on a focused control belongs to that control. Without this, Enter on the
+      // Details button opened Details and the composer at once.
+      if (e.key === 'Enter' && el && (el.tagName === 'BUTTON' || el.tagName === 'A' || el.tagName === 'SUMMARY' || el.tagName === 'SELECT')) return;
       // Any modal owns the keyboard while it's open. Without the narrative-editor guard,
       // arrow keys pressed over one of its buttons still swiped the deck behind it.
       if (showPaywall || showNarrativeEditor || showProfilePanel) return;
@@ -1321,6 +1300,39 @@ export const Dashboard: React.FC<DashboardProps> = ({
     }
   };
 
+  // First-run notice: the terms behind the deck have not been looked at by the
+  // student. Stone, not amber: it is about their profile, not a provenance warning
+  // on federal data. Gone once a save stamps profile_reviewed_at.
+  //
+  // Drawn in two places, one of them hidden at any width. From lg up it sits above both
+  // panels. Below lg it sits under the card: at 390px it is five lines and two buttons,
+  // and above the deck it was part of the 800px a student scrolled through before
+  // reaching the first award (see the panel row below).
+  const renderReviewBanner = (placement: string) =>
+    showReviewBanner && profileBasis ? (
+      <div className={`${placement} rounded-xl border border-stone-200 bg-stone-100 px-4 py-3 flex-col sm:flex-row sm:items-center sm:justify-between gap-3`}>
+        <p className="text-sm text-stone-700 leading-relaxed">
+          {reviewBannerText}
+        </p>
+        <div className="shrink-0 flex items-center gap-2">
+          <button
+            type="button"
+            onClick={() => setShowProfilePanel(true)}
+            className="px-3.5 py-1.5 rounded-lg bg-stone-800 hover:bg-stone-900 text-white text-xs font-semibold cursor-pointer transition-colors whitespace-nowrap"
+          >
+            Review your profile
+          </button>
+          <button
+            type="button"
+            onClick={dismissReviewBanner}
+            className="px-3.5 py-1.5 rounded-lg bg-white border border-stone-300 text-stone-700 hover:border-stone-400 text-xs font-semibold cursor-pointer transition-colors"
+          >
+            Dismiss
+          </button>
+        </div>
+      </div>
+    ) : null;
+
   return (
     <div className="w-full max-w-7xl mx-auto px-4 py-6 animate-fade-in">
       <PaywallModal isOpen={showPaywall} onClose={handlePaywallClose} />
@@ -1405,37 +1417,18 @@ export const Dashboard: React.FC<DashboardProps> = ({
         </div>,
         document.body
       )}
-      {/* First-run notice: the terms behind the deck have not been looked at by the
-          student. Stone, not amber: it is about their profile, not a provenance warning
-          on federal data. Gone once a save stamps profile_reviewed_at. */}
-      {showReviewBanner && profileBasis && (
-        <div className="mb-4 rounded-xl border border-stone-200 bg-stone-100 px-4 py-3 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
-          <p className="text-sm text-stone-700 leading-relaxed">
-            {reviewBannerText}
-          </p>
-          <div className="shrink-0 flex items-center gap-2">
-            <button
-              type="button"
-              onClick={() => setShowProfilePanel(true)}
-              className="px-3.5 py-1.5 rounded-lg bg-stone-800 hover:bg-stone-900 text-white text-xs font-semibold cursor-pointer transition-colors whitespace-nowrap"
-            >
-              Review your profile
-            </button>
-            <button
-              type="button"
-              onClick={dismissReviewBanner}
-              className="px-3.5 py-1.5 rounded-lg bg-white border border-stone-300 text-stone-700 hover:border-stone-400 text-xs font-semibold cursor-pointer transition-colors"
-            >
-              Dismiss
-            </button>
-          </div>
-        </div>
-      )}
+      {renderReviewBanner('hidden lg:flex mb-4')}
 
+      {/* Below lg the panels stack, and the deck comes first (max-lg:order-last on the
+          saved list; max-lg:order-* on the filter and the notes inside the deck column).
+          In source order the saved list, the profile block and the filter stood above
+          the card, which put the card's top edge 807px down a 390x844 screen: a student
+          opening the page on a phone saw no award at all. Only the visual order changes.
+          From lg up the two panels sit side by side as before. */}
       <div className="flex flex-col lg:flex-row gap-8 min-h-0">
         
         {/* Left 25% Sidebar — locked height; saved list scrolls inside */}
-        <div className="w-full lg:w-1/4 dashboard-panel-shell">
+        <div className="w-full lg:w-1/4 dashboard-panel-shell max-lg:order-last">
           <GlassCard className="w-full h-full flex flex-col overflow-hidden" glowColor="none">
             <div className="flex flex-col flex-1 min-h-0 overflow-hidden">
               <div className="shrink-0 border-b border-stone-200 pb-4 mb-4 flex items-center justify-between gap-2">
@@ -1498,7 +1491,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
                   <div className="h-full flex flex-col items-center justify-center text-center p-4">
                     <p className="text-stone-600 text-sm font-medium">No saved matches yet</p>
                     <p className="text-stone-500 text-xs mt-1 leading-relaxed">
-                      Swipe a lab to the right, or press the heart button under it, to save it here.
+                      Swipe a lab to the right, or press Save under it, to save it here.
                     </p>
                   </div>
                 ) : (
@@ -1623,7 +1616,9 @@ export const Dashboard: React.FC<DashboardProps> = ({
         {/* Right 75% Viewport — same locked height as saved labs; body scrolls inside */}
         <div className="w-full lg:flex-1 min-w-0 dashboard-panel-shell flex flex-col min-h-0 overflow-hidden">
            {/* Interactive proximity filters bar */}
-           <div className="shrink-0 mb-3 bg-white/40 backdrop-blur-md border border-stone-200/60 p-3 rounded-2xl flex flex-col sm:flex-row items-center justify-between gap-3 text-sm">
+           {/* Under the card below lg (order-3, after the review notice and the order
+               note): see the comment on the panel row. */}
+           <div className="shrink-0 mb-3 max-lg:order-3 max-lg:mb-0 max-lg:mt-3 bg-white/40 backdrop-blur-md border border-stone-200/60 p-3 rounded-2xl flex flex-col sm:flex-row items-center justify-between gap-3 text-sm">
              <div className="flex items-center gap-3 w-full sm:w-auto">
                <span className="font-semibold text-stone-700 whitespace-nowrap">Proximity Filter:</span>
                <input
@@ -1668,17 +1663,27 @@ export const Dashboard: React.FC<DashboardProps> = ({
            )}
 
            {/* Not on the persona decks: they are hardcoded in a fixed order, so the
-               sentence would be false there. */}
+               sentence would be false there. Under the card below lg: it is about the
+               deck, and the similarity number it qualifies is no longer on the front.
+               The nationwide notice above stays over the card at every width, because
+               it corrects what the student would otherwise assume about the card. */}
            {currentMatch && !inspectedMatch && !isDemo && (
-             <p className="shrink-0 mb-2 px-1 text-xs text-stone-500 leading-relaxed">
+             <p className="shrink-0 mb-2 max-lg:order-2 max-lg:mb-0 max-lg:mt-3 px-1 text-xs text-stone-500 leading-relaxed">
                {DECK_ORDER_NOTE}
              </p>
            )}
 
            {currentMatch ? (
+            // The scroller is this column, not the card. The card is as tall as its
+            // front, so at 1280 the buttons sit under the funding line instead of at
+            // the foot of a 42rem panel, and an open Details scrolls here (lg) or
+            // with the page (below lg).
+            <div
+              ref={cardScrollRef}
+              className="flex-1 min-h-0 lg:overflow-y-auto lg:overflow-x-hidden lg:overscroll-y-contain lg:pr-1 [scrollbar-width:thin] [scrollbar-color:#a8a29e_#f5f5f4]"
+            >
             <div
               className={`
-                flex-1 flex flex-col min-h-0 overflow-hidden
                 transition-all duration-300 select-none
                 ${swipeDirection === 'left' ? 'swipe-left' : ''}
                 ${swipeDirection === 'right' ? 'swipe-right' : ''}
@@ -1748,302 +1753,125 @@ export const Dashboard: React.FC<DashboardProps> = ({
                 setDragOffset({ x: 0, y: 0 });
               }}
             >
-              <GlassCard className="relative overflow-hidden h-full flex flex-col" glowColor={getDynamicGlow()}>
-                {/* The body scrolls inside the card at lg and up, where the panel height
-                    is fixed. Two cues say so: a scrollbar that is always drawn
-                    (scrollbar-color opts out of the overlay style that hides it until
-                    hover) and a fade over the fold while there is more below. Vertical
-                    spacing in here is tight on purpose: at 1280x900 a two-line title
-                    has to leave three lines of the description above the fold. */}
-                <div className="relative flex-1 min-h-0 flex flex-col">
-                <div
-                  ref={cardBodyRef}
-                  onScroll={measureCardBody}
-                  className="flex-1 min-h-0 overflow-y-auto overscroll-y-contain pr-3 [scrollbar-width:thin] [scrollbar-color:#a8a29e_#f5f5f4]"
-                >
-                  {/* pb-3: below lg the card is as tall as its content, and without it
-                      the last line of the description sat on the action-row rule and
-                      read as clipped. Inside the scroller, so the fold at 1280x900 is
-                      where it was. */}
-                  <div className="pb-3">
-                  {/* Top segment: PI metadata & Score */}
-                  <div className="flex flex-col md:flex-row md:items-start gap-4 md:gap-6 border-b border-stone-200 pb-3 mb-3">
-                    <div className="flex-1 min-w-0 space-y-2 md:pr-2">
-                      {/* line-clamp is a backstop, not the fix: the backend already shortens
-                          this (derive_display_title). USAspending publishes no title field, so
-                          some rows carry the whole award description here -- unbounded, that
-                          pushed the score, PI and abstract off the card entirely. */}
-                      <h2
-                        className="text-2xl font-semibold text-stone-900 font-outfit tracking-tight leading-snug line-clamp-3"
-                        title={currentMatch.title}
-                      >
-                        {currentMatch.title}
-                      </h2>
-
-                      <div className="flex flex-wrap items-center gap-2">
-                        {/* A string comparison between the institution name and what the
-                            student typed -- so that is all the pill claims. No pulse: an
-                            animated badge read as a recommendation. */}
-                        {/* Computed for persona cards, the server's answer otherwise
-                            (cardLocationMatch, utils/card.ts). */}
-                        {cardLocationMatch(studentId, studentLocation, currentMatch) && (
-                          <span className="px-2.5 py-1 rounded-full text-[10px] font-bold font-mono tracking-wider border border-[#b2ddcf] bg-[#e6f7f0] text-[#0d5c48] flex items-center gap-1.5 shrink-0">
-                            <span className="w-1.5 h-1.5 rounded-full bg-[#10b981]" />
-                            Name matches the campus you entered
-                          </span>
-                        )}
-                        <span className={`px-2.5 py-1 rounded-full text-xs font-bold font-mono tracking-wider ${agencyPillClass(currentMatch)}`}>
-                          {agencyPillText(currentMatch)}
-                        </span>
-                        {/* "currently-funded" is the product's core claim, and the student
-                            is about to cold-email a PI on the strength of it -- so the pill
-                            says which of funded / not started / ended / unknown the record
-                            actually supports (fundingWindow, utils/card.ts). */}
-                        {(() => {
-                          const win = fundingWindow(currentMatch.project_start, currentMatch.project_end);
-                          return (
-                            <span
-                              className={`px-2.5 py-1 rounded-full border text-xs font-medium font-mono ${
-                                win.tone === 'teal'
-                                  ? 'bg-[#e6f0f0] border-[#c5dddd] text-[#0d5c5c]'
-                                  : 'bg-stone-100 border-stone-200 text-stone-600'
-                              }`}
-                              title={win.title}
-                            >
-                              {win.text}
-                            </span>
-                          );
-                        })()}
-                      </div>
-
-                      {/* PI and Location details. No department: the stored column holds
-                          constants written by ingest, not a published affiliation. */}
-                      <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm text-stone-600">
-                        <div className="flex items-center gap-2">
-                          <Building className="w-4 h-4 text-stone-400 shrink-0" />
-                          <span>
-                            {piIsResolved(currentMatch) ? (
-                              <strong className="text-stone-800">{piDisplayName(currentMatch)}</strong>
-                            ) : (
-                              <span className="italic text-stone-500">PI not yet identified</span>
-                            )}
-                            {currentMatch.pi_is_generated && <> <AiPiBadge /></>}
-                          </span>
-                        </div>
-                        <div className="flex items-center gap-2">
-                          <Award className="w-4 h-4 text-stone-400 shrink-0" />
-                          <span className="truncate">{currentMatch.institution}</span>
-                        </div>
-                      </div>
-                    </div>
-
-                    {/* Similarity dial */}
-                    <div className="shrink-0 self-center md:self-start">
-                      <CircularScore score={similarityValue(currentMatch)} size={84} strokeWidth={7} isDemo={isDemo} />
-                    </div>
-                  </div>
-
-                  {/* What the number is, always visible, and the one thing an award record
-                      cannot tell a student. Replaces the "Alignment Score Logic" block:
-                      its skill chips were keyword-tag overlap presented as the student's
-                      skills, and its +30 line described a boost that no longer exists. */}
-                  {/* Then the evidence: the student's own terms, word for word in the
-                      text we hold. It carries the undergraduates line at its foot, and
-                      draws only that line for a card without evidence keys. */}
-                  <div className="mb-3 space-y-2.5">
-                    <SimilarityNotes
-                      hasScore={similarityValue(currentMatch) !== null}
-                      abstractIsGenerated={!!currentMatch.abstract_is_generated}
-                      isDemo={isDemo}
-                      showUndergraduateNote={false}
-                    />
-                    <FitEvidence
-                      // Keyed so "Show all" on one card is not carried to the next.
-                      key={currentMatch.id}
-                      card={currentMatch}
-                      onReviewProfile={() => setShowProfilePanel(true)}
-                      isDemo={isDemo}
-                    />
-                  </div>
-
-                  {/* Financial & Timeframe highlights bar */}
-                  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-4 gap-y-3 px-4 py-3 rounded-lg bg-stone-50 border border-stone-200 mb-3 text-sm">
-                    <div className="space-y-1">
-                      <div className="text-stone-500 text-xs font-medium uppercase tracking-wider flex items-center gap-1">
-                        <DollarSign className="w-3.5 h-3.5 shrink-0" /> Award Amount
-                      </div>
-                      {(() => {
-                        const amount = awardAmountDisplay(currentMatch, isDemo);
-                        return (
-                          <>
-                            {amount.figure && (
-                              <div className="text-[#0d5c5c] font-bold font-mono">{amount.figure}</div>
-                            )}
-                            {amount.note && (
-                              <p className="text-stone-500 text-[11px] leading-snug">{amount.note}</p>
-                            )}
-                          </>
-                        );
-                      })()}
-                    </div>
-                    <div className="space-y-1">
-                      <div className="text-stone-500 text-xs font-medium uppercase tracking-wider flex items-center gap-1">
-                        <Calendar className="w-3.5 h-3.5 shrink-0" /> Project Horizon
-                      </div>
-                      <div className="text-stone-800 font-medium font-mono text-xs">
-                        {formatHorizon(currentMatch.project_start, currentMatch.project_end)}
-                      </div>
-                    </div>
-                    <div className="sm:col-span-2 md:col-span-1 space-y-1">
-                      <div className="text-stone-500 text-xs font-medium uppercase tracking-wider">
-                        PI Contact
-                      </div>
-                      {/* Authoritative federal record for this award. This page IS the
-                          source of truth (real PI, org, abstract, dollars), so it's honest
-                          by construction — unlike a guessed profile URL. Only NIH/NSF; a
-                          USAspending card has no stable public id, and says so rather
-                          than leaving the student to assume a record link exists. The
-                          persona decks are fictional, so they get neither. */}
-                      <div className="flex flex-wrap items-center gap-x-4 gap-y-1">
-                      {currentMatch.source_record_url ? (
-                        <a
-                          href={currentMatch.source_record_url}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          onMouseDown={(e) => e.stopPropagation()}
-                          className="text-[#0d5c5c] font-semibold text-xs flex items-center gap-1 hover:underline"
-                        >
-                          View on {recordSiteName(currentMatch)}
-                          <ExternalLink className="w-3 h-3 shrink-0" />
-                        </a>
-                      ) : !isDemo && (
-                        <p className="text-stone-500 text-xs leading-snug">{NO_RECORD_LINK}</p>
-                      )}
-                      {currentMatch.pi_lookup_url ? (
-                        <a
-                          href={currentMatch.pi_lookup_url}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          onMouseDown={(e) => e.stopPropagation()}
-                          className="text-[#0d5c5c] font-semibold text-xs flex items-center gap-1 hover:underline"
-                        >
-                          Find PI Contact <ExternalLink className="w-3 h-3 shrink-0" />
-                        </a>
-                      ) : (
-                        // No PI on the funding record yet — honest instead of a dead-end search.
-                        <span className="text-stone-500 text-xs italic">PI not yet identified on this award</span>
-                      )}
-                      </div>
-                      <p className="text-stone-400 text-[10px] leading-snug">
-                        Verify the PI's email on their lab page before sending.
-                      </p>
-                    </div>
-                  </div>
-
-                  {/* Abstract preview */}
-                  <div className="space-y-2">
-                    <div className="flex items-center gap-2 flex-wrap">
-                      <h4 className="text-xs font-semibold text-stone-500 uppercase tracking-widest">
-                        Award description
-                      </h4>
-                      {currentMatch.abstract_is_generated && (
-                        <span
-                          className="px-2 py-0.5 rounded-full text-[10px] font-bold font-mono tracking-wide bg-amber-50 border border-amber-300 text-amber-800"
-                          title="The funding agency didn't publish a detailed abstract. This description was AI-generated from the grant title and metadata, and may be inaccurate."
-                        >
-                          AI-generated summary
-                        </span>
-                      )}
-                    </div>
-                    <p className={`text-stone-700 leading-relaxed text-sm ${descriptionOpen ? '' : 'max-lg:line-clamp-[8]'}`}>
-                      {currentMatch.abstract}
-                    </p>
-                    {(currentMatch.abstract || '').length > 400 && (
-                      <button
-                        type="button"
-                        onClick={() => setDescriptionOpen(open => !open)}
-                        aria-expanded={descriptionOpen}
-                        className="lg:hidden text-xs font-semibold text-[#0d5c5c] underline underline-offset-2 cursor-pointer"
-                      >
-                        {descriptionOpen ? 'Show less' : 'Read the full description'}
-                      </button>
-                    )}
-                  </div>
-                  </div>
-                </div>
-                {cardHasMoreBelow && (
-                  <div
-                    aria-hidden
-                    className="pointer-events-none absolute bottom-0 left-0 right-3 h-5 bg-gradient-to-t from-white to-transparent"
-                  />
-                )}
-                </div>
-
-                {/* Bottom Swipe and outreach controllers */}
-                <div className="shrink-0 border-t border-stone-200 pt-3 flex flex-col md:flex-row items-center justify-between gap-4">
-                  {/* Left swipe deck buttons */}
-                  {!inspectedMatch ? (
-                    <div className="w-full md:w-auto flex flex-wrap items-center gap-x-4 gap-y-3">
-                      {/* Icon-only buttons: the accessible name is the only name they
-                          have, and the Saved Labs empty state refers to the heart. */}
-                      <button
-                        type="button"
-                        onClick={() => handleSwipe('left')}
-                        className="w-12 h-12 shrink-0 rounded-full bg-white border border-stone-300 text-stone-500 hover:text-rose-700 hover:border-rose-300 hover:bg-rose-50 flex items-center justify-center transition-all duration-200 group cursor-pointer shadow-sm"
-                        title="Skip this lab"
-                        aria-label="Skip this lab"
-                      >
-                        <X className="w-5 h-5 group-hover:scale-110 transition-transform" aria-hidden />
-                      </button>
-                      <button
-                        type="button"
-                        onClick={() => handleSwipe('right')}
-                        className="w-12 h-12 shrink-0 rounded-full bg-white border border-stone-300 text-stone-500 hover:text-[#0d5c5c] hover:border-[#c5dddd] hover:bg-[#f4f9f9] flex items-center justify-center transition-all duration-200 group cursor-pointer shadow-sm"
-                        title="Save this lab"
-                        aria-label="Save this lab"
-                      >
-                        <Heart className="w-5 h-5 group-hover:scale-110 transition-transform" aria-hidden />
-                      </button>
-                      {/* Own row below sm: beside the buttons the two wrapped mid-phrase. */}
-                      <div className="basis-full sm:basis-auto flex flex-wrap items-center gap-x-3 gap-y-2">
-                        {/* "matching" describes a filtered ranking. A persona deck is two
-                            scripted cards, so it is only counted. */}
-                        <span className="text-stone-500 text-xs italic whitespace-nowrap">
-                          Swipe deck: {currentIndex + 1} of {activeDeck.length}{isDemoDeck ? '' : ' matching'}
-                        </span>
-                        {/* Warn before the paywall ambush: the free limit is 2/day and a
-                            new student's third swipe used to be a surprise paywall. */}
-                        {!hasFeedbackToday && (
-                          <span className="text-[11px] font-semibold text-stone-700 bg-stone-100 border border-stone-200 rounded-full px-2.5 py-1 whitespace-nowrap">
-                            {Math.max(0, 2 - swipeCount)} of 2 free evaluations left today
-                          </span>
-                        )}
-                      </div>
-                    </div>
-                  ) : (
-                    <div className="flex items-center gap-3">
-                      <button
-                        type="button"
-                        onClick={handleReturnToDeck}
-                        className="flex items-center gap-1.5 p-0 border-0 bg-transparent text-xs font-semibold text-stone-600 transition-colors hover:text-blue-600 cursor-pointer"
-                      >
-                        <ArrowLeft className="w-4 h-4" /> Return to Active Deck
-                      </button>
-                    </div>
-                  )}
-
-                  {/* Primary interactive Gmail Outreach triggers */}
-                  <button
-                    onClick={() => onInitiateOutreach(currentMatch)}
-                    className="w-full md:w-auto btn-primary"
+              {/* max-sm:p-4: at 360px the four buttons of the action row need the 16px
+                  that p-6 would take from each side. */}
+              <GlassCard className="relative max-sm:p-4" glowColor={getDynamicGlow()}>
+                <article data-match-card aria-label={currentMatch.title}>
+                  <CardFront
+                    // Keyed so an info line opened on one card is not carried to the next.
+                    key={currentMatch.id}
+                    card={currentMatch}
+                    isDemo={isDemo}
+                    // Computed for persona cards, the server's answer otherwise
+                    // (cardLocationMatch, utils/card.ts).
+                    campusMatch={cardLocationMatch(studentId, studentLocation, currentMatch)}
                   >
-                    <span className="inline-flex items-start gap-2 leading-none">
-                      <Mail className="size-[1em] shrink-0" aria-hidden />
-                      Draft Cold Outreach
-                    </span>
-                  </button>
-                </div>
+                    {/* One row, and it stays where it is when Details opens: Details
+                        unfolds below it, so the button under the student's finger does
+                        not move and skip and save are never pushed down the page. */}
+                    {(() => {
+                      // Draft outreach leads only where there is someone to write to
+                      // about a project (outreach_ok). Otherwise Details leads. The
+                      // button is never disabled: the student decides.
+                      const outreachLeads = readOutreachOk(currentMatch);
+                      const filled = 'border border-stone-900 bg-stone-900 text-white hover:bg-stone-800';
+                      const outlined = 'border border-stone-300 bg-white text-stone-800 hover:border-stone-400';
+                      return (
+                        <div data-card-actions className="mt-3.5 flex items-center gap-1.5">
+                          {!inspectedMatch ? (
+                            <>
+                              <button
+                                type="button"
+                                onClick={() => handleSwipe('left')}
+                                className="h-10 w-10 shrink-0 rounded-full border border-rose-200 bg-white text-rose-700 hover:bg-rose-50 hover:border-rose-300 flex items-center justify-center p-0 transition-colors cursor-pointer"
+                                title="Skip this lab"
+                                aria-label="Skip this lab"
+                              >
+                                <X className="w-4 h-4" aria-hidden />
+                              </button>
+                              <button
+                                type="button"
+                                onClick={() => handleSwipe('right')}
+                                className={`h-10 shrink-0 rounded-full px-3 text-[13px] font-medium transition-colors cursor-pointer ${outlined}`}
+                                title="Save this lab"
+                                aria-label="Save this lab"
+                              >
+                                Save
+                              </button>
+                            </>
+                          ) : (
+                            <button
+                              type="button"
+                              onClick={handleReturnToDeck}
+                              className={`h-10 shrink-0 rounded-full px-3 text-[13px] font-medium inline-flex items-center gap-1 transition-colors cursor-pointer ${outlined}`}
+                              aria-label="Return to the deck"
+                            >
+                              <ArrowLeft className="w-3.5 h-3.5 shrink-0" aria-hidden /> Deck
+                            </button>
+                          )}
+                          <button
+                            type="button"
+                            onClick={() => setDetailsOpen((open) => !open)}
+                            aria-expanded={detailsOpen}
+                            aria-controls="match-card-details"
+                            // px-2 when it leads: at 360px the row has 67px left for it.
+                            className={`h-10 whitespace-nowrap rounded-full text-[13px] transition-colors cursor-pointer ${
+                              outreachLeads ? `shrink-0 px-3 font-medium ${outlined}` : `min-w-0 flex-1 px-2 font-semibold ${filled}`
+                            }`}
+                          >
+                            {detailsOpen ? 'Less' : 'Details'}
+                          </button>
+                          <button
+                            type="button"
+                            onClick={() => onInitiateOutreach(currentMatch)}
+                            className={`h-10 whitespace-nowrap rounded-full text-[13px] transition-colors cursor-pointer ${
+                              outreachLeads ? `min-w-0 flex-1 px-2 font-semibold ${filled}` : `shrink-0 px-2.5 font-medium ${outlined}`
+                            }`}
+                          >
+                            Draft outreach
+                          </button>
+                        </div>
+                      );
+                    })()}
+                  </CardFront>
+                </article>
+
+                {detailsOpen && (
+                  <div
+                    id="match-card-details"
+                    className="mt-4 border-t border-stone-200 pt-4 cursor-auto"
+                    // Reading, selecting and scrolling in here is not a swipe.
+                    onMouseDown={(e) => e.stopPropagation()}
+                    onTouchStart={(e) => e.stopPropagation()}
+                  >
+                    <CardDetails
+                      card={currentMatch}
+                      isDemo={isDemo}
+                      onReviewProfile={() => setShowProfilePanel(true)}
+                    />
+                  </div>
+                )}
               </GlassCard>
+            </div>
+
+            {/* Deck position and the free-evaluation count. Under the card, not in its
+                action row: they are about the session, and on the card they were a
+                dozen more words between the student and the award. Still always drawn,
+                so the paywall is never a surprise on the third swipe. */}
+            {!inspectedMatch && (
+              <div className="mt-2.5 px-1 flex flex-wrap items-center gap-x-3 gap-y-2">
+                {/* "matching" describes a filtered ranking. A persona deck is two
+                    scripted cards, so it is only counted. */}
+                <span className="text-stone-500 text-xs italic whitespace-nowrap">
+                  Swipe deck: {currentIndex + 1} of {activeDeck.length}{isDemoDeck ? '' : ' matching'}
+                </span>
+                {!hasFeedbackToday && (
+                  <span className="text-[11px] font-semibold text-stone-700 bg-stone-100 border border-stone-200 rounded-full px-2.5 py-1 whitespace-nowrap">
+                    {Math.max(0, 2 - swipeCount)} of 2 free evaluations left today
+                  </span>
+                )}
+              </div>
+            )}
             </div>
           ) : (isDeckLoading && deckMatches.length === 0) || isLoadingMore ? (
             // isLoadingMore too: with nothing left in hand and another page in flight,
@@ -2248,6 +2076,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
             </GlassCard>
             </div>
           )}
+          {renderReviewBanner('flex lg:hidden max-lg:order-1 mt-3')}
         </div>
 
       </div>

@@ -4,6 +4,8 @@ from pydantic import BaseModel
 from urllib.parse import quote_plus
 import datetime
 import re
+import threading
+import time as _time
 import warnings
 import uuid
 from ..database import get_db
@@ -11,6 +13,22 @@ from ..auth_deps import get_optional_student_id, authorize_student
 from ..services.ingest import run_grant_ingestion, is_brief_abstract, expand_grant_abstract_via_llm, scan_methodologies
 from ..services.fit_evidence import BASIS_SAMPLE, evidence_card_keys
 from ..services.profile_terms import evidence_terms, sample_evidence_terms
+# PI_UNRESOLVED, pi_is_resolved and USASPENDING_SOURCES were defined in this file until
+# phase 3. They moved to services/card_front.py, which needs them and cannot import a
+# router, and are imported back under the same names: routers/agent.py and the test
+# scripts import them from here.
+from ..services.card_front import (
+    PI_UNRESOLVED,
+    USASPENDING_SOURCES,
+    front_card_keys,
+    pi_is_resolved,
+)
+from ..services.plain_summary import (
+    PLAIN_SUMMARY_COLUMNS,
+    generate_plain_summary,
+    needs_plain_summary,
+)
+from ..config import settings
 
 router = APIRouter()
 
@@ -185,7 +203,25 @@ def demo_card_with_evidence(card: dict, terms: List[dict]) -> dict:
         "grant_abstract": card.get("abstract"),
         "abstract_is_generated": False,
     }
-    return {**card, **evidence_card_keys(terms, row, basis=BASIS_SAMPLE)}
+    # Phase 3 front keys, from the SAME rules as a real card, run over the card's own
+    # title and sample text with the persona's sample terms. Nothing is hardcoded per
+    # card: a chip typed into the deck literal could name a term the text does not
+    # contain, and these decks are what the ad recordings show. is_demo makes the one
+    # amber tag read "Sample card, not a federal record", keeps every agency-sourced
+    # leaf null and never attributes the sentence to NIH or NSF.
+    front_row = {
+        **row,
+        "pi_name": card.get("pi_name"),
+        "university": card.get("institution"),
+        "funding_source": card.get("funding_source"),
+        "start_date": card.get("project_start"),
+        "end_date": card.get("project_end"),
+    }
+    return {
+        **card,
+        **evidence_card_keys(terms, row, basis=BASIS_SAMPLE),
+        **front_card_keys(front_row, student_terms=terms, is_demo=True),
+    }
 
 
 def clamp_score(value) -> Optional[int]:
@@ -221,21 +257,8 @@ def fetch_existing_match_rows(db, student_id: str) -> dict:
     return {}
 
 
-PI_UNRESOLVED = "Dr. Unknown Investigator"
-
-
-def pi_is_resolved(pi_name: Optional[str]) -> bool:
-    """False when we never identified the PI (USAspending awards whose PI resolution
-    failed keep this placeholder). Such a card has no real person to look up."""
-    # Whitespace-only counts as empty: it would otherwise pass as a name and keep a
-    # PI-less USAspending row in the deck (see is_unresolved_usaspending_row).
-    return bool(pi_name and pi_name.strip()) and pi_name.strip() != PI_UNRESOLVED
-
-
-# Sources routed through USAspending, which publishes no PI at all -- every named PI on
-# these rows came from Gemini search-grounding (services/ingest.py process_single_grant,
-# recover_unknown_pis.py). NIH RePORTER / NSF publish the PI, so theirs are verbatim.
-USASPENDING_SOURCES = frozenset({"DOD", "DNR", "DOE", "EPA", "NASA", "USDA"})
+# PI_UNRESOLVED, pi_is_resolved and USASPENDING_SOURCES: see the import from
+# services/card_front.py at the top of this file.
 
 
 def is_unresolved_usaspending_row(funding_source: Optional[str], pi_name: Optional[str]) -> bool:
@@ -247,6 +270,37 @@ def is_unresolved_usaspending_row(funding_source: Optional[str], pi_name: Option
     those agencies publish the PI, and a missing one there is a different problem.
     """
     return (funding_source or "") in USASPENDING_SOURCES and not pi_is_resolved(pi_name)
+
+
+def is_excluded_from_deck(funding_source: Optional[str], pi_name: Optional[str],
+                          mode: Optional[str] = None) -> bool:
+    """True for a row that may not enter a deck. Only USAspending rows ever are.
+
+    Owner decision O3 (2026-09-28): USAspending agencies are left out of the deck for
+    now. Their records publish no abstract, no PI and no award type, so every line of
+    the card would be LLM-mediated or empty, and no sentence rule can give them a front.
+    The rows stay in the database and GET /matches/saved is not filtered: an award a
+    student saved earlier stays in their list.
+
+    mode None reads settings.usaspending_deck_mode.
+      "off"            every USAspending row is excluded (the default)
+      "resolved_only"  phase 1 behaviour, is_unresolved_usaspending_row()
+    Any other value is treated as "off", so a typo in .env shows less, not more.
+
+    NIH and NSF rows are never excluded here, whatever their PI: those agencies publish
+    the PI, and a missing one there is a different problem.
+
+    This replaces is_unresolved_usaspending_row at its three call sites and changes
+    nothing about HOW rows are dropped: select_deck_rows still counts every row it looks
+    at, so the raw offset and `exhausted` stay honest with far more rows dropped.
+    """
+    if (funding_source or "") not in USASPENDING_SOURCES:
+        return False
+    if mode is None:
+        mode = getattr(settings, "usaspending_deck_mode", "off")
+    if mode == "resolved_only":
+        return is_unresolved_usaspending_row(funding_source, pi_name)
+    return True
 
 
 def amount_basis_for(funding_source: Optional[str]) -> Optional[str]:
@@ -571,10 +625,28 @@ def enrich_sliced_matches(sliced_matches: List[dict], background_tasks: Optional
     return sliced_matches
 
 
+# The phase 3 columns a card reads (migration 20260928000019). NEW_COLUMNS without
+# source_is_active, plus the stamps and the one-liner.
+#
+# source_is_active is absent ON PURPOSE. It is stored as the agency sent it and read by
+# nothing that reaches a student: for NIH it describes one fiscal year's application
+# record, not the project, and a card built on it called funded projects inactive.
+# award_not_found_at is not read by any card path either.
+CARD_READ_COLUMNS: tuple = (
+    "activity_code", "subproject_id", "project_num", "core_project_num", "fiscal_year",
+    "public_statement", "agency_terms",
+    "org_name_published", "org_city", "org_state", "org_dept_category",
+    "pi_name_published", "pi_title", "pi_source_id", "co_pis",
+    "funder_name", "funder_program",
+    "fields_fetched_at", "dates_checked_at", "abstract_checked_at", "latest_appl_id",
+    "plain_summary", "plain_summary_source", "plain_summary_model", "plain_summary_generated_at",
+)
+
+
 def fetch_grant_details(db, grant_ids: List[str]) -> dict:
     """
     Secondary lookup for fields the match_grants RPC doesn't return
-    (start/end dates, abstract provenance), keyed by grant id.
+    (start/end dates, abstract provenance, the phase 3 sourced columns), keyed by grant id.
     """
     if not grant_ids:
         return {}
@@ -582,9 +654,17 @@ def fetch_grant_details(db, grant_ids: List[str]) -> dict:
     # yet so dates keep working. A missing pi_is_generated is safe: pi_name_is_generated()
     # falls back to the source rule. A missing abstract_is_generated defaults False (the
     # older, known gap this chain has always carried).
+    #
+    # The phase 3 columns are one more rung, in front. Until migration 20260928000019 is
+    # applied PostgREST rejects that select and the next rung answers, at the cost of one
+    # rejected request per deck load. The outcome is NOT remembered between requests: a
+    # cached "columns missing" would outlive the migration on a process nobody restarted,
+    # and the cards would go on saying "not loaded yet" about rows that were loaded.
     resp = None
     last_err = None
     for cols in (
+        "id, start_date, end_date, abstract_is_generated, pi_is_generated, award_id, created_at, "
+        + ", ".join(CARD_READ_COLUMNS),
         # created_at is in the base schema (20260521000000), so it is safe in every
         # fallback. It becomes the card's record_read_at: match_grants does not return it.
         "id, start_date, end_date, abstract_is_generated, pi_is_generated, award_id, created_at",
@@ -650,7 +730,212 @@ def normalize_rpc_grant(item: dict, details: dict) -> dict:
         "pi_is_generated": details.get("pi_is_generated"),
         "award_id": details.get("award_id"),
         "created_at": details.get("created_at"),
+        # Table-only, like the three above: match_grants returns none of them and is not
+        # altered in phase 3. Every one is None until the migration is applied and the
+        # backfill has reached the row, and the card reads None as "not loaded yet".
+        **{k: details.get(k) for k in CARD_READ_COLUMNS},
     }
+
+
+def other_award_row(row: dict) -> dict:
+    """One line of "Other awards under this researcher" in Details."""
+    return {
+        "id": row.get("id"),
+        "title": derive_display_title(row.get("grant_title")),
+        "agency": row.get("funding_source") or None,
+        "project_end": row.get("end_date") or None,
+        "source_record_url": build_source_record_url(row.get("funding_source"), row.get("award_id")),
+    }
+
+
+def fetch_other_awards(db, pi_source_ids: List[str]) -> Optional[dict]:
+    """{pi_source_id: [row, ...]} of ACTIVE awards, or None when the lookup failed or the
+    column does not exist yet. ONE query per deck request, never one per card.
+
+    Matched on pi_source_id only (the agency's own identifier for the person), never on
+    the name: two investigators called "Wei Zhang" are two people, and listing one's
+    awards under the other is the misattribution commit e19a5b7 removed from the
+    provenance backfill. USAspending rows carry no such id and are left out by source as
+    well, in case one ever acquires a value.
+
+    None and {} mean different things to the card. None: nothing is known, the section
+    is omitted. A key with [] (or no key, for an id that was asked about): we looked and
+    hold no other award, "None in our records."
+    """
+    ids = sorted({i for i in (pi_source_ids or []) if isinstance(i, str) and i.strip()})
+    if not ids:
+        return None
+    try:
+        today = datetime.date.today().isoformat()
+        resp = (
+            db.table("labs_cached_grants")
+            .select("id, grant_title, funding_source, end_date, award_id, pi_source_id")
+            .in_("pi_source_id", ids)
+            .in_("funding_source", ["NIH", "NSF"])
+            .or_(f"end_date.is.null,end_date.gte.{today}")
+            .order("end_date", desc=True)
+            .limit(500)
+            .execute()
+        )
+    except Exception as e:
+        warnings.warn(f"Other-awards lookup failed; the section is omitted: {e}")
+        return None
+    found: dict = {i: [] for i in ids}
+    for row in getattr(resp, "data", None) or []:
+        key = row.get("pi_source_id")
+        if key in found:
+            found[key].append(row)
+    return found
+
+
+def other_awards_for(grant: dict, by_pi: Optional[dict]) -> Optional[list]:
+    """This card's rows out of fetch_other_awards' result, its own award excluded. None
+    when nothing is known (no lookup, a failed one, or a card with no pi_source_id)."""
+    if by_pi is None:
+        return None
+    key = (grant or {}).get("pi_source_id")
+    if not key or key not in by_pi:
+        return None
+    return [other_award_row(r) for r in by_pi[key] if r.get("id") != (grant or {}).get("id")]
+
+
+# Spend limits of the on-serve fill. A deck request needs a session token
+# (authorize_student), but /profile/analyze hands one to any guest, so "signed in" does
+# not bound who can issue it. A rejected or blocked output writes nothing, and the
+# breaker only counts FAILED calls, so without these a refresh loop re-sent every
+# rejected card on every load until the key's quota was gone and the owner's own
+# --apply run stopped at its first row.
+#
+# All three are per process and in memory: a restart forgets them, which errs towards
+# one more attempt per award and never towards a stored verdict about an award.
+PLAIN_SUMMARY_FILLS_PER_REQUEST = 3
+PLAIN_SUMMARY_FILLS_PER_DAY = 200
+PLAIN_SUMMARY_RETRY_AFTER_SECONDS = 24 * 3600
+_plain_summary_attempts: dict = {}          # grant id -> time.time() of the last attempt
+_plain_summary_day = {"day": None, "count": 0}
+_plain_summary_lock = threading.Lock()
+
+
+def claim_plain_summary_attempt(grant_id: str, *, now: Optional[float] = None) -> bool:
+    """True when this process may spend one call on this award now, and records that it
+    did. False when the award was attempted in the last 24 hours (whatever the outcome:
+    written, rejected, blocked, failed) or today's allowance is used up.
+
+    Claimed when the task is QUEUED, not when it runs, so two students loading the same
+    card at once cannot both get past a re-read that still shows plain_summary NULL.
+    """
+    now = _time.time() if now is None else now
+    day = int(now // 86400)
+    with _plain_summary_lock:
+        if _plain_summary_day["day"] != day:
+            _plain_summary_day.update(day=day, count=0)
+            # Attempts older than the window say nothing any more; dropping them here
+            # keeps the dict from growing with the corpus.
+            for key in [k for k, t in _plain_summary_attempts.items()
+                        if now - t >= PLAIN_SUMMARY_RETRY_AFTER_SECONDS]:
+                _plain_summary_attempts.pop(key, None)
+        if _plain_summary_day["count"] >= PLAIN_SUMMARY_FILLS_PER_DAY:
+            return False
+        last = _plain_summary_attempts.get(grant_id)
+        if last is not None and now - last < PLAIN_SUMMARY_RETRY_AFTER_SECONDS:
+            return False
+        _plain_summary_attempts[grant_id] = now
+        _plain_summary_day["count"] += 1
+        return True
+
+
+def fill_plain_summary(grant_id: str) -> None:
+    """Background task: write the labelled AI one-liner for one award, or nothing.
+
+    Reached only when settings.plain_summary_on_serve is true (default false). The row is
+    re-read here instead of trusting what the request held, and the four
+    PLAIN_SUMMARY_COLUMNS are all that is written. Never raises: every failure is a
+    warning and the card simply has no one-liner on its next load.
+
+    abstract_checked_at is in the select because needs_plain_summary refuses an
+    abstract nobody has compared with the agency's. Before migration 20260928000019
+    the select itself fails, which is the right outcome: no column, no one-liner.
+    """
+    try:
+        from ..services.plain_summary import (
+            PlainSummaryNoOutput, PlainSummaryUnavailable, gemini_call_model,
+        )
+        db = get_db()
+        resp = (
+            db.table("labs_cached_grants")
+            .select("id, funding_source, grant_title, grant_abstract, abstract_is_generated, "
+                    "abstract_checked_at, public_statement, plain_summary")
+            .eq("id", grant_id)
+            .limit(1)
+            .execute()
+        )
+        rows = getattr(resp, "data", None) or []
+        if not rows or not needs_plain_summary(rows[0]):
+            return
+        try:
+            result = generate_plain_summary(rows[0], call_model=gemini_call_model)
+        except (PlainSummaryUnavailable, PlainSummaryNoOutput) as e:
+            warnings.warn(f"Plain summary not generated for {str(grant_id)[:8]}: {e}")
+            return
+        if result["status"] != "ok":
+            # A rejected output is dropped, not repaired (services/plain_summary.py).
+            return
+        columns = {k: result["columns"][k] for k in PLAIN_SUMMARY_COLUMNS}
+        db.table("labs_cached_grants").update(columns).eq("id", grant_id).execute()
+    except Exception as e:
+        warnings.warn(f"Plain summary fill failed for {str(grant_id)[:8] if grant_id else '?'}: {e}")
+
+
+def queue_plain_summary_fill(background_tasks, grants: List[dict]) -> int:
+    """Queue fill_plain_summary for the served rows that need one. Returns how many.
+
+    A no-op returning 0 unless settings.plain_summary_on_serve is true, and it is false
+    by default.
+
+    Why this is allowed when phase 1 removed the abstract write-back from the read path
+    (see enrich_sliced_matches). That one REPLACED the agency's text in grant_abstract
+    with Gemini's, re-scanned the tags and recomputed the embedding, so a student's GET
+    changed what the row said and moved its score for everyone. This one writes four
+    separate, labelled columns. grant_abstract, abstract_is_generated, methodologies and
+    embedding are not touched, nothing here is embedded or ranked on, and the card shows
+    the sentence under an amber "AI summary" tag with the agency's text one tap away.
+    It is still a write and a Gemini spend caused by a read, which is why it is opt-in
+    and why the owner's script (generate_plain_summaries.py) is the default route.
+
+    The card being served does not change: the one-liner appears on the next load.
+
+    Bounded four ways (constants above claim_plain_summary_attempt): at most
+    PLAIN_SUMMARY_FILLS_PER_REQUEST per deck request, in rank order; one attempt per
+    award per 24 hours, whatever came of it; a daily allowance per process; and nothing
+    is queued while the one-liner breaker is open.
+    """
+    if not getattr(settings, "plain_summary_on_serve", False) or background_tasks is None:
+        return 0
+    try:
+        from ..services.plain_summary import summary_breaker_open
+        if summary_breaker_open():
+            return 0
+    except Exception as e:
+        warnings.warn(f"plain summary breaker could not be read, nothing queued: {e}")
+        return 0
+    queued = 0
+    seen = set()
+    for grant in grants or []:
+        if queued >= PLAIN_SUMMARY_FILLS_PER_REQUEST:
+            break
+        grant_id = (grant or {}).get("id")
+        if not grant_id or grant_id in seen:
+            continue
+        try:
+            wanted = needs_plain_summary(grant)
+        except Exception as e:
+            warnings.warn(f"needs_plain_summary failed for {str(grant_id)[:8]}: {e}")
+            continue
+        if wanted and claim_plain_summary_attempt(str(grant_id)):
+            seen.add(grant_id)
+            background_tasks.add_task(fill_plain_summary, grant_id)
+            queued += 1
+    return queued
 
 
 def select_deck_rows(rows: List[dict], *, needed: int, target_loc: Optional[str],
@@ -674,7 +959,10 @@ def select_deck_rows(rows: List[dict], *, needed: int, target_loc: Optional[str]
         if len(kept) >= needed:
             break
         consumed += 1
-        if is_unresolved_usaspending_row(item.get("funding_source"), item.get("pi_name")):
+        # Counted BEFORE the test, so a dropped row still moves the raw offset. With
+        # USAspending off this drops far more rows than phase 1's resolved-PI test did;
+        # the paging arithmetic is the same and does not depend on how many survive.
+        if is_excluded_from_deck(item.get("funding_source"), item.get("pi_name")):
             continue
         location_match = campus_name_match(target_loc, item.get("university"))
         if enforce_location and not location_match:
@@ -747,7 +1035,8 @@ def format_match_card(grant: dict, *, score, score_components: Optional[dict],
                       location_match: bool = False, status=None, pi_email=None,
                       outreach_status=None, contacted_at=None, responded_at=None,
                       next_follow_up_at=None,
-                      student_terms: Optional[list] = None) -> dict:
+                      student_terms: Optional[list] = None,
+                      other_awards: Optional[list] = None) -> dict:
     """Canonical deck-card shape shared by EVERY match path (RPC/hybrid, keyword, /match,
     saved). Each site used to copy-paste this dict -- the exact class of duplication that
     produced the original fabricated-email bug. `grant` is a normalized dict carrying:
@@ -780,6 +1069,13 @@ def format_match_card(grant: dict, *, score, score_components: Optional[dict],
     are display only: nothing here reads them back into score or order. None means the
     terms were not loaded, and the keys are then null so the card shows nothing rather
     than "none of your terms appear". See services/fit_evidence.py.
+
+    Front (phase 3). Twelve keys from services/card_front.py: one sentence for the
+    front, the award kind, the published PI and place, the funding line, the chips and
+    Details. They are ADDED; no key above changes value. `grant` may carry the
+    CARD_READ_COLUMNS or none of them: before migration 20260928000019 every one is
+    absent, the card says fields_loaded false, and nothing reads "not published".
+    other_awards is this card's rows from fetch_other_awards, or None.
     """
     methodologies = grant.get("methodologies") or []
     pi_name = grant.get("pi_name") or "N/A"
@@ -789,6 +1085,7 @@ def format_match_card(grant: dict, *, score, score_components: Optional[dict],
     funding_source = grant.get("funding_source") or None
     award_amount, amount_state = award_amount_state(grant.get("award_amount"))
     created_at = grant.get("created_at")
+    pi_generated = pi_name_is_generated({**grant, "pi_name": pi_name, "funding_source": funding_source})
     return {
         "id": grant.get("id"),
         "pi_name": pi_name,
@@ -796,7 +1093,7 @@ def format_match_card(grant: dict, *, score, score_components: Optional[dict],
         # compatibility; the UI renders from these two instead. pi_is_generated drives the
         # amber "AI-identified PI" label -- same contract as abstract_is_generated.
         "pi_is_resolved": pi_is_resolved(pi_name),
-        "pi_is_generated": pi_name_is_generated({**grant, "pi_name": pi_name, "funding_source": funding_source}),
+        "pi_is_generated": pi_generated,
         "pi_lookup_url": build_pi_lookup_url(pi_name, university),
         "source_record_url": build_source_record_url(funding_source, grant.get("award_id")),
         "institution": university,
@@ -843,11 +1140,19 @@ def format_match_card(grant: dict, *, score, score_components: Optional[dict],
         "responded_at": responded_at,
         "next_follow_up_at": next_follow_up_at,
         **evidence_card_keys(student_terms, grant),
+        # pi_is_generated is passed as RESOLVED above (column, else the source rule), so
+        # pi.name_basis "ai_identified" and the pi_is_generated key cannot disagree.
+        **front_card_keys(
+            {**grant, "pi_is_generated": pi_generated},
+            student_terms=student_terms,
+            other_awards=other_awards,
+        ),
     }
 
 
 def format_saved_card(grant: dict, match: dict, student_skills: List[str], student_loc: Optional[str],
-                      student_terms: Optional[list] = None) -> dict:
+                      student_terms: Optional[list] = None,
+                      other_awards: Optional[list] = None) -> dict:
     """Deck card for a grant the student has already saved or emailed.
 
     Scores come from the stored match row (what the student saw when they swiped) and
@@ -875,6 +1180,7 @@ def format_saved_card(grant: dict, match: dict, student_skills: List[str], stude
         # which is the stored one. It quotes the award text and the student's current
         # terms; there is no swipe-time version of either to disagree with.
         student_terms=student_terms,
+        other_awards=other_awards,
     )
 
 
@@ -945,8 +1251,12 @@ async def get_saved_matches(
         except Exception as e:
             warnings.warn(f"Failed to load student competencies for saved matches: {e}")
 
+        # select("*") rows carry pi_source_id once migration 20260928000019 is applied and
+        # lack it before; with none in hand the lookup is not made at all.
+        other_by_pi = fetch_other_awards(db, [g.get("pi_source_id") for g in grants])
         cards = [
-            format_saved_card(g, by_grant[g["id"]], student_skills, student_loc, student_terms)
+            format_saved_card(g, by_grant[g["id"]], student_skills, student_loc, student_terms,
+                              other_awards=other_awards_for(g, other_by_pi))
             for g in grants if g.get("id") in by_grant
         ]
         # Emailed first (the outreach already in flight), then by score, NULLs last.
@@ -1028,10 +1338,10 @@ async def match_student_to_grants(
  
             formatted_matches = []
             for item in matches:
-                # Same owner decision as the deck: a USAspending award with no resolved
-                # PI is not shown. This endpoint has no offset, so it can return fewer
-                # than `limit` cards; it makes no claim about exhaustion.
-                if is_unresolved_usaspending_row(item.get("funding_source"), item.get("pi_name")):
+                # Same owner decision as the deck: USAspending awards are not shown
+                # (is_excluded_from_deck). This endpoint has no offset, so it can return
+                # fewer than `limit` cards; it makes no claim about exhaustion.
+                if is_excluded_from_deck(item.get("funding_source"), item.get("pi_name")):
                     continue
                 score = similarity_score(item.get("similarity"))
                 # Semantic-only endpoint: the score is the embedding similarity, so the
@@ -1211,7 +1521,7 @@ async def get_matches(
             matches = []
             for g in grants_resp.data:
                 g_id = g.get("id")
-                if is_unresolved_usaspending_row(g.get("funding_source"), g.get("pi_name")):
+                if is_excluded_from_deck(g.get("funding_source"), g.get("pi_name")):
                     continue
                 location_match = campus_name_match(target_loc, g.get("university"))
                 if enforce_location and not location_match:
@@ -1288,7 +1598,7 @@ async def get_matches(
                 ).execute()
                 return getattr(response, "data", None) or []
 
-            # The USAspending restriction and the location filter both run after the RPC,
+            # The USAspending exclusion and the location filter both run after the RPC,
             # so one call can leave fewer than `limit` cards. collect_deck_rows keeps
             # paging the raw ranking (bounded) and reports exhaustion from the raw count.
             kept, next_offset, exhausted = collect_deck_rows(
@@ -1305,6 +1615,19 @@ async def get_matches(
             grant_details = fetch_grant_details(
                 db, [item.get("grant_id") for item, _ in kept if item.get("grant_id")]
             )
+
+            normalized = {
+                item.get("grant_id"): normalize_rpc_grant(item, grant_details.get(item.get("grant_id")))
+                for item, _ in kept
+            }
+            # One query for the whole page, and none at all when no served row carries a
+            # pi_source_id (every row, until the migration and the backfill).
+            other_by_pi = fetch_other_awards(
+                db, [g.get("pi_source_id") for g in normalized.values()]
+            )
+            # Off unless plain_summary_on_serve is set. Queued after the response is
+            # built from rows already in hand; it changes nothing about this response.
+            queue_plain_summary_fill(background_tasks, list(normalized.values()))
 
             formatted_matches = []
             for item, location_match in kept:
@@ -1327,13 +1650,14 @@ async def get_matches(
                     "campus_boost": 0,
                 }
                 formatted_matches.append(format_match_card(
-                    normalize_rpc_grant(item, grant_details.get(g_id)),
+                    normalized[g_id],
                     score=final_score,
                     score_components=score_components,
                     location_match=location_match,
                     status=existing_matches.get(g_id),
                     pi_email=(existing_match_rows.get(g_id) or {}).get("pi_email"),
                     student_terms=student_terms,
+                    other_awards=other_awards_for(normalized[g_id], other_by_pi),
                 ))
 
             # The RPC returns rows in similarity order, so for the default method this
