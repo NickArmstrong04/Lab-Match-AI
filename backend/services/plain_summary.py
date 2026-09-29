@@ -47,7 +47,12 @@ from .fit_evidence import compile_term_pattern
 
 # .2: the data is fenced and declared to be material, the rules are repeated after it,
 # and the model is told to keep the text's own nouns (the validator now checks them).
-PROMPT_VERSION = "2026-09-28.2"
+# .3 (2026-09-29): no acronyms except a named short list, and plain everyday words for
+# everything that is not the name of an organism, disease, body part, molecule, method
+# or place. Measured on 2,364 inputs: 53% carry an acronym the text never writes out, so
+# ".2"'s "write it out in full as the material does" asked for what the material does
+# not contain, and the validator then refused the model's own expansion.
+PROMPT_VERSION = "2026-09-29.3"
 MODEL_ID = "gemini-2.5-flash"
 MAX_INPUT_CHARS = 6000
 PLAIN_SUMMARY_COLUMNS: tuple = (
@@ -57,6 +62,11 @@ SOURCE_NIH_PHR = "nih_phr"
 SOURCE_AGENCY_ABSTRACT = "agency_abstract"
 
 MIN_WORDS, MAX_WORDS = 8, 30
+# Shortest agency text that is summarised at all. Measured 2026-09-29 on 2,364 inputs:
+# 54 public statements were under 40 words and some were a few characters ("N/A", a
+# heading and nothing else). A text that short is either not a description or is
+# already about the length of the one-liner, and "summarising" it means inventing.
+MIN_INPUT_WORDS = 25
 # The prompt asks for 25. The validator allows 30 so that a good sentence of 27 words is
 # not thrown away over a number the reader cannot perceive.
 PROMPT_MAX_WORDS = 25
@@ -124,7 +134,8 @@ def summary_input(row: dict) -> Optional[dict]:
     text is the agency field after front_sentence.strip_label, cut to MAX_INPUT_CHARS at
     a sentence end. None when the only description is generated or of unknown
     provenance, when the source is not NIH or NSF, when the abstract has not been
-    compared with the agency's (input_unverified), or when nothing usable is left.
+    compared with the agency's (input_unverified), when nothing usable is left, or when
+    what is left is shorter than MIN_INPUT_WORDS.
     """
     row = row or {}
     agency_text = _fs.agency_text_for(row)
@@ -135,6 +146,8 @@ def summary_input(row: dict) -> Optional[dict]:
     raw = agency_text["text"]
     text = _cut_at_sentence_end(raw[_fs.strip_label(raw):].strip(), MAX_INPUT_CHARS).strip()
     if not text:
+        return None
+    if len(text.split()) < MIN_INPUT_WORDS:
         return None
     title = row.get("grant_title")
     return {
@@ -156,22 +169,65 @@ def needs_plain_summary(row: dict) -> bool:
     if summary_input(row) is None:
         return False
     agency_text = _fs.agency_text_for(row)
-    return _fs.select_agency_sentence(agency_text["text"], title=row.get("grant_title")) is None
+    return _fs.select_agency_sentence(agency_text["text"], title=row.get("grant_title"),
+                                      activity_code=row.get("activity_code")) is None
 
+
+# Acronyms a first-year undergraduate reads without help. The validator refuses every
+# other one unless the sentence itself spells it out, and the prompt names this list so
+# the model is not left to guess. LabMatch's judgement, not a federal list. The first
+# fourteen are the owner's list (2026-09-29). Additions, each with its reason:
+#   USA    the same word as US, which is listed.
+#   mRNA   RNA is listed; "mRNA" has been in the news as a vaccine type since 2020 and
+#          is in every introductory biology course. Matched as "MRNA".
+#   CRISPR has no spelled-out form anyone uses ("clustered regularly interspaced short
+#          palindromic repeats" explains nothing), is taught in first-year biology, and
+#          front_sentence._KNOWN_ACRONYMS already shows agency sentences that use it.
+# Deliberately NOT carried over from front_sentence._KNOWN_ACRONYMS: STEM, PHD, MD. In a
+# one-liner they are about training and people, which the one-liner may not mention.
+ALLOWED_ACRONYMS = frozenset({
+    "DNA", "RNA", "HIV", "AIDS", "MRI", "CT", "COVID", "COVID-19", "AI", "US", "UK",
+    "NIH", "NSF", "3D", "2D",
+    "USA", "MRNA", "CRISPR",
+})
+_ALLOWED_ACRONYMS_PROMPT = "DNA, RNA, mRNA, HIV, AIDS, MRI, CT, COVID-19, AI, US, UK, 3D, 2D, CRISPR"
+# An allowed acronym is still a name, and a name has to be in the material. These are
+# the spelled-out forms that count as the material naming it.
+_ACRONYM_SPELLED_OUT = {
+    "AI": r"artificial\s+intelligence",
+    "US": r"united\s+states|\bU\.S\.",
+    "USA": r"united\s+states|\bU\.S\.",
+    "UK": r"united\s+kingdom|\bU\.K\.",
+    "MRI": r"magnetic\s+resonance\s+imaging",
+    "CT": r"computed\s+tomography",
+    "HIV": r"human\s+immunodeficiency\s+virus",
+    "DNA": r"deoxyribonucleic",
+    "RNA": r"ribonucleic|\b\w*RNAs?\b",
+    "MRNA": r"messenger\s+RNA",
+    "3D": r"three[- ]dimensional|\b3-D\b",
+    "2D": r"two[- ]dimensional|\b2-D\b",
+    "COVID": r"coronavirus\s+disease|SARS-CoV-2",
+}
 
 _RULES = (
     f"- One sentence only, at most {PROMPT_MAX_WORDS} words, ending with a full stop. No semicolon.\n"
-    "- Plain language a first-year undergraduate can read. Simplify the sentence, not the "
-    "nouns: every organism, disease, body part, method, material and result you name must "
-    "be named in the material, in the material's own word.\n"
+    "- Write for a first-year undergraduate. Use plain everyday words for the verbs and "
+    "descriptions: \"studies how\", \"tries to find out why\", \"builds a tool that\". "
+    "Prefer a short common word to a technical one wherever the meaning stays the same.\n"
+    "- Name only what the material names. Every organism, disease, body part, molecule, "
+    "material, method, instrument and place in your sentence must be in the material. Do "
+    "not swap one for another and do not add one.\n"
     "- Use ONLY facts stated in the material. Do not add anything from your own knowledge. "
     "Do not guess. Do not say what the work could lead to unless the material says it.\n"
+    "- No acronyms, abbreviations or gene and protein symbols. Describe the thing in "
+    "plain words instead (\"a protein that ...\", \"a type of brain cell\"). The only "
+    f"exceptions, and only if the material uses them: {_ALLOWED_ACRONYMS_PROMPT}.\n"
     "- Do not mention students, trainees, positions, jobs, hiring, mentoring, joining, "
     "applying, volunteering, contacting anyone, or any amount of money or funding.\n"
     "- Do not address the reader. Do not use first person (no \"we\", \"our\", \"I\").\n"
     "- No superlatives and no praise (no \"novel\", \"innovative\", \"cutting-edge\", "
-    "\"best\", \"most\", \"first\").\n"
-    "- Avoid acronyms. If one cannot be avoided, write it out in full as the material does.\n"
+    "\"best\", \"most\", \"first\", \"new\", \"important\").\n"
+    "- No numbers unless the material states them.\n"
     "- Do not copy a sentence from the material. Do not name people or institutions.\n"
     "- Output the sentence and nothing else: no label, no quotation marks, no note.\n"
 )
@@ -191,8 +247,12 @@ def build_prompt(title: str, agency_text: str, *, token: Optional[str] = None) -
     text cannot know in advance (and which is removed from the inputs in case it does),
     the title is put on one line so it cannot open a block of its own, the prompt says
     the fenced text is material and never instructions, and the rules come again AFTER
-    it. None of that is a guarantee. The guarantee is validate_summary(): whatever the
-    model was talked into, the sentence still has to pass.
+    it. None of that is a guarantee, and neither is validate_summary(). This docstring
+    used to call the validator "the guarantee"; a reviewer then got 19 of 25 wrong
+    sentences and 20 of 25 promotional ones through it. It is a filter for names,
+    numbers and banned vocabulary. What stands between a wrong one-liner and a student
+    is the amber "AI summary" label, "It may be wrong", and the agency's own text one
+    tap away.
 
     `token` is for the offline checks, which need a prompt they can compare.
     """
@@ -268,10 +328,59 @@ _FORBIDDEN_TOPIC_RE = re.compile(
     r"you|your|yours|yourself|"
     r"dollars?|usd|budget(?:s|ed)?|stipends?|salar(?:y|ies)|wages?|"
     r"paid|pay(?:s|ing)?|payments?|money|financ\w*|worth|"
-    r"fund(?:s|ed|ing)?|grant\s+money|award\s+amount"
+    r"fund(?:s|ed|ing)?|grant\s+money|award\s+amount|"
+    # Repair 2026-09-29. The list above blocks the nouns and not the constructions: 20
+    # of a reviewer's 25 hiring and praise sentences passed, among them "is open to
+    # those with no prior experience", "invites those who are curious to participate"
+    # and "a strong place to gain research experience". Unconditional, like the rest.
+    r"invit\w*|open\s+to|chances?|eager|curious|curiosity|beginners?|"
+    r"skill\s+levels?|hands[- ]on|glad|willing|awaiting|minds?|plenty|"
+    r"(?:made|discovered|found|built)\s+by\s+the\s+(?:group|team|lab|laboratory)|"
+    r"the\s+(?:group|team|lab|laboratory)\s+itself|"
+    r"(?:gain|gains|gaining|get|gets|getting|prior|previous|no|any|little|without)\s+"
+    r"(?:\w+\s+)?experience|"
+    r"those\s+(?:who|with|eager|early|new|curious|keen|starting|just|without)|"
+    r"all\s+who|any\s+(?:investigator|level|background)|at\s+any\s+level|"
+    r"ideal\s+(?:for|way|place|setting)|(?:place|setting|way|chance)\s+(?:to|for)\s+"
+    r"(?:gain|learn|get|start|begin|grow|work|train)|room\s+to|easy\s+to|"
+    r"this\s+(?:summer|fall|spring|winter|semester|year)|(?:places|spots|slots|seats)\b"
     r")(?![\w-])|[$€£@]|https?:|www\.|\w\.(?:com|org|edu|gov|net|io)\b",
     re.IGNORECASE,
 )
+
+# Words about people taking part that are also what some awards ARE: a conference
+# award does hold workshops, a trial has participants, an education project teaches.
+# Refused unless the agency text uses the same word (any inflection), so the one-liner
+# can repeat the award's subject and cannot bring the invitation in by itself.
+# "to learn how ..." is the research sense and "teaches AI systems to ..." is about a
+# machine; both are left alone.
+_PEOPLE_UNLESS_IN_INPUT = (
+    (re.compile(r"(?<![\w-])participat\w*", re.IGNORECASE), r"participa"),
+    (re.compile(r"(?<![\w-])learn(?:s|ing|ed)?(?![\w-])(?!\s+(?:how|whether|what|why|which|"
+                r"about|if|from|more|where|when)\b)", re.IGNORECASE), r"learn"),
+    (re.compile(r"(?<![\w-])(?:teach(?:es|ing)?|taught)(?![\w-])(?!\s+(?:\w+\s+)?(?:AI|"
+                r"computers?|machines?|models?|systems?|robots?|algorithms?|programs?)\b)",
+                re.IGNORECASE), r"teach|taught"),
+    (re.compile(r"(?<![\w-])workshops?(?![\w-])", re.IGNORECASE), r"workshop"),
+    (re.compile(r"(?<![\w-])networking(?![\w-])", re.IGNORECASE), r"networking"),
+    (re.compile(r"(?<![\w-])availab\w+", re.IGNORECASE), r"availab"),
+    (re.compile(r"(?<![\w-])engag(?:e|es|ed|ing)(?![\w-])", re.IGNORECASE), r"engag"),
+    (re.compile(r"(?<![\w-])master(?:s|ed|ing)?(?![\w-])", re.IGNORECASE), r"master"),
+    (re.compile(r"(?<![\w-])experiences?(?![\w-])", re.IGNORECASE), r"experience"),
+    # An education award is about learners and skills ("an educational game platform
+    # that gives groups of learners feedback"); nothing else is.
+    (re.compile(r"(?<![\w-])learners?(?![\w-])", re.IGNORECASE), r"learner"),
+    (re.compile(r"(?<![\w-])skills?(?![\w-])", re.IGNORECASE), r"skill"),
+)
+
+
+def _people_words_not_in_input(output: str, haystack: str) -> List[str]:
+    found = []
+    for pattern, in_input in _PEOPLE_UNLESS_IN_INPUT:
+        m = pattern.search(output)
+        if m and not re.search(r"(?<![\w-])(?:" + in_input + r")", haystack, re.IGNORECASE):
+            found.append(m.group(0))
+    return found
 
 # Praise. Unconditional: abstracts call themselves novel and innovative in every other
 # paragraph, so "it is in the input" excuses nothing here.
@@ -292,7 +401,9 @@ _SUPERLATIVE_RE = re.compile(
     r"highest|ultimate|novel|innovative|innovations?|promising|promis(?:e|es|ed)|"
     r"powerful|exciting|excit(?:e|es)|unique|uniquely|impressive|ambitious|visionary|"
     r"experts?|expertise|excellent|excellence|prestigious|important|importantly|"
-    r"guarantee\w*|exactly|finally|at\s+last"
+    r"guarantee\w*|exactly|finally|at\s+last|"
+    # Repair 2026-09-29: these stood in _COMMON_WORDS and in no praise list.
+    r"invaluable|tremendous|sophisticated|notable|notably|rewarding|lead(?:s|ing)?\s+the\s+way"
     r")(?!\w)",
     re.IGNORECASE,
 )
@@ -306,57 +417,635 @@ _CLAIM_WORDS = (
     "significant", "significantly", "dramatic", "dramatically", "cure", "cures", "cured",
     "curing", "curative", "solve", "solves", "solved", "eradicate", "eradicates",
     "eliminate", "eliminates", "lifesaving", "life-saving", "new", "fully", "completely",
+    # Repair 2026-09-29. Praise in a summary, a term of art in an abstract ("rare
+    # disease", "profound hearing loss", "anatomical landmarks", "pivotal trial",
+    # "urgent care", "free energy", "strong acid", "comprehensive cancer center").
+    "rare", "profound", "landmark", "pivotal", "superior", "perfect", "ideal", "great",
+    "strong", "rigorous", "latest", "comprehensive", "urgent", "enormous", "massive",
+    "huge", "vast", "commercial", "cheap", "free", "remedy", "devastating", "unmet",
+    "precise", "effective", "cost-effective",
 )
 _CLAIM_RE = re.compile(
     r"(?<![\w-])(" + "|".join(re.escape(w) for w in _CLAIM_WORDS) + r")(?!\w)",
     re.IGNORECASE,
 )
 
-# The closed list of words a one-liner may use although the agency text does not. It is
-# what a sentence is BUILT from (articles, prepositions, auxiliaries, the verbs of
-# "studies how", "tries to find out whether") and nothing a sentence is ABOUT: no
-# organism, disease, body part, method, material, outcome, place or kind of person.
-# Anything not listed has to be in the title or the agency text (after _stem), which is
-# what stops "mouse" for a zebrafish award, "stroke" for a heart award, "machine
-# learning" nobody proposed and "a new drug in patients" where the text says no clinical
-# application is proposed. All four were accepted by the capital-letter check alone.
+# A promise. The abstract says "could lead to"; "These studies will lead to therapeutic
+# strategies" makes it a certainty. Refused unless the agency text itself says "will
+# <same verb>". "leads to" in the present tense is the same promise.
+_PROMISE_RE = re.compile(
+    r"(?<![\w-])will\s+(?:\w+ly\s+)?(lead|provide|improve|advance|enable|cure|reduce|"
+    r"transform|benefit|save|help|change|allow|result|yield|pave|prevent|treat|solve)(?![\w-])",
+    re.IGNORECASE,
+)
+_LEADS_TO_RE = re.compile(r"(?<![\w-])(?:leads|leading)\s+to(?![\w-])", re.IGNORECASE)
+
+
+def _promises_not_in_input(output: str, haystack: str) -> List[str]:
+    found = []
+    for m in _PROMISE_RE.finditer(output):
+        verb = re.escape(m.group(1))
+        if not re.search(r"(?<![\w-])will\s+(?:\w+\s+){0,2}?" + verb + r"(?![\w-])", haystack, re.IGNORECASE):
+            found.append(m.group(0))
+    # "leading to a paradigm-shift" in the text is a hope hung on a clause; "This work
+    # leads to a shift" is a statement. The text has to have made the statement.
+    m = _LEADS_TO_RE.search(output)
+    if m:
+        wanted = r"(?:will\s+lead|leads)\s+to" if m.group(0).casefold().startswith("leads") \
+            else r"(?:will\s+lead|leads|leading)\s+to"
+        if not re.search(r"(?<![\w-])" + wanted + r"(?![\w-])", haystack, re.IGNORECASE):
+            found.append(m.group(0))
+    return found
+
+
+# Direction and position. _COMMON_WORDS holds every antonym needed to turn a finding
+# round, so a sentence made of the text's nouns and ONE common word said the opposite:
+# "regulatory T cells strengthen immunity" (text: suppress), "the mitochondrial inner
+# membrane" (text: outer), "outside the patient" (text: in vivo). 19 of a reviewer's 25
+# wrong sentences passed (2026-09-29).
 #
-# The price is known and accepted: "heart muscle cells" for "cardiomyocytes" is refused
-# too, because this code cannot tell a faithful plain rendering from an invention. The
-# prompt therefore asks the model to keep the text's nouns. How many outputs survive has
-# NOT been measured (no model call is allowed in a check); a refused output costs a card
-# its one-liner and nothing else.
-_PLAIN_WORDS = frozenset("""
-a an the this that these those it its they them their itself themselves
-and or but nor so yet as than then also both either neither not no only just even
-of in on at by to for from with without within into onto over under about across
-after before during between among against along around through throughout toward
-towards upon per via out up down off
-is are was were be been being am has have had having do does did doing done
-will would can could may might must shall should cannot
-which who whom whose what when where why how whether while because if although though
-since until unless once
-there here such same other others another each every all any some many much more less
-few several whole part parts
-project projects study studies studied studying research researcher researchers
-scientist scientists investigator investigators work works working worked award
-program programme effort aim aims aimed aiming goal goals purpose plan plans planned
-try tries tried trying seek seeks seeking want wants hope hopes
-find finds finding found learn learns learning learned understand understands
-understanding understood explain explains explaining know known knowing
-ask asks asking look looks looking examine examines examining explore explores
-exploring investigate investigates investigating test tests testing tested measure
-measures measuring measured track tracks tracking compare compares comparing
-build builds building built make makes making made create creates creating created
-develop develops developing developed design designs designing designed
-use uses using used apply applies applying applied
-help helps helping helped let lets allow allows allowing enable enables enabling
-cause causes causing caused lead leads leading led affect affects affecting
-change changes changing changed become becomes becoming became
-happen happens happening occur occurs occurring
-work way ways thing things kind kinds type types form forms role roles
-different differently similar together alone own well better often sometimes
+# A direction word is accepted when the agency text holds a word of the SAME direction:
+# "raises" is fair for "increases", and refused when the text only ever speaks of
+# lowering. The reviewer asked for the identical word. Tried on the reviewer's own 75
+# cases, that refused three more faithful sentences ("lowers" and "slow" where the text
+# says "decreases", "harmful" for "detrimental", "inside" for "in vivo") and two more
+# wrong ones. With the _IN lists kept to true synonyms this version refuses one of
+# those two ("regulatory T cells strengthen immunity", text: suppress) and none of the
+# three faithful ones; "ceramide, which is helpful" still passes, because that text
+# speaks of benefit elsewhere. What neither version can do: an
+# abstract that speaks of a decrease usually names an increase somewhere too, and a
+# check on vocabulary cannot see WHICH thing goes up ("a drug that increases
+# glutamate" passed both). Position words need the text's own word or a listed
+# equivalent.
+_DIRECTION_UP_OUT = (
+    "increase", "raise", "rise", "boost", "elevate", "heighten", "strengthen", "enhance",
+    "promote", "improve", "help", "helpful", "beneficial", "benefit", "higher", "greater",
+    "gain", "better", "speed", "accelerate", "stimulate", "activate", "protect",
+    "protective", "encourage", "favor",
+)
+_DIRECTION_UP_IN = (
+    "increas", "rais", "rise", "rising", "boost", "elevat", "heighten", "strength",
+    "enhanc", "promot", "improv", "help", "benefi", "higher", "greater", "gain", "better",
+    "upregulat", "up-regulat", "augment", "stimulat", "activat", "protect", "accelerat",
+    "amplif", "potentiat", "favor", "encourag", "speed",
+)
+_DIRECTION_DOWN_OUT = (
+    "decrease", "lower", "reduce", "weaken", "lessen", "fewer", "suppress", "inhibit",
+    "block", "prevent", "stop", "harm", "harmful", "impair", "limit", "slow", "worsen",
+    "worse", "loss", "lose", "shrink", "damage", "hinder", "disrupt",
+)
+_DIRECTION_DOWN_IN = (
+    "decreas", "lower", "reduc", "weak", "less", "fewer", "suppress", "inhibit", "block",
+    "prevent", "stop", "harm", "impair", "limit", "slow", "wors", "loss", "lose", "lost",
+    "downregulat", "down-regulat", "attenuat", "diminish", "detriment", "disrupt",
+    "deplet", "deficien", "abrogat", "antagon", "imped", "restrict", "damag", "deleteri",
+    "adverse", "mitigat", "alleviat", "ameliorat", "abolish", "hinder", "declin",
+    "shrink", "silenc", "knock", "ablat", "dysfunction", "fail",
+)
+_POSITION_WORDS = {
+    "inner": ("inner",),
+    "outer": ("outer",),
+    "inside": ("inside", "in vivo", "within", "intracellular", "internal", "in situ"),
+    "outside": ("outside", "ex vivo", "in vitro", "extracellular", "external"),
+    "already": ("already",),
+    "low": ("low",),
+    "high": ("high",),
+    "less": ("less", "fewer", "reduc", "decreas", "lower"),
+    "more": ("more", "greater", "increas", "higher", "additional"),
+    "instead": ("instead", "rather than"),
+    "replace": ("replac", "substitut", "instead"),
+    "without": ("without", "free", "avoid", "non", "lack", "absen", "no "),
+}
+
+
+def _directions_not_in_input(output: str, haystack: str) -> List[str]:
+    hay = " ".join(haystack.casefold().split())
+    hay_words = {m.group(0) for m in _WORD_RE.finditer(hay)}
+    def held(stems) -> bool:
+        return any(any(w.startswith(st) for w in hay_words) if " " not in st and "-" not in st
+                   else st in hay for st in stems)
+    missing = []
+    for m in _WORD_RE.finditer(output):
+        word = m.group(0).casefold()
+        forms = _base_forms(word)
+        if word in hay_words:
+            continue
+        key = next((f for f in forms if f in _POSITION_WORDS), None)
+        if key is not None:
+            if not held(_POSITION_WORDS[key]):
+                missing.append(m.group(0))
+            continue
+        if any(f in _DIRECTION_UP_OUT for f in forms):
+            if not held(_DIRECTION_UP_IN):
+                missing.append(m.group(0))
+        elif any(f in _DIRECTION_DOWN_OUT for f in forms):
+            if not held(_DIRECTION_DOWN_IN):
+                missing.append(m.group(0))
+    return missing
+
+
+# ---------------------------------------------------------------------------
+# Which words a one-liner may use that the agency text does not
+# ---------------------------------------------------------------------------
+#
+# Until 2026-09-29 this was a closed list of about 300 sentence-building words and every
+# other word had to occur in the title or the agency text. That stopped "mouse" for a
+# zebrafish award. It also stopped "heat" for "thermal", "how well" for "efficacy" and
+# "brain cells" for "neurons": plain rewording, which is the whole purpose of the
+# one-liner. The rule now has three parts.
+#
+#   1. _GROUNDED_ONLY: everyday words that NAME something a student would choose a lab
+#      by: an organism, a kind of person, a body part, a disease, a molecule or
+#      material, a method or instrument, a place, a field. Such a word must be in the
+#      input, or the input must hold a technical word it is the plain form of
+#      (_PLAIN_EQUIVALENTS: "heart" when the text says "cardiac"). This is what still
+#      refuses "mouse" for zebrafish, "stroke" for a heart award and "machine learning"
+#      nobody proposed.
+#   2. _COMMON_WORDS: frequent general English (verbs, adjectives, adverbs, general
+#      nouns). Allowed whether or not the text uses them.
+#   3. Every other word is a word this module does not know. Unknown words are
+#      technical terms, names in lower case and rare words, and they must be in the
+#      input. A one-liner cannot introduce "zebrafish", "optogenetics" or "crispr".
+#
+# WHERE THE LISTS CAME FROM. Both were written by hand for this module on 2026-09-29 by
+# the AI model that refined it (Claude, working in the lab-fit worktree). They are NOT a
+# copy of a published frequency list: the session had no permission to download one, and
+# no frequency list is installed on the machine (wordfreq, NLTK and textstat are absent;
+# /usr/share/dict holds a spelling dictionary, which has no frequencies and contains
+# "zebrafish"-grade words). They are modelled on the kind of vocabulary a general
+# service list holds. Every entry of _COMMON_WORDS was checked to be a headword of
+# /usr/share/dict/american-english (wamerican) so that no misspelling or invented word
+# is in it. Nobody has measured either list against a corpus. Replacing _COMMON_WORDS
+# with a published list (for example the New General Service List) is a drop-in change
+# PROVIDED _GROUNDED_ONLY is kept: every published frequency list contains "mouse",
+# "heart" and "cancer", and _GROUNDED_ONLY is checked first for exactly that reason.
+#
+# REPAIR 2026-09-29. A reviewer wrote 44 probes against a zebrafish tissue-repair text and
+# found names a student would choose a lab by sitting in _COMMON_WORDS, where they
+# passed ungrounded: "bears", "the common cold", "shock and severe stress", "female
+# youth", "fasting and weight loss", "heat, light, sound and pressure". These were moved
+# to _GROUNDED_ONLY, each with a _PLAIN_EQUIVALENTS line so that "heat" is still fair
+# for "thermal" and "death" for "mortality": age, bear, cold, shock, stress, fatal,
+# death, deadly, dead, outbreak, defect, deficit, imbalance, male, female, youth, sex,
+# weight, heat, light, sound, noise, pressure, energy, visual, walk, migrate, migration,
+# evolution, evolve, host, stem, and "fasting"/"fasted" ("fast" the adjective stays
+# common). The cost is the verb and adjective senses ("stems from", "a light touch"),
+# which are now refused unless the text has the word. Praise that was in the common
+# list went to _SUPERLATIVE_RE and _CLAIM_WORDS. Added to the common list, because a
+# faithful sentence was refused over each: buy, bought, read, reuse, recycle, fade,
+# attack, defend, machinery, faulty.
+#
+# Regular inflections are recognised by _base_forms ("measures", "measured",
+# "measuring", "clearly"). "-er" is not undone: "printer", "scanner" and "computer" are
+# instruments, not comparatives. The comparatives that matter are listed.
+_COMMON_WORDS = frozenset("""
+a abandon ability able about above absence absent absolutely absorb abstract abundant academic
+accept access accident accompany accomplish according accordingly account accumulate
+accumulation accuracy accurate accurately achieve achievement acknowledge acquire across act
+action active actively activity actual actually adapt adaptation add addition additional
+additionally address adequate adequately adjust adjustment admit adopt advance advantage adverse
+affect afford after again against agent aggressive ago agree agreement ahead aid aim alert align
+alignment alike alive all allocate allow almost alone along alongside already also alter
+alternative although altogether always am amid among amount an analysis ancient and anger angle
+announce annual another answer anticipate any anyway apart apparent apparently appeal appear
+appearance applicable application apply appreciate approach appropriate approve are area argue
+argument arise arisen arose around arrange arrangement arrival arrive as aside ask aspect
+assemble assembly assess assessment assign assist assistance associate association assume
+assumption assure at attach attack attempt attend attention attitude attract attractive
+attribute automate automatic automatically available average avoid award aware awareness away
+back background bad badly balance balanced ban bar bare barely barrier base basic basically
+basis be beat became because become been before began begin beginning begun behave behavior
+behind being belief believe belong below bend beneficial benefit bent beside besides better
+between beyond big bigger bind bit blame blank blend block blow body bond border bore born borne
+borrow both bother bottom bought bound boundary box branch break breakdown bridge brief briefly
+bright bring broad broaden broadly broke broken brought build builder building built bulk bundle
+burden burst busy but buy by calculate calculation call calm came can cannot capability capable
+capacity capture care careful carefully carry case cast catch category caught cause cautious
+cease center central century certain certainly chain challenge chance change channel character
+characteristic characterize charge chart chase cheap cheaper check choice choose chose chosen
+circle circulate circumstance cite claim clarify clarity class classic classification classify
+clean cleaner clear clearer clearly climb clock close closely closer closure cluster coat
+collaborate collaboration collapse collect collection collective color column combination
+combine come comfort command comment commit commitment common commonly communicate communication
+community compact comparable compare comparison compatible compensate compete competition
+competitive complement complete completion complex complexity complicated comply component
+compose composed composition comprehensive comprise conceive concentrate concentration concept
+conception conceptual concern conclude conclusion condition conduct configuration confirm
+conflict confront confuse connect connection consequence consequently conserve consider
+considerable considerably consideration consist consistent consistently constant constantly
+constitute constrain constraint construct construction consult consume consumption contact
+contain container contemporary content context continually continue continuous continuously
+contradict contrast contribute contribution control controversial convenient conventional
+convert convey convince cool cooperate cooperation coordinate cope copy core corner correct
+correction correctly correlation correspond correspondence corresponding cost costly could count
+counter countless couple course cover coverage crack craft crash create creation creative
+creativity crisis criterion critically cross crowd crucially cumulative curiosity curious
+current currently curve customize cut cycle daily damage danger dangerous dark data date day
+deal dealt debate decade decay decide decision decisive declare decline decrease dedicate deep
+deeper deeply defend define definitely definition degree delay deliberate deliberately delicate
+deliver delivery demand demonstrate demonstration denote dense density deny depart departure
+depend dependent deploy deployment deprive depth derive descend describe description deserve
+design designate desirable desire despite destination destroy destruction detail detailed detect
+detection deteriorate determination determine develop development device devise devote diagram
+did differ difference different differentiate differently difficult difficulty dig dimension
+diminish direct direction directly dirty disadvantage disagree disappear disappoint disaster
+discard disclose discourage discover discovery discuss discussion display dispose dispute
+disrupt disruption dissolve distance distant distinct distinction distinctive distinguish
+distort distract distribute distribution disturb diverse diversity divide division do document
+does doing dominant dominate done doubt down downward draft drag drastically draw drawn dream
+drew drive drop dry due dug dull durable duration during duty dynamic dynamics each eager
+earlier early earn ease easier easily easy edge educate effect effective effectively
+effectiveness efficiency efficient effort either elaborate element elevate eligible eliminate
+else elsewhere embed embrace emerge emergence emergency emerging emit emphasis emphasize employ
+empty enable enact enclose encounter encourage end endure enforce engage enhance enjoy enlarge
+enormous enough enrich ensure enter entire entirely entity entry environment environmental equal
+equally equip equipment equivalent era erode error escape especially essence essentially
+establish estimate evaluate evaluation even evening event eventually every everyday everything
+everywhere evidence evident exact exaggerate examine example exceed except exception excess
+excessive exchange exclude exclusively execute exert exhaust exhibit exist existence existing
+expand expansion expect expectation expense expensive experience explain explanation explicit
+explicitly exploit exploration explore expose exposure express expression extend extension
+extensive extent external extra extract extreme extremely face facilitate facility fact factor
+fade fail failure fair fairly faith faithful fall fallen false familiar far farther fashion fast
+fasten faster fate fault faulty favor favorable favorite fear feasible feature fed feed feedback
+feel feeling fell felt few fewer fierce fight figure file fill final find finding fine finish
+finite firm firmly fit fix fixed flash flat flaw fled flew flexibility flexible float floor flow
+flown fluctuate focus fold follow following for forbid force forecast foreign forever forget
+forgot forgotten form formal format formation former formerly formula formulate forth fortunate
+forward fought found foundation fraction fragile fragment frame framework free freedom freely
+freeze frequency frequent frequently fresh friction friendly from front frontier froze frozen
+fruitful frustrate fulfil fulfill full function functional functioning fundamental further
+furthermore fuse future gain gap gather gauge general generally generate generation generic
+gentle genuine genuinely get giant gift give given glad global go goal gone good got grab grade
+gradual gradually grand grasp great greater greatly grew grip gross ground group grow grown
+growth guard guess guidance guide guideline habit had halfway halt hamper handful handle hang
+happen happy hard harder hardly harm harmful harmless harmony harsh has have having hazard he
+heavier heavily heavy height held help helpful helpless hence her here hers hesitate hid hidden
+hide hierarchy high higher highlight highly him hinder hint his hit hold hole hollow honest hope
+horizon hostile hot hour how however huge humble hung hurry hurt idea ideal identical
+identification identify identity if ignorance ignore illusion illustrate imagine imitate
+immediate immediately immense impact impair implement implementation implication imply impose
+impossible impress impression improve improvement in inability inadequate incentive incidence
+incident inclined include including inclusion incomplete inconsistent incorporate incorrect
+increase increasingly indeed indefinitely independent independently index indicate indication
+indicator indirect indirectly individual induce inevitable inevitably infer inferior infinite
+influence inform information inherent inherit inhibit initial initially initiate initiative
+inner input inquiry insert inside insight insist inspect inspire install instance instant
+instead instruction instrument insufficient intact integral integrate integration integrity
+intelligent intend intense intensity intensive intention interact interaction interconnect
+interest interesting interface interfere interference intermediate internal interpret
+interpretation interrupt interval intervene into intricate intrinsic introduce introduction
+invent invention investigate investigation investigator invisible invite involve involvement
+irregular irrelevant is isolate issue it item its itself journey judge judgment jump just
+justify keen keep kept kick kind knew knock know knowledge known lab label laboratory lack lag
+laid landmark large largely larger last lasting late lately later latest latter launch lay layer
+layout lead leak lean leap learn least leave led left legacy legitimate length lengthy less
+lessen lesson let level lie life lifelong lifestyle lifetime lift lighter like likelihood likely
+likewise limit limitation limited line linear linger link list listen literally little live
+living load local locally locate location lock logic logical lone long longer look loop loose
+loosely lose loss lost lot loud low lower luck machinery made magnitude main mainly mainstream
+maintain maintenance majority make manage manageable management mandatory manipulate
+manipulation manner manual many map march margin marginal mark markedly mass massive master
+match material matter mature maximize maximum may maybe mean meaning meaningful means meant
+meantime meanwhile measurable measure measurement mechanism medium meet meeting mention mere
+merely merge merit message met method middle midst might mild milestone mimic mind minimal
+minimize minimum minor minority minute mirror mislead miss mission mistake misunderstand mix
+mixture mobile mobility mode moderate moderately modern modest modification modify moment
+momentum monitor month mood moral more moreover morning mostly motion motivate motivation motive
+mount move movement much multiple multiply multitude must mutual mutually mystery name namely
+narrow narrowly natural naturally nature near nearby nearly necessarily necessary necessity need
+negative neglect negligible neighbor neighborhood neither net neutral never nevertheless newly
+news next nice night no nobody none nonetheless nor norm normal normally not note nothing notice
+noticeable notify notion now nowhere number numerical numerous nurture object objection
+objective obligation obscure observation observe obstacle obtain obvious obviously occasion
+occasionally occupy occur occurrence odd of off offer offset often old older omit on once
+ongoing only onset onto open operate operation operational opinion oppose opposite opt optimal
+optimistic option optional or order ordinary organization organize orient orientation origin
+original originally other others otherwise ought out outcome outer outline output outside
+outweigh over overall overcame overcome overlap overlook oversee overview overwhelm overwhelming
+owe own owner pace pack package paid pair panel paradox parallel parameter part partial
+partially participate particular particularly partly partner partnership pass passage passion
+passive past patch path patience pattern pause peak peculiar peer penetrate per perceive
+perception perfect perfectly perform performance perhaps period permanent permit persist
+persistent personal perspective pertain phase phenomenon physical pick piece pile pilot pipe
+pitch pivotal place plain plan platform plausible play pleasant please pleasure plentiful plenty
+plot plus point pole poor popular portion portray pose position positive possess possession
+possibility possible possibly post postpone potential potentially pour power practical
+practically practice precede precise precisely precision predict prediction predominantly prefer
+preference preliminary premise preparation prepare presence present presentation preserve press
+presume pretty prevail prevalent prevent prevention previous previously pride primarily primary
+prime principal principle prior priority private probably problem problematic procedure proceed
+process produce product production productive productivity profile profound program progress
+progressive prohibit project prolong prominent promote prompt pronounced proof propel proper
+properly property proportion proportional proposal propose prospect prospective prosper protect
+protection protective prove provide provision provoke proximity public pull pure purely purpose
+pursue push put puzzle qualify qualitative quality quantify quantity quest question questionable
+quick quickly quiet quite quote race radical radically raise ran random rang range rank rapid
+rapidly rare rarely rate rather ratio raw reach react reaction read readily readiness ready real
+realistic reality realize really realm reason reasonable reasoning reassure rebuild recall
+receive recent recently reckon recognition recognize recommend reconsider reconstruct record
+recover recovery recur recycle redefine redesign reduce reduction refer reference refine
+refinement reflect reflection reform refuse regain regard regardless region regional register
+regular regularly regulate regulation rehearse reinforce reject relate relation relationship
+relative relatively relax release relevance relevant reliability reliable relief reluctant rely
+remain remainder remedy remember remind remote removal remove render renew repair repeat
+repeatedly repetition replace replacement replicate reply report represent representation
+representative reproduce request require requirement rescue research researcher resemble reserve
+residual resilience resilient resist resistance resolution resolve resource respect respective
+respectively respond response responsibility responsible rest restoration restore restrain
+restrict restriction result resume retain retrieve return reuse reveal revelation reversal
+reverse review revise revision revive reward rich rid ridden right rigid rigorous ring rise
+risen risk robust rode role roll room root rose rotate rotation rough roughly round route
+routine row rule run rung rush sad safe safely safer safety said sake same sang sank sat
+satisfaction satisfy saturate save say scale scarce scatter scenario scene schedule scheme
+scientist scope score scratch scrutiny seamless search seat second secondary secondly secret
+section sector secure security see seek seem seemingly seen segment seize select selection
+selective self send sense sensible sensitive sensitivity sent separate sequential series serious
+seriously serve service session set setback setting settle several severe severely shade shake
+shaken shall shape share sharp she shed sheet shell shelter shift shine shook shoot short
+shortage shortcoming shorter shortly shot should show shown shrink shut side sign signal
+significance silent similar similarly simple simpler simplicity simplify simply simultaneous
+simultaneously since single singular sit site situation size skeptical skill slept slide slight
+slightly slip slow slowdown slower slowly small smaller smart smooth smoothly so social society
+soft sold solely solid solidify solution solve some somebody somehow someone something sometimes
+somewhat somewhere soon sort sought source spare spark sparse speak special specialize specific
+specifically specification specify spectrum speculate speed spend spent spin spirit split spoke
+spoken spot spread spun square stability stabilize stable stack stage stake stand standard
+standardize start statement station status stay steadily steady steal steer step stick stiff
+still stimulate stimulus stir stock stole stolen stood stop storage store story straight
+straightforward strange strategic strategy streamline strength strengthen stretch strict strike
+string strip strive strong stronger strongly struck structural structure struggle stuck study
+stuff style subject submit subsequent subsequently substance substantial substitute subtle
+succeed success successful successfully successive such sudden suddenly suffer sufficient
+sufficiently suggest suggestion suit suitable sum summarize summary sung sunk superior
+supplement supply support suppose suppress sure surely surface surpass surplus surprise
+surprising surround survive suspect sustain sustainable swam sweep swept swift swing switch swum
+swung symbol symbolic system systematic systematically table tackle tail tailor take taken talk
+tall tangible target task taught teach teaching team tear technical technique technology tell
+temporarily temporary tend tendency tension tentative term terminate terms terrible test than
+thank that the their them theme themselves then theory there thereafter thereby therefore these
+they thick thin thing think this thorough thoroughly those though thought threat threaten
+threshold threw thrive through throughout throw thrown thus tie tight time tiny tip tired to
+today together told tolerance tolerate tomorrow tone tonight too tool topic tore torn total
+totally touch tough toward towards trace track trait traits trajectory transfer transform
+transformation transition translate transmit transparent transport trap travel treat trend trick
+trigger trouble troublesome true truly trust truth try tune turn twist type typical typically
+ultimate ultimately unable unaffected unaware uncertain uncertainty unchanged unclear uncover
+under underestimate undergo undergone underlie underlying undermine underscore understand
+understanding understood undertake undertaken undertook underwent undoubtedly uneven unexpected
+unfold unfortunately uniform unify unit unite universal unknown unless unlike unlikely
+unpredictable unrelated unresolved unstable until unusual up upcoming update uphold upon upper
+upset upward urge urgent usage use used useful useless user usual usually utility utilize vague
+valid validate validity valuable value variability variable variant variation variety various
+vary vast velocity verify versatile version versus very via viable vicinity view virtually
+visibility visible visit vivid volume voluntary vulnerable wait wake wall want warm warn warning
+warrant was wash waste watch way weak weaken weaker weakness wear week weigh well went were what
+whatever when whenever where whereas whereby wherever whether which while who whole wholly whom
+whose why wide widely widen wider widespread wild will willing win window wing wipe wire wise
+wish with withdraw withdrawn withdrew within without withstand witness woke woken won wonder
+wore work workable working world worldwide worn worry worse worsen worst worth worthwhile worthy
+would wrap written wrong wrote year yesterday yet yield young younger zone
 """.split())
+
+_GROUNDED_ONLY = frozenset("""
+ache acid acids addicted addiction adolescent adolescents adult adults age ageing aging
+agriculture alcohol alcoholism algae algorithm algorithms allergies allergy animal animals ant
+antarctic anthropology antibiotic antibiotics antibodies antibody ants anxiety anxious ape apes
+app apps archaeology arctic arm arms arteries artery arthritis artificial asthma astronomy
+athlete athletes atom atoms autism babies baby bacteria bacterium bat bats batteries battery
+beach bear bee bees biology bird birds birth bladder blind blindness blood bone bones bowel boy
+boys brain brains breast breasts burn burns caffeine calcium camera cameras cancer cancers
+carbon cat cats cattle cave caves cell cells cement ceramic chemical chemicals chemistry chest
+chicken chickens child children chip chips cholera cholesterol chromosome cities city classroom
+classrooms climate clinic clinical clinician clinicians clinics coal coast coastal coasts
+cocaine code coding cold college colleges colon compound computer computers concrete copper
+coral corals corn cotton countries country cow cows crop crops crystal crystals culture cultured
+cultures database databases dataset datasets dead deadly deaf deafness death defect deficit
+dementia depressed depression desert deserts diabetes diabetic diagnosis diagnostic diet dietary
+digital disability disabled disease diseases disorder disorders doctor doctors dog dogs dolphin
+donor donors drug drugs dust ear ears earth earthquake earthquakes ecology economics egg eggs
+elderly electrical electron electronic electronics electrons embryo embryos energy engineering
+enzyme enzymes epidemic epilepsy equation equations evolution evolve exercise experiment
+experimental experiments eye eyes factories factory families family farm farmer farmers farms
+fasted fasting fat fatal father fathers fats feet female fertilizer fever fiber fibers fibre
+field fields fish fishes flies flower flowers flu fly foot forest forests fracture frog frogs
+fuel fuels fungi fungus galaxies galaxy garden gardens gas gases gasoline gene genes genetic
+genetics genome geology germ germs girl girls glacier glaciers gland glands glass goat goats
+gold grass gut guts hair hand hands hardware heart heat hip hormone hormones horse horses
+hospital hospitals host human humans hydrogen ice ill illness illnesses image images imaging
+imbalance implant implants infant infants infected infection infections infectious infertility
+inflammation influenza injection injections injured injuries injury insect insects insulin
+intelligence internet interview interviews intestine intestines ion ions iron island islands
+joint joints jungle kid kidney kidneys kids knee lake lakes land landscape laser lasers leaf
+leaves leg legs light linguistics liver livestock lizard lung lungs machine machines magnet
+magnetic magnets maize malaria male mammal mammals man math mathematical mathematics measles
+mechanical medication medications medicine medicines membrane men mental metal metals mice
+microbe microbes microscope microscopes migrate migration mine mineral minerals mines model
+modeling modelling models mold molecule molecules monkey monkeys moon mosquito mosquitoes moss
+mother mothers mountain mountains mouse mouth muscle muscles nail neck nerve nerves nervous
+network networks neuron neurons neuroscience nicotine nitrogen noise nose nuclear nucleus nurse
+nurses nutrition obese obesity ocean oceans oil online opioid opioids optical organ organs
+outbreak ovaries ovary overdose oxygen pain pandemic paralysis paralyzed parasite parasites
+parent parents particle particles patient patients people person persons pesticide pesticides
+phone phones photograph photographs photon photons physician physicians physics picture pictures
+pig pigs plague planet planets plant plants plastic plastics pneumonia poison poisoning polar
+polio pollutant pollutants polymer polymers potassium potato pregnancy pregnant pressure primate
+primates printer printing prison prisons probe probes prostate protein proteins psychology
+quantum questionnaire radiation radioactive rat rats recording recordings reef reefs reptile
+rice river rivers road roads robot robotic robots rock rocks rodent rodents rubber rural salt
+salts sample samples sampling sand satellite satellites scan scanner scanners scans school
+schools screen screening sea seal seas seed seeds seizure seizures senior seniors sensor sensors
+sequence sequences sequencing sex shark sheep shock sick sickness silver simulate simulation
+simulations skin sky smartphone smoke smoker smokers snake snakes sociology sodium software soil
+soils soldier soldiers sound soybean space species sperm spider spine star stars state states
+statistical statistics steel stem stomach stream stress stroke strokes sugar sugars sun surgery
+surgical survey surveys survivor survivors swelling syndrome teacher teachers teenager teenagers
+teeth telescope telescopes therapies therapy throat tick ticks tissue tissues toad tobacco
+tomato tongue tooth town towns toxic transplant trauma treatment treatments tree trees trial
+trials tropical tropics tuberculosis tumor tumors tumour tumours turtle twin twins ultrasound
+universities university urban uterus vaccine vaccines vein veins vessel vessels veteran veterans
+video videos village villages virus viruses visual vitamin vitamins volcano volcanoes walk
+wearable weather web weed weeds weight wetland wetlands whale whales wheat wildlife wireless
+woman womb women wood worker workers worm worms wound wounds yeast youth zinc
+""".split())
+
+# Plain word -> stems of the technical words it is the plain form of. The word is
+# grounded when any word of the input contains one of the stems ("^" in front: starts
+# with it, used where the stem is also the inside of another word, as "renal" is of
+# "adrenal"). Deliberately short, and every line is a dictionary fact and not a
+# judgement about the science: "cardiac" means "of the heart". Nothing here lets a
+# sentence name a DIFFERENT organism, organ or disease than the text does.
+_PLAIN_EQUIVALENTS = {
+    "heart": ("cardi", "coronary"),
+    "brain": ("cerebr", "^neuro", "^neural", "cortex", "cortical", "hippocamp", "encephal"),
+    "brains": ("cerebr", "^neuro", "^neural", "cortex", "cortical", "hippocamp", "encephal"),
+    "nerve": ("^neuro", "^neural", "^neuron", "axon"),
+    "nerves": ("^neuro", "^neural", "^neuron", "axon"),
+    "kidney": ("^renal", "nephr"),
+    "kidneys": ("^renal", "nephr"),
+    "liver": ("hepat",),
+    "lung": ("pulmon", "respirat", "airway", "alveol", "bronch"),
+    "lungs": ("pulmon", "respirat", "airway", "alveol", "bronch"),
+    "skin": ("^derm", "epiderm", "cutaneous", "keratinocyte"),
+    "bone": ("^osteo", "skelet"),
+    "bones": ("^osteo", "skelet"),
+    "muscle": ("muscul", "^myocyte", "^myoblast", "^myofib", "sarcomer"),
+    "muscles": ("muscul", "^myocyte", "^myoblast", "^myofib", "sarcomer"),
+    "blood": ("^hemat", "^haemat", "^hemo", "vascul", "plasma", "serum", "erythro"),
+    "vessel": ("vascul", "^arter", "^vein", "capillar"),
+    "vessels": ("vascul", "^arter", "^vein", "capillar"),
+    "eye": ("ocular", "ophthalm", "^retin", "^optic"),
+    "eyes": ("ocular", "ophthalm", "^retin", "^optic"),
+    "gut": ("intestin", "^gastr", "^enter", "bowel", "^colon"),
+    "stomach": ("^gastr",),
+    "cell": ("cyte", "cellular", "^cell", "^neuron"),
+    "cells": ("cyte", "cellular", "^cell", "^neuron"),
+    "cancer": ("tumor", "tumour", "carcin", "^oncol", "malignan", "neoplas", "leukemi",
+               "lymphoma", "melanoma", "sarcoma", "glioma", "metasta", "^cancer"),
+    "cancers": ("tumor", "tumour", "carcin", "^oncol", "malignan", "neoplas", "leukemi",
+                "lymphoma", "melanoma", "sarcoma", "glioma", "metasta", "^cancer"),
+    "tumor": ("tumour", "^cancer", "carcin", "neoplas", "glioma", "sarcoma", "melanoma"),
+    "tumors": ("tumour", "^cancer", "carcin", "neoplas", "glioma", "sarcoma", "melanoma"),
+    "disease": ("^disorder", "^syndrome", "patholog", "^illness", "^diseas"),
+    "diseases": ("^disorder", "^syndrome", "patholog", "^illness", "^diseas"),
+    "illness": ("^disorder", "^syndrome", "^diseas"),
+    "infection": ("^infect", "^pathogen"),
+    "infections": ("^infect", "^pathogen"),
+    "mouse": ("^mice", "^murine"),
+    "mice": ("^mouse", "^murine"),
+    "human": ("^human", "^patient", "^participant", "^people", "^person", "^men", "^women"),
+    "humans": ("^human", "^patient", "^participant", "^people", "^person", "^men", "^women"),
+    "people": ("^human", "^patient", "^participant", "^individual", "^person", "^adult",
+               "^child", "^women", "^men", "^veteran", "^population", "^communit",
+               "^resident", "^citizen", "^user", "^survivor", "^public"),
+    "person": ("^human", "^patient", "^participant", "^individual", "^people"),
+    "patients": ("^patient", "^clinical"),
+    "children": ("^child", "pediatric", "paediatric", "^adolescen", "^youth"),
+    "babies": ("^infant", "neonat", "newborn"),
+    "infants": ("^infant", "neonat", "newborn"),
+    "drug": ("^drug", "pharmac", "^medication", "^therapeutic"),
+    "drugs": ("^drug", "pharmac", "^medication", "^therapeutic"),
+    "medicine": ("^drug", "pharmac", "^medication", "^medic"),
+    "medicines": ("^drug", "pharmac", "^medication", "^medic"),
+    "treatment": ("^treat", "therap", "^intervention"),
+    "treatments": ("^treat", "therap", "^intervention"),
+    "therapy": ("therap", "^treat"),
+    "therapies": ("therap", "^treat"),
+    "gene": ("^gene", "^genom"),
+    "genes": ("^gene", "^genom"),
+    "genetic": ("^gene", "^genom"),
+    "protein": ("^protein", "^proteom", "^peptide"),
+    "proteins": ("^protein", "^proteom", "^peptide"),
+    "computer": ("^comput", "^software", "^algorithm"),
+    "computers": ("^comput", "^software", "^algorithm"),
+    "plant": ("^plant", "^botan", "^crop"),
+    "plants": ("^plant", "^botan", "^crop"),
+    "bacteria": ("^bacteri", "^microb", "^staphylococc", "^streptococc", "^escherichia",
+                 "^salmonella", "^mycobacteri", "^pseudomonas", "^clostridi", "^helicobacter"),
+    "microbes": ("^microb", "^bacteri", "^microorganism"),
+    "germs": ("^microb", "^bacteri", "^pathogen"),
+    "virus": ("^viral", "^virus", "^virol", "^virion"),
+    "viruses": ("^viral", "^virus", "^virol", "^virion"),
+    # "lipid" anywhere in the word: "sphingolipids", "phospholipid".
+    "fat": ("lipid", "adipos", "^fatty"),
+    "fats": ("lipid", "adipos", "^fatty"),
+    "sugar": ("^gluc", "^sugar", "carbohydr", "^glyc", "glycemi", "glycaemi"),
+    "sugars": ("^gluc", "^sugar", "carbohydr", "^glyc", "glycemi", "glycaemi"),
+    "particle": ("particle",),
+    "particles": ("particle",),
+    "molecule": ("molecul", "lipid", "peptide", "^protein", "metabolite", "nucleotide"),
+    "molecules": ("molecul", "lipid", "peptide", "^protein", "metabolite", "nucleotide"),
+    "birth": ("^birth", "^born", "congenital", "natal", "^newborn"),
+    # Dictionary facts, each from a faithful sentence that was refused: methylation is
+    # a chemical change, a nanobody is an antibody fragment, Staphylococcus is a genus
+    # of bacteria. The genus list is the handful a first-year course names.
+    "chemical": ("^chemi", "methylat", "phosphorylat", "acetylat", "glycosylat"),
+    "antibody": ("^antibod", "nanobod", "immunoglobulin"),
+    "antibodies": ("^antibod", "nanobod", "immunoglobulin"),
+    # Repair 2026-09-29: the words moved out of _COMMON_WORDS. "^word" covers the
+    # word's own inflections, which the short-word rule in _is_in_input does not.
+    "age": ("^age", "^aging", "^ageing", "^old", "^elder", "senescen", "^lifespan", "^longevity"),
+    "bear": ("^bear", "^ursus", "^ursid"),
+    "cold": ("^cold", "hypotherm", "^cryo", "^chill", "^freez"),
+    "shock": ("^shock",),
+    "stress": ("^stress",),
+    "death": ("^death", "^die", "^dying", "^dead", "mortal", "lethal", "fatal", "apopto", "^necro"),
+    "dead": ("^death", "^die", "^dying", "^dead", "mortal", "lethal", "fatal", "apopto", "^necro"),
+    "fatal": ("^death", "^die", "^dying", "^dead", "mortal", "lethal", "fatal"),
+    "deadly": ("^death", "^die", "^dying", "^dead", "mortal", "lethal", "fatal"),
+    "outbreak": ("^outbreak", "^epidemic", "^pandemic"),
+    "defect": ("^defect", "^malform", "^anomal", "congenital"),
+    "deficit": ("^deficit", "^deficien", "^impair"),
+    "imbalance": ("^imbalanc", "dysregulat", "^disequilibri"),
+    "male": ("^male", "^men", "^man", "^boy", "^father", "^paternal", "^sex", "^gender"),
+    "female": ("^female", "^women", "^woman", "^girl", "^mother", "^maternal", "^sex", "^gender"),
+    "sex": ("^sex", "^male", "^female", "^gender"),
+    "youth": ("^youth", "^adolescen", "^young", "^teen", "^juvenil"),
+    "weight": ("^weight", "obes", "^overweight", "^underweight"),
+    "heat": ("^heat", "therm", "^warm", "^temperature", "^hot"),
+    "light": ("^light", "^optic", "^optogen", "^photo", "lumin", "^laser", "illuminat", "fluoresc"),
+    "sound": ("^sound", "acoust", "^audi", "^sonic", "ultrason"),
+    "noise": ("^nois",),
+    "pressure": ("^pressur", "hypertens", "^barometr"),
+    "energy": ("^energ", "bioenerget", "^power"),
+    "visual": ("^visual", "^vision", "^sight", "ocular", "^retin", "^optic"),
+    "walk": ("^walk", "^gait", "locomot", "ambulat"),
+    "migrate": ("^migrat",),
+    "migration": ("^migrat",),
+    "evolution": ("^evol", "phylogen"),
+    "evolve": ("^evol", "phylogen"),
+    "host": ("^host",),
+    "stem": ("^stem",),
+    "fasting": ("^fast", "^starv"),
+    "fasted": ("^fast", "^starv"),
+    "aging": ("^aging", "^ageing", "senescen", "^age"),
+    "ageing": ("^aging", "^ageing", "senescen", "^age"),
+    "model": ("^model", "^simulat"),
+    "models": ("^model", "^simulat"),
+    "experiment": ("^experiment", "^empirical", "^assay"),
+    "experiments": ("^experiment", "^empirical", "^assay"),
+    "math": ("^mathemat",),
+    "mathematics": ("^mathemat",),
+    "mathematical": ("^mathemat",),
+    "image": ("^imag", "^microscop", "^photograph"),
+    "images": ("^imag", "^microscop", "^photograph"),
+    "imaging": ("^imag", "^microscop", "^tomograph"),
+    "pregnancy": ("pregnan", "^gestation", "^prenatal"),
+    "species": ("^species", "^taxa", "^taxon"),
+    "animals": ("^animal", "^mammal", "^vertebrate", "^invertebrate"),
+    "animal": ("^animal", "^mammal", "^vertebrate", "^invertebrate"),
+    "earth": ("^earth", "^terrestrial", "^geolog", "^geophys"),
+    "ocean": ("^ocean", "^marine", "^sea"),
+    "oceans": ("^ocean", "^marine", "^sea"),
+    "sea": ("^ocean", "^marine", "^sea"),
+    "climate": ("^climat",),
+    "space": ("^space", "^spatial"),
+    "field": ("^field",),
+    "fields": ("^field",),
+    "state": ("^state",),
+    "states": ("^state",),
+}
+
+# Two everyday words that together name a method or a topic. Each word alone is common
+# English ("deep", "learning", "change"), so the pair is held to the input as a pair.
+_GROUNDED_PHRASES = (
+    "machine learning", "deep learning", "artificial intelligence", "neural network",
+    "neural networks", "clinical trial", "clinical trials", "gene editing", "gene therapy",
+    "stem cell", "stem cells", "big data", "virtual reality", "climate change",
+    "global warming", "social media", "public health", "mental health", "side effects",
+    "language model", "language models", "immune system", "nervous system",
+    "solar energy", "renewable energy", "natural language", "remote sensing",
+    "heart attack", "heart failure", "blood pressure", "birth defects",
+)
+
+_PHRASE_EQUIVALENTS = {
+    "immune system": ("immun",),
+    "nervous system": ("neuro", "neural", "nerve"),
+    "heart attack": ("myocardial infarct",),
+    "heart failure": ("cardiac failure",),
+    "blood pressure": ("hypertens", "hypotens"),
+    "birth defects": ("congenital",),
+}
 
 _NUMBER_WORDS = {
     "zero": "0", "one": "1", "two": "2", "three": "3", "four": "4", "five": "5",
@@ -379,18 +1068,6 @@ _ONE_PRONOUN_RE = re.compile(r"\b(?:no\s+one|one\s+another|one\s+of|one\s+way|on
 _NUMBER_RE = re.compile(r"(?<![\w.])\d+(?:[.,]\d+)*(?![\w])")
 _PERCENT_RE = re.compile(r"\d\s*%")
 
-# Words a sentence may open with although the agency text does not contain them. The
-# first word of a sentence is capitalised whatever it is, so it cannot be held to the
-# name rule as it stands; it is held to this list or to the input instead.
-_OPENERS = frozenset({
-    "this", "the", "a", "an", "researchers", "scientists", "investigators", "it",
-    "using", "by", "to", "how", "in", "these", "here", "engineers", "clinicians",
-    "doctors", "people", "some", "many", "when", "with", "for", "building", "studying",
-    "testing", "finding", "understanding", "developing", "creating", "measuring",
-    "tracking", "learning", "exploring", "investigating", "examining",
-})
-
-
 def _collapse(value: str) -> str:
     return " ".join(value.split())
 
@@ -402,6 +1079,65 @@ def _normalise_number(value: str) -> str:
 def _input_has_word(word: str, haystack: str, *, case_insensitive: bool) -> bool:
     pattern = compile_term_pattern(word, case_insensitive=case_insensitive)
     return bool(pattern and pattern.search(haystack))
+
+
+_NUMBER_TOKEN_RE = re.compile(r"\d+(?:[.,]\d+)*|[^\W\d_]+(?:['’-][^\W\d_]+)*", re.UNICODE)
+# Between a number and the thing it counts: "36 main isoforms", "two different types".
+_NUMBER_FILLER = frozenset({
+    "main", "major", "different", "distinct", "separate", "new", "key", "other", "more",
+    "additional", "or", "so", "such", "of", "the", "these", "those", "its", "their",
+    "known", "related", "large", "small", "independent", "specific", "to",
+})
+_NUMBER_WINDOW = 4
+
+
+def _same_thing(out_word: str, in_word: str) -> bool:
+    if out_word == in_word or _singular(out_word) == _singular(in_word):
+        return True
+    a = {f for f in _base_forms(out_word) if len(f) >= 5}
+    if a and a & {f for f in _base_forms(in_word) if len(f) >= 5}:
+        return True
+    return any(_has_plain_equivalent(f, {in_word}) for f in _base_forms(out_word))
+
+
+def _numbers_misattached(output: str, title: str, agency_text: str) -> List[str]:
+    """Numbers of the output that the input does not attach to the same thing.
+
+    Being somewhere in the input was the whole test, so a real number could be moved:
+    "serving more than 500 investigators" (500 came from the instrument's name,
+    "NextSeq 500"; the text said more than 20), "approximately 2,500 scientists"
+    (2,500 presentations), "fields up to 400 T" (400 K). Now the word the number
+    counts in the output must stand within _NUMBER_WINDOW words after the same number
+    in the input. Exempt: a number that is in the title, a year, and a number the
+    output ends on or follows with a verb-like filler only.
+    """
+    def tokens(v: str) -> List[str]:
+        return [_normalise_number(t).casefold() for t in _NUMBER_TOKEN_RE.findall(v)]
+    out, hay, in_title = tokens(output), tokens(f"{title or ''}\n{agency_text or ''}"), set(tokens(title or ""))
+    wrong = []
+    for i, tok in enumerate(out):
+        digit = tok if tok[:1].isdigit() else _NUMBER_WORDS.get(tok)
+        if digit is None or digit in ("half", "twice", "double", "triple", "percent"):
+            continue
+        if tok == "one":
+            continue
+        if tok in in_title or digit in in_title:
+            continue
+        if re.fullmatch(r"(?:19|20)\d\d", digit):
+            continue
+        j = i + 1
+        while j < len(out) and out[j] in _NUMBER_FILLER:
+            j += 1
+        if j >= len(out) or out[j][:1].isdigit():
+            continue
+        noun = out[j]
+        same = {digit} | {w for w, d in _NUMBER_WORDS.items() if d == digit}
+        places = [k for k, t in enumerate(hay) if t in same]
+        if not places:
+            continue  # _numbers_not_in_input reports it
+        if not any(_same_thing(noun, t) for k in places for t in hay[k + 1:k + 1 + _NUMBER_WINDOW]):
+            wrong.append(f"{tok} {noun}")
+    return wrong
 
 
 def _numbers_not_in_input(output: str, haystack: str) -> List[str]:
@@ -458,8 +1194,17 @@ def _name_tokens(output: str) -> List[Tuple[str, bool]]:
 
 
 def _names_not_in_input(output: str, haystack: str) -> List[str]:
+    """Names, acronyms and symbols of the output that the input does not contain.
+
+    The first word of the sentence, when it is an ordinary capitalised word, is not
+    judged here: it has a capital whatever it is. It goes through _words_not_in_input
+    like every other word, which ignores case ("Harvard researchers ..." fails there).
+    """
     missing = []
     for token, is_first in _name_tokens(output):
+        spelled = _ACRONYM_SPELLED_OUT.get(token.upper())
+        if spelled and token.upper() in ALLOWED_ACRONYMS and re.search(spelled, haystack, re.IGNORECASE):
+            continue
         candidates = [token]
         # "Bats" written for "bat", "MRIs" for "MRI": the plural is the model's, the
         # name is the text's.
@@ -473,11 +1218,6 @@ def _names_not_in_input(output: str, haystack: str) -> List[str]:
             and not any(c.isdigit() for c in token)
         )
         if ordinary_first:
-            if token.lower() in _OPENERS:
-                continue
-            if any(_input_has_word(c, haystack, case_insensitive=True) for c in candidates):
-                continue
-            missing.append(token)
             continue
         if any(_input_has_word(c, haystack, case_insensitive=False) for c in candidates):
             continue
@@ -535,23 +1275,280 @@ def _input_vocabulary(haystack: str) -> Tuple[set, set]:
     return words, {_stem(w) for w in words}
 
 
-def _words_not_in_input(output: str, haystack: str) -> List[str]:
-    """Output words that are neither sentence-building words (_PLAIN_WORDS) nor words of
-    the title or agency text. Case is ignored here, which is the point: "crispr" and
-    "harvard" in lower case walked past the capital-letter check."""
-    words, stems = _input_vocabulary(haystack)
+def _singular(word: str) -> str:
+    """Plural off and nothing else. "rates" is "rate", never "rat"."""
+    if word.endswith("ies") and len(word) > 4:
+        return word[:-3] + "y"
+    if word.endswith(("sses", "ches", "shes", "xes", "zes")):
+        return word[:-2]
+    if word.endswith("s") and not word.endswith(("ss", "us", "is")) and len(word) > 3:
+        return word[:-1]
+    return word
+
+
+# Shortest form two words may be matched on when an ending had to be taken off, and
+# shortest word that may ground a longer one that starts with it. Below these the
+# collisions begin: "rat" in "rates", "ear" in "early", "organ" in "organization",
+# "colon" in "colonization"; "sensor" in "sensory", "doctor" in "doctoral".
+_MIN_SHARED_FORM = 5
+_MIN_PREFIX_WORD = 7
+_MIN_STEM = 6
+
+
+class _InputWords:
+    """The input's words, and the forms a word of the output may be matched on."""
+
+    def __init__(self, haystack: str):
+        self.words, self.stems = _input_vocabulary(haystack)
+        self.singulars = self.words | {_singular(w) for w in self.words}
+        self.long_forms = {f for w in self.words for f in _base_forms(w)
+                           if len(f) >= _MIN_SHARED_FORM}
+        self.long_words = [w for w in self.words if len(w) >= _MIN_PREFIX_WORD]
+
+    def names(self, word: str) -> bool:
+        """The input has this word: itself, its plural or singular, a regular
+        inflection of it when what they share is at least _MIN_SHARED_FORM letters
+        ("sequenced" and "sequencing"), or a longer word built on it when it is at
+        least _MIN_PREFIX_WORD letters ("transplant" and "transplantation").
+
+        No _stem() here. Until the repair a stem match came first, and the stemmer's
+        collisions grounded names the text never used. Measured by the reviewer over
+        the 3,455 rows that need a one-liner: "ears" by "early" in 330 rows, "coral"
+        by "core" in 328, "rats" by "rate" in 213, "liver" by "living" in 109."""
+        single = _singular(word)
+        if word in self.singulars or single in self.singulars:
+            return True
+        if any(len(f) >= _MIN_SHARED_FORM and f in self.long_forms for f in _base_forms(word)):
+            return True
+        if len(single) >= _MIN_PREFIX_WORD:
+            if any(w.startswith(single) for w in self.long_words):
+                return True
+            if any(single.startswith(w) and len(single) - len(w) <= 5 for w in self.long_words):
+                return True
+        # "injured" and "injury", "studied" and "study": -y against -ed, -ing, -ies.
+        # Nothing looser. A general shared-root test was tried here and measured over
+        # the 3,521 rows that need a one-liner: it grounded "species" by "specific" in
+        # 530 rows, "factory" by "factors" in 264, "primate" by "primary" in 186,
+        # "influenza" by "influence" in 162 and "proteins" by "protect" in 70.
+        for tail in ("ed", "ing", "ies", "ied"):
+            if word.endswith(tail) and len(word) - len(tail) >= _MIN_SHARED_FORM:
+                if word[: -len(tail)] + "y" in self.words:
+                    return True
+        if word.endswith("y") and len(word) > _MIN_SHARED_FORM:
+            if any(word[:-1] + tail in self.words for tail in ("ed", "ing", "ies", "ied")):
+                return True
+        return False
+
+    def derives(self, word: str) -> bool:
+        """names(), or the same crude stem of at least _MIN_STEM letters ("regenerates"
+        and "regeneration"). For words that are NOT names of something to choose a lab
+        by; those go through names() alone."""
+        if self.names(word):
+            return True
+        stem = _stem(word)
+        return len(stem) >= _MIN_STEM and stem in self.stems
+
+
+def _base_forms(word: str) -> List[str]:
+    """The word and what it would be without a regular ending. No "-er" (see above)."""
+    out = [word]
+    def add(v: str) -> None:
+        if len(v) >= 2 and v not in out:
+            out.append(v)
+    if word.endswith("ies") and len(word) > 4:
+        add(word[:-3] + "y")
+    if word.endswith("es") and len(word) > 3:
+        add(word[:-2])
+    if word.endswith("s") and not word.endswith("ss") and len(word) > 3:
+        add(word[:-1])
+    if word.endswith("ied") and len(word) > 4:
+        add(word[:-3] + "y")
+    for tail in ("ed", "ing"):
+        if word.endswith(tail) and len(word) - len(tail) >= 2:
+            stem = word[: -len(tail)]
+            add(stem)
+            add(stem + "e")
+            if len(stem) >= 4 and stem[-1] == stem[-2]:
+                add(stem[:-1])
+    if word.endswith("ily") and len(word) > 4:
+        add(word[:-3] + "y")
+    if word.endswith("ly") and len(word) > 4:
+        add(word[:-2])
+        add(word[:-2] + "le")
+    if word.endswith("ally") and len(word) > 6:
+        add(word[:-4])
+    return out
+
+
+def _has_plain_equivalent(word: str, input_words: set) -> bool:
+    stems = _PLAIN_EQUIVALENTS.get(word)
+    if not stems:
+        return False
+    for stem in stems:
+        if stem.startswith("^"):
+            if any(w.startswith(stem[1:]) for w in input_words):
+                return True
+        elif any(stem in w for w in input_words):
+            return True
+    return False
+
+
+def _phrases_not_in_input(output: str, haystack: str) -> List[str]:
+    out_norm = " " + re.sub(r"[^\w\s]", " ", _collapse(output).casefold()) + " "
+    out_norm = " ".join(out_norm.split())
+    hay_norm = " ".join(re.sub(r"[^\w\s]", " ", haystack.casefold()).split())
     missing = []
+    for phrase in _GROUNDED_PHRASES:
+        if re.search(r"(?<!\w)" + re.escape(phrase) + r"(?!\w)", out_norm) \
+                and not re.search(r"(?<!\w)" + re.escape(phrase.rstrip("s")), hay_norm):
+            # "the immune system" is the plain form of "immunity" and "immune evasion".
+            stems = _PHRASE_EQUIVALENTS.get(phrase)
+            if stems and re.search(r"(?<!\w)(?:" + "|".join(stems) + r")", hay_norm):
+                continue
+            missing.append(phrase)
+    return missing
+
+
+def _words_not_in_input(output: str, haystack: str) -> List[str]:
+    """Output words that the input does not support. See the block comment above
+    _COMMON_WORDS for the rule. Case is ignored, which is the point: "crispr" and
+    "harvard" in lower case walked past the capital-letter check.
+
+    Number words and claim words are skipped here because _numbers_not_in_input and
+    _claims_not_in_input hold them to the input already, by their own rules.
+    """
+    given = _InputWords(haystack)
+    words = given.words
+    missing = list(_phrases_not_in_input(output, haystack))
     for m in _WORD_RE.finditer(output):
         word = m.group(0).casefold()
         for tail in ("'s", "’s"):
             if word.endswith(tail):
                 word = word[: -len(tail)]
-        if len(word) < 2 or word in _PLAIN_WORDS:
+        if len(word) < 2:
             continue
-        if word in words or _stem(word) in stems:
+        if word in words:
+            continue
+        if word in _NUMBER_WORDS or word in _CLAIM_WORDS:
+            continue
+        # Is this the name of something? Decided BEFORE any loose matching, so that a
+        # name can only be grounded by itself (names()) or by a listed plain
+        # equivalent. The word as written decides first: "early" is common and is not
+        # "ear" with an ending.
+        forms = _base_forms(word)
+        is_name = word in _GROUNDED_ONLY or (
+            word not in _COMMON_WORDS and any(f in _GROUNDED_ONLY for f in forms[1:]))
+        if is_name:
+            if not (given.names(word) or any(_has_plain_equivalent(f, words) for f in forms)):
+                missing.append(m.group(0))
+            continue
+        if given.derives(word):
+            continue
+        # An allowed acronym is a name: _names_not_in_input holds it to the input.
+        if m.group(0).upper() in ALLOWED_ACRONYMS and sum(c.isupper() for c in m.group(0)) >= 2:
+            continue
+        # The word as written decides first. "early" is a common word and must not be
+        # read as "ear" with an ending; "leaves" is a grounded word and must not be
+        # read as the verb.
+        if word in _COMMON_WORDS or any(f in _COMMON_WORDS for f in forms[1:]):
             continue
         missing.append(m.group(0))
     return missing
+
+
+def _acronyms_in_output(output: str) -> List[str]:
+    """Acronyms, codes and symbols the reader is not expected to know and the sentence
+    does not spell out. Two or more capitals ("PDAC", "scRNA"), or letters mixed with
+    digits ("U2AF1", "p53", "T32"). It makes no difference that the agency text uses
+    the same acronym: the student has not read the agency text."""
+    return [a for a in _fs._acronym_candidates(output, known=ALLOWED_ACRONYMS)
+            if not _spelled_out_in(a, output)]
+
+
+_BRACKET_RE = re.compile(r"[(\[]([^()\[\]]*)[)\]]")
+_EXPANSION_SMALL = frozenset({"of", "and", "the", "for", "in", "on", "to", "a", "an", "with", "by"})
+
+
+def _initials_match(acronym: str, phrase_words: List[str]) -> bool:
+    """The acronym's letters are, in order, letters of these words, the first one the
+    first letter of the first word and at least half of them first letters of a word.
+    "pancreatic ductal adenocarcinoma" spells PDAC ("c" from inside the last word);
+    "a bad tumor" does not."""
+    letters = [c for c in acronym.casefold() if c.isalnum()]
+    words = [w.casefold() for w in phrase_words if w]
+    if len(letters) < 2 or not words or words[0][:1] != letters[0]:
+        return False
+    initials = 0
+    wi, ci = 0, 0
+    for letter in letters:
+        placed = False
+        while wi < len(words):
+            if ci == 0 and words[wi] in _EXPANSION_SMALL and words[wi][:1] != letter:
+                wi += 1
+                continue
+            pos = words[wi].find(letter, ci)
+            if pos == -1:
+                wi, ci = wi + 1, 0
+                continue
+            initials += pos == 0
+            ci = pos + 1
+            placed = True
+            break
+        if not placed:
+            return False
+    return initials * 2 >= len(letters)
+
+
+def _spelled_out_in(acronym: str, output: str) -> bool:
+    """The sentence writes the acronym out: "pancreatic ductal adenocarcinoma (PDAC)" or
+    "PDAC (pancreatic ductal adenocarcinoma)".
+
+    front_sentence._acronym_is_expanded accepts any two words before a bracket, which
+    is right for agency text (the words are the agency's) and wrong here: "a bad tumor
+    (PDAC)" and "PDAC (a tumor)" both passed as expansions. This one checks the letters.
+    """
+    esc = re.escape(acronym)
+    split = re.compile(r"[\s-]+")
+    for m in re.finditer(r"[(\[]\s*" + esc + r"s?\s*[)\]]", output):
+        before = [w.strip(_EDGE) for w in split.split(output[:m.start()].strip())][-(len(acronym) + 3):]
+        for k in range(len(before)):
+            if _initials_match(acronym, before[k:]):
+                return True
+    for m in re.finditer(r"(?<![\w-])" + esc + r"s?\s*[(\[]([^()\[\]]+)[)\]]", output):
+        if _initials_match(acronym, [w.strip(_EDGE) for w in split.split(m.group(1).strip())]):
+            return True
+    return False
+
+
+def _asides_in_brackets(output: str) -> List[str]:
+    """Brackets that are not an acronym and its expansion. "(a repair thing)" is a
+    second statement under cover, and "(PDAC)" after words that do not spell it is an
+    acronym with a decoy."""
+    found = []
+    for m in _BRACKET_RE.finditer(output):
+        inner = m.group(1).strip()
+        before = output[:m.start()].rstrip().split(" ")[-1].strip(_EDGE) if output[:m.start()].strip() else ""
+        if inner and (_spelled_out_in(inner, output)
+                      or (inner.endswith("s") and _spelled_out_in(inner[:-1], output))):
+            continue
+        if before and _spelled_out_in(before, output):
+            continue
+        found.append(m.group(0))
+    if output.count("(") != output.count(")") or output.count("[") != output.count("]"):
+        found.append("unbalanced")
+    return found
+
+
+# A second statement inside the one sentence. The semicolon was refused; "- the project
+# is open to all", ": the project is open to all who ask" and ", and the project is
+# open to all who ask" were not.
+_SECOND_CLAUSE_RE = re.compile(
+    r"\s[-–—]{1,2}\s|[–—]|:|"
+    r"(?:,|\band|\bbut|\bwhile|\bso)\s+(?:and\s+)?(?:(?:the|this)\s+(?:project|lab|laboratory|"
+    r"team|group|study|core|program|work|research|award|center|effort)|it|this|there)\s+"
+    r"(?:is|are|was|has|have|will|can|may|also|offers?|provides?|welcomes?|seeks?)\b",
+    re.IGNORECASE,
+)
 
 
 _SINGLE_CAPITAL_RE = re.compile(r"(?<![\w'’-])([B-HJ-Z])(?![\w'’])")
@@ -599,13 +1596,34 @@ def validate_summary(output: str, *, title: str, agency_text: str) -> Tuple[Opti
 
     Reasons: "empty", "not_one_sentence", "too_short", "too_long", "first_person",
     "forbidden_topic", "superlative", "number_not_in_input", "name_not_in_input",
-    "word_not_in_input", "verbatim_copy". "word_not_in_input" is not in the phase 3
-    contract's list; it was added after review, when outputs naming the wrong organism,
-    a wrong disease and an invented clinical trial all came back with no reason at all.
+    "word_not_in_input", "acronym", "verbatim_copy". "word_not_in_input" is not in the
+    phase 3 contract's list; it was added after review, when outputs naming the wrong
+    organism, a wrong disease and an invented clinical trial all came back with no
+    reason at all. "acronym" was added 2026-09-29. Because stored one-liners are
+    validated again on every read, anything stored under an earlier validator that
+    this one refuses stops being shown; the stored columns are not touched.
 
-    What this cannot catch: a sentence built only from the text's own words that says
-    something the text does not (a negation dropped, two findings joined). That is why
-    the card says "It may be wrong" and keeps the agency's text one tap away.
+    WHAT THIS IS. A filter on names, numbers, acronyms and banned vocabulary. It is not
+    a check that the sentence is true, and nothing in this module is. A reviewer wrote
+    25 faithful, 25 wrong and 25 promotional sentences against real rows (2026-09-29,
+    written to get past the lists): before the repair 13, 19 and 20 of them passed.
+    The figures after it are in the repair report; the wrong ones that still pass are
+    the classes below.
+
+    What this cannot catch:
+      - a sentence built only from the text's own words that says something the text
+        does not (a negation dropped, two findings joined, "uptake" turned into
+        "make", a pilot study reported as a finished trial);
+      - a wrong organ, organism, place or setting whose word is somewhere in the text
+        for another reason ("lung transplantation" on a stem cell transplant award
+        whose background mentions the lung, "military health settings" on a
+        children's mental health core). A grounded word is looked for in the WHOLE
+        input, not in the sentence that states the work;
+      - a reversed direction when the text names both directions anywhere
+        (_directions_not_in_input).
+    That is why the card says "It may be wrong" and keeps the agency's text one tap
+    away. The label and the tap carry the weight; this function reduces how often they
+    have to.
     """
     if not isinstance(output, str) or not output.strip():
         return None, ["empty"]
@@ -621,9 +1639,12 @@ def validate_summary(output: str, *, title: str, agency_text: str) -> Tuple[Opti
     wrapped = collapsed[:1] in "\"'“‘*-–—•#" or collapsed[-1:] in "\"'”’*"
     # A semicolon joins two statements, and the second is where "; the lab has room for
     # new helpers" went. One sentence means one statement.
+    # The same goes for a dash or a colon with a statement behind it, a clause that
+    # starts over with a subject of its own, an aside in brackets, and a question.
     if (len(spans) != 1 or "\n" in text or wrapped or ";" in collapsed
-            or not re.search(r"[.!?]$", collapsed)
-            or re.match(r"[A-Za-z ]{1,24}:\s", collapsed)):
+            or not re.search(r"[.!]$", collapsed)
+            or _SECOND_CLAUSE_RE.search(collapsed)
+            or _asides_in_brackets(collapsed)):
         reasons.append("not_one_sentence")
 
     words = [w for w in collapsed.split(" ") if any(c.isalnum() for c in w)]
@@ -635,17 +1656,21 @@ def validate_summary(output: str, *, title: str, agency_text: str) -> Tuple[Opti
     if (_FIRST_PERSON_RE.search(collapsed) or _US_RE.search(collapsed)
             or _I_SUBJECT_RE.search(collapsed)):
         reasons.append("first_person")
-    if _FORBIDDEN_TOPIC_RE.search(collapsed):
+    if _FORBIDDEN_TOPIC_RE.search(collapsed) or _people_words_not_in_input(collapsed, haystack):
         reasons.append("forbidden_topic")
-    if _SUPERLATIVE_RE.search(collapsed) or _claims_not_in_input(collapsed, haystack):
+    if (_SUPERLATIVE_RE.search(collapsed) or _claims_not_in_input(collapsed, haystack)
+            or _promises_not_in_input(collapsed, haystack)):
         reasons.append("superlative")
-    if _numbers_not_in_input(collapsed, haystack):
+    if (_numbers_not_in_input(collapsed, haystack)
+            or _numbers_misattached(collapsed, title or "", agency_text or "")):
         reasons.append("number_not_in_input")
     if (_names_not_in_input(collapsed, haystack)
             or _single_capitals_not_in_input(collapsed, haystack)):
         reasons.append("name_not_in_input")
-    if _words_not_in_input(collapsed, haystack):
+    if _words_not_in_input(collapsed, haystack) or _directions_not_in_input(collapsed, haystack):
         reasons.append("word_not_in_input")
+    if _acronyms_in_output(collapsed):
+        reasons.append("acronym")
     if _is_verbatim_copy(collapsed, haystack):
         reasons.append("verbatim_copy")
 
