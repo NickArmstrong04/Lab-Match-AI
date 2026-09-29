@@ -642,6 +642,12 @@ CARD_READ_COLUMNS: tuple = (
     "fields_fetched_at", "dates_checked_at", "abstract_checked_at", "latest_appl_id",
     "plain_summary", "plain_summary_source", "plain_summary_model", "plain_summary_generated_at",
 )
+# The AI-picked topic chips (migration 20260929000020), asked for on a rung of their own
+# in fetch_grant_details. They are NOT appended to CARD_READ_COLUMNS: until that
+# migration is applied a select naming card_terms is rejected whole, and the rung that
+# answered would be the one without ANY phase 3 column, so every card would fall back
+# to "not loaded" over one missing column.
+CARD_TERMS_READ_COLUMNS: tuple = ("card_terms",)
 
 
 def fetch_grant_details(db, grant_ids: List[str]) -> dict:
@@ -664,6 +670,8 @@ def fetch_grant_details(db, grant_ids: List[str]) -> dict:
     resp = None
     last_err = None
     for cols in (
+        "id, start_date, end_date, abstract_is_generated, pi_is_generated, award_id, created_at, "
+        + ", ".join(CARD_READ_COLUMNS + CARD_TERMS_READ_COLUMNS),
         "id, start_date, end_date, abstract_is_generated, pi_is_generated, award_id, created_at, "
         + ", ".join(CARD_READ_COLUMNS),
         # created_at is in the base schema (20260521000000), so it is safe in every
@@ -734,7 +742,7 @@ def normalize_rpc_grant(item: dict, details: dict) -> dict:
         # Table-only, like the three above: match_grants returns none of them and is not
         # altered in phase 3. Every one is None until the migration is applied and the
         # backfill has reached the row, and the card reads None as "not loaded yet".
-        **{k: details.get(k) for k in CARD_READ_COLUMNS},
+        **{k: details.get(k) for k in CARD_READ_COLUMNS + CARD_TERMS_READ_COLUMNS},
     }
 
 

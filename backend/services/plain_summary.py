@@ -1749,8 +1749,11 @@ def summary_breaker_open(now: Optional[float] = None) -> bool:
     return now - _summary_breaker_opened_at < SUMMARY_BREAKER_COOLDOWN_SECONDS
 
 
-def gemini_call_model(prompt: str) -> str:
+def gemini_call_model(prompt: str, *, generation_config: Optional[dict] = None) -> str:
     """One generateContent request, no retry. Returns the model's text as it came.
+
+    generation_config replaces the default (temperature 0.2) when given. It is how
+    services/card_terms.py asks for a JSON answer; the one-liner path does not pass it.
 
     Raises PlainSummaryUnavailable on 429, on an open breaker and when no Gemini backend
     is configured. Raises PlainSummaryNoOutput when the answer is a 200 that carries no
@@ -1777,7 +1780,7 @@ def gemini_call_model(prompt: str) -> str:
         # Vertex requires an explicit role; the Developer API accepts it.
         "contents": [{"role": "user", "parts": [{"text": prompt}]}],
         # Low temperature: the task is restating, and variety here is invention.
-        "generationConfig": {"temperature": 0.2},
+        "generationConfig": generation_config or {"temperature": 0.2},
     }
 
     def failed() -> None:

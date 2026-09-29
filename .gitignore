@@ -63,3 +63,6 @@ logs/
 # GCP service-account key for Vertex/Agent Platform routing -- never commit
 backend/vertex-sa.json
 *-sa.json
+
+# Card lab payloads (development only, see frontend/src/pages/CardLab.tsx)
+frontend/.cardlab/

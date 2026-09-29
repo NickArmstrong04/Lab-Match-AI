@@ -67,6 +67,18 @@ export interface WireAwardKind {
   state?: string | null;
 }
 
+export interface WireField {
+  label?: string | null;
+  source?: string | null;
+}
+
+export interface WireTopics {
+  terms?: string[] | null;
+  source?: string | null;
+  tag?: string | null;
+  info?: string | null;
+}
+
 export interface WireInvestigator {
   name?: string | null;
   title?: string | null;
@@ -149,6 +161,8 @@ export interface CardFrontFields {
   front_sentence_absent?: string | null;
   plain_summary?: WirePlainSummary | null;
   award_kind?: WireAwardKind | null;
+  field?: WireField | null;
+  topics?: WireTopics | null;
   pi?: WirePi | null;
   place?: WirePlace | null;
   funding?: WireFunding | null;
@@ -539,6 +553,92 @@ export const hitFieldLabel = (field: string, isSample = false): string =>
 // ("Statistical Data Interpretation" for the student's "Data Interpretation"), so they
 // are counted apart from terms found by the student's exact words.
 export const INDEX_TERM_FIELD = 'agency_term';
+
+// ---------------------------------------------------------------------------
+// Field line and topic chips (services/card_topics.py)
+// ---------------------------------------------------------------------------
+
+/**
+ * The funder's name as the agency publishes it ("National Institute of Mental Health",
+ * "Biological Sciences"), or null. It names who pays for the work. It is not a
+ * classification of the project, and nothing here words it as one.
+ */
+export const readField = (card: Card): string | null => {
+  const raw = card.field;
+  return isObject(raw) ? text(raw.label) : null;
+};
+
+export type TopicsSource = 'nih_index_terms' | 'ai_picked';
+
+export const AI_PICKED_TAG = 'AI-picked';
+
+/** Info text for AI-picked chips, fixed here for the reason aiSummaryInfo is. */
+export const aiPickedInfo = (agency: string | null): string =>
+  `Each of these appears word for word in the text ${agency || 'the agency'} published for this award. An AI model chose which to show, and may have passed over what matters most. The full text is in Details.`;
+
+export const NIH_INDEX_TAG = 'NIH index terms';
+export const NIH_INDEX_INFO =
+  "Terms NIH's indexing assigned to this award that also appear in its title or text. LabMatch chose which to show. All of NIH's terms for the award are in Details.";
+
+export const TOPIC_CHIP_LIMIT = 5;
+
+export interface TopicsView {
+  terms: string[];
+  source: TopicsSource;
+  tag: string;
+  tone: 'stone' | 'amber';
+  info: string;
+}
+
+/**
+ * The topic chips, or null when the row is not drawn.
+ *
+ * Chips whose source this build does not know are not drawn: the tag under them says
+ * where they came from, and no tag is known to be true of an unrecognised source.
+ *
+ * For AI-picked chips the amber tone, the tag and the info text are fixed here by the
+ * source alone, as they are for the AI one-liner: the label is what tells a student a
+ * model made the choice, so it does not depend on the server having sent it.
+ */
+export const readTopics = (card: Card): TopicsView | null => {
+  const raw = card.topics;
+  if (!isObject(raw) || !Array.isArray(raw.terms)) return null;
+  const terms = raw.terms
+    .filter((t): t is string => typeof t === 'string' && !!t.trim())
+    .slice(0, TOPIC_CHIP_LIMIT);
+  if (terms.length === 0) return null;
+  if (raw.source === 'ai_picked') {
+    return { terms, source: 'ai_picked', tag: AI_PICKED_TAG, tone: 'amber', info: aiPickedInfo(agencyName(card)) };
+  }
+  if (raw.source === 'nih_index_terms') {
+    return {
+      terms,
+      source: 'nih_index_terms',
+      tag: text(raw.tag) ?? NIH_INDEX_TAG,
+      tone: 'stone',
+      info: text(raw.info) ?? NIH_INDEX_INFO,
+    };
+  }
+  return null;
+};
+
+/**
+ * Two letters for the circle beside the researcher: the first letter of the first and
+ * of the last word of the name as the card prints it. Decoration, not data: it carries
+ * nothing the name beside it does not. null when there is no name or no letter in it.
+ */
+export const piInitials = (name: string | null): string | null => {
+  if (!name) return null;
+  const words = name
+    .split(/\s+/)
+    .map((w) => w.replace(/[^\p{L}]/gu, ''))
+    // "Jr", "II" and a middle initial are not what a person is called by.
+    .filter((w) => w.length > 1 && !/^(jr|sr|ii|iii|iv|phd|md)$/i.test(w));
+  if (words.length === 0) return null;
+  const first = words[0][0];
+  const last = words.length > 1 ? words[words.length - 1][0] : '';
+  return (first + last).toUpperCase();
+};
 
 // ---------------------------------------------------------------------------
 // Actions

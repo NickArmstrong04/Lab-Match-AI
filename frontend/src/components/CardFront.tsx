@@ -1,15 +1,18 @@
 import React, { useEffect, useId, useRef, useState } from 'react';
-import { Check } from 'lucide-react';
+import { CalendarClock, Check, User, Users } from 'lucide-react';
 import type { GrantMatch } from '../pages/Dashboard';
 import { FUNDER_NOT_RECORDED } from '../utils/card';
 import {
   agencyName,
+  piInitials,
   readAwardKind,
+  readField,
   readFrontChips,
   readFrontSentence,
   readFunding,
   readPi,
   readPlace,
+  readTopics,
   hitFieldLabel,
 } from '../utils/cardFront';
 
@@ -24,13 +27,21 @@ import {
  * dropped: the similarity number and what it means, the amount and its basis, the full
  * text, the evidence sentences, the record links and the caveats.
  *
- * Top to bottom: kind tag (non-default kinds only), title, one sentence with its source
- * tag, up to three profile chips, researcher, institution, one funding line, and the
- * action row the caller passes in. Nothing here is computed from federal data; see
- * utils/cardFront.ts.
+ * Laid out as a short profile (owner's direction, 2026-09-29): who, what, in a few
+ * words, and the facts, with the long form behind Details. Top to bottom: kind tag
+ * (non-default kinds only); the researcher, with their institution, as the head of the
+ * card; the funder's name over the title; one sentence with its source tag; one row of
+ * chips, the student's own terms first (teal, ticked) and then what the award is
+ * about (outlined); two lines of facts; and the action row the caller passes in.
+ * Nothing here is computed from federal data; see utils/cardFront.ts.
  *
- * Amber appears for three things only: the AI one-liner's tag, an AI-identified PI and
- * the sample tag on persona cards. All three are provenance.
+ * The researcher leads because a student writes to a person, and because the title of
+ * an award is the hardest line on the card to read: it now comes after the two lines
+ * that say whose work it is and who pays for it.
+ *
+ * Amber appears for four things only: the AI one-liner's tag, the AI-picked tag under
+ * chips a model chose, an AI-identified PI and the sample tag on persona cards. All
+ * four are provenance.
  */
 
 interface CardFrontProps {
@@ -48,12 +59,10 @@ interface CardFrontProps {
 // Titles longer than this are set one size down so four lines hold more of them.
 const LONG_TITLE_CHARS = 90;
 
-// The researcher line holds about 48 characters at 390px (13px text in a 310px column).
-// "+2 other investigators" is drawn on the front only when the whole line fits in that;
-// otherwise it is what pushes the line onto a second row, and the names are in Details
-// under "Other investigators" either way (the addendum allows either place). Counted in
-// characters, not measured: a measured rule would draw the line twice on every card.
-const PI_LINE_CHARS = 48;
+// A chip is one line. NIH's longest index terms run past the width of a phone card, and
+// a chip that wraps reads as two.
+const TOPIC_CHIP_CLASS =
+  'inline-block max-w-full truncate rounded-full border border-stone-300 bg-white px-2.5 py-0.5 text-[12.5px] font-medium text-stone-800 first-letter:uppercase';
 
 /**
  * The "i" beside a tag. A button that opens its text in the flow of the card, because a
@@ -104,6 +113,8 @@ export const CardFront: React.FC<CardFrontProps> = ({
   const kind = readAwardKind(card, isDemo);
   const sentence = readFrontSentence(card);
   const chips = readFrontChips(card);
+  const topics = readTopics(card);
+  const field = isDemo ? null : readField(card);
   const pi = readPi(card);
   const place = readPlace(card);
   const funding = readFunding(card);
@@ -124,8 +135,10 @@ export const CardFront: React.FC<CardFrontProps> = ({
     return () => window.removeEventListener('pointerdown', close, true);
   }, [kindInfoOpen]);
   const [sentenceInfoOpen, setSentenceInfoOpen] = useState(false);
+  const [topicsInfoOpen, setTopicsInfoOpen] = useState(false);
   const kindInfoId = useId();
   const sentenceInfoId = useId();
+  const topicsInfoId = useId();
 
   const title = card.title || card.grant_title || '';
   const allCapitals = !!title && !/[a-z]/.test(title);
@@ -134,12 +147,12 @@ export const CardFront: React.FC<CardFrontProps> = ({
     : title.length > LONG_TITLE_CHARS
       ? 'text-[17px] leading-[1.35]'
       : 'text-[19px] leading-6';
-  // Four lines when a sentence follows. With no sentence the title is all the front
+  // Three lines when a sentence follows. With no sentence the title is all the front
   // says about the science, so it is given room; the eight-line limit is only the
   // backstop the old card had, for the rare row whose stored title is a whole award
   // description. Clamping hides text, it never rewrites it: the full title is in the
   // `title` attribute and in Details.
-  const titleClamp = sentence ? 'line-clamp-4' : 'line-clamp-[8]';
+  const titleClamp = sentence ? 'line-clamp-3' : 'line-clamp-[8]';
   const Heading = headingLevel;
 
   const kindInfoText = [
@@ -150,14 +163,11 @@ export const CardFront: React.FC<CardFrontProps> = ({
   ].filter(Boolean).join(' ');
 
   const others = pi.others?.length ?? 0;
-  const othersText = others > 0
-    ? `+${others} other ${others === 1 ? 'investigator' : 'investigators'}`
-    : '';
-  const piLineLength = (pi.name?.length ?? 0)
-    + (pi.title ? pi.title.length + 2 : 0)
-    + (pi.aiIdentified ? 14 : 0)
-    + othersText.length + 1;
-  const showOthers = others > 0 && piLineLength <= PI_LINE_CHARS;
+  const initials = piInitials(pi.name);
+  // The funder's name carries the agency when there is one ("NIH · National Eye
+  // Institute"), and the funding line then does not say it a second time.
+  const fieldLine = field ? [agency, field].filter(Boolean).join(' · ') : null;
+  const hasChips = !!chips || !!topics;
 
   return (
     <div data-card-front className="[overflow-wrap:anywhere]">
@@ -203,8 +213,65 @@ export const CardFront: React.FC<CardFrontProps> = ({
           </div>
         )}
 
+        <div data-front-who className="flex items-center gap-3">
+          <span
+            aria-hidden
+            className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-stone-200 bg-stone-100 text-[14px] font-semibold tracking-wide text-stone-700"
+          >
+            {initials ?? <User className="h-5 w-5 text-stone-400" />}
+          </span>
+          <div className="min-w-0 text-[13px] leading-5">
+            <p>
+              {pi.name ? (
+                <span className="text-[15px] font-semibold text-stone-900">{pi.name}</span>
+              ) : (
+                <span className="text-stone-500">PI not yet identified</span>
+              )}
+              {pi.name && pi.title && <span className="text-stone-600">, {pi.title}</span>}
+              {pi.aiIdentified && pi.name && (
+                <>
+                  {' '}
+                  <span
+                    className="whitespace-nowrap rounded-full border border-amber-300 bg-amber-50 px-1.5 py-px text-[11px] font-medium text-amber-900"
+                    title="This agency doesn't publish a principal investigator. The name was found by an AI web search and may be wrong. Confirm it on the lab's own page before reaching out."
+                  >
+                    AI-identified
+                  </span>
+                </>
+              )}
+            </p>
+            <p className="text-stone-600">
+              {place.institution}
+              {place.locality && <> · {place.locality}</>}
+              {campusMatch && (
+                <>
+                  {' '}
+                  {/* A string comparison between the institution name and what the
+                      student typed, which is all the tooltip claims. */}
+                  <span
+                    className="whitespace-nowrap rounded-full border border-teal-200 bg-teal-50 px-1.5 py-px text-[11px] font-medium text-teal-900"
+                    title="The institution name matches the campus you entered."
+                  >
+                    your campus
+                  </span>
+                </>
+              )}
+            </p>
+          </div>
+        </div>
+
+        {fieldLine && (
+          <p
+            data-front-field
+            className="mt-3 text-[12px] font-medium leading-4 text-stone-500"
+            title="The part of the agency that funds this award, as the agency names it."
+          >
+            {fieldLine}
+          </p>
+        )}
+
         <Heading
-          className={`${titleClamp} ${titleSize} font-semibold text-stone-900`}
+          className={`${fieldLine ? 'mt-0.5' : 'mt-3'} ${titleClamp} ${titleSize} font-semibold text-stone-900`}
           // Inline: index.css tightens every heading outside any layer, which beats a
           // Tailwind utility, and at 17px the words of a long title ran together.
           style={{ letterSpacing: '-0.005em' }}
@@ -269,106 +336,122 @@ export const CardFront: React.FC<CardFrontProps> = ({
         )}
       </div>
 
-      {chips && (
-        <div className="mt-3 flex flex-wrap items-center gap-1.5">
-          <span className="mr-0.5 text-[10.5px] font-semibold uppercase tracking-[0.08em] text-stone-500">
-            {isDemo ? 'In the sample profile' : 'In your profile'}
-          </span>
-          {chips.chips.map((chip) => (
-            <span
-              key={`${chip.term}:${chip.field}`}
-              className="inline-flex max-w-full items-center gap-1 rounded-full bg-teal-700 px-2.5 py-0.5 text-[12.5px] font-medium text-white"
-              // The chip prints the profile's term, as the heading over it says. It
-              // printed the record's characters, so a title published in capitals
-              // read "IN YOUR PROFILE: MACHINE LEARNING" and one card mixed
-              // "Bioinformatics" with "biology". How the record spells it is in the
-              // tooltip when it differs, and in Details.
-              title={`${isDemo ? 'Sample profile term' : 'Your term'}: ${chip.term}. Found ${
-                chip.shown.trim() !== chip.term.trim() ? `as "${chip.shown}" ` : ''
-              }in ${hitFieldLabel(chip.field, isDemo)}.`}
+      {hasChips && (
+        <div data-front-chips className="mt-3">
+          <div className="flex flex-wrap items-center gap-1.5">
+            {chips?.chips.map((chip) => (
+              <span
+                key={`${chip.term}:${chip.field}`}
+                className="inline-flex max-w-full items-center gap-1 rounded-full bg-teal-700 px-2.5 py-0.5 text-[12.5px] font-medium text-white"
+                // The chip prints the profile's term, as the line under it says. It
+                // printed the record's characters, so a title published in capitals
+                // read "IN YOUR PROFILE: MACHINE LEARNING" and one card mixed
+                // "Bioinformatics" with "biology". How the record spells it is in the
+                // tooltip when it differs, and in Details.
+                title={`${isDemo ? 'Sample profile term' : 'Your term'}: ${chip.term}. Found ${
+                  chip.shown.trim() !== chip.term.trim() ? `as "${chip.shown}" ` : ''
+                }in ${hitFieldLabel(chip.field, isDemo)}.`}
+              >
+                <Check className="h-3 w-3 shrink-0" strokeWidth={3} aria-hidden />
+                <span className="truncate">{chip.term}</span>
+              </span>
+            ))}
+            {chips && chips.more > 0 && (
+              <span
+                className="text-[12px] text-stone-500"
+                title={`${chips.more} more of ${isDemo ? "the sample profile's" : 'your'} terms found. They are listed in Details.`}
+              >
+                +{chips.more}
+              </span>
+            )}
+            {topics?.terms.map((term) => (
+              <span key={term} className={TOPIC_CHIP_CLASS} title={term}>
+                {term}
+              </span>
+            ))}
+          </div>
+          {/* One line that says what the two kinds of chip are. A ticked chip is the
+              student's own word found in the award; an outlined one is the award's,
+              and the tag says who chose it. Amber only where a model did. */}
+          <div className="mt-1.5 flex flex-wrap items-center gap-x-1.5 gap-y-1 text-[11px] leading-4 text-stone-500">
+            {chips && (
+              <span className="inline-flex items-center gap-1">
+                <Check className="h-3 w-3 shrink-0 text-teal-700" strokeWidth={3} aria-hidden />
+                {isDemo ? 'In the sample profile' : 'In your profile'}
+              </span>
+            )}
+            {chips && topics && <span aria-hidden>·</span>}
+            {topics && (
+              <>
+                {topics.tone === 'amber' ? (
+                  <span className="rounded-full border border-amber-300 bg-amber-50 px-2 py-px font-semibold text-amber-900">
+                    {topics.tag}
+                  </span>
+                ) : (
+                  <span>{topics.tag}</span>
+                )}
+                <InfoToggle
+                  open={topicsInfoOpen}
+                  onToggle={() => setTopicsInfoOpen((o) => !o)}
+                  controls={topicsInfoId}
+                  label="About these topics"
+                  tone={topics.tone}
+                />
+              </>
+            )}
+          </div>
+          {topics && topicsInfoOpen && (
+            <p
+              id={topicsInfoId}
+              className={`mt-1.5 text-[12px] leading-[1.45] ${
+                topics.tone === 'amber' ? 'text-amber-900' : 'text-stone-600'
+              }`}
             >
-              <Check className="h-3 w-3 shrink-0" strokeWidth={3} aria-hidden />
-              <span>{chip.term}</span>
-            </span>
-          ))}
-          {chips.more > 0 && (
-            <span
-              className="text-[12px] text-stone-500"
-              title={`${chips.more} more of ${isDemo ? "the sample profile's" : 'your'} terms found. They are listed in Details.`}
-            >
-              +{chips.more}
-            </span>
+              {topics.info}
+            </p>
           )}
         </div>
       )}
 
-      <div className="mt-3 space-y-0.5 border-t border-stone-200 pt-2.5 text-[13px] leading-5">
-        <p>
-          {pi.name ? (
-            <span className="font-semibold text-stone-900">{pi.name}</span>
-          ) : (
-            <span className="text-stone-500">PI not yet identified</span>
-          )}
-          {pi.name && pi.title && <span className="text-stone-600">, {pi.title}</span>}
-          {showOthers && (
-            <>
-              {' '}
-              <span className="whitespace-nowrap text-stone-500">{othersText}</span>
-            </>
-          )}
-          {pi.aiIdentified && pi.name && (
-            <>
-              {' '}
-              <span
-                className="whitespace-nowrap rounded-full border border-amber-300 bg-amber-50 px-1.5 py-px text-[11px] font-medium text-amber-900"
-                title="This agency doesn't publish a principal investigator. The name was found by an AI web search and may be wrong. Confirm it on the lab's own page before reaching out."
-              >
-                AI-identified
-              </span>
-            </>
-          )}
-        </p>
-        <p className="text-stone-600">
-          {place.institution}
-          {place.locality && <> · {place.locality}</>}
-          {campusMatch && (
-            <>
-              {' '}
-              {/* A string comparison between the institution name and what the
-                  student typed, which is all the tooltip claims. */}
-              <span
-                className="whitespace-nowrap rounded-full border border-teal-200 bg-teal-50 px-1.5 py-px text-[11px] font-medium text-teal-900"
-                title="The institution name matches the campus you entered."
-              >
-                your campus
-              </span>
-            </>
-          )}
-        </p>
+      <div data-front-facts className="mt-3 space-y-1 border-t border-stone-200 pt-2.5 text-[13px] leading-5">
         {/* Each item carries the dot that comes before it, in its own left padding,
             and the line is pulled left by that padding and clipped. So an item that
             wraps takes its dot with it and the dot falls outside the clip: no dot is
             left at the end of a line ("... Jun 2029 ·" / "1 yr 11 mo left" at 360px)
             and none starts one. The figure is kept whole: "3" on one line and "yr 9 mo
             left" on the next read as two figures. */}
-        <p data-funding-line className="overflow-hidden text-stone-800">
-          <span className="-ml-[1.05em] block">
-            {[
-              !isDemo ? { key: 'agency', text: agency ?? FUNDER_NOT_RECORDED, cls: 'whitespace-nowrap' } : null,
-              { key: 'label', text: funding.label, cls: '' },
-              funding.timeLeft ? { key: 'left', text: funding.timeLeft, cls: 'whitespace-nowrap text-stone-500' } : null,
-            ]
-              .filter((item): item is { key: string; text: string; cls: string } => item !== null)
-              .map((item, index) => (
-                <span key={item.key} className={`relative inline-block max-w-full pl-[1.05em] align-top ${item.cls}`}>
-                  {index > 0 && (
-                    <span aria-hidden className="absolute left-0 top-0 w-[1.05em] text-center text-stone-400">·</span>
-                  )}
-                  {item.text}
-                </span>
-              ))}
-          </span>
-        </p>
+        <div className="flex items-start gap-2">
+          <CalendarClock className="mt-[3px] h-3.5 w-3.5 shrink-0 text-stone-400" aria-hidden />
+          <p data-funding-line className="min-w-0 flex-1 overflow-hidden text-stone-800">
+            <span className="-ml-[1.05em] block">
+              {[
+                // Said on the funder line above when there is one.
+                !isDemo && !fieldLine ? { key: 'agency', text: agency ?? FUNDER_NOT_RECORDED, cls: 'whitespace-nowrap' } : null,
+                { key: 'label', text: funding.label, cls: '' },
+                funding.timeLeft ? { key: 'left', text: funding.timeLeft, cls: 'whitespace-nowrap text-stone-500' } : null,
+              ]
+                .filter((item): item is { key: string; text: string; cls: string } => item !== null)
+                .map((item, index) => (
+                  <span key={item.key} className={`relative inline-block max-w-full pl-[1.05em] align-top ${item.cls}`}>
+                    {index > 0 && (
+                      <span aria-hidden className="absolute left-0 top-0 w-[1.05em] text-center text-stone-400">·</span>
+                    )}
+                    {item.text}
+                  </span>
+                ))}
+            </span>
+          </p>
+        </div>
+        {/* How many, never who: the names are in Details under "Other investigators".
+            It says what the record lists. It is not the size of the lab. */}
+        {others > 0 && (
+          <div className="flex items-start gap-2">
+            <Users className="mt-[3px] h-3.5 w-3.5 shrink-0 text-stone-400" aria-hidden />
+            <p className="min-w-0 flex-1 text-stone-600">
+              {others} other {others === 1 ? 'investigator' : 'investigators'} on the award
+            </p>
+          </div>
+        )}
       </div>
 
       {children}

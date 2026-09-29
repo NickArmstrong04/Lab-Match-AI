@@ -36,6 +36,7 @@ import re
 import warnings
 from typing import List, Optional, Tuple
 
+from . import card_topics as _topics
 from . import front_sentence as _fs
 from . import nih_activity_codes
 from .award_kinds import NO_OUTREACH_KINDS, classify_award
@@ -1086,8 +1087,13 @@ def front_card_keys(grant: dict, *, student_terms: Optional[list],
                     is_demo: bool = False,
                     today: Optional[datetime.date] = None) -> dict:
     """Exactly these keys: fields_loaded, front_sentence, front_sentence_absent,
-    plain_summary, award_kind, pi, place, funding, profile_hits_front,
+    plain_summary, award_kind, field, topics, pi, place, funding, profile_hits_front,
     profile_hits_front_total, outreach_ok, details.
+
+    `field` and `topics` were added on 2026-09-29 (services/card_topics.py). Both are
+    None on a card that has nothing sourced to put there, and the front then draws no
+    row for them: an NSF award before its terms are picked, an NIH award whose index
+    terms do not stand in its text, every persona card.
 
     `grant` is the normalized dict format_match_card receives. A key that is absent from
     it is treated exactly like None, which is what makes every path work before the
@@ -1138,6 +1144,16 @@ def front_card_keys(grant: dict, *, student_terms: Optional[list],
         (None, None),
     )
 
+    # After the profile chips, because a topic that only says again what a profile
+    # chip beside it says is left out.
+    topics = _guard(
+        "topics",
+        lambda: _topics.card_topics(grant, agency_text_fields(grant), profile_hits=hits,
+                                    is_demo=is_demo),
+        None,
+    )
+    field = _guard("field", lambda: _topics.card_field(grant, is_demo=is_demo), None)
+
     details = _guard(
         "details",
         lambda: _details(grant, student_terms=student_terms, other_awards=other_awards,
@@ -1182,6 +1198,8 @@ def front_card_keys(grant: dict, *, student_terms: Optional[list],
         "front_sentence_absent": absent,
         "plain_summary": summary,
         "award_kind": kind,
+        "field": field,
+        "topics": topics,
         "pi": pi,
         "place": place,
         "funding": funding,
