@@ -1,4 +1,4 @@
-import React, { useId, useState } from 'react';
+import React, { useEffect, useId, useRef, useState } from 'react';
 import { Check } from 'lucide-react';
 import type { GrantMatch } from '../pages/Dashboard';
 import { FUNDER_NOT_RECORDED } from '../utils/card';
@@ -111,6 +111,18 @@ export const CardFront: React.FC<CardFrontProps> = ({
   const agency = isDemo ? null : agencyName(card);
 
   const [kindInfoOpen, setKindInfoOpen] = useState(false);
+  // The kind explanation is a popover (see where it is drawn), so it is put away by the
+  // next press anywhere outside it, like any other.
+  const kindRowRef = useRef<HTMLDivElement | null>(null);
+  useEffect(() => {
+    if (!kindInfoOpen) return;
+    const close = (e: Event) => {
+      if (kindRowRef.current && e.target instanceof Node && kindRowRef.current.contains(e.target)) return;
+      setKindInfoOpen(false);
+    };
+    window.addEventListener('pointerdown', close, true);
+    return () => window.removeEventListener('pointerdown', close, true);
+  }, [kindInfoOpen]);
   const [sentenceInfoOpen, setSentenceInfoOpen] = useState(false);
   const kindInfoId = useId();
   const sentenceInfoId = useId();
@@ -151,7 +163,7 @@ export const CardFront: React.FC<CardFrontProps> = ({
     <div data-card-front className="[overflow-wrap:anywhere]">
       <div data-front-top>
         {kind.tag && (
-          <div className="mb-2.5">
+          <div ref={kindRowRef} className="relative mb-2.5">
             <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
               <span
                 // Not rounded-full: NIH's official names (R15, R25, T34) run to two
@@ -173,8 +185,18 @@ export const CardFront: React.FC<CardFrontProps> = ({
                 />
               )}
             </div>
+            {/* A popover over the title, not a paragraph in the flow. In the flow it
+                pushed the title, the sentence and the buttons down by three lines when
+                opened, so the button under the student's thumb moved. It is a press,
+                not a hover: there is no hover on a phone. */}
             {kindInfoText && kindInfoOpen && (
-              <p id={kindInfoId} className="mt-1.5 text-[12px] leading-[1.45] text-stone-600">
+              <p
+                id={kindInfoId}
+                role="note"
+                onMouseDown={(e) => e.stopPropagation()}
+                onTouchStart={(e) => e.stopPropagation()}
+                className="absolute left-0 top-full z-20 mt-1 w-[min(100%,24rem)] cursor-auto select-text rounded-lg border border-stone-300 bg-white px-3 py-2 text-[12px] leading-[1.45] text-stone-700 shadow-lg"
+              >
                 {kindInfoText}
               </p>
             )}
@@ -256,10 +278,17 @@ export const CardFront: React.FC<CardFrontProps> = ({
             <span
               key={`${chip.term}:${chip.field}`}
               className="inline-flex max-w-full items-center gap-1 rounded-full bg-teal-700 px-2.5 py-0.5 text-[12.5px] font-medium text-white"
-              title={`${isDemo ? 'Sample profile term' : 'Your term'}: ${chip.term}. Found in ${hitFieldLabel(chip.field)}.`}
+              // The chip prints the profile's term, as the heading over it says. It
+              // printed the record's characters, so a title published in capitals
+              // read "IN YOUR PROFILE: MACHINE LEARNING" and one card mixed
+              // "Bioinformatics" with "biology". How the record spells it is in the
+              // tooltip when it differs, and in Details.
+              title={`${isDemo ? 'Sample profile term' : 'Your term'}: ${chip.term}. Found ${
+                chip.shown.trim() !== chip.term.trim() ? `as "${chip.shown}" ` : ''
+              }in ${hitFieldLabel(chip.field, isDemo)}.`}
             >
               <Check className="h-3 w-3 shrink-0" strokeWidth={3} aria-hidden />
-              <span>{chip.shown}</span>
+              <span>{chip.term}</span>
             </span>
           ))}
           {chips.more > 0 && (
@@ -316,22 +345,29 @@ export const CardFront: React.FC<CardFrontProps> = ({
             </>
           )}
         </p>
-        <p className="text-stone-800">
-          {!isDemo && (
-            <>
-              {agency ?? FUNDER_NOT_RECORDED}
-              <span className="text-stone-400"> · </span>
-            </>
-          )}
-          {funding.label}
-          {funding.timeLeft && (
-            <>
-              <span className="text-stone-400"> · </span>
-              {/* Kept whole: "3" at the end of one line and "yr 9 mo left" on the next
-                  read as two figures. */}
-              <span className="whitespace-nowrap text-stone-500">{funding.timeLeft}</span>
-            </>
-          )}
+        {/* Each item carries the dot that comes before it, in its own left padding,
+            and the line is pulled left by that padding and clipped. So an item that
+            wraps takes its dot with it and the dot falls outside the clip: no dot is
+            left at the end of a line ("... Jun 2029 ·" / "1 yr 11 mo left" at 360px)
+            and none starts one. The figure is kept whole: "3" on one line and "yr 9 mo
+            left" on the next read as two figures. */}
+        <p data-funding-line className="overflow-hidden text-stone-800">
+          <span className="-ml-[1.05em] block">
+            {[
+              !isDemo ? { key: 'agency', text: agency ?? FUNDER_NOT_RECORDED, cls: 'whitespace-nowrap' } : null,
+              { key: 'label', text: funding.label, cls: '' },
+              funding.timeLeft ? { key: 'left', text: funding.timeLeft, cls: 'whitespace-nowrap text-stone-500' } : null,
+            ]
+              .filter((item): item is { key: string; text: string; cls: string } => item !== null)
+              .map((item, index) => (
+                <span key={item.key} className={`relative inline-block max-w-full pl-[1.05em] align-top ${item.cls}`}>
+                  {index > 0 && (
+                    <span aria-hidden className="absolute left-0 top-0 w-[1.05em] text-center text-stone-400">·</span>
+                  )}
+                  {item.text}
+                </span>
+              ))}
+          </span>
         </p>
       </div>
 

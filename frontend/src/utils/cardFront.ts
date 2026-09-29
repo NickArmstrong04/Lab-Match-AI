@@ -21,8 +21,10 @@ import { agencyShortLabel, cardSource, fundingWindow, FUNDER_NOT_RECORDED } from
  * `institution`, `fundingWindow`), never to a guess.
  *
  * One rule governs a null value (contract section 3.1): it means "not published" only
- * when `fields_loaded` is true. Otherwise it means "not loaded yet", and nothing here
- * may print "not published" for it.
+ * when `fields_loaded` is true. Otherwise the record has not been re-read from the
+ * agency, and nothing here may print "not published" for it. Such a value is not drawn
+ * at all: its row is left out and Details says once, at the foot of the award record,
+ * that some details have not been read yet (notReadNote).
  */
 
 // ---------------------------------------------------------------------------
@@ -171,9 +173,20 @@ const isObject = (v: unknown): v is Record<string, unknown> =>
  */
 export const fieldsLoaded = (card: CardFrontFields): boolean => card.fields_loaded === true;
 
-/** "Not published" only for a fetched row. See the module comment. */
-export const missingLabel = (card: CardFrontFields): string =>
-  fieldsLoaded(card) ? 'Not published' : 'Not loaded yet';
+/**
+ * What stands in for a null agency field: "Not published" on a fetched row, and null
+ * (leave the row out) on one that has not been re-read.
+ *
+ * The second case used to print "Not loaded yet". On a web page that reads as content
+ * still arriving, and students waited for it; the row was also repeated for every field
+ * the record lacked. See notReadNote for what is said instead, once.
+ */
+export const missingLabel = (card: CardFrontFields): string | null =>
+  fieldsLoaded(card) ? 'Not published' : null;
+
+/** The one line at the foot of the award record on a row that has not been re-read. */
+export const notReadNote = (agency: string | null): string =>
+  `Some details for this award have not been read from ${agency || 'the agency'} yet.`;
 
 /** The agency as the funding line and the tags name it, or null when none is recorded. */
 export const agencyName = (card: Pick<Card, 'agency'> & Partial<Pick<Card, 'funding_source'>>): string | null => {
@@ -410,6 +423,10 @@ export interface FundingView {
   checkedAt: string | null;
 }
 
+// "NIH · End date not on file". States what our row holds and nothing about why: the
+// agency may publish a date we have not read. Same wording as fundingWindow's label.
+export const END_DATE_NOT_ON_FILE = 'End date not on file';
+
 /**
  * The funding line's label and time-left figure.
  *
@@ -420,6 +437,11 @@ export interface FundingView {
 export const readFunding = (card: Card): FundingView => {
   const raw = card.funding;
   const label = isObject(raw) ? text(raw.label) : null;
+  if (isObject(raw) && raw.state === 'no_end_date') {
+    // Worded here, by state, so the line reads the same whichever payload the card came
+    // from. Never a time-left figure: there is no date to count to.
+    return { label: END_DATE_NOT_ON_FILE, timeLeft: null, checked: raw.checked === true, checkedAt: null };
+  }
   if (!isObject(raw) || !label) {
     return {
       label: fundingWindow(card.project_start, card.project_end).label,
@@ -499,8 +521,24 @@ const HIT_FIELDS: Record<string, string> = {
   agency_term: 'an NIH index term (assigned automatically by NIH)',
 };
 
+// A sample card has no award: under the amber "not a federal record" tag, "in the award
+// title" said the opposite. Index terms and statements do not occur on sample cards.
+const HIT_FIELDS_SAMPLE: Record<string, string> = {
+  title: 'the card title',
+  front_sentence: 'the sentence shown on the card',
+  abstract: 'the card description',
+};
+
 /** "the award title", for "found as X in ...". An unknown field is named generically. */
-export const hitFieldLabel = (field: string): string => HIT_FIELDS[field] ?? "the award's record";
+export const hitFieldLabel = (field: string, isSample = false): string =>
+  isSample
+    ? HIT_FIELDS_SAMPLE[field] ?? "the card's text"
+    : HIT_FIELDS[field] ?? "the award's record";
+
+// NIH index terms are assigned by NIH's indexing and matched on NIH's wording
+// ("Statistical Data Interpretation" for the student's "Data Interpretation"), so they
+// are counted apart from terms found by the student's exact words.
+export const INDEX_TERM_FIELD = 'agency_term';
 
 // ---------------------------------------------------------------------------
 // Actions
@@ -528,7 +566,7 @@ export interface OtherAwardView {
 
 export interface DetailsView {
   // False for a card with no `details` key at all. Details then shows only what the
-  // phase 1 and 2 keys support, and no "not loaded yet" rows for fields it never had.
+  // phase 1 and 2 keys support, and no not-yet-read note for fields it never had.
   present: boolean;
   fetchedAt: string | null;
   publicStatement: string | null;
@@ -615,6 +653,8 @@ export const DETAILS_CAVEAT =
   'Award records do not say whether a lab takes undergraduates. Similarity compares the wording of your profile with the text we hold for this award; it is computed by LabMatch and is not a federal figure.';
 
 // Persona cards: no ranking ran and no record exists, so the similarity sentence above
-// would describe a computation that did not happen.
+// would describe a computation that did not happen. That the card and its numbers are a
+// sample is said once, by the amber tag at the head of Details; this line used to say it
+// again, as did eight other labels in the same panel.
 export const DETAILS_CAVEAT_SAMPLE =
-  'Award records do not say whether a lab takes undergraduates. The similarity number on a sample card is a sample.';
+  'Award records do not say whether a lab takes undergraduates.';

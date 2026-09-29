@@ -56,7 +56,12 @@ NIH_KIND_BY_CODE: Dict[str, str] = {
 # Keys are lower-case; the title is matched case-insensitively and the prefix is
 # reported as the title spells it.
 NSF_KIND_BY_PREFIX: Dict[str, str] = {
-    "career": "research_project",
+    # NSF's Faculty Early Career Development Program. It was filed under
+    # research_project, which has no tag, so the front said nothing about a prefix that
+    # Details printed as recognised (walkthrough of 2026-09-29, offset 807). It is NOT the
+    # NIH "career" kind: a K award supports a mentored researcher, a CAREER award funds
+    # an independent faculty member's own project.
+    "career": "early_career_faculty",
     "collaborative research": "research_project",
     "crii": "research_project",
     "eager": "research_project",
@@ -76,16 +81,27 @@ NSF_KIND_BY_PREFIX: Dict[str, str] = {
 # and the same for equipment, small business and the REU site, said one thing twice,
 # and on an NSF card a third and fourth time, because the tag is read from a prefix
 # that is also printed in the title ("Conference: ...", "REU Site: ...").
+#
+# Four more lost theirs after the browser walkthrough of 2026-09-29 (phase 3 fixes, B6):
+# "Career award" over "Supports the named researcher's career development.", and the
+# same for the fellowship, the shared resource and the subproject. Each was accurate,
+# restated its tag and cost the front a line between the sentence and the researcher.
+# Training is the one note left: "Training program" does not say that the money funds
+# places at the institution and not one lab's project. Nothing is lost with the others:
+# NIH's official name for the code still rides in `official_name`, which the info
+# affordance and Details print.
 KIND_TAGS: Dict[str, Tuple[Optional[str], Optional[str]]] = {
     "research_project": (None, None),
     # The tag of this kind is filled from NIH's official name at classify time.
     "named_by_agency": (None, None),
-    "subproject": ("Part of a larger grant", "One component of a multi-project grant."),
+    "subproject": ("Part of a larger grant", None),
     "multi_project": ("Multi-project grant", None),
     "training": ("Training program", "Funds training places at the institution."),
-    "career": ("Career award", "Supports the named researcher's career development."),
-    "fellowship": ("Individual fellowship", "Supports the named trainee's own training."),
-    "resource": ("Shared research resource", "Funds a resource that serves many labs."),
+    "career": ("Career award", None),
+    # NSF only (the "CAREER:" title prefix). No note: the tag says all the prefix says.
+    "early_career_faculty": ("Early-career faculty award", None),
+    "fellowship": ("Individual fellowship", None),
+    "resource": ("Shared research resource", None),
     "small_business": ("Small-business award", None),
     "conference": ("Conference grant", None),
     "equipment": ("Equipment grant", None),
@@ -183,6 +199,13 @@ def classify_award(row: dict, *, fields_loaded: bool) -> dict:
     if agency == "NSF":
         prefixes = nsf_title_prefixes(row.get("grant_title"))
         if not prefixes:
+            # Also the answer for NSF's programme prefixes ("RI: Medium:", "SHF: Small:",
+            # and the "SaTC:" that follows a recognised "CRII:"): they name a directorate
+            # programme and a size class, not a kind of award, and are deliberately
+            # absent from NSF_KIND_BY_PREFIX. `code` stays None for them. "unknown" here
+            # means "nothing recognised", never "the agency stated nothing": a card
+            # that words it as "Not stated in the award title" is wrong about a title
+            # that states a good deal (phase 3 fixes, B3).
             return _kind_object(**empty, state="unknown")
         kinds = [NSF_KIND_BY_PREFIX[" ".join(p.split()).casefold()] for p in prefixes]
         # The addendum says "the first recognised one". Taken literally that hides
@@ -195,6 +218,9 @@ def classify_award(row: dict, *, fields_loaded: bool) -> dict:
         # site" beside "Collaborative Research" showed agency wording that does not
         # support the tag. (Contract 4.4 said "the first recognised prefix"; that is the
         # same prefix whenever a title carries one, and wrong when it carries two.)
+        #
+        # Two non-default kinds in one title ("CAREER: REU Site: ...") are not known to
+        # occur; the first would win, which is the addendum's rule.
         index = next((i for i, k in enumerate(kinds) if k != DEFAULT_KIND), 0)
         kind = kinds[index]
         tag, note = KIND_TAGS[kind]

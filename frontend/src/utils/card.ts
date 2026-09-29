@@ -151,8 +151,9 @@ export const fundingWindow = (
     return {
       text: 'END DATE NOT PUBLISHED',
       // "on file", not "not published": without the phase 3 keys nothing says the
-      // agency was asked, so the line states only what our row holds.
-      label: 'No end date on file',
+      // agency was asked, so the line states only what our row holds. Worded like
+      // END_DATE_NOT_ON_FILE (utils/cardFront.ts); not imported, that module imports this one.
+      label: 'End date not on file',
       tone: 'stone',
       title: 'The record we hold has no end date for this award.',
     };

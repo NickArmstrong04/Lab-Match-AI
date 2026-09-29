@@ -203,115 +203,237 @@ def funding_line(start, end, *, checked_at, today: Optional[datetime.date] = Non
 # Names and places
 # ---------------------------------------------------------------------------
 
-_SMALL_WORDS = frozenset({"of", "and", "the", "for", "at", "in"})
-# Short all-capital words that are words, not acronyms. Anything of four letters or
-# fewer that is NOT here is left exactly as published: "NEW" and "SAN" are safe to
-# re-case, "UCLA", "SUNY" and "MIT" are not, and a list of acronyms could never be
-# complete while a list of ordinary short words nearly is.
+# Lower-cased inside a name, capitalised at either end of it ("OHIO STATE UNIVERSITY,
+# THE" is how RePORTER files some names, and a trailing "the" reads as a truncation).
+_SMALL_WORDS = frozenset({"of", "and", "the", "for", "at", "in", "on"})
+
+# Kept in capitals wherever they stand in an all-capital name. The first twelve are the
+# owner's list (phase 3 fixes, B4). The rest were added after reading every distinct
+# all-capital institution among the active backfilled rows on 2026-09-29 (1,186 names):
+# each is an initialism in every name it occurs in there ("BALTIMORE VA MEDICAL CENTER",
+# 38 names; "LSU HEALTH SCIENCES CENTER"; "CLEVELAND CLINIC LERNER COM-CWRU"; "ECOG-ACRIN
+# MEDICAL RESEARCH FOUNDATION"). The list is not complete and cannot be: a company
+# called "AMG DETECTION" is rendered "Amg Detection" until someone adds it. That is a
+# casing fault in a name that is otherwise the agency's, letter for letter.
+_KEEP_UPPER = frozenset({
+    "NCI", "NIH", "NYU", "UT", "UCLA", "UCSF", "MIT", "USC", "SUNY", "CUNY", "LLC", "INC",
+    "VA", "LSU", "OSU", "CWRU", "USD", "SRI", "DNA", "USA", "IHC", "IRB", "URL", "IRL",
+    "ECOG", "ACRIN", "DBA",
+    # Initialisms that have a vowel and four letters or more, so no rule below can
+    # tell them from words (review of 2026-09-29: "Iiam Corporation", "Odmr
+    # Technologies", "Aalmv INC.", "Bips - Institute for Epidemiology").
+    "IIAM", "ODMR", "AALMV", "BIPS",
+})
+# What ingest's str.title() made of the same initialisms in the STORED university
+# ("Division Of Basic Sciences - Nci"). Only the institutional ones are put back: "Inc"
+# and "Llc" in a stored name are left alone, "Inc" being a spelling companies use.
+_RESTORE_UPPER = frozenset(_KEEP_UPPER - {"INC", "LLC", "DBA", "URL", "IRL", "DNA"})
+
+# Words of one to three letters. A short all-capital token that is NOT here is left as
+# published: at that length a token is as likely an initialism as a word ("AI LINEAR",
+# "GE MEDICAL SYSTEMS", "(GLENDALE AZ)", "PAI LIFE SCIENCES"), a list of initialisms
+# could never be complete, and a list of ordinary short words nearly is. From four
+# letters up the odds reverse and the token is title-cased unless _KEEP_UPPER names it.
 _SHORT_WORDS = frozenset({
-    "new", "san", "los", "las", "west", "east", "st", "fort", "mt", "city", "bay",
-    "lake", "park", "port", "cape", "el", "la", "de", "del", "rice", "duke", "yale",
-    "ohio", "iowa", "utah", "penn", "reed", "bard", "pace", "troy", "elon", "mayo",
-    "cold", "rock", "inc", "univ", "coll", "inst", "hlth", "sch", "med", "ctr", "res",
-    "on", "to", "by", "a", "an", "long", "los", "palo", "alto", "boys", "town", "wake",
-    "case", "king", "rush", "lab", "labs", "eye", "ear", "sea", "sci", "med", "hosp",
-    "main", "blue", "gulf", "high", "open", "oral", "lung", "bone",
-    # Place names. Never complete; a city missing from here stays in capitals, which is
-    # how the agency published it.
-    "york", "ann", "hill", "salt", "kent", "lee", "cook", "glen", "dame", "ames", "reno",
-    "erie", "waco", "hilo", "bend", "holy", "name", "lady", "arts", "art", "law", "tech",
-    "des", "mesa", "lima", "gary", "polk", "dade", "knox", "clay", "pitt", "hope", "zoo",
-    "fox", "farm", "oak", "elm", "red", "bear", "deer", "pine", "lane", "road", "ave",
+    "new", "san", "los", "las", "st", "mt", "ft", "bay", "el", "la", "de", "del", "du",
+    "des", "rio", "van", "von", "to", "by", "a", "an", "is", "up", "me", "eye", "ear",
+    "sea", "ann", "lee", "art", "law", "zoo", "fox", "oak", "elm", "red", "old", "end",
+    "bio", "lab", "max", "sam", "ada", "aga", "set", "pop", "via", "tex", "cal", "aim",
+    "bar", "sky", "sun", "air", "one", "two", "six", "ten",
 })
-# NIH's own shortenings inside organisation names ("SLOAN-KETTERING INST CAN
-# RESEARCH", "RESEARCH INST OF FOX CHASE CAN CTR"). Re-casing around them produced
-# "Sloan-Kettering Inst CAN Research", where CAN (cancer) reads as the word "can" and
-# half the abbreviations are lower-cased and half are not. A name that contains one is
-# left exactly as published: it is recognisably a record's spelling, and any re-casing
-# of it is ours.
+# The agencies' own shortenings inside organisation names ("WEILL MEDICAL COLL OF
+# CORNELL UNIV", "UNIVERSITY OF TENNESSEE HEALTH SCI CTR"). They are title-cased like
+# any word and NEVER expanded: "Ctr" is still the record's spelling, "Center" would be
+# ours. Until phase 3 fixes B4 a name containing one was left entirely in capitals,
+# which put shouted names beside title-cased ones in the same deck and wrapped them to
+# two lines at 390px. They are listed because most have no vowel and would otherwise be
+# taken for initialisms by the rule in _recase_word.
+#
+# "CAN" is RePORTER's "cancer" ("SLOAN-KETTERING INST CAN RESEARCH"). It comes out as
+# "Can", which reads as the verb; expanding it is the alternative and is not allowed.
 _AGENCY_ABBREVIATIONS = frozenset({
-    "CAN", "CTR", "CTRS", "INST", "INSTS", "UNIV", "COLL", "HLTH", "HOSP", "HOSPS", "SCH",
-    "SCHS", "MED", "RES", "RSCH", "SCI", "SCIS", "FDN", "FOUND", "DEPT", "ASSOC", "ASSN",
-    "CORP", "INC", "LLC", "LTD", "CO", "SYS", "SVCS", "SRVS", "DIV", "BR", "NATL", "INTL",
-    "BIOL", "CHILDRENS", "HSC", "LAB", "LABS", "TECH", "ENGR", "ADMIN", "PROF", "GEN",
+    "CAN", "CTR", "CTRS", "INST", "INSTS", "UNIV", "COLL", "COL", "HLTH", "HOSP", "HOSPS",
+    "SCH", "SCHS", "MED", "RES", "RSCH", "RSCS", "SCI", "SCIS", "FDN", "FOUND", "DEPT",
+    "ASSOC", "ASSN", "CORP", "LTD", "CO", "SYS", "SVCS", "SRVS", "DIV", "BR", "NATL",
+    "INTL", "BIOL", "HLTHCARE", "CHLDRN", "TECH", "ENGR", "ADMIN", "PROF", "GEN", "DEV",
+    "DIS", "ADV", "MIL", "PUB", "REG", "SOC", "STA", "EDU", "PROG", "AGRI", "AGRIC",
+    "AMER", "EXPER", "EDUC", "PSYCH", "CALIF", "MGMT", "SVC", "CLIN", "GRP",
 })
-_ROMAN_RE = re.compile(r"^(?:I{1,3}|IV|V|VI{0,3}|IX|X)$")
+# The one spelling that has a witness. NSF publishes "Texas A&M AgriLife Research" in
+# mixed case (12 active rows) and NIH the same institution in capitals (4 rows), so a
+# student saw "AgriLife" and "Agrilife" in one deck. Found by comparing every re-cased
+# token with the mixed-case institution names the agencies publish (2,046 distinct
+# names on active rows, 2026-09-29); this was the only token they spell differently
+# from the rule, corporate suffix aside (see _KEEP_UPPER_NOTE below). An entry belongs
+# here only when an agency's own mixed-case publication shows the spelling.
+_ATTESTED_SPELLING = {"AGRILIFE": "AgriLife"}
+# Names with a capital inside them that the capitals cannot show and no agency
+# publishes in mixed case: AdventHealth, MedStar, HealthPartners, DeBakey, AbilityLab.
+# We know "Medstar" is not the name and have no record that says what is, so the token
+# stays as published, like the one-word "MAINEHEALTH" in display_institution. From
+# the same review. Company names coined this way ("TISSUEVISION, INC.",
+# "TERRAINWORKS, INC.") are far more numerous and are NOT covered: no list could be.
+_INNER_CAPITAL_UNKNOWN = frozenset({
+    "ADVENTHEALTH", "MEDSTAR", "HEALTHPARTNERS", "DEBAKEY", "ABILITYLAB",
+})
+# _KEEP_UPPER_NOTE. "INC" and "LLC" stay in capitals by the owner's list (B4), which
+# gives "Broad Institute, INC.". The agencies' mixed-case names write "Inc" (28 of 28
+# in the same comparison). Changing it is the owner's call, not a casing rule's.
+_ROMAN_RE = re.compile(r"^(?:II|III|IV|VI{1,3}|IX)$")
 # "MCGILL", "O'NEILL": the second capital cannot be recovered from an all-capital
-# string, so these are left as published.
-_UNCERTAIN_PREFIX_RE = re.compile(r"^(?:MC|O'|O’|D'|D’)")
+# string ("Mcgill" is wrong and "McGill" is a guess), so the token is left as published.
+_UNCERTAIN_PREFIX_RE = re.compile(r"^(?:MC|O['’]|D['’]|L['’])")
+_VOWELS = frozenset("AEIOUY")
+_WORD_RE = re.compile(r"[A-Z]+(?:['’][A-Z]*)*")
+# Everything that separates words in a published name. The separators are kept exactly
+# as published, double spaces included.
+_SPLIT_RE = re.compile(r"([\s\-/,;:()\[\]\"]+)")
 
 
-def _recase_word(word: str, *, first: bool) -> str:
-    core = word.strip(".,;:()[]\"")
-    if not core or not any(c.isalpha() for c in core):
-        return word
-    # Apostrophes are part of the word: "CHILDREN'S" is one word, and str.title() would
-    # give "Children'S".
-    if any(c.isdigit() for c in core) or not re.fullmatch(r"[A-Z'’&.]+", core):
-        return word
-    if _ROMAN_RE.match(core) and core not in {"I"}:
-        return word
-    letters = [c for c in core if c.isalpha()]
+def _recase_word(word: str, *, edge: bool, place_name: bool = False) -> Tuple[str, str]:
+    """(rendered, why) for one token of an ALL-CAPITAL name. `why` names the rule that
+    decided, so a check over the corpus can list every token that stayed in capitals.
+
+    Order matters: the small words and the allow-list are certain, the abbreviations
+    are the agency's, and only then come the rules that decline to guess.
+    """
+    core = word.rstrip(".")
+    tail = word[len(core):]
+    if not core or not _WORD_RE.fullmatch(core):
+        # Digits, "&", "+", inner full stops ("L.L.C", "N.J"), mis-encoded letters
+        # ("ESTACI??N"): not a word this rule can read.
+        return word, "kept:not_a_plain_word"
     lower = core.lower()
-    bare = lower.replace(".", "")
-    if "&" in core or ("." in core.strip(".") ):
-        return word
-    if bare in _SMALL_WORDS:
-        return word.replace(core, lower.capitalize() if first else lower)
-    if len(letters) <= 4 and bare not in _SHORT_WORDS and not lower.endswith(("'s", "’s")):
-        return word
+    titled = core[0] + lower[1:]
+    if lower in _SMALL_WORDS:
+        return (titled if edge else lower) + tail, "small_word"
+    if len(core) == 1:
+        return word, "initial"
+    if place_name:
+        # A city is words, not initialisms ("BAR HARBOR" was served as "BAR Harbor"
+        # because BAR was short and on no list). The one thing not recoverable is the
+        # capital after Mc.
+        if _UNCERTAIN_PREFIX_RE.match(core):
+            return word, "kept:uncertain_prefix"
+        return titled + tail, "title"
+    if core in _KEEP_UPPER:
+        return word, "kept:allow_list"
+    if core in _ATTESTED_SPELLING:
+        return _ATTESTED_SPELLING[core] + tail, "attested"
+    if core in _INNER_CAPITAL_UNKNOWN:
+        return word, "kept:inner_capital_unknown"
+    if core in _AGENCY_ABBREVIATIONS:
+        return titled + tail, "abbreviation"
+    if _ROMAN_RE.match(core):
+        return word, "kept:roman_numeral"
     if _UNCERTAIN_PREFIX_RE.match(core):
-        return word
-    return word.replace(core, lower[0].upper() + lower[1:])
+        return word, "kept:uncertain_prefix"
+    letters = [c for c in core if c.isalpha()]
+    if len(letters) <= 3 and not lower.endswith(("'s", "’s")):
+        if lower in _SHORT_WORDS:
+            return titled + tail, "title"
+        return word, "kept:short_unlisted"
+    if not _VOWELS.intersection(letters):
+        # No vowel, not one of the agency's abbreviations: nobody pronounces it, so it
+        # is an initialism we do not know ("NCTN", "GMJ TECHNOLOGIES", "PLLC").
+        return word, "kept:no_vowel"
+    return titled + tail, "title"
+
+
+def _recase_all_capitals(text: str, *, place_name: bool) -> Tuple[str, List[Tuple[str, str, str]]]:
+    """(rendered, [(token, rendered token, why)])."""
+    pieces = _SPLIT_RE.split(text)
+    words = [i for i, piece in enumerate(pieces) if i % 2 == 0 and piece]
+    trace = []
+    for i in words:
+        edge = i in (words[0], words[-1])
+        rendered, why = _recase_word(pieces[i], edge=edge, place_name=place_name)
+        trace.append((pieces[i], rendered, why))
+        pieces[i] = rendered
+    return "".join(pieces), trace
 
 
 def display_institution(value: Optional[str], *, place_name: bool = False) -> Optional[str]:
     """`value` as published, unless it has no lower-case letter at all; then title-cased
-    by the addendum's rule. None for a blank.
+    word by word (phase 3 fixes, B4). None for a blank.
 
     Mixed-case input is returned unchanged: the agency chose that spelling. Only a string
-    shouted in capitals is touched, and then word by word, leaving alone anything that
-    might be an acronym. When in doubt the whole name stays as published, and two cases
-    are always in doubt:
+    shouted in capitals is touched. Letters are never added, dropped or reordered, so
+    the result is the published name in every respect but case.
 
-      - a name that is ONE word. "MAINEHEALTH" is MaineHealth; nothing in the capitals
-        says where the second capital goes, and "Mainehealth" is neither what NIH
-        published nor what the institution is called;
-      - a name that contains one of NIH's abbreviations (_AGENCY_ABBREVIATIONS).
+    One case is left entirely as published: a name that is ONE word. "MAINEHEALTH" is
+    MaineHealth; nothing in the capitals says where the second capital goes, and
+    "Mainehealth" is neither what NIH published nor what the institution is called. The
+    same loss happens silently inside longer names ("... D/B/A SHIRLEY RYAN ABILITYLAB"
+    became "Abilitylab"); there it cannot be detected, only listed once somebody has
+    seen it (_INNER_CAPITAL_UNKNOWN, _ATTESTED_SPELLING).
 
-    place_name=True is for org_city, where neither applies: a one-word city ("BOSTON")
-    has no inner capital to lose.
+    place_name=True is for org_city: every word is title-cased, small words excepted
+    ("King of Prussia"), and a one-word city ("BOSTON") has no inner capital to lose.
     """
     text = _text(value)
     if text is None:
         return None
     if any(c.islower() for c in text):
         return text
-    if not place_name:
-        tokens = [t.strip(".,;:()[]\"") for t in re.split(r"[\s\-/]+", text) if t.strip(".,;:()[]\"")]
-        if len(tokens) < 2 or any(t in _AGENCY_ABBREVIATIONS for t in tokens):
-            return text
-    out = []
-    first = True
-    for token in text.split(" "):
-        if not token:
-            out.append(token)
+    if not place_name and len([p for p in _SPLIT_RE.split(text)[::2] if p]) < 2:
+        return text
+    return _recase_all_capitals(text, place_name=place_name)[0]
+
+
+_STORED_WORD_RE = re.compile(r"[A-Za-z]+(?:['’][A-Za-z]*)*")
+
+
+def display_stored_institution(value: Optional[str]) -> Optional[str]:
+    """The stored `university`, shown on a card the backfill has not reached.
+
+    That column is not the agency's spelling: NIH ingest ran str.title() over
+    RePORTER's capitals, which is where "National Institute Of Diabetes And ...",
+    "Division Of Basic Sciences - Nci" and "Magee-Women'S Res Inst" come from. Three
+    things that title() did are undone and nothing else is touched:
+
+      - the small words are lower-cased again, except at either end of the name;
+      - "'S" at the end of a word is "'s";
+      - an initialism of _RESTORE_UPPER that title() flattened is put back ("Nci"),
+        and so is a spelling of _ATTESTED_SPELLING ("Agrilife").
+
+    A stored value with no lower-case letter goes through display_institution. NSF's
+    stored names are the agency's mixed case and pass through unchanged but for a
+    capitalised small word, which NSF does not publish.
+    """
+    text = _text(value)
+    if text is None:
+        return None
+    if not any(c.islower() for c in text):
+        return display_institution(text)
+    pieces = _SPLIT_RE.split(text)
+    words = [i for i, piece in enumerate(pieces) if i % 2 == 0 and piece]
+    for i in words:
+        word = pieces[i]
+        core = word.rstrip(".")
+        if not _STORED_WORD_RE.fullmatch(core):
             continue
-        # Hyphenated names are re-cased part by part: "WINSTON-SALEM".
-        parts = token.split("-")
-        recased = []
-        for i, part in enumerate(parts):
-            recased.append(_recase_word(part, first=first and i == 0))
-        out.append("-".join(recased))
-        first = False
-    return " ".join(out)
+        tail = word[len(core):]
+        if core[:1].isupper() and core[1:].islower() and core.lower() in _SMALL_WORDS:
+            if i not in (words[0], words[-1]):
+                pieces[i] = core.lower() + tail
+            continue
+        if core[:1].isupper() and core[1:].islower() and core.upper() in _RESTORE_UPPER:
+            pieces[i] = core.upper() + tail
+            continue
+        if core[:1].isupper() and core[1:].islower() and core.upper() in _ATTESTED_SPELLING:
+            pieces[i] = _ATTESTED_SPELLING[core.upper()] + tail
+            continue
+        if core.endswith(("'S", "’S")) and core[:-2] and not core[:-2].isupper():
+            pieces[i] = core[:-1] + "s" + tail
+    return "".join(pieces)
 
 
 def sentence_case_title(value: Optional[str]) -> Optional[str]:
     """A PI's title lower-cased, first letter capitalised, nothing else. None for blank.
 
-    RePORTER sends "ASSISTANT PROFESSOR". This is the only re-casing applied to anything
-    about a person; names are never re-cased.
+    RePORTER sends "ASSISTANT PROFESSOR". A person's NAME is re-cased only by
+    display_person_name, and only on the agency's own evidence.
     """
     text = _text(value)
     if text is None:
@@ -353,12 +475,104 @@ def _co_investigators(value) -> Optional[list]:
         name = _text(item.get("name"))
         if name is None:
             continue
-        out.append({"name": " ".join(name.split()), "title": sentence_case_title(item.get("title"))})
+        out.append({"name": display_person_name(" ".join(name.split())),
+                    "title": sentence_case_title(item.get("title"))})
     return out
 
 
+_NAME_SUFFIXES = frozenset({"JR", "SR", "II", "III", "IV", "MD", "PHD", "DO", "DDS", "DVM"})
+# Not names at all: the agencies' filler for a person with a single name ("FNU Sumit
+# Saurabh" is "first name unknown"). "Fnu" would turn a form code into a first name.
+_NAME_PLACEHOLDERS = frozenset({"FNU", "LNU", "NFN", "NLN", "NMN"})
+# A surname that begins like this may carry a second capital that capitals cannot
+# show: "DEVAUX" is Devaux or DeVaux, "LAPORTE" LaPorte or Laporte, "MACDONALD",
+# "FITZGERALD". Before a vowel the prefix is nearly always just the start of the word
+# (Deangelis is the rare exception and is not caught). Tested on every part but the
+# first: "DEBORAH" and "LARRY" in first position are given names. Van, Le, Di and Du
+# were tried and taken out: over the 20,006 published names of 2026-09-29 they held
+# back only "VANCE" and "LEVY". What remains held back 5 names, among them
+# "LAKOWICZ" and "DEMIRCI", which have no second capital; the rule cannot know that.
+_SURNAME_PREFIX_RE = re.compile(r"^(?:DE|LA|MAC|FITZ)[^AEIOUY]")
+_NAME_PART_RE = re.compile(r"[^\W\d_]+(?:['’][^\W\d_]+)*", re.UNICODE)
+
+
+def display_person_name(value: Optional[str]) -> Optional[str]:
+    """A published name for display (phase 3 fixes, B5). None for a blank.
+
+    The rule. NSF and NIH publish the parts of a name in separate fields and the case of
+    each part is whatever was typed into it: "PRIYA Moorjani", "Sui HUANG", "MARY Kay
+    WASHINGTON". A part that is entirely upper-case and longer than one letter is
+    rendered with an initial capital ONLY IF another part of the same name is mixed
+    case. That other part is the evidence: it shows the capitals are an accident of
+    data entry and not how the person writes the name. Without it nothing is touched,
+    so a name published wholly in capitals ("CAROL J BULT") and every initial stay
+    exactly as published.
+
+    Even with that evidence the WHOLE name is left as published when any capital part
+    cannot be re-cased without guessing:
+
+      - three letters or fewer, or no vowel: "Jennifer CF Leng", "Peter CM Van Zijl" and
+        "Maisie KY Lo" carry two initials run together, and "Cf" would be an invention.
+        The limit was two letters until the review of 2026-09-29 ran this over all
+        20,006 published PI names on active rows and found "AMM Nazmul Ahsan" served
+        as "Amm" (three initials) and "FNU Sumit Saurabh" as "Fnu" (a placeholder,
+        also listed by name in _NAME_PLACEHOLDERS). At three letters a part is a
+        particle ("VON", "DER"), a run of initials or a short name, and the capitals
+        do not say which. "LI", "NG", "KIM" and "LEE" are names and fall under the
+        same rule; they stay in capitals;
+      - Mc, O', D' and the like ("DEEPAK Cyril D'SOUZA"): the capital that follows
+        cannot be recovered from capitals;
+      - a part after the first that begins De, La, Mac or Fitz before
+        a consonant ("Patricia DEVAUX"), for the same reason: see _SURNAME_PREFIX_RE.
+        This leaves "LARSON" and "DENNIS" as surnames in capitals too. That is the
+        record's spelling; "Devaux" for a DeVaux would be ours.
+
+    Half a name re-cased beside a part still shouted would be our arrangement of it;
+    as published is at least the record's. Suffixes (Jr, III, MD) are skipped: they
+    are neither evidence nor an obstacle. Hyphenated parts are taken piece by piece
+    ("SHARON-LISE" is "Sharon-Lise"). Letters are never added, dropped or reordered.
+
+    `name_published` on the card keeps the agency's string untouched; pi_names_conflict
+    compares names without regard to case, so it is unaffected.
+    """
+    text = _text(value)
+    if text is None:
+        return None
+    parts = list(_NAME_PART_RE.finditer(text))
+    shouted = []
+    mixed = False
+    for m in parts:
+        part = m.group(0)
+        if len(part) < 2 or part.upper() in _NAME_SUFFIXES:
+            continue
+        if part.upper() in _NAME_PLACEHOLDERS:
+            return text
+        if part.isupper():
+            shouted.append(m)
+        elif any(c.islower() for c in part):
+            mixed = True
+    if not shouted or not mixed:
+        return text
+    for m in shouted:
+        part = m.group(0)
+        if (len(part) <= 3 or not _VOWELS.intersection(part)
+                or _UNCERTAIN_PREFIX_RE.match(part)
+                or (m is not parts[0] and _SURNAME_PREFIX_RE.match(part))):
+            return text
+    out, last = [], 0
+    for m in shouted:
+        part = m.group(0)
+        out.append(text[last:m.start()])
+        out.append(part[0] + part[1:].lower())
+        last = m.end()
+    out.append(text[last:])
+    return "".join(out)
+
+
 def published_pi(grant: dict, *, is_demo: bool = False) -> dict:
-    """The `pi` object (contract 3.5). Names are never re-cased."""
+    """The `pi` object (contract 3.5). `name` is display_person_name of the published
+    name; `name_published` is the agency's string, untouched. The STORED name is never
+    re-cased: it went through ingest, and its case is evidence of nothing."""
     grant = grant or {}
     stored_raw = grant.get("pi_name")
     stored = _without_dr(stored_raw) if pi_is_resolved(stored_raw) else None
@@ -379,7 +593,8 @@ def published_pi(grant: dict, *, is_demo: bool = False) -> dict:
     out["source_id"] = _text(grant.get("pi_source_id"))
     published = _text(grant.get("pi_name_published"))
     if published:
-        out.update(name=published, name_published=published, name_basis="published",
+        out.update(name=display_person_name(published), name_published=published,
+                   name_basis="published",
                    title=sentence_case_title(grant.get("pi_title")))
     return out
 
@@ -417,10 +632,12 @@ def _place(grant: dict, *, is_demo: bool) -> dict:
     grant = grant or {}
     stored = grant.get("university") or "N/A"
     if is_demo:
+        # Sample text is served exactly as the deck literal spells it.
         return {"institution": stored, "institution_published": None, "city": None, "state": None}
     published = _text(grant.get("org_name_published"))
     return {
-        "institution": display_institution(published) if published else stored,
+        "institution": (display_institution(published) if published
+                        else display_stored_institution(stored) or stored),
         "institution_published": published,
         "city": display_institution(grant.get("org_city"), place_name=True),
         "state": _text(grant.get("org_state")),
@@ -431,49 +648,262 @@ def _place(grant: dict, *, is_demo: bool) -> dict:
 # Profile hits
 # ---------------------------------------------------------------------------
 
-_FRONT_SENTENCE_SEARCHABLE = frozenset({
-    _fs.SOURCE_NIH_PHR, _fs.SOURCE_NIH_ABSTRACT, _fs.SOURCE_NSF_ABSTRACT, _fs.SOURCE_SAMPLE,
-})
+# What joins a single letter to something else, so that the letter is not a word.
+_JOINERS = frozenset("&.-/'’")
+
+
+def _letter_is_part_of_something(text: str, start: int, end: int) -> bool:
+    """True when the one character text[start:end] is not standing as a word.
+
+    Phase 2's whole-word rule asks only that the neighbours are not letters or digits,
+    which is right for "CRISPR" and wrong for a term of ONE character: the review of
+    2026-09-29 found the profile term "R" (the language) shown as a chip on two real
+    cards whose only R was the R of "R&D", and Details bolding it there. For a single
+    letter the punctuation next to it decides what it is:
+
+      - joined through & . - / ' to a letter or digit on either side: "R&D",
+        "R-loop", "I/R injury", "Hi-C", "R.J.", or followed by + or #. A slash
+        before or after an ordinary word is a list ("R/Python") and passes;
+      - followed by a full stop and a lower-case word: "C. elegans";
+      - followed by a full stop between two capitalised words: the middle initial of
+        "Todd R. Manini".
+
+    "analysed in R." at the end of a sentence passes, and so does "Python and R. We".
+    "Python, R. We" does not (it has the shape of an initial); a true hit lost there
+    is a chip not shown, which is the direction this module errs in.
+
+    Terms of two characters and more are NOT put through this. "AI/ML", "AI-driven"
+    and "5-HT" are the term itself, and refusing them would hide most real hits of the
+    commonest short terms.
+    """
+    def alnum(i: int) -> bool:
+        return 0 <= i < len(text) and text[i].isalnum()
+
+    def joined(joiner: int, other: int, step: int) -> bool:
+        if not (0 <= joiner < len(text) and text[joiner] in _JOINERS and alnum(other)):
+            return False
+        if text[joiner] != "/":
+            return True
+        # A slash also lists alternatives: "software (R/Python) packages" is the
+        # language, "I/R injury" and "C/EBP" are not. The other side decides: an
+        # ordinary word of four letters or more is an alternative.
+        i = other
+        while alnum(i):
+            i += step
+        word = text[min(other, i + 1):max(other, i - 1) + 1]
+        return not (len(word) >= 4 and word.isalpha() and not word.isupper())
+
+    if end < len(text) and text[end] in "+#":
+        # "C++" and "C#" are other languages than "C", whatever follows them.
+        return True
+    if joined(end, end + 1, 1) or joined(start - 1, start - 2, -1):
+        return True
+    if end < len(text) and text[end] == ".":
+        after = text[end + 1:end + 40].lstrip()
+        if after[:1].islower():
+            return True
+        before = text[max(0, start - 40):start].split()
+        spaced = start > 0 and text[start - 1].isspace()
+        if (after[:1].isupper() and spaced and before
+                and before[-1][:1].isupper() and not before[-1].endswith((".", ":", ";"))):
+            return True
+    return False
+
+
+def term_spans(term: str, text: Optional[str]) -> List[Tuple[int, int]]:
+    """[(start, end)] of every place `term` stands in `text` as a word: phase 2's
+    whole-word rule (fit_evidence.compile_term_pattern), less the single letters that
+    are part of something else. The one matcher for the chips and for Details."""
+    if not isinstance(text, str) or not text:
+        return []
+    pattern = compile_term_pattern(term)
+    if pattern is None:
+        return []
+    spans = [(m.start(), m.end()) for m in pattern.finditer(text) if m.end() > m.start()]
+    if len(" ".join(term.split())) == 1:
+        spans = [(s, e) for s, e in spans if not _letter_is_part_of_something(text, s, e)]
+    return spans
 
 
 def _first_match(term: str, text: Optional[str]) -> Optional[str]:
-    """The matched characters exactly as they stand in `text`, by phase 2's whole-word
-    rule (fit_evidence.compile_term_pattern), or None."""
-    if not isinstance(text, str) or not text:
-        return None
-    pattern = compile_term_pattern(term)
-    if pattern is None:
-        return None
-    m = pattern.search(text)
-    return m.group(0) if m and m.end() > m.start() else None
+    """The matched characters exactly as they stand in `text`, or None."""
+    spans = term_spans(term, text)
+    return text[spans[0][0]:spans[0][1]] if spans else None
 
 
-def front_profile_hits(terms, title: str, sentence: Optional[dict]) -> Tuple[Optional[list], Optional[int]]:
+def evidence_without_joined_letters(keys: dict) -> dict:
+    """fit_evidence's card keys with the same single-letter rule applied to its rows.
+
+    build_fit_evidence finds its sentences with compile_term_pattern directly, so
+    without this the front would refuse the R of "R&D" and Details would still print
+    that sentence under the heading R. Each offset is tested inside the sentence the
+    row carries; a row left with no offset is dropped and `evidence_matched` is
+    recounted from the rows, so the count and the list cannot disagree.
+
+    Known cost, stated rather than hidden: the row holds the FIRST sentence that
+    matched. When that one is "R&D" and a later sentence uses R as the language, the
+    row is dropped and the later sentence is not found. Finding it means applying the
+    rule inside fit_evidence.locate_term, which is the better home for it.
+    """
+    rows = keys.get("evidence") if isinstance(keys, dict) else None
+    if not isinstance(rows, list):
+        return keys
+    kept = []
+    for row in rows:
+        term, sentence = row.get("term"), row.get("sentence")
+        offsets = row.get("offsets")
+        if (not isinstance(term, str) or len(" ".join(term.split())) != 1
+                or not isinstance(sentence, str) or not isinstance(offsets, list)):
+            kept.append(row)
+            continue
+        # Offsets are UTF-16 code units (the consumer is JavaScript).
+        at, units = {}, 0
+        for i, ch in enumerate(sentence):
+            at[units] = i
+            units += 2 if ord(ch) > 0xFFFF else 1
+        at[units] = len(sentence)
+        good = [o for o in offsets
+                if isinstance(o, (list, tuple)) and len(o) == 2
+                and o[0] in at and o[1] in at
+                and not _letter_is_part_of_something(sentence, at[o[0]], at[o[1]])]
+        if good:
+            kept.append({**row, "offsets": good})
+    out = dict(keys)
+    out["evidence"] = kept
+    if isinstance(keys.get("evidence_matched"), int):
+        out["evidence_matched"] = len(kept)
+    return out
+
+
+def _without_label(text) -> Optional[str]:
+    """`text` from where the agency's own writing starts. A leading heading ("PUBLIC
+    HEALTH RELEVANCE:", "PROJECT SUMMARY") is a form label, and a student whose term is
+    "public health" does not have it matched by the name of the box the text was typed
+    into. Same strip_label that Details applies before showing the statement."""
+    if not isinstance(text, str) or not text.strip():
+        return None
+    return text[_fs.strip_label(text):]
+
+
+def agency_text_fields(grant: dict) -> List[Tuple[str, Optional[str]]]:
+    """[(field, text)] of what the AGENCY wrote about an award, in the order a hit is
+    attributed: title, plain-language statement, abstract.
+
+    The abstract is in the list only when abstract_is_generated is exactly False. True
+    is Gemini's text, and None is "nobody recorded which" (see evidence_card_keys),
+    which is not a licence to quote it as the agency's. The title and the statement
+    are never LLM text on an NIH or NSF row: no write path puts generated text in
+    either column.
+
+    NOT in the list, and never to be added: the NIH index terms (assigned by NIH's
+    indexing software, not written by anyone), plain_summary (the AI one-liner) and the
+    front sentence as such, which is only ever a sentence of one of the fields above.
+    """
+    grant = grant or {}
+    fields = [("title", grant.get("grant_title") if isinstance(grant.get("grant_title"), str) else None),
+              ("public_statement", _without_label(grant.get("public_statement")))]
+    if grant.get("abstract_is_generated") is False:
+        fields.append(("abstract", _without_label(grant.get("grant_abstract"))))
+    return fields
+
+
+# Origins that are the student's own words or own choice, as against a term the
+# analyzer proposed (profile_terms.py). Spelled out here because this module imports
+# nothing that reads the database.
+_OWN_ORIGINS = frozenset({"narrative", "student_added", "cv", ORIGIN_SAMPLE})
+# What may stand between two words of one name: a comma, slash, bracket or hyphen,
+# and one small word ("Department of Biology"). Never a full stop or a colon.
+_NAME_GAP = r"[\s,/&()\-]*(?:(?:of|and|for|in|the)\s+)?"
+# Three characters at least: the R of "software (R/Python) packages" is a capital
+# beside Python and names nothing.
+_NAME_WORD = r"([^\W\d_][\w'’]{2,})"
+_NAME_BEFORE_RE = re.compile(_NAME_WORD + _NAME_GAP + r"$", re.UNICODE)
+_NAME_AFTER_RE = re.compile(r"^" + _NAME_GAP + _NAME_WORD, re.UNICODE)
+
+
+def _in_name_run(text: str, start: int, end: int) -> bool:
+    """True when text[start:end] is a capitalised word standing next to another
+    capitalised word: part of the NAME of something ("Ecology and Evolutionary
+    Biology", "Computational Biology", "NLP/Bioinformatics (Mentor: ...") and not a
+    statement about the work. Only the comma, slash, bracket or small word between two
+    names is looked across, never a full stop.
+
+    A term that is itself a proper noun is capitalised in prose as well, so "Python,
+    MATLAB and Julia", met once and late, is taken for a name and gets no chip. Over
+    the 168 real cards of 2026-09-29 the rule withheld 6 hits, all of them department,
+    programme or course names. The hit is still counted and still listed in Details."""
+    shown = text[start:end]
+    if not shown[:1].isupper() or shown.isupper():
+        # Lower-case is prose. All capitals is an acronym, which is capitalised
+        # wherever it stands and says nothing about its neighbours.
+        return False
+    m = _NAME_BEFORE_RE.search(text[max(0, start - 60):start])
+    if m and m.group(1)[:1].isupper():
+        return True
+    m = _NAME_AFTER_RE.match(text[end:end + 60])
+    return bool(m and m.group(1)[:1].isupper())
+
+
+def front_profile_hits(terms, grant: dict) -> Tuple[Optional[list], Optional[int]]:
     """(rows, total) for the chips on the front. (None, None) when the student's terms
     were not loaded, so the card shows nothing instead of "none of your terms appear".
 
-    Searched: the title, then the sentence shown on the front, and that only when it is
-    the agency's (or a persona card's sample text). NEVER the AI one-liner: a chip under
-    it would say "your term appears in this award" on the strength of a word a model
-    chose. NEVER the NIH index terms or the rest of the abstract: the chip has to be
-    true of what the student can see on the front. Those matches live in Details.
+    A chip answers "why was this shown to me". Until phase 3 fixes B1 the search was
+    limited to the title and the sentence printed on the front, on the reasoning that a
+    chip should be true of what the student can see there. Most cards have no sentence,
+    and the walkthrough of 2026-09-29 found chips on 0 of 14 cards while Details on the
+    same cards listed one to three terms. The owner's rule now: the student's term,
+    found by the phase 2 whole-word rule anywhere in the agency's text for the award
+    (agency_text_fields). Each row names the field, so the card can say where.
 
-    Display only. Nothing reads these back into score or order.
+    Title hits first, then statement, then abstract; within a field, the student's own
+    order of terms. One row per term, attributed to the first field that contains it.
+    `total` counts every term found, not the rows returned.
+
+    Abstract hits are not all worth a chip. The review of the same day rebuilt 168
+    real cards for one student and found "Biology" on 57 of them, on several as the
+    only chip, taken from sentences like "engaging high school biology teachers" or
+    from a list of participating departments. An abstract is long enough to mention
+    anything once. So, inside the abstract only (a title and a two-sentence statement
+    have no boilerplate to speak of):
+
+      - a term whose ONE occurrence is part of a capitalised name (_in_name_run) gets
+        no chip. It stays in `total` and in Details, where its sentence is printed and
+        the student can see what kind of mention it is;
+      - the rest are ordered: terms that occur more than once or within the first
+        third of the abstract, where the work is described; then single late
+        mentions of a term that is the student's own; then single late mentions of a
+        term the analyzer suggested.
+
+    This orders and withholds. It never adds a chip and never changes what a chip
+    says. Display only: nothing reads these back into score or order.
     """
     if terms is None:
         return None, None
-    searchable = None
-    if isinstance(sentence, dict) and sentence.get("source") in _FRONT_SENTENCE_SEARCHABLE:
-        searchable = sentence.get("text")
-    rows = []
+    fields = agency_text_fields(grant)
+    order = {name: i for i, (name, _) in enumerate(fields)}
+    rows, ranks, found = [], {}, 0
     for item in normalise_terms(terms):
-        for field, text in (("title", title), ("front_sentence", searchable)):
-            shown = _first_match(item["term"], text)
-            if shown:
-                rows.append({"term": item["term"], "shown": shown, "field": field,
-                             "origin": item["origin"]})
-                break
-    return rows[:FRONT_HITS_SHOWN], len(rows)
+        for field, text in fields:
+            spans = term_spans(item["term"], text)
+            if not spans:
+                continue
+            found += 1
+            start, end = spans[0]
+            tier = 0
+            if field == "abstract":
+                central = len(spans) > 1 or start * 3 < len(text)
+                if not central and _in_name_run(text, start, end):
+                    break
+                if not central:
+                    tier = 1 if item["origin"] in _OWN_ORIGINS else 2
+            ranks[len(rows)] = (order[field], tier)
+            rows.append({"term": item["term"], "shown": text[start:end], "field": field,
+                         "origin": item["origin"]})
+            break
+    # sorted() is stable, so the student's order survives inside each rank.
+    rows = [rows[i] for i in sorted(range(len(rows)), key=lambda i: ranks[i])]
+    return rows[:FRONT_HITS_SHOWN], found
 
 
 def _term_words(value: str) -> List[str]:
@@ -513,9 +943,9 @@ def details_profile_hits(terms, grant: dict) -> Optional[list]:
     grant = grant or {}
     agency_terms = grant.get("agency_terms")
     agency_terms = agency_terms if isinstance(agency_terms, list) else []
-    fields = [("title", grant.get("grant_title")), ("public_statement", grant.get("public_statement"))]
-    if grant.get("abstract_is_generated") is False:
-        fields.append(("abstract", grant.get("grant_abstract")))
+    # The same three fields, read the same way, as the chips on the front: a term
+    # shown there must be findable here.
+    fields = agency_text_fields(grant)
     rows = []
     for item in normalise_terms(terms):
         shown = match_agency_term(item["term"], agency_terms)
@@ -538,6 +968,17 @@ def details_profile_hits(terms, grant: dict) -> Optional[list]:
 _SUPPORT_YEAR_RE = re.compile(r"-(\d{2})[A-Z0-9]*$")
 
 
+def _demo_text_row(grant: dict) -> dict:
+    """A persona card's own title and sample text, shaped like an award row so the chip
+    and Details rules run over it unchanged. abstract_is_generated is False because
+    nothing generated it, not because an agency published it: the card's basis is
+    `sample` and its one tag says so."""
+    grant = grant or {}
+    abstract = grant.get("grant_abstract") if isinstance(grant.get("grant_abstract"), str) else ""
+    return {"grant_title": grant.get("grant_title"), "grant_abstract": abstract,
+            "abstract_is_generated": False}
+
+
 def _details(grant: dict, *, student_terms, other_awards, is_demo: bool, pi: dict) -> dict:
     grant = grant or {}
     abstract = grant.get("grant_abstract") if isinstance(grant.get("grant_abstract"), str) else ""
@@ -548,8 +989,7 @@ def _details(grant: dict, *, student_terms, other_awards, is_demo: bool, pi: dic
         "funder_program": None, "dept_category": None, "latest_appl_id": None,
     }
     if is_demo:
-        demo_row = {"grant_title": grant.get("grant_title"), "grant_abstract": abstract,
-                    "abstract_is_generated": False}
+        demo_row = _demo_text_row(grant)
         return {
             "fetched_at": None,
             "public_statement": {"text": None, "label_stripped": False},
@@ -693,7 +1133,8 @@ def front_card_keys(grant: dict, *, student_terms: Optional[list],
 
     hits, hits_total = _guard(
         "profile_hits_front",
-        lambda: front_profile_hits(student_terms, grant.get("grant_title"), sentence),
+        lambda: front_profile_hits(student_terms,
+                                   _demo_text_row(grant) if is_demo else grant),
         (None, None),
     )
 
@@ -721,10 +1162,17 @@ def front_card_keys(grant: dict, *, student_terms: Optional[list],
     #     seen to have closed;
     #   - the name on the card and the name the lookup link searches must be the same
     #     person (pi_names_conflict).
+    #
+    # A third, after the browser walkthrough of 2026-09-29 (phase 3 fixes, B2): the
+    # card must hold an end date. The product's promise is "currently funded", and a
+    # row with no end date on file is one we cannot say that about. They are mostly
+    # NIH intramural records, which the backfill cannot re-read (fields_fetched_at
+    # stays NULL) and which RePORTER publishes without project dates. The card stays
+    # in the deck and says "No end date on file"; it just does not lead with outreach.
     outreach_ok = True if is_demo else bool(
         pi.get("name") is not None
         and kind.get("kind") not in NO_OUTREACH_KINDS
-        and funding.get("state") != "ended"
+        and funding.get("state") not in ("ended", "no_end_date")
         and not pi_names_conflict(grant.get("pi_name"), pi.get("name_published"))
     )
 

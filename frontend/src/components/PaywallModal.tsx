@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
+import { createPortal } from 'react-dom';
 import { Check, X, Shield, CreditCard, HelpCircle } from 'lucide-react';
 import GlassCard from './GlassCard';
 import { trackEvent } from '../utils/analytics';
@@ -46,7 +47,62 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({ isOpen, onClose }) =
     });
   }, [isOpen]);
 
-  if (!isOpen) return null;
+  // What role="dialog" aria-modal="true" below promises. The overlay was portalled and
+  // declared modal while focus stayed on the Save or Skip button behind it: Escape did
+  // nothing, and since the portal is the last child of <body>, Tab walked through
+  // Details, Draft outreach, the sidebar and the footer under the backdrop before it
+  // reached the dialog (Enter on Draft outreach opened the composer beneath the
+  // paywall). Same pattern as ProfileBasisPanel: focus the close button on open, Escape
+  // in the capture phase so the Dashboard's own Escape handler (undo, leave inspect)
+  // does not also run. Added here: Tab is kept inside the dialog, the page behind does
+  // not scroll, and focus goes back to where it was. No copy or limit logic is touched.
+  const dialogRef = useRef<HTMLDivElement | null>(null);
+  const closeButtonRef = useRef<HTMLButtonElement | null>(null);
+  // The latest close handler, so the listener below is bound once per opening and
+  // still reports the variant that was assigned after it was bound.
+  const closeRef = useRef<() => void>(() => {});
+  useEffect(() => {
+    if (!isOpen) return;
+    const previous = document.activeElement instanceof HTMLElement ? document.activeElement : null;
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    closeButtonRef.current?.focus();
+
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') {
+        e.stopImmediatePropagation();
+        closeRef.current();
+        return;
+      }
+      if (e.key !== 'Tab') return;
+      const root = dialogRef.current;
+      if (!root) return;
+      const stops = Array.from(
+        root.querySelectorAll<HTMLElement>('button:not([disabled]), a[href], input, textarea, select'),
+      );
+      if (stops.length === 0) return;
+      const first = stops[0];
+      const last = stops[stops.length - 1];
+      const active = document.activeElement;
+      if (!root.contains(active)) {
+        e.preventDefault();
+        first.focus();
+      } else if (e.shiftKey && active === first) {
+        e.preventDefault();
+        last.focus();
+      } else if (!e.shiftKey && active === last) {
+        e.preventDefault();
+        first.focus();
+      }
+    };
+    window.addEventListener('keydown', onKey, true);
+    return () => {
+      window.removeEventListener('keydown', onKey, true);
+      document.body.style.overflow = previousOverflow;
+      // Only if it is still on the page: the card behind may have changed.
+      if (previous && document.contains(previous)) previous.focus();
+    };
+  }, [isOpen]);
 
   const priceText = variant === 'subscription' ? '$4.99/month' : '$4.99 one-time';
 
@@ -71,15 +127,41 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({ isOpen, onClose }) =
     });
     onClose();
   };
+  // In an effect: a ref is not written during render.
+  useEffect(() => {
+    closeRef.current = handleClose;
+  });
 
-  return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-stone-950/80 backdrop-blur-md animate-fade-in">
+  // After the last hook: hooks run in the same order whether or not it is open.
+  if (!isOpen) return null;
+
+  // Portalled to <body>, like the narrative editor and the profile panel. The
+  // Dashboard's root keeps a transform from animate-fade-in, which makes it the
+  // containing block for `fixed` children and a stacking context of its own: drawn
+  // inside it, this overlay covered the dashboard instead of the viewport (at 1280 the
+  // backdrop stopped short of the header and the footer) and its z-index could not rise
+  // above the app header's z-40 (at 390 the header was painted over the modal's title).
+  // z-[60]: above the header and above the toast slot, which is z-50 on <body> too.
+  //
+  // The overlay scrolls and the card is centred inside a min-h-full wrapper. Centred
+  // directly in a fixed box, a card taller than the screen (it is about 900px at 360
+  // wide) had its top and its close button cut off with no way to reach them.
+  return createPortal(
+    <div
+      ref={dialogRef}
+      role="dialog"
+      aria-modal="true"
+      aria-label="Daily swipe limit"
+      className="fixed inset-0 z-[60] overflow-y-auto bg-stone-950/80 backdrop-blur-md animate-fade-in"
+    >
+      <div className="flex min-h-full items-center justify-center p-4">
       <GlassCard 
         className="relative w-full max-w-lg overflow-hidden flex flex-col p-8 bg-white border border-stone-200 text-stone-900 shadow-2xl rounded-3xl"
         glowColor="none"
       >
         {/* Close Button */}
         <button
+          ref={closeButtonRef}
           onClick={handleClose}
           className="absolute top-4 right-4 p-2 rounded-full text-stone-400 hover:text-stone-700 hover:bg-stone-100 transition-colors cursor-pointer"
           aria-label="Close"
@@ -248,7 +330,9 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({ isOpen, onClose }) =
           </div>
         )}
       </GlassCard>
-    </div>
+      </div>
+    </div>,
+    document.body
   );
 };
 

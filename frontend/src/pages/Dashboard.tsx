@@ -23,7 +23,7 @@ import AiPiBadge from '../components/AiPiBadge';
 import CardFront from '../components/CardFront';
 import CardDetails from '../components/CardDetails';
 import ProfileBasisPanel from '../components/ProfileBasisPanel';
-import { readOutreachOk, type CardFrontFields } from '../utils/cardFront';
+import { SAMPLE_CARD_TAG, readOutreachOk, type CardFrontFields } from '../utils/cardFront';
 import { NO_TERMS_NOTE, type EvidenceFields } from '../utils/evidence';
 import { fetchProfileTerms, termsSignature, type ProfileTerms } from '../utils/profileTerms';
 
@@ -85,8 +85,8 @@ export interface GrantMatch extends EvidenceFields, CardFrontFields {
   // When we FIRST read the federal record (the row's created_at). Not the date of the
   // amount, which a later ingest run can revise in place; see awardAmountDisplay.
   record_read_at?: string | null;
-  // Keyword tags from our own scan of the award text. Never rendered on the card; read
-  // only to choose search keywords for the sync button.
+  // Keyword tags from our own scan of the award text. Never rendered and no longer read:
+  // their one reader was the sync button, which is gone (see the Saved Labs header).
   methodologies?: string[];
   // True on every card from the hardcoded persona decks.
   is_demo?: boolean;
@@ -173,6 +173,9 @@ interface DashboardProps {
   studentLocation: string;
   researchInterests: string;
   matches: GrantMatch[];
+  // Hands the deck in hand back to App, which holds it while this component is
+  // unmounted for the composer (see the effect under deckMatchesRef).
+  onDeckChange: (deck: GrantMatch[]) => void;
   onInitiateOutreach: (match: GrantMatch) => void;
   savedMatches: GrantMatch[];
   setSavedMatches: React.Dispatch<React.SetStateAction<GrantMatch[]>>;
@@ -259,11 +262,19 @@ const settleWrite = async (request: Promise<unknown>, label: string): Promise<Wr
   }
 };
 
+// How long a failure notice stays whatever the student does, and the keys that are not
+// an action (see the writeError effect).
+const WRITE_NOTICE_MIN_MS = 2000;
+const WRITE_NOTICE_PASSIVE_KEYS: ReadonlySet<string> = new Set([
+  'Shift', 'Control', 'Alt', 'Meta', 'CapsLock', 'Tab',
+]);
+
 export const Dashboard: React.FC<DashboardProps> = ({
   studentId,
   studentLocation,
   researchInterests,
   matches,
+  onDeckChange,
   onInitiateOutreach,
   savedMatches,
   setSavedMatches,
@@ -302,6 +313,47 @@ export const Dashboard: React.FC<DashboardProps> = ({
   // next write starts or until one succeeds. Never retried automatically: the student
   // decides whether to try again.
 
+  // A failure notice is about the action that failed. It used to stay up until it was
+  // dismissed or another write began, so it sat over the card while the student opened
+  // Details, typed in the filter or picked a saved lab, reading as if it were about
+  // those. The next action anywhere outside the notice takes it down. The notice's
+  // own Dismiss is left to handle itself.
+  //
+  // "Action" is narrower than "event", because the notice is the only sign that a save
+  // or skip was rolled back. It used to go on any pointerdown or keydown: a student who
+  // pressed Save and went on typing in the filter lost it to the next keystroke, about
+  // 100 ms after it appeared, and on a phone the touch that starts a scroll down to the
+  // notice is a pointerdown. So: nothing clears it for WRITE_NOTICE_MIN_MS; a click
+  // clears it, which a scroll gesture is not; and a key clears it only when it is not
+  // typing in a field, a modifier or Tab.
+  useEffect(() => {
+    if (!writeError) return;
+    const shownAt = Date.now();
+    const tooSoon = () => Date.now() - shownAt < WRITE_NOTICE_MIN_MS;
+    const inNotice = (e: Event) => {
+      const el = e.target as HTMLElement | null;
+      return !!el && typeof el.closest === 'function' && !!el.closest('[data-write-notice]');
+    };
+    const onClick = (e: MouseEvent) => {
+      if (tooSoon() || inNotice(e)) return;
+      setWriteError('');
+    };
+    const onKey = (e: KeyboardEvent) => {
+      if (tooSoon() || inNotice(e)) return;
+      if (WRITE_NOTICE_PASSIVE_KEYS.has(e.key)) return;
+      const el = e.target as HTMLElement | null;
+      const tag = el?.tagName;
+      if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT' || el?.isContentEditable) return;
+      setWriteError('');
+    };
+    window.addEventListener('click', onClick, true);
+    window.addEventListener('keydown', onKey, true);
+    return () => {
+      window.removeEventListener('click', onClick, true);
+      window.removeEventListener('keydown', onKey, true);
+    };
+  }, [writeError, setWriteError]);
+
   // The persona decks are hardcoded and the personas have no students row, so nothing
   // they do is stored. Exact UUID, as everywhere else (utils/demoPersonas.ts).
   const isDemoDeck = isDemoStudent(studentId);
@@ -310,12 +362,24 @@ export const Dashboard: React.FC<DashboardProps> = ({
   const [inspectedMatch, setInspectedMatch] = useState<GrantMatch | null>(null);
 
   // Daily swipe tracking & Paywall state. Follows adjustSwipeCount (module level).
-  const [swipeCount, setSwipeCount] = useState<number>(readSwipeCount);
+  //
+  // Not for the personas (exact UUIDs, isDemoStudent). The count is one localStorage key
+  // per day and per browser, while a persona's saves and skips live in memory only: a
+  // reload gave the recording a fresh two-card deck with the day's evaluations already
+  // spent, and the first swipe of the second take opened the paywall. A persona session
+  // never reads the key, never writes it and is never shown the limit.
+  const [swipeCount, setSwipeCount] = useState<number>(() => (isDemoStudent(studentId) ? 0 : readSwipeCount()));
+  const chargeEvaluation = (delta: number) => {
+    if (!isDemoStudent(studentId)) adjustSwipeCount(delta);
+  };
   useEffect(() => {
+    // A refund for a real student's swipe can still be announced after a persona has
+    // been entered in the same tab; it is not the persona's count.
+    if (isDemoStudent(studentId)) return;
     const onCount = (e: Event) => setSwipeCount((e as CustomEvent<number>).detail);
     window.addEventListener(SWIPE_COUNT_EVENT, onCount);
     return () => window.removeEventListener(SWIPE_COUNT_EVENT, onCount);
-  }, []);
+  }, [studentId]);
 
   const [hasFeedbackToday, setHasFeedbackToday] = useState<boolean>(() => {
     const d = new Date();
@@ -365,10 +429,6 @@ export const Dashboard: React.FC<DashboardProps> = ({
         transform: 'translate3d(0, 0, 0) rotate(0deg)',
         transition: 'transform 0.45s cubic-bezier(0.175, 0.885, 0.32, 1.275)',
       };
-
-  // Syncing states for live ingestion
-  const [isSyncing, setIsSyncing] = useState(false);
-  const [syncStatus, setSyncStatus] = useState<'idle' | 'success' | 'error'>('idle');
 
   // Set when the backend reports the profile is missing (404), so we show a recoverable
   // error instead of an empty deck that reads as "you've seen everything".
@@ -421,6 +481,15 @@ export const Dashboard: React.FC<DashboardProps> = ({
   const deckMatchesRef = useRef(deckMatches);
   deckMatchesRef.current = deckMatches;
 
+  // App keeps whatever deck is in hand. This component is unmounted for the composer
+  // and remounts on App's copy; when that copy was the deck Onboarding passed in (for a
+  // persona, its hardcoded cards with no phase 3 keys) the card a student had just read
+  // came back without its sentence and chip. Every change is handed up, the empty deck
+  // included: after a narrative save the old ranking must not be what a remount shows.
+  useEffect(() => {
+    onDeckChange(deckMatches);
+  }, [deckMatches, onDeckChange]);
+
   const [showNarrativeEditor, setShowNarrativeEditor] = useState(false);
 
   // "What your matches are based on". Mounted only while open, like the narrative editor.
@@ -446,8 +515,8 @@ export const Dashboard: React.FC<DashboardProps> = ({
   // length of the request, under a toggle that no longer described it.
   const deckFiltersRef = useRef({ localOnly, locationSearch: deckLocationSearch });
 
-  // The column the card sits in. At lg it has a fixed height and scrolls when Details
-  // is open; below lg it is as tall as its content and the page scrolls.
+  // The column the card sits in. At lg it has a fixed height while Details is closed;
+  // with Details open, and below lg always, it is as tall as its content.
   const cardScrollRef = useRef<HTMLDivElement | null>(null);
 
 
@@ -834,6 +903,9 @@ export const Dashboard: React.FC<DashboardProps> = ({
   // a disclosure left open from the last card would put that card's length of text
   // between this one's title and its buttons, which is the layout this replaced.
   const [detailsOpen, setDetailsOpen] = useState(false);
+  // Details is only drawn on a card, so the panel states (loading, errors, end of deck)
+  // keep the fixed shell they are centred in.
+  const detailsOpenOnCard = detailsOpen && !!currentMatch;
   useEffect(() => {
     setDetailsOpen(false);
     // A new card starts at its title, not where the last one was left.
@@ -879,7 +951,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
     if (writeInFlight.current) return;
 
     const limit = hasFeedbackToday ? 20 : 2;
-    if (swipeCount >= limit) {
+    if (!isDemoDeck && swipeCount >= limit) {
       setShowPaywall(true);
       return;
     }
@@ -950,7 +1022,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
         setSkippedMatches((prev) => (prev.includes(card.id) ? prev : [...prev, card.id]));
       }
       setSwipeDirection(null);
-      adjustSwipeCount(1);
+      chargeEvaluation(1);
 
       if (currentIndex >= activeDeck.length - 1) {
         setCurrentIndex(0);
@@ -1001,7 +1073,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
         } else {
           setSkippedMatches((prev) => prev.filter((id) => id !== card.id));
         }
-        adjustSwipeCount(-1);
+        chargeEvaluation(-1);
         if (outcome === 'unknown') {
           // The row may exist, in which case the ranking has already dropped this
           // award. Counting it errs toward re-reading a row on the next page (dropped
@@ -1037,7 +1109,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
     } else {
       setSkippedMatches((prev) => prev.filter((id) => id !== swipe.card.id));
     }
-    adjustSwipeCount(-1);
+    chargeEvaluation(-1);
 
     const recordUndoEvent = () =>
       trackEvent('swipe_undo', 'dashboard', 'action', { grant_id: swipe.card.id, direction: swipe.direction });
@@ -1082,7 +1154,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
       } else {
         setSkippedMatches((prev) => (prev.includes(swipe.card.id) ? prev : [...prev, swipe.card.id]));
       }
-      adjustSwipeCount(1);
+      chargeEvaluation(1);
       const state = swipe.direction === 'right' ? 'saved' : 'skipped';
       setWriteError(
         outcome === 'unknown'
@@ -1163,67 +1235,6 @@ export const Dashboard: React.FC<DashboardProps> = ({
 
   const handleReturnToDeck = () => {
     setInspectedMatch(null);
-  };
-
-  // Search keywords for the sync button: the keyword tags on the awards this student
-  // saved, then on the card in front of them.
-  //
-  // This read matching_skills, which the card no longer fills, so every click fell
-  // through to researchInterests.split(/[,;]/). That prop is the free-text narrative:
-  // fragments such as "I am a sophomore studying neuroscience at UCLA" were posted as
-  // keywords and sent verbatim to the agency searches, and the button still turned
-  // success-teal. The profile's own skill list is not held by the frontend, so the tags
-  // of awards the student chose are the nearest real keyword source here.
-  const syncKeywords = Array.from(new Set(
-    savedMatches.flatMap((m) => m.methodologies || [])
-      .concat(currentMatch?.methodologies || [])
-      .map((k) => (typeof k === 'string' ? k.trim() : ''))
-      .filter((k) => k.length > 2)
-  )).slice(0, 5);
-
-  const triggerLiveSync = async () => {
-    // With nothing to search for, do nothing. Posting no keywords makes
-    // run_grant_ingestion use DEFAULT_KEYWORDS, a fixed list unrelated to the student,
-    // under a button that says the fetch is for their interests.
-    if (syncKeywords.length === 0) return;
-    setIsSyncing(true);
-    setSyncStatus('idle');
-    try {
-      await api.post('/grants/ingest', { keywords: syncKeywords });
-      setSyncStatus('success');
-
-      // Ingestion runs in the background and takes minutes, not 3s. Poll the grant count
-      // via /healthz and refetch the deck when it grows -- WITHOUT dropping the active
-      // filters (the old reload hit /grants/matches with no local_only/location filter,
-      // so a filtered view silently reset).
-      let baseline: number | null = null;
-      try {
-        baseline = (await api.get('/healthz')).data?.grants?.total ?? null;
-      } catch { /* healthz optional */ }
-
-      let polls = 0;
-      const poll = setInterval(async () => {
-        polls += 1;
-        try {
-          const total = (await api.get('/healthz')).data?.grants?.total ?? null;
-          if ((baseline !== null && total !== null && total > baseline) || polls >= 12) {
-            clearInterval(poll);
-            setSyncStatus('idle');
-            if (total && baseline && total > baseline) {
-              setDeckReloadKey((k) => k + 1); // refetch through the normal filtered path
-            }
-          }
-        } catch {
-          if (polls >= 12) { clearInterval(poll); setSyncStatus('idle'); }
-        }
-      }, 5000);  // up to ~60s
-    } catch (err) {
-      console.error(err);
-      setSyncStatus('error');
-      setTimeout(() => setSyncStatus('idle'), 3000);
-    } finally {
-      setIsSyncing(false);
-    }
   };
 
   /**
@@ -1333,6 +1344,53 @@ export const Dashboard: React.FC<DashboardProps> = ({
       </div>
     ) : null;
 
+  // One pill at a time, the notice first. An error beside a "Saved" pill reads as both
+  // at once, and the student cannot tell which lab each is about. Drawn in one of two
+  // slots, only one of which is displayed at any width (see the toast slot below).
+  const renderToast = () =>
+    writeError ? (
+      // A write the server did not record. Rose, never the dark "Saved" pill: an error
+      // must not read as the success it replaced.
+      <div
+        role="alert"
+        data-write-notice
+        className="pointer-events-auto max-w-full flex items-center gap-3 bg-rose-50 border border-rose-200 text-rose-900 rounded-2xl pl-4 pr-2 py-2 shadow-xl max-sm:shadow-sm animate-fade-in"
+      >
+        <span className="text-xs font-medium leading-snug">{writeError}</span>
+        <button
+          type="button"
+          onClick={() => setWriteError('')}
+          className="shrink-0 text-xs font-bold bg-white border border-rose-200 hover:border-rose-300 rounded-full px-3 py-1 cursor-pointer transition-colors"
+        >
+          Dismiss
+        </button>
+      </div>
+    ) : isRecording ? (
+      // Stone and plain: nothing has been recorded yet, so nothing says it has.
+      <div
+        role="status"
+        className="pointer-events-auto max-w-full flex items-center gap-2 bg-stone-100 border border-stone-200 text-stone-700 rounded-full px-4 py-2 shadow-xl max-sm:shadow-sm animate-fade-in"
+      >
+        <RefreshCw className="w-3.5 h-3.5 shrink-0 animate-spin" aria-hidden />
+        <span className="text-xs font-medium">Recording your choice…</span>
+      </div>
+    ) : lastSwipe ? (
+      /* Undo pill: an accidental swipe (especially a left-swipe that hides a lab) is
+         recoverable for ~8s. Also reachable via Esc. */
+      <div className="pointer-events-auto max-w-full flex items-center gap-3 bg-stone-900 text-white rounded-full pl-4 pr-2 py-2 shadow-xl max-sm:shadow-sm animate-fade-in">
+        <span className="text-xs font-medium truncate min-w-0">
+          {lastSwipe.direction === 'right' ? 'Saved' : 'Skipped'} {piIsResolved(lastSwipe.card) ? piDisplayName(lastSwipe.card) : lastSwipe.card.institution}
+        </span>
+        <button
+          type="button"
+          onClick={handleUndo}
+          className="shrink-0 text-xs font-bold bg-white/15 hover:bg-white/25 rounded-full px-3 py-1 inline-flex items-center gap-1 cursor-pointer transition-colors"
+        >
+          <ArrowLeft className="w-3.5 h-3.5" /> Undo
+        </button>
+      </div>
+    ) : null;
+
   return (
     <div className="w-full max-w-7xl mx-auto px-4 py-6 animate-fade-in">
       <PaywallModal isOpen={showPaywall} onClose={handlePaywallClose} />
@@ -1354,66 +1412,22 @@ export const Dashboard: React.FC<DashboardProps> = ({
         />
       )}
 
-      {/* Toast slot. Pinned under the app header (4.25rem tall), in the band between it
-          and the panels: at the bottom of the viewport it sat on top of the skip/save
-          row and the Draft Cold Outreach button at both 1280 and 390. The wrapper
-          ignores the pointer so only the pills themselves take clicks.
+      {/* Toast slot, from sm up. Pinned under the app header (4.25rem tall), in the
+          band between it and the panels: at the bottom of the viewport it sat on top
+          of the skip/save row and the Draft outreach button. The wrapper ignores the
+          pointer so only the pills themselves take clicks.
 
-          Below sm there is no empty band: the page scrolls and the pill was drawn over
-          the next card's amount and dates. There the slot is an opaque strip flush
-          under the header, so page content passes beneath it as it does beneath the
-          header and no text shows through.
-
-          One pill at a time, the notice first. An error beside a "Saved" pill reads as
-          both at once, and the student cannot tell which lab each is about.
+          Below sm there is no empty band, and pinned there the pill covered the card's
+          tag row and the top of its title (a rose notice over "Shared research
+          resource U24" at 360px). On a phone the same pill is drawn in the page
+          instead, under the card: see renderToast('inline') in the deck column.
 
           Portalled to <body>: the root div above keeps a transform from animate-fade-in,
           which makes it the containing block for `fixed` children. Inside it the toast
-          was positioned against the dashboard, not the viewport, and scrolled away with
-          the page on a phone. */}
+          was positioned against the dashboard, not the viewport. */}
       {(writeError || lastSwipe || isRecording) && createPortal(
-        <div className="fixed top-[4.25rem] sm:top-[4.5rem] inset-x-0 z-50 px-4 flex flex-col items-center gap-1.5 pointer-events-none max-sm:pointer-events-auto max-sm:py-2 max-sm:bg-[var(--color-canvas)] max-sm:border-b max-sm:border-stone-200 max-sm:shadow-sm">
-          {/* A write the server did not record. Rose, never the dark "Saved" pill: an
-              error must not read as the success it replaced. */}
-          {writeError ? (
-            <div
-              role="alert"
-              className="pointer-events-auto max-w-full flex items-center gap-3 bg-rose-50 border border-rose-200 text-rose-900 rounded-2xl pl-4 pr-2 py-2 shadow-xl animate-fade-in"
-            >
-              <span className="text-xs font-medium leading-snug">{writeError}</span>
-              <button
-                type="button"
-                onClick={() => setWriteError('')}
-                className="shrink-0 text-xs font-bold bg-white border border-rose-200 hover:border-rose-300 rounded-full px-3 py-1 cursor-pointer transition-colors"
-              >
-                Dismiss
-              </button>
-            </div>
-          ) : isRecording ? (
-            // Stone and plain: nothing has been recorded yet, so nothing says it has.
-            <div
-              role="status"
-              className="pointer-events-auto max-w-full flex items-center gap-2 bg-stone-100 border border-stone-200 text-stone-700 rounded-full px-4 py-2 shadow-xl animate-fade-in"
-            >
-              <RefreshCw className="w-3.5 h-3.5 shrink-0 animate-spin" aria-hidden />
-              <span className="text-xs font-medium">Recording your choice…</span>
-            </div>
-          ) : lastSwipe && (
-            /* Undo pill: an accidental swipe (especially a left-swipe that hides a lab)
-               is recoverable for ~8s. Also reachable via Esc. */
-            <div className="pointer-events-auto max-w-full flex items-center gap-3 bg-stone-900 text-white rounded-full pl-4 pr-2 py-2 shadow-xl animate-fade-in">
-              <span className="text-xs font-medium truncate min-w-0">
-                {lastSwipe.direction === 'right' ? 'Saved' : 'Skipped'} {piIsResolved(lastSwipe.card) ? piDisplayName(lastSwipe.card) : lastSwipe.card.institution}
-              </span>
-              <button
-                type="button"
-                onClick={handleUndo}
-                className="shrink-0 text-xs font-bold bg-white/15 hover:bg-white/25 rounded-full px-3 py-1 inline-flex items-center gap-1 cursor-pointer transition-colors"
-              >
-                <ArrowLeft className="w-3.5 h-3.5" /> Undo
-              </button>
-            </div>
-          )}
+        <div className="hidden sm:flex fixed top-[4.5rem] inset-x-0 z-50 px-4 flex-col items-center gap-1.5 pointer-events-none">
+          {renderToast()}
         </div>,
         document.body
       )}
@@ -1437,25 +1451,12 @@ export const Dashboard: React.FC<DashboardProps> = ({
                     <Heart className="w-5 h-5 text-rose-600 fill-rose-100" /> Saved Labs
                   </h3>
                 </div>
-                <button
-                  type="button"
-                  onClick={triggerLiveSync}
-                  disabled={isSyncing || syncKeywords.length === 0}
-                  className={`p-2 rounded-lg border transition-all duration-200 cursor-pointer disabled:cursor-not-allowed disabled:opacity-60 flex items-center justify-center shrink-0
-                    ${isSyncing 
-                      ? 'bg-stone-100 border-stone-300 text-stone-600' 
-                      : syncStatus === 'success'
-                        ? 'bg-[#e6f0f0] border-[#c5dddd] text-[#0d5c5c]'
-                        : syncStatus === 'error'
-                          ? 'bg-rose-50 border-rose-200 text-rose-700'
-                          : 'bg-stone-50 border-stone-200 hover:border-stone-300 text-stone-500 hover:text-stone-800'}
-                  `}
-                  title={syncKeywords.length === 0
-                    ? 'Save an award first. We search for more using the keyword tags on awards you have saved.'
-                    : 'Fetch more awards for your interests'}
-                >
-                  <RefreshCw className={`w-4 h-4 ${isSyncing ? 'animate-spin' : ''}`} />
-                </button>
+                {/* No button here. There was an unlabeled refresh icon that posted to
+                    /grants/ingest: it started a corpus ingest on the production
+                    database and spent Gemini quota, from a header about saved labs,
+                    and its failure showed only as a change of colour. Ingest is an
+                    operator's job (the route is still there, and the nightly fill
+                    runs it); a student's button must not be able to start one. */}
               </div>
 
               {/* Follow-up nudge: labs contacted 6+ days ago with no reply logged. Teal/
@@ -1510,6 +1511,15 @@ export const Dashboard: React.FC<DashboardProps> = ({
                       >
                         <div className="min-w-0">
                           <div className="flex items-center gap-1.5 mb-1.5 flex-wrap">
+                            {/* A persona's saved row carries the sample tag in place of
+                                the agency pill: "NSF • SAMPLE SIMILARITY 58" in NSF
+                                green put a real agency's name and colour on a card
+                                that has no federal record. Amber, as on the card. */}
+                            {isDemoCard(studentId, m) ? (
+                              <span className="inline-block rounded-[10px] border border-amber-300 bg-amber-50 px-2 py-0.5 text-[10px] font-semibold leading-4 text-amber-900">
+                                {SAMPLE_CARD_TAG}
+                              </span>
+                            ) : (
                             <span className={`inline-block text-[9px] px-2 py-0.5 rounded-full font-bold font-mono tracking-wide uppercase
                               ${agencyPillClass(m)}
                             `}>
@@ -1518,10 +1528,9 @@ export const Dashboard: React.FC<DashboardProps> = ({
                                   Then the chip names the funder alone. No percent sign:
                                   it is a text similarity, not a likelihood. */}
                               {agencyShortLabel(m)}
-                              {similarityValue(m) !== null
-                                ? ` • ${isDemoCard(studentId, m) ? 'sample ' : ''}similarity ${similarityValue(m)}`
-                                : ''}
+                              {similarityValue(m) !== null ? ` • similarity ${similarityValue(m)}` : ''}
                             </span>
+                            )}
                             {/* Outreach outcome chip. Until Copy Pitch was wired to
                                 send-email no match reached 'emailed'; now the chip also
                                 reflects the student's logged outcome (replied/no reply/...). */}
@@ -1534,7 +1543,23 @@ export const Dashboard: React.FC<DashboardProps> = ({
                               </span>
                             )}
                           </div>
-                          <h4 className="text-stone-800 text-sm font-semibold truncate group-hover:text-stone-900 transition-colors">
+                          {/* The project, then who and where. A row of pill, name and
+                              institution did not say what the lab works on, which is
+                              what a student returning to the list is looking for. One
+                              line: the full title is on the card and in the tooltip. */}
+                          {(m.title || m.grant_title) && (
+                            <p
+                              className="text-stone-900 text-[13px] font-semibold leading-5 truncate"
+                              title={m.title || m.grant_title}
+                            >
+                              {m.title || m.grant_title}
+                            </p>
+                          )}
+                          <h4
+                            className="text-stone-700 text-xs font-medium truncate group-hover:text-stone-900 transition-colors"
+                            // Inline: index.css restyles every heading outside any layer.
+                            style={{ fontFamily: 'inherit', letterSpacing: 'normal' }}
+                          >
                             {piDisplayName(m)}
                           </h4>
                           {m.pi_is_generated && <div className="mt-0.5"><AiPiBadge compact /></div>}
@@ -1583,20 +1608,31 @@ export const Dashboard: React.FC<DashboardProps> = ({
                     </span>
                   </div>
                 )}
-                <div className="flex items-center justify-between text-stone-500 font-medium">
-                  {/* Was "narrative parsing", which claimed a process. It is the text the
-                      student wrote. */}
-                  <span>your narrative</span>
-                  <button
-                    type="button"
-                    onClick={() => setShowNarrativeEditor(true)}
-                    className="inline-flex items-center gap-1 rounded-md border border-stone-200 bg-stone-50 px-2 py-1 text-[#0d5c5c] font-semibold hover:border-stone-300 hover:bg-stone-100 transition-colors cursor-pointer"
-                    title="Edit the narrative your matches are built from"
-                  >
-                    <Pencil className="w-3 h-3" /> Edit
-                  </button>
-                </div>
-                <p className="truncate italic" title={researchInterests}>"{researchInterests}"</p>
+                {/* A persona's row has no Edit: its profile is a fixed sample with no
+                    students row behind it, so the editor could only end in an error.
+                    The row is drawn for a persona only when there is text to show. */}
+                {(!isDemoDeck || researchInterests.trim()) && (
+                  <div className="flex items-center justify-between text-stone-500 font-medium">
+                    {/* Was "narrative parsing", which claimed a process. It is the text
+                        the student wrote. */}
+                    <span>{isDemoDeck ? 'narrative' : 'your narrative'}</span>
+                    {!isDemoDeck && (
+                      <button
+                        type="button"
+                        onClick={() => setShowNarrativeEditor(true)}
+                        className="inline-flex items-center gap-1 rounded-md border border-stone-200 bg-stone-50 px-2 py-1 text-[#0d5c5c] font-semibold hover:border-stone-300 hover:bg-stone-100 transition-colors cursor-pointer"
+                        title="Edit the narrative your matches are built from"
+                      >
+                        <Pencil className="w-3 h-3" /> Edit
+                      </button>
+                    )}
+                  </div>
+                )}
+                {/* Nothing for an empty narrative: a restored session holds none, and
+                    the line was a pair of quotation marks around nothing. */}
+                {researchInterests.trim() && (
+                  <p className="truncate italic" title={researchInterests}>"{researchInterests}"</p>
+                )}
                 <div className="flex items-center justify-between gap-2 text-stone-500 font-medium pt-1">
                   <span>{isDemoDeck ? 'sample profile' : 'your profile terms'}</span>
                   <button
@@ -1614,7 +1650,10 @@ export const Dashboard: React.FC<DashboardProps> = ({
         </div>
 
         {/* Right 75% Viewport — same locked height as saved labs; body scrolls inside */}
-        <div className="w-full lg:flex-1 min-w-0 dashboard-panel-shell flex flex-col min-h-0 overflow-hidden">
+        {/* With Details open the column is as tall as the card and the page scrolls.
+            Inside the 42rem shell the card scrolled in place, and at 1280x900 the
+            shell's lower edge cut through a line of Details text. */}
+        <div className={`w-full lg:flex-1 min-w-0 flex flex-col min-h-0 ${detailsOpenOnCard ? '' : 'dashboard-panel-shell overflow-hidden'}`}>
            {/* Interactive proximity filters bar */}
            {/* Under the card below lg (order-3, after the review notice and the order
                note): see the comment on the panel row. */}
@@ -1674,13 +1713,15 @@ export const Dashboard: React.FC<DashboardProps> = ({
            )}
 
            {currentMatch ? (
-            // The scroller is this column, not the card. The card is as tall as its
-            // front, so at 1280 the buttons sit under the funding line instead of at
-            // the foot of a 42rem panel, and an open Details scrolls here (lg) or
-            // with the page (below lg).
+            // The card is as tall as its front, so at 1280 the buttons sit under the
+            // funding line instead of at the foot of a 42rem panel. With Details closed
+            // this column scrolls at lg if a front ever outgrows the shell; with Details
+            // open nothing in here scrolls and the page does, at every width.
             <div
               ref={cardScrollRef}
-              className="flex-1 min-h-0 lg:overflow-y-auto lg:overflow-x-hidden lg:overscroll-y-contain lg:pr-1 [scrollbar-width:thin] [scrollbar-color:#a8a29e_#f5f5f4]"
+              className={detailsOpen
+                ? 'min-h-0'
+                : 'flex-1 min-h-0 lg:overflow-y-auto lg:overflow-x-hidden lg:overscroll-y-contain lg:pr-1 [scrollbar-width:thin] [scrollbar-color:#a8a29e_#f5f5f4]'}
             >
             <div
               className={`
@@ -1847,6 +1888,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
                     <CardDetails
                       card={currentMatch}
                       isDemo={isDemo}
+                      frontShown
                       onReviewProfile={() => setShowProfilePanel(true)}
                     />
                   </div>
@@ -1854,22 +1896,20 @@ export const Dashboard: React.FC<DashboardProps> = ({
               </GlassCard>
             </div>
 
-            {/* Deck position and the free-evaluation count. Under the card, not in its
-                action row: they are about the session, and on the card they were a
-                dozen more words between the student and the award. Still always drawn,
-                so the paywall is never a surprise on the third swipe. */}
-            {!inspectedMatch && (
+            {/* The free-evaluation count, for real students. Under the card, not in its
+                action row: it is about the session. Still always drawn for them, so the
+                paywall is never a surprise on the third swipe. Never for a persona,
+                whose session has no limit (see chargeEvaluation).
+
+                "Swipe deck: 1 of 12 matching" stood beside it. The 12 was the size of
+                the page in hand, not the number of awards that match, and it shrank
+                with every swipe (1 of 2, then 1 of 1), so it counted nothing a student
+                could use. Nothing replaces it. */}
+            {!inspectedMatch && !isDemoDeck && !hasFeedbackToday && (
               <div className="mt-2.5 px-1 flex flex-wrap items-center gap-x-3 gap-y-2">
-                {/* "matching" describes a filtered ranking. A persona deck is two
-                    scripted cards, so it is only counted. */}
-                <span className="text-stone-500 text-xs italic whitespace-nowrap">
-                  Swipe deck: {currentIndex + 1} of {activeDeck.length}{isDemoDeck ? '' : ' matching'}
+                <span className="text-[11px] font-semibold text-stone-700 bg-stone-100 border border-stone-200 rounded-full px-2.5 py-1 whitespace-nowrap">
+                  {Math.max(0, 2 - swipeCount)} of 2 free evaluations left today
                 </span>
-                {!hasFeedbackToday && (
-                  <span className="text-[11px] font-semibold text-stone-700 bg-stone-100 border border-stone-200 rounded-full px-2.5 py-1 whitespace-nowrap">
-                    {Math.max(0, 2 - swipeCount)} of 2 free evaluations left today
-                  </span>
-                )}
               </div>
             )}
             </div>
@@ -2074,6 +2114,14 @@ export const Dashboard: React.FC<DashboardProps> = ({
                 )}
               </div>
             </GlassCard>
+            </div>
+          )}
+          {/* Toast slot below sm: in the page, directly under the card (or under the
+              panel that replaced it), where it covers nothing. Unordered, so it keeps
+              its place ahead of the review notice, the order note and the filter. */}
+          {(writeError || lastSwipe || isRecording) && (
+            <div className="sm:hidden mt-2.5 flex flex-col items-center">
+              {renderToast()}
             </div>
           )}
           {renderReviewBanner('flex lg:hidden max-lg:order-1 mt-3')}

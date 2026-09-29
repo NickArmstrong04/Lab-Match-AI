@@ -184,6 +184,81 @@ export const groupEvidenceRows = (rows: EvidenceRow[]): EvidenceGroup[] => {
   return groups;
 };
 
+// A term the server reported as found, with no sentence to show for it: a hit in an NIH
+// index term, in the plain-language statement or in the sentence on the card front.
+export interface TermHit {
+  term: string;
+  // The words as they stand in the record, when they differ from the term.
+  shown: string;
+  field: string;
+  origin: string;
+}
+
+export interface MatchedTerms {
+  // Sentences that hold one or more terms, in the server's order.
+  groups: EvidenceGroup[];
+  // Terms found somewhere that has no sentence row. Never a term already in `groups`.
+  others: TermHit[];
+  // Distinct terms across both. The one count Details states.
+  count: number;
+}
+
+const termKey = (term: string): string => term.trim().toLowerCase();
+
+/**
+ * Every matched term, once.
+ *
+ * Details used to list the matches twice, from two keys: `details.profile_hits` as
+ * "X found as X in ..." lines, then the evidence rows as a block per sentence, under a
+ * count taken from a third key (`evidence_matched`). The two lists overlapped, and the
+ * count covered only the second, so a panel could show three terms under "1 of your 10
+ * terms found". Here the sentence rows come first, a hit is added only for a term no
+ * sentence row already shows, and the count is the length of what is drawn.
+ *
+ * Nothing is searched or matched here: both inputs are the server's findings.
+ */
+export const mergeMatchedTerms = (rows: EvidenceRow[], hits: TermHit[]): MatchedTerms => {
+  const groups = groupEvidenceRows(rows);
+  const seen = new Set<string>();
+  for (const group of groups) for (const t of group.terms) seen.add(termKey(t.term));
+  const others: TermHit[] = [];
+  for (const hit of hits) {
+    const key = termKey(hit.term);
+    if (!key || seen.has(key)) continue;
+    seen.add(key);
+    others.push(hit);
+  }
+  return { groups, others, count: seen.size };
+};
+
+/**
+ * "3 of your 9 profile terms found, by exact words." `found` is the length of the list
+ * drawn above the line. `total` is the size of the profile, or null when the server did
+ * not send it; then only the number found is stated. No possessive on a persona card:
+ * the terms are the sample profile's, which the tag at the head of Details covers.
+ */
+export const matchedTermsCountLine = (
+  found: number,
+  total: number | null,
+  isSample = false,
+  // How many of `found` were matched only in an NIH index term. Those are not the
+  // student's exact words and the card front does not count them, so "3 found, by exact
+  // words" stood in Details over a front that showed two chips and no "+1". They are
+  // stated apart.
+  inIndexTerms = 0,
+): string | null => {
+  if (found === 0) return null;
+  const index = Math.min(Math.max(0, inIndexTerms), found);
+  const exact = found - index;
+  const where = exact > 0 ? ', by exact words' : " in NIH's index terms";
+  const first = exact > 0 ? exact : index;
+  const tail = exact > 0 && index > 0 ? `, and ${index} more in NIH's index terms` : '';
+  if (total === null || total < found) {
+    return `${first} profile ${first === 1 ? 'term' : 'terms'} found${where}${tail}.`;
+  }
+  return `${first} of ${isSample ? '' : 'your '}${total} profile ${total === 1 ? 'term' : 'terms'} found${where}${tail}.`;
+};
+
 export interface SentencePart {
   text: string;
   matched: boolean;
@@ -243,7 +318,7 @@ export const EVIDENCE_ZERO_STATE =
 // claim about a ranking that never ran. Phase 1 hides SIMILARITY_EXPLANATION on these
 // cards for the same reason. They are what the ad recordings show.
 export const EVIDENCE_ZERO_STATE_SAMPLE =
-  "None of the sample profile's terms appear in this sample card's text.";
+  "None of the profile's terms appear in this card's text.";
 
 // Shown on the card when the profile holds no terms at all. The zero state above would
 // be the wrong sentence: nothing was looked for, so nothing was "not found".
@@ -299,29 +374,3 @@ export const evidenceSourceLine = (
 /** amber for the one line that labels AI-written content; stone for the rest. */
 export const evidenceSourceTone = (basis: EvidenceBasis | null): 'amber' | 'stone' =>
   basis === 'llm_generated' ? 'amber' : 'stone';
-
-/** "3 of your 9 terms found. ...", or null when either number was not counted. */
-export const evidenceCountLine = (
-  matched: number | null,
-  total: number | null,
-  isSample = false,
-): string | null => {
-  if (matched === null || total === null || total === 0) return null;
-  // A persona has no profile of its own: the terms are the sample profile's.
-  const whose = isSample ? 'the sample profile\'s' : 'your';
-  return `${matched} of ${whose} ${total} ${total === 1 ? 'term' : 'terms'} found. Counted by exact word match; similar ideas in different words are not counted.`;
-};
-
-/**
- * The count line inside Details, where the longer explanation is one tap away in the
- * profile panel. Same numbers, same nulls.
- */
-export const evidenceCountLineShort = (
-  matched: number | null,
-  total: number | null,
-  isSample = false,
-): string | null => {
-  if (matched === null || total === null || total === 0) return null;
-  const whose = isSample ? 'the sample profile\'s' : 'your';
-  return `${matched} of ${whose} ${total} ${total === 1 ? 'term' : 'terms'} found, by exact words.`;
-};

@@ -476,7 +476,7 @@ export const EmailReview: React.FC<EmailReviewProps> = ({
             </CardFront>
             {detailsOpen && (
               <div id="composer-card-details" className="mt-4 border-t border-stone-200 pt-4">
-                <CardDetails card={match} isDemo={isDemo} />
+                <CardDetails card={match} isDemo={isDemo} frontShown />
               </div>
             )}
           </div>
@@ -489,13 +489,20 @@ export const EmailReview: React.FC<EmailReviewProps> = ({
             <span>
               {isDemoStudent(studentId)
                 ? 'Nothing is sent from here. This is a sample session, so nothing is saved.'
-                : 'Nothing is sent from here. Your pitch is saved to your pipeline only when you mark it as reached out.'}
+                // Was followed by "Your pitch is saved to your pipeline only when you
+                // mark it as reached out", about a button that is not on the page until
+                // the pitch has been copied. The button explains itself when it appears.
+                : 'Nothing is sent from here.'}
             </span>
           </div>
         </GlassCard>
 
         {/* Right Pane (50%) - Pitch composer workspace */}
-        <GlassCard className="relative overflow-hidden min-h-[550px] h-full flex flex-col justify-between" glowColor="none">
+        {/* With the award's details open the left pane is as long as the agency's text,
+            and a stretched row made this pane match it: a message box 1,250px tall,
+            mostly empty, with Copy Pitch far below the fold. Then it keeps its own
+            height. Closed, the two panes are the same height as before. */}
+        <GlassCard className={`relative overflow-hidden min-h-[550px] flex flex-col justify-between ${detailsOpen ? 'lg:self-start' : 'h-full'}`} glowColor="none">
           {isDrafting ? (
             <div className="flex-1 min-h-0 flex flex-col justify-center items-center py-20 space-y-6 text-center animate-pulse">
               <div className="w-14 h-14 rounded-full bg-stone-100 border border-stone-200 flex items-center justify-center">
@@ -542,7 +549,10 @@ export const EmailReview: React.FC<EmailReviewProps> = ({
                   // is no federal record behind a fictional award to be missing a link to.
                   <p className="text-stone-500 text-xs leading-snug">{NO_RECORD_LINK}</p>
                 )}
-                {match.pi_lookup_url ? (
+                {/* Not in a persona session: the researcher on a sample card is
+                    fictional and the university is real, so the link was a live search
+                    for a named person who does not exist there. */}
+                {isDemo ? null : match.pi_lookup_url ? (
                   <a
                     href={match.pi_lookup_url}
                     target="_blank"
@@ -574,8 +584,14 @@ export const EmailReview: React.FC<EmailReviewProps> = ({
                   {/* The instruction used to live only in the placeholder, which a 390px
                       screen cut off mid-sentence and which vanishes on the first keystroke.
                       The field still starts empty: we never construct a PI address. */}
+                  {/* Persona wording names no lab page: the lookup link above is not
+                      drawn for a sample card (its researcher is fictional), so the
+                      instruction pointed at a page this screen does not link to and
+                      that does not exist. */}
                   <p id="pi-email-help" className="text-stone-500 text-[11px] leading-snug mt-1.5">
-                    Paste the PI's email from their lab page. We don't fill this in for you.
+                    {isDemo
+                      ? 'Sample card: there is no real address to paste.'
+                      : "Paste the PI's email from their lab page. We don't fill this in for you."}
                   </p>
                 </div>
                 {/* A textarea so the subject can wrap: in a one-line input a phone cut
@@ -683,7 +699,8 @@ export const EmailReview: React.FC<EmailReviewProps> = ({
                 >
                   <ExternalLink className="w-3.5 h-3.5 shrink-0" /> Open in Gmail
                 </a>
-                {!looksLikeEmail && (
+                {/* Not on a sample card: there is no PI whose address could be added. */}
+                {!looksLikeEmail && !isDemo && (
                   <span className="text-[11px] text-stone-500">
                     Add the PI's email above to send directly.
                   </span>
@@ -703,9 +720,15 @@ export const EmailReview: React.FC<EmailReviewProps> = ({
                   the pitch somewhere before claiming they sent it. */}
               {hasCopied && !isMarkedSent && (
                 <div className="border border-stone-200 bg-stone-50/80 rounded-lg px-3.5 py-3 space-y-2">
+                  {/* A persona's mark is local state only (handleMarkAsSent returns
+                      before any request), and its saved row never gets a contacted
+                      chip. The real wording promised one, and the confirmation that
+                      follows says nothing was recorded: two lines that contradicted
+                      each other in a recording. */}
                   <p className="text-xs text-stone-600 leading-relaxed">
-                    Sent it from your own email? Mark it so this lab shows as contacted in
-                    your pipeline.
+                    {isDemoStudent(studentId)
+                      ? 'Sent it from your own email? You can mark it here. This is a sample session, so nothing is recorded.'
+                      : 'Sent it from your own email? Mark it so this lab shows as contacted in your pipeline.'}
                   </p>
                   <button
                     onClick={handleMarkAsSent}

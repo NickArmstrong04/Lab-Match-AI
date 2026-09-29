@@ -20,6 +20,7 @@ from ..services.profile_terms import evidence_terms, sample_evidence_terms
 from ..services.card_front import (
     PI_UNRESOLVED,
     USASPENDING_SOURCES,
+    evidence_without_joined_letters,
     front_card_keys,
     pi_is_resolved,
 )
@@ -219,7 +220,7 @@ def demo_card_with_evidence(card: dict, terms: List[dict]) -> dict:
     }
     return {
         **card,
-        **evidence_card_keys(terms, row, basis=BASIS_SAMPLE),
+        **evidence_without_joined_letters(evidence_card_keys(terms, row, basis=BASIS_SAMPLE)),
         **front_card_keys(front_row, student_terms=terms, is_demo=True),
     }
 
@@ -1139,7 +1140,10 @@ def format_match_card(grant: dict, *, score, score_components: Optional[dict],
         "contacted_at": contacted_at,
         "responded_at": responded_at,
         "next_follow_up_at": next_follow_up_at,
-        **evidence_card_keys(student_terms, grant),
+        # A one-letter term ("R", the language) is not matched by the R of "R&D": the
+        # chips refuse it (card_front.term_spans) and the sentences listed in Details
+        # must refuse it too, or the two disagree about the same card.
+        **evidence_without_joined_letters(evidence_card_keys(student_terms, grant)),
         # pi_is_generated is passed as RESOLVED above (column, else the source rule), so
         # pi.name_basis "ai_identified" and the pi_is_generated key cannot disagree.
         **front_card_keys(

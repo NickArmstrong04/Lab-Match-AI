@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, useCallback } from 'react';
 import { User, Info, FileText, BarChart3 } from 'lucide-react';
 import Cover, { type CoverNavigate } from './pages/Cover';
 import LandingTopBar from './components/LandingTopBar';
@@ -13,6 +13,7 @@ import AnalyticsDashboard from './pages/AnalyticsDashboard';
 import './App.css';
 import { trackEvent, setStudentId as saveStudentIdToAnalytics } from './utils/analytics';
 import { getSession, saveSession, clearSession } from './utils/session';
+import { isDemoStudent } from './utils/demoPersonas';
 
 type View =
   | 'cover' | 'get_started' | 'sign_in' | 'explore' | 'onboarding' | 'dashboard' | 'email_review' | 'analytics'
@@ -181,6 +182,20 @@ function App() {
   const [savedMatches, setSavedMatches] = useState<GrantMatch[]>([]);
   const [skippedMatches, setSkippedMatches] = useState<string[]>([]);
   const [activeOutreachMatch, setActiveOutreachMatch] = useState<GrantMatch | null>(null);
+  // What the Dashboard hands back as its deck changes (see onDeckChange below).
+  //
+  // Kept for a persona only. A real student's deck is described by state the Dashboard
+  // holds and loses when it is unmounted for the composer: the campus box, the filter
+  // text, the nationwide-fallback notice, the paging offsets. Remounted on the old deck
+  // with those reset, it drew nationwide cards under a checked "Only institutions
+  // matching UCLA" box with no notice for the length of two 200-row fetches, and kept
+  // them with no error if the refetch failed (deckError is not drawn over a card). So a
+  // real student's copy is emptied instead and the remount shows the loading panel until
+  // the refetch answers, which is what a logged-in student always got. A persona deck
+  // has no filters and no paging to disagree with.
+  const handleDeckChange = useCallback((deck: GrantMatch[]) => {
+    setMatches(isDemoStudent(studentId) ? deck : []);
+  }, [studentId]);
   // A dashboard write the server did not record. Held here because the Dashboard is
   // unmounted while the composer is open: a request that fails in that window has to be
   // reported when the student returns, not dropped with the component that sent it.
@@ -254,7 +269,13 @@ function App() {
     // here (nothing a persona does is stored), so without this a lab saved as Sarah
     // was still listed after entering as Elena, or at the start of the next take.
     // Editing the profile of the student already in session keeps them.
-    if (data.studentId && (data.studentId !== studentId || view !== 'onboarding')) {
+    //
+    // Except for a persona (exact UUID). Entering the same persona again through the
+    // form, without a reload, is the start of another recording take, and with the
+    // previous take's lists kept it opened on "Deck Fully Evaluated!" with no card.
+    if (data.studentId && (
+      data.studentId !== studentId || view !== 'onboarding' || isDemoStudent(data.studentId)
+    )) {
       setSavedMatches([]);
       setSkippedMatches([]);
       setDashboardWriteError('');
@@ -571,6 +592,13 @@ function App() {
             studentLocation={studentLocation}
             researchInterests={researchInterests}
             matches={matches}
+            // The deck the Dashboard holds, handed back so it survives the composer.
+            // `matches` used to be written once, at onboarding, and for a persona that
+            // is Onboarding's hardcoded deck, which has no phase 3 keys: on return from
+            // the composer the Dashboard remounted on it and the same card was drawn
+            // without its sentence and chip until (or unless) the refetch answered.
+            // Persona decks only; a real student's is dropped (handleDeckChange).
+            onDeckChange={handleDeckChange}
             onInitiateOutreach={handleInitiateOutreach}
             savedMatches={savedMatches}
             setSavedMatches={setSavedMatches}
@@ -612,7 +640,10 @@ function App() {
             <span>LabMatch AI — Research alignment for funded federal awards.</span>
           </div>
           <div className="flex flex-wrap items-center justify-center gap-4">
-            <span className="flex items-center gap-1"><FileText className="w-3.5 h-3.5 text-stone-400" /> NIH RePORTER, NSF Award Search &amp; USAspending.gov</span>
+            {/* Only the sources the deck shows. USAspending.gov was named here while
+                its awards are held out of the deck, so the footer credited a source no
+                card on the page came from. */}
+            <span className="flex items-center gap-1"><FileText className="w-3.5 h-3.5 text-stone-400" /> NIH RePORTER and NSF Award Search</span>
           </div>
         </div>
       </footer>
