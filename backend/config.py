@@ -74,6 +74,13 @@ class Settings(BaseSettings):
     # showing less, not towards showing unlabelled LLM text.
     usaspending_deck_mode: str = "off"
 
+    # Whether ingest fetches the six USAspending agencies at all. Default OFF since
+    # 2026-09-29 (owner decision): their cards are not shown (see usaspending_deck_mode),
+    # and each new row spent free-tier Gemini quota on PI resolution, abstract expansion
+    # and an embedding. Stored rows are kept. Turning this on does not put the cards back
+    # in the deck; that is usaspending_deck_mode.
+    ingest_usaspending_enabled: bool = False
+
     # Gate for writing the labelled AI one-liner (plain_summary*) from a student's deck
     # request. Default OFF: a GET that spends Gemini quota and writes production rows is
     # what phase 1 removed for abstracts. This one is narrower (it writes four separate,

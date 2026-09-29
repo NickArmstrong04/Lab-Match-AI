@@ -1143,6 +1143,17 @@ def run_grant_ingestion(keywords: List[str] = None, pages: int = 10, limit_per_p
         "National Aeronautics and Space Administration",
         "Department of Agriculture"
     ]
+    # Paused by the owner on 2026-09-29 (settings.ingest_usaspending_enabled, default
+    # False). These six sources are left out of the deck (usaspending_deck_mode "off"), yet
+    # every row they bring in costs a grounded PI lookup, an abstract expansion and an
+    # embedding on the free-tier key, which the nightly run exhausts by about 03:40. That
+    # quota is what the labelled AI one-liners for NIH and NSF cards need. Nothing already
+    # stored is touched; set INGEST_USASPENDING_ENABLED=true to resume.
+    from ..config import settings
+    usaspending_enabled = bool(getattr(settings, "ingest_usaspending_enabled", False))
+    if not usaspending_enabled:
+        agencies = []
+        print("[INFO] USAspending fetches are paused (INGEST_USASPENDING_ENABLED=false).")
     
     inserted_count = 0
     skipped_count = 0
@@ -1241,7 +1252,9 @@ def run_grant_ingestion(keywords: List[str] = None, pages: int = 10, limit_per_p
                     print("  No grants successfully processed in this batch.")
                     
     # A source that returned nothing across the whole run is flagged as a likely failure.
-    starved_sources = [s for s, n in fetched_by_source.items() if n == 0]
+    # A paused source fetching 0 is the intended state, not a failing API.
+    starved_sources = [s for s, n in fetched_by_source.items()
+                       if n == 0 and (s != "USASpending" or usaspending_enabled)]
     for s in starved_sources:
         warnings.warn(f"Ingestion source '{s}' returned 0 grants across all keywords -- likely a failing/blocked API, not empty results.")
 
