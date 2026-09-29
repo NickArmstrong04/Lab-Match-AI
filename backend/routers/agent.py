@@ -12,6 +12,8 @@ from ..database import get_db
 from ..services.gemini_transport import gemini_endpoint, gemini_configured
 from ..auth_deps import get_optional_student_id, authorize_student
 from .grants import derive_display_title, pi_is_resolved, SARAH_DEMO_STUDENT_ID
+from ..services.fit_evidence import BASIS_LLM_GENERATED, build_fit_evidence
+from ..services.profile_terms import draft_inputs
 
 router = APIRouter()
 
@@ -45,6 +47,7 @@ def query_gemini_draft(
     abstract_is_generated: bool,
     has_cv: bool = False,
     violations: Optional[list] = None,
+    matched_terms: Optional[list] = None,
 ) -> dict:
     """
     Call Google Gemini 2.5 Flash to synthesize a short (120-150 word) cold outreach email.
@@ -64,6 +67,27 @@ def query_gemini_draft(
 
     `violations` re-prompts once with the specific rules the previous draft broke; see
     find_draft_violations().
+
+    `matched_terms` are the student's own terms that occur word for word in the text we
+    hold for this lab (services/fit_evidence.py). Terms only. The sentences they were
+    found in are deliberately NOT passed: a third of them come from the award title,
+    rule 2 forbids quoting it, and find_draft_violations hard-fails award vocabulary,
+    so quoting evidence into the prompt would push drafts onto the static template.
+
+    `student_skills`, `domain_tags` and `student_education` arrive already filtered by
+    draft_inputs(): terms the model suggested are not facts about the student, and the
+    education line is AI-extracted until the student confirms it.
+
+    `synthesized_summary` is "" from draft_email, by draft_inputs()'s decision: the
+    summary is AI-written and restates what those filters remove. The parameter stays
+    so the rule lives there and not in this signature.
+
+    A term is a topic, not a track record. Origin `narrative` proves the word is in the
+    student's text, and "I have no lab experience yet but I want to learn CRISPR" puts
+    CRISPR there. The terms were sent as "- Skills: CRISPR" under "the only facts you
+    may use about the student", and the draft came back "my experience with CRISPR",
+    which no check catches. They are now labelled as terms the student named, and the
+    only source for what the student has DONE is their own words.
     """
     if not gemini_configured():
         raise ValueError("GEMINI_API_KEY is not configured.")
@@ -98,7 +122,11 @@ def query_gemini_draft(
         "lab's work on <topic>\" or \"your research on <topic>\".\n"
         "2. NEVER quote the project title verbatim - describe the topic in plain language instead.\n"
         "3. NEVER claim to have read specific papers, and NEVER invent skills, coursework, "
-        "publications, or experience that are not in the student profile below.\n"
+        "publications, or experience that are not in the student profile below. The lists of "
+        "topics and methods in the profile are things the student NAMED, not things they have "
+        "done: NEVER say the student has used, has experience with, has a background in or is "
+        "skilled in one of them unless the student's own words in the Interests line say so. "
+        "Otherwise write of it as an interest or as something they want to learn.\n"
         + cv_rule +
         "5. NEVER use bracketed placeholders like [University] or [Topic]. Every sentence must be "
         "complete and sendable exactly as written.\n"
@@ -106,7 +134,11 @@ def query_gemini_draft(
         "the university named under THE LAB is the PI's, not the student's - writing \"I am a student "
         "at <that university>\" is a fabrication. Describe the student's level ONLY as their Education "
         "line states it; if no Education line is given, do not name a level (write \"a student\", not "
-        "\"an undergraduate\" or \"a PhD candidate\")."
+        "\"an undergraduate\" or \"a PhD candidate\").\n"
+        "7. NEVER say or imply that the lab requested, requires, needs or is looking for any skill, "
+        "background or kind of student. Nothing you were given says what this lab wants or whether "
+        "it has an opening. Speak only of the student: what they are interested in, and what their "
+        "own words in the Interests line say they have done."
     )
 
     # Empty fields are omitted rather than sent as "Skills:" with nothing after them -- a blank
@@ -117,11 +149,23 @@ def query_gemini_draft(
     if synthesized_summary:
         profile_lines.append(f"- Profile summary: {synthesized_summary}")
     if student_skills:
-        profile_lines.append(f"- Skills: {', '.join(student_skills)}")
+        profile_lines.append(
+            "- Topics and methods the student named (NOT evidence of experience; do not say the "
+            "student has used or is skilled in them unless their own words above say so): "
+            f"{', '.join(student_skills)}"
+        )
     if student_education:
         profile_lines.append(f"- Education: {student_education}")
     if domain_tags:
-        profile_lines.append(f"- Research domains: {', '.join(domain_tags)}")
+        profile_lines.append(
+            f"- Research areas the student named (interests, not experience): {', '.join(domain_tags)}"
+        )
+    if matched_terms:
+        profile_lines.append(
+            "- Of the above, these also appear in the description of the lab's research "
+            "(a shared topic of interest; NOT something the lab asked for, and NOT something the "
+            f"student is known to have done): {', '.join(matched_terms)}"
+        )
 
     lab_lines = []
     # An unresolved PI has no real name to address; feeding the placeholder through produced
@@ -172,11 +216,15 @@ def query_gemini_draft(
     # enthusiasm ("I am deeply passionate about science") or, worse, invents the coursework
     # it wishes it had. Point it at the one honest move available: be specific about the
     # science that draws them, and be straightforward about being early.
-    profile_is_thin = not (student_skills or synthesized_summary or student_education)
+    #
+    # Decided from the filtered inputs only. The AI-written summary used to count here,
+    # so a student with nothing but AI-suggested terms was treated as having a full
+    # profile and this guard never fired for them.
+    profile_is_thin = not (student_skills or domain_tags or student_education)
     if profile_is_thin:
         sparse_rule = (
-            "- IMPORTANT - this profile is sparse: there are no listed skills, no education line "
-            "and no summary, so you have almost nothing about the student beyond their interests. "
+            "- IMPORTANT - this profile is sparse: there are no listed topics and no education "
+            "line, so you have almost nothing about the student beyond their interests. "
             "Do NOT paper over that by inventing coursework, projects, techniques or experience, "
             "and do NOT pad with generic enthusiasm (\"I am deeply passionate about science\", \"I "
             "am a hard worker\"). Instead make paragraph 2 about the RESEARCH: name the specific "
@@ -187,8 +235,8 @@ def query_gemini_draft(
         )
     else:
         sparse_rule = (
-            "- If the profile lists no skills, ground paragraph 2 in the student's stated interests "
-            "instead - do not invent skills.\n"
+            "- Ground paragraph 2 in the student's stated interests. A named topic is an interest "
+            "unless their own words say they have worked with it - do not invent skills.\n"
         )
 
     user_prompt = (
@@ -205,7 +253,8 @@ def query_gemini_draft(
         "  - Paragraph 1 (2 sentences): who the student is and why this lab specifically - name the "
         "lab's research topic in plain language.\n"
         "  - Paragraph 2 (2-3 sentences): ONE concrete connection between something real in the "
-        "student profile and the lab's research area. One strong link, not a list of skills.\n"
+        "student profile and the lab's research area. One strong link, not a list of skills. An "
+        "interest the student states is a real connection; experience they did not state is not.\n"
         + (
             "  - Paragraph 3 (2 sentences): ask for a brief 15-minute conversation at the PI's "
             "convenience, and mention the attached CV in the same breath.\n"
@@ -284,6 +333,110 @@ _AWARD_TOKENS = ("grant", "grants", "award", "awards", "awarded", "funded", "fun
 _AGENCY_TOKENS = ("NIH", "NSF", "DOD", "DOE", "EPA", "NASA", "USDA")
 
 
+# A draft must not tell a PI what their own lab is asking for. An award record describes
+# the science that was funded; it lists no position, no opening and no required skill.
+# The old card printed "Skills to grow" as if it did, and a draft that says "the Python
+# experience your lab requires" puts that invention in the student's mouth, addressed
+# to the one reader who knows it is false.
+#
+# Two shapes. The first is the lab (or "you") wanting a SKILL or a PERSON: the lab as
+# the subject of a wanting verb with a skill or person noun as its object, either after
+# the verb ("your lab requires Python experience", "you are looking for students") or
+# before it in a relative clause ("the Python experience your lab requires"). The
+# second is a requirement noun phrase pointed at the lab ("the required skills").
+#
+# The object is what makes it a claim. The first version of this rule matched the verb
+# alone, and rejected "your lab seeks to understand synaptic plasticity", "your project
+# seeks to map non-coding variants" and "I can share any materials you need": ordinary
+# cold-email sentences that say nothing about what the lab wants from a student. Two
+# such drafts in a row downgraded the student to the static template over nothing.
+# So: "seeks to <verb>" is a statement of aims and is never matched, and "needs",
+# "seeks" and "is looking for" are matched only when the object is a skill or a person.
+# "requires", "requests", "demands", "calls for" and "asks for" state a requirement
+# whatever follows ("your lab requires MATLAB"), so they need an object but not a
+# listed one. "Any materials you require." has none after the verb and is let through.
+#
+# Known limit: "your lab needs Python" is not caught, because the object is not in the
+# noun list. Prompt rule 7 is what stands against it.
+#
+# "is hiring" and "is recruiting" need no object. They say the lab has an opening, which
+# no record we hold states either.
+#
+# A conditional is not a claim. "If you need anything further" and "should you require
+# more detail about my background" are closing lines; the whole clause before the match
+# is read for the conditional word, not a fixed number of characters. And "my
+# experience" is the student's: an object owned by "my" is not the lab's requirement.
+_LAB_SUBJECT = (
+    r"(?:you|your\s+(?:lab|laboratory|group|team|project|position|role|opening|posting)"
+    r"|(?:the|this)\s+(?:lab|laboratory|group|team|position|role|opening|posting|project))"
+)
+_LAB_AUX = (
+    r"(?:(?:is|are|was|were|has|have|had|do|does|did|may|might|will|would|also|currently|"
+    r"specifically|typically|often|actively|\w+ly)\s+){0,2}"
+)
+_REQUIRE_VERB = (
+    r"(?:requires?|required|requests?|requested|demands?|demanded|calls?\s+for|called\s+for|"
+    r"asks?\s+for|asked\s+for)"
+)
+_WANT_VERB = (
+    rf"(?:{_REQUIRE_VERB}|needs?|needed|seeks?|seeking|sought|looking\s+for|looks?\s+for)"
+)
+_OPENING_VERB = r"(?:hiring|recruiting)"
+_WANTED_NOUN = (
+    r"(?:skills?|skillsets?|experience|background|expertise|proficiency|knowledge|training|"
+    r"qualifications?|students?|undergraduates?|undergrads?|candidates?|applicants?|"
+    r"assistants?|researchers?|volunteers?|interns?|someone|somebody|people)"
+)
+# Up to five words between the verb and its object, none of them "my" or "to" and none
+# across a clause boundary: "requires strong Python and statistics experience".
+_OBJECT_GAP = r"(?:(?!(?:my|to)\b)[\w'/+-]+\s+){0,5}"
+_LAB_WANTS_AFTER_RE = re.compile(
+    rf"\b{_LAB_SUBJECT}\s+{_LAB_AUX}{_WANT_VERB}\s+{_OBJECT_GAP}{_WANTED_NOUN}\b",
+    re.I,
+)
+_LAB_WANTS_BEFORE_RE = re.compile(
+    rf"\b(?<!my\s){_WANTED_NOUN}\s+(?:(?:that|which)\s+)?{_LAB_SUBJECT}\s+{_LAB_AUX}{_WANT_VERB}\b(?!\s+to\b)",
+    re.I,
+)
+_LAB_REQUIRES_RE = re.compile(
+    rf"\b{_LAB_SUBJECT}\s+{_LAB_AUX}{_REQUIRE_VERB}\s+(?!(?:to|from|of)\b)[\w'\"(]",
+    re.I,
+)
+_LAB_OPENING_RE = re.compile(rf"\b{_LAB_SUBJECT}\s+{_LAB_AUX}{_OPENING_VERB}\b", re.I)
+_CONDITIONAL_RE = re.compile(
+    r"\b(?:if|should|whatever|whichever|anything|everything|whenever|when|once|in\s+case|whether)\b",
+    re.I,
+)
+_CLAUSE_BREAK_RE = re.compile(r"[.!?;:,\n]")
+_REQUIREMENT_NOUN_RE = re.compile(
+    r"\b(?:required|requested|desired|preferred)\s+(?:skills?|qualifications?|experience|background|expertise)\b"
+    r"|\b(?:requirements?|qualifications?)\s+(?:of|for)\s+(?:your|the|this)\s+(?:lab|laboratory|group|team|position|role|opening)\b"
+    r"|\b(?:your|the|this)\s+(?:lab|laboratory|group|team|position|role|opening)(?:'s)?\s+requirements?\b",
+    re.I,
+)
+
+
+def _in_conditional_clause(text: str, start: int) -> bool:
+    """True when the clause leading up to `start` holds a conditional word."""
+    lead = text[max(0, start - 160):start]
+    breaks = list(_CLAUSE_BREAK_RE.finditer(lead))
+    if breaks:
+        lead = lead[breaks[-1].end():]
+    return bool(_CONDITIONAL_RE.search(lead))
+
+
+def claims_lab_requirement(text: str) -> bool:
+    """True when `text` says the lab requested, requires or is looking for a skill or a
+    kind of person, or that it is hiring."""
+    if _REQUIREMENT_NOUN_RE.search(text):
+        return True
+    for pattern in (_LAB_WANTS_AFTER_RE, _LAB_WANTS_BEFORE_RE, _LAB_REQUIRES_RE, _LAB_OPENING_RE):
+        for m in pattern.finditer(text):
+            if not _in_conditional_clause(text, m.start()):
+                return True
+    return False
+
+
 def find_draft_violations(
     subject: str,
     body: str,
@@ -296,7 +449,9 @@ def find_draft_violations(
     Check a Gemini draft against the content rules before a student can copy it.
 
     Returns (hard, soft). Hard violations are trust failures -- award vocabulary, a dollar
-    figure, the award title quoted verbatim, or an attachment claim the app cannot honour.
+    figure, the award title quoted verbatim, an attachment claim the app cannot honour, or
+    a statement that the lab requested or requires a skill or a kind of student (see
+    claims_lab_requirement).
     Soft violations are style only (length).
 
     We check rather than strip. Silently editing Gemini's text would mean showing the student
@@ -362,6 +517,12 @@ def find_draft_violations(
                 "the draft claimed the student attends the PI's university, which we do not know"
             )
 
+    if claims_lab_requirement(text):
+        hard.append(
+            "the draft said the lab requested, requires or is looking for a skill or a kind of "
+            "student, which no record we hold states"
+        )
+
     words = len(body.split())
     if words < 90 or words > 210:
         soft.append(f"the body was {words} words; it must be 120-150 words")
@@ -385,6 +546,7 @@ def get_fallback_draft(
     university: str,
     education: str = "",
     has_cv: bool = False,
+    matched_terms: Optional[list] = None,
 ) -> dict:
     """
     Static email fallback when the Gemini drafter is unconfigured/offline.
@@ -403,6 +565,14 @@ def get_fallback_draft(
     query_gemini_draft), not something an agency published about this lab, so "your
     group's work in <department>" was a claim about the PI that we had no source for.
 
+    `matched_terms` are the student's terms found word for word in the text held for
+    this award. The sentence about the lab's research is written only around those. It
+    used to read "Your group's research connects closely with" the first three profile
+    terms (or the education line) whatever the award was, so a student whose terms were
+    Python, Machine Learning and Statistics said that to a marine geochemistry group: a
+    claim about the lab, in the student's voice, from no source. With no matched term
+    the template says nothing about what the lab's research connects with.
+
     Returns is_fallback=True so the composer can flag it as a template and offer a retry
     rather than passing it off as the personalized draft.
     """
@@ -412,19 +582,25 @@ def get_fallback_draft(
         if pi_is_resolved(pi_name)
         else "Dear Professor,"
     )
-    # Prefer the student's real education line; else lead with their skills; else neutral.
-    if education:
-        background = f"my background in {education}"
-    elif student_skills:
-        background = f"my background in {', '.join(student_skills[:3])}"
-    else:
-        background = "my academic background"
+    # `education` reaches here only after the student confirmed it, and `student_skills`
+    # only holds terms they wrote, had in their CV or added (draft_inputs). Even so a
+    # term is a topic, not a track record: "my background in CRISPR" for a student who
+    # wrote that they want to learn CRISPR is a claim they never made. Terms are worded
+    # as interest; only a confirmed education line is called a background.
+    shared = [t for t in (matched_terms or []) if isinstance(t, str) and t.strip()][:3]
+    # Stated as the student's own fact, in its own sentence. It used to be the object of
+    # "your group's research connects closely with", which made it a claim about the lab.
+    education_line = f" My background is in {education.rstrip('.')}." if education else ""
 
     # "Undergraduate" is not ours to assert either: the app targets undergrads, but the
     # profile is the only evidence of a level and this template does not read it.
     subject = f"Research assistant inquiry — {student_name}"
 
-    lab_line = f"Your group's research connects closely with {background}."
+    lab_line = (
+        f" Your group's research touches on {', '.join(shared)}, which I am interested in."
+        if shared
+        else ""
+    )
 
     # "Organos, Inc." already ends in a period; adding the sentence's own gave "Inc..".
     uni_display = (university or "").strip()
@@ -433,12 +609,20 @@ def get_fallback_draft(
     body = (
         f"{greeting}\n\n"
         f"I hope this email finds you well. My name is {student_name}, and I am a student "
-        f"reaching out about research opportunities in your lab at {uni_display}{stop} {lab_line}\n\n"
+        f"reaching out about research opportunities in your lab at {uni_display}{stop}{education_line}{lab_line}\n\n"
     )
+    # This read "I have hands-on experience with {terms}". The terms were whatever the
+    # profile held, the fallback's invented "Python, Data Analysis" included, so the
+    # template asserted lab experience nobody had claimed.
     if student_skills:
         body += (
-            f"I have hands-on experience with {', '.join(student_skills[:3])}, and I would be glad to "
+            f"I am especially interested in {', '.join(student_skills[:3])}, and I would be glad to "
             f"contribute to the work in your group in whatever capacity would be most useful.\n\n"
+        )
+    else:
+        body += (
+            "I would be glad to contribute to the work in your group in whatever capacity "
+            "would be most useful.\n\n"
         )
     # Matches the Gemini path: assume the attachment only when a CV is actually on file.
     cv_line = (
@@ -563,13 +747,17 @@ async def draft_email(
         student_name = student.get("name") or "the applicant"
         student_interests = student.get("research_interests", "")
         comp = student.get("structured_competencies") or {}
-        student_skills = comp.get("skills", [])
-        student_education = comp.get("education", "")
-        # Both were already loaded by select("*") and simply never read. They are the
-        # richest grounding we have for paragraph 2 -- the CV text itself is parsed at
-        # onboarding and discarded, so this synthesis is all that survives of it.
-        synthesized_summary = comp.get("synthesized_summary", "")
-        domain_tags = student.get("domain_tags") or []
+        # Filtered, not raw. comp["skills"] mixes what the student wrote with what the
+        # analyzer suggested, and the draft states them in the student's voice to a PI.
+        # Only terms of origin narrative, cv or student_added pass; nothing passes from
+        # an unreviewed keyword-scan profile; education passes only once confirmed.
+        allowed = draft_inputs(comp, student.get("domain_tags"), student.get("research_interests"))
+        student_skills = allowed["skills"]
+        student_education = allowed["education"]
+        # "" by draft_inputs()'s decision: the summary is AI-written and restates the
+        # AI-suggested terms and the unconfirmed degree that the filter just removed.
+        synthesized_summary = allowed["summary"]
+        domain_tags = allowed["domains"]
         # resume_url stores the uploaded filename as a presence marker (the CV text itself is
         # parsed at onboarding and discarded), and profile edits deliberately leave it alone.
         # So it is the one honest signal for "this student has a CV to attach".
@@ -611,6 +799,18 @@ async def draft_email(
         grant_title = derive_display_title(grant.get("grant_title", ""))
         grant_abstract = grant.get("grant_abstract", "")
 
+        # Which of the allowed terms occur word for word in the text held for this
+        # award. Searched against the stored title, not the shortened one. Empty for an
+        # llm_generated description, which is never searched.
+        # Empty too when the row does not say whether its text is generated: unknown is
+        # not "recorded as published" (same rule as evidence_card_keys).
+        found = build_fit_evidence(student_skills + domain_tags, grant)
+        matched_terms = (
+            []
+            if found["basis"] == BASIS_LLM_GENERATED or grant.get("abstract_is_generated") is None
+            else [r["term"] for r in found["rows"]]
+        )
+
         # 3. Call Gemini dynamic drafter or fallback (Bypassed instantly for Sarah Nguyen's video walk-through!)
         try:
             # Exact UUID, never the name: a real student who happens to be called Sarah
@@ -637,6 +837,7 @@ async def draft_email(
                     grant_abstract=grant_abstract,
                     abstract_is_generated=abstract_is_generated,
                     has_cv=has_cv,
+                    matched_terms=matched_terms,
                 )
                 draft = query_gemini_draft(**draft_kwargs)
 
@@ -675,6 +876,7 @@ async def draft_email(
                 student_name, student_skills, pi_name, university,
                 education=student_education,
                 has_cv=has_cv,
+                matched_terms=matched_terms,
             )
 
         # The Gemini/demo paths produce a real personalized draft; only get_fallback_draft

@@ -9,6 +9,8 @@ import uuid
 from ..database import get_db
 from ..auth_deps import get_optional_student_id, authorize_student
 from ..services.ingest import run_grant_ingestion, is_brief_abstract, expand_grant_abstract_via_llm, scan_methodologies
+from ..services.fit_evidence import BASIS_SAMPLE, evidence_card_keys
+from ..services.profile_terms import evidence_terms, sample_evidence_terms
 
 router = APIRouter()
 
@@ -140,6 +142,50 @@ def _demo_decks() -> dict:
             },
         ],
     }
+
+
+def _demo_profiles() -> dict:
+    # What the two personas' evidence rows and "Sample profile" panel are built from.
+    # The decks above are returned before any student lookup and the personas have no
+    # students row, so there is no stored profile to read terms from.
+    #
+    # The values are the ones Onboarding.tsx already puts in the persona's session
+    # (and, for Sarah, the ones analyze_profile hardcodes). Keep the three in step.
+    # Every term is served with origin `sample`, never `cv` or `narrative`: no CV is
+    # parsed for a persona, and these decks are what the ad recordings show.
+    return {
+        SARAH_DEMO_STUDENT_ID: {
+            "skills": ["Deep Learning", "Genomics", "Somatic Mutations", "Transcription Factors", "Python"],
+            "domain_tags": ["Deep Learning", "Genomics", "Oncology"],
+            "education": "B.S. in Biomedical Science (Stanford University)",
+            "synthesized_summary": "Pre-med student at Stanford University focused on applying deep neural networks to map somatic cancer mutations and predict genomic transcription factor shifts.",
+        },
+        ELENA_DEMO_STUDENT_ID: {
+            "skills": ["Molecular Biology", "CRISPR-Cas9", "Stem Cells", "Epigenetics", "Python"],
+            "domain_tags": ["Molecular Biology", "CRISPR-Cas9", "Epigenetics"],
+            "education": "B.S. in Molecular Biology (Harvard University)",
+            "synthesized_summary": "Molecular biology student at Harvard University interested in stem cell screening and CRISPR base editing.",
+        },
+    }
+
+
+def demo_profile(student_id: str) -> Optional[dict]:
+    """The sample profile for a persona's exact UUID, else None."""
+    return _demo_profiles().get(student_id)
+
+
+def demo_card_with_evidence(card: dict, terms: List[dict]) -> dict:
+    """A persona deck card plus its evidence keys. Score and text are not touched.
+
+    Same build_fit_evidence as a real card, over the card's own sample text, with the
+    basis forced to `sample` so nothing about it is attributed to an agency.
+    """
+    row = {
+        "grant_title": card.get("grant_title"),
+        "grant_abstract": card.get("abstract"),
+        "abstract_is_generated": False,
+    }
+    return {**card, **evidence_card_keys(terms, row, basis=BASIS_SAMPLE)}
 
 
 def clamp_score(value) -> Optional[int]:
@@ -700,7 +746,8 @@ def format_match_card(grant: dict, *, score, score_components: Optional[dict],
                       student_roles: Optional[list] = None,
                       location_match: bool = False, status=None, pi_email=None,
                       outreach_status=None, contacted_at=None, responded_at=None,
-                      next_follow_up_at=None) -> dict:
+                      next_follow_up_at=None,
+                      student_terms: Optional[list] = None) -> dict:
     """Canonical deck-card shape shared by EVERY match path (RPC/hybrid, keyword, /match,
     saved). Each site used to copy-paste this dict -- the exact class of duplication that
     produced the original fabricated-email bug. `grant` is a normalized dict carrying:
@@ -726,6 +773,13 @@ def format_match_card(grant: dict, *, score, score_components: Optional[dict],
           read for display at all.
     student_skills and student_roles are accepted and ignored for the same reason; they
     remain in the signature only so existing callers do not break.
+
+    Evidence (phase 2). student_terms is the student's kept terms, [{term, origin}],
+    loaded ONCE per request by the caller. The four evidence_* keys say which of those
+    terms occur word for word in this award's title or abstract, with the sentence. They
+    are display only: nothing here reads them back into score or order. None means the
+    terms were not loaded, and the keys are then null so the card shows nothing rather
+    than "none of your terms appear". See services/fit_evidence.py.
     """
     methodologies = grant.get("methodologies") or []
     pi_name = grant.get("pi_name") or "N/A"
@@ -788,10 +842,12 @@ def format_match_card(grant: dict, *, score, score_components: Optional[dict],
         "contacted_at": contacted_at,
         "responded_at": responded_at,
         "next_follow_up_at": next_follow_up_at,
+        **evidence_card_keys(student_terms, grant),
     }
 
 
-def format_saved_card(grant: dict, match: dict, student_skills: List[str], student_loc: Optional[str]) -> dict:
+def format_saved_card(grant: dict, match: dict, student_skills: List[str], student_loc: Optional[str],
+                      student_terms: Optional[list] = None) -> dict:
     """Deck card for a grant the student has already saved or emailed.
 
     Scores come from the stored match row (what the student saw when they swiped) and
@@ -815,6 +871,10 @@ def format_saved_card(grant: dict, match: dict, student_skills: List[str], stude
         contacted_at=match.get("contacted_at"),
         responded_at=match.get("responded_at"),
         next_follow_up_at=match.get("next_follow_up_at"),
+        # Evidence is computed from the profile as it is now, unlike the score above,
+        # which is the stored one. It quotes the award text and the student's current
+        # terms; there is no swipe-time version of either to disagree with.
+        student_terms=student_terms,
     )
 
 
@@ -865,18 +925,28 @@ async def get_saved_matches(
         )
         grants = getattr(grants_resp, "data", None) or []
 
-        student_skills, student_loc = [], None
+        # student_terms stays None when the profile could not be read, so the cards
+        # carry null evidence instead of claiming none of the student's terms appear.
+        student_skills, student_loc, student_terms = [], None, None
         try:
-            s_resp = db.table("students").select("structured_competencies, location").eq("id", student_id).execute()
+            s_resp = (
+                db.table("students")
+                .select("structured_competencies, domain_tags, research_interests, location")
+                .eq("id", student_id)
+                .execute()
+            )
             if getattr(s_resp, "data", None):
                 comp = s_resp.data[0].get("structured_competencies") or {}
-                student_skills = [s.lower() for s in comp.get("skills", [])]
+                student_skills = [s.lower() for s in comp.get("skills", []) if isinstance(s, str)]
                 student_loc = s_resp.data[0].get("location") or comp.get("location")
+                student_terms = evidence_terms(
+                    comp, s_resp.data[0].get("domain_tags"), s_resp.data[0].get("research_interests")
+                )
         except Exception as e:
             warnings.warn(f"Failed to load student competencies for saved matches: {e}")
 
         cards = [
-            format_saved_card(g, by_grant[g["id"]], student_skills, student_loc)
+            format_saved_card(g, by_grant[g["id"]], student_skills, student_loc, student_terms)
             for g in grants if g.get("id") in by_grant
         ]
         # Emailed first (the outreach already in flight), then by score, NULLs last.
@@ -1065,8 +1135,14 @@ async def get_matches(
         if demo_deck is not None:
             demo_statuses = fetch_existing_match_statuses(db, student_id)
             # The scripted deck is the whole deck, so it is exhausted by definition.
+            # Evidence is added here, at serve time, from the sample term list. The deck
+            # literals carry none, so a card's text cannot drift from its quoted rows.
+            demo_terms = sample_evidence_terms(demo_profile(student_id) or {})
             return deck_envelope(
-                [dict(card, status=demo_statuses.get(card["id"])) for card in demo_deck],
+                [
+                    demo_card_with_evidence(dict(card, status=demo_statuses.get(card["id"])), demo_terms)
+                    for card in demo_deck
+                ],
                 offset,
                 True,
             )
@@ -1098,6 +1174,12 @@ async def get_matches(
         # Skills feed only the tag-overlap figure of the keyword/hybrid methods. They are
         # not put on the card (format_match_card emits no skill lists and no role).
         student_skills = [s.lower() for s in structured_comp.get("skills", []) if isinstance(s, str)]
+
+        # The student's kept terms with their origins, resolved ONCE per request and
+        # handed to every card. Pure: it reads the row already loaded above.
+        student_terms = evidence_terms(
+            structured_comp, student.get("domain_tags"), student.get("research_interests")
+        )
 
         # Load saved student location (resilient fallback if DB migration hasn't run yet)
         student_loc = student.get("location") or structured_comp.get("location")
@@ -1158,6 +1240,7 @@ async def get_matches(
                     location_match=location_match,
                     status=existing_matches.get(g_id),
                     pi_email=(existing_match_rows.get(g_id) or {}).get("pi_email"),
+                    student_terms=student_terms,
                 ))
 
             # Every candidate is already in hand and filtered, so paging is a slice of
@@ -1250,6 +1333,7 @@ async def get_matches(
                     location_match=location_match,
                     status=existing_matches.get(g_id),
                     pi_email=(existing_match_rows.get(g_id) or {}).get("pi_email"),
+                    student_terms=student_terms,
                 ))
 
             # The RPC returns rows in similarity order, so for the default method this

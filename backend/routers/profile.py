@@ -11,6 +11,17 @@ import warnings
 from ..database import get_db, generate_embedding
 from ..services.gemini_transport import gemini_endpoint, gemini_configured
 from .auth import scrub_student_record
+from .grants import demo_profile, validate_uuid
+from ..services.profile_terms import (
+    ProfileEditError,
+    SOURCE_AI_EXTRACTED,
+    SOURCE_FALLBACK,
+    keyword_scan,
+    merge_profile_terms,
+    profile_payload,
+    sample_profile_payload,
+    stored_lists,
+)
 from ..auth_deps import (
     DEMO_STUDENT_IDS,
     authorize_student,
@@ -118,40 +129,97 @@ def query_gemini_synthesis(cv_text: str, interests: str) -> dict:
             raise ValueError(f"Gemini API returned status code {response.status}")
 
 def get_fallback_profile(cv_text: str, interests: str) -> dict:
+    """Keyword scan used when the analyzer is offline or not configured. Invents nothing.
+
+    It returns only vocabulary terms that occur as whole words in the text the student
+    supplied, and empty lists otherwise.
+
+    What this used to do, and why each part is gone:
+      - default skills ["Python", "Data Analysis", "Research Methodologies"] when the
+        scan found nothing. Those were embedded, ranked on, and written into email
+        drafts as "hands-on experience with Python" for students who never wrote it.
+      - education "B.S. in Biomedical Science" if the text contained "bio", otherwise
+        "B.S. in Computer Science". A guessed degree, in the student's own voice.
+      - two fixed recommended roles and three fixed domain tags for every student.
+      - a summary sentence written around the invented skills.
+      - substring tests: "ml" matched "html", "cad" matched "academic".
+
+    `profile_source: fallback` rides along so the write path can stamp the row and the
+    panel can say the analyzer was unavailable. merge_profile_terms gives every term
+    here the origin `keyword_scan`.
     """
-    Generate a highly realistic fallback profile if Gemini API is offline or not configured.
-    """
-    input_lower = ((cv_text or "") + " " + (interests or "")).lower()
-    skills = []
-    if "python" in input_lower: skills.append("Python")
-    if "machine learning" in input_lower or "deep learning" in input_lower or "ml" in input_lower: skills.append("Machine Learning")
-    if "fastapi" in input_lower: skills.append("FastAPI")
-    if "microfluidics" in input_lower: skills.append("Microfluidics")
-    if "crispr" in input_lower: skills.append("CRISPR")
-    if "pytorch" in input_lower: skills.append("PyTorch")
-    if "r-seq" in input_lower or "sequencing" in input_lower: skills.append("Seq-RNA")
-    if "electrophysiology" in input_lower: skills.append("Electrophysiology")
-    if "cad" in input_lower or "solidworks" in input_lower: skills.append("CAD Design")
-    
-    if not skills:
-        skills = ["Python", "Data Analysis", "Research Methodologies"]
-        
-    education = "B.S. in Biomedical Science" if "bio" in input_lower else "B.S. in Computer Science"
-    
-    summary = (
-        f"The candidate is focused on exploring research questions in interdisciplinary scientific domains. "
-        f"Leveraging a strong interest in: {interests[:60]}... they aim to contribute technical capabilities including "
-        f"{', '.join(skills[:3])} to solve advanced lab research problems."
-    )
-    
     return {
-        "skills": skills,
-        "education": education,
-        "synthesized_summary": summary,
-        "recommended_roles": ["Research Assistant (Modeling)", "Bioinformatics Lab Technician"],
-        "domain_tags": ["Data Science", "Interdisciplinary Research", "Bioengineering"]
+        "skills": keyword_scan(cv_text, interests),
+        "education": None,
+        "synthesized_summary": "",
+        "recommended_roles": [],
+        "domain_tags": [],
+        "profile_source": SOURCE_FALLBACK,
     }
 
+
+# Same rule and the same words as update_narrative. Said when the analyzer fails for a
+# student who ALREADY has a profile.
+ANALYZER_DOWN_NOTHING_CHANGED = (
+    "Our analyzer is temporarily unavailable, so your profile wasn't changed. "
+    "Please try again in a moment."
+)
+
+
+def synthesize_or_scan(cv_text: str, interests: str, *, existing_id: Optional[str], route: str) -> dict:
+    """The analyzer's reading of the student's text; the keyword scan only for a NEW student.
+
+    For a new student a keyword scan beats an empty profile, and the row is stamped
+    `fallback` so the panel says what it is. For a student who already has a profile
+    it is a strict downgrade: the scan returns at most a few vocabulary hits, no domain
+    tags and no summary, and the merge would replace every extracted term with that,
+    blank the summary, null profile_reviewed_at and re-embed the row from the near-empty
+    text. draft_inputs() then passes nothing from the unreviewed fallback, the terms the
+    student added included. So on "Refine Interests" with the analyzer down nothing is
+    written and the student is told, as update_narrative already did.
+    """
+    try:
+        return query_gemini_synthesis(cv_text, interests)
+    except Exception as e:
+        if existing_id:
+            warnings.warn(f"Gemini synthesis failed in {route} for an existing profile: {e}. Nothing written.")
+            raise HTTPException(status_code=503, detail=ANALYZER_DOWN_NOTHING_CHANGED)
+        warnings.warn(f"Gemini API profile synthesis in {route} failed: {e}. Falling back to the keyword scan.")
+        return get_fallback_profile(cv_text, interests)
+
+
+def load_stored_profile(student_id: str) -> tuple:
+    """(structured_competencies, domain_tags) of an existing row, for merging.
+
+    Raises 502 when the read fails. Carrying on with an empty profile would let the
+    merge conclude the student had added and removed nothing, and the write that
+    follows would erase their corrections without a word.
+    """
+    try:
+        res = (
+            get_db()
+            .table("students")
+            .select("structured_competencies, domain_tags")
+            .eq("id", student_id)
+            .execute()
+        )
+    except Exception as e:
+        warnings.warn(f"Could not load stored profile {student_id} before a rewrite: {e}")
+        raise HTTPException(
+            status_code=502,
+            detail="We couldn't reach your profile. Please try again.",
+        )
+    rows = getattr(res, "data", None) or []
+    if not rows:
+        return {}, []
+    return rows[0].get("structured_competencies") or {}, rows[0].get("domain_tags") or []
+
+
+# The function below is unchanged since before phase 2, docstring included. Its INPUTS
+# are now cleaned first by merge_profile_terms (services/profile_terms.py): for clean
+# analyzer output the string is the one the old write paths produced; for output with
+# duplicate terms, stray whitespace or a null summary it is the cleaned text. That is
+# intended. See "What is embedded" in merge_profile_terms.
 def build_profile_text(
     name: str,
     interests: str,
@@ -271,21 +339,22 @@ async def parse_resume(
         except Exception as e:
             warnings.warn(f"Failed to parse CV file in legacy flow: {e}")
 
-    # 2. Extract profile using Gemini or fallback
-    try:
-        profile_data = query_gemini_synthesis(cv_text, interests)
-    except Exception as e:
-        warnings.warn(f"Gemini API profile synthesis failed: {e}. Falling back to rule-based heuristics.")
-        profile_data = get_fallback_profile(cv_text, interests)
+    # 2. Extract profile using Gemini; keyword scan for a new student only.
+    profile_data = synthesize_or_scan(cv_text, interests, existing_id=existing_id, route="/parse-resume")
 
-    structured_competencies = {
-        "skills": profile_data.get("skills", []),
-        "education": profile_data.get("education", ""),
-        "synthesized_summary": profile_data.get("synthesized_summary", ""),
-        "recommended_roles": profile_data.get("recommended_roles", []),
-        "location": location
-    }
-    domain_tags = profile_data.get("domain_tags", [])
+    # One merge for every write path; see services/profile_terms.py. cv_text is in
+    # memory here and nowhere else, so this is the only moment a term can be checked
+    # against the CV.
+    stored_comp, stored_tags = load_stored_profile(existing_id) if existing_id else ({}, [])
+    structured_competencies, domain_tags = merge_profile_terms(
+        existing_comp=stored_comp,
+        existing_domain_tags=stored_tags,
+        narrative=interests,
+        extracted=profile_data,
+        cv_text=cv_text,
+        source=profile_data.get("profile_source") or SOURCE_AI_EXTRACTED,
+        location=location,
+    )
     # Presence marker only -- the CV is never stored, so there is no URL to serve.
     # See the matching note in analyze_profile below.
     resume_url = file.filename if file else None
@@ -428,30 +497,35 @@ async def analyze_profile(
             )
 
     # 2. Query Gemini or Fallback (Bypassed instantly for Sarah Nguyen's video walk-through!)
-    try:
-        if name == "Sarah Nguyen":
-            profile_data = {
-                "skills": ["Deep Learning", "Genomics", "Somatic Mutations", "Transcription Factors", "Python"],
-                "education": "B.S. in Biomedical Science (Stanford University)",
-                "synthesized_summary": "Pre-med student at Stanford University focused on applying deep neural networks to map somatic cancer mutations and predict genomic transcription factor shifts.",
-                "recommended_roles": ["Computational Biologist Research Assistant", "Clinical Data Analyst"],
-                "domain_tags": ["Deep Learning", "Genomics", "Oncology"]
-            }
-        else:
-            profile_data = query_gemini_synthesis(cv_text, research_interests)
-    except Exception as e:
-        warnings.warn(f"Gemini API profile synthesis in /analyze failed: {e}. Falling back.")
-        profile_data = get_fallback_profile(cv_text, research_interests)
+    if name == "Sarah Nguyen":
+        profile_data = {
+            "skills": ["Deep Learning", "Genomics", "Somatic Mutations", "Transcription Factors", "Python"],
+            "education": "B.S. in Biomedical Science (Stanford University)",
+            "synthesized_summary": "Pre-med student at Stanford University focused on applying deep neural networks to map somatic cancer mutations and predict genomic transcription factor shifts.",
+            "recommended_roles": ["Computational Biologist Research Assistant", "Clinical Data Analyst"],
+            "domain_tags": ["Deep Learning", "Genomics", "Oncology"]
+        }
+    else:
+        profile_data = synthesize_or_scan(
+            cv_text, research_interests, existing_id=existing_id, route="/analyze"
+        )
 
-    structured_competencies = {
-        "skills": profile_data.get("skills", []),
-        "education": profile_data.get("education", ""),
-        "synthesized_summary": profile_data.get("synthesized_summary", ""),
-        "recommended_roles": profile_data.get("recommended_roles", []),
-        "location": location
-    }
-    domain_tags = profile_data.get("domain_tags", [])
-    
+    # One merge for every write path; see services/profile_terms.py. On "Refine
+    # Interests" (existing_id set) this is what keeps the terms the student added or
+    # removed: the blob used to be rebuilt from five fixed keys on every submit.
+    # cv_text is in memory here and nowhere else, so this is the only moment a term
+    # can be checked against the CV.
+    stored_comp, stored_tags = load_stored_profile(existing_id) if existing_id else ({}, [])
+    structured_competencies, domain_tags = merge_profile_terms(
+        existing_comp=stored_comp,
+        existing_domain_tags=stored_tags,
+        narrative=research_interests,
+        extracted=profile_data,
+        cv_text=cv_text,
+        source=profile_data.get("profile_source") or SOURCE_AI_EXTRACTED,
+        location=location,
+    )
+
     # Presence marker only: the CV is parsed and discarded, never stored, so there is
     # no URL to hand out. We record the uploaded filename (a true fact) instead of a
     # fabricated example.com link to a file that does not exist. Only set when a file
@@ -605,7 +679,7 @@ async def update_narrative(
         existing = (
             get_db()
             .table("students")
-            .select("id, name, structured_competencies, location")
+            .select("id, name, structured_competencies, domain_tags, location")
             .eq("id", student_id)
             .execute()
         )
@@ -648,16 +722,22 @@ async def update_narrative(
             ),
         )
 
-    structured_competencies = {
-        "skills": profile_data.get("skills", []),
-        "education": profile_data.get("education", ""),
-        "synthesized_summary": profile_data.get("synthesized_summary", ""),
-        "recommended_roles": profile_data.get("recommended_roles", []),
+    # Same merge as the onboarding routes. This route used to rebuild the blob from the
+    # fresh parse alone, so one narrative edit discarded every term the student had
+    # added, brought back every term they had removed, and cleared their confirmed
+    # education. No cv_text: see the note above. A term whose stored origin is `cv`
+    # keeps it, because that check was made when the CV was in hand.
+    stored_comp = student.get("structured_competencies") or {}
+    structured_competencies, domain_tags = merge_profile_terms(
+        existing_comp=stored_comp,
+        existing_domain_tags=student.get("domain_tags") or [],
+        narrative=interests,
+        extracted=profile_data,
+        source=SOURCE_AI_EXTRACTED,
         # Carried over, not re-derived: location is a form field the student typed on
         # the onboarding screen, not a Gemini output, and this route never sees it.
-        "location": (student.get("structured_competencies") or {}).get("location") or student.get("location"),
-    }
-    domain_tags = profile_data.get("domain_tags", [])
+        location=stored_comp.get("location") or student.get("location"),
+    )
 
     profile_text = build_profile_text(
         student.get("name") or "", interests, structured_competencies, domain_tags
@@ -707,4 +787,195 @@ async def update_narrative(
     return {
         "status": "success",
         "student": scrub_student_record(response.data[0]),
+    }
+
+
+def _load_student_for_terms(student_id: str) -> dict:
+    """The stored row behind /profile/terms. 404 when absent, 502 when the read failed:
+    a failed lookup is not a missing profile (see the same note in get_matches)."""
+    try:
+        res = (
+            get_db()
+            .table("students")
+            .select("id, name, research_interests, structured_competencies, domain_tags")
+            .eq("id", student_id)
+            .execute()
+        )
+    except HTTPException:
+        raise
+    except Exception as e:
+        warnings.warn(f"Could not load student {student_id} for profile terms: {e}")
+        raise HTTPException(
+            status_code=502,
+            detail="We couldn't reach your profile. Please try again.",
+        )
+    rows = getattr(res, "data", None) or []
+    if not rows:
+        raise HTTPException(status_code=404, detail="We couldn't find your profile.")
+    return rows[0]
+
+
+@router.get("/terms")
+async def get_profile_terms(
+    student_id: str,
+    caller_id: Optional[str] = Depends(get_optional_student_id),
+):
+    """What the student's matches are based on: their narrative, the AI-written summary,
+    and every term with where it came from.
+
+    Read-only in the strict sense. No Gemini call, no embedding call and no write, so
+    opening the panel costs nothing and changes nothing. Origins for rows written before
+    term_meta existed are computed here from the stored narrative.
+    """
+    validate_uuid(student_id, "student_id")
+    authorize_student(student_id, caller_id)
+
+    # Exact UUID, and answered before any database read: the personas have no students
+    # row, and a failed lookup must never be what decides that a caller is a persona.
+    sample = demo_profile(student_id)
+    if sample is not None:
+        return sample_profile_payload(student_id, sample)
+
+    student = _load_student_for_terms(student_id)
+    return profile_payload(
+        student_id,
+        student.get("structured_competencies") or {},
+        student.get("domain_tags") or [],
+        student.get("research_interests"),
+    )
+
+
+class ProfileTermsUpdateRequest(BaseModel):
+    student_id: str
+    keep: List[str] = []
+    remove: List[str] = []
+    add: List[str] = []
+    # None (or omitted) leaves the stored value alone; "" clears it.
+    education: Optional[str] = None
+    education_confirmed: Optional[bool] = None
+
+
+PROFILE_NOT_RECOMPUTED = "Not saved. We could not recompute your profile right now. Try again later."
+
+
+def _embedding_text(name, interests, comp: dict, domain_tags) -> str:
+    """build_profile_text() for a row as stored, in the SAME normal form
+    merge_profile_terms writes. Used only to decide whether an edit changed the text the
+    vector is made from.
+
+    This compared the raw stored row with the merged one. The merge cleans the lists
+    (duplicates, stray spaces, removed terms) and turns a missing summary into "", so
+    on any row not already in that form the two texts differed although the student
+    had changed no term: "These are right" or an education tick re-embedded the
+    student, reordered their deck, and could answer 503. Both sides now go through
+    stored_lists() and the same summary rule, so only a term the student removed or
+    added can make them differ.
+    """
+    skills, domains = stored_lists(comp, domain_tags)
+    summary = comp.get("synthesized_summary")
+    return build_profile_text(
+        name or "",
+        interests or "",
+        {"synthesized_summary": summary if isinstance(summary, str) else "", "skills": skills},
+        domains,
+    )
+
+
+@router.patch("/terms")
+async def update_profile_terms(
+    payload: ProfileTermsUpdateRequest,
+    caller_id: Optional[str] = Depends(get_optional_student_id),
+):
+    """Apply the student's corrections to their own profile and re-embed.
+
+    The order is the point: validate, merge in memory, embed, and only then write. If
+    the embedding call fails nothing is written and the route answers 503. Saving the
+    terms without the vector would show the student their corrected list while the deck
+    went on ranking by the old one, with no error anywhere.
+
+    An edit that changes only the education line does not touch the text the vector is
+    built from (build_profile_text has no education), so it makes no embedding call.
+    The same holds for an edit that changes no term at all, and for one that only
+    claims a term already in the profile (see _embedding_text).
+    """
+    student_id = payload.student_id
+    validate_uuid(student_id, "student_id")
+    authorize_student(student_id, caller_id)
+
+    # Same backstop as the narrative editor: personas are edited nowhere, and a 404 is
+    # honest where a pretended save would not be.
+    if student_id in DEMO_STUDENT_IDS:
+        raise HTTPException(
+            status_code=404,
+            detail="Demo profiles aren't stored, so they can't be edited.",
+        )
+
+    student = _load_student_for_terms(student_id)
+    stored_comp = student.get("structured_competencies") or {}
+    stored_tags = student.get("domain_tags") or []
+    narrative = student.get("research_interests") or ""
+
+    try:
+        # `keep` is accepted and not read: a term in neither list stays, so nothing can
+        # be dropped by leaving it out of the request. It is not validated either. It
+        # names stored terms, and a stored term over the 80-character limit made every
+        # save on that profile a 400 (see validate_edit_terms).
+        structured_competencies, domain_tags = merge_profile_terms(
+            existing_comp=stored_comp,
+            existing_domain_tags=stored_tags,
+            narrative=narrative,
+            edit={
+                "remove": payload.remove,
+                "add": payload.add,
+                "education": payload.education,
+                "education_confirmed": payload.education_confirmed,
+            },
+        )
+    except ProfileEditError as e:
+        raise HTTPException(status_code=400, detail=str(e))
+
+    update = {
+        "structured_competencies": structured_competencies,
+        "domain_tags": domain_tags,
+    }
+
+    old_text = _embedding_text(student.get("name"), narrative, stored_comp, stored_tags)
+    new_text = build_profile_text(
+        student.get("name") or "", narrative, structured_competencies, domain_tags
+    )
+    embedding_recomputed = new_text != old_text
+    if embedding_recomputed:
+        try:
+            embedding = generate_embedding(new_text)
+        except Exception as e:
+            warnings.warn(f"Embedding failed during profile terms update for {student_id}: {e}. Nothing written.")
+            raise HTTPException(status_code=503, detail=PROFILE_NOT_RECOMPUTED)
+        # An all-zero or empty vector matches every award equally badly; writing it
+        # would look like a success. Same guard as update_narrative.
+        if not embedding or not any(embedding):
+            raise HTTPException(status_code=503, detail=PROFILE_NOT_RECOMPUTED)
+        update["embedding"] = embedding
+
+    try:
+        response = get_db().table("students").update(update).eq("id", student_id).execute()
+    except HTTPException:
+        raise
+    except Exception as e:
+        warnings.warn(f"Profile terms write failed for {student_id}: {e}")
+        raise HTTPException(
+            status_code=502,
+            detail="Your profile couldn't be saved. Please try again.",
+        )
+
+    # No returned row means nothing was written, whatever the call looked like.
+    if not getattr(response, "data", None):
+        raise HTTPException(
+            status_code=502,
+            detail="Your profile couldn't be saved. Please try again.",
+        )
+
+    return {
+        "status": "success",
+        "embedding_recomputed": embedding_recomputed,
+        "profile": profile_payload(student_id, structured_competencies, domain_tags, narrative),
     }

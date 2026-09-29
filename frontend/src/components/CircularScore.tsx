@@ -87,6 +87,9 @@ interface SimilarityNotesProps {
   hasScore: boolean;
   abstractIsGenerated?: boolean;
   isDemo?: boolean;
+  // False where FitEvidence follows: it carries the undergraduates line at its own foot,
+  // and the same sentence twice on one card reads as two separate cautions.
+  showUndergraduateNote?: boolean;
 }
 
 /**
@@ -102,16 +105,24 @@ export const SimilarityNotes: React.FC<SimilarityNotesProps> = ({
   hasScore,
   abstractIsGenerated = false,
   isDemo = false,
-}) => (
-  <div className="space-y-1.5">
-    {hasScore && !isDemo && (
-      <p className="text-xs text-stone-600 leading-relaxed">{SIMILARITY_EXPLANATION}</p>
-    )}
-    {hasScore && !isDemo && abstractIsGenerated && (
-      <p className="text-xs text-amber-800 leading-relaxed">{SIMILARITY_GENERATED_NOTE}</p>
-    )}
-    <p className="text-xs text-stone-600 leading-relaxed">{UNDERGRADUATE_NOTE}</p>
-  </div>
-);
+  showUndergraduateNote = true,
+}) => {
+  const showExplanation = hasScore && !isDemo;
+  // Nothing to say: no wrapper either, so the caller's spacing does not open a gap.
+  if (!showExplanation && !showUndergraduateNote) return null;
+  return (
+    <div className="space-y-1.5">
+      {showExplanation && (
+        <p className="text-xs text-stone-600 leading-relaxed">{SIMILARITY_EXPLANATION}</p>
+      )}
+      {showExplanation && abstractIsGenerated && (
+        <p className="text-xs text-amber-800 leading-relaxed">{SIMILARITY_GENERATED_NOTE}</p>
+      )}
+      {showUndergraduateNote && (
+        <p className="text-xs text-stone-600 leading-relaxed">{UNDERGRADUATE_NOTE}</p>
+      )}
+    </div>
+  );
+};
 
 export default CircularScore;

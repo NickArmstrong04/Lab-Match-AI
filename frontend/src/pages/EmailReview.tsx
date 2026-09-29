@@ -17,6 +17,7 @@ import {
   similarityValue,
 } from '../utils/card';
 import AiPiBadge from '../components/AiPiBadge';
+import FitEvidence from '../components/FitEvidence';
 
 // Persona deck card ids, as minted in Onboarding.tsx and _demo_decks() (grants.py).
 const SARAH_CARD_ROBOTICS = '22222222-2222-2222-2222-222222222222';
@@ -480,8 +481,16 @@ export const EmailReview: React.FC<EmailReviewProps> = ({
                 hasScore={similarity !== null}
                 abstractIsGenerated={!!match.abstract_is_generated}
                 isDemo={isDemo}
+                showUndergraduateNote={false}
               />
             </div>
+
+            {/* The same evidence block as the card, from the same card object. No
+                "Review your profile" link here: a save changes the terms, and this
+                card's rows were found with the old ones, so the panel is offered on
+                the dashboard, where a save reloads the deck. Nothing in this block can
+                be copied into the draft: the drafting rules forbid naming the award. */}
+            <FitEvidence card={match} />
 
             {/* Award description. The "AI-generated summary" pill stays with the text it
                 labels; only the "Key Project Methodologies" heading went, since the text

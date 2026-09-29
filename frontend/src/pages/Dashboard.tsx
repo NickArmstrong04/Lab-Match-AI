@@ -27,6 +27,10 @@ import {
 import { isDemoStudent } from '../utils/demoPersonas';
 import AiPiBadge from '../components/AiPiBadge';
 import { SimilarityNotes } from '../components/CircularScore';
+import FitEvidence from '../components/FitEvidence';
+import ProfileBasisPanel from '../components/ProfileBasisPanel';
+import { NO_TERMS_NOTE, type EvidenceFields } from '../utils/evidence';
+import { fetchProfileTerms, termsSignature, type ProfileTerms } from '../utils/profileTerms';
 
 /**
  * Render a funding window honestly.
@@ -44,7 +48,10 @@ export const formatHorizon = (start?: string | null, end?: string | null): strin
   return 'Dates not published';
 };
 
-export interface GrantMatch {
+// The evidence keys (evidence, evidence_matched, evidence_total, evidence_basis) come
+// from EvidenceFields. All optional: saved rows, an older backend and Onboarding's
+// hardcoded persona deck send cards without them. Read through readCardEvidence.
+export interface GrantMatch extends EvidenceFields {
   id: string;
   // Raw column value, placeholder included -- render through piDisplayName (utils/pi.ts).
   pi_name: string;
@@ -62,6 +69,9 @@ export interface GrantMatch {
   // hardcoded constants written by ingest, not anything an agency published.
   department?: string;
   title: string;
+  // The stored grant_title column, verbatim. `title` above is a shortened display form
+  // (derive_display_title); evidence rows with field "title" quote this one.
+  grant_title?: string;
   // The stored funding_source (NIH, NSF, DOD, DOE, EPA, NASA, USDA, DNR), or null when
   // the row has none. Was `'NIH' | 'NSF'` with a server-side "NIH" default, which
   // labelled every USAspending award as one or the other. Render through utils/card.ts.
@@ -414,6 +424,24 @@ export const Dashboard: React.FC<DashboardProps> = ({
 
   const [showNarrativeEditor, setShowNarrativeEditor] = useState(false);
 
+  // "What your matches are based on". Mounted only while open, like the narrative editor.
+  const [showProfilePanel, setShowProfilePanel] = useState(false);
+  // The profile as the server holds it, read for the first-run banner. null until it
+  // has been read, and null if the read failed: the banner states a count, so without
+  // one it is not drawn. The panel reports its own load failure when opened.
+  const [profileBasis, setProfileBasis] = useState<ProfileTerms | null>(null);
+  // Signature of the term list the banner was dismissed for (termsSignature). Kept in
+  // localStorage because this component is unmounted for the composer; a later
+  // extraction that changes the terms changes the signature and the banner returns.
+  const bannerDismissKey = `labmatch_profile_banner_dismissed_${studentId}`;
+  const [bannerDismissedFor, setBannerDismissedFor] = useState<string | null>(() => {
+    try {
+      return localStorage.getItem(bannerDismissKey);
+    } catch {
+      return null;
+    }
+  });
+
   // The filters the deck in hand was requested with. When a fetch starts under different
   // ones, the old deck is dropped first: its top card used to stay on screen for the
   // length of the request, under a toggle that no longer described it.
@@ -745,6 +773,27 @@ export const Dashboard: React.FC<DashboardProps> = ({
     refreshSavedMatches();
   }, [refreshSavedMatches, deckReloadKey]);
 
+  // Read the profile for the first-run banner. Re-read with the deck: a saved narrative
+  // re-extracts the terms and clears profile_reviewed_at. Never for the personas, whose
+  // profile is a sample nobody is asked to check.
+  useEffect(() => {
+    // Nothing to clear on this path: the banner is gated on isDemoDeck where it is drawn.
+    if (!studentId || studentId === 'undefined' || isDemoDeck) return;
+    const controller = new AbortController();
+    fetchProfileTerms(studentId, controller.signal)
+      .then((p) => {
+        if (!controller.signal.aborted) setProfileBasis(p);
+      })
+      .catch((err) => {
+        if (axios.isCancel(err) || controller.signal.aborted) return;
+        // Non-fatal and silent: the deck works without the banner, and an error here
+        // would be about a panel the student has not opened.
+        console.error('Failed to load profile terms for the review banner:', err);
+        setProfileBasis(null);
+      });
+    return () => controller.abort();
+  }, [studentId, isDemoDeck, deckReloadKey]);
+
   // Filter out skipped and saved matches from the deck, unless inspected
   const unswipedDeck = deckMatches.filter(
     (m) => !skippedMatches.includes(m.id) && !savedMatches.some((s) => s.id === m.id)
@@ -830,7 +879,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
       if (el && (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA' || el.isContentEditable)) return;
       // Any modal owns the keyboard while it's open. Without the narrative-editor guard,
       // arrow keys pressed over one of its buttons still swiped the deck behind it.
-      if (showPaywall || showNarrativeEditor) return;
+      if (showPaywall || showNarrativeEditor || showProfilePanel) return;
       if (e.key === 'Escape') {
         if (inspectedMatch) { setInspectedMatch(null); }
         else if (lastSwipe) { handleUndo(); }
@@ -1218,9 +1267,71 @@ export const Dashboard: React.FC<DashboardProps> = ({
     setDeckReloadKey((k) => k + 1);
   };
 
+  /**
+   * The terms panel saved. Changed terms mean a new student vector (the server says so
+   * with embedding_recomputed), so the deck in hand is an ordering that no longer
+   * exists and its evidence rows were found with the old terms: same reset as a saved
+   * narrative. An education-only save changes neither, and the deck is left alone.
+   */
+  const handleProfileSaved = (profile: ProfileTerms, embeddingRecomputed: boolean) => {
+    setProfileBasis(profile);
+    if (!embeddingRecomputed) return;
+    setDeckMatches([]);
+    setCurrentIndex(0);
+    setDeckOffset(0);
+    setDeckExhausted(false);
+    setInspectedMatch(null);
+    setLastSwipe(null);
+    autoLoadAttempts.current = 0;
+    setLoadMoreError('');
+    setIsDeckLoading(true);
+    setDeckReloadKey((k) => k + 1);
+  };
+
+  const profileSignature = profileBasis ? termsSignature(profileBasis.terms) : '';
+  const showReviewBanner = !isDemoDeck
+    && !!profileBasis
+    && !profileBasis.is_demo
+    && !profileBasis.profile_reviewed_at
+    && bannerDismissedFor !== profileSignature;
+
+  // The banner used to read "We extracted {n} terms from what you gave us", with n
+  // counting every term. Terms the panel labels "AI-suggested, not in your text" were in
+  // that number, so the banner claimed a source the product denies one click later.
+  const reviewBannerText = (() => {
+    const terms = profileBasis?.terms ?? [];
+    const n = terms.length;
+    if (n === 0) return NO_TERMS_NOTE;
+    const k = terms.filter((t) => t.origin === 'ai_suggested').length;
+    const uses = `Your matches use ${n} profile ${n === 1 ? 'term' : 'terms'}`;
+    const suggested = k === 0
+      ? ''
+      : k === n
+        ? (n === 1 ? ', suggested by AI and not in your text' : ', all suggested by AI and not in your text')
+        : `, ${k} of them suggested by AI and not in your text`;
+    return `${uses}${suggested}. Check ${n === 1 ? 'it' : 'them'} before you rely on these results.`;
+  })();
+
+  const dismissReviewBanner = () => {
+    setBannerDismissedFor(profileSignature);
+    try {
+      localStorage.setItem(bannerDismissKey, profileSignature);
+    } catch {
+      /* storage unavailable: dismissed for this page load only */
+    }
+  };
+
   return (
     <div className="w-full max-w-7xl mx-auto px-4 py-6 animate-fade-in">
       <PaywallModal isOpen={showPaywall} onClose={handlePaywallClose} />
+      {showProfilePanel && (
+        <ProfileBasisPanel
+          studentId={studentId}
+          sessionNarrative={researchInterests}
+          onClose={() => setShowProfilePanel(false)}
+          onSaved={handleProfileSaved}
+        />
+      )}
       {/* Mounted only while open, so the draft resets to the saved narrative on reopen. */}
       {showNarrativeEditor && (
         <EditNarrativeModal
@@ -1294,6 +1405,33 @@ export const Dashboard: React.FC<DashboardProps> = ({
         </div>,
         document.body
       )}
+      {/* First-run notice: the terms behind the deck have not been looked at by the
+          student. Stone, not amber: it is about their profile, not a provenance warning
+          on federal data. Gone once a save stamps profile_reviewed_at. */}
+      {showReviewBanner && profileBasis && (
+        <div className="mb-4 rounded-xl border border-stone-200 bg-stone-100 px-4 py-3 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+          <p className="text-sm text-stone-700 leading-relaxed">
+            {reviewBannerText}
+          </p>
+          <div className="shrink-0 flex items-center gap-2">
+            <button
+              type="button"
+              onClick={() => setShowProfilePanel(true)}
+              className="px-3.5 py-1.5 rounded-lg bg-stone-800 hover:bg-stone-900 text-white text-xs font-semibold cursor-pointer transition-colors whitespace-nowrap"
+            >
+              Review your profile
+            </button>
+            <button
+              type="button"
+              onClick={dismissReviewBanner}
+              className="px-3.5 py-1.5 rounded-lg bg-white border border-stone-300 text-stone-700 hover:border-stone-400 text-xs font-semibold cursor-pointer transition-colors"
+            >
+              Dismiss
+            </button>
+          </div>
+        </div>
+      )}
+
       <div className="flex flex-col lg:flex-row gap-8 min-h-0">
         
         {/* Left 25% Sidebar — locked height; saved list scrolls inside */}
@@ -1466,6 +1604,17 @@ export const Dashboard: React.FC<DashboardProps> = ({
                   </button>
                 </div>
                 <p className="truncate italic" title={researchInterests}>"{researchInterests}"</p>
+                <div className="flex items-center justify-between gap-2 text-stone-500 font-medium pt-1">
+                  <span>{isDemoDeck ? 'sample profile' : 'your profile terms'}</span>
+                  <button
+                    type="button"
+                    onClick={() => setShowProfilePanel(true)}
+                    className="shrink-0 inline-flex items-center rounded-md border border-stone-200 bg-stone-50 px-2 py-1 text-[#0d5c5c] font-semibold hover:border-stone-300 hover:bg-stone-100 transition-colors cursor-pointer"
+                    title="What your matches are based on"
+                  >
+                    {isDemoDeck ? 'View' : 'Review'}
+                  </button>
+                </div>
               </div>
             </div>
           </GlassCard>
@@ -1698,10 +1847,21 @@ export const Dashboard: React.FC<DashboardProps> = ({
                       cannot tell a student. Replaces the "Alignment Score Logic" block:
                       its skill chips were keyword-tag overlap presented as the student's
                       skills, and its +30 line described a boost that no longer exists. */}
-                  <div className="mb-3">
+                  {/* Then the evidence: the student's own terms, word for word in the
+                      text we hold. It carries the undergraduates line at its foot, and
+                      draws only that line for a card without evidence keys. */}
+                  <div className="mb-3 space-y-2.5">
                     <SimilarityNotes
                       hasScore={similarityValue(currentMatch) !== null}
                       abstractIsGenerated={!!currentMatch.abstract_is_generated}
+                      isDemo={isDemo}
+                      showUndergraduateNote={false}
+                    />
+                    <FitEvidence
+                      // Keyed so "Show all" on one card is not carried to the next.
+                      key={currentMatch.id}
+                      card={currentMatch}
+                      onReviewProfile={() => setShowProfilePanel(true)}
                       isDemo={isDemo}
                     />
                   </div>
