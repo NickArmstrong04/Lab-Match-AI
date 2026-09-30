@@ -1,0 +1,142 @@
+[
+ {
+  "id": "0124c11d-4d12-4521-9338-ea5a4a9e33b8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Bridging the Gut-Brain Connection: A Novel Integrated Approach to Esophageal Symptom Perception",
+  "text": "Traditional approaches to gastroesophageal reflux disease (GERD) focus primarily on physiological\nprocesses, such as acid reflux, while largely overlooking psychological factors, including esophageal\nhypervigilance and symptom-specific anxiety, that contribute to persistent, treatment-refractory\nsymptoms. This project will integrate ecological momentary assessment, a real-time method for\ncapturing psychological states, with 96-hour wireless pH monitoring, which records acid reflux events\nand associated symptoms, to examine how psychological and physiological processes interact as\nsymptoms unfold in daily life. By elucidating these temporal and mechanistic relationships, this work\nwill provide novel insights into symptom generation and inform the development of precision behavioral\ninterventions to improve care for individuals with GERD."
+ },
+ {
+  "id": "0129f2ae-b3a4-4a06-9966-6cf9511f3c37",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Stem Cell, Organoid and Cell Phenotyping Module",
+  "text": "Resource/Service Core: Stem Cell, Organoid, and Cell Phenotyping Module Abstract The goal of the Stem Cell, Organoid and Cell Phenotyping (SOCP) Module is to provide vision researchers with access to cutting-edge technologies including stem cell and organoid development, extracellular vesicle analysis, and immunometabolism phenotyping. To accomplish this goal, this Module is structured into two arms. The first arm will support the development of induced pluripotent stem cells (iPSCs) and organoids relevant to the eye. The second arm will provide comprehensive services for immunometabolic profiling, including flow cytometry, high throughput cellular analysis, live cell metabolic profiling using Seahorse and high resolution respirometry (Oroboros), and analysis of extracellular vesicles from cell culture and human body fluids. Together, this Module will allow for the rigorous study of a wide range of NEI-focused research activities, including all NEI-funded research projects, and new collaborative and pilot projects. The director and staff of this Module will provide training, technical support, and maintenance of key equipment to facilitate scientifically rigorous, cutting-edge, vision research. The Stem Cell/Organoid arm of this Module will provide the following essential services: 1) Provide technical support and reagents for the derivation, culture, validation, and cryopreservation of induced pluripotent stem cells (iPSCs). 2) Provide technical support for the generation and culture of organoids from human and mouse embryonic and adult stem cells. 3) Provide reagents for mycoplasma testing, STR profiling, and karyotyping analysis. The Cell Phenotyping arm of this Module will provide the following comprehensive analytical services: 1) Flow cytometry 2) Cell sorting 3) High throughput cellular analysis 4) Live cell metabolic profiling 5) Microvesicle quantification and size determination Collectively, these services will provide our vision research community with state-of-the-art resources that will increase their experimental efficiency and support the generation of high quality, quantitative data for all aspects of visual science."
+ },
+ {
+  "id": "012a9ea9-2217-427c-a49a-3b58f77aed32",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Genomics and Bioinformatics Core",
+  "text": "There has been a revolution in biomedicine fueled by the development of next generation sequencing (NGS) technologies which has made it possible to address biological questions at a systems level. Now, instead of determining the effect of perturbing one gene, all genes can be assessed simultaneously. Instead of asking how a transcription factor binds to a single promoter or enhancer, all binding sites for that factor can be determined in a single experiment. In addition to looking at expression events across all the cells within a complex, heterogenous tissue, we can determine changes at the single cell level. Taking advantage of these approaches involves the application of specialized technical and analytical skills beyond the reach of most individual laboratories. Mindful of these issues, and of the need to apply cutting edge genome-wide technology to questions of relevance to diabetes, obesity, and metabolic disease, we have established a Functional Genomics and Bioinformatics Core. The goals of this Core are to provide access to state-of-the-art methods to members of the BADERC community in order to enhance and facilitate a deeper understanding of how metabolic disease develops, and how it can be diagnosed and treated."
+ },
+ {
+  "id": "0130f277-2114-4b93-9a81-e31487afa12e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dermal Lymphatic Transport and Cutaneous Immune Balance",
+  "text": "The goal of this proposal is to determine the physiology and pathophysiology of lymphatic transport following\ncutaneous challenge and its contribution to cutaneous immune surveillance. Completion of this work may\nestablish lymphatic-dependent design principles for tuning cutaneous immune responses from vaccine\ndevelopment to tolerance and tumor immunotherapy."
+ },
+ {
+  "id": "01342029-2625-4386-b636-41067a9f16e7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Bridging Healthcare Disparities: Real-Time AI Assessment for Preterm Labor Risk",
+  "text": "This project addresses the disproportionate rates of preterm birth affecting minority women through an AI-\nenhanced medical device that provides standardized, objective risk assessment. Our technology combines\nultrasound imaging with optics and machine learning to enable consistent monitoring of cervical changes\nthroughout pregnancy, making advanced screening accessible to more healthcare providers without requiring\nspecialized training. The solution integrates into existing clinical workflows and aims to improve maternal health\noutcomes while reducing healthcare costs, particularly in underserved communities."
+ },
+ {
+  "id": "0134afd5-b899-4abe-8571-531cb1926f6c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Artificial Intelligence-Assisted Teleophthalmology for Glaucoma Screening: A Randomized Controlled Trial (GATES)",
+  "text": "Glaucoma is the leading cause of irreversible blindness, and many patients face barriers to timely detection and care. This project will test artificial intelligence (AI)–assisted teleglaucoma interventions embedded within a large municipal health system to improve early detection, streamline monitoring, and optimize use of scarce specialty resources. By generating rigorous randomized trial evidence on effectiveness, cost-effectiveness, and scalability, this work will advance reproducible, sustainable models of glaucoma care that can be adapted to other eye diseases and health systems."
+ },
+ {
+  "id": "013a8ede-d9fa-4407-b3e5-0520b6e69a1a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Pericoronary Adipose Tissue, Inflammation, and Subclinical Coronary Artery Disease in People with HIV in Uganda",
+  "text": "This project proposes to leverage data from two NIH-supported cohorts in Uganda that provide data not easily accessible in the United States, due to its uniquely dispersed population and issues of stigma regarding HIV-serostatus. The research will be carried out in a region with a high HIV-prevalence and unique inflammatory characteristics that enhance the study of these mechanisms using innovative imaging biomarkers and radiomics methods. Finally, this work will provide insights that inform strategies to improve and develop clinically relevant tools to improve cardiovascular risk assessment and prevention in US-based populations, and target interventions to those at highest risk."
+ },
+ {
+  "id": "0144dc67-7d52-42d7-a267-6df3a882886a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Core 1: Spatial and Molecular Immunology Core",
+  "text": "We propose to provide standardized and reproducible spatial genomics and single-cell genomics\nmethods to profile and characterize immune cells and malignant cells in glioblastoma in both patients\nand experimental models."
+ },
+ {
+  "id": "014b4656-c8eb-4923-9281-61bea9ac1226",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "CD8+ T cell clonotypes and epitopes associated with protection in malaria experienced adults",
+  "text": "There were 263 million cases of malaria in 2023, claiming the lives of 619,000 people constituting a global health\nburden due to the lack of an effective vaccine. The proposed research aims will discover new vaccine candidates\nby identifying P. falciparum specific CD8+ T cells and their antigen epitope specificity from adults in malaria\nendemic regions of Uganda and from European adults vaccinated with genetically attenuated sporozoites.\nResults from this proposal will identify new correlates of protection as well as new parasite epitopes with the\npotential of becoming candidates for the development of the next generation of malaria vaccines."
+ },
+ {
+  "id": "0150961b-f3d5-4156-b6a6-b5737992d7b0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Advanced Technology Genomics Core (ATGC)",
+  "text": "ADVANCED TECHNOLOGY GENOMICS CORE (ATGC) The Advanced Technology Genomics Core (ATGC) is the central genomics facility for researchers at The University of Texas MD Anderson Cancer Center (MD Anderson). ATGC uses state-of-the-art methods and provides technical expertise to investigators to generate high-quality genomic data across a comprehensive range of genomic services in a timely manner. Its mission is 1) to provide access to cutting-edge genomic technologies and services, 2) to assess, develop, and optimize specialized protocols that address challenges inherent in working with cancer-related tissue samples from patients, and 3) to expand services for data processing and analysis. ATGC offers next-generation sequencing services (cfDNA, ctDNA, mRNA, total RNA, miRNA & low input RNA-Seq, WES, WGS, targeted, duplex) that use six Illumina short-read instruments, including a NovaSeqX Plus and a long-read Nanopore system (P24). Additional services offered include spatial transcriptomics (10X Genomics); single-cell DNA, RNA and epigenetic sequencing (DNA mutations, DNA copy number, ATAC-Seq, immune profiling, custom targeted panels, and cell surface proteins) with 10X Genomics Chromium and custom Nanowell platforms (Takara Biosciences); Sanger sequencing; RNA quantification; optical genome mapping (Bionano); fluorescent fragment analysis; and sample quality control (QC). ATGC also provides data processing and analysis services. Notably, ATGC offers custom protocol development to support investigators with unique research needs, which cannot be met by commercial sources, such as the use of FFPE/degraded and/or ultra-low quantity samples, custom captures, long-read single-cell RNA and DNA sequencing, single-nucleus RNA sequencing from frozen and FFPE tissue, and data analysis pipelines. Pre- project consultations are available to help investigators select the appropriate genomic technologies and -design experiments. During the past funding period MD Anderson provided $4.1M for the purchase of new instruments and upgrades. The ATGC supported 211 Cancer Center members in 2024 (82% of user base), reflecting use from all 9 research programs. In 2024, the ATGC supported 127 publications (59% in journals with an impact factor ≥10) and facilitated 45 peer-reviewed grants awarded to members. ATGC also provides seminars, symposiums and other educational activities. ATGC staff participate in and present at national meetings (e.g., AACR, Keystone, Gordon, CSHL, AGBT). Future plans include offering enhanced NGS data processing; implementing new cost-effective, cutting edge sequencing platforms (e.g., Ultima, CGT7, Singular); developing protocols for Nanopore-based low-pass whole-genome methylation analysis and long-read sequencing for RNA, single-cell RNA, and FFPE samples; expanding spatial transcriptomics platforms (Illumina, SFP) and nanowell- based single-cell multi-omics sequencing services (DNA & RNA, DNA & ATAC); and implementing an AI-based morphometric imaging microfluidics platform (DeepCell REM-I) for single-cell sequencing analysis."
+ },
+ {
+  "id": "016a7e82-05fd-48c1-ac2b-6e5cf41a6d60",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Effectiveness and Implementation of a Meditation App addressing Substance Use, Sexual Health, and Emotion Regulation among Legal-Involved Youth",
+  "text": "Youth in the U.S. legal system are more likely to experience adverse substance use and sexual health outcomes compared with peers who have not been arrested. Low emotion regulation appears to function as a common mechanism on the individual level, and it can be improved via mindfulness meditation. This study will leverage established partnerships, mobile health (mHealth) technology, and implementation science to test the effectiveness and implementation of a meditation app developed with and for youth in the legal system."
+ },
+ {
+  "id": "016d9918-ebdb-43ab-be37-a7f88a7a76e1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Fused Imaging and Large Language Foundational Model for 90-day Stroke Outcome Prediction",
+  "text": "Current endovascular therapy (EVT) patient selection heavily relies on neuroimaging for penumbra/core mismatch, yet this approach inadequately captures the full spectrum of stroke pathophysiology and overlooks key patient concerns, such as long-term functional outcomes, neglecting both structured data and crucial vital information from unstructured clinical notes. This project introduces the Fused Imaging and Large Language Foundational Model (FILLM), an innovative multi-modal AI system integrating holistic patient data, including imaging, unstructured clinical notes, and structured tabular data, to transform assessment of stroke patients and the prediction of treatment efficacy. The successful deployment of FILLM promises to significantly improve long- term outcome predictions for stroke patients, representing a paradigm shift in EVT patient selection and a major advance in stroke care and patient health outcomes."
+ },
+ {
+  "id": "016eefa9-666f-4c8b-8a3d-0fb90c75618e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "PIK3C2A is a vulnerable immunotherapeutic target in triple-negative breast cancer combination therapy",
+  "text": "The effectiveness of immune checkpoint blockades (ICBs) in treating triple-negative breast cancer (TNBC) is\nhindered by poor immune response and low antigen presentation of the cancer cells. This project aims to address\nthe knowledge gap by investigating the role of PIK3C2A in tumor antigen presentation and its impact on anti-\ntumor immunity within the tumor microenvironment. Identification of PIK3C2A as a key target for tumor antigen\npresentation is a critical step towards designing small molecule inhibitors to enhance the efficacy of ICBs in\nTNBC treatment."
+ },
+ {
+  "id": "01741d9f-b7d2-4103-803b-ab25b33f0d84",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "All of Us Research Program Engagement and Retention Innovators",
+  "text": "The All of Us Research Program is a historical effort to develop a large, longitudinal dataset designed to accelerate health research and discoveries that will enable personalized prevention and treatment for everyone. Its governance model encourages transparency and engagement of participants and researchers. This active engagement will increase trust and the potential for significant public health impact."
+ },
+ {
+  "id": "017455d0-30f4-42f7-832f-584ae9bcdb0b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multiscale Computational Modeling for Assessing Shear-Induced Bleeding Risk in Blood Contacting Medical Devices",
+  "text": "Recent clinical data indicate that over 30% of patients with blood-contacting medical devices (BCMDs), such as\nventricular assist devices, experience bleeding complications due to device-induced degradation of von\nWillebrand factor (VWF) and shedding of platelet receptors. However, experimentally characterizing the detailed\nvariations of VWF and platelet receptors within these devices remains challenging. This research project aims\nto develop a physics-based computational model to investigate device-induced VWF and platelet receptor\ndynamics and to apply this model toward optimizing a novel BCMD with reduced bleeding risk."
+ },
+ {
+  "id": "0175ced3-77ec-41f4-be76-ca42eb4ce55d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Scalable Tools for the Accurate Detection of Epileptogenic Abnormalities from MRI to Improve Presurgical Evaluation of Drug-Resistant Epilepsy",
+  "text": "The proposed project has the potential to improve the presurgical evaluation of children with drug-resistant\nepilepsy by addressing the challenges of detecting subtle and rare brain abnormalities. The project also has the\npotential to enhance clinical decision-making by developing advanced, data-efficient imaging tools that reduce\nreliance on expert annotation and can generalize across lesion types. The study develops scalable,\ngeneralizable computational methods that integrate multimodal imaging to support more confident localization\nof lesions, enabling timely surgical evaluation in pediatric epilepsy."
+ },
+ {
+  "id": "017be8df-a12c-47b2-ad9c-cdca2b7338f4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Spatio-temporal regulation of pulmonary neutrophil plasticity",
+  "text": "Neutrophils are white blood cells that kill pathogens in infected tissues. I believe that these cells achieve\ntheir rapid host defense function by releasing their nuclei to facilitate cell deformation when working in the\nspatially restricted lung. This research will elucidate the mechanism of lung micro-environment specific neutrophil\nregulation and lead to more ideal therapies for patients with pulmonary infections and acute lung injury."
+ },
+ {
+  "id": "017feb9f-8ce8-46bc-9abf-330638dec9d1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mesoscopic microscopy for ultra-high speed and large-scale volumetric brain imaging",
+  "text": "Large-scale volumetric voltage imaging is a powerful method in understanding brain function, yet posts profound\ntechnical challenges. We propose a mesoscopic oblique plane microscopy (Meso-OPM) to address the\nchallenges and achieve >1.8 mm2 field-of-view, >0.1 mm depth penetration, and 1 KHz volume rate in imaging\nVoltron voltage indicators. We will test our technique in Zebra fish larvae, for the first time, offering recording\nacross the whole nervous system to dissecting neural circuitry responsible for motor behaviors."
+ },
+ {
+  "id": "01826e2d-35ce-45cf-898f-308ad4799fc8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Proteomic determinants of response to checkpoint blockade in malignant pleural mesothelioma",
+  "text": "Immune checkpoint inhibitors can result in long-lasting clinical responses in a variety of advanced cancers, but\nonly about half of all patients will respond to therapy. The proposed research will reveal determinants of response\nto checkpoint blockade in human malignant pleural mesothelioma, a highly aggressive and deadly cancer, using\nan approach that integrates high-dimensional single cell analysis platforms with immunoproteomics. These data\nwill enable advancements in the treatment of patients with mesothelioma that may be extendable to other human\nmalignancies and can redirect the expanding field of immuno-oncology."
+ },
+ {
+  "id": "018c3af6-4f3f-4ee6-9e0b-52661109668a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dissecting the role of hypoxia in T cell differentiation in cancer",
+  "text": "While immunotherapy for cancer can have remarkable effects at prolonging patients' lives, it only is successful\nin a minority of patients. This is because patients need functional immune cells within their tumors to respond\nto these immune boosting therapies. We and others have shown that the capacity of tumor cells to consume\nmetabolites can starve infiltrating immune cells, although the mechanisms are unclear. We will use preclinical\nmodels to understand how cancer immunity is regulated by metabolism, as well as analyze immune cells from\npatients treated with immunotherapy in combination with metabolism altering drugs."
+ }
+]

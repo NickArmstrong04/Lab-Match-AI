@@ -1,0 +1,142 @@
+[
+ {
+  "id": "0465f059-6af3-4fdd-80a4-cad8c77dc27a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Sphingolipids and Innate Immunity",
+  "text": "Type I interferon (IFN-I) is a critical antiviral defense common to nearly all cells, but the signals that regulate\nIFN-I production and response are unclear. Cellular sphingolipids can influence the outcome of many RNA\nvirus infections, but their specific roles in pro-viral or host defense pathways are not well defined. By integrating\nadvanced lipidomics, systematic genetic perturbations, and innovative lipid probes, this proposal aims to\nuncover how IFN influences sphingolipid metabolism and how these lipids, in turn, regulate innate antiviral\nresponses."
+ },
+ {
+  "id": "0466cb7e-55a2-4f59-bb21-310f0e680c7a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Disease Mechanism and Therapy in TDP-43 Proteinopathies and Dementias",
+  "text": "Aggregation of the RNA binding protein TDP-43 is found in almost every age-dependent neurodegenerative\ndisease, including the major dementias. We propose to determine how age-dependent decrease in protein\nfolding chaperone and protein degradation activities contribute to TDP-43 loss of function, cytoplasmic\nmislocalization, phase separation, and aggregation. We will also develop and refine an approach to generate\nnew/replacement neurons in the aged adult brain by transiently suppressing expression of a single protein, the\nRNA binding protein PTB. We will develop and use single cell spatial transcriptomics to identify the functionality,\nlocalization, cell origin, timing, and molecular pathways of the newly developing neurons."
+ },
+ {
+  "id": "0469de3d-7088-416d-a874-70e622d22519",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Immunogen and Antibody Core",
+  "text": "A major challenge in the HIV vaccine field is determining how to elicit antibodies that can block\nHIV infection. Studies of HIV infection, where rare people make the correct antibodies, have\nshown that specialized T cells, called Tfh cells, are important in supporting the B cells which\nmake antibodies. However few vaccine strategies target both arms of the immune system –\nproviding B cells with T help. Furthermore, the potential contribution of Tfc cells to B cell\nmaturation is unknown. This program aims to fill these gaps. Core 1 will provide the antibody\nreadouts needed to define the contribution of Tfc and Tfc to B cell maturation in infection and\nvaccination. The core will also make and characterise the protein immunogens for vaccine\nstudies, and measure the immune response is to the novel vaccines being tested here."
+ },
+ {
+  "id": "046fcf1c-590a-43ce-bf64-d70adc3c6fdd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Uncovering cell-type-specific driver genes of Alzheimer's Disease by pathology-indexing scRNA-seq, spatial transcriptomics, and CRISPR screens",
+  "text": "Here we propose to apply two innovative sequencing technologies to postmortem control and Alzheimer’s\ndisease brains to obtain sing-cell-resolution transcriptomic and pathology measurements and then test disease-\nstate driver genes in relevant and controllable human cell models using genetic screens."
+ },
+ {
+  "id": "04721c8d-d072-4cca-b000-8518309b3b2d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Roles for Supermeres in CRC Progression",
+  "text": "A practice-changing advance in colorectal cancer (CRC) treatment has been the dramatic and durable responses\nto immune checkpoint inhibition (ICI) in individuals with microsatellite instability-high (MSI-H) CRC, which\nunfortunately accounts for only 10% of CRC; the remaining 90% of CRCs are microsatellite stable (MSS) CRC\nand these do not respond to ICI due largely to a paucity of cytotoxic CD8+ T cells in the tumor proper, which we\ndefine as immune exclusion. We have discovered amembranous nanoparticles termed supermeres that are\nhighly enriched in DDR1 and TGFBi and have physical and signaling properties that result in immune exclusion.\nUsing neutralizing antibodies to DDR1 and TGFB1, engineered cell lines, and mouse models, we propose three\nmechanism-based aims to test the role of DDR1 and TGFB1, individually and together, in excluding CD8+ T cells\nwith the long-term goal of making MSS CRC responsive to ICI."
+ },
+ {
+  "id": "04858bbb-9295-4f2a-a8c1-77cd6c78f5d1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Personalized Postpartum Hemorrhage Prediction Using Machine Learning And Polygenic Risk Scores",
+  "text": "Since 10.7% of all maternal deaths are due to postpartum hemorrhage, a personalized prediction tool is essential for clinicians. Despite initiatives aimed at improving pregnancy outcomes, the rates of postpartum hemorrhage are still rising in the United States, and new strategies to predict and prevent this complication are urgently needed. We propose to utilize machine learning and genetic risk score approaches, which will allow for transparent, accurate, and robust prediction that would lead to a greatly enhanced ability to identify high-risk patients and dramatically improve maternal health."
+ },
+ {
+  "id": "048609a6-b8e8-41ca-8b50-89c5f1855aec",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identifying Key Molecular Differences Between Lewy Body and Alzheimer's Disease via Multi-Omics Analysis",
+  "text": "Dementia with Lewy bodies and Alzheimer's disease (AD) are two of the most common causes\nof dementia in individuals aged 65 and older; yet the molecular mechanisms driving their similarities and differences remain\npoorly understood. This research will utilize advanced multi-omics approaches on 607 postmortem brain tissue samples to\ninvestigate shared and unique transcriptomic and genomic alterations associated with genetic sex and neuropathology. The\nfindings will offer crucial insights into the molecular basis of dementia pathologies and sex-specific factors, potentially\nrevealing novel therapeutic targets and informing diagnostic strategies."
+ },
+ {
+  "id": "0489e32a-7ec6-46fd-9ea9-d6c857322e4a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Advancing Digital Pathology through Novel Machine Learning Methodologies",
+  "text": "This project will provide timely methodological advancements to efficiently and accurately analyze\nhistopathological information using deep learning models. The results of this study will remove current\nmethodological and computational bottlenecks in the application of deep learning technologies in digital\npathology. Therefore, this project will have a significant impact on the current standard of patient care by\neffectively assisting pathologists in clinical practice and integrating histopathological information with other\nclinical and molecular data to improve patients' diagnoses, prognoses, and treatments."
+ },
+ {
+  "id": "048bed60-15ae-4aa7-9eee-6ecaf2677f81",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Automated cell-type-specific electrophysiology for understanding circuit dysregulation in Alzheimer's Disease",
+  "text": "Over 150 million people are projected to be living with dementia worldwide by 2050, a threefold increase\nfrom today. Alzheimer’s disease represents the vast majority of these cases. Findings from this proposal\nwill allow us to develop technologies to uncover the emergence of cellular and circuit dysfunction in early\nAlzheimer’s, and could lead to the development of novel molecular and cellular therapies that halt the\ndisease."
+ },
+ {
+  "id": "048c1b64-01b6-40f6-ad1f-d52cd97f89d2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting Nell2 and GABAergic Dysfunction to Mitigate APOE4-Driven Pathogenesis in Alzheimer's Disease",
+  "text": "The E4 variant of the APOE gene (APOE4) is the strongest genetic risk factor for developing Alzheimer’s\ndisease (AD). This project aims to uncover the mechanisms underlying how APOE4 affects different cell types\nand subpopulations in the brain. The proposed studies will reveal how APOE4 drives AD pathogenesis and will\nfacilitate the development of targeted treatment strategies for individuals at risk for AD."
+ },
+ {
+  "id": "048d9c36-c85e-460f-858f-2322b4bebc0c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Blocking pathogenic anti-donor antibody responses",
+  "text": "The only treatment option for patients with end-stage organ failure is transplantation, unfortunately, the patient’s\nimmune system can detect and destroy the transplanted organ. In this proposal, we aim to solve this problem by\ndeveloping targeted blocking antibodies to shield transplanted organs from the patient’s immune response. If\nsuccessful, our approach could provide targeted protection, which could eliminate reliance on toxic global\nimmunosuppressants and ultimately improve transplant outcomes."
+ },
+ {
+  "id": "049359bd-2365-4365-8437-52617a997bd7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Nanoelectrochemical Techniques for Single Cell and Spheroid Metabolomics and Pharmacokinetics",
+  "text": "A detailed understanding of human disease at the single cell level represents a\nchallenging frontier, and very few measurement techniques are available to accurately\nprobe cellular composition and function with unprecedented spatiotemporal resolution.\nThis MIRA application draws from our experience with nanoelectrochemistry, sensor\ndevelopment, and single cell and spheroid analysis to innovate a generalizable\nnanoelectrochemical measurement platform for single cell and spheroid metabolomics\nand pharmacokinetics. We will accomplish this through innovative nanoprobe design,\ngiving rise to powerful bioimaging platforms to probe composition and function while\nminimizing perturbation to cellular homeostasis."
+ },
+ {
+  "id": "0494dde1-dd35-4aae-a630-0cf9338c908b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Lung fibrosis impairs tumor immunity and limits immune checkpoint efficacy",
+  "text": "Immune checkpoint inhibitors, either alone or in combination with cytotoxic chemotherapy, are standard\ntreatments for patients with metastatic lung cancer, yet less than half of patients will experience a reduction in\nsize of their tumors and these responses typically last less than one year. This limited efficacy is in part due to\nan immunosuppressive fibrotic microenvironment characterized by impaired T cell function as well as\ndysfunctional antigen presentation. We will identify mechanisms by which TGFb inhibition in combination with\nchemotherapy can restore anti-tumor immunity to enhance immune checkpoint blockade."
+ },
+ {
+  "id": "04a486c5-bfa4-4a23-9941-7f3dc0abeab0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A Global Syphilis Vaccine Targeting Outer Membrane Proteins of Treponema pallidum",
+  "text": "pallidum\nThe scientific premise of this CRC proposal derives from three decades studying the composition and\nultrastructure of the outer membrane of Treponema pallidum subsp. pallidum, the syphilis spirochete. The\ncentral hypothesis of the proposal is that T. pallidum’s repertoire of outer membrane proteins are the best\ntargets for syphilis vaccine development and that vaccines based on this premise can be produced at the scale\nneeded for a phase 1 clinical trial."
+ },
+ {
+  "id": "04a9d4ea-5c2c-4638-9414-ce87724a6132",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Peripheral blood epigenetic dysregulation in the onset and progression of knee osteoarthritis",
+  "text": "Osteoarthritis (OA) is an exceptionally common problem among veterans, is associated with a number of other\nmedical conditions, and is a leading cause of disability among veterans. Recent research has shown that\nepigenetic patterns within blood may allow us to predict OA development and/or progression. In this project, we\nwill identify and refine blood epigenetic tests to diagnose OA up to 8 years in advance and predict that a patient\nwill progress rapidly and require knee replacement within the next 8 years. We will also study whether blood\nimmune cell differences are present in OA."
+ },
+ {
+  "id": "04aa50eb-78aa-471e-9667-d5f504380374",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Functional characterization of the endothelial cell niche for hematopoietic stem cells",
+  "text": "Specialized blood vessels called venous sinusoids are the nurse cells for HSCs in the marrow, but the mechanism by which they support hematopoiesis is not known. Using zebrafish, we have reprogrammed liver sinusoids to support HSPCs, providing a new location for stem cells when infiltrative processes affect the marrow such as myelofibrosis, and have also found a lipid that regulates the interaction between sinusoids and HSCs. Our studies have an impact on how sinusoids support stem cells’ expansion and will enhance current treatments for myelofibrosis and hematological disorders that require HSC transplantation."
+ },
+ {
+  "id": "04bb54bd-2008-43cd-a467-cd265615f03a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Asymmetric Walking Protocol for Optimal Post-ACL Reconstruction Rehabilitation",
+  "text": "Despite extensive rehabilitation, over 250,000 anterior cruciate ligament (ACL) injuries occur each year in the\nUnited States often resulting in neuromuscular dysfunction and the development of knee osteoarthritis. However,\npurposeful, induced asymmetric walking has been shown to override altered neuromuscular impairment to\nrestore healthy gait patterns. Thus, my goal is to conduct a comparative research-focused study to evaluate the\neffectiveness of different asymmetric walking protocols and then utilize computational modeling and machine\nlearning to model knee loading in the clinic to determine the optimal asymmetric walking protocol to restore\nhealthy gait in post-ACL reconstruction individuals."
+ },
+ {
+  "id": "04c0716e-81e4-423c-a00a-4e4af21f80b0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Transcriptional regulatory mechanisms of vertebrate regeneration",
+  "text": "The frog Xenopus tropicalis can fully regenerate the spinal cord following injury, a capability that is lost as the\ntadpole undergoes metamorphosis. Our project centers on defining the transcriptional regulatory networks that\nallow neural progenitor cells to regenerate a functional spinal cord after injury, how these contrast with\nembryonic patterning mechanisms, and the changes in neural progenitors that lead to regeneration failure in\nthe post-metamorphic frog."
+ },
+ {
+  "id": "04c2c863-39b0-4bef-bbf2-a6186ce1633f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Labeling cellular proteins for multi-scale microscopy and other applications",
+  "text": "This research program is creating new genetic tags and workflows for studying receptor organization by\nfluorescence and electron microscopy (“multiscale microscopy”). This research is relevant to the mission of\nNIGMS to support the development of technologies designed to advance our understanding of how living\nsystems function. Our innovative technologies are compatible with the microscopes found at most institutes or\nNIH-funded imaging centers."
+ },
+ {
+  "id": "04ce0a94-fd85-4c72-a2e0-71677baa78db",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Systems analyses of induction and maintenance of immunity to SARS-CoV-2 vaccination in kidney transplant recipients receiving mycophenolate mofetil immunotherapy",
+  "text": "SARS-CoV-2 is transitioning from pandemic status to becoming an endemic virus, like influenza, and seasonal\nvaccinations will likely become the primary method for limiting disease. Despite the overall effectiveness of\nvaccination against SARS-CoV-2, some people are at increased risk of not developing protective immunity, most\nnotably immunocompromised populations such as solid organ transplant recipients on life-long\nimmunosuppressive medications. This research aims to determine how immune dysregulation before\nvaccination, driven by differences in mycophenolate mofetil immunosuppressive treatment, impacts the\ndevelopment and long-term maintenance of protective immunity against SARS-CoV-2, and ultimately how this\ndysregulation can be corrected to improve responses to vaccination in this and other at-risk populations."
+ }
+]

@@ -1,0 +1,142 @@
+[
+ {
+  "id": "3a421c51-41ac-4e5a-90ab-9f0361528c40",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Polygenic Risk Scores for Alzheimer's Disease across global Populations",
+  "text": "Identifying individual risk profiles that are valid across ethnic groups (European/African/Native American-descend populations) is critical to provide robust and universal genetic tools for effective development of personalized genomics. Our project will facilitate the identification of new tools for risk prediction and patient stratification for targeted prevention/intervention strategies for Alzheimer’s Disease."
+ },
+ {
+  "id": "3a430a6e-b149-440a-8fe7-e3908c9e0622",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Magnani_P40_Applied Research",
+  "text": "Project Summary – Applied Research Component Nonhuman primate (NHP) studies have provided essential knowledge of fundamental mechanisms of disease pathogenesis and advanced biomedical research. Our work under the P40-funded Nonhuman Primate Antibody Resource for Immune Cell Depletion has substantially advanced NHP research by developing novel antibody reagents that are vital for performing these studies. An important step in generating these antibodies is “primatizing” them to reduce immunogenicity and improve their compatibility in the NHP model. “Primatizing” antibodies is not trivial, and our group at the Nonhuman Primate Reagent Resource (NHPRR) has led the field in developing this process over the past 24 years, applying multiple strategies, including grafting the complementarity-determining regions (CDRs), ‘resurfacing’ residues in contact with the antigen, and in silico structural modeling. These methods have allowed us to design and generate primatized antibodies that are critical to the NHP research community and have led to over 240 peer-reviewed publications. Despite these advances, the process of identifying and primatizing antibodies is a rate-limiting step in NHP research, and there are pitfalls in the process that still need to be addressed. For example, past strategies to primatize antibodies consisted of grafting another species variable region, which can lead to the production of antidrug antibodies, or grafting the CDR in an NHP antibody, which might decrease the antibody affinity. In the Applied Research Component, we will incorporate recent advances, such as innovative machine learning techniques and yeast surface display approaches, to increase our antibody screening capabilities by six orders of magnitude and create NHP antibodies with less immunogenicity and higher affinities. This innovative approach has the potential to substantially reduce the development time of NHP antibodies. We will apply this strategy to develop the first primatized antibodies to deplete Natural Killer (NK) cells—a major immune cell type. These reagents will be a significant resource for researchers across multiple fields of study, including virology, cancer biology, transplant biology, and autoimmune diseases. The goals of the Applied Research Component are to (1) enable the development of primatized antibodies with higher homology to native NHP molecules, (2) expand the availability of antibody clones that can be used in NHP studies, and (3) allow for the development of primatized antibodies with custom-binding properties (e.g., enhanced selectivity/specificity to antigens of NHP origin). The Applied Research Component will conduct one Ab primatization campaign per year, prioritized by the External Advisory Board. If successful, we will implement a new workflow for antibody optimization in this resource that will greatly facilitate the engineering of tailored antibodies for NHP studies. Ultimately, making NHP animal models more useful to the research community."
+ },
+ {
+  "id": "3a45ef83-bc00-488f-a554-95166c771afd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Novel Nutrient Functions and Sensing Mechanisms",
+  "text": "The proposed study will take multiple genetic and biochemical approaches to tackle three novel\nnutrient-related problems related to human health. For the first two projects, we will carry out\nbiochemical and functional tests to understand the mechanism underlying the unexpected\nbeneficial roles of two bacteria-derived metabolites. For the third project, we will explore the\nconservation of the role of a novel lipid-mediated nutrient-sensing system in the regulation of\nanimal development in mammals."
+ },
+ {
+  "id": "3a46b59f-ed1a-4e84-89e0-b56e3b21009e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Assessing Risk for Poor Outcomes in Antiphospholipid Syndrome",
+  "text": "Currently, there is no accurate way to identify antiphospholipid syndrome (APS) patients in large electronic\nhealth record (EHR) cohorts, limiting our understanding of the role of modifiable risk factors for APS outcomes.\nAdditionally, while certain antiphospholipid antibody profiles may confer increased thrombotic risks, the extent\nto which novel biomarkers predict clinical outcomes is unknown. This proposal employs novel bioinformatics\nand biomarker-related approaches to accurately identify APS patients in large multi-center EHR cohorts and\nsubphenotype patients based on risk of APS outcomes, hopefully leading to improved risk stratification and\ntreatment strategies for patients with this potentially life-threatening condition."
+ },
+ {
+  "id": "3a50f62a-678f-4c98-9c15-62298a1368db",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Animal Models Core",
+  "text": "SUMMARY - Animal Model Core The overarching goal of the Animal Model Core is to expand and enhance preclinical animal-based services and resources for vision researchers, thereby fostering a richer research, training and collaborative environment that increases productivity for the vision science community throughout the Wilmer Eye Institute and across Johns Hopkins University (JHU). We do this by providing state-of-the-art services and resources to JHU vision scientists using model species (e.g., mice, rats, zebrafish, and killifish) to advance understanding of fundamental aspects visual system biology and to model diseases that disrupt visual function. Priority is given to investigators with active NEI R01 funding, however, early-stage investigators seeking NEI funding, researchers new to vision science, and those between funding are also key priorities. Vision science at Wilmer/JHU spans a diverse collective of researchers studying a wide range of topics including regenerative biology/medicine, corneal and retinal biology, cellular and molecular disease mechanisms, drug discovery and development, advanced imaging methods, stem cell-derived organoid systems and stem cell-based transplantation therapeutics. The majority of these research projects involve animal models as a means of assessing findings in the context of the living eye. As such, the Animal Model Core is tasked with expanding our services and resources to meet the ever-evolving needs of our users. Our Specific Aim is to provide Wilmer/JHU vision scientists with shared service and resources enabling them to: 1) develop new animal models of ocular disease; 2) assess and quantify ocular disease-associated phenotypes; 3) assess visual function via intravital imaging, electrophysiology, and/or visuomotor behavioral kinematics, and; 4) perform complex ophthalmic surgeries. We support the development of novel models of eye disease, the testing of experimental therapeutics, and sophisticated assessments of visual system function via electrophysiological and behavioral testing. The services and resources provided are crucial for understanding disease progression and the efficacy of novel therapies in in living disease models. In summary, for many years the Animal Model Core has supported a high level of productivity and collaborative interaction among vision researchers at Wilmer and across JHU. Our services and resources increase efficiency of data collection and the level of data sophistication, elevating the scale and quality of research that the vision science community at Wilmer/JHU is able to pursue. Thanks to the support of the P30 program, the Core has also been able to rapidly adapt to the evolving needs of a growing collective of vision science investigators that employ preclinical animal models as a key component of their research programs. With sustained support of the NEI P30 Core grant program, we will continue to provide our users with the services and resources that keep Wilmer and JHU at the forefront of rigorous and impactful vision research."
+ },
+ {
+  "id": "3a584199-6162-400c-829f-8ef40fda7ddf",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Improving Inflammation Resolution to Mitigate Acquired Bone Marrow Failure",
+  "text": "Bone marrow failure syndromes are fatal if untreated and current therapies and strategies that prolong and\nimprove survival outcomes are desperately needed. We will investigate how improving inflammation\nresolution programs can be leveraged as a new therapy for treating bone marrow failure. Our work is\nrelevant to the part of NIH’s mission that pertains to seeking fundamental knowledge about the behavior of\nliving systems to enhance health, lengthen life, and reduce the burdens of illness."
+ },
+ {
+  "id": "3a62a4d8-6594-466c-92f1-5cc594852969",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Measurement and Reduction of Low-Value Cardiovascular Care",
+  "text": "Low-value care (LVC), defined as care where harms or costs outweigh the benefits, is common (nearly half of\nU.S. patients may receive >1 LVC service every year). LVC can result in physical harm from the service itself,\nunnecessary follow-up tests/procedures, and needless out-of-pocket costs. The research proposed is a\nfoundational step toward accurately measuring LVC, identifying which LVC services should be prioritized for\nreduction, and assessing the effectiveness and possible unintended consequences of a program to reduce\nLVC."
+ },
+ {
+  "id": "3a6491c0-fc6b-4168-a786-b2c967d95fc1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Integrating genomic and nongenomic risk for coronary artery disease",
+  "text": "Heart attack remains a leading cause of death due to late recognition of people at risk, but genomic information\npresent from time of birth promises to improve risk prediction. The applicant will derive and a new risk model\nthat integrates genomic information with known lifestyle and traditional risk factors to predict risk of heart attack\nin individuals of diverse ancestries. Successful completion will lay the foundation for genome-based\nidentification and treatment of people at risk of heart attacks."
+ },
+ {
+  "id": "3a6642ea-1ea7-4da2-b909-e7ac4e7a0f72",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Building lung cancer risk prediction models for former smokers: An omics-based epidemiologic study",
+  "text": "Lung cancer is the leading cause of cancer death and lung cancer occur in former smokers has\noutnumbered that among current smokers owning to the success of smoking cessation initiative.\nThis study seeks to develop lung cancer risk prediction models tailored specifically for former\nsmokers, aiming to identify high-risk former smokers for screening and intervention. The\noverarching goal is to reduce lung cancer mortality among this rapidly growing population."
+ },
+ {
+  "id": "3a6fdd97-c9ab-43c1-8f3d-61b23dada322",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting Purinergic Signaling to Block the Effects of Seizures on Glioma Progression",
+  "text": "Gliomas are aggressive brain tumors with a dismal prognosis. Recent evidence has shown that neuronal activity\npromotes glioma proliferation and progression, but the mechanisms that mediate these effects are poorly\nunderstood and it is unclear how different types of neuronal activity, including seizures and stimulus-evoked\nneuronal activity, may affect glioma cells. This proposal aims to investigate and target a novel mechanism of\nglioma-neuron crosstalk to advance our understanding of how neuronal activity contributes to glioma\nprogression."
+ },
+ {
+  "id": "3a6fe107-dcc0-4dbd-89f0-e7259c7a11a7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "In situ mechanisms of biological nitrogen fixation",
+  "text": "Nitrogen fixation by the metalloenzyme nitrogenase supports nearly 50% of the global population and is the only biological pathway for nitrogen reduction. Nitrogenase consists of two proteins, the obligate reductase Fe-protein and the catalytic Mo Fe-protein, both of which are rapidly inactivated by oxygen. Biochemical, crystallographic, and spectroscopic studies have yielded seminal insights into the structures and functions of purified nitrogenase proteins, but a unified understanding of the enzymatic mechanism is still unrealized. These proteins are expressed in a small subset of prokaryotes termed diazotrophs, including aerobes and anaerobes, which inhabit a diverse array of environments. Despite this evolutionary demonstration of compatibility between nitrogen fixation and a variety of metabolisms, robust heterologous expression of the nitrogenase proteins has not been achieved. Instead, endogenous expression within the free-living soil bacterium Azotobacter vine land ii remains the most widely used system for the purification and study of nitrogenase. Several peculiar features of this obligate aerobe have been annotated under nitrogen-limited conditions, to wit, the formation of an intracytoplasmic membrane network, but a comprehensive investigation of these features and their relationship to the nitrogenase proteins is lacking. The primary hypothesis of this proposal is that interactions with cellular ultrastructures and as yet unidentified binding partners in vivo significantly regulate and promote nitrogenase activity. My goal is to identify and characterize these states of nitrogenase in diazotrophic organisms by training in and applying emerging cryoelectron tomography (cryoET) methodologies and performing experiments outlined in two Aims. Aim 1: Revealing the architecture of the nitrogenase interactome in A vinelandii with mass spectrometry and single particle (SP) cryoEM. Aim 2: Determine in situ structures of nitrogenase complexes in conjunction with cellular features using cryoET and sub-tomogram averaging (STA). As a postdoctoral fellow I gained expertise in anaerobic SP cryoEM to obtain high resolution structures of nitrogenase. These skills will provide a foundation for the proposed research. As I begin my independent career, I seek to leverage and apply training in the growing field of cryoET for the study of in situ structures. Throughout the outlined aims, I will also apply my training in genetic manipulation of non-model organisms, mass spectrometry, and cryoET, relying on local CryoEM and proteomic resources, and on national facilities, while pursuing new discoveries in SP cryoEM of"
+ },
+ {
+  "id": "3a7122be-3caf-4db5-a4b8-6121db1346db",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "University of Michigan Rogel Cancer Center Support Grant 2023-2028",
+  "text": "The University of Michigan Rogel Cancer Center (Rogel) is committed to reducing cancer burden and \nimproving cancer outcomes through research, innovation, transdisciplinary collaboration, education, and \noutreach. The Rogel vision is to be a leader in prevention, early diagnosis, optimal treatment, and care for all individuals affected by or predisposed to cancer."
+ },
+ {
+  "id": "3a76ed01-48a9-4fff-a9fb-1e33531c8b51",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Elucidating a microgliaassociated role for SORLA in modulating AD pathogenesis",
+  "text": "In this study, we isogenically integrated Alzheimer’s disease (AD)-associated mutations in genes such as SORLA\nin human embryonic stem cells (H9), and subsequently differentiated recombinant cell lines into human\nmicroglia-like cells (hMGLs). Our results indicate that AD-associated mutations in SORLA such as A528T and\nR744X can impact various aspects of microglia function in vitro (such as Aβ uptake), and in vivo (Aβ clearance).\nThis study will compare and characterize effects of other SORLA mutations identified in early and onset AD\nusing a mouse brain/human microglia xenotransplant model, and determine potential pathogenic mechanisms\nfor SORLA-dependent microglial dysfunction in AD."
+ },
+ {
+  "id": "3a771537-076c-4cb3-b970-7a68238b19d2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating the Mu:Kappa Opioid Receptor Imbalance in Alcohol Use Disorder",
+  "text": "The Mu and Kappa Opioid Receptor (MOR, KOR) systems are implicated in craving and mood, and thus\nimportant for the understanding of addiction. The MOR and KOR systems have never been probed in a single\ncohort of patients suffering from Alcohol Use Disorder. We will use PET imaging and various analyses,\nincluding kinetic modeling and machine learning, to explore the relationships between MOR and KOR status\nand patients' behaviors during a monitored attempt to abstain from drinking."
+ },
+ {
+  "id": "3a7a6dfd-88d2-4c5e-b4eb-2bf349557564",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Lipid regulation of the stem cell niche",
+  "text": "Lipid accumulation correlates with loss of stem cell maintenance in many tissues. This proposal aims to\ncharacterize the mechanisms regulating lipid accumulation and its effect in stem cell niche signaling. Knowledge\nfrom these studies will aid in developing new strategies targeting stem cell-based regenerative therapies."
+ },
+ {
+  "id": "3a805911-be60-4c81-8a3f-22d03ff33020",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Prediction of Anticoagulant-Related Bleeding Risk in Patients with Cancer",
+  "text": "Patients with cancer on blood thinners are at high-risk of bleeding, including bleeding related death. Bleeding\nrisk can be predicted through prediction models in non-cancer populations, but no prediction model is validated\nfor use in patients with cancer. We will develop a prediction model to quantify the risk of bleeding in patients\nwith cancer, which will allow healthcare providers to tailor length and intensity of anticoagulant therapy to\nindividual risk of bleeding."
+ },
+ {
+  "id": "3a80f273-1883-4eb2-88f0-106727e92ae7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Polymorphic L1 transposons as a Genetic Variable   Distinguishing Aggressive from Indolent Prostate Cancer",
+  "text": "Prostate cancer is the most common cancer among Veterans, contributing ~30% of all new cancer cases\ndiagnosed in Veterans each year. These numbers plainly demonstrate the high relevance of prostate cancer\nresearch to the Veterans' health and healthcare. Despite high demand for discovery of new markers\ndistinguishing indolent from aggressive prostate cancer, tests that accurately predict which patients will develop\nfatal metastatic disease are lacking. This proposal is designed to (i) establish a new biomarker that can\nprospectively identify patients, including Veterans, with a significantly elevated risk of developing metastatic\nprostate cancer and (ii) refine a prototype for a genetic test that can be easily implemented in the clinic to screen\nmen, even prior to diagnosis, for a risk of developing aggressive prostate cancer based on their genetic makeup.\nPositive outcomes of this study would significantly improve Veterans' health and healthcare."
+ },
+ {
+  "id": "3a8e8f16-ff57-4c73-9af1-088237147588",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Brain Vascular Signatures in Drug-induced Recurrent Hypoglycemia and Associated Cognitive Dysfunction",
+  "text": "This research project aims to investigate the complex relationship between recurrent hypoglycemia, vascular\nresponses, and cognitive dysfunction in diabetic rats using a novel head-mounted dual-modality\nphotoacoustic/ultrasound localization imaging technique tailored for freely moving rats. Through a series of\nexperiments involving diabetic rats, we intend to simultaneously observe brain vascular patterns and cognitive\nbehaviors with the influence of hypoglycemia."
+ },
+ {
+  "id": "3a93ad75-5144-4baa-9cfc-5acd085f0ed5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Role of SSR42 in Virulence Factor Regulation in S. aureus",
+  "text": "Staphylococcus aureus is a highly virulent and widely successful pathogen that is amongst the\nmost common causes of human infectious disease. With the continued emergence of multi-drug\nresistant isolates of S. aureus (such as MRSA), there is an urgent need to understand the\npathogenic mechanisms of this deadly pathogen. This proposal addresses this head on by\nseeking to understand virulence factor regulation by the novel regulatory RNA SSR42."
+ },
+ {
+  "id": "3aa0a25c-602f-4f15-9e69-c07b46b4f12a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "BREATHWISE - An AI-Driven Early Warning System for COPD Exacerbations",
+  "text": "Chronic Obstructive Pulmonary Disease (COPD) is a leading cause of morbidity, mortality, and hospital\nreadmissions in the United States, with exacerbations accelerating lung function decline and\ndiminishing quality of life. Lynntech is developing BREATHWISE, an AI-driven system that integrates\nmultimodal physiological and behavioral sensing with machine learning-based predictive modeling to\ndetect early warning signals of COPD exacerbations. By providing interpretable, real-time alerts,\nBREATHWISE aims to enable timely interventions, reduce hospitalizations, and improve health\noutcomes for patients living with COPD."
+ }
+]

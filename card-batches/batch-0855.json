@@ -1,0 +1,142 @@
+[
+ {
+  "id": "a55e1d7b-ab38-4f8e-891c-2860717c2045",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Epigenomic regulation of oxidative stress-producing innate immunity in neuroinflammation",
+  "text": "Oxidative stress is a common pathological thread in many neuroinflammatory and neurodegenerative diseases,\nincluding multiple sclerosis (MS). To date, there are no treatments for the prevention of neurodegeneration\ncaused by innate immune-mediated oxidative injury in MS. The goal of this project is to determine the epigenomic\nmechanisms underlying oxidative stress gene activity and function in toxic innate immune cells in MS models,\nwhich may provide therapeutic candidates for intervention of MS."
+ },
+ {
+  "id": "a55e974d-2003-4215-8efe-20cc6eedae9a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Human Stem Cell Based Microphysiological Systems for Aging Research",
+  "text": "Many common chronic diseases such as diabetes, liver, and heart disease are closely linked to getting older,\nhowever, how aging promotes these disorders is not well understood. Here we propose to create a new model\nfor studying systemic aging and rejuvenation of human fat and liver, longitudinally, in organ-on-a-chip systems\nthat have heterochronic microfluidics: are perfused with medium that contains serum from old or young donors."
+ },
+ {
+  "id": "a55eaaeb-3491-45f0-9e65-3b4558cf819d",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Advanced Tissue Pathology and Imaging",
+  "text": "Visualizing and quantifying tissue and cellular pathologies are central to understanding the pathogenesis, progression, and complications of metabolic disease, and to monitor the effectiveness of its treatment. Methods of labeling, imaging, and quantifying cellular elements have improved rapidly and are providing new capabilities to evaluate phenotypes at the sub-cellular, cellular, and whole-organ levels. The Advanced Tissue Pathology and Imaging Core (ATPI) has been in great demand during the current funding cycle and has evolved significantly since the last submission to meet the changing needs of DRC investigators. The ATPI has proven broadly successful in achieving its mission of assisting individual investigators in histophenotyping. Originally conceived and organized as a histology core and subsequently expanded to include microscopy, the ATPI continues to evolve to meet the everchanging needs of DRC investigators. It was successfully reorganized and expanded during the current funding period to include state-of-the-art clearing, molecular “staining” and imaging technologies. To meet the large and growing demands for these services identified in investigator surveys and recommended by reviewers in the previous funding cycle, we streamlined the administrative components of the ATPI by creating an on-line service request system and increased efforts to provide the heaviest users with the access to equipment and training needed to perform many of the techniques for themselves. An expert in the implementation of these advanced techniques in both the brain and peripheral organs, Dr. Lori Zeltser has led the restructuring of the Core. The ATPI services complement those provided by other DRC Cores, so that investigators who take advantage of DRC resources can fully characterize the histologic, immunologic, and metabolic function and phenotypes of mice. Thus, the combined investments by Columbia, the Naomi Berrie Diabetes Center and the DRC have been leveraged to provide excellent services at low costs."
+ },
+ {
+  "id": "a56ab81e-6426-412b-8fff-83e823844370",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Determining the relationship between parasite genetics and pathogen burden in Trypanosoma cruzi infected hosts",
+  "text": "The parasite Trypanosoma cruzi infects many different mammalian species, including humans, and often results in life-\nthreatening Chagas disease. Using recently developed technology to precisely determine parasite burden in infected\nhosts, and investigations of the genetic structure of parasites from these different hosts, this project seeks to\nunderstand the relationship between parasite levels and the parasite genetics. Completion of this work is expected to\nprovide new insights into the differential development of disease symptoms in T. cruzi-infected hosts, including humans."
+ },
+ {
+  "id": "a56c6017-a9d3-4fcd-a71e-ff8c5e2ead38",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Tissue transcriptomics enabled by spectral binary barcodes",
+  "text": "RNA imaging to measure the expression of many genes in biopsied tissue samples is important in disease\ndiagnosis and monitoring, but current methods are too slow, complex, and expensive for widespread clinical use.\nFurthermore, no commercial method is available for thick tissue samples, which better preserve 3D structure\nand are becoming more widely used. Here we propose to develop a set of over 1000 ultrabright fluorescent\nprobes which can be used in a wide variety of applications for measuring the expression of many genes, and\nare compatible with both thin and thick tissue samples."
+ },
+ {
+  "id": "a56d123a-9efc-4386-818e-da67f9391bc2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Discovering interpretable mechanisms explaining high dimensional biomolecular data",
+  "text": "Science has been driven by human intuition and reductionist models, yet these\napproaches can be overwhelmed by the level of complexity commonly found in biology.\nWe recently bridged fundamental gaps enabling computational approaches to address\nthis challenge, including developing a new type of artificial neural network that can distil\nhuman-understandable and generalizable rules from complex patterns. We will apply\nthese approaches to discover how protein and RNA sequence encodes structure and\nfunction, including for the large class of intrinsically disordered proteins that control cell\nfate and disease but are difficult to experimentally characterize."
+ },
+ {
+  "id": "a56e9331-42ea-4191-ad08-b8da181bff5e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "De novo designed Ras tools to uncover the mechanisms underlying drug resistance",
+  "text": "The proposed research is relevant to public health as it will lead to better understanding of the etiology and drug\nresistance of Ras-driven cancers (a third of all cancers). By developing tools to profile, track, and perturb specific\nRas isoforms in physiologically relevant cancer models, I propose to use these tools to understand how cancer\ncells re-organize Ras signaling during Ras inhibitor treatment to reactive oncogenic cellular programs. This work\nwill provide critically needed tools and address how compartmentalized oncogenic signaling can dynamically\nadapt during drug treatment, thus is well-suited to meet the priorities outlined by NCI."
+ },
+ {
+  "id": "a57198bd-0eb9-4be4-8fb7-79efc3204c67",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Quantitative assessment of angiogenesis using ultrasound multiple scattering",
+  "text": "There is a positive association between increasing cancer-related angiogenesis and worsening prognosis. We\nwill develop a novel technique for the assessment of the architectural properties of angiogenic microvasculature\nusing multiple scattering of ultrasound. Ultimately, the methods developed will be used for diagnosis and\nmonitoring of cancer."
+ },
+ {
+  "id": "a571b8c4-b739-49e5-8c88-5711512ee096",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Improving multi-scale characterization of nucleic acids and DNA nanotechnology toward therapeutic design",
+  "text": "Rapid generation of ideas for designer biomolecular systems applied to therapeutics has become easy\ndue to generative artificial intelligence, but the major bottleneck for translation of these ideas remains the\nvalidation, characterization, and testing phases. In this proposal, we will develop a machine-learning capability\nto perform quantum-accurate electronic structure calculations for nucleic acid systems, enabling accurate\ncharacterization of ligand-receptor binding energetics for therapeutics and drug discovery. In addition, we will\ndramatically expand the design space of DNA nanotechnology by incorporating higher-order junctions that can\ncreate precision lattices and heterochiral (including left-handed DNA) junctions that can resist in vivo\ndegradation, enabling a novel platform of DNA nanotechnology for therapeutic applications."
+ },
+ {
+  "id": "a576b6bb-b452-4695-a5fe-f1c09a3e8957",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Gatekeeping glycan metabolism in the human gut microbiome",
+  "text": "The gut microbiota has a profound effect on human health and physiology, providing benefits to the host such\nas modulation of immune development, inhibition of pathogen colonization, digestion of dietary fibers and\nabsorption of nutrients, while abnormalities in microbiota composition, or dysbiosis, have been implicated in\nnumerous and diverse disease states. Microorganisms possess varied and efficient strategies for competing for\nnutrients in the human gut, on which they depend as a critical energy source, the molecular mechanisms of\nwhich remain poorly understood and are the focus of the studies proposed here. Our research will allow us to\nbuild an intellectual framework for the design of methods and molecules with which to remodel the composition\nof the gut microbiota in order to improve human health."
+ },
+ {
+  "id": "a57cadfd-1241-4b24-a105-c5b7c9c2b48f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Elucidating the network design principles of biological signal processing",
+  "text": "Cells live in complex and changing environments; to survive they must be able to sense the\nenvironment, transmit this information to intracellular effectors and respond appropriately. How\nbiological networks process and transmit information is a critical gap in our understanding of the\nway in which healthy and diseased cells and cellular communities respond and make decisions.\nWe will take a multi-pronged approach that combines technology development, biological\nexperiments, and modeling to uncover the principles that dictate signal processing by biological\nnetworks."
+ },
+ {
+  "id": "a57cb598-fe8b-4ecf-9087-2852e6a87eab",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Bioinformatics and Statistics",
+  "text": "Vaccines that can induce broadly neutralizing antibodies (bNAbs) will be needed to protect against the global diversity of HIV-1 strains, however they do not currently exist (1,2). Vaccine induction of bNAbs will require two critical steps. First, priming of the appropriate bNAb precursors that, due to unusual features, are rare in the naïve human B-cell repertoire (3–5). Second, such precursors will need to be guided to acquire critical somatic hypermutations that confer heterologous neutralization potency and breadth (6). While it is clear that bNAbs evolve in natural HIV-1 infections through years of Env-antibody (Ab) coevolution, it is not clear how to trans- late these findings to design immunogens that can reproducibly prime and mature bNAbs across multiple hosts (1,5,7). In our last HIVRAD project, we developed a novel rhesus macaque (RM) SHIV infection model that re- capitulated several key features of Env-bNAb coevolution (8,9). We also showed that prior vaccination and in- fection with SHIVs bearing particular germline-targeting Envs could accelerate bNAb development. Thus, our rhesus model system thus provides a unique setting where reproducible induction of bNAbs in (S)HIV infec- tions can be studied. In this renewal, we will leverage this system to develop a vaccination and SHIV infection strategy that will lead to development of V3 glycan bNAbs in an accelerated and reproducible manner across multiple rhesus hosts. Our scientific premise is that a better understanding of the common Env-Ab coevolu- tionary patterns leading to V3 glycan bNAb development will allow design of immunogens that can prime and mature multiple V3 glycan bNAb lineages. Our Bioinformatics and Statistics Core (Core C) will provide bioin- formatic and statistical modeling analyses to facilitate these overall HIVRAD goals. We will analyze Env evolu- tion in SHIV-infected RMs from Project 1 by applying our novel computational pipeline to longitudinal se- quence data generated by Core B. We will identify the similarities and differences between the neutralization profiles of newly identified rhesus V3 glycan bNAbs (Project 1) and previously known V3 glycan bNAbs (Aim 2). Using the above two studies, we will iteratively design immunogens that are capable of engaging precur- sors of multiple V3 glycan bNAb lineages and of maturing them towards neutralization breadth in collaboration with Core B and Project 3 (Aim 3). Finally, we will provide statistical modeling of in vivo vaccine efficacy (Pro- ject 1) and other complex biological problems across all Projects."
+ },
+ {
+  "id": "a58265d5-4c39-4d27-87f8-641b5332116a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Impact of ecological interactions on mutant fitness and evolution in microbes",
+  "text": "Interactions between microbial species, such as the exchange of nutrients, are pervasive in the human body\nand other natural environments, and they have been found to significantly alter the ability of microbes to adapt\nto environmental changes such as antibiotic treatment. This project will develop general rules for how these\ninteractions shape the fitness of new mutations, especially the underlying molecular and cellular mechanisms.\nThese principles will help us better predict the evolution of microbes in nature and discover unknown functions of\ntheir genes."
+ },
+ {
+  "id": "a58338ba-e5d7-4880-bc72-46f8c94f479f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "TRD1: Multimodal Imaging for Spanning Multiple Spatial Scales in the Brain; Expansion to New Technologies and Species",
+  "text": "Abstract/Summary All current techniques for the study of brain functions have limitations. Human brain activity and functional connectivity for example, can be studied with non-invasive functional whole brain MR methods. However, the spatiotemporal resolution and neuronal specificity of the MR technique is limited. This limitation is imposed at two levels irrespective of the functional MR approach employed: First, the inherent sensitivity of the MR approach limits the achievable spatial resolution. Although the development of UHF fMRI has enabled human studies with nominal voxel volumes of ~0.5 to1 µL to permit the detection of activity in cortical layers, columns, and other fine scale organizations such voxels still contain more than forty to eighty thousand neurons, capable of performing a multitude of different computations. The second limitation is the indirect nature of the MR based functional mapping signals. Irrespective of the functional contrast mechanism employed, they reflect physiological changes mediated by neurovascular coupling and subsequent coupling to and perturbations of MR parameters and these intermediary steps lead to ambiguities in spatiotemporal fidelity to neuronal activity especially at the mesoscopic scale or cortical column and layers. More importantly, the relationship between the MR based functional mapping signals and the underlying neuronal computations generated by a plethora of neuronal processes and cell types organized in complex local circuits remains largely unknown. This TRD seeks to overcome these limitations by improving the MR measurements by exploiting advantages of uniquely high magnetic fields (10.5T and 16.4T) and developing rigorous multi-modal (MRI-Electrophysiology and MRI-Multi Photon Imaging) data acquisition approaches these ultrahigh magnetic fields to build sharable technologies as well as to understand the nature of the functional MR signals."
+ },
+ {
+  "id": "a5891162-a7e3-4297-9408-98a7787bac06",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Stanford Training Program in Aging Research",
+  "text": "While Americans are aging rapidly, the field of aging research is lagging behind. There is also a dire shortage\nof the research workforce focused on aging research. The Stanford Training Program in Aging Research\n(TPAR) seeks to fill this critical gap by training postdoctoral fellows to become the next generation of leaders in\naging research all with the goal of improving the health and wellbeing of older adults."
+ },
+ {
+  "id": "a5895a3b-b608-447d-9a12-fbf09008f697",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "SCH: Transforming Brain Disorder Management through Ultra-Low-Power ML Implants",
+  "text": "Current neural monitoring devices are heavily constrained by power, size, and data processing capability significantly limiting their health intervention capability. This project addresses this critical public health challenge by creating intelligent, nano-watt level sub-scalp neural implants. This technology aims to enable real-time diagnostic capabilities and low-risk closed-loop therapeutic interventions for patients suffering from different brain disorders, while also advancing assistive BCIs."
+ },
+ {
+  "id": "a593f0d1-00ca-42df-b95a-3bbbd7184a34",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The adaptor protein Crk in immune responses",
+  "text": "In this grant renewal, we investigate how the small adaptor protein Crk and its\nphosphorylation function as a molecular switch to turn immune cell function on and off. We use newly identified\npCrk inhibitors as a tool to dissect out Crk’s ability to integrate activating and inhibitory immune cell influences\nin a variety of clinically relevant settings: live human immune cells, a common human immunodeficiency\n(partial DiGeorge syndrome, pDGS), and mouse models of breast cancer. Outcomes will result in a new view\nof Crk in immune responses, tumor suppression, and immune cell exhaustion, and will set the stage for\nimmune restoration in immunodeficiency and cancer."
+ },
+ {
+  "id": "a5943e26-2f51-40b2-b061-2bdf11810b59",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "An imaging AI-driven predictive chemoradiation response tool for Veterans with oropharyngeal cancer",
+  "text": "Oropharyngeal cancer (OPC) incidence in the Veteran population is increasing at a rate 3 times that of the\ngeneral US population and survival lags that of the US population by >20% due to a disproportionate burden of\naggressive, treatment resistant disease. These factors combine to make rapid development of precision\noncology approaches to OPC a categorical imperative for the VHA. In the current proposal we will utilize machine\nlearning approaches to develop the Artificial Intelligence for Risk Stratification of Oropharyngeal Carcinoma\n(AIROC) algorithm which will predict chemo-radiation response in patients with OPC with a sensitivity and\nspecificity greater than 95% using clinically generated data readily available across the VHA that can be easily\ndeployed across VHA facilities for utilization in clinical practice and planned clinical trials for this deadly disease."
+ },
+ {
+  "id": "a595cbd9-2775-4bdf-b1a0-54af0b6e1f3e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of autologous humanized leukemia models for immunotherapy testing",
+  "text": "PUBLIC HEALTH STATEMENT\nThis project aims to develop innovative leukemia mouse models that use both immune and cancer cells from\nthe same patient, creating a more accurate system to study blood cancers and test immunotherapies. By\novercoming the limitations of existing models, these autologous humanized leukemia models will provide\ndeeper insights into how immune and cancer cells interact and predict patient responses to treatments. This\nwork has the potential to advance preclinical testing and guide the development of more effective therapies for\nleukemia and related diseases."
+ },
+ {
+  "id": "a595d0c9-c4f3-4463-a3a5-c3c48018b80d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Data Analysis Core",
+  "text": "DATA ANALYSIS CORE – PROJECT NARRATIVE\nProgestins, synthetic progesterones, are the only pharmacological agent used to treat primary endometrial\ncancer and atypical endometrial hyperplasia; however, the best progestin to use and the patients most likely to\nbenefit remain unknown. The goal of the P01 is to identify progestins that are effective and safe as well as\nbiomarkers that predict progestin response. The Data Analysis Core will contribute to this goal by providing\nbiostatistical support, genomic data analysis, and data sharing, which are critical to the success of the P01."
+ }
+]

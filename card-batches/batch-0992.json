@@ -1,0 +1,142 @@
+[
+ {
+  "id": "d4c106f5-795f-494c-b197-274df08d6a89",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Interrogating the Clonal Architecture of Human Hematopoiesis by Mitochondrial Lineage Tracing",
+  "text": "During the lifespan, hematopoietic stem cells acquire mutations and expand into clonal\npopulations, driving increased risk of cancer, cardiovascular disease, and overall\nmortality. The mechanisms underpinning the expansion of these mutation-carrying stem\ncells and their phenotypic consequences remain poorly understood. The proposed\nresearch will apply mitochondrial lineage tracing and deep phenotypic characterization\nof hematopoietic stem cells in the setting of RUNX1 Familial Platelet Disorder and\nduring aging to identify fundamental biological principles governing clonal expansions,\ninflammatory changes to cells, and downstream phenotypic consequences, with the\nhopes of identifying important pathways underpinning the observed decreased\nhematopoietic function and increased cancer risk in these settings."
+ },
+ {
+  "id": "d4c355ee-171c-467c-a990-44465ad169ef",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Data Science and Applied Technology Core",
+  "text": "Data Science and Applied Technology (DSAT) Core (RC4), the most recent addition to the University of Florida (UF) Older Americans Independence Center (OAIC), provides an interactive data and technology ecosystem for promote mobility and independence. Big data initiatives, applied technologies, and new methodological approaches for data science have exploded in many various environments, and the world is moving toward a connected system of computing and sensing components. The broadly used phrase “connected health” refers to an environment in which detailed data are collected on health, activity, location, and other aspects of the participating entities. Flexible control of the different interconnected and frequently communicating components can provide a rich set of applications that learn dynamically from data streams. Artificial intelligence (AI) promises to transform our ability to harness these data streams to advance science and improve health. The core uses techniques such as machine learning and deep learning to transform data utility through computer models that use data to learn, predict and – potentially – infer causation. Additionally, DSAT is on the forefront of mobile health (mHealth, smartphones and smartwatches) technologies that are changing the landscape for how patients and research participants communicate about their health in real time. Importantly, the core efforts are specifically targeted to older adults — a population that is often forgotten in these regards. DSAT provides a central hub of expertise in gerontology/geriatrics, computer engineering, mHealth, applied technology, and epidemiology. As a result, DSAT provides many unique attributes to the UF OAIC and nationally that: • Support OAIC cores, train and provide resources to REC Scholars, researchers and practitioners; • Advance interactive monitoring and remote health using mobile devices designed for older adults; • Use and develop data repositories and repurpose existing data to support new research on mobility; • Conduct machine learning, artificial intelligence, and pattern discovery analyses; • Collaborate with partnering OAIC cores to develop new research endeavors on promoting mobility; • Enhance externally supported projects. DSAT addresses many aspects of major national initiatives outlined in \"Advancing Artificial Intelligence R&D\" and \"Emerging technologies to support an aging population\" and is poised to meet these new initiatives. Given is interdisciplinary approach, it is well-suited to lead the UF OAIC into the future of connected health, mobile technology, advanced sensing, artificial intelligence and machine learning specifically geared toward promoting mobility and independence in older adults."
+ },
+ {
+  "id": "d4c5763a-321f-40e9-8985-8c59897750fd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "High-throughput experimental and computational identification of RNA elements that regulate trafficking to midbodies",
+  "text": "The midbody is a microtubule rich organelle packed with proteins and enriched for specific RNAs required for\nproper cell division. This proposal will uncover mechanisms that regulate how those RNAs are localized to the\nMB, shedding light on this vital regulator of mitosis. This study focuses on experimental and computational\napproaches to identifying regulatory elements driving mRNAs to the MB, and the completion of this work will\nlead to novel insights into mechanisms of mRNA localization to other subcellular locations."
+ },
+ {
+  "id": "d4c8e628-97a4-400b-8040-0762f6533cb2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Trophoblast progenitor heterogeneity and function in normal and Trisomy 21-affected placentae",
+  "text": "Placental dysfunction results from abnormal development of this organ early in gestation, and is the underlying\ncause of adverse pregnancy outcomes, including miscarriage, preeclampsia, and fetal growth restriction.\nPregnancies affected by Trisomy 21 are at high risk of miscarriage and fetal growth restriction, at least partly\ndue to abnormalities of placental development. This project will use placental cells, derived directly from\nnormal and Trisomy 21-affected placentas or pluripotent stem cells in order to identify cellular defects\nunderlying placental dysfunction."
+ },
+ {
+  "id": "d4d75a0a-1386-4a3a-ab18-b3bc46bd37ce",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Biostatistics & Bioinformatics",
+  "text": "SUMMARY – Biostatistics & Bioinformatics (B&B) Core The vision research community of Wilmer/JHU has experienced increasing need for state-of-the-art biostatistics and bioinformatics support due to the escalating scale and complexity of modern biomedical science. As an example, our vision science community has many active NEI-funded research labs utilizing multiomics-based molecular biology and related approaches (e.g., artificial intelligence) to extract new knowledge from increasingly large datasets. A number of these investigators are working together on disease- oriented collaborative projects that are statistically and informatics intensive. In addition, many investigators are utilizing next-generation sequencing technologies and/or genomic database resources for a variety of projects, which generates significant need for statistical and bioinformatics expertise. Post-genome molecular biology itself is rapidly becoming an informatics-focused science. Accordingly, the B&B Core provides essential computational support for vision researchers across JHU. The B&B Core is overseen by Director Jiang Qian, Ph.D., Karl H Hagen Professor at the Wilmer Eye Institute. His primary area of research is bioinformatics, and he has broad experience in computational biology. Due to decreased usage of the Wilmer Biostatistics Core among NEI-funded researchers, the Johns Hopkins Biostatistics Center now handles our biostatistics needs. They offer comprehensive biostatistics, data science, programming and data management services, and consulting for JHU researchers. Their biostatisticians and data team provide expertise for every stage of a research project, from grant preparation to study design, data capture, and publication. For their part, Dr. Qian and his team continue to provide extensive bioinformatics services to our vision researchers at Wilmer/JHU. Specifically, they use/develop computational biology approaches to extract salient features from a wide range of large datasets generated by rapidly evolving ‘omics technologies including RNA-seq, ATAC-seq, ChIP-seq, genomic sequencing, proteomics, and integrative data analysis. An emphasis of recent work has been on single-cell sequencing data technologies. The Qian lab has created several novel data analysis pipelines to enhance the quality and depth of single-cell data analysis including: 1) LRLoop, to predict ligand-receptor interactions at a much lower false-positive rate compared to existing methods, 2) CellAnn, which is used to improve cell type annotation, and 3) a comprehensive single-cell expression database specific to retinal cells."
+ },
+ {
+  "id": "d4e64aba-2b84-45d5-a175-5b3c2d76805a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Functional and molecular characterization of Oncofetal Stem Cells in CRC",
+  "text": "Narrative.\nNew evidence that the LGR5+ CSCs are not the sole driving force behind CRC progression and resistance to\ntherapy took the community by surprise13 and suggested a more complex interplay between LGR5+ and LGR5-\ncells. We and others have recently uncovered the presence of a second stem cell population (OnFSCs) in CRC.\nHere, we aim to promptly assess their functional relevance in CRC evolution and define potentially targetable\nvulnerabilities."
+ },
+ {
+  "id": "d4e9c222-b77e-4ede-950f-976e8e7aac3e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Genome instability associated with oncogene amplification and its therapeutic strategy",
+  "text": "Oncogene amplification is common in human cancers and is associated with adverse clinical outcomes\nand therapy resistance in multiple cancer types. Based on preliminary data, we hypothesize that this\nresults from unique mechanisms of oncogene amplification, causing genomic rearrangements and\nthereby leading to heterogeneity in the cancer cell population. Using single-cell whole-genome\nsequencing, gene expression analysis, long-read sequencing, and circulating tumor DNA assays, we\naim to elucidate the mechanistic links between oncogene amplification, genome instability, and therapy\nresistance, and to evaluate therapeutic strategies to reduce oncogene amplification-induced genome\ninstability and prevent the evolution into therapy-resistant cancer cells."
+ },
+ {
+  "id": "d4ebbebc-fee1-413d-9b39-5ff25a0406b4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Functional Characterization of Tau Mutation and Post-translational Modifications",
+  "text": "RELEVANCE (See instructions):\nAggregation of the protein tau is thought to drive several neurodegenerative diseases, including\nAlzheimer's Disease, that lack disease-modifying therapeutics. The goal of this proposal is to gain a\ncomprehensive understanding of how the misfolding and aggregation of tau is controlled by the\ncombination of its sequence and its cellular environment in human neurons. Completion of this proposal\nhas the potential to provide unique insight into fundamental properties of protein misfolding in the brain and"
+ },
+ {
+  "id": "d4ecebae-b695-48c8-8387-e71296c3a918",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Effects of Polychlorinated Biphenyls on Adipocyte-Macrophage Crosstalk",
+  "text": "Polychlorinated biphenyls (PCBs) persist in the built and natural environment leading to human exposure and\nincreased risk of metabolic diseases such as diabetes and obesity. The development of metabolic diseases\noften begins in adipose tissue, the lipid-rich depot also responsible for PCB accumulation. This project will\nuncover the systems-level mechanisms by which PCBs contribute to adipose dysfunction and inflammation\nthrough the disruption of cellular crosstalk between adipocytes and macrophages."
+ },
+ {
+  "id": "d4ef9bea-5a4d-481a-a9a4-acd8a552ae35",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Striatal Mechanisms of Dyskinesia and Impulse Control in Parkinson’s Disease",
+  "text": "Dopamine replacement therapy of Parkinson’s Disease is critical to manage movement symptoms, but frequently\ncomplicated by the development of treatment-related involuntary movements or impulsive behaviors.\nUnderstanding how dopamine replacement therapy produces its therapeutic and pathological effects through\ndistinct groups of brain cells would make it possible to harness the therapeutic effects without the complications.\nThis project will measure brain activity in a mouse model of Parkinson’s Disease, to better understand how\ndopamine replacement therapy improves movement, causes involuntary movements, or leads to impulsive\nbehavior."
+ },
+ {
+  "id": "d4f2560c-db2f-4bb9-814b-9e828044b2b1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "ActiveCBT for depression: Transforming treatment through exercise priming",
+  "text": "Current treatments for depression, including cognitive behavior therapy (CBT) and medication, are not effective\nfor many people, leading to a high global burden of depression. We propose to investigate the effects of a\nnovel intervention approach, intentionally sequencing aerobic exercise immediately prior to CBT sessions to\ntake advantage of the powerful short-term biological and psychological effects of exercise to increase the\npotency of the psychotherapy (termed ‘ActiveCBT’) using established and cutting-edge techniques to measure\nboth specific and common factors underlying the antidepressant effect of CBT (ie, mechanisms of CBT). This\nseries of studies will determine the potential of this elegant exercise priming approach to enhance key\nmechanisms of CBT (R61 project) prior to a larger replication of the trial that establishes the effects of\nActiveCBT on overall depression outcomes while linking augmented mechanisms in ActiveCBT to better\ntreatment effects (R33 project)."
+ },
+ {
+  "id": "d4f3e44e-ba55-40ca-a8c9-417051d693dc",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Training in Reproductive Sciences",
+  "text": "The UCSD Training Program in Reproductive Sciences takes a multidisciplinary approach to prepare physician-\nscientists and reproductive biologists to become the future leaders in reproductive research. Postdoctoral\nscholars with Ph.D. and/or M.D. degrees are trained in the field of reproductive biology through advanced basic\nresearch experiences and/or engaging in clinical investigation of reproductive disorders. A cohesive, highly\ninteractive group of faculty mentors from the Department of Obstetrics, Gynecology, and Reproductive Sciences\nand the Departments of Medicine and Pathology with complementary interests, co-authored publications, shared\ngrants, and balanced clinical, translational, and basic science backgrounds, provides intensive research training\nand career development to foster the future careers of outstanding postdoctoral and clinical fellow trainees."
+ },
+ {
+  "id": "d4f58875-5c55-4fe6-9812-af393cba3fe9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Predicting and preventing drug metabolism by the human gut microbiome",
+  "text": "Prescription drugs represent ~10% of national healthcare costs each year, with cardiovascular disease\nrepresenting one of the most expensive and challenging forms of treatment. The metabolism and absorption of\ndrugs, and thus their impact, is shaped by the human gut microbiome; however, efforts to translate these findings\nhave been limited by lack of mechanistic insight into the bacterial species, genes, enzymes, and metabolites\nresponsible. We will leverage the robust conceptual and experimental framework established during our first two\naward periods to study the role of secreted gut bacterial metabolites and proteins in shaping drug absorption\nand metabolism, emphasizing the feasibility and utility of identifying specific microbial factors that influence the\ntreatment of human disease."
+ },
+ {
+  "id": "d4f85a46-cd8b-48a8-b0db-9028f32c7bef",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Brain Digital Slide Archive: An Open Source Platform for data sharing and analysis of digital neuropathology",
+  "text": "Similar to radiology twenty years ago, pathology is undergoing a dramatic transformation, with new image scanners allowing digital capture of microscopy images. Open-source tools to view and analyze these digital images are limited, and commercial software is extremely expensive. We will develop a federated open-source Brain Digital Slide Archive (BDSA) platform to streamline Alzheimer's Disease (AD) and AD and related dementias (ADRD) research providing researchers with sophisticated tools to manage, visualize, and analyze the spectrum of AD/ADRD brain whole slide images."
+ },
+ {
+  "id": "d4fc63a5-6be6-438e-868b-db47e1a08f6f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigation of the quantitative intracranial aneurysm wall enhancement and geometric features associated with aneurysm volume growth",
+  "text": "This study will investigate the relationship between 3D wall enhancement and geometric features and\nintracranial aneurysms volume growth. This information will be a basis for future larger scale multi-center\nstudies. The project will provide insight into the underlying mechanisms of aneurysm progression and help in\nguiding treatment for this devastating condition."
+ },
+ {
+  "id": "d501d874-6712-41b6-8037-c790f42e61cc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Toxicity of Benzalkonium Chloride to the Corneal Epithelium",
+  "text": "Benzalkonium chloride (BAK), present in 70% of multidose ophthalmic formulations to prevent contamination,\ninduces chronic corneal epithelial damage affecting millions of patients with dry eye and glaucoma. Building on\nour foundational, recently published TVST study demonstrating BAK-induced barrier dysfunction and\nmitochondrial suppression in human corneal epithelial cells, we will execute a study to precisely determine how\npulsatile BAK exposure disrupts plasma membrane repair through ATP depletion and m⁶A RNA dysregulation,\nand then test three clinically-compatible protective adjuncts (hyaluronate, mitochondrial antioxidants, FTO\ninhibitors) while maintaining USP <51> antimicrobial efficacy. This work will enable the development of safer\npreserved eye drops through probabilistic exposure modeling and mechanistic intervention, protecting patients\nfrom having to choose between infection risk and preservative toxicity."
+ },
+ {
+  "id": "d502748a-6d5f-45ef-93a5-7cefe70e8295",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "EBV-positive diffuse large B-cell lymphoma: defining biologic determinants of disease pathogenesis in immunodeficiency",
+  "text": "Epstein-Barr virus (EBV) is an oncogenic virus that plays a pervasive role in the pathogenesis of diffuse large\nB-cell lymphoma (DLBCL), particularly in the immunodeficiency setting. EBV-associated DLBCL causes a\nclinically aggressive form of the disease that is often resistant to standard chemotherapy treatment, signaling\nan urgent need for research into viral pathogenesis and disease progression across immunodeficiencies of\nglobal patient populations. This research project aims to deeply characterize the genomic profiles of EBV(+)\nDLBCL arising in disparate immunodeficiency settings of Southern Africa and the United States to advance\ndisease understanding, identify diagnostic and prognostic biomarkers, and ultimately improve clinical\noutcomes."
+ },
+ {
+  "id": "d503b961-0c80-421f-83db-d3ab9ceb4350",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Washington University Co-Clinical Imaging Research Resource",
+  "text": "The proposal aims to establish a resource to optimize and validate quantitative imaging methods to assess or\npredict response to therapy using patient-derived tumors implanted in mice and the implementation of the\nquantitative methods in clinical imaging to facilitate assessment of therapy in metastatic breast cancer."
+ },
+ {
+  "id": "d503dd87-c2a2-4c17-87c0-38fd95bc8ecc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Air Pollution and Well-Being: Assessing Risks and Enhancing Education in Uganda (AWARE Study)",
+  "text": "Air pollution is the leading environmental cause of death globally, and substantial differences in air pollution exposure leads to higher exposures among people living in resource-limited settings, women, and people of lower socioeconomic status. In 2020, the World Health Organization established guidelines for reducing personal exposure to air pollution that focus on individual-level behavioral modifications, but to what extent these guidelines are applicable to and known by people living in resource-limited settings with high air pollution exposure is not known. This project will use qualitative methods to explore knowledge, attitudes, and perceptions about air pollution and health among adolescents and adults in Uganda to design and evaluate the feasibility and acceptability of a contextually appropriate strategy to reduce personal air pollution exposure as preliminary data for a future hybrid implementation-effectiveness trial."
+ },
+ {
+  "id": "d509ecd6-9c18-46f8-bb84-2d6a0d312c0a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identifying environmental pollutants detrimental to the cardiovascular system",
+  "text": "Lipophilic environmental pollutants that have contaminated our food supplies and consumer products,\nsome termed “forever chemicals”, can bio-accumulate in human adipose tissues and negatively impact\nour whole body health including the cardiovascular system. This proposal will investigate mechanisms\nby which environmental toxicants disrupt endothelial and adipocyte biology, and play causal roles in\nmediating vascular disease which represents a topic of high public health significance, affecting nearly\nevery household and individual living in the United States."
+ }
+]

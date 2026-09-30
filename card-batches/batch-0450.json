@@ -1,0 +1,142 @@
+[
+ {
+  "id": "132a954e-6644-4bf6-baf4-0f781f7b8125",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Elucidating Immune and Microglial Dynamics in Alzheimer's Disease with Advanced Organoid Models.",
+  "text": "Parkinson’s disease (PD) is a common neurodegenerative condition with major impacts on quality of life, no disease-modifying therapy, and mechanistic links to the toxic accumulation of a particular protein. Mesenchymal stromal cells (MSCs) release molecules that help combat disease states, with the specific molecules released influenced by their environment and surrounding pathology. By comparing what MSCs release when in conditions simulating PD with what they secrete in normal conditions, we aim to identify molecules that could be used to therapeutically target the abnormally accumulating protein in Parkinson’s disease.."
+ },
+ {
+  "id": "132c9072-c176-4eb7-becd-5d23739c5673",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Center for Mouse Genomic Variation at Single Cell Resolution",
+  "text": "Our center will study how genetic variants impact function by studying their effects in all cell types of 8\nmouse tissues. We will measure the expression of genes as well as the activity of regulatory elements in a\nlarge number of individual cells from these tissues to build maps of which variants impact the expression of\nthese genes in different cell types. We will also measure the impact of genetic variation on inflammation. Our\nresults will help interpret the impacts of variants on gene function in humans as well as support the design of\nbetter mouse models of human disease."
+ },
+ {
+  "id": "133199c8-c8c8-4227-b030-eecb7dacb599",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Computational interrogation of Epigenetic Regulation in Cellular Plasticity and Heterogeneity",
+  "text": "TO PUBLIC HEALTH\nModifications of the genome that do not change the sequence of the DNA, called epigenetic modifications, can\nimpact how genes are expressed and lead healthy cells into a disease state. Here we propose to develop mouse\ncomplete epigenome resources and computational tools to define how DNA methylation impacts gene\nexpression and ultimately cell behavior. These tools will be versatile and adaptable to any cell type of choice,\nenabling research into the molecular features of the genome that underlie both normal and pathological cell\nbehaviors."
+ },
+ {
+  "id": "133269b9-89d5-41e1-91a5-00a2c014ee67",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Personalized Risk Prediction for Prevention and Early Detection of Postoperative Failure to Rescue",
+  "text": "The goal of this proposal is to apply machine learning approaches to multiple data sources including electronic\nhealth record data, high-fidelity physiological waveform data, and genomic data that have never been used\ntogether in the acute care setting to predict postoperative major complications and decrease failure-to-rescue\nafter surgery. These inputs will be used in simulated real-time bedside management to 1) iteratively design a\nprototype clinical decision support tool and 2) evaluate its use in simulation upon use of postoperative\ncontinuous remote monitoring and early warning systems, accuracy and time to correct diagnosis, accuracy\nof intervention, and time-to-intervention. The feasibility and acceptability of this clinical decision support tool will\nthen be assessed in a small-scale prospective, longitudinal pilot evaluation in sequential 10-weeks, 13-weeks,\n10-weeks phases to help design a future, large-scale clinical trial."
+ },
+ {
+  "id": "1333e1a3-3115-4943-8b59-b10a9bdd11ba",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Characterize Drug Resistance in Multiple Myeloma",
+  "text": "Drug-resistant tumor cells are the most probable source of relapsing multiple myeloma (MM). We will\nidentify biomarkers of drug-resistant MM cells in primary human MM samples. We will develop novel targeted\ntherapies aimed at preventing MM relapse by eliminating upfront drug-resistant tumor cells in MM."
+ },
+ {
+  "id": "1335ffb5-aeac-4a10-b932-e2d2164e82e2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multicenter Quantitative MRI Assessment of Breast Cancer Therapy Response",
+  "text": "This application proposes to validate the robustness of Shutter-Speed Model (SSM) dynamic contrast-\nenhanced (DCE) MRI as a quantitative imaging biomarker for assessment of cancer therapy response in a\nmulticenter prospective study, using the setting of breast cancer response to neoadjuvant chemotherapy as the\nclinical test platform. Validation of this quantitative imaging method in a multi-site and multi-MR scanner\nplatform setting and making the associated software tools publicly available will accelerate the translation into\nclinical trials and, ultimately, clinical practice to improve prediction and evaluation of cancer therapy response\nfor individual patients in the emerging era of precision medicine."
+ },
+ {
+  "id": "13387ab7-27a1-4c91-b711-c3f5e165907a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Structural and functional investigations of bacterial fibrillar adhesins",
+  "text": "The proposed research is relevant to public health because fibrillar adhesins are widely used by bacteria in\ninfection and persistence, and as such are desirable targets for anti-virulence therapeutics. The project is\nrelevant to the mission of NIGMS because our discoveries will increase our fundamental understanding of\nfibrillar adhesin structure and function and provide a roadmap for the study of structurally similar proteins,\nlaying the groundwork for advances in therapeutics for a range of human diseases."
+ },
+ {
+  "id": "133c3994-3663-41a0-9065-7da523e28609",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Limbic glutamatergic circuits in ethanol dependence and escalated operant self-administration",
+  "text": "Research Component 1. Alcohol use disorder (AUD) is a multiphasic neural and behavioral pathology that is characterized, in part, by dependence-induced escalated alcohol use. Robust prior work shows that synaptic activity of calcium permeable AMPA receptors (CP-AMPARs) is a target of alcohol that mediates the positive reinforcing effects of the drug via activity within the brain reward pathway. Despite this progress in understanding the molecular mechanisms of AUD, the role of CP-AMPAR activity in dependence-induced escalated alcohol self-administration remains to be fully elucidated. Strong preliminary data show that alcohol dependence both escalates the reinforcing effects of alcohol, as measured by operant self-administration, and upregulates AMPAR expression in the basolateral amygdala (BLA) and other brain regions that send glutamatergic projections to the nucleus accumbens (Acb), a central component of the reward pathway. This convergence of molecular, physiological, and behavioral data supports the overall hypothesis that: CP-AMPAR expression and activity in the BLAAcb pathway is a target of alcohol dependence that, in turn, drives escalated alcohol self- administration. We propose to test this hypothesis in three separate but integrated aims using male and female C57Bl/6J mice. First, an integrated set of molecular and electrophysiology studies will evaluate the impact of alcohol dependence, induced by the well-characterized chronic intermittent ethanol vapor (CIE-v) method, on AMPAR subunit expression and CP-AMPAR synaptic activity within the BLAAcb pathway. Second, loss of function behavioral studies will evaluate mechanistic regulation of dependence-induced escalated operant alcohol self-administration by CP-AMPARs in the BLA, and by GluA1-containing AMPARs in BLA neurons that project to the Acb using an innovative CRISPR/Cas9 method for specifically deleting the GluA1 subunit in this pathway. Third, based on strong preliminary data, we will conduct multi-channel fiber photometry to assess the impact of alcohol dependence on calcium signaling in genetically tagged excitatory and inhibitory cells during escalated operant alcohol self-administration. The mechanistic role of upregulated calcium signaling in escalated operant alcohol self-administration will be evaluated by inhibiting calcium/calmodulin-dependent protein kinase II (CaMKII) in the BLA, which is required for CP-AMPAR activity. These groundbreaking studies will move the field forward in understanding how calcium-dependent glutamatergic mechanisms in the BLAAcb circuit regulate the escalated reinforcing effects of alcohol associated with AUD."
+ },
+ {
+  "id": "133c5954-f2c1-4095-aa91-ca98dd2ea8bc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Translational Research Support Core",
+  "text": "EXPOSURE AND GEOSPATIAL ANALYTICS CORE: ABSTRACT The Exposure and Geospatial Analytics Core (EGAC) is a highly utilized resource in the Southern California Environmental Health Sciences Center (SCEHSC). A fundamental principle of the EGAC’s mission is the fusion of domain knowledge with cutting-edge technical and methodological expertise to advance impactful, solution-oriented environmental health research and translation. The aims of the EGAC include Service, integration with SCEHSC Cores and Affinity Groups, and Education and Mentoring. The EGAC supports SCEHSC investigators’ research and pilot projects through consultations on environmental exposure science and geospatial approaches to understand the full spectrum of health-relevant exposures at the population, neighborhood, and personal levels. The EGAC offers state-of-the-art exposure measurement and modeling methods and tools, advises on study design, data collection and analysis for exposure and health studies, and provides continuing education and dedicated mentoring on current and new methods in emerging areas. These include precision environmental health, exposomics, weather extremes and community resilience, and advanced (deep) machine learning and geospatial modeling. The EGAC also promotes coordination with other Cores and links to expert networks at USC and beyond in service to SCEHSC investigators. EGAC works closely with the TRSC in linking the external to the internal environment and understanding biological responses and mechanisms, with the BDSC in advancing multi-omic data integration, mixtures, and computational methods, and with the CEC in supporting all community outreach and engagement efforts. In conclusion, the EGAC fills a critical need in the SCEHSC by providing access to specialized environmental, exposure, and geospatial domain expertise, cutting-edge methods, data, and tools, and dedicated education and mentoring to advance the goals of Center researchers, trainees, and community partners and push the field of environmental health forward in key priority areas outlined in the NIEHS strategic plan."
+ },
+ {
+  "id": "133f2cd0-cc06-4914-8b4a-f58079a95f97",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Determining the role of ROS and calcium within the mPTP and mitochondrial UPR nexus",
+  "text": "Aging and age-related diseases, such as heart attack and stroke, cause mitochondrial dysfunction by opening\na detrimental pore called the mitochondrial permeability transition pore (mPTP). We have developed a novel\nway to recreate the mPTP in C. elegans, a simple nematode, and have identified that the opening of the mPTP\nis linked with the activation of a detrimental mitochondrial stress response. This proposal seeks to better\nunderstand the relationship between the mPTP and the cellular stress response by examining the role of\nreactive oxygen species (ROS) and calcium (Ca²⁺), which is important for fully understanding aging and\nage-related diseases."
+ },
+ {
+  "id": "1341fada-1671-44b1-a426-4f40bb0ac11e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Elucidating the Neuropeptidome Implicated in Crustacean Feeding Processes through Multiplexed Data-Independent Acquisition Mass Spectrometry",
+  "text": "This project aims to identify and quantify neuropeptides expressed in tissue through development of optimized\ncomputational software, the results of which will improve our understanding of the specific roles and functions of\nneuropeptides within the neuroendocrine system involved in the regulation of feeding behavior via the simple\ncrustacean model system, widely recognized as the premier model for these investigations. This research will\nnot only identify key neuropeptides implicated in the feeding process, but will also achieve high-throughput and\naccurate quantitation of neuropeptide abundance changes through application of an isobaric tagging strategy.\nThe functional and quantitative knowledge gained through completion of this project will enable the discovery of\nnovel neuropeptide biomarkers associated with feeding-related disorders, such as obesity and malnutrition."
+ },
+ {
+  "id": "134845bb-4380-43e3-af09-5f03ef94df1f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Integrating systems immunology with immunometabolism and cancer immunity",
+  "text": "Relevance Statement\nThe two emerging ‘hallmarks of cancer’ are deregulating cellular energetics and avoiding immune disruption. By\nintegrating cell metabolism and immune function, the principal investigator has consistently made important\ncontributions to our understanding of the fundamental mechanisms of immunometabolism and its impact on\ncancer, especially in dissecting the interplay between immune signaling and metabolism and synthesizing\nsystems immunology with immunometabolism. The project described in this application will provide an integrative\nview of immunometabolism, and how it relates to cancer and cancer therapy, with an excellent path to bench-to-\nbedside translation and clinical development for innovative therapeutics."
+ },
+ {
+  "id": "134de9e4-28ce-4167-9e68-d2c64f85a1c6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanotransduction regulation of cellular metabolism in pulmonary fibrosis",
+  "text": "Idiopathic Pulmonary Fibrosis (IPF) is a devastating, progressive scarring disease of the lung that is driven by\nmultiple mechanisms. Tissue stiffening and aberrant metabolism have been identified as critical pathways\ncontributing to progression and I have now identified potential cross-talk between these two mechanisms. Using\nclinically relevant patient derived cell lines and animal models I will investigate the mechanism linking stiffness\nand metabolism, as well as test the efficacy of targeting mechanotransduction to reduce fibrosis development\nand limit metabolic changes."
+ },
+ {
+  "id": "1352cf68-76b6-4c33-9085-26e38521bbac",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Profiling LNP and Blood Elements Interactions",
+  "text": "The proposed research will improve the safety and efficacy of nanoparticle-based therapeutics by uncovering\nhow lipid nanoparticle (LNP) formulation properties determine interactions with blood cells and proteins. This\nwork will generate predictive models for nanoparticle–blood interactions, advancing drug delivery technologies\nfor cardiovascular, oncologic, and inflammatory diseases. The project will also engage undergraduate and\ngraduate students in cutting-edge nanomedicine, machine learning, and translational research, strengthening\nthe biomedical engineering workforce."
+ },
+ {
+  "id": "13553e1d-e18c-4c35-a451-878f06b03ecb",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Computational analysis of transcriptional states, spatial interactions and genetic regulation",
+  "text": "In order to define mechanisms of autoimmune diseases, this program project grant is driven by four cell-type specific projects. Each project focuses on an individual cell type and uses a combination of mechanistic investigations alongside the generation of high-dimensional data sets. Each of the projects will seek to define mechanisms by analyzing the data they produce, data from other projects, and public data sets, including data produced by the Accelerating Medicines Partnership Programs (AMP-RA/SLE and AMP AIM). Key data types include single-cell transcriptomic data, spatial transcriptomic data, human genetic data, epigenetic data, and multimodal data types. Here, we describe a core, the Computational Systems Immunology (CIS) core, that builds on our longstanding expertise in human genetics, functional genomics, and computational immunology. The CSI will support the analytical and computational needs of all of the projects and enable integration between them, It will take advantage of its experience through the AMP RA/SLE and the AMP AIM. This CSI core will facilitate the analysis and integration of RNA-seq data at the single-cell level (Task 1), spatial genomic data (Task 2), epigenetic data (Task 4), and genotype data (Task 5). In addition to these analyses, the core will advise Projects on specific analyses undertaken by the projects (Task 6). The CSI core will also provide important data resources to connect cell states between blood, RA synovial tissue, and SLE renal tissue (Task 3) by incorporating public data sets."
+ },
+ {
+  "id": "1360f10f-756d-4810-b8e7-5fff824447a7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cerebellar-Cortical Circuitry and Treatment Response in Early Psychosis",
+  "text": "Psychotic disorders are severe mental disorders with treatment response highly variable among patients,\nmaking the investigation of predictors of treatment response critically important. We have recently identified\nthat connectivity in the cerebellar-cortical circuitry is a promising prognostic biomarker with the best predictive\nvalue across the whole brain. This study aims to further validate this biomarker and to develop predictors in the\ncerebellar-cortical circuitry for future clinical use."
+ },
+ {
+  "id": "1365b1bd-f4ce-4aa5-9709-8dc23c02727a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mass Spectrometry-Based Biochemical Analysis of Single Cells Beyond the Global Proteome",
+  "text": "Single-cell biochemical analysis greatly benefits biomedical research by providing insights into tissue\nmicroenvironments, interactions between cell types and specific responses to therapies that cannot be\ndetermined using bulk measurements. While unbiased single-cell proteomics has advanced rapidly in recent\nyears, few efforts have been made to extend these measurements to post-translational modifications or to other\nclasses of biomolecules that are readily profiled by mass spectrometry. We will develop technologies for mass\nspectrometry-based single-cell biochemical analysis beyond the global proteome, which is expected to have a\ntransformative impact on biomedical research."
+ },
+ {
+  "id": "136735ff-77de-44d7-847b-79e9a8b49b80",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Biostatistics and Data Science Core",
+  "text": "BIOSTATISTICS AND DATA SCIENCE CORE: ABSTRACT The Biostatistics and Data Science Core (BDSC) is an essential and frequently utilized resource for SCEHSC researchers, providing statistical and data science support for both ongoing and planned research projects. The BDSC plays a vital role reviewing research protocols submitted by investigators seeking grants or external funding. Members of the BDSC team help with project design, evaluating proposed statistical methodologies. The BDSC offers a wide range of services such as study design, data management, bioinformatics, data analysis, software development, and educational resources related to spatial, mHealth, genomic, and other omics studies. The expertise and specialized knowledge of the BDSC Director, Unit Leaders, and staff have repeatedly been demonstrated through their contributions to the design and implementation of studies funded in prior grant cycles. BDSC personnel provide ongoing education about evolving research trends, fostering collaboration among SCEHSC researchers and external investigators in environmental health research. By maintaining effective systems for delivering cost-efficient, high-quality support, the BDSC aims to continue enhancing the SCEHSC's mission and objectives while actively looking to improve its service delivery methods. It is one of one of four primary cores that receive backing from the Administrative and Facility Cores."
+ },
+ {
+  "id": "136ee13f-0401-440c-8ef2-deae4d29a070",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "PROJECT 2: Cardiovascular disease (CVD) and the stromal bone marrow niche",
+  "text": "Project 2 investigators study the role of the hematopoietic niche in CVD-associated leukocyte oversupply. In the past funding cycle, we learned that CVD reaches the vascular bone marrow niche, inducing endothelial dysfunction. Moreover, MI and hypertension give rise to angiogenesis near newly forming leukocyte clusters and their progenitors. Stopping post-MI angiogenesis via endothelial Vegfr2 deletion reduced the hematopoietic response, systemic leukocyte numbers and cardiovascular inflammation. In aim 1 of our renewal application, we follow up on our angiogenesis observations. We will investigate the Vegf pathway by using a VegfGfp mouse to identify Vegf sources after MI. We will further evaluate bone marrow angiogenesis' functional consequences for persistently elevated myelopoiesis and aggravated atherosclerosis by subjecting Vegfr-/- and Vegfr+/+ atherosclerosis-prone mice to MI. Collaborating with P1, P4 and the imaging core, we will follow leukocyte traffic and clonal expansion of myeloid progenitor cells in vascular niches that were newly assembled post-MI. Deploying image-seq, we will compare transcriptomes of cells in new niches, testing the hypothesis that these new niches generate leukocytes with inflammatory phenotypes which contribute to accelerated atherosclerosis after MI. In aim 2, we propose to expand our studies beyond endothelial cells (EC) and investigate all bone marrow niche cells, based on our hypothesis that they assume regulatory roles that influence inflammatory leukocyte supply in CVD. Among others, we will study bone marrow mesenchymal stromal cells (MSC), which influence HSPC and their progeny. In the previous funding cycle, we reported that hyperlipidemia and hypertension increase HSPC proliferation in mice and humans. In preparation for this renewal, we collected scRNA-seq data on the marrow stromal cell compartment from obese mice with hypertension, thus combining two prevalent CVD risk factors. Our unpublished pan-niche whole transcriptome data obtained in these mice provide leads which we now propose to examine with cell-specific gene deletion. Specifically, IFNɣ signaling in MSC emerged as a top-ranked pathway; accordingly, we propose to delete the IFNɣ receptor in MSC to investigate how this affects hematopoiesis and inflammation in mice with CVD. Using gene editing in HSPC, supported by the gene editing core, we will then disrupt HSPC-MSC crosstalk, which IFNɣ receptor deletion alters, to probe niche signals regulated by IFNɣ. Using an IFNɣ reporter mouse, we will define this cytokine's sources in CVD. Ultimately, the proposed work, catalyzed by expertise from collaborators in all P01 components, may uncover pathways that are active during CVD and relayed by the hematopoietic niche; such results could become the basis for therapeutically limiting leukocyte overproduction and inflammatory cardiovascular complications. The program will result in a comprehensive understanding of bone marrow niche pathologies during CVD and uncover the niche-relayed mechanisms that lead to systemic leukocyte oversupply."
+ },
+ {
+  "id": "13714077-260d-4562-8105-bb051fab5d3d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of StAR-related lipid transfer protein 10 in alcohol-induced breast cancer progression",
+  "text": "Chronic alcohol consumption is linked with an increased risk of breast cancer development and progression in\nwomen. We have found that ethanol administration causes changes in the phosphorylation status of StarD10,\nan essential lipid transporter, and it is associated with altered cell growth and malignancy. Our proposal aims to\ninvestigate how phospho StarD10 modifications under alcohol abuse can be controlled and may provide a\ntherapeutic target for alcohol-induce breast cancer progression."
+ }
+]

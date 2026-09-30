@@ -1,0 +1,142 @@
+[
+ {
+  "id": "c9cf3c8b-28f4-42b8-9d5e-6e83aa6ae0e0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of matriptase in corneal epithelial homeostasis and repair",
+  "text": "Injuries or diseases involving the cornea, the protective outer layer of the eye, can lead to infection,\ninflammation, and vision impairment which greatly affect the quality of life for patients. The key objective of\nthe current project is to identify the molecular and cellular mechanisms that ensure maintenance of a healthy\nand functional cornea, as well as the natural processes that facilitate corneal self-repair. This knowledge will\nbe used to develop new treatments for patients with corneal injury and/or disease."
+ },
+ {
+  "id": "c9d51fae-75c1-428d-8ecb-3249001eb9d6",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Childhood Infections Research Program",
+  "text": "The Childhood Infections Research Program (CHIRP) for 14 years has trained and facilitated the career\ndevelopment of investigators studying infectious diseases relevant to children. The outcomes will be\ninvestigators who will make a long-term impact on the fundamental biology, diagnosis, prevention, and treatment\nof infections or infection-related complications in children. We anticipate high public health relevance due to a\nsustained and direct impact on the health of children."
+ },
+ {
+  "id": "c9d608b5-0e84-4c38-a278-06701ef59777",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Vanderbilt Center of Excellence for Undiagnosed Disease (VCEUD)",
+  "text": "Our proposed VCEUD (Vanderbilt Center of Excellence in Undiagnosed Diseases) will function in the broader Undiagnosed Disease Network to identify the cause of undiagnosed diseases and thus help patients and their families. We will work with local communities and organizations to increase the recruitment of underserved and minority patients into UDN. We will also work with UDN to develop more powerful AI-based tools and resources to make diagnosing undiagnosed diseases more efficient and to help doctors find people with undiagnosed conditions more easily."
+ },
+ {
+  "id": "c9d941b7-972e-4abb-b26c-886436bd9125",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Using Computer Vision to Improve the Evaluation of Dysplasia in Inflammatory Bowel Disease",
+  "text": "Dysplasia detection in inflammatory bowel disease is difficult to detect on colonoscopy and histology due to non-\nuniform appearance, confounding concurrent inflammation, and lesion sparsity. Computer vision methods can\nbe used to not only model the visual characteristics predictive of histologically-proven dysplasia, but also can be\ntrained to quantify features that define the presence and grade of dysplasia. Computer vision systems for both\ncolonoscopy and histology are likely to exceed expert performance for detecting dysplasia that will help to: (1)\nstandardize surveillance strategies, (2) better define dysplasia severity grading, and (3) elevate the performance\nof less experienced endoscopists in screening for dysplasia in IBD."
+ },
+ {
+  "id": "c9d9b200-77cf-4c39-80f4-3856dbab79ae",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Uncovering Novel Regulatory Pathways and Functions of the Telomerase RNA Component in the Hematopoietic System",
+  "text": "Mutations that impact the stability of telomerase RNA molecules are found in most cases of patients suffering\nfrom the bone marrow failure syndrome dyskeratosis congenita. In this proposal our goal is to identify novel\nmolecular mechanisms that can be controlled to prevent that mutations found in these patients cause reduced\nRNA stability, which will rescue hematopoietic development and improve quality of life. We will use a unique\ncombination of molecular and cellular tools that will significantly increase current knowledge on telomerase RNA\nstability and function in hematopoietic cells that are deficient in patients with bone marrow failure."
+ },
+ {
+  "id": "c9e196ec-85bd-478a-b13a-06378811e077",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanical Regulation of Cell Fate and Multi-Scale Function in the Developing Meniscus",
+  "text": "The meniscus plays a vital role in knee function and is prone to injury, but the cellular mechanisms regulating its\ndevelopment, maturation and maintenance are poorly understood. This project seeks to fill this knowledge gap\nby elucidating the role of cellular force generation and mechanosensing in regulating embryonic meniscus\npatterning, cell fate determination and matrix specialization during embryonic-to-early postnatal growth, and in\nmaintaining cell phenotype in the adult meniscus. Results will establish the mechanobiological basis that\nregulates the meniscus development and homeostasis, providing new insight to direct regenerative strategies."
+ },
+ {
+  "id": "c9e47097-44b1-49fa-96b7-f26b4286fdb6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Chloride channels in endothelial cells",
+  "text": "Endothelial cells regulate arterial contractility. Dysfunctional control of contractility by endothelial\ncells is a hallmark of several cardiovascular diseases, including hypertension, but pathological\nmechanisms involved are poorly understood. We will investigate the novel hypothesis that\nTMEM16A channels regulate arterial contractility, investigate signaling mechanisms involved\nand test the concept that vasodilation mediated by these proteins is dysfunctional during\nhypertension."
+ },
+ {
+  "id": "c9ed2a77-c127-43a7-88a9-5b56eee62a29",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Pathobiology of Cholestatic Liver Disease",
+  "text": "This proposal examines the mechanisms by which infiltrating immune cells (neutrophils) promote inflammation\nand scarring in Primary Sclerosing Cholangitis (PSC), a liver disease with no effective medical therapy. We will\ninvestigate and target the mechanisms of neutrophil recruitment, retention, and activation that lead to\ninflammation and scarring in preclinical studies. Thus, the work has the potential to identify new therapeutic\nstrategies to treat patients with this debilitating liver disease."
+ },
+ {
+  "id": "c9eebc6e-7ee2-4408-894b-b7747ee86077",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Lysine Methylation as a Novel Regulatory Mechanism of HPV E2 Function",
+  "text": "The proposed research is relevant to public health because it focuses on understanding E2 lysine methylation\nthroughout the replicative human papillomavirus (HPV) lifecycle. New insights in host-viral interactions will\nprovide direct targets and treatments against persistent HPV infections. This application is relevant to NIAID’s\nmission to understand and prevent infectious diseases."
+ },
+ {
+  "id": "c9ef0d0c-08e0-49f4-a94d-e6105c0e2cb0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Defining the Interplay Between Viral Adaptation and Host Proteostasis",
+  "text": "Understanding the factors that shape the extraordinary capacity of RNA viruses like influenza to adapt to selection pressures, ranging from the immune system, to drugs, to new host environments upon zoonotic transmission, is critical for predicting and preventing pathologic viral adaptation and designing effective antiviral drugs and vaccines. By assisting the folding of otherwise defective viral protein variants, hijacked host cell protein folding machineries play a critical role in defining what evolutionary trajectories are available to a virus as it adapts to selection pressures. The proposed research aims to illuminate this phenomenon at the molecular and genomic levels, greatly improving understanding of viral adaptation and evolution at the host- pathogen interface in a way that will not only be fundamentally important but also likely prove valuable in the long-term for the design of novel antiviral strategies."
+ },
+ {
+  "id": "c9fca250-434d-4dce-93d7-685e907cba07",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of an Automated Sample Preparation Platform for High Throughput Mass Spectrometry Characterization of Biotherapeutics",
+  "text": "As biotherapeutics become increasingly complex to address challenging diseases, the need for more\nsophisticated characterization drives up manufacturing and development costs, ultimately leading to expensive\ntreatments and limited patient access. To address these critical barriers, the Auto-DynaChip platform transforms\nmass spectrometry characterization – the gold standard for biotherapeutic analysis – by seamlessly integrating\nmicrofluidic sample preparation with nanoflow electrospray ionization, unlocking advanced techniques like native\nmass spectrometry and charge detection mass spectrometry that reveal critical molecular details previously\ninaccessible in routine biotherapeutic characterization workflows. By making these sophisticated\ncharacterization methods accessible and high-throughput, the Auto-DynaChip delivers deeper molecular\nunderstanding on more samples than before, ultimately accelerating therapeutic development, improving drug\nquality, and increasing patient accessibility to life-saving medicines."
+ },
+ {
+  "id": "c9fe74f1-33d8-425f-ac9d-bf8d652ec39f",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "CTSA Predoctoral T32 at Boston University",
+  "text": "There is a growing and pressing national need for regenerative and stem cell-based therapies that can replenish\norgans, tissues, or cells damaged by disease, injuries, infections, or gene mutations. To meet these needs,\ncommonly referred to as “regenerative medicine”, here we propose a predoctoral “Regenerative Medicine\nTraining Program” (RMTP) designed to provide rigorous training in all aspects of translational research related\nto this rapidly emerging field. The goal of the RMTP is to prepare the next generation of creative and responsible\ntransdisciplinary translational scientists who will serve as thought leaders to spearhead national efforts to bring\nregenerative medicine into widespread clinical practice."
+ },
+ {
+  "id": "ca046f2a-fb75-4903-bac4-dc0c8477df26",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Southern African-Pittsburgh Public Health Genomic Epidemiology Training Program (SAPPHGenE)",
+  "text": "We propose to continue the highly-successful Southern Africa-Pittsburgh Public Health Genomic Epidemiology Research Training Program (SAPPHGenE) in the areas of bacterial pneumonia, invasive bacterial diseases, respiratory viruses, and fungal infections. This will be accomplished by an expert, multidisciplinary team of research mentors at the University of Pittsburgh and the Centers for Disease Control and Prevention in Atlanta. The ultimate goal of the program is to prevent and control these diseases, some of which are vaccine preventable and all which are major causes of morbidity and mortality in the United States, Southern Africa, and globally."
+ },
+ {
+  "id": "ca0d3bf5-6b91-48e9-b9e8-382a1a779084",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Decoding epigenetic adapters of cell state",
+  "text": "Pluripotent stem cells have the amazing potential to differentiate into any somatic cell type enabled by an open\nchromatin structure. The absence of cell identity-enforcing heterochromatin amplifies transcriptional output, a\nphenomenon broadly observed in lineage stem cells and cancer stem cells. We will develop a research\nprogram that mechanistically interrogates the interconnected network of epigenetic modifications, global\ntranscription, and developmental potential across cell states."
+ },
+ {
+  "id": "ca18851d-4bd2-493c-ab77-3b6ce68eb1c1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Resources,  Workforce Development, and Animal Models for the Rutgers RBL",
+  "text": "Overall - PROJECT NARRATIVE\nThis proposal will enhance the capabilities of the Rutgers Regional Biocontainment Laboratory to respond to the\nnext public health emergency or pandemic by supporting efficient operations and maintenance of its high-level\nbiosafety laboratory facilities, training and maintaining critical faculty and staff, developing and disseminating\nstate-of-the art safety and disaster response procedures, and developing scientific models of disease."
+ },
+ {
+  "id": "ca19c791-aa9b-4ae9-aec1-2a9cd5be7f69",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Evolutionary Conserved Mechanisms that Control Central Nervous System Development Regeneration and Degeneration",
+  "text": "In this proposal we will investigate the stepwise cellular and genetic changes that control central nervous system\ndevelopment, regeneration and aging using a unique long-lived invertebrate model organism, Botryllus\nschlosseri, that reproduces both sexually as chordates and asexually as invertebrates and undergoes weekly\ndegeneration and regeneration of its CNS during its adult life.\nFocusing on Botryllus brain cells we will characterize the genes and programs involved in the development of\nsexually produced larval brains, and asexually produced adult brains, isolate neural stem cells, and determine\nthe difference between brain development and regeneration.\nAdditional comparisons between the neural stem cells of young (< 6 months) and old (> 7 years) Botryllus\ncolonies, will shed light on the process of neurodegeneration and neural stem cell aging."
+ },
+ {
+  "id": "ca19e6d0-4e17-4143-8ea3-e87a2d78e299",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Site 3/3, Understanding PTSD through Postmortem Targeted Brain Multiomics",
+  "text": "The prevalence of posttraumatic stress disorder (PTSD) and depression are among the most common of the\nsevere major psychiatric disorders. There have yet to be postmortem studies of well-matched cases and controls\nto leverage the fact that these are arguably among the best understood psychiatric disorders in terms of neural\ncircuit regulation. Building on impactful linked R01 project, in our renewal proposal we will expand the sample\nsize and dive deeper with more detailed analyses of the postmortem phenotypes and more comprehensive mo-\nlecular studies to identify pathways harboring potential diagnostic biomarkers and therapeutic targets."
+ },
+ {
+  "id": "ca1bcb2d-9352-4359-a248-1302b1be269b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "An Ancestry-Informed Approach to Improve Genetic Testing for Cardiovascular Disease",
+  "text": "Genetic testing for cardiovascular disease (CVD) and elevated lipoprotein a is now being implemented in-clinic to prevent disease and save lives, yet we are still far away from genetic testing being a first-line tool given existing gaps in accuracy. This is the case as many genetic tests do not stratify patient risk well across the full US populace. My project aims to fill this gap and attain improved and personalized prediction of CVD, doing so through fine-scale studies of linkage disequilibrium, gene discovery approaches, and the construction of a novel risk prediction method integrating variants of large effect alongside polygenic variation."
+ },
+ {
+  "id": "ca20d64e-ffdf-4200-824f-8938b5069b23",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project 1: Employing CD11b-Agonists to Render PDAC Responsive to Immunotherapy",
+  "text": "These studies seek to understand if targeting integrins on myeloid cells can impact therapeutic responsiveness to immunotherapy in pancreas cancer. They include studies clinically testing an integrin agonist in PDAC patients and correlative and laboratory studies to understand mechanism of resistance."
+ },
+ {
+  "id": "ca246851-c42c-4729-a0d3-8f2bd550b56a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cellular and biophysical interactions to build oocyte-follicle complexes",
+  "text": "Oocytes, which are the precursors to egg cells, develop in the ovary in structures called follicles where they are\nwrapped in somatic granulosa cells. In this project, I will study how granulosa cells move to form follicles\naround newly-developing oocytes, how this process is affected by the physical environment of the ovary, and\nhow oocytes and granulosa cells communicate with each other. This will inform future studies of reproductive\naging, conditions such as polycystic ovarian syndrome, and the development of assisted reproductive\ntherapies such as IVF."
+ }
+]

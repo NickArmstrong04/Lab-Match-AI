@@ -1,0 +1,142 @@
+[
+ {
+  "id": "ec6cf93f-4630-4b62-b89e-0801f13968ed",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Deep Learning of Child Abuse Imaging: Improving Outcomes of Children Evaluated for Physical Abuse",
+  "text": "The accurate dating of broken bones from skeletal images is imperative in the evaluation of child physical\nabuse and may help protect children. Using innovative approaches, this project delivers artificial intelligence\nmodels that can be used as a complementary tool to increase diagnostic accuracy in aging healing fractures,\nmaking the radiologic evaluation of suspected child physical abuse more effective, safe and fair. By providing a\nmechanism for cross-site image sharing, this project enables future scalable multi-institutional model\ndevelopment and validation for improved interpretation of imaging completed in child abuse evaluations."
+ },
+ {
+  "id": "ec6f553a-da66-4d0f-82d4-d1c7a2370a04",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Core C: Informatics-Genomics-Biostats Core",
+  "text": "During recent decades, the development of large-scale data generation platforms and associated computational\nmethodologies has resulted in an expanded role for bioinformatics and statistics experts in cancer research. The\nInformatics, Genomics and Biostatistics Core (Core C) will support the Retroviral Models of Cancer Program\nPlatform Grant (PPG) by collaborating on all aspects of study design, quality control, computational resource\nuse, analysis, interpretation and presentation of multi-omics data for all three PPG Projects. Finally, leveraging\nCore C faculty expertise in creating bioinformatics tools, we will develop and publicly release computational\nresources that facilitate integrative multi-omics analysis for retroviral models of cancer."
+ },
+ {
+  "id": "ec7088ac-7861-4795-8e59-267f65be3c26",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms that establish a functional stem cell niche during organogenesis",
+  "text": "The positioning and architecture of a stem cell niche is crucial to the niche’s ability to maintain stem cells and\ntissue renewal during injury or aging. Mechanisms that establish identity of niche cells, direct their movement\nto a specific tissue location, and enable niche cell responses to positional cues remain poorly characterized.\nUsing a powerful and conserved genetic model, this proposal will define signaling and cell biological responses\nrequired to establish a stem cell niche, which is essential for development and maintenance of functional\nbiological tissues."
+ },
+ {
+  "id": "ec75b13b-ae95-4250-8fba-ffe99dc1aa61",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Characterization of Diverse Pediatric Cancers in LMIC Using Low-Cost Nanopore Sequencing",
+  "text": "While curable, cancers in children are not preventable, and modern methods to ascertain a correct diagnosis, including advanced molecular genomics, are unavailable for many primary healthcare settings, increasing the time, financial and travel burden on Americans in remote or underserved areas. Recent advancements in nanopore-based platforms for RNA sequencing provide a transformative low-cost, flexible and scalable approach, with potential for broad applicability to the diagnosis of most pediatric cancers. We propose to develop a cost-effective nanopore RNA sequencing-based platform to characterize diverse pediatric tumors and prospectively validate its effectiveness in lower-resource setting; in a step toward ultimately curing more children with cancer."
+ },
+ {
+  "id": "ec7a96bb-c9b5-4264-add7-45965ff512f0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Teaching free energy calculations to learn",
+  "text": "This proposal seeks to develop new computational technologies at the interface of physical models (which\ngeneralize broadly but cannot learn from data) and machine learning models (that can learn from data but\ngenerally require more data than is available) to accelerate drug discovery when structural biology data is\navailable. A practical outcome will be new methods and software that can be deployed in industry and academic\nstructure enable drug discovery programs that aim to reduce the time, cost, and failure rates of small molecule\ndrug discovery."
+ },
+ {
+  "id": "ec7bf31a-c6b9-48ed-8738-88a4471e7a03",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "2026 Fragile X and Autism-Related Disorders Gordon Research Conference and Gordon Research Seminar",
+  "text": "Autism Spectrum Disorder (ASD) affects approximately 1% of the world’s population, with no available\nmechanism-based therapies. Fragile X Syndrome (FXS) is one of the leading monogenic causes of ASD, the\nmost common inherited cause of intellectual disability, and can serve as a baseline for biological and genetic\nstudies in the development of effective treatments. This conference will bring together leading scientists and\nclinicians studying FXS and autism-related disorders with the ultimate goal of identifying the molecular, cellular\nand circuit mechanisms responsible for underlying symptoms and how to best translate this knowledge into\nclinical trials."
+ },
+ {
+  "id": "ec84e5fe-51a0-4b45-adbe-85256a9b2848",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of microcephaly caused by rubella virus",
+  "text": "Rubella virus can infect a developing fetus to cause birth defects, including severe defects in brain development.\nStudies aimed at unraveling the molecular mechanisms by which rubella virus disrupts brain development will\nshed light on this important human pathogen, which is a major cause of birth defects globally. The knowledge\ngleaned from rubella virus could be applied to other viruses with similar neuropathogenic behavior (e.g.\ncytomegalovirus) and rare hereditary diseases acting through the same pathways."
+ },
+ {
+  "id": "ec8e28d7-6079-4523-9476-b429764a031b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of serotonin brain circuit in the developmental emergence ofinnate fear",
+  "text": "Anxiety disorders such as phobias, panic disorder, and generalized anxiety disorder, are often characterized by\nmaladaptive fear responses, but mechanistic insight into underlying neurocircuit function is still incomplete. Here,\nwe study the role of serotonin in the periaqueductal grey to understand how this major modulatory\nneurotransmitter can change innate fear responses in adulthood and after developmental interference.\nExperiments are designed to reveal causal relationships between serotonergic activity, postsynaptic\nneurophysiology and behavior, to improve diagnosis, prevention, and treatment strategies in psychiatry."
+ },
+ {
+  "id": "ec981c18-f836-4527-a7f5-898481754555",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Regenerative Potential of Aqp2+ Progenitor Cells",
+  "text": "Despite extensive research efforts, we still do not know if an adult kidney contains specific cells that can\nproduce new cells to replace the dead ones under normal and disease conditions. Identification of such cells is\nimportant for understanding developmental defects and for regenerative medicine. This project is built on our\nrecent work showing that cells expressing water channel Aqp2 and V-ATPase subunits B1 and B2 are the first\ncandidate of such cells in mouse kidneys. These cells are called Aqp2+ progenitor cells or AP in short. We will\nuse a set of cutting-edge techniques to identify AP's molecular signature, to evaluate AP's regenerative\npotential, and to determine if their regenerative potential is different between males and females and regulated\nby Jag1."
+ },
+ {
+  "id": "ec9a008e-600c-4326-a784-e34df7279326",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Bioconductor Conference: Expanding Training, Mentorship, and Collaboration in Genomic Data Science",
+  "text": "This conference will strengthen the national infrastructure for reproducible, data-intensive\nbiomedical research by expanding training, mentoring, and collaboration around the\nBioconductor open-source software ecosystem, which underlies thousands of NIH-funded\ngenomic studies. By supporting coordinated development of statistical methods, scalable\nworkflows, and interoperable software for emerging data types such as single-cell, spatial, and\nmulti-omic assays, the meeting will accelerate the translation of computational innovation into\nreliable research tools. Broadening participation of trainees and investigators from diverse\ninstitutions will help build a skilled workforce capable of analyzing complex biomedical data to\nadvance human health."
+ },
+ {
+  "id": "ec9cabd1-84bb-482d-98c2-cdf2f8bf6c57",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multi-isotope Hybrid PET/CT Imaging of Peripheral Artery Disease in Diabetes",
+  "text": "Diabetes mellitus (DM) is associated with significant co-morbidities, specifically those associated with nervous\nsystem dysfunction, including increased risk for peripheral artery disease (PAD), and cardiovascular\ncomplications. This project will optimize and apply dual isotope hybrid non-invasive imaging approach for\nevaluation of lower extremity flow, peripheral nerve activity, and vascular calcification in pre-clinical models of\nPAD and in patients with DM and a spectrum of PAD severity. The proposed multi-isotope imaging of lower\nextremity flow and nerve activity developed and applied in this project in conjunction with imaging of\ncalcifications of the arteries will characterize the pathophysiology of nerve dysfunction in PAD and this\ninformation may lead to a paradigm change in the evaluation and long-term management of patients with DM\nand PAD."
+ },
+ {
+  "id": "eca70429-639e-4294-8aed-00bb464710c3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Genomic risk in clinical care to promote preventive health in New York City patients",
+  "text": "Major challenges exist for including genomic information broadly into clinical risk assessment in routine clinical\ncare, and issues of gaps in understanding clinical utility, and barriers to adopting medical intervention, slow\nimplementation. We will recruit 2,500 NYC patients into a clinical trial to estimate individualized disease risk and\ninvestigate the impact of genomic risk communication to patients and their physicians, including trust and\nunderstanding of the information, uptake of recommended interventions, and psychosocial outcomes. We will\nwork closely with our NHGRI, eMERGE, community, industry, and health system partners, and use lessons\nlearned to inform future research and clinical strategies, maximize efficiency for genomic medicine delivery."
+ },
+ {
+  "id": "ecab6c82-98c7-4e6f-bbca-f3303ce13067",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of brain repair during aging",
+  "text": "As the organism ages, the regenerative potential of adult neural stem cell niches declines. Importantly, adult\nneurogenic niches are important for repair upon injury, raising the intriguing possibility that restoring the function\nof these niches boosts brain repair in old age. Uncovering the mechanisms underlying the changes in neural\nstem cell adhesion and migration during aging should give important insights into the mechanisms that control\nrepair upon injury, which is critical to promote brain resilience and to counter age-related diseases such as\nstroke, Alzheimer’s disease, and Alzheimer’s disease related dementias."
+ },
+ {
+  "id": "ecb42bc2-7cac-462c-a682-609a41e71efd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dissecting the entorhinal cortex target signal for behavioral timescale synaptic plasticity",
+  "text": "The proposed research will characterize the formation and transmission of an instructive signal from the rodent\nentorhinal cortex to the hippocampus used to drive goal-relevant learning of specific spatial locations during\nmemory formation. Disruption of natural functioning in these brain regions is associated with memory\nimpairments and cognitive decline, such as in Alzheimer’s Disease. The outcome of this research will offer\nsignificant mechanistic insight into the functional connectivity between these regions during learning and\nprovide a framework for better understanding neural circuits involved in these disorders."
+ },
+ {
+  "id": "ecb46c23-5e35-4711-8ded-f3364deb12af",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Interorgan communication in aging in Drosophila",
+  "text": "Understanding aging as a systemic process of coordinated changes across organs requires a multifaceted and\nwholistic research strategy. We will use a comprehensive multi-omics approach of single-cell transcriptomics,\nmetabolomics, proteomics, and bioinformatics to elucidate networks of inter-organ communication that alter\nmetabolism in models of anti-aging, pro-aging, and natural aging in Drosophila."
+ },
+ {
+  "id": "ecb57f4d-fe3e-4e7e-9c42-9d584ccdff5f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Einstein Aging Study",
+  "text": "The Einstein Aging Study will apply novel methods to increase understanding of modifiable risk factors for\nAlzheimer’s disease and associated dementias (ADRD) by examining their effects on cognitive performance\nand decline prior to ADRD onset. The project will provide new information regarding mechanisms linking\nexposures to cognitive outcomes and will inform future targeted interventions. The diverse cohort will advance\nunderstanding of ADRD disparities."
+ },
+ {
+  "id": "ecbf9278-0bc8-407e-ae68-bcc46e785859",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Versatile, exponentially scalable methods for single cell molecular profiling",
+  "text": "A human body is composed of trillions of cells. Within the past decade, single cell biology has exploded, and\nresearchers now routinely characterize the molecular contents of individual cells obtained from human and\nanimal tissues. However, the most widely used methods remain limited in critical ways. The open-source\ntechnologies and protocols developed and proactively disseminated by this project will advance the field's ability\nto scalably measure and record biology at single cell resolution, and especially so in the context of genetic and\nchemical perturbations of key model systems."
+ },
+ {
+  "id": "ecc36aa8-9d6b-44a8-aebb-e7f47600d39c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Bacterial Derived Metabolites in Diabetic Retinopathy",
+  "text": "We are at a watershed moment in human biology where we have identified an axillary microbial\ngenome that affects how human cells function and now, we can leverage this field to tackle\ncomplex diseases such as diabetic retinopathy. In this proposal, we are testing how to increase\nthe generation of beneficial microbial derived metabolites using nutraceuticals and genetically\nmodified bacteria to prevent and treat diabetic retinopathy in mouse models of this disease."
+ },
+ {
+  "id": "ecc464b2-6a88-43a8-a545-e5292ad806a2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Computational Approaches for Understanding Multi-Area Circuit Mechanisms Underlying Memory-Guided Movements",
+  "text": "Memory-guided movements are impaired in patients with Parkinson’s disease, but the underlying neural mechanisms involving multiple brain areas remain poorly understood. This proposal aims to develop computational approaches to analyze unprecedented large-scale electrophysiological recordings and uncover these mechanisms."
+ },
+ {
+  "id": "ecc54c1f-c926-44b0-9e00-a0a780020971",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Improving cross ancestry polygenic prediction of tobacco and alcohol use",
+  "text": "Genetic studies of tobacco and alcohol use, which are of great public health importance, have identified\nthousands of associated loci that can be used to predict substance use behaviors through polygenic risk scores.\nThe proposed project leverages genetic data from >5 million individuals to improve the polygenic prediction of\nsubstance use, and to make this predictive utility applicable to all individuals across populations. Increasing\ngenomic prediction accuracy allows for greater understanding of the genetic architecture of substance use and\nhas substantial implications for the prevention and treatment of substance use, as well as important ethical,\nlegal, and social implications."
+ }
+]

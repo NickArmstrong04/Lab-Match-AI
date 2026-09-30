@@ -1,0 +1,142 @@
+[
+ {
+  "id": "91268a6c-c81c-4a6f-9f68-e44675acf8ad",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "eDyNAmiC - FREDHUTCH",
+  "text": "eDyNAmiC (extrachromosomal DNA in Cancer) Human genes are arranged on 23 pairs of chromosomes, but in cancer, tumour-promoting genes can free themselves from chromosomes and relocate to circular, extrachromosomal pieces of DNA (ecDNA). These ecDNA do not follow the normal “rules” of chromosomal inheritance, enabling tumours to achieve far higher levels of cancer-causing oncogenes than would otherwise be possible, and licensing cancers with a way to evolve and change their genomes to evade treatments at rates that would be unthinkable for human cells. The altered circular architecture of ecDNAs also changes the way that the cancer-causing genes are regulated and expressed, further contributing to aggressive tumour growth. These unique features make ecDNA-containing cancers especially aggressive and difficult to treat. Cancer patients whose tumours harbour ecDNA have markedly shorter survival. Despite being first seen over fifty years ago, the critical importance of ecDNA has only recently come to light, and the scale of the problem is substantial. ecDNAs are present in nearly half of all human cancer types and potentially up-to a third of all cancer patients. The collective current understanding of how ecDNA form, how they function, how they move around the cell, how they evolve to resist treatment, how they impact the immune system, and how they can be effectively targeted are lacking. We bring together an internationally recognized, pioneering interdisciplinary team of cancer biologists, geneticists, computer scientists, evolutionary biologists, mathematicians, clinicians, and patient advocates to boldly create novel insights and resources and to provide transformative solutions to one of Cancer’s Grand Challenges. A core team of experienced and productive ecDNA investigators will work with new investigators in the ecDNA and cancer fields to bring completely new perspectives and approaches to this daunting challenge. By bridging cutting-edge and diverse approaches and insights from cancer genomics, yeast genetics, epigenomics, artificial genome synthesis, longitudinal patient tracking, combinatorial and machine learning algorithms, mathematical modelling, immunobiology, and innovative chemistry we will develop a new understanding of the role of ecDNA in cancer, and we will find new ways to drug the undruggable. This bold programme, which consists of 7 work packages and a committed international infrastructure, generates new and unusual collaborations that would simply be impossible under any other type of funding mechanism. Our programme endeavours to foster bold innovative solutions to one of the hardest problems in cancer and to one of the greatest challenges facing cancer patients."
+ },
+ {
+  "id": "91296da7-069c-4515-865c-24cfcfc764dc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Developing mRNAdesigner tool package for optimization of mRNA sequence",
+  "text": "The goal is to develop an integrated deep learning model to optimize 5'UTR, codon usage, and 3'UTR at\nsame time that enables users to design the optimal mRNA sequence to enhance protein expression level, thus\nto improve the efficacy of mRNA medicines. mRNA based therapies hold great promise for the treatment of\nvarious types of diseases, but this therapeutic approach suffers from multiple challenges including the short half-\nlife of exogenously administered mRNA and subsequent protein production. Our proposed studies will address\nthe challenges in design of mRNA sequence to enhance mRNA stability and translation efficiency, and thus\nprovide important information for the development and optimization of mRNA vaccines."
+ },
+ {
+  "id": "9131e759-e8a4-4318-b8f6-5a1a622d0244",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Research Project 1: Diffuse Midline Glioma",
+  "text": "Conventional wisdom holds that radiation therapy is a physically targeted anti-cancer modality and that its cancer targets are genetically and biologically uniform. However, the stromal composition of tumors is complex and variable giving rise to extrinsic variability of the cancer target. Moreover, recent studies using single cell genomics show intrinsic heterogeneity even within the tumor cells per se. The broad goal of our Harvard/UCSF ROBIN initiative is to test the hypothesis that intra-tumoral variability underlies resistance to - and relapse from – radiotherapy. Towards this goal, our Center has chosen to focus on pediatric cancers of neuro-ectodermal origin. Pediatric tumors have a low mutational burden relative to common adult cancers and thus a cleaner genetic surround for the “low N/high content” Molecular Characterization Trials specified by the ROBIN RFA. Against this backdrop, this project focuses upon diffuse midline glioma (DMG) of children. The majority of DMGs initially respond to radiation, but all progress, and none are cured. In preliminary studies, we have used single cell genomics to show that the malignant cells within DMG are developmentally heterogeneous. Our testable hypothesis is that DMG intratumoral heterogeneity transcends developmental markers to include differential expression/utilization of common DNA repair pathways. This hypothesis makes predictions that will be assessed by drawing upon paired samples of pre-and post-radiotherapy tumor tissue from children treated prospectively with a uniform radiotherapy regimen and profiled in our Molecular Characterization Trial (MCT). We have three specific aims: Aim 1 is to test the prediction that intratumoral heterogeneity is reflected at levels above and beyond tumor cell-specific developmental markers noted our preliminary studies; Aim 2 is to test the prediction that radiotherapy reduces DMG intratumoral heterogeneity via selection of replication-competent, radio-resistant stem-like cancer cells; Aim 3 is to test the prediction that heterogeneous radiation responses within tumor cells underlie patient heterogeneity in radiation-associated toxicities, neurocognitive effects and quality of life. The study plan incorporates contemporary methods in cancer genomics, epigenomics, chromatin biology and DNA enzymology. We will draw upon our Clinical Artificial Intelligence and Imaging Core to develop non-invasive methods to track intra-tumoral heterogeneity in these (surgically challenging) pediatric tumors. With our Molecular Data Science and Advanced Dosimetry Core, we will develop computational modeling of tumor cell evolution and treatment response that will be critical to understanding selection for radioresistant subclones. The co-leaders of this Project have complementary expertise to enable the study plan. Daphne Haas-Kogan, M.D. is a pediatric radiation oncologist who treats patients with DMG and holds leadership positions in two key consortia (COG and PNOC) for pediatric clinical trials. Mariella Filbin, M.D./Ph.D. is a pediatric neuro-oncologist with expertise in single cell genomics and DMG biology."
+ },
+ {
+  "id": "91394012-808f-451e-846d-a6288d178677",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "National Cancer Institute Imaging Data Commons: improved sustainability and usability",
+  "text": "The National Cancer Institute Imaging Data Commons (IDC) is a cloud-based data repository providing public\naccess to cancer imaging data harmonized into the Digital Imaging and Communications in Medicine (DICOM)\nstandard. Beyond traditional archival storage, IDC provides sophisticated tools that streamline data\nexploration, enhance accessibility, and facilitate in-depth analysis. This project will introduce tools,\ninfrastructure and best practices for improved ingestion and harmonization of data into IDC, annotation and\nenrichment of IDC data, and simplified use of standard DICOM data available from the resource."
+ },
+ {
+  "id": "9140eede-2c14-4ed3-825c-7c6c96754033",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Extrafollicular B Cells as Predictors and Mediators of Chronic Pediatric Immune Thrombocytopenia",
+  "text": "Immune thrombocytopenia (ITP) is an autoimmune blood disorder causing bleeding symptoms and reduced\nquality of life without known biologic predictors of disease chronicity. This study integrates cellular, protein,\nmulti-dimensional single-cell sequencing and longitudinal clinical data to investigate autoreactive B cells in\npediatric patients with ITP. The work proposed here seeks to define the immune signature of autoreactive B\ncells that drive ITP immune dysregulation and disease chronicity."
+ },
+ {
+  "id": "914609d6-71c1-43e8-832a-b49cca0a243c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Spatiotemporal molecular elucidation of radiation-induced tumor microenvironment remodeling to en-hance immunotherapy in head and neck cancer",
+  "text": "Cancer immunotherapies have led to major treatment breakthroughs for a number of different cancers, but the\nmajority of head and neck cancer patients do not respond to immunotherapies, and clinical responses are often\nnot durable. We have demonstrated that targeting tumors with stereotactic radiation in combination with\nimmunotherapy while sparing draining lymphatics enhances anticancer immunity, resulting in significantly\nimproved response profiles. The research outlined in this proposal will elucidate the mechanisms responsible for\ntumor control in responders and non-responders to the combination and decipher the role of draining lymph\nnodes on immune cell activation and response to immunotherapy, potentially leading to the development of a\npredictive biomarker and novel therapeutic strategies for patients with head and neck cancer."
+ },
+ {
+  "id": "914ae059-db61-4640-84c4-5b8127048ee7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Evolution of Sexually Dimorphic Morphogenesis",
+  "text": "Morphogenesis is a universally important process that is controlled by precise\nspatiotemporal regulation of gene transcription (expression). Advances have been made\nin elucidating the cell biological machinery of morphogenesis; however, we lack an understanding of\nhow transcriptional regulation controls this machinery, why this control is robust, and what parts of\nthis control are conserved vs. plastic. This study will inform us about the architecture of transcriptional\ncontrol of morphogenesis and how it has evolved, thus providing a basis to identify key conserved\ncomponents that control morphogenesis, possibly leading to new targets for medical advances\nin aiding wound healing and mitigating morphogenetic errors that contribute to birth defects or cancer."
+ },
+ {
+  "id": "914c653b-4ce4-43e2-aca4-06e3033e1997",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "BMPR2, Monocytes and Macrophages in Pulmonary Artery Hypertension",
+  "text": "We investigate the innate immune mechanism underlying the activated circulating monocyte in pulmonary\narterial hypertension (PAH) and its pivotal role in orchestrating adverse vascular remodeling through its\nderivatives, the monocyte derived dendritic cell (MO-DC) and the monocyte derived macrophage (MO-MØ). Our\nstudies include bio-fabricated vascular tubes with monocytes and vascular cells derived from patients with\nBMPR2 mutations as well as transgenic rat models of PAH. We apply CRISPR screens to determine how\nmutations associated with PAH share pathways of monocyte activation that lead to pathological MO-DC and\nMO-MØ, and how these features can be addressed in developing new therapies."
+ },
+ {
+  "id": "914f71c9-1d58-4a49-ad29-605bc2894c75",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identifying Genes for Type 2 Diabetes: FUSION",
+  "text": "The rapidly increasing prevalence of type 2 diabetes (T2D) in the US and worldwide represents a public health\ncrisis and a key health disparity. Improved options for T2D prediction, prevention, and treatment are urgently\nneeded. This proposal builds on a longstanding, highly productive collaboration between researchers in the\nUnited States, Finland, and around the world. We will discover and fine map genetic loci that influence risk of\nT2D and variability in T2D-related traits, and identify the causal variants, genes, and other functional units in\nthe genome, and the mechanisms by which they act. Our ultimate goals are disease prevention and treatment."
+ },
+ {
+  "id": "9152f1b2-5eaa-4efb-926c-ce827a023381",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Impact of Yersinia Yops on M cell population dynamics and host immunity",
+  "text": "Enteric M cells play a key role in sampling antigens in the small intestine and delivering them to immune cells\nin underlying Peyer’s patches, but M cell populations are known to decrease as a result of Yersinia\npseudotuberculosis infection. Thus, the proposed research will determine the impact that Yersinia has on M\ncell functions and the specific bacterial effectors and host targets responsible for M cell depletion. This\nresearch will provide key insight into the ramifications of Yersinia infection on the host’s innate immune\nresponse to subsequent enteric infections, opening the door to a more precise understanding of enteric\npathogenesis and its implications for human health."
+ },
+ {
+  "id": "915d1b7a-7e1c-4a27-8560-795d51489a8c",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Biochemical and structural mechanisms at the filoviral-host interface",
+  "text": "RP01 Project Summary/Abstract for Biochemical and structural mechanisms at the filoviral-host interface The recent filoviral outbreaks, including the 2013-2016 Ebola virus (EBOV) outbreak in West Africa that introduced the virus to other continents, highlight the imminent threat to global health posed by filoviruses and the urgent need for basic and translational efforts. The current COVID-19 pandemic further illustrates the significance of understanding infectious diseases. While recent efforts to develop countermeasures have resulted in vaccine candidates and some therapeutics, filoviruses remain a considerable threat to human health and key questions are still outstanding. There are substantial gaps in our understanding of host-viral interactions that contribute to disease, including how viral proteins limit host responses and assemble into infectious particles. Work in Research Project 1 (RP01) will use proteomic, biochemical, and structural methods to identify and validate molecular mechanisms at the host-viral interface in cellular networks to address this gap. We will address these longstanding mechanistic questions using biochemical and hybrid structural methods, including mass spectrometry, NMR, X-ray crystallography, small angle X-ray scattering (SAXS), and cryoelectron microscopy (cryo-EM), cryoelectron tomography (cryo-TM) to characterize filoviral nucleocapsid (NC) interactions and to define high impact filoviral-host factor interactions modulating PTMs that impact the viral replication cycle, viral NC assembly, and egress. Our strong publication record, preliminary results from ongoing studies, and access to unique facilities and resources support these efforts. We are uniquely positioned due to our highly productive and collaborative team with complementary expertise and a prior record of co-authored studies with investigators in RP02, RP03, Core B, and Core C. Our Aims are: Aim 1. Determine the structural basis and dynamics of the filoviral nucleocapsid (NC) and define NC-host interactions; Aim 2. Develop Protein-protein interaction (PPI) maps that include post-translational modifications (PTMs) from virally infected cells for EBOV and MARV; and Aim 3. Define the molecular mechanisms for PPIs that contribute to filoviral infection defined by this project, RP02 and RP03. At the completion, we expect to define filoviral interaction with host factors that contribute to filoviral infection. Our arsenal of tools from mass spectrometry, biochemistry, and structural biology, together with work from the Research Projects and Scientific Cores within the PPG, enable us to clearly define each contribution to filoviral infection and identify new targets for antivirals."
+ },
+ {
+  "id": "915deaa5-97a0-4d52-9ce1-b96ac43670e1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting Small Nucleolar RNA Augments Immunotherapeutic Efficacy",
+  "text": "Although obesity has previously been established as a significant risk factor in the development of several cancer\ntypes (including breast cancer) and resistance to immunotherapy, there is a lack of genetic evidence for directly\nattributing obesity to the initiation or progression of its associated breast cancer. Noncoding RNAs have recently\nemerged as key players in a multitude of cellular signaling processes, and preliminary data has suggested that\nthe upregulation of the small nucleolar RNA (snoRNA) SNORD46 is correlated with both increases in body mass\nindex (BMI) and diminished infiltration of cytotoxic leukocytes. Therefore, this proposal will dissect the molecular\nmechanisms of adipocyte-expressed SNORD46 under obese conditions, implicate SNORD46-leukocyte\ninteractions in driving obesity-associated immune resistance, and assess the efficacy of a SNORD46 LNAs\ntargeted therapy in improving CD8+ T-cell infiltration and sensitizing obesity-associated breast tumors to\nimmunotherapy."
+ },
+ {
+  "id": "91614ee4-6592-46a8-9572-e678630462ad",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mining Social Media Big Data for Toxicovigilance: Studying Substance Use via Natural Language Processing and Machine Learning Methods",
+  "text": "Current surveillance and reporting approaches for the epidemic of substance use (SU) and\nsubstance use disorder (SUD) involve substantial lags, necessitating the need for the\ndevelopment of effective and innovative surveillance strategies. Social media encapsulates an\nabundance of data about SU/SUD reported by people from wide-ranging subpopulations, but\nconverting such data into actionable knowledge requires the development of advanced natural\nlanguage processing and data-centric artificial intelligence systems. Our proposed social media\nmining framework will automate the process of big data to knowledge conversion for SU/SUD,\nproviding near real-time insights to stakeholders about targeted populations and potentially\nenabling the future development of directed intervention strategies."
+ },
+ {
+  "id": "917297d3-8dda-474b-adcf-8c47e053a79c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Translational approaches to correct calcium handling in DMD",
+  "text": "Cardiomyopathy and respiratory failure are the leading causes of death amongst individuals with Duchenne\nmuscular dystrophy, a devasting pediatric genetic disease with no cures and limited treatment options.\nPathological alterations in myocyte calcium handling play a major role in the development of contractile\nabnormalities, weakness, and cell death that cause onset of cardiomyopathy and diaphragm dysfunction in DMD.\nThis project seeks to address this major unmet clinical need by utilizing high-throughput screening of calcium\nhandling corrective gene therapies in human DMD engineered heart and muscle tissues and robust in vivo\nvalidation to identify and optimize efficacious translational therapeutics for the treatment of DMD cardiac and\nrespiratory muscle."
+ },
+ {
+  "id": "91778739-a178-4ea2-96d6-23cb7cfb3dc0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A multipronged, mRNA gene therapy approach to HIV cure",
+  "text": "Latency and immune evasion remain two major contributors to the chronic persistence of viral infections like\nHIV-1. Here, I propose a multipronged intervention that applies targeted mRNA gene therapy to reactivate\ndormant virus and promote adaptive immune clearance. These approaches, which directly stem from my\nmultidisciplinary training, will develop investigative and therapeutic platforms with broad applicability."
+ },
+ {
+  "id": "917cbffe-68e8-4d10-80cf-7cf1460ac4cf",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Deep learning based 3D network biology knowledge portal for precision oncology",
+  "text": "Almost all proteins function through interacting with other proteins and the structural details of these interactions\nare key in understanding protein function, impact of cancer mutations, and identification of cancer drivers.\nHowever, the interfaces for vast majority of human protein interactions are currently unknown. Here, we propose\nto establish an innovative deep-learning-based pipeline to generate structural models for all human interactions\nand implement a network topological analysis framework, in anticipation that our predictions and models will be\nuseful for developing precision oncology treatment strategies and rational drug design to target these sites for\nmore effective therapies."
+ },
+ {
+  "id": "9180b3c5-affe-4d00-a063-68e1f9a569e2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting complement to enhance antitumor immunity and control malignant effusions in patients with recurrent epithelial ovarian cancer",
+  "text": "Our results point to mature neutrophils recruited to the tumor microenvironment suppressing the expansion\nand activation of T cells required for anti-tumor immunity. This suppressor activity was dependent on a number\nof neutrophil functions, including complement signaling, a therapeutically targetable pathway. The impact of\nour proposal is to gain safety and preliminary efficacy data on APL-2-based regimens in recurrent epithelial\novarian cancer with malignant effusions and a detailed understanding of how these regimens modulate the\nimmune landscape in the tumor microenvironment."
+ },
+ {
+  "id": "918120fe-1e07-4b79-af93-7fab99a9e59e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Evaluating the role of epithelial basal cells in laryngeal homeostasis and disease development",
+  "text": "Laryngeal diseases are common and have major impacts on human health, health care costs, and economic\nwellbeing. The larynx and vocal folds are lined by a protective epithelium that becomes deranged in cigarette\nsmoke-induced laryngeal diseases. Our research focuses on determining the contribution of laryngeal\nepithelial basal progenitor cells to normal, injured, and diseased epithelium in order to develop therapies to\nprevent and treat cigarette smoke-diseased vocal folds."
+ },
+ {
+  "id": "918c6380-bdbb-4a5d-8f89-6922dc966970",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Students and Teachers Achieving Cancer Research Experiences Together (START) Program",
+  "text": "Opportunities to engage in hands-on science and research experiences in middle and high school spark\ncuriosity and stimulate interest in research as a career path. The START program will transform our community\nby cultivating and strengthening research skills and inspiring historically underrepresented students to envision\ncancer research as a profession. The proposed aims will provide mentored cancer research experiences for\nsecondary school students and teachers, facilitate college credits for students and teachers, deliver summer\nscience camps focused on cancer research, offer community outreach events with cancer research and\nprevention themes, develop new biomedical science outreach and classroom curricula, and supply teachers\nwith resources and mentoring to implement biomedical science activities in their classrooms."
+ },
+ {
+  "id": "918d2188-feeb-4b9e-a824-e6f431f0a8e8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Primary Prevention to Reduce Cardiovascular Morbidity and Optimize Cancer Outcomes",
+  "text": "Advances in early detection and treatment of cancer has improved 5-year survival, however cardiotoxicity of\nlifesaving cancer treatment can interfere with it’s planned completion and lead to sub-optimal cancer outcomes\nand increased downstream morbidity, cost and mortality. We propose to evaluate comparative effectiveness of\nprimary prevention on short-term and long-term cardiovascular, and cancer outcomes, medical expenditures,\nfinancial toxicity, and disability in adults with breast cancer. Completion of the aims will guide healthcare\npolicy on primary prevention, improve patient outcomes and identify subgroups of who may benefit the most."
+ }
+]

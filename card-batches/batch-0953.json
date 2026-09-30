@@ -1,0 +1,142 @@
+[
+ {
+  "id": "c7bd5e22-b8fd-415f-adec-78e28291008d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Real-world utilization, effectiveness, and safety of GLP-1 receptor agonists for alcohol use disorder",
+  "text": "Glucagon-like peptide-1 receptor agonists (GLP-1RAs), which are indicated for type 2 diabetes, obesity, and\ncardiovascular disease, have been suggested as potentially effective treatments for alcohol use disorder. Given\nthe lack of observational studies and randomized controlled trials supporting the use of GLP-1RAs among\npatients with alcohol use disorder in the United States, we will use a large observational database to evaluate\nthe: 1) comparative effectiveness and safety of GLP-1RAs and other on- and off-label medications for alcohol\nuse disorder, 2) trends in GLP-1RA utilization among subgroups of patients with alcohol use disorder, and 3)\nphenotypes of alcohol use disorder patients more likely to experience beneficial or harmful outcomes with GLP-\n1RAs or other medications for alcohol use disorder in real-world clinical practice. These evaluations will help\nguide clinical decisions, support higher quality care, and inform the design of future clinical trials of GLP-1RAs\namong patients with alcohol use disorder."
+ },
+ {
+  "id": "c7bfcb6b-9709-46bb-b695-944dfd82808f",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Developing Data-Driven Cancer Researchers",
+  "text": "This project will give young epidemiologists, biostatisticians, health services researchers, genetic\nepidemiologists, and pharmaceutical outcomes researchers the training they need to access and analyze the\nwealth of data that are available to address the growing burden of cancer."
+ },
+ {
+  "id": "c7c5806c-caae-40bb-b555-1f798a182fb3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular basis for functional S1PR1 antagonists in the treatment of comorbid migraine and temporomandibular disorders",
+  "text": "The chronic comorbidity of migraine and temporomandibular disorders is a significant, but overlooked, public\nhealth concern. Its underlying molecular mechanisms are not well understood, and there is a lack of evidence-\nbased treatment approaches. Using a multidisciplinary approach our studies are anticipated to validate S1PR1\nas a novel target, with FDA-approved functional S1PR1 antagonists as a unique monotherapy approach, for\ntherapeutic intervention in this chronic comorbidity."
+ },
+ {
+  "id": "c7cadd61-c155-440a-b888-f81e912c369e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "SlicerROS2: Open-Source Software Platform for Image-Guided and Robot-Assisted Interventions",
+  "text": "This project aims to develop and disseminate free, open-source software named SlicerROS2 to support\nadvanced image-guided robot-assisted intervention (IGRI) systems, where patient-specific anatomical and\nphysiological information extracted from medical images (e.g., CT, MRI, PET, ultrasound) is incorporated into\nplanning, navigation, and controlling of robot-assisted surgery. SlicerROS2 will integrate popular open-source\nsoftware packages, namely 3D Slicer and ROS version 2, enabling developers to combine existing state-of-the-\nart medical image computing and robotics algorithms, which are developed in the research community, into a\nsingle system; hence, it will speed up the development, testing, and bench-to-bedside translation of new IGRI\ntechnologies."
+ },
+ {
+  "id": "c7cd6715-b20e-40d2-8aad-e6b606c51c60",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Reliable post hoc interpretations of deep learning in genomics",
+  "text": "Deciphering the complex coordination of transcription factor binding to cis-regulatory elements along DNA is\nfundamental to understand transcriptional regulation. Deep learning has demonstrated great promise at\nmodeling functional genomics data, but it remains difficult to understand how they come to their decisions. This\nproject will develop new model interpretability methods to decipher the motifs and their syntax learned by\ngenomic DNNs, providing a suite of timely computational tools for the biomedical community that will have direct\napplications to fundamental problems in basic biological science as well as to the understanding and treatment\nof human diseases."
+ },
+ {
+  "id": "c7ce9e10-6b37-4247-b147-f27061a29caa",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of Fungal Iron Regulation and Thiol Redox Metabolism",
+  "text": "The essential metal iron is critical for the survival of organisms ranging from microbes to humans. Likewise, all\naerobic organisms rely on anti-oxidant systems and redox control pathways to combat oxidative stress caused\nby reactive oxygen species. This proposal aims to study the intersection of iron and redox regulation pathways\nin single-celled yeast that share similarities with human cells as well as pathogenic yeast that cause common\nfungal infections."
+ },
+ {
+  "id": "c7d176df-3fae-4b71-bb69-ae794bed46cd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Yale Core Grant for Vision Research",
+  "text": "Yale Core Grant for Vision Research\nProject Narrative\nThe overall objective of the Yale Vision Research Core Program is to provide fundamental and innovative\ntechnologies to support and enhance vision research at Yale University. With three key resource/service\nCore modules, this Program will aid the ongoing research projects of vision research investigators by\nproviding facilities and expertise that cannot be readily supported by individual research grants. This Core\nProgram will enhance scientific interactions between current and future vision researchers at Yale and will\nfacilitate the development of vision research programs for new investigators and for established\ninvestigators interested in entering the field of vision research."
+ },
+ {
+  "id": "c7d356ef-f085-4e60-8565-5da730a58ad8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Brain Explorer Academy (BEA): An Informal Science Education Partnership",
+  "text": "Workforce diversity in STEM is critical to our success as a nation and our ability to address major public health\nchallenges. However, as a nation, we have fallen short of our STEM workforce diversity goals, a failure that has\nbeen long attributed to the “leaky academic pipeline” but in reality, is related to a convergence of complex and\ninterrelated social and environmental factors. The Brain Explorer Academy uses neuroscience and a digitally\nconnected social-ecological framework to deploy and evaluate a multi-year, interdisciplinary training program for\nhigh school students from underrepresented minorities to stimulate their interest and persistence in STEM\ndisciplines."
+ },
+ {
+  "id": "c7d3ec28-c358-4fdb-8fd4-0fc591aa2074",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Developing a Molecular Taxonomy for Immune-Mediated Diseases",
+  "text": "A major challenge in developing precision treatments for inflammatory diseases is the reliance\non clinical phenotype as the primary method for understanding disease, despite its limitations in\ncapturing underlying disease mechanisms. A single “disease” may consist of multiple distinct\nbiological subgroups, while a single dysregulated mechanism can give rise to diverse clinical\nphenotypes. For cancers, this problem is addressed by using the genetic profile of tumors to\nguide therapy, independent of clinical features: we propose to adapt this pioneering approach to\nimmune diseases by developing a fully molecular classification system to guide both diagnosis\nand treatment, ensuring more precise and effective care."
+ },
+ {
+  "id": "c7d74f26-b94c-450f-8d5d-e8791af4eed4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Thrombopoietin mimetic (TPOm) as a medical countermeasure for GI-ARS",
+  "text": "Exposure to high doses of ionizing radiation within a relatively short period of time can cause hematopoietic\nacute radiation syndrome (H-ARS) or gastrointestinal ARS (GI-ARS), which can occur at events such as a\n“dirty bomb” terrorist attack or nuclear power plant leakage. Four drugs have been approved by the FDA for\ntreating H-ARS, but no drug has been approved for GI-ARS. In this proposal, we will investigate how a\nthrombopoietin mimetic (TPOm) can stimulate intestinal crypt regeneration and improve the survival of mice\nexposed to partial body irradiation, a pre-clinical model of GI-ARS. Our goal is to develop TPOm toward its\napproval by the FDA for treating GI-ARS."
+ },
+ {
+  "id": "c7dd5a72-9d5c-44e6-b293-a67244b4972b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A multimodal measurement platform for unambiguous lipid identification",
+  "text": "This project will develop a novel workflow for unambiguously identifying the complete chemical structures of\nunknown fatty acids and lipids in biomedically-relevant samples. Lipid samples will be analyzed with five different\nand complimentary measurement techniques at the same time. Each measurement will provide a unique piece\nof information that, when combined, will allow fatty acids and lipids to be differentiated from each other and from\nother entirely different compounds, and will provide important insights into the state of biological health where\nlipid composition is significantly affected."
+ },
+ {
+  "id": "c7e55ac8-9785-4b5a-9cc9-3138497392c3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Computational approaches to discover ligands with new chemotypes and functional properties",
+  "text": "The slow pace of drug discovery is often defined by a limited pool of chemical compounds used to detect drug\ncandidates, and inefficient try-and error approaches to designing and optimizing new ligands. Computational\ntechnologies being developed by our group, including V-SYNTHES Giga- and Terra-scale screening and\nstructure based design of ligands with new functional properties, will enable rapid discovery of chemical probes\nand streamline early drug discovery efforts for challenging targets in key human conditions like pain, drug\nabuse, Alheimer, and cancer."
+ },
+ {
+  "id": "c7e9ddd7-3061-457a-b948-0b600afe742f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Artificial Intelligence Driven Automatic Treatment Planning of Stereotactic Radiosurgery for the Management of Multiple Brain Metastases",
+  "text": "With the strong clinical evidence provided by recent prospective clinical trials on the effectiveness\nof stereotactic radiosurgery for patients with multiple (≥ 4) brain metastases, national\ncomprehensive cancer network guidelines no longer restrict the number of brain metastases for\nstereotactic radiosurgery. However, the large number of brain metastases with variable sizes and\nlocations substantially increases the complexity of treatment planning, resulting in suboptimal\nplans, large quality variations, low planning efficiency, and subsequently deteriorated clinical\noutcome. We propose an artificial intelligence driven automatic treatment planning system for\nstereotactic radiosurgery of multiple brain metastases, aiming to consistently provide patient-\nspecific high-quality treatment plans with high efficiency."
+ },
+ {
+  "id": "c7ef0b73-71f9-49ce-8f21-cfddfa53a81d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Developing vectors for potent and selective manipulation of cardiac rhythm",
+  "text": "Cardiac arrhythmias associated with conduction block often cause debilitating symptoms that necessitate\nimplantation of a permanent pacemaker, and non-invasive treatments, such as anti-arrhythmic drugs, are not\ncurrently available for these conditions. Therefore, new pharmacological treatments with acceptable safety\nprofiles or alternative strategies for treating arrhythmias are greatly needed. In this project, we propose to\ndevelop viral vectors that selectively manipulate gene expression within the cardiac conduction system to model\ndisease, to probe disease mechanisms, and to treat cardiac arrhythmias."
+ },
+ {
+  "id": "c7f3851b-319b-431c-8ca1-5061bb420885",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Gene-by-sex interactions in heart failure with preserved ejection fraction (HFpEF)",
+  "text": "Project 2: Gene-by-sex interactions in heart failure with preserved ejection fraction (HFpEF)\nPROJECT NARRATIVE\nHeart failure with preserved ejection fraction accounts for 50% of all heart failure. It exhibits a strong sex\nbias, with about two-thirds of patients being women. We will dissect the basis of this sex difference using\nsystems genetics approaches in mice as well as validation of hypotheses in human cohorts."
+ },
+ {
+  "id": "c7f39fae-cbb0-45f0-bcb9-1750bffa0549",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Large-scale imaging of epileptic networks in zebrafish",
+  "text": "Genetic epilepsies are severe seizure disorders beginning in infancy or childhood, often with a single gene\ncause. Current treatments are ineffective. This proposal seeks to identify abnormal brain networks causing\nseizures using genetic zebrafish models and advanced brain imaging, offering new insights and treatment\ntargets."
+ },
+ {
+  "id": "c7f5923f-2789-4646-8e7b-41146cb82172",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Single Cell Analysis and Immunogenetics",
+  "text": "The projects proposed for this grant application seek to characterize response and resistance to treatments for chronic graft versus host disease (cGVHD) following hematopoietic stem cell transplantation (HCT). Core 1 will support the single cell- and immunogenomics-related goals of these projects by focusing on applying the latest experimental and computational tools to these studies. Bulk and single-cell transcriptome sequencing of immune and lung cell populations (Aim 1) will be used to identify relevant pathways related to response to treatment of cGVHD, to identify transcriptional aspects of the metabolic signature elucidated in mouse lung cGVHD models, and to characterize the lung pathogenesis and immune response related to Bronchiolitis Obliterans Syndrome (BOS) following HCT. Response of T cells to cGVHD treatments and to BOS will be further characterized by TCR repertoire analysis using targeted bulk and single-cell sequencing to assess T cell clonality (Aim 2). Core 1 will analyze whole exome sequencing data from donor and recipient DNA to identify polymorphic differences between donor and recipient, and use tissue expression databases to determine which of these variants are expressed in lung. Recently developed sophisticated algorithms will be implemented to use this information to predict personal HLA-binding peptides that comprise minor histocompatibility antigens (Aim 3). The paired alpha/beta TCR chain single-cell sequence information will be used to reconstruct cell lines expressing individual enriched TCRs (Aim 4) in order to functionally determine exactly which TCR interacts with which antigen. This analysis will directly assess if mHAg-directed T cell responses contribute to clinical responses to therapy."
+ },
+ {
+  "id": "c7f63c1b-d208-42b2-ae51-6477d26715d1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "NEURAXIAL AAVS TARGETING DRG CHANNELS INVOLVED IN CHRONIC POST INFLAMMATORY PAIN",
+  "text": "Arthritic pain often persists after the resolution of inflammation, yielding a chronic state in which the sensory\nneuron displays increases in at least four sodium channels and a decrease in at least one potassium channel,\nyielding a polyneuropathy. To advance our thinking that management of this early inflammation and late\npolyneuropathy pain state is optimized by addressing changes in not only one channel but several, we will use\nspinal delivery of the CRISPR-dCas9 platform to epigenetically regulate these channels, a strategy with clear\nimplication for safely managing the chronic pain in the arthritic patient."
+ },
+ {
+  "id": "c807a924-199e-43ff-bdc7-fed725eb3cdb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Exploiting tumor metabolism to optimize T cell therapy",
+  "text": "RELEVANCE STATEMENT/NARRATIVE\nDiffuse large B-cell lymphoma is the most common lymphoid neoplasm in adults. Despite of good\nresponses to standard treatments more than forty percent of patients develop therapy resistance.\nThis R50 application for NCI Research Specialist Award requests salary support for Dr.\nSerganova in the frame of the Dr. Zappasodi program to understand how specific inhibitors for\nlymphoma can enhance the immunotherapy responses."
+ },
+ {
+  "id": "c80811f5-d792-4415-93ea-07fd229c950f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Clinical Evaluation Core",
+  "text": "Core 2 (Clinical Evaluation Core, CEC) will provide support to all clinical projects (P1, P2, P3), the postmortem project (P4) and the statistical project (P6) as follows: Aim 1. Recruitment, Retention, and Characterization of Human Subjects. The CEC will screen, recruit, and comprehensively evaluate potential participants for all projects with live human subjects (Projects 1-3), and the data are used in P6. The CEC will recruit participants for P1, P2 and P3 through advertising and will perform screening and evaluation for eligibility assessment. The study team has an extensive track record in recruiting and retaining patients with major depressive disorder and bipolar disorder, with and without a history of suicide attempts, for comparable complex neurobiological studies. Aim 2. Maintenance of Uniform Diagnostics Across Projects. The CEC will utilize a battery of clinical research instruments assessing major risk factor domains for suicidal behavior uniformly across projects. This battery (1) characterizes samples in terms of diagnostic and clinical variables; (2) permits investigation of the relationship between neurobiological and behavioral correlates of suicidal behavior; (3) in combination with neurobiological variables, investigates state- and trait-related risk factors for suicidal behavior; and (4) assesses effects of current life stressors and their interaction with neurobiological markers on risk for suicidal acts. Aim 3. Methods Development. The CEC will investigate, develop and test new assessment procedures to address needs in suicide research. This includes further development of our Ecological Momentary Assessment battery to add assessments of the impact of major life event stressors in addition to daily interpersonal stressors; and transitioning to an electronic version of the SCID (NETSCID-5, licensed by the American Psychiatric Association), modified to better serve the needs of suicide research. Aim 4. Quality Control of Clinical Research Assessment. Quality is maintained through careful training of clinical assessors, and Rater Reliability and Consensus Conferences. Aim 5. Participant Monitoring. The CEC will provide a framework for monitoring patients through all phases of their involvement in the study. Every patient is discussed every week in the CEC Research Clinic meeting chaired by Dr. Sublette and attended by all staff members (psychiatrists, clinical raters, research coordinators, clinical trainees). Aim 6. Characterization of Suicide Decedents. For postmortem studies (Project 4), the CEC will participate in characterization of the deceased subjects through psychological autopsy. Significant others of suicides and deceased psychiatric and nonpsychiatric controls undergo structured diagnostic interviews related to the decedent, as part of an extensive psychological autopsy (see Project 4)."
+ }
+]

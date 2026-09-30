@@ -1,0 +1,142 @@
+[
+ {
+  "id": "71c8a6fd-e4f6-428e-bbf8-577165544c02",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Integrating RNA-Seq and AI-derived Digital Pathomics for Multimodal Survival Prediction in Oral Cancer",
+  "text": "Oral squamous cell carcinoma (OSCC) is a life-threatening disease with poor survival rates; however, there are\nno reliable mortality risk markers to determine individual risk in patients within the same cancer stage. This study\naims to develop and validate a novel OSCC mortality risk score integrating RNA sequencing (RNA-Seq) data,\ndigital pathomic features, with clinicopathologic data to predict 2-year cancer-specific survival. Additionally, we\nwill evaluate the clinical utility of brush swabs rather than tissue biopsies to perform RNA-Seq, aiming to establish\na noninvasive workflow for predicting mortality risk at the time of diagnosis."
+ },
+ {
+  "id": "71cb035e-cf2f-4cfa-8f1e-38bb7a50410d",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Genetics",
+  "text": "PROJECT SUMMARY—Genetics Core (Core F) Mendelian mutations, common risk factors, and – more recently – rare risk-associated variants have been identified in neurodegenerative diseases. Yet, a significant proportion of the heritability for Alzheimer's disease (AD) and frontotemporal dementia (FTD) remains unexplained, suggesting that additional genetic risk factors await identification. This PPG Genetics Core has supported PPG investigators over the past ൭൫ years by ൬) collecting and storing DNA and RNA samples from the entire PPG cohort; ൭) providing genetic testing for known pathogenic causes of dementia and risk-associated variants, using both traditional and next-generation sequencing methods; ൮) contributing to the discovery of novel genes and novel risk-associated variants through data generation and case-based screening, using genetic and genomic approaches; and ൯) establishing an informatics platform to facilitate data sharing, storage, and mining, including access to dedicated computational and storage resources. In this renewal application, we propose to leverage this infrastructure and expertise to expand the portfolio of genetic and genomics assays available to the PPG. In the context of expanding roles, we propose to transition primary core activities from UCLA (Geschwind) to UCSF (Yokoyama). We will continue sample collection and banking and will expand our sequencing and genotyping efforts to include whole exome sequencing for gene screening, genome-wide SNP arrays for population mapping, fragment analysis for disease- causing trinucleotide repeat expansions, and transcriptomics in support of Project ൭: Molecular Biomarkers. Such data will be integrated with the clinical, imaging, biomarker, and neuropathological studies being conducted within the PPG to advance our understanding of the genetic architecture of neurodegenerative disease. Given the fundamental nature of genetic information in the etiology and pathophysiology of FTD, this core serves all the projects in this program and is linked to the other PPG cores."
+ },
+ {
+  "id": "71cf4b8c-4e97-461d-8f33-dfd7a5534194",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Understanding regulation of pediatric regenerative myogenesis and its implication for muscle disease",
+  "text": "Skeletal muscle regeneration requires coordinated actions of muscle stem cells and a multitude of muscle-\nresident cell types that regulate the stem cell niche. We have identified immune and stromal components of the\nmuscle niche differentially modulate the efficiency of the muscle stem cell response in pediatric and adult\nmuscle, which is altered in the context of degenerative pediatric muscle diseases. The work in this proposal will\ndecipher how the muscle niche promotes efficient regeneration and how alteration in this in pediatric-onset\ndegenerative muscle wasting diseases, such as Duchenne Muscular Dystrophy, contributes to disease\nprogression and severity."
+ },
+ {
+  "id": "71d727e7-a0bf-462b-abda-4b478d8f8ca5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Center for Human Health and the Environment (CHHE)",
+  "text": "The Center for Human Health and the Environment (CHHE) serves as the concentrated point of translational\nenvironmental health science research for NC State and its partner universities (ECU and NCCU), to positively\naffect the lives of our combined unique and overlapping community stakeholders. Our multi-disciplinary faculty\nimplement research with human subjects, genetically modified mice, or alternative models to study exposures,\neffects, and specific mechanisms of chemicals impacting our regional communities to better understand how\nhuman health, at both the individual and population level, is impacted by environmental factors. We have used\nthis knowledge to prevent and/or reduce the adverse impacts of environmental factors on human health, have\nbuilt community trust in our science, and have developed communication streams both to and from the CHHE\nto inform our future science and decision making."
+ },
+ {
+  "id": "71e00a36-2a80-4c0e-8d6d-3da8fb2c5930",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Transcriptional Co-Regulators in Epidermis",
+  "text": "Defective epidermal differentiation and barrier formation contributes to a number of skin diseases including\nichthyosis, palmoplantar keratoderma, atopic dermatitis, psoriasis and skin cancer. Understanding the control of\nepidermal differentiation will ultimately contribute to our understanding of these skin diseases."
+ },
+ {
+  "id": "71e1113b-c2c6-4f95-b1c7-3e99819f5ae8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Machine Learning-enabled Classification of Extracellular Vesicles Using Nanoplasmonic Microfluidics",
+  "text": "Ovarian cancer is a major public health issue and is often diagnosed in later stages, resulting in an\nincreased risk of death. Extracellular vesicles are nanoscale particles that circulate throughout bodily fluids\nand are released by all cells, and their cargo may indicate early signs of ovarian cancer or inform better\ntreatment strategies. The proposed training and research will create improved methods for characterizing\nand classifying extracellular vesicles to improve patient outcomes by developing ultrasensitive detection\ndevices and machine learning analytical tools."
+ },
+ {
+  "id": "71e64a96-5815-49ba-9271-7320ce59086c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Reversing cancer immunosuppression using attenuated Listeria monocytogenes",
+  "text": "Microbial-based cancer therapies have the potential to activate both innate and adaptive arms of the immune\nsystem to promote effective cancer immunotherapy. However, a better understanding of the interactions between\nintracellular bacteria and cancer is required to harness the microbe’s full potential. Here we will test our\nhypothesis using an attenuated (DactA) strain of Listeria monocytogenes as a therapeutic cancer vaccine that\ncan act both systemically to promote an adaptive CD8+ T cell response as well as locally within tumors to unleash\nCD8+ T cell activity by providing innate immune stimuli that reverses Treg-mediated immunosuppression."
+ },
+ {
+  "id": "71e6ad57-1560-4a7d-891c-41a858a39ae9",
+  "want_sentence": false,
+  "want_terms": true,
+  "title": "Function, evolution and engineering of proteins",
+  "text": "The goal of our work is to develop experimental methods to systematically explore the mutational\nlandscape of biomedically relevant proteins. In the long term, such methods will improve our basic\nscience understanding of macromolecular function in the cell, clarify the role of genetic variation in\ncausing disease, and lead to the design biological therapeutics with improved potency and specificity."
+ },
+ {
+  "id": "71e74816-88af-4db4-9025-6d13b1bee588",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Improving Adherence to Breast Cancer Treatment Guidelines in Nigeria",
+  "text": "This research will assess barriers to guideline-concordant breast cancer care in Nigeria, and methodically\ndevelop and evaluate implementation strategies to promote guideline adoption. The proposed research is\nrelevant to public health because it aims to improve the evidence-based treatment of breast cancer, the leading\ncause of cancer-related death for women in Nigeria. The results of this work will generate fundamental\nknowledge and strategies to inform healthcare leaders and policymakers about effective methods to facilitate\nadoption of evidence-based cancer care in resource-limited settings, thereby promoting treatment that improves\nsurvival."
+ },
+ {
+  "id": "71e7873e-7d88-4608-a6a6-12788065d6c5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Recall by Genotype in Diabetes Risk Spectrum",
+  "text": "This project will use genetic information from a large healthcare-based biobank to identify adults at especially\nhigh genetic risk for diabetes through distinct pathophysiologic pathways. Participants will be invited for detailed\nphysiologic testing, including screening for autoimmune diabetes risk and evaluating how people with different\ngenetic profiles respond to medications, including metformin, a sulfonylurea, and a GLP-1 receptor agonist. The\nresults will show how genetics can be used to improve personalized prevention and treatment of diabetes."
+ },
+ {
+  "id": "71e88c99-d7cb-4839-a0c3-3d350869fbbc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Designing Novel MR Imaging Tools to Quantify Lower-Limb Exercise Adaptations in Knee Osteoarthritis",
+  "text": "Knee osteoarthritis is a common and debilitating disease that causes joint pain and eventually leads to joint\nreplacement surgery but has an unknown cause and no available treatments. Exercising lower-limb muscles is\none of the only recommended options to manage joint pain, but the relationship between the changes in muscle\nand the changes in osteoarthritis pain and disease progression are unknown. Thus, we will develop new\nmagnetic resonance imaging acquisition and analysis techniques of both lower limbs to better understand the\nchanges that occur in the muscles and the knee during exercise training, with a view towards better future\ninterventions to manage and treat osteoarthritis."
+ },
+ {
+  "id": "71eca3ba-770a-4e70-bda0-3949dbf8232e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Proteome-wide base editor screens to assess phosphorylation site functionality in immunosenescence",
+  "text": "Hundreds to thousands of phosphorylation events in the T cell signaling pathway create dynamic biochemical\nnetworks that orchestrate essentially all functions needed for proper immune responses to malignant cells. We\ncurrently have no technology to functionally screen and identify individual phosphorylation sites that drive\nspecific, distinct downstream phenotypes. Here, we propose combining DNA base editor-mediated mutations of\nphosphorylation sites, proteome-wide, coupled to phenotypic screens to discover novel signaling events that are\nassociated with defects in T cell effector functions."
+ },
+ {
+  "id": "71f39a4a-5956-4461-986c-34be3cb46d47",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Exploring autophagy as a cellular response to fusion oncogene-induced stress",
+  "text": "Rare cancers often harbor recurrent fusion oncogenes; however, many have not been thoroughly interrogated\nto identify their role in tumorigenesis or how they can be targeted to inform patient treatment strategies. I will\ncharacterize the mechanisms by which fusion oncogene expression is restricted to specific cell-types through\nautophagy-dependent cell death and determine how conserved this response is. This work will provide insights\ninto the ways by which fusion oncogene driven proliferation is regulated between cell-types, and explore the\nrelationship between oncogenic stress, autophagy, and fusion oncogene expression."
+ },
+ {
+  "id": "71fb4335-0e09-4c53-bbe8-f24a0f212a60",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Measuring Molecular and Mechanical Outcomes of Endoscopic Dilation of Fibrotic Strictures",
+  "text": "Understanding the molecular components and mechanical changes in gastrointestinal strictures in response to\nballoon or stent dilations is essential for therapeutic decisions in patients with postoperative anastomotic\nstrictures. This project will longitudinally observe the progression of stricture in an animal model and human\nsubjects using a clinical endoscope-compatible imaging catheter to develop prognostic criteria for therapeutic\ndecision-making. Successful completion of the project will establish the imaging catheter as a valuable tool for\nimproving the management of strictures and enhancing patient outcomes."
+ },
+ {
+  "id": "72027d39-5983-462f-96cd-7a54cabe9ff2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Senescent Cells Effects in Response to Pathogens",
+  "text": "Individuals with high senescent cell (SenC) accumulation (driven by age or chronic disease) are more susceptible\nto morbidity and mortality from infections caused by viral, bacterial, and fungal pathogens than healthier, younger\nindividuals without a high pre-existing SenC burden. This proposal provides training for the principal investigator\nto isolate the role of SenCs as an underlying cause of postinfection morbidity through insights into the biology of\naging and its links to the immune system, exploring sex discrepancies and therefore offering new supplementary\ntreatment strategies for this vital health concern. The broad and significant translational potential of this\napplication advances the NIA’s goal of improving the healthspan and well-being of older adults through biological\nresearch that specifically addresses the challenges and needs of this population."
+ },
+ {
+  "id": "721bc1bf-07b3-48cb-8d04-89bdd52f99be",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Towards a better understanding of the critical role and therapeutic potential of drug resistant genes in multiple myeloma",
+  "text": "Multiple myeloma cells frequently become resistant to chemotherapy and immunotherapy, making it difficult\nto treat patients with recurring disease. In this project, we will characterize a master regulator of drug-resistant\ngenes in multiple myeloma. We will also investigate whether a combination therapy targeting tumor cells and\nimmunosuppressive cells can prevent tumor progression and relapse in myeloma."
+ },
+ {
+  "id": "721c1a60-85fc-4fc7-aa13-dd1b1689e6a5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Canadian Cancer Trials Group - Canadian Collaborating Clinical Trials Network",
+  "text": "As the Canadian Collaborating Clinical Trial Network, the Canadian Cancer Trials Group (CCTG) enhances\nNational Clinical Trials Network (NCTN) capacity to conduct innovative and potentially practice-changing trials.\nCCTG’s scientific and regulatory expertise and national network of Canadian researchers contributes strategic\nand operational expertise leverages Canadian infrastructure and resources to develop new trial proposals,\nincreases the pool of potential trial participants for precision medicine, rare cancer, and large definitive trials, and\nensures efficient and effective oversight of NCTN trial conduct in Canada. By facilitating the conduct of trials\nthat examine questions developed and driven by clinicians and that take advantage of emerging science and new\ncancer therapies, patients will have earlier access to new treatments and results will be translated into practice,\npolicy, and improved cancer outcomes for patients."
+ },
+ {
+  "id": "721f1dac-a5c5-45eb-a580-bdbceccbcb98",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multicolor PET to interrogate cancer biology",
+  "text": "PROJECT NARRATIVE & PUBLIC HEALTH RELEVANCE STATEMENT\nA thorough characterization of a patient’s tumor upfront provides better outcomes, i.e., better insight affords\nhigher survival rates. In contrast and almost anachronistically, PET imaging (the most sensitive and\nquantitative imaging method) is “monochromatic” as it can only assess one parameter at the time, lacking\ndepth of information. However, the new paradigm of multicolor PET enables quantitative PET acquisitions\nof up to four different radiotracers at the same time, allowing us to visualize multiple targets with PET\nsimultaneously, providing in depth mutiplexed information without increase in dose, time and cost as\nexemplified by interrogating the tumor microenvironment and immunotherapies for clinically relevant\nsignatures."
+ },
+ {
+  "id": "72209b20-7f5b-48df-9225-bde2cad0d698",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Characterizing and treating peripheral nervous system dysfunction in Sanfilippo Syndrome",
+  "text": "Mucopolysaccharidosis Type IIIA, or Sanfilippo Syndrome A, is an inherited disorder where patients develop\nsevere brain abnormalities and exhibit degeneration in the peripheral nervous system, and there are no approved\ntherapies. The significance of this work lies in the development of new patient-derived neuronal cell models to\nimprove our knowledge about the molecular underpinnings of dysfunction in the PNS in Sanfilippo Syndrome to\nhelp elucidate new therapeutic targets for the disease. Additionally, drug candidates identified in these studies\nwill provide new and accessible treatments for this orphan disease as well as other disorders where heparan\nsulfate catabolism goes awry."
+ },
+ {
+  "id": "7222f75c-d1da-45f2-8a56-d0bbaf2f2542",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The next generation of liquid biopsies: Predictive and pharmacologic biomarkers",
+  "text": "There is a critical need to better understand the development of resistance to targeted therapies and to identify\nnew targets for treatment of metastatic prostate cancer. As an integral member of the laboratory of Dr. Joshua\nLang, Dr. Jamie Sperger has developed novel liquid biopsy assays aimed at tackling these questions and they\nare now using these tools to monitor the emergence of resistance in prostate cancer to improve our\nunderstanding of cancer, develop new therapeutic interventions and supporting biomarker development."
+ }
+]

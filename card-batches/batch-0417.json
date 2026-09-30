@@ -1,0 +1,142 @@
+[
+ {
+  "id": "06bf5437-42db-4fa1-8127-c71f60653348",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "In vivo gene therapy for hemoglobinopathies with multiplexed virus-like particles",
+  "text": "Blood stem cell gene therapy for the treatment of blood diseases such as sickle cell disease is currently greatly\nlimited by the number of institutions with appropriate infrastructure to perform this treatment. The ability to safely\nand specifically modify blood stem cells directly in patients (in vivo) would dramatically improve the feasibility\nand portability of gene therapy. Here, we aim to develop hematopoietic stem cell (HSC)-targeted multiplexed\nvirus-like particles (MVPs) to perform gene editing as well as selection of modified HSCs directly in vivo to\nincrease efficiency, reduce costs, and bring gene therapy to the patient."
+ },
+ {
+  "id": "06bf9800-b614-4a79-939a-5d1147de5618",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Microgial contribution and therapeutic potential in Friedreich's ataxia",
+  "text": "Friedreich’s ataxia (FRDA), a neurodegenerative disease, is caused by a trinucleotide repeat expansion within\nthe frataxin gene, which is a protein located within mitochondria. We showed in the mouse model of FRDA that\nbone marrow hematopoietic stem cells (HSCs) that give rise to blood cells, holds great promise to treat FRDA,\nby differentiation of the transplanted HSCs into microglia/macrophages (type of immune cells) within tissues, that\nwill transfer the functional frataxin to the brain cells (neurons). The contribution of innate immune cells to FRDA\nand the exact mechanism of frataxin transfer is still unknown, we will utilize induced pluripotent stem cells (iPSCs)\nderived from FRDA patients and healthy donor fibroblasts to generate microglia, neurons, and cerebral organoids\n(mini-brains) to probe the therapeutic potential of repeat correction in immune cells, and transfer of frataxin and\npotentially mitochondria to affected neurons."
+ },
+ {
+  "id": "06c5bb93-8175-456c-95d4-62d09863987c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Damage-Free, Ultrasonic Cell Isolation from Retinal Pigment Epithelium (RPE) Monolayers",
+  "text": "The proposed research is to explore the usage of focused ultrasound for ejecting cells from their monolayer\non a solid platform, without damage on the ejected cells or the cells remaining in the monolayer. An array of\nfocused ultrasonic transducers will be developed and used to eject living cells, without damage, from their\nmonolayer into nearby microwells for single-cell RNA sequencing for quality control in production of retinal\npigment epithelium cell monolayer on a scaffold for treatment of age-related macular degeneration (AMD)."
+ },
+ {
+  "id": "06cf86f0-55b1-46d3-a1b5-59ed5b5cb0c8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Understanding the Molecular Mechanisms of Thermoreceptors",
+  "text": "Temperature profoundly influences animal biology. In Drosophila melanogaster, the GR28B(D) gustatory\nreceptor acts as a warm receptor in heating cells, but the molecular basis of its temperature sensing remains\nunclear. This proposal aims to examine the molecular domains responsible for temperature sensing of\nGR28B(D)."
+ },
+ {
+  "id": "06d3b51e-22d0-4d8d-ac90-d53c3842d788",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Integrating Multi-Omics to Uncover Microbial Aging Dynamics in Cognitive Health",
+  "text": "This proposed project investigates the promising yet understudied role of the gut microbiome in Alzheimer's disease and related dementias (ADRD), focusing on how aging and host genetics, two major ADRD risk factors, shape microbial contributions to cognitive decline, MRI-measured brain aging, and blood ATX(N) biomarkers. By leveraging longitudinal multi-omics data and emphasizing microbial functionality, it aims to identify actionable and personalized targets that contribute to ADRD risk, improve risk stratification, and guide precision prevention and intervention strategies. The findings will advance fundamental knowledge of ADRD etiology and pathology, promote healthy cognitive aging, and support early interventions to mitigate cognitive decline."
+ },
+ {
+  "id": "06d67e43-a4ea-4aa7-bb9e-8deba806bdde",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Genomic surveillance for antimicrobial resistance in animals",
+  "text": "Testing for antimicrobial resistance in sick animals is needed to support the mission of FDA to protect public\nhealth. In 2017, FDA Vet-LIRN launched a surveillance initiative including whole genome sequencing as a key\ncomponent for mitigating the lack of standardization in antibiotic susceptibility testing in their network.\nSequencing methods are now standardized across six laboratories in the network, including at Cornell, and we\nare requesting support for these activities for the next five years."
+ },
+ {
+  "id": "06deb93c-1f27-4857-80cc-d9f4866a9e27",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "ABCB5-positive stem cells for LSCD therapy",
+  "text": "Patients with corneal injuries or disease can develop limbal stem cell deficiency (LSCD), resulting in\nblindness due to an irreversibly opaque cornea. While donor allogeneic ABCB5+ LSC transplants are currently\nalready being evaluated as a therapeutic cell source for patients with bilateral LSCD, we hypothesize that it is\nalso possible, in order to avoid immunosuppressive therapy for prevention of allograft rejection, to manufacture\nand expand autologous ABCB5+ LSCs for treatment of patients with bilateral LSCD using (i) full\nreprogramming in vitro, (ii) partial epigenetic reprogramming in vivo, and (iii) ligand-based activation of LSC\nsignaling pathways. These autologous ABCB5+ LSC are anticipated to fully regenerate and maintain a normal\nlimbus and corneal epithelium."
+ },
+ {
+  "id": "06e3af7e-b53c-4667-b93c-d43bdd28cc01",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Low-Cost CRISPR-on-Paper for Cervical Cancer Screening at the Point of Care",
+  "text": "This project is to develop a simple, rapid, and low-cost paper-based microfluidic device to detect multiple high-\nrisk HPV genotypes for cervical cancer screening at the point of care. The portable diagnostic system can be\nused in low- and middle-income countries (LMICs) without the need for expensive equipment and well-trained\nhealth care personnel."
+ },
+ {
+  "id": "06eb496f-8259-4e94-a9e1-bdf92c30eb69",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "eDyNAmiC - SCRIPPS",
+  "text": "eDyNAmiC (extrachromosomal DNA in Cancer) Human genes are arranged on 23 pairs of chromosomes, but in cancer, tumour-promoting genes can free themselves from chromosomes and relocate to circular, extrachromosomal pieces of DNA (ecDNA). These ecDNA do not follow the normal “rules” of chromosomal inheritance, enabling tumours to achieve far higher levels of cancer-causing oncogenes than would otherwise be possible, and licensing cancers with a way to evolve and change their genomes to evade treatments at rates that would be unthinkable for human cells. The altered circular architecture of ecDNAs also changes the way that the cancer-causing genes are regulated and expressed, further contributing to aggressive tumour growth. These unique features make ecDNA-containing cancers especially aggressive and difficult to treat. Cancer patients whose tumours harbour ecDNA have markedly shorter survival. Despite being first seen over fifty years ago, the critical importance of ecDNA has only recently come to light, and the scale of the problem is substantial. ecDNAs are present in nearly half of all human cancer types and potentially up-to a third of all cancer patients. The collective current understanding of how ecDNA form, how they function, how they move around the cell, how they evolve to resist treatment, how they impact the immune system, and how they can be effectively targeted are lacking. We bring together an internationally recognized, pioneering interdisciplinary team of cancer biologists, geneticists, computer scientists, evolutionary biologists, mathematicians, clinicians, and patient advocates to boldly create novel insights and resources and to provide transformative solutions to one of Cancer’s Grand Challenges. A core team of experienced and productive ecDNA investigators will work with new investigators in the ecDNA and cancer fields to bring completely new perspectives and approaches to this daunting challenge. By bridging cutting-edge and diverse approaches and insights from cancer genomics, yeast genetics, epigenomics, artificial genome synthesis, longitudinal patient tracking, combinatorial and machine learning algorithms, mathematical modelling, immunobiology, and innovative chemistry we will develop a new understanding of the role of ecDNA in cancer, and we will find new ways to drug the undruggable. This bold programme, which consists of 7 work packages and a committed international infrastructure, generates new and unusual collaborations that would simply be impossible under any other type of funding mechanism. Our programme endeavours to foster bold innovative solutions to one of the hardest problems in cancer and to one of the greatest challenges facing cancer patients."
+ },
+ {
+  "id": "06f35356-c9eb-4308-ad94-9707b59db8c3",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Tumor Immunology and Immunotherapy",
+  "text": "(ABSTRACT) The Tumor Immunology and Immunotherapy Program (TII) at the Roswell Park Comprehensive Cancer Center encompasses a comprehensive scope of immunology research, from basic mechanistic studies to clinical applications. Our work is grounded in the understanding of harnessing the immune system to prevent and treat patients with all types of cancer, aligning with the Institutional mission to pioneer innovative therapies through immuno-oncology (IO) research. TII has a rich history of translating its research discoveries into patient care, supported by strong collaborations within and across Institutes and working closely with our Community Outreach and Engagement (COE) team. We are committed to focusing on cancers with high incidence rates in our catchment area, ensuring that our research targets the most pressing health concerns and the patient population of the communities we serve. These basic, translational, and clinical initiatives will continue to expand due to multiple ongoing major team science grants and new faculty specializing in active and cellular immunotherapies. To achieve these objectives, TII's research is driven by three core Specific Aims: 1) identifying key mechanisms driving the host antitumor immune response; 2) understanding therapeutic resistance barriers to effective antitumor immunity; and 3) developing and testing novel immunotherapy strategies for both solid and hematologic malignancies. Drs. Scott Abrams and Emese Zsiros co-lead the TII program, each bringing their unique strengths. Dr. Abrams' leadership focuses on the basic and preclinical components of the Program, which unites closely with Dr. Zsiros' leadership, which focuses on the translational and clinical research initiatives. Our program includes 30 members from 11 Departments, with annual peer-reviewed direct funding of $13.5M, $10.9M of which is from the NCI. TII faculty actively participates in several major team science grants, including the renewal of the Roswell Park-University of Chicago Ovarian Cancer SPORE. Altogether, TII faculty serves as PD/PI on four (i.e., P50, P01, U01, and DoD Breakthrough Level 4), MPI on three (i.e., 2 additional U01's and 1 U24), and Project Leader on two (i.e., a second P50 and a second P01) major team science awards. Of 756 publications to date, 34% are high impact (IF>10), with 50% and 57% involving inter-program or inter- institute collaborations, respectively. TII maintains a robust clinical trial portfolio with >1,000 interventional treatment accruals during this funding period. TII faculty also lead or co-lead multiple training grants and actively partners with the Cancer Research Training and Education Coordination core aiming to mentor the next generation of IO scientists. We stand committed to fostering a robust academic environment by recruiting an array of faculty, with a special emphasis on varied expertise, to enrich our science and enhance our collective clinical impact. With a strong funding base, the expertise of our faculty, and robust collaborations, TII is well-positioned to continue advancing IO-based discoveries and developing innovative therapeutics."
+ },
+ {
+  "id": "06f36536-b93a-4af6-9aac-db2c9da3c189",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Computational Methods to Characterize Alternative Splicing and Genetic Determinants from Heterogeneous Sequence Data",
+  "text": "Alternative splicing is a fundamental gene regulatory mechanism with important roles in development and\ndisease. Our research will create a computational framework and advanced statistical and machine learning\nmethods to characterize alternative splicing from sequencing data generated with diverse technologies and\ndetermine the effects of genetic variants. These methods will help advance research on the role of alternative\nsplicing in human health and disease and its translation to precision medicine."
+ },
+ {
+  "id": "06f45eb0-a55a-4eb0-9f25-df52096129df",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Role of Focal Oncogene Amplifications in Lung Cancer",
+  "text": "Increased expression of tumor promoting genes (oncogenes) is a common mechanism leading to tumor\nformation in humans and is caused by an increase in the number of copies of the oncogene(s), a phenomenon\nknown as gene amplification, in a large proportion of tumors. Until recently, this type of mutation was hard to\nmodel in cells and in mice, thus limiting our ability to investigate them. Employing an innovative new method that\nenables the generation of specific oncogene amplifications in primary cells and mice, in this project we will\ninvestigate how mutation and amplification of EGFR and MYC, two common human oncogenes, promote the\ndevelopment of lung adenocarcinomas and small cell lung cancers with the goals of improving our understanding\nof how lung cancer develops and identifying novel and more effective therapies."
+ },
+ {
+  "id": "06fb15a8-46a3-4293-a8a5-51d023bba869",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Chromosome Instability Drives Metal-Induced Lung Cancer",
+  "text": "Lung cancer is the number one cause of cancer death in the United States and metals are a major cause of the\ndisease. Our study focuses on how hexavalent chromium, a metal with widespread exposure known to cause\nlung cancer, causes chromosome instability, a hallmark event in lung cancer. Our findings will transform our\nunderstanding of how metals cause chromosome instability and lung cancer, which may spur new potential\ntreatment targets, new approaches to reduce and prevent metal-induced lung cancer, and new insights to better\ndetermine and manage safer exposure levels for this major public health concern."
+ },
+ {
+  "id": "06fbd612-0007-49ac-8d6b-80fc3e40f8c8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multiplexed dissection of neuronal ensembles in circuits that underlie the facilitation and disinhibition of opioid and alcohol seeking",
+  "text": "Alcohol and opioid use disorders are characterized by both a strong drive to use drugs and an inability to stop\ndrug use. Despite this knowledge, the influence of alcohol and opioid use on the highly complex brain circuits\nthat normally guide the motivation to seek rewards or stop maladaptive behaviors remain unclear. Here we use\nstate-of-the-art methodologies to identify transcriptomically unique groups of neurons in critical reward and\nbehavioral inhibition circuits and determine how they computationally drive or unleash alcohol- and opioid-\nseeking behaviors."
+ },
+ {
+  "id": "06fefd61-6f48-481b-81d4-26c31f74b76a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Data science and epidemiology to improve health of people with HIV",
+  "text": "PROJECT NARRATIVE / PUBLIC HEALTH RELEVANCE\nReducing hospitalizations among persons with HIV (PWH) is critical to improving patient outcomes and quality\nof life, and promoting healthy life expectancy. We will develop a data-driven algorithm for assigning validated\nhospitalization causes to estimate trends in cause-specific hospitalization rates, and a clinical support tool for\nuse in outpatient HIV care to identify patients at increased risk for a future hospitalization. This work will\naddress important gaps in the scientific knowledge of the health care needs of PWH by characterizing\nhospitalization causes and identifying predictors of hospitalization, a critical focus in the care of aging PWH."
+ },
+ {
+  "id": "070959ab-a998-4c5f-89ab-d07f366c2e3c",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Pilot Project 8",
+  "text": "PDAC remains a highly lethal malignancy and continues to show substantial disparities in incidence, treatment, and outcome across racial and ethnic groups. This Pilot brings together FAMU, UF, and USC to develop a human -relevant, scalable, donor-resolved platform for quantifying chemoresponse and resistance heterogeneity across patient-derived models. Aim 1 establishes two complementary assay systems. First, donor-derived PDAC organoids will be combined with matched cancer-associated fibroblasts in a standardized 3D bio-printed format to support controlled evaluation of clinically relevant therapies under reproducible assay conditions. Second, a donor- resolved village assay will co-culture PDAC cells from multiple donors in shared assay environments to measure baseline and treatment-associated heterogeneity while reducing batch-related variability. Together, these systems provide scalable and reproducible pharmacology readouts, enable direct comparison of donor-specific growth and drug-response behavior, and establish a defined phenotypic framework for downstream molecular analyses of resistance. Aim 2 applies multi-omics to define mechanisms of response and resistance. Low-pass whole-genome sequencing (for tracking donor fractions in villages), RNA-seq, and DNA methylation profiling will be integrated with imaging and viability metrics to identify pathways and modulators linked to chemoresistance. Analyses will use standardized workflows with internal controls and replicates to control for technical variation and ensure comparability across experiments. Aim 3 engineers PD-L1–targeted exosomes as delivery vehicles for prioritized miRNA modulators (agomirs/antagomirs) to reprogram resistance circuits and restore chemosensitivity in patient-derived organoids, alone and in combination with chemotherapy. The proposed work operationalizes CaRE2’s organizing framework by centering a health-disparities question in PDAC and by assigning complementary roles that build research capacity at the MSI while integrating specialized expertise and technologies from FAMU, UF and USC. It establishes shared milestones, standardized workflows, common data practices, and cross-site training activities, while generating the preliminary data needed for future multi-PI R-series applications. Anticipated outputs include standardized operating procedures, annotated donor-derived organoid resources, reproducible analysis pipelines, candidate biomarkers associated with chemoresponse, and prioritized miRNA programs for downstream validation and future translational studies. By aligning human-relevant model development, molecular discovery, and therapeutic testing within a collaborative cross-institutional structure, this Pilot will provide a rigorous foundation for studies aimed at understanding and reducing disparities in PDAC outcomes."
+ },
+ {
+  "id": "0712669f-99f0-406d-8489-bc904264586d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Evaluating and developing optimal statistical practices for human microbiome data analysis",
+  "text": "Better ways to interpret the vast data generated from studying the microbes in our bodies can help doctors\nidentify early signs of disease and create more personalized treatments. This methodological research will\ndevelop simpler and more reliable approaches to analyzing these data, reducing errors and accelerating\nscientiﬁc progress. By improving how we study the connections between our microbes and our health, this\nwork ultimately aims to improve patient outcomes and reduce the burden of disease."
+ },
+ {
+  "id": "071cdfe7-f540-4aef-8d73-0aa6cfaaaa6a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "MINDER: Wearable sensor-based detection of digital biomarkers of adherence to medications for opioid use disorder",
+  "text": "STATEMENT\nMedications for opioid use disorder such as buprenorphine provide an effective treatment option that\nsignificantly improves outcomes; however impact is limited by adherence challenges. We propose to develop a\nnovel wearable sensor system, MINDER, which will continuously monitor physiologic changes to detect\nbuprenorphine use and will use machine learning algorithms to accurately identify adherence to buprenorphine\nuse in laboratory and field settings. The results of this study will form the foundation for a wearable, sensor-\nbased, real-time monitoring system for individuals being treated with MOUD, and to develop precision medicine\ninterventions for OUD."
+ },
+ {
+  "id": "07217455-b902-4f62-81dc-9f102e340c5f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identification of Causal T-Cell Mechanisms in Immune Checkpoint Inhibitor Induced Myocarditis",
+  "text": "Myocarditis, a serious inflammatory reaction in the heart causing cardiac death, can occur as a result of\nimmune checkpoint inhibitor therapy. Immune checkpoint inhibitors (ICIs) are a novel class of cancer\ntherapeutics which release the brakes on T-cell cytotoxicity against tumor cells but may also lead to T-cell\nmediated myocarditis. This project aims to define the precise T-cell subsets, identify molecular mechanisms\npotentiating T-cell activation/expansion, and uncover the culprit antigens in ICI-induced myocarditis, thus\npaving the way to prevention and cure of this serious side effect of ICIs and helping ensure the cardiovascular\nsafety of cancer patients."
+ },
+ {
+  "id": "0721b331-0a3d-4f2a-8529-be52988102af",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The functional and adaptive roles of RNA recoding",
+  "text": "Organisms employ diverse epigenetic mechanisms to facilitate acclimation and adaptation to environmental\ncues. Cephalopods and filamentous fungi recode the majority of their mRNAs through RNA editing, resulting in\nincredible protein diversity – how does RNA recoding support phenotypic plasticity, and is it a mechanism to\nfacilitate genetic adaptation? This proposal will investigate how RNA recoding modulates the function of proteins\ninvolved in intracellular transport and DNA replication and repair to support phenotypic plasticity and adaptation."
+ }
+]

@@ -1,0 +1,142 @@
+[
+ {
+  "id": "01eb5b76-50a3-4333-aece-28525dd735c6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Biophysics of Protein-Mediated Membrane Fusion",
+  "text": "HIV remains a major health threat worldwide. Whereas effective antiviral treatments are available, the emergence of drug resistant variants warrants continued efforts to identify novel viral and cellular targets to combat infection. In-depth understanding of the early steps of HIV infection will reveal critical interactions and processes that support or inhibit the virus entry and, thereby, suggest potential drug targets. Our focus has been the investigation of mechanisms of HIV-1 fusion and its restriction by host factors. Over many years, we have developed innovative functional and fluorescence microscopy approaches to delineate key determinants and cellular sites of HIV-1 entry. Our preliminary results and novel technologies implemented during the past grant cycle provide unique opportunities to gain critical mechanistic insights into the architecture and dynamics of HIV-1 membrane, define the sites of HIV-1 fusion with target cells following cell-free and cell-cell transmission routes, and elucidate the molecular mechanisms by which host restriction factors antagonize HIV-1 entry. To achieve these goals, we propose the following Specific Aims. First, we will capitalize on our novel virus labeling strategies to elucidate the determinants of HIV-1 entry pathways. We will employ a panel of functional, single virus imaging, and biochemical approaches to delineate the basis for a surprising HIV-1's preference for fusion with pH-neutral intracellular vesicles described in our recent publication. Second, we propose to define the mechanism of HIV-1 cell-cell transmission via tunneling nanotubes, the sites of fusion with target cells after transmission, and the role of restriction factors, such as SERINC5 and IFITM3, in regulating these processes. Third, we will utilize specific membrane probes and novel imaging approaches to elucidate the nanoscale organization and dynamics of HIV-1 membrane and their modulation by host restriction factors. Specifically, we will investigate the roles of viral lipid asymmetry, membrane tension and Env glycoprotein clustering on virions in regulating the efficiency of virus-cell fusion. Completion of the proposed experiments will provide unprecedented mechanistic insights into regulation of HIV-1 entry and fusion by viral membrane architecture/dynamics and by host restriction factors. RELEVANCE (See instructions):"
+ },
+ {
+  "id": "01ef8778-4066-40c7-a7e7-92521ef8c1ef",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multicomponent Therapy for Age-related Skin Stem Cell Deficiency",
+  "text": "Chronic non-healing skin ulcers are a source of considerable suffering worldwide, particularly in rapidly growing\naging populations. Why skin becomes fragile and heals poorly as we age remains unclear, although current\nresearch indicates that a major reason may reside in defective “stem cells” in skin that normally fuel its renewal\nand regeneration in order to maintain healthful and youthful function and appearance. Our findings indicate that\nstem cell pathways involving cell metabolism, DNA regulation, and cell-cell communication may underlie\ndefective wound healing. Our research proposal is designed to explore this hypothesis with the overarching goal\nof developing new approaches that will pave the way for stem cell-directed combined therapies that will\naccelerate wound healing and potentially even repair and restore age-damaged skin."
+ },
+ {
+  "id": "01f10c32-42fc-4e17-8ccb-dda86b700f83",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "BCCMA: Predicting TBI Pathology with Visual and Blood-based Biomarkers",
+  "text": "Traumatic brain injury (TBI) is a condition with higher prevalence in the veteran population than civilians and is\nassociated with multi-dimensional impairments in function impacting neurocognition, psychological well-being,\npersonality, motor function, and activities of daily living. These impairments have diverse biological causes,\nproducing a challenge for both scientific reproducibly of therapeutic discoveries as well as bench-to-bedside\ntranslation of discoveries into veteran healthcare. Project 4 of the proposed linked merit will take a data-science\napproach to TBI biomarker discovery, integrating data on retinal function and structure, blood biomarkers,\nbiomechanical modeling and outcomes in multiple rodent models of TBI (blast, contusion, percussion, weight\ndrop injuries) produced by Projects 1-3. Harnessing data science and machine intelligence tools we will help\nidentify biomarker signatures predicting TBI impairment and help validate biomarker measures for translation\nand precision medicine."
+ },
+ {
+  "id": "01fbb722-39c1-450a-8da7-c5016c42ec0f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "National Drug Early Warning System Coordinating Center (NDEWS)",
+  "text": "The goal of NDEWS is to monitor trends and patterns of drug use, availability, and associated morbidity and mortality utilizing a wide variety of non-lagged sources with a particular focus on new psychoactive substances. By rapidly disseminating our early warning data to public health practitioners, experts, networks, and the public, we will help inform prevention, treatment, and harm reduction efforts."
+ },
+ {
+  "id": "01fc2b5b-8b9c-454f-9f4d-78a2715a1b19",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Posttraumatic Stress and Stress Reactivity After Myocardial Infarction",
+  "text": "Development of posttraumatic stress disorder (PTSD) symptoms after a myocardial infarction (MI) is common\n(>35% of patients), with serious implications for increasing risk of rehospitalization and mortality within 1 year.\nTo address the NHLBI Research Priority regarding mechanisms whereby psychosocial stress contributes to\nischemic heart disease progression, the proposed K23 study will test psychological and physiological stress\nreactivity as a mechanism linking PTSD symptoms with elevated ambulatory blood pressure during the post-MI\nadjustment period. Using ecological momentary assessment and ambulatory blood pressure monitoring, the\nproposed study will advance our understanding of stress reactivity as a promising modifiable mechanism in MI\npatients and inform the future development of a larger study of diverse MI patients with PTSD symptoms."
+ },
+ {
+  "id": "0203655e-f2f5-4b4e-9260-6b9a8ea9e449",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "PASSPORT: PASsive Sensing to Prevent stress-related Overeating in Real-Time",
+  "text": "Overeating, as characterized by the consumption of excess calories, is one of the causal factors\nof obesity, which contributes directly to cardiovascular disease (CVD). Although overeating is\nassociated with stress and obesity, the relationship between these CVD risk factors are often\nunclear as no current wearable device can objectively detect eating or monitor daily stress in\nreal-time. We will test and refine machine learning algorithms that run on wearable devices to\ndetect and predict overeating and stress in real-time, thus advancing our understanding to\ndevelop appropriate and timely interventions that prevent CVD risk behaviors."
+ },
+ {
+  "id": "020998aa-0503-4dd7-8d67-a9ee55a79ace",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular and cellular mechanisms of HSV-1 assembly and egress",
+  "text": "Alpha herpesviruses, like herpes simplex virus 1 (HSV-1), naturally infect the peripheral nervous system causing recurrent herpetic lesions, and can spread to the central nervous system causing encephalitis or may contribute to neurodegenerative disease. To spread to and within the nervous system, alpha herpesvirus particles must transport inside and then exit from infected cells, either non-neuronal cells, or neurons. The goal of this research is to better understand how HSV-1 spreads in the nervous system by investigating the molecular and cell biology of these processes."
+ },
+ {
+  "id": "020d3462-0bce-45e7-a9f3-02279e6b9502",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Novelty and valence encoding in the zona incerta in parkinsonian monkeys",
+  "text": "Parkinson’s disease (PD) is the second most common neurodegenerative disorder in the United States,\nimpacting nearly 1 million Americans and their families. Neuropsychiatric symptoms, such as loss in motivation\nand emotional indifference, are common in PD and are often overshadowed by movement impairments\nmanifesting in the disease leading to under-recognition and undertreatment. This work will offer insights into\nreductions in novelty and reward seeking behavior in PD patients by examining changes in neuronal activities\nand connectivity in the translational non-human primate model of parkinsonism, with the potential to reveal new\ntherapeutic targets such as the zona incerta."
+ },
+ {
+  "id": "02247d23-7792-4dfe-99a0-9b2c467739d1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Nuclear Dysfunction in Alzheimer's and Related Dementia: The Role of Heteromeric aggregation of RNA-Binding Protein Musashi1 and Tau",
+  "text": "The proposed research is highly relevant to public health because of the positive impact of discovering\nmechanisms which prevent pathogenesis and progression of AD and AD related-dementia (ADRD). It will open\nthe possibility of developing novel and effective therapeutic approaches tailored to AD and ADRD progression\nthus improving quality of life. The proposed research is perfectly alighted to NIH’s mission of fostering creative\ndiscoveries to protect and improve human health."
+ },
+ {
+  "id": "02264cce-6606-4792-8cd6-c1c1721c06ff",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Decoding ALS: How Environmental Exposure Alters the RNA Pseudouridylation Landscape and RNA-protein Interactions",
+  "text": "PROJECT NARATIVE\nThis application focuses on assessing how environmental exposure modulates RNA pseudouridylation and\nRNA-protein interactions, thereby contributing to neurodegenerative diseases, particularly amyotrophic lateral\nsclerosis (ALS). The outcome of the proposed research will significantly deepen our understanding about the\nmechanistic interplay between environmental exposure and neurodegeneration, potentially leading to the\nidentification of novel biomarkers as well as development of therapeutic approaches for treating ALS."
+ },
+ {
+  "id": "022be968-679c-473e-9b32-2b73cb9981f1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Machine Learning and Large-scale Imaging analytics for dimensional representations of brain trajectories in aging and preclinical Alzheimer's Disease: The brain aging chart and the iSTAGING consortium",
+  "text": "This proposal pools imaging data from 16 different studies, with a total of more than 36,000 individuals of\nages 45 to 95, aiming to obtain a comprehensive characterization of brain aging. State of the art imaging\nharmonization, pattern analysis and machine learning methods will be used to derive normative brain aging\ncurves, and to characterize the heterogeneity of deviations from these curves in people with resilient and\naccelerated brain aging. Moreover, we aim to relate these imaging patterns to cognitive performance. We\nwill eventually derive and “Imaging-based coordinate SysTem for AGing and NeurodeGenerative\ndiseases”(iSTAGING), allowing us to place any individual's scans into a quantitative measurement system\nand plot his/her trajectories over time, as well as relate them to statistics from a large and diverse dataset."
+ },
+ {
+  "id": "022ddaa2-7537-4b40-80c2-1b5383661bee",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Understanding how membrane composition directs membrane protein structure and function",
+  "text": "Integral membrane proteins are the targets of the majority of drugs used in the clinic, yet the mechanism of\naction for most of these drugs is not fully understood. One reason for this is that most mechanistic studies of\nmembrane proteins extract the protein from its native membrane environment – akin to studying a soluble\nprotein in a dehydrated state. The research proposed by our team will apply new technologies to identify and\nunderstand how the native membrane environment impacts membrane protein structure and function, which\nwill inform new strategies to modulate membrane proteins pharmacologically."
+ },
+ {
+  "id": "022df95a-4d3f-4f56-8b04-4402a679824b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting Junctophilin-2 for heart failure gene therapy",
+  "text": "Current treatments of heart failure continue to be insufficient for all patients. The proposed studies focus on\nexploring the therapeutic potential of AAV-mediated delivery of junctophilin-2 related gene products in treating\nheart failure using preclinical mouse models."
+ },
+ {
+  "id": "0231654a-6c51-4ecd-9c83-de2018e39e5d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Methods for cancer microbiome study design and analysis",
+  "text": "Contamination, the introduction of irrelevant biological material to an experiment, and batch effects, the\ndifferences in measurements between different groups of samples, are significant challenges in studies of the\ncancer microbiome and could lead to misinterpretation of results. This project will develop methods for\nmodeling and analysis of tumor microbiomes that address these challenges, in addition to a framework for\nplanning microbiome experimental designs that better control them. This is relevant to public health because\nthe tumor microbiome is investigated across diverse clinical and biological contexts, and these methods will\nallow investigators to better plan their studies and analyze their data."
+ },
+ {
+  "id": "02339cda-be71-46e5-aba1-483fd3cff5be",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dynamic immune profiling in live tissue through multiplexed virtual staining",
+  "text": "Public Health Relevance/Narrative\nUnderstanding the complex workings of the immune system is crucial for the relevance of health and disease,\nas it serves as our body's intricate defense mechanism against illnesses. The development of a label-free\ndynamic imaging tool is essential to further this understanding. By enabling real-time observation of immune\ncells in their natural state, this tool can potentially facilitate personalized treatment approaches and ultimately\nimprove health outcomes for individuals."
+ },
+ {
+  "id": "02351b04-569e-4c9e-98a3-6f0c23e836a2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Exploring host GSK3β-53BP1 axis in immune control of solid tumor progression",
+  "text": "Head and neck squamous cell carcinoma (HNSCC) is a major global health challenge with limited treatment\noptions and poor survival rates. This project seeks to address T cell exhaustion (TEX), a critical issue in the\nefficacy of immunotherapies like immune checkpoint blockade (ICB) and adoptive cell transfer (ACT), by\ntargeting the GSK3β-53BP1 axis to enhance the repair of DNA damage in T cells. Our research aims to provide\nnew insights and therapeutic strategies to improve the effectiveness of immunotherapies with and without\ncombination of radiation treatment for HNSCC and other solid tumors."
+ },
+ {
+  "id": "0236fd21-e90f-450e-be51-b66c7dd32266",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Translational Pathology Core",
+  "text": "PROJECT SUMMARY – Translational Pathology Shared Resource The mission of the Translational Pathology Core (TPC) of the USC Norris Comprehensive Cancer Center (NCCC) is to facilitate high-impact cancer research by providing high-quality human tissue procurement, processing, and banking resources to NCCC investigators working on all aspects of cancer research. Continuing as the Director of TPC since its inception in 1998, with oversight from NCCC Administration, Sue Ellen Martin MD PhD ensures that services are provided in a timely and cost-effective manner and that TPC meets the needs of NCCC members. TPC team members work with investigators in all NCCC Research Programs on the planning, design, and feasibility of cancer research studies requiring human biospecimens and procure tissue for NCCC clinical trials. A unique service offered by TPC is the acquisition of formalin-fixed, paraffin embedded (FFPE) tissue from patients enrolled in population-based studies, including non-USC hospitals. In addition to retrieving blocks from specific patients for population-based studies, TPC collects FFPE tissue blocks that are donated by regional hospitals to TPC's Residual Tissue Repository (RTR) and linked to the NCI-funded Cancer Surveillance Program (SEER registry) at USC/NCCC. The wide range of the biospecimens available to investigators fosters NCCC's mission to reduce the cancer burden. For example, TPC has ~1,800 and 2,800 annotated breast cancer tumor blocks from African Americans and Hispanics, respectively, and the RTR includes over 60,000 multiethnic cancer patient specimens. New developments in the current period include: 1) deployment of a centralized bioinformatics tool, OpenSpecimen; 2) enrollment for CAP/CLIA certification; 3) launch of an automated investigator database queries for specimens to decrease turn-around time; and 4) implementation of a universal consent process in collaboration with the NCCC Oncologic Research Information Exchange Network (ORIEN) program. During the current grant period, 84 NCCC full members across all five NCCC Programs utilized TPC resulting in 82 publications and $19.4M in direct cost grant funding related to TPC usage. For example, TPC supports ORIEN at NCCC, providing annotated FFPE tumor tissue blocks from over 2,471 consented adult patients for whole genome sequencing (WES) and RNA sequencing (RNASeq) with matched whole blood samples for germline WES. TPC also provides essential pediatric tissues not otherwise available to investigators, including fresh Wilms tumor, neuroblastoma, and sarcoma tissues as well as over 5,000 leukemia samples. TPC is also critical for the NCI UM1 (National Clinical Trials Network) and UG1 (Experimental Therapeutics Clinical Trials Network) at NCCC. The anticipated annual budget of TPC in the first year of the next grant cycle is $991,870 yet the CCSG request is $403,984. Accordingly, TPC leverages extensive institutional and recharge support and seeks only 41% from CCSG funds."
+ },
+ {
+  "id": "02380480-674e-4271-af8b-4697b0c851a7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Environmental modulation of metabolic function in microbial communities",
+  "text": "As residents of the human body and the biosphere, microbial communities perform essential metabolic\nprocesses for maintaining human health. At present we do not understand how the genomic structure of microbial\ncommunities, and the environment in which they reside, gives rise to their emergent metabolic processes. With\nto goal of ultimately designing and controlling communities of microbes to improve human health, this project\naims to discover the principles governing how environmental variation impacts the metabolism of microbial\ncollectives."
+ },
+ {
+  "id": "02386aba-26cd-44f4-815e-6d3db032d56d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Poison exons in epilepsy and neurodevelopment",
+  "text": "Proposal narrative\nPoison exons are used throughout neurodevelopment and their aberrant splicing can cause disease. We aim\nto use cutting-edge technologies to identify cell-type specific maps of poison exons in neurodevelopment,\nunderstand their genomic characteristics, and how they are alternatively spliced, towards identifying genetic\nvariants that can lead to aberrant splicing."
+ },
+ {
+  "id": "02387b93-dd6e-44bc-8c76-a85a13de5b2b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Integrated therapies for alcohol use and ALD (ITAALD) Network -UofL Clinical Center",
+  "text": ":\nAlcohol-associated liver disease (ALD) is a leading cause of mortality/morbidity, and there is no FDA-approved therapy for any stage of ALD. Unfortunately, patients with ALD rarely have their underlying alcohol use disorder (AUD) concomitantly addressed. This consortium links health providers with expertise in AUD and ALD in a unified treatment strategy to evaluate novel combined treatments for AUD/ALD in patients with advanced ALD. The exiting resources of the NIAAA-funded consortium are used for patient studies, biospecimen collection and site-specific translational studies."
+ }
+]

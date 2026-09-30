@@ -1,0 +1,142 @@
+[
+ {
+  "id": "25efe0b2-0f09-4262-8115-1460b8fb610d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Hearing loss as a model system to understand neural and environmental predictors of language development from infancy to school entry",
+  "text": "Young children with hearing loss show puzzling variability in language development that the field cannot\nalways predict or explain—some children develop typical communication skills while others face persistent\ndelays. This project will examine what leads children to take these different developmental paths by longitudinally\ntracking child brain activity, child speech-language development, and caregiver speech input as they unfold in\nreal time from infancy through school entry. Unlike previous work that relied on brief laboratory snapshots, our\napproach captures how development actually unfolds in children's daily lives, revealing basic principles of how\nchildren overcome sensory challenges like hearing loss that apply to autism, learning disabilities, and other\nconditions where similar challenges lead to dramatically different developmental outcomes."
+ },
+ {
+  "id": "25f4355a-5149-44fc-bcd6-557a940f5b22",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Long-read genome sequencing for the discovery of highly penetrant variation in rare diseases",
+  "text": "Genome sequencing technologies have greatly improved our ability to detect the genetic causes of rare\ndiseases, such as neurodevelopmental disorders (NDDs), but disease-relevant genetic variants still cannot be\nfound in most individuals with a rare disease. New sequencing technologies hold great potential to uncover\ngenetic variation missed by current approaches, and this proposal tests one such approach, called “HiFi”, from\nPacific Biosciences. 500 probands, and 400 of their parents, with an unexplained rare disease will be sequenced\nusing HiFi to identify disease-associated, clinically relevant variants and to substantially improve upon\nsequencing technologies in research and clinical settings."
+ },
+ {
+  "id": "25f6f5a1-3a93-470d-bf51-089fc72daa9a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Core 1: Mathematical Core",
+  "text": "Summary – Mathematical Modeling Core Understanding the changes in tumor ecology (“∆-Ecology”) that occur during tumor initiation, progression, and therapy requires careful study of a complex dynamical system involving multiple scales – from molecular to cellular to tissue to systemic. An important tool in this study is the use of mathematical models, which can bridge temporal gaps in clinical and experimental data. Ecological histology data from patients is difficult and rare to obtain, and experimental work, while crucial for teasing apart mechanism and testing hypotheses, cannot fully reproduce the human setting of disease. Mathematical modeling serves as a link between these approaches, allowing ecological principles arising from mechanisms studied in vitro and in vivo to play out in the patient setting, calibrated to available patient data. The Mathematical Modeling Core will develop these models, using a variety of approaches. Key is the use of spatial agent-based models, which can handle the rich diversity of cell types and molecules, as well as the multiple scales involved in tumor ecology and evolution. We have built a platform for developing these models that is fast and flexible, including numerous add-ons that will serve the science in the two projects of this proposal. In addition, our expertise in non-spatial models will be applied in parallel, as these approaches can capture the broad dynamics of tumor growth and the response to treatment in ways that have significant translatable potential, as evidenced by ongoing trials in Evolutionary Therapy at Moffitt. In addition to constructing these models, we will develop tools for initializing, calibrating, and analyzing models based on clinical and pre-clinical data collected in each project. This will involve the use of virtual “Phase i” trials, where virtual patients/mice are generated from a model, taking parameter uncertainty into account. In summary, the Core models will provide insight into the ecological processes that occur during tumor growth and treatment."
+ },
+ {
+  "id": "25fa65e3-3b27-4f23-b3b4-2f5991268053",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of a Reservoir-Targeted Oral Vaccine Against Multiple Tick-Borne Pathogens",
+  "text": "Lyme Disease, Babesiosis, and Anaplasmosis are three diseases caused by tick-borne pathogens transmitted\nas coinfections in the US and other temperate parts of the world and can cause prolonged infection and\nsymptoms due to the lack of diagnoses and effective prevention/treatment. There are currently no available\nvaccines targeting human tick-borne illnesses. We propose that a reservoir-targeted oral preparation can be\nutilized to block the transmission of multiple tick-borne pathogens from infected tick to host, thus preventing the\nspread of infection to human hosts."
+ },
+ {
+  "id": "25fe7e7d-83e5-4039-916e-ce27ac863f55",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Advancing Proteomics Technologies for Cancer Research",
+  "text": "PMCSR serves as the backbone for diverse research initiatives, highlighted by the utilization of over 200\nlaboratories engaged in basic, clinical, and translational research. PMCSR's cutting-edge technologies have\nbeen pivotal in numerous groundbreaking studies, including interactome mapping elucidating crucial\nmechanisms in cancer immunity, phosphoproteomics uncovering dysregulation leading to lymphomagenesis,\nand cell surfaceome profiling aiding immunotherapy target discovery. This award will provide career stability to\nme and allow me to continue excellence in serving the cancer research community."
+ },
+ {
+  "id": "260c775f-c115-4e76-8ec0-1c36852f01c6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dissecting the Functional Consequences of Mutations in ZFP36L2 on Tumor Progression and Inflammation in the Tumor Immune Microenvironment of Colorectal Cancer",
+  "text": "There is an urgent need to identify novel targets and biomarkers of response to immunotherapy in microsatellite\nstable/mismatch repair-proficient colorectal cancer (CRC). This proposed research will delineate the influence\nof the frequently mutated RNA-binding protein ZFP36L2 on CRC disease progression and immune evasion.\nUtilizing a novel syngeneic mouse ZFP36L2 knockout organoid model, a novel ZFP36L2 knockout genetically\nengineered mouse CRC model, and patient derived organoid models, this proposal aims to advance our\nunderstanding of tumor-regulated inflammation and contribute to the development of new treatment strategies\nto improve the prognosis and quality of life for CRC patients."
+ },
+ {
+  "id": "260ca25e-45e5-4a1b-911d-a4d707883a06",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "CRISPR/Cas9-mediated knockouts in reconstructed human epidermis to profile skin microbiome interactions",
+  "text": "TO PUBLIC HEALTH\nThe numerous bacteria, fungi, and viruses that inhabit our skin play key roles in skin health, but we need a better\nunderstanding of how these microbes interact with skin cells. To enable a detailed investigation of microbe–skin\ncell interactions and their effects on skin health, we seek to develop a platform for microbial colonization of\ncultured skin tissue that can be genetically modified to investigate host mechanisms. These technologies will\nenable biomedical researchers to determine how microbe–skin cell interactions impact skin barrier functions,\nimmunity, and susceptibility to diseases arising from microbial infection."
+ },
+ {
+  "id": "2611a17b-58f7-4dec-b90b-46b3e67a1225",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dissecting roles of Lunatic Fringe-dependent Notch signaling in pancreatic cancer",
+  "text": "Despite improvements in overall survival for most cancers, survival for patients with pancreatic\ncancer remains dismally low. This project aims to address the cellular origin, initiation and\nprogression of pancreatic ductal adenocarcinoma (PDAC) and to identify genes and signals\ncritically involved in this process. Successful completion of this project may provide an\nopportunity for targeted therapy for this devastating disease."
+ },
+ {
+  "id": "26158f56-299b-437b-afa1-709fa40550e4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Decoding the Molecular Choreography of Diverse Vesicle Release Mechanisms",
+  "text": "This MIRA proposal seeks to uncover the molecular mechanisms governing the fusion of large dense-core\nvesicles (LDCVs), which are essential for the secretion of hormones, peptides, and growth factors that regulate\ncritical physiological processes. By investigating how disruptions in vesicle fusion contribute to diseases such as\ndiabetes, neurological disorders, and immune dysfunction, this research will provide transformative insights. The\ndevelopment of innovative technologies, including the SLIM platform, will significantly advance the fields of\nmembrane biophysics and single-molecule studies."
+ },
+ {
+  "id": "26175c7f-e229-4cbf-bdbd-1f63ab7774e1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A Novel Hyper-Immunogenic Low Virulent BCG vaccine against Tuberculosis",
+  "text": "Tuberculosis (TB) remains a serious disease by causing about 1.4 million deaths annually. BCG is the only\nvaccine available for TB but this is not effective in preventing pulmonary TB. In this proposal, we propose to\ndevelop a better vaccine against TB by genetically modifying BCG."
+ },
+ {
+  "id": "261b349b-8089-4e5f-af7b-ce3e41814c37",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Core 1: Functional Genomics and Proteomics",
+  "text": "CCMI v2.0 Core 1: Functional Genomics and Proteomics Core Core Lead: Nevan Krogan; Co-Investigator: Prashant Mali SUMMARY Systematic characterization of protein-protein interactions (PPIs) and genetic interaction networks of cancer drivers is critical for the identification of functional complexes for patient stratification and targeted cancer therapies. Proteomic approaches that determine PPIs and protein complex stoichiometry and topology can provide strategic insight into the dynamic cancer landscape and help guide tailored genetic screens to assess functional relevance of newly characterized PPIs. The Functional Genomics and Proteomics Core (Core 1) will provide the infrastructure and technical expertise essential to the completion of the overall CCMI objectives. With support of two Core facilities, the Functional Genomics and Proteomics Core will provide its expertise in CRISPR genetic screens (Institute for Genomic Medicine (IGM) Genomics Center, UCSD) and proteomic technologies (Thermo Fisher Scientific Proteomics Facility for Disease Target Discovery, UCSF, Quantitative Biosciences Institute (QBI), Gladstone Institute) for the generation of high-quality protein-protein (Aim 2; in support of Project 1) and genetic (Aim 1; in support of Project 2) interaction data, which will be integrated using systems biology approaches in Project 3 and Core 2. Our goal is to provide functional and structural characterization of cancer driver networks, model their functional interactions in three different cancers (breast, head and neck, lung cancer), and determine consequences of introducing point mutations. Finally, we will use a unique platform for Endogenous Network/Dynamic Structure (EN/DS) determination (Aim 3) that will use CRISPR-based genetics to introduce point mutations and FLAG-affinity tags into the endogenous loci of selected genes to study endogenous protein complex stoichiometry and structure using mass spectrometry and cryo-EM (in support of Project 1)."
+ },
+ {
+  "id": "2623f8eb-3898-4f76-a023-30c122298a9e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "High-throughput, bond-specific 3D chemical microscopy for lipid metabolism in cancer metastasis",
+  "text": "Cancer metastasis relies heavily on altered lipid metabolism, yet the precise mechanisms linking fatty acid saturation states to metastatic progression remain poorly understood. Saturated and unsaturated fatty acids appear to differentially influence energy production, membrane composition, and signaling pathways, thereby shaping the tumor microenvironment and metastatic potential. To advance our understanding, we will develop and apply a novel, high-throughput, bond-specific three-dimensional (3D) optical microscopy method—Optically Detected Mid-IR 3D (O-MIR) microscopy—that overcomes current limitations in live-cell metabolic imaging. Existing approaches, including fluorescence imaging and Raman-based techniques, are constrained by labeling requirements, photobleaching, and low signal throughput. By integrating computational microscopy, mid-infrared (IR) spectroscopy, and click-free bio-orthogonal probes, our method will enable bond-specific, sub-micrometer resolution and rapid 3D live-cell imaging within both the mid-IR fingerprint and “cell-silent” spectral windows, facilitating direct, real-time tracking of fatty acids and their metabolic transformations. In Aim 1, we will develop and validate the O-MIR microscope for bond-selective 3D imaging. The O-MIR system will be constructed by integrating nanosecond-pulsed mid-IR photothermal imaging with intensity diffraction tomography algorithms, achieving bond-selective imaging with ~250 nm lateral and ~500 nm axial resolution, 3D imaging speeds of up to ~12 Hz for a 500 µm x 500 µm x 100 µm volume, and high mid-IR spectral fidelity. We will validate its performance using microsphere phantoms and fatty acid suspensions in both the mid-IR fingerprint and cell-silent windows. In Aim 2, we will employ the O-MIR microscope to investigate how fatty acids with differing degrees of saturation influence breast cancer cell metastasis, comparing non-metastatic and metastatic cell lines under metabolic inhibition. We will quantify changes in fatty acid uptake, localization, and metabolic processes that enhance or impede metastatic phenotypes. By clarifying how specific fatty acids modulate metastasis, this work will identify novel metabolic markers and therapeutic targets. Ultimately, our findings will inform the development of enzyme-targeting strategies and metabolic interventions to reduce metastasis and improve patient outcomes."
+ },
+ {
+  "id": "262f3331-7817-4dc5-b6d9-44a6d5cc2510",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Assessing the use of MY-RIDE, a just-in-time adaptive intervention, to Improve HIV prevention and Substance Use in Youth Experiencing Homelessness",
+  "text": "Youth experiencing homelessness (YEH) are at heightened risk for HIV and experience extreme challenges to\naccessing HIV prevention care, compounded by substance use and stress. The goal is to conduct a\nrandomized trial of a promising digital intervention among YEH 18-25 to examine the HIV prevention impact."
+ },
+ {
+  "id": "262f90e5-9bcc-470b-827c-c18a9f53478f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Functional genomics approaches to decode the roles of transcription factor isoforms",
+  "text": "Transcription factors are proteins which play key roles in a variety of biological processes and many human\ndiseases, including cancer. Most transcription factors are expressed not as a single protein, but rather as a\nseries of distinct protein “isoforms”, yet the vast majority of transcription factor isoforms—thousands of\nproteins—remain entirely uncharacterized. The proposed project will develop approaches to probe the roles of\nthousands of transcription factor isoforms at once in breast cancer cells, which will uncover novel disease-\nrelevant biology and lay the foundation for studying isoforms more broadly, genome-wide and in other cellular\ncontexts."
+ },
+ {
+  "id": "26357319-1ab5-405b-aafc-232659a49e6b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Microglial Iron and Lipid Dysregulation in TDP-43 Related Neurodegeneration",
+  "text": "TDP-43 proteinopathy is a common feature of many neurodegenerative diseases (NDs) and is consistently\naccompanied by significant microglial activation. The dysregulation of iron and lipid homeostasis in these\nactivated microglia can trigger ferroptosis, a form of iron-dependent cell death driven by the accumulation of\ntoxic lipid peroxides. In this proposal, we will determine how this metabolic dysregulation alters microglial\nfunction and identify the underlying mechanisms of the disrupted iron metabolism."
+ },
+ {
+  "id": "263616b0-fd31-47d0-8e26-f4be208571e8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Genetic risk and molecular characterization of Diabetic Kidney Disease",
+  "text": "Diabetic kidney disease (DKD) is the leading cause of ESRD in the USA with increasing prevalence at an\nalarming rate worldwide, and there are no known cures to prevent its progression. We have identified a new risk variant that controls the oxidation state of cells in the kidney in DKD susceptible mice, and plan to develop a new precision medicine therapeutic strategy. The proposed studies will uncovered XOR promoter orthologue variants in humans associated with significant risk for DKD, and provide new avenues for more effective and precise therapies for patients at risk and living with this disease."
+ },
+ {
+  "id": "264297d5-e602-4fd8-b7e5-de20240c2d00",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "VAST Center: Viromes Across Space(s) and Time",
+  "text": "Compared to the human microbiome work focused on bacteria, characterization of the human virome is still nascent. This is primarily a result of the inherent challenges posed by the viruses, since viruses in human bodies are highly diverse, small, and generally rare in the context of the microbiome. To address these gaps in knowledge, our Viromes Across Spaces and Time (VAST) Center will contain a dedicated Biospecimens Analysis Core (BAC), which will be responsible for extracting, processing, and sequencing the comprehensive virome and microbiome profiles for all cohorts in our Virome Characterization Center (VCC). The next-generation sequencing (NGS), molecular, and functional data can then be used by our VAST group, the other VCCs, and the broader scientific community, to improve our understanding of the human virome. We will accomplish the goals of the BAC across 3 main aims and several sub-aims. First, we will (Aim 1) optimize virome enrichment, quantification, and spatial mapping methods, including a pan-virome panel of almost all currently known viruses, multiple-displacement amplification (MDA) for low biomass samples, and viral-like particles (VLP) enrichment. Secondly, we will (Aim 2) generate metagenomic and metatranscriptomic sequences from >15,000 samples and examine sub-cellular, spatial localization of viruses in skin samples, which is essential for improved understanding of viral localization in tissues. Finally, we will (Aim 3) sequence and annotate long read viromes from 1,000 high-complexity, longitudinal samples. Equipped with state-of-art sequencing and imaging technology, our BAC has an unprecedented opportunity to detect both DNA and RNA viruses in the human body, determine their stability (and dynamics) longitudinally, map their location in cells, and discover novel viruses from the viral ‘dark matter’. Our aims will (1) capture viral diversity from different anatomical regions, which likely harbor unique viromes and varied host-environment interactions, (2) identify novel viruses, thereby enriching our understanding of viral evolution and novel alleles, and (3) track low-abundance species, which are sometimes pervasive across the body. These data can also improve measures of viral evolution by curating short-read and long-read data from these cohorts and tracking their changes over time, which will map host-microbial interactions and tropism at cellular and even sub-cellular (50nm) resolution. Analyzing these high volumes of diverse data from global and longitudinal cohorts will enable comprehensive mapping of viral dynamics and biology. Moreover, the generation of high-quality, comprehensive data on the virome of various tissues and samples will contribute significantly to our understanding of the human virome, host interactions, and implications in health and disease."
+ },
+ {
+  "id": "26435fe4-c7dd-4473-b292-0b04b485e868",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Inter-Organelle UPR Coordination and Cellular Proteostasis",
+  "text": "The proposed research is relevant to public health because it will provide the underlying mechanisms of the\nconnection between lipid homeostasis and proteostasis and provide new therapeutic targets for a range of\ndevastating diseases. Therefore, the project is relevant to the part of NIH’s mission that pertains to contributing\nto our understanding of the fundamental cellular processes involved in maintaining health and preventing disease."
+ },
+ {
+  "id": "26467f65-22ac-454d-8a93-315f6d8755ce",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Admin/Coordination Core",
+  "text": "The goal of the Admin/Coordination Core (ACC) is to provide administrative leadership and to guarantee that all UCI subunits are interacting and communicating efficiently. Integration with the other consortium members, Indiana University (IU)/The Jackson Laboratory (JAX)/University of Pittsburgh (Pitt) as well as with Sage Bionetworks and the National Institute on Aging (NIA) are also key objectives for the ACC. As the leadership core of UCI MODEL-AD, our goal is to ensure the success of the project by managing and supporting the different cores in order to develop and characterize novel Late-Onset Alzheimer’s Disease (LOAD) mouse models as well as to efficiently distribute them to the scientific community. During the past five years, the ACC has successfully promoted innovative approaches for the generation of new mouse models of Alzheimer’s Disease (AD) by providing necessary support to the Disease Modeling Project (DMP) Core and the Bioinformatics and Data Management Core (BDMC) (now called the Functional Genomics and Bioinformatics Data Management Core [FGBDMC]). Moreover, all mouse models generated during the first iteration of this U54 are now available through our partner, JAX, with no restrictions to academic and non-academic scientific community; and the data obtained from the deep phenotyping of these mouse models is publicly available through our partnership with Sage Bionetworks. The innovative leadership style of the Co-PIs, Drs. LaFerla, Tenner and Green, as well as their strong experience managing multi-investigator grants, has been a valuable asset to UCI MODEL-AD, leading to a harmonious and open communication and collaboration among all the core leaders and personnel. Their continuous interactions with the Steering Committee as well as the External Advisory Board (EAB), via recurrent meetings organized by the ACC, will help the core leaders to prioritize the generation of new mouse models and select the most promising ones for a deep phenotyping characterization. As one of the main goals of U54 is the dissemination of knowledge, the ACC will also coordinate the participation of UCI MODEL-AD in several international scientific meetings, including those organized by the NIA. In summary, the ACC will play the key role of being the management engine for this project and will ultimately ensure its success."
+ },
+ {
+  "id": "2648a81e-c901-496b-8aba-2f442d710b40",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cincinnati Cooperative Center of Excellence in Hematology",
+  "text": "RELEVANCE:\nCCHMC provides an exceptional environment in which to study the molecular mechanisms of various aspects\nof hematopoiesis and to pursue innovative basic and translational research and therapies for a wide variety of\nnon-malignant blood diseases. The Cincinnati Cooperative Center of Excellence in Hematology (CCCEH) will\nprovide an essential organizational platform that allows coordination in basic and translational hematology\nresearch areas and will facilitate NIH funded and new studies by established and new investigators of\nexperimental hematology around US."
+ }
+]

@@ -1,0 +1,142 @@
+[
+ {
+  "id": "98e007bb-f76f-4477-b226-01f7ccbc9852",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project 1: Molecular Subtyping of AD to Dissect Pathological and Clinical Heterogeneity for Target Prioritization",
+  "text": "Project 1: Subtyping Alzheimer’s disease (AD) is a complex neurodegenerative disorder driven by β-amyloid plaques, tau tangles, and various genetic, environmental, and lifestyle factors. Recent advancements in multi-omics technologies, combined with machine learning and systems biology, have revealed distinct molecular subtypes of AD with unique pathological and clinical profiles. However, most studies have been conducted in relatively homogeneous cohorts, are often fragmented into separate analyses of transcriptomics, proteomics, lipidomics or metabolomics, with limited large-scale integration across these modalities. To address this gap, this Project 1 aims to conduct a comprehensive multi-omics investigation across multiple independent longitudinal cohorts to identify subtype-specific molecular drivers, enabling precision medicine approaches in AD. We hypothesize that AD comprises distinct molecular subtypes influenced by pathways beyond β-amyloid and tau, including inflammation, mitochondrial dysfunction, and synaptic failure, and that these subtypes are shaped by genetic and environmental factors varying across populations. In Aim 1, we will leverage penta-omics data from Religious Orders Study and Memory and Aging Project (ROSMAP), Mayo Clinic Study of Aging (MCSA) and additional well-characterized brain tissue cohorts to define molecular subtypes linked to genetic, clinical, and pathological AD features, establishing consensus subtypes that are reproducible across independent cohorts. In Aim 2, we will develop plasma metabolomic and proteomic signatures predictive of brain subtypes using matched plasma and brain samples from ROSMAP and MSCA cohorts, providing noninvasive biomarker signatures to address disease heterogeneity. In Aim 3, we will identify key drivers of AD subtypes using network models and Bayesian causality, integrating multi-omics data to prioritize therapeutic targets specific to each subtype. In collaboration with TREAT-AD, this work will refine AD risk scores and nominate high-priority candidates for experimental validation in Project 2. By integrating multiple complementary cohorts, this project aims to enhance understanding of AD heterogeneity and advance tailored diagnostic and therapeutic strategies."
+ },
+ {
+  "id": "98e3972c-cc60-45d2-8461-b4a75c8e40b9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "From Cells to Society: Using Epigenetics to Understand Brain Vulnerability to Delirium and Cognitive Decline",
+  "text": "Delirium (acute confusion) is a common, morbid, and costly geriatric syndrome, with strong epidemiological\nassociations with Alzheimer’s Disease and Alzheimer’s Disease-Related Dementias (AD/ADRD). This clinical\nand translational project uses three unique datasets of older adults undergoing major elective surgery and in\nthe community to advance our understanding of the potential shared pathophysiology underlying the delirium-\nAD/ADRD relationship. Specifically, we will determine whether epigenetic risk associated with aging identifies\nindividuals with a “vulnerable brain,” who may be predisposed to unwanted outcomes, including delirium,\ncognitive decline, and AD/ADRD, in the presence of an acute stressors insult (e.g., surgery). Moreover, we will\nexamine the role of chronic stress (e.g., social determinants of health) in explaining part of the association\nbetween epigenetic risk with delirium, cognitive decline, and AD/ADRD. Our findings will inform targeted\nstrategies to identify older adults vulnerable to adverse brain-related outcomes under stress, thereby\npotentially leading to new interventions to prevent delirium and reduce AD/ADRD."
+ },
+ {
+  "id": "98e8f4b8-97c1-495e-a47a-5c443ea145d4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Characterization of splicing and isoform dysregulation in ASD at cellular resolution",
+  "text": "Regulation of transcript structure generates isoform diversity and plays an important role in disease. We\npreviously found substantial dysregulation of splicing and isoform expression in prefrontal cortex of ASD at the\nbulk tissue level. To better understand the postnatal development dynamics and cellular context of this\ndysregulation, we will generate a genome-wide high-resolution isoform map of distinct cell types in the prefrontal\ncortex from childhood to adulthood and contrast the relative contribution and transcription signatures of distinct\ncell-types in neurotypical controls and ASD."
+ },
+ {
+  "id": "98f8b74a-d8f7-42dc-99c4-b870299138fb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Functional characterization of schizophrenia related risk genes and variants in neurogenesis using cerebral organoids",
+  "text": "Genetic factors contribute to schizophrenia (SCZ) susceptibility by disrupting neurogenesis during brain\ndevelopment. This project aims to systematically characterize SCZ-associated risk genes and non-coding\nvariants that affect neurogenesis, using brain organoids to establish and apply novel high-throughput functional\ngenomic platforms. By elucidating the genetic mechanisms underlying SCZ, this research will enhance our\nunderstanding of the neurodevelopmental origins of the disorder."
+ },
+ {
+  "id": "98fa0ac3-29a1-4f43-b74e-87f222e18e17",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cardiac Magnetic Resonance Tissue Characterization of Ischemic and Non-Ischemic Myocardium to Predict Left Ventricular Functional Recovery and Outcomes after Multivessel Coronary Revascularization",
+  "text": "Patients with ischemic left ventricular (LV) dysfunction commonly undergo coronary revascularization as a\nstrategy to improve contractile function, but response varies and is poorly predicted by conventional imaging\napproaches to identify salvageable (“viable”) myocardium. It is unknown if impact of revascularization on\ncontractile recovery varies based on hypoperfusion, if non-ischemic substrate modifies revascularization\nresponse, and if contractile recovery parallels improved clinical prognosis. This study will leverage a new\nmulticenter trial (STICH-3C) to test utility of multiparametric cardiac MRI - including perfusion, non-ischemic\nsubtrate, and infarct imaging using a new black blood MRI approach - for prediction of LV response to\nrevascularization, so as to enhance decision-making and improve clinical outcomes for millions of patients with\nischemic heart disease."
+ },
+ {
+  "id": "98fad175-0141-45c5-896a-98ef426c8687",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Computational approaches to the mechanistic elucidation of the serrated pathway of human colon carcinogenesis",
+  "text": "AND RELEVANCE TO PUBLIC HEALTH\nColon cancer evolution from precursor lesions is described mainly by two pathways, the adenoma-carcinoma\nsequence and the less understood 'alternative serrated pathway'. This application investigates the mech-\nanisms of the serrated pathway of human colon carcinogenesis by applying computational approaches to\ngenomics and single cell/spatial transcriptomic data of a large cohort of precursor serrated lesions. Under-\nstanding the precursor potential to malignancy can considerably enhance prevention, diagnosis and the clinical\npredictability of the serrated lesions and polyps."
+ },
+ {
+  "id": "99000f9d-aef4-4af4-8230-af2a44e7da63",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A Comprehensive Genomic Community Resource of Transcriptional Regulation",
+  "text": "The human genome contains approximately 20,000 genes; in order to function properly, individual cells in the\nhuman body must precisely regulate the rate at which they use each of these genes through processes called\ntranscriptional regulation. Segments of non-coding DNA outside of genes called regulatory elements mediate\nthese processes, and differences in DNA sequence within regulatory elements can predispose individuals to\ndeveloping particular traits or diseases. This project aims to build a comprehensive resource of regulatory\nelements in the human genome, including deep-learning models of their regulatory syntax, which will help\nresearchers to understand how these regulatory elements function and to better design follow-up research to\nunderstand and treat disease."
+ },
+ {
+  "id": "9900eb5d-49a5-43b2-88de-4e2ee053573d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Characterizing and Targeting ERBB2 Mutations in Invasive Lobular Carcinoma",
+  "text": "Activating ERBB2 mutations are enriched in invasive lobular carcinoma (ILC) of the breast, suggesting a\ncrosstalk between ERBB2 mutations and the characteristic loss of CDH1 in ILC. Clinical trials have\ndemonstrated promising efficacy using anti-HER2 tyrosine kinase inhibitors in patients with ERBB2 mutant ILC.\nThe ultimate goal of the proposed studies is to characterize the functional roles of recurrent ERBB2 mutations\nin ILC vs IDC using innovative preclinical models and provide rationale for specific combination targeted\ntherapy in patients with ERBB2 mutant ILC, in order to enhance anti-tumor activity and/or delay drug\nresistance."
+ },
+ {
+  "id": "990291ea-3667-4bf5-b0bb-51a56fa00a0b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Impacts of universal influenza mRNA vaccine on enhancing the efficacy of seasonal vaccination",
+  "text": "With the low efficacy of current seasonal influenza vaccines, it is highly significant to develop a high-performing,\nbroadly cross-protective influenza vaccine to better protect public health. This project aims to investigate a novel\napproach combining cross-protective seasonal mRNA and conserved protein or split influenza vaccines to\ngenerate high immunogenicity and protection against circulating and pandemic potential viruses and to study\nthe underlying immune mechanisms for enhanced efficacy."
+ },
+ {
+  "id": "9902d252-d254-4ce9-9e3c-6022f78dcd7e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of a Clinical CEST MR Fingerprinting Method for Treatment Response Assessment in Brain Metastases",
+  "text": "Measurement of tissue pH and protein/metabolite concentrations using chemical exchange saturation transfer\n(CEST) magnetic resonance imaging (MRI) has been demonstrated to provide crucial insight into many disease\npathologies, including tumors as well as to enable the early assessment of disease response to therapies.\nHowever, clinical translation of such CEST-MRI methods has been hindered by the qualitative nature of the\nimage contrast, long image acquisition times, and the complex data processing required. This project proposes\nto develop, optimize, and translate to the clinic a novel Magnetic Resonance Fingerprinting method that allows\nfor rapid and quantitative pH and protein/metabolite imaging and evaluate its potential for predicting response to\nstereotactic radiosurgery and differentiating progression versus treatment-related changes."
+ },
+ {
+  "id": "990a4152-84c2-4485-bd01-952798ebf389",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Protective role of Neuregulin-1 against cerebral malaria-induced neuronal injury and behavioral sequelae",
+  "text": "Most adjunctive treatments developed to date against cerebral malaria have not reduced fatal outcomes mainly\nbecause treatments have focused on clearance of circulating parasites but neglected the involvement of\ndamaging parasite and host factors appearing early in infection or remaining after treatment. The proposed study\nuses 3D in vitro models, animal, and human studies to clarify our understanding of the role of NRG1/ErbB4 and\nPD1/PD-L1 signaling in HCM severity in order to target NRG1 in clinical trials with the ultimate goal of improving\nsurvival rates in children with cerebral malaria. The proposed study will clarify the role of NRG-1 in attenuation\nof ECM and human cerebral malaria (HCM) and mechanisms mediating its function."
+ },
+ {
+  "id": "9913d13c-5364-47a8-9397-5bed8ada2a0a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Phase Ib/II study of safety and efficacy of EZH2 inhibitor, tazemetostat, and PD-1 blockade for treatment of advanced non-small cell lung cancer",
+  "text": "Checkpoint blockade immunotherapy has become part of a standard of care for patients with advanced non-\nsmall cell lung cancer (NSCLC) and other cancers over the past 5-6 years. It is one of the major breakthroughs\nin cancer therapeutics given the unprecedented durable responses. However, it is a clinically unmet need to\nimprove the outcome of immunotherapy since only a subset of patients are benefitting. The current proposal is\ndesigned to test the combination treatment with the first oral EZH2 inhibitor, tazemetostat and PD-1 blockade\nfor Veteran patients with advanced NSCLC to overcome primary or acquired resistance to immunotherapy. We\nwill determine the recommended phase 2 dose (RP2D) of tazemetostat during phase Ib portion of the study\nusing standard 3+3 dose escalation strategy using 3 dose levels (400, 600 and 800 mg twice daily). For phase\nII, we will utilize Simon Optimum Two Stage design to evaluate the efficacy at an early time-point to determine\nfutility of the study and estimated 54 subjects will be enrolled."
+ },
+ {
+  "id": "99156894-3d21-46d9-b1dc-44daaf87ebe9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cancer Center Support Grant",
+  "text": "Overall\nProject Narrative\nThe Purdue Institute for Cancer Research (PICR) is an NCI-designated, basic science cancer center with the\nprimary missions of discovery and the development of a cancer research workforce. The PICR facilitates the\nmovement of basic discoveries toward the development of innovative cancer solutions which includes\ntherapeutics, diagnostics, devices and instruments"
+ },
+ {
+  "id": "9915cc15-f430-471f-a353-ad2271073027",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Bayesian Reconstruction of Under-Five Small Area Populations: Correcting for Undercount Bias and Source Uncertainty",
+  "text": "Accurate and granular enumeration of children under age five (U5) is essential for targeting public health\nfunding, resource planning, and monitoring trends in U5 disease and mortality. However, U.S. Census Bureau\ndata have persistently undercounted this hard-to-capture population with errors that vary systematically across\nsubpopulation, household structure, and geography. This proof-of-concept study develops and validates a\nBayesian hierarchical U5 estimation framework that adjusts for data-source-specific bias and uncertainty,\nstabilizes noisy inputs through space-time-age smoothing, and produces robust small-area U5 population\nestimates across four southeastern states to assess its accuracy, utility, and scalability for nationwide\nimplementation."
+ },
+ {
+  "id": "991c5951-f2bd-428f-843d-fdbe4f8996ec",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A national Asian American cohort for assessing multi-level determinants in cancer etiology: the ASPIRE Cohort",
+  "text": "To develop a national population-based epidemiologic cohort for studying modern risk factors for cancer, we propose to build the national population-based ASPIRE– ASian American ProspectIve REsearch– Cohort with recruitment of 20,000 adults ages 40-75. We will apply a transparent and bi-directional process to inform research priorities and data collection, and disseminate timely and actionable study results, utilizing interactive data visualization methodologies. In building the first national cancer epidemiologic cohort comprising all Asian American populations, ASPIRE will address the research priorities of small populations, and the role of multilevel drivers of health in pathways to cancer risk, including stress, health behaviors, and healthcare access, generating knowledge benefitting all U.S. populations."
+ },
+ {
+  "id": "9925b4b6-b2ee-4372-a7b5-7baac5b77ca6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Metabolic signals regulating cell growth versus survival",
+  "text": "We plan to investigate the underappreciated influence of acetyl-CoA and S-adenosylmethionine\non the regulation of cellular signaling and metabolism in response to nutrients. We believe these\nstudies will provide novel insights into the mechanisms of cell growth control and survival by\nthese sentinel metabolites."
+ },
+ {
+  "id": "992b5086-8e5f-49dd-bcc4-d30dc8a13b76",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Clinical Core: IDEAL shapes vaccine response, susceptibility to respiratory infectious disease and asthma",
+  "text": "Insufficient knowledge of early life immune development limits our ability to optimize vaccines and prevent, \ndetect, and treat conditions such as infection and asthma that affect millions of children across the United States. \nTo gain insight into how early life immune development impacts vaccine responses, health and disease we will: \n(a) employ a systems biology approach to comprehensively measures changes in molecules such as proteins \n(proteomics), metabolites (metabolomics) and the bacteria that live in our gut and nose (microbiome); (b) use \nliquid (plasma) and cells from human blood donations to model immunity and responses to potentially protective \nagents outside the body (in vitro); and (c) compare findings across US-based and international cohorts that \nprovide infant populations that vary by genetics, epigenetics (changes to gene expression due to, for example, \nenvironmental influences), vaccine type (e.g., the live weakened germ Bacille Calmette Guérin (BCG) given in \nsome countries to prevent tuberculosis) and schedule (for example, timing of the first dose of hepatitis B vaccine) \nto help develop new approaches to reduce chronic infection and asthma. Identifying molecular patterns \n(“signatures”) of infant immune development across different countries that correspond to vaccineresponsiveness, \nsusceptibility or resistance to respiratory infection and asthma will accelerate discovery and \ndevelopment of tests to better predict the risk of childhood disease and guide the development of medicines \n(e.g., nutrients/metabolites, adjuvants that stimulate immunity and/or vaccines) to optimize immune \ndevelopment, prevent chronic pediatric disease and enhance childhood health in the U.S. and beyond."
+ },
+ {
+  "id": "992b60fa-9c48-47d4-8015-2cd55cd1ebd3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Regulation of co- and post-transcriptional pre-mRNA processing in response to environmental stress in green algae",
+  "text": "Human activity contributes to increased temperature and water pollution, reducing water quality and activating stress responses in all aquatic organisms. While stress is known to affect messenger RNA (mRNA) abundance and isoforms in mammals and plants, how these environmental stressors affect the molecular mechanisms that determine which mRNA isoforms and corresponding proteins are expressed is unknown. Here, we are identifying the RNA processing steps that are altered by environmental stressors in Chlamydomonas reinhardtii, a biomedically- and climate-relevant green alga, which will have valuable implications for green energy, ecology, and human health."
+ },
+ {
+  "id": "992ec2a3-9725-44aa-a274-622f4103838b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Computational Modeling of Device-Induced Platelet Activation and Receptor Shedding Relevant to Thrombosis and Bleeding in Device-Assisted Circulation",
+  "text": "Although Blood-contacting medical devices (BCMDs) have been used in lifesaving therapies for many patients,\nthrombotic and bleeding complications associated with platelet dysfunction induced by BCMDs tend to be\ndevastating and often life-threatening. Current predictive models for device-induced platelet injury and altered\nplatelet dysfunction are limited. This proposal aims to develop computational fluid dynamics (CFD) models,\nwhich incorporate new biomechanical models of shear-induced platelet activation and receptor shedding and\nare capable of predicting device-induced platelet activation and receptor shedding, and altered adhesion\ncapacities to the substrate to aid the development and optimization of new BCMDs."
+ },
+ {
+  "id": "99316827-ef9e-419f-98f2-3dbe3f883bcc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Deciphering pathogenesis and therapeutic vulnerabilities in germline RUNX1 mutated AML",
+  "text": "RUNX1 mutations are frequently detected in acute myeloid leukemia (AML) patients with up to a third being\nreported as germline. Germline RUNX1 mutations lead to familial platelet disorder (FPD), which is associated\nwith high risks for leukemic transformation. Our work aims to use novel murine and human FPD models to\nunderstand the molecular mechanisms of leukemic transformation and identify novel therapies in patients with\ngermline RUNX1 mutations."
+ }
+]

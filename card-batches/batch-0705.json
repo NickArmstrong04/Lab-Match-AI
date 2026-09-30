@@ -1,0 +1,142 @@
+[
+ {
+  "id": "6f0d0f60-e180-44ba-a145-273b65ecc553",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Actin assembly and clathrin-mediated endocytosis in yeast and mammals",
+  "text": "Clathrin-mediated endocytosis is responsible for the uptake of molecules from the\nplasma membrane and the surrounding environment, making it crucial for determining\nhow a cell interacts with its surroundings. Actin assembly near the plasma membrane\ngenerates forces that are harnessed for various cellular processes, including clathrin-\nmediated endocytosis. Understanding clathrin-mediated endocytosis and actin assembly\nmechanistically is essential for comprehending normal cell physiology and pathological\nconditions."
+ },
+ {
+  "id": "6f15f0d7-1c3d-48bd-b29e-e1833065e072",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Building Factual Medical Large Vision-Language Models for Radiology",
+  "text": "This proposal aims to address the key issue of hallucinations in medical large vision language models (Med-\nLVLMs) -- a typical phenomenon that Med-LVLMs generate factually incorrect medical analysis results. To this\nend, we will develop a modality-aligned Med-LVLM leveraging medical-aware preference learning and\nknowledge-augmented retrieval, along with a collaborative multi-agent reinforcement learning framework, to\nsignificantly mitigate hallucinations and enhance factual reliability in clinical diagnosis. The resulting models,\nsource code, and comprehensive evaluation benchmarks will be released publicly to advance the accuracy and\nreliability of Med-LVLM applications."
+ },
+ {
+  "id": "6f1856ca-0c69-4499-98d7-83d271905f12",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Interdependency of fibroadipogenic progenitors and extracellular matrix that drive skeletal muscle fibrosis",
+  "text": "This project aims to reveal mechanisms of communication between skeletal muscle extracellular matrix and the\nfibroadipogenic progenitor cells that produce progressive fibrotic cycles in muscular disease. The robustness of\nthe fibrotic cycle will be tested by interrupting the pro-fibrotic signaling through clinical gene therapy of the\ninitiating muscle instability. Investigation of these mechanisms and their durability using innovative\nmethodologies in mice and humans with fibrotic muscular dystrophy uncover specific targets for therapies to\nblock and reverse progressive fibrotic pathologies and augment the efficacy of potential gene therapy."
+ },
+ {
+  "id": "6f1bc331-a4c4-4a59-b21d-758860f34074",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Discovering Biased Antagonists of CXCR2 as Drug Leads for Acute Lung Injury",
+  "text": "We aim to obtain drug leads to treat inflammation caused by acute lung injury that avoid a common side effect\nof chemokine receptor antagonists: antagonist tolerance. We will also train a mechanism-based machine learning\nmodel that predicts how much a ligand of the chemokine receptor CXCR2 activates different signaling pathways.\nLater in the project period, we will incorporate the machine learning model in a design-make-test-analyze cycle\nfor the hit-to-lead stage of preclinical drug discovery."
+ },
+ {
+  "id": "6f1ecf7c-8864-4f67-b922-ea5edf57931b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting the liver for immunotherapy in pancreatic cancer",
+  "text": "T cell immunotherapy has yet to produce clinical benefit for most patients with pancreatic cancer. In this\nproposal, we investigate (i) mechanisms of primary resistance to immunotherapy with a focus on the liver as a\nknown immunoregulatory organ and (ii) therapeutic implications of the liver in shaping cancer immunogenicity\nand the efficacy of immunotherapy. The proposed studies will use clinically relevant mouse models of cancer\nand human tissues to inform the design of novel strategies to broaden the efficacy of cancer immunotherapy."
+ },
+ {
+  "id": "6f2a3770-a6ee-49e7-8ca7-8f7189b83470",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The origins and roles of macrophages in postnatal tympanic membrane development, homeostasis, and repair",
+  "text": "The normal tympanic membrane (TM, eardrum) is critical for hearing. TM injury is a common clinical problem\naffecting millions of people worldwide. Deciphering macrophages' homeostatic and wound-healing role in TM\nwill move TM biology forward and lead to new therapeutic perspectives for repairing the damaged TM."
+ },
+ {
+  "id": "6f2ef50c-92bb-460e-864e-c0a8afb266a2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Transfusion-driven hyperhemolysis in sickle cell disease",
+  "text": "Transfusions remain life-saving treatments for patients with sickle cell disease, but patients may develop life-\nthreatening transfusion reactions, referred to as hyperhemolysis, in which their own red cells as well as the\ntransfused ones are destroyed, and their body cannot produce new red cells. Our studies have identified a key\ninflammatory protein called interferon that appears to both increase red cell destruction and decrease red cell\nproduction in sickle cell disease, leading us to investigate its role as a potential driver of hyperhemolysis and as\na target of therapies to prevent and treat this devastating transfusion complication in patients with sickle cell\ndisease."
+ },
+ {
+  "id": "6f34ecae-7fed-416e-8b95-9ed5fa71963d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A systems biology approach to elucidate the biology of immune-associated outcomes in breast cancer",
+  "text": "The I-SPY 2 neoadjuvant breast cancer clinical trial is a personalized, adaptive trial designed to improve\noutcomes in high-risk breast cancer patients. This study seeks to unravel the complex interactions between\nintrinsic host germline and tumor somatic mutations, and extrinsic tumor microenvironment features that drive\nthe biology of response or resistance to therapy. This research aims to generate genomic and tumor\nmicroenvironment response-predictive biomarkers that improve on current qualifying biomarkers – providing\nbetter stratification of patients and directing them to best predicted interventions – and that identify possible\nalternative treatment strategies for non-responders – reducing unnecessary therapeutic burden."
+ },
+ {
+  "id": "6f37a858-6fb6-4126-8057-255b1e050b30",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Optimizing suprachoroidal AAV delivery in nonhuman primates for retinal gene therapies",
+  "text": "Suprachoroidal injections of adeno-associated viruses (AAVs) enable broad transgene delivery for retinal gene\ntherapy, but may be limited by lower biodistribution, cellular tropism, and durability than conventional subretinal\nor intravitreal delivery. This proposal seeks to enhance macular biodistribution, photoreceptor tropism, and the\nsafety and durability of suprachoroidal gene therapy by (1) optimizing injection volume, viscosity, and device to\nachieve posterior spread, (2) testing AAVs engineered to overcome the blood-brain barrier, and (3) defining the\ncellular, molecular, and transcriptional profile of host immune responses to suprachoroidal vector delivery with\nand without steroid or immunomodulator prophylaxis. The goal of our proposal is to optimize suprachoroidal\nAAV injections as a safe and effective route for retinal gene therapy administration."
+ },
+ {
+  "id": "6f3c7a87-87b3-414c-ac7b-4c73ef8f474f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Ethnographic investigation of factors affecting conceptualization and provision of social prescribing in outpatient primary care clinics in the United States",
+  "text": "Non-medical health factors have repeatedly been shown to have a significant impact on physical and mental health outcomes. This investigation seeks to understand how primary care providers understand, evaluate, and seek to address these conditions in the outpatient primary care context. The overarching goal is to improve primary care management of patients with complex and co-occurring non-medical health factors in such a way that appreciates and addresses the influence of multiple factors on the provision of social care in the clinical setting."
+ },
+ {
+  "id": "6f3de7c0-3ed5-410d-a472-faab49fed32a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Stillbirth Research Consortium Data Coordinating Center",
+  "text": "The Stillbirth Research Consortium will conduct novel basic, translational, clinical, and data sciences research to reduce the burden of stillbirth in the United States. As Data Coordinating Center for the Consortium, RTI International will provide the data science, statistical and stillbirth research leadership and customized data management systems to orchestrate and integrate all aspects of the Consortium ecosystem. Through an integrated collaboration across the research sites and RTI, the Consortium will advance stillbirth research."
+ },
+ {
+  "id": "6f42f2e7-775f-4a2e-b1c6-8bc3e3f8c389",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Clonal mutations and Coagulopathy",
+  "text": "Bleeding and venous-thromboembolism (VTE) are common complications in patients with acute myeloid\nleukemia (AML), occurring in about 20% patients at the time of diagnosis and during the first month of treatment.\nAcquisition of mutations in blood stem cells called clonal mutations is the hallmark of AML development and\npatients who have certain adverse risk clonal mutations have poor survival. This proposal utilizes a well\ncharacterized group of AML patients to examine the association of adverse risk clonal mutations and novel\nbiomarkers of coagulation with bleeding and VTE, to understand the mechanisms of these complications and\nidentify high risk patients."
+ },
+ {
+  "id": "6f4523a1-04bc-48fc-8acb-3a5a19e73b8c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Chemical Analysis Core",
+  "text": "Chemical Analysis Core (CAC)\nThe CENTER FOR LEADERSHIP IN ENVIRONMENTAL AWARENESS AND RESEARCH (CLEAR) has built an integrated,\ntransdisciplinary framework, rooted in advanced techniques in environmental engineering and biomedical\nresearch, to address human exposures to volatile organic compounds (VOCs) and health risks in urban areas.\nThe Chemical Analysis Core participates in CLEAR research projects and Community Engagement by\nproviding analytical knowledge, training and services as well as guidance, and new technologies to measure\nlow levels of VOCs as well as other markers of VOC exposures, which will enable CLEAR researchers to\ndetermine the degree of exposure and assess its impact on human health."
+ },
+ {
+  "id": "6f45be51-03e7-4635-a153-3e326ca13e63",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting a Chemotherapy-Induced EWS::FLI1-Driven Transcriptomic Signature in Ewing Sarcoma",
+  "text": "Ewing sarcoma is a rare childhood bone cancer that frequently recurs and resists chemotherapy. We discovered\nthat chemotherapy redistributes the oncogenic EWS::FLI1 fusion transcription factor across the genome,\ngenerating a durable transcriptomic program driven by novel lncRNAs. This project will investigate the\nmechanisms underlying this process and identify therapeutic strategies to improve outcomes for children with\nEwing sarcoma."
+ },
+ {
+  "id": "6f4b12e0-9c49-4443-9e6b-94dd2a88da23",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular mechanisms of memory formation and tolerance in CRISPR-Cas systems",
+  "text": "The discovery of CRISPR-Cas immune systems has revolutionized biology, enabling the development of\ngroundbreaking tools in genome editing and molecular biology. In this work, I will reveal the molecular\nmechanisms that govern immunological memory acquisition by the type III-A CRISPR-Cas system, and will\ndefine its physiological importance during CRISPR-Cas defense and tolerance. Studying the underlying functions\nof CRISPR-Cas systems will not only increase our understanding of this biological system but could also lead to\nthe development of applications that improve human health."
+ },
+ {
+  "id": "6f57e525-60f4-4b6c-9300-8a17c99e9f14",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Genome-wide CRISPR screening identifies critical regulators controlling ccRCC lung metastasis",
+  "text": "It is imperative to elucidate the molecular mechanism for ccRCC lung metastasis, which accounts for majority of\npoor patient outcome. Here we performed a genome-wide CRISPR-Cas9 screen and identified HLF as the\ncritical gene controlling ccRCC lung metastasis. This study, if successful, will set the foundation for therapeutic\nintervention targeting lung metastasis in ccRCC."
+ },
+ {
+  "id": "6f676c21-bca5-4c53-993a-d3c537037c35",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Engineering TfR1 binding CNS targeted AAV capsids that evade pre-existing neutralizing antibodies",
+  "text": "We recently developed a novel adeno-associated viral (AAV) capsid that crosses the blood-brain barrier by\nbinding to the human transferrin receptor and efficiently delivers gene therapies throughout the central nervous\nsystem (CNS) after a single, non-invasive intravenous injection. However, this AAV, like natural AAVs, is\nneutralized by antibodies present in individuals with pre-existing immunity to AAVs, limiting the potential\npatient population that could benefit from CNS gene therapy. To address this limitation, we will use a suite of\nhigh-throughput screening assays to develop and characterize improved versions of our capsid that\ncompletely evade neutralization from pre-existing antibodies, thereby enabling CNS gene therapies to reach a\nsubstantially broader patient population."
+ },
+ {
+  "id": "6f686528-7889-4d99-82be-6021f12cb400",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Using Metaproteomics To Determine How Sources Of Dietary Protein And Fiber Interact To Alter Gut Microbiome Function In The Context Of Inflammation",
+  "text": "Inflammatory bowel diseases represent a major quality of life burden to the American public, yet they are\ndifficult to diagnose and treat because they are caused by multiple factors, including diet, the gut microbiota,\nand host genetics. The research described in this proposal represents a first step in developing integrated\nmetagenomics and metaproteomics into a tool for identifying dietary components and microbiome functions\nthat contribute to inflammation in IBD patients. Insights gained from the proposed research will lead to new\ntherapeutic targets for the prevention and treatment of IBD that can be applied to other digestive diseases\nthereby contributing to the NIDDK's mission, which is to conduct and support medical research and research\ntraining and to disseminate science-based information on diabetes and other endocrine and metabolic\ndiseases; digestive diseases, nutritional disorders, and obesity; and kidney, urologic, and hematologic\ndiseases, in order to improve health and quality of life."
+ },
+ {
+  "id": "6f6a33a6-2274-4c2d-95f6-a96ec79ad9c7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Neural circuit mechanisms of inflexible drug seeking in a model of HIV infection",
+  "text": "HIV infection frequently co-occurs with substance use disorders, including cocaine use disorder. HIV infection\nappears to interact with drug exposure to create unique dysregulation in drug-related behaviors, including the\nability to terminate drug use and to flexibly control behavior. The proposed project will investigate neurocircuit\ndysregulation during cocaine self-administration and related behaviors in a mouse model of HIV infection through\nthe application of in vivo electrophysiology, tract tracing, pharmacology, and chemogenetics."
+ },
+ {
+  "id": "6f6c929d-d72c-40a8-b216-aa730d29e87b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Structural Basis for HIV-1 Gag assembly and Env incorporation",
+  "text": "HIV remains a deadly pathogen that threatens human's life and the absence of efficient cure poses a major\nproblem for public health. Despite the success of antiretroviral therapy (ART), the emergence of drug\nresistant strains and the genetic diversity of HIV necessitates the development of even more potent and\ndiverse ART. The proposed studies will advance our understanding of fundamental mechanisms in HIV-1\nassembly and envelope incorporation, which may aid in the development of new strategies for antiviral drug\ndesign."
+ }
+]

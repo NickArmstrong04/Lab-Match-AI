@@ -1,0 +1,142 @@
+[
+ {
+  "id": "1286b3d5-9293-4277-addd-c329a45ff397",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Defining Physiological Subtypes in Essential Tremor",
+  "text": "Essential tremor (ET) is a prevalent neurological disorder with hetrogeneous treatment responses across\npatients, potentially stemming from distinct underlying cerebellar physiological differences that require to be\ninvestigated in order to advance precise therapeutics. Building on preliminary cerebellar\nelectroencephalographic (EEG) data that identified four distinct physiological ET subtypes, this K99/R00\nproject aims to address knowledge gaps, by defining the prevalence, tremor and clinical features of these\nsubtypes, uncover their cerebello-cortical network dynamics, and refine subtype classification using machine\nlearning. This study will provide the basis to stratify ET patients based on their cerebellar physiological\nabnormalities and pave the way for the development of tailored, precise therapeutic strategies."
+ },
+ {
+  "id": "1288fea1-f5b6-45b6-aea6-08a900db0d79",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Impact of Disparities in Food Security on Glycemic Control and Health CareUtilization Among Youth and Young Adults with Diabetes",
+  "text": "Good glycemic control is important for optimal health and prevention of acute and chronic complications  among people living with diabetes, but food insecurity is a serious barrier to achieving good glycemic  control, particularly among some population groups. This is the first longitudinal study that will characterize how food insecurity affects glycemic control measured by continuous glucose monitoring and the impact it has on health care utilization on a day-to-day basis in youth and young adults with type 1 and type 2 diabetes."
+ },
+ {
+  "id": "128b1fcc-24ec-4822-999d-3e1f07c46dca",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Molecular Basis of Allergic and Immunologic Disease",
+  "text": "Allergies and immune system diseases are becoming increasingly common, especially in children. Treatment\noptions are limited so research to identify both the roots of these disorders and possible treatments is critical.\nThis Training Program seeks to recruit talented young MD pediatricians and PhD scientists committed to\ntranslational research and to prepare them for careers as productive investigators in the area of pediatric\nimmunology."
+ },
+ {
+  "id": "1290ae3f-4288-4cee-b1a4-73d2625e6ed2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Fractionated photoimmunotherapy to harness low-dose immunostimulation in ovarian cancer",
+  "text": "Ovarian cancers have co-evolved with the patient’s immune system and build a complex tumor-immune\nmicroenvironment. As anti-PD1 immunotherapy has generally shown poor efficacy against ovarian cancers,\nthere is a dire clinical need to complement checkpoint inhibition with treatments that stimulate infiltration or\nproliferation of tumor-specific TC’s. We propose an integrated experimental–mathematical oncology approach\nto decipher how to best harness immune sparing and immune stimulation of fractionated photoimmunotherapy\nto personalize treatments for advanced or recurrent epithelial ovarian cancer patients with presently dismal\nsurvival rates."
+ },
+ {
+  "id": "12924868-0e16-4bc3-a63e-1665b3ef5ba3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Direct capture of transcription factors bound to genomic DNA for sequence mapping and protein identification",
+  "text": "The proposed studies aim to develop methods that can accurately determine the binding sites and DNA co-binding\npartners of two most dysregulated transcription factors (TFs) across all human cancers, c-Myc and p53. These studies\nwill not only reveal insights into the basic mechanisms of cancer initiation and progression but also develop innovative\nmolecular analysis tools for the study of TFs in broad biological and disease contexts."
+ },
+ {
+  "id": "12955991-eaf9-4fac-9981-e50f9078c13a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "SEMIColon: Somatic Exploration of Mosaicism in Colon",
+  "text": "Diseases of the colon are widespread, with colorectal cancer the 2nd leading cause of cancer death in the US\nand inflammatory bowel disease highly prevalent and rising in incidence across the globe. These pathologies\nhave distinct presentations and outcomes across the length of the colon, but the genetic etiologies of these\ndifferences are poorly understood and limit precision treatment. By understanding how somatic mosaicism\ndiffers throughout the colon and disease development, we will be better equipped to treat these pathologies,\nbetter prepared to identify at-risk individuals, and better able to study tissue-specific disease progression in\nother organ systems."
+ },
+ {
+  "id": "129811aa-e85e-4fee-97bd-e4775597efbf",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "PROJECT 1:  Genomic Vulnerabilities in Leiomyosarcoma (LMS)",
+  "text": "Project 1: Narrative \nProject 1 seeks to develop therapies that maximize intrinsic LMS genotoxic stress by targeting the key DNA \ndamage response enzyme, DNA protein kinase. We have shown that most LMS have chromosomal instability \n(CIN) which creates hyper-dependence on this enzyme. The initial clinical trial in this Project tests the hypothesis \nthat a very low dose of doxorubicin sensitizes LMS cells to DNA-PKi and PARPi, thereby converting CIN into a \nliability while minimizing nonneoplastic cell toxicity."
+ },
+ {
+  "id": "1299b06a-0f77-49cf-a08d-255ad5c8d36c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Therapeutic genetics and disease modeling in LAMA2-CMD",
+  "text": "LAMA2-deficient congenital muscular dystrophy (LAMA2-CMD) is a genetic disease that causes skeletal muscle\nand nerve damages in children. We will evaluate the therapeutic benefits of LAMA1 upregulation to compensate\nfor the lack of LAMA2 in mouse and patient-derived cellular models. These findings will pave the way towards\nthe development of a mutation-independent therapeutic interventions for LAMA2-CMD and other muscular\ndystrophies."
+ },
+ {
+  "id": "129c0280-b5de-45df-bcc1-3e13d4876ae7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Small Molecule Therapeutic Discovery for Angelman Syndrome",
+  "text": "No effective treatment exists for Angelman syndrome, a neurodevelopmental disorder caused by maternal\nallele deletions of the UBE3A gene. However, activation of the epigenetically-silenced paternal UBE3A allele in\nneurons offers an attractive therapeutic target. We have discovered a small molecule that can be administered\nperipherally to unsilence the dormant paternal UBE3A allele throughout the brain, and we propose to advance\nthis small molecule towards a potentially transformative treatment for Angelman syndrome."
+ },
+ {
+  "id": "129c1220-190e-4f4a-8a2a-8011ad2882f0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Integration of real world evidence, cell line assays, and single cell omics via deep reinforcement learning for Alzheimer's disease drug discovery",
+  "text": "Alzheimer’s disease is a currently incurable dementia, in which certain cell type and subtypes may function and\ninteract abnormally, leading to neuron loss and cognitive impairment. We propose deep reinforcement transfer\nlearning approach with feedback loops to improve identification of novel druggable cell subpopulations and\nrepurposable drugs. Our novel translational methodology utilizes single cell omics, real world data, and\nexperimental validation of repurposable drugs, using induced pluripotent stem cell lines chosen to match high\nrisk subpopulations of cells identified from our computational approaches, to iteratively improve our therapeutic\noptions for Alzheimer’s disease and related dementias."
+ },
+ {
+  "id": "129f3045-8d82-4d9f-ac2a-744cd4a5cc57",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Epstein-Barr virus nuclear antigen 2 in transcription regulation",
+  "text": "EBV infection contributes to a spectrum of diseases, including infectious mononucleosis\nnasopharyngeal carcinoma, oral hairy leukoplakia, Post-Transplantation Lymphoproliferative\nDisorder (PTLD), AIDS lymphomas, and certain B cell malignancies, etc. Central to EBV\noncogenesis is EBNA2, a pivotal EBV-encoded transcription factor. This study seeks to unravel\nthe intricate functions of EBNA2 in transcriptional regulation, with the potential to unveil novel\ntargets for intervening in EBV-associated diseases."
+ },
+ {
+  "id": "129f8171-fb90-4c5e-9df4-97422845ef32",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Statistical Innovation to Integrate Sequences and Phenotypes for Scalable Phylodynamic Inference",
+  "text": "Combating rapidly evolving pathogens, such as Dengue, Ebola, hepatitis B, HIV, inﬂuenza, mpox, SARS-CoV-2,\nand yellow fever viruses, and their associated disease burden is a tremendous challenge requiring sustained\nresearch effort and deliberate public health measures. Viral genome sequencing and phenotyping from infected\nindividuals as an outbreak unfolds has the potential to guide intervention and clinical management, if the phylo-\ngeographic and phylodynamic toolset can capture biological complexity and scale to 10,000s of samples. This\nproposal aims to develop versatile and scalable statistical models and computational tools to provide this data\nintegration and address key questions about emerging epidemics and historical viral spread."
+ },
+ {
+  "id": "129f866f-87dc-4910-8da6-264ff2f20f02",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanistic analysis of a combined liposome-TLR7/8-agonist adjuvanted virus-like particle vaccine",
+  "text": "This project will examine the efficacy and mechanism of action of a virus-like particle (VLP) based vaccine using\na TLR7/8 agonist paired with a second, lipid-based adjuvant. Three distinct lipid based platforms will be tested\nin these combinations. We will characterize the resulting adaptive immune response and define transcriptional\nsignatures induced in the lymph nodes following vaccination in both murine and non-human primate models."
+ },
+ {
+  "id": "12a1a80f-85eb-45df-9470-932e4359969c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Regulation of Nutrient Homeostasis by COMMD proteins",
+  "text": "Nutrient handling is dependent on transport mechanisms across the plasma membrane of the cell, which is\nrequired for movement across the intestine and other organs. This process is carried out by membrane proteins\nthat are constantly moving between the cell surface and other intracellular locations, such as the endolysosomal\nnetwork. The studies proposed here seek to uncover the molecular mode of action of newly discovered cellular\nproteins that regulate the movement of nutrient transporters between the plasma membrane and the endosome,\nwith a specific focus on copper handling, and the impact of these processes on nutrition in living animals."
+ },
+ {
+  "id": "12a7ef75-7494-4c67-81d7-53d53cd3ef87",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Core D: Long-Term Follow-Up",
+  "text": "The Long-Term Follow-Up Unit (LTFU, Core D) supports the Program by providing extended data collection and\nbiospecimen acquisition services to the Projects. Through a combination of chart review, annual surveys and\nactive contact with participants and providers, Core D is responsible for ensuring that protocol requirements\nbeyond the acute treatment phase (generally 2-3 months) are performed and research samples are collected.\nCore D also interacts closely with Core B, which is responsible for early data collection and all data analysis."
+ },
+ {
+  "id": "12b30cbd-0838-4eed-806f-723f31c910b3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Predicting response to immunotherapy with hyperpolarized 13C MRI",
+  "text": "Immunotherapy is used to treat many types of cancer, but individual responses vary, and current methods to\ndetect response early and accurately are insufficient. Hyperpolarized (HP) 13C magnetic resonance imaging\n(MRI) is an emerging technology that may overcome these deficiencies. This project will use syngeneic models\nof bladder cancer that are sensitive and resistant to immunotherapy to test the hypothesis that measurement of\nglycolysis, perfusion and/or cell death by HP 13C MRI will provide a better measure of immunotherapeutic\nefficacy than current standard of care imaging modalities."
+ },
+ {
+  "id": "12b469bc-40e9-42af-9275-889eb11f5add",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Using Deep Multimodal Clustering to Characterize Motor Phenotypes Across the Lifespan",
+  "text": "Upper limb motor impairments are prevalent in neurologic conditions across the lifespan; however, we lack\nclinically feasible assessment methods that can identify underlying impairments and target interventions to a\npatient’s specific presentation. The proposed project will develop a methodology of using clinically feasible\nmultimodal data to cluster a large sample of neurologically intact individuals across the lifespan into “motor\nphenotypes”. This methodology and normative dataset can later be applied to phenotype clinical populations,\nwhich will be a key step towards precision rehabilitation and improve diagnosis and treatment."
+ },
+ {
+  "id": "12c2ca73-fca8-4a2a-ab34-03ba95e7fe35",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Discovering the mechanisms underlying oncogenesis by ZFTA-RELA and pinpointing therapeutic targets.",
+  "text": "The overall goal of this proposal is to understand the mechanistic basis of ZFTA-RELA ependymoma, with a\nspecific focus on biomolecular condensates and impact on gene transcription and tumorigenesis. Our studies\nwill also evaluate the contribution of ZFTA-RELA interacting proteins as cell proliferative dependencies, and\ntherapeutic targets."
+ },
+ {
+  "id": "12c52881-a64e-4e27-9160-b8ee7e7cad98",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "CARDIOVASCULAR OUTCOMES RESEARCH TRAINING PROGRAM",
+  "text": "While it has been over 20 years since the Institute of Medicine called for more evidence-based, patient-\ncentered care, cardiovascular care is still highly variable and fails to achieve its full potential. The UMKC T32 in\nCardiovascular Outcomes Research trains diverse, talented post-doctoral scholars committed to improving the\nquality and value of healthcare though knowledge generation, implementation and evaluation of healthcare\ninnovations."
+ },
+ {
+  "id": "12c5a6bb-a6f1-4b5f-aa8d-e8edf1e942df",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Understanding and exploiting muscle and liver contributions to RNA-Nanoparticle immunity",
+  "text": "The objective of this study is to gain mechanistic insight into how RNA-LNP expression in muscle and liver\ninfluences immunity, with the goal of establishing RNA designs that can boost immunity or tolerance to mRNA\npayloads."
+ }
+]

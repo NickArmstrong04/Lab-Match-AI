@@ -1,0 +1,142 @@
+[
+ {
+  "id": "9c838083-8827-40ae-a3d3-3013041493c4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Smartphone-based wound infection screener and care recommender by combining thermal images and photographs using deep learning methods",
+  "text": "I. Project Narrative: Smartphone-based wound infection risk screener and care recommender\nby combining thermal images and photographs using deep learning methods.\nThere is currently no method to diagnose infections in undebrided wounds at the Point of Care (POC) (e.g., in\npatients’ homes by visiting nurses), resulting in unnecessary referrals to wound clinics and increasing the time\nto treatment of infections and the likelihood of eventual amputation. To facilitate early and accurate detection of\ninfected wounds at the POC, we propose a smartphone-based screener that jointly analyzes a combination of\nphotographs and a thermal image of a wound using deep learning methods. Our proposed system will detect\ninfections in both debrided and undebrided wounds and recommend evidence-based best care and when to\nrefer infected wounds to experts, standardizing the quality of care provided by non-expert wound caregivers.\n1|Page"
+ },
+ {
+  "id": "9c870a3b-2cba-438f-ae81-b5675ab7055a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identification and characterization of clonal expansions in aging and aging-related disease",
+  "text": "Clonal expansions driven by somatic mutations arise almost ubiquitously throughout both healthy and diseased\nhuman tissues as we age. Some of these clones have been linked to chronic disease and other aging\nassociated maladies, however, what drives clonal expansions and how they affect tissue integrity and function\nare not well defined. This project aims to develop and apply novel methods for the discovery of somatic\nmutations driving expansion in human tissue and multi -omic single-cell mapping of these driver mutation\ngenotypes to molecular phenotypes."
+ },
+ {
+  "id": "9c897f8f-ec91-49a4-8df4-c6bd3508fecb",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Exploring Variations in T Cell Effector Functions in Global Human Populations",
+  "text": "PROJECT SUMMARY – PROJECT 3 The differentiation of CD4 T helper (Th) cells into specialized effector subsets, such as Th1, Th2, Th17, and T follicular helper (Tfh) cells, is crucial for tailored immune responses against various pathogens. This differentiation, influenced by T cell receptor (TCR) engagement, co-stimulation, metabolic and environmental cues, and cytokines results in Th cell plasticity that allows functional adaptation and multiple fate acquisition. In Westernized countries, immune disorders like type-1 diabetes, celiac disease, food allergies, and psoriasis are increasing, linked to Th1, Th2, and Th17 responses. The hygiene hypothesis suggests lifestyle changes lead to immune imbalance, but it does not fully explain specific disorder development. Genetic predispositions and environmental factors significantly impact disease susceptibility. Investigating a variety of populations offers insights into these impacts on Th cell responses, helping explain differences in disease incidence. We hypothesize that human populations are predisposed to specific T-helper immune responses based on genetics and environment. This predisposition is influenced by the epigenetic and transcriptional programs of naïve T cells and antigen-presenting cells (APCs), and the innate immune stimuli they receive. Our study aims to fill research gaps by providing insights into immune disorder predisposition and generating hypotheses for population-specific susceptibilities, aiding in better management and prevention strategies. Our specific aims are to (1) Investigate the T helper cell repertoire in different human populations by assessing whether pathogen- specific CD4 T cells show bias towards particular T helper phenotypes; (2) Investigate whether naïve T cells preferentially differentiate into particular T helper subsets in non-polarizing conditions by assessing the transcriptional and epigenetic programs of naïve T cells before and after TCR activation; and (3) Dissect the relative contribution of genetic ancestry versus environmental factors to variation in T phenotypes. This project synergizes with Project 1 by focusing on stem cells, and Project 2 by analyzing antigen-presenting and innate immune cells. We aim to generate large integrated omics datasets and hypotheses on the mechanisms driving differences in T cell immune responses and disease susceptibility across different human populations and individuals within populations."
+ },
+ {
+  "id": "9c971b80-c46f-49b7-b2f6-64189412a330",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Mechanisms and functions of noncoding translation",
+  "text": "The overarching aim of my lab is to understand how genes are controlled at the RNA level in both\nnormal physiology and human diseases. In the past six years we have discovered a mechanism\nhuman cell used to suppress aberrant proteins derived from the genome. In the next five years,\nwe will continue to uncover molecular details of this process and also study how it is regulated in\nhuman cells."
+ },
+ {
+  "id": "9c97e988-e4a2-41e2-9fcc-7d901da2d39b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Population genetics for large-scale sequencing studies",
+  "text": "Over the course of human evolution, a complex process of genetic inheritance across human populations has given rise to intricate patterns of statistical association between genetic variants and common complex diseases. Population-based studies that assess the genomes of large samples of unrelated cases and controls offer a powerful approach for identifying common disease risk variants, primarily those for which risk is conferred by possessing a single copy of a risk allele. Our project will leverage models from human population genetics to provide methods and software that will accelerate the discovery and characterization of rare, recessive genetic factors—for which risk is conferred by possession of two copies of the risk variant—addressing challenges arising from large data sets, complex genome sequencing projects, and the effort to find disease variants in broad collections of populations."
+ },
+ {
+  "id": "9ca15a77-1d22-4b6d-b85b-1922e91cc94d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Artificial Intelligence to Improve Resuscitation following Out-of-Hospital Cardiac Arrest",
+  "text": "(Public Health Relevance): A promising strategy to improve survival from out-of-\nhospital cardiac arrest (OHCA) – a major cause of death in the US and around the world – is to advance\nbeyond our current “one-size-fits-all” resuscitation protocol governing administration of shock,\ncardiopulmonary resuscitation (CPR), and medication treatments, and to instead align treatment with the\ndynamic and heterogeneous physiology that characterizes OHCA. This proposal seeks to advance such a\nstrategy of precision medicine by applying deep learning (data-driven artificial intelligence) methods to\nanalyze the real-time OHCA electrocardiogram during CPR and determine the patient’s time-sensitive\nphysiology, estimate the physiologic effects of treatment, and evaluate the clinical implications of these\nalgorithms which predict mechanistic (return of organized rhythm) and clinical (spontaneous pulse and\nsurvival) outcomes. Taken together, the research has the potential to transform OHCA resuscitation from a\nstatic, fixed approach to a dynamic, individualized strategy that leverages real-time understanding of\npatient physiology to guide treatment and ultimately improve OHCA outcome."
+ },
+ {
+  "id": "9ca4e940-0d95-48b1-925d-8d82a5ed7581",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Induction of Protective B and T Cell Immunity against HIV Using DNA/LION Platform",
+  "text": "An effective HIV vaccine remains an unfulfilled target, and it will be a powerful additional weapon for the end of\nthe pandemic. We propose a new nanoparticle formulation of DNA that induces strong and enduring humoral\nand cellular immunity against essential and conserved viral targets, including antibodies with neutralizing and\neffector functions and cellular immunity dominated by cytotoxic CD8 T cells. We propose to compare the\nimmunogenicity and protective ability of this simple nanoparticle vaccine to an RNA vaccine expressing\nidentical antigens and producing neutralizing antibody but low levels of cellular immunity, to identify\nmechanisms contributing to vaccine endurance and the development of balanced and effective immune\nresponse."
+ },
+ {
+  "id": "9ca9ae95-86a9-4e40-8b1c-da02e453ab69",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Neural Mechanisms of Miss- and Touch-Guided Sensorimotor Corrections",
+  "text": "Millisecond timescale sensorimotor feedback control of the tongue is necessary for eating, drinking, speaking,\nand maintenance of airway patency, and aspiration pneumonia due to dysphagia is a leading cause of death in\nneurological disease. Combining high speed tongue videography and deep learning based image\nsegmentation, we track tongue kinematics with high precision and find that when mice lick at a spout they use\ninformation about unexpected misses and touches to rapidly (<50 milliseconds) re-steer their tongue -\nrevealing important online control processes previously studied in primate reaching. To test for general control\nprinciples and to determine how cortex, cerebellum, basal ganglia and brainstem control the tongue, we\ncombine recording and manipulation in head-fixed mice engaged in carefully designed lick tasks requiring rapid\nsensorimotor feedback control."
+ },
+ {
+  "id": "9caa36f7-1a0c-4235-a461-2cb3bf4882c1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Clonal Hematopoiesis of Indeterminate Potential in Aging and Exceptional Longevity in Older Women",
+  "text": "Clonal hematopoiesis of indeterminate potential (CHIP), an age-related phenomenon in which somatic mutations\nin hematologic malignancy-associated genes are detected in the blood of healthy individuals, has emerged as a\nnovel risk factor for multiple chronic diseases of aging including cardiovascular disease, cancer, and type 2\ndiabetes. This project will further understanding of the role of CHIP in multimorbidity, mobility impairment, and\nexceptional longevity. The findings will provide important information on the potential for CHIP to be used a\nnovel, blood-based aging biomarker to predict disease risk to advance precision medicine as well as identify\npotential therapeutic targets to concomitantly delay or prevent multiple diseases and preserve mobility in older\nadults."
+ },
+ {
+  "id": "9cabcd71-712f-4ded-8ddd-56536b16b451",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Exploring Body Mass Index and Health Disparities on Lung Function Trajectories in WTC Survivors.",
+  "text": "In this project, we propose to employ advanced statistical and machine learning techniques to investigate the\ncomplex interplay between World Trade Center (WTC) exposures after the 9/11 attacks and body mass index\n(BMI) on lung function trajectories in WTC Survivors, with a unique focus on small airway oscillometry data.\nWe also aim to apply advanced analytics of algorithmic fairness tools and machine learning to identify factors\ndriving lung function trajectory disparities in WTC Survivors, with a particular focus on BMI and related key\nfactors, as it is critical for ensuring equitable health outcomes across the diverse WTC Survivor population. The\ninsights gained from this study will improve our understanding of whether and how BMI influences the health\neffects of severe respiratory diseases related to the 9/11 terrorist attacks, help develop more effective\nprevention and treatment interventions, and shape more equitable health policies in the future."
+ },
+ {
+  "id": "9cad4015-0529-40ba-a682-0c36d7381482",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Uncovering proximal antecedents to Black male suicide using real-time approaches",
+  "text": "Suicide is the third leading cause of death among Black youth, with rates increasing in recent years. This project will develop and test a smartphone-based digital phenotyping protocol to improve the identification of real-time suicide risk in adolescents, especially in response to everyday stressors. The findings will support more timely and effective strategies to detect and prevent suicide in this population."
+ },
+ {
+  "id": "9cae0973-3703-414a-b072-b0d1e7a6a6b5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Inhibition of virus replication by broadly-acting recombinant enhanced antiviral restrictors (REAVRs)",
+  "text": "The proposed research is relevant to public health because we are creating a novel and innovative\nstrategy for better control of emerging and re-emerging arthropod-borne viruses, which is\nexpected to inhibit a broader variety of viruses that are transmitted from mosquitoes to humans\nthan any current strategy. Thus, the project is directly responsive to NIAID’s unique mandate\nrequiring the Institute to respond to emerging public health threats."
+ },
+ {
+  "id": "9cbbbbb5-1e25-49ef-88ce-95306214f7a3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Harnessing Machine Learning & Object Detection for Automated Evaluation of Student-folded Protein Models",
+  "text": "Harnessing Machine Learning & Object Detection for Automated Evaluation of Student-folded Protein Models\nHarnessing Machine Learning & Object Detection for Automated Evaluation of Student-folded Protein Models will\nimpact public health by improving bioscience education in secondary schools, resulting in an expanded STEM workforce\nand a scientifically literate citizenry. This application will give students real-time feedback on their modeling of proteins\nin the physical world. The development of tools that help students and teachers use free-form modeling materials in\nclassroom and outreach settings will further the adoption of modeling in science education."
+ },
+ {
+  "id": "9cbfe0fc-da6b-4ad4-8fbc-86b2d0c55bbd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Influence of environmental endocrine disruptors and carcinogenesis",
+  "text": "Cancer remains to be a major challenge affecting men and women in their lifetime. Cancer risk and\ndevelopment can be influenced by environmental factors, diet and lifestyle. The link between commonly\noccurring environmental endocrine disruptors and their impact on breast cancer development could offer a new\ninsight how and why environmental exposure of certain chemicals may impact public health."
+ },
+ {
+  "id": "9cc96931-e6d3-4d24-a119-72c80d91f79a",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Integrated Mass Spectrometry",
+  "text": "Abstract Shared Resource 07: Integrated Mass Spectrometry (IMS-SR) The Integrated Mass Spectrometry Shared Resource (IMS-SR) provides extensive mass spectrometry services to the City of Hope Comprehensive Cancer Center (COHCCC) Members. The IMS-SR operates across both COH and TGen sites under the leadership of Dr. Patrick Pirrotte. Dr. Pirrotte is a faculty member in the Cancer and Cell Biology Division at TGen, the Department of Immuno-Oncology at COH (Beckman Research Institute), and a COHCCC Member. IMS-SR offers a comprehensive roster of state-of-the-art, yet cost-effective services built on an extensive knowledge of mass spectrometry (MS) and its applications in cancer. Specific Aims of IMS-SR: Aim 1. Provide oncology-focused, state-of-the-science MS measurement capabilities. Aim 2. Provide COHCCC Members with expert QC/data analysis and multi-omic integration. Aim3. Education, reporting, and dissemination of results. Projects initiate via interactive consultation with the IMS-SR Director and dedicated staff. The IMS-SR is structured around a proteomics unit and a metabolomics unit and houses expertise in acquiring/analyzing high- dimensional, multi-omics data in both units [i.e., (phospho)-proteomics, metabolomics, and lipidomics]. High-end instrumentation (e.g., 1x Orbitrap Eclipse, 2x Orbitrap Lumos, 1x Orbitrap Fusion, 3x triple quadrupole MS, 1x quadrupole time-of-flight, etc. totaling 11 instruments) are operated by highly trained staff with expertise in molecular and cancer biology, as well as analytical chemistry. Data acquisition is supported by robust analytical pipelines for streamlining data harmonization and integration, quality control tracking, and generating publication- quality data reports. IMS-SR also supports COHCCC investigators with incorporating their MS-based findings into grants and manuscripts. IMS-SR accelerates drug development at COH by offering cGMP services (FDA#3009323645) to characterize oligonucleotides, small-molecule active pharmaceutical ingredients, and peptide drugs. New services in high demand include targeted NAD/NAR and nucleotide profiling to dissect cancer metabolism through novel assays designed at IMS-SR. The resource also provides deep expression proteomics, proteogenomics, and extensive phosphoproteomic signaling assays, including kinome activity scoring of patient tumors to identify putative therapeutic targets. General administrative oversight is provided bi- annually by a faculty Advisory Committee and through the COH Shared Resource Steering Committee (SRSC), which meets bi-monthly. Members Utilization by %Revenue 2017–21: 72.2 Total (38 MCBC, 11.8 DCT, 10.4 CI, 11.6 HM, 0.4 CCPS) Publications by Members: 63, 18 with Impact Factor >10 Grants Supported: 45 Total (2 CIRM, 4 DoD, 1 LLS, 17 NCI of 33 NIH (26 R01))"
+ },
+ {
+  "id": "9cd0174a-80fe-4b1a-ac91-b1043f1b8c9d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cortical and subcortical neurophysiology in terminating movement",
+  "text": "How people flexibly control ongoing movements is a critical feature of healthy human behavior. Current\napproaches for studying these behaviors have used motor tasks with limitations, and neuroscientific\napproaches that are unable to reveal contributions of cortical and subcortical brain regions with high\nspatiotemporal resolution. We aim to overcome these limitations by using a novel motor control task in\ncombination with an invasive and non-invasive brain recording techniques, subcortical brain stimulation, and\nvalidated rating scales."
+ },
+ {
+  "id": "9cd19455-7f27-43ce-98b5-318013a2fc50",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The role of early educational contexts in differential genetic susceptibility to cognitive impairment and dementia",
+  "text": "The proposed research will provide important insights into the genetic and social/environmental factors that\nproduce optimal brain health by considering the fundamental role that state-level educational contexts play in\ngenetic susceptibility to cognitive impairment and dementia. The proposed research is relevant to several NIA\npriorities in the area of Alzheimer’s Disease and related dementias (ADRD), including the intersection of genetics\nand the environment for ADRD risk and identifying early life risk and protective factors for ADRD."
+ },
+ {
+  "id": "9cd6a9e6-ba84-4bfa-8b72-1564b8e95ea4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A Multilevel Data Analytic Solution to Advance Population Cancer Research",
+  "text": "This administrative supplement will support activities during the final year of U01 funding to promote adoption\nand effective of the Population Cancer Assessment and Surveillance Engine (PopCASE) tool. The work will\nseparately target user communities based at both academic cancer centers and central cancer registries, and\nwill entail 1) creating a set of multimedia online educational resources including promotional videos informing\ncancer center and cancer registries decision makers of the advantages of PopCASE adoption as well as\ninstructional videos for users at both types of organizations; 2) creating a dedicated PopCASE webpage within\nour Case Comprehensive Cancer Center website that will house overview information about the application,\nsystem requirements for implementation, links to promotional and training videos, and an online form for\nrequesting additional information; 3) building an online “sandbox” environment where interested parties can\nexplore the PopCASE user interface or where adopting organizations can train their users; and 4)\ndisseminating our PopCASE development work at two additional national meetings frequented by potential\nadopters. The supplement includes a robust evaluation plan for assessing reach, user engagement,\neducational material usability, educational effectiveness, and organization adoption readiness."
+ },
+ {
+  "id": "9cd70a8b-267d-4f39-bb1a-fec5f51e933e",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "BDCRC - Administrative Core",
+  "text": "ADMINISTRATIVE CORE – PROJECT SUMMARY/ABSTRACT The Batten Disease Clinical Research Consortium (BDCRC) Administrative Core will serve as the organizational center of the BDCRC, providing leadership, support, and coordination of the Cores and Research Projects. It will serve as the primary liaison between patient advocacy groups, industry, the general public, and all activities of the BDCRC. The Administrative Core will also be the liaison between the BDCRC, Data Management and Coordinating Center (DMCC), and Rare Diseases Clinical Research Network (RDCRN) Consortia. The Administrative Core will support efficient, high quality, and integrated consortium activities, and will ensure optimal operational functioning of the Cores and Projects and contributions to the RDCRN. The Administrative Core aims are to: 1) provide overarching operational support oversight of Cores and Projects, 2) manage institutional and financial agreements and support research compliance, 3) integrate biostatistics and bioinformatics expertise into Cores and Projects, 4) establish a national NCL biorepository, 5) coordinate effective and timely communication among BDCRC sites, advocacy partners, affected families, the RDCRN, and other Batten disease stakeholders to promote collaboration and dissemination of information. Successful execution of the BDCRC Administrative Core aims will facilitate achievement of BDCRC Core and Research Project aims. In turn, this will promote advancements in clinical trial readiness and future pre-clinical discovery into novel therapies for individuals affected by the NCLs. The BDCRC Administrative Core aims will also promote the broader mission of the RDCRN through active collaboration with RDCRN sub-groups and other Consortia."
+ },
+ {
+  "id": "9ce039af-df19-469d-927a-91311d9b5c21",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Fetal Neuroprotection by choline supplementation in heavy drinking pregnant women",
+  "text": "Fetal alcohol spectrum disorders (FASD) represent the most widespread manifestation of preventable\nintellectual disability. Our preliminary data suggest that choline supplementation initiated early in pregnancy\ncan ameliorate adverse growth retardation and some of the debilitating neurocognitive effects seen in FASD. In\nthe current study, we will add neonatal brain anatomical, diffusion and metabolic imaging to our recently-\nfunded, fully-powered clinical trial of choline supplementation in heavy drinking pregnant women in the\nWestern Cape province of South Africa. This study will contribute to our understanding of the mechanistic\nunderpinnings of the neuroprotective benefits of prenatal maternal choline supplementation to the developing\nfetus exposed prenatally to alcohol and has the potential to inform prenatal interventions and postnatal FASD\nremediation."
+ }
+]

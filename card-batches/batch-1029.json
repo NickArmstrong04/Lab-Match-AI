@@ -1,0 +1,142 @@
+[
+ {
+  "id": "e14d9448-bfe5-4fcc-bb77-a44cce071b46",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Computational Innovation for Genome Editing in Discovery and Therapy",
+  "text": "CRISPR genome editing enables precise changes to DNA, helping us understand how genes influence health\nand disease, and opening the door to personalized, permanent treatments for disease. My research develops\ncomputational tools that use cutting-edge technologies to measure and interpret these DNA changes accurately.\nBy making genome editing experiments easier to understand and more reliable, this work will broaden CRISPR’s\nimpact in both research and clinical care."
+ },
+ {
+  "id": "e14db89b-163a-495e-9bc7-0d7dfb02d7c6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cancer Patient on a Chip",
+  "text": "Metastatic cancer disease, the leading cause of death in patients with solid tumors, is difficult to study, both in\nexperimental models and in patients. We propose to establish, utilize and make available a patient-specific model\nof breast cancer metastasis. In the renewal phase, our focus will be on cancer-immune interactions during\nmetastatic progression that can lead to novel strategies for inhibiting metastasis."
+ },
+ {
+  "id": "e14e46c6-01bd-4911-9bc4-250c0b766443",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Sequence resolution of complex human genome structural variation",
+  "text": "This proposal focuses on the discovery, sequencing, and characterization of more complex structural variation\nthat has been difficult to assemble as part of long-read sequencing efforts. The work will help complete our\nunderstanding of the full spectrum of human genetic variation and develop methods to better define complex\npatterns of normal variation and their relationship to rearrangements associated with rare pediatric disease."
+ },
+ {
+  "id": "e14fad92-11fd-4bed-a18d-e49e3aed0981",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Defining Microbial and Host Pathways Driving Asymptomatic C. difficile Colonization Associated with Aging and High-Sugar Diets",
+  "text": "Clostridioides difficile can asymptomatically colonize individuals, particularly those consuming high-sugar\ndiets or of advanced age, creating a hidden reservoir for transmission and disease. This research will\nidentify the microbial and host mechanisms that enable asymptomatic carriage and inform new strategies to\nprevent CDI through dietary, microbial, or immunological interventions. The findings will support the\ndevelopment of new strategies to prevent infection and reduce disease transmission, aligning with NIH’s\nmission to improve public health."
+ },
+ {
+  "id": "e1506239-855e-4011-995d-b821b4cc3db3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Regulation of epigenome stability by SIRT6 during Aging",
+  "text": "Genome architecture deteriorates during aging contributing to age-related pathologies. In this proposal we\noutline research related to one gene, SIRT6, which has been implicated as a regulator of mammalian life and\nhealth-spans; here we will investigate the molecular mechanisms by which SIRT6 maintains genome\narchitecture. We are optimistic that our research will generate novel insights into the aging process and lead to\ntherapeutic strategies designed to attenuate age-related diseases."
+ },
+ {
+  "id": "e156772d-83fe-4183-abe7-7d7cb89571b0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Focused Ultrasound and CAR T Cells for Pediatric Brain Malignancies",
+  "text": "Medulloblastoma (MB) is the most common pediatric brain tumor and treatment of patients with high-risk\nsubtypes remains notoriously difficult due to disease complexity, its challenging niche within the immunologically-\nand pharmacologically-privileged central nervous system, and the significant risk of long-term developmental\ndeficits due to treatment toxicities. To this end, promising novel treatment options such as cellular\nimmunotherapy have not yet found broad success in this disease setting. Our proposal leverages image-guided\nfocused ultrasound intervention as a novel non-invasive, non-ionizing strategy for augmenting targeted cellular\ndelivery and persistence in high-risk MB."
+ },
+ {
+  "id": "e15890b4-6343-4a47-ac23-00d3d6a02b27",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Accurate High-Resolution Tissue Characterization for Breast Cancer Screening Using Transmission and Reflection Ultrasound Tomography",
+  "text": "The proposed research aims to expand the capability and performance of ultrasound tomography as an\nimaging modality that enables greater sensitivity and specificity for breast cancer screening without using\ncompression or ionizing radiation. To achieve this goal, we plan to improve the modeling and inversion\ntechniques currently used in ultrasound tomography to better accommodate high-frequency signals, thereby\nincreasing the achievable imaging resolution and accuracy of ultrasound tomography. Successful completion of\nthis project will improve fundamental understandings of acoustic models and inversion techniques for reflection\nand transmission ultrasound and enable the quantitative imaging of tissue properties at higher spatial resolution\nfor the early detection and diagnosis of cancer."
+ },
+ {
+  "id": "e15f7ed8-3b85-4486-8776-5330ff9d3128",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Next Generation IgH-reprogramming for in vivo delivery",
+  "text": "Genome-modified B cells are promising as functional cure for HIV since they can be used to elicit durable broadly neutralizing antibody (bnAb) memory responses in animal models when they are reprogrammed to express these antibodies as functional B cell antigen receptors. This reprogramming requires insertion of antibody cassettes into the native IgH locus for their expression using native cell regulatory elements and heavy chain constant genes. However, concerns over double strand break (DSB)-mediated genome editing dampens the impact of this therapeutic approach. The field of genome editing is instead focusing on developing technologies for precision genome editing, or genome editing without DSBs. Precision editing is even more necessary when evaluating the potential of in vivo B cell editing for IgH reprogramming, where safety is of top priority. In this project, we describe multiple orthogonal genome engineering approaches towards precision gene insertion of bnAbs into the IgH locus, including prime-editing-assisted insertion genome editing (PASSIGE) and CRISPR- free recombineering. We will discuss using a novel method of retron-mediated donor amplification that can enable an all-RNA system for donor-mediated gene insertion. Finally, individualized delivery systems will be evaluated in vitro alongside each editing approach, weighing features including delivery efficacy, safety of both vector and cargo, ease of production, and clinical precedent, with successful systems progressing to in vivo evaluation. Success of this project will enable an off-the-shelf compound for IgH reprogramming with potential as an in vivo administered treatment for HIV infection."
+ },
+ {
+  "id": "e1613324-05fc-4d64-9ea6-97bd3469af78",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A Direct RNA Sequencing Platform to Detect Uridine Modifications in Human Lung Cancer Transcripts",
+  "text": "This project will develop a sequencing platform to distinguish dihydrouridine (D) from other uridine modifications\nin human RNAs, with a focus on lung adenocarcinoma. By creating accurate maps of these modifications in\npatient tumors, the work will reveal how they influence RNA biology in cancer. These mechanistic insights will\nprovide a foundation for new therapeutic strategies that target RNA modification pathways."
+ },
+ {
+  "id": "e16da23d-6043-45a3-b6b6-566f0cbc96ac",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Plasmonic and Evanescent scattering microscopy for label-free functional imaging of single molecular and cellular activities",
+  "text": "This project aims to develop advanced near-field optical scattering microscopy technologies for label-free,\nfunctional imaging of molecular and cellular activities. These innovations will enable several critical bioanalytical\napplications, including: a label-free, single-molecule digital immunoassay for ultrasensitive detection of molecular\nbiomarkers directly in complex media, including whole blood; a one-step digital binding kinetics assay for\nquantitative, label-free analysis of weak or complex molecular interactions; and label-free cell force microscopy\nfor non-invasive, real-time monitoring of cellular mechanical dynamics. These novel capabilities will significantly\nenhance biomedical research, drug discovery, and clinical diagnostics by providing powerful, non-invasive tools\nfor molecular and cellular analysis."
+ },
+ {
+  "id": "e170ef11-4836-4fea-979a-12300ef6d3b6",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Multimodal Optical Imaging and AI Analytics to Uncover APOE4 Etiology and Therapeutic Targets in Late Onset Alzheimer's Disease",
+  "text": "RELEVANCE\nAlzheimer's disease poses a growing public health crisis due to its increasing prevalence and lack of effective\ntreatments. This research seeks to uncover the early vascular mechanisms by which the APOE4 allele\ncontributes to Alzheimer's disease pathogenesis, focusing on microvascular dysfunctions that precede amyloid\nand tau pathologies. By identifying and targeting these early events, the study aims to develop novel\ntherapeutic strategies that could delay or prevent disease progression, ultimately reducing the burden of\nAlzheimer's disease on individuals and society."
+ },
+ {
+  "id": "e1716af6-d036-4a5b-bf42-fa3392671621",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Causative mechanisms for keloid formation",
+  "text": "In the US, keloids most commonly occur in individuals with African ancestry, are less prevalent in other\npopulations of color and more rare in Whites. Despite the severe physical, psychological and social impact of\nkeloids and despite the unsatisfactory treatment success, this wound healing disorder has been understudied\nand contributes to racial disparity in research and health care. Keloid research is highly relevant to public\nhealth and is recognized as such by the NIH/NIAMS Strategic Plan for fiscal years 2020-2024."
+ },
+ {
+  "id": "e178488a-b427-4c00-a7c0-2c05babc099e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Omni Oblique Plane Microscope to spread light-sheet based imaging in biomedical research",
+  "text": "We propose a versatile and flexible light-sheet fluorescence microscopy (LSFM)\nplatform, which will be able to perform a wide range of imaging applications, ranging\nfrom single cells to cleared tissues. LSFM are typically highly specialized instruments,\nbut we hypothesize that versatility is needed to realize the full potential of LSFM in the\nlife sciences. To study the efficacy of therapies, we will image calcium signaling and\ncytoskeletal structure in human derived cardiomyocytes, highlighting the adaptability\nand potential of our instrument in biomedical research."
+ },
+ {
+  "id": "e178e43f-4c42-4906-8536-1bede67074f6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting Renalase for early stage T1D treatment",
+  "text": "Type 1 diabetes (T1D) is caused by autoimmune destruction of insulin-producing pancreatic beta cells, and\ncurrent treatments cannot provide the precise glycemic control of functional beta cells and prevent diabetes\ncomplications. This research focuses on the studying of Renalase (RNLS), a new discovered target gene for\nearly-stage T1D, aiming to protect beta cells from stress and autoimmune attacks. By developing new drugs\nthat inhibit RNLS, we hope to prevent beta cell loss and potentially delay or stop T1D progression."
+ },
+ {
+  "id": "e17a5f95-6782-42d0-a311-33ddf455d242",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Defining the Impact of Tumor Heterogeneity in Intrahepatic Cholangiocarcinoma",
+  "text": "Intrahepatic cholangiocarcinoma (iCCA) is a cancer of the bile ducts with a devastating 9% 5-year survival rate\nand few therapeutic options. A critical gap in knowledge needed to improve outcomes in iCCA is the impact of\ntumor heterogeneity on disease progression, therapeutic failure, and metastatic seeding. This proposal aims to\ndetermine alterations in the genome, transcriptome, and tumor microenvironment that contribute to tumor\nheterogeneity, cancer evolution, and adaptation in iCCA with the ultimate goal of accelerating development of\nmore efficacious treatment strategies."
+ },
+ {
+  "id": "e183ba24-b239-441a-9017-d5efc1c8ef9c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Neurocognitive and Patient-Reported Outcomes after Chimeric Antigen Receptor T-Cell Therapy: A Controlled Comparison",
+  "text": "Long-term survivorship is now a real possibility for patients with relapsed/refractory large B-cell lymphoma\n(LBCL) treated with the chimeric antigen receptor (CAR) T-cell therapy. Almost nothing is known about\nneurocognitive and patient-reported outcomes in patients undergoing this treatment, however. The current study\nwill investigate longitudinal changes in these outcomes in the first year after CAR T-cell therapy compared to\nindividuals without cancer."
+ },
+ {
+  "id": "e186b328-f171-4451-9afc-91e3969845a6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Repurposing LNP technology to simplify gene editing in nematodes",
+  "text": "This project seeks to leverage lipid nanoparticle technology to make mutations in the model organism C. ele-\ngans using genome editing. Specifically, we propose to develop a new mutagenesis pipeline—termed LNP-\nCRISPR—that enables delivery of genome editing reagents without microinjection. If successful, the approach\nwill eliminate a major bottleneck to high throughput gene function studies and will enable editing om labs that\nlack the expertise or equipment perform traditional microinjection."
+ },
+ {
+  "id": "e1873466-753c-4764-8932-c99ef3864919",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of beta2 nicotinic acetylcholine receptors in the insula-BNST pathway in ethanol consumption and abstinence-induced negative affect.",
+  "text": "Alcohol use disorder (AUD) is a severe health crisis that is characterized by detrimental effects to social\nrelationships and personal wellbeing. The insula-BNST pathway has been implicated in driving AUD-\nassociated behavior, including abstinence-induced negative affect-like behavior and compulsive ethanol\nconsumption. Evidence suggests that insular α4β2 nAChRs are a highly sensitive target for chronic ethanol;\nthus we propose that these receptors expressed in insula-BNST projecting neurons are implicated in ethanol\nconsumption and negative affect and are a potential therapeutic target for AUD."
+ },
+ {
+  "id": "e1957ec0-1312-498d-804d-d1057fc99f24",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Genome editing of fructose metabolism to correct hereditary fructose intolerance in mice.",
+  "text": "The goal of this research is to find a cure for hereditary fructose intolerance (HFI), a genetic disease triggered\nby fructose that is caused by mutations in the aldob gene with serious health implications such as symptomatic\nhypoglycemia, liver and kidney disease. Unfortunately, there is no cure for this potentially fatal disease and\ntreatment is limited to avoid foods with fructose which is very challenging since fructose -as sugar- is added to\nup to 70% of processed foods. Using a mouse ortholog model that mimics the disease in humans, we propose\nto study two different approaches to treat this condition, to either conditionally repress the ability of tissues to\nprocess fructose or to use in vivo gene editing to repair missense mutations in the aldob gene of adult mice."
+ },
+ {
+  "id": "e1963336-929a-46c5-b9d2-5eb05e6e7f9e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Modeling Cell Fate and Perturbation Dynamics with Generative AI using Single-cell and Spatial Omics Data",
+  "text": "The spatiotemporal dynamics of cells are shaped by a complex interplay of intrinsic and extrinsic factors, creating\nnonlinear gene regulatory systems that traditional models struggle to predict. I hypothesize that conditional\ngenerative AI models integrating molecular, spatial, and temporal data can accurately forecast dynamic cellular\nbehaviors. This proposal builds a virtual cell foundation model to generate transcriptomic trajectories at both\ntemporal and spatial scales and predict cell fate decisions, disease progression, and therapeutic responses."
+ }
+]

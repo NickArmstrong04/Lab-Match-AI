@@ -1,0 +1,142 @@
+[
+ {
+  "id": "f114f8dd-d9b9-47d5-aa34-067d3952d37b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Regulatory mechanisms of hematopoietic stem cell functions post-transplant",
+  "text": "The regulation of hematopoietic stem cells (HSC) during bone marrow regeneration are poorly understood.\nThe functional decline of HSC after bone marrow transplantation is thought to be a degenerative process\ncaused by accumulated damage that leads to cellular dysfunction, tissue failure, and death. Evidence has now\nproven that there is a measurable changes in HSC metabolism after bone marrow transplantation that drive\nHSC functional decline. The studies proposed in this application will provide information on cellular factors that\nbecome deregulated in hematopoietic stem cells after bone marrow transplantation and cause functional\ndecline of the hematopoietic tissue, and will identify conditions under which HSC can be maintained with full\nregenerative potential. This could be a first step towards designing treatments to improve HSC function during\nbone marrow regeneration to improve bone marrow transplant outcomes."
+ },
+ {
+  "id": "f11bb861-160b-4b01-9850-71ad66ddf2ad",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "TR&D Project 1: OpenCap for Data Capture",
+  "text": "Three-dimensional (3D) measurements of human movement dynamics have the potential to transform biomedical research. Yet, collecting high quality, 3D biomechanics data has, until recently, been a resource-intensive process, requiring expensive equipment and a day or more of expert time to collect and process data for a single subject. This has severely limited the size and number of studies that include movement data. The Mobilize Center team recently introduced OpenCap to remove this critical barrier to collecting movement data, enabling large-scale studies. OpenCap is an open-source platform for computing the kinematics and dynamics of human movement using videos captured from two or more smartphones. Our aims for advancing OpenCap include the following: 1. Enhance OpenCap to improve the accuracy of kinematics and dynamics for the pelvis and upper limb. Accurate measurements of movement kinematics and dynamics are essential in biomedical research. We have developed machine learning models to improve the accuracy of OpenCap’s measurements of lower-limb motion; we will now develop and validate machine learning models to improve the accuracy of measurements of the pelvis and upper limb. 2. Create tools to share only deidentified participant data. There is a growing need for tools to automatically de-identify data to protect privacy while preserving information about movement. We will optimize OpenCap’s pose detection algorithms to run on-phone, allowing users to only share de-identified movement trajectories, without a loss in accuracy. 3. Develop and validate a video-based balance test and score. Our team has begun collecting a rich set of movement tasks with OpenCap for participants with a wide range of balance abilities, from elite balancers to clinical populations with conditions that impair balance. We will use these data to identify the most reliable and information-rich set of tasks and movement variables to measure balance and detect fall risk. We will create a balance screening workflow in OpenCap to disseminate a balance test and score. The development of validated digital biomarkers of movement addresses a critical need of the biomedical research community. Through intensive interactions with our Collaborative Projects, we will focus on improving outcomes for individuals with limited mobility due to conditions such as osteoarthritis, neuromuscular diseases, limb loss, and workplace injuries."
+ },
+ {
+  "id": "f120c58a-21e6-46c2-9a22-a3ea173e970b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Oncogenic pathway-induced fragile sites: a new paradigm for understanding genome instability in cancer",
+  "text": "The proposed research is relevant to human health because it addresses a longstanding need to understand\nwhy some cancers respond to treatment and others do not. We anticipate our studies to initiate an innovative\nnew approach to cancer research, with the ability to predict which of many possible pathways are disrupted in\nany given cancer solely from DNA sequence, thereby suggest treatments for otherwise intractable cancers."
+ },
+ {
+  "id": "f12ba0b9-83b7-4e24-a00c-a2a49daa5a91",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanical deformation of the cell envelope as a form of surface-sensing in Pseudomonas aeruginosa",
+  "text": "The opportunistic pathogen, Pseudomonas aeruginosa, undergoes a lifestyle transition upon surface contact\nthat results in biofilm formation. Biofilms can contribute to the development of chronic and recurrent infections\nby protecting bacteria from environmental stress (i.e. antimicrobial, host immunity) and thus, new anti-biofilm\ntherapies are of urgent need. To better understand how biofilms develop and inform the design of new therapies\nto prevent their growth, in this proposed work, we use innovative microfluidic tools and single cell microscopy, to\ndetermine how P. aeruginosa uses mechanical cues from the environment to detect surface contact and adapt\nto a surface-bound lifestyle."
+ },
+ {
+  "id": "f12de64a-480f-4990-8304-b4e568926fec",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Improving the Detection of Hypertrophic Cardiomyopathy Using Machine Learning Applied to Electronic Health Record Data",
+  "text": "Hypertrophic cardiomyopathy is one of the most common inherited cardiovascular diseases and increases risk\nfor major adverse cardiovascular outcomes; however, only 13% of patients are appropriately diagnosed,\nindicating a significant diagnostic and therapeutic gap. To address this, the proposed research will use machine\nlearning applied to electronic health record data to develop generalizable models to identify patients with\nundiagnosed hypertrophic cardiomyopathy and clinically relevant predictors of underdiagnosis. This will inform\nthe dissemination and implementation of best practice approaches to accurately diagnose and appropriately\ntreat patients with hypertrophic cardiomyopathy."
+ },
+ {
+  "id": "f144153f-d593-47ce-b225-81de5a2e340c",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Advancement of Diagnostics by Joining User-centered and Scalable Technologies - Training Program (ADJUST TP)",
+  "text": "This interdisciplinary program based within the Center for the Advancement of Diagnostics by Joining User-centered and Scalable Technologies (ADJUST Center) at Emory University and Georgia Tech will train the next generation of biomedical engineers to develop point-of-care and home-based diagnostics. Our unique program will train our students on all aspects of development, assessment, and manufacturing of diagnostics, ranging from mid/high complexity clinical laboratory, point-of-care, and home-based tests and will incorporate the regulatory, verification and validation, user-centered design/human factors, and commercialization aspects thereof, but just as importantly, we will teach our trainees how to apply those technical principles under the auspices of developing new diagnostic technologies for all demographics. As the pandemic has clearly demonstrated, the diagnosis of disease is rapidly becoming decentralized and our trainees from different disciplines will become the leaders in developing 21st century point-of-care, home-based, and inexpensive diagnostics."
+ },
+ {
+  "id": "f149cf34-86cf-449d-903d-3c4bf274d51e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Next-generation single-cell multiomic methods for quantifying cellular identity",
+  "text": "The proposed research will establish powerful new tools for studying the interaction between epigenetic and\ntranscriptomic features, which are crucial in human health. Compared to existing tools, our single-cell\nmultiomics methods are scalable to millions of cells, cost-effective at a fraction of current barcoding expenses,\nand portable for use in remote clinical locations. This project is relevant to NIH’s mission, as it will provide\nessential knowledge about key biological regulatory processes that define cellular heterogeneity, which can\nhelp identify new therapeutic targets for various diseases."
+ },
+ {
+  "id": "f15167a0-b308-4259-a114-545a878aff16",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Evaluation of Commercial Mammography-Based Artificial Intelligence Algorithms for Breast Cancer Risk Prediction in U.S. Screening Populations",
+  "text": "Women at high risk of breast cancer have opportunities for breast cancer risk reduction,\nincluding risk-reducing medications and more intensive breast cancer screening. The goal of\nthis proposal is to determine whether new Artificial Intelligence (AI) technologies can accurately\nidentify women at high risk of breast cancer who may benefit from risk reduction. The project will\ndraw on a large, diverse group of women undergoing routine mammography screening across\nthe United States to ensure that these new AI technologies perform equally well in women of all\nrace and ethnicity groups."
+ },
+ {
+  "id": "f157a460-74cb-40ff-a44c-a00e70c3024d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Deciphering a tissue specific role for Arhgap29 during palatogenesis",
+  "text": "Formation of the palate occurs through cell proliferation, migration, rearrangement of adhesions, and changes\nin contractility. This project will determine how Rho GTPase Activating Protein 29 (ARHGAP29) regulates the\nformation of the palate and the mechanism by which the loss of ARHGAP29 contributes to a cleft palate."
+ },
+ {
+  "id": "f1656a8c-8997-4bdc-8753-d4a99601df36",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dysbiosis, organ injury, and Systemic Inflammation",
+  "text": "Dysbiosis, an imbalance in the gut microbiome, increases host susceptibility to injury, leading to systemic\ninflammation and multi-organ dysfunction syndrome (MODS)—a leading cause of ICU mortality. Despite its\nclinical significance, the molecular pathways linking dysbiosis to MODS remain poorly understood. Our goal is to\ndefine these mechanisms and develop targeted therapies to improve outcomes in critical illness."
+ },
+ {
+  "id": "f16aae26-b7f7-49a0-89eb-117ce2eb613a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Long-read sequence and assembly of segmental duplications",
+  "text": "This proposal develops novel methods based on combining long-read sequencing technologies to characterize\nthe sequence structure, variation, and annotation of protein-coding genes within complex regions of duplication\nthat have been difficult to sequence and assemble. The work will improve the quality of the reference genome,\nprovide a fundamental understanding of how new genes arise, and improve genotyping of copy-number genes\nand the importance of duplication to human disease and adaptation."
+ },
+ {
+  "id": "f16b7c00-3ced-490d-8c60-e2d36486df56",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms by which LSD1 Promotes Neuroendocrine Differentiation and Small Cell Lung Cancer",
+  "text": "Some small cell lung cancers (SCLCs) are highly and selectively sensitive to inhibition of the histone\ndemethylase LSD1, but the biological mechanisms utilized by LSD1 to drive SCLC are not well understood. This\nproposal seeks to understand the underlying causative mechanisms by which LSD1 drives SCLC tumorigenesis\nand neuroendocrine differentiation utilizing both cell lines and isogenic CRISPR-based in vivo mouse models.\nWe will also test a rational combination therapeutic approach to overcome LSD1 inhibitor resistance, which if\nsuccessful, could ultimately have a significant impact on treatment strategies for this recalcitrant cancer."
+ },
+ {
+  "id": "f1770550-5879-4543-acf3-79c385deed74",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Deep Immunophenotyping in tissue imaging",
+  "text": "PUBLIC HEALTH NARRATIVE\nThere is a growing demand in personalized medicine to measure many biomarkers in a single sample. In tissue\nimaging, high multiplexing is essential for identifying different cell types and states in complex systems such as\nthe immune microenvironment. This project will significantly expand spectral multiplexing in tissue imaging of\nproteins markers—the maximum number of target proteins measurable in a single round of immunostaining and\nfluorescence imaging—from 3–6-plex to 56-plex, thus enabling deep immuno-phenotyping of cells in tissue\nsamples."
+ },
+ {
+  "id": "f17e74ec-f20b-4f29-86d1-92f61d21790e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Core H: iPSC Core",
+  "text": "iPSC CORE - CORE H: PROJECT SUMMARY/ABSTRACT - REVISED The induced pluripotent stem cell (iPSC) Core of the Johns Hopkins Alzheimer’s Disease Research Center (JHADRC) is included as a core for the first time, as part of this renewal application. The iPSC Core (Core H) has several overarching goals. It is responsible for maintaining a repository of stem cell lines for ADRD research that have been accumulated and maintained over many years, sharing these stem cells with investigators conducting research in Alzheimer’s disease and related dementias (ADRD) both locally and nationally, and providing expertise and training to investigators conducting stem cell research at Johns Hopkins University (JHU). To accomplish these goals, the iPSC Core will focus on the following aims: (1) to provide a repository of existing stem cell lines for ADRD research; this repository currently contains 47 iPSC lines that include: (a) isogenic iPSC lines representing the dominant AD mutations, (b) isogenic lines for the range of APOE variants, (c) iPSC lines generated from well-characterized research participants who have been followed to autopsy, and (d) iPSC lines from living JHADRC participants with a range of diagnoses; (2) to work with Cores B, F and G to assure that blood is collected for generation of peripheral blood mononuclear cells (PBMCs) from selected biomarker-characterized JHADRC participants, so that it may be possible to expand the collection of particularly useful cell lines in the future; (3) to provide training and support resources to JHU investigators to foster ADRD stem cell research; and (4) to share stem cell lines from participants with unique characteristics with NCRAD so that they can be made available to the wider research community. Through these efforts, Core H strives to: (1) support investigators associated with the JHADRC with these key resources, 2) provide training to investigators at JHU working with iPSCs in ADRD research, and (3) broaden the research that is underway at JHU and elsewhere seeking to use iPSCs to further understand disease pathogenesis, and contribute to the discovery of mechanistic targets and pathways that will potentially broaden the development of new treatments for ADRD."
+ },
+ {
+  "id": "f17ef6d9-e4ab-418d-bb43-108d045b5099",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular Determinants of Zinc Regulation of Mammalian Sperm",
+  "text": "The proposed research is relevant to public health because it represents a new focus on zinc as\na regulator of processes that sperm undergo between mating and fertilization. This aligns with\nNICHD’s mission, which pertains to understanding the basic biology of fertilization to build the\nfoundation needed for the development of innovative fertility therapies."
+ },
+ {
+  "id": "f1837b02-5ef3-4690-96a2-8a6893577df3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "High-resolution reconstruction of 3D spatial genome architectures for multi-level biological contexts",
+  "text": "RELEVANCE (See instructions): \nThe dynamic spatial conformations of genomes provide the complex and flexible structural basis for coordinated nuclear \nprocesses and gene regulation activities. Computational modeling of high-resolution chromosome structures in 3D \nspace with multi-level heterogeneity has significant implications in understanding molecular and genetic effects in \nnormal development as well as disease."
+ },
+ {
+  "id": "f188fb6d-dd89-4950-a808-97c95a2d59b6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Comprehensive identification of germline-somatic interactions",
+  "text": "It has long been recognized that tumors are highly heterogeneous with no two tumors sharing the same set of\nmutations. By analyzing inherited (germline) and tumor-specific (somatic) genetic variants that co-occur in\ntumors, we will investigate the mechanisms by which the inherited genome drives heterogeneous disease risk,\nprogression, and clinical outcome. This proposal will develop novel bioinformatics tools and strategies for\nanalysis of large-scale genomics datasets and apply them to a compendium of tumor genomics data to reveal\nand characterize germline-somatic interactions."
+ },
+ {
+  "id": "f18b79ba-9aae-4131-845d-59fee0250b03",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeted Modulation of Osteocyte Wnt Signaling Using Peptide-Functionalized Nanoparticles",
+  "text": "Current treatments for osteoporosis largely target surface-level bone cells and fail to directly modulate the\nbehavior of osteocytes—the deeply embedded, mechanosensitive cells that are the primary regulators of bone\nremodeling. This project will develop and apply novel ultrasmall nanoparticles capable of delivering bioactive\npeptides directly into osteocytes to activate key anabolic signaling pathways, including Wnt/β-catenin. By\nenabling precise, intracellular control of osteocyte signaling in vivo, this research aims to establish a new\ntherapeutic strategy that could dramatically improve outcomes for patients with osteoporosis and related skeletal\ndisorders."
+ },
+ {
+  "id": "f193f06e-8192-4d64-bd3c-63813ebd22bd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Evolved Molecules that Destroy Cancer Relevant Proteins",
+  "text": "Cancer research is often driven by hypotheses that see a specific extracellular protein as important for the\ndisease, hypotheses often tested by developing an antibody to that protein. The technology to be developed\nhere will create a new capability, reagents that not only bind a target protein, but also cleave it, to be available\nfrom suppliers in weeks (not months) at 10-100 fold lower cost than antibodies. In addition to having a\ntransformative impact on cancer research, the hitherto unavailable properties of this new reagent class may\nmake them eventually available for cancer diagnostics, to guide therapy, or as therapeutic agents."
+ },
+ {
+  "id": "f194a519-dd5b-4032-98bf-e8d847e4f4d5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Integrated Wnt Signaling and Maternal Intervention of Neural Tube Defects",
+  "text": "This project employs innovative single-cell transcriptomics, conditional gene-targeting, genetic rescue, and\nmaternal intervention approaches to systematically address the mechanisms of neural tube defects in mutant\nmouse models. It may provide a basis for future translational applications to prevent neural tube defects in\nhumans."
+ }
+]

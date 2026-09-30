@@ -1,0 +1,142 @@
+[
+ {
+  "id": "e36fe982-c8a0-4976-8ffe-1c9365e7b7ce",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A GPU compute cluster for biomedical foundational models",
+  "text": "Project Narrative.\nThe proposed Instrument will represent a significant enhancement of our ability to efficiently process large\nquantities of neuroimaging data. This will result in a clear public health benefit as a large number of the studies\ncarried out at the Martinos Center are of clinical populations including studies of Alzheimer’s disease,\nschizophrenia, Huntington’s disease, healthy aging, etc. The ability to develop cutting-edge deep learning tools\nto help rapidly analyze images in large studies with enhanced parallel computing capabilities will increase our\ncapacity to detect the subtle early effects of these types of disorders. Early detection is a critical capability if\nclinical interventions are to be developed in the early stages of neurodegenerative disorders before widespread\ncell death has occurred."
+ },
+ {
+  "id": "e37321b2-373e-4e11-8da4-cdba7993ddcb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Core Grant in Vision Research",
+  "text": "The long-term mission of the Vanderbilt Vision Research Center (VVRC) is to leverage novel\ntechnologies, strategies, and partnerships to (1) understand the biological substrates of vision and\nmechanisms of diseases affecting the visual system and (2) leverage this knowledge to inform, develop, and\ntest new therapeutic strategies for vision-threatening conditions. Proposed service modules will support and\nenhance innovative and novel approaches spanning genes and proteins to brain circuits and behavior to better\nunderstand vision and ways to preserve it in aging and disease."
+ },
+ {
+  "id": "e37819a2-c2de-49a9-98b7-f16a810d514f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Quantitative Endogenous MRI Imaging of Neuroinflammation in AD",
+  "text": "This project aims to develop and establish a novel compressed sensing-based diffusion MRI technique,\ndiffusion dictionary imaging (DDI), to non-invasively and reliably image neuroinflammation in Alzheimer’s\ndisease (AD). By leveraging the established infrastructure of the Knight Alzheimer’s Disease Research center\n(P50AG05681, P01AG026276, P01AG003991) and Dominantly Inherited Alzheimer Network (DIAN,\nU19AG032438), we will cost-effectively develop DDI and use it to study the role of neuroinflammation in the\nsporadic AD and autosomal-dominant AD. The successful development of a quantitative, endogenous DDI\nbiomarker of neuroinflammation will represent a significant technological leap forward and holds significant\npromise to improve our understanding of the role of neuroinflammation in AD pathogenesis."
+ },
+ {
+  "id": "e37fb1ff-2c78-4d1a-b4c9-5af842696dcd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Inter-organ signals regulating body size, physiology anddevelopmental timing",
+  "text": "The studies described in this proposal will functionally characterize two highly\nconserved inter-organ communication systems that are essential for ensuring\nproper control of body size and function during an organism’s development and\ninteractions with its surroundings. Identifying and characterizing these\nmechanisms is central to understanding many fundamental issues that underlie\nsignificant human health problems including obesity, endocrine abnormalities,\nand developmental disorders."
+ },
+ {
+  "id": "e3868a73-016e-4d24-899a-c1b94cd9db79",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Optimizing mRNA sequences with deep neural networks",
+  "text": "The goal is to develop an integrated deep learning model to optimize 5'UTR, codon usage, and 3'UTR at\nsame time that enables users to design the optimal mRNA sequence to enhance protein expression level, thus\nto improve the efficacy of mRNA medicines. mRNA based therapies hold great promise for the treatment of\nvarious types of diseases, but this therapeutic approach suffers from multiple challenges including the short half-\nlife of exogenously administered mRNA and subsequent protein production. Our proposed studies will address\nthe challenges in design of mRNA sequence to enhance mRNA stability and translation efficiency, and thus\nprovide important information for the development and optimization of mRNA vaccines."
+ },
+ {
+  "id": "e38ad986-6462-4e43-9a8c-7387647800d3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Advanced molecular engineering approach for understanding extracellular vesicle in vivo trafficking mechanism",
+  "text": "The extracellular vesicle (EVs) in vivo trafficking mechanism has not been well understood, especially for\ncrossing blood-brain barrier and specific tissue trafficking. The proposed projects will set technology and\nknowledge foundation to facilitate mechanistic -driven tissue targeting utilizing EV route, and open broad\napplications to advance gene therapy and immunotherapy."
+ },
+ {
+  "id": "e38b49a1-c19c-4f2e-ab57-40587cab55d5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Metabolomic and multi-omic predictors of inhaled corticosteroid response in obese and non-obese asthma",
+  "text": "Despite being one of the most common respiratory diseases worldwide, as many as one third of people with\nasthma do not adequately respond to inhaled corticosteroids, which are the backbone of asthma therapy. Poor\ntreatment response leads to worse asthma control and increased exacerbations, however we lack an\nunderstanding of underlying mechanisms and clinically available biomarkers to predict treatment response. The\ngoal of this project is to use metabolomic and genetic approaches to identify biomarkers of inhaled corticosteroid\nresponse and to develop prediction models so that we can ultimately develop effective, personalized treatment\nregimens for those with asthma."
+ },
+ {
+  "id": "e3966e64-63ea-4971-9655-0f94ad7042bf",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "7T Vascular and Molecular Imaging of SVD: Sex, Equol, and Risk of Alzheimer’s Disease",
+  "text": "Co-occurring small vessel disease (SVD) in the brain accelerates the progression of Alzheimer’s disease (AD).\nOlder women have a greater SVD-related AD risk. In this study, using state-of-the-art MR imaging, we will test\nwhether women have faster progression of SVD than men. We also evaluate the treatment effects of Equol,\nan oral supplement, on brain SVD. Targeting SVD with an intervention is particularly promising for reducing\nAD risk in women."
+ },
+ {
+  "id": "e3980116-bae5-4adf-bb5d-9fbcc0e520c3",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Interdisciplinary Cardiovascular Research Training Program",
+  "text": "Heart and vascular diseases are a leading cause of disability and death in the United\nStates. The Johns Hopkins Cardiology Post-doctoral Training Program, now in its 49th\nconsecutive year, provides broad multi-disciplinary training spanning from basic science through\npopulation/outcomes research. Our goal is to train the next generation of academic\ncardiovascular research leaders to continue the work of tackling these important and common\ndiseases."
+ },
+ {
+  "id": "e398a1f0-3fb0-4bbc-bb78-d7e42f3c8cff",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Transforming ITK-SNAP into a modern AI-assisted segmentation platform",
+  "text": "This project will modernize and improve a user-friendly software tool that is used by thousands of researchers\nand clinicians to derive quantitative measures from medical images such as MRI, CT, and ultrasound. The\nupdated tool will provide easy access to a wide range of artificial intelligence enabled algorithms that can\noutline complex anatomical structures and lesions with just a few clicks; and it will also make it easier to\ncompare and analyze medical images between different visits. The new tool is expected to have wide-ranging\nimpact on many biomedical applications and this impact will be evaluated in the context of personalized\nmedicine in Alzheimer's disease."
+ },
+ {
+  "id": "e3a61b9b-848e-46ce-b37d-1443965bf3f9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Biomaterials for modulating the gut microbiome for immune activation",
+  "text": "The proposed research is relevant to public health as these studies will generate new fundamental knowledge\nin drug development and may lead to therapeutics against gastrointestinal diseases."
+ },
+ {
+  "id": "e3a8d6e0-7330-4f86-a3fd-7bac300f0e32",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A and R",
+  "text": "The Puerto Rico IDeA Network of Biomedical Research Excellence (PR-INBRE) proposes two Alteration and Renovation (A&R) subprojects to expand biomedical research infrastructure and training at two network PUIs. These projects will address critical gaps in data science and cell culture capacity, two areas essential for advancing biomedical research and workforce development in the jurisdiction. The first project establishes a Data Analysis and Training Center (DA&TaC) at the InterAmerican University of Puerto Rico-Arecibo Campus (UIAPR-Arecibo), a primarily undergraduate institution (PUI) of the PR-INBRE network. This facility will feature high-performance computing workstations and provide state-of-the-art training and collaborative research opportunities in data science under the direction of Dr. Luis Vazquez, a faculty researcher and Data Science Core Co-leader UIAPR-Arecibo. It will serve faculty, postdocs, and students from across the PR-INBRE network and support activities of the Data Science Community of Practice (DSCoP) and Faculty Development Programs. The center will promote data literacy and computational proficiency critical for modern biomedical research. The second project creates a Multi-User Biosafety Level 2 Cell Culture Facility and Darkroom (CCF&DR) at the University of Puerto Rico–Cayey campus (UPR-Cayey), the second PR-INBRE network PUI. This facility will expand hands-on research capacity in cell culture, microbial studies, and molecular imaging for students and faculty under the direction of Dr. Rafael Maldonado, a PR-INBRE-sponsored faculty researcher at UPR-Cayey. It will serve as a shared research hub for investigators at UPR-Cayey and collaborators at University Ana G. Méndez–Gurabo campus (a PR-INBRE network PUI), which will also benefit from these facilities. The CCF&DR will enable experimental workflows that support faculty mentoring, student training, and competitive research proposals. Together, these initiatives will strengthen institutional infrastructure, foster inter-institutional collaboration, and transform undergraduate biomedical training in Puerto Rico. Anticipated outcomes include increased research productivity, improved faculty development, enhanced student readiness for graduate education, and the incorporation of data-driven and experimental approaches in biomedical research. These A&R efforts will position the PR-INBRE PUI institutions as leaders in research capacity and innovation within the network, while driving lasting impacts on health research and education in Puerto Rico."
+ },
+ {
+  "id": "e3ae7609-c80d-4b37-89c7-4eb21b69072a",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Molecular Immunology Core",
+  "text": "CORE SUMMARY / ABSTRACT The MIC will provide a centralized hub for advanced cellular and systems immunological analysis of all biologic samples derived from Projects 1-2. In addition, the MIC will coordinate and streamline all common assays and procedures to ensure that both Projects utilize uniform Standard Operating Procedures (SOPs) and best practices. The MIC is comprised of five interacting sub-Cores: (1) The MHC Immunogenetics and Typing Core; (2) the Flow Cytometry and CyTOF Core; (3) The Virology and Functional Protective Immunity Core; (4) The Molecular Immunology and Transcriptomics Core; and (5) The Computational Analysis Core. Each Core addresses an essential requirement for the optimal conduct of the complex experiments that are proposed in Projects 1-2 and promotes collaboration between investigators. As such, the MIC will significantly increase the efficiency and the rigor with which our group is able to execute the lung transplant tolerance experiments proposed in this U19."
+ },
+ {
+  "id": "e3b497b5-2fd1-4f99-b86b-086117c12032",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Helping Veterans understand their providers' notes with Chatbot-NoteAid",
+  "text": "Helping Veterans understand their providers’ notes with Chatbot-NoteAid\nAllowing patient access to their providers’ notes (OpenNote) helps enhance disease\nunderstanding, patient-provider communication, medication safety, self-managed care, and\nhealth outcomes. However, many patients do not understand their electronic health record\n(EHR) notes. In this proposal we develop Chatbot-NoteAid, a novel multi-component learning-\nthrough conversation AI system that helps patients understand their providers’ notes without\nreading the notes. We will also develop a novel literacy instrument for note-level comprehension\nto evaluate whether Chatbot-NoteAid improves patient comprehension. We will recruit 32\npatients for both quantitative usability testing and pilot evaluation."
+ },
+ {
+  "id": "e3b64910-7b15-4ffc-865b-84051956d634",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Applying novel tools to parse Plasmodium vivax relapses in clinical trials",
+  "text": "Malaria caused by Plasmodium vivax parasites establishes hidden infection in the liver that can lead to multiple\nrelapses. We lack a molecular method to distinguish relapses from re-infection and therefore understand when\nand why anti-relapse therapies fail. This project will leverage new genomic tools to improve our ability to detect\nvivax relapses in clinical trials, moving us closer to developing the interventions needed to eliminate malaria."
+ },
+ {
+  "id": "e3b7e12c-ffa9-404a-90d3-2346311e481e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Research Training - Mental Health Behavior Genetics",
+  "text": "Revised Public Health Relevance Section\nThis proposal requests funding to sustain a training program in mental health behavior genetics, led by distinguished faculty from the Institute for Behavioral Genetics. The program aims to enhance research skills through comprehensive education and hands-on training in advanced techniques, catering to the growing demand for translational research and “big data” studies. By incorporating new faculty and offering cutting-edge coursework, the program seeks to continue its legacy of training leaders in the field while staying at the forefront of research advances in behavioral genetics."
+ },
+ {
+  "id": "e3c457d0-6bab-4eec-9634-51cf076ac103",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Determining migration and functional profiles of memory T cells subsets in Periodontitis",
+  "text": "Periodontitis is one of the most common chronic inflammatory diseases, affecting nearly half of adults worldwide\nand compromising oral and systemic health and quality of life. Aim 1 (K99 & R00) will, for the first time, define\nhow tissue-resident, effector, and central memory T-cell compartments drive periodontal inflammation and\nalveolar bone loss. Aim 2 (R00) will map site-adapted human gingival memory T-cell phenotypes and clonotypes,\nlinking them to microbial triggers to delineate host–microbe networks, and laying the foundation for precision\nimmunomodulatory therapies and biomarker discovery."
+ },
+ {
+  "id": "e3c5aba4-e39b-443c-9f04-4e267716d6e4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "An adaptive walking intervention to manage chronic pain in veterans with opioid use disorder engaged in opioid agonist treatment",
+  "text": "Severe chronic pain and opioid use disorder (OUD) occur at significantly higher rates in Veterans compared to\nthe general population. Chronic pain often persists despite engagement in opioid agonist treatment (OAT), the\nfirst line treatment for OUD. Recent VA guidelines strongly recommend non-pharmacologic treatment for\nchronic pain, but individuals with OUD are frequently excluded from pain treatment studies. There is a need for\nevidence-based pain treatments that compliment OAT for Veterans with chronic pain and OUD. In this study,\nwe will determine feasibility and acceptability for a behaviorally focused pain treatment that includes pain\neducation and a pedometer assisted adaptive walking program for Veterans receiving OAT for OUD.\nTreatment outcomes will be assessed using ecological momentary assessment (EMA), where behavior is\nrepeatedly assessed using a mobile device, and study-provided pedometers. By offering pain treatment within\nOAT clinical care, we hope to decrease stigma and increase access for Veterans with chronic pain and OUD."
+ },
+ {
+  "id": "e3ce2692-3630-4979-8010-db1c9eaf6c5a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Optimized and accessible immuno-PET using lipid nanoparticle-mediated in vivo bioreactor",
+  "text": "ImmunoPET is an emerging non-invasive imaging technique that can fulfill the promise of in vivo pathology\nassessment. This proposal leverages advances in lipid nanoparticle technology to synthesize immunoPET\nprobes with optimized pharmacokinetics and to identify the ideal LNP administration strategy in patients.\nSuccessful execution of this project will lead to a revolutionary, streamlined and modular platform for\nimmunoPET molecular imaging/therapy that is immediately testable in patients."
+ },
+ {
+  "id": "e3d0090c-89ed-4920-9834-5bb7fb31e6db",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Precision Medicine Center for Cystic Fibrosis",
+  "text": "ABSTRACT/PROJECT SUMMARY (VIRAL AND NON-VIRAL VECTOR CORE – CORE 2) The Viral and Non-Viral Vector Core (VNVVC) serves multiple projects directed at the study of therapy development. The interaction with multiple investigators from various disciplines allows for cross-fertilization of ideas, technical advancements, and innovations in vector designs. This VNVVC provides novel systems for genetic complementation of pathogenic variants and advancement of potentially life-long curative therapeutic strategies. Responsibilities of this Core include consulting with the researchers, developing novel vectors, preparing routine vectors, and archiving materials. The VNVVC staff and investigators are in close contact through all phases of vector design and generation. Thus, this Core serves as both a research and development facility for gene transfer studies and a service facility for routine vector preparations. For gene delivery, the VNVVC provides purified and concentrated preparations of recombinant viral and non-viral vectors such as adenovirus (Ad), helper-dependent adenovirus (HDAd), adeno-associated virus (AAV), virus-like particles (VLPs), lipid nanoparticles (LNPs), and lentivirus (LV), as well as more specialized vectors such as vaccinia virus. These vectors have proven success at delivering CRISPR-based technologies to airway cells. For example, we produce multiple vector platforms to deliver an adenosine deaminase fused to a CRISPR-Cas9 nickase (termed an Adenine Base Editor (ABE)) to achieve site-specific repair. We also generate genetically modified cultured cells, which is a new service with wide utility. Additional services include access to standard cell lines, expression plasmids, and stocks of reporter viruses. This facility serves the needs of numerous outside investigators interested in both basic and applied gene therapy research. A continuum of new ideas from both outside and within the university ensures that the P30 Center Members have access to state-of-the-art methodologies, technologies, and reagents necessary for CF therapy development. In summary, the main responsibilities of the VNVVC are: 1) production of viral and non-viral vectors; 2) research and development; 3) education; and 4) archiving of materials."
+ }
+]

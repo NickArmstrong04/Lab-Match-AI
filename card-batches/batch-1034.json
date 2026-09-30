@@ -1,0 +1,142 @@
+[
+ {
+  "id": "e2f47201-0a82-4173-b4ab-236bc809167f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of mineralocorticoid receptor antagonism on inflammation in muscular dystrophy",
+  "text": "Gene therapy approaches to treat Duchenne muscular dystrophy (DMD), a fatal neuromuscular disease, are\ncurrently being tested in patients, but will require anti-inflammatory co-therapies. This application will test the\nanti-inflammatory properties of FDA-approved mineralocorticoid receptor (MR) antagonists, which have been\nshown to have benefits for dystrophic pathologies. The efficacy of these drugs will also be compared with\ncurrent anti-inflammatory treatments that have serious side effects."
+ },
+ {
+  "id": "e2f76ed2-da6b-4063-87b2-1eefa343f73b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Understanding iPSC reprogramming using single cycle Measles vector",
+  "text": "The proposed research will use a newly developed technology in our lab to better understand\nthe role of the innate immune response, the reprogramming factors in the reprogramming\nprocess of somatic cells into induced pluripotent stem cells. This research is essential as the\nprocess is still sub-inefficient and could have an important impact in the development of new\nregenerative medicine approaches for degenerative diseases."
+ },
+ {
+  "id": "e2f7d148-e698-4091-b5c4-83eff3ac0548",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Integrated Cancer Genomics Core",
+  "text": "The Integrated Cancer Genomics shared resource (ICG) is committed to providing state-of-the-art instrumentation and protocol support to Duke Cancer Institute (DCI) researchers as these technologies continue to evolve over time. The ICG expanded to meet DCI needs that encompass microbiome, epigenetic and increased single cell services provided by three institutionally designated core facilities: Sequencing and Genomic Technologies Core (SGT), Microbiome Shared Resource (MSR), and the Molecular Genomics Core (MGC). By unifying these existing resources for DCI members, the ICG meets its objective to provide one-stop access to all of the major research protocols and instrumentation platforms used in contemporary cancer genomics research, including genomics, transcriptomics, microbial studies, and epigenetics. For over a decade, the ICG has maintained a record of providing updated, state-of-the-art genomic and transcriptomic services to DCI members. The ICG includes services that are performed by three Duke School of Medicine (SOM) core facilities and unifies many of the cancer genomic technologies on campus, providing streamlined workflows that integrate many of the major research protocols and instrumentation platforms used in contemporary cancer genomics research. The ICG supports a wide range of projects from DCI investigators, by providing expert consultation, project management and training to facilitate access to approaches including SNP discovery, mapping chromatin modifications, single-cell sequencing, measuring mRNA levels at several scales (single genes, cancer panels, entire transcriptome), sequencing exomes, identifying DNA methylation, microbiome profiling, and mapping transcription factor binding sites. By offering the full range of technological platforms, the ICG allows investigators to choose the optimal solution for their cancer related projects and assists investigators with data quality control, versioning, statistical analysis, and dissemination for all of these services. In addition, the ICG works with DCI investigators to explore and establish new technologies which catalyzes the advancement of cancer research. In 2022, the ICG shared resource provided services to 93 DCI investigators, 45% of all users, and from all 7 DCI Research Programs. Use of this shared resource by DCI Members contributed to at least 120 publications over the project period, many of which were in high impact journals. The shared resource operates primarily on a cost-recovery basis, with institutional support for a portion of the operating costs and instrument purchases. Support from the Cancer Center Support Grant allows ICG to provide DCI members with consultations, assistance with grant and manuscript preparation, and scheduling priority. User fees for other activities follow School of Medicine guidelines."
+ },
+ {
+  "id": "e2f9f4dc-9fe9-473a-819a-d33d07a52256",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Deep-Learning-Augmented Quantitative Gradient Recalled Echo (DLA-qGRE) MRI for in vivo Clinical Evaluation of Brain Microstructural Neurodegeneration in Alzheimer Disease",
+  "text": "Alzheimer Disease (AD) is one of the largest health problems in the US and worldwide; it is a brain disease that\nis characterized by progressive dementia due to pathological changes in brain tissue that begin many years\nbefore clinical symptoms. The goal of this grant application is to establish an MRI-based technique, Deep-\nLearning-Augmented quantitative Gradient Recalled Echo (DLA-qGRE), as a platform for quantitative clinical\nevaluation of brain tissue microstructural neurodegeneration at early preclinical stages of Alzheimer Disease\n(AD), to identify people at highest risk for developing dementia when drug intervention could be most efficient.\nThe overall impact of this project will be to set the stage for reducing the cost and complexity of MRI procedures,\nand increasing their sensitivity and specificity as diagnostic tests for Alzheimer disease and other\nneurodegenerative conditions."
+ },
+ {
+  "id": "e2fc5e67-1500-4c44-bbf0-ba199eff2f4f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Fluorescence tools that illuminate biology and inspire translation",
+  "text": "Our research focuses on new or complex systems whose chemistry and/or mechanism is\nincompletely understood, as discoveries in such areas are almost always accompanied by\nenabling therapeutic insights. Efforts on two complex systems comprise my NIGMS portfolio: (1)\nthe organelle interactome, for which we develop novel tools; and (2) the endocytic pathway,\nwhich we exploit to deliver on the promise of genuinely cell-permeant macromolecules."
+ },
+ {
+  "id": "e30ded57-5612-4868-b897-a913bdeafe58",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "SCH: Generalizable Dementia Early Detection via Multimodal Self-Supervised Learning",
+  "text": "AD/ADRD early detection impacts millions of patients who receive care in various clinical settings,\nhowever most developed screening tools are built upon research cohorts with low co-morbidity\nburden, and exclude significant at-risk population for AD/ADRD. Our work, which utilizes real\nworld clinical data from a large real-world clinic with multiple scanner type and disease\ncomorbidity profile, will have a significant impact in developing more accurate tools for early\ndetection of AD/ADRD. Methodologically, our work significantly advances the field of AI by\nadvancing SSL methods that leverage multi-modal data, and are generalizable to all subpopulations\nbased on their health profiles."
+ },
+ {
+  "id": "e3119ed6-b5c6-4e0a-9f51-fface4887417",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Bioinspired Synthetic High-Density Lipoprotein (sHDL) nanotherapeutics with immunomodulatory and regenerative potential in endodontics",
+  "text": "Dental pulp necrosis and apical periodontitis (AP) are widespread, often compromising root development in\nyoung patients and affecting long-term tooth resilience. This project aims to develop a synthetic high-density\nlipoprotein (sHDL) nanoparticle loaded with antibiotics, offering a biocompatible solution with antimicrobial,\nimmunomodulatory, and regenerative properties to improve endodontic treatment outcomes."
+ },
+ {
+  "id": "e31adb1f-42dd-429e-a0f6-e7da173e20c4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Imaging and Image Analysis Core",
+  "text": "The Imaging and Image Analysis Core will perform mRNAs spatial and cellular localization and expression levels analyses, immunofluorescence, as well as quantitative label free fibrosis imaging on human lung tissues-based investigations for each one of the Projects. Samples from specific functional lung regions of extensively phenotyped IPF lungs represent a unique resource that will benefit all three Projects in the Program, and these specimens will need to be carefully stained and imaged for mRNA and protein identification and quantification accumulation to assess ER stress, autophagy, UPR, cell senescence, apoptosis, and fibrosis. Centralization of advanced staining and microscopic imaging will also benefit all Projects by providing quality-controlled data for Project-specific investigations, thus improving the opportunity for inter-project collaboration and integration. This Core is therefore an essential integrative component of the Program. The Aims of the Imaging and Image Analysis Core include: • Design staining combinations and perform regions selection for whole transcriptome analysis with Nanostring GeoMX Digital Spatial Profiler. • Perform RNAscope in situ hybridization and microscopic imaging of IPF and control lung tissue to complement, validate, and contextualize the transcriptional profiles obtained by RNA-seq analyses and to address other project-specific needs. • Perform label-free second harmonic generation imaging of fibrillar collagens for fibrosis quantification. • Perform analyses and quantification of microscopic images. • Provide Digital Whole Slide Images storage in conjunction with the Data Management and Analysis Core (Core D). The Imaging and Image Analysis Core will be led by Evgenia Dobrinskikh, PhD who will coordinate, overview, and perform services for the Scientific Projects and coordinate with other Research Cores."
+ },
+ {
+  "id": "e31afa53-6df1-4dbb-9101-39adb9e20bd6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Immunobiology of Myeloid and Lymphoid Cells",
+  "text": "The goal of this proposal is to continue and improve a program to train the next generation of immunologists\nand provide them with the tools needed to forge successful careers in research. We recruit the most talented\nand motivated predoctoral students and our outstanding faculty trainers provide exceptional mentorship and\ntraining in how to conduct research in immunology, in addition to preparing them for careers in research and\nresearch-related fields. The immune response cuts across all types of disease in the human population, and\nwe are at the beginning of our ability to develop therapies to harness the immune responses for novel\ntherapies, so progress in this field is essential."
+ },
+ {
+  "id": "e31d98a9-0632-4d7b-8b39-df240839ebf9",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Isoform?Resolved Target Discovery and Validation in Cancer",
+  "text": "Cancer patients urgently need safer treatments that selectively attack tumor cells without harming healthy\ntissues. NeoSplice Therapeutics is developing a new platform that identifies unique protein variants (splice\nisoforms) found specifically in tumors, creating a new class of precise drug targets. This approach will\naccelerate the development of safer cancer immunotherapies and expand the options available to patients who\ncurrently face limited treatment choices.\n1"
+ },
+ {
+  "id": "e31e2237-2709-416a-a9b0-00500c10b693",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Reprogramming proteases: tackling human diseases with next-generation modulators",
+  "text": "A major goal in biomedicine is to modulate a protease solely on its disease-related substrates. To achieve this\nrare level of selectivity, this proposal aims to combine a novel high-throughput selection platform with machine\nlearning tools to accelerate the discovery of substrate-selective protease modulators and decipher their binding\nmechanisms. Given that proteases and other post-translational modification enzymes are implicated in a vast\nnumber of diseases, including cancer, neurodegeneration, infectious and autoimmune diseases, substrate-\nselective modulators could have a profound impact on how we target and study enzymes with multiple\nsubstrates."
+ },
+ {
+  "id": "e31fe105-bd81-4e11-9235-258a701fe76f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "CD4 helper programs that regulate intratumoral immunity",
+  "text": "CD4 helper T cells are critical to prime CD8 T cells in lymphoid organs, but the role of conventional CD4 T cells\nin the tumor microenvironment, and how CD4-help may enhance response to PD-1 targeted immunotherapy\nremains poorly understood. In this proposal, using a liver cancer mouse model, we will investigate what are the\nkey intrinsic features and cell interactions of anti-tumor CD4 T cells that potentiate tumor control and response\nto PD-1 targeted immunotherapy. This understanding will be critical do develop novel strategies, focused on\nCD4-help, to enhance cancer immunotherapy or curb immune responses in chronic inflammatory diseases."
+ },
+ {
+  "id": "e321475f-67b8-4bb2-a17a-2f0cb39f5976",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Toward a Comprehensive Genetic Interaction Network in Bacteria",
+  "text": "Genetic interaction (GI) networks reveal fundamental principles of cellular biology, including gene functions,\nrules governing cellular organization, and synthetic lethality landscapes. We will develop various CRISPR-\nbased strategies to systematically map GIs and perform network analyses in diverse bacterial species.\nSuccessful completion of this project will significantly advance our understanding of gene function and genetic\narchitecture in broad prokaryotic organisms, inform new antimicrobial strategies, and facilitate the engineering\nof microbial systems with enhanced synthetic capabilities."
+ },
+ {
+  "id": "e32199c4-437a-4a2e-831c-8de52ec4f384",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Signaling Mechanisms of Lens Development",
+  "text": "The genetic bases of many ocular syndromes remain unresolved, due to our limit in understanding the\nmechanism of lens development. This study has the potential to identify the molecular mechanism of Abl\nsignaling in orchestrating lens morphogenesis. Such an understanding will help to guide our efforts in treating\nocular-related birth defects."
+ },
+ {
+  "id": "e322676e-3149-4ae1-a0ed-e16cf8e3a78b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Astrocyte Network Facilitation of Neuroplasticity",
+  "text": "Astrocyte networks are required for memory consolidation, facilitate plasticity, and represent the brain's\nendogenous defense mechanism against neurodegeneration - all vital functions, but the fundamental properties\nof these intracellular networks are not understood. Here, I have developed a tool that allows us to see, for the\nfirst time, individual astrocyte networks in fully transparent, intact brains and finally begin to understand how\nthese networks communicate. The proposed research capitalizes on this development to establish fundamental\nproperties of astrocyte network structure and function during cortical plasticity, with our findings having potentially\nfar-reaching implications on our ability to enable brain regeneration after injury or disease."
+ },
+ {
+  "id": "e322f1a7-0d94-48c2-a8ae-05ac0683825c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of Rapid QUASS CEST MRI for Brain Tumor Characterization at 3T",
+  "text": "About one-third of patients with treated primary brain tumors show signs of progression on routine MRI, with\nnearly half of these cases labeled as \"indeterminate\" for tumor progression versus treatment change. The 2022\nwhite paper on clinical amide proton transfer-weighted (APTw) MRI, a specific type of CEST MRI, received\nwidespread positive feedback from researchers worldwide, helping to build consensus along with constructive\nsuggestions. Building on the success of APTw MRI, our project aims to develop a fast, whole-brain quantitative\nCEST (QCEST) MRI to improve the differentiation of tumor progression from treatment-related changes."
+ },
+ {
+  "id": "e324d394-28ca-4d7d-a630-67931780bfb0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Functional Microbiomics, Inflammation and Pathogenicity",
+  "text": "The University of Louisville COBRE in Functional Microbiomics, Inflammation and Pathogenicity is a unique\nthematic research center. COBRE scientists comprise a multidisciplinary group of senior mentors and junior\ninvestigators on a pathway to independence, who are focusing on diseases that involve complex interactions\nbetween microbial challenge and host inflammatory responses. Outcomes of this research may lead to the\ndevelopment of novel therapeutic agents and delivery systems to protect against a number of chronic and difficult\nto treat conditions."
+ },
+ {
+  "id": "e3271efb-3485-4e43-a051-b9771f628b33",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multi-target repetitive Transcranial Magnetic Stimulation (rTMS) treatment for Major Depressive Disorder (MDD) and comorbid pain",
+  "text": "This project proposes a novel, multi-target approach for repetitive Transcranial Magnetic Stimulation (rTMS)\ntreatment of Major Depressive Disorder (MDD) and comorbid fibromyalgia (FM), which is associated with\nsignificant disability and is highly resistant to treatment.\nIn the short-term, this project aims to evaluate the effectiveness of augmenting rTMS treatment for depression\nwith a secondary target for pain in MDD patients with FM comorbidity and to identify the differences in and the\ninteraction of brain networks affected in MDD and FM using a machine learning approach.\nIn the long-term, this project promises to increase our understanding of this serious comorbid condition and\nimprove treatment outcomes for the subpopulation of patients with MDD and potentially other mood disorder\nconfounded by chronic pain."
+ },
+ {
+  "id": "e329f5a9-de28-432c-aa5a-610dcf261b93",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting the neuronal microenvironment in glioblastoma",
+  "text": "An emerging body of data draws attention to the central role of the nervous system in pathogenesis of glioblastoma. In preliminary studies our own group has discovered that glioblastoma integrates into normal neural circuits, and that neuronal activity drives glioblastoma growth and progression through direct glutamatergic synapses between neurons and glioblastoma cells and by paracrine growth factors secreted by glutamatergic synapses. In turn, glioblastoma cells secrete glutamate to increase the excitability and consequently the activity of neurons. This glutamate-fueled, forward-feeding cycle presents a potential drug target. We hypothesize that targeting glutamatergic signaling broadly to disrupt these neuron – glioblastoma interactions will decrease neuronal hyperexcitability, decrease neuron-to-glioblastoma signaling and decrease glioblastoma growth. This hypothesis makes testable predictions that can be assessed using troriluzole – a brain penetrant drug in advanced phase clinical trials for neurological and neuropsychiatric diseases. In preclinical studies, we find that troriluzole decreases glutamate in the glioblastoma microenvironment and increases survival in a murine model of glioblastoma. Going forward, our study plan has two specific aims. We propose (Aim one) to test troriluzole in patient-derived orthotopic xenograft (PDOX) models of IDH WT glioblastoma, and (Aim two) to conduct a surgical window-of-opportunity clinical trial of troriluzole in adult subjects with recurrent IDH WT glioblastoma. We will assess effects of troriluzole on glioblastoma electrophysiology in both preclinical models and in the surgical window-of-opportunity trial using intraoperative electrocorticography to determine the effects of troriluzole on neuronal hyperexcitability. Glutamate and drug levels will be measured in both xenograft tissue and in resected human glioblastoma tissue using mass spectrometry imaging; glutamate levels will be further assessed in human subjects using perioperative microdialysis and magnetic resonance spectrometry imaging. We will examine the PDOX tissue and resected human tissue for biomarkers of neuron-glioblastoma signaling, including levels of neuroligin-3 and phosphorylated AMPA receptors (an indicator of synaptic signaling in glioblastoma through a subtype of glutamate receptor). We will assess effects of troriluzole on glioblastoma proliferation in both GBM PDOX models and in resected human tumor tissue, and will measure overall survival in the preclinical models and progression-free survival in the clinical trial. Together, these studies will elucidate the efficacy of troriluzole to decrease glutamatergic signaling in the glioblastoma microenvironment and disrupt these pathogenic neuron- glioblastoma interactions that robustly promote glioblastoma progression."
+ },
+ {
+  "id": "e3308d59-7bdf-4e98-b97a-2186a7eb308b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Comorbid Disease in Women with Primary Ovarian Insufficiency",
+  "text": "The proposal will determine whether the etiology of increased cancer risk in women with primary ovarian\ninsufficiency (POI) and their family members has a shared genetic cause with POI or results from an increased\nmutation rate. These studies will also develop an artificial intelligence tool to predict cancer and other disease\nrisk in women with POI."
+ }
+]

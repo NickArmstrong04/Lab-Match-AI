@@ -1,0 +1,142 @@
+[
+ {
+  "id": "73f5b6c9-de49-49eb-a139-0ba8865d516a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Harnessing large-scale human omics data to decode novel risk genes for AD and its neuropsychiatric symptoms",
+  "text": "Approximately 90% of Alzheimer's disease (AD) patients experience neuropsychiatric symptoms (NPS-AD)\nthat can contribute to greater functional impairment, higher caregiver burden, and earlier institutionalization.\nCurrent treatments for AD and NPS-AD have limited efficacy but carry risk of adverse side effects,\nunderscoring the urgent need for safe and effective alternatives. To nominate targets for therapeutic studies,\nwe propose to functionally validate these AD/NPS-AD risk proteins in iPSC-derived cortical organoids, focusing\non their roles in AD and NPS-AD, including pathology, neuroinflammation, synaptic functions, and protein\nexpression networks."
+ },
+ {
+  "id": "73f8e8b2-fe43-4339-b629-dd77763ad370",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Quantification of Low-Frequency Oscillations in Cerebrospinal Fluid Dynamics with Rapidly Acquired Tagging MRI and Learning-based Spatiotemporal Pattern Recognition",
+  "text": "This project aims to develop a novel Magnetic Resonance Imaging (MRI) approach integrated with deep\nlearning based image analysis to accurately quantify movement of the cerebrospinal fluid (CSF) in the human\nbrain. Once developed, this imaging framework can be employed to deepen our understanding of the\nphysiological drivers of CSF flow and how it clears waste products from the brain. The findings may lead to\nearlier detection and better treatment of hydrocephalus, Alzheimer’s disease, and related conditions."
+ },
+ {
+  "id": "73fd7f7f-f40a-475a-904a-872db2bddf54",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Leveraging primary cell and organoid culture to identify and map the human virome",
+  "text": "Despite years of study, human susceptibility to chronic disease is still not fully understood, compelling the\ncontinued search for modifiable risk factors. One previously hidden variable is the human virome, a vast array of\nviruses that reside within the body without causing overt symptoms, but which may impact susceptibility to many\ncommon diseases, ranging from autoimmunity to cardiovascular disease to cancer. This project will develop new\ntechnologies to accurately observe, characterize, and quantify the human virome, with the long term goal of\ndiscovering new ways to prevent and treat common diseases."
+ },
+ {
+  "id": "73fe67f4-91e4-451e-bca9-d1d8eb7ff923",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Integrating Clinical, Pathologic, and Immune Features to Predict Breast Cancer Recurrence and Chemotherapy Benefit",
+  "text": "Nearly one in eight women will develop a diagnosis of breast cancer over the course of their lifetime, and\nselection of treatment is often based off a gene expression assay such as OncotypeDX. Deep learning can\nintegrate readily available clinical, pathologic, and immune features to predict recurrence and chemotherapy\nbenefit, resulting in more accurate, faster, and cost-effective treatment decisions."
+ },
+ {
+  "id": "7400757d-f1b4-4f3b-9324-1a7d8fa56f6c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mitochondrial oxidative phosphorylation in substance use disorder and HIV",
+  "text": "This research aims to enhance treatments for HIV-associated neurocognitive disorders (HAND)\nin individuals with opioid addiction—especially those using fentanyl—by targeting mitochondrial\ndysfunction and neuroinflammation. Utilizing innovative human organoid models and an HIV-Tg\nrat self-administration model, the study will assess the therapeutic potential of NAD+ to restore\ncellular energy metabolism and mitigate HAND, fentanyl dependence, and withdrawal symptoms.\nUltimately, these advances could lead to novel interventions that improve health outcomes,\nextend life, and reduce the burden of chronic disease among vulnerable populations with HIV and\nopioid use disorder."
+ },
+ {
+  "id": "74094e8e-170b-41f6-a84b-8afb3a01a431",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The genetic origins of vertebrate evolutionary novelties: the fin-to-limb transformation",
+  "text": "Evolutionary novelties are structurally and functionally novel traits in animal diversification.\nDespite their functional significance in animal survival and diversification, evolutionary and\ndevelopmental mechanisms of novel body plans remain mostly unknown. The long-term goal of\nthis proposal is to identify the genetic origins of evolutionary novelties and understand how\nanatomically and functionally integrated organs originate during animal evolution."
+ },
+ {
+  "id": "740d99db-284b-4ff3-9072-864795b3bf5a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project II: Immune regulatory circuits in primary colon cancer and lymph node and liver metastases",
+  "text": "Project II. Immune regulatory circuits in primary colon cancer and lymph node and liver metastases Experimental Lead: Rudensky Computational Lead: Leslie Experimental Co-Lead: Ganesh PROJECT SUMMARY Colorectal cancer (CRC) represents the third most common cancer in the US and worldwide. Despite major advances in treatment of some cancer afforded by immunotherapy, mismatch repair-proficient (pMMR) CRC, which accounts for the vast majority (85%) of cases, fails to respond with ~15% 5-year survival rate. We hypothesize that this failure is due to the activity of CRC-promoting local circuits of immune and stromal accessory cells, in which suppressive regulatory T (Treg) cells and non-inflammatory tissue-supporting Th17 cells serve as essential components. We also propose that the architecture and cellular composition of these T cell circuits are distinct in primary CRC and in proximal lymph node and distal liver metastases. In this project, we will dissect the dynamics of the main immunomodulatory cells states including Treg and Th17 cell and their interactions with cellular components (“immunomodulatory neighborhoods”) in primary tumors and lymph node and liver metastases in the same pMMR CRC patients alongside a novel mouse genetic model of spontaneously metastasizing pMMR CRC (Aim 1). Our perturbation studies will elucidate roles of these key immunomodulatory cells and their partners in metastatic disease progression and resistance to immunotherapy (Aim 2) and examine the impact of key immune cell-derived factors on cancer cells in human primary and metastatic CRC organoids (Aim 3). We will employ cutting edge “omics” analyses at a single cell resolution combined with spatial transcriptomics and highly multiplexed optical imaging and microscopy and flow cytometry coupled to experimental perturbations iteratively with novel computational modeling and analyses to deconstruct archetypal T cell-based cell circuits in CRC and conserved chromatin states and gene regulatory programs of their cellular constituents. These studies will enable better mechanistic understanding of emergence of pro-metastatic cell states in pMMR CRC and inform development of orthogonal rational combination immunotherapies for this disease and elucidate the therapeutic actionability of targeting immune-epithelial circuits in preventing and treating metastasis in patients with advanced CRC. ."
+ },
+ {
+  "id": "740f0a55-c42e-4ebd-9772-18abf02a103c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Michigan Center for Urban African American Aging Research - Analysis Core (AnC)",
+  "text": "REVISED Analysis Core (AnC) Abstract The overarching goals of the Analysis Core (AnC) are to support innovative research into social and behavioral processes underlying health problems, and to train junior investigators on the tools and approaches that will enhance the rigor of their research to generate meaningful insights regarding the health and well-being of older adults. The objectives of the AnC are twofold. The first objective is to provide MCUAAAR Scientists, and Center faculty with the methodological and analytical tools necessary to conduct and complete pilot projects and RCMAR-related research in a manner that is both transparent and rigorous. This objective involves providing training, consultation, and logistical support in (a) state-of-the-art approaches to study design, data collection, and data analysis, and (b) NIH best-practices in rigor and reproducibility, including study pre-registration, coding and documentation, and data sharing. The second objective is to embed collaborative, interdisciplinary team science into research practice through a thematic, case-based training framework informed by the biopsychosocial model. Collectively, these objectives seek to generate novel scientific insights and methodological approaches to reduce health problems and promote well-being of African Americans over the life course. The AnC has expertise and experience supporting a wide range of projects (i.e., primary data collection, secondary data analysis, mixed-methods designs, advanced statistical techniques, and machine learning tools) and provides a forum for Scientists to gain meaningful exposure to methods from a wide range of disciplinary orientations. The AnC objectives leverage long- standing, mutually-beneficial relationships with the other MCUAAAR Cores, networks of NIA, NIH and University centers, organizational partners, and initiatives at UM, WSU, and MSU that have a shared commitment to applied social and behavioral science and to mentoring junior investigators. We fully expect, based on our prior interactions, that the analytic methods and training tools developed by the AnC will be shared within the MCUAAAR, with the RCMAR Coordinating Center and NIA and NIH collaborating centers, organizational partners, and the broader scientific community."
+ },
+ {
+  "id": "74118eb7-ee03-4624-b3d1-8c85354533c9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Rewired Signaling at the Nexus of Melanoma Metastasis and Resistance",
+  "text": "Leveraging discoveries emerging from our previous R35, this proposal extends findings relevant to rewired UPR\nsignaling affecting tumor-intrinsic (ATF4 pro- and anti-apoptotic signaling) and -extrinsic (microbiota composition\nand anti-tumor immunity) pathways. We propose to study these processes during aging, which provide\nunprecedented opportunity to study melanoma metastasis, thus offering novel paradigms to address\nfundamental unanswered questions in cancer biology."
+ },
+ {
+  "id": "74128e07-4276-4b7c-9d95-d35aed7e8ab6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Integrative Genomics Viewer (IGV) for Cancer Research",
+  "text": "Given the enormous amount of data generated by research studies and in the clinic today, visualization is often\na key element in gaining insight into the genomic basis and mechanisms of disease. These insights will help to\ndevelop hypotheses for further study, guide treatment, and point the way to new therapeutic targets. We propose\nto ensure that the Integrative Genomics Viewer (IGV) continues to track and respond to advances in genomics\ntechnology and changing user needs, and maintains its high level of utility for the cancer research community."
+ },
+ {
+  "id": "741b6ae8-297e-40c4-ad3c-ad051dc18c97",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of obesity in blood pressure regulation and insulin resistance in Polycystic Ovary Syndrome",
+  "text": "Polycystic ovary syndrome (PCOS) is a common health condition that affects about 10% of women of\nreproductive age. Women with PCOS have elevated levels of the male androgen hormone testosterone and a\nhigh prevalence of obesity, insulin resistance, and elevated blood pressure, which lead to cardiovascular\ndisease. This proposed research will shed light on novel androgens-mediated mechanisms that will translate\ninto effective and safe therapeutic agents to treat the cardio-metabolic complications frequently found in\nwomen with PCOS."
+ },
+ {
+  "id": "741d47e0-c9b2-4292-aba4-84ad366b8c91",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Hawaii Pacific Islands Mammography Registry",
+  "text": "The proposed studies are relevant to public health because they have the potential to identify women at high\nrisk of breast cancer using ethnic-specific models. Thus, this advance is expected to have a high impact to the\nhealth and well being of women because women at high risk may choose to alter the breast cancer screening\nfrequency for earlier detection or to participate in risk reduction strategies, such as lifestyle modification. Both\napproaches will reduce breast cancer mortality. This is relevant to the part of NIH's mission which focuses on\nthe prevention of disease by supporting research in the prevention and early detection of human diseases."
+ },
+ {
+  "id": "74220000-8f6d-4e8f-ac52-e0ab2999cc98",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "AS160 as a nodal regulator of the cardiac response to metabolic stress",
+  "text": "Obesity and metabolic disorders are increasing in epidemic proportions in the country which ultimately leads to\npoor outcomes including heart failure. AKT substrate of 160kDa (AS160) has been identified as nodal regulator\nbetween insulin signaling and glucose uptake, but research into its physiological role in cardiomyocyte\nmetabolism has been hampered by limitations of available models. In this context, our studies are focused on\nelucidating the composition of the cardiac AS160 regulatory complex, how this complex and AS160 regulation\nis altered during disease, and the effect on cardiomyocyte metabolism in order to develop novel therapeutic\nstrategies for cardioprotection in obesity and obesity related metabolic syndromes."
+ },
+ {
+  "id": "7423f233-81fd-4360-ba4b-df6082050680",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Innovating next generation technologies to define mechanisms of neurodegenerative disease and devise therapeutic strategies",
+  "text": "Amyotrophic lateral sclerosis (ALS) and other neurodegenerative diseases are\ndevastating for individuals and families involved; there are no cures and few treatments.\nOur studies have revealed new insights into the major ALS protein TDP-43, defined a\nnew genetic risk factor for ALS – mutations in the ataxin 2 gene, validated it as a\ntherapeutic target, and discovered that cryptic splicing in the UNC13A gene explains\nwhy variants in this gene increase risk for ALS. The proposed studies will use\ngenomewide approaches to reveal regulators and therapeutic targets to lower\nneurodegenerative disease proteins, single-cell transcriptomics to define mechanisms\nof motor neuron degeneration, and exploring additional TDP-43 cryptic splicing targets,\nlaying the foundation for the development of novel therapeutic approaches."
+ },
+ {
+  "id": "742448bc-3dff-469d-9852-a29a259786c8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "SPARKLED: Do After School Programs Affect Risk in Kids of Latent Endothelial Disease",
+  "text": "Heart problems are the number one cause of pregnancy-related death in the United States. After school care can help children lead healthier lives by teaching them about stress management and healthy diets, which can help prevent heart disease later in life. Our research project studies how after school care for teenagers can empower communities across the United States to overcome barriers to health and reduce the long-term burden of heart disease during pregnancy."
+ },
+ {
+  "id": "742fc189-3288-4eac-830a-2bf1827f4592",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Structural and Functional Studies of the TRPM4 and TRPM5 Channels",
+  "text": "TRPM4 and TRPM5, which are Ca2+-activated, nonselective, Ca2+-impermeable, voltage-gated ion channels,\nplay key roles in cerebral artery constriction, immune response, insulin secretion, taste and temperature\nsensation, and are thus critically linked to cardiovascular diseases, diabetes, and transduction of taste stimuli.\nThis research project will focus on the temperature-dependent gating mechanism of TRPM4 and TRPM5 and\ntheir pharmacology, taking advantage of single-particle cryo-EM and electrophysiological recording. The\nproposed research is relevant to public health and NIH’s mission, because the work will provide a deeper\nunderstanding and knowledge of the relationships between atomic structure and function in the temperature-\nmodulated TRPM family members, as well as a foundation for developing new drugs for cardiovascular diseases\nand diabetes."
+ },
+ {
+  "id": "74312966-faf9-4fea-80ef-d26f6cda024b",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Host-environment interactions in the pathophysiology of digestive disease",
+  "text": "OVERALL\nResearch supported through the WU DDRCC has and will continue to have a profound impact on understanding\nthe pathophysiology of digestive disease and the role of host-environment interactions. The WU DDRCC\npromotes scientific collaboration and diversity of our research base to identify new therapeutic opportunities with\nthe potential for rapid translation into clinical trials for patients with digestive diseases."
+ },
+ {
+  "id": "7433c939-f067-4479-a1ab-96f11e871608",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Columbia University-Weill Cornell Medicine CFAR (CU-WCM CFAR)",
+  "text": "The Columbia University (CU) – Weill Cornell Medicine (WCM) Center for AIDS Research (CFAR) brings\ntogether researchers from 2 major institutions united by a single large hospital system in New York City to\ncatalyze and promote HIV research; foster new collaborations; provide robust services to faculty and community\nmembers engaged in HIV research; and develop the careers of new investigators entering the HIV field. The\nCU-WCM CFAR will promote HIV basic, translational, clinical, behavioral, implementation and outcomes\nresearch with a regional, national, and international impact and the overall goal of ending the HIV epidemic."
+ },
+ {
+  "id": "74389f31-4010-49f6-babf-7825169392fb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Evolution of influencer-driven e-cigarette marketing on social media and its effect on e-cigarette perceptions and use patterns among adolescents",
+  "text": "Micro-influencers promoting e-cigarettes on social media on behalf of tobacco brands have been increasingly using audio-visual effects, including stylizing themselves to appear younger, depicting e-cigarettes in positive lifestyle contexts (e.g., healthy lifestyle), and incorporating sounds that evoke pleasant sensations, all of which may contribute to normalization of e-cigarette use. To understand the impact of common marketing tactics used by these influencers, the proposed study will 1) conduct two randomized between-subject experiments among 6,000 (per each experiment) U.S. adolescents and an eye-tracking within-subject experiment among 300 adolescents to test effects of audio-visual features on perceptions of influencer credibility, e-cigarette harm perceptions, appeal, and susceptibility to e-cigarette use (Aim 1), and 2) detect and monitor influencers’ use of these audio-visual marketing features on social media over time (2019-2029), using computer vision (Aim 2). The goal of this project is to inform the field about adolescents’ risks of exposure to harmful influencer-driven e-cigarette-related content on social media, which can lead to more effective tobacco prevention and cessation interventions for adolescents."
+ },
+ {
+  "id": "7438eea6-b141-4330-b34b-4acd78793acb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cancer Center Administration",
+  "text": "CANCER CENTER ADMINISTRATION - ABSTRACT Administration at the Karmanos Cancer Institute (KCI) provides support to the Cancer Center leadership, Research Program and Shared Resource infrastructure, KCI membership, and staff by providing services aimed at relieving the administrative burden associated with research. Administration contributes to the mission of the Cancer Center by providing efficient management of resources, facilitating key internal and external scientific meetings, strategic planning, and developing useful metrics to aid in the decision making of KCI senior leadership. Mr. Evano Piasentin, Associate Center Director for Research Administration, leads an experienced administrative team. Administration supports 135 scientific members across four research Programs and nine Shared Resources (including one under development). Additionally, Administration manages extramural funding of $63 million (annual direct costs), KCI’s annual research budget of $21 million, and coordinated internal pilot funding of more than $2 million since the last renewal. Notable achievements during the past funding period include a restructuring of the administrative office to capitalize on the unique skills of staff and provide a more efficient and dynamic environment to meet the needs of the Cancer Center. Additionally, Administration supported the planning, process, and development of a new strategic plan through organization of strategic planning retreats convening stakeholders from various disciplines across KCI. The strategic plan is centered on five priority areas: immunology and immunotherapy, cancer metabolism and metabolomics, biology of cancer health disparities, addressing multilevel determinants of risk and survivorship, and increasing interventional research to reduce disparities. Administration continues to implement significant upgrades to the Research Administration Application (RAA©), a homegrown repository of CCSG data for KCI. With respect to space management, Administration managed a relocation of basic science laboratories from the outdated Prentis Cancer Research Building to the renovated Elliman Research Building. Finally, Administration played a central role in the development of several large, multi-PI project grants leading to the first-ever funded SPORE grant at KCI; The Michigan Prostate SPORE (P50CA186786)."
+ }
+]

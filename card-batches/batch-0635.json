@@ -1,0 +1,142 @@
+[
+ {
+  "id": "555784d5-4f7b-41d3-b0c4-f3bad0ba7fef",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Leveraging harmonized data to improve external validity and efficiency of clinical trials for treating opioid use disorder",
+  "text": "Trials for the treatment of psychiatric and substance use disorders can be difficult, time-consuming, and\nexpensive to conduct, and partially as a consequence, have sample sizes that may be underpowered for: 1)\ndetecting moderately sized average treatment effects (ATEs) that may nonetheless be important for health at\nthe population level, and 2) learning optimal individualized treatment rules (i.e., rules that match treatments to\nindividuals based on demographic and clinical characteristics that optimize outcomes of interest), which are\nthe cornerstone of personalized medicine. Data fusion is a relatively new and increasingly popular domain\nof data science that combines data from multiple studies to improve statistical power and answer questions\nthat cannot be addressed by a single study alone. Our overall objective is to develop methods that harness\nfollow-up and other post-exposure measurements as potential proxies for outcomes that are systematically\nmissing by study to deliver more precise estimates of causal treatment effects and facilitating the learning of\ntreatment rules that maximize benefits and reduce harms."
+ },
+ {
+  "id": "5561e11e-d251-4b22-846f-74a77f2dbc6e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Exploring the function of bacterial condensates in adaptation and evolution",
+  "text": "Recently, it has been realized that bacterial sensing and adaptation to environmental fluctuations is promoted by\ncondensates, which are structures that concentrate proteins and nucleic acids. However, due to their extremely\nsmall size and dynamic interactions, current methods are unable to provide insights into the exact workings of\ncondensates in bacteria. This proposal aims to observe the structure, dynamics, and interactions of bacterial\ncondensates at utmost resolution, ultimately shedding light on their role in the adaptation of both free-living and\nhost-associated bacteria."
+ },
+ {
+  "id": "556452d8-7d55-42ae-937c-d320fa21a537",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Promoting Activated Natural Killer (NK) Cell Accumulation in Pancreatic Cancer",
+  "text": "Immunotherapy has been largely ineffective in pancreatic cancer, with surprisingly little research on the roles of\nnatural killer (NK) cells in this disease. I propose to improve pancreatic cancer immunotherapy by promoting NK\ncell accumulation and co-localization with tumor cells, either by using drugs to alter the pancreatic cancer tumor\nmicroenvironment or by creating site-specific chemokine gradients that attract NK cells to promote anti-tumor\neffects. Successful completion of this project will fill current gaps in scientific knowledge and potentially identify\nnew immunotherapy strategies that can prolong life for pancreatic cancer patients."
+ },
+ {
+  "id": "556579be-8ddd-49e3-b9df-2907050e9ebb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Unveiling Cryptic Connections in Streptococcus mutans: Hidden Protein Interaction Networks, Global Posttranscriptional Gene Regulation, and Therapeutic Potential",
+  "text": "Untreated tooth decay affects more than two billion people globally, and Streptococcus mutans is a leading\nindicator of caries risk. Our project aims to understand how this organism coordinates diverse protein interaction\nnetworks to regulate gene expression posttranscriptionally, allowing it to dominate in the oral cavity."
+ },
+ {
+  "id": "556984e5-8e43-4ef2-bbee-f7add345073a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Regulation of Membrane Lipid Homeostasis",
+  "text": "These studies leverage mammalian cell genetics to make fundamental contributions to the fields of membrane\nbiology, intracellular lipid transport, LDL receptor function/endocytosis, the SREBP pathway, and regulation of\nlipid synthesis. Given that modulation of cholesterol synthesis and LDL receptor function are primary\ninterventions in the treatment of hypercholesterolemia, these studies may identify new therapeutic targets for\nthe prevention of heart disease."
+ },
+ {
+  "id": "556fbda6-a64b-4700-adb9-8751dffad50f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Determining genomic and host-environment contributions to IBD phenotypes",
+  "text": "The inflammatory bowel diseases (IBD) are chronic debilitating immune mediated diseases of\nthe gut that are a significant cause of morbidity and healthcare utilization. The incidence and\nprevalence of IBD are increasing including in populations underrepresented in genetic studies\nsuch as African Americans and Hispanics who are also reported to have more severe disease.\nThe majority of patients with IBD do not go into remission even with our most effective\ntherapies (ant-TNF medications) and there is an urgent need to understand the underlying\ncauses of the development of IBD and also the mechanisms of resistance to current treatment\nstrategies in order to improve the quality of life of the millions of people with IBD."
+ },
+ {
+  "id": "557115f1-3af6-4ad2-8ee6-833fe6cefe7e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Extracellular Vesicle Inspired Nano Vesicles for CRISPR-based Targeting of MRSA",
+  "text": "Methicillin-resistant Staphylococcus aureus (MRSA) strains are antibiotic resistant bacteria that are the leading\ncause of healthcare associated infections in the United States and around the world claiming hundreds of\nthousands of lives around the world each year. Existing clinical approaches fail to solve this global problem of\nantibiotic-resistant bacteria. This application aims to develop a novel platform for the delivery of CRISPR (a\nNobel prize winning gene editing technology) therapeutics that can be used to target MRSA without\nbackground effects on other host cells."
+ },
+ {
+  "id": "557b6c7a-50b2-4902-8e56-0094f555479d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigation of the biophysical mechanisms and membrane determinants ofrespirovirus binding and fusion using artificial lipid membranes and isolatedphysiological membranes as targets",
+  "text": "This project will contribute to fundamental knowledge about the biophysics of respirovirus\ninfection, in particular the molecular-level interactions between the virus and host cell membrane.\nRespiroviruses are a common cause of respiratory illness in humans, but for which there are no\nlicensed therapies or vaccines."
+ },
+ {
+  "id": "5581591e-2142-424a-bf16-600722de84a7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cardiac complications of dystrophin deficiency in female carriers",
+  "text": "Female carriers of Duchenne muscular dystrophy are susceptible to cardiac complications. This\nproject aims to understand how dystrophin deficiency leads to cardiac arrhythmias in\ncardiomyocytes differentiated from human induced pluripotent stem cells. Diseased cells will be\nexposed to various types of stress to understand the context in which cardiac dysfunction\nmanifest."
+ },
+ {
+  "id": "55841d49-b73a-46ce-8840-a92cf3e5f3bd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Microbial Modulation of Insect Sensory Plasticity",
+  "text": "Insects spread deadly diseases like malaria and dengue and destroy crops that feed millions, yet our tools to\ncontrol them are failing. Our research will uncover how microbes and the chemicals they produce can reprogram\ninsect senses—determining how mosquitoes find people, how crop pests choose plants, and how environmental\nchange reshapes these behaviors. By mapping these microbial pathways and identifying novel fungal\nmetabolites, we aim to create safer, sustainable alternatives to pesticides that protect both human health and\nfood security."
+ },
+ {
+  "id": "5585837f-556c-42af-9668-c44820316f0f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Quantitative point-of-care MRI for breast cancer screening",
+  "text": "(3-sentence limit)\nWe propose using ultra-low field MRI as a tool to reimagine breast cancer screening, addressing both the\nongoing debate over the risks and benefits of mammography and the widespread lack of access to screening\nacross the U.S. T1rho dispersion imaging is a promising biomarker for detecting cancerous breast tissue at low\nmagnetic field strengths. In this feasibility study, we will: (1) prototype flexible bilateral coils optimized for low-\nfield breast MRI; (2) develop a robust, compressed-sensing accelerated, T1rho-sensitive magnetic resonance\nfingerprinting sequence for cost-effective quantitative imaging, supported by our AI-based reconstruction\npipeline; and (3) validate the diagnostic performance of this approach in patients with breast cancer."
+ },
+ {
+  "id": "558c055c-b0a8-4363-8fe2-10ab610379b4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeted gene delivery to nociceptors",
+  "text": "Chronic craniofacial pain, dental pain, and certain headache disorders arise from the persistent sensitization of\ntrigeminal nociceptors. The limited current treatments for these chronic conditions often have undesirable side\neffects, so I propose developing a novel analgesic strategy using viral vectors designed to selectively target and\nexpress in trigeminal ganglion nociceptors. These innovative viral tools will not only advance the study of\ntrigeminal nociceptors across various species but also hold the potential to deliver targeted pain relief to patients\nwith treatment-resistant pain."
+ },
+ {
+  "id": "558e6eb4-26e9-4257-93e3-25cf175fac53",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Metabolic Control of Innate and Adaptive Immunity in Breast Cancer",
+  "text": "The proposed studies address the important areas of breast cancer that is the second leading cause of\ncancer-related death in women throughout the world, and the regulatory T cell-induced tumor\nimmunosuppressive microenvironment that is a major barrier for successful anti-tumor immunotherapy. The\nproposed research has relevance to public health, because it seeks to dissect novel suppressive\nmechanisms and then to develop strategies that control immune suppression mediated by regulatory T cells\nin human breast cancer. Thus, the findings are ultimately expected to improve treatment of human breast\ncancer and other cancers as well."
+ },
+ {
+  "id": "5590537f-ad98-4a14-af46-f1858fbcddc5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Assessing Brain Dysfunction in Individuals with SLE: Heterogeneity, Mechanisms and Metrics",
+  "text": "ABSTRACT – Project 2 Cognitive impairment, depression, anxiety and fatigue are highly prevalent in Systemic Lupus Erythematosus (SLE); all are components of brain dysfunction related to SLE, and all contribute significantly to the poor quality of life experienced by individuals with SLE. The overall goal of the proposed research is to continue our investigation of biologic mechanisms contributing to SLE-related brain dysfunction. Reliant on our historical strong collaboration with those engaged in preclinical studies, the studies in Project 2 have been designed based on the murine model being studied in Project 1 and the two projects will inform each other. We propose using a novel PET tracer, 18F-SynVesT-1, to evaluate regional neuronal synaptic activity in individuals with SLE compared to healthy individuals (Aim 1). We will determine whether regional metabolic abnormalities, previously documented by us in SLE that correlate with poor cognitive performance, correlate with synaptic changes in the same regions. This will have therapeutic implications. In Aim 2 we propose using independent component analysis and artificial intelligence (AI) methods (deep learning) for analysis of rs-fMRI data to identify resting state functional networks for prediction of SLE-related cognitive impairment, depression, anxiety, and fatigue. Analyses of relationships between individual network expression scores and clinical, cognitive, behavioral and immunologic (assessments of serum DNRAb titers and other autoantibodies, complement, IFNα gene expression, quinolinic acid/kynurenic acid ratios) parameters will inform us about biological mechanisms. Once identified, the networks will also allow assessment of heterogeneity; each subject will have expression scores for 4 networks (cognition, depression, anxiety, fatigue) that will reflect relative contributions of each network to their brain dysfunction. A “brain signature” that reflects clinical phenotypes and can be used for precision treatment and assessment of treatment response. We will also use scalp EEG recording to determine whether alterations in theta-gamma wave co-modulation can act as a biomarker for SLE-related cognitive impairment (Aim 3). Abnormal theta-gamma coupling (TGC) in the hippocampus has been shown during a behavioral task in the DNRAb murine model and we expect that regional TGC abnormalities measured with superficial EEG in subjects with SLE will correlate with hypermetabolism in the hippocampus and related areas. Regional hypermetabolism in these areas has been previously shown by us to correlate with poor cognitive performance and we will assess whether TGC may be a biomarker for SLE-related cognitive impairment alone or in combination with the SLE-related networks identified in Aim 2. Successful completion of the proposed research will provide insight into biological mechanisms with potential for identification of therapeutic targets. Identification of accurate and sensitive biomarkers, resting state functional networks and/or altered TGC, will permit symptom and mechanism focused clinical trials. With Project 1, these studies will extend our understanding of pathogenesis of neuropsychiatric symptoms of SLE and may develop clinically useful biomarkers."
+ },
+ {
+  "id": "5592ab1c-6c0f-4193-bf54-57145c6d00c4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cellular and Molecular Analysis Core",
+  "text": "The Cellular and Molecular Analysis Core (CMAC) is composed of 3 independent, but complementary and collaborative, cores that educate Center investigators, offer consultations about core services, and provide access to state-of-the-art methods and technologies. CMAC cores and services include 1) The Musculoskeletal Cell Core (MCC) directed by Drs. Divieti Pajevic and Gerstenfeld, which provides highly annotated human musculoskeletal tissues, human and model organism primary musculoskeletal cells, and control or genetically modified cell lines. The core also offers hands-on training on isolation and characterization of musculoskeletal cells and will optimize protocols for the isolation of circulating osteoprogenitor cells. 2) The RNA Sequencing and Spatial Transcriptomics Core (RSTC) directed by Dr. Matthew Warman, which advises about bulk and single cell RNA sequencing study design, sample size requirements, RNA and single cell extraction protocols, and data analysis pipelines and programs. The core also performs and provides hands-on training in spatial transcriptomics using Light-Seq, a pioneering, open-source, and inexpensive spatial transcriptomics technology. 3) The Directed Differentiation Core (DDC) directed by Dr. April Craft, is a new core requested by Center members and the Innovation Committee. The DDC provides hands-on training and the use of lab space, cells, equipment, and lot-tested reagents to generate musculoskeletal lineage cells from pluripotent, or multipotent, human and mouse stem cells. Services provided by the CMAC are rigorously quality controlled. The Core educates Center members about current capabilities and emerging technologies by offering workshops focusing on a specific technology, seminars that described how a Core service helped lead to important scientific discoveries, one-on-one consultations, and hands-on training sessions during which Center members are mentored and taught how to perform assays, cell manipulations, and RNA sequencing on their own. The CMAC has evolved so it will continue to have a major impact on Center members’ musculoskeletal research, and be especially helpful to early-stage investigators and investigators who are new to musculoskeletal science."
+ },
+ {
+  "id": "559873e8-a076-472f-bdcc-1b824ddba7db",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Inhibition of an Apical cAMP/cGMP Transporter (MRP4) in the Gut Induces Diarrhea",
+  "text": "This study will address a major health issue of chronic constipation in cystic fibrosis patients and geriatric\npopulation which affects the health and well-being of large populations. The research will help us understand\nthe underlying mechanism of how the impairment in intestinal fluid secretion and homeostasis contributes to\nchronic constipation. In this study, we will use clinically relevant samples from patients which warrants a high\ntranslational potential of our findings to the clinical management of the disease and will help develop new\ntherapeutics."
+ },
+ {
+  "id": "5599da4b-7db0-4c1e-94b2-9eaaf7c447c5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Spatial and Cell Specific Gene Expression Profiles in Suicide in Mood Disorders",
+  "text": "Suicide is a leading cause of death among young adults, with great social and economic costs, and poor\ntreatment options, where we find brain structural and connectivity changes, as well as gene expression and\nchromatin accessibility alterations potentially implicated in brain function.\nThis project will identify differentially expressed genes and accessible chromatin regions between suicides and\nnon-suicide depressed subjects and neurotypical controls in specific brain cell types and brain layers via spatial\nmapping of RNA transcripts.\nIdentified molecular regulators of brain cell viability and function will provide molecular leads for drug discovery\nor repurposing, which will be later tested in cellular and animal models before bringing new compounds to clinical\ntrials and the market."
+ },
+ {
+  "id": "55a211cf-fe93-416b-96ed-22274af238b8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Schottky Field Emission Scanning Electron Microscope (FESEM) with serial block-face imaging for a multi user core imaging facility",
+  "text": "Analysis of the fine structure of tissue, cells and pathogens is an integral part of biological investigations. The\nscanning electron microscope described in this proposal will provide a powerful method to allow each investigator\nto perform high resolution analysis of tissues, cells, sub-cellular organelles, bacteria, fungi and viruses in 3D,\nadding a volume ultrastructural view to the data acquired during their investigations."
+ },
+ {
+  "id": "55a9cdd7-15a3-4e92-baa7-dddbed502322",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A modular bioluminescence imaging platform using a novel multi-aperture method",
+  "text": "InVivo Analytics seeks funding for developing a modular imaging platform for bioluminescence\nimaging of small animal models addressing challenges in imaging performance and sensitivity,\nmulti-view imaging, anatomical co-registration, user accessibility, and automated image data\nanalysis."
+ },
+ {
+  "id": "55ac7667-b753-4066-b23f-aa13e555af86",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Conformable Cranial Ultrasound Patch for Monitoring Neonates with Germinal Matrix Hemorrhage",
+  "text": "This project is to propose a conformable and intelligent cranial ultrasound patch (CCUP) for simultaneous\nmeasurement of ventricular and sub-arachnoid size as well as cerebral blood flow. The CCUP with phased array\ntransducers positioning over the soft spot of an infant's head to imaging the large anterior fontanelle, enabling\nreal-time imaging and with AI analysis to enhance clinical decision-making on germinal matrix-intraventricular\nhemorrhage through continuous monitoring, improved diagnosis, and treatment prescription. By making cranial\nultrasound monitoring more accessible, efficient, and personalized, it holds the potential to transform patient\ncare, reduce healthcare costs, and contribute to better long-term outcomes for the care of neonates in the NICU,\noperating room and at home."
+ }
+]

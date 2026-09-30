@@ -1,0 +1,142 @@
+[
+ {
+  "id": "079d1f24-4e50-4dfe-99d0-67f536545260",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Regulation of lysosomal potassium channels",
+  "text": "Program Director/Principal Investigator (Last, First, Middle): Ren, Dejian\n Lysosomes are important to many aspects of cellular function, and dysfunction in lysosomes results in\ndiseases such as lysosomal storage diseases and neurodegeneration. The proposed research will determine\nthe molecular mechanisms by which the lysosomal potassium channel protein TMEM175 is regulated and how\nthe channel contributes to lysosomal function and neurodegenerative diseases. The studies will lead to\ndiscoveries related to neurodegenerative diseases and will provide foundation for disease intervention.\nPage"
+ },
+ {
+  "id": "07a768b3-9140-4838-8b60-6bb6d3b92b38",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Precision single-cell mapping of chromatin-associated protein activity by molecular footprinting to chart disruptions to gene regulation and dissect tumor heterogeneity in cancer",
+  "text": "Single cells are the fundamental unit of human biology, and understanding the mechanisms of gene regulation\nat the level of the single cell is crucial for defining dysregulation in cancer, as well as for identifying new targets\nfor the development of more effective anti-tumor therapies. Although recently there have been incredible\nadvances in single-cell sequencing methods, due to technical limitations we currently lack approaches that are\ncapable of directly mapping all the regulatory protein factors that bind to DNA to enact gene expression programs\nat the single-cell level, leaving a significant gap in our knowledge of the gene regulation landscape and how this\nis altered in cancer cells. To address this challenge, here we develop high-throughput methods to map single-\ncell DNA:protein interactions together with other genetic, chromatin, histone or transcriptomic features to\naccurately define gene regulatory networks in single cells, which can be leveraged to chart cellular dysregulation\nat unprecedented detail in human tumor cells."
+ },
+ {
+  "id": "07a8f6ba-46fd-4e56-906b-b7d13a6811c0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Utilizing platelet-targeted gene therapy to induce immune tolerance in food allergy",
+  "text": "Food allergy is a significant public health and economic concern. It occurs when oral immune tolerance fails, and\ncurrently, there is no cure for those with food allergy. In this application, we aim to develop a new approach to\ninduce immune tolerance for treating food allergy using platelet-targeted gene and cell therapy."
+ },
+ {
+  "id": "07acf43a-e7eb-4e87-911f-ffd12d0b6440",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multivariate genome-wide association analysis of opioid-related traits in half a million diverse individuals",
+  "text": "Opioid use disorder (OUD) is a serious public health emergency in the United States and across the globe.\nAlthough it is clear that OUD is heritable, very few genes have been identified. We will collect detailed\ninformation about pre-addiction traits, including opioid use and misuse in half a million research participants for\nwhom genotype information is also available, and will use these data to better understand how genetic\ninfluences shape use and misuse of opioids, which will foster discoveries that can improve options for\npreventing and treating OUD."
+ },
+ {
+  "id": "07b5c28f-8df5-4c97-b9f0-fae9d5d4a35d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Non-Invasive Seizure Forecasting System Using E-Diaries, Internal and External Factors",
+  "text": "The proposed research is relevant to public health because seizures affect approximately 4 million people with\nepilepsy in the United States. The project is relevant to the NINDS mission of reducing the burden of neurological\ndisease. Noninvasive forecasting of seizures could profoundly improve the quality of life, decrease injuries and\ndecrease mortality."
+ },
+ {
+  "id": "07b66093-cf5f-4549-bac1-a56527005eea",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms Governing Nerve-Mediated Control of Corneal Wound Healing: New Hope for Patients with Neurotrophic Keratopathy",
+  "text": "The mechanism of sensory innervation-induced regulation of limbal stem cells (LSCs) during corneal epithelial\nrenewal, required for corneal maintenance and wound healing and ultimately critical for vision, is unknown.\nBased on preliminary findings, we hypothesize that Schwann cells (SCs) residing in the corneal limbus alongside\nLSCs are critical in mediating the innervation-dependent activity of LSCs. Therefore, we propose mechanistically\ndefining the paracrine interactions between SCs and LSCs that regulate LSC activity, which, in turn, will enable\ndevelopment of novel topical therapeutics to treat NK in human patients."
+ },
+ {
+  "id": "07bfb345-7533-49fb-84b9-b2b085c9b225",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Enhancing endothelial cell engraftment via transplantation of exogenous mitochondria",
+  "text": "Ischemic diseases, like heart attacks, occur when blood flow to organs and tissues is blocked, leading to damage.\nThis project aims to develop a new method to improve the transplantation of endothelial cells by using exogenous\nmitochondria, enhancing the restoration of small blood vessels in affected tissues."
+ },
+ {
+  "id": "07c00008-834f-41ce-abb1-2ead8449f491",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The paradox of flavivirus antigenic non-reciprocity",
+  "text": "Pre-existing immunity to one mosquito-borne flavivirus can affect the outcome of infection with other flavivirus-\nes in complex ways. We propose to integrate studies of human populations and non-human primate models to\nunderstand how the order in which one is infected with different flaviviruses affects the immune response and\noutcome of infections. Our findings will contribute to improved vaccination strategies and risk assessments of\nemerging flaviviruses."
+ },
+ {
+  "id": "07c0f561-393d-4d9f-9f50-688d039be184",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Opportunistic Screening for ASCVD using a Multimodal Deep Learning Risk Prediction Model",
+  "text": "Public Health Relevance\nPROJECT NARRATIVE Routine chest CT examinations contain prognostic information that is\noften underutilized for its value in primary prevention of atherosclerotic cardiovascular\ndisease (ASCVD), leaving missed opportunities for incidental screening to predict future\ncardiovascular events, such as heart attack and stroke. Current risk assessment tools,\nsuch as Pooled Cohort Equations (PCE), are poor predictors of ASCVD due to data\nlimitations, most notably the static nature of the data and lack of model complexity,\nresulting in misestimation in younger patients with minimal comorbidities. A graph- based\nmultimodal fusion model that integrates imaging and electronic medical record data is\nessential to addressing the data limitations of outdated tools and creating more\nsophisticated technology that supports opportunistic screening of a larger population of\npatients as well as earlier prevention strategies and therapeutics."
+ },
+ {
+  "id": "07c49275-c255-40c3-bf29-348f6952514e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Editing basal cells for durable gene therapy of cystic fibrosis",
+  "text": "Here, this proposal is relevant to public health because it seeks to develop lipid nanoparticles that protect\ntherapeutic nucleic acids and overcome the mucus and cellular barriers to deliver therapeutic nucleic acids that\ncorrect mutations towards treatment of genetic disease cystic fibrosis for durable therapy. The proposed work is\nrelevant to part of the NIH’s mission to help further understanding biological systems and leveraging that\nknowledge to improve health and reduce illness."
+ },
+ {
+  "id": "07cb4187-2cb5-434d-90e5-7bdc39bcba3e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Conformational Energetics and Heterogeneity to Reveal Gating Mechanisms of TRPV and TRPM Ion Channels",
+  "text": "TRPV1-2 and TRPM2 ion channels are multimodal sensors that transduce a variety of signal\nmodalities into electrical signals to allow cells to adapt to their changing environment. In this\nproposal, we will use a combination of patch-clamp electrophysiology and fluorescence lifetime\nimaging microscopy to measure the energetic coupling between the sensing modules and the\nchannels’ gates and among different sensing modules to explain the molecular mechanisms by\nwhich environmental signals control the gating process."
+ },
+ {
+  "id": "07dd8b64-2371-4691-9a6a-ff9d792a7997",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Biomechanics in Regenerative Medicine (BiRM) Training Program",
+  "text": "To meet the challenges in regenerating, repairing or replacing tissues that serve a mechanical function, the\nBiomechanics in Regenerative Medicine (BiRM) training program aims to provide holistic training to doctoral\nstudents in bioengineering to excel in both biomechanics of all relevant length scales and in regenerative biology.\nThe combined strengths of the University of Pittsburgh, Carnegie Mellon University, the University of Pittsburgh\nMedical Center and the McGowan Institute for Regenerative Medicine make it a unique place for a new\ngeneration workforce to be trained in order to meet the critical needs for improving existing as well as to develop\nnovel and advanced therapies in regenerative medicine."
+ },
+ {
+  "id": "07e187fc-bfb0-483a-8eb7-1ffaebfae982",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Orthogonal CRISPR GEMMs",
+  "text": "This work aims to further a technology that enables the study of genetic interactions in vivo with the\ngoal of overcoming the one-gene-at-a-time approach to studying functional genomics in mouse models."
+ },
+ {
+  "id": "07eb55fc-4f30-47ea-ba54-b8827a77bb35",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "AI-based Clinical decision support to idenTify wOmeN for HIV testing and PrEP in Florida (ACTION-HIV)",
+  "text": "PROJECT NARRATIVE/PUBLIC HEALTH RELEVANCE\nThe project proposes to develop an HIV risk prediction model (ACTION-HIV algorithm) that can detect women\nwith a higher risk of HIV and translate the ACTION-HIV algorithm into a clinical decision support (CDS)\nplatform integrated into an electronic health record (EHR) system to assess its feasibility, acceptability, and\nusability. This is a major step toward overcoming the gaps in existing HIV risk prediction algorithms and\nhelping providers identify women for HIV testing and pre-exposure prophylaxis (PrEP). Our innovative EHR-\nbased CDS tool is relevant to public health as it can have a potentially significant impact on increasing HIV\ntesting, reducing sex disparity in PrEP uptake, and decreasing new HIV infection in Florida."
+ },
+ {
+  "id": "07f37a1f-fd43-4f03-a06c-415ca2d011b9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Inflammatory cell death in systemic lupus erythematosus",
+  "text": "This project is relevant to public health because it addresses the molecular mechanisms that cause and\nperpetuate systemic lupus erythematosus (SLE), a debilitating disease that disproportionately affects women in\ntheir 20s to 50s. We will establish new biomarkers to quantitate inflammatory cell death pathways of\nimportance in SLE."
+ },
+ {
+  "id": "07f3fc0b-5992-4651-a533-af1fc48248d6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "EMbArK: Empagliflozin Treatment of Ischemic with Non-Obstructive Coronary Arteries (INOCA)",
+  "text": "Ischemia with Non-Obstructive Coronary Arteries (INOCA) is an increasingly recognized disease caused by\ncoronary microvascular dysfunction (CMD) and endothelial dysfunction (EnD), that leads to impaired myocardial\nblood flow, ischemia, and angina despite the absence of obstructive coronary disease. The goal of this is study\nis to investigate the effects of sodium–glucose co-transporter 2 inhibitors (SGLT2i) on CMD and EnD in INOCA\npatients with CMD through a randomized, double-blinded, placebo-controlled, mechanistic clinical trial; and to\ninvestigate the tumor necrosis factor α, nuclear factor kB, endothelin-1 (TNFα – NF-κB – ET-1) pathway on EnD\nin INOCA participants with CMD, and how it is modulated by SGLT2i. We hypothesize that SGLT2i will improve\nCMD; and that there is increased activation of the TNFα – NF-κB – ET-1 pathway resulting in EnD in INOCA\nparticipants with CMD that will be disrupted by SGLT2i leading to reversal of EnD."
+ },
+ {
+  "id": "07fb0283-ae8f-4740-b86d-5613c3ff46b4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Metabolism and physiology of tissue stem cell lineages in the Drosophila ovary.",
+  "text": "Stem cells maintain the function of many of our organs and are highly influenced by\nmetabolism, physiology, and various stresses. We propose to take advantage of\npowerful research tools in fruit flies to discover how cellular metabolic requirements\nchange as stem cells divide and give rise to the specialized cell types of our organs, and\nhow brain dopamine and other stress-related factors influence these cells. This work will\ngenerate foundational knowledge about how stem cell lineages are regulated and\nimpacted by metabolic abnormalities or stresses, which will be broadly relevant to a wide\nvariety of organisms, including humans."
+ },
+ {
+  "id": "07ff875b-86ae-48ee-b01b-d32be83fb01e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Myelin and non-myelin immune responses in Multiple sclerosis",
+  "text": "In this project, we will study the cross-reactivity of myelin specific CD4 T cells in Multiple sclerosis (MS) patients’\nblood and cerebrospinal fluid. Additionally, we will test the cross-reactivity in transgenic model. The outcome of\nour studies will have major implications for understanding MS-initiating triggers."
+ },
+ {
+  "id": "0801ee71-e962-45a4-bfc4-5232d36feb09",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Chemoenzymatic glycan editing for deciphering biological functions of glycans",
+  "text": "RELEVANCE / PROJECT NARRATIVE\n Understanding glycan-mediated signaling, cell differentiation, activation or suppression will pave the way\nfor the development of glycan-centric approaches for the treatment of a wide range of human diseases. These\nresearch efforts are closely aligned with the NIH NIGMS mission to promote glycoscience and to support the\ndevelopment of tools and methods to engineer and manipulate cells to advance our understanding of\nfundamental cellular principles."
+ },
+ {
+  "id": "080ba6bd-d43a-412a-9c57-1ef88134e1da",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Regulation of Myonuclear Turnover Dynamics in Multinucleated Muscle Cells",
+  "text": "Maintaining healthy skeletal muscles is crucial for health and longevity. This project aims to address a critical\ngap in our understanding of skeletal muscle biology by determining the extent, and underlying mechanism, of\nmyonuclear turnover under resting conditions, with age or in response to exercise. This project has important\nimplications for the maintenance of muscle quality during the aging process, and furthermore, for the potential\nlong-term efficacy of gene therapy strategies for treating muscle diseases."
+ }
+]

@@ -1,0 +1,142 @@
+[
+ {
+  "id": "ba0d1506-db51-43df-a06f-3744ca008e50",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Biocatalytic synthesis of complex medicinal small molecules informed by A.I. planning",
+  "text": "Enzymes enable the synthesis of complex pharmaceutical agents because they catalyze selective\nchemical reactions under mild conditions. We will develop and test computational tools capable\nof proposing synthesis routes (or “recipes”) that primarily use enzyme catalysis to make complex\npharmaceutical agents. These computational tools would identify ways to cost-efficiently\nmanufacture complex pharmaceutical agents and would improve our ability to synthesize a\ndiverse library of complex chemical compounds for drug discovery."
+ },
+ {
+  "id": "ba19e5ee-0d11-4fe4-8917-6a930c92a628",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project 3:  Intraarticular Mineralization",
+  "text": "Project 3: Intra-Articular Mineralization Intra-articular (IA) mineralization due to calcium crystal deposition is common in knee osteoarthritis (OA), and may contribute to inflammation, structural pathology, and pain. However, prior studies have been conflicting regarding its clinical relevance, likely partly due to reliance on relatively insensitive radiographs. In addition, the particular crystal type may have different consequences in OA. We plan to address these key knowledge gaps by use of dual energy CT (DECT) to more sensitively detect IA mineralization, and apply a novel image analysis method to differentiate type of crystal present in the IA mineralization. We hypothesize that IA calcium crystal deposition may induce low-grade inflammation that can contribute to pain and its fluctuation in OA. Further, particular types of calcium crystal (calcium pyrophosphate [CPP] vs. basic calcium phosphate [BCP]) may contribute differently to OA outcomes. Clarification of potential consequences of IA mineralization and specific crystal types in knee OA would enable examination of IA mineralization as a treatment target in OA with therapies such as anti-IL-1β or other anti-cytokine therapy addressing inflammation due to crystals. We will leverage data collected in the Multicenter Osteoarthritis (MOST) Study, including previously acquired DECT and stored blood biospecimens, and take advantage of the planned synovial fluid acquisition in conjunction with the proposed MOST4 Project 4 on synovial fluid proteomics. Using these rich data, we propose to evaluate the following: 1) the relation of IA mineralization to pain fluctuation over two years; 2) the relation of IA mineralization to serum inflammatory markers; 3) type of crystal (CPP vs. BCP) and volume of each type using novel DECT image analysis, and determine the extent to which each crystal type is related to serum inflammatory signatures, structural progression, and pain; 4) To examine the synovial inflammatory signatures via proteomics in knees with crystal-proven CPP vs. BCP (exploratory pilot aim). We will work with Dr. Fabio Becce who has developed the novel image analysis methods to differentiate crystal type on DECT, as well as with Dr. Ann Rosenthal who will use Fourier transform infrared spectroscopy to identify crystal type in synovial fluid to permit proteomics analysis of synovial fluid containing CPP vs. BCP. In exploratory analysis using deep learning, we will evaluate the relationship of crystal type to co-localized predicted cartilage loss. These proposed studies are innovative as they will provide novel insights into the inter-relationships between IA crystals, inflammation, pain, and pathology in OA. The proposed research is significant as such insights would lay the foundation for identifying an important OA phenotype targetable by effective anti-cytokine therapy leading to disease modification. This would provide an important breakthrough for this disease in which there are no disease-modifying therapies available to date."
+ },
+ {
+  "id": "ba1bd1fe-f849-4e17-a574-040e0c3e0250",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A Program Investigating New Concepts ofMacrophage Biology in Atherosclerosis and Atherosclerosis-MASH Cardiometabolic Disease",
+  "text": "Tabas R35 Project Narrative\nThis NHLBI R35-Outstanding Investigator Award proposal explores new concepts related to macrophage biology\nin atherosclerosis and integrates these concepts with an area of great interest to NHLBI, the exacerbation of\nCVD by a very common type of obesity-driven liver disease called metabolic dysfunction-associated\nsteatohepatitis (MASH). We will explore (a) how impaired uptake of dying cells by macrophages can promote\nthe types dangerous of atherosclerotic lesions that cause acute heart disease as well as contribute to the\ncombined syndrome of atherosclerosis-MASH; and (b) how these findings can inform the development of novel,\ncutting-edge therapies, including \"designer\" macrophage cell therapy and macrophage-targeted RNA therapy.\nIn summary, successful completion of this R35 program will address key gaps in our knowledge of how certain\npathogenic defects in macrophages drive cardiometabolic disease; lead to the conceptualization of novel\ntherapeutic strategies to correct these defects; and promote the training and mentoring of young scientists in this\ncritical area of research, thus amplifying the benefit of the R35.\n1"
+ },
+ {
+  "id": "ba24879b-efe0-4842-a891-4aae8f159636",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Understanding Low-Value Veteran Care with Natural Experiments",
+  "text": "Veterans, like other patient populations, often receive low-value health care services whose costs or harms\nexceed their benefits. Our work will address two key knowledge gaps on this topic. First, while low-value\nservices are common, it is not clear why Veterans receive them. We will test whether the Choice/MISSION Act\nreforms, which increased Veterans’ access to non-VA clinicians, increased Veterans’ risk of receiving low-\nvalue services. Second, we lack high-quality evidence on what constitutes low-value care as well as what\nstrategies are effective for translating evidence into clinical decision-making. We will investigate strategies to\naddress low-value care via evidence development and evidence translation. Thus, our research will elucidate\nthe causes of, and potential solutions to, low-value health care. This work directly aligns with the VA mission of\nensuring high-value Veteran health care. It will provide VA with critical information to prioritize and implement\npolicies with the goal of reducing low-value Veteran care in VA and non-VA settings."
+ },
+ {
+  "id": "ba25f2e1-e1dc-40b1-b07a-1e5387f6cd94",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Leveraging Sleep-Circadian Signatures to Predict Substance Use Outcomes in Adolescence",
+  "text": "PROJECT 2 Adolescence heralds an alarming escalation in substance use (SU), especially nicotine and cannabis. SU is often initiated in middle adolescence and accelerates in late adolescence, making early adolescence (11-13yr) is a crucial window for detection and early intervention. Machine learning models to identify at-risk youth are expanding but have had only modest practicality and predictive value. Moreover, even if elevated SU risk is present (e.g., via maladaptive reward and cognitive control processes), early adolescents may not yet exhibit a level of SU that would trigger intervention. Modifiable SU risk factors should be incorporated into risk stratification models to enhance screening, improve prediction, and guide preventive care. Circadian rhythm and sleep disturbances present a collection of such risk factors, as they have strong ties to SU risk. Moreover, their effects on intermediary markers of SU risk in adolescence – disrupted reward and cognitive control systems—provides a plausible mechanistic substrate. Despite advances in our understanding and measurement of sleep-circadian health, our ability to use these data to identify at-risk youth is limited because: (1) the heterogeneity of sleep- circadian characteristics hinders the differentiation of normative versus at-risk patterns; (2) the multidimensionality and multimodality of sleep-circadian data has led to inconsistencies regarding which features and modalities are critical for screening; and (3) large samples with multimodal sleep-circadian data are rare, yet necessary to develop and validate screening algorithms. The primary goal of the Center for Adolescent Rhythms, Reward and Sleep (CARRS-2) is to understand how sleep and circadian rhythms during adolescence lead to increased vulnerability for SU. In CARRS-2 Project 2 (P2), we will adapt and apply a computational sleep health framework to identify multimodal sleep-circadian signatures, link them to prospective changes in SU risk, and develop practical screening algorthms. To do so, we will leverage the NIDA-funded Adolescent Brain Cognitive Development (ABCD) study: the largest longitudinal study of child development in the United States, in which about 4,800 children followed between ages 11-19yr are completing multimodal measures of SU, reward, cognitive control, and sleep-circadian characteristics (self-report, parent-report, FitBit). In ABCD, we will develop and validate multidimensional and multimodal sleep signatures (Aim 1) and practical and scalable SU risk stratification algorithms (Aim 2). Aims 1-2 will employ a sequential, multimodal machine learning workflow to establish the extent to which each data modality can incrementally inform sleep-circadian signatures and identify youth at greatest SU risk. In Aim 3, we will externally validate signatures and algorithms from Aims 1-2 using a one-of-a-kind harmonized University of Pittsburgh adolescent cohort. These aims will be accomplished via heavy integration with the Center Cores. Our long-term goal is to use modifiable sleep- circadian signatures to inform SU screening, risk stratification, and developmentally appropriate interventions."
+ },
+ {
+  "id": "ba2e3afd-e0c5-49f3-b08f-8b16ab18e0cd",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Huntsman Cancer Institute Oncological Data Science (ODSi) Training Program",
+  "text": "The Huntsman Cancer Institute (HCI) Oncological Data Science (ODSi) Training Program will support six PhD\ncandidates each year. Students will participate in a two-year training program consisting of a combination of\nmentored research, didactic courses, career development activities, seminars, and conferences. The program\ngoal is to prepare young scientists to become data ambassadors and data innovators in the use of\nbiomolecular-anchored data science techniques and methodologies to advance the understanding, prevention,\ndiagnosis, and treatment of cancer."
+ },
+ {
+  "id": "ba30e095-d154-44e1-9b47-30bc520af24c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "DEFINING THE ROLE OF RNA SEQUESTRATION IN MAMMALIAN CELL FATE",
+  "text": "Post-transcriptional mechanisms have the potential to influence complex changes in gene expression, yet their\nrole in mammalian cell fate transitions remains incompletely understood. The research outlined in this proposal\nwill elucidate the cellular, molecular, and functional role of RNA sequestration in mammalian embryogenesis and\nadult hematopoietic homeostasis. We expect that results from these studies will yield fundamental insights into\nthe general principles that control cell identity and enable the development of novel anti-cancer and regenerative\nmedicine therapies."
+ },
+ {
+  "id": "ba364cc3-ead0-4c0a-b52e-972cdffd7966",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Endovesiclosis: A Pathway for Translocating Nanoscale Cargo into Extracellular Vesicles",
+  "text": "Extracellular vesicles (EVs) are nanoscale mediators of intercellular communication with promise for\nregenerative medicine. Yet, inefficient therapeutic cargo loading and lack of in vivo tracking limit their clinical\ntranslation. This project develops EVOLVE, a force-free, nanoparticle-based platform enabling precise EV\nengineering, non-invasive imaging, and functional cargo delivery for bone regeneration using miRNA and\nCRISPR."
+ },
+ {
+  "id": "ba41e144-041f-4b99-ab70-bf33185d1f8e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Elucidating the role of subretinal microglia in geographic atrophy",
+  "text": "Geographic atrophy is the advanced “dry” form of age-related macular degeneration, a leading cause of\nblindness in the developed world, for which better treatments are needed. This proposal aims to better\nunderstand how a specific type of immune cell, called microglia, affects the retinal cells that die in this\ncondition. By uncovering how these cells interact during retinal degeneration, we hope to identify new targets\nfor drug development to better treat this common, debilitating disease."
+ },
+ {
+  "id": "ba459ee7-2566-44f9-820d-6f4f0a282b41",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Leveraging computational strategies to disentangle the genetic and neural underpinnings of ADHD and its associated cognitive systems",
+  "text": "Cognition is relevant to the origins and outcome of different types of psychopathology, but the specifics of this\nrelationship are not well understood. The NIMH’s RDoC framework encourages examination of transdiagnostic\ntraits, as well as genetics and brain systems, to advance knowledge. We aim to use this approach, along with\nnewly available samples in the field and computational strategies we developed, to validate and demarcate the\ngenetic and neural underpinnings of cognitive systems in relation to ADHD and child psychosocial outcomes."
+ },
+ {
+  "id": "ba4d1f5f-5c5b-4e45-b3ca-fb3a255ab5d7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "RR&D Gordon Mansfield Spinal Cord Injury Consortium",
+  "text": "Numerous veterans are living with spinal cord injury. The project will fund a consortium of\nleading spinal cord injury researchers to work collaboratively to develop therapies to repair the\nchronically injured spinal cord and to maximize functional recovery. Research will focus on the\npromising biology of stem cells to replace lost cells and form new neural circuits, in combination\nwith: 1) rehabilitation strategies to train the spinal cord to use the new circuits, and 2) spinal\nepidural stimulation to amplify stem cell-mediated recovery of function."
+ },
+ {
+  "id": "ba4d2f21-6ca7-46df-af1d-aaf084a27d9b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Modulation of pain mechanisms by cannabis-derived phytochemicals.",
+  "text": "Chronic pain – often arising from musculoskeletal injury, neurological disease, cancer, or autoimmune disease – affects\n~100 million Americans. There is growing evidence that the plant Cannabis sativa has analgesic and anti‐inflammatory\nproperties without the detrimental side effects seen by opioid use. Our studies will find the ingredients in Cannabis that\nreduce inflammation and chronic pain, which may help abate the nation's opioid epidemic."
+ },
+ {
+  "id": "ba4ec897-91a2-44fa-90bb-9f90c7981b44",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Role of Exercise in Controlling Central Mediators of Circadian Rhythm",
+  "text": "Circadian disruption can lead to many deleterious health outcomes including cardiovascular disease, stroke, and metabolic syndrome. Furthermore, the International Agency for Research on Cancer, has declared night shift work detrimental to human health, based on “the potential for circadian disruption to contribute to the etiology of cancer or other diseases”. Identifying ways to mitigate the harmful consequences that arise from circadian disruption negatively impacting human health is imperative."
+ },
+ {
+  "id": "ba533e91-760f-447a-9714-057a6ff9aba1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Catalyzing cancer research through the use of advanced functional genomics and cell engineering technologies",
+  "text": "Dr. Joshi is a pivotal leader at the University of Colorado Cancer Center’s Functional Genomics\nShared Resource (FGSR), one of the nation’s premier core facilities. As an outstanding\nAssociate Director for FSGR and a career cancer scientist, Dr. Joshi has significantly advanced\nthe identification of novel cancer targets and drug combinations, facilitating numerous clinical\ntrials. Her commitment to innovation in functional genomics and cell engineering technologies\ncontinues to catalyze breakthroughs in cancer research. She hopes to bring stability to her\ncareer as a core-based scientist and continue to innovate through the R50 award mechanism."
+ },
+ {
+  "id": "ba5aa689-1320-42ee-9b4e-baa567e26eb5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Genetic Targeting Core",
+  "text": "Project Summary – Genetic Targeting Core Substance use disorders (SUD) are characterized by dysregulation of brain circuitry that involves diminished activity of the brain reward circuits, increased responsiveness of the stress circuits and impaired functioning of the executive cortical circuits. Neural changes are observed in the basal ganglia, extended amygdala and prefrontal cortical regions and encompass a wide range of endogenous neurotransmitters including dopamine, opioid peptides, endocannabinoids, corticotropin releasing factor (CRF), dynorphin, glutamate and others. It implies that these maladaptations may be causally responsible for behavioral changes often observed in chronic drug users, for example habit formation and compulsive drug taking, that further worsen the neuronal and behavioral signs of SUD. Restoration of normal functioning of the brain circuits is therefore a desirable goal of SUD therapies. However, the exact influence of chronic drug use on the addiction brain circuits and how manipulation of these circuits could prevent or treat substance use disorders remains to be elucidated. As part of the Center of Excellence in Addiction Studies, the Genetic Targeting Core (GT Core) will assist users in obtaining preliminary data on neural mechanisms of addiction that will form basis for future NIDA grant applications. The GT Core will provide services to target and manipulate the addiction circuits in a cell specific and circuits specific manner using state-of-the-art genetic techniques, including optogenetics, chemogenetics and CRISPR/Cas9 gene editing. Optogenetic strategies use microbial-based light activated ion channels (opsins) that allow fast neuronal activation (channelrhodopsins) or inhibition (halorhodopsins, archaerhodopsins), while chemogenetic approaches use engineered ion channels (PSAMs) or G protein- coupled receptors (DREADDs) that can be activated pharmacologicaly. CRISPR/Cas9 gene editing allows direct in vivo manipulation of the genome in rodents. The introduction of functional transgenes, such as opsins and DREADDs or editing of native genes requires in vivo delivery and expression of genetic material in desired cells. This is accomplished with viral or nonviral vector systems. Cell and circuit specificity can be further enhanced by the use of a specific Cre-driver mouse line. The GT Core will provide three main services to its users that correspond with the three Specific Aims: 1) assist with the selection of gene targeting methods, including the choice of the transgenic mouse line, and the type of viral vector; 2) optimize and implement gene delivery using high precision stereotaxic instruments; and 3) verify the efficacy of gene targeting using fluorescent microscopy or protein and gene quantification techniques. The GT Core will coordinate work with the Administrative, Behavioral and Neuroanalytical Cores to develop effective experimental strategies that involve several Cores. The close collaboration between our Cores ensures high expertise in all areas of the addiction research and will permit establishment of standardized outcome measures emphasizing scientific rigor and reproducibility."
+ },
+ {
+  "id": "ba5d69e6-e5c6-4c1f-af0a-017ea7ac4e2d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Machine learning based frailty index for the genetically diverse mice",
+  "text": "RELEVANCE TO PUBLIC HEALTH\nAging is a chronic condition that afflicts all living systems; healthy vs. unhealthy aging can be measured using\na frailty index which is often used in interventional studies. Here we propose to develop scalable frailty index\nusing computer vision and machine learning in the context of genetically diverse mouse populations with diet-\nbased interventions to mimics human aging. The resulting tool will strengthen the utility of animal models for\nbehavioral and social research toward understanding how social and physical environmental factors contribute\nto aging processes and the etiology and progression of age-related conditions and diseases."
+ },
+ {
+  "id": "ba602fb3-dc86-4d15-a443-3f4b1272aa87",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Reprogramming tumor-associated macrophages with theranostic nanoparticles",
+  "text": "The goal of this project is the improvement of cancer therapy by employing nanoparticles\nto reprogram the innate immune system to more effectively treat cancer throughout the\nbody. The nanoparticles are visible in magnetic resonance imaging and provide a boost\nof extra energy to their immediate surroundings during therapeutic irradiation. The\nactivation of immune cells in the tumor will lead greater tumor shrinkage locally and for\nmetastases, leading to longer overall survival relative to radiation treatment alone."
+ },
+ {
+  "id": "ba641ea6-af3d-4d0d-8846-db870c93f0d3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeted Dual Modality Imaging for Detection and Removal of Head and Neck Cancer",
+  "text": "Despite advances in operative technology, intraoperative methods have not improved cancer detection\nduring surgery in the past 30 years. In response to the recent Moonshot Initiative PAR-20-250 that solicits\n“concepts that propose a path to clinical validation … for probes with previously demonstrated\ncapabilities for the detection of small tumors”, we propose to test the combination of high-\nresolution/depth-limited imaging properties of optical imaging agents with the low-resolution/tissue\npenetrating properties of nuclear agents for detection of primary tumors and regional lymph nodes. We\npropose that combined optical and nuclear imaging can detect tumor fragments less than 1 mm3 in vivo\nduring removal of head and neck cancers."
+ },
+ {
+  "id": "ba665d0b-fc36-456b-8fd5-815a5f398691",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "CRISPR/Cas9-based gene editing approaches for the treatment of USH2A-associated diseases",
+  "text": "Pathogenic variants in the USH2A gene are the most prevalent causes of autosomal recessive retinitis\npigmentosa and Usher syndrome, the leading cause of inherited deaf-blindness. Due to technical limitations\nof viral mediated gene delivery, conventional gene augmentation therapy is not amenable for treating USH2A-\nrelated disorders. This project aims to explore and evaluate the therapeutic potentials of CRISPR/Cas9-based\ngene editing strategies for correcting or repairing the pathogenic variants in the USH2A gene."
+ },
+ {
+  "id": "ba781af7-ecc1-4ce6-a0ff-53522ede7203",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Defining the Notch niche for Intestinal Stem cells",
+  "text": "This proposal investigates Notch signaling in intestinal stem cells throughout the development of\nthe intestinal barrier. These aims will inform novel approaches in regenerative medicine for the\ntreatment of diseases caused by improper intestinal development or those presenting with\nintestinal injury."
+ }
+]

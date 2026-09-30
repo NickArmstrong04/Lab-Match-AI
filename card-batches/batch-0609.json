@@ -1,0 +1,142 @@
+[
+ {
+  "id": "4caee339-3ed7-4f90-a985-5a8c3757f9f7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multimodal genetic regulatory architecture of coronary artery disease",
+  "text": "Coronary artery disease (CAD) remains a global public health burden despite advances in risk factor targeted therapies. Meta-analyses across ancestrally diverse populations have identified >300 genetic loci associated with CAD risk. We and others have investigated candidate genes that are dysregulated in the coronary vascular wall; however, the causal genes and regulatory mechanisms remain mostly unknown. Recent advances in single-cell genomics profiling have begun to unravel the cellular diversity during atherosclerosis. Molecular quantitative trait (QTL) mapping and gene regulatory network approaches in disease-relevant tissues have refined some of the regulatory mechanisms, however the specific cell types and phenotypic states driving these changes remain unclear. We have leveraged a large biobank of coronary artery tissues from ancestrally diverse individuals to perform bulk and single-cell profiling of genetic variation and cell states. Using single-nucleus profiling of chromatin accessibility in healthy and subclinical atherosclerotic coronary arteries we identified cis-regulatory elements to explain transitions of smooth muscle cells (SMC) to fibroblast-like cell types. By meta-analyzing single-cell gene expression data in atherosclerosis, we have also identified etiologic SMC phenotypic states underlying CAD as well as coronary artery calcification (CAC). Here we propose to extend our previous efforts to apply multimodal single-cell profiling to capture QTLs and gene regulatory mechanisms in both subclinical and advanced atherosclerotic coronary segments. Building on our holistic framework and resources, this proposal will generate unprecedented insights into the hierarchical regulatory networks that influence dysregulated vascular wall processes. By enriching these high-resolution data with large-scale population genetics, clinical imaging, and genomic and histologic cardiometabolic tissue biobanks we will provide context for translating these findings to patients at various stages of disease. We have already identified several disease stage and cell state-specific markers for atherosclerosis. We will validate and discover new candidate causal genes and functional regulatory elements using perturbation assays coupled to high-throughput phenotyping in SMC, along with spatial imaging in intact tissues across the disease trajectory. Together with our interdisciplinary and experienced collaborators and unique established resources, we are well-positioned to carry out this work and discover fine-grained molecular features and hallmarks of CAD initiation and progression in the coronary vessel wall. Ultimately, these studies will enable the next generation of multimodal treatment strategies for risk stratification and eradication of this debilitating disease."
+ },
+ {
+  "id": "4cb01785-75ac-426d-b08d-e046ac702408",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "SCH: Efficient Image-based Hemodynamic Modeling via Physics-integrated Bayesian Deep Learning",
+  "text": "This project aims to revolutionize cardiovascular research and healthcare by developing an Al-augmented image-based hemodynamic modeling platform. The primary objective is to establish efficient and reliable data-enabled, patient-specific computational modeling capabilities to enhance the comprehensive understanding of cardiovascular physiology and pathophysiology. It addresses the gaps in existing image-based computational modeling frameworks that are labor-intensive, computationally expensive, and subject to large uncertainties. Specifically, the project will automate the transformation of medical images into precise 30 geometries for computational fluid dynamics (CFO) and fluid-structure interaction (FSI) simulations via deep learning, significantly reducing manual labor and computational costs. By integrating physics with mesh-based geometric deep learning through differentiable programming, this project aims to enable fast surrogate CFD/FSI simulations, epitomizing an innovative blend of machine learning with domain-specific knowledge and allowing for rapid predictions of functional information such as blood flow patterns, pressure and wall shear stresses. Furthermore, an ensemble Bayesian learning framework will be developed to propagate and quantify uncertainties in model predictions, thereby enhancing the reliability and trustworthiness of the results. Finally, the introduction of advanced visual analytics to interpret vast hemodynamic data ensembles underscores the project's commitment to accessibility and user-centric design. Collectively, these innovations aim to enhance the accuracy, efficiency, and reliability of patient-specific hemodynamic modeling, making them more accessible and actionable for healthcare professionals. The project's long-term goals include improving the understanding, diagnosis, and treatment of cardiovascular diseases, aligning with the National Heart, Lung, and Blood lnstitute's (NHLBI) mission to combat heart, lung, and blood diseases and extend the lives of those afflicted. By offering a novel approach to accurately and reliably model cardiovascular dynamics, the project holds the potential to significantly impact the field of cardiovascular research and healthcare, providing a basis for better clinical decisions and treatment strategies. RELEVANCE (See instructions): This research focuses on developing patient-specific models and diagnostic tools for cardiovascular diseases, aligning with the NHLBl's goal of improving health and extending life by furthering the knowledge and treatment of heart, lung, and blood conditions. By enhancing the accessibility and reliability of image-based computational modeling, the project will revolutionize cardiovascular healthcare, significantly advancing public health through improved prevention, diagnosis, and treatment."
+ },
+ {
+  "id": "4cb50147-1fa7-4eb0-938c-9c2a8f2fcd75",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Effects of the NR2E1 mutation on cellular and molecular determinants of neurogenesis",
+  "text": "The decline of neurogenesis has been associated with many neurological disorders. Considering the critical\nrole NR2E1, a nuclear receptor, plays in regulating neurogenesis, it is likely that certain NR2E1 missense\nmutations might cause neurogenesis-associated pathology by impairing NR2E1 function and/or activity. Our\nproject will investigate the molecular, cellular, and behavioral consequences of one patient-specific NR2E1\nmutation to gain insight into the importance of NR2E1 for human neurogenesis."
+ },
+ {
+  "id": "4cb564a7-0c70-4230-9746-671b57b761a0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The matrin3-CAR-thrombin axis in hepatic inflammation and fibrosis",
+  "text": "The molecular basis linking steatosis, inflammation, and coagulation is unclear, which hinders the development\nof therapeutic approaches to treat metabolic dysfunction-associated steatohepatitis (MASH). We will identify the\nmatrin-3-CAR-thrombin axis as the molecular basis and provide supportive evidence for the use of FDA-\napproved antagonist of thrombin receptor to treat hepatic fibrosis in MASH. The completion of the project will\nprovide new therapeutic targets with a high translational impact."
+ },
+ {
+  "id": "4cbcc40d-0ed6-4e28-b098-bc1c7da78430",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Blood-brain barrier and microstructural brain biomarkers of ARIA and treatment outcomes with anti-amyloid immunotherapy for Alzheimer's disease",
+  "text": "With the approval of anti-A immunotherapies for Alzheimer's disease, there is urgent need to understand the\nrisk factors for ARIA and other adverse events, and the long-term effects of these novel agents on brain health.\nThis project will be the first to integrate advanced MRI techniques into clinical practice to characterize the\ndynamics of blood-brain barrier permeability and brain microstructure along the time-course of anti-A\nimmunotherapy. Results will support the missions of the NINDS and NIA to develop screening tools to optimize\ntreatment safety and efficacy, by informing the mechanisms of ARIA and clarifying the elusive observations of\ndrug-induced brain atrophy, while probing biomarker differences among sub-populations that have been under-\nrepresented in clinical trials."
+ },
+ {
+  "id": "4cc06741-976b-49c0-a64d-c13e788b2ba9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Tumor Microenvironment",
+  "text": "PROJECT SUMMARY – Tumor Microenvironment (TME) Program The Tumor Microenvironment (TME) Program at the USC Norris Comprehensive Cancer Center (NCCC) was created in 2003 and received a merit rating of Outstanding to Exceptional in 2015.The mission of this program is to discover basic mechanisms that control the interactions between cancer cells of viral and non-viral etiology and their microenvironment, leading to the identification of molecules or pathways that can be targeted for therapeutic interventions. The program has three scientific aims: 1) To investigate the fundamental mechanisms underlying cancer cell, immune cell and stroma cell interactions & communications; 2) To investigate the pathogenesis of cancer viruses and their immune escape mechanisms; and 3) To investigate the mechanisms underlying tumor immune escape and develop new approaches for cancer immunotherapy. The TME Program continues to be co-led by W. Martin Kast PhD who brings expertise in cancer virology & cancer immunology. The strategic recruitment of new co-leader Rongfu Wang PhD in 2019 expanded expertise in cancer immunotherapy, innate immune signaling, and immune cell epigenetics. Together, they promote intra- and inter-programmatic collaborations through Program meetings, retreats, seminars, and pilot funding mechanisms. The TME Program brings together 35 members from 10 departments in four schools at USC with expertise and research interest in tumor-stroma interactions, metastasis, inflammation, angiogenesis, cancer computational modeling, cancers induced by viruses (HPV, KHSV, HCV), and cancer immunology and immunotherapy. A unique aspect of this basic science Program is its commitment to clinical translation. In the current funding period, basic science discoveries by TME members led to four investigator- initiated clinical trials in the TACS and CCR programs. Research by the members has a unique impact on specific populations of the LA County catchment area, particularly children (neuroblastoma and childhood acute lymphoblastic leukemia (ALL)), Asians (liver cancer), and Hispanic women (breast cancer & HPV-induced cervical cancer). Also noteworthy is the collaboration with NCCC’s Cancer Research Training and Education Coordination (CRTEC) Program to provide TME-led cancer education of a group of students ranging from elementary school to junior faculty mentoring. During the current funding period, Program members have published 283 papers, of which 23% are intra-programmatic, 27% are inter-programmatic, 34% are multi- institutional and 29% are published in high impact journals including Nature Medicine, J. Clinical Investigation, Nature Communications, PNAS, JAMA Oncology, Cancer Discovery, Cell Metabolism, Hepatology, J Extracell Vesicles, ACS Nano, Cancer Res and Clinical Cancer Res. Program members hold $13.1M in cancer-related funding (direct costs); $11.2M is peer reviewed, of which $4.4M is from NCI, representing increases of 34% for overall and 49% for peer-reviewed (NCI funding remains strong and stable in this grant period)."
+ },
+ {
+  "id": "4cc16dc2-2411-49b7-97a1-29090ba2ccbd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Single-cell profiling of Follistatin within the Tumor Landscape of Oral Squamous Cell Carcinoma",
+  "text": "Oral Squamous Cell Carcinoma (OSCC) is a common and complex disease with limited therapeutic options. We\npropose to investigate how cancer cells communicate with other supporting cells in the OSCC tumor\nmicroenvironment to facilitate the progression of this disease. Such studies are essential for understanding the\nmechanism(s) by which cancer cells grow and spread, and for identification of candidate biomarkers and\ntherapeutic targets to better diagnose and treat OSCC."
+ },
+ {
+  "id": "4cc5f25d-3f4c-4baf-80ae-1454a34538a5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Data Management Analysis and Informatics Core",
+  "text": "DMAIC Project Summary/Abstract: The overarching goal of the Data Management, Analysis and Informatics Core (DMAIC) is to ensure data and analytic integrity, transparency and reproducibility by continuing to serve as a central source of methodological expertise to the researchers of the Pitt OAIC. Methodological expertise is most beneficial when provided by a team such as the DMAIC familiar with the balance and mobility-in-aging themes of the OAIC. Our specific aims are to: 1. Promote study integrity, internal validity and optimized use of common data elements via best practices for data management for Pitt OAIC Projects (PESC, REC, developmental and external projects). 2. Provide research design, analysis, clinical informatics and bioinformatics expertise for preparing proposals for and conducting Pitt OAIC and external projects. 3. Support the training mission of the Pitt OAIC with Pepper Scholars and other trainees. 4. Apply and expand novel methods to address OAIC-related methodological challenges. 5. Collaborate with other cores and units within and outside the institution on OAIC-related activities. 6. Monitor and manage core resources and usage. For OAIC pilot and developmental projects, we will support the data management and analysis needs in addition to facilitating access to qualitative and other specialized analytic resources. We provide methodological support to dissemination and implementation endeavors. We will provide workshops and training for OAIC trainees as well as involving graduate student researchers in core activities. We innovate by developing new techniques and applications of existing methods to address OAIC theme-related methodological challenges. Our proposed Developmental Project on per protocol analyses explores newer statistical methods tapping into treatment effects of interventions rather than the effect of random assignment and will generate resources for use by OAIC and beyond. We will collaborate with others within and outside the institution on OAIC theme-related activities to share and learn from a broader community of colleagues. So far during the current cycle (2021-2025), the DMAIC provided data management/statistical support to 45 Pitt OAIC projects. This extensive support generated findings which were disseminated in over 100 peer reviewed publications and contributed to obtaining over $65 million of research funding focused on mobility. We build on a strong track record of highly productive 20 years with stable leadership providing data management and analytical infrastructure, methodological innovation, and research methods training. We will continue to provide these services in addition to meeting newer demands for machine learning, computational biology, informatics and big data, as well as the OAIC’s growing focus on implementation science."
+ },
+ {
+  "id": "4ccd124e-cfeb-4dbb-bb72-6bffa9edd5d9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Image Response Assessment and Biopsy Management",
+  "text": "Imaging has become the leading diagnostic procedure in early and advanced clinical trials of cancer therapeutics, which provides key information as to whether lesions are responding to the therapy. Qualitative imaging is now being complemented by sophisticated quantitative approaches, such as Machine and Deep Learning and Radiomics. To ensure access to advanced imaging technologies, including quantitative PET, MRI and CT, the Imaging Response Assessment and Biopsy Services Team (IRAT) Shared Resource (SR) continues to provide services to Sidney Kimmel Comprehensive Cancer Center (SKCCC) investigators, including: 1) consultation and guidance on the proper choice, design and use of imaging studies in clinical trials; 2) expert reviews of clinical protocols to assure that the imaging protocol and analysis plans are appropriate for the chosen task; 3) state-of-the-art prompt and accurate assessment of tumor response using standardized anatomic and metabolic response criteria, including RECIST 1.1, IrRECIST, PERCIST 1.0 and other imaging-defined response metrics; 4) image archival, anonymization and data import/export for trials; 5) development and integration of a new research biopsy management service, which assists and monitors research biopsies to make sure they are performed according to protocol, guaranteeing that the appropriate core samples are acquired for study compliance; 5) developing documents, protocols and forms to assist in studies performed at one or multiple sites; 6) regulatory guidance on radiation exposure and molecular imaging agents; 7) assisting in the development of nontraditional imaging metrics for response assessment, including participation in ACRIN and ECOG trials; 8) improving collaborations among SKCCC investigators and imaging specialists in quantitative imaging; and 9) providing novel deep learning and radiomic metrics for detection, classification and monitoring treatment response. Future plans include introducing these new and advanced computing and software platforms for robust quantitative analyses of single and multimodality imaging studies of cancer treatment response. The IRAT SR's input into study design and analysis is expected to lead to more appropriate, accurate and reproducible imaging in cancer therapy studies performed at The Johns Hopkins University and in collaboration with other institutions. The appropriate quantitative imaging methodology will benefit clinical cancer therapy trials at all phases and accelerate translational cancer research. The IRAT SR provides critical services using radiological imaging methods, such as PET, MRI and CT, and by acquiring tissue samples to help evaluate tumors and determine the potential of response to different treatments. SKCCC Managed Shared Resource Reporting Period: January 1, 2020 to December 31, 2020"
+ },
+ {
+  "id": "4cd0b278-50aa-4b43-8b1e-4436ae2b164a",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Midwest Pediatric Device Consortium (MPDC)",
+  "text": "Narrative / Public Health Relevance Statement\nThe Midwest Pediatric Device Consortium (MPDC) will provide critical funding as well as business, legal,\norganizational, clinical, engineering and scientific resources to innovators for creation of pediatric medical\ndevices having significant commercial potential and that improve healthcare for children."
+ },
+ {
+  "id": "4cd5b7e4-aec7-4e9d-a44b-347c8e57acb3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Move, Eat, Trap, or Kill: Decoding the molecular logic used by innate immune cells to decide between functional programs",
+  "text": "The aim of this proposal is to understand how plasma membrane abundance regulates myeloid decision-making\nbetween the cellular programs of migration, phagocytosis, and NETosis. This knowledge will aid in the\ndevelopment of pharmacological and immunotherapy interventions for increasing myeloid activity in the context\nof microbial infection and for suppressing aberrant overactive behavior that causes tissue damage in the context\nof autoimmunity and neurological disease."
+ },
+ {
+  "id": "4cddeb57-44df-4d97-ae18-1048b7e6dfe6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dissecting dynamic genetic effects from thymus development to immune-mediated disease",
+  "text": "Flaws in the immune system lead to immunodeﬁciency and autoimmune diseases. We propose\ncombining quantitative genetics, experimental methods, and clinical samples to study the mechanisms of these\nﬂaws and gain insights on how they impact immune-mediated diseases."
+ },
+ {
+  "id": "4cde604a-e220-4f40-956b-be8e416b8647",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dissecting the Chromatin and Spatial Mechanisms of HMGN1-MediatedCongenital heart defects in Down syndrome",
+  "text": "Congenital heart defects (CHDs) are the leading cause of birth defect–related infant death, and their incidence\nis significantly increased in individuals with Down syndrome (trisomy 21). This project investigates how dosage-\nsensitive gene regulators such as HMGN1 alter chromatin structure, transcriptional networks, and spatial tissue\norganization in heart development. Insights from this work will advance our understanding of gene dosage\nimbalance and may inform future strategies for early diagnosis or therapeutic intervention in CHDs and other\naneuploidy-associated conditions."
+ },
+ {
+  "id": "4ce9fb1b-8943-4166-8dc1-6784df795474",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The role of the lymphatic niche in stem cell plasticity and tumor progression in skin cancer",
+  "text": "Squamous cell carcinoma is a common and potentially lethal cancer, yet it is not well understood how non-\nmutational cues from the tissue environment enable stem cells to tolerate oncogenic stress and evolve. This\nresearch will characterize how lymphatic vascular niches regulate cancer stem cell plasticity during both early\ntumor initiation and malignant progression, and identify signals that enable the transition from a stable to a\nplastic, tumor-promoting state. By understanding these lymphatic–stem cell interactions, this work may\nuncover novel therapeutic targets to block early cancer evolution and improve outcomes for patients with\naggressive epithelial tumors."
+ },
+ {
+  "id": "4ceffccf-d5d4-4b48-92f9-7dc8253ca483",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Understanding health outcomes after critical illness among VA Medicaid patients",
+  "text": "Despite the rapidly growing US Asian population, there are vast gaps in translational research on comorbid cardiometabolic and mental health outcomes. In the Rutgers-NYU Center for Asian Health Promotion and Excellence, we will establish three complementary cores and two research projects to achieve the mission of the center: to improve cardiometabolic and mental health of US Asians through a robust research infrastructure and resource structure and developing the next generation of scientists focused on these health disparity issues."
+ },
+ {
+  "id": "4cf2715a-73c2-4e5e-970a-d752beba1321",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "In vivo inflammatory challenge to elucidate the role of the toll-like receptor 4 pathway in depression",
+  "text": "Inflammation is thought to play a role in the pathogenesis of major depressive disorder (MDD), but the exact\nimmunoregulatory mechanisms are not well understood. This proposal will leverage an ongoing experimental\nmedicine study using lipopolysaccharide to compare immune mechanisms and regulation of the toll-like\nreceptor 4 inflammatory pathway in MDD and healthy participants in both the blood and the brain. The results\nmay provide a roadmap for understanding how the immune system is dysregulated in MDD and for the\nidentification of novel therapeutic targets."
+ },
+ {
+  "id": "4cf4d133-380b-4006-a065-034d7cb3963f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating and targeting NSD2 mutation-driven leukemia transformation",
+  "text": "Despite advances in therapy, acute lymphoblastic leukemia (ALL) remains a leading cause of cancer-related\nmortality in children. NSD2 mutations are frequently identified in relapsed ALL, particularly in cases with the\nETV6::RUNX1 fusion gene, suggesting a role in driving leukemia transformation. This study aims to elucidate\nhow NSD2 mutations contribute to leukemia initiation and progression and develop novel targeted therapies to\nimprove outcomes and survival rates in relapsed ALL patients."
+ },
+ {
+  "id": "4cf63683-f66a-4861-b830-56862b736755",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Ready, set, then go: Rapid posttranslational induction of protein production by drug administration in vivo",
+  "text": "This proposal aims to address leakiness, slowness, or poor activity of existing drug-regulated protein\nactivation methods by introducing a novel approach for rapid drug-activated production of proteins of\ninterest in any component of the body. The project strategically combines recent insights developments\nin the fields of structural biology and chemical biology to devise achieve low leakiness, fast induction,\nhigh activity, and generalizability across a wide range of proteins in a completely rational manner."
+ },
+ {
+  "id": "4cfa10c7-1c29-48da-8dc6-6078d2b54a7c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Towards Foundational 3D In Silico Models of Whole Mouse Embryogenesis",
+  "text": "Capitalizing on recent technological strides and the amassed big data, we can now envision in silico models of\nmammalian organogenesis at the embryo level, offering profound predictive insights into human development\nand relevant diseases. This proposal seeks to pioneer such a venture by constructing the first-ever foundational\nin silico model of mouse embryogenesis, using Ultima's revolutionary cost-effective “mostly natural sequencing-\nby-synthesis” chemistry and ultra-high field of view (300, 000 mm2) spatially barcoded wafer disc platform for 3D\nsingle-cell spatial multi-omics across E6.5 to E16.5, coupled with cutting-edge machine learning methods like\nFourier neural operator learning, graph neural network and the Generative Pre-trained Transformer (as\nemployed in ChatGPT). This proposal will thus set the stage for groundbreaking predictions, including discerning\nthe regulatory mechanisms behind, e.g., the heart's chamber formation and congenital heart disorders."
+ },
+ {
+  "id": "4cfacb78-98b5-47ab-8740-ba74d9561061",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The role of electrical synapses in neural dynamics involved in sleep/wake and sensory perception",
+  "text": "The oscillatory neuronal activity is a functionally relevant signal of the cognitive capability of the\nbrain. Aberrant oscillatory activity and network connectivity underlie a wide range of neurological\nand neuropsychiatric disorders. Therefore, as proposed in this application, a better\nunderstanding of the brain-region- and cell type-specific regulation of cortical oscillations during\nsleep-wakefulness and sensory processing by electrical synapses is important for obtaining\nbetter insight into the underlying mechanisms and for the future development of therapeutic\ninterventions."
+ }
+]

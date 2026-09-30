@@ -1,0 +1,142 @@
+[
+ {
+  "id": "7f5e4841-9a74-4859-9049-dd8531721d86",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multimodal prediction of behavioral and mental health outcomes in incarcerated women",
+  "text": "Despite growing rates of incarceration in women, as well as high prevalence of mental health\nproblems in this population, little empirical attention has been dedicated to understanding factors\nthat promote improvement in their mental health and functioning over time. This project employs\nmultimodal methods to test ways in which psychosocial, forensic, and neuroimaging variables\nlongitudinally interact to predict resilience and vulnerability associated with mental health and\nrelated outcomes in women. These methods will be used to better understand ways of promoting\nadaptive mental health and behavioral outcomes in this particularly vulnerable population."
+ },
+ {
+  "id": "7f6525ba-0ebd-4226-ba67-314c0f25aba2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Kansas Molecular Aging Resilience Core (K-MARC)",
+  "text": "KANSAS MOLECULAR AGING RESILIENCE CORE (K-MARC): PROJECT SUMMARY The Kansas Molecular Aging Resilience Core (K-MARC) will provide resources and expertise to study molecular mechanisms of aging and resilience for research project leaders, pilot project awardees, and the greater KUMC community. Resilience is the capacity to recover from stress-induced challenges to homeostasis, and involves responses at the molecular, cellular, organ, and whole-system levels. A loss of resilience often precedes the appearance of age-related comorbidities and frailty. Investigations of frailty have linked it to age- associated changes in epigenetics, mitochondrial health, and inflammation. But investigations of the underlying biology of resilience – particularly in the setting of acute time-based measures that asses the responses to provocative challenges – are lacking. To address these knowledge gaps, the K-MARC will provide: 1) innovative assays and resources for epigenetics, mitochondrial health, and inflammation; 2) standardized protocols, reagents, and analysis pipelines performed by experienced technicians and bioinformaticians; and 3) support for RPLs and pilot project awardees, and the KUMC community across basic, pre-clinical, and clinical studies. The K-MARC will bring next-generation Nanopore sequencing technology to the KUMC, allowing for faster and cheaper data acquisition and analysis. The K-MARC will direct its sequencing focus on CpG methylation, micro RNAs, chromatin accessibility, and mitochondrial genotyping. Mitochondrial health will be evaluated with Seahorse instruments and flow cytometry. Markers of inflammation will be quantified with high throughput, multiplexed LEGENDplex assays and SIMOA. Phenotypic data and biological specimens provided by the Kansas Phenotypic Aging and Resilience Core (K-PARC) will be analyzed with K-MARC assays and by our dedicated bioinformatician. We will provide services for measuring these mechanisms across all RPL and pilot projects; we will assist in study design, biostatistical and bioinformatic analysis, etc. throughout the duration of studies. The K-MARC is distinctive in its focus on applying techniques to understand mechanisms of resilience and aging. We will enhance existing institutional infrastructure by specializing in assays dedicated to resilience to enhance the geroscience environment at the University of Kansas Medical Center across basic, pre-clinical, and clinical studies."
+ },
+ {
+  "id": "7f66aa26-ce11-45eb-899b-08ce30590194",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Integrated Small Animal Imaging Research Resource",
+  "text": "PROJECT SUMMARY/ABSTRACT - INTEGRATED SMALL ANIMAL IMAGINING RESEARCH RESOURCE (iSAIRR) The Integrated Small Animal Imaging Research Resource (iSAIRR) supports the development of state-of-the-art imaging for small animals for University of Chicago Medicine Comprehensive Cancer Center (UCCCC) investigators. The objective of iSAIRR is to provide state-of-the-art equipment and facilities, and outstanding scientific and technical expertise to apply current and developing cancer imaging modalities to assess underlying biological mechanisms, improve diagnosis and detection, and monitor effects of cancer therapies, with the ultimate goal of facilitating clinical translation and application. The iSAIRR has demonstrated its broad usage and applications in advancing research in breast, lung, prostate, ovarian, head and neck, pancreatic, colorectal, and brain cancer. To take full advantage of this rapidly changing imaging landscape, and to provide a wider spectrum of imaging capabilities and services, the iSAIRR offers a broader spectrum of imaging modalities and techniques for in vivo imaging of small animals and ex vivo imaging of tissue/organ specimens with improved operational efficiency and cost-effectiveness. In the current grant reporting period, iSAIRR supported 47 unique UCCCC members (40% MMC, 6% CPC, 15% IC, 36% CET), supporting their scientific needs and consistent with the strategic pillars of UCCCC. iSAIRR supported 55 cancer-related federal grants, and 63 cancer relevant peer reviewed publications (41% in journals with impact factor ≥ 10). In this next cycle iSAIRR will continue to work closely with the Cyclotron and UCCCC members to develop novel radiotheranostic tracers for translational applications."
+ },
+ {
+  "id": "7f690d92-be65-4aa1-980b-728184a8b636",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigation of a novel mycovirus and its impacts on the biology and pathogenesis of Cryptococcus neoformans",
+  "text": "Cryptococcus neoformans is a deadly human fungal pathogen with limited treatment options and high\nmortality in immunocompromised individuals. We recently discovered the first mycovirus (CnTV1) in C.\nneoformans, which is actively suppressed by RNA interference (RNAi), a genome defense pathway frequently\nlost in the C. neoformans natural populations. This study will investigate the molecular features and regulatory\nmechanisms of CnTV1 and determine how this mycovirus influences fungal virulence and immune interactions,\nproviding new insights into virus–fungus–host dynamics and guiding the development of novel antifungal\nstrategies."
+ },
+ {
+  "id": "7f697e85-b2bd-49e3-924e-c87bf6570960",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The pathogenic effects of senescent cells on their microenvironments and their role in human brain aging",
+  "text": "Senescent cells are typically harmful in many tissues due to their secretion of inflammatory factors in\nthe local microenvironment, however, the specific impact of senescent neurons on brain aging and\ndementia remains unknown. This study utilizes laboratory experiments to generate multi-omic\ndatasets from the human brain and employs customized deep learning techniques for analyzing\nspatial omics data. The aim is to identify the precise effects of senescent neurons on their\nmicroenvironments and use mouse models to evaluate potential molecular regulators and treatments\nthat could alleviate these detrimental effects."
+ },
+ {
+  "id": "7f69e135-a6c5-43bd-a7f3-03f7ff85114f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cooperativity of TMPRSS2-ERG fusion with p53 inactivation in prostate cancer pathogenesis",
+  "text": "ETS transcription factor gene fusions occur in approximately 50% of prostate cancer patients. This application\nis designed to elucidate the molecular mechanisms of prostate cancer pathogenesis induced by the cooperation\nbetween overexpression of putative oncogenic ETS-related gene (ERG) and inactivation of the p53 tumor\nsuppressor. Findings from the proposed studies will shed new light on prostate pathobiology and lead to identify\nnew targets for development of novel therapeutics for the effective treatment of this subtype of the disease."
+ },
+ {
+  "id": "7f6b583c-d15a-4755-88ab-35304f16f643",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Developmental Cancer Therapeutics Program",
+  "text": "The Developmental Cancer Therapeutics (DCT) Program seeks to empower members to develop and implement new therapeutics that advance cancer treatment in our catchment population. DCT member's interests center around three aims: 1) to identify novel biomarker and lipid-specific metabolic cancer vulnerabilities; 2) to interrogate cancer-specific immunologic and oncogenic targets in human tumors; and 3) to develop and test small molecules and biologics in investigator-initiated clinical trials. Research Highlights: Intra- and inter-programmatic collaborations led to the identification of age-dependent ceramide signaling pathways that reduce anti-tumor T cell responses; elucidation of ancestry-dependent cancer risks through the identification of novel collagen modifications in a unique South Carolina Sea Island population in collaboration with Community Outreach and Engagement; identification of a critical kinase signaling pathway that results in CXCR4 dependent T-cell infiltration in T-ALL; and initiation of national trials to examine the efficacy of novel immunotherapy combinations. New compounds and biomarkers led to statewide opportunities for therapeutic intervention and prevention of human cancers impacting the HCC catchment area. Membership: DCT consists of 48 members from 12 departments. DCT is co-led by two exceptional scientists: John O’Bryan, PhD, a basic scientist with expertise in therapeutic targeting of RAS, and Nancy Klauber-DeMore, MD, a physician-scientist surgical oncologist with expertise in translating fundamental discoveries into investigator-initiated clinical trials. Direct peer-reviewed funding is $7M, with 27 active NCI-funded projects totaling $5.1M, a 46% increase from the last funding cycle, and a growing number of multi-institutional and programmatic awards. In collaboration with Cancer Research Training and Education Coordination, multi-disciplinary collaborative research opportunities in DCT have enhanced the entire education and career development continuum, from undergraduates to graduate students, postdoctoral fellows, and junior clinical members leading to members mentoring 105 students and post-docs. DCT efforts culminated in 499 publications since 2018, the majority of which are collaborative (intra- and inter-programmatic and multi-institutional), with 103 published in top-tier journals (IF >10). Program Activities: DCT provides a structure to foster multidisciplinary research across programs and institutions. This process is mediated through one-on-one discussions with members, bi-weekly program meetings, annual retreats, and seminars. With investments in cutting-edge technologies, targeted faculty recruitment, inter-programmatic team-based funding initiatives supported by HCC leadership, and synergistic program leadership, the DCT Program has advanced scientific discovery, target identification, pre-clinical development, and clinical trial implementation in the HCC catchment area and beyond."
+ },
+ {
+  "id": "7f6ba9aa-7a8c-4c18-9c3c-0c44b3170e43",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Microbial-based cancer therapy armored with membrane-bound cytokines for targeted immune modulation and safety-controlled delivery",
+  "text": "Microbial therapy against cancer has a long history, and the earliest records date back to almost\n200 years ago which described cancer patients going into remission after a bacterial infection.\nThe project aims to use membrane-bound therapeutics on tumor-homing bacteria for sustained\ndelivery within the tumor microenvironment and to enhance therapeutic efficacy and safety."
+ },
+ {
+  "id": "7f7a87b9-32b9-4245-84fd-be87e44aa1f8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Decoding the language of inflammation between central nervous system resident immune cells",
+  "text": "Central nervous system (CNS)-resident astrocytes and microglia interact to regulate pro-inflammatory\nprograms that drive neurodegenerative diseases, but the pathways and molecules involved are largely\nunknown. Understanding the language of inflammation is a central question in the field of Neuroimmunology\nand may guide new therapeutic approaches for multiple sclerosis and other neurologic diseases. This proposal\napplies two novel high-throughput methods to study microglia-astrocyte interactions during CNS inflammation."
+ },
+ {
+  "id": "7f7bb608-301b-494a-a4a3-e9861c4ba48e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Electromagnetic-Based Cryopreservation and Rewarming Platform for Extended Storage of Donor Livers",
+  "text": "Liver transplantation remains the only curative treatment for many patients with end-stage\nliver failure, yet limited preservation time leads to high donor liver discard rates - particularly\namong marginal donor livers. This project aims to develop a next-generation\ncryopreservation platform that integrates electromagnetic rewarming and molecular modeling\nto improve the viability of vitrified livers. The research will contribute to long-term organ\nbanking efforts and provide transformative training opportunities for undergraduate students\nin biomedical engineering."
+ },
+ {
+  "id": "7f7f9a82-4723-44f9-b7bc-7df5d42bea35",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Harnessing the human myeloid system to improve surgical recovery",
+  "text": "One in five patients suffers delayed recovery after surgery due to prolonged post-surgical pain, functional\nimpairment, or infections, resulting in over $10 billion US healthcare costs annually. However, we lack accurate\npredictive biomarkers of surgical recovery for individual risk assessment and personalized therapeutic\ninterventions. My research program leverages single-cell mass cytometry and multiplex imaging technologies to\nexamine the role of the human innate immune system in the pathobiology of surgical recovery and identify\nmodifiable predictive immune mechanisms that can be safely targeted to improve patient surgical outcomes."
+ },
+ {
+  "id": "7f7ff8c9-da55-4c76-bdd8-71778dc50e6c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Statistical Methods for Precision Prevention",
+  "text": "Prevention has been long recognized as an important approach in reducing the cancer burden on individuals\nand on the population. Recent advancements in genomics technologies have enabled the deciphering of\nmolecular events in tumors and their microenvironment in great detail, the progress of which has paved the\nway for better identification of cancer causes and improved risk stratification. The objective of this application is\nto develop statistical and computational approaches to harness state-of-the-art genomic data and translate\nthese findings into precision prevention through risk-based intervention strategies."
+ },
+ {
+  "id": "7f8c738b-9e6b-4b5c-975a-6c5b83a0c91d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Accelerator for the rapid development of countermeasures targeting drug resistant fungal pathogens",
+  "text": "A Center of Excellence in Translational Research (CETR) will be established that confronts the pressing\nchallenge of invasive fungal infections, particularly those resistant to existing treatments, by leveraging academic\nand industry expertise within a common enterprise. The CETR's mission encompasses the accelerated\ndevelopment of IND-ready small molecule drugs, an enhanced immunotherapy, and a 510(k) ready rapid point-\nof-care diagnostic tool to address unmet medical needs and advance public health by combating drug-resistant\nfungal pathogens."
+ },
+ {
+  "id": "7f8c92e4-0279-487e-9370-e73895c20253",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multimodal AI modeling of T cell therapies to predict patient response and nominate advanced cell design strategies",
+  "text": "This project will develop artificial intelligence methods to identify which measurements of molecules, cells, and \ntissues are most useful for building models that advance our understanding of human health and disease. By \nmaking better use of NIH-supported datasets and identifying the most informative experiments to perform next, \nthis work aims to improve the ability of these models to make accurate predictions in new biological settings \nwhile reducing redundant data collection. The resulting tools could be broadly applicable to accelerating \nbiomedical discovery and support longer-term efforts to forecast clinical outcomes and design more effective \ntherapies."
+ },
+ {
+  "id": "7f94f08d-f951-472a-ae3b-9b793c90020f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating the role of O-GlcNAc in silencing retrotransposons in the skin",
+  "text": "Retrotransposons are interspersed genomic repeats that reside in the heterochromatin, whose reactivation is\ntightly associated with human diseases including cancer and aging. Using genetic models in which endogenous\nretroviruses, a type of mammalian retrotransposons, are reactivated and lead to stem cell exhaustion in the skin,\nthis study aims to elucidate role of the post-translational modification O-GlcNAcylation in retrotransposon\nsilencing. Successful completion of this proposal will advance our mechanistic understanding of retrotransposon\nrepression pathways that govern adult stem cell functions in skin malignant and degenerative diseases."
+ },
+ {
+  "id": "7f984cd1-e51f-4f5c-948f-33eee6ef0f1d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Nucleophosmin Centered Diagnostics and Treatment of Ischemic Acute Kidney Injury",
+  "text": "Ischemic acute kidney injury (AKI) is a common and often a life-threatening consequence of reduced kidney\nblood flow during cardiac surgery caused by NPM, a key protein that promotes regulated cell death and tissue\ninjury in the human kidney. We will use an integrated approach to characterize the structure-function\nrelationship (SAR) of human NPM and Bax to identify novel targets for drug interventions with non-toxic,\ninjectable peptides. Our goal is to prevent and treat regulated cell death that causes AKI during cardiac\nsurgery, an insult that resembles experimental ischemia-reperfusion injury in which NPM and Bax are lethal co-\ntoxins."
+ },
+ {
+  "id": "7f99570e-fadd-44e6-ba85-94cb8d244cfa",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Enabling the Assessment of Fetal Brain Development and Degeneration with Machine Learning",
+  "text": "This project will develop new data-driven and machine learning methods for accurate and reproducible\nanalysis of diffusion MRI scans of fetuses in utero, and will extensively validate these new methods and\ncompare them with existing techniques. The final methods will be critically assessed by using them to quantify\nthe impact of congenital heart disease on the development of fetal brain micro-structure. More broadly, the\ntechnologies developed in this project will enable assessment of fetal brain development and degeneration\nwith unprecedented detail and reproducibility."
+ },
+ {
+  "id": "7fa157da-213d-4084-a347-936eb7bbbb84",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Investigating NCOA3 as a driver of POU2F3+ small cell lung cancer proliferation and lineage",
+  "text": "Tuft-like POU2F3+ small cell lung cancer (SCLC-P) is the least understood and most treatment resistant subtype\nof SCLC, a notoriously aggressive and difficult-to-treat cancer. In accordance with the NIH mission to advance\nhuman health and extend life, uncovering factors that drive SCLC-P will potentially reveal new subtype-specific\nvulnerabilities for development of more effective therapies. This study will define how amplification of Nuclear\nCoactivator Receptor 3 (NCOA3), a newly identified and highly enriched alteration in SCLC-P patient tumors,\ncontrols mechanisms that promote and sustain tuft-like SCLC-P."
+ },
+ {
+  "id": "7fa72a63-4fe8-42e0-9cd5-ad2fa70f9499",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "MSP68 as an effective radiation countermeasure",
+  "text": "Natural disasters, accidents, terrorism, or war can cause\nlarge-scale radiation injuries. The gastrointestinal acute radiation syndrome is a particularly deadly\nconsequence of radiation exposure without FDA-approved treatment. In this project, we aim to establish the\nmechanism of action, efficacy, and safety of the pentapeptide MSP68 towards its development as a treatment\nfor radiation victims with intestinal injury."
+ },
+ {
+  "id": "7fad3b57-b347-41f3-b5d7-821e792b5891",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Extracellular Matrix Regulation of Inflammatory Signaling in Tendon",
+  "text": "This application aims to engineer a novel tendon specific microphysiological system to understand how loss of\nextracellular matrix stiffness increases inflammatory signaling in tendinopathy. Knowledge gained from these\nstudies will inform development of therapeutic targets to treat tendon disease."
+ }
+]

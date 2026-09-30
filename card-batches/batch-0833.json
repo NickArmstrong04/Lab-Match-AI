@@ -1,0 +1,142 @@
+[
+ {
+  "id": "9d4ae024-6385-4b20-84ed-80d669b5cd0e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "VIPCare: Virtual Predictive Care workflow with EHR integrated surveillance for optimalfollow-up care management for Cancer Patients",
+  "text": "Oncology workforce growth is not keeping pace with the exponential growth in the cancer survivor population in\nthe US. This plus the complexity of care coordination has led to poor tracking and monitoring of patients in follow-\nup care, post-treatment surveillance and long-term survivorship. This project will validate a software tool that\nsupports providers by automatically tracking cancer patients in follow-up care so that patients are not lost-to-\nfollow-up and are supported through follow-up care for better outcomes and efficient use of clinic resources."
+ },
+ {
+  "id": "9d4c11f3-59bc-434e-9852-ac2468ba775b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Single cell analysis of the kinome",
+  "text": "Kinases are important regulators of biochemical processes in cells. In this project, we propose to\ndevelop single cell tools to profile kinases in the mouse and human brain to examine pathways\ninvolved in aging and Alzheimer’s Diseases. The cell type specific kinases pathways identified\ncould lead to new targets for therapy."
+ },
+ {
+  "id": "9d52e58b-420e-45be-84d4-b62cbfb1c385",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Vevo F2 for High Frequency Ultrasound for Biomedical Imaging at Purdue University",
+  "text": "High-resolution ultrasound imaging is critical for understanding disease mechanisms and evaluating new\ntherapies in preclinical models of cardiovascular, cerebrovascular, gastrointestinal, and cancer biology. This\nproposal seeks to upgrade our current ultrasound system to the Vevo F2, enabling enhanced imaging\nperformance, expanded research applications, and improved data quality that will support biomedical research\naimed at improving public health."
+ },
+ {
+  "id": "9d576b3c-91eb-45c8-8bd1-82e5d364125a",
+  "want_sentence": false,
+  "want_terms": true,
+  "title": "Developing Selective-Dissociation for Proteoform Characterization in Top-Down Proteomics",
+  "text": "Proteoforms are the primary actors that control most of the chemical processes\nunderlying biology. Characterizing proteoforms is necessary to understand the\ncore mechanisms responsible for both health and disease and is the first step\ntowards identifying treatment options. This proposal will develop a novel method\nthat will enable rational identification and characterization of proteoforms utilizing\nmass spectrometry."
+ },
+ {
+  "id": "9d5bccf1-7420-4a19-8e8e-885e4c629355",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cytokinesis and the Septin Cytoskeleton",
+  "text": "Cytokinesis and the septin cytoskeleton play essential roles in cell proliferation and differentiation and are\nrequired for the survival of all organisms. Defects in cytokinesis or septins cause lethality or serious\ndiseases including cancer, infertility, and neurodegenerative diseases. Thus, mechanistic study of\ncytokinesis and the septin cytoskeleton is important not only for understanding basic biology but also for\ndeveloping new strategies to treat human diseases."
+ },
+ {
+  "id": "9d5d10a4-e7cb-453b-92d4-25d17e398a94",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Statistical Methods for Addressing Disease Under-diagnosis Using Electronic Health Record Data",
+  "text": "Under-diagnosis occurs when an individual living with a medical condition has not\nbeen diagnosed. Overlooking of diagnosis prevents patients from opportunities of\nappropriate treatments and prevention strategies, and often is more serious in some\npopulation subgroups. Recent emphasis on electronic health records (EHRs)\nprovides a unique opportunity for addressing under-diagnosis, which to date\nremains largely unexploited due to lack of suitable analytical methods. The\noverarching goal of this project is to develop data-driven methods to accurately\nidentify patients from EHRs who possibly miss their diagnosis and provide insights\nfor reasons of under-diagnosis."
+ },
+ {
+  "id": "9d5e9bdf-908f-4bae-b8ad-ebb1cadc1eec",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "IU Clinical Center: Drug Induced Liver Injury Network",
+  "text": "Drug induced liver injury (DILI) is a rare but serious problem that can lead to liver failure, transplantation,\ndeath, or chronic liver disease. Drug induced liver injury network (DILIN) was set up by the National Institutes\nof Health in 2003 to facilitate clinical, mechanistic and therapeutic research related to DILI. Indiana University\nis proposing several novel specific aims to promote DILIN during the next funding period."
+ },
+ {
+  "id": "9d654981-5cc3-4226-a1c5-cb317d07b5b6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A streamlined base editor reengineering platform to enhance gene editing specificity and selectivity",
+  "text": "Base editing technology enables permanent correction of point mutations at their native locus, providing a\npotential one-time curative treatment for genetic diseases caused by single-nucleotide substitutions.\nNevertheless, the undesired editing byproducts induced by base editors undermine gene correction efficacy and\npose substantial safety concerns, hindering their clinical translation. This study aims to develop a streamlined\nbase editor re-engineering platform to guide the evolution of base editors with high precision and defined\nselectivity, accelerating the development of therapeutic base editing strategies for diverse genetic diseases, such\nas cystic fibrosis."
+ },
+ {
+  "id": "9d6657a4-2226-410e-beae-3b2046e86112",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Novel selective allosteric modulators of PTHrP/PTH receptor to inhibit prostate cancer metastases",
+  "text": "Every 16 minutes, one man dies of prostate cancer in the United States. Parathyroid hormone\n(PTH) receptor type 1 (PTH1R) is the only receptor for PTH-related protein (PTHrP), a well-\nknown driver for the disease and cancer bone metastases resulting in osteolysis. The goal of\nthis project is to identify new drug candidates that can effectively block PTH1R overactivity\ncaused by PTHrP hypersecretion from metastatic prostate cancer cells."
+ },
+ {
+  "id": "9d669cf4-1891-41d6-9f45-fb167f5322c2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Probing the effect of opioids on HIV transcription and latency using a novel dual fluorescent and bioluminescent virus",
+  "text": "This proposal will utilize a novel fluorescent and bioluminescent virus called EcoHIV NL4-3 Dual Red to probe\nthe effects of opioids on HIV proviral transcription and latency reversal in the central nervous system."
+ },
+ {
+  "id": "9d68deff-a43c-4ce5-a80c-c66244c69fad",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Hepatoselective Dihydrozuinolizone (HS-DHQ) Molecules for Treatment and Prevention of Hepatitis A Virus (HAV) Infection",
+  "text": "Currently, there is no effective antiviral drug available to treat acute hepatitis A. Despite the availability of a\nvaccine, hepatitis A virus (HAV) continues to cause thousands of hospitalizations and numerous deaths\nannually in the United States and remains a potential bioterrorism threat. Harlingene Life Sciences has\ndeveloped a family of hepatoselective (HS) compounds for HAV treatment, demonstrating potent antiviral\nactivity in vitro and in infected mice and offering the first and only antiviral therapy aimed at mitigating liver\ninjury in acute hepatitis A."
+ },
+ {
+  "id": "9d7992ee-70c1-4761-8e13-9f260b6d76fa",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of Chimeric Antigen Receptor Phagocytes Against Glioblastoma",
+  "text": "Proficiency of macrophages and microglia to infiltrate malignant brain tumors provides a unique\nopportunity to exploit their phagocytic properties by engineering the activation of these\nprofessional phagocytes using exogenous expression of Chimeric Antigen Receptor (CARs)\ntargeted towards a brain tumor-specific antigen."
+ },
+ {
+  "id": "9d81e757-db85-49dc-aa5e-2dbf843b70e9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Functions of caldendrin in sensory neurons",
+  "text": "In this proposal we will investigate molecular mechanisms controlling the activity of ion channels involved in\ntouch sensation and how these mechanisms contribute to neurodevelopment and behavior. The impact of our\nresearch on clinical/translational science will be knowledge of pathways that could guide novel diagnostic\nand interventional strategies that offset the negative impacts of neurodevelopmental disorders on\nindividuals and society."
+ },
+ {
+  "id": "9d8363c9-bc51-491b-b104-7e6bdd436b65",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Automated methods for standardization and enhancement of metadata in biomedical databases",
+  "text": "Biomedical datasets relevant to fundamental biology and human health are increasingly deposited in\ncentralized databases, enabling opportunities to train powerful machine learning models and perform\nlarge-scale meta-analyses. Unfortunately, poor metadata in biomedical databases is currently a barrier to these\nopportunities and thus there is a critical need for metadata curation. We will develop machine learning\nmethodologies for automated standardization and enhancement of biomedical metadata, allowing the\ninformation contained within centralized biomedical databases to be used to the fullest extent possible."
+ },
+ {
+  "id": "9d84a8e0-37c7-4726-b800-a8988c4640ab",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Systematically screening and validating drug repurposing candidates for Alzheimer's Disease and Related Dementias",
+  "text": "New drugs developed to target Alzheimer's Disease and Related Dementias (AD/ADRD) have a\n99% failure rate; however, drug repurposing--identifying new uses for existing drugs--offers an\nalternative approach that can reduce the time, costs, and risks of failure associated with new drug\ndevelopment. The lack of systematic and readily deployable approaches to screen and validate\ndrug repurposing candidates represents a critical barrier to the success of leveraging existing\npublic knowledge and clinical data for the advancement of AD/ADRD treatment and prevention.\nWe propose combining big data with advanced informatic technologies and computational\ncapabilities to develop and share tools which systematically screen, prioritize, and validate drug\nrepurposing candidates and their combinations for AD/ADRD."
+ },
+ {
+  "id": "9d8589c8-5b9c-4021-a54f-fe259537812a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Predicting early adverse outcomes and discovering biomarkers of treatment toxicity versus treatment response in patients with hepatocellular carcinoma treated with immunotherapy",
+  "text": "Immunotherapy is revolutionizing the treatment of hepatocellular carcinoma in a vulnerable patient population\nwith cirrhosis, an end-stage liver disease. Despite its clear benefits at the population level, there are currently\nno tools to effectively assess an individual patient’s risk of adverse outcomes from immunotherapy, including\nimmune-related toxicities, weighed against the potential therapeutic benefits. This proposal aims to address\nthis gap by leveraging a large longitudinal research cohort and discovering novel biomarkers, ultimately\nenabling personalized risk/benefit stratification tools for the application of immunotherapy in hepatocellular\ncarcinoma to improve patient outcomes by accurately identifying those who are most likely to benefit from\ntreatment with the least risk."
+ },
+ {
+  "id": "9d864de5-4d5c-436b-87c0-69d8f07232b0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Fully Quantitative Low-Dose, Motion-Resolved Dynamic Contrast-Enhanced MRI in Pancreatic Adenocarcinoma",
+  "text": "This project is to develop and validate low-dose quantitative dynamic contrast enhanced (DCE) magnetic\nresonance imaging (MRI) of the pancreas under free-breathing conditions. This will be accomplished by\ncultivating a new technology, DCE MR Multitasking, which can quantify tissue kinetic and flow parameters\neven in moving organs. The resulting technology will offer clinicians and investigators a valuable tool to\ndiagnose, monitor, and study pancreatic and other cancers."
+ },
+ {
+  "id": "9d8887fd-d60c-4fd2-8910-ba916ac88bde",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Immune control by GBPL proteins in Arabidopsis",
+  "text": "Cellular defense protects individual cell against infection across all three domains of life. This proposal focuses\non a new group of host immune proteins - the Guanylate Binding Protein-Like (GBPL) GTPases - in plant\nimmunity. By employing cutting-edge techniques and interdisciplinary approaches, our efforts have the potential\nto unveil novel host defense mechanisms and should have broad implications for the development of innovative\nstrategies for controlling infectious diseases in both plants and animals."
+ },
+ {
+  "id": "9d8ce3eb-fc71-44db-8dcf-f75f132e3a22",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Promoting regenerative repair of aged cartilage",
+  "text": "As people age they lose the ability to heal from injuries or diseases like osteoarthritis, partially due to a reduced\nability of old stem cells to differentiate and an inhospitable tissue environment that no longer supports repair. To\naddress this, we propose to 1) activate SIRT6, a sirtuin that can epigenetically reverse age-associated changes\nin stem cells and 2) inhibit apoptosis signal regulating kinase 1 (ASK1), a protein associated with cell death and\ninflammation, in the tissue environment. We will test the ability of this novel dual strategy to enhance stem cell\ndifferentiation and promote a more regenerative tissue environment in articular cartilage defect models of aged\nanimals."
+ },
+ {
+  "id": "9d95e8d3-9140-41e3-990b-52d7c38b40aa",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms underlying constitutive heterochromatin formation at human centromeres",
+  "text": "More than half of the human genome consists of repetitive sequences, which must be silenced by\nheterochromatin to ensure genome stability. This project will uncover and dissect previously unrecognized\nepigenetic mechanisms that involve non-catalytic enzymatic domains or RNA to regulate heterochromatin in\nhumans. A deeper understanding of how heterochromatin is formed and maintained to repress repetitive\nsequences is essential for targeting and correcting aberrant activation of repeats in repeat-associated diseases\nincluding certain cancers, neurodegenerative disorders, and developmental syndromes."
+ }
+]

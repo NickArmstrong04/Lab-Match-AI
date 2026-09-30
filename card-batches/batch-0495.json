@@ -1,0 +1,142 @@
+[
+ {
+  "id": "23af8f06-d2f6-49cb-a080-de6b85540676",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Regulation of Glioma Cell State Transition and Therapy Response by RNA Alternative Splicing",
+  "text": "Glioma is a highly aggressive brain cancer characterized by profound intratumor heterogeneity that renders\nthese tumors aberrantly resistant to therapies. This project aims to elucidate how RNA alternative splicing of the\ntranscription factor TCF12 influences glioma cell plasticity and therapy response. Understanding this mechanism\nmay reveal novel strategies to overcome therapy resistance of these deadly tumors and improve outcomes of\nglioma patients."
+ },
+ {
+  "id": "23b31641-061d-4334-b366-1d2cd71b8d38",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Single-Cell Signaling Network Profiling of Pooled CRISPR Screens by Mass Cytometry",
+  "text": "This project develops CRISPRmap-CyTOF, a pooled CRISPR screening platform that integrates\ncombinatorial DNA barcoding with high-dimensional mass cytometry to simultaneously decode\ngenetic perturbations and protein-level phenotypes in single cells. A novel photocrosslinking-based\nprobe stabilization strategy enables robust, one-step readout of barcodes and post-translational\nmarkers, overcoming key limitations of current pooled screening methods. The resulting technology\nwill enable scalable, cost-effective interrogation of gene networks and signaling pathways across\ndiverse biological contexts."
+ },
+ {
+  "id": "23beeb87-115d-4c2b-995f-ede68e4d5b1a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cognitive Training for Emotion Regulation in Psychotic Disorders",
+  "text": "Prior studies have implicated problems with emotion regulation in the emergence of hallucinations and\ndelusions in people diagnosed with psychotic disorders. We are evaluating whether a cognitive training\nprogram administered via a mobile app can improve these difficulties with emotion regulation by enhancing\nbrain activation in the prefrontal cortex. If effective, a new, low cost treatment option will be available that can\nbe employed in everyday life via smart phones."
+ },
+ {
+  "id": "23bfc8c0-95ee-4703-9aeb-cc825c0d0010",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Characterization of TMEM251 that causes a new type of severe lysosome storage disease",
+  "text": "This proposal will investigate the molecular mechanisms of a new type of lysosome storage\ndisease that causes severe defects in the heart and bone development of children. Our findings will shed light\non the development of its treatment strategies."
+ },
+ {
+  "id": "23c85638-c605-42db-aa4a-594fc3a9126e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Advanced machine learning to empower ultra-sensitive liquid biopsy in melanoma and non-small cell lung cancer",
+  "text": "Conventional deep targeted sequencing approaches to liquid biopsy for circulating tumor DNA (ctDNA) face\nfundamental sensitivity barriers in low volume disease, which largely restricts use of liquid biopsy to advanced\nmalignancy. Recently, we demonstrated that use of whole genome sequencing (WGS) of plasma can\novercome prevailing sensitivity barriers in liquid biopsy through use of advanced error suppression and\nmatched tumor tissue, allowing for detection of postoperative minimal residual disease (MRD) that was linked\nto early cancer recurrence in non-small cell lung cancer and colorectal cancer. In this proposal, I seek to use\nadvanced machine learning to overcome matched tumor tissue dependency and vastly expand the applicability\nof our WGS-based approach, which will enable ultrasensitive therapeutic monitoring of response to\nimmunotherapy and detection of postoperative MRD with plasma WGS alone."
+ },
+ {
+  "id": "23ce3468-7f6e-4137-ad11-3d3eec29fd43",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Acquisition of an Agilent 4150 TapeStation for Nucleic Acid Quality Assessment at the Kansas Veterinary Diagnostic Laboratory",
+  "text": "This project will provide the Kansas Veterinary Diagnostic Laboratory (KVDL) with an Agilent 4150 TapeStation\nautomated nucleic acid analysis system, establishing systematic pre-analytical quality control for molecular\ndiagnostics and directly reducing diagnostic errors attributable to undetected nucleic acid degradation in\nclinical submissions. The resulting validated nucleic acid quality benchmarks and quality-tiered NGS workflows\nwill strengthen KVDL's contributions to the FDA/CVM Vet-LIRN network and advance network-wide molecular\ndiagnostic standards. Long-term, this infrastructure will support accreditation-level quality management,\nenhance competitiveness for future grants requiring validated molecular platforms, and increase KVDL's\ncapacity to provide reliable, high-quality molecular surveillance data for animal pathogens of regulatory\nsignificance."
+ },
+ {
+  "id": "23db1c27-42e3-4947-aed4-789e6dc1cbc4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Measuring and Learning from Care Variation in Sepsis",
+  "text": "Sepsis affects 5-10% of hospitalized patients and kills 11 million people worldwide each year. Prompt\ntreatment improves sepsis outcomes, but optimal antibiotic initiation thresholds, fluid resuscitation practices,\nand triage strategies are often unclear for individual patients. This research program will investigate how and\nwhy different physicians manage patients with sepsis in different ways, helping reduce sepsis morbidity and\nmortality by generating evidence that will guide selection and delivery of personalized sepsis treatment."
+ },
+ {
+  "id": "23e62341-8c7b-4b6f-b87a-c1101929de37",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identification and Characterization of Mutation-Induced Alternative Splicing Events in Cancer Using Multi-Omics Data",
+  "text": "Mutation-induced alternative splicing may play a significant role in cancer etiology, with the resulting\nneoantigens serving as novel immunogenic peptide candidates for cancer immunotherapy. Our goal is to\ndiscover these alternative splicing events and elucidate their functional roles in cancer. At the same time, we\nwill identify neoantigens arising from these events, supported by mass spectrometry data, to advance new\nstrategies for cancer immunotherapy."
+ },
+ {
+  "id": "23e88042-fdde-49dd-a913-0fe72112c986",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Hormone-Mediated Plasticity within Central Auditory Circuits",
+  "text": "Development and reproduction are driven by hormonal changes throughout the body. There is evidence\nsuggesting that auditory processing systems undergo significant reorganization during these events and that\nhormonal fluctuations can result in hearing loss. The proposed research will explore how hormones modulate\nauditory system function and its reorganization during development and reproduction, which has direct\nimplications for hearing-related disorders in the human population."
+ },
+ {
+  "id": "23e8d218-9ca8-417d-ab61-6cbfb9e494c6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Small Animal Imaging Shared Resource",
+  "text": "The Small Animal Imaging Shared Resource (SAISR) of the Simmons Comprehensive Cancer Center (SCCC) is set to facilitate advances in the understanding of cancer biology and the development of novel diagnostics and therapeutics. SAISR enables non-invasive assessment of tumor development, progression, and response to therapy using a comprehensive suite of imaging technologies including optical, ultrasound, photoacoustic imaging (PAI), magnetic resonance imaging (MRI), computed tomography (CT), single-photon emission computed tomography (SPECT), positron emission tomography (PET), hybrid SPECT/CT and PET/CT, and most recently simultaneous PET/MRI. In addition to anatomical visualization, the SAISR provides spatial and functional context for predictive biomarkers and theranostics. Specifically, we seek to facilitate and integrate pathophysiology, metabolism, and target identification with anatomical imaging. Exceptional expertise and experience allow SAISR personnel to implement new imaging capabilities to enhance research and to advise on optimal imaging approaches by SCCC investigators following appropriate training. Refurbishment of the Advanced Imaging Research Center (AIRC) now provides MRI at a range of magnetic fields (9.4 T, 7 T, and 3 T) and additionally offers PET/MRI and hyperpolarization. A new fluoroscopy suite facilitates image-guided interventions. The UTSW Cyclotron and Radiochemistry Program routinely provides investigational radiotracers enabling PET and SPECT, and radiochemists are actively engaged in developing new theranostic radiopharmaceuticals, further expanding the imaging portfolio for cancer research. The Pre-clinical Radiation Core Facility (PCRCF) has been augmented with the capabilities of MRI, CT and PET, as well as optical imaging and image-guided irradiation, inside the specific pathogen free (SPF) vivarium. All imaging modalities except PAI are now available both within and outside the SPF vivarium for longitudinal studies. The increasing availability of small animal imaging instrumentation provides the opportunity to efficiently test new therapeutic strategies in vivo, and to facilitate companion studies to clinical trials. Often, animal models are costly and/or in short supply. In longitudinal studies, non-invasive imaging allows animals to serve as their own controls, substantially improving research rigor. This facilitates effective assessment of pharmacokinetics, pharmacodynamics, biodistribution, and response to therapy. In addition, these studies require fewer animals, thus saving on costs and meeting ethical goals. Maximizing the information and quality of data obtained from individual subjects enhances research efficiency and ultimate translation to the clinic. Of 85 principal investigators using SAISR instruments during 2024, 61 were SCCC members and accounted for >70% of total usage. During the current grant cycle, the SAISR has contributed to 96 cancer-relevant publications, with 55% in journals with an IF ≥ 10."
+ },
+ {
+  "id": "23f15a6c-5ac3-4ccc-81be-4a11a16a6023",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "VANDERBILT-VIETNAM TRAINING PROGRAM IN GENETIC EPIDEMIOLOGY",
+  "text": "Genetics and microbiome, and their interaction with a wide variety of exposures ranging play a critical role\ndevelopment and progress of non-communicable diseases (NCD) but there are limited genetic epidemiology\nresearch in Vietnam, due in part to a lack of existing infrastructure, an existing cadre of trained investigators,\nand funding. This proposed Vanderbilt University Medical Center (VUMC) and Vietnamese (Hanoi Medical\nUniversity [HMU] and Vietnam National Cancer institute [VNCI]) partnership will expand upon our existing\npartnership to establish the new Vanderbilt-Vietnam Genetic Epidemiology (V2-GENE) Training Program\nfocused on training student in the tools needed for genetic analysis of NCDs, across types of diseases. There\nis shortage of trained genetic epidemiologist in low-middle income countries (LMICs) trained in genetic\nepidemiology, our goals with V2-GENE are to equip educators and trainees with the skills in genetic\nepidemiology to engage in sustainable long-term research activities in genetic studies of lifecourse and non-\ncommunicable diseases and to further solidify the collaborations and partnerships across VUMC faculty within\nlow- and middle-income countries."
+ },
+ {
+  "id": "23f1a638-0c7d-40a0-bcc8-77b412fbe70a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Core 1: Biorepository, Data Acquisition",
+  "text": "CORE 1: BIOREPOSITORY AND DATA ACQUISITION –NARRATIVE\nThe Biorepository and Data Acquisition Core (Core 1) is critical in facilitating completion of Projects 1, 2\nand 3 and interacting with Core 2. The central objectives of the Biorepository and Data Acquisition Core\nare to ensure appropriate tissue and blood sampling, processing, and annotation throughout the\nduration of the award. Several novel pathology workflows are outlined in the Core 1 research strategy."
+ },
+ {
+  "id": "23f230e3-cfdc-421a-9687-a76ffab97f7b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role and Regulation of the Secreted Proteases of Staphylococcus aureus",
+  "text": "Staphylococcus aureus is a highly virulent and widely successful pathogen that is one of the most\ncommon cause of human infection. With the continued emergence of multi-drug resistant isolates\nof S. aureus (such as MRSA), there is an urgent need to understand the mechanisms by which\nthis deadly pathogen causes disease. This proposal seeks to explore the importance of secreted\nproteases in regulating S. aureus virulence."
+ },
+ {
+  "id": "23fbd967-8912-4f04-97bb-975d0005cbb6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Pittsburgh Center for HIV Protein Interactions (PCHPI)",
+  "text": "Alternative approaches to inhibit/suppress/cure HIV-1 infection are needed. The proposed collaborative research program will provide structural details about HIV-1 protein and nucleic acid interactions, with the expectation that strategies for developing improved or new HIV-1 inhibitors will emerge."
+ },
+ {
+  "id": "23fd54cb-0cb3-4f90-9a81-bcadff4f7080",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Circuit Mechanisms Governing the Default Mode Network",
+  "text": "Autism spectrum disorder affects 1 in 31 children in the United States, causing significant challenges with\nsocial communication and repetitive behaviors that persist throughout life, yet we currently lack effective\ntreatments because we do not understand how neurons and brain circuits malfunction in autism. This project\nwill use cutting-edge brain imaging and neuronal recording techniques to discover how brain networks that\ncontrol internal mental processes and social behavior function normally and become disrupted in autism,\nproviding the first detailed cellular-level understanding of these critical brain circuit malfunctions. Our research\nwill contribute to the development of targeted therapies that improve the lives of millions of individuals with\nautism and their families."
+ },
+ {
+  "id": "2405ddc1-c82a-4e97-b27c-d66e34353e63",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Center for Integrated Biomedical and Rural Health Research",
+  "text": "Overall Plan: Narrative\nThe goal of this application is to establish the Center for Integrated Biomedical and Rural Health Research (CIB-\nRHR), a Center of Biomedical Research Excellence (CoBRE), that will enhance research infrastructure in a\nunique geographical, socio-cultural and economic region of the Rocky Mountain front and adjacent plains. The\napplication is significant as it serves the two primary purposes of increasing the cohort of NIH funded\ninvestigators and of advancing our understanding of common health conditions of special concern and/or\nprevalence in a rural environment. The application is innovative in that the Center will provide unprecedented\nopportunities for talent recruitment and innovation in a rural underserved region of the United States, will\nestablish the physical and intellectual presence required to increase trust in biomedical research in rural\ncommunities, and will serve as a potential model for other rural communities."
+ },
+ {
+  "id": "2406f982-b08b-42ce-a4fd-dc6275e4c9d3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Harnessing treatment-induced tumor evolution and collateral sensitivities using a human rectal cancer co-clinical platform",
+  "text": "Advanced rectal tumors are treated with combined chemotherapy and radiation therapy (chemoradiation) prior\nto surgery, but there is wide variation in the magnitude of tumor response. Optimizing non-surgical\nchemoradiation-based treatments could spare some patients the need to undergo a morbid surgery, but will\nrequire a detailed understanding of how chemoradiation causes evolution of tumor subpopulations as well as\nthe development of unique approaches to therapeutically target these evolving subpopulations. This project will\nuse cutting-edge techniques to dissect tumor responses to chemoradiation as well as an innovative approach\nto identify new treatment strategies for locally advanced rectal cancer."
+ },
+ {
+  "id": "2408208d-5c37-48c5-9050-6c4352ba254f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Regulation of diurnal rhythms in parvalbumin and perineuronal net function",
+  "text": "Circadian rhythms powerfully regulate our daily physiological and mental functions, but these rhythms can be\ndisrupted in shift work, during jet lag, during ageing, and in individuals with a wide variety of neurological\ndisorders. Individuals with these conditions experience cognitive impairment. Our studies focus on neural\nmechanisms in the prefrontal cortex that we believe contribute to this impairment during disruption of daily\nrhythms. These studies have translational potential in humans because impaired cognition can be debilitating\nfor those with altered sleep/activity rhythms and for those with disorders linked to dysregulation of biological\ntiming mechanisms."
+ },
+ {
+  "id": "241634c6-8aa4-474c-97c8-86e0184e3ac3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Community Engagement with Dialogue, Advancement, and Research (CEDAR) Core",
+  "text": "Modified Abstract Section PROJECT SUMMARY/ABSTRACT The Fred Hutch/University of Washington/Seattle Children’s Cancer Consortium (the Consortium) catchment area includes all of Washington State (WA) and includes 7.6 million individuals, of whom 32.7% are from racial/ethnic groups. 1.2% are American Indian and Alaska Native (AI/AN), who experience a disproportionately high level of cancer incidence and mortality. While the 29 federally recognized Tribes in WA represent diverse, culturally and contextually distinct communities, they share cultural resilience which offers a stable foundation for reducing cancer burden in partnership with the Consortium. The Consortium offers innovative, novel approaches to addressing cancer prevention, treatment, and care. The Consortium’s Office of Community Outreach and Engagement (OCOE) established the Indigenous Cancer Health Excellence Initiative (ICHE-i) program in 2022 to partner directly with AI/AN communities. Through Indigenous knowledge and value systems, ICHE-i relies on the AI/AN centered approaches of relationality, sustainability, and holistic perspectives to expand research capacity for Tribal, academic, and research partnerships. We propose to deepen Tribal partnerships and strengthen connections to our Consortium to respectfully engage with Tribal communities in support of cancer priorities and impactful cancer research while centering Tribal sovereignty. Reducing the cancer burden among AI/AN people represents our primary mission, requiring improvements in access to cancer screening, cancer care, and research in partnership with AI/AN communities. To improve cancer screening rates and trust in cancer research with AI/AN people, our Community Engagement with Dialogue, Advancement, and Research (CEDAR) activities using community-based participatory research (CBPR) principles. Through this project, we aim to: Aim 1. Partner with AI/AN communities to support Tribal needs assessments, identify priorities, and develop sustainable community and system-level changes. Aim 2. Use a bidirectional approach to implement culturally grounded education, programs, and medical care to reduce the cancer burden for AI/AN communities. Aim 3. Coordinate engagement and dissemination activities with Tribal members, partner organizations, relevant service organizations or policymakers, and the scientific community."
+ },
+ {
+  "id": "2417a057-e4cd-4111-b9f5-8e2330907b0e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Interactive Neuromodulation of ipRGC Signaling by Dopamine and Adenosine",
+  "text": "Light plays a vital role in mammalian biology, with intrinsically photosensitive retinal ganglion cells (ipRGCs) as\nthe conduits for photic information crucial for regulating bodily functions. Despite this, the neuromodulators in\nretinas that regulate the transmission of light signals to the brain remain relatively understudied. This project\naims to study the molecular mechanism by which the neuromodulator adenosine regulates signaling in ipRGCs\nto deepen our understanding of the biochemical and molecular mechanisms by which light influences human\nhealth and performance."
+ }
+]

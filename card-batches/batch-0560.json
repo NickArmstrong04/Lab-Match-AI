@@ -1,0 +1,142 @@
+[
+ {
+  "id": "3aa0c0e4-da6a-4444-a736-28ca81a876b0",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Sequencing Technologies & Analysis Shared Resource",
+  "text": "SEQUENCING TECHNOLOGIES & ANALYSIS SHARED RESOURCE – PROJECT SUMMARY/ABSTRACT The mission of the Cold Spring Harbor Laboratory Cancer Center (CSHL-CC) is to unravel the fundamental mechanisms that govern the biology of cancer through collaborative research and technology developmnet while training execptional cancer scientists to become future leaders in the field. Led by Faculty Co-Heads W. Richard McCombie, Ph.D., and Peter Koo, Ph.D., with Sequencing Director Sara Goodwin, Ph.D. and Bioinformatics Manager Raditya Utama, Ph.D., the Sequencing Technologies & Analysis Shared Resource (STA-SR) provides cost-effective, rapid genomic sequencing, transcriptomic sequencing, epigenetic analyses, and bioinformatics analysis to CSHL-CC members. The STA-SR supports research in all five cross-Programmatic themes of the CSHL-CC strategic plan (cancer physiology, molecular drivers of cancer, computational and quantitative biology, cancer heterogeneity, and preclinical therapeutics and diagnostics) and is critical for advancing the strategic pillar of Catalyzing Fundamental Discoveries in Cancer. The STA-SR supports an array of services, including cancer genome and exome re-sequencing, de novo cancer genome sequencing, RNA- seq, ChIP-seq, RIP-Seq, single-cell genomics, and custome gene panel analyses. The STA-SR also provides computational infrastructure and advanced bioinformatics tools, including the in-house CodeSpringLab platform. The STA-SR has taken a proactive role in building the computational infrastructure required to support these varied genomics projects. STA-SR staff worked to develop sequencing protocols and computational approaches, with a particular focus on long-read technologies and cancer research. Advances in sequencing technology have necessitated updating the instrumentation within the facility, and institutional support helped the STA-SR acquire the NextSeq 2000, PacBio Revio, and Bionano Saphyr, and expand Oxford Nanopore capabilities for direct RNA and single-cell sequencing. From 2021-2024, the STA-SR was used by 42 CSHL-CC members (74% of members). CSHL-CC members account for 82% of sequencing usage and 98% of bioinformatics usage. In addition, during the current cycle, the STA-SR enabled 105 publications, including 62 in journals with an impact factor above 10. Of the 105 publications, 28 (27%) featured STA-SR staff as co-authors, demonstrating the value they add to CSHL-CC research. The STA-SR's services make advanced genomic sequencing and analysis accessible to investigators who would otherwise be unable to incorporate these critical analytical workflows into their cancer research at CSHL."
+ },
+ {
+  "id": "3aa1a0a1-6413-422c-b220-5ffc114228dd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Deep Learning for Multi-Omics-Based Prediction of Cancer Recurrence and Treatment Non-Response",
+  "text": "This research will improve our understanding of early cancer recurrence and treatment failure in glioma, lung\nadenocarcinoma, and breast cancer and provide a novel prediction method. By developing explainable deep\nlearning models incorporating genomic, clinical, and protein-protein interaction data, this study will enhance\nfundamental knowledge of cancer biology and identify potential targets for future targeted therapy research.\nAdditionally, creating accessible recurrence modeling tools will enable non-computational end users to apply\nrobust deep learning classifiers to their datasets with minimal barriers to entry."
+ },
+ {
+  "id": "3aaa0150-8864-416a-b481-80f6495e1070",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Evaluation Core",
+  "text": "The purpose of this proposed FIRST Cohort program is to transform our institutional culture at ISMMS by building a self-reinforcing community of scientists committed to diversity and inclusive excellence. The goal of the Evaluation Core (EC) is to develop a multi-method, multi-level, iterative evaluation plan to assess the success and impact of our FIRST Cohort Program on the FIRST faculty and on our institution. Our EC team offers expertise in the mixed-method approaches required to ensure optimal evaluation of ongoing institutional change. Our evaluations of our FIRST Program will be guided by a hybrid model combining the validated PRECEDE- PROCEED and Social Ecological Models (SEM). Briefly, we will evaluate whether our program’s activities lead to the expected outcomes including: 1) the FIRST cohort’s research success; 2) enhanced inclusive excellence; and 3) sustainable institutional culture change. Applying the PRECEDE-PROCEED and SEM models, we will conduct regular, iterative evaluations to assess whether our Administrative and Faculty Development Cores are meeting their targeted short-term and long-term milestones. Aggregated results from our evaluations will be shared among all Cores to refine program activities and guide institutional policy. Accordingly, we propose the following three Specific Aims. Aim 1. Test the primary hypothesis, as defined by the FIRST Cohort RFA, that a Cohort/cluster model of faculty hiring will achieve significant improvements in institutional culture and research success. Aim 2. Develop and implement an iterative evaluation plan to assess the FIRST Cohort program implementation processes and short-term outcomes. Aim 3. Work with the FIRST Coordination and Evaluation Center (CEC) to identify and harmonize a set of common data elements. To achieve these aims, we will use validated observation strategies, qualitative and quantitative data collection methods, and assessment measures. Our activities will be further supported by our Office of the Chief Research Informatics Officer (CRIO), which provides a comprehensive set of external and internal IT resources that will facilitate our data collection and management activities. Our EC plan includes procedures that allow us to redirect resources as needed to best meet our program goals. We will collaborate with our Administrative Core, Faculty Development Core, and the CEC across the entire 5-year program. In addition, we will ensure that planning, monitoring, evaluation, and tracking of program activities will be continuous, shared as negotiated, and reported to the FIRST CEC. Altogether, these activities will advance the scientific study of comprehensive strategies that can promote and sustain a culture of inclusive excellence in order to better achieve an environment in which our FIRST Cohort faculty and all members of our national academic community can thrive."
+ },
+ {
+  "id": "3aaf9f22-a514-471e-9580-596bd2bc421f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Web-based technology and cognitive training: improving executive control in cognitivelyhealthy older adults",
+  "text": "Developing efficient cognitive training protocols for the healthy older adults and those at high risk for\nAlzheimer`s disease is a major public health goal, due to its potential for reducing age-related cognitive decline\nand Alzheimer’s disease/dementia risk. Additionally, there is an increasing demand for web-based, cost-\neffective cognitive training that is scalable and accessible to diverse populations (e.g., individuals with mobility\ndifficulties, those living in remote regions, or possessing varying clinical status or demographics - such as age,\nsex/gender, race/ethnicity, or education), which would enhance public health impact of such a training.\nRecently, the need for providing effective in-home cognitive interventions to keep older adults cognitively active\nhas amassed additional importance due to the COVID-19 pandemic, which may require intermediate isolation\nand limit in-person research participation."
+ },
+ {
+  "id": "3ab58849-2704-40f7-9251-40cdf10d8e4c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Restoring the Immunogenicity of Head and Neck Cancer",
+  "text": "Priming approaches activating innate immune sensors, which constitute the first step of generating tumor-\nspecific immunity, have emerged as appealing methods to sensitize non-responsive head and neck cancers to\nimmune checkpoint receptor blockade immunotherapy. However, many of these priming approaches are\nchallenged by emerging resistance whose mechanism is poorly understood and few strategies are available for\ncancers that escape from innate immune sensors. This innovative program will leverage our recent discoveries\nof central regulators of the innate immune sensors to engineer a robust nanoparticle system with a strong\npromise in overcoming cancer resistance to innate immune priming therapies."
+ },
+ {
+  "id": "3ab58fba-8057-424c-8bb5-36763b6ef31e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Spacer acquisition during the type III-A CRISPR-Cas immune response",
+  "text": "About a decade ago we and others have exploited the simplicity for re-programming of target recognition of the\nRNA-guided DNA nucleases encoded by type II CRISPR-Cas immune systems (Cas9). This biotechnological\napplication have revolutionized the study of human genetic disease and it is a testament to the importance of\ncharacterizing the molecular mechanisms of this prokaryotic immune response. In this proposal we will\ninvestigate the mechanisms of spacer acquisition of type III CRISPR-Cas systems. We believe that the\nknowledge generated could expand the spectrum of CRISPR-based biotechnological applications to benefit\nboth basic and translational science."
+ },
+ {
+  "id": "3ab7d499-b95c-4054-8ecc-9c4a1e0d6903",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular approach to ameliorate the age-dependent loss of Clock protein Bmal1 and Nrf2-antioxidant response in eye lens: Implications for eye lens health span",
+  "text": "Because of increases in age-related blinding diseases, issues of healthy aging and blocking age-related\npathobiology are becoming pressing social and biomedical challenges. The Nrf2 (NFE2-related factor2)\nmediated antioxidant defense pathway is crucial for cytoprotection; its dysregulation leads to pathobiology and\nis associated with a number of age-related chronic diseases. Understanding the molecular mechanism by which\nNrf2 signaling goes awry and defining the molecular mechanism of a small molecule (Metformin) capable of\nmodulating/reactivating Nrf2 function may lay a foundation for mechanism-based therapy to treat or prevent\naging diseases, including cataract."
+ },
+ {
+  "id": "3ac1022c-21e6-48f0-b6db-afb419cbd9b7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Genetics and Pathobiology of Cutaneous Mosaic Disorders",
+  "text": "The study of genetic skin disorders, including patterned skin conditions known as mosaic\ndisorders, has identified many pathways important for normal skin function. We propose to\nemploy comprehensive genetic evaluation to identify additional genetic causes of these\ndisorders and to gain insight into mechanisms of skin disease. This work will benefit public\nhealth, as gaining insight into genetic causes of these diseases will provide new information\nabout how the skin maintains and renews itself and about cutaneous inflammation with\nimplication for generation of new targeted therapies for common skin disease."
+ },
+ {
+  "id": "3ac453c6-094d-43e6-97cd-38ba3df215b8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identifying Global Rejuvenation Mechanisms in Tissues that Reverses Age-Related Phenotypes in Planarians",
+  "text": "During aging, the progression of organ frailty and diseases is often linked to the dysregulation of tissue\nhomeostasis, which can be attributed to changes in the microenvironmental niches that regulate, maintain, and\nalter adult stem cell function. Utilizing Ex-Scope, an ultra-high resolution spatial transcriptomics technology I\nrecently developed, I aim to characterize how aging and regeneration in planarians alter cell types and their\ncorresponding expression (mRNA) in microenvironmental niches. This study could reveal the molecular\nmechanisms by which regeneration rejuvenates tissue architecture."
+ },
+ {
+  "id": "3accebd5-3a1c-482a-8e05-bb34a6b9b525",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multipurpose Device for Female-initiated Nonsteroidal On-Demand Contraception",
+  "text": "Innovative, female-initiated contraceptive technologies are needed that are affordable, socially acceptable, and\nprovide desired protection from unintended pregnancy without exposing women to additional health risks asso-\nciated with systemic distribution of contraceptive hormones. This application seeks to develop a novel delivery\ntechnology using an on-demand dual-compartment vaginal device to provide women with a different choice in\ntheir personal decision of managing fertility throughout their reproductive lives. The proposed bioengineering\napproach is fundamentally different from conventional designs of non-hormonal, on-demand contraceptive tech-\nnologies as it enables women to fortify the natural contraceptive barriers at the cervicovaginal junction without\npharmacological action of drug molecules."
+ },
+ {
+  "id": "3acd9136-1b2f-4e47-b415-69c99a4ba2f9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Disparities of Alzheimer's disease progression in Sexual Minority Individuals",
+  "text": "Our main goal is to provide concrete real-world evidence from large collections of real-world data (RWD) to fill the knowledge gaps in our knowledge of Alzheimer’s disease (AD) risk and heterogeneous progression pathways in the sexual minority (SM) populations as well as their disparities in AD outcomes. We will leverage our access to large collections of RWD from the OneFlorida+ and INSIGHT networks, two clinical research networks contributing to the national Patient-Centered Clinical Research Network (PCORnet). More importantly, this project will establish a framework for creating RWD-based virtual cohort, which can inform national pragmatic trials across PCORnet for future SM aging clinical studies."
+ },
+ {
+  "id": "3ad3e38e-1944-4e03-b855-80c27bffc1b1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A Geometric and Morphoelastic Study of Aortic Dissection Evolution",
+  "text": "The proposed research is relevant to public health because it seeks to inform upon the potential benefits of\nsurgical versus medical intervention for type B aortic dissection through the development of modern geometric\nand mechanistically based selection criteria. Upon completion there will be a richer and more nuanced\nunderstanding of aortic stability as defined from computed tomography angiography imaging, which will allow for\nmore optimal patient selection. Thus, the proposed research is relevant to the part of the NIH’s mission to\nenhance cardiovascular health and improve mortality."
+ },
+ {
+  "id": "3adc2f08-d69f-471f-a5e9-c1d708a174a9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Testing Developmental Mechanisms of Personality Impairment in Youth",
+  "text": "Personality disorders in youth are associated with profound personal and societal burden, but very little is known\nabout the processes underlying personality impairment in youth, hindering efforts to identify effective\ninterventions for this vulnerable population. For this prospective longitudinal study, a clinically diverse psychiatric\noutpatient sample of 160 early adolescent youth and 80 healthy comparison youth without a history of\npsychopathology (ages 10-13; 50% female) will be recruited to test neurophysiological alterations in social\nacceptance processing and self-referential processing as predictors of personality impairment over two years.\nFindings will guide the development of preventative efforts to mitigate the personal and societal burden\nassociated with personality impairment within this sensitive developmental period."
+ },
+ {
+  "id": "3ae0ffea-ae07-4f63-8fff-296cc7e4a7fc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Protein arginine methylation in breast cancer",
+  "text": "Breast cancer lethality is primarily caused by metastasis. However, the genetic and epigenetic mechanisms\ncontributing to metastasis remains unclear. This project aims to dissect network of molecular pathways and\nto identify epigenetic drivers of metastasis, which will provide a molecular basis for designing precision\ntherapies to improve the survival of triple negative breast cancer patients."
+ },
+ {
+  "id": "3ae1501d-3d15-48c4-a8be-d6bd713c63b8",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Next Generation Sequencing Core (NGS)",
+  "text": "PROJECT SUMMARY – NEXT GENERATION SEQUENCING The mission of the Next Generation Sequencing (NGS) Shared Resource of the Salk Cancer Center (SCC) is to provide integrated state-of-the-art genomics support for cancer research spanning basic and translational science. NGS members work with investigators on the design, conduct, analysis, and reporting of cancer research. SCC recruited Elsa Molina, PhD, as NGS Director with support from the SCC Deputy Director for Translation Ronald EvansIMT as Faculty Supervisor. During the current grant period, 29 SCC members utilized the NGS, resulting directly in more than 67 publications. The mission of the Next Generation Sequencing (NGS) Shared Resource is to facilitate cutting-edge genomics research at the Salk Institute by: 1) Providing cost-effective, rapid high-throughput, and state-of-the-art genomics instrumentation and services 2) Providing expert assistance and custom solutions in study design 3) Preparing sequencing libraries, including bulk and single-cell, and performing quality control to ensure that high-quality data are extracted from each experimental sample 4) Providing digital gene expression assay services 5) Providing whole tissue spatial transcriptomics services 6) Developing novel methods to enable cutting edge genomics technologies The NGS Shared Resource is committed to bringing novel genomics technologies to its core as well as embracing new and specific skills to best help SCC investigators with their research needs to successfully achieve their research goal."
+ },
+ {
+  "id": "3ae449a3-c772-4991-a285-527ba0dd2159",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "An Integrated microbiota-gut-brain axis model for Hypertension Signaling",
+  "text": "The proposed research is relevant to public health because it will investigate specific mechanisms of\ninteraction between the host and select beneficial gut bacteria for potential use in therapeutics. This proposal\ndirectly addresses the strategic goals of the NIH and the current FOA as it uses novel concepts and\ntechnologies to better understand health and disease with broad application to multiple NIH Institutes or\nCenters. Data are expected to be translational for diseases and conditions associated with dysfunctional\nserotonergic vagal gut-brain axis."
+ },
+ {
+  "id": "3b03ef43-9bf4-42db-a576-eadf3af29e23",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of novel RPS23 inhibitors for the treatment of leukemia",
+  "text": "Acute myeloid leukemia (AML) is the most common acute leukemia in adults, and the 5-year survival remains\ndismal at only 26% in adults. We discovered a compound that binds to a protein that turns on a stress response\npathway. Leukemia cells are acutely sensitive to the stress response, and its activation kills leukemia cells but\nnot other cell types. We propose to figure out how the compound triggers the stress response and whether it can\nbe used in combination with a therapy commonly used in patients with AML."
+ },
+ {
+  "id": "3b08c3af-af4a-4a33-b818-08bf7fa98616",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Virtual Reality Intervention for Stress, Resilience, and Blood Pressure Management in Black Women",
+  "text": "REALIST WOMEN STUDY\nThe research project aims to address the higher cardiovascular disease (CVD) risk markers in Black women,\ninfluenced by factors such as insufficient sleep and cumulative intersectional stress. To tackle this, the\nproject proposes utilizing innovative and accessible virtual reality (VR) technology for stress reduction and\nresilience stimulation, with a specific focus on Black women in South Florida. The ultimate goal is to\nprovide training in culturally tailored interventions for the researcher to address the unique stress-related\nhealth challenges faced by Black women, including cardiovascular issues, poor sleep, and psychological\nresilience."
+ },
+ {
+  "id": "3b097a67-0ad1-4b0b-9e88-9a7f4ef5fd05",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Facility Management, Maintenance and Operations (FMMO) Core",
+  "text": "ABSTRACT; CORE 1, Facility Management, Maintenance and Operations (FMMO) core The coordination of research and research support services to ensure safe and efficient performance is central to all research and public health missions of the Rutgers RBL. Here, we propose to use existing University support for the RBL along with new funding supported by this UC7 application to combine all RBL support personnel from several contributing Departments and Divisions into a single expanded Facility Management, Maintenance and Operations (FMMO) Core. This new core will fundamentally transform our RBL by organizing the diverse research and facilities support personnel into a single interactive core for improved operations of critical infrastructure, equipment, and laboratory services to the RBL community. The FMMO core will provide BSL3 management and oversite, ensure efficient operations and maintenance of the BSL3 facilities, provide trained staff to support the BSL3 building systems and equipment, and provide routine animal husbandry, microbiology and virology services in support of investigators grant funded research projects. In Aim 1, we will re-organize and improve our existing research and facilities support services (working with the BSL3 Practices Core 2 and the Animal research and specialized service Core 3) into three integrated units to address all aspects of facilities management, maintenance, and operations In Aim 2, we will develop, implement and monitor a new robust system for preventative maintenance and life-cycle governed replacement of equipment critical to RBL functioning."
+ },
+ {
+  "id": "3b0a1d11-912f-428a-b11d-59d950fd7724",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of Eukaryotic Translation with a Focus on Induced Nonsense Suppression",
+  "text": "Protein synthesis is a key process in cellular function. A common cause of many genetic diseases is type of\nharmful mutation which interrupts the formation of many cellular proteins, depriving cells of activities\nnecessary for normal function. In this proposal we seek to broaden our understanding of the mechanisms of\nprotein synthesis and use that understanding to develop therapeutic approaches to overcome these harmful\nmutations."
+ }
+]

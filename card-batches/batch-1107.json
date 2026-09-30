@@ -1,0 +1,142 @@
+[
+ {
+  "id": "fd3712bd-2b96-4eb3-8e02-ef6603840f74",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cancer Control Research Program",
+  "text": "CANCER CONTROL RESEARCH PROGRAM The Sylvester Comprehensive Cancer Center (Sylvester) Cancer Control (CC) Research Program is coled by Frank J. Penedo, PhD, and Tracy E. Crane, PhD, who offer complementary expertise across the cancer control continuum from prevention to survivorship. CC advances cancer control science throughout Sylvesterfs four-county catchment area (CA). These efforts strategically align with the programfs two specific aims 1) identify and characterize multilevel determinants of cancer etiology, risk, and outcomes from prevention to survivorship; and 2) design and test innovative interventions to reduce gaps in cancer care and improve outcomes across the cancer control continuum. With Sylvester investments, CC has continued to mature, growing in membership, scientific productivity, and scope in alignment with Sylvesterfs 2019-2023 Strategic Plan. Targeted faculty recruitment has added expertise in social epidemiology, cancer care delivery, cancer survivorship, and lifestyle medicine (health behavior) research. The program has achieved key milestones including receiving a Training to Reduce Burden across the Cancer Control Continuum (TRACC) T32 training grant, creating a Hispanic/Latino(a) (H/L) cancer survivorship cohort, and launching several transdisciplinary, multisite, and innovative CA-relevant projects. CC has grown to include 47 members from four University of Miami Colleges and Schools (Schools of Medicine, Music, Communications, and the College of Arts and Sciences), representing 12 departments. CC has $7.4M in annual direct peer-reviewed, cancerrelated extramural funding.an increase of over $1M annually since the prior submission, including $2.9M from the National Cancer Institute (NCI). Over the reporting period (6/1/2018- 5/31/2023), program members published 817 peerreviewed, cancer-relevant papers; 24% (n=200) were intra-programmatic and 15% (n=126) inter-programmatic, 18% (n=144) were in journals with impact factors .10, and 73% (n=599) were published with collaborators from other institutions. Support for faculty recruits totaled $11.8M and Sylvester Intramural Funding Program (IFP) investments of $2.1M to CC members resulted in $6.9M of external funding, over a 3- fold return on investment. Grounded in Sylvesterfs unique CA, CC has characterized a greater appreciation of the critical heterogeneity of cancer risk, prevalence, and outcomes and developed novel interventions that have led to practice-changing impact across the cancer continuum. Sylvesterfs investments in key research infrastructure, most notably the Behavioral and Community-Based Research Shared Resource, and Sylvesterfs Office of Outreach and Engagement ensure input from key community stakeholders to address community priorities in cancer control. CC continues to develop a highly collaborative and engaged membership that forms a robust, sustainable, and comprehensive program that advances Sylvesterfs mission among vulnerable populations in SoFL and beyond."
+ },
+ {
+  "id": "fd4010e3-49de-40e8-80b8-e16f07c2a0fc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Exploring new approaches for enhanced human gene annotation",
+  "text": "Identifying the genes that are active in a cell is a critical step in studying cell development,\ngenetic diseases, responses to infection, the effects of mutations, and much more. During the\nlast decade, high-throughput RNA-sequencing data have proven essential to characterizing the\ngenes expressed in different cell types and conditions, which in turn has driven a strong demand\nfor highly efficient, scalable, and accurate computational methods to process these data. This\nproject will design and implement new algorithms to process the ever-growing and diverse types\nof RNA-sequencing experiments in order to produce more accurate human gene and transcript\nannotation."
+ },
+ {
+  "id": "fd40c971-7aea-40f4-b292-c937236f20b7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Radiation and dendritic cells to hepatomas to improve immunotherapy response",
+  "text": "Patients with unresectable hepatocellular carcinoma have poor overall survival. Immunotherapy with PD-L1\nand VEGF inhibitor is a recent major advance, however, progression free survival remains short at less than 7\nmonths. We propose to examine the clinical activities and immune effect of a novel combination therapy using\nradiation followed by intratumor injection of autologous dendritic cells followed by standard of care PD-L1 and\nVEGF inhibitors."
+ },
+ {
+  "id": "fd4cd2c4-17ef-41ab-afae-ec7f95f560c2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "How do astrocytes regulate neuronal circuits?",
+  "text": "While the electrical activity of neurons is thought of as the basis of our thoughts, memories, and\nactions, the brain is also composed of an array of support cells that can actively control\nneuronal firing and an organism’s behavior. Thus, in order to understand how the brain forms\nneuronal circuits and why those circuits are disrupted in disease, we must understand how\nthese support cells can control neuronal activity. This proposal focuses on decoding which\nsignals these support cells respond to and how they change the electrical activity of the brain in\norder to understand how the brain normally functions and how these support cells may change\nbrain function in disease and injury."
+ },
+ {
+  "id": "fd4d63c0-9c47-4f7a-9ca4-314ab47bfbf1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Translational big data analytic approaches to advance drug repurposing for Alzheimer's disease",
+  "text": "Alzheimer’s disease (AD) is a major public health crisis with no available cure. We propose innovative\ntranslational big data analytic methods to improve our understanding of the genetic, molecular and\nneurobiological mechanisms of AD, facilitate the identification of novel promising targets and drugs for\nrepurposing, and ultimately have a translational impact on disease treatment and prevention. The resulting\nmethods are also expected to impact biomedical research in general and benefit public health outcomes."
+ },
+ {
+  "id": "fd5306e9-9087-49a5-b8ef-34d0d658cd41",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Modeling and dynamics of biomolecules on cellular scales",
+  "text": "Most biological function takes place inside cells. This research aims at understanding the\nfundamental principles at the molecular level for how cellular environments shape\nbiological function and disease. Understanding how cellular environments alter\nbiomolecular behavior will furthermore inform more effective rational design strategies to\nidentify new therapies targeting a variety of diseases."
+ },
+ {
+  "id": "fd54c56f-6c91-4b8f-be1f-21c9f6db4a8e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Monoclonal Antibody Cocktail for Treatment of Marburg Virus Disease",
+  "text": "Filoviruses are among the deadliest pathogens known to humans. The Ebola virus disease outbreak in West\nAfrica (2014-2016), caused by the Zaire Ebola virus, resulted in over 28,000 cases and 11,000 deaths. In addition\nto Ebola virus, a related filovirus called Marburg has caused five outbreaks in the past 10 years with high fatality\nrates. This proposal is aimed at developing effective immunoprotherapeutic against Marburg virus for protection\nagainst Marburg virus disease. We have generated several antibody drug candidates that protect against\nMarburg infection. Under this proposal we will engineer two lead antibody to acquire long term durability after\ninjection and we will perform animal efficacy studies with a cocktail of these antibodies. This study, if successful,\nwill set the stage for clinical development of an effective therapeutic for human use."
+ },
+ {
+  "id": "fd5dc0ec-bdc4-4777-8310-43558f6fe11e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Characterizing, optimizing, and harmonizing cancer detection with PET imaging",
+  "text": "We are proposing to take advantage of recent developments in PET imaging technology and algorithms to\ncharacterize, optimize, and harmonize cancer detection with PET imaging. This will use new artificial\nintelligence methods and our recent technical developments to provide more accurate measurements and\nphantoms for translation across multiple systems and imaging sites. This will lead to a roadmap for multi-site\nand multi-vendor implementation approaches that improve early-stage cancer detection and diagnosis, and\nthus improved patient outcomes."
+ },
+ {
+  "id": "fd5e18eb-4de4-477c-bcea-f22e507d6a66",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of Impaired Granulopoiesis Due to CLPB Mutations",
+  "text": "Neutrophils are crucial immune system cells that act as a first line of defense against infections, and an\nabsence of neutrophils places patients at increased risk of death due to uncontrolled infection. We recently\nidentified a new genetic cause for severe congenital neutropenia (SCN), a rare disorder characterized by an\ninability to generate mature, functional neutrophils. Studying the mechanisms underlying SCN will allow us to\nmake significant advances into basic neutrophil biology, leading to new therapies for SCN patients and patients\nwho have decreased neutrophil numbers in the setting of chemotherapy treatment."
+ },
+ {
+  "id": "fd619a6b-df4e-4568-8e6d-27a2c42cb324",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Air pollution mixtures and pregnancy: assessing exposure, estimating risk, and predicting susceptibility with machine learning",
+  "text": "This study will determine the effect of exposure to mixtures of PM2.5, O3, NO2, and heat on placental\ninsufficiency during pregnancy using a causal random forest, which calculates weekly effect estimates with\nconfidence intervals. Population movement simulation models will be used to better estimate uncertainty in\nexposure and its effects. The proposed research will improve our understanding of the effects of complex\nmixtures of air pollutants on placental insufficiency using machine learning."
+ },
+ {
+  "id": "fd6275cc-67c8-420e-8396-354f1829411c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Rapid Species-Level Diagnosis and Treatment Monitoring of NTM Infections Using a CRISPR-Droplet Platform",
+  "text": "Nontuberculous mycobacteria (NTM) infections are increasing in prevalence, yet current diagnostic methods\nrely on slow culture-based techniques, delaying timely treatment decisions. This project aims to develop and\nclinically validate a CRISPR-Assisted, Nanodroplet-paired Differentiation test for NTM (CANDi-NTM)\nfor rapid, non-invasive NTM detection and drug resistance profiling, streamlining diagnosis and treatment\nresponse monitoring. By integrating this innovative approach into clinical workflows, we seek to provide a\ntransformative tool for early and precise NTM management, ultimately improving patient outcomes."
+ },
+ {
+  "id": "fd68e5b6-c738-4a87-97fc-593c2d6a5164",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Training Program in Patient-Oriented Research in Cardiovascular Endocrinology",
+  "text": "The primary mission of this new Training Program is to train post-doctoral fellows in all aspects of patient-oriented research with a particular focus on the role of genetics, epigenetics, and endocrinology in the pathophysiology of cardiometabolic diseases. To accomplish this mission, the Program has recruited 16 outstanding primary mentors, each with a stellar record of NIH funding and excellence in mentorship evidenced by the high rates of retention of their trainees in academic research careers and by the success of their trainees in securing independent K series and/ or R series grants. The program, founded upon three core components - 1) a didactic learning core; 2) a mentored research project component; and 3) an individualized career development plan - is supported by an outstanding institutional research and education infrastructure and culture to accomplish its mission of nurturing the next generation of highly skilled academic investigators with expertise in patient-oriented research."
+ },
+ {
+  "id": "fd726a9a-8ac9-4030-9a86-93d5b99ec0a8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project 2 - Uncovering Mechanisms of the Lymphoid Oncogenesis of Epstein-Barr Virus and Kaposi's Sarcoma",
+  "text": "PROJECT 2 − PROJECT NARRATIVE\nEpstein-Barr Virus and Kaposi's Sarcoma Herpesvirus are human tumor viruses that cause lymphomas. We are\nidentifying how they cause Burkitt Lymphoma and Primary Effusion Lymphomas to foster development of\ntreatments for these cancers."
+ },
+ {
+  "id": "fd74b5d3-ec87-471b-b6e3-bf8643903887",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Statistical Framework for Unraveling Age-Dependent Genetic Landscape of Alzheimer's Disease and Related Dementias: Harnessing Large-Scale EHR and DNA-Biobank Integration",
+  "text": "This project aims to build a more comprehensive understanding of the genetic architecture of Alzheimer's Disease\nand related dementias, taking into account the complexities of age-related changes and diverse phenotypes.\nBy leveraging large-scale biobanks, electronic medical records, and innovative machine learning techniques,\nwe hope to uncover crucial insights that could lead to better understanding of disease progression, improved\nprevention strategies and novel therapeutic targets, representing a signiﬁcant advancement in dementia research."
+ },
+ {
+  "id": "fd7aedc4-f504-43e5-9215-bb2812d3cb5f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Automated Quality Evaluation and Harmonization for Multisite ASL MRI Data",
+  "text": "Arterial Spin Labeled perfusion magnetic resonance imaging (ASL-MRI) is the only non-invasive method to\nmeasure regional cerebral blood flow and has been included as a part of multi-modal MRI in several multisite\nlongitudinal studies aimed at aging and Alzheimer's disease and related dementias (ADRD) research. ASL data\ncan be noisy and can also vary significantly across sites. The proposed project will develop methods for\nautomated quality evaluation and harmonization of data that will ensure maximal data retainment, optimal\nstatistical analysis, and biomarker development."
+ },
+ {
+  "id": "fd81966f-ac16-45e0-8680-6aae3ffc6aa9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Geometrical Regulation of Collective Cellular Responses in Three-Dimensional Space and Time",
+  "text": "Our research program investigates how macroscopic 3D tissue geometries—such as curvature, concavity, and\ncontinuity—independently influence cell morphology, gene expression, and tissue homeostasis, focusing initially\non mesenchymal cells in skin and vascular tissues. By leveraging novel biofabrication and tissue engineering\ntechniques, we aim to systematically decouple and explore the effects of these geometric cues on cellular\nbehavior, both in steady-state and dynamically changing environments. Ultimately, this work may lead to new\ntherapeutic strategies targeting geometric regulation of cells and the development of more physiologically\nrelevant organ models, while also providing interdisciplinary training opportunities for future scientists and\nclinicians."
+ },
+ {
+  "id": "fd85f37f-6074-48b2-b58d-10eb5c433f9d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multilevel stress influences on longitudinal trajectories of tobacco use among young adults throughout the US",
+  "text": "Our scientific premise leverages the socioecological framework and life course theory and builds on literature that indicates that: a) young adulthood is a time of increased risk of tobacco use initiation and escalation; b) young adults experiencing stress display greater risk of tobacco use; c) stress occurs across multiple levels and is influenced by the broader community environment; and d) a significant portion of young adults reside in areas with limited access to tobacco cessation programs. The overall goal of this research is to address knowledge gaps in prevention and cessation efforts targeting young adults by assessing longitudinal trajectories of tobacco use across a range of tobacco products, the multiple components of individual and interpersonal stress that may contribute to such use, and the bidirectional associations of stress and tobacco use among young adults living in areas with and without access to tobacco cessation programs."
+ },
+ {
+  "id": "fd8a5be5-fdd2-4a78-8c16-e2db1e3b0654",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A novel role of cholesterol and SR-BI in adipocyte biology",
+  "text": "The aim of the proposed research project is to determine how the HDL receptor SR-BI in\nadipocytes regulates the process by which high-fat diet feeding induces lipid accumulation in\nadipose tissue. We anticipate that the new knowledge gained will deepen our understanding of\nadipocyte biology through investigation of a novel, previously unappreciated role of HDL-\ncholesterol and its receptor SR-BI. Considering the staggering impact of obesity on metabolic\nand cardiovascular diseases, the goal of the research project is in line with the objectives of the\nNational Institute of Health to address these disorders through medical research."
+ },
+ {
+  "id": "fd8d3c43-8afc-4618-8f80-e060baa959cb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting CD180 to induce anti-KSHV response in nonhuman primates",
+  "text": "Individuals with an underlying HIV-infection have an increased risk of developing AIDS-related malignancies.\nKaposi sarcoma-associated herpesvirus (KSHV) is the necessary causal agent for Kaposi's sarcoma and is a\ncofactor in B cell lymphoproliferative disorders observed in AIDS patients. Devising a vaccine strategy that can\ninhibit KSHV infection amongst the population is a necessary first step in creating a vaccine to prevent the spread\nof KSHV worldwide and the results from the proposed studies utilizing the nonhuman primate model should help\nelucidate and define vaccine strategies to prevent KSHV infection or KSHV-associated disease."
+ },
+ {
+  "id": "fd8ef175-6552-4a52-8e1b-8a768d883549",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development and characterization of self-amplifying RNA Lipid Nanoparticles for potent and multiplex gene expression in solid tumors",
+  "text": "This proposal describes the training and mentoring of Mr. Nambiar and his research project to further expand\nand explore the applications of self-amplifying RNA (saRNA) for the treatment of solid tumors. He aims to\naccomplish this both by optimizing nucleoside composition and lipid nanoparticle (LNP) vehicle properties, and\ndetermining the maximum payload for saRNA (both in quantity of genes and total length of transgene). The\ncapability of these optimizations of the saRNA-LNP platform for allowing efficient and multiplex gene\nexpression in solid tumors will be assessed both in vitro and in vivo."
+ }
+]

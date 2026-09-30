@@ -1,0 +1,142 @@
+[
+ {
+  "id": "8ccba3f2-9a9f-4687-9f28-cc03fd0afdb2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Imaging and Surgery Core",
+  "text": "ABSTRACT – Core B The imaging and surgical core will provide state-of-the-art imaging services to the program. Dr. Randolph’s experience in organizing collaborative teams and her laboratory's background in macrophage biology and lymphatic/vascular trafficking of immune cells and lipoproteins will facilitate applications in imaging that will be tailored to the science of each project. The core will incorporate major contributions from highly expert co- investigators. Dr. Bernd Zinselmeyer is an expert in multiple modalities of light microscopy, including its application in studies of the CNS. He will contribute several lines of expertise in the grant, from confocal and 2- photon microscopy to high-speed epifluorescence imaging. Dr. Song Hu is an innovator in photoacoustic imaging with demonstrated expertise in using this technology to study the vasculature of the CNS. Dr. Igor Smirnov is an expert microsurgeon who will provide and oversee highly skilled surgical manipulations for the projects, including procedures like skull transplant and skull thinning. These co-investigators bring more than their state-of-the-art expertise; they also all bring demonstrated collaborations with one or more project leaders. By working together, this core team of investigators and affiliated staff will offer to all projects the following range of expert surgical procedures and imaging applications. The aims of the imaging and surgical core are to (1) carry out deep-tissue imaging of meninges and outer regions of the brain, (2) apply combinatorial methods (2-photon, high-speed widefield, and photoacoustic imaging) for intravital imaging to investigate macrophage behavior and blood flow dynamics in the meninges, and (3) employ established and novel tools to quantify molecular outflow from the meningeal space."
+ },
+ {
+  "id": "8ccc5d10-9e34-4e83-b801-99d95a010bab",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Optic-nerve-head (ONH) Chips for Glaucomatous Neurodegeneration",
+  "text": "The most prominent causative risk factor of glaucoma, the leading cause of irreversible blindness worldwide, is\nelevated intraocular pressure (IOP), which could deform the optic nerve head (ONH) and cause glaucomatous\nneurodegeneration. However, current glaucoma therapies that focus on lowering IOP do not stop vision loss\neffectively, and thus there is a pressing need to understand the mechanisms underlying glaucoma\npathogenesis. In this project, we will develop a biomimetic ONH-on-a-chip system that closely mimics the key\nanatomic and pathophysiological characteristics of the native ONH to study astrocytic mechanisms of\nglaucoma pathogenesis, a missing link to develop efficacious therapies."
+ },
+ {
+  "id": "8cd07033-9d48-4cc6-b868-dad8c2b990ef",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Quantifying the Integrity of Sleep-Dependent Memory Processing in Pathological Aging and Alzheimer's Disease: Toward Inexpensive Electroencephalographic Wearable Applications",
+  "text": "Simple single-channel electroencephalography (EEG) sleep recordings contain information about memory\ncircuits that may form the basis of a digital biomarker for monitoring brain health and for the detection of early\nAlzheimer's disease changes. Our team has pioneered novel methods to measure sleep's memory circuits from\nsleep EEG, and we have observed striking changes in these circuits with aging and in the early stages of\nAlzheimer's disease. Here, we propose to incorporate our signal processing methods into cutting-edge machine\nlearning models with the goal to develop predictive models that can serve as a powerful digital biomarker to\ndetect pathological aging, predict cognitive decline, and detect early stages of Alzheimer's disease."
+ },
+ {
+  "id": "8ce26817-5e0b-406a-963d-61f6e21d2c97",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dedicated breast PET and MRI for characterization of breast cancer and its response to therapy",
+  "text": "This proposal aims to address clinical needs where current imaging methods face challenges and new imaging\nmethods are pursed, using a novel dedicated breast positron emission tomography. Our research may enable\nearly evaluation of the effectiveness of pre-surgery endocrine therapy for patients with hormone receptor-positive\nHER2-negative breast cancer. Additionally, the diagnosis and pre-surgery assessment of invasive lobular breast\ncancer may become more precise compared to the current methods."
+ },
+ {
+  "id": "8ce2b7ea-aed3-4822-88df-dd697bf2b38b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The biochemical, topological and functional impact of cancer-associated Ctcfmutations and their contribution to cancer",
+  "text": "PROJECT 1: NARRATIVE\nThe CCCTC-binding factor (CTCF) is a highly conserved protein that plays a crucial role in organizing chromatin\nstructure and gene expression. Project 1 will study WT and nine high-frequency cancer-associated CTCF\nmutants in the background of distinct transcriptional programs to determine how CTCF-mediated looping\ncontributes to the control of cis regulatory element (CRE) hubs, regions that encompass multiple genes and\nenhancers that co-regulate each other through enhancer-promoter chromatin looping. This study will provide\nfundamental insights into the mechanisms of CTCF-mediated chromatin organization and gene regulation in the\ncontext of transcriptional programming, with significant implications for understanding the etiology and treatment\nof human diseases, including cancer and developmental disorders."
+ },
+ {
+  "id": "8cf17b34-e41b-42ad-9c99-ee783d174e97",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "ELAVL1 role in glioblastoma heterogeneity through intercellular gene transfer mediated by cell fusion and tunneling membrane nanotube formation",
+  "text": "Project Narrative.\nFrom high-resolution spatial cell transcriptional profiling in glioma tissue slices with intact biological architecture\nand direct assessment in vivo to cell-specific targeted gene knockdown in a mimicked glioma microenvironment\nin vitro and back to assessments in glioma models in vivo, we propose to characterize mechanisms of cell\nfusion/TNT formations as the sources of glioma heterogeneity and intercellular gene transfers. Prognostic\nprofiles of established and novel biomarkers of cell-fusion/TNT formation in the context of a complex glioma\nmicroenvironment will be established for different glioma subtypes. The HuR-dependent axis in the regulation of\ncell fusion/TNT formation at different environmental stress modalities (to include hypoxic, mechanical, metabolic,\nand cytotoxic stress) will be explored; the quantitative values of HuR inhibitors, including the newly developed\nand recently patented by our group inhibitor of HuR dimerization SRI4212, in the suppression of the cell fusion\nand glioma heterogeneity will be provided."
+ },
+ {
+  "id": "8cf6bad5-2333-47cd-bf66-2e50bd0e8542",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The functional roles of TGF-beta signaling in cardiac lymphangiogenesis during myocardial ischemia",
+  "text": "Abnormal cardiac lymphatic vessel structure and function are associated with ischemic cardiac diseases\nincluding myocardial infarction (MI). However, the molecular and cellular mechanisms during MI that drive\ncardiac lymphatic dysfunction during the disease progression have never been explored. This proposal will\ninvestigate previously unidentified functional roles of TGFβ signaling during MI in regulating cardiac\nlymphangiogenesis, with a potential leading to the generation of novel therapeutics to promote functional\nlymphatics during cardiovascular disease."
+ },
+ {
+  "id": "8cf9b4ff-29d5-421c-ba9c-1e3c43b9c587",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Trophic interactions directing proper kidney development",
+  "text": "Kidney organogenesis requires extensive cellular crosstalk to enable proper development and the establishment\nof physiological function. We have uncovered novel roles for renal vascular and neuronal networks in supporting\norganogenesis and our goal is to identify the molecular programs mediating crosstalk between these networks\nand with the developing kidney. Our findings will support efforts to regenerate and engineer vascularized,\ninnervated, and functionally mature kidney tissues."
+ },
+ {
+  "id": "8cfa28a9-d0f3-4141-abac-82c54f6d1e4b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A Neuroecological Approach to Examining the Effects of Early Life Adversity on Adolescent Drug Use Vulnerabilities Using the ABCD Dataset",
+  "text": "The proposed project will inform public health research and practice on developing prevention and intervention\nprograms that will mitigate the effect of adversity on adolescent drug use vulnerability and later drug use and\nabuse. In addition, our study will help determine the utility of neuromarkers to advance addiction prevention\nmodels via earlier and more accurate risk assessments."
+ },
+ {
+  "id": "8cfcc103-f7b4-4c2e-b8ec-3aad0415cb8c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of ciliopathy associated structural birth defects",
+  "text": "Ciliopathies are complex genetic disorders that can exhibit severe birth defects due to abnormalities in the\nformation or function of the cilium. A large number of proteins are thought to be involved in the cilium, but in only\na few of these do we know the molecular pathways in which they function and whether they are associated with\ndisease (ciliopathies). In this proposal, we take advantage of the explosion of genomic information from patients\nwith rare developmental disorders and recent advances in identifying genes associated with the cilium to identify\nnovel ciliopathies in rare and undiagnosed disease repositories, generate precision engineered mouse models\ncorresponding to these patients, define the molecular and cellular pathways responsible for their birth defects,\nand generate data that can be used to predict therapeutic strategies through CPAM's drug discovery pipeline."
+ },
+ {
+  "id": "8d0cbc2e-6fac-4e12-937b-8c21f99d7030",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanistic studies of the genetic contribution of desmoplakin to pulmonary fibrosis in alveolar type 2 cells",
+  "text": "In recent decades, genome-wide association studies (GWAS) have identified genetic variants associated\nwith a variety of traits and diseases, a critical first step towards understanding the molecular mechanisms\nthat underlie common health conditions. In many cases, however, the functions of GWAS genes, the\nmechanisms and consequences of their dysfunction, or the relevant cell types in which their dysfunction\nmanifests a clinically significant phenotype remain poorly understood. This application applies a\ncombination of bioinformatic analysis, human induced pluripotent stem cell modeling, and mouse studies\nto elucidate the molecular mechanisms by which the GWAS gene DSP modulates function of type 2\nalveolar epithelial cells and contributes to the pathogenesis of pulmonary fibrosis."
+ },
+ {
+  "id": "8d0ec2fb-5f64-4697-bbfe-c59faaa24b60",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Novel Methods for Identifying Genetic Interactions for Cancer Prognosis",
+  "text": "Our group has taken a leading role in the development and application of cutting-edge gene-environment\ninteraction analysis methodologies for cancer prognosis. In this renewal, we will develop a suite of statistically\nprincipled deep learning strategies and methods, effectively and cost-effectively harness information from three\ndifferent sources, and fundamentally improve stability and interpretability. Powerful data generated by the Yale\nSPORE, VA MVP, and TCGA studies on lung and skin cancers will be analyzed."
+ },
+ {
+  "id": "8d112542-50a4-43e8-b602-79502d5a4f2f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Novel experimental and machine learning - assisted techniques to assess receptive field functionality in the retina",
+  "text": "The proposed research is relevant to NEI mission because it studies fundamental circuit mechanisms that are involved in\nvisual perception. Our work will provide novel theoretical and empirical approaches to understand neuronal function in\nand beyond the retina."
+ },
+ {
+  "id": "8d13e95b-11ed-4c31-869c-f16743040740",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Hypothalamic MC4Rs and Antipsychotic Drug-Induced Metabolic Syndrome",
+  "text": "We use a multidiscipline approach to study the role of Mc4r in antipsychotic drug (APD)-induced weight\ngain. Our studies aim to establish that two widely prescribed APDs target a common hypothalamic pathway to\ncause hyperphagia and obesity. The overarching goal is to develop novel mechanism-based therapeutics to\nmitigate APD-induced metabolic syndrome in millions of patients."
+ },
+ {
+  "id": "8d19d4a0-7976-4d1a-8642-a2f73a9e7409",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of PET Tracer for Imaging Brain Inflammation",
+  "text": "Project Narrative. Oxidative imbalance and functional impairment of mitochondria mediates\npathogenesis of neurodegenerative diseases, including Alzheimer’s disease (AD) and its related\ndisorders (ADRDs). Although mitochondria are among the prominent intracellular site for ROS\ngeneration, standard clinical 18F-FDG PET/CT lacks sensitivity and diagnostic robustness. Furthermore,\nthe mechanism of its retention and trapping poorly correlates with oxidative imbalance. To address this\ncritical unmet need, this project is focused on biochemical validation of a novel redox-sensitive\nmolecular PET imaging probe (identified as 18F-SLN-128) in Huntington’s disease and AD transgenic\nmice models, GMP production to obtain regulatory approval (eIND from FDA) including institutional\nRDRC, IRB approvals, and human dosimetry studies as well as assessment in AD participants for\nobjective of its translation from the bench into clinical nuclear medicine for healthcare management.\nSuccessful accomplishment of proposed aims could deliver a redox-sensitive PET molecular imaging\nagent for stratification of therapeutic choices or alterations in lifestyles for managing ROS-mediated\nmitochondrial dysfunction in neurodegenerative diseases in general, and AD and ADRDs in particular."
+ },
+ {
+  "id": "8d1c0d22-c32a-4ecd-9f4c-d13a60c98d17",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Determining the Unique Molecular and Cellular Features of Limbic-predominant Age-related TDP43 Encephalopathy",
+  "text": "TDP-43 proteinopathies are common in the aged population; Limbic-predominant Age-related\nTDP-43 Encephalopathy (LATE) affects an estimated 30% of individuals >85 years old. Their\ntreatment is limited by unreliable ante-mortem diagnosis and the absence of disease-modifying\ntherapies. By leveraging natural variability in TDP-43 proteinopathies, I aim to identify cellular\nand molecular drivers of disease progression, which can inform biomarker and therapy\ndevelopment."
+ },
+ {
+  "id": "8d25e5a0-fa69-4944-a648-451e8ca721e6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Innovation in Suicide Prevention Research Center (INSPIRE)",
+  "text": "The University of Pennsylvania Innovation in Suicide Prevention Research Center (INSPIRE). Suicide is a\nleading cause of death in the US especially among adolescents and young adults. Although effective\ninterventions for youth and young adults exist, they are not widely disseminated, and when used, they are often\nnot delivered with fidelity over time hampering their impact. To address this problem, the INSPIRE Center’s\noverarching goals are to develop and adapt practical suicide prevention interventions for youth and young adults\nand to use advanced technologies and implementation strategies to optimize how evidence-based practices can\nbe brought to scale efficiently, and with high fidelity, for optimal effectiveness. Our work will prioritize strategies\nthat can be rapidly deployed in acute care and community practice, thereby increasing reach and public health\nimpact and, thus, INSPIRE is poised to transform for suicide prevention research and practice to address a\npressing public health crisis among the nation’s youth and young adults."
+ },
+ {
+  "id": "8d263978-697d-4b87-883e-2eaa7e42f0c4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Parp Function in Prostate Cancer",
+  "text": "Prostate cancer remains the second leading cause of deaths due to cancer in\nNorth American men. Defining the communication pathways that operate within prostate\ncancer cells, which is to say, how proteins talk to each other, reveals vulnerabilities that can be\nexploited therapeutically. We discovered a communication pathway in prostate cancer cells, and\npropose to determine how it works, and if pathway inhibition with a new drug (in clinical trials)\ncan kill prostate cancer cells."
+ },
+ {
+  "id": "8d2852a6-b866-4dec-9940-09f7f48d7638",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Advanced Brain-Penetrant Enzyme Therapy to Treat Lafora Disease",
+  "text": "Lafora disease (LD) is a rare and fatal childhood neurodegenerative disorder that leads to seizures,\nAlzheimer’s-like dementia in the teenage years, and death within 10 years of onset. This project brings\ntogether experienced teams at the University of Florida and the Wyss Institute’s Brain Targeting Program at\nHarvard Medical School that have developed a novel brain-penetrant therapeutic that clears the toxic brain\npolyglucosan bodies (PGBs) responsible for LD. Our proposal is built on past discoveries and the results from\nour planned studies are critical for advancing our recently engineered LD therapy from the laboratory to the\nclinic."
+ },
+ {
+  "id": "8d2b7b47-41ee-4c53-b64c-50b6b9c2f1ea",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Agonism of Sirtuin 1 Attenuates Cardiac Dysfunction by Tobacco Smoking",
+  "text": "Cigarette smoking is a significant health problem within US military. Although the prevalence of smoking has\ndeclined among US adults, there are opportunities to reduce smoking related cardiac dysfunction among US\nveterans. This grant pursues to understand how an impaired cardioprotective signaling causes a higher inci-\ndence of cardiac dysfunctions in the veterans’ hypertension population with cigarette smoking and has the po-\ntential to discover new therapeutic strategies to limit myocardial dysfunction by cigarette smoking in these vet-\nerans’ patients."
+ }
+]

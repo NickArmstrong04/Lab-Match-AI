@@ -1,0 +1,142 @@
+[
+ {
+  "id": "5ffad412-0a4e-42f6-90f5-9b84ee6821a9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "THE ROLE OF THE NON-CANONICAL INFLAMMASOME IN INNATE IMMUNITY",
+  "text": "Legionella pneumophila is an infectious bacterium that causes Legionnaire’s disease and remains a major cause\nof morbidity and mortality in the immunocompromised such as the elderly. Caspase-11 is a component of a\nprocess (non-canonical inflammasome) which allows clearance of Legionella by phagocytic cells called\nmacrophages. How caspase-11 regulates a cascade of events leading to bacterial clearance and the molecules\ninvolved in this cascade will be investigated in this proposal."
+ },
+ {
+  "id": "60001ffe-b79c-4a84-a083-d3b59a58a403",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating Cardiac Ion Channels by Novel Methods",
+  "text": "Cardiac Ca2+ channels have a key role in excitation-contraction coupling and hormonal modulation of cardiac\nfunction. Dysregulation of basal activity and of hormonal modulation of Ca2+ channels is associated with major\ncardiovascular diseases, such as heart failure, hypertrophy and arrhythmias. Our goals are to develop a novel\nand potentially transformative approach for enhancing cardiac function in vivo."
+ },
+ {
+  "id": "60093cc2-9229-4107-ac08-29c21669b7dd",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Genomics Shared Resource",
+  "text": "GENOMICS SHARED RESOURCE: PROJECT SUMMARY/ABSTRACT The Genomics Shared Resource (GSR) supports Wilmot Cancer Institute (Wilmot) investigators by providing efficient, high-quality, cost-effective access to high-throughput screening and genomics technologies for studying gene structure and function. The GSR provides a wide spectrum of services and resources that enable access to state-of-the-art, cutting-edge technology and methodology for genome-related cancer research. Services and resources provided by the GSR include: 1) single-cell and spatial genomics; 2) epigenomics; 3) DNA sequencing (whole genome, exome, and targeted resequencing); 4) transcriptomics; and 5) functional genomics. In addition, the GSR collaborates with the Wilmot Biostatistics and Bioinformatics Shared Resource (BBSR) to provide integrated computational support, including basic data processing, applied bioinformatics, and access to software tools (e.g., deep learning/AI) to support Wilmot investigator projects. The GSR is led by John M. Ashton, PhD, MBA (GEM), associate professor of Biomedical Genetics. He has expertise in cancer biology, gene modulation, genomics, and high-throughput screening modalities. Ashton is assisted by scientists specializing in assay and technology development. Significant institutional support allows continued GSR investment to timely upgrades of instrumentation and service offerings, thus providing sustained access to state-of-the-art and emerging technologies. The GSR has a well-developed cooperative administrative structure that oversees its activities and ensures timely access and affordable pricing for Wilmot members. All GSR activities are data-intensive, requiring close interaction with high-performance computing infrastructure and the BBSR to meet the needs of Wilmot investigators, from project inception through manuscript and grant submission. The GSR is utilized by all Wilmot research programs, with more than 50% of Wilmot membership using GSR services and resources since 2019. Moreover, since 2019, the GSR has supported more than 100 peer-reviewed publications (38% high impact), of which 10% were co-authored by GSR personnel; and assisted with 103 grant proposals (76 R01, 12 F31, 3 DOD, 3 P30, 3 K08, 2 R25, 1 F99/K00, 1 R21, and 1 R50) submitted by Wilmot investigators or their mentees. Moving forward, the GSR will be guided by the Wilmot strategic plan with a focus on novel integrated multiomic sequencing technology and methodology. The GSR is a key stakeholder in the development of a Wilmot-led hybrid cloud computing initiative that will enable Wilmot investigators to process and relate high-throughput sequencing datasets to clinical variables, using custom bioinformatics pipelines created by personnel from the GSR and the BBSR."
+ },
+ {
+  "id": "6009b9c2-5bd3-439b-8c2e-af5980688862",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Circadian Rhythm as a Therapeutic Target for Perioperative Cardioprotection",
+  "text": "Myocardial ischemia-reperfusion injury (IRI) has a profound impact on morbidity and mortality of surgical\npatients. Evidence suggests that the occurrence of myocardial ischemia-reperfusion injury follows a circadian\npattern, with more severity of injury in the early morning. The current project aims to better understand the\ncrosstalk between hypoxia (HIF2A) signaling and circadian rhythm (BMAL1) pathways to define novel strategies\nfor the treatment or prevention of myocardial IRI."
+ },
+ {
+  "id": "6010181b-c335-4012-afd6-7718d8ede180",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Examination of the role of autonomic innervation in muscle stem cell aging",
+  "text": "Loss of muscle mass is a highly prevalent and medically burdensome symptom of aging with no effective\npharmaceutical treatment. Developing treatments to recover lost muscle mass requires an understanding of\nthe regulation of muscle stem cells during aging and their contribution to muscle gain and repair. This project\nwill investigate a novel, unexplored regulatory mechanism whereby the autonomic nervous system controls\nmuscle stem cell function during aging, opening new avenues for developing alternative pharmaceutical\ntherapeutics aimed at promoting muscle health and preventing its decline with age."
+ },
+ {
+  "id": "601f42ab-59d9-406c-a111-a13c7f719115",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Innate lymphocyte responses to early-life infections",
+  "text": "Staphylococcus bacteria are the primary cause of healthcare-associated infections in neonatal intensive\ncare units and the leading cause of skin and soft tissue infections worldwide, necessitating novel treatments that\nenhance early-life immunity. Although innate lymphoid cells and innate-like T cells comprise a substantial effector\npopulation in neonatal tissues, their contributions to immunity during this period remain poorly understood.\nCombining state-of-the-art approaches from immunology, genetics, and bioinformatics, this project will further\nour understanding of early-life immunity and lead to the development of novel therapeutics."
+ },
+ {
+  "id": "6021934e-9f25-417b-bd83-c56c48fc6f23",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "TGF-β Family Signaling in Development and Disease",
+  "text": "TGF-β family signaling pathways serve as master regulators of tissue development,\nhomeostasis, and regenerative responses throughout life. Dysfunction in these pathways drives\npathogenesis across cancer, cardiovascular disease, immune disorders, musculoskeletal\nconditions, and age-related decline, creating opportunities for therapeutic intervention. The 2026\nFASEB SRC TGF-β Family in Development and Disease conference builds on the field’s\nevolution toward clinical translation, offering a forum to share discoveries, address therapeutic\nchallenges, and promote career development, especially for early career scientists and\nnewcomers to the field."
+ },
+ {
+  "id": "6025b9b5-acc0-4897-87e6-30479ba8cfcc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Engineered hybrid aging model for disease progression",
+  "text": "The goal of this study is to design and develop a fully characterized novel tissue engineered disease\nmodel of aged tissue environment integrated with a mouse model as a system to study the role of aging in\ndisease initiation and progression. With a fully integrative approach implementing human tissue analysis,\nstate-of-art tissue engineering approaches and by incorporating the engineered tissues in a hybrid mouse\nmodel for physiological relevance, we propose a highly interdisciplinary project to reconstruct and validate\naged human tissue at the molecular, cellular and physiological levels. The tissue engineered 3D models\nas well as the hybrid mouse models developed here will be of great importance in isolating the effects of\naged human (i) ECM, (ii) stromal cells, and (iii) disease cells on disease progression."
+ },
+ {
+  "id": "60273ea4-b08c-4c51-9687-bb8cf9dcc875",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Volumetric ultrasound for functional imaging and multi-targeted closed-loop circuit level neuromodulation",
+  "text": "RELEVANCE TO PUBLIC HEALTH\nWe propose to develop techniques that resolve the persistent challenges of a) identifying relevant brain circuits\nb) targeting multiple locations within brain circuits, and c) establishing real-time closed-loop interaction between\nimaging and neuromodulation. These objectives are achieved with volumetric functional imaging and\nneuromodulation to dynamically and reconfigurably target multiple locations in the brain. If successful, these\ntechniques will offer the possibility of non-invasive volumetric closed-loop neuromodulation in awake and\nbehaving animals, providing a powerful platform for neuroscientific investigation that images and interacts\ndirectly with brain function with high spatio-temporal resolution."
+ },
+ {
+  "id": "602c19f6-cae4-438a-bdd2-ccac27f15e7f",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Determining the Molecular Arrangement of GABABR-GIRK Signaling Cascades",
+  "text": "Inhibitory neuronal signaling from drugs binding GPCRs often results in GIRK channel activation by Gi/o\nheterotrimeric G proteins. Understanding how GABAB receptors activate G proteins which in turn activate\nGIRKs is of critical importance to understanding drugs of abuse involving inhibitory signaling. We propose a\nlarge, preformed complex between receptors, GIRK channels, and heterotrimeric G proteins that allows\nefficient activation and deactivation neurons, and this project will define this inhibitory signaling complex."
+ },
+ {
+  "id": "602c23af-a073-46ed-b2b9-b32de58d4521",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular Determinants of Dynamic Blood Pressure Regulation and Cardiovascular Disease",
+  "text": "Project Narrative……………………………………………………………………………………………………………\nHigh blood pressure is a major cause of heart disease and stroke. Even with treatment, many people continue\nto have uncontrolled blood pressures. We will study proteins in the blood to see how blood pressure rises in\nthe short-term with exercise and over the long-term as people get older, to find better ways to prevent and\ntreat high blood pressure."
+ },
+ {
+  "id": "60359cef-61e9-4fc4-b294-fa828d54e409",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Translational Bioimaging Core Shared Resource",
+  "text": "TRANSLATIONAL BIOIMAGING CORE SHARED RESOURCE Preclinical imaging research permits minimally or non-invasive longitudinal monitoring of disease processes such as tumor initiation, kinetics and metastatic spread, and treatment response in animals, the understanding of which is vital to Consortium research and contributes to cures for human disease. The Translational BioImaging Core Shared Resource (TBICSR) provides a comprehensive collection of imaging resources (e.g. optical, MRI, ultrasound, CT, PET/CT, etc.) and support for Fred Hutch/University of Washington/Seattle Children’s Cancer Consortium research. As studying different forms of cancer requires the availability of different methods of imaging, TBICSR accomplishes this by implementing a cost effective, multi-institutional shared-use model of diverse imaging resources and expertise. Overseen by Director Robert MiyaokaCBB, PhD, TBICSR are located primarily at Fred Hutch and University of Washington, but are available to all Consortium members. TBICSR staff have numerous years of experience conducting research imaging studies and animal handling and management. TBICSR supports users through integrating experts, called consultants, in each of its supported imaging modalities to assist in study design, data acquisition and image analysis. TBICSR staff further accelerate discovery by assisting with IACUC protocol development, grant proposals and publications. TBICSR has also instituted routine procedures for interinstitutional IACUC approval and animal transport and housing to eliminate the burden of coordination and administration for users. During the current funding cycle TBICSR added $2.4M of advanced imaging systems for Consortium members including (1) an MR Solutions 7T/3T non-cryogenic MRI/MRS system (via S10 SIG); (2) a VisualSonics Vevo F2 US system (via S10 SIG); (3) a Perkin Elmer Quantum GX2 microCT; (4) an Emit Imaging Xerra micro Cryo-Fluorescence Tomography system; and (5) an additional IVIS Spectrum. In addition, TBICSR has expanded its imaging expertise by adding Dr. Neal ParagasZY, Mr. Mark Muzi, and Ms. Elena Carlson, all of whom have expertise in optical imaging, multi- photon intra-vital imaging, data analysis and kinetic modeling between them. Mr. Muzi is a current and two-time recipient of an NIH NCI R50 Research Specialist Award. TBICSR staff members, including directors, modality experts and imaging specialists, meet bimonthly to discuss the operation of the core. TBICSR is advertised on Consortium institutions’ websites and via the Consortium Newsletter. For each of its imaging technologies, TBICSR offers both group and individual consultations and educational sessions. These allow Consortium users to learn how imaging expands the scope of their ongoing preclinical studies, as well as best practices for data interpretation. TBICSR obtained an “Outstanding” ranking in the last CCSG cycle. The strengths of the resource continue to be the expertise of its imaging modality consultants and the large variety of specialized major instrumentation available to serve the investigational needs of Consortium members. We will continue to bring new expertise to TBICSR; facilitate more inter- institutional resource usage; develop multi-modality imaging tools; and collaborate with investigators to optimize their image analysis tools and methods."
+ },
+ {
+  "id": "603baa56-5e9b-4d2d-93a3-001388de35b0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Towards Precision Assessment of Dysphonic Speech: From Vocal Fold Physiology to Perception",
+  "text": "The goal is to revolutionize physiological measurement of vocal fold vibration and establish linkage with\nperceptual measurement of voice quality in connected speech. This research will advance scientific\nknowledge of the effects of coarticulation on phonatory onset/offset, and peri-phonatory vibration and\nestablish their relations to perceived voice quality. Computational modeling of voice quality perception and\nmachine learning will harness the large data sets associated with high-speed videoendoscopic imaging in\nconnected speech to identify physical measures that ultimately may lead to better assessment and\nmanagement of voice disorders."
+ },
+ {
+  "id": "603eafff-5c66-47a9-8645-da43b608cb46",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project 2: Novel hyperpolarized C-13 imaging as metabolic markers of response in IDH mutant glioma",
+  "text": "The discovery of isocitrate dehydrogenase (IDH) mutation has had a significant impact on the diagnosis and\nprognosis of adult infiltrative glioma and provides an opportunity for the development of novel treatments. The\nproposed study will utilize novel hyperpolarized probes, selected because of the specificity of IDHm tumor\nmetabolism, to better delineate tumor burden and elucidate early biomarkers of treatment response. The\ntranslation of dynamic, non-invasive metabolic imaging biomarkers will enhance the evaluation of novel therapies\nand assist in the optimal management of IDHm patients."
+ },
+ {
+  "id": "6046a2dd-0b18-41b6-be2d-98cb851d2476",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multimodal Imaging Mass Spectrometry and Spatial Omics for the Human Kidney",
+  "text": "This application proposes a Kidney Precision Medicine Project Tissue Interrogation\nSite (TIS) for the mapping of a diverse set of acute kidney injury (AKI) and chronic kidney disease (CKD) biopsies\nand subsequent construction of detailed multiomic molecular atlases. Atlases will be generated using an\ninnovative and state-of-the-art multimodal imaging pipeline consisting of matrix-assisted laser\ndesorption/ionization imaging mass spectrometry, autofluorescence, and stained microscopy. Spatial\ntranscriptomics and proteomics will be used for cross-modal biological validation of the imaging data, and\nadvanced data analysis strategies will reveal disease state/transition/class-specific biomarkers, provide insight\ninto key molecular pathways that characterize heterogenous tissue regions, and explore potential disease\nsubgroups; all across a diverse patient cohort with the objective of identifying specific biomarkers of disease."
+ },
+ {
+  "id": "60472071-18f9-4b5d-bdf7-9ee78d003b12",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Structures and reagents of NMDA receptors",
+  "text": "The proposed studies aim to reveal subtype-specific molecular elements of N-methyl-D-aspartate\nreceptor (NMDAR) ion channels, which play a major role in brain function and development. These\nstudies are relevant to public health because dysfunctional NMDARs are implicated in neurological\ndisorders such as depression, and schizophrenia, as well as Alzheimer’s diseases. Understanding\nthe mechanisms by which subtype-specific reagents bind and regulate functions of NMDARs will\nsupport the development of therapeutic strategies for these neurological disorders and diseases."
+ },
+ {
+  "id": "60484659-cced-4281-9482-c6564bc05c98",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of Novel Hyperpolarized MR Molecular Imaging Probes Tested in Realistic Pre-Clinical Models and Correlative Science Studies",
+  "text": "TRD2 PROJECT SUMMARY/ABSTRACT Eleven of the 13 Collaborative Projects (CPs 1-10,13) that are the driving force behind this HMTRC renewal and 10 of the 12 Service Projects (SPs 1-4, 6, and 8-11) demonstrate a clear need for improved hyperpolarized (HP) probes and methods, realistic preclinical models, correlative pathology and molecular methodologies, and other synergistic imaging studies provided by TRD2. Over the last decade of funding, TRD2 has an outstanding record of productivity, having supported 117 peer-reviewed publications and 41 NIH grants, and during the prior funding period, we have leveraged preclinical advances to obtain FDA IND approval for two new HP probes – [2- 13C]pyruvate for improved imaging of the TCA cycle and in 2021 co-polarized [13C,15N2]urea and [1-13C]pyruvate for simultaneous metabolic and perfusion imaging. Based on the new needs of the CPs and SPs, the advice of our External Advisory Committee, and clinical consultants, this TRD2 renewal project will take several exciting innovative directions focused on increasing HP 13C probe sensitivity, in vivo performance, and clinical translatability through the development/optimization of HP probes, probe formulations and polarization approaches (Aim 1), optimizing more realistic preclinical models and methods for HP 13C MR studies (Aim 2) and obtaining correlative pathologic, molecular and multimodal imaging studies (Aim 3) to optimize and validate HP 13C MR biomarkers and methods for clinical translation. These research goals will be accomplished in synergy with TRD1 through implementing a new preclinical 9.4T MR scanner with 1H/13C MRI cryoprobe capabilities, a next generation higher field, lower temperature preclinical DNP polarizer and improved rf coil technologies for significantly improved preclinical HP 13C MR studies. With TRD3, we will implement more sensitive dynamic HP 13C MR pulse sequences (EPSI, EPI and bSSFP), with a focus on developing robust, standardized, and quantitative imaging protocols, and new on-line preclinical data analysis and display tools integrated into the free, open-source platforms. Although the HP MR probes and techniques will be specifically driven (push-pull) by the CPs, and utilized (pushed) in the SPs, they will greatly expand the scientific scope and preclinical applicability of HP 13C MR in general and significantly impact its clinical translation. The main deliverables of this project are the dissemination of optimized HP probe preparations and methods, new NMR-compatible cell and tissue culture bioreactor systems and preclinical GEM and PDX models optimized for HP 13C MR studies, correlative pathology, molecular and synergistic imaging approaches, and the associated dissemination and training for the biomedical community."
+ },
+ {
+  "id": "604ce627-af1b-48c4-844a-c28920865e3d",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Discovery/Signaling Core",
+  "text": "Core A - Abstract The Discovery/Screening Core provides high throughput screening (HTS), cryo-electron microscopy, signaling analysis, and virtual screening infrastructure to supply projects 1-4 with small molecules and mechanistic insight to exploit novel molecular mechanisms to promote bronchodilation in constrictive airway diseases. Conventional and computational screening components synergize to focus screening efforts in optimal regions of chemical space, generate and analyze structure-activity relationships (SAR), design and optimize screening workflows and disseminate the results and materials back to the scientific projects for detailed study and translational applications. The integration of conventional and virtual screening workflows will enable us to move rapidly from primary screening hits to detailed SAR, and from computational predictions to quantitative experimental data. We will further characterize biased allosteric modulators for the 2-adrenergic receptor (2AR) that we have previously identified and use HTS to identify new allosteric modulators (project 1). HTS will also be used to identify positive allosteric modulators (PAMs) for GPRC5A as well as negative allosteric modulators (NAMs) and antagonists for GPRC5B (project 4). We will use molecular modeling, flexible receptor docking and molecular dynamics simulations to explore the mechanisms of allosteric modulator binding to the 2AR (project 1), evaluate predicted all-atom phospholipase C complexes with protein kinase C (project 3), and model allosteric modulator binding to GPRC5A and GPRC5B and identify new candidates by virtual screening (project 4). All four projects will also be supported with specific reagents and signaling analysis including measurement of cAMP production, Ca2+ mobilization, -arrestin recruitment, GPCR-G protein coupling and GPCR internalization. Overall, the Discovery/Screening Core will generate data, lead compounds, biochemical probes, signaling analysis and mechanistic insight that will advance the aims of the scientific projects while developing innovative experimental and computational methodology that will enhance probe, drug and target discovery."
+ },
+ {
+  "id": "604d698b-7a1d-4c01-9c32-a2b75c5a7563",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "INTERCEPT: Integrated Research Center for human Pain Tissues",
+  "text": "Tens of millions of Americans suffer from chronic pain, and the epidemic of overdose deaths related to opioids\nmakes it clear that safer treatments are needed. To help develop new, safer treatments, scientists must learn\nmuch more about the genes and cells that contribute to pain in humans. This application proposes a new center\nthat will map the genes and cells associated with various types of pain, focusing on the peripheral nerves and\nspinal cord, to provide important new information to help with the development of new therapies."
+ },
+ {
+  "id": "604e25c0-34bb-4408-8f59-2bc07f188d82",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The molecular pathophysiology of the congenital dyserythropoietic anemias",
+  "text": "The congenital dyserythropoietic anemias (CDAs) are a group of disorders characterized by distinctive bone\nmarrow findings and ineffective erythropoiesis (red blood cell production), for which the molecular\npathogenesis remains largely unknown. Based on strong preliminary results, this project aims to define the\nroles of novel compounds and molecular pathways in ameliorating the erythroid differentiation defect observed\nin CDAII, and to study the molecular pathogenesis of CDAI. Our studies have important implications for\nunderstanding the pathophysiology of the CDAs, which is expected to be relevant to other disorders of\ndefective red blood cell production that are a major source of morbidity and mortality worldwide."
+ }
+]

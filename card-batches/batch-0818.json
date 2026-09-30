@@ -1,0 +1,142 @@
+[
+ {
+  "id": "97d52a91-e4f2-4020-aa90-e79beef30117",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Core C: Imaging Tumor Heterogeneity and Metabolism Core (ITHM)",
+  "text": "IMAGING TUMOR HETEROGENEITY & METABOLISM CORE: PROJECT NARRATIVE\nThe Imaging Tumor Heterogeneity & Metabolism Core provides Projects of the P01 with the high degree of\nresearch and clinical imaging support by applying advanced imaging methods and novel data analysis\nprocedures to facilitate the collection of image-guided tissue samples during surgical resection and providing\nmetabolic and physiologic imaging correlates of gene expression that describe intra- and inter- tumor\nheterogeneity. Core functions will include the development of new methods and the translation and maintenance\nof technologies developed in the Projects from the prior and upcoming cycles into the clinic, creating the required\nframework to acquire, analyze, visualize, and interpret relationships between advanced metabolic and\nphysiologic imaging features and underlying genomic drivers of intra- and inter-patient heterogeneity from\nspatially mapped tissue samples."
+ },
+ {
+  "id": "97d6d051-7b0d-4201-813e-14aeb684d035",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Imaging deep-tissue morphogenesis at whole-organism scales",
+  "text": "We aim to establish a research program that develops optical imaging technologies that overcome the challenge of\ntissue scattering, to achieve large-scale 3D imaging of tissue morphogenesis. If successful, this work will enable, for the\nfirst time, joint morphological and molecular imaging of deep-tissue morphogenetic events across entire developing\nembryos at subcellular resolutions. Furthermore, this work will lay the foundation for future imaging technologies that\nenable investigations into in-vivo biological processes taking place within their natural tissue environments."
+ },
+ {
+  "id": "97e06dc0-b309-4c72-b483-5288aa065775",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project 5: Pandemic Virus Helicase Inhibitors",
+  "text": "Project 5 – Pandemic Virus Helicase Inhibitors\nPROJECT NARRATIVE\nThe discovery of new antivirals exploiting targets other than viral polymerase and viral proteases is a crucial\nneed for effectively combating viral diseases. Despite the high potential of viral helicases as a novel alternative\nantiviral target, viral helicase has not been fully explored as an antiviral target. We propose to develop antivirals\ntargeting viral helicase to provide effective and complementary therapeutic options for current and future\npandemic viruses, including SARS-CoV-2 and flaviviruses such as Zika virus."
+ },
+ {
+  "id": "97e1592a-531a-4892-9d53-9a99003e507b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A modular system for murine CRISPR genome and epigenome editing",
+  "text": "Modifying the genome and the epigenome has become possible by engineering a protein known as Cas9.\nTo maximize the usefulness of these technologies in mice, we will develop a modular system that efficiently\nexpresses Cas9-based editors in vivo and at the same time allows components to be easily exchanged so that\nit keeps pace with the rapid development of new and improved editing tools."
+ },
+ {
+  "id": "97e4a5b0-b9da-4826-9a58-1dd5f0bb87ca",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "MOSAIC: Data Integration and Computation Core",
+  "text": "DATA INTEGRATION AND COMPUTATION CORE \nThe Data Integration and Computation Core will be central to our Mayo/Columbia CSBC Mathematical \nOncology Systems Analysis Imaging Center (MOSAIC), collecting the diverse data types and sources and \nproviding infrastructure for data resource management of the large datasets relied upon and generated through \nthe center including those provided by the Biospecimen Core. The Data Integration and Computation Core \nwill support both projects with its three aims: Aim 1) collect and store data across all sites, Aim 2) provide \nreproducible bioinformatics workflows, and Aim 3) provide computational modeling tools and techniques."
+ },
+ {
+  "id": "97e5eae6-5ad5-4d6e-8594-b6905346dbf8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Clinical Implementation and Validation of an AI-Enhanced Tool for Real-Time Prediction of Postpartum Hemorrhage Risk",
+  "text": "Despite promising advances in postpartum hemorrhage (PPH) risk prediction, existing tools lack accuracy,\nusability, and efficiency. To address these limitations, we developed a highly accurate, automated machine-\nlearning model for real-time PPH risk prediction integrated within the electronic health record (EHR). To rigorously\nevaluate usability, workflow integration, and clinical effectiveness, we will conduct an individual-level randomized\ncontrolled trial in our high-volume tertiary care hospital, measuring improved timeliness of clinical interventions\nand reduced maternal morbidity. As PPH remains a leading cause of maternal morbidity and mortality, achieving\naccurate and actionable risk prediction has the potential to dramatically improve patient safety and substantially\nreduce preventable maternal morbidity and mortality nationwide."
+ },
+ {
+  "id": "97e66835-0068-496c-8645-c42c925586bd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Genetic Regulation of Cochlear Duct Patterning and Prosensory Formation",
+  "text": "Degeneration of the inner ear hair cells is the major cause for hearing loss. De novo regeneration of the\nhair cells presents promising approaches to treat hearing loss. The proposed studies are aiming at identifying\ngenes and genetic processes essential for the early development of mammalian cochlea and the formation of\nthe organ of Corti and will provide the foundation for future treatment for hearing loss."
+ },
+ {
+  "id": "97e938ac-9943-482f-8ce6-093e2156c948",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Promoting Rapid Uptake of Multilevel Latent Class Modeling via Best Practices: Investigating Heterogeneity in Daily Substance Use Patterns",
+  "text": "Researchers have unprecedented access to intensive data collected via smart phones and other devices;\nmany of these datasets hold promise to reveal new information about how complex substance use behavior\npatterns unfold in daily life and which dynamic psychological and social characteristics confer risk for\nproblematic use. Innovative statistical analyses of intensive data can enable prevention scientists and\nclinicians to design interventions that target dynamic risk factors within individuals, focusing resources on high-\nrisk days when they are most needed. We will evaluate available approaches and compile much-needed best\npractices for analyzing these data, apply these approaches to diary data to characterize college students’\nsubstance use patterns in daily life, and disseminate these approaches to facilitate broad adoption by\nsubstance use researchers nationally."
+ },
+ {
+  "id": "97eeb8eb-1a41-4240-b7d6-f79219aa54f5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigation of Neural Pathogenic Mechanisms Associated with Congenital Disorders of Glycosylation",
+  "text": "Congenital disorders of glycosylation (CDG) are rare inherited metabolic diseases that disrupt protein glycosylation, leading to severe neurological impairments such as developmental delay, seizures, and motor dysfunction. Despite their impact on the central nervous system, few treatments target these neurological issues. Using human cortical organoids (hCOs) derived from patient-specific induced pluripotent stem cells (iPSCs), we aim to mechanistically explore glycosylation defects, metabolic dysregulation, and neuronal dysfunction in two key CDG types: PMM2-CDG and ALG13- CDG. The proposed project synergistically builds on findings from zebrafish and fruit fly models of CDG. By integrating data from three complementary disease models, we seek to uncover novel mechanisms and identify therapeutic targets to address these debilitating conditions. In Specific Aim 1, we focus on PMM2-CDG, the most common subtype, where our preliminary studies identified significant disruptions in sugar and glycogen metabolism in patient-derived cortical organoids. We will investigate whether inhibition of GSK3β, a regulator of glycogen metabolism, can restore glycogen homeostasis and improve neurogenesis and neuronal network function in PMM2-CDG organoids. We will also test the role of Glut1 glycosylation in PMM2-CDG by knocking out endogenous Glut1 and replacing it with a non-glycosylatable Glut1 variant to assess the impact on neuronal and metabolic function. In Specific Aim 2, we focus on ALG13-CDG, characterized by severe neurological symptoms, including frequent seizures. We hypothesize that glycosylation defects in ALG13-CDG disrupt excitatory/inhibitory synaptic balance, contributing to seizure development. Using patient-derived cortical organoids, we will perform multi-omic analyses, including glycoproteomics and transcriptomics, to identify key dysregulated pathways in neuronal signaling and synapse formation. In addition, we will test the therapeutic potential of Topiramate, an anti- epileptic drug, which may restore neuronal function by enhancing glycosylation through Golgi and ER acidification. The impact of this research will be substantial in identifying molecular mechanisms driving neuronal dysfunction in PMM2-CDG and ALG13-CDG, with a focus on GSK3β signaling, Glut1 glycosylation, and glycosylation defects in synaptic balance. These findings may lead to the development of novel therapies, including GSK3β inhibitors and topiramate, to improve neuronal function and reduce seizures in CDG patients."
+ },
+ {
+  "id": "97f97ee7-0f2b-4217-b525-63b5a0bf5e9f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating BCAA oxidation and signaling in macrophages to drive anti-tumor immunity in PDAC",
+  "text": "Pancreatic ductal adenocarcinoma (PDAC) remains a highly lethal and treatment-resistant disease, primarily\ndue to an immunosuppressive tumor microenvironment dominated by infiltrating tumor-associated\nmacrophages (TAMs). Harnessing TAM metabolism offers a promising avenue for therapeutic intervention.\nThis proposal aims to elucidate how branched-chain amino acid (BCAA) metabolism in TAMs—specifically\nBCAA oxidation and signaling—drives TAM-mediated immunosuppression and to evaluate targeting BCAA\nmetabolism as a potential adjunctive therapy for PDAC."
+ },
+ {
+  "id": "97fc5fe1-ea59-4a93-a1a9-fb50428a6e07",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Engineering protease-resistant antiviral peptide inhibitors for SARS-CoV-2",
+  "text": "The outbreak of SARS-CoV-2 highlights the need for an approach to developing effective antivirals; there are\nno vaccines or antivirals for SARS-CoV-2. We propose to apply our novel protein engineering strategies in a\nstraightforward approach to developing SARS-CoV-2 peptide antivirals that inhibit entry of the virus into the\nhost cell and are resistant to degradation, and based on our previous findings we have high confidence that we\ncan provide effective prophylaxis using fusion inhibitors in vivo delivered via the airway. We will also assess\nthe therapeutic potential of our antivirals for use in established disease."
+ },
+ {
+  "id": "97ff3b4f-39a6-469d-9f8e-67cf6690dca5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Core G - Imaging Biomarkers",
+  "text": "SUMMARY - Imaging Biomarkers Core - REVISED Neuroimaging of amyloidosis (A), tauopathy (T), and neurodegeneration (N; collectively A/T/N) provide in vivo evidence of the pathological hallmarks of Alzheimer’s disease (AD), affording earlier diagnosis of AD, qualitative and quantitative measures for evaluation of intervention efficacy, and additional measurements of brain function that may influence response to therapies targeting Alzheimer’s disease (AD) pathology. The Imaging Biomarkers Core (a.k.a. Imaging Core) will advance and enhance innovative efforts to translate discoveries from bench to bedside, and to identify factors impacting the variability in ADRD outcomes. The Imaging Core will support imaging research with the goals of improving early diagnosis, discovering neuroimaging measures associated with polygenic risk, identifying factors predictive of response to treatment, and accelerating clinical trial research. The aims of the Core are to: 1) Create an environment conducive to using neuroimaging data for multidisciplinary research. This includes direct support for obtaining at least 24 A/T/N imaging sets per year using the SCAN protocol. The Core will design its sampling strategy to increase generalizability and examine variability of disease progression in ADRD research. The Core will coordinate with related consortia and investigator-initiated projects to support acquisition of the SCAN protocol beyond those directly acquired by the Core. The Core will provide recommendations for acquisition with specific MRI sequences and PET tracers; analytic pipelines; and expertise to support project design. 2) Provide broad, rapid sharing through interactions with other Cores, across the institution, and with outside institutions. The Core will support rapid upload of data to SCAN. The Core will facilitate informatics for banking and sharing processed neuroimaging data, help to route imaging-characterized participants to best-matched studies and trials, and support a philosophy of open science to encourage collaborative efforts across institutional boundaries. 3) Leverage imaging data to foster collaborations and catalyze projects focused on imaging biomarkers related to polygenic factors, response to treatment, and tools for discovery. The Core will emphasize polygenic risk in its activities and provide imaging data on genetically characterized participants for polygenic analysis in relation to repose to treatment and discovery science. 4) Enhance educational opportunities through neuroimaging training designed for multidisciplinary backgrounds The Core will provide neuroimaging training to REC trainees and to investigators new to ADRD research, consult with investigators to develop projects involving imaging, and will link clinical ADRD researchers to technical expertise in imaging. These Core activities will support acquisition, analysis, informatics, and data sharing to support the centrality of neuroimaging research for the efforts of the ADRC to accelerate understanding of polygenic risk, response to treatment, and discovery science through imaging measures underlying expression of clinical symptoms."
+ },
+ {
+  "id": "97ff5bf1-7795-4958-88f2-4c802eda1a5c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Proteomic and Phosphoproteomic Remodeling Under Genomic Imbalance",
+  "text": "We will investigate the proteomic and phosphoproteomic consequences of genomic imbalance, a disorder\ncaused by aneuploidy in various human genetic syndromes and cancers. We will apply advanced mass\nspectrometry-based methods to analyze protein abundance, stability, interaction, activity, and spatial distribution,\nwhich together determine disease pathologies and phenotypes. The success of this research will not only expand\nthe biological understanding of how cells tolerate and respond to different types of genomic imbalance but also\nreveal cell signaling vulnerabilities for potential therapeutics."
+ },
+ {
+  "id": "97ffb422-aa71-45ec-a39b-a9516eb1b4ca",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Harnessing molecular breaks on macrophage efferocytosis in atherosclerosis",
+  "text": "Lipid-lowering approaches reduce atherosclerotic cardiovascular disease (ACVD), but significant residual risk remains. Macrophage (Mφ) accumulation and defective phagocytic clearance of apoptotic cells (ACs) by Mφs, i.e., defective efferocytosis, promote atherosclerotic plaque vulnerability and subsequent acute cardiovascular events. Enhancing efferocytosis represents a potential therapeutic strategy for residual risk reduction in ACVD. Discovering novel genes that can be harnessed to enhance efferocytosis addresses a major knowledge gap and provides opportunities for new ACVD therapeutics. As discovered in our genome-wide CRISPR screen of efferocytosis regulators, Pdcd6ip deficiency enhances Mφ efferocytosis, representing a novel therapeutic opportunity in atherosclerosis and management of CVD residual risk. Preliminary data show that transplantation of Pdcd6ip-/- mice bone marrow into atherosclerosis-prone Ldlr-/- mice increases features of plaque stability. This PPG project will test the central hypothesis that Pdcd6ip acts as a molecular break on Mφ efferocytosis and can be harnessed to ameliorate athero-progression or to promote athero-regression through effects on plaque stabilization, the central theme. Integrating with Drs. Tall and Tabas, the project will assess the therapeutic impact of Pdcd6ip inhibition on atherosclerosis with clonal hematopoiesis (CH) mutations, with implications for inflammation-related residual risk in CH patients. Aim 1 will determine how Pdcd6ip deficiency enhances efferocytosis in vitro in murine and human Mφs. Our data show that Pdcd6ip-/- induces cytokinesis arrest and increased formation of polyploid Mφ that demonstrate superior capability of continuing efferocytosis, suggesting a “super-eater” phenotype. Mononuclear Mφs with Pdcd6ip-/- also show enhanced primary efferocytosis, though not continuing efferocytosis. We will test the hypothesis that Pdcd6ip deficiency enhances efferocytosis via both polyploidy-dependent and -independent mechanisms. Aim 2 will determine if harnessing Pdcd6ip inhibition enhances efferocytosis to ameliorate athero-progression or to promote athero-regression in mice. We will determine: (A) whether Pdcd6ip deficiency ameliorates progression via converting proliferating Mφs to “super- eater” polyploid Mφs, including in JAK2-CH mice; and (B) whether Pdcd6ip deficiency promotes regression via enhancing efferocytosis-resolution cycle, including in DNMT3A-CH mice. Using fate-mapping and scRNA-seq, we will also address how Pdcd6ip deficiency promotes plaque stability via Mφ and stromal cell crosstalk (with Drs. Tall, Tabas, Reilly, Cores B&C). Aim 3 integrates the histological, clinical, transcriptomic, and spatial transcriptomics data of biobanked human plaques in the Munich Vascular Biobank (Dr. Maegdefessel, Core C) to prioritize potential efferocytosis regulators identified in our genome-wide CRISPR screen that are associated with human atheroma. The prioritized genes will accelerate mechanistic studies and support the translational promise of enhancing efferocytosis for residual risk reduction in ACVD, particularly in CH patients. In summary, our work will provide insights into new approaches to enhance Mφ efferocytosis and mitigate residual ACVD risk."
+ },
+ {
+  "id": "9802ebd5-1e05-4643-9cd4-ee74767955de",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Evaluation of TRPM8-Expressing Neurons as Novel Regulators of Acute Radiotherapy-Associated Pain in Patients with Head and Neck Cancer",
+  "text": "More than 80% of patients undergoing treatment for head and neck cancer are prescribed opioid pain killers for\nmanagement of radiation-associated pain, and unfortunately, 6 months after finishing radiotherapy, one-third of\nhead and neck cancer patients will still be opioid-dependent. Chronic opioid use is associated with side effects\nsuch as constipation and decreased alertness; it can also lead to opioid abuse, misuse, addiction, and eventual\noverdose. Safer, more effective and less addictive pain relief strategies are desperately needed, and our\nproposed research addresses that need by investigating a novel radiation-activated pain signaling pathway that\nmight serve as an excellent target that could be inhibited with new pain medications."
+ },
+ {
+  "id": "98044e9b-5665-4662-9536-627d48ee91b2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Single nuclei RNA-sequencing to map adipose cellular populations and senescent cells in older subjects",
+  "text": "With aging there is progressive accumulation of fat tissue. This study will examine, at the molecular level, the\ndifferent cellular populations in fat tissue to improve our understanding about the mechanisms by which aging\nand obesity affect the health of adults as they age."
+ },
+ {
+  "id": "9809f8f8-100d-4646-b52f-9cd5fd70d3be",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Post-GWAS Functional Genomics Analysis to Define Pathogenic Mechanisms for Pulmonary ArterialHypertension",
+  "text": "In this proposal, I aim to use a new method to define a human DNA mutation and a protein named FUBP1 that\nbinds to this mutation as an explanation as to why some people are more likely to develop a deadly blood vessel\ndisease in lungs called pulmonary hypertension. If successful, my work could change our understanding of\npulmonary hypertension and drive development of new ways to detect and treat this deadly disease."
+ },
+ {
+  "id": "9816124f-c1be-46a0-adc8-7e31eff0f4d5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Porcine Platforms For Technology Development In Pancreatic Cancer",
+  "text": "Porcine Platforms For Technology Development In Pancreatic Cancer\n PROJECT NARRATIVE\nThe relevance of the proposed research to public health is that validated porcine models of pancreatic cancer\nshould facilitate the development of new and more effective anti-cancer therapeutics. Secondary to its relatively\nlarge size, a porcine model of pancreatic cancer also will have utility in the development and/or refinement of\ndevices/techniques to detect, image, diagnose, treat, and monitor these tumors."
+ },
+ {
+  "id": "981c655d-d471-42eb-924e-5d897b80b098",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development and testing of a smartphone-delivered IPV and related stress intervention for residents experiencing extreme weather in informal settlements in Kenya using ecological momentary approaches",
+  "text": "The proposed project seeks to develop, pilot, and test the feasibility and preliminary efficacy of a smartphone-delivered safety and harm reduction intervention for women experiencing intimate partner violence (IPV) and extreme weather in informal settlements in Kenya using ecological momentary approaches. The project will: (1) develop, test, and modify a smartphone-based EMA application designed to collect information on female residents’ IPV experiences, emotional stress, IPV self-efficacy, receipt of IPV-related social support and services, safety, comfort with EW and ambient conditions, social and environmental context, and current behaviors in informal settlements (R21: Phase 1); (2) pilot test the EMA application among 320 women living in two large informal settlements in Nairobi, Kenya and use the data collected to explore important, but understudied associations between extreme weather and IPV in informal settlements (R21: Phase 2); (3) adapt an evidence-based Wings of hope (WINGS) intervention for integration into the smartphone-based EMA application developed in the R21 phase (R33: Phase 1); and (4) test the feasibility and preliminary efficacy of the adapted WINGS-based ecological momentary intervention (EMI) through a randomized control trial (RCT) (R33: Phase 2). The goals of this study are: to provide women with a low-cost, accessible, smartphone-based tool that empowers them to develop, utilize, and revise personal safety and harm reduction strategies that are specifically responsive to IPV and EW, and in doing so, to provide survivors with interventions in real-time."
+ },
+ {
+  "id": "9825fb99-8b07-45ea-82c2-aaad9d168eec",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Vascular Smooth Muscle Protein Quality Control and Aortic Aneurysm Formation",
+  "text": "Abdominal aortic aneurysm (AAA) is a devastating disease carrying high morbidity and mortality due to fatal\ndissection and rupture, yet there have been no proven pharmaceutical treatments for AAA prevention and\ntreatment. The proposed studies will address a new mechanism underlying AAA pathogenesis, involving the\ninsufficient ubiquitin proteasome system (UPS) performance-mediated proteotoxicity governed by a novel\nsignal cascade comprising a druggable upstream modulator (PDE10A) and a downstream effector (MYOCD)\nof gene transcription. Successful completion of the aims will inform therapeutic targeting strategies to combat\nAAA."
+ }
+]

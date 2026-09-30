@@ -1,0 +1,142 @@
+[
+ {
+  "id": "fcd92c11-153d-4e39-8e97-e2a6bea5211d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Functional long noncoding RNAs in neural development",
+  "text": "The human genome produces many thousands of long noncoding RNA (lncRNA) molecules, and abnormal\nproduction of specific lncRNAs appears to underlie some of the most devastating human diseases such as\ncancer, Alzheimer’s disease, and schizophrenia. Discovering how lncRNAs regulate brain development is\nimportant to understanding how they may cause human disease. Furthermore, understanding how lncRNAs\nfunction at the molecular level is critical to the development of treatments that utilize lncRNAs as therapeutic\ntargets."
+ },
+ {
+  "id": "fcdadc99-5ed7-43fa-a80c-0dabff59c1cb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of an MRI Guided Machine Learning Algorithm to Assess the Velopharyngeal Mechanism",
+  "text": "Velopharyngeal (VP) anomalies, often associated with cleft palate and other craniofacial conditions, can have a\nsubstantial impact on speech and communication abilities as well as overall quality of life if unsuccessfully\nrepaired. This investigation will provide the foundation for a successful line of focused, translational research to\nimprove clinical assessments and speech outcomes in children born with VP anomalies as well as reduce the\nneed for subsequent revision surgeries by developing a method for automated, pre-operative, objective, patient-\nspecific anatomic assessment. The results of this proposal will directly contribute to NIDCD’s mission to improve\nthe health of children with speech and resonance disorders associated with velopharyngeal dysfunction by\nenabling a high impact collaboration between speech physiology, craniofacial/plastic surgery, data science, and\nbiomedical engineering, particularly in the area of precision medicine, to improve speech and surgical outcomes\nfor children with cleft/craniofacial conditions."
+ },
+ {
+  "id": "fcdd9b1c-4faf-4a82-821a-500cc8da91a7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "An Investigation of Omics for Bronchopulmonary Dypslasia",
+  "text": "Bronchopulmonary dysplasia (BPD) may be driven by bioactive lipid and metabolomic intermediaries that have\nbeen incompletely characterized. This proposal will identify biochemical perturbations associated with BPD\nusing complementary lipidomic, metabolomic and transcriptomic approaches. The findings have the potential\nto identify putative biochemical markers and novel molecular patterns associated with BPD."
+ },
+ {
+  "id": "fcdedda7-9ccd-4797-b7d5-5ddef2cb41e4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Host heterogeneity affects susceptibility of Babesia microti infection using vector-mediated transmission",
+  "text": "Human babesiosis, caused by Babesia microti (Bm) infection, is a malaria-like emerging tick-borne infectious\ndisease that may cause severe clinical manifestations particularly in immunocompromised individuals and\nthose of advanced age (i.e. over 50); however, severe disease also occurs in those with no known risk factors,\nindicating unknown critical determinants that contribute to susceptibility to babesiosis. In this proposal, we will\nuse the collaborative cross mouse resource, a next-generation mouse genetic reference population created to\nbridge the gap between host genotype and disease phenotype by enabling high-resolution QTL mapping of\ncomplex traits, to compare the role of host genetic polymorphisms in susceptibility to Bm using two distinct\nroutes of parasite transmission: natural horizontal tick transmission and needle inoculation. Genetic\npolymorphisms linked to Bm disease severity are currently unknown, deciphering these links will improve our\nunderstanding of the immunopathology of babesiosis to develop better treatment methods for humans."
+ },
+ {
+  "id": "fcdf71a8-986f-425d-9825-86fd3efe7799",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "ATP-driven detection of foreign proteins triggers diverse mechanisms of cellular defense and phage-mediated counter defense",
+  "text": "The proposed research on ATP-drive immune systems in bacteria is anticipated to\nreveal shared principle for immune systems across domains of life. We anticipate that these discoveries will\nexpand our fundamental knowledge of cells, immune systems, and viruses, thereby enabling the development\nof new treatments that improve human health."
+ },
+ {
+  "id": "fce3ff90-72d0-48a4-8293-d31063247618",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Sex Differences in NK Cells Mediated by X-linked UTX",
+  "text": "Sex differences in outcomes following viral infections are well-described and may reflect sexual dimorphism in\nNK cell composition and effector function. This proposal will define how an X chromosome-linked epigenetic\nregulator, UTX, controls natural killer (NK) cell effector responses to viral infection and is responsible for NK\ncell sex differences. A deeper understanding of the cellular and molecular mechanisms of NK cell sex\ndifferences will lead to new insights into NK cell function and strategies for optimizing anti-viral immune\nresponses."
+ },
+ {
+  "id": "fce586b8-7574-4887-8c69-122a2366bfe3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Volumetric imaging and computation to characterize cardiac electromechanical coupling",
+  "text": "Life-threatening arrhythmia in the setting of QT prolongation commonly occurs as a consequence of drugs that\naffect cardiac repolarization. While cardiomyocyte mishandling of calcium leads to contractile dysfunction and\narrhythmia, the integrative understanding of drug-induced excitation-contraction coupling abnormalities remains\nto be defined. For this reason, we seek to integrate our genetic models with advanced imaging and computational\nmethods to investigate if a common mechanism of action underlies small molecule compounds-induced\nbradycardia or if each compound works in a different way."
+ },
+ {
+  "id": "fcf1ab72-d3b0-4f11-8b9f-1557c5c4739a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Defining the Role of Twice-Daily Thoracic Radiotherapy in Limited-Stage SCLC in the Immunotherapy Era: A Trial Integration Approach",
+  "text": "Small cell lung cancer is an aggressive disease in which timely and effective radiation treatment\ncan improve the chances of cure. This project will determine which patients benefit most from\ntwice-daily radiation therapy and whether this more intensive schedule remains important in the\nera of modern immunotherapy. The findings will help doctors choose the right treatment for each\npatient, support fair access to effective care, and guide future national recommendations for\nlung cancer treatment."
+ },
+ {
+  "id": "fcf48d54-066b-427a-a19f-c883d69bef0a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Massively scalable 3D electrophysiology and two-photon imaging in freely-moving animals",
+  "text": "Performing high-density electrophysiology and concomitant two-photon calcium imaging is - at present- not\nfeasible in awake behaving animals. In this proposal we introduce NET-2P – a platform that facilitates high-\ndensity electrophysiology across 3D volume alongside two-photon calcium imaging in freely-moving mice. We\npropose to unravel how spontaneous electrical travelling waves shape underlying cellular ensembles during\nsensory discrimination, and how ensembles representing learned associations are strengthened during sleep."
+ },
+ {
+  "id": "fcf4a9b1-58a7-492a-a865-67c9a8516208",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Biochemistry, Cellular and Molecular Biology Program",
+  "text": "The purpose of the Biochemistry, Cellular and Molecular Biology Graduate Program is to train outstanding\nscientists for diverse careers in biomedical research. This goal is achieved through a rigorous, broad-based\ncurriculum and independent research in a basic science laboratory. This type of training is essential for\nunderstanding human disease at a fundamental level, and allows our students to enter the biomedical workforce\nwhere they contribute to breakthroughs in biology and medicine."
+ },
+ {
+  "id": "fcfe3951-86b1-47b4-a80d-32de17f21fa1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Elucidating mechanisms of macropinosome formation, stabilization, and trafficking",
+  "text": "TITLE. Elucidating mechanisms of macropinosome formation, stabilization, and\ntrafficking.\nNARRATIVE\nThe proposed research is relevant to public health because the discovery of mechanisms\nregulating macropinocytosis is ultimately expected to increase the understanding of the\npathogenesis of inflammatory and auto-immune diseases, and cancer. Thus, the proposed\nresearch is relevant to NIH’s mission, in that it will contribute to developing fundamental\nknowledge that will help reduce the burden of human disease."
+ },
+ {
+  "id": "fd034597-337d-42cf-a55b-0770b857f385",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Gene positioning and dynamic chromatin organization of the human genome",
+  "text": "The nuclear package of eukaryotic DNA is regulated to express only essential genes for specific cell functions\nand proliferation. The proposed research will investigate how active genes are positioned in the hierarchical\ngenome organization, the movement speeds and directions of different chromosomal regions, and whether we\ncan predict and identify compartments by chromatin mobility and transcription rate in the nucleus. Live-cell\nimaging combined with biophysical models and high-throughput RNA analysis will be used to dissect the dynamic\norganization of individual chromosomes and map the active gene positions, which leads to a deeper\nunderstanding of the nuclear function and genome stability in single cells under physiological conditions."
+ },
+ {
+  "id": "fd0974e3-7574-41a5-ac13-33e05bd32fb3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular Mechanisms of Bladder Cancer Immunometabolism",
+  "text": "Bladder cancer remains a highly lethal disease despite recent success of immune checkpoint therapy due to\nresistance to immune checkpoint inhibitors in the majority of bladder cancer cases. We identified that tumor-\nassociated Schwann cells promote an immunosuppressive microenvironment in bladder cancer and determined\nthat the expression of long noncoding RNAs in tumor-associated Schwann cells regulates the enzymatic\nactivities of TDO2 and thus facilitates the expansion of immunosuppressive MDSC cells. Hence, targeting tumor-\nassociated Schwann cells expressing noncoding RNAs should advance our understanding of bladder cancer\nimmunoresistance and pave the way for developing combinatorial therapies for bladder cancer patients to\novercome resistance to immunotherapy."
+ },
+ {
+  "id": "fd10164e-3950-43cc-a404-d0fceb8efbf3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cell Engineering Shared Resource",
+  "text": "The objective of the Cell Engineering Shared Resource (CESR) is to offer expertise in cell line engineering using viral and non-viral approaches and to provide the resources to analyze cancer cell growth/death in vitro and in vivo under a wide variety of experimental conditions. The use of various viral and non-viral vectors, as well as gene editing techniques (CRISPR/Cas9) have become critical in the experimental toolbox of cancer researchers to effectively manipulate gene expression and to create desired mutations. CESR has expertise in designing, implementing, and optimizing new cell culture, cell transduction, and cell line engineering procedures for investigators and can conduct short-term experiments in a cost-effective manner. CESR provides consultation without charge for project design. CESR offers ready-to-use stocks of lentiviruses for fluorescent and luminescent labeling and packages any retrovirus, lentivirus, or adeno-associated virus transfer plasmids into a replication-deficient viral vector. Additionally, CESR uses Gateway cloning to insert genes of interest into viral vector transfer plasmids, enabling generation of viral vectors from any cDNA. CESR is a member of Sigma- Aldrich’s CRISPR Core Partnership Program, which enables CESR users to directly work with scientists at Sigma-Aldrich to have sgRNAs designed to suit their needs. CESR stocks ready-to-use lentivirus-based Cas9 expression vectors, produces and delivers Cas9-gRNA ribonucleoproteins to cells for gene editing, and evaluates on-target cutting efficiency of CRISPR/Cas9 through quantification of in/del frequency using targeted PCR and DNA resolvase-based approaches. CESR establishes cell lines from primary patient samples and maintains a regional partnership with the Duke University Functional Genomics Facility for high-throughput screening of small molecules and CRISPR/shRNA libraries. CESR manages advanced instrumentation for monitoring cell growth in vivo and in vitro, including an IncuCyte Zoomfor live fluorescence imaging, a BioSpherix Xvivo X3 Hypoxia Chamber, a Nanosight NS500 for measurement of exosome/virus concentration and size, two IVIS Lumina III systems for in vivo fluorescence and luminescence imaging, and, most recently, an iThera MSOT inVision 256-TF for full body, multispectral optoacoustic imaging of rodents to study physiological processes at a molecular and cellular level. CESR provides access to over 200 characterized cancer cell lines, offers liquid nitrogen storage for Atrium Health Wake Forest Baptist Comprehensive Cancer Center (AHWFBCCC) members’ cell lines, conducts mycoplasma testing, procures nucleotide primers, offers training for instrumentation and advanced tissue culture/cell line transduction, and prepares custom media formulation. CESR also offers an on-site stockroom for tissue culture reagents, including media and sera, and custom procurement services with substantial discounts from multiple vendors. Over the project period, 106 AHWFBCCC members used CESR, representing 51% of total users – up from 44% at the time of the previous renewal. The number of peer-reviewed funded users also increased to 55 compared to 52 in the previous cycle. CESR provided support for 120 publications and 55 peer-reviewed, cancer-focused grants."
+ },
+ {
+  "id": "fd1983c4-910e-40b4-a26b-e53eaeb6d2e2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Bioprinted 3D vascular cancer model",
+  "text": "Immunotherapy is providing breakthroughs in cancer treatment, but many patients currently do not benefit from\nthese therapies. The lack of experimental systems that adequately mimic the biology of tumors limits the\ndevelopment of effective new therapies. Our team will develop a new 3D model of cancer in which the\ninteraction of melanoma cells and immune cells can be studied in a setting more resembling the patient\nsituation to ultimately allow screening of the impact of new cancer immunotherapies against solid tumors."
+ },
+ {
+  "id": "fd22da61-2084-4daa-97ab-d22b48cc106f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Radiomic and genomic predictors of breast cancer risk",
+  "text": "Screening mammography reduces breast cancer mortality, but can also result in over-diagnosis and over-\ntreatment. Improved breast cancer risk prediction models can enable personalized screening tailored to each\nwoman's risk, and thereby maximize the benefits and minimize the harms of screening. Our study will examine\nwhether breast tissue features automatically extracted from mammograms (radiomics) and polygenic risk\nscores can significantly improve upon current clinical breast cancer risk prediction models among ethnically\ndiverse women undergoing screening mammography in two large community health settings.\n1"
+ },
+ {
+  "id": "fd277958-db21-4e0c-b6ae-7d1d74c45907",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Gene Expression and Manipulation Core",
+  "text": "PROJECT SUMMARY - GENE EXPRESSION & MANIPULATION The Gene Expression & Manipulation core is focused on providing support and assisting and facilitating specific studies relating to gene expression and manipulation. Most of the types of studies supported by this core fall within the range of ocular molecular biology, biochemistry, and cell biology. This includes evaluating, quantitatively, the temporal effects of treatments, conditions or disease states on gene expression and protein levels in ocular tissues. We also support studies focused on determining the effects of individual gene manipulation on ocular processes and cells. This includes knockdown of specific gene expression levels in cells or tissues by RNAi silencing, increases in specific gene expression by overexpression using vectors, and modulation of activity or function of specific genes by expressing modified forms, e.g. by transfecting or infecting genetic mutant, dominant negative, constitutively active, or alternatively spliced gene constructs. Manipulation methods include construct transfection, gene or RNAi delivery via infection with recombinant viral constructs such as lentivirus, or by lipid nanoparticles. We have recently been assisting investigators with CRISPR/Cas9 gene editing, including base and prime editing studies aimed at disease modeling with the intention of future disease related modifications or stem cell manipulation. This core maintains various instruments that support these types of studies. The core co-Directors and personnel have experience with all of these methods and will facilitate and assist core users with any of the described techniques that they deem of value to their investigations. In addition to providing this service to NEI-funded investigators, we actively support efforts of new and young investigators, to develop pilot or preliminary data that can be leveraged into future foundation and NEI funding."
+ },
+ {
+  "id": "fd278347-02ea-408a-9b19-3d23a7584576",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Differences in Tumor Biology of Multiple Myeloma",
+  "text": "Multiple myeloma is the most common blood cancer in in persons with a higher proportion of African Ancestry (AA) compared to those with a higher proportion of European Ancestry (EA). The proposed research is relevant to public health because it will identify important factors that can explain the variation in incidence and survival outcomes across populations with differing genetic ancestry by characterizing the genetic variations of the multiple myeloma tumor, its tumor microenvironment, and the impact of this variation on response to therapy and disease survival in a large, well-powered study of AA and EA patients with multiple myeloma. Understanding MM tumor genetics and TME across patient populations with differing genetic ancestry will allow for improved treatment selection and prognostication."
+ },
+ {
+  "id": "fd30caeb-fcb2-416e-8261-c7019c574261",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Hormonal control of stem cells in the Drosophila ovary",
+  "text": "Tissue-resident stem cells maintain cellular diversity during tissue repair and remodeling. Yet how stem cells\nincorporate endocrine signals with the intrinsic mechanisms that guide asymmetric cell division is incompletely\ndefined. Using a powerful genetic model, this proposal will elucidate how a steroid hormone provides sensitive\nmolecular control over the gene regulatory network that controls stem cell division."
+ },
+ {
+  "id": "fd353d26-5939-4aa2-b5e9-6caf38eec3ac",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanism of ARIA following Anti-Amyloid Immunotherapy",
+  "text": "While anti-amyloid immunotherapy for Alzheimer's disease (AD) has shown promise for treating patients,\npotentially severe consequences have raised concerns regarding the safety of the treatment. This project aims\nto determine the mechanism of amyloid-related imaging abnormalities to develop efficient strategies to manage\nthe safe application of immunotherapy."
+ }
+]

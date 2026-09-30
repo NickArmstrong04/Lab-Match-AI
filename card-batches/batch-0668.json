@@ -1,0 +1,142 @@
+[
+ {
+  "id": "6123ef73-1c85-427c-b512-f4ab71b9f413",
+  "want_sentence": false,
+  "want_terms": true,
+  "title": "Feasibility study of a novel NK and CD8 T cells stimulating agent",
+  "text": "Cell-based therapies, whether NK or T cell-based therapies, remain challenging for solid tumors. CanCure has.\nTo circumvent these challenges, we have discovered a new complex molecule that can be used as an additive\nduring NK and antigen-specific CD8 T cell expansion to enable their superior efficacy in treating solid tumors.\nThe goal of this application is to select the most optimal form of the complex molecule by assaying the biological\nand developmental feasibility."
+ },
+ {
+  "id": "6125720a-fbd3-49bf-bfbe-d798f138daca",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Salivary Neural Development Programs Enable Adenoid Cystic Carcinoma Progression",
+  "text": "Adenoid cystic carcinoma (ACC) is a highly aggressive salivary gland cancer that is closely associated with\nperineural invasion, yet the role of tumor innervation in its progression remains unclear. This project will create\nan atlas of neuronal maps and define the patterns and functional consequences of tumor innervation in ACC\nusing clinical and genomic correlations, in vitro models, spatial and single nuclei transcriptomics, and patient-\nderived xenograft models. By targeting tumor–nerve interactions, this research aims to uncover novel\ntherapeutic strategies to improve outcomes for patients with ACC."
+ },
+ {
+  "id": "612ba054-b7da-41e4-b43a-b2f8c32ff4a9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Designer Red Blood Cells to Improve Transfusion Therapy",
+  "text": "Red blood cell transfusions are lifesaving but can cause serious complications, especially in patients with sickle\ncell disease and premature infants. This project aims to develop a scalable source of red blood cells from human\npluripotent stem cells that are tailored for two critical clinical needs: identifying complex antibodies in transfusion-\ndependent patients and providing safer, fetal-type red cells for premature neonates. These innovations have the\npotential to improve transfusion safety, diagnostic accuracy, and outcomes in two high-risk patient populations."
+ },
+ {
+  "id": "61340fb2-69ae-4769-87fd-0efe19929c42",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "POISEN: A Bioinformatics Pipeline to Identify Poison Exons in Neurodevelopment",
+  "text": "Alternative poison exon (PE) splicing is a regulatory mechanism used to rigorously maintain protein expression\nacross time and cell type during neurodevelopment. Pathogenic variants near PE splice sites can result in\naberrant PE splicing events that can result in severe neurodevelopmental disorders (NDDs) like genetic\nepilepsy disorders, yet alternative PE splicing has been historically understudied due to the technical\nchallenges in identifying these alternative exons. This research proposal aims to discover PEs relevant in\nhuman neurodevelopment and in NDD- and epilepsy-related genes by developing and applying POISEN\n(Poison exOn dIScovery for long-rEad traNscriptomes), a bioinformatics pipeline that specifically detects PEs\nin the long-read transcriptomes of induced pluripotent stem cell-derived cerebral organoids."
+ },
+ {
+  "id": "6134273c-2cf0-4f8d-acd2-fe9d29017790",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Repurposing esomeprazole for the treatment of scleroderma",
+  "text": "Scleroderma is a chronic disease of the connective tissue that is characterized by excessive accumulation of\nfibrous material (i.e. collagen) in the skin and ultimately in the lungs and other internal organs leading to\nmultiple organ failure and death. Although there is no cure for this disease, research progress in animals and\nhumans has led to better understanding of the disease process, and possible treatment options that can halt or\nreverse the disease are on the horizon. Recently, our research identified that an FDA-approved drug (for other\ndisease) might be effective for scleroderma, and we now propose to conduct additional studies to develop the\ndrug, as well as understand the mechanism(s) by which it blocks collagen accumulation in cells obtained from\nscleroderma patients, and in animal models of the disease."
+ },
+ {
+  "id": "61344e05-ab78-44d1-b649-7e52c68a909d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Modeling SNARE-Mediated Membrane Fusion",
+  "text": "The proposed research aims to increase our understanding of how cellular machineries accomplish regulated\nexocytosis, the basis for many fundamental processes such as neurotransmitter release at neuronal synapses\nwhich enables neurotransmission in the central nervous system. This research will contribute to understanding\nmechanisms whereby synapse dysfunction leads to neurodevelopmental or neurodegenerative disorders."
+ },
+ {
+  "id": "61388706-c785-4ea2-a667-9e7fead2df54",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Feedback amplification between Retrotransposons/endogenous retroviruses and TDP-43 in Alzheimers related dementias",
+  "text": "This proposal investigates the role of retrotransposons and endogenous retroviruses in\nAlzheimer’s and related dementias, using a Drosophila model as well as mammalian cell\nculture. The primary hypothesis that will be investigated is that retrotransposons and\nendogenous retroviruses, which are virus like elements that reside in the genome, are\nboth upstream initiators and downstream mediators of the protein aggregation pathology\nthat is seen in subjects with these disorders. The proposal makes use of well\nestablished Drosophila models of neurodegeneration that are relevant to Alzheimer’s\nRelated Dementias. By use of these models and of cell culture, this proposal also will\ntest the idea that retrotransposons and endogenous retroviruses contribute to the spread\nof disease between neurons and glial cells in the brain."
+ },
+ {
+  "id": "613bcbeb-db54-4bce-adc4-b7c26318e0d6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Translation Fidelity in Hematopoietic Stem Cell Aging and Longevity",
+  "text": "Blood-forming stem cells in the bone marrow regenerate blood and immune cells throughout life. Defects in stem\ncell maintenance that occur during aging lead to anemia, impaired immunity, bone marrow failure, and leukemia,\nbut the underlying cause of these defects is largely unknown. This proposal will examine if blood-forming stem\ncell maintenance and longevity is regulated by errors in protein synthesis, and if increasing the fidelity of protein\nsynthesis delays onset of age-related stem cell defects and extends lifespan."
+ },
+ {
+  "id": "613c0b29-2206-475b-b4a2-483f2af2f4c9",
+  "want_sentence": false,
+  "want_terms": true,
+  "title": "Determining the gastrointestinal nemabiome of sheep and goats in the USA",
+  "text": "Making informed treatment decisions for sheep and goat diseases caused by gastrointestinal worms—such as\nbarber-pole worms, brown stomach worms, or black scour worms—is essential for responsible anthelmintic\nuse and for preventing the rapid development of drug resistance. Traditional parasitological methods are\nbecoming less effective at identifying key species relevant to the industry, and advances in molecular\nparasitology now enable us to identify the gastrointestinal nemabiome, including pathogenic worms, and to\nevaluate the relative abundance of each species within individual animals. Using a standardized, cost-effective\nprotocol, we aim to characterize the nemabiome of small ruminants across the United States."
+ },
+ {
+  "id": "613c663b-fab1-4b77-b406-1a47ee961dd6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Integrating multiomic analyses for gene discovery andgenetic diagnosis of Mendelian myopathies",
+  "text": "With clinically-available genetic testing, the majority of patients with suspected monogenic muscle diseases lack\na genetic diagnosis which impedes medical management. The goal of this project is to develop best practices\nfor combined analysis of genome (DNA), transcriptome (RNA), and proteome (protein) research technologies to\nidentify novel variants and genes and improve the diagnostic yield for patients with muscle disease."
+ },
+ {
+  "id": "613e3c21-bcce-45f4-8df8-89217390b203",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "TR&D Project 2: AddBiomechanics for Analysis",
+  "text": "High-quality personalized biomechanical simulations are needed to uncover the factors that limit mobility. Creating these simulations from movement data is a significant barrier for many researchers, including our Collaborative Projects. Add Biomechanics, a web-based tool created by the Mobilize Center, has dramatically reduced this barrier. Add Biomechanics automatically processes motion capture data to scale a musculoskeletal model to match a person and create a simulation that computes their kinematics and dynamics in less than 30 minutes, compared with about one day of manual work for a human expert. We have also demonstrated that the accuracy of AddBiomechanics is superior to expert researchers. Our aims for advancing AddBiomechanics include the following: 1. Develop cloud-based tools in AddBiomechanics to automatically estimate kinematics from inertial measurement unit (IMU) data. Users will simply drag-and-drop their data into our web-based tool to obtain accurate estimates of joint kinematics from IMU sensors. We will support data processing for a range of common movement tasks and over long durations, expanding our user community and accelerating our ability to create large movement datasets. 2. Develop machine learning methods to automatically curate large-scale movement datasets. We will use our expert-curated dataset to build a machine learning model to replace the current manual checking of AddBiomechanics. This will improve the accuracy of the data processed by AddBiomechanics and automate curation, which will allow us to develop very large, high-quality datasets. 3. Develop and validate machine learning models to accurately and rapidly estimate ground reaction forces and muscle activations and forces. We will incorporate these models in OpenCap and OpenSim to enable users to estimate unmeasured external forces and muscle dynamics in seconds rather than hours. Data processed through AddBiomechanics is automatically harmonized and shared, this will accelerate our goal to create a large-scale and high-quality movement dataset. We will leverage this dataset to build machine learning models that can estimate movement dynamics 1,000 times faster than current approaches. Through intensive interactions with our Collaborative Projects, we will focus on improving outcomes for individuals with limited mobility due to conditions such as osteoarthritis, neuromuscular diseases, limb loss, and workplace injuries."
+ },
+ {
+  "id": "613e481e-502a-408b-b0f9-f972de724c8e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Functional Dynamics and Interactions of CYP19",
+  "text": "The cytochromes P450 (CYPs) play a diverse range of roles in xenobiotic metabolism and hormone synthesis.\nAmong them, aromatase (CYP19) holds significant importance to human health due to its pivotal role in\nconverting androgens into estrogens. This research aims to unravel fundamental aspects of CYP19 function\nand develop novel tools that can be applied to other CYPs and membrane proteins."
+ },
+ {
+  "id": "6140151b-d657-48d2-beff-172788158532",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of Nociception in the Trigeminal System",
+  "text": "The proposed research will investigate the functional properties of trigeminal Aβ-afferent high-threshold\nmechanoreceptors (Aβ-HTMRs), identify mechano-transducers in trigeminal Aβ-HTMRs, elucidate the\ninvolvement of Aβ-HTMRs in trigeminal neuropathic pain manifested with orofacial mechanical allodynia and\nunderlying molecular mechanisms. This project is highly relevant to public health because it will provide\nimportant insights into trigeminal neuropathic pain and novel therapeutic targets for treating this debilitating\npain disorder."
+ },
+ {
+  "id": "61510016-916f-44f4-b4d0-8066e913ae60",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting the Sexual Cycle of Pneumocystis",
+  "text": "The prevalence of health factors that compromise the immune systems of US veterans and\npredispose them to infection with opportunistic pathogens like Pneumocystis is significant.\nBesides infection with HIV, obesity in the US has increased over the past several decades.\nObesity is linked to more than 60 chronic diseases, including cancers. In 2014 (the most recent\nupdate), the VA estimated that 78% of US veterans (including men, women and ethnic minorities)\nwere overweight or obese (Spotlight on Obesity, May 2020) rendering them susceptible to\ncancers, other immune debilitating diseases, and opportunistic infections like Pneumocystis\npneumonia. Opioid drug overdoses of US military veterans have increased by 53% from 2010-\n2019, establishing another susceptible veteran population who are often co-infected with HIV and\nHCV."
+ },
+ {
+  "id": "61549d68-61e1-4fb4-be1b-598c11ebaf95",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Shock Patients: Interprofessional Communication to Enhance Diagnosis (SPICED)",
+  "text": "Differentiating between causes of shock in the 1.3 million Americans annually who develop\nshock annually is extremely challenging and requires many clinical experts to provide their\nperspective. Yet, there is no way for these clinicians to actively share their assessments, build a\nshared understanding of the cause of shock, and reach a consensus on treatment. The\nproposed resarch will understand why interprofessional clinicians disagree on the cause of\nshock, and then design and test a systematic process for interprofessional clinicians to share\ninformation, assessments and build a shared understanding of the cause of shock."
+ },
+ {
+  "id": "615514d9-8148-48e0-8172-40632a5f2ba3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular origins and evolution to treatment resistance in genitourinary cancers",
+  "text": "While many cancer genomics studies have opened novel biological paradigms for tumor-intrinsic dysregulation\nresulting from treatment resistance and new translational impacts, the role of integrated somatic, germline, and\nimmune systems toward treatment resistance has not been fully characterized in GU cancers. With Research\nSpecialist Dr. Jihye Park's recent and ongoing contributions, our NCI funded research programs will continue to\nconduct systematic and comprehensive investigations of somatic, germline, and immune cell components that\ntogether drive cancer risk and selective response to existing and emerging therapies across GU cancers. Under\nUnit Director Dr. Eliezer Van Allen's leadership, this interdisciplinary and highly collaborative group will continue\nto drive these comprehensive clinical computational research programs by utilizing novel sequencing\napproaches and computational methods, and by sharing these discoveries with the broader community to\nsynergize collaboration in the cancer genomics field.\n1"
+ },
+ {
+  "id": "61580367-4f6b-4d36-ae6a-2c495d654624",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Characterizing estrogen regulation of neuronal excitability in the extended amygdala",
+  "text": "Alcohol use disorder presents a significant level of comorbidity with mental health conditions such as anxiety\ndisorder, particularly among women. We find that high levels of estrogen during the estrous cycle correlate with\nan increase in alcohol drinking, lower levels of anxiety, as well as increased activity in BNSTCRF neurons, a\npopulation we have shown to mediate these behaviors. Investigating the link between these behaviors and\nestrogenic signaling in these neurons will facilitate the development of more targeted treatments for alcohol use\nand anxiety disorders."
+ },
+ {
+  "id": "61602b6c-bf56-4fac-b49c-a9d115a5ba7f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Vaginal Microbiome, Inflammatory Mediators, Metabolome, and Dysmenorrhea Symptom-based Phenotypes",
+  "text": "Dysmenorrhea (characterized by menstrual pain) affects up to 95% of reproductive-age women, disrupts their\ndaily activities, and increases their risk for other chronic pain conditions. We propose to examine relationships\namong vaginal microbiome, inflammatory mediators, metabolome, sex hormones, and individual differences in\ndysmenorrhea symptoms. This study is expected to discover new evidence that could lead to expanded\ntreatment options for the most common gynecological pain condition."
+ },
+ {
+  "id": "6163727e-42a8-48b7-b0eb-93bd3804eb8e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Improving Brain Recovery Through Glycoengineering",
+  "text": "This project exploits a technology platform that modulates the activities and functions of neural stem cells by\nbiochemically engineering their cell surface carbohydrates. We apply this “metabolic glycoengineering”\nstrategy to promote neural regeneration to heal brain injury in a rodent model and investigate the mechanistic\nbasis of the anticipated healing effects."
+ },
+ {
+  "id": "61661ac3-74c1-41e5-a3ae-5c1080dec56b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Quantitative imaging of choroid plexus function and neurofluid circulation in Alzheimer's Disease Related Dementia",
+  "text": "Neurofluid circulation has gained much attention in light of its likely relevance to neurodegenerative and\ncerebrovascular disorders, including but not limited to Alzheimer’s Disease Related Dementias (ADRDs).\nFundamental to the effective circulation of neurofluids is cerebrospinal fluid (CSF) production activity, which\noccurs within the choroid plexus (ChP) complexes located within each of the four brain ventricles; despite this,\nwe lack rigorous and quantitative methods for quantifying ChP activity, thereby limiting abilities to evaluate CSF\ncirculation in different neurodegenerative disorders, as well as in response to emerging therapies. The overall\ngoal of this work is to refine and clinically evaluate neuroimaging methods to enable quantitation of ChP anatomy\nand function non-invasively in vivo; if successful, this will allow for ChP function to be interrogated reliably in the\ngrowing number of applications where neurofluid and CSF circulatory dysfunction are implicated."
+ }
+]

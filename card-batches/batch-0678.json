@@ -1,0 +1,142 @@
+[
+ {
+  "id": "652ac472-3ffb-48f3-9bbf-7df060918151",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Engineered Nanoformulation for Immune-modulation in Cancer",
+  "text": "Studies from our laboratory showed nanoformulation engineered for targeting HuR oncoprotein modulates\nimmune-associated proteins and pathways in lung cancer. The proposal focuses on understanding and\ndeveloping strategies to exploit the immune modulatory effects to stimulate a robust antitumor activity against\nlung cancer."
+ },
+ {
+  "id": "652e81c4-05a7-4203-81a6-2df0919373a3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting the immunosuppressive adenosine-axis to overcome T-cell γc cytokine signaling blockade and enhance antitumor immunity in hepatocellular carcinoma",
+  "text": "Advanced hepatocellular carcinoma (HCC) is the most prevalent primary liver cancer worldwide, yet patient responses to current immune checkpoint inhibitors (ICIs) remain unsatisfactory, highlighting the urgent need for improved therapies. A key contributor to immune resistance in HCC is the tumor microenvironment (TME), which is enriched with immunosuppressive metabolites such as adenosine. Our preliminary gene expression analyses reveal a significant upregulation of crucial adenosine pathway molecules, 5’-ectonucleotidase (CD73) and adenosine A2A receptor (A2AR), which correlate with poor patient outcomes. Moreover, immune profiling across various cancer types indicates adenosine-mediated T-cell suppression in the TME. Notably, the treatment of adenosine pathway inhibitors has been shown to enhance the T cell cytotoxicity against HCC cells. Our prior reports and preliminary findings suggest that elevated adenosine suppresses T-cell activation by inhibiting IL-2 signaling, possibly via the PKA pathway and the CD45-CD26 complex, revealing a dual mechanism for further exploration. Altered expressions of adenosine deaminase (ADA) and ADA binding protein (CD26) have also been reported in HCC tissues. These findings further position adenosine as a central mediator in multiple immunosuppressive pathways promoting tumor immune resistance in HCC, presenting a promising network for pharmacological modulations to improve immunotherapy efficacy. We hypothesize that adenosine-driven blockade of the γc/JAK3 cytokine family through the A2AR-PKA and CD45 pathways, promotes T cell inhibition and fosters an immunosuppressive TME, thus providing a promising opportunity to enhance antitumor immunity in HCC. This study focuses on exploring the potential of adenosine pathway molecules as therapeutic targets to enhance antitumor immunity in HCC. Specifically, we propose to 1) Characterize the A2AR/PKA-mediated uncoupling of γc networks through JAK3 serine phosphorylation and assess pharmacological strategies to restore γc/JAK3 signaling, countering adenosine-driven immunosuppression by screening blockade of PKA-targeted JAK3 inhibition. 2) Elucidate the CD45-mediated negative regulation of γc/JAK3 signaling by exploring the role of ADA-bound CD26 in adenosine-driven suppressive signaling. 3) Reverse the immunosuppressive TME of HCC and enhance ICIs′ antitumor efficacy by targeting the adenosine pathway and using PKA inhibitors. Collectively, the work will advance our understanding of how adenosine disrupts critical γc signaling networks in HCC and identify novel therapeutic targets to protect γc/JAK3 signaling from adenosine-mediated silencing. The pharmacological intervention of the adenosine axis offers a transformative approach to overcoming immunosuppression and enhancing the clinical efficacy of ICIs in HCC. For the first time, we will evaluate the potential of PKA inhibitors as immunomodulators for HCC with broader implications for other cancers exhibiting aberrant adenosine signaling."
+ },
+ {
+  "id": "65308596-ef85-44e6-8bc3-2875efcf090b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "REGULATION OF HUMAN HEMATOPOIETIC STEM CELL FATE VIA MLLT3 ISOFORMS",
+  "text": "We identified MLLT3 as a critical human HSC “stemness” regulator that dictates HSC fate decisions using distinct\nisoforms. Both long and short isoforms of MLLT3 are highly enriched in human HSCs but become downregulated\nin cultured HSCs, compromising their self-renewal and engraftment. Here we will use cutting edge molecular\napproaches to examine the mechanisms by which MLLT3 isoforms regulate human HSC functional maturation\nand ability to provide sustained multilineage engratfment, which may help develop new approaches to generating\nHSCs for the treatment of blood diseases."
+ },
+ {
+  "id": "6532a579-bd5f-49ad-a3c5-965ec10d25bf",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Epigenetic Control of High Confidence Autism Spectrum Disorder Genes",
+  "text": "Rare high impact loss-of-function mutations contribute to neurodevelopmental disorders, such as autism\nspectrum disorder, by altering the expression of specific genes during critical time points in neurodevelopment.\nOur published and preliminary data indicate that environmental, epigenetic and epistatic interactions can also\ncause a decrease in expression of the same high-confidence ASD genes during critical time points in the\ndevelopment of human cerebral organoids. This proposal seeks to use functional genomic tools to reverse the\nimpacts of environmental and genetic factors and establish a platform to determine the epigenetic control of\ngenes that contribute to neurodevelopmental disorders."
+ },
+ {
+  "id": "65424fdb-3f5c-4d6f-913f-8b8e51cceede",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "TRIM28 Inhibition as a Synthetic Lethal Strategy for Small Cell Lung Cancers with NOTCH2-Inactivation",
+  "text": "The goal of the proposed research is to explore the mechanism and efficacy of a targeted therapeutic approach\nfor small cell lung cancer that has the potential to overcome the ability of small cell lung cancers to avoid immune\nattack. Moreover, we will develop new small molecule inhibitors that can be used to selectively block this target.\nThis approach is likely to build upon the small clinical benefit currently observed with immune checkpoint\nblockade and hopefully brings us closer to the ultimate goal of curing small cell lung cancer patients."
+ },
+ {
+  "id": "65434b01-c6b2-4a2f-a2dc-9b3b4dd89fd5",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Institutional Training in the Genomic Sciences",
+  "text": "Modern medical practice is now relying on the fruits of genomic research for analyzing the genetic\nmakeup of patients and their cancers. New medical treatments are increasingly being tailored to\nindividual patients for increasing their effectiveness and lessening side-effects. We propose to train\nscientists who will be developing the systems and analysis that will enable greater use of genomic\ninformation for biomedical researchers and the general public when they see a doctor."
+ },
+ {
+  "id": "654c44f8-f973-4380-942d-27976e1f5c87",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "iCAN PREVENT: MD Anderson International Cancer Prevention Clinical Trials Consortium",
+  "text": "The iCAN PREVENT Consortium will develop and conduct early-phase cancer prevention clinical trials testing novel cancer prevention drugs, vaccines, and immune modulating interventions in high-risk individuals by fostering the recruitment and retention of participants. The role of the native immune system and signaling pathways critical for early stages of carcinogenesis will be significantly further defined by the results of these trials. Our ultimate goal is to develop more effective and less toxic cancer interception approaches with their companion biomarkers for efficacy that will be translated into the clinic."
+ },
+ {
+  "id": "654cbc9b-919e-4bb9-b485-ebe7d1877e85",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Elucidating the functions of red blood cell factors in malaria parasite invasion",
+  "text": "Plasmodium falciparum malaria remains a major public health problem globally, and new approaches to\nmalaria control and prevention are urgently needed. In this proposal we will comprehensively determine the\nfunction of two newly-discovered human red blood cell host factors for malaria, testing the hypothesis that they\nfacilitate parasite invasion through distinct yet synergistic pathways that are critical for the parasite’s life cycle.\nThis project will advance our fundamental understanding of red blood cell-parasite interactions, and lay the\ngroundwork for the development of host-directed therapies for malaria."
+ },
+ {
+  "id": "655193b9-1762-47d1-a36c-5cb18875727b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Core Center for Musculoskeletal Biology and Medicine",
+  "text": "A goal of the proposed Core Center for Musculoskeletal Biology and Medicine is to facilitate translational\ndiscovery, moving laboratory advances into the diagnosis and treatment of human musculoskeletal disease. The\nCenter is organized to reflect the spirit of the broad, interdisciplinary mandate of NIAMS: to develop ‘cross-\ncutting’ research that integrates many disciplines and involves the interplay and collaboration of a diverse array\nof specialists from both basic and clinical areas."
+ },
+ {
+  "id": "6556fa8d-4077-461e-8252-54b10ffa5255",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Deciphering the Role of Endoplasmic Reticulum Structure and Function in Metabolic Regulation",
+  "text": "Cells compartmentalize biochemical reactions and metabolic processes within organelles. The\nendoplasmic reticulum (ER) is a highly dynamic organelle with functionally and structurally\nspecialized subdomains. This project will explore how the ER's architectural organization\ninfluences its metabolic function and the broader implications for cellular and tissue health."
+ },
+ {
+  "id": "6563829f-9818-4bed-affd-eb72986c4ff7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular Mechanisms of Memory Consolidation in the Amygdala-Hippocampal Circuit",
+  "text": "The proposed studies will use a combination of cutting-edge molecular approaches with transgenic\nmice, together with complementary human postmortem studies, to create a much-needed foundation\nof molecular signaling pathways involved in regulating signaling in the brain associated with fear\nmemory during sleep and identify new molecules involved in this process. The expected data will serve\nas a foundation for future studies examining disruption of these pathways in psychiatric disorders, and\nstudies designed to identify novel targets for therapeutic strategies."
+ },
+ {
+  "id": "6566cec3-e8bf-4911-a043-b6eb37d64165",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Vanderbilt Biomedical Informatics Training Program",
+  "text": "Vanderbilt University proposes a 5-year renewal of its Training Program in Biomedical Informatics and Data Science, requesting 11 full-time training positions (8 predoctoral and 3 postdoctoral positions funded by NLM, and 1 predoctoral and 1 postdoctoral position in HIV informatics supported by NIAIDS). This renewal will allow Vanderbilt to continue its successful training program to prepare the next generation of researchers at the forefront of biomedical informatics and data science."
+ },
+ {
+  "id": "656b95fc-916f-46ea-9827-67898525d497",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Reversing age-related epigenetic changes and characterizing microglia heterogeneity in obesity and aging",
+  "text": "In this project, we will determine whether plasma transfer approaches can reverse age-related epigenomic\nchanges in microglia and identify genomic sites that could be targeted for mechanistic functional studies. We will\nalso use single-cell molecular phenotypes, cell-specific translatomes, and microglia functional assays to\ncharacterize the dynamics of microglia populations in obesity and provide insights into aging- and obesity-\nassociated neuroinflammation. Our long-term goal is to contribute mechanistic insights and knowledge into\nmicroglia aging and neuroinflammation and to develop novel strategies to promote healthy brain aging."
+ },
+ {
+  "id": "65762a1f-21d7-4cce-8928-9feca2dd22a4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Blueprint for Open-Access HIV Care: Core Technology Development for Autonomous Drug Resistance Testing and Regimen Selection with Cognitive Robots and LLM-Powered Voice-Driven Clinical Insight System",
+  "text": "This project will develop and evaluate an affordable and autonomous solution for one-day HIV drug resistance\nmutation screening and optimal therapy choice with open-source AI (Artificial Intelligence). Our OASIS (Open-\ndesign Automated System for Intelligent Specimen-to-treatment) is a publicly available platform designed to\ntransform HIV point-of-care by providing automated, low-cost, high-accuracy, personalized treatment that follows\nguidelines. This work will significantly enhance the efficacy of HIV care — including street medicine, mobile\nclinics, and walk-in clinics — by realizing same day diagnosis and treatment."
+ },
+ {
+  "id": "6577f812-9e36-482d-9c5f-d7a3968363ec",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of Regulation of Neuronal GPCRs by KCTDs",
+  "text": "(RELEVANCE)\nPrecise regulation of G protein-coupled receptor (GPCR) signaling is essential for proper function of the\nnervous system. KCTD proteins are a family of critical regulators of GPCR signaling in the brain, and they have\nbeen implicated in a variety of neuropsychiatric diseases including mood disorders. A detailed understanding\nof KCTD protein function is important both for understanding fundamental human biology and for its relevance\nto human disease."
+ },
+ {
+  "id": "657c8c70-19ce-497c-b353-62794ea3c09d",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Tech Core 1",
+  "text": "Project Summary – Tech 1 The identification of key molecular and cellular events that drive the progression of metastatic breast and pancreatic cancer could lead to improved mechanistic understanding and diagnostic tools and treatments. However, the micro-anatomy of human pancreatic/breast tumors – their spatial organization and associated content in cellular and non-cellular components – is poorly understood as it is intrinsically three-dimensional, non-symmetric, and highly heterogeneous. Three-dimensional imaging tools that combine structural and spatial omic information in large volumes are required to locate these metastatic driver events in cancerous tissue. Specifically, we aim to investigate venous invasion, which is a common route of metastasis of breast and pancreatic cancer cells. In Tech1, we propose to develop a new 3D multiscale imaging method, CODA, which will allow us to probe the phenotypic heterogeneity of tumors from the multi-cm to the micron scale via multiplexing serial imaging and registration/deep-learning algorithms. Our proposed repertoire of CODA imaging methods addresses deficiencies of state-of-art tissue clearing and 3D imaging methods, including inconsistent clearing and staining, lack of validation, poor antibody penetration and limited multiplexing capabilities. CODA bypasses the limitations of optical microscopy, allowing for large volumetric imaging while achieving micron resolution regardless of the volume of the imaged tissue. Another key advantage of CODA, which is based on serially cut H&E sections, is that it can readily incorporate other imaging modalities to extract high cellular/molecular content from the 3D samples. These include immunocytochemistry (CODA+IHC), immunofluorescence (CODA+IF), and imaging mass cytometry (CODA+IMC). This is particularly important as many potential molecular and cellular contributors of intravasation/extravasation and cancer cell invasion into veins, including immune cells and cancer-associated fibroblasts, require specific labels that cannot be detected in H&E slides. These proposed expanded versions of CODA offer a unique opportunity to produce new 3D multiplex maps of human PDAC and breast tumors near and far from blood vessels. CODA and its integrated versions CODA+X will be tested in the RTB units of the Center."
+ },
+ {
+  "id": "65870436-b65e-4117-9492-5d6fa3e0424a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Rad-pathomic deep learning models to assist radiologists in differentiating aggressive from indolent prostate cancer on MRI",
+  "text": "Reliable non-invasive differentiation of aggressive vs. indolent prostate cancer is imperative for the early\ndetection of aggressive cancers (currently missed in ~50,000 American men/year) while minimizing side\neffects from unneeded biopsies (currently affecting ~500,000 American men/year). We propose to develop\npathomic MRI biomarkers and include them in rad-pathomic deep learning models to learn the appearance\nof aggressive and indolent cancers on MRI from patients with matched MR and pathology images. We will\nvalidate our deep learning models when assisting radiologists in detecting aggressive cancers on prostate\nMRI."
+ },
+ {
+  "id": "6588e2ae-971a-4403-b8de-c3fb40d259a5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Genomic and transcriptomic analysis to dissect the role of the intrinsic resistance factor RarA in carbapenem resistance in Klebsiella pneumoniae",
+  "text": "This project investigates how a genetic regulator, RarA, contributes to antibiotic resistance in Klebsiella\npneumoniae, a bacterial pathogen that is often difficult to treat. By understanding the role of RarA in resistance,\nwe aim to improve our ability to track and predict resistance, identify new drug targets, and optimize treatment\nstrategies for patients with carbapenem resistant Klebsiella pneumoniae infections."
+ },
+ {
+  "id": "6589e838-65ba-4c63-95d5-3fe8dfc6da63",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dissecting mechanistic differences between EZH2 gain-of-function events in B-cell lymphoma",
+  "text": "Diffuse Large B Cell Lymphoma (DLBCL) and Follicular Lymphoma (FL), the two most common types of Non-\nHodgkin Lymphoma, are characterized by mutations in epigenetic modifier genes. The histone\nmethyltransferase, EZH2, is frequently altered in these patients, either as a heterozygous hotspot mutation\n(EZH2Y641F/+) or as overexpression of wild-type protein (EZH2OE). This proposal addresses a major gap in\nknowledge of whether EZH2Y641F/+ and EZH2OE mediate lymphoma by shared or distinct mechanisms and\nwhether they represent early or late events in DLBCL or FL pathogenesis."
+ },
+ {
+  "id": "65933685-668c-4c8b-add0-26a9634f3575",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Microscopy and Imaging Analysis Core",
+  "text": "The Microscopy and Imaging Analysis (M&I) core is the major component of the vision research core at UCLA, with a majority of the research laboratories in the core user base projecting extensive usage. The M&I core facilities continue to be upgraded. Since moving into newly renovated dedicated core space, we have added major new equipment items within the past six years, including: a JEOL JEM 1400plus electron microscope, a Deltavision OMX super resolution microscope, a Nikon spinning disk confocal microscope (with SR capabilities), and, earlier this year, a new Leica scanning laser confocal microscope (stellaris 8) was purchased. In addition, the purchase of an Echo confocal microscope, designed for rapid imaging of large areas of tissue, has now been ordered. These microscopes provide users with state-of-the-art imaging. The M&I core is also equipped with facilities (ancillary equipment and staff support) that support use of the microscopes: 1) sample preparation, including the preservation of tissue to be studied in a fixed state, sectioning (from thick to ultrathin), and the preparation of live tissues for live-cell imaging; 2) extensive image analysis with a software suite, including Imaris. Thus, together with technical support in all aspects, the core provides users facilities, assistance, and training in sample preparation, imaging and image acquisition, and image analysis. The M&I core thus facilitates basic and preclinical research supported by NIH/NEI on UCLA campus by providing access to facilities, equipment, and technical skills that cannot be found in individual laboratories."
+ }
+]

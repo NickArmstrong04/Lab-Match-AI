@@ -1,0 +1,142 @@
+[
+ {
+  "id": "5e27b7d8-13f1-4c38-8c16-d9ce8656621d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular Mechanism of Immunoglobulin Class Switch Recombination",
+  "text": "B cells in our immune system make specialized proteins called antibodies to combat invading pathogens,\nand it is critically important for B cells to improve the binding affinity of the antibodies that they make and\nswitch the antibody to the right type (class) for the optimal immune responses. By developing advanced\nimaging approaches, we can now directly visualize proteins and nucleic acids in live B cells undergoing\nthese antibody maturation steps. Watching these molecular events happening in real time will provide\nunprecedented insight to the molecular mechanisms governing the optimization of antibody function."
+ },
+ {
+  "id": "5e2dc2c1-60e4-42be-89a9-645cbf36f05e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "TECH Core",
+  "text": "This TECH core of the U54 Center for Multiparametric Imaging of Tumor Immune Microenvironments (C-MITIE) will develop an integrated toolkit of advanced imaging and data analysis to power quantitative, mechanistic investigations of immune-microenvironment dynamics in poor prognosis solid tumors. There is great need for improved imaging methods that can advance understanding of the physical and molecular mechanisms governing immune infiltration, distribution, and function in native tumor microenvironments. We propose a number of multiparametric imaging and computational methods for the two research test beds that seek to define the physical and molecular barriers to effective anti-tumor immunity and immunotherapies. A major theme of the TECH approach is to use label-free imaging approaches that can characterize and quantitate the interactions between immune cells and the tumor microenvironment. These label free methods are largely built on the platform method of multiphoton microscopy and can be used on intact cell and tissue models with minimal perturbation. T-cell identity and activation will be tracked by metabolic profiling using new fluorescence lifetime (FLIM) and hyperdimensional imaging (HDIM) approaches. These metabolically sensitive methods will be complemented by Full-Field Optical Coherence Tomography (FFOCT) to reveal new insight into metabolically relevant architecture. FLIM based FRET can be used to yield new insights into signaling molecular interactions relevant to immune-microenvironment dynamics The collagen rich extracellular matrix (ECM) will be queried with Second Harmonic Generation (SHG) imaging for collagen fiber topology measurement and collagen cross- linking measurements with Enhanced Backscattering Spectroscopy (EBS). Multiphoton Excitation (MPE) photochemistry fabrication can be used to create in vitro cell ready models of collagen fiber organization that are directly based on human data blueprints. Advanced computational analysis methods including algorithmic and machine learning approaches will be used to examine all multiparametric signals and make correlation between immune and microenvironment interactions. All imaging and computational methods will be shared not only widely within the UW and UMN research teams but importantly with the general cancer imaging community using established hardware and open source software dissemination protocols."
+ },
+ {
+  "id": "5e3063f9-7467-4e6f-844f-d9da471184ca",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Atlas of efflux and permeation determinants to advance antibacterial therapeutic discovery",
+  "text": "This project addresses a current critical challenge in the discovery and development of antibiotics effective against multidrug-resistant Gram-negative pathogens Escherichia coli, Klebsiella pneumoniae, Acinetobacter baumannii and Pseudomonas aeruginosa. These studies will create a new powerful technology for accelerated antibiotic development targeting these bacteria and give rise to new families of antibiotics."
+ },
+ {
+  "id": "5e3575a3-8765-4a67-b81f-b0d1d682177d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Differential modulation of dopamine neurons by distinct neurotensin inputs",
+  "text": "The peptide neurotensin is known to play a critical role in modulating the activity of dopamine neurons in the\nbrain, affecting reward-related behaviors and the response to drugs of abuse. However, much remains\nunknown regarding the specific circuits that release neurotensin and the interaction between neurotensin and\nother co-released neurotransmitters. This proposal utilizes advanced genetic and imaging techniques to\naddress these questions, aiming to further our understanding of how neurotensin circuits govern motivated\nbehavior."
+ },
+ {
+  "id": "5e417b55-6bbc-4c98-922f-5712d2ddca19",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Engineering three-dimensional perfusable microphysiological models of the human inner blood-retina barrier",
+  "text": "While the vascular system in the retina is one of the most studied vascular beds, there remain significant\nknowledge gaps in our understanding of the processes that lead to retinal vascular dysfunction. However, there\nare no in vitro perfusable models of the iBRB that can be used to assess pathological conditions. Here we\npropose establishing 3D human iBRB models, including a post‑capillary venule (~100 µm diameter) model and\na capillary plexus (<50 µm diameter), and incorporate additional functionalities, including oxygen tension and\nmatrix mechanics to create models with physiological characteristics as healthy functioning tissues."
+ },
+ {
+  "id": "5e453262-ab29-467e-80cd-a73cbf86b96f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Comparative Omics Core",
+  "text": "The Comparative Omics Core of the Upstate Nathan Shock Center will provide resources for conducting aging-related proteomics, metabolomics, and genomics. Based on Mass spectrometry analyses, this core will provide services for aging-related proteomics and metabolomics. By data integration, this Comparative Omics Core will provide strategies to explore the aging-related genome elements and their functions in regulating proteome and metabolome. The aims of the Comparative Omics Core are to: (1) Provide services for aging- related proteomics. Comparative Omics Core will provide resources for conducting standard and specialized proteomic experiments on diverse samples generated by the other Upstate NSC cores and other aging-related projects. The core will develop methods for quantifying protein misfolding, oxidative damage, and turnover kinetics. The core will train aging researchers in designing and interpreting proteomic experiments. (2) Provide services for aging-related metabolomics. Comparative Omics Core will assist with the experimental design of targeted and untargeted metabolomics studies, with a focus on comparative approaches for the identification of aging-associated metabolites and metabolic signatures. The core will provide services for analyzing biological samples from diverse aging models generated by other Upstate NSC cores and other aging-related projects using high-resolution mass spectrometry. Meanwhile, Comparative Omics Core will train aging researchers to conduct metabolomic experiments. (3) Provide computational strategies for data integration of aging-related genome, proteome, and metabolome. Comparative Omics Core will provide computational methods to identify aging-related genome elements (AGEs). The core will assist to identify proteome/metabolome-associated AGEs and characterize their epigenetic features. Comparative Omics Core will develop a publicly accessible multimodal atlas, Upstate NSC Omics Atlas, which will provide genome, proteome, and metabolome resources across multiple species and online analysis tools to the aging research community. The central goal of the Upstate NSC Comparative Omics Resource Core is to enable a deeper understanding of the biology of aging by identifying and characterizing aging-related signatures in the proteome, metabolome, and genome."
+ },
+ {
+  "id": "5e47004e-c596-47b0-98a9-5e2529557302",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Evaluating Mitochondrial Quality Control in the Outflow Facility",
+  "text": "Older age and ocular hypertension are significant risk factors for the development of glaucoma, a leading\ncause of irreversible blindness in the United States and worldwide. Mitochondrial genetic and structural\nabnormalities have been documented in the outflow facility, the main site for aqueous humor drainage and\nmaintenance of intraocular pressure. This study examines the quality control mechanisms that regulate\nmitochondrial health in the outflow facility to establish mitochondrial dysfunction as a cause for ocular\nhypertension and to identify potential candidates for improving control of intraocular pressure."
+ },
+ {
+  "id": "5e498973-8208-40de-ae14-36c1aa485fca",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Developmental Topology of the Human Cerebral Cortex",
+  "text": "This proposal seeks to discover how the neural stem and progenitor cells of the developing brain produce the\nlarge diversity of nerve cell types found in the human cerebral cortex. Developing therapeutic approaches to\ndisorders of brain development ranging from major malformations to diseases such as autism and schizophrenia\nwill require an understanding of the human-specific features of cortical development that are the subject of this\nstudy."
+ },
+ {
+  "id": "5e4a0577-86ce-4119-9883-3d31a0730cec",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "High bandwidth all-optical electrophysiology",
+  "text": "The use of “sculpted light” in microscopes allows individual neurons to be selectively illuminated within\na volume of cortical tissue. Recent forms of 3D computer-generated holography—one example of light\nsculpting—can optically stimulate hundreds of specifically-targeted neurons and scanned temporal\nfocusing imaging—another example of light sculpting—can record activity from thousands of neurons at\ntens of volumes per second with no prior knowledge of their locations. A microscope that combines\nthese techniques will greatly expand the kinds of circuit-level experiments that can be conducted which\nrelate individual neuronal activity to behavior in awake mice."
+ },
+ {
+  "id": "5e4b5f55-2a06-46d8-86f8-b1dfc45312b4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Aberrant nuclear signaling in the islet beta cell under metabolic stress",
+  "text": "Emerging evidence suggests that long-term exposure of the islet β-cell to metabolic stress (e.g., high glucose\nand lipids) results in severe functional and metabolic defects culminating in cellular dysfunction and the onset\nof diabetes. Based on exciting data accrued from our original and ongoing investigations, we propose to\ninvestigate precise signaling mechanisms that underlie metabolic stress-induced oxidative stress, nuclear\nabnormalities, and β-cell dysregulation. Following successful completion of these studies, we will be able to\nidentify novel therapeutic targets (e.g., Rac1) to prevent the establishment of these β-cell defects and loss of\nβ-cell mass under the duress of metabolic stress leading to the onset of diabetes."
+ },
+ {
+  "id": "5e4f710f-08c2-4c66-8028-cc54fbd9254f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Establishing the development basis for the morphological and functional asymmetry of the human chorion",
+  "text": "Project 3 aims to understand the origins of asymmetry in the human chorion and whether defects in the component processes arise early in pregnancy. The goal is to test the hypothesis that the smooth chorion (SC or chorion laeve)—the outer surface of the fetal membranes—arises via a cytotrophoblast (CTB) developmental program distinct from that of the CTBs of the villous chorion (VC) or placenta proper, resulting in the anatomical differences of the two regions. CTBs in the SC form a stratified epithelium; CTBs of the VC form highly branched chorionic villi (CV) that give rise to an extravillous (EVT) subpopulation that invades the uterus. The hypothesis is supported by recent scRNA-sequencing that enabled dissection of the types and molecular programs of cells resident in the 2nd trimester SC vs. VC and their neighbors. Unexpectedly, the CTB progenitors (CTB1) resident in both compartments have very similar transcriptomes, but those in the VC differentiate into STBs or EVTs while those in the SC differentiate into EVTs and a novel CTB4 population. Likewise, the EVTs resident in the SC and VC have nearly identical transcriptional programs, but instead of invading the decidua, the SC EVTs remain intermixed with CTB4 cells. Preliminary data suggest that CTB4 cells actively inhibit VC EVT migration/invasion. To test the main hypothesis, Aim 1 will determine when the distinct trajectories of the CTB1 cells resident in the SC vs. the VC diverge. scRNA-seq, spatial transcriptomics, and immunolocalization approaches will be applied to analyze the chorionic sac across early gestation. By comparing the results with our 2nd trimester data, we will learn how the development of chorionic villi is repressed in the SC and why CTB1 cells in this location form a stratified epithelium. We will also determine how a pre-existing inflammatory condition, endometriosis (vs. polycystic ovary syndrome and obesity), impacts CTB1 differentiation. Aim 2 will dissect the signals underlying the distinct developmental trajectories of CTB1 cells of the SC vs. the VC. The experiments will determine if this process is under cell autonomous or non-autonomous control by using RNA-seq and computational approaches to uncover potential ligand-receptor pairs that signal among CTB subpopulations and from neighboring decidual, mesodermal and immune cells. The effects of candidate regulatory signals will be tested on CTB1 cells from SC or VC sources in trophoblast stem cell and organoid models for their ability to skew fate. Aim 3 will dissect the signals underlying the distinct functional trajectories of EVTs resident in the SC vs. the VC. Preliminary evidence suggests that conditioned medium from SC CTBs inhibits EVT invasion. We will use the strategy described in Aim 2 along with protein profiling approaches to identify candidate regulators and assay their ability to promote or inhibit EVT invasion. By completing this project, we will have constructed the first molecular map of human CTB differentiation that includes the placenta and fetal membranes. The major significance lies in enabling identification of defects in these regulatory mechanisms that are associated with early pregnancy losses and/or abnormal inflammatory states such as endometriosis that negatively impact fertility and pregnancy outcomes."
+ },
+ {
+  "id": "5e541bfe-b1a7-4ad0-890e-4331af36746a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Hormone Related Cancers Program",
+  "text": "11.0 Abstract: Hormone Related Cancers (HRC) Program The overarching goal of the HRC Program at the University of Maryland Marlene and Stewart Greenebaum Comprehensive Cancer Center (UMGCCC) is to reduce the morbidity and mortality of cancers that arise from hormone-related tissues. To achieve this mission, the program focuses on three specific aims: Aim 1: Identify targets in hormone-related cancers that mediate innate and acquired resistance improves the understanding of how cancers resist hormonal therapies or develop resistance during recurrence; Aim 2: Target mechanisms that regulate cancer stem cells and promote metastasis, with a focus on defining and therapeutically targeting mechanisms of cancer recurrence; and Aim 3: Develop strategies to improve diagnosis, inform treatment, and evaluate treatment response to apply new technologies that advance cancer imaging and accelerate analysis of tumor drug response for precision medicine. To achieve these three aims, HRC members are supported by collaborators and resources throughout other UMGCCC programs as well as exceptional shared services. The HRC Program has 46 members, including 30 full members and 16 associate members, who conduct basic, translational, and clinical research chiefly in breast, prostate, and ovarian cancer with $8.7 million direct annual funding ($11.0 million total), including $3.4 million (39%) from NCI and $2.6 million from other peer-reviewed sources. HRC Program members receive $2.7 million annually from non–peer-reviewed funding sources. During this funding period, HRC members authored 506 cancer-related publications, of which 17% resulted from intraprogrammatic, 28% from interprogrammatic, 6% from intra and interprogrammatic collaborations; and 60% of publications include collaborations with external investigators, reflecting the high national impact of the HRC Program. HRC Program members manage numerous clinical trials. During this grant period, the HRC Program enrolled 1,412 patients on clinical trials, including 213 on interventional trials (200 therapeutic interventional), and 1,199 patients on non-interventional trials. The research programs of HRC members utilize all of the UMGCCC shared services. The HRC Program collaborates with the other four UMGCCC Research Programs and engages community outreach and engagement to identify and address the cancer research priorities of the catchment area."
+ },
+ {
+  "id": "5e618cac-e549-4058-af97-5a50ca1e9582",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Engraftment of PSC-Derived Lung Lineages to Reconstitute in vivo Airway and Alveolar Stem Cell Function",
+  "text": "PROJECT 1 A variety of devastating lung diseases are initiated by dysfunction or damage to the diverse epithelia of the proximal airways or distal alveoli. While these tissues are composed of many epithelial cell types, the vast majority are continually replenished by the stem/progenitor cells of each compartment: airway basal cells or alveolar epithelial type 2 cells (AT2s), respectively. Implicit in this biology is recognition that durably reconstituting these stem cell compartments with exogenously-derived normal cells might result in life-long replenishment of their many differentiated cell derivatives. In this proposal we develop approaches for reconstituting endogenous airway and alveolar stem/progenitor cell compartments by transplanting engineered lung epithelial progenitors derived in culture from pluripotent stem cells. We present methods for the directed differentiation of pluripotent stem cells into airway basal cells (iBCs) and distal alveolar bud tip progenitors (iTPs) followed by intra-airway instillation of these cells into recipient mice. We test the hypothesis that iBCs or iTPs can be engrafted in vivo into the stem cell compartments of airways and alveoli, respectively, thus durably reconstituting epithelial function and providing future treatments for genetic lung diseases that result from airway or alveolar dysfunction. In aim 1 we test the capacity of engrafted iTPs to functionally rescue alveolar epithelial cell dysfunction in vivo in 2 genetic mouse models that recapitulate distal human lung diseases. In Aim 2 we develop a novel in vivo “competitive lung repopulation assay” able to determine which candidate stem/progenitor cell phenotype is best able to reconstitute in vivo airway epithelial stem cell function, and we apply this assay to functionally test the hypothesis that the subset of PSC-derived basal cells expressing the BMP antagonist, Nbl1, possesses more potent reconstitution capacity than other iBCs, as a result of suppressed BMP signaling activity. Finally in aim 3, we evaluate the functional capacity of engrafted mouse iBCs to rescue motile ciliary function in a mouse model of primary ciliary dyskinesia (PCD), and we test the human translational potential of iBCs using normal or PCD patient-specific human iPSC lines that will be gene-corrected, differentiated into iBCs, and xenogeneically transplanted into NSG mice."
+ },
+ {
+  "id": "5e6a0bf0-23ae-46a1-8123-f8cfbaee2047",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Access, Utilization and Outcomes of Cancer Services in the Era of Telemedicine",
+  "text": "The COVID-19 pandemic led to a dramatic increase in use of telehealth for cancer care, which has facilitated access to care for many Americans, particularly rural individuals. We do not yet know on a national level where and for whom telehealth has potential to improve cancer care access, which we will examine, along with what patient, provider, or referral network factors are associated with actual telehealth use, and how telehealth use in cancer care impacts outcomes. Then we will estimate when telehealth use is most likely to improve cancer care for rural areas, and the populations within those areas."
+ },
+ {
+  "id": "5e6e2815-9b46-4f73-aeb3-f91b76fd2910",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Precision Lung Cancer Survivorship Care Intervention: A Randomized Controlled Trial Serving Rural Survivors and Communities",
+  "text": "Lung cancer is the leading cause of cancer mortality in the nation, and the burden of the illness is\ndisproportionally experienced by individuals residing in rural areas and experiencing economic challenges.\nRecent advances in early detection and treatment of lung cancer foretell significant reductions in lung cancer\nmortality, engendering a need for research efforts to inform lung cancer survivorship care guidelines. This\nresearch outlines a randomized clinical trial of a precision lung cancer survivorship care intervention aimed at\nimproving quality of life among rural lung cancer survivors within socioeconomically distressed areas in the US."
+ },
+ {
+  "id": "5e70160c-f5de-4f00-b89b-c59a259499e5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Decoding Host Immunometabolic Control of Viral Persistence for Zoonotic Pathogens",
+  "text": "Zoonotic viral infections, which are often persistent and non-pathogenetic in their reservoir hosts like bats and\nrodents, can cause severe acute disease when transmitted to humans. Understanding why these viruses\nremain harmless in animals but are dangerous to people is crucial as zoonotic spillovers increase in frequency.\nThis proposal bridges laboratory and field-based investigations into the host immunometabolic regulation of\nviral persistency in reservoir species with a long-term goal to apply these findings towards developing effective\ntherapeutics to protect human health."
+ },
+ {
+  "id": "5e710155-ac24-450f-b94f-f76dd58621a1",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Data Analysis and Submission Core: Enabling rapid analysis and public sharing of human virome data",
+  "text": "Project Summary- Data Analysis and Submission Core Analyzing the human virome poses significant challenges in analyzing and sharing data. The diversity of viruses and their interactions with the host necessitate advanced bioinformatics tools and computational resources to process the high-throughput sequencing data. In consortium settings, standardizing protocols and data analysis pipelines are crucial to harmonize disparate datasets and ensure consistency and comparability. Overcoming these challenges is key to combining diverse areas of expertise across the consortium and achieving a deeper understanding of the human virome. Our Data Analysis and Submission Core (DASC) is ideally positioned to advance the mission of our Center in generating, analyzing, storing, and sharing large scale human virome data. The Data Analysis and Submission Core will work closely with the Biospecimen Collection Core (BCC) and Biospecimen Analysis Core (BAC) to ensure optimal processing and cataloging of generated data, as well as with the HVP CODCC, NIH, and NCBI to ensure timely and FAIR release of our Center’s data sets and analytic tools. The DASC will achieve this by pursuing four primary activities. 1) High throughput processing of data: the DASC will leverage the Broad Institute's existing infrastructure for data processing and storage to track samples and metadata and enable efficient data processing. 2) Analyzing, integrating, and interpreting of data: the DASC will integrate high-content imaging, omics, and other data types obtained from the Biospecimen Analysis Core, bridging the gap between different data modalities. 3) Constructing the HVP Virome Database: the DASC will assemble and validate data across VCCs, identify viral tropism and analyze variability in the human virome, and develop interactive visualization tools for multi-modal data exploration and tailor existing tools for the human virome. 4) Coordination across the HVP Consortium: the DASC will ensure interoperability and accessibility of tools and data within the VCC and the rest of the consortium."
+ },
+ {
+  "id": "5e74126a-f5a8-42ce-bd8d-8991ccec2fa0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Genetic, Metabolic, and Sociodemographic Factors Underpinning Pediatric Cardiac Arrest: Developing Mechanistic Drivers and Integrative Frameworks",
+  "text": "Less than 10% of children with out-of-hospital cardiac arrest (CA) survive, in part due to the limited understanding\nof its multifactorial etiology. Integrating genetic, clinical, metabolic, and socioeconomic data, we will examine the\ncomplex interplay of risk factors across a large cohort of children with CA. Findings will generate critical insights\ninto the biologic mechanisms driving risk, inform avenues for development of screening interventions to\npromote pre-arrest detection, and better elucidate on modifiable risk factors that may drive disproportionately\nhigher incidence in some populations."
+ },
+ {
+  "id": "5e74b457-cc8a-49ab-88fa-d01a1edd9402",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating the role of tip link biophysics on MET function",
+  "text": "Hair cells are responsible for the transduction of sound and acceleration stimuli relevant to the auditory and\nvestibular sensory systems, respectively. Critically, when the “hairs” or stereocilia of the hair cells are deflected,\ntip link proteins connecting the stereocilia are pulled upon, opening the mechanoelectrial transduction (MET) ion\nchannels and allowing for excitatory cationic current to enter the hair cells. In this study, recent advances in gene\ntherapy techniques are leveraged to investigate the effects of modulating biophysical properties of the tip link\nproteins on MET current, which will lead to a better understanding of the basic mechanisms mediating the\nmechanotransduction function in hair cells."
+ },
+ {
+  "id": "5e764ece-4558-4f94-91d6-c7b86736719b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identification of Genetic Variants that Contribute to Compulsive Cocaine Intakein Rats",
+  "text": "This is a multidisciplinary, highly collaborative consortium that combines next-generation sequencing with state-\n-of-the-art behavioral screening in a unique, genetically diverse, nonhuman animal model. The goals of this\nconsortium are to identify gene variants that are associated with compulsive-like cocaine intake and behavioral\nendophenotypes using genome-wide association studies (GWAS) in behaviorally characterized heterogeneous\nstock rats, and to strengthen the infrastructure of a newly created data/tissue repository (Cocaine Biobank)\naccessible to all researchers to study the cellular and molecular mechanisms related to cocaine use disorder.\nResults from these studies have the potential to have a sustained and powerful impact on the field of addiction\nbecause they will identify novel druggable targets, provide a comprehensive analysis of cocaine addiction-like\nbehaviors in males and females, and increase the impact of a unique data/tissue repository that will facilitate\nfollow-up and replication studies."
+ }
+]

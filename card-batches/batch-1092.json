@@ -1,0 +1,142 @@
+[
+ {
+  "id": "f7776b5f-e289-451a-8c09-4f116c0ca908",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Deep Learning Based Pharmacokinetic Model for Vancomycin",
+  "text": "(3 sentences)\nBayesian models that monitor serum vancomycin levels to optimize the delivery of intravenous vancomycin\nhave limitations in achieving a patient-specific pharmacokinetic model. To overcome these limitations, we will\ndevelop deep-learning based models suited for time-sequencing data to disentangle complex relationships in\nbig patient data from electronic health records. The success of our models will lead to optimized vancomycin\nusage, increased patient safety, and reduced healthcare costs through high prediction accuracy and reliability."
+ },
+ {
+  "id": "f77a06e8-e2ee-4929-847f-bfeccd1a1257",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "High Throughput Screening of Natural Compounds for Breast Cancer Prevention",
+  "text": "RELEVANCE TO PUBLIC HEALTH\nThese studies are aimed at the discovery of effective and safe risk reducing agents that are acceptable for both\nwomen with high-risk DCIS where anti-estrogens are not effective, and those with low-risk DCIS who opt for de-\nescalation of therapy. We expect to generate transformative discoveries in cancer prevention/intervention that\nwill lead to a new generation of clinical trials."
+ },
+ {
+  "id": "f787f129-2f03-4755-a2ed-8c5300c6f632",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "TNBC Ligand-displaying Exosomes Using RNA Nanotechnology for Targeted Cytosol Delivery of RNAi without Endosome Entrapment",
+  "text": "This proposal develops a novel delivery platform for the direct delivery of miRNA and siRNA therapeutics to\nTriple Negative Breast Cancer. RNA nanotechnology’s cancer targeting ability will be applied to exosomes for\nhigh payload delivery directly to the cytosol through the control of the orientation of asymmetric nanoparticles\nfor selective surface decoration or exosome loading. Delivery of tumor-suppressing miRNA and siRNA in\naddition to anti-oncogenic miRNA therapeutics will be tested on patient derived xenograft murine models for\ntumor treatment and safety profiles."
+ },
+ {
+  "id": "f789197b-5d59-4e56-b859-4c33186f341f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Understanding Sensorimotor Control Through Realistic Neuro-Biomechanical Simulation",
+  "text": "This research project aims to build virtual animals, specifically rats, that can behave and learn like real animals\nby giving them artificial 'brains' similar to those in real rats. We will teach these virtual animals to mimic rat\nbehavior, then study how these 'brains' control this behavior to generate hypotheses about how biological\nbrains perform similar functions. Any differences between how the virtual rats act and how real rats act will help\nthe researchers improve their model, ultimately leading to a better understanding of how brains implement\nmotor control."
+ },
+ {
+  "id": "f78eda9e-7cb8-42c4-9d46-da915080537b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Total-body PET Parametric Imaging using Relative Patlak Plot",
+  "text": "This project aims to utilize the Relative Patlak plot to develop an efficient total-body PET\nparametric imaging approach that can be directly applied to a shortened dynamic data regenerated from the\nroutine clinical static scan. The new parameters obtained from this approach will provide valuable information to\ncomplement SUV for clinical decision-making in standard-of-care practice without adding imaging time and scan\ncosts."
+ },
+ {
+  "id": "f79080d4-47ce-42bb-b3b2-4be3f6fdb95f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting ESKAPE pathogens with AI-designed antimicrobial peptide",
+  "text": "The increasing prevalence of ESKAPE pathogens and their resistance to last-resort antibiotics represents a\ncritical global health threat. This project aims to develop optimized antimicrobial peptides as novel therapies to\ncombat these multidrug-resistant infections, offering new treatment options for resistant pathogens and\nimproving public health outcomes."
+ },
+ {
+  "id": "f79993e1-5365-4953-94fa-998ed0c0011c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Gene regulatory network modeling of disease-associated DNA methylation perturbations",
+  "text": "Mutations in DNMT3A and TET2 genes are common in the immune cells of elderly individuals and increase the\nrisk for age-related comorbidities such as severe infections and cardiovascular disease. Efforts to identify\nfactors that can be targeted to mitigate the pathogenic consequences of DNMT3A and TET2 mutations are\nhampered by their complex effects, which involve chemical modification of genomic DNA that subsequently\naffects gene expression and immune responses. To unravel this complexity, our study combines two\nstate-of-the-art engineering approaches: (1) genetically engineered human immune cells and (2) mathematical\nmodeling of gene regulatory networks."
+ },
+ {
+  "id": "f79c16a3-3cca-4cb4-b887-911a82da712b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Circadian Regulation of Cardiac Electrophysiology",
+  "text": "The overall objective of the proposed research is to elucidate molecular mechanisms regulating the circadian\nexpression of ion channel transcripts and proteins that impact arrhythmia susceptibility. To do this we will apply\ncontemporary genomic, biochemical, and molecular tools to interrogate the circadian regulation of myocardial\nion channel transcription and translation in cardiomyocytes. We will complement these studies by using\nelectrophysiology approaches that allow us to determine whether feeding behavior can be manipulated as a\nchronotherapeutic strategy to ameliorate the risk for cardiac arrhythmias."
+ },
+ {
+  "id": "f7af132d-7fc6-47c7-9e8a-2d62ec6b7c5c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Translating Improved Pairing and Timing of Drug Combination Strategies",
+  "text": "Project 3 Acute myeloid leukemia (AML) is a complex and genetically heterogenous disease and one of the most common hematologic malignancies. After 30-40 years without new therapies, several recent drugs have been approved for AML, including inhibitors of FLT3, IDH1/2, and BCL2. Despite improved initial response rates, none of these regimens lead to durable remissions. Acquired resistance to these agents develops due to diverse mechanisms that include tumor cell adaptation, often driven by microenvironmental signals. For the past decade, our collaborative team has employed numerous techniques, models, and analytical approaches to studying acquired drug resistance in AML - partly as a Center in the Drug Sensitivity and Resistance Network (DRSN) - the predecessor to ARTNet. We have developed the largest-to-date functional genomics platform of primary AML patient samples and implemented genome-wide CRISPR screening. Computational integration of these datasets has generated many predictions for mechanisms of drug resistance and nominated rationally selected drug combinations, some of which are in clinical trials. This analysis has led to a central hypothesis that tumor intrinsic biology can adapt in the face of therapeutic pressure, often with support from cell extrinsic signals, to undergo a multi-step process where early drug resistance is formed via cross-talk with immune and stromal cells that leads to an eventual late, cell autonomous resistant state with features of clonal evolution. For this project, our long-term goals are to optimize and translate the most effective drug combinations into the clinic for patients with AML. Our immediate goals are to understand tumor intrinsic mechanisms of acquired drug resistance. To accomplish these goals, three Aims are proposed: 11 Next-generation genome-wide interrogation of kev acquired resistance scenarios - We created a panel of AML models of acquired drug resistance. These models have been generated with long-term drug exposure, sometimes with support from extrinsic cytokines. We will subject these drug resistant cells to genome-wide CRISPR screens with overlay of drugs or drug combinations. 2) Epiqenomic evolution of acquired resistance - We will use protocols for expansion of myeloid progenitor cells from primary AML patient samples to study epigenetic adaptation. Using the same list of drugs and drug combinations as in Aim 1, we will profile shifts in epigenetic landscape using single-cell sequencing. 3) Atlas of intrinsic drug resistance in AML - We have expertise with broad data integration and modeling approaches. We will use these strategies to leverage our existing functional genomic dataset combined with the new data generated in Aims 1 and 2 to generate an Atlas of tumor intrinsic mechanisms of acquired drug resistance in AML. Cumulatively, we expect these innovative analyses to have a major impact on our understanding of acquired drug resistance in AML, leading to successful clinical translation of new, more effective drug combination strategies."
+ },
+ {
+  "id": "f7c4d3b7-0350-4a33-8709-6581eff8ed01",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Lysosome-Golgi Contact Sites as Regulators of Senescence-Associated Inflammation",
+  "text": "This exploratory project investigates a previously unrecognized mechanism underlying senescence-associated\ninflammation, focusing on lysosome–Golgi membrane contact sites as structural platforms that sustain STING–\nNF-κB–driven inflammatory signaling. By defining how these contact sites contribute to chronic SASP output,\nthis research aims to identify novel, therapeutic targets for suppressing age-associated inflammation and\npromoting healthier aging in humans."
+ },
+ {
+  "id": "f7cc0995-8077-4210-9250-2c8a51372ec5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Circuit-specified channels of the entopeduncular nucleus during conflict between reward-seeking and threat-avoidance",
+  "text": "Foraging mice must select between mutually exclusive actions motivated by reward seeking (approach) and\nthreat avoidance (escape). Through experiments outlined in this proposal I will precisely delineate subregions\nof the Entopeduncular nucleus (EP) by their incorporation into basal ganglia circuits and evaluate their\nfunctions in controlling threat/reward learning. This work will inform models of phylogenetically conserved\nbasal ganglia circuitry which account for human mental health conditions in which threat and/or reward\nprocessing have an imbalanced impact on behavior, such as in anxiety, depression, and substance use\ndisorder."
+ },
+ {
+  "id": "f7ce286c-7792-4097-856b-99930e386f44",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Interpretation Bias as a Mechanism of Treatment Response in OCD",
+  "text": "Nearly half of patients do not recover following the first line of treatment for OCD, exposure and response\nprevention (ERP). This study proposes to test a novel method of augmenting ERP, a computerized, scalable\nintervention targeting interpretation bias, which is a critical mechanism underlying OCD. The overall goal is to\ncontribute to the development of technology-driven augmentations to ERP to enhance response rates, which\nmay generalize to treatment for other OC-related and anxiety disorders in the future."
+ },
+ {
+  "id": "f7ce8312-060a-4d94-9f79-415b8a54ac4b",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Training Program in the Biology of Cancer",
+  "text": "Cancer is the 2nd major cause of human mortality. Consequently, PhDs and MD/PhDs specifically\ntrained in the discipline of Cancer Biology and professionally involved in cancer research, education,\npolicy and clinical care are a critical national health need. This training grant currently in its 35th year\nis a cornerstone of a unique interdisciplinary graduate program designed to train the next generation\nof cancer biologists to meet this urgent national need."
+ },
+ {
+  "id": "f7d903e7-54ce-4510-9c21-199e28c39b2e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mixed Methods Framework to Facilitate Clinical Phenotyping and Surveillance of Status Epilepticus",
+  "text": "We hypothesize that generating consensus on the spectrum of clinical phenotypes of status epilepticus (SE)\nand building an NLP-based tool, using both structured and unstructured EHR data, to identify and classify SE\nis essential for the creation of SE registries, needed to conduct future comparative effectiveness and pragmatic\ntrials of SE treatment. In Aim 1, we will apply an innovative sequential mixed methods approach, using (a) a\nmodified Delphi method to establish consensus around labels to identify relevant information elements and (b)\na discrete choice experiment method to identify time-evolving attributes of progression to RSE. In Aim 2, we\nwill leverage unstructured EHR data from two large academic centers to fine-tune and apply multiple NLP-\nbased machine-learning models, including Large Language Models, and compare their performance in\nidentifying and extracting cases of SE and RSE."
+ },
+ {
+  "id": "f7dad6b1-da9d-4a48-9aa5-a898d457d266",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of CRTC1-MAML2 in Salivary Mucoepidermoid Carcinoma Pathobiology",
+  "text": "Program Narrative\nCancers remain the second leading cause of death in the United States with head and neck carcinomas being\nthe sixth most common cancer worldwide. Within this group, mucoepidermoid carcinomas (MEC) are the most\ncommon type of malignant salivary gland cancer and the CRTC1/MAML2 (C1/M2) gene fusion arising from a\nt(11;19)(q21;p13.1) chromosomal translocation is pathognomonic for MEC, and drives aberrant co-activation of\nthe transcription factors CREB and MYC. Using a combination of validated xenograft and genetically\nengineered mouse models of C1/M2-driven MEC, we will apply our cutting-edge optical reporter technology to\nsystematically and comprehensively define the role of CREB and MYC in coordinating transcriptional programs\nthat drive development and maintenance of salivary MEC, which will enhance our understanding of this\ndisease process and provide an opportunity to develop targeted therapies."
+ },
+ {
+  "id": "f7e06471-d7c0-4ef4-99f5-1853d0b17c6f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Enteroendocrine cells at the intersection of the gut-brain axis in nicotine addiction",
+  "text": "The development of new, more effective, and safer pharmacotherapies for smoking cessation is considered the\nsingle most impactful intervention in terms reducing morbidity, mortality, and health-care costs in the United\nStates. Altering drug seeking circuitry in the brain via peripheral manipulations has distinct therapeutic potential\ngiven that it would not require drug permeation across the blood brain barrier. The experiments proposed herein\ncould have substantial promise for significantly advancing our understanding of peripheral systems – including\nthe gastrointestinal tract and vagus nerve – in the context of nicotine addiction in order to support novel research\nand development of smoking cessation treatments."
+ },
+ {
+  "id": "f7e1fd44-2be5-485e-8d07-293f564adda5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Neutrophil Microscopy and Quantitative Imaging Core B",
+  "text": "Neutrophils are the first line of defense against bacteria and fungi and induce inflammation. The study of the molecular mechanisms mediating neutrophil activation is therefore of fundamental importance. Visualizing these mechanisms requires unique, state-of-the-art technologies and approaches. To achieve this, Core B is designed to coordinate, design, develop and execute new technical approaches applied to the understanding of neutrophil biology in inflammation. Core B will work with all three Projects and will provide relevant imaging and microscopy assays in mice and human samples. The core utilizes available cutting-edge technology to implement new experimental approaches and to help elucidate the intricate cell biology processes proposed in research plans of Projects 1 (Dr. Hedrick), Project 2 (Dr. Catz) and Project 3 (Dr. Hoffman). To this end, we will have the dedicated effort of a Technology Core director (Dr. Kiosses) who will allocate specific time and efforts to support the goals of the PPG. Core B optimizes the workflows of neutrophil imaging, image quantification and data sharing for all projects. It provides stringent quality controls and ensures uniformity of performance of multiple key technologies applied to the study of neutrophils and precursors in the setting of coronary artery disease. Core B will implement unique live-cell approaches to study neutrophil vesicular trafficking, cytoskeleton remodeling and cell death pathways. Core B is technically and conceptually innovative because it utilizes, neutrophil-dedicated, novel approaches that include super-resolution microscopy and quantitative analyses of neutrophil dynamics to elucidate neutrophil functions and to elucidate their role in inflammation. In relationship with Project 1, Core B will identify neutrophils and their precursors in atherosclerotic plaques during NETosis and pyroptosis in conditions of inflammasome activation at various stages of plaque development in high-fat diet, both ex-vivo and in vivo using the ApoE-/- Western diet model of CAD mice. In association with Project 2, Core B will utilize single-molecule super-resolution microscopy and Total Internal Reflection Fluorescence Microscopy to study molecular mechanisms regulating vesicular trafficking and actin remodeling in neutrophil precursors. Core B will also utilize Correlated-Light Electron Microscopy (CLEM) to characterize the newly identified precursor-specific granules (PSGs). In collaboration with Project 3, Core B will examine three-dimensional localization and spatial changes in the mitochondrial network as the cells undergo apoptotic or necroptotic cell death in both neutrophils and their precursors from mouse models and human neutrophils from patients with CAD. In conclusion, Core B is uniquely designed to use the valuable technology available in La Jolla to the fullest extent possible to maximize neutrophil-dedicate research and productivity associated with the PPG."
+ },
+ {
+  "id": "f7e20e66-4d08-447e-8347-d74a752bf243",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Large-scale harmonization and integration of multi-modal ADNI data for the early detection of Alzheimer's disease and related dementias",
+  "text": "We aim to harmonize and aggregate trans-national cohorts of Alzheimer’s Disease Neuroimaging Initiative for\nimproving the early detection of Alzheimer’s disease and related dementias. In the process, we will gain valuable\ninsight into the underlying mechanisms driving the pathogenesis of these disabling disorders, thereby paving the\nway for better clinical tools, so that future disease-modifying therapy can be allocated more efficiently to patients."
+ },
+ {
+  "id": "f7ef6545-9c38-4efc-86bb-4b3559413401",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of BBB-permeable SUMO1 small molecule degraders for glioblastoma therapy.",
+  "text": "The objective of this R01 project is to identify potent, orally bioavailable and brain penetrant small-molecule\ndegraders of SUMO1 protein as novel anticancer drugs for treatment of patients diagnosed with glioblastoma."
+ },
+ {
+  "id": "f7f4f443-86fe-4186-8404-28fbca36cf9e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dynamic reprogramming of macrophage acetyl-CoA metabolism in endotoxin tolerance",
+  "text": "Macrophages’ precise regulation of inflammation is vital in maintaining homeostasis and preventing\nexcessive or insufficient inflammation observed in critical illnesses like sepsis, affecting 1.7 million US adults\nannually. One method of control is endotoxin tolerance, which is the ability for a secondary innate immune\nresponse to be diminished to prevent a hyperinflammatory or persistent response upon repeated exposure\nto endotoxins. This project aims to investigate the role of dynamic macrophage metabolism reprogramming\nin modulating the inflammatory response during endotoxin tolerance, potentially uncovering novel metabolic\ntargets for managing critical illnesses such as sepsis and promoting human health."
+ }
+]

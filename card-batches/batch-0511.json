@@ -1,0 +1,142 @@
+[
+ {
+  "id": "29559373-1a61-40bd-9926-ee3273d0065d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting KAT6A/B activity to induce responsiveness to anti-GD2 immunotherapy in neuroblastoma",
+  "text": "The proposed research is relevant to public health because the discovery of mechanisms that\ndrive high-risk childhood neuroblastoma may stimulate the development of novel approaches for\nmore effective treatments for neuroblastoma and other neuroectodermal tumors. The strategy\ndescribed here, which targets the activity of KAT6A and KAT6B to enhance the response to\ndifferentiation and immunotherapy, is highly relevant to the NCI’s mission of developing novel\ntherapeutic approaches to advance scientific knowledge, improve survival outcome and reduce\ntoxicities of cancer therapy."
+ },
+ {
+  "id": "295a98c8-c11d-4576-a2d2-795378d17bd0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Brain-Wide Quantification of Blood-Brain Barrier Penetrating Antibody Therapeutics",
+  "text": "Success in developing Translucence Biosystems' Vasculature Subtraction Parenchymal Quantification (VSPQ)\nworkflow will significantly advance Alzheimer's disease drug discovery by enabling precise, three-dimensional,\nand quantitative analysis of therapeutic antibody distribution in the brain. This improved measurement accuracy\nwill potentially accelerate the development of effective treatments, while the cloud-based software-as-a-service\nmodel will facilitate broader access to this technology, streamlining the drug development process and expediting\nthe delivery of new therapies to patients."
+ },
+ {
+  "id": "296610aa-0cb7-4e62-ae79-ec99366d86d3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Illuminating pediatric immunology through genetics",
+  "text": "PROJECT 3 - PROJECT SUMMARY This project is designed to illuminate pediatric immunology through genetic analyses in children suffering from known or suspected inborn errors of immunity (IEIs). Remarkable advances in next-generation sequencing (NGS) of genomic DNA have facilitated the identification of causative genes for over 450 distinct IEI, and accompanying studies of the functional consequences of the underlying genetic variants have led to unprecedented insights into immune function in health and disease including novel precision therapies. We will build from (a) cohorts of three defined IEIs caused by mutations in the genes encoding phosphoinositide 3-kinase delta (PI3Kä), STAT1, or ELF4 and (b) our extensive experience and infrastructure in the Pediatric Genomics Discovery Program (PGDP) at Yale to discover novel gene defects in patients with suspected but unsolved IEIs. This will enable us to test our central hypothesis that rare, deleterious variants in genetic determinants of the core pathways of (i) PI3K/mTOR or (ii) interferon responses derail healthy immune homeostasis and development during childhood by perturbing critical signals that govern immune cell states. These two pathways emerged as prominent biological signals in both the core pathways identified in preliminary data from Project 1- 2 and in IEI cohorts. Thus, for each pathway, we will combine unprecedented depth of profiling of peripheral blood immune cells from defined IEI patients versus healthy controls with new gene discovery to functionally assess genetic determinants of PI3K/mTOR- and interferon-related pathway impacts on immune health. In Aim 1, we will focus on PI3K/mTOR and assess immune landscapes of a cohort of patients with ‘Activated PI3Kä Syndrome’ longitudinally, novel genes impacting this pathway from our preliminary data, and candidate genes identified in newly enrolled IEI patient cohorts. In Aim 2, we will focus on interferon pathways and assess for our defined IEI cohorts STAT1 gain-of-function patients and ‘Deficiency in ELF4, X-linked’ patients longitudinally, together with new candidate genes. Our multiomics approaches will match those of Projects 1 and 2 for optimal data integration supported by the Cores’ expertise in single-cell sequencing and computational approaches, functional studies at the single-cell level with CyTOF, and longitudinal immune signature landscapes with spectral flow cytometry. Together, Project 3 will advance the Peds Program Overall aims by uncovering genetic determinants of cellular programs in childhood that are temporally ultra-stable or characteristically dynamic, thereby defining the functional effects of these programs on immune health."
+ },
+ {
+  "id": "2966894f-9fa0-4ec7-93b0-55a9099c13f5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Statistical methods to localize disease heritability and identify biological mechanisms",
+  "text": "Severe mental illnesses such as schizophrenia, bipolar disorder, and autism spectrum disorders affect tens of millions of people worldwide and are among the leading causes of disability globally, yet their biological underpinnings remain poorly understood. This project will develop and apply statistical, computational, and machine learning methods to translate the growing catalog of genetic discoveries for these illnesses into actionable biological knowledge—identifying the causal variants, genes, cell types, and environmental contexts that drive disease risk. The methods and tools developed here will equip the broader research community to make fuller use of large-scale genomic and phenotypic datasets, accelerating the path toward novel targets for intervention and improved approaches to diagnosis and treatment."
+ },
+ {
+  "id": "29674c1c-d881-4ccd-9e39-d0934a3df124",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Treatment of chronic venous thrombosis with histotripsy and thrombolytics",
+  "text": "Adjuvant strategies to thrombolytic therapy are needed for the 275,000 patients that\ndevelop chronic deep vein thrombosis each year. In this renewal project, we will extend our work that combines\nimage-guided histotripsy with thrombolytic drugs to engineer new instrumentation for customizable treatment\nzones based on the target pathology, address safety concerns, and develop personalized treatment schemes\nthat counter changes in the composition of thrombus with age. Successful completion of these tasks will\nenable us to bridge the current gaps that limit deployment of histotripsy as an adjuvant to thrombolytic therapy\ninto the clinic."
+ },
+ {
+  "id": "29732a45-c910-452f-8fa5-fcedb5e96320",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Major histocompatibility complex gene editing to prevent hematopoietic stem cell graft rejection",
+  "text": "Hematopoietic stem cell transplantation can cure a wide variety of blood disorders, but has\nlimited scope of deployment due to risks of co-transplanted immune cells attacking the patient’s\nbody and toxicity of the chemotherapy used to open up space in the bone marrow. New\nmethods have been developed that limit these risks and toxicities, but unfortunately these\nmethods also increase the risk of stem cells failing to successfully engraft and take up residence\nin the patient. This proposal will provide critical information needed to improve stem cell\nengraftment in the bone marrow when these new methods are used, thus increasing the\nnumber of patients that can safely receive a curative hematopoietic stem cell transplant."
+ },
+ {
+  "id": "297b81a4-8856-43b9-aebc-e47f01de6f8b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Revealing the crosstalk between one carbon metabolism, SAM availability and chromatin methylation",
+  "text": "For the past fifteen years, studies from my laboratory have identified novel crosstalk between cellular metabolism\nand the ability to activate and silence genes by modulating chromatin compaction through availability of the\nmetabolite Acetyl-CoA. Notably, and in contrast to acetylation, despite methylation reactions being the most\nabundant modification in DNA and histones, how levels of the universal methyl donor S-Adenosyl-methionine\n(SAM) is regulated remains completely unknown. In the next few years, we will take advantage of novel metabolic\nsensors and reporters, high-resolution mass spectrometry and biochemical approaches to investigate how one\ncarbon metabolism is modulated in cells, how different cellular compartments cope with changing nutrients, and\nwhether and how metabolic enzymes are mobilized inside cells to be part of nuclear complexes; these results\nwill provide critical new insight into the molecular mechanisms connecting these chromatin modifications to\nnutrient availability and metabolism."
+ },
+ {
+  "id": "2980acdf-2ba4-4e56-912e-0ec3ad90ef68",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanistic Modulation of HIV-Associated Peripheral Neuropathy in Older Adults via Auricular Vagus Nerve Stimulation",
+  "text": "HIV-associated peripheral neuropathy (HIV-PN) is a major health issue for older adults living with HIV. This\nstudy will use auricular vagus nerve stimulation to explore and influence the body's inflammatory responses,\nnervous system functions, and brain pathways in older adults with HIV-PN. The findings will help develop\nprecise treatment approaches for managing HIV-PN and improve the neurological health of older adults living\nwith HIV."
+ },
+ {
+  "id": "2984d151-acc2-4f5d-8e32-ee2ce9d56c22",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Protease-mediated regulation of stem cell niche remodeling",
+  "text": "The central hypothesis of this proposal is that the muscle stem cell niche is an everchanging environment in\nwhich proteases play an important role by cleaving and activating, or neutralizing, signaling molecules, their\nreceptors, and the extracellular matrix. Our three specific aims are to define how the muscle stem cell niche is\nremodeled in the early hours and days after injury by the activity of neutrophil serine proteases. We will identify\nthe cellular and molecular mechanisms regulated by neutrophil serine proteases in the context of muscle\nregeneration with a special focus on muscle stem cell activation, and further validate them in appropriate cell\nand animal model systems."
+ },
+ {
+  "id": "298ae4c6-cd60-4deb-bfb1-b58354a7d3a8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Altered metabolism and machine learning for pancreatic cancer early detection",
+  "text": "Pancreatic cancer is a major cause of cancer death in the United States, largely due to diagnosis at a late\nstage in the majority of patients. We will pursue advancements in the critical areas of population-level risk\nassessment, non-invasive early pancreatic cancer biomarkers, and metastasis prediction through (1) machine\nlearning models for risk assessment from electronic medical record data and imaging studies, (2) validation of\nbiomarkers of metabolic dysfunction caused by early pancreatic tumors, and (3) characterization of imaging\nfeatures and tissue-specific methylation patterns in circulating cell-free DNA that predict future metastases.\nThus, we seek to reduce pancreatic cancer mortality at multiple stages by identifying high-risk individuals in the\ngeneral population, using non-invasive biomarkers to select individuals who should undergo intensive\nsurveillance, and predicting metastases in those with apparently localized pancreatic cancer."
+ },
+ {
+  "id": "298febcb-c355-4c3f-8950-19421710ceb2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "HLA B44 motif neoepitopes in NSCLC: Evaluating their effects on the TME and adding them to established markers in a model to predict durable benefit from PD- 1 inhibition with and without chemotherapy",
+  "text": "Among the 40% of patients with an HLA-B44 supertype allele, greater clinical activity of programmed cell death\n1 (PD-1) inhibitors is seen when mutations lead to peptides in which a neutral or positively charged amino acid\nis substituted with a negatively charged amino acid, presumably based on favorable binding to the positively\ncharged HLA-B44 binding pocket. We propose comprehensive studies to characterize the effects of these\nspecific mutational events on the tumor microenvironment. We will also evaluate whether these specific\nmutational events can assist in directing patients to appropriate therapeutic approaches in both early and\nadvanced stage non-small cell lung cancer."
+ },
+ {
+  "id": "29927b81-2f75-425e-a442-a8781f5b46d7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Enhancement, mapping, and validation of viral vectors for primate optogenetics",
+  "text": "A revolution in neuroscience has been the ability to control nerve cells with light; this is made possible by using\nviruses to deliver special genes to the cells. Such “optogenetic” technologies were developed using rodents, but\nthey remain unreliable in non-human primates, the best animal model for understanding the human brain. We\naim to rigorously enhance, map, and validate the efficacy of new viral methods for controlling neurons in the\nvisual system of the primate brain to benefit both basic research and gene therapies for visuomotor disorders."
+ },
+ {
+  "id": "2994eb22-0b03-473f-94b4-5c0da744ecd0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Silica Nanocapsule-Mediated Nonviral Delivery of CRISPR Base Editor mRNA and Allele Specific sgRNA for Gene Correction in Leber Congenital Amaurosis",
+  "text": "PROJECT SUMMARY/ABSTRACT - LEAD TRAILBLAZER PROJECT 1 Leber Congenital Amaurosis (LCA) is a rare but severe form of pediatric blindness. One subtype, LCA16, is caused by several single-point mutations in the KCNJ13 gene, which encodes the inwardly-rectifying potassium channel Kir7.1 in the retina. There is no FDA-approved treatment for ultra-rare conditions such as LCA16. The objective of Lead Project 1 is to develop a new LCA16 gene therapy utilizing a CRISPR base editor (BE) delivered to the retinal pigment epithelium (RPE) via a nonviral silica nanocapsule (SNC). The SNCs possess many desirable properties, including high delivery efficiency, versatile surface chemistry for ligand conjugation, small particle sizes, good biocompatibility, and scalable production. In preliminary studies, we show that the SNC can transiently deliver a wide range of biologics, including a BE to RPE cells in mice and LCA16 patient-derived induced pluripotent stem cell (iPSC)-RPE. Within five years, we seek to optimize and validate a lead candidate, SNC-101, progress to scaled-up and CGMP production of the product to enable non-human primate (NHP) studies and file an Investigational New Drug (IND) application to the FDA for base editing therapy of LCA16. In Aim 1, we will generate a preclinical validation package with a lead SNC formulation for W53* KCNJ13 correction. We will first optimize the amount of ATRA targeting ligand (RPE cell-specific) and the modified KCNJ13 sgRNA in vitro via the Human Cell Assays Core and in vivo in a W53* LCA16 mouse model. We will then develop a scale-up production process for the optimized SNC (i.e., SNC101) for preclinical studies. We plan to complete one INTERACT meeting at the end of this aim. In Aim 2, we will determine the gene correction efficiency, dosing, and toxicity in mouse models and NHPs. We will comprehensively evaluate the immune, structural, and functional consequences of subretinal delivery of SNC-101 through our W53* LCA16 mouse model. Using our Large Animal Core, we will also perform dose-escalation safety studies in NHPs. Alongside the species comparison, the study will ascertain storage stability, dosing, and toxicity profiles in detail, an important milestone to support an IND with the FDA. In Aim 3, we will conduct IND enabling studies of SNC-101 for W53* KCNJ13 correction. A pre-IND meeting package will be submitted to FDA CBER with the help of our Regulatory Core. Waisman Biomanufacturing will develop a full-scale engineering run to be used in GLP toxicology study in rats and NHPs. Concurrent with the toxicology study, one entire CGMP batch will be manufactured. We will submit an IND application to the FDA in the final year. To date, no nonviral genome editing therapeutic has reached an IND in the eye. Success here with SNC-101 would pave the way for this new therapeutic modality. Finally, the knowledge gained along this development path will accelerate the translation of other nonviral genome editing leads, including SNC-201 and TAGE-101, in the Follower Projects of the CRISPR Vision Program."
+ },
+ {
+  "id": "299f1b60-9b95-46ed-bc05-7b61d114a7d1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Genetic Medicines to Treat Cardiovascular Disease",
+  "text": "Cardiovascular disease (CVD) remains a leading cause of morbidity and mortality worldwide, and as\nadvancements in genetic medicines move toward clinical trials, there is an urgent need for cross-sector\nengagement to translate these discoveries into safe and effective treatments. This Keystone Symposia meeting,\nGenetic Medicines for Cardiovascular Disease, will highlight emerging technologies and therapeutic strategies\nthat have the potential to transform prevention and treatment of CVD, while integrating lessons from both pre-\nclinical and clinical studies. The meeting brings together basic scientists, clinicians and industry experts to\nexamine translational challenges, from discovery and efficacy to clinical implementation and commercialization,\nwith the goal of advancing therapies to improve cardiovascular health."
+ },
+ {
+  "id": "29a7c0ab-5531-49c0-8451-9730bf3d78ce",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Discovering lipid transport mechanisms in Mycobacterium tuberculosis",
+  "text": "Mechanisms of lipid transport across the cell envelope of Mycobacterium tuberculosis (Mtb), the world’s\ndeadliest pathogen, are largely unknown. I will address this research gap by defining how known Mtb\ntransporters localize endogenous lipids in unexpected ways, and by uncovering entirely unknown systems of\ntransport for lipid-linked Mtb glycans. By revealing how Mtb controls the localization and effects of important\nlipidic antigens, virulence factors, and envelope components, this work will inform the development of new\ndrugs, vaccines, and diagnostics targeting an infectious agent that kills approximately 1.3 million people per\nyear."
+ },
+ {
+  "id": "29bb38bf-1929-46aa-aad2-e91874a218fa",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "OpenMM: Scalable biomolecular modeling, simulation, and machine learning",
+  "text": "Biomolecular modeling and simulation is a key technology for leveraging the $20B global investment in\nbiomolecular structure data in the protein databank to understand the basic molecular mechanisms\nunderlying biology and disease and the development of new therapies. In this proposal, we aim to expand the\ndevelopment of OpenMM, a free and open source biomolecular modeling and simulation package that can\nexploit a wide range of consumer-grade and high-end graphics processing units (GPUs) to enable researchers\nand applications built on OpenMM to achieve high performance with extreme ﬂexibility. A key aspect of this\nproposal is to accelerate research in the emerging ﬁeld of biomolecular machine learning by tightly integrating\nOpenMM with modern machine learning frameworks, enabling researchers to build, use, and deploy machine\nlearning potentials, collective variables, and integrators to advance the state of biomolecular modeling."
+ },
+ {
+  "id": "29bda59d-7be5-4401-b2a6-29cc312290a3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A Deep Learning Framework for Discovering Temporal Changes in Host-Microbiome Interactions",
+  "text": "Investigating host-microorganism interaction under different conditions or over time holds immense potential for\nunraveling underlying mechanisms in various areas such as immunology, infectious diseases, developmental\nbiology, cancer, and aging. This project leverages cutting-edge deep learning to tackle these challenges,\nenabling the acquisition of new knowledge in basic research while also facilitating drug development, biomarker\ndiscovery, and enhancing diagnosis and prognosis capabilities."
+ },
+ {
+  "id": "29bfa7bb-dd12-4e82-80c9-5ca4cf2ab2d9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Transient Receptor Potential Ion Channels and Corneal Defense Against Bacterial Adhesion",
+  "text": "Bacterial infections of the cornea, potentially devastating to vision, are becoming more common and\nmore difficult to treat due to ever-evolving resistance to antimicrobials. We have discovered that\ninfection resistant healthy corneas can utilize their sensory nerves to protect against bacterial binding,\ninvolving two receptors able to discriminate between pathogen types while having different impacts on\ncorneal immune cells. Here, we aim to understand the mechanisms involved, our long-term goal being\nto develop strategies for preventing infection before it begins."
+ },
+ {
+  "id": "29c1d8a7-44cd-48de-bc3b-ac327bd959ae",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular Mechanism of Human Myogenesis",
+  "text": "Mutations in the CHAMP1 gene cause CHAMP1 syndrome, a devastating disorder\ncharacterized by severe muscle defects. Currently, little is known about how CHAMP1\nfunctions in muscle cells and why patient mutations lead to muscle symptoms. This\nproject aims to address these gaps by thoroughly elucidating CHAMP1’s role in muscle\ndevelopment and disease, identifying key molecular targets, and laying the foundation\nfor the development of new strategies to treat muscle symptoms associated with\nCHAMP1 syndrome."
+ },
+ {
+  "id": "29c57d12-982b-4bdc-ace8-91577db87654",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "WNT signaling in chondrocyte biology and osteoarthritis",
+  "text": "Hip osteoarthritis (OA) is a painful joint disease and in the absence of disease-modifying drugs, OA is a\ntremendous burden on our healthcare system. The goal of this proposal is to delineate the functional role of the\nWNT Family Member 16 protein (WNT16) in hip OA using several novel and integrative single-cell multi-omics\napproaches. A detailed understanding of the disease mechanisms will provide significant insights into the\ndevelopment of early therapeutic interventions for hip OA."
+ }
+]

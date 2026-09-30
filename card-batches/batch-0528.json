@@ -1,0 +1,142 @@
+[
+ {
+  "id": "2edcda31-f57f-4dae-b3df-d259c2d94779",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cross-region neural mechanisms that support conditioned taste aversion",
+  "text": "Humans and other animals learn the value of foods based on their postingestive effects and thereby develop\npreferences for the taste of foods that are nutrient-rich and aversions towards those that produce illness. This\ntaste learning process is critical for survival but can become maladaptive in eating disorders and obesity and in\nclinical settings such as during chemotherapy. This proposal will uncover the brainwide neural representations\nof flavor and test how those representations are reconfigured by the arrival of postingestive feedback from the\ngut to ultimately shape our preferences and aversions for specific tastes."
+ },
+ {
+  "id": "2ee43c45-cbc4-4730-ae18-46636b0a5f4a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Defining the cellular and molecular consequences in TET2 CHIP",
+  "text": "This research proposal aims to develop precision therapeutics for the prevention of atherosclerotic cardiovascular disease (ASCVD) associated with Clonal Hematopoiesis of Indeterminate Potential (CHIP). A specific CHIP mutation, Tet Methylcytosine Dioxygenase 2 confers a 50% increased risk of developing ASCVD. The central hypothesis is that high-risk mutations in TET2, leads to ASCVD by producing hyperinflammatory phenotypes among resident immune cells in the coronary vasculature. The specific aims of the research are to develop a framework for risk-stratifying Veterans with TET2 as well as identify and validate the pathways through which TET2 mutated cells affect vascular tissue gene expression and human disease outcomes."
+ },
+ {
+  "id": "2ee51a63-1e6e-43a4-a0bd-e3d4580e219a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Harnessing Multimodal AI to Reduce Virologic Failure in People Living with HIV",
+  "text": "Artificial Intelligence (AI) is transforming our understanding of HIV treatment and care, but few studies have\nused multimodal and multisource data to optimize predictive models to have the greatest impact on the HIV\nepidemic in the United States (US). We will use a human-centered, community informed, and iterative\napproach to collect multi-model and multi-source data in a large and heterogeneous sample of people living\nwith HIV, focusing on preventing virologic failure. We will also use prior literature and focus group data to\ndevelop knowledge graphs that will inform the predictive models, and the predictive models and knowledge\ngraphs will be used to develop potential new intervention use cases."
+ },
+ {
+  "id": "2ee923e1-0b20-45c4-8914-50c0d6471309",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "DEcoding Emotional Dynamics Driving Mood Instability in Bipolar Disorder",
+  "text": "Bipolar disorder (BD) is a serious mental health condition characterized by recurring episodes of mania, hypomania, and depression. A defining feature of BD is mood instability, which contributes significantly to emotional dysregulation, impaired functioning, and poor clinical outcomes. However, little is known about the neural mechanisms underlying these emotional dynamics, in part due to the limitations of conventional neuroimaging analyses, which average brain activity over time and fail to capture dynamic affective processes. To address this gap, the proposed study leverages advances in functional neuroimaging and machine learning to investigate how emotional states unfold and fluctuate over time in individuals with BD. Using a validated task-based fMRI paradigm, the Think and Regulate Affective states Task (TReAT), we will decode emotional states at each time point based on whole-brain activation patterns. We will also quantify brain state variability using computational metrics from complexity science, such as metastability and fractal scaling, and identify brain regions that drive emotional transitions using network control theory. Combining these approaches will allow us to characterize emotional state variability over time and examine its underlying dynamics. This approach is innovative in its use of moment-to-moment emotional state decoding, providing a high-resolution view of emotional instability not possible with traditional neuroimaging analyses. Pilot data support the feasibility of this method, showing that emotional states can be accurately decoded. Building on this foundation, we will test the hypothesis that individuals with BD exhibit greater emotional lability, reduced temporal coherence, and altered network controllability during emotional reflection. In addition to identifying neural signatures of mood instability, the study will evaluate how emotion regulation strategies, particularly the upregulation of positive affect, influence emotional trajectories in BD. This work has direct translational potential: identifying the neural mechanisms of emotional instability will lay the groundwork for developing personalized, brain-based interventions aimed at stabilizing mood. The long-term goal is to inform the design of real-time, state-adaptive treatments that target the dynamic brain processes underlying emotional dysregulation in BD."
+ },
+ {
+  "id": "2ef69dda-693b-4d79-9b08-d7decd2199ee",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Tissue Engineering Strategies to Revitalize Allografts",
+  "text": "Structural allografts are the gold standard for massive orthopaedic reconstruction surgery but cannot be\nremodeled by the host, leading to failure rates of ~60% after 10-years. Therefore, tissue engineering\napproaches to recreate critical functions of the periosteum, the tissue responsible for autograft healing, is the\nfocus of this proposal, creating innovative approaches to enable successful bone allograft healing and\nintegration."
+ },
+ {
+  "id": "2ef70bfc-7b26-485d-aab9-2fe6e2d9665d",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Core C: Electrophysiology Core",
+  "text": "The Electrophysiology Core (Core C) will provide services for in vitro electrophysiological studies using novel tools such as optogenetics and in vitro GCaMP6 calcium imaging. We will prepare brain slices, conduct patch- clamp recordings, channelrhodopsin2 (ChR2)-assisted circuit mapping (CRACM), and Ca2+ imaging studies in brain slices. The Core will also perform histology of the recorded slices and analyze the associated data. Project 1 (Saper), Project 2 (Scammell), Project 3 (De Luca), and Project 4 (Vanderhost and Dymecki) will use this Core facility. These projects are not equipped to conduct in vitro electrophysiology recordings, and there are no institutional resources that can provide this service. These projects will benefit from the expertise and shared resources provided by the Core."
+ },
+ {
+  "id": "2efd0f4e-7690-4d10-88c0-a64017980d90",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Miniaturization and Human-Centered Design of an AI-Enabled At-Home PKU Monitoring System for Children",
+  "text": "Every year, approximately 390+ newborns in the United States begin a lifelong journey with\nPhenylketonuria (PKU), a rare genetic disorder that, if left unmanaged, can lead to severe\nintellectual disabilities and neurological complications for the estimated 16,000+ Americans living\nwith this condition. Despite the critical importance of maintaining strict phenylalanine levels\nthrough dietary management for cognitive function and quality of life, patients and healthcare\nproviders lack quick, reliable monitoring tools, forcing many to make dietary decisions without\ntimely biochemical feedback. Omaroon (this SBIR entity) developed an innovative rapid\nmonitoring system that promises to transform PKU management by providing immediate,\nactionable information about phenylalanine levels, potentially improving educational outcomes,\ncareer opportunities, and overall well-being for thousands of Americans with PKU."
+ },
+ {
+  "id": "2f0362e2-be09-4648-bafc-71044b91fdcd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A CRISPR based organoid screen for mediators of epithelial-myeloid interactions",
+  "text": "The cells that line the airways are important mediators of immunity and have been shown to be important in the\npathogenesis of airway diseases such as asthma by activating inflammation. A critical interaction is between\nairway epithelial cells and specialized immune cells called macrophages; however, we do not yet know all the\nways these two cell types communicate. In order to discover novel therapeutic targets, we propose to utilize an\ninnovative screen using specialized airway organoids to discover novel mechanisms of airway epithelial cell-to-\nmacrophage communication."
+ },
+ {
+  "id": "2f049afc-4547-49b1-a1a5-69a26b780020",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of resistance to MEK Inhibition in RAS-pathway activated chronic myelomonocytic leukemia",
+  "text": "Molecularly targeted treatments have revolutionized cancer treatment but the development of drug resistance to\ncancer-directed therapy is a major barrier to improved survival outcomes. This research proposal combines a\nrationally designed clinical trial with a laboratory-based approach to investigate the efficacy of a molecularly\ntargeted agent in chronic myelomonocytic leukemia and identify potential sources of drug resistance to this\nagent. These findings will inform novel treatment strategies for chronic myelomonocytic leukemia by\ncircumventing the emergence of drug resistance, leading to better patient outcomes in this poor-risk disease."
+ },
+ {
+  "id": "2f0bae66-b83b-4a09-9422-62de356654ba",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Local circadian regulation of synaptic function and sleep/wake behavior",
+  "text": "(RELEVANCE)\nThe disruption of circadian rhythms and sleep loss are epidemic in technological societies and have\nbeen closely linked with neurodegenerative and neuropsychiatric disorders, both of which are\nassociated with dysfunction of synapses. In this proposal, we define molecular, cellular, and\nbiochemical mechanisms by which a core circadian clock protein regulates timing in synapses and\nsleep/wake behavior. This study will illuminate our understanding of circadian timing and sleep and\noffer new therapeutic avenues to address disorders in which circadian rhythm disruption, sleep\ndisturbance, and synaptic dysfunction are common bedfellows."
+ },
+ {
+  "id": "2f0efddb-7c86-47f6-87f1-1a82423cb718",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Precision Medicine for Neonatal Hypoxic-Ischemic Encephalopathy: Combined Neuroimaging Clinical Approach to Link Phenotypes to Prognosis",
+  "text": "Toward our long-term goal of delivering precision medicine for the treatment of neonatal hypoxic-ischemic\nencephalopathy (HIE), we plan to develop a methodological framework with which to classify HIE based on\nbrain MRI evaluation combined with clinical variables to better predict neurological prognosis. In this proposal,\nwe will create a neonatal brain MRI quantification tool to identify various types of lesions, and apply the tool to\nthe cohort of HIE neonates to identify the neuroanatomical features of the brain, which, combined with\nmaternal and neonatal clinical variables, will isolate HIE subtypes and subsequent clinical phenotypes to\npredict prognosis. The stratification of HIE subtypes and the specific prognoses proposed in this application is\nessential for developing and delivering targeted adjuvant and rehabilitative treatments and is also necessary\nfor medical providers in order to guide the appropriate allocation of resources."
+ },
+ {
+  "id": "2f1108d0-c4a9-407a-af2a-c2bf3e266ee2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Comparing epigenetic, proteomic, and MRI aging clocks in sporadic and autosomal-dominant Alzheimer disease",
+  "text": "This study will rigorously compare three state-of-the-art models of biological aging across multiple modalities,\nincluding DNA methylation, proteomics, and MRI, and will test the novel hypothesis that these measures\ncapture complementary signals of biological aging in relation to Alzheimer disease (AD) progression and\nresilience. These hypotheses will be tested in both typical sporadic late-onset AD and autosomal dominant AD,\na familial, early-onset form of AD, which allows for the evaluation of accelerated biological aging with minimal\nage-related confounds. Successful completion of the project will address whether multimodal measures of\nbiological age hold translational utility as complementary biomarkers in AD staging or precision medicine\nestimates of resilience, while also providing the candidate with invaluable opportunities for training in novel,\ncomplementary research and professional skill sets."
+ },
+ {
+  "id": "2f15de1d-736b-44ca-9ef3-e4b317eb0170",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Non-invasive imaging of reactive oxygen species in reperfusion injury myocardial infarction",
+  "text": "Reperfusion injury is a common pathology that can occur after restoration of blood flow to ischemic heart muscle.\nThis proposal seeks to develop and investigate non-invasive cardiovascular magnetic resonance imaging and\npositron emission tomography approaches to detect reperfusion injury in vivo and assess their prognostic value\nfor adverse remodeling of the heart."
+ },
+ {
+  "id": "2f16a138-e75f-4e6f-b2e9-c69bbb96b3a6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cancer Risk Assessment, Early Detection, and Interception Research Program",
+  "text": "CANCER RISK ASSESSMENT, EARLY DETECTION AND INTERCEPTION (REDI): ABSTRACT Cancer Risk Assessment, Early Detection, and Interception (REDI) is a new Mayo Clinic Comprehensive Cancer Center (MCCCC) Research Program formed in 2023 that aims to integrate extensive institutional strengths to drive pioneering transdisciplinary research in multimodal cancer risk assessment, early detection of cancer and pre-cancers, and development of novel approaches for interception. Along with the Cancer Prevention, Control, and Survivorship (CPCS) Program and collaborations with Community Outreach and Engagement (COE), REDI leverages prior achievements and unites investigators previously dispersed across various Research Programs and is inclusive of the three MCCCC sites. REDI uses novel approaches to prevention and interception, including therapeutics, vaccines, and ablative technologies, to complement the behavioral interventions of CPCS. Co-led by Ajit Goenka (MCR), Shaji Kumar (MCR), and Mark Sherman (MCF), REDI includes 36 members (25 MCR, 6 MCA, 5 MCF) from 11 departments with expertise in epidemiology, radiology, pathology, cancer genomics and precision medicine, data science, predictive modeling and artificial intelligence (AI), and community engagement. REDI members have $8.7M in annual peer-reviewed funding ($6.4M of which is from NCI) and published 1292 publications (24% intra-programmatic, 59% inter-programmatic, 48% external collaborations, and 36% with impact factor ≥10) over the last grant cycle. The goals of the program are informed by priorities identified by COE in our catchment areas. REDI has three aims: Aim 1 seeks to achieve Precision Risk Assessment among individuals and within populations by discovering novel risk factors, integrating them with known risk exposures, developing risk prediction models, and defining targetable mechanisms that mediate risks. This work leverages accomplishments in defining risks of genetic variants, radiological imaging, and the pathobiology of cancers in different populations and clinical contexts. Aim 2 focuses on the Detection of Clinically Significant Cancer Precursors and Early Cancers through discovery and validation of molecular markers and radiological imaging, testing a range of specimen types, employing novel collection methods, integrating techniques in genetics, radiology, and pathology and leveraging industrial partnerships. Aim 3 is devoted to Cancer Interception, focusing on strategies for precise and timely interventions, including chemoprevention, immunoprevention, and ablative therapies, with emphasis on high-risk populations and innovative delivery methods. The REDI Program has robust collaborations internally with other MCCCC Research Programs and Disease Groups, and externally through collaboration and leadership in national and international consortia. REDI will meet its goals through a strong focus on community engagement and meeting the needs of all populations; new recruitment; support of education, training and mentorship; growth of NCI funding; and integration of new biology and technology from risk assessment through interception. REDI is well poised to accelerate the science and clinical impact in cancer prevention and interception."
+ },
+ {
+  "id": "2f232f3c-c7c6-4d9f-968f-5b3eb2d96abe",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "STAG2 mutations and 3D genome organization in glioblastoma multiforme",
+  "text": "Cohesin generates and maintains the chromatin loops that serve as a fundamental unit of 3D genome\norganization. Cohesin is frequently mutated in GBM, the most common and deadly tumor of the brain, with\nSTAG2 as its most frequently mutated subunit. This grant proposes to identify the mechanistic connection\nbetween STAG2 mutations and alterations in 3D genome organization in GBM cells and tumors, providing a\nlong-sought molecular mechanism for cohesin-mediated tumor suppression, with the goal of defining how\ncohesin can be targeted for therapeutic purposes in GBM."
+ },
+ {
+  "id": "2f2c1351-52aa-46bc-9467-874c4078593a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Bacterial Survival in Fluctuating Environments: Stochastic Switches, Recombination, and Memory",
+  "text": "This project will determine how microorganisms use stochastic and responsive gene regulation, phenotypic\nmemory, and recombination to survive under fluctuating stresses, including periods of nutrient starvation and\nexposure to antibiotics. It will apply a combination of custom microfluidic designs, microscopy, transcriptomics,\nbarcode sequencing, and computational methods to study mechanisms of bacterial growth and survival in\ncomplex environments. The research will reveal the impact of stochastic switching on bacterial aggregation\nand its consequences for antimicrobial treatment, the variety and molecular mechanisms of antibiotic\npersistence pathways in E. coli, and the interplay of stochastic switches with recombination in the emergence\nand maintenance of antibiotic resistant bacteria in the human gut microbiome."
+ },
+ {
+  "id": "2f302c5c-177d-446a-b055-55b097475542",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Defining Nuclear Pore Complex Subsets and Import Pathways that Regulate the Fate of HIV-1 Integration and Gene Expression",
+  "text": "HIV-1 must pass through the nuclear pore complex to establish infection, and the choice of nuclear entry pathway\ninfluences whether the virus becomes active or silent. This project will uncover how HIV-1 manipulates host\nnucleoporins and regulators of NPC biogenesis to remodel NPCs and direct viral genomes to specific nuclear\nenvironments. By defining the role of nuclear import pathways in dictating intranuclear events, this proposal aims\nto reveal new strategies to block infection or selectively target the silent viral reservoirs that persist despite\ncurrent treatment measures."
+ },
+ {
+  "id": "2f3557ca-07ae-48d0-8c78-ec440b4dc4e9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting the multicellular process of corneal regeneration and vascularization to enhance outcome of cornea transplantation",
+  "text": "Interventions to improve the outcome of corneal transplantation are urgently needed for patients that are at high-\nrisk of graft failure. This project aims to translate the basic findings with MG53 into a potential safe and effective\ntherapeutic to improve the quality of corneal transplants and reduce graft failures."
+ },
+ {
+  "id": "2f3a2a2d-b809-4670-8404-5d43ca92a37f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Preventing Adult Mental Health Problems from Early Childhood in the Contexts of Genetic Susceptibility, Financial Strain, and Societal Stressors",
+  "text": "Emerging adults experience a high prevalence of mental health challenges, which are influenced by both individual and environmental factors. Drawing on the longitudinal Early Steps Multisite prevention trial of low-income families (N = 731) from three regions across the United States, we plan to leverage an 18-year prospective dataset in conjunction with new mental health assessments to examine risk and protective factors from adolescence to adulthood. Using genotyping on an extensive contemporary array, we will investigate the direct, interactive, and cascading effects of neighborhood and community-level risk and protective factors on mental health outcomes, as well as the long-term preventive impact of the Family Check-Up, within the broader context of large-scale societal stressors."
+ },
+ {
+  "id": "2f3ce097-a357-4fec-befb-7b672926efbb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Disruption of the Cardiac-Coronary Axis as a Mechanism of HFpEF",
+  "text": "Heart failure with preserved ejection fraction (HFpEF) is an unmet need in modern medicine, and is associated\nwith comorbidities like obesity, diabetes, and hypertension. HFpEF is characterized by pronounced coronary\nmicrovascular dysfunction (CMD), but the causal contribution of CMD is not clear. The current proposal is to\nstudy the impact of CMD on the cardiac function and remodeling in HFpEF and will test the hypothetical benefit\nof miR-21 deletion on maintaining the coronary microvascular function, myocardial blood flow and cardiac\nfunction in HFpEF using global and tissue-specific miR-21 knockout and lineage tracing mice."
+ }
+]

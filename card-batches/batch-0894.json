@@ -1,0 +1,142 @@
+[
+ {
+  "id": "b2cdf801-80cb-4f7c-b2c8-eee9fd183a49",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Neurochemical & Behavioral Correlates of ETOH Effects",
+  "text": "This training program directly addresses the great need for highly trained scientists in an area of public health\nurgency – alcoholism, the consequences of which are devastating to the individual or developing fetus as in the\ncase of fetal alcohol spectrum disorders. Trainees will learn cutting edge research techniques and will perform\nresearch on alcohol related problems to provide new information that may guide treatments or further our\nunderstanding of the causes and consequences of the disease of alcoholism."
+ },
+ {
+  "id": "b2d2b3dc-8407-4221-94a6-07e6a7e482eb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project 1 - Immunologic and Cellular Mechanisms of T1D Modifier Mutations",
+  "text": "The goal of Project 1 is to understand in detail the pathological consequences of ENU-induced mutations implicated by Core B and Core C to modify the T1D phenotype of NOD/NckH mice, and to determine the cellular mechanisms by which those mutations impact the development of T1D. As we have done for Dusp10, a spontaneous mutation bred to homozygosity in our lab based on phenotypic selection, we will analyze each selected mutation to determine which salient immunopathological steps—recognized as hallmarks of T1D initiation and/or progression—are affected. To that end, we will use tools such as analysis of pancreatic islet infiltration (i.e. insulitis); measurement of the numbers and the in vivo functional capacity in various lymphoid organs of diabetogenic or regulatory CD4+FoxP3+ T lymphocytes; and analysis of islet antigen presentation using adoptive transfer of diabetogenic cells expressing the transgenic BDC2.5 T cell receptor (specific for an autoantigenic fusion peptide incorporating insulin and chromogranin A sequences) into 4-week-old recipients. We will pay particular attention to mechanisms of insulin resistance, and to the definition of markers of increased β-cell sensitivity witnessed with particular genetic mutations. In doing so it is plausible that novel immunopathological steps will be discovered. Second, we will investigate the contribution of particular tissues or cell types bearing each mutation to the development of T1D using bone marrow transplantation, adoptive transfer in neonates, islet transplantation, tissue-specific conditional knockout mice, and islet organoid cultures in the presence or absence of immune cells. Results will provide important guidance to Project 2, focused on molecular pathogenesis. We will perform cellular mechanistic studies to understand of the effects of mutations in Paqr8 (protective), and Dusp10, Rapgef1, and Xpnpep1 (exacerbating), identified in our initial collaboration. We expect to actively pursue mechanistic studies of four to six proteins at a time, adding one new protein per year by mutual agreement with Project 2. We expect that strong synergy between Projects will accelerate our progress. An important question we will address is the relevance of our findings to human health. To understand how mutations identified in NOD mice relate to human T1D, we will study the effects of selected mutations in NOD mice bearing a T1D-susceptible humanized immune system modified to contain or lack the orthologous mutations in human hematopoietic stem cells and/or human islet cells. We will also identify human T1D patients with mutations in genes orthologous to those we implicated in our screen of NOD mice. Our findings will uncover new therapeutic targets for treatment of T1D and help to improve prediction of T1D onset in humans."
+ },
+ {
+  "id": "b2d44353-559d-4745-87eb-5802bc802ec2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project 2: Orexin Signaling and Hypoventilation",
+  "text": "This Project focuses on improving breathing in mouse models of Obesity Hypoventilation syndrome (OHS) and Opioid-Induced Respiratory Depression (OIRD) as these disorders are relatively common causes of hypoventilation and have very high mortality. OHS occurs in people with severe obesity and is manifest as hypoventilation during wakefulness and especially during sleep. Opiates also reduce ventilation, and about 6% of Americans take prescription opioids which can cause hypoventilation and worsen sleep apnea and other respiratory disorders. Considering these staggering impacts, there is a large and unmet need to develop better therapies for these hypoventilation disorders. Several lines of evidence indicate that increasing orexin signaling through the orexin receptors should be a highly effective therapy for people with OHS and OIRD. The orexin neurons excite all key brainstem regions regulating ventilation. In addition, orexin knockout mice have a blunted response to hypercarbia, and orexin receptor antagonists reduce the response to hypercarbia. We hypothesize that increased activity of the orexin neurons and orexin agonists will improve breathing in mouse models of OHS and OIRD via lower brainstem respiratory circuits. As a model of OHS, we will use mice with diet-induced obesity which are severely obese and have hypoventilation with a reduced hypercapnic ventilatory response. In addition, we will study mice treated with morphine as a model of OIRD. These Aims seek to determine the role of orexin signaling in the responses to hypercapnia and OIRD. This Project synergizes well with Projects 1, 3, and 4 that seek to enhance ventilatory responses to hypercapnia and OIRD in mice, and Project 5 which seeks to identify pharmacological methods to improve hypoventilation in people, especially with OIRD. The first Aim is to determine if the orexin neurons are necessary for the HCVR and OIRD with morphine in a novel mouse model. Second, we will define the location and molecular identity of orexin-responsive neurons in the brainstem using in situ hybridization, calcium imaging and RNAseq, in collaboration with the Electrophysiology and Molecular Biology Cores. The third Aim is to test if the orexin neurons are sufficient to improve the response to hypercapnia and OIRD. Finally, we will test of an orexin agonist improves the HCVR and OIRD and then map the brainstem regions through which this occurs. Collectively, these experiments should demonstrate that orexin signaling improves hypoventilation in mouse models of OHS and OIRD, and that orexin agonists have potential for improving these disorders."
+ },
+ {
+  "id": "b2d6b978-7ea3-4a26-a720-c2f527fc88f5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Hands-on Education and Research for Biomedical and Analytical Learning (HERBAL)",
+  "text": "The University of Rhode Island proposes the development of a new program to cultivate STEM learning for high\nschool students. This program – HERBAL: Hands-on Education and Research for Biomedical and Analytical\nLearning – is composed of teacher training workshops followed by an academic year laboratory paired with\ngame-based learning modules centered on molecules from medicinal plants. The academic year course will be\nfollowed by hands-on summer research with student-generated data at the University of Rhode Island. The\nHERBAL program will serve as an excellent entry point for life-long STEM learning, and it will connect plants\nwith their cultural and traditional importance to human health and well-being, and HERBAL will increase student\naccess to cutting-edge analysis and informatics tools to understand the metabolite composition of these plants."
+ },
+ {
+  "id": "b2d8f0e6-531d-4a71-a959-70aa4259a17a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Computational rational design of carbohydrate and nucleic acid drug scaffolds with multiscale dynamics and AI",
+  "text": "Drug discovery is expensive and time consuming, and applying computer-based rational design in the early\nstages can accelerate the process and lower costs. However, computational investigations of\ncarbohydrates, nucleic acids and fluorescent molecules are challenging to simulate without inclusion of\ncomplex physics. This proposal aims to combine simulations, high quality automated database generation,\nand the development of machine learning models in order to understand the binding and behavior of\ncarbohydrate-based heparanase inhibitors as possible anti-cancer drug targets, and the photophysical\nbehavior and connection to structure for fluorescent nucleic acids."
+ },
+ {
+  "id": "b2df7173-9528-4054-b1db-b0f2943c3926",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "CRCNS: Deep Learning to Discover Neurovascular Disruptions in Alzheimer's Disease",
+  "text": "Knowledge of critical interactions among various brain cells is central to understanding the underlying causes of age-related cognitive decline as well as Alzheimer’s dementia. However, accurate identification of molecular changes in \nthese cells is hard to accomplish using conventional methods. The current project will develop advanced deep learning \nmethods and techniques to elucidate pathological mechanisms leading to Alzheimer’s disease, which will enable the \nidentification of novel biomarkers and treatment strategies."
+ },
+ {
+  "id": "b2ec1e7f-62a1-4246-8954-f63b66d7006c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Overcoming pre-existing immunity to AAV to enhance AAV-based HIV immunotherapies",
+  "text": "Despite the promise of adeno-associated virus (AAV)-mediated delivery of anti-HIV biologics for\npreventing and treating HIV infection, translating this approach to the clinic is hindered by the high prevalence\nof anti-AAV neutralizing (n) antibodies (Abs) in humans. To tackle this barrier, we will identify the least prevalent\nAAV serotypes in people living with HIV in the epicenter of the HIV/AIDS epidemic and assess whether depletion\nof circulating IgG molecules can reduce pre-existing anti-AAV Ab levels sufficiently to allow AAV-mediated\ndelivery of anti-HIV biologics to nonhuman primates. If successful, this research could bring us closer to testing\nthe efficacy of AAV-based immunotherapies in people, regardless of their AAV serostatus."
+ },
+ {
+  "id": "b2fec268-6bec-446c-82ce-f7582b1b2462",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of the PilC1 and PilC2 pilus-associated proteins in Kingella kingae pathogenicity",
+  "text": "Kingella kingae has emerged as a leading cause of septic arthritis, osteomyelitis, sepsis, and other invasive\ndiseases in young children and is associated with significant short-term and long-term morbidity. Reports that\nan increasing percentage of K. kingae isolates are resistant to -lactams and other antibiotics raise concern\nabout approaches to treatment in the future. The proposed studies will elucidate the central role of the PilC1\nand PilC2 pilus-associated proteins in K. kingae type IV pili structure and function and will provide insights into\nthe design of novel therapeutics against K. kingae and other pathogens that produce type IV pili."
+ },
+ {
+  "id": "b300e30d-c3e2-43ff-a608-b720b041fb15",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Human Neurogenesis: Unraveling Controversies and Charting New Frontiers",
+  "text": "This meeting will bring together leaders in the field of human hippocampal neurogenesis to review evidence,\ndiscuss the ongoing dispute on the existence of neurogenesis in the human brain and advise on the most\neffective approach to move the field forward."
+ },
+ {
+  "id": "b3060900-1f03-4d03-99f6-e3a35ecb7f25",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Screening for protein interaction inhibitors of the ERKS axis for brain tumor treatment",
+  "text": "We propose to engineer specific small molecule inhibitors of the ERKS axis proteins, which are essential for the\nproliferation of brain tumor stem/progenitor cells. Small molecule inhibitors developed from this project are\nexpected to provide potential therapeutics for brain tumor treatment."
+ },
+ {
+  "id": "b30684e5-7bb4-40f1-adc5-6e989b4557e5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Impact of APOE deficiency on HPA axis function and cognition",
+  "text": "The hypomorphic E4 allele of APOE is the strongest genetic risk for Alzheimer's Disease, yet it is unclear how it\ncontributes to AD etiology. We propose to investigate the molecular consequences of APOE deficiency on the\nHPA axis and their interaction on learning and memory."
+ },
+ {
+  "id": "b3075908-d7d9-434c-a990-14579e0911ea",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "HSP70 as an actionable cancer-specific target",
+  "text": "Pancreatic ductal adenocarcinoma (PDAC), the most common form of pancreatic cancer, is a lethal malignancy\nwith no curative treatment options. This proposal leverages a newly developed HSP70 inhibitor with a unique\nmechanism of action to investigate tumor cell-intrinsic and extrinsic pathways by which it attenuates PDAC. We\nwill also evaluate rational combination strategies to enhance the anti-tumor efficacy of HSP70 inhibition, with the\nlong-term goal of translating these findings into therapies that improve outcomes for patients with PDAC."
+ },
+ {
+  "id": "b3097840-0556-49df-b1fa-68d3026d449e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Core D- Data Science Core",
+  "text": "BEAMS-2 Core D Asthma affects schoolchildren in Tucson at a higher rate than schoolchildren of the same ancestry living in nearby Nogales, Sonora, Mexico. In BEAMS-1, we showed that differences in prenatal and early-life exposures through their influence on gut microbiota, immune system development, and gene-environment interactions impact the risk of childhood asthma. Building on these findings, the Data Science Core (Core D) will support three BEAMS-2 Projects aimed at discovering protective exposures in Mexico and elucidating the biological mechanisms underlying asthma development. Core D comprises experienced qualitative scientists with deep expertise in pediatric asthma, cohort studies, and advanced methods for analyzing microbiome, transcriptomic, and single-cell data. Core D will support BEAMS-2 through three primary aims. First, the Core will provide biostatistics study design and rigorous quantitative analysis for all Projects, including epidemiological studies (P1), microbiome studies (P2), and mouse model studies (P3). Second, Core D will lead the application of statistical machine learning and bioinformatics methods for microbiome, metabolomics, transcriptomic, and single-cell data. Third, the Core will maintain and expand an integrated data management infrastructure to support BEAMS-2, ensuring data quality and reproducibility while enabling secure data sharing across all Projects and Cores. As a central component of the PPG, Core D works closely with each Project, the Administrative Core, and the Program Leader to align biostatistics, bioinformatics, and data management efforts with both individual investigator needs and the program’s overarching scientific goals."
+ },
+ {
+  "id": "b30b0c7a-e7ed-4191-9e56-d5eb513db43e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Biomaterial-directed patterning of xenografted brain organoids in-vivo",
+  "text": "Modeling the human brain with accuracy and reliability remains a key challenge in the field of neuroscience\nand is the basis for our understanding of prevalent diseases such as Alzheimer’s, Parkinson’s, epilepsy, and\nothers. My dissertation project aims to improve a new type of model – xenotransplantation of human brain\norganoids into rodent cortex – by directing cell patterning and neuronal circuit integration into host systems.\nResults from this project will establish improved, human-centric models of brain development and contribute to\nour collective understanding of the molecular mechanisms underlying human brain development."
+ },
+ {
+  "id": "b314b497-d60b-4c4b-84bd-bbfcfbc69076",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Epigenomic Control of KSHV Latency",
+  "text": "The long-term goal of this R01 is to further advance our knowledge of the AIDS-defining malignancies caused\nby Kaposi’s Sarcoma-Associated Herpesvirus (KSHV). Investigation of the mechanisms regulating KSHV\nlatency, episome persistence and oncogenesis through a deeper understanding of KSHV LANA will provide\nnovel viral-specific targets for therapeutic intervention in KSHV-associated cancers and related disorders."
+ },
+ {
+  "id": "b323ccb3-31f7-4a0e-8bd6-0ed07f36a300",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multimodal Assessment of Near-term Risk Processes for Suicidal Ideation and Behavior",
+  "text": "Suicide is a major public health issue and ranks within the top 9 leading causes of death in adults aged 18 to\n64. This research will contribute to our ability to better predict acute increases in suicidal ideation and\ntransitions to suicide attempts in the near term, having direct implications for suicide risk assessment, risk\nstratification, and personalized intervention approaches aimed at reducing and preventing suicide."
+ },
+ {
+  "id": "b32400eb-a63b-4966-8c89-12eb58f9c814",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dynamic Haptic Robotic Training for Central Venous Catheter Insertion",
+  "text": "The goal of this study is to develop and assess the impact of advanced technologies of Resident Artificial\nIntelligent Skills Education (R[AI]SE) and R[AI]SE with augmented reality (R[AI]SEAR) have on resident\ncognitive and psychomotor learning in performing Central Venous Catheterization (CVC) through a multi-\ninstitutional study with Cedars-Sinai Medical Center, Hershey Medical Center, and West Virginia University\nMedicine. Novel medical education training technologies will be developed and validated utilizing artificial\nintelligence and augmented reality. Knowledge gained from this project will lead to enhanced medical training\nthat greatly improves patient health, reducing mechanical and infectious complications in CVC."
+ },
+ {
+  "id": "b327684b-8f65-44af-a4c1-e5489e3ca77a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A community resource for germline and somatic genetic disease modeling in zebrafish",
+  "text": "Human genetic studies have produced hundreds of thousands of loci and candidate genes for a wide range of\ndiseases, but often have not resulted in sufficient mechanistic insight to lead to actionable changes in prevention,\ndiagnosis, or treatment. One of the rate-limiting steps has been animal modeling which is typically not feasible\nat a large enough scale in animals closely related to humans, though in recent years the zebrafish has begun to\nfill this gap. We have created, maintained and continued to develop a Zebrafish Community Resource to bring\nstate of the art technologies and disease modeling to investigators studying human disease."
+ },
+ {
+  "id": "b3315221-e376-4d12-a2e3-c8c7652c477f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Chronic nicotine effects on vulnerable brainstem neurons",
+  "text": "The proposed research is relevant to public health because it examines the effects on chronic nicotine on the\nmidbrain and brainstem neurons that are particularly vulnerable to neurodegeneration in Parkinson’s Disease.\nThus, the proposed research is relevant to the mission of NIH because it will create fundamental mechanistic\nknowledge about the effects of nicotine that can be used to develop novel targets for the prevention of\nParkinson’s Disease in high-risk individuals. This research will help reduce the burden of neurological disease\nbecause it is the first step in developing non-toxic and non-addictive therapeutics that could slow the\nprogression of neuropathology in the earliest stages of Parkinson’s disease."
+ },
+ {
+  "id": "b332cac8-c151-4bf8-bff8-6950bb4e8df7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Improving Sepsis Care with Deep RNA Sequencing Data",
+  "text": "Sepsis is responsible for one out of five deaths worldwide. We propose to use RNA sequencing data to\nimprove the diagnosis and treatment of sepsis in immune suppressed patients (cancer and kidney transplant)\nthrough pathogen identification and improved understanding of RNA biology."
+ }
+]

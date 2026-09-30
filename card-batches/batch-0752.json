@@ -1,0 +1,142 @@
+[
+ {
+  "id": "7fb3f4ad-e148-44aa-bd6b-67fbb64fb89d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanism-based targeting of unique survival signaling in residual tumors",
+  "text": "Targeted cancer therapies have the exciting potential to selectively kill malignant cells while sparing healthy\ntissues, as evidenced by their often remarkable upfront activity in patients. However, in nearly all patients, a\nsubset of residual cancer cells survive therapy and later emerge to give rise to resistant disease that is very\ndifficult to treat. In this proposal, we build on our recent discovery of unique biological processes related to cell\ndeath regulation and DNA repair that are activated in residual cancer cells, proposing mechanistic studies that\nwill significantly expand our understanding of residual tumor biology while directly nominating therapeutic\nstrategies to eliminate this critical tumor cell population."
+ },
+ {
+  "id": "7fb4b2a8-c20d-443c-a1e2-4abc775e9af6",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Functional Genomic Core",
+  "text": "The Functional Genomics (FG) shared resource supports Duke Cancer Institute investigators by providing a broad range of services to facilitate the application of functional genomics and high-throughput screening technologies to the study of cancer. Through investments in CRISPR, RNAi, Open Reading Frame (ORF) and compound collections, as well as high-throughput screening infrastructure, we have assembled stateof- the-art technological platforms for functional studies in both high-and low-throughput applications. The FG provides expertise and assistance in developing and implementing genetic screens in arrayed or pooled format, as well as custom services for the creation of individual knockout, knockin or overexpression cellular models. In addition, FG enables screening of varied compound collections with either cell-based or biochemical assays for chemical genetic or drug discovery studies. FG also provides access to advanced instrumentation for screen-related or standalone assays, including multimodal plate readers and a highcontent screening (HCS) system for image-based analysis. Finally, the FG is dedicated to developing and adapting new techniques and reagents to better support the needs of DCI investigators, enabling them to keep pace with the rapidly evolving field of functional genomics. In 2022, Functional Genomics provided services to 61 DCI investigators, 67% of all users, and represented 6 DCI Research Programs. Use of the shared resource by DCI members contributed to 39 publications over the current project period, demonstrating the value of services offered by this shared resource. The FG shared resource is primarily supported by cost recovery through service fees, with additional institutional support to subsidize operating costs."
+ },
+ {
+  "id": "7fbeac97-811e-4d3f-b010-107e00b80eaa",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Decoupling sex chromosome and sex hormone regulation of cardiac myofibroblast activation",
+  "text": "The proposed research is relevant to public health because we will improve our understanding of sex-specific\ncardiac remodeling during myocardial fibrosis using bioengineered models of disease and identify paths toward\nsex-specific heart failure therapeutics. This project is relevant to the mission of the NIH, because heart failure\nimpacts over six million people in the United States, and identifying sex-based heart failure therapeutics would\nhelp resolve gender health disparities in heart failure treatments."
+ },
+ {
+  "id": "7fbf0211-56c0-4186-9c6e-f747e48ef488",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Dissecting the role of Notch signaling in the pancreatic cancer microenvironment.",
+  "text": "Notch signaling regulates pancreatic tumor epithelium. Its role in the tumor microenvironment is less clear. We\nwill dissect compartment specific Notch signaling (Aim 1); study Notch-driven myeloid polarization of T cells (Aim\n2), and test the role of Notch inhibition of T cell function and activity (Aim 3) in the pancreatic tumor\nmicroenvironment."
+ },
+ {
+  "id": "7fbf4f34-de6a-4904-b032-389dedb4051d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "5mC and 5hmC DNA alterations as sensitive and specific biomarkers for the non-invasive early detection of pancreatic ductal adenocarcinoma",
+  "text": "We will perform a comprehensive and genome-wide evaluation of cell-free DNA methylation biomarkers in blood\nsamples as potential noninvasive biomarkers for the early detection of pancreatic cancers. Moreover, we will\ngauge the potential for anticipating the diagnosis in clinical samples collected before PDAC clinical diagnosis\nduring the PLCO Trial. Successful identification of such biomarkers will provide a major advance in the\nmanagement of this fatal disease."
+ },
+ {
+  "id": "7fc6768e-425a-43e0-b564-2eb02454952e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular basis for CRISPR-associated transposons and RNA-guided transcriptional regulation",
+  "text": "RNA-guided biological systems, such as CRISPR-Cas, can be easily tailored to target any\nsequence in the genome, making them valuable tools in both research and medicine. Our\nresearch seeks to understand how RNA-guided systems, especially those involved in DNA\ninsertion and gene regulation, function at a molecular level. Our work is poised to unlock their\nfull potential, contributing to further advances in biotechnology and genome editing."
+ },
+ {
+  "id": "7fc78c42-8cf8-4c4b-9347-c478141c59fd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Elucidating spatiotemporal dynamics of nascent extracellular matrix in response to platinum treatment in ovarian cancer",
+  "text": "Dysregulation of the extracellular matrix (ECM) composition critically contributes to ovarian cancer’s ability to\nresist treatment. While this unidirectional relationship is well elucidated, it largely remains to be determined if\nchemotherapy alters newly synthesized ECM further aggravating chemoresistance. Using tissue engineering\nand metabolic labeling approaches we will track spatiotemporal changes of ECM in response to treatment to\ndirectly apply significant insights to women suffering this particularly deadly form of cancer."
+ },
+ {
+  "id": "7fce85c3-622d-45a2-b887-082eccf2b96f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A Phase 1 Study to Evaluate Chimeric Antigen Receptor (CAR) T cells Targeting TAG72 in Patients with Recurrent Epithelial Ovarian Cancer",
+  "text": "Patients with advanced epithelial ovarian cancer (EOC) become resistant to platinum-based chemotherapies\nafter which they have few treatment options and very short lifespan. The proposal clinically evaluates a newly\ndeveloped chimeric antigen receptor (CAR) T cell therapy against EOC by redirecting the patients’ own immune\nT cells against the tumor target TAG72, which is highly expressed on the tumor cells. We have designed this\npotent immunotherapy to improve outcomes for patients with advanced EOC."
+ },
+ {
+  "id": "7fd21a4b-738f-4222-8614-f90e0cde8b97",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Innate-Immune Activating Nanoparticles for Cancer Treatment",
+  "text": "The proposed research is relevant to public health as these studies will generate new fundamental knowledge\nin nanotechnology for biomedical applications and address the current technical limitations in immunotherapy\nagainst solid cancer."
+ },
+ {
+  "id": "7fd5e81e-1891-44fa-91c3-27637151cb83",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Structure-function studies of visual arrestin",
+  "text": "We propose to elucidate the molecular mechanism of arrestin-1 binding to rhodopsin, design arrestin-1\nmutants that compensate for defects of rhodopsin phosphorylation in vivo, and identify novel interaction\npartners of arrestin-1 in rod photoreceptors. To this end, we propose to use direct binding assay with\nphosphorylated and unphosphorylated light-activated and dark rhodopsin, in vivo electroretinography in\nmice, ex vivo single cell recordings of rod photoreceptors, and in vivo proximity labeling with subsequent\nmass-spectrometry."
+ },
+ {
+  "id": "7fd9863f-dea8-4ee8-841b-fc276c7ecf49",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Single-cell mitochondrial mutation lineage tracing of non-dysplastic and dysplastic Barrett's esophagus",
+  "text": "Barrett's esophagus (BE) is the only known precursor lesion for esophageal adenocarcinoma and little is known\nabout the progression from intestinal metaplasia to dysplasia. Here, we probe the molecular drivers of this\ntransition to dysplasia with unprecedented resolution using a combined approach of single-cell RNA sequencing,\nmitochondrial mutational clone tracking and 3D epithelial culture systems. Results of this work will provide new\ndiagnostic and therapeutic targets for dysplastic BE to prevent development of esophageal adenocarcinoma."
+ },
+ {
+  "id": "7fe063f4-04ba-4b67-966e-2e1e1b81bb08",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Disentangling the HIV/opioid intertwined mechanisms on mitochondrial mediated inflammasome activation, neurotoxicity and targeting strategies: In vivo and in vitro analyses of fresh human brain",
+  "text": "Narrative.\nDespite effective antiretrovirals, HIV spreads in the central nervous system and establishes persistent infection\nprecipitating HIV-associated cognitive impairment (CI). Using a unique collection of archived and fresh brain\nspecimens from Last Gift participants with thorough evaluation of opioid use and neurological conditions, this\nstudy will determine the neurological consequences of HIV and opioids and how their interactions may amplify\nor modify these effects on mitochondria-triggered inflammasome activation and neurotoxicity in resident brain\nmyeloid cells and neurons. Our overarching goal is to provide a comprehensive understanding of the intricate\nrelationship between these factors in the development of HIV-related CI and evaluate strategies to alleviate\nopioids’ effects."
+ },
+ {
+  "id": "7fe2e7ef-1c77-47cf-b41e-b4bc1cc11bba",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Unveiling the Atheroprone Role of Novel Mechanosensitive Histone Modification",
+  "text": "We recently identified a novel modification on histone H3 that increases in endothelial cells under disturbed blood\nflow, causing abnormal cell function. We propose to study the effect of this modification on endothelial\ndysfunction-caused atherosclerosis using both cell cultures and mouse models. This research will help us\nunderstand how blood vessel cells malfunction and how atherosclerosis develops."
+ },
+ {
+  "id": "7fe42d0f-ce78-4178-b844-ce0dbf7adab8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Strategies for Engineering Reliable Value Sets (SERVS)",
+  "text": "The proposed research is relevant to public health because it will develop tools to improve value sets:\nlists of codes and corresponding terms from standard clinical vocabularies that define clinical concepts,\nwhich form the basis of many clinical decision support (CDS) and clinical quality measurement (CQM)\nsystems. CDS and CQMs have the potential to support providers in delivering safe and effective care,\nbut value set issues can render them ineffective. Better value set tools, CDS, and CQMs together con-\ntribute to NLM’s mission of enabling biomedical research and improving health care delivery for every-\none."
+ },
+ {
+  "id": "7fe86bf7-5053-402e-ac80-63f161f5a2ac",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Machine learning-Based Neuromechanical Simulation for Rapid Personalized Exoskeleton Modeling to Enhance Walking Mobility in Community Environments",
+  "text": "This project aims to develop a physics-based, machine learning-driven simulation to automatically\ngenerate 3D-printed, personalized exoskeleton prototypes, improving walking mobility for older\nadults. By eliminating the need for extensive human-involved testing and large-scale datasets,\nour innovative approach optimizes exoskeleton designs and assistance profiles for each individual,\nmaking them more accessible and cost-effective. This work represents a shift from traditional lab-\nbased assistive devices to community-based approaches, addressing a key gap in rapidly\npersonalized exoskeleton modeling without the need for human testing."
+ },
+ {
+  "id": "7ff26d76-806e-4149-a37e-6223bef05d65",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "HER2 PET imaging to assess HER2 heterogeneity and predict response to HER2-targeted ADC therapy in urothelial carcinoma",
+  "text": "This project will leverage our institutional experience in tumor profiling and molecular imaging to study the clinical\nsignificance of molecular heterogeneity in urothelial cancer, with a focus on the HER2 receptor tyrosine kinase.\nAs a complement to tumor analyses, HER2 PET imaging will be used to study lesion-to-lesion differences in\nHER2 expression and to determine if patients with heterogeneous HER2 expression are less likely to benefit\nfrom treatment with HER2-targeted antibody-drug conjugates (ADCs). Given the promising clinical activity of\nHER2-targeted ADCs in patients with urothelial cancer, we predict that the studies proposed will accelerate the\nclinical development of HER2-targeted ADCs and establish a clinical role for HER2 PET imaging as a guide to\npatient selection.\n."
+ },
+ {
+  "id": "7ff6a23c-b24e-4d68-a312-95557a361617",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "SCH: New Advanced Machine Learning Framework for Mining Heterogeneous Ocular Data to Accelerate",
+  "text": "This project will focus on large-scale retinal imaging genetics data mining, develop and validate an automated\nearly ocular disease prediction and decision support system to identify risk factors and detect patients at risk\nof ocular disease. The ultimate goal is to have the model monitor patients and identify those at high risk\nduring very early stage, thus the ophthalmologists can act on these patients before the irreversible outcome\noccurs to provide the precision healthcare."
+ },
+ {
+  "id": "7ff774c7-eaa2-4227-92be-f5c2c600de0f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Culture-Independent Pathogen Identification Through Rapid Lipidomic Profiling",
+  "text": "New technologies are needed to improve the time to result for rapid diagnostic tests aimed at microbial\nidentification. We are developing a lipidomic surrogate for popular proteomic identification methods that allow\nidentification directly from clinical specimens, such as infected blood and urine samples. Our lipidomic assay\ncan be used as a stand-alone product relevant for general hospital settings, intensive care wards, and point-of-\ncare facilities on current FDA-approved MS instruments."
+ },
+ {
+  "id": "80060831-3329-49ba-96cf-354baec4a0ff",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dissecting the Synaptic and Cellular Actions of Dopamine in Vivo",
+  "text": "Dopamine is well-known for its importance in motivating, performing and reinforcing behavior, and its\ndysfunction is implicated in many neuropsychiatric diseases including depression, addiction and Parkinson’s\nDisease. How dopamine influences the activity of target neurons to modify behavior, however, remains\nunclear. Developing an understanding of dopamine’s actions on synapses, cells and circuits will help to clarify\nthese actions and pave the way for novel targets for treatments that leverage these mechanisms."
+ },
+ {
+  "id": "8007b220-be15-4fed-b2b2-da4e6b34320b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Tau Mediates Microtubule and Mitochondrial Dynamics to Control Cellular Organization and Alveolar Epithelial Repair",
+  "text": "Degenerative lung diseases are adding significant burden to the health care in the United States. Currently there\nare no effective treatments and lung transplantation remains the best resource to improve lung function and\nsurvival. Understanding the genetic and cell biological mechanisms that initiate and promote disease\npathogenesis in the aged lungs will aid in discovery of novel treatments to block or reverse these diseases."
+ }
+]

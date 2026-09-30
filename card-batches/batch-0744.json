@@ -1,0 +1,142 @@
+[
+ {
+  "id": "7cfe4b23-ace3-43c6-98c2-1f920575594f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Modeling and Characterizing the Genomic Consequences of MED12 Mutations in Uterine Fibroids",
+  "text": "Uterine fibroids (UF), also called leiomyomas, are the most widely observed tumors in women and the large\nmajority of UFs (>70 %) are caused by recurrent genetic mutations in a gene called MED12. The lack of proper\nmodel systems hampered our mechanistic understanding of how these mutations cause UF tumorigenesis and\nidentifying druggable targets. This proposal aims to create disease-relevant human cellular models through\nCRISPR engineering specific MED12 mutations to decipher the functional role of MED12 mutations and identify\ndruggable mechanisms to target mutant cells selectively in UF."
+ },
+ {
+  "id": "7d037740-3622-453c-81b6-73dd39aaed8d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of insula circuitry in the regulation of the aversive properties of ethanol",
+  "text": "Excessive ethanol consumption is a major public health issue that can drive a range of serious health problems. There are multiple mechanisms that contribute to the motivation to consume ethanol, and it has been shown that ethanol has both aversive and rewarding properties. Considerable attention has been paid to the reinforcing effects of ethanol and how these effects motivate ethanol intake. However, another factor that contributes to the motivation to consume ethanol is the sensitivity to the aversive effects. It has been hypothesized that tolerance to the aversive properties of ethanol contributes to excessive intake. One pre-clinical behavioral assay for the aversive effects of ethanol is the development of conditioned taste aversion (CTA). When a taste is paired with a treatment which produces aversive internal symptoms, a strong aversion to the taste develops. Studies comparing different rodent strains suggest a link between sensitivity to the aversive effects of ethanol and the propensity to voluntarily ingest ethanol. Importantly, it has been shown that as a dependence-like state emerges in mice, sensitivity to the aversive effects of ethanol also declines as measured by CTA. This would suggest that the tolerance to the aversive effects of ethanol that emerges with dependence may be another factor that drives dependence-induced ethanol drinking. Because the neurocircuitry underlying the aversive effects of ethanol is still poorly understood, we propose to combine cutting-edge tools to characterize the neurocircuit and molecular mechanisms that regulate tolerance to the aversive properties of ethanol. Based on previous studies and compelling pilot data, we will test the hypothesis that aversive properties of ethanol are encoded in the insular cortex (aIC) and that chronic ethanol disrupts excitatory/inhibitory (E/I) balance in the aIC, disrupting the aversive properties of ethanol, contributing to escalated ethanol consumption. Specific Aim 1 will use electrophysiology and chemogenetic approaches to explore the plasticity in aIC to BLA outputs (aICBLA) as well as the necessity of PV interneurons (aICPV) during retrieval of ethanol-induced CTA. Specific Aim 2 will use chemogenetics and electrophysiology to explore plasticity in both aICPV and aICBLA neurons during retrieval of ethanol CTA following long-term ethanol drinking. Specific Aim 3 is a collaborative aim and it will incorporate slice physiology as well as channelrhodopsin-assisted circuit mapping to explore changes in frontal-limbic connectivity between aIC, nucleus accumbens (Acb), and BLA. In addition, using fiber photometry we will measure activity of pyramidal neurons and interneurons simultaneously in the aIC and BLA. Together, all these studies will help us to identify a novel circuit mechanism that drives tolerance to the aversive properties of ethanol, which is a hallmark of alcohol use disorder (AUD)."
+ },
+ {
+  "id": "7d03f469-a549-410c-afee-e520392b69d5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Predicting Metastatic Progression of High Risk Localized Prostate Cancer",
+  "text": "NARRATIVE.\nMost Veterans are diagnosed with prostate cancer when the disease is confined to the prostate and amenable\nto cure. However, a significant proportion of localized tumors display aggressive features associated with a\nhigh risk of recurrence following definitive treatment (e.g. surgery or radiation). Our ability to predict which\npatients with high-risk prostate cancer will develop lethal metastasis is limited. We will leverage the VA\nhealthcare system and assemble a massive dataset of digital images from diagnostic prostate biopsies and\nmagnetic resonance imaging linked to standard clinico-pathologic factors and social determinants of health\nvariables. Application of artificial intelligence (AI) approaches and integration of digital biomarkers with other\nvariables will yield a “superclassifier” to quantify the likelihood of metastasis-free survival and determine\ntreatment intensification interventions to reduce metastasis."
+ },
+ {
+  "id": "7d0842ab-9208-4bf0-a4de-2d1b81a97832",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cellular Therapy for Osteogenesis Imperfecta",
+  "text": "Our work uses a novel translational approach for the treatment of osteogenesis imperfecta (OI) by\ndirect intra bone marrow cavity transplantation of mesenchymal stem/progenitor cells following total body\nirradiation. The aim of proposed study is to understand the mechanism on how irradiation affects stem cell\nengraftment and utilize alternative approaches to total body irradiation. This approach of directed therapy to\nbones has potential to improve the bone growth and the outcome of the surgical procedures performed on the\ntransplanted bones."
+ },
+ {
+  "id": "7d0d8b98-dc2d-4754-9d92-64f8b9c80800",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Functional characterization of sebaceous gland stem cells and sebocytes in the skin",
+  "text": "Sebaceous glands secrete oils that are thought to be critical for healthy skin. This proposal seeks to identify\nfactors that modulate sebaceous gland stem cells, and to test the requirement for these glands in maintaining\nproper skin function. Findings from these studies are relevant to normal skin biology, as well as to pathologies\nsuch as seborrheic dermatitis, acne and scarring alopecia."
+ },
+ {
+  "id": "7d155cfd-5572-4f5a-9dc6-739ab2488faa",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Elucidating the Mechanism in the Regulation of RNA-binding Protein Phase Separation",
+  "text": "Liquid–liquid phase separation of proteins and nucleic acids drives the biogenesis of a variety of biological\ncondensates with important cellular functions. Dysregulated phase separation of RNA-binding proteins (RBPs)\nunderlies the pathogenesis of several neurodegenerative diseases and cancers. This research aims to elucidate\nthe molecular mechanisms that regulate RBP phase behavior, which will advance our ability to restore healthy\ncellular organization and lay the foundation for advances in novel therapeutic strategies."
+ },
+ {
+  "id": "7d157840-d322-4bf8-9e8d-43381a746a0c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Structural Immunology Core",
+  "text": "The Columbia University (CU) – Weill Cornell Medicine (WCM) Center for AIDS Research (CFAR) brings together researchers from 2 major institutions united by a single large hospital system in New York City to catalyze and promote HIV research; foster new collaborations; provide robust services to faculty and community members engaged in HIV research; and develop the careers of new investigators entering the HIV field. The CU-WCM CFAR will promote HIV basic, translational, clinical, behavioral, implementation and outcomes research with a regional, national, and international impact and the overall goal of ending the HIV epidemic."
+ },
+ {
+  "id": "7d160ae1-a8bb-4305-b124-9296d274071c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project 1: Preservation of Peripheral Function and Structure",
+  "text": "PROJECT 1: PROJECT NARRATIVE\nThe proposed study is relevant to public health because it aims 1) to determine functional benefits of two\ntechniques of reducing intracochlear trauma caused by cochlear implant surgery, and 2) to better understand\nthe relationship between genetic variations and peripheral auditory function. Results from this study will have a\nbroad impact on the field by 1) providing the scientific foundation for shifting the current clinical practice for\ncochlear implant patients by implementing Dex-eluting electrode array or robotics-assisted electrode insertion\nas part of standard clinical care, and 2) laying the groundwork for developing effective, evidence-based clinical\npractice guidelines for managing cochlear implant patients based on their genetic etiologies. This project is\nrelevant to the mission of NIH because it seeks fundamental knowledge about the nature of electrical hearing\nand strives to apply this knowledge to reduce disability in patients with cochlear implants."
+ },
+ {
+  "id": "7d1a4047-9a10-46f5-9e4e-5172c13fc791",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Discovery and Characterization of Trojan Horse Carriers that Direct Drug Import into Pathogens",
+  "text": "This research plan focuses on the identification and characterization of the mechanisms by which nature\nproduces compounds that are actively imported into Gram-negative bacteria. We will carry out\nreconstitution studies to understand how Trojan horse carriers subvert active transport systems to\nfacilitate the entry of conjugates into target bacteria. We hope to use this knowledge to guide\nrepurposing existing broad-spectrum antibiotics into to those that can function against Gram-negative\nstrains."
+ },
+ {
+  "id": "7d202603-b18a-4437-903e-2e0f81d5edd5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mental Health Genomics Consortium Coordinating Center",
+  "text": "The Genomics Consortium Coordinating Center (GC3) aims to transform genetics research in mental illnesses by bringing together NIMH-supported genomics efforts. GC3 will facilitate collaboration, harmonization of phenotypic and genomics data across major NIMH initiatives, and will train the next generation of investigators into the root causes of mental illnesses. The goals of GC3 are to accelerate gene discovery in mental illnesses, enable data integration across genomics projects, develop best practices for such integrative research, and ultimately help alleviate the burden of mental illnesses in the United States of America."
+ },
+ {
+  "id": "7d21d5d2-9fd2-48bf-ad18-5b2b0aa7d19d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting Immune-Responsive Gene 1 (Irg1) and Itaconate for Cardioprotection of the Donor Heart for Transplantation",
+  "text": "This proposal follows up on our robust finding that valproic acid can upregulate Irg1, the\ntricarboxylic cycle enzyme producing itaconate, for cardioprotection of donor hearts for\ntransplantation. We will determine how Irg1/itaconate mediates donor heart preservation by\nidentifying the cell type where Irg1 is important, identify novel mechanisms by which itaconate\nmodifies and regulates antioxidant proteins, and confirm its translational role in pig and human\nhearts. Results from this study will provide novel knowledge that can be directly applied to heart\ntransplant patients to improve donor heart function and improve heart transplant outcomes."
+ },
+ {
+  "id": "7d23ab1d-581e-4adb-a85c-aaa9ecd93d21",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "SCH: HOME: Health-Oriented Monitoring Empowered by Multimodal Cyber-Physical Systems for Geriatric Care",
+  "text": "RELEVANCE: Project HOME develops a multi-agent, multimodal cyber-physical system that integrates Internet of Things (IoT) sensors, digital biomarker learning, and an orchestration agent that coordinates personalized monitoring and human-in-the-loop clinician feedback. By deploying and validating this technology in real-world senior living communities, the project advances innovative sensing, artificial intelligence, and digital biomarker technologies for continuous health monitoring and personalized geriatric care."
+ },
+ {
+  "id": "7d29201c-12cf-45bb-804d-44c9b1974d07",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Developing strategies for implementation and use of the Operating Room Black Box",
+  "text": "Narrative/Public Health Impact\nErrors occurring during surgery have a significant impact on patient outcomes, but it is hard to monitor and\nimprove team performance in the operating room. The operating Black Box (ORBB) captures and analyzes data\non intraoperative performance, providing a unique opportunity for improvement. This proposal seeks to develop\nstrategies for effectively implementing such technology and creating high-fidelity simulation-based training to\nreduce errors and improve patient safety."
+ },
+ {
+  "id": "7d299ea1-2ae6-47f4-8617-e0b0845d97d3",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "OFF-TARGET RESOURCE CORE",
+  "text": "Off-target editing analyses will be so fundamental to the development of our therapeutic leads, regardless of the disease treated—whether phenylketonuria (Lead Project 1), hereditary tyrosinemia type 1 (Project 2), or mucopolysaccharidosis type I (Project 3)—and so integral to any IND applications that ultimately emerge from the Projects, that we are proposing an Off-Target Resource Core that will serve all three Research Projects. This Resource Core will provide services that are directly aligned with the preclinical studies that are recommended by the U.S. Food and Drug Administration (FDA) Draft Guidance for Industry on Human Gene Therapy Products Incorporating Human Genome Editing, namely: (1) identification of on-target and off-target editing activity, including the type, frequency, and location of all off-target editing events, taking into account human genetic variation; (2) assessment of genomic integrity, including chromosomal rearrangements, large insertions, or large deletions; and (3) evaluation of the biological consequences associated with off-target editing."
+ },
+ {
+  "id": "7d2bbac7-8bbe-4fd2-9189-165404dcb734",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Automated detection of microstructural features that have unique protein markers and are prognostic for chronic kidney disease",
+  "text": "Chronic kidney disease is a common problem in the general community and the early changes in the kidney\ntissue that predict which people will develop chronic kidney disease are not well understood. This study will\nstudy the structures and proteins in kidney tissue specimens of patient populations that undergo removal of\none kidney by surgery and have a relatively normal remaining kidney. The goal is to develop artificial\nintelligence-based image processing tools and protein marker tests that can identify kidney tissue with high risk\nfeatures for the subsequent development of chronic kidney disease."
+ },
+ {
+  "id": "7d2da756-3768-4de2-8442-7ee3fa8eb59a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "RR&D Research Career Scientist Award Application - Renewal of Margot Damaser SRCS Award",
+  "text": "Dr. Margot Damaser is Senior Research Career Scientist in the RR&D Service of the US Department of\nVeterans Affairs and Professor of Biomedical Engineering in the Cleveland Clinic Lerner College of Medicine at\nCase Western Reserve University. She is Deputy Director and co-PI of the Advanced Platform Technology\nCenter where she collaborates to use engineering, physiology, and regenerative medicine to develop new\nmodels and devices for improvement of diagnosis, treatment, and rehabilitation of pelvic floor disorders (PFD):\nurinary incontinence, fecal incontinence, and pelvic organ prolapse. This research has application for female\nVeterans and Veterans with spinal cord injury or central nervous system disorders. During the current SRCS\naward period, she has published 37 research manuscripts, 19 review papers and 4 book chapters. She has\nmentored many young investigators and prioritizes translation of technology for the benefit of Veterans. She has\n4 Issued Patents, 3 Patents pending, and 1 Provisional Patent application, and 2 licensed technologies."
+ },
+ {
+  "id": "7d2f039f-d6fc-454e-94ae-79b483821139",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of AMPK in melanoma brain metastasis",
+  "text": "Melanoma is an aggressively metastasizing disease and is only second in the number\nof life-years lost per cancer-related death in the US, and the estimated cost of melanoma\nto the US economy is ~$3.5 billion per year. Our proposed studies will not only provide\nnew insights into the critical roles of AMPK in melanoma with emphasis on melanoma\nbrain metastasis, but also will have strong translational implications in developing novel\ntherapeutic approaches to target metabolic vulnerabilities of brain metastatic melanoma\ncells for the treatment of this deadly metastatic cancer."
+ },
+ {
+  "id": "7d33736f-4457-4ea7-a96e-6378893811dc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Quantification of cisplatin sensitivity and resistance using metabolic imaging and circulating tumor cell (CTC) biomarkers",
+  "text": "PROJECT 3 SUMMARY Cisplatin (CDDP) remains the gold-standard for chemotherapeutic treatment for multiple solid tumors, including head and neck squamous cell carcinoma (HNSCC). High rates of treatment failure result from the development of acquired resistance following this relatively toxic chemotherapy. Despite the frequent use of CDDP, no robust predictors of tumor response or development of acquired resistance exist. Treatment failure is uniformly fatal. Given the critical unmet need for predictors of tumor response and acquired resistance, we have focused our efforts on the assessment of tumor response with minimally invasive imaging (hyperpolarized magnetic resonance imaging; HP-MRI) and detection of biological shifts in circulating tumor cells (CTCs) while patients are undergoing cisplatin-based therapy. We have shown that CDDP and other genotoxic agents trigger measurable fluctuations in tumor cell metabolism detectable by both conventional biochemical assays and HP- MRI with [1-13C]-pyruvate. The recycling of key coenzymes in several reductive metabolic pathways links the effects of genotoxic stress to carbon flux from pyruvate into lactate via lactate dehydrogenase (LDH). We previously showed that genotoxic agents alter the intracellular redox state, shift pyruvate/lactate metabolism, and suppress the apparent rate of pyruvate conversion to lactate (kPL) in a manner that correlates with anti-tumor effectiveness. Genomic and transcriptomic analysis of regulatory shifts associated with the acquisition of cisplatin resistance in CTCs will re-enforce the imaging-based quantification of cisplatin sensitivity and resistance. Based on these preliminary data, we hypothesize that metabolic reprogramming driven by Nrf-2 in cisplatin- resistant HNSCC is detectable using a combination of non-invasive imaging of carbon flux (kPL- via HP- MRI) and scCTC analysis. To assess this premise, we will use well-characterized preclinical models of HNSCC that are sensitive and resistant to cisplatin. Alterations in glycolytic metabolism will be measured at baseline and following cisplatin administration through hyperpolarized imaging and biochemical assays. These measurements will be validated with biochemical assays in vitro and in vivo (Aim 1). We will also measure treatment response in HNSCC patients relative to alterations in tumor kPL by acquiring HP-MRI data prior to and following induction chemotherapy (Aim 2). Biological confirmation will be performed in CTCs to identify biomarkers associated with cisplatin resistance through genomic and transcriptomic analysis. Successful completion of this study will establish HP-MRI as a minimally invasive imaging approach to characterize relative tumor resistance to cisplatin and provide real-time feedback to optimize treatment. CTC biomarker analysis will provide critical biological support for the imaging findings. This work has the potential to change the basis for clinical decision-making regarding the use of cisplatin in HNSCC and related aerodigestive tract cancers. As a noteworthy first step towards a precision oncology approach, the proposed research is relevant to the part of the NIH’s mission that pertains to developing and applying fundamental knowledge that will help to reduce the burdens of human illness."
+ },
+ {
+  "id": "7d33b7ad-9d6a-4db0-89f0-94da4a3f016f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project 1: Immunotherapy of B cell lymphoma with NKT cells",
+  "text": "Despite remarkable progress achieved with chimeric antigen receptor (CAR)-expressing T cells in the treatment\nof relapsed/refractory B lineage neoplasms, CD19-specific CAR (CAR.CD19) autologous T cell products are not\ncurative for more than half of B-NHL patients. Thus, alternative sources of immune cells that may offer unique\nadvantages over traditional T cells are urgently needed. This project will continue explore the clinical utility in\nlymphoma patients of “natural killer” T (NKT) cells expressing CAR molecules directed to the CD19 target antigen\non tumor cells. NKT cells are promising candidates for immunotherapy because they do not induce graft-vs.-\nhost disease and have multiple routes by which they can kill lymphoma cells."
+ },
+ {
+  "id": "7d3d994a-654f-4c4c-b565-07efe1688032",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Tumor Biology and Microenvironment",
+  "text": "TUMOR BIOLOGY AND MICROENVIRONMENT (TBM) – ABSTRACT The Tumor Biology and Microenvironment (TBM) Program is a translational science program that aims to discover the cellular and molecular determinants that drive the initiation and progression of cancers through interactions with their microenvironments and develop and test innovative diagnostic and treatment strategies. This highly integrated Program includes 37 members from 13 departments and 4 schools at Wayne State University. TBM Program members, who conduct basic, preclinical, and clinical research, receive $4,468,183 in peer reviewed, cancer-related grant support, of which $1,943,419 is from the NCI. The TBM Program is organized along three major themes. The goal of the first theme is to explore biological processes that mediate the phenotypical plasticity, proliferation, and survival of tumor cells. Translational research is conducted to evaluate the potential clinical application of these molecular determinants as tumor markers and/or therapeutic targets. The second theme investigates mechanisms that enable tumor cells to overcome external barriers during invasion and metastasis. Our investigators assess the importance of factors that control extracellular proteolysis and signaling mechanisms that are being used by tumor cells to adapt to and subvert the microenvironment at primary and metastatic sites. The objective of the third theme is to develop new strategies to engage the immune system as powerful defenses against cancer. Research activities include the development of immune modulators and novel vehicles to optimally deliver immunotherapeutics, as well as the use of state-of-the art imaging modalities for monitoring the success to tumor immunotherapy. The TBM Program is led by Dr. Kay-Uwe Wagner as Program Leader and Dr. Asfar Azmi as Program Co-Leader. The Leader and Co-Leader are new since the last competitive renewal. All members of the TBM Program actively collaborate with members of the MI, MT, and PSDR Programs at KCI. Of the 484 manuscripts published between December 2015 and November 2019, 41% and 44% were intra- and inter-programmatic, respectively, and 61% were multi-institutional collaborations."
+ }
+]

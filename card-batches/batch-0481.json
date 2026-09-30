@@ -1,0 +1,142 @@
+[
+ {
+  "id": "1e1e80e8-01ff-4b1b-955f-981ece63dffd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Single cell analysis of dysregulated inducible DNA amplifications of immune response genes in Down syndrome",
+  "text": "This project will test the hypothesis that that innate immune activation drives a heterogenous program\nof inducible DNA rereplication of immune response loci which is dysregulated by trisomy 21 (T21) and\nDown syndrome. We have identified a program of immune response genes with mechanistic characteristics\nsuggesting they will undergo transient amplification during an immune response. To test our hypothesis, we will\nemploy human and mouse D21 and T21 models and perform single-cell amplicon sequencing to simultaneously\ndetermine the copy number of 100 immune-related genes in response to innate immune signaling."
+ },
+ {
+  "id": "1e222da8-cf6a-4cf6-a68c-bdefa7b2bf0a",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Biostatistics Shared Resource",
+  "text": "BIOSTATISTICS SHARED RESOURCE PROJECT SUMMARY/ABSTRACT The Biostatistics Shared Resource (BSR) of the UC Davis Comprehensive Cancer Center (UCDCCC) provides essential biostatistical support for basic science, translational, clinical, and population research. The BSR's expertise includes the design of basic research and animal studies, clinical trials (all phases), and the design and analysis of studies involving large databases like the California Cancer Registry and those derived from electronic health records. BSR biostatisticians partner with investigators at every stage, from study design and protocol development to analysis of pilot and funded projects, ensuring rigor, innovation, and reproducibility. Nationally recognized leaders in statistical methodology, BSR biostatisticians are recognized for their work in prediction modeling, biomarker discovery, machine learning, longitudinal and survival analysis, screening, and cost-effectiveness research. They are also committed to best practices for reproducible science, including open sharing of code and methods. By leveraging institutional resources and CCSG support, the BSR delivers efficient and cost-effective services for cancer investigators. It offers 10 free hours for initial consultation and thereafter has highly competitive recharge rates. The BSR has the following Specific Aims: 1) Provide statistical expertise for the robust and efficient design of new studies and investigator-initiated protocols, including sample size and power calculations and analytic plans. 2) Provide statistical advice and analysis support for UCDCCC pilot and other studies, meeting reproducible research standards from preparation of data sets for analysis through statistical procedures to reporting and publication and data sharing. 3) Foster development of statistical methodology needed to support the research goals of the UCDCCC. 4) Provide education and mentoring in the biostatistical knowledge and skills necessary for cancer researchers."
+ },
+ {
+  "id": "1e2739e8-c3b5-4d45-a930-54cb5651527d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Novel Algorithm and Data Strategies to detect and Predict atrial fibrillation for post-stroke patients (NADSP)",
+  "text": "Atrial fibrillation (AF) is the most common arrhythmia, affecting 33.5 million people globally with a\ngrowing prevalence. AF is associated with significant morbidity and mortality, including 20% of all\nstrokes, 33% of hospitalizations related to cardiac arrhythmias, and a two-fold increase in risk of\ndeath. To reduce AF-associated risks such as stroke, it is important to be able to diagnose AF early in\nthe AF trajectory when it is asymptomatic and paroxysmal in order to initiate effective stroke\nprevention interventions including anticoagulation. We propose an integrated data and algorithm\nstrategy as well as a prospective study to fully exploit and validate the power of deep neural\nnetworks, interpretable survival models, and Big Data to achieve both high sensitivity and precision in\nusing photoplethysmography (PPG) to detect AF and to use EHR data to identify patients with high\nrisk of AF post stroke to benefit from continuous AF monitoring."
+ },
+ {
+  "id": "1e2df23c-099a-4bcf-b797-8c22f9c142c0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dysregulation of TRIO GEF1 activity in neurodevelopmental disorders",
+  "text": "Genetic, biochemical, and model organism studies indicate that genetic variants in the gene encoding the\nsignaling protein TRIO contribute to the pathology of schizophrenia, autism spectrum disorders (ASD), and\nintellectual disability (ID). Our analysis of a cluster of variants associated with ASD and ID has identified a\nmechanism that controls TRIO's ability to signal. Our proposal aims to identify how disruption in this key signaling\nfunction impairs brain development."
+ },
+ {
+  "id": "1e313d23-9cec-44ad-b655-0b4907329738",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Multidisciplinary Training in Gastrointestinal Cancers",
+  "text": "Gastrointestinal cancers constitute the plurality of cancer deaths in the United States, yet there remains a pressing need to train the next generation of scientists to conduct GI cancer research in an innovative and productive manner. Leveraging strong support from Columbia University Irving Medical Center and the Herbert Irving Comprehensive Cancer Center, we have developed a GI Cancer Training Program to identify and recruit exceptional trainees, offer them a rigorous and individualized curriculum, and provide them with research experience in gastrointestinal cancers working with one of our numerous expert and experienced faculty mentor investigators at Columbia University."
+ },
+ {
+  "id": "1e35521d-4540-4c98-bdaa-60d29704a32f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Alzheimer Disease Genetic Architecture in African Americans",
+  "text": "The collective findings from this project will provide a better understanding of the genetic\narchitecture for Alzheimer disease (AD) in African Americans, permit us to develop new\nhypotheses about pathogenic mechanisms leading to AD, identify proteins as targets for\ndevelopment of drugs to treat AD, and provide genetic markers for use in AD risk assessment\nand profiling subjects for clinical trials."
+ },
+ {
+  "id": "1e39ba86-6db0-4e77-a94b-22e3420b6be2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "T-cell plasticity mediating treatment resistance and side effects in atopic dermatitis",
+  "text": "Type 2 inflammation is the basis for numerous human skin diseases such as atopic dermatitis (AD), with a high\ndisability rank and a strong negative impact on disease-related quality of life. While type 2 blockade with the\ntherapeutic antibody dupilumab is an approved treatment modality in AD, only a subset of patients shows\ncomplete skin clearance, and about 10% even develop paradoxical proinflammatory side effects. In this proposal,\nwe seek to study treatment-resistant AD as well as paradoxical inflammatory skin side effects in patients treated\nwith dupilumab to increase our understanding of underlying mechanisms and to help develop better treatment\nmodalities for patients affected by this debilitating, chronic skin condition."
+ },
+ {
+  "id": "1e3aa8bc-4f9b-48d4-91c5-d9b4eb1311ab",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Facilitate Observational Studies of Alzheimer's Disease and Alzheimer's Disease-Related Dementias Using Ontology and Natural Language Processing",
+  "text": "In this project, we propose to develop novel informatics approaches to automatically extract detailed clinical\ninformation about Alzheimer's disease (AD) and Alzheimer's disease-related dementias (ADRD) patients (e.g.,\ndisease diagnosis, prognosis, treatment, and response) from heterogeneous electronic health records\ndatabases. This technology will allow more efficient information extraction from patients' records, thus\nfacilitating clinical research on AD/ADRD."
+ },
+ {
+  "id": "1e3df607-0bae-446a-930d-e59adbafa92e",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Tumor Immunology and Immunotherapy (TII)",
+  "text": "TUMOR IMMUNOLOGY AND IMMUNOTHERAPY (TII) RESEARCH PROGRAM ABSTRACT The UCLA Jonsson Comprehensive Cancer Center (JCCC) Tumor Immunology and Immunotherapy (TII) Research Program has two primary goals. The first is to enhance understanding of tumor immunology and the tumor microenvironment, and their responses to different modalities of cancer immunotherapy. The second is to develop novel immune-based clinical therapies for patients with cancer to favorably impact the Los Angeles County (LAC) catchment area communities served by the JCCC and beyond. The TII Program brings basic, translational, and clinical scientists together in an environment that has spawned novel investigator-initiated immunotherapy clinical trials for patients with multiple types of cancer. Main areas of established intra- and interprogrammatic collaborative research include: 1) bringing new cancer immunotherapies to drug regulatory approval to improve treatments for patients with cancer; 2) analysis of the mechanistic basis of responses and resistance to immune checkpoint blockade immunotherapies; 3) clinical trials of genetically engineered T lymphocytes and their precursors with T cell receptors (TCRs) or chimeric antigen receptors (CARs) to generate a cancer-directed immune system; 4) non-invasive imaging of tumor antigen-specific T cell distribution and tumor targeting in vivo; 5) new platforms for immune monitoring of T cell responses to cancer; 6) the relationship between inflammation and cancer; 7) the use of antibody fusion proteins for cancer therapy; 8) combinations with targeted therapies to sensitize cancer cells to immunotherapy; and 9) improving the lives of patients with AIDS-related malignancies. The basic and translational research within the TII Program uses all JCCC CCSGsupported infrastructure and Shared Resources in ongoing research efforts. The Flow Cytometry Shared Resource (FCSR) is a key facility required for most (if not all) research projects within the Program. The Small Animal Imaging Shared Resource (SAISR) has made possible the pursuit of successful projects in T cell imaging in vivo, projects that are now being brought from preclinical models to patients. The JCCC/Human Gene Medicine Program Good Manufacturing Practice (GMP) suite is providing the required physical infrastructure to support multiple Program investigators in manufacturing cell and gene therapy products in-house, meeting all local, state, and federal regulatory requirements for human administration. The TII Program has 41 members hailing from 16 departments. As of 3/1/2024, peer-reviewed cancer-related funding for the Program is $10.3M and total funding is $14.1M. From 2019 – 2023, TII Program members produced 450 publications, of which 20% are intraprogrammatic, 45% are inter-programmatic and 53% are in high impact (IF >10) journals."
+ },
+ {
+  "id": "1e409edf-5514-40a4-9aa7-7080e7245dfa",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Jackson Laboratory Senescence Tissue Mapping Center (JAX-Sen TMC) - Data Analysis Core",
+  "text": "DATA ANALYSIS CORE The objective of the Data Analysis Core (DAC) of the JAX-Sen mouse Tissue Mapping Center (TMC) is to construct biomarker datasets and molecular maps of cellular senescence in mice and deliver these data to the SenNet Consortium Organization and Data Coordinating Center (CODCC). The Biological Analysis Core (BAC) of JAX-Sen will generate high-resolution, high-content molecular data to characterize cellular senescence in mouse kidney, adipose tissue, pancreas, placenta, heart and hypothalamus in aged, inbred and genetically diverse mouse cohorts. From these data, the DAC will establish state-of-the-art workflows for data annotation, curation, and analysis of transcriptomic, imaging, and imaging mass spectrometry (IMS) data to build cellular senescence maps. The DAC will collaborate closely with the DAC of the human SenNet TMC at JAX and UConn Health (KAPP-Sen TMC), other human and mouse TMCs and the CODCC to develop and implement Network- wide standards for processing, analyzing and visualizing SenNet data. The JAX-Sen DAC will leverage significant recent advances in deep learning and computer vision to define robust biomarkers of senescent cells and map their tissue context. To achieve its goals, the JAX-Sen DAC will implement rigorous and reproducible data annotation, curation, processing, and dissemination (Aim 1). The DAC will receive and centralize sequencing, imaging, and IMS data from the JAX-Sen BAC. It will automate and harden QC procedures to screen for annotation and curation errors, batch effects, and low-quality samples in collaboration with the BAC. The DAC will implement the pipelines based on common community standards, benchmark on JAX-Sen and reference datasets, and then containerize for sharing with the CODCC. From these data, the JAX-Sen DAC will construct biomarker datasets and molecular maps of cellular senescence (Aim 2). The DAC will deploy analysis pipelines for sequencing, image and IMS data with known and prospective senescence markers to identify and functionally annotate novel biomarkers of senescent cells and map their tissue context, compute the diversity within senescent cell populations, and quantify cell-to-cell interactions between senescent cells and neighboring cells. The DAC will aggregate and integrate these data and metadata to build high-quality maps of cellular senescence. Finally, the JAX-Sen DAC will disseminate JAX-Sen data with rigorous and reproducible open- source processing pipelines (Aim 3). The DAC will harmonize, standardize, and disseminate data processing and analytic pipelines with the CODCC, adhering to common community standards, standard operating procedures, and the network data sharing policy to exact reproducibility. We will collaborate with KAPP-Sen and other CODCC projects and TMCs to identify synergy, e.g., align human and mouse biomarkers on the same tissues."
+ },
+ {
+  "id": "1e4a5f0e-eb41-4a8c-a59e-a4755d71c9c9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Core C: Biostatistics and Bioinformatics",
+  "text": "BBC The purpose of the Biostatistics and Bioinformatics Core (BBC) is to provide professional expertise in biostatistics and bioinformatics for all Vanderbilt-Ingram Cancer Center (VICC) SPORE in Gastrointestinal (GI) Cancer projects, investigators, and participants. BBC support is required for all VICC GI SPORE studies; core directors and core members are readily available to investigators and in routine contact with project and other core leaders via standing monthly meetings or ad hoc meetings or phone calls. One of the strengths of the VICC GI SPORE is involvement of biostatisticians and bioinformaticians from initial project stages to project completion. Core personnel function as collaborative members of research teams to ensure appropriate study design and methods of analysis to meet the endpoints of each project. In the study planning phase, core personnel work with GI SPORE investigators to define study objectives and endpoints, analyze pilot data, select an appropriate study design, devise blinding and randomization schemes, plan interim analyses, determine early stopping rules, compute adequate sample size with concern for clinical as well as statistical significance, estimate time required to meet recruitment goals for clinical studies, prespecify the data analysis plan including appropriate statistical and bioinformatic methods, and prepare statistical sections of protocols and grant applications. During study planning, also, core personnel work with investigators and the Tissue Pathology and Cellular Analysis Core (TPCAC) to develop a comprehensive understanding of data management needs for each VICC GI SPORE project. According to need, core personnel then may construct one or more data capture systems; integrate existing and/or newly developed systems; assist with refinement, expanded functionality, or standardization of existing systems; identify opportunities for and implement automation to minimize human time and error involved in data capture; and/or provide data quality control pipelines. As studies are conducted, core personnel work with investigators to monitor data collection for timely data accrual; run data quality pipelines to check and clean data; flag for review and work with investigators to address pervasive data quality concerns or other unanticipated problems that may arise during studies; execute interim analyses; monitor study safety; prepare, adapt, or develop methodology according to the predefined data analysis plan; and test the planned analysis pipeline against representative data types as study data accrue. After accrual of all study data, core personnel work with investigators to re-examine data, implement analysis pipelines according to the prespecified data analysis plan, generate statistical tables and figures, and write statistical and bioinformatic inputs and results for publication."
+ },
+ {
+  "id": "1e5170c2-f2e3-4c7d-91ea-3d2e187902b1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Establishing patient-derived iPSCs as a platform for discovery research in NAFLD",
+  "text": "Nonalcoholic fatty liver disease (NAFLD) is a common and potentially very serious disorder that can lead to\ncirrhosis and liver cancer. A person’s genetic background represents an important risk factor for NAFLD and the\nrisk involves the combined effect of many genes. The goal of this research project is to use stem cells previously\ngenerated from NAFLD patients to understand how multiple genetic risk factors combine to cause NAFLD. This\ninformation will help us tailor NAFLD treatments to individual patients based on their genetic profile."
+ },
+ {
+  "id": "1e5f19e1-d51b-4a57-8609-e4446c5c5e49",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project 2: Near-Infrared Targeted Tracers for Intraoperative Identification of NSCLC",
+  "text": "This grant application develops a combination of four optical contrast agents that can be used to visually \nimage lung cancer cells during lung cancer procedures. All prior attempts at intraoperative imaging of \nlung cancer have been limited to imaging a single target. This proposal will broaden this approach by \ncreating a library of tracers that can be utilized to visualize a host of targets on lung cancer."
+ },
+ {
+  "id": "1e6a53e0-ca45-49ab-be90-e808a8b2c550",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development and Testing of an Ecological Momentary Intervention to Reduce Alcohol Misuse among Young Women of Reproductive Age",
+  "text": "Emerging adult women of reproductive age (18-30) engage in increasing rates of alcohol misuse which can\nlead to sex, unintended pregnancy, and fetal alcohol spectrum disorders if alcohol use continues before\nrecognition of pregnancy. We will adapt, develop, and test through a randomized controlled trial an enhanced\nmotivational interviewing intervention that utilizes smartphones to provide real-time messaging that addresses\ntriggers for drinking when individuals visit locations associated with risky alcohol use."
+ },
+ {
+  "id": "1e6c02e8-47cc-4cdf-bf1a-3980a8f3d33f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Antigen-directed therapies for autoantibody associated neuroinflammatory diseases.",
+  "text": "Increasingly neurological diseases associated with and caused by function-altering autoantibodies have been recognized. Based on the pace of identification of new syndromes, it is clear that there are many other such syndromes that remain uncharacterized. This team science proposal will present an approach to comprehensively characterize new autoantibody-caused syndromes, produce new animal models of these diseases, and develop strategies for antigen-specific, targeted therapeutic approaches for these novel diseases."
+ },
+ {
+  "id": "1e6c93fc-da0e-4132-a566-2ad619b49f1a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "LIN28B promotes colorectal cancer differentiation and metastasis",
+  "text": "Differentiation is a fundamental process evident in a variety of cell states and transitions. Differentiation is a\ncommon feature in tumors, which is most pronounced in colorectal cancer, a vexing health problem. We seek to\nelucidate how LIN28B, an mRNA binding protein, fosters differentiation in colorectal cancers and concurrently,\npromote metastasis in this differentiated state."
+ },
+ {
+  "id": "1e73b055-cff6-4a9d-a43b-d80a75afd6b1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "BLRD Research Career Scientist Award Renewal",
+  "text": "My major research focus is to understand the fundamental mechanisms of gene regulation and\nfunction in the development of cardiovascular disease, a major health burden for our veterans.\nOur overarching goals are to translate the findings into identification of novel molecular targets\nand strategies for prevention and intervention of cardiovascular disease. With the ongoing\ncollaboration with physician scientists and basic scientists at the Birmingham VA medical center\nand UAB, our ongoing investigations will not only elucidate the precise molecular and cellular\nmechanisms governing vascular smooth muscle cell reprograming in the pathogenesis of\nvascular disease and aging; but also provide novel molecular insights facilitating further studies\nto translate these findings into therapeutic strategies for patient care, so as to improve the\nveterans’ health, life span and quality of life, and reduce health care costs."
+ },
+ {
+  "id": "1e77173a-a701-4dce-9994-58831d956655",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Augmented Reality Platform for Telehealth Rehabilitation",
+  "text": "Older individuals with chronic musculoskeletal disorders face challenges in arranging in-person visits for their\ncare due to the scarcity of resources or fear of viral transmission during the current global pandemic. While\ntelehealth visits have become increasingly available through various video conferencing apps, existing\ntechnologies fail to provide the quantitative outcomes necessary for evidence-based practice. To overcome this\nshortcoming, we are developing an augmented reality (AR) platform for telehealth rehabilitation that uses\ndepth-sensing camera technology available in consumer devices (e.g., a smartphone, laptop, or PC-based\ncamera) and body-tracking algorithms integrated within a telehealth video-conferencing platform to deliver\nreal-time measures of joint mobility, alignment, posture, balance, strength, and function that supports the\nmandate for more effective delivery of evidence-based telehealth rehabilitation."
+ },
+ {
+  "id": "1e7acc2b-b67d-4f1f-92e7-3bf386aaf4bb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Resolving epigenetic instability during pluripotent state transitions: a roadmap for exploiting the biomedical potential of dynamic human stem cell states",
+  "text": "The past decade has witnessed significant interest in the isolation of “naïve” human pluripotent stem cells\nthat more closely resemble pluripotent cells found in the human blastocyst in vivo. However, naïve human\npluripotent stem cells generated with currently available methods display irreversible erasure of parent-\nspecific imprinting, retain an epigenetic memory of the inactive X chromosome in female cells, and are not\ndirectly responsive to embryonic lineage cues. This proposal will design rational strategies to resolve this\nepigenetic instability and establish a robust in vitro platform to model early human development and X-\nlinked disorders."
+ },
+ {
+  "id": "1e7c0cdc-c71b-4595-b8fd-a96d007ab41e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Optimization and development of extracellular matrix-targeting probes for PET-based assessment of lung fibrosis disease activity",
+  "text": "Assessment of active pulmonary fibrosis, a progressive, fatal disease characterized by unrelenting scarring and\nstiffening of the lungs, is critical for appropriate therapeutic treatment. This project is relevant to public health as\nit aims to determine the capacity of a novel positron emission tomography (PET) probe to accurately detect\npulmonary fibrosis disease activity in mice and chemically optimize it to enable future clinical translation. These\nstudies will serve as a foundation for future clinical applications of this PET-based probe as a non-invasive\nmethod for assessment of activity for this deadly disease, in order to determine best treatment for patients,\nreduce their illness, and lengthen their lives."
+ }
+]

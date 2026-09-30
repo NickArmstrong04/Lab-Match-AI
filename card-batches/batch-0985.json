@@ -1,0 +1,142 @@
+[
+ {
+  "id": "d24dd616-7462-44b9-91b5-e08ac87f086c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Electrophysiological biomarkers to guide deep brain stimulation treatment in obsessive-compulsive disorder",
+  "text": "Obsessive-compulsive disorder (OCD) is a severe psychiatric illness that can cause significant disability, and for\nmany unresponsive to standard treatments, deep brain stimulation (DBS) is a promising surgical option. However,\nDBS response is highly variable, and treatment management is extremely challenging because there are no\nobjective biomarkers to indicate which patients will benefit or how to tailor treatment for the best outcomes,\nlimiting access and prolonging suffering for those with treatment-resistant OCD. This research will develop\nbiomarker-based strategies to enhance outcomes and broaden accessibility of DBS for those most severely affected."
+ },
+ {
+  "id": "d255be05-b930-419c-82cc-c6998fec43ec",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms and consequences of sequence context-dependency of human mutation rate",
+  "text": "Mutation is the driver of evolution, the root of heritable diseases, and the initiator of tumors. Despite its direct\nrelevance to human health and evolution, we understand little about why mutation does not happen at the\nsame rate at all sites across the genome. We will apply novel computational methods to genomic and\nepigenomic data from various sources to investigate the molecular mechanisms behind mutation rate variation\nacross the genome, as well as its functional, evolutionary, and practical consequences."
+ },
+ {
+  "id": "d25a3349-ead8-4dc8-8e45-aee9bcc07812",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "From stress to anhedonia: examining inflammation and altered glutamate function as distinct or common etiological pathways",
+  "text": "Stress is a major risk factor for mental health problems and has been strongly linked with the development of\nanhedonic symptoms (i.e. “stress-induced anhedonia”), however, the mechanisms by which stress leads to\nanhedonia are not fully understood. The goal of this K01 proposal is to explore the independent and additive\ncontributions of mPFC glutamate function and inflammatory cytokines to stress-induced anhedonia.\nElucidating these pathways will inform new targets for the treatment of anhedonia."
+ },
+ {
+  "id": "d25ac9f5-45ad-4139-9ff9-12ea26c87a2f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Advanced Neurovascular Imaging Using 7T MRI to Assess Long-Term Effects of Proton Radiotherapy in Pediatric Brain Tumor Survivors",
+  "text": "Pediatric brain tumor therapies, including proton radiotherapy (PRRT), have transformed\npreviously fatal conditions into treatable diseases, with 5-year survival rates of 83%; however, these treatments\noften result in significant long-term neurovascular damage, such as cerebral microbleeds and arterial changes,\nwhich can lead to cognitive impairment and vascular complications such as infarcts and hemorrhages. Current\nneuroimaging techniques like magnetic resonance angiography (MRA), susceptibility-weighted imaging (SWI),\nand quantitative susceptibility mapping (QSM) are limited in their ability to detect these changes at early stages\ndue to insufficient spatial resolution and increased sensitivity to motion and physiologic artifacts due to long scan\ntimes, which can hinder timely diagnosis and intervention. This project aims to develop advanced neurovascular\nimaging protocols on ultra-high field 7T MRI, incorporating novel motion-robust sequences with real-time\nshimming using rapid free induction decay (FID) navigators and self-supervised deep learning reconstruction\ntechniques to achieve ultra-high resolution in clinically feasible imaging times, and we will utilize the improved\nsensitivity of our advanced neurovascular sequences to characterize radiation changes in medulloblastoma\nsurvivors treated with PRRT and explore differences from those treated with photon radiotherapy (PHRT)."
+ },
+ {
+  "id": "d26092ee-7555-4dfd-a351-f7710b0580f8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Demonstrating the Feasibility of Democratized Push-Button Autonomous Cardiac MRI exam in Community Family Health Centers (AutoCMR for FHC)",
+  "text": "This proposed project has three key aims that together will work towards democratizing access to advanced\ncardiovascular MRI imaging for underserved community family health centers to diagnose heart failure. The\nproposed project’s aims include validation of an automated push button cardiac MRI protocol, extension of the\nprotocol to target key HF populations, and reducing documentation burden for interpretation."
+ },
+ {
+  "id": "d26b2ff8-c078-4a0f-8e68-60e151f356d8",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Lipotoxicity and Maintenance of Metabolic Health",
+  "text": "In type 2 diabetes, accumulation of excess fats in the liver can progress to liver dysfunction or cirrhosis. Studies\nin this proposal identify a novel mechanism for regulation of fat metabolism in liver tissue that protects against\nthe toxic effects of excess fat. Results of this work could lead to new therapies for one of the most common\ncomplications of diabetes."
+ },
+ {
+  "id": "d26b5b14-1579-4dbb-b392-3e6c80fba943",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Utah Population Database (UPDB)",
+  "text": "UTAH POPULATION DATABASE SHARED RESOURCE ABSTRACT The Utah Population Database Shared Resource (UPDB), established at Huntsman Cancer Institute (HCI) in 1994, contributes to HCI’s mission by providing state-of-the-art data and analytic services to support genetic, epidemiologic, demographic, public health, behavioral, and health services research. UPDB provides privacy-protected access to unique data sets derived from one of the world’s richest sources of linked individual-level genealogical, medical, vital, and geospatial information, enabling a wide variety of biomedical investigations, including statewide population analyses. The data include over 11 million individuals linked into pedigrees covering up to 17 generations. UPDB’s aims are 1) to assemble state-of-the-art integrated genealogical, medical, and vital records and provide data analysis and interpretation for cancer investigations; and 2) to support the scientific research objectives of the Cancer Center by providing access to tailored complex data sets and advanced analytic tools. UPDB has been directed by Ken Smith, PhD, since 2010. Management of UPDB within the Cancer Center ensures that this Resource addresses the needs of Cancer Center members. The services provided by UPDB are unique and do not exist at any other National Cancer Institute cancer center. UPDB adds value to cancer research by: 1) providing data and analytic tools to identify high-risk cancer families, 2) adding extensive geospatial information that permits linkages to environmental variables, and 3) offering guidelines for the efficient and cost-effective recruitment of subjects into research projects. UPDB infrastructure enables Cancer Center members to exploit otherwise unavailable key data resources, including the University of Utah Health and Intermountain Healthcare data warehouses. Cancer Center members with peer-reviewed funding comprise 11% of the users, and total cancer-related usage exceeds 48%. Since 2014, UPDB data have been used in 61 cancer-focused, Institutional Review Board (IRB)-approved projects that have yielded 118 publications. UPDB is an unparalleled biomedical research resource. It provides outstanding data quality on large multi- generational pedigrees, linked to the Surveillance, Epidemiology, and End Results (SEER) Utah Cancer Registry and most of the state’s electronic medical records. The data in UPDB span decades and are enhanced by other high-quality databases and geocodes, exposed to rigorous data quality control techniques, and made available to Cancer Center members with IRB-approved protocols at a reasonable cost. UPDB enhances the productivity and creativity of HCI’s members and contributes to the Cancer Center’s overall mission to understand the causes of cancer and promote its prevention within HCI’s catchment area, the State of Utah."
+ },
+ {
+  "id": "d26f50c5-f343-4240-a76a-305f1bd57702",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multimodal Phenotyping to Predict Non-Response and Opioid Risk in Chronic Low Back Pain",
+  "text": "Chronic low back pain (cLBP) is a leading cause of disability and a common pathway to long-term opioid use.\nThis project will leverage rich, multimodal data from the NIH HEAL BACPAC Mechanistic Research Centers and\nthe BEST Trial to identify phenotypic subgroups of patients at risk for poor response to non-opioid treatments\nand subsequent opioid exposure. Findings will inform the development of predictive tools to support early\nintervention, reduce unnecessary opioid use, and advance precision strategies for pain management."
+ },
+ {
+  "id": "d27287c4-9e5b-4f64-9e3e-0a4490c26bb9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Data-driven Development of Clinically Translatable EHR-Based Models to Estimate Severe Mood Episode Risk for Young People with Bipolar Disorder",
+  "text": "Bipolar disorder (BD) is a leading cause of global disability in young people, driven largely by severe mood\nepisodes of depression and mania, which drive the high rates of suicide, functional impairment, and costly\nneed for frequent inpatient hospitalization and emergency care. Despite this burden, tools to estimate\nindividual risk for severe mood events and guide personalized prevention strategies among young people with\nBD are lacking. This study will leverage rich electronic health record (EHR) and claims data resources to\ndevelop and validate machine learning models for estimating risk of severe mood crises for young individuals\nwith BD, engage patients and clinicians to design a user-centered clinical decision support tool for prevention\nand early intervention of severe mood events based on individual risk, and take critical steps toward clinical\nuse by evaluating the tool's acceptability, usability, and feasibility in real-world healthcare settings."
+ },
+ {
+  "id": "d2730873-3804-4bc8-abbf-4b379552abb7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Understanding plant virus-based adjuvants as therapeutics",
+  "text": "This research proposal is aimed at understanding how exposure to plant viruses can boost the immune\nsystem's ability to protect from diseases like cancer and infectious disease. Data from this research will\ncontribute to the fundamental understanding of trained immunity and the role of plant viruses in\nimmunoprevention strategies."
+ },
+ {
+  "id": "d2735b6c-56c5-40a9-8a6c-f0d612884719",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of Colonic Epithelial Restitution and Differentiation",
+  "text": "Inflammatory bowel diseases such as Ulcerative Colitis (UC) are debilitating diseases that severely impact the\nquality of life of patients. In UC, an inability of the lining of the colon to properly seal ulcers leads to\ninflammation that is difficult to treat. In this proposal, we are examining how inflammation activates the lining of\nthe colon to cover ulcers by reverting to a fetal-like state and how the lining recovers its normal state after\nulcers are covered."
+ },
+ {
+  "id": "d27a7a45-c70d-4c3e-8f44-05f0ad0181c1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Human Coronary Artery Plaque Transcriptomes and Cardiovascular Risk Assessment",
+  "text": "Our current understanding of how blockages in human coronary arteries become unstable is incomplete, and\nour ability to predict future heart attacks in patients who have had blockages treated with stents and balloons is\nlimited. We have developed a novel way to determine the genes expressed in human coronary plaques by\nobtaining the genetic material from balloons used when blockages are opened. These data will provide a\ndeeper understanding of human coronary atherosclerosis, show important biological differences between\nstable and unstable plaques, identify potential therapeutic targets, and establish a new tool to predict the future\nrisk of heart attacks in patients."
+ },
+ {
+  "id": "d27e8973-ffcf-410e-8884-7af852f382ca",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multi-Modality Modeling of Glioblastoma Progression: Integrating DTI and Prognostic Biomarkers for Personalized Radiation Therapy Targeting",
+  "text": "Current Glioblastoma (GBM) radiation therapy (RT) relies on uniform geometric margins that often\nmiss microscopic tumor infiltration along white matter tracts and unnecessarily irradiate healthy\nbrain tissue. Our research addresses this critical gap by creating personalized, biologically-\ninformed RT target volumes through generating and validating an infiltration risk map (WMIR)\ninformed by an atlas from more than 500 patients and personalized Diffusion Tensor Imaging\nmapping, then integrating it with anatomical MRI and molecular biomarkers through an innovative\nAI framework to distinguish true tumor highways from anatomical bystanders. By demonstrating\nsuperior predictive performance through multi-faceted validation including spatial accuracy\nagainst ground truth progression, dosimetric assessment, and histopathological validation with\ntissue samples, our work paves the way for a clinical trial testing WMIR-guided RT, a paradigm\nshift from geometric to biological targeting that could transform outcomes in this fatal disease by\nimproving tumor control while preserving normal tissues."
+ },
+ {
+  "id": "d288e867-1aa3-446f-896f-4faa9832d559",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Longitudinal and Momentary Associations Underlying the Relation of Food Insecurity and Gestational Weight Gain: Toward Obesity Risk Prevention",
+  "text": "Food insecurity (insufficient access to the food needed for a healthy life) during pregnancy is associated with excess gestational weight gain, postpartum weight retention, and intergenerational obesity risk. To develop interventions that target obesity risk in pregnant and postpartum women with food insecurity, it is first necessary to identify the behavioral and psychosocial pathways through which food insecurity contributes to weight change during these periods. Through a community-engaged research lens that prioritizes ongoing collaboration with community members, this study will test momentary and longitudinal relationships among food insecurity, appetitive drives, psychosocial distress, disinhibited eating, and weight change in pregnancy and postpartum, thus informing future intervention development research to promote perinatal and intergenerational health."
+ },
+ {
+  "id": "d28acfd2-2081-49f1-a744-46a524a3dcb3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Advanced Microscopy Shared Resource",
+  "text": "ADVANCED MICROSCOPY SHARED RESOURCE The UNMC Advanced Microscopy Core Facility (UAMCF) at the University of Nebraska Medical Center is dedicated to providing top-notch microscopy and imaging services for competitive fees. The UAMCF was launched in August 2014 to replace the previous campus microscopy core facility (Confocal Laser Scanning Microscopy Facility: CLSMF) with the goal of acquiring super-resolution microscopy capabilities on campus. UAMCF currently provides users with access to a dual-platform super-resolution microscope with capabilities for super-resolution Structured Illumination Microscopy (sr-SIM) and single molecule Photoactivatible Localization Microscopy/direct Stochastic Optical Reconstruction Microscopy. Sr-SIM capabilities include up to 100 nm resolution in the x/y axis, and ~300 nm axial resolution. PALM/dSTORM capabilities include single molecule imaging and precision of ~5 nm coupled with ~10 nm Nyquiste Resolution. In addition, two recent- model Zeiss confocal microscopes, fully equipped for live image analysis and complete with adjacent workstations are also available. The Zeiss LSM 800 confocal microscope also has an Airyscan unit for enhanced resolution that approaches that of sr-SIM imaging. The facility provides outstanding service including consultations by active researchers with expertise who have published studies using advanced microscopy techniques. In addition, a Zeiss Cell Discoverer 7 microscope is available for a variety of automated studies. Finally, the facility also boasts a complete Imaris workstation for advanced 3D imaging processing and quantification. Overall, the UAMCF provides outstanding support for Cancer Center members and other researchers on and off campus."
+ },
+ {
+  "id": "d28ca1f1-e82f-4ac6-b235-684c6042468c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeted Delivery of CRISPR Cas12a RNPs for HIV Gene Editing",
+  "text": "Despite effective viral suppression by antiretroviral therapy (ART), HIV persists in latently infected CD4⁺ T\ncells, which remain the principal barrier to a functional cure. CRISPR–Cas12a ribonucleoproteins (RNPs)\nenable precise, transient excision of conserved HIV proviral regions but are limited by the lack of delivery\nsystems that selectively target CD4⁺ T cells within lymphoid tissues and enable efficient intracellular\ndelivery. We will screen lymphoid-tropic, CD4-targeted lipid nanoparticles (LNPs) to safely deliver\nfunctional Cas12a RNPs. These LNPs will be evaluated for CD4-speciﬁc uptake and genome editing in HIV-\ninfected cells, as well as lymphoid biodistribution, selective CD4⁺ T-cell targeting, and antiviral efficacy in\nhumanized HIV-infected mice. This clinically translatable, non-viral platform overcomes the liver bias of\nconventional LNPs and enables targeted delivery of functional Cas12a RNPs for precise proviral excision\nin HIV reservoir cells, advancing HIV therapy toward a durable functional cure."
+ },
+ {
+  "id": "d2942bb0-a39e-40d1-b06f-b75017426fce",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "An Artificial Intelligence Coaching System to Improve Surgical Performance in Urologic Endoscopy",
+  "text": "This project will harness artificial intelligence to measure and improve surgeons' skills in kidney stone removal surgeries,\naiming to make these procedures safer and more successful. In doing so, it strives to improve patient health outcomes and\nreduce the incidence of surgery-related complications."
+ },
+ {
+  "id": "d2954caf-885e-4cd3-8394-9a2e92df8f4f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Training and Experiential Learning in Biomedical Informatics (TExBioMed)",
+  "text": "The next generation of multidisciplinary investigators will require foundational training and experience in both the life and physical sciences, as well as in computational, mathematical, and engineering disciplines, to tackle increasingly complex problems that impact our health. TExBioMed, an education research initiative of the Louisiana Center for Health Innovation at the University of Louisiana at Lafayette, will leverage the institutional commitment to increasing research training by recruiting and immersing talented undergraduate students from multiple disciplines in a training environment that will expose them to the current state-of-the-art in biomedical informatics, health and public health informatics, and data science. The program's ultimate goal is to increase the talent pool to fulfill the needs of the nation’s current and future workforce by providing the participating students with unique, hands-on training and research experience that will broaden their view of human health in post-genomic computational and data science research areas and motivate these students to pursue careers in Biomedical Informatics/Data Science fields."
+ },
+ {
+  "id": "d295a04c-0db1-4e61-90cb-b5f50427c6f3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A Team Science Approach to the Co Development of Oral Mucosa for Therapeutic Purposes",
+  "text": "Tens of thousands of oral soft tissue grafts are performed annually in the U.S. after trauma or biopsy in the\nmouth, but current approaches have significant limitations. In this application, our team – consisting of experts\nin stem cell biology, regenerative medicine, clinical dentistry, bioengineering, and materials science – proposes\nto make grafts from a patient’s own stem cells that can be tailored to diverse clinical needs. At the end of the\nproject, we will have generated grafts that mimic the normal tissues in the mouth, which will reduce rejection and\nimprove outcomes for patients."
+ },
+ {
+  "id": "d2974022-418c-4906-83f4-1f0290da4d24",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Local Delivery of AdipoRon to Treat Arthrofibrosis",
+  "text": "Joint stiffening (arthrofibrosis) is a debilitating complication following total knee arthroplasty, which is a very\ncommon surgery in the United States, with limited treatment options. While sustained inflammation and aberrant\ntissue generation are primary manifestations of arthrofibrosis, the cellular and molecular effectors as well as\nbiochemical characteristics of arthrofibrotic tissues have yet to be elucidated. Our studies are focused on defining\nmechanisms that lead to arthrofibrosis and testing new therapeutic interventions that disrupt downstream\nprocesses leading to this musculoskeletal disease."
+ }
+]

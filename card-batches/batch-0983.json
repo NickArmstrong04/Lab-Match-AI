@@ -1,0 +1,142 @@
+[
+ {
+  "id": "d19d27a8-5700-49d7-950a-d7bb196bc177",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Novel Calcium Signaling Nanodomains in Vascular Smooth Muscle Cells",
+  "text": "Nearly half of adults in the United States have hypertension. Abnormalities in vascular smooth\nmuscle cell Ca2+ signaling mechanisms have been linked to increased arterial contraction and\nelevated blood pressure in hypertension. We have identified two new Ca2+-signaling pathways\nin vascular smooth muscle cells that exert opposing effects in the control of blood pressure. The\nproposed studies will investigate the individual components of these pathways under normal\nconditions and in hypertension. These studies will advance our understanding of blood pressure\nregulation by vascular smooth muscle cells and identify novel therapeutic targets for treating\nelevated blood pressure in hypertension."
+ },
+ {
+  "id": "d19ef785-ebbd-4d5a-9907-6e4261149735",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "DECIPHERING THE MOLECULAR BASIS OF SOMATIC GAA-REPEAT DYNAMICS IN SCA27B",
+  "text": "SCA27B is a common autosomal dominant ataxia, caused by intronic GAA•TTC repeat expansions in FGF14.\nWe have recently shown cerebellar-specific somatic expansions of this repeat. The core hypothesis is that the\nmolecular mechanisms underlying the dynamics of such somatic instability are at the core of the pathogenesis\nand potentially apply to a broader set of neurodegenerative disease. An integrated COMBINE-SCA27B study\ngroup will work jointly as ONE TEAM at U of Miami, UT Southwestern, and McGill U."
+ },
+ {
+  "id": "d1a32d40-4f5c-4246-8e42-28524c23da82",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "High-Throughput NMJ Assay for Botox Potency Screening",
+  "text": "Current approaches to measuring the potency of manufactured lots of Botulinum toxin (BoT) involve laborious\nand ethically dubious mouse lethality assays. Organ on chip technologies based on human induced pluripotent\nstem cells offer an attractive solution as they can be performed rapidly and in absence of ethical concerns. In\nthis proposal, we will develop an integrated, next-generation platform consisting of instrumentation and stem-\ncell based models of the neuromuscular junction that can be used for BoT potency assays."
+ },
+ {
+  "id": "d1b29bba-16eb-4860-bd62-f17599a21e5a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Microfluidic Devices For Determining Dynamics Of Islets of Langerhans",
+  "text": "The proposed research is relevant to public health because identifying the mechanisms that control the secretory\ndynamics of insulin and glucagon is ultimately expected to increase understanding of the pathogenesis of\nperturbed hormone oscillations observed in type II diabetes. The proposed research is relevant to the part of\nNIH’s mission that pertains to developing fundamental knowledge that enhances human health."
+ },
+ {
+  "id": "d1b98b39-449f-4cde-b550-1154bee2b51f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mapping Integrated Single-Cell Chromatin Accessibility with the Single-Cell Transcriptional Landscape in Pediatric Type 2 Diabetes",
+  "text": "By integrating epidemiology, epigenetics, and clinical sciences, we create new opportunity to\nassess cell-type specificity in the molecular control of inflammation and pediatric type 2\ndiabetes. This study applies specialized training in single-cell gene expression and\nbioinformatics to investigate single-cell molecular signatures that are found in youth with type 2\ndiabetes compared to healthy youth. Findings from this project will identify new markers of\ndiabetes pathogenesis in childhood, a period in the life course whose aggressive deterioration\nof beta cells warrants targeted investigation to inform translational applications."
+ },
+ {
+  "id": "d1baaf43-2d67-4620-abbf-980dfc425d87",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Regulation of DNA methylation inheritance in colon cancer",
+  "text": "This R50 award will support the Research Specialist, Dr. Rochelle Tiedemann, in advancing studies within Dr.\nScott Rothbart’s NCI-funded program to understand how disruptions in DNA methylation, a critical epigenetic\nprocess that regulates gene activity, contribute to colon cancer development. Dr. Tiedemann will lead\nexperiments to uncover how protein signaling networks, including ubiquitin-related pathways, control DNA\nmethylation patterns and how their dysregulation promotes tumor growth. These studies aim to identify\nfundamental mechanisms driving colon cancer and inform new strategies to improve the effectiveness of DNA\nmethylation targeted therapies, ultimately benefiting patients."
+ },
+ {
+  "id": "d1bd34a6-ace7-4193-a5c0-7491ab440f41",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "TR&D-1: Cell Fabrication",
+  "text": "Overview: Cultured cells form the basis of almost all TEMPs and Regenerative Medicine-based therapeutics. The long-term goal of this TR&D is to develop new technologies and strategies to achieve automated culture of cells that are phenotypically and functionally optimized for a particular TE application. Selecting cells with consistent attributes, including differentiation and expansion potential, is notoriously difficult because of variable donor genetics and a lack of understanding of cells responses to their environment. To overcome these limitations, we focus on (1) dynamic, inducible molecular reporters and non-invasive sensors to track, and control, cell and tissue manufacturing workflows in real time, and (2) targeted modifications of intracellular pathways and cell enrichment that result in more predictable and controllable cell phenotype and function. We will begin with human mesenchymal stem cells; but the strategies can easily be applied to, e.g., to tissue specific stem cells or iPS cells. This will be done following 3 Specific Aims: Aim 1: Generating genetically encoded cell sensors for dynamic and continuous sensing of cellular phenotype and function. We will generate fluorescent and/or bioluminescent (BLI) molecular reporters specific to the tissue types in development by our CPs, based on miRNA- and promoter-driven. These reporters will emit. BLI is useful to detect gene-expression activity in early differentiation events, as quantifiable data to track these events in real-time. High-resolution fluorescence imaging allows the spatio-temporal assessment of biomarker expression at a single-cell level. TR&D-1 will collaborate with TR&Ds-2, -3 and -4 to validate their technology, providing higher throughput than commonly used end-point destructive assessments. Aim 2: Developing molecular sensors for ultra-sensitive, non-invasive monitoring of cell function. We will develop molecular sensors and reporters to sense, at very low concentration, specific biological molecules within- or produced by cells in real-time, through fluorescence and electrochemical sensing systems. Our validated universal electrochemical biosensor will be adapted to any molecule of interest using aptamers and the high specificity of the CRISPR-Cas12(13) platforms. These non-invasive measurements will be designed for integration into the Tissue Foundry automation backbone as described in TR&D-4. Aim 3: Achieving dynamic control of cell phenotype and function. After assessing the spatio-temporal dynamics of differentiation using real-time molecular reporters (SA-1 & -2), inducible genetic control and/or enrichment and pre-conditioning of cells will be implemented. This will be accomplished using inducible systems such as CRISPR-activation, Tet-inducible systems and miRNA mimicking/antagonist. Alternately cell populations can be enriched for desirable biological features through novel sorting techniques (e.g., microfluidic immunomagnetic sorting, label-free enrichment)."
+ },
+ {
+  "id": "d1be1ab3-22cd-4cb8-838e-bb4091074a40",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular Mechanisms of TRIB1 Regulation of Hepatic Metabolism",
+  "text": "The gene tribbles pseudokinase 1 (TRIB1) has been repeatedly identified by human genome-wide associations\nstudies as a key regulator of cardiometabolic health in human, and in vivo mouse studies have highlighted the\nimportance of hepatic Trib1 in these associations. However, despite the overwhelming human and experimental\nevidence of the importance of TRIB1, very little is known about its main mechanism of action in the liver. The\nproposed studies in this application will elucidate how hepatic TRIB1 regulates protein ubiquitination and\ndegradation, determine the therapeutic benefit of increased hepatic TRIB1 activity in preclinical models of\ncardiometabolic disease, and leverage a unique human genetics data set to identify rare DNA variants in TRIB1\nthat can inform its therapeutic efficacy and safety."
+ },
+ {
+  "id": "d1be322f-f1f0-445d-ab9f-667041d7b908",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Assessing Urban-Rural Environmental Stress Disparities in ADRD through Ecological Momentary Assessment",
+  "text": "This study is about understanding how environmental stress plays a role in the risk of developing Alzheimer’s\ndisease and related dementias. We focus on comparing the experiences of people living in cities versus those\nin rural areas in Indiana, USA, using a mobile app and smartwatch to track their daily stressors and health data.\nThe goal is to identify specific environmental factors that might contribute to Alzheimer’s and related dementias."
+ },
+ {
+  "id": "d1c160c0-c201-401c-9401-c0deaa5e30f0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanistic Insights into Health Disparities: Leveraging Longitudinal Wearable Data to Assess the Impact of Built Environment on Physical Activity and Health Outcomes",
+  "text": "Adherence to recommended physical activity (PA) guidelines remains suboptimal in the United States, influenced by factors such as individual behavior, lifestyle, and characteristics of the built environment. This project will analyze high-resolution wearable data to model PA patterns and apply counterfactual analysis to evaluate how changes in environmental context may influence PA and related health outcomes. The findings will inform data-driven strategies for public health interventions and urban planning aimed at improving health outcomes across the population."
+ },
+ {
+  "id": "d1c311d5-1343-4212-9ce2-fb08d3269b95",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "RNA Loaded Nanoparticle Aggregates for Glioblastoma",
+  "text": "Despite maximal surgery, radiation and chemotherapy, glioblastoma (GBM) remains invariably recalcitrant, and\nnecessitates development of new therapies. We have developed a novel mRNA vaccine design (RNA-LPAs) to\nboth reprogram GBM tumor microenvironment and elicit an antigen specific T cell response. In this proposal,\nwe will explore the mechanistic underpinnings of mRNA loaded Lipid nanoParticle Aggregates (LPAs) including\ntheir loading assembly, molecular/cellular trafficking and immunogenicity using in vitro and in vivo modeling while\ndeveloping second generation vaccine platforms."
+ },
+ {
+  "id": "d1c40530-3a52-4d39-829b-4e9f5e98af6c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Behavioral Obesogenics: Environmental EDC effects on behavioral processes promoting obesity.",
+  "text": "Humans are ubiquitously exposed to complex chemical mixtures, including endocrine-disrupting chemicals\n(EDCs), which are linked to both neurobehavioral and metabolic disorders. The co-morbidity of behavioral and\nmetabolic disruptions is underexplored but crucial for understanding how EDCs contribute to complex,\noverlapping health risks. In this proposal, a rat model of human-relevant EDC mixture exposure is used to\nidentify the molecular and epigenetic mechanisms driving this co-morbidity, providing insights to inform medical\ninterventions and public health policy."
+ },
+ {
+  "id": "d1c934c4-964d-44ba-98ba-e315ec03eb5e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Understanding Cell Division",
+  "text": "Cells that have abnormal chromosome numbers and abnormal chromosome structure are major\ncontributors to infertility, birth defects, cancer, and aging. To understand how cells get the wrong\nnumber of chromosomes and how chromosomes can become fragmented, it is essential to\nunderstand the interactions of the many proteins and the biochemical pathways that drive cell\ndivision."
+ },
+ {
+  "id": "d1cd0dee-8fa6-4ab2-9535-38f4a4787f0f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Bridging the gap: joint modeling of single-cell 1D and 3D genomics",
+  "text": "With this project, I aim to develop statistical and machine learning-based approaches to jointly model the gene expression, DNA-protein binding and three-dimensional DNA structure that contain all kinds of genetic information in single cells. These studies will reveal how genes are regulated and how gene activities change over time and across cell types. I expect to identify specific genetic underpinnings for the differential efficacy of immune cell-based treatments for blood cancer patients."
+ },
+ {
+  "id": "d1d195b6-4f37-4d07-bfb1-60c2cd0e5203",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Core B: CayoBank",
+  "text": "CayoBank: Biobanking and tissue-based data generation (Core B) A major limitation in the study of aging is the lack of integrated, multi-domain data generated from systematically collected postmortem samples. Human cohorts provide valuable lifespan information, but access to intact tissues across organs and systems is highly constrained. Laboratory animal models allow detailed tissue analysis but rarely reflect the naturalistic social, ecological, and life-history conditions that shape aging. The CayoBank core overcomes these limitations by maintaining a large-scale, systematically curated biobank of postmortem biospecimens from the free-ranging Cayo Santiago rhesus macaque population. These animals have known pedigrees, lifespans, and social histories, enabling uniquely powerful analyses of aging across molecular, physiological, and physical domains. The objectives of CayoBank are threefold. First, we will generate data from previously archived postmortem specimens (N=200), producing physical, physiological, and molecular measures to support biomarker discovery (Aim 1). Second, we will collect and process high-quality postmortem biospecimens from new removals and natural deaths, using standardized protocols for necropsy, somatometric assessment, skeletal curation, and tissue dissection, with rigorous quality controls to ensure biospecimen integrity and traceability (Aim 2). Third, we will ensure long-term preservation and accessibility of the entire archive, incorporating new specimens from longitudinally sampled animals tracked by CayoField, and expanding the resource for future research (Aim 3). CayoBank provides the physical foundation for this U19 by delivering tissue-based data across multiple organs, including skeletal, brain, and visceral samples, together with plasma and PBMCs. These data support Project 1 in defining ageotypes, Project 2 in identifying molecular mechanisms of aging, and Project 3 in linking biological processes to social exposures. By integrating tightly with CayoField and CayoHub, CayoBank ensures that postmortem biospecimens and derived data streams are rigorously curated, accessible, and maximally useful for both U19 projects and the wider research community."
+ },
+ {
+  "id": "d1d35659-d460-4397-872a-ec5b7eebbd79",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Epigenetic Compounds Stimulating Dental Bone Repair",
+  "text": "Cayman Chemical Company, Inc. will develop a small molecule therapeutic that inhibits an epigenic pathway\nresulting in increased bone growth. The aim is to restore alveolar bone loss as a consequence of periodontitis\nby local application of the therapeutic."
+ },
+ {
+  "id": "d1d3fd1e-e6ca-4c58-99b4-1c3221fb86a9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Epigenomics, RNA, and Gene Regulation (ERGR)",
+  "text": "EPIGENOMICS, RNA, AND GENE REGULATION (ERGR) RESEARCH PROGRAM ABSTRACT The Epigenomics, RNA, and Gene Regulation (ERGR) Research Program, led by Director Kathrin Plath, PhD, and Co-Director Hanna Mikkola, MD, PhD, is the most basic of the six UCLA Jonsson Comprehensive Cancer Center (JCCC) Research Programs. Program objectives are to support exceptional JCCC researchers and collaborative teams to pioneer breakthroughs in gene regulation, RNA biology, genomics, epigenetics, and bioinformatics of cancer and cancer-influencing processes, and to further strengthen the Program with strategic recruitments, engage and mentor junior members, and train the next generation of cancer researchers. ERGR investigators employ a range of model systems and cancer tissues, cutting-edge omics, imaging approaches, and bioinformatics methods to elucidate mechanisms of gene regulation, from chromatin and transcription to RNA biology, to understand alterations in cancer, with an emphasis on priority cancer types in Los Angeles County (LAC), the JCCC catchment area. Building on a strong foundation in cancer genomics, epigenomics, and gene-regulatory mechanisms, ERGR strives to translate new knowledge to preclinical and clinical settings, by aiming to develop new inhibitors for cancer cells and sensitive cell-free DNA diagnostics based on Program discoveries. Many ERGR members develop computational methods and machine learning tools that benefit the cancer community broadly. ERGR also provides a hub for training activities and to share ideas, expertise, methods, and resources between ERGR labs and other JCCC Programs. The weekly Gene Regulation Journal Club and Research Meeting provides education in gene regulation mechanisms and cutting-edge technologies. The monthly Riboforum and “Blood Group” Hematology research series focuses on more specialized themes and brings labs interested in these fields together across JCCC Programs. ERGR also hosts a quarterly Cancer Genomics workshop for mining cancer databases. These interactive research and training forums frequently serve as a spin-off for collaborations within ERGR and between JCCC Programs and are expanded further by cross-disciplinary mini-retreats and special sessions on high-priority topics that link basic science to the clinic. The ERGR Program has 39 members from three UCLA schools, 13 departments, and affiliate institution Caltech. Members are highly productive with 545 cancer-relevant publications during the 2019 – 2023 project period and an impressive 54% in high-impact (IF ≥10) journals. ERGR investigators have a rich history of productive collaborations, with 23% of publications being inter-programmatic and 43% collaborative with other NCI-designated cancer centers. ERGR investigators hold $14.1M in direct cost cancer funding of which $3.3M (24%) is from the NCI. Total funding increased by 25% and NCI funding by 222% since 2019. The guiding principle of the ERGR Program is to foster the discovery of fundamental gene-regulatory processes that provide new insights into cancer initiation and progression, and thereby support the ultimate JCCC goal of defeating this dreaded disease."
+ },
+ {
+  "id": "d1dd562e-0057-4cf2-a1e7-65a810ead6f3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identification of Natural Product Inhibitors Against Colibactin-Mediated Early Onset Colorectal Cancer",
+  "text": "Effective prevention strategies are urgently needed for colorectal cancer (CRC), especially those that target\ncarcinogenic metabolites produced by gut bacteria. One such metabolite, colibactin, is a genotoxin linked to\nDNA damage, mutations, and tumor progression in CRC. This grant aims to identify enzyme inhibitors that\nblock colibactin biosynthesis as a strategy to prevent colibactin-driven early-onset CRC."
+ },
+ {
+  "id": "d1e0693e-c1c4-484f-92aa-c5d13b75b424",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "CRISPR for Cure",
+  "text": "Safe and effective strategies toward an HIV cure remain a clinically unmet challenge. This is due to HIV DNA\nintegration in the host cell chromosome, where it remains in a latent state and persists in viral reservoirs. Upon\ncessation of ART, the virus reactivates and silent virus rebounds causing viremia and eventually progression\ntoward AIDS. A highly effective, genetic strategy involving gene editing to excise viral DNA from the host\ntogether in concert with immune cell activation/improvement offers a promising curative strategy for the\neradication of the virus."
+ },
+ {
+  "id": "d1e5d177-b6d5-4140-8c3f-ef48fe24474e",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "CRISPR, VECTOR AND TRANSGENIC MOUSE CORE",
+  "text": "The overall objective of the CRISPR, Vector and Transgenic Mouse Core (CVTMC) is to provide Diabetes Research Center (DRC) affiliate investigators at the University of Washington (UW) and the Greater Seattle area with state-of-the-art vectors necessary to edit, monitor, or alter expression of genes and RNAs of interest in cultured cells, tissues, and animals. This well-used Core has evolved considerably since the last competitive renewal, based on the changing needs of affiliate investigators. New and more efficient CRISPR methods have been developed, use of viral vectors containing cell type-selective promoters has been greatly expanded, and more sophisticated virus production and purification methods have been implemented. These newer services are highly used, and now provide the bulk of the Core’s work. Conversely, services that are less cutting-edge and are no longer frequently requested have been removed. The specific aims of the Core are to provide the following services to affiliate investigators: (1) Production of CRISPR reagents for genome editing and for various other applications, such as CRISPR-mediated transcriptional activation and repression; (2) Facilitate generation of mouse models by CRISPR through collaboration with the Transgenic Resources Program at the UW; (3) Facilitate generation of cell lines by CRISPR in collaboration with the Institute for Stem Cell and Regenerative Medicine (ISCRM) at the UW; (4) Production of adeno-associated viral (AAV) and lentiviral vectors for use in animals, tissues and cells; (5) Development of genotyping methods to validate edited mice and cell lines; and other specialized molecular biology, such as cloning and PCR; and (6) Consultation at each step and training of affiliates and their trainees in the Core’s methods. The Core has been highly productive in the current funding period and has added new services that are expected to significantly increase productivity and usability for DRC affiliate investigators to meet the Center's goal to enhance research in diabetes, obesity and related disorders in the Greater Seattle area and beyond."
+ }
+]

@@ -1,0 +1,142 @@
+[
+ {
+  "id": "8d879b46-8efd-4661-b210-963ad782ab3c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Biospecimens and Clinical Database Core",
+  "text": "This Biospecimens, Pathology, and Clinical Database Core (BSP) will not only furnish essential services for the individual projects by managing patient data, safety, and samples, but it will provide a link between clinical data and research outcomes and interface with the Biostatistics and Bioinformatics Core (BSI) to allow for formal interactions between existing datasets to develop relational networks. It will accomplish its goals by integrating with and building upon existing, successful infrastructure housed at the Mayo Clinic, making the Core an efficient, integral component of this SPORE. The significant patient referral base and clinical practice at the Mayo Clinic (>10,000 patient visits annually with multiple myeloma and related conditions) will allow substantial patient recruitment to the clinical trials and translational studies in this Mayo SPORE in multiple myeloma. The already extant 12,000+ bone marrow samples in our BSP Core make SPORE and DRP projects possible. The on-going initiative of collecting data and research specimens from additional myeloma patients will feed into all SPORE projects and make Development Research and Career Development Award Programs possible. The Aims of the Core are: 1. to provide support for collection, transport, processing and storage of samples; 2. to supply the data system infrastructure to track all SPORE patients and samples; 3. to provide coordination and oversight of distribution of samples to SPORE investigators; and 4. to serve as a resource of expertise, collaborative support and service for full projects as well as Career Enhancement and Developmental Research Awardee research. This Core provides a mechanism of consistent and compatible data handling, thereby facilitating management of collected data and integration with data from existing Mayo resources. Areas of data support include database development, data form development and processing, quality control, data collection and entry, and data archiving. This Core is unique not only in its scope and potential, but also in that it will be built on existing (but currently unfunded) tissue banking facilities and processes at the Mayo Clinic in Rochester and in Arizona, guaranteeing successful performance. Finally, the Core will interface with the clinical research components of other SPORE grantees and cancer centers to facilitate multi-institutional clinical research arising out of national myeloma research efforts."
+ },
+ {
+  "id": "8d8d1166-e6f6-428c-af6a-17402f4660b8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Non-coding/epigenetic regulation",
+  "text": "PROJECT 3 - SUMMARY Adolescent idiopathic scoliosis (AIS) affects ~3% of the population worldwide and is estimated to cost several billion dollars annually in surgeries alone in the US. The causes of AIS remain largely unknown. While mutations in genes leading to syndromic scoliosis (associated with other symptoms) have been discovered, the identification of mutations causing non-syndromic/isolated AIS (only AIS without any other symptoms), have been less successful. Several genome-wide association studies (GWAS) have identified AIS-associated single nucleotide polymorphisms (SNPs) in noncoding regions adjacent to promising candidate genes, suggesting a role for gene regulatory sequences, such as enhancers, in AIS. In our preliminary results, we show that the knockout of a spinal cord enhancer near an AIS GWAS associated region residing in the PAX1 locus, a gene known to be involved in spinal development, is associated with a kinky tail phenotype, similar to the Pax1 gene knockout and hypomorphic mutation. Interestingly, the kinky tail phenotype is more apparent in females, fitting with the female specific AIS GWAS association that we observed for this region. Another hurdle in AIS genetics is that until recently there were no specific tissue/s whose aberration was widely known to cause AIS. Through work carried out by all three of our projects along with other investigators, the the cartilage extracellular matrix (ECM), i.e. matrisome, was found to be strongly implicated in the pathogenesis of AIS. Here, we will use total RNA-seq to characterize the noncoding RNAs expressed in these tissues. In addition, using combined single-cell RNA/ATAC-seq on the cartilage matrisome to identify the genes and regulatory elements associated with AIS in a single cell manner. In addition, we will carry out H3K4me3 (a mark for active promoters) and H3K27ac (a mark for active promoters and enhancers) Hi-ChIP, a technique that uses chromatin conformation in combination with chromatin immunoprecipitation (ChIP) to capture specific chromosomal interactions, to identify the target genes of these AIS-associated regulatory elements. Our genomic datasets will also feed into Project 1 (Human) and Project 2 (Zebrafish) providing candidate genes and regulatory elements to screen for AIS-associated mutations/phenotypes. To functionally characterize AIS- associated regulatory elements, we will use regulatory element assays in cell lines and mice combined with mouse knockouts to characterize gene regulatory sequences that are associated with AIS. These sequences will be selected from GWAS, both from the literature and Project 1 (Human), whole-genome sequencing on individuals with AIS carried out by Project 1 (Human) and near genes shown to cause AIS in zebrafish from our Project 2 (Zebrafish). Our preliminary results for the Pax1 enhancer knockout already attest for the potential of this approach. Combined, our work will provide a genomic encyclopedia of genes and regulatory elements that could be associated with AIS and serve as a model for the functional characterization of gene regulatory elements involved in additional subtypes of scoliosis, musculoskeletal and other human disease."
+ },
+ {
+  "id": "8d8e36f3-1a63-48f8-890f-01072c42074b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "NYR-Diabetes Research Center (NYR-DRC)",
+  "text": "Relevance\n SIMC provides cost effective, high quality resources that facilitate the scientific progress made by a large\ngroup of scientists committed to improve our understanding of the integrative physiology of diabetes in order to\nimprove the treatment of patients with diabetes"
+ },
+ {
+  "id": "8d9369d0-0c1d-4b76-8186-9333a8581bb8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Improving suicide risk identification after bariatric surgery: A mixed methods approach",
+  "text": "Patients undergoing bariatric surgery are at 4-fold higher risk for suicide, yet the reasons for this are unclear.\nThe proposed study will use quantitative (electronic health record, insurance claims, and state mortality data)\nand qualitative data (interviews) to conduct an in-depth exploration of suicide risk after bariatric surgery to\nimprove pre- and post-surgical monitoring. Patient and provider interviews will provide critical information\nneeded to implement risk identification strategies and engagement of patients in evidence-based prevention\nefforts within this growing at-risk group."
+ },
+ {
+  "id": "8d96baeb-47c1-43d2-a31f-b23cbc4f91fd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "In vitro and in vivo modeling of gene therapy vector stability when challenged by natural virus infection in human hepatocytes",
+  "text": "This project proposal seeks to define if and how natural virus infections alter the composition of gene\ntherapy vectors in treated cells and tissues, and in turn impact the stability and expression profile of therapeutic\ntransgenes. Using next-generation sequencing approaches and appropriate cell culture and animal models,\nthis work will help to define the stability of adeno-associated virus (AAV) vector genomes in human\nhepatocytes following natural virus infections by AAV and adenovirus (AdV). The project will help to inform\nwhether gene therapy recipients are at risk of losing the therapeutic vector and/or result in transgene-related\ngenotoxicity when exposed to natural virus infections."
+ },
+ {
+  "id": "8d970899-03ed-4045-95b1-ad9cda4a8f60",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Structure and function of distinct conformational states of coronavirus spike in membrane",
+  "text": "The first critical step for coronaviruses to enter their host cells and establish infection is membrane fusion, which\nis catalyzed by their spike proteins. This proposal aims to determine high-resolution structures of the spike\nproteins of pathogenic coronaviruses in distinct conformational states in the context of membrane and define\nfunctional roles of novel structural features in order to fill a major gap in our understanding of viral entry and to\nguide intervention strategies."
+ },
+ {
+  "id": "8da0c211-d33c-4d03-9ce6-d7762695f804",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Transcriptional regulation of chamber selective gene expression",
+  "text": "Changes in gene regulation are central to the pathogenesis of heart diseases such as atrial fibrillation and\ncardiomyopathy. In this project, we will use cutting edge approaches to discover novel principles of cardiac\ngene regulation that that will inform our understanding of cardiac homeostasis and disease."
+ },
+ {
+  "id": "8da2ffe7-8abc-419a-8926-d8d470e9e239",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Determining the Structure and Function of Newly Discovered Immune Systems",
+  "text": "Many immune systems have been repurposed as valuable tools in science and medicine (e.g. antibodies,\nrestriction enzymes, and CRISPR). However, the molecular mechanisms of a large number of immune\nsystems remain unknown, suggesting additional tools are waiting to be discovered. With the hope of identifying\nnovel molecular tools for use in science and medicine, this work aims to understand the structure, function, and\nmolecular mechanisms of unstudied bacterial immune systems."
+ },
+ {
+  "id": "8da83804-6ca0-4bbe-8e40-da6f52c172f1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dynamic Regulation of Alternative Splicing in the Initiation and Progression of Islet Autoimmunity in The Environmental Determinants of Diabetes in the Young (TEDDY) Study",
+  "text": "Type 1 diabetes (T1D) is a complex autoimmune disease arising from destruction of the insulin-producing beta\ncells in genetically susceptible individuals. We have shown that alternative splicing in known T1D risk genes is\nassociated with altered gene expression and T1D risk, and that RNA-binding proteins (RBPs, involved in\nregulation of gene expression) are encoded by other T1D risk genes. We propose to comprehensively examine\nthe role of alternative splicing and RBPs as a key mechanism in the initiation and progression of islet\nautoimmunity to the development of T1D."
+ },
+ {
+  "id": "8da975a2-c289-444c-be23-2b8ce852b5be",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Integrative Computational Models for Decoding Disease Mechanisms and Predicting Drug Synergies in Spatial Transcriptomics",
+  "text": "This project will develop novel statistical and computational methods to integrate Spatially Resolved\nTranscriptomics (SRT) data with clinical, pharmacogenomic, and GWAS data to uncover how Cellular Spatial\nOrganization (CSO) influences critical clinical phenotypes, such as patient survival and drug synergy, in complex\ntissues. By modeling drug efficacy and resistance within the context of CSO and identifying disease-associated\nCSOs, this research will shed light on how drug combinations interact with spatially distinct cell populations.\nThese tools will address current limitations by integrating diverse data sources, advancing our understanding of\nhow spatial heterogeneity drives disease progression and shapes therapeutic responses."
+ },
+ {
+  "id": "8daa06aa-96ea-4634-995d-b298e5212f23",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Spatial and Epigenetic Regulation of AAV Localization and Persistence",
+  "text": "Adeno-Associated Viruses type 2 (AAV2) are single-stranded DNA viruses that are modified to engineer\ngene therapy vectors, but the signals regulating how they traverse the nuclear compartment and how their\ngenomes are processed remains unknown. This study will define how interactions between transcription factors\nand DNA repair proteins drive the localization of AAV to nuclear sites where they establish long-term persistence\nas recombined episomes. In addition to research training in molecular virology and chromatin biology, findings\nfrom this study will inform the development of new types of gene therapy vectors."
+ },
+ {
+  "id": "8dab378e-a58d-4dcd-bd83-63a5755bf683",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Microbial mobilization of the actin cytoskeleton",
+  "text": "The proposed work seeks to answer important outstanding questions about the function and regulation of the\nactin cytoskeleton using infectious microbes as cell-biological tools. The actin cytoskeleton plays critical roles\nin basic cell features and behaviors including shape, migration, division, and intracellular transport, and its\nmisregulation is a crucial contributor to pathogenesis, for example, in inflammation, cardiovascular disease,\ncancer metastasis, and microbial infection. Therefore, understanding actin regulation and function may lead\nto new approaches for diagnosing and treating human disease."
+ },
+ {
+  "id": "8dae2276-fe57-43c9-856e-a9bbf0a8175d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Hydrogel delivery of stem cells to dystrophic diaphragm",
+  "text": "We will engineer a biomaterial delivery platform that will support muscle stem cell survival, expansion, and fusion\nwith host dystrophic muscle to restore diaphragm muscle function. The outcomes of proposed work will serve as\na foundation for translating the basic research and technology to the clinics, with a particular focus on\naccelerating the repair of dystrophic muscle in Duchenne muscular dystrophy patients."
+ },
+ {
+  "id": "8db91ac0-e9a3-46e2-a086-6c1cc194704d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting the Mesocortical Glutamatergic Pathway for Chronic Pain Treatment",
+  "text": "Neuropathic pain affects millions of people and is difficult to treat. This project investigates projection- and cell-\ntype-specific changes in pain circuits during the development and maintenance of chronic pain after peripheral\nnerve injury in animal models. The findings will provide important insights into the role of the mesocortical\nglutamatergic pathway in neuropathic pain and identify potential therapeutic targets."
+ },
+ {
+  "id": "8dbd4850-dea6-42ab-aa82-3f75f6c1130c",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "RAPID: A patient-centric, investigator-initiated, Bayesian-designed, open-label, phase 2 platform trial of promising drugs for AYA patients with relapsed/refractory Ewing sarcoma & DSRCT.",
+  "text": "Drug development for ultra-rare cancers presents unique challenges, including slower trial accrual, reduced\nstatistical power to detect a drug’s safety and effectiveness, reduced sample access for modern-day tumor\nmolecular profiling, and limited financial incentives for Biotech and Pharma to explore their drugs in ultra-rare\ncancers where the potential to recoup costs from R&D and funded trials is unlikely. Flipping the traditional one-\ndrug/one-trial drug-centric paradigm on its head, our proposal applies FDA draft guidance to an innovative,\npatient-centric, data-driven Phase 2 platform trial that efficiently tests multiple orphan products in children and\nyoung adults battling relapsed/refractory Ewing sarcoma or DSRCT. The Rapid Advancement of Promising\nInnovative Drugs (RAPID) platform trial pairs an adaptive design that ensures patients receive the best drug\ncandidates with innovative methods that include Bayesian trial simulations and multi-scale modelling of a drug’s\npredicted antineoplastic activity and patient safety."
+ },
+ {
+  "id": "8dc1f602-740f-49c7-8131-86a647f063b3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Integration of Organ-on-a-Chip Technology to Advance Biomedical Sciences in Idaho",
+  "text": "This project requests funding to obtain Organ-on-a-Chip technology from Emulate Inc., a state-of-the-art\nplatform that simulates human organ function using micro-engineered chips lined with living human cells. This\ntechnology will be installed in the Pharmaceutical Sciences Core Facility at Idaho State University, where it will\nbe accessible to researchers and students across the state. The Organ-on-a-Chip system will significantly\nadvance biomedical and pharmaceutical research by enabling the development of physiologically relevant\nhuman tissue models, thereby improving the predictability of drug action, distribution, and toxicity in humans\nwhile significantly reducing the need for animal testing."
+ },
+ {
+  "id": "8dc923a7-66a4-4e79-b4ce-26dbfe2644e1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A proteomics atlas of HIV/HBV infections for curing HBV",
+  "text": "HIV co-infection accelerates liver cirrhosis and liver cancer in chronic hepatitis B virus (HBV) carriers. The use\nof primary cell culture models together with unbiased and targeted functional genomics and proteomics\napproaches will determine host proteins that are induced or suppressed under co-infection conditions and in\nresponse to antiviral treatment. These studies will provide information for developing novel antiviral strategies\nthat may lead to a functional HBV cure."
+ },
+ {
+  "id": "8dcdc26e-9f49-4231-92c0-6ea4ae31f10e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating the effect of mechanical compliance of metamaterial interbody cages on spinal fusion progress in vivo",
+  "text": "We propose to investigate the complex relationships between the compliance of interbody metamaterial fusion\ncages, load-sharing, and the progression of spinal fusion in vivo. We hypothesize that the proposed metamaterial\ninterbody cages with local compliance and reduced stiffness foster more consistent load-sharing and lead to a\nfaster bone formation and better fusion. The proposed experimental concept paves the way for the design of\nnext-generation compliant metamaterial orthopedic implants and fixation devices for therapeutics of fracture\nrepair."
+ },
+ {
+  "id": "8dceffd6-81ce-42a4-9c9b-4cf7d108214d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mapping inter-cellular trophoblast-decidual signaling to its effects on invasion related maternal-fetal",
+  "text": "Invasion related maternal fetal diseases like pre-eclampisa, placental insufficiency, and placenta previa affect an increasing number of pregancies each year. This project aims to first highlight the regulatory elements in the genome that affect these studies and then build a predictive model to quantify individual risk of these diseases."
+ },
+ {
+  "id": "8dd03715-f999-4667-886b-271a7e80247e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Novel high-throughput approaches to discover and dissect human transcriptional protein interactions",
+  "text": "Gene regulation is fundamental to biology and a predictive understanding of how protein specificity impacts\ntranscription has far-reaching impacts on both medicine and technology. While we know where transcription\nfactors bind in the human genome, we still do not have a predictive understanding of what happens after DNA\nbinding; we do not know which cofactors they bind and what effect that has on gene expression. Here, we will\ndevelop and deploy a suite of novel high-throughput technologies designed to identify and understand how\nprotein-protein interactions between transcription factors and cofactors specify transcription, generating critical\nnew tools and quantitative data that could be used for next-generation drug discovery."
+ }
+]

@@ -1,0 +1,142 @@
+[
+ {
+  "id": "863f35d7-0889-4611-b17b-59c66bc34b4d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Pelvic Floor Disorders Network Data Coordinating Center",
+  "text": "The PFDN was established in 2001 to improve the care of women with PFDs by conducting well-designed\nmulticenter studies to inform diagnosis, prevention, and treatment. A qualified, experienced DCC is critical in\nhelping the PFDN optimize research productivity through effective study design, implementation, data\ncollection, quality assurance, monitoring, and statistical analysis. RTI will continue to provide multidisciplinary\nexpertise to support high-impact collaborative clinical research studies and provide communications and\nlogistical support to optimize the efficiency and productivity of the Network."
+ },
+ {
+  "id": "8640e6db-bd69-4246-adbf-8706587c4207",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Metabolic alterations after aneurysmal subarachnoid hemorrhage",
+  "text": "Aneurysmal subarachnoid hemorrhage (aSAH) occurs in approximately 50,000 patients per year in the U.S.\nand causes considerable morbidity and mortality. Aneurysmal rupture triggers a robust and dysregulated\nsystemic proinflammatory response; however, the systemic metabolic response has not been described. This\nproject seeks to define the systemic metabolic abnormalities occurring early after aSAH using a metabolomic\nbased approach and will investigate metabolically targeted treatments that improve innate immune system\noxidative metabolism."
+ },
+ {
+  "id": "86457d5f-6ccf-4189-8301-7c168c5691fb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Integrated High-Throughput Microfluidic-Mass Spectrometry for Enhanced Biomedical Data Generation and AI Model Training",
+  "text": "AI models have great potential for optimizing chemical reactions and accelerating drug discovery, but current\nexperimental methods cannot generate the large datasets to train these models. This proposal addresses this\nlimitation by developing a scalable micro-robotic screening platform capable of performing millions of\nnanoliter-scale chemical reactions in parallel with precision. This approach will generate the extensive data\nneeded to train robust AI models that accurately predict optimal chemical synthesis workflows."
+ },
+ {
+  "id": "864c54ff-f42c-4902-8461-499316ef438f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Diabetes Endothelial Keratoplasty Study (DEKS): Impact of Diabetes and Other Predictors on Corneal Transplant Endothelial Cell Loss and Success",
+  "text": "Diabetes Endothelial Keratoplasty Study (DEKS):\nImpact of Diabetes and Other Predictors on Corneal Transplant Endothelial Cell\nLoss and Success\nAs individuals with diabetes comprise an increasing proportion of the donor cornea pool\nas well as the recipients of the donor tissue, questions continue to arise regarding the\nsuitability of tissue from donors with diabetes for corneal transplantation, a major health\nconcern considering 50,925 tissues were distributed by United States eye banks and\nused for corneal transplants by United States surgeons in 2023.\nThe DEKS Renewal will conduct long term follow-up for 5 years on patients enrolled in a\nlarge, prospective, multicenter, masked clinical trial assigning corneas from donors with\nor without well characterized diabetes status to patients undergoing corneal\ntransplantation, also characterized by diabetes status.\nThe study will examine long term endothelial cell loss and graft success after surgery,\ndefinitively determine the impact of donor and recipient diabetes on these outcomes,\nand thus help guide the eye banking and surgical community as to the safety and\neffectiveness of transplanting donor corneas from individuals with diabetes."
+ },
+ {
+  "id": "864ee268-3c15-49e8-8a1f-0c8d871dbfb2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Functional Genomics Across an Ethnically and Racially Diverse Endometriosis Population",
+  "text": "Endometriosis is a common but poorly understood condition, particularly in non-Whites, that is benign, and\noften harbors mutations in “driver” genes. This Study will use state-of-the-art single cell transcriptomics,\nepigenomics, exome-sequencing and a bioluminescent transplant model to catalogue somatic mutations\nacross a diverse cohort of patients and dissect consequences of somatic mutations to identify new therapeutic\nopportunities. These insights are expected to pave the way to the development of precision medicine for\nendometriosis."
+ },
+ {
+  "id": "865a5712-4304-4459-8294-206a34545408",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multiplex Imaging of Signaling Pathways in Cell Motility",
+  "text": "Our research focuses on developing novel fluorescence microscopy imaging tools and techniques for\nobserving enzymatic activities within living cells during movement, attachment, and invasion. By comparing the\nbehaviors of healthy and diseased cells, such as normal, immune and tumor cells, we aim to deepen our\nunderstanding of the signaling proteins that mediate cell migration and invasion mechanisms. We are\ndesigning novel molecular tools that can simultaneously monitor multiple protein enzymatic activities in living\ncells, shedding light on how these activities are coordinated to regulate cell dynamics and functions."
+ },
+ {
+  "id": "865ada55-3664-4ce1-9dca-382b6d65de20",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "In Silico Study and Optimization of Molecular Nanomotors for Membrane Photopharmacology",
+  "text": "There is a dire need in developing new molecular paradigms leading to drugs with increased selectivity, min-\nimizing undesired adverse effects, drug resistance, and environmental toxicity. Photopharmacology increases\ndrug selectivity by using controlled light-activation of a drug at a given time and location in the body. We will\nuse computational methods to study the membrane disruption mechanism of light-driven molecular nanomotors\nand optimize their molecular structure, leading to the next generation of nanomotors that can be used in pho-\ntopharmacology for treatment of cancer, antibiotic resistant bacteria, and for controlled drug delivery through\nnanolipids."
+ },
+ {
+  "id": "865c2049-6a7e-4f8e-a960-5965ae252495",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "WNT Mediated Induction of Schwann Cell Plasticity",
+  "text": "Peripheral neuropathies, characterized by sensory and motor dysfunction, are a major clinical problem and can\nbe a consequence of genetic disorders, metabolic diseases, environmental stressors, or injury. Due to a lack of\ndirect treatment options patients with peripheral neuropathies are often prescribed medications to treat\nsymptoms (e.g. pain medication), that do not promote nerve repair, highlighting a limited understanding of how\nperipheral nerve plasticity is induced and maintained. In this application, we will investigate new cellular\nmechanisms governing Schwann cell plasticity in an effort to identify novel therapeutic targets for the treatment\nof nerve injury."
+ },
+ {
+  "id": "865f3293-61c6-4d63-b319-e5c488845faa",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A Scalable Quantum-Inspired Framework for Advanced Medical Imaging",
+  "text": "Our approach introduces a physics-grounded, quantum-inspired framework that reconceptualizes medical\nimaging data as dynamic mode systems, leveraging quantum localization and wave mechanics to achieve\nsuperior signal separation, noise reduction, and image reconstruction accuracy without reliance on large\ntraining datasets or manual tuning. By integrating quantum algorithms like the Variational Quantum\nEigensolver on hybrid quantum-classical platforms, this scalable framework overcomes classical computational\nbottlenecks, paving the way for real-time, high-fidelity medical image processing and quantum-accelerated\ndiagnostics."
+ },
+ {
+  "id": "8664d363-83ef-456a-af80-2c261d54d27e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Risk and Resilience Factors in Memory Aging Among Older Cancer Survivors: A Cross Country Comparison of the US and England",
+  "text": "There is a critical need to understand the long-term aging process of the growing population of older cancer survivors. The goal of this proposal is to identify long-term memory trajectories of older cancer survivors in the US and England, evaluate socioeconomic factors in this relationship, and identify modifiable Alzheimer’s disease and related dementia (ADRD) risk factors. This study’s findings will enhance our understanding of the long-term aging process of older cancer survivors and identify potential intervention targets to promote healthy aging in this growing population."
+ },
+ {
+  "id": "86651e10-7327-43b0-a0a5-1760e917cba0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Aging Immunity to Extracellular Mitochondria Exacerbates Vascular Cognitive Impairment After Stroke",
+  "text": "Project Narrative for R01 by Hayakawa\n Aging immunity to extracellular mitochondria exacerbates vascular cognitive impairment after stroke\nAging profoundly diminishes the immune system along with mitochondrial dysfunction. It is now increasingly\nrecognized that mitochondria are present in extracellular space and act as non-cell autonomous signals. Here,\nwe propose that young macrophage/microglia is capable of recycling functional extracellular mitochondria but\naging diminishes the recycling pathway and promotes dysfunctional “pathogenic” mitochondria secretion that\nexacerbates vascular inflammation and neural cell death, thus accelerating vascular contributions to cognitive\nimpairment and dementia (VCID) after stroke."
+ },
+ {
+  "id": "866badb7-6385-4d47-89a7-585182b57351",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Neuronal RNA binding proteins regulate brain formation",
+  "text": "IGF2BP3 and SYAP1 represent a critical axis that regulates neurodevelopment and is implicated in complex\nneurological disease, but how this pathway functions at the cell and molecular level to promote brain growth is\na significant gap in knowledge. Though these genes have strong links to brain disorders, their function in neurons\nis unknown and unstudied. Results of this proposal will significantly advance our understanding of these\nimportant disease-associated molecules."
+ },
+ {
+  "id": "86709d9f-2754-474e-90c9-b37a9d75b589",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multi-organism platform for functional assessment of human birth defect associated genomic variants",
+  "text": "Birth defects occur in 3-5% of infants, are a leading cause of childhood mortality, and are a large burden to\nfamilies and society. Despite advances in genome sequencing, often the gene and variant that causes a birth\ndefect is unknown, as are the genetic, cell biological, and pathogenetic mechanisms. We propose a screening\nplatform including sequential bioinformatic analysis and experiments in multiple model systems (worm, fly, fish,\nmouse, or established human embryonic stem cell lines) to provide functional data in support of new birth defect\ngenes and molecular diagnosis, and to obtain disease relevant mechanistic information necessary to design\ntreatment strategies."
+ },
+ {
+  "id": "86713e25-7eac-4b55-a49f-aeb5de2948a1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Bioactive natural product discovery from human oral microbes",
+  "text": "The proposed research is relevant to public health because it unveils the identity, biosynthesis and\nphysiological roles of natural products produced by human oral pathogens that are important for their survial in\nhuman bodies, or produced by oral probiotics that fight against competing pathogens. Thus, the proposed\nresearch is relevant to the part of NIH’s mission that pertains to increasing understanding of chemical ecology\nand physiology of oral microbes, pathogenesis of oral infection and microbiome and their impacts on oral\nhealth and disease, and laying the foundation for advances in maintaining oral health and treating oral\ndiseases."
+ },
+ {
+  "id": "8671e3bd-18b0-47c8-92b6-69ef9f964691",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Highly parallelized characterization of histone reader dysfunction",
+  "text": "Proper interactions between chromatin and its regulatory factors are fundamental for essential biological\nprocesses such as DNA replication, repair, and transcription. Protein domains known as “readers” facilitate\nrecruitment of regulators to specific regions of chromatin marked by histone posttranslational modifications,\nhowever the characterization of “histone reader” domains is far from complete and hinders our comprehension\nof their role in diseases. The goal of this project is to develop a technology platform that will enable rapid and\nsystematic characterization of protein variant interaction with post-translational modifications and apply it to\nstudying the fundamental properties and impact of disease mutations on histone reader function."
+ },
+ {
+  "id": "867433bc-3146-4304-a2e0-4589e545b872",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mosquito/Dragonfly Liquid Handling System (SPT Labtech)",
+  "text": "Baylor College of Medicine (BCM) requests support for the acquisition of a SPT Labtech Dragonfly\nDiscovery/Mosquito HV liquid handling system, to support the biomedical research community at BCM and\nthroughout the Texas Medical Center. This instrument will benefit both basic and clinical research faculty by\nproviding accurate and cost-efficient automation for next-gen sequencing workflows. As many of these groups\nwork on translational medicine in many different fields, we expect an immediate, broad impact on human health."
+ },
+ {
+  "id": "86791007-26ba-4a74-8ab4-858ada0c93ed",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular Phenotyping and Genotyping Core",
+  "text": "MOLECULAR PHENOTYPING AND GENOTYPING CORE: Abstract The objective of the Molecular Phenotyping and Genotyping Core is to support Joslin and external investigators in the study of molecular mechanisms of disease by providing equipment, expertise, and services in molecular phenotyping and genotyping, with a focus on technology-intensive and high-density data analyses, which would be too specialized or costly for individual laboratories to perform independently. One suite of services focuses on multi-analyte characterization of samples from human studies and includes services for DNA extraction, SNP genotyping, and genetic characterization of diabetes- and complications-related genes for clinical studies (next- generation sequencing-based assay). A second suite of services provides equipment and expertise for analysis of gene expression in cells and tissues including tissue homogenization, DNA shearing, Nanodrop spectrophotometer, Bioanalyzer analysis of DNA/RNA, custom library preparation and facilitated access to external sequencing facilities, and realtime and digital droplet PCR. The third suite of services assists investigators in metabolic phenotyping by providing a Seahorse bioanalyzer for metabolic rate determinations and a MALDI biotyper for identification and taxonomic classification of bacteria by high-throughput proteomic analysis. In each of these areas, the Core provides training and consultations to facilitate understanding and use of new methodologies by the Joslin community. Core staff work closely with Joslin’s institutional Bioinformatics and Biostatistics Core staff to facilitate rigorous analytical pipelines for -omics data analysis and secure data storage. The core is highly utilized, providing services to the majority of Joslin Research Base investigators, and productivity is evidenced by numerous high impact publications that cite core use. In the present application, in response to technological advances and the needs of our Research Base, we propose to enhance the Core’s capacity to support study of the molecular mechanisms of disease by providing the following new and ehanced services: 1) Single cell and single-nucleus RNA-sequencing; 2) expansion of the “genetic characterization for clinical studies” service, with addition of newly-identified genes for monogenic DM, and new SNPs for T1D, T2D, and complications; 3) automation of RNA extractions by acquisition of a Qiacube instrument; and 4) Integration of the Core’s curated DNA collection with the Clinical Translational Research Core’s Biorepository. These new initiatives, coupled with current services and training programs, will facilitate the access of Joslin investigators to state-of-the art phenotyping and genotyping that are instrumental for both basic, translational, and clinical research studies."
+ },
+ {
+  "id": "867b4aa0-581f-4d24-8f77-97239dd59b14",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Understanding intrinsic resistance to direct KRAS inhibition in colorectal cancers",
+  "text": "Cancers driven by the oncogene KRAS are responsible for more than 70,000 deaths in the United States\nannually. Recently developed small molecules directly targeting the KRASG12C mutation have produced high\nresponse rates in patients with lung cancer, but only show limited benefit for patients with colorectal cancer. In\nthis proposal, we study the signaling links between KRAS and the transcription factor CTNNB1 to understand\nthe mechanisms of resistance to KRAS inhibition in colorectal cancer and find new therapeutic combinations."
+ },
+ {
+  "id": "8682df57-9b94-4036-bbb4-58a25c69b45a",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Bioinformatics for Next Generation Sequencing",
+  "text": "The TCI Bioinformatics for Next Generation Sequencing Shared Resource (BiNGSSR) provides NGS focused computational analyses for cancer investigators and clinicians. The mission is to advise on experimental design and protocols related to NGS technologies, provide a broad range of bioinformatics analyses for multiple applications spanning bulk and single cell epigenomics, transcriptomics and genomics, perform data integration and visualization, and assist in cancer focused data interpretation. BiNGSSR furthers scientific discoveries by establishing robust computational pipelines for analyzing NGS data for TCI members and offers extensive training platforms for the Mount Sinai and global research communities. BiNGSSR is also dedicated to creating opportunities to increase the STEM pipeline. The Specific Aims of this Shared Resource are to: (1) Provide comprehensive NGS data analysis services; (2) Evaluate, interrogate, and implement new data analysis pipelines and new data analysis types to enhance data rigor and access."
+ },
+ {
+  "id": "86838faf-38df-41c3-b713-42429b100d39",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular Imaging of Atherosclerosis in Peripheral Artery Disease",
+  "text": "Lower extremity peripheral artery disease (PAD) is an atherosclerotic disease that is highly prevalent in patients\nwith diabetes mellitus, who have accelerated progression of peripheral artery calcification above and below the\nknee that decreases limb blood flow and perfusion, reduces options for revascularization, and increases risk of\nlimb loss and death. Our research team has developed a unique PET/CT imaging framework that provides\nquantitative evaluation of vessel-specific measures of active microcalcification and established calcium burden\nas well as muscle-specific measures of perfusion in PAD patients during a single imaging session using a single\nradionuclide injection. The overarching goal of the proposed projects is to further evaluate the clinical utility of\nthis imaging approach for comprehensively assessing multiple anatomical and functional characteristics in PAD\npatients and ultimately providing the vascular medicine community with a non-invasive all-in-one tool that detects\nmuscle-specific perfusion deficits, quantifies the early active stages of arterial calcification, and predicts risk of\nvessel-specific calcium progression and unfavorable clinical outcomes in PAD patients."
+ }
+]

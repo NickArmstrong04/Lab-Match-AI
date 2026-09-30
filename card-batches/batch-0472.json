@@ -1,0 +1,142 @@
+[
+ {
+  "id": "1ac7ea0c-eb28-4995-936f-e914a9f41d0d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Core 2: Data Science Core",
+  "text": "CORE 2, DATA SCIENCE – NARRATIVE\nThe Data Science Core serves as a comprehensive, multi-disciplinary resource of expertise in biostatistics\nand bioinformatics to assist investigators from all projects to design their experiments, manage and maintain\nthe large volume of data, make inference regarding the stated aims, and formulate new hypotheses based on\ndiscoveries arising from exploration and visualization of the integrated data."
+ },
+ {
+  "id": "1ad4fc18-f817-45c5-a677-15f29e70205e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Deciphering microbial-immune cell interaction using single cell approaches",
+  "text": "Analyzing the transcriptional profiles of single microbial and innate immune cells during their interaction can lead\nto better understanding of how one influences the other in a direct and indirect manner. This information can\nprovide mechanistic insights on how microbes and innate immune system co-evolve over time. This proposal is\ncentered on the optimization and use of a microfluidic single cell sequencing platform to unravel this interaction\nwhich can eventually help understand the underlying mechanism of the maintenance and disruption of microbe-\nimmune system symbiosis."
+ },
+ {
+  "id": "1ad60933-0284-4f6b-b11a-7cb7a1156ec4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Engineering a multi-targeted nanoparticle-based immunotherapy for pancreatic cancer",
+  "text": "Pancreatic cancer arises within an immune suppressive tumor microenvironment that limits anti-tumor immunity,\ndrug delivery, and the efficacy of immune checkpoint blockade (ICB) therapy that has demonstrated remarkable\nsuccess in other cancer types. We have recently shown that combinations of RAS pathway inhibitors targeting\noncogenic signaling in pancreatic tumors and innate immune agonists loaded into nanoparticles (NPs) can\nsynergistically target multiple mechanisms of immune suppression and activate cytotoxic T cell immunity in\nPDAC. This proposal aims to engineer tumor and immune targeting therapies in NPs to specifically deliver them\nto the PDAC microenvironment with minimal toxicity and evaluate their impact on anti-tumor immune responses\nand ICB outcomes, with the goal of developing a novel immunotherapy regimen for lethal pancreatic cancer that\nstill remains without effective treatment options."
+ },
+ {
+  "id": "1adb218e-c8db-486a-b554-181c9d5c9288",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Reverse translation of human brain imaging data in mouse models of AUD",
+  "text": "Abstract/Summary: Alcohol use disorder is a complex group of disorders involving excessive uncontrolled alcohol intake. Our recent human imaging data suggest distinct circuits of interest in male and female AUD subjects during abstinence. In this proposal, we will explore the insula-BNST circuit in female mice, testing whether negative affective disturbances that emerge during abstinence are associated with the relative strength of this pathway. We will further assess the therapeutic potential of the endocannabinoid system at this synapse by utilizing a novel genetic strategy of deletion of the CB1 cannabinoid receptor and the endocannabinoid 2-AG synthetic enzyme DAG lipase in patterns to determine its specific contribution to AUD-related behaviors at the insula- BNST synapse. In male mice, we will explore the disruption of the ventral hippocampal-BNST-hypothalamic circuit suggested by human imaging data in a model of operant alcohol seeking behavior. Finally, we will perform novel tracing strategies to determine afferent inputs to these pathways to inform future human imaging studies."
+ },
+ {
+  "id": "1ade7f70-4c76-486b-a106-9728a008e493",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Elucidating the Role of Lactate in Immune Dysfunction during Sepsis: A Focus on B Cell Modulation",
+  "text": "Substantial evidence indicates that immune paralysis is a major driving force for mortality of sepsis. Sepsis\nsurvivors usually develop long-lasting immunosuppressive state, rendering them more susceptible to\nsecondary infections. This R01 research project is highly relevant to public health as it aims to elucidate the\nnovel role of lactate in promoting the immunosuppression via regulating the numerical, phenotypic, and\nfunctional changes in B cells following sepsis. The application also highlights B cell-derived GABA as a novel\nmediator in sepsis-associated immune paralysis. Successful completion of this project will not only provide\ninsights into the cellular and molecular mechanisms of sepsis-associated immunosuppression but also\nemphasize the potential of targeting lactate-associated signaling and identifying novel biomarkers (such as B\ncell-derived GABA) to manage sepsis and septic shock."
+ },
+ {
+  "id": "1ae00c0c-3ce0-40ee-9dea-a66a22c92562",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "T cell Contributions to Neointima Formation in Pulmonary Hypertension",
+  "text": "Pulmonary hypertension (PH) is a debilitating lung disease without cure that occurs both in isolation and as a\ncomplication of conditions that range from autoimmune disease to congenital heart disease. This study will focus\non how perivascular T cells contribute to the development of PH by interrogating the T cell subtypes and ligands\nassociated with PH vascular lesion formation. The results will provide deeper insight into how the adaptive\nimmune system shapes lung vascular changes, and may help identify fundamental, therapeutically targetable\nsignaling pathways in PH or PH-associated lung diseases."
+ },
+ {
+  "id": "1ae5266d-7ecc-4bd5-88a5-3aedfb02507a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Therapeutic targeting of RTK protein granules in cancer",
+  "text": "Gene rearrangements involving receptor tyrosine kinases (RTKs) represent a frequent and diverse set of\noncogenic driver alterations across human cancer, and resistance to tyrosine kinase inhibitor (TKI) therapies\nare inevitable for most patients with advanced cancers and the major cause of mortality. We recently\ndiscovered that notable RTK fusion oncoproteins form their own pathogenic subcellular compartment,\nmembraneless cytoplasmic RTK protein granules, to coordinate oncogenic RTK and RAS signaling. This\nproposal will test therapeutic approaches that exploit the unique signaling properties of this cancer-specific\nbiomolecular condensate."
+ },
+ {
+  "id": "1ae93ad9-2526-41f7-9c7b-3e0de7854ea2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "RNA Nanosystem for Posterior Eye Drug Delivery",
+  "text": "Posterior eye diseases affect more than a million people in the United States each year. The present project\nwill develop an ocular drug delivery system based on RNA technology to deliver nucleotide-based drugs into\nthe eye to treat posterior eye diseases. It will be a great benefit to the public if an effective drug delivery system\ncan replace repeated intravitreal injections and allow effective nucleotide-based drug delivery for the\ntreatments of these diseases."
+ },
+ {
+  "id": "1aec92f5-a374-4745-81fd-9ca16913d8bd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting SEC61 complex to overcome resistance to immunotherapy in GBM",
+  "text": "Glioblastoma (GBM) is an incurable cancer with a dismal survival rate. Despite the promise of\nimmunotherapy in extracranial cancers, the clinical efficacy of immunotherapy has yet to be shown for GBM.\nThe unbiased genomic screen identified the gene encoding for the SEC61G subunit of translocon complex as a\ngene involved in therapeutic resistance to T cells mediated therapy in GBM. This study will focus on\nunderstanding the mechanisms underlying SEC61G-mediated immunotherapeutic resistance, validating the\nSEC61G as a therapeutic target to improve poor outcomes in patients with GBM."
+ },
+ {
+  "id": "1af59254-3f30-407a-9438-a4ee39db53f9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Core C- BIDMC Core",
+  "text": "Core C will ensure streamlined data generation, acquisition, quality control, management, and provenance\nacross the PPG. It will generate production-grade highly automated single cell and spatial tissue profiling data;\nestablish streamlined data processing, quality control, management, and provenance; as well as promote best\npractice, scalable, multi-modal data processing, analysis, and integration. Core C will work closely with the\npersonnel of the Administrative Core, the Cores, and the Projects for efficient and timely data delivery."
+ },
+ {
+  "id": "1afc7c35-ac04-4040-8c4d-22b5f2dc27e3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Functional consequences of high glucose culture on adoptive T cell therapies for cancer",
+  "text": "A critical component of adoptive cell therapies for cancer treatment is the in vitro expansion step where T cells\nare cultured in media containing very high levels of glucose to enhance proliferation. It has been well\ndemonstrated that the culture media used during in vitro expansion can imprint lasting effects on T cell effector\nfunction in the tumor microenvironment, yet the mechanism by which high levels of glucose in culture media\nalter T cell glycosylation remain understudied. This proposal aims to understand how exposure to high levels of\nglucose, a clinical standard in the preparation of T cell therapies, alters therapeutic T cell effector function and\nantitumor immunity and how these findings translate to human CAR-T cells."
+ },
+ {
+  "id": "1affce6d-541f-4efa-8523-0252a02473dc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identification and molecular characterization of somatic mutations in MCD",
+  "text": "Brain malformations that occur during human fetal development commonly lead to severe epilepsy and\nintellectual disability. In this study, we seek to identify the genetic bases of common subtypes of brain\nmalformations and to determine the role of implicated genes on brain development in vivo and in vitro. This\nwork will evaluate the role of somatic variants in brain malformations, improve the understanding of the genes\nand processes involved in brain development, and will begin to illuminate strategies for early detection and\ntreatment options for patients suffering from these and related conditions."
+ },
+ {
+  "id": "1b003958-76e9-4893-bc74-350d0b2c82a0",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Elucidating the functional role of KLRG1+ conventional helper T cells in the tumor microenvironment",
+  "text": "CD4+ T cells shape the tumor microenvironment to promote antitumor or pro-tumor immunity. Our data suggests\na novel, mechanistic link between KLRG1+ FoxP3- CD4+ T cells (Tconv) and both tumor progression and\nimmunotherapy response, yet little is known regarding the functional characteristics of this tumor-infiltrating cell\nsubset. The goal of this proposal is to fill this gap in knowledge by elucidating the functional, transcriptional, and\nepigenetic characteristics of KLRG1+ CD4+ Tconv in cancer and determine whether novel strategies to deplete\nKLRG1+ CD4+ T cells can augment antitumor immunity and enhance response to immunotherapy."
+ },
+ {
+  "id": "1b027b1d-1904-4552-aa49-63e2146aa640",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identifying tissue-specific interactions to bridge mechanisms underlying muscle degeneration in Congenital Disorders of Glycosylation and Dystroglycanopathies",
+  "text": "Both Congenital Disorders of Glycosylation and dystroglycanopathies are clinically heterogenous, multisystem\ndisorders that can lead to severe progressive neural and muscular degeneration, which deleteriously impacts\nquality of life and is frequently lethal. There are currently no cures for these diseases. We aim to leverage a\nzebrafish model to gain insight into tissue-specific impacts of dpm3 expression on neuromuscular development\nand provide foundational knowledge on mechanisms of disease progression in vivo."
+ },
+ {
+  "id": "1b040e5c-1eb0-4b2f-bbd3-ed32c4f274d3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Interrogation of the Impact of Selection on the Evolution of Human Pancreatic Cancer Precursor Lesions",
+  "text": "Although pancreatic cancer is a deadly disease with a dismal prognosis, it arises through non-invasive\nprecursor lesions that are curable if detected early enough. The goal of this project is to characterize the role of\nselective forces in the evolution of precancerous pancreatic neoplasms using genomic and transcriptomic\nanalysis of human tissue samples and three-dimensional cultures, followed by novel computational\napproaches for data integration. The results will provide critical insights into premalignant pancreatic\ntumorigenesis, providing a rational foundation for the development of early detection and prevention\napproaches."
+ },
+ {
+  "id": "1b063a63-f6a5-4601-b4c1-f563a0dac1dd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Uncovering Personalized Circuit-Level Mechanisms for Deep Brain Stimulation in Obsessive-Compulsive Disorder",
+  "text": "Obsessive–compulsive disorder (OCD) is a severe and often treatment-resistant illness that can leave patients\nwith persistent, disabling symptoms despite standard therapies. This project combines advanced brain imaging\nwith neural recordings from surgically implanted brain electrodes to reveal how stimulating specific brain\ncircuits improves OCD symptoms. By identifying reliable neural features linked to symptom improvement, this\nwork aims to guide safer, more effective, and personalized deep brain stimulation (DBS) treatments for\npatients living with the most debilitating forms of OCD."
+ },
+ {
+  "id": "1b088684-8be4-4834-bbef-906c0872bef4",
+  "want_sentence": false,
+  "want_terms": true,
+  "title": "Prospective natural history study of extracellular vesicle metabolimic biomarkers of myotonic dystrophy",
+  "text": "(public health relevance statement)\nMyotonic dystrophy is an inherited disorder that causes progressive muscle weakness, disordered metabolism,\ncardiac conduction disturbance, and cognitive dysfunction. There is no cure. The purpose of this proposal is\nto develop novel strategies that will accelerate the discovery of effective treatments."
+ },
+ {
+  "id": "1b1cd1e0-daa7-4fcc-aa64-0cdcfc8c0be0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Advancing an inexpensive, wearable prefrontal cortex fNIRS device and integrated software for assessment of cerebral biomarkers of intoxication in real world settings",
+  "text": "We propose to translate our discovery of a brain signature of acute cannabis intoxication into a tool for real world assessment of brain-based biomarkers of intoxication. The iFlexNIRS, a robust fNIRS device intended to be used like a Fitbit, will allow brain activity to be evaluated continuously and non-invasively in natural environments, accurately reflecting human experiences of intoxication across settings. iFlexNIRS will deliver high-quality connectivity and brain activation data to researchers as well as intoxication classification via an embedded machine learning classifier, providing unprecedented ecological validity for study of drug intoxication and associated cognitive impairment."
+ },
+ {
+  "id": "1b20d030-9ce0-45ce-a9a9-d09eb10e9194",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Pilot project to elucidate the role of DDX60L in Ebola virus disease",
+  "text": "Ebola virus causes severe disease in humans and is therefore a public health threat but understanding of the\nmolecular determinants of Ebola virus disease are poorly understood. This project will address the anti-Ebola\nvirus properties of host protein DDX60L with the goals of understanding how it modifies the outcome of infection\nand identifying mechanisms that can control Ebola virus growth."
+ },
+ {
+  "id": "1b219220-1faf-49a9-ac20-95bc2c32d4b8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Vulnerabilities of MMR-deficient glioblastoma",
+  "text": "Glioblastoma is the most common and lethal brain cancer, and one key mechanism by which it develops\nresistance to chemotherapy involves defects in a DNA repair pathway called mismatch repair (MMR). There are\ncurrently no treatments proven to be effective against these especially aggressive MMR-deficient glioblastomas.\nThe work of this proposal investigates two new therapeutic strategies against these cancers: 1) combining\ninhibitors of different calcium channels, and 2) repurposing the chemotherapy drug irinotecan and the anti-\ncholesterol statin drugs as novel inhibitors of the TGF-β signaling pathway."
+ }
+]

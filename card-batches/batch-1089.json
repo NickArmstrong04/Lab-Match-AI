@@ -1,0 +1,142 @@
+[
+ {
+  "id": "f69afd9d-2e15-48c4-b94c-d382eb54a04f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identification and Characterization of a Novel Copper-Sensing Receptor in C. elegans",
+  "text": "Copper is an essential micronutrient in humans, as it plays critical roles in cellular respiration, antioxidant reactions, and neuropeptide synthesis. Copper acts as a reduction-oxidation (redox) cofactor in enzymes that are involved in these metabolic processes. The redox property of copper is required for its biological functions, but it can also lead to the production of reactive oxygen species (ROS) that cause cytotoxicity. Thus, both systemic and cellular levels of copper must be carefully controlled. Dyshomeostasis of copper causes fatal human diseases if left untreated, e.g., copper deficiency as seen in Menkes Disease (MD) and copper overload caused by Wilson Disease (WD). The underlying pathology of copper-dependent diseases are still unclear. The major reason is that copper plays much more complex biological roles than just being an enzyme co-factor. New studies suggest that copper also functions as a cellular signaling molecule. The role of intracellular copper in signaling is supported by the dynamic nature of cellular pools of copper which can be mobilized in both physiological and pathological conditions. These labile copper pools play significant roles in tumorigenesis, lipid metabolism, immunity, diabetes, and nervous system function. In addition to intracellular copper, the possibility that extracellular copper can trigger intracellular signaling has received little attention. This gap in knowledge stems from the lack of knowing the molecular identity of the sub-cellular apparatus that senses extracellular copper and initiates intracellular signaling. In C. elegans, exposure to high levels of copper results in specific avoidance behaviors that depend on primary cilia in ASH sensory neurons. These data suggest that the copper- sensing apparatus may reside in neuronal cilia, a signaling platform for several sensory pathways. Here, we propose to identify the first copper-sensing receptor in animals using C. elegans. C. elegans has evolutionary conserved molecular machinery in regulating copper homeostasis. C. elegans also responds robustly to copper stimulations. This, together with its short generation time (~3 days) and facile and rich genetic tools, makes C. elegans an ideal system for identifying novel copper-sensing receptors. We did a genetic screen in C. elegans and identified CUSR-1 as a candidate copper-sensing receptor. In the current proposal, we propose to test the hypothesis that CUSR-1 is a bona fide copper-sensing receptor and characterize how CUSR-1 senses and transduces extracellular copper signaling. We will take a multidisciplinary approach combining molecular genetics, behavioral analysis, calcium imaging, FRET/BRET, opto- and chemo-genetics. The proposed work will not only lead to the identification of the first copper-sensing receptor in animals, but also provide insights into how extracellular copper transduces signaling inside the cell through cilia."
+ },
+ {
+  "id": "f69ca44a-2d73-4d51-b654-69d252f6f860",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Chromatin Landscape and DNA Repair Dynamics at Dysfunctional Telomeres",
+  "text": "Defects in telomere protection are associated with a broad range of pathologies, including familial cancer\npredisposition and premature aging, underscoring the critical role of telomere maintenance in human health.\nThis project seeks to elucidate the molecular underpinnings of telomere function, thereby clarifying how\ndiminished telomere protection contributes to telomere-related disorders—collectively known as\ntelomereopathies."
+ },
+ {
+  "id": "f69d835c-b1a0-4bb6-9d30-a9ffb1c22e0f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Charting the post-antibiotic trajectory of the microbiome and resistome and elucidating the role of pet ownership",
+  "text": "Understanding the variability in response of a person’s microbiome (collection of microorganisms in their\nintestines) to antibiotics is important for identifying ways to prevent the adverse effects of antibiotics - whether\nthat is damage to the gastrointestinal tract of the individual patient or the development of antimicrobial\nresistance, which can impact the broader community. An overlooked aspect of this is the impact of pet\nownership, which we are currently investigating in the REMBRANDT (REcovery of the MicroBiome fRom\nANtibiotics for Dental implanTs) study. Here, we propose to conduct deeper sequencing of the samples\ncollected in the REMBRANDT study to obtain greater insights into the post-antibiotic microbiome, better\nidentify factors that impact the recovery of the microbiome, and more precisely assess the impact of pet\nownership on this process."
+ },
+ {
+  "id": "f6aea827-b5db-4ed1-a265-21b4f42b2d6d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Adenovirus regulation of cellular RNA binding proteins",
+  "text": "Viruses with small DNA genomes are reliant on cellular pathways for RNA processing, and so they modify\ncellular RNA-binding proteins (RBPs) in ways that harness cellular resources and counteract antiviral host\ndefenses. We will study mechanisms that Adenovirus employs to alter the subcellular localization and function\nof cellular RBPs as infection takes over cellular machinery. These studies will provide fundamental insights into\nthe control of RBPs in disease, and will provide knowledge of innate host responses that will ultimately\ncontribute long term to development of antiviral strategies."
+ },
+ {
+  "id": "f6b485ee-ac22-484d-8bcd-a3e4228a9f18",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Metabolic Cytometry for In-line Process Analysis",
+  "text": "The primary objective of this project is to develop an in-line cell metabolic senser aimed at continuous\nmonitoring of cellular activities in biopharmaceutical processes, with a focus on gene therapy drug\nproduction. This device will provide real-time, in-line assessments of cellular metabolism, improving the\nunderstanding and management of cell culture bioprocesses. As a result, it will increase yields and support\nthe large-scale production of gene-delivering vectors for clinical applications."
+ },
+ {
+  "id": "f6b7893b-7fec-44a6-8802-d841e6513f10",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Developing hemophilia A therapeutics by targeting translational and posttranslational regulation of FVIII",
+  "text": "Current hemophilia A (HA) treatments include intravenous infusion of FVIII concentrates or bispecific antibodies.\nHowever, these treatments are extremely costly, precluding 80% of the global hemophilia population to regular\ncare. The project will explore several new directions of treating HA by targeting the complex posttranslational\nregulation of FVIII. We hope to develop novel small molecule therapeutics to treat HA based on each patient's\nmutation profile and help realize the goal of a cure for HA through gene therapy."
+ },
+ {
+  "id": "f6bbe00a-0396-40d3-a21d-31ef93883d75",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Deciphering the role of METTL3 in Mammalian Placenta Development and Maintenance Across Pregnancy",
+  "text": "Relevance to Public Health:\nDefect in trophoblast lineage development results in early pregnancy loss or leads to pregnancies that are\nassociated with pre-term birth, intrauterine growth restriction and preeclampsia, which cause serious\nadverse effects on maternal and infant health. These are major public health concerns. Therefore, a better\nunderstanding of trophoblast cell lineage development and function is critical to gain insights into important\nfeatures of pregnancy loss and pregnancy associated disorders."
+ },
+ {
+  "id": "f6c020d1-c1c4-475e-9aaf-86bc8e002e6f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of CXCR6+ T-cells in ICI myocarditis",
+  "text": "Immune Checkpoint Inhibitors (ICI) are a mainstay of cancer therapy and act by blocking a form of T-cell\nperipheral tolerance, leading to T-cell cytotoxicity against cancer cells. ICI therapy can cause a rare, but highly\nmorbid, inflammation of the heart muscle – termed ICI myocarditis. This project will identify markers of\npathogenic cardiac T-cells and the cardiac cells that mediate their recruitment and positioning in the heart, thus\nidentifying a potential targetable pathway in the treatment of this highly morbid condition."
+ },
+ {
+  "id": "f6c26e3e-db13-4177-82f2-293720160477",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Rise to the Challenge Bridge to Health Informatics and Bioinformatics",
+  "text": "The Rise to the Challenge Bridge to Health Informatics and Bioinformatics Program will prepare El Paso Community College students to transfer to the University of Texas at El Paso with the skills to successfully graduate with a baccalaureate degree in biomedical sciences, the ability to conduct research, and the skills to enter the Bioinformatics and Health Informatics workforce. Given the location in Texas and the large number of students enrolled in biomedical science and public health programs at both institutions, the Program will generate a cadre of professionals with a vested interest, and the skills to contribute to the improvement of the quality of life in the region and the health of the nation."
+ },
+ {
+  "id": "f6c4a98a-2ecb-4189-975a-3f15d3df6095",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Neutrophil Development During Inflammation and Atherosclerosis",
+  "text": "Neutrophils acutely respond to inflammatory signals in tissues and play a role in cardiovascular disease (CAD). After activation by cholesterol and oxidized low density lipoproteins, neutrophils produce cytokines, degranulate to release myeloperoxidase, azurocidin, and elastase, generate neutrophil extracellular traps (NETs), and trigger lytic cell death. Neutrophils are produced in the bone marrow by stem cell progenitors and, once mature, egress to blood and tissues to fight inflammation. We recently discovered an early committed neutrophil progenitor stem cell (NeP) present in human and mouse bone marrow. Here, we present new data demonstrating the presence of NeP in the peripheral blood of mice and humans with CAD, suggesting that NeP modulate granulopoiesis and inflammation outside of the bone marrow. In this project, we will focus on inflammation via activation of the Nlrp3 inflammasome, as we find that Nlrp3 and ll1b are highly expressed in NeP. Activation of the inflammasome sensor Nlrp3 triggers a robust inflammatory response, including IL-1β production. In Project 1, we hypothesize that activation of the Nlrp3 inflammasome within NeP triggers granulopoiesis and neutrophil heterogeneity which promotes atherosclerosis progression. We will test our hypothesis by studying inflammasome activation in both mice and humans with cardiovascular disease (CAD). In Specific Aim 1 we will test how neutrophil subsets are phenotypically and functionally changed in human CAD patients compared to healthy subjects. These subjects are undergoing medically necessary coronary angiography as part of the ongoing Coronary Assessment in Virginia (CAVA) study, and their extent of atherosclerosis is measured clinically. We will analyze NeP, neutrophil heterogeneity, and the role of the neutrophilic Nlrp3 inflammasome in blood of these subjects and link these findings to clinical parameters. In Specific Aim 2 we will use atherosclerotic mouse models to test how intrinsic action of the Nlrp3 inflammasome in neutrophils impacts granulopoiesis and atherosclerosis. We will use mixed chimeric mouse models with Nlrp3-/-, Gsdmd-/-, and Gsdme-/- mice to assess how inflammasome pathways in NeP regulate granulopoiesis. New neutrophil-specific and macrophage-specific Nlrp3 knock-out mice crossed to atherosclerosis-susceptible, apolipoprotein E-deficient (apoE-/-) mice will be used to directly compare how action of neutrophil vs macrophage Nlrp3 inflammasomes impact neutrophil heterogeneity and atherosclerosis. We will use a new mouse model to assess Nlrp3 action in NeP versus mature neutrophils on atherosclerosis. We will define how Nlrp3 inflammasome activation in neutrophil progenitors impacts granulopoiesis and atherosclerosis, which in turn could lead to new therapeutic approaches targeting Nlrp3 components in neutrophils for atherosclerosis and other inflammatory diseases."
+ },
+ {
+  "id": "f6c8250a-768f-48d1-ae02-46d2b3163c49",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of polymer-based cell culture substrates for correlative light and electron microscopy (CLEM)",
+  "text": "The proposed research will develop working prototypes to enable imaging technology and provide previously\nunavailable polymer-based, indexing-patterned substrates and methods for correlative light and electron\nmicroscopy (CLEM) study of cells grown on porous substrates. These designable porous substrates will not\nonly facilitate cells to obtain in vivo-like morphology and function but also simplify and streamline CLEM\nprotocols, leading to better understanding of diseases at molecular and ultrastructral levels. Therefore, the\nproposed research is relevant to the part of the NIH’s mission that pertains to reducing illness and disability."
+ },
+ {
+  "id": "f6c957c4-8bd1-4d70-a5e2-b2a3bfa6a4f3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Integration of omics data to understand dietary fiber's effects",
+  "text": "In disease states such as metabolic syndrome, significant knowledge gaps exist regarding the link\nbetween specific microbial specifies and functional capacity, their metabolic contributions, and their effects on\nfood intake. The present R03 project will use bioinformatic approaches to integrate multiple datasets from a\ncompleted K01-funded human fiber-feeding study to include data from dietary intake, the microbiome, fecal\nand plasma metabolites, and functional magnetic resonance imaging to discover metabolic pathways linking\nhigh-fiber intake with the control of food intake. This work will provide data to calculate the needed effect sizes\nto support the planning and conduct a larger scale, randomized study of fiber feeding in people at risk for\ncardiovascular disease by taking a precision nutrition approach, thereby supporting the development of\nnutritional strategies to promote cardiometabolic health."
+ },
+ {
+  "id": "f6caea19-3707-4003-8858-3ca80c356b93",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project 2: Identify and enhance LOAD-related signatures in outbred and genetically-engineered marmosets",
+  "text": "PROJECT 2 Determining the early molecular and cellular events in the origins and progression of late-onset Alzheimer’s disease (LOAD) will require an analytical approach that integrates genetic, molecular, in vivo imaging, and behavioral data. Many clinical studies with this goal are currently underway, which increasingly complement genetic data with genome-scale molecular data from biofluids and post-mortem tissues, in vivo imaging data of structure and neuropathology, and detailed cognitive data collected over disease progression. Transforming the outcomes of these studies into targeted therapeutic strategies requires translatable animal model systems, both for understanding the biological underpinnings of disease outcomes and preclinical efficacy testing of candidate treatments. The marmoset is potentially the most promising non-human primate model of LOAD, providing an analytical bridge between human studies and high-capacity cell and rodent model systems. Laboratory marmosets with outbred genetics can potentially provide a range of genotypic and phenotypic variation in relevant clinical outcomes. This standing variation can be augmented by genetically engineering variants at specific risk loci, as we have demonstrated with PSEN1. Phenotypic changes in multi-omic, imaging, cognitive, and cellular outcomes can be rigorously studied in an aging primate with an intermediate lifespan. However, to date there have not been systematic studies of aging marmosets at scale. In this project, we will initiate these systematic studies through integrated analyses of genetics and LOAD-related phenotypes in aging marmosets. We will then rigorously test correspondences between human and marmosets at all biological levels, from genetic to multi-scale models. Our goal is to develop the marmoset into a mature platform for preclinical research, which we will pursue with the following three aims: (1) assess natural genetic variation in outbred marmosets as a model Alzheimer’s disease risk in humans; (2) integrate genetic, genomic, and phenotype data to establish robust statistical models of disease in marmosets; and (3) evaluate disease relevance of models by aligning molecular markers of Alzheimer’s disease in marmosets with human study cohorts. Through this work, we expect to lay the foundations for LOAD-related functional genomics in marmosets, provide an expanded view of the impact of natural genetic variation in laboratory marmosets, prioritize genetic variants to engineer in marmosets, and create the first models of LOAD-related marmoset pathology at multiple scales."
+ },
+ {
+  "id": "f6d13d16-40d7-4b53-a79f-1f73de3222c5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Epitranscriptomics in human obesity and type 2 diabetes",
+  "text": "The mechanisms and pathways that operate during the onset and progression of obesity and type 2 diabetes\n(T2D) are not fully understood. We will take advantage of emerging observations that modifications on\nribonucleic acids (RNA) functionally impact metabolic tissues and recent development of enabling methods\nthat sequence RNA modifications with base resolution precision. We seek to map and investigate functionally\nimportant RNA modifications in metabolic cells from humans with obesity and type 2 diabetes with the long-\nterm goal of gaining new insights into the pathophysiology of this chronic disease."
+ },
+ {
+  "id": "f6d4766b-14fa-4629-8eb3-d390ee1402f3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Modeling tumor heterogeneity, to develop new therapeutic strategies for treatment of resistant small cell lung cancer",
+  "text": "Small cell lung cancer (SCLC) is an aggressive neuroendocrine malignancy, with a recent paradigm shift in\npatient care that includes T-cell engagers targeting DLL3 cell surface expression. While clinical responses to the\nrecently approved tarlatamab and several emerging surface-targeting approaches are impressive (e.g., antibody\ndrug conjugates), there is an urgent, unmet need to investigate mechanisms of resistance and to develop\nsubtype and/or biomarker-driven assays to guide treatment selection. Within the context of Dr. Byers’ NCI-funded\nresearch programs, Dr. Stewart will leverage her patient-derived xenograft models to test novel therapies and\ncombinations to overcome treatment resistance and analyze serial liquid and tumor biopsies from SCLC patients\nto identify biomarkers of response, disease progression, and changes in the cell surface proteome that can be\ntranslated directly into diagnostic and therapeutic advances for relapsed SCLC."
+ },
+ {
+  "id": "f6d77522-58a8-45ed-9f18-0f9544b1cc47",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of Next-Generation Mass Spectrometry-based de novo RNA Sequencing for all Modifications",
+  "text": "Although more than 170 RNA modifications have been identified so far, we only know the function of a few of\nthese, mainly due to technological limitations. The goal of the proposed research is to bring the power of mass\nladdering technology from proteomics to RNA for developing a direct RNA sequencing and quantitative\nmapping tool for multiple RNA modifications at single-base resolution all in a single analysis, as a critical step\ntoward elucidating their possible impact on human health."
+ },
+ {
+  "id": "f6d9343d-5bf0-44a8-925e-fc26012f4538",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting transcription and translation of the antisense CCCCGG repeat expansion in C9ORF72 ALS/FTD",
+  "text": "A hexanucleotide repeat expansion mutation in the C9ORF72 gene is the most common genetic cause of\namyotrophic lateral sclerosis and frontotemporal dementia (ALS/FTD), two devastating neurodegenerative\ndiseases which have few treatments and no known cure. The repeat is bidirectionally transcribed, and RNA and\nproteins encoded by the antisense strand have been shown to contribute to neurodegeneration in ALS/FTD but\nare understudied. This project aims to study transcription of the antisense repeat RNA, as well design and\nevaluate putative therapeutic strategies specifically targeting antisense transcription and translation."
+ },
+ {
+  "id": "f6dd31e2-319a-4c43-8b32-8ed849d62fbc",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Targeting Jumonji KDM4A during the development of small cell lung cancer in GEMMs",
+  "text": "Small cell lung cancer (SCLC) is a recalcitrant tumor with few therapeutic options and rapid\ndevelopment of drug resistance. We have found a set of epigenetic enzymes of the Jumonji family\nto be essential for the growth of this tumor. We propose to test the efficacy of Jumonji enzyme\ninhibitors against genetic mouse models of SCLC representing the major subtypes, characterizing\ndisease progression and the therapeutic and molecular effects of inhibitor action."
+ },
+ {
+  "id": "f6de97b2-c572-4757-bfdf-e6d3eafdad79",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of Gene Therapy for Hereditary Deafness using Rational Protein Engineering",
+  "text": "The advent of successful gene therapy for certain retinal disorders and our extensive knowledge of the dozens\nof genes involved in hereditary hearing loss, together raise hope that gene therapy can be used to treat genetic\nforms of hearing loss. For instance mutations in the PCDH15 gene cause Usher syndrome type 1F, a\ndevastating deafness, blindness and balance disorder. While we and others have achieved success in mouse\nmodels using gene therapy for short genes that will fit in adeno-associated virus (AAV) vectors, PCDH15 is a\nlong gene that does not fit into AAV; thus we propose to engineer short “mini-PCDH15” proteins, to test rescue\nof hearing and balance in mice, and to test localization and toxicity in nonhuman primates.\n1"
+ },
+ {
+  "id": "f6e39bb9-4be6-4b24-ad63-220738aef0ef",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Synaptic and glutamatergicalterations in mood disorders andsuicide behavior",
+  "text": "Synaptic dysfunction and loss may contribute to both depression and suicide risk; increasing our understanding of these phenomena may reduce morbidity and mortality. The goal of this project is to 1) quantify measures of synapse density and function in patients with mood disorders with and without a history of recent suicide attempt (SA and NA) and healthy volunteers (HV), to identify synaptic abnormalities most strongly related to suicide risk, and 2) repeat one of these measures following ketamine administration through P1 of this Center, to clarify synaptic mechanisms of ketamine’s therapeutic effects. In cross-project aims, we will relate these synaptic measures to intermediate phenotypes that may predispose to suicidal behavior, focusing on maladaptive stress responses. Using positron emission tomography (PET), we have quantified a pre-synaptic marker, synaptic vesicle glycoprotein 2A (SV2A). In preliminary data, SV2A binding was inversely related to depression severity and cognitive impairment, consistent with other studies. We also found SV2A binding to predict antidepressant response to ketamine. The metabotropic glutamate receptor 5 (mGluR5) mediates glutamate stress responses, is involved in pain processing, and interacts with Arc, an immediate early gene implicated in synaptic plasticity and memory traces. Consistent with work by others identifying elevations of mGluR5 in individuals with suicidal ideation or suicide attempt history, we find mGluR5 binding to be positively associated with suicidal ideation. Resting state functional magnetic resonance imaging (rsfMRI) data can quantify a novel measure of excitatory/inhibitory (E/I) balance, the intrinsic neural timescale (INT). INT can contextualize observations from SV2A and mGluR5 binding, clarifying the extent to which synaptic abnormalities impact regional E/I signaling. We find that regional INT is strongly associated with both suicide attempt history and ketamine antidepressant effects. We will quantify SV2A and mGluR5 binding via PET with 11C-UCB-J and 11C-ABP688, and INT via rsfMRI, in 50% of individuals enrolled in P1 and P2 (50 SA, 25 NA, and 25 HV), and repeat INT following ketamine administration. We will examine the association of SV2A binding, mGluR5 binding, and INT to depression and suicide attempt history. We will examine pre-treatment synaptic markers as predictors of differential outcome to standard vs. low-dose ketamine. Cross-project aims will relate imaging markers from P3 to stress-related phenotypes from P1 and P2, including stress-induced suicidal ideation from ecological momentary assessment, neural correlates of overgeneralized memory (fMRI), and glutamatergic stress responses (MRS). Findings from this project will complement and inform analyses in P4, including post-mortem human brain analyses relating recent stress exposure to cell-type-specific gene expression related to glutamatergic and synaptic genes, and in P5, given relationships between mGluR5 and Arc, a focus of P5. These studies will increase our understanding of the biological pathways mediating maladaptive stress responses that predispose to suicidal behavior, will improve matching of patients to existing treatments and will identify targets for novel treatment development."
+ }
+]

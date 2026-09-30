@@ -1,0 +1,142 @@
+[
+ {
+  "id": "a8a8b56b-ae3a-4871-ac3b-3a858d6e2c31",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Immune Privilege, CNS Autoimmunity, and Clostridium perfringens Epsilon Toxin",
+  "text": "Multiple Sclerosis is the most common form of non-traumatic neurologic disability among young\nadults with a world-wide prevalence of ~2.5 million and requires an environmental trigger for\ndisease to occur. We have identified a statistical association between epsilon toxin producing\nstrains of Clostridium perfringens and Multiple Sclerosis. In this application we will determine the\ncellular/tissue targets of epsilon toxin, compare and contrast the clinical phenotype,\nimmunopathology, and neuropathology of experimental autoimmune encephalomyelitis induced\nby epsilon toxin versus pertussis toxin, identify genes induced or suppressed by these toxins, and\ndetermine the function of these genes in overcoming CNS immune privilege using endothelial cell\nspecific loss-of-function mutant mice."
+ },
+ {
+  "id": "a8aac7d7-9756-4938-9e36-cb341292d246",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Understanding Genetic Complexity in Spina Bifida",
+  "text": "Spina bifida (SB), a breech in the spine through which nerve roots protrude, causes a spectrum of disabilities\nassociated with permanent and irreversible neurological damage, and arises from a complex interaction of\nmultiple changes or variants in the genes that converge to predispose to the condition. We will use advanced\nDNA sequencing, computation methods and biological validation of effects on gene function to analyze specific\ngene and gene combination mutations with the greatest influence on the disorder, and illuminate how these\ngenes interact to cause SB. This will be essential research toward seeking new ways to prevent SB from\noccurring and to improve the lives of those affected by this birth defect."
+ },
+ {
+  "id": "a8aae49e-fb03-4dfd-a738-a20d85e5c9fc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "MimicMaker: an integrated platform for identifying relevant mimics of T cell antigens",
+  "text": "This project will develop a translational platform to prospectively identify the mimics of known targets of the\ncellular immune system, improving our ability to derisk and create new immunotherapies and develop new\napproaches to treat and prevent autoimmunity and transplant rejection."
+ },
+ {
+  "id": "a8ab2f89-f286-479a-8403-51dedfd27597",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Skeletal Muscle Stem Cells and Regeneration",
+  "text": "The Society for Muscle Biology is hosting the “Skeletal Muscle Stem Cells in Development, Regeneration and\nAdaptations” conference July 19-24, 2026 at Fairmont Empress in Victoria, Canada and is the only conference\nthat focuses solely on the function and therapeutic potential of skeletal muscle stem cells (MuSCs). The\nscientific objective of this conference is to provide a comprehensive analysis and integration of recent\ndiscoveries pertaining to the regulatory mechanisms controlling normal and abnormal functions of MuSCs in\nmuscle growth, homeostasis, hypertrophy, aging and in repair, regeneration and disease. The meeting will\nprovide ample opportunities for communication and presentations from junior scientists and increase\nmultidisciplinary interactions including with international participants, world leaders and those new to the field in\nMuSC biology."
+ },
+ {
+  "id": "a8ac802a-2dd5-4f1b-9781-14bb68c0c56c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Flexible Macromolecular Crystallography",
+  "text": "Project Summary/Abstract - Core 3 – Flexible Macromolecular Crystallography This 3rd Technology Operations Core (TOC3) complements TOC1 by diversifying the ALS-ENABLE technology base to maximize flexibility in this now transformative era for structural biology. Artificial intelligence (AI) has revolutionized solving the phase problem, and we will not only make these new structure prediction tools accessible to our User community, but also other AIs that benefit our workflows, such as object location of sample loops and crystals, diffraction image interpreters or variational auto encoders for modelling protein domain motions. These will be put to use once they are proven effective. For example, we expect to enable efficient yet unattended in-situ serial data collection direct from crystallization trays by training now mature and off-the-shelf AI technology to locate diffraction-quality crystals in their growth drops. If successful, even a modest improvement in hit rate will revolutionize serial data collection using our in-situ goniometer. This in-situ capability also completes a chain of diagnostic tests of the sample preparation process, allowing our Users to understand the origins of poor diffraction and focus their efforts appropriately. This diagnostics chain leverages the capabilities of TOC1 micro-focus, TOC2 solution stability, and TOC4 mapping molecular interfaces. Our uniquely accommodating robotics solution with broad pin compatibility will get a capacity upgrade to help ease the transitions our User community will have to make from synchrotron to synchrotron as APS and then ALS undergo long shutdowns for major upgrades. We will upgrade our X-ray optics to match the properties of the ALS-U source. We will also upgrade robotics to provide remote access data collection at non-cryo temperatures, ranging from -20C to +50C, making these valuable multi-temperature tools accessible to a geographically diverse User community. Functional studies at these temperatures will be assisted by rolling out state-of-the-art difference-data analysis software, such as PanDDA, as part of beamline workflows. By explicitly supporting difference data analysis our users will have access to state-of-the-art technology for visualizing weak yet critical difference features, such as low-occupancy ligands and functionally-relevant conformational shifts. And because fragment screening is a critical tool for the bioscience community to quickly respond to an emerging health crisis, we will support as well as document best practices such as DMSO tolerance testing in our ALS-ENABLE protocols as well as foster collaborations between user groups with access to advanced yet shareable sample preparation tools such as fragment libraries and acoustic drop liquid handlers. Rather than leave users to their own devices to organize and analyze their data, we will deploy ISPyB/SynchWeb, the world’s most heavily used LIMS for structural biology data. Tools for merging multi-crystal data for improved data quality that performed well in our global challenge data set competition will be deployed under this framework. This will not only make cross-synchrotron data analysis available in one place, but maintain a level of familiarity to ease the transition of our Users to and from other synchrotrons. We group our aims by the mathematical operations they entail: adding data together to improve signal (Aim1), modulation of the sample to induce a change (Aim2), and subtraction of data to reveal the result (Aim3)."
+ },
+ {
+  "id": "a8ad8d47-b204-465c-9164-1a25fcff52f7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "BBQS AI Resource and Data Coordinating Center (BARD.CC)",
+  "text": "The proposed BBQS AI Resource and Data Coordinating Center (BARD.CC) for the Brain Behavior\nQuantification and Synchronization (BBQS) Consortium aims to enhance neuroscience research by efficiently\nmanaging, standardizing, and sharing data from various projects. The Center will also curate relevant ML/AI\nmodels, develop a cloud-based computational platform for data analysis, and ensure efficient dissemination,\ntraining, and coordination of BBQS resources. By acting as a hub for these vital functions, the center will play a\ncrucial role in advancing our understanding of the intricate relationships between brain activity and behavior."
+ },
+ {
+  "id": "a8bc5eb3-dc13-419a-8d5d-893789f9a491",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Binaural Spectral and Temporal Integration with Hearing Loss and Hearing Devices",
+  "text": "The proposed research will increase our understanding of how hearing loss and hearing devices such as hearing\naids and cochlear implants affect binaural processing of information. The results will guide future rehabilitation\napproaches using device programming or auditory training programs to reduce binaural interference effects and\nmaximize the benefits of bilateral hearing devices for speech perception in quiet and in noise."
+ },
+ {
+  "id": "a8be6264-9c03-4693-8914-0bb7db141dd6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Functional Avoidance Liver Stereotactic Body Radiation Therapy Guided by MR Multitasking-driven Abdominal Integrated Imaging (MT-AI2)",
+  "text": "Radiation plays an important role in treating primary and secondary liver tumors; however,\nradiation-induced liver disease can be fatal. We propose to develop a novel MR multi-tasking\nimaging technique combined with advanced 4π treatment planning to maximally protect normal\nliver function. The project's success will demonstrate the efficacy of integrating cutting-edge\nimaging and therapeutic methods to preserve liver function for future treatment options."
+ },
+ {
+  "id": "a8c1a742-3f4a-4134-9b7d-1e3ad47b7cee",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Data Science Core",
+  "text": "PROJECT SUMMARY – Data Science Shared Resource The mission of the Data Science Shared Resource (DSC) of the USC Norris Comprehensive Cancer Center (NCCC) is to provide integrated state-of-the-art biostatistics and clinical research informatics support for cancer research spanning basic and translational science to clinical studies, and cancer etiology to cancer control. DSC members work with investigators on the design, conduct, analysis, and reporting of cancer research, and play a key role in clinical trials protocol review and study monitoring in the NCCC. As such, the DSC serves as a key foundational element in the Data Science component of the Strategic Plan, enabling infrastructure and data platforms for all NCCC Research Programs. NCCC recruited Ming Li PhD as DSC Director and David Birtwell MSE as Co-Director with oversight of DSC by NCCC Administration. A major development in this grant period, DSC now expands beyond traditional biostatistics services to include clinical research informatics services to integrate data from electronic health records to -omics platforms for analysis. DSC applies advanced and novel statistical methods to these data, including artificial intelligence/machine learning for discovery of underlying risk factors, prediction of population level risk, and clinical decision algorithms and tools. During the current grant period (2015-2020), 88 NCCC members representing all five programs utilized the DSC, resulting directly in 278 publications and 13 funded cancer-related P and U grants. The anticipated annual budget of DSC in the first year of the next grant cycle is $1,548,658, yet the CCSG request is $379,255. Accordingly, DSC leverages extensive institutional and recharge support and seeks only 24% from CCSG funds."
+ },
+ {
+  "id": "a8c295be-5bc5-440f-a82e-2ec438f4b894",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "MALDI Imaging of Acute Organophosphate Exposure in KIKO Mice",
+  "text": "Approximately three million people are exposed to acute organophosphate poisoning every year world-wide.\nDue to a lack of research tools available, there is still a lack of knowledge surrounding the molecular short- and\nlong-term effects of acute organophosphate intoxication. We propose the use of a novel mouse model and matrix\nassisted laser desorption ionization mass spectrometry imaging to study these effects."
+ },
+ {
+  "id": "a8c34cbf-b2f2-4600-a642-a7e1c2926348",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Engineering a Synthetic IL-33 Receptor to Enhance T-Cell Function",
+  "text": "Engineering a Synthetic IL-33 Receptor to Enhance T-Cell Function\n T cells are frequently constrained by intrinsic programs or tissue environments to achieve their therapeutic\nobjectives. To address this challenge, we propose to engineer a self-activating IL-33 receptor to enhance the\nperformance of T cells for effectively suppressing autoimmune disease or augmenting antitumor immune\nresponse."
+ },
+ {
+  "id": "a8cac87f-e095-422b-998a-ee3958edf840",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Examining PHGDH-mediated activation of sialic acid metabolism to drive triple-negative breast cancer metastasis",
+  "text": "We have discovered that expression of a protein in the serine biosynthesis pathway, PHGDH, is associated with\nmetastasis of triple negative breast cancer: low PHGDH drives production of the cancer-associated metabolite\nsialic acid and activates cellular programs that promote metastasis. Our project will investigate the links between\nPHGDH, sialic acid metabolism, and metastasis. This research will establish low PHGDH/high sialic acid as a\nbiomarker of metastatic breast cancer and identify new strategies to treat this deadly disease."
+ },
+ {
+  "id": "a8cb251b-b0e9-49b0-94a9-93f489cd55bd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms Underlying the Immune Paradox in Sarcoidosis",
+  "text": "Paradoxical peripheral lymphopenia coupled with T-cell anergy and exhaustion are associated with chronically\nactive pulmonary sarcoidosis and negatively impact patient outcomes. We aim to define novel mechanisms\ninvolving CD4+ naïve T-cells and cDC1 that underlie peripheral lymphopenia and T-cell dysfunction in\nsarcoidosis. In-depth understanding of these mechanisms will allow development of future targeted therapies\nand timely intervention to mitigate disease progression."
+ },
+ {
+  "id": "a8ce2cc6-4b7f-46ac-b0bc-15c4c6c985de",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Neuronal Experience-Regulated Transcription",
+  "text": "The FASEB SRC on Neuronal Experience-Regulated Transcription will build fundamental knowledge about the\nway that the brain unites experience with genome regulation to mediate circuit plasticity and behavioral\nadaptability. We will engage researchers who study how disruption of activity-regulated transcription causes in\nneurodevelopmental and neurodegenerative disorders. Through our discussions we will advance efforts to\nreduce the burden of these disorders on patients, families, caregivers, and the community."
+ },
+ {
+  "id": "a8cea858-4318-4ac9-b7e1-ae368c1fab87",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Optimizing HER2 modulation in HER2-low breast tumors to enhance ADC therapy",
+  "text": "antibody-drug therapies. Predictive biomarkers to guide antibody-drug response and novel therapeutic\napproaches are necessary for improving survival in patients and for sparing patients from unnecessary toxicity\nrelated to ineffective therapy. This proposal seeks to optimize an imaging and therapeutic approach that can\nidentify the sensitivity or resistance of trastuzumab-drug conjugates in HER2-low breast tumors."
+ },
+ {
+  "id": "a8d1204e-33eb-4a2c-81ac-f325c0e77a49",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Human centromere variation and function",
+  "text": "Chromosomes must be equally segregated during cell division or else catastrophic events, such as spontaneous\nabortion, birth defects, and carcinogenesis, may occur. The chromosomal locus that ensures the equal\nsegregation of chromosomes is the centromere. The goal of this proposal is to elucidate the sequence, structure,\nand variation of human centromeres and to define their role in ensuring the equal segregation of chromosomes."
+ },
+ {
+  "id": "a8d6e582-14d5-4def-892a-5fa5e03a69e9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating the Molecular Basis of Synapse Formation through High-Throughput Functional CRISPR Screening",
+  "text": "Dysfunction or imbalance of synaptic communication is implicated in various mental disorders,\nhighlighting the need for a comprehensive understanding of synapse formation mechanisms. This research\nestablishes Syn-seq, a novel functional genomics platform to identify critical synaptic organizers, scaling\nfrom targeted adhesion GPCR screens to genome-wide analysis in human neurons. By characterizing novel\ncausal synaptic adhesion molecules, this project aims to elucidate fundamental mechanisms of synapse\nassembly and plasticity, potentially uncovering new therapeutic targets for mental health disorders."
+ },
+ {
+  "id": "a8d7a419-3665-45a1-9889-6cf321beb11b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Engineering vCCI Binding Specificity for Chemokines via Combined Computational and Experimental Approaches",
+  "text": "This project investigates the viral protein vCCI, a natural inhibitor of inflammation that\nbinds to immune signaling molecules called chemokines. Using computational modeling\nand experimental methods, we will design and test variants of vCCI and chemokines to\nmap their interactions and engineer proteins with tailored binding properties. The\noutcomes include both advancing therapeutic strategies for inflammatory diseases and\nproviding hands-on research training for students."
+ },
+ {
+  "id": "a8dfa439-58d2-488e-a11a-dfe6b6c2888a",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Core D:  Analysis Core",
+  "text": "Analysis Core The overarching goal of the Analysis Core is to ensure the success of the MOST4 projects by providing an outstanding data analytic service for analysis plan management, advising on appropriate methodologic approaches, and implementation of high quality analyses. The Analysis Core will provide analytic support for the three major scientific projects in this grant cycle that address key gaps in knowledge in osteoarthritis (OA). This core will institute a process to ensure that rigorous and high quality study design and analytic methods will be instituted in MOST projects and studies, which will be critical for making valid inferences. The MOST Study has made major contributions to our understanding of the course of knee OA, largely due to the sophisticated analyses applied to the comprehensive data collected over the prior three funded cycles of MOST. The specific aims of the Analysis Core are as follows: 1) Provide detailed critical reviews of analysis plans to ensure that appropriate and high quality methods are used to ensure rigor and reproducibility of findings; 2) Develop detailed operational procedures with the Executive Committee to incorporate overall MOST4 study dissemination priorities and help ensure Project leads meet internal and external deadlines; 3) Conduct all analyses for MOST4- approved analysis plans using state-of-the-art methods that address unique statistical issues encountered in OA research and in MOST; 4) Provide ongoing education and training to MOST analysts and investigators to enable projects that rely on imaging and/or multidimensional data (e.g., Project 3: Mineralization) to take advantage of current and evolving methods in advanced analytic techniques including machine learning and visualization. By implementing high quality methods with standardized policies and procedures, the Analysis Core will efficiently manage a large number of analyses in an efficient, rigorous, and transparent manner to contribute to the scientific insights that will be made possible by the vast and rich data collection planned in MOST4."
+ },
+ {
+  "id": "a8e49f27-fb16-400b-b294-8b9ce84f25fa",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Leveraging JAK Inhibitors to Halt Autoimmune Attack Induced by Immune Checkpoint Inhibitors",
+  "text": "Autoimmune disease is a common, unwanted side effect of cancer immunotherapy, occurring in up to\n60% of patients who receive immune checkpoint inhibitor treatment. One such treatment-related\nautoimmune disease is checkpoint inhibitor-induced diabetes (ICI-DM), which presents as a life-\nthreatening destruction of pancreas insulin-producing beta-cells and life-long dependence on insulin\nreplacement therapy. This study will test the efficacy and safety of a clinically-approved oral Janus\nkinase inhibitor to reverse autoimmune destruction and preserve insulin production in patients with\nnew onset ICI-DM."
+ }
+]

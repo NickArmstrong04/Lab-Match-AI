@@ -1,0 +1,142 @@
+[
+ {
+  "id": "dcce165f-d317-4341-8d54-fd737f56c566",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Manufacturing and Analytical Development for JLK-247 Gene Therapy",
+  "text": "Our project is focused on the development of a treatment for Sanfilippo Syndrome Type C, a fatal\nneurodegenerative disorder of childhood, which has enormous health and socioeconomic impact on many\nfamilies and on the healthcare system. We will execute a 500 L manufacturing of JLK-247 gene therapy vector\nfor treatment of MPS IIIC patients. We intend to develop and commercialize the first specific therapy for this\nindication."
+ },
+ {
+  "id": "dcd00883-ecbd-4d9d-bf7d-f99b34a6ec6e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Clonal Evolution and Immune Dysregulation in AML patients treated with Venetoclax and Azacitidine after Allogeneic Stem Cell Transplantation",
+  "text": "AML patients who relapse after allogeneic stem cell transplant have a dismal prognosis, with 1-year survival rate\nof less than 20%. Understanding the mechanism of relapse, particularly through the study of clonal evolution on\nsingle cell level in addition to immune related changes could inform post-transplant treatment strategies to\nimprove outcomes. In this project, we aim to analyze longitudinally collected samples from post-transplant AML\npatients-who have enrolled on an ongoing phase II trial of venetoclax and azicitidine (NCT04128501) for relapse\nprevention-specifically to identify a) genetic mutations contributing to disease resistance and monitor the\nevolution of mutational patterns, b) the impact of venetoclax and azacitidine post-transplant therapy on anti-\nleukemic immunity, particularly in the period preceding overt relapse."
+ },
+ {
+  "id": "dcd22d01-0c0b-4774-a626-ac452e2c5e40",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A membrane fusion apparatus trailblazes measles virus spread in airway cells",
+  "text": "Measles virus is so contagious that eradication would require a global vaccination and booster rate exceeding\n95%. By unraveling the mechanism of cell-to-cell spread in airway cells, we hope to better understand a vital\nstep that occurs prior to host-to-host transmission. Such information may bolster defenses against emerging\npathogens and help develop targeted outbreak intervention tactics in schools and healthcare settings."
+ },
+ {
+  "id": "dcda792e-a7df-4cc7-b359-dbfae5bc31da",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Remote effects of focal hippocampal seizures on neocortical function",
+  "text": "Impaired function of the cerebral cortex and cognitive deficits have a large impact on quality of life in people\nwith temporal lobe epilepsy. Understanding the fundamental mechanisms of remote network impairment in\nfocal epilepsy may lead to novel surgical, neurostimulation, or pharmacologic therapies for this disorder."
+ },
+ {
+  "id": "dcdc4bda-9af1-4997-be7c-b1d91522c3e4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multi-level Mechanisms of Behavioral Activation Therapy for Adolescent Depression",
+  "text": "Behavioral Activation (BA) psychotherapy has emerged as a first-line treatment for adolescent depression, yet\nthe underlying neurobiological mechanisms of BA’s efficacy remain unclear. A fuller understanding of BA’s\ntargets of treatment engagement requires multiple assessments linking trajectories of behavioral and symptom\nchange with trajectories of change in these neural circuits over the course of therapy as opposed to just\npre/post comparisons. This study will provide insights that can be used to develop new treatment biomarkers,\ninform BA treatment augmentation, further novel treatment development, and facilitate precision-based\npsychotherapy interventions to more effectively treat this major public health problem."
+ },
+ {
+  "id": "dcdc7751-e9b2-4264-89f8-af3e59234788",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "FMRP regulation of mitochondria and metabolism in mammalian brain development",
+  "text": "The proposed work will fill a major gap of our knowledge in understanding function of FMRP in regulating\nenergy metabolism during human brain development. Such understanding is critical for better therapeutic\ndevelopment for fragile X syndrome as well as other neurodevelopmental disorders including autism."
+ },
+ {
+  "id": "dce184cc-de08-4e88-9edc-55d06f4f7207",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Engineering enhanced chimeric autoantibody receptor T cell therapy for Pemphigus Vulgaris",
+  "text": "Autoantibody-mediated diseases such as pemphigus vulgaris (PV) and myasthenia gravis (MG) remain life-\nthreatening and difficult to treat because current immunosuppressive strategies non-selectively deplete\nprotective immunity and carry high risks of infection. Building on early-phase clinical trials of DSG3- and MuSK-\nCAAR T cells, which demonstrated safety but limited persistence and efficacy, this project will develop next-\ngeneration CAAR T cells with improved receptor design, in vivo stimulation platforms, and orthogonal cytokine\nsupport to overcome barriers of target scarcity and receptor instability. Successful completion will provide\ntransformative, antigen-specific therapies that selectively eliminate pathogenic B cells while preserving\nprotective immunity, setting the stage for clinical translation in PV and MG."
+ },
+ {
+  "id": "dce512af-339c-42b0-93c6-2c07356ab922",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Harnessing Health Data Science capacity to strengthen evidence-based interventions, policy and response to  the HIV/AIDS Epidemic in Uganda (H-DATA)",
+  "text": "This health data science training program leverages Uganda’s high-volume clinical cohorts and innovative healthcare delivery models to train scientists in advanced predictive analytics and machine learning for HIV control. By evaluating these decentralized care strategies in a data-dense environment, the program generates actionable insights directly translatable to American jurisdictions facing severe care-retention differentials, particularly within rural Southern and urban metropolitan areas with documented healthcare infrastructure deficits. Ultimately, this cross-continental partnership strengthens American public health by providing cost-effective, data-driven interventions to optimize domestic HIV prevention, enhance epidemic forecasting, and minimize systemic gaps in clinical care continuity."
+ },
+ {
+  "id": "dce5692c-2575-4f00-a88f-82e19874367a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Metabolic and genetic determinants of Mtb heterogeneity in disease, drug response, and resistance",
+  "text": "Metabolic and genetic determinants of Mtb heterogeneity in disease, drug response, and resistance\nCo-Principal Investigators, Kyu Rhee and Branch Moody\nMycobacterium tuberculosis (Mtb) generates genetic heterogeneity through chromosomal mutations, so the\ngenomes of Mtb specimens taken from patients are a genetic record of changes needed for Mtb adaptation to\nsurvive and transmit in humans. Here we detect genes that control mycobacterial lipids and metabolites as a\ncrucial and now broadly surveyable aspect of Mtb physiology. This interdisciplinary research program will\ndefine the genes that encode metabolites and lipids that are essential for Mtb infection, transmission,\npersistence and drug resistance, so that we can design therapies to counter these crucial molecules."
+ },
+ {
+  "id": "dce67ccd-f0b1-4620-a436-b7483afa2cd9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Sex-Specific Genetic Drivers of Alzheimer's Disease Endophenotypes",
+  "text": "Two-thirds of Alzheimer’s disease (AD) cases are female, and research suggests that the disease affects male\nand female brains in different ways. The goal of this project is to identify sex-specific genetic drivers of AD\nneuropathology, neurodegeneration, and cognitive impairment. The identification of such genetic markers will\nfacilitate the development of personalized interventions that are tailored to the sex and neuropathology of the\nindividual."
+ },
+ {
+  "id": "dce9af05-cf08-4e69-a3c9-b9121514bfdd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Defining PRC1.1 as a gatekeeper of lineage plasticity and response to anti-GD2 therapy",
+  "text": "Epigenetic dysregulation is frequently observed in the disease pathology of pediatric cancers, including\nneuroblastoma (NB), the most common extracranial solid tumor in pediatric patients. We’ve discovered that\nadoption of a mesenchymal lineage is associated with loss of GD2 expression, resulting in resistance to anti-\nGD2 therapy. This proposal outlines the targeting of PRC1.1 via inhibition of USP7 as a therapeutic\nintervention to directly target neuroblastomas and restore the response to anti-GD2 therapy.\n."
+ },
+ {
+  "id": "dcecf26c-9f7a-46d0-b8ec-c487ef854b78",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of sigma-factor-dependent transcriptional control in Mycobacterium tuberculosis",
+  "text": "Sigma-factors are critical protein components of the bacterial transcription machinery, reprograming the\ntranscriptome to adapt to different environmental cues and stresses encountered from the host. The primary\nsigma-factor in Mycobacterium tuberculosis (Mtb), the causative bacterial agent of tuberculosis (TB), contains\nan intrinsically disordered region (IDR) of unknown function. The proposed work will evaluate the structural\ndynamics and function of this IDR, in effort to understand its role in Mtb transcriptional regulation and bacterial\nresistance against the current primary antibiotic used to treat TB infections."
+ },
+ {
+  "id": "dced0000-7b6e-4f45-86ef-38c0e28628a5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Systems analysis of mechanisms driving response to immunotherapy in clear cell cancers",
+  "text": "This administrative supplement addresses a tumor-associated macrophage signal newly\nidentiﬁed in our spatial and transcriptomic analyses of clear cell cancers, a ﬁnding not\nanticipated when the parent grant was funded. We will adapt a recently published CRISPR\nactivation surfaceome screening approach to identify which immune-expressed ligands\ndrive this eCect on anti-tumor immunity. The work directly extends the parent grant Aim 3 to\nvalidate causal drivers of immunotherapy response, providing functional evidence to\ncomplement our computational and imaging-based ﬁndings within the current project\nperiod."
+ },
+ {
+  "id": "dcedae46-573c-4786-a99e-08eb2e8ed1d4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Elucidating the Role of AIRE and Tumor Associated Aire-expressing Cells in Tumor Growth and Immune Evasion",
+  "text": "AIRE is required for maintaining tolerance in the thymus and periphery to prevent autoimmune diseases but\ncan also play a detrimental role by dampening immune responses against cancer. While deletion of thymic\nAIRE expression has been shown to improve response to immunotherapy in certain cancers by allowing the\ndevelopment of autoreactive T cells, whether extrathymic AIRE expression is involved in regulating anti-tumor\nimmune responses remains unknown. This proposal investigates the role of peripheral AIRE expression and\ntumor associated Aire-expressing cells in tumor progression and immunity with the ultimate goal of improving\nimmunotherapy approaches for cancer treatment."
+ },
+ {
+  "id": "dcf11839-8e64-47f0-a214-a44816f81d90",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "DP1 receptor signaling in aging-associated immune dysfunction in lung metastases",
+  "text": "(PROJECT 2 – ZHENG) “DP1 receptor signaling in aging-associated immune dysfunction in lung metastases” Recent studies from our laboratory revealed that age-related anti-viral immune dysfunction in the respiratory tract is driven by the increased expression of an inducible phospholipase A2 group IID (PLA2G2D) enzyme and the prostaglandin D2 receptor, DP1. Specifically, we discovered that age-related mortality in SARs- CoV2-infected mice were largely reversed in both PLA2G2D-/- and DP1-/- mice as a consequence of enhanced lung dendritic cell (DC) mediated anti-viral-specific T cell responses. These survival benefits were subsequently confirmed in mice treated with a highly specific DP1 receptor antagonist, Asapiprant, which is currently being tested in phase II clinical trials. In our new preliminary studies, we have confirmed this age-related immune dysfunction pathway also exists in metastatic lung tumor-bearing mice. Specifically, we have found that PLA2G2D or DP1 deficiency, very effectively restricts the growth of melanoma lung metastasis in a manner that correlates with a substantial early enrichment of γδ-T cells. In this phase 2 CCII COBRE project, we hypothesize that PLA2G2D/PGD2-DP1 signaling contributes to primary and metastatic tumor growth in the lung and acts by inhibiting age-associated inflammasome activation in lung DCs. To test this hypothesis, we will: 1) Determine the mechanisms and signaling effectors underlying PLA2G2D/PGD2-DP1 signaling in lung DCs from aged, tumor bearing mice, and 2) Investigate the potential of the DP1-targeting small molecule, Asapiprant, as a potential mono-immunotherapy in treating clinically relevant lung primary and metastatic disease models. Finally, these studies will evaluate whether DP1 targeting in immune checkpoint blockade (ICB) resistant implantable and spontaneous tumor models is sufficient to reduce resistance/increase efficacy in combination with anti-PD-1."
+ },
+ {
+  "id": "dcf45293-de10-4a3c-8743-f235e9fbfae2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The role of phosphatidic acid in liver regeneration after acetaminophen overdose",
+  "text": "This project is important for public health because it will lay the foundation for better treatments for liver injury.\nAcute liver failure is a devastating illness with limited treatment options. This project will improve understanding\nof natural, endogenous repair processes in the liver so we can exploit them to improve patient outcomes."
+ },
+ {
+  "id": "dcf7eed0-4620-4109-90bc-41126960fced",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of LAM-specific TREM1 in leukemogenesis",
+  "text": "Cancer progression is heavily influenced by supportive cells in the tumor microenvironment. The project aims to\ninvestigate the previously unknown connection between TREM1-positive leukemia-associated macrophages\n(LAMs) and leukemogenesis. If successfully completed, the project would uncover novel roles of TREM1 in LAM-\nleukemia interaction during leukemia development, and yield valuable information on whether targeting TREM1\nor its signaling components may be therapeutically useful in the prevention and treatment of leukemia."
+ },
+ {
+  "id": "dcfa5b0f-f2c7-4ead-975a-97d40c05ac82",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A new paradigm of glomerular immune cell homing",
+  "text": "Relevance\nInflammatory kidney diseases such as glomerulonephritis, diabetic kidney disease and lupus nephritis\nare associated with significant comorbidities and mortalities and affect close to a third of the US\npopulation, yet their pathophysiology remains incompletely understood. Macula densa cells play pivotal\nroles in the maintenance of the normal structure and function of the healthy glomerulus and also in the\ndevelopment of glomerular injury in kidney diseases, yet their primary immunomodulatory role has been\nlargely overlooked. We propose to study the role of macula densa cells and their pro and anti-\ninflammatory function in the normal and diseased kidney, and to develop new therapeutic approaches\nfor inflammatory kidney diseases."
+ },
+ {
+  "id": "dd02fb02-387c-47c6-abb5-a77da4040443",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Gene regulatory programs underlying differences in neural crest developmental potential in the head and neck",
+  "text": "The neural crest of the head and neck contributes to many essential tissues including the craniofacial\nskeleton, parts of the cardiac mesenchyme, and the enteric nervous system. The ability of the neural\ncrest to form ectomesenchymal tissue, such as craniofacial cartilage, is lost in lower parts of the body.\nFurther study of the gene regulatory differences that establish these differential cell fates will inform\nour understanding of the neural crest while carrying potential implications for underlying craniofacial\nbirth defects and regenerative therapies targeted at generation of ectomesenchyme tissue."
+ },
+ {
+  "id": "dd082188-3678-42fa-a740-3cf5e2fd4ee6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dissecting the immunomodulatory effects of NK cells on immune responses to cancer",
+  "text": "Our previous studies identified Natural Killer (NK) cells as important regulators of the immune response to cancer\nand responses to current FDA-approved immunotherapies. This research proposal will define novel cellular and\nmolecular pathways that regulate the immunomodulatory effects of NK cells in the tumor microenvironment. This\nproject will be the first steps towards the development of novel immunotherapies that harness the\nimmunomodulatory effects of NK cells to increase patient’s immune responses to cancer."
+ }
+]

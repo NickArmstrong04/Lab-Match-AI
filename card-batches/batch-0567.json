@@ -1,0 +1,142 @@
+[
+ {
+  "id": "3d3d237e-bd60-4dee-879a-d26bbe328ac4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating serial killing by CD8+ T cells using the novel \"kiss-of-death\" intercellular labeling platform",
+  "text": "This study investigates the mechanisms behind the serial killing behavior of cytotoxic T cells, a critical function\nfor effective anti-tumor immunity in cancer immunotherapy. We have developed a novel \"kiss of death\" assay\nthat directly labels T cells based on their cytolytic activity, enabling the identification of genes that regulate T cell-\nmediated tumor cell killing through CRISPR screens. Our approach aims to uncover transcriptional, epigenetic,\nand functional features of serial-killing T cells, ultimately providing insights to enhance T cell cytotoxicity within\nthe tumor microenvironment."
+ },
+ {
+  "id": "3d3ddb82-52f5-455c-bdfa-acfaa1a03264",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "2026 Nasopharyngeal Carcinoma Gordon Research Conference",
+  "text": "Epstein-Barr virus (EBV) is a major driver of nasopharyngeal carcinoma, a highly metastatic cancer that affects\npeople at relatively young ages. This conference will focus on roles of EBV, immune response, human genetics\nand environmental factors that together cause this aggressive cancer. The 2026 Nasopharyngeal Carcinoma\nGordon Research Conference will bring together leading scientists, physician-scientists and trainees to\nexchange recent advances, catalyze the development of new approaches and to expedite translation into the\nclinic."
+ },
+ {
+  "id": "3d3edb86-290f-4673-8403-1cdc32a61a45",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The evolutionary landscape of BRCA-associated breast cancer and its impact on endocrine therapy resistance",
+  "text": "Although most estrogen-driven breast cancers are initially sensitive to hormone therapy, 15–20% of patients do\nnot respond, and another 30–50% acquire resistance. There is accumulating evidence that estrogen signaling\nand response to hormone therapy are affected by genetic alterations in tumors that lead to problems in\nrepairing DNA breaks that occur during cell division. This project aims to understand the mechanism by which\nthese genetic alterations, such as BRCA2 mutations, affects responsiveness to hormone therapy, which may\nsuggest new ways to overcome hormone therapy resistance by combination or sequence with other anticancer\ndrugs."
+ },
+ {
+  "id": "3d426f33-ee5e-4823-933c-e86d017aab0f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Innate immune memory for glioma immunotherapy",
+  "text": "Clinical trials of intratumor immunotherapies that stoke antitumor T cell function, e.g., virotherapy, have\nshown encouraging early results in lethal WHO grade IV gliomas but are clearly not effective in most patients\ntreated to date. We discovered a decisive role for myeloid cells, which are derived from bone marrow resident\nprogenitors, in determining the anti-glioma efficacy of intratumor immunotherapy. This proposal will\nmechanistically define effective virotherapy in patients with glioma, determine the role of bone marrow\nprogenitors in mediating glioma inflammation and responsiveness to immunotherapy, and will define a novel\nstrategy to engage antitumor functions of bone marrow progenitors."
+ },
+ {
+  "id": "3d42a78e-239a-4ec4-a773-e61f4506b7a1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of Innovative Resources to Advance MDS Research",
+  "text": "Myelodysplastic syndrome (MDS) is a heterogeneous group of progressive diseases of blood-forming hematopoietic stem/progenitor cells. Mechanisms of progression are poorly understood, and treatment options are limited. Our proposed highly collaborative and synergistic studies will produce a vibrant understanding of the path from molecular mutations to functional consequences in MDS and create a library of resources that can be shared with the greater MDS scientific community to enable further progress toward improved treatment strategies."
+ },
+ {
+  "id": "3d46097b-6f5f-4ddc-b9de-cb5681896ace",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of Integrative and Conjugative Elements in Oral Bacteria",
+  "text": "Horizontal gene transfer through mobile genetic elements drives the adaptive evolution of bacterial pathogens\nand contributes significantly to the spread of pathogenic properties throughout bacterial communities. We\nrecently discovered an integrative and conjugative element (a type of mobile element that is transferred from\ncell to cell via conjugation) on the genome of the oral pathogen Streptococcus mutans. In this project, we will\ninvestigate fundamental aspects of the element’s biology and its influence on S. mutans pathogenesis,\nincluding the signals that govern this transfer, interactions with other mobile genetic elements and bacterial\ndefense systems, and elemental mechanisms that may ultimately harm the host bacterial cell."
+ },
+ {
+  "id": "3d493cf4-112d-4fd0-8f2d-641e035221c1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Machine Learning for CCHD Screening using Dynamic Data",
+  "text": "Congenital heart disease is the most common birth defect and can be missed during pregnancy scan\nand newborn exam leading to delayed detection, poor outcomes, and death. This application seeks to test and\ndevelop a critical congenital heart disease screening machine learning algorithm that combines the current\nscreening standard, oxygen saturation, with additional features to assess blood flow and perfusion and\nincorporates dynamic data from both inpatient and outpatient settings. This approach has the potential to\nincrease infant survival and will develop neonatal specific devices using artificial intelligence driven\ndiagnostics, which are priorities to the NICHD Pregnancy and Perinatology Branch and Obstetric and Pediatric\nPharmacology and Therapeutics Branch."
+ },
+ {
+  "id": "3d4af3d2-0db3-4ec8-936b-4b2f2e955f03",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Neural Mechanisms of Immersive Virtual Reality in Chronic Pain",
+  "text": "This project examines, in chronic pain, the mechanisms of immersive virtual reality compared to the mechanisms\nof placebo hypoalgesia. The potential of developing new non-pharmacological premises for low-risk interventions\nfor pain management is high."
+ },
+ {
+  "id": "3d541792-bb53-4227-b90d-81a6c102f78a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Translational studies of cellular senescence as a regulator of doxorubicin-mediated arterial dysfunction",
+  "text": "Impaired artery function is a major risk factor for cardiovascular diseases in men and women who have\nundergone cancer treatment with Doxorubicin chemotherapy. In the proposed project, I will investigate the role\nof cellular senescence in regulating arterial dysfunction with Doxorubicin in preclinical mouse models and in\nhumans by conducting a trial in Doxorubicin-treated cancer patients. Overall, the findings of this project have\nthe potential to identify cellular senescence as a new therapeutic target for preventing/treating impaired artery\nfunction with Doxorubicin and thereby reducing risk of cardiovascular diseases."
+ },
+ {
+  "id": "3d65d0ee-7e7a-48c7-bb20-b374578aa360",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Novel pan-RAS Inhibitors from Natural Products: A Safer Approach for Colorectal Cancer Interception",
+  "text": "This project seeks to pioneer a novel therapeutic strategy aimed at preventing colorectal cancer in individuals\nwith precancerous polyps who are at high risk for progression to malignant disease by targeting the RAS\noncoprotein, a critical driver implicated in a significant portion of colorectal and other cancers. We will develop a\nhigh-throughput screening assay to identify selective inhibitors of mutant RAS-expressing precancerous cells,\nleveraging the NCI Natural Products Library, the world’s most extensive repository of bioactive natural\ncompounds. Promising candidates emerging from the screen will undergo comprehensive in vitro and in vivo\nvalidation to assess their efficacy and potential for clinical translation, particularly in individuals with polyposis\nsyndromes."
+ },
+ {
+  "id": "3d73f7a6-9008-40a1-83f5-6627bdb05673",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Neural circuit mechanisms of dynamic learning rates",
+  "text": "We recently found that the orbitofrontal cortex (OFC) is required for animals to dynamically adjust their rate of\nreinforcement learning based on uncertainty in the environment. This proposal will combine behavioral,\ncomputational, circuit perturbation techniques and optical neuromodulatory sensors to determine whether OFC\nneurons that project to a part of the brain called the ventral striatum control the rate of error-driven learning.\nNeuropsychiatric disorders, including schizophrenia and bipolar disorder, are characterized by aberrant reward\nprocessing and disordered decision-making, and a greater understanding of the circuit mechanisms of decision-\nmaking could identify novel therapeutic targets for these disorders."
+ },
+ {
+  "id": "3d78b068-0c9c-42df-b550-8dc1f382433b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating COUP-TFII in human vein development",
+  "text": "Knowledge of human blood vessel formation, including veins, is crucial for successfully vascularizing engineered\ntissues in regenerative medicine and effectively treating organs affected by vascular diseases. However, the\nprocesses guiding the development of human veins remain poorly understood due to the scarcity of samples\nand the lack of relevant model systems. Here, I propose to study COUP-TFII, a transcription factor implicated in\nvenous differentiation in other species, and its mechanisms of action by leveraging a recently developed human\npluripotent stem cell differentiation protocol with the long-term goal of identifying new therapeutic pathways."
+ },
+ {
+  "id": "3d83d5f4-0b19-48a4-b6a8-e5bb4f9a019c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Complement in the Pathogenesis of Acute Chest Syndrome",
+  "text": "The proposed research is relevant to public health because sickle cell disease (SCD) is a life-threatening blood\ndisorder that affects millions of people worldwide, causing debilitating effects from acute painful episodes to\nchronic organ dysfunction, limiting quality of life and expectancy. We have identified that complement activation\ncan drive acute chest syndrome (ACS), a major complication of SCD with high morbidity and mortality. In this\nproposal, we will identify mechanisms and treatment options for ACS using a multi-faceted approach of animal\nmodels, microfluidics and human samples to predict, prevent and treat ACS in SCD."
+ },
+ {
+  "id": "3d8427d5-ca4a-4187-a1ad-f0d63720cf7b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "DMS/NIGMS 2: The mathematics of epigenetic regulation in human cells",
+  "text": "RELEVANCE (See instructions):\n This project can lead to theoretical and experimental advances that will enhance our understanding of\n epigenetic regulation in biological systems with broad implications in developmental biology and medicine.\n The proposed framework provides the flexibility to test new mathematical theory and experimental\n techniques, an aspect that transcends project specific objectives."
+ },
+ {
+  "id": "3d8d1f8a-7ee0-44e8-af01-88d63ca623ac",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Human-Robot Collaboration in Construction: Assessing Cognitive Factors for Construction Workers Using Virtual Reality-Wearable Devices-Data Analytics Integrated Approach",
+  "text": "This project delves into the realm of Human-Robot Collaboration (HRC) within the construction\nindustry using Virtual Reality (VR) and wearable devices as tools, aiming to determine the impact\nof levels of involving human-robot collaborations in construction on workers' (both male and\nfemale) cognitive risk factors (including mental fatigue, attention, and stress) to enhance\noccupational safety and health. Neglecting the understanding and analysis of cognitive risk factors\nin HRC can lead to unforeseen safety hazards and health issues and further hinder the successful\nadoption and efficiency of HRC in construction. At the completion of the proposed research, the\noutcomes are expected to not only offer strong evidence to enhance safety measures and worker\nwell-being and promote effective HRC implementations, but also posit that the strategic\nintegration of robotics in construction tasks can foster a broader, more inclusive construction\nworking environment and alleviate workforce shortages, promoting the public well-being."
+ },
+ {
+  "id": "3d90e1a2-c58c-45bd-97a9-7b36a8a1c014",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Prostate Cancer Program",
+  "text": "Prostate Cancer Program: Summary/Abstract The overarching scientific goal of the HDFCCC Prostate Cancer (PR) Program is to use a team approach to advance the understanding of tumor biology and drive translation into more effective and targeted treatment. This is done through translational research spanning discovery bench science to clinical application and back. The PR Program also seeks to specifically address the burden of prostate cancer and disparities in outcomes among patients within the catchment area. The result will be a reduction the morbidity and mortality associated with prostate cancer and its treatments by leveraging a deep understanding of the disease at the biologic, clinical, and population levels. The PR Program approaches this mission with transdisciplinary research that is richly collaborative and translational, organized around three specific aims: (1) to discover molecular features and drivers of prostate cancer; (2) to develop and validate biomarkers and models to predict outcomes in men with prostate cancer; and (3) to develop clinical interventions to improve outcomes for men with prostate cancer."
+ },
+ {
+  "id": "3d90f8e3-bcbd-4ec9-bfce-408a31d6e869",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of hematopoietic stem cell engraftment",
+  "text": "Haploidentical transplantation, where donors are matched at half of the HLA loci is a lifesaving alternative\nfor patients without a suitable donor, and who can only be cured by a hematopoietic stem cell transplantation.\nDespite significant improvements, this curative treatment is still limited by increased rejection, often requiring\nhigh-dose immunosuppression to sustain donor grafts. This proposal seeks to illuminate the mechanisms by\nwhich the innate immune system recognizes haploidentical cells as foreign, with the ultimate goal to generate\nnovel therapies that will enhance the efficiency of allogeneic transplantation."
+ },
+ {
+  "id": "3d948c79-678e-4a95-8246-9e58a36229df",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multiple X-ray Source Array (MXA) Computed Tomography",
+  "text": "Multiple-X-ray Source Array-based ComputedTomography (MXA-CT)\nNarrative\nWe propose the development of a brand-new type of x-ray tube which uses six or more sources\nof radiation (sometimes simultaneously), and to use this new x-ray source to develop a faster\ncomputed tomography scanner with much better image quality than existing systems. The multi\nx-ray source array (MXA) is likely to revolutionize CT imaging, for standard whole body CT\nsystems and so-called cone beam CT systems which are specially built for dental, knee, breast,\nand other imaging applications."
+ },
+ {
+  "id": "3d95d0b7-6119-4d6d-bb7a-ed69c4774ca7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of multinuclear MRI for image guided therapy of glioma patients",
+  "text": "8. Project Narrative\nThe proposed research is relevant to public health because it will greatly improve the performance of MRI\nscanners to image metabolic alterations in primary brain tumors. The new imaging methods will be used to\nguide intra-operatively surgical resection of brain tumors and monitor treatment response. This will enable\nprecision oncology with targeted therapy tailored to the individual patient. Hence, this research is relevant to\nNCI’s mission to advance diagnosis and treatment of cancer."
+ },
+ {
+  "id": "3d99b778-f24d-4968-a0f3-8626e15af728",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Explaining the potential role of physical activity in employment disparities after breast cancer",
+  "text": "Breast cancer survivors are the largest group of cancer survivors and are at high risk for unemployment, potentially leading to financial toxicity and poor health outcomes. Despite the numerous benefits of employment for cancer survivors, cancer-related fatigue and cognitive impairment are common obstacles to working; these obstacles can be alleviated with physical activity, but accessibility to exercise opportunities and different experiences among those with limited education and lower income can adversely impact these outcomes. This study proposes an innovative approach to explore the relationship between physical activity and employment, and the impact of fatigue, cognitive impairment, accessibility to exercise opportunities, and different experiences based on education and income, gaining preliminary information to develop a future intervention targeting physical activity and work-life obstacles in breast cancer survivors susceptible to unemployment and physical inactivity."
+ }
+]

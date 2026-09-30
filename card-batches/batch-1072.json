@@ -1,0 +1,142 @@
+[
+ {
+  "id": "f0788f2d-9df6-489d-868e-43b497184706",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Aerosol delivery of combinational therapeutics targeting deadly lung infections",
+  "text": "Public Health Relevance Statement: Lung infections caused by Gram-negative `superbugs' is very difficult to\ntreat due to the resistance to almost all current antibiotics except polymyxins. Inhaled polymyxin therapies have\nbeen increasingly used as the last resort globally; however, the lack of appropriate delivery system and dearth\nin pharmacological information have led to insufficient efficacy and pulmonary adverse effects. Our multi-\ndisciplinary project will develop innovative aerosol delivery systems of polymyxin combinations with cutting-edge\ntechnologies to provide much safer and efficacious treatments for deadly Gram-negative lung infections."
+ },
+ {
+  "id": "f07bc166-f6ab-4cb2-9792-ba32b01913eb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Harnessing the microbiota metabolite indoleacrylic acid to improve CD8+ T cell-based cancer therapies",
+  "text": "This project aims to uncover how the gut microbiota-derived metabolite indoleacrylic acid enhances CD8 T cell\nantitumor function through AhR and Nrf2 signaling. By integrating mechanistic studies with adoptive cell therapy\nmodels, this project will test IA as a novel adjuvant that improves Tc1 immunity and tumor control. This work will\ngenerate actionable insights into microbe-driven regulation of antitumor immunity and offer a new avenue for\nstrengthening cellular cancer therapies."
+ },
+ {
+  "id": "f07d7122-879e-4649-9d38-47fa0cb15bbf",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A deep learning algorithm to detect signs of cognitive impairment in electronic health records",
+  "text": "Dementia is a growing healthcare problem and a research priority, yet it remains under-recognized in the\ncommunity, under-diagnosed by healthcare professionals, and under-coded in claims data. This study aims to\naddress this pressing need by developing a deep learning algorithm to improve the detection of cognitive\nimpairment within electronic medical records and conducting comprehensive validation across multiple\nhealthcare institutions. The study will not only facilitate research but may also aid providers in planning and\nmanaging patient care."
+ },
+ {
+  "id": "f081b04e-3d9c-49b4-af79-b293e7da783d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Overcoming immune suppression with intracellular antigen-delivery and CRISPR-controlled Salmonella effectors",
+  "text": "The proposed research will engineer Salmonella for targeted delivery of immunogenic antigens into the\ncytoplasm of cancer cells, modulate effectors in Salmonella using CRISPRi technology, and create tumor-\ninfiltrating Salmonella that act as immune checkpoint inhibitors. This therapeutic strategy will direct previously\nacquired memory CD8 T cells against cancer and promote the acquisition of immunity to tumor neoantigens.\nInducing a durable immune response would eradicate tumors, prevent recurrence and metastasis, and enable\nthe treatment of cancers that are unresponsive to current immune therapies."
+ },
+ {
+  "id": "f084808b-e538-4285-9c46-41b70d2ab15c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Shape-based personalized AT(N) imaging markers of Alzheimer's disease",
+  "text": "Relevance to Public Health\nOur project will provide novel imaging markers for the personalized and more accurate characterization of the\nAT(N) status of subjects at risk of Alzheimer’s disease (AD). The personalized cortical thickness analysis\nalgorithms from our research will greatly improve the early detection of brain atrophy due to AD. Our research\nwill also enhance our understanding about the role of AT(N) imaging markers in characterizing the diverse\ndisease trajectories across racial and ethnic groups."
+ },
+ {
+  "id": "f0848d2f-c59e-46fb-97c6-2ae5261c23a9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Understanding the degeneration of axon and nerve terminals in Alzheimer's disease and related dementia brain",
+  "text": "Alzheimer's disease (AD) is the most common form of dementia globally, but current therapies only treat its\nsymptoms but cannot stop disease progression. Using genetic tools combined with high-resolution synaptic\nimaging to manipulate and monitor the central hallmark of AD—degenerative synapse loss, we will investigate\nits molecule and cellular mechanisms in the AD brain. The proposed studies will examine a new paradigm\nessential to axonal and synaptic degeneration and potentially identify novel strategies that may ultimately\ntransform current therapies to protect synaptic connection and cognitive function in AD patients."
+ },
+ {
+  "id": "f0854554-99dd-4196-8721-e90121eed7da",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting ALDH2 to Enhance Anesthetic Arousal: Mechanisms and Therapeutic Potential",
+  "text": "Millions of people undergo anesthesia every year, but some experience delayed arousal\ntimes, which can lead to serious health risks. This research explores how a key enzyme, ALDH2, helps the\nbrain clear harmful chemicals that build up during anesthesia and whether boosting ALDH2 activity can speed\nup recovery. Understanding this process could lead to new treatments making arousal from anesthesia safer\nand more predictable."
+ },
+ {
+  "id": "f08d7db1-a707-44a4-bc61-63a26a6783b1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of Histone Serotonylation and MLL5 in Coordinating the Epigenome during Neurodevelopment",
+  "text": "Neurodevelopment in brain is a complex process often disrupted by genetic variants in humans, including in\nepigenetic machinery, serotonergic signaling, and more; further research into the molecular mechanisms\nunderlying these disruptions is required to fully understand the complexity of these neurodevelopmental\ndisorders (NDDs). In this proposal, we will perform a strong combination of in cellulo and in vivo work to\ninvestigate the mechanism through which the chromatin regulator MLL5 is recruited through enhanced binding\nto histone serotonylation during neurodevelopment, recruiting histone post-translational modification erasing\nmachinery (NCOR/HDAC3 and JARID1A) to restrict spreading of these modifications past normal boundaries,\nwhich has been shown to impact gene expression and to be disrupted in NDD patient brains. The results of\nthis study will provide new mechanistic insights into how H3K4me3Q5ser and MLL5 coordinate the epigenome\nand transcriptome during key neurodevelopmental windows, as well as the feasibility of ‘rescuing’ molecular\ndeficits as well as behavioral phenotypes via viral gene expression."
+ },
+ {
+  "id": "f08da440-f828-47f8-9955-4cf2d30bf190",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The role for phase separation in oncogenesis and aberrant chromatin looping formation",
+  "text": "Leukemia patients carrying the rearrangement of the NUP98 gene exhibit particularly poor clinical outcomes,\ndemanding a better understanding of how such diseases develop. This project aims to investigate the\npreviously less-studied oncogenic function mediated by the unstructured protein region harbored within the\nleukemia-associated onco-proteins, which contributes to aggressive tumor phenotypes. The outcomes of the\nproject may help develop new therapeutic strategies in future; therefore, the proposed research is directly\nrelevant to public health."
+ },
+ {
+  "id": "f08ffcfe-9078-4b66-b10d-67d2e3d3a20a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project 3: Using big data approaches to understand heterogeneous and resilient cognitive trajectories",
+  "text": "Project 3 - Cognitive Trajectories. This new project will focus on the prediction of latent classes of cognitive trajectories and cognitive resilience in this deeply phenotyped cohort with more than a decade of follow-up to date. One goal of Alzheimer’s disease (AD) prevention is early identification, yet many older adults with elevated AD biomarkers remain cognitively stable for years, complicating efforts to pinpoint those truly at elevated risk that could benefit from intervention. HABS has been instrumental in advancing our understanding of the preclinical AD continuum. The participants that remain cognitively unimpaired well into their 80s, some despite AD biomarker abnormalities, underscore the importance of identifying what distinguishes those stable participants from the participants who do decline. Project 3 addresses this by focusing not just on cognitive decline, but on cognitive stability and resilience - with the aim of establishing why some individuals, even with AD pathology, maintain cognitive health. A major gap to date has been the limited consideration of non-linear associations and complex higher-order interactions observable from high-dimensional data that may play a profound role in shaping an individual’s cognitive trajectory or indeed their cognitive resilience. Using longitudinal data from HABS, gathered for up to 20 years at the end of Cycle 4, we aim to go deeper by identifying key predictors of cognitive trajectories that can better inform trial recruitment, clinical decision- making, individualized care, and what variables to measure in future cohort studies on cognition. Harnessing harmonized data from 14 independent aging and AD cohorts (n~17,000), we will test our findings from HABS and further enhance their robustness and generalizability. Project 3 will leverage machine learning and advanced modeling techniques to capture complex non-linear interactions among demographic, clinical, behavioral, imaging, and biofluid markers. With these findings, we hope to provide the foundations for building individualized 10-year risk profiles for cognitive impairment. In Aim 1, we will use methods like deep learning- based clustering and XGBoost to uncover latent classes of cognitive trajectories and their most important demographic, clinical, behavioral, imaging, and biofluid predictors. In Aim 2, we will apply our newly developed inverse machine learning approach to derive a robust cognitive resilience metric to understand the predictive features of cognitive resilience. In Aim 3, we will stratify these models by sex, APOE genotype, education, and age to uncover distinct pathways to resilience and stability. Innovative aspects of this project include the use of longitudinal clustering along a disease progression continuum (‘pseudo-time’ or c-time) over chronological time, a novel operationalization of resilience through inverse supervised learning, and assessment of identified important predictors across multiple harmonized independent datasets. Project 3 will generate scalable, interpretable, and personalized models that deepen our understanding of cognitive trajectories and accelerate progress towards individualized risk prediction."
+ },
+ {
+  "id": "f0924d12-b209-42af-b24b-ca58ab9506a5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "LUMICKS C-Trap Edge 350",
+  "text": "The proposal requests funds for a state-of-the-art instrument for a user group across the University of Utah\ncampus to study cellular molecular machines that bind and process DNA , proteins that engage the cytoskeleton,\nand those that mediate cell-cell interactions. The instrument will greatly enhance research capabilities to\nunderstand the mechanisms and functional deficits that cause a broad range of cancers as well as infectious,\nimmunological, metabolic, cardiovascular, neurological, and muscular diseases."
+ },
+ {
+  "id": "f0a56c32-a9e9-4eff-97ba-14cac0c5a8d3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Quantitative analysis and manipulation of chromosome dynamics in cancer organoids",
+  "text": "An abnormal number of chromosomes and associated copy number variations of the genetic material are\nhallmarks of cancer. However, how chromosome segregation errors and the resulting aneuploidy contribute to\ncancer initiation, malignancy, evolution, and heterogeneity is poorly understood. The goal of this project is to\ndevelop innovative imaging and optogenetics technology to observe and manipulate chromosome segregation\ndynamics with high spatial and temporal accuracy in patient-derived cancer organoids to ask fundamental\nquestions about the complex relationship between aneuploidy and cancer and inform development of new and\npersonalized therapies."
+ },
+ {
+  "id": "f0a80092-68f1-497a-bade-3d98ae02c80a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Hypnotic Resistance: Definitions, Prevalence, and Risk Factors",
+  "text": "Insomnia affects a significant portion of the population, with chronic cases linked to various health issues and\neconomic burden. This study aims to define and assess treatment-resistant insomnia (TRI) using data from two\nlarge biobanks, aiming to understand its prevalence, associated risks, and genetic factors which will help provide\ninsights for better risk stratification and aid in the development of personalized treatment options for insomnia.\nSpecific aims include developing a clinical definition of TRI, examining clinical and demographic risks, and\nconducting a genome-wide association study to identify genetic associations."
+ },
+ {
+  "id": "f0aa5b1b-f9e0-4356-b86a-4bd4c8dafa7e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Musculoskeletal Knowledge Portal",
+  "text": "The primary goal of this project is to transform “The Musculoskeletal Knowledge Portal (MSKKP)” from an early-\nstage resource into an established biomedical knowledgebase. We will engage experts in musculoskeletal\nresearch to curate and integrate musculoskeletal-specific `omics datasets that are largely absent from disease-\nagnostic data repositories, process the data through analytical pipelines developed by experts in genetics and\ngenomics, and present the resulting knowledge through simple and easy to access web-based visualizations.\nThis project addresses a critical need in the musculoskeletal community to have a single point of entry to simple\nsummaries of musculoskeletal-specific genetic and genomic data, enabling the broader use of these data in the\nstudy of musculoskeletal diseases like osteoporosis and osteoarthritis."
+ },
+ {
+  "id": "f0ad6a2c-4053-45b7-aaa8-05c463a92511",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Genetic and Molecular Studies of Neurogenesis",
+  "text": "The proposed project is relevant to public health because the Drosophila neural stem cell\nlineages we study are essentially the same type of lineage as human outer radial glial (oRG)\nprogenitors. This pool of human progenitors is proposed to generate the massive cortical\nexpansion in most primates, yet working with human progenitors has limitations. Our system\nprovides a gene and mechanism discovery system which will allow tightly focused hypotheses\nfor the role of human oRGs in generating cortical neural diversity in development or disease.\nThus, the proposed research is relevant to NIH's mission to reduce the burden to society arising\nfrom prevalent environmental and genetic brain disorders."
+ },
+ {
+  "id": "f0b07287-e882-4e44-8f97-fe57251c0841",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project 2. Harnessing Epigenetic Regulation of Endogenous Retroelements in Melanoma",
+  "text": "PROJECT 2: PROJECT NARRATIVE\nThis proposed research is relevant to public health because it can evaluate the KDM5B histone demethylase as\nan attractive drug target for cancer treatment, evaluate new approaches to enhance anti-tumor immunity, and\nprovide new melanoma biomarkers. Thus, the proposed studies are relevant to NCI’s mission because they will\nhave major impact on our understanding of the cause, diagnosis and treatment of cancer."
+ },
+ {
+  "id": "f0b38b59-20f6-42b4-9008-951750bf3c74",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Neural Stem Cell-derived EVs for Improving Aged Brain Function",
+  "text": "There is a need to develop an effective therapeutic strategy that prevents or alleviates age-related\ncognitive dysfunction. Using a mouse model of aging, this proposal focuses on testing the efficacy of a\nnon-invasive, intranasal administration of extracellular vesicles generated from human induced\npluripotent stem cell-derived neural stem cells for maintaining better cognitive and memory function in\nold age. If successful, the approach would provide the benchmark for the clinical translation of\nextracellular vesicle therapy to combat age-related dementia in the future."
+ },
+ {
+  "id": "f0b52283-1291-4b4e-b7c1-2e4e4c831f5d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "DRC Transgenic and CRISPR Mouse Core",
+  "text": "Diabetes research during the coming decades will depend heavily upon the ability to utilize the mouse as an experimental model. Mouse models will be critical for investigating both basic and clinically relevant questions in diabetes research. The strong conservation between the genomes of humans and mice, coupled with similar aspects of their physiology, makes mice a powerful model system for understanding human diabetes. In particular, the ability to alter the mouse genome as a means to create models for human diabetes, endocrine pathologies, and diabetes complications will greatly facilitated diabetes research, particularly with regard to in vivo aspects of diabetes. The Transgenic and CRISPR Mouse Core (TCMC) provides investigators at UCLA and UCSD with a wide array of genetic manipulations in the mouse, including targeted deletions, insertions, and point mutations. We use the most cutting-edge approaches, including various versions of the CRISPR system, to performing reverse genetics in the mouse. In addition to small mutations, we perform large DNA replacements, generate mice with conditional Tet-inducible and tamoxifen-inducible transgenes, and create tissue-specific and conditional knock-out mice using Cre-LoxP and Flp recombinases and recombination–mediated cassette exchange (RMCE). We also generate transgenic mice with BAC insertions, and create mice with specialized properties, including BAC-Trap, RiboTag, and tagged-protein mice. The Core also provides other services, including (i) cryogenic freezing of mouse sperm and embryos and (ii) in vitro fertilization to resuscitate mouse sperm. Our long-standing Core is an impressive example of how specialized techniques, highly trained dedicated personnel, specially constructed facilities, and state-of-the-art equipment can be accessed by researchers to achieve goals not feasible on an individual basis. Key objectives are: 1. To create innovative and important mouse models for studies of diabetes and its complications 2. To eliminate barriers to the most cutting-edge mouse genetic approaches for the DRC membership 3. To provide outstanding, reliable, and high-quality mouse embryology and genetic services 4. To advance the technology of genetic manipulation of the mouse genome The availability of the TCMC in coordination with the other DRC Cores, will continue to enable our members to conduct versatile, cutting-edge genetic research in the mouse with a battery of multidisciplinary, state-of-the-art techniques."
+ },
+ {
+  "id": "f0b57805-8681-44cc-a5b7-b98443a336f9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Developmental Neuroscience and Child Psychopathology",
+  "text": "The area of developmental neuroscience and psychopathology has already demonstrated great potential to\ninform the understanding of the causal pathways and mechanisms of mental illness. This training grant\nrenewal seeks to continue to develop new research scientists in this area, building on the track record of\nsuccess over the last two cycles. The division of Child Psychiatry at Washington University School of Medicine\nis well poised to continue and expand this unique post-doctoral training program based on established\nexpertise in a range of child neuroimaging modalities, genetics, gut microbiome, and sleep/circadian rhythms\noffered by the multidisciplinary mentoring group. The program is directed by two researchers with\ncomplimentary expertise in developmental psychopathology (Dr. Joan Luby) and clinical neuroscience and\nneuroimaging (Dr. Deanna Barch) who have successfully collaborated on the first two cycles of funding,\nlaunching numerous young scientists in this domain."
+ },
+ {
+  "id": "f0b66a28-059a-45f4-badb-1233e651e1aa",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular feedback between cell division cycle and differentiation in pluripotent stem cells",
+  "text": "Public Health Statement: Embryonic stem cells hold great promise for regenerative medicine because\nthey possess unlimited self-renewal potential and the remarkable ability to differentiate into any cell\ntype. To precisely control differentiation of embryonic stem cells for regenerative medicine, we study\nmolecular mechanisms linking division and differentiation of embryonic stem cells. Insights from our\nstudies will advance our understanding of the basic biology of differentiation of pluripotent cells, which\nhas immediate implications for robust differentiation of embryonic stem cells into therapeutic cell types\nfor regenerative medicine purposes."
+ }
+]

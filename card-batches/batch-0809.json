@@ -1,0 +1,142 @@
+[
+ {
+  "id": "9481ba17-5152-4034-b797-50fce72f49c6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A prospective study of circulating autoantibodies and breast cancer risk in the NYU Women’s Health Study",
+  "text": "The goal of the study is to identify a panel of circulating autoantibodies that are associated with breast cancer\nrisk in a prospective study. We expect that the investigation of autoantibodies in relation to breast cancer will\ndiscover an array of autoantibodies as new biomarkers that will provide new insights into risk assessment and\nunderlying mechanism in breast cancer development."
+ },
+ {
+  "id": "94910371-d290-4056-94f5-b04599bb5e86",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A single-arm phase II study to evaluate the safety and efficacy of combination systematic chemotherapy and multiple rounds of endoscopic ultrasound-guided radiofrequency ablation in pancreatic cancer",
+  "text": "PROJECT NARRATIVE/PUBLIC HEALTH RELEVANCE\nWe have created an innovative clinical and translational radiofrequency ablation (RFA) collaboration to study\nRFA in pancreatic ductal adenocarcinoma (PDAC). This proposal is a phase II single-arm clinical trial to evaluate\noutcomes using repeated Endoscopic ultrasound guided (EUS) RFA that leverages our strong clinical and\npreclinical platform to explore immunotherapy strategies in combination with RFA to improve clinical trials and\noverall survival for patients with PDAC. Thus, the proposed research is relevant to part of the NIH's mission that\npertains to developing fundamental knowledge that will enhance health, lengthen life and reduce illness."
+ },
+ {
+  "id": "949108fa-9249-4005-aff1-d18fe577adb4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "University of Washington (UW) Mendelian Genomics Data Coordinating Center",
+  "text": "We propose to continue the Consortium’s work and the DCC’s critical role to support the\ncollaborative research framework, and expand and disseminate the datasets and discoveries\ncomprising GREGoR that will provide foundational resources and substrates for the future of\nrare disease genomics."
+ },
+ {
+  "id": "9499df1a-b996-40db-b21a-707e2c7c2682",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Massively-parallel functional interrogation of genetic variation in CMD-associated alpha-dystroglycan glycosylating enzymes",
+  "text": "The goal of this project is to use cell-based high-throughput assays to reliably predict the consequences of\ngenetic variants of unknown significance discovered in the course of genetic testing in a subset of muscular\ndystrophies caused by mutations in a set of alpha-dystroglycan glycosylating enzymes: FKTN, FKRP, POMT1,\nPOMT2, and POMGNT1. We propose to use an integrated experimental and computational approach that\ncombines multiple high-throughput assays of protein trafficking and function and machine-learning to generate\npathogenicity predictions for all possible single-nucleotide variants in these dystroglycanopathy genes and then\nvalidate and disseminate our predictions with respect to disease risk and severity using extensive clinical data\nand primary tissue samples from patients with muscular dystrophy."
+ },
+ {
+  "id": "949b9f05-bfa4-43e4-b9e4-e7ef2d753677",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Elucidating the Mechanisms of S. aureus Motility in Bone and Developing Interventions",
+  "text": "Staphylococcus aureus is involved in 80% of all musculoskeletal infections (MSKI) costing $17,000–$150,000 per patient. Approximately 50% of these infections are caused by methicillin-resistant S. aureus (MRSA) acquired in both hospital and community. With >1.5 million total joint replacements (TJR) performed each year, the most rigorous prophylaxis and aseptic surgical techniques cannot reduce osteomyelitis (OM) rates below 0.5%–2%. Treating established MSKI remains extremely challenging, with current rates of recurrent or persistent infection following revision surgery still as high as 33%. The persistence of S. aureus infection is attributed to its arsenal of immune evasion and antimicrobial resistance mechanisms. Despite great efforts to develop solutions, treatment paradigms have not improved the poor clinical outcomes for OM patients over the last four decades. However, our CoRTOBI paradigm-shifting discovery of S. aureus colonization of the osteocyte lacuno-canalicular network (OLCN) of live cortical bone during OM in mice and patients may explain why previous approaches for treating recurring bone infections have failed, and provide a new therapeutic strategy for eliminating chronic OM. It also begs important questions about the mechanisms that: 1) enable spherical S. aureus to deform into submicron-rod shaped bacteria to invade the OLCN, and 2) render susceptible S. aureus strains refractory to antibiotics after OLCN invasion. Over the past four years we developed a novel bone infection-on-chip utilizing silicon nanomembrane with submicron (~500 nm) array of pores to simulate OLCN orifices (µSiM-CA). By targeted deletion of candidate genes, we identified cell wall transpeptidase proteins, penicillin binding protein 4 (Pbp4), as essential for S. aureus propagation through submicron channels of the µSiM-CA chips in vitro and then demonstrated that they inhibit OLCN colonization in vivo. Moreover, we developed and performed a high throughput screening campaign to identify PBP4 inhibitors (iPBP4). In this renewal, we will first demonstrate the efficacy of PBP4 small molecule inhibitors (iPBP4) in abrogating the OLCN invasion in mouse models of osteomyelitis. We will then identify targets for OM therapy based on gene expression changes that affords S. aureus adaptive tolerance to antibiotics in a novel µSiM- OLCN Chip platform. Finally, we will test the premise that OLCN colonization likely involves many additional factors other than PBP4, and that other chemical classes of OLCN colonization inhibitors can be identified by empirically defining the genetic determinants. These potential targets can then be used to identify corresponding putative therapeutics in a single screening approach. At the completion of this renewal program, CoRTOBI will have: 1) validated recently discovered iPBP4 candidates and potentially new PBP-independent hits against OLCN colonization, 2) a molecular genetic understanding of S. aureus refractory response to antibiotics following OLCN colonization, and 3) translational methods for iPBP4 impregnated 3D-printed scaffolds in one-stage revision surgery for bone infections."
+ },
+ {
+  "id": "949c4269-44d3-4edf-94a8-2364b897e91d",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Circuit interactions within the OCDnet",
+  "text": "Project 1 The pathophysiology of obsessive compulsive disorder (OCD) is associated with circuit dysfunction in several cortical regions, (rostral anterior cingulate cortex (rACC), dorsal ACC (dACC), ventrolateral prefrontal cortex (vlPFC), orbitofrontal cortex (OFC), insula), and the rostral striatum, that, together integrate information related to behavioral inflexibility, resulting in persistent avoidance. These structures are referred as ‘nodes’ in the OCD network (OCDnet). Anatomically these nodes are interconnected extensively to mutually influence each other. This creates the complex network that underlies the required flexibility for optimizing positive outcomes. Human imaging studies show that ‘hubs’, defined as regions with unusually high and diverse connectivity, exist within distributed networks. These hubs are considered important for integrating and distributing information. However, hubs are defined by imaging which cannot distinguish between inputs to a region that would integrate information, and outputs of a region that would distribute information. P1 combines quantitative anatomic methods with state- of-the-art imaging in both NHP and humans to characterize the complexity of the interconnections of the OCDnet by identifying hub locations, their pathways, and projection zones in the striatum. We hypothesize: 1. that within each node there are specific regions, based on their connectivity profiles, that can be classified as integrative hubs (i-hubs), distributive hubs (d-hubs), or both (central hubs-c-hubs); 2. hub projection zones to the striatum are more expansive compared to nonhub projection zones. Aims 1 & 2 use tracer experiments to locate hubs, delineate their composition, and locate their fibers within the ALIC, CC, and CB. A3 will use this anatomic data, coupled with state-of-the-art structural (dMRI) and functional imaging (rsMRI) in NHPs and humans to determine the location of hubs, their fiber pathways in the ALIC, CC and CB in the human brain."
+ },
+ {
+  "id": "949f88c7-ad62-454c-ac23-4082213f66ba",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A transformative method for functional brain imaging with Speckle Contrast Optical Spectroscopy",
+  "text": "Advances in non-invasive monitoring of human brain function under normal and pathological conditions will lead\nto breakthroughs in our understanding of the brain in health and disease, and lead to the development of devices\navailable for everyday use, with applications such as monitoring patients with brain injuries or neurodegenerative\ndisease, studies of brain function in natural environments, and brain-computer interfaces. We propose to develop\na fiber-based speckle contrast optical spectroscopy (SCOS) system to measure CBF variations due to brain\nactivation in humans with a contrast to noise ratio (CNR) by at least one order of magnitude compared with\nexisting systems, that will also measure all the hemodynamic parameters associated with brain activation,\nachieve an up to 3x improvement in brain sensitivity compared with traditional optical brain imaging devices, and\npermit estimation of evoked changes in CMRO2. This will provide a unique neuroimaging approach to measure\nall cerebral hemodynamic and optical metabolism parameters related to brain function."
+ },
+ {
+  "id": "94a1fc7e-c93c-4d98-b028-a94f607f6ea7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Pancreatic Cancer Risk Prediction: Integrating Individual-Level Clinical and Genetic Data",
+  "text": "Pancreatic adenocarcinoma is a significant health burden with poor survival, especially among\nBlacks. To improve survival, we must identify individuals at high risk for further targeted screening,\nas universal screening is unfeasible. Current prediction tools to identify these individuals are\ninadequate as they were developed in mostly Whites or lack genetic data from a trans-ancestry\npopulation. This proposal will use population-level data to accurately identify cases of pancreatic\nadenocarcinoma, improve risk prediction by incorporating genetics with clinical factors in the\nVeterans Affairs electronic health record-linked biobank, and identify genetic risk factors in\ndiverse, underrepresented populations to improve future risk prediction. This new knowledge will\nnot only make early detection of pancreatic adenocarcinoma possible in the multiethnic population\nof Veterans, but also understand and ultimately bridge the disparities seen in Blacks."
+ },
+ {
+  "id": "94a264fa-6a3f-45c7-8bcb-abbae78c3260",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identification and Characterization of Senescent Cells in Molecular Subtypes of Alzheimer's Disease",
+  "text": "This project aims to systematically investigate the molecular mechanisms of brain senescence in different\nmolecular subtypes of Alzheimer's Disease (AD) for discovery of novel targets and therapeutics for AD using\ncutting edge systems biology and single cell sequencing technologies as well as extensive in vivo experiments."
+ },
+ {
+  "id": "94a49dcb-fd7a-4d90-870d-5bf045d313f0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "SCH: SmartGait: Smartphone Video-Based AI for Personalized Fall Risk Assessment",
+  "text": "This project turns an ordinary smartphone into an accurate, low-cost tool that analyzes walking and \nbalance to predict each older adult's personal risk of falls, emergency visits, and injuries in the months \nahead. By showing clinicians who are most at risk and when to act, this project makes timely, targeted fall \nprevention accessible in emergency departments, clinics, and rural and resource-limited settings—helping \nolder adults live longer, healthier, more independent lives."
+ },
+ {
+  "id": "94a685b4-11b1-4663-958c-36729d52b38e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Community Outreach Core (COC)",
+  "text": "The goal of the Community Outreach Core (COC) is to continue supporting the Florida-California Cancer Research, Education, and Engagement (CaRE2) Health Center by sharing scientific data and results from ongoing projects with our communities, promoting clinical research education, and training community members to be supporters leading dissemination efforts on cancer prevention and early detection, and participating in cancer research as well as ambassadors participating in research advisory committees. Our Community Outreach Core (COC) team has over 20 years of experience working in bicoastal community engagement research, with all populations. We will continue supporting Center investigators conducting prostate, pancreatic, and now, lung cancer research. Building on COC’s prior work, our four (4) aims are to: 1) Create and implement a Community Engagement Academy designed to train, support, and measure the impact of 600 community members in sharing information about cancer, cancer research, and the CaRE2 Center and its projects; 2) Develop and deliver to 5,000 community members evidence-based multimedia educational materials, maximizing the use of technology and media, focusing on pancreatic and lung cancer information, cancer research and clinical trials participation, and biospecimens donation for cancer research; 3) Partner with CaRE2 investigators to host educational activities that increase knowledge and awareness about cancer prevention and research in the CaRE2 Center; and 4) Partner with the CaRE2 Planning and Evaluation Core to evaluate the effects of the COC program and activities."
+ },
+ {
+  "id": "94add1c1-48eb-41ac-ab90-018e97fe1c69",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Extratumoral biological determinants that decrease survival in older adults with glioblastoma",
+  "text": "Patients with wild-type IDH glioblastoma (GBM) have a median age of onset at 68-70 years of age and represent\n>70% of all GBM diagnoses. Moreover, advanced age is a strong prognostic factor for predicting worse overall\nGBM patient survival. However, it's not understood as to why older age groups with GBM have a substantially\nworse survival outcome as compared to younger adults with GBM. This project aims to mechanistically\nunderstand how progressive aging negatively affects the survival outcomes in older adults with GBM."
+ },
+ {
+  "id": "94b8cfe9-eb19-4e82-a93a-e84ca7de268f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeted protein degraders for the treatment of b-hemoglobinopathies",
+  "text": "Sickle Cell Disease (SCD) is terrible, debilitating disease that is a result of a mutation in a gene\nthat encodes adult hemoglobin, the protein responsible for carrying oxygen in the blood. Before\nwe are born, we use a different gene to make fetal hemoglobin, however this gene is switched off\nat birth. Here, we propose to develop a drug to treat SCD that would destroy this fetal hemoglobin\noff-switch, thus increasing the oxygen-carrying capacity by reestablishing fetal hemoglobin levels."
+ },
+ {
+  "id": "94c1ca08-1829-49bd-a9ea-6cab67850e61",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cell membrane-coated macroporous scaffolds for enhancing bone regeneration in aging",
+  "text": "The outcomes from proposed work will facilitate translation of cell membrane coated macroporous scaffolds as\na platform technology for enhancing tissue regeneration through immunomodulation. While the proposal will\nfocus on cranial bone regeneration as a model, this technology and can be broadly applied with other cell\nmembrane types and for regenerating various tissue types."
+ },
+ {
+  "id": "94c31f26-961f-44a1-9a37-5622a046035c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "DeconDTN: Deconfounding Deep Transformer Networks for Clinical NLP",
+  "text": "Deep neural transformer networks have advanced Natural Language Processing (NLP) performance, but are\nlarge models with many parameters, and hence vulnerable to bias. The large data sets required to train these\nmodels may be drawn from different study sites or clinical units, leading to confounding by provenance where\nmodels make predictions using the characteristics of these data sources instead of diagnostically relevant\ninformation, with erroneous predictions at the point of deployment. In the proposed research we will develop\nvalidated approaches for Deconfounding Deep Transformer Networks (DecondDTN) and disseminate them as\nopen source tools so that these models can be applied more reliably to clinical problems."
+ },
+ {
+  "id": "94c9b337-b6bc-4061-96c2-c70a4da8ebee",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Area B Transmission",
+  "text": "PROGRAM PROJECT 2 [PP2]: Bionomics, Ecology, & Control of An. stephensi (BECA) against \nthe background of endemic primary and secondary anopheline vectors. \nPROJECT NARRATIVE \nMalaria remains a global health crisis affecting over 241 million people and leading to 627,000 deaths, \nmostly in children. New tools are necessary to address emerging and drug-resistant strains, the \ncomplexity of mixed infections, invasive mosquito species, and the control of insecticide resistant \nmosquito vectors in support of the goal for malaria elimination. Program Project 2 of the West-Central \nAfrica Enhancing Malaria Epidemiology Research through Genomics & Translational Systems biology \n(Émergents) International Center of Excellence in Malaria Research (ICEMR) is focused on the \nBionomics, Ecology, & Control of Anopheles stephensi (BECA) against the background of endemic \nprimary and secondary anopheline vectors in Cameroon and Nigeria."
+ },
+ {
+  "id": "94cb40c6-df01-4dfd-aff3-9616a3b878de",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Proteasome Inhibitors as a Novel Drug-class for Treatment of Giardiasis",
+  "text": "Giardia lamblia is a protozoan parasite that infects approximately 280 million people annually\nworldwide, which results in severe diarrhea, malabsorption of nutrients, weight loss and fatigue. Though the\nprevalence of G. lamblia is high compared to other parasitic organisms, the currently available FDA approved\ndrugs used to treat Giardiasis contribute to adverse side effects in patients and drug resistance in G. lamblia.\nThis project is focused on developing a novel class of compounds that selectively target the G. lamblia\nproteasome while minimizing off target side effects and drug resistance."
+ },
+ {
+  "id": "94cb5678-b015-4079-87a1-15acdb38c8d5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Bioinformatics Core for Single Cell and Spatial Transcriptomics",
+  "text": "Abstract The Bioinformatics Core of the “Immunization against Multidrug-resistant Pathogens: Activating T Cell Immunity” Center of Excellence for Translational Research (IMPACT-CETR) will support experimental design, data collection, analysis, integration, and visualization for the three research projects. Operating through the Information Technology Research Computing team at BCH, this core will leverage existing bioinformatics platforms and pipelines to develop and maintain sophisticated systems aimed at facilitating the processing of single-cell RNA-seq and spatial transcriptomics data. It will provide consulting, software, tools, training, and best practices to foster research and collaboration, and will advise on and provide services for statistical and data analysis. Aim 1 is to deploy a dedicated data collection and analysis system using its High-Performance Computing cluster and BioGrids Software installation platform. Aim 2 is to provide bioinformatics analysis for single-cell RNA sequencing and spatial transcriptomics data generated by the Non-Human Primate core. Aim 3 is to visualize high-throughput single-cell RNA-sequencing and transcriptomics data using internal and public CELLxGENE platforms for interactive interpretation of the complex transcriptomics data."
+ },
+ {
+  "id": "94cce38b-2b71-43d4-ac50-b55996bb8177",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Neutrophils and Monocytes in Pediatric Ischemic Stroke",
+  "text": "(Narrative)\nPediatric stroke has the highest incidence in neonates or infants, and may cause severe neurological\nsequalae, including motor and cognitive deficits. Infection and immune responses are a major risk\nfactor for pediatric stroke, but no immune-directed therapies are available. The goal of this project is to\ntest the pathological functions of blood-borne neutrophils and monocytes in experimental pediatric\nstroke to develop immunomodulation therapies of this condition."
+ },
+ {
+  "id": "94ce7b5f-cc23-452e-a033-41677878ad4b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dynamic regulatory impact of human transposable elements on gene expression",
+  "text": "While 98-99% of the human genome is non-coding, these sequences are integral to the control of gene\nexpression giving rise to phenotypic differences between tissues, individuals, species, and healthy and diseased\nstates. Approximately half of human non-coding sequence is annotated as transposable elements that have\nlargely been ignored in genomic studies; yet have the potential to impact complex diseases such as cancer and\ncardiovascular disease. This proposal focuses on understanding the role of transposable elements in\ncontributing to phenotypic differences arising during cell state transitions and in response to stress within humans\nand our closest evolutionary relatives."
+ }
+]

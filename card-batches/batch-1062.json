@@ -1,0 +1,142 @@
+[
+ {
+  "id": "ecc5571b-0817-4bdc-bf54-e53b4e2bb335",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Human and Mammalian Genetics and Genomics: the McKusick Short Course",
+  "text": "Most human diseases are complex, resulting from interactions between genetic loci. Human and Mammalian Genetics and Genomics: the McKusick Short Course will train a cadre of highly skilled scientists on the genetics and genomics of human disease. With a combined focus on medical genetics, mouse genetics and model systems the course will forge a link between basic and clinical research enabling ongoing dialogue and thereby fostering productive clinical outcomes."
+ },
+ {
+  "id": "eccacd1b-198d-4b0f-aad6-4301e43c4b0f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Regional Centre for Vector Borne Diseases in West Africa (RCVBD)",
+  "text": "Vector-borne diseases including malaria and arboviral diseases threatened the health of millions of West Africans and other US nationals who live there, yet have very little research capacity, therefore, this training program offers the chance for a multi-site training of PhD, postdoctoral fellows and junior faculty who will become future research leaders. By equipping African scientists with skills to address diseases that are of threats in their own region and globally this initiative contributes to sustainable, long-term solutions for vector-borne disease control and global health security. This program directly supports NIH’s goals of enhancing global health research capacity and ensuring that advances in science and public health reach populations most in need."
+ },
+ {
+  "id": "eccb0c14-6430-418f-bf1b-91e444fb3b49",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Harnessing lysosome trafficking for enhanced antigen presentation",
+  "text": "Engineering effective immune responses is central to successful control of a spectrum of diseases including\ncancer and infection. One way to engineer immune responses is via immunogen delivery which can generate\nimmune cells capable of recognizing proteins associated with diseased cells. We demonstrated that proteins\nengineered to traffic to a specific compartment in the cell offers a path to enhancing immune responses and in\nthis proposal, we will test if existing technologies to design proteins to traffic to specific compartments in the cell\ncan be repurposed to better engineer T cell responses."
+ },
+ {
+  "id": "eccdfa1d-1af2-4a13-8b55-f4df20775b19",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identifying novel therapeutic targets for chronic neck pain: RNA-sequencing in human painful atlanto-axial arthropathy",
+  "text": "The lack of understanding of the molecular mechanisms that drive chronic neck pain has hampered the\ndevelopment of effective mechanism-specific therapeutics. We will apply advanced -omics technologies to\nunderstand which cells and genes that are expressed in the human joints and nerves of patients with neck pain\nare associated with current and long-term pain. Using an unprecedented experimental approach that combines\nadvanced molecular biology and biochemistry with thorough patient characterization, our work has the potential\nto reveal molecular pathways associated with chronic neck pain and therapeutic targets that can be evaluated\nin human clinical trials."
+ },
+ {
+  "id": "ecd1f1fd-a560-436b-8726-e66811a14ce6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Experimental and Computational Genomics",
+  "text": "The Experimental and Computational Genomics (ECGC) Shared Resource (SR) integrates all of the cancer genomics services in the Sidney Kimmel Comprehensive Cancer Center (SKCCC). The primary mission of the SR is to allow SKCCC investigators to harness the ongoing revolution in cancer genomics to accelerate their basic discoveries and translational research. The ECGC SR streamlined services that were previously offered through three separate SRs: Array, Next-Generation Sequencing and Bioinformatics. The current structure formalizes a long-standing commitment to integrate computing resources, hiring and educational activities for the common good of the SKCCC. The SR streamlined access to ECGC technologies and expertise, and enhanced opportunities for didactic and hands-on education in the experimental and computational aspects of cancer genomics. The immense laboratory and analytical expertise brought together in the newly integrated cross-disciplinary SR is now available to all SKCCC investigators. The full suite of services provided by this SR are not available elsewhere. The ECGC SR has developed a three-tiered approach to streamline effective project delivery. This SR is led by faculty directors Leslie Cope, Ph.D.; Sarah Wheelan, M.D., Ph.D.; and Srinavasan Yegnasubramanian, M.D., Ph.D., who bring together multidisciplinary expertise in genomics technologies, computational biology and biostatistics/bioinformatics. Project management and day-to-day operations are overseen by Kornel Schuebel, Ph.D., on the lab side and by Yan Zhang, Ph.D., a new recruit, on the computational side, who supervise all staff members. The ECGC SR provides access to and education in state-of-the-art, next-generation sequencing, microarray technologies and analytical workflows for probing genomic alterations, cancer epigenomics, transcriptomics and metagenomics. For each project, the SR uses a multidisciplinary clinical model to establish and execute an experimental and analytical plan, first meeting with each investigator and then helping them through all aspects of their genomics experiments, including experimental design, high-throughput microarray or next-generation sequencing workflows, and computational/bioinformatics data analysis. Additionally, the SR provides extensive educational resources, including short courses, workshops and symposia, so that investigators can gain the skills they need to fully understand and utilize the data and analyses generated. The success of the ECGC SR is evidenced by the high level of usage across all Programs and the cited support in a large number of impactful publications, national/international conference abstracts and successful grant applications. SKCCC Managed Shared Resource Reporting Period: January 1, 2020 to December 31, 2020"
+ },
+ {
+  "id": "ecd2b96b-05ae-4333-9acf-3d1e9f5d3fb8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Genetics of deep-learning-derived neuroimaging endophenotypes for Alzheimer's Disease",
+  "text": "Alzheimer's disease (AD) is sever neurodegenerative disease affecting aging Americans and\nexacts tremendous and increasing demands on patients, caregivers, and healthcare resources.\nThis application will develop new deep learning (DL) based approaches for deriving AD-relevant\nendophenotypes from neuroimaging data, and associating these endophenotypes to genetic\ndata. We expect to discover new genes relevant to AD which may leads to understanding of\nmolecular basis of AD and potential new treatment."
+ },
+ {
+  "id": "ece50268-f7fe-463b-a2f3-8b73720732ad",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Longitudinal SARS-CoV-2 mRNA vaccine-induced mucosal, serological, and cellular immunity in children and human milk",
+  "text": "COVID-19 cases and hospitalizations among children have spiked dramatically worldwide, and children are an\nimportant source of community transmission; however, COVID-19 immunity studies have predominantly focused\non adults due to ease of sample collection and exclude children whose immune systems are still developing.\nThis proposal addresses the critical need to study the short- and long-term immune responses to the COVID-19\nmRNA vaccine in adolescents, children, and mother-infant pairs and to identify correlates of protection against\nbreakthrough infection. The results will inform policy makers and scientists on how to optimize COVID-19\nvaccination strategies to effectively protect children and decrease community transmission."
+ },
+ {
+  "id": "ece57ede-cf4e-450d-a166-7e8fa887ec88",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular Pathobiology of Gastric Carcinogenesis",
+  "text": "Individuals with chronic H. pylori infection carry a 6-fold higher risk of developing gastric cancer. Despite efforts\nto eradicate H. pylori, infection remains a major health problem. Among veterans, the prevalence of H. pylori\ninfection is significantly higher than civilians. This proposal will investigate molecular factors that promote H.\npylori-induced inflammation and oncogenic signaling, leading to the development of gastric cancer. The\nproposal will also investigate the role of these factors in chemotherapeutic resistance, a challenging clinical\nproblem. The results will have a strong impact on understanding the biology and could have a potential role in\nthe preventive, early diagnosis, and possibly therapeutic interventions in gastric cancer."
+ },
+ {
+  "id": "ecf12e64-071e-4064-a94a-534c7a30e825",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Senescent cell mapping, identification and validation for human somatic and reproductive tissues",
+  "text": "Senescent cells accumulate in aging tissues and drive chronic inflammation and organ dysfunction, yet effective\ntherapeutic strategies to reverse this process in human tissues remain limited. This supplement will apply\nsenolytic drugs (agents that selectively eliminate senescent cells) to human explant tissue models of lung and\novary to determine efficacy, to identify subsequent molecular changes and to develop blood-based biomarkers\nthat can monitor therapeutic response in aging individuals. This work has direct potential to accelerate the\ndevelopment of senolytic therapies that promote healthy aging of human lung and ovarian organs, and extend\noverall healthspan."
+ },
+ {
+  "id": "ecf970a8-3729-4c2b-a5c7-ae34b00068f6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The role of organelle contact sites in macrophage antifungal responses",
+  "text": "Cellular organelles interact at membrane contact sites, allowing exchange of lipids, calcium, and molecular\nsignaling to coordinate biological processes, including host responses to infection. This project will investigate\nthe role of membrane contact sites between the ER and other organelles, such as the phagosome and\nmitochondria, during fungal infection. The proposed work will yield fundamental understanding of membrane\ncontact site regulation and the endocytic pathway and will determine how organelle dynamics influence host\nresponses to fungal infection and infection outcomes."
+ },
+ {
+  "id": "ecfc04ba-9bc4-4887-9cc8-ae01b7da7e0c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Illuminating Post-Transcriptional Regulation through Proteogenomic Integration",
+  "text": "The central dogma of molecular biology outlines the information flow from DNA to RNA to protein, positioning proteins as essential executors of most cellular functions. Despite this, most omics research has disproportionately focused on DNA and RNA. Protein abundances are only modestly correlated with mRNA across tissues and organisms, and gene expression profiles provide limited insights into post-translational modifications (PTMs) that modulate protein function. Following transcription, a complex network of regulators— including ribosomes, non-coding RNAs (ncRNAs), ribosome-binding proteins (RBPs), and ubiquitin- proteasome—affect protein abundance and activity. However, systematic characterizations of post- transcriptional regulators (PTRs) remain sparse. Moreover, the impact of genetic variants on proteins and PTMs is poorly understood. There is a critical need to bridge this significant knowledge gap between DNA/RNA information and the proteome, as this missing link impedes the development of diagnostics and treatments targeting proteins. The objective of this proposal is to address this gap by developing proteogenomic toolsets to reveal PTR networks and genetic regulators of protein/PTMs. The central hypothesis is that protein abundance, function, and diversity are modulated by intertwined PTR processes and genetic variants, in addition to mRNA levels. The project will pioneer innovative integrative proteogenomic approaches, leveraging rapidly expanding proteogenomics, functional genomics, 3D structural datasets, and cutting-edge statistical genetics, machine/deep learning, and multi-modal methods. Building on the extensive work by the PI's NIGMS ESI R35 MIRA-funded research, this research program will unravel PTR mechanisms driving protein diversity and function by addressing three fundamental questions: Key Question 1. How do post-transcriptional regulatory networks shape protein abundance? Key Question 2. How do genetic variants influence protein expression and function? Key Question 3. How are post-translation modifications regulated by genomic variants? This research program is significant because it will substantially expand our understanding of PTR networks that govern protein abundance, diversity, and function. The research will immediately deliver computational tools and PTR knowledge base across human tissues, which can be extended to illuminate PTR biology across diverse cells and organisms. Ultimately, this work will provide a missing link in fundamental biology between DNA/RNA and protein functions, laying the foundations for diagnostic and treatment advances targeting proteins."
+ },
+ {
+  "id": "ecfc07d6-e772-490a-ad7a-4676609e2122",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "How Post-Translational Codes and Small RNA Pathways Shape Developmental Outcomes",
+  "text": "Small non-coding RNA pathways protect fertility, genome stability, and inheritance across generations. This\nproject will determine how post-translational modifications of Dicer regulate generation of distinct classes of small\nRNAs and oocyte-to-embryo transition, and how piRNAs and micro(mi) RNAs control translation of mRNA targets\nin male and female germlines respectively to coordinately regulate germ cell development. Together, these\ndiscoveries will further our understanding of how coordinated small RNA pathways and post-translational\nregulation shape germ cell development and oocyte-to-embryo transition."
+ },
+ {
+  "id": "ed09ab9f-8cb7-4443-85c9-6338be2fc454",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Predictive informatics monitoring in the Neonatal Intensive Care Unit",
+  "text": "Sepsis and necrotizing enterocolitis (NEC) cause serious morbidity and mortality for premature infants in the\nNeonatal Intensive Care Unit, and early detection and treatment improves outcomes. We have made important\ndiscoveries toward developing early warning systems for sepsis and NEC using advanced vital sign analytics\nin a multi-center collaboration and are expanding analyses, collaborating sites, and methods to develop\ngeneralizable predictive monitoring algorithms. In doing so, we also aim to build an open access data and\nanalytics platform that will ensure rigor and reproducibility of the work and spur new discoveries to further\nimprove outcomes of preterm infants."
+ },
+ {
+  "id": "ed09faa3-9fa3-4554-bba0-d8ff390f24a2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Tumor-Targeted Multimodality Nanoscale Coordination Polymers for Chemo-Immunotherapy of Metastatic Colorectal Cancer",
+  "text": "This project will develop a tumor-targeted and -activated nanomedicine with a significantly enhanced\ntherapeutic index than the standard of care for metastatic colorectal (mCRC), which is currently associated\nwith high rates of morbidity and mortality. This nanomedicine will further synergize with immune checkpoint\nblockade for effective chemo-immunotherapy of mCRC. The proposed project has the potential to provide a\nclinical candidate for effective therapy of mCRC and other metastatic cancers."
+ },
+ {
+  "id": "ed0aef35-f952-4e1d-a60d-b26267be480f",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Cancer Cell Biology Training Program",
+  "text": "8. Project Narrative\nThe need for well-trained cancer biologists is more acute than ever with the growing impact of cancer on life and\nhealth. In this renewal application for our long-standing interdisciplinary Cancer Cell Biology Training Program\nfor predoctoral students at the University of North Carolina at Chapel Hill, we propose our vision for the training\nof cancer biologists who will be well prepared to contribute rigorously and effectively to the changing landscape\nof cancer biology, whether their future paths are in academic or non-academic careers."
+ },
+ {
+  "id": "ed0aefb6-6c07-4649-8d90-1fff58b5acd0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Exploring an Adapted Active Caregiving: Empowering Skills (ACES) Intervention for High Risk Care Partners",
+  "text": "New Americans and their caregivers are unduly burdened by poor health outcomes related to dementia. They are poised to make up a significant portion of the older adult population and are at risk of poor health outcomes related to dementia, similar to U.S.-born high-risk older adults. The present training and research will directly facilitate the development of interventions that meet the intersecting social and care needs of New American high-risk older adults with dementia and their caregivers, which is an important first step towards improving their health."
+ },
+ {
+  "id": "ed0b91ed-06ec-4d84-b0df-2b6c79f3d555",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Structure and function of chloride channels, transporters and scramblases",
+  "text": "Anion channels, transporters, and scramblases of the TMEM16 and CLC families play key roles in physiology,\ncontrolling processes such as muscle excitability and repair, salt reabsorption, homeostasis of intracellular\ncompartments and blood coagulation. While it is known that missense mutations that impair activity of members\nof both families cause a multitude of inheritable disorders, the lack of atomic level understanding of how disease-\ncausing mutations impair the function of these proteins significantly hinders the development of tools specific\npharmacological aiming to ameliorate these conditions. The goal of our project is to overcome these limitations\nby elucidating at atomic detail how TMEM16 and CLC proteins operate, and how disease mutation impair their\nactivation."
+ },
+ {
+  "id": "ed0d070a-6877-4e26-bb6e-9ba0b387d78b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Using ecological momentary assessment to develop an adaptive psychological intervention for young adults with chronic pain.",
+  "text": "Despite experiencing disabling chronic pain at similar rates as adolescents and older adults, there is limited\nresearch to inform interventions for this underserved age group. This project will define potent treatment\ntargets using ecological momentary assessment and co-design with young adults to develop a personalized,\nadaptive mobile intervention for pain management. Knowledge gained can lead to a new generation of\neffective, accessible, and scalable digital health interventions for young adults, halting the escalation of pain,\ndisability, and socioeconomic and health disparities in adulthood."
+ },
+ {
+  "id": "ed0d6a08-ccb7-434f-9098-e7bad31673be",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Lipoprotein Quantitation and Function Core",
+  "text": "(Core C) High quality, consistent and reproducible quantitation and functional data are critical for the success of this Program Project. The overarching goal of the HDL Quantitation and Function Core (Core C) is to meet this need in a centralized and consistent manner across the entire Program. The Core is structured to provide the following services: 1) quantitation of HDL particle size and concentration (whether isolated from plasma or reconstituted HDL particles) for specific structural studies, using calibrated differential ion mobility analysis (cIMA); 2) mass spectrometric analyses to characterize the protein composition of HDL particles isolated or prepared by Program investigators, and chemical crosslinking strategies to support their structural studies; the Core will also use mass spectrometry to confirm the identity and purity of the recombinant proteins prepared by Core D; 3) a combination of accurate measurement of HDL particle concentration by calibrated IMA and accurate quantification of apolipoproteins by LC-MS/MS, including quantification of the stoichiometry of apolipoproteins on HDL particles; 4) bioinformatic support for interpreting HDL-P and proteomic data sets and for combining the data with information from Gene Ontology, protein-protein interactions, and pathway analysis; 5) measurements of cholesterol and phospholipid efflux, using baby hamster kidney cells conditionally expressing WT and mutant human ABCA1. Core C will be led by Tomas Vaisar, Ph.D., working closely with Chongren Tang, Ph.D., and it will be located at the University of Washington South Lake Union campus, where Project 1 is also located. Both labs have extensive, well-documented expertise in all areas of the Core’s proposed services. In the previous PPG cycle, this Core performed over 1000 analyses of HDL-P and size, over 500 LC-MS/MS analyses of HDL’s proteome, and crosslinking studies for characterizing and experimentally verifying theoretical models of HDL and ABCA1 structures. These services will be extended in this proposal. Collectively, they will enable cost-effective and rigorous testing of the hypotheses generated by the various Projects."
+ },
+ {
+  "id": "ed1195d8-df78-4859-acda-061c2bb0890f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Revealing DNA Polymerase Molecular Strategies in End-Joining Double Strand Break Repair",
+  "text": "Mutagenic and erroneous DNA double strand break repair, a process essential for genome stability and\nphysiology, is susceptible to oxidative stress induced damage that contributes to cancer, aging,\nneurodegeneration, and other disease. Significant knowledge gaps remain regarding the molecular strategies\nemployed in enzymatic break end processing, the effects of other proteins within the multiprotein repair complex,\nand the role of substrate channeling in coordinating repair, especially during damaged break repair. We will\nemploy cutting-edge structural biology, mechanistic biochemistry, biophysics, computational and molecular\nbiology to reveal the detailed molecular strategies adopted during major double strand break repair events,\ndefine polymerases and nucleases features of repair efficiency and fidelity, in order to uncover steps that can be\nmodulated to enhance human health outcomes."
+ }
+]

@@ -1,0 +1,142 @@
+[
+ {
+  "id": "60bbafcb-9cb3-4197-9ded-66716abc8ce4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Tbx4-Driven Pulmonary Hypertension: Mechanisms and Therapeutic Targets",
+  "text": "TBX4 mutation is a common cause of heritable pulmonary arterial hypertension, particularly in children, and\nmice with Tbx4 knockout after birth have lung problems very similar to that seen in patients. Our preliminary\ndata suggests that this is probably because of specific molecular defects in pericytes, cells which wrap around\nsmall vessels, leading to reduction in formation of enough blood vessels in lungs, and too much muscle around\nthe blood vessels. The goal of this project is to test this hypothesis, using multiple mouse models, with\nvalidation of human relevance using human samples."
+ },
+ {
+  "id": "60bbca38-d7dd-4ee7-8d0d-a379c456e5d6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Childhood Cancer Survivorship Study",
+  "text": "RELEVANCE\nSurvival rates for many childhood and adolescent cancers have improved at a remarkable pace over the past\nfive decades. The CCSS cohort has been the source of some of the most significant publications to date\naddressing the long-term mortality, morbidity and quality of life of survivors of childhood cancer. Understanding\nthe risk for late effects of childhood cancer and its therapy provides the basis for health screening\nrecommendations and interventions that can mitigate long-term health problems in this high-risk population."
+ },
+ {
+  "id": "60c07ef0-6183-48fd-b062-8a890d5657e9",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "A Dual-Antigen NK Cell Engager to Overcome Ovarian Cancer Tumor Heterogeneity",
+  "text": "A type of immune cell known as Natural Killer (NK) cells are associated with improved outcomes in ovarian\ncancer, a highly lethal disease. This project aims to test a recently developed immunotherapy designed to\nenhance NK cell activity and tumor-targeting, with the ultimate goal of bringing this new therapeutic into the\nclinic. The therapy directs NK cells to attack ovarian cancer by recognizing and binding two key proteins\nfrequently overexpressed on tumor cells, offering a potential breakthrough in treatment."
+ },
+ {
+  "id": "60c08894-d90c-422e-b1a8-64e6d9209390",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Insights into infection of Ilheus virus in mammalian and mosquito cells",
+  "text": "Ilheus virus (ILHV) is an understudied mosquito-transmitted flavivirus that has the potential to emerge and cause\nsignificant disease in the human population. This research will generate foundational knowledge on ILHV\ninfection that will direct future virus-host interaction, pathogenesis, and transmission studies to ultimately impact\nthe development of effective treatment strategies for ILHV."
+ },
+ {
+  "id": "60c7804d-9616-4e57-8138-c8401194e9e6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The origin, maintenance, and adaptive consequences of variation in genome structure",
+  "text": "The research proposed here uses Drosophila as a model system to investigate the\nconsequences of variation in genome structure by employing state-of-the-art genomics\ntechniques to discover genetic variation previously overlooked by older techniques. Such\nmutations are often in repetitive regions of the genome and, in humans, are often\nassociated with traits important for human health and well-being, including disease\ncausing mutations (like those often found in cancer or genetic diseases like Huntington's\ndisease) as well as mutations common in disease vectors (like those that confer\ninsecticide resistance in mosquitoes). This research will lead to a greater understanding\nof how genome structural changes impact evolution and the development tools to\nenhance discovery of such mutations."
+ },
+ {
+  "id": "60c8361a-1407-432a-891f-73e9ef786bd0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Use of random barcode transposon site sequencing as a tool for identifying nutrient acquisition strategies utilized by Mycobacterium tuberculosis during infection of human macrophages",
+  "text": "Infection with Mycobacterium tuberculosis (Mtb) causes more deaths annually than any other single pathogen.\nUnderstanding how Mtb acquires nutrients from the host to fuel growth is key to understanding how to\neliminate infection. Here we use a new method of genetic screening, RB-TnSeq, to determine how Mtb\nacquires nutrients from host cells during infection."
+ },
+ {
+  "id": "60d260d8-ca5f-4bc0-a50f-65a3956fd501",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Prediction of dementia in older adults using nonlinear EEG features",
+  "text": "The goal of this project is to construct biomarkers for risk of dementia using multiple novel EEG measures and\ndeep learning techniques. Using the existing large datasets of >8,000 subjects from four longitudinal cohort\nstudies, the project will also test whether the constructed biomarkers mediate or moderate the genetic influence\non the risk for dementia and can facilitate a better prediction of future cognitive decline and other adverse health\noutcomes. This project will potentially provide a non-invasive, cost-efficient tool that can be used to identify\npeople at risk for developing dementia and to evaluate the treatments/interventions of the disease."
+ },
+ {
+  "id": "60d3556a-9ee6-4a4f-b456-e29fc3aa298d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "PARSEC: Plasmodium falciparum Adaptive Response to Sickle trait Erythrocytes",
+  "text": "Sickle-trait hemoglobin confers near complete protection from severe, life-threatening Plasmodium falciparum\nmalaria in African children, and parasites have evolved to nullify this protection and cause disease. In this\nproject, we will investigate a parasite gene that enables the parasite to adapt to sickle-trait red blood cells and\nmay enhance the parasite’s ability to cause disease. These new insights could provide actionable targets for\nfuture preventive and therapeutic measures against severe malaria."
+ },
+ {
+  "id": "60dca34b-7cd8-4812-9cdc-9ec6fefcabd0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms Regulating Complex Social Behavior",
+  "text": "We will use behavioral, electrophysiological, neuroimaging, and brain manipulation techniques to\ndetermine the mechanisms that mediate social competence—the processes that match behavior to the\ncurrent demands of the social environment and which are often compromised in neuropsychiatric\ndisorders like schizophrenia and diseases like HIV."
+ },
+ {
+  "id": "60ddbe46-7440-4185-a727-23c248451cee",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Anatomic Imaging Derived 4D Hemodynamics using Deep Learning",
+  "text": "The goal of this proposal is to develop a cloud-based artificial intelligence-based\nplatform that will provide 4D hemodynamic output directly from widely available routine\nclinical and easy-to-obtain anatomic images of the chest. The technology will enable\nimproved and personalized risk-stratification of complications in patients with aortic\ndisease beyond the current simple and insufficient clinical measures. In addition, the\ntechnique can improve operational efficiencies and reduced health care utilization costs\nfor a wide range of patients and healthcare providers without the need for highly\nspecialized imaging equipment, training, and expertise."
+ },
+ {
+  "id": "60ea86f0-97fb-4f66-af3c-73f8019b6f6e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "SaberGel, a Multimodal Delivery System for the Treatment of Oral Cancer",
+  "text": "PROJECT NARRATIVE.\n Current immunotherapy is limited by the toxicity of systemically-delivered immunomodulators, which require\nhigh doses and frequent re-dosing, leading to severe immune-related adverse events. We will develop a novel\npeptide-based hydrogel named “SABERGel” which can deliver four immunotherapy agents in a controlled\nsequence to more effectively drive the immune system to kill tumors. SABERGel will be tested for its ability to\nimprove outcomes when combined with chemoradiotherapy."
+ },
+ {
+  "id": "60fce0fc-e7e3-4a88-b9e8-929bc571a82b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "High-throughput DNT testing with engineered brain organoids",
+  "text": "Bioprinting Laboratories Inc. aims to utilize its proprietary pillar/perfusion plates to differentiate\ngenetically engineered, induced pluripotent stem cells (iPSCs) with a promoter-reporter assay system\ninto brain organoids in the presence and absence of toxic chemicals. This approach allows for the\nassessment of the expression levels of neural cell types in brain organoids in a high throughput manner\nand simulates developmental neurotoxicity (DNT) resulting from chemical exposure. Thus, the\nengineered iPSCs and brain organoids may serve as tools for prioritizing the safety and usage of\nindustrial and environmental chemicals."
+ },
+ {
+  "id": "610150f2-1d0c-4611-a07b-2c0c4e1f5882",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Gastric Histopathology",
+  "text": "CORE A NARRATIVE\nThe work in this Core will help identify factors important in the development of gastric cancer. This may help\nidentify persons at high risk for gastric cancer who can then be tested and treated for H. pylori. In addition,\nwork performed in this Core may help find new treatment options to reduce the risk of developing gastric\ncancer."
+ },
+ {
+  "id": "610195c9-ec47-4a26-bedc-35afbfadd6a6",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Proteomics Core",
+  "text": "ABSTRACT – PROTEOMICS CORE Signaling networks are crucial for the orchestration of cellular functions in response to stimuli. Knowledge of the structure of these networks provides a basis for understanding the pathological consequences of their malfunction and offers opportunities for designing therapeutic interventions. The complexity of these networks and the speed with which signals are transmitted in cells makes mapping them a formidable challenge. The typical approach for elucidating the structure of cellular signaling networks involves an iterative process of creating signaling protein disruptions, domain mutants and site-directed mutants followed by characterization of each mutant through a battery of cellular activation assays. As a complementary approach, modern proteomic methods using quantitative mass spectrometry can facilitate the hypothesis-driven characterization of signaling pathways by providing a global view of cellular phosphorylation and protein-protein interactions through a variety of activation states. The Core B, Proteomics core will make cutting-edge, quantitative proteomic capabilities and computational analysis available to the investigators of this program project. The core will provide identification and relative quantitation of the protein composition and post-translational modification state of proteins using modern LC/MS techniques. This core has a strong track record of fruitful collaboration with the PI's of the program project culminating in the generation of 7 large phosphoproteomic and 8 CoIP-LCMS protein interaction datasets and publication of collaborative papers which elucidated the molecular details of how ZAP-70 is recruited to LAT and how the catalytic activity of ZAP-70 mediates basal signaling and negative feedback of T cell receptor signaling. The core has recently developed new technologies for the characterization of protein interaction networks in living cells using TurboID and the deepest possible characterization of phosphorylation networks using Src SH2 domain Superbinder and TMT BOOST channels. These newly developed methods will be leveraged to support the project PIs to determine protein-protein interactors and phosphorylation sites from T cell lines and primary mouse T cells. The core also has a suite of computational tools to provide rigorous statistical analysis of the proteomic data and to make new signaling pathway predictions."
+ },
+ {
+  "id": "610ab874-62b4-4f04-be5b-c3a490f504be",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Premature aging disorders, metabolites, and atherosclerosis",
+  "text": "The mechanism by which the incidence of cardiovascular events is increased in premature senescence-\ntriggered vascular diseases (PmSVD) induced by ionizing radiation (IR) and in patients with Hutchinson-\nGilford progeria syndrome (HGPS) remains largely unknown; hence, there is an urgent need to correct this gap.\nPmSVD promotes the pro-inflammatory senescent phenotype in endothelial cells, leading to increased\ncardiovascular disease, but the molecular mechanisms remain largely unknown. Our proposed studies will provide\ninsights into how PmSVD promotes cardiovascular dysfunction and facilitates the development of new\ntherapeutic approaches for PmSVD-induced atherosclerosis."
+ },
+ {
+  "id": "61167534-9e12-48bd-88e1-13e3e97d44c9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multiomics Core",
+  "text": "The Multiomics Core within the Hepatitis B HIV Cure Consortium (BICC) is committed to the development of advanced tools and methods to better understand the complex interplay of Hepatitis B virus (HBV) genomic diversity, the host immune response, and clinical outcomes among individuals co-infected with HIV. Central to the core's mission are three primary objectives: Aim 1 focuses on refining single molecule DNA sequencing techniques to better characterize HBV cccDNA and iDNA, even in low abundance samples. By adopting novel amplification techniques and integrating epigenetic mapping strategies, this aim intends to unravel the strategies HBV employs to circumvent immune detection, thereby highlighting potential therapeutic targets and the mechanisms and structures critical for HBV's survival and replication. Aim 2 seeks to enhance single molecule RNA sequencing protocols, focusing on improving efficiency and reducing costs. By leveraging advanced cell sorting techniques along with more affordable reagents, this objective facilitates an efficient comprehensive transcriptional profile of HBV-infected cells. Further, by incorporating single-cell proteomic data, we aim to resolve a rich, detailed perspective of virus-cell interaction, which may uncover new biomarkers or therapeutic targets. Aim 3 explores the application of graph-based bioinformatic methods to capture intra-host quasispecies differences and construct a detailed map of HBV genomic differences across the consortium's cohorts. Exploration into phylogenetic methods leveraging genome graphs and recent advancements in single molecule sequencing may produce more robust approaches for understanding quasispecies differences in relation to viral transmission dynamics, pathogenesis, treatment outcomes, and mechanisms of immune escape. Through these objectives, the core seeks to develop novel tools and methods that can advance our understanding into HBV, inform the development of targeted therapies, and ultimately improve the management and outcomes for individuals co-infected with HBV and HIV."
+ },
+ {
+  "id": "611b6076-4eee-41a7-a93f-32ec86f66916",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Computational tools for accurate inference of genetic ancestry from cancer-derived molecular data",
+  "text": "Mounting evidence from recent research, encompassing a variety of cancer types, points to links between\nbiology of the disease and the patient's ancestral genetic background. It is the goal of this project to facilitate\nlarge-scale data-driven investigation in this important area via methods to learn a patient's genetic ancestry from\ntumor-derived molecular data, without the need to genotype the patient's cancer-free DNA or to know the\npatient's ethnic self-identification. Anticipated successful completion of the project will make hundreds of\nthousands of DNA and RNA profiles of tumors, from genomic data repositories, and millions of tumor specimens\nin biobanks, most with no matching normal genotype and no racial/ethnic annotation, available for ancestry-\noriented cancer research."
+ },
+ {
+  "id": "611d1071-e3c3-46fa-9e5e-72e3d7dda766",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Quantitative Sciences Core",
+  "text": "PROJECT SUMMARY – Quantitative Sciences Core The Quantitative Sciences (QS) Core provides expert support to HIV/AIDS investigators at Duke University in data processing, analysis, and interpretation for grant submissions and funded research projects. The QS Core ensures rigor in analysis and provides a wide range of quantitative expertise, including statistical analysis, bioinformatics, computational biology, and epidemiology. We actively promote interdisciplinary team science, and host interdisciplinary colloquia and cross-training seminars such as Immunology for Quants (I4Q) to foster such collaborations. Our approach is structured around specific aims focused on (1) service, (2) education, and (3) innovation. For service, the QS Core faculty and staff assist investigators with grant submissions by providing power calculations for sample size estimation, evaluating alternative designs, and preparing statistical sections for grant applications. This support is particularly valuable for early-stage investigators (ESI) who may struggle to design effective small-scale exploratory studies on a limited budget. The QS Core also collaborates with the Developmental Core to support pilot grant applicants and awardees. Applicants are offered pre-submission consultation to review and critique their experimental design and data analysis plan, and awardees receive continuing statistical and bioinformatics support to ensure their projects’ success. For education, the QS Core provides workshops in biostatistics, data science, machine learning, and assay analyses; provides summer internships for graduate students in quantitative disciplines to work on HIV/AIDS research problems; and trains early career HIV/AIDS researchers in quantitative skills within Duke through our mentored scholars program. For innovation, the QS Core will develop new methods for HIV/AIDS investigators focused on three areas of faculty expertise: pragmatic clinical trials, integration of statistics and machine learning, and extending the Health Atlas for HIV/AIDS research linked to Duke patients and the HIV Samples Biorepository. New to this cycle, we highlight initiatives inspired around (1) Community health – collaborations with the Clinical and SBS Cores and HSR SWG to investigate social drivers of health in PWH; (2) Artificial Intelligence (AI)/Machine Learning (ML) – collaborations with AIT Core to develop ML integrated with statistical modeling for inferential analysis and predictive modeling of complex immunoassays; (3) Human-based research – facilitate the pivoting of HIV/AIDS research via research and education in computational modeling of complex biological systems and pragmatic clinical trials; and (4) development of quantitative online trainings and in-person workshops for HIV analysts. In summary, QS Core faculty and staff provide valuable quantitative expertise paired with HIV domain knowledge and a quantitative expert network, enabling more effective service, training, and innovation for the HIV research community and multidisciplinary research teams."
+ },
+ {
+  "id": "61225caa-be9a-42ab-96c8-612f2efc0144",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Tumor-Immune Interactions and Cisplatin Resistance in Bladder Cancer",
+  "text": "The proposed research is relevant to public health because it focuses on developing new\ncombination strategies to treating bladder cancer which a common and lethal disease. This project will\ndissect the mechanisms by which tumor-associated macrophages drive resistance to current systemic\ntherapies and will investigate the mechanisms of tumor-macrophage crosstalk that prevent\nimmunogenic cancer cell death with the ultimate goal of developing more effective macrophage-\ndirected strategies. Thus, the proposed research is relevant to the part of the NIH’s mission to\nlengthening life."
+ },
+ {
+  "id": "6123a852-ab43-4522-988c-f5e8207ede3a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular mechanisms of Candida albicans gut colonization",
+  "text": "It is not understood how the yeast Candida albicans colonizes the digestive tract of most humans\nwithout causing symptoms or why it sometimes transforms into a life-threatening, invasive pathogen.\nBy studying which fungal genes are turned on during colonization of a mouse digestive tract, we\nWe propose to uncover the\nmolecular activities of these and other effector proteins to learn how to maintain the fungus in a quiet\nstate and thereby prevent dangerous infections."
+ }
+]

@@ -1,0 +1,142 @@
+[
+ {
+  "id": "279ef649-d183-4578-a1d7-10e4803ed772",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Imaging Epilepsy Sources with Biophysically Constrained Deep Neural Networks",
+  "text": "The goal of this project is to develop and validate a novel technology for noninvasive localization and imaging of\nthe epileptogenic brain in drug resistant focal epilepsy patients. The successful development of the proposed\ntechnology promises to significantly improve the clinical management of drug resistive epilepsy, which is\ncurrently limited, benefiting numerous patients and the healthcare system."
+ },
+ {
+  "id": "27adc7e5-9bb1-4163-a891-d196ff504652",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Optimization and Validation of an AI Model that Screens for Arteriovenous Fistula Stenosis in Dialysis Patients using Sound Files from a Digital Stethoscope",
+  "text": "The overarching goal of this proposal is to determine if screening for stenosis in dialysis patients with an\narteriovenous fistula (AVF) can be performed using an AI model that processes sound files from a digital\nstethoscope. This proposal will optimize an AI model by training it on an expanded dataset of prospectively\nacquired measurements and validating its performance against angiography, which is the diagnostic gold\nstandard. Lastly, the clinical translatability of this novel screening approach will be characterized by evaluating\nits accuracy when performed by a trained technicians in dialysis centers."
+ },
+ {
+  "id": "27b8318d-9d0b-4502-bee9-2d0e56cf52bb",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Biomarker and Imaging Core",
+  "text": "Summary The Imaging and Biomarker Core will facilitate the development and validation of promising biomarkers of AD susceptibility, improve AD risk prediction, and identify promising directions for development of targeted interventions. By creating this Yale ADRC Imaging and Biomarker Core, we leverage the vast experience of Yale’s imaging and biomarker expertise to provide state-of-the-art acquisition and analysis of data and to focus on the development of novel approaches to studying AD. The Imaging Component will i) provide imaging protocols and data analysis strategies to facilitate in-vivo quantification of AD imaging biomarkers, ii) assess, track and validate imaging biomarkers of AD neurobiology, and iii) correlate imaging findings with postmortem neuropathological analysis and biofluid biomarkers, while the Biomarker Component will i) manage the Yale ADRC Biospecimen Repository, ii) assess, track and validate biofluid and tissue biomarkers of AD, and iii) develop and apply cutting-edge mass spectrometric approaches to identify and assess novel AD-associated biomarkers."
+ },
+ {
+  "id": "27bbb26a-71da-495b-9de3-378361d1958e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Clinical Research Education in Genome Science (CREiGS)",
+  "text": "The recent advent of single-cell omic technologies has enabled the characterization of transcriptomic and epigenetic states of thousands of individual cells within human and animal tissues. To adapt to the rapidly advancing single-cell technologies, the next iteration of the Clinical Research Education in Genome Science (CREiGS) Short Course will provide medical/doctoral students, postdoctoral scholars, and faculty from academic institutions nationwide with an in-depth understanding of the statistical and mathematical details informing the analysis of single-cell RNA-seq data."
+ },
+ {
+  "id": "27bcb133-ea2e-41fb-8340-035164229024",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Enhancing Undergraduate Bioengineering Education through Engaged Service Learning, Clinical Immersion, and Entrepreneurship",
+  "text": "A three-tiered approach is being implemented at the University of Texas at Arlington to transform\nour biomedical engineering design experience through a program that will facilitate team-based\nhands-on experiential learning and mentorship that spans the undergraduate degree plan. We\nwill specifically implement new components of a team service-learning design course at the\nsophomore level, a summer clinical immersion program with local hospitals and emergency\nmedical services at the junior level, and a team-centered workshop led by local industry experts\non the translation and commercialization of medical devices to augment the senior design\nexperience. Through these enhancements to our program, we target the development of\nfundamental skills to prepare our engineering students for serving in the biomedical workforce\nand entrepreneurship in the biomedical industry."
+ },
+ {
+  "id": "27be45f8-2b22-41a5-8379-fff20bc129b8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Radiation Guided Ablation for Ventricular Tachycardia",
+  "text": "Ventricular tachycardia is generally treated with catheter ablation which at best has a modest success and\nsome associated risks. We are proposing to use radiation as the energy for ablation making it non-invasive and\na much shorter procedure that can be done as an outpatient."
+ },
+ {
+  "id": "27bf64cb-9263-4c4e-8fa7-faeed7f12dfe",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Activating gasdermin pores to induce pyroptosis and stimulate anti-tumor immunity",
+  "text": "GSDMs are associated with many human diseases, and deletion of GSDMD significantly decreases\npyroptosis and IL-1β secretion, and remarkably protects mice from sepsis. By contrast, activation of\nGSDMs enhances pyroptosis and may promote anti-tumor immunity. Thus, identification of small\nmolecule GSDM agonists to “engineer” tumor cell death for antigen presentation and for priming the\nadaptive immune system will have significant impact on potential therapeutics against cancer."
+ },
+ {
+  "id": "27cec4c9-c344-48e6-a9b9-e49e7b985393",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Validation of Duoseq as a Genomic Swiss Army Knife for the Diagnosis of Lymphomas",
+  "text": "The average lymphoma biopsy is subjected to a battery of time-consuming and expensive diagnostic tests that\nrequire subjective interpretation by pathologists. We have developed Duoseq as a novel genomic approach for\nsequencing DNA and RNA together with included bioinformatics to comprehensively profile lymphomas nearly\nten times faster and cheaper than current standard methods. The success of this proposal will accelerate\nwidespread adoption of Duoseq as a comprehensive genomic profiling assay for lymphomas."
+ },
+ {
+  "id": "27d26eee-0e96-4c97-9fc3-34730317c1b7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Addressing the impact of ERVs in genome replicability of mouse resources: CC015 as a proof of principle",
+  "text": "Inbred strains are a key resource in biomedical research due to their genetic identity within each strain.\nTransposable elements (TEs) are genomic elements which can copy themselves and insert randomly into the\ngenome of their host, causing disruptions to the structure and function of that genome, as well as impacting the\nreplicability within an inbred strain. Here we propose to identify and eliminate an extremely active TE in a mouse\nstrain from the widely used Collaborative Cross resource. We will also apply our computational tools to other\nexisting inbred strain genomic datasets to improve general research of these disruptive genome elements."
+ },
+ {
+  "id": "27d61cbc-1114-4904-9e2e-423f642fb6ff",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Drosophila Chemosensory Responses to Dead Conspecifics",
+  "text": "Although death is a common occurrence, remarkably little work has examined how animals are able to sense\nand respond to the dead. This proposal seeks to characterize how the fruit fly, Drosophila, senses and\nresponds to the dead of its own kind (conspecifics), as well as the mechanisms underlying this response.\nUltimately, our work may have implications for human health, as the spread of vector-borne disease relies on a\ncareful balance between insect life and death."
+ },
+ {
+  "id": "27d66abc-5e24-40dc-9a54-b42164ae7ac3",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Core A - Establishing the regulatory mechanisms defining cellular function",
+  "text": "The coordinated regulation of chromatin structure, transcription factor binding and RNA expression is fundamental to cellular differentiation. Methods for measuring different layers of gene regulation within single cells can be used to determine essential regulators of cell differentiation and function as sensitive markers of cellular identity and lineage potential. To this end, we (Buenrostro) have recently developed SHARE-seq (Simultaneous High-throughput ATAC and RNA Expression with sequencing), for joint measurement of chromatin accessibility and gene expression within the same single-cell, at low-cost and massive throughput. Using SHARE-seq, we have shown that co-analysis of ATAC- and RNA-seq data from the same cell can be used to associate transcription factors to their target regulatory regions and distal regulatory elements to their target genes, enabling the definition of causal gene regulatory networks. Furthermore, we have shown that changes in chromatin accessibility precedes changes in gene expression, foreshadowing lineage commitment, and identifying a role for chromatin accessibility in priming chromatin for gene activation. Here, we propose the establishment of the Gene Regulation Core (GRC), which will be led by Dr. Jason Buenrostro at Harvard University's Department of Stem Cell and Regenerative Biology. As part of this P01 proposal, the GRC will enable the P01 members with SHARE-seq and other genomic technologies established in the Buenrostro lab, which can be used to functionally annotate regulatory regions, identify key transcription factors and chromatin regulators, define gene regulatory networks and parse cellular states. The GRC will work closely with the P01 labs to design experiments, and organize and collect hematopoietic samples (Aim 1). The GRC will use SHARE-seq to jointly profile chromatin accessibility and RNA expression at the single cell level. This will include extending SHARE-seq to capabilities uniquely enabled by SHARE-seq, such as the readout of transcribed lineage barcodes and Clonal Hematopoiesis-associated mutations (Aim 2). Finally, the GRC will be responsible for the primary processing of the data, data management, developing web interface tools and organizing data discussions and workshops between the P01 labs (Aim 3). Overall, the GRC will offer a complete solution for the single-cell genomics needs of the P01 community through a unique and innovative suite of genomic technologies."
+ },
+ {
+  "id": "27de1f07-8ee7-48a4-82f9-efc4564f7019",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Imaging Neonatal Hypoxic Ischemic Injury",
+  "text": "Neonatal hypoxic ischemic (HI) injury causes significant mortality and morbidity, and the only effective\ntreatment is hypothermia. We will develop in vivo magnetic resonance imaging techniques, together with other\nimaging modalities, to assess tissue injury and survival after HI using a well-established mouse model of neonatal\nHI injury. The proposed techniques can potentially shed light on the mechanisms of HI injury and therapeutic\nhypothermia."
+ },
+ {
+  "id": "27df5db1-b58e-456c-837e-7d22c331431c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Computational Analytical Core",
+  "text": "Computational Analytical The Computational Analytical Core will provide statistical genetic, AI and data integration and bioinformatic and network analysis support for the Polysubstance Addiction Research Center (PARC). One innovative aspect of this core is that Aim 1 will provide polygenic predictions for all tissue samples available from the biobanks (Core B). Genetic predictions for hundreds of behavioral traits will be available for all individuals represented in all four biobanks. These predictions will allow for a number of novel experimental designs. All predictions will be updated quarterly as new samples are added to the biobanks and as new data becomes available to improve the polygenic predictions. Aim 2 will integrate the existing Center for Computational Biology & Bioinformatics (CCBB) at UCSD with this center and will build on the existing computational expertise to provide custom services to each of the projects. CCBB will provide centralized bioinformatics support across all PARC projects, with a focus on bulk and single-cell RNA-seq analysis, statistical analysis, multi-omics data integration, and network-based modeling. CCBB staff will provide consultation on experimental design, data processing, and statistical analysis. The center will also support data visualization, workflow development, and training, promoting ease of interpretation of study data by researchers. Aim 3 will focus on data harmonization which will enhance the data's utility both within the center and for outside users of the biobank. Extensive data are already available about samples in the biobank. Additional data will also be collected by this center. However, those data need to be systematically organized to facilitate interoperability and to make them AI/ML ready. We will develop scalable data integration pipelines and use biologically meaningful ontologies to enhance the compatibility of all data. We will then apply advanced AI/ML techniques, including making use of network biology, to better integrate these data, and provide an interpretable, holistic understanding of complex biological phenomena. To integrate multi- omics data across projects, we will convert each modality into comparable, sample-level representations and make them analysis-ready. Then, we will build the integration layer that links modalities across gut, vagus, and brain and connects them to the biobank. Finally, we will apply AI/ML and network biology to generate mechanistic, translatable insights. Together, these analyses will convert the standardized inputs into interpretable, mechanistic, and actionable outputs -- cross-modal factors, subtypes, and ranked targets -- explicitly tied to behavior, imaging, and treatment effects, and ready for experimental follow-up across the research projects and the Biobank."
+ },
+ {
+  "id": "27e963c6-9fe2-4579-9bd7-8c49e0e67cfc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of Sarcomere Functional Remodeling in the Postprandial Python Heart",
+  "text": "Heart failure is commonly characterized by dysregulated cardiac contraction and output, often the result of\naltered molecular function of the sarcomeric proteins titin and myosin. The role of phosphorylation in regulating\ntitin/myosin’s properties and how this may be dysregulated in disease is poorly understood. Understanding the\nmolecular mechanisms through which phosphorylation regulates these proteins may reveal novel therapeutic\ntargets for modulating cardiac function in human heart disease."
+ },
+ {
+  "id": "27e9fc66-3a9f-42b6-b7bb-b534673bf039",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Training Program in Neuroengineering and Medicine",
+  "text": "Disorders of the nervous system represent one of the largest, fastest growing areas of medical need in the United States and the most promising therapies for these disorders are new technologies to image, analyze, and modulate activity in neural circuits. There is a great need for engineers educated in clinical neuroscience and physicians with technical backgrounds to train and work together, to effectively bring these critical technologies to patient care. The goal of this multidisciplinary program is to train pre-doctoral engineering students, and post-doctoral MD, PhD and MD-PhD fellows together in Neuroengineering research, to translate their work to clinical care, and ultimately improve the lives of individuals with brain and nervous system disorders."
+ },
+ {
+  "id": "27f19256-94f2-4aac-bc13-d5371b5203f2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Chitinase-3-like-1 mediated immunosuppression in Glioblastoma",
+  "text": "This proposed research is relevant to public health because it focuses on understanding a new mechanism of\nimmune evasion by glioblastoma (GBM), the most common and incurable brain tumor in adults; and developing\na novel therapeutic strategy based on this scientific rationale. Once such strategies have been tested, there is\nthe potential for a significant advance in cancer therapy for patients with this devastating brain tumor. Thus, the\nproposed research is relevant to the part of the NIH’s mission that pertains to reducing illness and disability."
+ },
+ {
+  "id": "27f3b64a-8483-43be-94df-437c7cd8837b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Plant Biotechnology for Health and Sustainability",
+  "text": "Plants and photosynthetic microbes are the direct or indirect source of most human foods, micronutrients, and\npharmaceuticals, therefore plant biotechnology has the potential to provide great value to human health. To\ncontribute effectively to plant biotechnology, the next generation of plant scientists should develop\nmultidisciplinary expertise across plant biology, biochemistry, metabolic engineering, synthetic biology and\ncomputational biology. The Michigan State University Plant Biotechnology for Health and Sustainability Program\nintroduces predoctoral students to these fields and provides them with an awareness of a broad range of careers\nincluding academia, government and industry."
+ },
+ {
+  "id": "28039e83-66a7-4096-bf12-0d9f0c42e51e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Elucidating regulatory control of Acinetobacter baumannii persistence and spread",
+  "text": "Nosocomial infections caused by the emerging multi-drug resistant pathogen Acinetobacter baumannii\nfrequently occur as a result of patient contact with bacteria persisting on hospital surfaces in a desiccated state.\nThis proposal addresses the regulation of the long-term desiccation tolerance of A. baumannii by a conserved\nLon protease, as well as the molecular link between desiccation tolerance and virulence in this organism. Results\nobtained from this research will strengthen our understanding of how A. baumannii causes disease and create\na framework for studying how transmission of this and other nosocomial pathogens occurs."
+ },
+ {
+  "id": "280a741c-19bd-4684-bc28-cbba4f75409c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A Mixed-methods Approach to Understand the Interplays of Social and Physical Environments, Loneliness, and Cognition among Older People with HIV",
+  "text": "HIV has changed its course into a chronic condition associated with multimorbidity that is closely tied to\ncognitive deficits. Examining loneliness, a modifiable risk factor for cognitive deficits, and the interplays of\nmultilevel (person, social environment, and physical environment-level) influences on the link between\nloneliness and cognition in older people with HIV could provide a new way to understand and improve\ncognitive health. Ultimately, these findings will inform development of future targeted interventions to enhance\nhealth and well-being of older people aging with HIV."
+ },
+ {
+  "id": "280c476e-989f-49dc-babd-347552188eb2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Tissue-specific labeling of endogenous proteins in Drosophila disease models",
+  "text": "Abnormalities of protein expression, trafficking, localization, and turnover are frequent causes of human\ndiseases. This project seeks to build a new tool for studying the dynamics of disease-related\nendogenous proteins at high spatial and temporal resolution in the model organism of Drosophila. This\ntool can be used to understand pathological processes that lead to diseased states."
+ }
+]

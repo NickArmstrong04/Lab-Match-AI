@@ -1,0 +1,142 @@
+[
+ {
+  "id": "0734247f-c09a-431e-963f-5cbfea537d3b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Regulation and functions of DNA polymerases in the Drosophila male germline stem cell lineage",
+  "text": "Proper stem cell function is essential for tissue development, homeostasis, and regeneration, and can be\ndysregulated in cancer and degenerative conditions. Adult stem cells across a variety of organisms, including\nDrosophila and humans, can use DNA replication as an opportunity to generate daughter cells with distinct\nepigenetic fates. My work will reveal molecular mechanisms regulating asymmetric histone incorporation in\nstem cells, and how proteins involved in this process contribute to germline regeneration across aging."
+ },
+ {
+  "id": "0737e9e9-36c4-47f0-989b-d3981f6cd7b8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Machine Learning Prediction of Persistent Adverse Mental Health Outcomes for Autistic Children: Leveraging Social Determinants of Health from Clinical Data",
+  "text": "Autistic children and youth are at high risk for adverse mental health outcomes, but efforts to understand the nuances of this risk are stymied by a lack of autism research investigating social factors that influence physical and mental health (SFIH). With support from a Community Advisory Board made up of autistic adults and caregivers of autistic children, we will use electronic health record (EHR) data from Children’s Hospital Los Angeles (CHLA) and the University of Florida Health System (UF Health) to (1) identify ecological- and individual-level SFIH within EHRs and (2) build machine learning risk prediction models for persistent adverse mental health outcomes; and a qualitative design to (3) explore clinician perspectives on utilizing SFIH within EHRs in clinical care. By incorporating SFIH, we will be able to predict which autistic children and youth are at highest risk for persistent adverse mental health outcomes, and identify how clinicians can practically use SFIH to improve care."
+ },
+ {
+  "id": "073a76dd-f320-40b8-8f67-03260192ed28",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Elucidating the Signaling Landscapes Underlying Cellular and Regional Specification During Human Brain Development",
+  "text": "How the complexity of the brain emerges during development remains a long-standing yet poorly understood\nquestion in developmental biology. With this proposal, we will seek to integrate several cutting-edge molecular\nand cellular tools, such as DNA memory devices and 3D cell culture models of the developing human brain, to\nrecord the developmental signals that govern brain organogenesis at a previously inaccessible resolution and\nscale. The successful completion of this proposal will provide an unprecedented look into the programs\nunderlying human brain assembly and pave way to novel therapeutic opportunities in tissue repair, cancer, and\nneurodevelopmental disorders."
+ },
+ {
+  "id": "073e7bc7-0c6f-426b-a390-18ba527fccdb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Improving Rural Access to Pediatric Health Care with Accurate Telehealth Diagnosis of Acute Otitis Media via Wide Scale Use of Smartphone Acoustic Reflectometry",
+  "text": "Acute otitis media (AOM) is a leading cause of medical visits for children each year, yet these encounters can\nbe challenging for rural children who lack easy access to health care services. This can lead to complications\nsuch as hearing loss, speech delay, and eardrum perforation. Wavely Diagnostics is developing a smartphone-\nbased tool to enable timely and accurate diagnosis of ear infections during virtual telehealth consultations,\nimproving health care access for rural and underserved populations by leveraging existing infrastructure, such\nas smartphones, already available in these communities."
+ },
+ {
+  "id": "073e9778-f881-43ae-87a1-1a4b16685674",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Single cell approaches to unravel transcriptional responses to drug pressure",
+  "text": "RP03 aims to understand the genetic basis of drug resistance, post-exposure recovery and compensatory\nmechanisms. We will use key tools developed under the prior grant period, including SCeQTL mapping, Bulk\nSegregant Analysis, and pseudo-Bulk Segregant Analysis. This work depends upon resources in Cores A and\nB, and will be enhanced by the resources and findings in RP01 and RP02."
+ },
+ {
+  "id": "0743836a-da95-4f27-865e-7e4ef19d4822",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Improving results and conclusions about harms in systematic reviews of drugs",
+  "text": "Systematic reviews (SRs) of healthcare interventions should identify patient safety concerns; however, many\nSRs are designed to assess benefits, and preliminary evidence suggests that conclusions about harms in SRs\nmight not be trustworthy. Using >19,000 SRs of drugs for which we have full texts (including >4,000\noverlapping reviews), and using innovative methods for analysis (e.g., natural language processing), we will\nexamine whether information about safety in SRs is consistent, whether SRs address safety concerns\nidentified using real-world evidence, and whether SRs are consistent with safety information on drug labels.\nBased on best evidence, including findings from this study, we will develop contemporary guidance for\nsynthesizing and reporting safety information in SRs."
+ },
+ {
+  "id": "0745b64d-7f3e-48b3-bf6e-b1b96502408d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Optimizing the Efficacy and Safety of CD33-Targeted Immunotherapy for Acute Myeloid Leukemia and Other CD33+ Disorders",
+  "text": "Widely expressed on acute myeloid leukemia (AML) cells, CD33 is of great interest as a therapeutic target for\nthis highly aggressive blood cancer, but current CD33-directed drugs are often ineffective. Using newly raised\nCD33-binding antibodies, the Walter Lab plans to optimize the efficacy and safety of CD33-targeted therapy,\nfocusing efforts on the delivery of highly potent radioisotopes, a treatment approach called radioimmunotherapy.\nDr. George S. Laszlo, PhD, the Research Specialist in the Walter Lab since 2010, has developed all experimental\nmethodologies, approaches, assays, and tools/reagents that build the foundation for this research and will lead\nstudies over the next 5 years that have the explicit goal of bringing new therapy options to patients with AML."
+ },
+ {
+  "id": "075c66bf-bf7b-49b1-9adb-ad14e19402d7",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Core C: Viral Evolution",
+  "text": "PROJECT SUMMARY – CORE C: VIRAL EVOLUTION The Viral Evolution Core will develop tools to inform the engineering of vaccines that broadly target coronaviruses that pose a pandemic risk. To do this, the core will use deep mutational scanning to define the biochemical and functional properties of RBDs and spikes across the full evolutionary span of sarbecoviruses and merbecoviruses, and systematically map how these proteins are targeted by vaccine-elicited antibody immunity. In the first aim, we will measure the receptor-binding properties of all known sarbecovirus and merbecovirus RBDs to identify key strains of interest and inform the development of animal models (Core B: Virology, Baric). In the second aim, we will develop a system to measure how all mutations to the spikes from key strains affect cell entry, thereby identifying functionally constrained epitopes to target with vaccines. In the third aim, we will use the RBD and spike libraries to quantify the binding breadth and robustness to mutations of vaccine elicited monoclonal and polyclonal antibodies, thereby providing direct functional readouts to rapidly assess candidate vaccines and inform their further engineering."
+ },
+ {
+  "id": "075f7f51-2962-4ded-a6f8-f311af3ad4a3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Shared Resource 01: Biomedical Informatics (BISR)",
+  "text": "PROJECT SUMMARY – BIOMEDICAL INFORMATICS SHARED RESOURCE (BISR) The Ohio State University Comprehensive Cancer Center (OSUCCC) Biomedical Informatics Shared Resource (BISR) is an essential Shared Resource (SR) that supports a wide range of studies with bioinformatics and computational biology needs, ranging from next generation sequencing (NGS) to data management in population science studies. BISR’s goal is to leverage a variety of informatics services, ranging from analysis of omics datasets to patient/participant-centered data instrumentation, access, and management tools and processes. The Specific Aims of BISR are to: 1) Provide state-of-the-art bioinformatics and computational biology services; and 2) Provide big data management and sharing, and cloud computing services. Over the current grant cycle, Dr. Dongjun ChungCB assumed leadership of BISR. Improvements for BISR include (i) added capabilities to support studies involving data from single-cell RNA-seq, spatial transcriptomics, immune profiling, and T and B cell receptor (TCR/BCR) repertoire profiling experiments; and (ii) big data management and sharing (DMS), cloud computing, and software engineering. BISR has worked closely with the Biostatistics SR to provide bioinformatics and biostatistics support for multiple research projects. BISR also works closely , the Genomics SR regarding the development of pipelines, advanced bioinformatics analysis, and relevant data mining. BISR supports the Biospecimen Services SR by working with OSUCCC members on de-identified NGS data generated through the ORIEN Avatar project, while also working with the Drug Discovery SR to develop the analytical framework and the one-stop-shop solution for the analysis of high-throughput drug screening assays. During the current funding cycle, BISR supported 133 investigators including OSUCCC members in all five Research Programs. Over the next grant cycle, BISR will enhance services for “integromics”, e.g., the integration of disparate source of both omics and clinical data, along with relevant machine learning and artificial intelligence to implement the integromics. In addition, BISR will establish pipelines for emerging genomic and immunologic profiling technologies such as spatial and single-cell multi-omics, and single-cell TCR/BCR- seq, while continuing to improve and harden the existing pipelines."
+ },
+ {
+  "id": "07641297-192f-4fa4-898b-a12c6299d233",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Them1 Mediated Metabolic Regulation and Pathogenic Role in MASLD",
+  "text": "The proposed research is relevant to public health because the discovery of new mechanisms that\nregulate energy homeostasis and nutrient metabolism will provide novel insights into the pathogenesis of\nobesity-related disorders. The proposed studies are relevant to the mission of the NIDDK because they\nare expected to identify new therapeutic targets for the management of metabolic dysfunction-associated\nsteatotic liver disease."
+ },
+ {
+  "id": "076627d3-0f4d-4315-8597-b7de7721670a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Robotic System for Spinal Decompression and Interbody Fusion",
+  "text": "If successful, the technology developed here will address unresolved challenges associated with minimally\ninvasive spine surgery and lead to a novel therapeutic approach based on robotic spinal fusion."
+ },
+ {
+  "id": "07700310-f561-469d-a35d-3d9c66de7c3b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Optimizing pre-analytical variables for reliable mass spectrometry-based quantification of immunomodulatory proteins in cerebrospinal fluid in pediatric neuro-oncology trials",
+  "text": "The core aim of this study is to systematically investigate and mitigate the impact of preanalytical variables on\nthe accuracy and reliability of targeted, multiple reaction monitoring mass spectrometry (MRM-MS)-based\nimmune protein measurements in cerebrospinal fluid (CSF) from pediatric brain tumor patients participating in\nclinical trials. The project will develop a standard operating protocol (SOP) to establish evidence-based practices\nfor CSF biospecimen handling, support assay standardization and harmonization, align assays for clinical trial\nuse, and devise strategies to address limited CSF volumes. The preanalytical quality control SOP will undergo\nreal-world testing, analyzing prospectively collected clinical trial samples at two CLIA (Clinical Laboratory\nImprovement Amendments) labs to demonstrate harmonization."
+ },
+ {
+  "id": "07735009-8ae5-42cf-98f0-c5ca745d3c1b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting mitochondria by ceramide in head and neck cancers",
+  "text": "The primary objective of this Fast-track R42/STTR application is to develop a potent, specific, and well-\ntolerated LCL768-based ceramide analog drug that selectively induces lethal mitophagy to inhibit tumor growth\nand/or enhance response to immunotherapy in head and neck squamous cell carcinoma (HNSCC)."
+ },
+ {
+  "id": "07796258-5605-4ec9-b08e-521a6edb4354",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Validation of a novel treatment for glioblastoma using oncolytic Zika virus",
+  "text": "Glioblastoma is incredibly fatal and difficult to treat - the same combination therapy has been in use for almost\n20 years despite offering only very moderate extensions in patient survival. We are validating a therapeutic\nZika virus that overcomes the barriers to treatment and, in background testing, demonstrates incredibly good\nefficacy and safety. In direct response to FDA feedback on our pre-IND submission, this proposal is designed\nto allow us to complete IND-enabling studies to gain approval for our novel new therapeutic which we believe\nwill have dramatic impacts on patient outcomes."
+ },
+ {
+  "id": "078338de-5425-47a1-9212-6ef1e468dc1a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of multimodal network analyses to improve epilepsy surgery outcomes",
+  "text": "Epilepsy surgery can result in seizure freedom in patients with drug-resistant epilepsy. Current clinical tools that\nguide surgical decisions are limited, in part due to an incomplete understanding of brain connectivity patterns in\nfocal epilepsy. Using magnetic resonance imaging and intracranial recordings, we will develop new network-\nbased tools that can be applied broadly at epilepsy centers to improve patient selection, outcome prediction, and\nlocalization of surgical targets in epilepsy surgery."
+ },
+ {
+  "id": "078a28bc-5832-472e-a329-71eb00c68409",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Evaluating the efficacy of computer aided exercise stress ECG reader (CAESER) for automated diagnosis of coronary artery disease",
+  "text": "Primary goal of this project is to significantly elevate the positive predictive value (PPV) and\nsensitivity of exercise stress electrocardiography (ESE) in assessing obstructive coronary artery\ndisease (CAD), defined as > 50% stenosis identified by invasive coronary angiogram (ICA) across\npretest cardiac risk spectrum, by leveraging large, harmonized ESE dataset correlated with ICA.\nCAESER (Computer Aided Exercise Stress ECG Reader) can automatically analyze ESE and\nprovide statistical likelihood of CAD by adopting an expert-AI collaborative precision\ncardiology approach, where gender specific baseline STD are captured by a digital twin,\nGeMREM, while the continuous comparison with baseline is achieved through transformer based\ndeep learning architecture. The machine learning evaluation framework developed in this project\ncan lead to a lightweight automatic CAD diagnosis approach to be integrated with mobile ECG\nmonitoring and provide low-cost CAD risk monitoring that has uniform performance across\ngender, racial demographics, socio-economic status and co-morbidities."
+ },
+ {
+  "id": "07910116-6ce0-43a8-ac62-8175aebebf34",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Reprogramming Gene Regulatory Networks to a Hematopoietic Stem Cell State",
+  "text": "Hematopoietic stem cells (HSCs) are an extremely valuable therapeutic cell type due to their capacity to\nreconstitute the entire blood system upon transplantation or injury. Recent research has identified transcription\nfactor combinations that reprogram endothelial cells to HSCs, but the mechanisms underlying this process\nremain unknown. Here, we propose to elucidate the molecular and cellular mechanisms by which reprogramming\nfactors promote cell fate changes, laying the groundwork for more selective and efficient generation of clinically\nrelevant HSCs."
+ },
+ {
+  "id": "0798c979-fdd6-4818-93fe-57a5d1d235ce",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular and Cellular Mechanisms of the Aberrant Type I Interferon Response in VEXAS Syndrome",
+  "text": "VEXAS (Vacuoles, E1-ubiquitin-activating enzyme, X-linked, Autoinflammatory, Somatic) syndrome is a newly\nreported and severe hematologic-autoinflammatory syndrome afflicting an estimated ~1 in 4,269 men older than\n50 years. Despite its severity and prevalence, molecular mechanisms underlying VEXAS pathogenesis remain\npoorly understood owing to a lack of genetically engineered cell culture and animal models. This proposal reports\nthe development of novel genetically engineered models of VEXAS that will enable us to examine the\nmechanisms and interplay between aberrant interferon-mediated inflammation and myeloid-biased\nhematopoiesis in this disease."
+ },
+ {
+  "id": "0798ceb5-be7b-486b-b7e7-5f1a48eec533",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Expanding Biomedical Research Capacity at Bryant University",
+  "text": "Bryant University requests NIH funding to build three shared research spaces that will significantly expand the institution’s biomedical research capacity. The proposed project will include (1) the expansion and modernization of an analytical laboratory designed to support faculty research and undergraduate training across a variety of scientific disciplines; (2) the construction of a tissue culture lab that will house a laminar flow hood, a biosafety level II cabinet, and incubators to support level II cell culture work; and (3) the construction of a microscopy room that will house the first confocal microscope in Rhode Island with Raman capabilities to image live cells. Creating these shared research spaces will revolutionize the biomedical research that Bryant can conduct. The current analytical laboratory is a 761-square- foot facility that is outdated and under-outfitted to support cutting-edge research. This project will increase the size of the space by 45%, to 1,500 square feet, and will modernize this shared research space with equipment necessary for the institution to become a leader in biomedical research. Currently, Bryant does not have a microscopy room or any space on campus dedicated to tissue culture work. This means that the faculty can only conduct rudimentary sampling or cannot conduct research for risk of biohazard. Lastly, a 250-square-foot microscopy room will be built to house a confocal microscope with Raman capabilities. The research these spaces will make possible will enhance critical work on women’s health disparities, particularly in the areas of antibiotic resistance and addiction, both conditions that disproportionately affect women. With the proposed construction, Bryant will realize the following four objectives: (1) transform and expand critical research space available to Bryant faculty and students (with a 10% increase in student researchers annually over five years); (2) make possible new research on women’s health, particularly regarding antibiotic resistance and addiction (with a 50% increase in publications over five years); (3) enable interdisciplinary collaborations and foster innovation in biomedical research in Rhode Island (with a 100% increase in outside researchers who use Bryant facilities over five years); and (4) prepare students for careers in the biomedical sciences through hands-on research and training experiences (with 100% of all SHBS students, excluding psychology, trained on new lab instruments and techniques)."
+ },
+ {
+  "id": "079904d7-dbca-489a-bbe8-0617d99e8ac8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The CD93 pathway and melanoma therapy",
+  "text": "Most melanomas fail to anti-PD1 because of lack of immune cells within the tumors. Our proposed study will\nlook at how a newly identified pathway on tumor vasculature comprises a resistant mechanism to limit immune\ncell infiltration into melanoma, with the aim of targeting this pathway to improve melanoma therapy."
+ }
+]

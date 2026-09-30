@@ -1,0 +1,142 @@
+[
+ {
+  "id": "a4709058-f861-40ff-a881-b84ddef1e444",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Treatment of GM1 gangliosidosis CNS manifestations by AAV systemic expression of lectin-enhanced enzyme",
+  "text": "The family of human genetic diseases represented by GM1 gangliosidosis and\nother lysosomal disorders includes some of the most devastating human afflictions known and\nthe costliest to patients, their families, and the public health system. There are currently no\neffective cures for GM1 gangliosidosis, a progressive neurodegenerative disease primarily\naffecting children and leading to developmental regression, loss of mobility, seizures, and early\ndeath. This study will advance an innovative first-in-class gene therapy that enables GM1 patients\nto produce functional “delivery-enhanced” enzyme that is capable of efficient treatment of the\nCNS pathologies as well as other organs impacted by this debilitating disease."
+ },
+ {
+  "id": "a4721096-4d78-43ec-8667-fabcbf83f0b0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A Scalable Primary Cortical Tri-Culture Model to Study the Influence for Gut Microbiome-Derived Bioactive Compounds on Neuroinflammation",
+  "text": "Bioactive compounds produced by native or transient members of the gut microbiome are finding increasing\nuse as therapeutics for a variety of complex human diseases, including obesity, diabetes, cardiovascular\ndisease, and neurological disorders. In this project, we employ novel neural culture model of inflammation,\ncoupled with electrophysiological recording capabilities, to provide insight into the influence of gut microbiome-\nderived bioactive compounds on neuroinflammation. We expect that this project will create a scalable in vitro\ntool that will allow further mechanistic studies, bioactive compound discovery, and translation to human use."
+ },
+ {
+  "id": "a4751629-f2cc-4231-a4a0-077206afe0f7",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Cancer Modeling Shared Resource",
+  "text": "CANCER MODELING SHARED RESOURCE The Sylvester Comprehensive Cancer Center (Sylvester) Cancer Modeling Shared Resource (CMSR) has developed into an essential translational research resource for Sylvester members. The aims of the CMSR are to 1) develop novel mouse models of human cancer; 2) validate cancer targets and test potential therapeutic approaches using those models; 3) characterize cancer models and evaluate treatment responses using noninvasive imaging; 4) provide histopathological analysis; and 5) offer training and consultation. In 2017, Daniel Bilbao, PhD, MBA, was recruited to Sylvester to develop the infrastructure needed to support preclinical and translational studies, using the mouse as a model organism. One and a half years later, the CMSR was established as a developing Shared Resource (SR). Driven by the success of the CMSR in achieving metrics comparable to other CCSG-supported Sylvester SRs (in terms of usage, scope of services, and publications and grants supported), the CMSR is now proposed as a full CCSG-supported SR. CMSR services facilitate the in vivo modeling of human cancers, including Sylvester priority cancers, such as hematological and gastrointestinal malignancies and hormone-related cancers, providing high-quality preclinical data for successful drug development or evaluation of novel treatment protocols. CMSR’s growth and success are driven by the Center-wide interest in translational research, significant Sylvester investment in imaging and other sophisticated instrumentation, and continued expansion in the services provided by the talented CMSR team. Over the current reporting period (6/1/2018-5/31/2023), to meet the needs of Sylvester members, the CMSR expanded its services by acquiring 21 instruments, including six new state-of-the-art imaging and histology platforms (e.g., 9.4T MRI, PET/CT, and automated IHC) and providing numerous new services. This led to a more than doubling in the number of members using the facility annually, from 28 members in FY19 to 63 in FY23 (Sylvester’s fiscal year (FY) runs 6/1-5/31). To support this growth in services, CMSR staff increased from three to 13 personnel, and the facility’s space expanded 2.8-fold, to 3,662 sq ft. Over the reporting period, the CMSR provided services to 83 Sylvester members from all four Research Programs, who comprised 87% of total usage by revenue, reflecting CMSR services’ critical importance to members. CMSR supported 37 cancer-related publications, including 19 in high-impact journals (JIF≥10), and 35 cancer-related grants awarded to members, including 11 from the NCI. Future plans include expanding mouse modeling with gene editing services; enhancing histopathology services related to digital pathology; expanding noninvasive imaging protocols for tumor detection and therapeutic responses; and expanding coordinated multi-SR support for translational research."
+ },
+ {
+  "id": "a4786e16-ca9b-4a68-8d7a-c75a81ac16ff",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Granulosa-derived RNAs as targets for oocyte rejuvenation",
+  "text": "If growing oocytes do not stockpile sufficient quantities of mRNA transcripts, they will fail to mature and will not\nproduce offspring. In mammals this was thought to depend exclusively on oocyte transcription however I have\ndemonstrated that somatic granulosa cells send transcripts to oocytes through an unknown mechanism that has\nyet to be understood. The work in this proposal will characterize the mechanism of this RNA transfer, determine\nits relevance for oocyte maturation, and develop techniques to supplement oocyte mRNA stockpiles to improve\nfertility outcomes."
+ },
+ {
+  "id": "a47cf0ec-7f29-4dec-b54b-3511d3be63c1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Early prediction of lethal phenotypes in triple negative breast cancer using multiscale, multi-modality platforms",
+  "text": "The vast majority of patients with TNBCs are offered adjuvant chemotherapy after surgery. However, there are\nno tools, apart from tumor infiltrating lymphocytes, to optimize therapy for these patients. This proposal will\ndevelop a novel multi-modal CaPRI score that integrates clinicopathologic, radiomic, pathomic and immune\nfeatures in to a single score for predicting risk of lethality and therapeutic optimization."
+ },
+ {
+  "id": "a47deada-35b6-4a7c-9995-32a211731779",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Artificial Intelligence and Machine Learning Core",
+  "text": "The Artificial Intelligence and Machine Learning (AI/ML) Core (AIC) will significantly expand upon the existing Bioinformatics and Pathways Core (BPC) to provide COBRE Research Project Leaders (RPLs) with AI/ML expertise and support. This expansion is crucial for RPLs to leverage AI/ML in their research, particularly in the context of high-throughput data analysis, and to remain competitive in securing R01-level grants. AI/ML, especially transformer technology (e.g., ChatGPT), is rapidly transforming various sectors of society, including biomedical research. The AIC will assist COBRE RPLs, Pilot Project Awardees, and the wider genomic regulation research community in Oklahoma in adopting these technologies. The core will offer advanced skills, expertise, and specialized computational infrastructure (GPUs) to better facilitate the adoption of state-of-the-art AI/ML tools in research. Furthermore, we will engage in the development and customization of new genomic analysis tools to understand complex genomic regulation. The AIC will provide expertise and resources for AI/ML tasks like image analysis and transcriptional network analysis, including developing classifiers for cytology images, assisting in data analysis and integration, and denoising imaging data. The AIC will develop a genomic region embedding system for genomic interval analysis, which will use deep learning to capture spatial relationships and features within DNA sequences, going beyond traditional statistical approaches to evaluate regions of interest (ROI). It will allow for the integration of various data types (multi-omics) and help infer regulatory implications of region sets. It will be an important component of helping interpret the significance of newly gathered genomic ROI in the context of prior experiments, genomic region annotations, epigenetic alterations, significance of biological pathway enrichments, and physiochemical genomic properties."
+ },
+ {
+  "id": "a480b1ae-3cad-4ea9-bf2f-3e9651f8c8d0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Role of NNMT in Prostate Cancer",
+  "text": "In this grant application, we propose to study the causal role played by NNMT loss in prostate cancer\ndevelopment and progression. The studies outlined here aim to identify novel signaling components that facilitate\nepigenetic and metabolic rewiring in the context of NNMT loss, leading to the prostate cancer disease\nprogression. Additionally, the findings from these studies will contribute to the development of rationally-designed\ntherapeutic strategies for treating advanced prostate cancer."
+ },
+ {
+  "id": "a484f95a-0018-4825-8276-bb0099ac7cf9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Characterizing the Unique Biophysical Properties of the CBC2 OFF Cone Bipolar Cell",
+  "text": "Bipolar cells are the first interneurons of the retina primarily responsible for sampling photoreceptor input and\ndistributing it into ON and OFF visual streams, yet new research suggests that each bipolar cell subtype collects\nand transforms different salient components of the visual scene (luminance, frequency, contrast, etc.) in different\nways. This project will use super-resolution microscopy, Ca2+ imaging, electrophysiological techniques, and\nbiophysical modeling to examine distinctive synaptic mechanisms in CBC2 Type 2 OFF cone bipolar cells and\ndetermine their unique contribution to overall retinal function. This knowledge is vital for producing a more\ncomprehensive understanding of retinal physiology and developing new solutions to address human visual\ndysfunctions, and is a central goal in vision research."
+ },
+ {
+  "id": "a4864b11-d53a-426e-8da4-9ff8c883d6e1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Maladaptive Compensatory Plasticity in Unilateral Hearing Loss",
+  "text": "Many people with unilateral hearing loss struggle to understand speech in noisy settings, but current clinical\nhearing tests cannot explain or predict these difficulties. This research uses EEG and a complementary animal\nmodel to uncover how the brain adapts to unilateral hearing loss and how these changes affect real-world\nlistening. These findings will support the development of noninvasive biomarkers that reveal brain-based\ncontributors to listening difficulty that are missed by standard hearing tests, strengthening clinical assessment,\nand enabling more individualized treatment strategies."
+ },
+ {
+  "id": "a48b64e6-4378-4afd-9646-5a1040ff9199",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Blood vessel assembly from multipotent hemangioma-derived stem cells",
+  "text": "Infantile hemangioma, a benign vascular tumor that occurs in 4-5% of children, is treated with propranolol, yet\nwhy and how propranolol is effective has remained a mystery. We have new data that uncovers a novel,\nunexpected mechanism downstream of propranolol that involves cholesterol metabolism. In this proposal we\nwill deeply study how propranolol and statins reduce vascular overgrowth in infantile hemangioma with the goal\nof improving treatment options for infantile hemangioma, and potentially other diseases where vascular\novergrowth occurs."
+ },
+ {
+  "id": "a495df36-67dd-413f-ba67-11ef479f0cde",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A Feasibility Study for a Clinical Decision Support System to Assist with Vasopressor Titration",
+  "text": "Blood pressure management during surgery is among the most important responsibilities of anesthesiologists\nand anesthetists. As a patient receives vasopressor and the patient’s MAP changes, adjustments are needed\nin the dosing and infusion rate of the vasopressors. E-Fusion Titration-Assist is a bedside device, which can\nassist the clinical user (i.e., anesthesiologist or nurse anesthetist) with titrating the continuous administration of\na vasopressor to achieve a desired mean arterial pressure set by the user."
+ },
+ {
+  "id": "a4980610-003e-4425-8996-2b617fe168dc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Transforming fNIRS Analysis Through AI-Assisted Simulation, Calibration, and Interpretation",
+  "text": "This project aims to fundamentally transform fNIRS analysis by introducing the first comprehensive AI-as-\nsisted framework tailored to fNIRS. By integrating theory-driven biophysical simulations with state-of-the-art\ngenerative AI, we will enable real-time model calibration, adaptive data augmentation, uncertainty quantifica-\ntion, interpretable downstream ML applications, and hierarchical modeling across subjects and tasks. This\nframework directly addresses key limitations in current fNIRS workflows and supports reproducibility and\ntranslational impact through open-source software."
+ },
+ {
+  "id": "a4985c2f-0ca7-45b3-b80a-d60455dcf2e9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Training and Educational Core",
+  "text": "This Wellstone training core is focused on training the next generation of clinical and bench scientists focused on muscular dystrophies, in particular the myotonic dystrophies, which are among the most common muscular dystrophies. This landscape has rapidly evolved, and multiple therapeutic approaches are in active pre-clinical development or clinical trials. There is a significant need to ensure a sustainable pipeline of researchers who will be well equipped to take on roles in all stakeholder organizations. On the clinical side, our training core will supplement existing support for clinical fellows to introduce them to all aspects of DM biology, including exposure to solid foundational bench science and enrichment activities involving visits to other sites around the country. We will also focus on recruiting new clinicians into the field using an early engagement program for medical students. On the bench side, we will focus on equipping scientists with the critical thinking, communication, and presentation skills, and training them in cutting edge that will rapidly become commonplace in the future. Both RNA and protein dysregulation occur in DM, and tools to study this disease have moved from individual, candidate-based approaches to global approaches requiring significant computational resources. The techniques that have been commonly applied include transcriptome profiling by RNAseq, DNA analysis by whole genome sequencing and optical mapping approaches, and proteomics. More recently, recognition of heterogeneity in gene expression across cell types and subcellular compartments of cells and tissues have led to an explosion of technologies focused on spatial transcriptomics and imaging. All of these techniques require competency in computation and programming, along a background of foundational biological knowledge. Thus, overall, our training core will focus on 4 major priorities: 1) attracting and building competency in the next generation of clinical investigators focused on DM, 2) rigorously training bench scientists in both the wet- and dry-lab settings, with a focus on analysis of deep sequencing data and computational/AI-aided image analysis, 3) training scientists to perform cell biological imaging assays on muscle fibers, along with computational analyses, and offering similar defined training opportunities to other Wellstone laboratories, and 4) training the next generation of scientists in communication skills needed to effectively engage all stakeholders in the DM space. We have leveraged significant institutional resources to supplement the training core activities here and describe a robust, cross-institutional approach to building community and scientific competency."
+ },
+ {
+  "id": "a49ac1b8-2dcb-46af-8167-eaadee25495f",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Genetics and High Throughput -Omics",
+  "text": "REVISED ABSTRACT: Genetics & High Throughput –Omics Core: Project Summary 2P30AG066444-06 (5158) Aging populations worldwide, especially in developed countries, face an increasing burden of neurodegenerative diseases, particularly Alzheimer disease (AD), Frontotemporal dementia (FTD), and other AD-related dementias (ADRDs). Genetic studies have greatly contributed to our understanding of these complex diseases. Initial studies of an inherited form of AD resulted in the identification of mutations in the genes encoding β-amyloid precursor protein (APP), Presenilin 1 (PSEN1), and Presenilin 2 (PSEN2). Mutations in Granulin (GRN), Microtubule-Associated Protein Tau (MAPT), and C9orf72 have been identified as causes of FTD. These diseases are characterized by protein misfolding and aggregation, and also share some clinical and neuropathological characteristics. The promise of the twenty-first century is that we will be able to classify these diseases by the genetic cause or genetic risk factors. Furthermore, it is clear that studies beyond genetics, such as transcriptomics, proteomics, or epigenomics, are needed to fully understand the biology of AD and ADRDs, with the intention of identifying novel biomarkers and therapeutic targets. The goal of the Genetics & High Throughput -Omics Core at the Knight ADRC is to obtain, bank, and QC biospecimens (DNA, RNA and plasma) from Knight ADRC participants. The Core is also responsible for storing and standardizing various types of data, including genome-wide association study (GWAS), whole exome sequencing (WES), whole genome sequencing (WGS), transcriptomic, proteomic, methylation, and metabolomic data obtained from Knight ADRC participants. The purpose of this is to ensure data integrity and compatibility, facilitating sharing with the scientific community. Additionally, tissue-specific biological clocks generated from methylation and proteomics data are made available. Furthermore, the Core develops web browsers that enable investigators to query multi-omic profiles from Knight ADRC participants, thus promoting broad sharing within the scientific community."
+ },
+ {
+  "id": "a49fb999-eaca-48d9-9121-2d02276ccbd6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Understanding and Therapeutic Targeting of Extramedullary Acute Leukemia",
+  "text": "This application studies myeloid sarcoma, an extramedullary subtype of acute myeloid leukemia (AML) with\nabysmal survival rates and no available drug treatments. We test the hypothesis that myeloid sarcoma is\ncharacterized by unique mutational signatures, aberrant gene expression and RAS/ERK pathway activation,\nleading to the eventual emergence of a “solid-tumor”-like myeloid blast that has the ability to expand outside of\nthe bone marrow."
+ },
+ {
+  "id": "a49fbe7e-123d-4278-b243-bbb1ab6e2302",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Role of the Tumor Suppressor ARID1A in R loop Homeostasis and Tumor Immunity",
+  "text": "While immune checkpoint blockade is an effective cancer treatment, many individuals do not respond. Patients\nwith a mutation in the ARID1A gene respond better to immune checkpoint blockade, indicating that ARID1A\nmay be a biomarker for immune checkpoint blockade therapy. ARID1A mutation results in DNA replication\nstress in the form of R loops, which may drive heightened anti-tumor immunity and immune checkpoint\nblockade responsiveness through activation of an inflammatory response."
+ },
+ {
+  "id": "a49fd9f0-de74-4a3e-b11d-c819ff8432d1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Sjogren's International Collaborative Clinical Alliance Next Generation Studies (SICCA-NextGen)",
+  "text": "Our proposal leverages unique NIDCR-funded resources by utilizing existing infrastructure and an expanded team with\nhigh level expertise to continue our quest to better understand the heterogeneity and etiology of Sjögren’s disease (SjD),\nand identify therapeutic targets and new biomarkers.\nWe aim to investigate SjD’s multifactorial etiology and potential therapeutic targets by assessing metabolic pathways and\nenvironmental exposures, through high-resolution metabolomics and exposomics. Furthermore, we aim to explore and\ndefine SjD’s molecular and phenotypic heterogeneity through multimodal integration and an expanded dissemination\nplan."
+ },
+ {
+  "id": "a4a0d06e-5650-456c-86e3-811301d2bd5f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Illuminating Proximal Relational Dynamics to Enhance Initial Recovery from Alcohol Use Disorder",
+  "text": "Alcohol use disorder is accompanied by significant individual and societal costs, and, despite established\nevidence-based care, return to alcohol use during initial recovery is common, highlighting the need to understand\nnovel, malleable factors modulating early recovery success to improve recovery outcomes. Recovery is marked\nby shifts from substance-using to substance-free peers; yet the nature of discrete interpersonal interactions,\nparticularly with close supports such as romantic partners, are likely to modulate recovery outcomes, with critical\nor unsupportive interactions serving as barriers in early recovery. This project will use dyadic ecological\nmomentary assessment (EMA) during initial recovery to illuminate proximal relational dynamics modulating\nrecovery success to inform novel interventions for people in recovery and romantic partners."
+ },
+ {
+  "id": "a4a0f948-3c2e-4602-b3e5-7b484b36448b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Protection of hematopoietic stem progenitor cells from endogenous DNA damage",
+  "text": "Fanconi anemia is one of the most common inherited causes of low blood counts. Reactive aldehydes cause\nDNA damage that is detrimental to patients with Fanconi anemia due to their DNA repair defects. Our study aims\nto enhance aldehyde detoxification capacity to prevent DNA damage and disease progression in Fanconi anemia."
+ },
+ {
+  "id": "a4a292e5-e501-42ba-b043-75cecc6e4a04",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Novel approaches to predict strength and breadth of influenza vaccine response",
+  "text": "Influenza vaccines are a vital tool to protect against infection and disease, but we still have a limited under-\nstanding of why individuals respond differently to them. Our project aims to develop advanced predictive\nmodels that combine cutting-edge statistical and machine-learning techniques with detailed data from\nhuman influenza vaccine studies. By accounting for individual differences, especially in vulnerable pop-\nulations like the elderly, our work will help guide future vaccination strategies to improve and personalize\nimmune protection."
+ }
+]

@@ -1,0 +1,142 @@
+[
+ {
+  "id": "a3b62786-058f-448b-aaba-8a64f4790225",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Immunogenetic determinants of cancer risk",
+  "text": "With the revolutionary discovery of immunotherapy as a highly effective treatment for cancer, the immune\nsystem, and specifically the interaction between CD8 T cells and HLA molecules, has emerged as an essential\nplayer in cancer treatment, but its role in early tumorigenesis is understudied. Germline HLA heterozygosity\nbeen shown to improve tumor immunogenicity and thus response to immunotherapy as well as lower\nsusceptibility to viral infection, but its role in cancer risk is unknown. This proposed research will use large,\ndiverse clinical and genomic datasets and an in vivo model of HLA-mediated immune surveillance to implicate\ngermline HLA zygosity in cancer risk, potentially identifying an important biomarker for increased cancer\nscreening, and provide insights into the mechanism of HLA-mediated immune surveillance of early tumors to\nguide treatment and prevention strategies."
+ },
+ {
+  "id": "a3cf83fe-3e5a-4497-8589-9c2f7245080a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A High-Throughput Screening Platform to Discover RNA Methylation Inhibitors",
+  "text": "Adenosine methylation (m6A) is a highly prevalent RNA modification that has been linked to several human\ncancers. The m6A methyltransferase complex has emerged as a potential therapeutic target; however, efforts to\nidentify methyltransferase inhibitors have been hampered by the lack of methods that provide a cellular readout\nof adenosine methylation on a high-throughput scale. Here, we will develop a novel genetically encoded m6A\nsensor system that provides a fluorescence-based readout for mRNA methylation which can be used both for\nhigh-throughput drug discovery efforts as well as studies investigating m6A biology and its contribution to cancer."
+ },
+ {
+  "id": "a3d22260-fd66-45fc-ac82-f8b5745b1793",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Opioid-induced dysregulation of cortico-striatal circuits",
+  "text": "The incidence of reported heroin use and nonmedical prescription opioid use is on the rise in recent years,\nwith the rate of abuse in women increasing to a greater extent. The proposed studies will use a variety of\ntechniques to identify how opioids disrupt function of brain regions responsible for cognitive flexibility and\ncontrol over drug seeking behavior to identify substrates for the transition to opioid addiction and how factors\nsuch as biological sex influence development of these functional adaptations."
+ },
+ {
+  "id": "a3dca039-b34e-41ae-9713-fa079e8d2159",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Peptidome-Driven Algorithms for Faster and More Precise Mycobacterial Detection",
+  "text": "NTM infections are of growing concern due to the increasing number of NTM infections in the United States. The\nneed for precise identification of NTM at the species level has been prompted because the species level\ndetection could guide a more accurate treatment strategy. Our proposed algorithm-based peptidome method\ncan simultaneously identify NTM and predict macrolide susceptibility from clinical samples, greatly simplify NTM\ndiagnosis protocol with the subspecies identification resolution."
+ },
+ {
+  "id": "a3dd90bf-a3c1-42be-b435-e1b63222ae0a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Genetic variant Evidence using Novel tools to Elucidate Pathophysiology: Accelerating Translation to Health (GenePath)",
+  "text": "Understanding the precise impact of genetic variations that might have harmful effects in humans is essential for research and patient care. Our Coordinating Center will work with sites to create ML/AI variant characterization tools and organize and guide the creation of ELSI frameworks."
+ },
+ {
+  "id": "a3e85a74-7c01-464a-9964-cc0d26f85841",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The lysosomal fasting response in intestinal stem cells and cancer",
+  "text": "Fasting interventions have numerous health benefits, but the underlying molecular mechanism remains less\nexplored. Here we focus on lysosomes, a dynamic signaling organelle that regulates cellular metabolism, protein\nhomeostasis, and metabolic adaptation – using the mammalian intestine as a paradigm, we will investigate how\nlysosomes maintain intestinal stem cells and fuel tumorigenesis. Collectively, the goal of this proposal is to\nleverage novel genetic and biochemical tools to uncover the downstream molecular effectors of lysosome\nbiology, which may have direct implications in developing stem cell regeneration and anti-tumor therapies to\nimprove human health."
+ },
+ {
+  "id": "a3eb2f85-efd0-42cb-9e4b-b6fa5f718464",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Neuroimaging Training Program",
+  "text": "Investment in training of biomedical engineers to become experts in the development of non-\ninvasive imaging tools, for high and low resource communities, and their use in patients with\nbrain disorders such as depression, traumatic brain injury, and Alzheimer's Disease will advance\nthe ability to provide good medical care. The trainees from this program make significant\ncontributions to medical technologies that enable accurate diagnosis of illnesses and\ndetermination of responses to treatments."
+ },
+ {
+  "id": "a3f7c77b-586f-4f03-95f5-962e19391f4a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of the PAIN (Pain AI iNtervention) Platform for Patients at Home",
+  "text": "Opioid and analgesic overprescription, particularly in the surgical setting, can lead to opioid misuse and its\nassociated consequences. The individualization of pain medication regimens after surgery is an urgent matter\nthat can be approached by continuously monitoring the patient’s physiological response to pain using wearable\ntechnology. This project aims to measure physiological variables (e.g., heart rate, respiratory rate) using a small\nwearable device after surgery to create a pain biomarker that allows physicians to tailor pain medication to the\npatient’s pain intensity, potentially decreasing the amount of prescribed medication and the risk of misuse."
+ },
+ {
+  "id": "a3f93f20-0ee7-4927-916f-18a7a0b5a539",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of lipid metabolism in CD8+ T cell ferroptosis",
+  "text": "We will determine 1) how tumors and the tumor microenvironment accumulate fatty acids and use them\nto induce lipid peroxidation in tumor-infiltrating CD8+ TTE or TEM cells; 2) how lipid peroxidation induces\nCD8+ TTE or TEM cell ferroptosis and dysfunction in tumor beds, and 3) explore new methods to\ncounteract fatty acid effects and to restore T cell function in cancer patients. We hypothesize that\ninhibiting T cell ferroptosis will effectively enhance the therapeutic efficacy of immunotherapy in cancer\npatients. Completing this project will allow us and others to identify novel therapeutic targets and\ndevelop new methods to improve the efficacy of current cancer immunotherapies."
+ },
+ {
+  "id": "a3f9e6e9-46b3-4168-9db7-bd313cfb8ff6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A bioanalytical research program to unravel the human milk glycome",
+  "text": "Human milk oligosaccharides assist in promoting the healthy development of the brain, gut, and immune system\nof infants and are produced in an infant-specific manner where biological responses drive their structures.\nUnfortunately, existing analytical methodologies remain limited in fully separating all their isomeric permutations,\nthus precluding their accurate structural characterization. To address these challenges, we will develop a\nbioanalytical workflow consisting of a new multidimensional separations platform to be used in conjunction with\nthe development of chemical probes and gas-phase sequencing strategies."
+ },
+ {
+  "id": "a3fd815d-51a8-46a0-bafe-88d59184fe92",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identifying pre-sepsis opportunities for early, targeted intervention",
+  "text": "Sepsis kills 11 million people every year and early identification and treatment are the only known ways to\nimprove mortality. We currently focus on treating people once they get to the hospital or emergency\ndepartment, which is often too late. This study will evaluate opportunities to identify and triage patients who\nmay be at high-risk of sepsis before they get to the hospital."
+ },
+ {
+  "id": "a4002332-7a6a-43ca-acb8-2e40230d0f86",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Unraveling effects of gut and blood microbial signatures on immune phenotypes and organ dysfunction in sepsis",
+  "text": "Sepsis is the leading cause of death in the intensive care units (ICU) and represents a dysregulated host\nresponse to infection. The composition of the gut microbiota during sepsis and early in ICU course may\ninfluence acute immune responses and ability to defend against subsequent infection. This investigation will\nreveal how changes in the gut microbiota and their associated products that enter the blood influence immune\nactivation and exhaustion and organ dysfunction in acute and later stages of sepsis – findings that can inform\ndevelopment of urgently needed new therapies."
+ },
+ {
+  "id": "a403b43e-f8f0-49af-adde-d0c81252add1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Complementing broadly neutralizing antibodies and autologous responses to restrict virus escape and durably suppress HIV-1",
+  "text": "Project Narrative.\nVirus resistance remains the central vulnerability of effective bnAb use in HIV. This application proposes to\naddress the problem of bNAb resistance by rationally selecting combination bNAb therapy that limits virus\nescape. Our scientific premise is that in vivo mapping of virus escape from bNAbs, identification of\ncomplementary bNAbs, defining the role of autologous antibodies, and rigorous in vivo testing in an authentic\nNHP model will elucidate basic mechanisms of virus resistance to bNAbs and inform more effective use of\nbNAbs across the HIV prevention, treatment and cure fields."
+ },
+ {
+  "id": "a403c61e-306d-4bb8-867a-96e5668e47c1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Core B:  Clinical Phenotyping and Technology Core",
+  "text": "CORE B Lower respiratory tract infections cause 79% of deaths from infectious diseases in the United States. The international burden of pneumonia is even greater; pneumonia is the leading cause of death in resource- challenged countries and in the top 10 causes of death in the entire world. Viruses were increasingly recognized as a cause of community-acquired pneumonia (CAP), including in patients requiring mechanical ventilation or vasopressor therapy, even before the SARS-CoV-2 pandemic. The Core B will support testing the overall hypothesis of our PPG that the mortality and persistent organ failure in CAP, including influenza-, SARS-CoV-2, and other virus-induced CAP, represent a failure of resolution and lung repair. Mechanisms that underlie persistence of lung injury and progression of multiple organ dysfunction in the absence of pathogen persistence are incompletely understood, and all four projects in this proposal address this knowledge deficit with sophisticated animal models. The overarching goal of Core B is to validate findings from these murine models of influenza pneumonia in patients with severe CAP caused by viral pathogens and to provide support to all projects with statistical and bioinformatics analysis. Most CAP patients requiring mechanical ventilation (severe CAP) meet the definition of sepsis and the acute respiratory distress syndrome (ARDS). Recent data suggest that endotypes vary in sepsis and ARDS, with at least hypo- and hyper-inflammatory patterns, if not more. Unfortunately, most of these studies performed limited phenotyping of patients. In particular, discrimination between persistent infection versus persistent inflammation is not clear. For severe viral pneumonia, this includes not only viral clearance but assessment of the presence and clearance of bacterial superinfection. The major hypothesis of Core B is that human correlation of findings from murine influenza models requires careful and extensive clinical phenotyping. Core B will directly support the Specific Aims of each PPG Project with the following aims: Specific Aim 1. Provide bronchoalveolar lavage (BAL) fluid from mechanically ventilated patients with severe viral pneumonia due to influenza A virus or SARS-CoV-2. Specific Aim 2. Define the microbiologic milieu at each BAL sampling time point. Specific Aim 3. Apply robust clinical phenotypes and relevant clinical endpoints. Specific Aim 4. Provide statistical and bioinformatics support. Ultimately, the goal of this PPG is to define immune system pathways and mechanisms of failed resolution and repair following viral pneumonia that are amenable to therapeutic interventions. Core B is integral to supporting this goal by demonstrating strong clinical correlations to findings from the proposed murine models."
+ },
+ {
+  "id": "a40d4f40-2976-455d-8e65-a47b497f1819",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "First Aid Medicine to Treat Vesicant Induced Corneal Injury",
+  "text": "Chemical vesicant exposure poses a potential threat to our society. Currently, there are no effective\ncountermeasures to treat vesicant-induced corneal injury. This U01 aims to develop a novel protein therapeutic\nthat can be stockpiled and conveniently deployed to mitigate vesicant induced damages to the eye."
+ },
+ {
+  "id": "a40e1167-e611-4b47-bb4a-d26a5e247276",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Developing a Novel Analytical Toolbox to Tackle Multifaceted Statistical Challenges in Analyzing Post-Fracture Recovery Trajectories in Older Adults with ADRD",
+  "text": "This project aims to develop an innovative analytical toolbox designed to address multifaceted statistical\nchallenges inherent in the analysis of real-world data. Utilizing this toolbox to analyze Medicare data will yield\ninsights into the identification of high-risk subgroups and hospital-level factors partially driving poor post-\nfracture recovery trajectories for older adults living with ADRD. Consequently, these findings will enhance\npredictive capabilities for multivariate and multilevel outcomes, enabling the development of personalized\ncaregiving strategies for new patients."
+ },
+ {
+  "id": "a40e7692-a042-46b1-8186-f9519790fe03",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Designing biological light from scratch - a new paradigm for bioimaging and biosensing",
+  "text": "Bioluminescence technologies have emerged as a promising alternative to fluorescent proteins\nfor whole-animal imaging. However, the current availability of bioluminescent probes derived from\nnature is inadequate for universal biomedical applications. Here, we combine de novo protein\ndesign, synthetic chemistry, and deep learning to create a new form of biological light –\nneoluminescence, which will enable multiplexed bioimaging and practical diagnostics."
+ },
+ {
+  "id": "a41955ec-295c-4810-9ad4-77d49dced904",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "T’Cher, Take Charge: A Increasing PrEP Awareness, Uptake, and Adherence Through Health Care Empowerment and Addressing Social Drivers of Health in the Deep South",
+  "text": "Nearly half of high-risk populations in Louisiana are living with HIV and many face extreme social behavioral barriers creating risky environments and limiting access to life-saving HIV prevention. The proposed intervention is a combination of novel pilot components developed by experienced investigators to support PrEP awareness, uptake, and adherence in Louisiana. The proposed line of research has the potential to fill a large gap in PrEP interventions in U.S. Southern states where most new HIV cases occur and PrEP utilization is the lowest."
+ },
+ {
+  "id": "a4198be9-a1fe-4887-8348-91d347b3a2ff",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Next-Generation Native Ion Mobility-Mass Spectrometry Methods for the Characterization of Biotherapeutics",
+  "text": "Knowledge linking composition and structure in biopharmaceutical products is critical for our\nunderstanding of their efficacy and safety. Understanding how such drugs interact with their\ntargets to create therapeutically-relevant complexes has been a central goal in biomedical\nresearch and a host of structural biology and mass spectrometry methods have made great\nprogress in this endeavor, but we still lack sufficiently rapid and information rich technologies\ncapable of driving the discovery and development of next-generation biotherapeutics. Here, we\npropose to develop a suite of new, rapid native ion mobility-mass spectrometry strategies capable\nof simultaneously analyzing the sequences, modification status, higher order structures, and their\nassociated complexes using small amounts of unlabeled samples present within complex\nmixtures that remain difficult or impossible to analyze using classical structural biology probes."
+ },
+ {
+  "id": "a41af856-ef6c-4a71-bfe2-213936d4090e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating the role of endothelial cells in intestinal regeneration and disease",
+  "text": "Endothelial cells play a crucial role in supporting stem cell maintenance and regeneration in various tissues, yet\ntheir contribution in intestinal repair and regeneration remains poorly understood. The goal of this proposal is to\ninvestigate the function of blood endothelial cells and their secreted paracrine factors in intestinal repair, as well\nas to determine changes in blood endothelial cells in inflammatory bowel disease. Findings from these studies\nwill have the potential to help develop strategies for modulating the endothelial cell niche to restore intestinal\nfunction in the context of disease conditions."
+ }
+]

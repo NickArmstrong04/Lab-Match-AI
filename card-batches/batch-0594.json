@@ -1,0 +1,142 @@
+[
+ {
+  "id": "4716e87e-032f-4d91-8c85-fe66515cc7d3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Function of Ruvbl1-Ruvbl2 in dynein arm assembly in motile ciliated epithelial cells",
+  "text": "Cilia motility is essential for airway clearance and is powered by a large motor called the dynein arm. Defective\ndynein arm is responsible for primary ciliary dyskinesia (PCD), a genetic disease characterized by mucus\nimpaction, recurrent sinopulmonary infections and accelerated decline of lung function. This project focuses on\nan early step in building dynein arms and is highly relevant to PCD."
+ },
+ {
+  "id": "47174463-e3da-4bd5-8229-7aedea15dbef",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project I - Exploring use of Full Body Two-Dimensional Photography Combined with Artificial Intelligence to Triage Skin Lesions",
+  "text": "PROJECT SUMMARY – Project 1 Regardless of skin complexion, skin cancer remains the most commonly diagnosed cancer and the only cancer type where incidence rates are rising. More than 90% of melanomas can be visually diagnosed. However, melanoma diagnosis remains troublesome, as the current diagnostic criteria are subjective and imprecise. This poor diagnostic precision adds to the 1.6 billion dollars in annual therapeutic costs for melanoma. Artificial intelligence (AI) using computer vision (CV) and deep learning (DL) methods has been shown to increase diagnostic sensitivity (> 94%) and specificity (> 87%) for skin cancers. However, the adoption of AI systems to assist clinicians in diagnosing melanoma and other skin cancers is hindered by the lack of clarity on the decision-making processes used by AI models. This lack of explainability is a significant barrier to using AI models in diagnosing cancers. Additionally, most AI platforms have been trained and validated on predominately populations with different characteristics that found in Hawaii. The accuracy of AI diagnostic models on US populations with the characteristics of Hawaii residents is unknown. Our study will employ a concept bottleneck approach to develop an explainable AI (XAI) platform that leverages the standardized diagnostic criteria used by dermatologists—the Asymmetry, Border, Color, Differential Structures, and Evolution (ABCDE) rule—to assess lesions and determine malignancy probabilities. We will use lesion images gleaned from the International Skin Imaging Collaboration (ISIC) Challenge datasets. For Aim 1, this data will be scored by a dermatologist using the ABCDE rule to create a training and test data set for our XAI platform. For Aim 2, We will add similarly scored prospective image data from our 2D full-body (2D-TBSE) scans of patients at dermatology practices in Hawaii to obtain a representative cross-sectional sample with varying characteristics. We will then also assess the use of sequential lesion analysis to create from our 2D-TBSE to determine the image and behavioral characteristics that help distinguish benign and malignant skin lesions. For Aim 3, we will compare the accuracy of our XAI platform against and with state-of-the-art academic and commercially-based AI platforms. Our central hypothesis is that incorporating an XAI platform trained and validated using the ABCDE rule with images with varying qualities will improve the accuracy of AI-supported skin cancer diagnosis in high-risk individuals."
+ },
+ {
+  "id": "472062a7-4b3e-4612-a7a8-05613336866f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Predicting Japanese Encephalitis Spillover Risk in the United States",
+  "text": "Globalization and temperature changes are two of the main drivers of pathogen emergence, and predicting the risk of pathogen emergence in new areas of high susceptibility is key to preparing for future public health crises. In the last decade large outbreaks of Japanese encephalitis virus(JEV) have occurred in the Western Pacific, yet the risk Japanese encephalitis poses to the rest of the globe has yet to be elucidated. I propose to build a mechanistic spillover model accounting for amplifying, vector, reservoir, and spillover hosts as well as the environment to predict areas at risk for JEV in the US."
+ },
+ {
+  "id": "4721692b-1e57-4885-aa99-f08dc2d36426",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Pathogenesis of Nerve Injury: Role of Tissue Inhibitor of Metalloproteinases-1",
+  "text": "Extremity trauma causing nerve injury accounts for the majority of combat wounds and results in chronic nerve\n(termed neuropathic) pain. Effective nerve repair is necessary to prevent the development of neuropathic pain.\nTissue inhibitor of metalloproteinase (TIMP) proteins control nerve regrowth and pain development and this\ncontrol point may be genetically and epigenetically linked to sex chromosomes."
+ },
+ {
+  "id": "47227865-1799-41b6-9c16-1bdbe0825e53",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Winship Cancer Institute Cancer Center Support Grant",
+  "text": "WINSHIP CANCER INSTITUTE OF EMORY UNIVERSITY CANCER CENTER SUPPORT GRANT As the only NCI-designated comprehensive cancer center in Georgia, Winship Cancer Institute of Emory University (Winship) serves as the primary institution for cancer care, research, training, and education for the state. Winship's mission is to discover cures for cancer and inspire hope. Research conducted by Winship has directly contributed to FDA approval of new anti-cancer agents, first-in-human clinical trials, and new national clinical trials. Winship aims to: (1) conduct transformative research; (2) accelerate the translation of Winship member discoveries; (3) reduce the burden of cancer in its catchment area; and (4) promote education, training, and mentorship."
+ },
+ {
+  "id": "473f8bd9-15c0-469f-88bd-3df72e038874",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project 2: Elucidating interactions between genetic and environmental drivers of prostate cancer disparities",
+  "text": "Prostate cancer is more common and tends to be more lethal in Black men compared to other groups. This study will investigate how external factors work together through observable biological changes in inflammation and immune pathways, to drive increased prostate cancer risk in specific populations. By combining cutting-edge genomic and molecular tools, we aim to better understand why these differences in outcomes exist and develop new ways to detect and treat aggressive prostate cancer earlier, improving outcomes for those at greatest risk."
+ },
+ {
+  "id": "474299ef-4259-4fe0-aebe-3612e3a524f0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A Multi-Faceted Quantification of Myelin Dysregulation in AD and Links to Amyloid and Tau",
+  "text": "Myelin, the insulating structure around neuronal axons (consisting of 75% lipids/25% proteins) that makes up\n~30% of our brain and is crucial for forming and preserving memories, is degenerated and possibly plays an\nimportant role in Alzheimer’s disease (AD), but its extent of degeneration and its interactions with known\ndisease pathologies have not been quantified. We propose to use our novel synchrotron imaging to produce\n3D myelin maps and quantify myelin degeneration in subregions of the hippocampus, the brain’s central\nmemory-processing area, and complement that with cutting-edge ex vivo and in vivo spatially-resolved\nmolecular analyses, to quantify and precisely map how myelin interacts with other known abnormal processes\nin AD, including protein accumulation and inflammation. Performing such analysis in human brain specimens\nand in living AD patients, we aim to fill a knowledge gap about myelin’s degeneration, relationship with\nimportant pathology markers in the AD brain, and known lipid and protein dysregulation in AD, paving the way\nto a detailed understanding of the involvement of this important component of the brain in the disease."
+ },
+ {
+  "id": "47450bfb-4fe9-4fb2-a445-d8364329190e",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Renewal of the Human Islet Research Enhancement Center (HIREC) for the Type-1-Diabetes-Focused Human Islet Research Network (HIRN).",
+  "text": "The scale and scope of scientific collaborations in the Human Islet Research Network (HIRN)\nbring together extraordinary resources to solve complex problems in type 1 diabetes (T1D). To\ncapitalize on this initiative, extensive efforts are required to coordinate, communicate, and\ncatalyze research effectively. This proposal to renew the Human Islet Research Enhancement\nCenter (HIREC) provides the infrastructure and environment needed to accelerate progress and\nsuccess in HIRN, transforming discoveries into strategies that prevent and/or treat T1D."
+ },
+ {
+  "id": "474cd509-2cc3-456d-97c3-9e271df18c54",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Swine Somatic Cell Gene Editing Testing Center (Targeted Challenge)",
+  "text": "TESTING SECTION\nThe Swine Testing Center will be responsible for delivering CRISPR/Cas9 gene editing ribonucleoprotein\ncomplexes to pigs to perform direct comparisons between multiple formulations submitted to the ‘Targeted\nChallenge’ to assess their editing efficiency relative to one another. Each formulation will be administered to\nfluorescent reporter pigs. The detection of editing activity and transduction efficiency will be evaluated by\nusing detailed standard operating procedures (SOPs) and comprehensive reports will be assembled and\nsubmitted to the Targeted Challenge administrative group for scoring and identification of the best tested\nformulation."
+ },
+ {
+  "id": "474f1a2c-eeed-421c-a087-2b5db86ea57c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Tackling Multifaceted Drug Design Problems with Lambda Dynamics Based Technologies",
+  "text": "This research proposal focuses on the development and application of state-of-the-art lambda dynamics free\nenergy simulations to provide atomistic insights into the mechanisms and thermodynamics of protein–ligand drug\nresistance and protein–protein binding. This information will be used to guide the discovery and design of novel\nsmall molecule and protein therapeutics to address a variety of infectious and proliferative diseases. Algorithms\nfrom the field of artificial intelligence will also be investigated in tandem with lambda dynamics calculations to\nautomate preclinical lead optimization."
+ },
+ {
+  "id": "47557876-5f26-44d7-9a55-e0cd80eaa8d4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Boosting safety sensitivity and cross-HLA applications of PC-CARs for broad patient coverage",
+  "text": "Immunotherapies have demonstrated the power of the immune system to eliminate aggressive tumors, yet most\ncancer patients still lack effective treatments as current immunotherapies cannot potently and specifically direct\nthe immune response to solid tumors that arise from essential tissues. Building on our experience in pioneering\nthe first generation of peptide-centric CAR T cells – now showing early activity in an ongoing Phase I trial – we\nhave developed an ultra-selective, highly sensitive next-generation PC-CAR capable of targeting low levels of\nthe widely expressed tumor antigen PRAME, expanding efficacy to large portions of the patient population with\nminimal PRAME expression. We will optimize our PC-CAR construct that has already demonstrated potent killing\nacross eight cancer types, engineering these CARs into allogeneic γδ T cells, with the aim of delivering an off-\nthe-shelf treatment capable of potentially benefiting over 200,000 patients annually and dramatically broadening\naccess to life-saving cellular immunotherapy."
+ },
+ {
+  "id": "4758b183-5ffb-4a94-8ffe-fb260a978075",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Tracking the Development of Alcohol Tolerance from the Onset of Regular Drinking",
+  "text": "This project aims to test the hypothesis that individuals who more quickly develop tolerance to alcohol-related\nstimulation, tension-reduction, sedation, and hangover are at higher risk for problematic alcohol use. This project\nwill also examine factors that heighten risk for quickly developing tolerance to these different alcohol effects.\nFindings could identify a novel risk factor for problematic alcohol use, which could lead to new treatment targets,\netiologic insights, and prevention strategies."
+ },
+ {
+  "id": "475c09ac-1a81-4138-9739-15e75e2d2f30",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Fusion inhibitors that block host-to-host transmission of SARS-CoV-2",
+  "text": "The recent and ongoing outbreak of SARS-CoV-2 highlights the need for a streamlined approach to develop\neffective antivirals; there are no vaccines or approved antivirals. We propose to apply our established\nstrategies for developing viral-entry preventing peptides to develop SARS-CoV-2 peptide antivirals based on\nviral genetic information; based on our previous findings we have high confidence that we can provide effective\nCOVID-19 prophylaxis using fusion inhibitors. We will also assess the potential of our antivirals to block host-\nto-host transmission."
+ },
+ {
+  "id": "476238c2-d096-41f4-ae23-6c9f82370a19",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Tissue Structural and Neural Remodeling in Human Sacroiliac Joint",
+  "text": "Low back pain (LBP) is the leading cause of disability worldwide, affecting approximately 52 million Americans and resulting in over $12 billion in annual direct healthcare costs. Among these cases, up to 30% are attributed to the sacroiliac joint (SIJ), the frequently overlooked yet biomechanically critical structure that facilitates load transfer between the upper body and the lower extremities. Despite its clinical significance, the pathophysiology and pain mechanisms of SIJ remain poorly understood, limiting the accuracy of diagnosis and the efficacy of treatment strategies. A key challenge lies in the discordance between clinical symptoms and radiographic findings, which complicates the identification of SIJ as the primary pain generator. Additionally, surgical interventions targeting the spine, including lumbar fusion, have been associated with the onset or exacerbation of SIJ pain and degenerative changes, underscoring the importance of biomechanical factors in the development and persistence of SIJ pain. These observations highlight the urgent need for a more comprehensive understanding of the relationship between SIJ biomechanics and nociception, which is essential for advancing both diagnostic accuracy and therapeutic outcomes. Fibrous ligaments are critical for maintaining SIJ stability. Both clinical and in vitro studies have implied that they are potential pain-generation structures. However, their microscopic tissue structure, biochemical composition, and mechanical properties remain poorly characterized, limiting our ability to accurately model joint biomechanics. Moreover, SIJ ligaments are innervated structure but the spatiotemporal organization of these neural elements within the ligament 3D matrix remains poorly defined, hindering efforts to localize the precise origins of nociception and pain. Furthermore, how the structure and innervation of these ligaments remodel in pathological conditions remains largely unexplored. This proposed study aims to address these key knowledge gaps by quantitatively determining the ligament mechanical and neural properties and developing an integrated computational model to build the direct connection between SIJ biomechanics and pain. The central hypothesis is that PSIL structural and neural remodeling alter joint mechanics and contribute to pain. The long-term goal is to elucidate the SIJ disease mechanism by establishing the quantitative relationship between joint structure, function, and pain, and to develop novel treatments to simultaneously alleviate the pain and mitigate joint degeneration."
+ },
+ {
+  "id": "4764b7e2-9fee-45bf-9ef3-c99ad5e076b0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Rapid protein translation in nucleus accumbens neurons in response to a cocaine-associated cue",
+  "text": "Cues associated with drugs of abuse are powerful triggers for craving and relapse, and this cue-induced craving\nintensifies or incubates with increasing duration of abstinence in rats and humans. In rat nucleus accumbens,\nmedium spiny neurons undergo protein translation-dependent plasticity during abstinence, and presentation of\ncocaine-associated cues elicits additional rapid, transient plasticity that is necessary for expression of incubated\ncraving. This exploratory grant will identify mRNAs that are actively translated in nucleus accumbens neurons in\nresponse to cocaine cue re-exposure to gain insight into mechanisms driving incubated cocaine craving."
+ },
+ {
+  "id": "476afeda-46d5-462c-a10d-57029d25a3aa",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "PGC1alpha Pathway: Novel Intracellular and Extracellular Mediators",
+  "text": "The PGC1a pathway is critical for the regulation of mitochondrial biogenesis and oxidative metabolism. In this\nproposal we suggest experiments exploring the translation of the PGC1a mRNA and the development of new\nmethods for the identification of secreted factors regulated by PGC1a. Together, these studies may provide the\nmeans for therapeutic intervention in obesity, diabetes, neuromuscular diseases and other important human\ndisorders."
+ },
+ {
+  "id": "47711bce-20a1-4498-9285-b6c4b03c837f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "STAG2 modulates environmental toxicant exposures and epigenomic heterogeneity",
+  "text": "Environmental toxicant exposures play a key role in the regulation of the epigenome, but the\nmechanisms remain unclear. In this proposal, we hypothesize that toxicant induced replication stress, paired\nwith defective repair due to STAG2 loss, drives pre-malignant cell evolution and creates a permissive\nepigenome for transformation. This proposal is focused on understanding the molecular mechanisms by which\n2,3,7,8-tetrachlorodibenzo-p-dioxin (TCDD), alone or in combination with 2,4-dichlorophenoxyacetic acid (2,4-\nD) and 2,4,5-trichlorophenoxyacetic acid (2,4,5-T) affect the replication stress response (RSR) and contribute\nto genetic and epigenetic heterogeneity in these tumors."
+ },
+ {
+  "id": "478139ea-608c-42a9-a520-59dfb5244364",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Neural correlates of binaural spectral and temporal fusion",
+  "text": "The proposed research will increase our understanding of binaural fusion, the process by which information\nabout sounds reaching the two ears is perceptually grouped in the brain. Patients with hearing loss experience\nabnormal fusion, where two different sound sources are often misperceived as a single sound. The results will\nguide future rehabilitation approaches that reduce problems with abnormal fusion and maximize the benefits of\nbilateral hearing devices for speech perception in quiet and in noise."
+ },
+ {
+  "id": "4781e57e-ea99-4488-861a-b81cde1135f4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "TRD2: Mapping of Molecular and Physiological Tissue Properties at UHF",
+  "text": "ABSTRACT – TRD2 Magnetic resonance imaging and spectroscopy are valuable modalities providing unique information for the molecular and physiological characterization of tissue. The breadth of both endogenous and exogenous molecular imaging contrasts in combination with high resolution functional and anatomic imaging motivate the continued development of the methods, their biomedical applications and clinical translation. The potential to improve MRI sensitivity to markers of molecular dynamics, metabolism, energetics, and critical processes continue to drive the development of MRI methods to higher and higher magnetic fields. The 10.5T whole-body MRI systems in our lab offers a comprehensive imaging platform to provide unprecedented access to molecular and functional information non-invasively. It has been shown that sensitivity, as measured by the signal-to-noise ratio (SNR), scales supralinearly with the static field strength which can be leveraged to increase spatial and/or temporal resolution. To realize these potential gains the need remains for continued innovation with respect to acquisition methods, MRI contrasts, RF management strategies, novel RF hardware, and state of the art reconstruction and quantification approaches. To address this need, the overall goal of this project is to develop novel technologies for ultra-high field applications, with a specific focus on selected methods that will have the greatest impact on the field and advance developments made in the first phase of this NCBIB. To accomplish this goal, we will focus on four areas. First, we will integrate dual-tuned RF coils in a parallel transmit (pTx) enabled multinuclear platform and exploit its functionality through introducing novel RF optimization and acquisition strategies. Second, we will introduce novel rotating frame relaxation (RFR) relaxation metrics and the strategies that allow us to conduct these experiments at UHF. Third, we will develop strategies for obtaining high resolution arterial spin labeling as a biomarker of angiogenesis and an important parameter towards deciphering the neurovascular coupling occurring during brain activation. Fourth, we will explore new post processing methods that work synergistically with UHF to provide minimally biased estimates of quantitative parameters for domain specific applications in the presence of increasing amounts of noise as we push temporal and spatial resolutions. Achieving these aims will advance access to molecular and physiological parameters to characterize tissue, support biomedical research and impact our understanding of the living system in health and disease. The challenges addressed in this project are relevant for all UHF systems including 7T which recently received clinical approval. As such, the impact of the proposed technologies extends well beyond 10.5T."
+ },
+ {
+  "id": "478a7c20-95e0-4a19-ada4-6b78b358eb65",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Continuous Glucose and Fetal State Monitoring: A Novel Approach to Understanding Neurodevelopmental Trajectories in Gestational Diabetes",
+  "text": "Exposure to gestational diabetes is closely associated with adverse neurodevelopmental outcomes, yet our\nunderstanding of the underlying mechanisms and their role in shaping perinatal trajectories remains limited,\nlargely due to the inherent inaccessibility of the fetus. This project leverages wearable technologies to examine\nhow fluctuations in maternal glucose affect fetal behavioral states and autonomic regulation during pregnancy,\nwhile the fetus is exposed to altered metabolic conditions. By understanding how metabolic exposures shape\nfetal development, this research has the potential to inform public health strategies to identify and address\nneurodevelopmental vulnerabilities before birth."
+ }
+]

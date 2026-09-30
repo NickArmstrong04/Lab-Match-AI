@@ -1,0 +1,142 @@
+[
+ {
+  "id": "6dde7529-7f32-47d1-a519-46a4f6321f9c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Elucidating the FOXF1 gene regulatory network in human alveologenesis",
+  "text": "(PROJECT NARRATIVE)\nMutations in the FOXF1 gene locus are associated with alveolar-capillary dysplasia with misalignment of\npulmonary veins, a lethal lung developmental disorder with no cure. This project aims to uncover the molecular\nmechanism underlying FOXF1-mediated abnormalities in alveolar endothelial cell subtypes, and the disrupted\nendothelial-epithelial interactions during lung development. If successful, the proposed studies will uncover the\nFOXF gene regulatory network in human lung, and provide new therapeutic targets to re-establish normal\nalveolar-capillary interface in various lung developmental disorders."
+ },
+ {
+  "id": "6dee8a73-30c0-4d6f-b325-d327f524b08c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The path to the parous brain: allopregnanolone-mediated mechanisms at GABAA receptors.",
+  "text": "Pregnancy is characterized by marked changes in circulating hormones that can induce long-lasting changes in\nthe brain. The goal of this project is to determine how the hormone allopregnanolone may induce a robust neural\ninhibition in the medial prefrontal cortex during pregnancy, resulting in over-compensatory actions that persist\nwell after birth. Our work will provide much-needed insight into the development of the brain post-pregnancy."
+ },
+ {
+  "id": "6dfa2274-c07a-4d00-9f34-7ed9a696ac66",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "High accuracy automated tick classification using computer vision",
+  "text": "Project Narrative. Current tick identification methods are highly resource and labor intensive, requiring\nphysical collection of specimens and subsequent identification of species, sex, life stage, and\nengorgement by an acarologist based on visual morphological inspection. Here we propose to advance a\nprototype deep learning system capable of instantaneously and accurately identifying twelve\nmedically-relevant adult tick species with 98% accuracy for practical deployment in professional public\nhealth and the general public. The resulting products developed through this proposal will ultimately\nexpand tick surveillance capability and capacity, and strengthen public health response to tick-borne\ndiseases."
+ },
+ {
+  "id": "6dfff78e-9cb7-4ad8-bf01-a79a96d105f6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Enabling Focused Ultrasound-Activated Gene Editing with Thermo-Controlled CRISPR-Cas9",
+  "text": "CRISPR-based medicines have the potential to address many genetic diseases, which remain\notherwise incurable, by editing the human genome. However, two of the greatest barriers to broad clinical\napplication of CRISPR therapeutics are delivery to specific tissues and organs in the human body and the\npotential for editing in the wrong places, known as off-target editing. To potentially address these\nsignificant challenges, we propose to build and test CRISPR enzymes that can respond to a narrow\ntemperature range safe for the body that can eventually be combined with focused ultrasound, enabling\nfuture therapeutic gene editing technologies that can be activated and controlled non-invasively."
+ },
+ {
+  "id": "6e00e02c-6062-496c-baf6-be45d2dc7b78",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Image-guided robotic assistance to improve precision and reduce x-ray dose in orthopedic surgery for pediatric SCFE",
+  "text": "Placement of orthopaedic implants, such as a K-wires and screws, is a common surgical task,\nand accurate placement is critical to the success of a wide range of orthopaedic procedures.\nHowever, the rate of screw misplacement is highly variable which can lead to poor outcomes. In\nthis proposal we will develop and evaluate a system that should improve the surgeon’s ability to\naccurately place the screw while minimizing radiation dose to the patient and surgeon."
+ },
+ {
+  "id": "6e04207f-4408-4dfb-bc80-8269ae306979",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting Undruggable SMAD4 HyperPPI with Myhre iPSC Biosensors and Organoids",
+  "text": "NARATIVE\nMyhre Syndrome is a rare genetic disorder that causes severe fibrosis, heart disease, and vascular problems,\nfor which there are currently no effective treatments. This project will use patient-derived stem cells and 3D\ncardiac organoids to model how a mutation in the driver SMAD4 gene disrupts key protein interactions and drives\ndisease. By developing new tools to study and eventually target these “undruggable” protein interactions, this\nwork will lay the foundation for therapies to improve the health of individuals with Myhre Syndrome and related\nconditions."
+ },
+ {
+  "id": "6e11f448-6683-4168-bc1a-b1c82bb3cbf6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular Mechanisms Underlying Endothelial Weibel-Palade Body Biogenesis and Exocytosis",
+  "text": "von Willebrand factor (vWF) is essential for normal hemostasis and thrombosis and is involved in other\nimportant processes such as angiogenesis and cancer cell metastasis. Regulated release of vWF depends on\nnormal maturation of its storage granule, the Weibel-Palade bodies (WPBs), and subsequent fusion of WPBs\nto the plasma membrane, processes which are poorly understood. Using live cell microscopy, pulldown of\nendogenously tagged proteins, and a genetically modified mouse model, we propose to elucidate the\nendosomal pathway in WPB biogenesis, the associated trafficking machinery, and regulation of WPB\nexocytosis by the exocyst complex."
+ },
+ {
+  "id": "6e13a983-61d8-418a-be7d-381ac6a84387",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "iPSC Processing Core",
+  "text": "(CORE B - iPSC Biobank Core): The Core B serves as a critical pillar in the collective efforts of this Program Project. Its central mission is to support and empower all projects and cores by providing essential resources, infrastructure, and expertise focused on induced pluripotent stem cells (iPSCs) and their pivotal role in unraveling the intricacies of cardiotoxicity associated with cancer therapeutics."
+ },
+ {
+  "id": "6e15de95-8ff2-4517-a319-958a9e196d7d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Designing a targeted 'super adjuvant' nanoparticle platform for vaccination",
+  "text": "In complex diseases like cancer, a single-adjuvant vaccine may not be fully effective to mitigate the myriad\nimmunosuppressive effects of a heterogeneous aggressive tumor microenvironment such as that of triple-\nnegative breast cancer. Co-delivery of multiple adjuvants in a rationally designed “super adjuvant” formulation\ncan harness multiple pattern recognition receptor pathways simultaneously to drive a proinflammatory\nsynergistic cytokine response that has both breadth and depth. Here we propose to design a tumor-targeted\n“super adjuvant” immunomodulatory nanoparticle platform for in situ cancer vaccination that coencapsulates 3\nsynergistic innate agonists of the STING, TLR4, and TLR9 pathways to promote Type I interferon-mediated\nanti-tumor immunity."
+ },
+ {
+  "id": "6e16072e-1317-4b7d-be78-3c548df11644",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Developing a cCRE-Centric Infrastructure in AnVIL to Characterize Variant Effects on Gene Regulation",
+  "text": "Understanding how genetic variation influences gene regulation is essential for uncovering the biological\nmechanisms underlying human health and disease. This project will develop scalable computational tools to\nstudy how noncoding genetic variants impact transcriptional regulation at the single-cell and isoform levels,\nadvancing our ability to interpret genetic disease risk factors. By integrating large-scale genomic data into the\nAnVIL cloud platform, this work will create widely accessible resources that enhance genetic research and\ncontribute to the understanding of regulatory mechanisms driving human diseases."
+ },
+ {
+  "id": "6e16fe73-f36d-4c96-aadc-5cc2831fcb9f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multi-omics Strategies to Improve Clinical Outcomes in Uveitis",
+  "text": "Uveitis is a significant cause of blindness globally and there are many challenges to diagnose infectious\netiologies due to the insensitivity of diagnostic testing and limited sample volumes from the intraocular space.\nThis proposal leverages international collaborators and recent technological advancements in deep\nsequencing and mass spectrometry to identify pathogens causing uveitis and characterize the host\ntranscriptome in intraocular fluid and interrogate the tears for proteome and metabolite profiles. This study will\nprovide a comprehensive molecular approach to improve the diagnosis of uveitis and deepen our\nunderstanding of the host response to improve the characterization of infectious uveitis syndromes through\npathogen discovery and contribute to future risk stratification, individualized treatment, and biomarker\nidentification in uveitis."
+ },
+ {
+  "id": "6e1968c9-ae59-4c6e-adbc-968f49f5c88a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting base damage repair in BRCA-mutant cancers",
+  "text": "Mutations in DNA repair genes called BRCA1 and 2 increase pre-disposition to multiple cancers. Currently\nBRCA mutant cancer cells are treated with inhibitors of Poly (ADP-ribose) polymerase (PARP) enzymes;\nhowever, this treatment strategy has multiple limitations. In this proposal, we will develop a framework to\novercome the clinical limitations of PARP inhibitors and hence provide an effective strategy for the treatment\nof BRCA mutant cancers."
+ },
+ {
+  "id": "6e1c342a-46c4-48a4-aa5c-6c67def09818",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dynamic Cognitive Phenotypes for Prediction of Mental Health Outcomes in Serious Mental Illness",
+  "text": "The proposed project will develop and validate methods to quantify fluctuations in cognitive information\nprocessing for clinical prediction models to (1) identify at-risk individuals, and (2) identify risk periods, enabling\ntimely interventions to improve time to recovery, prevent symptom escalation, and reduce hospitalizations.\nFurther, we will validate our assessment tools and prediction models in ethnoracially diverse communities to\nensure generalizability and improve mental health equity."
+ },
+ {
+  "id": "6e214f68-7508-4e5c-91b2-e2464d5aa854",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Single-cell Joint Profiling of Single- and Double-Stranded DNA Breaks with Transcriptome",
+  "text": "Defects in DNA repair pathways promote cancer progression but also presents a therapeutic opportunity.\nHowever, analyzing DNA damage and its influence on gene programs in heterogeneous cancer samples\nremained challenging. To fill this technical gap, we will develop a multimodal single-cell technique to sequence\nsingle-strand-, double-strand- DNA breaks with transcriptome."
+ },
+ {
+  "id": "6e2aa7a1-078d-40a0-967a-b9cad61b43dd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Functional and Radiomic Magnetic Resonance Profiling in Normal and Hypertensive Placentas",
+  "text": "Pregnant women with chronic hypertension are at an increased risk for placental-mediated disease, as 1 in 3\npregnant women with chronic hypertension deliver preterm from complications of superimposed preeclampsia\nor fetal growth restriction. This project will address the unmet clinical need to characterize placental\ndysfunction throughout pregnancy, focusing specifically on differences in functional magnetic resonance\nimaging metrics of perfusion, diffusion, and oxygenation and radiomics texture features between normal\npregnant women and pregnant women with chronic hypertension. Furthermore, execution of automated\nsegmentation through deep learning will be performed to standardize and improve the efficiency of post-\nprocessing."
+ },
+ {
+  "id": "6e2b0670-40ea-4609-b4a8-7310fe5932f7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Shared Journeys of Firearm Violence Survivors and Their Caregivers",
+  "text": "Firearm violence is a public health crisis in the U.S., with survivors facing lasting physical and mental health\nchallenges. Many survivors do not engage with formal support services (e.g., violence intervention programs,\nmental health counseling) due to distrust and stigma as well as a preference for receiving support from informal\ncaregivers, often family or friends. The proposed training project will examine the recovery experiences of\nsurvivors and their caregivers to identify barriers, facilitators, and relationship dynamics, potentially informing\nfuture interventions that improve engagement and support for both groups."
+ },
+ {
+  "id": "6e2b25f3-52e9-42a0-8eae-6f8a40fd6809",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Virtual Twin-Powered Rapid Development of Bioactive Multifunctional Dental Restoratives",
+  "text": "This project aims to develop a streamlined platform for the fast development of an innovative\nsystem of bioactive dental restoratives that is characterized by its self-healing and dynamic capabilities that\nmay be tailored to individual patient needs. Employing hybrid modeling and simulation approaches, we will\nrefine the formulation and guide the precise placement of restorative materials for effective caries treatment."
+ },
+ {
+  "id": "6e2dfcb8-a5c9-49cc-96a6-8249b1d4240a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identifying Recovery Insights through Signal Extraction (iRISE): Leveraging Machine Learning Strategies to Predict Disengagement from Recovery Communities",
+  "text": "This project is relevant to public health because recovery communities for addiction support and long-term\nrecovery from substance use have migrated toward digital spaces. While multiple frameworks exist to predict\nrecovery maintenance within in-person recovery communities, we lack digital analogs that can effectively identify\nwaning recovery to promote timely encouragement and additional support if needed. Using data science to track\nthe language, emotions, and behaviors extracted from a recovery community mobile app, we can produce a\nscalable tool as an analog of recovery maintenance; this tool is a first step in a comprehensive plan to develop\nsolutions to digital recovery maintenance."
+ },
+ {
+  "id": "6e2fc367-0d8a-417e-b63c-f004c9832f12",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of tRNA- and rRNA-derived RNAs in acute lung injury",
+  "text": "Acute lung injury (ALI) is a clinical syndrome of acute respiratory failure with high morbidity and mortality, and is\nassociated with an uncontrolled inflammatory response due to excessive production of cytokines and other\ninflammatory mediators. We recently discovered a significant upregulation of specific tRNA- and rRNA-derived\nshort non-coding RNAs (sncRNAs) in a Lipopolysaccharide-induced ALI model. Our project aims to\ncomprehensively investigate the dysregulation of these sncRNAs in human and mouse ALI models and to\nelucidate their role in cytokine overproduction and immune cell infiltration, thus contributing to a deeper\nunderstanding of the molecular pathogenesis of ALI."
+ },
+ {
+  "id": "6e3bbd5c-190b-41f6-b78f-a8311ef8ef4e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating the mechanisms of driver genes associated with ancestry and aggressiveness in prostate cancer",
+  "text": "We will perform whole exome sequencing (WES) of prostate cancers from AA men to find additional molecular\nalterations associated with aggressiveness in African American (AA) men. We will also apply single-cell RNA-\nseq and mass spectrometry to prostate organoid cultures to characterize differences in the cellular states\nbetween ancestral backgrounds. Finally, we will validate the functional effects of ancestry- and grade-associated\ndriver alterations in different ancestral backgrounds using novel prostate cell lines derived directly from patients."
+ }
+]

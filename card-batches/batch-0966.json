@@ -1,0 +1,142 @@
+[
+ {
+  "id": "cc1706c8-1d35-44ed-8b26-e3ba169f2f33",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Synaptic Dysfunction and Energy Failure in Parkinson's Disease",
+  "text": "Neurons are heavily depending on mitochondrial trafficking for their survival and functions including synaptic\nneurotransmission. In this study, we plan to determine whether pathogenic LRRK2 mutations affect\nmitochondrial trafficking and dynamics in dopaminergic neurons and the underlying mechanisms in pre-clinical\nmouse models of Parkinson’s disease. These findings will help to develop early therapies for preventing and/or\ndelaying onset of symptoms."
+ },
+ {
+  "id": "cc1990c6-97ec-422a-b11f-76c017eaafb4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Promoting the Aortic Healing Response: A Novel Strategy to Stabilize the Aortic Wall and Prevent Dissection and Rupture",
+  "text": "The proposed research is relevant to public health because ascending thoracic aortic aneurysms and\ndissections are frequent causes of death in the United States, largely because current medications are\nineffective. This project is relevant to the NHLBI’s mission because it focuses on the treatment and prevention\nof life-threating cardiovascular disease; the development of new, effective medications would prevent the\nprogression of aortic disease and save the lives of patients with these conditions."
+ },
+ {
+  "id": "cc1b824a-1464-4285-90ed-778dba9879a8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Explore the role of hepatocyte inflammasome in alcoholic liver disease",
+  "text": "Alcohol Associated Liver Disease (AALD) is the primary cause of liver related deaths in USA.\nHepatocyte express all the components of inflammasome, but we don't know their role in this very\nabundant and important liver cell type. We have seen exacerbation of the disease upon Caspase-\n1 deletion in hepatocytes. We are proposing to explore in which step of alcohol metabolism and\nits's subsequent lipid accumulation and toxicity, the hepatocyte inflammasome molecules are\ninvolved."
+ },
+ {
+  "id": "cc1e279f-6324-489a-8234-f9cd22d4ead2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Empowering NMR Utilization in Mechanistic Biology: Extending Size Limits and Catalyzing Automation",
+  "text": "Nuclear Magnetic Resonance (NMR) provides unparalleled insights into the structures, dynamics, and\ninteractions of proteins at atomic resolution, enhancing structural data from prediction programs by validating\nstructures and revealing dynamic states and allosteric mechanisms. However, NMR's utility is limited by the need\nfor specialized knowledge, extensive time commitments for both measurement and analysis, and restrictions on\nthe size of observable systems. This research proposal aims to expand the capabilities of NMR technology by\nincreasing the size limits of observable systems, enhancing sensitivity, automating data acquisition, and\nintegrating these advancements to streamline workflows and democratize accessibility."
+ },
+ {
+  "id": "cc23ff25-f436-4e3e-9db2-2ea8d486e0a1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Pseudouridine detection with single-base resolution in a multiplexed epitranscriptomics assay",
+  "text": "Alida Biosciences is developing a commercial platform that enables researchers to read the epitranscriptomic\ncode, a crucial layer of biological regulation governing genetic expression in cells, both in health and disease.\nThis project focuses on the development of a commercial assay that enables simultaneous detection and relative\nquantification of the three most prevalent RNA modifications in mRNA, N6-methyladenosine (m6A), inosine (I),\nand pseudouridine (Ψ). This assay, EpiPlex v2, will enable any researchers doing RNA sequencing to advance\nour understanding of disease progression, identify new types of diagnostic biomarkers, and accelerate drug\ndevelopment."
+ },
+ {
+  "id": "cc288800-8395-4d7d-835b-71c3915c0caf",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Last Mile of Interoperability: Integrating Outside Data Into Clinical Workflows to Improve Care",
+  "text": "Seamless data interoperability holds immense promise to drive down health care costs, reduce utilization, and\nimprove health outcomes and patient satisfaction, however, evidence on the impact of interoperability has\nbeen mixed. Our study will investigate this by using novel electronic health record (EHR) metadata that directly\nobserves when clinicians view outside records data (ORD) generated from institutions outside their own and a\nrobust analytic approach that combines causal inference econometrics with new machine learning methods,\nwe will identify the value of ORD review across a range of utilization, quality, and patient satisfaction outcomes,\nand assess variation in that impact across clinical scenarios. We will then produce several open-source public\ngoods in the form of computable clinical phenotypes and a prompt engineering framework to guide the\ndevelopment and evaluation of new artificial intelligence tools seeking to streamline how clinicians consume\ninformation from the EHR."
+ },
+ {
+  "id": "cc359bb2-7ba7-49ac-8721-30161451c7a2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of RNA localization and translational regulation on the endoplasmic reticulum",
+  "text": "Mammalian cells transport mRNAs, which encode the information for the\nsynthesis of proteins, to specific locations in the cell, so that proteins are made in their appropriate location.\nThis RNA localization process is critical to early development, learning and memory. At the level of the\nindividual cell, RNA localization is critical for cellular organization as well as the proper synthesis and secretion\nof hormones as well the cell surface localization of proteins functioning in signaling and cell-cell\ncommunication. The findings from this study are expected to reveal new mechanisms of RNA localization and\nidentify RNA localization pathways that may be dysregulated in diseases of development, metabolism, and\naging."
+ },
+ {
+  "id": "cc35e4a6-9674-4b10-9af9-ec5d39b6efc6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Quantitative staging of early radiation-induced lung injury using multimodal imaging",
+  "text": "This study will focus on developing and implementing a multi-modal imaging approach for\nassessing and staging radiation-induced lung injury (RILI) as well as comparing the safety and\nefficacy of both conventional radiation therapy (RT) and FLASH RT, a recently developed\napproach that delivers ultra-high dose radiation in extremely short bursts. We will begin by\nimplementing an optimized technique for rapid lung function mapping using HXe MRI, after which\nwe will determine the feasibility of using combined HXe MRI and microCT metrics to quantitatively\nstage RILI. Finally, we will investigate the differential protective effects of FLASH versus\nconventional proton RT—particularly at higher radiation doses at which conventional RT is known\nto cause injury—with the ultimate goal of improving the clinical management of RILI."
+ },
+ {
+  "id": "cc40c4b3-3e77-4641-9949-b0fbba1ce889",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Functional Involvement of IntegrinB4/ITGB4 and Kindlin/FERMT2 in Focal Adhesion Dynamic Remodeling in ARDS",
+  "text": "The elevated ARDS mortality observed in the COVID-19 pandemic has highlighted the contribution of excessive mechanical stress produced by mechanical ventilation in promoting lethal increases in lung vascular permea- bility. Integrin β4 (ITGB4 gene) and kindlin-2 (FERMT2 gene) are essential adhesion molecules in endothelial cell (EC) focal adhesions (FAs), structures critical for mechano-sensing, for bidirectional signaling between the EC cytoskeleton and the cell-matrix interface, and for EC barrier regulation. The mechanistic basis for dy- namic FA coordination during inflammatory EC barrier dysfunction and subsequent barrier restoration is a fun- damental question that remains unresolved. We speculate that coordinate control of FA structures requires the dynamic interactions of integrin β4 (ITGB4) and kindlin-2 with key PPG cytoskeletal effectors (nmMLCK, cortactin, Dock1, lamellipodin, paxillin) to efficiently assemble functional FAs during EC barrier responses (pe- ripheral cytoskeletal remodeling, lamellipodial formation, gap closure). ITGB4 is a unique mechano-sensing, laminin-binding integrin, and kindlin-2 is a multi-domain mechano-sensing adapter FA protein that recruits struc- tural and signaling molecules to FAs in concert with cytoskeletal rearrangement. We speculate that these EC responses are highly influenced by ITGB4 and kindlin-2 post-translational modifications (PTMs) and coding pol- ymorphisms (SNPs). As reactive oxygen species (ROS) is an important stimulus for FA dynamics and loss of EC barrier integrity, with Core B, SA #1 will characterize the role of three ROS-sensing transcription factors (NRF2, HIF1α/HIF2α), ITGB4/FERMT2 SNPs and DNA methylation in genetic/epigenetic regulation of ITGB4/FERMT2 expression and the influence on generation of the unique ITGB4 alternatively-spliced, barrier- regulatory variant, Integrin β4E (ITGB4E), that we identified as involved in mechano-sensing and EC barrier regulation. With Core D, SA #2 will conduct in depth structure/function studies including 3D live cell imaging of mutant ITGB4 and kindlin-2 fusion proteins (SNPs, PTMs) to characterize ITGB4/kindlin-2 function in spatially- specific EC cytoskeletal rearrangements driving EC barrier-disruption and barrier-restoration. SA #3 will examine the functionality of ITGB4/kindlin-2 interactions within lamellipodia with known and novel FA-binding cytoskeletal partners, including cortactin, Dock1, lamellipodin and highly novel interactions with nmMLCK (Project #1). Finally, utilizing elegant rat and porcine models of LPS/VILI (Core C), SA #4 will assess the therapeutic utility of the SMURF inhibitor A01, or SRI-38832 to augment kindlin-2 expression as cargo in TySIPonate-conjugated liposomes (TySIPosomes, Project #4). Project #3 studies will determine the structure/function and molecular basis for the dynamic FA control by ITGB4 and kindlin-2 and yield important insights into functional relevance of this unique FA signaling axis in restoration of EC barrier function. Our highly translational approaches will also provide actionable EC barrier-regulatory strategies that restore the integrity of the injured pulmonary circulation while yielding insights into ITGB4/FERMT2 variant participation in ARDS health disparities."
+ },
+ {
+  "id": "cc4525d0-887b-47be-8c6d-75c4731d3d63",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Interrogating the Role of Nuclear Heparan Sulfates in Hematopoietic Cells",
+  "text": "Hematopoietic stem and progenitor cells (HSPCs) sustain life-long production of blood cells by balancing self-\nrenewal and multi-lineage differentiation, and are critically involved in a variety of physiological and\npathophysiological conditions and diseases of the blood system. This project aims to define nuclear heparan-\nsulfated (HS) proteins and investigate their role as non-genetic regulators in this important process. We will\nleverage re-engineered scFv anti-HS antibodies to characterize nuclear HS proteins and assess their functional\nsignificance through in vitro and in vivo assays."
+ },
+ {
+  "id": "cc45b793-54e8-4aad-a661-e4a87253071e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Stem Cell-Based Models for Elucidating Human Adrenocortical Development and Dysfunction",
+  "text": "The adrenal cortex is the major source of steroid hormones that drive a variety of critical physiologic\nfunctions. However, the molecular mechanisms driving human adrenal cortex development and steroid\nbiosynthesis are poorly understood due to the paucity of appropriate model systems. Using our\ninnovative inducible pluripotent stem cell-derived human fetal adrenal organoid system, we will identify\ncellular and signaling mechanisms and gene regulatory networks orchestrating human adrenocortical\ndevelopment and steroid biosynthesis to provide key insight into the pathophysiology of primary adrenal\ninsufficiency and adrenal androgen excess and to serve as a stepping stone for eventual regenerative\ntherapy for patients with a wide range of adrenal diseases."
+ },
+ {
+  "id": "cc46417e-282c-464f-92a7-9841a7005b06",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dissecting Bronchiolization Using tRNA-Synthetase Deficiency as an Entry Point",
+  "text": "Bronchiolization is a hallmark feature of pulmonary fibrotic diseases, where conducting airway cells\ntakeover alveoli surfaces, hampering gas exchange efficiency. In this study, we dissect the mechanisms\nunderlying bronchiolization starting with the observation that patients carrying rare tRNA synthetase mutations\ndevelop pulmonary fibrosis. Building on data that mouse mutants with the same mutations exhibit widespread\nspontaneous bronchiolization, we will interrogate candidate downstream mediators and uncover the\nfundamental drivers for bronchiolization."
+ },
+ {
+  "id": "cc47f8d9-2f44-4b21-b20b-4a5f4ecd0354",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "In Vivo Metabolic Tagging and targeting of Long-Circulating Biomembranes",
+  "text": "Red blood cells (RBCs) with a long life-span and excellent tissue accessibility are an attractive engineering target\nfor drug delivery, hemostasis, vaccination, and many other applications. However, effective and facile methods\nfor surface engineering of RBCs in vivo still do not exist. A technology to directly engineer RBCs in vivo in a\nfacile and safe manner, as proposed in this project, could potentially revolutionize the fields of drug delivery,\nvaccine, and vascular and tissue imaging."
+ },
+ {
+  "id": "cc48958e-bdd4-4984-9032-21735e9219e5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Optimization of AAV gene therapy through the unbiased, high-throughput screening of novel ITR domains in the mouse brain",
+  "text": "In accordance with the mission of the National Institute of Neurological Disease and Stroke\n(NINDS) this proposal will seek fundamental knowledge about adeno-associated virus (AAV)\nvector biology and will use that knowledge to reduce the burden of neurodevelopmental\ndisease, specifically the optimization of transcription following brain transduction. This research\nholds great relevance for the advancement of treatment for those suffering from genetically\nlinked neurodevelopmental disorders. The funds used for this research award will be used to\ndevelop a research pathway to critically evaluate AAV biology in animal models to facilitate this\napproach towards clinical trials."
+ },
+ {
+  "id": "cc4f35b4-2cea-469f-8191-4bede713fc54",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dental-Biomedical Engineering Scholars Training (D-BEST) Program",
+  "text": "In the United States, 30% of adults have oral disease associated tooth loss with this number expected to grow\nfurther over the next two decades. One reason for the poor oral health in the United States is the severe shortage\nof dental scientists, that are trained to translate basic science findings and technological advances to dental\nclinical practice. In this proposal, we are providing biomedical engineering research training to dentists and\ndental students, fostering a new generation of dental scientists who will lead the design and clinical translation\nof innovative dental treatments and prevention strategies, and ultimately advancing oral health care and practice.\n1"
+ },
+ {
+  "id": "cc502ee7-4487-486b-b5ef-33b8d37b9c8a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Globally Appropriate Genome Reduced Killed Whole Bacterial HIV Vaccines",
+  "text": "The development of a safe and effective prophylactic HIV vaccine has been a long sought, but unfulfilled goal\nof biomedical research, essential for the ultimate control of the HIV epidemic. We propose a novel approach to\ndevelop HIV prophylactic vaccines, using a new vaccine platform that we developed, Killed Whole Cell\nGenome-Reduced Bacterial vaccines that express vaccine antigens on the surfaces of the bacteria, targeting\ntwo highly conserved viral antigens, the HIV Membrane Proximal External region and the Fusion Peptide\nregion of the viral envelope protein. Recombinant bacterial vaccines can produce good antibody and cell-\nmediated immune responses, are very inexpensive to produce, do not require ultra-cold storage conditions,\nand be administered via a non-parenteral route, without need of highly trained medical professionals, and are\nthus highly suitable for global use."
+ },
+ {
+  "id": "cc50c966-e2cb-4231-a9fd-7f47299e8151",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Predicting Clinical Phenotypes in Crohn's Disease Using Machine Learning and Single-Cell 'omics",
+  "text": "This project will apply innovative machine learning methods to develop clinically-relevant computational models\nwhich analyze genetic and morphological signatures of Crohn’s disease to objectively and accurately predict\nspecific outcomes of disease. This work is needed because predicting clinically-relevant outcomes of this\ndebilitating autoimmune inflammatory disease at the time of diagnosis is currently impossible. Successful\ncompletion of this work will establish a bench-to-bedside machine learning platform which uses clinical metadata\nalong with deep features of Crohn’s disease from patient-derived biopsies, thus improving clinical management\nof one of the most chronic, costly, and consequential diseases in the US."
+ },
+ {
+  "id": "cc540b7f-aec2-424d-8ef5-4eb167e9fea7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting circRNA translation in glioblastoma",
+  "text": "Successful completion of this project will substantiate a preclinical rationale for targeting circular RNA-derived\nproteins which activate known drivers of glioblastoma for trials in patients. Additionally, this study will provide\ninformation as to the operative mechanisms resulting in hyperactive receptor tyrosine kinase signaling leading\nto escape from current targeted therapies for glioblastoma management."
+ },
+ {
+  "id": "cc546182-6a6e-4907-a5ea-9e89276b92d8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "UAB Center for Precision Animal Modeling (CPAM) - Bioinformatics Section",
+  "text": "(BIOINFORMATICS SECTION) Advances in sequencing and analytical technologies have accelerated the identification of genetic variations associated with disease. However, distinguishing pathogenic variants from benign ones and defining the functional impact of variants remain significant challenges, often requiring application of robust computational tools and experimental validation. Even when they are part of undiagnosed disease programs, patients are often left with non-actionable variants or variants of uncertain significance. To address these challenges, the UAB Center for Precision Animal Modeling (CPAM1.0) was established in 2020 with the goal of efficiently analyzing and modeling variants, supporting diagnoses, variant impact assessment, and therapeutic target identification. The Bioinformatics Section (BIS) is a cornerstone of CPAM, driving efficiency and innovation through application of computational tools, methods, and expertise, supporting all phases of the CPAM process. The BIS advances knowledge generation by facilitating allele review and selection, variant impact prediction, cross-species functional assessment, and drug repurposing strategies. It enhances CPAM capabilities by streamlining data analyses, supporting data collection and curation, and providing support for cataloguing animal strains, cell lines, biomaterials, and protocols. BIS also assists in tracking and monitoring CPAM’s overall impact. In CPAM1.0, the BIS established the computational framework now central to the Center’s operations. This included developing the CPAM website, the Rosalution analytical portal, and a secure data repository to streamline data integration, sharing, and collaboration. In CPAM1.0 the BIS also created novel computational biology and data science based analytical tools and methods for variant classification, cross-species genotype- phenotype analysis, tissue-specific assessments, and drug repurposing predictions. These resources supported variant prioritization and nomination decision-making, aided in model generation and validation, and maximized the impact of CPAM through real-time data sharing, curation, analysis, and collaboration. In CPAM2.0, the BIS will develop and implement additional tools and capabilities to meet evolving needs. The BIS will integrate innovative machine learning, generative AI, and computational biology methods to predict phenotypic outcomes, predict and streamline selection of optimal model organisms, perform precise patient- model phenotypic comparisons, integrate tools for phenotype assessment, and identify therapeutic targets and repurposing candidates. It will expand the Rosalution portal to incorporate additional variant, gene, transcript, and phenotype annotations and expand CPAM cataloguing of animal strains, cell lines, biomaterials, and protocols, fostering collaboration and enriching resources for the research community. Ultimately, the BIS is an integral part of CPAM and plays a crucial role in advancing our understanding of genetic variants and their clinical implications."
+ },
+ {
+  "id": "cc5b3731-393a-49b9-a8e1-54a727b65d05",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cardiotropic nanocarriers: from discovery to understanding",
+  "text": "Solid lipid nanoparticles have proven useful for delivery of mRNA, but it is difficult to deliver targeted therapeutics,\nincluding nanoparticles, to heart tissue. We have discovered lipid nanoparticles with unprecedented tropism for\nthe heart and will use this discovery to develop new mechanistic heart targeting strategies and new targeted\nRNA-based therapies for heart failure."
+ }
+]

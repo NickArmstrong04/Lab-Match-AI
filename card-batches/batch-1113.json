@@ -1,0 +1,142 @@
+[
+ {
+  "id": "ff38c582-7fd4-4a75-bb1e-39db285cb8c8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Core 2: Glioblastoma Biorepository Core",
+  "text": "Glioblastoma (GBM) is amongst the most lethal forms of cancer. The Core 2 Glioblastoma Biorepository \nproposes to provide services of neuropathology review, digital pathology, tissue and cell line banking and \ncreation of patient derived xenografts for use by the Projects to develop methods to improve effectiveness of \noHSV in GBM. In addition, we will provide expert immuno-oncology approaches to the P01 such as novel \nmultiplex fluorescent imaging, genomics, and model modifications to understand resistance to oHSV therapy."
+ },
+ {
+  "id": "ff3ba6b9-421f-458d-a277-b5ecfb1ee081",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "How the structural complexity of the niche enables stem cell function during development and homeostatsis",
+  "text": "In the developing embryo, in adult tissues such as the skin and intestine, and in many types of cancer, stem cells\nexist in close association with a supporting niche. How a niche coordinates the timing, intensity and duration of\nthe signals controlling stem cell activity remains poorly understood and represents a critical knowledge gap in\nour understanding of basic stem cell biology. Our findings will reveal how the structure and organization of a\nniche facilitate its ability to precisely control the signaling environment experienced by stem cells."
+ },
+ {
+  "id": "ff3f7b13-be0f-4a3f-9c25-e7a9b45e3ea6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Plug-and-play Hyperpolarized MRI of Metabolism on Clinical Scanners",
+  "text": "(3-sentence limit)\nRecent advances in hyperpolarized metabolic imaging, pioneered by our team and others, allow real-time in vivo\ntracking of metabolic conversions of injected hyperpolarized 13C-pyruvate to downstream metabolites in multiple\nmetabolic pathways, resulting in new imaging biomarkers to indicate aberrant cellular metabolism, inform dis-\nease progression, and guide treatment decisions. One of the major hurdles for widespread clinical translation of\nthis novel technique is most standard clinical scanners have only proton imaging capabilities and cannot detect\n13C signals. In this feasibility study, our team will develop and validate a simple, smart, cost-effective scanner\n“add-on module” that will enable the transfer of polarization-enhanced signals from 13C to proton and enable\nmetabolic imaging of hyperpolarized 13C compounds on a standard clinical MRI scanner via indirect 1H detection."
+ },
+ {
+  "id": "ff48f6f1-79d4-4837-a20a-28245e3c4e3c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Advancement of the Xiphophorus Model for Studying Disease",
+  "text": "This project enhances the Xiphophorus fish model, a valuable vertebrate system for studying\ndisease-relevant phenotypes with direct translational potential to human health. Building on significant\nprogress in genomic sequencing, cell atlas development, and phenotypic characterization, we aim to\naddress unmet community needs including standardized vocabulary and ontology, in vitro culture platforms,\nand transgenic tools. We will implement standardized identifiers, integrate genotype-phenotype data into\nshared platforms, and develop organ-specific biological materials and a viral vector-based genome editing\ntoolkit. These efforts will support a broad community of biomedical researchers and advance the utility of\nXiphophorus in modeling human diseases."
+ },
+ {
+  "id": "ff53a0f0-ab11-4399-91f8-7a8a57f8af73",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating the Role of S. aureus Citrate Metabolism in Prosthetic Joint Infection",
+  "text": "Staphylococcus aureus (S. aureus) is a common cause of biofilm-associated prosthetic joint infections (PJI);\nthese debilitating infections are often chronic due to antibiotic tolerance and immune evasion attributes of the\nbiofilm. The proposed research will examine the role of citrate metabolism in biofilm development and S.\naureus persistence in PJI. Understanding early metabolic adaptations by S. aureus in response to leukocyte\npressure will support the development of metabolic interventions targeted at S. aureus biofilm infections."
+ },
+ {
+  "id": "ff57b8a7-f798-45ed-8fe7-97a99b95cf8e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Reprogramming Liver Macrophages for Sex-based Hepatocellular Carcinoma Immunotherapy",
+  "text": "Immunotherapy has broadened the landscape of Hepatocellular carcinoma (HCC) treatment, but therapeutic\nresistance and a lack of accurate immune markers pose significant therapeutic challenges due to tumor\nheterogeneity and sexual dimorphism. The proposed F99 phase will determine the role of Sphingosine Kinase\n2 in liver macrophages as a therapeutic target in diet-induced HCC, and the K00 phase proposal will further\ninvestigate macrophage metabolic networks in HCC tumor microenvironment with an emphasis on inter-tumor\nheterogeneity in terms of cause and sexual dimorphism. Overall, the proposed F99/K00 training and research\nwill broadly examine macrophage immunometabolism as a therapeutic perspective that considers the challenge\nof sex-biased HCC immunotherapy."
+ },
+ {
+  "id": "ff588d55-8c26-477b-95d0-c689425d2657",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Digital Twins from the Atom to the Rhythm",
+  "text": "Our overarching goal is to develop a transformative integrative experimentally informed\ndigital twin technology for patient-specific prediction. Digital twins across the scales from the atom to the\nrhythm will allow incorporation of individual differences in genes that affect individual protein structure, cellular\nelectrophysiology and electrocardiograms to predict individual likelihood and mechanisms of disease and to\npredict individualized therapeutic intervention."
+ },
+ {
+  "id": "ff5e0ec0-11d8-4fe3-bcc2-24296cc84621",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of epigenetic changes in intracellular survival and replication of Legionell pneumophila",
+  "text": "Emerging pathogens are continuously evolving their infective mechanisms to alter host cellular responses to\nestablish a niche and successful infection. In the wake of increase in Legionnaires outbreaks, the ability of\nLegionella pneumophila, to modulate diverse number of eukaryotic cell processes to survive and multiply in\nmacrophages, is of public health concern. Thus, in-depth understanding of infection strategies from Legionella\nstudies can help to design effective therapeutic strategies and preventive measures against intracellular bacterial\npathogens."
+ },
+ {
+  "id": "ff5f2f69-a22e-4dce-835f-ea50f4275baa",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Posterior cingulate cortex and executive control of episodic memory",
+  "text": "This project will utilize human intracranial recording and stimulation to quantify the unique contributions of the\nposterior cingulate cortex (PCC) to episodic memory. Specifically, we will use single unit and population\nmeasures of neural activity to test a new account of PCC function which focuses on the executive processes\nneeded to support memory retrieval and memory based decisions. By studying PCC, a convergence zone of\nmemory and executive systems, progress can be made in elucidating how the failure to successfully leverage\npast experiences in daily behavior can occur as a common symptom of both neurodegenerative disease (e.g.\nAlzheimer’s disease) and multiple psychiatric conditions (e.g. schizophrenia) implicating PCC dysfunction."
+ },
+ {
+  "id": "ff6045b1-2972-488c-b391-ef9a48b24644",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Junctophilin- 2 in brown Adipocyte Metabolic Regulation and Obesity",
+  "text": "The incidence of overweight and obesity is much higher in Veterans than the general population. Obesity results\nfrom an imbalance between caloric intake and energy expenditure. Increasing energy expenditure can reduce\nobesity and reverse metabolic disorders. The proposed research explores a novel mechanism\nregulating energy expenditure through heat-dissipating brown adipocytes and shed insights into developing new\napproaches for combatting obesity and associated diseases."
+ },
+ {
+  "id": "ff67abe8-2d04-44ee-959a-cbc246cf215a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "DLK1 regulates HSC quiescence through phase separation mediated inhibition of receptor signaling",
+  "text": "The hematopoietic stem cell is responsible for giving rise to all blood cells throughout the lifetime of an organism.\nOur goal is to understand one of the factors that control the decision for the hematopoietic stem cell to remain in\na state of inactivity or differentiate into different blood cells. If successful, our studies will set the stage for the\ndevelopment of strategies to expand stem cells for various therapeutic purposes."
+ },
+ {
+  "id": "ff7cbe2b-dc5d-43f2-a51e-e3da673909b3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Single-cell resolution analysis of chromatin accessibility and gene expression changes in a model of drug addiction",
+  "text": "Overdose deaths involving opioids are rising steeply. The goal of this U01 grant is to use single-cell genomics\nand spatial transcriptomics to define how different cell types in the brain respond to oxycodone use in a rat\nmodel of oxycodone addiction. These results will lay the foundation for mechanistic studies for the identification\nand validation of novel therapeutics for opioid use disorders."
+ },
+ {
+  "id": "ff84218d-ff0c-4bcf-93f4-ef70e56b30ae",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identifying molecular mechanisms contributing to disease etiology and the neurological symptoms associated with pediatric DPD deficiency",
+  "text": "Genetic variation within DPYD contributes to the early onset disorder pediatric DPD deficiency,\nresulting in severe metabolic, developmental, and neurological side effects. The proposed studies will identify\nthe mechanisms through which deficiency of DPD contributes to the dysregulation of neurotransmitter systems,\nincluding alterations to excitatory glutamatergic and inhibitory GABAergic signaling, leading to the symptoms\nassociated with pediatric DPD deficiency."
+ },
+ {
+  "id": "ff900a54-47a8-444b-b291-6b34438f5cc6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mapping p53 dynamics to cell-fate outcomes in reprogramming and oncogenesis",
+  "text": "The objective of this proposal is to understand the role of the tumor suppressor protein p53 in aiding cell fate\ntransitions including cancer. As p53 mutants dominate the mutational landscape of cancer, it is important to\nunderstand what functions of normal p53 are co-opted and enhanced by mutants to promote cell fate\ntransitions in order to establish effective therapies that target cells harboring these oncogenes. By studying the\nrole of p53 and p53 mutants during transitions, this work will shed light on early-stage cancers, aiding early-\ndetection of the disease and improving patient outcomes."
+ },
+ {
+  "id": "ff93d8e6-c26d-4bf8-b969-e42b5304ea8c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "UC Davis CounterACT Center of Excellence: Developing Therapeutic Strategies for Mitigating the Chronic Neurological Consequences of Acute Organophosphate Intoxication",
+  "text": "Acute intoxication with organophosphate (OP) pesticides or nerve agents can trigger seizures that rapidly\nprogress to life-threatening status epilepticus, and survivors often experience significant long-term morbidity,\nincluding progressive brain injury, spontaneous recurrent seizures, and cognitive impairment. Current medical\ncountermeasures for acute OP intoxication can prevent death, but are unable to fully protect against the long-\nterm adverse neurological consequences unless administered within minutes of exposure, which is an unlikely\nscenario in the event of accidental, suicidal or terrorist-related exposures. The UC Davis CounterACT Center of\nExcellence seeks to identify and develop novel disease-modifying therapeutic strategies that can be\nadministered in hours to months after exposure to delay the onset and/or reduce the severity of chronic\nneurotoxic effects."
+ },
+ {
+  "id": "ff95e287-a20e-4dea-94fc-57c537b3cf52",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Contribution of RpoS to persistence of Borrelia burgdorferi in mammals",
+  "text": "Borrelia burgdorferi (Bb), the causative agent of Lyme disease, is maintained in nature by an enzootic cycle that\ninvolves a tick vector and a mammalian host. After dissemination in the host, Bb must survive long enough in\ntissues, particularly the skin, to be acquired by a naïve tick. The proposed experiments will shed new light on\nhow LD spirochetes persist in nature, the ecological substrate for human disease, as well as how they persist in\nhuman tissues, giving rise to the chronic, debilitating clinical manifestations that make them a major threat to\nhealth and wellbeing."
+ },
+ {
+  "id": "ff9c8199-7221-4392-aacc-7badfb6b6d97",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mitochondrial Function and In Vivo Imaging Core",
+  "text": "The Mitochondrial Function and In Vivo Imaging (MF-II) Core The overall goal of the CardioPulmonary Vascular Biology (CPVB) COBRE program is to facilitate high impact vascular biology research. The CPVB COBRE has successfully supported numerous innovative studies for a better understanding of the pathogenesis and the associated mechanisms of cardiopulmonary diseases. Over these years, there has been increasing interest and requests from the CPVB COBRE investigators and other scientists to perform mitochondrial function assessments and high-resolution in vivo imaging in preclinical studies. The Mitochondrial Function and In Vivo Imaging (MF-II) Core has evolved from the Respiratory Core that was established in 2021 as the 2nd technical core of the CPVB COBRE based on user needs. The mission of the MF-II Core is to develop a centralized system for mitochondrial function assessments and high-resolution in vivo imaging, with the goals to enhance productivity, promote interdisciplinary and inter-institutional collaborations, and increase research impact of the CPVB COBRE investigators and other investigators in the state of Rhode Island. To date, the Respiratory/MF-II Core have served 30 unique users with 4,030 services. There is a ~2.2-fold increase in yearly technical core services from the Phase I to the Phase II. In Phase III, the overall objective of the MF-II Core is to facilitate the scientific objectives and technical repertoire of the CPVB COBRE Pilot Project Investigators and other Rhode Island and IDeA investigators by providing centralized cutting-edge technologies and essential services. The specific aims of the MF-II Core are to: i) offer effective, reproducible, and economical services in high- resolution in vivo imaging and mitochondria function assessments to pilot project investigators and the scientific community; ii) acquire, establish, and disseminate technologies and instrument capabilities to provide state of the art research tools for pilot project investigators and the scientific community; iii) facilitate interdisciplinary and inter-institutional collaborations by providing technical services to enhance research productivity, and to foster scientific networks by closely working with IDeA programs in Rhode Island and other states; iv) establish processes and procedures that lead to sustainability of the MF-II Core. The MF-II Core will continue to provide critical support to investigators in Phase III and beyond to augment and strengthen biomedical research excellence in the state of Rhode Island and the other IDeA states."
+ },
+ {
+  "id": "ffa15cc6-66d8-4eb8-af60-eb3f29112b44",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Generalizable quantitative analysis of cell spheroid models and tissues using a single electrochemical platform with custom pneumatic and microfluidic circuits",
+  "text": "To date, the majority of important biological analytes must be quantified by complex instrumental methods with\ntedious workflows, often by external laboratories, and dynamic information from cells or tissues is challenging\nand sometimes infeasible to obtain. Electrochemical biosensors with simple workflow have been very useful for\na few analytes (e.g. glucose, lactate), yet most remain inaccessible. This project will develop innovative,\ngeneralizable electrochemical and microfluidic methods to permit simple, rapid quantification of analytes that\nwere previously not measurable with electrochemistry."
+ },
+ {
+  "id": "ffa39f04-50dc-41aa-9179-0d32e9e7e2e5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Retrotransposon derived promoters drive alternative host gene isoforms with important developmental functions",
+  "text": "Induction of specific retrotransposon families have been observed during preimplantation\ndevelopment of multiple mammalian species, generating numerous retrotransposon derived\npromoters that drive alternative, preimplantation specific gene isoforms. Using mouse genetics,\nnext generation sequencing, cell and molecular biology, our proposed studies will\ncomprehensively categorize retrotransposon-dependent gene regulation, functionally\ncharacterize specific retrotransposon in essential developmental processes, and elucidate the\nimportance of retrotransposon in gene regulatory diversity among different mammals."
+ },
+ {
+  "id": "ffa6f91a-1b90-40b3-9728-f8f4fb5d76c9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Regulation and Requirements for Coenzyme A Biosynthesis",
+  "text": "Fatty liver disease and chronic kidney disease, affecting tens of millions of people in the US alone, exhibit\npathological dysregulation of lipid metabolism, which is heavily dependent on the pivotal cofactor coenzyme A\n(CoA). CoA is synthesized from the essential nutrient vitamin B5 and is absolutely required for lipid synthesis,\nfatty acid oxidation, and the TCA cycle among other critical pathways, but little attention has been paid to how\nCoA supplies are actively coordinated with metabolic and biosynthetic demands, including in kidney and liver.\nCompletion of our aims in both mammalian and fly models will reveal new regulatory mechanisms\n(transcriptional, post-translational, metabolite-based, and spatial signaling) for CoA synthesis in response to\ninsulin and other signals, advance our mechanistic understanding of the in vivo roles of CoA synthesis enzymes,\nestablish novel tools and models, and provide foundational knowledge for potentially manipulating CoA synthesis\nas a new therapeutic strategy."
+ }
+]

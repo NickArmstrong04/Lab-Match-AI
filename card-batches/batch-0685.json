@@ -1,0 +1,142 @@
+[
+ {
+  "id": "67968910-051b-4476-beb2-a61ae8b71edc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Integrating genetic and ecological momentary assessment technologies to advance models of PTSD-AUD comorbidity",
+  "text": "Alcohol use disorder (AUD) and posttraumatic stress disorder (PTSD) commonly co-occur and are associated with higher economic burden, more difficult treatment course, and poorer physical health outcomes. Understanding risk and protective factors for AUD and PTSD is critical to inform effective prevention and intervention planning; these conditions have shared latent genetic risk as well as a molecular genetic correlation, and the onset of one condition may increase risk for development of the other condition and thus multi-method studies that integrate shared genetic and phenotypic risk are needed. The present study will conduct a multi-method investigation of PTSD and AUD among a highly trauma-exposed at-risk population of inner-city residents to rigorously test models of comorbidity thereby shedding light on these important public health phenotypes."
+ },
+ {
+  "id": "679ade92-47c9-46c3-a99a-478d9a5a5657",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multimodal computational models for early prediction of peritoneal recurrence in gastric cancer",
+  "text": "Gastric cancer represents a significant disease burden and is a leading cause of cancer-related deaths in the United States and globally. Approximately 80% of gastric cancer patients are diagnosed at an advanced stage, with the peritoneum being the most common site of relapse (peritoneal recurrence) after radical surgery. Nearly 50% of patients with advanced-stage gastric cancer develop peritoneal recurrence post-surgery, resulting in a median survival of only 3–6 months and a markedly reduced quality of life. Early peritoneal recurrence is primarily characterized by micro-metastasis, which traditional imaging techniques struggle to detect due to the small size of metastatic nodules. Predicting the likelihood and timing of peritoneal recurrence is crucial for identifying at- risk patients, enabling timely interventions that could improve survival rates and quality of life. Unfortunately, reliable predictive biomarkers and models for peritoneal recurrence in gastric cancer are lacking in clinical practice, highlighting an urgent need for innovative predictive tools. This proposal aims to develop and validate novel predictive models for early peritoneal recurrence in gastric cancer, leveraging advanced deep learning techniques and multimodal integration of clinical, radiological (CT), and histopathological (hematoxylin and eosin, H&E) data. In Aim 1, we will develop a rational approach for predicting peritoneal recurrence by creating a novel deep learning multimodal method guided by genomics knowledge. Additionally, we will integrate both deep learning-extracted features and traditional hand-crafted radiomics features with clinical data to improve prediction accuracy. Aim 2 focuses on developing a robust prediction model of peritoneal recurrence utilizing a pre-trained foundation model from large-scale H&E image data. Aim 3 will combine CT, H&E, and clinical data to further enhance predictive capabilities, employing an innovative cross-modal collaborative optimization approach for multimodal data integration. All models will be trained and internally validated using a retrospective cohort from Atrium Health Wake Forest Baptist Comprehensive Cancer Center and externally validated in two independent cohorts from additional institutions to ensure robustness across populations and imaging protocols. Additionally, we will compare our models with existing methods, including clinical staging and alternative fusion strategies. If successful, these models will enhance risk stratification and prediction of peritoneal recurrence in gastric cancer patients, significantly improving survival rates and quality of life by identifying those likely to develop peritoneal recurrence post-surgery and facilitating timely intervention. Furthermore, they can help avoid the risk of complications and extra medical costs associated with overtreatment. Since the information is derived from routinely examined CT, H&E and clinical data, they could be seamlessly integrated into current clinical workflows. The AI technology developed through this project has the potential to benefit underserved populations in low- resource settings and reduce healthcare disparities in the U.S."
+ },
+ {
+  "id": "679d6fc1-1162-496e-8eab-355457592155",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Genetic Basis of Opioid Dependence Vulnerablility in a Rodent Model",
+  "text": "The proposed research seeks to advance our understanding of opioid use disorder (OUD) by investigating the\ncomplex interactions between genetic and neurobiological factors that contribute to vulnerability and resilience.\nThrough a multimodal approach, including genetic, transcriptomic, and circuitry studies, as well as the\nestablishment of a comprehensive tissue repository, our work aims to inform the development of more effective\nprevention and treatment strategies for OUD."
+ },
+ {
+  "id": "679f5a71-a523-40bd-aee9-1b628574dc69",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mapping causal genetic processes in non-Mendelian pediatric rare disease",
+  "text": "Genome sequencing has enabled great advances in the diagnosis of pediatric rare diseases, but the majority\nof cases still go unsolved. One issue is that many cases cannot be explained by a single mutation, but instead\nare caused by an accumulation of mutations across many genes. We will provide computational and statistical\nmethods integrating diverse functional and genomic resources across 1,900 rare disease individuals to\naccurately identify these complex, non-Mendelian causal mechanisms of pediatric rare disease phenotypes,\nincreasing the potential to diagnose unsolved patient cases."
+ },
+ {
+  "id": "67aa61ae-720b-42b1-a0f4-f1909435e794",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Image Analysis Core",
+  "text": "Project Summary. The Biological Imaging Core provides DRC investigators with access to innovative imaging technologies, scientific consultation and high-quality imaging resources to enable cutting-edge approaches to their research. The Core will provide access to state-of-the-art imaging systems in a timely, cost-effective, and integrated manner individualized to the specific needs of each investigator. We maintain and update a comprehensive database of existing biosensors, their properties, and associated protocols and methodologies to facilitate user support, including the curation of biosensor `kits' for the most useful probe sets for the DRC investigator community and beyond. In addition, we provide DRC investigators with the world's first comprehensive resource to support the custom design and use of fluorescent and bioluminescent biosensors. Our support includes one-on-one consultations on all technical aspects of biological imaging, aiding in selection of appropriate biosensors for each research goal, design of pilot microscopy experiments using biosensors, image analysis, interpretation, and troubleshooting. These efforts integrate the microscopy and biosensor components for ongoing/continuous technology development and user support."
+ },
+ {
+  "id": "67ab690b-0add-4246-962b-efa3b83c0964",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dual Contrast pH-Weighted MRI for Stroke Imaging",
+  "text": "In acute ischemic stroke, a key therapeutic goal is to rescue at-risk tissue by promptly restoring blood flow.\nCurrent recanalization treatments that accomplish this cannot be applied to a majority of patients because they\nare also associated with risks and are only approved for narrow time windows. To better identify patients who\nmay benefit from treatment, accurate mapping of at-risk tissue and evaluation of the risk of reperfusion injury\nare both critical yet they remain challenging for conventional imaging techniques. In this project, we propose to\ndevelop an MRI technique with high pH sensitivity and specificity, that can identify at-risk tissue and evaluate\nthe risk of reperfusion injury. This technique can be a useful tool to help therapeutic decision-making and the\ndevelopment of neuroprotective drugs in preclinical studies."
+ },
+ {
+  "id": "67add2a0-88c5-4baf-9adf-18d3314e0349",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "microRNA-controlled mRNA therapeutics",
+  "text": "The goal of this project is to establish novel modRNA formulations that tailor expression of proteins to specific cell types and determine how expression in specific cells directs immunity to modRNA-encoded protein."
+ },
+ {
+  "id": "67b31d21-77cb-41b6-b5fc-7182377c4893",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Improved detection of coronary artery disease in atrial fibrillation patients using ungated perfusion MRI methods",
+  "text": "This proposal offers ungated, quantitative myocardial perfusion magnetic resonance imaging for atrial fibrillation\n(AFIB) patients. The new data acquisition and processing methods will allow for improved identification and\nquantification of the amount of myocardial tissue at risk in patients with AFIB and coronary artery disease.\nAccurate identification of the myocardial tissue at risk helps in their treatment management."
+ },
+ {
+  "id": "67ba8881-5836-474e-8a30-c9f47f0995e1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Clinical Neuropsychological Assessment Combined with Mobile Eye Tracking to Inform Diagnosis in Cerebral Visual Impairment",
+  "text": "Cerebral (cortical) visual impairment (CVI) is a brain-based visual disorder caused by early\nneurodevelopmental injury and maldevelopment of visual processing pathways. This study aims to\ncharacterize the visuoperceptual profile of CVI using a neuropsychological testing battery combined with\nmobile eye tracking. Finally, machine learning-based models will be implemented to predict CVI based on our\nneuropsychological testing and eye tracking data."
+ },
+ {
+  "id": "67bcc890-f30f-4e88-a496-59d2533973fb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Striatal Mu Opioid Receptor Containing Neurons in L-DOPA induced dyskinesia",
+  "text": "After chronic L-DOPA treatment, up to 90% of Parkinson’s disease patients will develop debilitating abnormal\ninvoluntary movements known as L-DOPA-induced dyskinesia (LID). Single nucleotide polymorphisms in the\nmu opioid receptor (MOR) gene (OPRM1) are one of few known genetic modifiers of susceptibility to\ndeveloping LID. This project investigates the mechanism by which OPRM1 single nucleotide polymorphism\naffects neural activity and LID, and dissects the effects of MOR+ striatal neuron subgroups on LID, which may\nallow for development of novel therapeutic pathways for LID."
+ },
+ {
+  "id": "67c4be94-4977-4f5a-a9c3-2e6732e76fe0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A Multiscale Modeling Approach to Uncover Mechanisms By Which Procoagulant Agents Restore Hemostasis in Platelet Integrin Disorders",
+  "text": "The proposed research is relevant to public health because it will reveal mechanistic information that affects\nhemostasis in individuals with genetic or acquired platelet integrin disorders. Successful completion of the pro-\nposed aims may yield novel computational tools that provide mechanism-based insights to guide and predict\ntreatment strategies for platelet, bleeding, and clotting disorders, potentially revealing synergistic effects of cur-\nrent therapies to reduce dosage, risks, and costs. Thus, the project is relevant to NIH's mission that pertains to\ntreatment of bleeding in platelet disorders."
+ },
+ {
+  "id": "67ce0b8b-9dac-4a59-8e76-f7b65a636864",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Transposon control as a checkpoint during regeneration",
+  "text": "Transposable elements are differentially regulated upon injury; however, a functional assessment of their\ncontribution or hinderance to tissue regeneration has yet to be established. Expanding our understanding of how\ntransposons respond to and are regulated within the regeneration environment will greatly expand our\nunderstanding of how transposons affect the regeneration outcome. The work proposed herein will provide\nfoundational insights regarding the transposon response to injury and define transposon control as a critical\ncheckpoint for successful tissue regeneration."
+ },
+ {
+  "id": "67d23a66-4887-4923-bc5f-1af84b64cabc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Hyperspectral Single Photon Imaging of Targeted Alpha-Emitters",
+  "text": "Metastatic cancer is hard to treat, but a promising therapy using radioactive particles can precisely kill cancer\ncells. However, current imaging tools can't accurately track these radioactive drugs in the body, limiting their\neffectiveness. We are developing an advanced small-animal imaging system to improve tracking, optimize\ndosing, and accelerate the use of these therapies for patients."
+ },
+ {
+  "id": "67d3c8da-3b74-4a69-a1b6-a42f15832f91",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating the impact and dynamic of mitochondrial common deletion in somatic cells",
+  "text": "Maintaining mitochondrial genomic integrity is necessary to protect against numerous\npathologies, including age-related diseases. This proposal aims to highlight the underlying basis\nfor the mitochondrial common deletion, a widespread aberrancy that cripples oxidative\nphosphorylation and is widespread in aging tissue. By studying the effects and underlying\nmechanisms of the mitochondrial common deletion, we hope to better understand how\nmitochondrial dysfunction contributes to age-related diseases."
+ },
+ {
+  "id": "67d93174-fe98-495f-9b3c-9b6a22f3f7c7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Epigenetic Regulation of Pre-and Post-Translational Signaling in Aortic Valve Stenosis",
+  "text": "Calcific Aortic Valve Disease (CAVD) is a significant clinical burden that can only be treated via surgical repair\nor replacement. Our aim for this proposal is to elucidate the molecular mechanisms behind the rapid extracellular\nmatrix dysregulation and calcification deposition leading to valvular thickening and heart failure in human CAVD\nsamples via multi-omic approaches with the hope of identifying pharmacotherapeutic targets. We aim to change\nthe paradigm of treatment from “watch-and-wait” surgical replacement to biomarker identification and early\nintervention with antifibrotics and anticalcific treatment targeted to specific modifications of histone subtyes, to\nhalt disease progression."
+ },
+ {
+  "id": "67df0ede-4d1c-4339-9e2c-9dde91012eaf",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Effect of tumor editing on antitumor immunity",
+  "text": "This project will identify without bias the genes and pathways that are repressed during the development of 1o\ntumors and metastases in genetically engineered mouse models of solid cancer that enable tumors to evade\nimmune surveillance. It will investigate tumor genes that stimulate innate immunity and ways to induce their gene\nexpression or activate them to enhance immune recognition and control of tumors to reverse immune evasion\nand increase immune surveillance and responsiveness to checkpoint blockade. The identification of novel drug\ntargets and therapeutic approaches will point the way for developing therapeutics that could enhance the range\nof solid tumors effectively treated with immunotherapy."
+ },
+ {
+  "id": "67e8ee97-aaeb-4f68-a5ea-26b38f5781c4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Fast and Robust Deep Learning for Medical imaging: Segmentation and Registration methods invariant to contrast and resolution",
+  "text": "The proposed methods will enable scientists and clinical investigators to tackle questions with imaging datasets\nthat could not be properly analyzed previously. This will directly improve the research capabilities of thousands of\nclinicians and science investigators of human disease. This will lead to a sustained positive impact in basic and\nclinical research."
+ },
+ {
+  "id": "67ecc461-a3d3-4cd0-8be6-3a6331599b17",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The molecular mechanisms underlying context-specific Runx factor functions in directing hematopoietic cell identity",
+  "text": "The goal of this proposal is to reveal how broadly expressed gene-regulating proteins\ncontrol distinct gene expression programs to shape different blood cell fate decisions by focusing\non Runx proteins’ activities in early T cell development and megakaryocyte development. I aim\nto address my hypotheses that relationship with 3D chromatin structure and the availability of\nphysically interacting co-factors instruct context-specific functions of Runx proteins. In addition,\nthis proposal will test whether the principles underlying dynamic Runx activities apply to other\nmultilineage-expressed regulators’ functions and show how these gene-regulating proteins\nprovide precisely needed regulatory inputs to normal blood cell production but can cause\nhematologic pathologies when dysregulated."
+ },
+ {
+  "id": "67ef0ea6-3d1a-41f2-8953-ecc4da9c34b4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Developing a library of near-infrared fluorophores for multiplexed in vivo fluorescence lifetime imaging of disease biomarkers.",
+  "text": "This project aims to develop advanced methods for in vivo quantification of multiple biomarkers using near-\ninfrared fluorescence lifetime imaging (NIR-FLI). Through comprehensive training in NIR probe chemistry, I will\nestablish a library of novel NIR fluorophores with distinct fluorescence lifetimes, optimized for noninvasive,\nmultiplexed imaging of clinically relevant biomarkers such as EGFR and PD-L1 in head and neck cancer\nmodels. This work will provide new tools to enhance diagnostic accuracy, monitor therapy response, and\naccelerate the clinical translation of molecular imaging technologies, ultimately advancing biomedical imaging\nmethods for improved patient care."
+ },
+ {
+  "id": "67f33cb0-12f3-4503-8a96-599fc3b210d3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "How Feedback Shapes Sensory Representations During Cognition",
+  "text": "This proposal uses neuroimaging and computational modeling to study how cognitive abilities, such as working\nmemory and long-term memory, shape representations in visual cortex to guide behavior. The proposed\nresearch has significant potential to inform diagnosis and treatment of cognitive dysfunctions underlying severe\nmental illnesses and neurodegenerative diseases. This proposal also uses modeling techniques to bridge\nfindings from neuroimaging and electrophysiology, which will promote the exchange of information across\nneuroscience disciplines and hasten progress towards improving the quality of life for those affected by cognitive\ndisorders."
+ }
+]

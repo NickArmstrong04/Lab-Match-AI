@@ -1,0 +1,142 @@
+[
+ {
+  "id": "386106c3-52ab-4531-ba30-5a20d9c4cb13",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Computational methods to decipher somatic alterations in cancer genomes",
+  "text": "A major challenge in medicine is to better understand and treat human cancers. In this proposal, we aim to develop novel computational methods to analyze cancer genomes in order to help uncover alterations that play an important role in cancer development or that can elicit an anti-tumor immune response. Application of our approaches will not only advance our understanding of basic cancer biology but also improve prospects for personalized cancer treatments."
+ },
+ {
+  "id": "3863906a-4a5c-4477-8284-18336a979256",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Understanding the cell biology of hypertrophic chondrocyte swelling and matrix production that drive long bone growth",
+  "text": "Chondrocytes, located within the cartilage growth plates at the ends of long bones, drive the increase in human\nheight during adolescence. Whereas most cells tightly regulate fluid volume to avoid tissue damage, the terminal\nstage of chondrocyte differentiation involves a rapid and massive increase in cell size by a highly unusual process\nof cell swelling. Two research aims seek to understand the mechanism of hypertrophic chondrocyte swelling and\nhow these swollen cells carry out normal functions, including secretion of the mineralized proteinaceous scaffold\nof bone."
+ },
+ {
+  "id": "3867c403-ad06-4990-a3d7-118df6a9de11",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Combining Machine Learning Methods and Scalable In Vivo Biomarkers for the Early and Accurate Detection of Alzheimer's Disease in Veterans",
+  "text": "Early and accurate detection of Alzheimer’s disease (AD) is critically important for Veterans. This proposal\nexamines whether machine learning can be applied to results from a routine neuropsychological battery to\ndetect findings from amyloid positron emission tomography (aPET), a standard biomarker for AD pathology.\nThen, we examine whether machine learning classifiers derived from clock drawing videos will detect the\nsame outcome, alone and in combination with other predictors. We also examine whether clock drawing\nclassifiers will detect AD as a suspected etiology based on clinical diagnostic impression. Finally, we examine\nwhether clock drawing classifiers will detect the presence of cognitive impairment on objective\nneuropsychological tests. We expect acceptable to excellent accuracy for all clinical outcomes, particularly\nwhen clinical neuropsychological data are used in combination with clock drawing classifiers. This project\ncould provide a convenient and cost-effective means to detect AD pathology in Veterans."
+ },
+ {
+  "id": "386b9fee-8d10-42c6-80e0-11c5063a56f0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Enhancement of Brain Dysfunction in Sepsis Survivors by Alzheimer’s Disease Neuropathology",
+  "text": "Cognitive and functional decline are common and devastating consequences of sepsis survivorship.\nAlzheimer’s disease neuropathology is common in the cognitively normal population and may represent a\nlatent risk factor for persistent brain dysfunction in sepsis survivors. We hypothesize that amyloid beta\nneuropathology and sepsis enhance activity of the complement system in the brain, driving neuroinflammation,\nglial activation, and synapse loss."
+ },
+ {
+  "id": "386e734f-b47d-4f31-9193-1e5768ad9c58",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dysregulated Complement Pathway in Macrophage Reprogramming and Progression of HCC in MASH",
+  "text": "The incidence of liver cancer related to a form of fatty liver disease called metabolic-dysfunction-associated\nsteatohepatitis (MASH) is rapidly increasing both in the US and globally. This project will study immune\nmechanisms of liver cancer in MASH using patient-derived 3D tumoroids, robust preclinical models and single\ncell spatial imaging, to identify how the complement pathway reprograms macrophages and promotes cancer.\nThe study is critical for public health, as it has the potential to lead to development of biomarkers and novel\ntargeted therapies for liver cancer in MASH."
+ },
+ {
+  "id": "38894fc3-407d-4b4f-9533-c65d9d1253db",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Continuous Respiratory Monitoring Platform for Classifying Apnea of Prematurity",
+  "text": "Apnea of prematurity (AOP) is a prevalent condition in premature newborns that can result in both short and\nlong-term complications ranging from cardiorespiratory failure to neurological impairment. Despite its prevalence,\nexisting standards for monitoring AOP are inadequate, which leads to sub-optimal patient treatment and a\ngeneral lack of understanding of the condition and its best practices. There is a significant need for an accurate\nand continuous apnea monitor that can better characterize AOP, giving healthcare providers and researchers\nthe tool to optimize patient care, enhance safety, and advance evidence-based practices."
+ },
+ {
+  "id": "388c83ad-d437-48d0-8b49-c3cdd0e3eb3e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "High-throughput experimental determination and computational prediction of variant effects in yeast",
+  "text": "Relevance to public health: Differences in genome sequence underlie susceptibility to virtually every human\ndisease, and predicting the effects of specific sequence differences is a crucial step in improving diagnosis,\nprevention, and treatment. Such predictions are currently challenging for differences that lead to changes in\nproteins, and all but impossible for differences that may instead alter the abundance of proteins. The proposed\nresearch will enable development of more accurate predictive models of the effects on health of all types of\nsequence sequence differences with currently unclear significance, leading to better diagnostic precision."
+ },
+ {
+  "id": "388fce5c-2d1c-453d-ac00-1def9043488a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Chromosomal instability as a driver of non-small cell lung cancer immune evasion and brain metastasis",
+  "text": "Brain metastasis (BM) frequently arises from non-small cell lung cancer (NSCLC) and represents the most\ncommon cause of cancer related death in the US, yet our understanding of BM biology is rudimentary. Our\ngroup has identified excessive chromosomal instability (CIN) as a hallmark of BM and as a putative\ncharacteristic of NSCLCs harboring mutation in STK11 (encoding LKB1), a subtype of lung cancer associated\nwith increased risk of brain metastasis (BM) and immunotherapy resistance, and thus a relevant archetypical\ndisease that may broadly inform the role of CIN in BM biology. This proposal seeks to identify tumor-cell\nintrinsic and extrinsic adaptations to CIN that enables immune evasion and BM in LKB1-deficient NSCLCs;\nbecause CIN is pervasive in cancer and particularly high in brain-metastatic lesions across different cancer\ntypes, this work will have implications for our broader understanding of BM biology and pave the way for future\ntherapeutic development of CINhigh tumors."
+ },
+ {
+  "id": "38942967-2d56-45af-a739-f80f1b702af5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Predictors of Airway Dysanapsis in Early Life (PADEL)",
+  "text": "Dysanapsis is a common structural variation in the lung that occurs when there is a mismatch between airway\ntree and lung size and is a better predictor of chronic obstructive pulmonary disease than smoking and all\npreviously described risk factors. In this R01 study we will examine the relationship between early-life exposures\nand both structural (imaging-confirmed) and functional (spirometry-assessed) measures of dysanapsis\nthroughout childhood and adolescence. We will leverage 8 longitudinal birth cohorts of children to identify\nmodifiable risk factors for dysanapsis and help reduce risk of COPD in future generations at risk."
+ },
+ {
+  "id": "38986bb3-6994-4749-89e5-5ecd9a57fc7f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "It Will All Get Better with Time: Circadian Rhythms in Tissue Engineering",
+  "text": "This project will explore the role of daily rhythms on tissue regrowth for the first time by incorporating rhythms in\nlab studies, reinstating lost rhythms, and ensuring we give therapeutics at the correct time of day. We will develop\nrobotic and drug delivery tools to control these rhythms and to align therapeutics with them. This work can unlock\nunexplored mechanisms that can help us improve tissue growth for lab studies and tissue regeneration in\npatients."
+ },
+ {
+  "id": "38a5d5d4-95d7-47d5-873e-e302ef21acf2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Alterations to endothelial membrane composition and structure as a driver of the endotheliopathy of trauma",
+  "text": "Trauma is the most prevalent cause of death for those under 40 years of age in the United States. The blood\nloss that often occurs in trauma causes damage to the lining of the blood vessels. This damage causes\ndisordered blood clotting, as well as multi-organ failure, which leads to high death rates in trauma patients. The\nproposed project is relevant to public health through investigation of the mechanism underlying this vascular\ndamage, and may identify new therapeutic strategies to reduce the high rates of death in trauma patients with\nsevere blood loss."
+ },
+ {
+  "id": "38ba43f7-f2fe-4ea8-89b7-a788a6c7629c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project 1: Multi-omic endotyping of vaccine response, susceptibility to respiratory infectious disease and asthma",
+  "text": "Immune development in early Life (IDEAL) imparts long-term health consequences, including vaccine responsiveness, respiratory infection, and asthma [1] that affect millions of children across the U.S. While genetics play an important role, environmental exposures also substantially shape innate and adaptive immunity [1], suggesting that IDEAL is modifiable. While research has typically relied on clinical phenotypes to identify immune mechanisms [2,3], we contend that the considerable heterogeneity of mechanisms regulating immune ontogeny may best be identified via endotypes of IDEAL- subclasses of disease defined by distinct underlying mechanisms. Derived endotypes informed by multiomic systems biology capture complex biological processes [4] that provide an integrated view of immunity and will identify biological mechanisms related to different immunologic trajectories. Our hypothesis is that clinically meaningful “IDEAL endotypes” exist and can be identified via multiomic profiling, further informed by clinical phenotype. This approach further enables identification of actionable multiomic biomarkers that may be utilized in a precision medicine framework to classify, predict and/or optimize immune trajectories of specific IDEAL endotypes. Our approach in IDEAL Project 1 (PR1) considers integrated systems biology in conjunction with longitudinal follow-up for the select clinical outcomes of vaccine response (VR), respiratory infection proneness (IP), and asthma. To this end, we will utilize four large, early-life cohorts with precise clinical phenotypes and longitudinal follow-up through 6 years (YR) of age. We capitalize on two cohorts with existing multiomic data for discovery: Vitamin D Antenatal Asthma Reduction Trial (VDAART; Boston, Saint Louis, & San Diego; N=650), and the Expanded Program on Immunization Consortium-Human Immune Project Consortium (EPIC-HIPC; The Gambia & Papua New Guinea; N=500); and two cohorts with dense biosample collection for replication, in which multiomic data will be generated via the proposed studies: the Rochester Combined Cohort (RCC; Rochester, NY; N=400) and the prospective Rome IDEAL cohort (RIC; Rome, Italy; N=273). Inclusion of international cohorts with distinct genetics, epigenetics and vaccine type/schedule will ensure we pursue robust signals thereby de-risking our approach. We will define IDEAL endotypes and identify endotype-specific actionable biologic targets via the following Specific Aims (SAs): SA1) Identify multiomic variants of IDEAL clinical phenotypes; SA2) Define and characterize robust “IDEAL endotypes” via synthesis of unbiased multiomic endotypes; and SA3) Using a multiomic framework, identify actionable biomarker targets for IDEAL endotypes that merit further functional interrogation in vitro in PR 3. PR1 will thus identifying molecular signatures and actionable biomarkers to predict and prevent chronic childhood diseases such as asthma thereby benefiting children in the U.S. and abroad."
+ },
+ {
+  "id": "38c2f396-02d5-460c-a3a3-04cdeaf152c5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Center for comprehensive proteogenomic data analysis",
+  "text": "Genetic alterations in human cancer have been systematically studied over the past decade, but the impact of\na majority of these changes on the proteome—the functional end of the genome—are poorly understood. In\nthis project we will implement a large-scale automated data analysis platform that will integrate clinical,\ngenomics and mass spectrometry-based proteomics data from the same samples/tumors, and bring to bear\nnovel big-data algorithms and analysis methods to shed new light on the biology of cancer, the response and\nresistance to drug treatments and, importantly, help to identify new targets for therapeutic intervention."
+ },
+ {
+  "id": "38c3f031-a72a-4f32-b1f8-d023f68ae37d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Stability and Change in Psychosocial Risk and Protective Profiles for Substance Use in Adolescents With and Without ADHD: A Person-Centered Approach",
+  "text": "Adolescents with ADHD are at higher risk for early substance use, particularly alcohol, cannabis, and nicotine,\noften leading to poorer substance use outcomes compared to peers without ADHD. Psychosocial factors\nacross peer, family, and school domains are thought to contribute to this vulnerability, but little research has\nused person-centered methods to examine the unique unfolding of these risk and protective factors across\nadolescence and the impact of this on substance use patterns of youth with and without ADHD. Understanding\nindividual differences in combinations of and changes in ecological risk and protective factors for substance\nuse over time for youth with and without ADHD may provide crucial context for identifying youth who are\nparticularly vulnerable to poorer substance use outcomes and informing future substance use prevention and\nintervention targets."
+ },
+ {
+  "id": "38c58be0-9008-466c-a19a-8357ae3c1c8c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Genetics Core",
+  "text": "GENETICS CORE SUMMARY This new application will build on our work of the three previous funding cycles in which we established the Human Genetics Core (HGC) as an essential part of the Columbia ADRC. The HGC provides a centralized resource for the organization and analysis of genetic data within the ADRC and projects affiliated with the ADRC at Columbia University by providing the full physical and intellectual infrastructure needed to coordinate genetic research efforts and provide a platform for investigators to create a better understanding of genotype-phenotype relationships for dementia and related endophenotypes. Specifically, the HGC will: (1) provide a genetic material repository to process, extract, store and distribute genetic material from patients and controls, and track the collection and usage of genetic material; (2) provide a genetic database for storage, handling, preparation and distribution of genomic data from ADRC subjects and large-scale datasets available to the ADRC; (3) provide a high-end cluster environment and analytical support in statistical genetics and bioinformatics to facilitate genomic data analysis; and (4) extend the largescale genomic data available on this ADRC sample (ie. GWAS, WGS/WES, eQTL maps), and comprehensively characterize subjects for genetic variation in the amyloid, tau, immune response, and endosomal trafficking pathways as well as genetic ancestry. In line with our vision for precision medicine, this characterization will move us forward to i) provide investigators with a backbone for more targeted research informed by genetic background, ii) disentangle potential pathophysiologic heterogeneity in this cohort, and iii) explore a variety of critical questions addressing the Thematic Aim by integration with the extensive translational data generated by the Neuropathology, Biomarker and Neuroimmunology Cores."
+ },
+ {
+  "id": "38c7a917-825e-43b1-949b-cd7c5389dedd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Far-red Microscopy for Deep Voltage Imaging of Large Neuronal Populations",
+  "text": "This project aims to develop high-speed microscopy and advanced far-red voltage indicators to\nimage the electrical activity of large neuronal populations deep in tissue. By integrating\ninnovative microscopy designs with bright, red-shifted GEVIs, this work will provide the\nneurophysiology community with powerful new tools for large-scale and volumetric imaging of\nneuronal activity, transforming our ability to study brain function."
+ },
+ {
+  "id": "38ca6075-5b3f-499c-a177-314fec873e5b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Whole Genome Sequencing and Admixture Analyses of Neuropathologic Traits in White, Black, and Latino Americans and Brazilians",
+  "text": "The proposed project will deliver a comprehensive set of WGS from persons of African, European, and to a\nlesser extent Native Brazilian ancestry, and their associations with AD/ADRD clinical and neuropathologic\ntraits. These unique data will be shared with the wider aging and dementia research community and have a\nstrong and sustained impact on the field."
+ },
+ {
+  "id": "38ccdba5-9f26-4aec-b7b8-7ec2806fc4bf",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Detecting structural variants in a large population of samples through high-throughput sequencing data",
+  "text": "Structural variants (SVs) have been difficult to detect with conventional DNA sequencing methods, however,\nthey are associated with complex phenotypes. The proposed research will develop a new generation of\ncomputational tools that take advantage of cutting-edge DNA and RNA sequencing technologies to characterize\nand phase SVs from a large population of samples. This effort is expected to have a major impact in the\nunderstanding of complex diseases."
+ },
+ {
+  "id": "38ce0d68-4976-4166-b21a-1ed488fc215e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A novel gene-based immunotherapy inducing melanoma destruction",
+  "text": "The proposed work is a proof-of-concept study in vivo for the development of a novel gene therapy for\nmelanoma. Functionalized lipid nanoparticles can transfect melanoma cells selectively in mice, and\ndeliver a gene that causes melanoma cells to express a-Gal, which is antigenic. This makes the\nmelanoma cells susceptible to destruction by anti-a-Gal Ab-mediated mechanisms."
+ },
+ {
+  "id": "38d1a370-0e66-47d6-8ee4-39cd8ed71e5d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Machine-Learning Aided Design of Avidity-Based Biosensors of Ubiquitin Signaling",
+  "text": "In eukaryotes, the attachment of ubiquitin to histone proteins regulates diverse processes that include\ntranscription, DNA damage repair, and genome stability. To understand how these processes are controlled,\nwe will design sensor molecules to observe ubiquitin attachment to specific histones and to measure their\nlocations and dynamics in the cell nucleus. The strategies and tools we develop will be broadly useful in basic\ncancer research and will generate new diagnostic capabilities."
+ }
+]

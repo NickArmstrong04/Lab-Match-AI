@@ -1,0 +1,142 @@
+[
+ {
+  "id": "e089b1c8-cac2-4c8f-b7d8-a12c8ae47406",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of Mass Spectrometry Strategies to Decipher Dynamic Lysosomal Dysfunctions in Frontotemporal Dementia",
+  "text": "Frontotemporal dementia is the most common form of dementia for people under age 60, but curative\ntreatment is currently unavailable due to our limited understanding of the molecular etiology. This proposed\nresearch aims at developing mass spectrometry-based strategies to determine how GRN mutations, which\nresult in progranulin deficiency, impair lysosomal functions and eventually lead to frontotemporal dementia.\nThe molecular insights gained from this research will decipher the relationship between progranulin,\nlysosomes, and frontotemporal dementia, providing potential therapeutic target to develop disease-\nmodifying treatments for FTD."
+ },
+ {
+  "id": "e08a218b-821e-42e2-a764-3f644a7dc9f4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating the mechanism of corneal lens development",
+  "text": "The human cornea is a curved structure that focuses light onto the retina, and abnormalities in corneal\ncurvature lead to visual disorders like myopia, hyperopia, astigmatism and keratoconus. Using a simple model\nsystem, the fruit fly Drosophila melanogaster, I will investigate how the shape of the corneal lens, structure similar\nto human cornea, is controlled by the cells that secrete it. I will also establish the Drosophila corneal lens as a\nmodel to study and develop treatments for glaucoma."
+ },
+ {
+  "id": "e08b793a-914b-4ac5-9a54-a6015ba9c190",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dynamic Predictors of Sudden Cardiac Death",
+  "text": "We will assess whether the combination of static and dynamic risk will improve the risk prediction of sudden\ncardiac death. We propose to use both conventional and deep learning methods to achieve this goal."
+ },
+ {
+  "id": "e08d13d6-eccd-4290-bf28-2ffeb24f5ae8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Deep learning to assess the role of early renal fibrosis on cardiac remodeling",
+  "text": "More than 8 in 10 Americans suffer from Cardiovascular-Kidney-Metabolic (CKM) Syndrome, a disorder where\nfibrosis is a central feature affecting the heart and kidney, which will cost the United States over $500 billion\nannually. The goal of this work is to broadly understand how early-stage kidney fibrosis relates to heart disease\nby leveraging deep-learning tools to process large-scale imaging data, genetic sequencing, and health record\ndata. This understanding could promote development of novel therapeutics to reduce heart disease risk, which\nrepresents an urgent unmet societal need."
+ },
+ {
+  "id": "e09960d5-e260-4e89-b3c0-aeffc49dde31",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Modulating the Stem Cell Niche Set Point to Improve Skeletal Muscle Regeneration",
+  "text": "Skeletal muscle is central to everything we do and must repair to meet the vital demands of\nhuman life. Human pluripotent stem cells are the only in vitro system that can create unlimited\nnumbers of muscle cells in a dish. How hPSCs commit to all stages of skeletal muscle growth\nand how to support these muscle cells once they are created is pivotal to improve our\nunderstanding of skeletal muscle repair, development, and to design better cell therapies.\nSkeletal muscle stem cells are supported by their niche, but the molecular cues regulating the\nniche of hPSC muscle cells has only begun to be explored. This proposal seeks to regulate the\nhPSC muscle niche to better support the number and function of muscle cells created by\nhPSCs."
+ },
+ {
+  "id": "e09d21a8-d1f5-41a8-93d0-5ee6f197731f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Evaluating METTL1-mediated m7G tRNA methylation as a novel dependency in alveolar rhadomyosarcoma",
+  "text": "Alveolar rhabdomyosarcoma (ARMS) is the most common childhood sarcoma and is driven by the\nPAX3/7-FOXO1 fusion protein. Therapeutically targeting the PAX3/7-FOXO1 fusion protein has proven\nchallenging and there remains a critical need to identify new novel dependencies and targets that may prove\nas more effective therapeutic avenues. The K00 phase of this proposal will profile the METTL1-dependent\nchanges in m7G tRNA methylation and establish METTL1 and/or its targets as potential therapeutic targets for\nthe treatment of ARMS."
+ },
+ {
+  "id": "e0a07e06-417b-4d01-916e-dad159894406",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting checkpoint inhibitors for pain control",
+  "text": "Targeting the immune checkpoint inhibitory proteins, such as programmed cell death protein-1 ligand 1 (PD-L1)\nand its receptor PD-1 has saved many lives of cancer patients. The overall goal of this application is to investigate\nand validate how the PD-L1/PD-1 immune checkpoint cascade controls physiological and pathological pain and\nopioid analgesia via neuronal, immune, and glial regulations. Successful completion of this project will provide\nnovel insights into distinct actions of checkpoint pathway activators and inhibitors for the management of different\ntypes of pain."
+ },
+ {
+  "id": "e0a489e2-6dbd-463d-b69d-9689653c7d6a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "SRIN009, a cannabidiol formulation to treat chemotherapy-induced neuropathic pain",
+  "text": "Chemotherapy-induced peripheral neuropathy (CIPN) is a debilitating adverse effect that can lead to early\ncessation of cancer treatment, resulting in an increased risk of recurrence and decreased survival rate. As there\nare currently no FDA-approved treatments for CIPN, our laboratory was the first to describe the protective effects\nof the non-psychoactive cannabinoid cannabidiol (CBD) in rodent models of CIPN. To improve CBD's safety and\nefficacy, we will determine the safety and effectiveness of more bioavailable nanoemulsion formulations of CBD\nversus traditional CBD formulation, as well as determine the potential interactive effects of this formulation with\nthe anti-neoplastic effects of select cancer treatments."
+ },
+ {
+  "id": "e0aa43ad-2e23-45f6-9fe8-a5e0836f9a77",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Determining the Role of Replication Protein A in Polymerase Theta-Mediated End-Joining",
+  "text": "This project will determine the role of the eukaryotic single-strand DNA binding protein RPA in regulating\npolymerase theta-mediated end-joining, a mutagenic repair pathway that is upregulated in many cancer cells.\nUnderstanding the molecular mechanism of this pathway will allow us to better target it in cancer therapies."
+ },
+ {
+  "id": "e0ae4427-26b9-4131-a016-52ddb3b602ef",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "EvoCell: Using cell evolution in nematodes to model, predict, and controlcell identity in animals",
+  "text": "The bodies of humans and other animals are built from many different types of cells, but we are only beginning\nto understand how genes determine these cell types or evolve to form new cell types. An understanding of\nmechanisms controlling cell identity is essential to solve biomedical challenges from precision medicine to the\ndevelopment of improved tissues and organs for medicine and biotechnology. Using five evolutionarily distinct\nnematode worms as an experimental system, we will develop and test a computational model to predict how\nanimal cell types are determined."
+ },
+ {
+  "id": "e0b1471e-a683-486c-a80b-ba3441e8b236",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Pharmacogenomics Workflow: Identifying Biomarkers and Treatment Options",
+  "text": "We will build a clinical workflow product to integrate the pharmacogenetic analysis of sequencing data into\nroutine clinical workflows, supporting compliance with prescribing guidance from the Food and Drug\nAdministration, and recommendations from the American College of Medical Genetics, Association of\nMolecular Pathology, while reducing the cost and turn around time."
+ },
+ {
+  "id": "e0b72e6e-bb55-49ee-8887-602cc736a41b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "DYRK1A inhibitors, GLP1 Receptor Agonists and Immunomodulation for Beta Cell Regeneration Therapy in Type 1 Diabetes",
+  "text": "Type 1 diabetes (T1D) affects ~2 million people in the U.S. and represents a major burden to society in terms of\nhealth costs, loss of productivity, as well as reduced life expectancy and loss of life due to acute and chronic\ncomplications. Only a small percentage of youth (17%) and adults (21%) achieve optimal glycemic control with\nexogenous insulin replacement therapy, therefore federal agencies and T1D foundations have recognized that\ninsulin is not a cure and identified a clear need to cure diabetes. This study will advance a novel combination\ntherapy with immunomodulators (anti-CD3 and/or IL-2), novel and safer DYRK1A inhibitors and clinically used\nGLP1RAs to control islet autoimmunity, expand beta cell mass, and support beta cell function for T1D reversal."
+ },
+ {
+  "id": "e0b95e4e-0ded-43e9-910c-ed3bc5fe026b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Elucidating the Role of the Vaginal Microbiome and Daily Stress in Precancerous Cervical Lesions: A Multi-level Study.",
+  "text": "This career development award proposes a multi-omic systems biology approach to elucidate how the vaginal microbiome and psychological stress contribute to the progression of precancerous cervical lesions to cancer. The proposed plan will accelerate this early-stage investigator’s career trajectory to independence by providing targeted bioinformatic, statistical and molecular biology training to analyze microbiome and stress experience data, using an integrative systems biology framework to inform future clinically relevant prognostic biomarkers, risk stratification protocols, and interventions to intercept cervical cancer development."
+ },
+ {
+  "id": "e0bbdd65-0a25-4620-ab12-7a72bd8e98f0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Workshop on Statistical Genetic Methods for Human Complex Traits",
+  "text": "This research education meets the need for training in methods of statistical genetics for mental health\nresearchers working with genome wide association studies, next generation sequencing studies, and twin and\nfamily studies of genetic and environmental influences on mental illnesses. The introduction of new techniques\nof statistical and computational genetics, and the increasing interest in the methodology for identifying the\ngenes influencing complex traits, has created an enormous demand for this training."
+ },
+ {
+  "id": "e0bc88b0-bad3-4cb8-869d-5d9f2bb3e5f1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Tumor-associated pDC (TApDC) in liver cancer with HIV infection",
+  "text": "The goals are to study functions of tumor-associated plasmacytoid dendritic cells (TApDC) in human liver cancer\nduring HIV infection and immunotherapy, and to develop novel therapeutics to treat liver cancer in HIV-infected\npatients. Key findings will be confirmed in future clinical studies, including clinical trials, in liver cancer patients\nwith and without HIV infection."
+ },
+ {
+  "id": "e0bca5b0-ddb9-47c9-8f61-1294e91deb43",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dynamic imaging of lung function in free-breathing subjects",
+  "text": "In this project, we propose to develop a technique to dynamically image the lung using 129Xe MRI during free-\nbreathing; in addition to enabling a more physiologically accurate assessment of lung function compared to\ncurrent imaging techniques performed during breath-hold, this method will be feasible in patient populations that\nhave thus far been inaccessible to functional lung imaging with polarized gas due to poor breath-hold tolerance,\nsuch as young children, those with end-stage lung disease, etc. Finally, we will establish the repeatability and\nsensitivity of this technique in both healthy subjects and at-risk smokers / early COPD patients."
+ },
+ {
+  "id": "e0c2838e-204b-4013-bd23-69559d83eda0",
+  "want_sentence": false,
+  "want_terms": true,
+  "title": "UC Davis Training Program in Chemical Biology",
+  "text": "The UC Davis T32 Training Program in Chemical Biology (CPB T32) will provide pre-doctoral cross-training at the chemistry/biology interface to prepare students for impactful careers in the biomedical workforce to address societal needs in human health. The program will use evidence-based training methods to nurture productive, rigorous and resilient scientists and effective cross-disciplinary communicators."
+ },
+ {
+  "id": "e0cb8ce7-51c9-42ba-a8b2-c70287d612ec",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Programmable nucleic acid cytometry for unraveling heterogeneity in tumors and therapies",
+  "text": "The emergence and persistence of cancer cells are intimately tied to changes in nucleic acids, including the\nacquisition of somatic mutations. However, limited technologies enable separating, quantifying, and profiling\nspecific populations defined by nucleic acid features. Here, we will enhance emerging technologies to sort and\nprofile cells based on heterogeneous nucleic acids, enabling a rational, fully programmable toolkit to study cells\nin cancer-associated settings, including tumor evolution and cell therapies."
+ },
+ {
+  "id": "e0d649db-d2c7-4e42-9166-9f351966c058",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Biogenesis of mRNA-derived telomerase long noncoding RNA",
+  "text": "RNA molecules are vital to many cellular functions in biology. Telomerase RNA is a class of long noncoding RNA\n(lncRNA) that plays an essential role in telomerase function, telomere maintenance, and chromosome stability.\nThis research program aims to understand an unprecedented mRNA-derived biogenesis pathway of telomerase\nRNA in a fungal model organism, which will provide unforeseen insights into how mRNA may be processed to\ngenerate lncRNA and have broad impacts on RNA biology and human diseases."
+ },
+ {
+  "id": "e0dfb2ea-f01a-4407-84ab-a0a15830ab27",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of PRECISE: A Data Driven Personalized Suicide Prevention Intervention",
+  "text": "Suicide is a leading cause of death in the United States. Individuals at high-risk of suicide are a heterogeneous\npopulation. Building from an emerging line of evidence showing the effectiveness of personalized treatments for\nmental health problems, we plan to refine and test a personalized intervention for reducing suicidal thoughts and\nbehaviors."
+ }
+]

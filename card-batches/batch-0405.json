@@ -1,0 +1,142 @@
+[
+ {
+  "id": "0241d783-37e0-4eaa-8f51-ab6b55abd4be",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Measurement-Informed Machine Learning for Generalizable Suicide Risk Prediction in Youth",
+  "text": "This project combines psychometric and machine learning methods to enhance the interpretability and\ngeneralizability of youth suicide risk prediction by addressing measurement non-invariance and evaluating\nperformance across population-relevant subgroups defined by sociodemographic and contextual variations.\nFindings will inform translationally relevant risk assessment strategies that can be implemented in both\nresearch and clinical contexts. This work also lays the foundation for a future R01 focused on the real-world\nimplementation of electronic health record data."
+ },
+ {
+  "id": "024334a9-c1ee-4fcb-bb4b-c3419242dd7d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "HUSBANDRY AND MANAGEMENT",
+  "text": "PROJECT SUMMARY - CORE 001 HUSBANDRY AND MANAGEMENT Maintenance of a non-human primate specific pathogen free (SPF) breeding colony requires several factors to ensure the animals’ physical and behavioral health, breeding production, genetic diversity, and exclusion of specified pathogens. The pigtailed macaque, M. nemestrina, exhibits certain physical and behavioral characteristics that pose additional challenges in colony maintenance. M. nemestrina show greater susceptibility to the pathogenic effects of many microorganisms. Their susceptibility to lentiviruses makes them valuable animal models for HIV/AIDS research. However, nonhuman primates (NHP) in standard outdoor breeding colonies are exposed to environmental pathogens, such as Coccidioides posadasii, and M. nemestrina demonstrate enhanced susceptibility to disease with such exposure. Care must also be taken to prevent M. nemestrina infants from hypothermia. In contrast to rhesus macaques (M. mulatta) which exhibit seasonal breeding, infant M. nemestrina are born year-round and must be maintained in a heated environment when outdoor temperatures are low. Breeding management also differs between M. mulatta and M. nemestrina. M. mulatta can be bred in large multi-male, multi-female groups in large corrals with minimal infrastructure. In contrast, M. nemestrina form single male multi-female fission/fusion groups in the wild and attempts to form multi-male groups result in significant trauma. Even with stable, single-male breeding groups, productivity is lower for M. nemestrina than for M. mulatta. The Washington National Primate Research Center (WaNPRC) has over 50 years of breeding experience with M. nemestrina and has the expertise and resources to meet the challenges breeding this species of macaque presents. With support from this U42 cooperative agreement, we will maintain and enhance production of a healthy SPF M. nemestrina colony, including maintaining the animals free of B virus, SIV, SRV, and STLV, along with control of environmental organisms, such as C. posadasii. We will continue to meet the needs of HIV/AIDS investigators by providing SPF M. nemestrina to investigators in accordance with NIH-directed priorities."
+ },
+ {
+  "id": "02463160-dc41-4a6f-92c4-7f691d00f761",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Role of Fos and the BAF Complex in Neuronal Activity-Dependent Chromatin Remodeling and Gene Expression",
+  "text": "Variants in genes encoding multiple subunits of the BAF chromatin remodeling complex are a cause of genetic\nneurodevelopmental disorders. The BAF complex has been shown to interact with Fos, a major activity-\ndependent transcription factor known to be important in neurodevelopmental processes, but how Fos and the\nBAF complex regulate neuronal activity-dependent genetic programs remains unclear. This project will study the\nrole of Fos and the BAF complex in regulating activity-dependent processes and how these are perturbed in a\nmodel of BAF-related neurodevelopmental disease."
+ },
+ {
+  "id": "0250168b-c8ea-4ecb-a738-ff2153c8fc91",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multi-view self-supervised deep learning for biological sequences and beyond",
+  "text": "Since self-supervised deep learning as an emerging artificial intelligence method has demonstrated great\nsuccess in many fields, it is expected to become a powerful method in aiding many biological tasks. This\nproject will develop a self-supervised deep-learning framework for biomedical studies and apply it in anti-\nCRISPR protein prediction, ion and small ligand binding prediction, single-cell data analyses across different\nconditions, and beyond. The framework and associated software tools will be helpful for gene editing design,\ndrug development, and disease studies."
+ },
+ {
+  "id": "0251307c-c0f3-4159-b238-d7c528dbcc41",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Contribution of maternal immune activation, viral infection and epigenetics to autism--a community-based case control study",
+  "text": "Autism spectrum disorder (ASD) is a complex set of related neurodevelopmental disorders expressed within\nthe first two to three years of life and carries a high economic cost to the affected families as well as to their\ncommunities. In contrast with the neonatal brain, the placenta represents a universally accessible organ\nsuitable for population screening that may provide markers for ASD risk. The proposed project is a\nretrospective review of electronic medical records and biospecimens (placental formalin-fixed, paraffin-\nembedded tissue blocks) and newborn dried blood spots, which will be analyzed for ASD genetic risk, a broad\nrange of markers of placental and newborn inflammation, and epigenetic modifications to ASD diagnoses after\nadjustment for maternal and neonatal covariates"
+ },
+ {
+  "id": "0252b201-3733-4368-90d2-1395327d7fad",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Advancing mechanistic understanding of membrane ion and lipid transport",
+  "text": "This grant application will investigate the poorly understood membrane lipid flip-flop dynamics at molecular\nand cellular levels, aiming to elucidate its mechanisms in health and disease, and to facilitate the development\nof novel therapies for conditions like stroke, heart attack, cancer, pregnancy complications, neurological\ndisorders, and infectious disease including AIDS and CoVID19."
+ },
+ {
+  "id": "0253943e-89b5-4465-9f0f-b3b31a761610",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Modulating Alzheimer's Disease by mTORC1 inhibition to augment lysosomal activity",
+  "text": "Pathogenic tau protein aggregation is a key causal factor in the pathology of Alzheimer’s disease, and increasing\nlysosomal activity may be a means to enhance pathogenic aggregates clearance. Dr. Lear and colleagues have\nidentified a pathway to augment lysosomal activity in neuronal cells by influencing the mTORC1 pathway; genetic\nand pharmacological intervention reduces protein aggregates in vitro, leading them to hypothesize its relevance\nas an approach to reduce tau aggregation. Exploration of this mechanism under this pathway to independence\naward will enrich Dr. Lear’s scientific expertise in neurobiology and facilitate his transition to research\nindependence."
+ },
+ {
+  "id": "025809e5-0cc4-4063-8748-e241b2313186",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Physiology of Store-Operated Channels in the Nervous System",
+  "text": "The goal of this project is to understand the molecular mechanisms and physiological roles of\nstore-operated calcium channels for Ca2+ signaling in neurons and astrocytes, and examine\nimplications for brain pathologies including inflammation-induced depression and neuropathic\npain. Findings from these studies will provide new mechanistic insights into Ca2+ signaling\npathways controlling neuronal and astrocyte function, and could in the long run, yield a new\ntherapeutic target for brain diseases."
+ },
+ {
+  "id": "026326e4-24e3-4e60-911a-0e8f812a1c53",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Universal Internal Standard for Reproducible Accurate Quantification of Exosome Protein Markers",
+  "text": "Tumors release microvesicles called exosomes that reflect the protein content of the tumor itself. We\nwill develop methods using a universal internal standard(UIS) for highly reproducible quantitative analysis of the\nprotein content of exosomes from patient serum during a course of treatment with chemotherapy and radiation\ntherapy. This method will be applied to a set of exosome protein markers from prior work for monitoring changes\nin protein cargo after treatment via a targeted mass spec-based approach."
+ },
+ {
+  "id": "02668858-d6ef-4640-89ba-84430dd43915",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of WDFY4 in Treg development",
+  "text": "Regulatory T cells (Tregs) are crucial for immune tolerance, but their activation mechanisms remain unclear.\nPreliminary data reveals that cDC1s, the dendritic cell subset thought to play a primary role in cross-\npresentation, also functions in Treg activation by presenting self-antigens on MHCII molecules. This project will\ninvestigate the innovative hypothesis that cDC1s use a WDFY4-dependent pathway to coordinate both MHC\nclass I and II antigen processing for effective immune responses and Treg selection, ultimately preventing\nautoimmunity."
+ },
+ {
+  "id": "026a796d-16f8-48d8-ae0b-38d982c3d3c2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Therapeutic targeting the host hypoxia-response pathway to treat Mucormycosis",
+  "text": "Mucormycosis is a deadly invasive fungal infection with limited treatment options, no vaccines and a mortality\nrate > 50%. The major risk factors include neutropenia, malignant hematological disorders, organ or bone\nmarrow transplantation, uncontrolled diabetes, and trauma (e.g., soldiers wounded in battle). This research will\nlead to novel therapies to treat mucormycosis."
+ },
+ {
+  "id": "026e09b6-b86f-4527-a5a0-becabffba010",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Prime editing for Crumbs homologue 1 (CRB1) Inherited Retinal Dystrophies",
+  "text": "Mutations in the Crumbs homologue-1 (CRB1) gene lead to severe blinding disorders including retinitis\npigmentosa and Leber congenital amaurosis. To date, there is no treatment for CRB1-mediated retinal diseases,\nand classical gene augmentation techniques are complicated by the expression of multiple CRB1 isoforms in\ncell-type-distinct localizations within the retina. This project will develop a CRB1 isoform-independent prime\nediting approach by establishing retinal organoid disease models and preclinical vectors in order to establish\nproof-of-concept for CRB1 prime editing therapeutics."
+ },
+ {
+  "id": "026ecc05-7702-48c3-ba57-f31e2f6a2a89",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Effects of stress and alcohol on E-I balance in the mPFC",
+  "text": "Alcohol use disorder (AUD) and trauma-related conditions, such as post-traumatic stress disorder (PTSD), are\nsignificant public health concerns, often co-occurring and exacerbating one another. This project investigates\nhow stress alters alcohol consumption, motivation, and neural circuit function and evaluates the therapeutic\npotential of targeting mGluR7 to mitigate these effects. Findings will inform novel interventions for comorbid\nAUD and trauma-related disorders, improving outcomes for affected individuals."
+ },
+ {
+  "id": "0275523b-b4e5-4921-8d28-b823131d80ba",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "USING DEEP MUTATIONAL SCANNING TO CHARACTERIZE TUMOR-IMMUNE INTERACTIONS",
+  "text": "This project will help to shed light on the key cell types in checkpoint blockade, a cancer\nimmunotherapy that has already shown significant promise in helping patients, and that\nhas the potential to be even more transformative if we could better understand its effects."
+ },
+ {
+  "id": "027ce93f-5b26-4420-bd60-8d21d1a00fef",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Core F EXPLAINABLE ARTIFICIAL INTELLIGENCE FOR AGING",
+  "text": "CORE F: EXPLAINABLE ARTIFICIAL INTELLIGENCE FOR AGING – PROJECT SUMMARY This Core aims to provide the biology of aging research community with access to cutting-edge artificial intelligence (AI) technologies through the University of Washington Nathan Shock Center (NSC). The Explainable AI Core focuses on developing AI methods for analyzing high-dimensional omics data to understand complex phenotypes. Its primary objective is to extract biologically meaningful insights from multi- omic datasets to assist geroscience researchers in interpreting these datasets effectively and to contribute to the development of new AI techniques tailored for aging research. The Core emphasizes Explainable AI (XAI) to improve the interpretability of complex machine learning models. With the increase in multi-omic datasets from tissues of varying ages, applying machine learning models to learn low-dimensional embeddings is crucial. Deep neural networks and other complex models are essential for AI applications but often lack transparency. Therefore, Core F aims to enhance the use of robust XAI methods in aging biology research and develop novel XAI approaches to actively translate model explanations into actionable biological insights and mechanistic hypotheses. It will collaborate with other Cores and the wider aging research community to explore the molecular basis of aging and support the adoption of novel AI tools. In Aim 1 we will develop and apply XAI methods for biologically interpretable embeddings. These will provide state-of-the-art XAI techniques for unsupervised embedding models to facilitate data-driven discoveries in aging biology from unimodal or multimodal high-dimensional datasets. In Aim 2 we focus on designing XAI techniques to identify aging biomarkers from NSC user generated or publicly available databases. These efforts will ensure accurate computation of feature attributions using mathematically grounded approaches like Shapley values to identify biologically accurate biomarkers that are connected to mechanistic information on the drivers of aging. In Aim 3 we apply XAI approaches to construct next-generation biological aging clocks. This work will build on the success of the Explainable Biological Age (ENABL Age) model to create accurate and interpretable models that incorporate diverse features, outcomes, and advanced XAI techniques. The XAI methods of Core F provide a point of integration for the UW NSC Resource Cores whereby proteomic and metabolomic data are used to generate specific mechanistic hypothesis that can be tested using gene editing and phenotyping approaches using invertebrate models in Core E. These XAI approaches will facilitate robust model explanations and accelerate novel biological discoveries in aging biology, ultimately contributing to the development of personalized interventions for healthy aging. Additionally, these XAI approaches are generalizable across various geroscience research contexts and biological research fields."
+ },
+ {
+  "id": "0282dd2c-963b-4cd7-bb9c-2edd3e257038",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "5-base HiFi sequencing to advance the understanding of genetic determinants of pregnancy loss",
+  "text": "One in every 20 couples suffer from recurrent pregnancy loss (RPL) where after current clinical testing\nincluding short-read genome-wide sequencing no reason is found for half of these cases. We seek to\nunderstand how long-read technologies can fill the gaps and advanced interpretation of genetic variation to\ngive answers to families experiencing pregnancy losses and establish a resource for the medical community to\nenhance diagnosis and future treatment."
+ },
+ {
+  "id": "02854cc6-290f-4c24-9cec-f306a71f9344",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Whole genome sequences in individuals to comprehensively characterize the genetic mechanisms of dyslipidemias",
+  "text": "Characterizing the genetic basis of plasma lipids has spurred many key paradigms for preventing coronary\nheart disease – biological insights, risk prediction, and medicines. Whole genome sequencing now offers the\nprospect of identifying all the potential genetic factors influencing lipids. The goal of this proposal is to\nsurmount several methodological, analytical, and computational challenges to improve risk prediction and tailor\npreventive care as well as find new genes, which can be therapeutically targeted to efficiently reduce the risk\nfor coronary heart disease."
+ },
+ {
+  "id": "0286796e-5090-4e36-a21f-6766f2eb2c0f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Translating Novel Carbon Coating Towards Integrated Sub-second Neurotransmitter Sensors in Humans",
+  "text": "The proposed research will conduct preclinical proof of concept to achieve the translation of novel carbon coating\ntechnology towards integrated sub-second neurotransmitter sensors in humans. This proof of concept is a key\nstep towards filling the important gap of clinical neurochemical-sensing devices, which are highly important for\nenabling the studying of neurochemical underpinnings of psychiatric disorders and closing the loop for\nneuromodulation therapies."
+ },
+ {
+  "id": "028a5770-50a7-457f-9059-82a5d2e40a6f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Genomic and Epigenomic Mechanisms of Maternal E-Cigarette induced Abnormal Brain Development",
+  "text": "Using a unique rat intrauterine e-cigarette exposure model coupled with cutting-edge genomic and epigenomic\napproaches including the spatial genomics and single-cell sequencing technologies, this project will determine\nthe genomic and epigenomic mechanisms underlying prenatal e-cigarette caused abnormal brain development\nin the offspring. A large amount of genomic and epigenomic data will be produced, including whole genome\nsequencing, DNA methylomes, ATAC-seq chromatin accessibility, RNA-seq transcriptomes, and single-nucleus\nRNA-seq/ATAC-seq, which will provide valuable new insights into the effects of e-cigarette on early central\nnervous system development, and help explore promising molecular and cellular therapeutic targets for treating\ne-cigarette vaping-induced brain damage."
+ },
+ {
+  "id": "02966b59-e959-4fa9-ae57-4a016aa46bdd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "MYCN drives a druggable SUMOylation program in neuroblastoma",
+  "text": "Despite being rare, MYCN-amplified neuroblastoma (NB) accounts for ~7% of all pediatric cancer related\ndeaths and is driven by the oncogenic transcription factor MYCN and a MYCN-directed adrenergic (ADRN)\ncore regulatory complex (CRC) of self-regulating and inter-regulated transcription factors that drive the MYCN-\namplified NB transcriptome. In this proposal, we demonstrate MYCN drives a SUMOylation program in NB and\nMYCN confers synthetic lethality to the in-clinic SUMOylation inhibitor, TAK-981. TAK-981 disrupts the ADRN\nCRC, only in the presence of MYCN, to induce ADRN CRC collapse and cell death, and thus represents an\nexciting new therapy for this recalcitrant pediatric tumor."
+ }
+]

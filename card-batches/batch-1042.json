@@ -1,0 +1,142 @@
+[
+ {
+  "id": "e56494a5-52ae-46a3-b0a1-67fe1172f2a1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Co-Design and Collaborative Development of an Imaging-Text-EHR Multimodal Foundation Model for Outcome Prediction of Critically Ill Patients",
+  "text": "Our proposed multimodal foundation models integrate imaging, clinical text, physiological data, and electronic health record data to improve prediction of critical illness outcomes in intensive care unit (ICU) patients. By enabling earlier identification of multiple ICU-related outcomes - from early mortality to long-term functional outcomes - this research has the potential to improve ICU decision-making, reduce morbidity and mortality, and enhance the delivery of precision critical care across diverse patient populations."
+ },
+ {
+  "id": "e564d8ca-f57a-47f5-b29a-be1b0f80ee58",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Center for Translational Pediatric Research",
+  "text": "In Phase I, we launched the Center for Translational Pediatric Research at Arkansas Children’s Research\nInstitute in Little Rock, Arkansas. The mission of the center is to use proteogenomic approaches to identify\nepigenomic mechanisms and therapeutic targets in diseases, including cancer, impacting or translatable to the\npediatric population. Our goals for the upcoming Phase II are to further enhance our institutional research\ninfrastructure by developing our multi-disciplinary, thematic research center through strategic expansion of the\ncritical mass of investigators, investing into research infrastructure, and implementing a plan for long-term center\nsustainability."
+ },
+ {
+  "id": "e56b7963-a02b-4bff-b404-1390f17352f4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "BIOPSII Core",
+  "text": "(BIOPSII Core) In the last few years, our ability to measure biological changes in cells and tissues has grown exponentially with the advent of single-cell and spatial technologies. Through single-cell and spatial integration, we are now capable of providing detailed biological information down to an individual cell level regarding gene expression, epigenetic regulation, and compartmentalization of disease processes. The BIOPSII core is part of the University of Michigan Integrated Program for Cutaneous Immune-Stromal Interactions in SLE (IPCISS) and will build upon an accomplished collaborative working group seeking to understand the etiologies of CLE and SLE. The BIOPSII core will leverage unique analytical capabilities that we have built up at the University of Michigan, including highly specialized analytical tools, unique and extensive datasets, along with cutting-edge infrastructure. The objective of the BIOPSII core is to support the research components outlined in Project 1 and Project 2 of the U-M IPCISS program. The specific aims of the BIOPSII Core are: Aim 1: Provide Data Warehouse and Processing Capabilities for the U-M IPCISS by deploying robust, standardized pipelines for processing of single-cell transcriptomic, chromatin accessibility, spatial transcriptomics, bulk RNA/ATAC/ChIP-seq, and genetic data. Aim 2: Deploy Data Analysis Pipelines to Advance Integration and Interpretation of Multimodal Datasets (single-cell RNA-seq/ATAC seq, epigenetic information, spatial information, and genetics) toward the construction of high-quality maps of inflammatory processes in systemic lupus erythematosus/cutaneous lupus erythematosus skin. Aim 3: Incorporation, Optimization, and Integration of Novel Technologies and Bioinformatic Tools for multi-omic data analysis. Through its support of the two U-M IPCISS projects, the BIOPSII Core will amplify the impact of the U-M IPCISS program and greatly accelerate progress toward a greater understanding of critical mechanisms driving lupus pathogenesis."
+ },
+ {
+  "id": "e57057e6-13ce-4b9d-93d6-cf8e60b4a17f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Elucidating Mechanisms of CAR ML NK cell biology to treat cancer and infection",
+  "text": "Because natural killer cells are important for controlling infections and cancer, clinicians are exploring them as a\ncellular therapy. Technologic developments have made tremendous progress in our understanding of factors\nthat correlate with patient outcomes in these studies, but definitive human experiments using quick and economic\nclinical trials to evaluate specific hypotheses are not possible. However, understanding the interplay between\nadoptively transferred cells, the recipient immune system, and disease in an immune-competent/syngeneic\nenvironment will improve our ability to design clinical trials that have the highest chance for success."
+ },
+ {
+  "id": "e5721858-e8e5-4125-80b7-fdbb13d423e3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "CORE 4 - Genetics, Single Cell Sequencing and RNA seq Core",
+  "text": "Genetics, Single-Cell Sequencing, and RNASeq Core PROJECT SUMMARY/ABSTRACT - Genetics, Single-Cell Sequencing, and RNASeq Core. The Genetics, Singe-Cell Sequencing, and RNASeq Core will provide NORC investigators with access to, and assistance with, state-of-the-art molecular methods based on Next Generation Sequencing. Our major goal is to make the technology accessible to NORC investigators who may not have the resources or experience to take full advantage of these methods. We will pursue two complementary approaches. First, we will generate a graphical user interface to provide NORC investigators with access to a database of precomputed tests for genetic association in the Dallas Heart Study, and the Dallas Biobank. NORC Investigators will query the database by genotype (e.g. a gene symbol or genetic marker) to identify traits associated with that gene or marker in the DHS), or by phenotype, to identify genes and mutations that contribute to that phenotype. Data from whole exome sequencing and whole genome microarrays is available for participants in both of these studies and phenotype data relevant to NORC investigators has been collected. This resource will enable NORC investigators to exploit the unique advantages of human genetics to dissect cause-effect relationships in metabolic pathways and to identify novel components of these pathways. Second, we will assist NORC investigators with the design and interpretation of their NGS-related experiments. Laboratory analyses will be performed by the McDermott Center Sequencing Core. We will focus on genetics, single-cell sequencing and RNASeq because these methods are by far the most widely requested services by investigators at UT Southwestern. Our Specific Objectives are: 1) Assist NORC Investigators to use genetic association and Mendelian Randomization and whole genome/exome sequencing; 2) Enable NORC investigators to use Single- cell sequencing and provide analysis of results; and 3) Assist NORC investigators with the design and interpretation of RNASeq analyses in a reliable, cost-effective manner."
+ },
+ {
+  "id": "e5753317-9c24-4c00-8085-c1606e76d0b1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "In Vitro and In Vivo Characterization of PET Radiotracers for the 4R Variant of Tau",
+  "text": "PROJECT 2: Development of 4R-Tau PET Radioligands for Imaging Tauopathies ABSTRACT The goal of Project 2 is to develop a positron emission tomography (PET) radiopharmaceutical useful for imaging 4-repeat (4R) tauopathies, which include progressive supranuclear palsy (PSP), corticobasal degeneration (CBD), and frontotemporal lobar degeneration (FTLD-tau). Several useful PET agents for imaging mixed 3R/4R- tau aggregates in Alzheimer’s disease (AD) have been reported, but none of these agents has proven highly sensitive for imaging 4R-tau in non-AD 4R-tauopathies, and higher affinity 4R-tau radioligands are needed to improve specific binding signal in vivo. Novel disease modifying therapies that target tau offer new treatment possibilities for patients with different tauopathies. Key to a successful therapeutic strategy will be the ability to discriminate patients with different tauopathies and to assess the efficacy of anti-tau treatments. The proposed research in this project will pursue parallel tracks of lead compound identification and optimization, working closely with the Medicinal Chemistry and Radiochemistry Core (MCRC) to identify new 4R-tau candidate radioligands for subsequent evaluation in Project 2. Binding studies in tissue specimens of 4R-tauopathies and other proteinopathies will characterize the sensitivity and specificity of candidate radioligands for binding to aggregated 4R-tau, identifying the most promising leads to advance into in vivo studies in rodents and non- human primates. The MCRC will prepare a series of analogs from two lead series: Z-indoles and substituted- indazoles for in vitro binding assays in Project 2 and further define the structure-activity relationship of the analogs. The MCRC will employ its computational resources to help guide the selection of new analogs to be purchased from commercial sources or synthesized by the MCRC, and subsequently evaluated in Project 2. In vitro binding assays conducted in Project 2 will test the predictive power of the in silico molecular similarity studies conducted by the MCRC and help refine binding site features that most influence radioligand-4R-tau high affinity binding interactions. Project 2 will employ a staged approach using both in vitro and in vivo assay methods to characterize and evaluate candidate 4R-tau PET imaging agents provided by the MCRC, identifying the most promising 4R-tau agents for subsequent evaluation in first-in-human studies of PSP and FTLD-tau subjects in the Clinical Core."
+ },
+ {
+  "id": "e57c742d-ecb4-4391-8223-5c29f01a9432",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Sequence-specific inhibition of c-Myc in vivo by next-generation nucleic acid analogs",
+  "text": "c-Myc is one of the most undruggable targets in various cancers. This project aims to develop a\nnew therapeutic strategy based on next-generation c-Myc genomic DNA targeting and chemically\nmodified gamma peptide nucleic acids to kill tumor cells for effective cancer therapy. We will use\nchemical modification to effectively knock down the genomic DNA of c-Myc, which can result in\nthe complete (>90%) knockdown of c-Myc proteins."
+ },
+ {
+  "id": "e588fd0c-cc23-4be6-bbdb-649bbd97a706",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Children's Oncology Group NCI Community Oncology Research Program (NCORP) Research Base Grant",
+  "text": "The Children’s Oncology Group (COG) is the world’s largest organization devoted exclusively to childhood and adolescent cancer research with more than 9,000 members at over 220 leading children’s hospitals, universities, and cancer centers. The COG conducts therapeutic trials as well as cancer control and cancer care delivery research studies to improve outcomes for all children, adolescents, and young adults with cancer."
+ },
+ {
+  "id": "e58bdd41-15f9-4bb9-b93e-90b857f403f2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The role of lamin B1 in normal and myelodysplastic hematopoiesis",
+  "text": "Hematopoietic stem cells (HSCs) execute fate decisions to produce different blood cell lineages, a process which\nis perturbed in myelodysplastic syndromes (MDS). We propose to study how lamin B1 organizes the genome in\n3-dimensions inside the nucleus in order to regulate HSC fate decisions, and how deletions of the lamin B1 gene\ncontribute to MDS pathogenesis."
+ },
+ {
+  "id": "e58bdd62-af0b-440e-b73a-400b02282bc7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Innovator Subprojects Core",
+  "text": "INNOVATOR CORE The goal of the Blueprint Medtech Program is “To accelerate patient access to groundbreaking, safe, and effective medical devices.” To assure that these investments are effective, however, requires frequent oversight and assistance. The Innovator Core (IC) will be responsible for providing this oversight, monitoring progress towards milestones, assisting with unexpected delays, and reducing or recommending to NIH to discontinue funding when it becomes clear that a project will not meet the expected outcomes. The NeuroTech Harbor (NTH) IC will provide close mentorship to funded teams during the tenure of the subproject, as well as oversee progress with project management tools, to successfully deliver first in human prototypes. The IC begins interacting with and managing a subproject once funding approval for that subproject is received. All subproject PIs will have a single point of contact in the NTH for all issues through the IC. At this point, the project milestones, timeline, and deliverables will have been defined. An assessment of the technology’s stage of development will be available after the Deep Dive analysis (Evaluation Core (EC)), identifying the critical areas of assistance necessary to achieve a prototype that is ready for first-in-human studies. Additional resources will also have been allocated. The crucial steps moving forward will be to work with the Innovators to develop and document a project management plan for the duration of the subproject and oversee its progress and that of the resources allocated to the subproject. Specifically, the IC will accomplish these goals with the followings aims: (OC Aim 1) To maximize subproject success, the Innovator Core will work closely with Innovators to monitor the progress of the subproject and any associated resources. (OC Aim 2) To mitigate the risk of failure, the Innovator Core, in collaboration with the Evaluation Core and the Steering Committee, will address any issues that could interfere with reaching identified milestones. (OC Aim 3) To continue to encourage Innovators to consider the principles of universal design throughout development to increase population served. The IC will identify a Dream Tech Team for each subproject which includes a project facilitator, as the single point of contact to NTH, a clinical advisor, commercialization advisor, steering committee mentor, and a project manager (PM) tool Trainer. The project facilitator will work with the subproject PI, using industry-standard project management tools, to document milestones, deliverables, and timelines (MD&T) for both the subproject and collaborate with the Resource Core (RC) to similarly document MD&T for funded Resources. The Dream Tech Teams will meet with Innovators at least monthly to monitor progress and identify any issues that might interfere with progress"
+ },
+ {
+  "id": "e5903d3e-506e-48c7-a541-0ebb75d16af8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of cGAS-STING in Afterload-Induced Cardiac Remodeling",
+  "text": "Whereas it is long known that immune responses are pivotal to the heart’s reaction to stress, our understanding of those events in myocardial remodeling occurring in response to afterload stress is limited. Recently, we reported a pivotal role for cGAS-STING (cyclic GMP-AMP Synthase-Stimulator of Interferon Genes) in myocardial infarction. Going forward, we uncovered evidence for a novel role of cGAS-STING in load-induced cardiac hypertrophy and failure. We have discovered that loss of STING – surprisingly – exacerbated hypertrophy and fibrosis triggered by pressure stress. We observed a marked increase in CD86, CD80, and CD28, signatures of T cell activation, and cytotoxic T cell proliferation in STING-deficient hearts. In addition, CD103+ cells, representing the antigen presenting dendritic cell population, are doubled in response to pressure overload in STING-deficient heart compared to WT. Furthermore, our data reveal that STING is expressed in cardiac immune cells and fibroblasts, in contrast to cGAS, which is present predominantly in macrophages. STING’s broader scope of distribution suggests a more prominent role in cardiac hypertrophy. Based on this evidence, we propose studies focusing on STING to dissect the underlying molecular circuitry. We hypothesize that STING regulates T cell activation and antigen presentation, adaptive immune processes crucial to myocardial remodeling and development of heart failure, in the setting of afterload stress. Here, we propose studies to define and manipulate STING-dependent regulation of T cell function in afterload stress- induced cardiac remodeling, focusing on both ventricular hypertrophy and ultimate contractile dysfunction. With an eye toward ultimate translation to patients with heart disease, we also capitalize on pharmacological tools, some of which are currently being tested in clinical trials in cancer, to manipulate STING signaling. The cGAS-STING pathway-mediated immune response, spanning both innate and adaptive elements, represents an entirely novel mechanism of cardiac remodeling and failure. Furthermore, knowledge acquired during these studies is likely to shed light on other forms of heart disease and elucidate cardiac complications of cancer immunotherapy. We propose a comprehensive series of studies to define the role of cGAS-STING in afterload-induced cardiac remodeling. These studies interlace at many points with work proposed in the 3 other Projects. We have developed multiple points of bidirectional collaboration across the entire Program, sharing of reagents and insights, as well as benefit from extensive use of the Core facilities."
+ },
+ {
+  "id": "e59393e9-3c48-4b1e-a8f7-1319e11e64eb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Boston University Rheumatology Research Training (BURRT) T32 Program",
+  "text": "The Boston University Rheumatology Research Training (BURRT) T32 Program will provide a\ncomprehensive two-year multidisciplinary training program in rheumatic and musculoskeletal\ndiseases for postdoctoral MD and PhD scholars to pursue academic and scientific clinical\nresearch careers. The program will train 3 postdoctoral scholars every 2 years in a core\ncurriculum and several specialized tracks under the guidance of experienced and funded\nmentors, and supported by a broad curriculum with coursework, seminars, roundtables, team\nresearch meetings, and hands-on experiences. Ultimately, the program aims to have T32\nscholars successfully transition to independent clinical research careers as the next general of\nleaders in rheumatic and musculoskeletal disease research."
+ },
+ {
+  "id": "e59a25bd-fbcc-43b5-9e5c-92fc10809719",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Genetic and Molecular Dissection of the Neurospora Clock",
+  "text": "Circadian biological clocks work in all cells of the human body to regulate access to the genome, metabolism,\ndevelopment, and cell division. By studying cells of a fungus, as well as cells of mice and humans, we can\nunderstand how this circadian clock control works, how jet lag happens, and how clock malfunction and shift\nwork contribute to diseases like diabetes, cancer, and mental illness."
+ },
+ {
+  "id": "e59faccc-b15f-40c5-b6a6-bc76861f4a46",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Microscopy and Image Analysis Core",
+  "text": "The establishment of the Microscopy and Image Analysis Core COBRE facility will fulfill important current and\nfuture needs for COBRE investigators. It will provide wraparound services for use of high-end microscopy\ntools, image analysis software and data management architecture, serving the five COBRE projects."
+ },
+ {
+  "id": "e5a2157f-698e-424c-b0b6-f078eabe445b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Biomarker Reference Laboratory",
+  "text": "There is a critical need for a new generation of prostate cancer biomarkers capable of accurately detecting aggressive cancers at a localized, curable stage. The overarching goal of this project is to selectively identify those patients with potentially lethal prostate cancers that stand to benefit from early definitive treatment, while preventing unnecessary testing, overdiagnosis, and subsequent overtreatment in the remaining population. To achieve this goal, we have assembled the Michigan-Vanderbilt University Medical Center EDRN Biomarker Characterization Center, which represents a multi-disciplinary team of accomplished academic and industry investigators committed to discovering, developing, and scaling clinical-grade assays for the early detection of aggressive forms of prostate cancer."
+ },
+ {
+  "id": "e5ab9c23-e87f-4d01-9064-0a44b406676c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Regulation of Opioid Sensitivity and Tolerance by Ubiquitin Ligase Signaling",
+  "text": "More than 76 million Americans use opioid drugs as analgesics for the treatment of long-term pain, and more\nthan 2 million Americans now have opioid use disorders. This research program will study genetic and molecular\nmechanisms with important implications for treatment of chronic pain and management of problematic opioid\nside effects, such as tolerance, addiction and withdrawal. Thus, this project has long-term potential to contribute\nsignificantly to managing several major medical problems."
+ },
+ {
+  "id": "e5b96822-f708-4db9-b202-8b1c02f06ac7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Structural diversity of cervid prions and phenotypic variation of chronic wasting disease",
+  "text": "Chronic wasting disease (CWD) is a highly contagious disease of elk and deer with considerable zoonotic\npotential. It is caused by prions, unusual pathogens comprised of misfolded, aggregated proteins. Elucidating\nthe structure of these pathogens in different phenotypes (strains) of CWD is of major importance for\nunderstanding the pathogenic process and future development of therapeutic approaches."
+ },
+ {
+  "id": "e5ba1a25-1e3f-4fe2-aedb-653c1ac713f6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Genotyping the Understanding America Study to generate novel opportunities for research on cognitive functioning and dementia",
+  "text": "In this infrastructure proposal, we propose to genotype the Understanding America Study (UAS), a nationally\nrepresentative Internet panel that longitudinally tracks a sample of about 10,000 (growing to at least 20,000 by\n2026) adults in the U.S. We will create a large number of “polygenic scores” (PGSs), indexes that provide an\naggregated measure of the genetic influences towards a specific trait. By making publicly available a large\nnumber of PGSs for ADRD and cognitive decline, in combination with associated protective and detrimental\nhealth, environmental, and behavioral factors, and through our research, we aim to stimulate creative social-\nscience research in ADRD, cognitive impairment, and cognitive decline that utilizes the unique capabilities of the\nUAS."
+ },
+ {
+  "id": "e5bf2f46-8b98-4a35-aa04-b3f3e730cb8f",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Graduate Training Grant in Genetics",
+  "text": "The University of Oregon Genetics Training Program will train a cohort of PhD students in foundational\ngenetic concepts and quantitative analytical approaches, provide them with skills to pursue fulfilling\ncareers in biomedicine, and prepare them to be conscientious scientific leaders. This program will\nadvance new knowledge in genetics, contribute to a diverse and productive research workforce, and\npromote a culture of ethical, responsible, and trustworthy science."
+ },
+ {
+  "id": "e5c55b10-ab5d-4199-b717-1c7cf8d4df36",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The roles of ceramide and its derivatives in A. phagocytophilum pathogenesis",
+  "text": "This project will determine how the emerging human pathogen, Anaplasma phagocytophilum,\nparasitizes and disseminates from host cells to survive and cause disease. Our work has broad-\nreaching implications, will advance understanding of microbial pathogenesis, and may foster\ndevelopment of new treatments for infectious diseases."
+ }
+]

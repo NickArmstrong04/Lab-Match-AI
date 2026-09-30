@@ -1,0 +1,142 @@
+[
+ {
+  "id": "5cfee339-351e-48d0-9fb2-d8be0fc46519",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Ultrahigh-Sensitivity Mass Spectrometry for Scalable Proteomics",
+  "text": "Research on aging is currently hindered by a lack of high-sensitivity technologies capable of characterizing\nproteins in limited cell populations and biopsies. This proposal will develop a next-generation ultrahigh-\nsensitive instrument to enable the deep analysis of proteins in important biological models of aging."
+ },
+ {
+  "id": "5cfef205-1c12-4ea0-9850-44639029779b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular mechanisms for regulating microRNA levels in metazoans",
+  "text": "MicroRNAs (miRNA) are small RNA molecules that are important for controlling animal developmental,\ndifferentiation, and disease processes. We are investigating how the cellular levels of miRNAs are precisely\ncontrolled through regulation of their biogenesis and degradation. This research will reveal the pathological\nconsequences related to dysregulated miRNA levels in disease and provide the basis for designing therapeutic\nmolecular tools to control gene expression via miRNAs."
+ },
+ {
+  "id": "5d0440b4-3240-4ce7-9de5-ba75a7714bfd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Functional Genomics of Treponema pallidum during Human Infection",
+  "text": "PROJECT RELEVANCE NARRATIVE\n This project supports the NIH mission by advancing our understanding of Treponema pallidum\npathogenesis, which is crucial for combating syphilis. By analyzing the bacterium’s gene expression profile from\nhuman syphilis clinical samples, we aim to uncover new avenues for diagnostics, treatments, and vaccines. This\nendeavor supports the NIH’s goal of fostering groundbreaking medical research to reduce the disease burden\nof syphilis and enhance human health."
+ },
+ {
+  "id": "5d07c872-0e40-45dc-9612-210ed8968644",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Duke Immune Profiling Core",
+  "text": "The Duke Immune Profiling Core (DIPC) is a Duke Cancer Institute – CCSG designated Shared Resource. The overarching goal of the DIPC is to impact cancer diagnosis and treatment by providing DCI investigators with highest quality human immune profiling data in support of their innovative clinical studies. The DIPC shared resource is comprised of 2 components. The first is a Service component in which DIPC provides comprehensive, highly standardized, state-of-the-art human immunologic profiling services in support of both intra- and extra-mural translational research endeavors, including Phase I/II clinical trials. The second DIPC component focuses on Discovery and utilizes advanced, high-dimensional immunobiologic technologies and resources to stimulate innovative translational research initiatives that will impact existing approaches to cancer diagnosis, prognosis, and treatment. With over 60 years of experience in flow cytometry and immune profiling, we are available to support a wide range of studies from small-scale projects for generating pilot data through clinical trial testing. Additionally, our services include study design, performance of experiments, data collection and analysis, and writing support. Moving forward, we will further enhance our data acquisition and analytical capacity in order to provide DCI members with innovative methods to evaluate patient specimens. The DIPC Shared Resource, which has been in existence since 2019, has provided services to 83 DCI investigators, accounting for 54% of total usage, from all 7 DCI Research Programs during this grant period. During the same period, DIPC provided immune profiling support for 5 cancer immunotherapy clinical trials, and anticipates supporting up to 10 such trials during the next 5-year funding period. Use of this Shared Resource by DCI members contributed to 12 publications over the current project period, 6 of which appeared in high impact journals."
+ },
+ {
+  "id": "5d0949e9-2a8a-4f6a-a955-be06453cbf76",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "BCM/TSU P20  Collaborative Cancer Research Education Program (C-REP)",
+  "text": "CURED C-REP Project Narrative \nThe CURED C-REP will provide an 8-weeks mentored cancer research experience that integrates Baylor College of Medicine (BCM) and Texas Southern University (TSU) infrastructures every summer followed by year- long outreach education activities that will increase the awareness, knowledge, and understanding of research, concepts, processes, and careers in cancer research/cancer health outcomes in a cohort of 20 TSU students. The proposed CURED C-REP will enhance cancer research education capacity at TSU, enhance workforce development, and improve BCM’s effectiveness in developing and sustaining research programs focused on cancer health outcomes."
+ },
+ {
+  "id": "5d110493-b120-4661-841c-da7e3ee87f20",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Defining the role of G3BP1 in vascular development",
+  "text": "Proper blood vessel formation in embryos is crucial for lifelong cardiovascular health. Understanding the\nmolecular mechanisms behind this process, including the role of RNA binding protein G3BP1, is vital. G3BP1's\nregulation of blood vessel formation offers potential therapeutic targets for correcting issues in cardiovascular\ndisease and cancer."
+ },
+ {
+  "id": "5d1152cf-55ff-49d0-897e-b8617fe42cbc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Biophysical mechanisms for bidirectional coupling between mechanotransduction and cell morphology",
+  "text": "Cells in human tissues must respond to a variety of biochemical and physical cues from the surrounding\nextracellular space. This project integrates biophysical experiments measuring cell response to nanoscale\ncurvature and biochemical stimuli with detailed spatiotemporal computational models of cellular signaling and\ndeformation. By using experiments to inform and parameterize models, this work promises to enable predictive\nsimulations of cellular responses to microenvironmental changes in healthy and diseased conditions."
+ },
+ {
+  "id": "5d141d5e-2e9f-4938-9f3c-686c8beb0199",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Defining the roles of FHR1 in complement-mediated glomerular endothelial injury",
+  "text": "Complement provides a rapid and effective immune response but requires precise regulation\nto prevent excessive activation and healthy tissue injury. Factor H and Factor H Related (FHR) proteins work\ntogether to achieve this balance, and when FHR1 is mutated, it causes severe complement dysregulation and\nlife-threatening kidney disease, particularly through damage to the small vessels of the kidney. This research\nuses biochemical, cellular, and animal models to better understand how FHR1 affects kidney blood vessels in\ncomplement-associated injuries, informing our understanding of kidney disease and identifying novel treatment\ntargets."
+ },
+ {
+  "id": "5d1c8333-0b20-45b5-b7dd-b75356bee960",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Network-based Framework to Decode Novel Gain-of-Function Mutations and their Mechanistic Roles in General Human Diseases",
+  "text": "The identification of genetic variants that impact function and phenotype is fundamental to our\nunderstanding of the molecular mechanisms of disease and the practice of precision medicine. Research\nin my laboratory is focused on developing and implementing computational and bioinformatic\ntechnologies to understand the functional effects of genetic mutations on molecular interaction networks\nand gene regulatory networks, bridging genotype and phenotype in health and disease. In the next five\nyears, by developing a set of innovative deep learning and language models, we will accurately predict\nand validate the functional effects of genetic mutations on protein-protein interactions, gene-environment\ninteractions, and genetic interactions, and we envision that our efforts will be instrumental to push current\nhuman genetics research paradigm towards a thorough functional and quantitative modeling of all\ngenomic mutations involved in disease development and progression."
+ },
+ {
+  "id": "5d203024-6913-4932-8338-4c0dcfdedd2c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Primary Cilia-Dependent Mechanisms of Lymphangiogenesis",
+  "text": "Properly patterned lymphatic vessels are critical regulators of fluid and cellular traffic to support an effective inflammation and wound healing response. However, the mechanisms that govern lymphatic vessel patterning are not fully understood, and new therapeutics are needed to treat dysregulations of lymphangiogenesis, for example in neovascularized corneal transplant rejection, lymphedema, and tumor-associated lymphangiogenesis. The long-term goal of this research program is to develop lymphatic-targeted strategies to promote wound healing and prevent or reverse refractory inflammation. In the course of work examining lymphatic vessel pathology, the current investigators recently identified primary cilia on lymphatic endothelial cells in vitro and in vivo. In other cell types, this organelle is a hub of cell signaling and regulates cellular processes such as proliferation, cell polarity, and migration. Preliminary data in knockout mouse models of IFT20, an intraflagellar transport protein important for primary cilia function, show that loss of primary cilia exacerbates lymphangiogenesis. This suggests that previously unappreciated primary cilia-dependent mechanisms may complement and modulate canonical mechanisms of lymphangiogenesis regulation. The central hypothesis of this proposal is that unknown primary cilia signaling pathways negatively regulate excessive lymphangiogenesis by suppressing sprouting, proliferation, and migration to form vasculature appropriately tuned to local demand. This hypothesis will be tested with two specific aims: (1) Identify the cellular mechanisms by which loss of primary cilia dysregulates lymphangiogenesis; and (2) Identify lymphatic endothelial cell signaling pathways that are disrupted by loss of primary cilia. In aim 1, intravital imaging in mice with IFT20 knockout and tdTomato reporter fluorescence along with in vitro lymphangiogenesis assays will be used to identify the timing and extent of dysregulation of specific lymphatic endothelial cell activities that comprise a functional lymphangiogenesis response, such as sprouting, cell-cell junction organization, and chemotaxis. In aim 2, two next generation sequencing technologies, RNA-Seq and spatial transcriptomics, will be used in combination with pathway analysis and gene ontology strategies and rational hypothesis-driven prioritization of hits to identify candidate primary cilia-dependent regulators of inflammation-associated corneal lymphangiogenesis. Candidates will be validated in vitro in CRISPR knockout lymphatic endothelial cell lines. The combination of intravital imaging, transcriptomics, gene editing, and a panel of in vitro lymphangiogenesis assays is an innovative strategy to comprehensively interrogate the cellular mechanistic basis of primary cilia regulation of lymphangiogenesis. The proposed project is significant because it will provide the first mechanistic insight into primary cilia function in lymphatic endothelial cells with the potential to provide novel therapeutic targets to control lymphangiogenesis as well as a framework for study of primary cilia regulation of other lymphatic remodeling events. This work may open a new frontier for the field of lymphatic vessel biology."
+ },
+ {
+  "id": "5d289e13-ca50-4efc-ba3a-9095b3342184",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Advancing TGFβ-Resistant CAR-NK Cell Therapy for Acute Myeloid Leukemia",
+  "text": "In this proposal, we seek to improve treatment outcomes for patients with relapsed/refractory AML\nby evaluating the safety and efficacy of cord blood derived TGFBR2 KO iC9/CAR27-28ζ/IL-15 NK\ncells in a Phase I/II trial. Moreover, leveraging our robust genome-wide CRISPR screening\nplatform we aim to uncover novel mechanisms of resistance to design next-generation CAR-NK\ncells that can improve outcomes of patients with AML."
+ },
+ {
+  "id": "5d2e3ae8-1130-44be-b213-e38354c6943b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Sex differences in cholinergic signaling in alcohol withdrawal",
+  "text": "The goal of this project is to investigate sex differences in cholinergic mechanisms that mediate negative affect\nand behavioral symptoms of prolonged alcohol withdrawal in male and female mice. By defining the key players\nand sites of action, this proposal will contribute to fundamental knowledge about sex differences in alcohol\nwithdrawal, provide a rigorous basis for subsequent research and unveil potential targets for\npharmacotherapeutic intervention that can be tailored by sex."
+ },
+ {
+  "id": "5d417aab-cbf5-453e-935b-bde45b802cca",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Tau-mediated synaptic dysfunction in age-related neurodegenerative diseases",
+  "text": "As the human population ages, the ability to maintain cognitive function with a brain accumulating tau pathology\nrelies on the preservation and maintenance of synaptic networks. Therefore, understanding the mechanism by\nwhich tau contributes to network and synapse dysfunction is critical for developing preventative therapeutics.\nThis proposal aims to determine the cellular mechanisms(s) by which pathologic tau drives neuronal network\ndysfunction and propose a training plan catered to the applicant that will promote success as an independent\nresearcher in the field of aging research."
+ },
+ {
+  "id": "5d4667c9-7a27-47dc-8184-61996dacda48",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Non-viral gene delivery platforms for the treatment of Usher Syndrome Type 2A.",
+  "text": "Mutations in USH2A, which are responsible for ~85% of all USH2 cases, lead to severe auditory defects and\nlate onset retinitis pigmentosa (RP), and in some cases autosomal recessive non-syndromic RP. Developing\nan effective treatment for USH2A has been challenging due to its very large coding sequence and the presence\nof isoforms with functions that are not fully understood. We aim to extend the benefits of our proven non-viral\ngene therapy platform consisting of nanoparticles, nanospheres, and sulfotyrosine to enhance delivery,\nprotection, controlled release, and distribution of intravitreally delivered Ush2a gene to rescue vision loss\nassociated with USH2A."
+ },
+ {
+  "id": "5d5176ba-11e5-4071-9c0f-32eec39bf51d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A synaptic substrate for ketamine-mediated amelioration of stress-induced anhedonia",
+  "text": "There is a major unmet need for the treatment of depression because current pharmacotherapies for depression\nrequire prolonged administration for clinical improvement and they are often associated with high non-response\nrate. Recent clinical evidence has shown that a single sub-anesthetic dose of ketamine, a glutamate-NMDA\nreceptor antagonist, induces a robust antidepressant effect within hours of treatment in 70% of treatment-\nresistant patients, however a circuit and synaptic-level dissection of ketamine’s mechanisms of action is\nlacking. Accordingly, the goal of this proposal is to identify circuits, cellular and molecular determinants\nresponsible for the rapid antidepressant action of ketamine."
+ },
+ {
+  "id": "5d532ab6-7f7c-45a3-948d-3ef6d0b9e359",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Genetics of Cardiometabolic Diseases in the VA Population",
+  "text": "Cardiometabolic disorders including obesity, insulin resistance, dyslipidemia, and type 2 diabetes\nare highly prevalent among U.S. Veterans and serve as major factors in the development of heart,\nvascular and liver diseases. We have assembled a multi-disciplinary research team comprised\nof investigators with expertise in cardiovascular and metabolic disease, clinical and\nepidemiological research, EHR based research methods, genetic epidemiology, and statistical\ngenetics. We now propose to build upon the momentum of our currently funded project (“Genetics\nof Cardiometabolic Diseases in the VA Population”) and further elucidate the genetic basis of the\nlongitudinal progression of cardiometabolic traits, thereby informing more targeted genomic\nmedicine-based disease management throughout the course of Veterans' lives."
+ },
+ {
+  "id": "5d54a1dc-53e2-43ba-b94e-203f4f6eb052",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Vision Bioinformatics and Computation",
+  "text": "VISION BIOINFORMATICS and COMPUTATION MODULE\nProject Narrative\nThe goal of the Vision Bioinformatics & Computation (VBC) module is to increase our\nunderstanding of biological processes in vision research by applying state-of-art techniques\nspecifically bioinformatics and custom programming. Through VBC, NEI R01 investigators will\nhave easy access to high-level expertise in vision bioinformatics and custom programming as well\nas the support needed to design, execute, analyze, interpret, and manage results required or\nfacilitated by informatics and computational applications. VBC offers expertise to develop novel\ntools, software, and analytical pipelines for the integration, annotation, analysis, retrieval, and\npresentation of these data from basic and clinical studies of eye diseases."
+ },
+ {
+  "id": "5d5a99af-7333-44a2-9a60-a395ac329290",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting EBV's Deubiquitinating Activity for Therapy",
+  "text": "This proposal focuses on the Epstein-Barr Virus deubiquitinating enzyme, BPLF1, that removes the ubiquitin\nmodifier from protein targets and thus affects their function. This proposed research aims to identify an inhibitor\nof BPLF1 which could serve as therapy for EBV associated diseases."
+ },
+ {
+  "id": "5d5b6cf0-b8bc-47b3-9bd5-969d01b9d29e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Piezo1- Mediated Type H Vessel Formation in Periodontitis",
+  "text": "This study is proposed to determine the role of recently identified subset of endothelial cells, i.e., type H vessel,\nin the induction and maintenance of osteogenesis in the alveolar bone affected by periodontitis. Since bone\nregeneration in the alveolar bone defect caused by periodontitis has been major challenge in the periodontitis\nresearch and none of the study has ever addressed the coupling between angiogenesis and osteogenesis, this\nstudy is anticipated to cause a paradigm shift in the field. Outcomes from this project will be translated into a\nnovel therapeutic approach not only to prevent pathogenic bone resorption, but also to induce bone regeneration\nin periodontitis."
+ },
+ {
+  "id": "5d5c996d-55f7-4c62-9af9-7004d786041d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multi-omic dissection of clonal hematopoiesis-associated diseases",
+  "text": "Somatic mutations accumulated with aging and/or in response to environmental insult and chronic\ninflammation can confer a selective advantage leading to clonal expansion in hematopoietic stem cells, a\nphenomenon termed 'Clonal Hematopoiesis of Indeterminate Potential' (CHIP). CHIP has been associated with\na selective range of non-hematopoietic conditions, including coronary artery disease, stroke, heart failure,\nvenous thromboembolism, chronic obstructive pulmonary disease, chronic liver diseases, and osteoporosis,\nyet the molecular mechanisms by which CHIP specifically promotes these diseases remain largely unknown. I\nwill leverage large-scale multi-omics data to molecularly connect CHIP with the development of associated\ndiseases and identify the mechanisms underlying CHIP-associated disease risks and thus prioritize therapeutic\ntargets."
+ }
+]

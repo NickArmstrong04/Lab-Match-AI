@@ -1,0 +1,142 @@
+[
+ {
+  "id": "cc5dc899-40b4-42be-a3ce-ac67b90ca4c4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of granulocyte homeostasis",
+  "text": "The proposed work exploits single-cell analytics to characterize the molecular signature of the homeostatic\nstate of hematopoiesis that sustains health and wellness. Specifically, it will generate gene regulatory networks\nfor hematopoietic progenitors, which integrate the activity of transcription factors (TFs), enhancers and\nchromatin to reveal a blueprint underlying those patterns, and illustrating the drivers of developmental cell fate\ndecisions."
+ },
+ {
+  "id": "cc5ef49b-31c3-45cb-aae3-c970d0d81b90",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Deciphering inv3/t(3;3) Myeloid Leukemia Vulnerabilities via Proteogenomics and N-terminal Proteomics",
+  "text": "Patients suffering from inv3/(3;3) myeloid leukemias experience low 5-year survival rates (<5%) as a result of a\nlack of targeted therapies and poor response to standard treatment regimens such as bone marrow transplant\nin combination with chemotherapy. This work will utilize innovative proteogenomic approaches to identify\nactionable targets for pharmacological studies and provide key mechanistic insights into the historically\n“undruggable” inv3/(t3;3) myeloid leukemia cancer cell biology. As a result of this work, I anticipate an addition\nto research on inv3/t(3;3) myeloid leukemias, with a long term impact of improving overall quality of and length\nof life for patients."
+ },
+ {
+  "id": "cc649a20-65d5-4fa7-aaa2-d911ae3ac29b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting Glutamine Uptake via ASCT2 Inhibition in MYCN-amplified Neuroblastomas",
+  "text": "Neuroblastoma (NB) is the most common extracranial solid tumor in children. MYCN-amplification is present in ~25% of NBs and nearly half of all high-risk NBs. N-MYC is a proto-oncogene that drives cancer cell growth, angiogenesis, and metabolism. Aberrant glutamine metabolism is a hallmark of MYC-driven cancers. N-MYC enhances expression of the glutamine transporter, ASCT2. ASCT2 has been shown to be critical for MYCN-amplified NB cell survival in vitro and in subcutaneous xenograft formation in vivo. Our central hypothesis is that aberrant glutamine uptake via ASCT2 is critical for MYCN-amplified NB primary tumor growth and metastasis. We will define the critical role of ASCT2 in NB utilizing CRISPR-Cas9 knockout and V-9302, a small molecule ASCT2 inhibitor, in 3-D organoid and patient-derived orthotopic xenograft (PDOX) models of MYCN-amplified NB. Stable-isotope resolved metabolomics will be used to define aberrant metabolic pathways activated to sustain NB survival in the presence of ASCT2 blockade. We will also seek to define metabolic vulnerabilities uncovered by ASCT2 inhibition utilizing an unbiased CRISPR-Cas9 lineage dropout screen to assess for dual synthetic lethality in MYCN-amplified NB cells."
+ },
+ {
+  "id": "cc68dad6-1894-481a-bb10-0cd90963e25c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "VCP in ASPSCR1::TFE3-driven oncogenic transcription reprogramming",
+  "text": "Alveolar soft part sarcoma is a deadly cancer that is caused by a mutation resulting in the aberrant fusion of\ntwo genes, ASPSCR1 and TFE3. Alterations in gene expression caused by the fusion protein depend on\ninteractions with a protein unfolding machine known as VCP. This study aims to define the role of VCP in\ndriving the altered gene expression associated with the ASPSCR1-TFE3 fusion protein."
+ },
+ {
+  "id": "cc71676b-23ff-489f-be69-cef8f800021c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating reciprocal interactions between circuit and synaptic function",
+  "text": "The pattern in which neurons are interconnected is a powerful determinant of how the brain functions, and\nexperience-dependent changes in these connection patterns likely underlie learning and memory. However,\nthe fundamental rules that link circuit connectomes to information processing are unknown, and it is unclear\nhow activity during experience specifically modifies the connectivity within a neural network to allow memories\nto be later retrieved or how this process is pathologically altered in human neurological disorders. This\nresearch will identify the relationship between connection patterns at the cellular level and network function at\nthe circuit level to reveal fundamental principles that govern information processing, memory formation, and\nretrieval."
+ },
+ {
+  "id": "cc71d37a-a508-41dd-ba84-ee10ff4e5d41",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Interpretable deep learning models for translational medicine Renewal",
+  "text": "Colorectal cancer (CRC) is the 3rd most common cancer and the 2nd leading cause of cancer\ndeath. After surgery, patients receive chemotherapy, including a drug called oxaliplatin, to\nprevent the recurrence of cancer. Oxaliplatin benefits less than 10% of patients, but it causes\ndisabling neurotoxicity (nerve damage) in over 90% of patients. This project aims to develop an\nartificial intelligence model to predict which patient would benefit from oxaliplatin so that\nclinicians can choose different regimens to maximize efficacy and minimize unnecessary side\neffects."
+ },
+ {
+  "id": "cc77161a-d526-46fc-ab69-ccba3c35884f",
+  "want_sentence": false,
+  "want_terms": true,
+  "title": "Training Program in Lung Biology and Pathobiology",
+  "text": "This training grant application seeks support for 5 predoctoral and 3 postdoctoral trainees. These individuals will\nundergo training provided by well-positioned multi-disciplinary faculty in the rapidly evolving and increasingly\ncompetitive field of lung biology and pathobiology. The 5 thematic areas of research training include (1) Lung\nVascular Homeostasis, Pathobiology, and Regeneration; (2) Cellular, Humoral, and Mechanical Bases of Lung\nInjury and Repair; (3) Microbiome and Metabolism in Lung Biology and Pathobiology; (4) Lung Genomics and\nData Science in Inflamed and Regenerated Vessels, and (5) Therapeutics Targeting Lung Vessel Regeneration.\nThe goal is to cultivate highly qualified groups of young scientists capable of developing their careers in academic\nresearch and alternative pathways."
+ },
+ {
+  "id": "cc771ae5-1f53-4975-8ec3-b6c676c876cf",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "CRISPR Generated Genomic Templates to Evaluate Epileptogenesis",
+  "text": "The health burdens of pediatric epilepsies are some of the most intractable. A better\nunderstanding of Developmental and Epileptic Encephalopathy (DEE)—a severe pediatric\nepileptic illness is expected to improve therapies and remediation. At its most optimistic, a better\nunderstanding might lead to a better targeted anti-epileptic drug -which would be a profound\npublic health improvement."
+ },
+ {
+  "id": "cc7aab4d-42f8-4f3a-a437-c576e694c3f3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular Mechanism of an Exporter-like ABC Importer YbtPQ",
+  "text": "The proposed research is relevant to public health because it seeks to improve our understanding of the\nsiderophore-mediated metal uptake process in uropathogenic E. coil, the leading cause of urinary tract infections.\nIt will provide a concrete knowledge foundation for developing drugs to battle bacterial infections, which is\nrelevant to the NIH’s mission."
+ },
+ {
+  "id": "cc7cee47-1b64-4bcc-9e3f-d07e52d52ea9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "X-ray dark-field imaging of carotid hemodynamics enhanced by anisotropic IONP",
+  "text": "_________________________________________________________________________________\nRelevance to Public Health h\nThe morbidity/mortality of cerebrovascular diseases (CVD) ranks 5th in the major causes of death and\ndisability in the US, necessitating more investment in basic and clinical research to address the unmet\nneeds in its prevention, diagnosis, prognosis, and therapeutic intervention. As a minimum invasive\nprocedure, digital subtraction angiography (DSA) is the gold-standard for CVD diagnosis and\ntherapeutic intervention, but it can only provide subjective and semiquantitative time-density profile-\nbased information on blood flow, in addition to the anatomic information, such as stenosis or\nmalformation. In this study, we explore the feasibility of X-ray dark-field imaging with anisotropic iron\ndioxide nanorods as the contrast agent for visualization of complex flow patterns (zones) that may\nsupport quantitative characterization of hemodynamic features, such as wall shear (WS) stress and WS\noscillation, in the carotid arteries for clinical management of CVD via prevention, diagnosis, therapeutic\nintervention, and efficacy assessment."
+ },
+ {
+  "id": "cc7e79de-fa45-4616-b697-878b1e091451",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Macrophage spatial heterogeneity in regulating hematopoietic aging",
+  "text": "Chronic inflammation in aging leads to blood stem cell expansion in the bone marrow. These cells have defective\nregenerative potential, which leads to increased risks of infection, anemia, and blood malignancies. We observed\nthat blood stem cells are protected from systemic inflammation in a subset of bone marrow cavities and aim to\nelucidate the underlying cellular-molecular mechanisms. The goal is to identify targetable therapeutic candidates\nto counteract undesired division of blood stem cells in hematopoietic aging.\n1"
+ },
+ {
+  "id": "cc7ede71-8bf4-4143-9ef6-4a1a1db31e66",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms linking the frail sarcomere to noncompaction cardiomyopathy",
+  "text": "Genetic changes in the single gene, MYH7, which encodes the major motor protein in the heart, cause a\nvariety of human heart diseases, called cardiomyopathies. Up to 1/250 individuals carries a genetic change\nin this gene. Through this work, we will detail why specific genetic defects cause a specific type of\ndevelopmental heart disease which manifest as cardiomyopathies, and this information will help identify and reduce disease risk"
+ },
+ {
+  "id": "cc82d4af-e5d1-4cfd-a685-7804de596038",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Transition Metal Homeostasis and Reactive Sulfur Chemistry in Bacterial Pathogens",
+  "text": "Acinetobacter baumannii and Streptococcus pneumoniae, among others, are significant threats to global human\nhealth, particularly as these organisms acquire multidrug resistance. In this proposal, we outline a broad-based\nstrategy to significantly enhance our understanding of two regulatory processes linked to the survival of these\norganisms in the infected host. How bacterial cells adapt to host-mediated changes in the availability of essential\ntransition metal nutrients and leverage the host dietary antioxidant ergothioneine, hydrogen sulfide biogenesis\nand signaling are the focus of these studies, potentially leading to the identification of new targets for the\ndevelopment of novel antimicrobial therapies."
+ },
+ {
+  "id": "cc85b104-1440-4c42-8611-8d4cdc8fcc11",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Pragmatic Trial of Remote tDCS and Somatosensory Training for Phantom Limb Pain with Machine Learning to Predict Treatment Response",
+  "text": "Chronic Phantom Limb Pain (PLP) is recognized as very difficult to treat as it is often resistant to classical\npharmacological and surgical treatment approaches. Our previous R01 and research studies have shown\nsignificant and robust results to support a combined therapy with tDCS and somatosensory training. In this study\nwe propose to test the real-world effects of home-based tDCS combined with a somatosensory training in a\npragmatic trial design and a machine-learning analysis to find the best predictors of response."
+ },
+ {
+  "id": "cc875207-5032-43cf-8f85-83d6b5da51c8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "WashU-VAI Somatic Mosaicism across Human Tissues (SMaHT) Program Genome Characterization Center",
+  "text": "The WashU-VAI Somatic Mosaicism across Human Tissues (SMaHT) Program Genome Characterization\nCenter (SMaHT-GCC) will identify and characterize multiple types of human somatic variation (SNVs, structural\nvariants, and mobile DNA elements) from multiple tissues from multiple donors using high-throughput genomic\nsequencing including long-read sequencing and single cell sequencing, provide these data to the SMaHT Data\nAnalysis Center, and ultimately contribute to the construction of the SMaHT Variant Catalog."
+ },
+ {
+  "id": "cc88fece-044b-4378-b715-ef7bdd4dcb85",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "DNA-optical barcoding technology for spatiotemporal single-cell analysis",
+  "text": "This application will lead to commercialization of a new technology with immediate benefits for life science\nresearch by addressing the current challenge of obtaining comprehensive information from individual cells.\nThis advancement will accelerate biological discoveries in areas such as cancer, immunology, and stem\ncell biology."
+ },
+ {
+  "id": "cc8eec41-3b0b-4807-b40b-2ddcd2ac5fd0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigation of how RNA-directed feedback loops coordinate wound healing and regeneration",
+  "text": "Numerous disease states ranging from excessive migration in pulmonary fibrosis, incomplete wound\nrepair in uncontrolled diabetes, and the metastatic spread of aggressive tumors have altered cell\nmigration. Several developmental pathways are re-expressed during injury under normal and\ndiseased conditions. The goal of my lab is to further our understanding of wound-healing during\nnormal compared to disease states using development as a road map."
+ },
+ {
+  "id": "cc954adb-c720-49fc-a35d-cfb248e8195e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Unveiling mechanisms of RNA editing dysregulation",
+  "text": "This proposal will uncover how viruses manipulate ADARs to subvert host defenses, reveal conserved viral\nstrategies for regulating RNA editing, and define how inosine edits impact immune activation. This work will\nreveal molecular principles of host-virus conflict to improve treatments for autoimmune diseases, viral infections,\nand RNA-based therapeutics."
+ },
+ {
+  "id": "cc96e175-14bc-420c-888c-4a3e744fcb0f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Home-based actigraphy to predict disability progression and enhance clinical trials in multiple sclerosis",
+  "text": "Wearable accelerometers provide an inexpensive, non-invasive means of measuring patterns of activity, sleep,\nand circadian rhythm in a real-world setting, and the data emerging from our ongoing work show that in a\npopulation of individuals with multiple sclerosis (MS), alterations in the metrics, including related to sleep, are\nassociated with subsequent evidence of atrophy of the brain, itself a precursor to worsening of disability. New\nanalytical advances applied to other neurologic diseases demonstrate that nuanced alterations in walking and\narm movements captured by accelerometers are associated with greater burden of symptoms. In our ongoing,\nprospective cohort of people with MS, we propose to further characterize components of sleep, arm, and gait\nmeasures and how they relate, alone or in combination with imaging measures of tissue loss and chronic\ninflammation in the central nervous system, to disability progression, work that will ultimately help advance\nclinical trials and thus outcomes for people with MS who are experiencing, or are at risk of, worsening function."
+ },
+ {
+  "id": "cc9e0d56-2e76-4642-b320-6e7a7b56841c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Predicting fatal and non-fatal overdose in Los Angeles County with Rapid Overdose Surveillance Dashboard to target street-based addiction treatment and harm reduction services",
+  "text": "Targeted overdose prevention requires timely, localized data to inform healthcare policy and to effectively direct\nresources and interventions. However, such information is often unavailable, resulting in responses that are\noften, “after the fact.” In this proposal, we plan to partner with five local government agencies to develop data-\ndriven tools and processes to rapidly acquire and analyze information to identify overdose hotspots and “now-\ncast” overdose metrics in near-real-time."
+ }
+]

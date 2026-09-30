@@ -1,0 +1,142 @@
+[
+ {
+  "id": "b68d1d55-93e1-444d-aadd-c652f262936b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of OPGx-NMNAT1 as a gene therapy for NMNAT1 associated LCA.",
+  "text": "Leber congenital amaurosis (LCA) resulting from NMNAT1 mutations (LCA9) is characterized by severe, early-\nonset vision loss and progressive retinal degeneration, ultimately leading to near-total blindness by early\nadulthood. Currently, no global or FDA-approved therapies are available for NMNAT1-associated LCA, leaving\ndisease management reliant on symptomatic and supportive care. This significant unmet medical need\nunderscores the urgency for developing an effective treatment for LCA9. This Direct-to-Phase II proposal by\nOpus Genetics aims to advance the development of a novel gene augmentation therapy, OPGx-NMNAT1, by\nsupporting the manufacturing and conducting comprehensive safety and biodistribution studies in rabbit and\nnon-human primate, leading to submission of an IND application for the treatment of patients with LCA9\nmutations."
+ },
+ {
+  "id": "b68d2990-c0a9-4ca5-a899-d82f8092a8e6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Decoding the mechanisms of cell-cell fusion - Renewal - 1",
+  "text": "Cell-cell fusion is fundamental to the conception, development, and physiology of multicellular organisms. It is\ninvolved in processes as diverse as fertilization, placenta development, bone remodeling, immune response,\nand skeletal muscle development and regeneration. Thus understanding the mechanisms of cell-cell fusion is\nnot only important for fundamental biology, but may also provide basis for its manipulation in therapeutic settings\nfor human diseases."
+ },
+ {
+  "id": "b68f3485-351f-4475-803f-70bb05cb10a6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Immunogenomics and Systems Biology Core",
+  "text": "The Immunogenomics and Systems Biology Core (ISBC) at University of Michigan will provide the technical and\nanalytic support for the entire AMP AIM network. The ISBC will expand cutting-edge analytical technologies, that\nwe have developed, to conduct systems-level analyzes of the broad range of multi-omics data generated in the\nAMP AIM, and link with genetic information, to facilitate identification of molecular disease determinants at the\ncellular level, determine their roles in shaping inflammatory signaling, disease heterogeneity, and treatment\nresponse."
+ },
+ {
+  "id": "b68ffb7e-3bc2-485e-a0c3-9fe4a83e4453",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Accelerating Community-Driven Medical Innovation with VTK",
+  "text": "The Visualization Toolkit (VTK) is an open source, freely available software library for the processing,\nvisualization, and analysis of medical and biological data; used around the world in medical research\napplications such as 3D Slicer and Osirix, and in several commercial medical applications, such as BrainLAB’s\nVectorVision surgical guidance system. With recent improvements to AI and web software tools, VTK will be\ngreatly enhanced so that data tools can be deployed as desktop, cloud, and web applications without the need\nfor code rewrite; also providing support for AI chatbots with associated tools for explainable AI such as saliency\nmaps. With the proposed improvements, not only will existing applications continue to provide advanced\nhealthcare, but new, innovative medical applications will be inspired and available across computing\nenvironments."
+ },
+ {
+  "id": "b6945602-91b3-4a87-8947-28c501f64077",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Mapping genotype to phenotype in PCD using iPSCs",
+  "text": "PROJECT 3 There are striking challenges to the diagnosis, care, and treatment of individuals with primary ciliary dyskinesia (PCD). These hurdles are implicit to the fundamental biology of PCD. Compared to cystic fibrosis, a monogenic airway disease, PCD is caused by mutations in >50 genes that encode proteins involved in ciliogenesis and that result in impaired mucociliary clearance. Unlike CF, where 90% of individuals carry at least one copy of the same variant, the genetic landscape of PCD is heterogeneous, both in terms of number of genes and variants within those genes. In CF, we now have highly effective therapies for those 90% of individuals. There are no precision therapies for PCD, nor do they seem close. A paradigm shift is required to enable the development of those therapies. In this proposal, we develop methods to generate a panel of PCD airway cells using induced pluripotent stem cells (iPSCs). We do so using our established methods to generate a self-renewing source of airway basal cells (iBCs) from iPSCs capable of differentiating into multiciliated cells (MCCs). We present preliminary data, demonstrating our ability to efficiently knock out or precisely edit genes in iBCs and phenotype the ciliary defects that result. We test the hypothesis that this iBC platform can detect the pathogenicity of PCD mutations and predict the pathogenicity of variants of uncertain significance. To do so we focus on 5 high priority PCD genes (Aim 1). We take the novel approach of directly inserting VUS (5 per gene) into a gold- standard iBC line to determine if they lead to defects in cilia ultrastructure and or function (Aim 2). In aim 3, we address the intriguing question of why mutations in certain genes (CCDC39 and CCDC40) lead to more severe lung disease. We test the hypothesis that these genes encode for proteins with broader biological roles and their loss leads to cell intrinsic defects and not simply loss of cilia function. Finally, in aim 4 we perform proof-of concept experiments to test the therapeutic potential of iBCs as an autologous, gene-corrected cell-based therapy approach in xenogeneic transplantation studies in NSG mice."
+ },
+ {
+  "id": "b69552ca-109f-4b4c-89bb-c8ea1eede2da",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Functional assembly of an adult motor circuit in Drosophila",
+  "text": "This project uses novel computational and experimental tools to decipher the molecular steps that allow\nindividual neurons to mature into their unique identities and form the correct connections with other neurons to\ngenerate functional neural circuits."
+ },
+ {
+  "id": "b699079d-8781-4be4-b8c3-e75cf66d3aa6",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "RTB 2",
+  "text": "Metastasis requires fundamental changes in cell behavior and causes most cancer deaths. Metastasis is also an inherently 3D process involving interactions among diverse cancer cells and with the tumor microenvironment (TME). We developed innovative 3D assays to model each step in metastasis ex vivo. We use these assays to generate hypotheses about how cancer cells accomplish metastasis and which molecular signals should be targeted therapeutically. In vivo validation of these hypotheses is rate limiting, technically and conceptually. We can compare the effects of many perturbations in vitro, with real-time imaging and molecular readouts. In contrast, in vivo validation is generally limited to measurements of tumor diameter, CTC and metastasis numbers, and a few molecular markers in 2D sections. There is an urgent need to achieve a 3D understanding of metastasis, including the complex interactions among cell types and transitions between cell states. The 3D imaging and spatial multi-omics approaches in TECH1 and TECH2 are ideally suited to allow us to understand vascular invasion, the key transition from local to metastatic disease. Prior studies generally evaluated single cell types or a few markers, largely in 2D. CODA (TECH1) will enable us to classify cell types and their spatial relationships in 3D. DBiT-seq (TECH2) enables us to reconstruct the transcriptome and select proteome of high-resolution regions (~10 micron) across whole sections of human tumors. We will combine these techniques to achieve spatial multi-omics and resolve cancer cell state changes during breast cancer metastasis. Aim 1: Adapt CODA to murine models and human breast tumors, focusing on venous invasion. We will first supply archival human breast tumors to enable TECH to adapt their 3D deep learning algorithms to breast cancer. We will start with a existing series of 250 human breast tumors with digitized serial sections. We will then collect, fix, and section fresh human breast tumor samples, stained with immune and cancer cell markers. We will use CODA to reconstruct the 3D architecture of vascular invasion and associated stromal responses. We will also adapt CODA techniques for use with murine preclinical models. We will then leverage these insights to reconstitute the vascular invasion niche in vitro by adapting a novel microfluidic platform we developed. Aim 2: Adapt DBiT-seq for murine and human breast tumors, focusing on cancer cell state transitions. We will adapt DBiT-seq to 3D human breast tumor samples to understand spatial relationships among cancer cell states during vascular invasion. This analysis will be led from cell states and inferred state transitions we defined in vitro using single cell RNA-seq in our 3D metastasis assays. We will then collect a staged series of tumors and distant organs from GEMMs to define cell state transitions spatially across metastatic processes that are difficult to sample in humans. We will then use the transcriptional and signaling dynamics identified in vivo using DBiT-seq to identify candidate molecular regulators for functional validation in vascular invasion microfluidic devices in vitro. Validated candidates will then be tested in vivo in breast cancer GEMMs."
+ },
+ {
+  "id": "b69fc222-55f7-4858-b572-b25288485cb2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Integrative models of nuclear DNA organization",
+  "text": "Nuclear DNA organization is deliberate. It inﬂuences transcriptional regulation, and structural deviations are\nassociated with cancers and congenital developmental disorders. The goal of this proposal is to elucidate the\nsequence determinants of 3D genome folding across human tissues and mammalian species and model the\nimpact of genome folding on epigenetic regulation, gene expression and alternative splicing."
+ },
+ {
+  "id": "b6a0c6a6-2837-4eb7-abd3-3eac88f7a463",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Machine Perception Nanosensor Array Platform to Capture Whole Disease Fingerprints of Early Stage Pancreatic Cancer",
+  "text": "Serum biomarker measurements have been widely used as diagnostic/prognostic indicators, but many markers\nare not sufficiently sensitive and/or specific to accurately identify the disease state. This project aims to build a\nmachine perception nanosensor array platform technology to detect whole disease fingerprints from patient\nbiofluids. The sensor technology will be optimized and validated for pancreatic cancer to improve diagnoses and\nbiomarker discovery processes."
+ },
+ {
+  "id": "b6a2f1e4-df93-415f-82f3-fed922fa4ce8",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Structural and functional determinants of biomolecular condensates in transcription organization",
+  "text": "Biomolecules can self-organize into membraneless condensates by phase separation. We will investigate\nhow chromatin features determine where transcription condensates form in the cell nucleus, and how\ncondensates structure transcription activity. This knowledge is important to understand how biological\nfunctions arises from chromatin-condensate structures in health and disease."
+ },
+ {
+  "id": "b6a3a4e3-39b3-4df2-b1b6-1f7e60291e6b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Novel therapeutics dual targeting intracrine androgen synthesis and AR for advanced prostate cancer",
+  "text": "Increasing evidence showing that AKR1C3 and AR/ARv7 play important roles in promoting prostate cancer\nprogression and resistance. We have developed a number of novel small molecules that function as dual\ninhibitors of AR/ARv7 and AKR1C3. This application is aimed to determine the efficacy, mechanisms of action,\nand safety of these small molecules and to develop as novel agents to treat advanced prostate cancer."
+ },
+ {
+  "id": "b6a66f44-5a7f-4767-87bf-51534feaa263",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Center for Appalachian Research in Environmental Sciences - Analytical Chemistry Core for Environmental Sciences (ACCESS)",
+  "text": "PROJECT SUMMARY- Analytical Chemistry Core for Environmental Sciences (ACCESS) The University of Kentucky Center for Appalachian Research in Environmental Sciences (UKCARES) ACCESS will provide Center investigators with priority access to biological and environmental sample analysis using state-of-the-science technologies, services, and instrumentation for studies related to the UK-CARES’ three science themes: Health Impacts of Waterborne Contaminants (WATER); Health Impacts of Indoor and Outdoor Airborne Contaminants (AIR); and Emerging Environmental Health Threats (EMERGING THREATS). To optimize efficiency, ACCESS uses the following two existing laboratory facilities to leverage resources available to these facilities and extend the capabilities ACCESS: the Environmental Chemistry and Toxicology Laboratory (College of Agriculture Food and Environment) and the Small Molecule Mass Spectrometry Facility (College of Medicine), to measure organic chemical environmental pollutants, trace-elements, their metabolites, and related molecules of interest to UK-CARES investigators. Effective use of these facilities by UK-CARES investigators will require both routine analysis and new method development and validation. Specifically, Aim 1 of ACCESS is to provide measurements of panels of environmental chemicals. We will provide technically robust methods for detection and quantification of a range of halogenated organics: polychlorinated biphenyls, dioxins, trihalomethanes and haloacetonitriles, per- and polyfluorinated alkyl substances, non-halogenated organics including flame-retardants, environmental phenols, and trace-elements, to support EHS research across the translational spectrum. Aim 2 is to develop or adapt novel methods to support ongoing needs of UK-CARES investigators. Methods will be developed de novo or adapted from the literature. We will use our Thermo TSQ Altis Plus triple stage quadrupole mass spectrometer to develop and validate survey methods that can profile environmental chemicals in multiple classes using a single analytical workflow and use high-resolution MS methods employing our Thermo Exploris 240 orbitrap mass spectrometer for untargeted profiling of environmental chemicals in relevant matrices. Techniques for spatial analysis, microanalysis, and speciation analysis of trace-elements are refined for environmental health studies using our Agilent 7900 ICP-MS and associated peripherals. Aim 3 is to work with administrative and data management functions of the Center to enable robust fiscal oversight, project management, sample tracking and data reporting. We will work in tandem with the Integrated Health Sciences Facility Core and the Administrative Core to ensure that Center members receive priority access, that the activities of ACCESS are aligned with the UK-CARES strategic vision of the three science themes, and that services and outcomes are tracked through the online IHSFC Research Support Portal. ACCESS will provide reliable, technically robust methods and services while pursuing opportunities for innovation. Services provided by the core will support UK-CARES members’ efforts to make innovative contributions to environmental health science."
+ },
+ {
+  "id": "b6a9b3af-1ffc-4b13-95f0-6a1401acadd4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The role of the RNA binding protein IMP1 in intercellular communication and necrotizing enterocolitis",
+  "text": "Necrotizing enterocolitis (NEC) is a deadly disease that affects premature infants with a weakened\nintestinal barrier, exaggerated immune response, and an abnormal intestinal microbiota. We are\nexamining a factor called IMP1 that is important in intestinal development, including impacting\nintestinal barrier function, the immune system, and extracellular vesicle (EV)-mediated\ncommunication. Results from our study will identify new therapeutic targets for NEC through a deeper\nunderstanding of IMP1 and its role in intestinal barrier maintenance and function."
+ },
+ {
+  "id": "b6ae73e3-2367-4733-be9f-bdc11b78614c",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Genome Technology Center",
+  "text": "The Genome Technology Center (GTC) is a state-of-the-art, heavily utilized shared resource that provides expert, affordable, cost-effective, rapid turnaround genomic services to all Perlmutter Cancer Center (PCC) investigators and their collaborators across all New York University (NYU) campuses. GTC is essential to the research of the 4 Research Programs, as genomic analyses are central to most modern cancer research. During the funding period, 111 funded grants and 144 publications used GTC data, many co-authored by the director and key scientific staff. GTC is directed by Dr. Adriana Heguy, PhD, Professor of Pathology and Associate Dean for the Shared Resources at the Office for Science and Research at NYU Langone Health. She has more than 25 years of experience in genomics, 15 years of experience running core facilities at two institutions, and an international reputation in the field. She is assisted by 9 highly trained, expert scientists at the Masters’ and PhD levels. GTC resides in newly renovated, expanded space with a separate sequencing room, an automation suite, office space, and a small conference room that can be used by all PCC Shared Resources. Services offered include automated library preparation, short- and long-read sample preparation for a variety of applications such as whole genome and exome sequencing, bisulfite sequencing, RNA-Seq, single cell multi- omics sequencing, spatial transcriptomics, and multiple epigenomic and chromatin conformation approaches. GTC also educates PCC faculty, staff, fellows, and students who are interested in learning how genomic technologies can advance their research careers. GTC continuously grows and updates its instrument fleet to fit the needs of all PCC members and assesses client satisfaction via surveys and an internal advisory board. The Specific Aims of GTC are: 1) To provide a wide range of expert genomic services, including automated library preparation, sequencing, and to evaluate and implement emerging genomic technologies in order to continue providing state-of-the-art support for PCC members, 2) To facilitate genomic data sharing and storage through high performance computing (HPC) secure servers, including FASTQ file generation, analysis pipeline running and distribution of data to PCC investigators and bioinformaticians, and 3) To educate and inform members of the PCC community on genomic technologies and their use for cancer research through frequent informational and training seminars."
+ },
+ {
+  "id": "b6b02828-5f54-4dbc-986f-9c5d1d1dd31f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Understanding mechanisms by which microbially derived metabolites regulate host gut inflammation.",
+  "text": "Microbial metabolites have shown promise in the treatment of immune system disorders. I propose to use cutting-\nedge technologies to identify novel microbial metabolites and understand their mechanism of action within the\nhost, which will shepherd the development of new medicines."
+ },
+ {
+  "id": "b6bc3fe6-72a6-4fa2-a691-d1b5acd6d6f8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting early events in prostate cancer lineage plasticity",
+  "text": "Standard-of-care prostate cancer treatments targeting the androgen receptor transcription factor exert\nselective pressures that can lead to the emergence of lineage plasticity phenotypes that are difficult to treat\nand poorly-understood. This proposal seeks to understand the role and therapeutic potential of a stem cell\ntranscription factor that is up-regulated by prostate cancer treatments and promotes early events in prostate\ncancer lineage plasticity. We will test the efficacy of blocking this stem cell transcription factor, as well as\ninhibiting its downstream targets, to treat, prevent, or reverse the emergence of lineage plasticity in prostate\ncancer."
+ },
+ {
+  "id": "b6bc60cc-890b-4ba5-aeab-9dd8386a8251",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Peptoid conjugates targeting prostate cancer",
+  "text": "The goal of this proposal is to develop a new approach to inhibit androgen receptor (AR) activity and stop the\ngrowth of prostate cancer cells that have developed resistance to standard anti-androgen agents using peptoid\nconjugates that potently inhibit AR activity while simultaneously eliciting an innate immune response that can\nbe leveraged to induce immune cell killing of the drug-resistant tumor. By combining the development of\npeptoid conjugates that inhibit AR activity with an investigation of their potential to elicit an immune response\nthat can be leveraged for tumor killing, our research has the potential to make significant contributions to\nprostate cancer treatment."
+ },
+ {
+  "id": "b6bd2d09-21b7-4975-86da-6a7af9dcff9a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Examining the impact of cobalamin C deficiency in human brain development",
+  "text": "Cobalamin C deficiency is one of the most prevalent inherited metabolic disorders worldwide. Despite existing\ntreatments, its severe neurodevelopmental symptoms remain largely unaddressed. This research proposal aims\nto elucidate the underlying pathophysiology of cobalamin C deficiency in brain development and explore gene\nediting as a potential therapeutic strategy for this debilitating disorder."
+ },
+ {
+  "id": "b6bec78b-3e9c-432f-916e-a4bd989948f4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Oligodendroglial ANK3 and its role in CNS function",
+  "text": "ANK3 encodes the scaffolding protein AnkG, and is strongly implicated as a risk gene for bipolar disorder and\nother complex neuropsychiatric diseases. AnkG is enriched at axon initial segments and nodes of Ranvier in\nneurons, and paranodes of myelinating oligodendrocytes. Paranodal AnkG is required for stability of the\nparanodal junction and proper myelination. Here, we will determine the paranodal AnkG proximity proteome,\nits functions in paranode assembly, maintenance and myelination, and how it changes with aging."
+ },
+ {
+  "id": "b6c346da-4a4e-4c6a-b4db-aec8ec503bae",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Channels and Transporters in Immunity",
+  "text": "This conference addresses a critical gap in our knowledge and drug development: despite ion channels and\ntransporters being highly effective drug targets, none have been developed specifically for immune disorders,\nleaving patients dependent on broad immunosuppressants with serious side effects. As the only international\nmeeting dedicated to this intersection, it brings together immunologists, biophysicists, physiologists, and\npharmaceutical scientists who study these aspects from their own perspectives, catalyzing the cross-\ndisciplinary partnerships essential for developing precise immunomodulatory therapies. The conference\nparticularly emphasizes supporting trainees and early-career investigators and fostering industry-academic\ncollaborations to accelerate the translation of basic discoveries into new treatments for inflammation,\nautoimmune diseases, and cancer immunotherapy."
+ }
+]

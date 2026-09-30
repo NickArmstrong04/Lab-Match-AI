@@ -1,0 +1,142 @@
+[
+ {
+  "id": "3497c99a-cef1-46da-96be-bb23d6342b7c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Enhancing the efficacy of immunotherapy by optimal use of SMAC mimetics",
+  "text": "SMAC mimetics can boost antigen presentation in some cancer cells and enhance their response to\nimmunotherapy, but it is unclear which subset of cancer patients can benefit from SMAC mimetic treatment in\nthe clinic. This proposal will address the context dependencies of SMAC mimetics’ effects on cancer cells and\nidentify the optimal combination with immunotherapy. The results from this study can enable effective use of\nSMAC mimetics for cancer treatment in the clinic."
+ },
+ {
+  "id": "34999786-bc9c-48db-b070-28e14e48357a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Human CAR-NK therapy for pathological fibrosis in the heart",
+  "text": "Cardiac fibrosis is a leading cause of heart failure, a condition affecting millions worldwide with limited\ntreatment options targeting the underlying disease process. This research develops a novel, immune-based\ntherapy using universal CAR-NK cells to selectively eliminate scar-forming cells in the heart without the need for\nimmunosuppression. If successful, it could provide a safe, scalable treatment to reverse heart damage and\nsignificantly reduce the public health burden of cardiac fibrosis heart failure."
+ },
+ {
+  "id": "34a16796-571b-47d2-8fe9-0a67f3f309ab",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of Safe and Sustainable Systems of Enhanced Bioremediation of PAH Mixtures",
+  "text": "This project aims to develop novel in situ and ex situ biological treatment systems to treat PAH mixtures in\ncontaminated sediment and soil. We propose to create hydrogel beads that contain immobilized bacteria cultures\nextracted from a contaminated site and will apply those hydrogel beads to create permeable reactive biological\nbarriers for contaminated sediments and to treat soil washing solutions ex situ. We will track transformation\nproducts via high-resolution LC-MS as we treat PAH mixtures."
+ },
+ {
+  "id": "34b1186e-1073-4a7e-9925-8f48f35257a3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identification and characterization of molecular subtypes of Alzheimer's disease associated with cognitive function through cross-omics data integration",
+  "text": "Clinical and molecular heterogeneity of Alzheimer's disease is increasingly recognized as a major factor\nimpacting diagnosis, treatment, and most importantly the design and testing of new drugs. Despite the\nsubstantial effort in identifying AD subtypes, there is currently no identified association between pathological\nsubtypes, cognitive function, and molecular subtypes. The overarching goal of this K25 proposal is to identify\nand characterize molecular subtypes of Alzheimer’s disease associated with cognitive function by leveraging\nhigh throughput omics data from different brain regions and cohorts, machine learning, digital deconvolution,\nand traditional statistical approaches."
+ },
+ {
+  "id": "34b5088e-c8de-493f-ab41-7b9942b4a233",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Flexible NLP toolkit for automatic curation of outcomes for breast cancer patients",
+  "text": "While evidence of long-term clinical outcomes and quality-of-life data for cancer patients is trivial\nfor treatment planning, manual extraction of data is an extremely challenging task for human\ncurators and needs hours of manual chart-review. We propose to develop an open-source NLP\ntoolkit for curating treatment administered (chemotherapy, immunotherapy, radiation, surgery)\nand clinical outcome (progression, recurrence) data longitudinally by parsing varying types of\nclinical narratives for performing population-wide cancer research. In this study, we will\ncollaborate with two state-wide cancer registries (Georgia and California) for evaluating our NLP\ndevelopments for cancer data curation and obtain a robust performance evaluation across\nheterogeneous populations."
+ },
+ {
+  "id": "34c2344c-532b-4b5f-b379-8b3a808ff21e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Exogenic organs in gene edited pigs",
+  "text": "Heart disease is common and deadly; the goal and the clinical significance of this proposal are to develop\ngenetically modified pigs as hosts for the production of a nonhuman primate heart. This nonhuman primate-pig\nmodel will be an important resource for regenerative medicine and will serve as a platform for the future\ngeneration of a humanized heart in a pig. Given the tremendous morbidity and mortality of cardiovascular\ndiseases in our society, the potential impact of this proposal is tremendous."
+ },
+ {
+  "id": "34c5d4f1-7d6e-4570-9eba-ac4aa3542f10",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Broadening the proximity labeling landscape with next generation enzymes, chemistries and probes",
+  "text": "Proximity labeling is a technique, that when coupled with proteomics, has vastly enabled molecular discovery in\nbiological systems. This project focuses on developing novel proximity labeling enzymes, chemical probes, and\nchemistries that are highly compatible for tagging proteins in living animals, as well as other cellular biomolecules\nlike lipids. This development will broaden the applications that can be studied with this method and enable the\nexploration of physiological questions that can only be addressed in living organisms."
+ },
+ {
+  "id": "34cb1a01-152d-421a-9421-7a91c2fe0af8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Developing C. elegans as a model to understand tRNA-fragment biogenesis and function",
+  "text": "tRNA-fragments (tRFs) are an emerging class of small regulatory RNAs with the ability to\nregulate all facets of gene expression. tRFs have been implicated in cancer,\nneurogenerative disease, viral infection, fertility, and aging, although little is known about\ntRF biogenesis, regulation, and molecular functions throughout the different tissues of an\norganism. We are developing the worm C. elegans as a model to address these\nquestions, thereby providing the first systematic analysis of how tRFs are made and\nfunction throughout an animal to regulate cellular physiology."
+ },
+ {
+  "id": "34d12c43-37d3-4e6d-95bb-a66f61ad30be",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Anti-tumor immunity and intestinal microbiota are modulated by mitochondrial DNA",
+  "text": "Cancer immunotherapy and fecal microbiota transplantation (FMT) can augment natural immune response\nagainst several tumor types, but not all patients respond, thus it is important to understand the reasons behind\nthis clinical observation in order to achieve better outcomes. We have observed, in mouse studies, that naturally\noccurring differences in the mitochondrial DNA can drastically alter gut microbial composition and immune\nresponses against melanoma, both mediated by the mitochondrial generation of reactive oxygen species\n(mROS) in immune cells. We now propose to determine if this mitochondrial modulation of tumorigenicity is\napplicable to other cancers, the immune cell type responsible, the metabolic basis of the mitochondrial-\nmicrobiota interaction, and the importance of immune cell mROS in modulating the efficacy of FMT."
+ },
+ {
+  "id": "34d84829-c976-436a-ad3f-5dc4bd1612e4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Acculturation, Social Context, Loneliness, and the Development of Alcohol Problems in Culturally Representative Individuals",
+  "text": "Loneliness is prevalent in the US, and lonely individuals who drink are at elevated risk for problematic alcohol\nuse. Hispanic individuals represent the largest current international-origin population in the US and a substantial\nproportion of the population in the Greater Houston area, providing a strong public health context for examining\nacculturation-related mechanisms. Identifying precursors of loneliness in hazardous-drinking individuals from\nthis population will fill an important gap in explaining the underlying social-cognitive, behavioral, interpersonal,\nand cultural mechanisms contributing to loneliness and alcohol problems, and the processes identified in this\nresearch will likely have broad application to additional at-risk populations and social contexts."
+ },
+ {
+  "id": "34db7525-fd12-4426-b559-6a0f4773bf71",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Integrative role of Rps6kb1 in pathological cardiac remodeling",
+  "text": "Heart failure is a leading cause of death worldwide. Pathological cardiac remodeling in response to\nhypertension induces the activation of Rps6kb1 in cardiomyocytes, of which precise roles and mechanisms-of-\naction are elusive. Experiments laid out here will focus on two novel post-translational modifications of Rps6kb1\nin pressure overload-induced cardiomyopathy and heart failure, which may provide new insights for our\nunderstanding of hypertensive heart disease and shed light on novel therapeutic approaches."
+ },
+ {
+  "id": "34e01efd-5059-4f6c-bdaa-3fdc46d0608b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of the Entorhinal Cortical Delta Oscillations in Systems Consolidation",
+  "text": "The entorhinal cortex is among the most severely degenerated regions in Alzheimer’s disease; yet, the circuit\nmechanism underlying the role of the entorhinal cortex in memory consolidation remains unclear. This project\naims to determine the role of entorhinal cortical oscillations in cortical communication to the hippocampus during\nsystems consolidation at the circuit and behavioral levels. The outcome of this study would make a significant\nadvancement in understanding the impairment of memory consolidation in Alzheimer’s disease, which is central\nto the development of therapeutic interventions."
+ },
+ {
+  "id": "34e25d46-3a0e-40ac-9c13-f57e99006940",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Aberrant Nuclear Material Properties in Aging Cells",
+  "text": "Using new high-throughput tools, we have discovered that nuclear biophysical properties change dramatically\nduring senescence. We will identify the molecular mechanisms driving these changes and determine how\naltered nuclear physical properties causally contribute to transcriptional and splicing dysfunction in senescent\ncells. This work will establish perturbations to nuclear physical properties as a fundamental aging mechanism\nand identify novel physical intervention strategies for maintaining nuclear homeostasis during aging, with direct\ntherapeutic implications for age-related diseases including cancer, neurodegeneration, and metabolic\ndisorders."
+ },
+ {
+  "id": "34e82985-848a-437b-8c94-ac4ea0170b49",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Prediction of outcomes in diverticulitis using a deep-learning framework",
+  "text": "This project seeks to apply artificial intelligence techniques to electronic health records to advance research in\ndiverticulitis, one of the most common gastrointestinal conditions for emergency department visits and hospital\nadmissions. We propose to use natural language processing for clinical documentation and deep learning for\nimaging to build a prediction model for subsequent external validation to predict recurrence and long-term\ncomplications of diverticulitis. Our project will advance our understanding of factors predictive of diverticulitis\noutcomes and contribute to clinical care by generating a risk prediction model for risk stratification that will guide\nthe appropriate management of the disease."
+ },
+ {
+  "id": "34e8bf39-d0a1-4aee-90fa-cc42a7002024",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "R15: Enhancement of Genome Editing in Hematopoietic Stem Cells by Nucleic Acids Nanoparticles Delivery of CRISPR/CAS System",
+  "text": "We propose to develop a nucleic acids nanoparticles technology for the efficient delivery of\ngenetic materials into hematopoietic stem cells (HSCs) to guide genome editing. The proposed\nresearch has the potential to advance the treatment of various genetic blood disorders and\nrelated diseases, while also increasing our knowledge of stem cell biology and gene therapy.\nThe research outcomes are expected to benefit public health by improving patient outcomes\nand providing hope for individuals and families affected by genetic disorders, as well as\nenhancing Biomedical Sciences education at Rutgers-Camden and the Coriell Institute of\nMedical Research."
+ },
+ {
+  "id": "34ea5fd0-6278-4972-8a62-7f06f7363280",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "OCT-based functional biomarkers for degenerative diseases of the photoreceptor-RPE-choroid neurovascular unit",
+  "text": "In clinical trials of drugs and other therapies to treat blinding diseases of the retina, the FDA’s\nrecommendation is to use functional assessment, as it is likely to provide earlier indications of their efficacy. In\nour lab we have discovered a novel way to measure neural function at the cellular level in the living, human\nretina (the optoretinogram), using equipment very similar to that employed in commercial, clinical imaging\nsystems. The optoretinogram may prove to be faster, less invasive, and more sensitive to neural dysfunction\nthan existing functional tests. The goal of this grant is to study and improve the technology, and then\ndemonstrate its sensitivity to disease-related dysfunction in patients with inherited retinal degenerations and\nearly to intermediate age-related macular degeneration."
+ },
+ {
+  "id": "34ec97c8-428f-4e5a-9313-37bed5f84572",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Establishing Claudin-2 as a Biomarker For Surgical Identification of Colorectal Cancer",
+  "text": "This project proposes the initial development of fluorescently labeled antibodies that can specifically\ntarget Cldn2 for improved surgical removal of colon cancer. Cldn2 is a protein that is\nhighly over-expressed in colon cancer. Therefore, targeting Cldn2 with an imaging agent will highlight\nthe tumor and its edges to help guided surgeons for more complete CRC resection."
+ },
+ {
+  "id": "34f0cbce-ebbf-4456-b212-a0f955504df0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanism of cytoskeletal transport and transcription-coupled DNA repair",
+  "text": "The directed movement of cargos inside cells by the molecular machines dynein and kinesin is essential for cell\nsurvival. Cell survival is also dependent on the proper repair of DNA damage caused by external factors. This\nresearch will provide fundamental insight into the workings of the molecular machines involved in these two\nprocesses."
+ },
+ {
+  "id": "34f1bbc3-3e01-46c7-a64a-a7dda8bfde1f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Peripheral immunity and the aging brain: Studying the relationship of platelet and neutrophil activity with markers of vascular contributions to cognitive decline and dementia",
+  "text": "This research aims to elucidate the role of vascular and immune dysfunction in Alzheimer's disease\n(AD) and related dementias (AD/ADRD). By examining the associations between platelet, neutrophil\nactivity, and proteomic data with advanced imaging measures of cerebrovascular disease and AD\npathology in two human cohorts, this study seeks to identify novel biological mediators and therapeutic\ntargets. The findings from this multidisciplinary approach have the potential to improve our\nunderstanding of the disease and the identification of novel mediators and targets for intervention,\nultimately benefiting individuals at risk of AD."
+ },
+ {
+  "id": "34f24c1c-dcb4-42d3-8999-92c59e8f64a8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Maladaptive cortico-amygdalar plasticity after noise-induced hearing loss",
+  "text": "Hearing loss often leads to distressing symptoms like tinnitus and sound-induced anxiety, significantly impacting people's quality of life. This project investigates how hearing damage affects brain connections between the auditory cortex and the amygdala, potentially explaining why some people develop an oversensitivity to everyday sounds. By understanding these brain changes, we aim to develop better treatments for those suffering from hearing-related emotional distress, ultimately improving their well-being and social interactions."
+ }
+]

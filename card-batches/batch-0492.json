@@ -1,0 +1,142 @@
+[
+ {
+  "id": "229d4e33-4a8f-4422-9258-f0e29ce93823",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Transdermal Bioreactor: A Platform for Point-of-Care In Situ Cellular Engineering",
+  "text": "Advanced cell therapies are among our most powerful tools for fighting diseases, but their high cost and complex\nmanufacturing make them unavailable to the vast majority of patients who need them. This project aims to solve\nthat problem by developing a revolutionary \"Transdermal Bioreactor\" that functions as a miniature factory on the\nskin, creating therapeutic cells directly inside the body in a safe, simple, and affordable way. By making these\ncutting-edge treatments accessible to all, this technology has the potential to transform medical care and improve\nthe health of millions of people suffering from a wide range of debilitating conditions."
+ },
+ {
+  "id": "22a0935d-1506-424b-a37d-222a69d330e7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Defining how components of the nuclear lamina shape heterochromatin function",
+  "text": "While all cells contain the same genetic information, control of gene expression is crucial for defining unique cell\ntypes. The nuclear lamina contributes to gene repression by compacting and repressing approximately one third\nof the genome in heterochromatin at the nuclear periphery, yet it remains a mystery how association with the\nnuclear lamina confers repression. The overarching goal of this proposal is to resolve this mystery by defining\nhow components of the lamina and chromatin communicate to mediate gene repression."
+ },
+ {
+  "id": "22a15862-a5a6-4242-86e7-c25fa1e483ea",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A Phase II Randomized Assessment of Sparing Parotid Ducts via MRI Sialography for Reduced Patient Reported Xerostomia",
+  "text": "Narrative Study Description\nPatients with oropharyngeal squamous cell carcinoma who have an AJCC 8th edition stage of\nT0-T4, N0-N3, M0 will be enrolled on our double-blind, randomized clinical trial assessing the\nefficacy of MRI sialography guided parotid ductal sparing. Patient reported xerostomia and\nsaliva mass will be compared between groups at 6 and 12 months post-treatment. Atlas-based\nduct segmentation analyses will be conducted to potentially facilitate broader implementation."
+ },
+ {
+  "id": "22a5de3c-b4e8-4b9c-aa24-b87d7025cdbb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Combination Enzyme Inhibition for Enhanced Cancer Therapy",
+  "text": "Metabolic reprogramming is a hallmark of cancer, and dysregulated ornithine metabolism has been implicated\nin the development and progression of hepatocellular carcinoma. We propose to develop and evaluate novel\ncompounds targeting key enzymes in this pathway—ornithine aminotransferase, pyrroline-5-carboxylate\nsynthetase, and ornithine decarboxylase 1—as potential therapeutic agents. These compounds will be tested\nindividually and in combination in vitro and in vivo across cancers with abnormal ornithine metabolism, and\nmechanisms of action will be elucidated using integrated multi-omics and spatial metabolite imaging."
+ },
+ {
+  "id": "22a8f2eb-4ebc-44fe-b571-5db547ef39b4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Elucidating the molecular mechanisms of smoking-induced endothelial dysfunction associated with ALDH2*2",
+  "text": "Smoking continues to be a significant contributor to cardiovascular disease, with a clear correlation between\ngenetic predisposition to smoking and heightened risk for various cardiovascular diseases. The objective of this\nproject is to determine whether and how tobacco consumption should be considered with extra caution in\nindividuals carrying the common genetic variant ALDH2*2, utilizing induced pluripotent stem cell (iPSC) and\ntransgenic mouse models. Additionally, this proposal aligns with the mission of NHLBI by aiming to identify\nprecision medicine strategies tailored to the approximately 540 million ALDH2*2 carriers worldwide."
+ },
+ {
+  "id": "22a93809-1708-48ab-9d7a-5917d2090ec9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Probing structural and biophysical mechanisms of mitochondrial membrane ultrastructure",
+  "text": "The mitochondria’s diverse shapes reflect its wide range of functions, all dependent on regulated membrane\ndynamics and ultrastructure. Our research program will: reveal how mitochondrial membranes are remodeled at\nthe micron network and nanometer cristae scales; uncover how mitochondrial morphology responds to\nenvironmental stressors, including mitochondrial DNA mutation or oxygen deprivation; and identify principles of\nmitochondrial evolution through comparative analysis across diverse eukaryotes; to contribute fundamental\ninsight into structural cell biology. These questions are medically relevant and will advance therapeutics in\nmultiple ways: (1) Mitochondrial dysfunction underlies neurodegenerative disease, with mutation in fusion\nproeins (Mfn1/2 and Opa1) in Charcot Marie Tooth 2A and Dominant Optic Atrophy, SLC25A46 mutations in\nLeigh syndrome and pontocerebellar hypoplasia, and MICOS component Mic13 mutations in\nhepatoencephalopathy; (2) Mitochondrial inner-membrane proteins are promising therapeutic targets against\nemerging parasitic protists; (3) Engineering mitochondrial ultrastructure offers metabolic interventions for cancer\nand aging."
+ },
+ {
+  "id": "22aaa93c-9382-4c86-8784-407a5d7af54c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mutational signature analysis: methods and applications to the clinic",
+  "text": "Identiﬁcation of patterns in DNA mutation data can reveal the biological mechanisms that may be responsible for\nthe alterations. We will develop computational methods to perform such analysis in DNA sequencing platforms\nused in the clinic. The tools we develop will aid clinicians in therapy selection in cancer and other diseases."
+ },
+ {
+  "id": "22b7ae85-b22e-4929-9636-58484807941c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of the lncRNA BCAR4 in Trophoblast Differentiation",
+  "text": "This research addresses a critical gap in placental biology by investigating BCAR4, a placenta-specific long non-\ncoding RNA that is completely uncharacterized in trophoblasts. By defining how BCAR4 regulates trophoblast\ndifferentiation and identifying its molecular interactors, this project will uncover fundamental mechanisms con-\ntrolling human placental development and could reveal novel regulatory pathways relevant to pregnancy out-\ncomes. These studies directly support NICHD’s mission to elucidate the mechanisms governing pregnancy and\nfetal development, as well as the NIH’s mission to advance foundational knowledge that promotes human health."
+ },
+ {
+  "id": "22b843ce-b0e4-4ffb-a6ce-e981e8746535",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Predicting Pediatric Postoperative Complications using Waveform and Electronic Health Record Data",
+  "text": "The goal of this study is to develop and validate models that predict pediatric complications after surgery using\ndata from children’s physiologic waveforms and data from their electronic health record. We will develop these\npredictive models, analyze and incorporate waveform data, and perform an external validation with an\nindependent data source. By applying advanced analytics and data that are already routinely collected,\nwaveform and electronic health record data can be used to potentially improve care for children undergoing\nsurgery and receiving critical care."
+ },
+ {
+  "id": "22bf70fa-3077-4742-9e8e-9d8dac0b50d7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Uncovering the Roles of PIP5KDuring Cell Migration",
+  "text": "Cardiovascular diseases and pulmonary fibrosis collectively affect millions of individuals worldwide and\nremain the leading causes of mortality. This project employs advanced genetic, biophysical, biochemical, and\nimaging techniques to investigate how PIP5K regulates cell migration and polarity through its interactions with\nRas and Arf GTPases. By uncovering these molecular and biophysical mechanisms, this research aims to inform\nthe development of innovative therapies to reduce disease burden and improve health outcomes."
+ },
+ {
+  "id": "22c521e3-1327-445b-8dbc-4ee6fb707556",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cortical-noradrenaline signaling in alcohol behavioral engagement",
+  "text": "The overarching hypothesis of this proposal is that locus coeruleus–cortical circuits regulate behavioral engagement during alcohol-directed responding, and that this engagement is enhanced following protracted alcohol drinking. Alcohol use disorder is characterized not only by excessive intake, but also by maladaptive behavioral engagement with alcohol-related actions despite negative consequences. Cortical regions within the salience network, including the anterior cingulate cortex (ACC) and anterior insula (aINS), are strongly positioned to regulate these processes because of their roles in attention, motivation, and interoception. However, the neural circuit mechanisms through which these cortical regions coordinate alcohol-directed behavior remain poorly understood. To address this gap, the R00 phase of this award will use high-density silicon probes to record neural activity within the ACC and aINS during performance of a 5-choice serial reaction time task (5-CSRTT) adapted for alcohol reinforcement. This behavioral model, developed by the principal investigator, provides a platform for measuring alcohol-directed engagement through task-relevant measures of attention, impulsivity, and motivation. By recording neural ensemble activity during key behavioral timepoints, these studies will define how ACC and aINS activity patterns encode alcohol-related behavioral engagement and how these patterns are altered following a history of protracted alcohol drinking. Further, this award will examine the functional contribution of noradrenergic signaling to alcohol-directed engagement. The locus coeruleus provides the primary source of cortical norepinephrine and is a critical regulator of arousal, attention, behavioral flexibility, and stress-related responding. Using chemogenetic manipulation of noradrenergic signaling during alcohol-directed 5-CSRTT performance, these experiments will determine whether locus coeruleus–cortical input causally modulates behavioral engagement for alcohol and associated cortical ensemble activity. Together, these approaches will identify both the neural correlates and functional mechanisms through which noradrenergic cortical circuits contribute to maladaptive alcohol engagement. The proposed studies will provide important groundwork for future R01 applications focused on projection-specific circuit inhibition, cell-type-specific modulation of cortical alcohol-responsive ensembles, and therapeutic strategies aimed at reducing maladaptive alcohol-seeking and alcohol-engagement behaviors. By combining a novel alcohol-directed behavioral model with in vivo electrophysiology and circuit-based manipulation, this award will establish a mechanistic framework for understanding how cortical contribute to problem alcohol use. Completion of the R00 phase will provide the candidate with the experimental foundation, preliminary data, and technical expertise necessary to establish an independent research program within the alcohol field and contribute to the development of future interventions for alcohol use disorder."
+ },
+ {
+  "id": "22c522c7-acdb-4680-916e-80acdc6e375b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Biophysics and Cell Biology of Meso-scale Gap Closure",
+  "text": "This project will focus on understanding the fundamental mechanisms of tissues closing millimeter-size gaps,\nwhich is important for embryo development, regeneration, and wound healing. The proposed work will develop\nnew tools to measure physical parameters and identify key biomolecules that are involved in such processes for\nvarious tissue types under different environmental stimuli."
+ },
+ {
+  "id": "22c7cc9a-8d9a-4ef9-9b08-9501706c5a3f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Associate-Director Flow and Image Cytometry Roswell Park ComprehensiveCancer Center",
+  "text": "The Flow and Image Cytometry Shared Resource is an integral part of the Roswell Park Comprehensive\nCancer Center (Roswell Park) Cancer Center Support Grant (CCSG) program (P30CA016056, PI Johnson).\nAs the Associate Director of the Flow and Image Cytometry Shared Resource with over 35 years of\nrelevant experience, Dr Minderman’s efforts are solely dedicated to supporting all 5 CCSG research\nprograms with regards to developing, validating and optimizing flow and image cytometry-based assays,\nconsultation on experimental design, data analysis, interpretation, reporting, education and oversight of\nmaintenance/QC of the equipment in the Resource. His insightful intellectual and practical\ncontributions on how cutting edge flow and image cytometry applications can aid the many NCI-funded\nprojects at the cancer center and that of the CCSG program members in particular are invaluable.\nContinued funding of Dr Minderman as NCI Core-based Research Specialist will ensure the stability of an\nessential resource to Roswell Park’s CCSG program."
+ },
+ {
+  "id": "22cb6746-2d9f-40d8-957c-d805b69b383a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Defining histone deacetylase 8 regulation of cardiac myofilament relaxation",
+  "text": "Prolonged sarcomeric relaxation is a contributing factor to diastolic dysfunction, which is associated with\nincreased mortality. Histone deacetylase 8 is upregulated in the hearts of patients with severe diastolic\ndysfunction and may regulate relaxation kinetics by decreasing acetylation. Elucidating the mechanism by\nwhich HDAC8 modulates relaxation may lead to therapeutic targets that can improve sarcomeric relaxation."
+ },
+ {
+  "id": "22d4fd3d-3bdb-4d9e-bd7e-4dde29719f0e",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Core 3: Biostatistics and Bioinformatics Core (BBC)",
+  "text": "PROJECT SUMMARY/ABSTRACT – Biostatistics and Bioinformatics Core (BBC) The overall goal of Core 3, the Biostatistics and Bioinformatics Core (BBC), is to provide comprehensive support in the areas of biostatistics and bioinformatics for all research Projects, Developmental Research and Career Enhancement programs, and Cores in the UCLA SPORE in Brain Cancer. The BBC is comprised of multiple faculty members from the departments of Biostatistics, and Molecular, Cell, & Developmental Biology (MCDB), as well as staff statisticians and bioinformaticians. Faculty members include nationally respected biostatisticians and bioinformaticians with broad expertise in general biostatistics, design and analysis of clinical trials, analysis and interpretation of high-dimensional tissue arrays and gene expression data, and next generation sequencing (NGS) data analysis, which are needed by the SPORE research projects. Collectively and individually, the members have participated in hundreds of studies involving diverse aspects of cancer research, especially translational research. They have experience working in large centers and have served on multiple NIH study sections and review committees. The BBC faculty and staff are actively involved in UCLA Jonsson Comprehensive Cancer Center (JCCC)'s current projects and have an established a history of productive collaborations with the researchers in this proposed SPORE. The BBC has worked closely with the UCLA SPORE in Brain Cancer investigators to provide input on study design, statistical analysis plans, and bioinformatics issues for this competitive renewal application."
+ },
+ {
+  "id": "22d8a86b-1fab-45ba-b265-54fe6de11eb3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Safety and analgesic efficacy of marine lipid precursors of specialized pro-resolving mediators in adults with chronic temporomandibular pain.",
+  "text": "Chronic temporomandibular disorder (TMD) pain often overlaps with hyperalgesia, psychological distress,\nsleep disturbance, and pain in other body areas. A risk factor for each of these disorders is a low level of\nomega-3 fatty acids and their lipid derivatives known as specialized proresolving mediators (SPM) that have\npotent proresolving, analgesic and anxiolytic properties. This randomized controlled trial will determine whether\na dietary supplement of long-chain omega-3 fatty acids enriched with SPM metabolic precursors safely\nreduces TMD pain and these overlapping disorders in adults with chronic TMD myalgia and/or arthralgia."
+ },
+ {
+  "id": "22d905bd-ea45-4b57-9a3f-b2f620a61e4c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Immune-adipocyte Crosstalk in Adipose-selective Thermogenic Program",
+  "text": "(Relevance)\nWhite adipose tissue has an inherent plasticity to turn on the heat generating brown adipocyte gene program to\nincrease energy expenditure. Therefore, understanding and manipulating the biological programs governing\ndistinct adipose thermogenic cell phenotypes may have therapeutic potential to combat obesity and Type 2\ndiabetes."
+ },
+ {
+  "id": "22db1975-90f3-4112-9da7-105f3bd45eb0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Platform for Optimizing Yield and Quality of Therapeutic AAV Vector Manufacturing via Synthetic Helper Genes",
+  "text": "Gene therapy holds great promise for preventing, treating, or curing a wide range of inherited disorders and\nchronic illnesses, but several challenges in the manufacturing of AAV-based gene therapies contribute to\nextremely high costs, concerns about safety, and concerns about future production capacity. This project is\ndesigned to validate a new technology for increasing the productivity and quality of these manufacturing\nprocesses. Implementing this technology is expected to increase production yields, reduce costs, and improve\nthe affordability and safety of AAV-based gene therapies, resulting in greater accessibility to treatment for\npatients with rare diseases and more common conditions."
+ },
+ {
+  "id": "22e298f1-51db-4b3f-95e9-8408eca5570f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating the roles of METTL3 and M6A modification in colorectal cancer progression",
+  "text": "Colorectal cancer (CRC) and metastatic CRC are major causes of cancer-related mortality, with METTL3, an\nm6A (N6-methyladenosine) methyltransferase, serving as a key oncogenic factor in their progression. Therefore,\nunderstanding how METTL3 coordinates with various factors to drive CRC progression through m6A modification\nis crucial. This study advances the field by introducing a comprehensive sequencing approach, a novel analytical\npipeline, and genetic models to identify METTL3 coordinating networks and their target genes in CRC, offering\npotential for innovative diagnostic and therapeutic strategies."
+ },
+ {
+  "id": "22e59782-20c4-4045-a6f9-243b1c5181af",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Sleep-dependent mechanisms of fear memory in the amygdala",
+  "text": "Sleep plays an essential role in memory consolidation, but the underlying mechanism remains\nelusive. In this application, we use in vivo calcium imaging, electrophysiology, single cell\nsequencing, DNA methylation editing, and closed-loop optogenetics to dissect cellular and\nepigenetic mechanisms of fear memory consolidation in the basolateral amygdala. This work has\nthe potential to bridge a knowledge gap between the memory function of sleep and the epigenetic\nmechanism of memory in a critical brain structure, and to provide insight to the development of\ntreatments for dysregulation of fear memory such as PTSD."
+ }
+]

@@ -1,0 +1,142 @@
+[
+ {
+  "id": "4e526648-7032-4e93-b31f-ae0b3461762a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cancer Curricular Advances for Research and Education (Cancer CARE)",
+  "text": "A deeper understanding by researchers and cancer care providers of the unique health needs of individuals with multiple cancer-risk characteristics could markedly reduce cancer risk and improve outcomes and experiences along the cancer care continuum, from prevention to survivorship. In this project, we will establish and promote a foundational course to help prepare early-career scientists and clinicians who are developing their research agendas to engage in cancer research relevant to Americans with multiple, simultaneous characteristics influencing their risk and recovery from cancer, as well as end-of-life care. This innovative course will provide an overview of knowledge gaps and challenges in cancer research relevant to understudied groups who are challenged in accessing clinical care, strategies and resources to address these issues, and opportunities to network with researchers with shared interests who will serve as role models, mentors, and collaborators, thereby enhancing participants’ understanding and abilities to successfully engage in cancer research designed to improve health and cancer care for all Americans."
+ },
+ {
+  "id": "4e556bca-e420-4dc5-9b03-714d5756054c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Genomics & Epigenomics Shared Resource",
+  "text": "GENOMICS & EPIGENOMICS SHARED RESOURCE: PROJECT SUMMARY “Omics” technologies emerged relatively recently and evolved rapidly, becoming essential to almost every aspect of cancer research. In view of this, the Genomics & Epigenomics Shared Resource (GESR) is an indispensable Shared Resource for the Georgetown Lombardi Comprehensive Cancer Center (LCCC) and serves Center Members on both the DC and NJ campuses. The objective of the GESR is to provide investigators with state-of-the-art services for genomic and epigenomic studies, such as DNA/RNA quality assessment, mRNA expression profiling, miRNA expression profiling, DNA sequencing, single-nucleotide polymorphism (SNP) genotyping, copy number variation (CNV) analysis, DNA methylation analysis and label-free molecular interaction analysis. The GESR uses a variety of platforms for these services, including bioanalyzer, microarray, next-generation sequencing (NGS), real-time–polymerase chain reaction (RT-PCR), count-based expression analysis (NanoString), and surface plasmon resonance (SPR). To facilitate these services, the GESR organizes education and training on emerging technologies and provides bioinformatics support and access to software tools and several user-operated instruments. GESR is co-directed by Habtom Ressom, PhD, Aykut Üren, MD, and Benjamin Tycko, MD, PhD. The GESR also relies heavily on the input from the GESR Advisory Committee (AC) and user surveys to prioritize development and assess programmatic needs across the consortium. To this end, new services such as single-cell RNA-seq, digital spatial profiling, and targeted methyl-seq have been launched since the last submission. In FY2022, the GESR provided services to 33 LCCC Members across all three Research Programs (19 Cancer Cell Biology Members, 11 Cancer Host Interactions Members, and 3 Cancer Prevention and Control Members). During the current project period, the GESR supported basic science and translation research with 37 publications, including 12 manuscripts published in high-impact (IF > 10) journals such as Oncogene, Cell Death Differ, Dev Cell, Clin Cancer Res, and Gastroenterology, and provided critical support that enabled the success of 53 extramurally-funded research project grants, and 4 clinical trials. In summary, state-of-the-art instruments housed in the GESR and high-quality services offered by the GESR contribute to numerous, high-impact collaborative research projects among LCCC Members."
+ },
+ {
+  "id": "4e5627cc-e4e8-4c1d-9976-039613d4546d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Macrophage-based Therapy and Immune Checkpoint Blockade for Glioblastoma",
+  "text": "Glioblastoma (GBM) is the most frequent and lethal type of primary brain tumor that is highly resistant to\ncurrent treatments including immune checkpoint blockade (ICB), indicating that development of new effective\ntherapeutic approaches is urgently needed. Because GBM harbors abundant tumor-associated macrophages\n(TAMs) that mainly augment malignant growth, promote therapeutic resistance, and mediate immune\nsuppression that negatively impacts current immunotherapy, reprograming tumor-promoting macrophages\n(pTAMs, M2-like) into tumor-suppressive macrophages (sTAMs, M1-like) not only activates macrophage\nphagocytosis of glioma cells to suppress malignant growth but may also remodel the immune\nmicroenvironment to facilitate current ICB. In this proposal, we will assess whether reprograming pTAMs into\nsTAMs through BACE1 inhibition by MK-8931 synergizes with current ICB to significantly improve therapeutic\nefficacy for GBM, which will inform further clinical trials to potentially benefit patients with GBM or other\nmalignant brain tumors including brain metastases."
+ },
+ {
+  "id": "4e674aef-e858-4033-bee3-1351fba72d6c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Minimally-invasive technology for personalized nutritional monitoring",
+  "text": "This project aims to advance technology to monitor dietary intake in support of precision nutrition, which is\nimportant in managing many chronic conditions. An innovative combination of insertable and wearable devices\nwith advanced computational methods is proposed to enable continuous or “on-demand” measurement of\nseveral metabolites and use them as nutritional biomarkers for estimation of macronutrient intake."
+ },
+ {
+  "id": "4e67a80d-12b4-4a4e-a161-7a5ee1e3024f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Bottom-Up Mass Spectrometry Imaging of Tissue Proteins",
+  "text": "Mass spectrometry imaging (MSI) represents a state-of-the-art approach for analyzing the spatial distribution\nof molecules within biological samples, providing profound insights to help understand the physiological role of\nbiomolecular and cellular systems. However, currently MSI of proteins mainly adopts “top-down” protein analysis\napproach, in which the number of identified proteins is limited. To tackle this challenge, in this project, we propose\nto combine MSI with ultrafast online microdroplet digestion to enable “bottom up” MSI analysis of proteins directly\nfrom tissues."
+ },
+ {
+  "id": "4e68a8f6-8afe-405b-8a18-823e2df4095f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Active surveillance of oocyte quality is moderated by the cGAS-STING pathway",
+  "text": "Individuals are born with a non-renewable ovarian reserve which necessitates tight regulation of follicle activation\nand growth to prioritize development and fertilization of high-quality oocytes while simultaneously removing poor-\nquality gametes. I propose the cGAS-STING pathway, a mediator of the innate immune response, functions as\nan active follicle surveillance mechanism to detect poor quality oocytes and initiates an inflammatory response\nin granulosa cells to remove affected follicles by disrupting bi-directional communication within the follicle. The\nproposed studies will provide novel insight into the physiologic function of the cGAS-STING pathway in preantral\nfollicles and has broader implications for understanding how the follicle responds to environmental exposures\nsuch as toxins and infectious agents."
+ },
+ {
+  "id": "4e7216e3-cc45-4608-bfb7-421055270b56",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Genetic and therapeutic studies of hemostatic and thrombotic disorders using zebrafish",
+  "text": "Public Health Relevance Statement\n Pathologic dysregulation of the coagulation system is a major contributor to human morbidity and\nmortality, resulting in either excessive bleeding or clotting. While major improvements to human health have\nbeen made through advances in genetic technology and recombinant protein engineering, there are still a\nnumber of limitations to current diagnostics and therapeutics. The proposed studies will identify potential new\ndiagnostics, therapies, and therapeutic targets, which will result in broadened treatment options for a diverse\narray of affected patients, enabling clinicians to tailor therapy to individuals with both hemostatic and\nthrombotic disorders."
+ },
+ {
+  "id": "4e7a0ffa-4c2b-4393-a3c1-28d3d62ab653",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Functional Relevance of Pyrimidine Sensing and Response Pathways in Tumor Metabolism and Cancer Therapy",
+  "text": "Nucleotide metabolism is effectively targeted by anti-cancer agents, but their use is limited by toxicity to non-\ntransformed cells, especially anti-cancer immune cells. Here, we strive to gain a more complete understanding\nof nucleotide metabolism—from sensing mechanisms to the response to nucleotide depletion—to enable\nsophisticated anti-cancer strategies that target cancer cells while sparing normal and immune cells."
+ },
+ {
+  "id": "4e7bff42-ad25-4624-befb-285dc3fb0b48",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Skeletal stem cell plasticity in craniofacial bone diseases.",
+  "text": "The overall vision is to establish a craniofacial bone disease program focusing on skeletal stem cell plasticity\nas a central mechanism of craniofacial bone formation in intramembranous and endochondral pathways. This\nproposal aims to develop a research program addressing fundamental mechanisms of craniofacial bone\ndiseases from the perspective of skeletal stem cells and their lineage plasticity. The research program is\nexpected to establish skeletal stem cell dysregulation as a fundamental tenet of craniofacial bone diseases,\nwhich will serve as a critical therapeutic target of clinically prevalent conditions in autotherapies."
+ },
+ {
+  "id": "4e87feeb-1562-4d2c-b105-866bbec59d89",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Understanding mechanisms of impaired immunity in the AML bone marrow",
+  "text": "Immune-based therapies have transformed the treatment of many hematologic malignancies, but such\napproaches have had limited success for acute myeloid leukemia (AML), an aggressive hematologic\nmalignancy that remains fatal in nearly half of diagnosed cases. However, there is great potential for T cell-\nbased immunotherapeutic approaches for treating AML given (1) studies demonstrating impaired T cell\nimmunity in AML patients, (2) clinical data illustrating correlation between the bone marrow immune landscape\nand treatment responses to both chemotherapy and immunotherapy, and (3) the curative potential of\nallogeneic hematopoietic cell transplantation for AML arising from the immune-mediated graft-versus-leukemia\nactivity of donor T cells. The goal of this study is to perform deep analysis of T cells in parallel with surrounding\npopulations in the bone marrow, the site where AML emerges, to elucidate key mechanisms driving T cell\nfunctional responses to AML longitudinally, and to identify immunologic targets for potential therapeutic\nintervention."
+ },
+ {
+  "id": "4e8bd331-7c06-4fc2-ad80-9a4fc17f18cc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Understanding the biology of an ADCK4-NUMBL fusion in lung adenocarcinoma aggressiveness",
+  "text": "Lung malignancies are the leading cause of cancer death. We have identified an ADCK4-NUMBL cis-SAGe fusion transcript by screening a cohort of lung adenocarcinoma patients known to lack typical oncogenic drivers. Cis-splicing between adjacent genes (cis-SAGe) is an understudied biological mechanism associated with an increase in genomic complexity. We find that the ADCK4-NUMBL fusion transcript is detectable in normal immortalized lung epithelial cells and at various levels in seven lung cancer cell lines evaluated. Likewise, measurement of the ADCK4-NUMBL Exon 14-Exon 2 transcripts in RNA derived from tumors from patients with lung adenocarcinoma revealed significant variation. A cohort of 193 lung adenocarcinoma patients was divided into high and low ADCK4-NUMBL expression groups, and overall survival comparisons were made. Kaplan- Meier analysis revealed that patients with high RNA expression (above the median) of ADCK4-NUMBL have diminished overall survival (Log-rank p <0.001) compared to patients with low expression. ADCK4-NUMBL levels were elevated in self-identified Black patients (p = 0.01), in smokers (p = 0.03), and in patients with KRAS mutations (p <0.04). No differences in ADCK4-NUMBL expression were observed when comparing patients by sex, age, stage, or body mass index. NUMBL immunoprecipitation, gel electrophoresis, and mass spectrometry analysis support the conclusion that the endogenous ADCK4-NUMBL transcript produces a protein product. Enforced expression of the ADCK4-NUMBL Exon 14-Exon 2 protein in A549 cells results in accelerated cell proliferation. These preliminary findings lead us to hypothesize that the ADCK4-NUMBL transcript produces an oncogenic protein that contributes significantly to lung cancer aggressiveness in a subset of lung cancer patients. In this pilot study, we propose the following exploratory aims to probe deeper into this general hypothesis and generate a strong premise for a future R01 application."
+ },
+ {
+  "id": "4e912679-1a3b-4903-b8a7-7c6c671284cd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of a web-based platform implementing novel Predictor of Toxicity for Medical Devices (PredTox/MD)",
+  "text": "There are emerging FDA directives to restrict and, eventually, eliminate animal testing of medical\nand cosmetic products and integrate alternative New Approach Methods (NAMs) into regulatory\nprograms. However, such evaluation still relies on time-consuming and expensive animal testing.\nTo address this yet unmet need, in Phase II of this project, we will create novel computational\ntoolkit and web-based resource to evaluate the toxicity of medical devices for sensitization,\nirritation, and cytotoxicity."
+ },
+ {
+  "id": "4e925194-7939-43f5-86d0-f883cf3bcfc3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development and implementation of statistical machine learning methods to shorten rare disease odysseys",
+  "text": "The expected outcomes are a novel, open-source NLP system for RD diagnosis, an implementation framework using REDCap to support timely diagnosis at the Vanderbilt UDN, and an advanced, reproducible causal inference framework to elucidate the complex phenome-genome-exposome interplay underlying RDs on an individual- level basis."
+ },
+ {
+  "id": "4ea04351-0e6f-4fd3-bab5-8c0ca764a004",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Testing a Dyadic Model of Proximal Suicide Risk in Young Adult Romantic Couples",
+  "text": "Suicide is a serious public health crisis and a leading cause of death in young adults, especially among those\nwith borderline personality disorder (BPD). Results from this study will advance understanding of dyadic\ninterpersonal mechanisms within romantic relationships that exacerbate and maintain suicide risk in young\nadults, including those with and without BPD. The ultimate impact of this work is to inform improved, evidence-\nbased assessment tools, identify new targets for intervention, and develop partner-involved intervention\nstrategies to reduce suicide risk and improve psychosocial functioning in vulnerable young adults."
+ },
+ {
+  "id": "4ea2384a-f034-4b86-bc9e-27b73349b5b1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Non-specific electrostatic interactions of biological macromolecules in physiology, pathology and therapy",
+  "text": "Non-specific electrostatic interactions play an important role in a variety of physiological and pathological\nprocesses, but are difficult to study due to the involvement of biopolymers exhibiting extreme degrees of\nstructural heterogeneity and the large size of the resulting macromolecular complexes. We will continue\ndeveloping novel methods of structural analysis tailored to such systems and applying them to the studies of\nelectrostatically-driven biological processes. The specific targets include ultra-large complexes formed by\nheparin and polycationic chemokine platelet factor 4, large macromolecular assemblies modeling neutrophil\nextracellular traps, and interactions of polycationic bismuth oxide-based structures with the polyanionic\nmacromolecules in the gastric environment."
+ },
+ {
+  "id": "4eaa3780-f11c-446d-8b72-9ecb2826c5f1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "An AI-powered informatics resource for accelerating New Approach Methodologies research",
+  "text": "An AI-powered informatics resource for accelerating NAM research\nNew Approach Methodologies (NAMs) encompass a range of non-animal technologies such as human cell and\ntissue cultures, organ-on-a-chip systems, and computational or AI-driven approaches (including digital twins),\nand allow insight into biological systems and disease processes across multiple scales, complementing\nexisting animal model approaches. We will develop an AI-powered resource for integrating and reasoning\nabout NAMs, enabling scientists to explore models (or combinations of models) for different biological systems\nand conditions to help choose or develop the most appropriate NAM for modeling different biological systems\nand diseases at different scales. Our goal is to help reduce reliance on animal models for research, accelerate\nscience, and support more predictive, human-relevant biomedical research."
+ },
+ {
+  "id": "4eab59c5-0a51-4e45-a46e-6b7e92da9b64",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting defective differentiation in the treatment of pediatric rhabdomyosarcoma invasion and metastasis",
+  "text": "The outcome for children with a rare late-stage cancer of the muscle, known as rhabdomyosarcoma, has not improved in more than forty years. This project studies what controls the spread of these cancer cells to other parts of the body, which is the main cause of death in these patients. The results will improve what is known about how these cells spread and help find new treatments for children with rhabdomyosarcoma."
+ },
+ {
+  "id": "4eb00928-474c-4725-bcb4-1ae5c0a22b96",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Research Projects Core",
+  "text": "The Research Projects Core (RPC) of the COBRE Center for Neuroplasticity will facilitate the discovery of new approaches and agents to combat diseases affecting the nervous system like Alzheimer’s, Parkinson’s and disabilities resulting from nervous tissue trauma and injury. This Core integrates enthusiastic scientists, model systems and strategies in modern world-class facilities to better understand how the brain and the nervous system adapt to challenging changes during health and disease. The scientific activity will also nurture the next generation of neuroscientific leaders."
+ },
+ {
+  "id": "4eb3d42e-8be4-4be8-b6e5-68ab8d8204e3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "CCRL2 as a Regulator of Growth and Novel Target in Myelodysplastic Syndrome",
+  "text": "Myelodysplastic syndrome (MDS) is a frequently fatal type of blood disorder with few therapeutic options due to\nchallenges in distinguishing and targeting the abnormal immature cells in the bone marrow. We have discovered\nthat the levels of a specific receptor called CCRL2 are significantly higher in MDS cells compared to healthy cells\nand this molecule promotes the growth of these abnormal cells. We propose to determine the specific\nmechanisms of the growth activities of CCRL2 in MDS and develop therapies that will effectively suppress the\ngrowth of abnormal cells in MDS patients.\n."
+ },
+ {
+  "id": "4eb7ef4e-7fed-4e15-9816-4c3dd1041476",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Optimization of genotyping and analysis pipelines for evaluating antimalarial therapeutic efficacy studies",
+  "text": "Therapeutic efficacy studies are the primary means by which antimalarial drug efficacy is assessed, providing\nurgently needed data to guide therapy in the current setting of emerging drug resistance. To assess study\noutcomes, genotyping of malaria parasites is required to distinguish whether recurrent parasitemia after\ntreatment is due to failure of the drug or a subsequent malaria infection; unfortunately, the currently used\napproach - based on outdated laboratory technology and ad-hoc analysis - is inaccurate, inconsistent, and\nchallenging to perform. In this 3-year R01 proposal, we will optimize, evaluate, and implement more accurate,\naccessible genotyping and analysis methods at multiple sites in Africa, taking advantage of modern\nsequencing technology and software design."
+ }
+]

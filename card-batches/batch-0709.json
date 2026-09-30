@@ -1,0 +1,142 @@
+[
+ {
+  "id": "709dcaaf-095b-412a-b5ee-0e1f93ecdfca",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular mechanisms of T cell responses to a clonal neoantigen resulting from a mutated driver oncogene.",
+  "text": "The purpose of this project is to resolve the molecular mechanisms of how a shared mutation in the “driver”\noncogene PIK3CA, among the most commonly mutated human cancer genes, can elicit a specific immune\nresponse. Studying the structural, biophysical, and cellular response to this shared neoantigen will enable an\nentirely new class of precision immunotherapies targeting a genetic alteration that causes cancer."
+ },
+ {
+  "id": "709e8622-0181-44d2-aca4-967cdfb2c499",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Leveraging diverse ancestry and environmental variables to understand the evolution and architecture of complex traits",
+  "text": "Understanding the genetic drivers of complex traits and diseases within and across populations is a\nfundamental goal in human genetics. Recent large scale biobank projects have collected vast amounts of\ngenomic and phenotypic data, including information about environmental exposures, towards this end, but we\ncurrently lack the tools to make full use of these data. This project will develop and apply new statistical tools to\nunderstand the evolution of the genetic architecture of complex traits with three major foci: 1) natural selection,\n2) gene-environment interactions, 3) demographic history."
+ },
+ {
+  "id": "70a24a4e-9afe-4d09-b584-ec627b161fe6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "ETS-family Transcription Factor Mediated Control of Pulmonary Inflammation Induced by Influenza Viruses",
+  "text": "Inappropriate type I interferon (IFN) signaling is associated with excessive immunopathology during and after\ninfluenza A virus infection. We performed a genome wide over-expression screen for previously undescribed\ncontrollers of IFN signaling and identified the interferon stimulated gene ETV7 as a transcriptional suppressor\nof this pathway. The major goal of this application is to define the mechanisms underlying ETV7 function to\nenable novel intervention strategies which limit immunopathology and enhance lung regeneration after viral\ninfection."
+ },
+ {
+  "id": "70a71bd4-3a56-4775-be72-beb4d16d4f64",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Predictive Markers and Mechanisms of Persistent Psychotic-like Experiences in Children: An Adolescent Brain and Cognitive Development Study Analysis",
+  "text": "Child psychotic-like experiences (PLEs) are common disturbances of perception and ideation that occur in\nchildhood and that (if they become persistent) may be risk factors for poor mental health in adolescence and\nbeyond. As risk factors that predict persistent PLEs have not been reliably identified, the goal of this study is to\nuse deep learning combined with explainable artificial intelligence to identify features from multimodal data in\nthe Adolescent Brain and Cognitive Development Study dataset that predict future levels of PLE distress, and\nthen use these features to model PLE trajectories using structured equation modeling. The results of this study\nwill help develop novel, personalized ways to prevent persistent PLEs from developing and ultimately improve\nmental health."
+ },
+ {
+  "id": "70a90a28-c15c-4366-862d-977cc5151bca",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "21ST CENTURY IMAGING SCIENCES: GRADUATE STUDENT TRAINING",
+  "text": "Biomedical imaging is key to unlocking the secrets of human health and disease, from the level of genes\nand proteins, to signaling pathways, to cells and tissues, and whole organisms--and ultimately to visualizing\nthe effectiveness of therapies in action. The better imaging tools we develop, the greater our ability to treat\ndisease and improve human health. To this end, the training of interdisciplinary imaging scientists is critical."
+ },
+ {
+  "id": "70aa75cd-d7cf-406a-b0a8-d74b3802cbc5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "IMPAKT Study: Imaging Modalities in Pediatric Assessments of Kidney Transplants",
+  "text": "To improve pediatric kidney transplant survival, we propose to investigate how non-invasive MRI and contrast-\nenhanced ultrasound imaging biomarkers may detect and predict allograft injury at-risk of failure. This research\nis highly relevant to public health as it targets improving long-term health outcomes globally by validating more\naccessible imaging technology and enhancing personalized management based on individual imaging patterns\nof kidney transplant dysfunction; imaging as surveillance tool to assess allograft health."
+ },
+ {
+  "id": "70aa8680-b0dc-4ab9-a5b4-5b71f6b14004",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Bridging the Gap in Pediatric TMD and Migraine Through Multidimensional Phenotyping and Precision Pain Profiling",
+  "text": "Temporomandibular disorders (TMD) and migraine frequently co-occur, yet the biological and psychosocial\nfactors underlying this comorbidity in adolescents remain poorly understood. The proposed study will integrate\nmolecular, sensory, clinical, and psychosocial data to identify risk profiles that differentiate adolescents with TMD\nwho experience migraines from those who do not. These data will inform the development of future machine\nlearning models to predict treatment outcomes and advance personalized, precision-based care for adolescents\nwith comorbid TMD and migraine."
+ },
+ {
+  "id": "70ab7a94-f4e6-4a5f-aacf-ede9f29625f2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Scaling Up advanced genomics and bioinformatics Research traininG in pEdiatric HIV/AIDS in Uganda - SURGE",
+  "text": "Sub Saharan Africa faces a disproportionally large number of children infected HIV with a significant burden of\nmorbidity and mortality in the first year of life. Genomics and bioinformatics offers an opportunity to develop\nnovel strategic for control of the epidemic. Consequently, HIV research training in genomics and bioinformatics\nis warranted to increase high impact HIV research capacity in Uganda."
+ },
+ {
+  "id": "70bb28c0-b59b-4e4b-9020-6f8a96799ca9",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Core B: Animal Model Core",
+  "text": "Shared Resource Core B – Abstract This integrated P01 program relies on the premise that the biophysics of respiratory droplets impacts M. tuberculosis (Mtb) payload, physiology and culturability, and thus influences its ability to transmit and infect a new host. To study the aerobiology of infection and identify the bacterial genes required for effective transmission, we will develop a tractable model of simulated Mtb transmission and apply it to compare infectivity of wild type versus mutant Mtb strains, from cavity caseum to terminal lung airways. The mouse is the most widespread animal model of aerosol infection used to investigate TB disease, bacterial genetic requirements and response to therapy. There is extensive experimental evidence supporting efficient lung ‘seeding’ by aerosolized Mtb droplets. Our group has access to two large animal BSL3 facilities and has a long-standing expertise in developing and optimizing new animal models to address challenging questions that require translational tools. We have also developed tools to generate cavity caseum in a modified rabbit model of active TB, and variations of caseum surrogate that rely on foamy macrophage lysate and mucosalivary secretion mimics as the starting point. These matrices will be optimized and used (i) in in vitro screens of Mtb mutants to identify and validate candidate genes required for survival of Mtb during the transitions between host-like and environmental conditions (with Projects 1 and 2: identification of genes and adaptive metabolic responses that Mtb requires to survive transmission stresses), (ii) as the starting material to aerosolize Mtb bacilli in experiments of controlled transmission to mice, to qualitatively and quantitively mimic overall features of human respiratory secretion dynamics in the bioaerosol generator, and (iii) to test the hypothesis that some drugs may impair transmission despite accumulating in caseum and cavities at concentrations that are sub-bactericidal. With support and guidance from the Aerobiology Project 4, we will combine and leverage in vitro, ex vivo and in vivo tools to develop and optimize a mouse model of simulated transmission by controlled aerosol infection. The model will be applied to confirm the contribution of Mtb genes and pathways – identified in vitro – in the successful multi-step transition from one host to another. Mutants with demonstrated loss of fitness for transmission in mice will progress to testing between-animal transmission in guinea pigs (Project 3: Mechanisms of cough in M. tuberculosis transmission). Thus Core B activities serve the objectives of each project and will be closely guided by Aerobiology Project 4."
+ },
+ {
+  "id": "70bbabc4-8452-411b-a9fe-f80abddf9863",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "SRIC",
+  "text": "(Super-resolution imaging core – SRIC) Basic research in Cell Biology investigates the interaction between subcellular organelles, proteins, signaling molecules, and nucleic acids. Such research requires sophisticated high-resolution imaging to detect, track, and quantify the dynamics of nanometer-sized cellular components with nanometer precision. Such spatial resolution eludes traditional light microscopes, but can be accessed by super-resolution light microscopy methods that break the optical diffraction limit. Such advanced microscope techniques have become powerful and essential tools in modern biology. While they are plentiful and commercialized, they require substantial resources in cost, and experience that are often far beyond the reach of a single-PI laboratory. The Super-resolution Imaging Core (SRIC) will unify these resources within one core facility to fully exploit super-resolution microscopy within the research of multiple PIs at OUHSC. The SRIC will provide a wide range of state-of-the art optical imaging instrumentation and image processing software to acquire and refine high resolution images of subcellular structures in a variety of fixed and living cellular systems. The SRIC will also employ personnel and leadership with extensive experience in high-resolution imaging. This wealth of experience will provide rigorous technical oversight that trains individual investigators in imaging techniques, sample preparations, data analysis, and image interpretation. The existing imaging expertise will also provide conceptual collaborative assistance to individual investigators in study design, experimental approaches, and grant proposal preparation. In this way, the SRIC Core will advance our understanding of the role of sensory organelles, specialized signaling domains, and cell surface molecules in neuronal signaling in health and disease."
+ },
+ {
+  "id": "70c4691f-517d-4d87-8fde-a463c2784118",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Critical Care Training Program",
+  "text": "Critical illness results in significant morbidity and mortality, associated with devastating outcomes both in terms\nof human suffering as well as financially due to high costs associated with the intensive care unit. There is a\nlarge unmet need for researchers to discover new insights to improve outcomes in critically ill patients. This\ninstitutional training grant is aimed at helping fill this need by providing research training for physician scientists\nwho will pursue careers related to critical care."
+ },
+ {
+  "id": "70d1e34c-6844-480d-9d17-341be738e190",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Elucidating Genetic Susceptibility of Covalent Kinase Inhibitors with iPSC \"Cell Village\"",
+  "text": "Cancer and cardiovascular diseases are the two leading causes of death in the US and worldwide. Despite the development of second-generation targeted cancer therapies, including covalent tyrosine kinase inhibitors (TKIs), these chemotherapy agents frequently cause significant cardiovascular toxicities (CTX). Understanding the mechanism of CTX susceptibility and developing mitigation strategies are major current challenges in this field. In Project 2, our team will elucidate the genetic susceptibility of cancer patients to the CTX after treatment with ibrutinib, a covalent Bruton kinase inhibitor. In Aim 1, we will harness multiomics and new multiplexing methodology known as “cell village” to perform population level studies in vitro. In collaboration with Project 1 and Core B, we will recruit ibrutinib-treated patients who developed CTX (“ibrutinib-CTX”) and ibrutinib-treated patients who did not develop CTX (“ibrutinib-nonCTX”) to generate induced pluripotent stem cells (iPSCs). The multiplexing capability of the patient-derived iPSCs will be utilized to form “cell village” pools that can be differentiated into cardiomyocytes (iPSC-CMs). The effect of ibrutinib will be monitored on the transcriptome and epigenome level through single-cell multiomics sequencing technology. In Aim 2, these changes will be examined using expression quantitative trait loci (eQTL) studies to detect variants causal for CTX development, which will be further screened for mitigating pathways in collaboration with Project 3. In Aim 3, we will validate the causality of the top 3 detected genetic variants via genome editing in iPSC lines. The edited lines will then undergo comprehensive functional studies using 3D models of iPSC-derived cardiac organoids (iPSC-COs). In summary, understanding the mechanism and genetic background of ibrutinib-induced cardiotoxicity will contribute significantly to developing patient-specific strategies that can mitigate adverse effects of these drugs. Once established, this versatile and high throughput genetic screening strategy can also be expanded to encompass other covalent TKIs and cancer drugs."
+ },
+ {
+  "id": "70d47af3-868f-4615-8ae2-08eeb2fa3921",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Disrupted striatal cholinergic signaling and compulsive motor behaviors",
+  "text": "Compulsive motor behaviors are a symptom of numerous neurodegenerative, neurodevelopmental and\nneuropsychiatric disorders. The proposed research, focusing on the cholinergic system, is designed to identify\nprecise, targetable brain circuit dysfunctions that underlie pathological compulsive motor behaviors, making the\noutcomes relevant to public health. This knowledge will help develop improved therapies to enhance the quality\nof life for a broad spectrum of patients, making the proposed research relevant to the NIH’s mission."
+ },
+ {
+  "id": "70de4c11-0044-4d39-b5ea-26e176ffcd99",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "An organ on-a-chip model of oral cancer and bone invasion",
+  "text": "Head and neck cancer is the sixth most common cancer worldwide with approximately 600,000 new cases diagnosed each\nyear. Oral squamous cell carcinoma (OSCC) in particular, poses a significant health challenge due to its aggressive nature\nto invade craniofacial bone. Our proposed organ-on-a-chip model offers a novel approach to address the critical unmet need\nin OSCC research by uniquely recreating the tumor-bone interface in a way that is both human-specific and physiologically\nrelevant and represents a unique tool for academic researchers, pharma and regulatory bodies to assess drug efficacy and\nsafety in a highly manipulable, high-fidelity human model."
+ },
+ {
+  "id": "70dfa34c-322a-4271-8873-57b32938f311",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting negative affect through mindfulness training in youth at risk for internalizing problems",
+  "text": "Depression and anxiety in youth are serious public health concerns for which more targeted prevention\nefforts are needed. This study tests the efficacy of an app-based mindfulness intervention that\nspecifically targets skills for regulating negative affect in order to prevent anxiety, depression, and\nassociated impairment in at-risk adolescents."
+ },
+ {
+  "id": "70e140cf-1fb7-4db0-8889-0674871f2a24",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Optimizing lung cancer interventions in a dynamic landscape for tobacco use, early detection, treatment, and survivorship care",
+  "text": "PROJECT NARRATIVE / PUBLIC HEALTH RELEVANCE STATEMENT\nThe Cancer Intervention and Surveillance Modeling Network Lung Working Group uses advanced modeling\nmethods to guide policies and interventions that address lung cancer morbidity and mortality. With a 20+ year\nhistory of policy impact and productive collaboration, we have directly informed tobacco control and screening\ninterventions that have reduced the number of lung cancer and tobacco-related deaths in the US. We propose\nto continue our work and address emerging challenges in lung cancer control, including: 1) the impact of e-\ncigarettes and oral nicotine pouches on smoking and lung cancer rates, 2) barriers that limit the benefits of\nlung cancer screening and novel early detection technologies; 3) the treatment and surveillance complexities of\na growing lung cancer survivor population; and 4) the translation gap between research findings and state-level\npolicy intervention."
+ },
+ {
+  "id": "70e1e95b-9491-43be-a267-8b4e3545ddd3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Regulatory T Cells And Bronchopulmonary Dysplasia-Associated Pulmonary Hypertension",
+  "text": "Bronchopulmonary dysplasia (BPD) associated with pulmonary hypertension (PH) or BPD-PH is a common\nchronic lung disease of premature infants that is associated with increased mortality, serious life-long\nmorbidities, and lack of specific therapies. Thus, this project aims to examine the mechanistic and therapeutic\nroles of regulatory T cells in BPD-PH. Successful completion of our aims could lead to the development of\ninnovative strategies to prevent and treat this debilitating disease of preterm infants."
+ },
+ {
+  "id": "70e7d91e-44f9-4cea-b9f5-4537d6b480cb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Homeotic hotspot in the human genome for eye and brain disease",
+  "text": "We will investigate the chromatin and developmental basis for a heterogeneous set of hereditary malformations affecting the eye, brain or other organs in different families. Each disease is caused by insertion of a different large DNA segment at the same chromosome Xq27 site, within a palindromic ‘hotspot’ near SOX3, which encodes a potent DNA-binding factor. The translocations presumably harbor unique cis-regulatory enhancer(s), which activate SOX3 expression ectopically, in abnormal cell types or compartments – and homeotically transform one embryonic tissue into another – converting RPE into neural retina, for example, in BASR syndrome (rogue SOX3 hypothesis). We will use patient-derived stem cells, in vitro differentiation, 3D chromatin interaction assays, and informative mouse transgenic models to test our hypothesis for representative Xq27 diseases. The study has broad implications for eye and brain disorders, human genetics, transcriptional regulation, mutation and evolution."
+ },
+ {
+  "id": "70e95082-2eb1-4008-8dcc-d352a2ce7cdd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A Modular Cross-Linker Platform for Proteome-Scale Mapping of Dynamic Protein-Protein Interactions in Cells",
+  "text": "Protein–protein interactions (PPIs) are central to nearly all cellular functions and aberrant PPIs underpin most\nhuman diseases. Yet, our ability to study this regulatory layer remains limited by a lack of tools for proteome-\nwide PPI mapping in physiologically relevant systems. This project will develop a robust, quantitative chemical\nproteomics platform to broadly map PPI dynamics in living cells, enabling discovery of interaction networks\nrelevant to disease mechanisms and therapeutic modulation."
+ },
+ {
+  "id": "70eb26cf-f2da-4680-830a-81bed468f868",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Harnessing neuron and microglia behavior for spinal cord injury repair",
+  "text": "Despite recent progress, successful strategies to promote nerve regeneration and functional recovery after\nspinal cord injury (SCI) remain elusive. This may be because multiple intrinsic neuronal and extrinsic non-\nneuronal mechanisms must be targeted to promote successful axon regeneration. This study proposes and\naims to test the hypothesis that manipulation of cholesterol uptake in adult neurons and non-neuronal cells\npromotes axon regeneration and SCI repair."
+ }
+]

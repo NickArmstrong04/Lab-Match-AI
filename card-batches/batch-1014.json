@@ -1,0 +1,142 @@
+[
+ {
+  "id": "dc91c7b0-4978-44d4-8cec-53043b90a5fe",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Using electronic medical record data to shorten diagnostic odysseys for rare genetic disorders in children and adults in two New York City health care settings",
+  "text": "This project seeks to shorten the diagnostic odysseys for rare genetic diseases, which can last for years, by\nusing electronic health record-based identification of patients likely to have such disorders. In the first phase of\nthe project, we will test out our existing algorithms for infants and children with a pilot study and also attempt to\nimprove those algorithms. During the second phase of the project, we will develop algorithms for similar\npurposes but for adolescent and adult patients as well as deploy our algorithms in a different, non-academic\nhealth care setting."
+ },
+ {
+  "id": "dc924678-4a46-44aa-ade7-105c051635e6",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Core D: Animal Production Core",
+  "text": "Genetic manipulation of the pig genome through a combination of sophisticated gene editing tools and somatic cell nuclear transfer and offers the opportunity to provide an unlimited source of human-compatible donor organs, cells, and tissues for transplantation. As the Pig Core, Revivicor will apply their advanced transgenic pig production platform to provide the Genetically Engineered (GE) source pig organs (lung, kidney, heart) necessary to meet the goals of the specific aims in these projects. Elimination of immunogenic Galα1,3Gal (Gal) sugars through inactivation of the α1,3- galactosyl transferase gene (GTKO) was a critical first step, resulting in the elimination of hyperacute rejection, and prolonged survival of xenografts in non-human primates, compared to wild-type controls. To provide further protection from innate immunity and nonGal- mediated humoral rejection, next-generation pigs were produced with further knockout of the beta-4- GalNT2 gene (double knockout or DKO pigs), and thus lacked the α-Gal antigen and were null for the Sda antigen. Pigs with a third sugar gene knocked out (triple knockout or TKO), with added CMAH-knockout (null for Neu5Gc), as well as, pigs with knockout of the human growth hormone receptor gene (GHRKO) will be included to create smaller donor pigs, to prevent rapid organ growth, which is valuable for both preclinical studies and for eventual clinical application. Constitutive high-level expression of the human complement- regulatory genes, hCD46 and hCD55, will also be included in the donor pigs for added protection from antibody directed at any other innate or adaptive immune targets. In addition, for inhibition of coagulation and thrombosis, human anticoagulant genes, endothelial protein C receptor (EPCR) and thrombomodulin (TBM), under endothelial cell-specific promoter systems, were added, as well as human hemeoxygenase-1 (HO1) as an anti-inflammatory agent, and human CD47 to further inhibit activation of monocytes, resulting in pigs 10-GE genetic modifications. In addition, HLA-E/beta-2 microglobulin has been added to the 9GE and 10-GE pig platform, and porcine vWF will be ‘humanized’ through use of Crispr/CAS9 technology on the 9GE and 10-GE backgrounds as these are modifications that are highly likely to be clinically useful for islet and whole organ transplants. Further modification of the source pig could in the future include the addition of the programmed death ligand 1 (PDL-1) transgene to inhibit T cell activation."
+ },
+ {
+  "id": "dc93c9c2-bbcd-4743-b2f9-30f90e5dbe9b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Neural Basis of Interspecies Interactions",
+  "text": "Engaging in dynamic social interactions requires the brain to detect and combine relevant cues from multiple\nsensory modalities. Despite the importance of social interactions to our everyday lives, it is still unclear how\nbrain circuits encode representations of others and use multisensory cues to decide how best to respond in\ndifferent social contexts. This project aims to study neural mechanisms that enable multisensory integration and\nbehavioral social interactions between animals using the new genetically and experimentally tractable rove\nbeetle model system."
+ },
+ {
+  "id": "dc94ff54-bff3-4e5e-963a-544d0f8f8774",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Statewide Cancer Data",
+  "text": "Statewide Cancer Data (SCD) is a two component SR that combines Rapid Case Ascertainment (RCA) and the Cancer Information and Population Health Resource (CIPHR). This resource reflects a commitment of the cancer center and of the CPC, CR, BC and CE Programs to support research in real-world populations – particularly in the state of North Carolina. A strong relationship between RCA and the North Carolina Central Cancer Registry (CCR), and the hospital tumor registrars allows RCA to facilitate population-based studies of cancer for Lineberger Comprehensive Cancer Center and outside investigators. For rapid case ascertainment, the Central Cancer Registry utilizes RCA personnel, and proactively requests and obtains diagnostic information within one month of the patient’s diagnosis. The other component of this resource is CIPHR, which includes cancer case data from CCR linked to healthcare administrative claims data from Medicare, Medicaid, and private insurance. The resulting claims dataset represents over 8 million individuals. Beneficiaries are reconciled across payers and linked to approximately 750,000 North Carolina cancer cases from the last decade. The size and complexity of the population-based datasets created and housed by this resource require an interdisciplinary staff to successfully and efficiently manage, analyze, and understand the data. SR staff apply innovative data management and analytic methods, many specifically created for CIPHR, to answer important population-based questions about the LCCC catchment area. Linkage of LCCC population-based cohorts has been accomplished. Researcher support from SCD typically extends from development of the initial research question, gathering preliminary data for grant applications through cohort discovery, statistical analysis, and manuscript writing. In FY2019, 37 LCCC members representing 93% of users used the SCD SR. This is a cost-effective mechanism to both collect cancer cases efficiently across the state and to disseminate that information. Since CIPHR began linking to Medicare data in 2012, it has been extensively used by faculty, trainees, and various collaborators both within UNC and at other cancer centers. To date, more than $15M in external funding has been enabled by this shared resource. The SCD requests $206,586 from the CCSG, which is 12% of the total FY20 $1.8 M operating budget, $900,000 of which is provided by the LCCC."
+ },
+ {
+  "id": "dc950cf7-d656-4e73-9bb5-cde9314845b4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Novel MRI coil technology for safe imaging of children with implants",
+  "text": "Despite continuous advances, magnetic resonance imaging (MRI) remains largely inaccessible to patients who\nhave electronic implants. The problem is worse in children, for whom MR-conditional devices are not readily\navailable. Here we develop, validate, and deploy a novel MRI technology that allows ultra-fast and high-\nresolution MRI to be safely performed in children with conductive implants regardless of the implant location."
+ },
+ {
+  "id": "dc9662f8-2729-43ac-a5c8-cf0ba64af551",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A tissue viability imaging biomarker for use in non-invasive breast cancer therapy",
+  "text": "The current treatment paradigms for minimally invasive ablative breast cancer therapies do not ensure\ncomplete tumor ablation or allow for immediate and accurate assessment of tissue viability. Although several\nMRI contrasts are sensitive to thermal ablation, no individual or combined MR contrasts have been able to\naccurately predict tissue viability immediately after magnetic resonance guided focused ultrasound ablation.\nThis proposal will develop a non-contrast, deep neural network imaging biomarker that will provide both an\naccurate assessment of tissue viability and a treatment outcome metric that will allow for iterative MRgFUS\nablation assessment, ensuring efficacy of magnetic resonance guided focused ultrasound ablation treatments\nfor breast cancer."
+ },
+ {
+  "id": "dca0ebda-3904-4121-8f5f-9e36e0dcbf6f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development and optimization of highly effective treatments in patients with head and neck cancer using in situ implantable microdevices",
+  "text": "Identifying the optimal therapy for a given patient is a major unmet need in cancer and other\ndiseases. We are developing a technology consisting of implantable microdevices that combine\nmicrodose delivery of 20 different drugs into spatially distinct regions of a patient’s tumor, with a\nreadout of tumor-drug response for each treatment. The technology provides an empirical\napproach to identify effective treatments on the pathobiological response observed in the patient,\nand provides a mechanism to safely and efficiently develop novel drug candidates in a\npersonalized manner."
+ },
+ {
+  "id": "dca26b3f-21f3-44e4-b9a8-d6a237094b97",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Examining Loss of Control Eating in Black Adolescents with Overweight/Obesity: The Role of Social Contexts and Social Stress",
+  "text": "Rates of obesity for Black adolescents are among the highest of any racial or ethnic group in the United States, and loss of control over eating (LOC; being unable to control what or how much one is eating) confers greater risk for the development and maintenance of excess weight. The goal of the present study is to use a synthesis of qualitative data and ecological momentary assessment to understand the social contexts in which LOC occurs in Black adolescents, and specifically to probe the association between social stress and LOC. This innovative research project has the potential to inform prevention and treatment programs that address both obesity and LOC and are effective in youth from all cultural backgrounds."
+ },
+ {
+  "id": "dca37fc1-b3a9-4f2f-adcb-cb63e3fe4087",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular and Cellular Basis for Digestive Diseases",
+  "text": "Overall - Narrative\nThe VDDRC, through technologies provided by innovative Research Cores and financial and professional support of junior and seasoned investigators, seeks to improve the prevention, treatment and outcomes of human digestive diseases by serving as a catalyst for collaborative and impactful investigative research."
+ },
+ {
+  "id": "dca5b6c0-6ede-4042-b3c6-ab0659dbbe1c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Enhancing TCR-engineered T cell therapy with cytokine fusion proteins for pancreatic cancer treatment",
+  "text": "Pancreatic ductal adenocarcinoma (PDA) remains one of the deadliest cancers, with limited effective treatment\noptions and poor responsiveness to current immunotherapies. This research aims to enhance the safety and\nefficacy of TCR-T cell therapy for PDA by developing tumor-restricted cytokine support strategies that\novercome immunosuppression in the tumor microenvironment. In the long-term, these studies will advance the\ndevelopment of more effective, mechanism-driven immunotherapies for solid tumors, ultimately contributing to\nimproved patient outcomes and reduced cancer-related mortality."
+ },
+ {
+  "id": "dca6e8b8-dafd-4ed8-a255-0f7e0b97791b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Harnessing Observational Data through Causal Inference to Reduce Hospital Readmissions for Survivors of Pneumonia with Respiratory Failure",
+  "text": "Community acquired pneumonia (CAP) with hypoxemia remains one of the most significant drivers of US\nhospitalizations and new post-discharge morbidity, with approximately 20% of patients who survive their index\nadmission experiencing short-term readmission. Current CAP guidelines and research focus almost exclusively\non either strictly initial outpatient or inpatient care without making recommendations on discharge interventions\nor follow-up for patients. I propose to perform novel observational research to (1) investigate the effect of\nscheduling early primary care follow-up for patients with hypoxemic CAP at the time of discharge and (2) build\nthe informatics infrastructure needed to evaluate optimal discharge diuretic regimens for the large population of\npatients with hypoxemic CAP and comorbid heart failure."
+ },
+ {
+  "id": "dca8371e-22bc-40a0-8dbd-dd8bb83d3c9e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cholesterol toxicity in alcohol-associated hepatitis",
+  "text": "Alcohol-associated hepatitis (AH) is a form of subacute liver failure with high mortality and limited treatment\noptions. We hypothesize that HNF4-dependent cholesterol toxicity is a critical pathogenic driver resulting in\nliver failure in AH. We propose to rigorously interrogate pathways of cholesterol homeostasis and test a\nstrategy to restore cholesterol homeostasis by modulating the expression of HNF4α, the master transcription\nfactor of liver cells."
+ },
+ {
+  "id": "dcaf7fc9-a4b6-4daa-918f-e3621a43af7c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cellular Regulation of Mutationally Activated G Proteins",
+  "text": "Heterotrimeric G protein-stimulated signaling pathways regulate numerous physiological responses,\nincluding neurotransmitter responses, cardiovascular function, cell differentiation, cell migration, immune cell\nfunction, and smell, taste, and vision. Dysregulation of G protein-mediated signaling pathways can contribute\nto numerous disease states, including neurological diseases, heart disease, hypertension, cancer,\nmetastasis, endocrine disorders, and blindness. Understanding how disease causes, mutationally activated\nG proteins are regulated in cells will provide new basic understanding of G protein signaling and new\nknowledge and opportunities to therapeutically target unwanted G protein responses."
+ },
+ {
+  "id": "dcb336d9-25d4-4c12-93cd-3a3af9ca2434",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Fibrosis, inflammation, and osteophyte formation in post-traumatic osteoarthritis",
+  "text": "Post-traumatic osteoarthritis (PTOA) is a complex degenerative joint disease that arises after injury and is\ncharacterized by pain, cartilage degradation, synovial inflammation and fibrosis, and formation of ectopic bone\ngrowths called osteophytes. PTOA is a chronic, debilitating condition that affects millions worldwide, yet there\nare currently no disease-modifying treatments. The overarching objective of this proposal is to\ncomprehensively characterize cells and processes responsible for PTOA progression and to provide insights\nfor the development of effective PTOA treatments that will meaningfully and tangibly improve patient\noutcomes."
+ },
+ {
+  "id": "dcb4a3d3-5b5b-48f5-859f-77673a4f25c1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Diffuse Optical Tomography for Mapping Brain Function in Delirium and Post-Delirium ADRD",
+  "text": "PROJECT NARRATIVE.\nThis project will provide critical knowledge regarding how cerebral oxygenation deficits captured by DOT\ncontribute to the interrelationship between delirium and ADRD. The validation of a portable DOT imaging\nbiomarker could be used for risk stratification, monitoring, and prediction of ICU survivors at risk of longitudinal\ncognitive decline after an episode of delirium. Such knowledge would benefit public health by reducing the costs\nand burden of delirium on society at large."
+ },
+ {
+  "id": "dcbdbaa1-37b1-4910-9525-0bc751739ccc",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Administration and Statistics",
+  "text": "Core 1 will (1) administer and manage synergistic interactions of all Project and Core research teams and (2)\norganize and conduct annual meetings with Internal and External Advisory Boards. Core 1 will also provide\nstatistical support for (1)study design and routine data analyses, and (2) integrative statistical analysis of data\nacross all Projects and other Cores. In these ways, Core 1 will promote the successful completion of the overall\ngoals of the FusOnc Program Project to advance mechanistic understanding of fusion oncoprotein-driven\npediatric cancers and propel the development of mechanism-based targeted therapies against these cancers."
+ },
+ {
+  "id": "dcbf3f16-eb40-456c-971b-090a282c5110",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Daily Experiences and Well-being among  Caregivers for Older Adults Experiencing Lewy Body Dementia.",
+  "text": "Lewy Body Dementia (LBD; the current term that encompasses Dementia with Lewy Bodies and Parkinson’s\nDisease with Dementia) is the second most common cause of dementia, accounting for 4 to 15% of dementia\ncases. Caregivers for LBD experience a distinct profile of demands that include: a) cognitive symptoms similar\nto Alzheimer’s Disease, b) motor symptoms of Parkinson’s Disease, and c) additional core symptoms of LBD\nthat differ from other dementias in their presentation: fluctuations in cognition, hallucinations, delusions and\nREM behavioral sleep disturbances (including acting out dreams). The proposed study will enhance the well-\nbeing of spoual caregivers for older adults with LBD by gathering information about caregiving tasks, caregiver\nstress, and caregivers’ psychological and physical reactions to that stress throughout the day, allowing\ndevelopment of caregiver interventions and programs tailored to the unique needs of caregivers for older\nadults experiencing Lewy Body Dementia."
+ },
+ {
+  "id": "dcbf9308-0b16-4ea8-99f7-661b0563824f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Elucidating the etiology for Schneckenbecken dysplasia, a rare disease, using a vetrebrate model system",
+  "text": "In our lab we study regulatory proteins that facilitate normal craniofacial development. Abnormal development of\nchondrogenic or skeletal tissues is responsible for many common birth defects and genetic diseases, although\nthe molecular mechanisms underlying these defects remain elusive. The results of this pilot study could lead to\nthe discovery of new ideas for therapeutic intervention for these types of rare diseases, especially the rare\ndisease Schneckenbecken dysplasia."
+ },
+ {
+  "id": "dcc97a5a-fd96-4294-9542-c31fe1b41942",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A clinical platform for ultrasound-augmented laparoscopy",
+  "text": "Minimally invasive surgeons are limited to a surface view of the intraoperative field as provided by real-\ntime video. By adding ultrasound, this project will develop a new augmented reality visualization\ntechnology that will allow surgeons to see hidden structures such as tumors and blood vessels below the\norgan surfaces. The anticipated clinical benefits of augmented reality visualization are shorten\nprocedure times, fewer complications, reduced blood loss, and expanded use of minimally invasive\nsurgeries."
+ },
+ {
+  "id": "dccba4f8-cd8b-4ba4-a11e-7a6985227f49",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The evolutionary and functional genomics of satellite DNA",
+  "text": "Eukaryotic genomes can consist in large part of abundant tandemly repeated sequences called satellite DNAs.\nDespite the important effects of satellite DNA on genome evolution, speciation, genomic instability and cancer,\nwe know little about their functions or evolution. Studying the evolutionary and functional genomics of satellite\nDNA will help us identify important satellites and understand how their expression and regulation affects\ncellular functions."
+ }
+]

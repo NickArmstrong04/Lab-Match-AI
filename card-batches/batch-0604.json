@@ -1,0 +1,142 @@
+[
+ {
+  "id": "4adedd1d-f1d7-409d-bfc5-f963623ad545",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of PRC1 in RUNX1-ETO-mediated transcriptional control",
+  "text": "We must understand how a mutation causes cancer before we can develop targeted\ntherapeutics or design drug combinations that eliminate the leukemic cells, leaving normal cells\nto flourish. This proposal seeks to define how AML1-ETO alters epigenetic circuits to establish a\npermissive environment that allows secondary mutations to transform these cells into AML. We\nwill focus on the recruitment of HDAC3 and PRC1.5 by AML1-ETO and test how recruitment of\nthese histone-modifying complexes is use to set the stage for the development of AML."
+ },
+ {
+  "id": "4ae096b3-3f83-49ad-8e5a-b2ba021f4186",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular basis for microtubule-destabilization dependent MYB degradation",
+  "text": "Recent reports reveal that MYB, a key protein that promotes the development of leukemia, is degraded by\nmebendazole, a microtubule disrupting agent. We aim to clarify the process by which MYB degradation is linked\nto microtubule stability, and how it responds to this class of medications that is widely used but not well\nunderstood. Here, we propose a set of studies to dissect the molecular basis for MYB degradation in response\nto microtubule destabilization."
+ },
+ {
+  "id": "4ae19d60-e516-4132-9d9e-1769ae606b9b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Integrating radiological and pathological images with deep learning for personalized gastric cancer immunotherapy",
+  "text": "Gastric cancer (GC) remains a leading cause of cancer-related mortality worldwide, with most patients presenting at advanced stages due to nonspecific early symptoms. Immunotherapy, particularly immune checkpoint inhibitors (ICIs), has transformed treatment paradigms across multiple cancer types, including GC. However, only a minority of GC patients derive substantial benefit from ICIs—approximately 20% achieve radiologic responses, and only 35% experience durable clinical benefit. Given the cost, toxicity, and limited efficacy in unselected patients, there is an urgent need to identify patients most likely to benefit from ICIs early in the treatment course. Currently available biomarkers—such as PD-L1 expression, microsatellite instability (MSI), and tumor mutational burden (TMB)—have shown limited accuracy in predicting ICI response in GC, and are insufficient for guiding personalized treatment decisions. To address this unmet need, we propose to develop innovative imaging biomarkers and multimodal deep learning (DL) models that integrate radiologic, pathologic, and clinical data to predict immunotherapy response and survival outcomes in GC. In Aim 1, we will develop a knowledge-guided multimodal DL model that integrates contrast-enhanced CT imaging, tumor microenvironment (TME) biomarkers derived from immunohistochemistry, and clinical factors to predict progression-free survival (PFS) and immunotherapy response. In Aim 2, we will build a foundation model-informed DL framework that integrates hematoxylin and eosin (H&E) whole-slide images and corresponding pathology reports to predict response and survival outcomes. This model builds on our prior development of a large-scale histopathology foundation model trained on 130 million patches from 104,876 H&E slides across 25 organ types. In Aim 3, we will combine CT imaging, H&E slides, pathology reports, and clinical variables into a comprehensive integrative model using advanced fusion techniques to capture cross-modal interactions and further improve predictive accuracy. Model training, internal, and external validation will be conducted using retrospective datasets from Atrium Health Wake Forest Baptist Comprehensive Cancer Center (Winston-Salem, NC) and Atrium Health Carolinas Medical Center (Charlotte, NC). Prospective validation will be conducted using a newly recruited, multi- center clinical cohort to assess model generalizability and clinical utility in real-world settings. The successful completion of this project will yield clinically applicable, affordable tools to predict immunotherapy response and survival outcomes in GC patients. By leveraging routinely available imaging and pathology data, our models can be readily integrated into standard clinical workflows. This approach will enable response-guided treatment strategies, improve patient selection for ICIs, and reduce unnecessary toxicity and cost, ultimately transforming precision oncology practice in gastric cancer and potentially other malignancies."
+ },
+ {
+  "id": "4ae26872-af0e-4ef2-8951-3b4d63269478",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Smart Wearable Continuous Cuffless Blood Pressure, Cardiac and Respiratory Monitoring System Agnostic to Skin Tone",
+  "text": "This project aims to develop a health-grade wrist-worn device with multiple noninvasive sensors packaged\nin a comfortable and small form factor that uses deep-learning algorithms to predict continuous cuffless\nblood pressure (cBP) and allows simultaneous estimation of heart rate (HR) and respiratory rate (RR) at no\nadditional cost or burden to the patient. The system uses a patent-pending strain gauge sensor configuration,\nproprietary fabrication methods, and also includes algorithms based on fundamental physics of the\napproach. The system will be evaluated on phantoms and patients with hypertension and hypotension in the\nhospital and in free living conditions."
+ },
+ {
+  "id": "4aec1f5d-3c11-49ef-b4d4-ef6a9fbd57ed",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Predicting Phenotype by Deep Learning Heterogeneous Multi-Omics Data",
+  "text": "Current analytical approaches primarily focus on individual data or simple integration strategies that cannot have\nsufficient power to identify potential biomarkers or reveal the complex genetic architecture of aging-related\ndiseases such as Alzheimer’s Disease (AD). In this project, we will develop a novel artificial intelligence (AI)-\nbased framework, MICA-Brain: Multi-scale, Integrated, and Contextualized Approaches for Brain aging and\ndisease. MICA-Brain will handle various data types, enabling us to identify key molecular regulators at the cell-\ntype and AD sub-phenotype levels, providing deep insights into aging and AD progression dynamics."
+ },
+ {
+  "id": "4af499ee-06a5-49f0-89dc-cd1311332d44",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Electrically Conductive Stem Cell Derived MicroEngineered Heart Tissue for Regeneration of Injured Myocardium",
+  "text": "Transplantation of engineered heart tissues offers great potential to repair and regeneration of the damaged\nmyocardium. This project will establish the safety and efficacy of a novel electrically conductive and functional\nengineered heart tissue in preclinical translational animal models, which could aid in clinical trials in treating\npatients with heart injuries."
+ },
+ {
+  "id": "4afbcda8-40e9-45ed-abc5-d16557448af2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Endocannabinoid Mechanisms in the Pathophysiology of Alcohol Use Disorders",
+  "text": "The lifetime prevalence of alcohol use disorders (AUDs) is ~30% in the U.S. population, and is significantly\nhigher in some subpopulations including those with chronic pain. While the analgesic and anesthetic properties\nof alcohol are well known, as is the fact that alcohol withdrawal causes hyperalgesic states that can drive\nnegative reinforcement driven alcohol consumption in some patients. We will determine the mechanisms by\nwhich endogenous cannabinoids regulate withdrawal-associated hyperalgesia and examine therapeutic\npotential of endocannabinoid modulation for alcohol-pain co-morbidity."
+ },
+ {
+  "id": "4afd2f3f-c12a-4a48-91bb-f840de6255ea",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Discovery and application of halogenases for medicinal chemistry",
+  "text": "Biocatalysis has the potential to improve both human and environmental health, and the discovery and\nimplementation of new enzymes is paramount to its success. This proposal seeks to expand our fundamental\nknowledge of a newly discovered family of highly efficient flavin-dependent halogenases (FDHs) capable of\nselectively installing halogen atoms onto indoles and alkynes and developing biocatalytic platforms for use\nin medicinal chemistry. Through high throughput biocatalytic assay development, protein engineering,\nbioactivity testing, and genome mining, we will synthesize new medicinal lead compounds, uncover crucial\nbiochemical mechanisms, identify new natural products, and establish directions for further innovation in our\nlaboratory."
+ },
+ {
+  "id": "4b0754c9-e279-4308-8f53-a8eef5bdc2d3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting PRC1 in leukemia",
+  "text": "We propose to develop small molecule inhibitors blocking activity of PRC1 E3 ubiquitin ligase in leukemia.\nPRC1 blocks differentiation of leukemic cells and this research may yield valuable chemical probes for stem\ncell research and new anti-cancer agents."
+ },
+ {
+  "id": "4b07e2f3-5ff9-4c7a-aecb-8d819babd42f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Quantitative modeling of extrachromosomal DNA (ecDNA) evolution in tumors",
+  "text": "Tumor evolution is often the cause of outstanding clinical challenges, such as acquired drug resistance and\nmetastasis. Recent work has demonstrated that oncogene amplification on extrachromosomal DNA (ecDNA) is\na major driver of tumor evolution but remains difficult to study due to its elusive evolutionary dynamics and\nsubstantial variability. This project proposes the development of innovative new computational tools that will\nilluminate ecDNA heterogeneity and evolution at unparalleled resolution, which will in turn be used to nominate\nnew therapeutic strategies that target ecDNA-mediated tumor evolution."
+ },
+ {
+  "id": "4b0c3826-1b85-4cc6-bbe2-f1084824f0eb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Practical Microwave Breast Imaging Device",
+  "text": "A 6-month project to verify the concept of an enhanced microwave near-fleld imaging device for\nmicrowave breast cancer screening. Innovations include a high-efficient Ʋexible 3D sensor system,\nsemi-solid coupling medium to mitigate impedance mismatch, and an unsupervised deep learning\nimage reconstruction algorithm. Results achieved from this project will contribute to the flnalization\nof our commercial system in the next Phase for clinical trials."
+ },
+ {
+  "id": "4b1633b4-68ad-4244-9c0b-6437b54bf5ee",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Decoding antigen specific T cells in frontotemporal degeneration",
+  "text": "Frontotemporal dementia (FTD) is a devastating neurodegenerative disorder, with TAR DNA-binding protein 43\n(TDP-43) pathology driving disease progression in many cases. We will investigate if cryptic peptides generated\nby TDP-43 dysfunction elicit CD8+ T cell responses in C9orf72-associated FTD. This study will provide critical\ninsights into FTD immunopathology and identify potential therapeutic targets for modulating CD8+ T cell activity."
+ },
+ {
+  "id": "4b1a33e3-2839-4f89-8d27-ee8beb482284",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Delineating the underlying reasons for the racial disparity in gastric cancer incidence in the United States",
+  "text": "Stomach cancer remains one of the deadliest cancers in the world, and in the US, there are significant population differences of both developing and dying from stomach cancer. The major cause of stomach cancer is Helicobacter pylori (H. pylori), a common bacterial infection that leads to most stomach cancers in the US, and for which successful eradication halves the risk of developing the disease. This project seeks to identify key predictors of stomach cancer risk to allow us to identify those at highest risk, to enable the clinical trials necessary to create screening guidelines for H. pylori testing and treatment in the US, and which will also help clinicians with precision prevention by laying the groundwork for the building of a risk prediction tool."
+ },
+ {
+  "id": "4b1e9a4e-32b6-4482-9820-e28a8b673761",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Support for the International Society of Electrophysiology and Kinesiology Congress",
+  "text": "This proposal seeks funding to support increased participation from early career researchers (ECRs) during three in-person congresses of the International Society of Electrophysiological Kinesiology (ISEK) and four virtual conferences over a five-year period. Funding will be used to support merit-based travel awards, augmenting the programming ISEK has developed to enhance scientific, networking, and professional development opportunities for ECRs. These efforts will assist ISEK in developing the next generation of neuromuscular health researchers and the cutting-edge ideas they bring to the fields of electrophysiology and kinesiology."
+ },
+ {
+  "id": "4b22dbe7-bfbc-48d4-b70a-eb6024820fc5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanical Stress-Dependent Remodeling of the Cardiac Microtubule Network",
+  "text": "As the heart pumps blood to the body, it adapts to changes in its environment which is affected by diseases\nlike hypertension, diabetes or inherited disease risk factors. This research examines how changes in\nmicrotubular structures within heart muscle cells participate in this process of adaptation. Some adaptations\nappear to be unfavorable and provide opportunities for interventions that may help reduce abnormal heart\nmuscle cell stiffening and damage."
+ },
+ {
+  "id": "4b2628d0-8917-4c76-9556-93b6739be0dd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Milk-Omics: Systems Biology of Human Milk and Its Links to Maternal and Infant Health",
+  "text": "Understanding the genomic basis of human milk composition is key to developing precision nutrition for\npreterm infants and other clinical populations of interest. We will take a multi-omic, systems-level view of the\nmother-milk-infant triad, identifying novel relationships linking maternal and infant health to milk composition.\nTo accelerate milk biosystems discovery, our findings will be shared with the research community through\ncreation of a web-based portal and corresponding data visualization tools."
+ },
+ {
+  "id": "4b2bddd2-d006-4464-9302-cd9d0d393b5a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dissecting the mechanistic role of progranulin deficiency-driven neuroimmune-metabolic crosstalk in Lupus-associated neuropsychiatric disease",
+  "text": "Neuropsychiatric systemic lupus erythematosus (NPSLE) remains an underrecognized complication of the disease with limited therapeutic options. NPSLE patients exhibit a 1.4-fold increased risk of developing dementia, highlighting the need for a mechanistic understanding and novel treatment approaches. Progranulin (PGRN), encoded by the Grn gene in mice, is the sole NPSLE-associated gene linked to neurodegenerative conditions and plays critical roles in regulating lysosomal trafficking and metabolic functions in both B and glial cells. This study investigates the hypothesis that PGRN deficiency in lupus-prone mice will exacerbate neurological manifestations through the disruption of endolysosomal trafficking, mitochondrial function, and glycolytic dependency in microglia, while simultaneously driving B cell metabolic reprogramming. We propose to characterize a cohort of C57BL/6J (B6), lupus-prone B6.Sle1.Sle2.Sle3, Grn-/-, and Sle1.Sle2.Sle3;Grn-/- mice. In Aim 1, we will assess neurobehavioral outcomes via spatial memory, anxiety, and depression-like behavior testing and histological examination for neuroinflammation. Next, we will analyze lysosomal motility, autophagosome-lysosome fusion, and metabolic capacities in microglia via live-cell imaging and metabolic profiling techniques (scMEP/SCENITH) and confirmatory metabolic (Seahorse) assay. Aim 2 will investigate how PGRN deficiency affects toll-like receptor-induced metabolic reprogramming in B cells through high-dimensional flow cytometry, metabolic profiling, and proteomic assays. We anticipate that Sle1.Sle2.Sle3;Grn-/- mice will demonstrate exacerbated neurobehavioral deficits, increased regional microgliosis, impaired lysosomal trafficking and mitochondrial stress in microglia, and elevated autoantibody production from metabolically reprogrammed B cells. Finally, we will deplete B cells in Sle1.Sle2.Sle3;Grn-/- mice before the onset of neuroinflammation to ascertain its pathogenic role in NPSLE. During this funding period, I will be advised by my COBRE mentor, Dr. Robert Axtell, who has over a decade of experience studying neurological autoimmune diseases and mentoring both doctoral and postdoctoral fellows. Specifically, Dr. Axtell will support me by holding bi-weekly meetings to review my experimental progress and bi-monthly meetings to discuss my career development trajectory. The Research Cores will also support me by providing cutting-edge techniques and the necessary expertise to complete my studies. In summary, with COBRE’s support, 1) this research will provide critical insights into the mechanisms underlying NPSLE pathogenesis and establish a clinically relevant model for therapeutic development, positioning me at the forefront of neuroimmunology research and accelerating the path toward much-needed treatments for NPSLE; 2) it will also enable me to gain recognition in the neuroimmunology research field and position me for R01-level independence."
+ },
+ {
+  "id": "4b2f5395-2401-4af3-a801-a709a6bfa3e0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Clinical translation of targeted intracoronary imaging for inflammatory activity",
+  "text": "Inflammation is a critical driver of coronary artery disease, the number one cause of death in the world. In this\ngrant, we propose to develop, study, and clinically translate a catheter-based device that images coronary plaque\nmicrostructure and LUM015 near-infrared fluorescence, a new targeted fluorescent marker of inflammatory\nactivity. Completion of this work will avail a powerful new clinical tool for evaluating and managing patients based\non pathobiological information that accurately informs on coronary disease progression risk."
+ },
+ {
+  "id": "4b354c0b-c844-40bf-91fc-c865f8c36bd4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Structure, immunity and microbiome: Human 3D biomimetics cervicovaginal models for sexually transmitted infections (SIM-STI)",
+  "text": "The SIM-STI Program aims to develop an innovative biomimetic model of the lower reproductive tract to study\naspects of the sexually transmitted infections (STIs), chlamydia and gonorrhea, that are not achievable in\nhumans or with current animal or cell models. The ultimate impact of this research will be to improve public\nhealth by reducing the incidence of STIs in humans. Therefore, it is relevant to the field of public health and to\nthe mission of the NIH, in that it seeks to improve women’s well-being by generating critical research, pre-clinical\ntools and additional knowledge, both fundamental and action-oriented."
+ },
+ {
+  "id": "4b3bf441-c078-4e3f-9411-5a0f5f8dc7ee",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Family-centered integration of social and medical care to optimize health outcomes among all children with asthma",
+  "text": "The proposed research addresses a significant health disparity among children (asthma morbidity) with innovative approaches and will result in a sophisticated machine learning model to identify children at highest risk of morbidity, an engaged community advisory board of caregivers of children with asthma, and critical pilot data on the feasibility and acceptability of an integrated social and asthma care intervention. This work aligns with the NHLBI’s Objective 3 (understanding causes of and identifying strategies to effectively address population health disparities) and 7 (leveraging emerging opportunities in data science to open new frontiers in heart, lung, blood, and sleep disorders). The results of this proposal may enable early identification of children with asthma at risk for hospitalization and a family-centered and caregiver-endorsed integrated social and asthma care intervention which, when paired together, has the potential to optimize health outcomes and reduce morbidity among children with asthma"
+ }
+]

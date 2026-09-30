@@ -1,0 +1,142 @@
+[
+ {
+  "id": "030dbc11-122b-4d09-b4ae-0567aa693019",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular Mechanisms of Filoviral-host Interactions",
+  "text": "Overall PPG Narrative: Molecular mechanisms of filoviral-host interactions\nEbola virus and Marburg virus are important emerging pathogens with significant potential to impact global public\nhealth. Host-viral interactions contribute to disease course and dictate the impact of infection but are incompletely\ndefined for filoviruses. We will address this gap through a multidisciplinary approach that will identify, validate,\nand characterize filoviral proteins and associated host factors to shed light on critical interactions that drive viral\nreplication and new therapeutic targets."
+ },
+ {
+  "id": "030f2341-b211-4e1c-aa13-93cfb969c311",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Corneal Endothelium – Extracellular Matrix Interactions",
+  "text": "The central diagnostic finding in Fuchs endothelial corneal dystrophy are progressive guttae—excrescences in\nthe extracellular matrix of the corneal endothelium that contribute to vision loss and corneal endothelial cell\nloss. This project will investigate the extracellular matrix changes that occur when corneal endothelial cells are\nexposed to stress and will investigate how non-diseased corneal endothelial cells respond to extracellular\nmatrix prepared from stressed cells. Extracellular matrix changes may be some of the first changes that occur\nin the pathophysiology of Fuchs endothelial corneal dystrophy and these studies will help identify potential\npathways to target for future therapeutics."
+ },
+ {
+  "id": "031dc15e-1910-4d94-a2fb-008b2e9b9ba7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Infection-Dependent Vulnerabilities of Gram-negative Bacterial Pathogens",
+  "text": "NARRARTIVE\nWe are using a basic biology approach grounded in host-pathogen interactions to discover new compounds\nthat disrupt the infection process. This represents the earliest possible stage of antibiotic discovery and relies\nupon bacterial cell physiology, in vitro, and in vivo infection models to identify workable new research\ndirections."
+ },
+ {
+  "id": "0327fbf4-f2fd-42ea-bba5-8a9df2efedf8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Uncertainty-Aware Prediction of Differential Responses to Antidepressants: Leveraging EHR and Genomics",
+  "text": "The current approach to selecting the most suitable antidepressant for treating depression often relies on trial\nand error. This project aims to leverage electronic health records (EHR) and genomic data, utilizing artificial\nintelligence, natural language processing, causal inference, and genetic analyses to build predictive models that\nidentify individualized responses to antidepressants while incorporating mechanisms to detect uncertain or\nunreliable predictions. This initiative will not only enhance our understanding of how to integrate EHR and\ngenomic data for more accurate predictions but also lay the groundwork for future comprehensive systems that\ncan assist in selecting appropriate treatments in clinical practice."
+ },
+ {
+  "id": "032cec98-8d9e-4fcc-98c6-656f478d1307",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "UC San Diego Genetics Training Program",
+  "text": "The UCSD Genetics Training Program rigorously prepares an exceptional pool of\nstudents for professional careers in basic and applied research in life and health\nsciences. Our graduates succeed in academic institutions, non-profit research\ninstitutions, government agencies, biotechnology and pharmaceutical companies, and\nrelated industries that promote human health or scientific advancement. The\noverwhelming majority of our graduates remain in research-intensive or research-related\ncareers that aim to promote and improve human health."
+ },
+ {
+  "id": "03307a27-08c1-4f75-a748-34b37bd9250b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The dissection of non-canonical cis-regulatory elements downstream of beta-globin locus in the fetal hemoglobin gene regulation",
+  "text": "Cis-regulatory elements (CREs) play an important role in the regulation of β-like globin expression. We have\nidentified novel CRE hubs downstream of β globin gene cluster could regulate the γ globin expression. We\npropose to use comprehensive genome and epigenome editing strategy to dissect the function of these CREs\nin β-like globin gene expression under various scenarios."
+ },
+ {
+  "id": "03308160-4072-489e-872a-ec1ce6595553",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Uncovering [SO?]HMGB1-Mediated Mechanisms of Alcohol-Associated Liver Disease Through Single-Nucleus Multiomics",
+  "text": "Alcohol-associated liver disease (AALD) is driven by complex transcriptional and intercellular mechanisms that\nremain poorly understood, limiting therapeutic development. This project applies single-nucleus RNA-seq and\nATAC-seq to uncover gene regulatory programs and dynamic cell-cell communication networks involved in AALD\nprogression and resolution. A central focus is [SO₃]HMGB1, an oxidized isoform that may promote recovery by\nrewiring transcriptional and signaling pathways, offering a novel entry point for targeted intervention."
+ },
+ {
+  "id": "0331e24a-b254-4600-a02a-4383944306ce",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Optimized Affective Computing Measures of Social Processes and Negative Valence in Youth Psychopathology",
+  "text": "Problems with negative emotion and social behavior are present across many behavioral health conditions, but are poorly measured with existing tools. This application addresses this problem by developing and validating novel facial expression and linguistic measures that can be easily and widely disseminated across research and clinical settings."
+ },
+ {
+  "id": "03329ddc-3a92-4cde-93b8-0bbec387272c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "SAM Core",
+  "text": "PROJECT SUMMARY – Systems Analytics and Modeling (SAM) Core Addiction is a highly complex heterogeneous disorder influenced by genetic/DNA variants and by environmental factors, such as development, sex, and exposure histories. The long-term potential of precision medicine to improve prevention and treatment of substance use disorders (SUDs) depends on gaining a much better understanding of the underlying biological pathways that influence behavior. One path to developing this insight is the integration of omics data across brain regions and cell types using systems genetics and other quantitative genetic approaches. Unfortunately, there are serious challenges that prevent individual NIDA researchers from adopting these approaches. The goal of the NIDA Core Center of Excellence in Omics, Systems Genetics, and the Addictome (OSGA Center) is to build and empower a community of substance use disorder (SUD) researchers to use large-scale data approaches for establishing and testing causal links between molecular traits and SUD-related behaviors in rodent models and for translating these findings to human clinical SUD prevention and treatment. The Systems Analytics and Modeling (SAM) research support core will be a resource for NIDA research teams needing help and training in handling the downstream stages of data analysis and data integration. The core will support several investigators using omics data in a variety of genetic contexts to study rat models of addiction. We believe that to enable the wide-spread use of data science/quantitative genetics/artificial intelligence techniques that will make the ultimate goal of precision medicine solutions for SUD treatment and prevention attainable, the next generation (and the current generation) of addiction scientists NEEDS (1) high quality training in these quantitative skills, (2) big data resources and (3) big data tools to enhance current research projects. To achieve this, each center core will focus on (1) building an inclusive community of NIDA genetics researchers, (2) developing synergistic public omics data sets, and (3) creating user-friendly advanced analysis tools. In the Systems Analytics and Modeling (SAM) research support core, we will develop an internship program for students interested in data science, genetics and addiction research, we will create a genetically diverse, brain-region specific brain proteomics data set to help researchers develop functional hypotheses/studies from a set of candidate genes/loci, and we will develop innovative statistical/computational methods for high throughput genetic mapping, multi-omic integration, and causal inference. To summarize, the goal of our SAM Core is to create a strong foundation for the OSGA Center by providing big data training, data and tools to enhance SUD research using rodent populations."
+ },
+ {
+  "id": "033bd0ce-35dc-419b-b71c-9185865b0cb8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Rwanda CASCADE Clinical Trials Site for cervical cancer prevention",
+  "text": "Cervical cancer remains a preventable cause of illness and death among women living with HIV, a population that continues to face\nelevated risk of HPV infection and invasive cervical cancer. This grant supports rigorous evaluation of cervical cancer prevention\nstrategies in care settings relevant to populations disproportionately affected by HIV and cancer, with findings intended to inform\nprevention, screening, and clinical care for U.S. patients. This grant is part of the NCI-supported CASCADE Network, which focuses\non scientifically justified, accountable U.S.-international clinical trials to generate evidence that improves HIV-associated cancer\nprevention and care for U.S. patients while also benefiting global populations."
+ },
+ {
+  "id": "033bf358-7b09-4c18-990e-31216c5aaa7c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Elucidating the role of transcriptomics in driving ethnicity and ancestry-related disparities in colorectal cancer",
+  "text": "Immunotherapy and targeted therapy have arguably been the most important recent advances in treatment for colorectal cancer (CRC). Our goal is to identify and characterize the underexplored, critically important molecular mechanism of RNA splicing in CRC and its influence on differential outcomes across patient characteristics. To do this, we will use preclinical CRC models and leverage existing cohorts with biospecimens and annotated data."
+ },
+ {
+  "id": "033cdd98-cfca-45b5-9c1b-91656631f51e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Decoding the Molecular Basis of Dysregulated Cleavage and Polyadenylation in Myeloid Malignancies - Resubmission - 1",
+  "text": "Myeloid malignancies are prevalent and result in significant morbidity and mortality, yet patient outcomes may\ndiffer substantially even when the same driver gene is mutated. Exploring the dysregulation of alternative\npolyadenylation, a post-transcriptional regulatory mechanism, in AML will enhance our comprehension of\ndisease heterogeneity and contribute to our understanding of molecular drivers of hematologic malignancies."
+ },
+ {
+  "id": "033efa9c-d72a-4e63-923e-b3007ffe6eaf",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Cancer Proteome Atlas: an Integrated Bioinformatics Resource for Functional Cancer Proteomic Data",
+  "text": "The bioinformatics resource for generating and analyzing cancer functional proteomic data proposed in\nthis application is relevant to public health because it will greatly help biomedical researchers\nunderstand the molecular mechanisms and treatment responses of human cancers, thereby facilitating\nthe development and implementation of precision cancer medicine. Thus, this project is relevant to the\nNIH mission to develop fundamental knowledge that will reduce the burden of illness and disability."
+ },
+ {
+  "id": "03442e07-8255-481f-bf87-5bae5cc3f9ec",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Examining Mechanisms of Change in Adolescent Self-Inflicted Injury",
+  "text": "Self-inflicted injury (SII) commonly emerges in adolescence and is associated with severe psychopathology\nand increased suicide risk. Although we have evidence-based interventions for youth SII, biosocial\nmechanisms of change are underexplored and we lack vital data on how adolescents apply and retain\ntherapeutic skills in daily life. The proposed study will directly compare the influence of two core intervention\nskills among self-injuring adolescents across neural, cardiovascular, and behavioral levels of functioning; and\ninvestigate skill uptake, use, and retention in daily life."
+ },
+ {
+  "id": "03443147-98e9-4aee-9c74-485dba15eb3f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Epigenetic Enzyme CARM1 as a Negative Regulator of Dendritic cells and CD8 T cells in Melanoma",
+  "text": "This project focuses on a novel epigenetic target for immunotherapy of melanoma, the CARM1 enzyme. We\nwill investigate how inhibition of this enzyme enhances the function of dendritic cells and T cells in the immune\nresponse against melanoma."
+ },
+ {
+  "id": "0347cddb-d5d9-487d-acb7-cdd75afdf589",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigation of the Lipid Transfer ProteinVPS13D at the Golgi Apparatus",
+  "text": "VPS13D is a member of the VPS13 bridge-like lipid transfer protein family and is implicated in the\nneurodegenerative disease spastic ataxia. It has multiple localizations including at the Golgi apparatus, yet its\nfunction within the Golgi remains completely unknown. My aim to investigate the precise localization and\nfunction of VPS13D at Golgi will provide knowledge relevant to both fundamental cell biology and to the field of\nneurodegenerative diseases."
+ },
+ {
+  "id": "03491647-6c9f-4a78-b230-8bf3bf543098",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Biological Imaging Module",
+  "text": "The Biological Imaging Module of the Center Core Grant for Vision Research provides state of the art imaging facilities to support and advance innovative research by investigators at the University of Houston. The Module provides a wide range of up-to-date imaging equipment for use by Core investigators and their collaborators, and newly hired investigators, who have interests in structural, cellular, and molecular aspects of vision research. Specifically, the Module provides facilities for tissue preparation, standard light microscopy, confocal microscopy, deconvolution fluorescence microscopy, two-photon microscopy, light sheet microscopy, live cell imaging, transmission electron microscopy (TEM), scanning electron microscopy SEM and serial block-face (SBF-SEM) imaging, computer-assisted image segmentation and 3D reconstruction, and Retinal and Corneal Tomography and Spectral Domain – Optical Coherence Tomography (SD-OCT) for in vivo imaging of small animals. The Module is staffed by two a highly skilled personnel: an expert microscopist/histology technologist and an accomplished biophysical microscopist with expertise in many aspects of advanced light microscopy. These individuals coordinate use, assist with histology/microscopy and provide a full range of training that spans basic to advanced techniques. The Biological Imaging Module is supervised by Nimesh B. Patel, OD, PhD who has two active R01 grants funded by NEI, substantial expertise in light and electron microscopy, and in vivo OCT imaging and computer-assisted image analyses."
+ },
+ {
+  "id": "03496e19-56f5-414e-8033-629e1699f4ce",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "University of Utah Biomedical Informatics Training Grant",
+  "text": "The University of Utah has over a four-decade long history of training exceptional biomedical informatics students who go on to have a profound and lasting impact on health discovery and delivery. This current application describes our adaptation to the evolving scientific milieu, with a strong and integrated curriculum, a proactive recruitment strategy, an unparalleled research environment for trainees, and a collaborative and energetic mentor pool. The program is supported by robust evaluation procedures that enable growth and continuous learning."
+ },
+ {
+  "id": "035d7e68-61bd-4062-bee0-3ee16693a253",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Advanced In Vitro Model Systems",
+  "text": "CORE B: PROJECT SUMMARY The Cedars-Sinai Digestive Diseases Research Center (CSDDRC) comprises numerous investigators with a major research focus on intestinal, liver, and pancreatic diseases. In the last decade, rapid advances in in vitro modeling systems have been developed that are highly applicable to the research of these diseases. In addition to the established primary liver cell isolation and culture, our advancement includes the developments of induced pluripotent stem cell (iPSC)-derived organoid technology and organ-on-a-chip technology. However, each of these approaches requires a high level of technical expertise and considerable investment in terms of costs and time to successfully establish these models. Three investigators in the CSDDRC have extensive experience with such models and will establish the Advanced In Vitro Model Systems (Core B) to make these model systems more accessible to CSDDRC users. The goal of Core B will be to provide cutting-edge technologies, methodologies, and analyses to facilitate their application to the study of the fibroinflammatory responses in intestinal, liver, and pancreatic diseases. In Aim 1, Core B will provide CSDDRC members with standardized cultures of primary liver cells (hepatocytes, Kupffer cells, hepatic stellate cells, and liver sinusoidal endothelial cells) from the human and mouse liver tissues. The Core will also provide iPSC-derived intestinal and pancreatic organoids. In Aim 2, organ-on-a-chip models that incorporate intestinal, liver, and pancreatic cells will be provided. For both aims, the Core will provide 1) consultation services to ensure the feasibility of the proposed studies and 2) assistance with data interpretation. In Aim 3, the Core will develop new research model platforms to study human intestinal, liver, and pancreatic diseases, including the application of gene-modifying technology to organoid culture and organ-on-a-chip systems and the development of new in vitro models of inter-organ communications, such as the gut-liver axis and epithelial-immune cell interactions. Core B will provide several benefits to users: access to high-quality in vitro models; reproducibility across experiments; resource sharing of human and rodent tissue samples, reagents, supplies, and staff; time- and cost-effective approaches; and consultation and training from experts in in vitro models. Core B services will accelerate Center investigators’ efforts to test multiple hypotheses and generate data for competitive grant proposals and publications. Ultimately, the Core will play an essential role in improving our understanding and treatment of digestive and liver diseases through the utilization of advanced in vitro models."
+ },
+ {
+  "id": "035fbe83-0d34-46f8-8d8a-995036c930ab",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Data Management and Statistics Core",
+  "text": "DATA MANAGEMENT AND STATISTICAL CORE - REVISED The Data Management and Statistical (DMS) Core of the Goizueta Alzheimer’s Disease Research Center (GADRC) at Emory manages and analyzes the vast amounts of data generated by the Center’s research activities, disseminating to investigators within and outside the GADRC and to the National Alzheimer’s Coordinating Center (NACC). This facilitates cutting-edge research addressing the heterogeneity of Alzheimer’s disease (AD) and AD related dementias (ADRD), enabling precision in early detection and intervention. The DMS Core plays a crucial role in the GARDC activities by providing infrastructure and expertise in data management and harmonization, methods development, statistical analysis, and results interpretation. It unifies all Cores by linking data collection efforts, providing a platform and tools for advanced analytics, and acting as a conduit for these efforts at all levels. During the current funding period, the GADRC DMS Core has been extremely successful in achieving its goals, supporting data collection, integrating new data sources, facilitating data sharing, collaborating on grants and publications, and developing innovative methods to characterize AD/ADRD heterogeneity. In the next funding cycle, the DMS Core will achieve the following aims: (1) To continue to maintain a scientifically rigorous research database and analytics tools that support NACC, the GADRC Cores, developmental projects, local investigator-initiated studies, Research Education Component trainees, and national collaborative studies; (2) To provide statistical consulting and collaboration on the design, conduct, analysis and interpretation of GADRC-related studies and grants; and (3) To develop innovative methods to support research on mixed etiology dementia, focusing on multi-modal data integration for subtype discovery in AD/ADRD, statistical methods to classify heterogeneous samples of patients into clinically relevant subgroups, and the application of artificial intelligence/machine learning tools to analyze data from the GADRC and its linked cohorts. By leveraging and integrating Core activities and expertise with other GADRC cores and related initiatives across Emory, the DMS Core will facilitate cutting-edge research to advance the field of AD/ADRD."
+ }
+]

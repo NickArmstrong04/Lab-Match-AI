@@ -1,0 +1,142 @@
+[
+ {
+  "id": "c26bae38-71db-4ea3-9e66-d1e1c3edba77",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "From pattern to function: eco-evolutionary representations of complex spatial structure for the new era of spatial biology",
+  "text": "Through recent innovations in imaging techniques and the ability to process these images at scale, we\nhave unprecedented access to public datasets of molecular and cellular spatial patterns of organization. To\nmake full use of these new spatially-complex data streams, to understand the dynamical processes that\nare shaping cellular and molecular spatial collectives, to go beyond simple description of pattern towards\nunderstanding of function and adaptive design, we must rst develop a predictive theory of complex\nspatial structure. My group builds mathematical representations of the spatial architecture of molecular\nand cellular biological systems and studies the evolutionary-relevant properties of these complex spatial\ntopologies."
+ },
+ {
+  "id": "c26e51d1-c7d0-4431-b95d-a41a2786b142",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigation of Filaggrin Gene Mutations among Latino patients with Atopic Dermatitis",
+  "text": "Atopic Dermatitis is a highly prevalent inflammatory skin disease but our understanding of what\ncauses this disease is limited. Genetic risk factors have been associated with atopic dermatitis,\nbut studies have only included a limited number of populations, with few Hispanic or Latino\npatients included. By improving our understanding of the genetic risk factors associated with\natopic dermatitis across populations we would better understand what populations may be at\nhigher risk for developing this disease which in turn could lead to the development of novel\nprevention and therapeutic approaches for this all-too-common disease."
+ },
+ {
+  "id": "c26fe76e-2a09-47d3-a06c-a9b2437e917e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating the role of SYNE1-Giant in Atrial Cardiomyopathy",
+  "text": "The molecular mechanisms underlying the established connection between stretch-mediated atrial\ncardiomyopathy and the biogenesis of cardiac dysrhythmias remain largely unknown and unexplored. This\nproject explores a new paradigm that implicates the Linker of Nucleoskeleton and Cytoskeleton (LINC) Complex\nas a key mediator between pathological atrial stretch and AF."
+ },
+ {
+  "id": "c270fa9a-2829-4143-9436-78061a9185aa",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Apo/Lipoprotein Production Core",
+  "text": "(Core D) The multidisciplinary approaches proposed in this Program Project, whether structural or functional, depend on the availability of high quality and standardized biological samples and reagents. The overarching goal of the Apo/Lipoprotein and Production Core (Core D) is to meet this critical need across the entire Program. The Core is designed to provide the following services: 1) Isolation, characterization, and distribution of lipoproteins and apolipoproteins isolated from human plasma, 2) Expression, purification, and distribution of recombinant apolipoproteins, isotopically labeled proteins, and peptide mass spectrometry standards, 3) Design, expression, purification, and distribution of customized apolipoprotein mutants, including new constructs for assessing the mobility of HDL-bound proteins, 4) Generation, characterization, and distribution of reconstituted HDL particles customized to test specific hypotheses from around the Program, and 5) Generation and characterization of targeted nanobody reagents for cryo-EM studies. Core D will be led by W. Sean Davidson, Ph.D., working with two outstanding and highly experienced research technicians, Jamie Morris and Scott Street. It will be located at the University of Cincinnati, which has extensive and documented experience in all of the Core’s proposed services. In the previous PPG cycle, Core D filled over 550 orders from the other Projects and Cores, not including hundreds more that were used in the Davidson lab. Based on prices charged by traditional biochemical supply sources, the retail value of these samples far exceeds the resources needed to run the core. Thus, this resource contributes substantially to the synergy and cost-effectiveness of the Program’s ongoing work. We believe that few, if any, facilities in the world can provide these services in a single place."
+ },
+ {
+  "id": "c271311d-c99e-43b1-a2f3-6133baae0be6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular and Cellular Dissection of Circadian Output Pathways in Drosophila",
+  "text": "Research over the past ~50 years has successfully identified genetic components of a molecular circadian\nclock that functions within an interconnected network of circadian clock neurons in the brain to produce\nbehavioral and physiological rhythms, but the neuronal pathways that connect the clock cells to behavioral and\nphysiological outputs are poorly understood. The focus of this proposal is therefore to characterize cellular and\nmolecular mechanisms through which specific groups of neurons within the clock network coordinate circadian\nsignals to drive coherent rhythmic outputs. This work will uncover fundamental principles of circadian\nregulation, which will inform our understanding of myriad health consequences associated with circadian\ndisruption."
+ },
+ {
+  "id": "c2742f63-bd69-4f6b-b3fe-f42d134b553c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular Immunology and Tumor Biology",
+  "text": "Cancer remains a major cause of morbidity and mortality in the United States, and new\napproaches to the diagnosis and treatment of cancer are critically needed. This T32 program\nfocuses predominantly on the training of physician-scientists who plan research careers that will\nimprove our understanding of the molecular basis of human cancers. The program is based on\nthe translational and basic science strengths of a Pathology department and Cancer Center,\nand thus creates a dynamic platform to educate physician-scientists and fundamental\nresearchers in the study of cancer biology."
+ },
+ {
+  "id": "c2750398-f0e3-42b9-8377-ed8b1b81e561",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Deciphering the Role of Tumor Suppressor Gene Deficiencies in Modulating PDAC Response to Oncogenic KRAS Inhibition and Immunotherapy",
+  "text": "Pancreatic ductal adenocarcinoma (PDAC) is one of the deadliest cancers, with limited effective treatment\noptions and poor survival rates. This project will investigate how tumor suppressor gene deficiencies affect PDAC\nresponses to KRAS-targeted and immune therapies, with the goal of identifying novel clinically actionable\ntargets. The findings may support the development of more personalized and effective treatments for patients\nwith PDAC."
+ },
+ {
+  "id": "c279fa13-5b1e-494d-8108-3b5a8c79b851",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Innovative Scan Protocols With Combined Long Axial FOV PET and Spectral CT for Improved Quantification in Oncology",
+  "text": "In this proposal, we will develop methods that leverage the respective strengths of PET and CT to improve\nquantification in oncology using our novel PET-Spectral CT scanner. Specifically, we will develop dynamic\nSpectral CT methods, with attention to minimizing radiation dose, and use this data to inform PET kinetic\nmodeling. Our aim is to integrate Spectral CT information into a clinical PET workflow, enabling non-\ninvasive and fast imaging protocols to capture PET radiotracer parameters that would otherwise be\nunattainable."
+ },
+ {
+  "id": "c27ccbbb-f417-4be8-a9d6-4fa2bb48633b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Immunostimulatory short non-coding RNAs in systemic lupus erythematosus",
+  "text": "Systemic lupus erythematosus (SLE) involves dysregulated innate immune activation and cytokine responses,\nyet the contribution of circulating short non-coding RNAs (sncRNAs) remains poorly understood. Our recent\nfindings suggest that specific tRNA- and rRNA-derived sncRNAs possess immunostimulatory activity and may\namplify immune signaling through endosomal RNA-sensing pathways such as TLR7. This project will\ncharacterize the expression and function of extracellular sncRNAs in serum from SLE patients and healthy\ncontrols, providing novel insights into their potential as biomarkers and therapeutic targets."
+ },
+ {
+  "id": "c280b36f-6136-4c99-8d34-3d93f25411a2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Elucidating Anthracycline-Induced Cell Type-Specific Cardiovascular Toxicity with CRISPRi/a Screens",
+  "text": "Doxorubicin, a highly effective anthracycline used in first-line chemotherapy for various malignant cancers like\nbreast cancer, is hampered by serious cardiovascular side effects, including hypertension, arrhythmia,\nthrombosis, and heart failure. This proposal will utilize high-throughput CRISPR interference and activation\n(CRISPRi/a) screens of druggable genes in human induced pluripotent stem cell-derived cardiomyocytes (iPSC-\nCMs) and vascularized cardioids (iPSC-vCOs) to identify cell type-specific causative genes and candidate\ncompounds that mitigate doxorubicin-induced cardiotoxicity. Successful completion will provide effective\ncountermeasures against anthracycline-induced cardiovascular toxicity and establish a reliable drug toxicity\nassessment platform for broader research applications."
+ },
+ {
+  "id": "c288b27a-ab5e-4969-815d-b1b8be151d31",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Inferring the rules of antibody evolution using replicated germinal centers",
+  "text": "To make high-potency antibodies that both help control infections cause allergies and autoimmune diseases, B\ncells go through a process of Darwinian-like evolution in which those that make the most potent antibodies are\npreferentially selected to become antibody producers. Work in this proposal is aimed at clarifying certain key\npoints of this evolutionary process that are not completely understood. Clarifying these points may help us induce\nmore potent antibodies against pathogens such as influenza, HIV, and SARS-CoV2 by vaccination."
+ },
+ {
+  "id": "c288f982-a684-4041-923e-91602b942130",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development and Validation of Correction Equations to Enhance Quality of Infrared Technology",
+  "text": "Inaccurate measurement of oxygen levels and body temperature by medical devices can lead to delayed recognition and delayed treatment of life-threatening conditions like respiratory failure and sepsis. Pulse oximeters and temporal artery thermometers, which respectively measure oxygen levels and temperature, have demonstrated significant inaccuracies in critically ill patients. This proposal aims to develop correction algorithms that improve the accuracy of infrared medical devices by incorporating factors such as differences in skin tone, blood flow, and health conditions, with the goal of optimizing these devices for all patients."
+ },
+ {
+  "id": "c28c1c6b-ec4d-4808-8d9c-a4549f80177b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Structural Biology Shared Resource",
+  "text": "Program Director/Principal Investigator (Last, First, Middle): Chu, Edward \nSTRUCTURAL BIOLOGY SHARED RESOURCE - PROJECT NARRATIVE \nPer PAR-21-321, a Project Narrative is not required for this Component. \nOMB No. 0925-0001/0002 (Rev. 03/2020 Approved Through 02/28/2023) Page"
+ },
+ {
+  "id": "c28cb34f-d944-41f6-9dcc-5b0d57ba8fc4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "COMBINI: connecting COmplementary Medicine evidence and BIological kNowledge to support Integrative Health",
+  "text": "Complementary medicine (CM) interventions are increasingly used by health care consumers and accepted by\nthe medical community, although much remains poorly understood about their effectiveness and safety as well\nas the underlying biological mechanisms through which they affect health and well-being. Published literature is\na growing source of evidence on CM approaches; however, much of this evidence remains in unstructured text\nin specialty journals, creating barriers for effectively integrating the evidence with conventional medicine. The\nproposed research will develop informatics resources (ontology, knowledge graphs) and literature mining tools\nto consolidate the high-quality evidence on CM approaches and integrate it with conventional medicine in a\nmachine-readable and AI-ready form, and will demonstrate the utility of these resources for knowledge\nmanagement and scientific discovery in complementary and integrative health."
+ },
+ {
+  "id": "c28da5c3-e9aa-4fb0-aeb1-1d72922111a7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Self-Eliminating Strategy To Control Gene Drive",
+  "text": "Aedes aegypti is the main vector of dengue, yellow fever and chikungunya viruses, and is a model system for\nstudies of other mosquitoes that vector arboviruses. Strategies to introduce pathogen resistance genes have\nbeen slowed by poor rates of gene drive in this mosquito. Our proposal seeks improve on past gene drive\napproaches and to build on our findings concerning a novel method to reduce/remove gene drive activity when\nit is no longer needed/wanted, paving the way to safely test this technology in future field trials."
+ },
+ {
+  "id": "c291f6dc-b110-4749-b098-f9cf39fb17a8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Accessible label-free optical microscopy with quantitative molecular and functional contrast",
+  "text": "The program proposed for this award focuses on pushing the boundaries of label-free optical microscopy to\nbuild the foundation for a number of new molecular and functional imaging tools that will increases our under-\nstanding of biological processes and enable important advances in disease diagnosis and treatment. Thus, this\nwork is ideally suited for NIGMS and MIRA."
+ },
+ {
+  "id": "c294f3dd-f981-4a39-8c97-86d0df95f854",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Environmental Modulation of Behavioral and Molecular Aging in Genetically Identical Mice",
+  "text": "Nearly all biomedical aging research is conducted in simpliﬁed lab settings that fail to capture the\ndynamism, complexity, challenges, and opportunities of real-world environments. This project will test\nwhich components of aging trajectories in mice—and interventions to slow them—generalize beyond the\nlab environment to more naturalistic settings. These ﬁndings will help improve the translational relevance\nof aging research and inform future interventions to extend healthy lifespan in human populations."
+ },
+ {
+  "id": "c296b10f-2c4d-4298-a26c-1e0791aebf74",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identifying Risk and Improving Care for Elder Abuse among Veterans",
+  "text": "Elder abuse (EA), the abuse, exploitation or neglect of an older adult by another person in a trust relationship\n(e.g., family caregiver), is experienced by 10% of older adults annually in the US. Older adults who experience\nEA are more likely to have depression, injury, additional hospitalizations, and early mortality. With the US\npopulation aging and >10 million US Veterans over age 60, addressing EA and its consequences is both a\nnational and VA public health priority. Unfortunately, an estimated 95% of EA cases go undetected, limiting\nopportunities to intervene and improve health outcomes. Therefore, enhancing detection is the necessary first\nstep to improving care for older adults experiencing EA. This project aims to improve EA detection in the VA,\nthe country’s largest integrated healthcare system, by assessing how EA screening can be improved and by\nleveraging medical record data so healthcare teams can proactively identify older Veterans at high risk. These\nfindings will help the VA meet its goal of providing high quality care to older Veterans and their caregivers."
+ },
+ {
+  "id": "c29a2a3a-bf1d-4b05-89b7-2986a233f85a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Measuring E-cigarette Use in Real Time via Wearable Sensor",
+  "text": "Results from this study are expected to have a significant impact because having an accurate assessment of\nusers’ e-cigarette use behaviors will provide a firm foundation for efforts to build the comprehensive\nunderstanding of youth e-cigarette use behaviors necessary for developing effective interventions for e-\ncigarette cessation or abstinence efforts. At the completion of the proposed research, we expect to have\ndemonstrated the feasibility and efficacy of these wearable devices in building and assessing realistic models of\nreal-world e-cigarette use behaviors in this hard-to-reach population. Thus, this study will allow practitioners\nto develop strong evidence-based strategies for effective interventions, ultimately providing new opportunities\nfor the development of novel approaches to support youth e-cigarette use prevention and cessation programs."
+ },
+ {
+  "id": "c29e8032-b337-43ac-91f7-b521c07bf999",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Utility of Advanced Unsupervised Learning Methods to Model Dietary Intake Data",
+  "text": "Coronary heart disease is a leading cause of death in the U.S. and despite the importance of diet as a modifiable\nrisk factor, current population-level dietary guidelines are ineffective and/or difficult to implement, contributing to\nrising disease prevalence. In this proposal, we will apply innovative unsupervised learning methods to the UK\nBiobank and the National Heart, Lung, and Blood Institute (NHLBI) Trans-Omics for Precision Medicine\n(TOPMed) cohort to model compositional dietary exposures and identify multi-omics profiles of dietary intake.\nThe results will advance the prevention of cardiometabolic disease by supporting precision nutrition in multi-\nethnic populations."
+ }
+]

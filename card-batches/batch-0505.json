@@ -1,0 +1,142 @@
+[
+ {
+  "id": "2732cafe-6b01-41db-9175-a3da66de9fa2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dual laser scanning ophthalmoscope and optical coherence tomography scanner with adaptive optics",
+  "text": "In vivo imaging technology, including optical coherence tomography and scanning laser ophthalmoscopy, is\ncritical for modern eye research. Given that the front of the eye is inherently transparent, it is well-suited for\nchronic and acute imaging techniques. The requested instrument, an UltraEye SLO/OCT, will facilitate\nresearch investigating the causes and treatments of retinal ganglion cell degeneration, inherited retinal\ndegeneration, choroidal neovascularization, macular degeneration, uveitis, cataract and corneal dystrophies."
+ },
+ {
+  "id": "27332e3a-9f4a-4760-96bb-7ceac073d82e",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Cancer Data Science (CDS)",
+  "text": "The mission of the Cancer Data Science Shared Resource (CSD-SR) is to enhance the scientific excellence of research at Rogel Cancer Center (Rogel) by providing biostatistical, bioinformatics and clinical informatics support across the spectrum of basic, translational, clinical and population sciences research. CDS-SR consists of highly trained quantitative scientists (faculty and staff analysts) who assist Rogel investigators to execute data analyses and conceptualize and develop research projects and clinical trials. CDS-SR personnel collaborate with Rogel members for dissemination of analytical findings in the form of inferences and hypotheses for validation and interpretations for publication."
+ },
+ {
+  "id": "2733f564-855b-4264-9b78-cc193c9f67e8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Objective Classification of Lupus Nephritis",
+  "text": "Despite being the gold standard, histological diagnosis of lupus nephritis is imprecise, and\nmarked by significant inter-pathologist discordance in readings. We propose to leverage the\npower of computer vision and deep learning to build a classifier that rivals the best-trained renal\npathologists in making a histological diagnosis of lupus nephritis. Reliable and reproducible\nclassification of LN could dramatically improve patient management and long-term renal and\npatient survival."
+ },
+ {
+  "id": "2741623b-8ab9-48af-8834-9c33e7d9b446",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Biomedical Informatics and Behavioral Sciences (BIBS) Summer Research Program",
+  "text": "The Biomedical Informatics Behavioral Sciences (BIBS) Summer Research Program targets exemplary undergraduate- and graduate-level students and provides stipends for those interested in oral and public health to complete 9 weeks of coursework and applied research experiences. There are some population groups that suffer disproportionate levels of dental diseases, for reasons that are not always well understood, and it is our premise that a dearth of oral health researchers with proficiency in biomedical informatics contributes to this knowledge gap. The BIBS program will offer short-term training in bioinformatics and data science, mentoring, and research experiences to a new cadre of students interested in advanced degrees in oral health research as well as careers in the field."
+ },
+ {
+  "id": "274d126a-b264-47c3-a2ac-1d5706fbc9a4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of a Molecular Toolbox for Pneumocystis",
+  "text": "Understanding of both the biology of the Pneumocystis jirovecii and the pathogenesis of the\npneumonia it causes has been severely limited by the inability to cultivate pneumocystis outside\nthe mammalian lung. The primary goal of this proposal is to develop molecular tools to allow\ngene editing and overexpression in this non-culturable pathogen. Development of such molecular\nsystems would shift the paradigm of Pneumocystis, making it more accessible and attracting an\ninflux of new investigators into the field to help move research forward at a rapid pace."
+ },
+ {
+  "id": "2750025f-9801-413c-bc34-419e249e6e4c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Admin-Core-001",
+  "text": "Increasing evidence suggests that “reservoirs” of HIV-infected cells which persist on anti-HIV medicines (“ART”), and especially those cells that produce HIV RNA and/or protein (“active reservoirs”), cause ongoing damage despite treatment and also allow the virus to relapse when treatment is stopped, preventing cure. In this program project grant, multiple novel and cutting-edge technologies will be applied to samples from different groups of HIV-infected individuals in order to understand how the diverse reservoirs of HIV-infected cells that do or do not produce different forms of HIV RNA and/or protein differ in many respects, including their cell numbers, survival, clearance by immune responses, contribution to inflammation, production of human RNA and proteins, differences across tissues, contribution to virologic relapse after stopping anti-HIV medicines, and susceptibility to new therapies aimed at HIV cure. Findings from these studies will generate a wealth of new knowledge about these HIV-infected reservoirs, which may lead to new approaches aimed at HIV cure or improved tolerance of lifelong infection."
+ },
+ {
+  "id": "275c7916-b058-409f-97f6-2b3d827a2265",
+  "want_sentence": false,
+  "want_terms": true,
+  "title": "A Collaborative Search for New Genes for Non-Syndromic Deafness",
+  "text": "Hearing loss affects millions of people worldwide and often runs in families. This research aims to uncover hidden\ngenetic causes of hearing loss that have not yet been found. The team will use advanced genetic sequencing\nand study patient cells to identify these elusive variants. They will also use special cells and animal models to\nunderstand how these genes work and how they can be treated. Ultimately, the goal is to develop new treatments\nand improve diagnosis for people with inherited hearing loss, bringing hope to families affected by this common\nbut challenging condition."
+ },
+ {
+  "id": "2761120e-578d-4d42-93f4-2158e655c7a2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Core B: Antiviral Drug Discovery and Development",
+  "text": "Core B – Antiviral Drug Discovery and Development\nNARRATIVE\nThe Midwest AViDD Core-B serves as is the entry portal into the drug development pipeline by providing\nchemical matter screening for the initial discovery of antiviral leads that provide the basis for early antiviral drug\ndiscovery and its development. Core-B employing ultra-High Throughput Screening, DNA-Enabled Chemistry\nTechnologies, and Computational Virtual Screening to identify, triage and validate hit chemical series for lead to\ndrug optimization through Midwest AViDD Cores C-D and project investigators."
+ },
+ {
+  "id": "276aac77-ff10-41b0-b4d1-c1f3ec3ffa76",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting splicing vulnerability of neuroblastoma",
+  "text": "Projective Narrative\nThis project is to understand the mechanism of exceptional efficacy of RBM39 degrader indisulam in high-risk\nneuroblastoma and develop combination therapies using preclinical neuroblastoma models, thereby establishing\nthe foundation for a near-term clinical trial to treat relapsed and refractory neuroblastoma patients."
+ },
+ {
+  "id": "2770e01b-ea61-47bf-a12c-2d19fd4061b2",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "University of Utah Interdisciplinary Training Program in Computational Approaches to Diabetes and Metabolism Research",
+  "text": "To accelerate the pace of diabetes research, there is a pressing need to train computationally enabled\nscientists who understand the biological basis of diabetes and related metabolic disorders. The University of\nUtah Computational Approaches to Diabetes and Metabolism Research Training Program trains both\npredoctoral and postdoctoral trainees in the computational and mathematical sciences and in the biological\nbasis of diabetes and obesity. These bioinformatics scientist trainees will gain the expertise and leadership\nskills to apply computational methods to complex biological questions that will ultimately impact the prevention,\ntreatment, and outcomes of people with diabetes and related metabolic diseases."
+ },
+ {
+  "id": "277457fb-dc3e-423f-a6ec-ab3e463f11f2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Histology, Imaging, and Analysis Module",
+  "text": "SUMMARY – HISTOLOGY, IMAGING, AND ANALYSIS MODULE The Histology, Imaging, and Analysis (HIA) module gives supported faculty and their laboratory members access to facilities, services, training, and expertise in sample preparation and labeling, imaging, and image analysis. The module provides resources for a single workflow, from tissue sample preparation to generating numerical data from high-quality images. Included in the module are equipment and technical expertise for histologic processing, embedding, sectioning, staining, and labeling, as well as microscopic techniques including brightfield, darkfield, polarized light, fluorescence, phase contrast, and DIC microscopy, as well as live cell microscopy. Qualitative and quantitative analysis techniques are provided with an emphasis on imaging ethics and scientific integrity. This essential equipment and support facilitate research for numerous NEI-funded projects, and for new faculty to acquire preliminary data for R01 grant applications."
+ },
+ {
+  "id": "2779e6e1-9543-4b20-b65f-b26d8eab8b5d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Core F:  Systems Biology & Biostatistics",
+  "text": "The technologically advanced CFAR Systems Biology & Biostatistics Core F offers access to a broad range of biostatistical, bioinformatic, and systems biology expertise and services requested by users. It also provides education and training to support systems biology approaches to studying HIV. Core F will continuously introduce new technologies to promote fundamental research on HIV cure, prevention, response to treatment, and the development of the immunological landscape during disease progression."
+ },
+ {
+  "id": "277d2992-2837-4bfa-9565-5725cdaa2d23",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Maternal Autoantibody Reactivity, Gestational Inflammation, and Child Neurodevelopment (MARGIN)",
+  "text": "STATEMENT\nNeurodevelopmental disorders have become increasingly common, yet their causes remain largely unknown.\nThe proposed research has the potential to identify immune and metabolic profiles during pregnancy that\nindicate risk for specific NDD. This would support the development of prenatal screening for NDD, leading to\nearlier intervention and the possibility of preventing future morbidity and improving quality of life."
+ },
+ {
+  "id": "277ef62c-894d-4195-9eec-8007135d6a11",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Elucidating the role of Wnt/beta-catenin in mitochondrial metabolism and cell behavior",
+  "text": "Mitochondrial perturbations, such as decreased mitochondrial pyruvate oxidation, have been linked to\ndiseases like diabetes, cancer and heart disease. Moreover, our understanding of the regulation of\nmitochondrial metabolism by the Wnt/β-catenin signaling pathway (which is critical to maintain the\nbalance between stemness and differentiation) is very limited. In this proposal, I aim to define the\nmechanisms by which β-catenin and c-Myc regulate the expression of the mitochondrial pyruvate\ncarrier (MPC), and the significance of this regulation in cell metabolism and cell behavior."
+ },
+ {
+  "id": "27850eb5-656b-455f-bbb6-409265f2163e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular Mechanisms of Bacterial Toxins Targeting the Actin Cytoskeleton",
+  "text": "The proposed research is relevant to human health as it explores novel mechanisms of\npathogenicity employed by three families of bacterial toxins: VopF/VopL, SipA, and MavH,\nproduced by pathogenic Vibrio, Salmonella, and Legionella strains. Understanding such\nmechanisms will help to clarify the roles of the actin machinery in defense against pathogenic\nmicroorganisms, improve our ability to treat life-threatening infectious diseases, and lead to the\ncreation of innovative research strategies, thereby satisfying several criteria relevant to NIH’s\nmission."
+ },
+ {
+  "id": "2785ad26-e132-438f-95ca-03731c7a5582",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Elucidating the molecular mechanisms of secondary cone degeneration in models of Retinitis Pigmentosa",
+  "text": "Retinitis Pigmentosa is a blindness disease in which rod photoreceptors, which are necessary for night vision,\ndegenerate due to inherited mutations, and subsequently, cone photoreceptors, which provide humans with\ndaylight color vision, degenerate for unknown secondary reasons. We have previously discovered that the\nactivation of the Retinoic Acid signaling pathway is sufficient to promote cone survival. In this proposal, we will\ndetermine whether this signaling pathway could improve visual acuity in multiple mouse models of Retinitis\nPigmentosa and elucidate the downstream molecular and cellular mechanisms."
+ },
+ {
+  "id": "278db9e3-8116-4315-8fae-3f6bef9ef6fc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Polygenic Risk Prediction of Breast Cancer for Women of African Descent",
+  "text": "There is an urgent need to reduce the persistent racial disparities in breast cancer outcomes in the U.S and the\nadvances in precision medicine have left African Americans behind. The primary objective of this study is to\nbuild a risk assessment tool for women of African descent from genetic alterations in genes that contribute to\nincreased breast cancer risk, and combine this tool with environmental and lifestyle risk factors of breast\ncancer. We also wish to find the causal risk factors for breast cancer that share across populations."
+ },
+ {
+  "id": "278e7507-3b60-4e18-adcb-87f37c4ada22",
+  "want_sentence": false,
+  "want_terms": true,
+  "title": "The BCM Knockout Mouse Production and Phenotyping Project (BCM KOMP2)",
+  "text": "We propose to continue our efforts as part of a consortium for large-scale production and\nphenotyping of knockout mice. The generation of mutant alleles and broad-based, systematic\nphenotyping will reveal gene contribution to mammalian biology and define new functions and\npathways underlying the mechanisms of disease. All mouse lines and their phenotyping will be\npublicly released as they become available."
+ },
+ {
+  "id": "27941db4-c09e-4197-919a-a12303c772af",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Advancing novel therapeutics and translational science to close the survivorship gap in pediatric, adolescent and young adult (AYA) lymphoma",
+  "text": "Sharon Castellino, MD, MSc is an experienced and productive Clinical Scientist whose goal is to improve\nsurvival for children, adolescents and young adults (AYAs) with blood cancers and lymphoma. The R50 award\nwill support her leadership in the Children’s Oncology Group to bring curative therapies and accelerate the\ntimeline for trials with novel agents to AYA with Hodgkin lymphoma. At the institutional level, as the leader of\nthe pediatric leukemia and lymphoma program, the R50 support will enable her to create a trial enrollment\ninfrastructure for AYAs on NCI clinical trials in Georgia."
+ },
+ {
+  "id": "279519da-2f9b-461f-ae23-5f53e0bb1120",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Advanced Single Cell Technology Innovation Core",
+  "text": "The proposed Cancer Systems Therapeutics (CaST) Center focuses on understanding and targeting molecularly distinct yet co-existing cell states and transitions that establish and maintain tumors and tumor microenvironments at a systems level. These goals demand analytical methods with single-cell resolution. The Advanced Single Cell Technology Innovation Core (ASCeTIC) will provide state-of-the-art technology for single-cell genomic analysis, multiplexed single-cell molecular perturbation, and in situ validation to CaST investigators. We will offer a suite of tools including multi-omic methods for joint single-cell RNA/ATAC-seq, single-cell imaging/RNA-seq (SCOPE-seq), and single-cell CRISPRi/RNA-seq (CROP-seq). Recognizing the importance of spatial profiling for both in situ validation and studies of cell-cell interactions in the tumor microenvironment, we will also offer immunohistochemical analysis, RNA-FISH, and cyclic immunofluorescence (cycIF), which can simultaneously quantify tens of protein epitopes in individual cells in a single tissue section."
+ }
+]

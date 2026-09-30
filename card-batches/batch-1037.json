@@ -1,0 +1,142 @@
+[
+ {
+  "id": "e3d064fc-ef57-47b0-bc13-7c01a8ca9c79",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Comprehensive Analysis and Multi-Omics Data Integration for Cancer-Related Studies",
+  "text": "Comprehensive bioinformatic analysis and multi-omics data integration is an essential\npart of a wide variety of cancer-related studies such as biomarker discovery for cancer\nimmunotherapy or the role of epigenetics in cancer-specific regulation. This application\nis aimed to support the development of state of the art bioinformatics analysis pipelines\nthrough my role as principal data scientist and bioinformatics manager of The\nExperimental and Computational Genomics Core in the Sidney Kimmel Comprehensive\nCancer Center. The support of the R50 award will enable broader access of\ncomprehensive bioinformatic expertise provided by the Experimental and Computational\nGenomics Core for diverse cancer-related studies by members of the Sidney Kimmel\nComprehensive Cancer Center, the Bloomberg~Kimmel Institute for Cancer\nImmunotherapy, and the Convergence Institute at Johns Hopkins."
+ },
+ {
+  "id": "e3d08277-e3bf-4c71-aea8-204d7ea604cc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mitochondrial solute carriers on phagosomes in dendritic cells",
+  "text": "The communication between compartments (organelles) within a cell plays a crucial role in maintaining cellular\nhomeostasis and supporting anti-microbial defense. We will characterize: 1) the mechanisms that promote\nmitochondria-phagosome interactions after phagocytosis (an essential process for microbial killing); and 2) the\nrole of these interactions and two metabolite transporters in supporting immune functions in dendritic cells (the\nmain cellular link between innate and adaptive immunity)."
+ },
+ {
+  "id": "e3d61729-eb98-4b4e-8cfd-83d46045cfa4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Pericoronary fat: MACE risk from non-contrast CT and the role of iodine perfusion in contrast CT",
+  "text": "Using inexpensive CT exams that are suitable for screening, we will analyze fat around the coronary arteries, a\ntissue which has been implicated in biological studies of atherosclerosis. We will determine if artificial intelli-\ngence analysis of the fat can predict future cardiovascular events (e.g., heart attack). With success, this re-\nsearch could lead to improved detection of disease and management of patients, improving cardiovascular\nhealth."
+ },
+ {
+  "id": "e3df69f4-37c7-42f9-9d9b-90cd0687ad51",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A Multi-Omics Investigation of Risk and Resilience for Opioid Use Disorder Among Chronic Pain Patients",
+  "text": "Opioid use disorder (OUD) and chronic pain are critical public health issues that disproportionately affect\nVeterans, leading to high rates of disability, lower quality of life, and strain on healthcare systems. Veterans are\nat particularly high risk for OUD in part due to their receipt of opioid medications for chronic pain management.\nHowever, the biological and clinical factors that contribute to OUD risk and resilience among Veterans with\nchronic pain are poorly understood. This project will use a series of cutting-edge genomic, epigenomic, and\nbioinformatic approaches to identify key biological pathways and clinical factors driving risk and resilience. By\nintegrating multi-omics data with advanced machine learning methods, the study will yield actionable insights\nand precision medicine strategies to improve the prevention, diagnosis, and management of OUD and chronic\npain among Veterans."
+ },
+ {
+  "id": "e3e0c9e0-2e88-441a-ab8c-abbd32d0151a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Genomic Instability as A Driver of Stem Cell Exhaustion",
+  "text": "Muscle stem cell exhaustion is one of the hallmarks of aging and leads to gradual impairment of tissue\nstructure and function. However, the molecular mechanisms that are linked to the aging process and that\ncontribute to stem cell exhausting have not been defined. The main focus of this proposal is to examine how\nincreases in DNA damage (another of the hallmarks of aging) might lead to MuSC exhaustion, and to explore\nhow the molecular mechanisms that normally limit DNA damage could be enhanced to preserved youthful\nMuSC structure and function."
+ },
+ {
+  "id": "e3e1b963-f05e-4a4f-ae4f-6f74f8ea10e4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Quantifying bNAb neutralization of the HIV latent reservoir",
+  "text": "The use of broadly neutralizing antibodies as a therapy or potential cure for HIV is promising, but a major\nobstacle to testing its potential is determining in what patients it may be most beneficial. We are developing a\nrapid turnaround assay using a single cell viral outgrowth neutralization assay (scVONA), which obtains\ninformation about the functional viral reservoir in patients and its sensitivity to bNAbs within two weeks."
+ },
+ {
+  "id": "e3f1dd90-795a-4d4f-9897-41ff5205ad52",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms mediating human enteroendocrine cell differentiation and function",
+  "text": "The proposed research is relevant to public health as it focuses on understanding the mechanisms controlling\nthe differentiation and function of enteroendocrine (EE) cells, key regulators of appetite regulation and insulin\nsecretion. Completion of this proposal will highlight transcriptional and epigenetic factors that can induce EE\nhormone production and the mechanism(s) behind EE cell dysregulation in obesity and type 2 diabetes\nmellitus (T2DM), allowing for identification of new targets for therapeutics to improve appetite control and\ninsulin secretion. Thus, this research has the potential to improve the health of millions of people with obesity\nand T2DM."
+ },
+ {
+  "id": "e3f58dc6-d75a-4806-be62-75f1b4ad600b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "BrpA in Virulence Modulation of Streptococcus mutans",
+  "text": "This study uses a comprehensive approach to uncover how multi-functional protein BrpA modulates the\nbiofilm matrix and affects Streptococcus mutans biofilm formation, and employs a structure and function\nrelationship guided strategy to optimize the lead small inhibitory molecules that can effectively and\nselectively modulate S. mutans biofilm formation. Information derived from this study will also facilitate the\ndevelopment of novel therapeutic and preventative strategies to combat human dental caries."
+ },
+ {
+  "id": "e3f79537-d64c-4169-a656-0f09da77a373",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Integrative approaches to elucidate p53 transcriptional networks during carcinogenesis",
+  "text": "In the US, approximately 1 in every 2-3 individuals will develop cancer, a disease of uncontrolled cellular\nproliferation that can be fatal. The TP53 gene is the most commonly mutated gene in human cancer,\nreflecting the fact that p53 plays an essential role as a tumor suppressor. This research aims to elucidate\nthe mechanisms by which p53 acts to suppress cancer, with the ultimate goal of improving early\ndetection and treatment of cancer."
+ },
+ {
+  "id": "e3fa8499-d4ca-4c18-89de-ebdc18b07a98",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Associations between stigma and alcohol use among women and their offspring",
+  "text": "Women experience disproportionate health impacts of risky drinking behaviors, partly due to stigma related to alcohol use, and these impacts may extend to their offspring; however, the mechanisms that mediate and moderate these associations, as well as how they unfold throughout the lifecourse, remain unknown. The proposed research will examine how exposure to stigma throughout life impacts alcohol consumption of women and their offspring in two unique, linked, longitudinal, intergenerational cohorts"
+ },
+ {
+  "id": "e3fc5815-ee0d-418a-809f-67bb5c0a3890",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Exploring Dopamine Transporter Recycling and Trafficking Defects in Parkinson's Disease",
+  "text": "Studying early pathological occurrences at dopaminergic synapses may reveal key insight into\nmechanisms of dopaminergic neuron vulnerability in Parkinson's Disease (PD). This project will utilize\nlive imaging and super-resolution microscopy in primary dopaminergic neurons and induced\npluripotent stem cell-derived dopaminergic neurons from PD patients to explore whether defects in\ndopamine transporter (DAT) recycling and trafficking occur in genetic forms of PD with mutations in\nendolysosomal proteins. This work will further the field's understanding of early dopaminergic\npathology in PD and help identify targets for presymptomatic, disease-modifying therapeutic\ninterventions."
+ },
+ {
+  "id": "e3ff32fa-1e48-4706-8ae7-1950d18c4254",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Role of miR-142 in the Transformation of Clonal Hematopoietic Disorders into AML",
+  "text": "(relevance):\nDespite appropriate treatments, chronic blood disorders such as myeloproliferative neoplasms (MPN) and\nchronic myelogenous leukemia (CML) (called here collectively MPD) can transform respectively into secondary\nacute myeloid leukemia (sAML) or blast crisis (BC) CML, which are very poorly responsive to currently available\ntreatments. This proposal seeks to understand the mechanisms through which deficit of a molecule called miR-\n142 confers to the MPD cells a more aggressive clinical behavior that transforms them into sAML/BC CML cells.\nTo address the unmet need for effective therapies for these conditions, we will also develop a novel drug called\nCpG-M-miR-142 designed to restore levels of miR-142 and hopefully to lead to a cure in these otherwise poor-\nrisk patients."
+ },
+ {
+  "id": "e4001f8f-13f6-4112-9aee-5b6db1b30541",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Isoform-Specific Functions of Espin Variants in Auditory and Vestibular Hair Cells",
+  "text": "Hearing loss affects nearly 1 in 8 Americans and remains largely irreversible because the sensory structures of\nthe inner ear cannot regenerate once damaged. This proposal investigates how these structures are built during\ndevelopment and repaired after noise exposure, using novel mouse models that isolate key protein variants for\nthe first time. Understanding these mechanisms could inform new strategies for preventing and treating both\ncongenital and noise-induced hearing loss."
+ },
+ {
+  "id": "e4045a0f-3061-482b-9d35-a29016918a7b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Research Project 1 PDAC Molecular Subtypes Contribute to Cancer Health Disparities",
+  "text": "The United for Health Excellence-Living PDX Program (U4HELPP) seeks to develop, characterize and test >500 new patient-derived xenograft (PDX) models from patient populations such that our research studies can more adequately represent the patient population that our cancer center serves."
+ },
+ {
+  "id": "e4054357-1733-40ef-9aa9-c3eb0d8a5ff8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Wastewater Sampling: A New Tool to Accelerate Ending the HIV Epidemic",
+  "text": "New epidemiologic tools that identify in real time communities with high amounts of circulating HIV may\nenhance efforts to reduce HIV transmission and substantially contribute to ending the HIV epidemic. During the\nCOVID-19 pandemic we built a robust wastewater sampling program for the Houston region that includes\nweekly assessment of 39 wastewater collection sites covering about 4 million residents and our preliminary\ndata demonstrate that HIV can also be detected in wastewater. The project will apply our pioneering\nwastewater sampling program as a powerful new tool to identify geographic areas with a high active burden of\nHIV, reflecting substantial numbers of people with undiagnosed or untreated HIV infection, and respond to\nthose areas with effort to reduce unsuppressed HIV in those geographic areas."
+ },
+ {
+  "id": "e406120b-e1a5-4ebb-9e31-3a4452b5d582",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identification of Novel Epigenetic Regulators of lymphocyte Development",
+  "text": "Studies on T cell development provide direct insights into the pathophysiology of a wide variety of diseases,\nsuch as malignancies, immunodeficiency disorders, and autoimmune diseases. However, our understanding of\nthe epigenetic regulation of lymphoid development, especially the T cell fate commitment from hematopoietic\nstem and progenitor cells (HSPCs), is incomplete. The goal of this project is to discover key epigenetic\nregulatory mechanisms underlying T cell development and explore new strategies to facilitate stem cell-based\nadoptive T cell therapy."
+ },
+ {
+  "id": "e408a965-c845-4c89-9556-a0584af40da7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Frontal cortical contributions to ventral stream visual processing",
+  "text": "The ability of the human visual system to robustly identify and evaluate objects under a range of\nvisual conditions is typically attributed to the cortical ventral visual stream, a brain pathway\nwhose disruption leads to face and object agnosia and memory loss. This proposal examines\nhow the frontal cortex provides visual cognitive support for ventral stream function and seeks to\naddress ways in which traditional models fail to account for behavioral and neuroscientific\nobservations of real-world vision. State-of-the-art electrophysiological, optical imaging and deep\nlearning computational tools will be applied to measure and model brain data from the primate\nfrontal and ventral visual cortex, elucidating information flow within and between brain regions\nthat are critical for visual function and are known to be disrupted in neurological disease such as\nfrontotemporal dementia and autism."
+ },
+ {
+  "id": "e40fdb75-10e3-4f11-a79d-4580b7680f17",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cytoplasmic Sensing of Membrane-Replicating RNA Viruses",
+  "text": "Pathogenic positive-strand RNA viruses replicate within membrane-bound replication compartments to\nsequester their viral RNA from host cell sensors, yet cytosolic pattern recognition receptors are critical in initiating\nantiviral immune responses to these viral infections. This proposal aims to resolve how cytosolic sensors detect\nmembrane-replicating RNA viruses by visualizing sites of sensing, characterizing native pattern recognition\nreceptor ligands during viral infection, and identifying proteins involved in regulating the intracellular localization\nof viral RNAs. This work will provide novel insights into important innate immune sensing pathways by viewing\nthese interactions through a spatial lens."
+ },
+ {
+  "id": "e4130bbd-529c-4a39-bdd9-62ea8f1260f1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular Detection and Diagnostics Core",
+  "text": "(Molecular Detection and Diagnostics Core) The Tulane COBRE for Clinical and Translational Research in Cardiometabolic Diseases Phase 2 application aims to further develop and strengthen the clinical and translational research infrastructure at Tulane University and to continuously expand and support a critical mass of investigators with expertise in clinical and translational research in cardiometabolic diseases. The newly proposed Molecular Detection and Diagnostics Core (MDDC) will support the Research Project Leaders (RPLs), Pilot Project Leaders (PPLs), other COBRE investigators and collaborators at Tulane University by providing cutting-edge instruments, innovative technologies and methodologies, and expertise in multidisciplinary research including biochemistry, biomedical engineering, analytical chemistry, proteomics, nanotechnology, and mass spectrometry (MS) to advance their clinical and translational research in the etiology, prevention, diagnosis, and treatment of cardiometabolic disease. The MDDC will develop and adapt integrated nanotechnology-based strategies and other innovative technologies to identify novel biomarkers for early disease detection, prognostic evaluation, and the real-time monitoring of treatment responses as well as to understand the molecular mechanisms of cardiometabolic disease. The MDDC seeks to catalyze research that spans the analytical chemistry-biology interface, empowering investigators to identify and solve important interdisciplinary research questions in the clinical and translational sciences of cardiometabolic disease. Based on our team's expertise, the MDDC will provide COBRE investigators with training and services in state-of-the-art analytical technologies such as MS and microarray-based proteomics and organ-on-a-chip, among others, for the analysis of complex proteomes of tissue and biofluid samples. The MDDC will also identify appropriate existing analytical methods as well as adapt newly developed methods, often not available in the form of mature technologies. The MDDC will be housed within the Tulane University Center for Cellular and Molecular Diagnostics, which has been well established for infectious and chronic disease research. During the COBRE Phase 2, the MDDC will provide cutting-edge instruments and methodological support for RPLs of Projects 2 and 3 to conduct their individual research projects. In addition, the MDDC will provide expert consultation and state-of-the-art technologies for RPLs of Projects 1 and 4 to develop R01 applications to further investigate molecular mechanism of APOL1 on chronic kidney disease progression and potassium intake on blood pressure reduction. The proposed MDDC will enhance the interactions and collaborations among COBRE, non-COBRE and external investigators involved in molecular studies of cardiometabolic disease. Since the MDDC is a critical component of the COBRE program, our long-term goal is to grow MDDC into a sustainable resource that serves all phases of translational research, from basic science to clinical science to population science at Tulane University by providing a broad range of state-of-the-art cellular and molecular analytical services."
+ },
+ {
+  "id": "e413308e-7d68-47ae-b2b0-0078b8057b6f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A Pragmatic Clinical Trial to Improve Screening for Cognitive Impairment in Older Adults with Diabetes",
+  "text": "Older adults with diabetes are at high risk for cognitive impairment which can substantially complicate diabetes\nmanagement. This project will 1) evaluate adherence to guideline-recommended cognitive screening in older\nadults with diabetes; and 2) undertake a pragmatic clinical trial of a clinical decision support (CDS) intervention\nto improve rates of cognitive screening in older adults with diabetes."
+ }
+]

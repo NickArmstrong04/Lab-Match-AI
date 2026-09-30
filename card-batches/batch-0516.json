@@ -1,0 +1,142 @@
+[
+ {
+  "id": "2b2e7f66-f6ef-4d24-82fd-e6651e2a2078",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Models and Gene Therapies for AAT Deficiency-Core A",
+  "text": "Core A Project Summary The Vector Immunology Core (Core A) will directly support all Projects of this program project grant by providing reliable, consistent and standardized immunological assays. Core A will create, validate and perform immunological assays to characterize B-cell and T-cell immune responses to adeno-associated virus (AAV) and lipid nanoparticle (LNP) vehicles, transgene products, and editing enzymes in mice and ferrets. Core A will: evaluate innate immune responses to gene therapies by evaluating complement activation and cytokine levels; characterize B-cell responses by transduction inhibition-based neutralizing antibody assays and anti- transgene antibodies; characterize T-cell responses by enzyme-linked immunoSPOT (ELISPOT) assays; and evaluate cytokine production through both enzyme-linked immunosorbent assays (ELISAs) and flow cytometry- based cytokine bead assays. The core will also produce novel immune modulatory therapeutics and AAV- specific chimeric antigen receptor (CAR) T-regulatory cells (Tregs). Overall, Core A will generate valuable data while providing all necessary support and resources to the Projects in this program project grant. This will further our understanding of the role of the immune system in gene editing and gene therapies."
+ },
+ {
+  "id": "2b35ab71-e883-44e1-a699-0fbca40fb665",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Bacteriophage virus-like particle vaccines for Chlamydia trachomatis urogenital infection",
+  "text": "Chlamydia trachomatis is the most common bacterial sexually transmitted infection, causing infertility, ectopic\npregnancy, and pelvic inflammatory disease in women. Despite the availability of effective treatment, the\nprevalence of chlamydia continues to rise, highlighting the need for a prophylactic vaccine. This proposal\nseeks to identify Chlamydia trachomatis vaccine candidates by investigating the functions of antibodies to\nspecific epitopes of Chlamydia trachomatis proteins involved in binding and entering host cells, providing a\nnovel approach for Chlamydia trachomatis vaccine development."
+ },
+ {
+  "id": "2b35de05-fdf9-4013-a9f4-f955d105e568",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A Novel Combinatorial Approach Targeting Neurodegeneration in Familial Dysautonomia",
+  "text": "Familial dysautonomia (FD) is a neurodegenerative inherited disease caused by a splicing mutation in the ELP1\ngene that results in variable skipping of exon 20. This work aims to develop a novel gene-editing strategy for\nELP1 and generate critical in vivo proof-of-concept data to assess the efficacy and potential synergy of a\ncombinatorial therapy for the devastating neurodegeneration characteristic of FD. This approach combines a\nsmall molecule splicing modulator compound (SMC) with a gene editing approach."
+ },
+ {
+  "id": "2b368dbc-004e-4aa4-8e2b-fb4d065c7817",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Epigenetic regulation of exhausted CD8 T cells via the miR-29a-TET2 axis",
+  "text": "Chronic infections and cancer result in dysfunction of immune cells, termed “exhaustion”. With\nthis proposal, we will investigate the cellular and molecular mechanisms that cause exhaustion\nand the use of a small non-coding RNA (microRNA-29a; miR-29a) to overcome exhaustion. We\nwill explore the potential of delivering miR-29a to T cells as a novel strategy to improve\nresponses to immunotherapy."
+ },
+ {
+  "id": "2b3dffa7-21cc-4ecd-9023-b37177d1666f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating the Impact of Adolescent Social Experiences on Neurodevelopmental Regulators of Addiction Susceptibility",
+  "text": "Social experiences during adolescence are critical for the formation and stabilization of decision-making circuits\nthat regulate drug use susceptibility. Here, we will combine innovative behavioral and computational methods\nwith circuit-specific single-cell genomics assays to interrogate the neurodevelopmental mechanisms that are\naltered by adolescent social isolation and associated with greater risk for addiction-like behaviors."
+ },
+ {
+  "id": "2b3f0135-373a-4062-9466-d5fd76fa1330",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Integrating Epidemiologic and Genomic Data to Elucidate the Genetic Overlap Between Congenital Anomalies and Pediatric Cancer",
+  "text": "In our prior work, we have identified multiple novel congenital anomaly-cancer associations by linking data\nfrom population-based birth-defects and cancer registries from four states. Here, we propose to expand this\nstudy to seven additional states to analyze a cohort representing >25 million live births and approximately 35%\nof the US population. We will also search for genetic mechanisms driving these associations through the\nanalysis of whole-genome sequencing data in 20,000 children with congenital anomalies or pediatric cancer,\nincluding 2000 sequenced tumors."
+ },
+ {
+  "id": "2b4625f7-a160-4e93-b233-af94a68d281a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Elucidating the complex allosteric regulation of PFK-1, a broadly evolutionarily conserved glycolytic enzyme",
+  "text": "Allosteric regulation of enzymes, which underpins many metabolic processes, can be perturbed by genetic\nmutations, contributing to metabolic re-programming in cancer and other diseases. The broadly evolutionarily\nconserved enzyme phosphofructokinase-1 (PFK-1) is allosterically regulated by many small molecules to control\nglycolytic flux in the cell, but the evolution and molecular mechanism of this regulation is poorly understood. We\npropose to characterize the complex combinatorial allosteric mechanism of PFK-1 towards the rational design\nof powerful therapeutics to target this essential enzyme in metabolic diseases and cancer."
+ },
+ {
+  "id": "2b4ac348-19be-45ee-8909-14c538b732e7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Spatial Organization in Biochemical Reaction Networks",
+  "text": "Biological networks are often spatially organized to ensure that reactions inside cells occur at the\nright place and time, particularly in fundamental processes like cell signaling and genome\nregulation. We will systematically explore the relationship between spatial organization and\nfunction in these systems with quantitative biochemical assays, structural methods, cell-based\nstudies, and new synthetic biology tools. This approach will enable us to understand underlying\nregulatory principles and how to intervene when these processes are misregulated in human\ndiseases."
+ },
+ {
+  "id": "2b4d6ae3-1086-47c8-9801-b14a06e64e84",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Bioinformatics Analysis of Next Generation Sequencing Data from Cancer Cells",
+  "text": "Sequence-based assays provide a powerful toolset for gaining insight into the function and disfunction of\ncancer cells. Unfortunately, the resulting data sets are a classic example of “big data” and experimental\nbiologists are traditionally not trained to handle or analyze them. The goal of this R50 proposal is to\nprovide Dr. Bartom’s expertise in both computation and biology to the cancer research programs of the\nRobert H. Lurie Comprehensive Cancer Center, and more specifically to the Quantitative Data Sciences\nCore (QDSC)."
+ },
+ {
+  "id": "2b4e729c-de5f-4b74-8e0c-5307e82bbcfb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multimodal classification and sub-cellular compartmentalization of displaced amacrine cells in the mouse retina",
+  "text": "Amacrine cells are the final remaining neuron class in the retina in which there are substantial gaps in our\nknowledge of cell types, and this project will fill part of this gap in knowledge by establishing a multimodal\nclassification of displaced amacrine cells. Amacrine cells are also among the most important examples of\nsubcellular compartmentalization in neuroscience, so a second goal our project is to reveal how they\ncompartmentalize function in different parts of their neuritic arbors. Revealing the identities of amacrine cell types\nand their roles in retinal computation will help us understand their dysfunction in disease."
+ },
+ {
+  "id": "2b50d363-47e7-4bb5-ae4d-80a8efe6a78f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Non-invasive fetal HLA and KIR genotyping of cell-free DNA from maternal blood",
+  "text": "Developing non-invasive approaches to assess preeclampsia risk in early stages of gestation is\nurgently needed. We will leverage our expertise in analyzing immune system genes that affect\npreeclampsia risk to develop a genotyping assay that targets fetal cell-free DNA circulating in maternal\nblood. This approach can pave the way for developing a new prognostic biomarker for fetal-maternal\nhealth in early stages."
+ },
+ {
+  "id": "2b5121ee-6c13-4601-8014-169136743b71",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project 1 - HEARTSPOT: Evaluating a Machine Learning System to Aid Decision-Making in the Emergency Department for Patients with ADRD",
+  "text": "OTHER PROJECT INFORMATION – Project Narrative\nAn emergency department clinician treating a patient with acute coronary syndrome (ACS) faces difficult\ndecisions about whether to recommend invasive treatment. If the patient is cognitively impaired, assessing health\nrisks and benefits is even more complex. This project will test a machine learning tool called HEARTSPOT that\npresents a report to help clinicians make this difficult decision. HEARTSPOT will examine each patient’s medical\nhistory faster and more completely than any human could and present a summary of its findings to the emergency\ndepartment clinician in real time."
+ },
+ {
+  "id": "2b5b2acf-9684-479b-a543-387740da4c70",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Eliciting Broadly Neutralizing Antibody Responses against HIV-1 Fusion Peptide Epitope by AB Toxin B Subunit-Based Immunogens",
+  "text": "Innovative ideas are crucial for developing an effective HIV/AIDS vaccine. The aim of this project is to create\nAB toxin-based vaccines with the capability to elicit broadly neutralizing antibodies targeting the fusion peptide\nregion of HIV-1 and capable of neutralizing Tier 2 viruses, ultimately paving the way for a protective vaccine."
+ },
+ {
+  "id": "2b5b5192-2698-4d48-b33c-c3dfb7d14d25",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Graduate Training Program in Computational Biology, Bioinformatics and Biomedical Data Science (CBB)",
+  "text": "The rapid advances in high-throughput biology and digital biomedicine as well as machine learning and data science technologies have created critical needs and an unprecedented opportunity to train the next generation of multidisciplinary researchers at the interface of biomedical and computational sciences. This new T32 predoctoral training program aims to enhance graduate research training in the areas of computational biology, bioinformatics, and biomedical data science. It will be a cross-campus program with a collaborative team science environment and evidence-based, reproducible, and responsible research conduct to ensure scientific rigor for transformative workforce development."
+ },
+ {
+  "id": "2b61c1a8-3d6c-4e96-9bab-394b3df88b52",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "HNF4A as a mediator of environmental risk in IBD",
+  "text": "Inflammatory bowel disease (IBD) is a complex disease with genetic and environmental risk factors combining\nto cause lifelong intestinal disease with treatment regimens that are often inadequate. We find that the balance\nof hepatocyte nuclear receptor 4 alpha (HNF4α) isoforms is disrupted in IBD patients, which is further\nexacerbated by exposure to environmental IBD risk factors. We propose to determine how HNF4α isoform\nimbalance drives the onset and progression of IBD by integrating signals from environmental risk factors to gain\nnew insights into IBD pathophysiology and identify new avenues for therapy."
+ },
+ {
+  "id": "2b62dac1-9291-4839-a301-eac2e8a87cea",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of Parp inhibitor-induced bone marrow toxicities",
+  "text": "The proposed research is relevant to public health because it focuses on understanding how a class of drugs\ncalled PARP inhibitors, drugs being used to treat cancer and being tested for an expanding number of non-\nmalignant human diseases, cause the serious blood and bone marrow toxicities seen in some patients taking\nthem. This proposal will provide key mechanistic insight into which cells in the bone marrow require the\nenzymes targeted by these drugs for normal functioning, and whether these drugs have the capability to\nmutate the DNA of these cells to predispose patients to bone marrow failure or blood cancers. Thus, the\nproposed research is relevant to the National Heart, Blood, and Lung Institute’s mission to promote the\nprevention of blood diseases and enhance the health of all individuals so that they can live longer and more\nfulfilling lives."
+ },
+ {
+  "id": "2b676872-01f4-4070-a1b7-6fc2d355d5a2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "CELLENONE X1 NEO SYSTEM FOR PROTEOMICS RESEARCH",
+  "text": "Baylor College of Medicine is committed to advancing cutting-edge biomedical research through the integration\nof state-of-the-art technologies. To establish new capabilities in single-cell and spatial proteomic profiling at our\ninstitution, we are seeking funding for the cellenONE X1 Neo system. This innovative platform will empower\nour investigators to explore disease processes and developmental mechanisms with unprecedented resolution,\nsignificantly accelerating insights into a wide range of conditions impacting human health."
+ },
+ {
+  "id": "2b682146-0dd0-42d2-98b6-71ca3932387f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Statistical methods for population-level cell-type-specific analyses of tissue omics data for Alzheimer's disease",
+  "text": "Alzheimer's disease (AD) is the major cause of dementia and selectively affects certain brain cell types. However,\ncurrent single-cell technology limits the ability to study this on a large scale across multiple omics, such as DNA,\nRNA, and protein. To fill this knowledge gap, we will develop and implement statistical methods that will leverage\nexisting rich tissue-level and limited single-cell omics data, with the goals of increasing our understanding of\ncellular mechanisms underlying AD and informing future prevention and treatment strategies."
+ },
+ {
+  "id": "2b6fcc47-e0ef-4e8a-8d6e-b6142889d866",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Research Framework for Innovation in Read Mapping",
+  "text": "Mapping sequenced DNA or RNA reads to a reference human genome or pan-genome is the first essential\nstep in variant calling, reference-based assembly, gene expression quantification, and nearly all other genomics\nanalyses. However, read mapping, despite over two decades of progress, remains one of the most computationally\nexpensive steps in any pipeline and faster, more memory efficient, and more flexible algorithms are needed to\nreduce cost and increase mapping accuracy. To achieve this, we propose a “meta” approach that will develop\na software platform for innovation and rapid experimentation with new ideas in read mapping that will improve\nmapping software."
+ },
+ {
+  "id": "2b7211fd-29b0-4480-b8ec-0fcd255b036f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Creation of a knowledgebase of high quality assertions of the clinical actionability of somatic variants in cancer",
+  "text": "Cancer is driven by DNA mutations which can increasingly be used to determine the type, likely outcome and\nbest treatment options for individual patients. Establishing the clinical relevance of each mutation requires\nexperts to review and summarize a growing body of evidence. By coordinating the efforts of these disease\nexperts we will build a database of mutations and information that helps doctors guide treatment of cancer\npatients."
+ }
+]

@@ -1,0 +1,142 @@
+[
+ {
+  "id": "61dde0be-9556-4765-aa42-48582e9781a1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Decoding the sequence basis of genome regulation",
+  "text": "The proposed research will improve our understanding of how genomic DNA sequences encode regulatory\nactivities by developing computational models that are explainable, accurate, and reflect the underlying\nbiological mechanisms. These models will help uncover the sequence basis of diverse genome regulatory\nmechanisms, enabling increasingly accurate interpretation of noncoding variants and advancing our\nunderstanding of how normal and perturbed genome regulation contributes to human health and disease."
+ },
+ {
+  "id": "61ea0381-9707-415f-9543-014714318650",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Diabetic Keratopathy and Aging",
+  "text": "Diabetes mellitus is a global public health problem characterized by elevated blood glucose levels. The prevalence of diabetes has now reached pandemic levels (10.5% worldwide), and the incidence rises each year with increasing medical expenditure and significant morbidity and mortality. Diabetes affects multiple organs including the eye. Diabetic keratopathy (DK) is one of most common ocular complications associated with diabetes and is characterized by reduced corneal sensation, delayed corneal wound healing, chronic corneal inflammation, and increased susceptibility to corneal infections, ultimately leading to vision loss. The severity of DK increases with age and the duration of diabetes. Similarly, aging is a physiological condition associated with greater corneal complications in diabetic patients. Both diabetes and aging together cause loss of corneal function and integrity. However, the underlying mechanisms behind diabetic keratopathy and its association with aging are not fully understood. In this proposal, we will investigate the intersection of diabetes and aging using a highly tractable and versatile zebrafish model of DK. We will study gene and protein expression changes induced by diabetes and aging together in juvenile, young, and aged adult zebrafish corneas exposed to glucose over different lengths of time, and how these changes correlate with corneal wound healing in a well-validated zebrafish corneal injury model. Recent studies suggest that mTOR signaling plays a key role in corneal wound healing. We hypothesize that increased expression of mTOR signaling is associated with DK and will study mTOR signaling in diabetes and aging, and how changes to mTOR signaling impact corneal wound healing. We will use both cutting-edge and conventional molecular methods including RNA-seq, mass spectrometry, flow cytometry, confocal microscopy, qRT-PCR, Western blot, and immunohistochemistry for the proposed experiments. This research proposal will provide novel molecular insights into the respective roles of diabetes and aging in DK, and identify potential targets to develop effective and safe therapeutic drugs to treat DK and prevent permanent vision loss in humans with diabetes."
+ },
+ {
+  "id": "61f670b7-231b-4309-98f8-70594a8bccb5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The molecular basis of IMiD induced neo-substrate recruitment to the CRL4CRBN ubiquitin E3 ligase",
+  "text": "Thalidomide and its analogs have proven to be an extremely effective treatment for hematologic malignancies\nand over the last decade they have demonstrated their versatility in the development of new therapeutic\nmodalities. Despite their therapeutic potential, the molecular mechanisms of their devastating teratogenicity\nremain ambiguous, which we will resolve through the proposed studies. This grant further aims to push the\nboundaries of these molecules to target new classes of undruggable proteins ultimately leading to novel cancer\ntherapeutics."
+ },
+ {
+  "id": "61f840ad-f22d-494b-b3c6-3e7fb8677cc6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Specific Pathogen Free 18 Baboon Research Resource (SPF18BRR): Applied Research",
+  "text": "APPLIED RESEARCH COMPONENT The SPF18BRR is the only national research resource of adventitious virus free olive baboons (Papio anubis) that are available to NIH grantees; intramural research programs of federal agencies, including the FDA, NSF and NIH; and other sponsors of biomedical research (private foundations, pharmaceutical companies, and contract research organizations). Absolutely unique in the entire world, the baboons in the SPF18BRR have an extensive bioexclusion list of 18 pathogens normally found in other wild and captive nonhuman primate colonies. The applied research proposed in this grant application has been developed to strengthen and improve the resource. The first two specific aims are intended to further develop the resource and to demonstrate the value of the SPF18 baboons as an animal model of human Alzheimer’s disease and related dementias (AD/ADRD). Specific aim one will develop and place hardware for automated cognitive testing in socially living baboons. Specific aim two expands on the AD/ADRD model development by calculating a DNA methylation clock for baboons in the SPF18BRR and by measuring a panel of 30 biomarkers on all animals 3 years of age and older at two different timepoints. Additionally, we will collect cerebrospinal fluid from animals 15 years of age and older and will use it to measure a panel of 18 human neuroscience biomarkers. In specific aim three we will perform whole genome sequencing (WGS) on nine olive baboons that were bred at the Southwest National Primate Research Center that we would like to add to our conventional baboon breeding colony to diversify the population genetics before we close the SPF18 colony to new animal introductions. We will also perform targeted WGS on additional animals to further expand the understanding of the genetics of the SPF18BRR."
+ },
+ {
+  "id": "61fdc906-276b-478a-9ab8-57772f5d8f5d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of CapCell Scope for Metabolic Imaging of Tissue Heterogeneity and Therapy Response",
+  "text": "Metabolic adaptation is essential to survival, and metabolic imaging either by itself or in combination with\ngenomics, proteomics, and metabolomics can provide a holistic understanding of how cells adapt under varying\nphysiological and pathological microenvironments as well as serve as a predictive marker of treatment success.\nThe goal of this proposal is to develop a portable and versatile optical imaging platform called the CapCell to\ncharacterize the metabolism of subpopulations of cells with different phenotypes and the relationship of these\ncells with the local microvasculature. We will use this technology to elucidate how metabolic endpoints can inform\non the growth and invasion of tumor cells into adjacent host tissue, elucidate how diverse types of therapeutics\ninhibit the downstream efforts of tumor-promoting oncogenes, and identify biomarkers that can inform the\nmanagement of cancer therapy in patients."
+ },
+ {
+  "id": "61ff7281-e557-49d6-b38c-ed14cd8d4114",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Robust and scalable Bayesian analysis tools for single cell CRISPR screens with sequencing- and imaging-based readouts",
+  "text": "Single-cell CRISPR screens are a new high-throughput experimental approach which can deepen our\nunderstanding of how genes and regulatory elements interact in biological networks. We propose to develop\ncomputational tools which can analyze the large and complex datasets generated by these screens to\ncharacterize the phenotypic effects of genetic perturbations at single cell resolution. These tools will be applied\nto identify core biological pathways underlying blood and neurodegenerative diseases and will be broadly useful\nto research groups performing these powerful screens."
+ },
+ {
+  "id": "6203487a-9db1-4da4-8353-7c32ae9e1e13",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "iPSc modeling for novel partial lipodystrophy syndromes: platform for disease modeling and precision therapeutics",
+  "text": "This project aims to compare two methods of modeling partial lipodystrophy using induced pluripotent\nstem cells to better understand its genetic causes and pathology. By testing patient-derived and\ngenetically modified stem cells from 5 individuals with potentially pathogenic variants, the study will\nidentify new genetic factors, resolve debates over optimal modeling strategies, and create a platform\nfor therapeutic compound screening. Ultimately, this work will pave the way for personalized treatments\nand improve outcomes for individuals with partial lipodystrophy."
+ },
+ {
+  "id": "6208d385-0843-410c-bc84-78a60d55f011",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Pellino1 as a regulator of antiviral immunity in the epidermis",
+  "text": "Viral skin infections cause diminished quality of life, can become life-threatening, and disproportionally affect\npatients with atopic dermatitis and a compromised immune system. Pellino1 is a ubiquitin ligase involved in\nimmune signaling pathways and will here be examined as a regulator of innate antiviral immunity in the skin.\nIdentification of innate immune mechanisms aimed at restricting viruses will further our understanding of how\nthe immune system works and form the foundation for future studies into medical conditions in which the\nimmune system fails."
+ },
+ {
+  "id": "620c4938-87ae-455d-8945-1b3c1b98c068",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identifying neurocognitive correlates of reading impacted by adversity exposure",
+  "text": "Experiences with early childhood adversity can disrupt the typical development of a child and are associated\nwith unfavorable educational results, such as low standardized reading scores. With over half of the United\nStates population reporting at least one adverse event in their lifetime, this study examines how adverse\nexperiences affect several cognitive processes that facilitate planning actions, solving problems, and staying\nengaged on reading tasks among children exposed to adversity. By identifying the specific cognitive processes\ninfluenced by adversity, this study aims to provide valuable insights into how negative life experiences affect a\nconsequential educational outcome (i.e., reading) that has important lifelong implications to inform future\nresearch, theory, and classroom practices."
+ },
+ {
+  "id": "621059d8-5d92-4620-9b77-fdc99fe96781",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Beyond BMI: Role of Body Composition, Coronary Microvascular Dysfunction and HFpEF in Characterizing Cardiometabolic Disease Phenotypes",
+  "text": "PROJECT NARRATIVE/PUBLIC HEALTH RELEVANCE:\nObesity, coronary artery disease and heart failure represent three of the most important threats to US public\nhealth today, yet there is limited understanding of how these chronic multimorbid conditions manifest differently\nacross heterogeneous populations, including women versus men. Ischemia with nonobstructive coronary\narteries (INOCA) captures a chronic condition that has newly emerged as a major contributor to adverse\ncardiovascular disease outcomes, especially in women, but its underlying mechanisms are not well understood.\nWe propose to leverage multimodality imaging tools including PET/CT and cardiopulmonary exercise testing to\ninvestigate the role of body composition, coronary microvascular dysfunction and heart failure with preserved\nejection fraction in characterizing adverse cardiometabolic phenotypes in INOCA beyond body mass index,\naddress the heterogeneity of obesity, and clarify targets for future intervention in this understudied patient\npopulation with high unmet clinical need."
+ },
+ {
+  "id": "6210d0fb-53cd-4b8f-b0b7-170a67386db6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "An interactive and reproducible tool for enrichment analysis",
+  "text": "We will fully develop a web-based tool (ShinyGO) to enable researchers to interpret results from\ngenomics or proteomics studies. Although this tool has been used by tens of thousands of researchers,\nmuch work remains to be done to make it robust, interactive, and reproducible. This project will\ncontribute to the understanding of various diseases at the molecular level."
+ },
+ {
+  "id": "621456f6-8ee8-435e-a3f5-5e22725457df",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "CD40 Immunotherapy Effect on the Cardiac Immune Landscape and Response to Myocardial Disease",
+  "text": "This mentored career development proposal aims to train and mentor the principal investigator at a critical\njunction in training. One primary component is focused on the development of the principal investigator into a\nphysician scientist who will be uniquely trained to identify and address clinically and scientifically relevant\nquestions to improve the care of cardio-oncology patients. A second component is focused on identifying\nmechanisms of cardiac injury and remodeling as a result of cancer immunotherapies that regulate immune\ncheckpoints."
+ },
+ {
+  "id": "6214d712-ff98-445c-8273-83ace88e2ea3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Acquiring a mass photometer for Clemson University",
+  "text": "The proposed acquisition of a Refeyn TwoMP mass photometer will enhance biomedical research at Clemson\nUniversity by enabling single-particle mass measurements that reveal critical insights into protein interactions,\nmolecular assemblies, and complex heterogeneity. This instrument will directly support NIH-funded research\nprograms focused on infectious disease, genetic disorders, protein misfolding, and therapeutic development,\nand will help advance public health by accelerating discovery and improving the rigor and reproducibility of\nbiomedical science in an IDeA-eligible state."
+ },
+ {
+  "id": "621dedb4-392a-471a-b7ae-e7f9e1bb90f2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Illuminating the role of structural variants in the genetic architecture of autism spectrum disorder",
+  "text": "Autism spectrum disorder (ASD) is a highly heritable neurodevelopmental disorder that affects approximately\n2.3% of children in the United States. In this proposal, I will leverage state-of-the-art short and long read whole\ngenome sequencing datasets and genotyping pipelines to integrate all classes of structural variation into ASD\ngenetic studies. This work will produce the first thoroughly benchmarked, scalable approach for genotyping\nstructural variants discovered from long read cohorts into short read datasets as well as novel insights into the\ngenetic architecture of ASD."
+ },
+ {
+  "id": "6220c714-25f5-467e-b7b9-31af8759b435",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Longitudinal Assessment of Molecular and Imaging Biomarkers in LGMDR1",
+  "text": "Limb girdle muscular dystrophy type R1 (LGMDR1) is a progressive muscle disease which leads to loss of\nambulation and has no current treatment. Gene therapies now in preclinical development seek to replace\ncalpain 3 function, thereby targeting the underlying biochemical defect in patients, however there is a lack of\nmolecular and imaging biomarkers with which to gauge efficacy and facilitate clinical trials. By identifying and\ndeveloping biomarkers that reflect disease progression benchmarked by clinical outcome assessments, we will\nleverage the large LGMD natural history study of our parent project into reasonably validated outcomes which\ncan be used to predict disease severity, progression and response to treatment."
+ },
+ {
+  "id": "62258b09-9740-445b-b7c7-225a29ab7480",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of Mitochondria in Variable Penetrance of Schizophrenia in 22q11.2 Deletion Syndrome via Influence on Presynaptic Mechanisms of Glutamate Release",
+  "text": "Psychosis and other key features of schizophrenia are difficult to model in animal systems, and thus this proposal\nseeks to use patient-derived neurons from individuals with defined psychotic clinical presentations to explore\nhow subtle cellular changes may lead to abnormalities in how the human brain processes information. This\nresearch will explore how mitochondria, typically regarded as the “powerhouse of the cell”, can influence the\ntransmission of information between nerve cells through diverse mechanisms in hopes of identifying novel\nmechanisms which underlie the development of schizophrenia and psychotic symptoms."
+ },
+ {
+  "id": "622675d0-8d33-44cd-a76b-36c5c01951b8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Genomics and Bioinformatics Shared Resource",
+  "text": "GENOMICS & BIOINFORMATICS SHARED RESOURCE The Genomics & Bioinformatics Shared Resource (G&BSR) is a state-of-the-art facility that has continued to evolve over the past 25 years, providing Fred Hutch/University of Washington/Seattle Children’s Cancer Consortium members with access to sophisticated, genomics technologies and a team of highly experienced scientists, expert technical staff, and seasoned bioinformaticians. The G&BSR offers consulting services for Consortium investigators throughout all phases of their research projects including technology selection, experimental design, sample QC, data generation, and analysis. This provides a fully integrated sample-to- answer experience and ensures that investigators use the appropriate technologies to address their specific research questions and maximize the value of research funds. As part of these activities, the G&BSR supports development and dissemination of new methodologies such as INVADE-seq, which was developed collaboratively with the laboratory of Dr. Susan BullmanPAM. As a result of the close collaboration with Consortium researchers, the G&BSR has contributed to 166 peer-reviewed publications during FY19-FY23 and members of the G&BSR have co-authored 31 peer-reviewed publications since the prior renewal. The broad portfolio of services offered through the G&BSR includes whole genome sequencing, whole exome sequencing, single-cell and bulk mRNA expression profiling, and numerous other sequencing applications using both short read (Illumina) and long read (PacBio) sequencing platforms. Apart from next-generation sequencing, the G&BSR routinely employs NanoString nCounter digital barcoding technology, conducts Sanger sequencing, and provides training on and access to qPCR instrumentation. Recently, the G&BSR has partnered with the Research Pathology Shared Resource to offer spatial transcriptomic profiling services including the 10x Genomics Visium platform and NanoString GeoMx. The G&BSR has also recently begun offering Multiplexed Array Sequencing services on the PacBio Sequel IIe, generating high-throughput single cell RNAseq data with isoform-level resolution. The G&BSR provides or facilitates a variety of educational opportunities to the Consortium community including technical guidance for graduate students and postdoctoral fellows, training users on equipment, coordinating with vendors to sponsor scientific seminars, consulting on data analysis in R & Python, hosting undergraduate interns, and providing laboratory tours. As the field of genomics continues to evolve, the G&BSR will stay on the cutting edge of technological advancements by assessing new technologies, conducting pilot studies, and onboarding new methods while simultaneously seeking routes to improve cost- efficiency of services. One key future goal for the G&BSR is to support the Precision Oncology initiative, for example, by developing and implementing assays for whole genome sequencing from formalin-fixed paraffin- embedded specimens."
+ },
+ {
+  "id": "62292fbe-c0e2-456b-afae-d4b30acd1d1d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "High resolution lineage tracing of developmental hematopoiesis",
+  "text": "Effective treatment for hematological malignancies and blood cancers remains an outstanding open problem.\nThe only existing cure for most blood disorders is bone marrow transplant, which is only feasible for a minority\nof patients and has poor prognosis. The work proposed here will provide fundamental new insights into the\nprocess of birth of blood forming stem cells, which will help with the production and manipulation of these cells."
+ },
+ {
+  "id": "62294e32-712b-4dc5-8bc7-c3580deaa8b1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Tumor cell instrinsic DNA damage signaling to the immune response",
+  "text": "This project proposal seeks to understand fundamental mechanisms of genome integrity control and their\nrelationships to immune responses to cancer. We have demonstrated the importance of cell cycle checkpoints\nin mediating communication between DNA damage and innate immune responses, and now approach this\ncentral issue in cancer biology by utilizing unique systems to investigate DNA damage dependent (1) RNA\npattern recognition, (2) signaling mechanisms that augment MDA5 and RIG-I activation and their impact on in\nvivo immune responses, and (3) communication between these mechanisms and NLRP9 dependent\ninflammasome activity in directing the tumor immune microenvironment. These pursuits will be performed in\ncollaboration with other team members to define specific strategies that target the DNA damage response to\nelicit effective immune responses to cancer."
+ },
+ {
+  "id": "62381762-9c34-4638-84d0-f89d95417c6b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Regulation of HIV-1 fusion competence by spacer peptide 2 and matrix protein",
+  "text": "Proteolytic cleavage of Gag polyprotein during HIV-1 maturation generates distinct viral\nproteins with defined functions, however, the role of the conserved spacer peptide 2\nremains poorly understood. We will use a panel of biophysical and functional assays to\ntest the hypothesis that this peptide, known to interact with HIV-1’s matrix protein, also\ninteracts with viral membrane and facilitates HIV-1 fusion with cells."
+ }
+]

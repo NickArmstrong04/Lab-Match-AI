@@ -1,0 +1,142 @@
+[
+ {
+  "id": "064fe358-9e71-4423-ba03-ee96248e8fba",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular mechanisms of cellular response to age-associated chromatin changes",
+  "text": "Various age-associated chromatin changes have been causally linked to aging. The cellular response to\nchromatin architectural defects (CAD response) is activated by chromatin stress and promotes longevity. This\nproject will investigate the specific roles of CAD response in antagonizing age-associated chromatin changes\nand the mechanistic details on its regulation."
+ },
+ {
+  "id": "065372a8-8857-4e5f-8be2-893e62aeb72c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A Novel Cell Stress Response Mechanism in Pancreatic Cancer",
+  "text": "Current treatments, including immunotherapy, remain largely ineffective for pancreatic cancer. This project will\ndefine the molecular mechanisms that drive therapeutic resistance by linking how cancer cells adapt to stress\nwith how they evade the immune system. Understanding and targeting these pathways will enable the\ndevelopment of new therapeutic strategies with the potential to improve outcomes for patients with pancreatic\ncancer and other hard-to-treat cancers."
+ },
+ {
+  "id": "0658d22e-52d6-446d-8592-40dce0f4af5a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "3/11 Epigenetic Regulation of Neuroimmune Pathways",
+  "text": "As part of the Integrative Neuroscience Initiative on Alcoholism (INIA) Consortium, this project will focus on\nepigenetic-related mechanisms involving the neuroimmune system that are affected by excessive ethanol\nexposure. In collaboration with other INIA investigators, we will use cutting-edge approaches such gene\nmutagenesis (i.e., CRISPR) and high-throughput sequencing to determine novel molecular mechanisms\nassociated with the development of Alcohol Use Disorder (AUD)."
+ },
+ {
+  "id": "0659ba6b-6a7c-41e5-b617-8371b22e5484",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Specialized Program of Research Excellence (SPORE) in Leukemia",
+  "text": "The goal of this SPORE is to develop and test new therapies for acute myeloid leukemia, acute lymphoid\nleukemia, and myelodysplastic syndrome. This SPORE also will identify and train new investigators in leukemia\nresearch."
+ },
+ {
+  "id": "065c302a-287d-4f87-beec-b86a25b9359f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Alcohol and Developing Neuronal Circuits",
+  "text": "The proposed studies will contribute to public health by increasing our knowledge of the functional alterations\nthat lead to the cognitive and behavioral deficits associated with fetal alcohol spectrum disorders, which is\namong the most common neurodevelopmental disease in the United States. These studies will determine the\nconsequences of alcohol exposure during the rodent equivalent of the last trimester of human pregnancy on\nthe brain system that integrates and redistributes memories and will provide new avenues for the development\nof more effective treatments for individuals with fetal alcohol spectrum disorder. The proposed studies are\nwithin the scope of Goal 1 of the NIAAA’s strategic plan to “Identify Mechanisms of Alcohol Action, Alcohol-\nRelated Pathology, and Recovery”."
+ },
+ {
+  "id": "065c7a0e-f041-43c2-986d-a3356f0605ff",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Individualized Decision-Making For GLP-1RA Therapy and Improving Obesity Care Using Real World Data",
+  "text": "Obesity affects over 40% of U.S. adults and drives more than $170 billion in annual healthcare costs. This project\nwill develop prediction models and integrate individualized treatment outcome estimates into a conversation aid\nto guide GLP-1RA prescribing. Findings will support scalable, patient-centered obesity treatment strategies that\nimprove outcomes and cost-effectiveness."
+ },
+ {
+  "id": "065e6109-3d9d-4c20-b921-a2b439de42a6",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Cardiovascular Science Training Program (CSTP)",
+  "text": "Our cardiovascular sciences training program, coupled with outstanding institutional support, and\nstate of-the-art approaches seeks to provide graduate students, postdoctoral fellows and physician-\nscientists with unique opportunities to address modern-era data-driven research projects by delivering\na contemporary and collaborative didactic research experience and professional development to train\nand mentor the next generation of CVP researchers."
+ },
+ {
+  "id": "0663605a-9f16-43ed-8f19-73c44e15f81d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Material Stiffness Directs Oral Cancer Migration",
+  "text": "Projective Narrative\nOral squamous cell carcinoma is the sixth most common, infiltrative, and lethal tumor type affecting the adult population. These tumors contain highly migratory and invasive cells, making recurrence rates exceedingly high. This proposal will improve our understanding of how the stiffness of the surrounding environment enables tumor cells to acquire, consolidate, and recall metastatic behaviors that promote invasion of adjacent tissues, which could suggest new therapeutic strategies. This grant involves a foreign collaboration that will provide unique expertise, access to OSCC patients, and critical analysis methods to assess OSCC samples that would not otherwise be possible."
+ },
+ {
+  "id": "067c1c24-15f2-4cf7-b686-beb2121883e4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Computational tools for top-down mass spectrometry based proteoform identification",
+  "text": "The project aims to develop new software tools and deep learning models for top-down mass spectrometry-based proteoform identification using spectral library search. The project will provide the proteomics community with new top-down mass spectrometry software tools for high sensitivity proteoform identification and facilitate the application of top-down mass spectrometry in identifying proteoform biomarkers and studying proteoform functions in diseases."
+ },
+ {
+  "id": "068d1f7e-5b1f-4bbf-9e11-83b5943935bb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of sensory nerves in the regulation of anti-tumor immunity",
+  "text": "The immune system can slow or prevent cancer progression, but the immune tolerance of cancer\nsignificantly hinders protective anti-tumor immune responses and leads to treatment failures and\npoor patient survival. We uncovered that sensory neurons innervating tumors and tumor-draining\nlymph nodes inhibit protective immune responses and promote immunosuppression, facilitating\nimmune tolerance and cancer progression. We will determine mechanisms which govern\nimmunoregulation by the neurons in tumors and tumor-draining lymph nodes, and which\ncontribute to immunotherapy resistance."
+ },
+ {
+  "id": "068fc585-90be-4296-9c05-3bd84ee3a8fc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating CXCR3 Blockade as Precision Therapy for Cardiac Sarcoidosis using Single-Cell Multi-omics and TCR Phenotyping",
+  "text": "Cardiac sarcoidosis is a serious inflammatory disease in the heart that can cause heart failure and\narrhythmias. There is limited knowledge about one type of immune cells in the heart that may be causing the\ndisease, called T cells. This project aims to use high-throughput immune profiling technology to study the types\nof T-cells in the heart during cardiac sarcoidosis, and test whether blocking a receptor called CXCR3 can help\ndirect T-cells away from the heart and reduce cardiac inflammation."
+ },
+ {
+  "id": "0691dad7-2685-4f88-bc59-2f000aecd6d9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of Disease-Associated Microglia in Alzheimer's disease",
+  "text": "This proposal is relevant to public health as it addresses how microglia, a cell implicated in Alzheimer's disease\n(AD) by human genome-wide association studies, are involved in disease pathogenesis. Although microglia\nsurround amyloid-β plaques, one of the main pathologies of AD, there is still little known about what their\nresponse to plaques does to the brain – whether it is beneficial or detrimental. Upon completion, this project will\nnot only identify the distinct role of these cells during disease, but also provide an innovative tool to study and\ntarget plaque-associated microglia, as well as insight into novel therapeutic strategies for AD."
+ },
+ {
+  "id": "06964d6b-d456-4bc1-97dd-3dd40ccaa1ce",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Image-guided combination therapies for radiotherapy-induced neurocognitive impairment in pediatric brain tumor survivors",
+  "text": "To develop diamagnetic chemical exchange saturation transfer magnetic resonance imaging (CEST MRI)\ntheranostic biosensors and complementary CEST MRI nanotheranostic agents for image-guided combination\ntherapy to prevent and repair radiotherapy-induced brain injury in pediatric brain tumor survivors."
+ },
+ {
+  "id": "06973cc2-d640-447c-afea-392e6b2d0d28",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Roadmap for America's Cancer Explorers for the 21st Century (Race 21)",
+  "text": "Roadmap for America’s Cancer Explorers for the 21st Century (RACE21) is an\ninterdisciplinary program to expand the pipeline to a diverse 21st century cancer\nresearch workforce for the US. RACE21 will test an innovative pathway leading high\nschool students to increased interest in cancer research, completion of a new\nUndergraduate Cancer Biology Major and careers in cancer research. RACE21 will\nsimultaneously work to improve communication about health, especially cancer and\nprovide training to the students in their physical, emotional, and financial wellness to\ncarry them over any hurdles on the road to their cancer research careers."
+ },
+ {
+  "id": "06989b36-4ee7-4853-9ef9-e7032dd74197",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multi-omic profiling of IPF endotypes",
+  "text": "Idiopathic pulmonary fibrosis (IPF) is a lethal disease with an unpredictable disease course that affects 1 in\n200 older adults over 65 years old. Some, but not all, IPF patients have identifiable factors that lead to a worse\nprognosis. This study will systematically assess genetic mutations and their consequences in the lung of IPF\npatients which may lead to precision therapies for specific disease pathways in subtypes of IPF."
+ },
+ {
+  "id": "06b12ddb-5a9a-459c-a6d7-bfbb0a9fb3ea",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The impact of natural selection and population structure on human genomic variation",
+  "text": "Over the past two decades, vast amounts of genomic data have been generated in\nmedical genomics to identify the genetic basis of human disease. This proposal\ndescribes a set of research projects that will help the field to understand the impact of\nconfounding in such studies and the evolutionary forces that shape human genomic and\nphenotypic variation."
+ },
+ {
+  "id": "06b3da59-9195-46c5-8748-5ea34387cdf7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Pathogenic Mechanisms in Christianson Syndrome and NHE6-Related Disorders",
+  "text": "The proposed research is relevant to public health, as we will define endolysosomal mechanisms in the context\nof childhood developmental and neurodegenerative disease. Endolysosomal dysfunction is a critical feature in\nneurogenetic diseases, as well as more common diseases such as: Lysosome Disorders, Alzheimer’s Disease\n(AD) and AD-Related Dementias (ADRD), including tauopathies; autism and related intellectual disabilities. A\nfuller understanding of mechanisms that protect the endolysosomal system may aid in developing new\ntherapeutics for these diseases."
+ },
+ {
+  "id": "06b889a4-ffab-412c-8a09-4437796afab3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Kansas Center for Metabolism and Obesity REsearch (KC-MORE) - Cells, Tissues, Bioanalysis and Biostatistics Core",
+  "text": "CELLS, TISSUES, BIOANALYSIS AND BIOSTATISTICS CORE: PROJECT SUMMARY Adding a translational component to confirm ideas generated using in vitro and animal models is a vital part of biomedical research. This is especially critical for a multi-organ disease like obesity. The most common path followed by basic scientists is to obtain human samples and perform bioanalytical tests confirming their findings obtained from experimental models. But this is easier said than done. Researchers face many challenges in bridging this translational gap including confusing regulatory paperwork, lack of willing clinical collaborators, lack of infrastructure to obtain and store patient samples, and much more. The Cells, Tissues, Bioanalysis and Biostatistics (CTBB) core is designed to address this very issue. The CTBB core will be a “soup to nuts” solution where the entire pipeline of translational research will be made efficient and easy to use for basic science researchers who are part of Kansas Center for Metabolism and Obesity REsearch (KC-MORE) and beyond. The CTBB core has three components. The first is the Cells and Tissues Biorepository, which will develop collaborations with clinicians willing to collect samples after obtaining necessary IRB permissions, and collect, store, and dispense clinical samples to basic scientists, supported by clinical coordinator. The second component is Bioanalytical services, where a trained research technician will be available to provide technical help to develop and perform specific bioanalytical assays. Further, we will function as liaisons between several existing institutional and regional NIH-funded core facilities and the COBRE investigators. These include Genomics core and Flow Cytometry core facilities at the University of Kansas Medical Center (KUMC) and IDEA National Resource for Quantitative Proteomics at University of Arkansas for Medical Sciences. The third component of the CTBB core is focused on biostatistics and bioinformatics expertise. For this, the CTBB core will collaborate with the Quantitative Omics core, which is part of Kansas Institute for Precision Medicine COBRE at KUMC. The CTBB core will partly support additional statisticians which will provide biostatistics and bioinformatics expertise to KC-MORE researchers. Taken together, the CTBB core will generate an efficient, comprehensive translational research pipeline, which will provide one stop solution for basic scientists to achieve translational research goals."
+ },
+ {
+  "id": "06b8bdfe-293e-48e2-bc3e-01752fc4f589",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Evaluation of T follicular regulatory cells as novel cellular targets of cancer immunotherapy",
+  "text": "Immunotherapies have become crucial treatment options for a variety of cancer types and several novel targets\nare currently being explored to evaluate their anti-tumor capacity. Crucially however, most of these targets suffer\nfrom on-target, off-cell effects, as other immune cell types can express high levels of these molecules or induce\nwidespread toxicity in non-malignant organs, severely limiting viable treatment options. The proposed study will\nelucidate the anti-tumor effects of TFR cells, a novel cellular immunotherapy target, and test ways to target them\nmore specifically to induce long-lasting anti-tumor responses without causing irAEs."
+ },
+ {
+  "id": "06bcc8ac-434e-4a21-a106-4a6c5f5e08f2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Leveraging the E3 Ligase RNF166 to Prevent T Cell Exhaustion in Solid Tumors",
+  "text": "Adoptive T-cell therapies (ACT) hold immense promise in cancer immunotherapy, yet their efficacy in solid\ntumors is hindered by T-cell exhaustion (TEX), a dysfunctional state driven by chronic antigen stimulation and\nenvironmental stress within the tumor microenvironment. Preliminary studies have identified RNF166, an E3\nubiquitin ligase, as a critical regulator of proteome stability in T-cells, with overexpression of RNF166 enhancing\nT-cell persistence and tumor-killing capacity. This innovative research aims to define the molecular targets of\nRNF166 and evaluate its potential to prevent TEX and control solid tumor growth in vivo, offering a novel\ntherapeutic strategy to improve ACT for solid tumors."
+ }
+]

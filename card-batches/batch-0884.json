@@ -1,0 +1,142 @@
+[
+ {
+  "id": "af701205-babd-42c0-8dc9-834db8401866",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "First Comprehensive Mitochondrial DNA Brain Mutation Atlas for Alzheimer's Disease",
+  "text": "The purpose of this research proposal is to develop a comprehensive Alzheimer's Disease and Alzheimer's\nDisease Related Dementias (AD/ADRD) brain atlas of acquired mitochondrial DNA (mtDNA) mutations\n(heteroplasmy) across multiple brain regions and in blood from autopsy samples collected from the 50+ year\nKuakini Honolulu Heart Program/Kuakini Honolulu-Asia Aging Study (Kuakini HHP/Kuakini HAAS) cohort of\nAmerican men of Japanese ancestry. Identifying brain and blood heteroplasmy across six brain regions and\nblood in a longitudinal cohort will advance the discovery of disease mechanisms related to early AD/ADRD\ndiagnosis, neuropathology, and cognitive decline. The work performed by this study team comprised of experts\nin mtDNA sequencing, AD/ADRD diagnosis and assessment, neuropathology, cognitive aging, biostatistics\nand risk-factor modeling, will fill a major gap in the understating of brain and blood mtDNA heteroplasmy in\nAD/ADRD etiology, neuropathology, and risk of cognitive decline."
+ },
+ {
+  "id": "af71c2b9-a60a-4c92-a64e-5e06525972c9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Automated Sequencing for Culture-free Diagnosis of Drug Resistant TB",
+  "text": "With the recent WHO and CDC endorsement of the shorter, all-oral BPaLM treatment regimen for drug\nresistant tuberculosis (DR-TB), simple, rapid molecular diagnostics for pre-treatment drug susceptibility testing\nare crucial for ensuring this regimen is used appropriately and new resistance to these drugs is prevented. The\nobjective of this project is to develop and evaluate the performance of a novel, culture-free, single amplification\nsequencing solution for the detection of DR-TB for all legacy and new/repurposed drugs with known molecular\ntargets (specifically isoniazid, rifampicin, pyrazinamide, amikacin, moxifloxacin, bedaquiline, clofazimine,\nlinezolid, and delamanid). The technical and clinical knowledge gained from this project will translate directly\ninto our goal of achieving an automated “sample-to-answer” sequencing system that can be deployed closer to\nthe point of care than current sequencing diagnostics, and with significantly lower costs."
+ },
+ {
+  "id": "af780a59-4f53-464e-a453-93ee4cb8e098",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Metabolic mechanisms induced by enteral DHA and ARA supplementation in preterm infants",
+  "text": "This proposal is relevant to public health as it addresses nutritional gaps in one of our most vulnerable populations, preterm infants. The proposal is aligned with the recently released NIH strategic plan to accelerate nutrition research over the next decade and responds to the Notice of Special Interest: Nutrigenetics and Nutrigenomics Approaches for Nutrition Research. Specifically, our research team will conduct a randomized clinical trial of a nutritional fatty acid supplement to inform mechanisms of action and strategies to adequately provide these bioactive nutrients that are critical for fetal and neonatal development.."
+ },
+ {
+  "id": "af82677b-1231-4c8e-ae53-1eb0c3c81fd7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mapping proteomic changes of tauopathy in human neurons",
+  "text": "The accumulation and propagation of tau aggregates are key drivers of cognitive decline in Alzheimer’s disease\n(AD) and frontotemporal dementia (FTD). However, the cellular mechanisms underlying Tau propagation in AD\nare mostly unknown and likely affected by amyloid β (Aβ) through unknown mechanisms. Our overall objective\nis to discover how AD-relevant cellular machinery, notably the VPS29 retromer and the UFMylation pathway,\nunderlie the propagation of misfolded tau aggregates in human neurons using unbiased proteogenomic\napproaches."
+ },
+ {
+  "id": "af8773a6-2d47-49cf-99d6-2ecddbb3e411",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Graduate Training in Bioinformatics",
+  "text": "The Environmental Health Bioinformatics (EHB) training program leverages the unique confluence of strengths in Data Science and Environmental Health Science at NC State to train scientists in this critical interdisciplinary area. The program includes mentored research training and opportunities for professional development. The data-intensive training program will produce scientists ready to meet the emerging challenges in environmental health research, including genomics, exposomics, and integration across massive data sets, all of which are critical to improving public health."
+ },
+ {
+  "id": "af90b796-03af-4ab6-bf63-a488218fd913",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Sexual Dimorphism in T Cell Exhaustion and Bladder Cancer",
+  "text": "PROJECT 1 – NARRATIVE\nIt is unclear why men develop many cancers (such as bladder cancer) more often than women, even after\nadjusting for known risk factors such as smoking. We discovered that dysfunction within the adaptive T cell\nimmune response strongly contributes to male-biased tumor aggressiveness; this dysfunction is modulated by\nmale hormones that reduce the anti-tumor response in T cells. The goal of this project is to characterize the sex-\nspecific differences in T cell response to tumors and use this knowledge to improve cancer immunotherapy in\nboth men and women."
+ },
+ {
+  "id": "af95583c-3206-44d4-8015-66d65e81a681",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Engineering a Microphysiological System to Model the Infarct Border Zone and Interrogate Oxygen-Dependent Cell-Cell Communication in the Myocardium",
+  "text": "Myocardial infarctions, also known as heart attacks, are one of the most common cardiac injuries worldwide\nand routinely progress to heart failure for reasons that are not fully understood. In this project, we will advance\nour engineered “Myocardial Infarct on a Chip” platform to investigate how communication between the three\nmain cell types in the heart is altered by low levels of oxygen, which is a defining feature of a myocardial\ninfarction. We will make new discoveries that can lead to new therapies to improve the health of patients after\nmyocardial infarction."
+ },
+ {
+  "id": "af96ccfe-152a-49f3-b7c5-c251efd9c638",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Structure-Function-Aware Large Protein Language Models for Enhanced Biomedical Applications",
+  "text": "Large protein language models have shown their foundational role in biomedical research, but the current\nmodels miss critical knowledge about protein structure and functions and lack efficient approaches to be\nadapted for challenging biomedical tasks. To address these two challenges, we propose to develop\nstructure-function-aware large protein language models and adaptation methods for accurate predictions of\nprotein properties. The success of this project will provide novel large protein language models and\nfundamental deep learning tools for various biomedical applications."
+ },
+ {
+  "id": "af981652-749a-4d47-8c8d-09dd43628c17",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting Radiation-Induced Glioblastoma Invasion",
+  "text": "Recurrent glioblastoma is the most aggressive type of malignant brain tumor in adults, spreading extensively\nthroughout the brain and spinal cord, with no effective treatments currently available. Our research goal is to\nunderstand how these invasive tumor cells change their surrounding environment to escape attack from\nimmune cells, using sophisticated laboratory models that closely mirror actual patient conditions. These\nfindings will lead to the development of new immunotherapy treatments that can effectively target these\nresistant brain tumors, offering hope to patients who currently have no effective treatment options."
+ },
+ {
+  "id": "af9ff8bc-68e6-4b88-84b9-76a6cf2acfdc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Genetic Causes of Endocrine Hypertension in Black Americans",
+  "text": "Dysregulated aldosterone production from one or both adrenal glands (primary aldosteronism, PA) is the most\ncommon cause of endocrine hypertension, accounting for 5-10% of hypertension and 14-20% of resistant\nhypertension. Research focused on defining the genetic causes of PA in Black Americans is limited despite their high\nprevalence of hypertension, and the higher susceptibility to hyperaldosteronism and cardiovascular mortality. The\ncentral goals of this proposal are to define the spectrum of adrenal aldosterone-driver somatic mutations in Black\nAmerican PA patients and identify targeted therapeutics that block mutation-driven aldosterone production in\nendocrine hypertension."
+ },
+ {
+  "id": "afa150de-6ec7-4260-a189-551db2050ba2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Immunobiology and Immune Therapy for Merkel Cell Carcinoma",
+  "text": "This proposed Program Project renewal will leverage our leadership role in establishing Merkel cell carcinoma\n(MCC) as an ideal model to advance the understanding of immunogenic and pathogen-driven cancers. Having\npublished 77 papers on MCC in the first funding period, we will continue to determine the relevant immune evasion\nmechanisms at play and what combination therapies would provide the best chance of benefit for PD-1 refractory\npatients. Utilizing the unique biology of MCPyV-induced MCC and an extensive specimen repository & clinical\noutcomes database, we are poised to address important challenges in the field: overcoming immune checkpoint\ntherapy resistance through a next-generation approach for transgenic T cell receptor therapy (Project 1); validation\nof targetable mechanisms of resistance to immune checkpoint therapy (Project 2); and broadening our understanding\nof how B and T cells interact to target MCC and other cancers (Project 3)."
+ },
+ {
+  "id": "afa344ab-6051-44cf-a8ce-a4822a248ffb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Developmental Research Project Program",
+  "text": "The NH-INBRE Developmental Research Projects Program (DRPP) provides student research training, grows faculty research productivity and independence, and strengthens research and scientific culture at our Partners. The DRPP accomplishes these overall aims by soliciting, reviewing, and awarding, individual and collaborative biomedical developmental research and pilot projects to investigators in the Network. Additionally, the DRPP provides faculty with scientific and career mentorship and training to improve faculty research productivity and competitiveness for extramural funding opportunities. While the NH-INBRE co-leads have considerable external research support, the 9 primarily undergraduate (PUI) 4-year college Partners, and the Community College System of New Hampshire have drastically less research support. DRPP-supported projects that provide project leaders with supply funds, student salaries and faculty course release have been central for increasing the research activity and enhancement of the research culture in our Partner Network. The DRPP will develop and release funding opportunity announcements to NH-INBRE Partner institutions to solicit biomedical research proposals from faculty members. Project proposals will be evaluated by reviewers with relevant scientific expertise and scored using NIH criteria. Both scientific merit and the ability of the project and its Project Leader to provide a solid research experience for undergraduate students participating in the project are considered in ranking proposals. The DRPP will increase faculty research and mentoring productivity through scientific mentorship and training. Project leaders will be assigned a mentoring team consisting of an Academic Mentor from their institution, one or more trained Scientific Mentors, and a member of the NH-INBRE AC faculty leadership. Mentoring meetings held twice each year will focus on a Research Development Plan (RDP) that outlines short- and long-term expectations, goals, progress, and outcomes. PLs will have access to core facilities and scientific training opportunities at the co-Leads, including the COBRE-supported cores, BioMT, CQB, and CIBBR, for biochemical, high throughput screening, single cell, bulk and spatial sequencing, microscopy, and flow cytometry and many other scientific approaches. A grant writing workshop series that meets September through February will personally guide PLs and faculty through submission of a new or revised NIH R15 grant application. Last, the overall impact of the DRPP will be reviewed annually and discussed in detail with the EC, SC, and EAC. These reviews and formative evaluations will guide future DRPP improvements."
+ },
+ {
+  "id": "afa622ed-f5e1-4bc7-9bfe-c13700cb3f6e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Scientific Core",
+  "text": "ABSTRACT – SCIENTIFIC CORE (CORE B) The overall goal of the Multi-Omics Unit for Combating Antibiotic-Resistant Bacteria (MOCARB) is to apply systems biology approaches to identify genomic and ecological contributors to infection outcomes for two CDC- designated pathobiont threats: Clostridioides difficile (Cd) and extended-spectrum beta-lactamase producing- Escherichia coli (ESBL-Ec). A key aspect of this mission is the generation of high-quality sequencing data en- compassing individual pathogens, their bacteriophages (phages), and host-associated commensal microbiomes. The Scientific Core (Core B) serves as the analytical backbone of this initiative by leveraging the innovative multi-omics infrastructure available at the Washington University School of Medicine to provide comprehensive, high-resolution datasets. Particularly, we will rigorously standardize and deliver bacterial isolate genomic and transcriptomic data along with stool and urine metagenomic and metatranscriptomic analyses, in support of the two Research Projects (RPs). In addition, Core B will integrate liquid chromatography-mass spectrometry (LC- MS)-based metabolomics to characterize microbial and host-derived metabolites that shape infection dynamics in intestinal and urinary environments. Furthermore, to address the complexity of microbial ecosystems, Core B will develop advanced single-cell microbial genomics approaches that enable genome reconstruction of patho- bionts and their phages, revealing how phage-bacterial interactions contribute to disease progression and to aid the development of new therapeutic strategies. These innovations are operationalized through three aims: (1) Aim 1 standardizes end-to-end workflows for sample management, sequencing using short- and long-read plat- forms, management of sequencing data deposition into public repositories, and genome assembly for microbial isolates and communities for both RPs, tasks that are critical to the goals of the MOCARB; (2) Aim 2 coordinates between RPs to profile host-, microbe-, and environment-derived metabolites with LC-MS methods, aiding in the identification of disease-driving factors from stools and urinary samples; and (3) Aim 3 refines innovative se- quencing approaches, employing fluorescence-activated cell sorting and viral tagging techniques, to isolate in- dividual bacterial cells and their associated phages. Core B brings together a multidisciplinary team of experts in microbial genomics and metabolomics, collectively offering decades of experience in methodology develop- ment, and advanced data analysis. Their synergistic expertise ensures rigorous oversight of all Core B opera- tions, from experimental design to computational analysis. By centralizing data generation, ensuring rigorous quality control, and fostering cross-project collaboration facilitated by the Administrative Core (Core A), Core B not only accelerates the discovery of therapeutic targets, but also establishes standardized frameworks for studying host-microbiome-pathobiont interactions in infectious diseases, a critical step toward translating MOCARB’s findings into clinical interventions."
+ },
+ {
+  "id": "afa8d33b-3bfb-4ecf-b45c-dde92c2e37f0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Myeloid Cells: Functional Heterogeneity with Therapeutic Promise",
+  "text": "Recent advances in multi-omics technologies have significantly improved our ability to identify and characterize\nnew myeloid cell subsets; however, much remains to be learned about their functional understanding and\ntherapeutic use. This Keystone Symposia meeting, “Myeloid Cells: Functional Heterogeneity with Therapeutic\nPromise,” aims to showcase the latest research efforts into the functions of these cells alongside current\ntherapeutics approaches and modalities in different disease contexts. By bringing together academic and\nindustrial scientists, this Keystone Symposia will foster discussions and promote collaborations to guide ongoing\nand future efforts to employ myeloid cells therapeutically."
+ },
+ {
+  "id": "afaadd6b-8d64-469c-b9a9-fc7d5dbcf673",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dieldrin-induced differential gene methylation and parkinsonian toxicity (R01ES031237)",
+  "text": "Non-familial Parkinson’s disease is thought to arise from a combination of genetic and environmental factors.\nThe experiments proposed here will enhance our understanding of the epigenetic mechanisms underlying the\nwell-documented epidemiological link between exposure to environmental toxicants and risk of Parkinson’s\ndisease."
+ },
+ {
+  "id": "afac96ba-0e0b-4007-8ee0-49d77c3cedf9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mitochondria mediated intercellular metabolic coupling in bone marrow regeneration",
+  "text": "Bone marrow stem cell transplantation is widely used in the clinic to treat blood diseases. This proposal intends\nto identify and mechanistically characterize novel regulators of bone marrow regeneration controlling\ncommunication between cells in the bone marrow."
+ },
+ {
+  "id": "aface270-fccc-43d6-9f89-3e310c735ff3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Rapid and Robust Pediatric MRI",
+  "text": "After our considerable progress in reducing the need for anesthesia during pediatric MRI scans, this work aims\nto further reduce anesthesia through faster imaging, greater motion-robust acquisition and reconstruction tech-\nniques, and less need for intravenous access. Developments will focus on the clinical testbed of MRI for Inﬂam-\nmatory Bowel Disease, a particularly challenging exam for children. This will make MRI safer, cheaper, and more\nwidely available to children, reducing the population risk of radiation from CT."
+ },
+ {
+  "id": "afbcdc71-873c-4764-82b7-f505330affbb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "PET imaging of alpha-synuclein pathology",
+  "text": "PET molecular imaging of alpha-synuclein (αSyn) aggregates that accumulate in dementia with Lewy bodies\n(DLB), Parkinson’s disease (PD), and multiple systems atrophy (MSA) is a long-sought goal with potential to\nimprove diagnosis, impact understanding, and accelerate development of treatments for these diseases.\nBuilding on supportive initial PET imaging studies in these diseases with [11C]SY08, a radiotracer that labels\nfibrillar αSyn in living humans, the overall goals of this proposal are 1) to evaluate whether fibrillar αSyn burden\nmeasured with [11C]SY08 differentiates DLB, PD, and MSA from each other and from healthy control and\nAlzheimer’s disease participants, and 2) to relate regional [11C]SY08 binding to the expected brain distribution\nof αSyn changes and clinical features. As an exploratory aim, we will determine whether brain [11C]SY08\nbinding is increased in people with isolated REM sleep behavioral disorder, a prodromal state that often\nprecedes DLB, PD, and MSA."
+ },
+ {
+  "id": "afbf277f-2a19-4827-bf1f-d7b9ed10f8c4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Developing a renewable and dissectible human liver for the study of HBV/HCV infection",
+  "text": "Despite the availability of highly effective HBV vaccine and HCV treatment, their infections are still among the\nleading causes of chronic liver disease worldwide. We propose to utilize an innovative platform to address\nseveral clinically important but understudied questions including a continued disease progress following cure of\nHCV infection, an accelerated disease progression with HBV/HCV co-infection, HBV reactivation following cure\nof HCV, and how genetic variants affect the course of disease and treatment. These studies will not only\nprovide new insights that could inform development of effective diagnostics and treatments for HBV/HCV\ninfection, but also lead to technology advance that open up new avenues for future studies focusing on other\nliver diseases."
+ },
+ {
+  "id": "afc208e0-0836-463a-b8b3-04c34d88c737",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular Virology/Epidemiology HIV Training in Kazakhstan (MoVE-Kaz)",
+  "text": "The overall objective of the MoVE Kaz D43 program is to strengthen U.S. and global capacity in HIV molecular epidemiology by training scientists and clinicians in Central Asia on analytic approaches that directly inform HIV surveillance, treatment optimization, and prevention strategies relevant to American public health. The molecular epidemiology tools refined through this training program, which are specific to unique HIV variants on the rise in Central Asia, are directly applicable to U.S. HIV surveillance systems and support faster detection of transmission clusters before they become more prevalent in U.S. populations. Earlier detection, improved surveillance, and better resistance monitoring can help reduce preventable infections and promote investment upstream in surveillance and preparedness for U.S. public health infrastructure."
+ }
+]

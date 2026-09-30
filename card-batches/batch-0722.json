@@ -1,0 +1,142 @@
+[
+ {
+  "id": "7534a9e2-ef1d-4fa3-8120-e290e0842c48",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Improvement of laboratory capacity for outbreak investigation of foodbornepathogens for FDA VET-LIRN",
+  "text": "The FDA Veterinary Laboratory Investigation and Response Network (Vet-LIRN) enables\nanalysis of animal diagnostic samples and animal food/drug products, allowing the FDA\nto leverage the expertise of a national network of veterinary diagnostic laboratories to\nprovide additional capability and capacity to strengthen the overall national food safety\nsystem and public health. This Vet-LIRN capacity-building project strengthens the\ncapacity, collaboration, and integration of food-safety laboratories and networks to\nsupport an effective, coordinated response to emerging human and animal food-safety\nissues, with the Ohio Animal Disease Diagnostic Laboratory (ADDL) providing its\nexpertise to conduct Vet-LIRN–directed testing and surveillance projects, offer surge\ntesting capacity using standardized methods, and assist with emergency response\ntesting. This proposal will support the costs associated with the purchase of an Illumina\nMiSeq i100 system, utilized in Vet-LIRN case investigations and antimicrobial resistance\nmonitoring."
+ },
+ {
+  "id": "75391c9e-f0dd-450a-8273-73f6f51529ab",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cancer Biology and Cancer Stem Cells",
+  "text": "The Cancer Biology and Cancer Stem Cells (CB) Program is a basic and translational science program that aims to understand the fundamental mechanisms underlying cancer development. From these insights, we aspire to improve cancer diagnosis and treatment through the following specific aims: (1) understand the regulation and function of normal and cancer stem cells, (2) understand the mechanisms of initiation and progression of epithelial cancers, and (3) identify potential new therapeutic targets. The program is co-led by Laura Attardi, PhD, and Roeland Nusse, PhD. In 2019, the former Cancer Biology Program and Cancer Stem Cells Program merged with the approval of the EAB to become the current Cancer Biology and Cancer Stem Cells Program. In the current funding period, program members have made substantial progress in understanding the self-renewal pathways of cancer stem cells and in elucidating signaling pathways of high cancer relevance, including most prominently the Wnt and Hedgehog pathways. They have also pioneered a new technology, ATAC-seq, that enables a more fundamental understanding of the role of chromatin in gene expression and used organoid and mouse model systems to discover the mechanisms of tumor suppressors and progression and to uncover new therapeutic targets. The 53 members of the current program represent 16 departments within the Schools of Medicine (SOM), Humanities and Sciences, and Engineering. Members are supported by peer-reviewed research totaling $25.6M, including 34 R01s, 12 R35s, 6 U01s, and 3 T32s. Peer-reviewed cancer-focused research funding consists of $7M from the NCI, $12M from other NIH sources, and $6.6M from other peer-reviewed sources. The members of this program are highly motivated and interactive in their goal to use basic science approaches to understand cancer initiation and progression, with the ultimate aim of improving cancer diagnosis and treatment. Since 2015, members of the CB Program have published 668 manuscripts. Of these, 16% represent intra-programmatic, 31% represent inter-programmatic, and 95% multi-institutional collaborations, 43% and 33% are in journals with IF>10 and IF>20, respectively. The Stanford Cancer Institute (SCI) enhances the program’s goals by providing state-of-the-art shared resources, seed grant support for new projects, programmatic funds, retreats, special seminars, support for new faculty recruitments, and clinical trial infrastructure for translation of research findings. The support from the SCI has also been instrumental in promoting both intra- and inter-programmatic collaborations through organizing programmatic and working group meetings and providing the means to interface with the more clinically oriented programs to enhance our translational impact. Future plans incluce to further enhance intra- and inter- progammtic collaborations by enhance cancer focused working groups."
+ },
+ {
+  "id": "7540a2b3-e7cc-480c-b5c3-1f551c453387",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular and functional characterization of repulsive guidance by Netrin complexes",
+  "text": "Neural connectivity is altered in many if not most neurodevelopmental disorders, such as schizophrenia and\nautism. A mechanistic understanding of how the neural circuitry is formed is crucial in revealing how\nneurodevelopmental disorders emerge. The work proposed here addresses fundamental questions on the\nmechanisms of how an animal brain wires by molecular processes conserved across animals and tested in the\nmodel organism, the nematode worm."
+ },
+ {
+  "id": "754de37a-5220-440a-b19c-a9d1e5d54e94",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multiomic and spatial regulation of hippocampal radial glia and subfield specification",
+  "text": "Despite the critical roles that hippocampal radial glia and subfield neurons play in physiology and disease, the\nmolecular regulators of hippocampal induction and subfield fate acquisition remain unknown. This proposal\nemploys multiomic analyses of fetal human hippocampus and hiPSC-derived organoids to uncover how Wnt\nand BMP signaling specifies hippocampal radial glia (Aim 1) and identify the pathways that pattern\nhippocampal subfields (Aim 2). By integrating in vivo and in vitro datasets, this study aims to create a\ncomprehensive atlas of hippocampal development, advancing our understanding of neurodevelopmental\ndisorders and improving the utility of hippocampal organoids for disease modeling and therapeutic discovery."
+ },
+ {
+  "id": "75527f93-c50d-4a5b-be88-a8e9793d64e5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Exploring how the innate immune system shapes the adaptation of emergent and pre-emergent opportunistic pathogens",
+  "text": "The emergence of bacterial pathogens and their transition to causing disease involve complex\nevolutionary forces. Understanding how the innate immune system interacts with potential\npathogens is crucial. We are using a high-throughput approach to study these interactions,\naiming to identify the characteristics required for strains to become potential pathogens or\ncommensals and to investigate how deficits in the innate immune response may alter the\nevolutionary trajectories."
+ },
+ {
+  "id": "755fb9e4-d3f3-4cb4-b871-9943d43145c4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Spatiotemporal mapping of tumor microenvironment evolution",
+  "text": "Effective antitumor immune responses are coordinated by a diversity of cell types within the tumor\nmicroenvironment. This proposal aims to elucidate the spatiotemporal lineage dynamics of tumor-infiltrating\nimmune cells using high-resolution, spatially-resolved lineage tracing. These insights will inform the design of\nnext-generation cancer immunotherapies by identifying key cellular states and signaling pathways that can be\ntherapeutically targeted to enhance anti-tumor immunity."
+ },
+ {
+  "id": "7560d23f-e1b7-4459-81b7-b230a1e515a0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Reproducible Analysis of Imaging Data",
+  "text": "Reproducible Analysis of Imaging Data: Project Summary The Reproducible Analysis of Imaging Data Core Module (RAIDCM) enhances the acquisition and processing of live imaging data from human and animal visual systems. While this new Core Module combines the previous Scientific Transparency Core Module with the Small Animal Ocular Imaging (SAIL) facility (previously in the IECM), it adds several approaches to enhance the analysis of imaging data that reflect the substantial advances in image analysis during the recent past. The RAIDCM will support scientific rigor and reproducibility in image analysis for VRC investigators, and provide support, from the inception of an innovative analysis approach, to its realization in code, to its application within a reproducible pipeline. A particular focus for the coming grant cycle will be to support the use of advanced, convolutional neural net approaches to automate image analysis tasks previously completed by manual labeling and segmentation. Core Module personnel will also support acquisition of retinal imaging data and its further processing using the data curation and analysis pipelines used to handle images from the brain. This core module function is based around the commercial Flywheel platform (flywheel.io). The RAIDCM will underwrite the cost of placing brain and retinal imaging data on this platform, and core personnel will further assist investigators in placing analysis code within “gears” that operate on data stored in Flywheel. These are software containers that allow open-source analysis code to be executed, without external dependencies, on virtually any computer hardware or operating system. These components create documented, reproducible analysis pipelines that may be used by different investigators in the Vision Research Center to quantify and store a variety of image types. These strategies will be applied to images acquired from the brain, the retina and from microscopic evaluation of relevant tissues. The net result will be to increase our ability to acquire and process complex images from the visual system while increasing the reproducibility of this analysis."
+ },
+ {
+  "id": "75652988-216a-4b19-8d2f-3eda62c1b6c8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Chemical Synthesis and High-Throughput Analytics Shared Resource",
+  "text": "CORE 005 – CHEMICAL SYNTHESIS AND HIGH-THROUGHPUT ANALYTICS SHARED \nRESOURCE \nPROJECT NARRATIVE \nPer the PAR-17-095 FOA, the project narrative is not applicable for the Chemical Synthesis and High- \nThroughput Analytics Shared Resource."
+ },
+ {
+  "id": "75695d9f-0288-4e89-84b5-161217c2bef1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Optimizing ModiFlow Geometry for Enhanced Efficiency of Aerosol Drug Delivery",
+  "text": "Aerosolized drug delivery to the lower lungs faces serious challenges with drug deposition skewed dramatically\ntowards the upper airways. ModiFlow laminates airflow, reducing turbulence in this application we aim to\nimprove aerosol flow at bronchial bifurcations by modifying ModiFlow’s geometry."
+ },
+ {
+  "id": "75700b1a-2b24-4fbe-9770-15cfe0370b6a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of New-Onset Autoimmunity/Longitudinal Immune Systems Analysis (MONA-LISA)",
+  "text": "The successful completion of the MONA-LISA project will provide detailed knowledge of the immunological,\ngenomic, and metabolic characteristics of people who are at risk for the development of systemic lupus\nerythematosus and subsequently go on to develop the disease. This will enable clinical researchers to develop\nbetter clinical trials to test novel therapies that prevent the development of autoimmune diseases such as\nlupus. These data will also allow health care providers to better diagnose patients with early lupus features\nbefore they develop permanent organ damage and disability."
+ },
+ {
+  "id": "7572d14e-c4d1-492d-8b87-693f632e7b3b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Boston Area Diabetes and Endocrinology Research Center (BADERC)",
+  "text": "The Boston Area Diabetes and Endocrinology Research Center (BADERC) provides high quality,\ncutting-edge and cost-effective technical support to investigators performing research related to\ndiabetes mellitus in the Boston area. It also provides an Enrichment Program and seed grants for\ndiabetes-related research, a resource that has been avidly sought by area investigators. The\nexistence of the Center facilitates multidisciplinary and inter-institutional collaboration as well as\nmultiple training opportunities."
+ },
+ {
+  "id": "7573d2cf-f5ce-4d95-bcb3-b8d505eb5f0f",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "The Neurocognitive Reward Learning Mechanisms of Binge Eating",
+  "text": "Binge-eating disorder (BED) is a serious psychiatric disorder, which is associated with a range of negative outcomes including obesity, psychological impairment, poor quality of life, and premature death. BED is also the most prevalent and most costly eating disorder, impacting over two million Americans each year. As treatments for BED are ineffective for over 50% of patients, there is a critical need to clarify the mechanisms underlying BED maintenance, in order to inform the development of more effective interventions. Reward learning theories propose that reward prediction error (RPE) – the difference between the expected and experienced reward from a behavior – plays a key role in behavior maintenance, and accruing evidence supports this premise in BED. Specifically, research from our group demonstrates that individuals who experience positive (i.e., better than expected) RPE in response to binge eating are more likely to maintain their binge-eating symptoms over time. Importantly, multiple distinct memory systems can underlie this process, and research on other psychiatric disorders has shown that identifying the precise system contributing to disordered behavior can have crucial treatment implications. Currently, it is unknown which memory mechanisms contribute to the influence of RPE on binge-eating behavior. Therefore, this project aims to test how functionally and neuroanatomically distinct memory systems (episodic, procedural, and working memory) contribute to the relationship between RPE and BED maintenance. In a BED sample, at baseline, we will capture (1) naturalistic RPE in response to binge eating using ecological momentary assessment, (2) the neural influence of reward on distinct memory systems using electroencephalography, and (3) the functional connectivity between reward and distinct memory systems using resting state functional magnetic resonance imaging. In addition, at a 6-month follow-up visit, we will assess maintenance of BED symptoms. This will allow examination of how RPE from binge eating and neurocognitive memory mechanisms might interact to maintain binge-eating behavior. Knowledge gained from this study will help guide the development of targeted therapeutic approaches (e.g., neuromodulation, pharmaceutical, psychotherapy) that are designed to directly engage empiricallyidentified disorder-maintaining mechanisms, which will enhance the efficacy and efficiency of treatments for BED."
+ },
+ {
+  "id": "7575968f-79c8-4754-8093-d8d5529d46d7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Human Pangenome Reference Consortium Coordination Center",
+  "text": "(Overall: Human Pangenome Coordination Center)\nWe will extend the successful infrastructure developed by the Human Pangenome Reference Consortium\nCoordination Center. Our team has extensive experience in managing large interdisciplinary research efforts,\ncreating high-value community resources, running outreach activities including workshops, and managing NIH-\nfunded consortia. We will coordinate among consortium elements, construct and validate pangenome\nrepresentations, develop and support a pangenome tool ecosystem, engage user communities, and build the\ninternational Human Pangenome Project."
+ },
+ {
+  "id": "75765fed-e949-4646-bee2-241c7d2d5d81",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Biological and social determinants of psychosocial sequelae in advanced head and neck cancer survivors receiving immunotherapy",
+  "text": "Patients with advanced cancer experience substantial prognostic uncertainty, leading to increased\npsychosocial burden, which, in turn, contributes to worse survival. The proposed research will examine the\npsychosocial sequelae and their biological and social determinants among patients with advanced (i.e.,\nrecurrent) head and neck cancer receiving immunotherapy. Findings from biological determinants will be\ninstrumental in developing individual, personalized, and targeted interventions; those from social determinants\nwill be informative for public health and community-level interventions, with an ultimate goal of using multilevel\n(combining individual and community) to improve psychosocial outcomes and, subsequently, QOL and long-\nterm survival for those with advanced diseases."
+ },
+ {
+  "id": "757d2142-52a3-4019-a97a-c06df2c112fd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Wnt signaling in obesity-associated colorectal cancer",
+  "text": "Obesity is associated with increased colorectal cancer incidence and mortality, in part by activation of the Wnt\nsignaling pathway. However, efforts to therapeutically target Wnt signaling have been unsuccessful in the vast\nmajority of colorectal cancers. We found that specific components of the Wnt signaling pathway are highly\nupregulated in high fat diet-induced obesity, and therefore hypothesize that disrupting this mechanism of Wnt\nactivation will successful treat obesity-associated colorectal cancer."
+ },
+ {
+  "id": "75835fb0-0de0-4dbc-a7b4-6804d07f579a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multiscale Models of Age-Specific Neurometabolic Coupling",
+  "text": "This project aims to study the specific metabolic and neural changes that happen in cells and networks and\nhow specific energy metabolites like glucose, lactate, and creatine can impact cognition. The goal is to\nsupport the development of metabolic therapies that are given to vulnerable people years before the energy\nstarts to decline and thus prevent dementia onset."
+ },
+ {
+  "id": "75882b06-dc7d-4ae0-8965-4fa7cee39564",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Circadian Rhythms in Blood Brain Barrier Permeability and Increased Efficacy of Chemotherapy for Brain Metastases",
+  "text": "Breast cancer is the most commonly diagnosed cancer type among women and the incidence of brain\nmetastases of breast cancer is steadily increasing. I have recently discovered a circadian rhythm in blood brain\nbarrier (BBB) permeability to chemotherapeutics; this project exploits this circadian regulation of BBB\npermeability to optimally time chemotherapy administration to increase anti-tumor efficacy and reduce adverse\nside effects of brain metastases treatment. Together, this research will provide essential information with a high\npotential for clinical relevance to better treat patients with breast cancer."
+ },
+ {
+  "id": "7589ce7c-db9c-4e9d-9705-95daf8ceaa2d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Engineered microsystems to assess endothelial contribution to myeloproliferative neoplasm thrombosis",
+  "text": "Thrombosis is the leading cause of mortality among patients with JAKV617F+ myeloproliferative neoplasms\n(MPNs). Although JAKV617F+ endothelial cells are activated in MPN, treatments do not target the vasculature.\nUsing endothelialized microfluidics models to assess endothelial function, we will determine whether reducing\nJAKV617F+-mediated signaling using JAK-STAT and Gas6-Axl-MERTK inhibitors decreases thrombosis in MPN\nand thereby establish a mechanistic rationale for novel antithrombotic therapies in MPN."
+ },
+ {
+  "id": "7594a1d3-6127-492f-8915-98594f492560",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Diversity of Presynaptic Function Among Neuronal Populations",
+  "text": "We found that the release of the fast synaptic neurotransmitter glutamate and modulatory transmitter dopamine\ndiffers in kinetics and frequency dependence, even if released from the same neuron. By comparing the\nmolecular composition and mechanisms that control the release of these two transmitters, we hope to reveal\nwider insight into the regulation of neurotransmitter release in the context of volume versus synaptic transmission\nand to reveal regulators of release probability. We also focus on the role of SV replenishment pathways in\ngenerating diversity in synaptic vesicle composition and assuring protein quality control at presynaptic terminals."
+ },
+ {
+  "id": "759562c5-1cd4-4279-a60f-3b836c802cff",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Thermostable measles fusion glycoprotein as a new vaccine strategy",
+  "text": "Measles (MeV) causes a severe transient immunosuppression in healthy individual and can cause lethal\nencephalitis in immunocompromised people. The current live vaccine virus is effective but requires low\ntemperature for transport and cannot be used in severely immune compromised individuals. Recent advances\nin our MeV research are ready to be applied to developing a new vaccine strategy that will lead to a\nthermostable subunit vaccine that will also be safe for the severely immune compromised individuals."
+ }
+]

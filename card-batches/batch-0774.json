@@ -1,0 +1,142 @@
+[
+ {
+  "id": "874483f2-2ec9-45e4-87b8-d710ad416d2d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multi-modal Micro Electrode Fluidic Array (MEFA) Shells for Brain Organoids",
+  "text": "Stem cell-derived human brain organoids (BOs) bridge the gap between monolayer cell culture studies and\nanimal models, which have broad medical relevance. Since BOs have three-dimensional (3D) shapes, current\nplanar electrode and fluidic approaches lack performance characteristics. We seek to develop multi-modal 3D\nshell Micro Electrode Fluidic Arrays (MEFAs) for simultaneous and independent spatiotemporal stimulation and\ninterrogation of both the electrical and biochemical microenvironment all around the 3D BO contour with broad\napplicability to understanding neurodevelopment and developing treatments for neurodevelopmental and\nneurodegenerative disorders."
+ },
+ {
+  "id": "8745b493-6e1c-4f8e-bc33-a2c5d05de9f7",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Engineering best in class Acute Myeloid Leukemia (AML) CAR-T therapies by enhancing persistence and defining the immune landscape of AML",
+  "text": "Acute Myeloid Leukemia (AML) is a devastating disease with 20,000 Americans per year, has an urgent need for new therapeutic strategies. One of the most exciting new treatment strategies for blood cancers are Chimeric Antigen Receptor (CAR) T cells, which have led to cures in patients with B-cell origin malignancies who previously had dismal prognoses. However, current implementations of CAR-T cells have been much less successful in AML. Translating CAR-T cells to AML appears to be hampered by 3 major hurdles: 1) lack of a highly disease specific antigen due to immense heterogeneity of the AML tumor microenvironment (TME) 2) elevated on target-off tumor toxicities where potential therapeutic targets are also expressed on healthy hematopoietic blood cells 3) and the presence of AML TME factors that impede T-cell persistence and lead to antigen positive relapse. My long term goal in this proposal is to develop a cellular therapy platform to overcome these hurdles in current AML CAR-T therapies. This proposal will be led by myself under the sponsorship of Dr. Arun Wiita, an expert in hematologic malignancies and cellular therapy development as well as a team of collaborators with complementary and relevant expertise. This work builds on two key recent discoveries: 1) data recently published by the Wiita lab (Mandal et al, Nature Cancer 2023) where our group discovered the active conformation of Integrin Beta-2 (aITGB2) as a novel and selective CAR-T target for AML, and 2) the discovery by the Jaehyuk Choi lab at Northwestern, my close collaborator on this proposal, of the CARD11-PIK3R3 fusion gene as one of the most potent genetic modifications to T-cells to drive long-term cellular therapy persistence in vivo (Garcia and Daniels et al, Nature, in press). Here I hypothesize that by combining these two technologies, I can develop a best in class AML therapy that overcomes the previous hurdles described. My major experimental goals include 1) to develop engineered T-cells that localize to AML blasts (in vitro/in vivo) and enhance CAR-T therapy with minimal toxicities and high persistence and 2) to quantify and identify the molecular changes that are accrued in tumor cells and neighboring immune cells in response to CAR-T therapy. In Aim 1 I will test the feasibility, toxicity, efficacy, and persistence of the CARD11-PIK3R3 fusion enhanced, AML specific, CAR-T in-vitro and in-vivo (PDX and Syngeneic mouse models). In Aim 2 I aim to identify molecular changes by single cell RNA sequencing that are accrued in response to our new CAR-T therapy at initial treatment, peak response, and relapse in-vivo within CAR-T, neighboring immune cell, and tumor cell populations. Successful completion of these aims will enable us to enhance persistence of current therapies against existing targets in AML. Completion of this work in conjunction with the associated training plan will enable me the support to become an independent scientist focused on developing new treatment modalities. Furthermore, my graduate training will be tailored to me along the path of becoming an independent investigator with a lab that integrates bioengineering and immunology."
+ },
+ {
+  "id": "8747887f-c5dd-49e1-8841-a3cb4019c1b9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Core B Gene Perturbation Core",
+  "text": "Core B –Gene Perturbation (Sharpe/Kuchroo): This Core will integrate transgenic, knockout, and CRISPR/Cas9 gene perturbation technologies into the study of TIGIT/CD155 and PD-1/PD-L1 functions and interactions. Core B has the expertise with both conventional and conditional transgenic and knockout technology, as well as CRISPR/Cas9 engineering, which will enable the generation of novel mouse strains for analyzing the functions of TIGIT/CD155 and PD-1/PD-L1 functions and interactions in vivo. The Mouse Engineering Core provides a critical means by which the PPG will achieve its goals of understanding how TIGIT/CD155 and PD-1/PD-L1 mediate their immunoregulatory functions. Core B will provide PPG investigators with an important and unique collection of mouse strains for their studies. To facilitate studies of the function of TIGIT and PD-1 in specific cell types, the Core will cross TIGIT (TIGITfl/fl) and PD-1 (PD-1fl/fl) floxed mice with different Cre driver strains. Likewise, to enable analyses of the function of CD155 and PD-L1 in specific cell types, the Core will cross CD155 (CD155fl/fl) and PD-L1 (PD-L1fl/fl) floxed mice with different Cre driver strains. The initial priority will be to breed CD155fl/fl mice with PD-L1fl/fl and CD11cCre and Zbtb46Cre mice to delete CD155 and PD-L1 in dendritic cells (DC). These strains will enable studies of the role of CD155 and PD-L1, individually and together on DC. Core B also will generate CD155 mutant mouse strains to support studies of CD155 cell intrinsic functions. The generation of CD155 ITIM mutant and CD155 cytoplasmic tail-less mouse strains to enable studies of bidirectional interaction of TIGIT with CD155 will be the initial priority. Importantly, these CD155 mutations will preserve CD155 receptor binding and adhesion functions, but alter intracellular signaling, thus enabling study of how these mutations impact CD155 cell intrinsic functions. In addition, Core B will enable PPG investigators to identify mediators of TIGIT/CD155 and CD155/PD-L1 functions, individually and in combination, in effector and regulatory T cells. Core B will generate lentiviruses with gRNAs for use in vivo in the CHIME (CHimeric IMmune Editing) CRISPR/Cas9 gene perturbation platform. CHIME enables perturbation of genes in naïve lymphocytes, myeloid cells, and dendritic cells in vivo without altering their development. Core B will use CHIME to enable studies to validate prioritized genes identified by proteomic and transcriptional data in Project 1 (Kuchroo), Project 2 and Project 3 (Hafler). Core C will integrate the data sets from the projects and assist with gene prioritization. Finally, Core B will serve as a repository for new mouse strains generated during the course of this PPG. The Mouse Engineering Core will provide breeding pairs of these strains to PPG investigators as needed and cryopreserve strains."
+ },
+ {
+  "id": "8750d3ce-5d48-4833-aaee-4892da242b03",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A transcriptomics-based approach to identify quantitative biomarkers for multiple system atrophy",
+  "text": "Multiple system atrophy is an invariably fatal prion-like neurodegenerative disease caused by misfolding of the\nprotein α-synuclein. Using unbiased transcriptomics to investigate the gain-of-function versus loss-of-function\nhypotheses underlying α-synuclein pathogenesis in disease, this project will determine the effect of protein\nmisfolding on neuronal gene expression. The results from this proposal will lead to the identification of\nbiomarker candidates for multiple system atrophy, which will drastically improve patient care and support better\ntrial design."
+ },
+ {
+  "id": "876059e5-4104-4a61-a88a-75ec4b088769",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Towards a biophysical model of human cortical neurophysiological signatures that incorporates cellular and cell type biophysics, transcriptomics, and morphology",
+  "text": "The last decade has seen exciting and rapid progress in the collection of high-throughput multimodal data\ndistinguishing between hundreds of cell types in the brain. However, little is known about how this wealth of\ninformation translates into biophysical mechanisms in neural circuits and how these circuits, in turn, produce\ncomputation – particularly so in human neocortex. Here we build models that bridge cellular resolution\nmeasurements to computational motifs and neural circuits, validate them against experimental measurements\nin humans and study how specific biophysical mechanisms orchestrate cortical function and associated\nsignals."
+ },
+ {
+  "id": "876066ce-b184-4f44-9e49-c484068dbaee",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Genomic Training Program for Nurse Scientists",
+  "text": "This application has the goal of providing education and training to nurse scientists at the predoctoral and\npostdoctoral level in the field of omics research. Nurses are uniquely positioned to bridge the gap between\nomics research and clinical practice. They interact with patients at all stages of life, and in all clinical arenas.\nThere continue to be few opportunities for long-term analytical or molecular laboratory-based training in the\nconduct of cutting-edge omics research and such training opportunities are essential because nearly every\ncondition studied by nurse scientists has an omics component. Our objective is to train talented nurse\nscientists, at the beginning stages of their careers, to develop research trajectories related to the application\nand evaluation of omics in improving patient outcomes."
+ },
+ {
+  "id": "876119ca-0810-48c7-936b-00b8e57f0856",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multimodal phenotyping of zebrafish models of human disease",
+  "text": "New research methods have made it possible to study hundreds of human diseases in parallel. By combining\na high-throughput CRISPR technology with state-of-the-art sequencing, this project will generate hundreds of\ndistinct models of human diseases in zebrafish, then quantify the molecular and functional changes that occur\nin every disease model. Computational methods will be used to categorize diseases, elucidate the underlying\ndisease processes, and predict targets for treating them."
+ },
+ {
+  "id": "8761767f-a5d4-4551-a4d9-f4751755db1b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Tumor Microenvironment and Metastasis Program",
+  "text": "Program Director/Principal Investigator (Last, First, Middle): Chu, Edward \nTUMOR MICROENVIRONMENT AND METASTASES PROGRAM - PROJECT NARRATIVE \nPer PAR-21-321, a Project Narrative is not required for this Component. \nOMB No. 0925-0001/0002 (Rev. 03/2020 Approved Through 02/28/2023) Page"
+ },
+ {
+  "id": "8767a314-18e7-4c0f-9195-faddedbc8668",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating the Development of Tregs from iPSCs by Manipulating Exogenous and Endogenous FOXP3 Expression",
+  "text": "The immune system produces cells called regulatory T cells (“Tregs”) that suppress inflammation and prevent\nautoimmune diseases. The goal of my research is to understand how a gene called FOXP3 regulates the\nfunction and development of Tregs and to use this knowledge to generate Tregs from human pluripotent stem\ncells. This project will provide critical insights into efficient Treg generation, potentially leading to safer, more\neffective cell therapies to increase immune tolerance and treat autoimmune disease."
+ },
+ {
+  "id": "8768c1c0-944d-4a98-8cbe-d3440689d4fd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Defining the role of decreased estradiol in modulating crotonylation of myofilament proteins in aged female hearts",
+  "text": "Prolonged sarcomeric relaxation is a contributing factor to diastolic dysfunction, which is associated with\nincreased mortality and the incidence increases dramatically after menopause. Very little is known about how\ndecreased estradiol that occurs after menopause impacts sarcomeric function. One way that estradiol may\nimpact sarcomeric function is through modifying post-translational modifications on sarcomeric proteins and\ndefining these changes will enable us to therapeutically target particular mechanisms underlying prolonged\nrelaxation."
+ },
+ {
+  "id": "876ef10c-5364-4a51-9e15-ba8b18a61327",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Bio statistics Core",
+  "text": "The Biostatistics and Computational Biology Core will provide statistical, bioinformatic and computational\nconsultation and in-depth collaboration to the P01 research program in the areas of planning, design, conduct,\nanalysis, and reporting of laboratory experiments, and clinical trials. Having a dedicated group of\nbiostatisticians and computational biologists with expertise in therapeutic cancer clinical trials will ensure the\nbest possible designed studies to answer scientific questions of interest related to targeting replication stress in\nendometrial cancer."
+ },
+ {
+  "id": "877a65de-a0ad-4326-be6b-dc27d2719f19",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Flexible causal inference methods for estimating longitudinal effects of air pollution on chronic lung disease",
+  "text": "Chronic lung diseases are among the top contributors to mortality in the United States and have previously\nbeen linked to air pollution. The proposed research will leverage advances in machine learning to develop\nnovel statistical methods for the analysis of complex existing data on air pollution and lung disease progression\nover time. By combining his expertise in causal inference and machine learning with newly obtained training in\nair pollution science and environmental determinants of disease, Dr. Malinsky will advance the state of\nenvironmental data science and establish himself as an independent investigator in the intersection of\nbiostatistics, machine learning, epidemiology, and environmental science."
+ },
+ {
+  "id": "877ba236-e2e1-42c8-b011-3b34d1720e9d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Small Animal Imaging Shared Resource (SAISR)",
+  "text": "SMALL ANIMAL IMAGING SHARED RESOURCE (SAISR) ABSTRACT The UCLA Jonsson Comprehensive Cancer Center (JCCC) Small Animal Imaging Shared Resource (SAISR), directed by Arion Chatziioannou, PhD (CMINT) and co-directed by Shili Xu, PhD, provides instrumentation, training, data analysis and interpretation, and expert support for the design and execution of imaging studies conducted by JCCC investigators. Major technologies and services in SAISR include micro-positron emission tomography (micro-PET, invented at SAISR), micro-computed tomography (micro-CT), magnetic resonance imaging (MRI), optical imaging (bioluminescence, fluorescence, and Cerenkov), autoradiography imaging, and routine production of small molecule radiochemistry and peptide/protein radiolabeling to support PET imaging. The overall SAISR objective of supporting JCCC investigators’ research is achieved through three Specific Aims. Aim 1: To provide expertise and support state-of-the-art small animal imaging technologies; Aim 2: To provide expertise and radiochemistry and radiolabeling production services; and Aim 3: To provide JCCC investigators with training in radiochemistry, preclinical imaging, and image analysis, and to provide support in the design and execution of imaging studies. SAISR leaders discuss the health of SAISR, JCCC investigator usage, user satisfaction, and resource needs at bi-monthly SAISR meetings and monthly Faculty Advisory Committee (FAC) meetings, and report to the JCCC Associate Director for Shared Resources Zoran Galic, PhD (TII) during JCCC Shared Resource Directors monthly meetings. JCCC member research projects receive priority service from SAISR by policy. Examples of SAISR impact in the current funded period include support for Steven Dubinett, MD (CMINT/TII) and David Shackelford, PhD (STT) in developing a non-invasive PET imaging method to measure mitochondrial membrane potential in vivo in a preclinical model of non-small cell lung cancer (Momcilovic et al., Nature. 2019; PMC7328016) and subsequently applying this method to spatially map mitochondrial networks and bioenergetics in lung cancer (Han et al., Nature. 2023; PMC10033418). Additionally, a new MRI machine supported the development of 18F-labeled brain-penetrant EGFR tyrosine kinase inhibitors for PET imaging of glioblastoma by David Nathanson, PhD (CMINT) and Jennifer Murphy, PhD (CMINT) (Narayanam et al., Chem Sci. 2023; PMC10699577). SAISR standard charge back rates are comparable to nationwide averages and its subsidized rates for JCCC researchers are 30-53% lower. From 2019 – 2023, SAISR supported projects from 47 unique JCCC investigators, with 86% of JCCC member usage by peer-review funded investigators. JCCC investigator usage was 78% of overall SAISR utilization. SAISR support helped enable 112 cancer publications by JCCC members with 52% in high impact (IF ≥10) journals. In the next project period, SAISR will add a new Single Photon Emission Computed Tomography (SPECT) imaging system to its current multimodal imaging platform to meet the needs of developing new agents for JCCC cancer theranostics research and for multi-isotope molecular imaging strategies."
+ },
+ {
+  "id": "877e25e0-bb00-4fa2-b40b-87d360c563b5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Role of DENND5B in Dietary Lipid Absorption",
+  "text": "The absorption of dietary lipids and their transport to the circulation is essential for the maintenance of\nwhole-body lipid metabolism and energy homeostasis; however, elevated postprandial plasma lipid,\nspecifically triacylglyceride (TAG), is a significant independent risk factor for cardiovascular disease.\nThis project will provide mechanistic insight into a newly discovered role for the protein DENND5B in\nthe absorption of dietary TAG and its impact on cardiometabolic health. The overall objective of this\nproposal is to gain fundamental knowledge about the process of dietary lipid absorption by the intestine\nand its impact on metabolic health."
+ },
+ {
+  "id": "877e6604-9201-4538-92e8-c8eb645e1bcc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "2026 Sleep Regulation and Function Gordon Research Conference and Gordon Research Seminar",
+  "text": "GRC Sleep 2026 conference will showcase recent advances in elucidating the complex interactions between\nsleep and various functions of the brain and body. It will also highlight emerging areas of investigation,\nincluding the interoception of sleep, autonomic regulation during sleep, and the integration of artificial\nintelligence/machine learning with large-scale wearable physiological data to uncover novel insights. The\ncombined GRS/GRC format will foster interdisciplinary collaboration by bringing together researchers from a\nwide range of scientific backgrounds and career stages and will contribute to training the next generation of\ninvestigators committed to improving health and well-being through a deeper understanding of sleep."
+ },
+ {
+  "id": "8782780e-27cd-419f-b25d-66eec4f7bfc6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Protein homeostasis dysfunction in LM and VM pathobiology and therapeutic responses",
+  "text": "Lymphatic and venous malformations are slow-flow vascular malformations associated with severe\nmorbidities and even mortality, but currently available treatments are all off-label and only provide partial\nresponse. We have identified protein synthesis and degradation defects in these malformations which\ncontribute to the pathobiology and can be targeted therapeutically. We propose to target this defect by; 1)\nexacerbating the protein imbalance to cause cell death, or 2) rebalance synthesis and degradation to\nnormalize the pathological cells and improve function."
+ },
+ {
+  "id": "8786c8cc-075c-49ab-9ec8-a7ec50189782",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Core 4 Sali Echeverria",
+  "text": "THE HARC CENTER: HIV ACCESSORY AND REGULATORY COMPLEXES COMPUTATIONAL CORE SUMMARY The overall goal of the Computational Core is to facilitate the analysis and interpretation of multiple data types across Projects and Cores to characterize the cellular networks, proteins, and protein complexes that influence HIV replication and latency. We will employ existing bioinformatics and systems biology approaches, as well as develop new methods to facilitate the unification of mechanistic and structural details with network biology, with a strong emphasis on the analysis and integration of data derived from proteomics, genetics, and structural biology approaches. Specifically, we will provide the tools to identify interactions of endogenous proviral and antiviral HIV-host protein complexes that have been structurally and functionally characterized by the Proteomics, Genetics, and Structural Biology Cores. This includes datasets from affinity purification mass spectrometry (AP-MS), native mass spectrometry (nMS), cross-linking mass spectrometry (XL-MS), hydrogen/deuterium exchange mass spectrometry (H/DX-MS), systematic genome editing by CRISPR-Cas9, deep mutational scanning (DMS), and cryo-electron microscopy (cryo-EM). These datasets will be analyzed separately as well as jointly, followed by visualization to gain a deeper understanding of the functional pathways that are modulated during HIV infection. Finally, we will determine the structures of HIV-human protein complexes by an integrative approach using various proteomics, genetics, structural, and biochemical data. Integrative structure determination will be performed using the open-source Integrative Modeling Platform (IMP) package developed in the Sali lab (Core Lead). We will initially focus on protein complexes containing human or simian A3Gs, and HIV-1 Vif, Rev, and Tat, followed by structure determination of HIV-human complexes identified from CD4+ T cells and structurally interrogated by the Proteomics Core."
+ },
+ {
+  "id": "879b83c8-a33b-41c4-b6fa-28536412a7a8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Improving Glioma Immunotherapy Efficacy by Regulating Tumor Inflammation",
+  "text": "Recently, we showed that inhibition of RAGE significantly slowed glioblastoma tumor growth and invasion, one\nof the most fatal cancers with an average survival of less than 2 years after therapy. Inspired by this data, we\npropose to develop drugs that selectively inhibit the activity of RAGE in glioblastoma tumors. If successful, our\nstudies will result in the development of a novel therapy for not only glioblastoma, but potentially for other cancers\nwhere RAGE is important for tumor growth and invasion."
+ },
+ {
+  "id": "879f281a-7f99-472d-8022-d4c0dcb41c90",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular strategies for early detection and targeting of cancer",
+  "text": "The primary focus of my work has been to understand the mechanisms by which cancers subvert normal\ndevelopmental and stem cell signals to grow, spread and evade therapy. Over the last decade our work has\nranged from discovery of new signals involved in cancer growth and progression to preclinical work that has\nformed the basis of clinical trials testing new agents for drug-resistant leukemias – leading to the recent approval\nof Glasdegib to treat aggressive leukemia – and pancreatic cancer. In the coming years, we will continue to strive\nto make important contributions that will have a meaningful impact on the many lives that deeply depend on the\ndiscoveries we make as a community."
+ },
+ {
+  "id": "87a68572-5905-4276-8151-15bb164d95ec",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of inositol trisphosphate receptor-mediated calcium signaling",
+  "text": "Inositol 1,4,5-trisphosphate receptors (IP3Rs) are calcium channels that are ubiquitously expressed in all\neukaryotic cells and play important roles in regulation of a broad range of physiological processes in humans.\nDysfunctions in IP3Rs are associated to numerous human diseases, including neurodegenerative diseases such\nas Alzheimer’s, Parkinson’s and Huntington’s diseases, stroke, and cancer, and therefore these channels are\nimportant drug targets. The proposed studies aim to understand the detailed structure and fundamental\nmechanisms governing IP3R channel function and to elucidate how they are perturbed in disease states that will\naid in search for novel therapies to treat disorders related with abnormal cell calcium homeostasis."
+ }
+]

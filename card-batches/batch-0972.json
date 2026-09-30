@@ -1,0 +1,142 @@
+[
+ {
+  "id": "ce0b8732-e23a-4d5a-a3e2-324c28a79f15",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Enhancement of the endogenous opioid system by ketamine",
+  "text": "Ketamine is an established anesthetic that can also treat depression, chronic pain, and opioid use disorder,\nbut the mechanisms involved remain elusive. Recent evidence suggests that ketamine affects the opioid system,\nand this will be tested by examining both the short-term and long-term effects of ketamine."
+ },
+ {
+  "id": "ce0f78e8-90dc-48ae-b6b9-bfc4992157d6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Coronary Fractional Flow Reserve Determined Using MRI and CFD",
+  "text": "This project will create a new non-invasive methodology to measure coronary fractional flow reserve (FFR) based\non magnetic resonance Imaging (MRI) and computational fluid dynamics (CFD). FFR a metric to assess the\nfunctional severity of coronary lesions and treatment decisions based on FFR rather than angiography severity\nhave been shown to improve patient outcomes. Image acquisition and image display methodology will\ndeveloped in conjunction with the Siemens Healthineers Medical Imaging Technology and MRI Collaboration\nDivisions."
+ },
+ {
+  "id": "ce1356ff-4b83-495e-8d45-c718c145bd69",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Resource Core III: Biological Impacts Core",
+  "text": "The mission of “Resource Core III: Biological Impacts Core” is to provide state-of-the-art biochemical and molecular pathology tools to the research projects supported by the Correction of Neurological Disease via Allele Specific Excision of Pathogenic Repeats (CASEPR) program. Complementing the work of Cores I and II, the Bio Impacts Core III will play an integral role in assessing the molecular phenotype of animal models following in vivo genome editing. The Core will develop innovative new assays to evaluate the impact of targeted CRISPR- mediated excision of pathogenic alleles on the transcriptome and proteome of neurons, glia, and resident- immune cells in the mammalian brain and circulatory system. Research support services include nucleic acid and protein isolation, quantitative PCR and western blot, automated microscopy, post-image analysis and quantification, immunological assays, and data management. All samples will be tracked and stored using a laboratory management system, and results disseminated back to the research project leads. Research output from Core III will provide essential data on both the efficacy and safety of the genome editing approaches; and the suite of services will accelerate the timeline from preclinical studies to IND by consolidation of resources and expertise."
+ },
+ {
+  "id": "ce152307-119c-4f17-8d98-e1b7e9974d42",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Comparative Medicine Shared Resource",
+  "text": "COMPARATIVE MEDICINE SHARED RESOURCE The Comparative Medicine Shared Resource (CMSR) of the Fred Hutch/University of Washington/Seattle Children’s Cancer Consortium provides high quality support for preclinical cancer research to Consortium investigators. Under the direction of Gordon Roble, DVM, MBA, DACLAM, staff, including an additional 2.5 clinical and regulatory veterinarians and 1 veterinary pathologist, 2 staff scientists, 5 program managers, 12 veterinarian technicians/technical experts, and 27 husbandry personnel, provide expertise in laboratory animal medicine and science, animal-use regulations, facility management, and daily care and treatment to six species of animals currently housed at Fred Hutch (FH). CMSR maintains an AAALAC-accredited, USDA- registered, and PHS-assured animal-use program located in 40,844 sf, and provides care for approximately 42,000 animals daily, including mice, rats, fish, frogs, guinea pigs and hamsters. Researcher owned rodent housing is in two centralized barrier facilities. By centralizing services, CMSR provides exceptional husbandry to maintain microbiologic and environmental control of animal colonies. CMSR offers critical assets, including radioactive and infectious agent containment housing and flexible space for specialized research needs such as reverse light cycles or metabolic caging. Equipment support includes individually ventilated micro-isolator rodent cages, a full-service rodent cage wash and autoclaves, and surgery-ready procedure rooms for rodent users. CMSR is an invaluable resource enabling superior preclinical studies, starting with initial study consultation and planning to ensure optimal research start-up time. This includes development and review of institutional animal care and use committee protocols. A CMSR comparative pathologist provides diagnostic case review and rigorous analysis of tissue samples from Consortium studies. The new Translational Research Model Services (TRMS) arm of CMSR will incorporate the preclinical modeling shared resource (SR) team in the next renewal to deliver rodent technical, surgical, breeding, and scientific support for research staff, including genetically engineered and patient derived xenograft mouse models. CMSR offers extensive training opportunities for research staff in general and specialized procedures, animal handling, and regulatory requirements. CMSR space also accommodates the Consortium-supported Translational BioImaging Core SR, creating an environment for significant inter-SR collaboration. One hundred sixty-five research groups depend on CMSR for success in developing animal models of cancer and cancer-related disease states such as transplanted or induced liquid and solid tumors, cancer-related pathogens, graft- versus-host disease, and conditions and treatments related to radiation therapy. CMSR continues to expand the scope and volume of animal-related work, including the proposed buildout and management of a high containment research facility (BSL-3/ABSL-3) to be located at FH, allowing Consortium investigators to work with live virus for cellular and animal studies to enhance our ability to work on molecular virology related to malignancy and design vaccines against virally mediated diseases."
+ },
+ {
+  "id": "ce28ee98-fd07-4158-be3b-72301eb4b603",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "From synapse to function: cocaine-induced cell-type- and circuit-specific accumbal proteome changes",
+  "text": "Dysregulated signaling in the nucleus accumbens (NAc) is pivotal in promoting drug-seeking and relapse.\nHowever, our understanding of synaptic proteomic adaptations, particularly in cell-type- and circuit-specific\ncontexts, lags behind our grasp of transcriptional responses to drugs of abuse. This proposal aims to explore\ncocaine-induced synaptic proteome changes in NAc, focusing on their interaction with cocaine-induced\ntranscriptional and epigenetic regulation to elucidate their role in addictive drug-seeking and relapse behaviors."
+ },
+ {
+  "id": "ce3368b3-ad13-4af2-b3ec-d14f2ca53b75",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Assessment of murine retinal acuity ex vivo by machine learning of multielectrode array recordings",
+  "text": "Project Narrative: The prevalence of vision loss from retinal degeneration numbers in the\nmillions world-wide and is expected to double by the year 2050, and despite the development of several\npromising approaches to restore vision in the blind, progress in developing these therapies has been\nhampered by challenges in analysis of these methods in animal models. We describe a novel system that\nanalyzes, by machine learning, retinal ganglion cell output in native, degenerated and therapeutically treated\nblind retinas which can characterize the visual information content of the ‘reanimated’ blind retina and thereby\nfacilitate the development of these technologies. The system developed through this grant, as well as the\ncareer development pursued by the investigator, will be readily applicable to the assessment of potential retinal\nacuity restoration by current and novel therapeutic approaches."
+ },
+ {
+  "id": "ce39230a-e2ec-4c72-a783-92271f89c41a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Enabling AI-based Mouse Genetic Discovery",
+  "text": "Public Narrative\nNo model organism has contributed more than the laboratory mouse to improving human\nhealth. This project will develop computational tools that will greatly accelerate the pace of\ngenetic discovery using the many available murine genetic models for human disease. Also, the\nmechanism by which computationally identified murine genetic factors that cause two diseases\n(lymphoma and diabetes) that are major public health problems will be characterized."
+ },
+ {
+  "id": "ce3d7a83-b71d-473f-b967-538911e75b01",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identify Rare Pathogenic Variants and their Functional Consequences in SLE",
+  "text": "While hundreds of lupus susceptibility gene variants contribute to disease risk in most lupus patients, in a very\nsmall patient population, often familial and/ or childhood-onset lupus patients, the disease is caused by a single\ndysfunctional gene variant, and therefore called monogenic lupus. The goals of this study are to identify new,\nrare variants that could explain the disease status in familial and/ or childhood-onset lupus patients and to\nunderstand their functional consequences. Given that only approximately 40 known monogenic causes for\nlupus, new discoveries could open doors to improve our understanding of the disease and to facilitate the\ndevelopment of better medications."
+ },
+ {
+  "id": "ce3ed486-596f-4481-958a-593b9583e1bc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Condensates in Leukemias",
+  "text": "Pediatric leukemias are a heterogenous group of hematopoietic neoplasms largely driven by the expression of \nfusion oncoproteins (FOs) that leads to deregulation of transcriptional networks. Although recent studies by our \ngroups and others have shown that FOs involving NUP98, which are common in pediatric AML, form molecular \ncondensates and that condensate formation is associated with transforming potential, it is not clear if this is a \ncommon feature of leukemia FOs. The successful completion of these studies, which will deeply interrogate a \nrange of leukemia FOs, will provide mechanistic insights into the interplay of molecular condensates and gene \nregulation and will nominate new targets for therapeutic interventions for pediatric leukemias."
+ },
+ {
+  "id": "ce469468-0fd8-4246-aea7-b78437ee80db",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identifying Patients who Benefit from Paralytics in Acute Respiratory Distress Syndrome Using High-Frequency Clinical Data",
+  "text": "Acute respiratory distress syndrome (ARDS) affects a quarter million people in the United States each year,\nwith few treatments and a 35-45% mortality rate. Commonly used paralytic medications likely benefit some\npatients with ARDS but cause harm in others. This proposal aims to leverage innovative machine learning\nmethods using large, novel ventilator waveform and electronic health record datasets, to identify groups of\npatients who benefit from paralytic medications."
+ },
+ {
+  "id": "ce4a6a81-c01b-4d6a-a12d-1ad72fc16f09",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Prelimbic somatostatin peptide signaling in binge ethanol consumption",
+  "text": "Despite the prevalence and huge societal costs of Alcohol Use Disorder (AUD) – and in particular, binge drinking\n– few viable treatments exist, in part driven by the lack of mechanistic understanding of the disorder. This project\nwill use advanced technologies and well-founded methods to investigate the involvement of a specific population\nof neurons and peptides in the prelimbic cortex in binge drinking behavior. This work will provide key insights\ninto the neurobiological underpinnings of binge drinking, and support efforts to develop treatments for reducing\nAUD."
+ },
+ {
+  "id": "ce4f5021-07ae-470f-946e-938d9bee0062",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Unraveling the Dynamic Competition Between Activating and Repressive Complexes in Shaping Chromatin Accessibility",
+  "text": "Precisely maintaining gene expression levels is essential to define cellular identity and to prevent a wide range\nof diseases, including developmental disorders and cancers. In mammalian cells, activation or repression of\ngenes is accomplished in part by multiprotein complexes that affect local or higher-order chromatin structure. By\nunderstanding the molecular mechanism of the competition of activating and repressive complexes to determine\ngene expression levels this study will provide insights that may help guide the development of future therapeutics."
+ },
+ {
+  "id": "ce5378fe-c3ef-40ff-9e21-fc81ce1e406d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Developing Durable, Env-Boosted CAR T Cells for HIV Cure",
+  "text": "HIV-1 remains a substantial public health burden: antiretroviral therapy (ART) is capable of suppressing virus,\nbut not curing infected individuals. Chimeric antigen receptor (CAR) T-cell gene therapies have induced long\nterm remission in cancer patients, but must address inherent challenges to enable long-term ART-free\nremission in people living with HIV (PLWH). Our goal in this project is to increase the potency, durability, and\nfeasibility of CAR-T cell therapies for HIV-1 in the nonhuman primate model, in support of future clinical studies\nin PLWH."
+ },
+ {
+  "id": "ce53f611-4be7-46d0-8267-fe37bcf1a301",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular Mechanisms Underlying Luminal- Neuroendocrine Transdifferentiation",
+  "text": "Prostate cancer is a commonly diagnosed cancer in American men that is largely treatable until it metastasizes\nand develops treatment resistance and neuroendocrine transdifferentiation (NET). We will use the unique\nmodels we have generated to understand the epigenetic mechanisms underlying PCa NET. Our results might\nidentify potential therapeutic targets that control the tipping point of NET and also discover epigenetic\nbiomarkers at the early phase of NET to predict disease progression."
+ },
+ {
+  "id": "ce5ea3de-c141-42e3-877f-f467846301c7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Optimizing Oral Cancer Screening and Precision Management of Potentially Malignant Oral Lesions",
+  "text": "Early stage oral cancers and precancers are currently under-detected, representing missed opportunity to\nimprove the poor outcomes of oral cancer. While screening with conventional visual-tactile examination is\nlimited in accuracy, artificial intelligence-assisted precision diagnostics could shift the cancer prevention\nparadigm toward screening for the broader population if enabling reliable triage of oral lesions for risk-based\nmanagement. The proposed disease simulation model will evaluate the benefits and harms of harnessing\nthese devices and precision treatment thresholds, guiding translation toward cancer control."
+ },
+ {
+  "id": "ce64b6e8-761f-47d5-9ef8-d35e832827f0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanistic investigation of transcriptional and epigenome dysregulation in leiomyomas/uterine fibroids",
+  "text": "Uterine leiomyoma, also known as uterine fibroids, is a poorly understood disease affecting\napproximately 70% of all women and characterized by benign tumors and excessive deposition\nof extracellular matrix proteins, which renders uterine tissues highly fibrotic. Available non-\nsurgical treatments are limited due to the lack of understanding of the molecular and\nepigenomic mechanisms of leiomyoma. Using clinically relevant, patient-derived precision-cut\nex vivo tissue explants, along with recently engineered MED12-mutated cellular models, we\npropose to study the roles of epigenome in leiomyoma to enhance our understanding of the\ndisease and facilitate future development of novel therapeutics."
+ },
+ {
+  "id": "ce66ffc4-e071-49b0-9f8d-c72f11663b6b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Determinants of epigenetic inheritance in human stem cell fate decisions",
+  "text": "The epigenetic process safeguards cell identity during cell division through the inheritance of appropriate gene\nexpression profiles. Little is known regarding the chromatin inheritance of a hematopoietic stem cell (HSC)\nstate in normal human development. In this proposal, we will identify the molecular basis in constructing the\nheritable epigenome of HSCs and determine how chromatin dynamics confers HSC self-renewal and\ndifferentiation potential."
+ },
+ {
+  "id": "ce67e2b5-9798-4f57-bd19-b3b35af55f27",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Reducing Inflammation and Improving Electrical Performance of Cochlear Implants Through Zwitterionic Surface Modification",
+  "text": "The foreign body response to cochlear implants causes tissue scarring that increases electrode impedance,\nreduces stimulation precision, and damages residual acoustic hearing, limiting outcomes for the one million\npatients worldwide who rely on these devices. ZwiCoat Materials Innovations’ ultra-low fouling coating represents\na transformative solution that reduces scarring by 50-70%, lowers impedance by 50%, and decreases insertion\nforces by over 50%, improving performance while preserving cochlear health. Beyond cochlear implants, this\ntechnology has the potential to transform outcomes across numerous medical devices including stimulators,\nsensors, tubes, stents, and catheters by addressing the fundamental challenge of scarring, inflammation, and\ninfection without relying on antimicrobials that could contribute to global antimicrobial resistance."
+ },
+ {
+  "id": "ce6a025d-18aa-4503-a2cc-83b5bae4aaa9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Elucidating pathogenic mechanisms in STRADA-related brain malformation and epilepsy",
+  "text": "mTOR pathway hyperactivity is a major cause of brain malformations and epilepsy, which results in morbidity,\nmortality, and disability, and currently available medications are unable to cure the underlying disease process\nand fail to control seizures in one out of three patients. Using a 3-D human neural cell culture model, the\nproposed project studies how hyperactivity of the mechanistic target of rapamycin (mTOR) pathway related to\nSTRADA mutations causes cortical malformation and epilepsy. Understanding these mechanisms should help\nidentify therapeutic targets to halt or reverse the development of epilepsy."
+ },
+ {
+  "id": "ce6da454-2e43-4987-8e6f-31a5d0a9bbdd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Impact of NAFLD on Metabolic Brain Function via CEST MRI in HIV-Positive Individuals",
+  "text": "Liver disease is a top cause of morbidity and mortality in people living with HIV, with emerging data indicating\nhigh risk for non-alcoholic fatty liver disease (NAFLD) development. The goal of this proposal is to develop a\nnovel artificial intelligence-based approach for rapid and high-quality clinical chemical exchange saturation\ntransfer (CEST), a molecular MRI technique used to assess metabolic brain dysfunction. CEST imaging as well\nas other MRI metrics of neuroinflammation, and their associations with blood markers and cognitive performance\nwill help us to better understand and monitor potential interventions."
+ }
+]

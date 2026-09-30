@@ -1,0 +1,142 @@
+[
+ {
+  "id": "4079151c-7807-4c29-9ed0-c694f61e4fe4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Tissue-Anchored vs. Circulating Engineered Enzyme Constructs for Immunometabolic Resolution of Psoriasis",
+  "text": "We have engineered innovative fusion protein enzyme constructs in tissue-anchored and\ncirculating forms as therapeutics to shut down Th17-driven inflammation through metabolic\nreprogramming. We are applying these to the inflammatory autoimmune disease psoriasis, which\nis in need of new clinical options."
+ },
+ {
+  "id": "407a7e7f-277e-4577-a324-d657ee8d2fee",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular determinants of voltage-gated ion channels' localization and function",
+  "text": "Voltage-gated ion channels are essential for the proper function of multiple cells and tissues. The proposed\nresearch aims to fill key gaps in our understanding of the molecular mechanisms regulating their transport,\norganization and activity. This work will elucidate conserved pathways that could inform novel therapeutic targets\nfor treatment of illnesses including cancer, neurological and muscular disorders."
+ },
+ {
+  "id": "407ae942-41a7-447e-986f-0ed855289b61",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Precision Deaminases to Expand the Scope of Diseases Amenable to CRISPR-mediated Correction",
+  "text": "Most genetic variants associated with disease are single point mutations which are potentially correctable via\nsystems that exchange a single DNA base (base editors). However, the capacity of this approach is limited by\nediting promiscuity at neighboring bases which constrains target selection to a narrow range of mutations where\nnearby off-target edits would not negate the effect of the edit or induce additional pathogenic mutations. This\nproposal addresses an unmet clinical need for the advent of precision editors using a two-pronged approach that\nextends existing technology and creates an entirely new kind of editing enzyme with intrinsic properties that\nprevent off-target edits."
+ },
+ {
+  "id": "407e11b8-2c13-43ea-a18f-6250b8441ae4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Coordinated mental simulation in the hippocampus and primary visual cortex during active behavior",
+  "text": "The brain can travel in space and time to generate representations that do not refer to the current experience\n(“mental simulations”), a remarkable capability supported by distributed neural circuits in the mammalian brain\nincluding the hippocampus and primary visual cortex. To address our limited understanding of the neural\nmechanism underlying mental simulations, this proposal will leverage cutting-edge experimental and\ncomputational tools to decode a common cognitive variable from the hippocampus and primary visual cortex\nand examine the factors that influence their remarkable coordination. This work will enhance our knowledge of\nhow the cognitive brain influences the sensory brain and provide insights into psychiatric disorders that affect\nvisual perception, such as schizophrenia."
+ },
+ {
+  "id": "408f28fd-3e12-48f0-866a-3592d66fa5a9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Ablating Liver Metastases with SBRT to Enhance Immune Checkpoint Blockade in Melanoma",
+  "text": "Rational combinatorial approaches are urgently needed to enhance immune checkpoint inhibitor efficacy in\npatients with liver metastases. We have discovered that liver metastases siphon and delete tumor-specific T\ncells to cause systemic immunotherapy resistance, and moreover that ablative liver-directed radiotherapy can\nrestore immune checkpoint inhibitor efficacy. Herein we propose to evaluate mechanisms of immunotherapy\nresistance in melanoma patients and preclinical melanoma models with liver metastases as well as\nmechanistically define how liver SBRT overcomes immunotherapy resistance."
+ },
+ {
+  "id": "4091002f-ffc3-4697-bc80-bafef95bf9d4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Tools to enable brain wide chronic electrophysiology in freely moving rodents",
+  "text": "Tools to enable brain wide chronic electrophysiology in freely moving\nrodents\nThe availability of 1536 channels electrophysiology probes opens the gateway to brain wide\nrecording in freely moving animals. To make the capability practical, a variety of engineering\ndevelopments will be addressed: Robotic assisted surgery to make multiprobe implants faster\nand more reliable, enhanced data acquisition software to manage the very large data sets, and\nenhanced analysis software to create reliable outcomes without manual curation. These will be\nexercised with a navigation task in mice and rats to optimize discovery of brain wide navigation\nneural activity."
+ },
+ {
+  "id": "4091118b-b730-4740-aa10-95420ff288ea",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Systems Metabolic Approach for Multi-scale Pancreatic Cancer Phenotyping",
+  "text": "PROJECTIVE NARRATIVE\nPancreatic cancer is an aggressive, devastating malignancy with despondent morbidity and mortality. While\nthere have been advancements in clinical imaging, histology, and cellular/molecular profiling, these\nadvancements have occurred largely independent of one another, thus there is a need to integrate these to\nprovide a more causal understanding of how clinical imaging phenotypes relate to pancreatic adenocarcinoma\nsubtypes from more to less aggressive subtypes, and in the process establish “molecular omic-type to clinical\nphenotype” relationship in order to find new strategies to diagnosis and treat the disease. The work in this\nproposal will use cutting-edge cellular and tissue measurements of the microenvironment of pancreatic\nadenocarcinoma (PDAC) with computational systems biology (using integrated transcription, signaling, and\nmetabolic networks), focusing on the of glycolytic and inflammatory characteristics of tumors in relation to\nspecific histological tumor characteristics, in order to 1) develop a non-invasive imaging test (i.e. anatomical\nand metabolic imaging through PET/CT) to identify PDAC phenotypes that 2) lead to new potential cellular\ntargets for treatment in the future."
+ },
+ {
+  "id": "40a07d1c-cb9a-449d-890e-555ecd837a53",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Perinatal human cerebellum development: high-resolution in-vivo and ex-vivo imaging",
+  "text": "Perinatal cerebellar injury is widely associated with developmental delays in motor, language, cognition, and\nsocial behaviors. However, the underlying biological processes -- causing functional disorders -- have not yet\nbeen fully understood. This study proposes to establish high-resolution structure and connectivity maps of the\ndeveloping cerebellum using both in vivo and ex vivo imaging during the first year of life and to characterize\nhealthy neurodevelopment and developmental disorders under perinatal cerebellar injury in large cohorts. Our\nstudy offers a viable tool for both characterizing early cerebellar development and identifying biomarkers to\npredict the developmental outcomes in perinatal cerebellar injury."
+ },
+ {
+  "id": "40a09777-bbf4-4146-9048-d2cac57d2e05",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "GEMRA: Geriatric Emergency Medicine Risk Prediction Model for Return VisitAdmissions",
+  "text": "In older adults, emergency department (ED) return visits resulting in a hospital admission (RVA) have\ndramatically higher morbidity and mortality than patients admitted on their initial ED visit. We propose to develop\nan automated ED screening tool to identify older adults at risk of RVA within 72 hours following an initial ED visit,\nusing machine learning to accurately predict this multifactorial event. Findings from this research will improve\nthe ability of ED clinicians to identify this vulnerable population for subsequent risk-mitigating interventions."
+ },
+ {
+  "id": "40a48e7c-cfea-492d-9245-7947d2c9f162",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cardiovascular risk from comprehensive evaluation of the CT calcium score exam",
+  "text": "We will create artificial intelligence methods for quantitative assessment of heart disease using a fast, inexpen-\nsive computed tomography (CT) imaging method. With success, our research will lead to improved evaluation\nof heart disease, paving the way for personalized treatments. It will also enable many research studies on oth-\ner risk factors such as diabetes."
+ },
+ {
+  "id": "40a4f610-5761-4024-8a31-60476d099033",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Leveraging routinely collected health data to improve understanding of language development in children identified as late talkers",
+  "text": "The purpose of the renewal of the Duke Autism Center of Excellence is to apply cutting-edge, translational digital\nhealth and computational methods to develop more effective tools for early autism screening and for objectively\nmonitoring changes in children’s behavior, and to discover novel, brain-based biomarkers that can be used for\nstratification and to assess target engagement in clinical trials with young autistic children. Our long-term vision\nis to transform how clinical care is delivered by providing innovative solutions that address long-standing barriers\nin access to care and enhance our ability to evaluate interventions that will improve quality of life of autistic\nchildren and their families."
+ },
+ {
+  "id": "40a97ed8-93b4-454b-bd2f-0ec52741b23f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Human Genetic risk factors for Disseminated Coccidioidomycosis (DCM)",
+  "text": "Scientific Project 3: Human Genetic Risk Factors for Disseminated Coccidioidomycosis (DCM) ABSTRACT This project will focus on elucidating human host genetic risk variants that predispose individuals to DCM. For the past 80 years, epidemiological studies have demonstrated that certain specific racial and ethnic groups were more likely to progress towards severe disseminated Coccidioidomycosis, While many of these observations have held up over, the underlying mechanistic and genetic pathogenesis underlying these epidemiological observation have not been fully evaluated. There have been several major barriers to these types of genomic studies where the relationship between host-genetic background and environment (here infection): 1) small- sample sizes for most studies; 2) challenge of handling terabytes of genomic data; 3) limited sequencing data for non-european populations;and 4) identifying relevant functional readouts to confirm the effect of variants in relevant model systems. In this U19 proposal, project 3 brings together over 600 existing exome and genome sequencing datasets and proposes to collect and sequence over 500 additional cases and controls. This will be the largest genetic study of coccidioidomycosis to date. Key to this data analysis is the experts in this proposal whose expertise enables us to handle Terabytes of data and to analyze it using ancestry-specific approaches. We will explore two major hypotheses: that common variants that make up ancestry-specific approaches underly race and ethnicity specific differences in DCM or that rare genetic variants in key immune signaling pathways increase risk of DCM. Both hypotheses are not necessarily mutually exclusive and may explain some of the disease associations that have been observed. In addition to identifying the DNA variants, we will perform ATAC-seq, RNA-sequencing studies to functionally validate non-coding and splicing changes caused by non- coding genetic variants. A key aspect of this project is its ability to rapidly integrate with projects 1 and 2 and Core C in order to validate novel genetic variants and their effects on immune pathways. It will allow us to directly bridge the gap between identified genetic variants and clinical function."
+ },
+ {
+  "id": "40adf641-9247-4a72-9380-9d9f44f5525c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Gene Regulation and Physiology of Oral Streptococci",
+  "text": "Dental caries is an infectious disease that affects a large proportion of the world's population and that occurs\nwhen the tooth is damaged by bacteria on the tooth surface that produce acids from sugars. The goal of this\nresearch is to understand how the bacteria that cause caries coordinate the uptake and metabolism of sugars\nto optimize growth and acid production. The project has high public health relevance because of the\nwidespread nature of dental caries, the high potential of the research to identify new opportunities for the\nprevention or treatment of caries, and the applicability of the knowledge generated to a variety of other\nimportant human pathogens."
+ },
+ {
+  "id": "40b567ad-0992-4ecc-b4a4-d040d40293fe",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Cellular Communication in Cancer Program",
+  "text": "CELLULAR COMMUNICATION IN CANCER PROGRAM – PROJECT SUMMARY/ABSTRACT The Cellular Communication in Cancer Program (CCC) investigates how tumor-intrinsic and systemic signaling mechanisms drive cancer initiation, progression, and therapeutic resistance. Co-led by Drs. Linda Van Aelst and Corina Amor, The Program fosters research in the cross-Programmatic themes of molecular drivers of cancer, cancer heterogeneity, cancer physiology, and preclinical therapeutics and diagnostics, outlined in the CSHL-CC strategic plan, and helps with the strategic goals of fostering research in spatial biology and promoting translational research. The Program focuses on elucidating how signaling, metabolic, and neural pathways, both within tumors and across organ systems, shape cancer biology and treatment response. Notable scientific accomplishments include: 1) identification of previously unrecognized signaling vulnerabilities in pancreatic cancer and acute myeloid leukemia; 2) development of therapeutic antibodies against the PTPRD oncoprotein; 3) discovery of a novel cell death mechanism in prostate cancer; 4) elucidation of resistance pathways to metabolic therapies; 5) demonstration of immune-mediated mechanisms by which stress promotes metastasis; and 6) discovery of a hippocampal neural circuit that drives circadian disruption and immune evasion in cancer. The Program is organized around three interrelated research aims that span molecular, cellular, and systemic levels of cancer regulation. First, CCC members are defining critical signal transduction pathways that govern tumor behavior and are developing targeted therapeutic strategies that include click chemistry platforms, protein degradation technologies, biologics, and cell-based therapies. Second, the Program seeks to determine regulatory mechanisms of tumor metabolism, focusing on redox balance, lipid transport, and vitamin-related pathways. Third, CCC investigators examine how cancer is influenced at the organ and organismal level by the central and peripheral nervous systems. Ongoing interdisciplinary projects are identifying how stress, aging, circadian rhythms, and sleep shape tumor biology and immune response, and how direct interactions between tumor cells, neurons, and glial cells like microglia contribute to cancer progression. The Program includes 17 members. During the current funding cycle, CCC investigators have produced 125 publications. Of these, 29 (23%) arose from intra-Programmatic collaborations, 39 (31%) from inter-Programmatic collaborations. In addition, 65 (52%) were published in journals with an impact factor greater than 10, 101 (81%) involved collaborators at other institutions, and 57 (46%) involved collaborations with other NCI-designated cancer centers. CCC members are supported by 19 R01-equivalent grants held by 11 members. Cancer-relevant, peer- reviewed funding increased from $4M in 2020 to $5.5M in 2025, and NCI funding increased from $2.5M in 2020 to $2.9M in 2025. Collectively, CCC's integrated research efforts are uncovering fundamental mechanisms of signaling and tumor-host interactions in cancer, laying the foundation for new therapeutic strategies."
+ },
+ {
+  "id": "40b91907-84cc-42da-a3ee-bd35bca031b6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanism and application of sugar-induced phage production by the probiotic gut symbiont Lactobacillus reuteri",
+  "text": "Our proposal is relevant to human health as we aim to understand the mechanism how diet\nimpacts the bacteriophage-microbe interactions, which we will exploit to promote colonization of\na probiotic, and to deliver therapeutic proteins to ameliorate diet-induced fatty liver disease."
+ },
+ {
+  "id": "40bb69ca-771e-40e2-9466-de15f9066796",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dynamic Circadian Regulation of the Blood-Brain Interface in a Human Brain-mimicking Microfluid Chip",
+  "text": "Cerebral microbleeds (CMBs), which cause blood to leak across the blood-brain interface (BBI)\nand form clots within brain tissue, are pervasive in aging, dementia, and numerous other brain\ndisorders. CMBs are strong predictors of stroke, one of the most wide-spread and debilitating brain\ndisorders, whose higher incidence in the early morning and evening suggests vulnerability of the\nBBI to circadian dynamics. Novel integrative approaches developed under this award to probe the\nroles of circadian timing in neurovascular coagulation will contribute therapeutic strategies for\ndisease prevention or management, as well as promotion of health and well-being."
+ },
+ {
+  "id": "40c0b160-138c-4ea9-b1a3-3390b958644a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Protein Amyloid Formation and Inhibition Studied by Mass Spectrometry",
+  "text": "The formation of protein amyloid fibrils is associated with over 30 human\ndiseases, including Alzheimer's, Parkinson's, type II diabetes, and dialysis-related\namyloidosis (DRA), but the molecular details of how these amyloids begin to form are\nnot well understood, which limits our ability to treat these diseases. We intend to\ndevelop and apply new mass spectrometry based measurement tools that will yield new\nmolecular-level insight into the early stages of amyloid formation by β-2-microglobulin,\nwhich is the protein associated with DRA. This new insight combined with new\napproaches to screen for amyloid inhibitors will allow us to discover potential treatments\nfor DRA."
+ },
+ {
+  "id": "40c0d7dc-a160-4eba-9a3a-f2264d075ed1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "ReCARDO: Using Real-World Data to Derive Common Data Elements for Alzheimer's Disease and AD-Related Dementias Research Through Ontological Innovation",
+  "text": "We propose to create a collaborative national research network to empower and enrich NIA-funded studies\nthrough a growing semantic-rich Real-World Data ecosystem. The resulting harmonized, validatable, cross-\nsectional and longitudinal data resources will enable effective reuse of disparate and unaligned Real-World\nData to power collaborative research on Alzheimer's disease and AD-related dementias (AD/ADRD).\nUltimately, efforts from this project will accelerate the generation of new knowledge that leads to life-changing\nstrategies for the prevention, detection, management, and treatment of AD/ADRD."
+ },
+ {
+  "id": "40ce57fa-0613-453c-bbae-93f7e276a55f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Contributions of FGFR-Mediated Tumor-Stromal Interactions to Breast Cancer Growth and Progression",
+  "text": "The proposed studies focus on understanding the mechanisms through which activation of the fibroblast\ngrowth factor (FGF) / FGF receptor (FGFR) axis drives breast cancer growth and progression. This research is\nrelevant to human health because understanding the mechanisms driving tumor cell-stromal interactions\nduring the growth and metastasis of human breast cancers will ultimately lead to the development of novel\ntherapeutic strategies that will improve patient outcome by enhancing initial response, preventing resistance\nand reducing relapse."
+ },
+ {
+  "id": "40d1de48-4c35-4782-a2f1-90ead517ed08",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mining Cryptic Biosynthetic Gene Clusters for Novel Bioactive Compounds and Biocatalysts",
+  "text": "The soil-dwelling bacteria Streptomyces make numerous cyclic peptides that humans use as medicines. Analysis\nof the DNA of these bacteria suggests they have the potential to make many more, but they do not make them\nunder standard laboratory conditions. The objectives of this proposal are to 1) computationally predict these\ncyclic peptides, chemically synthesize them, and test them for interesting bioactivities and 2) to develop\nbiocatalysts to enable access to challenging to synthesize peptides, including strained cyclic tetrapeptides."
+ }
+]

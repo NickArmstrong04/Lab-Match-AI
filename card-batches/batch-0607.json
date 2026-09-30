@@ -1,0 +1,142 @@
+[
+ {
+  "id": "4bec4a21-154f-46fd-b376-bc8d7d1116c9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Vital Signs for Psychosis: Personalized Longitudinal Markers of Psychosis Severity Using Automated Speech and Language Analysis",
+  "text": "This study aims to develop personalized adaptive models using automated speech/language analysis to\ngenerate precise, objective markers of concurrent psychosis severity. Innovative computational approaches will\nextract speech and language representations and use deep learning as well as algorithmic approaches to\noptimize individual-level symptom prediction accuracy over time."
+ },
+ {
+  "id": "4bed626f-657c-4ad4-a156-29cc9747ff5c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Neural mechanisms of socially transmitted aggression",
+  "text": "The proposed research is relevant to public health and the current objective of the NIMH to elucidate the\nbrain mechanisms underlying affective and social processes such as aggression. The project is conceptually\nand technically innovative because it uses cutting-edge techniques to assess the neural pathways and\nmechanisms involved in socially transmitted aggression. This project addresses the priority of NIMH to conduct\nresearch on aggression and violence against others that will eventually lead to new diagnostic and\ntherapeutic strategies to manage pathological anger and violence."
+ },
+ {
+  "id": "4bf043d3-e0e9-408f-945b-f36d795e0bd0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Neuro-immune modulation of pain in health and disease",
+  "text": "Nociceptors are specialized sensory neurons which detect noxious stimuli. These neurons serve a vital\nprotective role in organisms at homeostasis, but pathologies leading to hyperactivation of nociceptors leads to\ndebilitating pain. This project will explore how the innate immune sensor STING regulates pain in steady-state\nconditions and in head and neck cancer. This project will substantiate STING pathway agonists as a\ntherapeutic strategy for cancer pain through bidirectional neuro-immune signaling. Completion of this project\nwill accelerate the translation of STING agonists as cancer pain therapy."
+ },
+ {
+  "id": "4bf10e00-3490-494a-9be1-976c244775f8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of a Trans-tympanic Endolysin for Noninvasive Treatment of Otitis Media",
+  "text": "Otitis media is one of the most common childhood infections and a leading global driver of antibiotic use. This\nproject will develop a noninvasive biologic that uses a naturally derived antimicrobial enzyme fused to a transport\npeptide to cross the intact eardrum and kill the Streptococcus pneumoniae that cause middle-ear\ninfections. Results could reduce antibiotic use and introduce a new strategy for treating infections behind intact\nbiological barriers."
+ },
+ {
+  "id": "4bf2587b-5cec-48e0-82a9-abf5963a5cc8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "WP2 - Define and Synthesize",
+  "text": "RESEARCH ABSTRACT Cancer Grand Challenges Connecting DNA Adducts, Unexplained Mutational Signatures, and Cancer Etiologies (CAUSE) Host Institution: University of California, San Diego Background: Genome sequencing of thousands of cancers has identified over 100 distinct mutational signatures—recurring patterns of somatic mutations that reflect mutagenic processes. While some have known causes, most—including key cancer-driving signatures—remain unexplained. These include endogenous ubiquitous age-associated signatures (e.g., SBS5), tissue-specific processes (e.g., SBS40), and geography-associated patterns likely linked to unknown environmental exposures (e.g., SBS12, SBS89). Biochemically, most somatic mutations arise from misrepair or replication across damaged DNA (i.e., DNA adducts). Cells experience tens of thousands of DNA adducts daily—from both endogenous metabolism and environmental exposures. While most are accurately repaired, some persist leading to permanent changes in the DNA sequence (i.e., somatic mutations). As a result, cancer genomes preserve a durable, but mechanistically obscured, record of genotoxic damage. Understanding the origins of unexplained mutational signatures requires identifying the initiating DNA adducts and dissecting how their formation, persistence, and processing shape mutational patterns. Aims: The Connecting Adducts, Unexplained Signatures, and Cancer Etiologies (CAUSE) project aims to mechanistically understand unexplained mutational signatures by systematically identifying specific DNA adducts and linking them to the mutations they generate. CAUSE will build a high-throughput discovery platform that integrates chemistry, biology, genomics and cutting-edge technologies. The project will focus on three mutagenic contexts: (1) endogenous processes underlying signatures like SBS5 and SBS40, (2) likely environmental exposures driving tissue- and geography-specific patterns like SBS12 and SBS89, and (3) chemotherapy-induced DNA adducts, which will be used as a controlled benchmark. The proposed approaches are broadly applicable and will help uncover the origins of many unexplained mutational signatures while advancing next-generation mutagenesis technologies such as a reimagined Ames test. Methods: CAUSE will integrate human tissue analysis with diverse experimental systems—including in vitro assays, cell lines, and mouse models—across seven coordinated modules: (1) mass spectrometry to detect diverse DNA adducts; (2) structural characterization via chemical synthesis and microcrystal electron diffraction; (3) genome-wide lesion mapping using Endo-seq, long-read sequencing, and polymerase-stalling enrichment; (4) single-molecule reporter assays of misrepair in defined repair contexts; (5) biochemical perturbations in Xenopus cell-free systems to dissect repair mechanisms; (6) genetic perturbations in animal models to dissect damage and repair pathways; and (7) interpretable AI to model how lesion features and repair status predict mutational outcomes. Impact: CAUSE will generate the first mechanistic atlas linking DNA adducts to mutational signatures. This foundational resource will enable causal attribution, clarify age- and exposure-related mutagenesis, and shift mutational signature research from observational to actionable—transforming cancer prevention, diagnosis, and care."
+ },
+ {
+  "id": "4bf2f39e-3373-4093-bff9-c4ab0a0a932c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A multimodal approach for precision immuno-oncology in lymphoma treated with CAR-T cells",
+  "text": "Cellular therapies, such as CD19-directed chimeric antigen receptor T-cells (CAR-T), are at the forefront of\nlarge B-cell lymphoma (LBCL) treatment, but the majority of treated patients will ultimately experience disease\nrecurrence or progression. This multidisciplinary study aims to better understand why CAR-T therapy\nsometimes fails, despite very promising results in some patients. We seek to understand how tumor genomic\ncomposition drives resistance to CAR-T and will synthesize clinical, molecular, and imaging data using\ncomputational tools to predict the likelihood of response to CAR-T and to identify biomarkers to personalize\npatient care."
+ },
+ {
+  "id": "4bf7acdd-ed81-472d-aad1-dad40cd532fe",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Selective treatment of acute myeloid leukemia with radioimmunotherapies targeting the active conformation of integrin beta-2",
+  "text": "Acute myeloid is a commonly-diagnosed blood cancer with an unfortunately poor prognosis for many patients.\nOur team has recently discovered a new therapeutic target for this disease and developed a new type of anti-\ncancer drug, called a radioimmunotherapy, that can attack this target and eliminate leukemia cells in a\npowerful but selective fashion. Here we aim to further test the anti-cancer effects, as well as possible toxicities,\nof this approach, with the goal of conducting a future clinical trial to benefit patients in need if results here are\nsuccessful."
+ },
+ {
+  "id": "4bfb7ab6-f4eb-456d-a665-388d42c1fb21",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "SIRT5 inhibitors and degraders as novel treatments for Ewing sarcoma",
+  "text": "The proposed studies are relevant to public health, because discovery of novel means to treat Ewing sarcoma,\nexerting fewer deleterious sequelae in survivors, represents a significant unmet need in pediatric oncology. This\nwork is thus relevant to NIH’s mission, in the context of supporting research to identify cures for human disease."
+ },
+ {
+  "id": "4c01cd84-3678-4747-92f4-a6a0967bb36e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Support for CryoEM and CryoET Development in the Ludtke Lab",
+  "text": "This grant works to improve methods for cryo electron microscopy and tomography, to image cells and\nmolecules at subnanometer resolution, 100-1000x finer than the best optical microscopes. This method can\ndirectly visualize processes like viral infection or cancer at a cellular level with sufficient resolution to see\nmolecular interactions. The methods developed here will help extend these methods to extract information\nabout not only static structure, but motion and interactions between molecules at the same high resolutions."
+ },
+ {
+  "id": "4c0f2150-959d-4811-85d6-47885a0c09ba",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Synaptic Mechanisms underlying sex-differences in alcohol use disorder",
+  "text": "Despite the relevance of the pro-stress corticotropin-releasing factor and norepinephrine and\nthe anti-stress nociceptin systems in the sexually dimorphic behavioral aspects of AUD, their\nsex-specific cellular mechanisms and interactions in the amygdala have not been fully\ndelineated. Thus, this proposal will elucidate the neuroadaptive changes induced by ethanol\ndependence and withdrawal in these systems in the amygdala. Identifying the potential\nneuroadaptations occurring with chronic alcohol is essential for the development of more\neffective targeted pharmacotherapeutics for treatment of AUD sufferers."
+ },
+ {
+  "id": "4c146586-08b5-4d30-a545-1da106ca215b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Neurodevelopmental Disorders: Mechanisms and Therapeutics",
+  "text": "Neurodevelopmental disorders affect one in six children in industrialized countries, yet effective treatments are\nlimited and the underlying mechanisms driving these conditions are still not well defined. This Keystone\nSymposia conference on Neurodevelopmental Disorders: Mechanisms and Therapeutics will span basic\nmechanisms to translational pipelines, examining biological and environmental contributors, exploring potential\ntherapies and highlighting innovative technologies that will advance these frontiers. By bringing together basic,\ntranslational and clinical researchers with patient advocates, the meeting will foster cross-disciplinary\ncollaborations across genetics, functional genomics, circuit neuroscience and therapeutic development, while\ntraining the next generation of researchers and advancing insights toward future clinical applications."
+ },
+ {
+  "id": "4c196740-3a99-4119-84c2-cebc369e1715",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identification of isoform-specific WT1 interaction partners",
+  "text": "Wilms’ tumor 1, or WT1, is an important regulator of kidney development and is critical for maintenance of the\nadult podocyte. Human mutations in WT1 lead to a spectrum of clinical phenotypes including heavy proteinuria,\nprogressive kidney dysfunction, risk of Wilms tumor and gonadoblastoma, and disorders of sexual differentiation.\nAlthough the downstream transcriptional targets of WT1 have been the subject of prior studies, our\nunderstanding of the factors that modulate WT1 function is poor. In addition, there are at least 36 WT1 isoforms\narising from alternative splice sites, and the distinct cellular roles of these isoforms are not well understood. The\naim of this proposal is to apply proteomic and cell biology techniques to identify WT1-interaction proteins, study\nhow these interactions are disrupted with WT1 patient variants, and to elucidate the differential functions of two\nmain WT1 isoforms. These studies will provide a better understanding of WT1 biology and could lead to the\ndevelopment of novel therapeutic strategies for patients with WT1-related kidney disease."
+ },
+ {
+  "id": "4c1a80a1-1ec6-4113-bfd6-70c5f502bf97",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Single-molecule nanopore-based identification of methylome signatures in cfDNA for early colorectal cancer detection",
+  "text": "Early detection of cancer is challenging due to poor adherence to screening schedules and poor sensitivity of\nexisting methods. Using novel techniques for non-invasive detection of cancer, we will sequence epigenetic\nsignatures found in the cell-free DNA found in the plasma fraction of blood. Using a combination of cell-free DNA\nfrom patients with a cancer diagnosis and pre-diagnostic plasma from the PLCO Screening Trial, we will\ndetermine the overall benefit of our new technology."
+ },
+ {
+  "id": "4c1edcfe-971e-435e-9e0b-a0c89eff85ad",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Clock Control of Muscle Glucose Metabolism and HIF Activity",
+  "text": "The widespread incidence of metabolic disease, including obesity and type 2 diabetes mellitus, has become a\nmajor global public health challenge. Evidence suggests that disrupted sleep and feeding cycles, common in\nshift and night workers, increase susceptibility to these disorders. In turn, metabolic diseases and aging can also\ndisrupt circadian rhythms. The goal of this proposal is to advance our understanding of the bidirectional link\nbetween circadian rhythms and nutrient stress in obesity, a condition marked by muscle wasting, glucose\nintolerance, and weakness, especially in older individuals. We propose to test whether muscle circadian\ndisruption obesity and aging impairs adaptation to nutrient stress through regulation of the hypoxia inducible\nfactor pathway, accelerating the loss of muscle mass, regenerative capacity, and function."
+ },
+ {
+  "id": "4c23c28d-bab4-4424-b614-4f2b78bf2902",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Inhalation Delivery of Exosome and microRNA Therapy for Lung Fibrosis",
+  "text": "Pulmonary fibrosis is characterized by formation of fibrotic lesions in the lung, eventually resulting in scarring\nand progressive loss of lung function, and despite some newer treatments patients still have a median survival\nrate of only 3-5 years once diagnosed. Inhalation of exosomes derived from stem cells offers a promising\ntherapeutic strategy by promoting endogenous repair and mitigating pulmonary fibrosis. Here in this proposed\nstudy, we plan to establish the therapeutic role of lung stem cell-derived exosomes in treating pulmonary\nfibrosis and determine the active principal microRNA contents in the exosomes that responsible for the\nregenerative activities."
+ },
+ {
+  "id": "4c278497-061a-483e-9af8-ba2ccec09a69",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cell Biology Core",
+  "text": "The Cell Biology/Morphology Core provides BADERC investigators with technical support, equipment, advice and expertise for cell biological, immunocytochemical and morphological studies related to cell/membrane biology and signal transduction; cellular immunology and islet cell biology; and vascular and endothelial cell biology. The Core is located within the MGH Program in Membrane Biology facility on the 8th floor of the Simches Research Center, which is adjacent to the MGH main campus. The Core Director, Dr. Brown, is an expert in the area of membrane biology, membrane proteins, and intracellular trafficking. He has a long and well-documented track record of operating Core facilities at MGH over the past 25 years, including this BADERC Core for over 20 years. The goal of this Core is to provide access to integrated cellular imaging solutions and related expertize for problems in Diabetes and other BADERC-targeted research areas that few or no isolated laboratories have the resources to develop individually. The Cell Biology Core is designed, therefore, to maximize the use and availability of specialized pieces of equipment, that are not only prohibitively expensive for many laboratories, but that also require expensive and regular maintenance, and appropriate technical expertise to use. The Core performs all aspects of microscopy from routine immunofluorescence imaging, confocal microscopy, and (immuno)electron microscopy. The Core is especially proud of its record in successfully attracting NIH Shared Instrumentation Grants (SIGs) and institutional support over the years. With support of Core users, we have obtained 6 SIGs in little more than 12 years, the most recent of which was a $450K award in 2016 for a new Zeiss LSM800 Airyscan confocal platform that offers high sensitivity/high resolution imaging and analysis capabilities to BADERC users. Our other major confocal platform, a Nikon A1R confocal system, offers real time imaging in a temperature controlled chamber, fluorescence resonance energy transfer (FRET) and fluorescence recovery after photobleaching (FRAP) and a SIG (for $300K) that was submitted in May 2021 to request major upgrades received an outstanding score of 20 and should be funded. We also offer laser cut microdissection and total internal reflection imaging. We also offer routine embedding and sectioning, and basic immunofluorescence incubation expertize. A major and important objective of the Core is to provide training of key personnel from participating laboratories, a strategy that has worked very successfully over the prior funding periods. Dr. Brown and his highly-qualified technical support staff have well-established and proven procedures for maximizing Core use in the context of varied projects and specific experimental requirements. We pay special attention to quality control procedures for image capture and analysis, and we have protocols for antibody verification to comply with current Rigor and Reproducibility standards. The bottom line is that this Core continues to work smoothly, as in the past. Its use has resulted in several hundred publications over that time that contain images taken by Core staff, or by trained users, including over 90 in the previous BADERC funding period. We expect this to continue and increase based on the usage proposed in this application."
+ },
+ {
+  "id": "4c2ad8d4-e52c-4de6-9bc3-f67086b6b182",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Therapeutic Targeting of WDR5 in the Glioblastoma Perivascular Niche",
+  "text": "Glioblastoma (GBM) is the most common malignant primary brain tumor and among\nthe most lethal due to their recurrence and therapeutic resistance. These properties are associated with a GBM\nstem cell (GSC) fraction present within distinct microenvironmental niches of the tumor and we have identified\nthe protein WDR5 as specifically essential for GSCs to grow and maintain stem-cell-like biology in GSC-rich\nniches of GBM tumors. The successful completion of this proposal will yield an understanding of the roles of\nWDR5 in GBM niche biology and an appraisal of the therapeutic efficacy of inhibiting WDR5 in GBM."
+ },
+ {
+  "id": "4c3bff9a-4bbb-4b7d-aa12-f56931ab9578",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Comprehensive characterization of immune signaling networks in single-cells by joint quantification of proteins, protein complexes and mRNA",
+  "text": "This proposal describes the improvement and adaptation of a high throughput single cell analysis\ntechnology for simultaneous and multiplexed measurement of proteins, protein complexes and mRNA in\nthousands of individual cells, and studying key hypotheses on the development and signaling in hematopoietic\nstem cells and germinal center B cells. We will characterize thousands of key protein species regulating pro-\ninflammatory signaling responses and development in cells from the hematopoietic lineage and the germinal\ncenter, and combine this data with mathematical modeling and live-cell imaging to understand mechanisms\nunderlying signal-specific gene regulation, variability and dynamics. Our practical and broadly applicable\ntechnology will rapidly and quantitatively evaluate a vast space of proteomic states, generate improved insight on\nthe signaling and evolution of immune networks, and make a substantial impact into understanding and modeling\nof infection, autoimmunity, immune development and emergence of drug resistance."
+ },
+ {
+  "id": "4c47a002-7574-4f2a-b37f-3e44188a4ddd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of AI-Assisted digital twin system for phonosurgery",
+  "text": "Phonosurgery is designed to improve and restore the voice, often through mechanical correction of laryngeal\nconfiguration. Although the procedures usually result in vocal improvement, optimal treatment still remains a\nchallenge. In this project, we propose to develop an innovative AI-enabled digital twin algorithm, which will\nrealize a first-of-its-kind computer model that can represent participant-specific physiology and anatomy and\nprovide high-precision prediction for simulation-assisted phonosurgery."
+ },
+ {
+  "id": "4c502316-caed-4a73-9586-90b0e2fcc6ac",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Revealing environmental chemical exposome in a diverse prenatal population and relationships to maternal and perinatal health (REVEAL)",
+  "text": "relationships to maternal and perinatal health (REVEAL)\nOur proposal builds on our original R01 by advancing analytical chemistry and computational techniques to\ncharacterize more fully the prenatal chemical exposome and its links to adverse maternal and perinatal health\noutcomes. For our renewal project, we propose to expand our study population by analyzing an additional 750\n2nd trimester pregnancy samples, 300 of the samples matched to our original 3rd trimester samples and use an\nimproved nontargeted analysis workflow to identify and quantify novel exogenous and endogenous chemical\nexposures. We will use new computational approaches to quantify concentrations of ~500 chemicals and\nevaluate relationships between multiple exogenous chemical exposures, endogenous effect biomarkers, and\nmaternal and perinatal health outcomes, focusing on gestational diabetes and adverse pregnancy outcomes,\nproviding unprecedented data to inform public health interventions to prevent harmful chemical exposures."
+ }
+]

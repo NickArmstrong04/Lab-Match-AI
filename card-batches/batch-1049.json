@@ -1,0 +1,142 @@
+[
+ {
+  "id": "e7f94989-ecc1-47d6-b168-5547b231b67e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project III - Systems Functional Genomics Mechanisms of Congenital Heart Diseases",
+  "text": "PROJECT SUMMARY/ABSTRACT – Project 3 Our long-term research goal is to improve disease prevention and intervention by integrating functional genomics/bioinformatics and data sciences to enhance biomedical research, focusing on congenital heart disease/defect (CHD). CHD is a major cause of early mortality and lifelong disability, primarily influenced by genetic and environmental factors, with incidence that varies across population characteristics. The cellular and molecular factors and mechanisms underlying the etiology of CHD remain elusive. Despite the advances in clinical care and research allowing for 97% of CHD children to survive into adulthood, severe CHD rates have not declined over the last fifty years, and it is estimated that only about half of CHD cases have a genetic cause identified. These indicate a significant gap in our knowledge and a need for more research in CHD genetics and cellular molecular pathology. Previous reports and our preliminary study show that children with particular genetic characteristics have significantly higher rates of severe or cyanotic CHDs compared to the those without; and compared to milder CHD types, subjects with severe CHD have a significantly higher risk of major adverse cardiovascular events (MACE) and comorbidities like diabetes. However, the underlying molecular mechanisms remain to be delineated. To bridge these gaps, we will leverage high-dimensional genotype-phenotype and multiomics datasets and comprehensive electronic health records from NIH-sponsored programs such as Pediatric Cardiac Genomics research programs PCGC/Kids First, and All of Us, a nationwide community participants-based precision health research program. In Aim 1, we will apply advanced computational genomics, bioinformatics, and data science technologies, including machine learning (ML), to identify genes and molecular pathways associated with CHD, particularly focusing on severe subtypes. We will verify the pathophysiological impacts of putative CHD gene mutants, by using high-throughput cardiac cell functional assays in unique human induced pluripotent stem cell-derived cardiomyocyte (hiPSC-CM) models using robust multielectrode array (MEA) platforms. The project will also dissect cross-species functional genomics mechanisms of CHD genes using phenotype-genotype datasets covering a large repository of knockout mouse models (Aim 2). Throughout the project, we will integrate genome- and transcriptome-wide association analyses with machine learning and other computational genomics and data science (CGDS) technologies. This project will uncover key genetic factors and their enriched network pathways in CHD, significantly advancing our understanding of cellular and molecular mechanisms. The insights gained will contribute to precisely targeted strategies for CHD consultation, prevention, and treatment."
+ },
+ {
+  "id": "e7f9cef0-a09a-40f8-b60f-add2c7898ef8",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Texas Laboratory Flexible Funding Model: Enhancing the Capacity and Capability of Human Food and Environmental Testing",
+  "text": "Enhancing the Capacity and Capability of Human Food and Environmental\nTesting at the Texas Department of State Health Services\nProject Narrative\nWith this funding opportunity, the Texas Department of State Health Services (DSHS) Public\nHealth Laboratory Division (PHLD) intends to use funds to maintain and build our capabilities\nand capacity for microbiological, radiochemistry and chemistry based food testing and\nemergency response to improve the overall national safety of our food supply and public health.\nTexas DSHS seeks to continue participation in Microbiology and Radiochemistry project tracks,\nand to add new inorganic testing via the Chemistry – Food Defense track. In addition to\nimproving DSHS ability to monitor and respond to food supply threats, this cooperative\nagreement will enhance collaborations with our federal partners and improve data exchange."
+ },
+ {
+  "id": "e7fcafae-b049-4b88-861d-3e721ee0b5b1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Genetic Analysis of Hypoxic Stress Resistance",
+  "text": "Hypoxia (O2 deprivation) plays a central role in a diverse array of human diseases, including ischemic stroke,\nmyocardial infarction, traumatic brain injury, spinal cord injury, pulmonary hypertension, Cerebral Palsy,\nCOVID-19, and cancer. Our tissues respond to hypoxia by employing a conserved hypoxia response pathway,\nyet we have a poor understanding of how this response combats hypoxic damage. An understanding of how\nthis pathway operates (including identifying its regulatory targets) will facilitate the development of novel\ntreatments and biomedical applications for disorders and diseases that involve hypoxia as part of their etiology;\nthese disorders and diseases span the fields of general medicine."
+ },
+ {
+  "id": "e7fea1c3-e5fe-406e-9115-5a87087675d3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "ExpLoiting thErapeutic VulnerAbilities in hepaTocEllular carcinoma (ELEVATE)",
+  "text": "OVERALL: NARRATIVE\nThe P01 proposal ExpLoiting thErapeutic VulnerAbilities in hepaTocEllular carcinoma (ELEVATE) aims\nto interrogate molecular mechanism of hepatocellular carcinoma (HCC) arising from obesity-induced non-\nalcoholic steatohepatitis (NASH) and evaluate a variety of combinatorial treatment options, based on\nunderlying molecular abnormalities, using an authentic NASH-HCC mouse model. The studies will generate\ntranslationally relevant data from preclinical models having the potential to significantly impact the\nmanagement of HCC patients, facilitating prolonged survival."
+ },
+ {
+  "id": "e809faef-6939-4a3b-a949-73756ab5f02b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Acquisition of a VS200 slide scanner equipped with automatic loader and structured illumination",
+  "text": "Slide scanning microscopy is an essential service provided by the Integrated Microscopy and Imaging\nLaboratory. A VS200 Slide Scanner equipped with automatic loader and near confocal z-resolution optical\nsectioning capability is a critically essential addition to the instrumentation available to NIH-funded users of the\nCore Facility, aiming to enhance the support for the NIH-funded research by providing state-of-the-art imaging\ncapabilities. Thus, the proposed research is relevant to the part of NIH’s mission pertaining to the development\nand investment in scientific infrastructure, enabling the university to further strengthen the critical support for\nNIH-funded research"
+ },
+ {
+  "id": "e80f82f6-fe4d-482a-85e0-8d17db7cda01",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating the Genetic and Epigenetic Control of Basal Cell Identity",
+  "text": "Basal cells are progenitor cells for multiple organs of the body that differentiate into specific cell types for each\norgan. In this study, I aim to investigate how genetic and epigenetic mechanisms determine the specificity of\nthese differentiation programs in basal cells of the airways in the lung. Specifically, I plan to target genetic and\nepigenetic modifiers in mouse airway basal cells to identify potential targets that prevent abnormal differentiation\nand associated organ dysfunction and diseases."
+ },
+ {
+  "id": "e814a42e-5e54-4273-a9d2-18d11f1424e6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Ikaros regulation: study on hemo-lymphopoiesis",
+  "text": "Studies on the epigenetic mechanisms by which IKAROS and its family members control the choice of cell\nfate from the early steps of hematopoiesis to late stages of lymphocyte differentiation continue to make\nground-breaking contributions to basic lymphocyte biology. We study how the genome is configured to\nsupport normal development of the hematopoietic system, how this is perturbed when IKAROS is removed,\nand whether the pathological consequences of IKAROS loss at the cellular and molecular level can be\nreversed by restoration of IKAROS function. Understanding how lineage-specific chromatin-based regulatory\nmechanisms support normal developmental progression and how they are perturbed by IKAROS loss will\ncontinue to contribute to the diagnosis, prognosis, and treatment of a wide range of hematological and\nimmune cell diseases and holds potential for improving immune cell-based therapies."
+ },
+ {
+  "id": "e814b04f-2780-4583-98cb-567f02cc071d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Biostatistics and Research Design Shared Resource",
+  "text": "BIOSTATISTICS AND RESEARCH DESIGN SHARED RESOURCE: ABSTRACT The Biostatistics and Research Design Shared Resource (BRD SR) plays a critical role in research activities at the Stephenson Cancer Center (SCC) through supporting biostatistical and research design needs for SCC members. The BRD SR is directed by Sara Vesely, PhD (CPC) and co-directed by Daniel Zhao, PhD (CT), and has seven PhD-level faculty and six staff. The BRD SR provides biostatistical and research design assistance for a variety of projects, including basic science experiments, meta-analyses, secondary data analysis, genetic data and bioinformatics analysis, observational studies, qualitative studies, community research, pilot trials, randomized clinical trials, and phase I investigator-initiated trials (IITs). Major consultative services provided by BRD SR faculty include assistance with refining aims and outcomes, appropriate study design selection, data collection planning, development of statistical analysis and data monitoring plans, creation of random allocation schemes, sample size calculations, and grant preparation. The BRD SR is a cost-efficient resource to assist SCC members in a timely manner, free of direct charge, through project conception, development, grant writing, implementation, analysis, and manuscript writing. Services can be accessed online via the SCC / BRD SR webpages, with an online service request form. BRD SR faculty and staff have a diverse set of expertise, including database creation and management, research design, biostatistical analysis, statistical genetics analysis, geo-spatial methods, sampling strategies and weighting, data monitoring, and grant writing. In 2021, 57 total SCC members utilized the BRD SR, accounting for 73% of BRD SR usage. SCC members with peer-reviewed support (n=41) accounted for 53% of the total usage. In 2021, the BRD SR supported over 140 cancer-focused SCC projects (ongoing grants, IITs, and other projects) and 105 grant submissions (submissions and resubmissions). From 2017 to 2021, the BRD SR provided biostatistical consultation services to 80 full and associate members across all three SCC programs. The number of SCC member users has steadily increased each year – 36 (2017), 44 (2018), 46 (2019), 50 (2020), 57 (2021) – a 58% increase in annual SR usage from the beginning to the end of the reporting period. Future plans are focused on the addition of faculty (2-4) and staff (2-4) biostatisticians over the next five years, expertise to be determined by SCC strategic growth and needs, and to be recruited in partnership with the Department of Biostatistics and Epidemiology."
+ },
+ {
+  "id": "e8182f60-a5dd-4f77-b1d5-a7564074fb2f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Characterizing the role of endogenous nociceptin opioid release from the central amygdala in reward outcome encoding",
+  "text": "Disease progression of substance use disorder (SUD) can be modeled through progressive aberrant changes\nin reward processing. However, many of basic mechanisms regulating the reward neurocircuitry later disrupted\nin SUD remain unknown. The goal of this proposal is to isolate the role of endogenous nociceptin opioids\nreleased by the central amygdala during reward processing, thus providing insight into how endogenous opioid\nsystems regulate reward circuitry and therefore identify neural populations susceptible to SUDs."
+ },
+ {
+  "id": "e81df204-8a99-4d41-bb91-2e0024ea9012",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Whole Individual Comprehensive KnowlEDge: Somatic Mosaicism across Human Tissues (WICKed SMaHT)",
+  "text": "(max 3 sentences)\nIndividual cells of the human body continuously experience DNA damage and accumulate somatic\nmutations throughout life, and specific mutations may alter the phenotype of a cell through diverse\nmechanisms. Characterization of somatic mutations across diverse tissues from many individuals will\nimmensely enhance our ability to understand the impact of somatic mutations and discover novel aspects\nof human biology. As a Genome Characterization Center (GCC) for the SMaHT program, we will\ncontribute to the characterization, and creation of a resource catalog of somatic variation across human\ntissues at scale."
+ },
+ {
+  "id": "e81e3e1a-fcdb-4484-a184-fb1f4b978dfe",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A Xenopus Laevis Research Resource for Immunobiology",
+  "text": "The overall objective of this renewal application is to safeguard and promote the frog Xenopus laevis, as\nan important non-mammalian comparative model for biomedical research in general as well as for\nfundamental and medical immunology. We are proposing to continue the maintenance and the development\nof this unique non-mammalian research resource facility that includes inbred and transgenic animals,\nreagents, protocols, information and training opportunity for biomedical research for the benefit of the whole\nscientific community."
+ },
+ {
+  "id": "e8223a82-8c9f-445b-a640-9e85d5debf3c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Genetic Epidemiology of Sleep Apnea and Comorbidities in Biobanks",
+  "text": "Sleep apnea and insomnia, the two most common sleep disorders, are thought to be comprised of distinct\nsubtypes, which remain poorly defined and may contribute differently to the risk of cardiopulmonary,\nmetabolic and psychiatric diseases. Current critical gaps in our understanding and treatment of SA and\ninsomnia include reliable phenotyping of sufficient participants to discover additional genetic associations and\nidentifying clinically diagnosed sleep apnea and insomnia subtypes that lead to increased risk of disease. This\nproject will address these challenges by discovering novel genetic associations with sleep disorders, resolving\ndisease heterogeneity, and helping to clarify the overlap of SA and insomnia with other diseases, with a goal of\nimproving the treatment of heart, lung, blood, and sleep disorders."
+ },
+ {
+  "id": "e8243b5c-9525-4822-9f74-4e18f2aff514",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "In Vivo GSM Mimicry as a Platform to De-Risk Alzheimer's Therapeutics",
+  "text": "This project will develop a genetic platform to determine how therapeutic modulation of g-secretase can be\nsafely separated from its toxic inhibition in Alzheimer’s disease. By defining the molecular and cellular\nconsequences of these two states in vivo, the study will provide the mechanistic foundation needed to design\nsafe, effective treatments for dementia."
+ },
+ {
+  "id": "e82491f7-6c39-4017-90ef-ed810c0661f7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeted genetic engineering of B cells to induce protective antibody responses to pathogens",
+  "text": "This research will develop scalable and cost-effective gene therapy to elicit directed immunity against pathogenic\nrespiratory infections which impact tens of millions of patients worldwide. We are proposing to use gold\nnanoparticles to deliver precise genetic insertion of protective monoclonal antibodies against viral pathogens in\nimmune cells and repopulating hematopoietic stem and progenitor cells. This single step approach combines\nthe latest CRISPR delivery technology with a new strategy to direct adaptive immunity to pathogenic infections\nfor which standard vaccination approaches have had limited to no success."
+ },
+ {
+  "id": "e8270782-b5df-4e75-b925-074b5700560d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Next-Gen Oncosurveillance: Wireless Multi-Function Microscopy of In Vivo Brain Cancer Dynamics",
+  "text": "The proposed research is relevant to public health because imaging tools that can simultaneously characterize cancer\ncell behavior, oncogenic activity and blood vessel remodeling in vivo will provide invaluable insights into brain cancer\ninitiation, invasion, and spread. This research aligns with the NIH’s mission because understanding the molecular\nmechanisms behind brain cancer cell migration and its interaction with the brain’s blood vessels is crucial for developing\nnovel therapies that inhibit these processes and improve survival of patients with aggressive brain cancer."
+ },
+ {
+  "id": "e8290c94-c37b-439a-91d4-0e189fa5c841",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Tools and Resources to Understand Pathophysiology with Post-Mortem Studies of in vivo Neuroimaging Findings in AD and ADRD",
+  "text": "The objective of this workshop is to advance postmortem research in Alzheimer’s disease (AD) and related\ndementias by fostering the development and sharing of novel ideas, innovative tools, and digital resources. It\nwill provide a platform for comprehensive discussion of research findings, evidence-based data, investigational\ndevices, and analytic methodologies. A key aim is to strengthen interdisciplinary collaboration and partnerships\nwhile raising awareness among young investigators and trainees about the critical yet understudied area of\npostmortem imaging and histopathology in dementia research."
+ },
+ {
+  "id": "e832295d-3245-4672-9c3a-9401c89dae9c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The critical role of PUS1-mediated mRNA Ψ modification in leukemogenesis",
+  "text": "Acute myeloid leukemia (AML) is one of the most common acute leukemias stemming from genetic alterations\nin hematopoietic stem/progenitor cells (HSPCs). Here, we will uncover a novel role of PUS1 in AML\ndevelopment and maintenance as well as leukemia stem cell self-renewal. This study will not only advance our\nunderstanding of the complex mechanisms underlying leukemogenesis but also contribute to the growing field\nof RNA epitranscriptomics and its implications in the pathogenesis of AML."
+ },
+ {
+  "id": "e83398c9-742c-4782-b1b2-c5dc63e7cd71",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Summer Research Experience in Environmental Health (SREEH)",
+  "text": "The proposed summer research training program will introduce undergraduate students in Connecticut (CT) to\nfive key research areas in environmental health: AI and data-driven approaches, technological innovation in\nenvironmental monitoring, advances in toxicology and exposure science, the role of early-life environmental\nexposures in disease development, and green chemistry and sustainable technologies. This hands-on\nexperience will inspire students to pursue higher education and careers in the environmental health sciences."
+ },
+ {
+  "id": "e841f6bf-6e0b-4ebc-a8af-887a6ad5e674",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Photoacoustic molecular imaging for planning of neoadjuvant antibody-drug-conjugate treatment of triple negative breast cancer",
+  "text": "Antibody-drug conjugate (ADC) therapies have shown tremendous promise as alternative treatments for triple-\nnegative breast cancer (TNBC). However, ADC approaches remain limited as there currently exists no optimal\nway to non-invasively and comprehensively quantify target-receptor expression. To address this critical need,\nwe propose the development of Ps-ICGJ – a molecularly targeted, dye-containing, polymersome-based contrast\nagent – for the planning and monitoring of ADC therapy for TNBC using molecular photocoustic imaging."
+ },
+ {
+  "id": "e848eb58-2c5a-4692-b4fd-817ea6b12bc8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Ribosomal Frameshifting in HIV-1 Infection, Inflammation and Neurotoxicity",
+  "text": "Human immunodeficiency virus (HIV-1) infection can lead to Acquired Immune Deficiency Syndrome (AIDS) and\nHIV-Associated Neurocognitive Disorder (HAND). Programmed ribosomal frameshifting (PRF) is a key event in\nHIV-1 replication that allows the synthesis of viral enzymes. We propose to study the regulation of HIV-1 PRF\nand determine the roles of ribosomal frameshifting in HIV-1 replication and pathogenesis. Upon conclusion, this\nresearch will provide innovative interventions for the treatment of HIV-1 infected individuals."
+ }
+]

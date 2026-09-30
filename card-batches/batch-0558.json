@@ -1,0 +1,142 @@
+[
+ {
+  "id": "3a0df5f0-1e3e-4aa5-a4d5-2906d5e7669f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Pax2 functions in postnatal retinal and optic nerve astrocytes",
+  "text": "Relevance\nThis research advances understanding of ocular astrocytes, namely retinal astrocytes that\nsupport RGC axon and retinal vascular health; and those within the optic nerve that stimulate\noligodendrocyte to myelinate the optic nerve. This study specifically informs mechanisms of\nmorning glory disc anomaly, optic disc atrophy, optic neuritis, glaucoma and more generally\ndemyelinating diseases like multiple sclerosis. This project is well aligned with the National Eye\nInstitute emphasis area \"from genes to disease mechanisms\"."
+ },
+ {
+  "id": "3a101d32-ffb4-435a-b853-fafdbbbb0f15",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "FLASHKNiFER at NextGen Precision Health",
+  "text": "The University of Missouri (Mizzou) seeks to overcome a critical technological gap in its advanced cancer\nresearch capabilities by acquiring the TheryQ FLASHKNiFE system, a dedicated ultra-high dose rate (UHDR)\npreclinical radiotherapy platform. This instrument is essential for investigating the transformative potential of\nFLASH radiotherapy (FLASH-RT), which promises significant normal tissue sparing while maintaining or\nenhancing tumor control, thus widening the therapeutic window. By leveraging Mizzou's unique institutional\nstrengths, including world-class faculty, the MU Research Reactor, the National Swine Resource and Research\nCenter, a top-tier College of Veterinary Medicine, and the state-of-the-art NextGen Precision Health building, the\nFLASHKNiFE will catalyze a portfolio of high-impact, NIH-funded research projects, positioning Mizzou at the\nforefront of translational FLASH-RT studies."
+ },
+ {
+  "id": "3a163a6f-c31e-406c-9728-cb103b66169d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of ligand discrimination by the T cell signaling machinery",
+  "text": "A network of signaling proteins convey and interpret information provided by T cell receptors to prevent human\ndisease. The emergence of T cell-based therapies provides impetus to define the regulatory mechanisms used\nby the T cell signaling machinery to process information. The proposed research will use new approaches to\ninterrogate the relationship between the regulation of signaling proteins and how a T cell perceives a potential\nantigenic agonist."
+ },
+ {
+  "id": "3a197de3-e6e9-4308-a806-10d0802e152c",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "eDyNAmiC - UCSD",
+  "text": "eDyNAmiC (extrachromosomal DNA in Cancer) Human genes are arranged on 23 pairs of chromosomes, but in cancer, tumour-promoting genes can free themselves from chromosomes and relocate to circular, extrachromosomal pieces of DNA (ecDNA). These ecDNA do not follow the normal “rules” of chromosomal inheritance, enabling tumours to achieve far higher levels of cancer-causing oncogenes than would otherwise be possible, and licensing cancers with a way to evolve and change their genomes to evade treatments at rates that would be unthinkable for human cells. The altered circular architecture of ecDNAs also changes the way that the cancer-causing genes are regulated and expressed, further contributing to aggressive tumour growth. These unique features make ecDNA-containing cancers especially aggressive and difficult to treat. Cancer patients whose tumours harbour ecDNA have markedly shorter survival. Despite being first seen over fifty years ago, the critical importance of ecDNA has only recently come to light, and the scale of the problem is substantial. ecDNAs are present in nearly half of all human cancer types and potentially up-to a third of all cancer patients. The collective current understanding of how ecDNA form, how they function, how they move around the cell, how they evolve to resist treatment, how they impact the immune system, and how they can be effectively targeted are lacking. We bring together an internationally recognized, pioneering interdisciplinary team of cancer biologists, geneticists, computer scientists, evolutionary biologists, mathematicians, clinicians, and patient advocates to boldly create novel insights and resources and to provide transformative solutions to one of Cancer’s Grand Challenges. A core team of experienced and productive ecDNA investigators will work with new investigators in the ecDNA and cancer fields to bring completely new perspectives and approaches to this daunting challenge. By bridging cutting-edge and diverse approaches and insights from cancer genomics, yeast genetics, epigenomics, artificial genome synthesis, longitudinal patient tracking, combinatorial and machine learning algorithms, mathematical modelling, immunobiology, and innovative chemistry we will develop a new understanding of the role of ecDNA in cancer, and we will find new ways to drug the undruggable. This bold programme, which consists of 7 work packages and a committed international infrastructure, generates new and unusual collaborations that would simply be impossible under any other type of funding mechanism. Our programme endeavours to foster bold innovative solutions to one of the hardest problems in cancer and to one of the greatest challenges facing cancer patients."
+ },
+ {
+  "id": "3a1bd0c0-42bf-4f02-b7ea-c595c1995e25",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Prospective Practice-Oriented Research Project: Predicting hospitalization and disengagement with automated speech and language analysis",
+  "text": "The goal of this prospective practice-oriented project is to develop a means for predicting rehospitalization and disengagement in coordinated specialty care (CSC) for psychosis. CSC has demonstrated efficacy in improving outcomes, yet challenges persist with rehospitalization and treatment disengagement. There is an urgent need for predictive tools that are scalable and efficient. Automated speech and language analysis holds several advantages: they are accurate markers of mental states related to psychosis, assessments can be conducted repeatedly and longitudinally, and little specialized equipment or training is required to collect necessary speech samples. The study will be conducted within the ESPRITO hub of the EPINET consortium, drawing upon the expertise of a multidisciplinary team in psychosis, early intervention, and natural language processing. Feature extraction will be approached through data-driven (Aim 1A/2A) and insight-driven (Aim 1B/2B) methods based on existing datasets. The existing data for Aim 1 will include 200 clinical notes describing individual participants’ early warning signs for psychosis relapse, and relevant data for Aim 2 will include 400 psychotherapy progress notes from the health records. Themes related to the outcomes of interest will be automatically identified using topic modeling. Features will be derived by calculating the semantic distance between the identified themes and the content of prospectively collected transcripts. In the insight- driven approach, the study team will review and interpret existing data in the context of prior work and clinical expertise; hypothesis-driven acoustic and NLP features will be identified and calculated. Prospectively collected speech data from psychotherapy sessions (n=150 participants; ~1200-1500 sessions) will then be used to develop and test predictive algorithms for hospitalization (Aim 1C) and disengagement (Aim 2C). The outcomes will be considered in a time-to-event setting as well as in a binary variable setting (hospitalization in 30 days & 90 days, disengagement in 90 days & 6 months). The primary analytic strategy for time-to-event outcomes will be based on regularized Cox regression, which allows for the selection of features significantly associated with hazard function for hospitalization or disengagement. Additionally, with a focus on improving prediction accuracy, machine learning-based survival and classification models will be considered (e.g. Deep Convolutional and Deep Recurrent Neural Network models: CNN-Surv & RNN-Surv). Speech and language features recorded from all sessions across all participants will be used. Training and testing for all models will be based on the standard 60%/20%/20% random split into training, validation, and test datasets. Key deliverables include the development of speech-based tools capable of identifying individuals at risk for rehospitalization and treatment disengagement in real-time, which enables timely interventions to mitigate adverse outcomes. Successful completion of this project could pave the way for future randomized clinical trials to evaluate the effectiveness of real-time implementation in improving outcomes within CSC."
+ },
+ {
+  "id": "3a1f7fc3-e26f-4c51-9df3-3782647c8e06",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Corrective editing to treat phenylketonuria",
+  "text": "Phenylketonuria (PKU) is an inherited disorder in which mutations in the phenylalanine hydroxylase (PAH) gene\ncauses a buildup of the amino acid phenylalanine in the body and, as a result, a variety of serious medical\nproblems. The most common PAH mutation identified in PKU patients, the R408W mutation, does not respond\nto a standard medical therapy. We seek to use two types of CRISPR gene editing technology, called base editing\nand prime editing, to directly and permanently correct the R408W mutation at the DNA level in the liver, a strategy\nthat could potentially cure a large number of PKU patients."
+ },
+ {
+  "id": "3a20c61c-ee04-46c4-8048-0e2ef9855cfe",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mapping and Modulating Endothelial Dysfunction in Peri-implantitis",
+  "text": "Peri-implantitis is a leading cause of dental implant failure, affecting nearly one in five patients and often resulting\nin irreversible bone loss. This project will uncover how blood vessel damages drives chronic inflammation in peri-\nimplant tissues and test whether existing drugs can repair vascular injury. The findings could lead to new,\ntargeted treatments that preserve implants, reduce the need for invasive surgery, and improve long-term oral\nhealth outcomes."
+ },
+ {
+  "id": "3a2165ac-4c2d-40ef-89ba-da4ece223eed",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A Genome-Wide CRISPR Screening Platform in Diploid Candida Albicans to Uncover Mechanisms of Antifungal Resistance",
+  "text": "Candida albicans is a significant pathogen that causes systemic infections characterized by high mortality rates and\nresistance to currently available antifungal drugs; yet, a fundamental understanding of fungal gene functions and\ncellular processes underlying antifungal resistance remains limited. This exploratory project aims to overcome key\nlimitations in high-throughput functional genomics by developing tools for efficient DNA transformation and high-\nthroughput, genome-wide CRISPR-based genome editing in C. albicans, followed by the application of these tools to\nidentify genes and associated pathways involved in resistance to antifungal treatments. This research will advance\nour understanding of gene-function relationships in C. albicans and related Candida species, uncover mechanisms\nunderlying antifungal resistance, and provide a foundation for developing strategies to combat multidrug-resistant\nfungi."
+ },
+ {
+  "id": "3a246013-77f6-4260-a7df-a720e90f67a2",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Predoctoral Training Program in Genetics",
+  "text": "The purpose of the Predoctoral Training Program in Genetics is to optimally prepare students in their PhD training in Genetics, to meet the challenging problems of genetics, genomics, bioinformatics and personal medicine, and to become leaders in the direction of new trends in Genetics research. Our mission for society is to generate scientists that can be at the forefront of Genetics research, who can in turn contribute to training and collaborating with physicians and other allied health professionals, and who can educate all members of society, who will increasingly need to understand genetic aspects of their own family’s health care and individualized genomes. With the pervasive implications of the individualized genome, including both the promises and the dangers of exploiting the information therein, the need to train competent PhD students is paramount."
+ },
+ {
+  "id": "3a27fa93-909a-48f7-aa32-5d6492ec7efb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Imaging and theranostics to detect and promote an immune reactive tumor microenvironment",
+  "text": "Our purpose in TR&D1 is to develop and validate novel translatable molecular imaging and theranostic agents to detect and promote an immune reactive tumor microenvironment (TME) that will be integrated into the research of multiple collaborative and service projects. Immune checkpoint inhibitors have provided some of the most exciting treatment outcomes for some cancers, but for nearly 80% of cancers the promise of cancer immunotherapy (CIT) has not been realized. Cancers have complex TMEs with an altered extracellular matrix, hypoxia and acidic extracelluar pH (pHe) that present a formidable barrier to immune cell infiltration and cancer cell killing. Non-invasive translatable imaging methods that provide spatio-temporal information on mechanisms that create barriers to CIT and provide novel theranostic strategies to improve the outcome of CIT are urgently needed to accelerate progress in this field. During the previous funding period we have made significant advances in multimodal imaging of the TME and siRNA theranostics that we have built upon and combined with our expertise in PET/MR imaging, chemical exchange saturation transfer (CEST), theranostics and CIT to design three aims that will identify a TME hostile to CIT, and provide novel theranostic approaches to overcome such an environment to facilitate CIT. We have focused on breast and pancreatic preclinical cancer models in these studies as these cancers have limited response to CIT. In Aim 1 we will develop novel PET and CEST MRI probes based on decorin to expand our understand of the spatio-temporal dynamics between collagen 1, decorin, hypoxia, pHe, and immune checkpoint PD-L1/PD-1 expression in syngeneic models of pancreatic and breast cancer using multimodal imaging. In Aim 2 we will develop and validate multi-modality imaging/multiplexed siRNA theranostics of myeloid derived suppressor cells (MDSCs) in the spleen and tumor to create an immune reactive TME in these tumor models. In Aim 3 we will develop hypoxia targeted NPs to deliver siRNA or PX-478 to downregulate HIF-1 in tumors to understand the effects of HIF-1 downregulation on PD-L1/PD-1 expression. The reagents and resources developed in the three aims will be incorporated in a push pull mechanism by the CPs and by the SPs to collectively advance progress in CIT."
+ },
+ {
+  "id": "3a2fa69a-a4b5-4d3b-99b5-eac4c0eaeb38",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting the evolving immunopeptidome of metastatic colorectal cancer",
+  "text": "Metastatic colorectal cancer (mCRC) cells exhibit an essential and unique fetal WNT-signaling\nsignature for dissemination and renewal, consistently observed across multiple patients despite varying\ngenomic mutations. Immunopeptidomic analysis of patient-derived organoids (PDOs), which provide a\nan effectively inexhaustive reservoir of clinically relevant cancer cells, reveals the presentation of\npeptides associated with fetal WNT signaling on the cell surface, offering insights into novel cancer\ntargets. Through detailed and comprehensive studies of PDOs, we aim to uncover the evolving\nimmunopeptidomes in advanced disease and the role of NDK1 in the establishment of metastases,\npaving the way for identifying T cell receptors for novel cellular therapeutic strategies."
+ },
+ {
+  "id": "3a306374-f0ba-41f7-b526-b08fba12a501",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating the functional roles of CTSH and PGM1 in beta-cells during autoimmune diabetes development",
+  "text": "Type 1 diabetes is caused autoimmune destruction of the pancreatic beta-cells, but currently there is no\ntherapy that can provide long-lasting improvements in beta-cell function. The aim of this project is to\nunderstand the mechanistic roles of two type 1 diabetes loci, CTSH and PGM1, in beta-cells. The proposed\nexperiments will inform us whether these gene products could be targeted to enhance endogenous beta-cell\nfunction in type 1 diabetes."
+ },
+ {
+  "id": "3a30a68f-8e1c-4130-a90c-4871143b5196",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Examining the role of epigenetic memory in intestinal regeneration",
+  "text": "The goal of this project is to characterize the transcriptional, epigenetic and functional changes that intestinal\nepithelial stem cells undergo during and after exposure to inflammatory granulomas that are generated during\nparasitic helminth infection. In the short term, the data generated in this study will reveal whether intestinal stem\ncells maintain an epigenetic memory of inflammation and will enable the identification of the signaling pathways\nand molecular regulators implicated in this process. In the long term, this work will improve our understanding of\nhow inflammation impacts intestinal stem cells’ function and enhance our knowledge of their role in inflammation-\ndriven diseases such as Crohn’s disease and ulcerative colitis."
+ },
+ {
+  "id": "3a3351e0-f833-41a8-853c-a1ab3bf994fd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project 2: Multimodal AI-based outcomes prediction in stage III NSCLC",
+  "text": "The standard of care for unresectable stage III NSCLC involves platinum-based chemotherapy combined with\nconcurrent radiotherapy, followed by durvalumab, a PD-L1 inhibitor (except for patients with EGFR mutation).\nHowever, over 50% of patients experience disease progression, and approximately 30% suffer from severe\nadverse reactions, such as pneumonitis, which highlights the pressing clinical need for innovative biomarkers to\npredict treatment outcomes and effectively manage pneumonitis risk. This project seeks to address this gap by\ndeveloping a novel radio-pathomic biomarker derived from chest CT and H&E images to (1) predict the likelihood\nof benefit from immune checkpoint inhibitor therapy for stage III NSCLC, (2) predict the risk of pneumonitis\nrelated to combined modality therapy and immunotherapy, and (3) link the radio-pathomic biomarker with ctDNA\nkinetics."
+ },
+ {
+  "id": "3a352e7e-c2f6-4eec-be2b-38fba482cece",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "DSPP signaling in dentinogenesis",
+  "text": "Dentinogenesis imperfecta (DGI) is a common inherited disorder of dentin, affecting approximately\n1 in 6,000–8,000 individuals. Mutations in the gene encoding dentin sialophosphoprotein (DSPP),\nthe major non-collagenous protein in dentin, cause DGI types II and III and dentin dysplasia type II,\nthe most prevalent hereditary dentin disorders. These conditions result in structurally compromised\nteeth characterized by severe attrition, thin dentin, abnormal predentin accumulation, and enlarged\nor obliterated pulp chambers, leading to impaired oral function and reduced quality of life. In addition,\ndental caries remains the most widespread oral disease worldwide, and untreated lesions\nsignificantly affect systemic health and socioeconomic well-being.\nThis project will define molecular mechanisms that regulate dentin formation and repair by\ninvestigating signaling pathways that control dental mesenchymal cell proliferation, differentiation,\ndentinogenesis, and vascular development using genetically engineered mouse models and dental\nmesenchymal cell systems. The proposed studies will advance understanding of dentin repair\nbiology and support the development of novel regenerative therapies to improve oral health."
+ },
+ {
+  "id": "3a373558-585e-437d-9640-c5cafa14a161",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Epigenetic Control of Trophoblast Differentiation",
+  "text": "Complications that occur during pregnancy and childbirth can be caused by defects in the formation of the\nplacenta. This application seeks to use genetic tools to understand how epigenetic regulation in trophoblast stem\ncells, the progenitors of the placenta, controls the generation of the different cell types needed for a healthy\nplacenta and a successful pregnancy. This work will have a significant impact on human health by identifying\nearly indicators of pregnancy complications and through further insights into how the placenta is formed so that\nbetter treatment options are available in the future."
+ },
+ {
+  "id": "3a38b0f3-5aa7-4184-85ac-1b15dc27e2d9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Transcriptional Regulation of Endothelial Cells after Neonatal Lung Injury",
+  "text": "PROJECT NARRATIVE. We will use mouse and rat models of Bronchopulmonary dysplasia (BPD) to\ndetermine whether neonatal lung angiogenesis, pulmonary hypertension (PH), pathologic lung remodeling and\nlung regeneration in hyperoxia-injured animals can be improved via nanoparticle-based gene delivery of\nFOXF1 transcription factor into the pulmonary circulation, or via cell therapy with FOXF1+ general capillary\ncells (FOXF1+ gCAPs) which serve as progenitors of pulmonary microvascular endothelial cells."
+ },
+ {
+  "id": "3a398387-b490-476c-aae3-889c3d8841d0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Prenatal Alcohol Gene-by-Exposure (PAGE) study: The roles of maternal-child genetic profiles in fetal alcohol spectrum disorders (FASD)",
+  "text": "Fetal alcohol spectrum disorders (FASD) are the most common preventable cause of neurodevelopmental\ndelay worldwide (2-5% in the US; >20% in endemic communities), but there is tremendous variability in the\ndegree to which children with prenatal alcohol exposure are affected. While experts agree that the genetics of\nthe mother and child play substantial roles in determining that variability, little is known about which genes or\ngenetic variants are important. We will utilize data and samples previously collected from our two South African\nbirth cohorts and independent cohorts in the UK and the US to identify genetic variants associated with risk of\nFASD, which may be used in the future to identify women and children in need of FASD prevention and\ntreatment efforts."
+ },
+ {
+  "id": "3a3cc299-90e7-4730-8fa1-43f8bd4b27f0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Direct conversion of fibroblasts to urothelial stem cells",
+  "text": "This proposal is relevant to public health in the way in which it designed to, in the long-term, potentially\nimprove the way in which urinary diversion surgery is done. If we are successful in generating autologous\nbladder urothelial stem cells, we will expand the opportunities for cell-based therapy approaches to disorders\nof the urothelium, such as radiation cystitis or interstitial cystitis, and improve upon the engineering of bladder\nor urothelial substitutes that can be potentially used in patients with severe hemorrhagic cystitis, end-stage\npainful bladder syndrome, urinary tract trauma, or congenital urinary tract abnormalities."
+ },
+ {
+  "id": "3a416eba-e697-490c-93df-0a4b1dd68647",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dynamic Imaging with Sparse Total-Body Positron Emission Tomography",
+  "text": "This project aims to perform dynamic imaging using aƯordable sparse Total-body (TB) PET detector\narchitectures, reducing the high costs associated with full-body imaging while maintaining its performance\nadvantages. We hypothesize that sparse TB PET can achieve kinetic modeling and parametric imaging with\nminimal loss of quantitative accuracy compared to a full-rank system. By integrating sparse designs with\nadvanced kernel-based reconstruction methods, we will improve image quality in high-noise, low-count\nscenarios. Our approach, leveraging the state-of-the-art EXPLORER TB PET scanner at UC Davis, will\noptimize sparse conﬁgurations for both static and dynamic imaging applications. The successful\ndevelopment of this technology will enable accessible and cost-eƯective dynamic TB PET for clinical and\nresearch use, with a positive impact on diagnostic workﬂows and disease research."
+ }
+]

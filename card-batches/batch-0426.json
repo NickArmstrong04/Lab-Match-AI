@@ -1,0 +1,142 @@
+[
+ {
+  "id": "0a5244c0-02ce-4a27-92dd-de87e08f6734",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Develop and validate demineralized bone paper-based human bone metabolic and senolytic assays",
+  "text": "Pharmacologically delaying skeletal aging is the most effective strategy to prevent bone metastasis, but the\nlimited long-term efficacy of existing drugs and increased lifespan of cancer survivors pose new challenges. An\nosteoid-inspired demineralized bone paper has demonstrated compelling biological relevance and significance\nin reproducing essential bone tissue complexity and multi-cellular processes while allowing for microscopy\nimaging. This proposal aims to develop demineralized bone paper-based human bone metabolic and senolytic\nassays that will facilitate the development of new anti-bone-aging drugs and effective treatment regimens."
+ },
+ {
+  "id": "0a525978-d504-4df8-959b-53754fdb426d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project 2 - Modulation of Tumor-Induced Tolerance by Inhibitory Receptors",
+  "text": "The cell surface inhibitory receptors (IRs) PD1 and LAG3 regulate T cell function, maintain immune homeostasis, and guide CD8+ exhausted T cells (Tex) in chronic disease settings. Targeting IRs in cancer immunotherapy can lead to tumor remission and clinical benefits, but the mechanisms are unclear. IR expression on Tex and CAR-T cells limits their anti-tumor efficacy. Mouse tumor models facilitate the analysis of IR mechanisms. PD1 and LAG3 show synergistic effects in various disease models. However, we still lack a clear understanding of the drivers of PD1/LAG3 function in CD8+ T cell exhaustion and their role in CD4+ T cell development and function. This project will test the central hypothesis that “PD1 and LAG3 synergize to enforce tumor-induced tolerance through a combination of overlapping and unique cell-intrinsic functions in CD4+ and CD8+ T cells that impact effector function and differentiation”. Due to potency of tolerance in the tumor microenvironment (TME), mouse models represent an outstanding system to study IR mechanisms to compare with processes in autoimmune (Project 1) and chronic viral settings (Project 3). We will pursue two Aims: AIM 1: What molecules and mechanisms downstream of PD1 and/or LAG3 modulate CD8+ T cell fate and function? We hypothesize that “PD1/LAG3 drive core pathways that control cell fate, differentiation, and function of effector-like and exhausted CD8+ T cells that are impacted by temporal and autocrine modulators”. We will address 3 questions: (A) What are the causal genes and mechanisms driven by PD1, LAG3, or the combination in CD8+ Tex? (B) What is the autocrine impact of IFNγ produced by PD1+LAG3+ Tex? (C) Does CD8+ T cell signaling architecture (TCR vs CAR) affect the impact of PD1/LAG3? We will use a combination of PD1/LAG3 recombinant antibodies, transcriptomic analysis, targeted CRISPR screens and in vivo functional analysis using tumor-specific T cell adoptive transfer systems and CD8+ T cell restricted PD1/LAG3-deficient model systems. AIM 2: What are the relative and synergistic contributions of PD1 and/or LAG3 in limiting CD4+ Tconv anti- tumor effector function and fate? We hypothesize that “PD1/LAG3 have synergistic effects on anti-tumor activity of CD4+ Tconv cells”. We will address 2 questions: (A) What is the impact of PD1 and/or LAG3 loss or blockade on CD4+ Tconv cells? (B) What are the causal pathways that mediate the downstream impact of PD1/LAG3 on CD4+ Tconv cells? We will use a combination of CD4+ T cell restricted PD1/LAG3-deficient model systems, tumor-specific T cell adoptive transfer systems, PD1/LAG3 recombinant antibodies, transcriptomic analysis and targeted CRISPR screens to deduce PD1/LAG3 mechanisms in intratumoral CD4+ Tconv cells. IR-PPG Interactions: P2 will collaborate with: [i] P1 and P3 in Aim 1 to determine if the PD1/LAG3 downstream pathways in CD8+ T cells are the same or different in distinct disease settings; [ii] P1 in Aim 2 to compare the impact of PD1/LAG3 loss on CD4+ T cell function in autoimmune versus tumoral settings; and [iii] Core A to exchange data, Core B to obtain mice, Core C for CRISPR libraries, and Core D for rAbs and ADCs."
+ },
+ {
+  "id": "0a562324-96a0-4218-b885-768b927b1f80",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Molecular Basis of Staphylococcus aureus SplB manipulation of the host",
+  "text": "S. aureus is unique among bacteria for having a distinct family of six serine proteases, known as SplA-F, that\ndrive infection of the host. We have discovered that SplB expression is the highest of these family members\nwithin the most common S. aureus strain affecting North America. Here, we will broadly identify the SplB host\ntargets and utilize NMR to understand how this enzyme targets host proteins and its molecular mechanism of\nactivation."
+ },
+ {
+  "id": "0a5a4ddd-0575-4e17-822c-35d2a2769732",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Noninvasive nanoparticle-directed therapy to the peripheral nervous system",
+  "text": "Peripheral nerve injuries and diseases can cause long-term pain, sensory loss, and motor dysfunction due to\nthe abysmally slow rate of nerve regeneration. Furthermore, effective non-invasive treatments remain limited\nbecause the blood-nerve barrier restricts their delivery to injured nerves. The requested equipment will enable\ntimely, high-viability isolation and culture of injured dorsal root ganglia and blood-nerve barrier endothelial cells,\ndirectly supporting mechanistic studies of nanoparticle-mediated drug delivery in the parent R01. By improving\nthe rigor, reproducibility, and pace of these studies, this supplement will advance the development of targeted,\nsystemically administered therapies to promote functional recovery after peripheral nerve injury and potentially\ntreat broader peripheral neuropathies."
+ },
+ {
+  "id": "0a5ba1c9-01ec-4dbe-be62-c97cf53dde2a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Words to Live by: Leveraging Natural Language Processing and Machine Learning to Enhance Prehospital Triage Algorithms",
+  "text": "Clinicians make life-or-death treatment decisions for millions of Americans each year who become ill or suffer\ninjuries in the field. These out-of-hospital decisions are often made with little diagnostic information available,\nresulting in thousands of excess deaths and hundreds of millions in excess healthcare costs annually. In this\nproject, we test whether prehospital clinician words representing first impressions of patient condition can be\nused to build an artificial intelligence system capable of supporting more accurate treatment decisions."
+ },
+ {
+  "id": "0a5e4992-df2f-478b-9d16-63f83fbdeed1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Somatic variants as drivers of genetic errors of immunity",
+  "text": "Project Summary – Project 2 The diagnosis of the precise genetic cause and mechanism of inborn errors of immunity (IEI) has led to enhanced care and treatment of patients through improved diagnosis, guidance for clinical monitoring based on genotype, and targeted therapies. However, at least 60-70% of patients with suspected IEI lack a molecular diagnosis. The goal of this project is to address the gap in diagnosis through detection and validation of mosaic genetic variants in patients with suspected IEI. The current standard for clinical and research-based testing for IEI is exome and genome sequencing to identify germline changes in genes encoding proteins relevant to the immune response. However, it is now becoming well recognized that IEI can also arise from somatic mosaicism, which, although not inborn, lead to genetic errors of immunity (GEI). Such somatic mutations in GEI lead to a dominant effect, whereby a minor population of immune cells alters the immune response leading to clinical disease. Consistent with this dominant phenotype, immune dysregulation disorders account for most known cases of disease- causing somatic mosaicism in GEI. Somatic mutations can also alter disease phenotype, accounting for a high degree of variable penetrance within families. These somatic mutations can be missed by current genomic sequencing approaches due to insufficient depth of coverage with exome and genome sequencing, as well as the informatic challenges in detecting true mosaicism versus sequencing artifact. Thus, current challenges when working to identify disease-causing somatic mosaicism in GEI include the need for high read-depth sequencing and algorithms to discern low-frequency mosaicism from sequencing artifact, which is particularly important for GEI in which there are no ‘tumor’ and ‘control’ samples within an individual. We present preliminary studies using high-depth targeted sequencing of genes associated with or predicted to be associated with GEI with an immune dysregulation phenotype. Our studies demonstrate the presence of somatic mutations in the targeted genes in at least 12% of undiagnosed patients. In this project, we will utilize an expanded custom sequencing platform to investigate the rate and presence of somatic mosaicism in ~2000 patients with suspected GEI, and a cohort of currently healthy individuals. We will use this data to identify potentially disease-causing variants that will be investigated at the single-cell level to determine their impact on the immune system and expressivity of the identified variants. This project will be supported by Cores A and B of this Program and will benefit from collaboration and sharing with the other projects of this P01. The ability to recognize and accurately diagnose somatic mosaicism in GEI has high potential to alter the care of these patients."
+ },
+ {
+  "id": "0a606297-70c8-43c5-a7e9-5dea5d66c1b8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Uncovering the transcription factors that control human motor neuron cell fate",
+  "text": "Transcription factors are vital regulators of cell fate, controlling gene expression by establishing cell type-\nspecific gene regulatory networks. This project aims to expand our understanding of human development by\nidentifying and characterizing key transcription factors required for human motor neuron differentiation. This\nproposal will reveal a more complete gene regulatory network guiding one human differentiation trajectory and\nestablish a framework for characterizing transcription factors important for any differentiation trajectory,\nproviding new insights into human developmental disorders and facilitating the generation of disease-relevant\ncell types."
+ },
+ {
+  "id": "0a6ea8aa-db23-4f35-ac11-dfd08b4713b3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "UAB Childhood Cystic Kidney Disease Center (UAB-CCKDC) - Bioengineering Resource",
+  "text": "(BIOENGINEERING RESOURCE) The Bioengineering Resource (BR) will work collectively with the PKD RRC and the other PKD Centers in the consortium to advance PKD research. The BR will focus on the development and distribution of innovative new in vivo and in vitro models of PKD emphasizing cross-species comparisons (rats, mice, cell lines) along with a human IPS cell/kidney cystic organoid model system. We are developing orthologous PKD conditional mutant rat models using a tetracycline-regulated CRISPR/Cas9 strategy. This fulfills a need expressed by the PKD research base for larger models with closer physiological alignment to humans than currently exist. To overcome barriers associated with detection of the endogenous PKD proteins, we are generating mice and human IPS cell lines with self-labeling Halo/Snap tags inserted into the endogenous PKD proteins (PKD1, PKD2, PKHD1). These resources are critically needed to analyze PKD protein biochemistry and dynamics under native conditions in live cells and tissues. These Halo/Snap Tag PKD resources will enhance our understanding of PKD-related protein function, localization, proteolytic processing, transport, complex formation, and provide resources to define how patient-specific variants disrupt these proteins to contribute to cyst formation. We will establish a PKD Flp-In system in human IPS cells. This system permits very efficient integration and expression of PKD gene/cDNAs or gene regions (e.g., Pkd1 C-terminal tail) using the native PKD gene promoters. With these Flp- In resources, many PKD patient variants or protein domains can be assessed for functionality during renal cyst pathogenesis in kidney organoids. Along with the new resources and models being developed, the BR will continue to serve as a distribution hub for existing PKD and other ciliopathy resources. This includes congenital mutants, conditional nulls, reversible, and patient variant cell lines and animal models, cilia tag and pathway reporter systems, Cre recombinase mice, biosensor and bioreporters, and PKD mouse and rat biomaterials and tissues (kidney, liver, urine, blood). Collectively, the resources the BR is designing and distributing will help bridge major gaps between model systems and human clinical applications, ultimately contributing to the development of effective PKD treatments."
+ },
+ {
+  "id": "0a7c4213-a915-4bc3-ae4a-ed8dda99e309",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The role of HLA-C in chronic chorioamnionitis",
+  "text": "Inflammation of the placental membranes, chronic chorioamnionitis, occurs frequently and is strongly associated\nwith preterm birth, and congenital abnormalities. This study investigates how HLA-C expression on chorionic\ntrophoblasts contributes to CD8 T cell activation and trophoblast cytotoxicity during chronic chorioamnionitis."
+ },
+ {
+  "id": "0a85f421-d716-4781-a37c-876317e01c07",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Salmonella derived nanoparticles for cancer immunotherapy",
+  "text": "In the current proposal, utility of our novel Salmonella derived outer membrane vesicles (SOMV-\n9RE7) bacteria therapy + immunotherapeutic fusion protein of Albumin and FMS-like tyrosine\nkinase 3 ligand named Albumin-Flt3L (Alb-Flt3L) + immunotherapeutic fusion protein of Albumin\nand interferon-beta (Alb-IFNβ) in mediating tumor control through the expansion and activation of\ncross-presenting DCs and subsequent generation of HPV-specific antitumor cytotoxic CD8+ T cells\nwill be investigated in spontaneous TC-1 HPV-associated head and neck cancer model. We will\nstudy how expansion and activation of cross-presenting DCs and CD8+ T cells by Alb-Flt3L + Alb-\nIFNβ + SOMV-9RE7 induce HPV E7-specific T cell responses and characterize the mechanisms in\nmediating antitumor immunity. The successful completion of this project will provide valuable\npreclinical and mechanistic data for future studies while delineating the therapeutic potential of\nenhancing HPV E7-specific antitumor immunity using Alb-Flt3L + Alb-IFNβ + SOMV-9RE7 for the\ntreatment of HPV-associated head and neck cancer."
+ },
+ {
+  "id": "0a90f67c-0ed1-479e-be93-18905fceb774",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Elucidation the Epigenetic and Transcriptional Landscape of Spinocerebellar Type 7 Retinal Degeneration",
+  "text": "5PROJECT NARRATIVE\nSpinocerebellar ataxia type 7 (SCA7) is a devastating neurodegenerative disease impacting vision and motor\nfunctions. This study targets the elusive mechanisms of SCA7 by examining the intricate interplay of genetic\nmutations and their consequent transcriptional and epigenetic dysregulation by leveraging advanced multiomic\nanalyses and innovative retinal organoid models to uncover novel pathways and targets for therapeutic\nintervention. The outcomes of this research have the potential to advance our understanding of SCA7 and related\nneurodegenerative disorders significantly, offering new hope for effective treatments and improving the quality\nof life for those affected."
+ },
+ {
+  "id": "0a9287a5-f5c3-4d58-bb32-33ffef4177dd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Uncovering the structure and function of understudied membrane proteins",
+  "text": "More than 60% of FDA-approved drugs target membrane proteins, underscoring their critical clinical\nimportance. However, a significant number of human membrane proteins remain understudied, representing\npotentially missed opportunities for developing novel therapeutics for currently incurable diseases. By\nemploying a multidisciplinary approach, our goal is to uncover the physiological roles of these understudied\nmembrane proteins, laying the foundation for future therapeutic breakthroughs."
+ },
+ {
+  "id": "0a92f8aa-a940-499a-bd96-f864c88bdebd",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Practical Data-Centric AI/ML for Biomedical Researchers",
+  "text": "Biomedical research is rapidly shifting towards data-driven discovery powered by Artificial Intelligence\n(AI)/Machine Learning (ML), but many researchers lack the skills to unlock its potential. This project proposes a\ncloud-based NIGMS Sandbox module, \"Practical Data-Centric AI/ML for Biomedical Researchers,\" to bridge this\ngap. The module dives into essential topics like data preparation, model building and interpretation, empowering\nbiomedical researchers with hands-on skills and real-world tools through accessible Google Cloud platform,\ncapstone projects, and diverse learning formats; therefore, this accessible learning journey will equip\nresearchers to ethically apply AI/ML to their research, contribute to a future of AI-driven advancements, and\nelevate research quality through responsible practices."
+ },
+ {
+  "id": "0a9636f7-a6c1-45a9-bb3d-71f11827077a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A GLIMMER of possibility? GLucagon-like Peptide-1 Receptor Agonists—Investigating their Influence on the Mind, Metabolism, and Early Risk for ADRDs in the Understanding America Study",
+  "text": "This project will examine how GLP-1 receptor agonists affect cognitive function, identify subgroups who benefit\nor experience adverse effects, and test causal pathways linking GLP use to ADRD-related health outcomes\nand behaviors. It will do so by collecting new nationally representative longitudinal surveys, wearable data, and\ncontinuous glucose monitoring, linkable to rich biobehavioral, cognitive, and genomic data in the\nUnderstanding America Study. This study will have high impact by generating novel data to support and\nprovide rigorous, population-based research on how GLPs affect brain health and by guiding strategies for\ndementia prevention."
+ },
+ {
+  "id": "0aa9202f-35ff-449c-8350-93cadcf0e14d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Equipment Upgrade for a 7T Preclinical MRI Scanner at UC Davis",
+  "text": "Upgrade to the 7T MRI system at the UC Davis Center for Molecular and Genomic Imaging will significantly\nenhance the scientific investigations of NIH-funded researchers across a wide array of disciplines, such as\ncancer biology, neuroscience, cardiometabolic disease, immunology, molecular imaging, and translational\nnanomedicine. This upgrade will empower investigators to gain deeper insights into disease mechanisms,\nprogression, and therapeutic response, thereby accelerating biomedical innovation and translation to improve\nhuman health."
+ },
+ {
+  "id": "0aab9421-00f9-405b-a831-72f36bc7011a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of Gene Expression",
+  "text": "Gene expression requires the splicing of mRNA precursors by the spliceosome, a dynamic cellular\nribonucleoprotein machine of staggering complexity harboring over 150 proteins in human cells and mutated in\nnumerous cancers. We recently developed the first global genetic methods for investigating the function of the\nspliceosome in haploid human cells. In this project, we will leverage our new methods and reagents to explore\nfunctions of individual spliceosomal proteins to understand human-specific features of gene expression in a\nmanner not possible previously."
+ },
+ {
+  "id": "0ab1f4ca-480d-4823-90da-de3a40b1655d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Predictors of Nociplastic Pain after Cardiac Surgery Requiring Critical Care",
+  "text": "Nociplastic pain, a mechanism of pain that results from augmented central nervous system processing, can be\ntriggered by physiological stress and is characterized by widespread pain, mood, memory, and autonomic\ndysfunction. After cardiac surgery, patients often develop chronic pain and longstanding issues with mood and\nmemory, yet it is not known whether cardiac surgery followed by critical care can trigger nociplastic pain. This\napplication proposes to study phenotypic and physiological risk factors for the development of nociplastic pain\nafter cardiac surgery, which could inform prehabilitation and perioperative treatment approaches, with\napplications extending to other post-surgical and critically ill populations."
+ },
+ {
+  "id": "0ab933f4-25fc-4cf8-bd65-4725f1d99009",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Age-Dependent CD7 Functions in T Cell Responses",
+  "text": "T cells are required for clearance of viral infection and cancer, yet throughout the aging process their\nactivation and responses are greatly diminished. Preliminary data from our lab demonstrates an\nundescribed role for CD7, a transmembrane protein that progressively loses expression over the course of\nlife, in modulating the activation, differentiation, and effector function of T cells by altering T cell receptor\nsignaling. This research may lead to the development of therapeutics that bolster T cell function in the\ncontext of viral infection and cancer within the ever-expanding elderly demographic and may also lead to\ntherapies that limit lymphoproliferation to ameliorate autoimmunity."
+ },
+ {
+  "id": "0abd6c3a-a9c5-4fcd-99bc-4b5c688bd30e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Integrating multi-modal label-free single cell technology to target radiation resistance in pediatric diffuse midline glioma",
+  "text": "Establishing whether biophysical characteristics of brain cancer cells can be used to determine their radiation\nresistance is relevant to public health, as it addresses the leading cause of recurrence during brain cancer\ntherapy and seeks to provide new insights into overcoming treatment resistance. By focusing on characterizing\nradiation resistant glioma cells in a label free manner and targeting them through extracellular vesicle drug\ndelivery, this research is relevant to NCI’s mission of understanding cancer mechanisms and developing\ninnovative treatment strategies."
+ },
+ {
+  "id": "0abd7061-e418-4f0c-b993-b27880bb3162",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Transcriptional mechanisms of chronic inflammation in genetically diverse tissue macrophages",
+  "text": "Cellular responses to inflammation and disease are controlled by genetic variants and environmental signals.\nThis proposal will resolve the effects of genetic and environmental interactions responsible for transcriptional\nregulation of genetically diverse tissue macrophages in an experimental model of metabolic dysfunction-\nassociated steatotic liver disease. Results from these studies will define novel cellular and molecular\nmechanisms relevant to clinical diversity of humans with metabolic dysfunction-associated steatotic liver disease."
+ }
+]

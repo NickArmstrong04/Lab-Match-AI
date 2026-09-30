@@ -1,0 +1,142 @@
+[
+ {
+  "id": "d1f17ced-83d6-4ff4-9f14-68f9e829b791",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Neurobehavioral Targets of Mindfulness in Youth At Risk for Mood Disorders",
+  "text": "This project will allow us to test neurobehavioral mechanisms of a mindfulness-based intervention to target mood\nlability in early adolescents at high risk for developing mood disorders. Mood lability is an important\ntransdiagnostic problem that is associated with poor psychosocial function and suicidal thoughts, and is a\npredictor of mood disorder onset, especially in youth at familial risk. Through this randomized controlled trial, we\nwill better understand how and for whom mindfulness interventions work, which will lead to more targeted\ninterventions to improve emotion regulation during this key developmental period."
+ },
+ {
+  "id": "d1f2eccc-fa4b-420a-b2a3-7fa81b240b79",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Structural basis of PP2A phosphatase diseases",
+  "text": "We initiate a crucial research direction for understanding structural mechanisms of phosphatase diseases\ncaused by mutations in PP2A. The proposed study will illuminate unprecedented super-long dynamics in PP2A\nregulation and disease mutations that perturb the global allosteric network near or at the super-long dynamic\ninterface, providing general insights into the regulatory roles of disordered human proteome."
+ },
+ {
+  "id": "d1fc0ecb-f1ab-4f7c-a236-a96264c5b7b2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Characterizing Myeloid Nuclear Differentiation Antigen (MNDA) in Alzheimer's Disease",
+  "text": "Understanding how complex intracellular functions of neurons behave during Alzheimer’s Disease (AD) continue\nto limit our ability to predict AD susceptibility, development, and severity. tRNA-derived RNA fragments can\nregulate gene expression and have been shown that they and their associated gene targets can serve as\npromising biomarkers for diseases. By understanding the role that tRFs play in generating different AD-specific\ncellular phenotypes in human neurons, we can bridge the gap between knowing how a specific gene target of\nan AD-enhanced tRF, MNDA, is regulated, and this interaction’s contribution of the associated known disease\npathology."
+ },
+ {
+  "id": "d202f476-b06a-4505-b110-293aee4b0f93",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Data Stewardship Core",
+  "text": "DATA STEWARDSHIP CORE — PROJECT SUMMARY The Data Stewardship Core (DSC) for our AADCRC application will provide the Program with oversight and essential services that will support the two Projects and the Computational Genomics Core (CGC). The DSC will coordinate with the Administrative Core to ensure the successful completion of the Program goals. The specific functions of the DSC are: (i) Data processing (data quality control [QC] and cleaning) and data storage. The DSC will receive raw data from the projects and provide processed, cleaned data to the CGC for statistical analysis. (ii) Bioinformatic summaries of the QC’d data. The DSC will provide to the Projects QC summaries of their results. (iii) Uphold the highest standards for transparency. The DSC will be responsible for documenting and annotating codes for all data management and bioinformatics performed in the core and ensure the same is done for analyses performed in the Projects and the CGC. (iv) Ensure the timely submission of processed data to public databases (ImmPort, Geo, or dbGap, as appropriate). The DSC will coordinate with the Administrative Core to successfully implement our Data Sharing and Management Plan so that experimental resources (e.g., engineered mice) and analytical/computational scripts are made available in a timely fashion. (v) Ensure that all researchers within the Center receive appropriate information security services, including but not limited to: security awareness and training, risk assessment, security hardware and software to safeguard data, security monitoring, and establishment of information security policies and standards that align with industry best practices, through close interactions between the Data Stewardship Core and the University of Chicago BSD Information Security Office."
+ },
+ {
+  "id": "d2059258-1955-4d26-9903-9e179e9c876c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "High throughput screening and preclinical development of HBV cccDNA inhibitors",
+  "text": "HBV chronically infects approximately 300 million people worldwide but the currently approved antiviral therapies\nrarely cure HBV infection. The elimination of HBV persistent cccDNA genome in infected patients is considered\nto be essential for a cure to hepatitis B, and is the ultimate goal in treatment of this disease. This application\naims to discover novel cccDNA inhibitors using an innovative high throughput screening assay, followed by\npreclinical drug development, which will aid the global effort to eradicate HBV."
+ },
+ {
+  "id": "d20af239-d4b7-404f-88d3-295407e8e5d6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "How cell maturation is regulated by circadian and metabolic rhythms",
+  "text": "Circadian and metabolic rhythms play important roles in controlling specialized or “mature” functions in\nmammalian cells. Here, we will elucidate the molecular mechanisms by which several functionally important\ncircadian clock factors and feeding control maturation and maintenance of specialized chronophysiology in\npancreatic islet β and liver hepatocyte cells. Since chrono-disrupted lifestyles fuel multi-system dysfunction, our\nstudy will fill critical gaps in our mechanistic understanding of the link between biological rhythms and health,\nwhich may offer novel insights for disease diagnosis and treatment."
+ },
+ {
+  "id": "d2131347-ea46-4fcd-a6ac-905c18a3e4f8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Genetic discovery for neuropsychiatric traits in deep phenotype data: novel methods and applications",
+  "text": "Psychiatric disorders including autism spectrum disorders, bipolar and schizophrenia are common diseases with major impact on public health. Most studies in psychiatric genetics have focused on individuals of European origin, despite admixed individuals of varying geographic origin representing a sizable proportion of the US population. We propose to develop and apply methods for the analysis of psychiatric genetics datasets with individuals of various geographic origins and/or deep phenotypic features as available in electronic health records in order to improve our understanding of the biological mechanisms involved in psychiatric disease pathogenesis."
+ },
+ {
+  "id": "d214afcf-f4ab-4bb9-b028-0cef0c2a1824",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Capsid- and genome-modified AAV3 vectors for hemophilia gene therapy.",
+  "text": "The overall goal of this proposal is to develop novel vectors and strategies with which gene therapy of\nbleeding disorders, called hemophilia, can be achieved safely and more effectively. These vectors are derived\nfrom a virus that causes no known disease in humans, and therefore, are expected to be safer. Thus, the\npotential treatment and cure of these debilitating human disease has relevance to public health."
+ },
+ {
+  "id": "d21530fd-fe0d-491b-9984-9660382cf873",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Salmonella Interactions with Macrophages",
+  "text": "Typhoidal Salmonella serovars cause an estimated 22 million cases of enteric fever each year worldwide,\nwhich remains a significant cause of infectious disease morbidity and mortality in lower-income countries. Our\nunderstanding of enteric fever pathogenesis is incomplete due to the absence of convenient animal models. In\nthis application, we will elucidate molecular mechanisms of typhoidal Salmonella serovars survival and\nreplication in infection-relevant conditions, including human macrophages in vitro and in humanized mice,\nwhich will provide new insights into the pathogenesis of enteric fever caused by nontyphoidal Salmonella."
+ },
+ {
+  "id": "d22864a5-5930-44fd-9642-d7155e4687d2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting Tumor-Driven Immune Tolerance to Overcome Resistance to Hedgehog Inhibition",
+  "text": "Clinical resistance and tumor recurrence are major limitations of currently available targeted therapies for\npatients with basal cell nevus syndrome (BCNS), as well as for patients with sporadic BCCs that are surgically\ninoperable or have metastasized. We will investigate the BRD7-BRD9 axis-driven immune suppression as a\nmechanism of BCC resistance and test the preclinical efficacy of BRD9 blockade in potentiating the antitumor\nimmune response."
+ },
+ {
+  "id": "d22ba852-b117-4b57-9293-1d9c57d16592",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Systems-Level Principles and Mechanisms Underlying Cellular Adaptation",
+  "text": "The proposed research is aimed at discovering the mechanisms by which bacteria and yeast cells adapt to\nenvironmental change, including ecological habitats and extreme challenges beyond their native habitats. The\nproposed fundamental research and technology development will provide the biomedical community with\nconceptual frameworks, knowledge, and tools to understand and study cellular adaptation in both healthy and\ndisease states."
+ },
+ {
+  "id": "d22bb29f-b35a-4872-88f5-9248074d6e8d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Enhancing Drug Screening with Automated Single-Cell Electrophysiology and Contractility Measurements in iPSC-CMs",
+  "text": "We are developing an innovative automated system to study cardiomyocytes (heart cells) derived from stem\ncells, designed to quickly and accurately test how these cells respond to various drugs. This advanced tool\nmeasures both the electrical activity and muscle contractions of the heart cells, providing critical information\nabout drug safety and efficacy. Compared to current methods, our system is significantly faster and easier to\nuse, representing a substantial advancement in heart disease research and drug testing, thus promising to\nenhance the evaluation of cardiotoxicity and improve the development of safer and more effective therapeutics."
+ },
+ {
+  "id": "d22d6c55-b50b-4735-a776-204c95fe4c2d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Radiation Biology",
+  "text": "The central focus of the Radiation Biology (RB) Program is to increase the effectiveness of radiotherapy (RT) to enhance both tumor control and survival of cancer patients. Program members investigate new agents that can be combined with RT to improve tumor control while minimizing collateral toxicity to normal tissues, develop novel technologies for radiation treatment planning and delivery, and apply new markers to assess treatment response, prognosis, and toxicity. To achieve these goals, basic discoveries, preclinical models, genomics, radiomics, engineering, and deep learning are used to obtain critical supporting data to take these approaches to clinical trials. Thus, the program includes both basic and translational science. The program was co-led by Quynh Le, MD, and Amato Giaccia, PhD, between 2015 and 2019. With Giaccia’s partial retirement in 2019, the program is now led by Quynh-Thu Le, MD, and Maximilian Diehn, MD, PhD. Le provides expertise in hypoxia, the interaction of the immune system with RT, and stem cell-targeted therapies for mitigating RT toxicity, whereas Diehn adds expertise in cancer genomics, liquid biopsies, biomarker technology development, and genetic causes of radiation resistance. The 31 full members of this program represent the School of Medicine, the School of Humanities and Sciences, and the SLAC National Accelerator Laboratory. They are supported by peer-reviewed research totaling $6.2M in direct funding, including 15 R01s, which is higher than the previous cycle of this grant. Peer-reviewed funding consists of $3.9M from the NCI, $1.4M from other NIH Institutes, and $0.8M from other sources. The RB program members are motivated, innovative and collaborative, both within the program and with other research programs across the Stanford Cancer Institute (SCI), in their goal to translate fundamental discoveries made in the laboratory to enhance the safety and efficacy of RT for cancer patients. Since 2015, members of the RB Program have published 561 manuscripts. Of these, 35% represent intra-programmatic collaborations and 37% represent inter-programmatic collaborations. The Stanford Cancer Institute enhances the program’s goals by providing state-of-the-art shared resources, seed grant support for new projects, programmatic funds, retreats, special seminars, support for new recruitments, and facilitates collaboration with other programs through seed funding and retreats. The support from the SCI has been instrumental in promoting both intra- and inter-programmatic collaborations that were essential for the submission of a new P01 application."
+ },
+ {
+  "id": "d22f9121-6743-4628-bb90-206c63e255ae",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular Profiling & Characterization",
+  "text": "The Molecular Profiling and Characterization Core is the heart of the UIUC Neuroproteomics Center on Cell-Cell Signaling. Understanding the role of brain chemistry in health, pain management, drug addiction, and withdrawal requires knowledge of the molecules within the brain and their associated neurochemical pathways. The large assortment of chemical messengers and the diversity of their chemical and physical properties require a complex suite of measurement techniques and integrated approaches for dissecting the molecular components of cell-to- cell communication. Mass spectrometry (MS) is a central technique for precise molecular profiling and characterization of complex neurological systems. The primary mission of the Molecular Profiling and Characterization Core is to augment our understanding of addiction-associated processes using MS-based analytics to provide qualitative, quantitative, and functional data on the molecular drivers involved in cell-cell signaling. Positioned between the Sampling and Separation Core and Bioinformatics, Data Analytics and Predictive Modeling Core, this core executes defined studies with maximal data quality and provides tailored MS methods for enabling user-specific experiments that lie at or near current technological limits. We have the outstanding analytical capabilities and well-documented expertise to effectively probe diverse signaling components within tissues, individual cells, and their extracts and releasates with spatial and temporal resolution. These measurements capitalize on the careful study design and rigorous execution by professional staff capable of developing and implementing validated methods across the Center. Between the University of Illinois at Urbana-Champaign and Northwestern University, we are well-equipped with an extensive suite of high- resolution, tandem mass spectrometers and sampling capabilities that are suitable for imaging and molecular analysis of neuropeptides, metabolites, proteins, proteoforms, and protein complexes across a wide molecular- weight range. For targeted and omics-level investigations, defined study designs are categorized as “Bottom- Up” shotgun approaches in which proteins are digested to various extents prior to MS analysis, and the “Top- Down” approach in which the intact proteins or whole native protein complexes are introduced into the mass spectrometer for structural characterization by tandem MS at proteoform-level resolution. We exploit the complementarity of these approaches within the context of specific Center-supported research projects to maximize the molecular specificity and coverage for identification and quantitation of proteins and their post- translational modifications. Future studies will benefit from high-resolution information on relative and absolute amounts of bioactive neuropeptide and metabolite levels obtained in either targeted or discovery modes of operation. We also employ MS imaging approaches to illuminate the “hidden” peptidome, metabolome, and proteoform landscape to elucidate key molecules and pathways involved in drug abuse and inform treatments for associated conditions such as drug addiction and withdrawal."
+ },
+ {
+  "id": "d230c959-8587-46aa-93fa-07cad77b5132",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Nicotinic modulation of deep layer somatostatin interneurons for visual critical period plasticity",
+  "text": "The goal of this study is to identify novel molecular and circuit targets for inducing\nneuromodulatory changes that mediate plasticity during juvenile critical period. This project will have direct\nimplications for Amblyopia, but also for brain injury repair, sensory recovery."
+ },
+ {
+  "id": "d232c33c-ac75-479a-a60d-298e8d491906",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identifying transcriptomic and epigenomic convergence in intellectual and developmental disorders",
+  "text": "Individuals with intellectual and developmental disabilities (IDD) have poor health outcomes, and their life\nexpectancy is 20 years shorter than the rest of the U.S. population. The limited arsenal of efficacious treatments\nfor these disorders exacerbates this public health emergency. This proposal will develop a framework for\nidentifying convergent mechanisms for a group of IDD risk genes, which would accelerate the development of\nmechanism-based therapies."
+ },
+ {
+  "id": "d23b2c69-45ac-45bf-9955-6d27636be9e7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Uncovering the Functional Role of the Skin Mycobiome in Atopic Dermatitis",
+  "text": "Atopic dermatitis (AD) is the most common inflammatory skin disease and a growing global health burden, yet\ndisease onset, severity, and response to treatment remain difficult to predict or control. This project investigates\nhow fungi that inhabit the skin (the skin mycobiome) contribute to disease development, particularly in the head\nand neck subtype of AD, which is often resistant to standard therapies. By uncovering how fungi interact with\nbacteria, the skin environment, and the skin cells, this work will identify new targets and strategies to improve\ntreatment and quality of life for patients with AD."
+ },
+ {
+  "id": "d23c3226-df7f-4c49-be7a-7d8e1fef916a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Convergent Engineering and Biomolecular Science",
+  "text": "PROJECT NARRATIVE ─ OVERALL\nThe goal of this proposed COBRE in Convergent Engineering and Biomolecular Science (CEBS) is to support\nthe growth of multidisciplinary collaborative research at Boise State University and build research infrastructure\nthrough the creation and consolidation of research core facilities. The Center will also provide expertise,\ntraining, and mentoring in convergent research to help Research Project Leaders to become independent\ninvestigators. Together, these efforts will contribute to creation of a nationally recognized biomedical research\ncenter supporting the growing critical need in human healthcare for the development of medical devices and\nsensors."
+ },
+ {
+  "id": "d24100a3-8b09-46a4-93e6-0ac0a8b7ed0d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Novel Therapeutics and Therapeutic Modalities Research Program",
+  "text": "NOVEL THERAPEUTICS AND THERAPEUTIC MODALITIES (NTTM): ABSTRACT The Novel Therapeutics and Therapeutic Modalities (NTTM) Program was established in 2023 to create a cross-disciplinary platform for development of non-immunological cancer therapies from inception to early phase clinical studies. Created by expansion of the former Experimental Therapeutics Program to encompass non-immunomodulatory components of the gene/virus therapy portfolio as well as emerging areas of scientific strength in radiotherapies, the NTTM Program will lead the Mayo Clinic Comprehensive Cancer Center (MCCCC) strategy of developing more effective and less toxic treatments for neoplastic diseases through pursuit of three overarching aims: 1) Lead preclinical development of novel treatments, including targeted small molecules, biologics, nanomedicines, gene therapies, radiotheranostics (including alpha radiopharmaceuticals), and external beam therapy (including proton and carbon particles), as monotherapies or in novel combinations; 2) Identify predictors of sensitivity, resistance, and/or toxicity to these therapies; and 3) Conduct early phase clinical trials, from first-in-human to phase II studies, of these therapies, including multimodality combinations. Illustrative scientific accomplishments over the past five years include preclinical development of a MET kinase proteolysis targeting chimera and novel chelators for radio-immunoconjugate development (Aim 1); identification of homologous recombination as a determinant of response to proton therapy (Aim 2); and completion of a first-in-human phase I trial of WSD0922-FU, a brain-penetrant inhibitor of mutant EGFR (Aim 3). NTTM fosters collaboration between 62 members (45 MCR, 6 MCA, 11 MCF) spanning 20 departments. Program members hold $10.6M/year (direct costs) in peer-reviewed funding ($6.5M from NCI) and $12.9M/year in industry and non-peer-reviewed funding. NTTM members collaborate extensively with the Cancer Genomics, Signaling and Metastasis (CGSM), Cancer Immunology and Immunotherapeutics (CII), and Advanced Clinical Trials and Translational Sciences (ACTS) Research Programs; the MCCCC Disease Groups that oversee selection and prioritization of clinical trials; and the Community Outreach and Engagement Office (COE) to ensure that research is responsive to catchment area needs and includes patient and community input from concept to discovery dissemination. From 2019-2023, NTTM members accrued 3665 patients to interventional treatment trials and published 1548 peer-reviewed papers, with 15% intra-programmatic, 42% inter-programmatic, 39% inter-institutional and 23% in high impact journals (Impact Factor 10). Over the proposed funding period, NTTM members will continue to train and mentor future investigators and MCCCC emerging leaders, while simultaneously striving to increase the efficacy and diminish the toxicity of cancer therapy by developing novel small molecules, neutralization-resistant Vesiculovirus-based gene/virotherapies, multi-layered nanoparticles, alpha-PET radio-immunoconjugates, carbon ion-based treatments, innovative spatially inhomogeneous radiotherapies, and mechanism-based multi-modality combinations."
+ },
+ {
+  "id": "d24187ba-6cf1-41fc-b104-e982d7308b99",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A HUMAN IPSC-BASED ORGANOID PLATFORM FOR STUDYING MATERNAL HYPERGLYCEMIA-INDUCED CONGENITAL HEART DEFECTS",
+  "text": "Congenital heart disease (CHD) is the most common type of birth defect. Pregnant mothers with higher-than-\nnormal blood sugar are associated with a higher CHD risk, and little is known about disturbances to energy\nprocessing and stem cell development involved in human heart cells. Using body cells reprogrammed into stem\ncells called human induced pluripotent stem cells (iPSCs), we propose observing stem cell maturation and\nmetabolism in iPSCs to investigate how high blood sugar drives CHD in diabetic mothers and to better\nunderstand how CHD develops."
+ }
+]

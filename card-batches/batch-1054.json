@@ -1,0 +1,142 @@
+[
+ {
+  "id": "ea03ed28-303f-4fc9-a3ef-1d5bdf8974ad",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Interrogating roles for REST in small cell lung cancer therapy response and resistance",
+  "text": "Small cell lung cancer (SCLC) exhibits distinct biological subsets, including strongly neuroendocrine and low\nneuroendocrine (low-NE) subsets, with recent data linking low-NE SCLC to improved responses to immune\ncheckpoint blockade in patients. Lack of mouse models of low NE-SCLC has been a barrier to progress in the\nfield, which we will overcome using mouse models that overexpress the REST repressor of\nneural/neuroendocrine state. Our preliminary data also link REST to chemotherapy resistance; we will model\nlow-NE SCLC and test the impact of REST activity on responses to chemotherapy and immune checkpoint\nblockade."
+ },
+ {
+  "id": "ea06c6f1-d53e-4c61-818c-f1b9f758877b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Unveiling the Interplay Between Extrachromosomal DNA Spatial Organization, Epigenetic Landscape, and Transcriptional Regulation with Single-Molecule Precision",
+  "text": "Extrachromosomal DNA (ecDNA)-mediated oncogene amplification is a frequent driver of cancer, leading to\nelevated oncogene expression and poor treatment outcomes. The lack of approved treatments targeting ecDNA-\ndriven cancers stems from a limited understanding of ecDNA’s mechanisms and functions. This project will\ndevelop innovative sequencing technologies to uncover the unique mechanistic and functional features of ecDNA,\npaving the way for novel therapeutic strategies that could benefit nearly 20% of cancer patients."
+ },
+ {
+  "id": "ea0c78fc-826f-4fa3-88dc-d2781867e0ef",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Structural Studies of a T cell Specific Tyrosine Kinase",
+  "text": "The research proposed in this application is relevant to human health because the studies will\ndetermine how T cell responses are tuned in response to different levels of stimulation. T cells\nare an important arm of the immune response that protect against viral and bacterial infections\nand have the potential to kill tumor cells. Continued improvement of T cell based therapeutic\nstrategies demands a molecular level understanding of how T cells interpret and react to the\nstimuli they encounter during normal infections and in cancer. The work proposed in this project\naligns with the NIH mission to “seek fundamental knowledge about the nature and behavior of\nliving systems” for the improvement of human health."
+ },
+ {
+  "id": "ea0fa344-ce48-4385-adeb-83e86c7772f9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Variant Validation Core",
+  "text": "Res-Core-001 (034) Project Summary The widespread and increasing use of targeted kidney gene panels, whole exome sequencing, and whole genome sequencing to investigate the genetic bases for chronic kidney disease and other kidney disorders has led to a much better understanding of the etiology of monogenic diseases. These approaches have provided patients with clear genetic diagnoses and in many cases have led to improved clinical care. In addition, having a genetic diagnosis has allowed patients to consider informing their relatives that they might also be affected. But there are many single nucleotide variants that have been discovered that are neither clearly pathogenic nor clearly benign; these are termed variants of uncertain significance (VUS). The aim of the proposed Variant Validation Core (VVC) is to investigate VUS discovered in patients with kidney disease or a kidney developmental disorder for potential pathogenicity. The WC will assist users in the efficient and cost-effective determination of the potential for pathogenicity of DNA/RNA/protein variants discovered in patients that cannot be classified as pathogenic or benign. The VVC will use in silica and cell culture approaches to assay protein function, RNA splicing, and gene expression by comparing wild-type to variants. In addition, CRISPR/Cas9- mediated gene editing will be used to generate appropriate mouse models carrying VUS; these will be analyzed for kidney disease or disorders. The experimental approach for each VUS brought to the VVC by a user will be tailored for 1) the particular gene and protein that are potentially involved; and 2) the particular disease or disorder that would likely develop if the VUS is indeed pathogenic. The VVC will be a valuable national resource for both clinicians and researchers who find VUS as part of routine clinical care or in larger research studies aimed at defining the genetic bases for diverse kidney diseases. The results of the experiments carried out by the VVC will be directly relevant to patient diagnosis and may be informative for clinical care, thus potentially impacting both patients and their families. The VVC will interact with the other O'Brien Cores at Washington University and will coordinate with the National O'Brien Consortium and Steering Committee to provide the highest quality services for users."
+ },
+ {
+  "id": "ea10f4d7-6596-4222-af60-4111b30d9d55",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dissecting the effect of diet on gut microbiome metabolism",
+  "text": "Dysregulation of indole and phenol metabolite production by the gut microbiome is linked with many\ndiseases. Increasing circulating concentrations of indole or phenol metabolites has shown promise in\nameliorating inflammatory bowel disease or obesity in mouse models, respectively, but there are not currently\nmethods to increase gut microbiome production of these important metabolite. This proposal aims to define the\nrelationship between diet and production of indole and phenol metabolites, with the eventual goal to create\ndietary formulations to help treat microbiome-related diseases such as inflammatory bowel disease and obesity."
+ },
+ {
+  "id": "ea11b644-8a43-4931-9a2b-815ce853e2eb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Inhibiting Endothelial Apoptosis in Sepsis-Induced Lung Injury",
+  "text": "Sepsis-induced acute lung injury (ALI) and its severe form, acute respiratory distress syndrome (ARDS) have\nno effective treatment, and the ARDS mortality rate is up to 47%. In ALI/ARDS, some cells that line lung blood\nvessels undergo programmed cell death, and we wish to test whether ALI/ARDS can be inhibited by increasing\nthe survival of these cells (i.e., endothelial cells). Crucially, our studies will improve understanding of ALI/ARDS\nand could reveal a new treatment strategy for ALI/ARDS patients."
+ },
+ {
+  "id": "ea15e7b1-b2a7-44da-b6ba-fe94bdbfee33",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mitigation of Ionizing Irradiation-Induced Intestinal Damage by Second-Generation Probiotic LR-IFN-β",
+  "text": "Mitigating normal tissue toxicity after exposure to ionizing radiation is critical to reduce mortality and morbidity,\nboth for patients that receive pelvic or abdominal radiation therapy, and in the context of a RAD-NUC incident.\nWe have developed second-generation probiotics engineered to express the therapeutic cytokine INF-β that\nhas been shown to increase survival from 0–10% to 70–80%. The goal of this project is to perform key small\nanimal radiation dose response, pharmacodynamic, and drug characterization studies aligned with regulatory\napproval under the Animal Rule. If successful, this drug development effort will lead to the only FDA-approved\nradiation mitigator for GI toxicity."
+ },
+ {
+  "id": "ea16a2a8-8ca9-481b-9abb-c4c1ac095f42",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Endothelial Regulation of Astrocyte Trans-Differentiation in Stroke",
+  "text": "Endothelial regulation of astrocyte trans-differentiation in stroke\n The generation of new brain cells called neurons (i.e. neurogenesis) plays an important role in stroke\nrecovery. Here, we will investigate a novel phenomenon whereby cells from blood vessels in the brain (i.e. brain\nendothelium) can release unexpected molecular signals that convert a different type of brain cell called\nastrocytes into newborn neurons, thus augmenting neurogenesis and improving functional outcomes after\nstroke. Understanding the mechanisms of this new blood vessel-regulated phenomenon of neurogenesis may\nopen up new opportunities for pro-recovery therapies in stroke patients."
+ },
+ {
+  "id": "ea257fc4-fe9d-447e-9d31-95abd2622299",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Computational Mapping of Cerebral Metabolism During Development",
+  "text": "This project is highly relevant to public health as it aims to uncover the fundamental metabolic processes that\ngovern brain development, with a particular emphasis on central carbon metabolism. Understanding these\nprocesses is crucial, as disruptions in metabolism during critical developmental periods can lead to severe\nneurodevelopmental disorders. Therefore, this project supports the NIH’s mission to advance scientific\ndiscoveries that improve public health."
+ },
+ {
+  "id": "ea30c559-3df0-42cc-b5f3-bd4fd650d1f6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Understanding the Genetic and Epigenetic Mechanisms in X-linked Dystonia Parkinsonism and Repeat Expansion Diseases",
+  "text": "Somatic expansion of small tandem repeats (STRs) is thought to elicit toxic mechanism(s) in a vulnerable cell type(s) once the repeat exceeds a length threshold(s). This project explores the underlying genetic and epigenetic mechanisms driving STRs somatic expansion in X-linked dystonia parkinsonism (XDP) and C9orf72-\nassociated amyotrophic lateral sclerosis (ALS) and frontotemporal dementia (FTD, C9-ALS/FTD). This program study will identify the somatic expansion in brain single cells and the epigenetic mechanisms driven somatic\nexpansion and the results will enhance our understanding of the etiological role and pathogenic mechanisms associated with STRs and somatic expansion in human repeat expansion diseases (REDs)."
+ },
+ {
+  "id": "ea3162ac-640d-446a-b8a0-4df351fb32a6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Leveraging informatics to improve communication and outcomes of genetic counseling: The evolving landscape of cancer care.",
+  "text": "Progress in genetic counseling research is currently limited by bottlenecks associated with evaluating communication content to establish associations with outcomes and collecting and analyzing data at scale across broad populations. This project addresses both bottlenecks, advancing novel methods for assessing communication and associated patient outcomes including (1) replication of patient responses to communication patterns using agentic model(s) and (2) automating an existing clinical communication coding framework to increase the efficiency and scalability of communication evaluation and reduce existing barriers to broader implementation. Understanding which aspects of communication enable positive patient outcomes is critically needed, particularly as demand for hereditary breast and ovarian cancer genetic testing and counseling increases and eligibility criteria for testing expand."
+ },
+ {
+  "id": "ea31e0e5-a3cd-405d-99dc-00934dabc99b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A Chemoproteomic Approach to Identify Molecular Glues for Targeted Cancer Therapy",
+  "text": "This research investigates the pharmacological mechanisms underlying the efficacy and resistance of\nlenalidomide, a molecular glue degrader for the treatment of multiple myeloma. Furthermore, this study proposes\nan innovative approach for identifying novel molecular glues. By enhancing our comprehension of molecular\nglue activities, and offering a pathway to discover novel molecular glue compounds, this research has the\npotential to broaden the scope of druggable proteins and facilitate the development of novel therapies for\npresently untreatable cancers."
+ },
+ {
+  "id": "ea3ea806-2bf9-478a-b52e-8b2ecd08d48a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Three-dimensional fluorescence imaging flow cytometry at up to million frames per second",
+  "text": "The proposed technology will provide the first high-resolution imaging flow cytometry that can image small and\nlarge biological samples in three-dimensions with high-resolution. Such system will provide doctors with\nenhanced capabilities to diagnose patients with high accuracy and help scientists to significantly improve their\nresearch outcomes."
+ },
+ {
+  "id": "ea3efa0b-51de-414a-ba44-bd268cb42b6a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project 4: A Naturalistic Observation of Electronic Cigarettes and Oral Nicotine Pouch Product Use Among Adolescents and Young Adults",
+  "text": "The tobacco industry has historically manipulated nicotine in its products to increase their appeal and potential \nfor addiction for the widest possible audience, including young people and non-users. They are now doing this \nwith newer products, like e-cigarettes and oral nicotine pouches. Our center will study how these manipulations \naffect young people and adults, with the goal of helping the FDA develop regulations that will make these \nproducts less appealing to young people, including non-users, but not older adult smokers and smokeless \ntobacco users who may benefit from their use."
+ },
+ {
+  "id": "ea44bfbd-8be3-41e0-9569-01c48af96bc1",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Developmental Neurology",
+  "text": "The Developmental Neurology Training Program trains postdoctoral fellows in the laboratories\nof neuroscientists at Boston Children's Hospital and related institutions in the Harvard Medical\nArea. The trainees are engaged in ground-breaking research into the molecular mechanisms\nunderlying brain development, including studies of autism, epilepsy, Rett syndrome,\nspinomuscular atrophy, muscular dystrophy, and tuberous sclerosis. With significant attention\nto the skills needed for rigorous studies, the trainees are prepared for careers in fundamental\nresearch that are informed by clinical needs."
+ },
+ {
+  "id": "ea46b630-8041-471b-8c80-3ba7744b811c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Next-generation photoacoustic imaging for real-time, non-invasive monitoring of brain oxygen metabolism",
+  "text": "The proposed project aims to develop the next-generation photoacoustic computed tomography through an\nergodic relay (PACTER) device for noninvasive monitoring of cerebral metabolic rate of oxygen (CMRO2). This\nresearch will have a significant positive impact on public health by addressing the critical gap in noninvasive\nCMRO2 monitoring and providing clinicians with timely and crucial information for accurate diagnosis,\npersonalized treatment, and surgical decision-making. The development of next-generation PACTER will\nsignificantly advance brain health assessment, improve medical outcomes, reduce healthcare costs, and open\nnew horizons for intraoperative brain monitoring and advancements in optical imaging technologies."
+ },
+ {
+  "id": "ea47b78a-c201-441e-9b2d-054e9c207d36",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Predicting Intracellular Drug Concentrations In The Presence Of Transporters",
+  "text": "The overall goal of this research is to better predict drug efficacy and safety in humans. New in vitro methods\nand in vivo data will be used to develop new mathematical models that incorporate membrane partitioning,\npermeability-limited diffusion, blood flow, active transport, and metabolism in order to better predict intracellular\nand extracellular drug concentration-time profiles."
+ },
+ {
+  "id": "ea47bdef-8c8a-4837-8c45-333ffa699119",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Quantitative Oncology Research Program",
+  "text": "Quantitative Oncology Research Program Paul Spellman, Ph.D., and Laura Heiser, Ph.D., Program Co-Leaders The Quantitative Oncology (QO) Program is a multi-disciplinary research program formed to facilitate the development of advanced technologies for cancer measurements and treatment, deeply characterize the molecular and phenotypic states of cancers, and apply computational models to predict cancer behaviors and outcomes. Program members develop and apply advances in ‘omic and imaging technologies, coupled with big data analytics to enable quantitative understanding of the behavior of cancerous cells and tissues as they evolve, respond to therapy, and interact with their microenvironments. This collaborative research program is organized around three themes: 1) Technology Development (imaging, devices, and single-cell analyses), 2) Omics and Characterization (comprehensive assessment of cancer cells and tissues), and 3) Systems Biology (properties of cancer-related molecular networks, the molecular and cellular phenotypes they regulate, and their evolution and adaptation during cancer development and treatment). QO research and innovation provides a strong foundation for advances in the strategic priorities of the Knight Cancer Institute (KCI), Precision Early Detection and Precision Oncology. The expertise in QO is essential to the development and deployment of tools for comprehensive tumor analytics and the computational methodologies critical to detect early cancers, discover predictors of response/resistance to therapy, and drive novel combination therapy approaches. The QO Program is co-led by Paul Spellman, Ph.D., an expert in the application of translational cancer genomics to cancer detection and classification, and Laura Heiser, Ph.D., an expert in cancer systems biology and imaging technologies. The QO Program has 44 members drawn from six basic science departments and four clinical departments in the OHSU School of Medicine, and Pacific Northwest National Laboratory. Total cancer-related direct cost funding as of December 31, 2020 was $6,589,354, with peer-reviewed funding of $5,904,119, and $3,469,050 or 59% of peer-reviewed funding coming from the NCI. The discoveries made in this program have resulted in 507 publications, of which 27% are intra-programmatic collaborations, 48% are inter-programmatic collaborations, and 47% are inter-institutional. Program members have leading roles in many major NCI initiatives, including the Cancer Systems Biology Centers, the Genome Data Analysis Network and Human Tumor Atlas Network, and the Biden Cancer Moonshot grant, Evaluation of Population Based Testing for HBOC and Lynch Syndromes. Program members have leadership roles in data science initiatives including Galaxy and AnVIL, the NHGRI’s Genomic Data Science Analysis, Visualization, and Informatics Lab-space."
+ },
+ {
+  "id": "ea571f28-92e9-4bc5-b043-ae419ba50b70",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Effects of combined FAK inhibition with MAPK blockade in brain metastases from cutaneous melanoma",
+  "text": "Melanoma is an aggressive skin cancer that can spread to the brain, where current treatments are largely\nineffective, and patients survive only about a year after diagnosis. We found that a protein called focal adhesion\nkinase (FAK), which helps cancer cells spread to the brain, could be a promising therapeutic target in this\ndisease. Our project aims to test whether combining drugs that inhibit FAK with other therapies can better treat\naggressive melanomas and boost the body's immune response against the cancer."
+ },
+ {
+  "id": "ea58d087-0493-4af7-ab73-ccf0ff7a5563",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "An intelligent clinical decision support system for peripheral arterial disease",
+  "text": "Peripheral arterial disease (PAD) is the leading cause of non-traumatic amputation and impacts 8.5 to 12\nmillion Americans. Our work will develop and validate a deep learning-based system for extracting and\nsummarizing PAD-specific information form electronic health records. This project will enable future studies\nseeking to better optimize PAD care by allowing for accurate, reliable, and scalable digital chart review."
+ }
+]

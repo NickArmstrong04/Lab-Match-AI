@@ -1,0 +1,142 @@
+[
+ {
+  "id": "900ed503-1c76-4b1e-996c-53a98df6b211",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mitochondria-derived dsRNA in brain aging and Alzheimer's disease",
+  "text": "Mitochondrial dysfunction and neuroinflammation are major hallmarks of brain aging and age-related\nneurodegenerative diseases, such as Alzheimer’s disease, and although abnormal mitochondrial function\nappears to precede inflammation, it remains unclear if or how mitochondrial dysfunction initiates inflammation\nin brain aging and Alzheimer's disease. This project will explore the potential role of mitochondria-derived\ndouble-stranded RNA, which may be released due to mitochondrial dysfunction, in activating inflammatory\nsignaling as an early driver of age/Alzheimer’s disease-related neuroinflammation. The results may provide\ninsight into the biology of brain aging and the development of Alzheimer’s disease."
+ },
+ {
+  "id": "90122f8d-604f-4c45-8ac5-69239900dcc9",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "CGEC",
+  "text": "The Cellular and Genetic Engineering Core (CGEC) will provide molecular cloning and viral vector production services to COBRE research program leaders and non-COBRE members. The CGEC will consult with potential users to determine the best molecular tools to be used in their projects and will assist the user in deciding what are the necessary controls for their experiments. The CGEC is capable of creating customized gene expression plasmids that can be packaged into Adeno-associated virus (AAV), Retrovirus, or Lentivirus. In addition to creating plasmids to ectopically express cDNAs, CGEC is capable of creating customized cells capable of BioID, NanoBRET, and NanoBIT. All plasmids created by CGEC will be deposited with Addgene once the plasmid has been used in a publication. This will allow for easy dissemination to the broader scientific community. Moreover, the CGEC can create knock-out and knock-in cell lines using the CRISPR/Cas9 system. The Core is capable of creating these reagents for use in vitro and in vivo. The CGEC will provide services to investigators studying many different diseases."
+ },
+ {
+  "id": "90172cd2-80f8-4dca-8996-3c2f5669d0a4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Determining the Role of Glucose Transporter 1 in Neural Development and Disease",
+  "text": "PROJECT NARRATIVE.\nUnderstanding the role environmental factors in the temporal regulation of NSCs is critical to our understanding\nof brain development and the etiology of neurodevelopmental disorders. The proposed studies seek to\ninvestigate the genetic mechanisms through which NSCs regulate glucose uptake and metabolism in order to\ncontrol cell fate decisions. Through these studies we will gain novel insights into the mechanisms that underpin\nthe relationship between glucose homeostasis and neurodevelopmental disorders, including GLUT1-Deficiency\nSyndrome."
+ },
+ {
+  "id": "901bd04c-3e51-4e6f-aa70-1b6a908070cf",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "High-throughput in vivo and in vitro functional and multi-omics screens of neuropsychiatric and neurodevelopmental disorder risk genes",
+  "text": "There is an urgent need to develop biologically relevant, scalable systems for the functional analysis of\nneurodevelopmental and psychiatric disorder (NPD) genes to advance from gene discovery to biological targets.\nWe propose to establish an Assay and Data Generation Center as part of the SSPsyGene Consortium to screen\n250 NPD genes in parallel and develop innovate assays for multi-omics screens. Our overarching goal is to gain\nnew insights into the function of NPD genes and advance our understanding of the biology of these disorders."
+ },
+ {
+  "id": "901f3cd5-beff-4b3c-95b3-32b36269a5cb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Structural and mechanistic investigation into EWS::FLI1 disruption of EWS function in transcription and DNA repair",
+  "text": "Treatment of pediatric cancer is exceedingly challenging due to the irregular and inconsistent drivers and the\nneed to reduce off-target side effects of cancer treatments in still-developing children. Understanding the\nmolecular mechanisms driving oncogenesis in pediatric cancer is vital for the development of more effective\ntargeted therapeutics. The proposed study will investigate the structural basis for the homotypic interactions\nunderlying Ewing sarcoma and the effects of those interactions on transcription and DNA repair."
+ },
+ {
+  "id": "901f8afb-3803-43f2-a355-c06729ad59ef",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Bridging bench to bedside with aneurotechnology cross-development platform",
+  "text": "Advancements in neurotechnology are shaping the future of medical care for those suffering from neurological\nillness, disease, and injury. Unfortunately, it can take decades to bring such advances from the benchtop to the\nbedside in service of our Veterans. Translational success of implantable neurotechnology is constrained by the\ntime, money, and personnel resources required to transition from benchtop demonstrations to preclinical and\nclinical evaluation of implanted medical devices. Development ecosystems are either highly flexible and\nnecessitate significant redesigns before moving to final form; or highly specialized and prematurely limit the\nintegration of new technologies. Here, we create an ideal solution that would provide maximal flexibility, simple\nintegration of new components, and require minimal redesign for translation to preclinical and clinical studies.\nThe central focus of this research program is to create a hardware and software platform that reduces the cost,\ntime, and risk of device development, while maintaining component and design flexibility."
+ },
+ {
+  "id": "9022d115-f719-4086-a9ab-147a50a9f8aa",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Genetic Dissection of Cells and Organisms Training Program",
+  "text": "The Genetic Dissection of Cells and Organisms Training Program (GDTP) training aims to enable diverse\npredoctoral students to acquire fundamental knowledge and skills required for ethical, impactful, rigorous, and\nreproducible research in genetics, as applied to basic biological processes and human health. The GDTP will\nprepare trainees to successfully pursue a variety of career paths that intersect with genetics. This integrative\npredoctoral genetics training program and the discoveries made by its trainees will contribute to the NIH’s\nmission to develop, maintain, and renew scientific human resources for the nation, fostering its capacity to\nenhance health, extend lives, and reduce disease burden."
+ },
+ {
+  "id": "9023cc15-b353-496b-80cb-6f8c56684929",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "LysoPI/GPR55 pathway promotes endothelial activation, vascular inflammation and atherosclerosis",
+  "text": "The propose will examine the roles of a new pro-inflammatory molecule\nlysophosphatidylinositol (lysoPI) in endothelium activation, which would lead to the\ndevelopment of new therapeutics for cardiovascular diseases and stroke."
+ },
+ {
+  "id": "903a3617-0b98-4fc6-86fc-ca6bb866704c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Integrating multi-omics, imaging, and longitudinal data to predict radiation response in cervical cancer",
+  "text": "Cervical cancer patients treated with standard of care (SoC) chemoradiation therapy (CRT) commonly\nexperience disease recurrence, and current clinical testing and genomic research data cannot predict which\npatients will fail therapy or would benefit from personalized treatment. Based on our recent publications\nintegrating genomic and imaging data to improve CRT risk stratification, we intend to stratify patients into groups\nwith distinct mechanisms of resistance and validate precise treatment targets using large multi-omics\n(transcriptomic, radiomic, proteomic, and metabolomic) and longitudinal data. In this proposal, we will develop\nnew radiogenomic and deep learning approaches to identify novel biomarkers from these high-dimensional and\ncomplex data and will experimentally validate these targets in vitro and in patient samples."
+ },
+ {
+  "id": "903d8cb2-592e-4bb2-b6ed-d2226de29574",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Accelerated dissociation of IgE receptor complexes",
+  "text": "IgE antibodies interact with two receptors, the high affinity FceRI receptor and low affinity FceRII/CD23\nreceptor, to mediate different biological functions associated with the allergic cascade. In this proposal, we will\ninvestigate the structures and functions of anti-IgE and anti-FceRI antibodies and also probe how CD23\ninteracts with IgE and CD21 ligands. These studies will provide novel reagents for studying and blocking\nIgE:receptor interactions that centrally regulate the allergic response and new insights into the biological\nfunctions of IgE and its receptors."
+ },
+ {
+  "id": "90434cb2-d28c-45f2-9610-8d4852a6445b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting drivers of tumor heterogeneity to block the progression to neuroendocrine prostate cancer",
+  "text": "Lineage plasticity is an emerging mechanism of therapeutic resistance in advanced prostate cancer. As more\nmen are treated with next-generation androgen receptor targeted therapies, the incidence rate of resistant\ndisease is on the rise. These studies aim to understand the molecular mechanisms underlying the process of\nlineage plasticity, identify biomarkers of cells that are likely to develop resistance to therapy, and propose new\nstrategies to improve outcomes for prostate cancer patients."
+ },
+ {
+  "id": "9044cdcc-55dc-417e-8b89-1366c87f8387",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Single-cell transcriptional atlas of Giardia encystation",
+  "text": "Giardia is the causative agent of giardiasis, a prevalent gastrointestinal illness that results in diarrhea and\nmalabsorption in more than 200 million people each year. This proposal investigates encystation, the act of\ndifferentiating into environmentally resistant cysts that are the means of dissemination for this parasite.\nEncystation involves parasite detachment from the host intestine; therefore, misregulation could be exploited to\nblock transmission or to clear infection."
+ },
+ {
+  "id": "9047e33f-5e8c-4bea-813d-97e56f293c82",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Isoform-targeting therapeutic development for the human brain",
+  "text": "Recent advances have enabled the identification of disease-associated isoforms from long-read transcriptomic\ndata. This project will identify mRNA isoforms that are differentially expressed in Alzheimer’s disease through\nthe integration of long-read transcriptomic datasets from human brain tissue. Initial RNA therapeutics will then\nbe developed to modulate these isoforms."
+ },
+ {
+  "id": "9050797e-5b58-4cc0-a8b1-b3ebf9259691",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Extracellular protease modulation of the cilium transition zone in kidney development and disease",
+  "text": "Our recent discoveries suggest that the ADAMTS9 metalloproteinase and cleavage of a novel substrate\nTMEM67 have major roles in kidney disease related to ciliopathies. ADAMTS9 and TMEM67 mutations\nresult in the cystic kidney disease nephronophthisis (NPHP). We propose to investigate ADAMTS9-\nmediated TMEM67 cleavage as a novel disease mechanism crucial for normal kidney development and\nciliogenesis."
+ },
+ {
+  "id": "90552dcc-3cde-4258-ad05-267ee8b4af5b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Wearable Computational Sensing of Optical Biomarkers for Inflammatory Skin Diseases",
+  "text": "This research introduces optical biomarkers as a non-invasive modality for quantifying cutaneous immune\nactivity. By enabling remote, objective monitoring of inflammatory skin diseases such as allergic contact\ndermatitis, it has the potential to improve diagnostic accuracy and guide personalized treatment. Long term,\nthese innovations may reduce healthcare burden, improve patient outcomes, and expand access to care for\npatients with inflammatory skin diseases."
+ },
+ {
+  "id": "905667c3-b47c-4a7b-b434-2439b0a27a08",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Decoding Locus Coeruleus Neural Circuits and Signaling In Negative Affect",
+  "text": "Achieving a more complete understanding of the neural circuits, receptors and signal\ntransduction pathways in the mammalian brain is crucial for further development of effective therapeutic\ntreatments and the identification of novel drug targets for affective disorders including anxiety. The studies\nhere have the potential to open new pharmacological avenues for targeting the noradrenergic system for\npsychiatric illnesses."
+ },
+ {
+  "id": "905b7d2b-f798-498d-9478-185d1a555a77",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Biomarker Signatures for Duchenne Muscular Dystrophy",
+  "text": "Blood-based biomarkers are urgently needed as alternative outcome measures in DMD. In this study, we seek\nto define monitoring biomarker signatures for DMD to assess disease course and changes in disease. We will\nuse longitudinal serum samples including clinical data collected from well defined and well annotated cohorts\nand apply our internally developed and validated quantitative proteomics assays to develop such biomarker\nsignatures. Finally, the signatures developed will be validated in external samples."
+ },
+ {
+  "id": "905d7093-60e4-43e2-831c-4425dcb1c63c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A home-based intervention to improve adherence to the 24-Hour Movement Guidelines in young children",
+  "text": "Few young children meet the recently adopted World Health Organization recommendations for movement \nbehaviors (physical activity, sleep, and screen-time), known as the 24-Hour Movement Guidelines, putting \nchildren at risk for more behavioral problems, poor cognitive development, delayed motor skills, and obesity. \nThis study will advance current literature by addressing all three behaviors together and within the setting \nwhere all three behaviors occur, the home. This pilot study will evaluate the feasibility and preliminary \neffectiveness of a theoretically grounded and home-based mHealth intervention to improve adherence to the \n24-Hour Movement Guideline, and ultimately child mental and physical health."
+ },
+ {
+  "id": "9064fae9-85eb-4ba0-86c1-f3884ec93044",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Systems Biology Modeling of Severe Community-Acquired Pneumonia",
+  "text": "Project Summary/Abstract – Project 1. Pandemic community-acquired pneumonia (CAP) secondary to infection with the severe acute respiratory syndrome coronavirus-2 (SARS-CoV-2) brought the public health importance of CAP into sharp focus. Investigators in the Successful Clinical Response in Pneumonia Therapy (SCRIPT) systems biology center developed a robust research infrastructure to prospectively collect 1,567 serial distal respiratory samples from 595 patients with severe CAP and hospital acquired pneumonia (HAP) requiring mechanical ventilation and analyze these clinical samples using state-of-the art multi-omics approaches. We leveraged these data to generate a systems model of SARS-CoV-2 pathogenesis and applied it toward a successful clinical trial of Auxora, a calcium release activated channel inhibitor, that resulted in a 53% reduction in 30-day mortality in a phase II trial. In Super-SCRIPT (SCRIPT2), we propose to leverage and expand the longitudinal clinical and molecular data in SCRIPT. By applying machine learning to clinical data, we observe that patients with severe pneumonia undergo transitions between distinct, clinically recognizable states over the course of their hospitalization that are associated with more or less favorable outcomes. These transitions will serve as the foundation for a model incorporating preliminary data generated from BAL and serum analysis that includes single-cell RNA-sequencing of more than 500,000 bronchoalveolar lavage cells, cytokine levels, proteomic, T cell epigenomic, and microbiome analyses. We will use these clinical and molecular data to test the hypothesis that machine learning approaches applied to a latent space model of disease pathogenesis can identify molecular predictors of favorable and unfavorable clinical transitions/outcomes during the clinical course of CAP. A corollary hypothesis is that perturbations of these determinants during controlled clinical trials of pharmacologic interventions will allow iteration of the models’ predictive capabilities. We will address these hypotheses in three Specific Aims: Aim 1. To identify clinical predictors of favorable and unfavorable clinical transitions/outcomes over the course of CAP in patients requiring hospitalization. Aim 2. To determine distinct host or pathogen genomic features that predict favorable or unfavorable clinical transitions/outcomes in patients with severe CAP. Aim 3. To identify pathways that can be targeted for therapy with existing or newly developed therapeutics. SCRIPT2 draws on successful collaborations between clinicians, biologists and data scientists to organize clinical data, process distal lung samples and integrate disparate datasets into latent space models to develop large scale models of pneumonia that can be rapidly translated into care pathways and novel therapies."
+ },
+ {
+  "id": "90653515-b09c-4b17-98d6-de1c671aa73b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular and Functional Characterization of Transcriptionally Defined Subpopulations of VTA Dopamine Neurons",
+  "text": "Further exacerbated by the COVID-19 global pandemic, the rate of overdose related deaths has increased to\nover 107,000 in 2022. This proposal will investigate the role of dopamine and dopamine-glutamate combinatorial\ncells, cell types that have additionally been found in humans, within the rat mesolimbic dopamine pathway. This\nwork will parcel out the role of these cell types in reward, cocaine use, and substance use disorder to pave the\nway for more targeted therapies and deeper comprehension of the complex interplay between the brain,\nbehavior, and addiction."
+ }
+]

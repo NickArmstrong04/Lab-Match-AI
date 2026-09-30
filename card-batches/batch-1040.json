@@ -1,0 +1,142 @@
+[
+ {
+  "id": "e4a67687-2795-40b2-bad6-0ede66220e6b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Leveraging fructose transport to create a privileged substrate to selectively fuel T cells",
+  "text": "It has been shown that T-cell therapies are hindered by a dearth of metabolic precursors in the tumor\nmicroenvironment. In this work, we will develop newly engineered T cells that can kill tumors leveraging a\nnutrient available in the tumor microenvironment from our diet, fructose, and also novel strategies to image\nfructose metabolism to provide imaging metabolic biomarkers of tumor metabolism and treatment response.\nThis work will advance the treatment of a range of solid tumors and develop non-invasive metabolic\nbiomarkers for cancer immunotherapy."
+ },
+ {
+  "id": "e4aa845d-0c7a-46e2-ae54-b02629a9657a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Yale-UNC Head and Neck Cancer SPORE: Overcoming Treatment Resistance in Head and Neck Cancer",
+  "text": "OVERALL NARRATIVE\nThe Yale-UNC Head and Neck SPORE is a team of clinical and laboratory researchers studying the problem of\ntreatment resistance in head and neck cancer. Each of four projects brings a basic and clinical research leader\nworking together to study ways to overcome resistance to common therapies, such as cetuximab, as well as to\nfind ways to make head and neck cancers more sensitive to immunotherapy. The projects are supported by core\nfacilities to provide administrative, pathology and statistical support, and there are funds to support new projects\nand new investigators."
+ },
+ {
+  "id": "e4aec7ad-a037-4616-a993-14eecbe6e6bc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Differential function and tumor vulnerabilities revealed by RAS membrane trafficking",
+  "text": "RAS genes are mutated in human cancer more frequently than any other and the\nproteins they encode require association with cellular membranes to function. Over the\npast two decades we have studied the mechanisms that allow RAS to associate with\nmembranes and now propose to build on this work to identify vulnerabilities that can be\nexploited in the development of novel anti-cancer therapies."
+ },
+ {
+  "id": "e4b737b1-4bdd-48ed-afd6-17f33bca63d3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Data-driven biomolecular structure modeling for cryo-EM maps",
+  "text": "Cryo-electron microscopy is an emerging technique for determining the three-dimensional structure of\nbiological macromolecules. I will continue to develop computational methods that can accurately and\neffectively model and interpret structures of biomolecules embedded in electron microscopy density maps and\nthereby facilitate the understanding of molecular mechanisms of protein function and disease."
+ },
+ {
+  "id": "e4bb347b-0835-4516-a5f2-4d8f81195858",
+  "want_sentence": false,
+  "want_terms": true,
+  "title": "Integrating imaging and multi-omics data to infer single-cell 3D genome structures",
+  "text": "We will develop integrative methods for inferring high-resolution single cell genome structures from sparse\nimaging and multi-omics data. We will analyze the 3D genome structures to derive structure-Function mapping.\nThe computational methods and the functional insights will deepen our knowledge in gene regulations and\ncellular activities."
+ },
+ {
+  "id": "e4bb4aab-9dc3-4b31-bdf1-6736e270234a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Treg-mediated tolerance of dystrophin immunity",
+  "text": "This study seeks to define the role of Dys-specific T cells in the context of adeno-associated virus-\nmicrodystrophin (AAV-µDys) gene therapy for DMD patients. This study will explore the use of novel biologics\nthat selectively target and expand regulatory T cells (Tregs) as a therapeutic approach that inhibits Dys-\nspecific T cells and promotes dystrophin tolerance in DMD patients."
+ },
+ {
+  "id": "e4bc76f4-3489-44ce-b689-9696303961d3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Tubulinopathy and visual disorders",
+  "text": "Microtubules are ubiquitous cytoskeletal filaments essential for the function of eukaryotic cells. These polymers comprising -tubulin heterodimers are critical for diverse cellular functions, including ciliogenesis. The functional diversity of microtubules is attributed to the incorporation of various - and -tubulin isotypes, each encoded by different genes. Mutations in human tubulin genes have been linked to various tissue specific diseases, suggesting unique functions for each isotype. Specifically, mutations in the 4B-tubulin gene (TUBB4B) are associated with sensorineural hearing loss and Leber Congenital Amaurosis, a severe childhood blindness. Currently, therapeutic options for tubulinopathies are limited. Consequently, there is a critical need to develop tractable animal models to explore pathomechanisms and potential therapeutic interventions. Existing Tubb4b mouse models do not exhibit visual impairment, limiting the potential to address visual deficits associated with tubulinopathy. To address the gap, we performed CRISPR-mediated tubulin knockdown in zebrafish, which resulted in impaired retinal development and visual function. This finding demonstrates that zebrafish provide a tractable model for studying visual impairment in tubulinopathy. Our immediate objectives are: 1) to develop a stable zebrafish tubb4b model and 2) to determine how distinct tubulin isotypes contribute to retinal function. This project will generate a novel zebrafish model to assess the need for TUBB4B, a protein linked to blindness, in the retina. This proposal builds the foundation for an R01 submission where we will be well positioned to address how 1) specific tubulin isoforms impact photoreceptor physiology and structure, 2) specific tubulin alleles associated with tubulinopathy impact the retina and vision, and 3) screen drugs that improve retinal phenotypes in our model. These aims align with the National Eye Institute's strategic plan, specifically Area of Emphasis #1, From Genes to Disease Mechanisms. We are modeling genetic blindness linked to tubulin in zebrafish to elucidate the mechanisms behind the disease, which is fundamental knowledge needed to develop therapeutic strategies."
+ },
+ {
+  "id": "e4bc854d-f518-493a-8cfc-22ce6e189731",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mass Spectrometric Tissue Imaging of Sugars, Glycans, and Glycoconjugates",
+  "text": "The goal of this project is to establish mass spectrometry imaging capability to enable the more accurate and\ncomprehensive characterization of glycome (the entire carbohydrate repertoire) at near single-cell resolution.\nThis capability will incorporate a series of innovative advancements to mass spectrometry imaging, ion mobility,\nion activation, on-tissue chemical derivatization and enzymatic digestion, glycan enrichment, and micro-\nprocessing of small amounts of material to overcome current limitations in glycome spatial analysis. The ability\nto map the dynamic and heterogeneity of glycome to tissue functional units and cells will greatly assist in\nidentifying carbohydrate structures underpinning cellular function in the tissue context."
+ },
+ {
+  "id": "e4c9f47d-c3af-49b2-8848-64cca7071202",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Circadian SCN-Liver Axis in the Neuroendocrine Response to Calorie Restriction",
+  "text": "A major function of the circadian system is to align feeding and metabolic cycles to optimize nutrient storage and\nutilization across the light/dark cycle, though how the clock senses changes in nutrient availability to maintain\nmetabolic homeostasis throughout the day is not well-understood. The major goals of our proposed studies are\n(i) to dissect the mechanisms underlying the role of the clock at the level of liver and brain in maintaining energy\nconstancy during fasting/sleep, and (ii) to dissect the molecular basis for nutrient sensing by the clock that\nunderlies the physiologic adaptation to healthful calorie restriction. Results from the proposed studies will\nelucidate how the clock sustains the vital provision of energy to brain during sleep and how calorie restriction\nacts through the clock to improve health."
+ },
+ {
+  "id": "e4caf0ac-2e4b-4ea6-9d04-e04d733ed220",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Resubmission: A Mechanistic Study to Investigate tDCS and Working Memory in MCI Patients",
+  "text": "Working memory, a sub-cognitive domain that provides temporary storage of memory to perform complex\ncognitive tasks, is essential for maintaining activities of daily living and one of the first functions to decline\nin older adults with cognitive impairments including Alzheimer’s disease and related dementia. The proposed\nproject and the training components associated with this project will examine working memory gains induced\nby transcranial direct current stimulation (tDCS) as a cognitive intervention method in cognitively healthy\nand impaired cohorts. Results from this study will promote a better understanding of mechanistic properties\nunderlying working memory gains with tDCS and guide future intervention strategies to combat cognitive\ndecline and improve the quality of life of aging and dementia populations."
+ },
+ {
+  "id": "e4cdbd50-3815-4ded-b8b6-34b78682403f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "OFC Astrocytes and Ethanol",
+  "text": "Identifying factors that underlie the development of excessive alcohol consumption is critical for\ndeveloping effective treatments for alcohol use disorder. In this application, we focus on\nastrocytes in the orbitofrontal cortex (OFC) and how they contribute to changes in OFC neuron\nexcitability and control over alcohol drinking."
+ },
+ {
+  "id": "e4d8ba51-e3ca-4ca0-bc91-7faec5944051",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mapping endogenous protein dynamics in living cells",
+  "text": "This project aims at developing microscopy and computational platforms for the analysis of mammalian cell\nlibraries with endogenously tagged proteins. These new tools will enable proteome-wide analysis of protein\nlocalization and interaction networks in a native cellular context."
+ },
+ {
+  "id": "e4dde590-caad-40a7-a1a9-bfd965f553a2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The role and mechanism of alternative RNA splice variants and gene fusions as drivers of cancer",
+  "text": "Human brain tumors are genomic heterogeneous within the tumor population and very large datasets of clinical\nand molecular data on large numbers of patients have been created. Over the past 25 years, my laboratory\nhas worked on modeling brain tumors in mice and correlating those findings with data from human brain tumor\npatients and have developed unique big data visualization tools that allow the interactive interpretation of these\ndata. We are now using our mouse modeling technology to understand the biology of rare tumors driven by\ngene fusions and the role of RNA splicing variants of TrkB in development and oncogenesis."
+ },
+ {
+  "id": "e4defbbc-6225-4583-b97b-c8f58d17e83b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Quantitative magnetic resonance imaging for non-invasive breast cancer therapy using physics-informed neural networks.",
+  "text": "Breast cancer is the most diagnosed cancer worldwide, accounting for an estimated 12% of all cancer\ncases in 2020, with promising noninvasive treatments under active development. This proposal aims to\ndevelop physics-informed machine learning and magnetic resonance imaging techniques for evaluating\nnoninvasive focused ultrasound treatments for breast cancer. Development of these techniques will provide\nefficient breast MRI exams for clinical use, support the collection of images to evaluate focused ultrasound\nbreast cancer treatments, and advance current understanding of applying machine learning models to\nmagnetic resonance imaging."
+ },
+ {
+  "id": "e4dfff42-6ec4-4886-a398-914135a5d84c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Physiological Characterization of PBN CGRP Neurons During Chronic Opioid Exposure and Withdrawal",
+  "text": "Opioid withdrawal leads to somatic symptoms and aversive states – both of which activate neuronal circuits\ninvolved in processing aversive experiences. The external lateral parabrachial nucleus (elPBN), which houses a\ncalcitonin gene-related peptide (CGRP) population, is known to be a critical hub for relaying information about\naversive experiences and, therefore, may be a compelling region for studying opioid withdrawal. This project\naims to determine if elPBNCGRP neurons play an important role in opioid withdrawal, ultimately determining if the\nCGRP population is a targetable population for therapeutics."
+ },
+ {
+  "id": "e4e001d3-ed37-481d-b920-0cc43d956487",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of vesicular trafficking proteins in regulating centrosomes",
+  "text": "This application requests an administrative supplement to the parent NIGMS R15\nresearch award 7R15GM152965-02 to purchase a LI-COR Odyssey XF Imaging Bundle —\nBasic that will replace an unreliable end-of-life LI-COR Odyssey Fc imaging system. The\nrequested equipment is essential for completing the approved parent project investigating how\nvesicular trafficking proteins regulate centrosomes. Successful completion of this project will\nadvance fundamental knowledge of centrosome biology and cell division, processes relevant to\nhuman diseases including neurodevelopmental disorders and cancer."
+ },
+ {
+  "id": "e4e3f8c6-09ac-4f4d-9ac5-c534ad88737c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Iron Trafficking and Regulation in Biological Systems",
+  "text": "Iron and copper are essential for human health but they can also damage cells and entire organs.\nThus, understanding how these metals are imported into our bodies and cells, and how they move\nwithin cells, is highly significant. In this project we will characterize metal “trafficking” and\nregulation in cells and in the blood, with the ultimate aim of developing better treatments for metal-\nrelated diseases."
+ },
+ {
+  "id": "e4e6fa2a-0af3-43f5-8371-633ace4dd351",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "RNA Recombination in Coronaviruses",
+  "text": "Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) is the etiological agent responsible for COVID19 disease in the current pandemic. RNA recombination is required during normal replication to generate subgenomic mRNAs required for protein expression, gives rise defective viral RNAs and generates numerous structural variants that facilitate adaption and evolution of SARS-CoV-2. We will characterize the molecular mechanisms that determine the sites and rates of RNA recombination and learn how selection in different physiological environments results in the selection and emergence of novel variants of SARS-CoV-2."
+ },
+ {
+  "id": "e4ebdf89-dafa-411b-b0f5-8f63b27ccc5d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cellular Determinants of HCMV infection",
+  "text": "Human Cytomegalovirus (HCMV) causes permanent neuronal damage in thousands of infants in the United\nStates every year and is responsible for significant disease and death in individuals with weakened immune\nsystems, including transplant recipients and some cancer patients. Our proposal focuses on understanding the\nmechanisms by which a viral protein, UL26, modulates the activity of JUNB, a cellular transcription factor. Our\nresults suggest that in the absence of UL26, JUNB induces an anti-viral state to inhibit viral replication.\nUnderstanding the mechanisms through which these cellular proteins impact infection could pave the way for\nnovel therapeutic strategies to combat viral pathogenesis."
+ },
+ {
+  "id": "e4ec51f9-65f2-4328-8692-e343bdd0296e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Structured quantification of inherited macular disease phenotypes as the basis for automated algorithms to determine causal genes",
+  "text": "The ability to obtain a molecular diagnosis in patients is essential for understanding the cellular etiology, clinical\nprognosis, and treatment prospects of inherited macular dystrophy —a heterogeneous group of genetic disorders\ncharacterized by progressive central vision loss. Genetic testing has recently become more accessible to\npatients with IMD, however, testing outcomes are often inconclusive due to the difficult task of identifying a single\ncausal gene across the immense and complex landscape of the human genome. Using advanced diagnostic\nretinal imaging modalities, this research proposal will decipher precise phenotypic differences between IMD\ngenes and create a prediction tool to help improve genetic testing outcomes for patients."
+ }
+]

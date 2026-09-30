@@ -1,0 +1,142 @@
+[
+ {
+  "id": "28ba7491-4e35-4ee1-af8c-bf6260af064f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A Fully Patterned Human Neural Tube Model Using Microfluidics",
+  "text": "Knowledge of human central nervous system (CNS) development has been significantly limited by the\navailability of human nervous tissues. This research will apply recent advances in stem cell-based in vitro\nmodels of human CNS development to investigate some key molecular and cellular events involved in early\nhuman CNS development. In addition to advancing knowledge of human CNS development, our research\ncould assist in the rational design of differentiation protocols of human stem cells for CNS disease modeling\nand cell therapy, and in high-throughput drug and toxicity screens for prevention and treatment of CNS\ndiseases."
+ },
+ {
+  "id": "28bc174a-7635-4b89-aca7-9fb1342d7515",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A Real-Time Hyperspectral Laparoscopic Stereo Imaging System for Robot-Assisted Surgery",
+  "text": "Minimally invasive surgery affords the advantage of faster recovery, reduced hospital stays, improved functional outcomes\nand a quicker return to normal activities, as compared to open operations. The proposed hyperspectral laparoscopic\nstereo imaging system, which is enhanced by our advanced deep learning AI algorithms, can detect malignant and vital\ntissues during robot‐assisted laparoscopic radical prostatectomy and therefore potentially improve the oncologic outcome\n(undetectable prostate‐specific antigen with no evidence of cancer recurrence) and functional outcome (recovery of\ncontinence and erectile function). The real‐time hyperspectral laparoscopic stereo imaging system will be integrated with\nthe commercial da Vinci robot and will provide new capabilities of detecting cancerous tissue and mapping physiological\nparameters during surgery, in turn helping reduce cancer recurrence and improve survivals and surgical outcomes."
+ },
+ {
+  "id": "28c061de-cd43-4988-a4bc-d4fa19412441",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Delineating the role of TREM2 in chronic pancreatitis",
+  "text": "Our study investigates the role of TREM2 in restraining chronic pancreatitis by suppressing fibro-inflammatory\nresponses. Through comprehensive analyses of human chronic pancreatitis samples and novel transgenic\nmouse models, we elucidate TREM2's impact on macrophage phenotypes and the inflammatory milieu. Our\nfindings offer new perspectives on the mechanisms underlying pathogenic inflammation and macrophage-\nfibroblast interactions."
+ },
+ {
+  "id": "28c7d845-fe52-45ba-a7a1-2fee2248ea41",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Protein-nanoparticle interaction to study multicellular crosstalk within ovarian tumor microenviroment",
+  "text": "The tumor microenvironment (TME) plays a critical role in poor prognosis in many cancers including ovarian and\npancreatic cancer. However, key perpetrators executing the multicellular crosstalk within the TME still remains\nelusive. Exploiting protein-nanoparticle interaction to investigate multicellular crosstalk within the TME will offer\nnew avenues for biological characterization of the disease."
+ },
+ {
+  "id": "28cc1a78-2cff-40cf-ad74-b691084869b7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Integrative analysis of whole genomes and transcriptomes from multiple cell types in rare disease patients",
+  "text": "Whole-genome sequencing (WGS) studies of rare diseases typically fail to identify an underlying genetic cause\nin a majority of enrolled patients. Supplementing WGS with RNA sequencing of multiple blood cell types provides\nan opportunity for addressing this gap. We will develop approaches for exploiting such data, and apply them to\ndiscover new causes of disease in a unique cohort of a thousand rare disease patients, boosting the diagnostic\npower of genetic testing and broadening access to precision medicine."
+ },
+ {
+  "id": "28cc4c3d-99e4-49cf-b332-6c50721dd706",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identifying the core transcriptional regulatory network initiating a tooth program",
+  "text": "Tooth loss is one of the most common organ failures. However, our current understanding of the initiation\nstages of tooth development is limited. The overall objective of this proposal is to dissect the molecular and\ncellular mechanisms of tooth initiation, particularly the core transcriptional regulatory networks that drive\nspecification of dental lamina, versus other epithelial fates, within the maxillary and mandibular ectoderm.\nThe long-term goal is to apply the mechanisms uncovered for regenerative therapeutic approaches."
+ },
+ {
+  "id": "28cd581d-503d-45c1-8e13-d744a7fae237",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mapping, programming, and correcting gene regulatory sequences for Alagille Syndrome",
+  "text": "This proposal aims to understand how regulatory DNA sequences quantitatively tune gene expression in specific\ncell types and/or disease contexts, and how we can engineer these sequences to reprogram gene expression\nto restore function in the context of Alagille Syndrome. Our approach combines reading and writing of the\ngenome in human pluripotent stem cells that can be used to model the functions of cells from human blood\nvessels. Our study will lay the foundations for future studies to develop CRISPR therapeutics for Alagille\nSyndrome and other diseases."
+ },
+ {
+  "id": "28cf8adc-55df-482c-89cb-c0dbdd491bd3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Stanford's Translational Biomedical Imaging Instrumentation (TBI2) Training Program",
+  "text": "Stanford’s Translational Biomedical Imaging Instrumentation (TBI2) training program is a multidisciplinary\npredoctoral training program that will train the next generation of researchers and inventors of biomedical\nimaging technology. Trainees will gain expertise in multiple medical imaging modalities, rigorous and\nreproducible experimental design, and translational applications. Trainees that complete our training program\nwill have a unique skill set that fullfills a distinct national need for researchers and leaders with expertise in\nadvanced biomedical imaging instrumentation."
+ },
+ {
+  "id": "28d475fe-1ba7-45ed-8e67-669bc5cae950",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multimodal intraoral camera",
+  "text": "Light Research Inc will develop a compact multimodal intraoral camera with four distinct and complementary\nimaging modalities for detecting and diagnosis of caries and crack. The novel and unique intraoral camera will\nenable earlier detection, more accurate diagnosis, earlier application of preventive modalities of treatment, and\nan overall improvement in the oral health of the public."
+ },
+ {
+  "id": "28d62d01-47a8-4365-9f17-0ded4bce93b9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of an AI-driven robotic TMS system for versatile, high-resolution cortical mapping",
+  "text": "Transcranial magnetic stimulation (TMS) is a safe, non-invasive technique that uses magnetic fields to activate\nspecific brain regions, but current methods rely on manual positioning that can be off by several millimeters,\nreducing treatment effectiveness and research reliability. This project will develop a robotic system with artificial\nintelligence that automatically positions the TMS device with millimeter precision and learns in real-time to\noptimize brain stimulation, making treatments more accurate and efficient. The research will train undergraduate\nstudents in cutting-edge neurotechnology while creating an affordable system that could improve brain\nstimulation treatments for conditions like depression and enhance neuroscience research capabilities."
+ },
+ {
+  "id": "28d739ac-db79-4a5f-be23-5ef7bef2248a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Core B - Mutant Mouse Core",
+  "text": "CORE SUMMARY Core B will provide mutant mouse strains required for this IR-PPG. It is an essential Core that will provide PD1/LAG3 floxed mice combined with a unique collection of temporally controlled, lineage-specific Cre mice. AIM 1: To provide the core mutant mice. The Core will be administered from Pitt, with the majority of mutant mouse breeding and procurement outsourced to Taconic under Murine Pathogen Free barrier conditions identical to the majority of its commercial breeding practices. Taconic will generate ~130 mice every month to all research sites using its standard delivery mechanism of a “clean truck shipment system”, thereby avoiding lengthy quarantine and expediting Project research. The total cost per mouse (~$67) is lower than most/all inbred mutant mice from commercial vendors (e.g., CD45.1[JaxBoy]: $74; Pdcd1–/–: $324). Core B will work with Core A to provide all published strains, particularly unique Cre lines, to investigators outside of IR-PPG via Taconic, essentially free (85 investigators thus far), serving as a valuable resource for the scientific community. AIM 2: To generate new mutant mice and combinations. Core B will generate one new mutant mouse strain per year to expand our “immunological toolbox”. We are currently in the process of generating new and more practical Cre and CreERT2 lines that selectively target CD4+ Tconv. Additional strains will be decided with careful consideration and guidelines mediated through Core A and anticipate that we will identify a target gene through the CRISPR screens. These new strains will be generated, validated and banked at Pitt (embryos/sperm) before being established at Taconic and/or shipped directly to the Projects. IR-PPG Interactions: In addition to supporting all three Projects, Core B interacts with Core A to provide easy access to breeding, shipping, and genotyping data, ongoing monitoring, and shipping to outside investigators."
+ },
+ {
+  "id": "28e57a9e-a181-4704-9bdc-1b9831791e1d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of Stem Cell-based Therapies for Limbal Stem Cell Deficiency",
+  "text": "Damages to the limbal stem cell or their niche microenvironment could lead to limbal stem cell deficiency (LSCD),\na potentially blinding disease. The proposed studies aim to establish secreted biomarkers of cultivated LSCs\nand tears using molecular techniques (liquid biopsy). In parallel, in vivo biomarkers of LSCD from multimodal\nimaging using deep learning will be carried out, which will greatly raise the standard of care for LSCD."
+ },
+ {
+  "id": "28e64b7c-4ae4-4ff8-a7bd-93a99547ea1f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Biostatistics and Quantitative Sciences Shared Resource",
+  "text": "BIOSTATISTICS AND QUANTITATIVE SCIENCES SHARED RESOURCE: ABSTRACT Biostatistics and Quantitative Sciences Shared Resource (BQS-SR) is a University of Florida Health Cancer Center (UFHCC) managed shared resource whose objective is to provide UFHCC members with a centralized resource for biostatistics, bioinformatics, computational biology, clinical trial support, and expertise in quantitative science to ensure scientific rigor in cancer research. The BQS-SR meets this objective by providing interdisciplinary collaborative support to members across the 3 research programs at all stages of their research. BQS-SR assists with experimental design, sample size and power evaluation, randomization and stratification procedures, study execution, data analysis, and publication of new findings in the understanding, prevention, and treatment of cancer. The BQS-SR is directed by Lee (CCPS), with >20 years of experience as a member or leader of a biostatistical shared resource at NCI-Designated Cancer Centers, with support from Unit Leaders for bioinformatics and computational biology, clinical trials, and statistical genomics. BQS-SR is staffed by 12 personnel (a total of 7.5 UFHCC-supported FTE), comprised of 4 Biostatistics faculty, 1 Bioinformatics faculty, 5 Biostatistics staff scientists, and 2 Bioinformatics staff scientists. Additionally, BQS-SR serves as a liaison and matchmaker between existing campus-wide specialized quantitative scientists and UFHCC members to support specialized needs of externally funded cancer research projects. BQS-SR faculty are aligned to each of the Research Programs and Disease Site Groups to ensure ready accessibility to UFHCC members. BQS-SR promotes rigor and reproducibility by collaborating with and educating investigators, trainees, and research staff through seminars, individual sessions, and short courses tailored to cancer researchers. BQS-SR ensures the integrity of clinical research by participating in the IIT Think Tank, Scientific Review and Monitoring Committee (SRMC), and the Data Integrity and Safety Committee (DISC). The BQS-SR advances quantitative science by developing new methodologies including novel microbiome data analysis approaches and visualization for single-cell RNA-Seq data. Since 2016, BQS-SR members supported 222 unique UFHCC users (138 with peer- reviewed funding) through 286 grant submissions and reviewed 411 interventional clinical trial protocols through the SRMC and DISC. Since reorganized by Lee in 2018, the BQS-SR has received 320 support requests from 113 unique UFHCC members, with ~34% related to grant proposals, 28% for IIT development, and 20% for data analysis supporting peer-reviewed publications. BQS-SR members were co-authors on 340 cancer-relevant peer-reviewed publications 15% with IF ≥10. In alignment with the UFHCC strategic plan, Momentum 2027, the BQS-SR future plans include implementing expanded group-randomized trial designs for population-based studies, developing novel graphical approaches/statistical methods for single-cell RNA-Seq data analysis, and leading the application of innovative artificial intelligence-based machine learning/deep learning for diagnostic, prognostic, and prediction model development in cancer research."
+ },
+ {
+  "id": "28ec1ac4-b0fc-40fb-9fc1-b2cfdeadea52",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The role of CCR6 in Pancreatic Cancer and Tregs",
+  "text": "Avoiding immune destruction is a hallmark of cancer that is especially prominent within pancreatic cancer\ntumors (10,11). The proposed studies will investigate of a population of highly functional regulatory T cells to\ndetermine their mechanisms of immune suppression and their impact in pancreatic cancer. The data generated\nfrom these studies will have implications in the study of autoimmune disease and other types of cancer,\nproviding critical information for not only the development of these diseases but also in the design of new\ntherapeutics."
+ },
+ {
+  "id": "28ee6e9a-245f-4e25-b44d-2112c504b98a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Somatic stem cells in the Drosophila ovary",
+  "text": "Relevance to Public Health\n Adult stem cells are potential vehicles for future regenerative therapies and they can also be critical\ncells for the earliest steps of development of several cancers, yet very little is known about the dynamics,\norganization and regulation of these stem cells. We propose to continue our studies of adult stem cells in\nthe model genetic organism, Drosophila, in order to uncover basic principles of stem cell organization and\nregulation that are directly relevant, and of critical significance, to our understanding of how to harness\nhuman stem cells in medicine and how to combat cancer. Specifically, these studies are revealing how a\ncommunity of stem cells is maintained, how individual stem cell lineages may undergo pre-cancerous\namplification and how conserved signaling pathways, commonly altered in cancer, regulate proliferation,\ndifferentiation and competition among stem cells."
+ },
+ {
+  "id": "28f0f373-4822-4b16-8eb0-e633306c23c0",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "West Virginia Foodborne Illness Rapid Response Team",
+  "text": "West Virginia Foodborne Illness Rapid Response Team\n Project Narrative\nDuring project period 1, WV RRT will participate in the 2023 National Scout Jamboree in Glenn Jean, WV.\nIn project period 2 the after-action report will be from a tabletop exercise that focuses on responding to\noutbreak caused by product recalled nationally that was used as an ingredient by home food business it\nwill be called “My House is Your House.” The third project period exercise will be a tabletop exercise\nthat demonstrates how complaint collection to a centralized system can help identify outbreaks within\nthe state."
+ },
+ {
+  "id": "28f13df5-edb9-480c-a4ba-f57b7612018e",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Training Program: Genetic Basis of Pediatric GI, Liver and Nutritional Disorders",
+  "text": "Children are affected by a wide variety of diseases that impact the gastrointestinal system. The goal\nof this program is to train post-MD and -PhD researchers at the Children's Hospital of Philadelphia\nand the Perelman School of Medicine to successfully pursue careers dedicated to investigating the\ngenetic basis of pediatric gastrointestinal, liver, and nutritional disease, and to use that knowledge to\nimprove the health of children and adults."
+ },
+ {
+  "id": "28f38601-08e6-4040-9385-e6637753b6b8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Explainable Artificial Intelligence for Melanoma Recurrence Prediction via Integrative Modeling of Multiplexed Imaging with Transcriptomics and Histopathology",
+  "text": "Melanoma recurrence from the early-stage primary tumor accounts for most melanoma mortality but is often\nundetected until the disease has spread to lymph nodes or distant organs. While the recent approval of\nimmunotherapy for managing patients with early-stage melanomas provides a potential opportunity to improve\npatient outcomes, it requires an accurate prognostic prediction tool to identify patients for whom the risk of\nmelanoma recurrence and metastasis would justify the potentially significant adverse events of systemic\nimmunotherapy. We propose to address this critical public health need by leveraging recent advances in\nmultiplexed tissue imaging, spatial transcriptomics, and artificial intelligence to characterize the early-stage\nmelanoma microenvironment, understand mechanisms underlying its recurrence, and build an explainable\nmachine-learning-based forecasting platform that can be deployed in clinics to aid precision medicine."
+ },
+ {
+  "id": "28f841a2-6fe3-4486-907c-9096f2539cbf",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting Microenvironmental Signals in Myeloid Malignancies",
+  "text": "This project is relevant to public health because it addresses a novel mechanism by which interactions of\naggressive cancers such as acute myeloid leukemia (AML) with their niche can promote disease progression. If\nsuccessful, this work will provide a scientific basis for development of new strategies to treat these aggressive\ncancers with less than 25% survival rates. This is highly relevant to the NIH mission of developing fundamental\nknowledge to help reduce the burdens of human disability."
+ },
+ {
+  "id": "28fb3788-7e21-46f7-9bc9-e02a43e298b2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of Gsx2 in hindbrain neurogenesis",
+  "text": "The nucleus tractus solitarius (nTS) within the dorsal-caudal hindbrain is critical for normal breathing responses\nto hypoxia (low oxygen) or hypercapnia (high carbon dioxide) and, importantly, pathology in this brain nuclei has\nbeen implicated in sudden infant death syndrome (SIDS). The molecular genetic mechanisms that direct the\ndevelopment of functional chemosensory neurons within the nTS remain unclear, particularly with respect to the\nnetwork of transcription factors (TFs) that underlie the differentiation process. With the goal to elucidate this in\nthe hope of someday creating targeted therapies for newborn breathing disorders such as SIDS, this proposal\naims to define the role of Gsx2, a homeodomain TF expressed in hindbrain neural progenitors that give rise to\nthe nTS neurons which are indispensable for breathing and ultimately, survival."
+ }
+]

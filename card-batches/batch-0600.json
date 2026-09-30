@@ -1,0 +1,142 @@
+[
+ {
+  "id": "49783185-540c-4c16-8781-67c4d2a94452",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Single Cell Landscape of Early Human Diabetic Nephropathy",
+  "text": "Diabetic nephropathy is the leading cause of end-stage renal disease and a major contributor to morbidity and\nmortality. Despite antihypertensive therapy and glycemic control, an estimated 40% of patients ultimately\ndevelop chronic kidney disease. Single cell sequencing of early diabetic kidney samples can reveal the cell\ntypes and pathways that contribute to disease progression and help to identify novel treatment targets."
+ },
+ {
+  "id": "497b6fee-9166-42e7-ace2-453a637d5a71",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Machine learning-based methods for the analysis of microbial glycomes and proteomes in inflammatory bowel disease.",
+  "text": "Inflammatory bowel disease (IBD) affects over 1.3 million Americans, but despite intensive\nresearch, the exact cause of IBD remains unclear. Interactions between the surface proteins\nand sugars of microbes and human cells have important effects on inflammation and its\nregulation, but their investigation is difficult due to the complex genetic and chemical\nenvironment of the gut. This project aims to design and apply advanced computational methods\nbased on deep learning to enhance the discovery of significant changes in microbial proteins\nand sugars with a goal of gaining new insights into the development, progression, and treatment\nof IBD."
+ },
+ {
+  "id": "498557b1-ba08-487e-bf1d-cdd5e9e5eb6e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A Human Bladder Mucosa–Muscle Chip for Preclinical In Vitro Modeling of Uroaging",
+  "text": "Aging-related urological dysfunctions (uro-aging) affect more than half of the elderly population, causing\nsignificant declines in health and quality of life. Current mechanistic understanding is limited by reliance on rodent\nmodels and the lack of human-relevant in vitro systems. This project will develop an innovative sensor-integrated\nBladder Mucosa–Muscle (BMM) Organ Chip to model and study human bladder aging mechanisms and enable\ntranslational research toward improving urinary health in aging adults."
+ },
+ {
+  "id": "4987bd90-a2e6-4905-80e2-f7cbc68528f9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Pioneering Mass Spectrometry-Based Footprinting to Reveal Human Membrane Protein Structures in Native Membranes and Tissues",
+  "text": "This research aims to advance the structural understanding of integral membrane proteins (IMPs),\nwhich are key targets for drug development and disease treatment. By developing novel mass\nspectrometry-based footprinting techniques, this study will enable the understanding of IMPs'\nhigher-order structures, conformational changes, ligand binding, and dynamics within their native\nmembrane environments, including tissues. The findings of this work provide fundamental insights\ninto IMPs-related disease mechanisms that can be used to develop novel drugs."
+ },
+ {
+  "id": "4993b5e6-d2f1-483f-b7d3-f70827586815",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Regulation of Skeletal progenitor cells in Osteogenesis Imperfecta",
+  "text": "Osteogenesis Imperfecta (OI) is a congenital bone and craniofacial disorder that mainly affects bones with\nvarying severity in postnatal bone regeneration and repair, but how normal or defective structural components\nof collagen in OI regulate bone stem/progenitor cells are essentially unknown. In this project, we seek to define\nthe in vivo characteristics and function of periosteal and bone marrow SSPCs in clinically relevant OI mouse\nmodels and we also propose to define key OI matrix factors that regulate periosteal and bone marrow SSPC\nfunction and improve bone healing. The success of the proposed studies will lead to new biological and clinical\ninsights into SSPC function under OI pathophysiological conditions."
+ },
+ {
+  "id": "499534a2-b13e-4cfe-96e0-472922e90315",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Fucosyltransferases in Mucosal Immunity: Probing Function and Innovating Tools to Define Novel Substrates",
+  "text": "The mucosal epithelium lines the body's canals and organs in the digestive, respiratory and reproductive\nsystems, and occupies an area ~200 times greater than skin, making it the body's largest protective barrier. The\nlong-term goal of this research program is to define how fucosyltransferases regulate immunity and tolerance in\nmucosal epithelial tissues, investigate glycan-binding proteins as cognate-receptors to fucosylated epitopes\nwithin the mucosa, and innovate a toolkit to reveal mucosal FUT substrates. Understanding the role of\nfucosyltransferases in mucosal epithelial tissue, has high potential to lead to new ways to treat human diseases."
+ },
+ {
+  "id": "4997559b-db52-4c21-8c1f-8385c045c064",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A new hybrid modeling framework combining biophysics and deep learning to predict and optimize peripheral neuromodulation outcomes in lower urinary tract  disease",
+  "text": "Highly targeted nerve stimulation could greatly benefit people with lower urinary tract disease by\ncorrecting the behavior of malfunctioning organs; however, the urinary tract has so many complex,\ninteracting parts that tuning all the stimulation parameters accurately to get good therapy is very\ndifficult. We propose a new framework for computationally modeling the lower urinary tract that\ncombines mathematical models of known physiological principles with unknown complexities\naccounted for by artificial intelligence. Drawing on this framework, we can simulate the urinary\ntract, and innumerable possible nerve stimulations, to learn more about what goes wrong in\nurinary tract disease and discover the most promising therapies."
+ },
+ {
+  "id": "49a98006-4551-44f8-8e36-3b38243554c9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Endothelial Cell Analytic Core",
+  "text": "CORE C PROJECT SUMMARY The main goal of the Cell and Analytical Core (Core C) is to facilitate completion of the program investigators’ specific aims. To accomplish this goal, Core C will perform three specific aims, two of which are service components and one of which is an academic component. Aim 1 - Service component 1 - Cell isolation and characterization: a) To uniformly isolate primary mouse endothelial cells from wild type and transgenic mice and from human tissue, using a calibrated system to make cell suspensions from tissue in combination with a negative (CD45-based) and positive selection (CD31-based) endothelial cell purification method. Wild type or transgenic mice will be received from animal Core B or from the three projects. b) To characterize the endothelial character of the isolated EC. c) To expand and distribute purified endothelial cells in early passages to the three research projects. Aim 2 - Service component 2 - Gene Delivery and deletion: a) To construct, purify and deliver recombinant adenovirus, lentivirus and adeno-associated virus (AAV). b) To deplete and manipulate endogenous genes in mouse and human EC, using CRISPR Cas9 and siRNA technology. Aim 3 -Academic component 1- Analysis: a) To measure cell metabolism. O2 consumption rate (OCR) and extracellular acidification rate (ECAR) using Seahorse and performing metabolomics. b) To evaluate oxidative and nitrosative stress. c) To assess inflammation by measuring cytokine/chemokine profiles in cell supernatants using magnetic bead-based Multiplex analysis and adhesion molecule expression relevant for endothelial-leukocyte interactions using an in-house developed cell-based ELISA. This technology will also be applied to measure cytokine/chemokine profile in plasma samples from mice. d) To evaluate endothelial-mesenchymal transition- related genes in transcriptomics, using bulk and single cell RNASeq. e) To assess endothelial barrier function by combining measurements of macromolecular permeability to a macromolecular tracer and electrical impedance of endothelial monolayers. In summary, synergy with the three scientific projects, administrative Core A and core B will be organized as follows: upon receiving wild type or transgenic mice from animal Core B and from the three projects, Core C will isolate, characterize, expand and distribute early passages of primary mouse endothelial cells and of well-characterized in house isolated or purchased human endothelial cells to all four projects. The Core will moreover construct recombinant adenovirus, lentivirus and adeno-associated virus or use CRISPR ON and specific siRNA to manipulate gene expression in human and mouse endothelial cells and will coordinate scRNASeq and proteomics. The Core will moreover organize in a standardized manner cell analysis for all parameters listed above. Finally, Core C will collaborate with administrative Core A and animal Core B to coordinate dissemination of data generated through the collaborations between the cores and projects."
+ },
+ {
+  "id": "49adc8fe-8b18-44e7-b41b-9a69ecad6719",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Enhancing Biomedical Research Infrastructure with a Spinning Disc Confocal Microscope at a Rural-Serving Medical Institution",
+  "text": "This confocal microscope will support research aimed at understanding brain development, cancer, and\nreproductive health—conditions that impact millions of people. By enabling high-quality imaging at a rural,\nresource-limited medical school, the instrument will accelerate biomedical discoveries and enhance hands-on\ntraining for medical and graduate students preparing to serve underserved communities."
+ },
+ {
+  "id": "49adf1ff-e5aa-4be8-875d-34016c673425",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Elucidating Protective Mechanisms for Cardiotoxicity of Kinase Inhibitors",
+  "text": "Modern, molecularly targeted oncology therapeutics have revolutionized cancer treatment, prolonging cancer survivorship. As patients’ lives are extended, cardiovascular toxicities caused by treatments have emerged as a major clinical problem. This problem persists despite the development of advanced therapeutics, including covalent tyrosine kinase inhibitors (KIs) that were expected to have reduced toxicity due to their increased specificity. Project 3 of this Program Project Grant (PPG) is focused at developing pharmacological strategies to protect the heart from drug-induced cardiac toxicities. We will focus on ibrutinib as a paradigm because as a covalent, irreversible inhibitor of the BTK receptor, it represents an important class of modern oncology drugs, and because it is a first-line therapeutic for B-cell malignancies. Our approach builds on our expertise in high throughput, automated assays of cardiac arrhythmia in hiPSC- derived atrial and ventricular cardiomyocytes (hiPSC-aCMs and hiPSC-vCMs), and the use of deep learning algorithms to recognize and quantify the incidences of arrhythmic waveforms in these cells. hiPSC-CMs treated with ibrutinib exhibit arrhythmic waveforms consistent with presentations of atrial fibrillation and arrhythmia in patients. Our pipeline to discover therapeutic strategies is based on identifying targets that block ibrutinib- induced arrhythmia using hiPSC-aCMs and vCMs, and then testing candidates in a mouse model. We take two orthogonal approaches to identify therapeutic targets. Specifically, we will delineate the regulatory elements in chromatin (Aims 1 and 2) and key transcriptional inputs (Aim 3) that mediate the adverse effect of the drug on cardiomyocytes. We will experimentally test each DNA element and each TF for the ability to block or exacerbate ibrutinib-induced arrhythmia, thereby functionally defining genes and factors that are potential therapeutic targets to revert the adverse effects of ibrutinib on the cardiomyocyte. Candidates suggested from preliminary data and promising new targets emerging from these proposed studies will be evaluated for protective activity in a mouse model of ibrutinib-induced cardiotoxicity. Project 3 synergizes with Project 2 since some of the factors and chromatin elements that we will discover are expected to coincide with eQTLs for drug susceptibility. Hence, our joint efforts will provide human genetic evidence supporting protective loci with verified functional effects that can be targeted pharmacologically. Project 3 also synergizes with Project 1 by using its expertise in mouse models as well as its data on human susceptibility loci. Key deliverables of Project 3 include identification of therapeutic targets and possibly therapeutics to mitigate ibrutinib toxicity, as well as a discovery paradigm to improve the quality of life and survivorship of cancer patients."
+ },
+ {
+  "id": "49b01e25-37d8-4577-aa36-1764481bf1af",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Core C: Microbiome and Sequencing Studies",
+  "text": "BEAMS-2 Core C Core C will be responsible for molecular profiling of samples relevant to all three projects of the proposal. This will include 16S rRNA amplicon sequencing to profile microbial composition, semiquantitative metabolomic profiling of fecal, blood and breastmilk samples, and microbiome RNASeq analyses. The latter will leverage a newly developed pipeline in the Lynch lab that increases the depth of microbial transcriptomics achieved with short read sequencing. In addition, bulk and single-cell transcriptomic and epigenomic profiling of samples from human, in vitro and mouse models will be facilitated in Core C using a newly developed method mTEASeq, developed by Dr. Cusanovich who co-leads this Core with Dr. Lynch. The Core contains all of the necessary expertise and instrumentation to facilitate these standardized analyses and has a proven track record of their implementation. Core C leadership will continue to innovate to enhance sample throughput, particularly for those assays that are currently expensive to implement. The application of standardized microbial and immunological profiling approaches within Core C will permit cross-comparisons to be made between projects, a critical component underlying inter-project synergy."
+ },
+ {
+  "id": "49b33419-f55b-4a4b-a3c5-05f37fbd74e9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Statistical foundations for learning co-pathology effects on cell functions in AD resiliency",
+  "text": "This project will develop novel statistical and artificial intelligence (AI) tools to explain why some\nindividuals remain cognitively sharp despite high pathology for Alzheimer’s disease, particularly\nwhen other diseases, such as TDP-43 and Lewy body pathology, are also present. We will\ncombine region-specific digital neuropathology with single-cell data to develop clear, trustworthy\nstatistical/AI tools for labeling resilience and pinpointing the microglial programs that protect the\nbrain. The results will contribute to future advancements in region-aware diagnostics and\ntreatments, as well as enhanced clinical trial design, ultimately helping to preserve memory and\ncognitive function in aging adults."
+ },
+ {
+  "id": "49b5d621-8e8f-4226-98e1-75a812a12276",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Early-stage detection of hepatocellular carcinoma with hydralazine-augmented contrast ultrasound imaging",
+  "text": "Hepatocellular carcinoma (HCC) is a deadly liver cancer often detected too late. Early detection is crucial because it\nsignificantly improves survival rates and allows for more effective treatments. This study aims to improve early\ndetection by developing a new ultrasound imaging method that enhances HCC visibility with the drug hydralazine used\nto treat hypertension."
+ },
+ {
+  "id": "49b73cd2-110d-456a-8bdf-7711ff5c5c83",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Modulating Human Microbiome Function to Enhance Immune Responses Against Cancer",
+  "text": "A complex community of microbes, known as the microbiota or microbiome, lives within our distal digestive\ntract and is intimately connected to the human immune system. Immune checkpoint blockade is a promising\nimmunotherapy for the treatment of cancer but success is highly variable across individuals and response to\nthe therapy is likely impacted by the individuality of the gut microbiome. This project will identify genes within\nthe gut microbiome that enhance responsiveness to cancer immunotherapy and test these candidates as\npotential new therapeutic approaches to improve cancer treatment."
+ },
+ {
+  "id": "49b9c512-c960-4f0f-8157-c7d1bdaf50d8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "From inhibitors to enzymatic deficiencies: exploring alterations in erythrocyte glycolysis as an antimalarial strategy.",
+  "text": "Malaria represents an ongoing threat to global public health, and new antimalarial therapies are urgently needed.\nMalaria parasites infect red blood cells, and red blood cell glycolysis is required for the parasites’ lifecycle. This\nproposal examines the role of red blood cell glycolysis in the parasite lifecycle to determine if this host cell\npathway could serve as a target for new antimalarial drugs."
+ },
+ {
+  "id": "49ba588a-661f-4fe9-a98d-cbbc152a6189",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "DNA Repair Mechanisms in Hypoxia-Induced Placental Genomic Instability",
+  "text": "Placental injury is a hallmark feature of preeclampsia, a leading cause of pregnancy-related morbidity and\nmortality. The proposed research is relevant to public health because it will determine how defective DNA repair\nand genomic instability in trophoblast contribute to placental injury in preeclampsia. It directly supports NICHD’s\nmission by establishing the molecular basis for developing early interventions to improve maternal-fetal health."
+ },
+ {
+  "id": "49bd9942-0fdb-4f8d-a58e-fa0fd7aad670",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Therapeutic Targeting of Mitochondrial OxPhos and Lipid Remodeling in Relapsed AML",
+  "text": "Acute myeloid leukemia (AML) is a deadly blood cancer, and most patients relapse after current treatments. Our\nresearch targets metabolic and redox vulnerabilities in AML by combining inhibitors of glutaminase and aldehyde\ndehydrogenase, which disrupt energy production and trigger cancer cell death. This approach could overcome\ndrug resistance in AML and provide a framework for developing new therapies for other hard-to-treat cancers."
+ },
+ {
+  "id": "49bea085-e104-4363-ac64-aa3d9703c43a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "CNS Demyelination: Initiation, Protection, and Correction",
+  "text": "The focus of this proposal is on CNS demyelination, which is a critical aspect of numerous neurological\nconditions. Oligodendrocytes and myelin are lost in many neurological disorders, such that their protection and\nreplacement would likely be of considerable therapeutic value. The studies described in this proposal are\ndesigned to increase our understanding of CNS demyelination: how oligodendrocytes respond to cytotoxic\nstimuli, how they can be protected against harsh, disease-associated conditions, and how they can be replaced\nso that lost myelin can be reformed."
+ },
+ {
+  "id": "49c4ef6a-bac9-45c9-8ac7-3309a0bde893",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "BLab-seq, a non-toxic, transgene-based method for determining birth dates and transcriptomic profiles of neuronal subtypes in human organoids",
+  "text": "The human nervous system comprises thousands of functionally distinct neuronal subtypes, whose fates depend\non the timing of cell cycle exit and terminal differentiation. We propose to develop a new strategy, Birth Labeled\nsequencing (BLab-seq), which integrates fluorescent-labeling-based birth dating with transcriptomic profiling to\ndirectly link neuronal birth timing and cell fate specification. We will apply BLab-seq to map the temporal\ngeneration of retinal cell classes and subtypes in human retinal organoids."
+ },
+ {
+  "id": "49c6fc74-31f3-44c7-a156-6c1a3ded81d6",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "A Framework for the Impact of Algorithms in Health Care",
+  "text": "Algorithms continue to proliferate in the health care system, often with substantial implications for health outcomes. This research proposes building a framework for evaluating the impact of algorithms in health care before they are deployed using mathematical decision science modeling. Developing this open-source framework will have the potential for broad impact in improving health outcomes with a flexible design to allow adaptation to many health settings."
+ }
+]

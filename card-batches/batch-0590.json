@@ -1,0 +1,142 @@
+[
+ {
+  "id": "4562694a-5048-4586-863a-56e5210079df",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Blood-brain-barrier and white matter mechanisms underlying dementia",
+  "text": "White matter damage has increasingly been recognized as an important contributing factor to neurodegeneration\nand the two most severe types of dementia: Alzheimer’s disease and vascular cognitive impaired dementia. The\nwork proposed here will address a novel pericyte mediated signaling pathway as the underlying molecular and\ncellular mechanisms for white matter pathology induced by chronic hypoperfusion which may have therapeutic\nimplication."
+ },
+ {
+  "id": "456ecae5-442e-4cda-99fb-1f6e81cd8c1e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Integrative Center for Environmental Microbiomes and Human Health",
+  "text": "Microbiomes, critical to human health and functioning, are embedded within and are influenced by\nenvironmental context. By gaining a deeper understanding of how microbial variation affects human health, we\ncan devise holistic strategies to promote a sustainable, resilient biosphere."
+ },
+ {
+  "id": "4572d68f-8b71-437b-acdc-39999a31197b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Novel gene discovery in disorders of the liver and biliary tree",
+  "text": "Because our understanding of hepatobiliary disease is incomplete, a significant number of children with biliary\ntree dysgenesis and liver disease have nondiagnostic genetic testing. The goal of this research proposal is to\nimprove the diagnosis and care of children and adults with liver and biliary disease by better characterizing the\ngenetic landscape of these conditions. To accomplish this goal, we will assemble and characterize a large cohort\nof patients with biliary and liver disease and apply a research pipeline for gene discovery and validation, with\nadditional focus on MED12 as a novel biliary dysgenesis gene."
+ },
+ {
+  "id": "457b6210-0e6a-4f68-82ef-ae9e338b8675",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Natural Language Processing Based Consultation Feedback to Improve Patient Decision Making and Physician Risk Communication",
+  "text": "We plan a cluster randomized controlled trial testing whether providing patients and physicians with natural\nlanguage processing (NLP)-based feedback along with artificial intelligence (AI) summaries of what was said\nabout key risks and rewards of treatment options improves patient decision making and physician risk\ncommunication compared to standard of care counseling along with American Urological Association-\nendorsed educational materials in men with prostate cancer. Our cluster randomized trial will test whether our\nintervention affects decisional conflict, shared decision making, and appropriateness of treatment on the\npatient level (Aim 1) and quality of risk communication on the physician level (Aim 2). We will then examine\nvariation in quality of risk communication across subgroups of tumor risk, physician specialty, and race in the\ncontrol arm to identify populations at risk for poor risk communication (Aim 3)."
+ },
+ {
+  "id": "4588fe81-7639-4069-b696-85b2b2a68678",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "From intra to intercellular regulatory networks that define cell type identity",
+  "text": "Cell fate engineering, for example the directed differentiation of pluripotent stem cells or\nthe direct conversion among somatic cell types, holds great promise to improve disease\nmodeling, drug screening, and to lead to regenerative medicine therapies. However, our\nability to engineering cell fate with fidelity has been impeded by an incomplete\nunderstanding of the biological networks that govern development. In this work, I propose\nto address this problem through a combination of algorithm development and data\ngeneration, with an emphasis on cell types related to the synovial joint."
+ },
+ {
+  "id": "4591be86-1835-486c-af16-6d467bc3cf95",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Combinatorial effects of PTMs on a-Synuclein structure function and aggregation",
+  "text": "The aggregation of α-Synuclein into fibrillar aggregates plays a pivotal role in the progression of Parkinson’s\nDisease and related neurodegenerative disorders. The proposed research will create α-Synuclein modified by\nchemical groups identified in post-mortem tissues and test the impact of these modifications both on functional\nand dysfunctional interactions of the protein. This research will provide insight into the relationship between the\nstructural effects of these modifications on α-Synuclein and disease propagation."
+ },
+ {
+  "id": "45a35f34-7037-495e-851c-ebc8b4d750f8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Regulation of intestinal lipid metabolism by type-3 immune cytokine",
+  "text": "Malnutrition and metabolic imbalance are prevalent comorbidities of bowel inflammation, frequently associated\nwith poor clinical outcomes. However, managing these complications is challenging, and current therapies are\nineffective, due to critical gaps in understanding the connection between the inflammatory environment and the\nabsorptive enterocyte function. This proposal aims to bridge these gaps by elucidating how mucosal immune\neffector impacts enterocyte nutrient uptake and systemic metabolism, potentially uncovering new ways to treat\nnutrient imbalance associated with inflammation and digestive disorders."
+ },
+ {
+  "id": "45a4b8b7-e757-4829-aa74-d171777aec88",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Interrogating MRCK Protein Kinases in Ovarian Cancer",
+  "text": "High-grade serous ovarian carcinoma (HGSOC) is the deadliest form of ovarian cancer due to frequent\nrecurrence and metastasis with minimal treatment options. Recurrent HGSOC often spreads to the peritoneal\ncavity in the form of ascites, where tumor cells grow as spheroids, and metastasize to other organs causing\ndeath. The overall goal of this proposal is to uncover how protein kinases orchestrate this process, so that we\ncan design kinase inhibitor therapies to prevent the growth and spread of recurrent HGSOC."
+ },
+ {
+  "id": "45a4c25b-0bae-447a-80fc-77953f527def",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multi-omics Gene Network Identification (Project 4)",
+  "text": "The goal of Project 4 is to discover neurobiologically interpretable gene networks that underlie opioid addiction (OA) but are otherwise missed by traditional statistical approaches. To achieve this goal, we will apply our multi-omics, multi-method framework—Gene Network Identification and Integration (GNetII)—to identify OA-associated gene networks, by capitalizing on P50 data across human and rodent models. GNetII includes genome-wide epistasis, explainable artificial intelligence, gene network construction, and lines-of- evidence (LOE) methods. These cornerstone methods enable integration of multiple levels of individual-level data, and we will specifically integrate large-scale genome-wide association study (GWAS) data in 220,722 living subjects from Project 1 and the Synergy Core, gene regulation data (RNA-sequencing, DNA methylation, chromatin immunoprecipitation sequencing, and variant genotypes) from multiple addiction- relevant brain tissues (including prefrontal cortex, nucleus accumbens, and amygdala) from 641 OA case and control decedents (deceased individuals) from Project 2, experimental mouse and rat model results from Project 3, and additional public omics data. OA is a leading cause of preventable morbidity and mortality in the United States, afflicting an unprecedented number of U.S. adults and youth. OA is highly heritable (~54%). Yet, few genetic loci have been conclusively identified for OA and related outcomes, and common genetic variant-based heritability explains only 17% of the variance in OA. We hypothesize that epistasis (i.e., interaction of variants or genes) contributes to the missing heritability. Applying big data science methods to large-scale GWAS, gene regulation data in brain tissue, and cross-species data will reveal previously undetected relationships and add knowledge of the neurobiology underlying addiction. We propose the following specific aims: Aim 1: Build OA-associated gene networks via genome-wide epistasis. Aim 2: Build multi-omics networks using postmortem human brain data. Aim 3: Integrate networks across species to find OA-associated gene networks with multiple LOE. Analyses will be performed on the powerful high performance computing architectures at the Oak Ridge National Laboratory which will greatly improve the likelihood of neurobiologically meaningful discoveries. Our study will capture complex networks across the genome to find previously unknown genes and will help explain the neurobiological underpinnings for the genetic loci that emerge from across the P50 and the broader field."
+ },
+ {
+  "id": "45a4ebe3-2520-4080-a547-87fd1a679a2a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Keys to prevent iron hijacking and infection by intracellular pathogenic bacteria",
+  "text": "Importance to public health: An emerging tick-borne disease, human granulocytic anaplasmosis, is caused by\ninfection with Anaplasma phagocytophilum, which is an obligatory intracellular bacterium. The purpose of this\nproject is to understand how A. phagocytophilum acquire host iron and overcome host nutritional immunity in\norder to infect human cells and cause disease. Ultimately, our results will fill a key knowledge gap in the field of\nAnaplasma molecular pathogenesis via a thorough understanding of biomolecular mechanisms involved in\nintracellular iron uptake by Anaplasma, host cell innate immune responses, and consequent disease.\nRelevance to NIH’s mission: Our work pertains to developing fundamental knowledge that will reduce the\nburden of human disability caused by infectious disease."
+ },
+ {
+  "id": "45abd36e-3591-4fd1-90f4-8031df333d30",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "BLR&D Research Career Scientist Award Application",
+  "text": "The demographics of the veteran population clearly demonstrate that illnesses that afflict the elderly\nare a major concern of the Department of Veterans Affairs. Currently, the number of veterans over 60 years of\nage represents over 50% of the total veteran population. It is noteworthy that the number of veterans 80 years\nand older is projected to increase 500% over the next 20 years. Research has shown that chronic, low-grade\ninflammation increases dramatically with age and that inflammation is a major risk factor for a variety of age-\nrelated diseases that affect elderly veterans, e.g., Alzheimer’s, and Parkinson’s diseases, atherosclerosis,\ndiabetes, cancer, frailty, etc. Dr. Richardson’s current research will be the first to study the effect of necroptosis\non the age-related increase in chronic inflammation and will be translationally important because this research\ncould potentially lead to therapies that reduce age-related diseases and improve the health of elderly veterans."
+ },
+ {
+  "id": "45b4cdc1-7cc7-435f-8ab4-568c219ec3c6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Regulatory mechanisms governing imprinted domains during early development",
+  "text": "Epigenetic mechanisms that govern imprinted domain regulation are complex. We have discovered a novel,\nnucleoporin mechanism of imprinted domain regulation, and having identified other factors involved in\nimprinting, we can now build upon this mechanism to understand how imprinted domain are regulated during\nearly development. Data from this proposal will contribute to our understanding of how disruptions in imprinting\ncan impact development and lead to imprinting disorders."
+ },
+ {
+  "id": "45b53141-fc6a-4e95-928e-c1085b6006bd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Enhancing cytotoxic lymphocytes in a TB vaccine strategy",
+  "text": "Tuberculosis remains among the most common causes of death from an\ninfectious disease worldwide. This proposal will test a novel “enhanced prime and pull” strategy\ndesigned to enhance the efficacy of the current BCG vaccine against tuberculosis."
+ },
+ {
+  "id": "45bb36cc-c339-447e-b684-5f82ff86aa4f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Discovery of cancer-specific surface protein conformations in acute myeloid leukemia and de novo design of highly selective binders in pursuit of improved immunotherapies",
+  "text": "Acute myeloid leukemia (AML) is a devasting disease, representing one of the most common adult leukemias\nand carrying a dismal 5-year survival of ~30%. Therapies harnessing the immune system (“immunotherapies”)\nhave been very effective versus other blood cancers but have largely failed to show benefit in AML. Here, we\naim to address this challenge by identifying a new class of immunotherapy targets and validating potential ther-\napies against them, with the long-term goal of providing new treatment options for AML patients desperately in\nneed."
+ },
+ {
+  "id": "45c33ad6-4012-490b-b6ec-636731cd17c2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Optimizing Use of Continuous Glucose Monitoring (CGM) to Improve Care for Youth with Type 1 Diabetes",
+  "text": "The use of personal medical devices (e.g. continuous glucose monitors) by youth with type 1 diabetes as well\nas their potential to aid children and their caregivers to manage the daily demands of type 1 diabetes and\noptimize blood sugar control have rapidly expanded over the past twenty years. However, demographic (e.g.\nrace/ethnicity) and socioeconomic (e.g. household income, parental education, and insurance) factors impact\naccess to and continued use of such technology. The goals of this project are to better describe and analyze\nthe interplay of such factors in sustained utilization of CGM in different clinical settings and to characterize their\nimpact on a national level to enable the development and implementation of a pilot study designed to achieve\nimprovement in continuous glucose monitoring use for pediatric patients with type 1 diabetes."
+ },
+ {
+  "id": "45cad842-d5a6-417b-a438-88a7aae24424",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Discovery of novel antivirulence drug targets in C. difficile by systematically demystifying its genetic network controlling toxin biosynthesis",
+  "text": "Clostridioides difficile infection (CDI) is a leading cause of hospital-acquired diarrhea due to dysbiosis caused by\nbroad-spectrum antibiotics. Cellular pathways affecting toxin biosynthesis is promising for anti-virulence drugs\nthat spare the beneficial gut microbiota. This proposal seeks to identify and characterize drug targets within such\npathways, from which to develop anti-virulence drugs for CDI."
+ },
+ {
+  "id": "45cb6b3f-79d3-4c43-acf5-75301eb2895d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "UC Irvine MODEL-AD",
+  "text": "Understanding the complexity of the development of Alzheimer’s disease (AD) and developing and testing\neffective therapeutics and interventions requires the generation of animal models that faithfully recapitulate the\ndisease. We have spent five years creating the individual components that we will now combine to produce\nmice that develop relevant aspects of AD. Furthermore, we will carry out deep phenotyping of these mice\nacross their lifespans and align their pathologies and gene expression profiles with human signatures. All mice\nand data will be made freely available to all investigators, in academia and industry alike, so that the global\nresearch field can use these resources to develop and test therapeutics and ultimately combat AD."
+ },
+ {
+  "id": "45ccb735-9ba5-4c01-99f8-3ce18119b356",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cellular Thermogenesis and Lifespan Modulation: Mechanisms of Cold-Temperature Aging in Drosophila",
+  "text": "Cold temperatures dramatically extend lifespan in fruit flies, but the underlying biological mechanisms remain\nunknown. This project will investigate how cold triggers beneficial changes in metabolism, nutrient sensing, and\nprotein quality control that work together to slow aging. Understanding these processes could uncover new\nstrategies to promote healthy aging in humans."
+ },
+ {
+  "id": "45cd12d3-5754-4134-92eb-281f403a59c9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "AI-Powered Quantitative Analysis of Sinus CT Scans for Enhanced Clinical Assessment and Research",
+  "text": "Chronic rhinosinusitis (CRS) affects millions of Americans and leads to substantial healthcare costs and reduced\nquality of life. This project will create an automated, cloud-based toolkit that transforms routine sinus CT scans\ninto standardized, quantitative measures of disease severity and airflow physiology. In parallel, the project will\nactively involve undergraduate and master’s students in biomedical imaging and AI research, preparing a diverse\nnext generation of scientists while advancing tools that can improve CRS diagnosis, treatment evaluation, and\npublic health outcomes."
+ },
+ {
+  "id": "45cf2961-c675-4838-b776-eddd6a8b44d4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identifying Nursing Models of Care to Improve Emergency Department Patient Outcomes",
+  "text": "PROJECTIVE NARRATIVE\nThis study will leverage nursing models of care to advance better patient outcomes with a focus on reducing\npatient outcome disparities in the safety net of the U.S. healthcare system—hospital emergency departments\n(EDs). The outcomes from this study will address a key objective of Healthy People 2030 to improve care in\nEDs where timely care is essential for improving health outcomes. This study has strong public health\nrelevance given the focus on hospital EDs as important care settings in communities that provide a large\nproportion of care for under- and un-insured patients as well as racial and ethnic minorities."
+ }
+]

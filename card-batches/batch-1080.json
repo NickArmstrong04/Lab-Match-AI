@@ -1,0 +1,142 @@
+[
+ {
+  "id": "f33edab8-d142-4ea4-81b2-34495395b97e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Physical Biology and Deep Learning for Antibiotic Resistance and Discovery",
+  "text": "The dissemination of antibiotic resistance and the drying-up of antibiotic discovery pipelines threaten to\nincrease morbidity from routine medical procedures and worsen the spread of infectious diseases. The\nproposed research aims to apply physical modeling to develop a fundamental, mechanistic understanding of\nhow known antibiotics kill bacterial cells, and to harness this understanding using machine learning to discover\nunprecedented classes of antibiotics. This work is relevant to NIH’s public health mission because it will inform\nthe clinical treatment of bacterial infections and offer new platforms for antibiotic discovery."
+ },
+ {
+  "id": "f348b540-de6b-4ba1-bf43-36c52d01ac96",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Elucidating the role of protein translation efficiency in T cell adaptation to human skin",
+  "text": "Tissue-resident memory T cells (TRM) drive numerous chronic inflammatory skin diseases that\naffect millions of individuals worldwide, yet current treatments fail to achieve lasting remission\nbecause they do not eliminate these cells from the skin. Our discovery that TRM uniquely depend\non efficient protein translation for their survival in human skin reveals a new therapeutic\nvulnerability that could lead to more effective treatments selectively eliminating TRM while sparing\nimmune cells outside of the skin. Success of this research would transform the treatment\nlandscape for T cell-mediated inflammatory and autoimmune skin diseases, potentially offering\nlasting remission and improved quality of life for millions of patients while reducing the substantial\nhealthcare costs associated with these diseases."
+ },
+ {
+  "id": "f350d75c-b2e1-41b5-ab3e-311d1203e015",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of MRTF/SRF signaling in tendon development",
+  "text": "Although tendon disorders and injuries frequently arise from alterations in mechanical loading, the\nmechanotransduction pathways that regulate tendon remain mostly unidentified. A better understanding of the\nmechanotransduction pathways that regulate tendon development is needed to establish regenerative strategies\nthat require reactivation of developmental processes."
+ },
+ {
+  "id": "f35724fc-f54f-4d03-9711-96a58b0d5508",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Impact of WDR36 Variants and p53 in Glaucoma",
+  "text": "The proposed research aims to explore the significance and underlying mechanisms behind the increased risk\nof primary open-angle glaucoma (POAG) in patients with variants in the WDR36 protein, using human cell lines\nand a mouse model and possibility for treatment with gene augmentation therapy. Our proposal will test the\nhypothesis that mutations in WDR36 lead to increased sensitivity and early apoptosis by destabilizing the p53-\nMDM2 pathway, and that early gene augmentation can correct this mutation. The findings may also help\npredict glaucoma risk in patients with germline variants in the WD40 domain of WDR36 and suggest potential\nmechanisms for early detection and treatment to prevent POAG onset."
+ },
+ {
+  "id": "f357aca7-eeb3-4d08-8637-2da39e7c9d8f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Decoding the beat: physiological control mechanisms for robust heart development",
+  "text": "The maturation of form and function must proceed in lockstep for robust organ development, but the mechanisms\nof this coupling are with few exceptions understudied. Calcium dynamics are a prominent part of the heart’s\nphysiology, and their dysregulation is implicated in cardiac disease, but their role in the progression of normal\ncardiac development is poorly understood. This proposal will investigate the encoding rules that map emerging\ncalcium physiology of the embryonic zebrafish heart to downstream decisions important for its development,\nusing innovative technologies for quantitative, spatiotemporally resolved measurement and control of cardiac\nphysiology."
+ },
+ {
+  "id": "f358d4eb-5a37-47e5-95cb-a2a15e2c6e42",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Biomarker Core",
+  "text": "REVISED ABSTRACT: Biomarker Core: Project Summary— 2P30AG066444-06 (5156) Neurodegenerative diseases result from multifactorial processes that cause pleiotropic changes in the molecular networks that link a host of biological processes, leading to protein aggregation in the brain, and ultimately to the relentless decline in cognition that characterizes most age-related dementing illnesses. Neurodegenerative diseases, such as Alzheimer disease (AD), idiopathic Parkinson disease (PD), and frontotemporal lobar degeneration (FTLD) occur by mechanisms in which common or rare variants associated with disease risk are directly inherited or raise sporadically. Human somatic and stem cell models have emerged as a powerful system for modeling the complexities of pathological gene expression, particularly in the early phase of disease, in the context of a non-neoplastic human genome. Further, human stem cells can be differentiated into individual cell-types affect in disease, such as neurons, astrocytes, microglia, and oligodendrocytes, as well as 3D “mini-brain” organoids. To this end, we have established a biorepository of stem cell models of AD and related dementias. The collection includes 344 human fibroblasts from the Knight ADRC and the Dominantly Inherited Alzheimer Network (DIAN) and induced pluripotent stem cell (iPSC) lines from 110 individuals carrying mutations in APP, PSEN1, PSEN2, GRN, MAPT, and risk variants in MAPT, APOE, TREM2, RAB10, MS4A4A, and PLD3. Our long-term goal is to develop a set of tools and biomarkers for AD and related dementias. To do this, we will continue to build a biorepository of human somatic and stem cell models. These cells will facilitate the study of basic disease mechanisms, allow for discovery of novel biomarkers, and facilitate drug discovery platforms. We will focus on cell collection that builds on three major areas of strength in the Knight ADRC: (1) contributions of genetic ancestry to molecular and cellular biomarkers of AD; (2) AD resilience - genetic and molecular modifiers of age at onset in large families with a dense family history of late onset AD; and (3) comparison of the molecular and cellular biomarkers that are common and unique between autosomal dominant AD and sporadic, late onset AD. Finally, we will make available the human somatic and stem cell lines to the broader research community to revolutionize our understanding of AD and related dementias."
+ },
+ {
+  "id": "f363225e-52fc-436d-b650-19fd81d1b459",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "STAT5/OLIG2 regulation of GBM therapeutic resistance and recurrence - Resubmit 3.22",
+  "text": "Glioblastoma (GBM) is among the most heterogeneous, treatment resistant, and lethal of all human cancers.\nDespite this heterogeneity, the underlying commonality of GBM is brain invasion, tumor recurrence, and the\ninherent difficulty in targeting therapeutic agents to brain-invading cancer cells. The central goal of this project\nis to define the STAT5/OLIG2 signaling axis and its role in promoting GBM invasion and therapeutic\nresistance."
+ },
+ {
+  "id": "f37102ea-f092-4093-bfdc-1b3cf2c1cb1a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Algorithms for Improved Image Guidance and Automatically Optimized Treatment Planning for C-arm Cone Beam CT Guided Histotripsy",
+  "text": "Primary liver cancer is a leading cause of cancer-related deaths world-wide, and as of October 2023, a\nnoninvasive, nonionizing, and nonthermal focused-ultrasound (US) therapy called histotripsy has been approved\nby the FDA to treat liver tumors under diagnostic US guidance. Despite its rapid clinical adoption and promising\ntherapeutic potential, histotripsy currently faces significant workflow limitations including long procedure times\nand inaccurate and insufficient treatment planning that detracts from the physician’s ability to effectively and\nefficiently treat patients. To overcome these obstacles, the proposed work aims to utilize an X-ray C-arm with\n3D imaging capabilities to create a streamlined, patient-specific treatment planning workflow for histotripsy that\ncompensates for respiratory motion during treatment, enables treatment planning tasks to be performed in\nadvance, and automatically optimizes patient and equipment positioning for therapy."
+ },
+ {
+  "id": "f3737d69-6abb-4b99-b81f-74517c27afd1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Resource for Molecular Imaging Agents in Precision Medicine",
+  "text": "The goal of the Resource for Molecular Imaging Agents in Precision Medicine is to provide new, precision\nmaterials, to test these pre-clinically and progress them to human use, delivered on-site or to our collaborators\nin a format suitable for their implementation. While focusing on the biological theme of relationships between\ncancer, inflammation and immunity, we will be nimble and flexible, developing a wide variety of small molecules\nand macromolecular agents in collaboration with other academic centers and industry worldwide."
+ },
+ {
+  "id": "f378f245-0723-48dc-a5cc-21a9ad7260f0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Integration of circulating tumor cell and nuclear imaging biomarkers to assess LuPSMA response and resistance in advanced prostate cancer patients",
+  "text": "Biomarkers are needed to identify patients with advanced prostate cancer who respond or not respond to the\nnewly FDA-approved radiopharmaceutical therapy LuPSMA. Clinical molecular imaging using PSMA-targeted\nagents shows potential as an imaging biomarker for this purpose but remains imperfect. This proposal will\nexplore the combination of these imaging biomarkers with our novel circulating tumor cell liquid biopsy assay\nas a better-integrated biomarker for patients on LuPSMA."
+ },
+ {
+  "id": "f37f3c25-4be6-4edb-8833-c660decf896e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Role of Type I Interferon in Murine Roseolovirus Induced Autoimmune Gastritis",
+  "text": "A key gap in our understanding of autoimmune disease development is identifying the factors that make some\nindividuals with underlying immune disturbances progress to clinical symptoms while others remain\nasymptomatic. Many studies have investigated the association between herpesviruses and autoimmunity,\nhowever, the process by which these infections potentially serve as triggers for the immune disturbances that\nunderlie autoimmunity remains poorly understood. Neonatal infection with Murine Roseolovirus (MRV) causes\nautoimmune gastritis later in life in a type I interferon dependent manner and studying MRV uniquely positions\nus to address these knowledge gaps and thereby develop strategies for the early diagnosis, prevention and\ntreatment of autoimmune disease."
+ },
+ {
+  "id": "f3806015-ec09-4a03-a5ff-949d580c04f6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Probabilistic deep learning models and integrated biological experiments for analyzing dynamic and heterogeneous microbiomes",
+  "text": "Our microbiomes, or the collections of trillions of micro-organisms that live on and within us, play important\nroles in our health, and when disrupted, have been implicated in human diseases including infections,\nallergies, cancers, diabetes, liver, kidney, heart, and neurological disorders. Recently, new technologies are\nenabling exploration of our microbiomes in unprecedented detail, and exciting advances have been made in\ndeveloping therapies that alter the microbiome with the objective of treating diseases. I propose to build new\ncomputational tools to analyze rich microbiome datasets as well as carry out integrated biological experiments,\nwith the goals of both providing freely available tools to the research community for increasing fundamental\nknowledge of how our microbiomes affect us, and for purposes of accelerating development of therapies that\ntarget the microbiome for treatment of human diseases."
+ },
+ {
+  "id": "f386c8fa-dcf6-4ee1-8437-c04d4f4432a9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Biologic and Functional Characterization of In Vivo CAR-T cells",
+  "text": "Chimeric Antigen Receptor (CAR)-T cell immunotherapy has shown impressive response rates in B cell\nmalignancies; however, limitations to access and failure of many patients to reach complete response call for\ntherapeutic enhancement. Although the causes for CAR-T cell failure are multiple and still emerging, the time\nnecessary to manufacture CAR-T cells seems to directly correlate with quality: the longer the manufacturing\ntime, the worse performance of CAR-T cells once infused into the patient. We hypothesize that platforms\nenabling in vivo engineering of CAR-T cells will enhance CAR-T cell quality and efficacy with less expense and\ngreater patient access."
+ },
+ {
+  "id": "f3890bce-e922-4e2f-a7fa-72dcdd3153fe",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "VivoSphere as an oncology platform for colorectal cancer modeling and drug screening",
+  "text": "For preclinical drug discovery, new in vitro models are needed to obtain more translatable study outcomes in a\nlow-cost and high-throughput manner. The outcome of this project will be tissue engineered colorectal cancer\n(CRC) spheroids, or CRC VivoSpheres, that better model human disease than current commercial products for\nhigh-throughput screening. As a platform technology, the VivoSpheres can be used for a wide range of disease\nand tissue modeling and generate high quality drug response data to make translational research more efficient."
+ },
+ {
+  "id": "f38cc10e-bf88-42ef-8740-5ea36e69615a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identifying Influenza Virus Infection Severity and Outcome Signatures Through Artificial Intelligence-driven Analyses",
+  "text": "Identifying the mechanisms that govern the heterogeneous responses and outcomes following influenza virus\ninfection can guide the implementation of novel medical interventions. While state-of-the-art technologies have\nrevolutionized how we collect and measure patient data, we struggle with integrating large data sets that inform\nclinical practice. Here, we will apply bioinformatics tools driven by artificial intelligence to reveal metrics that\ncorrelate with milder disease and ones associated with high risk of severe influenza."
+ },
+ {
+  "id": "f3926f95-e111-4b5f-9a5f-0b13343f5636",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Explaining State Variability in Pediatric Hospitalizations and Reported Child Maltreatment",
+  "text": "The proposed research is relevant to public health because it seeks to identify policies which result in improved\nhealth and wellbeing in children from marginalized populations. The project is relevant to the mission of the\nEunice Kennedy Shriver National Institute of Child Health and Development by helping to ensure that all\nchildren have the chance to achieve their full potential for healthy and productive lives. This research supports\nthe mission of the National Institutes of Health by creation of knowledge (and resources for future\ninvestigations) that will reduce pediatric hospitalizations and child maltreatment by identifying policies capable\nof mitigating the negative influences of low socioeconomic status."
+ },
+ {
+  "id": "f394e7b7-bb59-4643-9829-5cee0166a447",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Understanding and controlling the cellular fate of fluorinated biologics",
+  "text": "While fluorine-containing biomolecules play a key role in the design of new therapeutics and biomaterials, it\nremains difficult to predict how incorporation of fluorine will impact biologic stability, transport and function. The\nproposed research program will advance our understanding of how fluorinated compounds alter the folding,\nactivity and assembly of nucleic acids and nucleoproteins to which they adsorb, and exploit the unusual physical\nproperties that emerge to design new chemical probes, biopharmaceuticals and artificial cell technologies."
+ },
+ {
+  "id": "f3951011-94f9-403c-be91-86077315ddf5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Nathan Shock Centers of Excellence in Basic Biology of Aging (P30 Clinical Trial Not Allowed)",
+  "text": "OVERALL – NARRATIVE\nWe propose this renewal application for the University of Washington Nathan Shock Center of Excellence in\nthe Basic Biology of Aging (UW NSC) to continue to build on its 30-year history of developing and providing\ncutting edge technologies, expertise, and leadership to the geroscience community. The proposed resources\nwill have a high impact on research into the biology of aging by connecting investigators, particularly early\ncareer stage scientists, with our collaborative and integrated cores focused on translating high dimensional and\nmulti-omics data into new mechanistic insights into the pathways driving aging and healthspan. Our four\nResource Cores provide expertise and technologies in Protein (Core C) and Metabolic (Core D) Phenotypes of\naging, Invertebrate Models of Aging (Core E), and Explainable Artificial Intelligence for Aging (XAI) (Core F); a\nResearch Development Core (Core B) connects early-stage and investigators new to the field to our Resource\nCores through a pilot program focused on integrating across cores and our Administration and Program\nEnrichment Core (Core A) supports statistical support, outreach, collaboration with other centers, program\nmanagement, and oversight through an external advisory board."
+ },
+ {
+  "id": "f39f1a73-935c-4d8a-b5a3-de7449a3d21e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "in vitro modeling of IgH-reprogrammed B cells in secondary lymphoid organoids",
+  "text": "The main goal of this project is to develop and test a cell therapy that supports the development of robust, boostable, and durable broadly neutralizing antibody (bnAb) responses as a functional cure for HIV. This portion of the P01 project will focus on optimizing this therapeutic strategy in immune organoids, which are derived from murine, non-human primate, and human lymphoid tissues and can recapitulate several aspects of in vivo germinal center responses. Clinical trials have shown that sufficiently high antibody titers can suppress viremia during withdrawal of conventional antiretroviral treatment. However, achieving durable bnAb responses using current techniques remains challenging due to low B cell receptor (BCR) precursor frequency. Recent advancements have demonstrated that murine B cells can be reprogrammed to express HIV bnAbs using gene- editing technologies, but significant efforts are needed to determine how to guide these cells into germinal center reactions and subsequent durable memory and long-lived plasma cell phenotypes. Our proposal seeks to optimize techniques for translating this strategy to non-human primate models and human clinical studies. Our project will address the lack of animal models that accurately replicate the human HIV-specific immune response by testing engineered B cells in lymphoid tissue organoid models across murine, non-human primate, and human systems. By integrating in vitro organoid cultures with in vivo data, we aim to predict and optimize HIV-specific B cell responses, and ultimately accelerate the translation of our strategy into the clinic. In this project, we will characterize engineered B cell behavior, identify effective immunogen pairings, and advance the development of durable and scalable bnAb therapies for HIV. Our work will use protein designs and engineered cells from the affiliated immunogen and B cell engineering cores. We will also collaborate with the ‘Last Gift’ study to validate engineered B cell responses in organoids prepared from lymphoid tissues of people living with HIV to assess preventive vs. therapeutic cell therapy strategies. Successful completion of this project will establish the predictive value of organoid models for analysis of HIV responses across murine, NHP, and human model systems, with the long-term goal of accelerating the development of B cell bnAb engineering-based therapies for HIV. Additionally, the organoid approach will enhance our understanding of B cell biology and immune response dynamics during HIV antigen stimulation and infection. By developing and refining organoid culture techniques, we hope to better mimic in vivo responses and provide a valuable tool for future research. This project not only seeks to advance therapeutic approaches but also develop and test a scalable platform for rapid optimization of engineered cells and immunogens to develop the targeted adaptive immune response, ultimately contributing to the broader field of HIV research and treatment."
+ },
+ {
+  "id": "f3a3d290-9f63-4713-9757-89ef203160d7",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Cancer Research Training Program: From Molecular Mechanisms to Therapeutic Strategies",
+  "text": "The Cancer Research Training Program (CRTP) described herein is designed to prepare the next generation\nof young investigators for successful careers in cancer research. By providing trainees with the practical skills\nto perform high-quality research, the foundational knowledge to cultivate a process of life-long learning, and\nthe skills to be part of a dynamic and interactive research team, the CRTP will help to create a new generation\nof cancer researchers who are uniquely prepared to make inroads into understanding and treating cancer."
+ }
+]

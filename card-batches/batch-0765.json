@@ -1,0 +1,142 @@
+[
+ {
+  "id": "8421b7cc-9b12-4711-b4ff-01525257cfab",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Building a national biomedical data science corps through AI-GENe: AI-driven Genomic Education Network",
+  "text": "AI is revolutionizing biomedicine, but teaching-intensive institutions lack resources to integrate these technologies into their curricula, leaving students unprepared for data- driven careers. AI-GENe (AI-driven Genomic Education Network) addresses this gap through three initiatives: (1) modular curriculum development in AI and genomics, (2) cohort-based community of training and practice, and (3) scalable online training. Together, these efforts will educate students and faculty alike in the latest techniques to strengthen their research and workforce career potential."
+ },
+ {
+  "id": "8426355c-9f0a-4da7-96df-c6b129528038",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Translational and Clinical Oncology Research Program",
+  "text": "The Sylvester Comprehensive Cancer Center (Sylvester) Translational and Clinical Oncology (TCO) Research Program (RP), established in July 2022, is led by C. Ola Landgren, MD, PhD, and Jaime R. Merchan, MD, MMSc, and is composed of 39 members representing 14 departments. TCO’s goals are to advance clinical and translational investigations leading to scientific discoveries and improved patient outcomes. In accordance with Sylvester’s 2019-2023 Strategic Plan, the Center established TCO to drive collaborative scientific efforts across the translational research continuum, enabling discoveries made in the other RPs to rapidly enter the clinical setting and develop and test novel strategies to improve cancer therapies, overcome therapeutic resistance, and implement more effective precision medicine approaches. Taking advantage of TCO members’ expertise in translational research, computational oncology, precision medicine, and the development of investigator-initiated studies, TCO has two specific aims 1) identify and characterize novel targets, molecular signatures, and biomarkers, to optimize clinical prediction, prognosis, and support new therapeutic approaches; and 2) leverage discoveries made in TCO and other RPs to develop precision medicine-, epigenetic-, and immunotherapy-based strategies to improve treatment outcomes. The availability of numerous, excellent Sylvester Shared Resources facilitates multidimensional TCO research. TCO currently has $4.9M in direct peer-reviewed funding, including $2.1M from the NCI, and $1.5M from 16 MPI grants. During the current reporting period (6/1/2018-5/31/23), TCO members published 599 peer-reviewed cancer relevant papers: 21% were intra-programmatic, 33% were inter-programmatic, 69% involved collaboration with external institutions, and 58% included investigators from other NCI-designated cancer centers. Notably, 40% of TCO publications had an impact factor ≥10, demonstrating the quality of the studies and their recognition by the scientific community. For example, collaborative TCO research provided insights into the 1) mechanisms of resistance to non-covalent Bruton Tyrosine Kinase inhibitors in patients with chronic lymphocytic leukemia; 2) the role of LMO2 on synthetic lethality to PARP inhibition in diffuse large B cell lymphomas 3) the role of STING signaling in allogeneic stem cell transplant-induced GVHD; 4) identification of a novel role for neutrophil-derived TNF in sustaining immunosuppression and stromal inflammation in pancreatic cancer; 5) promising activity of the VEGF receptor tyrosine-kinase inhibitor, axitinib plus pembrolizumab, in patients with sarcoma (especially alveolar soft-part sarcoma); and 6) intensification of salvage radiotherapy combined with short-term androgen deprivation therapy to improve outcomes in prostate cancer patients with biochemical recurrence after prostatectomy. TCO plays a critical role in Sylvester’s mission to move discoveries from the laboratory into Sylvester’s patient population. The program utilizes team science approaches to drive impactful, innovative, and catchment area-relevant translational and clinical research."
+ },
+ {
+  "id": "8427fa0b-0977-48ba-bd6f-f3dc8c25be26",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "CSHL Cell & Developmental Biology of Xenopus Course (2025-2029)",
+  "text": "LAY NARRATIVE\n Research into human development depends on the use of animal model systems which\nshare many of the same developmental pathways as Homo sapiens. One important model\nsystem is Xenopus, the African clawed frog, which has been extensively used for developmental\nbiology, cell biology, genetics, toxicology, and small molecule screens. The Cold Spring Harbor\nLaboratory Course on Cell & Developmental Biology of Xenopus: Gene Discovery &\nDisease is an intensive two week laboratory and lecture course that builds on the prior art\ndeveloped in this important model organism and provides up-to-the minute training in cutting-\nedge conceptual approaches and technologies. The course enables the participants to\nimmediately apply advanced techniques using Xenopus in their own research, to network with\ntheir research peers, and to learn the challenges and pitfalls through hands-on access to the\nlatest available equipment and reagents."
+ },
+ {
+  "id": "842bede2-a948-48c4-8c55-ae5466ea9d0d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mapping Xenobiotic Metabolism by the Human Gut Microbiome",
+  "text": "The human gut microbiota harbors approximately 100 times more genes than the human genome,\nencoding a vast reservoir of enzymes capable of metabolizing xenobiotics. However, only a small fraction of\nxenobiotic metabolism by the gut microbiome has been characterized, limiting our ability to discover and\nunderstand xenobiotic-derived health effects. This K99/R00 application aims to produce a comprehensive\ncharacterization of gut microbial metabolites of xenobiotics, utilizing complex synthetic communities of the\nhuman gut microbiota combined with high-throughput untargeted mass spectrometry analysis."
+ },
+ {
+  "id": "842d796c-f833-4cf3-98a3-d0cafb93550c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "High-throughput and accessible single-cell multiomic technologies for DNAmethylation analysis",
+  "text": "DNA methylation forms one of the key layers the epigenome – shaping the gene regulatory landscape and\nplaying an important role in the establishment and maintenance of cell types and is dysregulated in a number of\ndiseases. Here we propose to develop multiple new technologies that will enable the single-cell assessment of\nDNA methylation alongside other properties or contexts in an efficient, high-throughput and cost-effective\nmanner as well as enable the assessment of the property in previously inaccessible regions. These tools will\nenable precise assessments of cell-type specific gene regulatory dynamics that can be applied across the gamut\nof development and disease research disciplines."
+ },
+ {
+  "id": "843890b7-e134-4bf6-a150-27cd68ea360f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Strawberry Notch Homologs in Regulatory T cell - Mediated Suppression of Anti-Breast Cancer Immunity",
+  "text": "Regulatory T cells (Tregs) are crucial for self-tolerance to prevent autoimmune diseases but also contribute to\ntumor immune evasion. The proposed study is expected to illustrate how a new helicase – spliceosome partnership\nin Tregs enables their suppression of anti-breast cancer immunity and to identify novel immunotherapeutic\nstrategies for breast cancer patients."
+ },
+ {
+  "id": "84393648-c188-44b2-b47a-5f9927c9d59f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Regulation of Epidermal Development and Differentiation",
+  "text": "Using mammalian skin as model, this research takes high throughput, molecular and genetic approaches to\ndecipher how adult stem cells, as the natural units of tissue repair and homeostasis, respond to local signals\nand injury, replenish worn cells, repair wounds and cope with stress. We made the discovery that the epidermal\nstem cells of skin accumulate and retain long-lasting memories of inflammation and other stresses, which they\ncan later recall with profound consequences for tissue fitness. By unearthing the underlying mechanisms\ninvolved, we hope to decipher how we might therapeutically erase the bad memories that lead to chronic\ninflammation and cancer, while preserving the good ones that help to heal wounds faster and broaden tissue\nresistance to pathogens."
+ },
+ {
+  "id": "843f2fba-9baf-4849-8259-4ec932a210f7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Virology and Immunology Technology Core",
+  "text": "The Virology and Immunology Technology Core (VITC) has a mission, which is congruent with Overall Aim 1, to support the HIV research community across Chicago in rigorously characterizing biological mechanisms, enabling discovery of still-needed interventions and diagnostic approaches that improve prevention, treatment and cure of HIV and its non-AIDS comorbidities. This mission is met by addressing VITC’s three aims to: 1) provide and update state-of-the-art HIV/SIV-relevant assays / analyses; 2) provide continuously improved HIV/SIV-specific model systems and expertise; and 3) strategically plan and implement project / career guidance, and collaborative opportunities. We are enhancing resources, consultation and training for team at Northwestern University (NU), the University of Chicago (UC), Rush University (RU) and the University of Illinois at Chicago (UIC). VITC leadership has just been refreshed with a new Director starting prior to the proposed renewal, Dr. Abdel-Mohsen. The experienced founding Director, Dr. Hope, will continue as Co-Director. The Data Insight Group (Drs. Hultquist and Lorenzo Redondo) has been highly successful in providing analytical expertise for a wide range of -omics and systems biology approaches and will continue in those roles. VITC also adds a Co-Director for neuropathogenesis, Dr. Al-Harthi, and a Co-Investigator, Dr. Wallace; both are at RU and have connections and expertise that strongly complements the other VITC faculty. The Approach to study virus-host interactions includes building on the highly successful functional genomics services and consultations on gene knock-out, gene knock-in, gene inhibition, gene activation in activated primary T cells, resting primary T cells, tissue-resident primary T cells, primary macrophages, and air-liquid interface epithelium. State-of-the-art imaging, particularly deconvolution and light sheet microscopy, supports many NIH projects and DC awards on biomedical prevention. Unique imaging expertise has been, and continues to be, “multi-scale imaging” from the living animal to cells/tissues and electron microscopy. This, and NHP model expertise, enables PET/CT-guided necropsy that is advancing with unique applications of spatial transcriptomics to study SIV persistence on-ART and rebound off-ART in infected macaques. HIV/SIV virology and reservoir assays will continue expanding and improving to meet user needs, including with adaptations of QVOA, IPDA and TILDA as well as multiple assays for cell-associated and virion nucleic acids. Nanopore sequencing is a strength for reservoir research. Comorbidity research benefits from new expertise on aging biology (protein glycosylation modifications, gut/microbiome interactions) and introduction of experimental models, including non-fetal tissue based humanized mice and human tissue organoids. The Core will start an interest group catalyzing a new HIV Cure SWG, as well as actively supporting assay needs and proposal development of the Slowing Aging Across the Lifespan for Persons with HIV (SAIL HIV) SWG. VITC will synergize with the other Cores and enable discoveries that inform still-needed interventions to end HIV."
+ },
+ {
+  "id": "8441f6ba-72bc-46f6-be33-ad0375ab39ad",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "CYP4F Enzymes Regulate N-Acyl Amino Acid Signaling in Humans",
+  "text": "Obesity and obesity-related type 2 diabetes (T2D) pose major health threats in the US. We recently discovered\nthat a family of signaling molecules in the blood called N-acyl amino acids have anti-diabetic properties in\nanimal models of obesity and are strongly associated with metabolic disease in humans. In this project, our\ngoal is to use new methods in the laboratory to study a pathway that regulates the levels of these disease-\nassociated compounds in the blood in order to improve our understanding of metabolic disease in humans,\nand to identify potential new pharmacological targets for the prevention and treatment of obesity and T2D."
+ },
+ {
+  "id": "844effe3-a23f-4373-a3d6-c005db26553e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Sleep and Mood Dysregulation in Fragile X Syndrome: A Multidisciplinary Investigation of Behavioral and Neurobiological Correlates",
+  "text": "Individuals with autism spectrum disorder (ASD) are at a heightened risk of developing major depressive\ndisorder (MDD), with a four-fold increase in lifetime depression compared to the general population. The\nproposed studies will investigate the underlying synaptic mechanisms of depression-like behaviors and\ndetermine if sleep is a reliable predictor of MDD risk and treatment outcome in a preclinical model of ASD, the\nFmr1 KO mouse. If our hypotheses bear out, this work may have broad applications to idiopathic ASD, and\nhelp inform future applications with new druggable targets, that promise to reduce the burdens of illness and\ndisability."
+ },
+ {
+  "id": "844f1d23-af68-4c01-bb44-aeb99f47bf41",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanistic Studies of CRISPR-Cas9 Genome Editing Using Molecular Simulations and AI-Driven Approaches",
+  "text": "Gene editing technologies based on CRISPR-Cas9 are revolutionizing molecular medicine by offering targeted\nmanipulation of genetic material, but critical challenges remain in improving their accuracy and effectiveness.\nThis proposed research combines advanced computer simulations with artificial intelligence (AI) methods to\nuncover how gene editors function at the molecular level, providing new insights into their mechanisms of action.\nBy deepening our understanding of these systems, this research aims to drive the development of more precise\nand efficient genome editing tools, ultimately advancing therapeutic strategies for genetic diseases."
+ },
+ {
+  "id": "844f81fb-c22f-43a7-9a64-75a6da4af486",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "TNF-alpha Mediated Htra3 Suppression Drives Atrial Fibrosis and Atrial Fibrillation in Acute Myeloid Leukemia",
+  "text": "A growing number of cancer patients and survivors suffer from a heart rhythm condition called Atrial Fibrillation\n(AF). There is a pressing need to develop targeted treatments since these patients can’t be treated with the\ncurrent anti-AF strategies because of their cancer. By validating a novel inflammatory pathway, we propose to\ntest FDA-approved drugs to prevent or treat AF in cancer patients, directly providing a highly translational solution\nto a critical public health need in Cardio-Oncology."
+ },
+ {
+  "id": "84524be2-5671-4fca-af49-91cf8a883a39",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The role N-terminal acetylation in dilated cardiomyopathy and associated arrhythmia",
+  "text": "We have identified a new mutation in a protein that causes heart rhythm problems,\nheart function problems, and autism in mostly in boys. This protein modifies or changes\nthe function of many other proteins in the body as soon as they are made. This\nmodifying protein may be involved in causing abnormal heart rhythms in patients with\nheart failure and studying its function will improve how we treat patients with similar\nproblems."
+ },
+ {
+  "id": "8458abfb-f03c-4d70-a467-61a73ad6609b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Organoids and Gene Editing Core",
+  "text": "OGEC The overarching mission of the WU-DDRCC is promoting collaborative, multidisciplinary research focused on interactions between host and environment in digestive disease. The reconfigured Organoid and Gene Editing Core (OGEC), and its predecessor, the Precision Animal Models and Organoids Core (PAMOC), supports this mission by offering human-derived and preclinical models along with the expertise to rigorously study digestive disorders. Guided by our External Advisory Board (EAB), member survey results and usage trends, OGEC has evolved to offer new services, techniques, and leveraged constructive collaborations with Institutional Cores. In the current cycle, we expanded the Organoid Component to meet member demand and devolved germ-free services to the new WUSTL Institutional gnotobiotic facility. New OGEC services introduced over the most recent funding period (2019-2024) include gene editing strategies (leveraged through Institutional core services), air-liquid-interface culture, hepanoid and hepatocellular tumoroid culture, multicellular culture including organ-on-a-chip, host-microbe studies, and acquisition of new equipment for imaging and monitoring organoid growth (Biotek Lionheart Fx). KEY ACCOMPLISHMENTS: Since 2019, the reconfigured OGEC has established 96 new human cell lines from 68 different patients including those with Crohn’s, UC, ileal pouches, IL-10R deficiency, and cancers of the stomach, liver and colon. We distributed 56 human cell lines to 11 DDRCC members. We established murine lines from 17 different genetic models and distributed these to 5 laboratories. We generated and distributed 160 L of QC tested L-WRN media as well as other reagents to 27 different members. Together, these services have provided member cost savings of $1.876M. The mouse genetics component completed 10 genome modification projects (increasingly with CRISPR/Cas9/targeting vector injections or electroporations) for 7 members; and provided 3 transgenic mouse strains from the Mouse Bank to 7 members. 28 Members used the Core publishing 36 papers of which 24 (67%) were collaborative involving 2 or more members citing DDRCC. Our SPECIFIC AIMS include Aim 1: Provide efficient access to organoids for research by offering useful human and mouse cell lines, discounted culture media, imaging equipment, and consultation services. Aim 2: Provide direct assistance for organoid experiments, including deriving gastrointestinal cell lines from mice and humans, editing organoid genomes, and providing wells/plates of high-quality organoids in 2D, 3D, and/or multicellular format. Aim 3: Assist members in generating gene-edited mice, including electroporating CRISPR/Cas9 reagents into zygotes. These services provide vital pre-clinical research tools and strengthen the relevance of our science to clinical practice. Aims 1 and 2 build on infrastructure and expertise from Dr. Ciorba and collaborators at WUSTL. Aims 2 and 3 leverage Institutional resources of the Genome Engineering & Stem Cell Center and the Mouse Genetics Core, with Dr. Miner offering guidance for members at each step."
+ },
+ {
+  "id": "84596fc2-4861-4208-9260-d5d30e4726e5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Metabolic perturbations induced by cancer-derived large oncosomes in the tumor microenvironment",
+  "text": "This is the first study to investigate the mechanism by which cancer-derived large oncosomes (LO) mediate the\ntransfer of mitochondria and metabolites, promoting tumor-supportive changes in fibroblast bioenergetics. We\nwill apply cutting-edge technologies in this conceptually innovative study, which will offer new insights into\nextracellular vesicle (EV) biology, mitochondrial transfer, and cancer metabolism. By integrating ancestry as a\nbiological variable and analyzing LO from patient blood samples, this work will also address disparities in cancer\noutcomes and provide a potential foundation for future biomarker development and patient stratification."
+ },
+ {
+  "id": "84667088-28fe-410e-83f1-eb857c1b2c86",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Optimizing Stage 2 T1DM Management: Assessing the Impact of GLP-1Ra on Metabolic Outcomes in Patients Receiving Teplizumab",
+  "text": "This research aims to enhance our understanding of the metabolic benefits of glucagon-like peptide-1 receptor\nagonists (GLP-1Ra) in stage 2 type 1 diabetes patients treated with teplizumab. By investigating the\ninsulinotropic and glucagonostatic effects of GLP-1Ra, the study seeks to improve treatment outcomes, slow\ndisease progression, and enhance the quality of life for individuals with type 1 diabetes. The insights gained\nwill have broad implications for the management of diabetes, a major public health concern, contributing to\nstrategies that can extend healthy life and reduce illness."
+ },
+ {
+  "id": "846799c7-9802-4199-9e1e-bf760fcb8e81",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Neighborhood characteristics, GPS-based activity space, and cognitive health",
+  "text": "This project aims to examine the influence of contextual-level neighborhood characteristics and \nperson-specific neighborhood experiences on trajectories of cognitive aging and Alzheimer’s \ndisease and related dementias. The study will also examine neighborhood factors influencing \ncognitive health disparities. The expected outcomes will guide sustainable behavioral \ninterventions and population-level interventions to promote cognitive health especially among \nvulnerable populations."
+ },
+ {
+  "id": "8468f5f5-f4d6-41bd-8de4-3d7a67b7c7c4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Predicting and continuously monitoring dyspnea using noninvasive biomarkers",
+  "text": "This project addresses the critical unmet need for objective dyspnea assessment by establishing a novel,\nmachine learning-driven platform for real-time monitoring. Our predictive model leverages multimodal\nnoninvasive physiological signals to continuously monitor dyspnea severity and provide clinicians with insights\nto enable precision-guided interventions. Successful completion will establish a paradigm shift in symptom\nmonitoring, and transform dyspnea management to reduce suffering, improve clinical outcomes, and alleviate\npsychological trauma in millions of patients."
+ },
+ {
+  "id": "846b3c95-a7a1-4595-974d-298e250b1e3a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Additive Manufacturing Wearable Magnetic Sensors: Revolutionizing Cardiac Health Monitoring with Machine Learning for Arrhythmia Classification",
+  "text": "Magnetocardiography (MCG), a technique that records the magnetic fields generated by the\nheart's electrical activity using a superconducting quantum interference device (SQUID), is more\nsensitive to currents tangential to the chest surface and can complement electrocardiography\n(ECG), thereby improving clinical cardiac diagnostics in patients. Our SuRE project aims to use\nadditive manufacturing to print inexpensive, high-sensitivity, wearable organic granular\nmagnetoresistive (OgMR) sensors with micrometer-scale spatial resolution for MCG recording,\ncombined with a machine learning algorithm for high-accuracy classification of normal and\narrhythmic heart rhythms, providing superior cardiac diagnostics. OgMR sensors, with superior\nfield detection sensitivity compared to traditional magnetoresistive (MR) sensors, do not rely on\nthin film deposition or micro/nanofabrication facilities and do not require a magnetic shielding\nroom, low temperatures, or regular maintenance like SQUID, potentially revolutionizing cardiac\nhealth monitoring."
+ },
+ {
+  "id": "8472f6c4-52da-477f-903a-f222034e8424",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Transplant and Cellular Therapy",
+  "text": "Transplant and Cellular Therapy Program Summary The central scientific theme of the TCT Program is that immune cells and hematopoietic stem cells can be engineered to overcome the principal obstacles that limit the success of allogeneic hematopoietic stem cell transplantation (alloHSCT)—graft-versus-host disease (GVHD), prolonged immune incompetence, conditioning toxicities, and relapse—and of immune effector cell therapies—on-target/off-tumor tissue injury, cytokine release syndrome, and immune cell-associated neurotoxicity syndrome—as well as logistical barriers and cost. Cell therapies are also more exportable than alloHSCT, helping to meet the Cancer Center’s goal of broadening access to novel cancer therapies in Greater Minnesota (outside of the Twin Cities). The Program has 4 Aims to address this overarching theme: 1) Identify safer alternatives to αβT-cell immune effector cells as “off-the-shelf” allogeneic immunotherapies, including the development of chimeric antigen receptors with greater specificity in order to maximize tumor kill and reduce on-target/off-tumor side effects; 2) Introduce novel engineering approaches to extend persistence and control proliferation of engineered IECs in vivo and establish large-scale manufacturing methods for producing hundreds of doses of a well-defined, quality-controlled, off-the-shelf product; 3) Explore nonchemotherapy approaches for lymphodepletion that are nontoxic (eg, no myelosuppression) and safer; and 4) Develop novel pharmacologic and cellular interventions to prevent acute and chronic GVHD and eliminate the prolonged immune incompetence commonly observed after alloHSCT. TCT is co-led by John E. Wagner, MD, an experienced clinical and translational investigator in the field of HSCT and cellular therapeutics, and Brian C. Betts, MD, a physician-scientist with expertise in signal transduction, immune tolerance, and cell therapy. TCT has 34 members, representing 9 departments and 5 schools or colleges. For the last budget year, these members were supported by cancer-relevant research funding of $11.6 million in direct costs, of which $0.8 million came from the NCI. Since 2018, Program members have published 850 papers, 36% of which resulted from intraprogrammatic collaborations, 22% from interprogrammatic collaborations, and 76% from external collaborations. The Masonic Cancer Center supports the Program by providing Shared Resources with state-of-the-art technologies such as mass spectrometry and flow cytometry, as well as the Clinical Trials Office, which is critical to the implementation and oversight of numerous complex early-phase clinical trials."
+ }
+]

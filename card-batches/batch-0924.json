@@ -1,0 +1,142 @@
+[
+ {
+  "id": "be154716-bbe3-4f0b-819c-a891c516bdf5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Core B - Cell Engineering and Manufacturing Facility",
+  "text": "Core B Narrative\nCore B will support the goals of the three proposed projects by (a), developing and implementing GMP-grade\nprotocols for the manufacture, validation, and cryopreservation of gene-edited hematopoietic stem cells and/or\nCAR-T cells for use in clinical trials for patients with CLL, NHL, AML, and multiple myeloma and (b),\ndiscovering and characterizing novel single-domain (VHH) antibody fragments with improved functionality\nagainst project-related targets including CD5, CD45, and BCMA. Public health will be served not only by\nhelping those suffering from these four types of blood cancers, but the methods developed for producing\nclinical grade gene-edited stem cells and CAR-T cells may prove to have broad application for their use in the\ntreatment of solid malignancies in the future."
+ },
+ {
+  "id": "be1c36a0-5c0c-47c5-8680-bad83fe76a3e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Epigenetic Regulation of T Cell Metabolism and Immune Functions by Sirt6",
+  "text": "Cancer generates a significant financial burden on our public healthcare system and this project addresses\ncancer treatment specifically by rescuing the metabolic fitness and effector functions of intra-tumoral T\nlymphocytes that mediate immune responses against cancer. We will explore the role of Sirt6, a nuclear protein,\nin regulating T lymphocyte metabolism and functions. Such knowledge will be tremendously useful and can be\nimmediately applied in clinical trials to develop a novel cancer treatment by targeting Sirt6 in T lymphocytes to\nenhance the capacity of these cells to fight against cancer."
+ },
+ {
+  "id": "be1ed02c-8dec-4cac-879f-f81a37bbe5b8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Disrupted Communication Between Blood Cells and Non-blood Organs as a Mediator of Aging Pathologies",
+  "text": "This project will apply a novel in vivo gene editing approach to reveal key mechanistic drivers that perturb\nblood cell function with age and directly test the relevance of mutations that arise in cells of the blood system\nand can drive the expansion of individual blood cell clones to age-related dysfunctions in the cardiovascular,\nneurologic and skeletal muscle systems."
+ },
+ {
+  "id": "be274cfc-db28-4327-ae9d-4ee0e5eedbab",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Hematopoietic stem cell defects in Diamond-Blackfan Anemia",
+  "text": "I have used CRISPR/Cas9 technology to create a new human cell-based experimental model for Diamond–Blackfan anemia (DBA), a rare but devastating blood disease that causes isolated anemia in children and global suppression of blood formation in many older patients. Using my new approach, I showed that the mutations in RPS19, the most commonly affected gene in DBA, impair the function of blood-repopulating hematopoietic stem cells (HSCs). My planned project to study this impairment should lead to improved understanding of DBA, identify new therapeutic strategies, and elucidate a new facet of ribosomal and HSC biology."
+ },
+ {
+  "id": "be289b0b-16cb-4686-868a-ab2dc2e48691",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Spatial multiomic mapping of gene function with CRISPRoff",
+  "text": "Mapping the function of every gene in human cells will enable us to begin to define how gene\nexpression programs impart specialized and adaptive human cellular functions required for life.\nThe innovative approach proposed here combines CRISPRoff, a cutting-edge genetic\nmanipulation technology, with comprehensive single cell molecular phenotyping approaches in\na classic model of human development, which will allow us to study the effects of specific genes\nin a biologically meaningful way to yield new insights that are broadly applicable across cell\ntypes and disease areas. Specifically, we will characterize at single cell resolution in space and\ntime the function of human transcription factors and epigenetic regulators in early\ndevelopmental cell fate transitions."
+ },
+ {
+  "id": "be30aa5b-2150-4536-8c27-7e65f5aeafac",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Disease mechanism of Usher syndrome 2",
+  "text": "USH2A and ADGRV1 mutations are the major cause of Usher syndrome and autosomal\nrecessive retinitis pigmentosa, two incurable retinal degenerative diseases. Our study will\nidentify the defective cellular pathways and involved proteins in Ush2a and Adgrv1 mutant\nmouse retinas at young ages using both unbiased and targeted approaches. If successful, the\nfindings of our study will provide insight into the disease mechanism underlying USH2-\nassociated retinal degeneration."
+ },
+ {
+  "id": "be3d9b9e-6741-449d-8f60-d4175bf13004",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Bioinformatics and Modeling Core",
+  "text": "PROJECT ABSTRACT – CORE B The goals of the COBRE Center for Applied Immunology and Pathological Processes (CAIPP) are to establish a nationally recognized advanced research and training program to understand immunological contributions in various disease states and facilitate the development of junior faculty research programs to achieve major independent research funding. Application of networking analysis and modeling approaches to immunological questions is capable of predicting genetic mediators and modeling immune outcomes in response to various pathogens and disease states. In Phase 2, the Center for Applied Immunology and Pathological Processes will continue to build the Bioinformatics and Modeling Core (Core B) in support of CAIPP research activities. The goals of the Bioinformatics and Modeling Core are to provide access to technical and scientific expertise that advances individual COBRE investigator projects. The Bioinformatics and Modeling Core will bring needed infrastructure to drive hypotheses, expedite publications, and enhance our competitiveness for extramural funding. Education and training initiatives will increase the systems-based bioinformatics knowledge at LSUHSC- S and inspire others to pursue bioinformatics in their research."
+ },
+ {
+  "id": "be3f228c-024a-4a7b-be0e-d519b3e24497",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The molecular mechanisms of progestin efficacy and resistance in EC-AEH",
+  "text": "Project 2: Establish the molecular signatures of progestin efficacy and\nresistance in EC-AEH.\nDespite advances in treating all other cancers, cases and deaths from endometrial cancer are rising in the\nUnited States. Progestins, synthetic versions of the hormone progesterone, are important but underutilized\nagents for preventing the progression of atypical endometrial hyperplasia and low-grade endometrial cancers\ninto high-grade cancer but are ineffective in about a quarter of patients, and relapse rates are high. In keeping\nwith the mission of the NIH, we propose to improve the health of women with endometrial cancer by using\nadvanced molecular tools to understand the mechanism of how progestins work to develop more effective\nprogestin-based therapies for the patients who will benefit from their use."
+ },
+ {
+  "id": "be4337cb-7595-4c19-a97e-2a8b627c02a2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "PROJECT 1: Identifying Reservoirs of Plasmodium Infections in Odisha, India",
+  "text": "PROJECT 1 SUMMARY Maintenance of Plasmodium cases in Odisha, India, continues despite active efforts by the state malaria control program targeting high endemicity foci with mass screening and treatment (MSAT), intensified vector control measures (LLINs, IRS), and community education. An improved understanding of what is driving the maintenance of Plasmodium reservoirs in Odisha despite these efforts is the broad goal of Project 1, and the knowledge generated from three aims will be used to design new tools required to further the state's progress toward elimination. A four-year community-based cohort in three Odisha districts of differing endemicity will enable Aim 1 to be realized. In each district, 1000 individuals will be selected across 5 villages/hamlets and will be followed for the duration of the study (15 villages total; 3,000 subjects total). Visits and sample collections will be carried out at baseline and then every 6 months, including before and after rainy seasons. Infections will be determined by microscopy, RDT, and PCR, and changes in clinical status will be monitored over time. To obtain a true estimate of the impact of false negative RDTs leading to malaria detection and treatment failure, the cohort surveillance will be augmented with passive surveillance enrolling patients with febrile illnesses presenting for care at the three district healthcare centers. Using samples and survey data collected from the same cohort, Aim 2 will evaluate the frequency of false negative and erroneous species identification at the three sites by (i) comparing results between different diagnosis methods (microscopy vs. RDT vs. PCR) in our cohort, (ii) identifying Pfhrp2 and Pfhrp3 gene deletions in P. falciparum infections and their prevalence over time, and (iii) investigating whether other Plasmodium species are rising into the niche vacated by P. falciparum. Lastly, Aim 3 will focus on evaluating Anopheles species composition and density in households and adjacent cattle sheds of a subset of participants, and monitor changes in insecticide susceptibility over time. Understanding where, why, and how reservoirs of infection remain in Odisha is the key focus of Project 1, and the data generated through the three subprojects will support the design of new control and intervention approaches to advance the state's goal of elimination before 2030. Project 1 will generate granular field data on diagnostic failure, Pfhrp2/Pfhrp3 deletions, changing patterns of Plasmodium species, persistent infection reservoirs, Anopheles vector composition, vector ecohabitats, and insecticide susceptibility. These data will guide U.S.-led development and commercialization of improved malaria RDTs, species-specific diagnostic assays, insecticide-resistance monitoring tools, surveillance platforms, and interventions targeting parasite and vector reservoirs. The broad diversity of malaria vectors and ecological settings in India makes this work especially relevant to U.S. biosecurity and preparedness, as it will help define how efficient vectors occupy, adapt to, and expand across different environments, knowledge that could become critical if invasive or competent malaria vectors are identified in the U.S. in the future, as occurred when the Indian vector Anopheles stephensi was detected in Ethiopia. Since these challenges occur across many malaria-endemic countries, tools developed from these findings will be deployed well beyond India, creating global market opportunities for U.S. diagnostic, biotechnology, vector-control, and health-data companies. Lastly, all de-identified Project 1 data will be deposited in appropriate repositories for re-use by U.S. researchers, companies, and public health agencies, strengthening both malaria surveillance and American scientific and commercial leadership."
+ },
+ {
+  "id": "be471a7a-f4ab-4ac5-afe2-d594a8500601",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Transcriptional control of hemoglobin synthesis and erythrocyte development",
+  "text": "Elucidating mechanisms that regulate erythrocyte development and function continues to unveil\ndiscoveries that inform erythroid biology, hematology and broader mechanistic, biological and pathological\nproblems. As mechanistic defects generate ineffective erythropoiesis e.g., in bone marrow failure\nsyndromes and diverse anemias, which can be resistant to erythropoiesis-stimulating therapeutic agents,\nnew mechanistic knowledge will provide logic to devise efficacious strategies and advance technology to\nmanufacture stem cell-derived blood products. Our multiomic studies with primary and genetically\nengineered human cells will develop paradigms to explain how inflammatory signaling converges with\nGATA transcription factors and erythropoietin signaling to disrupt the control of intracellular small molecules\nand vital processes governing genome function and cellular differentiation."
+ },
+ {
+  "id": "be508be8-120e-4cb6-a0b6-afe329f67aaa",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Transforming Spatial Proteomics via Simultaneous Multiplexed Imaging at Single-Protein Resolution",
+  "text": "This project will develop Simul-Proteomics, a next-generation technology for mapping proteins at single-\nmolecule resolution in cells and tissues. By enabling rapid, high-throughput spatial proteomics via\nsimultaneous multiplexed imaging and eliminating fluidic exchange to minimize sample damage, Simul-\nProteomics will accelerate biological discovery and provide critical insights into how proteins are organized and\ninteract in healthy and diseased states. The ability to visualize protein organization at the molecular scale will\nultimately improve our understanding of diseases such as cancer and neurodegeneration and accelerate the\ndevelopment of new therapies."
+ },
+ {
+  "id": "be54ab46-87ee-4bb3-99d2-773a5645a389",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "CRISPR Core",
+  "text": "PROJECT SUMMARY- CRISPR WHOLE GENOME SCREENING CORE (CSC) The goal of the proposed CRISPR Whole-Genome Screening Core (CSC) is to make state-of-the-art CRISPR- based technologies available to investigators in aging and geroscience to identify new genes and elucidate gene- specific events in mammalian cell-based model systems. High-throughput screens using CRISPR-based genomic libraries can identify novel genes in biological pathways that control aging and age-associated diseases by systematically knocking out individual genes in cultured cells and then measuring changes in cellular phenotypes. The CSC has accumulated the necessary expertise, instrumentation, software, and arrayed human and mouse whole-genome sgRNA CRISPR libraries to rapidly (~2-6 weeks) perform loss-of-function screens and make these capabilities available to the aging and geroscience research communities at an affordable cost. To our knowledge, these capabilities do not exist in the vast majority of universities or any other NSC. The CSC proposes three Specific Aims: (1) Work with investigators to design and develop robust, cell-based, aging- and age-associated disease-relevant assays suitable for high-throughput screening of whole-genome single-guide (sg) RNA CRISPR libraries, (2) Perform high-throughput CRISPR whole-genome loss-of-function screens using human and mouse-arrayed sgRNA CRISPR libraries and (3) Perform bioinformatic analyses, prioritize gene candidates and validate identified genes. Collectively, the services offered will uncover key signaling cascades, molecular pathways and biological processes driving the phenotypes of interest, ultimately advancing our understanding of complex biological systems and informing potential geroscience therapeutic interventions."
+ },
+ {
+  "id": "be567b15-b858-429b-bb3b-89a6947b69cd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of a bispecific anti-gonococcal immunotherapeutic",
+  "text": "Neisseria gonorrhoeae causes more than 80 million cases of bacterial sexually transmitted infections\nannually. Increasing resistance to the first-line antibiotic therapy for gonorrhea raises the threat of\nuntreatable, multidrug-resistant (MDR) gonorrhea. In the present application we propose to conduct\nstructural and binding studies of two monoclonal antibodies (mAbs) against gonococcal\nlipooligosaccharide, and to use this information to design bispecific mAbs as immunotherapeutics\nagainst MDR gonorrhea."
+ },
+ {
+  "id": "be5b8cd2-bf11-454d-9bbc-3bdb73361df3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Protein Function Prediction as a Translation Task",
+  "text": "This project aims to transform biomedical discovery by enabling the rapid functional annotation of proteins and\nchemicals, which, in the long term, has the potential to significantly accelerate the identification of new therapies\nand personalized medicine strategies. The machine learning-based tools developed here will be validated through\nefforts that may immediately advance biomedical research and understanding related to the treatment of cancer\nand viral infections. By translating complex molecular data into accessible insights, these tools may be applied\nmore broadly to enhance our ability to understand and treat complex diseases, ultimately improving public health\nand patient outcomes."
+ },
+ {
+  "id": "be5f0c90-1cb0-4c5d-b1d2-c1a8bba3d195",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Longitudinal reciprocal relationships between cannabis use, sleep, and the HPA-axis",
+  "text": "Sleep disruption has been reported among individuals that regularly use cannabis and following the abrupt\ncessation of cannabis, sleep disruption has also been reported as the most distressful withdrawal symptom\nand a reason for relapse. The mechanism(s) by which cannabis regulates sleep remains unclear, however, the\nescalation and/or maintenance of hazardous levels of cannabis likely involves a bidirectional (and mutually\nreinforcing) relationship between sleep and cannabis use. We aim to use a mixed approach of ambulatory\nassessments, observations of naturalistic cannabis use, and intensive laboratory measures with a controlled\nsleep protocol to systematically determine the prospective interrelationship between sleep, changing cannabis\nuse, and hypothalamic pituitary adrenal- axis activity within and between participants."
+ },
+ {
+  "id": "be64f840-7746-4c22-bc1d-69edbf5e0543",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Developing clinically relevant PET tracers to image T cell activation for improved cancer immunotherapy monitoring",
+  "text": "While chimeric antigen receptor T cell (CAR T) therapy represents a major advancement in the cancer\nimmunotherapy field, these ‘living drugs’ face several barriers to their widespread success, including the inability\nto discern their fate after infusion. Here we propose a new in vivo approach to monitor CAR T cells with high\nspecificity using immuno-positron emission tomography (immunoPET), a rapidly expanding area of molecular\nimaging. Specifically, we will develop and characterize the first human-specific immunoPET probes for OX40\nand ICOS, two cell-surface antigens that are upregulated on activated T cells (including CAR Ts) with the long-\nterm goal of clinical translation to improve patient outcomes by enabling non-invasive monitoring of responses\nto CAR T and other immunotherapies."
+ },
+ {
+  "id": "be6b5ff2-7fd6-4752-b234-8a0923ed6577",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of a safer stem cell-based diabetes therapy via suicide gene-mediated ablation of proliferative cells",
+  "text": "Transplanting diabetic patients with more insulin-producing cells is an attractive way to reverse their diabetes,\nbut until now the only way to get new cells was from organ donors, and required giving the patient\nimmunosuppression so the replacement cells would not be rejected. In this project, Regenerative Medical\nSolutions will make replacement insulin-producing cells that can be made in unlimited numbers, and demonstrate\nthat the cells are safe and will not be rejected by the immune system. These new insulin-producing cells could\nbe a safe and effective therapy for many diabetic patients."
+ },
+ {
+  "id": "be6d5f45-9231-4b32-81f7-6b1fb50eb54e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Glioblastoma stem cell vaccine for the prevention and control of glioblastoma",
+  "text": "Cancer stem cell-based anticancer vaccine for glioblastoma, which is almost always lethal under current treatments,\nrepresents a critical step toward finding a treatment solution for this deadly disease. By harnessing the power of the\nimmune system, the cancer stem cell vaccine has the potential to transform the landscape of glioblastoma treatment\nand offer renewed hope to patients. The potential implications of this research extend beyond glioblastoma and\ncould have far-reaching impacts on treatment strategies for cancers in the brain and the periphery."
+ },
+ {
+  "id": "be6effef-baf4-4a8f-93cd-38bf1565ffe2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Therapeutic Discovery in Neurodegeneration with Bioengineered Organoids and AI-Genomics",
+  "text": "Neurological diseases are the leading cause of disability-adjusted life years and the second most common cause\nof death globally—a massive global health challenge—and in spite of this, we still lack a pharmacologic treatment\nthat can stop or reverse neuronal damage. To gain new insights into disease mechanisms and identify potential\ntherapeutic strategies, we are coupling our recently developed, advanced brain organoids to a multi-modal in\nsilico model that combines large human and preclinical datasets, forming an AI-augmented organoid drug dis-\ncovery pipeline. We aim to identify and intervene at the root cause of diseases like Alzheimer’s Disease, Amyo-\ntrophic Lateral Sclerosis, and Frontotemporal Dementia to improve outcomes for the patients and their families,\nand ultimately to develop a new framework for therapeutic discovery that could be broadly applied to human\ndisease."
+ },
+ {
+  "id": "be723e6e-e10b-442b-b0f3-93b952db7bcc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project Three - Innate Immunity and Cell Death in ALD",
+  "text": "Alcohol-associated liver disease (ALD) affects over 10 million people and there are few, if any, effective treatment strategies for ALD. Enhanced hepatic inflammation is an important contributor to ALD and there is a strong relationship between inflammation, programmed cell death, and progression of ALD. Among the different forms of programmed cell death, necroptosis has emerged as a distinct mechanism with unique molecular pathways and functional outcomes. Necroptosis classically depends on receptor interacting protein kinase 3 (RIP3), which binds to RIP1 through their RHIM domains to form the necrosome. RIP3 then phosphorylates mixed-lineage kinase like (MLKL), leading to its translocation to plasma membrane, where it forms pores that mediate necrop-totic cell death. However, emerging evidence from our lab and others demonstrates important domain-specific and cell-specific non-canonical functions of RIP1-RIP3-MLKL signaling inLD. Specifically, while Rip3 drives eth-anol-induced liver injury in murine models of ALD (termed mALD here), Mlkl-/- mice are only partially protected in mALD. Importantly, despite the similarities in clinical expression of ALD, metabolic associated steatotic liver disease/steatohepatitis (MASLD/MASH) and Met ALD (patients with MASLD/MASH who drink heavily) the con-tribution of RIP3 and MLKL are very distinct with Mlkl-/-, but not Rip3-/-, mice protected in murine models of MASLD. Based on these published/preliminary studies, we propose the following Specific Aims: Aim 1: Identify the domain-specific and cell-specific non- canonical mechanisms of RIP1 and RIP3 action in mALD. Impact: Domain-specific therapeutics for the RIP kinases are in development, indicating the potential for the translational of our results to clinical practice. Aim 2: Discover the post-translational mechanisms by which ethanol perturbs RIP1 signaling distal to activation of death receptor signaling. Impact: Pharmaceuticals targeting both ubiquiti-nation and phosphorylation are in development. Understanding the key regulatory post-translational modifica-tions regulating RIP1 in ALD will facilitate design of rational therapeutic interventions. Aim 3: Leverage the dif-ferential contributions of RIP1 and RIP3 to mALD and HFD models of liver disease to develop circulating bi-omarkers to distinguish ALD, MetALD and MASLD/MASH in patients. Impact: Development of circulating bi-omarkers for diagnostic and prognostic indicators to distinguish patients with AH, MetALD and MASLD/MASH will address an important unmet clinical need. Synergy within NOAC: Conceptual: Understand role of ethanol-induced perturbations in signaling and cell-cell interactions in ALD; Experimental: common murine models, novel hPSC cell culture approaches, unbiased multi-omics approaches; Translational: biomarker development from shared clinical samples; Intellectual: strong collaborative, interdisciplinary team."
+ }
+]

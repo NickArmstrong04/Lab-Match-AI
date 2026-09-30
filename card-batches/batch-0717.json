@@ -1,0 +1,142 @@
+[
+ {
+  "id": "73adcad9-8659-4052-84fc-8782386fd0b7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Core A - Administrative and Systems Biology of Aging Core (ASBC)",
+  "text": "CORE A: Administrative and Systems Biology Core – SUMMARY The Administrative and Systems Biology Core (ASBC, Core A), led by Drs. Nathan LeBrasseur and Sundeep Khosla who have a longstanding and productive history of collaboration, will provide the overall leadership as well as the infrastructure for the Program Project Grant (PPG). The three Projects defining mechanisms of cellular senescence in skeletal aging (Project 1), muscle aging (Project 2), and brain aging (Project 3) in the PPG represent independent but highly interactive proposals by experienced investigators who have a long track record of collaborative studies. A major goal of Core A, therefore, is to ensure optimal interaction and integration among the Projects. These interacting Projects also need the appropriate infrastructure and logistical support, such as sample acquisition and storage, data management, and central administrative coordination. In addition, as in the previous funding cycle, Core A will continue to provide statistical support to the investigators and trainees associated with the Projects and, where appropriate, the Cores. However, in keeping with the evolving bioinformatic needs of the Projects and also Core C (Drug Discovery and Development) and Core D (Senescence Molecular Phenotyping), we have enlisted a highly qualified expert in systems biology and bioinformatics, Dr. Hu Li, to (i) develop novel deep learning and systems biology platforms to uncover context- specific mechanisms of aging-driven senescence in bone, muscle, and brain; and (ii) to devise and leverage deep learning and systems-based single-cell analysis methods to decipher genes that modulate spatial coordination of cells in the aging microenvironment. Collectively, through the coordination, integration, and analysis of research activities and results across the three projects and four cores, Core A will ensure this PPG yields fundamental insights into the governing roles of p16 and p21 in cellular senescence and aging, critical data on the therapeutic potential of senotherapeutic compounds for age-related tissue dysfunction, and an advanced understanding and new hypotheses regarding cellular senescence as a mediator of inter-organ communication between bone, skeletal muscle, and brain."
+ },
+ {
+  "id": "73ae8c6d-de27-44fc-b422-4573aad46080",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Structure and Mechanism of the Kinesin-3 Motor KIF1A",
+  "text": "KIF1A is the major generator of microtubule plus-end-directed motility in neurons and mutations in its motor\ndomain cause devastating neurodevelopmental neurodegenerative diseases. We are studying the functional and\nstructural mechanism by which KIF1A generates force and moves along microtubules and are determining\nthe structural defects caused by disease mutations in KIF1A."
+ },
+ {
+  "id": "73af53dc-b723-41cb-a622-05ffafa52732",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Quantitative Glioblastoma Margin and Infiltration Mapping with Advanced Diffusion-Relaxation MRI",
+  "text": "There is an unmet need for patient-specific, personalized mapping of tumor margins in order to improve clinical\ntreatment of glioblastomas, the most prevalent and deadly primary brain tumor in adults. We propose to\ninvestigate and validate novel diffusion-relaxation MRI methods for mapping tumor margins and infiltration.\nThis is expected to provide important information for glioblastoma treatment planning, with the potential of\nimproving patient survival and quality of life."
+ },
+ {
+  "id": "73b18dab-a963-4860-93ad-77b66982b820",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "HPMI: Host Pathogen Mapping Initiative",
+  "text": "THE HOST PATHOGEN MAP INITIATIVE 2.0\nOVERALL NARRATIVE\nThe Host-Pathogen Map Initiative (HPMI) 2.0 applies a state-of-the-art suite of systems biology approaches to\nstudy the molecular interactions of bacterial and viral respiratory pathogens with the host cell machinery in\ndisease-relevant primary cell models. In the previous funding period, these approaches identified several new\nhost factors with unexpectedly opposite roles in resistance to viral and bacterial pathogens. Here, we will uncover\nthe protein-protein and genetic interactions of the most important pulmonary infectious agents of humans,\nMycobacterium tuberculosis (Mtb) and SARS-CoV-2 - including currently circulating variants of concern omicron\nand delta - to deeply probe the functional roles of host and pathogen factors in infection and disease progression\nand identify therapeutically actionable targets for host-directed therapies, circumventing the risk of pathogen\ntreatment resistance. Finally, the integration of such network information with clinical information will allow us to\ndetermine predictors of disease severity."
+ },
+ {
+  "id": "73b287cc-c8c4-40a9-9970-7e2aba9cc52e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Engineering RIG-I Activating Nanoparticles for Glioblastoma Immunotherapy",
+  "text": "Glioblastoma is a form of brain cancer with poor treatment options, an average survival time\nof 12-18 months post-diagnosis, and a five-year survival rate of less than 10%. Immunotherapy has shown\npromise for other cancer types, and we propose to design and test an innovative new immune activating RNA\ntherapy for glioblastoma. We hypothesize that our therapy will generate a robust anti-tumor response without\ndamaging the surrounding brain tissue."
+ },
+ {
+  "id": "73b80723-dbd7-4bef-89e6-83e282f1134d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Subwavelength ultrasound focusing using negative index refraction metamaterials",
+  "text": "This proposal aims to use electroactive tunable broadband negative-index acoustic metamaterials\nto achieve negative refraction angle and dynamically controlled subwavelength focusing at\nrelevant biomedical ultrasound frequencies in water. Advances in active micro-electro-mechanical\nsystems now allow the fabrication micro-acoustic components <100 μm that can operate above\n1 MHz in liquid, opening a technological route to manipulate ultrasound at the sub-wavelength\nregime. In this project, we aim to show proof-of-concept of tunable negative-angle refraction and\nsub-wavelength dynamic focusing with acoustic metamaterials to improve ultrasound resolution."
+ },
+ {
+  "id": "73b9addd-05e7-424b-98b8-28f291460d49",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Local anti-inflammatory steroid therapy and molecular imaging to improve deep vein thrombosis (DVT)resolution and reduce the post-thrombotic syndrome (PTS)",
+  "text": "Deep vein thrombosis (DVT) can lead to life-threatening complications like pulmonary embolism and long-term\ndisabilities such as post-thrombotic syndrome (PTS), which affects up to 50% of patients despite current\ntreatments. This research aims to develop a clinical anti-inflammatory therapy using locally delivered\ndexamethasone steroid to reduce vein inflammation and scarring, while also utilizing advanced imaging tools\nto monitor treatment efficacy. The findings could improve outcomes for DVT patients and reduce the burden of\nPTS on public health."
+ },
+ {
+  "id": "73b9e172-b282-4bad-af16-940ccafeda1d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Exploring post-transcriptional regulators in Acinetobacter baumannii",
+  "text": "Despite the first discovery of small, non-coding regulatory RNA molecules (sRNAs) in bacteria nearly\n50 years ago, a key challenge to understanding the intricacies of post-transcriptional regulation is that\nwe have, until recently, lacked experimental tools to readily identify the RNA targets of bacterial sRNAs.\nA further limitation is that much of our knowledge about bacterial sRNAs, post-transcriptional regulation,\nand RNA processing is based on studies performed in non-pathogenic, laboratory adapted strains of E.\ncoli. This proposal seeks to address these shortcomings by coupling state-of-the-art next-generation\nsequencing technologies with classical bacterial genetics approaches to uncover novel aspects of post-\ntranscriptional regulatory networks in an emerging bacterial pathogen."
+ },
+ {
+  "id": "73c96927-3093-4bcd-8957-33a11235f927",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Transfer of vaccine-induced immunity from immunocompetent stem cell donor as antiviral immunotherapy to protect high-risk transplant recipients from cytomegalovirus reactivation",
+  "text": "Our promising pilot data suggests that donor vaccination could substitute for 100 days of Prevymis prophylaxis\nto control CMV reactivation and disease. We will investigate vaccination of the stem cell donor as an alternative\nto the stem cell recipient to better control early CMV reactivation events or those associated with steroid use in\nthe recently completed Phase 2 randomized clinical trial. To extend the value of Triplex vaccination to the higher\nrisk haploidentical stem cell transplant setting where there can be as many as three HLA mismatches, we will\nconduct a Phase 1b/2 trial in which we hypothesize that both early and late reactivation will be controlled by\nvaccination of both the donor and the recipient with minimal or no Prevymis prophylaxis."
+ },
+ {
+  "id": "73cbb766-abd9-41d2-ac01-8705daf6a9cb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Neural Substrates of Autism and ADHD: Reward Circuitry Connectivity and Individual Differences",
+  "text": "Autism spectrum disorder (ASD) and attention-deficit/hyperactivity disorder (ADHD) are overlapping but distinct\nconditions that are both associated with significant impairment and a lower quality of life, on average. This study\nwill use cutting-edge neuroimaging and data science approaches to investigate key but understudied brain\ncircuitry in these conditions: the reward system. Results will significantly inform our understanding of the neural\nmechanisms underlying ASD and ADHD and will ultimately contribute to the development of more personalized\ntreatments."
+ },
+ {
+  "id": "73d3e841-5c68-45fc-bed1-17f48589b180",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Lysosomal membrane dynamics during stress",
+  "text": "Lysosomes play a pivotal role in maintaining cellular homeostasis, and the damage to their membrane, if\nuntreated, can lead to cell death and is associated with various human diseases, including neurodegeneration\nand immune-related disorders. Unraveling the molecular mechanisms governing the lysosomal response to\nmembrane damage will significantly enhance our comprehension of these organelles and their relevance to\nhuman health. The successful completion of this project will not only deepen our insights into lysosomal\nbiology under stress but will also offer crucial perspectives into disease mechanisms and potential therapeutic\ninterventions."
+ },
+ {
+  "id": "73db7d6c-8005-4b17-9601-982f4e42eb9d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Developing Shared Benchmarking Specimens for HVP Research: Supplement to: The Oro-Respiratory-Gut Virome Axis over Space and Time - 1U54AG089323",
+  "text": "The human body is inhabited in and on many body sites by a diverse population of viruses (the\nvirome), and the composition of the virome and how the virome affects human health and disease\nis not well understood. The Human Virome Program (HVP Consortium) will generate a\ncomprehensive catalogue of viruses associated with humans across different populations, age\ngroups, geographic areas, and body site. However, each group in the consortium will use different\nmethodologies, making it hard to combine data from different researchers. This project will\ngenerate standard samples (“benchmarks”) that can be shared among the different groups, to\ninform how results differ among groups, and how results can ultimately be combined into a\ncomprehensive catalogue of the human virome."
+ },
+ {
+  "id": "73dcde77-26dd-4de9-9d4d-cbc9d902164f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mapping the cell specific DNA damage-induced molecular and bioelectrical responses in the 3D cardiac unit",
+  "text": "Increased DNA damage and DNA damage response (DDR) activation is well-documented in cardiovascular\ndisease (CVD) and heart failure in humans, but no current treatment strategies exist to target this population.\nHere, applying cutting-edge optical, biological, and bioelectrical tools we will map cardiac tissue cell-cell\ncommunication and electrophysiology in response to stochastic endogenous DNA damage. Deeper\nunderstanding of the regulatory network that mediates the genotoxic stress response in the cardiac tissue will\nsuggest preventive strategies and therapeutic interventions to reduce public health burden."
+ },
+ {
+  "id": "73e0b5db-2c5a-4258-8b33-1d7ee13e9e95",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Regulation of Protein Synthesis in Leukemia Stem Cells",
+  "text": "Leukemia stem cells are responsible for poor clinical outcomes in patients with acute myeloid leukemia, and the\nproposed research addresses a need to better understand the mechanisms that underlie their function. We\nrecently discovered that the cell surface marker CD99 promotes leukemia stem cell self-renewal by constraining\nprotein synthesis, establishing a new link between regulated protein synthesis and leukemia stem cell function.\nBy elucidating the mechanisms underlying why leukemia stem cells depend on regulation of protein synthesis\nacross different subtypes of acute myeloid leukemia, this project has the potential to establish a new paradigm\nfor how cancer stem cells sustain themselves, as well as to guide the design of more effective therapies targeting\nleukemia stem cells to improve clinical outcomes for patients with acute myeloid leukemia."
+ },
+ {
+  "id": "73e73e02-9ce9-47c0-9f25-828ad664aaf6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "NCANDA: Data Analysis Resource",
+  "text": "Heavy alcohol drinking during adolescence is known to disturb brain development and\nfunctioning and increase risk of drinking problems in adulthood, but the extent of the\nlingering effects of youthful drinking on adult functioning remains unclear. The goal of\nNCANDA-A (Adulthood) is to follow youth who have and have not engaged in\nhazardous drinking to determine alcohol's influence on the brain, cognition, emotion, and\nlife activities in emerging adulthood when young adults are establishing themselves in\ncareers, relationships, and independent living. Recognition of signs of risk to adjustment\nin adulthood following youthful drinking may enhance opportunity for personal success."
+ },
+ {
+  "id": "73ecd392-d65e-4f4e-89d1-eb094a86f96c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanism of innate immune activation in a Drosophila model of Alzheimer's disease related dementia",
+  "text": "Mutations in the GBA gene are the biggest genetic risk factor for Lewy body dementia, a neurodegenerative\ndisease that affects at least 1 in 100 people over 65, but it is not clear how those mutations harm brain cells.\nTo find out the answer, we made a GBA mutant fruit fly; we learned that the mutant has an overactive immune\nsystem, and that blocking an immune pathway in the brain reduced the buildup of abnormal tangled proteins.\nWe now plan to study how GBA mutations activate the immune system and how the overactive immune\nsystem kills brain cells, because the answers may help us prevent many diseases in which brain cells die."
+ },
+ {
+  "id": "73ed12fb-23e8-4644-8b22-20f09cc6f64b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Memorial Sloan Kettering Cancer Center SPORE in Pancreas Cancer",
+  "text": "We propose a Specialized Program of Research Excellence in Pancreas Cancer at Memorial Sloan Kettering\nCancer Center (MSK Pancreas SPORE). Our goal is to leverage cutting-edge molecular knowledge of pancreas\nbiology combined with clinical innovations to advance translational research and ultimately improve outcomes\nfor patients diagnosed with this disease."
+ },
+ {
+  "id": "73f2e233-ddc8-4d3c-a31d-4d179edb99d9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mass Multivariate Derivation and Validation of AUD Biotypes using Developmental Imaging and Genomic Approaches",
+  "text": "The heterogeneity of alcohol use disorder (AUD) may contribute to the limited effectiveness of treatments. Here,\nI explore AUD biotypes (subtypes determined by biology) derived from MRI data and characterize the behavioral,\ngenetic, and molecular correlates of these biotypes across the lifespan, as well as their correlates with alcohol\ninvolvement trajectories. Parsing and characterizing the biological heterogeneity of AUD may lead to improved\npersonalized treatment options for patients through drug repositioning."
+ },
+ {
+  "id": "73f3937a-a3f9-4cb2-852f-0215a6a68887",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Unlocking the potential of wearable sensors to measure physical activity and predict clinical worsening in pediatric pulmonary hypertension",
+  "text": "Physical activity (PA) estimated by a wearable sensor correlates with disease severity in pediatric\npulmonary hypertension (PH), a high mortality condition with few treatments due to lack of age-\nappropriate clinical trial endpoints to enable medication testing, but prior studies are limited by\nthe absence of standardized data processing methods and lack of tools to process\nmultidimensional raw sensor data to scale to larger clinical networks. Our team’s innovative\napproach will overcome the limitations of prior studies by applying open-source scoring algorithms\nand modular computational tools to longitudinal raw sensor data from Pediatric Pulmonary\nHypertension Network Registry participants to 1) establish PA metrics as indicators of disease\nseverity and 2) train and validate a novel machine learning model incorporating PA metrics to\npredict clinical worsening in pediatric PH. Our findings will facilitate testing of new therapies in\npediatric PH clinical trials and can be generalized to other cardiopulmonary conditions to augment\npatient monitoring, expand treatments, and improve outcomes."
+ },
+ {
+  "id": "73f3b962-0ceb-4509-beee-76b19de54365",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of B3GNT4 mutations in alpha-dystroglycanopathy",
+  "text": "Alpha-dystroglycanopathies are a class of rare diseases that cause muscle and brain atrophy. A new form of\nalpha-dystroglycanopathy was recently discovered and linked to mutations in an understudied protein called\nB3GNT4. We will characterize the biochemical and cellular activities of B3GNT4 in an effort to learn about\nmechanism of these diseases."
+ }
+]

@@ -1,0 +1,142 @@
+[
+ {
+  "id": "2e89770b-c85d-4962-9e63-c1234501340c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project 1: DNA Methylation-Based Blood Biomarkers for Prognosis, Molecular Stratification and Treatment Response in Glioma Patients",
+  "text": "Primary brain cancers kill about 13,000 Americans a year and rank first among all cancer sites for average\nyears of life lost. This project will use cutting-edge epigenomic science to develop and validate a new\ngeneration of immune biomarkers to improve glioma survival prognostication and will provide clinically\napplicable tools to identify tumor IDH status prior to surgical intervention and evaluate the effects of radiation\nand immunotherapy. Enhanced understanding of these factors may provide targets for future interventions."
+ },
+ {
+  "id": "2e8a24fd-bb8c-49fe-8e31-b5e6109c8d1b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Modeling non-additive genetic mechanisms for complex traits",
+  "text": "Many clinically and economically important traits are complex, i.e., they are under the influence\nof many underlying genes. Understanding how variation in genotype leads to variation in\nphenotype is a difficult problem as genes often interact with each other, such that knowing the\neffects of individual genes is not sufficient to predict how they will combine. This project will\ndevelop new computational tools for learning from large genotype-phenotype data for humans\nand model organisms in order to improve our ability to predict phenotype for new genotypes and\ndetect novel gene interactions."
+ },
+ {
+  "id": "2e906ad6-edd8-4a0e-991f-c4128cc8ae94",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Discovery and optimization of antifungal acetyl CoA synthetase inhibitors",
+  "text": "Fungal infections affect an estimated 300 million people annually, causing considerable morbidity and mortality\naround the globe. Unfortunately, invasive fungal infections have mortality rates that are considerably higher\nthan many other infections with current antifungal drugs. The goal of this project is to develop a novel class of\nantifungal drug candidates for further pre-clinical development to address this clinical need."
+ },
+ {
+  "id": "2e95ab79-d5a1-46ac-9d50-f3493fc7961f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Gene Regulation in the Opioid Dependent Human Brain (Project 2)",
+  "text": "The ongoing opioid epidemic is one of the most important public health crises of our time with overdose fatalities quadrupling since 1999 and surpassing those of gun homicides in recent years. Given the individual and societal burden of opioid dependence, it is necessary to characterize the biological pathways to dependence that can be targeted for treatment and intervention. The work proposed in Project 2 combines multi-omics resources to examine specific hypotheses regarding the functional brain architecture of opioid addiction (OA). Guided by existing theory implicating the prefrontal cortex (PFC), nucleus accumbens (NAc), and amygdala in the cycle of substance abuse, we propose to generate and combine existing data at multiple omics levels in each brain region using postmortem human tissue collected from opioid overdose cases and matched controls. The measurement approaches we use are genome-wide, in each of the three brain regions and in each biological domain: single nucleotide polymorphism (SNP), epigenome (DNA methylation and histone acetylation), and transcript (via RNA-seq) in our combined sample (N=641) with follow-up single-cell validation/replication. We will accomplish these goals across three aims. In Aim 1, in the existing combined sample, we will fill out the brain regions not currently assessed in specific brain/regions or biological domains and perform analyses to detect region-specific and general (across-brain regions) methylation, histone acetylation, and gene expression differences between cases and controls. In addition, we will perform analyses aimed at integrating across those biological domains. In Aim 2, we will perform single-cell follow-up of Aim 1 findings to pinpoint all cell types within the PFC, NAc, and amygdala that drive the differences identified in Aim 1, with validation by RNA-seq in fluorescence activated cell sorting (FACS) separated cells and RNA-FISH. In Aim 3, we will genotype samples where needed and perform genetic association mapping—histone modification, DNA methylation, and gene expression QTL mapping—to identify genetic variants that account for the regulatory differences observed between cases and controls in Aim 1. These QTL approaches will allow us to identify regulatory differences with a genetic basis, versus those somatically acquired as a consequence of chronic opiate use, exposure, or other environmental factors. Our overall goal is to create a framework in which we can map, in brain, the OA functional relevance of genomic sets (genes, pathways, features) and generate results that can be leveraged in Project 1 and the Synergy Core through mapOA, and in Project 3 through selected genes, targeted for functional validation in vivo in the dlPFC and NAc using genetic engineering, viral vector injection, and pharmacology approaches in mice. Through this synergy we will distinguish between predisposing and exposure consequent dysregulation and move toward mechanistic understanding that can drive new treatments of OA."
+ },
+ {
+  "id": "2e97a074-24d9-4c28-be0c-c6647f8e1d7a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Discovery, Regulation and Function of the PI 3-Kinase and AKT Pathway in Cancer",
+  "text": "The PI3K (phosphoinositide 3-kinase)/AKT signaling pathway is one of the most frequently\nderegulated signaling nodes in virtually all human solid and hematological malignancies. The overall\ngoal of this 7 year application is to dissect the regulation and function of PI3K and AKT proteins in the\ncontext of modulating reprogramming of metabolic pathways and identifying downstream\nmechanisms of PI3K and AKT that lead to tumor initiation and progression. We propose that new\nfindings emerging from this project may lead to new therapeutic opportunities for effectively treating\nthose cancers that harbor PI3K pathway lesions."
+ },
+ {
+  "id": "2e98bbc4-d29b-4087-9785-a6dbb9aedff2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Image-guided Histotripsy System for Complete, Uniform, and Non-Invasive Ablation of Heterogeneous Osteosarcoma Tumors",
+  "text": "Osteosarcoma, a malignant primary tumor of bone, is a devastating disease with dismal outcomes for both adult\nand pediatric patients. There has been a significant lack of improvement in survival over the past three decades,\nand there remains high complication rates for limb salvage approaches. The goal of this project is to develop a\nnovel image-guided histotripsy system for the complete, uniform, and non-invasive treatment of heterogenous\nosteosarcoma in adults and children."
+ },
+ {
+  "id": "2e9961f2-1d0d-4dea-a0bc-2b3a10af5c11",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Simultaneous Separation, Identification, and Quantification of Lipid Isomers using Non-Covalent Chemistry-Based Enhancement of Tandem Ion Mobility-Mass Spectrometry",
+  "text": "This research will provide analytical instrumentation and methods for resolving lipid isomers—molecules with\nidentical formulas but distinct structures that can have dramatically different biological effects. By enabling\nprecise identification and quantification of lipid isomers in complex biological samples, our analytical approach\nwill uncover new biomarkers and metabolic pathways relevant to diseases such as cancer, neurodegeneration, and\nmetabolic disorders. In the long term, this platform will support earlier diagnosis, improved disease monitoring,\nand the development of targeted therapies."
+ },
+ {
+  "id": "2ea2bc49-7f1c-4cc1-bc75-00c37e0b2f9e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Active Social Vision: How the Brain Processes Visual Information During Natural Social Perception",
+  "text": "Building a model of the neural basis of natural, real-world social vision is a fundamental goal of social\nneuroscience. Natural social vision depends critically on an active process of information gathering and\nthe intricate interplay among many brain regions that rapidly adapt in response to the properties of the\nsocial environment. Understanding the neural basis of natural, real-world social vision will directly\ninform our understanding of the neural basis of neurological and psychiatric disorders that involve\naberrant social processing, such as mood disorders, anxiety disorders, autism spectrum disorders,\nschizophrenia, traumatic brain injury, Parkinson’s disease, and post-traumatic stress disorder."
+ },
+ {
+  "id": "2ea5db76-cf4e-4f0c-8420-b61c6e725dd8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Roles of TREM2 and TYROBP in AD-related Network Hyperexcitability",
+  "text": "Immune and neural network dysfunctions may form a vicious cycle that promotes the development of Alzheimer’s\ndisease (AD). In this project, we will study how impairments of immune cells and molecules in the brain contribute\nto hyperexcitability, a type of network dysfunction that predicts, and may contribute to, faster cognitive decline in\nAD. The results of the proposed experiments will shed light on the role of immune dysfunction in AD and provide\nuseful guidance in the development of immune modulatory treatments for this and related conditions."
+ },
+ {
+  "id": "2ea740e9-2b8b-4c4b-859d-f3592febdf06",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "DF/HCC Kidney Cancer Project 1: Targeting the HIF2 Pathway in Kidney Cancer",
+  "text": "The vast majority of clear cell renal cells carcinomas, the most common form of kidney cancer, are caused by\nmutation (alteration) of the VHL gene and resulting activation of a protein called HIF2α. A HIF2α inhibitor has\nbeen approved in this setting, but not all patients respond to it, possibly because it is typically used as a single\nagent and in heavily pretreated patients with advanced disease. This project will begin to explore the\nmechanisms of response and resistance to this new class of agents, their earlier use for kidney cancer and\nwill try to develop new ways to monitor and treat kidney cancer."
+ },
+ {
+  "id": "2eb59380-c5b6-42af-84cb-68ebf840229f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development and Clinical Translation of Advanced PET Imaging for Real-Time Biology-Guided Radiotherapy",
+  "text": "The PET images processed by the developed algorithms will help to reduce the uncertainty in the PET\nbiodistribution and result in treatment plans with improved tracking ability. The work proposed in this research\nhelps to eliminate limitations in the biology-guided radiotherapy (BgRT) plan creation and improve the quality of\nthe BgRT delivered dose to patients."
+ },
+ {
+  "id": "2eb6785f-ca1f-4e07-b446-de1488e6fd34",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "GATA2-TGF beta-TAL1 pathway as a critical mediator of NK Cell development",
+  "text": "Mutations in GATA2 cause a highly heterogeneous disease, resulting in dysregulated immune cell\ndevelopment and functions, including that of NK cells. The transcriptional regulation of human NK cells is not\nfully defined. Given the potential role of GATA2 in NK cell development and function, we will focus on the novel\nGATA2-TGF-b1-TAL1 axis, which may help us better understand the disease phenotype."
+ },
+ {
+  "id": "2ebaa8d9-b7ed-436e-9311-18136e204ac1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Integrating Experimental and Computational Models to Study the Prefrontal Microcircuit Changes During Aging and Alzheimer's Disease",
+  "text": "This project studies the prefrontal microcircuit changes during normal aging and disease\nprogression of Alzheimer's Disease (AD). This project will establish an integrative framework\nthat quantitatively bridges empirical recordings and computational models to facilitate\ndevelopment of new effective treatment for AD."
+ },
+ {
+  "id": "2ebcfbc1-74e1-4b7e-b798-33642c0c6ecd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "SCH: Novel Multi-View Statistical Machine Learning for Alzheimer's Disease",
+  "text": "Alzheimer’s disease (AD) is the most common type of dementia without curative medications. Early detection of AD is thus essential for timely intervention and effective treatment development. Multi-view data provides a transformative approach to enhance the understanding, diagnosis, and prediction of AD. This research aims to develop three novel statistical machine learning methods for AD research using multi-view imaging, genomic, and clinical data, focusing on multi-view brain and genomic network analysis, significant differential feature testing, and diagnosis and survival analysis. The specific aims of this proposal include: 1. Develop a novel high-dimensional multi-view data decomposition based on uncorrelated common and distinctive latent factors (C&DLFs) to construct multi-view networks, with application to comparing brain and genomic networks across AD statuses; 2. Develop an optimal false discovery rate (FDR) control method based on a novel semi-parametric hidden Markov random field for high-dimensional spatial multiple testing, with application to identifying significant brain and genomic differences across AD statuses; 3. Develop a highly accurate deep-learning-based diagnosis and survival framework for high-dimensional tabular data, incorporating feature selection and view ablation to enhance cost-effectiveness and data accessibility in clinical practice; 4. Apply the three proposed methods to four large-scale AD-related datasets and disseminate the methods with an open, efficient software package. The three novel methods in our project will undergo rigorous theoretical and numerical analyses. The research team’s extensive expertise in multi-view data analysis, network analysis, imaging genetics, high- dimensional statistics, deep learning, and AD research will make significant contributions to the project’s success. RELEVANCE (See instructions): The research goal is to develop three novel statistical machine learning methods for Alzheimer’s disease (AD) using multi-view imaging, genomic, and clinical data. These methods will focus on multi-view brain and genomic network analysis, significant differential feature testing, and diagnosis and survival analysis. The proposed project will enhance our understanding of neuro-genetic associations in AD and significantly contribute to biomarker discovery, early detection, and improved patient survival in AD."
+ },
+ {
+  "id": "2ebdbced-f26c-4857-b837-6cf7376f642a",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "University of Florida Genetics Training Program",
+  "text": "The goal of the University of Florida Genetics Training Program is to develop next generation leaders of\nbiomedical scientists who will address the most significant scientific challenges in the field of Genetics. This\nprogram leverages the unique research and educational environment at the University of Florida to provide\ngraduate students with access to 7 colleges and 51 departments to develop skills and career opportunities\nworking collaboratively in interdisciplinary teams. Students will be trained as experts in genetic knowledge\ndomains and will make an impact on health-related research needs."
+ },
+ {
+  "id": "2ec06a8f-8d08-474d-825f-314a69344a83",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multicomponent vaccines for Pseudomonas aeruginosa",
+  "text": "The goal of Research Project 2 in “Immunization against Multidrug-resistant Pathogens: Activating T Cell Immunity” Center of Excellence for Translational Research (IMPACT-CETR) is to develop a multicomponent Pseudomonas aeruginosa MAPS vaccine based on the serotype-independent P. aeruginosa biofilm polysaccharide Psl and its critical lipid epitope, combined with conserved protein antigens including the Th17- eliciting antigen PopB. Hospital-acquired P. aeruginosa respiratory infections are a significant threat, due in part to their prevalence, increasing rates of antibiotic resistance, and the relative dearth of new antibiotics in the development pipeline. Vaccine strategies to elicit opsonophagocytic killing (OPK) antibodies to the bacterial lipopolysaccharide or surface proteins have had varied success, but none has been broadly protective or FDA- approved for human use. This team showed that Th17 cells (CD4 helper T cells secreting the cytokine IL-17) confer antibody-independent protection against P. aeruginosa in mouse models of pneumonia, including a neutropenic model. Intranasal vaccination with the P. aeruginosa protein PopB mixed with the Th17 adjuvant curdlan stimulates protective Th17 responses in mice. Adding the OprF/I fusion protein to PopB improves protective efficacy against pneumonia in mice, and PopB induces IL-17 secretion in human whole blood taken after P. aeruginosa infection. A vaccine containing the biofilm polysaccharide Psl was constructed using the Multiple Antigen-Presenting System (MAPS) platform, which links biotinylated Psl with a pneumococcal carrier protein fused to the avidin homolog rhizavidin. This candidate elicits OPK antibodies to Psl after active immunization in rabbits and passive immunization in mice; a recently described critical lipid epitope on Psl is retained and immunogenic. A MAPS vaccine containing PopB induces high Th17 responses after subcutaneous immunization of mice with alum as adjuvant. The hypotheses of this project are that: 1) site-selective coupling of vaccine protein antigens to Psl using MAPS will optimize immune responses to T and B cell epitopes; and 2) combining PopB with antigens that induce protective antibodies (Psl, the type 3 secretion system protein PcrV, and the OprF/I fusion protein) will improve the protective efficacy of PopB both in potency and in broadness of protection, with pulmonary tissue-resident memory (TRM) Th17 cells being critical for maximal protection against pneumonia. Aim 1 is to use MAPS to select the optimal combination and composition of vaccine antigens and adjuvants, and test naturally occurring vs synthetic Psl, both linked to PopB-containing fusion proteins. Studies will measure protective efficacy in mice for mucosal and systemic antibodies and T-cell responses. Aim 2 will identify mechanisms of protection using immunophenotyping and single-cell transcriptomics in transgenic mice deficient in antibody and Th17 responses. Aim 3 will test the immunogenicity of the lead vaccine candidate in nonhuman primates. Successful completion of this project will provide preclinical data to support the advancement of this vaccine to future Phase 1 clinical studies."
+ },
+ {
+  "id": "2ec2d290-df98-4445-b98e-f577ea696cbb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Incorporating the Missing Time Dimension into Identity-by-Descent-based Malaria Genomic Surveillance",
+  "text": "Many existing methods used in malaria genomic surveillance do not account for parasite sampling time,\npotentially leading to inaccurate estimates of the impact of antimalarial interventions and future transmission\npatterns. In this project, we will develop a novel methodological framework based on identity-by-descent (IBD)\nto explicitly model sampling time to improve demography estimates, and a deep learning model to forecast\nfuture parasite migration and spread of drug resistance. The proposed work will significantly enhance the\naccuracy and temporal resolution of malaria parasite genomic surveillance and prediction of future malaria\ntransmission patterns, crucial for planning targeted malaria interventions."
+ },
+ {
+  "id": "2ec41b97-ce74-4976-a748-970dd16c42f8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Defining, Validating, and Endotyping Phenotypes in BPD",
+  "text": "Bronchopulmonary dysplasia (BPD) is a complex lung disease that affects preterm neonates, leading to long term respiratory and neurodevelopmental challenges. This multidisciplinary project integrates artificial intelligence-driven phenotyping with molecular profiling to identify clinically and biologically distinct BPD subtypes, enabling earlier risk prediction and precision-targeted interventions. By bridging clinical and molecular insights, this research has the potential to transform neonatal care and improve long-term outcomes for preterm infants."
+ },
+ {
+  "id": "2ed73973-807e-4df5-9308-009b9a6cbf8f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Long Read sequencing in Kidney Disease",
+  "text": "Characterization of the spliced isoforms of genes in the kidney is crucial in understanding kidney\ndisease. I will use long read sequencing from the bulk tissue and single cell long read sequencing to\ncharacterize the isoforms expressed in the kidney and identify their role in kidney disease"
+ },
+ {
+  "id": "2edc3c2c-c5d9-4079-8add-040c960d08f1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Examining predictors of substance use and treatment adequacy among formerly incarcerated opioid and cocaine users",
+  "text": "Substance use disorders (SUDs) are highly prevalent among formerly incarcerated individuals,\nand drug overdose rates are elevated post-incarceration. The proposed research represents an\nopportunity to identify individual and environmental-level predictors of opioid and/or cocaine use\nover a one-year period among formerly incarcerated individuals, and to determine whether they\nare receiving adequate levels of addiction treatment. The proposed research will identify\nsubstance use treatment gaps and influential factors that are amenable to intervention in the\ninterest of informing effective responses to problematic substance use."
+ }
+]

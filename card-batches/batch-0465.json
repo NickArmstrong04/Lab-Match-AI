@@ -1,0 +1,142 @@
+[
+ {
+  "id": "180ebb09-a8d6-457b-9ee0-c34c9aa994c8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multimodal Imaging Biomarkers of Liver Disease Progression in ARPKD",
+  "text": "Children and young adults with autosomal recessive polycystic kidney disease (ARPKD) often have liver\ninvolvement, which can sometimes cause severe complications resulting in the need for surgical procedures or\nliver transplant. Even though several treatments for ARPKD have appeared promising in animal studies, the\nability to do clinical trials in humans has been hindered by a lack of accurate, non-invasive ways to measure liver\ndisease progression. In this proposal, we will use several new ultrasound and magnetic resonance imaging (MRI)\nmethods to measure ARPKD-related liver fibrosis, portal hypertension, and bile duct dilatation, with the long term\ngoal of developing reliable measurements of liver disease progression that could be used to accelerate clinical\ntrials of ARPKD treatments."
+ },
+ {
+  "id": "1815d439-19ed-4917-b761-d74013f38a91",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "ORAI Channels and Neurovascular Coupling: Effects of Aging",
+  "text": "Age-related dementia is often linked to problems with blood flow in the brain. This research will investigate new\ntargets, ion channels from a family called ORAI, that could help improve blood flow and cognitive function in\naging brains. By understanding how this ion channel works, we hope to find new ways to treat or prevent age-\nrelated cognitive decline and improve brain health."
+ },
+ {
+  "id": "181864fd-0732-4ad6-b9e0-428cb4941548",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Predicting Tissue and Functional Outcome in Acute Stroke",
+  "text": "Stroke is a devastating disease that progresses rapidly and irreversibly and\nrequires important decisions to be made quickly in the context of both imaging\nand non-imaging clinical data. We will apply deep learning artificial intelli-\ngence methods to integrate these disparate streams of data to predict short-\nterm tissue and long-term clinical outcome under the conditions of successful\nand unsuccessful reperfusion and perform studies to understand the general-\nizability and explainability of the AI methods. This will enable us to personalize\ntriage pathways, reduce the time and cost spent imaging without losing\nvaluable information, and better understand the underlying rationale of these\npredictions."
+ },
+ {
+  "id": "181b568e-5c6a-43e1-9f53-ea3460ec130b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting Cancer-Associated Fibroblasts Prevents Resistance to Chimeric Antigen Receptor T Cell Therapy",
+  "text": "The tumor microenvironment strongly induces chimeric antigen receptor T (CART) cell inhibition in most\nmalignancies. Our studies indicate that cancer-associated fibroblasts (CAFs) specifically inhibit CART cells in\nmultiple myeloma and that dual targeting CAFs and cancer cells with CART cell has a potential to overcome\nthis resistance. I will study the mechanisms of CART cell inhibition by CAFs, potential toxicities of dual CART\ncell, and the impact of CAFs in patients receiving CART cell therapy."
+ },
+ {
+  "id": "181f6e60-a0d4-48e7-9852-115fdecaa4ab",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Admin-Core",
+  "text": "Administrative Core Module Abstract The overall goal of this UTSW Core Grant for Vision Research is to enhance the capabilities of vision research scientists by facilitating easy access to equipment, training, and technical support, which will: 1) expand experimental capabilities, 2) advance scientific rigor, 3) result in more cost-effective and time-efficient research, and 4) open up new research directions. The Core Grant will also help to sustain a fertile environment for the development of young vision researchers and expand the number of collaborative research projects between investigators within UTSW, and between UTSW and other institutions. Our proposed NEI Core Center consists of three Resource/Service Modules, each directed by faculty members with experience and expertise in their unit’s focus area: 1) Stem Cell, Organoid and Cell Phenotyping; 2) Gene Editing and Virus Production; and 3) Microscopy and Animal Phenotyping. W. Matthew Petroll, PhD, Principal Investigator of the Administrative Core and Center Director, will be responsible for overall administration of the Core Center and of the NEI P30 grant. Dr. Petroll will oversee Departmental staff who will provide administrative support for Center activities. This will include: 1) arranging equipment maintenance, managing service contracts, and purchasing supplies to support all three scientific Modules; 2) scheduling meetings related to the Core Grant activities; and 3) maintaining budgets and providing monthly summaries of expenditures to Dr. Petroll and the Module Directors. Dr. Petroll will hold monthly meetings with the Module Directors to troubleshoot any problems that might arise, to ensure that priorities are met, and that Modules are heavily used, and to identify opportunities for bringing new projects to the Center. He will also host the semi- annual meetings of the Core Grant Advisory Committee, which will offer advice on technical issues and will serve to adjudicate any serious conflicts that might arise. In addition, the Advisory Committee members have strong connections to researchers in a variety of disciplines and are uniquely positioned to identify and promote potential multi-disciplinary collaborations, as well as recommend the incorporation of new technologies and techniques. Success of the Core Grant will be assessed by the following outcome measures: a) number of participants utilizing each Module; b) number of publications that benefited from one or more of the Modules; c) number of pilot studies supported by the Core Grant that culminated in the awarding of new NEI research grants or private foundation grants; d) number of postdoctoral fellows, medical students, and graduate students that productively utilized each Module; and e) number of students whose dissertation research relied on the support of one or more Modules and the number of these students who completed their PhD in an NEI-focused area."
+ },
+ {
+  "id": "1829e1c4-586f-44be-88d9-9b40ae8fbd26",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "CG dinucleotide-mediated immune responses during West Nile virus infection",
+  "text": "We will provide the first insights into how CG-, UA-, and CG/UA dinucleotide-enriched viruses interact with\nessential DC populations, and whether dinucleotide enrichment can overcome DC impairment and T cell\ndysfunction induced by wild-type virus infection. This project will advance the rational development of enriched\nvaccines and oncolytic viruses that selectively activate dinucleotide-specific beneficial immune pathways."
+ },
+ {
+  "id": "182b86fc-f96c-486d-9955-7f8a639dfbf9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "PET imaging of Chemotherapy-Induced Cardiotoxicity",
+  "text": "Conventional chemotherapy and targeted therapies are associated with an increased risk of\nmyocardial damage, resulting in left ventricular dysfunction (LVD) and heart failure (HF).\nCurrently, cardiac magnetic resonance imaging is used for measuring myocardial volume, mass,\nstrain, and assessment of tissue function, however, its benefits are offset by high costs and lack\nof compatibility for many patients with implanted ferromagnetic devices. Current guidelines to\ndetect chemotherapy-induced cardiotoxicity are also based on evaluating global systolic function,\nwherein the left ventricle ejection fraction (LVEF) is assessed by nuclear gated blood pool studies\nor cardiac ultrasound. However, the assessment of LVEF is also variable, and offers a limited\nutility to detect early cardiotoxicity, as many patients demonstrate histological evidence of\ncardiotoxicity before significant decrease in systolic function. Therefore, there is an urgent unmet\nneed for development of noninvasive diagnostic test to enable earliest detection of chemotherapy-\ninduced cardiotoxicity. This project is focused upon preclinical translational imaging 68Ga-\nGalmydar, a PET tracer in higher vertebrates to establish analysis protocols for assessment of its\nsensitivity for detecting chemotherapy-induced cardiotoxicity (at earliest stages than currently\navailable state of the art techniques) via a pilot imaging (68Ga-Galmydar; IND# 157468; PI: Dr.\nWoodard) study in breast cancer and lymphoma patients. 68Ga-Galmydar shows highly promising\ndata in doxorubicin-induced cardiotoxicity model and is a highly worthy candidate for further\nvalidations in higher vertebrates, and translation into clinic. Overall, successful realization of the\nproposed aims would facilitate translation of the PET tracer into clinic, and enabling stratification\nof chemotherapeutic choices, and modification of plans for cohorts with LVD thus transforming\nclinical healthcare in medical oncology towards image-guided personalized medicine to manage\ncomplications from cardiotoxicity."
+ },
+ {
+  "id": "182c2bfb-4fa1-4421-92a5-8b9f746e72f7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "In vitro aging of cartilage in a microphysiological knee joint system",
+  "text": "The successful completion of the proposed work will generate a novel cartilage aging-on-a-chip model that can\nbe used to recapitulate features of chondrocyte aging. Furthermore, this platform can be used to define novel\ntreatment targets and test interventions for aging-associated cartilage degradation and osteoarthritis."
+ },
+ {
+  "id": "1830f290-fa9c-47d8-81fc-4f80a2411bf4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Leveraging multi-omics for endotyping to identify subtypes and mechanisms of cardiometabolic diseases",
+  "text": "Individuals who develop cardiometabolic diseases may not have elevations in risk factors suggesting that there\nare other risk mediators underlying diseases that are not yet identified. This project will use cutting-edge and\ninnovative multi-omics approaches which examine many factors measured in blood to identify groups of\nindividuals who are biologically similar and will determine whether the groups have different functional and/or\npathophysiological risk mechanisms for disease or different response to treatments. These groups can be\nfurther studied to determine their risk mechanisms, and this will ultimately lead to new personalized ways of\nmanaging and preventing cardiometabolic diseases."
+ },
+ {
+  "id": "1832ef03-209a-4a39-9f8f-f8dbf0dd89b0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project 4: Neurobehavioral and bioenergetic consequences of evolving resistance to polycyclic aromatic hydrocarbons in a multi-stressor environment",
+  "text": "Exposure chemical contaminants in aquatic ecosystems can have significant ecologically relevant fitness\nconsequences such as mitochondrial dysfunction linked to adverse behavioral and bioenergetic outcomes.\nThese effects may be exacerbated when exposed to multiple abiotic stressors such as changes in temperature\nand oxygen levels, but remain poorly understood. We will determine physiological fitness outcomes of chemical\nexposure in a multi-stressor environment in the context of evolved pollution resistance to better inform ecological\nrisk assessment."
+ },
+ {
+  "id": "184771a1-2d8c-42f3-976e-44a86de1917f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Northeast Node of the National Drug Abuse Treatment Clinical Trials Network (CTN-0157, -0158)",
+  "text": "The proposed activities of the Northeast Node of the National Drug Abuse Treatment Clinical Trials Network\n(CTN) reflect a vision for the next iteration of the CTN in the next 7 years. Overall, the Northeast Node will\nfocus on identifying the most significant and timely substance use needs in our communities, leading and\npartnering on rigorous and innovative research projects to tackle these challenges, and scaling-up and\nsustaining best practices in our nation."
+ },
+ {
+  "id": "18537371-e9ca-4662-ac7b-52d656b593c4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Microbiome, Metabolome, and Genome in Multiplex IBD Family Clusters",
+  "text": "The pathogenesis of Inflammatory Bowel Disease (IBD) involves interactions between genetics, environmental\nand microbial factors, and immune responses with an inherent complexity making prevention and cure elusive.\nCurrent cohorts do not allow for characterization of the evolution of this multifactorial milieu before disease\ninception limiting our ability to predict disease. We aim, in a novel, pre-disease-inception, high-risk, familial IBD\ncohort to characterize the microbial and genetic contributions to IBD to allow for improved stratification of those\nat highest risk for developing IBD."
+ },
+ {
+  "id": "1854e3ee-6e6b-40b1-a526-762c943b1591",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Genomics, Bioinformatics, and Molecular Imaging Core",
+  "text": "The objective of the Genomics, Bioinformatics, and Molecular Imaging Core is to support and to enhance the research productivity of both COBRE and non-COBRE investigators. This is measured by our contributions to their peer-reviewed publications and grant applications. Our clients utilize our services from the study planning and design phase through the data analysis and presentation phase. The Core currently provides services for next-generation sequencing (NGS), DNA Sanger sequencing, genotyping, cell line validation, bioinformatics and biostatistics support, as well as other equipment and services. In Phase III, we will further enhance our core and organize its operations under three co-directors who have complementary expertise that encompasses all aspects of services offered. Because of these enhancements, we added ‘Molecular Imaging’ to our moniker. We will pursue the following specific aims: (1) Maintain access and services for next-generation sequencing (RNA- Seq, WES, miRNA-Seq, Ampli-Seq), Sanger DNA sequencing with capillary electrophoresis, real-time PCR applications, measurements for luciferase assays, DNA and RNA isolation, quantitation and quality control of DNA and RNA with the Agilent 2100 Bioanalyzer and cell line validation for investigators. (2) Expand the molecular portfolio of core services and implement new NGS applications by establishing Visium Spatial Gene Analysis using High-plex Proteomics and Whole Transcriptome Analysis, Chromium Single Cell Gene Expression and Multiome ATAC + Gene Expression using 10x Genomics and Illumina systems. (3) Continue biostatistics and bioinformatics support for data generated by the core and outside the core and develop new bioinformatics pipelines. (4) Expand and maintain sustainability and growth of the Core, by implementing recharge to all services and increase it over the course of Phase III and identify and deploy other sources of support. Our enhanced instrumentation and expanded personnel will make this possible, and this will help satiate the ever- increasing appetite for all of these applications. Our data analytic services will allow our clients to receive data that is not only clean and valid quantitatively but also has been put through a bioinformatics pipeline that makes it relevant biologically in broader terms. Both the biostatistics and bioinformatics components of the Core will contribute to the development of new and better approaches to the handling of the data our investigators generate."
+ },
+ {
+  "id": "1858c611-57df-4f6c-aad4-c92b9ce5b34f",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "\"Core A\" Administrative Core",
+  "text": "The Administrative Core provides financial and administrative oversight, and facilitates communication between \nthe program projects and service cores. As such, the core plays a key role in the success of the program, which \nis focused on understanding how viral and host long noncoding RNAs contribute to herpesvirus-associated \ndisease and cancer."
+ },
+ {
+  "id": "1859dce8-e51a-4a15-9278-c1fee90bac22",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mapping the regulatory landscape of RNA binding proteins and their causal roles in tumorigenesis and patient survival",
+  "text": "The proposal describes an inter-disciplinary project whose goal is to systematically determine the role of RNA-\nbinding proteins (a set of cellular regulatory proteins that recognize, bind, and regulate mRNAs) in the process\nof cancer progression. Our preliminary data suggests that these regulators play a disproportionately important\nrole in cancer and our project is a multi-faceted computational/experimental strategy to characterize this\nlandscape. If successful, the project will expand our understanding of cancer pathways in novel directions that\nmay have significant impact on diagnosis and treatment of a variety of cancers."
+ },
+ {
+  "id": "18622bf1-1f6c-4b4f-a2e6-428129b0dc9d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Solving the Valence Assignment Problem",
+  "text": "Most psychiatric disorders, including depression, anxiety, and substance use disorders, are fundamentally disorders of valence — of how the brain assigns positive or negative meaning to people, places, and experiences — and current diagnostic categories group patients with very different underlying biology, contributing to high failure rates of mental health treatments in clinical translation. This project investigates how neuromodulators and neuropeptides acting across distributed corticolimbic circuits gate the plasticity that establishes and updates valence representations, and how these dynamics are altered by stress, social isolation, social exclusion, and changes in social rank. The work is expected to yield mechanistically grounded biomarkers — including non-invasive facial-expression readouts — that predict individual susceptibility to stress-induced anhedonia and responsiveness to antidepressants, supporting more granular, biology-informed psychiatric diagnosis and treatment."
+ },
+ {
+  "id": "1866418a-a77c-444b-a0a4-f7eff6b86b0e",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Bioinformatics and Pathways Core",
+  "text": "BIOINFORMATICS & PATHWAYS CORE The Bioinformatics and Pathways Core (BPC) will support users with bioinformatics analysis of high- throughput experiments such as RNA-seq, ChIP-seq, and genomic analyses, and provide statistical support in both the design and interpretation of experiments. During Phases I and II of this COBRE, BPC support has helped substantially to increase the competitiveness of Project Lead grant applications, based upon reviewer feedback. The BPC is led by Dr. Jonathan Wren, a bioinformatician with 19 years of experience and includes a dedicated Ph.D.-level Statistician and a Bioinformatics Scientist. Our Specific Aims are: Aim 1: Create a cost-effective resource for high-quality, advanced data analysis services, employing both fee-for-service and collaborative models. BPC personnel have extensive experience using state-of- the-art bioinformatics methods, as well as a track record of developing novel analysis methods. We will provide support for pre-experimental study design, including power analyses and utilize novel bioinformatics and statistical tools to solve specific biological questions posed by COBRE participants. The Core Director has developed a number of novel tools, such as software to: 1) Automate the identification and analysis of related entities of interest (e.g., genes, diseases, phenotypes, etc.) within the published literature; 2) Identify features, properties and experiments that overlap with genomic regions of interest; 3) Identify and analyze experiments in public microarray databases like NCBI’s Gene Expression Omnibus (GEO) through meta-analysis and 4) Interpret differentially expressed genes in terms of the correlations between them within public databases. Aim 2: Provide a set of experienced analysts with a diversity of skills and expertise to accommodate a variety of future analysis projects. This COBRE has enabled the BPC to develop novel software and to hire personnel with a set of skills broadly useful to helping biomedical researchers. And, as evidenced by our collaborative publications during COBRE Phases I and II, we have been successful at using our capabilities to help others advance their research. Phase III will enable us to establish a self-sustaining institutional Core. Aim 3: Continue to develop, evaluate, and refine new methods of data analysis and data integration. The BPC will develop increasingly sophisticated and powerful technologies that evolve with the demands of scientific investigators. We will improve tracking of resource utilization, advance technologies that improve online interactivity between the data provided and our analysis of it, help investigators make their data compliant with FAIR principles, develop methods for evaluating network-based data cohesion, and advance machine-learning methods for common image analysis tasks."
+ },
+ {
+  "id": "1866bc1d-044e-462d-9d5f-3c6d1981921c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Structural mechanisms of nicotinic acetylcholine receptors in health and disease",
+  "text": "Nicotinic acetylcholine receptors help control muscle movement, brain function, and immune responses, but\ntheir dysfunction leads to diseases like myasthenia gravis, congenital myasthenic syndromes, and\nneurodegenerative disorders. This research will reveal how these receptors work in healthy and diseased\nstates, providing insights into disease mechanisms and potential treatments. These discoveries may lead to\nbetter therapies for neurological and autoimmune conditions, improving patient health and quality of life."
+ },
+ {
+  "id": "186828b9-5f6e-479f-b1ac-d069307ca3de",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Transmembrane Protein 178 as a Novel Endogenous Inhibitory Mechanism in Asthma",
+  "text": "Transmembrane protein 178 (Tmem178) mediates a novel endogenous inhibitory mechanism in asthma. This\nproject will characterize the role of Tmem178 in bronchial epithelial cells and asthma pathogenesis.\nUnderstanding the mechanism of Tmem178 action could lead to the development of novel strategies to inhibit\nlung inflammation and restore homeostasis in the asthmatic airway epithelial barrier."
+ },
+ {
+  "id": "1869e3cf-0045-4ba1-85a3-b2edaaed185b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Translating Mechanistic Insights into Intrinsic Xase Function",
+  "text": "PROJECT 4-PROJECT NARRATIVE\nThe formation of a blood clot following vascular injury is an essential defensive mechanism that is highly\nregulated. Some people have inherited bleeding disorders because they are missing essential clotting factors\nsuch as factor VIII, IX, of X. This proposal seeks to both better understand how these clotting factors work\ntogether in the regulation of blood coagulation and to use this improved understanding to develop new and\nbetter therapies for these bleeding disorders."
+ }
+]

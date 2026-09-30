@@ -1,0 +1,142 @@
+[
+ {
+  "id": "db4afab9-4484-4fd3-a876-a539b7e9e6f6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Core B: Molecular Biology Core",
+  "text": "In the past few years, methods to determine the molecular identity neurons that have been labeled by the location of their projection outputs, the location of neurons providing specific synaptic input, or their ability to respond to a specific stimulus. Taking advantage of these approaches involves access to highly specialized equipment as well as the acquisition and application of expertise across myriad unrelated disciplines, including, but not limited to: microfluidics, low-volume pipetting, macromolecular crowding, bioanalyzer analysis, sequencing chemistry, large data set management, coding, generalized linear models, graph-based clustering, non-negative matrix factorization, multiple hypothesis testing correction, etc. Outside of the Molecular Biology Core, none of this program project grant laboratories has generated or analyzed NGS data, has significant experience with modern cloning approaches such as isothermal (Gibson) or Type IIS (Golden Gate) Assembly, or designed and used RNAScope probes. As each group is unlikely to perform such experiments with a frequency that would justify the time and expense necessary to develop those skills, centralization of these specialized techniques, increases consistency and quality and reduces cost/time waste resulting from duplicative/inefficient skills acquisition. In recruiting Dr. Linus Tsai to fill the role of director, the Molecular Biology Core leverages existing capabilities within his lab, consolidating support services for mouse husbandry and what are more expensive and/or technically challenging methods (RNAScope, cloning, bulk and single nucleus RNA-seq) to experienced laboratory and bioinformatic personnel. The Core’s experience with these methods maximizes the likelihood that these complex and difficult experiments are successful, and in turn that the aims outlined are achieved. In enabling PPG access to these state-of-the-art methods, we hope to provide PPG members with a basic understanding of how and when to use these techniques while demonstrate how molecular profiling can quickly facilitate the identification of pharmacotherapies that would be predicted to increase ventilatory response to hypercarbia."
+ },
+ {
+  "id": "db4baf1e-3881-474d-ab3c-801c3e251a90",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular Mechanisms of Pseudomonas aeruginosa Antibiotic Persistence in Monocultures and Microbial Communities",
+  "text": "Pseudomonas aeruginosa is an opportunistic bacterial pathogen that can survive antibiotic treatment even\nwithout identifiable antibiotic resistance genes and cause chronic or recurrent infections. The central objective\nof this project is to understand the mechanisms that P. aeruginosa uses to survive treatment with two different\nclasses of antibiotic and how interactions with another species, S. aureus, affects P. aeruginosa’s phenotypic\nresponses to the drugs. Completion of this research can inspire novel treatment strategies to reduce the burden\nof P. aeruginosa infections and preserve the effectiveness of existing antimicrobial agents."
+ },
+ {
+  "id": "db53ef33-325f-4cb4-8591-95afdd1eacb5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "VA's virtual care initiatives and suicide prevention",
+  "text": "Approximately 6,000 Veterans per year die by suicide. Many Veterans with mental health conditions go\nuntreated due to access barriers. Recent VA telehealth expansions may improve access to mental health care,\nbut VA’s evidence synthesis program and multiple program offices have noted the need for stronger evidence\non the effectiveness of telehealth for mental health care, particularly for suicide prevention. As telehealth\nrequires access to digital technology, the health disparities impact of large-scale reliance on telehealth should\nalso be evaluated. As VA continues to expand and innovate in its telehealth and suicide prevention programs,\nrigorous studies of its recent telehealth initiatives can inform VA’s suicide prevention efforts. To provide robust\nevidence to inform VA’s virtual care and suicide prevention policies, this CDA will use novel causal inference\nmethods combined innovatively with qualitative and mixed methods to evaluate the suicide prevention and\nhealth disparities impacts of VA’s three recent initiatives aimed at improving access to care through telehealth."
+ },
+ {
+  "id": "db5ba977-6f51-4425-9d12-89a7994eb643",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Proteomics Shared Resource",
+  "text": "PROTEOMICS SHARED RESOURCE (PSR): PROJECT SUMMARY The Siteman Cancer Center (SCC) Proteomics Share Resource (PSR) has been a major contributor to the emerging field of proteogenomics with a track record of high impact publications and external funding. The PSR is poised to continue as leaders in the field in the next five years, using reproducible and repeatable deep-scale proteomics (≥ 10,000 genes) and phosphoproteomics (≥ 37,000 sites) and the harmonized protocol that was co- developed with the National Cancer Institute Clinical Proteomics Tumor Analysis Consortium (CPTAC). Studies are underway with comprehensively characterized Acute Myeloid Leukemia and pre/post treatment ovarian cancer cohorts (Aim 1). In the current project period, PSR has developed high-precision assays for absolute quantification (copies/cell) of 361 of the 526 protein kinases in the human kinome using CPTAC guidelines for validation toward FDA approval and clinical utility. The PSR proposes to have complete coverage of the human kinome by 2023 and to continue applying and developing cancer-type specific panels for PDX and human drug trials (Aim 2). Proteomics is on the cusp of next generation instrumentation that will lead to quantification of all expressed proteins and generate wider coverage of post-translational modifications. Using these new platforms, and in collaboration with the recently-established Washington University School of Medicine (WUSM) Mass Spectrometry Center, the PSR will develop new services for SCC members and increase the value and utility of proteogenomic analysis in support of SCC research programs (Aim 3). Future directions for the next project period include an emphasis on expanding services and enhancing cross-core interface to improve user experience and interpretation of data. PSR will continue to develop software in collaboration with the bioinformatic resources of the Genome Technology Access Center (GTAC) and The McDonnell Genome Institute (MGI) with the overarching goal of providing tools for more efficient interpretation of high-density proteogenomic data. WUSM recently recruited two faculty members who will contribute to PSR plans to expand services in the next project period. Ben Major (MCBP), from the Lineberger Comprehensive Cancer Center at the University of North Carolina, will serve as PSR Faculty Advisor and actualize expansion of PSR services in the area of proximity-labeling mass spectrometry for high-specificity characterization of intracellular complexes in cancer biology. With the successful recruitment of Dennis Goldfarb to WUSM and his agreement to collaborate on development of new MS and bioinformatics tools for proteogenomics, PSR will offer members new capabilities for facile discovery and hypothesis generation."
+ },
+ {
+  "id": "db5e8544-4ccb-467a-8804-663c1cda226c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Remote Data Enclave Core",
+  "text": "The overarching goal of the Remote Data Enclave Core (Core F) of the Michigan Center on the Demography of Aging (MiCDA) is to advance research on the demography of aging by sharing restricted data from studies funded by the National Institute on Aging (NIA). In the coming cycle, this core will continue to oversee the secure MiCDA virtual data enclave, which provides study-partner-approved researchers with secure access to restricted data from specified remote locations at no charge. Study partners currently include the largest and longest running National Institute on Aging (NIA)-funded panel studies: the Health and Retirement Study (HRS), the Panel Study of Income Dynamics (PSID), and the National Health and Aging Trends Study/National Study of Caregiving (NHATS/NSOC). In the coming cycle, Core F will continue to provide secure, virtual access to restricted data through the MiCDA enclave by: adding new data from existing study partners, exploring new partnership opportunities and broadening contextual holdings in its Geographic Linkages Repository; regularly reviewing and upgrading hardware and software infrastructure and monitoring capacity; investigating and remedying barriers that may unintentionally impede access to the MICDA enclave and launching a stipend program to attract new researchers; and adding capacity to expand use of machine learning and deep learning models in the MiCDA enclave. Core F will also collaborate with Core A on tracking, analyzing and reporting outcomes."
+ },
+ {
+  "id": "db6118f4-15ec-486d-a753-c1a0022d80be",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Impact of Hyperinsulinemia on Mammary Gland Development and Inflammatory Microenvironment",
+  "text": "Obesity is increasing in prevalence in populations globally and is associated with a range of health and\npregnancy complications such as hyperinsulinemia, chronic low-grade inflammation, and higher risk of\ngestational diabetes mellitus. This research aims to address how obesity-related hyperinsulinemia and\ninflammation impair mammary gland development and lactation, particularly in mothers with obesity. Since\nsuccessful lactation is vital for infant health and long-term growth, understanding molecular mechanisms behind\nlactation dysfunction in mothers with obesity could lead to targeted interventions to improve breastfeeding\noutcomes in affected populations."
+ },
+ {
+  "id": "db67bbb5-fcdd-4058-8065-6416048021ec",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Impact of PCSK9 inhibition on abdominal aortic aneurysm pathobiology and growth",
+  "text": "Abdominal aortic aneurysm (AAA) is a life-threatening condition which affects ~4% of the population ≥ 65 years\nof age and for which the only efficacious intervention is surgery. Emerging evidence implicates a causal role for\nlow density lipoprotein cholesterol (LDL-C) and suggests that the intensive LDL-C lowering with PCSK9 inhibitors\nmay be a potential strategy to prevent and treat AAA. This project will integrate human genetic evidence and a\nmechanistic clinical trial to obtain data that would support conducting a large-scale efficacy trial in humans."
+ },
+ {
+  "id": "db705361-c3bb-4fb5-83ca-de6f50b8d1b9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "CTL-killing capacity and cancer stiffness in cancer immunity and therapy",
+  "text": "It is poorly understood how tumor killing capacity of CD8+ T cells (CTLs) is affected by tumor metabolism in the\ntumor microenvironment. We will explore the cellular and molecular mechanisms by which CTL-tumor killing\npotency is affected by amino acid circuits in tumor cells and demonstrate how tumor stiffness is involved into\nthis process. The proposal will provide an opportunity to take our understanding of the cross-talk between\nCTLs and tumor cells to a new level of mechanism and application."
+ },
+ {
+  "id": "db76f2a9-077a-4de3-82db-fab0766253b4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Phosphate and Enamel Formation",
+  "text": "The primary atomic and molecular building blocks of enamel are calcium and inorganic phosphate (Pi), and a\nhydroxyl end group, that forms a hydroxyapatite (Hap) mineral under highly regulated extracellular pH conditions.\nThe past 2 decades have offered significant insights as to how calcium and bicarbonate contribute to enamel\nformation, but today little information is known as to the molecular mechanisms involved in inorganic phosphate\n(Pi) movements from the circulation to the enamel space. Our work aims to explain the cellular roles of a Pi\nimport channels (PiT1 and NaPi2b), and the only mammalian Pi export channel (Xpr1) in enamel formation."
+ },
+ {
+  "id": "db7b4d9c-fdba-4198-b94e-cba1dda16102",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identification of Covalent Transcriptional Dependencies in Melanoma",
+  "text": "Transcription factors represent one of the largest groups of oncogenes yet are traditionally considered\nundruggable. By employing chemical proteomic based drug discovery screens, we have identified a covalent\nligand that binds to and disrupts the activity of the oncogenic transcription factor SOX10 in melanoma cells.\nThe goal of this application is to use a suite of advanced chemical-proteomic and genomic technologies to\nunderstand the mode of action of this covalent ligand, its potential for optimization and the impact of\npharmacological inhibition of SOX10 in melanoma models."
+ },
+ {
+  "id": "db85dcde-b95d-4533-8341-1a5ae0f2cac4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Characterizing the sources, mechanisms, and translational relevance of microbial TMAO in driving anti-tumor immunity in pancreatic cancer.",
+  "text": "Microbial metabolites have suggested to influence anti-tumor immunity and cancer treatment. This proposal\nwill characterize the sources, mechanisms, and translational relevance of a minimally understood, high impact\nmicrobial metabolite, TMAO (trimethylamine N-oxide) in a lethal pancreatic ductal adenocarcinoma (PDAC)."
+ },
+ {
+  "id": "db8b278b-c330-492c-8036-6add15311fff",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Decoding the Heterogeneity in Chemo-Immunomodulation to Unlock the Potential of Chemoimmunotherapy in Metastatic Triple-Negative Breast Cancer",
+  "text": "Anti-PD-1 chemoimmunotherapeutic treatment strategies rely on chemotherapy-induced immunomodulation\n(chemo-immunomodulation) for efficacy against metastatic triple-negative breast cancer and have hitherto\nperformed unsatisfactorily. The goal of this project is to identify, characterize, and establish the clinical relevance\nof genomic and transcriptomic features that influence chemo-immunomodulation in metastatic triple-negative\nbreast cancer and utilize the data generated from the studies herein to develop a machine-learning-based model\npredictive of chemo-immunomodulation by select agents. The results of this study may provide critical insights\nthat inform novel paradigms for designing, optimizing, and maximizing the efficacy of anti-PD-1\nchemoimmunotherapeutic strategies in metastatic triple-negative breast cancer based on patient-specific\ngenomic and transcriptomic features and their effect on chemo-immunomodulation."
+ },
+ {
+  "id": "db9b3b53-c613-4446-8372-af43b0f7a72a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Data-driven Subtypes of Alzheimer's disease progression for targeted treatment",
+  "text": "Therapy development for Alzheimer's disease has been impeded by significant disease\nheterogeneity. Our objective is to reveal and stratify heterogeneous AD populations into\nclinically targetable groups using completed clinical trial/registries data. If successful, this project\nwill speed up clinical trials by informing the design of future intervention trials."
+ },
+ {
+  "id": "dba70634-6477-45c1-ab41-2008b9b03db6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identification of smooth muscle cell genes causal in atherosclerotic plaque stability and cardiovascular disease risk",
+  "text": "Despite effective cholesterol-lowering therapies, cardiovascular disease (CVD) risk remains a major unmet\nclinical need. We hypothesize that genes expressed in the artery smooth muscle cells play a prominent causal\nrole in atherosclerotic plaque instability and CVD risk independent of genes affecting blood cholesterol level. To\naddress this, we propose a unique integrative approach, validated by natural “human knockouts,” to fine-map\nthe genome regions for CVD, discover causal genes, and elucidate safe therapeutic targets for smooth muscle\ncell casual pathways in atherosclerosis stability and CVD risk independent of blood cholesterol."
+ },
+ {
+  "id": "dbaefb3a-da4b-4759-88a6-9edcaad67c72",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Characterization of TOX isoform-specific roles in T cell and ILC development",
+  "text": "A single gene can encode multiple forms of a protein. We previously discovered a protein that\nplays a key role in aspects of immune system development and have recently shown that there\nare two forms of this protein. Using novel tools we developed, we propose here to unravel the\ncomplexities of immune system development regulated by these different protein forms."
+ },
+ {
+  "id": "dbafbc2f-2ddf-4028-8026-107ab6cecfa6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Flow Cytometry and Technology Development",
+  "text": "The Sidney Kimmel Comprehensive Cancer Center (SKCCC) Flow/Mass Cytometry Shared Resource (SR) has continuously offered state-of-the-art cell sorting and flow analysis services to SKCCC Members from its inception in 1980. In 2013, the Flow Cytometry SR merged with the Human Immunology (HI) SR, but HI has since been more appropriately integrated with a newly established SR that handles clinical specimen collections and processing for all SKCCC studies. To expand the capabilities for tumor microenvironment and immune profiling, the SKCCC recently acquired mass cytometry technologies for suspension and imaging analyses. These resources were integrated into the collective Flow/Mass Cytometry and Technology Development (FCTD) Shared Resource (SR) in 2020. While many diverse therapies are being evaluated at the SKCCC, many studies overlap in their requirement for flow/mass cytometry analysis and cell sorting of immune cells. These services are provided in a timely, flexible and affordable manner to SKCCC Members from across the medical campus. Services provided by the FCTD SR do not duplicate services available elsewhere, and the SR currently operates the only mass cytometer at the institution. Cytometry services range from basic two- color flow analyses to complex cell-sorting experiments involving up to 16 colors, as well as 20-plex mass cytometry profiling based on 30-40+ parameters, plus training, data analysis and consultation services. Successful execution of these services has led to: 1) a novel analytical pipeline for determining T cell repertoire changes in response to immunotherapy regimens (i.e., the Mutation-Associated Neoantigen Functional Expansion of Specific T Cells Assay), 2) synergistic incorporation of multimer-based methodologies for investigating neoantigen-specific T cell subpopulations, and 3) a platform for innovative integration of scRNAseq datasets to study T cell responses in collaboration with the SKCCC Experimental and Computational Genomics SR. Moreover, the application of mass cytometry techniques, as currently offered by the FCTD SR, has already enabled discovery for preclinical and translational researchers at the SKCCC. Collectively, these resources significantly improve the ability to functionally characterize immune cells in cancer therapy, vaccine trials and preclinical studies. SKCCC Managed Shared Resource Reporting Period: January 1, 2020 to December 31, 2020"
+ },
+ {
+  "id": "dbb3474f-7352-470b-9051-5e6e76c68be4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Developing an AI-Based Prognostic Model for Ewing Sarcoma Using Digital Pathology Images",
+  "text": "Ewing sarcoma is a rare and aggressive cancer affecting children and adolescents. This project uses\nartificial intelligence to analyze digital pathology images and identify patterns that may help predict\nwhich patients are at higher risk for poor outcomes. The results could lead to more personalized\ntreatment strategies and improve survival and quality of life for children with this disease."
+ },
+ {
+  "id": "dbba6b8e-1b16-4837-8a56-c8afa041a4d8",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Collaborative for REsearch to AdvanceTMD Evidence (CREATE)",
+  "text": "Temporomandibular disorders (TMDs) are complex conditions that are not well understood,\nmaking it difficult to prevent or treat them effectively. The CREATE team brings together experts\nto study TMDs in detail, combining patient data and laboratory research to uncover causes,\ndevelop personalized treatments, and improve care for people living with these disorders."
+ },
+ {
+  "id": "dbbb2b13-d7b3-456c-b876-4ecb937980af",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Machine Learning and Image Analysis Core",
+  "text": "MACHINE LEARNING AND IMAGE ANALYSIS CORE The Machine Learning and Image Analysis Core of The Jackson Laboratory Nathan Shock Center (JAX NSC) uses cutting-edge data science approaches to develop novel aging biomarkers to support JAX NSC studies and the broader aging community. Our studies leverage the diversity of our mouse models to ensure the generalizability of our biomarkers and undertake outreach activities to support their adoption. The Specific Aims of the Machine Learning and Image Analysis Core are: Aim 1. Adapt a quantitative image analysis pipeline for the analysis of aged heart, liver, lung, spleen, and ovarian tissues by training and validating classifiers. This Aim continues our work from the current funding period, where we developed first-in-class digital pathology models to predict tissue aging and extensively developed new neural network architectures to support model interpretation. We now have a mature, cutting-edge framework to extend these efforts to multiple tissues, including ovarian tissue, that will be generated during the next funding cycle. Aim 2. Adapt a quantitative machine learning pipeline for the analysis of hematology signatures across ages by training and establishing classifiers. We will extend our biomarker development efforts to clinically translatable hematology analyzer data (i.e., scattergrams) from our diverse aging mouse cohorts, using machine learning approaches to develop blood biomarkers of aging. Aim 3. Develop and distribute open-source, user-friendly packages for both the quantitative and discovery pipelines with online training to the geroscience community. Once our pipelines have been trained and validated, we will make them publicly available as open source to the community. This resource sharing will stimulate their use and will allow other groups to extend and improve upon our work. The core supports aging research by generating novel biomarker resources from our studies that are designed to support a broad range of aging research activities."
+ },
+ {
+  "id": "dbc0c655-1824-44be-966c-2521b8520d57",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Methionine and PI3K Metabolism Drive CIMP in EBV Epithelial Cancers",
+  "text": "PROJECT 3 – PROJECT NARRATIVE\nEBV is a major cause of nasopharyngeal and gastric carcinomas. These studies will increase understanding of\nhow EBV together with specific tumor genetic and epigenetic pathways drive epithelial cancers, which may lead\nto novel therapeutic approaches."
+ }
+]

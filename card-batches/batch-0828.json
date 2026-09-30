@@ -1,0 +1,142 @@
+[
+ {
+  "id": "9b60bf2e-b280-4620-bfb2-0913db599c8f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Unveiling Therapeutic Targets for Precision Intervention in HPV-Associated Oral Cancers through Genomic Analysis",
+  "text": "This project aims to analyze TCGA data to investigate the role of long non-coding RNAs (lncRNAs) in HPV-\npositive head and neck cancers, focusing on the impact of viral integration on cancer progression and gene\nregulation."
+ },
+ {
+  "id": "9b66468b-8f1e-45d4-9508-f6283d93c665",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Regulation of Adherent Cell Proliferation by Matrix Viscoelasticity",
+  "text": "Extracellular matrix stiffness and viscoelasticity regulates cell proliferation in 3D microenvironments through\nmechanotransduction, but the mechanisms mediating these effects remain largely unclear. Here we will combine\nbiophysical approaches with genome-wide analyses and CRISPR screens to determine the mechanisms\nmediating the impact of matrix stiffness and viscoelasticity on cell proliferation. Therefore, the proposed research\nis relevant to the part of NIH’s mission that seeks to develop fundamental knowledge that will help reduce the\nburdens of human disability and disease."
+ },
+ {
+  "id": "9b67ddb1-c9dd-4ee2-bbad-eda57259d0ea",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Gene editing in the brain with CRISPR-PEG",
+  "text": "The experiments in this proposal focus on developing a new Cas9 delivery vehicle termed CRISPR-PEG.\nCRISPR-PEG is designed to edit large volumes of brain tissue and in this proposal we will use it to treat mouse\nmodels of fragile X syndrome and related disorders. If successful, the experiments in this proposal will develop\na new strategy for treating genetic disorders."
+ },
+ {
+  "id": "9b6da774-c7b8-4c3e-b00c-841f3db19362",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Next-Generation Oncoproteomic Sequencing and Precision Profiling",
+  "text": "The proposed technology will deliver ultra-precise, high-throughput sequencing and profiling of both cancer-\nrelated proteins and general proteomes, identifying critical mutations and post-translational modifications with\nunprecedented accuracy. This platform has strong commercial potential for broader applications in\nbiotechnology, diagnostics, and personalized medicine, facilitating earlier disease detection, targeted therapies,\nand comprehensive protein analysis. Improving protein characterization and oncoprotein identification will\ndirectly advance public health and reduce healthcare costs."
+ },
+ {
+  "id": "9b6fb709-38f1-4073-adcd-db861cc235db",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "\"A PHASE I STUDY INVESTIGATING THE SAFETY & EFFICACY OF DANVATIRSEN AS MONOTHERAPY FOLLOWED BY COMBINATION WITH VENETOCLAX IN PATIENTS WITH RELAPSED/REFRACTORY MDS & AML.\"",
+  "text": "Aggressive myeloid malignancies such as high-risk myelodysplastic syndromes (MDS) and\nacute myeloid leukemia (AML) are difficult to treat and frequently not cured by conventional\nchemotherapy. Relapsed/refractory (R/R) MDS/AML have a very poor prognosis. Through the\nmeans of this proposal, we will conduct an early phase clinical trial of a novel antisense STAT3\ninhibitor in patients with R/R MDS/AML and also investigate ways to overcome therapy\nresistance in MDS/AML."
+ },
+ {
+  "id": "9b744e4a-6987-464a-bc06-9d47c667c0ec",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Fast-Track Phage-amplified MALDI-TOF MS for rapid phenotypic UTI diagnosis and antimicrobial susceptibility testing",
+  "text": "Cobio NIH SBIR Fast-Track Project Narrative\nUrinary tract infections (UTIs) are the most common infection type in the U.S., and life-threatening antibiotic\nresistance in these infections is increasing at an alarming rate. Current UTI diagnostics rely on time-consuming\npre-analysis organism isolation and enrichment that requires an average of 1-3 days and do not provide\ncomprehensive antibiotic susceptibility data to inform drug selection. The goal of this SBIR Fast-Track project\nis to address these key drawbacks by demonstrating the effectiveness of PhAAST-MALDI, which is Cobio\nDiagnostics’ proprietary phage-amplified MALDI-TOF MS (matrix-assisted laser-desorption ionization time-of-\nflight mass spectrometry) direct-from-specimen assay for bacterial ID, AST and MIC in urine."
+ },
+ {
+  "id": "9b79808a-26f1-4898-8bd5-f86af9ba2040",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Regulation of neurodevelopmental cell behaviors in Ciona",
+  "text": "Human development depends greatly on the shaping and movements of individual cells. Congenital\nsyndromes, cancer, and other cell diseases occur when there is a breakdown in the regulation of the\nbehaviors of specific cells. We will use the small, transparent embryos of Ciona, one of the\ninvertebrates most closely related to humans, to better understand which genes are activated to\nregulate such behaviors during neural development, and how cell behavior goes awry when these\ngenes are missing or defective."
+ },
+ {
+  "id": "9b804608-3c31-4c4a-9840-ea46801fa24c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identifying Endocrine-Disrupting Plastic Additives using Machine Learning",
+  "text": "Plastic additives are widely used chemicals, some of which are known to cause adverse health effects - yet\nthousands of plastic additives remain uncharacterized for their risk of disrupting endocrine function via AR and\nERα modulation. Here, we will develop an integrated computational (Aim 1) and experimental (Aim 2) workflow\nto systematically predict and validate the AR and ERα modulating and endocrine-disrupting potential of plastic\nadditives. This platform will provide critical public health data on the adverse effects of plastic additives and serve\nas a blueprint for future machine learning-assisted toxicology research into commonly used materials and\nimportant toxicological endpoints."
+ },
+ {
+  "id": "9b897751-5d18-4ed6-934c-65de7d2166a2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identification of botanical hHv1 channel blockers as analgesics for neuropathic pain",
+  "text": "This research addresses a specific unmet medical need, the absence of effective therapeutics for neuropathic\npain (NeuP), a debilitating chronic pain syndrome that develops as a result of nerve injuries caused by trauma\nor disease and affects over 16 million Americans. This proposal seeks to optimize a novel fluorescent high-\nthroughput screening (HTS) assay for identifying small molecule blockers of the voltage-gated proton channel\n(Hv1) from botanicals that reduce the release of inflammatory mediators by microglia and thereby relieve NeuP.\nThe project will build on preliminary findings to optimize the HTS assay and identify lead compounds for devel-\nopment as drugs targeting Hv1; these agents will have a number of other potential uses because Hv1 is central\nnot only to the development of NeuP but also contributes to tissue damage after ischemic stroke and spinal cord\ninjury."
+ },
+ {
+  "id": "9b9153dd-fea6-40ab-a83e-899f0231da4d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Neurophysiology of impaired gait in mouse models of Parkinson’s disease",
+  "text": "Impairments in limb movements during walking, or gait, are a debilitating motor symptom of Parkinson’s disease\nfor which no fully effective treatment exists. The neural circuit mechanisms that cause these gait disturbances\nhave not been well studied at the resolution of individual limb movements. Therefore, the goal of this project is\nto understand how gait-related brain activity is altered in animal models of Parkinson's disease."
+ },
+ {
+  "id": "9b9d32a6-559d-4f91-9d29-352f7391da83",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Genetic Dissection of Germ Cell Differentiation and Function",
+  "text": "Understanding the unique mechanisms that govern germ cell formation and function will have a\npositive impact on medical science. We seek to gain new insights into the molecules that control\ngerm cell differentiation and how germ cells protect the integrity of their genomes."
+ },
+ {
+  "id": "9b9f6d43-a362-4b15-bc2e-a6bd647c4a78",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Pacific Island Partnerships for Cancer Health for Everyone (PIPCHE)",
+  "text": "OVERALL\nThe Pacific Island Partnership for Cancer Health for Everyone (PIPCHE) represents the next step in augmenting a Hawai‘i-Guam-USAPI cancer research infrastructure by investing in Pacific Island Populations leaders, Early Stage Investigators, community partners, and community-research. As a result of the 22-year commitment, PIPCHE is also well positioned to increase the biomedical cancer science workforce and research leadership that better reflects the Hawai‘i-Guam-USAPI population and to stimulate new areas of cancer research. PIPCHE has assembled dedicated academic and community partnerships needed to synergistically accelerate cancer research into a sustainable forum that pursues cultural and environmental appropriate solutions."
+ },
+ {
+  "id": "9ba575fe-4212-4de7-8b21-5d9ff4d824d2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Structure and function of Transient Receptor Potential Channels",
+  "text": "Transient Receptor Potential (TRP) channels are regulated by a broad range of stimuli, including chemicals,\ntemperature and mechanical stress and are directly involved in sensory perception such as taste, olfaction,\nthermal perception and nociception. TRP channels are implicated in the pathogenesis of numerous diseases\nand some of them represent important prognostic markers and promising targets for new therapeutic strategies\nto treat a variety of human cancers. Our goal is to study TRP channels using a combination of biophysical and\nbiochemical techniques and to obtain detailed information about their structure and function that will help to\ndevelop new drug design strategies."
+ },
+ {
+  "id": "9ba913df-3eff-477e-87d7-37e22e24a592",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Perfused organ panel as an animal surrogate for chemical toxicity testing",
+  "text": "This project will lay out foundation for new, alternative, animal-relevant test systems for sensitive, reliable and\npredictive in vitro testing of environmental toxicants, such as organophosphate and carbamate pesticides, to\nethically and humanely identify potential hazards to human health and the environment."
+ },
+ {
+  "id": "9bae53fb-beb3-4bd8-8f5d-d9cf47806ca6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Harnessing big data to understand the confluence of HIV and cancer stigma in the US Southeast",
+  "text": "Although stigma is a major barrier to care that impacts people living with the dual burden of HIV and cancer in the US, little is known about the causal mechanisms through which stigma impacts cancer care delivery and long-term survivorship care to manage both HIV and living as a cancer survivor. We aim to address this gap in scientific knowledge, leveraging a novel electronic health record-based linkage of multiple health systems throughout Florida called OneFlorida+ (>24 million patients) to gain real-world insights into (1) patterns and trends in cancer treatment, cancer survivorship care, and HIV care after a cancer diagnosis; (2) negative impacts of stigma on care behaviors among PWH with cancer to identify actionable targets for intervention; and (3) gain insights from PWH with cancer served by community-based clinics and an NCI-designated cancer center through qualitative interviews to understand the impacts of stigma within two care contexts. Our results will elucidate mechanisms to inform the development of future interventions to: 1) address the impacts of stigma on care delivery to PWH, 2) improve coverage of cancer and survivorship care among PWH, and 3) optimize care guidelines for PWH."
+ },
+ {
+  "id": "9bbb6707-2b22-4be3-8a89-d78fb4ca46b5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mitochondrial Membrane Dynamics in Th17 Cells",
+  "text": "Certain types of T cells can promote inflammation and autoimmunity, while others can suppress immune responses. This proposal’s objective is to understand how changes in mitochondria, the so-called powerhouses of the cell, impact the function of different types of T cells. Defining the mechanisms that regulate T cell metabolism will be critical for gaining new insights into how to therapeutically target these cells in the context of autoimmunity, infection, and inflammatory diseases."
+ },
+ {
+  "id": "9bbcbe9c-1849-4465-b9fb-ea2ea14f5847",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Biostatistics Training Program in Cancer Research",
+  "text": "The need for rigorously trained statistical scientists and data scientists in cancer research is\nmassive and continues to increase. In addition to advanced coursework in biostatistics and\nepidemiology the interdisciplinary training program will give trainees who are obtaining a Ph.D. in\nBiostatistics or Epidemiology (i) a solid understanding of cancer biology, (ii) experience and ability\nto communicate and collaborate with cancer scientists, (iii) understanding of recent developments\nin cancer requiring innovative statistical research and (iv) independent research skills. The aim\nof the University of Michigan Cancer Biostatistics Training Program (CBTP) is to increase the\nparticipation in cancer research of the new generation of biostatisticians who are educated not\nonly in the powerful methods of modern statistics and data science, but also in the biology and\nepidemiology of cancer, the current body of knowledge about the etiology of the disease, its\nprevention, detection, natural history, and treatment."
+ },
+ {
+  "id": "9bc30038-3014-438f-ba99-d329c3b9aca3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Girk3 in bone biology and disease",
+  "text": "Osteoporosis is a prevalent disease characterized by low bone mineral density, bone fragility, and fractures.\nMice lacking the potassium ion channel Girk3 have elevated bone mass and reduced circulating cytokines in\nadulthood, making Girk3 a novel target for bone remodeling. This research will determine the physiological and\ncellular mechanisms by which Girk3 regulates cytokine production and bone mass and test whether Girk3\ndeletion prevents ovariectomy-induced osteoporosis in a cytokine-dependent manner."
+ },
+ {
+  "id": "9bc87c86-04c5-4776-bd54-c1d91cd80e51",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "PowerEdge XE9680, a NVIDIA H200-powered AI Server",
+  "text": "An NVIDIA H200-powered AI server can accelerate cancer research and improve patient outcomes. This\nadvanced infrastructure will enable real-time analysis of complex biomedical data, including genomics, imaging,\nand clinical records, supporting the development of predictive models for treatment response, toxicity, and\ndisease progression. By powering AI-driven tools for biomarker discovery, clinical trial optimization, and\npersonalized therapy, the server will help clinicians make faster, more accurate decisions tailored to each patient;\nthis investment directly supports our mission to lead in precision oncology and deliver more effective, data-\ninformed care."
+ },
+ {
+  "id": "9bcae0ac-2e1b-47ad-9109-d7ecfa402ddc",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Molecular Genetics Core",
+  "text": "The overall goal of this Core is to support and advance diabetes-related research through the generation of unique, genetically-modified mutant mouse models. We currently provide a number of highly specialized services contained within two tightly integrated Subcores: 1) the Molecular Subcore designs and generates gene expression constructs and CRISPR tools for genetic modification in mice and cultured cell lines, provides genotyping design/ mutation characterization, gene mapping/ localization and the quantitation of gene expression by quantitative RT-PCR, and 2) the Gene Targeting Subcore generates genetically-modified mouse models in a variety of standard strains (such as C57BL/6, Balb/c, etc.) and specialized genetic backgrounds (including NOD and various immunodeficient strains, such as Rag/Il2rg KOs) via CRISPR/Cas9 approaches, conventional transgenesis and ES cell recombination methods, and also provides sperm cryopreservation and IVF recovery of preserved strains. The specific aims of the Molecular Genetic Mouse Core are therefore to provide the following: a) critical services, b) technical assistance, c) experimental design, consultation/ advice, troubleshooting, d) training and e) equipment and resources, centered around the generation of genetically- modified mouse models by a variety of both traditional and CRISPR-related methods, including knock-outs, conditional knockouts, inducible knockouts, conditional gene activation, and a variety of knock-ins (tags, reporters, mutations and exon/domain or whole gene replacements). The MGM Core has successfully generated a great many lines of genetically-modified mice related to diabetes studies, most recently using CRISPR-based technology, and its continuing focus on technological development will ensure that services to the diabetes community remain cutting-edge. In addition, a unique feature of this core is that the interests of the subcore directors have fueled a critical mass of resources for investigation of the rapidly developing research areas of the mechanistic relationships between gut microbiota, inflammasome biology and obesity, NAFLD, and type 1 and type 2 diabetes. The MGM Core has developed mouse models with ablated or altered genes involved in regulation of the innate immune system, including NOD-like receptor proteins, Toll-like receptors, guanylate binding proteins, the apolipoprotein L family, and various interleukins and caspases. Finally, the core has a continuing investment in extending and improving the development and application of technologies for humanization of the mouse genome for engraftment of CD34+ human HSC, and the reconstitution of a human hematopoietic and immune system. These “humanized” mouse models will be invaluable tools for the dissection of the genetic components regulating the immunologic and metabolic responses in both type 1 and type 2 diabetes, especially with respect to human disease."
+ }
+]

@@ -1,0 +1,142 @@
+[
+ {
+  "id": "22f849eb-2977-4857-874e-1c0b52e22c7a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Characterization of tumor-specific human endogenous retroviruses in clear cell Renal Cell Carcinoma",
+  "text": "Despite frequent reports that human endogenous retroviruses (HERVs) are up regulated in clear cell Renal\nCell Carcinoma (ccRCC), their precise role in cancer development, progression, and treatment has not been\nthoroughly investigated. Understanding the relationship between HERV expression in tumors and anti-tumor\nadaptive immune responses could yield important insights on the design or enhancement of immunotherapies.\nThis project seeks to characterize HERV expression in ccRCC to identify potential tumor-specific antigens and\nevaluate their immunogenic properties, with the aim of discovering novel therapeutic targets for ccRCC and\nadvancing HERV research in other cancers."
+ },
+ {
+  "id": "23049121-20ec-4c8a-8dfa-24645fbdf217",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Array-Based Innervated salivary gland microphysiologic system",
+  "text": "Many organs in the body are highly innervated which critical for normal function. Incorporating nerves into in\nvitro tissue culture systems has been overlooked. This project will demonstrate a microphysiologic system\n(MPS) that promotes the maturation of similar size innervated salivary gland tissue mimetics (iSGm) cultured in\nan array format for use in high-content toxicity testing and drug discovery."
+ },
+ {
+  "id": "2306241d-110d-4943-add9-122472a15c24",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Clonal hematopoiesis, mild cognitive impairment and kidney function decline",
+  "text": "The current application seeks to identify and understand the role of DNA changes in blood cells in the\ndevelopment of new onset mild cognitive impairment, dementia and kidney disease progression. Strong\nepidemiologic evidence indicates that chronic kidney disease (CKD), an age-related clinical disorder is\nassociated with accelerated cognitive function decline. Knowledge gained from this work may contribute to the\ndiscovery of new ways to reduce the burden of cognitive function decline and kidney disease progression\nassociated with aging."
+ },
+ {
+  "id": "23083cc5-df44-4442-aff8-6bfb80fd41a0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Aging Impairs Wound Healing by an HSC-Autonomous Mechanism",
+  "text": "Tissue repair is critical for the survival of all organisms and aging causes a gradual decline of\ntissue integrity due to decreased stem cell function, a major hallmark of aging. We will show\nthat aging impairs wound healing by its effects on blood Stem cells called hematopoietic stem\ncells. We can restore youthful wound healing in aged mice by restoring normal hematopoietic\nstem cell function."
+ },
+ {
+  "id": "230b7615-29bd-4519-9644-a2bb9a6c30a5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Machine learning approaches for the discovery, repurposing, and optimization of natural products with therapeutic potential",
+  "text": "Natural products from bacteria, fungi, and plants have long been a rich source of therapeutically\nrelevant molecules, but the relationship between natural product structure and activity is not fully\nunderstood, hindering our ability to further optimize natural products for therapeutic use.\nMachine learning can be used to develop models that explain trends in data and make\npredictions for new data points. In this work we will apply machine learning to understand\nstructure-activity relationships in natural products, design biosynthetic gene clusters to improve\nour ability to biosynthesize natural product analogs, and repurpose natural products as protein-\nprotein interaction inhibitors."
+ },
+ {
+  "id": "230bc085-4586-45a5-891a-c9ebc4d77c06",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Advancing immunotherapy through cross species studies of immune cell responses and immune checkpoint inhibitor effects in dogs and humans with invasive urinary bladder cancer",
+  "text": "The proposed research is relevant to public health because greatly expanding the applicability\nof the canine invasive bladder cancer model, especially related to improving immunotherapy,\nwill propel success in more fully understanding and effectively treating cancer in humans. This\nwill impact NIH's mission toward human health by subsequently increasing the number of\nsuccesses and limiting the number of failures in human clinical trials, thus ultimately preventing\nsuffering, saving lives, and reducing health care costs of bladder cancer. The proof-of-concept\nwork will also justify the identification of other naturally-occurring dog cancer models to improve\ntherapy for other cancers."
+ },
+ {
+  "id": "23122a79-4d6d-4dff-9548-fe60581f0a34",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Optimizing Recovery prediction after Cardiac Arrest (ORCA)",
+  "text": "Physicians’ struggle to accurately distinguish patients who will awaken from coma after cardiac arrest from\nthose with irrecoverable injury. This proposal brings together a diverse team of world-class experts in post-\narrest care, statistical modeling and machine learning to develop a tool that rapidly and accurately delivers\nprognostic information to doctors. Improving the speed and accuracy of post-arrest prognostication will save\nlives, allow appropriate resources to be directed to patients who are likely to benefit, avoid long and difficult\ncare for patients who cannot recover, and spare families the agony of prolonged uncertainty."
+ },
+ {
+  "id": "23139619-338a-4a72-b9c9-5381509cec5b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Expanding single-cell transcriptomics to chart the role of noncoding RNAs in normal hematopoiesis",
+  "text": "Noncoding RNAs are emerging regulators of normal hematopoiesis, affecting hematopoietic self-renewal,\nfunction, and lineage commitment. While single-cell RNA sequencing (scRNAseq) has enabled the precise study\nof individual hematopoietic gene expression programs, our ability to analyze how noncoding (nc)RNAs bias and\ncommit cells toward hematopoietic fates has been hampered by the fact that scRNAseq only profiles\nendogenously polyadenylated RNAs such as messenger (m)RNAs, which excludes most ncRNAs. In this\nproposal, I will focus on developing methods and a computational pipeline for single-cell “total” (mRNA + ncRNA)\nRNAseq (scTRS), applying these methods to mobilized peripheral blood cells from healthy individuals, and\nidentifying and validating candidate transfer RNA and long ncRNA drivers of hematopoiesis to provide our first\ncomprehensive, single-cell examination of how ncRNAs drive normal hematopoiesis."
+ },
+ {
+  "id": "23159360-33b5-49a7-b3e0-ae8e5380a47e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Uncovering Nonlinear Genetic Architectures in Alzheimer's Disease Cellular Pathogenesis",
+  "text": "This research develops new statistical and computational tools to uncover genetic effects in Alzheimer's dis-\nease that standard analyses often miss, including interactions and effects that occur only in speciﬁc brain cell\nstates or at the extremes of molecular measurements. By integrating genomics and multi-omics data with\ndistribution-aware methods, the project aims to generate a public atlas and software that improve genetic risk\nassessment and accelerate the discovery of therapeutic targets. The resulting resources will support more pre-\ncise prevention and treatment strategies for people at risk for Alzheimer's disease."
+ },
+ {
+  "id": "232d1e82-fcd5-48b3-b96f-0fba5d7cef7b",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Mass Spectrometry",
+  "text": "Mass Spectrometry Core (formerly Metabolomics Core) Diabetes and its related endocrine and metabolic disorders are characterized by disruption of homeostasis. Aberrant signaling cascades involving protein post translational modifications such as phosphorylation, accumulation of potentially toxic lipid species, and altered flux of intracellular metabolites are among the abnormalities that constitute the diabetic milieu. The DRC Mass Spectrometry Core, an expanded version of the former Metabolomics Core, provides rigorous mass spectrometry-based proteomics and metabolomics analyses to DRC investigators that include quantification, structural characterization, and functional characterization of diabetes-related biomolecules. The Core increases efficiency and cost effectiveness by providing centralized, standardized mass spectrometry analyses to study molecular mechanisms of the pathogenesis of diabetes, its risk factors, and its complications. A major goal of the core is to promote use of mass spectrometry (MS) methods in diabetes research through training, collaboration, development, service, and dissemination. Specific objectives of the Core are: 1) to provide and maintain functional MS systems for diabetes-related studies; 2) to consult with DRC investigators regarding how MS can advance their research programs; 3) to perform service-related MS analyses for diabetes investigators, such as quantifying target analytes, obtaining spectra for structural identification, and assisting with mass spectra interpretation; 4) to develop new MS methods; and 5) to provide training to students and fellows in principles and use of MS systems. During this past funding period, this Core, operating as the Metabolomics Core, provided services to 34 different DRC member laboratories, including 3 P&F recipients, and the >11,000 hours of Core service supported the publication of 90 papers. Through a substantial institutional investment, the capabilities of this Core have increased prompting a name change to DRC Mass Spectrometry Core. The services offered by the Mass Spectrometry Core reflect the evolving bioanalytical needs of DRC investigators, including 1) quantitative study of protein expression, including targeted assays from clinical samples; 2) quantitative assessment of protein-protein interactions; 3) characterization of post translational modifications; 4) elucidation of the biological functions of proteins or protein groups; 5) targeted metabolomic services; 6) broad surveys of multiple metabolic pathways and quantification of pathway metabolites via untargeted metabolomics; and 7) high-throughput, quality-controlled measurements of analytes in large sample sets from clinical studies. The Mass Spectrometry Core thus leverages substantial institutional investments in instrumentation and analytical expertise to promote new discoveries and scientific progress in diabetes research at the Washington University DRC."
+ },
+ {
+  "id": "23332762-3f6f-4a7f-bffb-d9746ef8b63f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Genetic Basis of Variation in Post-Transcriptional Regulation of Stress Defense",
+  "text": "Proper regulation of stress defenses is a feature of healthy cells and organisms, and defects in stress defense\nare connected to a number of human disorders. This proposal will take advantage of natural variation in stress\nsignaling in yeast to explore why certain individuals are more susceptible or resilient to stress, with a focus on\nless well understood post-transcriptional and post-translational modes of regulation. The results will provide a\nstrong foundation of understanding how regulatory variation can impact stress responses important for human\nhealth."
+ },
+ {
+  "id": "233d5ab7-bc33-4d83-a239-614143cee040",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Chemical glycobiology tool development: Proximity-based modalities",
+  "text": "This project focuses on the design and construction of bifunctional molecules that bring \nextracellular proteins into proximity with cell-surface receptors, leading to a new biological \noutcome that could treat human disease. This advancement can lead to new types of treatments \nfor cancer and autoimmune diseases."
+ },
+ {
+  "id": "23408b3d-25e5-4dc5-bbf7-8e3d4d4f896f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "SoS: BIO: Improving the Integrity of Harms Reporting in Biomedical Research: A Science-of-Science Framework for Measurement, Causality, and Intervention",
+  "text": "RELEVANCE {See instructions):\nThe proposed project addresses a central weakness in the biomedical evidence ecosystem: the\nincomplete, inconsistent, and sometimes misleading reporting of harms in clinical trials. These\ndeficiencies compromise the validity of systematic reviews, misinform regulatory and clinical\ndecision-making, and erode public trust in science. While prior research has documented discrepancies\ndescriptively, no validated, enterprise-level metrics currently exist to systematically assess the quality"
+ },
+ {
+  "id": "23430d02-f6f7-4be8-951b-d78161eadb5b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cellular and Molecular Mechanisms of Dermal Condensate Formation",
+  "text": "Understanding the regulation of dermal condensate formation during hair follicle morphogenesis is a crucial\nrequirement for future hair regenerative therapies. We will systematically define the functional and mechanistic\nrole axonal guidance signaling pathways play in the directional migration and cellular clustering of the dermal\ncondensates of nascent hair follicles. This work will expand our knowledge of how the hair-inductive competence\nthe follicle niche is acquired, which may be useful for the development of hair follicle regeneration approaches."
+ },
+ {
+  "id": "2346e817-21db-43df-81b2-be3b04329ea1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A Deep Learning-based Miniature Microscope for Imaging Aging and Alzheimer's Disease Brains",
+  "text": "The proposed research is relevant to public health because it will create a widely accessible tool for understanding age\nand Alzheimer’s disease (AD)-related changes to brian function. This research is relevant to the NIH’s mission, and in\nparticular the mission of NIA because it will transform how scientists can study the brain during aging and AD progression,\ngenerate fundamental knowledge about the neurobiology of circadian rhythms, and pave the way for physician scientists\nto test new therapeutics for age-related neuropathologies."
+ },
+ {
+  "id": "234ebbdf-4b6b-471c-8c43-6c12d9360640",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Crosstalk of Immune Dysregulation and Impaired Wound Healing in inherited STAT4-mediated Autoinflammatory  Disease",
+  "text": "Impaired wound healing, vascular damage, and altered immunoregulation result in a\ndevastating pediatric syndrome known as disabling pansclerotic morphea. We have uncovered\na role for STAT4 as the genetic etiology underlying this autoinflammatory disease. The studies\nin this application will focus on targeting novel mechanisms of inflammation, angiogenesis, and\nimmune-stromal crosstalk to understand the role of STAT4 in disease progression, in order to\nprevent morbidity and mortality associated with disabling pansclerotic morphea."
+ },
+ {
+  "id": "2351d6f7-cae9-422a-baa9-f288fac76421",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanism of Par1c-mediated AMPA receptor trafficking and synaptic plasticity",
+  "text": "The human brain is remarkably unique in its high capacity to learn and adapt to new environments, which has\nbeen attributed to the plasticity of synaptic connections. MARK1, which encodes partitioning defective 1c\n(Par1c), is a gene that has human-specific accelerated evolution and is associated with autism spectrum\ndisorder (ASD) and bipolar disorder, suggesting a role for this protein in learning and memory. This project\naims to describe a molecular mechanism of Par1c-mediated synaptic plasticity and learning through AMPA\nreceptor trafficking."
+ },
+ {
+  "id": "23567d59-3740-4798-8d3b-db1cbd597440",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Homologous recombination deficiency and beyond in pancreatic cancer: evaluating the regulators of response to pembrolizumab and olaparib (POLAR) from the immune and genomic perspectives",
+  "text": "Current immunotherapies are ineffective for the vast majority of patients with pancreas cancer, and novel\napproaches are needed to harness the role of immunotherapy in this disease. Emerging evidence suggests poly-\nADP ribose polymerase inhibitors (PARPi) can render pancreas cancer immunogenic and improve response to\nimmune checkpoint blockade in a subgroup of patients with homologous repair deficiency (HRD). An improved\nunderstanding of the tumor genetics and immunologic features that contribute to response and resistance to this\ntherapeutic combination will guide precision immunogenomic strategies to improve outcomes for patients with\npancreas cancer, including beyond those with HRD."
+ },
+ {
+  "id": "23574473-529e-4d57-8bed-04f6d386b63b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of Prion Spread and Neuronal Toxicity",
+  "text": "Prion diseases are rapidly progressive, fatal neurodegenerative disorders caused by prion protein \naggregates spreading through the brain and spinal cord. We will use directed and unbiased \nproteomics experiments to determine how prions trigger synaptic dysfunction and neuronal \ndegeneration in well-characterized, highly reproducible neuronal and animal model systems, as \nwell as patient samples. We expect that the proposed studies will elucidate the signaling pathways \nthat drive synapse loss in prion disease, and uncover new therapeutic targets."
+ },
+ {
+  "id": "235a360c-85ff-4fad-ad84-9aa6d2968562",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Role of Ezrin in Schlemm’s Canal Cell Mechanobiology in Glaucoma",
+  "text": "Glaucoma is a leading cause of blindness, and all current treatments for glaucoma aim to reduce intraocular\npressure (IOP). However, these treatments remain inadequate, largely because the underlying causes of ocular\nhypertension in primary open-angle glaucoma are not well understood. In this project, we will investigate the role\nof ezrin, a mechano-responsive protein that links the plasma membrane to the actin cytoskeleton, focusing on\nezrin’s involvement in transcellular pore formation, substrate stiffness mechanotransduction, and modulation of\noutflow resistance and IOP."
+ }
+]

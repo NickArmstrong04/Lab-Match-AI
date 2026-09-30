@@ -1,0 +1,142 @@
+[
+ {
+  "id": "3da1589b-5b36-400d-9456-e2de93f04a42",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Modeling and manipulating transcription factor activities to shorten TB therapy",
+  "text": "Tuberculosis is the greatest source of global mortality from an infectious disease. This project uses systems\nbiology approaches to investigate how Mycobacterium tuberculosis (Mtb) transcription factor activities regulate\ndrug sensitivity. These insights will be used to diagnostically predict drug sensitivity profiles for Mtb clinical\nstrains, to uncover network crosstalk mechanisms underlying drug sensitivity, and to identify targetable\nvulnerabilities for improving drug treatment efficacy."
+ },
+ {
+  "id": "3da462db-ac08-48e1-9cfd-2f3d2cfa8015",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Regeneration of Complex Patterns in Plants",
+  "text": "The ability of an organism to regenerate damaged body parts is a highly useful property shared by a subset of\nplants and animals. Learning the core cellular properties that allow some organisms to regenerate will help us\nharness regeneration in contexts where it impacts human health and nutrition. The study examines\nregeneration in plants to reveal basic properties of one highly regenerative organism and to improve crop\nbiotechnology to meet the needs of human nutrition."
+ },
+ {
+  "id": "3da54954-d965-4d57-ba00-839b950a9bc2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular and Computational Dissection of Cold Nociception",
+  "text": "The perception of noxious thermal stimuli is often coupled to pain sensation as a protective mechanism, however,\naberrant temperature sensation can lead to neuropathic pain (e.g., in peripheral nerve injury; multiple sclerosis;\nfibromyalgia; stroke; and chemotherapeutic-induced peripheral neuropathy) where patients experience pain due\nto cold hypersensitivity. By uncovering basic biophysical, cellular, and molecular mechanisms of noxious cold\nperception, we develop critical insights into neural integration of painful/nociceptive stimuli providing potential\nroutes for understanding and treating neurological disease when this process is disrupted."
+ },
+ {
+  "id": "3da7ff82-8d49-4173-942f-4337c7136d60",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular mechanisms of myosin-X and filopodial function",
+  "text": "Myosin-X (Myo10) is a motor protein with key functions in the formation of finger-like cellular protrusions known\nas filopodia and it also has important roles in cell division. Our work shows that loss of Myo10 in mice results in\ngreatly increased frequencies of several birth defects including neural tube defects, eye defects, and webbed\ndigits; our work and that of others also demonstrates Myo10 is critical for cancer growth and invasion. All of\nthis makes it essential to understand the fundamental cell biology of Myo10 and filopodia."
+ },
+ {
+  "id": "3daea777-2885-473a-a450-e22341862443",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Adipose Tissue Core",
+  "text": "Abstract/Summary - ATC Adipose tissue is composed of a wide range of cell types (e.g. adipocytes, fibroblasts, stem cells, leukocytes) that control the ability of adipose tissue to store nutrients and regulate metabolism. Obesity leads to qualitative and quantitative alterations in all AT cell types that depends on location in the body, metabolic state, and sex. The fundamental role of adipose tissue expansion in obesity requires investigators access to the reagents, techniques, and assays to evaluate adipocyte size, adipose tissue inflammatory tone, lineage relationships between cell types, metabolic function, and single-cell molecular characteristics in pre-clinical mouse models as well as human samples. The high lipid content of adipose tissue and the challenges in tissue processing limit the broad application of rigorous adipose tissue assessments in research studies leading to many gaps in the field of obesity research. The Adipose Tissue Core (ATC) was established to address these gaps and has assisted a range of investigators to incorporate adipose tissue assessments in their conceptual models and experiments. The aims of the ATC are (1) To consult with and help investigators on rigorous experimental approaches to investigate how adipocytes and stromal-vascular cells develop, function, and interact with other cell types, (2) To provide access to specialized techniques required for rigorous evaluation of adipose tissue biology, (3) To provide investigators with tissues, cells, databases, state-of-the-art assays, histological and other equipment, and animal models to study adipose tissues, and increase experimental rigor and reproducibility, and (4) To develop and implement new technologies for MNORC investigators interested in adipose tissue. ATC services are provided with oversight from experts in adipose tissue biology to ensure rigorous and reproducible application of state-of-the-art approaches to assess adipose tissue function in mouse and human samples."
+ },
+ {
+  "id": "3daed342-c448-499c-9717-0e64b0617c50",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting the Immunosuppressive Tumor Microenvironment of Pancreatic Cancer with a Neoadjuvant Platform Clinical Trial",
+  "text": "This proposal defines the role of different immunotherapy approaches on the pancreatic adenocarcinoma\n(PDAC) tumor microenvironment (TME) leveraging clinical specimens from our ongoing neoadjuvant-adjuvant\nresectable PDAC platform study, our PDAC biorepository, and pre-clinical work. Our group has a rich history of\nsuccessfully leveraging our resectable PDAC platform study to provide critical insights into immune changes\nwith previously demonstrated T cell activation and expansion along with a trend towards improved relapse-free\nsurvival with our whole cell vaccine GVAX, anti-PD-1, and anti-CD137 agonism. In this proposal, we will\nelucidate the role of cancer immunization, immune checkpoint modulators, GDF-15 neutralization, and NOTCH\ninhibitors on the PDAC TME and survival outcomes using clinical and pre-clinical approaches."
+ },
+ {
+  "id": "3dbb76ba-7e4e-4324-9a55-c2c65fa35fb2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Bridging the Gap between Animal Models and Humans through Comparative Genomics and Machine Learning",
+  "text": "Understanding both genetic and epigenetic similarities and differences between animal models and humans will\nprovide unique insights into the gene regulatory programs underlying the molecular basis of human disease.\nThis proposal aims to develop computational tools to integrate single-cell multimodal omics across species, and\nimprove the current limitations in deciphering conserved regulatory codes by setting up explainable machine\nlearning models. By combining these approaches into software packages and knowledgebases, we seek to push\nthe boundaries of genome biology and medicine, especially to bridge the gap between the studies in animal\nmodels and human diseases."
+ },
+ {
+  "id": "3dbbb404-dd58-4bdd-a2d6-dfd74de8c1ae",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Biomedical Data Science Core (BDSC)",
+  "text": "(BDSC) The “Biomedical Data Science Core” (BDSC) was founded on July 1, 2020 in response to growing need for expertise in advanced biostatistics, bioinformatics and human subject research design to support the expanding portfolio of human and translational research being conducted by members of the Center for Molecular Studies in Digestive and Liver Diseases (CMSDLD). BDSC is the Clinical Core for CMSDLD. Prior to this time, some of the services related to the BDSC were encompassed in the Host-Microbial Analytic and Repository Core (H- MARC). When these services were initially conceived of as part of the H-MARC, the focus was principally on analysis of microbiome data. However, the scope of research among CMSDLD members has evolved dramatically in the last 5-10 years, now including multiple omics domains. These different types of high- dimensional data require unique analytic approaches. The BDSC has expertise in analyzing each of these data types, thereby bringing an efficient solution to the diverse needs of the CMSDLD investigators. Additionally, while the CMSDLD was founded to focus on molecular aspects of digestive and liver diseases as studied predominantly in small animal models, there has been increased focus on human subject research. The BDSC provides consultation and research support services for investigators wishing to pursue human subject and translational research. The evolution from animal models to human subject research is consistent with the overall goals of the CMSDLD to conduct research with the potential to impact human health along the theme of host- environmental interactions in digestive and liver disease research from bench to bedside. The BDSC is directed by Hongzhe Li, PhD, Professor of Biostatistics and co-directed by James D. Lewis, MD, MSCE, Professor of Medicine and Epidemiology. Together, they bring decades of experience in research related to gastrointestinal and liver disease, with specific expertise in applied and theoretical biostatistics, and human subject research design, implementation and education. Moreover, although this is a newly created core within the CMSDLD, Drs. Li and Lewis have a long track record of collaborating together and with other members of the CMSDLD. The core services to be provided by the BDSC include: (i) providing consultative services to support the design and analysis of clinical and translational research, (ii) supporting the use of clinical and translational research databases and (iii) providing biostatistics and bioinformatics support including standard and customized analytics. Together, these services are designed to increase the quality and efficiency of CMSDLD investigators’ research and facilitate the continued evolution of CMSDLD’s focus on translational research."
+ },
+ {
+  "id": "3dc36eea-4321-451f-b54e-b1de99af5552",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Engineering extracellular vesicles for therapeutic receptor activation",
+  "text": "PROJECT NARRATIVE/PUBLIC HEALTH RELEVANCE STATEMENT\nThis proposal aims to engineer the membrane of extracellular vesicles as a means to systemically present\nspecific ligands that can restore cellular function after tissue damage due to inflammation. Success of the\nproposed studies will lead to a new nanotechnology platform that can be broadly used to promote tissue repair\nand regeneration."
+ },
+ {
+  "id": "3dc921bf-64cc-4b93-9b56-b5ba639b4fbd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Precision use of radiation for in situ cancer immunization",
+  "text": "The overarching goal of this project is to identify new ways to make cancer cells more immunogenic and\nincrease immune-mediated tumor rejection. Radiation therapy can induce anti-tumor T cells and increase\nresponses to immune checkpoint inhibitors in preclinical tumor models and in some patients, but it remains\nunclear how to predict which patient will respond. Here we propose to test the hypothesis that the tumor p53\nmutational status, by regulating innate immune sensing of misplaced DNA, is a key determinant of the ability\nof radiation therapy to enhance responses to immune checkpoint inhibitors."
+ },
+ {
+  "id": "3dce1483-48ca-45e4-b18b-6cafbbd12889",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Allele Specific Knockdown for LGMDD1",
+  "text": "The limb girdle muscular dystrophy (LGMD) gene therapy field is focused almost entirely on recessively\ninherited disorders, leaving dominantly inherited LGMDs far behind in the path towards a cure. This project\naims to develop allele specific knockdown using siRNAs as a therapy for LGMDD1, a disabling dominantly\ninherited myopathy, lacking any treatments. LGMDD1 is only one of several disorders amenable to the\ntreatment strategies described in this proposal."
+ },
+ {
+  "id": "3dd22b31-48f7-48bb-978f-29166d647e5c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Next generation in-vivo diffusion imaging at submillimeter resolution",
+  "text": "Diffusion MRI (dMRI) has contributed immensely to our understanding of the white matter structure at large-to-\nmedium spatial scales, and more recently towards smaller structures, particularly in the cortical and subcortical\nregions, as submillimeter dMRI is starting to become more feasible. Nonetheless, further increase in resolution\nis required to move dMRI to the mesoscopic scale, to improve sensitivity to small but important brain\nmicrostructural features and provide improved capability for many current clinical and neuroscientific\ninvestigations and open doors to entirely new ones. In this proposal, we aim to develop imaging technologies to\nallow mesoscale dMRI and extend our development to enable mesoscale joint diffusion-relaxometry MRI with\nrich information, to improve tractography’s robustness and enhance capability to extract detailed microstructural\ninformation. Optimized protocols will be developed for high-end clinical 3T MRIs to enable wide deployment of\nour technology, and on high-performance head-only 3T MRIs to enable neuroscientific explorations at the limit."
+ },
+ {
+  "id": "3dd92364-048b-4082-87b6-156ee0be446c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Academic-Industrial Partnership to Develop Clinical Tools for Algorithmic Irreversible Electroporation of Inoperable Tumors",
+  "text": "Relevance to Public Health\nWhile there have been many advances in the treatment of liver cancer over the past half century, approximately\n85% of patients with this disease will die within five years of diagnosis. Algorithmically controlled electroporation\n(ACE) is a new cancer therapy which uses ultrashort electrical pulses designed for the treatment of inoperable\nliver cancers. This Academic-Industrial Partnership proposal aims to develop the instrumentation and protocols\nnecessary to translate ACE to the clinic and demonstrate the safety, efficacy and reproducibility of the treatment\nin a relevant spontaneous large animal model of disease."
+ },
+ {
+  "id": "3dd9c9de-6625-40c7-9f46-6504742d90d5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Reliability and validity of temporal response function modeling in aphasia",
+  "text": "Auditory comprehension deficits are pervasive in stroke-induced aphasia, yet there are few tools\nthat can be used to precisely identify the source of these deficits within the speech and\nlanguage system. The proposed study has the potential to improve characterization of auditory\ncomprehension in aphasia by examining the validity and test-retest reliability of an objective\ntool, temporal response function (TRF) modeling. Establishing the validity of TRF-derived\nmeasures will build confidence in their ability to assess auditory comprehension, whereas\nknowledge of normal variability across sessions for TRF-derived measures will help researchers\nto make informed inferences about treatment-related outcomes or spontaneous recovery so that\ntest-retest variability is not mistakenly taken to reflect meaningful change."
+ },
+ {
+  "id": "3ddd1640-add1-4e22-9fa8-55cf6605e940",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "DPT-PhD in Bioengineering Training Grant (T32)",
+  "text": "Americans are living longer with chronic diseases and the resulting pain, mobility limitations and\nreduced quality of life arising from them, necessitating novel approaches to managing these\nconditions. The disciplines of physical therapy and bioengineering have matured to a state\nwhere the application of engineering principles to understand and develop rehabilitation\nassessments and interventions will advance societal health. The proposed program will provide\nintegrated physical therapy and bioengineering research training to students with the goal to\ndevelop clinician-scientists who are uniquely able to identify the appropriate clinical questions\nand provide engineering solutions to the questions."
+ },
+ {
+  "id": "3de15417-0f8d-4fba-82c9-46d50b022af5",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Training Program/Rheumatic Diseases",
+  "text": "The Penn/CHOP Training Program in Rheumatic Diseases will continue to provide the infrastructure and\noutstanding opportunities required to develop the next generation of physicians and scientists prepared to\naddress the need to close our knowledge gaps about basic pathophysiology, diagnosis, epidemiology, outcomes,\nand treatment of rheumatic diseases in all their manifestations. The program’s goal is to provide a rich, multi-\ndisciplinary, multi-modal training environment to support the success of developing trainees toward becoming\nindependent scientists dedicated to research in Rheumatic Disease. This program builds upon many decades\nof success by the Penn/CHOP Adult and Pediatric Rheumatology Divisions in training leading researchers in\nRheumatology and this program’s outstanding achievements during its initial cycle of funding."
+ },
+ {
+  "id": "3de4c73c-83bb-4004-a158-3eb884a67a01",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting DYRK2 to eradicate leukemia stem cells in chronic myeloid leukemia.",
+  "text": "Chronic myeloid leukemia is a devastating blood cancer currently treated with tyrosine kinase inhibitors for a\nlifetime because most patients relapse upon treatment discontinuation. The main goals of this project are to\nunderstand how the kinase DYRK2 abrogates self-renewal and survival of leukemia stem cells and to identify\ndrugs that can stabilize DYRK2 protein and eradicate leukemic stem cells in frontline therapies, which will allow\npatients to achieve the clinical milestone of cure or treatment-free remission."
+ },
+ {
+  "id": "3deaba29-eb5e-4018-93e3-e5e01215a4aa",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Clonal Hematopoiesis in the Women's Health Initiative",
+  "text": "Clonal hematopoiesis of indeterminate potential (CHIP) is a common, aging-related condition in which cells\nundergo somatic mutations that lead to overgrowth (“clones”) of a genetically distinct subpopulation of blood\ncells. This project will lead to improved insight into genetic and environmental risk factors for CHIP and the role\nof CHIP as a risk factor for various aging-related chronic diseases including heart failure."
+ },
+ {
+  "id": "3deb0092-3eff-486a-b82c-ee759eb50ca2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Nanobody-mediated proteolysis of Aspergillus fumigatus transcription factors in vitro and in vivo",
+  "text": "Aspergillus fumigatus is the major human filamentous fungal pathogen, with a mortality\napproaching 90% during infections caused by drug resistant forms of this fungus. This\nwork will focus on the transcriptional control of virulence in A. fumigatus by using a\nnewly developed system that can trigger proteolysis of selected factors in a time-\ndependent manner. No technology for selective proteolysis of A. fumigatus proteins is\ncurrently available and this application will provide a valuable new experimental tool for\nstudy of pathogenesis."
+ },
+ {
+  "id": "3deb0929-a9e6-43d7-b8da-5f4e2378dcde",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Characterizing Pathogen-Mediated Production of Secondary Metabolites in the Human Aerodigestive Tract Microbiome",
+  "text": "Antibiotics are critical therapeutics for modern medicine, but their frequent misuse has led to the emergence of multidrug-resistant organisms and can perturb the endogenous microbiome, providing opportunities for secondary infection by opportunistic pathogens. The long-term goal of this work is to develop novel therapeutics that are “microbiome safe” by determining how antibiotics and other bioactive secondary metabolites (SMs) mediate interspecies interactions between commensal bacteria and pathogens in the human microbiome. The overall objectives in this application are to (i) assess how co-culture with niche-specific pathogens shapes secondary metabolism in commensal bacteria from the human aerodigestive tract (ADT) and (ii) isolate and identify SMs with antibiotic activity against pathogens. The central hypothesis is that bacteria in the ADT modulate their secondary metabolism in response to invading pathogens and produce antibiotics that benefit the host and microbiome. The rationale for this project is that metabolites produced by symbiotic bacteria are likely to have been evolutionarily selected for narrow-spectrum activity and to not exert toxic effects on the host or microbiome. Such metabolites will become leads for the development of new therapeutics. The central hypothesis will be tested by pursuing two specific aims: 1) Assess how pathogen exposure changes secondary metabolism in commensal ADT bacteria; and 2) Isolate and characterize bioactive SMs produced by ADT bacteria using genetics and genomics. Under Specific Aim 1, select bacterial genera that have been previously shown to be rich in biosynthetic gene clusters (BGCs) for SM production will be cultured from nasal and oral specimens. Co-culture bioassays and comparative metabolomics will be used to assess how exposure to either ecologically relevant or general pathogens changes SM production in these bacteria. For Specific Aim 2, the genomes of ADT bacteria that inhibit pathogens in vitro will be sequenced to identify their encoded BGCs. Then, BGCs associated with bioactivity against pathogens will be identified using comparative genomics and systematically disrupted. After comparing the metabolite production of ADT bacteria and their isogenic BGC mutants, molecular features responsible for antibiotic activity will be identified and purified. Mass spectrometry and nuclear magnetic resonance spectroscopy will be used for structural elucidation of these compounds. The research proposed in this application is innovative because it departs from current approaches to drug discovery and instead focuses on ecologically relevant interactions to reveal fundamental biology and chemistry of human ADT microbiomes. The proposed research is significant because it could lead to the discovery of new SMs that can be developed into narrow-spectrum antibiotics that specifically eliminate pathogens. Ultimately, ecologically inspired screening of the human microbiome may represent a new and fruitful strategy for drug discovery."
+ }
+]

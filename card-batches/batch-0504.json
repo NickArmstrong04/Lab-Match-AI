@@ -1,0 +1,142 @@
+[
+ {
+  "id": "26e3ae4a-23d5-4505-bc5b-914d3adb9a0a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Elucidating the synaptic interactome of the high risk autism gene ANK2",
+  "text": "Network analysis suggests that high confidence autism spectrum disorder (hcASD) genes operate\nthrough convergent mechanisms that predominantly modulate chromatin remodeling or support\nsynaptic function, which in turn can determine anatomical and functional brain connectivity.\nHowever, how the proteins encoded by these genes interact physically and converge functionally\nhas not been fully elucidated. The studies we propose aim to determine the postsynaptic\ninteractome of ankyrin-B, which is encoded by the high confidence autism gene ANK2."
+ },
+ {
+  "id": "26e5ce26-500d-409c-a201-f925c77bc4e2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Modeling age-specific computational strategies during reward seeking",
+  "text": "Adolescence is characterized by increased motivation to seek rewarding stimuli. Several mental illnesses with\naberrant motivational processes emerge during this time but there is a fundamental lack of mechanistic\nunderstanding of how adolescents encode reward-related behaviors, and whether adolescent-specific\ncomputations convey elevated risk for psychopathology. The proposed project seeks to characterize how\nneural networks in adults and adolescents differentially guide motivated behaviors and the relationship\nbetween these differences."
+ },
+ {
+  "id": "26ecd85f-4e47-4de7-b357-beb25bab7107",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Systematic integration of variant interpretation tools into genetic and genomic risk prediction",
+  "text": "Machine learning-based predictors trained to distinguish between pathogenic and benign genetic variants have\nbecome an integral part of causal variant discovery and clinical variant classification. However, they have\nfound limited use in genetic and genomic disease risk estimation, largely because the scores they output are\nnot directly interpretable as disease risk, thus, making them inconsistent with current practices in genetic and\ngenomic medicine. The objective of this study is to develop rigorous computational and statistical frameworks\nfor the integration of variant pathogenicity predictors into the calculation of disease risk from single genes and\nwhole genomes in a manner that is compatible with medical guidelines, accurate and clinically useful."
+ },
+ {
+  "id": "26f6498e-2d98-463f-ad67-3340d110c18b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Systematic identification of cardiotoxic e-cigarette flavorants",
+  "text": "Electronic cigarettes (e-cigs) aerosolize a mixture of chemical solvents, flavor additives and nicotine, and\ninhalation of the resultant aerosol by e-cigarette users has unknown effects on the heart. In this project, we will\nexamine how specific flavoring chemicals that are inhaled during e-cigarette use impact the function of mouse\nand human heart cells and tissues. Ultimately, this study will advance knowledge of the toxicity of e-cigarettes,\nwhich will direct new regulation of e-liquid constituents based on their potential for adverse effects on the heart."
+ },
+ {
+  "id": "26f819a5-ce12-4d89-bbb8-5791802b543d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "An image-guided immunotherapy and hyperthermia delivery device to overcome barriers to tumor immunity for advanced hepatocellular carcinoma",
+  "text": "The proposed research is relevant to public health because it addresses a novel\ntreatment strategy for hepatocellular carcinoma (HCC), the third most common cause of\ncancer-related death worldwide. The proposed research is relevant to the NCI’s mission\nof supporting research with respect to the treatment of cancer."
+ },
+ {
+  "id": "26fde223-b6b2-47b4-98b9-4a15dd220ec9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting methylglyoxal-induced diabetic neuropathic pain through the integrated stress response",
+  "text": "Our work is aimed at gaining a better understanding of molecular events that drive diabetic\nneuropathic pain and then using this knowledge to identify new molecular targets for diabetic\nneuropathic pain treatment. We have found a key stress signaling pathway surrounding mRNA\ntranslation that regulates nociceptor excitability that occur in diabetic neuropathy. The combined\nuse of pharmacology, genetics, and next generation sequencing technologies across mouse,\nrat, and human model systems in our project will give unprecedented insight into mechanisms of\ndiabetic neuropathic pain and will identify novel therapeutic opportunities to treat this highly\nprevalent and exceedingly difficult to manage disorder."
+ },
+ {
+  "id": "26fed409-2ac7-40bb-b394-4b4b8de4a991",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Michigan Translational Imaging Program (M-TIP)",
+  "text": "The Michigan T32 Translational Imaging Program (M-TIP) will establish an innovative mixed MD and PhD\npostdoctoral training program led by the Department of Radiology, in conjunction with multiple clinical,\nengineering and science departments (including Biomedical Engineering, Electrical Engineering, Obstetrics\nand Gynecology, Orthopedic Surgery, Psychiatry, Radiation Oncology, and Urology), at the University of\nMichigan (UM). Leveraging UM’s outstanding resources in medical education, world renowned NIH-funded\nlaboratories in basic, translational, and clinical research, and a diverse pool of highly experienced mentors, we\nwill recruit basic science postdoctoral fellows and clinical residents and fellows who are passionate about\nimaging research to M-TIP. These mentees will work with both PhD and MD mentors on cutting edge and\nclinically relevant translational imaging projects and participate in interactive sessions focusing on technical\naspects of imaging, communication, collaboration, and research ethics, with the ultimate goal of developing\nfuture leaders in translational imaging to advance health and outcomes for patients."
+ },
+ {
+  "id": "270027cb-4ddd-4a60-80fa-c1c2b69e6b67",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "CRCNS: Computational principles of mental simulation in the entorhinal and parietal cortex",
+  "text": "Mental health depends critically on the capacity to simulate structural relationships in the environment. Surprisingly however, little is known about the underlying brain mechanisms of mental simulation. Our work aims to deepen our understanding of the computational principles and neural mechanisms of mental simulation. This knowledge would benefit the future development of rational diagnostics and therapeutics for mental health problems related to inference, prediction, and planning."
+ },
+ {
+  "id": "2701a00b-3207-497a-b691-1336b3e9f23a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Resource Development Core",
+  "text": "KIDNIT (Kidney Imaging: Developing Novel and Innovative Tools) is the Pittsburgh Center for Kidney Research’s Resource Development Core. Working in collaboration with kidney investigators and the Center’s Physiology and Model Systems Core, KIDNIT will build and adapt cutting-edge light, super-resolution, and electron microscopic imaging modalities and technologies to address open questions related to kidney function and dysfunction. The broad and long-range goals of KIDNIT are as follows: Aim 1 is to nurture a dynamic incubator space for imaging tool development. KIDNIT will capitalize on the resources provided by the Center for Biological Imaging (CBI), one of the largest imaging facilities in the country. The CBI has a dedicated expert faculty, a large cohort of research technicians, and a vast array of imaging equipment including over 40 contemporary widefield, confocal, two-photon, TIRF, light-sheet, super-resolution, and electron microscopes. Aim 2 is to develop new and custom-made imaging resources, tools, and technologies specifically to augment and advance kidney research. KIDNIT will leverage the CBI’s faculty expertise to develop, adapt, and implement new imaging tools for kidney researchers. Example projects in development include novel clearing and 3D imaging protocols to reveal and quantify kidney architecture and function at the level of the entire organ; analyzing collagen organization and structure in normal and fibrotic tissues using a recently developed variant of polarized light microscopy (instant polarized light microscopy; iPOL); development of new protocols that employ fluorescent lifetime imaging and fluorescent energy transfer to rapidly assess kidney cell function and responses to extracellular cues; use of high throughput platforms to perform large-scale screening of organoid form and function; and development of novel microfluidic chambers. Mechanisms are in place to ensure training and information transfer. Aim 3 is focused on ensuring robust validation and quality control of new resources. An example is a validated antibody collection that can be used to assess differentiation, injury, and repair status of kidney cells and tissues. Aim 4 is to collaborate with the Consortium to prioritize, suspend, or implement new and improved imaging resources. Working in collaboration with the Consortium, KIDNIT will replace obsolete technologies by leveraging its ties with industry leaders, along with a strong track record of S10 funding, to offer the most recent developments in microscopy, specifically to advance the research of our investigator collective. Impact: KIDNIT will advance kidney research by providing Center and Consortium investigators with novel and bespoke imaging tools that will provide critical information about the location, dynamics, amounts, and function of kidney-associated molecules, organelles, cells, and tissues in normal and disease states."
+ },
+ {
+  "id": "2701fdf3-46a2-4cea-b3f3-57030f0cc474",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cellular-molecular regulation of isoform-dependent tau dysfunction in Alzheimer's disease",
+  "text": "Hyperphosphorylation of microtubule (MT) associated protein Tau is tightly correlated with Alzheimer’s disease\nprogression; however, studies of isoform-specific effects of Tau function and dysfunction are largely unexplored.\nI discovered that phosphorylation differentially regulates adult and fetal Tau isoforms: Tau isoforms have distinct\nphosphorylation patterns in neurons, and specific phosphorylation sites impact Tau-MT interactions in an\nisoform-dependent manner. I uniquely propose to use high-throughput pooled optical CRISPR screening and\nCRISPR prime editing to contrast the effects of Tau phosphorylation (AIM 1) and regulators of Tau-MT\ninteractions (AIM 2) on its function and dysfunction between fetal and adult Tau isoforms, thus providing insight\ninto both loss-of-function and toxic gain-of-function mechanisms in Alzheimer’s disease and other related\ndementias."
+ },
+ {
+  "id": "27030f30-02b9-4303-a92c-f7054be0db3d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project 1: Targeting Tumor Phospholipase PLA2G10 for Cancer Immunotherapy",
+  "text": "PROJECT 1: NARRATIVE\nTo expand the understanding and reduce the mortality of non-small cell lung cancer, we will conduct\nmultidisciplinary research to investigate the biological role, clinical significance, and therapeutic potential of\ntargeting PLA2G10-mediated T-cell exclusion."
+ },
+ {
+  "id": "27061fdb-6bf6-4a04-bdeb-1fc9e91c653c",
+  "want_sentence": false,
+  "want_terms": true,
+  "title": "Blood-based early detection of viral precancers",
+  "text": "Blood-based (liquid biopsy) cancer screening holds enormous promise to decrease cancer morbidity and mortality, yet\nexis�ng approaches do not reliably detect the earliest stages of disease, when beneﬁt would be greatest. This proposal\nintegrates two novel approaches to address a cri�cal unmet need in blood-based cancer screening– the detec�on and\nclassiﬁca�on of precancers. Successful comple�on of the work in this proposal would lead to a new cancer screening\napproach with the poten�al to improve survival and quality of life for 5% of all cancer pa�ents."
+ },
+ {
+  "id": "27093c2c-d85b-4bea-a01f-9b3b7bf3a26d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "3D Bioprinted Nipple-Areolar Complex Implants",
+  "text": "Over 100,000 women in the United States undergo mastectomy procedures each year due to breast cancer, resulting in total loss of breast tissue. One of the key traits of a patient's breast tissue that is often neglected in reconstruction is the nipple areolar complex, and currently there is no clinically viable solution for its reconstruction or regeneration. The long-term goal of this work is to develop a personalized, bioresorbable nipple areolar complex that will provide patients with the shape of a native nipple projection."
+ },
+ {
+  "id": "270d83a5-8133-4107-9921-72bb4c088c40",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Decoding Ion Coupling and Design Principles of Secondary Active Transporters",
+  "text": "Cells require molecular machines called transporters to shuttle various substances in and out of cells, including\nneurotransmitters, drugs, ions, sugars, and other metabolites crucial to life. How transporters operate is guided\nby their inner workings, which are not well understood. Our proposed research uses interdisciplinary, evolution-\nguided approaches to pinpoint these areas in a model family of neurotransmitter transporters, which will lead to\ndeeper insights as to how the physiologically essential process of membrane transport works."
+ },
+ {
+  "id": "27116e86-bc31-463f-91f4-204c0156ba36",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Duke University Superfund Research Center - Developmental Co-Exposures: Mechanisms, Outcomes, and Remediation",
+  "text": "Public Health Statement / Narrative\nThe Duke University Superfund Research Center (DUSRC) will study the impacts of multiple contaminant\nexposures in humans and ecological models of neurodevelopmental health, elucidate neurotoxic mechanisms\nthat occur from these co-exposures, and develop novel remediation and treatment strategies that target the\nhighest risk contaminants without increasing the risk of other contaminants. Our work will provide key data and\ninformation needed to improve public health guidance and environmental clean-up goals to effectively mitigate\nthe negative health consequences of co-exposure to hazardous chemicals."
+ },
+ {
+  "id": "2712b782-63fb-4315-b02e-35d36b2aabf6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "TRD3: Intelligent Physics-Driven Technologies for Inverse Problems in UHF Applications",
+  "text": "Image reconstruction has been an integral part of MRI technology development over the past decades, spanning techniques such as parallel imaging, compressed sensing, low-rank matrix models, methods for novel encoding strategies/k-space trajectories, and more recently deep learning (DL) approaches. Our TRD in the first phase has been at the forefront of these developments, introducing multiple new technologies for improved DL reconstruction and training, interpretable image denoising, and fast iterative algorithms, which were applied to Cartesian, non-Cartesian and novel encoding strategies beyond Fourier encoding. These new MRI reconstruction methods have also pushed the imaging technologies in other TRDs, CPs and SPs forward to target higher resolutions and acceleration rates at lower signal-to-noise ratios (SNR), as well as to combine information across multiple nuclei or even modalities. Consequently, these targets necessitate newer technologies for image reconstruction and denoising, an interplay with image acquisition, and new approaches for multi-nuclei and multi-modal computational imaging. Each of these directions correspond to a specific inverse problem with its own distinct forward operator dictated by the underlying imaging physics. Our goal in this TRD is to link these inverse problems through the lens of intelligent physics-driven technologies that synergistically utilize imaging physics and advances in DL methods. For accelerated high- resolution imaging, which remains a focal point for our TRD, we will develop a new computational imaging pipeline that explicitly combines interpretable denoising methods and physics-driven DL reconstruction. These will be complemented by new technologies for improved denoising of MR image series, and for self-supervised training of physics-driven DL reconstruction from few examples without ground-truth data. On the acquisition side, we will concentrate on parallel transmit technology for UHF imaging. We will tackle issues related to the high computational complexity and sub-optimality of existing methods by proposing an unsupervised DL approach. We will then augment this strategy by incorporating hard constraints on maximum voltage, power and specific-absorption-rate into DL optimization. We will further investigate new classification-type strategies for pulse selection towards calibration-free parallel transmit. Finally, we will also pursue developments for multi-nuclei MRI and multi-modal neuroimaging. For the former, we will develop a physics-driven DL framework for joint reconstruction of simultaneous/interleaved multi-nuclei acquisitions, using signal intensity informed multi-coil encoding operators and an additional cyclic loss term to ensure consistency across the different proton and x-nuclei resolutions. For the latter, we will adapt our interpretable motion-insensitive denoising strategies to optical imaging, incorporating new forward operators and noise models, while decoupling motion correction from denoising."
+ },
+ {
+  "id": "271a3529-2caf-4b1b-b5cd-0f1821a750e1",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Cancer Immunology and Immunotherapy Program",
+  "text": "Cancer Immunology and Immunotherapy Program: Summary/Abstract The overarching scientific goal of the Cancer Immunology and Immunotherapy Program (CII) is to advance the understanding of the interplay between the immune system and cancer to discover new strategies for immune- based immunotherapies and to mitigate therapeutic resistance. Overall, CII Program research has led to advances in the understanding of the molecular basis for immune cell recognition of tumors, evasive mechanisms evolved by tumors to escape immune surveillance, how the microenvironment influences the immune response to cancer, and technological advances in genetic engineering of T cells for adoptive cell therapies. The CII Program is a new program since the prior competing renewal. The HDFCCC-wide realignment of research programs enhances opportunities for direct interaction between discovery scientists and clinical investigators within the CII Program and between programs. Research strengths of members include expertise in immunology, immunotherapy, the tumor microenvironment, cellular therapy, and immune therapeutic resistance. The CII Program provides a unique opportunity to address issues related to disparities in the catchment area in leukemia, multiple myeloma, lymphoma, melanoma, and lung cancer, with special attention placed on understanding differences in the overall clinical responses as well as access to novel immunotherapies in this diverse population. CII members are therefore positioned to translate HDFCCC discovery science into the clinic, and to bring clinical observations back to HDFCCC laboratories. Specifically, CII members conduct research to (1) define the mechanistic interplay between cancer and the immune system, (2) advance therapeutic interventions to improve outcomes with cancer immunotherapy, and (3) identify mechanisms of resistance to cancer immunotherapy."
+ },
+ {
+  "id": "271db351-b48b-412b-8ea1-9d4d61dfc05c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Suprachiasmatic nucleus to kisspeptin circuit in the circadian control of reproduction",
+  "text": "Circadian timing of the preovulatory surge in GnRH and LH secretion is critical in regulating ovulation and\nreproductive success in rodents as well as, possibly, in women. This proposal will provide new knowledge of\nthe neural circuits that govern the circadian activation of kisspeptin neurons – a cell population essential for the\npreovulatory surge under physiological conditions. This research, when completed, may provide the foundation\nfor future opportunities in treating ovulatory dysfunction."
+ },
+ {
+  "id": "27221fe4-b326-4d70-b991-59a54231f6c9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A biochemical approach towards subcellular, label-free molecular imaging",
+  "text": "The proposed study is highly relevant to public health as it introduces a new label-free molecular imaging\nmodality capable of spatially mapping intact biological and clinical samples at subcellular resolution. This new\napproach will allow for investigation of subcellular anatomy and pathology with conventional mass\nspectrometry instrumentation. Furthermore, it will enable multiplexed analysis of biomarkers as well as high-\nprecision diagnosis of diseases in existing laboratories."
+ },
+ {
+  "id": "27286665-81b7-4bf9-bad1-034f70d8fcd4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Structure and Function of Essential Nucleoprotein Complexes Along a Viral Genome Packaging Pathway",
+  "text": "The large double stranded DNA viruses, including herpesviruses and many bacteriophages which\nare directly responsible for antibiotic drug resistance, bacterial evolution and the ecology of the\nhuman microbiome, package their DNA into a capsid shell using a terminase enzyme. We\npropose studies designed to probe the essential features of genome packaging in these viruses,\nmany of which play major roles in human health, morbidity and mortality. The results of this\nresearch will provide a better understanding of virus development a may reveal new targets for\nnovel anti-viral therapeutics."
+ }
+]

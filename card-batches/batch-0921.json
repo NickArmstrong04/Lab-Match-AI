@@ -1,0 +1,142 @@
+[
+ {
+  "id": "bce26475-6668-4fc8-8ed9-58acb0faf946",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Tumor cell metabolism in action",
+  "text": "Tumors obtain most of their nutritional support for growth from normal tissues of the body through the circulating\nblood supply, yet what these nutrients are is not clear. Recent evidence suggests that nutrient scavenging\npathways of normal tissues in the body contribute nutritional support for tumors, but this is also poorly\nunderstood. We propose to define tumor cell metabolism in action, identify nutrients provided by the body that\nare critical for the growth of lung cancers, and to determine their role in tumor growth and anticancer immune\nresponses as a novel approach to the eradication of these deadly cancers."
+ },
+ {
+  "id": "bced2ddb-5ca9-41ae-9c2e-32ac8ce4b38f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating the role of mitochondrial dysfunction in the pathogenesis of retinal vascular diseases",
+  "text": "Mitochondrial dysfunction is involved in the pathogenesis of the major blinding retinal diseases such as diabetic\nretinopathy and age-related macular degeneration, but study on mitochondria in retinal vasculature is limited.\nWe will employ genetic, biochemical, cell biology, microscopy imaging and single cell transcriptome analyses to\ndefine the common angiogenic and metabolic pathways regulated by three mitochondrial proteins with distinct\nfunctions. Successful completion of the proposed aims will facilitate our understanding of the molecular\nmechanisms and pathogenesis involved in vascular diseases in the eye, and help in defining more effective\ntherapies.\n1"
+ },
+ {
+  "id": "bcf3dee8-37f6-4e19-9ddc-77287f8159b8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Decoding ensemble dynamics from cortico-amygdalar circuits during social choice",
+  "text": "Social context and resulting social choices are key features of health whose neural circuitry are\nnot well understood. We will combine systems neuroscience tools with new machine learning\napproaches to interrogate anterior cingulate projections to the amygdala and nucleus accumbens\nduring a novel rodent social choice paradigm. Given MDMA's impact on social reward, we will\nalso test the impact of MDMA paired social exposure on social choice during our paradigm."
+ },
+ {
+  "id": "bcf6e40b-12aa-40dc-a1fb-77583661fbbf",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Bioinformatics",
+  "text": "The Bioinformatics shared resource (BiSR), serves as a centralized resource for expertise in applied and theoretical cancer bioinformatics, genomics, computational biology, mathematical modeling, machine learning, single-cell and spatial transcriptomics, and statistical genetics. The BiSR supports DCI members across the continuum of research, including experimental and statistical design for genomic studies, complex genomic data management, integration of broad data sets, computing and statistical analysis, and machine learning. The BiSR provides support for investigator-generated data as well as retrospective data from research databases (e.g., GDC which includes large datasets like TCGA, or dbGaP). The resource’s mission is to provide high-quality, service-oriented, coordinated, and cost-efficient bioinformatics support and infrastructure for DCI members. Emphasis is placed on facilitating increased collaborations across all seven DCI research programs. The mission of the BiSR is accomplished within the framework of adherence to three principles: 1. sound data provenance and statistical principles, 2. literate programming, and 3. reproducible analysis. The BiSR develops and utilizes standardized genomic analysis pipelines (e.g., germline, tumor, and cell-free DNA-Seq, bulk and single-cell RNA-Seq, ATAC- and ChIP-Seq, sequencing of T and B cell receptors (TCR/BCR), and shotgun and 16S bacterial sequencing). These pipelines are constructed on the basis of state-of-the-art published tools, maintained under strict source code version control, and executed within containerized software environments so as to extensible and scalable on local servers, university clusters, and cloud computing environments such as Amazon Web Services (AWS) and Microsoft Azure. It is the philosophy of the BiSR that the scope of scientific discovery and rigor should neither be limited nor compromised due to lack of appropriate and adequate statistical methodology or computational tools. When needed and appropriate, the faculty and staff of the shared resource are able to extend or revise existing methods or develop de novo computational tools to enable DCI members to address scientific questions with requisite rigor and efficiency. The BiSR provides extensive support for writing of scientific abstracts, manuscripts, and grant proposals. The BiSR also serves as a liaison and facilitator between DCI members and other DCI shared resources including BSR, SGT, MCF, DIPC, FG and BRPC. The research support, services, and resources of the BiSR are provided exclusively to DCI members. In the last reporting period, the BiSR provided services to 90 DCI members across all seven DCI Research Programs, accounting for 100% of total usage. Use of this shared resource by DCI members contributed to 166 publications over the project period, 34 of which were in high impact journals, demonstrating the value of services offered by the resource."
+ },
+ {
+  "id": "bcfb740a-d357-406a-adc3-72063d4cfb62",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A High-Performance Instrument for Brain Imaging in Combination with Whole Body PET-CT for Oncology",
+  "text": "A high-performance brain PET scanner will be developed to be integrated with a total-body PET/CT\nscanner to enable simultaneous imaging of the brain-body or to operate as a stand-alone device for\nbrain-only imaging. The new instrument will serve a wide range of applications to study, diagnose, and\ntreat oncologic disease in the brain and body with an emerging selection of new targeted radiotracers."
+ },
+ {
+  "id": "bd04ab91-94d4-4233-806f-37284a481bf0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "MBD4 Driven AR Reprogramming and Luminal Lineage Specification in Prostate Cancer",
+  "text": "Prostate cancer is the most common malignancy among men, largely driven by aberrant androgen receptor (AR)\nactivity that shifts from maintaining normal growth-suppressive programs to promoting oncogenic transformation.\nThis proposal will determine how the loss of MBD4 reprograms AR function through its interplay with factors\nsuch as FOXA1 to disrupt luminal lineage specification and drive the transition to aggressive prostate cancer.\nBy elucidating these mechanisms, the project aims to identify novel therapeutic targets that restore the growth-\nsuppressive activity of AR, ultimately informing the development of precision therapies to improve patient\noutcomes."
+ },
+ {
+  "id": "bd071911-ef76-4bb0-8cce-463f26d82e8d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Highly multiplexed tissue imaging with high-plex in situ signal amplification",
+  "text": "Mapping the key molecular building blocks (RNA and protein) of cancer cells in their spatial context in tissue is\ncrucial to depict the significant components that drive biological function and pathology. We propose to develop\na scalable imaging platform for highly multiplexed, rapid, visualization of protein and RNA in large volume tissue\nsamples at both cellular and molecular level."
+ },
+ {
+  "id": "bd0ac1e5-1328-4c85-97eb-2dd8af076383",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "NEI UCI Center Core Grant for Vision Research",
+  "text": "The present P30 application will provide research support for NEI R01-funded investigators and serve as\na catalyst for the major expansion of vision research currently under way at the University of California Irvine\n(UCI). Our objective is to establish three research cores plus an administrative group that will advance the\nresearch programs of individual investigators by providing state-of-the-art facilities together with outstanding\ntechnical support by the Core Managers. The research cores are: 1. Ocular microanatomy, 2. Visual function\nand non-invasive ocular imaging, and 3. Ocular mass spectrometry, lipidomics, and proteomics."
+ },
+ {
+  "id": "bd0f5fdb-9b18-4d8d-8ac5-e9196c75d21f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting post-fusion influenza hemagglutinin to make a better flu vaccine",
+  "text": "Every year, influenza virus infections cause tens of thousands of deaths and hundreds of thousands of\nhospitalizations in the United States. Licensed seasonal flu vaccines are rarely >50% effective, and require\nannual updates to provide protection against constantly evolving flu viruses, so better vaccines are needed.\nThis project will study how a new, experimental flu vaccine might outperform current vaccines by eliciting\nprotective antibodies that recognize all flu strains currently circulating in human populations, plus many pre-\npandemic strains that circulate in animal reservoirs."
+ },
+ {
+  "id": "bd122a7c-d88a-4b06-a26f-596364f093d3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of Type 2 Immunity in Innate Protection from C. difficile",
+  "text": "C. difficile is a CDC “Urgent Antibiotic Resistance Threat” as the number one hospital-acquired infection in North\nAmerica. Current therapy with antibiotics is inadequate, as relapse occurs in up to 20% and death in 6%. The\nproposed studies, by identifying how innate immunity protects, offer the promise of immunotherapy as an addition\nto current approaches to treatment and as a replacement for fecal transplant to prevent relapse."
+ },
+ {
+  "id": "bd13dc35-0447-4761-9d9e-8cca9ec1390c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating the effects of increasing O-GlcNAcylation in Alzheimer's disease",
+  "text": "Alzheimer's disease is a devastating, progressive neurodegenerative disease with few therapeutic options\navailable to delay memory impairment. The post-translational modification, O-GlcNAcylation, is a promising\ntherapeutic strategy since it can decrease accumulation of the pathological hallmarks, phosphorylated Tau\ntangles and amyloid-beta plaques. Using a transgenic rat model of Alzheimer’s disease, I will investigate\nwhether increasing O-GlcNAcylation can protect against damage to the noradrenergic system and reduce\nhippocampal gliosis and synaptic function in early stage of the disease."
+ },
+ {
+  "id": "bd149c2b-400c-414d-9cba-3fa63cf8a89d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Function of PD-1 Signaling on the Activity of B cells in the Tumor Microenvironment in Breast Cancer",
+  "text": "Immune checkpoint inhibitor therapy, such as PD-1 blockade therapy, has substantially improved the treatment\nof triple negative breast cancer but limitations persist. Investigating understudied components in the tumor\nmicroenvironment, such as B lymphocytes, could improve clinical outcomes and inform future therapeutic studies.\nOur preliminary data suggest that PD-blockade therapy could regulate the antitumor function of B lymphocytes,\nand additional investigation is needed to better understand this mechanism."
+ },
+ {
+  "id": "bd17e47b-15f0-480d-be6b-2244157dc302",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigation of the cell of origin and evolutionary trajectories of human glioblastoma",
+  "text": "Glioblastoma is the most common primary brain tumor in adults characterized by dismal prognosis and\nfew therapeutic options. Reconstruction of molecular events driving glioblastoma heterogeneity from the early\nsteps of tumorigenesis to advanced disease is essential to develop future meaningful clinical approaches. This\nproposal aims to generate pre-clinical models of glioblastoma to interrogate its evolutionary trajectories and\nputative cell(s) of origin in order to depict a comprehensive overview of disease progression, thus improving\npatients’ management."
+ },
+ {
+  "id": "bd1c63f6-11ff-45c8-af4b-a8db59a2b382",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Using instrumented everyday gait to predict falls in older adults using the WHS cohort",
+  "text": "Among community-living older adults, falls are a leading cause of injury, disability, injury-related death, and high\nmedical costs. Using data from the Centers for Medicare & Medicaid Services and data collected from over\n12,000 women enrolled in the Women’s Health Study who wore an accelerometer during waking hours for a\nweek, we will evaluate if metrics of daily living gait and physical activity inform the prediction of injurious falls."
+ },
+ {
+  "id": "bd1ec713-079a-4f5d-9a8b-1ecfaa24f456",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating Protein Complexes in the Interferon System",
+  "text": "Interferon is an important signaling protein that activates the inflammatory response to disease;\nindividuals with type-I interferonopathies, having overactive interferon signaling, commonly experience damage\nto their upper airway. Similarly, patients with severe respiratory infections often show heightened upper airway\ninterferon responses. First, we will apply a strategy to uncover how proteins interact with other proteins to\nregulate interferon-driven inflammation (Aim 1); then, lung models will be used to recreate the overactive\ninterferon signaling seen in patients with both type-I interferonopathies and severe respiratory infections (Aim\n2)."
+ },
+ {
+  "id": "bd24c1a4-15a0-4648-b77e-41d1067d3c62",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Interdisciplinary Training Program in Cardiovascular Disease",
+  "text": "Cardiovascular disease is the leading cause of morbidity and mortality in the US and worldwide,\nand there is a significant need for training a new generation of investigators in next-generation\ntechnologies to solve this complex disease. This Training Program will equip an elite group of\npre-doctoral and post-doctoral scholars to become the next-generation of scientists and physician\nscientists capable of discovering cures for Cardiovascular Disease"
+ },
+ {
+  "id": "bd28382c-1434-42c1-815b-053cdd4fe8ce",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of a robust HIV-1 diagnostic system (HIV-eCaDI) for at-home testing",
+  "text": "Simple and sensitive detection of viral load in patient blood samples at home is highly desired for detection of\nearly and rebound HIV infections, especially in individuals undergoing PrEP. The goal of this project is to\ndevelop a novel electrochemical diagnostic platform we call HIV-eCaDI (HIV Capillary Driven Immunoassay)\nthat can be used by PrEP patients to detect HIV p24 antigen at ~10 pg/ml concentrations at home in a rapid,\nsensitive, and user friendly format. HIV-eCaDI will be a valuable diagnostic platform for detecting acute HIV\ninfections and help patients closely monitor their HIV status in the privacy of their own homes."
+ },
+ {
+  "id": "bd2ac5c5-d315-4f27-87fd-17adfe9b352b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Manipulating nucleic acids: applications in RNA biosensing, single-molecule analysis, and DNA nanotechnology",
+  "text": "RNAs perform important regulatory functions that make them attractive as disease biomarkers, therapeutics, or\ntherapeutic targets. This project is aimed at developing user-friendly new technologies for the detection and\nanalysis of various RNAs. Ultimately, these simple and inexpensive techniques will accelerate the pace of\ndiscovery in RNA research to the benefit of human health."
+ },
+ {
+  "id": "bd2c3197-babf-4542-b540-87525d6084e1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Interferon Regulatory Factor 7 Links Interferon Pathway Activation to the Exaggerates Fibrotic Response in Systemic Sclerosis",
+  "text": "Systemic sclerosis (scleroderma) has prominent autoimmune and fibrotic features but their interplay is not well-\nunderstand. Herein, we characterize the role of Interferon Regulatory Factor 7 (IRF7) as a key link between\nthese two components which could represent a significant step forward in understanding the molecular basis of\nsystemic sclerosis. This additional insight into the disease mechanism can open the door for the development\nof more effective treatment options in this potentially devastating disease."
+ },
+ {
+  "id": "bd2ccbca-dfaf-4e9c-ba5e-7ff3ce7a7efb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "TREM2 Genotype-Informed Drug Repurposing and Combination Therapy Design for Alzheimers Disease",
+  "text": "Alzheimer’s disease (AD), a devastating neurodegenerative disease, is estimated that 13.8 million Americans\nand 90 million people worldwide will be affected by 2050, without disease-modifying treatments. This project will\ndevelop capable and intelligent computer-based network medicine, electronic health record (EHRs), and\nmultimodal single-nucleus genomic analytic tools along with functional validation using AD patient-induced\npluripotent stem cells (iPSC) and iPSC-derived cerebral organoid and TREM2R47H knock-in mouse models for\nidentifying TREM2 genotype-informed microglia-targeted therapeutics for AD. The successful completion of this\nproject will identify novel aspects of the underlying immune mechanisms in TREM2R47H mutant AD human brains,\nleading to potential repurposable drugs and combination therapies to be tested in AD clinical trials directly.\n1"
+ }
+]

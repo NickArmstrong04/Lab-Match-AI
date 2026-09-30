@@ -1,0 +1,142 @@
+[
+ {
+  "id": "79772c5e-52f5-46f4-b661-750b85f85e1a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Using Chirality to Understand and Control Amyloid Beta Neuronal Uptake and Toxicity",
+  "text": "The goal of this R01 proposal is to use our stabilized Amyloid beta forms to uncover novel uptake-toxicity\nrelationships to better understand Alzheimer’s Disease. Peptide synthesis, biophysical and cell culture\nexperiments performed in the Raskatov lab will be combined with collaborative efforts with the Tycko lab (NIH)\nand the Eisenberg lab (UCLA), which may allow us to obtain experimental structures of Amyloid beta trapped\nin both toxic and non-toxic states. Research proposed may lead to future development of Alzheimer’s\ntherapeutics that act as structural modifiers that convert Amyloid beta into a non-toxic state."
+ },
+ {
+  "id": "79790c22-9fdf-4ac6-85e6-515a789120ad",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Reproducible Research in Brain Imaging Genetics",
+  "text": "Rapidly increasing availability of high-throughput neuroimaging and genomics data through public\ndatabases brings great opportunities yet challenges in brain imaging genomics studies. This proposal is\nfor a three-week in-person workshop to train graduate students and junior researchers to improve their\nunderstanding of brain genomics research using neuroimaging phenotypes and learn skills to conduct\nintegrative analysis of brain imaging genomics using large open data in a responsible way. We will have\nface-to-face instructions that compromise lectures, laboratory practice, seminars, roundtable discussions,\nand mentored group projects to train researchers in the best practices for reproducible analysis of large,\nopen brain data to learn how to estimate meaningful associations of genetic variants on brain structure\nand function, along with their implications for cognitive functions and broader mental health outcomes."
+ },
+ {
+  "id": "797cdb1f-c80a-436a-8516-ec4f84acc004",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Informatics, Data Analysis, and Statistics Core (IDASC)",
+  "text": "FOR IDASC. The informatics, data analysis, and statistics core for the aging adult brain connectome\nproject is: (1) Archiving the imaging data and behavioral and biological measures in a database; (2) Performing\nquality control on the brain image data; (3) Developing and maintaining brain imaging analysis pipelines,\nincluding analyses across subjects and within subjects across time, for multiple imaging modalities including\nthose measuring brain structure, function, and connectivity to produce imaging-based measures for\neach subject and timepoint; (4) Performing optimized statistical analyses of biological, behavioral, and imagingbased\nmeasures together with the four sub-projects."
+ },
+ {
+  "id": "79845609-a39b-4446-bf9f-56eb97915d19",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Striatal Synaptic Plasticity in the Cognitive Aspects of Parkinsons Disease",
+  "text": "Aside from motor symptoms, Parkinson’s Disease (PD) has cognitive and psychiatric features, such as\ncognitive inflexibility and impulse control disorder (ICD), but little is known about their mechanisms. In this\nintegrative project, we will use optimized cognitive assays in parkinsonian mice and use ex vivo and in vivo\nphysiology and 2-photon imaging to investigate the synaptic and circuit mechanisms driving PD-related\nexecutive dysfunction and ICD. The insights will inform development of therapeutics that aim to alleviate\ncognitive dysfunction associated with PD and ICD.\n1"
+ },
+ {
+  "id": "7985e64d-2cb2-4db1-ad10-298a2441eb8e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Protecting and Sustaining Germ Cell Identity",
+  "text": "Germ cells must maintain their identity for the entirety of a species' reproductive lifespan, a task that can last up\nto forty years in humans. This unique challenge raises the question: What underlying molecular processes\ngovern germ cell identity and prevent reprogramming toward a somatic cell fate? A multiplex approach proposes\nto answer this question by (i) identifying factors that are instructive for the germline genetic program, (ii)\nuncovering how the translational repressor Nanos protects germ cell fate and prevents germline to soma\ntransformation, and (III) addressing the role of small RNAs in germ fate specification and genome protection."
+ },
+ {
+  "id": "798a840c-7ffa-45dc-aa71-e850308ef13f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Defining the regulation of exocytosis in developing neurons",
+  "text": "During development brain cells grow rapidly and increase their surface area to establish the complex, elongated\nshape required for brain function. When this expansion is disrupted, it can lead to improper synaptic connections,\ncontributing to neurodevelopmental disorders and psychiatric syndromes. This research proposal aims to\ninvestigate how the surface area of developing brain cells increase to better understand the mechanisms driving\nhealthy brain development."
+ },
+ {
+  "id": "798b1f69-b704-408b-b323-ff12fae0f931",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Unlocking the Hidden Regulome underlying Ocular Health and Disease via Scalable Integrative Frameworks",
+  "text": "This research aims to develop innovative computational tools to enhance our understanding of the genetic and\nregulatory mechanisms underlying eye development and disease. By improving the identification and\ncharacterization of key transcriptional regulators at both tissue and cellular levels, the project will contribute to\ndeveloping targeted therapies that improve and preserve vision, thereby reducing the burden of visual\nimpairment and blindness. We are also committed to creating open-source, user-friendly software packages and\na web platform for software, data, and resource sharing, making these advancements accessible to researchers\nworldwide."
+ },
+ {
+  "id": "7997d9a5-4aed-485f-9e60-20eaaf3be474",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Analysis of protein interactions in neurodegenerative disease",
+  "text": "Although there are many theories, the cause of late onset Alzheimer's disease (LOAD) remains\nunknown. However, one of the earliest reported perturbations of normal brain function in the\npathogenesis of LOAD is disruption of the endosomal-lysosomal network. The goal of this\nproposal is to quantitate differences induced by LOAD pathogenesis on protein-protein\ninteractions and protein structure within the endosomal-lysosomal network."
+ },
+ {
+  "id": "79a88e64-a98d-42aa-b1b7-c4b15348f9ea",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "TRD 3: MRI parameters reflecting tissue composition and microstructure",
+  "text": "TRD3: MRI PARAMETERS REFLECTING TISSUE COMPOSITION AND STRUCTURE Lead Principal Investigators: Peter van Zijl, Professor of Radiology, Oncology and Biomedical Engineering; Xu Li, Associate Professor of Radiology; Hye-Young Heo, Associate Professor of Radiology. Co-Investigators: Hyeong-Geol Shin SUMMARY The definition of a Quantitative Imaging Biomarker (QIB) is very broad and can be rightfully interpreted as relating to any imaging parameter that can report on normal or abnormal tissue status or on changes in tissue status related to a treatment. This is perfect for magnetic resonance (MR) technology, which can probe tissue composition and structure non-invasively on microscopic, mesoscopic, and macroscopic spatial scales, and can also access molecular information. Using different types of radiofrequency and magnetic field gradient based pulse sequences, such characteristics can be probed through a multitude of MRI-based parameters that reflect water content and dynamics, water proton relaxation, water proton exchange transfer, and water magnetic susceptibilities, which can all be seen as candidate biomarkers. The absolute value of tissue magnetic susceptibility is affected by its myelin and iron contents, as well as blood oxygenation (Y), parameters of great interest to our CPs. The magnetic susceptibility of a voxel is also affected by tissue structural anisotropy, e.g. oriented myelin sheaths in the white matter. The overall goal of this TRD is to design pulse sequences and analysis approaches to efficiently quantify these parameters and use them to assess tissue composition, structure and physiology in the many disorders studied by our CPs. We propose the following specific aims: Aim 1) Develop susceptibility source separation methods for mapping tissue composition and oxygenation. Bulk tissue water magnetic susceptibility is influenced by various sources, including diamagnetic myelin and paramagnetic iron. Accurately separating these diamagnetic and paramagnetic sources within a single MRI voxel is crucial for characterizing pathological changes, such as distinguishing demyelination from iron deposition. Furthermore, separating blood-based from non-blood paramagnetic sources can enhance the specificity of paramagnetic measurements while providing additional insights into brain oxygen metabolism. AIM 2) Develop susceptibility tensor imaging (STI) based mapping of crossing fibers with submillimeter (mesoscopic) resolution to assess white matter connections and their myeloarchitecture. AIM 3) Develop multi-parametric MR fingerprinting (MRF) frameworks that can efficiently assess the candidate biomarkers mentioned above. The MRF reconstruction and analysis will be combined with deep learning models by utilizing a multilayer, nonlinear parameter-mapping approach to relate MR fingerprints to the underlying tissue properties. The parameters obtained will be used to synthetically generate multiple image contrasts (synthetic MRI), including conventional ones with which the radiologists are familiar for reading and that currently can be acquired only separately."
+ },
+ {
+  "id": "79a99376-5429-4135-b7a3-4099bc08ea70",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multi-scale computational modeling of calmodulin mutations associated with CPVT",
+  "text": "Cardiac arrhythmias are responsible for the death of over 250,000 people per year in the United States alone.\nHowever, the underlying mechanisms for arrythmias is still not fully understood. The goal of this project is to\nunderstand how a single mutation in a protein that regulates calcium in the heart, can cause a heritable\narrhythmia syndrome called Catecholaminergic Polymorphic Ventricular Tachycardia (CPVT). Our approach is\nto combine a multi-scale computational approach to model molecular, cellular, and tissue dynamics in the heart."
+ },
+ {
+  "id": "79b52bdd-cd38-458e-848d-f2f86de0af37",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Interdisciplinary NexGen TB research Advancement Center (IN-TRAC)",
+  "text": "The Interdisciplinary NexGen TB Research Advancement Center (IN-TRAC) at Texas Biomedical Research\nInstitute will develop the next generation of TB researchers into independent scientists that work on some of the\nmost challenging and relevant translational problems in the TB field. IN-TRAC will provide investigators with\nclinical and research knowledge combined with the soft skills necessary to move with confidence across multiple\nacademic disciplines and within a framework of highly collaborative research."
+ },
+ {
+  "id": "79b6ddbd-a65b-408c-88ad-0e3a352cb1d0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Elucidating social competence: neural mechanisms for competition and cooperation",
+  "text": "This project seeks to understand how prefrontal circuits shift social behaviors when appropriate, specifically\nfocusing on the shifts between competition and cooperation. These social behaviors are essential for thriving\nand surviving yet social dysfunctions are a hallmark of many psychiatric disorders. Understanding how the\nbrain controls social behaviors will facilitate development of novel treatments for social dysfunction."
+ },
+ {
+  "id": "79b81ec4-ca2e-43cc-ac06-dbb35cc2e95f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of a B Cell Based Vaccine for the Treatment of Newly Diagnosed Malignant Gliomas",
+  "text": "PROJECT 3: NARRATIVE\nImmunotherapy is a promising approach to treating cancer patients, yet its efficacy so far has been very limited in\npatients with high grade gliomas. Our work provides an opportunity to explore the B-cell-based vaccine (BVax) as\nimmunotherapy. Our approach utilizes 4-1BBL+ B cells as a cellular platform to promote anti-tumor immunity. This\ninnovative strategy utilizes inherent B-cell effector functions such as antigen presentation and subsequent T-cell\nactivation (cellular immunity), and production of tumor-reactive antibodies (humoral immunity). The preclinical BVax\nproved to be highly efficient at eradication the tumor in mice. The proposed research project aims to take BVax from the\nbench and translate it to the clinic."
+ },
+ {
+  "id": "79b93e97-cd77-4bd0-a69b-43032199acf1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identifying cellular and molecular signatures from distinct T cell receptor clonotypes associated with favorable immune checkpoint inhibitor responses in HNSCCs",
+  "text": "Our proposed studies will identify cellular and molecular markers to better predict immune\ncheckpoint inhibitor (ICI) responses in head and neck squamous cell carcinoma patients treated with different\ncombinations of ICIs. Our studies would facilitate finding novel mechanisms of differential ICI responses by\nexamining differences in distinct T cell populations that harbor different T cell receptors. A unique strength of our\nproposal is integration of human clinical trial samples and mouse models as a more powerful platform to uncover\nmechanistic insights that are translatable into the clinical setting."
+ },
+ {
+  "id": "79bdb278-7716-48b9-870e-6b09a1c5ba47",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of Lipid Nanoparticles for B-cell Mediated Immunotherapies",
+  "text": "Delivery of nucleic acids to cancers is a promising strategy to modulate the immune system and induce an\nanti-tumor immune response. However, improved design of delivery vehicles and novel strategies to enable\nanti-tumor immune responses are needed. This project aims to address these needs by designing lipid\nnanoparticles to deliver agents that can induce a potent unexplored immune response mediated by B cells"
+ },
+ {
+  "id": "79c01344-2e68-4546-918d-a5cfdd3d3e22",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dissecting continuous phenotypic transitions in cellular states with novel quantitative experimental and computational methods",
+  "text": "This proposal aims to develop a new paradigm for understanding how genetically identical cells respond\ndifferently to the same perturbation, such as drugs. By combining novel single-cell technologies and advanced\ncomputational methods, our goal is to quantify and model how variations in internal cellular states arising from\nbiochemical processes drive downstream gene regulatory changes. The insights gained from this work have\nthe potential to transform how we infer causal relationships within gene regulatory networks, ultimately\nimproving predictive modeling for drug development and therapeutic strategies, leading to more effective and\npersonalized patient care."
+ },
+ {
+  "id": "79ce960e-77c5-4e3c-b142-cc6b6f23d2a9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Optimizing Elements of a Clinical Decision Support System to Improve Glaucoma Care",
+  "text": "A significant proportion of patients undergoing treatment for glaucoma will experience rapid disease worsening.\nTo address this, we aim to develop and externally validate the elements of a clinical decision support system\n(CDSS) that enables clinicians to select the optimal treatment for glaucoma patients in a personalized manner.\nWe also understand the effects of the CDSS user-interface design choices on clinician reliance on the CDSS\nand clinician decision-making performance."
+ },
+ {
+  "id": "79de5901-2bf5-4987-bdaa-d49cc6d468db",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of Alternate Ribosome Binding in Pathogenesis",
+  "text": "BipA, a highly conserved translation factor family GTPase, has been shown to be essential for stress\nadaptation and virulence in bacteria, is absent in humans and as such represents a potential target in\nour search for new antimicrobial therapeutics. The interdisciplinary studies outlined in this R21 grant\nrepresent an effort to merge structural models, solution biophysics experiments, biochemical data and\ncomparative microbiology as a platform to examine how chemical probes disrupt the cellular function of\nBipA and may ultimately serve as leads for new therapeutics."
+ },
+ {
+  "id": "79e55649-e339-477d-a26d-a4275092d667",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Extreme heat, pollution, wildfire smoke, and aging among people living with or at risk for HIV",
+  "text": "Many parts of the U.S. regularly experience intense heatwaves and high fine particle (PM2.5) concentrations from wildfire smoke and other sources, both of which can aggravate the chronic health conditions experienced by older people, such as people living with HIV (PWH). The proposed five-year study aims to address key research questions about the impacts of these exposures on the health of PWH in the U.S., namely, “What is the magnitude of the impact of extreme heat and PM2.5 from wildfire smoke and other sources on frailty and cognitive function among older PWH, and how does the impact differ by HIV seropositive status?”, “Which mechanisms drive these effects?”, and “What factors increase vulnerability to and resilience against these effects?” This research will provide critical and timely data needed to understand the numerous drivers of aging-related health outcomes among PWH, will directly inform potential interventions to build resilience and support longevity among the American public, and could open new avenues for the health-related application of data science approaches to tracking and mitigating ecological health risks to Americans."
+ },
+ {
+  "id": "79e75a68-b926-4782-b596-4c8dec8f6db1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Synthetic costimulation and signaling calibration for chimeric T cell receptors",
+  "text": "Immunotherapy using genetically modified T cells has shown impressive efficacy in treating B cell malignancies,\nbut many patients eventually relapse due to tumor cells with low or negative antigen expression. To address this\nchallenge, we used basic T cell principles to design a novel class of T cell receptor that can recognized two tumor\nantigens simultaneously with high sensitivity. Our studies will enhance persistence and resistance to exhaustion\nin T cells expressing our novel receptors to improve their anti-tumor efficacy and pave the way for clinical\ndevelopment."
+ }
+]

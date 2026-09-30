@@ -1,0 +1,142 @@
+[
+ {
+  "id": "ed6e1a93-71ac-4872-a007-5ef00a1bd300",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Regulation of endothelial function and vascular integrity by neddylation",
+  "text": "Impaired endothelium function has a substantial role in the pathogenesis of various vascular disease that pose\nsignificant challenges to United States public health and economy. The goal of this proposal is to investigate the\nfunctional importance of protein neddylation in protecting endothelium function by sustaining endothelia cell (EC)\nidentity, preventing EC cell death, promoting mitochondrial fitness, and resolving stress response signaling\nmainly through its downstream mediator cullin-3. The acquired new knowledge will provide new targets for\ndeveloping therapeutic approaches to restore endothelial function with therapeutic implications for a wide range\nof vascular disease states."
+ },
+ {
+  "id": "ed7afb83-615b-47e3-8097-0c504538870a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Deciphering Immunopathogenesis of MUCORmycosis to ADVANCE Risk stratification, Diagnosis and Management of the Disease",
+  "text": "Mucorales fungi cause mucormycosis (MCM), a lethal infection afflicting susceptible hosts suffering from diabetic\nketoacidosis, neutropenia, those undergoing hematopoietic stem cell or solid organ transplant, receiving\ncorticosteroids, or those suffering from severe trauma. This program project will study integrated and\ncomplementary themes focusing on key fungal and host factors that promote the disease. The outcome will be\nused to introduce better disease risk-stratification and prediction of treatment outcome, improved diagnostics of\nthe infection, and augmented novel therapies leading to enhanced management of MCM."
+ },
+ {
+  "id": "ed7c9d00-01ce-46f9-ada0-db316b6a3610",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "CORE C: SPATIAL TRANSCRIPTOMICS",
+  "text": "Core C is a technical core which will provide access to state-of-the art spatial transcriptomics, and computational resources. The goal of this Core will be to eliminate barriers to entry for new users and to make cutting-edge spatial omics tools (including significant new tools developed by us), bioinformatics, and high-resolution imaging assays available to all researchers in the center. At the program level, Core C will provide expertise and methods standardization, and will provide oversight, instrument optimization, data management, and consultation on assay/protocol development to maximize the interrogation and analysis of the unique project datasets. Core C will furthermore pursue technology development and improvement to enable center investigators to pursue unique research questions beyond the scope of what can be achieved with conventional, broadly available instrumentation. The core will have two major tasks: First, the core will eliminate barriers to the use of spatial transcriptomics for new and existing users in the program project. To accomplish this, we will implement a standardized sequencing-based workflow, from tissue collection through library prep, sequencing, and histology alignment, with standard operating proceedings maintained by the Core. The core will also support data management, storage and analysis for all investigators in the center, to streamline analysis workflows and to standardize data interpretation. The core will furthermore provide education and training. The core will organize a hands-on two-day workshop on spatial transcriptomics and will organize consult hours, and a joint work-in progress/journal club with the Imaging Core. Second, we will pursue novel technology development to enable center investigators to pursue unique research questions beyond the scope of what can readily be achieved with conventional, broadly available instrumentation. The core will innovate methods for simultaneous mapping of the transcriptome and B and T cell immune repertoires. These methods are supported by significant evidence from pilot investigations obtained through collaboration with the P01 team and will be central to many of the studies proposed in the projects. In addition, the core will further develop computational methods for spatial correlation and cell-cell interaction analysis. Such analyses are fundamental to spatial transcriptomics, but challenging given noise, dropout and the very high dimensionality of the data. In summary, Core C will implement, develop and disseminate spatial transcriptomics tools to profile host- pathogen and immune-pathogen interactions in tissues at high spatial and sequence resolution. The ability to spatially resolve both immune response dynamics and transcriptional programs together will enable to identify novel drivers or regulators of immune success and can inspire next-generation immuno-therapeutics."
+ },
+ {
+  "id": "ed7d60b9-600b-476c-80c6-4f888cfdd87d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Let-7b in BPD",
+  "text": "Bronchopulmonary dysplasia (BPD) is a common lung disease in premature babies. We\ndiscovered that increases in the microRNA let-7b-5p as early as birth strongly predict\nwhich infants will later develop BPD. In this project, we will find out if increases in this\nmicroRNA in human preterm infants at later time points is also predictive, and we will\nuse mouse models and cell cultures to see if this microRNA is increased by oxygen\nexposure and causes BPD by decreasing blood vessels in the lung."
+ },
+ {
+  "id": "ed82a423-6ae3-4374-ab19-a91ed8cf6b10",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cav1.2 in bladder physiology and pathology",
+  "text": "This project seeks to understand the details of how Cav1.2 calcium channel in\nurothelium modulates bladder storage and voiding functions. This study is important for\nthe understanding of bladder pathologies, and will potentially lead to novel therapeutics\nto treat patients with bladder dysfunctions."
+ },
+ {
+  "id": "ed857b72-1356-45a3-8ffa-9767bd3a1680",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "MD Anderson Cancer Immune Monitoring and Analysis Center MDA-CIMAC",
+  "text": "Immunotherapy (IMT) has emerged as a promising treatment strategy across a broad spectrum of human\ncancers, with multiple agents, particularly immune check point inhibitors, showing promising results in various\ntypes of cancers. Its full potential has yet to be realized, partly due to a lack of biomarkers predicting response\nto treatment. Current immunotherapeutic approaches are mostly unsuccessful due to limited understanding of\nthe tumor microenvironment, limited clinical utility of current immune markers and inconsistent use of assays or\ntechnologies that produce meaningful interpretations in studies. The MD Anderson Cancer Immune\nMonitoring and Analysis Center (MDA-CIMAC) will provide a centralized and harmonized platform for sample\ncollection, processing and quality assurance and use analytically-validated and standardized assays and highly\ninnovative assays and methodologies to offer state-of-the-art analyses for phenotypic, genomic, and functional\ncharacterization of responses of patients enrolled on NCI-sponsored early phase immunotherapy clinical trials\nleading to the identification of biomarkers that will ultimately improve the therapeutic strategies for cancer\npatients."
+ },
+ {
+  "id": "ed89a823-6dca-4c28-baad-fbf713d635df",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Exploiting A Critical Vulnerability To Glutamine Antimetabolite Therapy in Fibrolamellar Hepatocellular Carcinoma (FLC)",
+  "text": "Fibrolamellar hepatocellular carcinoma (FLC) is a rare cancer of children and young adults that has no standard\nor effective treatment options. The overall goal of our project is to study a novel cancer treatment that targets\nthe unique metabolism of FLC tumors, in combination with other treatments that work on the human immune\nsystem. We will test this treatment approach in FLC patients and also learn about the mechanisms of response\nwith this approach using tumors from the patients as well as preclinical models."
+ },
+ {
+  "id": "ed89c39e-f9a4-49cd-888d-313434ee0fb0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Integrative Analysis and Visualization Platform for Cancer Regulatory Genomics",
+  "text": "Our project focuses on developing a comprehensive platform to analyze and visualize cancer-specific\nregulatory genomics and chromatin structure, utilizing extensive genomic data from sources like TCGA,\nTARGET, and ICGC. This initiative includes creating a regulatory-element–target-gene atlas, identifying and\npredicting the effects of genetic aberrations on regulatory elements, and building an integrated, user-friendly\nweb platform for data visualization and outreach within the scientific community."
+ },
+ {
+  "id": "ed8d5545-4a0b-4f91-bdaf-0c52773e898e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Regulation of tissue stem cell lineages by nuclear receptor signaling",
+  "text": "Organism survival is dependent on proper tissue and organ function, which requires a significant amount of\nenergy to ensure correct organ-to-organ communication and maintenance of tissue stem cells. We propose to\ntake advantage of the excellent model my lab has established using transcription factors and stem cells in the\nfruit fly ovary to understand how inter-organ communication maintains tissue behavior. Our work will generate\nnew insight into how disruption of organ communication might lead to tissue abnormalities in many organisms,\nincluding humans."
+ },
+ {
+  "id": "ed90b2e4-73e3-4d0e-8747-e57bc7cb4568",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Microfluidic platform for solid tumor mechanics and invasion",
+  "text": "The proposed project will develop an advanced mechanical testing tool for tumor mechanics studies. Knowledge\nlearned in this proposal provides information that will aid in developing novel diagnostic or/and treatment\nstrategies for cancer."
+ },
+ {
+  "id": "ed9174e4-ebdc-45f8-82af-3fb5d845ca64",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Non-surgical treatment option for pelvic organ prolapse",
+  "text": "The purpose of this proposal is to optimize and prepare to commercialize a novel,\ncollapsible vaginal pessary and applicator for the non-surgical treatment of pelvic organ\nprolapse (POP), a condition that symptomatically affects 3.7 million women in the United\nStates. Recent medical studies suggest that surgical treatments for POP are less effective\nthan once believed, and current pessaries in common use are limited by a rigid and fixed\ndesign, which can make them uncomfortable as well as difficult or impossible for patients\nto remove and insert independently. Consequently, there is an imperative to develop non-\nsurgical treatment alternatives for women who suffer with POP which are easy to use,\naccepted, effective, comfortable, and cause minimal complications."
+ },
+ {
+  "id": "ed920912-637e-4255-ad21-0b00fbd6d705",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cardioembolism as a Mechanism of Central Retinal Artery Occlusion",
+  "text": "Strokes caused by blood clots coming from the heart are the most feared types of stroke and cause a high rate\nof death and disability. Central retinal artery occlusion (CRAO) is a type of ischemic stroke affecting the back of\nthe eye whose mechanisms are poorly understood. The objective of this study is to clarify the relationship\nbetween disorders causing clotting in the heart and CRAO and, in doing so, identify a new group of patients\nwho are vulnerable to future, preventable strokes from the heart."
+ },
+ {
+  "id": "ed96fbcf-0368-4e6e-ac7c-4bf09221e66a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Impact of Adaptive Immune System on Cardiac Electrophysiology",
+  "text": "Despite the knowledge that CD4+ T-cell activation is required for wound healing during myocardial infarction (MI)\nbut exacerbates left-ventricular remodeling and cardiac dysfunction during heart failure (HF), the specific\nmechanisms that mediate pathological effect of T-cells on cardiac function are not known. Our preliminary results\nsuggest that adoptively transferred HF-activated CD4+ T-cells, in contrast to sham T-cells, infiltrate into the hearts\nof naïve mice, induce cardiac dysfunction, augment the risks for arrhythmias and alter cardiac cellular\nelectrophysiology in a contact-dependent manner with the cardiomyocytes. In the proposed study, PIs intends\nto study the role of gap junctions formed between HF-activated CD4+ T-cells and cardiomyocytes in mediating\npathological effects of T-cells during HF."
+ },
+ {
+  "id": "ed9bcc4a-3015-4d40-8bde-6ada7ee7c83d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Biophysical Modulation of Cardiac Ion Channels by MicroRNA",
+  "text": "We recently discovered a novel biophysical action for microRNAs (miRs) beyond the classical mechanism of\nRNA interference (RNAi); it is now important to explore if the biophysical modulation of miRs is a general\nregulatory mechanism of cardiac ion channels and to demonstrate the specific contribution of this biophysical\nmodulation by miRs in regulating the homeostasis of the heart. In this study, we have identified and will\ncontinue to study the mechanisms of the biophysical modulations between multiple cardiac ion channels (e.g.,\nKir2.1, Kir6.2 and Cavb2) and miR1 or newly-identified miRs; we will also reveal the specific physiological\nimpact of miR1’s biophysical action in 14G-mutation homozygous transgenic mice in which the biophysical\naction of miR1 is specifically deleted while the RNAi is maintained. Our discoveries have pioneered a new\nfield in miR biology expanding the scientific significance of miRs and providing a mechanistic foundation and\nnew avenues for anti-arrhythmic therapy."
+ },
+ {
+  "id": "ed9d410b-00b3-41a7-96bd-c198ceefcf26",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Molecular Oncology Training Grant",
+  "text": "Cancer is a major public health and economic issue and its burden is set to spiral. In 2022, roughly 1.9\nmillion people will be diagnosed with cancer in the United States. The goal of this grant is to train a new\ngeneration of scientists who will make discoveries that enable us to diagnose, treat, and perhaps cure these\ndiseases."
+ },
+ {
+  "id": "edb086f0-2d03-410e-b138-a7d2e9e84cea",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Structural regulation of megalin recycling in the proximal tubule",
+  "text": "Megalin captures proteins from the urinary space to produce an essentially protein-free urine, thereby\nprotecting the kidney tubules from damage caused by proteinuria. Megalin recycles between cell surface and\nintracellular compartments to carry out this function, but the molecular basis for this recycling is not well\nunderstood. I will use structural approaches to study the molecular basis of its recycling."
+ },
+ {
+  "id": "edb170f3-5572-489f-803f-3171aa361170",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Discovery of Novel Selective Androgen Receptor Degraders (SARDs) for the Treatment of Spinobulbar Muscular Atrophy (SBMA) or Kennedy’s Disease",
+  "text": "Kennedy’s disease is a progressive neurodegenerative disease caused by an abnormal androgen\nreceptor (AR) protein. There is currently no effective treatment available to slow, stop, or reverse\nthe disease. Based on the promising preclinical results obtained with our 1st generation selective\nAR degraders (SARDs), this R01 application proposes to perform structure-activity relationship\n(SAR) and mechanistic studies to optimize a lead SARD that will be developed for Kennedy’s\ndisease."
+ },
+ {
+  "id": "edb39dc1-8073-4cc7-8718-6c15149abce9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identification of new inhibitors of essential functions in M. tuberculosis by high-throughput metabolic profiling",
+  "text": "The current drought of novel antibiotics and the rapid emergence of antibiotic resistance in Mycobacterium\ntuberculosis is threatening to make one of humankind’s deadliest infectious diseases incurable. This threat calls\nfor new and innovative drug discovery paradigms. By leveraging CRISPRi technology and non-targeted\nmetabolomics, we will use a combined computational/experimental strategy, that is based on the comparison of\ngenetic and drug induced metabolic effects, to perform high-throughput de novo functional annotations of large\nlibraries of anti-tubercular compounds with unknown mode of action."
+ },
+ {
+  "id": "edb749c2-8327-43b5-9a80-7a314af68835",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Endothelial mechanosensing of circulatory flow in health and disease",
+  "text": "The endothelial cells that line blood and lymphatic vessels respond to the mechanical forces resulting from\ncirculatory flow, modulating cardiovascular development, health, and disease. This study aims to deepen our\nunderstanding of the roles of Plexind1 and Klf2, two proteins that interpret fluid forces, and discover new factors\nin this process. Findings from this innovative research promise to significantly enhance our ability to prevent,\ndiagnose, and treat conditions such as heart disease, high blood pressure, atherosclerosis, and tissue swelling\ncaused by fluid accumulation."
+ },
+ {
+  "id": "edb7e04b-0bc1-4588-be6e-899c57716492",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Testing Effective Methods to Recruit Sexual and Gender Minority Cancer Patients for Cancer Studies",
+  "text": "Because there are no studies comparing experiences in cancer care between cisgender, heterosexual cancer\npatients and sexual and gender minority cancer patients, first, we will conduct in depth interviews to identify\nkey concerns related to recruitment. Then, we will test recruitment methods and conduct the first study to\nidentify what would help or hinder these small populations to participate in cancer research."
+ }
+]

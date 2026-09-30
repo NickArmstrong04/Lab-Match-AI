@@ -1,0 +1,142 @@
+[
+ {
+  "id": "5bff2ff9-393f-4431-a8f8-329eb755bb7b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of MED12L- Associated Chromatin Enhancers in Pediatric Acute Megakaryoblastic Leukemia",
+  "text": "The fusion of CBFA2/RUNX1 partner transcriptional co-repressor 3 (CBFA2T3, also known as ETO2) and GLIS family zinc finger 2 (GLIS2) proteins is the most recurrent (30%) alternation in pediatric de novo acute megakaryoblastic leukemia (AMKL). For infants and young children (<3 years of age) harboring ETO2-GLIS2, outcomes are among the worst of all pediatric acute myeloid leukemia (AML) subtypes, with poor responses to induction therapy, high incidence of relapse (~90%), and dismal 5-year survival rates (<20%). Genome sequencing studies have shown the ETO2-GLIS2 fusion and epigenetic regulation to be key drivers of the disease. For instance, transcriptional deregulation in this AML subtype was linked to the cooperative binding of ETO2-GLIS2 to H3K27ac (histone H3, acetyl-lysine amino acid position 27) enriched super-enhancer (SE) chromatin. In leukemic blasts, ETO2-GLIS2 induces formation of unique leukemia-specific SE (neo-SE) elements that would be distantly located from their canonical binding sites in normal megakaryocyte (MK) progenitors. While ETO2-GLIS2 fusion is considered to impact leukemic properties by imbalance of ERG-GATA1 transcription factors (TFs) and enhancer activity in a single oncogenic “hit”, detailed mechanisms by which the fusion protein rearranges chromatin architecture to deregulate transcriptional programs remain elusive. Mediator (MED) proteins are known to assemble transcriptional coactivators distal to the RNA polymerase II binding site to regulate gene expression. Specifically, in leukemic cells, the MED12 subunit or its MK-lineage paralog MED12L of the MED-kinase module was reported to co-recruit regulatory transcription factors (e.g., bromodomain 4, ERG, p300, GATA2) at H3K27ac-enriched SE elements. Moreover, somatic mutations of MED12L or amplifications of chr3q, which harbors the gene, also have been reported as novel oncogenic drivers in squamous cell carcinoma and prostate cancer respectively. MED12L is found overexpressed and controlled by the ETO2-GLIS2 bound SE in this AML subtype. Understanding the role of MED12L in enhancer mechanisms could provide insight into novel treatment approaches. Based on rigorous preliminary studies, we hypothesize that ETO2-GLIS2 exploits focal chromatin features to develop oncogenic neo-SEs, favoring leukemic growth, and that MED12L potentiates formation and transcriptional linkage of these neo-SE elements to induce leukemic gene expression. We will test our hypothesis by pursuing the following specific aims: (1) Determine how ETO2-GLIS2 alters chromatin architecture to facilitate leukemia-specific transcriptional programs and (2) Determine the degree to which MED12L contributes to the global chromatin remodeling and formation of neo-SE."
+ },
+ {
+  "id": "5bff3304-8e55-4365-bc00-32e5cc89ceb3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Functional Mapping of the Suprachiasmatic Nucleus",
+  "text": "Disrupted circadian rhythms, such as in shift work or genetic disorders, can result in obesity, cancer, or\ninfertility. The proposed research will use novel electrophysiological and molecular methods to describe the\ncontribution of individual neurons in the development and maintenance of a daily rhythm throughout the body,\nand how disruption of this system contributes to disease."
+ },
+ {
+  "id": "5c011379-658e-4961-9035-b304f811188c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "UNDERSTAND: Uplifting the New generation through DBT Education and Resilience for Social Triggers, Anxiety, Negativity, and Depression",
+  "text": "The UNDERSTAND project is focused on the design and evaluation of a mobile health system aimed at\nproviding real-time interventions for young adults with comorbid Major Depressive Disorder (MDD), Social\nAnxiety Disorder (SAD), Generalized Anxiety Disorder (GAD), and other anxiety-related conditions. By\nintegrating mobile and wearable sensors, machine learning models, and DBT-based interventions, the system\ndelivers personalized, transdiagnostic support during emotionally challenging situations. This work emphasizes\nuser-centered design and iterative evaluation to ensure usability and effectiveness in naturalistic settings, with\nthe goal of creating impactful tools that can support mental health in everyday environments."
+ },
+ {
+  "id": "5c0248de-e82d-4371-a684-67e7761bf834",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "NEIDL Integrated Support Services",
+  "text": "Integrated Support Services Abstract The Integrated Support Services (ISS) Core provides the scientific, operational, and technical foundation for all high-containment research at the National Emerging Infectious Diseases Laboratories (NEIDL). Since activation of the BSL-4 facility in 2018, the ISS Core has evolved from a support network into a fully integrated infrastructure that sustains complex therapeutic, vaccine, and pathogenesis studies through coordinated animal models, innovative methodologies, and analytical programs. The ISS Core comprises two functional components, the Animal Research Services (ARS) and the BSL-4 Laboratory Services Unit (BLSU), which together enable compliant, high-quality, and translationally relevant science. UC7 investment has driven the maturation of multiple BLSU programs now sustained through full cost recovery, including the NEIDL Comparative Pathology Laboratory (NCPL), High-Throughput Screening (HTS), -omics, and Imaging. Virology Services (VS) within the BLSU has also successfully validated inactivation methods for nearly all pathogens handled at BSL-4, enabling detailed analytical work outside containment and marking a major developmental milestone. These achievements allow UC7 resources to focus on advancing next-generation initiatives within the BLSU that strengthen the NEIDL’s translational capacity and national impact. Renewal support will prioritize three interconnected domains: ARS, which delivers high-quality, compliant execution of in vivo studies under maximum containment; and two new initiatives within the BLSU, Aerosol Infection Research (AIR), which establishes controlled aerosol infection and therapeutic-delivery capabilities at BSL-4, expanding NEIDL’s capacity to model respiratory pathogens; and COMParative Analysis of Research Equivalents (COMPARE), which links animal and human-relevant model systems through standardized metadata and computational frameworks that enhance translational predictability. Together, these components and initiatives align mature and emerging programs into a cohesive research ecosystem that integrates validated in vivo models, aerosol science, and human-based systems. Through this combination of scientific innovation, operational excellence, and regulatory rigor, the ISS Core ensures that the NEIDL remains a national resource for high-consequence pathogen research conducted with the highest standards of safety, reproducibility, and translational relevance."
+ },
+ {
+  "id": "5c03e08a-00c1-43ae-99f4-8bdbc7e6508a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Functional and Molecular Dissection of Mutant Calreticulin in Myeloproliferative Neoplasms",
+  "text": "The proposed research is relevant to public health because it will identify new approaches to treating a group\nof blood disorders called myeloproliferative neoplasms (MPN), that arise due to mutations in the gene, calreticulin\n(CALR). MPN is characterized by excess blood cell production, an increased risk of blood clotting and bleeding,\nin addition to increased risk of transformation to acute leukemia and no curative treatment options apart from\nstem cell transplantation. Thus, the proposed research is relevant to the part of the NIH’s mission that pertains\nto understanding mechanisms of disease with the goal of identifying better, more specific treatment options, thus\nreducing the burden of human disease."
+ },
+ {
+  "id": "5c07aa5c-5e1e-4485-9ea1-ce5b184f10e2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Subjective Cognitive Dysfunction in Adults with Systemic Lupus Erythematosus Across the Lifespan",
+  "text": "Subjective cognitive dysfunction, also known as “brain fog,” is common and burdensome among adults with\nsystemic lupus erythematosus (SLE), a chronic autoimmune disease. This study seeks to: 1) understand using\nqualitative methods the experience of subjective cognitive dysfunction among adults with SLE, particularly\nolder adults who are now living longer with SLE; and 2) assess for daily fluctuations in subjective cognitive\ndysfunction using real-time digital assessments, with the ultimate goal of improving their overall health and\nwellbeing."
+ },
+ {
+  "id": "5c1480e2-bff2-4d30-bd76-f32f0ef8e616",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Gnotobiotics and Gut Microbiome Core",
+  "text": "CORE C: PROJECT SUMMARY Currently, 30 million people have had their genomes sequenced as part of publicly available datasets. Unfortunately, there are only 10,000 human microbiome datasets available. Supporting microbiome research at a unique translational research hub such as Cedars-Sinai Medical Center (CSMC) will expand our understanding of the role of the microbiome in human health and disease. The Gnotobiotics and Gut Microbiome Core (Core C) serves as a nexus for Cedars-Sinai Digestive Diseases Research Center (CSDDRC) investigators wishing to study host-microbe biology in digestive health and disease. The goal of this Core is to enable and accelerate the pace of human microbiome research in digestive diseases by providing key expertise and services that reduce the barriers to entry to this type of research. Further, microbiome analysis capabilities are key to the Cedars-Sinai Digestive Diseases Research Center (CSDDRC) theme of mechanisms and measurements of the fibroinflammatory response in gastrointestinal (GI) tissues. The Core offerings reflect the range of exploration our investigators require, from early pilot experiments that rely on agnostic sequencing approaches and are hypothesis-generating, to mechanistic investigations requiring isolation of candidate organisms and testing in germ-free and gnotobiotic conditions. Given the unique nature of the CSMC research environment, which is characterized by basic scientist-clinical researcher collaborations, the Core will both advance our investigators’ research into innovative areas, such as the microbiome, and also serve the microbiome research community by generating human microbiome datasets across GI-related diseases. The Core will support three key areas of microbiome investigation. Aim 1 will provide in-house bacterial and fungal sequencing capabilities including amplicon sequencing and short and long-read metagenomics, including initial sample pre-processing and secondary/tertiary analyses as needed by investigators. In Aim 2, we will provide bacterial and fungal aerobic and anaerobic cultivation services on samples from mouse or human tissues, stool, or bodily fluids. This aim will facilitate deeper investigation of microbes of interest that may have been identified by sequencing analysis. In Aim 3, we will offer germ-free and gnotobiotic mice for even deeper in vivo analyses of study organisms on physiological and immunological processes, either alone or in concert with defined consortia. We will also accept human stool or mucosal samples for inoculation of animals. The combination of these services will provide a clear pipeline for taking a study from the pilot phase to the mechanistic phase, with personnel and support staff dedicated to carrying out the experiments and providing data analysis. In combination with the Advanced In Vitro Model Systems Core (Core B) and the Human Imaging and Biorepository Core (Core D), and the innovative lines of investigation within the CSDDRC, we aim to facilitate research that will provide new insights into microbiome causes and influences on GI, liver, and pancreatic diseases."
+ },
+ {
+  "id": "5c152c97-6980-49c5-a080-4b47314d3da0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Engineering In Vitro Models of Pregnancy-Induced Liver Changes",
+  "text": "Liver size and functions, such as drug metabolism enzymes, are significantly altered during pregnancy, which\ncan affect drug efficacy or toxicity; however, the cellular and molecular regulators of such alterations need to be\nfurther elucidated. This proposal will engineer a long-term, 3D in vitro mouse liver platform and elucidate how\nblood-borne factors and in vivo preconditioning affect the phenotypes of multiple liver cell types during\npregnancy; comparison to human liver cell responses will elucidate similarities and differences across species."
+ },
+ {
+  "id": "5c15ece4-ee50-4fe1-9db3-238145152d32",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "SourceSpikeNet – A Biophysically Grounded AI Approach to Spike Detection in EEG",
+  "text": "SourceSpikeNet – A biophysically grounded AI approach to spike detection in EEG\nInterictal epileptiform discharges (IEDs) are crucial for epilepsy treatment, but current localization methods often\nfail, leading to suboptimal outcomes. This project aims to develop a biophysically informed AI, SourceSpikeNet,\nto detect and localize IEDs more accurately by leveraging neurophysiology and physics. The expected outcomes\ninclude a data-driven model to understand IED origins better and an open-source IED detector/localizer for EEG\nwith higher spatiotemporal accuracy, improving seizure focus identification and surgical success."
+ },
+ {
+  "id": "5c16540f-57e7-4ad8-8154-8d7656896a26",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identifying how time of treatment modulates cancer-related inflammation and cognitive dysfunction",
+  "text": "Chemotherapy and immunotherapy cancer treatments can cause debilitating side effects such as cognitive\ndysfunction both during and after treatment that affect return to work and day-to-day function for cancer survivors.\nMounting evidence suggests that brain-mediated side effects of cancer treatment such as cognitive dysfunction\nare caused by neuroinflammation, which is highly regulated by circadian rhythms. This proposal will explore an\nunderstudied dimension of personalized cancer treatment by identifying how time of day that treatment is\nadministered may mitigate neuroinflammation to decrease cancer treatment-induced cognitive dysfunction while\nmaintaining anti-tumor efficacy."
+ },
+ {
+  "id": "5c169031-c1a7-4c76-afff-b0f5d82fff89",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "uORF-mediated Translational Control of Cardiac Transcription Factor Expression",
+  "text": "Heart disease is the leading cause of morbidity and mortality in the United States and\ncardiomyocyte hypertrophy is a major hallmark in disease progression. Understanding of the\nfundamental mechanism of gene regulation at the level of protein synthesis in cardiomyocytes in\nnormal physiology and during cardiomyocyte hypertrophy will provide novel insights for preventive\nand therapeutic interventions of heart disease. In this proposal, we will investigate the function and\nmechanism of translation control mediated by a novel double-stranded RNA element in synergy\nwith upstream open reading frames, which is required for maintaining cardiac physiological\nhomeostasis. These studies will provide proof-of-concept evidence to support developement of\nnovel therapeutic targets and RNA-based modality for treating cardiac pathological hypertrophy."
+ },
+ {
+  "id": "5c20f642-a8c8-4199-8bf3-daccc31622f5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Understanding the contributions of stress reactivity to racial disparities in adverse placental and pregnancy outcomes",
+  "text": "Measuring stress reactivity in addition to stress exposure will help provide important insights into the\nmechanisms underlying the persistent Black-White inequities seen in adverse pregnancy outcomes. Given the\ngrowing evidence that APOs serve as an early warning sign for future CVD risk, our findings have important\nimplications for inequities in cardiovascular disease risk as well."
+ },
+ {
+  "id": "5c222c3e-c94f-40d0-858c-8bb08604f7ba",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Towards Physical-Interface Pressure Monitoring Outside the Laboratory with Lower-Limb Electronic Clothing and Robust Optimization",
+  "text": "The health outcomes of using a prosthesis and orthosis depend on the physical interface between compliant\nhuman tissue and the rigid or padded structures of the device. There is a fundamental gap in knowledge about\nhow to characterize interface pressures outside the clinic and the laboratory without expert sensor calibration and\nplacement. This project will enable the accurate measurement of interface pressure for more than 16 continuous\nhours without expert supervision to provide quantifiable data for the design of comfortable prosthetic sockets and\northoses."
+ },
+ {
+  "id": "5c2bf840-9dba-43ed-9217-794688f11ffe",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Training in Biomedical Informatics at Columbia University",
+  "text": "The goal of Columbia University's training program is to advance health care and medicine through the\nadvancement of the discipline of biomedical informatics. Our training program provides a research-oriented\ncurriculum with rigorous formal training in informatics and data science integrated with exposure to real-\nworld systems in clinical and research settings at our university, in our community, and around the world.\nMost of our graduates continue to advance the field through research as faculty members in academic\ninstitutions or in industry-based research facilities."
+ },
+ {
+  "id": "5c2d7ab1-8cc1-46c8-9a02-48e46d8b0666",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Evolution of innate antiviral defense mechanisms and other microbe-driven genetic innovations",
+  "text": "Microbes are a constant presence in our environment and impact humanity in diverse ways, yet we\nincompletely understand the many ways that our immune system has evolved to defends against pathogens,\nand the ways that pathogens evolve to avoid or defeat our defenses. This project takes an evolution-guided\napproach to discover new critical mechanisms that underlie host susceptibility to viral infection by identifying\nand characterizing human genes that have repeatedly evolved to contend with pathogen infections in the past.\nSuch an unbiased approach will allow us to discover new players in the ongoing conflict between hosts and\nviruses, and leverage the diversity that is already found in nature to develop ways to diagnose, prevent and\ntreat infectious diseases."
+ },
+ {
+  "id": "5c2eab8f-a90a-4078-94b0-a55ef3e6a773",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Shared Resource Management",
+  "text": "PROJECT SUMMARY/ABSTRACT – SHARED RESOURCES MANAGEMENT (SRM) The overarching scientific goal of Shared Resources Management is to enhance and accelerate UCCCC members’ research by offering specialized expertise in cutting-edge technologies within our Shared Resources Cores. The Shared Resources are crucial to the mission of the UCCCC and offer high-quality customized services on state-of-the-art equipment, which aligns with the research conducted in our CCSG programs and the pillars outlined in the UCCCC strategic plan. Shared Resource Management ensures the cores are managed efficiently, so members have priority access to the shared resources at cost-effective and competitive rates. There are currently 10 UCCCC cores, including Bioinformatics, Biostatistics, Cellular and Tissue-Based Processing (cGMP), Human Immunological Monitoring Facility (HIM), Cytometry and Antibody Technology Facility (CAT), Genomics Facility, Human Tissue Resource Center (HTRC), Integrated Microscopy (IM), Integrated Small Animal Imaging Research Resource (iSAlRR), and Transgenic Mouse Facility (TMF). To meet the UCCCC members’ needs and foster members’ scientific innovation and collaboration, the Shared Resources are overseen and managed cooperatively between UCCCC and the Biological Science Division (BSD) Office of Shared Research Facilities (OSRF). These cores are governed by the UCCCC Shared Resource Executive Committee (SREC), which includes UCCCC and BSD leadership. SREC meets regularly to review members’ scientific needs, survey data, and metrics including budgets, usages, services, progress of developing cores, allocations of philanthropic funds, and approval of core directors and Faculty Oversight Committee (FOC) appointments. UCCCC members make up the majority of the membership on each of these oversight committees to assure UCCCC needs are addressed. This cooperative management approach provides benefits to cancer center members beyond what the Shared Resources cores provide alone, through cores such as Proteomics and Cellular Screening Cores, which also support cancer-specific research studies. Currently, there are two cores in development, the Organoid and Primary Cell Culture Research Core (OPCCR) and Cancer Metabolomics, both of which were created to meet UCCCC members’ emerging research needs. In summary, UCCCC Shared Resources have benefited greatly from CCSG support and this support has been leveraged to provide added value to all UCCCC scientific programs. Shared Resources plays a crucial role in the research mission and the strategic goals of the UCCCC and this continued support is critical to continuing to provide high quality scientific services to UCCCC members at a reasonable cost and supports the discovery and development of new Cores and services which support the UCCCC mission."
+ },
+ {
+  "id": "5c3af5ab-b1fb-41ad-8cff-41fb0843ec2e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A novel protective role of PYDC5 in colorectal cancer",
+  "text": "Colorectal cancer is the third most common cancer worldwide and the second most common cause for cancer\nrelated deaths, resulting from significant clinical treatment challenges, as it is not medically curable and a life-\nlong relapsing and remitting disease. Therefore, a better understanding of the underlying pathology of colorectal\ncancer is needed for developing improved treatment strategies. We discovered PYDC5, a novel gene protecting\nfrom colorectal cancer, and we propose to elucidate the underlying molecular mechanism, and expect that our\nresearch will uncover novel mechanistic insights that can be harnessed for the development of novel therapies\nto improve the quality of life of patients."
+ },
+ {
+  "id": "5c3e72cf-eb23-4404-8498-e254da469f21",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Deep Learning for Single-Cell Genetics",
+  "text": "This project pioneers the field of single-cell genetics, bridging genetics and single-cell genomics to decipher\nthe genetic, molecular, and cellular basis of human complex diseases. Through the development of\ncutting-edge deep learning algorithms, it seeks to establish a foundational methodology with broad applications\nin disease genetics, spanning variant interpretation, gene discovery, cell prioritization, and disease prediction.\nThe successful completion of this project promises to significantly enhance our understanding and capabilities\nin addressing complex diseases, ultimately improving human health."
+ },
+ {
+  "id": "5c524cdb-25c0-422a-bedd-d91a63d73d45",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Using Digital Signals from Credit Data for Early Detection of Alzheimer's Disease and Related Dementias",
+  "text": "There are many reasons why individuals afflicted by Alzheimer’s disease and related dementias (ADRD) would\nbenefit from being diagnosed earlier. The goal of this research is to develop computer algorithms from data\ncollected by financial bureaus to identify people who may be at risk for ADRD and who should receive clinical\nevaluation. Financial data is likely to be an important tool for helping with early diagnosis because people’s\nfinancial decisions are typically some of the first things affected by the disease."
+ },
+ {
+  "id": "5c586e6e-e0d5-4291-8b5c-126cb825d5d8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "High-Resolution Native Capillary Zone Electrophoresis with Inline UV and Native Mass Spectrometry for Characterizing Charge Variants in Biologics",
+  "text": "This Small Business Innovation Research Fast Track project will produce a novel capillary\nelectrophoresis with native mass spectrometry technique for direct identification of post-translational\nmodifications underpinning charge variants in protein therapeutics. Charge variants are product variants\nwith a net charge different from that of the intended product. They are recognized by regulatory agencies\nas critical quality attributes because of their potential impact on the safety and efficacy of the product.\nThe outcome of this SBIR is an innovative approach to characterizing charge variants with a condition\nsimilar to the physiological condition, which will contribute to development and manufacturing of novel\nbiologics and protein-based medicines."
+ }
+]

@@ -1,0 +1,142 @@
+[
+ {
+  "id": "5207ef5f-d776-43fc-bddb-80f9952bbd6f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "An ensemble deep learning model for tumor bud detection and risk stratification in colorectal carcinoma.",
+  "text": "The proposed research is relevant to public health because we are generating new computer-aided methods\naimed at improving diagnostic quality, reducing intra- and inter-observer variability that will ultimately enable\nefficient patient selection for personalized cancer therapies. Thus, the proposed research is relevant to the part\nof NIH’s mission that pertains to the application of novel strategies that may improve human health."
+ },
+ {
+  "id": "520bd065-b472-4e06-b161-6964f311ff39",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Addiction Neural Dynamics Core",
+  "text": "PROJECT SUMARY: Addiction Neural Dynamics Core Addiction is a chronic, relapsing disorder due to perturbations in neural circuits. To better understand the underlying pathophysiological processes occurring in addiction and the actions of new therapies, there are pressing needs to monitor neural activity and structure during addiction and relapse. Visualization of nervous system function and structure in the intact, behaving animal is a powerful approach to meet these needs. Recent advances in genetically encoded Ca2+, voltage, and neurotransmitter indicators and imaging tools, large-scale high-density microelectrode recordings, and sophisticated neural and behavioral analyses have greatly expanded the opportunities for probing the nervous system at work. Many labs at the University of Minnesota (UMN) lack the equipment and expertise to perform many of these advanced imaging and recording techniques during behavior. Nor is it possible for most investigators to keep up with the rapid changes in these tools, either in the engineering or application domains. The Addiction Neural Dynamics Core (ANDC) is designed to allow addiction and other researchers to take advantage of these modern techniques to probe brain function during behavior. Providing access to up-to-date imaging and recording techniques, engineering, and manufacturing support, as well as computational tools, will reduce the time and costs needed to set up experiments and process data, lower the entry barriers for both new and established investigators, and assist in developing new imaging tools and applications. Aim 1 is to provide resources, expertise, and training in three in vivo imaging technologies used in behaving animals: 1) wide FOV imaging of the cerebral cortex and cerebellar cortex during both headfixed and freely moving behaviors; 2) fiber photometry to monitor the activity of genetically defined elements in neural circuits; and 3) engineering expertise for use of miniscopes and for realizing customized imaging devices/solutions. Each of these technologies is critical to understanding how neural circuits change in addiction. The ANDC will also provide sophisticated hardware and software to monitor and analyze behavior. Aim 2 strives to expand the capabilities of our existing technologies. These include: 1) begin to dissect out the entire addiction circuit using simultaneous multi-Neuropixel probes using our cranial-exoskeleton; 2) develop the capabilities and expertise for cortex wide and deep brain miniscope imaging of neurotransmitter signaling; 3) implement voltage imaging using the newest classes of genetically encoded voltage indicators. Enhancing the imaging and recording modalities will elevate the research problems addressed, translational perspective, and overall impact as well as increase the number of ANDC investigators. The ANDC will provide the research infrastructure, expertise and training to allow the addiction community to image and record neuronal activity and neural circuitry during behavior. Providing these tools will enhance the productivity, quality, and impact of addiction-related and other neuroscience research at the UMN."
+ },
+ {
+  "id": "520f9efb-15ff-454e-9cad-952729c1baf4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Role of Tunneling Nanotubes and Mitochondrial programming in HIV-Associated Placental Dysfunction",
+  "text": "The precise mechanisms by which HIV is able to replicate and spread within the placenta and transmit from\nmother to fetus remain poorly understood despite more than 40 years of research on various aspects of HIV\npathology. This project investigates evidence that HIV replication and spread within the placenta is mediated by\nintercellular microtubules known as tunneling nanotubes (TNTs), which have been recently identified as a means\nof cytoplasmic continuity between adjacent cells induced by viruses to enable an immune-evasive pathway of\ntransmission. Successful completion of the proposed studies will establish the role of TNTs in HIV infection, and\nopen new pathways for therapeutic approaches to reducing the health risks for the mother and developing fetus\ndue to HIV infection during pregnancy."
+ },
+ {
+  "id": "520fbd44-e4fb-4690-bbc7-f4bc8defa435",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "One Health; Epidemiology of natural and deliberate contaminants (infectious and toxicities) in animals and animal food",
+  "text": "Public Health Significance\nPets are these days “members” of the modern family. As such, they share intimate contact with the people in the\nhousehold. Veterinary diagnostic laboratories must be prepared to support public health efforts to improve\nhuman health through a One Health approach. Health is at the nexus of people, animals, and the environment."
+ },
+ {
+  "id": "52116b72-4926-4b68-8ece-fd1638c3011d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "3D wearable NIR spectral tomography for early prediction of breast cancer’s residual cancer burden after neoadjuvant chemotherapy",
+  "text": "Our project aims to refine a novel Near-infrared Spectral Tomography (NIRST) system for probing whether\nchanges in tumor vasculature predict early neoadjuvant chemotherapy (NAC) responses. The rigor of prior re-\nsearch and the human data we obtained show the normalized change in tumor hemoglobin (ΔHbT %) after the\nfirst NAC cycle is a key indicator for classifying Residual Cancer Burden, with significant results in multi-class\nReceiver Operating Curve analysis (an area under the curve of 0.80). We will focus on the new technology\ndevelopments that will elevate NIRST from a research tool to a fully functional clinical solution."
+ },
+ {
+  "id": "521ce66b-b74a-4257-b6db-eb5cba83a830",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Whole Transcriptome Studies of Blood to Predict Stroke Outcome",
+  "text": "This project will perform whole-genome RNA sequencing from blood 1 and 3 days after\nstroke to develop gene profiles using machine learning that predict the outcomes at 90 days\nafter stroke in a derivation cohort; and use the expression of these genes in blood from a\nseparate validation cohort as the input into the same machine learning algorithm to predict 90\nday outcomes of the validation cohort with >85% sensitivity and specificity. Gene expression will\nalso be correlated with major clinical variables that are associated with stroke outcome, and\nutility of clinical variables for prediction of outcome compared to that for the gene expression\nprofiles."
+ },
+ {
+  "id": "5224a44c-1426-4e2d-a082-af820ce5bc64",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting VIP–VPAC Signaling to Reverse Immune Exclusion and Enhance Immunotherapy Response in Pancreatic Cancer",
+  "text": "Vasoactive intestinal peptide (VIP) reduces anti-cancer effects of immune cells. This project will investigate how\nblocking VIP-receptor signaling can re-activate the body’s immune system to attack pancreatic cancer, a disease\nthat is often resistant to current treatments. The results could lead to new therapies that improve survival for\npancreatic cancer patients and may also benefit people with other cancers that share this form of immune\nresistance."
+ },
+ {
+  "id": "522751ef-5d67-492e-88cc-bf4b257913a4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multiparametric endoscopic ultrasound for improved pancreatic cancer screening and characterization",
+  "text": "Early detection of pancreatic cancer in high-risk individuals can enable curative treatment before malignant\nprogression. Endoscopic ultrasound is routinely used for imaging-based pancreatic screening but is highly\noperator-dependent and qualitative. The goal of this research project is to develop a system and methodology\nfor multiparametric endoscopic ultrasound (mpEUS)-based assessment of pancreatic tissue in a non-\nsubjective, quantitative manner."
+ },
+ {
+  "id": "522adf4d-86d0-47e1-8e72-02d94d9658bb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "HIV-1 Q23.17 Env: Engineering a novel immunogen to elicit bNAbs for prevention and cure",
+  "text": "Narrative. A major roadblock to progress in HIV-1 prevention and cure research is the lack of a suitable outbred\nanimal model in which potent, broadly neutralizing antibodies can be consistently induced and the immunological\nmechanisms underlying their development studied in a reproducible and iterative fashion. This application\nproposes a novel strategy to overcome this roadblock and thereby to create a molecular blueprint for HIV-1\nvaccine design."
+ },
+ {
+  "id": "52302a00-20bc-4997-a1ac-ab74abcaef67",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "CHAMP-V + LAW: A program to prevent youth violence through community health worker and civil legal aid interventions",
+  "text": "In Chicago, youth from disadvantaged backgrounds on the South and West sides are exposed to alarmingly high levels of community violence, which detrimentally impacts their overall well-being. This project aims to evaluate a novel violence prevention program—Community Health Advocates in Mitigating and Preventing Violence (CHAMP-V) with and without Legal Aid Wraparound (LAW). Results from this project will provide rigorous evidence about the effect of community health advocacy and legal advocacy strategies to prevent community violence for youth and their families while offering a scalable approach that can target all levels of the social-ecological model."
+ },
+ {
+  "id": "52306935-024b-40b7-aa03-905e016f28c9",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Data & Analytics Core",
+  "text": "(Data & Analytics Core) The Data & Analytics Core supports the overall mission of the Indiana Diabetes Research Center (IDRC) to promote cutting edge research in diabetes and related metabolic disorders; foster collaboration; and support training by offering state of the art computational and informatics services for large and/or multidimensional datasets. Our services align with the NIDDK’s Strategic Plan for Research by: (1) developing and sharing innovative computational technologies and data resources to facilitate the scientific progress of IDRC investigators and to enhance the health of the communities we serve; (2) optimizing clinical research tools and resources for the analysis and planning of clinical studies; and (3) improving dissemination and implementation of evidence-based strategies to improve health. Formed in 2023, the overall goal of the Data & Analytics Core is to unlock the diabetes research and discovery potential of ‘omics and real-world electronic health record (EHR) data. The ‘omics-related services of the Core are built on the overwhelming success of a pilot program to provide diabetes-focused bioinformatics services, which was housed in the IDRC Translation Core from 2020 until the establishment of the Data & Analytics Core. The EHR-related services of the Core complement long-standing EHR data assets and services housed at the Indiana University School of Medicine by providing diabetes-specific and tailored support to basic and clinical scientists in the IDRC. The long-term goals of the Data & Analytics Core are to facilitate the incorporation of advanced data analysis techniques into IDRC researchers’ projects and to educate our research community on new and emerging methods to advance our understanding of molecular and environmental contributors to human health and disease. Drs. Mosley and Harle are the Co-Directors of the Core, and Dr. Wu is the Associate Director. The Data & Analytics Core closely interfaces with the IDRC Translation, Microscopy, and Islet & Physiology Cores to meet the experimental needs of our User base, while adhering to the highest standards of rigor and reproducibility. The Data & Analytics Core will achieve the following aims: (1) Facilitate understanding and interpretation of investigator-generated “omics” datasets and translate this complex information to actionable experimentation. (2) Create and facilitate use of real-world EHR datasets that support translation of findings from model and preclinical systems findings to humans. (3) Facilitate access to, training in, and reuse of existing datasets that can be utilized to support the work of IDRC investigators."
+ },
+ {
+  "id": "52347cc7-dc8a-4a43-9238-83d0905b04a9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Immune repertoire remodeling following B cell-targeted CAR T cells for induction of renal allograft tolerance in non-human primates",
+  "text": "The rejection of transplanted organs places a major burden on public health resources in the\nUnited States. Furthermore, the requirement for life­long immunosuppression to maintain\ntransplant function not only poses a major cost burden on the health care system, but also\nimposes a dramatic degree of morbidity on the recipient. In this application, we leverage\nbreakthrough technologies in the field of gene­engineered T cell immunotherapy to target\nrecipient B­lymphocytes in order to induce donor specific immunological tolerance to transplanted\nkidneys as a cure for end­stage kidney diseases."
+ },
+ {
+  "id": "5234c3ff-805d-42fa-b42a-bb15ec0cae29",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Biological Imaging Facility",
+  "text": "The long-term objective of the Biological Imaging Facility (BIF) is to provide FCCC members the capabilities to obtain the highest quality images to facilitate their research at the subcellular and cellular levels, as well as in tissues and organs. The BIF is Co-Directed by Bojana Gligorijevic, PhD (CSM) and Neil Johnson, PhD (NDC) and staffed by Facility Managers, Andrey Efimov, PhD and Yirong Yang, PhD. The Specific Aims are to 1) Leverage new imaging capabilities to enhance the research of FCCC members; and 2) Train users on existing and new equipment and expand userbase. To achieve these goals, capital institutional investment in 2022 allowed expansion of small animal imaging equipment, including the purchase of an IVIS Lumina III In Vivo Imaging System that provides both fluorescent and bioluminescent monitoring, a Vega Pre-Clinical Ultrasound Imaging System, and a 3T preclinical Magnetic Resonance Imaging (MRI) with dry magnet technology that can be used for mouse and rat imaging. In 2019, a multi-photon confocal system was purchased by S10 Shared Instrumentation Grant, and in 2023, Dr. Gligorijevic contributed to a successful S10 Shared Instrumentation Grant Application to purchase a light-sheet super-resolution microscope. The total investment in new instrumentation since 2019 totaled $1.8M ($1.2M since 2022). In 2022, the BIF hired new Small Animal Imaging manager, Dr. Yirong Yang, who has extensive expertise in MRI. BIF performance is monitored by a Facility Advisory Committee to provide feedback and suggestions to improve the operations of the BIF. Beyond one-on- one training, the BIF has and will continue to provide Center-wide seminars to engage new and existing users about its capabilities. BIF staff attend faculty seminars to familiarize themselves with various PI’s research projects. The Co-Directors and Facility Manager are available for consultation and make suggestions to PI’s with the goal of enhancing their project. Finally, facility staff will enroll in imaging courses, attend national meetings to keep up to date with technologies. The BIF was used by 25 FCCC members for the 12 months ending 10/31/23, and 51 FCCC members from all three Research Programs from 2019-2023 (October). The technical and scientific support provided by the BIF has contributed to 61 peer-reviewed publications and 45 new grant awards since 2019."
+ },
+ {
+  "id": "523b4923-bce8-4d12-bf68-0c01fdd91a8b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of novel multivalent mucosal vaccines for human noroviruses",
+  "text": "Although human noroviruses (HuNoVs) are responsible for more than 95% non-bacterial acute gastroenteritis\nworldwide, no vaccines or antivirals are currently available for HuNoV. The goal of this project is to develop\nnovel multivalent mucosal HuNoV vaccines using the FDA-approved rotavirus and MMR vaccine vector\nplatforms. Development of a safe, efficacious, and broadly protective HuNoV vaccine will improve public health."
+ },
+ {
+  "id": "523e7428-b7ad-469a-a676-9434d392d57b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Specific Pathogen Free 18 Baboon Research Resource - Curation and Informatics Component",
+  "text": "OVERALL COMPONENT\nThe “Specific Pathogen Free 18 Baboon Research Resource” (SPF18BRR) is the only national research\nresource of adventitious virus free olive baboons (Papio anubis), their tissues and other biological materials,\nas well as the expertise to carry out research on this invaluable research animal. Scientist with NIH grants\nutilize virus free baboons to study the immunobiology of pig to baboon xenotransplantation, ways to develop\nor improve vaccines for SARS CoV-2, respiratory syncytial virus and pertussis, and to study the development\nof Alzheimer’s disease and related dementias. The goals of the SPF18BRR include provision of highly\ndefined baboons and biomaterials to scientists, continued improvement of this animal resource, support to\nresearchers requiring facilities and expertise to perform their studies, and training of the next generation of\nscientists, laboratory animal veterinarians, colony managers, and animal caregivers."
+ },
+ {
+  "id": "523f7f4b-72a0-4d0e-8edc-2127b0ae644d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Noninvasive and early detection of endometriosis using a biological neural circuit-based novel gas sensor",
+  "text": "There is a critical need for noninvasive and robust endometriosis detection technologies. Although exhaled\nbreath-based endometriosis detection can offer those advantages, primarily due to the lack of sensitivity and\nreliability of existing engineered gas sensors, exhaled breath-based disease diagnosis has not been\nimplemented in clinical settings. In this proposal, we systematically validate and quantify the performance of our\nnovel olfactory neuron-based gas sensor for early and robust detection of endometriosis using 2-D cell cultures,\n3-D organoids, and in a mouse model of endometrisois."
+ },
+ {
+  "id": "524012b4-e328-4bc9-a32e-0fbcde6e1509",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "02 - Experimental Therapeutics",
+  "text": "ABSTRACT – EXPERIMENTAL THERAPEUTICS (ET) PROGRAM Overview and Goals: The ET Program is the major translational/clinical research engine of the O’Neal with the goals of identifying novel targets and developing new imaging techniques that can inform innovative therapeutic strategies and provide cancer patients with an enhanced opportunity for improved survival, increased freedom from disease progression, and improved quality of life. Research Highlights: Discovery of new pre-clinical targets such as LIMK2 and PAK4, their in vivo validation in pre-clinical models and medicinal chemistry efforts to develop clinical grade inhibitors to these targets will provide novel therapeutic opportunities for triple-negative breast cancer (TNBC) and bladder cancer patients, with direct implications for other cancer types in our catchment area. Advances in imaging markers of patient response to immunotherapies, including hypoxia and granzyme B, have led to clinical trials in breast cancer, melanoma, and non-small cell lung cancer, all of which are of importance in our catchment area. Successful inter- and intra-programmatic collaborative bench to bedside efforts continue to result in clinical translation, including novel combinations with EGFR and PARP inhibition in TNBC or EGFR and DNA repair checkpoint inhibition in head and neck cancer. Program Activities: ET co-leaders work closely with O’Neal leadership to enable intra- and inter-programmatic collaborations through program activities enhanced by SPORE (Cervical cancer; P50 CA098252) and P01 funding (Cancer Prevention; P01 CA210946), significant collaborations with Southern Research through the Alabama Drug Discovery Alliance, and partnerships with industry. Strong collaborations with national consortia have continued, including the NCI NCTN Lead Academic Partnership Site grant (UG1 CA233330) and the Translational Breast Cancer Research Consortium. Members: The program has 60 members from 14 departments and 3 schools. NCI funding is $3.6M, cancer-relevant, peer-reviewed funding is $7.8M, and total cancer-relevant funding is $23M. 2,065 patients were enrolled in therapeutic trials over the current CCSG cycle, including 12% to investigator-initiated trials, 31% to pilot/Phase I studies, 10% to Phase I/II trials, and 37% to Phase III trials. The program had 1,123 publications over the current CCSG cycle including 34% inter-programmatic, 24% intra-programmatic, 68% resulting from collaborations with other institutions, and 13% in journals with an impact factor of 9 or greater. Future Directions: We plan to enhance current strengths in O’Neal cross-cutting research themes as laid out in the strategic plan, namely obesity and metabolism in cancer, cancer immunology, imaging, target identification and therapeutic development. We will work with the office of Community Outreach and Engagement to leverage recent support e.g., Bridge the Transdisciplinary Cancer Research Continuum supplement (P30 CA013148-48S6), CATCH-UP ETCTN supplement (P30 CA013148-48S3), Genentech AIR grant, and institutional infrastructure to bring the newest innovative cancer treatments to the population of Alabama."
+ },
+ {
+  "id": "5243fdc9-7a8f-461b-b824-95a136a7232a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Clinical validation of FGFR-Dx in plasma cell-free DNA from patients with FGFR-altered advanced pancreatic cancer",
+  "text": "Title: Clinical validation of FGFR-Dx in plasma cell-free DNA from patients with FGFR-altered advanced\npancreatic cancer\nProject Relevance\nPatients with advanced pancreas cancer have poor outcomes and most do not live more than one year. The use\nof gene sequencing technologies to detect genetic changes in cancer has improved patient care by offering\nnovel therapies that specifically target these genes. New approaches to detect genetic changes from blood\nsamples offer a non-invasive approach to test patients. In this proposal, we will study how a blood test for FGFR\ngenes can help patient with advanced pancreas cancer."
+ },
+ {
+  "id": "5246ee5d-23d7-41dd-8676-c21a59e06643",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Genetic Markers of Chronic Postsurgical Pain",
+  "text": "Pain after surgery that lasts more than 3 months is termed chronic postsurgical pain (CPSP) and occurs in up\nto 50% of patients, contributing to an epidemic of chronic pain that has a greater annual societal cost than that\nof cancer, heart disease, and diabetes combined. It is currently unclear how much of a role genetic variation\nhas on the development of CPSP, and which genetic mutations are significant. The goal of this proposal is to\nidentify genetic factors that predispose patients to develop CPSP and influence the response to pain therapies."
+ },
+ {
+  "id": "5249f19e-6484-425b-af09-609ce305a90b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Elucidating and targeting T cell senescence-driven immune dysfunction in aging and HIV",
+  "text": "Senescent T cells accumulate during aging and are more abundant in people with HIV. These cells do not\ndivide but continue to release inflammatory proteins and have been linked to immune decline and aging-\nassociated diseases. This study will address fundamental questions surrounding the biology of senescent T\ncells and functionally interrogate how they influence adaptive immune responses in the context of aging with\nand without HIV, and aid in the therapeutic application of senolytic drugs to reduce senescent T cell burden to\nreduce inflammation and immune decline to ensure longer and healthier lives."
+ }
+]

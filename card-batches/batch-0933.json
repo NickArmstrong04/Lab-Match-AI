@@ -1,0 +1,142 @@
+[
+ {
+  "id": "c0ed86a5-1083-4d8e-9711-aa9bf4b6982e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Revealing the RNA foundations of chromatin-based epigenetics",
+  "text": "Epigenetic processes provide a layer of regulation that is above the genetic sequence and are essential to\nunderstand health and disease. In model organisms, such as yeast and flies, noncoding RNAs play important\nrole in regulating the flow of epigenetic information, but their contribution to these processes in mammals\nremains poorly understood at a mechanistic level. We will leverage our expertise in RNA biochemistry,\nfunctional genomics, and mass spectrometry to identify and characterize RNAs that shape transitions in\nepigenetic states that accompany the differentiation from embryonic stem cells to neurons."
+ },
+ {
+  "id": "c0f3432a-cd36-42e1-b6f7-89c45ec56587",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Targeting Intrinsic and Extrinsic Barriers to Treat Metastatic Pancreatic Cancer",
+  "text": "Metastatic pancreatic cancer has no effective treatments largely due to tumor cell intrinsic and extrinsic\nmechanisms that result in therapy resistance. This proposal will investigate a preclinical treatment strategy that\nspecifically targets the intrinsic component, namely the ability of pancreas cancer to metastasize, along with the\nexquisitely immunosuppressive extrinsic tumor microenvironment. This innovative therapeutic strategy has\nnever been tested before in PDAC and could open a new avenue of research for a malignancy in dire need of\neffective treatments."
+ },
+ {
+  "id": "c0f58d2c-993e-4783-9422-fa321890de82",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identifying stigmatizing language in hospital birthing care: The ID-STIGMA study",
+  "text": "Variations in perinatal care quality and outcomes persist in the United States, yet no studies have identified how clinical documentation patterns may influence pregnancy care for women and newborns. The proposed study will use natural language processing, a data science approach, to identify documentation patterns and to examine whether these patterns are associated with perinatal morbidity outcomes for pregnant women and newborns. This work will inform the development of clinical decision support, the education and training of clinicians, and the realignment of institutional policies to positively influence documentation quality and optimize patient care."
+ },
+ {
+  "id": "c0f7d455-c2d4-4e32-be14-afeb0714e4f0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Export and Integration of Ophthalmic Optical Coherence Tomography Data Across Institutions (OCT)",
+  "text": "This project will unlock the vast potential of Optical Coherence Tomography (OCT) imaging data, currently trapped\nin incompatible proprietary formats, by developing a uniﬁed open standard and high-performance conversion\ntools. We will create turnkey repository software that enables automated extraction from Picture Archiving and\nCommunication Systems (PACS), seamless integration into clinical IT, and researcher-friendly access for machine\nlearning and clinical studies. Starting with 17 U.S. institutions and designed for nationwide adoption, this work\nwill transform OCT data into a shared resource ready for AI applications, accelerating discovery and improving\ncare for blinding eye diseases."
+ },
+ {
+  "id": "c106ced1-59a3-4ef7-b800-21975f983999",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Training Program in Imaging Sciences in Translational Cardiovascular Research",
+  "text": "Imaging in the biomedical sciences – from the individual molecule to the entire body – is a critical component of research which drives some of the most important discoveries of our time. The development of imaging technologies by scientists should be informed by a knowledge of the important targets around which to develop an imaging strategy, and conversely, biomedical researchers should be fluent in the broad range of imaging platforms available to optimally design their studies – a reciprocal relationship that will foster the kind of scientific discovery that can be translated to the bedside. This Training Program aims to train postdoctoral fellows to acquire core competency in imaging technologies across a broad spectrum, to achieve fundamental proficiency in tools for translational research spanning basic to clinical investigation, and to use these tools to pursue hypothesis-driven research, with a focus on cardiovascular medicine."
+ },
+ {
+  "id": "c1097479-1b98-49f1-b0e8-ca21b0219819",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Novel Role for Host Immunostimulatory RNA in Antiviral Immune Defense",
+  "text": "Innate immune sensing and signaling are important first steps of the immune system to initiate\nan antiviral response. This study will provide new molecular insight into the host defense\nmechanisms against herpesvirus infection, which may catalyze the design of novel therapeutic\napproaches for viral diseases."
+ },
+ {
+  "id": "c1190660-9583-4280-a366-dafdcdb47e0a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Core E:  Viral Pathogenesis & Persistence",
+  "text": ". \nCore E offers a wide suite of modern virology technologies, including viral, cell, microscopy, and sequencing services, to assist new, junior, and established CFAR investigators in obtaining critical data for their projects. The Core has a successful history of providing technologies developed by individual CFAR laboratories and making them available to the broadest possible user base."
+ },
+ {
+  "id": "c1197744-7124-4d08-bd0b-9844640e1ae0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The CRISPR Vision Program: Nonviral Genome Editing Platforms to Treat Inherited Retinal Channelopathies",
+  "text": "Genome editors make targeted changes in the genome and hold great promise in translational research but\nmoving them into investigational new drugs has been slow and challenging. The majority of products in\ndevelopment target the liver or utilize viral vectors. Because these strategies are limiting for many diseases,\nespecially those that affect post-mitotic cells in complex tissues like the eye, the CRISPR Vision Program seeks\nto develop novel human genome editing therapeutic platforms for transient, localized, and nonviral treatment of\nmultiple inherited retinal disorders, specifically channelopathies affecting the retinal pigment epithelium."
+ },
+ {
+  "id": "c12b4147-99fb-4763-bb71-03c6fa39d2f1",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Episodic Memories of 9/11 terror attack and Mental Health: Natural Language Processing of Adolescent and Adult Survivors' narratives (EMLAS study)",
+  "text": "While the long-term mental health effects of the 9/11 attacks on adults are well-documented, less is known\nabout the impact on children and adolescents exposed to this trauma. Childhood trauma can disrupt the\ndevelopment of cognitive functioning, emotional regulation, and memory processing, leading to long-term\neffects that may emerge years later and be reflected in how the event is recalled. This research aims to use\nadvanced technology to analyze how survivors' traumatic memories, especially those who were adolescents\nat the time, relate to their current mental health, with the aim to guide future mental health interventions."
+ },
+ {
+  "id": "c12bad40-8da6-407e-8d2d-6d5c2f868c20",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Regulation of Intracellular Signaling",
+  "text": "Intracellular signaling is critical to many physiological processes, including cell proliferation, growth,\ndevelopment, motility, and stress responses. Also, altered signaling is associated with various diseases. The\nproposed studies will significantly advance our understanding of the mechanism of intracellular signal\ntransduction and promote the development of therapeutic interventions for human disorders."
+ },
+ {
+  "id": "c12c5734-fc5e-42d0-b90b-e045c55418c4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cellular Pathophysiology of Neuronal Na/K-ATPase Dysfunction",
+  "text": "The overall goal of this project is to determine the cellular mechanisms responsible for\nneurodevelopmental disorders associated with mutations in the gene, ATP1A3. This\ngene encodes a protein involved with maintaining ion gradients in neurons, which are\nrequired for normal neuron function. ATP1A3 mutations cause severe childhood-onset\nneurological diseases with inadequate treatment options, and our work will help inform\nnew therapeutic strategies."
+ },
+ {
+  "id": "c1324b40-9f68-47d9-969e-53552e212a86",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Regulation of eDHFR-tagged proteins with trimethoprim PROTACs",
+  "text": "There is a need for developing small molecule tools that can both control protein function and be used for imaging\nin intact animals or patients. Our approach is to genetically alter cells to produce proteins of interest, such as\nchimeric antigen receptors (CARs), fused to a small bacterial enzyme called E. coli dihydrofolate reductase\n(eDHFR). eDHFR binds very tightly to the clinically-used antibiotic trimethoprim (TMP) and eDHFR-expressing\ncells will take up and bind TMP. We have engineered two derivatives of TMP. The first is coupled to a radioactive\nisotope that allows quantitative imaging of eDHFR and eDHFR expressing cells in animals using positron-\nemission tomography. The second is the focus of this research project, a version of TMP that is tethered to\nanother small molecule, pomalidomide (POM). These TMP-POM molecules guide eDHFR-fusion proteins to the\nprotein degradation machinery (e.g. the proteosome) of the cell causing destruction of the fusion protein. We\nwill apply these molecules to show their ability to regulate the expression of diverse fusion partner proteins, to\nshow their mechanism of action, and to improve the therapeutic window of CAR T-cells. This project sets a new\nprecedent for small protein tags which confer dual in vivo imaging and regulation capabilities."
+ },
+ {
+  "id": "c13787a3-6718-47e7-b501-84e70fd15c75",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Lysosome-targeting chimeras degrading immune checkpoint proteins to enhance immunoradiotherapy of head and neck cancer",
+  "text": "There is an urgent need for more effective strategies to enhance the survival and quality of life of\npatients with head and neck cancer (HNC). This study highlights the underexplored application of\ninnovative lysosomal targeting chimeras (LYTACs) to degrade immune checkpoint proteins\noverexpressed in HNC, aiming to synergize with both external and internal radiation to enhance\nradioimmunotherapy. Our ultimate objective is to expedite the clinical translation of LYTACs to\nimprove the treatment outcomes for HNC."
+ },
+ {
+  "id": "c1396111-7d32-4530-a1e3-d3c0c137b72a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cell-type-specific dysregulation and genetic control of alternative polyadenylation in neurodegeneration",
+  "text": "mRNA processing and 3’UTR choice is altered in both Alzheimers’ and Parkinson’s disease (PD) but the\nmolecular and genetic drivers and consequences of this dysregulation remain unknown. I propose to\nrepurpose existing single-cell and whole genome sequencing datasets to map altered 3’UTR choice in\nneurodegeneration, identify variants regulating 3’UTR choice in neurodegenerative disease, and understand\nhow downstream consequences of 3’UTR choice affect disease. The proposed research is relevant to the\nmission of the NIA and to public health because it improves our knowledge of a fundamental molecular layer\naltered in both Alzheimer’s and Parkinson’s with the goal of understanding genetic risk for neurodegeneration\nand developing therapeutic interventions."
+ },
+ {
+  "id": "c1397395-f753-4f91-a0a9-e28d5f63218b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Controlled Antigen Delivery for Prophylactic Cancer Vaccination",
+  "text": "Carcinomas, solid tumors of epithelial origin, represent up to 90% of all cancer cases in the United States and\npresent a persistent healthcare challenge. Immunotherapy and chemotherapy are promising treatment\nstrategies for carcinomas, but they have limited efficacy and are associated with side effects that impact\npatient quality of life. This F99/K00 award proposal focuses on developing a peptide-based hydrogel for the\nlocal delivery of chemotherapies and immune checkpoint inhibitors to improve treatment efficacy while avoiding\nsystemic toxicity and side effects."
+ },
+ {
+  "id": "c13d3ab4-7987-44b4-ae27-b45fed14d1c3",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Training Grant in Cell and Molecular Dermatology",
+  "text": "This program seeks to train physicians and basic scientists in skin research, with the long-term goal of increasing the number of academic dermatologists and skin-oriented biomedical scientists in the workforce. Our trainees will benefit from our department’s expertise in studying common skin diseases such as psoriasis, atopic dermatitis, aging/photoaging and skin cancer, which have major impacts on public health. We will emphasize both basic and \"bench to bedside\" translational research, while also prioritizing the professional development of all our trainees."
+ },
+ {
+  "id": "c140d200-0abd-4a3c-92cd-2f55fe0e6329",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of genetically encoded sex hormone biosensors to understand neuroactive steroid signaling dynamics in vivo",
+  "text": "The development of real-time sex hormone sensors could catalyze advances across multiple fields of\nhuman health, from personalized medicine and reproductive health to the management of hormone-related\ndisorders like breast and prostate cancer. By enabling precise monitoring of hormone fluctuations, these tools\nhold the potential to enhance the understanding and treatment of neurodegenerative diseases, mental health\nconditions, and contribute to aging research. This technology promises to pave the way for targeted therapies\nand interventions, offering new insights into the intricate role of hormones in human physiology and disease."
+ },
+ {
+  "id": "c144379a-3152-48f8-b545-c9d37b13dacf",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A novel strategy for the next generation rAAV gene therapy and vaccine vector production",
+  "text": "The primary goal of this project is to develop a novel platform for efficient production of large quantities of high-quality\nrecombinant adenovirus-associated virus (rAAV) vectors that can be used to deliver therapeutics genes, immunotherapeutics,\nand vaccines. Currently existing systems are inadequate and ineffective for large-scale production of high-quality rAAV.\nWe will develop an innovative system that can produce high-quality rAAV in mammalian cells by combining with a\nbaculovirus-based high-capacity protein expression system. Successful completion of this work will have a significant\nimpact on both the vaccine and gene therapy fields."
+ },
+ {
+  "id": "c144a349-c863-491f-88bc-20bb99e2451c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Next-generation image-guided endoscopic sinus surgery using novel computer vision techniques",
+  "text": "Existing computerized stereotactic image-guided surgery (IGS) systems used in endoscopic sinus surgery (ESS)\nfor chronic rhinosinusitis (CRS) have significant weaknesses that may compromise clinical outcomes including:\n1) high costs, driving lower usage nationally, especially in socioeconomically disadvantaged groups and\ngeographic areas, which are associated with worse CRS disease severity, 2) loss of tracking accuracy during\nsurgery, eroding surgeon trust during the surgical dissection, and 3) disparity between the static computed\ntomography (CT) images and the reality of the surgical field, which diverge as the surgery progresses, potentially\ncompromising the completeness of surgery. Computer vision techniques will be used to create three-dimensional\n(3D) reconstructions of the surgical field forming the basis for a novel next-generation navigation system that\nperforms continuous automated co-registration between the 3D surgical scene and the CT to maintain tracking\naccuracy, reflects anatomic changes on the CT images in real-time during ESS, overlays critical anatomy on the\nlive endoscopic view, and continuously tracks all surgical instruments that are in view. This significant advance\nin surgical navigation will improve substantially on existing IGS for ESS to drive enhanced clinical outcomes in\nCRS by: 1) dramatically reducing the cost and increasing the availability of surgical navigation to all communities\nby harnessing typical video-endoscopic equipment used in ESS and eliminating the need for expensive\nconventional IGS hardware, 2) achieving consistent and stable submillimeter tracking accuracy during the course\nof ESS to improve surgeon confidence, and 3) enhancing the completeness of surgical dissection through real-\ntime dynamic CT updates, highlighting of critical anatomy, and continuous surgical instrument tracking."
+ },
+ {
+  "id": "c14a9081-1e47-46cd-9baf-b6de87ddd4c0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Computational tools for precision genome editing",
+  "text": "In this project, we will develop computational software and generate extensive datasets to study CRISPR (also\ncalled genome editing) experiments, which are intended to make precise changes in the DNA of living cells. The\nsoftware will allow researchers to understand how DNA differences between people may change how CRISPR\nworks, the spectrum of potential DNA changes that might result from different CRISPR methods, and compare\nhow experimental parameters may influence these results. This project will help scientists and clinicians develop\nprecise tools to change DNA sequences in living cells to treat a range of diseases."
+ }
+]

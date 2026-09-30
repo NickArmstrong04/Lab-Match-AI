@@ -1,0 +1,142 @@
+[
+ {
+  "id": "83cd5065-4864-4817-8954-068be0cfc845",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Overcoming the blood-brain barrier with nanoparticle vaccines against gliomas",
+  "text": "Despite maximal surgery, radiation and chemotherapy, glioblastoma (GBM) remains invariably recalcitrant, and\nnecessitates development of new therapies. We have developed a novel FDA-IND approved agent (BB-19304,\nSayour) utilizing RNA-nanoparticles (RNA-NPs) to reprogram innate/adaptive immunity against GBM. In this\nproposal, we will explore the mechanistic underpinnings of RNA-NP mediated response in murine/large animal\nmodels before pursuing a first-in-human clinical trial."
+ },
+ {
+  "id": "83cdacb3-da3e-4c94-b962-ac05e4acdb96",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of CNNM2 in Neuronal Mg2+ Homeostasis, Function and Development",
+  "text": "Mg2+ plays an essential role in neurobiology but despite its importance, how neuronal Mg2+ homeostasis is\nregulated and how its dysfunction contributes to clinical symptoms remains unexplored. In this proposal CNNM2,\na Mg2+ transporter, is leveraged as a biologically relevant entry point to understand these questions. CNNM2\nexpression and protein composition is characterized in both mouse and human neurons and the effect of\ndisease-relevant mutations on neuronal development is determined."
+ },
+ {
+  "id": "83dc3ad4-67d6-4038-873f-cbbfba4717cf",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Defining the role of lymphatic vessels in wound healing",
+  "text": "A thorough understanding of cells and molecules that regulate skin wound healing is\nessential for the generation of tissue-specific regenerative therapies to effectively treat\nhuman disease. Since the manner in which lymphatic vessels function during skin\nwound healing is largely unknown, we will define how these major but poorly understood\ncells function during skin wound healing. Our work will improve our understanding of the\ncells and molecules that control basic skin regeneration, how lymphatic endothelium\nfunction in this process, and will have global relevance for other regenerative tissues in\npatients with lymphatic disorders."
+ },
+ {
+  "id": "83e0669e-c089-49fc-820e-6c0262eb229b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Diagnostic Innovations for Pediatric Tuberculosis in Bolivia",
+  "text": "Pediatric tuberculosis (TB) continues to pose diagnostic challenges in low- and middle-income countries with\nhigh rates of TB disease, due to the fact that children do not produce deep phlegm from the lungs used to\ndetect TB in adults, and because sophisticated methods used in affluent countries are of limited usefulness\ndue to cost, restricted availability, and poor sensitivity in children. Our team will evaluate a new diagnostic\napproach developed by Dr. Tony Hu at Tulane University that detects cell-free DNA from TB bacteria in a\ncohort of children with presumptive TV disease and age-matched controls children. We will also determine\nthe correlation between cfDNA and quantitative imaging-based TB scores determined by chest X-ray and/or by\nlung ultrasound, markers that may combine with cfDNA levels to improve the detection of TB disease in\nchildren."
+ },
+ {
+  "id": "83e84fdf-2958-47d2-814d-58e032856a3c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "DESTIGMA: DEtecting STIgma using Generative AI among Multisite pAtients with substance use disorders",
+  "text": "Stigma is a significant hurdle to treatment for substance use disorders (SUD), often exacerbated in healthcare\nsettings by implicit bias and negative attitudes from providers, and impacting people irrespective of their\ndemographic and social characteristics. Recent advances in natural language processing (NLP) and\ngenerative artificial intelligence (AI) present the opportunity to actively mitigate provider stigma, particularly\ntheir communication through SUD patient notes, and also study the impact of stigmatizing language on\npatients from diverse demographic (e.g., rural vs. urban) and social backgrounds. We propose to develop a co-\npilot system that leverages machine learning, NLP, and generative AI, in a multi-agent AI architecture, to\ndetect and correct stigmatizing language in SUD patient notes across four sites, and to study the impact of\nsuch language on SUD patients across the lifespan and demographic profiles to enhance our ability to mitigate\nthe negative impact of stigmatizing languages in treatment outcomes."
+ },
+ {
+  "id": "83f124fc-5d75-4c3a-bbf4-b4d7a031032c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Develop a novel therapy with immuno- and onco-targeting dual efficacies to treat the triple negative breast cancer",
+  "text": "The current study aims to develop a revolutionized antitumor therapy with both immune- and chemo-therapeutic\nefficacy to treat a broad spectrum of human solid tumors."
+ },
+ {
+  "id": "83f16e73-70e3-4432-ad6e-58ec1791485c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Role of the Endothelial Glycocalyx in Sepsis-Induced Coagulation",
+  "text": "Sepsis-Associated Coagulopathy (SAC) can cause blood vessel occlusion and stroke, but its underlying\nmechanisms are not well understood. This project will contribute to fundamental knowledge in the short term by\nelucidating the role of the vascular endothelial glycocalyx in SAC and in the long term by introducing new model\nsystems for research in sepsis and similar diseases. Further, we will determine whether rapid regeneration of\nthe glycocalyx decreases SAC symptoms in cell culture models, which is likely to offer a strong scientific\nframework whereby new prophylactic, or therapeutic strategies can be developed for sepsis patients."
+ },
+ {
+  "id": "83f80c45-b552-467b-9b54-8669808ce059",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Uncovering Epigenetic and Transcriptional Drivers of Neuroendocrine Plasticity at Single-Cell Level in Patients with Small Cell Lung Cancer Transformation",
+  "text": "Histological transformation from lung adenocarcinoma (LUAD) to small cell lung cancer (SCLC)\nand subsequent diversification into more aggressive SCLC subtypes, are examples of\nneuroendocrine lineage plasticity, a process that promotes metastasis and treatment resistance\nin lung cancer. This proposal uses 1) single-cell sequencing in patient tumors of combined\nLUAD/SCLC histology and 2) functional experiments in preclinical models of SCLC transformation\nto identify transcriptomic and epigenetic changes driving lineage plasticity. These molecular\ndrivers may identify a novel class of drug targets that ablate lineage plasticity, with therapeutic\nimplications in not just lung cancer but also any cancer type where small cell transformation may\narise."
+ },
+ {
+  "id": "83fc32e8-d354-4298-803a-006cc191d7b9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Improving the liver transplant evaluation process: a data science-focused and team-based approach",
+  "text": "Liver transplantation (LT) is the only curative treatment for patients with cirrhosis, and the evaluation process regarding whom is placed on the waitlist for this lifesaving organ is opaque and difficult. Dr. Strauss will develop a data-driven intervention that will improve team decision-making for LT listing. By focusing on this critical period of the LT process, more patients in need will have access to the waitlist and transplantation."
+ },
+ {
+  "id": "8402393b-d80e-40ee-b136-f3311c330de7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of Innate Immune Activation in Mitochondrial Disease Onset and Progression",
+  "text": "Genetic mitochondrial diseases (GMD) impact more than 1 in 4,000 people and are the most common cause of\ninherited metabolic disorders and among the most common causes of inherited neurological disease. GMDs are\na significant medical challenge, as due to poor understanding of the mechanisms underlying these conditions\nthere are no clinically proven therapies exist. The aim of this proposal is to follow up on recently published\nfindings that innate immune cells play a key role in the pathogenesis of Leigh syndrome, the most common\nchildhood GMD, by interrogating the innate immune mechanism signaling mechanisms that governing onset and\nprogression of neurological disease in a mouse model of GMD."
+ },
+ {
+  "id": "8405c697-69f9-4776-bc37-f8541abe5c7c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "CXCR2-mediated modifications to bone marrow vasculature in chronic myeloid leukemia",
+  "text": "Chronic myeloid leukemia (CML) is a myeloproliferative malignancy that makes up 15% of adult leukemia cases.\nAlthough tyrosine kinase inhibitors (TKI) have improved patient survival, most CML patients require lifelong\ntreatment due to the preservation of leukemic stem cells (LSCs) and risk of relapse. This proposal will study the\nrole of inflammatory chemokine receptor CXCR2 in altering angiogenesis in CML and maintaining LSCs during\nTKI treatment, with the goal of identifying novel strategies for targeting TKI-resistant LSCs and advancing health\noutcomes for CML patients."
+ },
+ {
+  "id": "84060ad1-f7c2-4636-bc78-ac8253d39bb2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "RESEARCH AND DEVELOPMENT FOR CLINICAL STUDIES IN THE BLUEPRINT MEDTECH. CLINICAL STUDY PROTOCOL DEVELOPMENT. TASK ORDER 02. 06/17/2024 - 06/16/2029.",
+  "text": "The Blueprint MedTech program is an NIH incubator that aims to support the innovators by accelerating the development of cutting-edge medical devices for diagnosing and treating disorders of the nervous system. The mission of the program is to catalyze the translation of novel technologies from early-stage development to readiness for first-in-human clinical studies. By providing non-dilutive funding and access to essential resources, including planning support, design and testing services, and expert consultations on regulatory and commercialization issues, the program seeks to facilitate the translation of novel technologies to readiness for first-in-human clinical studies. Its goal is to enhance patient access to safe and effective medical devices while attracting further investment from industry and government. The Medtech clinical study protocol development will support translational device applications relevant to The National Institute of Neurological Disorders and Stroke (NINDS) mission to seek fundamental knowledge about the brain and nervous system and to use that knowledge to reduce the burden of neurological disease for all people."
+ },
+ {
+  "id": "84070259-d983-4ca9-bba7-09a3e526aaca",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "AMR Monitoring to Improve Child’s Health and Mortality",
+  "text": "This project proposes to leverage a large-scale sample collection from an existing cluster-randomized trial\n(AVENIR II) to study the effects of azithromycin mass drug administration on clinical outcomes, dynamics of\nantibiotic resistance emergence and disappearance, as well as the biological fitness of resistant pathogens\ncausing disease. The project will use phenotypic methods, as well as long-read whole-genome sequencing\nand short-read metagenomic sequencing, to characterize antibiotic resistance in the nasopharynx and gut of\nboth healthy and ill children in the community and at clinics. Findings from this study will provide insight into the\nuse of mass drug distribution and its off-target effects in the general population."
+ },
+ {
+  "id": "840bdc96-702f-474b-82c3-cf9fe9e2dcdc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Hepatitis B virus integrations in KMT2B drive hepatocellular carcinoma",
+  "text": "Hepatitis B virus (HBV)-driven hepatocellular carcinoma (HCC) is among the most deadly cancers worldwide\nand disproportionally affects minority groups and immigrants in the US. We found 10% of HBV+ HCC tumors\ncarry clonal integrations of HBV sequences in the KMT2B gene within the cancer genome, which affect about\n35,000 HCC cases yearly. This project will investigate this understudied oncogenic event, discover how these\nintegrations cause cancer, and provide novel targeted strategies to treat patients."
+ },
+ {
+  "id": "840da813-6144-4c02-853a-7cfdfaea7258",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Optical microcavities for label-free single-molecule analysis of biomolecules",
+  "text": "The conformation of a biomolecule is a key determiner of its function or behavior. Assessing\nthat conformation, and how that conformation changes as a function of time, presence of\nanother biomolecule, or some other physical stimulus, is a nearly ubiquitous step in\nbiotechnology, ranging from molecular biology to pharmaceutical development to analytical\nmethods. This MIRA focuses on development of a new and potentially disruptive technology\nwhereby optical microcavities can assess biomolecule conformation in a way that is label-free,\nfast, passive, requires little sample, and provides a readout on each individual molecule."
+ },
+ {
+  "id": "840ee1ca-050b-4f35-9276-aad4718e3264",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mass Spectrometry Core (MASS)",
+  "text": "PROJECT SUMMARY – MASS SPECTROMETRY The Mass Spectrometry Shared Resource (MASS) provides Salk Cancer Center (SCC) members with the highest level of support for their proteomic and metabolomic needs. The Director and Senior Mass Spectrometrist provide expert consultation concerning the design, implementation, and analysis of a wide range of experiments, including protein identification and quantification, identification of post-translational modifications, secreted protein/peptide analysis, untargeted lipidomics profiling, targeted lipidomics and metabolomics (including bile acids, amino acids, and fatty acids). MASS routinely provides service to 45% of the SCC members, who utilize 95% of total services purchased."
+ },
+ {
+  "id": "84157a83-4e3e-4e37-803f-dc042bb915a4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Nanomechanics of inner-ear hair-cell transduction",
+  "text": "The senses of hearing and balance rely on tip-link protein filaments that pull on transduction ion channels to\ntransform mechanical stimuli into electrochemical signals that can be processed by the brain. Mutations to the\nproteins forming the tip link and the transduction channel complex have been shown to cause deafness in\nhumans and animal models. Here we propose to use structural and computational tools to gain insights into\nhow the inner-ear proteins forming the tip link and the transduction channel complex function in normal and\nimpaired hearing."
+ },
+ {
+  "id": "841d1c69-4387-4833-a516-1d6568c9b2e1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Genomic Instability in Lung Cancer: Unraveling the Impact of the APOBEC3 Family",
+  "text": "This study aims to investigate the role of APOBEC3 cytosine deaminases as drivers and regulators of genomic\ninstability in lung cancer. These aims will establish which APOBEC3s are crucial in lung cancer mutagenesis\nand will study A3s' ability to inhibit genotoxic retroelements to limit genome instability in lung cancer cells.\nTogether, these data will define the fundamental mechanisms underlying A3 mutagenesis and set the stage for\nfuture studies seeking to identify the causes of A3 dysfunction in lung cancer."
+ },
+ {
+  "id": "841d9972-59be-438e-8f1c-5a1807746f28",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Enhancing Dendritic Cell Migration to Draining Sentinel Nodes to Improve Immunotherapy Response in HPV negative HNSCC",
+  "text": "Cancer immunotherapies has led to major treatment breakthroughs for many cancers, but majority of head and\nneck cancer patients, particularly those with cancers caused by smoking and alcohol exposure, do not respond\nto immunotherapies when immunotherapy is part of the initial treatment. We have shown that targeting tumors\nwith stereotactic radiation in combination with immunotherapy while sparing draining lymph nodes enhances\nanticancer immunity, resulting in dramatic responses in previously untreated patients, and this response is\ndependent on specific cells (dendritic cells) that recognize tumors and then migrate to specific draining lymph\nnodes to coordinate immune response against head and neck cancers. The research outlined in this proposal\nwill examine the role of these migrating dendritic cell in immunotherapy response to head and neck cancer and\ndevise new treatment paradigms for treating head and neck cancer that leverage and enhance the power of\nmigratory dendritic cells."
+ },
+ {
+  "id": "841df1c7-41f7-42a2-942a-8fdfce4d7a93",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Viral Vector Technology (VVTSR)",
+  "text": "VIRAL VECTOR TECHNOLOGY SHARED RESOURCE The Viral Vector Technology Shared Resource (VVTSR) supports St. Jude Children’s Research Hospital (SJCRH) investigators who use recombinant viral vectors to advance pediatric cancer research. The VVTSR makes custom, research-grade adeno-associated viral, lentiviral, and gamma-retroviral vector preparations; assists investigators in the design and application of viral vectors; maintains a suite of viral vector plasmids, helper plasmids, and reagents; and facilitates the transfer of clinically relevant viral vectors to the Children’s GMP, LLC, located on the SJCRH campus. The Children’s GMP, LLC, manufactures cell and gene therapy products in support of SJCRH clinical trials. The laboratory is directed by Robert Throm, PhD, who oversees viral vector production, consultation, and development efforts. Throm earned his doctorate degree in microbiology and immunology and has worked in the VVTSR for 20 years, serving as Director for the last 5 years. The VVTSR is staffed by seven additional laboratory members, including one Managing Senior Scientist, one Scientist, one Laboratory Supervisor, three Lead Researchers, and one Researcher. In 2019, the VVTSR became an institutional shared resource, and over the last 4 years, experienced an average annual growth rate of 29% in service requests from investigators. During FY2024, the VVTSR delivered >1,000 viral vector preparations to 61 laboratories across 20 departments at SJCRH. This includes preparations for 44 St. Jude Comprehensive Cancer Center (SJCCC) members within the Cancer Biology, Developmental Biology and Solid Tumor, Hematological Malignancies, and Neurobiology and Brain Tumor Programs. Over the project period, the VVTSR has contributed to 21 publications from SJCCC members, 12 (57%) of which were published in high- impact journals (impact factor >10). These included collaborative efforts with SJCCC members to develop lentiviral vectors expressing novel chimeric antigen receptors for T-cell immunotherapy. Additionally, VVTSR worked with several members to improve viral vector production; these technological advances have been implemented by the Children’s GMP, LLC, in their clinical manufacturing of viral vectors that support multiple clinical trials for cancer and monogenic diseases. The VVTSR has also recently developed a novel Cas9- containing, virus-like particle system for editing chimeric antigen receptor–expressing T cells that will soon be transferred to the Children’s GMP, LLC, for clinical use. The VVTSR supports SJCCC members at the fundamental and translational research levels."
+ }
+]

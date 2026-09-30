@@ -1,0 +1,142 @@
+[
+ {
+  "id": "703d78fe-683f-47b9-ba89-bd6c01c3913d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Texas A&M Center for Environmental Health Research (TiCER)",
+  "text": "Data Science Facility Core ABSTRACT The vision for the Texas A&M Center for Environmental Health Research (TiCER) is to nucleate research and translational activities of faculty around the overarching theme “Innovative solutions for addressing exposure-stressor interactions in urban and urbanizing areas in the state of Texas.” The Data Science Facility Core (DSFC) will provide key enabling services in data collection, storage, analysis, and integration to assist members of the Center to fulfill this mission. Key data science challenges that the DSFC will address include the high dimensionality of novel biological and chemical data streams, the need to translate data into actionable knowledge for environmental health decision-making, the need to geospatially contextualize data at the level of local communities. The DSFC will support these needs by leveraging data science expertise and resources across Texas A&M. There is a nearly ubiquitous need for such services across the Center’s two research themes: Stressors to Responses; Environment and Metabolism. Thus, the DSFC will serve as a key facilitator of interactions across the entire Center. The DSFC’s overarching goals are to provide novel and state-of-the-art data science services to support and integrate the Center’s scientific and outreach activities. This goal will be accomplished by providing services in several specialized and complex areas of data science— bioinformatics/biostatistics, risk sciences, and geospatial sciences—as well as providing a central data repository for Center investigators. In the bioinformatics/biostatistics area, the DSFC will focus on analysis and interpretation of complex data streams, especially the emergence of single cell-based analyses. In the risk assessment area, the focus will be on characterizing and predicting chemical toxicity through both mechanistic and data-driven mathematical/statistical models that integrate multiple diverse data sets. Furthermore, geographic information systems have emerged as an essential element of identifying and solving environmental health problems, and communicating and tailoring policy interventions. DSFC is adding personnel with extensive experience in geospatial analytics, data integration, and visualization, enabling it to substantially enhance the impact of Center research in support of communities and decision-makers. Finally, integration of data will be facilitated through a common data repository, the design and development of which will be closely coordinated with the rest of the Center, and which be indexed for searching and data mining. The DSFC will provide these services through direct support from Core senior personnel and as well as a flexible staff that can vary in effort depending on needs. The DSFC will work closely with the Administrative Core to encourage investigators’ use of the DSFC and access and track the Core’s operation and funding allocations. The leaders of the DSFC have an established track record of collaborative, interdisciplinary, and translational research, and are well positioned to support the data science needs across the Center to address environmental exposures in Texas and beyond."
+ },
+ {
+  "id": "703daea6-edd4-4b44-8b9c-8d63242650ed",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Label-Free Optical Redox Imaging for Pretreatment Prognosis of Early-Stage Triple Negative Breast Cancer",
+  "text": "Label-Free Optical Redox Imaging for Pretreatment Prognosis of Early-Stage Triple Negative Breast\nCancer\nNarrative\nAbnormal metabolism and redox status have been demonstrated in high-risk breast cancer. Using clinical\nspecimens, mouse xenografts, and cell models, we will validate an optical redox imaging method to predict the\nrisk of progression in triple negative breast cancer (TNBC). The proposed research is relevant to public health\nbecause it will identify clinically translatable novel biomarkers to stratify the progression risk in untreated TNBC\npatients, supporting the NIH’s mission to improve cancer diagnosis and personalized treatment planning."
+ },
+ {
+  "id": "7045382b-18ce-4353-8438-34019075bf9c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development and Regulation of Emotion in Primates",
+  "text": "New treatments for anxiety disorders are critically needed and a more complete understanding of pathological\nanxiety at the molecular, cellular and circuit level will provide a foundation for new treatment development.\nUsing our non-human primate model of extreme anxiety, the proposed studies will use neuroimaging,\nmolecular sequencing techniques and chemogenetics to understand the extent to which neurons in the\nbasolateral amygdala can serve as treatment targets. Additionally, these studies will serve as a proof-of-\nconcept to understand the feasibility of developing chemogenetic approaches for the future treatment of severe\nand refractory psychiatric disorders."
+ },
+ {
+  "id": "7047da64-c4e9-45db-b1aa-141ea17e3da3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Yale Cooperative Center of Excellence in Hematology",
+  "text": "The purpose of the Yale Cooperative Center of Excellence in Hematology (YCCEH) is to facilitate and enhance\nresearch in blood diseases by facilitating synergy between many different scientists both within Yale and at\nmultiple academic institutions across the country. The Center will help these scientists by providing access to\nand training in state-of-the-art technologies. Our unique focus is the application of emerging technologies to\nbetter understand blood diseases. The center will play a key role in the integrated program of blood disease\nresearch supported by other Cooperative Centers of Excellence in Hematology by providing opportunities to\nincrease interactions and collaborations."
+ },
+ {
+  "id": "7053f0cb-cfae-4631-8695-6ea8652c75ce",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "AVIT24 System for Next-Generation Sequencing and Spatial MultiOmics to Advance Genomics Research at USC",
+  "text": "This project will acquire an Element Biosciences AVITI21 next-generation sequencing (NGS) and spatial\nmultiomics system for the Functional Genomics Core at the University of South Carolina (USC),\nreplacing an outdated Illumina NextSeq 500 system. The AVITI24 provides high-throughput, cost-\neffective sequencing with spatial OMICS capabilities, enabling precise and cost-effective analyses. It\nwill serve more than 20 NIH-funded investigators and other federally funded researchers across USC\ncampuses and collaborating institutions throughout South Carolina and neighboring states."
+ },
+ {
+  "id": "705b4f3f-2e3f-4288-9e45-07bcc8db871a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A high throughput platform for intracellular delivery of impermeable drug molecules and molecular probes to enable a new generation of screening assays",
+  "text": "Portal Biotechnologies is revolutionizing drug discovery by leveraging their high throughput screening GalaxyTM\nprototype to dramatically improve biological insights early in the drug discovery process. Their approach\nenables screening of impermeable compounds in cell-based systems before initiating expensive med\nchem campaigns and enables novel assays ranging from intracellular DNA encoded library screens to direct\nprobing of drug-target interactions in live cells. The proposed project will 1) ensure the compatibility of Portal’s\nGalaxy system with a variety of commonly used liquid handlers, and 2) develop general protocols that are\ncompatible with novel intracellular assays for drug-target interaction and intracellular staining that can accelerate\ndrug discovery."
+ },
+ {
+  "id": "705fbace-5373-46d6-b538-886580d03c12",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Elucidating the Functional and Mechanistic Roles of LINE-1 Retrotransposons in Myeloid Leukemia",
+  "text": "Nearly half of the human genome is comprised of mobile DNA elements that are commonly recognized as\nsources of genetic mutations to drive cancer development. We recently discovered that the epigenetic\nsilencing of L1 retrotransposons, the autonomously mobile DNA, is required for the propagation of AML-\ninitiating cells, thus establishing an unexpected ‘tumor-suppressive’ function for retrotransposon activity in\nmyeloid leukemia. Elucidating the functional and mechanistic roles of L1 retrotransposons in leukemia\npathogenesis and in response to anti-leukemia agents will establish a previously unrecognized regulatory\npathway in cancer pathobiology, whose intervention may lead to improved anti-leukemia therapies."
+ },
+ {
+  "id": "7062b675-015f-4f68-a8b8-eef7a3dfb400",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Translational approaches to unravel organ-specific microvascular endothelial responses in sepsis.",
+  "text": "Translational approaches to unravel organ-specific microvascular endothelial responses in sepsis.\nNARRATIVE:\nMy laboratory is focused on understanding how injury to blood vessel cells contributes to organ damage in\nchildren with sepsis –a life-threatening condition caused by an infection. By detailed study of free-floating blood\nvessel cells and by treating miniature blood vessel organs in petri dishes with plasma collected from children\nwith sepsis, we seek to identify genes that lead to organ damage. Our studies may lead to the discovery of\nmedicines that can help recover from organ damage and help save the lives of very sick children with sepsis."
+ },
+ {
+  "id": "706852c7-12ec-408b-a9fe-48587966221c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Bundled Multicancer Screening and Genetic Services Navigation to Improve Cancer Outcomes",
+  "text": "Many women face challenges in receiving important cancer screenings and cancer genetic testing. Our study will test whether innovative navigation strategies can address these challenges and support high rates of breast and colorectal cancer screening as well as genetic testing."
+ },
+ {
+  "id": "706a8018-707b-4325-bf3d-0dbfc1bcd00d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeted drug delivery system to overcome blood-brain barrier and therapeutic resistance to current standard of care in Glioblastoma",
+  "text": "O6-methylguanine-DNA methyltransferase (MGMT) plays a prominent role in DNA adduct repair that limits the\nmutagenic and cytotoxic effect of alkylating agents. The goal of this research project is to apply biodegradable\nsmall-sized polymer for targeted delivery of DNA MGMT inhibitor with combination of TMZ and radiation therapy\nfor real time monitoring of response to the treatment. Success in our study in preclinical animal tumor models\nshould provide us with novel DNA inhibitors and methods to further develop clinical applications of such therapy\noptions for the improved treatment of brain tumors."
+ },
+ {
+  "id": "706af254-88cb-4f87-ac0f-014ee3a08c9d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Center: LipiX-MS: Chemical Crosslinking Mass Spectrometry Approach for Decoding Lipid-Protein Interactions",
+  "text": "Lipid–protein interactions are central to membrane dynamics, signaling, and metabolism, yet remain poorly\nunderstood due to their transient nature and the structural complexity of lipids. This proposal introduces LipiX-\nMS, an innovative chemical crosslinking mass spectrometry platform that enables site-specific, isomer-resolved\nmapping of lipid–protein interactions with unprecedented precision. By revealing how specific lipids influence\nprotein structure and function, LipiX-MS has the potential to uncover molecular mechanisms underlying diseases\nsuch as Alzheimer’s, cardiovascular disorders, and cancer, ultimately informing the development of new\ntherapeutic strategies."
+ },
+ {
+  "id": "707c4d49-ffcc-4f7d-bf38-85404f875669",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Metabolic Basis of Disease - Phase 2",
+  "text": "The overall goal of this Phase 2 Metabolic Basis of Disease center is to continue to facilitate the growth of young\nintellectual talent, foster collaborations, and enhance the scientific infrastructure to promote biomedical research\ndiscoveries that will enhance our understanding of the metabolic aspects of various disease states."
+ },
+ {
+  "id": "7084d91d-bbc1-4977-a5ac-d9bf09937210",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Effect of Maternal Exercise in Women with Obesity on Offspring Mesenchymal Stem Cell Metabolism",
+  "text": "Infants born to mothers with obesity during pregnancy are at greater risk of developing obesity. Lifestyle\ninterventions, such as exercise, during pregnancy may be a viable strategy to offset this risk; however,\nmechanisms are lacking. This research project will be the first step to understanding the cellular mechanisms,\nusing human umbilical-cord mesenchymal stem cells, of how maternal exercise decreases obesity risk in\ninfants."
+ },
+ {
+  "id": "7085da5b-dfaf-4f03-8d21-bfc7d9d14ad7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "SpliceDisco: A Machine Learning Tool for the Identification of Alternative Splicing Events Directly Regulated by Pathological Splicing Factors in Cancer",
+  "text": "Alternative Splicing (AS) dysregulation is a common occurrence in many cancers that results in tumor-specific\nAS events which generate unique proteins, some of which have properties suitable for targeting with immuno-\noncology (IO) therapeutics. RNA-sequencing is a proven and powerful tool to identify tumor-specific AS events,\nhowever, not all AS events are directly linked to pathological cancer processes and thus will not result in effective\ntargets. This proposal will develop SpliceDisco, which will identify direct regulatory connections between AS\ntarget candidates and pathological splicing factors (SFs) which will provide strong evidence that AS events\nidentified by our SpliceCore platform are pivotal to cancer pathogenesis and difficult for tumors to circumvent\nthrough drug resistance mechanisms."
+ },
+ {
+  "id": "7086d910-5295-4f97-948c-26db3dcebe36",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "SCH: A multimodal wearable device to measure physiologic coupling",
+  "text": "RELEVANCE (See instructions):\n For many chronic pathologies, it is difficult to determine if symptoms are the result of an acute bout of\n disease worsening or `usual' variation in disease severity. This project will create and validate a passive\n wearable electronic system and analytic approach that can provide diagnostic information regarding\n whole person health. Providing timely and effective interventions will lead to increased quality of life as\n well as lower healthcare costs."
+ },
+ {
+  "id": "70883f05-a83f-461f-82a1-ec6189f5aad5",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Training Program in Stem Cell Translational Medicine for Neurological Disorders",
+  "text": "Stem cell-based treatments offer unprecedented hope to treat human neurological disorders. Training of junior\nscientists having expertise in stem cell biology and neuroscience, together with a comprehensive\nunderstanding of industry, regulatory clinical and statistical knowledge, is essential to realization of this vision.\nWe have implemented these goals within our NIH Training Program in Stem Cell Translational Medicine\nfor Neurological Disorders, now in its 9th year, to train predoctoral students in integrated and translational\napproaches to stem cell biology, neuroscience and human neurological disease and propose to renew and\nfurther strengthen this successful training program."
+ },
+ {
+  "id": "708b6989-8484-4d12-a5e1-966b445ff421",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cancer Prevention",
+  "text": "ABSTRACT – CANCER PREVENTION The broad goal of the Cancer Prevention (CP) program is to reduce the burden of malignant disease through risk-stratified prevention, targeted to those who will benefit from it, and population-based prevention designed to reach at risk populations. This goal is supported by three specific aims: 1) identify novel strategies for cancer risk stratification through the discovery and validation of causative links; 2) discover and develop new therapeutics to reduce cancer risk; and 3) develop and implement innovative behavioral, pharmacological, and eHealth interventions to promote risk-reducing, health promoting behaviors and adherence to screening, early detection, and cancer prevention approaches. The multi-disciplinary program is co-led by Seema Khan, MD, a surgeon and translational investigator whose research focuses on cancer risk biomarkers and novel pharmacologic approaches to cancer prevention; Bonnie Spring, PhD, a clinical health psychologist whose research focuses on behavioral risk factors and novel technology-supported behavioral interventions to prevent cancer; and Brian Hitsman, PhD, a health psychologist whose expertise is the treatment of tobacco dependence and other cancer risk behaviors in clinical and community settings. The Cancer Prevention Program’s 35 members from 14 departments and 3 schools conduct research on prevention of primary cancers in unaffected at-risk populations, and second primaries in cancer survivors. During the current funding cycle there were 736 cancer-relevant publications from CP members, of which 153 (21%) represent intra-programmatic collaborations, 174 (24%) represent inter-programmatic collaborations, and 586 (80%) represent external collaborative publications. Current annual cancer-relevant, peer-reviewed funding for CP is $14,607,724 (direct costs) with $3,272,440 from the NCI and $11,335,284 from other peer-reviewed sources. A total of 13,209 individuals were enrolled into CP studies, with 4873 enrolled into interventional trials. The importance of the work of the CP program is evidenced by: 1) the recognition that risk stratification is of foundational importance to the implementation of risk reduction interventions; 2) the demonstrated success of cancer prevention agents in reducing cancer risk; and 3) the large portion of the cancer burden that can be attributed to mutable behavioral and environmental factors. More effective screening tools for risk stratification, better adherence to preventive agents, and promotion of risk-reducing and health promoting behavior all promise to yield rich dividends in reducing the burden of cancer. The CP program actively expands the capabilities and efficacy of cancer prevention by developing and employing innovative technologies, measurement tools, and methods for pharmacological and behavioral cancer prevention interventions. The program's integrated interdisciplinary focus on prevention provides an environment that fosters intra- and inter-program collaboration and has spawned high impact advances in public health."
+ },
+ {
+  "id": "708e39a0-32af-4845-85d4-5df4e3be9f65",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Research Development Core",
+  "text": "Core B — Resource Development Core PROJECT SUMMARY The Resource Development Core (Core B) will generate, maintain, and supply both wild-type and genetically engineered pigs to support Project 1 and Project 2, which together define how pre-existing immunity along with environment modulate airborne influenza transmission. Because obtaining human immune tissues (e.g., lung, spleen, peripheral lymph nodes) and conducting controlled infection studies are not feasible, investigations of influenza A virus (IAV) immunity and transmission rely heavily on animal models. Pigs offer major advantages over other systems due to their physiological, anatomical, immunological, and genomic similarities to humans. They are natural hosts for IAV, develop clinical disease and shedding patterns that closely mirror human infection, are amenable to genome editing, and have broader access to immunological reagents than non-rodent models such as ferrets. These attributes make pigs an ideal translational model for dissecting the immune mechanisms that regulate viral replication and airborne transmission. Core B will provide wild-type piglets to model transmission outcomes across defined immunity states and genetically engineered pigs to investigate how humoral (mucosal and systemic antibodies [Abs]) and cellular (CD4, CD8, and γδ T cell subsets) responses modulate viral clearance, shedding, and transmission. We hypothesize that each Ab compartment and T cell subset plays a unique role in limiting viral viability and airborne spread, and that selective loss of these components will reveal their individual contributions to protection. To achieve these objectives, Core B will: (1) supply Projects 1 and 2 with wild-type pigs and existing IGH-knockout (KO) (Ab-deficient), CD4-KO, and CD8 (CD8A)-KO models; (2) develop, validate, and supply γδ T cell KO pigs; and (3) develop and maintain advanced genetic models relevant to transmission of influenza and other respiratory pathogens. All models will be archived and distributed through the National Swine Resource and Research Center (NSRRC) to ensure their availability to the broader research community. By enabling the use of genetically defined, physiologically relevant swine models, Core B will transform mechanistic studies of influenza transmission. Its innovative integration of targeted gene editing with large-animal modeling will provide an unprecedented experimental platform for defining immune control of viral shedding and spread. The resources developed through Core B will extend beyond influenza, creating versatile tools to study a wide range of respiratory pathogens and strengthening preparedness for future epidemic, emerging, and pandemic threats."
+ },
+ {
+  "id": "70918abf-3bd2-4c58-890c-72abc7430af8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "MitoPac female killing systems in mosquitoes",
+  "text": "Female-killing technologies can be used to control mosquitoes that transmit human pathogens. This project\naims to build novel tools to support the development of female-killing technologies in mosquitoes, including\nmitochondria restriction endonuclease-based female-killing technologies, tools to refine the expression of\nfemale-killing genes, and CRISPR-based female-killing technologies."
+ },
+ {
+  "id": "709c32a9-88c7-4fe2-bcb1-31ff949d2c27",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "4/5-Clinical Outcome Prediction of Psychosis from EHRs (COPPER)",
+  "text": "Precision Medicine has now been firmly incorporated into the routine standard-of-care in many medical\nspecialties, in stark contrast with Psychiatry where quantitative predictors that guide clinical decision-making\nremain extremely limited. Our proposed studies aim to advance the goals of Precision Psychiatry by using\nartificial intelligence to build clinical outcome predictors of psychosis through integration of electronic health\nrecords, dimensional phenotyping, and genetic information, in addition to exploring the psychosocial impact on\npatients and clinicians. Our long-term goal is to advance the tools available for personalized approaches to\ndiagnosis, treatment, and prognosis in mental health."
+ }
+]

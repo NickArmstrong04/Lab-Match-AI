@@ -1,0 +1,142 @@
+[
+ {
+  "id": "5c5b7a52-fda2-4735-b3e1-02ed507b5290",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Advancing Statistical Methods for Next-Generation Microbiome Data Analytics",
+  "text": "Our research lab aims to support human microbiome research by developing statistical methodology that\naddresses unmet data analysis needs in the field. This proposal will create novel analytic methods to handle\nunmeasured confounding factors in large-scale microbiome studies, leverage new genomic large language\nmodels to aggregate and analyze underexplored microbial genes, and develop measurement error models to\nadjust for noisy gene abundance in analyzing metatranscriptomic studies. Our research products will be\nvalidated, made publicly available as software and databases, and used to advance our understanding of the\nhuman microbiome and its role in health and disease.\n1"
+ },
+ {
+  "id": "5c65e68a-58e1-48e0-9b80-45068e26242f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Super-sensitive vibrational imaging by synergic development of instruments and probes",
+  "text": "We will develop the next-generation, ultrasensitive stimulated Raman scattering (SRS) microscopy by integrating\ninnovations from imaging instrumentation, probe chemistry and data science. This research will bring SRS\nmicroscopy to the ultimate sensitivity (comparable to that of fluorescence microscopy), and fully open the\napplication in live cell biology."
+ },
+ {
+  "id": "5c6bcced-9069-4fe8-8bb3-d167f5f76690",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Elacestrant in breast cancer bone metastases",
+  "text": "Bone metastasis is an incurable condition, and current standard of care disrupts estrogen signaling in the bone\nmicroenvironment leading to bone-related morbidity, which if left untreated may accelerate metastasis. This\nproposal aims to investigate the use of a novel endocrine therapy called Elacestrant which may lessen\ndestruction of the bone microenvironment while still eliminating metastatic cells, due to context-dependent\nselective ER agonist/antagonist activity. The proposed study will expand the knowledge of new-generation\nendocrine therapies in the context of cancer and the cancer microenvironment, as well as yield clinically\nactionable data which may be rapidly translated to patient care."
+ },
+ {
+  "id": "5c747173-a5b5-47ce-a1ea-a3b4caa8b4a4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The role of G6PD in resistance to asparaginase-induced hyperammonemia",
+  "text": "This proposal is built on our recent discovery in colorectal cancer cells that G6PD deficiency induces sensitivity\nto asparaginase, a therapeutic enzyme that degrades asparagine to produce aspartate and ammonia. While the\nefficacy of asparaginase is believed to be due to amino acid deprivation, we find that G6PD deficiency induces\nsensitivity to asparaginase-induced hyperammonemia, revealing a new mechanism of action for this cancer\ntherapeutic. Successful completion of this proposal is expected to offer novel treatment strategies that exploit\nthe therapeutic interaction between impaired G6PD and asparaginase for patients with advanced colorectal\ncancer, who are in dire need of effective treatment options."
+ },
+ {
+  "id": "5c82c85b-4bd0-4a39-a017-6e9869bff305",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Pangenomics of nicotine abuse in the hybrid rat diversity panel",
+  "text": "Risk of smoking cigarettes depends on interactions between environmental factors, age, and genetics. This\nproject uses advanced long-read genome sequencing and unbiased pangenomic analysis to fully identify genetic\nvariants in the hybrid rat diversity panel. Combined with nicotine self-administration data from this panel, our ad-\nvanced systems genetics approach will define causal linkages between DNA variants and key nicotine-dependent\nbehaviors including initial acquisition and motivation to take nicotine, withdrawal from nicotine dependence, and\nnicotine seeking under conditions that model aspects of human relapse to smoking."
+ },
+ {
+  "id": "5c9ac9e8-f21b-4cf8-89b7-cbd8554be46b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Diabetes Modeling Core",
+  "text": "DIABETES MODELING CORE\nNARRATIVE\nThe overall mission of the Diabetes Modeling Core is to provide diabetes researchers with access to novel human\nstem cell-derived in vitro cell models and genetically-engineered mouse models for investigating cellular and\nmolecular features of both Type 1 and Type 2 diabetes. We will provide expertise, resources and training in these\nstart-of-the-art stem cell technologies together with rigorous quality control testing, standardization and\nauthentication to promote innovative basic and translational diabetes research."
+ },
+ {
+  "id": "5ca0e483-4bb4-4d7b-8bdb-c0cf0ae2f9e5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Type 2 immunity: a primitive response to epithelial injury that shapes bone marrow and lung myeloid crosstalk",
+  "text": "We recently found that IL-4, a cytokine mostly associated with allergic disease is produced within lung tumor\nlesions and controls the development and the differentiation of myeloid cells in the bone marrow and lung\nlesions. In this grant, we will determine the mechanisms controlling IL-4 production in lung lesions and the\ndownstream consequences of IL-4 signaling on bone marrow myelopoiesis and myeloid cell differentiation in\nlung tissues. We have also started a clinical trial to treat lung cancer patients with combined IL-4R receptor alpha\nand PD-1 antibody blockade providing a unique opportunity in this grant to measure the impact of IL-4 receptor\nsignaling blockade on human circulating and lung tissue infiltrating myeloid cells."
+ },
+ {
+  "id": "5ca190ae-f1c4-400c-89a1-60bccee5bf5b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multi-Site Neuroimage Harmonization for Personalized Brain Disorder Analysis",
+  "text": "This project will equip neuroscience researchers, radiologists, neuroimaging technologists, and study coordi-\nnators with automatic and accurate tools for multi-site neuroimage harmonization, multimodal data fusion, and\npersonalized/subject-speciﬁc analysis of preclinical Alzheimer's disease (AD) such as subjective cognitive de-\ncline (SCD). Our tools will allow (i) multi-site feature-level harmonization for precision medicine and image-level\nharmonization for general purposes, (ii) principled multimodal data fusion without discarding modality-missing\nsubjects, and (iii) scalable neuroimage search to assist in subject-speciﬁc analysis of SCD and AD-related disor-\nders (ADRD). Successful completion of this project will allow harmonization and integration of multimodal data to\nbe done automatically in large-scale multi-site studies, thus improving the precise interpretation of neuroimaging\ndata enhancing the statistical power for progression prediction of SCD and AD-related disorders."
+ },
+ {
+  "id": "5ca38082-8b8b-4816-9986-e70393fafdf0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identification of N6-methyladenosine (m6A) marks and genes influencing lung cancer risk",
+  "text": "This study will integrate innovative genetic epidemiology methods, multi-omics approaches, and cutting-edge\nCRISPR technologies with exceptional resources of healthy-donor lungs, lung tumors, and large-scale\ngenome-wide association study (GWAS) data from both European- and African-ancestry populations. We aim\nto identify N6-methyladenosine (m6A) marks associated with lung cancer risk, characterize tumor-to-normal\ndifferences in m6A’s regulatory effects on RNA metabolism, prioritize m6A-mediated functional genes involved\nin lung tumorigenesis, and experimentally validate the roles of prioritized m6A marks and genes in lung cancer-\nrelated pathways. Findings from this work will significantly advance our understanding of lung cancer etiology\nand biology, inform new prevention and treatment strategies targeting reversible m6A marks, and ultimately\ncontribute to reducing the burden of lung cancer."
+ },
+ {
+  "id": "5ca7c8fd-e070-42ed-92c7-f6748b35cb8e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Deep learning-based target volume delineation capturing observer variability in head and neck cancer",
+  "text": "The aim of this research is to develop multimodal delineation algorithms capable of accurately and\nreproducibly delineating radiation therapy gross target volumes and clinical target volumes in a variety\nof head and neck cancer locations, as well as target volumes specific to recurrent disease scenarios.\nOur approach will use deep learning and multimodal PET/CT imaging, while capturing inter- and intra-\nobserver variability."
+ },
+ {
+  "id": "5cb8df00-53a8-444b-a9bb-4521f11ba38a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Genome instability in cancer: telomeres and DNA repair",
+  "text": "This project is focused on understanding how genome rearrangements occur in cancer with a particular\nemphasis on understanding how telomere shortening prevents tumorigenesis and how loss of telomere\nfunction in developing cancers changes the cancer genome. The proposed experiments will illuminate new\naspects of genome instability in cancer and are designed to deliver insights that will ultimately inform and guide\ndecisions in the cancer clinic."
+ },
+ {
+  "id": "5ccb3f1a-3ac3-4826-bf67-a18a751dd6f9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Pre-Clinical Evaluation Core",
+  "text": "Summary Pre-Clinical Evaluation Core. The Center for Pre-Clinical Cancer Research (Cancer COBRE) aims to identify clinically relevant mechanisms of human cancer using models that closely reflect the disease state in the context of the tumor microenvironment to reveal insights into tumorigenesis and thus drive novel therapeutic discovery. Promising Junior Investigators (PJIs) address devastating and/or chronic human diseases that exhibit poor outcomes in patients and for which there are unmet therapeutic needs. The four PJI projects feature osteosarcoma, breast cancer, liver cancer, and prostate cancer as diseases that would benefit from pre-clinical models that are more predictive of mechanistic efficacy in humans. The PJI projects will use specialized in vivo mouse models and/or in vitro 3D tumor spheroids to identify or validate relevant mechanisms of tumorigenesis or for evaluation of novel therapeutic strategies. The Center will promote a unified and coordinated approach by establishing a new specialized core facility, Pre-Clinical Evaluation Core (PCEC), to provide scientific expertise and technical support for the pre-clinical evaluation of the PJI projects. Human and animal diseases are a major focus at the LSU SVM and on the LSU campus. The unique PCEC will provide a centralized approach that will support exploratory, as well as translational assessment of cancer disease mechanisms and therapeutic strategies in humans. To accomplish this approach, advanced 3D cancer cell culture systems (spheroids) will provide critical translational information. The Center has three Aims: Aim 1. To centralize management and coordination of pre-clinical evaluation of tumorigenesis diseases mechanisms and translational therapeutic approaches. Aim 2. To provide the COBRE PJIs and other biomedical investigators with resources for development and analysis of advanced preclinical cancer models, including 3D bioprinting and cell culture training, instrumentation, technical support, and consultation. Aim 3. To educate faculty, staff, postdoctoral fellows, and graduate students regarding pre-clinical evaluation using state-of-the-art in vitro 3D cell cultures to complement in vivo models."
+ },
+ {
+  "id": "5ccbaa4f-38f1-4b7c-a08e-6a42d7ec0a18",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mitochondrial fission proteins shape platelet production and function",
+  "text": "Heart attacks and strokes are caused when blood clots caused by cells called platelets stop blood flow.\nMitochondria supply cells with energy and are maintained by proteins that balance mitochondrial division and\nfusion, including in platelets and the cells that form platelets. Our goals are to define how mitochondrial fission\nproteins contribute to platelet numbers, size, and function, and whether this pathway can be targeted to reduce\ncardiovascular disease."
+ },
+ {
+  "id": "5ccdc0a5-0ac1-4630-bb03-cdcd8f65a231",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Human Hepatocyte and Discovery Core",
+  "text": "Gene therapy for hemophilia A holds promise to accomplish a lasting cure. Adeno-associated viral (AAV) gene transfer of clotting factor FVIII to the livers of males can achieve therapeutic correction but this is not sustained. The reasons for hepatotoxicity and the decline in FVIII expression in clinical trials are unclear. The AAV therapies currently under investigation target hepatocytes in the liver. There is, however, a limited understanding of the interactions between the vector and hepatocytes as well as effect of FVIII expression and immune responses. Core B will provide primary human hepatocyte models to address these basic and mechanistic questions related to the biology of AAV and FVIII. The central hypothesis of this proposal is that multiple interconnected features of AAV and FVIII biology limit durability of therapeutic expression and pose serious safety concerns. The objectives of Core B, the Human Hepatocyte and Discovery Core, is to provide three primary human hepatocytes models to study AAV vector and FVIII biology. The first model is primary hepatocyte cultures that retain stable hepatocyte functions in 2-dimensional format. These will be used for in vitro studies. The second model is chimeric mice whose livers are highly repopulated with primary human hepatocytes. These will be used for in vivo AAV studies. And the third model is mice doubly engrafted with hematopoietic stem cells and livers for in vivo studies of human immune cells in the liver. Core B will provide these services to investigators to address major unanswered questions in FVIII biology, gene therapy for hemophilia, liver-directed gene transfer, and molecular and immunobiology of AAV vectors."
+ },
+ {
+  "id": "5cd01a0a-f976-4e0d-99c5-1d4312795d2f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "University of Iowa Hawkeye Intellectual and Developmental Disabilities Research Center (Hawk-IDDRC)",
+  "text": "The University of Iowa Intellectual and Developmental Disabilities Research Center (Hawk-IDDRC) fully\nintegrates basic and clinical research across the lifespan – from conception to adulthood – in a manner that\nis focused on the prevention, diagnosis, treatment, and amelioration of intellectual and development\ndisabilities (IDDs), tailored to an underserved rural population. Researchers collaboratively draw upon four\nHawk-IDDRC Research Cores to examine the interaction of genetic/polygenic and epigenetic risk markers\nin autism and developmental delay using an innovative smartphone research application that enables\ndirect family participation. The University of Iowa’s long and distinguished history of lifespan research,\naccess to a stable, non-transitory rural population, and the use of an interconnected telehealth system\nfacilitates longitudinal multi-generational research on IDDs that examines intrinsic and extrinsic risk factors\nin rural populations, as well as develops and conducts new treatments and clinical trials designed to reach\nindividuals at all stages of life."
+ },
+ {
+  "id": "5cd08488-938c-4806-b394-4b4943760be5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Advanced machine learning models to integrate multi-modal biomedical datasets for gene regulation and precision medicine",
+  "text": "With the advancements in high-throughput technologies in biology and medicine, vast amounts of multi-modal\ndatasets have become available. There is a dire need to develop advanced computational tools to harness\nthese datasets to build predictive models to characterize the disease and healthy states of living organisms.\nOur research program is devoted to address this challenge by developing machine learning and deep learning\narchitectures to integrate multi-modal biomedical datasets."
+ },
+ {
+  "id": "5ce298ce-9e61-49ba-91dc-46c5c2e6440d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Homeobox protein Hhex in early T cell development",
+  "text": "To supply the body’s immune system, blood precursor cells need to balance the right amount of cell\nproliferation against the strict “education” process that converts them into T cells, for a mistake either way can\nlead to leukemia or immune deficiency. One powerful regulator called Hhex is noted for its involvement in\nleukemia in rare cases, but it also plays a crucial normal role in starting the T-cell production process. This\nproject will shed new light on the nature of that normal role for Hhex and how it is distinguished from the\ndeviant functions that lead to leukemia."
+ },
+ {
+  "id": "5cea3a44-7ee2-403a-ad72-877b79a5cbf3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Human‐specific vulnerabilities and compensatory adaptations to age‐related stressors in selectively vulnerable midbrain dopaminergic neurons",
+  "text": "Dopaminergic neurons are particularly sensitive to age-related oxidative stress, and evolutionary changes in the\nhuman lineage exacerbate this vulnerability by extending lifespan and disproportionately expanding axonal target\nregions, while requiring increased innervation density in multiple basal ganglia regions. We will use experimental,\ncomputational, and functional methods in human and non-human primate stem cell-derived dopaminergic\nneurons, complemented by analysis of primary brain substantia nigra tissue to identify human-specific oxidative\nstress-responsive regulatory elements and genes supporting neuroprotective compensatory adaptations. As\nmany age-related disorders involve damage from oxidative stress, understanding evolved mechanisms of\nneuroprotection in a particularly vulnerable neuron will support general strategies aimed at targeting dynamic\noxidative stress responsive elements and pathways in aging."
+ },
+ {
+  "id": "5cf1a33b-4768-48cc-a178-1e20484678bb",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Hematology Research Training Program",
+  "text": "Advanced research training of doctors and scientists in hematology is essential to finding cures for blood\ndiseases. This training program will prepare a diverse group of hematologists and scientists to develop new\nscientifically based treatments and understandings of these diseases to improve the health and safety of\npatients with blood diseases and eliminate health disparities."
+ },
+ {
+  "id": "5cf3f7a8-26c0-4b82-a126-b61e5e11fe9f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Developing therapeutic TCR mimic monoclonal antibodies for cancer",
+  "text": "This project aimed at developing two new class of mAbs, eg, TCRm mAbs specific for HPV-E7 and pIRS2-\nderived epitopes in the context of HLA-A*02:01 molecule. If successful, this approach could bring a novel and\nwidely applicable therapy to various human cancers."
+ }
+]

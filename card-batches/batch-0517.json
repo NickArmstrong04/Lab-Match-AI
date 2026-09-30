@@ -1,0 +1,142 @@
+[
+ {
+  "id": "2b72e51f-372c-44af-8d2b-ab4bf2acd69d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Designing a Comprehensive Machine Learning-driven Prescriptive Clinical Decision Support System for Shock and Associated Critical Care Conditions",
+  "text": "Machine learning-driven complex decision making to manage shock and other critical care conditions are challenging with\nits resource-intensive development pipeline and conflicting decisions. Our goal is to navigate this process with leveraging\nmultimodal foundation modeling to gain efficiency, creating a priority engine to streamline complex decisions, and safely\nsimulating this in data stream through silent deployment."
+ },
+ {
+  "id": "2b738356-087f-4da5-b285-30c8346c6233",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Research and Methods Core - Telehealth Research and Innovation for Veterans with Cancer (THRIVE)",
+  "text": "The Veterans Affairs Health Administration (VA) is the largest integrated health care system in the US, caring for nearly 50,000 veterans with newly diagnosed cancer annually. Providing quality care for all veterans is a tenet of the VA healthcare mission. We hypothesize that there are factors (e.g., rurality, race/ethnicity and poverty) that are critical in determining access to healthcare, especially telehealth. Approximately 25% of veterans live in rural areas where there may not be adequate local VA cancer care facilities. Unfortunately, these same communities often lack specialized community-based cancer care services as well, making telehealth a necessary option to reduce barriers to quality, timely cancer care. However, little is known about how telehealth delivery for veterans with cancer impacts delivery of quality care, clinical outcomes and experiences of care. As a national integrated health care system focused on quality of cancer care, VA provides an outstanding national laboratory to examine how use of telehealth affects access and quality of care. We will be able to examine how interventions targeting specific factors such as rurality affect the use of telehealth and how use of telehealth affects quality. We will disseminate this information broadly to help other health care systems understand how best to integrate telehealth into the continuum of cancer care. Using principles of implementation science, Telehealth Research and Innovation for Veterans with Cancer (THRIVE) will build a new model of cancer care delivery addressing barriers to telehealth and fulfilling the promise of access to excellent cancer care for Veterans regardless of who they are or where they are located. The Research and Methods Core primarily focuses on understanding how to improve access to and quality of care for all Veterans. Our multidisciplinary team will achieve THRIVE’s vision by focusing on lung, colorectal, prostate and breast cancers and accomplishing five specific aims: (1) Assess stakeholders’ perspectives of contextual factors impacting cancer telehealth implementation and sustainment at multiple levels; (2) Measure the use of in- person and telehealth communication formats for cancer care throughout VA; (3) Evaluate what factors affect use of telehealth for cancer care and how telehealth use is associated with cancer care quality; (4) Oversee the selection, development, implementation and evaluation of 10 rapid-cycle pilot studies (2/year) at the intersection of implementation science and telehealth cancer care; and (5) Frame the affordability of scaling up effective interventions that are identified from the pilot studies."
+ },
+ {
+  "id": "2b74dfed-23bc-44b5-a122-284b5ae0d6ce",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Intraoperative fluorescence lifetime navigation system with deformation compensation and MRI/CT co-registration for precision imaging of oral cancer",
+  "text": "Cancer surgery currently relies mainly on the surgeon’s touch and feel to identify tumors during a surgery,\nwhich can often lead tumors left behind and the recurrence of disease, or to the removal of too much healthy\ntissue, which can affect normal functions such as speech. We will develop and test an imaging technique that\nutilizes a safe FDA approved dye to enhance tumor brightness and provide a clear view of the surgical site and\nvital organs. With this imaging technology, surgeons would be able to accurately localize and remove tumors,\nwhile maximally preserving essential functions such as speech and swallowing."
+ },
+ {
+  "id": "2b76464f-827d-4612-90bb-41d55ecc22f9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "AAV therapies for TNNT2-associated cardiac disorders",
+  "text": "Pathogenic variants in the cardiac troponin T gene (TNNT2) cause hypertrophic and dilated cardiomyopathies,\ntwo disorders that are associated with high rates of heart failure and premature death unless new disease-\nmodifying therapies are developed. Our study will develop an adeno-associated virus therapy that replaces\npathogenic TNNT2 with its normal wildtype version by performing efficacy and safety screening in human\ncardiomyocytes, 3-dimensional microtissues, and genetic mouse models. This research has the potential to\ndiscover not only a new therapeutic for cardiomyopathy caused by TNNT2 variants, but a roadmap to develop\nsimilar therapies for related genetic forms of heart failure."
+ },
+ {
+  "id": "2b779c2a-94d8-4a17-8f6e-24267ddd9255",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multimodal Molecular Imaging of Choroidal Neovascularization",
+  "text": "This project optimizes a new, safe imaging technology using a combination of light and sound in\nlarge animal eye models of wet macular degeneration. Imaging characteristics predicting lack of\nresponse to treatment are determined, and new nanoparticles for enhancement of imaging which\nare able to be safely excreted in the urine are evaluated. The long term goal of this project is to\ndevelop a multimodal molecular imaging using gold nanoparticles to image biomarkers predicting\nresponse to treatment to develop novel therapies of eye diseases."
+ },
+ {
+  "id": "2b789686-2324-4d59-87a7-8b5b93a044a5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of nonvesicular cholesterol transport",
+  "text": "We have identified proteins that transfer cholesterol between different membranes in cells. We will define\nmolecular mechanisms whereby these proteins act, including identifying novel proteins with which they\ncooperate to accomplish cholesterol movement. These studies are expected to provide fundamental insight\ninto pathways regulating cholesterol homeostasis and may suggest opportunities for modulating lipid levels\nand metabolism."
+ },
+ {
+  "id": "2b79da04-329d-4618-97a9-30e3685c650e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Off-the-Shelf ADC-Armed NK Cells Platform for Multi-Indication Immunotherapy",
+  "text": "TO PUBLIC HEALTH\nThis project will develop a new type of cell-based therapy by combining natural killer cells with antibody-drug\nconjugates, creating a flexible “off-the-shelf” treatment that can be cryopreserved and used for many different\ndiseases."
+ },
+ {
+  "id": "2b80b6a8-fca9-4c05-bdce-ee5695b5ab3a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Studying the Utility of Deep Learning Derived MRI Imaging Biomarkers for Localized Prostate Cancer",
+  "text": "Prostate cancer remains a significant public health concern and remains the second leading cause of cancer\ndeath among men in the United States. MRI biomarkers represent a promising strategy to aid in risk\nstratification and treatment selection for localized prostate cancer patients. In this proposal, we attempt to\nvalidate and implement novel MRI biomarkers, which can risk stratify and directly aid in treatment selection for\nlocalized prostate cancer."
+ },
+ {
+  "id": "2b82ad83-87d4-4a9e-8212-ae4de327752c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Membrane proteins driving a cell-cell fusion reaction during fertilization",
+  "text": "This project will use fertilization in the alga Chlamydomonas to uncover conserved mechanisms of cell-\ncell fusion during fertilization, an event in the life of all eukaryotes which remains poorly understood. I\nwill focus on uncovering new mechanisms of regulation of the fusion protein HAP2, which is essential\nfor fertilization in unicellular and multicellular plants and animals, and that is in the same family of\nproteins used by viruses to enter human cells. Because HAP2 is essential for sexual reproduction in the\nmalaria organism, Plasmodium, our findings will continue to advance strategies we have already\ndiscovered for development of a transmission-blocking malaria vaccine."
+ },
+ {
+  "id": "2b82cd64-e272-49c3-be3a-e508ff76bf4f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Fibronectin Enriched Protein Corona for Enhanced Tumor Targeting of Nanoparticles",
+  "text": "Many cancer patients do not benefit from current nanomedicines because the nanoparticles fail to reach tumors\nin sufficient amounts. This project will explore how naturally formed protein layers, called fibronectin-enriched\ncoronas, help nanoparticles cross blood vessel barriers, penetrate deeply into tumors, and deliver their\ntherapeutic payloads more effectively. By uncovering how nanoparticle design shapes corona formation and\ntumor targeting, this work aims to develop simpler, ligand-free drug delivery systems that enhance selectivity\nand efficiency of drug delivery to the tumors."
+ },
+ {
+  "id": "2b8afbbb-16c9-4c84-af06-7fc99e22d34d",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Systematic characterization of human disease associated protein complexes",
+  "text": "Protein complexes carry out nearly all biological functions in human cells and when disrupted\nthey give rise to many diseases including cancer, developmental disorders, and cardiovascular\ndisease. Currently, we lack understanding of the composition of many protein complexes. Using\nmass spectrometry based experiments and sophisticated computer algorithms (e.g. machine\nlearning/AI), I propose to 1) discover new protein complex variants, 2) understand how protein\ncomplexes are altered in different cell types, and 3) create three dimensional models of protein\ncomplexes to interpret disease mutations, possibly opening new avenues for therapeutic\ninterventions."
+ },
+ {
+  "id": "2b8bc842-00fe-4002-83f8-a1678753f2f3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identifying mechanisms of structural variant-induced gene activation in glioma",
+  "text": "Gliomas are a class of primary brain tumors with historically poor prognosis and very few novel treatment options.\nThe aggressive nature of this cancer, which virtually always results in fatal recurrence, can be attributed in part\nto its clonal and genetic heterogeneity which includes chromosomal aberrations. This proposal explores the\nlandscape of structural variants in patient gliomas and seeks to define the mechanism by which these large-\nscale mutations are regulated and how they contribute to disease progression."
+ },
+ {
+  "id": "2b8d6d20-8fcd-48ad-b89d-c0c9010b9995",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "North American Testis Workshop 2026",
+  "text": "This R13 application requests funds to support the XXVIIIth North American Testis Workshop to\nbe held from April 15-18, 2026, at the Embassy Suites by Hilton Scottsdale Resort in Scottsdale,\nArizona. The meeting will bring together leading experts, emerging scientists, and trainees\nworking in the field of testis biology from North America and around the world. Participants will\nshare and discuss their latest data and technologies that could translate into new opportunities\nfor resolving important medical and public health issues."
+ },
+ {
+  "id": "2b8fc3e0-734c-49e2-ade6-24679333e010",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Origins and Outcomes of Smartphone and Social Media Habits Across Development",
+  "text": "The emergence of new technology/media forms has often been accompanied by panic over the likely societal\nand personal harms they might engender, especially with respect to developing youth. The proposed project\nseeks to inform our understanding of the particular precursors, correlates, and sequelae that may be linked to\nthe escalating presence of smartphone and social media technologies in teens' lives, and to guide us in\ndetermining when these technology habits should, and should not, concern policy-makers and care-givers. The\nproject will enact a multi-methodological cross-sequential longitudinal study to investigate the psychological\nand brain factors that predispose individuals of different ages to intensified use of smartphones and social\nmedia (SSM), and to explore the relationship that such habits may have with specific aspects of cognitive and\nbrain development, psychosocial maturation, and everyday functioning."
+ },
+ {
+  "id": "2b9603b9-b638-4071-a369-1acf8a7fadfe",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "IND-enabling studies of non-immunogenic gene therapy for ultra-rare DMD patients excluded from dystrophin trials",
+  "text": "This proposal is focused on translational and clinical research in gene therapy to safely address an ultra-rare\nsubset of Duchenne muscular dystrophy (DMD) patients excluded from ongoing dystrophin-based gene\ntherapy trials. The rationale is the avoidance of destructive T cell responses to dystrophin epitopes by\nsubstituting the non-immunogenic dystrophin-related protein utrophin, composed entirely of “self” peptide\nepitopes to take advantage of central immunological tolerance. The project makes appropriate use of\npreclinical models to address major limitations identified in ongoing clinical studies, focusing on IND-enabling\nexperiments that pertain to both FDA regulations and to the anticipated risks and potential benefits to DMD\npatients."
+ },
+ {
+  "id": "2b984fcc-f51f-4d81-ad47-4e535743931f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Using Glycomic Signatures to Monitor Disease Progression and Predict Treatment Response in Lupus Nephritis",
+  "text": "Lupus Nephritis, a severe kidney disease impacting nearly half of all lupus patients, often leads to unfavorable\npatient outcomes. Existing biomarkers such as the urinary protein/creatinine ratio (UPrUCr) fall short in\naccurately gauging treatment response, requiring repeating biopsies to monitor disease progression. The goal\nof this proposal is to assess the predictive potential of glycomic signatures (N-glycosylated proteins) present in\nthe urine of patients with lupus nephritis, offering a more sensitive and less invasive alternative ultimately\nenhancing current clinical methods and improving patient outcomes."
+ },
+ {
+  "id": "2b9a2cff-f9f5-4883-acbd-8b16b679bef5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Phenotypic marker-guided development of selective antimetastasis therapeutic leads",
+  "text": "The lack of effective treatment against metastatic cancer is primarily due to the complexity of the disease and\nincomplete understanding of the key mechanisms. We address this challenge through an unconventional\napproach that takes advantage of a specific feature of cancer cells distinguishing them from normal cells. We\nuse this unique feature to develop anti-cancer drugs for discovery of agents selective against cancer cells over\nnormal cells. We have developed a clinical candidate (metarrestin) that shows selective inhibition of cancer\nmetastasis in animals. Metarrestin has begun a phase I pancreatic cancer clinical trial at NCI. We will investigate\nhow this compound inhibits cancer behavior and will develop next generation, more specific and potent anti-\ncancer drugs."
+ },
+ {
+  "id": "2b9b7c67-3968-4fa8-b0cb-09ade870d12e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of Incomplete Penetrance",
+  "text": "Diseases attributable to mutations in a single gene effect an estimated 1 in 100 people,\nhowever, many of these diseases display incomplete penetrance. Incomplete\npenetrance is a phenomenon in which some individuals with a known disease-causing\nmutation develop disease symptoms, while others do not. Understanding the biological\nmechanisms by which some individuals are resilient to their genetic mutations will\nprovide new avenues for developing treatments for genetic disorders."
+ },
+ {
+  "id": "2b9bc7ed-3181-4f1f-87ab-f720d1905a8d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Protein Degradation Strategies to Overcome Menin Drug Resistance in Acute Leukemias",
+  "text": "MENIN, a nuclear protein that plays several roles in gene regulation, is crucial for the development of acute\nleukemias in patients with MLL1 (KMT2A) gene rearrangements (MLLr). MLLrs occur in ~10% of adult acute\nmyeloid leukemia (AML) and acute lymphocytic leukemias (ALL) cases and ~80% of infant leukemia cases; the\n5-year survival rate for MLLr leukemias overall is a dismal 35%. Using structure-based drug design, we have\ndevised, and will evaluate, molecules that can accomplish sustained and irreversible inhibition of the MENIN–\nMLL protein–protein interaction (PPI) that is foundational in this undrugged mechanism of leukemia\ndevelopment, biology and progression to drug resistance; crucially our strategy of degrading the MENIN\nprotein is designed to overcome resistance observed with existing MENIN inhibitor clinical candidates."
+ },
+ {
+  "id": "2ba4ee64-d63a-4a67-81d6-69dd15e2f946",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Deep Learning-Driven Biodosimetry for High-Throughput Radiation Triage via Chromosomal Aberration Detection",
+  "text": "Advancements in Artificial Intelligence (AI) and Deep Learning (DL) have the potential to transform radiation\nbiodosimetry by detecting a broader range of complex chromosomal aberrations beyond dicentric chromosomes.\nThis approach can accommodate diverse radiation exposures, including photons, neutrons, and mixed sources.\nBy enabling faster and more comprehensive categorization of radiation doses, these innovations can improve\ntriage systems, creating more precise exposure categories that enhance decision-making and response\ncapabilities during large-scale radiological events."
+ }
+]

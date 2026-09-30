@@ -1,0 +1,142 @@
+[
+ {
+  "id": "6b898843-83c8-4156-a44f-d2585d6cbfa2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "BRAIN (Biomimetic Regenerative Angiogenic Immunomodulating Nanocomposite) materials for brain repair after stroke",
+  "text": "Stroke is the leading cause of adult disability in the US, and no clinical trials have succeeded in alleviating\npatients' neurological impairment. This proposal investigates the development of an innovative therapeutic\nnanotechnology using a novel extracellular matrix (ECM)-mimetic injectable microporous biomaterial\nspecifically designed to promote brain tissue regeneration and functional recovery though angiogenesis and\nimmunomodulation."
+ },
+ {
+  "id": "6b8fa7eb-4cb6-415d-995f-61826cff6411",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Using Wearable Technology to Assess Recovery and Detect Post-Operative Complications Following Cardiothoracic Surgery",
+  "text": "Project Narrative. Every year, more than 500,000 patients undergo cardiothoracic operations for heart and\nlung disease. After surgery, patients suffer from pain, fatigue, and disturbed sleep for weeks to months and up\nto 32% of patients develop postoperative complications which lead to unplanned readmissions and a 6-fold\nincrease in mortality risk. The overarching goal of this research is to use machine learning analysis of high-\nresolution physiologic data—collected by wearable technology—to detect postoperative complications at their\nearliest, subclinical stage, prior to symptom onset and predict the quality of a patient’s postoperative recovery.\nThe use of such algorithms for cardiothoracic surgery patients will have significant public health impact,\npotentially enabling earlier detection of postoperative complications, greater reduction in the severity of\ncomplications, earlier outpatient intervention that can improve recovery, and/or greater decreases in unplanned\nhospital readmissions."
+ },
+ {
+  "id": "6b97824c-8919-442c-b3b6-dde4bebbe28b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "360° Chat-TMD Bioinformatics and Data Science Core (BDSC)",
+  "text": "360° CHAT-TMD BDSC ABSTRACT The Bioinformatics and Data Science Core (BDSC) will serve as a central hub for the U54 Program analytics activities, including secondary data analysis, integration, and interpretation of multi-modal data from national population health datasets and Center-generated research projects. Leveraging advanced Artificial Intelligence (AI), Machine Learning (ML), and Deep Learning (DL) approaches, the BDSC will identify potential therapeutic targets, develop prognostic models, perform molecular phenotyping, and enable patient stratification. Key activities include integrating genomic, imaging, and clinical data using multi-modal deep learning models, such as graph neural networks and transformers. The BDSC will also establish standardized ontologies and metadata to ensure data quality and interoperability, adopting existing frameworks like the Human Phenotype Ontology and extending them for domain-specific applications. Additionally, the BDSC will define Common Data Elements (CDEs) for harmonized data collection, with a focus on NIH HEAL Initiative CDEs for pain measures. Structured questionnaires will be designed and validated using psychometric methods, ensuring cultural and linguistic appropriateness. The BDSC will provide robust biostatistical support, including experimental design, statistical power analyses, mathematical modeling, hypothesis testing, and scientific inference to ensure rigorous 360° TMD analysis and interpretation of research data. The BDSC will collaborate with U54 Program experts including ontologists, data scientists, clinicians, and statisticians, to implement a centralized data repository and interactive visualization tools. By adhering to FAIR principles and NIH standards, the BDSC will enhance reproducibility, interoperability, and the translation of research findings into actionable insights for population health."
+ },
+ {
+  "id": "6b9922bf-3515-4e82-9ade-4ca5850b5a78",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Shared Resources 06: Drug Discovery Shared Resource (DDSR)",
+  "text": "PROJECT SUMMARY – DRUG DISCOVERY SHARED RESOURCE (DDSR) The Ohio State University Comprehensive Cancer Center (OSUCCC) Drug Discover Shared Resource (DDSR) supports OSUCCC members to discover and develop small molecules as probes of molecular pathways implicated in tumor growth. We work with investigators to optimize the properties of chemical agents against diverse therapeutic targets to advance preclinical and clinical development. This facility was initially established in 2011 as the developing Medicinal Chemistry Shared Resource (MCSR). The MCSR became a full CCSG shared resource in 2015. In 2022, we added high throughput screening (HTS) capabilities and renamed this facility the Drug Discovery Shared Resource. The DDSR comprises two integrated cores: Medicinal Chemistry (DDSR-MC) and High-Throughput / High-Content Screening (DDSR-HTS). These cores provide crucial services for investigators seeking to identify new therapeutic candidates and tool compounds. The DDSR supports investigators conducting preclinical in vitro and in vivo studies by offering multidisciplinary expertise in medicinal chemistry, process chemistry, rational structure-based design, molecular pharmacology, and modern plate- based screening technologies. Key services provided by DDSR-MC include custom synthesis and lead optimization, including structure activity relationship analysis and structure-based optimization. Key services provided by the DDSR-HTS include access to plated libraries of over 150,000 drugs and diversity compounds that can be manipulated with automated liquid handlers. These can be analyzed for biological activity using multiple detection systems including modern high content confocal microscopy and high throughput flow cytometry. The Specific Aims of the DDSR are: 1) enable researchers to develop chemical probes of cancer biology; 2) optimize hit and lead molecules through the design and synthesis of analogs with improved drug-like properties for translational development as cancer therapeutics; and 3) enable screening of small molecules against proteins and whole-cell assays to identify new compounds for further preclinical testing. Over the next grant cycle, the DDSR will directly support the needs of the OSUCCC Research Programs. DDSR-HTS is working to develop improved methods to screen small molecules against three-dimensional cell spheroids and organoids by high throughput confocal microscopy, implementing single-cell analysis methods for phenotypic screening using cell painting technologies, and adding plate-based functional genomics screening our portfolio. DDSR-MC is adding antibody drug conjugates to its custom synthesis services and is increasingly offering small molecule degraders. They are expanding use of modern rational drug design methods based on high resolution protein structures to optimize the properties of small molecules."
+ },
+ {
+  "id": "6b9ad5fe-5519-48c6-939e-c4351c7cff58",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Predicting individual responses to treatment for alcohol use disorder.",
+  "text": "This study is designed to improve the effectiveness of treatments for alcohol use disorder by providing\npredictions about which drug will work best to reduce heavy drinking and which behavioral treatment will work\nbest to prevent relapse."
+ },
+ {
+  "id": "6b9ebf11-96f2-4f9c-a575-bcaf28a7c7e8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "AVT Core: Component for Institution # P2500069",
+  "text": "Auditory & Vestibular Technologies Core The innovative auditory and vestibular research conducted at the Translational Hearing Center at Creighton University is technically challenging because of the need to make a wide variety of precise, spatiotemporal measurements across complex research models spanning scales from single molecules to individual and clusters of cells in addition to the entire organism. The Auditory & Vestibular Technologies (AVT) Core was established to provide this unique infrastructure to support Center Research Project Leaders and principal investigators to conduct multidisciplinary auditory and vestibular research. We will continue to innovate in this area by: 1) Strengthening the deployment of state-of-the-art methodologies and instrumentation to faculty conducting auditory and vestibular studies in preclinical models while extending these services to the broader research community. Specifically, the AVT Core provides state-of-the-art technical and scientific support for COBRE-supported translational researchers in auditory and vestibular electrophysiology, molecular biology, imaging, and mass spectrometry, with assessment in both mouse and zebrafish models. The AVT Core also continuously evaluates emerging technological developments to meet both the current and future needs of our clients. 2) Educating and mentoring core users in multidisciplinary research to successfully compete for research funding. To promote an interdisciplinary scientific environment within the Core itself, and among investigators in the region generally, the Core is dedicated to an intensive outreach program designed to encourage inter-investigator communication and introduce early-stage investigators to interdisciplinary methodologies available in the AVT Core. 3) Implementing and continually refining the sustainability plan developed during Phase I to provide Core services to the research community as a Creighton University School of Medicine (CUSOM) supported core facility. To meet this goal, an active outreach program is combined with a carefully tuned service-based fee schedule. The AVT Core has and will continue to play an essential role by enhancing the research productivity of investigators in the field of translational hearing and vestibular research, both within the Translational Hearing Center at Creighton University and institutional partners (Boys Town National Research Hospital and University of Nebraska Medical Center) as needed and throughout the Midwest auditory research community."
+ },
+ {
+  "id": "6b9f5633-f1a6-4c49-9716-bbaff2e3d6de",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role and Regulation of Skeletal Muscle Mitochondrial Dynamics in Type 2 Diabetes",
+  "text": "Type 2 diabetes is a highly prevalent disease that imposes substantive physical, emotional, and financial\nburden on patients and their families. Mitochondria play a central role in regulating blood glucose levels, but it\nremains unclear as to whether altered function contributes to the onset and progression of the disease. For\nthis renewal application, we will expand on our prior work where we discovered new knowledge of how\nmitochondrial dynamics are regulated and contribute to the pathophysiology of type 2 diabetes. Our new\nstudies are expected to generate deeper insights into mechanisms of type 2 diabetes and eventually lead to\nnovel therapies for the disease."
+ },
+ {
+  "id": "6b9fd513-0f46-4a68-860b-1ec2fdf44cb2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeted CRISPR/Cas Editing to Eliminate SIV CNS Reservoir in Methamphetamine-Exposed Rhesus Macaques on ART",
+  "text": "Rhesus Macaque model of SHIV infection on ART (SHIV+ART+) is highly relevant to people with HIV who suffer\nfrom immune activation and inflammation due to persistent proviruses in various latent reservoirs. Substance\nuse disorders, particularly methamphetamine (METH) use disorders, exacerbate HIV infection, replication, and\nneuroinflammation, leading to HIV-associated neurocognitive disorders (HAND). This project is significant for\npublic health, as it aims to discover innovative targeted gene therapies to eliminate neuroinflammation and HIV\ncellular reservoirs in the brain, ultimately striving to cure NeuroHIV and address substance use disorders."
+ },
+ {
+  "id": "6ba46a02-9d21-4e12-832b-91257d65e236",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Biological Magnetic Resonance Data Bank",
+  "text": "The Biological Magnetic Resonance Data Bank (BMRB) data repository supports the biomedical research\nefforts of the world wide biomolecular magnetic resonance (MR) community. Magnetic resonance\nspectroscopy is a key tool used to understand the biomedical significance of protein and nucleic acid\nstructures, to identify potential drug therapeutics, and to characterize metabolites and disease biomarkers."
+ },
+ {
+  "id": "6baa20b0-2483-4412-b925-d7df939c9bf9",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Research Programs",
+  "text": "RESEARCH PROGRAM The overarching goal of The Jackson Laboratory Cancer Center (JAXCC) Research Program, “Genetics and Genomics of Aging and Cancer”, is to advance cancer medicine through basic research discoveries with potential for preventive and therapeutic impact for patients. Our Research Program is focused on uncovering the underlying genetic, epigenetic, and transcriptional mechanisms that drive aging-associated cellular dysfunction, chronic inflammation, and immune dysfunction, and their profound contributions to cancer. By delving into these fundamental processes, we strive to gain insights into cancer development, dissemination, and treatment resistance to develop age-tailored interventions. Our Program has been focused on exploring the genomic complexity of cancer and how the tumor and the host interact. Building on our success, we are now extending these studies to include the dimension of time by incorporating aspects of aging pathobiology. Our research is organized around three complementary and interrelated Specific Aims. Aim 1 seeks to uncover cancer cell-intrinsic mechanisms contributing to tumor progression and treatment resistance and how aging impacts them. Aim 2 seeks to dissect the complexity of immune and stromal components of the tumor microenvironment and their associations with genetics and aging. Aim 3 seeks to decipher and modulate aging-associated pathology at the organismal level to prevent tumor progression and treatment resistance. All three Aims draw on the JAXCC’s longstanding strengths in the genetics, development, and analysis of organismal, cellular, and computational models, with a focus on how aging and genetic background contribute to the physiology of cancer. The 59 JAXCC members include 37 full Program members and 22 Affiliate members. The Program is supported by $9.99M in annual direct costs from NCI and other peer-reviewed cancer-related grants. Over four years of the current grant cycle, JAXCC Program members published 377 cancer-relevant research articles: 45% were in journals with impact factor >10, 27% have JAXCC co-authors, and 60% have external co-authors, of which 41% include authors from other NCI-designated Cancer Centers. The CCSG has enabled the development of key platforms impactful for our members’ research, including single cell biology, spatial biology, and tumor-host interactions. The has CCSG supported aging and cancer research trainees through a new Brooks Scholars program and a series of workshops and think tanks in collaboration with other Cancer Centers. The JAXCC will work closely with the JAX Center for Aging Research, which includes the NIA-funded Nathan Shock Center of Excellence in the Basic Biology of Aging and the Interventions Testing Program, to enable our members to leverage aging expertise and aged genetically heterogeneous animal models. The efforts of the Co-Program Leaders and JAXCC Senior Leadership have fostered interactivity among members and engaged their participation in planning for resource development and faculty recruitment through monthly Research Program meetings, collaborative projects, subsidized intercampus travel, and the JAXCC Annual Retreat."
+ },
+ {
+  "id": "6bac81ea-9fce-4bbc-baa9-d6281d711646",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Center for Multiscale Immune Systems Modeling",
+  "text": "The proposed Center of Excellence (CoE) will marshal expertise from experimental and compactional fields to\nadvance multiscale modeling in infectious and immune-mediated disease (IID). These models will be used to\ninvestigate disease pathogenesis, identify new medical interventions, and guide public health decision-making\nin the context of individual and population-level heterogeneity. The CoE consists of an Administrative Core, a\nCommunity Development and Education Core, and a Model and Data Sharing Core. The CoE will also support\nthree cross-cutting Research Projects, with teams that will collaborate to develop innovative models that bridge\nacross biological scales. Through these activities, the CoE will develop infrastructure and build communities to\ncoordinate research in IID multiscale modeling."
+ },
+ {
+  "id": "6bb45e81-e592-49d1-8bb5-2b97ff3c5ce4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Core B: Bioinformatics and Functional Genomics Core",
+  "text": "The Bioinformatics and Functional Genomics (BFG) Core will provide critical resources to all three P01 projects \nto support the overall goals of identifying molecular drivers of prostate cancer lineage plasticity and biomarker \ndevelopment. These resources include bioinformatic analysis and integration of clinical genomic data, executing \nand interpreting functional genomics studies using CRISPR screening technologies, and oversight of the design, \nimplementation, and interpretation of biomarker studies using clinical trial samples."
+ },
+ {
+  "id": "6bb9e8a3-026c-433b-89f4-05b354b8c83e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Magnetic resonance true temperature imaging with high spatial and temporal resolution",
+  "text": "The goal of this project is to combine the high spatial and temporal resolution capabilities of the proton\nresonance frequency shift magnetic resonance imaging method of measuring temperature change with the\nslower and lower resolution magnetic resonance spectroscopy method of measuring true (absolute)\ntemperature to create a hybrid MRI method that can measure true temperature distribution in the brain with\nsufficient spatial and temporal resolution to be clinically useful in understanding the healthy and diseased\nbrain, its response to acute injury, and in monitoring critically important thermal interventions."
+ },
+ {
+  "id": "6bba2f5c-b11d-4c38-9170-5a283b6d656b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Integrating KCNH2 Variant-Specific Features and Heterozygote Phenotypes to Estimate Long QT Penetrance",
+  "text": "A major challenge facing contemporary genomic medicine is the clinical community’s desire for yes/no\nanswers to the nuanced issue of whether a specific genetic variant will produce a meaningful phenotype. The\ncurrent framework used to assess the significance of these variants classifies them from likely pathogenic/\npathogenic to likely benign/benign, with most stuck as variant of uncertain significance. We intend to prove that\nclinically meaningful knowledge is lost in this compression of variant information into a classification and that a\ndata-driven estimate of disease penetrance is a higher resolution alternative."
+ },
+ {
+  "id": "6bbc42d8-3a4a-4181-b0aa-8f785d38dc3e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multimodal AI for Precise Clinical and Genetic Diagnosis of Congenital Heart Disease",
+  "text": "Congenital heart disease (CHD) is the most common life-threatening birth defect, yet many \naffected individuals do not receive a definitive genetic diagnosis despite the strong \ncontribution of genetic factors to disease. This project will develop artificial intelligence \ntools that integrate clinical, imaging, electronic health record, and genomic data to \nimprove identification of disease-causing genetic variants in CHD. Improved genetic \ndiagnosis has the potential to enhance patient care, guide treatment and family planning, \nand advance precision medicine approaches for CHD and related disorders."
+ },
+ {
+  "id": "6bbebd3b-5b16-4498-8f7d-7a2bfe723648",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Understanding sphingolipid-dependent remodeling of mitochondria in aging cells",
+  "text": "One of the hallmarks of aging is a decline in the function of mitochondria. We determined that\ninterventions affecting sphingolipid metabolism preserve mitochondrial function in aging cells,\nsuggesting a novel target for promoting longevity. This research will address the mechanisms\nlinking sphingolipid levels to mitochondrial health, paving the way for novel interventions that\npreserve mitochondria function in conditions of aging and disease."
+ },
+ {
+  "id": "6bc1dd26-f774-47d8-a2ae-82c5e8664f1f",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Programmable depletion and rescue platform to screen dynamic regulatory events during cellular differentiation.",
+  "text": "As cells differentiate, they activate signaling cascades that are precisely controlled in time to achieve the fully\ncommitted phenotype. However, current technologies are limited in their ability to characterize these precise\ntemporal changes. To address this, we are developing a programmable platform that can reveal the impact of\nimportant mRNA players on cellular differentiation with unprecedented time resolution."
+ },
+ {
+  "id": "6bc6742b-2114-4ecb-a244-b8466653ebb7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Impact of Pathological Tau on Circuit Function in Phenotypic Mouse Models of Progressive Supranuclear Palsy",
+  "text": "Progressive Supranuclear Palsy (PSP) is associated with mutations in the Tau-encoding MAPT gene. Currently,\nthere are no cures or effective treatments for PSP. Understanding the circuit abnormalities underlying the\nlocomotor and occulomotor deficits present in PSP will illuminate potential disease-causing mechanisms and\nmay lead to new therapeutics."
+ },
+ {
+  "id": "6bc7da88-a791-4465-8b8c-1037ea45ce8b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Bionanotechnology   approach for treatment of lung cancer",
+  "text": "Project Title: Bio-nanotechnology approach for treatment of lung cancer\nProject Narrative\nLung cancer is responsible for the death of approximately 160,000 people in the United States each year and\nkills more people than breast, colon, and prostate cancers combined. Non-Small Cell Lung Carcinoma\n(NSCLC), the most common type of lung cancer (more than 80% of all cases), is relatively insensitive to\nchemotherapy and successful response to therapy is limited to only about 10% of patients. To overcome major\nlimitations of current NSCLC therapy, extend the effectiveness of the treatment to a wider range of patients,\nand limit adverse side effects, we propose an innovative biotechnology approach that includes a combination\nof gene- and chemotherapy, local delivery of therapeutics by inhalation to the lungs, and targeting the drugs\nspecifically to lung cancer cells."
+ },
+ {
+  "id": "6bc8e7c4-7be7-43dc-9db8-81d8604508ec",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Research Project I: AAV-CRISPR to Treat Huntington's Disease",
+  "text": "Background: Huntington's disease (HD) is a fatal, dominant neurogenetic disorder caused by polyglutamine repeat expansion in exon 1 of the HD gene encoding huntingtin (HTT). It is estimated that 1−3 in every 10,000 persons (nearly 30,000 in the USA) have HD. Patients suffer from progressive neurodegeneration in the basal ganglia and the cortex, leading to progressive movement disorders and severe psychiatric disturbances. Although the disorder was described over 100 years ago, effective treatments do not exist. Genome editing using the precise and potent CRISPR-Cas9 system represents an exciting therapeutic approach to treat HD. The proposed study will employ the CRISPR-Cas9 system delivered via novel engineered capsid of adeno-associated-virus (AAV), AAV-LC.V1. Objective: We propose to determine efficacy and safety of the dual AAV-LC.V1 genetic therapy in the brain using animal models. The results of these studies are essential components for our Investigational New Drug (IND) application to the Food and Drug Administration (FDA) for clinical testing of our HD program. Specific Aims: Aim 1 will focus on in vitro screening a pair of gRNAs for the most frequent mutant human HTT gene haplotypes. These studies will test the efficacy of knocking down the mutant HTT allele as well as off-target editing. Aim 2 will determine the efficacy of knocking down the mutant HTT allele in two murine models of HD via AAV-CRISPR. The vectors will be injected by convection-enhanced delivery directly into the mouse brain (striatum and thalamus). To assess overall therapeutic benefit, efficiency of editing at the molecular level will be tested in collected tissues, while assessment of rescue from an HD phenotype will be evaluated by a battery of behavioral tests. Aim 3 will examine toxicity and biodistribution of different doses of our AAV- CRISPR system in rats in a GLP-compliant setting as required for IND-enabling studies. Tissues will be collected at 3- and 9-months for histopathological evaluation to prepare the required GLP toxicology report. As required by the FDA, acute and long-term efficacy, safety, and biodistribution of the two-AAV-CRISPR vector system will be also assessed in the brains of non-human primates (Aim 4). Many proposed experiments will be performed by specialized preclinical CROs in a GLP- compliant setting. Impact: By demonstrating the safety and efficacy of AAV-LC.V1-CRISPR gene therapy, the proposed suite of studies may lead to clinical testing of this system to treat the progressive neurodegeneration associated with HD."
+ }
+]

@@ -1,0 +1,142 @@
+[
+ {
+  "id": "018da205-caa1-401d-8194-cc28c5a0640b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Deep templates for longitudinal morphometry in Alzheimer's disease",
+  "text": "Inaccurate clinical diagnoses of Alzheimer’s disease (AD) due to non-specific clinical tests and symptom overlap\nwith other types of dementia negatively impact patient care, caregiver burden, and clinical trials.\nThe goal of this project is to improve the sensitivity and clinical accessibility of structural MRI metrics indicative\nof AD years before onset, which are largely inaccessible in routine clinical practice even though structural MRI is\nalready acquired for individuals presenting with age-related cognitive decline.\nThe project will build on longitudinal techniques that drive the morphometric analysis of MRI scans using a subject-\nspecific reference image constructed across time—a template—by developing deep-learning tools for AD-aware\nimage alignment and template construction that are fast, accurate, and compatible with the clinical workflow."
+ },
+ {
+  "id": "019123bc-b9ac-4f01-9034-d4c93904a657",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Core A. Structural and Functional Assessments (SFA)",
+  "text": "CORE A. STRUCTURAL AND FUNCTIONAL ASSESSMENTS (SFA) abstract The Ohio State University Vision Sciences Research Core Program (OSU-VSRCP) has established scientific connections among the vision researchers across five academic units (i.e., College of Medicine (COM), College of Optometry (COO), College of Engineering, College of Veterinary Medicine, College of Arts and Sciences) and newly engaged Nationwide Children’s Hospital. Program Director (PD) Dr. Moroi has support and commitment from Deans and Chairs to purchase equipment (i.e., a new confocal microscope for Core A), support for data science needs, assigned space for three newly recruited faculty to Dept. Ophthalmology and Visual Sciences (DOVS), new and existing programs to enhance collaborations among NEI-funded PIs, and facilitate gathering pilot data for future PIs. Core A is called the Structural and Functional Assessments (SFA) Core and was determined from a survey administered to 61 OSU vision scientists who are NEI-funded Users and eligible investigators as unfunded Users. The leadership of Core A is Director Dr. Fischer, who has two NEI R01 grants and is an experienced retina cell biologist, and Co-director Dr. Cebulla, who has her first NEI R01 grant and is an outstanding retina clinician scientist. Core A’s purpose is to provide technical expertise and state-of-the-art and properly maintained equipment for imaging and functional assessment of fixed and living cells and for animal models. The equipment includes: (a) wide-field epifluorescence microscope, (b) confocal microscopes, (c) OCT, (d) tonometry, (e) Topcon fundus photography, angiography, and operating microscope, (f) electrophysiology equipment, and (g) a Micron IV ImageGuided Laser System. Successful implementation of Core A SFA will be conducted in the following two aims: Aim 1. To provide training and access to structural imaging equipment and functional testing equipment. Aim 2. To provide consultation and assistance with experiments. Another major added value is the ability to provide machine shop services. PD Dr. Moroi has arranged an agreement with The OSU Center for Design and Manufacturing Excellence (CDME) to provide faculty with new technologies and manufactured products to enhance funded research projects. CDME Executive Director Mr. Nate Ames has provided a letter of support and has indicated that meeting the vision scientist User needs aligns with the mission for CDME. This proposed P30 Core A, SFA, intends to maximize efficiency, offer centralized access to equipment and expertise that would be difficult, costly or impractical to duplicate in individual labs, and use protocols to ensure best practices to perform science at the highest standard. Credit to Core A Director Fischer and Co-director Cebulla for setting the collaborative culture of equipment sharing to enable initiating OSU-VSRCP. The expected outcome is increased collaboration for successful new proposals with the shared overarching goal to prevent blindness, restore vision and develop cures for eye diseases."
+ },
+ {
+  "id": "01941721-6a9c-47e3-a31f-e3b68099051a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Engineering high performing microfluidic system for rapid non-invasive isolation and expansion of circulating tumor-reactive lymphocytes",
+  "text": "Tumor-reactive lymphocytes hold great promise as an effective anti-tumor regimen to combat cancer\nbut their use requires highly invasive surgical procedures to isolate these rare cells from patient’s tumor\nas well as complex cell expansion process before use that greatly limits their utility as durable anti-\ncancer therapy. In this project, we will engineer a high-performance microfluidic device that enables\nrapid isolation and expansion of rare immune cells directly from the patient’s blood, providing minimally\ninvasive routes to maximize therapeutic applicability. Through comprehensive design-build-test-learn\ncycle of microfluidic system optimization using animal models and clinical specimens, we provide a\nroadmap to expedite the development of circulating tumor-reactive lymphocytes in the treatment of\nhigh-grade serous ovarian cancer."
+ },
+ {
+  "id": "0195e36c-8664-4304-830a-2745cc2dcb7c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "What is going on in the fish's brain?   Characterization and Modeling of Neural Dynamics  (CNS and ANS and ICNS)",
+  "text": "The research plan we propose aims at a comprehensive multi-level understanding of how the brain and\nthe body interact to respond adaptively to a potentially harsh and unforgiving environment. Among the\nmany internal factors that are under constant homeostatic regulation, we focus on the bi-directional\ndialogue between the brain and the heart, since the cardiovascular system and its role in regulating oxygen\ndelivery is one of the most critical and universal control systems within the animal kingdom.\nA central aspect of our approach is the generation of a complete brain and body connectome of the larval\nzebrafish, a map which will be the first ever generated in a vertebrate, and which will be critical in both\ntesting the validity of many extant models, and perhaps discovering new pathways within the\ninterconnected neural circuits that serve the changing needs of the body during behavior."
+ },
+ {
+  "id": "01a1d8d8-2a03-4fe3-a858-40b49ff59719",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Decoding response and toxicity to immune checkpoint inhibitors in lung cancer patients by noninvasive assessment of tumor microenvironment dynamics and circulating T cells",
+  "text": "Non-small cell lung cancer is the leading cause of cancer death in the United States, and while\nimmunotherapy (IO)-based treatment has been transformative for many patients, disease progression\nand immune-related adverse events remain common. There is no reliable way to predict which\npatients will benefit from IO-based treatment or suffer severe toxicity. To address this gap, and based\non strong preliminary data, we will develop a novel liquid biopsy approach to measure tumor\nmicroenvironmental ecotypes and circulating CD4 T cell states from peripheral blood to forecast and\ndynamically monitor response and toxicity in NSCLC patients treated with IO-based therapy."
+ },
+ {
+  "id": "01a1f60f-0162-4dc6-baf9-fe13dd7cf642",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Non-Invasive Imaging Markers to Elicit the Role of Vascular Involvement in Alzheimer’s Disease",
+  "text": "Alzheimer's disease is correlated with vascular disease; however, the nature and mechanism by which these\ndiseases interact to develop clinical dementia remains relatively unknown. The novel MRI techniques in this\nproject enable new insights into vascular health. The overarching objective is to enable characterization of\ncerebrovascular involvement in Alzheimer's Disease pathology through the development and study integration\nof a new battery of non-invasive cerebrovascular health measures including tools to image vascular stiffness\nand flow oscillations."
+ },
+ {
+  "id": "01a2317c-2f15-4879-8893-800c8e493f85",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "TBEL Project 2",
+  "text": "PROJECT 2 – ABSTRACT The estimated prevalence of pancreatic cystic neoplasms (PCNs) is between 20–30% with intraductal papillary mucinous neoplasm (IPMNs) accounting for half of them. Depending on the morphology, location, and genetics IPMNs can be of high-risk developing pancreatic ductal adenocarcinoma (PDAC) and as such significantly diminishing patient’s survival. While RNF43 is only mutated in a small fraction of PDAC, RNF43 mutations are prevalent in a high frequency in IPMNs. Although RNF43 has been identified as a negative regulator of Wnt signaling in colorectal cancers and other preclinical models including PDAC, a phase 1 clinical trial of a Wnt inhibitor in patients with RNF43 mutated solid cancers (including PDAC) has been proven disappointing. Other likely organ specific functions of RNF43 might be of great advantage for IPMN progression. Utilizing a conditional knockout mouse model of RNF43 in context of Kras mutation we found that RNF43 abrogates the mitochondrial properties and functions while loss of RNF43 improved mitochondrial quality control, increased unfolded protein response (UPR) and ER stress. These findings let us hypothesize that loss of RNF43 may deregulate the crosstalk of these organelles in order to maintain proteostasis, metabolic control, and cell survival. Employing an autochthonous mouse model for functional loss of RNF43 in the context of Kras (generated in the Dr. Maitra lab), primary genetically engineered cell lines (generated in the Dr. Lyssiotis lab) and human IPMN derived organoids (generated in the Dr. Wood lab; see Project 3) we propose to pursue the following aims: First we will investigate whether RNF43 regulates mitochondrial dynamics including biogenesis, fission, fusion and mitophagy to inhibit IPMN pathogenesis (Aim 1). Further, we will investigate whether RNF43 blocks IPMN pathogenesis by limiting ER stress through management of ER-mitochondrial dynamics (Aim 2). Lastly, we will determine whether loss of RNF43 creates a synthetic essentiality for sustained OXPHOS (Aim 1) and whether/how OXPHOS inhibition impacts the multistep progression in an autochthonous KRC model of pancreatic cystic neoplasia (Aim 3). Overall, these studies will elucidate the functional role of RNF43 in mitochondria quality control, ER-mitochondrial dynamics and how this impacts IPMN pathogenesis and progression."
+ },
+ {
+  "id": "01a789bb-b297-4b09-88fa-9c31e070e08d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Causal variant association mechanisms in TCF21 binding coronary disease loci",
+  "text": "(Public Health Relevance)\nSignificant expense and effort by groups of scientists around the world has identified regions of the human\ngenome that are associated with the genetic risk for various forms of cardiovascular disease, including\ncoronary artery disease. Additional research is required to understand the specific genes involved, and how\nthey work to contribute to the disease process. Such information will allow for better risk assessment and the\ndevelopment of better therapeutics for these diseases."
+ },
+ {
+  "id": "01a8aeaf-e229-476c-8a2a-b4f54fe41e78",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "MHC Genetics Core",
+  "text": "This genomics-focused project will characterize the SNPRC SPF rhesus macaque colony to enable breeding\nstrategies that consider genome-wide genetic diversity and fitness of colony members, while still providing\nrhesus macaques lacking specific MHC I alleles for AIDS researchers."
+ },
+ {
+  "id": "01ab2147-c170-43a3-9886-ae591d737c1b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Differentiation, fate, and function of pathogenic T helper cells in graft-versus-host disease",
+  "text": "NARRATIVE. Acute graft-versus-host disease (aGVHD) is a life-threatening complication occurring in 30-70%\nof hematopoietic cell transplantation (HCT) patients, primarily driven by gut pathogenic T cells. Our research\naims to identify the key signals and mechanisms that regulate the differentiation of a novel population of\ngranzyme A (GrA)+ T cells, which we have found to be major drivers of lethal aGVHD, while maintaining anti-\ncancer immunity. By elucidating the roles of GrA+ T cells, we seek to uncover novel therapeutic targets that\ncan prevent or mitigate aGVHD, ultimately improving treatment outcomes for patients undergoing HCT."
+ },
+ {
+  "id": "01ad0706-45f5-4552-ae46-69c244192fbc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Sulindac sensitizes colorectal cancer to anti-PD-L1 therapy",
+  "text": "Colorectal cancer (CRC) remains one of the leading cancer types and affects the health of men and women in\nthe United States and worldwide. New immune checkpoint inhibitors (ICIs) have ushered in a new era of\nimmunotherapy and become important treatment options for a variety of solid tumors, but the majority of CRC\npatients (>85%) respond poorly to ICIs. In this project, we intend to investigate the potential utility of sulindac in\nenhancing CRC to ICI immunotherapy."
+ },
+ {
+  "id": "01aeea28-f444-4699-a744-dab3594a2cd1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Prevention of Necrotizing Enterocolitis",
+  "text": "Necrotizing enterocolitis (NEC) is the most common gastrointestinal emergency in the\nnewborn period. NEC happens when tissue in the small or large intestine is injured or begins to die off. This\nproposal will investigate how to prevent this disease and will develop new treatments."
+ },
+ {
+  "id": "01b0e582-adbe-470e-bea1-d09a10a4fc54",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Linking Conformational Dynamics to Activity Impairment of Disease-associated Human Enzymes",
+  "text": "Conformational dynamics lies at the heart of enzyme function. Linking changes in conformational dynamics to\nactivity impairments caused by loss-of-function missense mutations in disease-associated enzymes will enhance\nour understanding of the molecular mechanisms of enzyme catalysis and lay the foundation for developing novel\napproaches to modulate the activity of disease-associated enzymes in the future."
+ },
+ {
+  "id": "01bfc921-2d3e-4b33-894c-14b4035820fb",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "The development of integrated human thalamocortical assembloid that produces the thalamocortical oscillation",
+  "text": "Human corticothalamic oscillation is one of the fundamental brain waves that manifest the brain states. In this\nproposal, we will construct the assembloid system that are composed of human thalamic and ventral thalamic\norganoids together with cortical organoids that reproduce the human corticothalamic oscillation."
+ },
+ {
+  "id": "01c42949-a455-412b-8beb-b89389d2695e",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Purdue Interdisciplinary Cancer Research Training",
+  "text": "To prepare a new generation of cancer researchers who think innovatively across scientific domains, we\npropose establishing the Purdue Interdisciplinary Cancer Research Training (PICRT) program. PICRT is\ndesigned to train Ph.D students to excel in team science and cancer research, as well as critical professional\nskills, including leadership, to prepare trainees to effectively work with multidisciplinary teams that are\nnecessary to accelerate cancer research from basic science to translation. The proposed training program will\nleverage the strong interdisciplinary environment at Purdue to train the next generation of highly competent\nteam science cancer researchers to enhance the cancer research work force."
+ },
+ {
+  "id": "01c6eb6b-b7b4-4b26-8146-0329528f0981",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Early response to radiotherapy and immunotherapy in rectal cancer: an integrated molecular, cellular, and spatial approach",
+  "text": "Developing optimal radiation and immunotherapy combinations is hindered by the limited ability to deeply\nunderstand therapeutic responses and there is a critical need to innovate with rectal cancer when cure with\nradiation and systemic therapy could save a morbid surgery. We have developed an integrated approach to\nassess early biopsy tissue after short course radiation therapy to assess molecular, cellular, and spatial\ndynamics that could improve our ability to nominate promising therapies. With pre- and post- therapy biopsies\nfrom our αCD40 trial, we will perform single cell RNA sequencing, multiplexed immunofluorescence, deep\nlearning from histopathologic tissue to identify therapeutic opportunities and study mechanisms of response to\nαCD40."
+ },
+ {
+  "id": "01c7e3aa-a606-4277-96f0-09fc3e369adb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Artificial Intelligence Assisted Panoramic Optical Coherence Tomography Angiography for Retinopathy of Prematurity",
+  "text": "Optical Coherence Tomography (OCT) and OCT angiography (OCTA) have proven the ability to detect\nsubclinical disease, provide quantitative evaluation of disease progression, and improve outcomes in the leading\ncauses of blindness in adults. Technological and practical limitations have limited the application of this\ntechnology in routine use for non-sedated children undergoing routine screening for retinopathy of prematurity\n(ROP), the leading cause of blindness in children. The proposed project will develop an ultrawide field, non-\nmydriatic, handheld OCT/OCTA system with improved clinical usability of comprehensive retinal exams with\nnon-sedated neonates and evaluate the clinical utility of OCT/OCTA-derived biomarkers in ROP."
+ },
+ {
+  "id": "01ccce1e-40a9-4f16-965b-f54392064ed6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mentoring in Patient Oriented Research for Digital Biomarker-Driven Solutions to prevent and Treat Opioid Use Disorder",
+  "text": "STATEMENT\nOpioid use disorder (OUD) has staggering public health implications, and novel approaches to care are\nsorely needed. The current K24 proposal leverages Dr. Carreiro’s current innovative research portfolio\nand multi-disciplinary collaborator network to train the next generation of clinician scientists in digital\nhealth applications to across the spectrum of opioid use disorder. This experience will ultimately propel\ntheir own careers in patient-oriented research, enhance the workforce of experienced clinician-scientists\nfocusing on personalized solutions for substance use disorders, and improve the lives of people with this\ndevastating disease."
+ },
+ {
+  "id": "01ccea5f-b9a4-4d9e-b070-cace8cfe4771",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cytotoxic amyloid and tau proteins and end-organ dysfunction in extracorporeal life support",
+  "text": "Neurologic complications and end organ dysfunction are the leading causes of morbidity and mortality in the\nsetting of extracorporeal membrane oxygenation (ECMO). We will study the role of transmissible amyloid-beta\n(Aβ) and tau variants produced by pulmonary endothelium in response to severe pneumonia and lung injury as\na potential mechanism for acute and chronic neurological sequelae and organ dysfunction on veno-venous and\nveno-arterial ECMO. We will test whether toxic Aβ and tau variants are necessary to cause this injury in\nexperimental models and can be targeted therapeutically."
+ },
+ {
+  "id": "01e44f38-e498-47e0-87aa-d437421df30a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multiplexed Locus-Specific Hypermutation for Functional Characterization of the Coding and Noncoding Genome",
+  "text": "The fundamental challenge in genomics is to understand the role of all 3 billion bases in the\nhuman genome, which will allow us to link genetic variations to gene regulation and functions.\nHere, we develop a new tool to change the rate of genetic variation within specific regions of the\ngenome, and study the effects of those variants on gene regulation and function."
+ }
+]

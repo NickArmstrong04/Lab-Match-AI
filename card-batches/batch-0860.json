@@ -1,0 +1,142 @@
+[
+ {
+  "id": "a6dbad3f-0e90-4f4c-bf02-68863d4d347f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Synergy between Artificial Intelligence and DNA-Encoded Library technologies to Identify Polypharmacological Therapeutics for Substance Use Disorders",
+  "text": "Substance use disorders (SUDs) stem from disruptions in several brain signaling pathways,\naffecting the opioid and dopaminergic systems, with notable impacts on G-protein-coupled\nreceptors (GPCRs), a key therapeutic category in FDA-approved medications. Among these,\nsome are particularly promising targets for restoring impaired brain pathways crucial for SUDs,\nand the concept of polypharmacology (1 drug acts on several targets/pathways) seems\nespecially relevant for SUDs. This Phase I SBIR proposal introduces a unique hybrid method\nthat seamlessly integrates AI with wet lab drug discovery (DNA-encoded library or DEL),\noffering a novel and powerful approach to rectify chronically perturbed signaling abnormalities\nand advance polypharmacological treatments for SUDs."
+ },
+ {
+  "id": "a6f3c71e-a2e4-4eb5-ac65-964a24fe16fe",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "R35 Administrative Supplement for Equipment: REGULATION AND CONSEQUENCES OF CRYPTIC SPLICING",
+  "text": "Alternative splicing of pre-mRNA is a prevalent phenomenon observed in mammals. The functional\nconsequences and regulatory mechanisms of alternative splicing remain largely unknown. We propose to\naddress these fundamental questions by investigating the function and regulation of alternative splicing during\nepithelial-mesenchymal transition, a developmental process that is abnormally activated in tissue fibrosis and\ncancer metastasis."
+ },
+ {
+  "id": "a6f48f39-3b3b-43fb-824d-1159771dfd1d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Anticancer ELNP nanovaccines for curative treatmentof pancreatic cancer",
+  "text": "The project aims to develop an innovative anticancer nanovaccine for the treatment of pancreatic\ncancer, targeting the key challenges of limiting factors and tumor heterogeneity to enhance the\neffectiveness of immunotherapy. The successful completion of this project is expected to introduce a\npotent therapeutic option for the curative treatment of lethal pancreatic cancer, significantly improving\nthe disease-free survival rate among patients."
+ },
+ {
+  "id": "a6fa4c02-c795-4afb-8c5d-c2309112292d",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "A Universal Platform for Ultrahigh-Throughput Biocatalyst Evolution With micro-Mass Spectrometry",
+  "text": "The objective of this grant is to fuel the development of an innovative nanoliter screening technology. This\nplatform will increase, by orders of magnitude, the scale of screens that can be performed to enable efficient\ndirected evolution of novel biocatalysts."
+ },
+ {
+  "id": "a6fb4664-d3ef-45d3-b291-15ab6142ae8a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Cnidarian Nematocyte as a Model of Vertebrate Hair Cells: Molecular targeting of the METC",
+  "text": "There is a pressing need to determine the fundamental mechanisms of hair cell mechanotransduction at atomic\nresolution. However, the extreme low availability of the mechanoelectrical transduction complex (METC) from\nnatural vertebrate sources, and the inability to reconstitute the complex for experimental analysis have emerged\nas key experimental barriers to overcome. Here, I describe the development of a new hair cell model system\nbased on the stinging cells (nematocytes) of cnidarians and we expect that this system will open the doors to\nnew biochemical, functional and structural insights on the mechanisms of mechanotransduction in hair cells."
+ },
+ {
+  "id": "a6fcce66-3699-4cbc-844c-b28f16ca1c2e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Regulation of long-lasting hematopoietic multipotent progenitors",
+  "text": "Blood cell production is driven by hematopoietic stem cells (HSCs), but recent research emphasizes the\nimportance of downstream progenitors in maintaining daily hematopoiesis. This proposal seeks to elucidate how\nthese intermediary progenitors are regulated through interactions with immune cells and how they contribute to\nlong-term hematopoiesis under both normal and stress conditions. Insights from this work will guide novel\nstrategies to therapeutically modulate progenitor activity, enhance hematopoietic recovery, and treat non-\nmalignant blood disorders."
+ },
+ {
+  "id": "a70078c2-d2f5-4e5b-a909-4cafac3e8883",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Torch Recon: An Innovative Reconstruction Software for Increased Throughput and Improved Low-Count Quantitative SPECT Imaging",
+  "text": "Although single photon emission tomography (SPECT) can potentially be used to tailor radiopharmaceutical\ntherapy (RPT) prescriptions for each patient, conventional reconstruction methods lack the required\nquantitative accuracy and signal-to-noise (SNR) ratio to be clinically adopted for this purpose. Torch Recon,\nhowever, will fuse GPU-accelerated Monte Carlo simulation and artificial intelligence to improve accuracy and\nSNR, possibly reducing the amount of time to acquire a quantitatively accurate SPECT scan, making tailored\nRPT prescriptions clinically routine."
+ },
+ {
+  "id": "a70c4ad3-6ccb-4f3e-b941-3631e83446a1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project 3: From Networks and Structures to Hierarchical Whole­ Cell Models of Cancer",
+  "text": "CCMI v2.0 Project 3: From Networks and Structures to Hierarchical Whole-Cell Models of Cancer Project Leads: Trey Ideker and Andrej Sali; Co-Investigators: Emma Lundberg, Jennifer Grandis, J. Silvio Gutkind, and Laura van ’t Veer SUMMARY One of the striking discoveries of the cancer genome projects is that each tumor presents a unique set of genetic mutations and molecular alterations. To understand how these alterations give rise to cancer and treatment outcomes, the Cancer Cell Map Initiative (CCMI) has launched systematic efforts to map the physical and functional architecture of tumor cells, capturing the molecular components and pathways on which cancer mutations converge. While parts of this effort are experimental, this Project 3 presents the central computational framework. A first computational theme concerns methods to assemble the structure of the multiscale tumor cell map. Aim 1 focuses on creating 3D models of cancer-associated protein complexes. It will apply established methods of integrative structural biology to data from other projects, including cryo-electron microscopy (cryo-EM), affinity purification mass spectrometry (AP-MS), cross-linking mass spectrometry (XL-MS), and genetic interaction datasets. Initial efforts will focus on PIK3CA-HER3 and mTOR complexes, identified in previous work by the CCMI, then move to new protein complexes identified by our ongoing mapping activities. Aim 2 focuses on mapping tumor cellular components at scales at and above the protein complex, extending to larger cellular components, compartments, and organelles. It will expand on a compelling proof-of-concept for creating an unbiased hierarchical map of human cell components by integration of AP-MS data with protein distribution data from immunofluorescence confocal images. These whole-cell maps will be analyzed to reveal specific cellular components under mutational selection in breast, head-and-neck, and lung cancers. A second computational theme concerns methods to integrate tumor cell maps with functional analysis and predictive medicine. Aim 3 uses the maps to build interpretable deep learning systems for prediction of drug responses. This aim draws from our previous work to establish “visible” learning models (DCell and DrugCell), which are not black boxes but have internal organization determined by prior knowledge of biological structure. We will construct such models from CCMI tumor cell maps, incorporating key improvements over our first- generation pilots. Finally, Aim 4 will use visible deep learning systems alongside other machine learning models to design and evaluate combinatorial biomarkers for breast, head-and-neck, and lung tumors in the patient- derived xenograft (PDX) and clinical settings. Clinical samples and data will be drawn from molecular tumor boards and the I-SPY breast cancer trial. PDX and clinical data will be used for further optimization of our predictive models using nascent techniques from transfer learning. Through these aims, we will advance our basic knowledge of the structure and function of tumors while embedding this knowledge within intelligent systems for precision medicine."
+ },
+ {
+  "id": "a710e41f-755a-4159-8db7-7a24e56c09b5",
+  "want_sentence": false,
+  "want_terms": true,
+  "title": "Sequencing Familial Lung Cancer",
+  "text": "Lung cancer is the leading cause of cancer mortality in the U.S. and the world, and familial lung\ncancer also contributes to the worldwide burden of this challenging disease. In this project, we\nwill use family-based recruitment to identify rare, high-risk variants and then characterize their\nfunctional impacts."
+ },
+ {
+  "id": "a716e90b-8234-4e88-90c1-547c8576bdf7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Elucidating the role of NF-kB signaling in CD8 T cell Exhaustion",
+  "text": "The efficacy of immunotherapies is often impaired due to T cells being in a state of “exhaustion”, meaning they\nare unable to function normally. The transcription factor NF-B is often active in functional cells while the\ntranscription factor NFAT is often active in dysfunctional cells, so rebalancing these signals to boost NF-B levels\ncan be a way to alleviate T cell exhaustion."
+ },
+ {
+  "id": "a72ef655-10cb-442f-bbb1-a282ab97c211",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Social Isolation and Metabolic Homeostasis: Investigating the Role of Oxytocin in Modulating Hypothalamic Glucose Sensing",
+  "text": "Social isolation is an independent risk factor for diabetes and dementia. However, the neural mechanism\nunderlying the relationship between social connection, glucose homeostasis, and dementia is poorly\nunderstood. This combined F99/K00 research strategy bears public health significance and will contribute\nneurobiological insight underlying the relationship between loneliness, glucose regulation and cognitive\nfunction."
+ },
+ {
+  "id": "a731100d-0e77-474a-834e-324b9f367d7b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Base Editing of APOE4 for Alzheimer's Disease",
+  "text": "People who have two copies of the E2 version of the Apolipoprotein E (APOE) gene are much less likely to\ndevelop Alzheimer’s disease compared to the millions of people with two copies of the E4 version. Gene\ntherapy aimed at editing the APOE gene from the E4 version to the less risky E2 or E3 versions shows\npromise in reducing Alzheimer’s risk. In this project, we will take advantage of recent advancements in editing\ntechnology to optimize the effectiveness of APOE editing and test its ability to protect against the progression\nof AD symptoms in mice with the high risk E4 version of APOE."
+ },
+ {
+  "id": "a73771c8-6eba-4c96-adaa-a428e8fddef3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Optimizing Hematopoietic Stem Cell Transplantation For The Treatment Of Hematological Malignancies",
+  "text": "This proposal is relevant to public health because hematopoietic cell transplantation (HCT) is the only curative\ntherapy available for many hematological malignancies as well as some non-malignant diseases such as\nhemoglobinopathies, immunodeficiencies, autoimmune diseases, and inherited disorders of metabolism. We will\nattempt to overcome many of the major limitations to successful HCT by designing and testing in clinical trials\nour basic science observations which have identified novel methods of 1) mobilizing hematopoietic stem cells\ninto the blood for collection for HCT and gene therapy, 2) conditioning patients to prepare them for HCT, 3)\npreventing graft-versus-host disease after allogeneic HCT, and 4) treating cancer (AML, T-ALL, multiple\nmyeloma, and/or B cell malignancies) before or after HCT with genetically-modified immune cells named\nchimeric antigen receptor T cells (CART) that are designed to specifically attack and kill the cancer without\nhurting the patient. Our proposed clinical and preclinical studies will guide future basic research and clinical trials\nand potentially provide more patients the opportunity to undergo lifesaving HCT."
+ },
+ {
+  "id": "a73b7fad-8f06-4a74-815e-855af97181a3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Individual-specific engagement of cortical resources for standing balance control in aging and post stroke",
+  "text": "Although standing balance control is typically an automatic, involuntary motor function, increasing attention to\nbalance is common in many older adults and is an important fall risk factor. A major clinical barrier is that this\nengagement of brain activity in gait and balance is inferred through indirect behavioral methods, limiting early\ndetection and targeted intervention approaches. Our proposal provides a novel scientific framework for directly\nmeasuring brain activity during balance tasks to enable mechanistic, personalized, approaches to maintain and\nimprove balance health in aging as well as the many neurological and musculoskeletal diseases affecting\nbalance health."
+ },
+ {
+  "id": "a73d9093-9b13-461e-ab24-ef983ad624e8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "TTD",
+  "text": "A Rehemtulla and KR Oldham will serve as Project Lead and Co-Lead, respectively, for the TTD Core. This Core will provide training and dissemination resources for use by a national and international audience to bridge the gap between engineering and biology in the emerging field of in vivo microendoscopy. Opportunities will be provided for CP/SP users, Center personnel, and outside researchers to become next generation investigators in in vivo imaging. The Core will provide training and education in basic concepts. Participants will be trained to 1) understand capabilities and limitations of microendoscopy, 2) identify parameters for specific applications, and 3) use operating software to control scan mechanisms, collect images, and interpret data. Education will be provided through hands-on training, workshops, academic courses, mentorship, seminar series, and local conferences. Dissemination through CP/SPs will accelerate broad acceptance of these technologies to advance in vivo imaging. An integrated curriculum will be developed to incorporate fundamentals in microsystems technologies, microendoscopy, and computational tools. Training opportunities will be available on-line and in person. Educational materials will be prepared for beginners ranging to advanced users. In addition to didactic lectures, trainees will attend tutorials on how to commercialize microsystems technologies to leverage potential for mass device production. Early stage trainees will have an opportunity to be mentored by Center faculty in small cohort of students. The ultimate goal is to provide mentorship experiences to motivate further training and a scientific career in microendoscopy. Hands-on training will be offered to CP/SP users to gain experience with use of microendoscopes and operating software to perform in vivo imaging in small animal models and in the clinical setting. Training will be designed primarily for CP/SP personnel, Center users, and outside investigators, and will be made available to a broad audience, including beginners and advanced users. A multi-faceted program will be developed to disseminate Center imaging technologies. A robust Center website will be developed to provide links to all online training opportunities. Outside investigators will have access to experimental protocols, SOPs, imaging system availability, and open source software, including nTracer, nGuage, and MiCV. Updates on operating software, new computational tools. In vivo images will be stored in standard formats to facilitate broad dissemination to outside investigators who want to validate the results. These image can be processed using common software packages, such as MATLAB and NIH Image J2. Center technologies will be commercialized via a start-up to provide technical support, software development, hardware prototyping, and technology transfer for pre-clinical and clinical imaging using microsystems devices, microendoscope, and software. New initiatives for dissemination will include a special journal issue on microendoscopy, a joint P41 conference, and social media."
+ },
+ {
+  "id": "a73de200-a597-4f76-bd5a-44d53778c252",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "U-RISE at UC Merced",
+  "text": "U*RISE at UC Merced - Project Narrative\nThe focus of our U*RISE proposal is to provide robust and enhanced research experiences with\nsupplemental training in computational biology and/or systems biology including bioinformatics,\nmultiple “-omics” approaches, and big data analytics. We propose to take a cohort, peer-\nmentoring approach that allows the scholars an opportunity to provide direct, hands-on peer-\nmentoring in conjunction with the faculty’s mentoring and supervision, and also integrate a\nhighly innovative modular-learning approach to the training of scholars. Given UC Merced’s\nstatus as a Hispanic Serving Institution and the number of highly qualified undergraduates in\nBiology, Chemistry, and Math, recruiting and retaining these scholars will be easily achieved, and\nour history of successful training program implementation and achievements make UC Merced\nideally situated to successfully implement the proposed U*RISE at UC Merced program."
+ },
+ {
+  "id": "a7421210-567d-44e3-bb99-35ceb0a33048",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Michigan-VUMC Biomarker Characterization Center",
+  "text": "There is a critical need for a new generation of prostate cancer biomarkers capable of accurately detecting aggressive cancers at a localized, curable stage. The overarching goal of this project is to selectively identify those patients with potentially lethal prostate cancers that stand to benefit from early definitive treatment, while preventing unnecessary testing, overdiagnosis, and subsequent overtreatment in the remaining population. To achieve this goal, we have assembled the Michigan-Vanderbilt University Medical Center EDRN Biomarker Characterization Center, which represents a multi-disciplinary team of accomplished academic and industry investigators committed to discovering, developing, and scaling clinical-grade assays for the early detection of aggressive forms of prostate cancer."
+ },
+ {
+  "id": "a742dbce-0d0f-4f4e-a694-9a1b65aace4a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Synaptic Function within Mature Central Pain Networks after Neonatal Injury",
+  "text": "The expected outcomes of the proposed research will have a positive impact on public health by\nyielding novel insight into the cellular and molecular mechanisms by which neonatal tissue damage can\nsensitize spinal nociceptive circuits throughout life. Such information would aid in the design of new\ninterventional strategies to disrupt the emerging link between pain during early life and a greater propensity to\nexperience chronic pain during adulthood."
+ },
+ {
+  "id": "a74408b6-b4a5-49b7-bfa3-8e18121d14ed",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Prevalence and persistence of the ETV6/RUNX1 pre-leukemic clone",
+  "text": "The ETV6/RUNX1 pre-leukemic clone is initiated in utero in some infants who go on to develop pediatric acute\nlymphoblastic leukemia, as well as a portion of healthy infants who do not develop cancer. We will determine the\nstrength of association between birth with the ETV6/RUNX1 translocation and childhood leukemia risk and we\nwill establish predictors of initiation and persistence of the ETV6/RUNX1 pre-leukemic clone into early childhood.\nThis project will increase our understanding of childhood leukemia etiology and allow for the development of risk\nprediction studies."
+ },
+ {
+  "id": "a7445ddb-b2c4-4338-bfa9-fcc3b62a4351",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Improving Outcomes Among Mexican and Central-American Patients with Nonalcoholic Fatty Liver Disease",
+  "text": "Persons of Mexican and Central American heritage have the highest rates of nonalcoholic fatty liver disease (NAFLD), leading to rising morbidity from cirrhosis and hepatocellular carcinoma. Behavioral weight loss interventions may improve NAFLD outcomes, but little is known about how to do so effectively among this population. The proposed research will provide important insights into behavioral strategies and interventions to reduce the burden of this public health problem and health disparity."
+ }
+]

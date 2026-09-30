@@ -1,0 +1,142 @@
+[
+ {
+  "id": "fa04c908-8755-4381-9475-15d3874b8af2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Oscillated Insertion Tool for Minimally Invasive, Low-Damage, Accurate Placement of Delivery Cannula to Improve Efficacy for DREADDS Therapy in Alcohol Addiction Treatment",
+  "text": "Alcohol addiction is a major public health burden. DREADDs (designer receptors exclusively activated by\ndesigner drugs) are chemogenetic tools primarily used for neuroscience research, but recently appreciated for\ntheir potential as therapeutics for neurological disorders, including addictive behaviors like alcohol addiction. A\ncomplication of the implementation of chemogenetic tools is that the viral vectors used to deliver them, such as\nan adeno-associated virus (AAV), must be reliably and accurately placed within target brain structures for\nprecise viral expression and resultant clinical effect from the DREADDs. This project develops a system that\nleverages oscillation of a thin injection cannula for reduced insertion and friction forces relative to larger\nstandard cannulas, improving the targeting and reliability of precise injections to deep brain locations."
+ },
+ {
+  "id": "fa07c5d0-3b89-4d60-a4e7-571e4c0b843f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Enhancing hippocampal parvalbumin interneuron function ameliorates age-dependent cognitive decline",
+  "text": "Age-related cognitive decline and Alzheimer’s disease impacts millions of older adults and represents a growing\npublic health challenge. The proposed work will demonstrate a potential circuit-based therapeutic for targeting\nhippocampal parvalbumin inhibitory interneurons to alleviate cognitive decline in aging and age-related\ndisorders."
+ },
+ {
+  "id": "fa0df9f7-8bc3-42e6-bbdc-1e702bc0bfe1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A Multi-targeted Approach for the Impaired Healing of Diabetic Foot Ulcers Through Combined Electric Field Stimulation and Nitric Oxide Therapy",
+  "text": "Diabetic Foot Ulcer (DFU) is a severe diabetic complication caused by peripheral vascular disease, neuropathy,\nand infections, all exacerbated by prolonged hyperglycemia. Current standard therapy, such as surgical\ndebridement, wound dressing, infection, mostly focus on individual aspects of the DFU pathology and present only\nabout 25% of cases achieving complete healing within 12 weeks. To overcome this challenges, we propose an\ninnovative multi-targeted strategy for DFU therapy by combined treated of electric field stimulation and nitric oxide\ntherapy."
+ },
+ {
+  "id": "fa104d9d-a135-4cef-9956-da3d932d1e5f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular determinants of viral receptor-binding protein evolution; innovation, constraints, and evolvability",
+  "text": "Receptor-binding proteins (RBP) of viruses have specialized interactions with host receptor\nmolecules and mutations in them can cause viruses to shift hosts. Many studies have identified\nsuch gain-of-function mutations; however, a molecular model for how these mutations work that\ncan be used to predict which viruses are likely to shift hosts has not been established. We will\ntest and refine a molecular model for virus RBP gain-of-function evolution using new molecular\nand computational technologies including synthetic biology, high throughput sequencing, and\nartificial intelligence."
+ },
+ {
+  "id": "fa11456d-6793-46b3-9b0a-3347a43cb3f5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of Muscle Optimized Non-viral Gene Editors",
+  "text": "Duchenne muscular dystrophy (DMD) is the most common muscular dystrophy diagnosed in childhood and\naffects around 15,000 individuals in the United States. The long-term goal of this F32 grant is to advance the\ndevelopment of a gene editing cure for DMD and to better understand the factors that limit the effectiveness of\ngene editing therapies in skeletal muscle."
+ },
+ {
+  "id": "fa149cba-7d1c-4f47-98d8-ad6b88c18218",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Technologies for High-Throughput Mapping of Antigen Specificity to B-Cell-Receptor Sequence",
+  "text": "This project aims at generalizing the LIBRA-seq technology for high-throughput mapping of antibody\nsequence to antigen specificity to make it universally applicable to a broad diversity of antigen targets, in the\ncontext of a wide range of antibody discovery problems. Ultimately, the LIBRA-seq technology will have a long-\nlasting impact on both basic and applied immunology, helping revolutionize our understanding of antibody-\nantigen interactions and leading to the discovery of novel antibody therapeutics targeting a large variety of\ndisease areas of biomedical significance."
+ },
+ {
+  "id": "fa154b0b-f7d7-413b-b28e-8c8e8bc7e651",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Developing a novel agonist of CD137 for cancer immunoprevention",
+  "text": "Breakthroughs in cancer immunotherapy pave the way for leveraging the power of immune system to prevent\ncancer in high-risk individuals with genetic predisposition or those exposed to environmental or occupational\nhazards. The overarching objective of this proposal is to test and develop a novel immune activating agent that\nhas robust preventive efficacy against various cancer types, including cigarette smoke-induced lung cancer in\npreclinical animal models with direct relevance to the clinic. If efficacy is demonstrated, this molecule will\nsignificantly improve the battle against cancer with significant health and economic impact worldwide."
+ },
+ {
+  "id": "fa162397-5d4c-41f5-97bf-94a75bba3c73",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of the integral membrane protease ZMPSTE24 in membrane protein biogenesis and virus-host cell fusion",
+  "text": "Proteins embedded in cellular membranes carry out critical cellular activities important in health and disease,\nbut to do so they must be properly inserted into the membrane, move to the right place in the cell, and have the\nappropriate membrane environment to function. Here, we will determine precisely at which step a protein\ncalled ZMPSTE24 acts on one such membrane protein IFITM3, helping it to achieve its activity in blocking\nvirus host-cell fusion, the first step of viral infection. Insight into the mechanism whereby ZMPSTE24 enables\nIFITM3 to attain its function could have general applicability to other membrane proteins and may someday be\nharnessed to develop an antiviral drug."
+ },
+ {
+  "id": "fa1b0813-8563-4974-8e96-e42b8e002075",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Autophagon: an Autophagy-Functionalizing Gene Therapy Tool for Neurodegenerative Diseases",
+  "text": "Neurodegenerative diseases, especially Alzheimer’s Disease (AD) and Parkinson’s Disease\n(PD), are devastating cognitive or motor-disabling conditions, for which there are no therapies\ncurrently. We propose to test an innovative genetic tool that helps clear protein aggregates that\ncause neuronal toxicity from neurons, and investigate its therapeutic effects in vitro and in vivo\nin AD and PD mouse models. This project may develop a novel potential gene-therapy tool for\nAD and PD."
+ },
+ {
+  "id": "fa1d1f64-6d1e-42de-9828-ba3ada864a49",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Biopolymers & Proteomics",
+  "text": "Biopolymers & Proteomics Core: Project Summary/Abstract The ability to sensitively and quantitatively analyze proteins, peptides, small molecules and metabolites is critical to understanding differences between normal and disease states in cells, tissues and organisms. Such analyses typically require sophisticated technical expertise and state-of-the-art instrumentation. The Biopolymers & Proteomics Core (B&P Core) provides Koch Institute researchers with a diverse range of services, with an emphasis on protein/peptide, proteomic and mass spectrometry services, that enable both synthesis and analysis of biological materials. These are technologies that individual researchers usually do not learn, but are essential for modern cancer research, and as such the Core provides access to these techniques. In the current funding period, the B&P Core added new capabilities and modified existing services, including: acquisition of two new hybrid quadrupole-orbitrap MS instruments with funds from Institutional sources to expand proteomics analysis capacity and improve sensitivity; upgraded HPLC with funds from Institutional sources to enable improved fractionation of complex samples and added independent HPLC use; and expanded expertise in HPLC analysis and purification (e.g. small molecule-drug conjugates). Center Member Core use has been strong: 84% of Center Members use the Core, account for 74% of Core service use, and include investigators from all three Research Programs. In the upcoming period, the B&P Core will continue to offer a wide range of state-of-the-art services to support Center Member research programs, and will evaluate emerging capabilities in the context of Center Member needs and interests. A number of new initiatives are planned, including: expansion and enhancement of proteomics capabilities in global and quantitative proteomic analysis, detection of post-translational modifications and identification of binding partner profiling; and improved investigator support for mass spectrometry-related informatics and complex proteomic data analyses. The B&P Core is also committed to maintaining instrumentation at the leading edge, and will continue to closely monitor technological improvements, particularly with regard to LC-MS instrument sensitivity, specificity, operation, and speed. The Core has taken advantage of leasing and vendor consignment programs to provide more frequent instrumentation updates, allowing the Core to pilot new advances and technologies at lower relative cost. In the upcoming funding period, we will conduct a hands-on assessment of Center Member needs with respect to metabolomics capabilities. Funding for any new equipment acquisitions will be solely from Institutional sources. This Shared Resource is essential to the success of the Koch Institute mission and provides exceptional value to the CCSG. The requested CCSG budget for Year 49 is increased by 18.5% over the Core CCSG budget for the current period (Year 48), reflecting increased support for proteomics expertise."
+ },
+ {
+  "id": "fa1f0235-abf2-447c-8a21-1016c1eb637f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Notch signaling regulates stem cell function in the fetal liver hematopoietic niche",
+  "text": "Expansion and superior functionality are hallmarks of fetal hematopoietic stem cells. The Notch signaling pathway is essential for function and maturation of hematopoietic stem cells while in the fetal liver, and we propose to identify how the signaling in the fetal niche regulates the expression of novel target genes, which lead to expansion of fetal hematopoietic stem cells. We will use this knowledge for the therapeutic expansion of cord blood cells and rejuvenation of adult bone marrow stem cells."
+ },
+ {
+  "id": "fa3583b2-3c93-40e8-a7a0-7c6189f2c97c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Pacific Symposium on Biocomputing",
+  "text": "Improving human health will require improved understanding of human DNA, which has about 3\nbillion units that code for more than 20,000 different proteins (with many of these proteins\nexisting in multiple forms) and for an undetermined number of regulatory molecules. Dealing\nwith all of these entities and their interactions requires extensive use of computer algorithms,\nparticularly as we move to an era of precision health. Exchanging information about the\ndevelopment and optimal use of these computational biology and bioinformatics algorithms is\nthe focus of the Pacific Symposium on Biocomputing (PSB), which is one of the more significant\nscientific meetings on this topic."
+ },
+ {
+  "id": "fa3847ac-b2c8-4be3-b774-5f345b2e05b8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Michigan Hepatotoxicity Clinical Research Network Renewal",
+  "text": "The Michigan team proposes to continue to enroll high causality DILI cases using a multi-faceted recruitment strategy\ninvolving new co-investigators and sites at Michigan Medicine as well as continued collaboration with other major\nmedical centers and members of the highly successful Michigan Hepatotoxicity Network. The enrollment of high\ncausality DILI cases of varying age, gender, and ethnicity will allow us to conduct new genetic, immunophenotyping, and\nbiomarker ancillary studies focused on DILI pathogenesis. We also propose a series of outreach and educational efforts\nto help DILIN become a pharmacovigilance beacon for new causes of drug and HDS hepatotoxicity in the United States\nand lastly we propose a pilot clinical trial of budesonide in patients with severe acute hepatocellular DILI with jaundice\nto improve patient outcomes."
+ },
+ {
+  "id": "fa3bb0dc-6ab2-4068-97dd-d3669aa9cd39",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Training Program for Innovative Engineering Research in Surgery and Intervention",
+  "text": "The purpose of this training program is to create a new cadre of researchers capable of creating, implementing,\nevaluating, and translating methods, devices, algorithms, and systems to facilitate surgery and intervention.\nThematically, the program has a central focus – innovative platform technologies for treatment and discovery."
+ },
+ {
+  "id": "fa470f71-9fb3-440a-9612-2d06925962eb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Center for Biomedical OCT Research and Translation",
+  "text": "Overall\nThe proposed NCBIB will develop and provide broad access to powerful new microscopic imaging tools\nfor biological and clinical research. These instruments will open new avenues of biomedical research\nand may enable the identification of new methods for diagnosis, provide new insights into disease or\ndisease progression, or lead to the formulation of new therapeutic strategies or drug targets."
+ },
+ {
+  "id": "fa4b643e-5586-4b60-a06b-e1ad3b0f374e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Pitt-Ohio State Clinical Trials Unit",
+  "text": "The Pitt-Ohio State Clinical Trials Unit is a collaborative effort that will support the DAIDS HIV/AIDS research\nnetworks with a particular focus on critical areas of research in HIV therapy and prevention including: control of\nHIV replication in the absence of ART (“ART-free remission”), long-acting treatment for HIV; prevention and\ntreatment of non-infectious comorbidities and hepatitis B; and HIV prevention strategies including pre-exposure\nprophylaxis, multipurpose technologies, broadly neutralizing antibodies and vaccines."
+ },
+ {
+  "id": "fa4c700f-c980-408d-a772-f9e4ee770db9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The miR-183/96/182 Cluster in Pseudomonas aeruginosa-induced Keratitis",
+  "text": "Pseudomonas aeruginosa (PA) keratitis is one of the most rapidly developing and destructive diseases of the\ncornea and a global cause of visual impairment and blindness. Emergence of antibiotic-resistant bacterial\nstrains poses additional challenges for effective management of the disease and development of alternative\ntreatment is in urgent need. This study will uncover the molecular mechanisms underlying the roles of the miR-\n183/96/182 cluster (miR-183C) in PA keratitis and the protective effect of anti-miR-183C against the disease\nthrough miR-183C's regulation of corneal sensory nerve function and neuroimmune interaction in both mouse\nand human."
+ },
+ {
+  "id": "fa4dfb31-64c3-43d4-9180-65fa5762e42d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting iRhom to Improve Colon Cancer Immunochemotherapy",
+  "text": "This application will develop a new immunochemotherapy for the treatment of colorectal cancer\nthrough nanoparticles-mediated codelivery of iRhom1 siRNA and CPT-SAHA, a prodrug conjugate of\ncamptothecin and SAHA."
+ },
+ {
+  "id": "fa54b60b-11f2-44c0-907c-70f78b5be25f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Understanding the Cardiac Benefits of Exercise at the Cellular and Molecular Level",
+  "text": "Regular exercise is highly effective for preventing and counteracting cardiovascular disease, and\nappears to work in part by affecting the cells of the heart itself. This proposed research program aims to\nidentify the heart cells affected by exercise, determine the key interactions among those cells and\ncharacterize the underlying mechanisms. In addition to advancing our understanding of the effects of\nexercise, this work will suggest new therapeutic targets for heart disease, a rapidly growing public health\nthreat."
+ },
+ {
+  "id": "fa583071-62d6-4f50-b7c6-ab9c41d75318",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Clinical Translation (CT) Core",
+  "text": "Powerful clinical strategies exist for people at risk for or living with HIV, with unprecedented promise of positive outcomes across the HIV care continuum. Yet, the HIV landscape is characterized by progress for some, but continuing gaps for others. Thus, it is imperative to identify, understand, and address the multi-level factors that impede adoption of HIV testing, prevention, and treatment strategies and, likely, use of a future HIV vaccine. These drivers include individual-level, contextual, system-level and structural factors, and co-occurring epidemics (e.g. racism, drug use and emerging infections, etc.). The Clinical Translation Core will advance the behavioral and biomedical clinical science research necessary for implementation of biomedical strategies that can “move the needle” on ending the global HIV epidemic. The Core will embrace a syndemic perspective that addresses social determinants of health as well as an implementation science perspective that identifies and addresses parameters for making innovations in real world practice. Its multidisciplinary faculty of HIV biomedical, health behavior, mental health, implementation research, epidemiology and bioinformatics researchers and their stakeholder partners uniquely equip the Core to catalyze and support research that bridges gaps between biomedical discovery, adaptation, and sustained implementation in often resource-constrained systems and underserved communities. In order to put forward the next generation of research leaders, two Early Stage Investigators (one biomedical, one behavioral) will have active roles in Core leadership and function. The Core has the following Specific Aims: (1) To promote application of behavioral science theory and formative methods to the development and use of new biomedical strategies for HIV prevention and treatment; (2) To stimulate development and evaluation of innovative, efficacious interventions that integrate biomedical strategies and health behavior theory and methods to maximize HIV prevention and treatment; (3) To maximize uptake and sustained use of existing biomedical HIV prevention and treatment strategies by promoting innovative application of behavioral and data science tools and an implementation science lens."
+ }
+]

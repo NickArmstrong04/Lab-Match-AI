@@ -1,0 +1,142 @@
+[
+ {
+  "id": "4f374edc-9469-4cca-a06b-08cec9a48653",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Transcriptomic Core",
+  "text": "The Single Cell Analysis and Bioinformatics Core will provide state-of-the-art experimental technology, computational biology, and biostatistical support tailored specifically to the program project. This includes scalable, pooled-sample methodology for single-cell RNA-seq (scRNA-seq) and multi-modal single-cell analysis technologies for multiplexed lineage tracing and surface protein profiling (CITE-seq). The Core will also provide comprehensive bioinformatics support including data processing and specialized tools for dimensionality reduction and automated annotation of single-cell data. Finally, we will assist Project investigators with experimental design and statistical modeling across a variety of modalities including single-cell genomics, mass spectrometry, and indirect calorimetry."
+ },
+ {
+  "id": "4f380d5d-e1b8-4765-9fca-cfe8a64d999b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "CYSTIC FIBROSIS RELATED DISEASE MODEL CORE - Core 3- Naren",
+  "text": "A new component of this P30 application is the ‘CF-Related Disease Model Core”. This core will include patient- and iPSC-derived CF organ model systems integrated with chip technology that form a highly relevant testing platform for investigators interested in specific questions of human CF-related disease phenotype. The Core will be located at Cedars Sinai Medical Center (CSMC) and will work closely with Core 1 (Clinical and Translational core) and Core 2 (Model System Core) at CCHMC and UC to develop a strong East Coast-West Coast Cystic Fibrosis (CF) partnership. Locally, we will also partner with the Division of Regenerative Medicine and GI Division (CSMC) to make our core accessible to all the researchers interested in CF research in Sothern California as part of the CFF-RDP (SoCal CF-Research Program: a partnership of 5 institutions, Cedars, USC, CHLA, UCLA and Ventura). It is our expectation that access to these innovative state-of-the-art technologies will facilitate translational research at CSMC, CCHMC and UC investigators with an emphasis on CF/CFTR related disorders while also addressing demographic-associated health disparities and outcomes. Two specific aims will be studied: Aim 1: The Core will provide well-characterized CF patient-specific primary pancreatic and iPSC-derived organoid cultures to local, national, and international investigators interested in CF-related disease models. Aim 2: The core will provide CF-organ-on-a-chip service (both commercial and customized) to local, national, and international investigators interested in CF-related model systems. The proposed studies are highly significant because it (i) addresses life-limiting and prevalent diseases and pathological manifestations that limit therapeutic outcomes; (ii) has clinical relevance and implications; (iii) is a multidisciplinary project covering basic biomedical engineering, physiology and pathophysiology of the pancreas, development of tissue on a chip, assay development, and drug discovery using personalized human model systems."
+ },
+ {
+  "id": "4f3c5b29-21b8-4e99-afbd-8fedb7dd9c73",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating the role of centromere variation in non-random aneuploidy and early pregnancy loss",
+  "text": "Aneuploidy is a leading cause of early pregnancy loss and congenital disorders, yet the genetic factors\ninfluencing its occurrence remain poorly understood. By identifying centromere-linked genetic variants\ncontributing to chromosomal errors, this research will enhance our understanding of the molecular\nmechanisms driving aneuploidy in early pregnancy loss. These findings have broad implications for\nreproductive medicine, potentially leading to the development of genetic risk assessments for aneuploidy,\nimproved screening tools for recurrent pregnancy loss, and targeted strategies to enhance embryo viability in\nboth natural and assisted reproduction."
+ },
+ {
+  "id": "4f3ec29b-3d32-4375-bfb4-752dd7d19a7d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Histone chaperones and cell state regulation",
+  "text": "Understanding diseases, including diabetes, pancreatitis, and cancers, requires a comprehensive knowledge of\nhow cells and tissues normally respond to stress to maintain stability. Important aspects of this are controlled by\nthe organization and structure of the DNA within cells. We will study this biology and the important downstream\n(and potentially pathogenic) consequences when this normal regulation is lost."
+ },
+ {
+  "id": "4f3f75a6-7e75-4a8c-923b-b51c211a9f8f",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Biospecimen Core",
+  "text": "BIOSPECIMEN CORE: NARRATIVE \nThe Biospecimen Core will serve as source of patient tumor and normal tissues to meet the needs of the \nindividual projects. The Core also generates its own biospecimen-based research pertaining to brain tumors, \nand will provide all tissue and tumor model analytical services that are needed to advance SPORE laboratory \nand clinical research."
+ },
+ {
+  "id": "4f3fff48-6f13-47e7-870e-0b40e992f30f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "High spatiotemporal optical imaging to study dynamics of 3D cell motion and behavior in living organisms",
+  "text": "Improvement of optical microscopy that provides high spatial and temporal resolution can impact numerous\nfields of biomedical research. I propose to combine a novel microscopy technique and advanced computational\npost- processing to provide the next generation of imaging tools for biomedical researchers. This technology\nwill help to move biomedical research forward by understanding subcellular events to tissue-level outcomes\nthat are critical in cell biology or pathophysiology."
+ },
+ {
+  "id": "4f4a2f20-5149-4734-a5de-88840e4b315f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Underpinnings of corneal innervation: anatomical, molecular, and functional studies of corneal sensory afferents in physiologic and pathologic states",
+  "text": "This multi-PI collaborative proposal directly addresses the specifications delineated by the FOA RFA-EY-004:\nOcular Surface Innervation from Cell Types to Circuit Functions, where collectively, the aims will characterize\nthe sensory afferents that innervate the ocular surface on all three levels requested by the FOA, morphologic,\nmolecular, and functional, with rigor and precision. The project will implement cutting -edge genetic mouse\nmodels, advanced microscopy, single cell genomic, and machine learning ap proaches, and leverage the\nexpertise of a preexisting, strong interdisciplinary team with a robust productivity record. Data generated from\nthis proposal will provide an extensive, detailed resource to inform the physiology and pathophysiology of the\ncorneal nerve afferents and inform the development of new treatments for diseases, such as dry eye disease,\nneurotrophic keratitis, and neuropathic ocular pain."
+ },
+ {
+  "id": "4f4d69af-77e2-44b2-b2dd-c1b2997a51e6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Reprogramming of tissue structural cells by cutaneous CD4+ T cells",
+  "text": "Tissue structural cells can harbor ‘inflammatory memory’ of prior inflammatory responses in the form of stable\nepigenetic modifications that alter their transcriptional potential and behavior following subsequent tissue\ndamage but how T cells influence inflammatory memory in the skin is unknown. In this proposal, we will\nexamine the cross-talk between T cell derived cytokines and structural cells in vitro culture systems, in a\nmurine model of T cell-dependent skin inflammation, and in samples from patients with inflammatory skin\ndiseases to mechanistically dissect reprogramming of structural cells by T cells, and determine if this process\ncan be targeted therapeutically to block cutaneous inflammation."
+ },
+ {
+  "id": "4f4f7149-a20a-4493-ad6e-363b755c2119",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "MACE-Alert: An Artificial Intelligence based Assessment and Triage of Undifferentiated Chest Pain",
+  "text": "Undifferentiated, nontraumatic chest pain is a leading cause of emergency department (ED)\nvisits, yet existing triage methods often fail to stratify risk accurately, contributing to\novercrowding and inefficient resource utilization. This project aims to develop and validate a\ndual artificial intelligence (AI) approach, integrating a machine learning-based predictive model\n(MACE-Alert) with a large language model-based Conversational Agent to improve risk\nprediction of major adverse cardiac events and ED triage decision-making. Future trials will\nassess the real-world implementation of the Conversational Agent to enhance workflow\nefficiency, optimize resource allocation, and improve patient-centered outcomes, ultimately\nreducing unnecessary hospitalizations and ensuring timely care for high-risk individuals."
+ },
+ {
+  "id": "4f50029c-9223-429b-a72e-c20c78980b2a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Advancing top-down proteomics with capillary electrophoresis-mass spectrometry",
+  "text": "In this MIRA application, the Sun group will advance top-down proteomics using\ncapillary electrophoresis-mass spectrometry (CE-MS) to achieve a draft of the\nproteoform atlas of human cells, which will be an extremely valuable resource for\nfundamental and translational research. The Sun group will apply the novel CE-MS\ntechniques to developmental biology to discover crucial proteoforms that modulate early\ncellular differentiation and zygotic genome activation during early vertebrate\nembryogenesis using zebrafish as the model organism."
+ },
+ {
+  "id": "4f512e2e-8c93-4075-860e-602eb5c1d8b5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Harnessing simulations to uncover molecular mechanisms of mechanosensing",
+  "text": "In our work, we are focused on how mechanical forces (pulling, pushing, stretching, and squeezing)\nimpact the behavior of proteins in living systems, and in particular how special proteins are designed to\nperform a particular function in response. We use and develop computational tools that let us\nunderstand these mechanosensitive processes at different length and time scales, so that we can\nbridge our understanding of how cells function at the macro level with how molecules interact at the\natomic scale. Our methodological developments and investigations of the fundamental role of\nmechanical forces in biology will lead to new understandings of cellular behavior, including in disease\nrelevant contexts such as the interaction of cancer cells or virulent bacteria with their environment."
+ },
+ {
+  "id": "4f52dee9-80b7-4c4d-9e11-a713ba1de81d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Functional Genetics of the Neuronal Sodium Channel Gene SCN8A",
+  "text": "LAY NARRATIVE\nMutations in the sodium channel gene SCN8A result in a severe epileptic syndrome designated SCN8A-DEE,\nDevelopmental and Epileptic Encephalopathy, that is characterized by early onset seizures, profound\nintellectual disability, and impaired movement. We pioneered an antisense-oligonucleotide (ASO) drug\ntreatment that prevents seizures and extends lifespan in a preclinical mouse model. We propose to develop\nimproved viral and CRISPR treatments with longer-term effectiveness and reduced potential for side effects,\nand to elucidate the unexplored role of the cerebellum in the co-morbidities of movement and cognition in\nobserved in individuals with SCN8A-DEE."
+ },
+ {
+  "id": "4f532d0e-8744-44c8-8868-4481a9b20e4c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mitochondrial regulation of chemotherapy-induced reactive myelopoiesis and pro-metastatic effects",
+  "text": "This proposal addresses roles of mitochondrial ROS and Drp1 dependent mitochondrial fission in\nchemotherapy-induced reactive myelopoiesis and the pro-tumor monocyte development. This proposal also\naddresses whether targeting of mitochondrial ROS or Drp1 reduces chemotherapy-induced pro-metastatic\neffect. The objective of this proposal is consistent with the goals of the NCI R21 program and will have a\nsignificant impact on public health by providing approach for prevention of tumor metastasis."
+ },
+ {
+  "id": "4f53b856-a4f2-43d5-b3d1-579fb29ddee2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dissection of specialized metabolism in plants using multiplexed perturbation",
+  "text": "Plants are the origin of many FDA-approved drugs and, as food, deliver a daily dose of drug-like compounds\ninto our bodies. This project establishes an efficient strategy to decode the genomes of dietary and medicinal\nplants by activating and identifying hundreds of different biochemical programs in multiplexed assays. This work\nwill help illuminate what molecules a plant can synthesize, allowing us to (1) make informed dietary decisions,\n(2) engineer the metabolic content of our food, and (3) produce high-value medicinal compounds."
+ },
+ {
+  "id": "4f5b7d4f-8a12-4b1b-a326-54e808cc64b6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Computational analysis of complex genetic interactions",
+  "text": "Mutations often interact with each other, so that knowing the effects of individual mutations is not enough to\npredict how they will combine. This unpredictability makes it difficult to prevent the emergence of antibiotic\nresistance and immune evasion in infectious disease, complicates efforts to assess the pathogenicity of\nvariants in human genome sequences, and hampers our ability to develop new protein-based therapeutics,\nantibodies, and enzymes. This project will improve our ability to predict how mutations interact by developing\nnew computational tools to model the combined impact of multiple mutations based on data from large\nsequence databases and high-throughput experiments."
+ },
+ {
+  "id": "4f632189-822a-4037-a4be-d07c4945e42d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Chemical Specific Measurements of Cellular Heterogeneity in Organoids",
+  "text": "Organoids are multicellular culture models that can be grown directly from human tissue and have enormous\npromise for prognosis, transplantation, and personalized drug testing. However, there is currently no good\nmethod to analyze the protein composition in an organoid with cellular specificity. In this proposal, we outline the\ndevelopment of a suite of mass spectrometry centered methods that will enable robust proteomic analysis of the\ndistinct cellular populations in organoids."
+ },
+ {
+  "id": "4f66a0c4-7abf-462e-b02f-2456f8c779fe",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Baylor College of Medicine - Mendelian Genomics Research Center (BCM-MGRC)",
+  "text": "This request for a sixth year (Y6) extension to the support for the Baylor College of Medicine\nGREGoR program is to enable completion of the original stated goals. The Y6 work includes\na limited amount of data generation for participant samples that remain unprocessed and\nconsolidation of all data accrued during the course of the program to support analysis and final\nconclusions about how to increase the proportion of Mendelian conditions with an identified\ngenetic cause."
+ },
+ {
+  "id": "4f66f4f5-0bc4-4f68-ab93-68a9ea27ce48",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "NEW CHEMICAL PROBES ENABLE MASS SPECTROMETRY-BASED FOOTPRINTING OF HUMAN PROTEIN STRUCTURE IN LIPID MEMBRANES AND CELLS",
+  "text": "The proposed research is relevant to public health because our development of mass\nspectrometry footprinting methods will be broadly applicable for the study of human membrane\nproteins that represent more than 60% of the drug targets and participate in almost all\nphysiological processes. We will apply new methods we develop in native membranes and live\ncells to reveal the interactions of a human glucose transport protein with anticancer drug\ncandidates and partner proteins that regulate glucose levels in the human body."
+ },
+ {
+  "id": "4f6732e7-c59d-40a6-8c0b-77a81b97f5c8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Uncovering the role of RFT1 in growth and developmental signaling",
+  "text": "Mutation of the RFT1 gene causes a genetic disorder called a congenital disorder of glycosylation (RFT1-CDG)\nthat results in severe symptoms that present at infancy and span most organ systems, producing major defects\nin growth and development. The biological function of RFT1 remains poorly understood, and hence, treatment\noptions for RFT1-CDG are lacking. This project seeks to study the mechanism of RFT1 in regulating the growth\nand developmental signaling pathways that may contribute to the clinical presentation of the disorder and will\ninform treatment options for RFT1-CDG patients."
+ },
+ {
+  "id": "4f67f900-6476-487b-86f6-6d06b1fcedbe",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "NanoDiscs for Immune Modulation in Celiac Disease",
+  "text": "The objective of this project is to develop NanoDiscs as a tolerogenic vaccine platform and advance a proof-of-\nconcept application in Celiac disease (CeD), a condition for which no approved therapies currently exist. The\ncornerstone of CeD management is lifelong adherence to a strict gluten-free diet (GFD). However, maintaining\na GFD is challenging, costly, and may not fully alleviate disease symptoms. This proposed research aims to\ncreate a novel vaccine-like strategy for treating CeD, potentially opening avenues for treating other autoimmune\ndiseases and leading to new strategies for achieving disease control."
+ }
+]

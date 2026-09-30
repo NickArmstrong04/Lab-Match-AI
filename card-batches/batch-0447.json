@@ -1,0 +1,142 @@
+[
+ {
+  "id": "1237cb07-419b-4d1a-af10-f5f13926e65e",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Administrative Core - EPIC",
+  "text": "Eukaryotic pathogens cause significant disease globally, and more locally, threaten the health of citizens in South Carolina and the Southeastern United States. Clemson University’s strength in eukaryotic pathogens research led the Clemson University Board of Trustees to approve formation of the Eukaryotic Pathogens Innovation Center (EPIC) in January 2013. The overarching theme of EPIC is the study of globally important eukaryotic pathogens using state-of-the-art molecular, cellular, biochemical, genetic, chemical, biophysical, and genomic approaches. The Specific Aims of the Administrative Core proposal are: (1) to continue building Clemson EPIC into a nationally and internationally recognized research center, (2) to recruit high quality faculty with diverse research interests to build critical mass and expand the breadth of EPIC, and (3) to develop and administer a comprehensive mentoring program to enhance Target Investigator (TI) success in research and grantsmanship. Three key approaches to achieving these aims are: (i) expanding the breadth of expertise by hiring additional faculty and postdoctoral researchers in the area of eukaryotic pathogenesis and providing them with comprehensive and intensive mentoring in research and grantsmanship to provide them with the tools to successfully compete for NIH R01 or equivalent funding; (ii) continuing to host presentations by top researchers in the field at the Cellular Biology of Eukaryotic Pathogens meeting and at Center/Departmental/College seminars to raise EPIC’s profile; and (iii) enhancing research infrastructure within EPIC and the Clemson Light Imaging Facility and the Clemson University Genomics and Bioinformatics core facilities to aid in the research enterprise. The overall plan for the EPIC Administrative Core combined with the demonstrated commitment of the College of Science and the Clemson University Administration will position EPIC to truly achieve the status of a Center for Biomedical Research Excellence."
+ },
+ {
+  "id": "1238d3e6-dcdf-4807-8e7c-87d095a3b807",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Metabolic mechanisms of glioma progression",
+  "text": "To address the urgent need for new insights into the biological processes that promote glioma, the most\ncommon type of malignant brain tumor, we measured metabolite levels in a collection of human glioma\nsamples and non-cancerous brain tissues. We identified a metabolite that is highly enriched in aggressive\ngliomas and we now seek to reveal how it accumulates in these tumors and the role it may play in promoting\ninteractions between glioma cells and neurons. Because interactions between glioma cells and neurons are\nknown to be critical for brain tumor growth, our work may deepen our understanding of these interactions and\ninform new approaches to treat glioma."
+ },
+ {
+  "id": "12406746-bc3e-4cc1-8379-2ea1d55a2686",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Development of antigent-presentation modulating nanoparticles (APM-NPs) to improve immunization",
+  "text": "This study aims to engineer T cell responses via novel antigen-presentation modulating nanoparticles (APM-\nNPs) with antigen presenting cell and tumor specificity that can enhance antigen presentation and potentiate\nantigen specific T cell responses. To validate this approach, we will investigate the applicability of this platform\ntechnology to generate a pro-inflammatory tumor microenvironment and treat cancer in mouse models.\nSuccessful completion of this project will lay the foundational groundwork for a novel platform technology to\ngenetically modulate antigen presentation and enhance vaccination strategies, with applications to cancer,\ninfectious disease, autoimmunity, and beyond."
+ },
+ {
+  "id": "1244a4a1-3451-4eff-9ddf-0b3b4b74b6d9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Collaborative Integration of HCV Molecular Virology and Mathematical Modeling",
+  "text": "Hepatitis C virus (HCV) is a hepatotropic virus that establishes chronic infection in ~70% of those exposed. While\neffective direct acting antiviral (DAA) therapeutic combinations are highly potent, we are not yet on track to\nachieve the WHO goal of elimination by 2030, which will require a scaling-up of HCV screening, linkage-to-care,\nreduction of treatment cost as well as advancing our understanding HCV persistence and drug resistance.\nImportantly, because viral cell-to-cell spread has been implicated in antiviral escape, immune escape, and\npersistence of viruses in general, the insights gained through the proposed HCV studies should broadly inform\nfuture antiviral strategies for hepatitis C and related viruses."
+ },
+ {
+  "id": "124aa0e0-319a-4eab-8443-b0a5f6c0930a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Interpretable and Adaptable Graph Neural Networks: Modeling Metapopulation Dynamics of Childhood Infections",
+  "text": "Despite decades of theoretical and empirical work, the problem of fully understanding and accurately predicting\nthe complex spatiotemporal dynamics of childhood infections, in the context of evolving public health\npreventive and management strategies, remains unresolved. The key to a solution lies in enabling a deep\nunderstanding of the intricate geometry of infection spread among a network of spatially interconnected\npopulations (i.e., a metapopulation). This project develops a new modeling framework—effectively combining\nthe strengths of mechanistic models and graph neural networks—to provide such a solution that is also key for\nguiding effective prevention and management strategies for current and emerging childhood infections."
+ },
+ {
+  "id": "124c84bc-415a-46aa-8aa0-074c0007888f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Towards an etiological model of adolescent eating disorders through neuroimaging, genetics, and behavior",
+  "text": "Eating disorders, including anorexia/bulimia nervosa and binge eating disorder, have their peak onset during\nadolescence but their etiological underpinnings are still largely unknown, leading to poor treatment outcomes\nand even mortality. This study will be the first to prospectively study the genetic, neuroimaging and behavioral\nfactors that precede onset of an eating disorder in adolescence using data from the Adolescent Brain Cognitive\nDevelopment (ABCD) Study, as well as integrating independently collected clinical data to examine how\nputative premorbid factors translate to clinical outcomes. Infusing a neurobiological perspective to an\netiological model of eating disorders will offer valuable directions for future treatment plans and clinical\nassessments early in the course of illness."
+ },
+ {
+  "id": "124e7dda-239a-4732-a934-1439ce87c78c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dysregulated genome architecture in acute myeloid leukemia",
+  "text": "Changes in DNA methylation and gene expression are hallmarks of acute myeloid leukemia, but mechanisms\nunderlying these changes are poorly understood. We propose to define the genome-wide relationship between\nDNA hypermethylation and 3D genome architecture using primary AML samples with canonical DNA\nmethylation phenotypes, and to perform detailed mechanistic studies of epigenetic modifications, chromatin\ninteractions, and gene expression at the HOXA locus in primary AML samples and AML cell line models.\nTogether these studies should allow us to better identify genes that are dysregulated by the effects of DNA\nhypermethylation, and may lead to new approaches for disrupting HOXA-mediated self-renewal in AML cells."
+ },
+ {
+  "id": "12508b86-df0f-4746-a72e-d74877c2eb05",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "AI-Enhanced Perfusion MRI for Optimizing Y90 Particle Density in Radioembolization of Liver Cancer",
+  "text": "Radioembolization has become a viable treatment option for unresectable primary or secondary liver cancer.\nHowever, significant challenges remain in providing personalized dosimetry that accounts for the altered\nperfusion of primary or secondary liver cancer compared to normal liver parenchyma. In this project, we use a\ncombination of artificial intelligence and MR perfusion imaging to build a perfusion biomarker that interventional\noncologists can use to improve personalized dosimetry for radioembolization."
+ },
+ {
+  "id": "12522d04-d532-41fe-a179-48f167e63a50",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Center for Transformative Infectious Disease Research (CTIDR)",
+  "text": "PROJECT 1 PROJECT DESCRIPTION Our proposed studies will investigate how extreme weather events and seasonal changes affect risk of spillover of zoonotic infections from bats. Our work will help identify evidence-based strategies to prevent disease emergence in multiple ecological settings. Bats are the known or progenitor hosts of four of the nine diseases identified by the World Health Organization as research priorities. Bats also may be exquisitely vulnerable to changes in weather because their food resources are seasonal and physiologically they are sensitive to temperature changes. We will leverage two long-running datasets on emerging pathogens from bat hosts to examine the role of weather in driving shedding patterns and spatial behavior of bats and likelihood of exposures in humans. Our methods, innovative both conceptually and methodologically, will use already collected datasets. We will integrate these datasets to move beyond assumption\u0002laden correlations of spillover risk towards mechanistic understanding of how ecological, environmental, and host-viral drivers of infections influence disease emergence. Our work sets the stage for remote sensing methods to identify places and periods to prioritize for prevention of spillover. In Aim 1, we will identify weather-driven effects on the health of bats, diet, and paramyxo- and corona-, virus infection dynamics in Australia, using retrospective data collected previously by the PI. Hypothesis: We will observe higher prevalence of viral shedding in sampled bats after or during specific environmental conditions (e.g., hot, dry, then wet conditions, flood, high rainfall) and higher prevalence will be correlated to markers of bat health, diet and viral infection dynamics. We will use novel Bayesian multilevel models to analyze these data. In Aim 2: we will investigate how host space-use changes in relation to environmentally-driven resource availability and how these changes drive spatial and temporal overlap of bats and humans. Hypothesis: resource constraints on natural food sources will lead to increased contact between bats, humans, and bridging hosts. Our work will lead to strategies, derived from empirical data and modeling, that can help prevent spillover of pathogens from bats to humans. Preventing spillovers from bats in any part of the world reduces the risk of pandemics and reduces human mortality and morbidity in the United States; prevention of spillover is highly cost- effective when strategies are successful, and can lead to interventions that buffer effects of environmental change on sensitive species such as bats."
+ },
+ {
+  "id": "1256f66e-ce89-41fe-868b-82e157082652",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Models and Gene Therapies for AAT Deficiency-Admin Core",
+  "text": "Project Summary / Abstract - Administrative Core The overarching goal of this application is to advance more efficacious and safer adeno- associated virus (AAV) gene therapy and base editing for single gene disorders, of which alpha-1 antitrypsin (AAT) deficiency is among the most common. As we continue to progress in AAT gene therapy, we aim to address some fundamental limitations of these therapies. These include improving our understanding of the mechanisms of acute toxicity with very high intravenous doses of adeno-associated virus (AAV) vectors, guiding our management of adaptive immunity to AAV and CRISPR components, optimizing AAV vector potency, and refining the performance of base editors that are highly compact precise and efficient. Since this program project entails multiple different modalities of gene transfer, gene editing and immune modulation, it will require a close coordination among the PIs of the 4 research projects and the 2 scientific cores. This administrative core serves to facilitate the work of the other 6 components through accurate and transparent cost accounting, the organization of regular recurring collaborative data meetings and the organization of internal and external peer reviewers to give input into our research direction and methods. Other administrative and logistical details will be handled through this core, enabling the PIs to focus on their science."
+ },
+ {
+  "id": "125a185f-7c9b-44a6-995d-393c67fc700b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Administrative Supplement: Research Continuity Following Caregiving Responsibilities (R21AG087299)",
+  "text": "This supplement will provide short-term support to ensure continuity of an NIH-funded Alzheimer's disease\nresearch project. Additional scientific personnel will accelerate analytic pipelines, develop methodology, and\nassist with dissemination of findings. The work will advance public health by identifying biological pathways that\nprotect against Alzheimer's disease and supporting the development of strategies for prevention and treatment."
+ },
+ {
+  "id": "1260472a-9e6f-47c7-a174-968a48a87548",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Defining bioactivities of peptides released from human milk proteins in the preterm infant intestine",
+  "text": "This project is relevant to public health and the mission of NICHD because it will help to characterize the function\nof human milk beyond nutrition by identifying milk protein-derived bioactive peptides released within the gut of\npreterm infants with gut health-promoting functions. Understanding the roles and identities of these bioactive\npeptides will contribute significantly to understanding the benefits of human milk to infant health and how to\nmaximize those benefits to promote the healthy development of preterm infants. This proposal specifically\naddresses two of the NICHD Pediatric Growth and Nutrition Branch's Research Priorities:1) Human Milk\nComposition and Function (particularly how human milk composition changes with digestion and interacts with\nthe infant intestine), and 2) Nutrition for Preterm Infants (particularly understanding the role of bioactive\ncomponents of human milk (e.g., peptides) in feeding preterm infants)."
+ },
+ {
+  "id": "1262fa75-1017-4a04-8401-32efac996c80",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Evolutionary Human Genomics: Demography, Natural Selection, and Transcriptional Regulation",
+  "text": "Vast quantities of genomic data are now available to describe patterns of genetic variation and gene\nexpression both within human populations and across species. These data need to be interpreted in\nlight of the fundamental forces of mutation, recombination, natural selection, and genetic drift that have\nshaped our genomes over millions of years of evolution. This proposal describes a series of projects\nthat make use of new computational methods to address fundamental questions in human evolutionary\ngenomics, including how human diversity has been shaped by introgression from our archaic hominin\ncousins, how new mutations influence human health and fitness, and how the evolution of gene\nexpression contributes to unique aspects of human biology and disease."
+ },
+ {
+  "id": "1267b83d-74db-43a7-87d8-8e5bd469b2f7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Integrative Approach to Comprehensive Analysis of High Throughput Data on a Cancer Center Level",
+  "text": "The application is aimed to support cancer-related research efforts of The Wistar Institute investigators through\ncomputational expertise provided by Bioinformatics Shared Resource. The focus of the supported projects\ninvolve experiments designed to understand basic mechanisms of cancers, including melanoma, ovarian,\nprostate, various blood cancers, lung, colon, and many others, with the final goal of developing methods for\ncancer prevention, diagnosis, and treatment."
+ },
+ {
+  "id": "126bc634-10c7-4d0e-9528-aeb958c960e9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Transforming Mammography With STARLIGHT, Imagine Scientific's Monochromatic X-Ray Imaging System",
+  "text": "Transforming Mammography With STARLIGHT\nImagine Scientific's Monochromatic X-Ray Imaging System\nProject Narrative\n Imagine Scientific has invented the first and only practical, IP-protected, cost effective,\nhigh power, monochromatic X-ray source with short exposure times for diagnostic imaging in the\nclinic. This long-awaited breakthrough for radiology is called STARLIGHT, which provides an\nextensive range of selectable monochromatic energies with sufficient intensity and beam\ncoverage for many radiological imaging procedures. Its initial application for commercial\ndevelopment is as an X-ray source for mammography. STARLIGHT offers (i) superior detection\nof tumors for all women, including those with thick and dense breasts, (ii) significantly lower\nradiation dose, and (iii) elimination of painful breast compression during examinations. In Year 1,\nwe intend to finish the commercial development and fabrication of the advanced STARLIGHT\nsource, and together with collaborators from the Massachusetts General Hospital (MGH) and the\nUniversity of California at San Diego (UCSD) in Year 2, conduct a clinical trial at Duke University\nMedical Center to demonstrate specific and important clinical benefits of monochromatic imaging."
+ },
+ {
+  "id": "12700e0f-941b-4623-8a60-d54910c5e95b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Role of Annexin A1 Expression in Glioblastoma-Associated Astrocytes",
+  "text": "Glioblastoma (GBM) is the most lethal type of cancer that develops in the brain. While other brain cancers can\nrespond to immunotherapy treatments, immunotherapies do little to slow GBM’s growth. Researchers are\nseeking novel strategies to activate the immune system against this devastating cancer. Astrocytes are one of\nthe most abundant types of brain cell that can activate or suppress immune responses. Critically, astrocytes\nchange dramatically, and potentially permanently, in response to environmental toxins and traumatic brain injury.\nGBM is the third most common cause of cancer death in US active-duty military, GBM incidence is increased\namong Veterans, and survival among Veterans with GBM is significantly shorter than non-Veterans. Reasons\nfor poorer outcomes in Veterans are unknown. This research investigates immune-suppressive GBM-associated\nastrocytes using mouse models, clinical data, and GBM tissue from Veterans. Targeting immune suppressive\nfunctions in astrocytes in Veteran GBM might improve immunotherapy responses, survival, and quality of life."
+ },
+ {
+  "id": "1276af25-22a8-44ab-af3b-6a1f82f6cef7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "HIV Tat-associated Sensory Neuropathy and the Contribution of Toll-like Receptor Pathway",
+  "text": "“Improve HIV-related health outcomes of people with HIV” is one of the 4 goals identified in the recently\npublished US National HIV/AIDS Strategy (2022-2025), which involves addressing HIV-associated\ncomorbidities. HIV-associated sensory neuropathy (HIV-SN) is one of the most common neurological\ncomplications associated with HIV infection, often painful, and clinically hard to manage. Studies investigating\nthe underlying mechanisms of HIV-SN, and help identify affordable treatment strategies are critical for\nachieving the national vison for HIV/AIDS “… every person with HIV has high-quality care and treatment,…and\ncan achieve their full potential for health and well-being across the lifespan”."
+ },
+ {
+  "id": "127711bd-1577-48aa-b4e9-85369f7154d2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "GABAergic Circuit Targets for Modulating Entorhinal Cortex and Hippocampal Dynamics in Alzheimer's Disease",
+  "text": "Alzheimer's disease (AD) currently has no cure, and approximately one-eighth of Americans over 65\nsuffer from progressive memory and cognitive decline due to this debilitating brain disorder.\nOur study aims to set the groundwork for possible new therapies by investigating specific brain circuits\nvulnerable in early AD. Using mouse models and samples from human patients, our study will identify\nbrain cells that are affected versus remain resilient in early AD and evaluate how they can be engaged via\ntranslatable neuromodulatory strategies to improve brain circuit activity and memory function and prevent\nAD-related cognitive deficits before they manifest."
+ },
+ {
+  "id": "127c3f82-21f8-4d48-bc6f-2428aaed905c",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Neuroimaging Sciences Training Program",
+  "text": "The Neuroimaging Sciences Training Program (NISTP) combines expertise in brain imaging technology with\nskill and knowledge in clinical applications to addiction for cross-training of postdoctoral trainees. The goal is\nto foster the development of interdisciplinary scientists who can comfortably apply complex imaging methods to\nunderstand the neuroscience of misuse and dependence of cocaine, opiate, nicotine, alcohol, and other\nsubstances, as well as treatments for these problems."
+ },
+ {
+  "id": "127f5e50-0bb9-41db-81d6-ef756f8b6353",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Uncovering cargo and cell type specific molecular mechanisms of renal tubular epithelial transport",
+  "text": "Mutations in MYH9 that encodes for Nonmuscle Myosin IIA (NM2A), an actin\nassociated motor protein, have been associated with kidney disease in humans, but the mechanisms by which\nMYH9 mutations cause kidney disease is unclear. Previous work focused on podocyte actin cytoskeleton in the\nGlomerulus. Our recent work established a novel function for Myh9&10 proteins in cargo transport in the thick\nascending limb (TAL) epithelium, and loss of this function in mice resulted in rapidly progressing kidney disease.\nWe propose to investigate the role of Myh9&10 in the TAL cargo transport system in the kidney. We will also test\nif combined loss of Myh9 protein in podocyte as well as tubular epithelium will lead to exacerbated disease due\nto synergistic functional loss in both cell types. Our work will directly address the loss of distinct functions of\nMyh9 in two different cell types within the kidney, reasonably modeling a severe form of MYH9-RD with complete\nloss of function."
+ }
+]

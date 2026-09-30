@@ -1,0 +1,142 @@
+[
+ {
+  "id": "715bf2c4-af65-4981-a574-70d662232d03",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Elucidating mechanisms of active dendritic integration in vivo",
+  "text": "The studies proposed here will further elucidate subcellular mechanisms of single neuron\ncomputation. The results will provide detailed insights into postsynaptic mechanisms for input\nprocessing that allow for flexible toggling among different outputs in individual neurons. The\nfindings from the study will not only contribute to our basic understanding of the computational\ncapacity of the brain but will also aid in our understanding of subcellular dysfunctions in\nneurological diseases."
+ },
+ {
+  "id": "71628462-4bec-446a-8ad4-88c8cc61b8d2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "TR&D 3: Revealing Microstructure: Biophysical Modeling and Validation for Discovery and Clinical Care",
+  "text": "TRD3 Project Summary The broad mission of our Center for Advanced Imaging Innovation and Research (CAI2R) is to bring together collaborative translational research teams for the development of high-impact biomedical imaging technologies, with the ultimate goal of changing day-to-day clinical practice. Technology Research and Development (TRD) Project 3 addresses the fundamental question of what MRI signal means at the cellular level. Unwilling to settle for the nominal resolution of clinical MRI, constrained to millimeter-sized voxels by fundamental physical and physiological limits, we have been exploring ways to quantify tissue microstructure at the scale of ∼ 1 − 10𝜇𝜇m, commensurate with water diffusion length. Incorporating diffusion MRI contrast into our acquisitions opens an avenue to supplement the subjective interpretation of anatomic images with objective parametric maps of cellular-scale biophysical parameters. Such maps, e.g., of cell sizes, water fractions in various cell types, membrane permeability and exchange rate, even if averaged over millimeter- scale voxels, would break new ground in clinical applications and basic research. In TRD3, we will integrate tissue microstructure mapping into comprehensive image data acquisitions, to address an unmet clinical need: achieving specificity to microstructural changes at the cellular level, to understand physiology and pathology, to detect disease at the earliest opportunity, to monitor disease progression, and to quantify efficacy of treatment. Building on our track record to date, we plan to develop and share acquisition, modeling, and validation tools, and translate them to the clinic. Each of the other TRDs, along with a wide range of CPs and SPs, will benefit from these tools. At the same time, microstructure research will also benefit from inclusion in the connective context of the NCBIB, with its mix of expertise (in hardware, image acquisition and reconstruction, machine learning, etc., complementing the TRD3 team’s expertise in biophysical modelling and validation), and with its track record of day-to-day interaction between researchers and clinicians."
+ },
+ {
+  "id": "7168fafe-b31f-486f-8269-e0936eb4ea11",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Biosensor Selection of Tumor-Reactive Tumor Infiltrating Lymphocytes",
+  "text": "This project aims to develop a nanobiosensor to rapidly isolate and expand tumor-reactive tumor-infiltrating\nlymphocytes (TILs) that specifically target and kill cancer cells, making TIL selection and expansion faster, more\ncost-effective, and more efficient. The long-term goal is to overcome current limitations of TIL therapy and\nadvance its clinical translation across a broader range of cancer types and stages."
+ },
+ {
+  "id": "71734e6f-0099-46d3-883f-5ff66f38148e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Machine Learning Models for Studying Protein Interactions in the Context of Immune Receptors",
+  "text": "The primary goal of this project is to develop machine learning based computational models for predicting protein\ninteractions in the context of immune receptors and their antigen recognition. Additionally, these models can gen-\nerate immune receptors that can be used in a wide range of applications such as therapeutics, diagnostics, and\nstudying the molecular basis of antigen recognition. Most importantly, the project seeks to provide a generalized\nprinciples of effectively representing biological sequences such that this work can be extended to different types\nof protein interactions."
+ },
+ {
+  "id": "717fbc23-1d4f-4a11-96fa-4cef4c452210",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "PROTEOMICS AND BIOINFORMATICS CORE",
+  "text": "The Proteomics and Bioinformatics Core of the University of Washington Diabetes Research Center provides affiliate investigators the powerful tools of modern mass spectrometry (MS) and complex data set analysis. The goals of the Core are to: (1) Perform MS for unbiased discovery and semi-quantitative analyses of complex protein samples using state-of-the-art untargeted and targeted LC-MS/MS techniques for both qualitative and quantitative analysis, including development of new MS methods for structural identification; (2) Provide validated targeted quantitative assays of specific protein analytes relevant to diabetes in support of clinical and translational studies; (3) Assist DRC affiliates with experimental design of their studies to ensure successful proteomics analysis and provide training in principles and use of MS; and (4) Provide bioinformatics analysis (e.g., differential expression analysis, protein-protein interaction network analysis, and pathway enrichment analysis) for proteomic and transcriptomic data sets, including RNA-seq and single cell RNA-seq, with the aim of providing an integrated, systems biology overview of diabetes and diabetes-related disease processes. By providing a centralized facility and expertise necessary to perform state-of-the-art proteomics analysis, quantitative mass spectrometric assays, and bioinformatics analysis, the Core meets these goals with optimal efficiency and cost-effectiveness in support of basic and clinical research. Further, by centralizing and standardizing procedures, the Proteomics and Bioinformatics Core provides its affiliate investigators a common set of analytical tools for obtaining a unified understanding of molecular mechanisms involved in pathophysiologic processes of diabetes and its associated complications."
+ },
+ {
+  "id": "718f6db7-cd4c-484c-ae76-7875b7e17b01",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A Conductive Polymer-Stem Cell System to Augment Endogenous Stroke Repair Mechanisms and Improve Functional Stroke Recovery",
+  "text": "Stroke is a leading cause of significant, long-term disability; yet no medical therapies exist to\nimprove recovery. Utilizing bioengineering methods, such as biomaterials and stem cell\nscaffolds, to interact with the nervous system provides new approaches to (1) improve\nfunctional stroke recovery and (2) understand recovery mechanisms. Our proposed project\nutilizes conductive polymers to electrically modulate stem cells and identify recovery pathways\nfrom stem cell biology to enhance the brain’s own recovery mechanisms."
+ },
+ {
+  "id": "719167aa-d051-4c53-ab07-f30984fb2fe1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project 7/8: INIA Stress and Chronic Alcohol Interactions: Cross-species studies of metabolic allostasis and altered striatal circuitry",
+  "text": "Concurrent alcohol drinking and stress is a risk factor for excessive drinking and deficits in cognitive function in\nfavor of performing habitual actions. The proposed research will use sophisticated in vivo neuroimaging\nmethods to measure dynamic changes in brain circuitry and brain metabolism across the history of exposure to\nalcohol, stress, or in combination of the two. This will open a new pathway for diagnosing the severity of brain\nimpairments and developing treatments for chronic ethanol."
+ },
+ {
+  "id": "7191b13c-fba1-4835-897a-f030fe06ced2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Th2 Memory in Chronic Type 2 Inflammation",
+  "text": "The treatment of allergic diseases remains largely limited to reduction of symptoms, with limited ability to target\nthe core factors that drive disease. We recently identified an expanded T cell progenitor population in human\nallergic tissues that may sustain allergic-type disease over time, and in this proposal we will use human and\nanimal models, including cutting-edge single-cell gene expression approaches, to understand and test the\nfactors that maintain these aberrant progenitors. The goal of these studies is to identify weaknesses in the T\ncell progenitor system so that we can design the disease-modifying therapies of the future."
+ },
+ {
+  "id": "71927cef-96a2-4b10-bf0a-f9aff2923297",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "2026 Visual System Development Gordon Research Conference and Gordon Research Seminar",
+  "text": "As of 2012, over 20.6 million adult Americans and 285 million people worldwide suffered from low or no vision,\nand it is expected to more than double by 2050, making it a significant public health problem. This conference\nseeks to bring basic ocular researchers from the widest possible range of disciplines together with clinicians to\npromote understanding of visual system development and disease, and to develop new approaches for treating\nvision disorders. This meeting also promotes the six major objectives of the NEI Framework for Vision Research,\nmost notably to “gather knowledge of the molecular basis of ocular health and disease” and “strengthen the pool\nof vision researchers”."
+ },
+ {
+  "id": "719afe7a-df96-41ea-ada0-5e47ca97fb82",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mentored Patient-Oriented Research on Adolescent Alcohol Misuse and Treatment",
+  "text": "Alcohol use typically begins during adolescence and prevalence rates for alcohol use disorder (AUD) peak\nbefore age 21. Yet, despite clinical demand, AUD treatments for youth rely on psychosocial interventions that\nyield only modest benefits at best. This K24 renewal will provide the candidate with protected time to mentor\npromising early-career scientists in patient-oriented research in alcohol science and conduct an innovative\nresearch project focused on leveraging digital health to improve access to evidence-based interventions."
+ },
+ {
+  "id": "71a30259-0744-4932-9424-d32a614258ed",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Using machine learning to understand cardiopulmonary and renal end organ complications for individuals with SCD",
+  "text": "Individuals with sickle cell disease (SCD) and cardiopulmonary and renal (CPR) end organ complications have\nhigh acute care utilization and mortality rates. The risk factors for SCD-related CPR end organ complications\nare unknown and also it is unclear if conventional SCD management strategies can prevent the\nhospitalizations and/or emergency department visits for those with CPR end organ complications. In this\nproposal, the investigator proposes to use machine learning approaches to identify risk factors for CPR end\norgan complications and protective factors associated with less frequent acute care utilization among\nindividuals with SCD and CPR end organ complications."
+ },
+ {
+  "id": "71a73d1e-b2fd-4914-ba28-097c4616352b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Label-free glycan sequencing: new methods to reveal the 'sweet side' of host-pathogen interactions",
+  "text": "Glycoconjugates, including glycoRNA, glycoproteins, and glycolipids, play essential roles in biological\nprocesses and are crucial targets for understanding and treating diseases spanning cancer, infectious disease,\nand neurodegeneration. However, existing methods to analyze glycoconjugates lack the sensitivity, specificity,\nand dynamic range to capture the full complexity of the glycome. This project proposes to develop a\ngeneralizable and unbiased glycan sequencing platform and to deploy it for high-resolution, non-invasive\ninvestigation of the glycome in health and disease."
+ },
+ {
+  "id": "71a873c2-d08b-41f3-beae-c7a5c781bedd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Elucidating the SCP4 pathway as a multi-catalytic signaling dependency in acute myeloid leukemia",
+  "text": "Our recently completed CRISPR screening campaign has revealed the poorly studied phosphatase SCP4 and\nthe kinases STK35/PDIK1L as catalytic vulnerabilities in acute myeloid leukemia (AML). This multi-PI project will\ntake an inter-disciplinary approach to elucidating the upstream and downstream mechanisms and deep\nbiochemical and structural mechanisms of this novel signal transduction pathway that functions as an acquired\ndependency in AML. Since AML cells are addicted to the catalytic function of this phosphatase-kinase complex,\nthe outcome of this work carries a strong potential to drive the development of novel tool compounds and\ntherapeutics for a malignancy with significant unmet clinical need."
+ },
+ {
+  "id": "71afa188-609c-4570-acbb-653310d44f1f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Machine learning in publicly available geotagged data to allow monitoring of maternal and child health",
+  "text": "By using machine learning in satellite imagery and other geotagged \"big data\" sources, this project has the potential to fundamentally change the measurement of maternal and child health indicators in low- and middle-income countries, providing up-to-date estimates for each village and neighborhood in a country. Until now, measurement of maternal and child health has relied on household surveys, which are expensive, conducted infrequently, and cover only a small fraction of all populations and areas in a country. This research is relevant to public health because it uses an inexpensive and scalable method that could enable the geographically precise targeting of interventions and up-to-date monitoring of changes in key maternal and child health indicators, serve as an early warning system for emerging infectious disease threats before they reach the United States and other countries, and additionally lead to a low-cost approach for evaluating the effect of past policies and interventions on maternal and child health — with methods that could also be applied domestically during rapidly emerging health crises where reliable data are lacking."
+ },
+ {
+  "id": "71b7e4da-216e-4eda-8696-b39848dd6127",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "ELUCIDATING MECHANISMS OF THORACIC AORTOPATHY VIA COMPUTATIONAL MODELING",
+  "text": "Diseases of the aorta are increasingly responsible for significant disability and death in the US. There is a\npressing need to identify drivers of disease progression for only in this way can new drug targets be identified.\nThis project is significant for we will, for the first time, develop 2 new computer models to better understand\ndisease progression in 3 key mouse models of aortic disease to gain new insight into underlying cellular\nmechanisms that drive the disease."
+ },
+ {
+  "id": "71b99e80-e928-4cb3-9486-06b76620e566",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of functional retinal engraftment by transplanted retinal ganglion cells",
+  "text": "Optic neuropathies like glaucoma cause permanent blindness due the death of neurons that send visual\ninformation from the eye to the brain. Our goal is to develop a regenerative medicine therapy capable of restoring\nlost vision in patients suffering from optic neuropathy by transplanting human stem cell-derived neurons into the\neye so that connections within the visual pathway can be reestablished. This project evaluates genetic\nengineering of the donor neurons to temporarily block a pathway that restricts their ability to survive transplant\nconditions, grow processes, and establish communication with the recipient eye, followed by release of the block\nto enable cell maturation and stability of new neural connections."
+ },
+ {
+  "id": "71bcdc6d-0079-4b81-934f-66b8f000245a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Defining the larval repertoire of Aedes aegypti somatosensory neurons",
+  "text": "The proposed research is relevant to public health because this work will yield fundamental insight\ninto somatosensory neuron identity and diversity in Aedes aegypti, a major vector of human disease.\nGiven the importance of somatosensory neurons in sampling sensory cues relevant to navigating the\nsensory world and locating hosts, the current lack of knowledge about somatosensory development,\ndiversity, and function in Aedes aegypti represents a major gap in our knowledge of this organism\nwhich exerts enormous impacts on human health. Thus the proposed research is relevant to the\nNIH’s mission that pertains to developing fundamental knowledge that will help to reduce the burdens\nof human diseases."
+ },
+ {
+  "id": "71bcfdf2-d4d4-4179-8b01-6be611aa60d9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Biostatistics & Bioinformatics Core",
+  "text": "Biostatistics and Bioinformatics Core Narrative\nThe primary goal of the Biostatistics and Bioinformatics Core is to provide a full set of statistical and\nbioinformatics services to the P01 projects which will enhance the abilities of projects to address key questions\nin mechanisms of bladder cancer development and its therapeutic vulnerabilities to preventive and interventive\ntherapy. By providing research expertise and logistic support to data analytic activities within each project, the\nBiostatistics and Bioinformatics Core will contribute to a professional, efficient, and rigorous use of the data\ngenerated by each project and will be critical to the success of basic and translational research in bladder\ncancer and the overall P01."
+ },
+ {
+  "id": "71c40b72-5dd9-4553-beb0-d24bec4db204",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Characterizing extracellular glycoproteins and unraveling their functions",
+  "text": "The proposed research is relevant to public health because extracellular glycoproteins play extremely\nimportant roles in human diseases such as cancer and infections, and the proposed methods will help\ncomprehensively characterize extracellular glycoproteins. It will advance the understanding of protein functions\nand disease mechanisms, leading to the discovery of glycoproteins as effective biomarkers for disease\ndetection and novel drug targets for disease treatment. Thus, the proposed research is relevant to the portion\nof NIH’s mission that pertains to seeking fundamental knowledge that will enhance health, lengthen life, and\nreduce disability."
+ },
+ {
+  "id": "71c43a4f-0b13-4bd4-92b2-5c229f3b9bfb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A systems approach toward human primordial germ cell differentiation",
+  "text": "(public health relevance statement)\nInfertility affects around 15% of couples and can be caused by problems with sperm or egg production\n(gametogenesis), a process that begins in the early embryo with the production of primordial germ cells. By\ncombining quantitative experiments and computational modeling, this proposal will disentangle how complex\ncombinations of cell signals drive human germ cell differentiation in vitro and overcome bottlenecks in deriving\nthem. This will advance efforts toward human in vitro gametogenesis that will enable understanding and\ntreatment of currently untreatable forms of infertility."
+ }
+]

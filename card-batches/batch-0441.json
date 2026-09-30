@@ -1,0 +1,142 @@
+[
+ {
+  "id": "0ffd030b-3997-441f-a4ca-4ba361d9d627",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multimodal, quantitative MRI in the lumbosacral spinal cord in progressive multiple sclerosis",
+  "text": "This project is relevant to public health because it will advance understanding of a progressive form of multiple\nsclerosis (MS), a debilitating neurological disease that damages the brain and spinal cord. Primary progressive\nMS patients experience worsening neurologic function and disability from disease onset, and symptoms such\nas problems with walking and bladder/bowel dysfunction significantly impact quality of life, yet few approved\ntreatments are available, in part because we lack a complete understanding of the pathology underlying\nprogression in the lower spinal cord. This project aims to evaluate the extent of lumbosacral spinal cord\npathology and its role in driving clinical disability in primary progressive MS by applying structural, functional,\nand myelin-sensitive, quantitative MRI methods in this critical anatomy and identifying sensitive and specific\nimaging biomarkers of progressive disease that address the current gap in evaluating the full extent of spinal\ncord pathology in MS."
+ },
+ {
+  "id": "0ffe3ddd-ef41-40af-980c-9433cad4741a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project 2: Profiling Gene Expression and Mechanophenotype in Circulating Tumor Cells Ex Vivo",
+  "text": "Primary tumors shed circulating tumor cells (CTCs) into the bloodstream that metastasize preferentially to distant organs, resulting in 90% of cancer related fatalities. For example, estrogen receptor positive (ER+) breast cancers exhibit high rates of metastasis to bone, with decreased rates to liver and lung. CTCs exhibit heterogeneous gene expression programs and functional phenotypes, which are selected by soluble and mechanical interactions within each metastatic “niche.” A critical challenge is to predict how patient-specific CTCs disseminate throughout the body and respond to therapeutic treatments. An exciting strategy is to culture CTCs ex vivo for drug screening informed by genomic and transcriptional profiling. We seek to elucidate how CTCs respond to different features of the metastatic niche by engineering controlled interactions with tissue-specific extracellular matrix (ECM) and with human primary stromal cells, which may recapitulate disease progression and therapeutic resistance in these microenvironmental contexts. Our long-term goal is to establish preclinical assays for patient CTCs to predict metastatic disease progression and screen targeted inhibitors. Realization of this goal involves several technical challenges, including: 1) Tissue-mimetic matrix with tunable biochemistry and mechanics, 2) Multicellular tissue constructs with controlled size and cellular composition, 3) Gene expression profiling of CTCs in response to soluble and mechanical stimuli, 4) Spatiotemporal analysis of phenotypic heterogeneity, including the epithelial- mesenchymal transition (EMT), and 5) Validation with human patient samples. Thus, our overall objective is to understand how CTC gene expression and mechanophenotype is regulated by matrix or stromal interactions in tissue-mimetic microenvironments. This discovery-based approach can deconstruct patterns of gene expression driven by decellularized extracellular matrix or the secretome of human stromal cells. Such bioinformatics analyses can identify possible therapeutic strategies based on existing patient, xenograft, and high-throughput screens. PI: Wong is a New Investigator with expertise in cancer cell migration, biomaterials, and microfluidics. Mentor: Reichner is an expert on directed cell migration and mechanobiology and Mentor: Bertone is an expert on single cell analyses in cancer. We investigate the relative contributions of microenvironmental stimuli using three aims: AIM 1 will elucidate how individual breast cancer cells interact with tissue-mimetic matrix and AIM 2 will engineer co-cultured multicellular spheroids with stromal cells."
+ },
+ {
+  "id": "0fffe3c6-a840-4ffd-9bb2-f5540da96023",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mayo Center for Cell Signaling in Gastroenterology",
+  "text": "Gastrointestinal diseases and their complications have a significant negative effect on public health and incur considerable health care utilization costs. Research supported by this Center grant is critically important to advance our understanding of the mechanisms that underlie digestive diseases. This new knowledge can lead to practical applications for the diagnosis, prevention, monitoring, and treatment of digestive diseases."
+ },
+ {
+  "id": "1002d134-232c-45a2-bf8b-93325ea15bbf",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Predictive Design of Tissue Architecture Using Synthetic Cell Adhesion",
+  "text": "This project aims to address the fundamental challenge of precisely building complex human tissues. We will\ncreate the first predictive platform that uses synthetic biology and machine learning to decipher the molecular\nrules that govern how cells assemble into tissues. The success of this research will enable the rational design\nof organoids and novel tissue therapeutics, providing new tools for understanding and intervening in human\ndisease."
+ },
+ {
+  "id": "1008312c-471a-4fa5-b602-851116bdedf9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Impact of surgical revascularization strategy on left ventricular function, myocardial perfusion and clinical outcomes",
+  "text": "Coronary artery disease is a leading cause of morbidity and mortality often treated by coronary artery bypass\ngrafting surgery (CABG). CABG surgery is commonly performed via either single arterial graft or multiple\narterial grafting strategies - while arterial grafts have better long-term patency than venous grafts, patients\nreceiving multiple arterial grafts may experience higher perioperative risk. This re-submission K23 proposal\naims to understand the effect of the two different revascularization strategies (single arterial grafting vs.\nmultiple arterial grafting) on cardiac function immediately after CABG and subsequent clinical outcomes, with\nthe goal of physiologically guided perioperative decision-making and improved clinical outcomes for patients\nundergoing CABG."
+ },
+ {
+  "id": "1008d37e-d676-492b-b5cc-73af5c56372d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Deciphering the molecular landscape of frontotemporal lobar degeneration: A network-based proteomic approach",
+  "text": "The most powerful treatments for neurodegenerative disease will target molecular pathways that are affected\nearly in the disease course, prior to irreversible brain atrophy and cognitive impairment. The proposed project\nwill leverage large-scale proteomics to discover blood and cerebrospinal fluid protein changes that precede and\npredict the earliest clinical manifestations of frontotemporal lobar degeneration (FTLD), a common cause of\nyoung-onset dementia for which there are no effective therapies. This project will advance fundamental\nunderstanding of the biological pathways that are affected early in FTLD and identify high-priority targets for\nFTLD biomarker and therapeutic development."
+ },
+ {
+  "id": "100be052-5681-4d65-8938-1dc62135c580",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of a combined Gamma/Positron system for molecular imaging of the human brain at sub-500 micron spatial resolution",
+  "text": "We are proposing a new approach to a hybrid imaging modality that has been called “b+g” or “pamma-positron” Imaging [Gri07] that promises to simultaneously overcome 1) the sensitivity limits of single-gamma-ray-photon emission imaging, 2) the challenge of distinguishing between two different positron-emitting isotopes, and 3) the physics-based spatial resolution limits inherent in radioisotope imaging based on detection of positron- annihilation photons alone [Lan14]. The intent is to significantly advance molecular imaging of the human brain by allowing visualization of smaller substructures, quantification of smaller amounts of radiotracer uptake, and simultaneous measurement of multiple dynamic and spatial uptake patterns in advanced multi-isotope studies of normal brain function. The required elements to make this feasible comprise i) a detector approach for annihilation and gamma-ray photons that can yield rich data for precise energy, position, and timing estimation for both photoelectric and Compton interactions, ii) processing algorithms in firmware and software to sort and make optimal use of the various combinations of signals that can occur with and without coincidence, iii) reconstruction algorithms based on likelihoods that incorporate probabilities of emission, detection, positron range, non-collinearity, and Compton kinematics, and iv) detection and compensation for attenuation and subject motion – effects that if not addressed will become limiting factors for resolution and image quality. In contrast to early efforts to accomplish b+g imaging with liquid xenon detectors [Gri07], scattering detectors as inserts into PET scanners [Yos20], or planar semiconductor detectors paired with scintillation cameras [Lan14], we propose instead to develop and demonstrate a single detector technology and associated data processing methods that can be used for both 511 keV annihilation photons and the higher-energy, singly- emitted gamma rays. Abbaszadeh (MPI) and Levin have pioneered an edge-on crossed-strip cadmium zinc telluride (CZT) detector approach to PET detectors that provides an ideal starting point [Abb16]. Among their attributes are high stopping power based on the edge-on geometry, 3D positioning that minimizes parallax, excellent energy resolution, and dynamic range up to 1.2 MeV in maximum photon energy deposited per interaction. Furthermore, when a photon undergoes an initial scatter followed by a photoelectric absorption, these modules yield data vectors that allow position and energy estimation for both interactions that can be analyzed with Compton kinematics [Abb17]. We will carry out a 2-year simulation and proof-of-principle phase (UG3) in which we demonstrate b+g detection with edge-on CZT modules and measure detector characteristics, develop simulations that support reconstructions, and demonstrate acquisitions with single and multiple isotopes. We will carry out a three-year UH3 phase to build a tomographic system with a field of view sufficient to investigate imaging of sophisticated dynamic phantoms and in vivo imaging of rodent brain, as a design study and precursor to a human brain system."
+ },
+ {
+  "id": "1012301c-3dc5-4ab8-b9b8-104d3560247a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Treating the Cellular Pathogenesis of Arrhythmogenic Cardiomyopathy",
+  "text": "The proposed research is relevant to NIH because it is a proposal focused on uncovering fundamental biology\nof a cardiovascular disorder known as Arrhythmogenic Cardiomyopathy. Successful outcome of the\nmechanistic research will also result in an important new therapeutic option to treat patients with\nArrhythmogenic Cardiomyopathy, introducing a much needed solution to a disorder that is caused by multiple\ngenetic mutations yet there are no existing options that can either prevent a weaking of patient heart muscle or\nthe onset of life threatening arrhythmias."
+ },
+ {
+  "id": "1018be81-da57-4d13-b81c-9ce09f750024",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Universal methylated ctDNA markers for minimal residual disease detection and therapy response prediction in colorectal cancer",
+  "text": "Colorectal cancer (CRC) represents the third and fourth leading cause of cancer death in U.S. men and women,\nrespectively, despite curative intent surgery being offered to most with stage I-III CRC. As nearly half of all CRC\ncases will develop incurable metastatic disease, improvements upon existing methods to detect CRC recurrence\nduring postoperative surveillance and disease progression during systemic treatment of stage IV CRC are\nwarranted. This prospective study will evaluate the performance of a novel, plasma-based panel of methylated\ncirculating tumor DNA (ctDNA) markers universal to CRC against a conventional tumor marker and an existing\ntumor-informed ctDNA assay for the detection of CRC relapse in resected, stage II-III CRC and therapy response\nprediction in stage IV CRC."
+ },
+ {
+  "id": "101ac517-0835-416e-9e9d-0d7ee289ecb5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cancer Epidemiology, Prevention and Control Program",
+  "text": "Program Director/Principal Investigator (Last, First, Middle): Chu, Edward \nCANCER EPIDEMIOLOGY, PREVENTION AND CONTROL PROGRAM - PROJECT NARRATIVE \nPer PAR-21-321, a Project Narrative is not required for this Component. \nOMB No. 0925-0001/0002 (Rev. 03/2020 Approved Through 02/28/2023) Page"
+ },
+ {
+  "id": "101b9f50-a2d8-4e31-b65a-ee5743ee888c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Monitoring real-world driver behavior for classification and early prediction of Alzheimer’s disease",
+  "text": "The goal of this research project is to address the NIH and NIA's grand challenge of using a person's own\nvehicle as a passive-detection system for flagging potential age- and/or disease-related aberrant driving\nbehaviors that may signal early warning signs of functional decline of Alzheimer's disease (AD), even before\nstandard clinical tests do so. Our Specific Aims will assess and combine key factors affecting driver behavior\nand clinical status in aging, mild cognitive impairment (MCI), and Alzheimer's clinical syndrome (ACS) as\nmarkers and moderators of risk: SA 1) Extract key real-world driver behavior features over a 3-month\ncontinuous, baseline period that classify NIA-AA core clinical criteria of MCI and ACS in drivers who are\nnormally aging (N = 60), MCI (N = 80), or ACS (N = 40); SA2) Determine the extent to which real-world driver\nsleep and mobility mediate the relationship between extracted driver behavior and clinical features; SA3)\nDevelop models (statistical and supervised machine learning) that combine features of driver behavior (from\nSA 1) and driver sleep and mobility (from SA2) to detect early signs of MCI and AD and predict disease\nprogression. By building on our extensive successes in the current phase, the project directly advances NIH\nand NIA goals lo detect early warnings signs of decline and incipient AD-with the goal of screening,\nidentifying, and tracking individuals at risk for AD from passive-monitoring of real-world behavior to predict\nclinical status and progression-promoting early treatment of AD and the next stage of interventions to prevent\nthe progression of AD even in its preclinical stages."
+ },
+ {
+  "id": "1026adc2-ef0c-4c1b-bbf2-9fd2a0b4e13a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Inhalable Extracellular Vesicles Engineering for Lung Cancer Treatment",
+  "text": "This proposal aims to engineer the exosome biogenesis process to develop innovative exosome platforms\ntailored for interleukin-12 (IL12) mRNA delivery, enhancing lung cancer immunotherapy. Given the rising\nprevalence of concurrent lung cancer and cardiac fibrosis, this research will also elucidate how cardiac\nfibrosis accelerates lung cancer progression via exosome-mediated mechanisms. Subsequently, the\ndevelopment of precision therapeutics will expand therapeutic options for patients facing compounded risks\nfrom cardiac diseases, offering targeted, effective treatments for this group."
+ },
+ {
+  "id": "1026d37a-bff4-462a-b789-f36968c1c883",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Molecular Machines Mechanism and Structure (M3S) Training Program",
+  "text": "The goal of this training program is to train science and engineering students in the fundamental principles\nunderlying molecular machines, the enzymes, motors, switches, and pumps that power cell function.\nStudents will be trained in structural biology, single-molecule biophysics, and computation, and additionally\nwill learn how to create 3D molecular simulations. Trainees will be prepared for careers in interdisciplinary\nmolecular biophysics research, industries such as pharmaceuticals or biomedical devices, teaching, or\nscience policy positions."
+ },
+ {
+  "id": "10296239-e1da-4c9c-8971-3cfba40c0954",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cxcl12-Hedgehog signaling in cranial bone regeneration",
+  "text": "In this project the investigators investigate the previously unknown interactions between calvarial bone injury-\ninduced stem cell niche signaling and the suture stem cells, which are known to play major roles in calvarial bone\nregeneration. The proposed studies, based on previously published and recently unpublished novel findings, will\nhave broad impact in understanding the molecular circuitry governing craniofacial regeneration and significantly\nadvance our understanding of how injury reshape the niche that regulates stem cell migration, expansion and\ndifferentiation. The proposed studies will identify new regulatory components and pathways in calvarial bone\nregeneration to shed new light on promoting calvrial bone regeneration and treating various skeletal diseases\nincluding craniofacial abnormalities."
+ },
+ {
+  "id": "102ffea5-1f75-4a78-be47-2a5867f40fad",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Selective brain-to-gut communication via transcriptionally-defined vagus-to-enteric neuron circuits",
+  "text": "The brain exerts powerful control over the gut, however the specific neural communication channels through\nwhich this occurs are poorly understood. We are using single neuron transcriptomics and mouse genetics to\nfirst uncover, and then manipulate the currently hidden, highly specific lines of brain to gut parasympathetic\ncommunication. These studies, and the approaches and tools created, should lead to a mechanistic, detailed\nunderstanding of how the brain controls the gut in both health and disease."
+ },
+ {
+  "id": "10317d3b-00d5-4361-a30a-cb845d3be6a0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Physical activity over the adult life course and cognitive resilience to Alzheimer's disease and related dementias",
+  "text": "Developing more effective prevention strategies for Alzheimer’s disease and related dementias (ADRD) will\nrequire more precision-based approaches in terms of identifying who will benefit the most and when.\nUnderstanding whether physical activity across the adult life course (e.g., early adult life, midlife, and late-life)\ncontributes similarly or differentially to cognitive resilience will inform more effective prevention strategies for\nADRD, based on knowing when modifiable lifestyle interventions will be most beneficial. In addition, identifying\npredictors of cognitive resilience associated with specific measures of physical activity across the adult life\ncourse will help to guide more precision-based participant selection strategies for future clinical trials and\ninterventional studies for the primary prevention of ADRD."
+ },
+ {
+  "id": "10351bb5-4e82-4546-90f8-ad635d76e989",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "MDSRC Training Core",
+  "text": "The outstanding training environment in muscle disease pathogenesis and treatment that exists in Columbus, Ohio at Nationwide Children’s Hospital (NCH) and The Ohio State University (OSU) today is difficult to rival and arguably unsurpassed in any other city of the world. In addition to being an epicenter for gene therapy of neuromuscular disease, Columbus is also home to a remarkable number of scientists and clinicians (in the OSU/NCH Center of Muscle Health and Neuromuscular Diseases) that have for years been providing key leadership and training for trainees at all levels. Trainees include high school students (NCH Futures Matter program); undergraduate/post-bac students (OSU Discovery PREP program); graduate students and post-docs (a NIH T32 training program at OSU and the NCH Research Institute Trainee Association, RITA); and early-stage physician scientists at NCH/OSU in Neurology and Gene Therapy (neuromuscular fellowships). This training milieu in Columbus provided the foundation for the emergence of the NCH/OSU Myology Course, which was initiated in 2012 under the leadership of Dr. Kevin Flanigan (overall PI of this Wellstone application), and has been operating yearly ever since. Dr. Flanigan led a grassroots effort of Muscle Center faculty to develop this program, which accepts approximately 60 trainees per year for an intensive one-week course that includes morning lectures followed by afternoon wet lab electives (for PhD trainees) or clinical training (for MDs). To date, more than 700 trainees have attended this course, with many continuing on to high profile roles in muscle research. Attendees have come from 9 countries and 32 US States, representing >100 different institutions worldwide, including 18 of the top 20 US Medical Schools), 8 of 8 Ivy League Schools, and several NIH Institutes. This unique Myology Course – and our efforts to improve and expand it - will be the centerpiece of our Training Core, and we will leverage it and our Muscle Center to benefit the entire Wellstone community and the greater neuromuscular field. In addition to the Myology Course, our Specific Aims were also designed to support individualized training of Wellstone fellows, promote trainee career advancement, recruit the best and brightest minds to the neuromuscular disease field, and organize new training courses and workshops to benefit the entire Wellstone community as well as the greater scientific community as a whole."
+ },
+ {
+  "id": "103986c5-9f5a-4896-b939-881a4a08396f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "From biology to therapy: mechanism-informed targeting in translocation renal cell carcinoma",
+  "text": "Cancer is the second leading cause of death in the United States. Translocation renal cell carcinoma (tRCC) is\nan aggressive kidney cancer without effective therapies and is an unmet medical need. This proposal explores\nwhether a cell-surface protein on tRCC cells may be targeted for therapeutic benefit in tRCC."
+ },
+ {
+  "id": "103cb42e-3f42-4f3a-b045-c694377dc588",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Regulation of Vascular Calcification by Adventitial Endothelial Cells",
+  "text": "Vascular calcification is the pathological deposition of minerals in the walls of the blood vessels, leading to the\nhardening and increased stiffness of arterial walls, and increased cardiovascular morbidity and mortality. In this\nproposal, we aim to define the effects of endothelial cells from the adventitia, the outmost layer of the blood\nvessels, on the development and progression of atherosclerotic calcification, and identify the unique molecular\nsignature of these adventitial endothelial cells. The completion of the proposed studies may pave the way to\ndevelop novel therapeutic strategies to selectively target these endothelial cells, thereby attenuating\natherosclerotic calcification."
+ },
+ {
+  "id": "103fc4a6-aa8c-461e-991a-1a021c7b18f2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating novel gene regulatory networks for development of myeloid cells",
+  "text": "Constructing the brain requires the coordination of several different cell types that permanently reside within the central\nnervous system. One of these cell types, microglia, is the resident immune cell of the CNS and must be produced during\nembryogenesis to maintain brain homeostasis throughout life. We are studying gene regulatory networks governing\nmicroglia production during embryogenesis to help identify novel genes that can expand the knowledge of genetic risk\nfactors and therapeutic targets for diseases where microglia are the cause."
+ }
+]

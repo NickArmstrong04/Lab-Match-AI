@@ -1,0 +1,142 @@
+[
+ {
+  "id": "35b4628f-e87a-4ecd-b4f3-06fed672b407",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cannabidiol (CBD)-only use in Pregnancy and Perinatal Outcomes",
+  "text": "Cannabidiol (CBD; a phytocannabinoid of the plant Cannabis sativa) has gained popularity, availability, and\nacceptability over the past decade, representing a multi-billion-dollar industry in the United States. There exists\na critical barrier in the understanding of the possible adverse consequences of CBD-only product use in\npregnancy in a human clinical population. Our study will address this barrier by assessing the prevalence of CBD\nuse during pregnancy in a clinical sample, characterizing the population reporting use, and describing the\nassociated pregnancy-related and birth-related outcomes."
+ },
+ {
+  "id": "35b79172-2024-46a8-adea-3e2d513603ab",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Decoding Structural Determinants of Efficacy and Specificity in a GPCR Subfamily",
+  "text": "G protein–coupled receptors, the targets of one-third of all FDA-approved drugs, undergo a set of concerted\nconformational changes that enable them to respond to external stimuli and stimulate intracellular signaling. This\nproposal proposes to develop a computational–experimental biophysical approach to determine the activation\nmechanisms for members of a GPCR subfamily, the metabotropic glutamate receptors, thereby enabling\ndiscovery of new ligands with safer therapeutic profiles."
+ },
+ {
+  "id": "35bf33a0-a68d-4158-b359-b6a370ceb80a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Preliminary Investigation of Task-Based Joint-Simultaneous-Optimization of Collimation and Reconstruction Plus Processing of SPECT Imaging for Targeted Alpha Therapy (TAT)",
+  "text": "The successful treatment of patients with advanced, widely disseminated, cancer by targeted alpha-\nparticle therapy has raised the curtain on a new era in radiation treatment. However, for accurately establishing\nthe radiation dose delivered, there is a significant unmet need for improved accuracy in tumor detection and\nquantification of the localization of the alpha-emitting agents due to the excess noise in the images because of\nthe very low activities administered, complex spectrum of photons emitted that can be used in imaging, and the\nrecoil of the daughter nuclide during decay disrupting chemical bonds thus enabling the daughters to deliver\nsubsequent radiation dose to different sites. We propose investigations addressing these issues by jointly\noptimizing the collimation (lens equivalent) used in imaging with reconstruction and image-processing to\nmaximize the accuracy of tumor detection and activity quantification, thus enabling personalization of\nsubsequent administrations of the alpha emitting therapy agent."
+ },
+ {
+  "id": "35bf3c60-2d28-4d29-a80b-f757fc1eba61",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Microbiome Targeted Treatment of WTC- Lung Injury",
+  "text": "We propose “Microbiome Targeted Treatment of WTC- Lung Injury” to address fundamental gaps\nin knowledge in the potential of utilizing bacteriotherapy in treatment of WTC-related exposure and lung\ndisease. We examine the role of RAGE and IL-17-related inflammatory pathways in a longitudinal\ncohort of firefighters who participated in our FIREHOUSE trial, and further develop murine models to\ntest the utility of bacteriotherapy to mitigate World Trade Center Lung Injury."
+ },
+ {
+  "id": "35c44ec6-f49c-468f-bd23-7b720159f140",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Understanding cellular variation in fetal hemoglobin distribution",
+  "text": "Sickle cell disease (SCD) is a life-threatening inherited disorder marked by pain, organ damage, and reduced life expectancy. This project will define how genetic and epigenetic mechanisms control the distribution of fetal hemoglobin (HbF) across red blood cells and how this contributes to differences in clinical outcomes among patients with similar HbF levels. These insights will guide more precise prediction of disease severity and the development of improved therapies for individuals with SCD."
+ },
+ {
+  "id": "35c86af4-e9ad-4bfb-9262-b4bd2fd26065",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Scalable spatiotemporal-omics platform",
+  "text": "Using multi-omics to unravel how diseases and therapeutics affect the spatiotemporal properties of the cells has\nthe power to discover new drug targets, elucidate mechanisms of action, and pinpoint promising drug candidates.\nHowever, current omics methods fall short when it comes to cost-effectively generating spatiotemporal omics\ndata for drug profiling applications. Imagen Bioworks Inc. is developing a versatile and scalable spatiotemporal\nomics workflow that can be used for drug profiling during pre-clinical drug discovery."
+ },
+ {
+  "id": "35d03450-ae5d-42a0-9035-597d3763eedc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeted Therapies for HIV-Associated Kaposi Sarcoma and Lymphoma",
+  "text": "In the U.S., cancer has become the leading cause of death in the aging HIV-positive population. In this\napplication, we propose to investigate targets that impinge on the PI3K/Akt/mTOR pathway in KSHV-\nassociated cancers. These investigations will uncover the next generation of therapies against KS and\nlymphoma in the context of HIV infection."
+ },
+ {
+  "id": "35e1403b-6407-4a0b-a3d5-eb1dbd5d99fd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Serotonin mechanisms in fentanyl-induced respiratory depression",
+  "text": "Fentanyl and other ultrapotent opioids interfere with the normal functioning of brainstem circuitry that controls\nbreathing leading to potentially fatal respiratory depression. The proposed studies will provide mechanistic\ndetails on serotonergic mechanisms involved in respiratory depression to inform how the serotonin system\ncould be leveraged to combat acute fentanyl toxicity. The outcomes of this research will advance our\nunderstanding of the pontomedullary circuitry that controls breathing and provide timely assessment of the\nsafety of co-use of drugs activating 5HT2A receptors, such as serotonergic psychedelics, with fentanyl."
+ },
+ {
+  "id": "35e26352-3e77-4dfb-8a3e-8da3bc832e2c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Gene Regulatory Mechanisms of the Coronary Artery Disease Gene PRDM16 on Smooth Muscle Cell Phenotypic Modulation",
+  "text": "Much of the attributable risk of coronary artery disease (CAD) lies in smooth muscle cells, which undergo a\ncomplex process of “phenotypic modulation” whereby cells migrate, de-differentiate, and proliferate over the\ncourse of disease. The molecular mechanisms of how CAD-associated genes affect this phenotypic\nmodulation remain poorly understood. This proposal will determine how the CAD-associated gene PR domain\ncontaining 16 (PRDM16) regulates phenotypic modulation, paving the way for new targets to treat CAD, the\nworld’s leading cause of death."
+ },
+ {
+  "id": "35e6cc7d-1dc5-4878-9dc4-212354b3e68e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Role of VAP Membrane Contact Sites in Axonal Calcium Dynamics and Synaptic Transmission",
+  "text": "This project will investigate the role of ER-resident membrane tethering proteins, VAMP-Associated Proteins\n(VAPs), in regulating the structural organization of presynaptic terminals through subcellular calcium dynamics.\nDysregulation of plasma membrane function or intracellular signaling profoundly affects numerous neurological\ndisorders. However, less is understood about how tightly coupled action potential signaling and intracellular\nchemical signaling occur during neuronal function."
+ },
+ {
+  "id": "35e8f5b0-16e1-4731-9dcc-a816f7b9f9be",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Large scale single-cell gene rearrangement detection with a microfluidic device",
+  "text": "Acute myeloid leukemia (AML) contributes to 32% of all adult leukemia and\nremains one of the most clinically devastating cancers. Currently, AML diagnosis, risk\nstratification and treatment selection are mainly based on cytogenetic abnormalities,\nwhich suffers from low sensitivity and low resolution. To overcome this technical hurdle,\nwe propose to use single-cell RNAseq with microfluidic devices to generate a molecular\nversion of cytogenetic profile including all mRNA abnormalities from a large number of\ncells."
+ },
+ {
+  "id": "35f7b897-0011-4a94-ba1c-4bbe0e5e0204",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "SLE-AWARE: SLE-- A Window into APOL1 Regulation andExpression",
+  "text": "Up to 60% of African Americans, who are at heightened risk for kidney and cardiovascular disease (CVD), carry\nat least one Apolipoprotein L1 (APOL1) coding change variant allele. These variants associate with adverse\nrenal and CVD outcomes—particularly in chronic inflammatory disease such as SLE. By leveraging SLE\nmonocyte transcriptional profiles validated by primary cell culture models, this study will test the overall\nhypothesis that immune activation and resultant increased APOL1 expression synergizes with APOL1 genotype\nto precipitate human disease."
+ },
+ {
+  "id": "35f81c9c-8af9-47f2-965c-08e0d74866c5",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Shared Resources Core",
+  "text": "SHARED RESOURCES CORE: SUMMARY The Shared Resources Core (SRC) is structured as a physical shared resource that will support both Research Projects, the PDX Core, as well as pilot and trans-Network projects. The most critical goal of the SRC is to provide services and resources that are either unavailable to individual research teams within PDXNet or that are unable to meet the cost, technical, and speed requirements of the Projects and other components at WU- PDTC. Other important missions for the SRC include optimization of the procedures for project/sample-specific requirements, standardization of the assays to ensure data consistency, and incorporation of the latest technologies. This centralized arrangement takes full advantage of the expertise and infrastructure existing at our institute developed through participation in several large-scale NIH consortia, including HTAN (Human Tumor Atlas Network), SenNet (Senescence Network), GUDMAP (GenitoUrinary Development Molecular Anatomy Project), CPTAC (Clinical Proteomic Tumor Analysis Consortium), PE-CGS (Participant Engagement and Cancer Genome Sequencing), CRIP (Co-Clinical Imaging Research Program), and PDXNet, in order to increase effectiveness and efficiency, avoid duplicated effort, and reduce stress on individual projects. SRC will be tightly integrated with the Research Projects, Pilot and Trans-Network Projects, the PDX Core, and the Bioinformatics Core under the supervision of the Administrative Core. Detailed characterization of the PDX tumors at the DNA, RNA, and protein levels will be important for validation, model selection, revelation of molecular changes in response to treatment, illustration of mechanisms of treatment resistance, as well as the identification of biomarkers and targets for future treatment testing. To accomplish these goals, the SRC will work with the Research Projects and other Cores to perform two main types of assays: Omics and imaging. For omics, the SRC will cover bulk and single cell omics, including whole exome sequencing (WES), bulk RNA-seq, single nucleus RNA-seq and ATAC-seq (snRNA-seq and snATAC-seq), spatial transcriptomics (Visium), as well as global proteomics and phospho-proteomics. For imaging, the SRC covers multiplex target imaging (CODEX/Phenocycler), in vivo preclinical molecular and radiologic imaging, and standard immunofluorescence (IF) staining. The SRC is also tasked with adjusting to the changing needs of the projects as well as introducing new technologies and tools to assist the Projects and to accomplish the mission of the center."
+ },
+ {
+  "id": "35ffc46f-53cb-4ef1-bb1a-d079e9602646",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Basic Sciences Studies on Gene Therapy of Blood Diseases",
+  "text": "Gene and cell therapies and related molecular medicines are key to effective treatment of many inherited and\nacquired blood diseases such as sickle cell disease, bleeding disorders, primary immune deficiencies, blood\ncancers, anemias, bone marrow failure diseases, cardiovascular diseases, and others. However, gene\ntherapies are complex treatments. Consequently, there is a strong and urgent need to train scientists and\nphysicians in basic scientific aspects and principles of gene therapy development for blood diseases."
+ },
+ {
+  "id": "36061b2f-a265-45e0-ac02-0ccf0aa7f7f5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cell-type specific microglial protein dynamics in models of HIV and opioid use",
+  "text": "HIV and opioid use disorder often occur together, leading to more severe brain and behavioral problems than\neither condition alone. This project uses cutting-edge, cell-type-specific proteomics to map how microglia - the\nbrain’s immune cells - change across brain regions and disease stages in models of HIV, opioid exposure, and\ntheir combination. By linking these molecular changes to human data and validating them in human brain\ntissue, this work will identify targets for new treatments to improve cognitive and behavioral outcomes in\naffected individuals."
+ },
+ {
+  "id": "3607be33-208e-4509-bbfc-c89715192245",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Distinctive Features of the Tumor-Associated Microbiome in Early-Onset Rectal Cancers: Elucidating the Microenvironment of an Emerging Disease",
+  "text": "The gut microbiome, a factor in colorectal cancer development, can change with age and dietary exposures\nand varies from the colon to the rectum. In this project, we will focus on early-onset rectal cancers – a subset\nof colorectal cancers for which incidence has increased dramatically over the past 30 years – to identify how\nthe microbiome in these cancers differs from the tumor microbiome in other colorectal cancer patient groups.\nThe information gained from this project will deepen our understanding of the role of the microbiome in\nemerging cancer trends to identify future strategies for reducing the burden of early-onset rectal cancers."
+ },
+ {
+  "id": "360f8460-9d4a-4d72-8178-1dc9c9d532d8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Skin-targeted Cell Therapy for Recessive Dystrophic Epidermolysis Bullosa",
+  "text": "Having demonstrated the potential of targeted base editing and mesenchymal stromal cells for recessive\ndystrophic epidermolysis bullosa (RDEB), we will further explore the use of evolved engineered Prime Assisted\nSite-Specific Integrase Gene Editing (eePASSIGE) for locus specific installation of a full length COL7A1 cDNA.\neePASSIGE ex vivo and topical delivery for in vivo gene therapy are approaches for cell and gene therapy to\ntreat the entire pathogenic spectrum of RDEB with broad relevance and application to other genetic conditions."
+ },
+ {
+  "id": "3611ad83-5b71-4083-a0ab-91ae5c79560f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multimodal, Multi-scale Framework for Ethical AI Model Development",
+  "text": "Each year in the United States, about 317,000 women are diagnosed with breast cancer and 314,000 men with prostate cancer. Among those treated, most do not benefit as intended: nearly four in five breast cancer patients given neoadjuvant chemotherapy still have residual disease at surgery, and nearly one in three men recur within ten years of definitive prostate therapy. Current tools miss these patients because today's molecular assays compress a tumor into a single-scale signal and existing models fail to generalize across sites. Multimodal fusion of the imaging, pathology, and clinical data that hospitals already collect captures complementary information no single modality holds, and MEFINDER delivers harmonized, reusable tooling so that a patient is reliably classified as low or high risk regardless of dataset or tools applied, enabling confident treatment decisions."
+ },
+ {
+  "id": "36140b43-f893-4d06-a3a1-9755ee4fc283",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Vevo F2 LT small animal ultrasound",
+  "text": "The FUJIFILM VisualSonics Vevo F2 LT high-resolution ultrasound imaging system will provide UNT and TWU\nresearchers with a powerful, non-invasive tool to study heart disease, cancer, and other major health conditions\nin real time using technology that enables precise, longitudinal measurements in small animal models. This new\ncapability will promote cross-disciplinary collaboration for health researchers at all career stages and will close\na major gap in our research infrastructure, supporting 13 users across multiple departments as well as offering\na unique opportunity to generate pilot data for early-career researchers. The addition of the Vevo F2 LT system\nwill expand research capacity at our under-resourced institution and expose faculty and students to hands-on\ntraining and education that promotes career readiness and the advancement of biomedical science."
+ },
+ {
+  "id": "3622ed15-19eb-44b2-9da1-1eb60dc572cb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Decipher the immunemodulatory functions of epithelial stem cells during wound repair",
+  "text": "Efficient wound healing requires active interactions between epithelial stem cells and various immune\ncells within the wound. This project aims to dissect the crosstalk between epithelial stem cells and\nregulatory T cells which can form a temporary niche in the wound bed, providing close protections. We\nwill focus on the immune modulatory activity of epithelial stem cells enabling them to induce wound\ninfiltrating CD4 effector T cells to directly differentiate into regulatory T cells and promote wound repair."
+ }
+]

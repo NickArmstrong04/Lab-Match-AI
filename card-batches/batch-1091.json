@@ -1,0 +1,142 @@
+[
+ {
+  "id": "f727e5e0-b341-4881-8ef3-a7f9c5f7f60b",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Biorepository and Central Laboratory Core",
+  "text": "CORE C (MILWAUKEE) Core C contains the central specimen management site and accompanying database, the central laboratory for sample testing, and serves as the coordinating IRB. The Core C PI, Dr. Veronica Flood, and the lead clinical research coordinator, Pam Christopherson, have extensive experience in sample management and VWF assays. Core C will facilitate the acquisition of additional samples, maintain the biorepository, assure the integrity and confidentiality of the database, and maintain IRB approval. Core C will also handle shipment of samples to other investigators as needed. The significance of this core is to continue a longitudinal cohort of samples that will enable serial VWF evaluation over time, and help explain the biology of VWF in terms of its genetics, regulation, clearance, and glycosylation. This is critical to improving our understanding of VWF and aging, the cause of increased VWF with age, and the impact of increased VWF with age on hemostasis and thrombosis."
+ },
+ {
+  "id": "f72d0e2d-2754-4fdd-ae17-53bd6bc481b7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Decoding Mitochondrial AAA Protease Specificity",
+  "text": "Understanding how AAA proteases and their adaptors collaborate to degrade specific\nproteins in mitochondria could provide valuable insights into mitochondrial protein surveillance. This research\nmay reveal the etiology of diseases like Perrault syndrome, characterized by hearing loss and ovarian failure\ndue to mutations in genes encoding hClpXP protease. It could also shed light on neurological disorders linked\nto mutations in m-AAA and i-AAA proteases."
+ },
+ {
+  "id": "f72f73ba-a099-4fd7-86d2-1450560b0f07",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Composition and Function of Membrane Contact Sites in Differentiation and Disease",
+  "text": "Eukaryotic cells are compartmentalized into organelles that must co-ordinate their activities so that cells can\nrespond to changing conditions. In this proposal, we will explore: (1) how organelle communication rewires to\nsupport the differentiation of stem cells into neurons or muscle cells, and (2) the composition and function of\ncontact sites between lipid storage organelles with other organelles that synthesize or metabolize lipids. These\nstudies will yield important insights into how cells reorganize during normal development and how organelle\ncommunication can be disrupted in metabolic or neurodegenerative disease."
+ },
+ {
+  "id": "f734bd20-d8fd-4a7b-bb86-bad50ed0839e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The sex-specific role of SUMOylation in heroin seeking",
+  "text": "The long-term brain mechanisms and underlying behavioral consequences of volitional heroin administration\nremain sparsely understood. By using advanced proteomic, viral-mediated gene transfer, and genome editing\napproaches, this proposal will examine the novel role of sex-specific SUMOylation, a post-translational\nmodification, in driving heroin-induced neurobehavioral changes. These findings will provide new insight into\nhow SUMOylation alters the functions of target proteins that might drive heroin-induced behaviors."
+ },
+ {
+  "id": "f73b2471-a6e7-4a94-a53a-7f14422b50eb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Organophosphorus pesticide bioactivation and detoxification in an invertebrate rapid screening model to study mechanisms of neurotoxicity",
+  "text": "Chronic exposure to organophosphorus pesticides (OP), an economically important and chemically diverse class\nof pesticides, has been associated with developmental neurotoxicity and long-term neurological problems.\nPlanarians have emerged as a useful alternative model to study OP neurotoxicity because they are amenable\nto rapid screening of OPs and OP mixtures and preliminary studies indicate that they can metabolize OPs like\nhumans. To extrapolate planarian toxicity to human toxicity and to contextualize planarian OP screening data,\nfurther characterization of planarian OP metabolism is needed, which this project aims to achieve by identifying\nand characterizing key OP bioactivation and detoxification proteins."
+ },
+ {
+  "id": "f73b40ce-eb92-439d-9f78-ede4a9e128b9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "State-transition and leukemia potential dynamics to inform disease evolution and adaptive therapy",
+  "text": "Cancer is the leading cause of death in an increasingly aged population in the United States. Personalized\nmedicine based on patient-specific, disease-state relevant dynamic information holds great promise in\nrevolutionizing the standard of care for cancer. Using acute myeloid leukemia as a proof-of-concept, the goal of\nthis research is to develop and apply state-transition based mathematical modeling to predict individual therapy\nresponse and to design adaptive therapeutic approaches to ultimately advance personalized medicine."
+ },
+ {
+  "id": "f742278b-36b6-4eec-b573-5fa17ea69af5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Computational Biology and Bioinformatics Core",
+  "text": "The Computational Biology and Bioinformatics Core will support the Research Projects with 1) computational\nanalysis for all omics data 2) cross-project sharing of all data from a central repository, 3) rigorous experimental\ndesign and statistical support. In addition, the Core will develop new computational methods for the study of\nevolutionary dynamics during drug response, in particular the interaction between focal amplifications in\nextrachromosomal DNA and transcriptional programs that drive specific phenotypic states."
+ },
+ {
+  "id": "f74b6be8-741a-4114-b611-5e6fa3ec6383",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Inflammatory Stress Promotes Clonal Expansion of DNMT3A-mutant HSCs",
+  "text": "Genetic mutations characteristic of myeloid neoplasms can be detected in the blood of up to 80% of\nhealthy individuals over age 50 using sensitive genomic sequencing, a phenomenon termed clonal\nhematopoiesis (CH). While CH does increase the risk of blood cancer development, it does not predestine an\nindividual for future disease progression, and as such, major unresolved questions are what factors promote\nexpansion of these mutant clones in certain people and can these mechanisms be exploited to prevent disease\nprogression in “at-risk” individuals? Here, we will investigate the role of inflammatory signals in providing a\nselection pressure for preferential growth of clones with DNMT3A mutations and identify novel points for\npotential disease interception."
+ },
+ {
+  "id": "f759b5f2-5552-43bb-a5da-506ca92559d0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Elucidating the Immune Suppressive Mechanism of SIGLEC-15 in the Tumor Microenvironment",
+  "text": "This proposal seeks to elucidate the immunosuppressive mechanism of Siglec-15, a novel PD-L1 mutually\nexclusive T cell immune checkpoint, on the regulation of myeloid cell responses and the identification of its\nfunctional receptors on both myeloid cells and T cells. We will further characterize its potential cancer-associated\ninduction mechanism and strategies to improve Siglec-15-targeted therapeutic responses in anti-PD-1-\ninsensitive cancers. The successful completion of our proposed studies will provide important insights to improve\nthe efficacy of our established clinical program and suggest new approaches for next-generation cancer\nimmunotherapies."
+ },
+ {
+  "id": "f75ca937-2258-47b3-aa6a-2fe5a73790ff",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Establishing novel properties of dynamic systems models to identify epileptogenic networks in patients with drug resistant epilepsy",
+  "text": "For the over 15 million epilepsy patients worldwide who do not respond to drugs, successful surgery is a hopeful\nalternative for seizure freedom, but it can only be achieved through complete resection or disconnection of the\nepileptogenic zone (EZ), the brain region(s) where seizures originate. Unfortunately, surgical success rates vary\nbetween 30%-70% because no clinically validated biological markers of the EZ exist, requiring days to weeks of\nextensive monitoring by clinicians of many patients with intracranial EEG. The objectives of our proposed\ncomputational approaches and experiments are to (i) develop and validate a new EEG marker based on\ndynamical systems modeling, and (ii) develop a method to guide periodic cortical stimulation to elicit seizures for\nEZ localization – which, if successful, have the potential to significantly reduce invasive monitoring times,\navoiding further risks to patients and reducing costs."
+ },
+ {
+  "id": "f75ce207-869d-4c6c-9c9b-2b1595c57cd4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identification of genes that limit CAR T persistence in solid tumors",
+  "text": "CAR T cell therapy has failed to translate to solid tumors, partly due to limited intratumoral persistence of CAR\nT cells. The proposed work builds upon the first in vivo genome-scale CRISPR screen of CAR T persistence in\nsolid tumors and will investigate ATXN7L3 and USP22 in regulating this process. This work will provide further\nknowledge on engineered T cell biology and its findings have the potential for direct clinical translation to enhance\nCAR T cell therapy."
+ },
+ {
+  "id": "f75db54c-b40f-4b7e-8e19-e595b351e578",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting CtBP2 to Modulate Redox-Transcriptional Programs and Prevent Renal Tubular Cell Death in AKI",
+  "text": "Acute kidney injury is a leading cause of in-hospital mortality and a key driver of long-term kidney disease.\nThis project will investigate how metabolic stress in proximal tubular cells promotes injury by activating\ntranscriptional programs related to metabolism and cell death through the redox-sensitive corepressor\nCtBP2. The findings are anticipated to uncover novel mechanisms of kidney injury and identify\ntherapeutic targets to preserve kidney function in vulnerable patient populations."
+ },
+ {
+  "id": "f760aa0e-97fd-4785-b5d7-b09fb203567f",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Advanced computational approaches for single-cell multi-omics integration",
+  "text": "Advancements in single-cell technology have revolutionized the study of cellular heterogeneity, tissue microenvironments, and transcript variants. To discover clinically relevant biomarkers, we propose advanced computational integrative analyses of single-cell datasets across multiple multi-omics platforms and patient cohorts. These innovative methods will be applied to various biomedical systems and further optimized into generalizable tools, to advance precision medicine in patients."
+ },
+ {
+  "id": "f762acbf-d9da-4f87-972b-8a79be93bedb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "MECHANISMS OF VISCERAL PAIN DRIVEN BY SMALL INTESTINAL MICROBIOTA",
+  "text": "Irritable bowel syndrome (IBS) affects ~11% of the population worldwide, significantly impacts patients’ quality\nof life and imposes a tremendous economic burden due to loss of productivity and high healthcare costs due ot\nits relapsing-remitting nature. Abdominal (visceral) pain is the defining IBS symptom and is also the hardest to\ntreat. Changes in small intestinal bacteria are associated with abdominal pain, but the mechanism by which they\ncause visceral pain remains unclear; this is a significant roadblock for developing effective treatments. Our\nproposal will uncover how specific small intestinal bacterial products can cause abdominal pain and allow\ndevelopment of effective probiotic and other therapies to treat abdominal pain in patients with IBS."
+ },
+ {
+  "id": "f76854f9-d392-4769-bd42-9055188f9044",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Ex Vivo Imaging of the Aging Brain to Discover Morphology/Pathology Associations",
+  "text": "In Alzheimer's disease (AD), cognitive impairment is caused by the damage to neurons and other brain cells,\nbut this damage has many causes, including cardiovascular disease and molecular abnormalities that are linked\nto other kinds of dementia. Understanding how different molecular abnormalities and cardiovascular disease\ncontribute to neuronal damage in AD can make clinical trials more effective, for example by only including\nindividuals whose brain changes are caused by factors related that the experimental treatment is meant to\naddress. This project will use postmortem imaging of human brains to better describe how cardiovascular\ndisease and different molecular abnormalities contribute to neurons damage and to develop tools for clinical\ntrials to account for these factors."
+ },
+ {
+  "id": "f7685e3a-43d4-4f9a-86be-c56aaf19babc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Programmable benchtop bioreactors for scalable eco-evolutionary dynamics of the human microbiome",
+  "text": "Antibiotic-resistant microbial pathogens are a grave and urgent threat to public health. With rising rates of drug-\nresistant infections and a diminishing arsenal of new antibiotic treatments, there is pressing need for\napproaches to better understand, predict, and prevent the emergence of antibiotic resistance, particularly in the\nhuman gut microbiome, which is an important source of antibiotic resistances. We are developing an\nautomated, high-throughput technology that can reproduce key features of the human gut ecosystem, and\nenable us to evolve antibiotic resistance in pathogenic bacteria directly in the laboratory to understand how\nresistance emerges."
+ },
+ {
+  "id": "f76982f7-30fc-4144-9b54-01ef1a4b4d42",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project 1:  Targeting immunotherapy-induced resistance with DC vaccination and PD-1/CSF-1R inhibition",
+  "text": "The studies proposed herein are designed to investigate mechanisms of immune evasion following active \nimmunotherapy with brain cancer vaccines. We will test our hypothesis that clinically relevant anti-tumor \nimmunity to glioblastoma (GBM) must have two cellular components: 1) significant infiltration of tumor-specific \ntumor-infiltrating lymphocytes (TIL); and 2) blockade of immunosuppressive tumor infiltrating myeloid cell (TIM) \nfunction within the tumor microenvironment. We believe that a combination of active vaccination (ATL-DC; to \ninduce T-cell infiltration into tumors), immune checkpoint inhibition (to enhance T cell function), and CSF-1R \ninhibition (to block suppressive TIM function) may lead to improved outcomes for the treatment of glioblastoma."
+ },
+ {
+  "id": "f76bb1bf-9ac4-4e4f-bb9c-487c592d5e00",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Acid-Sensing Ion Channel 1a Regulates Synapse-Glioblastoma Integration",
+  "text": "Glioblastomas are the most common and aggressive brain tumors, posing significant challenges to\nhuman health. In this proposal, we will uncover the mechanisms by which acid-sensing ion channels\nregulate neuron-glioblastoma communications and define how these communications contribute to\ncancer development. Doing so will reveal new therapeutic strategies to minimize the suffering of brain\ncancer patients."
+ },
+ {
+  "id": "f7718b63-6afb-49b7-be51-ec428df91a88",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Central thermoregulatory mechanisms during heat stress",
+  "text": "These studies will have implications for developing effective hypothermic drugs that could be used\nfor inducing controlled hypothermia or treat hyperthermia nonresponsive to other treatments."
+ },
+ {
+  "id": "f7726613-30a8-4634-9076-513ec3aecead",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Translational XR and AI Technologies with Dynamic Soft Robotic Hearts for Immersive Clinical Training and Future Intraoperative Guidance in Interventional Cardiology",
+  "text": "This K25 project develops an extended reality (XR) platform with AI, soft robotics, and fluoroscopy-\ncompatible systems to enhance training and guidance for structural heart interventions like ASD, LAA closure,\nand TMVR, addressing 2D fluoroscopy's limitations—radiation exposure, poor depth perception, and contrast-\nrelated risks. By improving clinician proficiency through haptic-enabled 3D visualization and realistic soft\nrobotic heart models, the platform reduces procedural complications and enhances patient safety. This\nscalable training ecosystem advances public health by improving outcomes in cardiovascular care, minimizing\nrisks, and broadening access to precise, minimally invasive interventions."
+ }
+]

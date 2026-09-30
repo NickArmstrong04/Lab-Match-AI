@@ -1,0 +1,142 @@
+[
+ {
+  "id": "7aed80e3-d830-4a64-8781-25a6d1f19386",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Lung-derived complement in pneumonia",
+  "text": "Severe pneumonia is characterized by an increased bacterial burden, exaggerated host immune response, and\ncellular damage in the lungs, and is a leading cause of death worldwide. There is an urgent need to better\nunderstand host defense mechanisms in the lung, with the goal of yielding new therapies to improve pneumonia\ntreatment. Our proposal directly addresses this need by investigating and employing Factor B — a complement\nprotein that is an important part of the host immune response for killing pathogenic bacteria — to reduce the\nmorbidity and mortality associated with pneumonia by leveraging its ability to protect the lung."
+ },
+ {
+  "id": "7af319cb-5f45-42da-8ed9-e4fe36f7e95f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "SCH: Model-informed patient-specific rehabilitation using robotics and neuromuscular modeling",
+  "text": "PROJECT DESCRIPTION 1 Motivation Stroke is a leading cause of long-term disability in the United States. Stroke survivors now constitute around 3% of the over-20 population, with 50% of stroke-affected subjects left with impaired propulsion on the paretic side, resulting in asymmetric movement and compromised balance [1]. The hemiparetic gait observed in many individuals post-stroke is slower and more metabolically expensive than in healthy individuals [2–6], and is a primary contributor to reduced community participation and quality of life [7–11]. Contemporary approaches to gait training are based on repetitive therapy often conducted on treadmills [12], with variants including the combination of human or robotic assistance [13], body weight support [14], and functional electrical stimulation [15]. Robotic intervention enables systematic and accurate modulation of joint-level variables, such as assis- tance torques and joint angles/velocities. Robotics is an intriguing tool for gait training, but the capability of using robots as tools to support locomotor learning for rehabilitation purposes has not yet been fully demonstrated. Earlier implementations of robot-aided gait rehabilitation provided non-convincing or nega- tive results [13, 16], as extensively quantiﬁed in a meta-analysis [17]. Currently, the effects of robot-aided gait training in stroke have yet to exceed those achieved with conventional therapy methods [17]. We speculate that such limitations are mostly imputable to the controllers used for robot-aided gait train- ing. The majority of robotic devices, designed speciﬁcally to rehabilitate gait, utilize one of the various controller forms (e.g., force control, position control, or impedance control), and controller update methods (e.g., assist-as-needed control, inter-limb coordination, or ﬁnite state machine), to ultimately promote spe- ciﬁc features of gait kinematics [18]. The limited efﬁcacy of these methods could be due to their lack of targeting speciﬁc functional mechanisms of gait, which are only partially described by joint kinematics. From an extremely reductionist perspective, walking is pushing ones' center of mass in a desired direction while not falling. Fundamentally, walking involves three main sub-tasks: propulsion, limb advancement, and balance [19]. Of these components, limb advancement may be based on kinematic control, but is the least energetically demanding. Instead, the sub-tasks of propulsion and balance require precise neuromuscular coordination, and speciﬁcally mediation of the interaction forces between the walker and ground. Despite their fundamental importance, there have been very little efforts in rehabilitation robotics in developing robot-aided methods to study and/or train propulsion and balance in post-stroke rehabilitation. The overarching goal of the proposed research Measure is to advance the science of therapeutic engineering Walking Surfac~ for gait by identifying optimal robot interventions \" ., and therapies with speciﬁc functional outcomes. Stiffne.ss Perturbations Model Those interventions will be developed using a new modeling approach to target enhanced propulsion Evaluate and balance in stroke survivors. The sense-plan- act paradigm in robotics will be applied in a unique way to robot-assisted model-informed rehabilita- tion research. The proposed framework will inte- grate robotic solutions that will allow the creation of comprehensive models of sensorimotor mecha- nisms of gait. These models will then inform a set of interventions to stroke survivors, the outcomes of which will be fed back to the developed models to uncover and suggest novel patient-speciﬁc train- ing strategies. The proposed approach will enable Figure 1: Proposed integrative research framework fol- a better understanding of essential mechanisms lowing the sense-plan-act paradigm in robotics. responsible for walking and lead to the design of optimized and personalized post-stroke rehabilitation strategies. The overall framework of the proposed 49"
+ },
+ {
+  "id": "7af71647-61a2-4482-b296-8342d3d65cf3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Early Detection and Monitoring of Osteonecrosis of the Femoral Head",
+  "text": "Osteonecrosis of the femoral head (ONFH) is a major cause of hip osteoarthritis and\nsubsequent total joint replacement. Our research aims to improve clinical management and treatment of\nONFH, and thereby reduce the overall burden of osteoarthritis, by advancing medical imaging techniques to\nenable earlier diagnosis of the disease and better prediction of clinical outcome to inform treatment decisions."
+ },
+ {
+  "id": "7af876ed-cca0-463d-aa38-ac982a838d5f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Bioluminescent FAK Sensor and Genome-Wide CRISPR Knockout Screen to Identify Regulators of Cellular Adhesion",
+  "text": "This project at Central Michigan University (CMU) harnesses innovative bioluminescent kinase sensor technology, BlinKS, to elucidate the regulatory mechanisms of Focal Adhesion Kinase (FAK), a key player in cellular adhesion and motility. By integrating a FAK sensor with genome-wide CRISPR knockout screens, the project aims to identify novel genes that influence FAK signaling pathways. Identification of novel FAK regulators may lead to positive public health benefits by providing new therapeutic interventions in diseases like cancer metastasis and wound healing."
+ },
+ {
+  "id": "7aff2373-4f4d-4c19-8008-e92d87448345",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular MR imaging of intestinal inflammation",
+  "text": "Inflammatory Bowel Disease is a chronic inflammatory disorder of the gastrointestinal tract affecting over 3 million\nindividuals in the US and is associated with an extensive diagnostic workup and treatment monitoring. This\nproject aims to develop a non-invasive molecular MRI technology using an oxidatively activated probe for early\ndetection and staging of intestinal inflammation and assessment of treatment response in animal models of IBD."
+ },
+ {
+  "id": "7b06c183-1b17-485f-b4a9-c01d4d55bad3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Microphysiological systems to Advance Precision medicine for Alzheimer's Disease and Related Dementias (MAP-AD)",
+  "text": "PROJECT ABSTRACT/SUMMARY Bioinformatics and Computational Biology Core (BCB) Alzheimer’s disease (AD) affects about 40 million people worldwide today and is the most common form of dementia found predominantly in the elderly. AD is a highly heterogeneous disease with major symptoms including progressive memory and cognitive domain deterioration over years, which eventually leads to death about 3-9 years after diagnosis. During the past few decades, many hypotheses have been proposed as potential mechanisms for AD, which involve multiple biological processes such as proteopathogenesis, mitochondrial abnormality, viral infection, and other glia cell-mediated immunological responses. However, the disease etiology and mechanisms still remain unclear, and currently, there is still no curative treatment for AD. During the past years, multiple endeavors have been taken by the AD research community to identify potential drug targets and large amount of data have been generated which enable mining for evidence for drug targets. As part of the Indiana University Microphysiological System for Alzheimer’s Disease (IU MAP-AD) Center, the Bioinformatics and Computational Biology Core (BCB Core) will play a critical role. Specifically, the BCB Core will implement advanced bioinformatics and imaging data processing and analysis pipelines for the data generated for the MPS models to be developed by the MMDV Core of the center. The analysis results will provide quantitative characterization of the models, which will be linked to public and disease phenotypic data to establish and validate the relevance of the models to AD or ADRD phenotypes. The data analysis pipelines will be driven by advanced AI and machine learning methods to enable effective integration of multi-scale and multi-modal data. Based on these pipelines and methods, the BCB core will collaborate with the PES Core to quantitatively characterize the changes in the models associated with various treatments and identify biomarkers for predicting the treatment effects. Last but not the least, the BCB Core will provide biostatistics design and bioinformatics data analysis support for the entire center covering the lifecycle of the MPS model development and validation by closely collaborating and coordinating with other cores for the MPS-AD Center. The BCB core will maintain frequent interactions with the rest of the center and also actively communicate with the consortium as well as the AD Knowledge Portal maintained by Sage Bionetworks for data standards, data and tool sharing, and best practices for data analysis and dissemination."
+ },
+ {
+  "id": "7b0766b5-b144-4697-ab1d-de8935f55a89",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting DHX9 to trigger viral mimicry and immunotherapy responsiveness in Small Cell Lung Cancer (SCLC)",
+  "text": "TO PUBLIC HEALTH\nImmunotherapy has revolutionized cancer treatment, but therapy resistance remains a significant problem. One\npromising strategy to trigger an immune response within tumors and enhance immunotherapy efficacy is by\ninducing the accumulation of endogenous ‘virus-mimetic’ nucleic acids in cancer cells. We have uncovered a\nnovel viral mimicry-inducing factor, DHX9, involved in the suppression of double-stranded RNAs and RNA/DNA\nhybrids in cancer cells and aim to study how DHX9 controls these endogenous nucleic acids, as well as targeting\nDHX9 to enhance antitumor immunity and boost immunotherapy in ‘cold’ tumors, such as Small Cell Lung Cancer."
+ },
+ {
+  "id": "7b090584-e4e7-485e-b8a0-415c5dba5764",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Engager T cell: A Simple Solution for \"Off-the-shelf\" T Cell Therapy for Cancer",
+  "text": "The goal of the project is to commercialize a simple, safe, economical, and potent “off-the-shelf”\n(OTS) T cell product for treating refractory and relapsed (R/R) B cell cancer patients. In the short\nterm, it aims to complete an IND-enabling study and bring the candidate to a “first-in-human”\nclinical trial. In the long term, the success of the product will validate the platform technology\nbehind it, which can be applied to treat cancers and other diseases beyond B cell malignancies."
+ },
+ {
+  "id": "7b0b0982-eb10-4d44-a6f8-fdace1e7d3d4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Improved delivery of bNAbs for targeting CNS infection in infants",
+  "text": "Anti-HIV broadly neutralizing antibodies (bNAbs) demonstrate potential for effective virus suppression and\nreservoir depletion when used early in conjunction with combined antiretroviral therapy (cART), which provides\neffective treatment for infants. However, their effectiveness in deep tissue reservoirs, particularly in targeting\ninfections within the central nervous system (CNS), is limited due to insufficient concentrations caused by the\nblood-brain barrier. We propose a novel nanotechnology approach, called 'nanocapsules,' designed to enhance\nthe delivery of bNAbs directly to the CNS, potentially leading to the remission of HIV from CNS reservoirs.\nPage 1 of 1"
+ },
+ {
+  "id": "7b0b76d4-718b-4635-9114-769c135d6e1e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project 2: CAR-T cell therapy for T cell lymphoma",
+  "text": "Patients who have T-cell lymphoma that does not respond to, or comes back after, treatment, do not have good \noprions for treatment. We have shown that the patients’ own non-cancerous T cells can be modified with a gene \nthat allows them to recognize and kill their malignant counterparts. We will now make these anti-cancer T cells \nmore efficient, and then modify them further so that they can be made from healthy people in advance, and \nstored ready to use immediately for anyone with a T cell lymphoma."
+ },
+ {
+  "id": "7b130d0a-3e26-41a5-bb27-792bafe81d56",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Trends and Epidemiology through Real-time Injury Surveillance (TETRIS): Novel Use of Physician-Informed Natural Language Processing in Emergency Department Data for Pediatric Injury Surveillance",
+  "text": "The proposed research is relevant to public health because it represents a novel methodology for creating a surveillance system for pediatric injury trends, which is an essential public health tool for injury prevention. With more timely and accurate injury surveillance, there is the potential for significant advances in injury prevention with more strategic and timely interventions. Thus, as injuries are the leading cause of death and disability for children, the proposed research is relevant to the NICHD’s mission to improve the health of children."
+ },
+ {
+  "id": "7b13cb8c-a8d5-4ccc-829a-8206df141701",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "RECIPROCAL FEEDBACK MECHANISMS OF GLIOBLASTOMA AND NEURONAL NETWORK HYPEREXCITABILITY",
+  "text": "Glioblastoma and tumor-related epilepsy are a pair of intimately connected neurological diseases with no\ncurative or effective treatments available despite decades worth of preclinical and clinical research. Unlike\nprevious studies that relied on tumor xenografts, we use a novel genetically induced, native mouse tumor\nmodel that recapitulates many hallmarks of the human disease progression, and that allows us to study the\ndisease in vivo in an immunocompetent model organism. Here we propose to study the feedback loop of tumor\ninvasion and neural hyperexcitability and explore potential interventions by mitigating the effects of excess\nglutamate or silencing focal groups of neurons to slow down tumor growth and reduce risk of epilepsy and\nother neurological comorbidities."
+ },
+ {
+  "id": "7b18ffc2-cd0f-4880-b8bc-5a7576fb90b4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "RECHARGE: IMAGING Ancillary Study (Non-invasive Coronary Imaging in Women and Minorities Referred for Multivessel Coronary Revascularization)",
+  "text": "RECHARGE:IMAGING Ancillary Study Narrative\nRECHARGE:Women (NCT06399692) and RECHARGE:Minorities (NCT06399705) are two large-scale\nintegrated multicenter, 1:1 randomized, superiority trials funded by PCORI that are presently enrolling 1200\ntotal patients (600 women and 600 Black or Hispanic patients) at 100 sites in the United States and Canada\nwith left main or multivessel coronary artery disease (CAD) requiring revascularization and randomizing them\nto undergo either multivessel PCI or CABG.\nSince the parent RECHARGE trials do not include any specific coronary imaging beyond baseline invasive\ncoronary angiography, using non-invasive coronary computed tomographic angiography (CCTA) to\ncharacterize the morphology and hemodynamic significance of coronary plaques in women and minorities\nreferred for revascularization and correlating the presence of those plaque features with future cardiovascular\nevents on a per-lesion, per-vessel and per-patient basis would address a critical knowledge gap.\nThis time-sensitive RECHARGE:IMAGING ancillary study proposal will leverage the unique patient population\nand funded research infrastructure of the parent RECHARGE trials (which are the only trials presently\nrandomizing patients with advanced CAD requiring revascularization to receive multivessel PCI vs CABG), as\nwell as more than $1.6M of committed support-in-kind from Industry and use the most contemporary artificial\nintelligence (AI)-enabled, noninvasive radiographic coronary morphologic, hemodynamic and inflammatory\nbiomarkers derived from CCTA to provide mechanistic insights into the findings of the RECHARGE trials and\ncreate novel prognostic algorithms, thereby improving personalized decision making and enhancing outcomes\nin patients with advanced multivessel and/or left main coronary artery disease."
+ },
+ {
+  "id": "7b1c4e21-1f20-4f8c-a372-c85cafc11243",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanism for post-transcriptional gene regulation by Ribothrypsis",
+  "text": "RNA decay is critical for proper cellular functions and homeostasis. In this proposal, we exploit novel RNA\nsequencing methods to develop a mechanistic understanding of a conserved biological mechanism of co-\ntranslational mRNA decay known as “ribothrypsis”. Deciphering the biology of ribothrypsis will enhance our\nunderstanding of how gene dysregulation underlies human diseases, paving the way to the development of new\nRNA-based diagnostics."
+ },
+ {
+  "id": "7b1d76a7-eeb5-4ffe-8821-13c81316d84d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Transcriptional Control of Neuronal Position and Connection in the Retina",
+  "text": "Starburst amacrine cells (SACs) are at the root of the direction selective response and optokinetic eye\nmovements, and defects in SAC function can lead to nystagmus. This study will comprehensively dissect the\nfunction of a key transcription factor that mediates SAC somatic positioning and circuit connection. This line of\nresearch is important not only for uncovering the principles of circuit formation but also for providing insight into\na neuronal replacement strategy that can be potentially achieved through manipulating a key transcription factor\nto rescue visual defects."
+ },
+ {
+  "id": "7b25cc64-fc7e-48b8-ae56-d92519183d77",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "DMS/NIGMS 1:Structure-Enhanced Statistical and Machine Learning Methods for Spatial Transcriptomics Cell Type Deconvolution and its Applications",
+  "text": "Understanding how different cell types are organized within diseased tissues can help researchers better understand cancer, inflammation, and other complex diseases. This project will develop reliable and interpretable computational methods for spatial transcriptomics data, helping biomedical researchers identify disease-related tissue patterns and generate insights that may ultimately support improved diagnosis and treatment strategies."
+ },
+ {
+  "id": "7b292810-e911-465c-8aad-0d2411853035",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Decoding the clonal architecture and function of humoral immunity after immunotherapy in pancreatic adenocarcinoma",
+  "text": "This project aims to study how tumor-infiltrating B cells within tertiary lymphoid structures and tumor-draining\nlymph nodes generate antibodies that remodel the tumor microenvironment in pancreatic cancer following\nneoadjuvant immunotherapy. By reconstructing therapeutic antibodies from intratumoral B cell repertoires, this\nwork will yield new treatment strategies and biomarkers for pancreatic cancer and other solid tumors."
+ },
+ {
+  "id": "7b2dffa7-9953-437e-9785-adad5bcf3169",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Protoacoustic Imaging for 3D Mapping the Bragg Peak in Real Time during Proton Therapy",
+  "text": "Protoacoustic Imaging for 3D Mapping the Bragg Peak in Real Time during Proton Therapy\nProton therapy provides significant benefits over traditional radiation therapy due to the Bragg peak, but\ninaccuracies in its localization in clinical settings often diminish these advantages. Our proposal aims to use dual-\nmodal protoacoustic/ultrasound imaging to achieve real-time, precise 3D mapping of the Bragg peak in\npatients. This approach seeks to guide proton therapy with unprecedented precision, heralding a major shift\ntowards precision medicine in radiation oncology."
+ },
+ {
+  "id": "7b2e7c1d-c7df-44ba-8847-f0775f4dc177",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A multi modal computational imaging approach towards precision medicine in Acute Severe Ulcerative Colitis",
+  "text": "Acute severe ulcerative colitis (ASUC) is a life-threatening manifestation of UC can lead to rapid clinical\ndeterioration, with 30% of patients ultimately requiring surgery in the short-term. Deciding if and when to undergo\nsurgery is an unresolved challenge for physicians as delays to surgery increases mortality risk, but traditional\nbiomarkers are suboptimal for predicting surgery, in part, due to their inability to fully capture the complex biologic\ninteractions in medically refractory ASUC. This proposal aims to use a multi-modal computational imaging\napproach to improve risk stratification for medically ASUC and investigate the genetic underpinnings of this\naggressive UC phenotype."
+ },
+ {
+  "id": "7b31820f-11a7-48a9-b762-8248773ce041",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Collaborative Research: DMS/NIGMS 2: New statistical methods, theory, and software for microbiome data",
+  "text": "Microbiome plays a critical role in various diseases and conditions, such as asthma, diabetes, obesity,\nautism, skin diseases, infant growth, and so on. The new statistical methods and software developed in\nthis project can be applied to microbiome studies of these diseases to gain biological and biomedical\ninsights into the complex microbiome-disease relationships. A better understanding of the microbiome\nmechanism will lay the foundation for advances in disease diagnosis, treatment, and prevention."
+ }
+]

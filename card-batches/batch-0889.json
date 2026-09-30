@@ -1,0 +1,142 @@
+[
+ {
+  "id": "b13141b3-dfb2-46fc-b9b6-ee7d8b8c3171",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Tulane University-Ochsner Health Genomic Precision Medicine Program",
+  "text": "The Tulane University / Ochsner Health Genomic Precision Medicine Program and its Health Education\nthrough Robust Omics and Individualized Care (HEROIC) mission will develop the next generation of\nbiomedical researchers equipped with the latest tools to gather and analyze data to understand challenges and\nto deploy interventions to improve health disparities in our region. Our proposed predoctoral T32 training\nprogram includes a dynamic partnership between Tulane University and Ochsner Health in New\nOrleans, Louisiana that would be the first NHGRI-funded training program located in an Institutional\nDevelopment Awards (IDeA) state. Working with mentors from Tulane University and co-mentors from\nOchsner Health, our trainees will identify a health condition in the local New Orleans region that is relevant\nnationally, and design a genomic precision medicine project."
+ },
+ {
+  "id": "b132051a-707b-4f52-9f6b-04ebf5f87c5b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Translational Imaging and Behavioral Assessment (TIBA)",
+  "text": "Translational Imaging & Behavioral Assessment (TIBA) Core Cognitive Neuroscience of Development and Aging (CoNDA) Center Critical to understanding the basis of neurocognition and behavior is the imaging of brain structure and function, and ultimately linking these measures to behavioral and cognitive phenotypes. The Translational Imaging and Behavioral Assessment (TIBA) Core of the Cognitive Neuroscience of Development and Aging (CoNDA) Center in Phase II will support Research Project Leaders (RPLs) and Pilot Project Investigators (PPLs) who are performing research in animal models of neurocognitive disorders. The TIBA Core will also be available to other investigators across the CoNDA Campus. The TIBA Core will provide shared centralized research resources that provide access to technologies, instruments, as well as expert consultation and other services to scientific preclinical investigators. The core is composed of three sub-cores to support imaging and behavioral experiments. The Small Animal Magnetic Resonance Imaging (SAMRI) sub-core provides structural and functional imaging on a broader scale. The Intravital Imaging sub-core provides access to a multiphoton microscope and a fluorescent light sheet microscope for functional and structural, cellular and circuit analysis of animal brains. Finally, the Animal Behavior sub-core provides a broad panel of behavioral and cognitive assessments in translational models for neurodevelopmental and neurodegenerative disorders. The TIBA Core was established during the second year of Phase I and has grown tremendously in types of services provided and number of users and grants it supported. The TIBA Core will be directed by Dr. Dunaevsky (overall TIBA), with sub-cores directed by Dr. Liu (SAMRI), Dr. Jensen-Smith (Intravital Imaging), and Dr. Samuelson (Animal Behavior)."
+ },
+ {
+  "id": "b13b4255-1e56-420d-9166-b588d00a69fb",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Cancer Neuroscience Training Program",
+  "text": "An emerging new discipline termed “Cancer Neuroscience” addresses functional interactions between tumors\nand the nervous system. We propose a training program that will enable doctorate level basic scientists to\nwork within this new field. Our trainees will address therapeutic challenges and develop new medicines for\ncancers and for a variety of neurologic disease states."
+ },
+ {
+  "id": "b13c202c-0ca5-4704-8cd5-f7aeeff1ee7f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of an Oral Microbiome Foundation Model for Systemic Diseases Assessment",
+  "text": "This project will develop a novel Oral Microbiome Foundation Model (OMFM) leveraging extensive oral\nmicrobiome samples and advanced deep learning (Transformer-based architecture). By addressing limitations\nof disease-specific datasets and conventional analysis methods, OMFM will establish a scalable, population-\nlevel baseline for oral microbiome research and will demonstrate clinical utility through fine-tuning for Alzheimer's\ndisease prediction with external and clinical validation. This research will advance understanding of oral-systemic\nrelationships and will establish a non-invasive, cost-effective screening tool (~$45/test) deployable in dental\nclinics for Alzheimer's disease and other systemic conditions."
+ },
+ {
+  "id": "b13eb115-d4b6-4cea-9a32-34b96a335423",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multi-angle Total Internal Reflection Structured Illumination Microscopy to Investigate Exo-Endocytosis Coupling in Living Cells",
+  "text": "Neurons communicate by releasing chemical signals through tiny vesicles, which must be quickly recycled to\nkeep the brain functioning properly. Problems with this process are linked to neurological disorders such as\nAlzheimer’s and Parkinson’s disease, but scientists lack the tools to see these rapid events in living cells. This\nproject will develop an advanced microscope to capture these nanoscale processes in real time, providing new\ninsights that could lead to better treatments for brain disorders."
+ },
+ {
+  "id": "b142c32b-2e5c-40ce-a3d3-c20c58d531d7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mapping the single cell state basis of metastasis in space and time",
+  "text": "Cancer is the second leading cause of death in the United States and 90% of deaths occur at metastatic stages.\nMetastasis requires the cancer cell to accomplish many distinct tasks as it moves through the body to form new\ntumors in distant organs. Our proposal seeks to identify systematically how a cancer cell's molecular toolkit\nchanges during metastasis with the goal of identifying new therapeutic targets to prevent metastasis and for\ntreating patients with metastatic disease."
+ },
+ {
+  "id": "b1434ab0-1923-424f-90d3-2143e90aab2e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Coordination of alternative exon and 3'UTR choices in mRNAs",
+  "text": "Alternative 3' UTR usage can be coordinated with alternative upstream exon choices to generate full length\nmRNAs that differ in protein-coding capacity and how they are regulated. This proposal investigates how these\nchoices are coordinated in single cells and tests their function in human neurons."
+ },
+ {
+  "id": "b145b8f8-f77b-4be2-863e-0f22a64bb186",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Breast Cancer Research Program",
+  "text": "PROJECT 004 – BREAST CANCER RESEARCH PROGRAM \nPROJECT NARRATIVE \nPer the PAR-17-095 FOA, the project narrative is not applicable for the Breast Cancer Research Program."
+ },
+ {
+  "id": "b14bca12-c6db-4c8e-89d0-ace00a085d32",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "In vivo engineering of B cells for the secretion of HIV broadly neutralizing antibodies",
+  "text": "We have developed a highly novel gene therapy approach to achieve a functional cure for HIV, based on\nengineering B cells ex vivo to express HIV broadly neutralizing antibodies (bnABs). The approach is well suited\nfor in vivo delivery because B cells are abundant and accessible in the body, and because modifying relatively\nfew B cells is sufficient to generate the desired therapeutic effect. Here, we further develop in vivo delivery\nvectors in order to generate multi-specific bnAb responses for long-term HIV control."
+ },
+ {
+  "id": "b150709d-9ad7-47e5-9fbf-1a39df30a139",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mitigation of GI-ARS By Stabilizing Mucosal Membrane Integrity",
+  "text": "1 MITIGATION OF GI-ARS BY STABILIZING MUCOSAL MEMBRANE INTEGRITY\n 2\n 3 PROJECT NARRATIVE\n 4 Gastrointestinal Acute Radiation Syndrome (GI-ARS) resulting from toxic levels of exposure to ionizing\n 5 irradiation to the stomach and intestines is a major immediate threat to human survival without effective\n 6 therapeutic intervention. Effective GI-ARS intervention must preserve gut mucosal barrier function in order to\n 7 prevent system sepsis and death and there are no FDA approved therapies that address this requirement. Based\n 8 on substantial evidence, we propose to determine the efficacy of a high-purity block copolymer surfactant\n 9 (Maroon Biotech’s MP8803) as a GI-ARS countermeasure to increase 30-day survival when administer\n10 beginning 24 hours after radiation exposure in a standard laboratory rodent model of GI-ARS"
+ },
+ {
+  "id": "b15d8d7a-79b5-407b-be0d-754931fe23b1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Chronic pain conditions and internalizing psychopathology, a genetic epidemiology investigation.",
+  "text": "PROJECT NARRATIVE. Over 100 million Americans and approximately 50% of U.S. military Veterans suffer\nfrom chronic pain. Research indicates a strong, bidirectional link between chronic pain conditions and\ninternalizing psychiatric disorders and individuals with both chronic pain conditions and internalizing disorders\nshow worse treatment prognosis, increased impairment, and greater use of opioid medication. While the\nassociation between chronic pain and internalizing disorders is well documented, the underlying mechanisms\nthat drive the association remain elusive. This CDA-2 project will use electronic health record and genetic data\nfrom the Million Veterans Program to identify the genetic factors common to the development of these\nconditions and sets the stage for progression from genetic epidemiology to precision medicine. Improved\nunderstanding of the mechanism underlying this relationship can reduce negative consequences such as\nopiate use, healthcare costs and societal burden, and improve access to care for Veterans."
+ },
+ {
+  "id": "b164a936-a383-4b60-8002-efe06133a278",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "DNA damaging therapy and immune response in small cell lung cancer subtypes",
+  "text": "New therapeutic strategies to enhance immunotherapy responses are desperately needed for small cell lung\ncancer (SCLC), a largely immune “cold” cancer for which outcomes have remained virtually unchanged for\nthirty years. Our preliminary data indicate that DNA damaging therapies (such as PARP inhibitors) may induce\nchanges in the immune microenvironment that are distinct between SCLC subtypes or other biomarker-defined\ngroups. This proposal will investigate therapeutic vulnerabilities of distinct SCLC subtypes to combinations of\nDNA damaging agents or replication stress targeting with immune checkpoint blockade and has the potential to\nbe rapidly translated into effective, biomarker-driven approaches for patients."
+ },
+ {
+  "id": "b16a633f-6de6-4ab3-875c-89ce77ea0d3f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Harnessing the Power of Data and Artificial Intelligence to Resolve the Human 3D Interactome",
+  "text": "Protein-protein interactions are essential for biological functions, and their disruption can\nlead to disease. Tens of thousands of human proteins form hundreds of thousands of\ninteractions, and a significant fraction of these interactions remain uncharacterized. The\ncomputational methods developed in this project will tackle critical challenges in detecting\nand modeling protein-protein interactions, advance our understanding of the human\ninteractome, and illuminate the molecular mechanisms underlying human diseases."
+ },
+ {
+  "id": "b16f06d9-9505-41ab-a7b2-a6604822dc1f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Chromatin regulation through RNA demethylation in environmental stress response",
+  "text": "We have previously established in vitro and animal models to investigate gene expression changes induced by\narsenic and UVB stresses. The proposed research will investigate how environmental toxicants may dysregulate\nchromatin-associated RNA m6A methylation to modulate cell chromatin state, leading to altered gene expression\nand contributing to tumorigenesis."
+ },
+ {
+  "id": "b1720cdd-58af-455a-961b-8eb6d3289576",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Uncovering the role of SAP97 in synaptic function and schizophrenia.",
+  "text": "The proposed research is relevant to public health because dysfunction of glutamatergic neurotransmission is\nbelieved to underlie a number of complex brain disorders including Autism Spectrum Disorder, Schizophrenia\nand Alzheimer’s Disease. The proposed research is relevant to the mission of the NINDS given that knowledge\nconcerning how glutamatergic synapse function is regulated will aid in the development of new therapeutic\nstrategies for treating such disorders."
+ },
+ {
+  "id": "b18559d1-d584-4065-af39-feff554da572",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Immunosuppression mediated by regulatory CD8+ T cells in lung cancers",
+  "text": "While immunotherapy using immune checkpoint blockade (ICB) has advanced the treatment of lung cancers, a\nsignificant fraction of patients exhibits limited responses. We hypothesize that resistance to this therapy might\nstem from regulatory CD8+ T cells, a previously underappreciated immunosuppressive cell type recently\nidentified as critical for peripheral tolerance in both humans and mice. Utilizing a comprehensive panel of murine\northotopic lung cancer models, we aim to elucidate the role of regulatory CD8+ T cells in modulating anti-tumor\nimmunity and investigate whether depleting these cells could overcome the resistance to ICB in lung cancers."
+ },
+ {
+  "id": "b1884311-a166-494f-82ec-27416b2579b1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mutational scanning of seizure-related gene para in fruit flies",
+  "text": "The clinical relevance of most missense variants observed in human genes is currently unknown, because so\nmany possible variants exist and most have not been observed in the clinic enough times for their effect to be\nknown. The proposed work will enable the rapid phenotyping of thousands of gene variants in parallel in a\nmulticellular eukaryotic organism for the first time and will provide evidence for clinical classification of over 1,000\nvariants of the D. melanogaster ortholog of the very closely conserved human SCN1A gene. This technology will\nimprove disease screening, diagnosis, and prognosis by rapidly characterizing and annotating which variants\nseen in the human genome contribute to pathogenicity."
+ },
+ {
+  "id": "b1890f30-ae32-47d6-89da-861c8e3871ed",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "CRISPR screens of population relevant genes governing toxicant resilience",
+  "text": "Genetic differences between people and populations can impact the risk of adverse effects from environmental\nexposures. Improved understanding of the relationship between genetic susceptibility and the environment is\ncritical to protecting public health. Current approaches have had limited success in identifying human health\nrelevant interactions. We propose a fundamentally different approach to functional assess commonly variant\nhuman genes for their role in specific environmental exposures which could enable more effective human risk\nassessment."
+ },
+ {
+  "id": "b18c9568-d24a-4c48-afc9-b50c5d1c0a2e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Therapeutic targeting of SIRT3 for aggressive and refractory lymphomas",
+  "text": "SIRT3 Narrative\nWe discovered that the mitochondrial sirtuin SIRT3 is required to maintain the growth and\nsurvival of DLBCLs and is especially highly expressed in those lymphomas with the worst\nclinical outcome. Herein, we will develop the basis for translating SIRT3 targeted therapy to the\nclinic for these chemotherapy resistant patients who have few viable therapeutic options. We\nwill develop SIRT3 lead compounds for clinical translation and define potential resistance\nmechanism and the means to overcome them."
+ },
+ {
+  "id": "b190a82f-db18-4675-8d7f-f8891d4a38d9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "CD4 T cells and immune cell triads in anti-tumor immunity",
+  "text": "This project will determine how tumor-reactive CD4 T cells and CD8 T cells contribute to anti-tumor\nimmunity. This work will provide mechanistic and translational insights into the spatiotemporal and\nmolecular factors critical for tumor control and inform strategies to enhance immunotherapy responses."
+ }
+]

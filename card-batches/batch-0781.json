@@ -1,0 +1,142 @@
+[
+ {
+  "id": "89966ed8-779b-4972-9003-16a422dfb7bf",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Training and Dissemination",
+  "text": "SUMMARY/ABSTRACT (TRAINING & DISSEMINATION) Magnetic resonance (MR) techniques have become indispensable in studies of organ function in health and disease, using advanced instrumentation, complex auxiliary capabilities, such as large-scale data and image processing, and complementary measurements employing other techniques (e.g., electrophysiology) and/or other imaging modalities such as single and multiphoton imaging. The optimal use of these techniques, however, requires access to new methods that enable new measurement capabilities (such as new MR pulse sequences) and require extensive training. The general aim of this Training and Dissemination component of this P41 National Center for Biomedical Imaging and Bioengineering (NCBIB) is to educate scientists in the technologies we develop in the NCBIB and disseminate the many products and information that will result from the activities of the Technology Research and Development projects. The training activities will focus on continuing education and advanced training in high and ultrahigh field MR imaging and spectroscopy methods, UHF instrumentation, and multimodal imaging for biomedical research and clinical use. The goal is to catalyze broad application of NCBIB tools and skill sets by a national community of basic, translational, and clinical investigators thereby increasing the Center’s impact. This goal will be accomplished through workshops, hands-on training courses, publications and conference presentations, and a comprehensive web site providing information and access."
+ },
+ {
+  "id": "899772c4-7bd0-47ae-95af-05eb31fe014f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting Neutrophil Extracellular Traps and Chemokines in Blood-Retinal Barrier Alteration in Diabetic Retinopathy",
+  "text": "This project investigates how neutrophils, a class of white blood cells can cause tissue damage and enhance\nthe immune response through neutrophil extracellular traps (NETs) and the chemokine CXCL1 and contribute\nto increased vaso-permeability in retinal vessels in diabetes. Specifically, this research will utilize in vitro\nmodels, animal models, human biological samples, and novel therapeutic approaches including small\nmolecules, neutralizing antibodies, and a drug repurposing approach. The study will help develop prognostic\nmarkers and potential new therapies to improve efficacy and durability and reduce treatment burden in clinical\npractice."
+ },
+ {
+  "id": "899d36a5-3fe3-4e14-b4b0-ae57b33259a2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A BRAIN Initiative Resource: The Neuroscience Multi-omic Data Archive",
+  "text": "The Neuroscience Multi-Omic Archive (NeMO Archive) is a data repository that is specifically\nfocused on the storage and dissemination of omic data from the BRAIN Initiative and related brain research projects."
+ },
+ {
+  "id": "89a5c260-40b2-4910-b965-929c8d3511dd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A Multifunctional Biologic to Regulate Transplant Rejection",
+  "text": "This project aims to develop a novel biologic therapy, β-Tol, that combines targeted immune\nsuppression with promotion of regulatory T cells to improve transplant outcomes. By reducing the\nneed for systemic immunosuppression and complex multi-component treatments, β-Tol has the\npotential to enhance long-term graft survival with fewer side effects. Success in this research\ncould lead to safer, more effective therapies for transplant recipients and inform treatment\nstrategies for other immune-mediated diseases."
+ },
+ {
+  "id": "89a5e5c7-c86f-4521-9325-31a6dc689ef7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Clonal expansion: a marker of disease activity in stage 1 T1D",
+  "text": "Type 1 Diabetes (T1D) presents a major health hazard to our population and can be devastating to the\nindividual, even with exogenous insulin treatment. The first immunotherapy was recently approved to delay\nprogression to T1D, but there is no prevention or cure. Prevention will be enabled by understanding earlier\npathogenesis. The proposed studies will investigate clonal expansion of T cells in stage 1 T1D as a biomarker\nof disease activity. These studies may guide timing and selection of early therapies."
+ },
+ {
+  "id": "89ac3a83-2cf4-4ae1-a14b-4bf95ff3e1dd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Immunophenotypes in the Idiopathic Inflammatory Myopathies",
+  "text": "The idiopathic inflammatory myopathies are rare orphan disease that are hallmarked by the presence of various\nautoantibodies each with their own unique clinical phenotype. In this proposal, we utilize human peripheral blood\nmononuclear cells (PBMCs) from patients with IIM and healthy controls to understand the immune signatures\nand transcriptomics that drive IIM pathogenesis. We will also take the prior discovery that Jo1+ patients\noverexpress the redox sensor TXNIP and ascertain how TXNIP overexpression alters B cell metabolism."
+ },
+ {
+  "id": "89b32e79-e045-411f-95d7-bc162eff3d02",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Gene Therapy for Succinic Semialdehyde Dehydrogenase Deficiency (SSADHD)",
+  "text": "(3 sentences)\nSSADHD is a rare inborn metabolic disorder characterized by broad spectrum encephalopathy including\ndevelopmental delay, intellectual disability, seizures and a risk of sudden unexpected death in epilepsy\n(SUDEP). SSADH-targeted gene restoration therapy is a potential cure for this debilitating disorder, but a\nviable vector candidate capable of driving functionally sufficient SSADH in human neurons leading to\ndemonstrable phenotypic curable outcome is currently unavailable. Our proposal aims to develop a novel\nadeno-associated virus (AAV) vector with human SSADH promoter driving functional human SSADH\nexpressions in patient stem cell-derived neurons and determine whether systemic delivery of such clinically\ntranslatable AAV vector in SSADH-deficient mice results in safe and effective SSADH restoration with\nappreciable phenotypic rescue, advancing the preclinical development of SSADH gene therapy for SSADHD\npatients."
+ },
+ {
+  "id": "89b66432-b065-4ef2-afbb-cce5718e32e7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Pillar: Multi-Modal Imaging AI Models for Breast Cancer Risk",
+  "text": "Current national guidelines for the early detection and prevention of breast cancer are inefficient, relying on\ninaccurate cancer risk models to allocate care. Improved predictors of cancer risk will enable more patients to\nbenefit from early detection and prevention while reducing overtreatment for the rest. To address this unmet\nneed, we will develop AI tools that predict breast cancer risk from multi-modal imaging (Aim 1), build algorithms\nto improve their robustness to unseen image protocols (Aim 2), and create simulation frameworks to\nbenchmark their clinical utility (Aim 3)."
+ },
+ {
+  "id": "89b8fdb2-665e-48b1-91fb-c36ece790c71",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Tumor Antigen Targeted Nanoparticle Therapy for Glioblastoma (GBM)",
+  "text": "Toxicity of drugs used to treat cancer is the major limiting factor in effective\nchemotherapy; collateral damage to bone marrow and other normal tissues limits the\namount of chemotherapeutic agent a patient can receive and often precludes\nadministration of curative doses. This project seeks to develop a method to encapsulate\nchemotherapeutic drugs inside tiny, nano-scale particles that can cross the blood brain\nbarrier and efficiently treat otherwise fatal brain tumors like glioblastoma multiforme\n(GBM). Success in doing so will be a first in class demonstration of the potential of this\npowerful drug for targeted and potentially curative treatment of brain tumors."
+ },
+ {
+  "id": "89c02bec-0de3-4245-a22b-8aeb9ec36790",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Structural and Functional Alteration of host RBCs by Babesia",
+  "text": "Babesia is an emerging zoonotic tick-borne parasite, with a fast-expanding geographical range of human\ninfections globally, and a heavy prevalence in northeastern USA. Little is known about how the parasite remodels\nits host red blood cell (RBC) during infection, although clinical complications of the disease are linked to these\nchanges. The current study aims to understand the nature and functionality of parasite proteins exported to the\nRBCs and detail their interactions with the RBC cytoskeleton and examine how this impacts RBC morphology\nand stability, all of which ultimately affect the pathological outcomes of the disease."
+ },
+ {
+  "id": "89c6f5fc-9496-40fc-86c8-45189284ddd2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The role of NPRL2 loss in focal cortical dysplasia",
+  "text": "Focal cortical dysplasia (FCD) is a common cortical malformation associated with medically refractory epilepsy\nand most frequently caused by variants in subunits of the GATOR1 complex (a negative regulator of mTOR):\nDEPDC5, NPRL3, and NPRL2. The least studied of these variants is NPRL2 and in this proposal we aim to\ndefine the pathophysiological consequences of Nprl2 KO in vivo and in vitro. Using a mouse model of FCD we\nwill define the morphological and functional changes that occur due to Nprl2 KO-induced mTOR pathway\nhyperactivation as well as investigate the transcriptomic changes that occur downstream of mTORC1 that may\nproduce MCD and seizures."
+ },
+ {
+  "id": "89d0c28b-9f08-4fac-a262-0c02c43b78c4",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "UC Davis Innovation Center for Honey Bee Therapeutics and Regulatory Science",
+  "text": "Honey bees play a critical role in agricultural production and food security, but continue to experience substantial\nlosses due to parasites, pathogens, and other biological stressors. This project will establish a translational\nregulatory science framework for the discovery, evaluation, and development of novel honey bee therapeutics,\nwhile generating datasets and methodologies that can serve as an example for future product evaluation. The\nresulting advances will improve pollinator health, agricultural sustainability, and food security."
+ },
+ {
+  "id": "89d17aa1-2572-47e8-b1bb-16c1283dcbc3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Understanding How Nonheme Iron-Dependent Enzymes Assemble Pharmacophores: Studies of Cyclopropane, Aziridine, and Isonitrile Formation",
+  "text": "Non-heme-iron and 2-oxoglutarate-dependent (Fe/2OG) enzymes use molecular oxygen to catalyze\nan extraordinarily diverse array of oxidative chemical reactions in the biosynthesis of compounds with\nbiological activity. Investigating how these reactions take place provides a foundation for repurposing\nthese enzymes for discovering new reactivity and preparation of medicinal compounds. The requested\nsupplement would accelerate our study of Fe/2OG enzymes and their chemistry by allowing for a more\nfine-grained understanding of their reaction rates and reaction intermediates thus providing significant\ninsight into their mechanisms of catalysis."
+ },
+ {
+  "id": "89dc2716-054a-4143-8187-57578de922a9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dissecting the drivers of persistent SARS-CoV-2 infections",
+  "text": "There is an urgent need to curb the emergence of novel SARS-CoV-2 variants. This proposal will provide insights\ninto the frequency, risk factors, clinical presentations and viral features of persistent SARS-CoV-2 infections\nusing an integrated research approach combining virology, immunology, bioinformatics, and genomics. This\nknowledge will allow the implementation of strategies suitable to prevent prolonged SARS-CoV-2 replication and\nlimit the spread of neutralization-resistant viral variants in vulnerable patients."
+ },
+ {
+  "id": "89e0f94e-af99-4a8a-be9e-5e066e0e9a3b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Exploring the role of Lytic Polysaccharide Monooxygenase in Virulence and Immunity of Pseudomonasaeruginosa",
+  "text": "Lytic polysaccharide monooxygenases (LPMOs) are bacterial enzymes studied for biomass degradation but\nwhose function in bacterial infections remains largely unexplored. Our recent discovery of an important virulence\nrole and potent vaccine immunogenicity of the Pseudomonas aeruginosa LPMO CbpD inspired us to continue\nprobing its mechanistic role in bacterial pathogenesis and its potential targeting in anti-virulence therapy."
+ },
+ {
+  "id": "89e1100e-83df-46f7-aa40-9ef90585a5cd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Human iPSC-Based Personalized Cell Therapy of PD",
+  "text": "The “induced pluripotent stem cell (iPSC)” technology is a promising method that can enable personalized\nautologous cell therapy of Parkinson’s disease (PD) and other degenerative human diseases. To realize the\npotential of using iPSCs in personalized cell-based therapy for PD, based on our promising pre-clinical as well as\nclinical studies, we propose to further improve the safety and efficacy of reprogramming and in vitro\ndifferentiation technologies. This proposal will provide a standardized method for generating and characterizing\nclinical grade human iPSCs and transplantable dopamine cells, leading to a platform that will enable\npersonalized cell therapy for PD patients regardless of their genetic backgrounds."
+ },
+ {
+  "id": "89e913c6-1568-46ed-8f80-c42c582b2a9f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of parasubthalamic astrocytic dysfunction in alcohol use disorder",
+  "text": "The use of cocaine or methamphetamine often leads to poor health outcomes, including cardiovascular\ndysfunction and overdose-related mortality. Discovering treatments for stimulant use disorder (SUD) is a\npressing task for researchers, as there are currently no FDA-approved medications to treat SUD. Our group has\nidentified a brain protein, RGS12, that may hold promise as a potential target for SUD medications, and we\npropose work that will validate the utility of RGS12-targeting medications."
+ },
+ {
+  "id": "89ebe218-9134-45f8-a1eb-065773d34b54",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The regulation of gut macrophage’s function by the bile acid receptor FXR",
+  "text": "Colon cancer is characterized by a prominent dynamic interaction between host and gut microbes through\nsecondary metabolites such as bile acids, which has been shown to promote tumor initiation and progression,\nfacilitate inflammation and reshape the gut microbiota community. The research proposed here aims to better\nunderstand how tumor risk factors including diet, inflammation and gut microbiota converged on BAs-FXR axis\nand modulate macrophage intrinsic responses to intestinal inflammation and tumor growth. This integrative\napproach to interrogate this dynamic host immune landscape with host-and-microbe communicating metabolites\nwill shed light on not only the etiology of colitis-induced colon cancer, but also identify new therapeutic targets\nand biomarkers."
+ },
+ {
+  "id": "89edbf35-12c2-4fd3-a6aa-fbe9900037ca",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Epigenetic mechanisms of cognitive and nociceptive impairments in AUD",
+  "text": "The neurobiological mechanisms underlying symptoms of withdrawal are poorly understood despite the fact that\nthey serve as potent triggers for relapse in individuals attempting to remain abstinent from alcohol. While our\nrecent work uncovered significant epigenetic and transcriptional changes in the mPFC of individuals with and\nwithout AUD, the relationship between such changes and symptoms of withdrawal is unclear. The proposed\nproject will use a rodent model of alcohol dependence to causally link epigenetic dysregulation of key genes in\nthe mPFC with cognitive and nociceptive symptoms of withdrawal and in doing so has the potential to identify\nnew therapeutic targets for the development of drugs to treat withdrawal symptoms."
+ },
+ {
+  "id": "89f90c65-0a01-4637-91fb-0f746b9ce4db",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Biomedical Resource Core",
+  "text": "SUMMARY-BIOMEDICAL RESOURCE CORE A major unmet challenge in kidney research is the inability of most traditional approaches and methods to harness the complexity of tissue function, structure, and cellular phenotypes. Innovations in nanotechnology provide powerful tools, reagents, and platforms that outperform traditional approaches in several areas of medicine, as clearly shown by stunning successes including mRNA vaccine development and oncology. Nevertheless, these resources are largely untapped by the kidney community and are unavailable in individual labs or institutions. Northwestern University (NU) is home to global leaders and pioneers in nanotechnology housed in the International Institute of Nanomedicine (IIN). During the tenure of the Northwestern O'Brien Kidney Center (NU-GoKIDNEY), we leveraged this unique scientific expertise at NU to establish and optimize services that deploy the power of nanotechnology in the service of kidney researchers in their efforts to develop more effective treatments for kidney diseases. The proposed Core builds on the momentum established through the Core B nanotherapeutic services offered by NU-GoKIDNEY, which includes 1) longstanding commitment to kidney research of nanomedicine leaders at NU who served as Core leaders and members of our Executive committee, 2) demonstrated interest in nanotechnology services by kidney investigators who requested nanotechnology services and submitted P&F proposals focused on nanomedicine solutions. These established services now form the basis of the following Specific Aims: Aim 1 will establish a Biomedical Resource Core to implement a service design for precision targeting of desired payloads to specific cells and sub-regions within the kidney; Aim 2 will establish SOPs and implement internal QA/QC and SOP protocols for all services offered; Aim 3 will ensure national access to resources by multiple mechanisms, that operate in collaboration with the consortium. In summary, the NU- Biomedical Resource Core will harness the power of nanotechnology to advance kidney health and provide an easily accessed portal to Core services for investigators throughout the US."
+ }
+]

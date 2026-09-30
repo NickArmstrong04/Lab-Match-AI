@@ -1,0 +1,142 @@
+[
+ {
+  "id": "88fc2994-adb8-4d4f-ac72-0d4f10da7f7b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Biostatistics & Mathematical Oncology",
+  "text": "Shared Resource 03: Biostatistics & Mathematical Oncology (BMO-SR) The overall objective of the City of Hope Comprehensive Cancer Center (COHCCC) is to foster and integrate cancer research activities, thereby ensuring the successful forward and reverse translation of discoveries across the translational science spectrum, including prevention, control, and population science research. To help fulfill this objective, and maximize the impact of research activities, the Biostatistics and Mathematical Oncology Shared Resource (BMO-SR) works collaboratively with all COHCCC Members to provide essential and continuous biostatistical, mathematical, epidemiological, bioinformatics, and computational biology support, with tailored guidance given to each program/project. Specific Aims of the BMOC-SR: Aim 1. (Design and Analysis): Provide biostatistical, mathematical modeling, and computational biology expertise to enhance research activities. Aim 2. (Consultation/Collaboration (2A) and Training/Service (2B)): Provide consultation, collaboration, training, and regulatory support service to facilitate the advancement of cancer research and novel therapeutics. The BMO-SR, comprised of 25 faculty/staff, provides COHCCC Members (e.g., basic scientists, clinical investigators, behavioral scientists, epidemiologists involved in cancer research) with access to a group of specialized biostatisticians, mathematicians, and computational biologists who collectively possess a broad set of skills and expertise. Access to and collaborations with BMO-SR faculty are facilitated by: i) BMO-SR alignment with the disease/modality research team organizational structure and ii) educational, training and mentorship activities available to COHCCC Members (e.g., courses, virtual and walk-in BMO-SR clinics, statistical workshops, and seminars). The overall objective of BMO-SR is to ensure that pre-clinical studies, basic science experiments, clinical trials, mathematical/machine learning models, and observational/population studies are: i) designed in an efficient and rigorous manner, ii) that high-quality data are collected, and iii) that unbiased data analysis methods are employed, such that the reported results are valid, robust, and reproducible. Members Utilization by %Revenue 2017–21: 98.3 Total (3.1 MCBC, 13.6 DCT, 27.5 CI, 50.4 HM, 3.7 CCPS) Publications by Members: 178, 37 with Impact Factor >10 Grants Supported: 72 Total (2 ACS, 9 CIRM, 5 DoD, 2 LLS, 41 NCI of 49 NIH (33R01, 1U01))"
+ },
+ {
+  "id": "88ff7d52-7639-4e9d-8ffa-93747f908552",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Engineering Modular Protein Inhibitors for Selective Targeting of Pathological Biomolecules",
+  "text": "Multifunctional proteins, such as enzyme inhibitors, play a key role in complex biological systems such as\nextracellular matrix and are excellent protein scaffolds for developing novel diagnostic and therapeutic tools,\nespecially for diseases that do not respond to conventional treatments. The overarching goal of my research\ngroup is to combine protein engineering and design techniques, such as directed evolution and rational design,\nwith computational methods like machine learning, to develop a new class of modular protein-based inhibitors\nthat selectively inhibit specific protein targets within the extracellular matrix responsible for diseases. The protein\nengineering strategies and tools developed in this research will shed light on developing novel protein-based\ntherapeutics that regulate complex biological systems while unraveling the protein sequence-structure-function\nrelationship of selective multifunctional protein inhibitors with low off-target effects."
+ },
+ {
+  "id": "89011c9c-7494-4fb7-b08c-d84146e77d15",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "High-throughput discovery of disease-associated ion channel variants",
+  "text": "Ion channels are a major protein class important for human health and disease. Although many ion\nchannels are linked to Mendelian disorders, a major challenge is to understand which mutations in\nthese genes disrupt the function of the protein and cause disease. This work will study large patient\ncohorts and generate large in vitro functional datasets to better understand ion channel biology and\ndecipher which mutations in ion channel genes are linked to disease."
+ },
+ {
+  "id": "890bbdb0-5941-454d-8983-bf403095605b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Macrophage one-carbon metabolism in atherosclerotic plaque stability",
+  "text": "Life-threatening cardiovascular events are caused by rupture of unstable atherosclerotic plaques when\nmacrophages lose the ability to perform efferocytosis, a process they use to clear dying cells in the plaque,\nhighlighting the need for new therapies to enhance this process. We uncovered that the loss of an enzyme,\nserine hydroxymethyltransferase 2 (SHMT2), controlling an essential process in macrophages called one-carbon\nmetabolism, causes inhibition of efferocytosis and increased plaque instability, and will dissect here the\nunderlying metabolic and molecular mechanisms. Using nanoparticles targeting macrophages, we will also\ndemonstrate that restoring SHMT2-dependent one-carbon metabolism promotes efferocytosis and plaque\nstability, which, in turn, will accelerate the development of innovative therapeutic strategies to prevent plaque\nrupture and promote atherosclerosis regression, thus addressing a significant unmet clinical need."
+ },
+ {
+  "id": "890e2bc1-59be-431f-9734-de4c746275c8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multifunctional Nanotechnology Platform for Triple Negative  Breast Cancer Treatment",
+  "text": "Triple-negative breast cancer (TNBC) accounts for approximately 15% of invasive breast\ncancers; it is associated with aggressive tumor biology, poor prognosis, resistance, visceral metastases and\nearlier disease recurrence and is more common in younger women than in older women and in African-American\nand Hispanic women. To overcome the issues of toxicity, resistance and poor efficacy, we plan to develop\nmultifunctional targeted polymeric nanoparticles which will prove more effective with less toxicity than the current\nstandard of care therapies. A combination regimen using carboplatin and paclitaxel in the core of the\nnanoparticles and highly selective anti-EGFR targeted agent (cetuximab) tagged on the surface of the\nnanoparticles coupled with the power of nanotechnology will obviate suffering from toxicity, improve efficacy and\novercome resistance."
+ },
+ {
+  "id": "8913e8f4-5b2c-47c0-89a6-87eaf80af2a9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Reliable measures of functional cortical processing of speech in adult cochlear-implant recipients",
+  "text": "Hearing loss imparts functional changes not only to the peripheral auditory system, but also to the cortical\nauditory system in the brain. A cochlear implant (CI) can restore auditory input directly to the periphery, but our\nunderstanding is limited as to how the brains of individual CI users process this speech input. The proposed\nstudies will conduct the developmental work to improve a CI-compatible neuroimaging tool to investigate the\nimpact of individual differences in cortical-speech processing on the speech-recognition outcomes in adult CI\nusers."
+ },
+ {
+  "id": "89175779-1c9b-4de3-a997-2de40bf16644",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Pharmacological inhibition of the cystic fibrosis transmembrane conductance regulator (CFTR)",
+  "text": "Autosomal dominant polycystic kidney disease (ADPKD) is the most common heritable kidney disease and the\nfourth leading cause of end-stage renal disease. Hyperactivation of the cystic fibrosis transmembrane\nconductance regulator (CFTR) is essential to cyst formation and enlargement in ADPKD, and CFTR inhibition\nholds therapeutic potential. This proposal seeks to resolve the conformational landscape of CFTR during its\nphysiologic gating cycle, characterize the mechanisms of existing CFTR inhibitors, and discover new allosteric\ninhibitors; completion of the proposed work will lay a foundation for development of new treatments for ADPKD."
+ },
+ {
+  "id": "891af75f-01e8-46b0-9706-a2d218ce1646",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project 3 Yoshida",
+  "text": "The overall goal of this proposal is to provide Dr. Yilin Yoshida, a project leader of the Tulane COBRE in Sex- Based Precision Medicine (SPM), with indispensable training to develop expertise in precision epidemiology, improve understanding of the sex disparities of diabetic cardiovascular disease (CVD) with a life-course perspective, and optimize diabetic cardiovascular risk prediction. Women’s excessive CVD risk in type 2 diabetes (T2D) relative to men is poorly understood. Potential mechanisms for this “female disadvantage” have been primarily tested in middle-aged cohorts without adequately accounting for the cumulative burden of early-onset T2D. In the past three decades, the greatest relative increases in T2D incidence and prevalence were observed in young adults and adolescents triggered by escalating obesity rates. Notably, early-onset T2D exhibits a female predominance in incidence and a more aggressive prognosis than late-onset T2D. A higher lifetime exposure to risk factor clustering in women compared to men with early-onset T2D, compounded by the aggressive disease course, may accelerate CVD risk in women in midlife. T2D is a heterogeneous disease with variable disease progression, which is illustrated by the sex disparity in the risk of diabetic CVD. Emerging machine learning- based research has sought to classify T2D patients to improve the prediction of complications but has not incorporated sex-specific pathophysiological characteristics. This knowledge gap is concerning, as evidence demonstrates that sex-specific mechanisms, partly driven by sex hormones, are instrumental in atherosclerosis, adiposity, inflammation, and endothelial dysfunction, underscoring sex-based differences in diabetic CVD. Women with T2D also face greater metabolic and reproductive challenges than men across the lifespan, which is implicated in women’s higher CVD risk. The phenotypic heterogeneities in T2D and CVD between men and women warrant the consideration of sex in predicting CVD risk. In this study, the candidate proposes to investigate the role of female sex in the deleterious influence of early-onset T2D on CVD using two intensively phenotyped longitudinal cohorts. The Specific Aims are to 1) quantify the cumulative burden of T2D on CVD risk in women compared to men and 2) identify sex-specific subgroups of individuals with T2D at high CVD risk. The candidate has generated impactful preliminary findings for this proposal through support from her two-year K12 award. The candidate has identified critical next steps in this line of research and training areas to complement her experience, including the pathophysiology of CVD and T2D, machine learning, health disparities research, and sophisticated epidemiological methods for bias reduction. The candidate has successfully leveraged a carefully coordinated set of resources, including a strong mentor team and applied learning activities closely aligned with her training objectives and Specific Aims. This COBRE Research Project and training is essential to advance the candidate’s career objective of becoming an independent, externally-funded investigator specializing in sex-based precision epidemiology in cardiometabolic health."
+ },
+ {
+  "id": "891c095a-4a40-4fbf-a1e6-7601c6a346f7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Decoding Hydrogen Peroxide's Impact on Cellular Signaling and Stress Response Pathways",
+  "text": "Oxidative stress is a hallmark of many pathological conditions including chronic inflammation,\nneurodegeneration, and cancer. Understanding how cells respond to variable levels of oxidative stress and which\ncellular pathways are most susceptible to alteration by reactive oxygen species will greatly aid efforts in treating\ndiseases marked by aberrant redox balance. This research proposal will uncover mechanistic insights into how\ncells measure and respond to variable levels of oxidative stress, and how certain stress response pathways are\ncoordinated depending on the level of stress."
+ },
+ {
+  "id": "891c0d58-7073-4eb6-b47e-8f38c3260ff7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Epigenomics Core",
+  "text": "Abstract – Epigenomics Core The growth of genomic regulation research at OMRF over the past ~10 years has been supported by the OMRF Clinical Genomics Center. This initially COBRE-supported core brought next generation sequencing capabilities to OMRF to support studies on the genetics of immunity. These sequencing capabilities have also been useful to genomic regulation research. However, key gaps in the portfolio of available core services have been chromatin accessibility and conformation analyses as well as the current generation of DNA-binding protein analyses and long read sequencing. The Epigenomics Core will be an upgrade of current facilities and employ personnel with extensive scientific experience in these areas to provide a range of sequencing technologies and methods. The significant experience of the PI and staff of operating resources and of transitioning a COBRE- funded core to full self-sustainability will contribute to the success of the Core. The first impact of the Epigenomics Core will be to provide sequencing and associated services for user generated libraries of any type (e.g., SLAM- Seq) and continue providing relevant services such as RNA-Seq. The Epigenomics Core will introduce new services specifically designed for the RPLs’ research and for genomic regulation research. Chromatin accessibility (ATAC-seq), genomic localization of DNA binding proteins (ChIP-seq, CUT&RUN, CUT&TAG), chromatin conformation (Pore-C) and long read nanopore sequencing of RNA (Iso-seq). With the customization often required of these protocols to meet the needs of the specific projects, the Epigenomics Core will work with investigators to develop workflows and ‘handoffs’ in the processes between the investigator and the Core. The Epigenomics Core will work closely with the Artificial Intelligence Core to assist researchers in assessing the output of these new data types and turning them into biological insights. The Epigenomics Core will give genomic regulation investigators in Oklahoma the capability to examine a wide range of endpoints critical to their studies. The development and continued growth of genomic regulation research at OMRF will be achieved through the Epigenomics Core offering advanced research tools and training to foster independence and to enhance the innovation and creativity of individual research programs. It will also serve to attract and retain talented investigators in service of our goal of building a vibrant and self-sustaining genomics regulation research community in Oklahoma."
+ },
+ {
+  "id": "89241f41-8524-431c-9ce8-e5f5395d61d8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Understanding Anaplastic Transformation Using an Integrated Multi-omic Computational Approach",
+  "text": "Project 4\nThe proposed research is relevant to public health because it will provide analytical tools for a deeper dissection\nof tumor heterogeneity and a comprehensive reanalysis of all existing sequencing data from patient samples in\nresearch clinics. It will also offer new opportunities to understand the cellular plasticity in multiple compartments\nand its relationship with thyroid cancer clinical outcomes."
+ },
+ {
+  "id": "892765ec-b9cd-404b-b12a-957a4039a799",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Human Disease Ontology: An integrated, mechanistic knowledge resource for biomedical research.",
+  "text": "PUBLIC HEALTH RELEVANCE. The overall goal of this proposal is to develop a comprehensive network of\ndisease-to-disease relationships to facilitate linking of data across broadly useful genomic and proteomic\nresources via the Human Disease Ontology (DO) Knowledgebase. Success of this study will address a\nsignificant barrier in data interoperability between these disparate resources. Ultimately, the DO’s large-scale\nintegration of disease knowledge into a hierarchical classification framework will aid researchers in better\nunderstanding alternative mechanisms of disease, thus driving innovative machine learning approaches,\noptimizing clinical care and making disease-related data Findable, Accessible, Interoperable, and Reusable\n(FAIR)."
+ },
+ {
+  "id": "892cf333-2f39-4afd-819f-293f19c9dde5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Epigenomic consequences of breakage-fusion-bridge cycling",
+  "text": "Cancer cells often show evidence of chromosome breakage, changes in DNA methylation and\nactivation of transposable elements. In this proposal we will test the hypothesis that\nchromosome breakage can lead directly to alterations in DNA methylation and transposon\nactivation."
+ },
+ {
+  "id": "89386220-97b8-4132-8cda-c802c832260c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Brain Development after Early-Life Antipsychotic Treatment",
+  "text": "The use of antipsychotic drugs in pediatric populations has increased dramatically over the past 30 years despite a lack of basic research documenting the effects of these drugs on brain and behavioral development. This research will use laboratory rats to ascertain whether early-life antipsychotic drug administration leads to greater behavioral and neural sensitivity to opioid drugs in adulthood. This research will provide scientists, policy-makers, and practitioners with critical information regarding the impact of prolonged antipsychotic drug treatment during development on the risk of substance abuse in later life, as well as offer transformative research experiences in neuroscience to college undergraduates in Kentucky."
+ },
+ {
+  "id": "893a3430-b4b8-42b1-8254-664fccdfa397",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Science of Science Approach to Analyzing and Innovating the Biomedical Research Enterprise (SoS:BIO)",
+  "text": "RELEVANCE (See instructions):\nBecause of the long time lag from basic research funding to patients getting new treatments, forecasting\nwhich research avenues are the most likely to improve human health is challenging. This project develops\nartificial intelligence methods to identify the most promising topics to accelerate the development of novel\ntherapeutics, building on large-scale analysis of past examples of success and failure."
+ },
+ {
+  "id": "893afbb8-6299-4541-9735-c208da3418cb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular Basis for cMyBP-C HCM variants",
+  "text": "Patients with hypertrophic cardiomyopathy due to genetic mutations in the contractile protein cardiac myosin\nbinding protein C (cMyBP-C) are at an increased risk for developing severe heart failure, but developing effective\ntreatments requires a better understanding of how these mutations affect cardiac muscle contraction and\nrelaxation. To accomplish this goal, this project integrates experiments aimed at identifying how these mutations\naffect the structure and function of cMyBP-C in order to better understand how they will affect in vivo heart\nperformance. The long-term impact is improved outcomes for patients with hypertrophic cardiomyopathy."
+ },
+ {
+  "id": "893beb62-b359-4bf3-b5ab-03dd756e22ad",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "UPR Center for Incubator and Technology Transfer (UPRCITT)",
+  "text": "UPR Center for Incubator and Technology Transfer (UPRCITT) We propose establishing the UPR Center for Incubator and Technology Transfer (UPRCITT) at the University of Puerto Rico (UPR) for entrepreneurial collaborative scientific research across multiple disciplines. In our endeavors for the UPRCITT, we will fit out an entire floor (20,000 ft2) in our eight-story UPR Molecular Sciences Research Center (MSRC), in the heart of San Juan, Puerto Rico (PR). With the establishment of the MSRC, the UPR has sought to foster an innovative and technologically driven economy that will generate businesses and jobs in PR (manufacturing or otherwise). Situating the UPRCITT in the MSRC would go a long way toward making this a reality. The UPRCITT floor would provide future collaborators with access to many of the Island’s best scientists, as well as much of the most sophisticated instrumentation available; and our GLP-compliant animal facilities. Furthermore, scientists accepted into the incubator space will have the opportunity of interacting within multidisciplinary research groups currently conducting research in nanotechnology, chemistry, biosensors, vaccine development, cell biology, natural products, structural biology, and other areas. The MSRC's ongoing efforts will provide leverage to the UPRCITT in attracting new researchers, small businesses, and Biotech and Pharmaceutical collaborators. An example of this being the creation of the Clinical Bioreagent Center (CBC), an NIH-NINDS-funded collaboration between UPR and local Biotech companies in PR for the development of a prophylactic HIV vaccine, and other new start-ups. The UPRCITT floor will include GLP/cGMP research facilities as well as flexible laboratory spaces for transitioning basic research concepts into pilot commercial projects. These projects could flourish for a time within the MSRC while de-risking the technology. The main goals of the UPRCITT are: (1) to enhance PR’s economic development by founding an innovation ecosystem that will stimulate the creation and incubation of start-up companies by providing cGMP state-of-the-art laboratories and CORE facilities, (2) to promote collaborations among Biotech and Pharmaceutical companies and UPR researchers, and (3) to provide workforce development by training for faculty, underrepresented undergraduate/graduate students and postdoctoral fellows to work in teams in an innovation ecosystem which will promote the culture of entrepreneurship in PR. The UPRCITT will promote PR's economic development in three ways: (1) Research conducted in these facilities will be critical to PR's economic development, in terms of both job creation on the island and spinoff projects that could be licensed and commercialized nationally. (2) The cGMP facilities will be used to form strategic alliances with industry, provide services to industry, and assist in capitalizing on new discoveries both within and outside of PR. (3) The facility will serve as an entrepreneurship and innovation training facility for underrepresented students aspiring to join the US scientific workforce. This application represents an unprecedented transformation in the UPR's research enterprise that will propel scientific discoveries into commercialization and economic growth."
+ },
+ {
+  "id": "894191a5-a72f-4171-bb77-eaa38048a99d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Coarse-graining approaches to networks, learning and behavior",
+  "text": "The proposed project, drawing on expertise from three theorists and their close experimental collaborators, will\nexpand upon a theoretical framework for coarse-graining and discovering the relevant variables in a neural\npopulation. This coarse-graining approach will reveal the properties of collective behavior in populations of\nneurons that are vital for sensing the environment and driving behavior. The project will also produce code that\nwill be disseminated to the wider neuroscience community that implements the developed methods."
+ },
+ {
+  "id": "894359f6-20ed-4d39-a110-7e4474794111",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Synergies among inhibitory receptors in tolerance and disease",
+  "text": "PPG NARRATIVE\nThe inhibitory receptors PD1 and LAG3 synergize to limit autoimmune disease. However, they are also over-\nexpressed in cancer and chronic viral infections, preventing disease clearance. Although PD1 and LAG3 are\nnow major therapeutic targets, it is not clear how they mediate this synergistic regulation and on which cells\ntypes. A greater understanding of these issues could lead to more effective therapeutic strategies."
+ },
+ {
+  "id": "89484c81-bcbc-417e-8c0e-1b2f4d138373",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Immunometabolism and the Cardio-Renal Axis in T1D-associated Atherosclerosis: Insights from the CaRe T1D Biobank",
+  "text": "By integrating state-of-the-art T cell characterization in circulation, atherosclerotic lesions, and the kidney in\nhumans with T1D, our project aims to bridge significant gaps in understanding CVD pathogenesis in T1D.\nLeveraging the CaRe-T1D biobank and multidisciplinary approaches, our research is poised to offer\ntransformative insights, potentially revolutionizing T1D care and opening new therapeutic avenues across the\ncardio-renal axis."
+ }
+]

@@ -1,0 +1,142 @@
+[
+ {
+  "id": "37fc2388-f5a6-4ae5-8097-982ac8577f8e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Midwest Center for Cryo-Electron Tomography",
+  "text": "We propose to establish the Midwest Center for Cryo-Electron Tomography (MCCET) at the University of Wisconsin, Madison, a National Service Network Hub for Cryo-Electron Tomography. The MCCET will provide national and international access to state-of-the-art equipment and well-trained technical staff to support the growing need for cryo-ET of biomedically-relevant specimens from isolated macromolecules to tissue from organisms. The MCCET will enable researchers, inside and outside of the national network of service centers, to prepare specimens suitable for on-site cryo-ET data acquisition and data processing, and to train and cross-train in a broad-range of cryo-ET workflows."
+ },
+ {
+  "id": "37fdf0eb-36bb-48f6-a336-0eecb5e054c5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Novel Optimization Methods and Treatment Planning System for Clinically-Deliverable Truly-Hybrid Proton-Photon Radiotherapy",
+  "text": "This project will develop truly-”2D” proton-photon joint optimization methods for clinically-deliverable truly-\nhybrid RT with unprecedented superior plan quality to proton-only and photon-only RT, and first-of-its-kind TPS\nto bridge truly-hybrid RT from research to clinic. This hybrid TPS can facilitate prospective clinical trials of a\nbroad spectrum of treatment sites for many patients. If succeed, truly-hybrid RT via this first-of-its-kind TPS will\nlikely warrant improved clinical outcomes with reduced OAR toxicities, and potentially become a new paradigm\nfor cancer RT in general, with compelling benefits in both treatment cost and clinical outcomes."
+ },
+ {
+  "id": "3800a712-0e8e-4bc3-93c5-8752fa4f99de",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Breast Cancer Family Registry",
+  "text": "The Breast Cancer Family Registry (BCFR) Cohort is an international cohort in the U.S., Canada and Australia comprised of multi-generational families (33,037 women and 6,992 men from 15,056 families) that started in 1995. We will strengthen and continue to provide to the research community an important and unique long-term family cohort with extensive epidemiologic and molecular data to address cutting-edge and clinically important research questions on breast cancer susceptibility, outcomes, survival and survivorship with the overall goal of advancing knowledge of the biology of breast cancer development and progression so as to reduce the cancer burden in high risk individuals and families."
+ },
+ {
+  "id": "38048c87-b800-4c27-a886-a3ed9c69452b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Effect of FTD/ALS mutations in RNA binding proteins on mRNA transport and local translation",
+  "text": "Mutations in RNA binding proteins cause frontotemporal dementia/amyotrophic lateral sclerosis (FTD/ALS) and\nare associated with defects in neuronal mRNA transport and local translation. However, many of the mechanisms\nof mRNA transport and local translation in neurons, including how mRNAs are packaged into granules and their\ntranslational state during transport, remain unclear. The proposed project will use iPSC derived neurons,\ntranscriptomics, proteomics, and microscopy to elucidate these mechanisms and the effects of FTD/ALS\nmutations in RNA binding proteins on granule packaging and translational state."
+ },
+ {
+  "id": "380cfc91-25d9-414b-abb3-b9ba5a6ae8ee",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular and Cellular Mechanisms of Plant Stem Cell Division and Differentiation",
+  "text": "This project aims to uncover the molecular and cellular mechanisms that regulate cell proliferation and fate\nspecification using two complementary meristem models. By dissecting transcriptional and post-transcriptional\nnetworks and intercellular signaling pathways, the research will reveal fundamental principles of stem cell\nregulation in the contexts of organ formation and regeneration. These insights have broad relevance and may\ninform the development of future cell-based therapies and regenerative medicine strategies."
+ },
+ {
+  "id": "38165680-8ab8-4662-8208-0d7e86f0b4a0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Unraveling the Molecular Mechanisms of Immunotherapy-Associated Myocarditis",
+  "text": "Immune checkpoint inhibitors (ICIs) offer significant benefits in cancer treatment but can lead to adverse\neffects, including myocarditis. We have developed two mouse models of ICI-myocarditis to explore the\nmolecular mechanisms underlying cardiotoxicity, focusing on how MANF regulates FGL1 expression\nto protect the heart's immune microenvironment. This research aims to reduce ICI-induced myocarditis\nwhile preserving anti-tumor immunity, potentially leading to therapeutic strategies that minimize cardiac\ntoxicity in cancer patients."
+ },
+ {
+  "id": "381e071f-03a7-4e4b-b00e-76b5e9c263f4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular Mechanisms of Cholestatic Fibrogenesis",
+  "text": "Biliary fibrosis is a process of peri-portal scarring within the liver that is caused by diseased bile ducts and\noften progresses to end stage liver disease. Thus, it is necessary to understand the mechanisms\nregulating biliary fibrosis and to identify pathways that can be targeted therapeutically. This proposal will\nfocus on understanding how lncRNAs affect epigenetic regulation in bile duct cells (cholangiocytes) and\nhow this leads to the release of molecules that subsequently activate hepatic stellate cells and perpetuate\nbiliary fibrosis."
+ },
+ {
+  "id": "38235f48-f9d3-4fe9-9cfe-6f1f47497d0b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "SCH: Advancing Public Health Intervention with Data-driven Restless Multi-Armed Bandit Framework",
+  "text": "This proposal aligns with the mission of the NHLBI by advancing data-driven AI solutions to optimize healthcare resource allocation based on patient health records, disease phenotypes, contact networks, healthcare-access measures, and health-system constraints, with a focus on type 2 diabetes, cardiovascular complications, and maternal health. Our work will develop AI-driven decision-support tools that integrate observational data, intervention trials, and cohort studies to enhance risk stratification, personalize treatment, and improve intervention effectiveness in clinical settings with constrained intervention resources, translating research into clinical practice to improve patient outcomes at scale."
+ },
+ {
+  "id": "3829dee9-e90a-41b2-bddd-5a0776f934bf",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular mechanisms of polymodal TRP channels in regulation of microvascular endothelial function",
+  "text": "Transient receptor potential vanilloid 4 (TRPV4) ion channels play essential roles in diverse biological processes,\nand abnormal functions of these channels such as gain-of-functions have been implicated in numerous diseases\nand pathological conditions in the vasculature, heart, kidney, and other body systems. Elucidating the molecular\nmechanisms underlying TRPV4 regulation by diverse stimuli and other intracellular factors (e.g., protein\nphosphorylation) is crucial for understanding their physiological functions and for developing new therapeutic\napproaches for a broad range of TRPV4-related pathologies in cardiovascular and other systems."
+ },
+ {
+  "id": "3831fa02-48a5-465f-8458-a6a3e5068b91",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting PLK1 signaling for the treatment of fibrolamellar carcinoma",
+  "text": "Fibrolamellar carcinoma, a life-threatening variant of liver cancer affecting adolescents and young adults, is\ncharacterized by a fusion event resulting in a novel chimeric protein that joins the N-terminal domain of DNAJ\nwith the catalytic subunit of protein kinase A (PKAc). We aim to identify and validate druggable signaling networks\nthat regulate the growth of DNAJ-PKAc fusion-expressing FLC cells. The knowledge gained from this study will\naccelerate the development of a novel therapeutic option for targeting childhood liver cancer."
+ },
+ {
+  "id": "38338412-98a8-4c79-a90e-b41284d2aef9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting transcriptional addiction in fusion-driven sarcoma",
+  "text": "8. Project Narrative:\nFusion oncoproteins act as the key drivers of cancer formation and progression in many forms of pediatric and\nadolescent cancer. Our team of investigators will develop novel small molecules that impair the function of\ncritical fusion oncoproteins through two approaches: 1) identifying small molecules that target transcriptional\nregulatory complexes that are co-opted by fusion oncoproteins to induce oncogenic gene expression\nprograms, and 2) developing small molecules that impair protein sequences required for self-association of\nintrinsically disordered regions that are essential to the oncogenic nature of many fusion oncoproteins."
+ },
+ {
+  "id": "38373ec2-215d-4ab9-a0a9-89c8922b955c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Clinical Ascertainment, Retention, and Data and Biospecimen Acquisition Research Core",
+  "text": "CORE B – ABSTRACT The main purpose of this Clinical Ascertainment, Retention, and Data and Biospecimen Acquisition Research Core is to support the Childhood Asthma and the NeOnatal Epithelium – Vanderbilt University study (CANOE- VU), the birth cohort that serves as the study population to address fundamental questions about the origins of childhood asthma focused on airway epithelial development. Our overarching hypothesis for this proposal is that there are distinct airway epithelial developmental defects present at birth (endotypes) that give rise to specific asthma phenotypes. These airway endotypes exhibit unique responses to environmental exposures, such as response to RSV infection in infancy, that contribute to asthma inception and virally-mediated exacerbations. The scientific projects which this core supports will focus on 1) identifying early life airway endotypes (based on multi-omic cell-specific transcriptomic, metabolic, and epigenetic signatures) that are present at birth, arise during development or after respiratory syncytial virus (RSV) infection in infancy, and are associated with the development of childhood asthma and specific childhood asthma phenotypes (Project 1), and 2) utilizing nasal airway epithelial cells cultured from infants, starting at birth, as an in vitro model to evaluate airway epithelial cell differentiation and the effects of experimental RSV or human rhinovirus infections on barrier function, viral load, and anti-viral and inflammatory responses (Project 2). The Clinical Ascertainment, Retention, and Data and Biospecimen Acquisition Research Core will maintain and expand CANOE-VU, established under the current funding. The design includes detailed RSV infection assessment, serial biospecimen collection (including nasal brushes for nasal airway epithelial cell culture, single cell RNA sequencing, bulk RNA sequencing, and DNA methylation), and careful childhood asthma phenotyping of participating children. This core’s overarching objective is to support the longitudinal follow-up and retention of CANOE-VU participants and the acquisition and handling of data and biospecimens from these participants that will be leveraged for Projects 1 and 2. It will also be in charge of providing data to Core C, where data will be processed and biostatistical analyses will be performed, and of shipping biospecimens to co-investigators. This core capitalizes on the rich research infrastructure at Vanderbilt University Medical Center and this institution’s engaged obstetric and pediatric outpatient clinics to conduct the proposed clinical studies. For this core, we have assembled an experienced research team of epidemiologists, pediatric pulmonologists, immunologists, systems biologists, basic scientists, biostatisticians, and research personnel experienced in birth cohort retention and data and biospecimen acquisition. To support Projects 1 and 2, this core is structured as 2 aims that will 1) facilitate and oversee the longitudinal follow-up and retention of CANOE-VU participants (aim 1), and 2) facilitate and oversee the longitudinal data and biospecimen collection and management from CANOE-VU participants (aim 2)."
+ },
+ {
+  "id": "3841e08c-1a15-4029-9254-6f646e8a4af3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Structure-function studies of the membrane-interacting domains of HIV-1 Env spike",
+  "text": "The membrane-interacting domains of class I viral fusion proteins, such as HIV-1 Env, appear to play much\ngreater roles in its stability, function and antigenicity than what has been appreciated previously. This proposal\naims to determine atomic structures of these domains in a physiologically relevant environment, to assess their\nfunctional roles in viral infection and to facilitate development of intervention strategies."
+ },
+ {
+  "id": "3845a1e0-ea5d-4210-944b-05ccc90aa66b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Short-term and long-term effects of methamphetamine exposure on residual viral transcription during treated HIV disease",
+  "text": "Sulggi Lee\nPROJECT NARRATIVE\nMethamphetamine (MA) use is highly prevalent among HIV+ individuals and is likely to pose challenges for\nachieving an HIV cure in these individuals, even with effective antiretroviral therapy (ART) suppression. HIV+\nART-suppressed individuals with a history of MA use will be studied to determine whether MA increases virus\nproduction and systemic inflammation, and to identify the genes and immunologic pathways that drive MA-\ninduced effects. Data obtained during the course of this study should contribute important and novel genetic\nand immunologic data to the HIV cure and psychostimulant addiction research agenda."
+ },
+ {
+  "id": "3845a284-caae-43ae-be5a-1a95210909db",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of a hamster model for hepatitis B virus infection",
+  "text": "Chronic hepatitis B virus (HBV) infection affects more than 296 million people globally and approximately\n820,000 people die each year from HBV infection and related complications such as cirrhosis and hepatocellular\ncarcinoma (HCC). One of the major impediments in developing a cure for HBV is the lack of immunocompetent\nanimal models permissive to HBV infection. The goal of this project is to develop a novel hamster model to\nsupport the development of new therapies to cure HBV infection."
+ },
+ {
+  "id": "3848cc94-d92a-4e4d-8509-6927461d1641",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Neutrophil Mechanisms During Inflammation and Atherosclerosis",
+  "text": "Intracellular vesicular transport is essential for all aspects of neutrophil physiology and defects in this mechanism leads to disease in humans. Uncontrolled neutrophil activation and neutrophil secretory proteins are associated with the development of systemic inflammation, endothelial dysfunction, coronary artery disease (CAD) and autoinflammatory disease. We found that the recently identified neutrophil progenitors (NePs) and immature neutrophils contain morphologically and functionally unique secretory organelles. We also show that both the inflammasome and exposure to high-fat diets (HFD) differentially regulate neutrophil activation and this is affected by their maturation state. We have identified several key regulatory factors essential for the control of neutrophil granule trafficking in vitro and in vivo, including the small GTPase Rab27a, its effectors JFC1 and Munc13-4, and NeP-specific effectors. The control of specific vesicular trafficking pathways in neutrophil precursors constitutes a unique approach to reduce inflammatory disorders highlighting the need for treatments targeting these pathways. In this application, we will use genetically modified mouse models and human neutrophils, to test the hypothesis that molecular mechanisms of vesicular trafficking and neutrophil functions differentially modulate neutrophils- and NePs-mediated inflammation in CAD. We will study neutrophil functions in hyperlipidemia in CAD (collaboration with Project 1) and inflammasome-mediated mechanisms (collaboration with Project 3). We will use novel inhibitors of neutrophil secretion in translational approaches to reduce inflammation. The significance of the proposed research is that elucidating the mechanisms regulating vesicular trafficking and secretion in neutrophils and NePs will lead to effective strategies for the treatment of systemic inflammation in CAD. To test our hypotheses we propose the following Specific Aims: 1) Test the hypothesis that hyperlipidemia differentially regulates vesicular trafficking and associated functions in neutrophils and precursors in CAD; 2) Elucidate the mechanisms of azurophilic granule exocytosis dysregulation induced by inflammasome activation in mature neutrophils and their precursors; 3) Mechanistic and translational studies of neutrophil- mediated inflammation in CAD. The proposed research should uncover the molecular mechanisms regulating vesicular transport in neutrophil precursors and lead to effective new strategies to treat inflammation in CAD."
+ },
+ {
+  "id": "384f35d3-b82f-4832-ab2e-f29899ffc61b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "CANCAN - Spatially resolved metabolic measurements in cells and organs during cancer cachexia",
+  "text": "Cancer cachexia is a multifaceted syndrome characterized by significant loss of body weight and muscle mass, which is not reversible through conventional nutritional support. This condition severely affects the quality of life and survival rates of cancer patients. Understanding the metabolic disruptions underlying cachexia is crucial for developing effective treatments. Matrix-Assisted Laser Desorption/Ionization Imaging Mass Spectrometry (MALDI-IMS) is a cutting-edge technology that combines the specificity of mass spectrometry with spatial mapping capabilities to visualize the distribution of metabolites and therapeutics directly within tissue sections. This approach enables true metabolic measurements (‘molecular pathology’) at the single-cell level. Importantly, this is a non-destructive method that allows for orthogonal assays to be performed on the same slide, facilitating comprehensive ‘multi-omics’ analyses. By utilizing MALDI-IMS, we aim to examine the systemic metabolic disruptions in various tissues such as muscle, fat, and liver caused by tumors during the progression of cachexia. This technology will enable us to perform spatial metabolomics and spatial metabolic flux analysis, providing detailed insights into how metabolism is altered in specific cell populations within these tissues."
+ },
+ {
+  "id": "38596ab3-d5b1-47fd-81d3-c8d4e144e8b6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Prophage-mediated regulation of antimicrobial production",
+  "text": "Our proposal is relevant to human health as we aim to understand the mechanism by which prophages, which\nare abundant in the gut ecosystem, modulate the production of a broad-spectrum antimicrobial in the gut."
+ },
+ {
+  "id": "3859df9d-60d7-43e4-9fa3-678af4e2bce5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Deciphering the molecular mechanisms of sterol lipid trafficking in bacteria",
+  "text": "Project description\n Sterols are critical for the structure of eukaryotic cells and serve as important signaling molecules. Some\nbacteria also engage with these lipids, but the molecular mechanisms of these engagements are not known.\nInspired by our recent discovery of bacterial proteins that transport sterols, we seek to uncover the molecular\ndeterminants of sterol recognition and transport in other bacteria, including pathogens and the gut microbiome."
+ },
+ {
+  "id": "385e6e7f-d132-4c9a-a94a-0d8656a049b6",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Redbud NA1 transfer to manufacturing",
+  "text": "In this Commercialization Readiness Pilot (CRP), we seek funding to transfer an ultra-compact sample prep\nplatform into manufacturing. Our project address issues of product quality, cost, and production capacity."
+ }
+]

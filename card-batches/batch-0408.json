@@ -1,0 +1,142 @@
+[
+ {
+  "id": "035ffa9f-c0c7-49d7-99b9-2602196a8179",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Count-Aware Modeling Approaches for Spectral Unmixing in Multispectral Fluorescence Imaging",
+  "text": "Public health relies on accurate and reproducible measurement of molecular and cellular processes within tissues\nto understand disease and evaluate treatments. This project will advance that goal by developing imaging and\nanalysis methods that improve the accuracy and consistency of multispectral fluorescence imaging for biomarker\nquantification. By enabling reliable measurement of disease-related markers across samples and imaging plat-\nforms, the proposed work will strengthen diagnostic precision, translational research, and evidence-based clinical\ncare."
+ },
+ {
+  "id": "036cf112-9957-43b4-90a8-5cc60f2f5bee",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Population-Based Evaluation of Artificial Intelligence for Mammography Priorto Widespread Clinical Translation",
+  "text": "While nearly 40 million women in the United States undergo mammography screening each year, 1 in 8 breast cancers are still missed due to the limitations of human radiologist interpretation even with the use of newer tests like 3D mammography. Recently, multiple promising artificial intelligence technologies for automated mammography interpretation have become commercially available but are unlikely to be widely adopted in clinical practice until they are shown to improve screening outcomes over radiologist interpretation alone. We will evaluate the performance of four leading artificial intelligence technologies for automated 3D mammography interpretation on a diverse national screening cohort and then leverage an established breast cancer simulation model to estimate the long-term benefits, harms, and costs associated with adopting AI tools for 3D mammography interpretation for the U.S. screening population to inform key stakeholders prior to their widespread clinical translation."
+ },
+ {
+  "id": "0370ca44-2e3b-4228-bd92-c7fae2d22443",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Parallel Characterization of Genetic Variants in Chemotherapy-Induced Cardiotoxicity Using iPSCs",
+  "text": "Doxorubicin is a powerful cancer drug, but it often causes permanent heart damage in cancer survivors.\nThis project uses human stem cells to discover why some people's genes make them more likely to suffer\nthis heart damage than others. Our findings will lead to new tests that help doctors identify high-risk\npatients before treatment begins, making cancer care safer for the heart."
+ },
+ {
+  "id": "03757dbd-bde7-4d0a-a8b2-1a0b87872b67",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mitochondrial Biogenesis in Health and Disease",
+  "text": "The goal of this MIRA grant application is to continue developing a research program aiming to understand the\nbiogenesis of mitochondrial membranes, with a focus on (1) oxidative phosphorylation (OXPHOS) individual\nenzymes and supercomplexes, and (2) mitoribosomes and the mitochondrial translation machinery, as they\noccur in yeast and human cells. Disorders arising from impaired mitochondrial OXPHOS function or\nmitochondrial gene expression, including protein synthesis, result in a variety of pathologies, including\nencephalomyopathies and cardiomyopathies. Identifying and characterizing factors required for OXPHOS\nenzyme assembly, mitoribosome biogenesis and translation, and the pathways in which they act is a\nprerequisite towards understanding the molecular basis of these disorders."
+ },
+ {
+  "id": "037cefbb-df46-4ab0-bd7e-55a30960bead",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project #2 Integrated single-nucleus multi-omics (ATAC-seq+RNA-seq or chromatin accessibility + RNA-seq) of human TGs",
+  "text": "Migraine is a prevalent primary headache disorder that impacts one out of every four households in the United States. This complex neurologic disorder is mediated in part by alterations in trigeminal somatosensation, which manifests as head and facial pain and/or trigeminal allodynia. Despite its prevalence, there are currently limited effective treatments available for migraine, and our knowledge about human trigeminal system under baseline and migraine conditions are sparse. In response to RFA-NS-22-018, HEAL Initiative: Discovery and Functional Evaluation of Human Pain-associated Genes & Cells, we propose to form the Penn Human Precision Pain Center (Penn HPPC) to focus on elucidating molecular, cellular, epigenetic, and physiolog- ical profiles of human trigeminal ganglion (TG), which contains primary somatosensory neurons governing the head sensation, under baseline and migraine conditions. The Penn HPPC will be composed of Penn and inter- national investigators with multidisciplinary expertise. The PI, two co-PIs, and two co-Is are currently collaborat- ing on a single-soma deep RNA-seq of human dorsal root ganglion (DRG) neuron project, which form a strong foundation for this application. The Penn HPPC will contain three cores and perform three projects. Dr. Hao Wu, an expert in neuroepigenetics and single-cell genomics, will lead project 2 with support from Dr. Mingyao Li, the PI of the data core. This project aims to use two single-nucleus multi-omics assays, including the mas- sively parallel 10x Genomics multiome assay (3’ biased mRNA and open chromatin) and snmCAT-seq (full- length mRNA, open chromatin, and DNA methylation), to comprehensively map transcriptomic and epigenomic (chromatin accessibility and/or DNA methylation) profiles at single-nucleus resolution in control donors and those with migraine. In project 2, Aim 1 will focus on control trigeminal ganglion (TG) tissues, while Aim 2 will focus on TG tissues from \"migraine\" donors. The anticipated results will produce a comprehensive epigenetic and transcriptomic atlas to understand normal and abnormal trigeminal sensations associated with migraine. This rich resource may also lead to the discovery of new biomarkers for migraine diagnosis and novel potential drug targets for migraine treatment."
+ },
+ {
+  "id": "03848fd3-a556-49eb-b4cf-2d26288a24bb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Novel functions of plasminogen and its diverse cargo in blood",
+  "text": "Plasminogen is a multi-functional protein that transports lipids and small non-coding RNAs. Plasminogen can transfer\nsmall RNAs to macrophages and regulate gene expression and immune cell phenotypes. We aim to gain a fundamental\nunderstanding of this novel process, and its relationship to systemic cholesterol metabolism and inflammation, to\nadvance hematology research."
+ },
+ {
+  "id": "038795c5-c9e8-4ef8-aa1c-828a8c75a3b0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identifying Natural Products for the Chemoprevention of Advanced Prostate Cancer",
+  "text": "This proposal aims to screen and identify molecules from extracts of the NCI Natural Products Repository and\nevaluate potent compounds that can prevent prostate cancer from progressing to an advanced stage or from\nbecoming castration-resistant prostate cancer."
+ },
+ {
+  "id": "038b414e-3977-4e25-8a6a-f5ffd830018a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Computational Genomics Core",
+  "text": "COMPUTATIONAL GENOMICS CORE — PROJECT SUMMARY Asthma is a complex disease with potentially many risk genes. Genome-wide association studies (GWAS) have identified >100 loci associated with the risk of asthma. Due to extensive linkage disequilibrium, however, the causal variants driving the genetic risks and their target genes in these loci are largely unknown. Many studies, including our own, have been performed, to narrow down putative causal variants and risk genes, often using statistical fine-mapping and/or expression QTLs (eQTLs). These efforts, however, have several limitations. Statistical fine-mapping techniques often cannot resolve exact causal variants, and do not provide functional information of how the variants work. The eQTL-based studies link genetic variants with gene expression, and can help identify risk genes of diseases, when integrating with GWAS. But eQTLs explain only 10-20% of the heritability of complex traits; thus, using eQTL data alone is insufficient in mapping risk genes. The Computational Genomics Core (CGC) will work with the teams of the two Projects to address the challenges of mapping asthma risk variants and genes, and understanding their functional effects on biological processes and cellular phenotypes. In Aim 1, CGC will map molecular QTLs (molQTLs) using data from Projects 1 and 2. These datasets will shed light on the molecular effects of genetic variants on a range of molecular traits, including gene expression, splicing, and epigenetic features (DNA methylation and chromatin accessibility), in several important cell types of asthma. Our preliminary data, as well as published work, have strongly implicated the importance of QTLs of splicing and epigenetic features in filling the gap of trait heritability not explained by eQTLs. In Aim 2, CGC will integrate molQTL data with asthma GWAS to identify asthma risk genes. This task will take advantage of multi-group causal transcriptome-wide association study (M-cTWAS), a powerful computational tool developed by the CGC team. Compared to commonly used tools for integrating molQTLs with GWAS, M-cTWAS has much lower false positive rates, and is able to integrate data across multiple omics types and cellular/tissue contexts. Aim 2 will also nominate additional asthma risk genes using data from Project 1, which associates polygenic risk scores of asthma and asthma-related endotypes with gene expression. Aim 2 will use several strategies, such as mediation analysis and gene regulatory networks, to nominate genes important for downstream biological processes mediating the genetic effects on asthma risk. In Aim 3, CGC will analyze the transcriptomic data from Project 2 of asthma candidate genes perturbed by CRISPR. Using powerful factor analysis tools, CGC will identify the biological processes disrupted by CRISPR perturbations, especially the common targets of multiple perturbations. Together, these Aims will complement the experimental efforts in Projects 1 and 2 to reveal the genetic basis of asthma and identify potential therapeutic targets."
+ },
+ {
+  "id": "039965ba-d65c-4704-b018-ec9b5b1225bc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Structure-guided protein evolution to develop improved natural ligand-based chimeric antigen receptor T cell therapy against CD70 in acute myeloid leukemia",
+  "text": "Acute myeloid leukemia is the most common adulthood acute leukemia, with current patients suffering from a\npoor prognosis, high relapse rate, and extremely limited treatment options if standard chemotherapy and stem\ncell transplantation fail, as they do for the large majority of patients within 5 years. There are currently no cellular\nimmunotherapies approved for AML despite their success in other hematological malignancies, highlighting a\nclear potential and need for novel CAR-T strategies to improve health and survival outcomes in AML patients.\nThis project represents an innovative approach to developing improved CAR T-cells against AML, with the\npotential to improve survival outcomes and reduce morbidity in a significant proportion of AML patients, while\nalso developing a pipeline that could be utilized for the development of additional CAR therapies compatible with\nnatural ligand-based receptors."
+ },
+ {
+  "id": "0399c232-c54b-493f-ab7e-04b6488d2f0d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Pilot Projects Program",
+  "text": "Building on the success of our Phase 1 and 2 COBRE program, we propose the Stem Cells and Aging (SCA) COBRE Pilot Grants Program with an objective to recruit promising teams of early-stage investigators by providing a funding mechanism for pilot projects and provide intellectual, technical and instrumental infrastructure. In Specific Aim 1, we will select teams of translational researchers (consisting of basic and clinical scientists, with at least one early-stage investigator) for 3 pilot project awards ($50,000 per year for 2 years and minimum of 6 awards for the duration of the program), with additional summer stipends for students. The request for proposals will focus on projects with high potential of translating basic research into clinical practice. In Specific Aim 2, we will provide structured, formal mentorship (provided by senior, extramurally-funded investigators) for participating early-stage basic- and clinician-scientist investigators focused on stem cell and aging research, regenerative medicine and age-related diseases to facilitate their transition to research independence with extramural funding. In Specific Aim 3, we will promote the utilization and sustainability of the SCA COBRE Core Facilities (developed in Phases 1 and 2, and including Flow Cytometry, Extracellular Vesicles, Lentiviral Construct Core Facilities) through their utilization in the pilot projects as well as through vouchers to affiliated scientists participating in the program. In the Specific Aim 4, we will provide post-award mentorship, advisory and grantsmanship services for program awardees, and synergize efforts to transform funded projects into competitive applications at the R01 or equivalent level. Emphasis will be placed on rigorous, reproducible science with analysis supported by expert biostatisticians guiding the participating researchers. The core of the program will rely on the work of the SCA Pilot Grants Program Steering Committee who will provide mentoring and oversight and engage (for identification of early-stage investigators, for review of the pilot awards, and expert mentorship) the community of researchers across the multi-institutional consortium encompassing Brow University (Center of the Biology of Aging, Brown and Lifespan Cancer Centers), the Warren Alpert Medical School, the clinical experts from the Lifespan healthcare/Rhode Island Hospital and from Care new England. By establishing a multidisciplinary scientific infrastructure providing access to state-of- the-art instrumentation and technologies, as well as rigorous mentorship, advising, review and outcome guidance, the Phase 3 SCA COBRE Pilot Grant Program will contribute to expansion and transformation the biomedical and educational landscape within Rhode Island, creating a premier national center for research on stem cell, aging, and regenerative medicine. We will evaluate the program using outcome measures that include number and quality of submissions (measured by review scores), mentor and investigator evaluations, and applicants’ success in securing extramural awards."
+ },
+ {
+  "id": "039f949b-5a68-4b8f-bd9a-65b3cfcbdfdc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Single-cell Multi-omic Profiling of Drug Responses Using Pooled iPSC-CM Differentiation",
+  "text": "Cardiovascular toxicity presents a significant problem for cancer therapy, as the adverse effects often interfere\nwith the treatments and compromise patients' long-term survival. This proposal will interrogate the interplay\nbetween genetic variants in the etiology of doxorubicin-induced cardiotoxicity by employing the iPSC-CM “cell\nvillage” platform coupled with engineered heart tissue, scRNA-seq, scATAC-seq, and CRISPR/Cas9 genome\nediting technologies. The knowledge we collect here with the “cell village” model should be instrumental in\ninterrogating interindividual susceptibility at a large-scale and high throughput fashion."
+ },
+ {
+  "id": "039fdfed-8692-4330-af2f-397b4b15e5ae",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multiplexed Charge Detection Mass Spectrometer for Extended Mass and Collisional Cross Section Measurements",
+  "text": "This project aims to build a next generation charge detection mass spectrometer that can\nrapidly analyze large molecular and subcellular assemblies of unprecedented size (MDa to\n100+ GDa) and speed (seconds) with high single ion sensitivity. This tool will be able to catalyze\nresearch in viral vector, lipid nanoparticle, and polymer-based drug targeting and delivery,\nlipoproteins, protein aggregation and fibril formation, and other areas of importance to human\nhealth."
+ },
+ {
+  "id": "03a5fc2b-9952-466b-a2d1-b649202d3d95",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of stress signals in the pathogenesis of pulmonary veno-occlusive disease",
+  "text": "Pulmonary veno-occlusive disease (POVD) is a progressive vascular disease with high morbidity and mortality.\nThe etiology of POVD is poorly understood and there are no effective therapies. This application aims to\nelucidate the pathophysiological mechanism of PVOD and test the effects of potential therapeutics in animal\nmodels of PVOD."
+ },
+ {
+  "id": "03a84e59-a440-4a02-ac88-0201b927f373",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Base editing approaches to enable an HIV cure",
+  "text": "The HIV reservoir is restricted to cells of the immuno-hematopoietic lineage. Rare but well-studied instances of HIV cures in patients who underwent allogeneic hematopoietic stem cell transplantation (alloSCT) from HIV- resistant donors and who experienced acute graft-versus-host disease indicate that the recipient’s immuno- hematopoietic compartment must be quickly replaced, leaving no opportunity for re-seeding of viral reservoirs as would occur with slow or incomplete immune reconstitution. The goal of this project is to phenocopy these cases of HIV cure in humans by devising a genetically engineered cellular system to achieve simultaneous HIV resistance and efficient T cell-mediated depletion of the viral reservoir without the risk of uncontrollable alloreactivity. This will be tested in non-human primates that are infected with a SHIV and treated with autologous stem cells and chimeric antigen receptor T cells engineered for HIV resistance. We recently developed a platform to eradicate the hematopoietic compartment using chimeric antigen receptor (CAR) T cells directed against the pan-leukocyte antigen CD45. Since T cells also express CD45, to prevent fratricide (self-killing by T cells) we mapped the target epitope of the anti-CD45 CAR and used CRISPR base editing to mutate a single amino acid (Y232C) in the CD45 extracellular domain to generate anti-CD45 redirected CAR T cells that were themselves resistant to CAR45. To allow hematopoietic reconstitution in the face of anti- CD45 immune attack, we also mutated Y232C in CD34+ hematopoietic stem/progenitor cells (HSPC) and demonstrated normal hematopoietic engraftment and development. This platform allowed us to develop a universal blood cancer immune therapy and has paved the way to the immuno-hematopoietic ablation and replacement that we postulate is required for erasing the HIV reservoir. We have now also shown that we can create dual CD45-resistant and HIV-resistant cells, using multiplexed CRISPR base editing to introduce the CD45Y232C mutation (installing resistance to anti-CD45 CART) and a CCR5start codon off mutation (CCR5BE) that installs HIV resistance. These genetic modifications led to HIV-resistant and anti-CD45 resistant CART cells that could effectively eliminate HIV-infected CD4 T cells in mouse xenografts while protecting the engrafted cells from infection. In this project, we will test our therapeutic strategy in SHIV-infected animals, by testing the hypothesis that an autologous cellular immunotherapy platform can clear the viral reservoir. In Aim 1 we will replace endogenous hematopoiesis with multiplex base edited HSC in Rhesus macaques (RM). In Aim 2 we will test the ability of autologous anti-CD45 CART cells to eliminate the immune-hematopoietic compartment in RM. In Aim 3 we will treat SHIV-infected RM engrafted with engineered CAR45-resistant, HIV-resistant HSC using autologous anti- CD45 CART cells."
+ },
+ {
+  "id": "03a85659-70e9-4863-9075-421cd306c7bc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Phylodynamics of Shiga Toxin-Producing Escherichia coli from Local Sources",
+  "text": "The proposed research is relevant to public health because it focuses on the maintenance and transmission of\nShiga toxin-producing Escherichia coli (STEC), a potentially devastating foodborne pathogen. The focus on\nhow STEC infect humans is aligned with NIAID’s E. coli priority area. Characterizing local STEC transmission\nsystems will facilitate the development of targeted disease control interventions, with the ultimate goal of\nmitigating the burden of STEC in our population."
+ },
+ {
+  "id": "03b90815-94e9-43b8-9ef8-6f3cb09a8a18",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Novel pathways in heterochromatin regulation",
+  "text": "The balance between silent heterochromatin and transcribed euchromatin is critical for normal cell biology and\nloss of this balance leads to many human diseases. This project will allow us to better understand how two\ngroups of proteins, SWI/SNFs, and Homologous Recombination complexes, regulate the expression of specific\ngenes. Our results will explain many crucial unanswered questions about the roles of these chromatin\nregulatory families in human diseases, which may provide new pathways for controlling gene expression\nthrough therapeutic interventions."
+ },
+ {
+  "id": "03bba59b-f31c-4fc7-b741-b3bf3d0adc0b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Oxytocin and GABAergic Rescue of Benzodiazepine Resistance in Social Mammals",
+  "text": "Drugs designed to suppress brain activity, known as benzodiazepines, are a common first line-treatment in medical\nemergencies that involve the brain, yet are ineffective in a large portion of the population. There are several\nexplanations for benzodiazepine resistance including a genetic predisposition which we have identified in the African\nnaked mole-rat. This study is designed to provide students with training in molecular, electrophysiology, and\nbehavior approaches to understand the tools that naked mole-rats use to maintain brain resiliency despite this\nvulnerability."
+ },
+ {
+  "id": "03c1cd49-3ed7-4d71-a158-324b66229807",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Transcriptional Regulation In Human Opioid Use Disorders",
+  "text": "PROJECT SUMMARY/ABSTRACT – PROJECT 4 The objective of Project 4 is to characterize the transcriptional and epigenetic mechanisms of opioid use disorder (OUD) with a focus on dorsal striatum (DS) and nucleus accumbens (NAc), two key brain reward regions. In all prior molecular studies of the human OUD brain, we analyzed isolated neurons vs. non-neuronal cells, which displayed major differences in opioid action. We are now advancing this effort by performing multiomic analyses at the single-cell level, using single nucleus RNAseq (snRNAseq) and snATACseq. Since genetic tags are not possible in humans, such single-cell approaches offer the only available means of studying individual cell populations (e.g., D1 vs. D2 medium spiny neurons) in the human brain. We are performing equivalent single-cell studies on DS and NAc of rats that self-administer (SA) an opioid drug across multiple phases of drug intake including relapse. These temporal assessments are instrumental in guiding analysis of human tissue. Our proposed experiments incorporate not only heroin, which our group has studied extensively, but also fentanyl given its current dominance in OUDs and the virtual complete lack of information about neurobiological aspects of fentanyl use in humans. Overlaying the human and rat snRNAseq and snATACseq data with sequencing datasets on bulk DS and NAc or on sorted neurons from these regions, as well as with sequencing datasets available from the PPG’s work on mouse SA models, provides insight into the most important mechanisms underlying abnormal gene expression associated with OUDs. With this approach, our research has identified PRC2 (polycomb repressive complex 2) as one of the strongest-implicated mediators of molecular pathology in DS and NAc across the three species. Based on these deductions, we are now examining the causal role of PRC2 in opioid-induced behavioral and transcriptional abnormalities by use of viral and genetic mouse tools already validated in PPG laboratories. We are also studying PRC2’s role in opioid-induced regulation of the dendritic morphology of striatal D1 and D2 neurons. Given the prominent development of PRC2 inhibitors for the treatment of specific cancers, characterization of PRC2 contributions to OUDs offers a translational opportunity to advance novel therapies for drug addiction."
+ },
+ {
+  "id": "03c392a4-2f20-40cb-adbb-258c91e922f3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A next-generation mass spectrometry system for advancing quantitative proteome science in the Upper Midwest region",
+  "text": "We are seeking a new next-generation Astral mass spectrometry system, to be housed in the Center for Metabolomics and Proteomics core research facility at the University of Minnesota. The Astral system will replace an outdated instrument, increasing the ability to conduct quantitative proteomics on large numbers of clinical samples, while increasing the depth of quantified proteins in complex sample types over current instrumentation. Dozens of NIH-supported research projects will benefit from the capabilities of this new system, enabling new discoveries across a wide range of projects focused on improving human health."
+ },
+ {
+  "id": "03c3b67b-7580-41a2-8422-71814b39cd53",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Integrating high-throughput histology with systems genetics through causal graphical models",
+  "text": "Genetic disease risk often manifests through complex feedback between molecular abnormalities and changes\nin tissue structure, but rigorously quantifying these tissue changes to map their genetic risk factors remains a\nsignificant challenge. In this project, we will develop and validate a deep learning analytical framework to\nintegrate histological traits into systems genetics analysis of complex diseases. Our analytical framework will\nenable the routine inclusion of histological evaluation into systems genetics and will facilitate a more\ncomprehensive and accurate determination modifier genes and pathways, providing greater opportunities for\ntherapeutic intervention."
+ }
+]

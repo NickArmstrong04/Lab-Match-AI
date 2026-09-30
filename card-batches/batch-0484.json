@@ -1,0 +1,142 @@
+[
+ {
+  "id": "1f736ee6-ebae-406b-9db6-99a59f96874e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanistic Studies of the Novel Human Coronary Artery Disease Gene SVEP1",
+  "text": "In a series of genetic studies, we have identified and validated SVEP1 as a novel extracellular matrix protein\nthat promotes atherosclerosis in humans and mice. The mechanisms underlying the role of SVEP1 in the\npathophysiology of atherosclerotic disease, however, remain unknown. In this proposal we will assess the\ncellular and molecular impact of SVEP1 in the development of atherosclerosis and determine which of its\nprotein interactions are required for its effects, thereby expanding our understanding of how this protein\ninfluences disease and evaluating the therapeutic potential of targeting SVEP1 as a treatment for coronary\nartery disease."
+ },
+ {
+  "id": "1f749970-d6ef-4bbd-bdc3-7226a2210c41",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Explainable Analogical Learning for Oncology Diagnosis and Prediction based on Deep Pathophysiology",
+  "text": "The proposed project is relevant to public health because advancing cancer discoveries\nthrough machine learning, cognitive systems from artificial intelligence, and semantic Web\ntechnologies is urgently needed to better understand this disease from the rich and complex\nBig Data it generates. The design of a safe and fair glass-box learning system capable of\nexplaining its results and findings rooted in pathophysiological states will prove invaluable to\ninform the next improvements in cancer diagnosis, prediction, and care.\n1"
+ },
+ {
+  "id": "1f8ac6fa-884c-45db-bf7a-f000bec2e4db",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of amino-acid sensing by the GATOR complex",
+  "text": "Kacper Rogala | Project Narrative | NIGMS R35 Supplement (PA-20-272) | April 18, 2025\nThe Rogala Lab at Stanford is investigating the molecular mechanism of how cells sense nutrients and control\ntheir growth. This supplement will ensure the secure, long-term storage of irreplaceable cell lines generated for\nthese studies."
+ },
+ {
+  "id": "1f8d5656-b9cc-41fb-a0be-98d6d2d2d394",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Ultra-high spatial resolution photon-counting CT with multiple focal spots",
+  "text": "Emerging technologies including photon-counting CT has shown tremendous potential for high-spatial resolution\nimaging, and with that, a potential wave of new diagnostic applications as additional small features become\nvisible. Unfortunately, realization of this high-spatial resolution capability is greatly hindered by the current\ntechnology for x-ray generation and, even though new photon counting detector show promise for high-\nresolution, x-ray tube limitations tend to results in noisy images with only modest resolution improvements. This\nwork seeks a solution using multiple and structured x-ray focal spots to deliver the necessary fluence with current\nor near future technologies as well as state-of-the-art model-based and deep-learning approaches, to achieve\nthe promise of high-resolution scanning through systematic modeling, simulation, experimentation, and\ntranslation to a clinical scanner."
+ },
+ {
+  "id": "1f918f50-de91-4052-a269-e74ce462050c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Informational flow from mechanosensing to signaling for extracellular matrix stiffness sensing",
+  "text": "Sensing of the physical environment by integrin-based adhesions begins with different force magnitude running\nthrough mechanosensitive proteins within the adhesions. This proposal proposes to discover how this force and\nmechanosensor translates to different signaling that affects cell behaviors such as cell proliferation and migration."
+ },
+ {
+  "id": "1f9355ba-da1f-4c98-af73-c895a23a3dba",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project 2: Discovery and validation of novel molecular and immune predictors of colorectal cancer and mortality and response to treatment across patient populations groups",
+  "text": "This project aims to discover novel spatially resolved biomarkers of lethal colorectal cancer and response to both first-line therapy and immunotherapy in different patient groups. It will also develop and validate predictors of colorectal cancer specific mortality and treatment response across different patient population groups."
+ },
+ {
+  "id": "1f948904-29a4-48a8-8878-cee1ca686b4c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A digital health approach to early identification and outcome monitoring in autism",
+  "text": "ABSTRACT – Project 1 The overall goal of the Duke Autism Center of Excellence is to use a translational digital health and computational approach to address the critical need for more effective autism screening tools, objective outcome measures, and brain-based biomarkers that can be used in clinical trials with young autistic children. The goal of Project 1 is to evaluate novel digital behavioral assessment tools based on computer vision analysis and machine learning that can be implemented in real-world settings to improve the accuracy of autism screening and enable scalable, objective longitudinal monitoring of children’s behavior and development. Project 1 will recruit a large population of 16- to 30-month-old toddlers through primary care clinics to evaluate the accuracy of a remotely administered novel digital phenotyping application (app) for detecting early signs of autism. The app automatically quantifies direct observations of children’s behavior using computer vision analysis and is deployed on a smartphone or tablet. We will assess the sensitivity, specificity, negative/positive predictive values, and test-retest reliability of the digital phenotyping app for autism detection when delivered by parents at home. We will also assess the app’s usability for longitudinal outcome monitoring of autistic children at 16-30, 36, and 48 months of age by examining its convergent validity compared to standardized clinical measures. With a goal of expanding the types of behavioral measures that could be used for autism screening and outcome monitoring, we will explore the feasibility of using computer vision analysis to measure parent-child interaction from videos recorded at home. Finally, in collaboration with Project 2, we will design an automated clinical decision support for primary care providers that integrates autism screening information with actionable guidance regarding referrals for diagnosis and services and assess its perceived usability. Our long-term vision is to transform how clinical care is delivered by providing innovative solutions that address long-standing barriers in access to care."
+ },
+ {
+  "id": "1f998907-5ae0-400a-986e-67c190f08ffc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Artificial Intelligence Imaging Biomarkers of Longitudinal Cardiovascular Stress",
+  "text": "The single most substantial contributor to incident cardiovascular disease is older age and, over the next decade,\nthe number of adults age 65 and older will exceed 50 million in the United States. Cardiovascular disease\nculminates from age-related changes in cardiac structure and function that begin very early in adulthood and\ncontinue to develop on a background of lifelong exposure to risk factors. We will examine how deep learning\napplied to cardiovascular imaging can capture key features of cardiac aging that could represent intervenable\ntargets for mitigating age-related cardiovascular risk."
+ },
+ {
+  "id": "1fb1be3c-ea54-40a8-a455-340cf2016c5c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "IN UTERO SMALL AND LARGE ANIMAL RESOURCE CORE",
+  "text": "Many monogenic diseases strike prior to or soon after birth and cause significant morbidity and mortality. In utero genome editing (IUGE) takes advantage of normal fetal properties, including small size, abundant progenitor cells, and immature immune system, to safely and efficiently institute the genome editing therapeutic prior to the onset of pathology. To fully understand the potential of IUGE and in preparation for IND applications, rigorous small and large animal studies are required to assess efficacy as well as fetal and maternal safety. The In Utero Small and Large Animal Resource Core will provide the knowledge and technical expertise required to design, implement and analyze in vivo gene editing therapies in mouse and large animal fetal models, including nonhuman primates."
+ },
+ {
+  "id": "1fb2b57d-a181-4b25-9cd1-8c49649b2d6d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Hybrid Closed Loop Insulin Pump use in Poorly Controlled Type 1 Diabetes",
+  "text": "This NIDDK K23 Career Development Award application seeks to evaluate the feasibility of the\nuse of hybrid closed loop insulin pumps to support diabetes management in patients with\npoorly controlled Type 1 diabetes from diverse backgrounds and will explore barriers and\nfacilitators to use in this population. This study will inform a future NIDDK R01 application to\nevaluate the effectiveness in a large scale RCT which will address critical gaps in knowledge\nand potential misconceptions about technology use in higher risk populations."
+ },
+ {
+  "id": "1fb85200-f177-4420-8916-db406c54ceaf",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Advancing Cancer Control Equity Research Through Transformative Solutions in Patient Navigation - Community Responsive Projects",
+  "text": "COMMUNITY RESPONSIVE PROJECTS – ABSTRACT Community Responsive Projects within the Advancing Cancer Control Equity Research Through Transformative Solutions in Patient Navigation (ACCERT PN) Center will facilitate and enhance the Center’s research program goal of developing community-engaged interventions, measures and methods, and researcher and community partner capacity and engagement centered around innovative multilevel patient navigation approaches and implementation science to address structural racism and other Social Determinants of Health (SDOH) to mitigate cancer health inequities in Chicago's Black, Latinx, and low-income Chinese communities. Within this Community Responsive Project (CRP) initiative, we propose two pilot projects commencing in Year 1, “The Truth Talking Tour” (CRP1) and “Social Robots Empowering Patients” (CRP2), and to establish and implement a process for a CRP Pilot Grant Program to identify, fund, and conduct additional rapid and community responsive pilot projects. The research areas of CRP1 and CRP2 address specific SDOH topics – including structural racism, language accessibility, and health literacy – that have been identified as priorities by our community partners and are SDOH focus areas for the ACCERT PN Center and its cancer patient navigation-centered SDOH Research Project. CRP1 will use knowledge generated from Black female cancer survivors’ experiences of an unmet need in cancer survivorship care, often dismissed or neglected by healthcare providers—information and resources on sexual health after cancer treatment—to develop resources and training materials for patient navigators and providers. CRP2 leverages innovations in Human-Computer/Artificial Intelligence (AI) Interaction and Social Robotics to explore the use of AI social robots in community settings to enhance digital literacy and cancer control health literacy among Chinese-speaking Chicago Chinatown residents who face language and digital literacy barriers to cancer care access. Both projects will disseminate findings, lessons learned, and resources to the ACCERT PN Center ecosystem to inform its multilevel patient navigation approaches. The two- pronged process for soliciting applications for the CRP Pilot Grant Program will balance continuity and relationship-strengthening through internal outreach within the ACCERT Center’s community partners to build on existing Center projects, and broader outreach to our ACCERT PN Community Advisory Board and other community partner networks, as well as within Northwestern University and local minority-serving institutions. A streamlined application for proposals will reduce the burden on community partners and a community-engaged peer review process will adapt NIH criteria to select proposals that align with community priorities related to cancer control equity and facilitate and enhance the research related to the Center theme and the SDOH Research Project’s intervention. CRPs will be supported by the Center’s Administrative Core and Research Methods, Measures, and Data Management Core which will facilitate connections and integration with the ACCERT PN ecosystem, including its advisory bodies and capacity-building resources."
+ },
+ {
+  "id": "1fbba9c0-cef2-4235-8c41-8277d98bea50",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Sensing and controlling cell signaling events with bioluminescent kinase sensors and gene circuits",
+  "text": "Imaging and controlling cell signaling events are critical for understanding function in health and\ndisease. However, current methodologies are limited in their ability to noninvasively image and\nmanipulate specific cellular functions, specifically manipulating cell cycles states and growth\nfactor receptor activation dependent on the activity of kinases of interest involved in these\nprocesses. The goal of this proposal is to develop novel indicators and genetic circuits that will\naddress limitations of current technologies to enable non-invasive reporting of cell signaling and\ndynamic control over these cell signaling events in genetically defined cell types for basic science\nresearch relevant to a variety of different diseases and biological processes."
+ },
+ {
+  "id": "1fc25633-3c6b-4b14-9dc6-4f2eac009afc",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "PI3K-gamma signaling as a therapeutic vulnerability of POU2F3+ small cell lung cancer",
+  "text": "The tuft-like POU2F3+ subtype of small cell lung cancer (SCLC) is associated with the worst outcomes of the\nSCLC subtypes in response to chemotherapy and immunotherapy. The identification of PI3K-gamma signaling\nas a dependency of tuft-like cancers will significantly advance our understanding of this aggressive, yet poorly\nunderstood cancer type. As PIK3CG inhibition has shown a favorable toxicity profile in clinical trials due to its\nlineage-restriction, this work will potentially identify a new clinically relevant target for POU2F3+ SCLC and other\ncancers that adopt tuft-like states including prostate neuroendocrine cancer and olfactory neuroblastoma."
+ },
+ {
+  "id": "1fc4cf11-55e6-4aee-8e61-b5fb65c9a858",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Desmoplastic small round cell tumor: harnessing new insights and new models",
+  "text": "The desmoplastic small round cell tumor (DSRCT) remains one of the most lethal\nadolescent/young adult (AYA) sarcomas. The EWSR1-WT1 gene fusion is the primary and\ndefining genetic driver alteration in this sarcoma but a better understanding of EWSR1-WT1\noncogenic mechanisms is needed to identify novel, rational therapeutic strategies that will be\nmore effective. We propose to address these knowledge gaps by establishing the first\ngenetically engineered mouse model of DSRCT and to define its pathobiology more fully by\nharnessing two recent novel observations in DSRCT, namely induction of neotranscripts and\nrecurrent ARID1A loss as a frequent additional genetic alteration in these cancers."
+ },
+ {
+  "id": "1fcdefac-4b43-4c78-ab73-7dae36fae196",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Optimal Stimuli as a New Method to Investigate Neural Networks",
+  "text": "Conventional studies of visual cortex have used single-modality stimuli, such as oriented lines or uniform colors.\nIn contrast, new machine learning approaches can gather data on a neuron and design “optimal” stimuli that\nincorporate a neuron’s preferences across all possible images. For the first time, we propose to apply these new\nmachine learning techniques to examine how the brain functions at a circuit level, leading to a more complete\nunderstanding of the brain for both science and medicine."
+ },
+ {
+  "id": "1fceb569-f13d-4701-96ca-9b447cc96f59",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Analysis of Lumbar Spine Stenosis Specimens for Identification of Transthyretin Cardiac Amyloidosis",
+  "text": "Amyloidosis is an under-appreciated cause of lumbar spinal stenosis in older adults and proceeds the\ndevelopment of transthyretin cardiac amyloidosis by many years. By systematically evaluating older adults with\nlumbar spinal stenosis who have previously undergone lumbar spine surgery and evaluation of pathologic\nspecimens for amyloid, and if amyloid is present, performing tissue typing with mass spectrometry, there's a\nunique opportunity to identify older adults with ATTR-CA early in the course of the illness, at a time when\ndisease modifying therapies that are most effective. The data collected in the planned studies could change\nclinical practice and facilitate early identification of those who develop transthyretin cardiac amyloidosis, a\ndisorder that without recognition and treatment is a progressive, highly morbid, and fatal but with early\nidentification is easily managed."
+ },
+ {
+  "id": "1fd2948e-da33-41b9-a35b-d3a4ce37ae95",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Blood mutations and cancer associations among WTC-exposed Firefighters",
+  "text": "Clonal hematopoiesis (CH) is a condition associated with mutations in the blood that carries an increased risk\nof blood cancers, and inflammatory diseases as well as mortality. We propose to conduct a comprehensive\nanalysis of the association of blood mutations with cancers in World Trade Center (WTC)-exposed Fire\nDepartment of the City of New York (FDNY) responders, to determine the contributory role of clonal\nhematopoiesis on in WTC-related cancer. Mouse models will be used to confirm these findings and test the\nability of certain clinically relevant drugs in preventing the growth of blood mutations."
+ },
+ {
+  "id": "1fd3727f-dafe-4aa8-b406-de2828f7a5e8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular mechanisms underlying strabismus risk",
+  "text": "Strabismus (misaligned eyes) can be both visually and socially debilitating. We recently identified three genetic\nduplications (areas with an extra copy of the DNA) that increase the risk of strabismus, and this project aims to\nunderstand the mechanism by which those duplications increase risk. In the long term, this work will provide\nfundamental knowledge about how and why strabismus develops and pave the way for the development of\nnew treatments that address its underlying cause."
+ },
+ {
+  "id": "1fd49635-8ce1-4660-b7ad-2b422c9d924f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Hormonal Tuning of Specific Circuit States from a Well-Defined Connectome",
+  "text": "This proposal aims to extend the cellular, synaptic and circuit level understanding of circuit state modulation\nfrom studies of an individual hormone action on a single circuit state to the impact of a complete hormonal\nenvironment from a particular behavioral state on several different circuit states from the same defined\nconnectome. We aim to address this issue by studying the fully-defined motor circuits in the isolated crab\n(Cancer borealis) stomatogastric ganglion, using a multi-disciplinary approach that combines\nelectrophysiological manipulations of identified circuit neurons with mass spectroscopic identification of\nindividual hormones and their biologically relevant concentrations. Insofar as the neural circuits in many, and\nperhaps all, animals are configured via neuromodulation into different circuit states, and no previous study\nappears to have addressed this issue at the level proposed herein, a positive outcome from the proposed\nexperiments will contribute to fundamental knowledge about the nature and behavior of living systems."
+ },
+ {
+  "id": "1fdc63a7-c7d0-4e22-bfaa-118750f73303",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Neuroprotection by a Secreted Component of the Cellular Stress Response",
+  "text": "The integrative stress response is an evolutionary conserved pathway to allows cells to react to various stress\nstimuli to restore cellular homeostasis. We found that the activation of this process in neurons leads to the\nsecretion of a protein fragment that enhances the resilience of surrounding cells to cell stress. We propose to\nstudy how this signaling molecule is generated and secreted from neurons in response to stress, how it\naffects recipient neurons, and how its activity is coordinated with transcriptional programs to facilitate cell\nsurvival."
+ }
+]

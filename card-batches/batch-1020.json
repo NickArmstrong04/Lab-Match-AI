@@ -1,0 +1,142 @@
+[
+ {
+  "id": "de43f7e8-3887-4106-b8c3-3bbc3bf473ec",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Determine the Microphthalmia Transcription Factor (MITF)-regulated cell rewiring mechanisms in lethal prostate cancer",
+  "text": "Prostate cancer becomes an incurable lethal disease once it progresses to an advanced castration resistant\nstate; however, despite the imperative clinical need, the biological and molecular mechanisms contributing to\nthis lethal state remain unresolved. Our proposed studies using patient datasets, together with in vitro and in\nvivo patient-derived models will uncover transcriptional and translational mechanisms that contribute to lethal\nprostate cancer pathobiology. The molecular dissection of these mechanisms has the potential to generate new\ncombined therapeutic strategies to improve prostate cancer patients’ clinical outcomes."
+ },
+ {
+  "id": "de5b9325-13fd-451f-95b6-a35ad9879e29",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Unraveling molecular and system-level mechanisms of human disease-associated protein mutations",
+  "text": "Mechanisms by which gene variations, especially protein mutations, cause diseases or confer drug-\nresistance are critical to diagnostics and treatments but are unfortunately often unknown. This project will\ndevelop a systematic and rigorous computational framework that will interface with experimental data both\nways to discover and validate mechanisms behind variants. It will also facilitate infrastructures for trans-\ndisciplinary collaborations among computational, experimental, and clinical researchers."
+ },
+ {
+  "id": "de61cbad-898a-44ab-bf59-9684703b0119",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Harnessing Continuous Liquid Interface 3D Printing to Improve Tumor-homing Stem Cell Therapy for Post-surgical Brain Cancer",
+  "text": "Developing the optimal biocompatible matrix to maximize transplant and efficacy of tumoricidal neural stem\ncells (tNSCs) within the post-surgical cavity following resection of the aggressive brain cancer Glioblastoma\n(GBM) remains a major limitation to this promising therapy. In this proposal, we will leverage the power of\nContinuous Liquid Interface Printing (CLIP) to fabricate unique 3D matrices with rationally select design\nfeatures, and assess the impact of different internal and external scaffold features on tNSC therapy for post-\noperative GBM. These results will take a critical step towards creating matrix/tNS therapies that effectively\nsuppress post-surgical GBM in the clinical setting."
+ },
+ {
+  "id": "de628aee-c1bb-4c41-a843-8137ea5cdc6b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of a real-time interactive PET/US imaging technology to enhance theranostics applications in precision medicine",
+  "text": "This project is to develop a novel imaging technology that combines a compact PET device with any clinical\nultrasound scanner to enable real-time visualization of molecularly targeting agents in a patient. It offers\ninteractive PET scanning capability and adds molecular contrast to ultrasound scanners while scanning a patient\nfreehand. This enabling technology will change the status quo and bring novel molecular imaging and\ninterventional applications to many point-of-care settings such as operating room, emergency room or patient\nbedside."
+ },
+ {
+  "id": "de6b6b95-f263-49c8-bce9-253d5b7b6717",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting lineage plasticity to inhibit basal-like breast cancer progression",
+  "text": "Basal-like breast cancer is a highly aggressive breast cancer subtype that lacks effective therapy. This\nproject aims to understand the cell-extrinsic mechanism driving the formation of stem-like tumor cells that are\ncrucia for basal-like breast cancer formation. These insights will offer therapeutic strategies for preventing the\nprogression of premalignant lesions to aggressive cancer."
+ },
+ {
+  "id": "de6d13f4-6dd3-44b6-b2ea-cf8ac107b010",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Scalable multi-ancestry functional genomics of blood traits and cardiovascular disease",
+  "text": "Cardiovascular diseases (CVD) are one of the leading causes of death and disability worldwide, resulting in a\nheavy economic burden. Novel population-specific risk factors for CVD have recently been identified from\ngenome-wide association studies (GWAS) in individuals from non-European ancestries; here, using multi-\nancestry GWAS, we develop and apply a suite of computational and experimental innovations to increase\nidentification of causal variants, relevant cell types and target genes. In particular, we introduce scalable methods\nto unite high-throughput genetic perturbations and precise insertion of human genetic variants with single-cell\nsequencing, which can pinpoint causal variants for CVD and the genes they regulate locally and globally across\nthe genome."
+ },
+ {
+  "id": "de743322-901e-44ce-894d-ae23bd2ab547",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting distinct neuron types in the degenerating retina for vision restoration",
+  "text": "Millions of people are affected by incurable photoreceptor diseases like age-related macular degeneration\n(AMD) and retinitis pigmentosa (RP), which lead to blindness by causing the degeneration of light-sensing cells\nin the retina. However, many other cells in the visual pathway remain operational, raising the possibility of\nvision restoration through artificial stimulation of the surviving cells using electronic implants. I will study how\nthe surviving output cells of the retina, retinal ganglion cells, change during degeneration so we can track and\ncontrol them using an electronic retinal implant capable of restoring high-resolution vision to blind individuals."
+ },
+ {
+  "id": "de76bd2c-3948-4d60-b0a2-576689bb7800",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project 1: RNA Repeats in CRT Induced Remodeling",
+  "text": "Pancreatic and gastroesophageal cancers are among the most lethal adult malignancies due to their ability to\nadapt and become resistant to therapy. Most of the genome is composed of repeat elements that are elevated\nin the setting of treatment across a variety of cancers, which implicates them as potential drivers of therapy\nresistance. This project will evaluate the role of repeat elements in contributing to cancer cell resistance to\nchemoradiation and the impact this has on cellular states that will provide new biomarkers and novel\ntherapeutic pathways to target gastrointestinal cancers."
+ },
+ {
+  "id": "de795793-1178-4bd7-9658-f085a0ef04a9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of MED1 in HER2-mediated tumorigenesis",
+  "text": "This proposal is relevant to public health because it aims to understand the role of a key ER co-\nactivator (MED1) and its crosstalk with Jab1 in HER2-driven breast tumorigenesis in the process of cancer\ngrowth, stem cell formation, metastasis and treatment resistance. Completion of the study is expected to not\nonly broaden our knowledge base in these areas but will also provide potential new therapeutic agents for the\ntreatment of human breast cancer. Thus, the proposed research is relevant to the mission of NIH to conduct\nresearch for the prevention and cure of human diseases."
+ },
+ {
+  "id": "de8013e9-be14-4c0c-93e7-0add25572c98",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Core B - Animal Vascular-Metabolic-Neural Network Core",
+  "text": "CORE B - ABSTRACT The goals of the Mouse VMN (vascular, metabolism, network) Core B are to serve the P01 Projects with cutting- edge methods specifically tailored to the P01 themes: Strategies for Targeting Astrocyte Reactivity in AD and ADRD (STAR-AD-ADRD). Astrocytes support brain function by integrating their roles with several cell types. They support neurons and regulate blood flow to supply and preserve active brain regions. Astrocytes become reactive in Alzheimer’s disease (AD) and Alzheimer’s disease related dementias (ADRD) and their functions are not fully understood. Our group at the Sanders-Brown Center on Aging including Drs. Wilcock, Thibault, Norris, and Nelson investigate roles of astrocytes, neurons and vascular pathology in aging and AD/ADRD brain. These research topics are inter-connected and the success of this P01 will move our understanding of reactive astrocytes beyond neuroinflammation constraints. Our VMN Core will provide multiple approaches to characterize the roles of reactive astrocytes on cerebrovascular function, brain metabolism and neuronal network activity. Moreover, results uniformly generated from our core will permit useful comparisons across projects. The Specific aims are to: (1) Coordinate for small animal surgeries and intravital imaging techniques, including training and oversight. (2) Coordinate all brain slice electrophysiology experiments. (3) Coordinate and provide service for microelectrode array experiments. (4) Coordinate and provide service for Magnetic Resonance Imaging experiments. Furthermore, our Core will work with the DMB (Data Management and Biostatistics) Core D, where the results will be stored, processed and easily accessed from our collaborative groups both in UK and beyond."
+ },
+ {
+  "id": "de86bda9-ebd4-434f-8ad1-18a599ca5036",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Modelling the dynamics of spontaneous clonal hematopoiesis in pet dogs during cancer therapy",
+  "text": "Clonal Hematopoiesis (CH) is a precancerous state that precedes blood cancers and is commonly found in\ncancer survivors who receive chemotherapy or radiation. Because laboratory mice do not spontaneously\ndevelop CH as they age, it has been difficult to effectively study how CH may impact cancer treatment outcomes,\nparticularly in the setting of immunotherapy. Building off our recent finding that like humans, pet dogs naturally\ndevelop CH, this proposal will leverage pet dogs undergoing cancer treatment to optimize and validate a suite\nof tools and resources that will facilitate translational application of data generated in this unique model system."
+ },
+ {
+  "id": "de8b1042-7277-4bf2-907c-a13f5534f509",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Virgin Islands Advancing Biomedical Labs with Excellence (VIABLE)",
+  "text": "The University of the Virgin Islands (UVI) proposes to enhance its biomedical research infrastructure\nand training through a comprehensive approach aimed at developing a resilient culture of research.\nThe project focuses on strengthening the Office of Sponsored Programs, cultivating research growth\nthrough training and symposia, and establishing a pilot funding program to support faculty in\ngenerating preliminary data for competitive grant applications. This initiative is particularly crucial as\nthe U.S. Virgin Islands face significant health disparities and emerging diseases, making it a medically\nunderserved area."
+ },
+ {
+  "id": "de8be97e-a920-4570-b1eb-9f3f474c3322",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Harnessing Exercise to Enhance Immunity and Boost Immunotherapy Outcomes in Patients with Lung Cancer",
+  "text": "Only 15-25% patients with lung cancer respond to immunotherapy while more than two thirds of patients\nexperience its side effects. Exercise training yields various physiological changes that can help improve immune\nfunction and has the great potential to improve immunotherapy outcomes and reduce its side effects. This multi-\nlevel clinical research will explore the mechanisms and efficacy of exercise on immune function and treatment-\nrelated outcomes and side effects in patients with lung cancer receiving immunotherapy, which will provide\ninsights of the roles of exercise in immuno-oncology settings and ultimately to improve long-term cancer\nsurvivorship in this patient population who are vulnerable yet understudied."
+ },
+ {
+  "id": "de8c60c5-2cf2-4229-83b8-c6788ef64860",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "CRCNS: Neural Basis of Inductive Bias",
+  "text": "Learning and generalization are commonly altered in neuropsychiatric disorders, including\nschizophrenia and autism, but their underlying neural mechanisms remain poorly understood.\nThe proposed studies will develop computational models for learning in which generalization\nacross experiences can be adapted based on environmental regularities to improve task\nperformance, and will elucidate the roles of prefrontal cortex and striatum in multi-feature\nlearning and adaptability of generalization."
+ },
+ {
+  "id": "de948747-889e-4bb6-9287-28fc03366a7e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Psychosocial Stress, Vaginal Microbiome, and Ovarian Cancer: An Integrative Framework",
+  "text": "This research addresses ovarian cancer, the most lethal gynecological malignancy affecting over 20,000 American women annually, by investigating how psychosocial stress contributes to advanced-stage disease through biological mechanisms involving vaginal microbiome disruption. By identifying modifiable biological and psychosocial risk factors in the stress-microbiome-cancer pathway, this study will inform the development of targeted interventions that could improve survival outcomes for women with ovarian cancer. The findings may lead to clinical strategies that address both psychosocial and biological factors, ultimately reducing the burden of this devastating disease on patients, families, and healthcare systems."
+ },
+ {
+  "id": "de955209-9320-4342-b9ee-36a39cd415af",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Cancer Genetics (CG)",
+  "text": "The University of Michigan (U-M) Rogel Cancer Center (Rogel) Cancer Genetics (CG) Program is a group of interdisciplinary researchers who seek to advance knowledge of the genetic and epigenetic mechanisms that underlie cancer development and progression. Investigators in the CG Program perform basic and translational research aimed at understanding the origins and nature of cancer, thereby leading to novel preventive and diagnostic approaches as well as the improved clinical management of cancer patients. CG members are actively involved in intra- and inter-programmatic interactions with researchers in the Basic Science, Clinical Research, and Cancer Control and Population Sciences Programs. The work being done by CG members is particularly relevant to five of the Rogel’s cross-cutting research themes, specifically i) molecular determinants of cancer; ii) biomarkers; iii) genetics and gene environment, iv) targets and therapeutics and v) inflammation, microbes, and immunity. With combined effort, the Program has generated important insights in cancer development, diagnosis, treatment, and prevention. In the current proposal, three scientific aims are detailed: 1) Elucidate the genetic and epigenetic mechanisms of cancer development and progression, 2) Utilize novel animal model systems for characterizing the impact of critical genetic alterations found in human cancers, and 3) Generate new knowledge for translation into effective strategies for prevention, early diagnosis, and treatment. By focusing efforts on shared scientific interest across Rogel programs, in tandem with a commitment to training as well as mentorship, CG Program members have generated a cohesive body of knowledge that has yielded novel and important insights into the genetic and epigenetic mechanisms underlying cancer initiation and progression. In keeping with these accomplishments, the Program seeks to further advance the development of new strategies for preventing, diagnosing, and treating cancer."
+ },
+ {
+  "id": "de96b926-4744-458a-978c-c7c9acaaf7cc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Genetic and Proteomic Approaches to Reveal Bacterial Vulnerabilities to Phage Predation",
+  "text": "Just like human cells, bacteria are susceptible to fatal viral infections. Recently there has been increasing\nexcitement about the possibility of using bacterial viruses (called bacteriophages) for therapies to treat bacterial\ninfections as bacteriophages are harmless to human cells. In this proposal, three researchers with\ncomplementary expertise join to uncover novel mechanisms by which bacteria fight off bacteriophage infections,\nwith the goal of “helping” the bacteriophages to kill the bacteria more effectively."
+ },
+ {
+  "id": "de99b7a5-0576-4758-980f-3bde14221989",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Direct RNA sequencing using electo-optical zero mode waveguides and custom click fluorescent nucleotides",
+  "text": "Reading the sequence and detecting the diversity of chemical modifications in RNA molecules would be a huge\nstep forward for understanding the biology and disease-causing events in human cells. However, methods that\ncan directly read single molecules are lacking, prompting us to develop an ultra-sensitive technology that directly\nreads RNA molecules, one at a time, at low-cost and with high throughput. Our method will an array of nanometer\nscale devices in which individual enzymes replicate RNA and report on the RNA sequence and presence of\nmodifications, all from minute amounts that are equivalent to the number of RNA molecules in a single human\ncell."
+ },
+ {
+  "id": "de9b5190-a4ce-4b59-8e4f-7bb640d623ad",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Song - Proj 3",
+  "text": "T cells play important roles in our immune system by recognizing various antigens, including viruses, through their diverse T-cell receptors (TCRs). The collective set of TCRs in a person is called the TCR repertoire. One of the key steps in understanding the TCR repertoire is to identify the binding specificity of each TCR, which may provide rich insights into the donor’s immune history and potential. However, only a limited number of antigens and their cognate receptors can be profiled in an experiment for specificity discoveries. In the research team’s previous works, they demonstrated the ability to extract microbiome and TCR repertoire information from sequencing data. With these methods, each sample can provide a glimpse of microbiome and TCR repertoire interactions, suggesting that it is possible to associate the TCRs with their binding targets by inspecting a large volume of samples. Aim 1 will leverage the resources provided by the CQB cores to generate essential datasets to investigate how well RNA-seq data can represent the microbiome and TCR repertoire data. In order to efficiently process vast amounts of raw sequencing data sets, the team will develop novel computational methods that can significantly reduce the computational overhead. Additionally, they will extend these methods to work on a broader range of sequencing platforms, such as Oxford Nanopore long- read data, to incorporate more samples in the study. Aim 2 will apply these methods to obtain the microbiome and TCR repertoire data from publicly available RNA-seq samples, curate the resources into databases, and develop computational and statistical tools to annotate the binding specificities of TCRs toward microbiomes. The tools and resources generated from this project will be disseminated via open-source software and CQB cores, as well as a user-friendly suite of packages that researchers can use to process RNA-seq samples and annotate the specificities of TCRs found in their data. The specificity annotation method will enable biologists to directly identify disease-related TCRs, and leverage the information to track the dynamics of the immune system or develop TCR-based treatment strategies. RELEVANCE T cells can trigger immune reactions upon recognizing various antigens through their diverse TCRs. These receptors exhibit high specificity to their binding targets and encode valuable health information, such as bacteria or viral infection history. In this project, we propose an approach to predict the receptor’s binding specificity by jointly exploring the microbiome and TCR repertoire information from RNA-seq samples. The TCR specificity annotation procedure will be a valuable method in disease studies to discover crucial TCRs triggering the immune response, and researchers can utilize the identified TCRs in designing T-cell-based treatment."
+ },
+ {
+  "id": "de9f7405-a473-4645-8738-e6607ecea1cf",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Improving the Innate Activity of Broadly Neutralizing Vectored Antibodies Against HIV",
+  "text": "Adeno associated virus (AAV) vectors can be used to deliver broadly neutralizing antibodies (bNAbs)\nagainst human immunodeficiency virus (HIV) to prevent transmission in animal models, making them\npromising candidates for HIV prevention and cure. In this proposal, we will determine how the immune system\ninteracts with vectored next-generation bNAbs to prevent HIV transmission. This work will deepen our\nunderstanding of the immune protection from HIV and yield new AAV vectors that deliver bNAbs engineered\nfor maximal efficacy."
+ }
+]

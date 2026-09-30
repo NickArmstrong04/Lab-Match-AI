@@ -1,0 +1,142 @@
+[
+ {
+  "id": "d114cb75-6b58-4ec3-8c53-69be8a37691a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting CLEC-2/podoplanin as a therapeutic strategy for pancreatic cancer",
+  "text": "Pancreatic cancer is one of the most malignant tumors in the digestive system, with high mortality and poor prognosis. The current treatments are insufficient; we need new therapeutic strategies and biomarkers for early diagnosis. One promising development is that of investigating the interaction between cancer growth and platelets. Platelets are anucleate cells indispensable for maintaining vascular hemostasis and inflammatory responses. However, platelets also actively contribute to cancer growth and metastasis; a low platelet count is associated with poor prognosis. In particular, pancreatic cancer cells secrete molecules that activate platelets, such as podoplanin, in the bloodstream. Once activated, platelets aggregate, increasing the risk of thrombosis in cancer patients. Activated platelets also secrete second messengers for other platelets and growth factors, cytokines, and chemokines that contribute to immune suppression. Therefore, platelets play a central role in cancer growth and metastasis while simultaneously contributing to immune suppression. Hence, targeting the crosstalk between platelets and pancreatic cancer could provide new strategies to prevent cancer growth, immune avoidance, and metastasis. The spleen is a key participant in immune cell maturation and the platelet clearance/production cycle. Splenectomy is often performed during a distal pancreatectomy to treat pancreatic cancer, but splenectomy may not be beneficial as a long-term solution. Our preliminary data collected from deceased pancreatic cancer patients have shown that the spleen is severely damaged in pancreatic cancer patients and that platelet numbers increase in the spleen despite patients experiencing thrombocytopenia. We also identified the axis C-type lectin-like receptor (CLEC-2)/podoplanin as a pathway activated in platelets in cancer patients. Therefore, we are now investigating whether targeting podoplanin could be a promising strategy to improve the immune response in cancer and counteract thrombocytopenia. Blocking CLEC-2/podoplanin can modulate platelet and pancreatic cancer cell crosstalk, and as a result, pancreatic cancer growth and metastasis will be prevented."
+ },
+ {
+  "id": "d12328c5-f751-4c3d-911c-ff6726c7125d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The role of the frontotemporal dementia gene product Progranulin (PGRN) in the homeostasis of the aging- and neurodegeneration-associated lipid Bis(monoacylglycero)phosphate",
+  "text": "Progranulin mutations disrupt lysosomal function, contributing to neurodegenerative diseases like Alzheimer's\nand frontotemporal dementia, affecting approximately 1 in 7,000 individuals. This research aims to elucidate\nhow progranulin loss-of-function mutations reduce bis(monoacylglycero)phosphate, a crucial lysosomal lipid for\nneuronal survival, and investigate whether increasing BMP levels can alleviate neuroinflammation and\nneurodegenerative pathology. The findings will advance therapeutic strategies targeting lipid homeostasis to\ncombat neurodegeneration and bring hope for millions affected by Alzheimer’s and related dementias."
+ },
+ {
+  "id": "d125b20c-5b3b-4725-904b-593076e3ec42",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "CRISPR/dCas9-Targeted Histone Demethylation Interplays with DNA Repair to Contract GAA Repeats in Friedreich's Ataxia",
+  "text": "Public Health Relevance/Narrative\nThe proposed research seeks to understand the mechanisms underlying CRISPR/dCas9-mediated frataxin\ngene-targeted histone demethylation in contracting the expanded GAA repeats via DNA base excision repair in\nFriedreich's ataxia by integrating CRISPR/dCas9, human vault nanoparticle-mediated frataxin gene-targeted\nhistone demethylation with a single cell analysis and molecular dynamics simulation, machine learning, and the\nAI AphalFold3. The results will reveal the interplay of frataxin-targeted histone demethylation with DNA repair in\ncausing the contraction of the expanded repeats. The proposed research will lead to AI-assisted mechanism-\nbased gene therapy for Friedreich's ataxia and other repeat expansion diseases; thus, it is relevant to the NIH\nmission of reducing illness and disability."
+ },
+ {
+  "id": "d128730e-7d97-4c2a-ae10-567b412a2436",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mitofusin 2 as a Nodal Regulator of Mitochondrial Function in Cardiomyopathy",
+  "text": "Mitochondria constitute 30-40% of heart weight and metabolize fats, and proteins and sugars to\ngenerate ATP that powers cardiac contraction. Mitochondrial dysfunction contributes to cardiac\nhypertrophy, heart failure and myocardial infarction. These common heart diseases exhibit a\nmismatch between metabolic substrate availability and substrate preference: normal mitochondria\nprefer fats and proteins that most efficiently make ATP, whereas diseased mitochondria reserve fats\nand protein to repair heart damage and instead metabolize sugars. It was generally accepted that\nmetabolic transitioning in hearts (from preferring fats to sugars or vice-versa) is simply a matter of\ngenetic programming. However, we discovered that the heart must first rid itself of existing\nmitochondria before replacing them with those having a metabolic preference matching its condition.\nWe identified a key factor responsible for removal, replacement and redistribution of mitochondria\nduring metabolic transitions and developed a new class of drugs to orchestrate and coordinate\nactivities of these factors, matching preferences of the heart’s mitochondria to its available\nmetabolic “menu”. Moreover, by whole genome and exome sequencing we identified rare gene\nmutations that impair mitochondrial removal and replacement in patients with hypertrophy or heart\nfailure, potentially revealing a new mechanism of heart failure. Our studies provide a fresh\nunderstanding of cardiac metabolism and establish the foundation for a completely new approach\nfor managing heart disease by “dialing in” mitochondrial metabolism to optimize cardiac contraction\nor repair."
+ },
+ {
+  "id": "d12c6dee-c3af-463e-9410-0861fcc424de",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Manipulating interferon levels toward a safe and effective live single-cycle pediatric RSV vaccine",
+  "text": "Respiratory syncytial virus (RSV) is responsible for more than 100,000 deaths in children\nworldwide annually. Generating an effective yet safe vaccine has been enormously\nchallenging. This project tests a novel live-attenuated RSV vaccine intended for the\npediatric population."
+ },
+ {
+  "id": "d12f20ab-e601-42c3-8886-afa190dff5ab",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Diversity Supplement: Optically Promoting Cardiac Maturation Using Engineered Peptides",
+  "text": "(of Parent Grant: R01HL164348)\n Stem cell-based regenerative therapies or in vitro investigations of cardiovascular disease\npathophysiology, drug screening, and toxicology studies heavily rely on stem cell quality. Here, peptide\nnanostructures will be engineered to enable cells to be light responsive in a wireless and non-genetic manner,\nwhich can ultimately be utilized as a strategy for converting optical cues to stimulatory signals that can improve\nthe structural and functional maturity of human stem cell-derived cardiomyocytes. With this new approach, we\nhope to alleviate the major technical barrier of CM immaturity, and therefore, better enable stem cell-based\ncardiovascular research and related fields to flourish."
+ },
+ {
+  "id": "d1339408-5b94-49ad-9f59-80753be2631d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Enzymatic and genetic strategies for targeting disease-associated microbial metabolites",
+  "text": "The majority of studies in establishing causal associations between microbial metabolites and host processes\ncenter around manipulating individual bacterial strains' metabolite production and investigating the subsequent\nimpact on the host physiology. This strategy has limitations in that certain metabolites can be derived from\nmultiple microbial species resulting from conserved metabolic pathways. Here, we will develop two\ncomplementary and highly integrated methodologies to achieve direct in situ perturbation of microbial\nmetabolites, which will pave the way for both fundamental and applied studies relevant to metabolite-mediated\nmicrobe-host interactions."
+ },
+ {
+  "id": "d1373737-74b5-43df-ab42-b8369e12015d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Selective pressures from inherited variation impacting myeloproliferative neoplasm initiation",
+  "text": "Individuals can be predisposed to specific cancers, such as blood cancers, by inherited variation. We have begun\nto define this variation, but we do not understand why it can predispose individuals to acquire blood cancers. In\nthis grant, we will study the pressures that arise from these inherited risk variants that promote blood cancer\nemergence."
+ },
+ {
+  "id": "d13827fd-6f41-4362-b729-b102bc925748",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Biomarker Development Laboratory",
+  "text": "Active surveillance (AS), which holds off on treatment for low-risk PCa patients until signs of progression are detected through careful monitoring, was developed as a potential solution to decrease over-treatment of low- risk cancer. For this BCC/BDL, we propose to develop multimodal biomarker panels and associated in vitro diagnostic multivariate index assays (IVDMIAs) for two specific clinical intended uses to improve the effectiveness of AS: 1) IVDMIAs using serum, urine, and biopsy tissue biomarkers to identify patients with low- risk PCa from those with aggressive disease, and/or to provide accurate clinical grading and staging to assist in AS enrollment; and 2) IVDMIAs of non-invasive (serum and urine) biomarkers to sensitively detect early signs of disease reclassification with clinically meaningful lead time for definitive treatment. To develop these biomarker panels, we propose four specific aims. Aim 1. To perform integrated proteomic and glycoproteomic characterization of multimodal clinical specimens to discover and develop biomarkers de novo as well as integrate biomarkers existing or from our current BDL/BRL for the two specific intended uses; Aim 2. To work with the BRL component of our BCC to develop high-quality assays for accurate and efficient evaluation of selected candidate biomarkers; Aim 3. (co-Aim with BRL) To develop and evaluate IVDMIAs to achieve clinically meaningful performance characteristics for the predefined clinical uses; and Aim 4. To participate in EDRN network research projects, including actively participating in and contributing to on-going and future network projects, collaborate with other BCCs and CVCs, and work with EDRN leadership, Executive Committee, and Data Management and Coordinating Center (DMCC) regarding research direction, data and results report criteria/standards, and general effort coordination. Innovations of the BDL include unique targeted AS population, state-of-the-art proteomic and glycoproteomic technologies for both biomarker discovery and pre-validation phases, immunoassays for the detection of specific modified protein forms, quantitative analysis of tissue proteins by single-cell analysis and immunohistochemistry staining as well as quantitative measurement using liquid tissue measurement. Innovative bioinformatics approaches include tools that incorporate existing clinical and biological knowledge of the disease into the quantitative analysis for discovery and IVDMIA model optimization and corroborative analysis of the PCa proteome through single-cell analysis and bulk expression data deconvolution. In summary, the proposed BCC/BDL has assembled a unique collection of well characterized multimodal biospecimen collections representative of the intended targeted populations; and proposed a clear path using state-of-the-art and innovative proteomics, glycoproteomics, statistics, and bioinformatics approaches for biomarker discovery and validation of IVDMIAs to achieve clinically meaningful performance for the two clearly defined intended clinical uses that are critically important for the success of prostate cancer active surveillance."
+ },
+ {
+  "id": "d13c2568-c834-49a8-b18e-fe51944744fd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Transcriptional networks establishing the precise gene expression states that define neurosensory cell identity in the inner ear",
+  "text": "Narratives:\nHearing loss is the most frequent sensory defect in humans and about one in 1,000 children is affected by\nsevere deafness at birth or during early childhood. This grant proposes to systematically elucidate how a small\ngroup of progenitor cells are induced to become functional sensory neurons and hair cells in the inner ear.\nIdentifying enhancers that mediate the activity of transcription factors and chromatin regulators to instruct\nsensory or neuronal-cell specific gene expression program should provide valuable insights into the genetic\nand epigenetic networks that underlie congenital neurosensory deficits."
+ },
+ {
+  "id": "d13d5d8a-d184-413f-8d6b-9e8f5c7e0a30",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "High throughput screening assays to identify chemical probes targeting Hectd3, an E3 ubiquitin ligase implicated in multiple sclerosis",
+  "text": "Program Narrative\nThis project is clinically relevant to development multiple sclerosis therapy because the Hectd3 ubiquitin E3\nligase regulates the severity of the experimental autoimmune encephalomyelitis (EAE), a multiple sclerosis\nmouse model. We found that loss of Hectd3 reduced EAE severity. The proposed study will identify chemical\nprobes to investigate Hectd3 and its implication in multiple sclerosis."
+ },
+ {
+  "id": "d1405fe9-eb17-412e-af2f-f5acf6719869",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Application of Machine Learning to Identify Obstructive Sleep Apnea Subgroups at Risk for Atherosclerosis Progression and Cardiovascular Disease Events (OSA-GRANDE)",
+  "text": "Our project aims to develop and validate parsimonious prediction models using machine learning to identify\nnon-sleepy OSA individuals at risk for cardiovascular disease events and to accurately classify individuals who\nmay benefit from continuous positive airway pressure therapy."
+ },
+ {
+  "id": "d144ccab-03f6-479a-b3d8-f94087ce375c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Ensemble Imaging and Optogenetic Control of vlPAG Circuits in Neuropathic Pain",
+  "text": "Chronic pain affects 100 million Americans and significantly affects quality of life. There is an urgent need for\ndeveloping safe and effective interventions for chronic pain, but the underlying mechanisms governing the\ndevelopment of chronic pain are not well understood, making this a unique challenge. This proposal will explore\nthe cellular mechanisms governing descending control of pain during the transition from acute to chronic pain\nstate, to provide new insight into possible targets for pharmacological intervention."
+ },
+ {
+  "id": "d1467c90-676e-4264-9462-4bc5bfbdfd75",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Defining the Roles of Biotransformation in Arsenic-Induced Hematotoxicity",
+  "text": "Impact: This work will define how arsenic biotransformation contributes to disrupted transcriptional regulation \nand lineage commitment in HSPCs. By integrating spatial mapping, single-cell transcriptomics, and ChIP-seq \nwith human-relevant mouse models and primary human HSPCs, this study will generate mechanistic insights \ninto how arsenic metabolites impair blood cell development. Findings will improve risk assessment and inform \nstrategies to prevent or mitigate arsenic-induced hematotoxicity in exposed populations."
+ },
+ {
+  "id": "d146e50c-6208-486a-8b56-1bca7e6da072",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Objective assessment of vocal fatigue in laboratory and real-world settings",
+  "text": "RELEVANCE:\nVocal fatigue (VF) is a common complaints in professional voice users (e.g., teachers) and is etiologic and/or reactive component in many voice disorders, however its effective prevention and management is hampered by limited knowledge of its causes and the impact of VF on phonatory mechanisms. This study combines multimodal data acquisition in the lab with ambulatory voice monitoring in real-world settings to quantify the impact of different factors on progression and recovery of VF."
+ },
+ {
+  "id": "d14a5411-5670-497f-8ea8-4655b9302311",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Role of Highly inflamed Epicardial Adipose Tissue in the Development of Atrial Fibrillation",
+  "text": "Atrial fibrillation (AF) occurs in 30-50% of patients undergoing cardiac surgery and\nis associated with prolonged hospital stay, hemodynamic instability, increased risk of stroke, and increased\nmortality. I observe significant associations between epicardial adipose tissue, inflammation and AF. This study\nwill explore the molecular mechanisms underlying these associations to identify new targets for the\ndevelopment of effective treatment for postoperative AF."
+ },
+ {
+  "id": "d14b8026-939b-4274-aaa1-68d11d3747b5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Role of the Macrophage in Bacterial Vaginosis Mediated HIV Risk",
+  "text": "Bacterial Vaginosis is mediated by a non-optimal vaginal microbiome, is characterized by vaginal inflammation,\nand increases HIV risk by mechanisms that are not completely understood. This project aims to elucidate the\nrole that macrophages play in increasing HIV risk in women who have BV, using multi-omic analyses and\nmachine learning. The knowledge obtained from this proposal will contribute to mechanistic understanding of\nBV-mediated HIV transmission, which will provide insight necessary to improve strategies for vaginal health\nand HIV prevention."
+ },
+ {
+  "id": "d15ef21f-2a2e-4b2b-9ffa-951f3d13b333",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Acquisition and Analysis Methods for Hyperpolarized MR Data",
+  "text": "TRD3 PROJECT SUMMARY/ABSTRACT Specialized fast acquisitions are a necessity for HP MRI studies by the CPs and SPs, dictating that data reconstruction and analysis software platforms must be flexible and expansive, covering a variety of coil geometries, k-space trajectories, vascular delivery and molecular kinetics. The analysis of HP MRI data also requires specialized methods that account for the bolus kinetics and vascular effects as well as specialized evaluation approaches since ground truth data is typically not available for comparison. The challenges remaining for HP acquisition and analysis include quantifying kinetics, heterogeneity of strategies across the user community, and how to leverage data-driven, machine learning methods for HP MRI. To provide next generation HP technology as well as to enable multi-site data harmonization and large-scale data analysis, the Main goals of TRD3: Acquisition and Analysis Methods for Hyperpolarized MR Data are to: 1) Develop next-generation pulse sequences, reconstruction methods, and analysis methods for HP-13C MRI to provide improved spatio-temporal resolution, coverage, and sensitivity to metabolism; 2) Create standardized methods (phantoms and protocols) to enable multi-site comparison and trials; 3) Provide advanced HP tools through open-source software that will support next generation acquisition and analysis innovations throughout the CPs, SPs and the HP MRI community; 4) Develop HP MRI analyses that are integrated with other imaging and clinical data. These will be achieved through the following aims, driven by push-pull collaborations with the CPs: Aim 1) Development of novel high-resolution and robust acquisitions to improve the utilization of HP signals to achieve consistent data acquisition, enabling interrogation of metabolic processes Aim 2) Development of specialized analysis methods to enable robust and reliable interpretation of HP data Aim 3) Improved management and infrastructure for visualization, integration and sharing of data The resulting techniques will be disseminated through free, open-source software to service projects and the general scientific community using our established software frameworks (SIVIC, hyperpolarized-mri-toolbox) and through the new website, hyperpolarizedmri.ucsf.edu."
+ },
+ {
+  "id": "d1627915-2416-448d-ab01-666b997b4db3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mapping the non-coding RNA landscape in skeletal muscle health and disease",
+  "text": "Skeletal muscle health depends on the coordinated function of various muscle cell types during homeostasis\nand in response to injuries. In disease settings, such as facioscapulohumeral muscular dystrophy (FSHD),\nmuscle cell identities and functions are altered due to dysregulation of both protein-coding and non-protein\ncoding genes. We will investigate the role of non-protein coding genes, which are poorly detected by standard\nmethods, through new genomic technologies that uniquely detect the complete RNA transcriptome in healthy\nand FSHD muscles and blood."
+ },
+ {
+  "id": "d1636753-c3e3-4204-8815-181a28808792",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Leveraging Multimodal Signatures to Personalize Rectal Cancer Radiotherapy Choice",
+  "text": "Customizing cancer treatment to individual patient characteristics is a great need in cancer treatment, and\ncertainly in radiation therapy, which is used as part of the treatment management for over 60% of cancer patients.\nIn this proposal we are applying patient-specific quantitative imaging and inherited DNA biomarkers, both alone\nand together, to help identify rectal cancer patients who will respond best to different types of radiation treatment.\nResults from this proposal will help patients and their doctors select the radiation treatment that leads to the best\nresponse, improving outcome and longer survival."
+ }
+]

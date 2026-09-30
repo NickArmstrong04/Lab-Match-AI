@@ -1,0 +1,142 @@
+[
+ {
+  "id": "7b32001c-e5de-41a2-b260-e617209ebe6d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Vascular Expansion Microscopy (vascExM): A New Method for High-Resolution Optical",
+  "text": "The proposed research is relevant to public health because accessible imaging tools that can reveal how the brain’s blood\nvessels interact with cancer cells will yield invaluable insights into their role in brain cancer and brain metastases\nprogression and treatment. The proposed research is relevant to the NIH’s mission because advanced microscopes for\nhigh-resolution imaging of blood vessels are expensive and not widely accessible, and empowering scientists and clinicians\nto conduct such imaging on post-mortem brains with inexpensive microscopes would greatly advance our understanding\nof brain cancer and brain metastases."
+ },
+ {
+  "id": "7b365113-7983-4b15-9f1d-e37738627693",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Non-Autonomous Regulation of Interneuron Fate, Position, and Survival by Excitatory Neurons during Cortical Development",
+  "text": "Mutations in the transcription factors TBR1 and SATB2 are strongly associated with autism spectrum disorder\nand intellectual disability, yet how these genes influence broader developmental processes in the cortex\nremains unclear. This project will investigate how loss of TBR1 or SATB2 in excitatory neurons non-\nautonomously affects the development of cortical interneurons, including their fate, spatial distribution, and\nsurvival, in vivo using the mouse model. By uncovering how autism-associated genes associated with\npyramidal neurons affect interneuron development, this work will provide critical insight into early mechanisms\nthat may contribute to circuit formation and excitatory-inhibitory balance, and how they might go awry in\nneurodevelopmental disorders."
+ },
+ {
+  "id": "7b381360-f019-41ff-ac66-f26a59b0f971",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "High-throughput discovery and modeling of protein stability and dynamics",
+  "text": "Most proteins fold into complex structures that enable those proteins to carry out their biological functions. We\nstudy the stabilities of these structures (the propensities of different proteins to stay folded) and the dynamics of\nthese structures (how they fluctuate and change on very short timescales). By measuring stability and dynamics\nfor millions of proteins in parallel, we aim to develop predictive AI models that can be used in medical research\nand to develop protein therapeutics."
+ },
+ {
+  "id": "7b4054f5-9d51-4b5c-a71b-52461a7c8577",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Non-human Primate (NHP Core)",
+  "text": "Abstract Core C provides the nonhuman primate (NHP) resources and related expertise in support of the P01 proposal, “Immunoengineering Durable Control of HIV replication”. Led by Drs. Paiardini at the Emory National Primate Research Center (EPC) and Kiem at the Washington National Primate Research Center (WaNPRC), the Core will utilize simian-human immunodeficiency virus (SHIV)-infected, antiretroviral therapy (ART)-treated rhesus macaques (RMs) as a pathogenic, immunocompetent model to characterize the utility of autologous chimeric antigen receptor (CAR) immune cells and hematopoietic stem cells (HSCs) as approaches to cure HIV. By performing an ART analytical therapy interruption (ATI), the proposed NHP studies will evaluate the efficacy of these CAR-based approaches to prevent viral rebound or facilitate long-term viral control in the absence of ART. In NHP studies performed at EPC, mRNA-LNP CAR therapy will be performed in combination with mRNAs encoding molecules to enhance the killing capacity of and redirect CAR T cells to immune-privileged anatomical sites to efficiently intercept viral recrudescence at ATI (Project 2); whereas, in Project 3 HIV-specific Dual CAR T cells with enhanced sensitivity, function and persistence will be infused. These studies will be done side by side utilizing the same control cohort so additional information will be obtained from comparing the ability of each of these strategies to reduce the reservoir and control viral rebound. Project 4 will perform its studies at WaNPRC where Dr. Kiem has considerable experience developing stem cell therapies. Here, the investigators will adapt a therapeutic approach to cure all blood related cancers to also curing HIV as well. The Gill lab has developed a base editing strategy that alters an epitope in CD45 that prevents CD45-specific CAR T cells from binding and alters the start codon of CCR5, preventing its translation. These edits are performed in stem cells and CD45-specific CAR T cells and infused into NHPs. The CD45 specific CAR T cells will remove the non- base edited immune system, providing an innovative and effective way of removing the reservoir. Together, Projects 2-4 provide insight into how CARs can be used to eliminate the reservoir and cure HIV. Core C will direct highly innovative and clinically relevant studies for HIV eradication and control in the absence of ART. Functions of Core C will include NHP assignment, per diem support, oversight, and clinical management of NHPs; processing and distribution of tissue specimens; and support of ex vivo immunologic and virologic assays. Implementation of the proposed NHP studies will be performed in close collaboration with the investigators of Projects 2, 3, and 4, and data from these studies will provide critical insights on therapeutic safety and efficacy per translating to clinical trials aimed at HIV cure."
+ },
+ {
+  "id": "7b407fef-ddb7-4012-bc0d-7fd232cc470d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "CSRD Research Career Scientist Award Application",
+  "text": "Dr. Beckham is a clinical psychologist and researcher who using multiple research\napproaches to investigate conditions that Veterans experience (posttraumatic stress\ndisorder, suicidal thoughts and behaviors and substance misuse) in order to improve the\nunderstanding of these conditions as well as to develop effective approaches in improving\nVeteran health."
+ },
+ {
+  "id": "7b425fb4-f831-4765-b002-8f03576ea608",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "AI-Based Image Phenotyping of Early ADPKD",
+  "text": "This pioneering work establishing an image phenotyping repository for autosomal dominant polycystic kidney disease can contribute to advancing research on cyst formation, growth, rupture as well as other effects of PKD mutations thereby advancing Public Health. Contributing to fundamental discoveries on the image phenotyping of ADPKD may help lead to useful treatments for ADPKD, methods for tracking disease progression and response to therapy as well as preventive measures positively impacting public health."
+ },
+ {
+  "id": "7b42bcfe-e082-4267-bdf0-c3c012d3ee61",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular basis of adaptation in a chemosensory system",
+  "text": "How sensory systems adapt to allow an organism to exploit a new environment is one of the most ancient and\nfundamental problems in biology. This project is designed to elucidate the molecular underpinnings of\nchemosensory adaptations. This project may provide new molecular targets and new eco-friendly strategies to\ncontrol insects, including vectors of human diseases."
+ },
+ {
+  "id": "7b477f01-2ca5-4eab-ab15-c96f590e2d5d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Proteomics & Metabolomics Core",
+  "text": "The DCI Proteomics and Metabolomics Core Facility (DPM) provides the wide variety of mass spectrometry- based untargeted (‘omic) and targeted qualitative and quantitative capabilities for proteomics and for targeted metabolomics which are needed to support basic science studies. The lab also has the scale needed for support of clinical research studies, including biomarker discovery and biomarker verification experiments. The DPM is equipped with seven high-resolution mass spectrometers, five triple-quadrupole mass spectrometers, and eleven Ultra Performance Liquid Chromatography (UPLC) systems. This equipment includes state-of-the-art mass spectrometers including an Orbitrap Astral (Thermo), a Fusion Lumos Tribrid with Electron Transform Dissociation and UV Photodissociation (Thermo), an Exploris 480 (Thermo), Sciex 6500+ QTrap and Sciex 6500+ TQ. The DPM has a full-time staff of seven scientists, including three PhDs (two Research Professors, one scientific staff member). This group has over 120 years’ combined experience in mass spectrometry and more than 200 authored or co-authored publications (counting publications with DMP members as co-authors). The resource is located in a ~8,100 sq. ft. laboratory in the Chesterfield Building in downtown Durham, custom built for mass spectrometry-based proteomics and metabolomics. By working closely with vendors to obtain extensive discounts, prudent use of DPM Betterments Funds towards the new equipment, and the DCI CCSG support, the DPM has maintained cost-effective (revenue neutral) support for the DCI at state- of-the-art levels. The DPM’s objective is to generate high-quality data by providing full service to its customers. This includes initial consultations to create optimal experimental designs, use of rigorous QC protocols and standards from sample preparation through sample analyses, and generation of detailed reports to ensure clarity on experimental approach and results. Use of a Laboratory Information Management System (LIMS) ensures sample integrity (unique Project Numbers and Sample IS numbers automatically assigned by the LIMS), and the use of a timestamped DukeBox data repository ensures data integrity. In FY22, the DPM provided services to 38 DCI members, who accounted for 32% of all users and represented 6 DCI Research Programs. Use of this shared resource by DCI Members contributed to >15 publications over the project period demonstrating the value of services offered by the resource. During this time, the DPM received support from the DCI CCSG and Institutional Support from the SoM in the form of new service lines (single cell proteomics initiative) and new instrumentation (Opentrons OT-2 and Thermo NeoVanquish UPLC for low-input proteomics)."
+ },
+ {
+  "id": "7b48d757-f5c1-4506-8bd2-b877ca01cbdd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Molecular Genetics of Von Willebrand Factor Secretion",
+  "text": "The plasma levels of the blood clotting protein, Von Willebrand Factor, contribute to an individual’s risk of both\nbleeding or abnormal blood clotting. Most of the variation of plasma von Willebrand Factor levels in humans is\ndetermined by genetic variants. This project uses up to date synthetic DNA techniques to determine the effect\nof mutations in the VWF gene and loss of function in other secretory pathway genes on plasma VWF levels."
+ },
+ {
+  "id": "7b48f175-be80-4a31-8ee7-91bbab6a269f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A visible machine learning system to discover targeted treatment solutions in cancer",
+  "text": "This project proposes to establish a “visible” machine learning framework that systematically understands and\nefficiently maps higher-order genetic interactions (i.e. di-genic and tri-genic interactions) in cancer. Investigation\nof higher-order genetic interactions is critical for designing treatments that precisely target the genetic changes\nin individual cancer patients. Understanding the complex interplay among genes can further lead to effective\ndesign of combinatorial therapeutic solutions that maximize the synergy among treatments."
+ },
+ {
+  "id": "7b4dcee1-39a3-4829-a1f4-b8b3371b74ca",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dual-payload antibody-drug conjugate for chemo-immunotherapy of triple-negative breast cancers",
+  "text": "The triple-negative breast cancers (TNBCs) are highly aggressive and recurrent. Targeted therapy and combined\nchemo-immunotherapy have great potential to treat metastatic and heterogenous TNBCs. This project will\ndevelop and fully evaluate a humanized anti-CD276 antibody-drugs conjugate (Hu276-DualADC), which carries\nboth highly potent payload to kill cancer cells and toll-like receptor agonist to activate effector immune cells in\ntumor microenvironment, and in combination with PD-1-targeted ADC for TNBCs treatment."
+ },
+ {
+  "id": "7b4de45e-1e09-448b-a740-ed9223bb15fb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Reprogramming of mature SMCs to vascular progenitor cells: Focus on Vascular Fibrosis",
+  "text": "PROJECT NARRATIVE/PUBLIC HEALTH RELEVANCE\nPerivascular fibrosis, which is the progressive accumulation of non-cellular extracellular matrix, decreases\nnormal vascular function and increases vessel stiffness. The studies in this proposal focus on the contribution of\na unique population of resident vascular stem cells in the development of fibrosis as these cells lose their\nstemness phenotype and switch to a phenotype for producing matrix in the setting of vascular disease. We aim\nto define the mechanisms that control the phenotype of these vascular stem cells in the setting of vascular\ndisease, to define the response to vascular injury and the role of these stem cells in a novel adult mouse model\nthat demonstrates remarkable wound healing without fibrosis, and to define the anti-fibrotic effect of statins using\ncultured cells and mouse models of vascular fibrosis, which will lead to highly translatable findings that guide the\nclinical application of statins in the treatment and prevention of fibrotic diseases."
+ },
+ {
+  "id": "7b50efb7-d05e-468a-ac05-dfbe1136f538",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Regulation of Intestinal Epithelial Cell Proliferation",
+  "text": "The intestinal epithelium is a rapidly self-renewing tissue but at the same time is prone to injury. Many\npathological conditions result in the depletion of the active stem cell pool in the intestinal crypts, which become\nrepopulated by other cell types in a process of regeneration. The current proposal aims at understanding the\nmechanisms that coordinate the interplay between epithelial and stromal cells during epithelial regeneration after\ninjury and will advance the understanding of the fundamental mechanisms required for optimal gut function and\nprovide opportunities for better treatment."
+ },
+ {
+  "id": "7b54f37b-cf1c-4365-b4ca-005f50a79f0e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Epigenetic Regulation in Cartilage Tissue",
+  "text": "As there are currently no medical therapies to alter the onset or progression of osteoarthritis,\nthis grant renewal will establish 4-aminobutyrate aminotransferase (Abat) as the key\ndownstream target of DNA methyltransferase 3b (Dnmt3b) in regulating joint homeostasis. We\nwill determine if suppressing Abat gene expression protects against osteoarthritis, synovial\ninflammation, and pain by targeting cartilage and/or synovial tissue in the setting of joint injury.\nFinally, we will evaluate siAbat targeted nanoparticle-based gene therapy as a potential\ntreatment for osteoarthritis."
+ },
+ {
+  "id": "7b573474-c8e7-4505-99fc-54c33b325bf8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "EDUCATE (Educating Diverse Undergraduates for Careers in Addiction/Substance Abuse Research via Training Experiences) Scholars Program at UMBC",
+  "text": "This application requests support for a Providing Research Education Experiences to Enhance\nDiversity in the Next Generation of Substance Abuse and Addiction Scientists (R25) grant for\nthe University of Maryland, Baltimore County (UMBC). Our intensive and innovative program\naims to support second, third, and fourth year STEM undergraduates from groups\nunderrepresented in biomedical research. Through funded faculty mentored sustained research\nexperiences, a robust skills development curriculum, and professional staff support, the\nEDUCATE Program will prepare trainees to successfully navigate next career stage transition,\nwith the ultimate goal of diversifying the STEM workforce with PhD and MD-PhD recipients\nembarking upon a biomedical research career with interests in drug/substance abuse and\naddiction."
+ },
+ {
+  "id": "7b57f97c-b8aa-49f5-b631-d670eb29bd1a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular Repair of Diabetic Mesenchymal Stem Cells (dMSC) for Peripheral Arterial Disease",
+  "text": "Skeletal muscles are profoundly affected by diabetes and peripheral arterial disease. The\nincreasing incidence of diabetes and peripheral arterial disease make ischemic myopathy of\nleg muscles a major clinical problem for Veterans. This proposal seeks to build upon our prior\nsuccesses with rejuvenated mesenchymal stem cells to improve functional skeletal muscle\nregeneration under ischemic and diabetic conditions."
+ },
+ {
+  "id": "7b599e89-922e-4ee2-871a-f52b368f3d22",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Customized nanofibers with preferential lung-targeting properties for treating metastatic pulmonary tumors",
+  "text": "Conventional nanoplatforms used to carry and deliver chemotherapeutics suffer from unfavorable\nbiodistribution, poor local retention properties, limited therapeutic efficacy, and adverse toxic effects. In this\napplication, we propose to use a new drug delivery system with preferential lung-targeting and -retention\nproperties, combined with radiation therapy, as alternative therapeutic strategy for treating metastatic pulmonary\ntumors."
+ },
+ {
+  "id": "7b5a630b-870a-4958-9348-6b37d08aaf4c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Alternative Splicing and Development of Small Molecule Therapeutics in CAG Expansion Spinocerebellar Ataxias",
+  "text": "The spinocerebellar ataxias (SCAs) are a large group of rare neurological disorders characterized by lack of\nbalance and coordination that causes clumsy voluntary movements. Our preliminary data and lessons learned\nfrom other repeat expansion disease suggest disruptions to the transcriptome, including to alternative splicing,\nmay be a novel hallmark of SCAs, which would have important implications for tracking disease and developing\ntherapies. Here we will test if targeting the repeat expansion mutation that underlies many of these SCAs will\nprovide therapeutic potential across multiple diseases and whether cross-disease therapeutic efficacy can be\nquantified by measuring changes in alternative splicing."
+ },
+ {
+  "id": "7b5d5937-ef12-49d4-97b8-7143fb071996",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Decoding tumor metabolic and immunologic interactions driving different biological subtypes in patients with bladder cancer.",
+  "text": "The proposal is expected to establish a mechanistic link between altered expression of mitochondrial complex 1, metabolic rewiring via NUDUFB8-GLS1 axis, investigate the therapeutic inhibitors in different biological subsets of BLCA and the tumor immune microenvironment using clinically relevant BLCA models."
+ },
+ {
+  "id": "7b60f874-6197-4433-8039-cbb90bd50159",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "SHP1 Phosphatase/SYK Kinase Balance Controls the Actin Economy and Macropinocytosis in Macrophages",
+  "text": "Macropinocytosis, or “cell drinking,” is central to several macrophage functions including wound healing, antigen presentation, and resolution of inflammation. However, there are large gaps in the mechanistic understanding of this process. The long-term goal of this project is to identify novel mediators and cellular mechanisms of macropinocytosis. The overall objective is to investigate how macrophages regulate actin dynamics, phosphoinositide signaling and macropinocytotic efficiency in response to pro- and anti- inflammatory stimuli. The central hypothesis is that the balance of SHP1 phosphatase and SYK kinase activity optimizes the macrophage “actin economy” for macropinocytosis or other actin-dependent processes depending on the activation state of the cell. This hypothesis stems from preliminary CRISPR/Cas9 whole genome screen data produced in the applicant's laboratory indicating that SHP1 and SYK are key regulators of macropinocytosis. The hypothesis will be tested by pursuing two specific aims: 1) Determine the effect of SYK/SHP1 balance on actin dynamics and phosphoinositide signaling at forming macropinosomes; and 2) Determine how ITAM and ITIM containing immune receptors modulate macropinocytosis via the SHP1/SYK balance in resting and activated macrophages. Under the first aim, an already proven live-cell imaging approach established by the applicant will be used to image actin and phosphoinositide dynamics in wildtype or CRISPR/Cas9 gene-disrupted primary murine macrophages with resting, inflammatory, or anti-inflammatory activation states. Under the second aim, mechanisms of SHP1 and SYK activation by recruitment to immune receptors will be tested using fluorescent protein chimeras of SHP1 or SYK in wild type or gene-disrupted macrophages in response to inflammatory or anti-inflammatory stimuli. This approach is innovative because the hypothesis was generated from novel mediators of macropinocytosis identified by a CRISPR/Cas9 whole genome screen. Furthermore, this strategy uses targeted gene disruptions in combination with cellular fluorescent probes and advanced live-cell microscopy techniques for three-dimensional live-cell imaging of the spatiotemporal dynamics of actin polymerization and phosphoinositide signaling during macropinocytosis. The proposed research is significant because it is expected to expand the understanding of novel mechanisms macropinocytosis and the role of macropinocytosis in inflammation. Ultimately, such knowledge has the potential to identify therapeutic targets for modulation of macropinocytosis efficiency and the treatment of inflammatory diseases such as chronic wounds or auto-immune disorders."
+ }
+]

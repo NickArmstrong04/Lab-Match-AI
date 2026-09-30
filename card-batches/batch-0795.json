@@ -1,0 +1,142 @@
+[
+ {
+  "id": "8f2bef5a-0198-4de3-b013-b2b40c0c99ed",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Core 2: Bioinformatics and Biostatistics Core",
+  "text": "We propose to provide state-of-the-art computational tools to analyze single cell and spatial genomics\ndatasets. Frontend to backend statistical support in human clinical studies and experimental models will help to\nensure the generation of well-articulated hypotheses, the implementation of appropriate analytic techniques\nand the minimum sample size necessary to be adequately powered to detect effects of interest. Together this\nwill enable our program’s overall aims of discovering new pathways driving the immunosuppression in\nglioblastoma and developing more effective immunotherapies."
+ },
+ {
+  "id": "8f2d5c3f-df59-4b20-9964-f00264651755",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mouse Genome Database (MGD): a core knowledge resource for functional characterization of the human genome",
+  "text": "PROJECT NARRATIVE/PUBLIC HEALTH RELEVANCE\nVirtually all advances in medicine rely on animal models to generate, test, and evaluate hypotheses relevant to\nhuman biology, and chief among these animal models is the laboratory mouse. The Mouse Genome Database\n(MGD) plays a critical role as a community knowledgebase for standardizing, integrating, and disseminating\ninformation about the laboratory mouse as a model system for investigating the genetic and genomic basis of\nhuman biology and disease. MGD's focus on supporting three broad user groups -- basic scientists, clinical\nresearchers, and data scientists -- ensures the broadest possible impact of the resource in contributing to the\ndevelopment of new tools and hypotheses for advancing our understanding of the human genome and how it\nfunctions, and for advancing genomic approaches to improving human health."
+ },
+ {
+  "id": "8f2ff043-2cae-4678-bda7-3561748c9fe4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Chronic alcohol, cognitive deficits, and midline thalamic nuclei",
+  "text": "The reasons for cognitive deficits caused by excessive alcohol drinking remain largely unknown. The hypothesis\nof this research proposal is that chronic alcohol disrupts the nucleus reuniens brain region within the thalamus\nto negatively influence working memory and attention."
+ },
+ {
+  "id": "8f34798c-1e26-40c3-9db5-e2e5dfb5c638",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Further assessment of durability of a gene editing therapy for Duchenne muscular dystrophy",
+  "text": "In vivo gene editing therapies are designed to permanently correct mutations in a patient’s own\nDNA and therefore may show more robust durability than non-integrating approaches. In this\nproject, the durability of an AAV-delivered gene editing therapy for Duchenne muscular dystrophy\nwill be compared at 2 and 6 months in a humanized mouse model. This work will address FDA\nrecommendations for preclinical assessment of durability for a therapy designed to restore the\nreading frame for 50% of Duchenne muscular dystrophy patients."
+ },
+ {
+  "id": "8f348ea0-5ee4-401e-a470-8cfff46e13f4",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Interdisciplinary Graduate Program in Type 1 Diabetes and Biomedical Engineering",
+  "text": "A number of transformative advances have recently occurred at the intersection of type 1 diabetes (T1D) and biomedical engineering (BME), including the development of technology-based strategies for disease management as well as progress towards the first T1D immunotherapy, an effort currently under review by United States Food and Drug Administration (FDA). To address the rapidly growing need for individuals cross-trained in these arenas, we established this interdisciplinary graduate program to facilitate co-mentoring of pre-doctoral students in BME and T1D. Given our program’s 100% retention of graduates in science careers to date, we are confident that the training environment supported by this T32 will continue to prepare the next generation of researchers for careers seeking to develop new strategies for the management, prevention and reversal of T1D."
+ },
+ {
+  "id": "8f377147-7c62-4f76-b3e4-b252552d03f4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dissemination of MAPseq and BARseq for High-Throughput Brain Mapping",
+  "text": "The central goal of this proposal is to disseminate MAPseq and BARseq to the broader\nneuroscience community. The dissemination of these high-throughput methods for determining\nneuronal projections will enable many laboratories to use these methods to understand normal\nneuronal circuitry, and how this circuitry is disrupted in animal models of neuropsychiatric\ndisorders like autism and schizophrenia."
+ },
+ {
+  "id": "8f3f189c-82b7-46e1-8b9f-6c62fba7a35e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mdm2 Alternative Splicing in DNA Damage and Cancer",
+  "text": "MDM2 and its numerous isoforms are key regulators of the expression and function of the p53 gene, a critical\ntumor suppressor that prevents inappropriate cell growth and proliferation. The proposed research will study the\nmolecular connection between DNA damage, MDM2 isoform switching, p53, and cancer. Unraveling this\npathway could lead to the discovery of novel therapeutic intervention points and thus be a crucial stepping-stone\nfor cancer drug discovery."
+ },
+ {
+  "id": "8f40cc63-e9f9-43b4-b6b9-3123a621f8af",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Glutathionylated Products of Radical-Induced Lipid Oxidation in Inflammatory Disease",
+  "text": "The proposed research focuses on understanding the pathological and physiological consequen-\nces of our discoveries that lipid oxidation in the retina leads to the production of glutathione\nderivatives that promote inflammation by masquerading as proinflammatory molecules including\nleukotrienes. These discoveries represent a mechanistic link between free radical-induced lipid\noxidation and inflammation in the retina that contributes to age-related macular degeneration. We\nwill determine signaling pathways that these molecules activate addressing the questions: how\ndo they promote inflammation in ocular pathology, and do they promote self-cleaning (autophagy)\nof damaged retina cells?"
+ },
+ {
+  "id": "8f463fd6-b6d5-40cc-ac5d-b5913bd48db0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Engineering Cell-Substrate Interactions on Porous Membranes to Create Physiologically Relevant Model Systems",
+  "text": "The overall goal of this research proposal is to understand how cells behave on porous\nsubstrates and then engineer ideal membranes to integrate into in vitro tissue barrier and co-\nculture models. These models will aid in drug candidate screening as well as improve our\nunderstanding of how cells communicate under normal and pathological conditions in the body."
+ },
+ {
+  "id": "8f5c2b56-8401-41e1-be82-e7dc15a5e4c3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Optimal T-cell support for HIV neutralizing antibody induction to fusion peptide-inclusive regimens (Opti-FliP)",
+  "text": "This project aims to advance the search for a vaccine that can protect against HIV infection. In particular we\ngather a highly accomplished, collaborative group of investigators to mount a coordinated effort to understand\nhow different parts of the immune system work together to create broadly neutralizing antibodies that will\nprotect against HIV clade C. The result of this effort will be new understanding of and tools for supporting\nantibody responses against HIV using T-cell helper functions."
+ },
+ {
+  "id": "8f5f6f63-23ad-4a53-855e-a315b0c538f3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Nutritional Regulation of Luteinizing Hormone Secretion",
+  "text": "While it is universally accepted that undernutrition negatively impacts the reproductive success of an\nindividual, relatively little is known about the central mechanisms whereby inadequate food intake\nsuppresses GnRH/LH secretion. This project seeks to investigate the role of a neuronal-mediated (agouti-\nrelated peptide signaling) and a central immune-mediated (interleukin-1β signaling) mechanism in the\nregulation of LH secretion during undernutrition and realimentation. The results of this proposal will help\nto identify central targets useful for future therapeutic strategies to prevent or lower the risk of disorders\nsuch as cardiovascular disease and depression that are associated with delayed puberty."
+ },
+ {
+  "id": "8f6062ea-935a-4dc6-a578-14780c75314e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "RNA Interference and Heterochromatic Silencing in Replication and Quiescence",
+  "text": "RNA interference has an ancient role in epigenetic silencing and chromosome stability,\nindependent of its well-known function in post-transcriptional gene regulation through\nmicroRNA. We are investigating mechanisms underlying this role in yeast and mammalian cells,\nand we have discovered deeply conserved pathways that link RNA interference with\ntranscription, replication and quiescence. Interaction with the transcriptional co-activator BRD4,\nand with other epigenetic regulators, leads to genome instability with implications for targeted\ntherapies in cancer and autoimmune disease."
+ },
+ {
+  "id": "8f67a6aa-e0fb-4ca4-843a-424ec41b32c4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Sickle cell bone marrow niche and regulation of platelet activation and erythropoiesis",
+  "text": "We aim to investigate the role of bone marrow mesenchymal stem niche cells in promoting increased platelet \nactivation, reduced erythroid progenitor cell maintenance and proliferation in sickle cell disease and examine the \nability of transfusions to reverse this phenotype. These studies will provide new mechanistic insight into the role \nof the bone marrow microenvironment in the pathogenesis of sickle cell disease, and lead to new opportunities \nfor therapeutic targeting of niche cells to lower platelet activation levels and improve red blood cell production."
+ },
+ {
+  "id": "8f7f4327-c572-46f5-817d-94eb30be565d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identifying the genetic determinants of insecticide response variation to advance human risk assessment",
+  "text": "As insecticide resistance spreads in mosquito populations, new chemical combinations—such as pyrethroids\nand chlorfenapyr—are being used to control disease vectors. However, genetic differences can alter how both\ninsects and humans respond to these mixtures. By identifying conserved genes and pathways with natural\ngenetic variation that influence susceptibility to insecticide combinations, this research will help improve\nchemical risk assessment in human populations."
+ },
+ {
+  "id": "8f81d0f6-c060-4681-b4a4-b9773c5148c5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Human Pancreas Analysis Program for Type 1 Diabetes - HPAP-T1D",
+  "text": "The Human Pancreas Analysis Program for Type 1 Diabetes (HPAP-T1D)\nNarrative\nRecent decades have witnessed a dramatic improvement in our ability to study human tissues relevant\nto the etiology of type 1 diabetes. Using state-of-the-art technologies, we are profiling the genetic,\nmetabolic, immunologic, spatial and functional properties of cells in the disease-relevant tissues of\norgan donors with type 1 diabetes and pre-diabetes. This comprehensive profiling is providing new\ninsights into the mechanism of diabetes and will lead to new treatment modalities for preventing or\ncuring the disease."
+ },
+ {
+  "id": "8f84c357-70b4-4c55-bee3-34b0726f8836",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Life-Course Adversity and Other Determinants of Stress Regulation & Epigenetic Aging in Midlife Adults",
+  "text": "This research will provide empirical evidence on how adversity becomes psychologically and physiologically embedded over the life course and contributes to disparities in physical and mental health.\nSpecifically, we will innovatively leverage a geographically and socioeconomically heterogeneous cohort of midlife adults followed over the course of 30+ years beginning in childhood/early adolescence that will provide a broad array of psychosocial determinants of health captured repeatedly across the lifespan.\nThis will be the first study to comprehensively determine the impact of life-course adversity on stress regulation, accelerated aging, and mental health outcomes and will do so by linking these cohort data with (1) new survey and biospecimen data, (2) aggregated Census data to capture neighborhood socioeconomic differences, and\n(3) contextualized data from in-depth interviews eliciting narratives that will also capture the generational context of adversity, chronic stress, resilience, and health outcomes."
+ },
+ {
+  "id": "8f87741a-d209-456e-a59f-3576ff016c72",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Acquisition of a Matrix-Assisted Laser Desorption/Ionization Mass Spectrometer",
+  "text": "Understanding the function of a biomolecule, such as a protein or peptide, a chemically synthesized compound, biopolymers or chemically synthesized polymers, starts with its structural characterization. A Matrix-Assisted Laser Desorption/Ionization Mass Spectrometer (MALDI-MS) is a powerful instrument that can rapidly determine the mass and structural composition of biomolecules. This application requests funds to purchase a MALDI-MS, enabling the research of scientists within a 100 miles radius of Potsdam NY who currently do not have easy access to this tool."
+ },
+ {
+  "id": "8f87d94e-e6b7-44e5-99a1-960682b92738",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The relationship between 3D exon-exon DNA folding and RNA splicing",
+  "text": "Defects in RNA splicing are implicated in a wide range of human diseases, including developmental, cancers,\nand neurological disorders. This project will uncover how chromatin structure influences RNA splicing by\ninvestigating the three-dimensional organization of sub-genic exon-intron DNA interactions and the role of\nhistone modifications in splice site selection. A deeper understanding of this regulation could inform future\ntherapeutic strategies targeting splicing abnormalities in disease."
+ },
+ {
+  "id": "8f8dc7c7-c5ae-4cac-86cc-ad4bf80b20e4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Core F - Neuroimaging Core",
+  "text": "PROJECT SUMMARY – IMAGING CORE (F) The UCSF ADRC Neuroimaging Core (Imaging Core) is a critical component of the center’s efforts to advance early and accurate diagnosis of neurodegenerative disease. Through the use of MRI- and PET-based imaging, we have helped to define the imaging abnormalities that characterize atypical and early age of onset neurodegenerative disorders, in particular FTD and early-onset AD, and to establish the central role for imaging in diagnosis of rapidly progressive dementias (RPDs). We have pioneered the use of new MRI techniques, and new PET ligands, in FTD and AD as they have emerged, and done extensive work correlating these techniques with other biomarkers, genetics, and neuropathology. Imaging is also a critical component of programs at our center that combine measures of functional, anatomical, and molecular change with neuroscience-based assessments to understand changes in language, social-emotional function, visuospatial, executive function, and other impairments caused by neurodegenerative disease. We have been enthusiastic contributors to national efforts, including the Standardized Centralized Alzheimer’s and Related Neuroimaging (SCAN) project, and led national and international efforts to characterize atypical neurodegenerative diseases, including FTD, atypical and early onset AD, while developing new collaborations to study traumatic encephalopathy syndrome (TES). For the upcoming cycle, the Imaging Core will continue to support our ADRC by coordinating acquisition, archiving, and processing of 3T structural and functional MRI, and amyloid, tau, and FDG PET images, making these images accessible to local and national ADRC investigators, and providing imaging based amyloid, tau and neurodegeneration (AT(N)) staging data for select clinical populations. We will purse the following aims: Aim 1: Collection, archiving, and quality control (QC) of MRI and PET images in ADRC participants, including: MP-RAGE, FLAIR, T2-weighted, diffusion, ASL perfusion, ICN-fMRI, and amyloid, tau and FDG PET scans. We will upload MRI and PET imaging datasets to the SCAN project. Aim 2: Development and implementation of standard and innovative analytic tools to characterize disease related changes in brain volume, white matter microstructure, white matter signal hyperintensity, ICN-fMRI-based connectivity, cerebral perfusion, and PET ligand binding. Aim 3: Provide AT(N) staging information for ADRC participants who undergo amyloid and tau PET to the Clinical Core for participant feedback, and to the Data Management and Statistics Core for analysis. We will use funds allocated for MRI and PET to focus on AT(N) characterization of Chinese and Latino American participants recruited via the Outreach Recruitment and Engagement Core, and patients with atypical clinical presentations of AD. Aim 4: Support research training by working with the Research Education Component (REC) to teach principles of image acquisition and analysis, and clinical interpretation of amyloid and tau PET scans, and support trainees who wish to incorporate image analysis into their research."
+ },
+ {
+  "id": "8f938d9b-e3de-4d35-a43f-4b014e1e7949",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Ionic mechanisms of toluene cerebrovascular actions",
+  "text": "Acute toluene intoxication, which constitutes a worldwide public health problem, is associated with severe\nneurological deficits and even death driven by brain ischemia, yet the molecular targets and mechanisms\ninvolved in the brain hypoperfusion evoked by toluene remain unknown. Departing from previous work that\nfocused on the role of neuronal ion channels in toluene intoxication, this study will identify the ion channel\ncomplex of the BK type which is present in cerebral artery smooth muscle as the target that mediates toluene-\ninduced cerebral artery constriction, and the relative contribution of BK channel subunits and channel functional\nstates to toluene action. This information is critical to predict the differential vulnerability of cerebral arteries\nthat irrigate different brain areas to toluene, and the efficacy of endothelium-independent vasodilators that\nselectively target BK subunits to counteract toluene’s deleterious action, these agents acquiring significant\npotential as they will remain effective under prevalent conditions that may disrupt endothelial cerebrovascular\nfunction, such as diabetes, ageing, hypertension and stroke itself."
+ }
+]

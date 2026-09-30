@@ -1,0 +1,142 @@
+[
+ {
+  "id": "3c15686b-1a9d-4e3c-8b58-4c1f4b3dd7b4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Deep learning enhanced detection and personalized monitoring of aortic stenosis - The DETECT-AS Study",
+  "text": "Aortic stenosis (AS) is a progressive narrowing of the aortic valve that causes significant disability and premature\nmortality in older adults despite being treatable with a minimally invasive valve replacement procedure. The\napplication proposes a multicenter randomized clinical trial evaluating a low-cost and practical artificial\nintelligence-based, 2-stage screening strategy for older adults that can detect advanced AS before the onset of\nsymptoms. In addition, the concomitant challenge of a lack of a precision follow-up strategy for incidentally\ndiscovered early-stage aortic valve disease is addressed with a novel digital biomarker for AS progression that\ncan define individuals at an elevated risk of rapid progression of AS."
+ },
+ {
+  "id": "3c17464d-c6cc-47f3-a13d-22d914c25668",
+  "want_sentence": false,
+  "want_terms": true,
+  "title": "Behavioral Intervention Development Core",
+  "text": "Project Abstract – BID Core The scientific premise underlying this proposed Roybal Center is as follows: most known modifiable intervention targets for, and outcomes of, EM have robust established evidence-based guiding behavioral interventions in related fields. But there remains a need to adapt, refine, and implement these interventions to fit the context of EM, in terms of behavioral interventions for its prevention (e.g., targeting caregiver risk factors) and sequelae (e.g., targeting depression after EM) rapidly and effectively. We will initially focus on pilots addressing stage 0-2 of behavioral intervention development. We will provide robust services and support through the cores designed to ensure translation and progression of pilots through the NIH stage model by targeting known barriers (e.g., regulatory and recruitment) to research progression for EM. By addressing these known barriers in EM research up front at the pilot stage, we hypothesize that investigators can build sustainable and impactful long-term research programs that will pave the way for developing and evaluating future mechanism-focused EM interventions. The overall goal of the BIDC is to support NIH Stage 0-2 research to generate interventions that (1) reduce risk of elder mistreatment (EM) by intervening at the level of known or posited mechanism factors; and (2) reduce impact of EM once it occurs by leveraging evidence-based treatments for known EM sequelae that specifically measure and target hypothesized mechanisms of behavior change. The BIDC has two objectives. Objective 1. Each year, select and support 2 to 3 high-quality EM research pilot projects, representing stages 0-2 of the NIH Model of Behavioral Intervention Development. Objective 2. Systematically implement a training and mentorship process for all selected pilot projects, to overcome common regulatory, recruitment, and technical barriers to completing translational EM research. The goal is to ensure that each pilot project clearly identifies and assesses hypothesized mechanisms of behavioral change, and subsequently progresses through the NIH Stage Model for Behavioral Intervention Development. Year 1 Pilots include: (1) Ecological Elder Stage Depression Momentary Analysis of Heart Rate Variability as a Marker of Stress Reactivity & Mistreatment Aggression Potential in New Stroke Caregivers: A Mixed Methods Approach - NIH 0; (2) Leveraging Adult Protective Service Interactions to Offer Evidence-Based Treatment for in Elder Neglect/Self Neglect NIH Stage 1: (3)- Web-Based Support Program for AD/ADRD Caregivers of Hospitalized Veterans Living with Dementia to Prevent Elder Mistreatment during Care Transitions from Hospital to Home - NIH Stage 2."
+ },
+ {
+  "id": "3c1e8660-2dd1-411a-904f-c336ba3b568b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanistic dissection and targeting non-cell autonomous tumor promotion in DICER1 cancer predisposition",
+  "text": "The long-term goal of this project is to elucidate mechanisms driving cancer predisposition in DICER1\nsyndrome and leverage these findings to develop novel, directed therapies. The objective of this proposal is to\nleverage our robust genetically engineered RMS mouse models coupled with in vitro assays to define the role\nand therapeutically target neutrophils and neutrophil extracellular traps in cancer promotion in DICER1 cancer\npredisposition."
+ },
+ {
+  "id": "3c2611e8-ee9d-4098-8b44-314291a156e0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Image-guided adaptable CAR T cell therapy for solid tumors",
+  "text": "The translation of chimeric antigen receptor (CAR) T cell therapy to solid cancers has encountered significant\nobstacles, including insufficient tumor response and toxicity to healthy tissues. This project aims to develop an\nadaptor-directed CAR system with enhanced targeting specificity and programmability. By utilizing quantitative\nimaging techniques, we seek to optimize this innovative CAR system to bolster the efficacy and safety of CAR\nT cells in combating solid cancers."
+ },
+ {
+  "id": "3c2ed025-ccb9-4a99-b677-2a1d349195d4",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Interdisciplinary graduate training for the next generation of computational and systems biologists",
+  "text": "Biological discovery is increasingly driven by large-scale generation and analysis of biomedical data, enabled by new technologies for sequencing, imaging and manipulating biological systems, and by advances in machine learning and AI.  We propose to train scientists who have interdisciplinary expertise in concepts, approaches and technologies from biology, computer science, and engineering.  These scientists will be well positioned to apply sophisticated technologies and advanced modeling techniques to design and predict sites of intervention in complex gene networks to achieve desired therapeutic aims in complex diseases such as neurodegenerative diseases and cancer, and to help realize the potential of precision medicine."
+ },
+ {
+  "id": "3c4ab0d9-1b8b-46f1-949a-498a74b5f7b0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The dynamics, functions and evolution of a miniature RNA-guided enzyme",
+  "text": "Project narratives\nThis proposal aims to unravel the molecular mechanisms governing TnpB, a compact RNA-guided\nendonuclease, with the goal of improving its efficiency as a genome-editing tool and unlocking new\nfunctionality beyond DNA cleavage. By integrating biochemical analysis, single-molecule biophysics, structural\nbiology, and bioinformatics, this project will develop a more quantitative and comprehensive understanding of\nTnpB’s targeting efficiency, its co-evolution with guide RNA, and the guide RNA processing pathways involved.\nIf successful, this work will lead to the development of next-generation RNA-guided systems with small sizes,\nenhanced genome editing behaviors, and versatile functions beyond DNA cleavage, with broader applications\nin therapeutic and research contexts."
+ },
+ {
+  "id": "3c4c2e01-37c1-4226-8cd1-85af9079f0fe",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Enhancing Visual Accessibility of Indoor Spaces",
+  "text": "Vision impairment reduces the effectiveness with which vision can be used to travel safely and pursue\nintended activities at home and in public spaces. Evaluating and enhancing the visual accessibility of\nenvironments supports the highest level of independence for people with vision impairment before relying on\nassistive technology or human assistance. Using computer vision algorithms and sensing technology, this\nresearch aims to develop an objective tool to complement the current observational practice in visual\nenvironmental evaluation."
+ },
+ {
+  "id": "3c5822b4-7f33-4996-aff5-22c693ffcaaa",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Novel mechanisms of HIV-associated pulmonary vascular disease",
+  "text": "Despite the advent of combination antiretroviral therapy, people with HIV (PWH) still suffer from\nlung and heart diseases, which contribute to the dramatic reduction of their life expectancy.\nDespite this knowledge, the mechanisms damaging the blood vessels of the lungs of PWH remain\nill-defined and unstudied. The proposed study will combine the use of novel genetically\nengineered animal models, human specimens, and cultured cells with pharmacological\napproaches to test whether viral proteins produces by HIV damage lung blood vessels."
+ },
+ {
+  "id": "3c599f49-2cc9-4bb6-977c-26fe36892dbc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Protective Roles of Airway Prevotella in Epithelial Cell Activation and Defense Against Pneumococcal Pneumonia",
+  "text": "Airway Prevotella promote subclinical inflammation in the airway and are associated with decreased carriage of\nairway pathogen Streptococcus pneumoniae. The proposed research will investigate how P. melaninogenica\ngenerates subclinical inflammation in the airway through TLR2 dependent signaling mechanisms, and how P.\nmelaninogenica interferes with S. pneumoniae adherence to epithelial cells through key adherence receptors\nand overall barrier integrity. Findings from this work will uncover how commensal-host interactions impact\npathogen clearance in the lung environment, ultimately impacting the outcome of bacterial pneumonia."
+ },
+ {
+  "id": "3c646b8e-9ff8-48bc-b48d-72e13c23f43a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "SBIR: In vivo engineering of B7-H3.CAR-T cells for ovarian cancer therapy",
+  "text": "T cells reprogrammed to display chimeric antigen receptors (CARs) represent a highly promising strategy for\ncancer therapy, but unfortunately suffer from high costs and modest efficacy against solid tumors. In this\nproposal, we seek to directly reprogram T-cells that are circulating in the blood to display CAR against the B7-\nH3 antigen highly overexpressed on ovarian cancers, and evaluate their effectiveness against ovarian cancer\nin suitable mouse models. If successful, this work will provide the supporting data necessary to advance our\nstrategy into clinical development, potentially enabling more efficacious and cost-effective CAR-T-based\ntherapy for ovarian cancers, the 5th leading cause of cancer death among women."
+ },
+ {
+  "id": "3c654511-5af1-4bf6-adfa-d8f193fa760e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Genetically Dissecting Cholinergic Signaling in Body Weight Control",
+  "text": "We have recently uncovered a novel role for cholinergic and glutamatergic projection neurons within the basal\nforebrain in body weight control. This project focuses on elucidating the underlying neurocircuits involving\ndownstream basolateral amygdalar pathways that mediate basal forebrain cholinergic action on feeding and\nbody weight control. Knowledge gained from these studies will provide needed insight into how cholinergic\ncircuits in the central nervous system modulate metabolic and appetitive programs to regulate body weight."
+ },
+ {
+  "id": "3c666a0f-aa36-422a-b03d-85fb806f3c40",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Training Grant in Clinical Pharmacology",
+  "text": "Clinical Pharmacology is the scientific discipline that addresses all aspects of human-drug interactions,\nincluding mechanisms of drug action and the mechanistic basis for individual variation in drug response.\nClinical Pharmacology is undergoing rapid change with the integration of “multiple omics” science and modern\ncomputational techniques such as artificial intelligence and machine learning. The long-standing Mayo Clinic\nClinical Pharmacology Training Program has embraced these advances and incorporated them into a Training\nProgram designed to prepare healthcare professionals to contribute to our understanding of human drug\ninteractions by the application of all of the tools of modern biomedical and computational science."
+ },
+ {
+  "id": "3c6785cb-c0cb-425a-bb75-e3518f16ee63",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Elucidating the role of nonessential amino acid metabolism in diabetic skin wounds",
+  "text": "Diabetes can lead to complications like diabetic foot ulcers, which are nonhealing and may lead to morbidity\nand death. How small metabolites are utilized in normal wounds and altered in diabetic wounds remains\nunderstudied. By investigating metabolite utilization spatiotemporally and by host cells, this study aims to\nunderstand how alterations in metabolic usage contribute to delayed wound healing in diabetes."
+ },
+ {
+  "id": "3c73d925-6d6d-4e39-9e34-927b5eb1912c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Translational development of osteosarcoma (OS) extracellular vesicle (EV) matrix metalloproteinase (MMP) Activity Assay for assessing patient treatment responses",
+  "text": "The long-term goal of this TTNCI R01 proposal is to further refine, validate, and translate a streamlined OS EV\nMMP Activity Assay for monitoring treatment responses in OS patients who receive treatment interventions. This\ntwo-step assay involves: i) click chemistry-mediated enrichment of subpopulations of OS EVs using EV Click\nMagBeads in the presence of trans-cyclooctene-grafted antibodies targeting the respective OS EV surface\nmarkers, and ii) FRET peptide probes for assessing the activities of OS-associated MMPs in the enriched OS\nEVs. By the end of this R01 grant, the OS EV MMP Activity Assay is expected to achieve translational readiness\nfor eventual GLP manufacturing and a Phase-2 biomarker study."
+ },
+ {
+  "id": "3c74f5d4-288f-4a7a-b55f-7aea5075d6af",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of congenital heart defects in motor skills and language acquisition of infants with Down syndrome",
+  "text": "Congenital heart defects occur in almost one half of infants with Down syndrome and result in further delays and\nweaknesses in motor, cognitive, and language development. This project aims to apply mobile technology and\ncomputer vision to compare the developmental trajectory of independent sitting, rhythmic arm movement, and\ncanonical babbling and investigate the interrelations between sitting/arm movement and babbling in infants with\nDown syndrome with and without congenital heart defects. We hypothesize that infants with Down syndrome\nand congenital heart defects will show a delayed acquisition of sitting, arm movement, and babbling and weaker\ninterrelations between them compared to infants with Down syndrome without congenital heart defects."
+ },
+ {
+  "id": "3c790558-65e7-458f-b9b8-e9a8bffcedc9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Genetic Approach to Therapy for DFNA9",
+  "text": "Hearing loss and balance disorders are significant health problems worldwide, with many disorders having\ngenetic causes. The research proposed in this study will utilize DNA and tissue samples from individuals with\ngenetic hearing loss to develop protocols and methods for gene therapies. Mice engineered with the same\npathogenic variants resulting in hearing and balance problems will provide the means for testing our innovative\ngene therapy approaches for genetic hearing loss."
+ },
+ {
+  "id": "3c844c47-34d7-4102-9f84-0a6875598a73",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Understanding antiretroviral phosphorylation and dephosphorylation using mass spectrometry imaging-based enzyme histochemistry",
+  "text": "Tenofovir (TFV) and emtricitabine (FTC) are two clinically important first-line drugs that are used for HIV\ntreatment and prevention. Unfortunately, high variability in the responses of TFV and FTC can lead to poor\nclinical outcomes, including therapeutic failure. The goal of this project is to understand the mechanistic\ndifferences in the biotransformation (activation and deactivation) of TFV and FTC in the colon (HIV susceptible\ntissue)."
+ },
+ {
+  "id": "3c862fa9-aaca-4c84-8f00-edf6afb43427",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A cfDNA methylo-fragmentomic assay for prediction of risk-progression in Prostate Cancer",
+  "text": "Claret Bioscience proposes to develop an assay that captures changes in DNA fragmentation pattern and\nepigenetics in extra cellular DNA found in blood. This assay will be applied to predict the occurrence of more\naggressive forms of prostate cancer and improve treatment decisions. This non-invasive approach will capture\nprogression signals earlier than standard-of-care methods in a minimally invasive, low-cost assay that reduces\nphysical and financial burden on the patient."
+ },
+ {
+  "id": "3c8d79bb-4b44-4898-ba51-a69c0f987344",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Sex-dependent regulation of cardiac cAMP, ECC, and arrhythmia by phosphodiesterases",
+  "text": "Narrative and Public Health Relevance\nHeart failure with preserved ejection fraction (HFpEF) is a distinct disease compared to heart failure with reduced\nejection fraction (HFrEF), which is the leading cause of mortality in the United States. We aim to determine how\nphosphodiesterases regulate cAMP signaling to impact functional excitation-contraction coupling and arrhythmia\nin HFpEF vs. HFrEF in a sex-dependent manner. This study may offer more personalized treatment strategies\nfor men and women with HFpEF."
+ },
+ {
+  "id": "3c8ea8e6-6290-4c19-bb9c-a46f1f62660a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Center for Modeling Non-Coding Disease Variants",
+  "text": "OVERALL APPLICATION\nNinety-eight percent of the human genome is composed of noncoding DNA. When modelled and tested in detail,\nthese noncoding regions (e.g., enhancers, silencers, regulatory RNAs, untranslated regions) have been shown\nto play essential roles in regulating gene expression and cellular functions. Analyses of both common and rare\ndisease genetics indicate that a vast proportion of disease associations fall into noncoding regions of the\ngenome. A lack in robust analytical, technical, and experimental models to systematically dissect underlying\nassociations hinders scientific progress in this domain. To address this critical gap in basic knowledge that has\nclearly important translational clinical outcomes, we plan to establish a Center for modeling noncoding disease\nvariants with the aim of understanding how noncoding genetic variation contributes to a vast array of diseases."
+ }
+]

@@ -1,0 +1,142 @@
+[
+ {
+  "id": "cd720315-1eda-494b-8d19-1e5775604656",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Family Centered Approaches to Promoting Cascade Screening for Hereditary Cancer Syndromes",
+  "text": "Genetic testing can determine if someone has a genetic mutation associated with increased risk for certain cancers. When testing is done, it is important to share information with relatives to help them determine whether they too would benefit from testing; however, it can be difficult to share this information within families. This project will develop and test an intervention for African American families to support their communication about cancer genetic testing results, communication about behaviors that can reduce their cancer risk, and future decisions about whether to complete cancer genetic testing."
+ },
+ {
+  "id": "cd734993-36a2-447a-a7bd-bbaec80a3d07",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Alzheimer's disease-replicated brain microphysiological system to model AD physiopathology and its influenceon gliovasculature and immune system",
+  "text": "Current 2D cell culture systems do not reliably model nor predict the physiopathology of Alzheimer’s\nDisease, an irreversible and incurable disorder of multiple tissues in the brain that affects millions of\nAmericans. This project aims to construct a 3D dynamic brain tissue (mini-brain in a dish) integrated\nwith patient stem-cell derived brain cells, to validate AD physiopathology, including extracellular\nplaques, intracellular fibers tangles, vessel abnormality, and an overactive immune response. This in\nvitro platform can be used to accelerate drug discovery and screening."
+ },
+ {
+  "id": "cd7769c5-8e4a-472e-9d0b-8e0a1c0013a3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Accurate and Efficient Solvent Models for Molecular Simulations: Methods and Biological Applications",
+  "text": "Molecular modeling and simulations are indispensable tools in biomedical science and the drug discovery\nprocess. The proposed research will significantly enhance the capabilities of molecular modeling, and the\nlikelihood of important discoveries by making the methodology more accurate, faster, and more widely\navailable. The new methods will be used to address several problems of high significance for fundamental\nhuman biology relevant to human health."
+ },
+ {
+  "id": "cd83fd26-daf9-4d75-a8d4-4ec1ee791d86",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Neuroimaging Markers for Predicting Outcome of Brain Tumor Surgery",
+  "text": "Project 1: Neuroimaging Markers for Predicting Outcome of Brain Tumor Surgery ABSTRACT Surgical resection is one of the primary treatments for human gliomas, and a growing number of studies have demonstrated the benefits of maximal safe resection for patient survival. However, the decision of surgical resection of tumor-infiltrated brain tissue is often difficult given the risk of inducing neurological deficits. Tumors with ill-defined boundaries that invade and/or infiltrate eloquent areas are often incompletely resected or deemed inoperable for fear of conferring a debilitating deficit. Nonetheless, it is increasingly acknowledged that the functional anatomy of the human neocortex is plastic. Dramatic reorganization of functional brain regions, such as language cortices, have been seen in patients with infiltrating tumors such as gliomas, suggesting such patients with tumors invading functional brain areas may in fact be surgical candidates. Because it has been demonstrated that progression free survival (PFS) and overall survival (OS) of patients correlate with extent of resection in surgery, patients may benefit from a more aggressive surgical strategy that accounts for the information of functional recovery after surgery, i.e. neural plasticity. The focus of this research project is to develop an intelligent and multimodal strategy for identifying plasticity based on images of brain connectivity that relates to the neurological deficits after surgery in patients with focal brain gliomas involving motor and/or language regions. Three imaging modalities including resting-state functional magnetic resonance imaging, diffusion tensor imaging and navigated transcranial magnetic stimulation (nTMS) will be used and integrated to identify new imaging markers. The project has three Specific Aims. In patients following surgery for motor/speech area gliomas, we will identify plasticity metrics based on multimodal connectivity mapping and determine the relationship between plasticity metrics and neurological deficits (Aim 1) and determine whether baseline connectivity maps and extent of resection can be used to predict plasticity (Aim 2). In addition, we will develop an intelligent, machine learning based model that predicts the probability of long-term deficits and overall survival (Aim 3). The success of this project can demonstrate feasibility of developing a novel multimodal-based quantitative image marker to predict clinical outcome of brain tumor surgery and acquire the solid preliminary data to support the research project leader (RPL) to apply for a more comprehensive NIH R01 project that aims to further optimize and validate the new multimodality imaging technology and prediction model. The long-term outcomes of the research effort will lead to a comprehensive understanding of neural plasticity after surgery and develop new quantitative neuroimaging clinical markers based on the machine learning models to assist prediction of PFS or OS of patients. Knowledge of the neural plasticity obtained from this project will serve to leverage the plasticity into surgery planning, which we expect will improve overall survival of patients by increasing the extent of resection, without compromising patient safety or long-term functional outcomes."
+ },
+ {
+  "id": "cd8525a4-8033-47c9-84a8-8e3fee74b658",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The contribution of hypoxia inducible factor-1-dependent glycolysis in lung interstitial macrophages to the pathobiology of schistosomiasis-induced pulmonary hypertension.",
+  "text": "Schistosomiasis-induced pulmonary hypertension (Sch-PH) is a major cause of pulmonary arterial\nhypertension worldwide, a group of incurable illness marked by progressive narrowing of the blood vessels in\nthe lungs and eventual death due to right heart failure. Despite the high prevalence of the disease, the limited\nunderstanding of how Sch-PH develops precludes the establishment of effective treatment. This proposal aims\nto examine the potential role of glucose metabolism in generating the pathologic changes of Sch-PH, with the\nultimate goal of identifying metabolism-modulating therapeutic strategies."
+ },
+ {
+  "id": "cd862e16-1ca3-44c8-9586-05ed3e0f4d70",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Decoding pathways linking gestational diabetes mellitus with increased risk of coronary artery disease",
+  "text": "Gestational diabetes mellitus (GDM) is associated with an increased risk of coronary artery disease (CAD),\neven without subsequent type 2 diabetes (T2D), but the precise underlying mechanisms remain unknown,\nhindering the development of personalized medicine towards CAD for individuals with GDM. Leveraging\nrepeated measures of clinical data with new (>5,400 plasma proteins that covers a wide range of biological\npathways) and existing (Nightingale metabolomics and genetics) multi-omics data in large-scale longitudinal\nelectronic health records (EHR)-based data repositories and biobanks, this project aims to systematically\nexamine the precise mechanisms linking GDM to future CAD, focusing on both T2D-mediated and T2D-\nindependent pathways. The identified clinical factors, and omics signatures will serve as critical first steps to\nguide the development of personalized prevention to reduce CAD risk for women with a history of GDM, as\nwell as offer novel druggable targets for effective therapeutics of CAD."
+ },
+ {
+  "id": "cd885f28-4168-4ef1-9f0f-7e7a69b86c59",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "RP4: Monoclonal antibodies against henipaviruses, arenaviruses, and nairoviruses",
+  "text": "PROJECT SUMMARY/ABSTRACT – RP4 (Monoclonal Antibodies against Henipaviruses, Arenaviruses and Nairoviruses) The paramyxoviruses, nairoviruses, and arenaviruses represent collections of diverse virus species, and these groups of viruses are ideal for prototype pathogen immunity approaches. The goal of developing medical countermeasures is to confer protective immunity, which can be provided by active immunization (as in RP1 and RP2 here) or by passive immunization with long-acting (90-day half-life) monoclonal antibodies (mAbs). In this RP4, we will used several different state-of-the-art antibody discovery approaches to isolate and engineer optimal mAbs for these 3 major groups of viruses. Virus-immune B cells will be interrogated with several well- developed human mAb discovery platforms, including high-throughput single cell sorting and single cell RNAseq techniques, or converted to stable human hybridoma cell lines. B cell line supernatants or recombinant mAbs will be subjected to high-throughput screening to identify Abs that bind to virus surface proteins and functionally inhibit virus replication. Our objectives include determining the principles governing optimal mAb combinations and synergy, developing new in vitro selection methods to enhance antibody neutralization potency and breadth, and genetically modifying mAbs for extended-half-life properties to enable the use of injections of long-lived antibodies to confer protective immunity and protection like that of vaccines. Lessons learned in the year 1 to 3 studies of the prototype pathogens Lassa, Machupo, Crimean-Congo hemorrhagic fever, Hendra, and Nipah viruses will be applied to new discovery campaigns for related viruses in the same family or genera, as a model for applying “plug and play” Test Cases for the prototype pathogen approach. Identifying antibodies to the related pathogens, will validate the prototype pathogens approach, preparing us for an unexpected epidemic of a previously unknown paramyxovirus, nairovirus, or arenavirus. Also, these programs will isolate promising medical countermeasures for additional potential causes of future epidemics. Further, incorporating screens for wide breadth of recognition in these studies may enable identification of pan-family or pan-genus antibodies that can but used for multiple related agents, including future related pathogens for which we have not yet specifically prepared. Identifying major sites of vulnerability on the virus surface proteins for recognition by neutralizing and/or protective antibodies also will be useful for our consortium partners working on antigen design. Prioritized mAbs then will be tested for therapeutic efficacy in multiple animal models of infection including nonhuman primates. The leads will be selected, and CHO cell lines will be made by Mapp Biopharmaceutical for Ab production, in preparation for cGMP manufacture and IND planning. The work promises to yield best-in-class mAb combinations for broad and potent activity against three groups of viruses that can be used to treat or prevent human virus infections. These studies will identify protective/neutralizing epitopes of mAbs through structural studies of antigen-Ab complexes that inform immunogen design in RP1/RP2 using rational vaccine antigen design approaches."
+ },
+ {
+  "id": "cd89f729-0e13-4dd6-ab8b-b69b952ba20c",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Computational methods for in situ spatial transcriptomics",
+  "text": "This project will develop new computational methods to analyze data from in situ spatial\ntranscriptomics, which measures gene expression profiles in a spatial context. The proposed methods\naim to enhance the analysis of in situ data, yielding more reliable cell boundaries, cell type annotations,\nand characterizations of the cellular microenvironment. These methods are anticipated to offer new\nbiological insights into cell senescence and the tumor microenvironment, contributing to a deeper\nunderstanding of complex human diseases."
+ },
+ {
+  "id": "cd8bb682-9beb-4b15-9116-7becb59b101f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multivalent Small Circular mRNA Vaccines for Melanoma Combination Immunotherapy",
+  "text": "Advanced melanoma is the most serious type of skin cancer with poor prognosis. Here, we propose to investigate\nmultivalent small circular RNA vaccines that generate potent and long-lasting immune responses for melanoma\ncombination immunotherapy. The results from this project are anticipated to define the design guidelines of these\nnovel vaccines and ultimately improve the clinical practice and outcomes of current melanoma treatments."
+ },
+ {
+  "id": "cd8bd013-9bdf-4a60-82d2-1f318207e103",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Unveiling the origin of tumor-reactive regulatory T cells in patients with mismatch repair proficient colon cancer",
+  "text": "The rising incidence of colorectal cancers and the lack of response to immunotherapy is a major health\nproblem which requires novel approaches to improve patient responses. Using in-depth analysis of\nthe T-cell compartment in tumors, we have identified a potential novel mechanism resulting in hijacking\nof anti-tumoral T cells and conversion to pro-tumoral T cells. We will use complementary, state-of-the-\nart approaches to dissect this mechanism in colorectal tumors, identify endogenous factors that\npromote this conversion and propose novel treatment avenues for these patients."
+ },
+ {
+  "id": "cd8e2a71-38d2-4339-831a-c74fcbdb26fa",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Microscopic Imaging",
+  "text": "Narrative Optical Imaging Core\nThe Optical Imaging Core will serve the UC Berkeley Vision Science community by introducing\nand training investigators into the world of advanced optical techniques, assisting investigators in\ncustomizing their own imaging equipment for new uses, and assist investigators in assembling\nsophisticated imaging systems from component parts, including confocal and 2-photon\nmicroscopes."
+ },
+ {
+  "id": "cd93ad9d-52bb-4a8b-a8a1-ac8b27dbfcb7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Influence of hypoxia on the antiviral functions of human intestinal epithelial cells",
+  "text": "The low oxygen environment (hypoxia) in the gastro-intestinal tract is fundamental for the preservation of the\ncommensal microbiota and the maintenance of gut homeostasis. How hypoxia impacts the ability of intestinal\nepithelial cells to respond to enteric viruses is unknown and this constitutes the core question of this project.\nManipulation of the cellular response to hypoxia could constitute a novel pharmacological approach to combat\nenteric viruses."
+ },
+ {
+  "id": "cd945797-e3c9-4aa9-be9c-d15ce376b7f5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Integrated MRI Biomarkers of Atrophy and Iron Dysregulation in Multiple System Atrophy",
+  "text": "Multiple System Atrophy (MSA) is a devastating and rapidly progressive neurodegenerative disorder for which\nthere is no cure, and early diagnosis remains difficult. This project will develop advanced MRI-based methods\nthat can be applied across hospitals to improve early detection, monitor disease progression, and identify\nappropriate patients for clinical trials. These imaging tools aim to provide reliable measures of treatment effects\nand support the evaluation of emerging therapies for MSA."
+ },
+ {
+  "id": "cd97e593-6ec8-4ee2-bb94-fb3041298295",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeted ingression of SNPs into the zebrafish genome",
+  "text": "The overarching goal of the proposed experiments is to create a gene editing method to\nefficiently introduce small DNA changes into the zebrafish genome for modeling human health.\nThe strategy builds on using homology surrounding CRISPR/Cas9 double-strand breaks for\nefficient introduction of cargos into the genome. This strategy is expected to have broad utility\nand function in with high efficiency in other organisms, and thus be broadly applicable to animal\nmodels used by the NIH."
+ },
+ {
+  "id": "cd994d30-642f-4e97-b639-24ed0c85040c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mouse Phenome Project",
+  "text": "RELEVANCE TO HUMAN HEALTH\nSubstance use disorders are chronic diseases with limited treatment options, creating a significant legal,\nsocial, and public health burden. Historically, these and many other complex diseases have been investigated\nusing mouse genetic approaches, but extrapolation of results from mouse studies to human populations\nremains a challenge. The Mouse Phenome Database is a widely used platform that meets this challenge\nthrough sharing of well-documented mouse data, protocols and analytic tools that enable researchers to\nintegrate and analyze information across studies, to make use of the power, precision and depth of biological\ninvestigation possible in mice to bring greater understanding of the role of genes and variants in human\ndisease."
+ },
+ {
+  "id": "cd9cf2af-cac5-4161-b87c-115487f5abd7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project 3: Integration of mammographic AI, clinical, and genomics information to improve breast cancer subtype- specific risk-based screening and prevention",
+  "text": "PROJECT 3: Narrative Our ongoing WISDOM trial of risk-based breast cancer screening and prevention is predicted to reduce harms from screening by 50% while continuing to reduce advanced breast cancers as much as annual screening; however, the underlying risk model has high potential for improvement. The overall goal of Project 3 is to continuously develop and improve models for predicting the risk of breast cancer by combining emerging advances in artificial intelligence, inherited genetics, and tumor molecular assays. We will use these advanced models to predict risk of fast- vs. slow-growing breast cancer subtypes and to create a next-generation WISDOM risk-based screening and prevention platform, which, based on our preliminary data, we expect will be substantially more useful than the current WISDOM risk model and enable further reduction in harms from both lethal breast cancers and abundant false positives."
+ },
+ {
+  "id": "cd9e44e8-7ded-4e26-9881-5fa55d35b85b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A Multilevel Characterization of Sensory Cortical Disinhibition in Post-Traumatic Intrusions",
+  "text": "Intrusive memories of a traumatic experience are leading predictors of the onset, maintenance, and severity of\ntransdiagnostic post-traumatic mental health difficulties; however, transdiagnostic treatments for such memories\nare limited as their underlying physiological mechanisms remain unclear. Tuning in to the distinct sensory-rich\nproperties of trauma-related intrusive memories, the current project will test how the neurochemical and\nelectrophysiological regulators of intrinsic sensory cortical activity are related to the day-to-day experiences of\nvivid trauma-related intrusions. Findings from this work will identify novel candidate targets for neurotherapeutics\nin the transdiagnostic treatment of intrusive memories in trauma-exposed individuals."
+ },
+ {
+  "id": "cd9e5252-562e-4197-91bf-c9230cf55b04",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project 1 - Molecular Dynamics of HIV-1 Entry: Visualizing Transient Intermediates",
+  "text": "Abstract – Project 1 Approximately 40 million people worldwide are living with HIV/AIDS; however, a protective vaccine or functional cure remain elusive despite four decades of intense research. HIV-1 evades the immune system through its rapid structural evolution during infection and replication, and the implications of these structural changes in the HIV-1 Envelope (Env) protein on HIV-1 fusion and entry into cells is not completely understood. Our overall goal in this project is to define the steps leading to formation of the so called pre-hairpin intermediate of the HIV-1 Env to its decay into later fusion intermediates. Initiation of this event is typically described as a ‘harpoon-like” insertion of the FP into the host membrane. While this depiction is illustrative of the earliest anchoring event, it is not physically descriptive. The inherent instability of the pre-hairpin intermediate has rendered observation of its structure intractable. In this project, we aim to combine advances in molecular simulation with cutting-edge experimental methods to interrogate this process at high spatial and temporal resolution. To accomplish these aims, Project 1 will leverage expertise in the structural biology and computational biology cores to develop and apply methods to this problem. Our long-term goal is to develop a complete, time resolved and atomically detailed mechanism of HIV-1 Env fusion. The overall objective for this project is to develop and apply new methods in computational and structural biology to make possible the interrogation of rare transient states along the fusion pathway. The specific targets in this proposal are (i) to determine the conformational transitions that trigger fusion peptide release from its association with the Env trimer, (ii) to examine passage of the fusion peptide from its trimeric anchor to the host membrane surface, (iii) to identify the determinants of fusion peptide insertion, assembly, and anchoring in the host membrane, and iv) to delineate the conformational transitions that facilitate gp120 shedding from gp41. The central hypothesis driving this study is that each transition is tightly regulated, displaying sequential, cooperative control at each stage. The rationale for this project is that advanced, multiscale modelling of this process combined with cutting edge structural biology tools can elucidate the mechanism by which transitions at this intermediate stage of entry are regulated. Upon completion of these aims, we expect to provide kinetically resolved, atomic-level dynamics understanding of HIV-1 Env fusion peptide triggering, release, and membrane engagement. These results will have broad impact on HIV-1 vaccine and drug development specifically and on virus entry investigations generally."
+ },
+ {
+  "id": "cda8832d-855a-49b6-812a-51013a6920b0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "High-Definition Microfluidics 3D Printer",
+  "text": "Innovative solutions to public health challenges require the ability to design, prototype, and test novel devices\nfor studies in blood flow, cell behavior, bio-inspired sensors, and drug discovery. In recent years, advanced 3D\nprinting technology has enabled the ability to fabricate \"lab-on-a-chip\" microfluidic devices with enhanced\nspeed, feature resolution, and biocompatibility. Acquisition of a high-definition 3D printer at San Jose State\nUniversity will accelerate biomedical research, hands-on education, and device innovation."
+ },
+ {
+  "id": "cdab0916-7246-489a-bbe8-b230aedcf29d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "SIM2 Regulation of Mitochondrial Dysfunction in Down Syndrome",
+  "text": "Mitochondrial dysfunction and oxidative stress are major causal factors promoting Down Syndrome pathologies.\nDetermining the interconnections between SIM2 and mitochondrial activity will provide a better understanding of\nthe pathways driving mitochondrial dysfunction in Down Syndrome and a novel target for therapeutic treatment."
+ }
+]

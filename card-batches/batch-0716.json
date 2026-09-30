@@ -1,0 +1,142 @@
+[
+ {
+  "id": "7349b8e6-f850-40cd-95cd-cdc834250a27",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of functional genomic technologies in mice",
+  "text": "Functional genomic technologies have been developed primary in cultured cells making it difficult to address\nthe complex phenotypes, such as spatial-temporal, and tissue/cell type specificity and interactions that occur in\norganisms. In this proposal, I will combine zygote manipulation methods and functional genomics technologies\nto develop novel high-throughput assays in mice, including MPRA and large-scale CRISPR saturation\nmutagenesis. The novel in vivo high-throughput technologies that I will develop in my training phase will enable\nto study in mice regulatory elements and disease-associated variants at developmental time points and tissues\nin my independent stage."
+ },
+ {
+  "id": "734bcf52-3130-4126-a2d3-f42665598c03",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Short-wave infrared Cerenkov imaging to better visualize targeted radiotherapy and diagnostic radiotracers",
+  "text": "PROJECT NARRATIVE & PUBLIC HEALTH RELEVANCE STATEMENT\nCerenkov luminescence imaging (CLI) provides an opportunity to provide facile and cheaper imaging of\nradiotracers, including targeted radiotherapy, particularly with alpha and electron emitters, which are very\ndifficult to image otherwise, however, currently CLI is severely limited by the requirement to image in total\ndarkness. Our application provides a novel imaging paradigm for CLI in ambient light with unprecedented\nsensitivity and signal penetration, making Cerenkov imaging overall more accessible and an option to monitor\ntherapy with alpha-emitting isotopes."
+ },
+ {
+  "id": "735593e1-e91a-4fc2-a48f-37562d753d3e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Functional evolution of segmentation gene regulatory networks in insects",
+  "text": "Regulatory genes that control embryonic development are shared among diverse species because changes in\ntheir basic functions are highly deleterious. Surprisingly, we found that the genes controlling a fundamental\nfeature of the insect body plan – segmentation – have changed during insect evolution, with genes gained, lost\nor changed in function. We explore the evolutionary and molecular mechanisms underlying these changes,\nwhich have allowed for seamless re-wiring of regulatory interactions, and develop tools to examine a cohort of\nsegmentation genes in new insect model systems that use different genes for early patterning than the\nestablished model Drosophila melanogaster."
+ },
+ {
+  "id": "7358219e-dc8e-438a-872c-3f3308a19905",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "High-throughput and Machine Learning Optimization of Fluorescent Sensors for Multiplexed Imaging in vivo",
+  "text": "Genetically-encoded, fluorescent protein sensors would provide tremendous advantages for analyzing\nhighly heterogeneous neuronal activity in the brain, but engineering and validation pioneering sensors only occur\nin incremental steps. We aim to significantly accelerate the engineering of sensors for calcium and\nneuromodulator detection by utilizing a novel high-throughput platform and machine learning, enabling the\nfunctional testing of large variant libraries at orders-of-magnitude accelerated speeds. The efficient engineering\nof precise and fully validated sensors will allow neuroscientists and biomedical researchers to precisely detect\nthe timing and location of neuronal signals and hence, could guide future neuroscience research on disease\nmechanisms, facilitate drug screening, and help to develop novel therapeutic approaches."
+ },
+ {
+  "id": "735b06bb-5882-4735-91ec-9e41ccf8d519",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Developing novel botulism antidotes and a platform for intra-neuronal delivery of nanobodies",
+  "text": "Botulinum neurotoxins (BoNTs) are extremely potent bacterial toxins causing the paralytic botulism syndrome.\nWe propose to develop a platform for intra-neuronal delivery of nanobodies in order to neutralize the toxin inside\nthe intoxicated neurons and accelerate recovery of botulism. The accomplishment of our goals will result in novel\nantidotes to treat post-exposure botulism, as well as a versatile platform for delivery of protein therapeutics to\nact on other intra-neuronal targets."
+ },
+ {
+  "id": "735c4fd7-f236-4ab5-a7d1-2e8e33b1513d",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Genetics and Developmental Biology Training Program",
+  "text": "This grant supports innovative training of 14 Ph.D. students in Genetics and Developmental Biology at\nStanford University, an interdisciplinary program that bridges different departments and prepares our students\nto carry out innovative, rigorous research and become leaders in academia and industry. Outstanding faculty\nand trainees combine new methods and diverse study systems to advance our mechanistic understanding of\ngenes, cells, tissues, organs, organisms, and human health and disease. These advances have spurred on the\nbiotechnology and biopharmaceutical industries that have ultimately led to improved clinical care and health\noutcome for millions of patients."
+ },
+ {
+  "id": "735c65a4-0c44-4d8c-9eda-dc83d18d3de8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Genetic Strategies for Neurodevelopmental Research",
+  "text": "To better understand the neurobiological and molecular underpinnings of autism spectrum disorder, a\nfirst goal of this application is to develop a nonhuman primate model through genetic modification of the\nCHD8 gene. This gene is among the most frequently mutated genes in individuals with ASD. A long-\nterm goal is to establish infrastructure to enable the generation of genetically modified monkeys for\ntranslational biomedical research - which we believe to be in the national interest."
+ },
+ {
+  "id": "735ce7f4-35d4-4e98-8470-71a868064344",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "PROX1-dependent epigenetic regulation of phenotypic plasticity during colorectal cancer metastasis",
+  "text": "Metastasis causes death by acquiring the unique ability to disseminate from a primary tumor and to adapt to\nforeign microenvironments. In colorectal cancer (CRC) and other solid cancers, metastatic progression is\ncharacterized by dedifferentiation into more primitive fetal states preceding a gain in phenotypic plasticity and\nthe emergence of transdifferentiated cell states. The goal of this proposal is to test the hypothesis that PROX1,\na transcriptional co-repressor aberrantly expressed during fetal reversion in CRC, modulates transcriptional\nand epigenetic programs that license phenotypic plasticity in metastasis."
+ },
+ {
+  "id": "736a4f85-2d28-4fec-bc35-0bd7390cb077",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Novel Computational Methods for Microbiome Data Analysis in Longitudinal Study",
+  "text": "To enhance understanding the microbiome's dynamic role in disease progression, and explore its clinical\npotential, we will develop two sets of analytic methods designed to 1) detect genome-wide microbial variants,\nidentify strains within species, and estimate strain relative abundance using longitudinal metagenomics samples\nand 2) develop, validate, and apply the microbial risk scores in disease prediction. Further, we will validate the\nproposed tools in multiple longitudinal microbiome studies; explore new insights; and develop, distribute, and\nsupport open-source software packages to apply the tools."
+ },
+ {
+  "id": "7371ce8a-2dbb-46aa-82c3-1ff95af4030c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Bidirectional signaling in T cell differentiation",
+  "text": "Statement\nT cells are the cornerstone for immunotherapies for cancer and other diseases, but there is limited understanding\nof mechanisms coordinately regulating the antitumor function of CD8+ T cells and bidirectional tumor–immune\ncrosstalk. We reveal Ube2l3, an E2 ubiquitin-conjugating enzyme, as a crucial negative regulator of CD8+ T cell\nantitumor function and tumor–immune interactions. A better understanding of these pathways, using both\ncandidate and screening approaches, is essential for our efforts to develop next-generation immunotherapeutic\nstrategies."
+ },
+ {
+  "id": "7376fd0c-608a-4553-9b25-a5cf700fcc31",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Sulfide metabolism and signaling",
+  "text": "Hydrogen sulfide is paradigmatic of the rich interplay between host and gut microbial metabolism that is\ninfluenced by diet, and in turn, influences whole-body sulfide homeostasis. Our laboratory has been at the\nforefront of deciphering how sulfide, by reversibly poisoning respiration, also remodels host redox and energy\nmetabolism. In the next cycle, our studies will illuminate how host sulfide metabolism is regulated, and reveal\nthe molecular underpinnings of its intersections with oxygen metabolism in the context of normal physiology and\ndisease."
+ },
+ {
+  "id": "73798f23-b114-4220-897b-e6d07695e97c",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Integrated Genomics Core",
+  "text": "INTEGRATED GENOMICS CORE | PROJECT SUMMARY The aim of the CLEAR Consortium’s Integrated Genomics Core is to facilitate synergy between the different projects and accelerate the program by providing a comprehensive, cost effective and highly integrated suite of genomic services used by all three Projects. Project 1 performs genome/exom sequencing of patient-parent trios to identify putative TED-causing variants, and has established the CLEAR registry a database that integrates genomic and clinical data. Projects 2 and 3 will perform experiments with single cells RNA-seq and ChIP-seq analyses to define the genomic basis of normal and disrupted TE development in animal models and human iPSC-derived organoids. The Core will used state-of-the-art bioinformatics, computational and statistical methods to analyze and integrate of all this genomic data. The core provides statistical rigor, supports bioinformatics literacy of the wet bench teams, provides data management, and facilitates data sharing between the projects and broader scientific community."
+ },
+ {
+  "id": "7379b47e-b952-4f08-b9ff-e16fd8e32626",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Artificial Intelligence and Dashboard Tools to Collect, Anonymize, and Summarize Companion Animal Antimicrobial Use Data",
+  "text": "Antimicrobial resistant bacteria are a growing public health threat that can spread among animals and people\nand are caused by using antimicrobials, whether in people or companion animals, such as dogs, cats, and\nhorses. Therefore, it is important to monitor antimicrobial use and trends in all species, but we have limited\ninformation on antimicrobial use in companion animals because it is time intensive to gather from veterinary\nrecords. Our approach uses novel artificial intelligence and dashboards to efficiently extract and analyze\nanonymous antimicrobial use information from veterinary records, filling a gap in our understanding and\nultimately promoting judicious use of antimicrobials."
+ },
+ {
+  "id": "7379e886-f29e-464e-98c3-5f7d7148d68e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "An Interneuron-based Cell Therapy for Epilepsy",
+  "text": "Epilepsy is a common neurological disorder afflicting nearly 3 million Americans. Given that loss or reduction of\ninhibitory synaptic transmission in hippocampus is one potential mechanism resulting in emergence of epilepsy,\na method to generate new hippocampal interneurons could have direct therapeutic consequences. Using porcine\nembryonic neural progenitor cells and rodent model of temporal lobe epilepsy or epilepsy-autism disorder we\npropose to develop a novel interneuron-based cell therapy."
+ },
+ {
+  "id": "738d6109-a50a-4e5a-ba0a-9e1775bdc9a9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cellular Programming in Persistent Versus Lytic Viral Infections",
+  "text": "CELLULAR REPROGRAMMING IN PERSISTENT VS. LYTIC VIRAL INFECTIONS PROJECT SUMMARY The long-range goal of the proposed research is to define the cellular factors that mediate JC polyomavirus (JCPyV) infection to better understand how virus-host cell interactions influence viral pathogenesis. JCPyV infects up to 80% of the population and establishes a lifelong, asymptomatic persistent infection in the kidneys of healthy individuals. However, in immunocompromised individuals JCPyV can spread to the central nervous system (CNS) and cause a lytic infection in glial cells resulting in the fatal, demyelinating disease progressive multifocal leukoencephalopathy (PML). Approximately 5% of individuals with HIV develop PML, a terminal AIDS- defining illness, and individuals receiving immunomodulatory therapies for diseases including multiple sclerosis are at heightened risk for PML development. The increasing number of individuals receiving immunomodulatory therapies due to immune-mediated diseases has led to a rising number of PML cases in the past decade. Over 700 total cases of PML are due to a single drug class. PML can be fatal, especially when underlying immunosuppression is left untreated, and there are currently no approved treatments for this devastating disease. The lack of an animal model and limited cell culture models have largely restricted studies of JCPyV to a single transformed cell culture model. Recently-published studies have revealed that primary cell culture models are a better representation of disease pathogenesis in vivo, and thus we have developed innovative primary cell culture models to define cellular factors that are required for JCPyV infection. Two integrated specific aims are proposed in this research project to: 1) characterize cellular factors that mediate JCPyV entry and infection in primary cell types, and 2) elucidate cell-type dependent differences in persistent and lytic JCPyV infections. This research will enhance our understanding of how virus-host cell interactions influence disease outcomes and will serve as a platform for the development of antiviral treatments. Through this work, cellular factors required for JCPyV entry in primary cell types will be characterized through loss- and gain-of-function approaches using cell-based assays. Transcriptome profiling through RNA sequencing analysis will be used to determine how JCPyV infection alters gene expression in a cell-type dependent manner to identify pathways relevant to JCPyV pathogenesis and fatal disease outcomes. This combinatorial approach utilizes newly developed primary cell models of JCPyV infection and takes advantage of innovative high-throughput analysis of viral and cellular protein expression and RNA sequencing approaches. This research will fill key gaps in our knowledge of JCPyV biology and could elucidate novel antiviral targets or provide rationale for experimental use of on-market therapies to prevent or treat the fatal disease PML. Findings obtained from this research will also provide broader insights into the entry and signaling networks for other pathogenic viruses, like coronaviruses, and improve our understanding of dysregulation of cellular signaling in other diseases such as cancer."
+ },
+ {
+  "id": "73914d58-900f-4484-ade5-197b8aef9823",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "PhysioSim: Innovative Physiology Simulation Education Kits for Pre-College Students and Teachers",
+  "text": "Evidence shows that activities promoting active learning rather than passive lectures improve students’ pursuit\nand persistence in STEM careers – most significantly for underrepresented students. While the introduction of\nSTEM educational products has been working to increase the number of students pursuing careers in science,\ntechnology, engineering, and math, the health science area has been underserved. A product that provides\nstudents with hands-on activities and experience in health science-related fields may increase interest and the\nbelief that they can successfully pursue healthcare-related careers."
+ },
+ {
+  "id": "7396dbf9-f3eb-4395-b458-5a3584ef8a01",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Immune Monitoring Shared Resource",
+  "text": "IMMUNE MONITORING SHARED RESOURCE: ABSTRACT The study of cellular phenotypes and states within complex biological networks, such as the human immune system, is crucial to the advancement of cancer medicine. Although various tools are available to support this research, significant barriers, such as high costs, complexity in data acquisition, and specialized analytical pipelines often hinder access. The Immune Monitoring Shared Resource (IMSR) was created to provide Mayo Clinic researchers, including Mayo Clinic Comprehensive Cancer Center (MCCCC) members, with comprehensive access to high-dimensional single-cell tools. This initiative aims to accelerate basic, translational, and clinical research by leveraging state-of-the-art technology and advanced expertise to study complex biological systems. These functions are enacted through three Specific Aims: Aim 1: Support high-parameter analysis of single-cell suspensions generated from complex biological systems (high-dimensional cytometry). This service uses cytometry by time-of-flight (CyTOF). Aim 2: Support high-parameter spatial analysis of single-cell data generated from intact tissue sections (high-dimensional spatial biology). Imaging mass cytometry or multiplex immunofluorescence are used to provide this service. Aim 3: Develop, test, validate, and share bioinformatic tools to support analysis of complex datasets generated by using these systems. Close collaboration with the Mayo Clinic Bioinformatics Shared Resource is used to provide this service. The IMSR is an enterprise-wide core that operates under a full-service philosophy, providing MCCCC members with an end-to-end solution that includes project consultations, sample preparation, data acquisition, and data analysis. Member Utilization 2019-2023: 66 Total (1 CPCS, 3 REDI, 11 CGSM, 20 CII, 10 NTTM, 21 ACTS) Publication by Members: 18, 13 with Impact Factor >10"
+ },
+ {
+  "id": "73a37e22-4db6-4704-8c4e-7c702fcbc217",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular Imaging Probe(s) for Optical Surgical Navigation of Pancreatic Cancer",
+  "text": "Pancreatic cancer (PC) is a highly lethal malignancy with surgical resection as the most effective curative option.\nLimited sensitivities of pre-operative imaging modalities, inconspicuous lesion/margin detection under white light,\nand limited efficacy of surgical Laparoscopy to visualize small lesions contribute to incomplete resections, high\nlocal recurrence rates, and poor outcomes. We propose to develop and evaluate MUC4-targeted near-infrared\nfluorescence imaging probes to facilitate fluorescence-guided surgical navigation for improved surgical resection\nof PC and its pre-malignant precursor lesions."
+ },
+ {
+  "id": "73a6702c-a6a3-412a-9992-f93cdccdadbf",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Navigation assistance using multimodal LLM and computer vision",
+  "text": "The proposed research aims to address the micro-navigation need, which is still largely unmet as the GPS-\nbased navigation solutions do not have pin-point accuracy and fail in GPS-denied areas. To address the\nindependent travel need, the proposed solution uses the latest AI and computer vision technologies. The\nresearch will contribute to the missions of NEI to support research with respect to blinding eye diseases and\nvisual disorders."
+ },
+ {
+  "id": "73a8ff60-4863-40e3-b177-1ebfcddf2ee5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multicenter Validation for a Deep Learning Approach for Enhanced Urine Cytological Assessment and Rapid Bladder Cancer Screening",
+  "text": "Although bladder cancer is one of the most common and recurrent cancers worldwide, current noninvasive\ndiagnostic methods are inconsistent and inefficient, making screening frequent, costly, and challenging. Our\nteam has developed AutoParis-X (APX), an innovative tool designed to streamline and enhance urine cytology\nassessments, with the potential to significantly advance the diagnostic process, much like the impact of\nautomation on Pap smear screenings. By refining and validating APX across multiple settings, we aim to improve\nbladder cancer diagnosis, ultimately benefiting patients with more accurate, cost-effective care and advancing\nour understanding of this prevalent and recurrent disease."
+ }
+]

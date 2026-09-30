@@ -1,0 +1,142 @@
+[
+ {
+  "id": "00c34747-6d7c-43d2-9fce-995155d39bc1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Novel methodologies to minimize pediatric PET/CT dose",
+  "text": "The proposed research has significant and important implications for use of PET/CT in pediatric patients.\nThe targeted radiation dose reduction and scan time shortening will increase safety and simplify workflows\naround PET/CT, resulting in immediate impacts on clinical use and paving the way for future impacts in terms\nof increasing the use of this powerful modality in research and clinical care. Our work will markedly decrease\npatient radiation exposure and the need for sedation or anesthesia for children who benefit from the unique\ninformation provided by PET/CT."
+ },
+ {
+  "id": "00c422f6-16ca-415a-9c4c-cca1e1f600fa",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Continued Development of Infant Neuroimaging Analysis Tools",
+  "text": "This project is dedicated to 1) creating and disseminating the first set of multi-site applicable, infant cerebellum-\ndedicated neuroimage analysis tools based on cutting-edge deep learning techniques to enable precise\nquantification of early cerebellum development, and also 2) adding new cerebrum-related functionalities and\nimproving existing functionalities in iBEAT. We will develop novel techniques for infant cerebellar image tissue\nsegmentation, atlas building, surface reconstruction and parcellation, and enrich cerebrum-related functionalities\napplicable for large-scale infant brain MRIs from diverse imaging sites, scanners, and protocols. We will feely\nrelease our developed tools, atlases, and our processed dHCP/BCP/NDAR/HBCD data to the public."
+ },
+ {
+  "id": "00c875bc-350a-4f0d-8a8d-c8b813e178cf",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Discovery Science Collaborative for CKDu",
+  "text": "The Discovery Science Collaborative for CKDu is a multi-PI application for the Renal Science Core for the\nChronic Kidney Diseases of UnceRtain Etiology (CKDu) in Agricultural Communities (CURE) Research\nConsortium. The Renal Science Core consists of several Core components: Genomics, Pathology,\nTranscriptomics, Biomarker / Proteomics, Physiology, and Bioinformatics / Data Integration. The RSC team is\nuniquely poised to work within an NIDDK infrastructure with Field Epidemiology Sites, the Scientific Data\nCoordinating Center, NIDDK leadership, HHEAR, and the External Oversight Committee to make significant\ncontributions to the CURE Consortium in discovery science and achieve the long-term goal of elucidating the\netiology, progression, and heterogeneity of CKDu in agricultural communities."
+ },
+ {
+  "id": "00cf9738-9b52-4475-9e49-e6b8475954a2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Ghrelin as Radiation Countermeasure: Mechanism of Its Action",
+  "text": "Individuals exposed to high doses of ionizing radiation can\ndevelop deadly gastrointestinal acute radiation syndrome (GI-ARS) for which no specific treatment is yet\navailable. In this project, we will elucidate a novel neuroenteric mechanism through which human ghrelin\nconfers intestinal radioprotection, and leverage it to preclinically develop human ghrelin as a safe and effective\nradiation mitigator for GI-ARS. These studies shall provide novel insights into the control of intestinal healing\nby a new and effective treatment for victims of major radiation exposure."
+ },
+ {
+  "id": "00d15f61-15a1-40d7-beab-bb6c6964e80c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Characterizing Breast and Cervical Cancer Burden Among Sexual Minority women",
+  "text": "Women who identify as bisexual, lesbian, or queer have lower rates of breast and cervical cancer screening, but no large-scale data is available to understand the implications of these differences on cancer burden. In this project, we will better characterize breast and cervical cancer screening patterns by sexual orientation and simulate the expected burden of cancer given current knowledge on risk behaviors and screening patterns. This research will provide much needed estimates of stage-specific cancer incidence and mortality, as well as provide actionable insights on upstream determinants affecting cancer screening use and breast and cervical cancer risk by sexual orientation."
+ },
+ {
+  "id": "00d98057-b35a-4a05-9bf5-29eebd0cf71b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Neurometabolomics and Neuroproteomics Center on Cell-Cell Signaling",
+  "text": "Literally hundreds of thousands of chemically distinct molecules are present in every cell in the brain and can be\nmodified based on exposure to drugs of abuse, and yet the technologies to measure and elucidate this chemical\ncomplexity are not broadly available. Our Center offers unparalleled measurement capabilities and analytical\nsupport to a broad range of drug abuse and fundamental science projects, ensuring their success."
+ },
+ {
+  "id": "00e581cf-e126-4008-ab74-1a59fd4c19ab",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Molecular mechanisms of antibody-mediated immunotherapies",
+  "text": "Our studies focus on developing new and more effective immunotherapy strategies for treating cancer. The\nproposed research will define pathways contributing to immune response within the tumor microenvironment\nand test these findings using newly developed pre-clinical models. This work has the potential to significantly\nadvance cancer treatment by developing new treatment methods and by increasing the overall knowledge of the\nbiology of antibodies in the treatment of cancer."
+ },
+ {
+  "id": "00e80e34-488e-48df-b44b-5f064ab87004",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "MYC-alarmin axis as a novel therapeutic vulnerability in myelofibrosis",
+  "text": "Despite advances in our understanding of the underlying genetic abnormalities in myelofibrosis (MF) and the\ndevelopment of JAK2 inhibitors, MF remains an aggressive chronic myeloid malignancy due to persistence of\nJAK2-activating mutations in patients undergoing JAK2 inhibitor therapy, the emergence of drug resistance, and\na propensity for transformation to acute myeloid leukemia (AML). Thus, there is an urgent need to devise new\ntreatment strategies that target the molecular and genetic aberrations driving MF development and clonal\nexpansion, particularly in triple negative MF patients who lack mutations in the JAK2 kinase pathway. This R01\nresearch program focuses on defining the roles of a new MYC-alarmin circuit that we have shown is sufficient to\nprovoke MF, and to preclinically assess the therapeutic potential of targeting this pathway to improve outcomes\nin MF."
+ },
+ {
+  "id": "00e8871f-ce04-4757-bbf5-6aa0da4fa94a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Single Cell Proteoform Profiling using Top-Down Mass Spectrometry",
+  "text": "Proteoforms play key roles in human health and disease and are effective\nmarkers for differentiating cell types and heterogeneous cell populations. The proposed\nresearch develops a suite of high-throughput technologies for enhanced proteoform profiling of\ntissue-contained single cells particularly rare cells. This proposal will uncover novel molecular\nsignatures for tissue-resident innate immune cells and expand our knowledge on their roles to\nfurnish novel therapeutic strategies in relevant diseases."
+ },
+ {
+  "id": "00ee9fca-c392-4708-82bd-879121945282",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Engineering a gut-on-chip model to study biomechanical forces on the enteric nervous system",
+  "text": "Functional gastrointestinal diseases, such as chronic idiopathic constipation, affect millions of Americans each\nyear and the vast majority of cases have no identifiable cause or effective treatment options. Neurons and glia\nof the enteric nervous system (ENS) are important regulators of gastrointestinal function and are highly\nvulnerable to mechanical stressors in the gut, such as stretch and shear stress, but our understanding of how\nthe ENS responds to biomechanical stress is limited. This R03 proposal will develop new technology and\nmethodology to determine the effect of biomechanical forces on enteric neurons and glia, ultimately enhancing\nour understanding of neurointestinal physiology."
+ },
+ {
+  "id": "00f21804-8ec2-48f2-ae73-b98fa9c7a21c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Circadian and homeostatic regulation of sleep in a diurnal model of Smith-Magenis Syndrome",
+  "text": "Smith-Magenis Syndrome (SMS) is a genetic disorder with cognitive, behavioral, circadian activity and sleep\ndisturbances, and sleep disturbances can worsen behavioral and cognitive symptoms. Leveraging here a\nrecently developed diurnal rodent, we will investigate the neural mechanisms underlying the sleep\ndisturbances in SMS. The results will contribute to better understanding of the neural mechanisms and to the\ndevelopment of novel interventions for sleep problems in SMS and other neurodevelopmental disorders."
+ },
+ {
+  "id": "00f4b40e-aab2-49d9-a9b0-84e6c0eb09f4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating the role and therapeutic potential of the alpha5beta1 integrin in risk factors for COVID-19-associated cognitive impairment",
+  "text": "The interplay between vascular dementia (VaD) and COVID-19 morbidity, mortality, and post-COVID cognitive\ndecline is poorly understood and lacks effective treatments. Advancing age and other co-morbidities are\ncommonly associated with VaD and COVID-19 incidence and severity. Here we propose to investigate a novel\nmechanism by which increased expression of integrin α5β1, a receptor that we have implicated in both VaD and\nCOVID-19, aggravates the pathophysiology of COVID-19 in the VaD-susceptible aged population using animal\nand cell culture models."
+ },
+ {
+  "id": "00f6b916-50cb-498d-85d8-d4ba09dbc648",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of Cyr61/CCN1 in Mesenchymal Stem Cell Niche and Aging Bone",
+  "text": "Aging-related bone degeneration is a major healthcare challenge for America's growing population of\naging Veterans. Changes in bone mass and structure occur with age and are common in both women and men,\nresulting in increased risk for debilitating pain, bone fracture, and delayed healing. With aging, resident stem\ncells in bone lose their ability to maintain the tissue and bone degeneration takes place over time. My preliminary\nresults suggest that during aging, the level of a protein, Cyr61 (also known as CCN1), becomes depleted in\nbone. The proposed research will investigate this protein and determine if it's required for normal function of\nbone-specific stem cells and whether replenishing it during aging restores their function in bone. The results\ngained from this study may provide a novel approach for reversing bone degeneration during aging or stimulating\nbone repair after injury."
+ },
+ {
+  "id": "00f878fc-a63d-410a-bf34-49603fb03341",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Nef-independent SERINC5 regulation",
+  "text": "Serine Incorporator 5 (SERINC5) is found at the plasma membrane of cells and is critical for the inhibition of\nHIV-1 particle infectivity. Although the effect of Nef on SERINC5 is well described, it is currently unknown if\nHIV-1 utilizes other strategies to counteract SERINC5. This proposal aims to elucidate strategies utilized by\nHIV-1 to block the antiviral effect of SERINC5 that are currently unknown and have the potential of providing\nnovel therapeutic strategies targeting SERINC5-mediated restriction."
+ },
+ {
+  "id": "0101996a-4d9f-432f-ae18-98bb80824b43",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Extensible Open Source Zero-Footprint Web Viewer for Cancer Imaging Research",
+  "text": "The Open Health Imaging Foundation (OHIF) Viewer is a free, professional-grade, open source, web-based\nmedical imaging viewer and application framework that our team has created for the cancer community. OHIF\nhas been widely adopted by hundreds of imaging informatics projects in cancer research and beyond to\nvisualize and quantify disease within patients’ imaging exams. The current proposal will enhance and sustain\nthe platform to expand its image visualization and analysis capabilities, create user-friendly deployment\nmethods, and provide developer, end user, and regulatory support to help researchers better evaluate the\nnature of cancer disease progression and response to treatment."
+ },
+ {
+  "id": "01074f9a-ba76-454e-9ec8-e46d5aada432",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "An LCMS-guided bioanalytical approach for rational natural product library design and optimization",
+  "text": "High-throughput screening of compound libraries is a fundamental starting point to drug development\nefforts, and natural product libraries are one of the most valuable sources of novel bioactive molecules.\nHowever, until now there have been few evidence-based rules for the rational design of natural product\nlibraries. This work is relevant to public health because it will demonstrate the utility of bioanalytical liquid\nchromatography-mass spectrometry to addressing this biological need, and lead to accelerated drug\ndevelopment in the long term."
+ },
+ {
+  "id": "01077cb7-9bf4-4d33-b0d6-86c58d2d3270",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Wake Forest NCORP Research Base",
+  "text": "The Wake Forest NCORP Research Base develops and implements multi-site Cancer Control and Cancer Care Delivery (CCDR) clinical research studies in partnership with NCORP Sites to improve patient well-being and the quality of cancer care."
+ },
+ {
+  "id": "010b37c4-72f9-4db8-8d52-4e2c2d67db5f",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Project II - Leveraging artificial intelligence for integrative multiomics analysis of high-risk populations to understand the biologic etiology of pancreatic cancer",
+  "text": "PROJECT SUMMARY – Project 2 Project 2 Pancreatic ductal adenocarcinoma (PDA) is a leading cause of cancer-related mortality in the United States, with rising incidence and death rates. Mortality rates vary across patient populations, and in those at the highest risk of developing PDA, mortality remains elevated even after accounting for established risk factors and socioeconomic measures. This pattern suggests a possible biological contribution. However, high-risk patient populations for which limited data are available have not been extensively investigated in publicly available genomic and clinical databases or in biorepositories, constraining the ability to conduct comprehensive analyses and develop refined precision therapeutic strategies. Advances in artificial intelligence (AI) provide a powerful opportunity to bridge this gap by enabling large-scale, real-world data analyses. To address this gap, we will pursue three specific aims: In Aim 1, we will develop a natural language processing (NLP) model to extract structured and unstructured clinicopathologic data from clinical sources, facilitating standardized and scalable analyses. We will then apply this validated model to characterize the somatic mutational landscape of PDA in Hawai‘i and assess its impact on patient outcomes. In Aim 2, we will analyze clinically derived whole-exome and whole transcriptome sequencing data to evaluate subtype distribution, stromal composition, and stromal activation. Additionally, we will leverage AI-driven spatial transcriptomics to investigate tumor spatial organization, including tumor-stroma interactions, and their impact on patient outcomes. In Aim 3, we will generate patient derived organoids (PDOs) from metastatic PDA biopsies of patients from high-risk populations, addressing a critical lack of data in biorepositories. We will validate these PDOs through genomic, histopathological, and therapeutic sensitivity analyses and correlate findings with clinical outcomes to assess their translational potential. By integrating AI-driven data extraction, molecular characterization, and spatial transcriptomic analysis with patient-derived models, we aim to elucidate the molecular and spatial tumor features underlying PDA disparities and potentially identify novel predictive and prognostic biomarkers to improve patient outcomes."
+ },
+ {
+  "id": "0117be11-06dd-41de-92e2-030c35d9e199",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Machine learning-enhanced cardiomyopathy prediction in childhood cancer survivors",
+  "text": "Over half of pediatric cancer survivors are at high risk for cardiomyopathy due to cardiotoxic exposures during\ntheir cancer treatment. At-risk patients undergo serial echocardiographic screening, but echocardiography is\nlimited in its ability to detect subtle, potentially reversible cardiac changes before permanent damage is present.\nThis proposal will use an innovative combination of routinely collected clinical and echocardiographic data,\nadvanced machine learning techniques, and clinician stakeholder perspectives to optimize a machine learning\nmodel for prediction of cardiomyopathy."
+ },
+ {
+  "id": "011bfe1b-9c1b-436d-8cae-2edbb24f5d4f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Ultrasensitive detection of Mycobacterium tuberculosis infection",
+  "text": "Tuberculosis represents one of the most frequent causes of morbidity and mortality in humans worldwide.\nTuberculosis drug resistant infections are increasing throughout the world, making it critical that rapid\nscreening strategies are developed for therapeutics and other novel interventions. This project is geared\ntoward improvement and validation of groundbreaking imaging technologies that can be used to replace much\nslower and inefficient conventional approaches to track bacterial viability, whole animal localization during\ndisease and speed development of novel therapeutics and vaccines."
+ }
+]

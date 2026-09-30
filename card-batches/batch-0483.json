@@ -1,0 +1,142 @@
+[
+ {
+  "id": "1ed14bfd-ac72-49a7-8760-0e58764307d5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Sensor-Based Intervention Modeling: A Personalized Tool to Support Intervention in Adolescent Mood Disorders",
+  "text": "Evidence-based interventions for adolescent mood disorders commonly rely on inter-session monitoring of\nmood and behavior to inform case conceptualization and track outcomes; however, adherence to standard\nmonitoring approaches is poor in adolescence, undermining effective treatment. The proposed study will test a\nnovel smartphone-based monitoring approach that uses low-burden digital strategies and personalized modeling\nto support clinical intervention. The goal of this proof-of-concept study is to develop and validate a novel\nmonitoring tool and explore translation to the clinic, providing the foundation for a next-step R01 proposal."
+ },
+ {
+  "id": "1eda5e3e-0836-4814-b0fb-1357ad016b59",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Optimizing prognostic and predictive algorithms using residual disease (RD) genomic biomarkers in HER2+ and TNBC",
+  "text": "We propose to comprehensively examine the role of tumor and microenvironmental factors\ndetermining outcome in patients with residual disease after neoadjuvant therapy in HER2-\npositive and triple negative nonmetastatic breast cancer. We will do this by integrating RNA\nsequencing and clinical features of over 1500 patients with HER2+ breast cancer, and over\n1200 patients with triple negative breast cancer from multiple neoadjuvant clinical trials in order\nto: a) determine if pre-treatment or residual tumor biology is more prognostic, and b) develop\nprognostic algorithms for outcome in those with residual disease, including identification of\nthose with good prognosis without additional postoperative adjuvant antibody-drug conjugates\n(for HER2-positive) or chemotherapy (for triple negative). Using spatial transcriptomics we will\nalso examine B and T cell interactions with tumor cells in residual disease specimens."
+ },
+ {
+  "id": "1edb6bbb-3811-46ec-a769-8b50ea22d8f6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Functional genomics to investigate gene regulatorynetworks in cardiac fibrosis",
+  "text": "Treating cardiac fibrosis is crucial because it contributes to the progression of heart failure by stiffening the\nheart muscle, impairing its ability to pump blood, thus increasing the risk of life-threatening arrhythmias and\nsudden cardiac death. Development of novel therapeutic interventions for the treatment of cardiac fibrosis is\nlimited by an incomplete understanding of cardiac fibroblast biology. This project aims to define the causative\ntranscriptional regulators and molecular pathways underlying cardiac fibroblast activation, with the goal of\nidentifying new therapeutic targets for treating cardiac fibrosis and heart failure."
+ },
+ {
+  "id": "1edf980e-b80f-47bc-974b-af4ff6d1003f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating the role of skin and gut microbiome in the onset of atopic dermatitis in infants",
+  "text": "Atopic dermatitis often begins in infancy and is accompanied by significant alterations in both the skin\nand gut microbiome. Understanding the roles and relationships of the skin and gut microbiome has\nthe potential to inform novel therapeutic and preventive strategies for atopic dermatitis. The goal of\nthe proposed studies is to utilize genomic, bioinformatic, and experimental approaches to fill this gap\nin our understanding of the role the microbiome plays in the initiation of atopic dermatitis."
+ },
+ {
+  "id": "1ef1ec2e-5afb-45f5-9ea4-077f7ab04bf2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "G6PD Deficiency and Atherosclerosis",
+  "text": "Project Narra�ve\nWe provide the first evidence that mice with G6PD deficiency (G6PD-d) due to a genetic variant\nhave increased atherosclerosis compared to control mice. We identified atheroprotective B cell\nsubtypes and IgM to oxidation specific epitopes as key factors limited by G6PD-d. We will\nemploy innovative humanized murine models to define mechanisms whereby G6PD-d alters B\ncell biology and to determine if other non-B cell-mediated processes altered by G6PD-d are also\ninvolved. These studies are expected to steer the field of nonmalignant hematology in new\ndirections and carry high potential to open new pathways for prevention and treatment of\ncardiovascular disease, the leading cause of death worldwide."
+ },
+ {
+  "id": "1efd41d4-1add-4703-8a05-8a9884b239d4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "MATCHMAKERS: Solving T-cell receptor recognition and design via integrated high-throughput screening and structural, functional and computational approaches",
+  "text": "Understanding how T cell receptors (TCRs) see tumor antigens presented by MHCs is necessary to fully understand how the immune system recognizes tumor antigens, and to reap the full potential of antigen-specific immunotherapy. To achieve this goal, a quantum leap forward is required in which the revolutionary advances in machine learning are combined with a large volume of structure, function, data on matched TCR-pMHC pairs. The development of accurate predictors of TCR-antigen recognition will be dependent on the creation and integration sequencing-based datasets with high-throughput structural and functional insights. Our proposal, submitted as a CRUK/NCI Grand Challenge team (MATCHMAKERS) will combine researchers with expertise in immunology, methods development, structural biology, and computation to enable generalized prediction and design of TCR recognition. This work will be spread across four Work Packages (WPs): WP1: Large-scale generation of TCR-pMHC pairs from naturally occurring sources. We will build datasets of naturally occurring TCR-pMHC pairs. Our team will use an array of approaches to collect these datasets, from humans and from mouse models, and in the context of both cancer and immunity more generally. WP2: Ultra-high throughput TCR-pMHC matching using molecular engineering. Efforts to create general models will require a broader array of data than feasible to collect from natural TCR systems. We will use an array of synthetic approaches developed by our team to comprehensively match TCRs with pMHCs to train computational models. WP3: Large-scale structural and biochemical analyses of TCR-pMHC interactions. A key to our team’s vision is to match interaction datasets with high throughput structural and functional insights. A deep understanding of how the TCR contacts with MHC helices control function and orientation will be essential for training and testing computational models. WP4 AI-based prediction and design of TCR-pMHC interactions. We will integrate our data to train next- generation algorithms capable of generally predicting and designing TCR-pMHC interactions. These predictions will proceed through a reiterative testing and feedback circuits for further model optimization."
+ },
+ {
+  "id": "1efdb676-b2d6-4278-b50a-5fa1a8c46dde",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Circuit mechanisms linking inflammatory challenges to behavior",
+  "text": "The proposed research project is relevant to public health because it focuses on understanding how inflamma-\ntory diseases—which affect over 67 million individuals globally and show rising incidence—increase the risk of\npsychiatric conditions. Once the mechanisms driving these associations have been identified, they could be tar-\ngeted therapeutically to prevent or treat psychiatric disorders linked to inflammation. This project directly ad-\ndresses Goal 1 of the NIMH Strategic Plan (Define the Brain Mechanisms Underlying Complex Behaviors) and\nwill bring us closer to achieving Strategic Goal 3 (Strive for Prevention and Cures)."
+ },
+ {
+  "id": "1f08186c-511f-4be0-8b3c-41956c8d9d1c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Coordinated Heart Stimulation Testbed: A Platform for Contractile Ventricle Engineering",
+  "text": "End-stage heart failure is one of the leading causes of death and disability in the US, and options for these\npatients, including heart transplantation, are minimal. Researchers are trying to build transplantable hearts from\nhuman stem cells and organ scaffolds, but the immaturity of the lab-grown heart muscle cells is a significant\nobstacle. We will develop an innovative womb-like machine that provides the mechanical, electrical, and\nbiological signals to develop bioartificial ventricles, establishing the platform for a potential new wave of\nbreakthroughs in cardiac tissue engineering toward building a bioartificial heart."
+ },
+ {
+  "id": "1f0b7018-6a4e-4071-b301-6047edb3dc9e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Using microvolumetric cyst fluid proteolysis for early detection of pancreatic cancer",
+  "text": "Pancreatic cystic lesions (PCLs) are incidentally identified on abdominal imaging studies in more than a\nmillion patients annually in the U.S. and they represent an opportunity for early detection of pancreatic\nadenocarcinoma. Most patients with PCLs have “indeterminate” cysts in which both the type and histologic\ngrade are clinically and radiographically uncertain, and current diagnostic tests are inadequate and require\nlarge cyst fluid volumes that are often unavailable. We propose to evaluate our novel micro-volumetric two-tier\nclassifier that can improve diagnostic accuracy of current cyst fluid tests, as well as to use novel tools\nincluding mPower, a radiology report search engine, to improve capture of patients with “missed” PCLs and,\nthereby, expand racial and ethnic diversity in our electronic Panc Cyst Registry."
+ },
+ {
+  "id": "1f137325-ccfd-48af-b740-3e70631863a5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Deconvolving the language of protein binding",
+  "text": "This research program will elucidate the rules governing the binding of proteins to DNA and the contributions\nof epigenetics, co-factors, and chromatin to modulate binding. Understanding these rules and how aberrant\nbinding of proteins can occur will provide greater insight into the nature of gene mis-regulation and\nsubsequent disease progression."
+ },
+ {
+  "id": "1f23cd5a-cb17-4be9-8067-0b08a740f370",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Clinical Research Program",
+  "text": "CLINICAL AND TRANSLATIONAL RESEARCH PROGRAM Recognizing the fundamental nature of clinical research at UNC, and that common vulnerabilities may be found across many cancers, CR has further invested in the bench-to-bedside continuum. We have become even more integrated around the themes of tissue-based research, novel therapeutics and technologies with a pivot towards investigator intiated trials (IITs). CR, rated “Outstanding” at the last competitive renewal, has broad clinical and research expertise across all cancer types and key correlative strengths in imaging, statistical design, biomarker development, immuno-oncology, and tissue-based research. CR themes include: 1) Develop and evaluate novel therapies through early phase and investigator-initiated clinical trials; 2) Conduct tissue-based state-of-the-art ‘omics research to improve cancer treatments; 3) Develop new technologies for the diagnosis and treatment of cancer. Highlights of CR work and future plans include innovative IITs leveraging UNC research, an investment and track record of success in cellular immunotherapy trials, translating genomics efforts into therapeutic clinical trials, and incorporating biomarker development, novel imaging, and technologies into our trials. It is led by three dynamic trialists and physician-scientists, Drs. Dees, Milowsky, and Yeh. Each bring a complementary skill set to the program: Early Phase trials (Dees), genomics and novel drug trials (Milowsky), and translational collaborative research (Yeh). CR focuses on catchment area diseases and on training the next generation of clinical scientists. CR members are involved in multiple trials targeting cancers of particular relevance to the catchment area, the state of North Carolina. The CR Program consists of 60 members who are associated with 7 basic science and 10 clinical departments at UNC-Chapel Hill and affiliated institutions. During the last funding period, members published 1260 cancer- related articles, 34% were inter-programmatic and 18% were intra-programmatic (45% collaborative). In 2019, program members held grants totaling $18.7M (direct cost) in cancer-relevant extramural funding, including $5.2M (direct costs) from the NCI and $4.9M other peer-reviewed funding."
+ },
+ {
+  "id": "1f2b5537-c71a-4e6e-9a98-c2a66312f0e7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The CANcer Cachexia Action Network (CANCAN): a Multidisciplinary Virtual Institute with the Mission to Cure Cancer Cachexia",
+  "text": "Abstract Background Cancer cachexia (CC) is a systemic, metabolic wasting syndrome featuring body weight loss due to skeletal muscle and adipose tissue wasting. CC is suffered by ~80% of cancer patients that causes reduced performance status, intolerance to chemotherapy, and increased mortality. This debilitating condition is poorly understood and has no effective treatment. If CC therapy existed, it would improve treatment responses, increase quality of life, and prolong survival. With 50 years of study, the field has focused on defining pathways that promote atrophy in the end-organs most affected my cachexia. While this work has been fruitful, it has not led to identification of the upstream mediators of CC, nor has it generated effective therapies. There is an urgent need for high-quality discovery science and more detailed clinical phenotyping.We have created a virtual institute comprised of diverse, international, multidisciplinary scientists and clinicians with expertise in cancer, metabolism, neuroendocrine function, immunology, human metabolic diseases, preclinical models, and clinical phenotyping. We hypothesize that CC is driven by tumor-intrinsic factors that activate neurohormonal sickness pathways, which then induce anorexia, metabolic dysfunction, and tissue atrophy. Aims Project 1 - Identification of cancer-induced systemic metabolic dysregulation. Project 2 - Determination of tumor-immune drivers of cachexia. Project 3 - Defining the neuroendocrine response to cancer. Project 4 - Identification of clinical cachexia subtypes. Methods Our approach involves sophisticated measures of host-tumor interactions including innovative investigation of (1) systemic metabolic flux in mice using isotope tracing, imaging mass spectroscopy, dynamic nuclear imaging, and dietary and pharmacologic interventions; (2) cellular components and secreted factors from the tumor microenvironment using imaging mass cytometry, patient-derived organoid xenografts, microbial toxins, and CRISPR-based manipulations; (3) central pathways regulating appetite, behavior, and peripheral organ metabolism using human metabolic phenotyping, optogenetic, and pharmacological methods. We will perform the largest, most comprehensive observational study in CC subjects to thoroughly define CC subtypes and their clinical biomarkers using epidemiologic tools, novel image segmentation algorithms, and cluster analyses."
+ },
+ {
+  "id": "1f2c5c3d-d674-4d42-bd8f-87d5d83ab323",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project 1: Therapeutic Gene Editing for Spinal Muscular Atrophy (Trailblazer)",
+  "text": "PROJECT 1 (SMA) Spinal Muscular Atrophy (SMA) is a progressive motor neuron disease (MND) and the leading genetic cause of infant mortality across all ethnic groups. SMA is caused by the homozygous loss of the essential survival motor neuron 1 (SMN1) gene and while one or more copies of the highly similar SMN2 gene partially compensates for the loss of SMN1 in SMA patients, SMN1, in contrast to SMN2, contains a C·G-to-T·A change at position 6 of exon 7 (C6T). This change leads to skipping of exon 7 during mRNA splicing and the resulting truncated SMNΔ7 protein is rapidly degraded in cells. This rapid degradation results in SMN protein insufficiency, loss of motor neurons, paralysis, and death. Patients with the most common form of SMA, type I, have a ~10-fold reduction in SMN protein levels and live to a median age of 6 months if untreated. In this trailblazer project, we aim to (1) Optimize base editing treatment protocols in Δ7 SMA mice; (2) Assess biodistribution, off-targets, and toxicity profiles in SMA mice; and (3) Conduct large-scale efficacy studies. We will work closely with the Gene Editing core to generate rigorous analyses of gene editing outcomes for the IND submission of our trailblazer project, and we will coordinate closely with the Preclinical Mouse Model Core to analyze samples from large-scale efficacy studies. The successful outcomes of this trailblazer project will also inform the strategies used to develop genome editing-based therapeutic leads in all Follower Projects."
+ },
+ {
+  "id": "1f358c02-1716-4c7b-982b-5472a08ca25b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "TRD 4: Platforms for multi-modal and multi-scale imaging data",
+  "text": "TRD4: PLATFORMS FOR MULTI-MODAL, MULTI-CONTRAST, AND MULTI-SCALE IMAGING DATA Lead Principal Investigators: Andreia Faria, Associate Professor of Radiology; Jeremias Sulam, Assistant Professor of Biomedical Engineering; Michael Miller, Professor of Biomedical Engineering. Co-Investigators: Tilak Ratnanather, Laurent Younes SUMMARY During the first period of this P41, we have developed platforms and technologies to analyze complex, multi- modal, and multi-scale brain MRI data, advancing both imaging science and collaborative research. We have emphasized the power of AI to solve inverse problems and extract meaningful predictors from imaging data and have applied AI to tasks like segmentation and quantification, providing consistent inputs for large-scale data science. Building on our extensive experience and technology developed under this P41 over the past four years, we propose to: 1) Develop statistical models of normal and abnormal anatomy using learned imaging priors for image reconstruction. Expanding on our previous work with inverse problems like susceptibility tensor imaging (STI), we will make these priors explicit to differentiate healthy from abnormal brain structures and identify novel biomarkers. 2) Create integrative models using multi-scale, multimodal, and longitudinal data to predict key factors in brain diseases. We will combine retrospective, cross-sectional, and prospective data to explore etiology, pathology, and prognosis using both algorithmic and mechanistic models. 3) Expand multimodal MRI analysis with AI-integrated tools for clinical and biomarker research. We will enhance analytical capabilities across contrasts, integrating traditional and AI methods for segmentation, quantification, and lesion analysis. We will develop privacy-preserving, bias-adjusted computable data objects (CDOs) to support reproducible research and personalized medicine, and implement encoding, synthesis, and latent feature modeling as the foundation for future AI models."
+ },
+ {
+  "id": "1f38cd89-2e0a-4f70-a139-cf8d59feedea",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "TR&D2: Advanced Statistical Image Reconstruction & Physics Informed Artificial Intelligence for Quantitative PET/MR",
+  "text": "The development of artificial intelligence (AI) methodology is of profound importance and is expected to have major societal impact, especially its effect on medicine. In the past funding cycle, we pioneered the application of deep neural networks (DNN) in various image reconstruction tasks and built a solid understanding and extensive experience of its applications in medical imaging. In this new TR&D, we propose use deep learning (DL) to push the application of AI in medical imaging beyond the traditional image reconstruction problem. The study of novel contrast mechanisms (e.g. new MRI sequence and new PET tracer) is a major frontline of PET/MR innovation. To achieve improved image quality, we will incorporate anatomic image and motion correction in a novel DL-based image reconstruction framework. We will also build our AI model based on the accumulated big imaging data at MGH while also providing a methodology to transfer this knowledge to new studies with few existing data. Our proposed domain adaptation and domain adaptation few shot learning technology will largely address some of the biggest challenges of AI in medical imaging, i.e., limited training data, the generalizability problem, thus enabling AI to be practically disseminated and used in clinical environment. Finally, we propose to estimate the posterior distribution of the reconstructed image. The availability of the uncertainty of reconstruction will open a new window for much more elegant and accurate diagnostic protocols and early treatment response evaluation in precision medicine thus leading to a significant number of new applications for PET/MR."
+ },
+ {
+  "id": "1f42f543-a0b9-46bb-8ff4-9670d0c13836",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Critical ELSI Issues to Address in Implementing Genomic Newborn Screening",
+  "text": "Genomic newborn screening can provide an opportunity to implement advances in genomic sequencing effectively and efficiently through the newborn screening public health system.   This study will address questions related to the clinical, ethical, legal, and economic implications of genomic newborn screening that are increasingly urgent and must be resolved to guide responsible expansion that benefits all American families."
+ },
+ {
+  "id": "1f46111d-ad22-4bed-9a0d-43fa09fdda5c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Rehabilitation Research and Development Center for Wheelchairs and Rehabilitation Engineering",
+  "text": "Mobility in the home and community is a key factor in determining autonomy and independence for many\nVeterans with disabilities (VwD). The VA provided 99,100 wheelchairs and scooters to Veterans in FY21. WARE\nhas been collecting data from focus groups, interviews, surveys, meta-analyses, and peer-reviewed reports to\ngenerate a roadmap for the next 5 years that addresses the needs of Veterans and technology domains in need of\nadvancement. Our roadmap is organized into 4 core activities and 4 research and development (R&D)\nthrusts: Health & Well-being, Living in the Community; Education & Employment; and Travel & Leisure. We\npropose 9 core R&D projects that address the technology domains, research thrusts, and the VA 2022-2028\nStrategic Plan. VwD within the VA’s Special Disability Programs, primarily those with conditions that directly\nresult from Military service, are the target beneficiaries of the proposed R&D."
+ },
+ {
+  "id": "1f4c1f70-ed0a-4040-8855-869960297c19",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dissecting the Transcriptional Control of Human MAIT Cell Identity and Function by PLZF and Helios",
+  "text": "Mucosal-associated invariant T (MAIT) cells are emerging as promising candidates for universal cellular\nimmunotherapies due to their rapid effector function, tissue-homing capacity, and non-MHC-restricted antigen\nrecognition. This project seeks to define how two lineage-defining transcription factors—PLZF and Helios—\nregulate MAIT cell identity, metabolism, and function using a clinically viable pharmacologic degradation strategy.\nBy uncovering the transcriptional and epigenetic circuits that sustain or limit MAIT cell fitness, this work will\nenable the development of metabolically optimized and transcriptionally reprogrammed MAIT cells for the\ntreatment of infection, cancer, and immune-mediated diseases."
+ },
+ {
+  "id": "1f570fe5-c328-425f-a44d-49001c462fa0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A Nanomaterial-Engineered Proteomic Platform to Map Curvature-Dependent Cardiac Signaling",
+  "text": "NanoPro is a nanomaterial-engineered proteomic platform that will unbiasedly map all proteins in\nthe curved membrane nanodomains that control cardiac signaling. This curvature-defined atlas\nwill show how membrane geometry selects proteins to shape heart cell function and uncover\ncurvature-encoded biomarkers and drug targets. These new biomarkers may allow clinicians to\ndiagnose arrhythmia, hypertrophy, and contractile failure earlier and treat heart disease more\nprecisely."
+ },
+ {
+  "id": "1f6510fb-100d-43f2-bac0-58121cd3b08e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Somatic mutations in autism spectrum disorder",
+  "text": "Autism spectrum disorder (ASD) is a neurodevelopmental disorder that affects 1 in 36 children in the United\nStates. Somatic variants, variants that arise after fertilization, have been implicated in ASD risk, but the types\nof variants that are enriched in ASD probands as well as the potential contribution of somatic variants in non-\ncoding gene regulatory regions are largely unknown. This proposal will apply innovative approaches to test the\nhypothesis that somatic variants in both gene coding and gene regulatory regions contribute to ASD risk and\ncan reveal new genes and mechanisms involved in ASD."
+ }
+]

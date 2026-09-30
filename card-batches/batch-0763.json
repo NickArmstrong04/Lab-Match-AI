@@ -1,0 +1,142 @@
+[
+ {
+  "id": "837e626e-6f0b-41e1-8d01-9ebab04fe218",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Contributions of cell type and exosome signaling to prodromal synaptic and circuit changes in Alzheimer's Disease models",
+  "text": "This proposal aims to determine the role of extracellular vesicle-mediated intercellular communication in the\npathology of Alzheimer’s Disease by taking advantage of new technologies in human cellular engineering,\nsensitive molecular profiling and imaging. Results of these studies will illuminate fundamental mechanisms\nrelated to Alzheimer’s Disease and brain function and identify candidate biomarkers useful to establish and\nmonitor disease treatment."
+ },
+ {
+  "id": "8385458c-e2be-438b-acd0-54231db0ea4b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "ATF4 a Novel Regulator of Cardiac Development",
+  "text": "While previous studies have shown that ATF4 functions as a transcriptional regulator in diverse cell types and\ntissues under various physiological and pathological conditions, including cardiac diseases, little is known as to\nthe specific role of ATF4 in cardiomyocytes. Our proposed studies will help us to understand the biological\nfunction of ATF4 in cardiomyocytes at molecular, cellular, and physiological levels, specifically the mechanism\nby which ATF4 regulates cardiomyocyte proliferation and function in a p53-dependent and -independent\nmanner, as well as to determine a safe therapeutic window for the potential application of ATF4 and/or p53\ninhibitors in cardiac diseases."
+ },
+ {
+  "id": "838bd1e6-6674-42e3-87b6-76ca54723e79",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Illuminating Notch receptor-ligand selectivity through structure-guided protein engineering",
+  "text": "Notch signaling guides cell fate decisions and influences the pathogenesis of inherited and acquired human\ndiseases. In this R35 proposal, we will integrate synthetic, structural, and cellular biology to determine how\nemerging classes of extracellular regulatory proteins mediate crosstalk between Notch and other major\ndevelopmental pathways. Additionally, we will engineer protein biologics that can modulate the activity of\nmechanosensitive Notch proteins for applications in regenerative medicine."
+ },
+ {
+  "id": "838d88a9-8097-425b-93f7-b82d05085276",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Medical Genetics Postdoctoral Fellowship",
+  "text": "There is a national shortage of medical genetics scientists needed for the implementation of precision medicine, and the discovery of treatments for hereditary diseases. This training program increases the medical genetics workforce that is critical to improve the health of the public."
+ },
+ {
+  "id": "838fb04c-12ad-4618-b940-27c43e5097f6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Genetic underpinnings of craniofacial disorders explored with spatial sequencing",
+  "text": "Malformations of the oral cavity are among the most common birth defects in the US. Progress in design of therapeutic\ninterventions is delayed by an incomplete understanding of the genetic underpinnings of these disorders and our inability\nto create models of relevant oral cell types from induced pluripotent stem cells. We propose to use spatial transcriptomics\non donated human fetal tissue, to reveal details of gene regulatory networks regulating differentiation of relevant oral cell\ntypes, and to design growth factor cocktail paradigms to create these cell types in vitro."
+ },
+ {
+  "id": "83966caf-3667-4cc6-9bfb-ce1a46393800",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Translation Rewiring Underlines Drug Resistance to Lethal Targeted Ribosome Biogenesis Therapeutics in Cancer",
+  "text": "Targeting RNA polymerase I is a potentially effective therapeutic strategy for the treatment\nof many cancer types. This study investigates and identifies mechanisms of therapeutic\nresistance resulting from rewiring of protein translation. The alterations in translation and\nribosome function will be determined to facilitate new therapeutic strategies to overcome\nthis resistance."
+ },
+ {
+  "id": "8398a8c6-5f16-48d0-b900-0a1b983f7dca",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Adhesive regulation during cell migration",
+  "text": "PUBLIC HEALTH STATEMENT\nThe proposed research contributes to human health by increasing our understanding of the\ninterplay between the immune system and cancer. Here we focus on the role of neutrophils, white\nblood cells that fight infection but also contribute to chronic inflammation, in the initiation and\nprogression of cancer. We are interested in tumor genes and neutrophil genes that regulate\ncancer progression and how these pathways can be targeted to facilitate the development of new\ntreatments for cancer."
+ },
+ {
+  "id": "8399befd-917d-496e-9d65-de099d239c39",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mapping REV-ERB?’s Protein Interactions to Understand Th17-mediated Inflammation",
+  "text": "Given that T helper 17 (TH17) cells have a central role in the pathogenesis of inflammatory bowel diseases (IBD),\na better understanding of the mechanisms governing this cell type may inform the development of novel\ntherapeutic approaches. Our lab has identified the nuclear receptor, REV-ERB𝛼, as a critical negative regulator\nof TH17 cell development and pathogenicity. The proposed studies will investigate REV-ERB𝛼’s protein\ninteractions that facilitate its transcriptional repression and inhibition of pathogenicity, which will provide insight\ninto pathways that could be leveraged for the treatment of IBD."
+ },
+ {
+  "id": "839b1df9-ca4a-49b8-959a-0c70fc4df8c8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting Leukemia Stem Cells with Small Molecule Heat Shock Transcription Factor 1 Degrader",
+  "text": "The purposed research aims to classify AML subtypes that demonstrate either sensitivity or resistance to\nrecently developed nuclear HSF1 degraders and uncover the underlying mechanisms of resistance. The\noutcomes of this study are anticipated to enhance strategies for the precise targeting of AML stem cells."
+ },
+ {
+  "id": "83a0a5b9-b489-4f30-bd4b-9974c99b7827",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Computation",
+  "text": "COMPUTATION The Computation Component of the Gene Expression Database (GXD) project supports GXD by maintaining and extending its sophisticated informatics infrastructure. GXD is a rich resource of mouse developmental gene expression data through which researchers can discover expression patterns crucial for understanding the function of genes and the molecular mechanisms that underlie human development, health, and disease. The GXD infrastructure maintained by the Computation Component contains relational databases, high-performance indexes, a robust and efficient curatorial interface, comprehensive quality control reports, large scale data loads, and multiple bulk data dissemination components. We will maintain this system through regular upgrades to system components, monitoring of all automated processes (e.g., data loads), of system uptime, automatic restart and system backup procedures. We will continue the modernization and consolidation of index support for GXD, including completion of the conversion of GXD indexes to ElasticSearch. We will evolve the system to enable the new functionality described in the Curation and Technology Development Components. We will implement the schema changes and data loads needed for incorporating (pseudo-bulk) scRNA-Seq and spatial RNA-Seq data. We will remain attentive to system performance, which will be challenged by greatly increased data volume. In achieving these aims, we will apply industry best practices such as agile development methods, automatic regression testing, regular maintenance schedules, and comprehensive quality control measures."
+ },
+ {
+  "id": "83a13394-3427-45be-8d8c-a9eed79251fc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Epigenomic Dynamics of Clonal Hematopoiesis",
+  "text": "Using single-cell measurements of gene expression, chromatin accessibility, and histone post-translational\nmodifications in healthy hematopoiesis, I will develop computational tools to identify regulatory dynamics of cell\nfate gain and loss unique to single lineages and how their dysregulation drives clonal hematopoiesis."
+ },
+ {
+  "id": "83aa7cb6-5bff-444c-b161-a6aa619a0d48",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A unified quantitative modeling strategy for multiplex assays of variant effect",
+  "text": "The scientific understanding of how genomes encode information is being revolutionized by a diverse class of\nexperimental methods known as multiplex assays of variant effect (MAVEs). This proposal will develop a\nunified computational framework for analyzing the large datasets that MAVEs produce. Our methods will\nprovide unprecedented quantitative insight into how genomic DNA encodes biologically critical information,\nthus advancing the clinical understanding of human genetic variation and accelerating the development of\ntreatments for a wide range of diseases."
+ },
+ {
+  "id": "83ad69ec-6f19-4735-b65a-c4420a90a370",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Defining Tumor Microenvironmental Interactions that drive THY1-Mediated Treatment Resistance in Glioblastoma",
+  "text": "Glioblastoma is the most common primary brain tumor in adults and is uniformly fatal. We have identified a rare\npopulation of tumors cells that may be responsible for treatment resistance resulting from signaling/interactions within\nits local tumor microenvironment. We now seek to study these cells and their interactions in hopes that inhibiting their\nsignaling mechanisms will result in treatment sensitivity and lead to the identification of novel therapies for patients."
+ },
+ {
+  "id": "83af6660-92f1-4d71-84e4-7a6c2c3cabf7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "UCLA Pediatric Research Education Program in Bioinformatics, Computational Biology, and Omics",
+  "text": "The areas of bioinformatics, computational biology and omics are increasingly important scientific areas for which\nan educational gap exists within the pediatric graduate medical education (GME) training for both residents and\nsubspecialty fellows. The Department of Pediatrics, David Geffen School of Medicine at UCLA plans to fill this\ngap for more specialized education and more in-depth training for pediatric GME clinical trainees both at our\ninstitution and nationwide by building experience and skills in biomedical big data analysis, promoting the\nestablishment of multidisciplinary networks and opportunities for collaboration in these specialized areas, and\nthereby provide a bridge for trainees towards future funding (i.e. T32, K23, K12, K08) and successful academic\ncareers as members of multi-disciplinary teams. This program will support research education in translational,\nbasic, and clinical research that has the potential to advance the field and care of Pediatric patients."
+ },
+ {
+  "id": "83b700ff-4174-46fc-809a-41afb922f184",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Somatic Mutations in Neurodevelopment and Disease",
+  "text": "Somatic mutations, those that exists in a subset of cells in the body, impact numerous neurologic disorders.\nHowever, because of the difficulty in identifying rare mutations accurately, we do not know the extent to which\nsomatic mutations affect the brain. This proposal applies innovative technology to find somatic mutations that\ncause epilepsy and brain malformations and makes estimates of the degree to which normal brain development\nis impacted by somatic mutations."
+ },
+ {
+  "id": "83b73369-b98c-49e6-9c75-730876e2e41a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Brain glycosphingolipids and Alzheimer's disease",
+  "text": "Alzheimer’s disease (AD) is the most common cause of dementia affecting over 35 million people worldwide,\nand this number is expected to triple by 2050. This project examines the role of glycosphingolipids, a\nspecialized class of membrane lipids that are highly abundant in the brain, in AD pathology. Findings of this\nstudy will provide important new insight into AD pathology and are likely to lead to novel therapeutic tools for\nAD treatment."
+ },
+ {
+  "id": "83bc649a-70ef-4269-b28b-cd499804f5ad",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Advancing Clinically Translatable Deep Learning for Prostate Cancer Detection on MRI",
+  "text": "This research will enhance the reliability and accuracy of prostate cancer detection on MRI by developing robust\ndeep learning models that provide actionable insights for clinical decision-making. By improving diagnostic\nconsistency and enabling adaptation to diverse imaging conditions and evolving clinical environments, this work\nwill contribute to better early detection of clinically significant prostate cancer, reducing unnecessary\ninterventions and improving patient outcomes."
+ },
+ {
+  "id": "83c1942e-15af-40c1-b7cb-9c1b11142a13",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "African Society of Human Geneticsmeeting",
+  "text": "The African Society of Human Genetics is a highly successful society that promotes dissemination of information about human genetics research in Africa and the African diaspora, advances human genetic research in Africa, develops research infrastructure, and encourages collaborative research within Africa but also with US investigators. These goals have been promoted through past meetings and the current proposal will support the 15th meeting of the society in Entebbe, Uganda and 16th meeting of the Society in Kinshasa, Democratic Republic of Congo. The meetings are critical to understanding the breadth of human genetic ancestry and how it affects disease risk globally, how complex genomic data can be understood using novel methods, and how it can elucidate disease risk and translation into clinical care in Africa and the US."
+ },
+ {
+  "id": "83c4bdd4-a78d-437d-abcb-232b496f3f24",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of CXCR3-CXCL10 signaling in T-ALL CNS disease",
+  "text": "One of the indicators of poor prognosis in T-cell acute lymphoblastic leukemia (T-ALL) is extramedullary\ninfiltration of leukemic cells to the CNS/meninges. We propose to study how T-ALL cells exploit pro-\ninflammatory pathway to facilitate meningeal infiltration. The identification of the mechanism by which\nleukemic cells form a supportive niche in the meninges will lead to novel targets for future therapies."
+ },
+ {
+  "id": "83cac8dd-a068-4a32-b172-e7e5b6682836",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of CREBBP missense mutations in lymphomagenesis",
+  "text": "RESEARCH NARRATIVE\nFollicular lymphoma and diffuse large B-cell lymphoma represent the two most common forms of human B cell\nlymphoma and remain incurable in a significant fraction of patients. This research proposal seeks to elucidate\nhow missense mutations of the CREBBP acetyltransferase, the second most frequent genetic alteration in\nthese tumors, contribute to malignant transformation by reprogramming the pre-neoplastic germinal center B\ncells as well as the immune microenvironment. The outcome of these studies is expected to further our\nunderstanding of the biology of these common cancers and to pave the basis for the development of improved\nbiomarkers and therapeutic approaches."
+ }
+]

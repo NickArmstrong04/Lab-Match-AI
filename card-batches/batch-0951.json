@@ -1,0 +1,142 @@
+[
+ {
+  "id": "c709bd4a-63b5-423b-95bd-b5054e28cc22",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Enhanced AI-Driven Transmission Electron Microscopy Image Analysis for Simplified Kidney Biopsy Pathology Diagnosis",
+  "text": "This research aims to advance the diagnosis and management of chronic kidney disease by automating and\nenhancing the analysis of kidney transmission electron microscopy images, and integrating multimodal data. The\nresulting platform and methods will make high-level diagnostics more efficient and accessible, supporting earlier\nand more accurate treatment decisions for both well-equipped and resource-limited hospitals. In the long term,\nthese innovations have the potential to reduce kidney disease-related morbidity and mortality, as well as\naccelerate the development of new therapies."
+ },
+ {
+  "id": "c70c41d8-0c64-4a64-b18f-aa7c8582782e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Interpretable Machine Learning for Decoding Cell Dynamics",
+  "text": "Recent advances in single-cell and spatial transcriptomics technologies have produced vast datasets\nthat capture how cells change behavior and organization during disease and aging. However,\nuncovering the internal properties of cells and the external influences driving abnormal cell states\nfrom this data presents significant computational challenges. In this project, we will develop\ninnovative AI algorithms to analyze the large-scale single-cell and spatial transcriptomics data, aiming\nto identify important but understudied problematic cells, uncover key regulatory mechanisms, and\ndiscover interventions influencing cellular functions, ultimately improving our understanding and\ninforming treatment for complex health challenges like cancer and aging."
+ },
+ {
+  "id": "c70eec03-4600-4675-ab50-d04dd0b2b71a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Neurophysiology underlying neural representations of value",
+  "text": "Understanding the neural mechanisms underlying decision-making is important because patients with many\npsychiatric disorders make mal-adaptive decisions, impacting many cognitive executive functions, including\nemotion and mood regulation. This grant studies how neural representations in the hippocampus and prefrontal\ncortex mediate two types of decisions that commonly occur in everyday life but have rarely been examined in\nthe laboratory: decisions in novel situations that rely on generalizing from past experience to the new one, and\ndecisions that rely on being able to flexibly generate new responses to familiar stimuli. The mechanistic insight\nfrom these studies promises to be critical for understanding pathophysiological processes in a broad range of\npsychiatric disorders."
+ },
+ {
+  "id": "c7110613-dbdf-4e99-869d-0bf9b40b24b5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Models of EBV Cancer",
+  "text": "CORE C – PROJECT NARRATIVE\nThis core supports the research Projects with viral, cell- and animal-based experimental tools and models, but\nalso conducts experiments. The infrastructure comprises collections of EBV+ and EBV- nasopharyngeal and\ngastric carcinoma cell lines, gastric organoid cultures, and cell-derived and patient-derived xenograft models -\neach reflecting different aspects of EBV-associated cancers. A major effort of Core C will be to test compounds\ntargeting these cancers in support of Projects 1-3. In addition, the core will provide recombinant EBV to\ncharacterize the viral contribution to disease pathogenesis and drug responses."
+ },
+ {
+  "id": "c711619e-01a5-4e48-8ca8-fb732236ba89",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Neuronal control of cochlear stress responses",
+  "text": "Noise is an environmental stressor that changes the physiology of the body and also damages the cochlea.\nStress elicits an integrated response in the ear that involves the central nervous system, the sympathetic nervous\nsystem, cochlear circuitry, and the immune system. Understanding how central and peripheral stress response\nneurons impact cochlear function and resilience is important for finding ways to limit the effects of noise and\nother sources of stress."
+ },
+ {
+  "id": "c7187633-6615-4910-a43a-4736799dabe8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project 2 - Shh and Etv2 Signaling Pathways and Cardiovascular Repair in Mouse and Pig",
+  "text": "Cardiovascular disease is common and deadly. The long term goal and the clinical significance of this revised\nProject 2 proposal are to define the factors that promote heart cells to divide, repair and regenerate the injured\nheart. The results from these studies will serve as an important platform to enhance future therapeutic initiatives\naimed at heart regeneration."
+ },
+ {
+  "id": "c71b0034-338b-4e3c-94e2-c6b38a27a7a4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Endogenous Retroviruses and Alcohol Use Disorder",
+  "text": "Alcohol use disorder (AUD) is a pervasive public health issue in the United States and worldwide, yet existing\napproved pharmacotherapies for AUD are only partially effective. This project aims to identify endogenous\nretroviruses (ERVs) whose expression or genotypes are associated with AUD and related phenotypes.\nEstablishing a connection between ERVs and AUD could lead to breakthroughs in anti-retroviral or anti-\ninflammatory treatments that may mitigate the effects of ERVs and potentially reverse the disorder."
+ },
+ {
+  "id": "c71c3a56-79e0-4be5-be96-20a4204a2c1a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting immunoproteasome-mediated antigen presentation in colorectal cancer immunotherapy",
+  "text": "Reduction or loss of antigen presentation is a frequent and essential mechanism used by tumor cells to escape\nimmune recognition and destruction. We identified atractylenolide I (ATT-I) in a screen of natural compounds\nfrom herbal medicine for colorectal cancer immunotherapy. We propose that ATT-I significantly promotes tumor\nantigen presentation of colorectal cancer cells and thereby enhances the efficacy of immune checkpoint\nblockade therapy."
+ },
+ {
+  "id": "c722adca-7439-4d9c-bf27-ced6ab4d91d1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identification and characterization of functional genetic variants associated with human longevity",
+  "text": "Recent advances in human genetics and genomics provide novel opportunities for the identification and\nvalidation of drug targets. Aging is a major risk factor for many chronic diseases, including cardiovascular\ndisease, neurodegenerative diseases and a wide range of cancers. Interventions targeting the underlying\nprocess of aging are expected to provide significant benefits to human health and substantially reduce the social\nand economic costs associated with age-related disease and frailty. The experiments outlined in this proposal\nare aimed at identifying functional genetic factors associated with human healthy aging and extreme longevity\nfor therapeutic modulation to improve human health span and lifespan."
+ },
+ {
+  "id": "c722ea8f-6a42-48d7-b308-a941a7ad2d8f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mass spectrometry and multiplexed immunofluorescence imaging of metabolic and proteomic contributors to selective neuronal vulnerability in Alzheimer's disease",
+  "text": "Using two different modalities capable of imaging intact tissue, we will identify spatial changes in\nmetabolites and proteins during the progression of Alzheimer's disease. By comparing these changes\nin a vulnerable brain region with a resilient brain region and integrating data on location and\nmorphology of various cell types in these brain regions, we aim to determine metabolic and protein\nsignaling pathways contributing to cellular vulnerability in Alzheimer's disease. Outcomes from this\nstudy will provide insights into the mechanisms leading to neurodegeneration and reveal targets within\npathways that could be protective in Alzheimer's disease."
+ },
+ {
+  "id": "c7296040-2182-49fb-8c47-fddff85673a9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Delineating mechanisms underlying azole-induced developmental toxicity using single cell transcriptomic approaches, genome editing tools, and alternative models",
+  "text": "Azoles are common antifungal agents widely-used in clinical applications and agriculture. In vertebrates,\nexposures to azoles during early embryonic development results in developmental toxicity outcomes, including,\ncraniofacial and axial defects. In this study, we aim to delineate mechanisms underlying azole-induced\ndevelopmental toxicity utilizing single cell transcriptomic-based approaches, gene-editing tools, and\nestablished alternative model systems of early embryonic development."
+ },
+ {
+  "id": "c734af96-c0e5-43e8-be6b-c1a42f6872b4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "ULK Inhibition Rewires Tumor and Immune Cell Metabolism",
+  "text": "Despite significant advances in precision medicine and immuno-oncology, lung cancer patients with KRAS\nmutations still face poor outcomes. Cancer cells resist treatment by leveraging alternative survival pathways to\nmeet their energy demands and fuel their growth. In this proposal, the MacKeigan and Jones laboratories will\ninhibit the autophagy pathway in preclinical models of lung cancer and dissect the metabolic changes in tumors\nand immune cells, which will help inform new treatment strategies for patients with advanced lung cancer."
+ },
+ {
+  "id": "c73c137a-e870-4163-9fd7-7652b2feada5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dystrophin Replacement",
+  "text": "Gene therapy is a promising approach for Duchenne muscular dystrophy. Current clinical methods are\nsuboptimal and have been associated with occasional serious immune-related adverse events, including\nseveral patient deaths. New approaches will be pursued to develop safer and more e>icacious therapies."
+ },
+ {
+  "id": "c73d0dfe-d46a-47b3-9df3-3aa4b6e8a150",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Beyond Canonical Chromatin: Defining Variant Histone Interactions and Turnover",
+  "text": "Aberrant expression and mislocalization of variant histones are directly linked to cancer development\nand progression and various developmental and neurological disorders, making understanding their\nregulation critical for human health. This research will define how variant histone protein networks\nfunction in healthy cells and how these essential chromatin regulators are hijacked in human diseases,\nparticularly focusing on mechanisms that control variant histone turnover. The ability to precisely control\nvariant histone levels, particularly CENP-A which is overexpressed in numerous cancers, represents a\npromising new avenue for treating diseases where chromatin regulation is disrupted."
+ },
+ {
+  "id": "c740889f-adcc-4013-b2ae-757f5125687e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Understand the mechanism of SARS-CoV-2 entry by single-molecule approaches",
+  "text": "Severe Acute Respiratory Syndrome Corona Virus 2 (SARS-CoV-2), the causative agent of the Covid-19\npandemic, infects the host cell by binding its spike protein with the angiotensin-converting enzyme 2 (ACE2) on\nthe host receptor cells. Structurally, spike protein has two subunits, S1 and S2, and is a trimer, while the ACE2\nprotein is a homodimer; however, critical questions about the dynamics of the molecular interactions to activate\nthe membrane fusion remain. This project will determine the dynamics of each molecular interaction\nassociated with the SARS-CoV-2 entry, thus helping to design more effective countermeasures."
+ },
+ {
+  "id": "c740f202-ea91-4a8d-acf0-1f71a1203216",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Anti-CD38 isatuximab Immunotherapy in Hidradenitis Suppurativa: a randomized, double-blinded, placebo-controlled, seamless phase 2a/2b trial",
+  "text": "Hidradenitis suppurativa (HS) is a chronic skin condition characterized by painful lumps, abscesses, and tunnels\nunder the skin in specific body areas. Our preliminary studies suggest anti-CD38 immune therapeutic potential\nfor patients with HS. Here, we propose a randomized, double-blinded, placebo-controlled, seamless phase 2a/2b\ntrial to evaluate anti-CD38 immunotherapy in patients with severe HS."
+ },
+ {
+  "id": "c748e289-aac5-492e-98ec-399c32d31768",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The development a new Multidimensional and Multilevel Measure of Institutional and Economic Barriers for English and Spanish speaking populations",
+  "text": "Valid, reliable measures of institutional and economic barriers are needed before effective interventions can be designed to reduce adverse health outcomes, early mortality, and excessive medical costs. We propose to create a measure of institutional barriers that includes multiple innovations: it will be multilevel and multidimensional, incorporate economic indicators, be theory driven and psychometrically sound, have measurement invariance (equivalence), and be valid for Blacks, Hispanics/Latinos, and Whites. The new measure will better capture the complex, interconnected factors and lived experience of multiple populations, including those with low resources, and will be an important tool for researchers, policymakers, and others working to improve the health of all Americans."
+ },
+ {
+  "id": "c74de227-7224-437d-864c-de9f600dae55",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "High-Throughput Genomics and Bioinformatic Analysis (GBA)",
+  "text": "HIGH-THROUGHPUT GENOMICS AND BIOINFORMATIC ANALYSIS SHARED RESOURCE ABSTRACT The High-Throughput Genomics and Bioinformatic Analysis Shared Resource (GBA) is dedicated to supporting the genomic experimentation and bioinformatic analysis needs of Huntsman Cancer Institute (HCI). Established in 1997, GBA consists of two closely-aligned sections, the Genomics Section, led by Brian Dalley, PhD, and the Bioinformatic Analysis Section, led by David Nix, PhD. Both Sections provide teams of genomic professionals who guide Cancer Center members through the experimental and analytical processes, support a variety of protocols enabling state-of-the-art research, and continuously review and incorporate novel technologies for the benefit of HCI’s Research Programs. GBA’s aims are: 1) to provide state-of-the-art genomic technologies, services, and expertise, and 2) to support the scientific research objectives of the Cancer Center by enabling access to cost-effective, sophisticated genomic approaches for high-impact research, including team science grants. Management of GBA within the Cancer Center ensures that the Resource is focused on addressing the genomic technology needs of Cancer Center members. Specifically, GBA performs three essential functions: 1) recruit and train highly experienced scientists, bioinformaticians, and genomic technicians to support Cancer Center members, 2) provide a broad portfolio of experimental protocols and analysis workflows to enable the latest research in genomics, and 3) evaluate, implement, and optimize genomic sequencing and bioanalytic infrastructure for the benefit of researchers at HCI. Cancer Center members with peer-reviewed funding comprise 28% of GBA users. Users benefit from the exceptional quality of the Resource at a highly subsidized cost, enabled through Cancer Center Support Grant and HCI support. Since 2014, over 80 publications have included experiments supported by the Resource. In summary, GBA provides a full-service facility to Cancer Center members and University of Utah investigators for state-of-the-art genomics research that spans the spectrum from experimental design, data generation, and in-depth integrated analysis to publication-quality figures and tables. The GS offers evaluation of sample quality, construction and qualification of Illumina sequencing libraries, and Illumina sequencing. The BAS conducts data analysis services that include processing raw data to primary results using well-developed analytic protocols for all of the major classes of next-generation sequencing applications. GBA also plays a key role in HCI’s translational genomics groups, which bring together investigators and clinicians who work with aggregated patient-derived datasets to improve clinical care. These comprehensive services enable investigators from varied disciplines to use these powerful tools to inform their research."
+ },
+ {
+  "id": "c754f4bb-b51b-4eb7-afc5-ccc11b3af223",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of Coordinated Multi-Area Reactivations During Transitions Between Automatic and Flexible Behaviors",
+  "text": "Brain rhythms during sleep have vital roles in normal learning and forgetting. This project will reveal and\ncharacterize the specific circuit mechanisms underlying these processes. These circuits are also closely\nimplicated in a wide range of brain conditions including Parkinson’s Disease, dystonia, recovery from stroke,\nobsessive-compulsive disorder and addiction, so a better understanding of how they work may pave the path\ntowards new therapies."
+ },
+ {
+  "id": "c7684bab-28bb-4ff3-a794-909b034b4862",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Modification of the predisposition for ectopic calcification",
+  "text": "Cardiac valve and arterial wall calcification are associated with a 3- to 4-fold increased risk of mortality in adults;\nthere are many predisposing processes including aging, hypertension, diabetes, and chronic kidney disease.\nGiven the overall aging population and the increasing incidence of these common and chronic conditions, it is\nimperative to delineate the underlying mechanisms of pathological calcification to better understand inciting\nevents and develop new intervening treatments. This project seeks to explore genetic modifiers of rare Mendelian\ncalcification disorders to discover and leverage potent therapeutic strategies for monogenic, common, and\ncomplex presentations of ectopic and vascular calcification."
+ }
+]

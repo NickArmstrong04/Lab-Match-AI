@@ -1,0 +1,142 @@
+[
+ {
+  "id": "b9b79ddb-5eba-4d5a-bf9f-bab397fd56f3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "O-Specific Polysaccharide Responses and Cholera",
+  "text": "RELEVANCE (See instructions):\nCurrently available oral cholera vaccines have a number of shortcomings. Developing improved vaccines\nor vaccination strategies is hampered by the reality that we do not currently understand the mechanism of\nimmune protection against cholera although it is known that a primary component of that immunity targets\nO-specific polysaccharide (OSP) of V. cholerae. We here propose an investigative approach to define and\nevaluate OSP-specific responses during cholera."
+ },
+ {
+  "id": "b9b95258-cf89-42f5-8c9b-8c44c2fd58e2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of Carbon Metabolism and Virulence of Shigella flexneri",
+  "text": "Bacterial intestinal infections are a major cause of human disease and mortality, and Shigella infections are responsible for millions of cases of dysentery worldwide per year. This research will identify the signaling mechanism that Shigella flexneri uses when infecting human cells to maximize bacterial growth and to avoid clearance by host innate immunity. These signaling pathways are promising targets for controlling bacterial infections, particularly in antibiotic-resistant strains."
+ },
+ {
+  "id": "b9bd73f7-f814-4e80-9b82-4da8a9a580c5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multiomics data integration methods to discover putative causal variants, genes and patient heterogeneity for Alzheimers disease",
+  "text": "The main objectives of this proposal are to create a coherent analytical framework tailored for integration of\navailable and novel multiomics resources for brains and Alzheimer’s disease (AD), to identify causal variants\nand genes, and to characterize the genetic profile of AD patients at different molecular levels across brain\ntissues. By identifying novel causal effects attributable to molecular functions, our result will provide insight for\ndevelopment of therapeutic drugs specifically targeting at cellar process. The multiomics risk profile built for AD\npatients will improve clinical trial designs for AD drug development, paving the path to personalized therapeutics."
+ },
+ {
+  "id": "b9c376a6-855c-4877-8776-d8a10dcc60d9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "TR&D-4: Growing Tissue in the Scalable, Modular, Automated, and Closed (SMAC) Foundry",
+  "text": "TR&D-4 will demonstrate process automation on ARMI|BioFabUSA’s Tissue Foundry, a scalable, modular, automated and closed tissue manufacturing platform. The Tissue Foundry is the integration of primarily off-the- shelf components to perform the sequential, modular steps of producing a tissue. The Tissue Foundry automates thawing a vial of adherent cells, expanding them on microcarriers in stirred tank vessels, harvesting cells and exchanging cells into media promoting subsequent differentiation or tissue development steps, culturing the tissues during maturation, and preservation and packaging of the final product. To re-design the manual process to the closed, automated Tissue Foundry process, ARMI’s Deep Tissue Characterization Center deconstructs a manual process and develops tissue-type specific setpoints at both the endpoint and at intermediate stages of production using experimentation and modeling after deep multiparameter characterization of the cells and tissue. Once these setpoints are identified significant gaps remain in available tissue specific sensors and equipment to control and monitor tissue quality. Advanced sensor technologies (developed in TR&D-1 and –2) and prototype, actuator-enabled bioreactors (TR&D-3) will be integrated into the Tissue Foundry and demonstrated through production of CP target tissues in a tissue manufacturing relevant environment. This objective will be carried out in 3 specific aims: Aim 1: Physical integration of sensors with Tissue Foundry cell culture system. We will integrate newly-developed biosensors developed in TR&D-1, -2, and -3 into the Tissue Foundry for both measurement of parameters specific to the tissue process, and as a proof of concept for the feasibility of controlling these processes through feedback loops. Aim 2: Efficient control by integration of sensors and actuators with Tissue Foundry backbone automation and data management system. Tissue Foundry control is based on a supervisory control and data acquisition (SCADA) architecture and on the use of programmable logic controllers (PLCs), which will interface directly with sensors and actuators executing processing steps and real-time feedback control. Aim 3: Automated production of up to 10 tissues simultaneously. A manual tissue engineering process, starting with CCMEEC’s articular cartilage, will be assessed to identify optimal automation and sensor implementation. Once configured, the Tissue Foundry will be used to produce up to 10 tissues simultaneously using integrated bio-instructive bioreactors. Data from each step and the final product will be collected through integrated sensors, analysis of media aliquots, and destructive sampling to compare the manual and automated processes. TR&D4 will deliver an automated manufacturing system, leveraging the existing modules of the prototype Tissue Foundry, with vastly improved capabilities developed by TR&D-1, -2, and -3, for reliably producing complex tissues"
+ },
+ {
+  "id": "b9c5ebb7-259a-4527-be87-7df95785dfe4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of CHAMP1, a neurodevelopmental disorder high risk gene, in human brain development and function",
+  "text": "Mutations in CHAMP1 are a major risk factor for neurodevelopmental disorders, yet little is known about its\nfunction and role in brain development. This proposal utilizes forebrain cortical organoids, calcium imaging,\ncutting-edge single-cell omics, and in vitro electrophysiology to elucidate the role of CHAMP1 in early-stage\nhuman brain development. The findings will provide key insights into how CHAMP1 regulates process related to\ncell differentiation and proliferation and will potentially inform the development of new therapeutic strategies for\nCHAMP1-associated neurodevelopmental disorders."
+ },
+ {
+  "id": "b9ca8faf-a60e-4aa0-90fb-63699bf1855c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Human Dopamine Grafts in Alpha-Synuclein Models of Parkinson Disease",
+  "text": "There is great enthusiasm about the regenerative potential of grafting dopamine neurons derived from stem cells\ninto the brains of patients with Parkinson's disease (PD). But there are concerns about the negative impact of the\nabnormal proteins and inflammation in the Parkinson brain on graft survival. Here we analyze inflammation in\nbrain cells and in human grafts injected into the brain of α-synuclein mouse models of PD; we also develop gene\nediting methods to enhance the resistance of graft cells to neurotoxicity due to inflammation."
+ },
+ {
+  "id": "b9cdd541-4697-488d-aad4-be98e8b020ee",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Regulation of Naive Follicular B Cell Polyreactivity",
+  "text": "Antibodies are a key part of the immune system that can neutralize and eliminate pathogenic threats. The\nproposed research is relevant to public health because it will provide a fundamental understanding of the\nmechanisms underlying the regulation of antibody recognition specificity."
+ },
+ {
+  "id": "b9cee57b-99f4-4986-9218-49db3722f809",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Diagnostics Core",
+  "text": "Diagnostic Core\nCrucial to any groundbreaking study of PTLDS will be the availability of properly collected and stored human\nsamples obtained from well-characterized patients with Lyme disease and control subjects. The Diagnostics\nCore will assist in comprehensive subject characterization by performing a predefined battery of laboratory\ndiagnostic tests on each enrolled subject, the results of which will be correlated with clinical findings. We will\nalso develop and maintain a biorepository of archived human samples from each well-characterized subject,\nfor use by the project investigators to support research aims."
+ },
+ {
+  "id": "b9dc2a1b-5cd9-456c-b155-8fca51f3dcd9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A novel organoid brain-chip platform for accelerating drug discovery.",
+  "text": "The proposed project will integrate mature, healthy human brain organoids with advanced tools for longitudinal\nfunctional recordings, allowing researchers to explore previously inaccessible aspects of human brain\nmaturation, function, and disease. Providing a scalable, human-relevant platform for CNS drug discovery will\nimprove translational accuracy and accelerate the development of therapeutics for a broad range of diseases,\nincluding neurodegenerative and neuropsychiatric disorders. Recognizing that many brain diseases are not\nisolated conditions but complex syndromes with overlapping phenotypes, like autism and schizophrenia, this\nproject aims to redefine diagnosis and treatment approaches by advancing patient-specific models, ultimately\nimproving clinical outcomes and reducing healthcare burdens."
+ },
+ {
+  "id": "b9dd3b16-830d-4f82-9afb-c102db14d775",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Improved function performance in individuals with transradial limb difference using cloud based health system and deep learning",
+  "text": "Current prosthetic capabilities for individuals with upper-limb absence fall far below the functionality of the natural arm and hand. The application of deep learning combined with data augmentation to automatically compensate for EMG signal losses shows promise in solving important issues that impair control. By properly addressing signal detection issues, prosthetic device function will be significantly improved."
+ },
+ {
+  "id": "b9e7528c-2c15-4cbb-870f-71d0ee1dc60c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Early-Stage Clinical Trial of AI-Driven CBCT-Guided Adaptive Radiotherapy for Lung Cancer",
+  "text": "We propose to develop and validate a two-part deep learning method for dose verification in patients with\nearly-stage non-small cell lung cancer receiving definitive stereotactic body radiation therapy. We will evaluate\nfeasibility in a prospective early-stage clinical trial, a necessary intermediate step prior to the implementation of\nreal-time daily adaptive radiation therapy. Our long-term goal is to use real-time adaptive radiation therapy to\nimprove tumor control and decrease radiation-related toxicities for patients receiving radiation therapy for lung\ncancer."
+ },
+ {
+  "id": "b9f5e91a-ff0f-4d6d-a3da-d94faaf5659c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Bioinformatics guided synthesis of novel antibiotics from previously inaccessible microbial dark matter",
+  "text": "The vast majority of the world’s microbial diversity has remained inaccessible (i.e., microbial dark matter) to\nantibiotic discovery using any previously established methods. Here we will couple recently developed long read\nsequencing methods with bioinformatics to guide the synthesis of novel antibiotics (synthetic bioinformatic\nnatural products, synBNPs) encoded by this microbial dark matter. The most promising antibiotics we identify\nwill be introduced into mode of action determination, structure optimization and proof of principle animal model\nstudies to identify the best candidates for future translational studies."
+ },
+ {
+  "id": "b9fd1299-a51c-467f-bade-fa955391440f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Shared neural basis and genetic architecture of psychiatric disorders",
+  "text": "This research project aims to uncover the shared neural bases and genetic architecture of\npsychiatric disorders by jointly analyzing large-scale multi-organ imaging, genetics, and\npsychiatric data sets. Our proposed aims will facilitate a comprehensive integration of the imaging\nphenotypes and functional datasets to understand psychiatric disorders. We anticipate that the\noutcomes of this project will significantly enhance the clinical translation in the field of psychiatric\ngenetics.\n1"
+ },
+ {
+  "id": "b9fed332-5c2a-41ff-bc64-4975f7df5be8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Uncovering the formation and function of fusion oncoprotein condensates in translocation renal cell carcinoma",
+  "text": "Translocation renal cell carcinoma (tRCC) is an aggressive type of kidney cancer lacking effective treatments. It\nis mostly seen in children, making up 40% of all pediatric and adolescent renal cell carcinomas. We will study\nhow TFE3 fusion oncoproteins and the condensates they form drive tRCC, striving to find new therapies for the\ndevastating tRCC."
+ },
+ {
+  "id": "ba062abb-81ee-4288-9c0b-0318a81f695a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "High-throughput development and characterization of compact tools for transcriptional and chromatin perturbations",
+  "text": "In order to develop compact and efficient tools for controlling gene expression and chromatin state at specific\nloci and performing genome-wide perturbations, we need to engineer synthetic proteins and DNA regulatory\nelements and characterize their behavior systematically and at scale. Here, we propose to develop new high-\nthroughput methods based on imaging and sequencing that can characterize the function of thousands of protein\nsequences from human transcription factors in terms of their: subcellular localization, ability to increase\nchromatin accessibility, binding to other proteins, and how these functions connect with transcriptional activation\nand repression. In addition, we will develop new high-throughput workflows for inserting and characterizing\nlibraries of DNA regulatory elements that recruit activators, repressors or chromatin accessibility regulators at\nspecific locations in the genome, complementing our comprehensive characterization of human TFs and\nproducing an extensive and robust set of tools for gene and chromatin regulation."
+ },
+ {
+  "id": "ba06d31b-cea0-4762-b4c7-61470996077d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Regulatory mechanisms governing Th17 cell effector identity and plasticity",
+  "text": "(RELEVANCE)\nT helper 17 (Th17) cells are critical to immunity at mucosal surfaces such as the intestine, however, these pro-\ninflammatory cells have also been implicated as mediators of autoimmunity in conditions such as Inflammatory\nBowel Disease, Multiple Sclerosis, Rheumatoid Arthritis, and Psoriasis. Th17 cells are extremely plastic and\ntheir conversion into IFN-producing Th1-like cells results in exacerbated inflammation and disease. This\nproject investigates the mechanisms that control Th17 cell identity and plasticity that can be exploited in\nautoimmune disease to extinguish damaging inflammatory responses."
+ },
+ {
+  "id": "ba0858e1-a780-452d-9d09-4c1e2247aac0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Small Animal Studies",
+  "text": "Abstract Shared Resource 11: Small Animal Studies (SAS-SR) The Small Animal Studies Shared Resource (SAS-SR) comprises two components: the Small Animal Imaging Core and the Animal Tumor Models component. This combined resource provides exceptional quality services for City of Hope Comprehensive Cancer Center (COHCCC) Members for basic and translational preclinical studies in cancer biology, anti-cancer drug development, and stem cell therapeutic development. Specific Aims for SAS-SR: Aim 1. Provide consultation for the design, performance, and analysis of animal experiments. Aim 2. Facilitate the development of new animal models and novel non-invasive in vivo imaging technology in support of cancer research. Aim 3. Maintain the resources and expertise necessary for conducting animal research with high quality standards and in compliance with local, state, and national guidelines. The Small Animal Imaging component of the SAS-SR provides consultation, advanced imaging equipment, imaging services, hands-on training for COHCCC Members, and support for protocol and grant preparation. Current systems in the Imaging Laboratory include five units for bioluminescence/fluorescence optical imaging (Lago/Lago X/Ami HTX from Spectral Instruments Imaging and a PerkinElmer IVIS), a GNEXT PET/CT instrument (SofieBiosciences), a 7T MRI/PET (MRsolutions), and ultrasound imager (VisualSonics VEVO). These systems support molecular-based imaging to allow for the monitoring of cellular processes and the non- invasive assessment of pharmacokinetics and pharmacodynamics of therapeutic agents. The Animal Tumor Models component of the SAS-SR has established patient-derived xenograft (PDX) models of multiple cancers in collaboration with COH faculty and has developed next-generation humanized mouse models for research in cancer immunotherapy and in vivo drug metabolism/toxicity studies. The development of PDX models supports precision medicine allowing investigators to evaluate tumor growth and therapeutic response for individual patients. The Animal Tumor Models component also provides specialized drug delivery services, training for in vivo procedures, and support for protocol preparation and grant development. The SAS-SR is co-directed by Dr. Anna Wu, Professor and Chair, Department of Immunology and Theranostics and by Dr. Jun Wu, an Associate Research Professor of Comparative Medicine. Activities are supported by highly qualified personnel that maintain and operate the instrumentation. Members Utilization by %Revenue 2017–21: 96.7 Total (11.2 MCBC, 33.4 DCT, 26.6 CI, 25.5 HM) Publications by Members: 88, 28 with Impact Factor >10 Grants Supported: 78 Total (3 ACS, 8 CIRM, 8 DoD, 4 LLS, 33 NCI of 46 NIH (32 R01, 1 U01))"
+ },
+ {
+  "id": "ba0933a7-1949-4371-a567-5502b39b82c7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A Novel Cell-based System for the Search of SARS-CoV-2 ORF3a Inhibitors against COVID-19",
+  "text": "The SARS-CoV-2 pandemic has claimed 6.9 million lives with 767 million people infected world-wide. While\nvaccines are generally effective to prevent viral infection, antiviral drugs provide an alternative and effective\nmean to treat COVID-19 and post-COVID syndromes including lung and kidney complications. In this study, we\nuse a novel fission yeast and human cell-based system to discover SARS-CoV-2 ORF3a inhibitors with a goal\nto develop new antiviral drugs that can be used to treat COVID-19 and post-COVID complications."
+ },
+ {
+  "id": "ba0c2e90-13dd-4c5b-b12a-69dd144d1146",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Charles R. Drew University of Medicine and Science Research Endowment Program",
+  "text": "CDU proposes to create a Learning Health Systems and Learning Health Communities Core to enhance the capacity to conduct cancer, infectious diseases, cardio-metabolic, mental health, and health services research and increase the scientific workforce."
+ },
+ {
+  "id": "ba0ce7c5-38d2-4de1-95ef-1aab4ecc27a7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Unraveling the Impact of Estrogen Signaling on Postmenopausal Hypertension",
+  "text": "High blood pressure is the leading cause of cardiovascular disease and death world-wide. Young women are\nprotected against high blood pressure, but this protection is lost after menopause, indicating a crucial role for\nestrogen. This study is designed to investigate the role of a new estrogen receptor and previous pregnancy on\nblood pressure later in life in women, with the intension of understanding the potential of targeting estrogen\nsignaling in elder women suffering from high blood pressure."
+ }
+]

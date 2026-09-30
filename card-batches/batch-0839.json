@@ -1,0 +1,142 @@
+[
+ {
+  "id": "9f8c4c32-f9fd-4194-b9dd-d3183c89d8b8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dissecting sensory and endocrine control of parenting versus feeding",
+  "text": "Care for offspring requires a significant investment of time and energy. We seek to understand\nthe sensory cues that guide parenting, how hormones modify neurons that generate these\nbehaviors, and how parenting inhibits competing drives."
+ },
+ {
+  "id": "9f9301c3-11f3-4afb-a5eb-087492911c95",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Lipid Mass Spectrometry",
+  "text": "Core 2 – Lipid Mass Spectrometry provides multiple essential services to every investigator involved with this Program Project Grant. These services include lipid analysis measurements as well as novel and unique lipid measurements that provide unparalleled and comprehensive data providing insight into lipid metabolism. The Core is directed by Dr. Jeff McDonald, who has led the lipid mass spectrometry efforts at UT Southwestern for 17 years. Services include mass spectrometry-based quantification of individual lipid species including sterols, oxysterols, sphingolipids, steroids, bile acids, and fatty acids. Qualitative or semi-quantitative analysis of all lipid classes can be measured providing relative comparisons between sample groups and fatty acid compositions for cholesteryl esters, glycerolipids, and other lipid classes. Unique lipid mass spectrometry measurements center around use of ultra-high resolution mass spectrometry to distinctly measure deuterium incorporation into lipids instead of mathematically deconvoluting 2H signals which overlap with the naturally occurring 13C isotope mass envelope. Using this method results in a signal-to-noise ratio that was at best 1 or 2 using traditional mass spectrometry (unit resolution) techniques to a signal-to-noise of 1000 or greater. This requires very advanced mass spectrometers, two of which are currently in our facility. Coupled with advanced chromatography methods that resolve lipids and lipid classes, the synthesis and flow of lipids through a designated biosynthetic or catabolic pathway in cultured cells and living animals is now feasible. The complex and expensive equipment needed to provide these services include multiple mass spectrometers, a liquid handling robot for sample preparation, 96-well SPE and nitrogen blow-down manifolds for sample processing. The lipid mass spectrometry measurements provided by Core 2 will play a major role in every specific aim in this Program Project and in every publication that arises from the completed research."
+ },
+ {
+  "id": "9f9b9c4a-5b71-438e-9634-c49a4df5e937",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Understanding human TRPV1 polymodal activation",
+  "text": "The TRPV1 ion channel protein is important in human physiology and has emerged as a promising drug target\nfor diverse diseases, including many types of pain. This proposed research sets out to better understand the\nreasons that past TRPV1 drug discovery efforts have been generally unsuccessful and develop tools that will\nhelp guide future drug discovery efforts."
+ },
+ {
+  "id": "9f9c87bb-9086-4eeb-b642-b2759960261f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Atrial and blood JNK in Postoperative AF",
+  "text": "New onset postoperative atrial fibrillation (POAF) is the most common complication after cardiac surgery and\nsubstantially affects patient outcomes from the surgery. Our study aims to identify/test the stress-response kinase\nJNK as a novel POAF biomarker and/or potential anti-POAF therapeutic target. The results from this proposal will\nform a strong foundation toward achieving our long-term goal of developing novel therapies to treat and prevent AF."
+ },
+ {
+  "id": "9fa1366c-601e-4eda-87d8-63a2eb8c1d5c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Nanoscale probes for sensing molecular functions in live cells",
+  "text": "We will investigate how membrane curvature regulates biochemical signals that are transmitted through the\ncell-matrix interface by using nanotechnology-based precision engineering. The knowledge gained will help to\nguide the design of biomaterials and biodevices for better integration with cells. We will also develop nanoscale\nelectrodes to accurately record intracellular action potentials, which impact our understanding of membrane\nresealing in heart cells, as well as impact biotechnology."
+ },
+ {
+  "id": "9fa3c963-afc9-4b48-a254-34d6909cda16",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of Network-Scale Neural Regeneration in a New Neuroscience Model",
+  "text": "This proposal examines relationships between neurodevelopmental processes and the\nfunctional organization of neural circuits and asks how these relationships could enable\nnetwork-scale regeneration. Our approach is to use a new, experimentally tractable animal\nmodel, Clytia hemisphaerica, that is capable of regenerating entire genetically ablated neural\nsubnetworks. Leveraging the experimental benefits of Clytia, we propose to examine the\ncomplete regenerative process, from injury sensing to migration to regained functional activity,\nto reveal basic principles enabling neuroregeneration."
+ },
+ {
+  "id": "9fa7a227-1654-4ecb-ae0a-b1e4c671cb56",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of Abnormal Diaphragm and Cardiac Development",
+  "text": "Diaphragmatic hernias and cardiovascular malformations are serious birth defects. In these\nstudies, we will use information from individuals, specialized computer programs, and mouse\nmodels to identify new genes that cause these birth defects and learn what role they play during\ndevelopment. These studies will help us provide better medical care for individuals with these\nbirth defects and may ultimately lead to the development of new ways to prevent or treat them."
+ },
+ {
+  "id": "9fa87ccf-c5cf-45d7-9df5-7f6e7d15b041",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting Immune-Fibroblast Crosstalk in Genetic Dilated Cardiomyopathy",
+  "text": "Dilated cardiomyopathy (DCM) is one of the most common hereditary heart diseases, with myocardial fibrosis\nand immune activation contributing to disease progression. In this study, we will investigate how inflammatory\nsignals from DCM cardiomyocytes activate cardiac fibroblasts through interactions with macrophages. Using\ninduced pluripotent stem cell (iPSC)-derived cell types, 3D cardiac organoids (iPSC-COs) embedded in\nengineered fibrotic niches, single-cell RNA sequencing (scRNA-seq), CRISPRi/a functional screening, and DCM\nmouse models, we aim to define the immune–fibroblast crosstalk driving fibrosis and identify therapeutic targets\nfor precision antifibrotic intervention."
+ },
+ {
+  "id": "9fb03670-f79f-422e-a3d1-72ea0e221d46",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Aire-expressing macrophages as novel mediators of tumor immune evasion",
+  "text": "lmmunotherapy has revolutionized the treatment of cancer, but many malignancies remain resistant to\nthese interventions; defining novel mechanisms by which tumors evade immune responses is therefore\nof critical importance. We have identified unique populations of tumor-associated macrophages\nexpressing the Autoimmune Regulator (Aire) gene (Aire+ TAMs) in murine and human tumors that play\nkey roles in tumor immune evasion, and are associated with worse clinical outcomes and ablation of\nthese populations significantly reduces tumor growth and suppresses the growth of checkpoint-resistant\ntumors in mice. We propose to define the biology of these Aire+ TAMs, their roles in immune evasion\nacross a range of tumor types, the cell-intrinsic role of Aire itself in tumor progression and immune\nevasion, and the key mechanisms underlying this process as novel potential targets for tumor\nimmunotherapy."
+ },
+ {
+  "id": "9fb241f8-b5ee-4b32-a921-561fb62cd4a5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "ISIC-REPO; ISIC Skin Imaging Repository Enhancements for Promoting Interoperability and Utilization",
+  "text": "The International Skin Imaging Collaboration (ISIC) Archive is the leading publicly available skin imaging\nrepository and has made major contributions to the dermatology and computer science communities' efforts\ntoward the development of visual aids and artificial intelligence tools for skin cancer diagnosis. In this project,\nwe will make the ISIC Archive fully compliant with the FAIR principles (findability, accessibility, interoperability,\nand reusability), expand the Archive to include clinical images and total body photography, and advance the\ndevelopment and application of skin imaging standards to improve quality and interoperability. Through these\nmajor enhancements, we will make the ISIC Archive a considerably more useful, impactful, and sustainable\nresource for research to improve the early and accurate diagnosis of skin cancer."
+ },
+ {
+  "id": "9fc264ae-e8b5-4e0b-99ac-15e6f98f78b8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Center for Live Cell Genomics",
+  "text": "We will introduce a new experimental platform paradigm to genomic studies of live cells and tissues that will\nallow scientists to be more creative, more productive, more collaborative and use fewer resources for their live\ncell genomics experiments. We will create new platforms that provide living cells growing in realistic 3D\ncultures that mimic actual tissues in the body and incorporate Internet-based remote control and analysis\ncapabilities. We will deploy this technology to perform new, more robust and more reproducible experiments\nleading to discoveries in neurodevelopmental disease and cancer."
+ },
+ {
+  "id": "9fc5e820-5222-43d0-9bef-f584c3fdc1fa",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Developing Novel Tools for Precision Targeting of Pro-Autoimmune Th17 Cells",
+  "text": "The proposed research is relevant to public health because it aims to develop more precise treatments for\nautoimmune diseases, potentially reducing side effects and improving the quality of life for millions of Americans.\nThe proposed research is relevant to the NIH’s mission by advancing our understanding and ability to\nselectively target harmful immune cells, thereby enhancing health, lengthening life, and reducing illness and\ndisability."
+ },
+ {
+  "id": "9fcc0a0e-9f5e-4d49-adee-3ff040aee5ed",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Engineering the fetal environment for in utero treatment of spina bifida bone defect",
+  "text": "Myelomeningocele (MMC), the most severe form of spina bifida (SB), is the most common congenital cause of\nlifelong paralysis, which results from the incomplete closure of the neural tube and absent overlying spine during\nfetal development. Fetal surgery offers great benefits to the repair of MMC, but the lack of vertebral dorsal arches\nover the MMC defect remains present throughout life, as bone never redevelops over the spinal cord neuronal\ndefect. In this study, we aim to develop an “smart”, safe, and bio-inductive bioengineered scaffold that can recruit\nand guide endogenous cells in the fetal environment to regenerate the missing vertebral arches before the baby\nis born."
+ },
+ {
+  "id": "9fcd3d62-4cb9-4393-bbf2-e62a85046f96",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Gigapixel Next-Generation-Sequencing: An Ultra-Sensitive Diagnostic for Infections of the CNS",
+  "text": "Accurate diagnosis is crucial for successful medical intervention in infectious diseases, but can be challenging\ndue to shared symptoms among different infections and the rising prevalence of drug resistance. There remains\na need to rapidly identify causative pathogens and choose appropriate treatments quickly given that prognosis\ncan depend on the turnaround time between sample collection and diagnosis. In this competing renewal, we aim\nto build upon technology developed in our previous R01 to enable rapid, sensitive, and information-rich diagnosis\nof infectious diseases from clinical samples."
+ },
+ {
+  "id": "9fd22d57-ae28-4006-af30-51da32cf57a1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Pharmacokinetics and Pharmacodynamics of Mechanistically Aware Phage Cocktails",
+  "text": "Cocktails of individually efficacious phages have been proposed as a strategy to create\nclinically viable phage therapeutics with sufficient spectrum of activity to combat highly resistant Pseudomonas\naeruginosa. As such, this project will generate a highly optimized N-phage cocktail using a hybrid machine\nlearning-pharmacokinetic/pharmacodynamic paradigm to strategically select N-phage components, dose, and\nadministration schedule to maximize the killing of multi- and extensively-drug resistant Pseudomonas\naeruginosa. This project will leverage phage whole-body distribution from our murine pneumonia model to\nestablish a human, physiologically based pharmacokinetic model, which will allow detailed assessment of\nexpected human exposures to phage and describe key aspects of target-mediated phage distribution."
+ },
+ {
+  "id": "9fd442e2-3ced-41d4-b6a5-5506f39abd38",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating the origin and functional impact of \"hidden\" structural variants in rare genetic diseases",
+  "text": "Public health relevance:\nStructural variants (SVs) are a relevant molecular cause of genetic diseases, although some types (e.g.\ninversions) are still difficult to detect, particularly due to their association with repeats. This project will study\nthe molecular features, origins and disease impact of challenging SVs."
+ },
+ {
+  "id": "9fd5b6b1-f1a9-4e9a-98d4-7129dded2d38",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Measuring speech biomarkers of depression in daily life: patient-centered validation of a novel tool in a community sample",
+  "text": "Speech biomarkers show promise as a cost-effective and minimally invasive approach for depression risk\nscreening, treatment monitoring, and relapse identification. This project optimizes an existing, CTSA-\nsupported smartphone app for secure assessments of speech biomarkers using community participatory\ndesign methodology, and validates app-collected speech data for assessing markers of MDD. The proposed\nresearch will accelerate progress towards scalable, valid, and reliable implementation of speech biomarker-\nbased mental health assessment technologies."
+ },
+ {
+  "id": "9fddbba2-61eb-463d-b930-cdc6c5445711",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Understanding the cellular and functional changes in the immune tumor microenvironment of glioblastoma during progression and treatments.",
+  "text": "Glioblastoma (GBM) is a lethal brain cancer with no effective treatment available due to its high heterogeneity\nand ineffective immune cell composition, which still remains uncharacterized especially during radiation and\nchemotherapy treatment. We will use advanced technologies in single cell analysis to determine the\ncomposition, activation and localization of the immune cells of GBM in patient samples and in mouse models\nthat recapitulate features of human GBM before, during and after treating the animals with the same standard\nof care that patients receive. This research will uncover new information on how tumor cells and immune cells\nreact to radiation and chemotherapy and interact with each other, which we will leverage to design new\ntreatment modalities."
+ },
+ {
+  "id": "9fed6578-1fbe-43cb-82e4-03c706d32181",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Parent-of-Origin Effects in Retinoblastoma: Epigenetic Drivers of Tumor Risk and Progression",
+  "text": "Parent-of-origin of the RB1 germline variant is an emerging prognostic marker in retinoblastoma,\nassociated with treatment response and risk of secondary cancers. We have developed a\ntargeted multi-omic long-read sequencing approach that enables direct parent-of-origin\nassignment from the proband by simultaneously capturing genetic and epigenetic variation, as\nwell identifying allele-specific RNA changes to enable targeted therapy development. This work\nhighlights the diagnostic potential of long-read profiling to uncover parent-of-origin effects in\nretinoblastoma and other hereditary cancers, with broad implications for cancer risk assessment\nand precision medicine."
+ },
+ {
+  "id": "9fef78ba-2fd1-42f6-809d-f90689b9d188",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Chemical approaches to investigate post-transcriptional RNA regulation",
+  "text": "Post-transcriptional regulation of RNA plays an important role in biological processes and\ndysregulation of these mechanisms can lead to human disease. Two major mechanisms for\nRNA regulation are through interactions with RNA-binding proteins and the enzyme-mediated\ninstallation of post-transcriptional or epitranscriptomic modifications; therapeutic agents that\nmodulate these pathways are currently in development. This project seeks to develop and apply\nbroadly enabling approaches to investigate the spatial distribution of RNA modifications in cells\nas well as to characterize RNA-protein and RNA-small molecule interactions, with the long-term\ngoal of informing the development of novel RNA-modulating therapeutics."
+ }
+]

@@ -1,0 +1,142 @@
+[
+ {
+  "id": "269cd7ee-65c5-4bab-b3c6-b63e08d446bd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identification of imaging biomarkers using data on multiplexed digital pathology to predict clinical outcomes in breast cancer",
+  "text": "Breast cancer is the second highest cause of cancer-related death in women in the U.S.; 1-in-8 women have a\nlifetime risk of being diagnosed with breast cancer; triple-negative breast cancer (TNBC) is the most aggressive\ntype that is resistant to therapies. Using computational approaches, we will analyze large-scale, high-\ndimensional multiplexed digital pathology datasets from breast cancer patients (TNBC and non-TNBC) with the\ngoal of discovering and validating clinically relevant biomarkers in the form of cell populations, protein expression\nprofiles, cell-cell interactions, and tissue microenvironment organizations that are embedded in spatial context."
+ },
+ {
+  "id": "26a34542-9969-457b-b8e9-13711178f461",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanism of host innate immunity dysfunction by quorum-active Streptococcus pyogenes",
+  "text": "This proposal describes experimental approaches that seek to understand the mechanistic explanation of how\nStreptococcus pyogenes (Group A streptococcus; GAS) disrupts effective immune signaling during interactions\nwith host cells. Preliminary data point to specific cellular pathways that we will test for their contributions in\nimmune responses to the pathogen. The findings from these studies could lead to new, effective strategies to\nenable the immune system to eliminate spread and damage caused by these bacteria."
+ },
+ {
+  "id": "26a58673-f044-479e-bc38-fe038d35bdb1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating the Role of Mutagenic DNA Repair during the Persistence of Cancer Cells",
+  "text": "Persistence is a transcriptionally distinct cellular state that occurs in response to environmental stressors and\ntoxins, similar to the SOS response in bacteria. Exhibiting slowed cell proliferation, upregulation of low-fidelity\nDNA polymerases, and hypermutability of the genome, small populations of persister cancer cells survive\nprolonged toxic onslaughts from anti-cancer drugs and expand once the stress is removed or after acquiring a\nresistance-conferring mutation. Here, I aim to undertake a systematic evaluation of mutagenic DNA repair\npathways that contribute to persistence in cancer cells, thereby identifying potential new targets for anti-cancer\ntherapy to prevent acquired drug resistance and establishing a morphological signature of persistence."
+ },
+ {
+  "id": "26ad3612-458f-40c4-aea9-a2978b6b7599",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Novel Mechanisms Of MicroRNA-Mediated Anabolic Effects In Age-Related Osteoarthritis",
+  "text": "We discovered a robust anabolic response in human cartilage that follows a distal-proximal axis gradient\n(high in the ankle joint and low in the hip joint); this response was modulated by the same master regulators\nthat regulate limb regeneration in animals capable of limb regeneration. This project investigates the origins of\nthese master regulators in synovial cells, the mechanisms involved, and how aging effects these mechanisms\nin human joint tissue."
+ },
+ {
+  "id": "26ae7456-3b3b-4a23-bbdb-fa9ad908bcc1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Computational Models of the Human Cell Cycle to Reveal Disease Mechanism and Inform Treatment",
+  "text": "2R01-GM138834 COMPUTATIONAL MODELS OF THE HUMAN CELL CYCLE NARRATIVE\n The cell cycle is fundamental to all life sciences; when it is disrupted, it can drive human disease. We have\nlong known that the cell cycle adapts to different biological settings, but we have lacked both the experimental\nand computational tools to compare the overall behaviors of two or more cell cycles. This project will combine\ninnovative experiments and computational models to study how the cell cycle adjusts to different biological\nenvironments, opening new avenues of basic and translation research into cell growth and division."
+ },
+ {
+  "id": "26b3fbf6-7a02-4e36-b3a4-73bab6788505",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Zone-Specific Metabolic Effects of Glucagon Receptor Agonism in the Treatment of Obesity and Metabolic Liver Disease",
+  "text": "The U.S. is currently experiencing an epidemic of obesity and linked metabolic diseases, such as type 2 diabetes\nand fatty liver disease, sparking interest in the development of weight-loss therapies. Here, we propose to\ndetermine the effects of glucagon hormone treatment in different zones of the liver in models of health and\ndisease. The results of the proposed experiments will inform ongoing efforts in the development of safe and\neffective medications to treat metabolic diseases, as well as support the training of the applicant to build a strong\nfoundation for a career studying metabolic diseases as a physician-scientist."
+ },
+ {
+  "id": "26b4ef1e-dcec-4471-969e-ba4c88bb8314",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Evaluation of genetic variants affecting platelet function with CRISPR HDR in human megakaryocytes",
+  "text": "Individuals with inherited platelet disorders can have frequent and sometime lethal episodes of uncontrolled\nbleeding, and an early genetic diagnosis can benefit clinical management. However, genetic diagnosis is often\nnot possible without studies that define how the genetic change affects platelets, which have been historically\nchallenging. This project implements a new, faster, and more disease relevant approach to test how a panel of\ngenetic changes affect a specific inherited platelet disease."
+ },
+ {
+  "id": "26bdd1ce-99c5-4940-ada4-57b7b5ba851f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Isoform expression and post-transcriptional regulation of centrosomal plp mRNA",
+  "text": "Centrosomes are required for microtubule organization and centrosome function, and their deregulation\nresults in devastating and pleiotropic developmental disorders, including microcephaly, cancer and\ncardiovascular diseases. This proposal will investigate the post-transcriptional regulation of a model\ncentrosome transcript, pericentrin-like protein, to enhance our understanding of centrosome regulation and\ninform mechanisms of how differential isoform expression executes cell type-specific functions. Results from\nthis work will uncover fundamental mechanisms that instruct centrosome activity and may lend insight into\nthe etiology of diseases associated with centrosome deregulation."
+ },
+ {
+  "id": "26c055b7-3519-47f8-81a2-a8fa0de2a82f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Prevent IgM MGUS Progression by Targeting the Driver Mutation",
+  "text": "Prevent IgM MGUS Progression by Targeting the Driver Mutation Project Summary Patients with monoclonal gammopathy of undetermined significance of the IgM class (IgM MGUS) are at increased risk for Waldenstrom macroglobulinemia (WM), non-Hodgkin lymphoma (NHL), chronic lymphocytic leukemia (CLL), or primary light-chain (AL) amyloidosis. Myeloid differentiation factor 88 (MYD88) was discovered in the 1990s as a primary differentiation response gene in myeloid precursors. A missense mutation (L265P) changing leucine at position 265 to proline in MYD88 is found in ~90% of WM. This driver mutation also occurs in >50% of primary extranodal lymphomas and ~29% of activated B-cell diffuse large B- cell lymphomas (ABC-DLBCL), as well as in ~52% of IgM MGUS. No precancer-cancer pairs other than IgM MGUS-WM have a single amino acid substitution like MYD88 L265P occurring in most precancer and ~90% of cancer, making MYD88 L265P paradigmatic for the study of a single causative mutation in cancer prevention and interception. We found that the RING finger protein 138 (RNF138) attaches lysine 63 (K63)-linked polyubiquitin chains to MYD88 L265P, yet strikingly, it has little activity on WT MYD88. This posttranslational modification on MYD88 L265P is essential to its oncogenic action. We have used a deep learning artificial intelligence (AI) technology based on a neural network to virtually screen about ten million compounds. We identified scores of primary hit compounds targeting a binding site near L265P in MYD88. We validated primary hits from AI screening and evaluated their inhibition of MYD88 L265P ubiquitination and xenograft tumorigenesis. One compound attenuated lymphoma growth from NHL cells with MYD88 L265P but not that with WT MYD88. The E3 ligase RNF138 is primarily expressed in the testis and in immune cells, and its whole- body knockout in mice does not affect physiological functions other than that in the testis. RNF138 deletion attenuates tumorigenesis from WM and DLBCL cells with MYD88 L265P but not from cells with WT MYD88. We hypothesize that targeting the MYD88 L265P-RNF138 interaction prevents IgM MGUS progression. In this application, we propose two specific aims to identify and validate chemo- and immune-prevention agents to target MYD88 L265P-RNF138 and prevent IgM MGUS progression into WM and NHL. In Aim 1, we will use the AI-developed MYD88 L265P-targeting compound to prevent IgM MGUS progression. In Aim 2, we will use DNA vaccines against RNF138 to prevent IgM MGUS progression. We expect to generate effective chemical and immunological agents without overt toxicities for cancer prevention and interception against IgM MGUS progression."
+ },
+ {
+  "id": "26c0781c-a783-4819-9559-a074f2c58605",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "In Vivo Studies of the Epileptic Hippocampus",
+  "text": "RELEVANCE TO PUBLIC HEALTH\nThe World Health Organization’s Global Burden of Disease ranking, based on disability adjusted life years, includes dementia\nand epilepsy among the top four primary diseases of the brain. Many patients with mesial temporal lobe epilepsy (MTLE), the\nmost commonform of adult epilepsy, develop dementia, and many patients with Alzheimer’s disease (AD) have seizures. This\ntranslational research, involving patients with MTLE, patients with AD, and a rat model of AD with seizures, will elucidate\nnovel targets and approaches for the prevention and treatment of seizures and dementia in these conditions, and identify\nbiomarkers to permit cost-effective clinical trials of these interventions."
+ },
+ {
+  "id": "26c1594b-b44e-45a2-9cd9-f2a04e0e43b7",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Core A: Biospecimen Repository and Pathology",
+  "text": "CF1: Biospecimen Repository and Pathology Core ABSTRACT The Biospecimen Repository and Pathology Core (CF1) is designed to provide support to the basic and translational research efforts of the SPORE. CF1 will play a central role in collecting, annotating, storing, distributing, and tracking of tissue and blood biospecimens from patients enrolled in research protocols. The Core will provide SPORE investigators with expert histopathological evaluation of tumor samples both from patients enrolled on research protocols and from murine and xenograft models. Additionally it will assist in selecting appropriate formalin-fixed, paraffin-embedded (FFPE) tissue and snap-frozen tissue for research and pilot projects, as well as enable the creation of tissue microarrays (TMAs) for SPORE investigator studies. CF1 will assist in performing and interpreting immunohistochemical studies and fluorescence in situ hybridization (FISH) assays. It will provide scanning and digital archiving of TMA images and reliable interpretation, scoring, and archiving of IHC results from FFPE or TMA sections. CF1 will also provide systematic assessment of tumor response to therapy in human tissues and in sarcoma murine models, including interpretation of immunohistochemical markers for drug response, such as changes in kinase phosphorylation, proliferation inhibition, and induction of apoptosis. It will also provide a centralized resource for mutational annotation of sarcoma samples and cell lines using the MSK-IMPACT platform. Finally, CF1 ensures linkage of specimens to the clinical sarcoma database (within CRDB) in collaboration with project leaders, the Biostatistics and Bioinformatics Core (CF2 Qin/Socci) and the Administrative Core (Singer). This establishes a substantial infrastructure and allows us to provide the required services in a cost-effective manner. CF1 is tightly integrated with the MSK institutional Pathology Core (supported by the MSK Cancer Center Core Grant) and the sarcoma clinical database managed by the Administrative Core."
+ },
+ {
+  "id": "26c2605d-ee15-42e4-909a-6a8241bb0d18",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "TRP channels in the regulation of vascular tone",
+  "text": "Coronary artery disease (CAD) is the leading cause of death for both men and women in the US. It has become\nincreasingly evident that coronary microvascular dysfunction plays a pivotal role in myocardial ischemia and\npredicts outcomes of patients with CAD. Our application addresses a change of vasodilation mechanism as an\nunderlying cause of coronary microvascular dysfunction."
+ },
+ {
+  "id": "26c40a1f-ccdd-49c1-abb1-d866298475c0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Toward the Precision Diagnosis and Prevention of Acquired and Congenital Long QT Arrhythmias",
+  "text": "Sudden cardiac death is when someone dies without warning from a problem with their heart, most commonly\ndue to a heart rhythm disorder. A condition called Long QT Syndrome, which can be caused by certain drugs\nor genetics, can increase the risk of sudden cardiac death. This proposal will combine artificial intelligence\ncomputational analysis of electrocardiograms with gene editing of induced pluripotent stem cells derived\ncardiomyocytes in order to improve the prediction and prevention of arrhythmias arising from both acquired\nand congenital Long QT Syndromes."
+ },
+ {
+  "id": "26c77b82-6b5c-4fc9-aef7-005a68d8756a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Determining the effect of DNMT3A loss on the competitive fitness of mutant cells in somatic mosaicism",
+  "text": "The human body is a mixture of cells that carry different gene mutations, which may confer tissue-context-\ndependent advantages or disadvantages. This phenomenon of somatic mosaicism has public health relevance\nbecause the expansion of cell populations with pathological mutations, such as those in the leukemia-driver gene\nDNMT3A, can contribute to cancer and developmental disorders. We plan to model somatic mosaicism using\nboth cell lines and mice that we have developed with the long-term goal of identifying tissues in which DNMT3A\nloss confers a selective advantage or disadvantage, as well as the mechanism of this differential tissue\ncomposition."
+ },
+ {
+  "id": "26ca52f7-3000-4032-995b-86dff153de52",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Developing an Accurate and Robust Targeting Technique to Enable Transcostal Histotripsy Treatment of Liver Tumors",
+  "text": "Histotripsy is an emerging noninvasive, nonthermal, and nonionizing tumor treatment that uses focused\nultrasound to mechanically destroy tissue. Recently, histotripsy underwent a successful Phase I human clinical\ntrial for treatment of liver tumors, however, only ~50% of tumors in the liver can currently be treated due to an\ninability to visualize and target the tumors using a transcostal approach. In this grant, we will characterize the\neffects of ribs on histotripsy targeting, develop a model to predict tumor-specific offsets when targeting through\nthe ribs, and implement the targeting technique real-time in preclinical, large animal and tumor models."
+ },
+ {
+  "id": "26d14fdc-3590-40ce-8432-6519034d22e3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Deriving high-quality evidence from national healthcare databases to improve suicidality detection and treatment outcomes in PTSD",
+  "text": "Post-traumatic stress disorder (PTSD), and its associated conditions (e.g., traumatic brain injury and\nsuicidality) are often underdiagnosed, and have outcomes that are difficult to predict. Treatment of PTSD often\ninvolves frequent treatment changes with multi-drug regimens (polypharmacy) and off-label medications for\nwhich the relative risks and benefits are largely unknown. To address these problems, we will develop and\napply methods to identify undiagnosed patients, predict disease trajectories, and compare the effectiveness of\nall common PTSD treatments using health records from millions of patients in Veterans Administration (VA)\nand non-VA databases."
+ },
+ {
+  "id": "26d24c8a-463f-428c-824d-4cfdd3ac0741",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Effects of environmental adversity on molecular aging in the immune system of companion dogs",
+  "text": "RELEVANCE This research will improve understanding of how reproductive histories across the life course are associated with molecular aging and will advance knowledge of biological pathways that contribute to chronic disease risk and healthy aging."
+ },
+ {
+  "id": "26d6ee92-0bb6-4738-b391-290e8cfb4e3f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Defining the RNA-binding landscape of Flavivirus Capsid protein",
+  "text": "Orthoflaviviruses, including Dengue and Zika, are mosquito and tick-borne viruses that pose a substantial and\nexpanding human health threat. The research proposed here is expected to contribute fundamental knowledge\nregarding flavivirus interactions with host cell RNAs, with the potential to reveal novel targets for the\ndevelopment of anti-viral therapeutics. The proposed research may also reveal a broader paradigm of virus–\nhost interactions and their links to human disease."
+ },
+ {
+  "id": "26e26c7e-31dc-410f-a670-3e5613f7aa87",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Extensible Framework for Fast Deformable Matching of Very Large Imaging Data",
+  "text": "Imaging data continues to grow both in scale and in the breadth of different technologies for their acquisition, as clinical\nand biomedical research increasingly embraces high-resolution imaging and large-scale data collection studies, from\npopulation-level magnetic resonance imaging to cellular-resolution spatial omics modalities. This project will improve\nscientists’ ability to analyze these images and enhance our understanding of health and disease by making available new\nimage processing technologies that enable researchers to better compare, integrate, and interpret this modern generation\nof imaging data across subjects, time points, modalities, and experimental conditions."
+ },
+ {
+  "id": "26e28d0a-f14d-442b-9ceb-d2046aaeda49",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Phytotherapy for Endometriosis",
+  "text": "Endometriosis is an inflammatory gynecologic disease of reproductive-age women and is characterized by two\nprimary symptoms chronic pelvic pain and infertility. Withania somnifera (active component Withaferin-A), an\nancient medicinal plant, has been used to treat inflammatory disorders, neurological diseases or disorders,\nneuropathic and inflammatory pain, and cancers; and thus, it provides a therapeutic opportunity to treat\nendometriosis in women. Successful completion of the proposed research is expected to expand the\nunderstanding of the therapeutic effects of Withania somnifera/Withaferin-A and establish a novel preclinical and\nmolecular therapeutic basis to use Withaferin-A as a non-steroidal and non-opioid therapy for the treatment of\npelvic pain and infertility in women with endometriosis."
+ }
+]

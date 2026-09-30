@@ -1,0 +1,142 @@
+[
+ {
+  "id": "674897af-763e-4006-a09c-97c576b11662",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Advanced Technologies Core (Core D)",
+  "text": "Advanced Technologies Core ABSTRACT The Tennessee Center for AIDS Research (CFAR) is a four-way partnership between Vanderbilt University Medical Center (a research-intensive institution), Meharry Medical College (a burgeoning academic health sciences center), the Tennessee Department of Health (an academically engaged state health department), and Nashville CARES (a sophisticated HIV community-based organization). The CFAR's Advanced Technologies Core (ATC) develops new assays and provides services specifically designed to meet the needs of HIV clinical, translational, and basic scientists. The ATC has developed enhanced single-cell analytic capabilities, including B- and T-cell receptor sequencing, RNA transcriptional profiling, and cellular indexing of transcriptomes and epitopes, as well as HIV plasma RNA and proviral DNA sequencing and HIV integration site assays. The ATC works closely with other Vanderbilt core facilities to provide a concierge service and a “continuum of support” for investigators from study design through to analysis. Several services are provided for CFAR investigators without direct laboratory experience or training, including cell isolation and cryopreservation protocols for PBMCs, adipose tissue, and skin. The ATC has developed cell staining protocols for analytical flow cytometry to evaluate the phenotype and function of B and T lymphocytes, as well as flow sorting assays to bulk sort populations of lymphocytes and to perform single-cell sorting for detailed transcriptomic analyses. The ATC services provide for investigator needs unmet elsewhere in the partner institutions, often by leveraging the impressive range of ‘generic’ (i.e., non-HIV-specific) institutional cores that are equally available to Vanderbilt and Meharry investigators. The ATC will continue to work hand-in-hand with CFAR investigators to design assays, facilitate assay performance, and help interpret results. The ATC will promote basic, clinical, and translational HIV research through three specific aims: 1) To provide expertise, consultation, and assay performance in wet laboratory techniques and imaging, as well as services that require BSL3 procedures. Established services include PBMC isolation, advanced multiparametric flow cytometry and sorting of cell populations of primary interest to HIV science, CRISPR gene editing, droplet digital PCR, and data interpretation. 2) To innovate integrative methods to provide visualization and interpretation of data generated from wet laboratory assays and imaging to CFAR members. This aim will leverage pipelines designed by the ATC team, which include data visualization for flow cytometry and single-cell sequencing data. 3) To develop new technologies based on the needs of CFAR investigators and then integrate state-of-the-art assays into our “continuum of support” model. For this aim, the ATC will offer a platform to develop ex vivo assays and models to study mechanisms as needed for individual projects."
+ },
+ {
+  "id": "674b0e20-2fb4-4299-858c-640ab3ae1fe9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "IRB-Assist: AI-powered decision support platform that enhances the speed, consistency, and accuracy of Institutional Review Board reviews",
+  "text": "The Phase I objective is to design, develop, and demonstrate the feasibility of IRB-Assist, an artificial\nintelligence (AI) powered decision support platform that helps Institutional Review Boards (IRBs) analyze study\nprotocols to flag regulatory gaps, administrative errors, & ethical risks in research documents. Over 270,000 IRB\napplications are submitted annually in the U.S., but staffing shortages, heavy workloads, and regulatory lead to\ncostly delays in study startup and patient care. By prescreening application and reducing reviewer burden, IRB-\nAssist has the potential to transform the review process by lowering costs, accelerating timelines, and enhancing\ntrial quality and safety."
+ },
+ {
+  "id": "674b3362-dbce-4629-9a84-a17dc694fecf",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The role of membrane homoeostasis of neural stem cell and glioma stem cells in neural development and gliomagenesis",
+  "text": "Glioma stem cells (GSCs) are a population of cells in glioblastoma that have stronger ability to self-renew in\nsuboptimal environment than neural stem cells (NSCs), and killing GSCs provides a novel therapeutic\nopportunity. Dysregulated unsaturated fatty acid (UFA) biosynthesis in GSCs leads to defective endolysosome\nfunction, which consequently enhances their stemness and reduce ferroptosis, ultimately leading to\ngliomagenesis. Here we propose to explore the mechanisms by which endolysosome is regulated through UFA\nbiosynthesis modulation in GSCs and to develop new therapeutic approaches to restore sensitivity to\nferroptosis."
+ },
+ {
+  "id": "674e0464-bb70-4e0f-b232-c0f89f96ac4b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular mechanisms of cytokinesis and plasma membrane repair",
+  "text": "Cytokinesis failure can result in tumorigenesis, and cancer cells require robust plasma membrane repair to\nsurvive and metastasize to other parts of the body. Because most of the proteins involved in cytokinesis and\nplasma membrane repair are conserved from yeast to humans, basic molecular mechanisms revealed in the\nfission yeast model system can be harnessed to improve human health. Fission yeast and fungal pathogens\nalso share many essential fungal-specific cytokinesis and membrane repair proteins, which can be targeted to\ndevelop new antifungals."
+ },
+ {
+  "id": "674f8148-915b-423c-a943-9e3efe55f7f7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Leveraging Clinical Data and Automation to Predict Epilepsy After TBI",
+  "text": "Post-traumatic epilepsy (PTE) affects nearly 20% of traumatic brain injury (TBI) survivors, posing significant\nbarriers to recovery and quality of life. This project seeks to automate large-scale PTE risk stratification by\nleveraging clinically available data and advanced machine learning techniques to identify and validate predictive\nbiomarkers, including early electronic health record (EHR) patterns, contusion volumes, and cortical metrics. By\nintegrating multidimensional features into a comprehensive model, this research aims to improve prediction\naccuracy, guide clinical decision-making, and enable the development of effective PTE prevention strategies\naccessible across diverse healthcare settings."
+ },
+ {
+  "id": "6752e6ef-6d5d-45d2-adee-390ddac93abb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Short Course on the Application of Machine Learning for Automated Quantification of Behavior",
+  "text": "TO PUBLIC HEALTH\nRecent advances in applications of machine learning methods to animal behavior quantification at high spatial\nand temporal resolution have yielded novel insights into neural functions, however, democratization of this\ntechnology remains a challenge. To better disseminate the theoretical and technical knowledge of this field, and\ntrain researchers to apply machine learning methods to behavior quantitation and modeling, we have developed\nThe Short Course on the Application of Machine Learning for Automated Quantification of Behavior. Our goal is\nto build upon the current, successful implementation of this educational program to foster productive and\ninteractive dialogue, teach proper methodology, and provide support structure to nurture and lower the barrier of\nentry into this nascent and emergent field that has the potential to facilitate leaps in our understanding of behavior\nand complex diseases."
+ },
+ {
+  "id": "67546b2e-3c36-4eb2-bbe8-9f6ff7c08fa5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Unveiling non-coding drivers of cancer",
+  "text": "Non-coding RNAs are known to carry out essential cellular functions and play important roles in cancer, but\nthey are less understood compared to protein-coding genes. We propose to develop new analytical approaches\nand search genome-wide for novel cancer-driving non-coding RNAs in large-scale cancer genome and\ntranscriptome sequencing data. We expect to discover new cancer drivers, biomarkers and potential drug\ntargets."
+ },
+ {
+  "id": "676409d0-f631-4f00-a132-a28ea7a0ca26",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Emotion network dysfunction and anxiety in early Alzheimer's disease",
+  "text": "The proposed research and career development plans seek to investigate emotion processing dysfunction and\nanxiety in early AD, a leading cause of dementia in the elderly. Emotion processing is complex, involving perception,\nregulation, and memory of emotional stimuli, which are under-explored as a pathophysiological pathway leading to\nAD. The study examines these processes and identifies risk factors of prospective cognitive decline in early AD\n(MCI and SCD), and the findings have important implications for early diagnosis and intervention for people with\nAD."
+ },
+ {
+  "id": "6764726d-48b7-485b-897f-f1a7f024e8df",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Novel Mechanisms and Regulation of Mammalian Double-Strand Break Repair",
+  "text": "Project narrative.\nReplicative stress and cellular exposure to genotoxic agents can lead to double-strand breaks (DSBs) which are\nthe most lethal DNA lesions. To significantly advance our basic knowledge of some of the most intriguing and\nimportant areas of DSB repair (DSBR), the Pomerantz lab proposes to continue to address: i. whether RNA\ndirectly contributes to DSBR; how DSBR proteins are structurally and chemically regulated, and; whether\nundiscovered DSBR pathways exist and contribute to genome instability/integrity."
+ },
+ {
+  "id": "67663a22-e791-4be0-a054-5a05023b76ef",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Genetics of Osteoarthritis Susceptibility, Heterogeneity and Progression",
+  "text": "PROJECT NARRATIVE/ PUBLIC HEALTH RELEVANCE STATEMENT\nThe societal and patient-centered impacts of osteoarthritis (OA) are profound – total costs for OA\ntreatment in the US exceed $486 billion annually. OA management is limited to pain management\nand the disease often progresses to end-stage at which time only joint replacement surgery is an\noption. Elucidating gaps in our understanding of the role of genetic variation to OA susceptibility,\nheterogeneity, and progression will enable the design personalized approaches for diagnosis and\ncare management to improve quality of level for OA patients."
+ },
+ {
+  "id": "6775f9e3-ba8f-46df-aa45-1b146939ba73",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Subproject 2: Identification of Pathways that Can be Targeted for the Development of Novel Therapies for MRSA",
+  "text": "There is an urgent need for the development of new antibiotic agents to help combat the increasing number\nof severe infections and the development of resistance. The main objective of this proposal is to study the\nefficacies and mechanisms of action of compounds that are active even against resistant methicillin-resistant\nStaphylococcus aureus bacteria that are in a metabolically inactive state and are thus tolerant to\nconventional antibiotics. These studies have the potential to play a pivotal role in identifying novel targets for\ndrug development."
+ },
+ {
+  "id": "67775873-7217-4603-a732-38bf10bdfdd4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multi-Omic Characterization of Molecular Pathways Driving Vulnerability and Resilience to Alzheimer's disease in the Oldest-Old",
+  "text": "Alzheimer's disease (AD) poses a significant and growing public health challenge, particularly as the population\nages. This project will investigate the unique aspects of AD in the oldest-old (individuals aged 90 and above), a\ncritically understudied group, to understand why some individuals maintain cognitive function despite AD\npathology while others are more vulnerable. By identifying the molecular and cellular mechanisms underlying\nthis resilience and vulnerability, this research aims to uncover new pathways for developing effective strategies\nto prevent and treat AD, ultimately promoting brain health in advanced age."
+ },
+ {
+  "id": "6777f790-a2ce-4b18-8db5-c18764df262c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Structural Mechanism and Discovery of Allosteric Modulators for 5-HT3 Receptor",
+  "text": "The serotonin 3 receptor (5-HT3R) is an established therapeutic target for nausea and has potential to treat\nchronic pain, gastrointestinal disorders, and neuropsychiatric diseases, but current drugs produce significant\nadverse effects that limit their clinical utility. This research will use innovative structural biology approaches to\ndetermine conformations of 5-HT3R in membranes that support function and discover novel allosteric modulators\nthrough structure-based virtual screening, providing new drug scaffold leads for rational drug design. The\noutcomes will advance fundamental knowledge of allosteric modulation mechanisms in pentameric ligand-gated\nion channels and establish a platform for developing safer 5-HT3R therapeutics for treating conditions affecting\nmillions of patients worldwide."
+ },
+ {
+  "id": "6779237d-b8b2-4555-8b4a-6d731f886cc5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "NAPS2 Data Management and Statistics Core",
+  "text": "NAPS2 DATABASE MANAGEMENT AND STATISTICS (DMS) CORE The Data Management and Statistics (DMS) Core of the North American Prodromal Synucleinopathy Consortium on RBD, Stage 2 (NAPS2) will serve as both a collaborator and a valuable resource for the Cores and the Project focused on predicting phenoconversion. The DMS Core will assist in the application of appropriate statistical and methodological techniques as well as leading and collaborating data analysis and report preparations for all Cores and the Project. We will work with the Administrative and Clinical Cores and study sites to ensure target enrollment is achieved and the data collected is scrutinized with the highest quality control (QC) standards which include training on Part 11 compliance systems and procedures, data monitoring, queries and cleaning. We will work with the other Cores to integrate their collected data, providing additional QC through bi-annual data freezes. The DMS Core’s assistance is specifically needed for analysis of associations among longitudinal growth/decline and symptomatic conversion patterns of all disease markers. The DMS Core is imperative for providing a central standard data set, both retrospectively from the existing NAPS1 data, and prospectively collected data in NAPS2 which will avoid study inconsistencies and varying approaches. By using this centralized and standardized approach and providing expertise in deep learning analysis across cores and machine learning, we can offer the highest quality data which in turn will create the most reliable results for the Project. The NAPS2 DMS Core will act as a resource to all investigators, including those outside of the NAPS2 Consortium to assist with reliable and reproducible data analysis. It is the mission of the DMS Core to enhance and support the research objectives of the NAPS2 Consortium by providing timely and reliable data management and appropriate analytic expertise which will ultimately lead to optimal trial planning and future clinical trials for synucleinopathies in RBD participants."
+ },
+ {
+  "id": "677df6a6-9a3a-4f83-91b3-f4437aabc0ca",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Bridging Scales to Understand Endogenous Neuromodulation and its Regulation",
+  "text": "Neuromodulatory nuclei are small groups of neurons that change brain network function and are centrally\nimportant to motivation, adaptation, and treatments for many mental disorders. This project uses advanced\nstatistical modeling to relate activity in nuclei that release dopamine and other neuromodulators to widespread\nbrain networks and activity patterns. The knowledge we expect to gain offers better understanding of brain\nfunction and self-regulation, and promises many new tools for optimizing human cognition and mental health."
+ },
+ {
+  "id": "67849ef8-5e8f-4812-a7ff-b212fba6b32b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Efficacy of Preoperative Oral Iron Supplementation in Adolescents Undergoing Scoliosis Surgery",
+  "text": "Pediatric patients undergoing spinal fusion surgery for the correction of Adolescent Idiopathic Scoliosis are at\nhigh risk of both preexisting and surgery-related iron deficiency, yet the means and evidence for optimizing iron\nstatus have not been described in this setting. The proposed study is a randomized controlled trial of preoperative\noral iron supplementation, to identify whether iron deficiency is a modifiable risk factor for adverse surgical\noutcomes such as red blood cell transfusion and diminished postoperative cognitive and physical capacity in this\nvulnerable population of adolescents. Building evidence for patient blood management interventions such as\niron supplementation is vital to ensuring high quality care of surgical patients and may reduce unnecessary\ntransfusions amid recent blood shortages."
+ },
+ {
+  "id": "678590e4-fbb5-4df3-a5d7-18b15b49f512",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Ion laboratory for the elucidation of macromolecular assembly heterogeneity",
+  "text": "Emerging evidence shows heterogeneity in ribosome composition confers specialized\nfunctions that play critical roles in translation regulation, response to environmental\nstress, and human disease. Unfortunately, existing analytical and biophysical\nmethodologies remain limited for structural characterization of large and heterogeneous\nmacromolecular assemblies, such as the ribosome. To address this challenge, we will\ndevelop novel top-down proteomics and native mass spectrometry technologies to\nenable accurate intact mass determination, more informative tandem mass\nspectrometry, and spectral decongestion."
+ },
+ {
+  "id": "6787e5ce-eb4b-427e-b1f1-c37dd9b34b25",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Computational Image Analysis of Renal Transplant Biopsies to Predict Graft Outcome",
+  "text": "It is important to improve the outcome of the first transplants in renal transplant recipients via intelligent\nmanagement, therefore, reduce the need for second transplants and optimize organ allocation. However,\nexisting clinical methods are either minimally to moderately predictive or often not predictive of future renal\ntransplant graft function. Toward this goal, an objective framework will be developed via quantifying chronic\nchanges in digital high-resolution renal transplant biopsy images, and integrating the resulting quantified scores\nwith patients’ demographic, clinical, and social determinant of health data in a multimodal framework, using a\nnovel explainable artificial intelligence model, to predict future renal transplant allograft function, and making the\ntool available on the cloud for end-users in an easy-to-use, plug-&-play form that will facilitate collaborative,\ndistributed training, and prediction."
+ },
+ {
+  "id": "678fb896-2661-4c21-be97-1c35281ff135",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Animal Tumor Models",
+  "text": "The Animal Tumor Models Shared Resource (ATM-SR) provides services in three major areas: (i) transgenic and knockout mice, (ii) preclinical oncology, and (iii) animal histopathology services. The primary goal of the ATM-SR is to facilitate high-impact cancer-relevant research done by Stanford Cancer Institute (SCI) members by providing state-of-the-art and comprehensive animal resources. The transgenic and knockout mouse production services were established at Stanford in 1996 with the overall objective of providing genetically modified mouse models and associated supporting technologies to Stanford investigators at cost- effective rates. Preclinical oncology services, including study design, tumor induction, drug administration, PK and PD study, data collection and analysis, were initiated by the SCI in 2007. These services are provided by the Transgenic, Knockout and Tumor Model Center (TKTC). The Veterinary Service Center (VSC) in the Department of Comparative Medicine manages the animal histopathology service component of the shared resource. Major services include tumor analysis by histology, immunohistochemistry and pathological interpretation. Since the last review, the animal histology laboratory underwent a major renovation and expansion. In 2020, 45% of users were SCI investigators. Members from all programs regularly use the ATM- SR, with the heaviest use coming from the Cancer Biology and Cancer Stem Cells and Cancer Therapeutics programs. The ATM-SR contributed to over 17 cancer-focused SCI member publications since 2015; 10 of them were high-impact. The annual budget of the ATM-SR is $1,250,002 yet the CCSG request is $105,312. Accordingly, the ATM-SR leverages extensive institutional support and seeks only 8% from CCSG funds. The ATM-SR is focused on three major scientific aims: (1) to produce transgenic and knockout mice, (2) to provide preclinical oncology model services, and (3) to provide histopathology services."
+ },
+ {
+  "id": "678fcf64-2f65-421e-85b5-1812ac11127c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Transgenic & Gene-Targeting Shared Resource",
+  "text": "TRANSGENIC AND GENE-TARGETING SHARED RESOURCE (TGTSR): ABSTRACT Genetically altered models are important tools for the researchers at The University of Kansas Cancer Center (KUCC). The production and analysis of such models using CRISPR-based genome editing methods, including mouse, pluripotent stem cell, and tumor cell line models, ultimately leads to a better understanding of the nature, progression, and functional genomics of tumor formation. Genetically engineered mouse strains also serve as in vivo models for diagnostics and treatment. The techniques employed to generate genetically modified animal and cell models require specialized equipment and technical expertise. The Transgenic and Gene-Targeting Shared Resource (TGTSR) led by Jay L. Vivian, PhD, supports members of KUCC by providing centralized and comprehensive technical services for the production of novel genetically engineered rodents and cell lines. The TGTSR uses cutting-edge methods, state-of-the-art instrumentation, and novel reagents for the generation of these models. Genome editing methods are central to the activities of the TGTSR, including a pipeline for the design and optimized use of CRISPR reagents in embryo and cell models. The expertise of the TGTSR Director and staff is leveraged in all phases of the generation of novel genetically engineered models, from the initial experimental design stage through model generation, molecular characterization, expansion, genotyping, and cryopreservation. This extensively used shared resource supported 28 KUCC users in CY2020, and 49 unique KUCC members were supported by the TGTSR in the previous funding period, demonstrating the broad use of this shared resource. The five full-time staff members of the TGTSR include the coordinated efforts between staff at both the University of Kansas Medical Center (KUMC) and Children’s Mercy Kansas City (CM) campuses, allowing for staff expansion in response to increased use by KUCC members. By centralizing operations and reagents between KUCC consortium members, all services are available to KUCC investigators on all campuses at a greatly reduced time and cost. The Cancer Center support of the TGTSR allows for the development of specific initiatives relevant to cancer research. For example, certain transgenic methods and mutations are particularly relevant to cancer studies, including tissue specific transgene expression and subtle mutations that recapitulate clinically identified variants and somatic mutations. Strategic investments by the KUCC have allowed for acquisition of new instrumentation and support to develop novel CRISPR mutagenesis methods in the zygote and in cell lines. The integration of these continually evolving methods into the ‘toolbox’ of the TGTSR greatly accelerates the development of animal and cell models of cancer, while also reducing costs to KUCC researchers on all campuses."
+ }
+]

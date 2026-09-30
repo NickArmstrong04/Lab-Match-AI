@@ -1,0 +1,142 @@
+[
+ {
+  "id": "429d5be1-6e86-4dcb-a7c2-083459d88e8a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "High Throughput Screening Shared Resource",
+  "text": "The High Throughput Screening Shared Resource (HTSSR) serves as a gateway through which Simmons Comprehensive Cancer Center (SCCC) members can exploit novel discoveries in cancer biology and drug discovery using expertise of the HTSSR and its chemical and functional genomics libraries. Translational impact is achieved by (1) identifying chemical starting points for academic drug discovery and chemical tool development and (2) discovery of new cancer drug targets of high therapeutic value. In the current reporting period, the former is exemplified by the clinical trials and FDA approval of Belzutifan (marketed as Welireg™ by Merck, Inc.), a first-in-class medication for the treatment of VHL-mutant cancers (2021) and advanced clear cell renal cell carcinoma (ccRCC) (2023). The precursor of this Hif2α antagonist was discovered in the HTSSR in 2008 and subsequently optimized to a lead candidate by members of the Chemistry and Cancer Research Program (CC) before being licensed to Peloton Therapeutics in 2013, where the clinical candidate was produced. Two additional drug discovery programs are advancing similarly: (1) the truncated APC-selective inhibitor-1 (BT- 1501) is scheduled for first-in-human trials in colorectal cancer in 2025 (Barricade Therapeutics) and (2) a 15- PGDH inhibitor is completing IND-enabling toxicity studies (Amgen, Inc.). The latter compound elevates PGE2 levels, thereby facilitating stem cell survival and tissue repair following liver resection for hepatic cancers or bone marrow transplantation after chemo/radiotherapy. Several programs identified novel cancer drug targets using chemical tools from HTS and/or forward genetics methods. These approaches have uncovered molecular targets in NSCLC, neuroblastoma, AML, GBM, and colorectal cancer. In the current grant cycle, HTSSR worked with 80 SCCC members across all five Research Programs: Chemistry and Cancer (CC), Cellular Networks in Cancer (CNC), Development & Cancer (DC), Experimental Therapeutics (ET), and Population Science and Cancer Control (PS). These HTSSR-supported projects led to 20 new cancer-focused grants and 51 cancer-focused publications (papers and patents) in high impact journals. Cumulatively, HTSSR personnel have over 80 years’ experience spanning high-throughput methods and assays, cell biology, biochemistry, bioinformatics, cheminformatics, data management, structure-based drug design (SBDD) and hit-to-lead support for pre-clinical drug discovery. To better serve SCCC members, HTSSR has expanded its chemical library (currently ~393,702 drug-like small molecules), established and validated conditions for arrayed CRISPR screening, supported our first arrayed CRISPR library screen, and developed and validated two new assay methodologies (LIMS kinase platform and Cell Painting). In the next project period, HTSSR will continue to strive for innovation by (1) facilitating access to and screening of the NCI Natural Products Fractions Library, (2) supporting development of a PROTAC screening library with novel approaches developed by Uttam Tambar, PhD (CC) (3) supporting artificial intelligence (AI) methods and Cell Painting, and (4) expanding our support for CRISPR screening."
+ },
+ {
+  "id": "429d70af-ffbd-4742-80d0-a4bff995fcef",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Determining the Impact of Edelfosine on Restoring the Gut Microbiota after and Epileptic Insult",
+  "text": "These studies will advance our fundamental knowledge of the communication between the brain and the\ngut under epilepsy-like conditions. They aim to clarify the effects of a drug called edelfosine, on various\naspects after an epileptic insult, including the composition of gut microbes, communication between the\ngut and brain via metabolites, and the influence on immune cells and inflammation via cytokines. Studying\nthe effect of drugs on the gut-microbiome following an epileptic insult, is in line with our long-term\nobjective of comprehending gut-brain interactions post-drug treatment, fostering innovative therapeutic\napproaches with fewer side effects for patients."
+ },
+ {
+  "id": "429da017-7749-4c5e-ae54-a05e0ca3ff40",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Training In Cell and Gene Therapy",
+  "text": "This proposal will recruit and train diverse young researchers so that they can translate cell and gene based\ntherapies from basic science laboratories into clinical development. These therapies hold great promise for\nregenerative medicine, cancer and other disorders, but can only be implemented after the specialized training\nprovided by this award."
+ },
+ {
+  "id": "429ddd3b-c972-4f08-8044-0aa8b239ddda",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Host associations and phylogenetics of virulent Toxoplasma gondii",
+  "text": "Toxoplasma gondii chronically infects almost 30% of the human population, and hypervirulent genotypes have\ncaused fatal outbreaks in healthy human populations in South America. The proposed activities will contribute\nfundamental knowledge about the nature of Toxoplasma gondii, including describing the host-specificity of\nhypervirulent genotypes, estimating the potential geographic distribution of these genotypes from reservoir host\nranges, and examining the evolutionary history of these genotypes. This research will help identify whether\nregions or specific reservoir species require targeted surveillance to mitigate future outbreaks of fatal\ntoxoplasmosis."
+ },
+ {
+  "id": "42a23b01-dd02-489b-b2a7-445685de96e0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "3D in vitro model of genetic and sporadic FTD: accelerating novel therapeutic development",
+  "text": "FTD is an Alzheimer’s disease-related dementia (ADRD) that is the second most common cause of dementia in\npatients younger than 65 and the third most common cause overall, and it is twice as costly as Alzheimer’s\ndisease on a per-patient basis. A major challenge in the development and testing of new therapeutics is the lack\nof models that accurately reflect the underlying pathophysiology. Synapticure’s 3D in vitro platform will allow for\nmore accurate modeling FTD, enabling the development of new biomarkers, prognostic tools, and ultimately\nnovel therapeutics to better treat FTD patients."
+ },
+ {
+  "id": "42aadb66-341a-4f60-81b1-868b39088936",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Genomic Ablation of PKM2 and ENO1 in Controlling Bladder Cancer Progression",
+  "text": "Cancer progression from the early to the late stage is the principal cause of treatment failure and unfavorable\nprognosis. Bladder cancer, a highly prevalent cancer among the Veterans, is difficult to manage clinically due\nto frequent recurrences and risks of progression. The proposed research aims to tackle this important problem\nthrough reprograming the means by which bladder cancer cells metabolize the main fuel source, glucose, at\nthe early stage so as to reduce and even prevent bladder cancer from recurring and progressing to the\nadvanced stages."
+ },
+ {
+  "id": "42b0494f-1b53-42c1-99b1-66bf973b31df",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Transmembrane Protein Disulfide Isomerase TMX1 Negatively Regulates Thrombosis",
+  "text": "Platelets are small circulating blood cells that are important in bleeding cessation, and in\nformation of blood clots that cause heart attacks and strokes which are a leading cause of\nmorbidity and mortality in the United States. This project focuses on defining the\nmechanisms by which platelets and coagulation form clots and could lead to novel ways\nto prevent thrombotic disorders and have an impact in other disease states that involve\nplatelets including Covid19."
+ },
+ {
+  "id": "42b1ab2e-825a-417d-b96c-c368642c683c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Role of the RNA-binding Protein PABPC1 in Endothelial Gene Expression and Angiogenesis",
+  "text": "This project studies a protein called PABPC1 which we believe controls blood vessel growth and inflammation.\nThis protein has not been associated with these processes before, and we think this could provide new\ninformation that could lead to more treatment options for patients who need better blood flow such as in\natherosclerosis or recovery after heart attack."
+ },
+ {
+  "id": "42b81542-1f60-43f6-ada8-c4b6d7283107",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Core 1: Data Analyses and Pathway Modeling",
+  "text": "ABSTRACT – Data Analysis and Pathway Modeling Core (Core 1) The Data Analysis and Pathway Modeling Core supports the goal of the Duke Conte Center for Basic Neuroscience to unravel the complex role of dysregulated kinase networks in neurodevelopmental disorders (NDDs). By developing and applying cutting-edge machine learning and computational tools, this Core will analyze high-throughput proteomic and transcriptomic data to model the intricate developmental trajectories of neuronal cell types in support of the three Projects. Our work will provide a deeper understanding of how both known and novel pathways interact during normal brain development as well as throughout the progression of these diseases. Building on our foundational work with innovative algorithms, such as optimal transport conditional flow matching (OT-CFM) and TrajectoryNet, we are uniquely positioned to quantify treatment effects at the single-cell level and identify critical inflection points where disease progression can be altered. The Core will focus on three specific aims: modeling the developmental trajectories of NDD kinase signaling pathways, identifying key moments in disease dynamics where interventions could be most effective, and pioneering new computational methods to revert pathological cellular states back to healthy ones. This Core will serve as a central hub for computational expertise, integrating data from multiple research projects to build a comprehensive, multi-scale understanding of kinase regulation in NDDs. Through a synergistic approach that combines advanced modeling with experimental validation, the Duke Conte Center aims to uncover causal mechanisms and identify novel therapeutic strategies. Our ultimate goal is to create a powerful, predictive framework that will significantly advance our ability to diagnose, treat, and potentially prevent neurodevelopmental disorders driven by kinase dysregulation. By providing robust computational support, this Core will empower the Duke Conte Center to translate complex data into actionable biological insights."
+ },
+ {
+  "id": "42bdbc62-8fa3-4d03-89ac-58e40e2fd3b7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Role of the O-GlcNAc Modification in X-linked Intellectual Disability",
+  "text": "This proposal is focused on elucidating the regulation and structure/function relationships of a single enzyme,\nOGT, involved in post-translational modification of thousands of protein substrates. This work builds on our\nrecent discovery that mutations in the OGT gene are causal for X-linked intellectual disability. The proposed\nefforts will uncover a mechanistic understanding of the impact of the disease variants and lay the groundwork\nfor being able to ameliorate consequences of the disability."
+ },
+ {
+  "id": "42c411a2-feaf-45c2-9c78-7d6b7f006000",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cilia disassembly and dysfunction in malformations of cortical development",
+  "text": "Malformations of cortical development (MCD) such as focal cortical dysplasia are neurological disorders\ncaused by mutations that alter neural circuit organization and function, leading to drug-resistant epileptic\nseizures. In this proposal, we will test the hypothesis that defects in a cellular structure known as the primary\ncilium are an underlying cause of circuit defects and epilepsy that is shared across different sub-types of focal\ncortical dysplasia and related MCD disorders. In addition to providing new insights into the basis of cortical\nmalformations, our studies will test new therapeutic strategies and improve diagnostic tools for these disorders,\nwhich are a major cause of epilepsy in the US population."
+ },
+ {
+  "id": "42c7405a-1bbb-4c97-b921-140a83f80a80",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Customized Physiology and Imaging Core (CPIC)",
+  "text": "CUSTOMIZED PHYSIOLOGY AND IMAGING CORE (CPIC) The Customized Physiology and Imaging Core (CPIC) provides a unique resource for researchers of the Vermont Center for Cardiovascular and Brain Health (VCCBH) and UVM. Our goal is to provide the multi- dimensional training – 3D printing, imaging, electrophysiology, and analysis – necessary for investigators to extract the maximum amount of meaningful data and ultimately achieve full independence in the use of optical and electrophysiological equipment. This approach was successful in Phase 1 yielding high impact publications enabling four Research Project Leaders to graduate with NIH R01s or NSF equivalent. In Phase 2, the CPIC has the following aims: Specific Aim 1: To advance the high spatial and temporal resolution live- imaging resources of the CPIC and facilitate exploration of dynamic cardio- and neurovascular physiology. The CPIC offers unique capabilities and flexibility to image living systems in three dimensions over a wide range of time scales from milliseconds to weeks. For this Specific Aim, we propose combining effective use of live imaging and electrophysiological techniques with advanced analytical support for data interpretation and continue making these resources widely available to VCCBH investigators and the greater research community at UVM. Specific Aim 2: To strengthen VCCBH expertise by advising and training investigators in use of optimal imaging technologies, fabrication resources, electrophysiological approaches, and data analysis. CPIC consults with Core users, advising them on the best imaging and analytical approach for their research goals. We train investigators at all professional levels and provide operational support during experiments to increase productivity and generate conclusive datasets. When necessary, we fabricate specialized equipment. We offer training and consultation concerning data analysis, including powerful analytical approaches toward extracting diminutive yet salient signals in complex 3D time-series data using software developed and pioneered here at UVM. Specific Aim 3: To ensure long-term viability of CPIC’s imaging resources within the larger research community by integrating into existing UVM administrative structures and building our user base. While the CPIC has distinct capabilities from other shared resources at UVM, we maintain a close collaboration with the Center for Biomedical Shared Resources, which has a standard fee for service management plan used by the CPIC. This allows us to employ their iLab platform for scheduling and billing. The innovation of the proposed CPIC is that it centralizes otherwise disparate resources and leverages the Core personnel’s expertise to train a wider audience. The Core’s offerings are multifaceted (imaging, electrophysiology, fabrication, analysis, training) and therefore, unique on UVM’s campus."
+ },
+ {
+  "id": "42c8309d-e5a3-4016-bcc4-62d23ad38433",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Science of Community Outreach and Engagement (SoCOE) Conference",
+  "text": "The Science of Community Outreach and Engagement (SoCOE) conference will share knowledge, best practices, and tools that will address the burden of cancer in the United States. We will leverage the annual conference to develop an academic-community workforce that will bring unique perspectives to addressing cancer in all populations as well as effectively deliver and integrate evidence-based Community Outreach and Engagement (COE) interventions in underserved, understudied and under-resourced communities. Working collaboratively with leading cancer advocates, the conference will foster: (1) the mobilization of Cancer Centers’ resources and communities’ resources for effective COE strategies; (2) unique partnerships among key stakeholders nationally for effective COE strategies; and (3) the development and successful implementation of rigorous COE best practices for all populations nationally."
+ },
+ {
+  "id": "42c8c066-f147-47d4-a982-7688f61aacec",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Omics, Bioinformatics, and Data Management Core",
+  "text": "CORE D PROJECT SUMMARY The `Omics, Bioinformatics, and Data Management Core (Core D) serves this Program by providing high resolution functional genomics and bioinformatics computation analyses with statistical integration. The main objective of the Core is to define the gene expression signatures and their functional output that program the immune response for 68-1 RhCMV/SIV vaccine mediated SIV replication arrest in pre-clinical rhesus macaque (RM) vaccine studies. The Core will interrogate single CD8+ T cells in blood and tissues, their linkage of specific T cell receptor usage (to identify SIV-specific clonotypes), single non-CD8+ T cells in blood and tissues, and whole immune tissues including whole blood, lymph node (LN), spleen, bone marrow (BM) and gut-associated lymphoid tissues (GALT), and will link data sets with spatial transcriptomic data sets, to define gene expression signatures and networks, and will apply cutting edge bioinformatics approaches to model their functional output and inform the mechanisms of action by which RhCMV/SIV vaccination programs the immune response for replication arrest-type protection against SIV infection. To meet these goals, Core D will address the following Specific Aims: 1) provide specialized CITE-seq and/or TCR sequence identification using the 10X Genomics platform, 2) conduct Nanostring and bulk RNAseq analysis of whole blood and tissues, 3) provide bioinformatic and biostatistical analyses, and computational modeling, to define immune response gene expression signatures linked with vaccine actions and virus control, and 4) develop and manage a comprehensive database for all Program data to facilitate integrated data analysis. Core D is directed by Dr. Michael Gale, Jr., working closely with Drs. Ben Bimber and Paul Edlefsen, to provide consistent, high-quality functional genomics data generation, integrated data analysis, biostatistical analyses and computational modeling, with big data management, for all aspects of the scientific program."
+ },
+ {
+  "id": "42cf61cb-d718-49b0-bebe-44765a4d192c",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Immunologic Monitoring and Cellular Products Laboratory",
+  "text": "Immunologic Monitoring and Cellular Products Laboratory (IMCPL) The goals of the Immunologic Monitoring and Cellular Products Laboratory (IMCPL) are to support the development of cellular, viral or gene therapies for cancer and monitor immunological responses to these therapies in patents enrolled in clinical trials at the Hillman Cancer Center (HCC). IMCPL is a unique facility offering a comprehensive set of state-of-the-art technologies and assays to the HCC investigators conducting clinical trials with various biotherapies and monitoring immune responses to these therapies. IMCPL also supports pre-clinical developmental projects for future translation to clinical trials. IMCPL is led by Dr. Theresa Whiteside, (CII) who oversees a staff of 20 FTE in the facility located within the HCC Research Pavilion. Services are provided by trained personnel in a CLIA/CAP certified laboratory with independent quality assurance (QA) oversight. IMCPL primarily supports the clinical and translational CII and CT research programs. In FY2019, the IMCPL serviced 62 independent clinical trials for 35 HCC members (87% of the usage)/research protocols, all relevant to the HCC mission of providing novel immunotherapy-driven clinical trials to cancer patients. During the next project period, IMCPL will add 9 new clean rooms, thus expanding therapeutic cell production capabilities and plans to increase the repertoire of cellular products for therapy in the future. It is also upgrading its monitoring capabilities to analyses of single-cell and exosome molecular profiles."
+ },
+ {
+  "id": "42d5e684-f762-47e3-9ff8-69bfee029cba",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Causal Machine Learning Methods to Study Individual Vaccine Efficacy Using Multi-Source Data",
+  "text": "This K01 award will enable me to establish myself as an independent researcher in vaccine efficacy (VE) studies,\nwith expertise in causal inference, federated learning, and the design and analysis of vaccine trials. My training\nwill focus on virology, immunology, infectious disease epidemiology, and advanced statistical and machine\nlearning techniques, providing a well-rounded foundation to understand vaccine response variability. My\nresearch will develop methodologies that leverage data from multiple VE trials, incorporate immune correlates\nof protection, and quantify individual-level VE in diverse populations, ultimately guiding personalized vaccine\nstrategies and informing public health policy to enhance vaccine deployment and effectiveness, particularly in\nvulnerable populations."
+ },
+ {
+  "id": "42e09eae-f6d6-4bb4-9273-7207052fd26a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Fast and robust deep learning tools for analysis of neuroimaging data of Alzheimer's disease",
+  "text": "Accurate,\ntime\ncognitive\nfast, and robust brain image analysis and pattern recognition methods will be developed for real-\nneuroimaging data analysis and computer aided prognosis of Alzheimer's disease dementia and\ndecline."
+ },
+ {
+  "id": "42e339fb-11b9-48bc-b6f0-ee7e02ac3db6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Unified Shim-RF Coil Technology for Improved Whole-Brain Spectroscopic MRI for Neurological Disorders",
+  "text": "Current standard of care imaging (contrast-enhanced MRI) is limited to detect many neurological and\nneurodegenerative diseases and spectroscopic MRI has a great potential to supplement routine clinical MRI for\nclinical conditions including brain neoplasms, neonatal and pediatric disorders (hypoxia-ischemia, inherited\nmetabolic diseases, and traumatic brain injury), demyelinating diseases, and infectious brain lesions. This project\nwill improve whole brain coverage and reliability of Spectroscopic MRI, which will be quantitatively assessed in\ncollaboration sites. Successful completion of this study will produce new generation tools needed for broader\napplications of spectroscopic MRI in patient management with various neurological disorders."
+ },
+ {
+  "id": "42e506f8-4ee9-452a-9775-22d00e2b5936",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Decoding the Protein Biochemistry of TBCK",
+  "text": "TBCK encephaloneuronopathy (TBCKE) is a rare pediatric neurodevelopmental disorder caused by mutations\nin TBCK (TBC1-domain containing kinase), a 'dark' kinase implicated in critical cellular pathways. Despite its\nimportance, the lack of detailed biochemical studies of TBCK at the protein level has hindered our understanding\nof its disease mechanisms. We will conduct the first protein biochemistry investigation to test whether TBCK\nfunctions as a GTPase-activating protein of Rab5A, aiming to uncover novel drug-targeting strategies for TBCKE\nand pave the way for future therapeutic approaches to treat this rare disorder."
+ },
+ {
+  "id": "42ebea36-70d5-4a3e-8c94-863a5ea8c01e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Compensatory Mitochondrial Protective Mechanisms Against Oxidative Stress in PD",
+  "text": "Parkinson’s disease (PD) is an incurable neurodegenerative disorder (ND) affecting over a million\nAmericans but no effective treatment options are available to slow down the progression of the disease mainly\ndue to the lack of an in-depth mechanistic understanding of the complex neurodegenerative processes\nunderlying the disease. The research proposed here will identify a novel protective mitochondrial and nuclear\nsubcellular signaling network mediated by protein kinase D1 activation, which is inherent in dopaminergic\nneurons during the early stages of neuronal oxidative stress (OS). The outcome of this research program will\nhelp devise a new treatment strategy that can intervene early in the progression of this debilitating disease."
+ }
+]

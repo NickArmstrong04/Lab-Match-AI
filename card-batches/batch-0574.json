@@ -1,0 +1,142 @@
+[
+ {
+  "id": "3fdc1b73-a170-47db-8c92-5168b5f51b1d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Generating a full-length reference transcriptome for human protein-coding genes",
+  "text": "Accurate identification of genes and transcripts in the human genome and their structural and functional\nannotation is a fundamental requirement for high quality analysis of data informing both genome biology and\nclinical genomics. Gene annotation accuracy is critical, as incorrect and incomplete information will impact\ndownstream analyses and introduce potentially significant false positive and false negative errors; for example,\ndespite significant advances in genetic testing, supported by improvements in DNA sequencing technologies,\nmany patients do not receive a genetic diagnosis possibly due to the incompleteness of the ‘representation’ of\nthese gene sequences (gene annotation). To overcome these obstacles, it is imperative that systematic efforts\nbe undertaken to develop a comprehensive catalogue or reference set of fully experimentally verified human full-\nlength protein-coding transcripts."
+ },
+ {
+  "id": "3fdebe35-864f-47c3-9bd0-a6cfa568d0e7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identification of signaling molecules that function at fertilization",
+  "text": "This project aims to investigate the biochemical pathway that leads to egg activation during fertilization using a\ncombination of molecular and cell biological methods. The objectives of this proposal meet the NIH Research\nEnhancement Award Project (REAP) R15 goals by having graduate and medical students work together in the\nlaboratory where they will be involved in the entire process from designing and conducting experiments to writing\npapers. This project will have an impact on our basic scientific understanding of the mechanisms that initiate\nembryonic development and impact public health by providing knowledge regarding the molecules that are\nneeded at fertilization."
+ },
+ {
+  "id": "3fe1b21f-8826-4062-81a2-cf011a9eeef6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Gene Editing for Environmentally-Responsive, Immune-Evasive Stem Cell-Derived Islets",
+  "text": "This project aims to harness advanced SCGE technology to identify and validate gene regulatory elements that\ncontrol inflammation-responsive gene expression in stem cell-derived beta cells. By enabling precise genetic\ncontrol of immunoregulatory genes, this work will support the development of immunocloaked, inflammation-\nresilient cell therapies for type 1 diabetes. The resulting toolkit will enhance the safety and durability of\nallogeneic islet transplantation, advancing regenerative medicine strategies for autoimmune diseases."
+ },
+ {
+  "id": "3fec5fe5-1bcd-4783-8f65-15b26127ba65",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Data Science, Bioinformatics, Biostatistics and Computational Core",
+  "text": "DATA SCIENCE, BIOINFORMATICS, BIOSTATISTICS AND COMPUTATIONAL CORE (DSBC2)-SUMMARY The LBRN Data Science, Bioinformatics, Biostatistics, and Computational Core (DSBC2) brings together experts in various fields to support biomedical research and training at Louisiana's primarily undergraduate institutions (PUIs). DSBC2 assists researchers with experiment design, data analysis, manuscript preparation, training in data science and bioinformatics and other needs. Leveraging resources from the LSU Center for Computation & Technology (CCT), DSBC2 provides access to high-performance computing systems and supports collaboration on complex biomedical challenges. The core aims to democratize access to data science and bioinformatics tools through training initiatives, including the NIGMS Sandbox and a virtual platform offering free data science and bioinformatics training modules to all PUI investigators. Specific aims include providing computational resources to PUIs, offering bioinformatics and biostatistics services, and delivering organized training and educational support that can enhance formal courses offered in each PUI campus. DSBC2 collaborates with other INBRE programs and recently co-sponsored a symposium on data science and bioinformatics at the Southeast Regional IDeA conference in South Carolina. Through these efforts, DSBC2 enhances research capabilities, fosters collaboration, and promotes the adoption of advanced technologies in data science and bioinformatics across Louisiana's scientific community and throughout the NIH IDeA Networks."
+ },
+ {
+  "id": "3fee4fa1-dc43-409e-8035-2a3c8420e2de",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Nomenclature of Human and Vertebrate Genes",
+  "text": "(HG003345)\nThe HUGO Gene Nomenclature Committee (HGNC) is the only organisation worldwide that provides official\nunique symbols and names for all human genes, and coordinates gene naming across vertebrate species.\nStandardized gene naming is an essential component of genomics, and hence a key feature of the\ninfrastructure of biomedical research that must be actively maintained and updated. The HGNC's resources\naccelerate science by providing a common language to discuss genes; as genomic medicine becomes\nmainstream, the need for this common language becomes ever more vital."
+ },
+ {
+  "id": "3fee5914-32fe-461a-ae3b-de408eae234a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Metabolic regulation of exosome biogenesis",
+  "text": "Exosomes are nanoscale vesicles circulating in our body, and the potential of exosome-based diagnosis and\ntherapies has been widely recognized. However, we have limited information about how exosome generation\nis regulated and how its molecular contents are determined. In this Project, we will investigate the role of\ncellular metabolism in exosome biogenesis, which will deepen our understanding of exosomes and facilitate\ntheir use in clinical applications."
+ },
+ {
+  "id": "3fef6517-c596-43bc-8cde-f04260c21120",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The HUSH complex in HIV-1 latency",
+  "text": "RELEVANCE (See instruction\nAnti-HIV-1 drugs prevent HIV-1-infected people from developing AIDS but the drugs do not cure infection because \nHIV-1 becomes a permanent genetic element in human chromosomes that is called a provirus. We discovered that \nhost cell proteins called the HUSH complex silence the HIV-1 provirus, making it difficult for drugs, or the immune \nsystem, to detect and eliminate the virus. The experiments proposed here, which are intended to better understand \nhow the HUSH silences the HIV-1 provirus, are hoped to provide information that will facilitate efforts to Cure HIV-1 \ninfection."
+ },
+ {
+  "id": "3ff1e025-e7a9-42d2-886a-949bd86b2fff",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mtb Metabolomic Profiling and Mapping Core",
+  "text": "ABSTRACT - Mtb Metabolomic Profiling and Mapping Core (Profiling Core) Project Co-leaders: Kyu Rhee and Jacob Mayfield Co-investigator: D. Branch Moody Modern infectious disease research relies fundamentally on genomic maps of the major pathogens. Through the development of new whole-organism metabolomics profiling tools, we extend the logic of genomics to create comprehensive metabolic maps of M. tuberculosis (Mtb). Profiling activities support all three projects through comprehensive mass spectrometry detection of Mtb-derived water soluble-metabolites (Cornell) and lipids (Brigham and Women's Hospital). Mapping activities use bioinformatic methods and in house developed software to coalesce multiple lipid profiles into a reference map that associates lipids with clinically important outcomes like virulence, drug response and infectivity. Supporting Project 1, we will expand on the only comprehensive map of Mtb metabolites, known as MycoMassDB, to generate three new metabolomic maps of Mtb. We will first generate the Map of Detectable Mtb Unknowns, which enumerates unnamed lipids of known mass to prioritize molecules for discovery. Second, recognizing the natural variation of virulence and human tropism within and outside the Mycobacterium Tuberculosis Complex (MTC), we will generate a Lipidomic Map of Evolved Mycobacterial Virulence in Humans to associate all detectable Mtb lipids with virulence and human tropism patterns. Lipids associating with high virulence and human tropism will be validated in Project 1 for their functional effects, providing a new approach to virulence factor discovery. Third, we will generate a Lipid Map of Mtb Variance Across Patient Strains, which will provide the TB field the first comprehensive description of variance of all lipids among patient strains in distinct patient populations in Peru and Africa. This new tool will allow any mycobacteriologist or TB clinician access to the patterns of natural variation for nearly all known Mtb lipids, including those of high clinical interest, like sulfoglycolipid, phthiocerol dimycocerosate and tuberculosinyl adenosine, which control drug penetrance, cough and intramacrophage survival. Supporting Projects 2 and 3, profiling of small molecule metabolites combined with high throughput genetic screens, including new direct from sputum genomic profiling tools based on tiled amplicon sequencing, we will identify metabolic and genetic signatures of Mtb drug response and drug resistance. Last, the Core possesses six collision-induced dissociation (CID) MS devices and investigators with decades of experience needed to discover the chemical structures of molecules that emerge from these whole organism screens. Overall, the Profiling Core provides a highly unique technical expertise to measure metabolite variation in Mtb in epidemic settings, evolved virulence and drug response, to identify lead compounds for genetic and functional validation in Projects 1, 2 and 3."
+ },
+ {
+  "id": "3ffba7af-7418-495d-83c7-0937a2dbd613",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Accessing the hidden biosynthetic capabilities of fungi",
+  "text": "Fungal natural products or secondary metabolites (SMs) have been invaluable as platforms for developing front-\nline drugs. Many SMs have been difficult to characterize due to a lack appropriate technological tools. This\nwork will advance methods for discovery of useful SMs and provide a functional blueprint for identifying useful\nfungal SMs."
+ },
+ {
+  "id": "3ffdf463-c652-4a76-a3a4-52ccb428abbb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Implications of Spatiotemporal Deep Learning Neural Networks in Echocardiographic Diagnosis and Prognostication of Takotsubo Syndrome",
+  "text": "This work can positively impact public heath by providing real time diagnosis and prognosis determination and\ndecision support for clinical patients with Takotsubo Syndrome with more objective and innovative\nspatiotemporal deep learning prediction models based on routinely available bedside imaging approaches. This\nproposed research is relevant to the NIH mission as it enables frontline clinicians to resolve time-sensitive\ndiagnostic and therapeutic dilemmas and obtain advanced bioimaging markers to develop personalized\ntreatment in patients with acute cardiovascular disorders."
+ },
+ {
+  "id": "3fffb756-b6b4-40a1-80e6-e66373f2f734",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Delineation of how tumor driven inflammatory niches after T cell mitochondrial function and drive exhaustion via thermal stress in the colorectal carcinoma microenvironment",
+  "text": "The tumor microenvironment is a complex system harboring interactions between multiple cell types, metabolites and growth factors. This network not only supports tumor growth but can even dampen the activity of our cancer fighting T cells through exhaustion and metabolic switching both of which drive T cell phenotype. In this work we study how key factors in the tumor microenvironment including inflammation induced thermal stress regulate mitochondrial bioenergetics in T cell populations."
+ },
+ {
+  "id": "4002d454-c5e9-4751-89de-85ce727ea740",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Biostatistics and Bioinformatics Core (BBC)",
+  "text": "The Biostatistics and Bioinformatics Core (BBC) provides expertise in bioinformatics and statistical science to ensure scientific rigor in study design, bioinformatics and statistical analysis, and interpretation of cancer research studies. The BBC contributed to 112 peer reviewed publications during the current period, resulting in a 29% increase compared to the previous submission. Members of the Core have expertise in a range of scientific disciplines including design and analysis of clinical trials, observational studies, in vitro and in vivo studies, biomarker discovery, bioinformatics, genomics, proteomics, metabolomics, and validation projects. They collaborate with Cancer Center investigators in the planning phase of studies to ensure that hypotheses are testable and that the data will be adequate to address the study questions. They develop novel bioinformatics algorithms and methods required for specific KCI research projects for the analysis of high-throughput data (mRNA, proteomics, methylation, etc.). They provide expertise on data collection and management and devise analysis plans consistent with study objectives and good statistical practice. At study completion, they evaluate the data for conformity with the assumptions of the statistical tests, provide estimates of the endpoints with confidence intervals, develop appropriate statistical models, assess the adequacy of the models, and prepare written reports to the investigator. The Core can also carry out full tertiary bioinformatics analysis including the identification of biological processes, cellular components and biochemical functions involved in a given phenotype, the identification of the impacted pathways, construction of novel mechanisms, biomarker identification, meta-analysis of several experiments, multi-omics analysis of varying data types, etc. The Core maintains a variety of bioinformatics tools and statistical applications. It has licenses for iPathwayGuide, iVariantGuide and Ingenuity Pathway Analysis (IPA). It maintains a variety of bioinformatics tools for conducting downstream bioinformatics analyses including differential expression and network analyses. Statistical software includes R, R/Bioconductor, SAS and Stata/MP as well as software for sample size and statistical power calculations including PASS and nQuery Advisor. Application software resides on a highperformance, multi-processor Dell 820 server. Access to the server is restricted to members of the Biostatistics and Bioinformatics Core and authorized guests. For some intensive computing projects, Core members use the WSU high-performance computing grid. KCI contributed four servers to the grid for use by Core members and other authorized KCI members whose research requires high performance computing. Google Cloud is used for large, resource-intensive bioinformatics computing. A pipeline developed in the Core uses best practices suggested by The Broad Institute to leverage multiple processors and provide efficient, end-to-end processing of complex sequencing data."
+ },
+ {
+  "id": "400469da-f99a-42b9-b347-956f384fe7eb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Serotonergic involvement in the interaction between alcohol and pain",
+  "text": "There is a high prevalence of pain disorders among US veterans when compared to the general population,\nwith 50% of older veterans reporting chronic pain. The etiology of pain disorders in this population is complex,\nbut recent evidence suggests that alcohol drinking may worsen pain symptoms and predispose to pain\ndisorders in later life.\nThese studies will test our overarching hypothesis that chronic alcohol use alters activity in serotonin circuits\nthat modulate central pain circuits. This investigation is directly relevant to veterans because it will identify new\npotential targets for the treatment of pain disorders exacerbated by chronic alcohol use, which is increasingly\ncommon among military personnel."
+ },
+ {
+  "id": "40061877-4e40-47e0-8fb0-84e61cec76e0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The interaction of perinatal organophosphate flame retardant exposure and adult chronic stress on cognitive processing",
+  "text": "Developmental exposure to endocrine disrupting compounds such as organophosphate flame retardants\n(OPFRs) may disrupt cognitive processing in the adult offspring. It is well known that chronic stressful\nexperiences can result in maladaptive states that impair learning and memory processes in both rodents and\nhumans. The combination of developmental OPFR exposure and adult chronic stressors may further exacerbate\ncognitive impairment."
+ },
+ {
+  "id": "401b1ec2-d724-454f-86af-0debd3eff74a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "HFH-MSU CSRN ACCrual Enrollment and Screening Site",
+  "text": "Cancer is the second leading cause of death in the U.S., and less than 1 in 4 new cancers are estimated to be detected by screening, although screening improves outcomes. HFH-MSU will establish a cancer screening research recruitment hub that engages a generalizable population of our catchment area and will conduct real-world clinical trials to advance cancer screening in the U.S."
+ },
+ {
+  "id": "401cdb9e-1100-4fdb-9518-d116c8f27429",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Predicting the hemodynamic response to mitral valve interventions with pressure-volume analysis",
+  "text": "One out of every five patients with heart failure suffers from significant functional mitral\nregurgitation (FMR). An inadequate understanding of left ventricular (LV) function in the context of FMR\nprevents clinicians from identifying good candidates for FMR intervention. The proposed research will address\nthese knowledge gaps by using a novel technique called pressure-volume analysis to develop a new paradigm\nfor evaluating LV function in patients with FMR that will optimize patient selection and help clinicians predict\nthe hemodynamic and clinical response to therapy."
+ },
+ {
+  "id": "401f1bc7-77c5-4255-bf91-f4cadb2424f0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "NOX2 drives microglia-dependent neurodegeneration after traumatic brain injury",
+  "text": "Chronic microglial activation is a key driver in traumatic brain injury (TBI)-induced persistent neuroinflammation.\nThis proposal will characterize the role of microglial and non-microglia macrophage-like NOX2 in driving\nneurotoxic microglial responses following TBI."
+ },
+ {
+  "id": "4027c153-a328-4a16-9ff9-973841be53d1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Nutrition for Precision Health, powered by the All of Us Research Program:  Research Coordinating Center",
+  "text": "The proposed Research Coordinating Center (RCC) will provide objective support and a strong infrastructure,\nbuilt on a long history of multisite study administration and coordination, to the Nutrition for Precision Health\nConsortium (NPHC). The RCC will optimize the scientific rigor, data standards and management,\nimplementation of nutrition interventions, and communication in facilitating NPHC, empowered by the All of Us\nResearch Program, to inform strategies that improve nutrition guidance and health across the diverse U.S.\npopulation."
+ },
+ {
+  "id": "402838a2-820d-4465-8f35-c3015a70d8b4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Tissue Culture and Biobanking Shared Resource",
+  "text": "TISSUE CULTURE & BIOBANKING SHARED RESOURCE: PROJECT SUMMARY The Tissue Culture & Biobanking Shared Resource (TCBSR) is an integral part of Georgetown Lombardi Comprehensive Cancer Center (LCCC) research activities and has been funded by the Cancer Center Support Grant (CCSG) since 1993. Bassem R. Haddad, MD, has led the TCBSR as Director since 2002. The TCBSR provides services to support LCCC Members with all tissue culture-related aspects of their work. It also offers unique and necessary services that enable biobanking of blood and other biofluid specimens obtained from subjects enrolled in various LCCC studies. The tissue culture services available are as follows: (1) cell culture and cell banking; (2) conditional reprogramming of cells to establish primary epithelial cell cultures from normal and cancer tissues; (3) Epstein-Barr virus (EBV) B-cell transformation service to facilitate cancer genetics studies; (4) maintaining the LCCC repository of established cell lines; (5) performing quality control tests for cell lines, including cell line authentication and mycoplasma testing services; (6) providing a safe and secure cryostorage facility for investigators to keep frozen stocks of their cancer cell lines and other reagents; (7) testing and supplying tissue culture reagents of the highest quality that have been tested for suitability in the relevant systems, as inexpensively as possible; (8) equipping, monitoring and stocking three separate shared tissue culture laboratories for use by LCCC investigators; and (9) training in the basic principles of tissue culture with hands-on experience. The TCBSR is also responsible for biobanking blood and other biofluid specimens obtained from subjects enrolled in various LCCC studies by the Survey, Recruitment, & Biospecimen Collection Shared Resource (SRBSR) and individual LCCC Members. The biobanking services include the processing of specimens (e.g., preparing aliquots of serum, plasma, buffy coat and peripheral blood mononuclear cells [PBMCs]), banking the specimens, and disbursing as needed. The TCBSR continues to be heavily used by a large number of LCCC Members conducting basic science research, translational research, as well as for some clinical trials (biobanking). In FY2022, the TCBSR provided services to 38 LCCC Members from all three Research Programs: 18 from the Cancer Cell Biology Program, 14 from Cancer Host Interactions Program, and 6 from Cancer Prevention and Control Program. Collaboration between TCBSR and seven other LCCC Shared Resources is an active process, particularly in biobanking where TCBSR works synergistically with the SRBSR to enable the biobanking of all blood and other biofluid specimens obtained from subjects enrolled by SRBSR in various LCCC studies. The capabilities of the TCBSR also provided key tissue culture and biobanking support that enabled the success of 68 extramurally funded research project grants, 8 clinical trials, and 60 peer-reviewed publications, including 18 published in high-impact journals (e.g. Nucleic Acid Res, Nat Commun, Cancer Res, J Immunother Cancer, Cancer Immunol Res, and Oncogene) during the current project period."
+ },
+ {
+  "id": "402afa6d-5861-47ab-a3a7-842bc1f5f63e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identifying limitations on microbial host jumps",
+  "text": "While it is clear that bacterial pathogens often infect only a subset of available host species, we rarely\nknow the genetic mechanisms that prevent them from making a host jump to colonize new hosts. To\naddress this gap in our knowledge, the goals of this proposal are to determine host genetic factors and\ninteractions with the host-associated microbial community that limit bacterial adaptation to new hosts. The\nresults of this research will inform our understanding of the barriers that prevent a bacterium from\ncolonizing a new host and will improve our ability to predict microbial host jumps."
+ }
+]

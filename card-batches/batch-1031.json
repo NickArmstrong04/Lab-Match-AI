@@ -1,0 +1,142 @@
+[
+ {
+  "id": "e1f5ae82-bfef-469c-b2d6-049dcb432db8",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Core 2: Ecological Core",
+  "text": "Summary – Ecological Core Recent advances in spatial ‘omics’ have led to an increased interest in studying and predicting emergent aggregate behavior and interactions between the tumor and its microenvironment. Tumors are dynamic, rapidly evolving and undergoing ecological shifts; therefore, the understanding of tumor progression and response to therapy will benefit from studying eco-evolutionary interactions over time. Investigation of the spatial and spatiotemporal interactions within the tumor immune microenvironment requires computational approaches to identify and investigate the diverse ecological patterns that emerge by virtue of these complex dynamics. The Ecological Analysis Core will cater to the generation, investigation, and application of the spatial ecological models and techniques to support the two non-small cell lung cancer (NSCLC)-focused Projects of the proposal. Given that ecological change over space and/or time (the Δ-Ecology) is a central theme shared by both Projects, the Core is poised to support and tailor the tools to the requirements of each Project. The Core will have the capability to the ability to manage, visualize, store, share, and perform quantitative analyses of the high-dimensional and high-resolution clinical and experimental histology images. We will also build important computational approaches and developmental frameworks to improve our understanding and prediction of emergent tumor behavior using the images. In summary, the Core will develop and apply spatial ecological models in concert with mathematical models from the Mathematical Modeling Core to understand the evolutionary ecology underlying the diversity and maintenance of tumor heterogeneity, and how this can be leveraged to guide new therapeutic strategies for lung cancer."
+ },
+ {
+  "id": "e1fc4243-3b3d-4886-91d1-f8f1e07d6cfc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Closed-Loop Modulation of Hippocampal-Cortical Communication in Temporal Lobe Epilepsy",
+  "text": "The proposed research is relevant to public health because it focuses on understanding neural network mecha-\nnisms underlying long-term memory impairment in epilepsy and testing closed-loop strategies for ameliorating\nthis impairment. Such strategies offer the potential for a significant advance in addressing cognitive comorbidity\nin patients with epilepsy, in line with the NINDS mission to use mechanistic knowledge to reduce burden of\nneurological disease."
+ },
+ {
+  "id": "e1fedd3f-6355-43e2-9f8f-c9731592e291",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Genomic/Genetic and Proteome",
+  "text": "The Genome and Proteome Core (PPG Core B) will provide essential, cutting-edge genomics, proteomics, and bioinformatics expertise to facilitate the translational impact of this highly integrated PPG. Core B will be respon- sible for providing the research investigators with: (i) expert interrogation of publicly available DNA and RNA sequencing datasets and genome-wide DNA methylome datasets to generate interpretable data from these plat- forms; (ii) genetic expertise needed to test for associations between PPG target gene DNA variants and sus- ceptibility and severity of ARDS; (iii) generation of human endothelial cell (EC) lines and genome-edited cell line models with selected single nucleotide knock in or deletion-based knock out mutations for functional genetic analyses; (iv) execution of traditional proteomic mass spectrometry analysis of immunoprecipitated PPG target proteins for protein translational modification (PTM) identification, including phosphorylation, nitration, and ubiq- uitination; (v) in silico computational protein-structure modeling to identify the impact of functional non-synony- mous coding variants on protein structure and function (protein-protein interaction, catalytic activity, post-trans- lational modification), with protein-protein interactions validated by surface plasmon resonance; and, (vi) exper- tise to oversee production of recombinant proteins with mutations at sites of PTMs or SNPs. As a centralized core for all genome and proteome analyses, Core B (located in Tucson AZ) will perform all relevant analysis of experimental samples for all four projects as each PPG Project will require the services provided by Core B."
+ },
+ {
+  "id": "e2021820-c0f9-41db-8a76-0a2228791d61",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Developing ultrasound contrast agents and signal processing for structural and functional imaging in type 1 diabetes",
+  "text": "Type 1 diabetes results from the body’s immune system destroying insulin producing cells in the pancreas,\nwhich requires lifelong insulin administration. Immune therapies have been approved that can delay or prevent\ntype 1 diabetes, although their use is limited by a lack of approaches to predict if someone is at risk for type 1\ndiabetes and follow if the treatment is having an effect. We will develop high resolution ultrasound imaging\napproaches and new contrast agents to predict and track type 1 diabetes development, to guide and monitor\nthe application of immune therapies to prevent type1 diabetes."
+ },
+ {
+  "id": "e204b5fe-2ade-438a-b912-dc3d30c45c01",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Cardiovascular Sciences Training Grant",
+  "text": "The Cardiovascular Sciences Training Program is dedicated to preparing the next generation of scientists who\naim to understand the normal and abnormal function of the heart and vascular system. Heart and vascular\ndiseases remain a leading killer of Americans, and therefore, we need to have investigators who are well trained\nin this field. As cardiovascular disease has evolved and our understanding of it has changed, over this next\ntraining period, we have added mentors who are experts in bioinformatics and systems analysis to take better\nadvantage of large biomedical data sets that will help us better diagnose and treat cardiovascular disease."
+ },
+ {
+  "id": "e206db09-62b1-42c4-bab2-c6562afd2343",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Intelligent and Personalized Online Adaptive Proton Therapy",
+  "text": "Proton radiotherapy is very sensitive to daily treatment setup variations and patients’ anatomical change during\nthe treatment course. Our proposed study aims to develop an artificial-intelligent-driven online adaptive and\npersonalized proton therapy system, which can calculate the discrepancy between the planned radiation dose\nand the actual dose distribution in patient’s daily anatomy before the delivery of each treatment and, if needed,\ngenerate a new plan for treatment within a few minutes. The proposed system is expected to change current\nclinical practice and result in a new paradigm of proton radiotherapy, ensuring that the therapeutic dose is\ndelivered to the tumor region as desired at each treatment while minimizing treatment toxicity to improve patients’\nquality of life."
+ },
+ {
+  "id": "e20820a4-f5a1-4f50-bf74-0b2596a5d74d",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Strengthening Antibiotic Resistance Surveillance in Retail Food Specimens in Kansas as a Part of the National Antimicrobial Resistance Monitoring System",
+  "text": "Strengthening Antibiotic Resistance Surveillance in Retail Food Specimens in Kansas as a Part of the\n National Antimicrobial Resistance Monitoring System\n As a key activity in combating bacterial antimicrobial resistance, the National Antimicrobial Resistance\nMonitoring System (NARMS) has since 1996 monitored resistance in foodborne pathogens and other enteric\nbacteria of food-animals at the time of animal processing; in red meat, poultry, and seafood sold in retail; and\nin human foodborne infections in the U.S. The monitoring in food products sold in retail is coordinated by the\nFood and Drug Administration – Center for Veterinary Medicine. This project will strengthen and ensure\ncontinuation of the antimicrobial resistance monitoring in food products retailed in Kansas, which is one of the\nmajor food producing states.\n1"
+ },
+ {
+  "id": "e20bfdc4-6a8f-4548-8a4e-e2e1046a563d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Colorado APS Clinical Center",
+  "text": "Project Narrative and Relevance\nARDS,\nmortality.\nand\ncommonality\nphenotypes\nultimately\npneumonia, and sepsis are common critical illness disorders with significant associated morbidity and\nThere is substantial heterogeneity in these critical illness disorders, and the mechanisms of injury\nrecovery are not well understood. The goal of this consortium is to unravel this heterogeneity and identify\n in subgroups of patients with ARDS, pneumonia, or sepsis. Once common ubgroups or\nare identified, personalized therapies can be discovered that will be effective for specific groups,\nresulting in improved outcomes for patients with these three disorders.\ns"
+ },
+ {
+  "id": "e21a3f0e-b574-4ed0-aa65-1c056248f464",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Transcriptional control of gene expression in the lens",
+  "text": "Cataracts impact lens transparency and are the leading cause of blindness worldwide. Therefore, it is essential\nto understand the molecular mechanisms that contribute to the formation and maintenance of the lens. The\nproposed research will result in the characterization of novel pathways in lens development, homeostasis and\npathogenesis and will continue development of a publicly available web-based interactive tool – for both\nclinicians and scientists – that facilitates prediction and prioritization of genes/pathways to further accelerate\ncataract gene discovery."
+ },
+ {
+  "id": "e21e5b08-2429-44c3-96f3-a587b9e158b8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identification of evolutionarily conserved pro-viral and anti-viral host factors from worms to mammals",
+  "text": "The overall goal of this project is to identify human genes that are important for infection by pathogenic viruses\nthat cause human disease such as Coxsackievirus, poliovirus, and noroviruses. To achieve this, we will first\nstudy virus infection in a simple model organism, the nematode C. elegans, and determine whether related\ngenes function similarly in human cells."
+ },
+ {
+  "id": "e226fe14-a736-4126-a1db-8be475db4554",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Ultra-high sensitivity, high spatial resolution single photon emission tomography using mechanical flux manipulation",
+  "text": "The overall goal of this project is to demonstrate feasibility of a new single photon radionuclide\nimaging technology with >1000 times the sensitivity and >100 times the volumetric image\nresolution of current clinical SPECT systems. We refer to this new imaging technology as\n‘mechanical flux manipulation’ or MFM."
+ },
+ {
+  "id": "e2274d9e-0a84-4873-ad48-8335b0f6d72d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Chemical Biology of the Visual Pigments",
+  "text": "Vertebrate vision starts with a photochemical isomerization reaction involving proteins known as\nvisual pigments that contain retinaldehyde as their chromophore. Despite the fundamental nature of the process\nand its relevance to human physiology and disease, many of its properties remain poorly understood. Here, we\nemploy a host of new approaches enabled by the development of novel experimental tools to address critical\nquestions pertaining to the functioning of the visual pigments as well as their abnormalities in retinopathies."
+ },
+ {
+  "id": "e22c3b93-6f0f-4810-bed0-bf92e451667f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project 3: Endothelial and smooth muscle cell programs for pulmonary arterial hypertension",
+  "text": "Project 3 Pulmonary arterial hypertension (PAH) is caused by progressive loss and occlusion of distal arteries, owing to endothelial cell (EC) dysfunction, leading to smooth muscle cell (SMC) proliferation and a chronic inflammatory response. Current FDA-approved agents improve survival and quality of life in PAH patients, but there is no cure for PAH short of lung transplantation. BMPR2 is the most frequently mutated gene in PAH and 11 other causal mutations have been identified, about half in the BMPR2 pathway. However, for >70% of PAH patients a genetic cause has not been found. Project 3 will use in vivo Perturb-seq to address the hypothesis that genes that predispose to or protect against PAH impact branches of the BMPR2 signaling pathway in ECs, and that the functions of these genes depend on genetic interactions, environmental stimuli, and tissue-specific wiring of ECs and SMCs. In Aim 1, we will utilize a library of 250 guides shared with Project 1 but delivered by a vector that selectively targets lung ECs in mice. The library contains guides to known PAH causal genes as well as activators and regulators of those genes, and others related to EC function and coronary artery disease (CAD). By relating gene expression in singe cells to each guide, we will identify novel gene programs that indicate predisposition to or protection against PAH. In collaboration with Project 1, we will determine whether gene programs in response to the same perturbation in lung and aortic ECs explain different propensities to PAH and CAD. In Aim 2, we will select 50 genes identified in Aim 1 that are predicted to either cause PAH when there is a genetic predisposition such as Bmpr2 deficiency or reverse PAH when Bmpr2 deficiency and oxidant stress are combined. Analysis of the resulting gene programs will allow us to select genes for individual perturbation to test for their ability to worsen or reverse PAH including those with a different gene program in aortic ECs. Genes in novel programs with the strongest potential link to PAH from Aims 1 and 2 will be prioritized for evaluation in human pulmonary artery (PA)ECs and human tissue samples from PAH patients including those with a BMPR2 mutation. In Aim 3, we will collaborate with Project 2 to study EC-SMC interactions in mice with Smad3 deleted in SMCs, as loss of SMC-Smad3 increases CAD but has been shown to protect against PAH. This will determine how EC programs are altered by cross-talk with SMCs, and whether there is a site-specific difference in EC and SMC gene expression and cross-talk in the lung and the aorta. In this aim, we will also use perfused vascular tubes populated by human PAECs and PASMCs to assess changes in gene expression and cellular responses when SMAD3 is deficient in PASMCs, or when BMPR2 is mutant in both cell types, compared to those identified in mice. The goal of Project 3, enabled by the technical and analytical expertise of the Cores and in collaboration with Projects 1 and 2, is to uncover new features of gene dysregulation that modify propensity to PAH and could be targeted to reverse PAH and not predispose to CAD."
+ },
+ {
+  "id": "e22ef5bf-9c1d-4db1-9a0a-dd466f4a3884",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Niche regulation of engraftable HSCs from iPSCs",
+  "text": "This study investigates how arterial endothelial cells (aECs) direct human pluripotent stem\ncells (hPSCs) to become definitive, transplant-ready hematopoietic stem/progenitor cells (HSPCs). By\nsystematically defining the molecular signals and cellular interactions within the arterial niche, we aim to identify\nniche-specific factors that govern HSPC specification, functionality, and transplantation potential. These insights\nwill address a critical barrier in the field that is the inability to generate long-term engraftable HSPCs from hPSCs\nat scale."
+ },
+ {
+  "id": "e2334783-5725-444a-a7a2-619bdd9bc99a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Regulation of Cell Fate during Kidney Development and Disease",
+  "text": "The burden of chronic kidney disease places enormous physical, psychological, social\nand economic stress on the affected children, their families and our society. This\nPediatric Center of Excellence in Nephrology was designed to foster advances in\nknowledge, new methodologies, training and collaborations to improve the management\nof infants and children with renal and urological diseases."
+ },
+ {
+  "id": "e23fd134-3f8f-47a6-893e-d5bf4676f7f4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanistic Modeling of Cellular Systems",
+  "text": "Computational modeling, enabled by COPASI and VCell technologies, will offer deep insights into mechanisms\nby which cells function and the cellular basis of disease. Projects by the users of this National Resource\nfocused on cancer, neurological disorders, diabetes, kidney disease, cardiology and aging, for example, all\nutilize mathematical models developed with the aid of VCell and COPASI."
+ },
+ {
+  "id": "e2407bb6-8b3e-4443-bfc0-3da3845b412e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Developing a computational platform for induced-fit and chemogenetic drug design",
+  "text": "Small molecules that selectively activate targeted signaling pathways of the μ-opioid receptor (MOR), such as\nbiased/partial agonists and/or chemogenetic probes, can help to disentangle the mechanisms of analgesia\nversus dangerous side-effects involved in opioid addiction, as well as potentially act as novel pain management\ndrugs without addictive properties. Here, we will develop computer-aided drug discovery tools that can model\nlarge-scale induced-fit conformational changes during drug design and simulate chemogenetics design\n(receptor-ligand co-design), which we will then apply to identify partial and biased agonists of the MOR and\nMOR-based DREADDs. In silico molecules and DREADD designs will be experimentally validated and enter hit-\nto-lead optimization."
+ },
+ {
+  "id": "e241cb35-2814-45b8-b5da-3c413e9b3e37",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Genetic Origins of Adverse Outcomes in African Americans with Lymphoma",
+  "text": "African Americans with DLBCL exhibit worse outcomes than Caucasians, even after correcting for potential\ndifferences in economics and access to care. We propose to comprehensively examine the distinct genetics of DLBCL in African Americans. We will also study the mechanisms of genomic alterations that are more frequently found in African American patients."
+ },
+ {
+  "id": "e2457915-9e87-4a12-99d4-44490a81daef",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Characterization of the role of ZSWIM8 and target-directed microRNA degradation in hematopoiesis",
+  "text": "MicroRNAs are small, noncoding RNAs that regulate the expression of more than half of human protein-coding\ngenes and are crucial for proper production of blood and immune cells. MicroRNA levels can be tuned through\na process called target-directed microRNA degradation, however, the role of this microRNA degradation in\nhematopoiesis (the generation of blood cell lineages from a hematopoietic stem cell) is unknown. This proposal\nwill establish foundational knowledge about the role of this degradation process in mammalian hematopoiesis,\nwith a focus on platelet-producing cells, which will identify potential therapeutic targets for platelet-related blood\nclotting conditions."
+ },
+ {
+  "id": "e24bfe12-df96-4979-beb2-275a15dc5d41",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Brain Circuits of Migraine Pain",
+  "text": "Many patients do not receive sufficient relief with currently available therapies. We propose to investigate brain\ncircuits of migraine pain that may ultimately lead to development of improved therapies."
+ }
+]

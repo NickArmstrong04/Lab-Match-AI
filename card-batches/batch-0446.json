@@ -1,0 +1,142 @@
+[
+ {
+  "id": "11e60a2a-e6a8-4b2a-b965-056e09237af8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Pulmonary Pre-malignancy Atlas in the Lung Adenocarcinoma Spectrum",
+  "text": "Lung cancer is the leading cause of cancer death among US Veterans despite recent advances in therapy. The\nNational Lung Screening Trial has successfully demonstrated the efficacy of lung cancer screening in reducing\nlung cancer mortality. Lung cancer screening programs at VA medical centers are being implemented. We\nanticipate an increase in the rate of early-stage diagnoses. This research will develop a systematic approach to\nidentify and integrate signatures from genetic, tumor microenvironment, and clinical computed tomography\nimages to distinguish between aggressive and indolent early-stage lung cancer. The study will utilize the National\nLung Screening Trial data and validate signatures from publicly available data sets. Predicting tumor behavior\nwill improve personalized patient therapy for lung cancer."
+ },
+ {
+  "id": "11e62d6f-53d4-471a-aa24-4463e6ce1230",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Bridging the gap between genetic variants and radiomic phenotypes via genomic large language models",
+  "text": "Many complex diseases are thought to be related with mutations in the DNA that alter the state of nearby genes.\nThis project will develop a new strategy based on the cutting-edge AI technology to determine the functional\nimpact of the mutations and help us to understand how DNA sequence regulates the expression of genes, and\naims to apply this knowledge to investigate how mutations change gene state and contribute to disease. This\nproject will help discover the gene regulation mechanism for complex disease and may eventually lead to the\ndevelopment of precise medicines."
+ },
+ {
+  "id": "11e9f962-667a-4bbf-9eef-52a5cedf7869",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "High-resolution in vivo imaging of inner ear using photon-counting-detector computed tomography and artificial intelligence",
+  "text": "Disorders of the inner ear, associated with sensorineural hearing loss and vestibular dysfunction, represent a\nsignificant public health burden, affecting millions of individuals and costing billions of dollars each year. We will\ndevelop novel high-spatial-resolution CT imaging techniques with advanced hardware and artificial intelligence\nto provide reliable diagnosis and management of inner ear disorders, including superior semicircular canal\ndehiscence syndrome and labyrinthine fistula associated with chronic otitis media."
+ },
+ {
+  "id": "11ebeac2-3fac-415a-aa22-15a2ad41cd1c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Single cell determinants of corneal injury progression following mustard exposure",
+  "text": "Sulfur Mustard (SM) is the canonical member of a family of highly toxic chemical warfare agents that cause\ndebilitating short-term and long-term ocular injuries. Eyes are highly sensitive to mustard toxicity and there are\nno specific treatments for visual impairment and chronic pain caused by high-dose ocular mustard injury. In this\nproject, we will explore cell-specific changes in corneal composition and gene expression to identify the cellular\ndeterminants associated with mustard gas keratopathy, with the long-term goal of identifying therapeutic targets\nfor vesicant-induced ocular injuries."
+ },
+ {
+  "id": "11f2c20a-2222-49c6-83ba-d0f0f223f196",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dissecting Spatial and Molecular Dynamics of Immune-Vascular Crosstalk to Overcome ImmuneBarriers in iPSC-Based Therapies",
+  "text": "Allogeneic iPSC-based therapies could transform regenerative medicine for vascular\ndiseases but face challenges like immune rejection, poor survival, and inconsistent differentiation. This project\nfocuses on engineering hypoimmunogenic iPSC-derived vascular cells by eliminating MHC expression to evade\nadaptive immunity and overexpressing CD47 to resist innate attacks. Through my F32 training, I will evaluate\ntheir immune tolerance, validate integration in humanized models, and test their therapeutic potential in ischemic\npreclinical models while finding the mechanism of immune-vascular cell crosstalk for vascular regeneration and\ndisease treatment."
+ },
+ {
+  "id": "11f75660-7a8e-4907-91e5-f81c8fa40ad5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Stanford Center for Connecting DNA Variants to Function and Phenotype",
+  "text": "This proposed Functional Characterization Center will provide important new insights into the regulatory wiring\nof the human genome. We will utilize scalable genome engineering technologies to build comprehensive maps\nthat describe how genetic elements and sequence changes control our genes and cells. This work will be crucial\nto understanding the genetic basis of many common human diseases."
+ },
+ {
+  "id": "11fb244a-4e3b-4af9-b1fb-fc93329d112d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Advanced Imaging Core",
+  "text": "The Advanced Imaging Core provides, in eight core services, the staffing, expertise, equipment, and\ninterpretive skills needed to evaluate and test mechanisms of metastasis at the secondary site of the lung. The\nCore centralizes unique equipment, and the knowledgebase for its proper validated utilization, in a way that\ngrants prioritized access to the members of this Program Project Group and ensures the rigor and reproducibility\nof all of the experiments. Without the services provided by Core A, our understanding of these processes would\nbe derived from model systems and/or end-stage assays that only approximate the physiology of lung\nmetastasis. In contrast, our approach is uniquely able to provide the information about mechanism of in vivo\nbehavior at the single cell level."
+ },
+ {
+  "id": "11fe3cb3-678e-4cf2-a103-7726a5bb3fe1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dynamic OCT tracking for enhanced visualization of ophthalmic surgery",
+  "text": "Eye surgeries such as cataract surgery (the most common surgery worldwide), glaucoma surgery, corneal\ntransplant, and many other vision procedures can benefit from the imaging capability of optical coherence\ntomography (OCT). However, current OCT systems are difficult to use. The goal of this proposal is to make\nOCT systems for eye surgery easier to use, with the potential to substantially improve visualization of eye\nsurgeries."
+ },
+ {
+  "id": "1202d4fb-f791-4316-b786-387b90dbaa3f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Precision Medicine in Inflammatory Bowel Disease: Refining the Clinical and Genomic Predictors of Response to Anti-IL-12/23 Therapy",
+  "text": "Crohn’s disease (CD) is a chronic inflammatory disease of the gastrointestinal tract, which affects nearly 1\nmillion Americans. Several classes of immune suppressive therapy are approved for the treatment of CD but\npatients will often fail several classes of therapy before finding an effective medication. The proposed research\nwill advance our understanding of transcriptional, genomic, and clinical predictors of anti-IL-12/23 therapy\nresponse allowing for improved selection of first-line therapy, which in turn may reduce costs associated with\nunnecessary biologic exposure and disease progression."
+ },
+ {
+  "id": "120346e2-74ac-4bd1-a0ba-dc23a56579bf",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dietary plant diversity and the human gut microbiome",
+  "text": "Are there simple rules for how humans should choose plants to eat for supporting\nthe gut microbiome? One observation has been that the diversity of consumed plant species is\nlinked to the abundance and activity of different bacterial species in the gut. Here, we will test if\nthis finding extends across different human populations, as well as compare the effects of diets\nthat focus on either plant diversity or fiber intake."
+ },
+ {
+  "id": "12042169-470a-4372-8d48-6e440384e890",
+  "want_sentence": false,
+  "want_terms": true,
+  "title": "Biology and genetics of metastatic disease",
+  "text": "Metastatic disease is the primary cause of death for most cancer patients. We will study how hereditary\ngenetic differences can cause or prevent cancer metastasis. Mechanistic studies of the molecules involved in\nmetastasis formation can aid the development of more effective therapies."
+ },
+ {
+  "id": "1204444f-a6bb-4b79-b669-e689158a5ed3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Center of Research Translation on Osteoporosis Bone Anabolic Therapies",
+  "text": "Osteoporosis is a major public health problem in our aging population. The over-arching goal of\nthis center of research translation (CORT) is to understand how bone-building osteoporosis\nmedications work in order to develop ‘next generation’ strategies to treat this disease. To\naccomplish this goal, we will apply cutting-edge methods to study the effects of such\nmedications on key cell types in bone: stem cells and osteocytes."
+ },
+ {
+  "id": "12069202-7e91-4a1d-abfc-d1815f5fea3d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Capturing HSV entry glycoprotein complexes",
+  "text": "Herpes simplex viruses (HSV-1 and HSV-2) infect most humans for life and cause a great disease burden, for\nwhich no vaccines or curative therapies are yet available. Unusually, HSV require four viral glycoproteins to\npenetrate host cells; here, we propose to develop strategies for isolating and characterizing their elusive\ncomplexes. A detailed structural and biochemical knowledge of how HSV entry glycoproteins interact to facilitate\ncell entry may open new opportunities for rational vaccine and therapeutics design."
+ },
+ {
+  "id": "121181c5-7814-421c-a2b4-784b1d23a3a5",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Single Cell and Systems Immunology Core",
+  "text": "The Single-Cell and Systems Immunology Core will provide state-of-the-art experimental technology and computational modeling for individual Projects and integrate data from across the Program Project. In addition to multi-modal single-cell genomics, we will provide innovative methods for sample pooling and multiplexing along with high-dimensional spatial profiling technologies. We will also provide basic bioinformatics support for analyzing all of the genomic data acquired in the proposed studies and specialized machine learning tools. The Core will serve as a centralized hub for data integration and statistical modeling across for all three Projects to answer basic questions about the interactions and function of lymphocytes in human tissues."
+ },
+ {
+  "id": "1212de8b-4b09-4078-838b-956a07db421c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "In vivo targeting of T cells to Enable an HIV Cure",
+  "text": "Abstract CHALLENGE: Autologous cytolytic T cell responses, while effective in killing HIV-infected cells, cannot clear tissue-residing HIV reservoirs. One hurdle for T cell mediated killing is their restriction to the peripheral blood and absence from secondary lymphoid tissue (SLT). Recent attempts by investigators in this application to trap cytolytic cells in the tissue using a tissue egress inhibitor, FTY720, proved ineffective. Although CD8+ T lymphocytes were retained, expanded, and activated in SLT, they were non-cytotoxic and did not impact viral rebound. From this, we conclude that tissue microenvironment features inhibit CD8+ T cell cytotoxicity and/or T cell intrinsic mechanisms prevent trafficking of cytotoxic cells to SLT. Either or both of these issues must be overcome to enable CD8+ T cell clearance of abundant tissue-residing viral reservoirs. APPROACH: In Project 2 we propose reciprocal and synergistic strategies to modulate cellular immune responses for reservoir clearance in SLT by applying a cutting-edge mRNA lipid nanoparticle (mRNA-LNP) technology. We have found that chemical modification of mRNA-LNPs with cytokines, like CX3CL1 and interleukin-7 (IL7), efficiently redirects mRNA to immune cell subsets that express those ligands’ cognate receptors, CX3CR1 and IL7-receptor (CD127). These approaches may permit transient mRNA delivery to cytolytic (CX3CR1+) and naive/memory subsets (CD127+), respectively. Here we propose to transiently reprogram cytotoxic immune cells to overcome viral escape within autologous T cell epitopes and SLT exclusion through mRNA delivery of an HIV-specific chimeric antigen receptor (CAR) and trafficking marker, respectively. Alternatively, we propose to apply IL7-mRNA-LNPs to reprogram CD127+ naïve and memory T cells, which at baseline express SLT trafficking markers, with mRNA encoding a CAR and a cytotoxicity associated transcription factor. Following in vitro optimization, these interventions will be tested for in vivo efficacy in pilot nonhuman primate experiments and the best candidate approach will then be applied in the setting of SHIV infection. INNOVATION: These complementary and non-overlapping approaches test two nonexclusive means of enhancing cytolytic immune control of primate lentiviruses and develop an immunotherapy platform with possible application to other tissue- residing pathogens. They have the potential to rapidly translate fundamental observations of T cell immunology to in vivo testing of interventions using the clinically approved mRNA-LNP platform. Finally, they test whether known barriers to T cell-mediated control of HIV infection can be overcome, which may prove important in the development of an HIV cure."
+ },
+ {
+  "id": "1215ce4c-9266-457f-8158-d97617557393",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Clinical development of the anti-fas ligand monoclonal antibody M3T01 for treatment of advanced cancers",
+  "text": "This project seeks to advance the development of a novel immunotherapy drug (M3T01) targeting Fas Ligand\n(FasL) for patients with advanced cancer. Blockade of FasL can prevent cell death of tumor-specific T cells and\nthus promote effective immune-mediated tumor killing. Successful development and commercialization of the\npotent FasL inhibitor M3T01 may help to improve clinical outcomes in patients with advanced cancer."
+ },
+ {
+  "id": "12181a39-f50a-4fd4-9729-efb792f73d26",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Immune recognition and response in choanoflagellates, the closest relatives of animals",
+  "text": "The proposed research will define mechanisms of immune recognition and response in\nchoanoflagellates, the closest living relatives of animals. Studying immunity in this novel and\nevolutionarily informative model system will allow us to uncover new immune defense\nmechanisms and illuminate the ancestry of animal innate immune pathways."
+ },
+ {
+  "id": "1228cd41-10b9-43e8-95fd-e2580b1928f7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Bone Imaging Core",
+  "text": "PROJECT SUMMARY/ABSTRACT - CORE D The COBRE Center for Musculoskeletal Disease Research (CMDR) at the University of Arkansas for Medical Sciences (UAMS) focuses on identifying the cellular and molecular causes underlying diseases and conditions that negatively impact the musculoskeletal system. Bone imaging and analytical technologies at the tissue and cellular level will be required to accomplish the goals of each Phase 2 research project. To fulfill this need, we will split the former Bone Histology and Imaging Core, established during Phase 1, into 2 independent but highly integrated new cores: the Bone Imaging Core (Core D) and the Histology, Biomechanics, and Human Tissue Core (Core C). Core D will operate as a centralized and shared core facility to assist Project Leaders and other CMDR members with the musculoskeletal imaging needed for their research efforts. The core will provide state- of-the-art imaging resources for quantitative characterization of tissue and cellular changes underlying the pathogenesis of the musculoskeletal disorders being studied. Thus, Core D will be critical for Project Leaders and the long-term success of the CMDR. This new core will consolidate existing and new equipment into a large, modern research space within the Department of Physiology and Cell Biology and will be staffed by well-trained technical personnel who will be supervised by the Core Director. Core D will pursue the following specific aims: 1) Establish the Bone Imaging Core; 2) Deliver state-of-the-art musculoskeletal imaging and introduce new analytical technologies to generate, analyze, and interpret bone-imaging data; and 3) Provide training in bone imaging and support educational activities. The success of Core D, together with the other CMDR cores, will benefit the work proposed in all research projects (Projects 1, 2, and 3) and expand the repertoire of analytical tools to meet the growing needs of CMDR members, as well as the other investigators at UAMS."
+ },
+ {
+  "id": "12296504-3ec0-4377-9aa0-9e87c72c85d6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Estrogen, Astrocyte Reactivity, and Sex Differences in Alzheimer's Disease",
+  "text": "The reasons why women are more vulnerable than men to developing Alzheimer’s disease (AD) are unknown.\nWe created novel and clinically relevant mouse models that link age-related estrogen deficiency with sex-based\ndifferences in brain astrocyte reactivity, neurodegeneration, and memory loss. We propose to use these models\nto understand the mechanisms underlying the sex difference in AD vulnerability in older women and whether\ntreatments that restore estrogen action in the brain can prevent AD development in women via rescuing astrocyte\nfunction."
+ },
+ {
+  "id": "1231543a-329b-47b1-8bd2-98797ff08146",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Detection and Characterization of Somatic Mutations in Human Tissue Utilizing Duplex-Consensus Sequencing",
+  "text": "To capture the landscape of somatic mutations at the single-molecule level from a range of cell\nor DNA input using Tn5 transposase, the proposed research aims to develop a Tn5 based\nduplex sequencing (Tn5-duplex-seq) method in a single-well workflow, which resolves\ncomplementary strands by strand orientation from simple PCR-based capture. Tn5-duplex-seq\ntechnology can transform our understanding of somatic mutations through the innate\ncomprehensiveness of this technique, by capturing both clonal as well as the rarest somatic\nmutations, and providing the basis for determining somatic single base or structural variation\naccurately. Ultimately, our tool will be accessible, cost-effective, and scalable to be used by the\nlarger scientific community and easily integrated with pipelines of the Somatic Mosaicism across\nHuman Tissues (SMaHT) Network."
+ }
+]

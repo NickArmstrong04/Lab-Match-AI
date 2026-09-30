@@ -1,0 +1,142 @@
+[
+ {
+  "id": "d359af6d-c1cb-4bb7-b3d4-f5ca02eeb7b5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Neural Navigator: Decoding Psychiatric Disorder Signatures from Patient-Derived Cerebral Organoid Network Dynamics",
+  "text": "Schizophrenia and bipolar disorder affect millions of people worldwide, yet current\ntreatments remain only partially effective because we cannot measure how these conditions disrupt\nbrain cell communication in individual patients. This research develops innovative computational tools\nto analyze complex patterns of brain cell activity in laboratory models created from patient cells, which\ncould help identify new treatment approaches. By providing a standardized way to measure cellular\nchanges in these psychiatric conditions, this work may accelerate the discovery of more effective\ntreatments and reduce the burden of these devastating disorders on patients and their families."
+ },
+ {
+  "id": "d35fced7-e3c8-42a3-ba18-c6cae683d6b2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "ADHD and the influence of adolescent alcohol drinking on cognition and behavior",
+  "text": "Individuals diagnosed with attention deficit hyperactivity disorder (ADHD) are at a greater risk for developing an\nalcohol use disorder, especially if they initiate alcohol drinking during early adolescence. In this study, we will\nuse a mouse genetic model of ADHD to determine if alcohol use during adolescence exacerbates ADHD-like\nsymptoms using techniques to measure neural activity, alcohol self-administration, and cognition. The goal of\nthis study is to better understand the specific neural mechanisms that promote excessive alcohol use in ADHD\nindividuals and develop strategies to treat this unique and susceptible population."
+ },
+ {
+  "id": "d362843d-a330-4334-b792-f9742e5787ff",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Longitudinal Modeling of Interpersonal Stress Induced Rumination to Understand Depression Risk in Adolescent Girls",
+  "text": "Interpersonal stress-reactive rumination is an established risk factor for depression among adolescent girls;\nhowever, the precise mechanisms through which rumination eventuates in depression for this vulnerable\npopulation remain unclear. Combining multimodal measurements of stress-reactive rumination across three time\npoints will answer critical questions about how stress-reactive ruminative trajectories across brain and naturalistic\n(ecological momentary assessment) units leads to depression in adolescent girls, and also explore how early\nlife adversity and familial support might potentiate or buffer these pathways. The study has significant potential\nto inform novel prevention and intervention targets for specific populations of adolescent girls."
+ },
+ {
+  "id": "d363f32c-6121-4e54-ad7b-a67be39951bb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Donor DNMT3a-mediated regulation of Graft-vs-Host-Disease and the Graft-vs-Tumor effect in allogeneic hematopoietic cell transplantation",
+  "text": "Allogeneic hematopoietic stem cell transplant (HCT) remains the only curative therapy for many aggressive\nmalignancies and is increasingly used for non-malignant disorders, but successful outcomes are limited by graft-\nvs-host-disease (GVHD) and inadequate graft-vs-tumor (GVT) activity. De novo DNA methylation catalyzed by\nDNMT3a is a major epigenetic mechanism that controls the post-HCT immune response. This project will define\nthe DNMT3a-dependent pathways that can be targeted in the regulation and separation of harmful GVHD from\nbeneficial GVT activity, which remains a critical unmet need toward improving patient outcomes."
+ },
+ {
+  "id": "d364d203-4350-4a08-b58e-5fd92936813f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Adaptable tissue-specific endothelial cells for organ regeneration",
+  "text": "Current approaches for treatment of organ injury has focused on the delivery of growth factors or stem cells\nwithout any major benefit, in which fibrotic scarring interfere with functional integrity of the damaged organs.\nWe have shown that specialized endothelial cells lining the blood vessels in each organ by production of\nunique growth factors could support organ repair without provoking fibrosis or tumorigenesis. To translate the\npotential of endothelial cells for regenerative medicine to clinic, we have proposed experiments to\nunderstand how endothelial cells acquire organ-specific functions to optimize their efficacy in regeneration,\nwith the intention of transplantation these tissue-specified ECs to augment the repair of lung, blood and\nbroken hearts without scarring."
+ },
+ {
+  "id": "d3673419-d30f-4a89-a3b4-985e1aec90ae",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Longitudinal Multiparametric Magnetic Resonance Imaging of Outbred Rats with Variable Vulnerability to the Development of Oxycodone Addiction-like Behaviors",
+  "text": "This research seeks to unravel the intricacies of brain differences in relation to individual vulnerability to\noxycodone use disorder by longitudinally imaging the brains of a rat model that mimics the variability of the\nhuman population and is characterized for addiction-like behaviors, before and after chronic exposure to\noxycodone. By integrating preclinical and clinically relevant approaches, ultimately, obtained insights could be\ntranslated to lead to better, more personalized strategies for preventing and treating opioid use disorder and\nreducing the impact of opioid-related problems on public health."
+ },
+ {
+  "id": "d3704b4d-e6ea-41d5-8ee8-b0c08e3b87bc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Computational Ophthalmology and Biomedical Informatics",
+  "text": "Computational Ophthalmology and Biomedical Informatics Core The Computational Ophthalmology and Biomedical Informatics Core provides high-performance computing resources and state-of-the-art custom computer programming to UCSD vision researchers completing cellular, animal, and human vision research studies. The data analysis requirements of the vision research community are increasing exponentially as high-resolution retinal imaging datasets become the standard, genomics research utilizes exome and whole genome sequencing, and the widespread digitization of healthcare and adoption of electronic health records (EHRs) and other health information technology tools have expanded the volume of clinical data. The powerful GPU computational condo clusters managed by the San Diego Supercomputer Center, an Amazon Web Services cloud-based data management pipeline, custom software tools, and EHR data extraction and analysis services provided by this core facilitate analysis of these large datasets. The Computational Ophthalmology and Biomedical Informatics core also supports multiple computational data scientists with expertise in image analysis and signal processing expertise, big-data analytics, artificial intelligence (AI)/machine learning (ML), relational databases, and natural language processing to support computational analyses of both basic science and clinical vision research projects. In addition, essential IT services such as automated off-site backup, fileservers for secure file-sharing and institutional software licenses (FilemakerPro, Github, FreezerPro) are provided by the Computational Ophthalmology and Biomedical Informatics Core to the UCSD vision research community."
+ },
+ {
+  "id": "d37df73d-b13a-442b-a013-633cef47373e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeted Therapies for Glioma",
+  "text": "A subgroup of brain cancers known collectively as “gliomas” are the most common brain tumor of children and\na major cause of cancer-related death in young adults. Conventional therapeutics for these cancers (surgery,\nchemotherapy, radiation) have significant side effects on growing children and fail completely on the most\naggressive gliomas. The goal of this research program is to develop non-toxic (and curative) treatments for\ngliomas that arise in children and young adult with glioma by developing a new generation of medicines that\nspecifically target tumors while sparing healthy cells."
+ },
+ {
+  "id": "d3805ba8-ed9a-41ac-99dd-de1657ba0260",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Chemical Probes to Study Copper Biology",
+  "text": "(Public Health Relevance Statement)\nCopper is an essential metal nutrient that is required for physiological functions spanning respiration and\nmetabolism to antioxidant defense. Loss of copper homeostasis resulting from a combination of genetics,\nenvironment, diet, and lifestyle is connected to diseases including cancer, heart and neurodegenerative\ndiseases, and metabolic disorders like obesity and diabetes. We are developing new chemical reagents for\ncopper imaging and proteomics in biological systems to help decipher how copper contributes to healthy and\ndisease states and target copper-dependent disease vulnerabilities, focusing on the contributions of copper and\noxidative stress in cancer."
+ },
+ {
+  "id": "d380a537-f13e-479f-9872-845b9c8a5311",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Deep Learning to Advance Cardiac Magnetic Resonance Strain Imaging and Heart Failure Treatment Planning",
+  "text": "Cardiac resynchronization therapy (CRT), implemented as biventricular pacing (BIVP) or left bundle branch area pacing (LBBAP), improves heart function, symptoms, and survival in responders, but up to 40% do patients do not respond, in part, because we do not have sophisticated methods in inform whether BIVP or LBBAP is best for individual patients. This project will develop deep learning-based cardiovascular magnetic resonance (CMR) strain imaging methods that effectively quantify myocardial displacements from routinely collected cine CMR data and identify latent spatiotemporal strain features predictive of response to BIVP and LBBAP. By improving the accuracy, efficiency, and generalizability of DL-enhanced CMR strain analysis, the proposed innovative studies will advance personalized cardiovascular care by enabling consistent and robust imaging-based clinical decision making for cardiac resynchronization therapy (CRT) across patients with varying disease conditions."
+ },
+ {
+  "id": "d38f07ee-87ca-4aa0-b8a6-2fa47ff0f98b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mapping the Establishment of Heterochromatin Domains During Early Drosophila Embryogenesis",
+  "text": "During embryogenesis, the genome is organized into distinct nuclear compartments, including constitutive\nheterochromatin—a highly condensed compartment with a role for genome stability and gene regulation for\nproper development and cell differentiation. This project aims to profile establishment and spreading of\nheterochromatin as marked by H3K9me3 during early embryogenesis in Drosophila melanogaster.\nUnderstanding how heterochromatin domains are initially established and maintained is essential, since their\ndisruption can lead to genomic instability, chromosomal abnormalities, and altered gene expression patterns\nassociated with several developmental disorders."
+ },
+ {
+  "id": "d38f1e5c-61aa-4e86-ad22-0d2f0389aec3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dissecting subcellular and cellular organization by spatial molecular neighborhood networks",
+  "text": "The proposed research is relevant to public health because it will provide a high-content molecular imaging technology to visualize the molecular neighborhood of hundreds of genes to proteins used to perform widely deployed functions in cells and tissues. Normal cell cultures and tissues will be analyzed by the proposed technology to analyze how molecular neighbors operate in a specific role to affect a single cell's decision in intricate molecular crowds. Mathematical and theoretical analysis of these datasets will provide subcellular localization and neighborhood of protein and transcript molecules and their role in forming viable multicellular biological systems, an emerging spatially resolved subcellular regulation of health and disease."
+ },
+ {
+  "id": "d38f23a3-f1d1-4952-897b-d5a6d835a963",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Quantitative Steady-State and Dynamic Metabolic MRI for Evaluating Patients with Glioma",
+  "text": "Outcomes of gliomas, the most common type of primary brain tumors in adults are highly infiltrative with poorly\ndefined margins, such as time to progression vary considerably, even for patients with the same pathological\ngrade and recent studies have indicated that more uniform outcomes are observed in sub-groups of glioma with\nmolecular markers such as IDH, 1p19q, ATRX, p53 and MGMT. The recent development of the consensus Brain\nTumor Imaging Protocol (BTIP) has reduced the variability between scans but the lack of specificity and\nambiguities in interpreting changes in anatomic images remains to evaluate 1) the extent of the disease, 2) the\nintegrity of the blood-brain-barrier (BBB), and 3) response to treatment. The integration of 1H and 13C metabolic\nimaging into the acquisition protocol enables a more direct assessment of the biological properties of the lesion\nand has been shown to improve the evaluation of changes in the spatial extent of tumor associated with response\nto therapy."
+ },
+ {
+  "id": "d3921081-04b7-4f64-a242-33efc7e90f8f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Core A: Single Cell Profiling and Bioinformatics Core",
+  "text": "The Single Cell Sequencing and Bioinformatics Core (Core A) will provide all Projects with technical and\nanalytical platforms and bioinformatic support to enable lineage tracing and measure molecular responses of\nboth human and murine mutant cells at single-cell resolution. In addition, this Core will use the large-scale\nepidemiologic data from Project 3 to develop a mathematical model to predict the risk that clonal hematopoiesis\ntransforms into frank hematologic malignancy in older adults. This Core is critical to understanding how cells with\nspecific mutations respond to various modifiable stressors and thus the overall mission of this Program."
+ },
+ {
+  "id": "d3953aae-b61e-44a4-95e9-3b153cdaa0d3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Exploring Cumulative Social Determinants Burden, Cancer, and Accelerated Aging: The Role of Physical Activity as a Moderator",
+  "text": "Adults from socially disadvantaged groups might be particularly vulnerable to adverse effects of cancer\ntreatment, including accelerated aging. Our study will examine the potential interaction between social\ndeterminants of health and cancer on accelerated aging and the role of physical activity as a moderator.\nFindings may help demarcate important differences in patients who otherwise seem deceptively similar\nbecause they share the same cancer diagnosis."
+ },
+ {
+  "id": "d397b751-16a1-4cfc-b7e8-aaac1a2e3ebd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "TIAM1 dictates lineage commitment in skeletal and soft tissue pericytes",
+  "text": "Pericytes are multipotent precursor cells in human tissues, which also demonstrate tissue-specific properties in\ntheir innate differentiation potentials. Comparative transcriptomics between human pericytes of different\nanatomical sites identified TIAM1 as a potent regulator of cellular fate decisions. Here, we will investigate this\nactivator of the Rho family of small GTPases as a molecular switch that determines osteogenic versus\nadipogenic differentiation in human pericytes."
+ },
+ {
+  "id": "d39850f7-151d-4a71-bb06-6ed0a922f937",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Developing and Evaluating a Machine-Learning Opioid Prediction & Risk-Stratification E-Platform (DEMONSTRATE)",
+  "text": "NARRATIVES\nThe proposed study aims to harness advanced natural language processing and longitudinal neural network\napproaches to build on our previously developed machine-learning prediction algorithms to identify patients at\nrisk for opioid overdose or opioid use disorder. We will develop the prediction tool using all-payer electronic\nhealth records (EHR), Medicaid claims, and Medicaid claims linked with EHR data from the One Florida Clinical\nResearch Consortium and translate the risk prediction algorithms into a clinical decision support platform\nintegrated into the EHR system to identify patients at high risk of overdose and opioid use disorder. This\ninnovative and integrated platform will better guide clinical providers and health care systems for improving safety\nof opioid prescribing in clinical practice, and prevent opioid-associated adverse outcomes."
+ },
+ {
+  "id": "d39933da-72b7-4f11-8a32-ef92b475d601",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Human Microbiome Data Discovery: A short course on unveiling microbial insights to human health through Common Fund Data",
+  "text": "The large datasets that are available in the Common Fund Data Ecosystem provide remarkable\nopportunities to advance our understanding of factors that contribute to human health and disease.\nThis project aims to develop and disseminate curricular material to provide researchers with the\nnecessary data science skills to access and use data from the Common Fund Data Ecosystem to\nunderstand the relationship between the human microbiome and health and disease."
+ },
+ {
+  "id": "d3a11049-547b-4c4f-9541-9f3349f0fbd3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Articular Microbiome for Prediction and Potential Therapy of Periprosthetic Joint Infections",
+  "text": "The proposed research is relevant to public health because a better understanding of how various microbiome\nniches increase the risk for postoperative complications (particularly, periprosthetic joint infection) following joint\nreplacement for osteoarthritis (OA) is likely not only to generate novel diagnostic/predictive tests but also may\ngive rise to new treatments for PJI in OA patients. Thus, this proposal is relevant to the part of the NIH's\nmission that pertains to fostering fundamental creative discoveries, innovative research strategies, and their\napplications as a basis for ultimately improving health."
+ },
+ {
+  "id": "d3b4d61c-6680-4866-b292-8bb2ca828402",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Analytical and Translational Genomics",
+  "text": "PROJECT SUMMARY • ANALYTICAL & TRANSLATIONAL GENOMICS (ATG) The Analytical and Translational Genomics (ATG) Shared Resource is essential for advancing basic, clinical, and population-based cancer research. It offers UNMCCC members and non-members cost-effective and comprehensive genomic analysis services, including next-generation sequencing (NGS), single-cell RNA sequencing (scRNA-seq), spatial genomics, initial data analysis, and support for functional genomics assays and other genomics-related technologies. The ATG is directed by Viswanathan Palanisamy, PhD (CMO), who serves as the Faculty Director. A dedicated team of skilled wet lab research technicians and a bioinformatics specialist, who collaborates and coordinates with the Bioinformatics & Data Science Shared Resource, manages the resource. The ATG offers several NGS services, including bulk RNA-seq, DNA-seq, and CHIP- seq, utilizing G4-Singular sequencing technology. For single-cell expression analysis, the ATG uses the 10x Genomics Chromium-X platform. Additionally, the 10x Visium, with its HD and Xenium platforms, is also available for single-cell spatial genomics analyses. The expense and significant expertise required to purchase, maintain, and operate such a diverse suite of instrumentation would be prohibitive for most users and underscores the value added by the ATG. In addition, the ATG operates a secure, cloud-based computing infrastructure, enabling the storage of large datasets and facilitating integrated bioinformatics studies of NGS and single-cell spatial data. The ATG conducts initial processing and comprehensive analyses of NGS and single-cell spatial omics data for users. It employs advanced statistical techniques and software packages while adhering to rigorous quality control standards. Furthermore, it provides users with access to a variety of comprehensive services, including detailed experimental design, sophisticated bioinformatics, and statistical data analysis, facilitated through coordinated interactions with the Biostatistics and the Bioinformatics & Data Science Shared Resources. Reservations, billing, and usage are tracked through a centralized on-line system. The Faculty Director and staff collaborate with UNMCCC Research Programs to develop new methodologies that advance their innovative basic and translational research objectives. The ATG actively disseminates information about new genomics technologies and data analysis techniques by maintaining an updated webpage and delivering presentations at UNMCCC meetings and retreats. In the past five years, 42 UNMCCC members from all three Research Programs have utilized the ATG; they received support from 41 peer-reviewed grants and produced 39 articles related to cancer that cited the resource, demonstrating its significant impact on cancer research. UNMCCC member chargebacks account for 72% of overall ATG revenue over the funding period (FY21–FY25). The requested CCSG support for ATG will represent roughly 17% of the yearly operating budget of the Resource."
+ }
+]

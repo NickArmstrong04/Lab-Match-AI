@@ -1,0 +1,142 @@
+[
+ {
+  "id": "a0b5a4bd-ff6e-4250-b307-7a69b02c9b68",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of Methodologies to Reveal the Role of the Blood Microbiome in the Gut-Lung Axis",
+  "text": "A key goal of this project is to reveal the role of the blood microbiome in asthma pathogenesis. The proposed\nresearch is relevant to public health because it enables us to systematically identify candidate causal\nmicrobial strains that can potentially prevent asthma. Thus, the proposed research is relevant to NIH’s\nmission towards developing fundamental knowledge about the nature and behavior of living systems and the\napplication of that knowledge to enhance human health and reduce illness."
+ },
+ {
+  "id": "a0ba1ac2-b0e4-42d6-be0b-5ee1b82b2a1c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Summer Research Experiences in Quantitative Cancer Sciences and Emerging Technologies",
+  "text": "This R25 renewal application will provide research experiences focused on quantitative sciences and emerging technologies to undergraduate and medical students from the United States. The program will allow interns to appreciate how mathematics, physics, and engineering are integrated with biology in cancer research and enable them to understand how quantitative approaches can accelerate discoveries in oncology and improve outcomes in cancer patients."
+ },
+ {
+  "id": "a0bf59e8-8d85-49bb-9d13-b5055e207e0f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Decoding the Muscle Epitranscriptome: Deep Learning Detection of RNA Modifications in Aging Muscle",
+  "text": "As we age, our muscles naturally become weaker and smaller, affecting quality of life for millions of older\nadults. This project aims to understand how chemical \"tags\" on RNA molecules - which carry instructions from\nour genes to make proteins - change during muscle aging and contribute to muscle loss. By developing new\ntools to study these RNA tags using cutting-edge technology and artificial intelligence, we hope to discover\nnew ways to maintain muscle health as people age."
+ },
+ {
+  "id": "a0c0e47c-8de7-4ac4-a328-8aeb2fa3e851",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cell-Specific Transcriptional Programs in Cardiac Allograft Vasculopathy",
+  "text": "After heart transplantation, the vessels that supply blood to the heart can become diseased. Known as cardiac\nallograft vasculopathy (CAV), it is a form of heart rejection and a leading cause of death in these\npatients. Through this study, we aim to find new ways to detect CAV early, find new treatments to prevent this\ndisease, and help heart transplant patients live longer and healthier lives."
+ },
+ {
+  "id": "a0c77241-1608-4554-bf3e-b83ee5b4c5da",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Enabling careers as surgeon-scientists in otolaryngology-head and neck surgery",
+  "text": "Disability and deaths related to otolaryngologic diseases have a significant public health impact nationally;\nhowever, recent advances in molecular and cellular biology, pharmaceutics, bioengineering, inner ear\nphysiology, and voice analysis are translating scientific discovery to impact health. The UCLA Department of\nHead and Neck Surgery is dedicated to the mentoring and interdisciplinary team-based training of a new\ngeneration of academic leaders in disease-related research. By employing the expertise and resources of our\nrenowned multidisciplinary mentor faculty, we will fulfill the program mission of training a cadre of investigators\nwho will discover novel underlying basic principles of otolaryngology-related diseases and translate these\ndiscoveries to improve health."
+ },
+ {
+  "id": "a0c87986-c950-4bf2-9724-b6a92cb7582b",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Human Immune Monitoring",
+  "text": "The Human Immune Monitoring Shared Resource (HIMC-SR) is focused on state-of-the-art immunological assays to discover biomarkers of immune competence, diagnosis, prognosis, and response to therapy or vaccination. The HIMC-SR has two major scientific aims: (1) to provide standardized, comprehensive immune monitoring services at the RNA, protein, and cellular levels and (2) to offer immunological data analysis and consultation services. The HIMC-SR began as a Stanford service center in 2007 and has grown to one of the five largest service centers in the School of Medicine. Technology platforms have expanded to include multiple innovative mass cytometry (CyTOF) panels, highly multiplexed immunoassays using Luminex and Olink platforms, and single- cell genomics assays, including new BD Rhapsody massively parallel single-cell transcriptomics assays, which now include nucleic acid-tagged antibodies (AbSeq), T cell receptor targeting (TCRseq), and multiplexed sample tagging. The HIMC-SR has recently developed novel statistical approaches to address the analysis of the large data sets generated by our assays and their unique characteristics and data structures that need to be addressed. These new tools include an R utility to correct for batch effects and non-specific binding in Luminex assays and a star plot visualization for high-dimensional data such as CyTOF. In 2020, 38% of users were SCI investigators. Members of all programs regularly use the HIMC-SR, with the heaviest use coming from the Cancer Immunotherapy and Hematologic Malignancies programs. The HIMC-SR contributed to 18 cancer- focused publications (5 high-impact). The annual budget of the HIMC-SR is $2,238,919, yet the CCSG request is $57,355. Accordingly, the HIMC-SR leverages extensive institutional support and seeks only 3% from CCSG funds. Future goals of the HIMC-SR include expansion of large-scale single-cell genomics assays on the BD Rhapsody platform; continued development of CyTOF panels to include more channels and new markers, as well as novel quality control measures; development of additional statistical tools and expansion of the Statistical Consulting Service; and further development of the Stanford Data Miner online database to facilitate data integration and retrieval."
+ },
+ {
+  "id": "a0cc7547-ecf7-4719-8efa-04ac7cf24456",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Roles for Intracellular pH Dynamics in Cancer",
+  "text": "Targeting unique features of cancer cells is a preferred therapeutic strategy to inhibit metastatic progression\nwhile limiting off-target effects in normal cells. We are testing new ideas on how the unique feature of\nincreased intracellular pH (pHi) in cancers compared with normal adult cells can be targeted to limit cancer\nmetabolism and tumorigenesis. Our expected outcomes are substantial new views on the importance of\nincreased pHi in cancer progression that will impact new therapeutic strategies to limit progression of cancers\nfrom different tissue origins and genetic backgrounds."
+ },
+ {
+  "id": "a0d3900a-c5fb-4731-a8ce-257caaf08e16",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Biostatistics and Informatics Facility Core",
+  "text": "The long-term objective of the Center for Integrated Environmental Health Sciences (CIEHS) is to build a framework that integrates studies on the interactions between combined exposure to pollutants and social domain factors, in order to understand their role in human health and disease risk at various life stages and as modified by genetics and/or sex. The Biostatistics and Informatics Facility Core (BIFC) plays a vital role in supporting CIEHS research by providing state-of-the-art statistical and bioinformatics support and training to all CIEHS members. The BIFC is an essential resource for designing systematic acquisition and deposition of preclinical and clinical data as well as for providing intellectual input required for rigorous data analysis. Building the framework to integrate translational basic science research on pollution and social domain factors influencing chronic disease risk requires sophisticated statistical support. The BIFC addresses this need by using state-of-the-art techniques related to statistics and informatics as it serves CIEHS members during all phases of their studies. The BIFC provides seamless infrastructure and support to CIEHS member research, including preclinical-basic science, patient-oriented clinical research (e.g., the diagnosis, prevention, and therapy of environmentally related disorders), public health/population-based research, and community- engaged/community-led research. The aims of the BIFC are: 1. Provide state-of-the-art art biostatistics, bioinformatics, and data management support; 2. Provide guidance, resources, and training to all CIEHS investigators, staff, and trainees in biostatistics and bioinformatics approaches, data management and data integration; 3. Develop efficient and robust biostatistics and bioinformatics methods to integrate multi-omics data, exposure data, social domain factors, and clinical outcome data to empower CIEHS members in conducting groundbreaking discoveries. Areas of special interest include, repeated measures models, measurement error, spatio-temporal methods, computational biology, statistical genetics, and clinical informatics. CIEHS members currently use the statistical support services of the BIFC personnel, demonstrating both need and productive interactions. The BIFC leverages partnerships with the KY INBRE (Kentucky IDeA Networks of Biomedical Research Excellence), LCTRC (Louisville Clinical and Translational Research Center), and the Brown Cancer Center Bioinformatics and Biostatistics Cores to enhance efficiency. The LCTRC and KY INBRE provides access to a variety of additional statistical and bioinformatics tools and expertise. The Brown Cancer Center provides space for BIFC personnel. By leveraging and building upon existing resources at UofL, the BIFC facilitates access and use of these resources by CIEHS members and expands statistical and bioinformatics support in a more cost-efficient manner to ensure robust and reproducible results."
+ },
+ {
+  "id": "a0d40ae8-2fb5-46dd-8e15-70291982df98",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Discovery and development of novel HCMV inhibitors",
+  "text": "Human Cytomegalovirus (HCMV) causes serious morbidity and mortality in solid organ and bone marrow\ntransplant recipients and is the most common congenital infection worldwide. Treatment options for HCMV are\nextremely limited; therefore, new therapeutic strategies against HCMV are urgently needed. The overall aims\nof this proposal are to develop new inhibitors of HCMV that target the helicase primase complex."
+ },
+ {
+  "id": "a0d4fe48-2333-4d6b-8ca1-349e31cc734d",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Development of In Vitro Diagnostics for Antimicrobial Resistant Infections (AMR), and Emerging Infectious Diseases",
+  "text": "To support the development of promising diagnostics technologies for emerging and reemerging infectious diseases, including resistant infections. Areas of support may focus on improving performance of agnostic nucleic acid sequencing solutions on commercial platforms; methods that improve protein analyte detection; and efforts to improve direct-from-blood or other biofluid detection and identification of microbial infection."
+ },
+ {
+  "id": "a0e04371-32ff-4777-8687-e2b73c6ad8b5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Integrated mass spectrometry strategies to decipher metabolite-protein cross regulation",
+  "text": "Metabolism relies on the critical interplay between protein enzymes and small-molecule metabolites and is\nresponsible for many facets of cellular regulation; metabolic dysregulation can lead to a host of rare and common\ndiseases including cardiovascular disease and epilepsy. However, the precise tuning of these metabolic\npathways that relies on interactions between metabolites and proteins remains poorly understood in part due to\nthe lack of integrated methods to probe this cross regulation. The Skinner Lab is developing new mass\nspectrometry-based strategies to integrate between metabolomics and intact and native proteomics to address\ncritical unmet needs in two facets of metabolism: thiol regulation of core metabolic pathways and the metabolic\nregulation and redox consequences of Vitamin B6."
+ },
+ {
+  "id": "a0e50ebc-4dda-40c5-9fda-e8eb83fd20e0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of Axonopathy in CMT1X",
+  "text": "Charcot Marie Tooth (CMT) disease is a relatively common group of disorders characterized by\nperipheral neuropathy with progressive limb weakness and sensory loss, and CMT1X is the second most\ncommon form of CMT. Although the dysfunctional protein which causes CMT1X is expressed in the\nSchwann cell, a supporting cell in the peripheral nerve, the earliest dysfunction in CMT1X is in the axon,\nthe part of the nerve cell which carries information needed for normal motor and sensory function. This\nproject investigates the pathways causing axonal dysfunction in order to identify new targets for\ntreating the cause of disability in CMT."
+ },
+ {
+  "id": "a0e87c2f-1842-4855-8a10-77414c728d7d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of a multiomic biodosimetry panel for use during sepsis and antibiotic treatment",
+  "text": "Program Director/Principal Investigator (Last, First, Middle): Pannkuk, Evan Lacy\nProject Narrative\nInfections will be associated with radiation injury in a nuclear emergency, of which sepsis and pneumonia will\nbe of primary concern. Our proposed studies will develop a multiomic biodosimetry panel that will provide\nincreased accuracy within the first week following radiation exposure in individuals with combined infection.\nContinuation Format Page"
+ },
+ {
+  "id": "a0e962e8-c5a3-49d1-b1fc-aa0e2db4477a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "SCH: Personalized AI-Driven Models for Supporting User Engagement and Adherence in Health Interventions: Validation in Cognitive Behavioral Therapy for Anxiety",
+  "text": "The proposed research is relevant to public health, as it will assess whether personalized SARs impact engagement and outcomes in CBT exercises for anxiety, which is key to developing effective, scalable treatments for mood disorders such as anxiety. This research aligns with the NIMH mission of leveraging novel methods to intuitively and intelligently collect, sense, connect, analyze and interpret data from individuals, devices and systems to enable discovery and optimize health."
+ },
+ {
+  "id": "a0eea458-1520-44aa-b950-483a474db8c9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cardiorespiratory and autonomic impacts of coolants in e-cigarette aerosols",
+  "text": "Electronic cigarette (e-cigarette) use is common among adolescents and young adults, yet the health\nrisks of widely used additives, including the cooling agents menthol, WS-3, and WS-23, remain poorly\nunderstood. This project will determine how these coolants modify exposure to harmful and potentially\nharmful constituents and affect autonomic regulation, cardiac electrophysiology, hemodynamics, and\nrespiration, using both adolescent and adult mouse models to evaluate age-dependent susceptibility.\nThe study will also assess how e-cigarette operating power and coolant dose influence these outcomes.\nThese investigations address high-priority research areas identified in RFA-OD-25-001, including the\ntoxicological evaluation of e-cigarette constituents, their cardiopulmonary effects, and interactions\namong coolants, nicotine, and aldehydes."
+ },
+ {
+  "id": "a0ff0441-9fa1-4aaf-bd52-6df019581f02",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Reducing stuttering with integrated machine learning classifiers and optimized altered auditory feedback",
+  "text": "Developmental stuttering is a neurodevelopmental disorder of speech fluency that affects approximately 5-8%\nof children and 1% of adults. This work aims to develop and validate a novel approach that alleviates stuttering\nby altering the user’s auditory feedback during speech production based on the user’s own real-time brain\nsignals. This work may lead to the development of a completely novel system that reduces stuttering with\nintegrated machine learning classifiers and optimized altered auditory feedback."
+ },
+ {
+  "id": "a0ffa21f-7a06-4fb6-832e-8792a8a38f63",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Vision-Language Models with Explainability for Breast Cancer Prognosis using Image and Clinical Data.",
+  "text": "Our current ability to predict breast cancer mortality risk is based on statistical models that use aggregated\nclinical variables; unfortunately, these models do not adequately identify, with confidence, individual women\nwith a high or low risk of dying. We will develop a deep learning model that uses both clinical variables and\nbreast biopsy microscopy image features to improve prediction of recurrence and mortality; we also will\ndevelop an explainability component that will provide physicians a text description of image features relevant to\nand explaining the prediction, thus providing insight and explainability. Our models will be evaluated by expert\nbreast pathologists, working in a feedback loop, to improve model trustworthiness and clinical relevance."
+ },
+ {
+  "id": "a106a989-5f18-465a-9201-c25cc13a297d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of de novo pyrimidine biosynthesis in pathological cardiac remodeling",
+  "text": "Hypertensive and ischemic heart diseases represent two major risk factors of heart failure. Pathological\ncardiac remodeling under these disease conditions involves adverse alterations at various levels. Studies laid\nout here will dissect the contribution of de novo pyrimidine biosynthesis in the heart in pathological cardiac\nremodeling and heart failure, which will provide new insights of our understanding for the underlying\npathophysiology and shed light on novel therapeutic approaches."
+ },
+ {
+  "id": "a10af986-5165-484a-ac17-4ac5b9b1d65e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Understanding how food & gene interactions impact LDL-C and drive variability in dietary responses",
+  "text": "Low-density lipoprotein cholesterol (LDL-C) is a causal modifiable risk factor for coronary heart disease, but\nwhile maintaining a healthy diet low in saturated fat is recommended to control LDL-C, individuals can have\ndramatically different LDL-C responses to dietary changes. We hypothesize that food-food and food-gene\ninteractions modulate the effects of saturated fat on LDL-C, and the goal of our proposed research is to identify\nthese interactions and rigorously test their specific effects. This research will lay the foundation for developing\ntailored dietary interventions that are optimized for each person’s genetic background and preferred dietary\npatterns."
+ },
+ {
+  "id": "a10e30f4-8764-482c-8afb-cc5ca602890a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Unraveling the Molecular Mechanisms Governing the Elongation-to-Termination Transition of RNA Polymerase II-Dependent Transcription",
+  "text": "This proposal aims to uncover the molecular mechanisms by which histone H2B monoubiquitylation (H2Bub1)\nmodulates Cdk9 and PP1 occupancy on chromatin, thereby influencing alternative polyadenylation (APA) and\nthe transition from elongation to termination (Aim 1). Additionally, we will explore how the antagonistic interplay\nbetween Cdk12 and Fcp1 regulates Pol II CTD phosphorylation (pTyr1 and pThr4), impacting transcription\ntermination (Aim 2). Successful completion of these projects will illuminate the complex interactions among\nCdk9, PP1, Cdk12, Fcp1, Pol II CTD phosphorylation, various epigenetic modifications, and chromatin\nremodelers that collectively shape chromatin architecture and control the elongation-to-termination transition."
+ }
+]

@@ -1,0 +1,142 @@
+[
+ {
+  "id": "c8fe12c0-8b8c-4f32-8fb2-82255366310b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Harnessing TLR4 Signaling Pathways in CAR Dendritic Cells to Overcome Tumor Immune Tolerance",
+  "text": "Solid tumors can be difficult to treat because they often avoid being attacked by the immune system. This\nproject will develop a new approach that uses specially engineered dendritic cells – which act like \"generals\" in\nthe immune system – to target and eliminate tumors as if they were an infection, with the goal of creating a\nmore effective and long-lasting cancer treatment."
+ },
+ {
+  "id": "c9028baf-e18b-409d-9af6-791439d294d7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Olfactory Phenotypes as Non-Invasive Biomarkers for Alzheimer's Disease: A Machine Learning Approach",
+  "text": "We predict that olfactory dysfunction testing using AROMA – a novel, essential oil-based, objective test of\nolfaction – and machine learning algorithms using this data will accurately classify Alzheimer’s disease stage\n(including asymptomatic individuals); be strongly associated with and predictive of conventional biomarkers of\ndisease; and predict longitudinal functional trajectory. The ability to effectively screen for ADRD using a non-\ninvasive and accessible test is critical to public health and our ability to identify people early when disease\ncourse is most likely to still be modifiable. Accurate prediction of future functional decline will also meaningfully\ninform comprehensive care planning and improved counseling of patients and their families."
+ },
+ {
+  "id": "c905172f-51c0-49bf-b7c4-2393b0d16553",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Advanced Microscopy and Image Informatics",
+  "text": "ADVANCED MICROSCOPY AND IMAGE INFORMATICS SHARED RESOURCE Imaging tools are critical to many aspects of the study of cancer biology, ranging from tissue and cellular level imaging with fluorescent microscopy platforms that offer routine-to-nanometer resolution of cellular structures to atomic resolution studies of specific macromolecules with specialized microscopy. The Advanced Microscopy and Image Informatics (AMII) Shared Resource (SR) provides high-quality microscopy and analytics services to the Dan L Duncan Comprehensive Cancer Center (DLDCCC) that spans multiple disciplines. The AMII SR is a resource for state-of-the-art imaging instrumentation, custom image analysis, and thorough one-on-one training by expert staff. Additional complimentary services are offered that include robust consultation for assay design and experimental setup, data acquisition on all available instruments, and image analysis approaches relevant to all acquired data using both custom-developed open source and commercial software platforms. The AMII SR Leaders and staff scientists are also heavily invested in education and training through graduate level teaching, hosting DLDCCC symposia, workshop and seminar organization, and one-on-one training of new (and current) users as needed by experts on staff. To ensure the best collection of data by DLDCCC faculty and/or trainees, the AMII SR also offers the option of utilizing its staff to perform wet-lab experiments from cell/tissue processing and labeling to fully assisted image acquisition across all platforms. Most notably, for fluorescence-based microscopy, the AMII SR offers deconvolution and confocal microscopy and assay development for high throughput imaging-based phenotypic or mechanistic screenings, including a halotomography platform for unlabeled phenotypic analysis of living cells. Further, the AMII SR has acquired numerous specialized small molecule libraries for high content screening, including collections relevant to known cancer-related and FDA-approved drugs, cancer metabolism, kinase and cell signaling inhibitors, nuclear receptor ligands, epigenetic and chromatin modifiers, lipid metabolism, endocrine disrupting chemicals. These small molecules and genomic perturbations are all amenable to single cell-oriented Cell Painting-based screening with a novel, custom-built open-source software platform now in regular use. New for this renewal, cryo electron microscopy (CryoEM), and cellular cryo electron tomography (CryoET) with cryo focused ion beam milling (CryoFIB) services have been added. The addition of CryoEM services permit submicron milling of tissues and cellular specimens with subsequent 3-D imaging at 5 nm resolution. Additionally, CryoEM services permit structural studies of purified molecules and macromolecular assemblies to near atomic resolution. Previously, as a stand-alone College resource, the well-established set of CryoEM/ET services have already been heavily used by dozens of cancer researchers for diverse purposes, from studying the high-resolution structure of nuclear hormone receptors to studying the internal structure of exosomes and circulating tumor cells. Incorporation into AMII will enhance access to these methods and provide opportunities for improved outreach and education."
+ },
+ {
+  "id": "c90538fd-9024-47c7-b513-323c94671f6c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Discovery of efflux pump inhibitors using a high-throughout bacterial assay",
+  "text": "Antibiotic resistance is a worldwide problem that will continue to present challenges to the healthcare industry.\nBacteria possess several mechanisms of antibiotic resistance, including target mutations, degradation\nmechanisms, reduced permeability, and the presence of efflux pumps. The goal of this project is to develop a\nhigh-throughput assay to identify inhibitors of efflux pumps, which confer bacteria a key mechanism to evade\nantibiotics."
+ },
+ {
+  "id": "c9062c30-939c-4544-8ec0-5fca3be0aab9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Core 1",
+  "text": "The Data Collection and Clinical Genetics Core serves as a hub in support of data and biospecimen collection \nacross multiple projects aimed at understanding the role of inherited susceptibility to cancer in African Americans \nand improving access to genetic counseling and testing services in this population. It also extends participation \nin research by providing clinical genetic testing based on research findings."
+ },
+ {
+  "id": "c90931b4-a244-410f-ac5b-0e0068196dba",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Core C: Bioinformatics and Genomics Core",
+  "text": "Project Summary/Abstract – Core C Bioinformatics has become an integral part of biological research due to the high-throughput nature of multi-omics experiments warranting the need for having the infrastructure and trained personnel to support the advancement of science of the research projects. The Bioinformatics and Genomics Core (Core C) will continue to serve as a linchpin in the overall success of the program project by supporting the generation, storage, processing, analysis and accessing of experimental data. Core C will be led by Drs. Babu Guda and James Eudy, who will provide complementary expertise in Bioinformatics and Genomics areas, respectively. This Core is innovative by having a fully integrated Bioinformatics as well as Genomics units within, which allows full spectrum access to cutting-edge experimental and analytical techniques under one Core. The specific aims are: Aim 1: Support the sequencing and analysis of multi-omics data for research projects. Aim 2: Integrative analysis and functional characterization of significant genes, gene products, enriched pathways, and upstream regulators for hypothesis generation and testing. Aim 3: Develop a web portal to centralize access to multi-omics data from all research projects and to facilitate bioinformatics training activities. Core C will make a big impact on the overall success of the project by providing resources, personnel support and developing cutting-edge technologies and custom data analysis methods for all research projects. Proposed cloud-based web portal backed by a searchable database provides easy access to all experimental data, metadata, and the training materials facilitating synergistic interactions among the project personnel across multiple sites."
+ },
+ {
+  "id": "c911c024-fc3d-4a2e-af0f-fbb7527b78cd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cartilage targeting exosomes for OA gene therapy and pain treatment",
+  "text": "Cartilage repair remains a challenge due to its avascular and negatively charged matrix that limits its regenerative\nability and hinders drug transport, which already suffer from short joint residence time. Mesenchymal stem cell\nderived exosomes are emerging as promising cartilage repair therapy due to their intrinsic regenerative potential,\nbut they suffer from lack of cartilage targeting. This project will make them positively charged such that they can\npenetrate the negatively charged cartilage, use it as a drug depot and deliver the packed gene therapeutics while\nalso exhibiting their natural pro-chondrogenic potential to both repair cartilage and provide pain relief."
+ },
+ {
+  "id": "c9185726-c8d6-4705-bd54-2bdafcffcc50",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Advanced Technology Core",
+  "text": "ADVANCED TECHNOLOGY CORE (CORE C) PROJECT SUMMARY Leveraging the collective scientific expertise and resources across the DC CFAR partner institutions, the Advanced Technology Core (ATC) will provide an array of high impact laboratory services and training to HIV investigators in Washington, DC. Under the leadership of NIH-funded senior scientists and with a cadre of DC CFAR-supported Core service providers, the ATC will actively support high priority advanced technology services in virology, immunology, proteomics and bioinformatics, and provide access to other key laboratory services that utilize advanced technologies including single-cell analysis, -omics, specialized immunologic assays, CRISPR technologies, complex imaging, cryo-electron microscopy, machine learning, and HIV reservoir assays. The ATC will assist investigators in acquiring preliminary data for grant applications; conduct funded research protocols; and foster linkages with the Scientific Working Groups (SWGs) and Scientific Interest Groups (SIGs) and clinical and translational investigators. For Specific Aim 1, the ATC will provide high impact and advanced technology laboratory services (including single-cell analysis, omics, specialized immunology, CRISPR technologies, complex imaging, cryo-electron microscopy, machine learning, and HIV reservoir assays) to DC CFAR investigators. For Specific Aim 2, the ATC will facilitate service dissemination and training in advanced techniques and assays to recipients of Pilot, Transitioning Investigator, and NIH awards by organizing DC CFAR institutional workshops, the Core service laboratory “open house” series, and the annual Core Service Providers Research Day. For Specific Aim 3, the ATC will promote multidisciplinary forums by organizing workshops and seminars with the goal of connecting social, behavioral, clinical, and population scientists with the basic science investigators who are utilizing advanced technologies. These activities will contribute to addressing the DC CFAR mission of ending the HIV epidemic in Washington, DC and improving the health and quality of life of persons with HIV."
+ },
+ {
+  "id": "c92d61cb-3357-4b64-b8a6-0d9e30a335ee",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of RHOA signaling in regulating vascular integrity and development",
+  "text": "RHOA signaling is implicated in cranial vascular disease states with impaired blood vessel integrity, including\nhemorrhagic stroke and cerebral cavernous malformations. Through combined molecular and genetic studies\nconducted in vivo in zebrafish and in vitro in human endothelial cells, this research plan aims to elucidate the\nroles that RHOA and its effectors ROCK1, ROCK2, and others play in regulating cranial vascular integrity and\ndevelopment. By defining and characterizing members of the endothelial cell-specific RHOA signaling network,\nwe will better understand how RHOA and its effectors participate in normal vascular development and disease."
+ },
+ {
+  "id": "c93065e4-edfe-435d-95ea-4f10137c2df5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Developing a PET tracer targeting myeloperoxidase activity for neurodegenerative diseases",
+  "text": "Myeloperoxidase is a key damaging enzyme secreted in many neurodegenerative diseases, including\nAlzheimer's disease. The goal of this proposal is to develop and characterize a new PET imaging agent to\nspecifically and sensitively map myeloperoxidase activity in the brain, validate this agent in a mouse model of\nAlzheimer's disease, and prepare for regulatory filing."
+ },
+ {
+  "id": "c930c285-f69d-4fe5-b9bb-de7808a68b3a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The role of genome folding in regulating gene expression and chromatin state",
+  "text": "The goal of this project is to elucidate fundamental knowledge of the link between three-dimensional genome\norganization and gene expression. This research will investigate the properties of cohesin complexes, identify\nand characterize novel cohesin-interacting proteins, and elucidate the role of cohesin-mediated DNA loops in\nregulation of transcription and chromatin state. This knowledge is critical for understanding human health and\ndisease states linked to altered three-dimensional genome organization, such as developmental disorders and\ncancers."
+ },
+ {
+  "id": "c9350a42-5138-4695-8968-d9d5ab7d1827",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "RDCD Core",
+  "text": "PROJECT SUMMARY/ABSTRACT, RDCD CORE Quality clinical and translational research is impossible without strong support for research design and compliance. To this end, the overarching goal of the Research Design, Compliance, and Data Management (RDCD) Core is to provide accessible, rigorous research design, analytic, and data support services, and compliance support for the partner institutions of the Mississippi Center for Clinical and Translational Research (MCCTR). The RDCD Core is the central resource for high-level expertise in research design, epidemiology, biostatistics, bioinformatics, AI, and regulatory compliance. The MCCTR aims to facilitate clinical, translational, and population health research on chronic diseases affecting Mississippians. The MCCTR’s strong record in research in diabetes, CKD, hypertension, imaging of disease, heart disease, cancer, and maternal/fetal disorders will be further strengthened and expanded into other chronic disease domains moving forward with the ultimate goal of improving the health of Mississippians. The RDCD Core will play a pivotal role. Studies that are appropriately powered, well-designed, with rigorous analytics, and that meet all regulatory standards are critical to accomplishing these goals. The Core will also lead into new frontiers with the emerging and transformative fields of bioinformatics and AI. During Phase III, we will expand support for the clinical and translational research spectrum from bench science to randomized trials to community-engaged research, including support for initial study design, federal and institutional regulatory compliance, biostatistical/bioinformatics analysis, and risk and safety. In collaboration with the UMMC Office of the Associate Vice Chancellor for Research, we will continue to expand access to current data resources, provide regulatory and compliance support, and provide directed training on matters related to Core functions through the following specific aims: (Aim 1) Support and train MCCTR investigators and users on research design, biostatistical analysis, risk assessment, safety protocols, and deep learning and artificial intelligence models, (Aim 2) Leverage existing infrastructure to provide support for dataset curation and management while ensuring validation and minimizing bias; and (Aim 3) Through the Compliance Sub-core, provide investigators the necessary tools and expertise to ensure adherence to all regulatory and compliance standards at the institutional, state, and federal levels. The RDCD Core is committed to outstanding support for the growing clinical, translational, and population research infrastructure, which will play a critical role in alleviating the burden of major chronic diseases impacting Mississippians."
+ },
+ {
+  "id": "c93ca640-cbc8-41f6-857c-00d7b9c1821c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Understanding expression and signaling of sex hormone receptors in brain cancers",
+  "text": "IDH-mutant gliomas are universally lethal primary brain tumors driven by profound metabolic reprogramming, yet key aspects of their altered metabolism remain poorly understood. This project investigates a newly discovered metabolic feature of these tumors—accumulation of the metabolite itaconate—to determine how it is produced and how it influences tumor growth, metabolism, immune interactions, and response to therapy.  Understanding this pathway may reveal new targets for improving treatment outcomes in patients with IDHmutant glioma."
+ },
+ {
+  "id": "c941954e-1698-43f7-b027-223a6353eacc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Examining the role of novel proenkephalin peptides in influencing alcohol-induced cognitive dysfunction",
+  "text": "Alcohol consumption stimulates the release of endogenously-produced opioid peptides that influence the\nrewarding effects of this drug. With continued consumption and over time, the ability to stimulate the same level\nof response changes fundamentally, although it is not known if such changes include the production of novel\npeptides from the same family. Here we will apply the use of advanced analytical platforms and animal models\nof addiction towards the study of a novel peptide that we believe may be influencing cognitive impairments in\nindividuals with Alcohol Use Disorder."
+ },
+ {
+  "id": "c946ef3e-28cb-458f-8b68-c66d04350bb9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of FABP7 in ALS models",
+  "text": "Amyotrophic lateral sclerosis (ALS) or Lou Gehrig’s disease is characterized by the specific death of the nerve\ncells that control muscle movement, leading to paralysis and eventual death. ALS is linked to inflammation and\ndefects in energy metabolism. This proposal will investigate if altered expression of a protein that binds fatty\nacids and regulates inflammation and metabolism plays a role in the progression of the disease in ALS-models."
+ },
+ {
+  "id": "c94fe421-691f-4a9d-a896-6c92f02ff47e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Deciphering Human-KSHV Protein Interactions Driving Kaposi Sarcoma with AI Models",
+  "text": "This project aims to develop an AI-driven framework to identify and validate KSHV-host protein-protein\ninteractions that suppress the cGAS-STING pathway, revealing novel mechanisms of immune evasion and\nproviding new targets for the treatment of Kaposi Sarcoma."
+ },
+ {
+  "id": "c950ba5b-df68-490d-853a-3f4f5231d9df",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "The Use of Chest Radiography in Detecting Early TB in Children and Youth",
+  "text": "It is now widely accepted that after the establishment of TB infection, it may progress and regress across\nseveral subclinical states for a wide range of durations — from weeks to several years — before emerging as\nactive TB disease. Emerging evidence indicates that infectiousness can precede the classic symptoms of\nactive TB disease, so individuals in these subclinical stages of TB are often overlooked in TB control programs,\nincluding active TB case-finding programs. Our proposal aims to evaluate the use of chest radiography to\nidentify individuals in these subclinical stages, enabling timely non-therapeutic or therapeutic interventions to\nhelp interrupt further transmission of TB."
+ },
+ {
+  "id": "c95d653b-8d21-458d-b8f3-eccc3c3da8c0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of C difficile Colonization in Risk of Disease",
+  "text": "Clostridioides difficile infection remains one of the most common healthcare-associated infections. While C.\ndifficile carriage is both highly prevalent and strongly associated with risk of subsequent disease, factors that\nprevent or promote progression to disease remain poorly understood. The proposed work will apply bioinformatic\nmethods to a well-characterized biorepository of carriers to advance the current understanding of progression\nfrom C. difficile carriage to disease, with the ultimate goal of informing future prevention efforts."
+ },
+ {
+  "id": "c95ec293-a8d9-4e19-a8b5-8f40a2f10252",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Neuronal Primary Cilia Dysfunction in Tuberous Sclerosis Complex",
+  "text": "Tuberous sclerosis complex (TSC) is a genetic disorder with high rates of epilepsy, autism spectrum disorder,\nand intellectual disability, but the cellular mechanisms underlying these neurological symptoms are not well\nunderstood. We have found that the primary cilium, a sensory organelle, is altered in neurons of TSC patients.\nIn this study, we will investigate the molecular mechanism underlying this alteration and its functional\nimplications."
+ },
+ {
+  "id": "c968f1c4-aa7d-4dd9-87eb-f7d6c5245e37",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Uncovering the unique roles of bone-forming osteoblasts and bone endothelial cells in organ-specific metastasis of breast cancer to bone",
+  "text": "My proposed research aims to develop cost-effective, user-friendly, and high-throughput microfluidic cancer\nmetastasis models, leveraging organ-on-a-chip (OoC) technology, to advance our understanding of the complex\nmechanisms underlying breast cancer's (BC) predilection for bone metastasis. I will create BC metastasis models\nthat will elucidate the specific roles of osteoblasts, bone endothelial cells, and BC cells in the critical processes\nof BC bone extravasation and early colonization. This research has the potential to uncover new insights into\nBC bone metastasis and to lead to innovative therapeutic interventions, which directly aligns with the mission of\nthe National Cancer Institute (NCI)."
+ }
+]

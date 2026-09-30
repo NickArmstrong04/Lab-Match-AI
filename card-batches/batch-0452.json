@@ -1,0 +1,142 @@
+[
+ {
+  "id": "13ac7c82-91b9-41e8-bb3a-309ea6f7cdeb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating transcriptional mechanisms of fibrosis in the liver",
+  "text": "Identifying and understanding actionable targets of liver fibrosis in metabolic dysfunction-associated\nsteatohepatitis (MASH) is of pressing clinical significance. Recognizing the critical need for innovative\ntherapeutic strategies, our research focuses on ZNF469, and the mouse orthologue Zfp469, as novel\ntranscriptional regulators in hepatic stellate cells (HSCs), pivotal players in fibrogenesis. Our proposed studies\nwill determine the role of ZNF469 regulation of hepatic stellate cells activation in vitro and will elucidate the HSC-\nspecific role of Zfp469 in mediating fibrosis in experimental models of MASH."
+ },
+ {
+  "id": "13acd1c0-26d0-4d56-a782-aea96e96d739",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Use for Applied Research",
+  "text": "APPLIED RESEARCH The genetic basis of human biology and disease is complex and requires animal models that accurately reflect human genetic diversity to confirm disease-related genetic markers and develop therapeutic strategies. The SMSR strain platforms harness the natural inbred strain variation for modeling. However, their use requires additional genetic engineering to create new models or “tool strains” for specific types of genetic modifications. Current genome engineering protocols optimized for standard inbred strains (e.g., C57BL/6J) are inefficient when used for non-standard strains, often due to limitations imposed by their reproductive biology. To facilitate efficient use of SMSR strains for disease model generation we propose an innovative strategy to overcome these limitations by enhancing endogenous follicle development and ovulation, combined with in vivo zygote manipulation. Optimized protocol for genome engineering in diverse genetic backgrounds will improve the efficiency and cost of creating new mouse models using CRISPR-Cas9 editing. To achieve this goal, we will: Develop a strategy to enhance the yield of zygotes suitable for genome engineering in difficult-to- engineer strains. We aim to identify compounds (e.g., PTEN inhibitors, PI3K activators) and optimize their use in vivo with the goal of increasing natural ovulation rates by enhancing follicle recruitment. We will assess the number and developmental competence of eggs ovulated after stimulated follicle recruitment. Establish and optimize protocols for efficient gene editing. We aim to establish and optimize in vivo gene editing protocols using i-GONAD to deliver CRISPR/Cas9 components directly to zygotes within the oviduct to bypass inefficiencies related to superovulation, in vitro manipulations and embryo transfer in non-standard strains. The project will optimize i-GONAD parameters and combine it with the ovulation enhancement strategies to maximize the yield of correctly edited offspring. These advances will accelerate the functional validation of genetic findings, enabling the scientific community to gain insights into disease mechanisms and develop innovative therapeutic approaches."
+ },
+ {
+  "id": "13ad6257-a778-400e-979a-616f89d74042",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Novel Approaches to Remove Systematic Prediction Bias in Machine-Learning Regression for Biological Age",
+  "text": "We propose to develop new machine learning regression models to derive aging clocks that more accurately\nmeasure underlying biological age relative to chronological age. These innovative aging clocks will provide\nunbiased estimates of the effects of risk factors and anti-aging interventions on the biological aging process."
+ },
+ {
+  "id": "13aea087-71e9-4b9f-91d9-ce5f68d6396e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Integrating novel cellular and molecular technologies to advance deep profiling of T cells",
+  "text": "T cells are central to well-orchestrated and long-lived immunity, yet critical gaps in our ability to study the full\nrepertoire of T cells that respond to immunological insults suggest that new techniques and methodologies are\nneeded to advance our understanding immunity against microbial infections and cancer over the lifespan. The\nwork proposed here will leverage a technique we are developing to detect T cells specific to foreign- or self-\nantigens that are below the limit of detection of conventional techniques. We will integrate this technique with\ncutting-edge profiling analyses to increase the breadth and depth to which we can study T cell biology."
+ },
+ {
+  "id": "13afe046-cd93-41a8-b3f5-7c169594b589",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Improving mutant KV11.1 trafficking to treat Long QT Syndrome",
+  "text": "Loss-of-function variants in the voltage-gated potassium ion channel (KV11.1) are associated with Long QT\nSyndrome, a risk for deadly cardiac arrhythmias, and around 90% of these variants disrupt intracellular protein\ntransport (trafficking) to the cell surface. I will test evacetrapib’s efficacy to improve KV11.1 variant trafficking\nusing human induced pluripotent stem cells and employ proteomics to identify KV11.1 protein interaction\nnetworks. This research aims to uncover therapeutic strategies for managing Long QT Syndrome."
+ },
+ {
+  "id": "13b0abd4-2ea0-490b-a600-d1f2a8008eab",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Machine learning tools to evaluate hiPSC organoid modeling of human brain development",
+  "text": "This project aims to develop machine learning methods and tools for comparative single-cell\nmultiomics analysis between organoids and brains, enabling the interpretation of developmental\ngene regulatory mechanisms at cellular level across in-vivo and in-vitro systems. We expect that\nour tools will foster generation and evaluation of human pluripotent stem cells derived organoid\nprotocols. These tools will also enhance the efficiency and integration of brain-organoid\nanalyses, especially for biologists and neuroscientists, leading to a deeper understanding of\nbrain cells and their functional characteristics in development."
+ },
+ {
+  "id": "13b33d6d-e471-4183-8879-e65b87612e6d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Auditory-Arousal Circuits in Normal and Disordered Hearing",
+  "text": "Noise-induced hearing loss is strongly associated with chronic neurological disorders including tinnitus (ringing\nof the ears) and sleep difficulties. This project will investigate the neural circuits that wake us in response to\nsounds, to test whether their function is impaired after noise exposure, leading to sleep dysregulation. This\nresearch aims to identify new tools for diagnosing and measuring outcomes in hearing disorders, as well as to\nidentify ways to improve quality of life for patients with hearing loss and insomnia."
+ },
+ {
+  "id": "13b7f8ba-a8ce-4b3f-a88b-f28898aee61d",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Project 2: Smooth muscle cell programs for coronary artery disease",
+  "text": "Project 2 With the identification of over 300 replicated loci, genome wide association studies (GWAS) have provided the first opportunity for the discovery of cellular and molecular pathways that regulate risk for coronary artery disease (CAD). Genomic studies employing these data have indicated that much of CAD risk resides in endothelial cell (EC) and smooth muscle cell (SMC) lineages. Our studies have identified and linked a small number of causal genes to complex phenotypic transitions in SMCs. We have shown that genes protective toward disease risk, such as TCF21 and SMAD3, promote SMC transition to a fibroblast-like fibromyocyte (FMC) phenotype and inhibit transition to a chondrogenic chondromyocyte (CMC) phenotype, while risk-promoting genes like PDGFD promote the development of CMCs. We are just beginning to link GWAS loci genes together into biological pathways, in an effort to map causal cellular and molecular mechanisms of disease risk. However, study of individual loci in isolation is slow and arduous, is costly and requires years of work for each locus gene. A critical need in the field is to expand the number of causal genes in GWAS associated loci and link them together in specific programs, thus extending available knowledge and promoting further mechanistic studies to validate and explore their relevant biology. Furthermore, while similar SMC transitions have been observed in other diseases such as pulmonary artery hypertension (PAH), it remains unclear how the disease gene programs underlying these transitions may have functions specific to one or another vascular bed, and how they may influence neighboring EC phenotypes. To address these questions, we will leverage technologies from our Perturb-seq and Mouse Model Cores, and collaborations with Projects 1 and 3, to systematically map these SMC gene programs, and evaluate how they modulate SMC transition states and interact with ECs to regulate the atherosclerotic process. Our hypothesis for Project 2 is that many CAD GWAS loci converge to affect a small number of shared gene programs that regulate SMC transition phenotypes in human coronary SMCs, and signal to neighboring ECs to modulate a coordinated response to vascular stress. We will investigate this hypothesis with the following Aims. In Aim 1, we will perform in vitro CRISPRi screens in human coronary artery SMCs to identify candidate causal genes in CAD associated loci, and map their convergence onto shared gene programs. In Aim 2, we will further study the CAD genes identified in Aim 1 with classical in vivo gene targeting in mouse models, focusing on those that affect SMC phenotype and communication to neighboring EC. In Aim 3, we will perform in vivo perturb-seq in ECs on the background of SMC-specific Smad3 KO to investigate the crosstalk between SMCs and ECs. Together, these studies will provide an unprecedented advance toward understanding the mechanisms by which CAD genes expressed in SMC mediate disease risk directly through regulating phenotypic transitions, and indirectly through mediating SMC-EC crosstalk."
+ },
+ {
+  "id": "13c1dd3c-730e-488d-b960-58d77e38157d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identifying and understanding drivers of chemoresistance in small cell lung cancer",
+  "text": "Small cell lung cancer (SCLC) patients tend to respond remarkably well to chemotherapy, but, through largely\nunknown mechanisms, chemoresistance rapidly emerges. We found that single gene perturbation of\nchemosensitive patient derived xenograft models of SCLC can confer switch to chemoresistance and we took\nadvantage of this finding to perform in vivo functional screens. This proposal is focused on understanding a\npathway that emerged from our screens that, when suppressed, potently drive SCLC chemoresistance in vivo."
+ },
+ {
+  "id": "13c372b1-bec5-459b-9b6d-2f9303926bef",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Regulation of Repair Responses in the Lung by Fatty Acid Oxidation",
+  "text": "Recently it has been identified that in IPF, one of the main characteristics is the loss of alveolar epithelial\ntype II stem cells (AT2), with the concurrence appearance of transitional AT2 cells, an undetermined aberrant\nalveolar epithelial. We have identified a decrease in the expression and activity of CPT1a, a limiting regulator of\nfatty acid oxidation (FAO), which results in increased transitional AT2 stem cells without reaching a terminal AT1\ndifferentiation, consequently decreasing the resilience against lung fibrosis. In this grant, we will address for the\nfirst time the functional role of FAO, one of the critical mitochondrial metabolic pathways."
+ },
+ {
+  "id": "13c3957f-bed5-46e3-b765-da14c7f16687",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Direct, large-scale perturbation and mapping of protein function in human cells",
+  "text": "CRISPR tools have enabled highly-scalable and multiplexed genetic screens in human cells to\ninterrogate how genes function and work together to drive human biology and disease. To date, no\nequivalent method exists to interrogate and map protein function with the same scale and precision. We\npropose to develop a powerful technology that enables precision, multiplexed, and high-throughput\nperturbations to proteins in human cells, and to use the resulting technology to understand how critical\nsignaling proteins, called G protein-coupled receptors, work together to modulate immune cell functions\nin cancer."
+ },
+ {
+  "id": "13cd742b-aca5-4c85-afad-dc418015750d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "K23 Resubmission - Impact of adoptive T cell therapy on immunity to SARS-CoV-2 after bone marrow transplant",
+  "text": "The proposed research will study whether infusions of T cells targeting the SARS-CoV-2 virus are safe and\neffective in restoring immunity in patients who have undergone bone marrow transplant. It will additionally study\nways to produce T cells targeting SARS-CoV-2 that will function even in the presence of immunosuppressive\ndrugs that interfere with T cell function. This application outlines an experimental plan, mentorship team, and\ntargeted didactics that will provide the candidate with the experience and support needed for her to attain\ngraduated research independence by the end of the award period."
+ },
+ {
+  "id": "13d33f9d-de67-4815-818c-fc8ba5a3de39",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Neurodiagnostic, Proteomic, and Metabolomic Investigations into Down Syndrome Regression Disorder",
+  "text": "Down Syndrome Regression Disorder (DSRD) is a devastating neuropsychiatric condition causing an acute or\nsubacute onset of bradykinesia, catatonia, delusions, hallucinations, mutism and loss of ability to perform\nactivities of daily living. The proposed five-year research plan will comprehensively evaluate neurodiagnostic,\nproteomic, metabolomic, and cytokine-mediated abnormalities which will reveal the underlying\nneuroinflammatory mechanisms to this disease. Using machine-based learning, this study will also seek to\nperform advanced predictive modelling using the comprehensive data sets generated which may aid clinicians\nin the choice of therapeutics for DSRD in the future."
+ },
+ {
+  "id": "13d35208-b606-47f3-a4ff-863ade825d75",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Enhancing Dulce Digital with CGM-driven Personalization, Peer support, Gamification, and Engagement (EDGE) to Improve T2D Self-Management",
+  "text": "Although continuous glucose monitoring (CGM) systems have become widely available, there is limited\nresearch on its impact in health outcomes of non-insulin using adults with T2D, which comprises 75% of the\nT2D population in the US. This study will evaluate the effectiveness of the EDGE platform, an enhanced digital\nhealth intervention that integrates real-time CGM, personalized messaging, and virtual peer health coaching to\nimprove clinical and patient-reported outcomes among non-insulin using adults with T2D in a primary care\nsetting. By leveraging digital health technologies and proven digital diabetes education, multimodal data will be\nanalyzed using statistical and machine learning methods to identify behavioral patterns and predictors of\nglycemic improvement to transform diabetes self-management, optimize care delivery, and support sustainable\nhealth system performance."
+ },
+ {
+  "id": "13d3a003-ae25-4f7f-b788-a6e7e92cc479",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Role of Inflammation in Knee Osteoarthritis",
+  "text": "Symptomatic knee osteoarthritis is a prevalent and disabling condition that has few effective\ntreatments that alter the natural history of the disease. Intra-articular inflammation manifesting\nas synovitis is an important phenotype and potential treatment target. This proposal seeks to\nbetter understand the role of synovitis in osteoarthritis pain, progression and treatment."
+ },
+ {
+  "id": "13da6f32-087f-4595-812c-f3325dc9608e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Off-the-shelf iPSC-Derived Natural Killer Cell Immunotherapies for AML",
+  "text": "We have developed a novel off-the-shelf therapeutic (called FT538) using a triple gene modified induced\npluripotent stem cell that can be differentiated and manufactured into hundreds of doses of highly active natural\nkiller cells that can be targeted with antibodies or chimeric antigen receptors to treat acute myelogenous\nleukemia. We will test the best way to use this knowledge in first-in-human clinical trials with the goal of making\nthe treatment off-the-shelf for easy and feasible export to the cancer community."
+ },
+ {
+  "id": "13e5e38c-4e7d-4ba9-9e8c-5e03cb2210d5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Histopathology & Tissue Shared Resource",
+  "text": "HISTOPATHOLOGY & TISSUE SHARED RESOURCE: PROJECT SUMMARY The Histopathology & Tissue Shared Resource (HTSR) is the Georgetown Lombardi Comprehensive Cancer Center (LCCC) resource for accessing human tissue for translational research and provides comprehensive, high-quality laboratory and interpretive pathology services. The HTSR collects and distributes fresh, frozen, and formalin-fixed, paraffin-embedded tissues and select biofluids from 15,440 patients; provides technical and pathology support for investigator-driven collection protocols; and offers complementary services to LCCC Members in DC and NJ. The facility is Co-Directed by Brent Harris, MD, PhD, who oversees services and provides comprehensive pathology services in DC, and David Kar-Fai Chow, MD, who oversees Hackensack Meridian Health’s (HMH) Biorepository (BioR) and provides comprehensive pathology services in NJ. The HTSR facilitates discovery and innovative cancer research by collecting and distributing high-quality, clinically annotated human tissue and liquid biospecimens for translational research projects across the Consortium. The DC facility also provides comprehensive histology services including tissue processing, paraffin and frozen section microtomy, staining, immunohistochemistry (including quantitative multiplex), immunofluorescence, as well as tissue microarray (TMA) construction, staining and interpretative analysis. Research consenting and specimen collection processes were revamped in NJ which has helped expand and diversify the biospecimen resources available to LCCC Members. The DC and NJ facilities provide clinicopathologic expertise that complements LCCC biomedical informatics services, clinical and pathology database search capabilities, consultation services, and educational support and training for users. In response to user surveys, investigator feedback, guidance from the HTSR Advisory Committee , and External Advisory Committee recommendations since the last CCSG review, the HTSR expanded services to include quantitative automated brightfield and immunofluorescence image analysis, immunophenotyping, miRNA in situ staining, enhanced tissue microarray (TMA) construction, and newly acquired molecular platforms to support spatial biology applications (RNAscope, Nanostring GeoMx, Akoya Phenocycler, and Standard Biotools IMC). The HTSR works cooperatively with the Genomics & Epigenomics SR, Tissue Culture & Biobanking SR, Survey Recruitment & Biospecimen Collection SR, and the Mass Spectrometry & Analytical Pharmacology SR to prepare human and animal model tissues and cultures for downstream molecular analyses. In FY2022 the HTSR provided services to 37 LCCC Members across all three Research Programs (15 Cancer Cell Biology Members, 20 Cancer Host Interactions Members, and 2 Cancer Prevention and Control Members). In the current project period, HTSR’s impact is demonstrated through support of 54 peer-reviewed publications, including 14 papers published in high-impact journals such as Molecular Cancer Therapeutics and Cancer Research. The HTSR also provided critical support that enabled the success of 63 extramurally-funded research project grants, and 29 clinical trials."
+ },
+ {
+  "id": "13f0cc10-df90-4bca-b2fa-4f7a84c3181b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Deep Learning-Based Treatment Planning for PSMA RPT",
+  "text": "The goals of this project are to develop AI-assisted predictive models of dosimetry in 177Lu-PSMA radiotherapy\nof metastatic castration resistant prostate cancers. We aim to develop deep learning-based models to predict\ntumor and healthy tissue dosimetry, with the goal of creating a tool that may be used to personalize treatment\ndoses and allow for dynamic dose replanning."
+ },
+ {
+  "id": "13f2aec4-0189-4507-8696-a9b363fe48a7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mentoring Patient-Oriented Research Leveraging Bioinformatics to Study CV Risk in Rheumatic Disease",
+  "text": "Rheumatoid arthritis (RA) is the most common autoimmune inflammatory arthritis worldwide and carries a 1.5-\n2-fold increased risk of cardiovascular disease (CVD) compared to the general population. The goal of this\nproposal is to train new investigators in patient-oriented research (POR) studies in the rheumatic and\nmusculoskeletal diseases, with a focus on RA and CV outcomes. In parallel, this proposal will provide training\nin state-of-the-art bioinformatics methods that can support POR and clinical epidemiologic studies."
+ },
+ {
+  "id": "13f31175-be56-4c71-a854-0cf3841644c5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting Emotion Dysregulation to Reduce Suicide in People with Psychosis",
+  "text": "People with psychotic disorders are excluded from most suicide-focused clinical trials despite incredibly high rates of\ncompleted suicide, and interventions that have been tested for this population have shown limited impact on suicide.\nEmotion dysregulation is a significant suicidogenic factor that is understudied in people with psychotic disorders. We\npropose to implement and evaluate an intervention targeting emotion dysregulation in people with psychotic disorders\nwhile employing rigorous statistical modeling and measurement techniques including Ecological Momentary\nAssessment, which will support future advanced research on suicide and suicide prevention for this high-risk group."
+ }
+]

@@ -1,0 +1,142 @@
+[
+ {
+  "id": "b191bb99-567c-40c5-b4bf-e95d344fecd5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "EXPAND-PC: Expanding Prostate Cancer Screening and Improving Delivery of Preventive Services in Community Settings",
+  "text": "Prostate cancer remains a leading cause of cancer-related death among men in the United States, and declining screening rates raise concerns about delayed detection of aggressive disease. This project will evaluate a community-based intervention designed to improve access to prostate cancer screening, support informed decision-making, and address specific challenges that may interfere with preventive care. Findings from this study may inform scalable strategies to improve early detection, strengthen community engagement, and reduce the burden of prostate cancer."
+ },
+ {
+  "id": "b19342b2-ebd7-4236-a09f-1c51795a7c98",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Human iPSC-Derived Chimeric Antigen Receptor Macrophages to Modulate Inflammation and Combat Tau-Induced Pathology",
+  "text": "Neurodegeneration in Alzheimer's disease stems from a complex combination of misfolded proteins and\nassociated inflammation, with minimal therapeutic progress beyond slowing inevitable disease progression.\nImmune cells have been repurposed as highly effective therapeutics for cancer and autoimmunity through\ngenetic engineering, but their application for treatment of neurodegenerative disorders is largely unexplored.\nHere, we will implement genetic and cellular engineering to produce macrophages capable of engulfing\npathogenic protein and simultaneously disrupting inflammatory cascades at the site of disease pathology."
+ },
+ {
+  "id": "b19a892d-39aa-4260-9682-fb919e19f67d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multimodal analysis and therapeutic targeting of aberrant nucleocytoplasmic compartmentalization in FUS-related neurodegenerative disease",
+  "text": "During the prior funding, we demonstrated that expression of amyotrophic lateral sclerosis (ALS) and\nfrontotemporal dementia (FTD)-linked forms of fused in sarcoma (FUS) leads to deficits in nucleocytoplasmic\ncompartmentalization, including mislocalization of nuclear transport factors, impaired nucleocytoplasmic\ntransport and nuclear abnormalities in human stem cell-derived neurons, ALS/FTD mouse models of FUS and\npost-mortem ALS tissues. We propose a comprehensive investigation into the role of FUS loss- and gain-of-\nfunction mechanisms in disrupting nucleocytoplasmic transport and the structural properties of the nuclear pore\ncomplex. These studies will also define the effects of FUS dysfunction on RNA expression, localization and\nstructure in human neurons, in addition to exploring inhibition of protein kinase C as a therapeutic approach to\nmitigate FUS dysfunction in neurodegenerative disease."
+ },
+ {
+  "id": "b1a6a92c-bdd0-4328-8323-a710746b63e1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "ComEngmt-Otrch Core",
+  "text": "Artificial intelligence (AI) is transforming society by enabling advances in computer vision, natural language processing, and several areas of biomedical research. Some modern AI models have become so powerful they have been dubbed “Foundation Models.” Unfortunately, rehabilitation researchers and people with conditions that limit mobility have yet to see much benefit from modern AI, and no foundation model exists for rehabilitation. Our Center for Foundational Artificial Intelligence for Rehabilitation (the FAIR Center) will establish a vital research program to enable rehabilitation scientists to apply state-of-the-art AI to diagnose, monitor, and improve the outcomes of rehabilitation. We have created a large-scale, high-quality dataset of movements and rehabilitation outcomes, the FAIR Dataset, and tools to automatically integrate data from many research studies, which is vital for the field and the research we propose. Through our Community Outreach and Engagement Component we will: 1. Increase awareness of the Center and its resources among thousands of researchers, people with lived experience, and health providers through webinars, conferences, and community events. 2. Accelerate the AI-enabled rehabilitation research of 150 individuals through multi-day, in-person workshops. 3. Host a nationwide conference focused on the use of AI in rehabilitation to collectively advance the field and seed partnerships between Medical Rehabilitation Research Centers, people with lived experience, researchers, and clinicians from diverse disciplines. 4. Develop diverse communication channels to effectively promote the Center’s resources. 5. Create and maintain vibrant consortia that engage researchers, health providers, and people with lived experience to maximize the impact of our resources in targeted rehabilitation areas. By providing high-quality software tools, data, and AI models, the FAIR Center will enable collaboration of unprecedented scale between bioengineers, clinicians, computer scientists, people with lived experience with mobility-limiting conditions, and others focused on rehabilitation. Our training efforts will create a new generation of rehabilitation scientists who are fluent in the strengths and challenges of AI. Our Center will be run by a tightly integrated clinical and engineering team, enabling us to appreciate the goals of people with lived experience, recruit participants to our studies, and rapidly create and share valuable new technology. Together with the FAIR Center community, we will achieve the potential of AI to understand and improve human movement, and increase ability for people with osteoarthritis, cerebral palsy, and many other conditions."
+ },
+ {
+  "id": "b1b204a9-e91d-47c2-8dfc-85baffff7c45",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Refining Oxytocin Therapy for Pain: Context is Key",
+  "text": "Intrathecal oxytocin is in clinical trials as an opioid alternative for chronic pain treatment. Our work in mice\nsuggests that coupling intrathecal oxytocin with manual therapies (i.e. massage) optimizes the analgesic\nproperties of oxytocin. This project provides the framework to support this combination therapy by concentrating\non the spinal cord circuit mechanisms by which oxytocin alleviates pain."
+ },
+ {
+  "id": "b1b22c94-dc82-414c-9f0c-73b8cb0ce8bf",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Corneal stromal keratocyte modeling from human cornea organoids",
+  "text": "Cornea transplantation is often the only cure for corneal injury, scarring and conditions like keratoconus, but\nlimited supply of donor tissue is a major concern. Cell therapy for the corneal stroma, still under development,\nprimarily uses limbal stem cells from donor corneas. To develop donor tissue-independent treatments, we\ngenerated cornea-like organoids from re-programmed somatic cells that we will test as a source of therapeutic\ncells and tissue and a model system to identify factors for future anti-scar drug developments."
+ },
+ {
+  "id": "b1b33ca7-2dc4-4be2-8400-9417b9848c45",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Computational 3D pathology for Barrett's esophagus risk stratification",
+  "text": "Relevance to public health\nThis project will develop a non-destructive assay for prognostication of patients with Barrett’s esophagus based\non machine-learning analysis of 3D pathology datasets of endoscopic biopsies. This project will demonstrate\nthat computational 3D pathology is superior to existing 2D pathology methods for risk stratification of Barrett’s\nesophagus biopsy specimens, and especially for distinguishing between aggressive and indolent dysplasias\n(pre-cancer). Therefore, this project has value for guiding critical treatment decisions by gastroenterologists\nand patients."
+ },
+ {
+  "id": "b1b3b92a-dae0-42d5-8735-5606178ef4ca",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Systems Biology of Shape and Size Regulation",
+  "text": "Understanding the genetic control of organ shape and size, as well as whole-body proportions, is crucial for\ndevelopment, regeneration, and homeostasis. This project will create a new systems biology framework to\nuncover the molecular pathways and their interactions that govern tissue growth dynamics in multicellular\norganisms. The results of this study will significantly enhance our understanding of human development and\nregeneration, paving the way for innovative treatments for birth defects, traumatic injuries, and cancer."
+ },
+ {
+  "id": "b1b4be23-584f-4305-b31e-0e4de4ed912c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A Biomechanocompatible Small Molecule Releasing Scaffold for Bladder Augmentation",
+  "text": "In patients that have abnormal urinary bladders caused by birth defects, trauma, or disease, novel regenerative\nengineering techniques that are successful in creating new bladder tissue for replacement therapy will be\ninvaluable. Current strategies to regenerate bladder tissue have failed and are hampered by several problems\nincluding inadequate development of new blood vessels to the regenerated tissue, tissue innervation, poor\nbioscaffold design, and animal models that lack significant anatomical and physiological similarities to their\nhuman counterparts. This proposal seeks to take advantage of a cell-free bladder tissue regeneration\napproach, elastomer chemistry, and the implementation of a non-human primate model of urinary bladder\ntissue regeneration to address these problems in order to improve upon current tissue engineering techniques\nto make successful regeneration of bladder tissue a reality."
+ },
+ {
+  "id": "b1b5ffa5-00e9-45b8-aa56-a414f3651e14",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Implementing a team-based care model to increase cervical cancer screening uptake in low-resource primary care settings",
+  "text": "Cervical cancer is almost entirely preventable with tools like screening, yet its burden continues to be high,\nparticularly among populations with limited medical access who are served by rural and federally qualified health\ncenters (“low-resource primary care settings”). This proposal aims to increase cervical cancer screening uptake\nin low-resource primary care settings by engaging the interprofessional team of primary care providers, medical\nassistants, and nurses to select and adapt existing evidence-based strategies into a team-based care model and\npilot it in their practice context. This study will result in a team-based care model specifically designed to address\nthe contextual challenges and increase cervical cancer screening uptake in low-resource primary care settings,\nultimately helping all populations live longer, healthier lives by reducing the cancer burden."
+ },
+ {
+  "id": "b1ba6a5b-0e87-456f-adaf-bb9552eaf6c0",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Core C (Human iPSC Core)",
+  "text": "SUMMARY/ABSTRACT (CORE C) Variants in APOE exert profound and diverse effects on Alzheimer’s disease (AD) risk, functioning as strong genetic drivers or as protective modifiers. While the risk hierarchy of APOE isoforms (ε4 > ε3 > ε2) has been extensively studied, recent discoveries highlight rare protective variants—Christchurch APOE3R136S, Jacksonville APOE3V236E, and APOE4R251G—that reduce AD susceptibility. In addition, common ancestry-specific variants, such as those enriched in African ancestry, appear to mitigate the deleterious impact of APOE4. Defining the mechanisms by which these variants promote resilience is essential for developing novel therapeutics. Core C builds on extensive infrastructure from the prior grant cycle, including a well-characterized collection of 162 iPSC lines representing APOE genotypes generated from deeply phenotyped patients, and through precise isogenic editing. These iPSCs can be differentiated into relevant human brain cell types—neurons, astrocytes, microglia, vascular mural cells, and cerebral organoids—that both secrete APOE and model disease-relevant pathways. Using these resources, Core C will define how rare and common APOE variants influence molecular and cellular function in both cell-autonomous and non-cell-autonomous contexts. Core C will serve as a centralized hub with specialized expertise in iPSC engineering and differentiation to provide a high-quality, consistent, and renewable source of iPSC lines and derived cells to Projects 1–4, the other supporting Cores, and the broader research community. In close collaboration with the Administrative Core (Core A), Human Biospecimen Core (Core B), Multi-Omics Core (Core D), and Bioinformatics, Biostatistics, and Data Management Core (Core E), Core C will accelerate mechanistic discovery of APOE resilience pathways, provide indispensable resources, and enable therapeutic development. Together, these efforts will illuminate how APOE variants shape AD risk and resilience, advancing the field toward precision interventions."
+ },
+ {
+  "id": "b1bc400d-9bf8-464d-a719-0bcd3761bff2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "SCH: Speech-based Technologies to Detect and Improve Interprofessional Team Behaviors in Cardiac Surgery",
+  "text": "The proposed research is highly relevant to the mission of the NHLBI because it addresses communication and \nteamwork failures during cardiac surgery, which is a major contributor to preventable adverse events in \ncardiovascular care. By developing AI technologies that automatically identify ITBs and provide personalized \nformative feedback to surgical teams, this project seeks to improve team performance, patient safety, and the \nquality of cardiovascular care. The proposed work aligns with NHLBI's Strategic Vision by advancing innovative \ntechnologies that enhance healthcare delivery, optimizing implementation and clinical research aimed at \nimproving patient outcomes, and generating new knowledge about the behavioral and organizational factors \nthat influence cardiovascular health."
+ },
+ {
+  "id": "b1bc4e9a-f840-43d3-9278-fef2c30c4338",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting mitochondrial oxygen demand to overcome hypoxic immune privilege of NSCLC tumors",
+  "text": "Non-small cell lung cancer (NSCLC) is a highly aggressive disease with dismal prognosis due to treatment\nresistance and disease recurrence. Immunotherapy targeting PD-1 immune checkpoint or its ligand PD-L1 (PD-\n1/PD-L1) is an established first-line treatment for NSCLC, yet long-term disease control occurs in less than 25%\nof patients. Because evidence shows that the typically hypoxic nature of NSCLC tumors contributes to their\ntreatment resistance, we propose to investigate the role of tumor hypoxia as a modulator of immune privilege in\ntreatment-refractory NSCLC tumors."
+ },
+ {
+  "id": "b1bc84fa-5233-4a0b-95e7-54fde46c4810",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Understanding environmental mitochondrial health",
+  "text": "Mitochondrial function is fundamental to health, and many pollutants are mitochondrial toxicants. We\nwill define key mechanisms of mitochondrial toxicity that cause cellular dysfunction, characterize novel\nbiological pathways that protect against mitochondrial toxicity and mitochondrial DNA damage, and test\nhow genetic differences alter the response to mitochondrial toxicity caused by environmental\nexposures. This work will help protect the general public, and in particular individuals with genetic\nsensitivities, against the many important environmental pollutants that affect mitochondria."
+ },
+ {
+  "id": "b1bcb2f3-6264-40a1-a4fd-2e6ec2466fb1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development and translation of a novel radiotracer to image alpha-1 adrenoceptors using positron emission tomography for use in imaging posttraumatic stress disorder",
+  "text": "Exposure to extreme stress, such as life-threatening combat, activates stress-response systems that release a\nchemical messenger called noradrenaline into the brain and bloodstream. Noradrenaline activates portions of\nthe brain that regulate emotions, alertness, heart rate, blood pressure, and stress hormones in preparation for\na fight or flight response by binding to receptors on neurons, a process that is much like inserting a key into the\nignition and turning it to start an automobile. Persistent or untimely signaling by noradrenaline is understood to\ncontribute to posttraumatic stress disorder (PTSD) and its symptoms such as difficulty getting or staying\nasleep, nightmares of threatening events, or heightened alertness to potential threats even when none are\npresent. Prazosin, a drug that blocks noradrenaline from binding to its receptors, can be effective in treating\nPTSD-associated nightmares. This project seeks to develop a new brain imaging technology that will allow\nscientists to see where noradrenaline acts in the brain, and hopefully lead to better treatments for PTSD."
+ },
+ {
+  "id": "b1bdd086-1954-44e8-9871-8b7d6f1e5b5f",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Bone Marrow Grafting and Cellular Therapy for Leukemia and Lymphoma",
+  "text": "Our goals through this highly interactive Program Project Grant are to develop a more\nfundamental understanding of transplantation biology and cellular therapeutics through a\ncombination of preclinical models and extension to novel well constructed clinical trials."
+ },
+ {
+  "id": "b1c1b678-b221-48c9-a5df-ddfc33aa3c01",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Feedforward-feedback integration in the posterior parietal cortex",
+  "text": "The integration of sensory and cognitive information streams is critical for complex behaviors. While the\nbreakdown of this interaction is thought to underpin numerous neuropsychiatric disorders, our understanding of\nhow individual neurons combine sensory signals with cognitive inputs remains limited. Here, we propose a\ncomprehensive experimental and computational approach to determine the principles guiding pathway\nintegration in individual neurons, establishing the foundation for future basic and translational research."
+ },
+ {
+  "id": "b1c2d98e-6620-4f83-a082-88496a6dac98",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular Mechanisms of Auditory Transduction",
+  "text": "We will elucidate the most fundamental event in hearing: the conversion of a sound-induced mechanical\nstimulus into an electrical signal by the receptor cells of the inner ear. We will use a combination of biochemical,\nphysiological and computational methods to understand how the mechanical stimulus is transferred from\nlinking proteins, PCDH15 or LHFPL5, to an ion channel protein, TMC1, and to understand how the stimulus\nopens the ion channel in order to generate the electrical signal. This work will produce a fundamental\nunderstanding of one form of mechanosensation which can be applied to others such as touch, and will reveal\nmechanisms of pathophysiology caused by deafness-causing mutations."
+ },
+ {
+  "id": "b1cb02c1-5f99-482c-8363-c6cc716ec842",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Regulation of Presynaptic Gene Transcripts During Synaptogenesis",
+  "text": "Neuronal mRNA dysregulation is associated with neurodevelopmental diseases and axon defects, yet the roles\nand mechanisms of mRNA regulation in presynaptic assembly remain poorly understood. This project takes\nadvantage of the genetic accessibility and transparency of the nematode C. elegans to investigate mRNA\nregulation as synaptogenesis occurs in the living animal, focusing on the conserved essential presynaptic\nactive zone gene syd-2/liprin-alpha. Studying mRNA regulation in vivo using complementary high-resolution\nlive imaging and unbiased biochemical approaches will identify both the precise biological roles these\nprocesses play in synaptic function and identify novel regulators for future therapeutic targeting."
+ },
+ {
+  "id": "b1cbf3b3-1a37-43d6-bffb-ccfbdadc5e37",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Cancer Immunology",
+  "text": "The Cancer Immunology (CI) Program of The Tisch Cancer Institute (TCI) is comprised of 25 members whose common goal is to identify mechanisms underlying immune-mediated dysregulation in the TME and to develop novel approaches to overcome immune suppressive pathways. The CI membership represents 9 Departments and Institutes. As of 2024, CI program members were awarded $8.7 million in direct cost funding, including 26 multi-PI grants with 24 NCI grants totaling $4.1 million. From 2020-2023, the program published 356 papers of which 18.3% were intra- and 28.0% were inter- programmatic. 54.5% of published papers achieved an impact factor of >10. Thematically, the major scientific aims of the CI program are to 1. Characterize mechanisms underlying immune dysregulation in the TME; 2. Develop preclinical models to reverse immune dysfunction and restore immune balance, and 3. Validate correlates of response in cancer patients receiving immunotherapy. While the role of T cell dysfunction is well acknowledged, evidence is accumulating that the innate immune system is analogously hijacked to enable tumor growth. In this regard, CI Program members are focused on discovering and translating new mechanisms whereby the tumor microenvironment (TME) impacts the function of innate immune cells including macrophages, dendritic cells and NK cells, in addition to tumor-reactive T cells. Accordingly, the CI program prioritizes cancers that are directly relevant to our catchment area including breast, colorectal, liver, lung, and prostate cancers, in addition to multiple myeloma (MM). Program members identify genomic, molecular and cellular pathways underlying immune dysfunction in their respective TMEs. They apply preclinical model systems, CRISPR screens and human tumor lesions, to identify novel mechanisms/targets underlying immune dysregulation and prioritize targets of immunotherapy resistance/response ultimately tested in novel clinical trials in conjunction with the CCI (Cancer Clinical Investigation) program. Based upon their findings, CI members are developing scientifically based strategies that will improve and/or expand current immunotherapeutic platforms, and collaboratively identify immune biomarkers of risk and response to treatment. The overarching goal is to progress discoveries that are made into innovative clinical trials to test and validate proposed correlates of resistance and response. Finally, CI members work in partnership and inter-programmatically to develop novel clinically applicable immune targets to effectively control or eradicate cancers."
+ }
+]

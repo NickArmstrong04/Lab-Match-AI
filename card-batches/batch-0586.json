@@ -1,0 +1,142 @@
+[
+ {
+  "id": "43f12c2a-88b5-4f7a-b507-cefb1184bba7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Utilizing Radiation-Induced Multi-potency to Increase the Efficacy of Radiotherapy",
+  "text": "Relevance to Public Health\nThis proposal will study novel compounds against glioblastoma to induce neuron-like forced\ndifferentiation in response to radiation. The overall goal is to improve the efficacy of radiation\ntreatment for glioblastoma patients."
+ },
+ {
+  "id": "43f19584-2510-4db6-8b7e-4dfca5b56502",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanism of Skeletal Muscle Calcium Dysregulation in Myotonic Dystrophy",
+  "text": "Myotonic dystrophy is the most common dystrophy in adults, where muscle weakness resulting in respiratory\nfailure is the leading cause of mortality. This proposal studies the mechanisms responsible for muscle weakness\nwith focus on dysregulated calcium homeostasis and excitability. Results from this study will provide important\ninsight into understanding DM1 pathogenesis and lay the groundwork for development of future therapeutic\ninterventions."
+ },
+ {
+  "id": "43f37a38-41ce-4521-af21-a26202b68394",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Core C: MHC Genetic Typing Core",
+  "text": "Core C - MHC Genetic Typing Core: Project Summary Rhesus macaques (Macaca mulatta) are a vital non-human primate (NHP) model for the study of infectious disease and are in critically high demand for biomedical research studies. The expanded Specific Pathogen Free (eSPF) colony at the Oregon National Primate Research Center (ONPRC) is an essential resource for the production of model macaques free from an extended list of pathogens capable of confounding the study of human immunodeficiency virus and the related simian immunodeficiency virus (HIV/SIV) pathogenesis. These purpose-bred animals are crucial for meeting the growing demand for NHP research animals and to facilitate advancements in human health. Accurate and comprehensive genetic analysis of the eSPF colony is essential to its long-term health and the continued productivity in generating valuable research animals. Of critical importance is the genotyping of the major histocompatibility complex (MHC) which can strongly influence host response to infection and must be accounted for in study design and data analysis. MHC loci are highly polymorphic and structurally complex, requiring specialized assays and analysis procedures for accurate and comprehensive genetic characterization. The MHC Genetic Typing Core (Genetics Core) is responsible for genetic testing and analysis of the eSPF colony and works closely with individual investigators and the Husbandry and Management Core to ensure that research and colony management needs are met. Additionally, the Genetics Core assays genetic variation within the population using multiple metrics to promote adequate genomic diversity through the use of parentage confirmation, ancestry testing, and the genotyping of specific pathogenic variants or alleles capable of influencing pathogenic response. ONPRC is a leader in the development and use of genomic technologies in NHP research and the Genetics Core will utilize state-of-the- art tools and incorporate the use of novel resources to support the goals of the eSPF colony."
+ },
+ {
+  "id": "43f4e27d-3b02-4311-8d5d-fce27e0c840b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multilevel strategies to understand and modify the role of structural and environmental factors in HIV outcomes (LITE-2)",
+  "text": "Populations at elevated risk for HIV are disproportionately affected by the epidemic, yet little research has been powered to examine whether exposure to broader contextual factors drives these higher rates. In this study, we will establish a large nationwide cohort and follow them longitudinally to examine state- and local-level conditions associated with HIV seroconversion and access to emerging HIV prevention technologies (e.g., PrEP and ART). We will integrate established theoretical and evidence-based frameworks to identify modifiable targets for future interventions, with an emphasis on developing guidelines that can be integrated into the U.S. Ending the HIV Epidemic initiative to promote overall reductions in HIV and address key drivers of transmission risk"
+ },
+ {
+  "id": "43f86774-a3d1-4b89-b558-551ee9f4330e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identifying, Validating, and Characterizing Biological Subtypes of PsychiatricDisorders Using a Novel Computational Framework",
+  "text": "Newly available large-scale human neurobiological data offer an unprecedented opportunity for biologically-\ngrounded, data-driven stratification of psychiatric disorders—a major public health concern. The goal of this\nproposal is to develop and validate a novel computational framework for the identification, validation, and\ncharacterization of biological subtypes of psychiatric disorders using large-scale human brain imaging,\nphenotypic, and transcriptomic data, and to apply the framework to the study of autism. The framework\ndeveloped here can be extended to examine other psychiatric disorders and can enable the development of\nmore effective and precise diagnostic and treatment strategies for the disorders."
+ },
+ {
+  "id": "43ffdb00-4f72-4b67-9619-281d96cbe850",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Probing Alzheimer synaptopathy using genetically engineered human neurons derived from iPS cells",
+  "text": "We have made the unexpected finding that beta amyloid, which is largely considered to cause\nneurodegeneration in Alzheimer's disease, in fact promotes neuronal function by improving their communication.\nIn this proposal to renew our current grant, we propose to investigate the molecular and cellular mechanisms of\nhow beta amyloid affects neurons in this way."
+ },
+ {
+  "id": "44045813-7b90-4bac-8c81-8f830bd1e469",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Functional Characterization of  Novel Phage Satellites in Mycobacteria",
+  "text": "Phage Satellites, mobile genetic elements that depend on other phages to replicate and complete their\nlife cycle, are important players in shaping microbial evolution and influencing bacterial population\ndynamics. This project investigates newly discovered phage satellites called Extracellular Phage-\nInducing Particles (EPIPs) in Mycobacterium aichiense to understand how they express genes, interact\nwith helper phages, and spread across bacterial species. Understanding these unique biological entities\nwill advance basic microbiology and will inform new strategies for controlling bacterial infections and\nimproving phage-based therapies for pathogenic Mycobacteria."
+ },
+ {
+  "id": "4405ca76-d118-4923-8183-9cbe5867d9ee",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Determinants of intra- and inter-genomic mobility in eukaryotic genomes",
+  "text": "Eukaryotic genomes are not static, but can undergo re-shaping and restructuring due to the activity of diverse\ntypes of transposable elements, which can be transmitted both vertically, from parents to offspring, and\nhorizontally, between similar or distant species. However, we still lack full understanding of replication,\ntransmission and integration pathways for several major transposon types, especially those which could\nreorganize genomes by helping to bring in novel genes. This project aims to fill the major gaps in our\nknowledge of such mechanisms, which would help to develop new ways of introducing genetic material into the\ngerm line, and to understand the protective barriers that preserve genome integrity that is of paramount\nimportance to human health."
+ },
+ {
+  "id": "440b69bd-480c-40cf-9c94-a1ed76289855",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "MHC Typing Core",
+  "text": "Genetics Abstract The CNPRC has maintained a pedigreed colony of Indian-origin rhesus macaques for over 20 years. The SPF Pedigreed Indian origin rhesus colony includes both an SPF level 1 colony negative for Simian Retrovirus (SRV), Simian Immmunodeficiency Virus (SIV) and Simian T Cell Lymphotropic Virus (STLV), Herpes B virus (B virus) and an SPF level 2 colony free of three additional viruses including include rhesus cytomegalovirus (RhCMV), simian foamy virus (SFV), and rhesus rhadinovirus (RRV). All colony animals have had MHC typing for Mamu-A*01, Mamu-A*08, and Mamu-B*01, and the colony is managed to optimize genetic diversity. This proposal will expand the characterization of the Major Histocompatibility Complex (MHC) to include Class I (Mamu-A and -B) and Class II (Mamu-DRB, -DQA, -DQB, -DPA, and -DPB) loci. To genotype these markers, the U42 Genetic Typing Core will submit samples from our adult SPF rhesus macaques to the Genetics Services Unit at the WNPRC. The application proposes to. The four principal goals of this application are: Continue to expand the SPF Level 2 population relative to Level 1 while maintaining overall colony size. Develop improved and expanded screening and confirmatory tests for detecting SPF agents to facilitate the maintenance of the SPF colony. We will initiate annual surveillance for Trypanosoma cruzi in recognition of the expansion of the geographic range of this parasitic infection. This work includes new assays for agents such as tuberculosis, representing the first SPF agent. Maintain genetic analysis to determine the pedigree of Indian rhesus macaques born into the colony and test all adult breeders to characterize their Major Histocompatibility Complex (MHC) Class I (Mamu-A and -B) and Class II (Mamu-DRB, -DQA, -DQB, -DPA, and -DPB) loci. Continue collecting and storing intestinal microbiome and peripheral blood lymphocyte samples in a unique SPF Level 2 biorepository to facilitate future research projects investigating the interaction of HIV with the host microbiome and immune system."
+ },
+ {
+  "id": "440cd8f0-89a2-4a29-a8fb-48f42c7db537",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating the role of YeiE-induced sulfite response pathways in Salmonella adaptation to neutrophil stress",
+  "text": "Non-typhoidal Salmonella enterica serotypes cause over one million human infections each year in the United\nStates alone, posing a major food safety and public health burden. This work will define transcriptional\npathways that promote Salmonella survival in the face of sulfites, which are reactive sulfur species generated\nby activated neutrophils. In the long term, understanding sulfite resistance in Salmonella may uncover similar\nsurvival mechanisms in other clinically important bacteria, offering novel strategies for combating human\npathogens with global health relevance."
+ },
+ {
+  "id": "441c40fb-98e2-422b-8beb-22ff9177ed8c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "NAMs for Clinical Translation of Therapeutics for Systemic Gynecology Diseases",
+  "text": "The NAMs Technology Development Center for Women’s Health (TDC-WH) brings together a\nteam of academic and industry experts, spanning genetics, epidemiology, steroid hormones\nmetabolism/endocrinology, bioinformatics, clinical gynecology and pain, computational systems\nbiology, quantitative system pharmacology (QSP), and microphysiological systems (MPS) to\ncreate NAMs that will lower the barriers for pre-clinical studies and planning clinical trials in\ntreating endometriosis, adenomyosis, heavy menstrual bleeding and polycystic ovary syndrome\n(PCOS). At the same time, anticipating that drugs developed for these purposes require\nstandard preclinical testing for safety and metabolism, the team will develop protocols and\nreagents and computational programs to create sex-specific NAMs, with a focus on liver NAMs\nas the site of major prior issues in clinical translation. The reagents and microfluidic platform\ntechnologies developed in this project will be moved into the commercial space in collaboration\nwith end users and vendors who support them with technology."
+ },
+ {
+  "id": "442a15ea-436e-4f06-8cdc-ea030c045bde",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Training Clinical Scientists in Radiological Imaging",
+  "text": "The UC San Diego Department of Radiology is submitting a competitive renewal of its postdoctoral training\nprogram that focuses on developing clinician-scientists through a year of laboratory research followed by 32\nweeks of protected research time during the subsequent 4 years of residency training. This program trains\nradiologists to become clinical-translational research faculty, who ultimately can be competitive for NIH grant\nfunding, industry collaboration and entrepreneurship. Trainees will be supported by 12 radiology and 12 non‐\nradiology mentors that together have 103 active grants and over $28M in grant support (current year funding)."
+ },
+ {
+  "id": "442d49af-7abb-4b5c-8684-e799befb41e5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Characterization and functional impact of somatic numtogenesis in the human cortex",
+  "text": "Human genomes contain notable variation in nuclear mitochondrial insertions (numts), both between\nindividuals but also as a form of somatic mosaicism across different tissues. These insertions have been\nimplicated in alteration of cellular function and more recently their accumulation has been associated with age\nof death. This proposal seeks to study the impact of numts by developing and deploying innovative sequencing\ntechnologies and computational approaches to identify somatic variation of numts in the cortex and across\nother human tissues to understand their prevalence and potential function."
+ },
+ {
+  "id": "442f4ede-94e6-4df5-8fc0-3d8d101081a6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Systematically Investigate Anti-Cancer Drug’s Modulation on T Cells in Tumor Microenvironment",
+  "text": "The goal of this project is to systematically identify anti-cancer drugs that can enhance T cell\nactivities in tumor microenvironment and synergize with immune checkpoint blockade (ICB) therapy. We\nhypothesize that a comprehensive transcriptomic profiling of pharmacological or genetically perturbed T cells,\ncoupled with an exploration of their interactions with tumor cells, will unveil the anti-cancer drugs that can prime\nT cells for enhanced ICB treatment benefits. Our three specific aims encompass in silico screening of drug\ncandidates, single-cell CRISPR KO screening of drug targets, and integration of pharmacological and genetic\nscreens to identify novel drug combinations to overcome immunotherapy resistance in cancer."
+ },
+ {
+  "id": "4437e6f4-ef64-4dc3-a993-7018767217c2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Contribution of cell-specific activity to functional MRI",
+  "text": "The intrinsic or ‘background’ activity of the brain is essential for normal function and influences perception,\nbehavior and cognition. It is dominated by a few spatiotemporal patterns, but little is known about the\nmechanisms that organize brain activity into these patterns, so we have developed innovative multi-modal\ntechniques to test hypotheses about how these patterns arise. The patterns of intrinsic activity are altered in\nnearly every psychiatric and neurological disorder, and the work we propose will help us to understand these\nalterations for the purposes of diagnosing, evaluating, and treating dysfunction in the brain."
+ },
+ {
+  "id": "443c4891-9e22-4278-94c5-429aa4b487de",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Testing senescence-targeting therapies to improve hematopoietic stem cell function and mobilization during sickle cell disease",
+  "text": "Sickle Cell Disease (SCD) is an inherited blood disorder that effects thousands of patients in the United States\nand whose pathophysiology places enormous stress on the bone marrow, damaging resident hematopoietic stem\ncells (HSCs, blood-forming stem cells) and driving them into a dysfunctional state of senescence. In promising\nproof-of-principle studies, we discovered that targeting damaged senescent HSCs can dramatically improve bone\nmarrow function during SCD. Here, we propose to explore the cellular mechanisms behind this gain-of-function\nand further optimize senescence-targeting therapy to both improve the health of individuals with SCD and\nimprove the safety of curative gene therapies for SCD that rely on collecting HSCs from these patients."
+ },
+ {
+  "id": "4441921e-11da-4cd1-9612-f2595ff50f28",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Long-term Impact and Value of Infant Genomic Sequencing (LIVING)",
+  "text": "Genomic sequencing at birth has great potential to improve health not only by identifying infants with\nundiagnosed genetic conditions, but also by providing information that allows families to prevent disease\naltogether and to make better medical care decisions. In order for newborn genomic screening to achieve its\npotential, medical and public health systems will need to adapt existing newborn screening programs, families\nand clinicians will need to adapt to information and manage findings over long periods of time, and labs will\nneed to reexamine genetic information to ensure findings are up-to-date with new knowledge. This study\nprovides critically-needed evidence that will inform how newborn genetic screening programs should be\ndeveloped and sustained to provide lifelong benefits."
+ },
+ {
+  "id": "445654f4-5944-465c-81c6-7ad55d5a3345",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Diffusion and Functional MRI Monitoring of Therapy Response in Alzheimer’s Disease Mouse Model",
+  "text": "This project investigates the ability of two advanced magnetic resonance imaging (MRI) methods\nto quantify the impact of a drug treatment on the progression of Alzheimer's disease pathology.\nThese methods, referred to as diffusion MRI and resting-state functional MRI, are sensitive to\nbrain tissue microstructure and brain functional connectivity, respectively. The ultimate goal of\nthis project is to establish better tools for supporting studies aimed at finding improved therapies\nas well as research into the causes of Alzheimer's disease."
+ },
+ {
+  "id": "445a4d02-090f-49ad-ab84-804bd39ac852",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "SMART-SEPSIS: Sequential MAchine learning for individualized Response to early Treatment in lung SEPSIS",
+  "text": "Among patients with severe lung infection, minimizing the time-to-treatment is crucial to\ndecrease the risk of respiratory failure and death. However, delays in treatment are frequent,\nand starting these treatments indiscriminately in patients with suspected lung sepsis is also\nassociated with risks. In this proposal, we will use data from the electronic medical records and\nartificial intelligence to build a clinical decision support system based on the predicted individual\nresponse to early treatment, with the goal of reducing morbidity and mortality in patients with\nsevere lung infections."
+ },
+ {
+  "id": "445d1091-ce8d-46c1-9569-6c79275b9167",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Alzheimer Disease Research Center",
+  "text": "Revised Overall Narrative\nThe principal goal of the University of Pittsburgh Alzheimer’s Disease Research Center (PITT-ADRC) is to perform and promote research that increases our understanding of the etiology and pathogenesis of Alzheimer’s disease (AD) and related dementias and factors that impact risk and resilience of those disorders in order to ultimately advance the goal of development and implementation of preventive therapies. The PITT-ADRC provides the infrastructure to investigate the mechanisms underlying cognitive and behavioral symptoms, and to develop strategies for effective early diagnoses and treatments of AD. We will accomplish this goal with our own research, involving investigators at the University of Pittsburgh and nearby institutions in clinical and basic research, and with collaborations with other national and international centers of excellence, in an environment that supports innovative research and enhances training and educational opportunities for patients, caregivers, students, scientists and clinicians."
+ }
+]

@@ -1,0 +1,142 @@
+[
+ {
+  "id": "958635c9-4fd3-4394-8d46-cba7a50fe998",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "SEMI-SIMOA: A Chip-scale Flow-based Single-Molecule Assay at the Point-of-Care using Semiconductor Technology",
+  "text": "A significant limitation of the current single-molecule assay (SIMOA) technology is its reliance on bulky\ninstrumentation and optics for automated sample preparation and high-sensitivity detection. This project seeks\nto advance the technology by creating a miniaturized SIMOA platform. This platform will seamlessly integrate\nthousands of microfluidic channels, sub-µm sized pores, and electrodes with detection readout circuits, all within\na millimeter-sized semiconductor chip. This allows for high-throughput counting of all immuno-complexes\nactivated by target molecules. Thanks to its compact design and portability, this device holds promise for near-\nbedside and Point-of-Care diagnostics in resource-constrained settings."
+ },
+ {
+  "id": "958ad54d-756c-49ab-a91f-86c966246816",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "AI-Driven Detection of Addiction-Like Reward Signatures Through Automated Multi-View Behavioral Analysis",
+  "text": "Current methods for analyzing reward-related behaviors in substance abuse and addiction research rely on\noutdated tracking technology and subjective human annotation, severely limiting our ability to understand the\nsubtle behavioral patterns that could reveal crucial insights about addiction mechanisms. This proposal will\nvalidate and further establish an automated behavioral analysis platform through a systematic investigation of\nreward-related behaviors during Pavlovian conditioning, using both supervised and unsupervised AI approaches\nto detect unique behavioral signatures that could advance our understanding of substance abuse mechanisms\nleading to more effective treatments."
+ },
+ {
+  "id": "958dbec1-8ac2-490e-97e2-2aed7dfa8128",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of phospho UBC9 in alcohol-associated liver disease",
+  "text": "Chronic alcohol consumption leads to hepatocellular injury, fat accumulation, and liver inflammation and\nsometimes leads to liver cirrhosis or hepatocellular carcinoma. We have found that changes in phosphorylation\nstatus of UBC9, an essential enzyme required for SUMOylation (post-translational modification), is associated\nwith altered inflammatory response and liver function. Our proposal aims to investigate how phospho UBC9\nmodifications in liver macrophages can be controlled and may provide a therapeutic target for alcoholic\nassociated liver disease."
+ },
+ {
+  "id": "95957eb2-94be-48c5-8b67-810b837c6701",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Early detection of bladder cancer through urothelial cell enrichment and DNA flow cytometry",
+  "text": "Bladder cancer is the sixth most common cancer in the United States, but current screening tests have low\nsensitivity, high cost, or require invasive procedures. My proposal will generate a non-invasive, low-cost\ndiagnostic workflow to detect bladder cancer, consisting of a novel method to enrich the cells that give rise to\nbladder cancer from voided urine and a flow-cytometry assay to detect tumor-specific DNA changes in those\ncells with high performance characteristics. The goal of this work is to improve outcomes of patients with\nbladder cancer through the early detection of their disease, when it can be cured without removal of the\nbladder."
+ },
+ {
+  "id": "95a6fb46-380f-4a06-b075-0a4a3e24c011",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Regulation of Hematopoiesis by the EZH2-PRC2 Complex",
+  "text": "EZH2 catalyzes tri-methylation on histone (H3K27) to mediate gene silencing. Overexpression or gain-of-\nfunction mutations of EZH2 are frequently found in human cancers. We propose to use a novel mouse model\nto study how EZH2 regulates stem cells on the balance between self-renewal and differentiation process."
+ },
+ {
+  "id": "95afa5b4-dbe4-4847-b96f-333b9819d146",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "From Resistance to Innovation: Towards Countering Asciminib Resistance and Designing Next-Generation Allosteric Inhibitors against CML",
+  "text": "Chronic myeloid leukemia is driven by an overactive BCR::ABL1 kinase whose activity can be\nallosterically inhibited by the asciminib, but resistance mutations can undermine its treatment efficacy.\nThis project will combine computational modelling and analyses with biochemical and cellular assays\nto 1) pinpoint how specific mutations disrupt asciminib binding or BCR::ABL1 allosteric dynamics, and\n2) provide lead compounds to help design new allosteric inhibitors for countering asciminib resistance.\nSuccessful candidates will extend the effectiveness of targeted therapy and offer durable treatment\noptions for patients with resistant CML or intolerance to existing drugs."
+ },
+ {
+  "id": "95b17231-b20c-4f0d-ad96-52d474a8cd91",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Genomic and Bioinformatic Core",
+  "text": "GENOMIC AND BIOINFORMATIC CORE – PROJECT SUMMARY The Genomic and Bioinformatic Core (GBC) will provide CNDD investigators with the resources, support, and training necessary for both data analysis, data sharing, and data interpretation. The overall objective of the GBC is to enhance the success of the CNDD investigators through high-quality support in state-of-the- art bioinformatics, biostatistics, and data management for CNDD research projects and pilot projects through mentorship and training and analysis execution, which includes assistance with study design, implementation, data collection, analysis, data publication and sharing, and future grant proposals. The hardware backbone of GBC computing capacity is a cluster with 200 CPU cores and 2 GPU cores distributed over 3 nodes with 346 GB RAM each. The software backbone consists of a suite of scientific programming environments, as well as compilers for all major programming languages, and in-house analysis pipelines are available for standard NGS sequencing analysis and single-cell multiomics. The GBC will host a Git repository (GitLab) for software-version control and data sharing to assist the CNDD JIs and their trainees with bioinformatic data sharing. The GBC will assist CNDD JI success thru the following Specific Aims: 1) Provide CNDD investigators with essential computation infrastructure for complex genomic and bioinformatic research approaches; 2) Provide CNDD Investigators with expert technical staff to carry out complex bioinformatic analysis of genetic, transcriptomic, and epigenomic data sets; and 3) Train and mentor CNDD investigators, their trainees, and the broader MUSC research community, in cutting-edge, bioinformatic data analysis of genetic, transcriptomic, and epigenomic data sets."
+ },
+ {
+  "id": "95b303bc-4942-43ee-8822-f13ce5f1d2fa",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular Mechanisms of Pathogenesis in Huntington’s disease",
+  "text": "Huntington's disease (HD) is a devastating degenerative brain disease for which no disease-modifying\ntreatments are available. The proposed research will broadly focus on understanding early mechanisms that\ncontribute to pathogenesis in HD and develop therapeutic strategies. Broadly the goals of the grant will focus on\nprotein quality control in the presence of mutant Huntingtin expression and how it impacts both DNA damage\nresponses and cell type specific epigenomics and RNA biology in multiple systems."
+ },
+ {
+  "id": "95b30c4b-cd09-44d2-b1b5-696997d8ea4b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Neoantigen-specific T cell responses for Fibrolamellar Hepatocellular Carcinoma",
+  "text": "Fibrolamellar hepatocellular carcinoma (FLC) is a rare cancer of children and adults that has no standard or\neffective treatment options. The overall goal of our project is to study a novel cancer treatment vaccine developed\nfor FLC, in combination with other drugs that work on the human immune system. Using samples from the clinical\ntrial and samples from other patients with this rare cancer, we will study mechanisms of response and resistance\nto immunotherapy in this cancer."
+ },
+ {
+  "id": "95b9f798-5b57-4a2e-9374-f874f84020bc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Center for Cancer Systems Therapeutics (CaST)",
+  "text": "The proposed Center for Cancer Systems Therapeutics (CaST) will seek to perform systematic, single-cell-level elucidation of stable cell states and state transitions in tumor-related cells and in their tumor microenvironment (TME) to identify and target complementary dependencies leading to mechanism-based combination therapy trials. This will provide a more holistic understanding of the fundamental steps underlying tumor initiation and progression and of the critical mechanisms that can be targeted pharmacologically to transform cancer treatment. Critically, we have shown that the Systems Biology framework developed by CaST Center investigators can effectively generalize to virtually any tumor of interest leading to highly innovative, biomarker-based interventional trials, thus accelerating progression from biological analysis to cures."
+ },
+ {
+  "id": "95beaa1c-16db-4b02-a852-ee3493ca8f13",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Epigenetic Regulation of Diapause in Culex pipiens: The Roles of H3K27me2/3 and H3K27ac",
+  "text": "Seasonal dormancy, or diapause, enables Culex pipiens mosquitoes to survive winter and serves as a critical\nmechanism for the overwintering of vector-borne pathogens like West Nile virus. This project investigates how\nopposing histone modifications, H3K27 methylation and acetylation, regulate gene expression programs that\ncontrol metabolic suppression, ovarian arrest, and environmental resilience during diapause. By identifying and\ncharacterizing the epigenetic regulators of diapause, this research aims to uncover novel molecular targets for\nseasonally timed mosquito control strategies, potentially reducing vector populations before peak transmission\nseasons and advancing public health efforts against mosquito-borne diseases."
+ },
+ {
+  "id": "95c3a927-9a89-4d56-a44d-b28bf51f4f2f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Enabling comprehensive and user-friendly circular RNA analyses with circtools.cloud",
+  "text": "Circular RNAs (circRNAs) are highly relevant for public health due to their implicated role in many different\ndisease settings and their potential as powerful biomarkers owed to their stability. This project will empower\nresearchers to perform comprehensive computational circRNA analyses without requiring bioinformatics\nexpertise by developing a modern, scalable, web-portal allowing them to improve human health at the forefront\nof genomics. These proposed advances are essential to perform robust circRNA analyses that are currently\nimpossible due to missing infrastructure, computational expertise, or access to datasets."
+ },
+ {
+  "id": "95c4a33a-4bea-41cf-9431-edcc81594893",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Bioanalytical and Biospecimen Core",
+  "text": "Bioanalytical and Biospecimen Core – Abstract This is a new Biomedical Research Core that was created through our ongoing center evaluation process and needs assessment. As part of this assessment, Center Members indicated that they wished to have available (1) a bioinformatics service and (2) a human biospecimen biobank/repository. Therefore, after obtaining important and appropriate institutional support to develop this new Core. The Core contains 3 Facilities, including a Bioinformatics Facility, a Biospecimen Facility, and a Biostatistics Facility (this Facility is the same as the previous “Clinical Component”). Enthusiasm about this new Biomedical Research Core is high for several reasons. First, as evidenced by our ongoing self-evaluation process, the new areas are extremely important to our members, and the new services will clearly add value to our members. Secondly, the development of this new Core clearly demonstrates our commitment toward improvement of the Center. An additional major strength of this new Core is that it is expected to encourage interaction of clinically based and basic science investigators – and thus, it is also anticipated that this new Core will support and encourage collaboration of investigators within the Center. Finally, by providing additional opportunities in digestive disease research, it is expected that this Facility will help further expand the Center’s membership. The new Core includes 3 Specific Aims as follows: 1) To provide DDRCC Members with essential computational infrastructure to carry out complex bioinformatic research approaches by providing investigators with expert technical staff to execute bioinformatic analysis of genetic, transcriptomic, and epigenomic data sets, and by training and mentoring DDRCC Members and their laboratory members in these techniques. 2) Create a Biospecimen Facility specifically curated for MUSC DDRCC themed research. 3) To provide statistical expertise and support for DDRCC members. In summary, this new Core is a unique resource restricted to Digestive Disease researchers that will provide services critical to the mission of the MUSC DDRCC to advance in particular, translational and clinical research focused on digestive and liver diseases."
+ },
+ {
+  "id": "95cb640e-4f17-4e97-a756-6e24e5ecea26",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Leveraging biobank-scale whole-genome sequencing for polygenic risk prediction",
+  "text": "Polygenic scores offer the promise of empowering precision medicine by assessing individual-level risk of\nheritable diseases based on a personal genome. This proposal aims to develop and apply methods that\nincrease accuracy of genetic risk models by analyzing whole-genome sequencing data from population\nbiobank data sets. The methods to be developed will incorporate structural variants and blood-derived somatic\nmutations not currently considered by existing approaches and will allow analyses of genome-wide SNP and\nindel variants to scale to hundreds of thousands of sequenced individuals."
+ },
+ {
+  "id": "95d0efc7-2f1c-4c6c-b6f7-5d58a339979b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Regulation of TLR trafficking for proper self versus non-self discrimination",
+  "text": "Inappropriate responses to self nucleic acids by immune receptors called Toll-like receptors (TLRs) can lead to\nautoimmune diseases such as lupus, psoriasis, and rheumatoid arthritis. What goes wrong to enable such\nresponses in certain individuals who develop disease remains unclear. This application focuses on the\ndiscovery of new mechanisms that when disrupted promote responses to self nucleic acids by TLRs and drive\nautoimmune disease."
+ },
+ {
+  "id": "95d27bef-a5de-447f-b3a0-d737115fee49",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting SARM1 as a Therapeutic Strategy for Autosomal Dominant Optic Atrophy (ADOA) and Leber Hereditary Optic Neuropathy (LHON)",
+  "text": "ADOA and LHON represent the two most common forms of inherited optic neuropathies, impacting\napproximately1 in 30,000 to 50,000 individuals each. Despite their prevalence, the lack of comprehensive\nunderstanding regarding their disease mechanisms has hindered the development of effective therapies. This\nproposal aims to investigate the role of SARM1 in retinal ganglion cell (RGC) degeneration in both ADOA and\nLHON, with the ultimate goal of developing a SARM1-based therapy."
+ },
+ {
+  "id": "95d92918-9dc5-4755-85a6-7c0a6d1a4e7f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Translation of a novel combination therapy approach for non-Hodgkin lymphoma",
+  "text": "PROJECT NARRATIVE .\nDiffuse large B-cell lymphoma (DLBCL) is the most common type of lymphoma with a very poor prognosis for\npatients who are diagnosed with relapsed or refractory (r/r) disease. Here we propose to test a promising\ntreatment approach combining a clinical stage intravenously administered oncolytic Vesicular stomatitis virus\n(VSV) with a novel dually targeted checkpoint inhibitor (ONIx) in dogs with r/r DLBCL, to guide clinical\ndevelopment of this novel combination therapy for patients with r/r DLBCL. Detailed analyses to characterize the\nimpact of combination therapy on the DLBCL tumor architecture and comparison of features of tumor\nmicroenvironment in responding versus nonresponding dogs will allow us to identify potential, clinically\nactionable biomarkers of response."
+ },
+ {
+  "id": "95df6005-52fd-4006-9021-d178d1d48ab1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dispersal biology of invasive Aedes aegypti mosquito populations",
+  "text": "Accurately estimating dispersal and population size of highly invasive Aedes mosquito species is an essential,\nbut particularly challenging, aspect of designing and optimizing effective vector control programs. Here, we\npropose (1) to determine genetic relatedness and effective population size of Aedes aegypti mosquito\npopulations in different environment and (2) to identify genes under selection in different environments. These\nresults are expected to have an important positive impact on improving invasive mosquito control capacity\nthrough improved understanding of invasive Ae. aegypti mosquito dispersal."
+ },
+ {
+  "id": "95e3b0ba-60a1-439e-b653-9dcd64b079c3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Gene dosage, synaptic neotony, and neurodevelopmental disorders",
+  "text": "The prolonged period of synapse development unique to humans – synaptic neotony – has emerged\nas a key timing checkpoint disrupted in numerous neurodevelopmental disorders. We will examine\nhow reduced or increased expression of the Retinoic Acid Induced 1 (RAI1) gene, leading to two\ndistinct neurodevelopmental disorders Smith Magenis Syndome (SMS) and Potocki-Lupski syndrome\n(PTLS), controls synaptic neotony in three dimensional cortical organoids derived from human induced\npluripotent stem cells (iPSCs). Following up on our preliminary studies, we will test whether this RAI1-\ndependent control of developmental timing is mediated by bi-directional changes in the Wnt signaling\npathway, thus providing a novel mechanism to target for the development of new therapeutic\napproaches for these disorders."
+ },
+ {
+  "id": "95e4109f-2925-41be-91be-cadbd8c73ce3",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Chemical approaches to interrogate endogenous cell-cell signaling peptides in disease",
+  "text": "Endogenous peptides are naturally occurring transmitter molecules that act as messengers to facilitate\ncommunication between cells. Because many human diseases are caused by a dysregulation of normal\ncellular communication, it is critically important for human health to fully understand these communication\npathways and to develop chemical tools to modulate them. This research develops chemical probes and\napproaches to interrogate the molecular mechanisms of peptide transmitters in disease, which will reveal new\ntargets for therapeutic intervention."
+ }
+]

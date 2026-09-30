@@ -1,0 +1,142 @@
+[
+ {
+  "id": "d3b7041b-736c-4d6b-aa20-c2d156cdb1d9",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Bioengineering core",
+  "text": "SUMMARY – CORE B Core B, the Bioengineering Core, will be directed by Dr. Zahi Fayad and serve all three Projects over all five years of the Program. The goals of the Core include: 1) Streamlining all therapeutic experiments by developing and providing trained immunity-inhibiting nanobiologics. 2) Facilitating the nuclear imaging projects by providing immuno-PET probes. 3) Ensuring the safe use and disposal of radioactive materials. The already developed nanobiologics and PET probes will be invaluable for the success of this Program Project. In addition, Core B’s strong chemistry experience will facilitate the development of additional nanotherapies and imaging probes as desired throughout this Project."
+ },
+ {
+  "id": "d3b7107b-b75e-4026-a56c-b871de12e932",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Functional, Phenotypic, and Evolutionary Significance of Human Genomic Variation",
+  "text": "Genetic variation arises from mutations that change the sequence or content of DNA between\nindividuals (germline mutations) or cells within our bodies (somatic mutations). The goals of this project\nare to better understand the functional, phenotypic, and evolutionary consequences of germline and\nsomatic variation in humans. These data are critical for delineating the genetic basis of disease, the\nevolutionary forces that shape extant patterns of genomic variation, and human evolutionary history."
+ },
+ {
+  "id": "d3c62520-27f3-4664-b418-41b8b9fe9f53",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular mechanisms of intersecting human telomeric functions",
+  "text": "Molecular mechanisms of intersecting human telomeric functions\nNarrative\nTelomeres are structures found at the ends of our chromosomes that are instrumental in ensuring the integrity\nof our genomes. This proposal aims to understand at a molecular level how human telomeres help maintain\nchromosome ends in different biological contexts, including in cancer cells, stem cells, and cells undergoing\nmeiosis. These studies will enhance our knowledge of how telomeres uphold genome integrity and help\ndevelop strategies to counter telomere dysregulation in human diseases like cancer and infertility."
+ },
+ {
+  "id": "d3ccefc4-a989-4c82-be96-b6e45eca084a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Novel vascular smooth muscle cell progenitors in development and disease",
+  "text": "Remodeling of blood vessels is a critical component of diverse vascular diseases. Recently, we \nidentified a pool of specialized progenitors in the walls of vessels in the lung that play a \ncritical role in this pathological remodeling, and initial studies suggest similar processes in \natherosclerosis. The proposed investigations characterize these progenitor pools, delineate the \nmechanisms underlying their regulation in the context of vascular disease and thereby, facilitate \nthe development of novel therapeutic strategies."
+ },
+ {
+  "id": "d3d01bcc-0ced-4646-b19b-fa85f411ac0b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Interpretable machine learning methods for the analysis of Alzheimers disease genetics",
+  "text": "The proposed research is relevant to public health because understanding sequence variations in the human\ngenome will provide insights into Alzheimer’s disease (AD) and assist in the development of emerging AD\ntherapies. The proposed methods will identify causal variants of AD and translate the discoveries into\nmechanistic insights and drug targets for the development of new AD therapies to improve human health.\nTherefore, this proposal is relevant to the part of NIH’s mission that pertains to fostering fundamental creative\ndiscoveries, innovative research strategies, and their applications as a basis for ultimately protecting and\nimproving health."
+ },
+ {
+  "id": "d3d38822-8f04-46c1-8db0-f16d369f317a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Chronic Mitochondrial Division and Melanoma: Mechanism, Prognosis, and Therapy",
+  "text": "Mitochondria within cancer cells display heterogenic genomic compositions, functions, and network\ndynamics. However, the causes and consequences of mitochondrial heterogeneity on cancer\ndevelopment, prognosis, and treatment remain unknown. Therefore, it is important to investigate these\npathways to understand how cancer occurs, and should be detected and treated."
+ },
+ {
+  "id": "d3d48ed0-e41a-4140-9e51-57a460ec0189",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "DNA damage response and repair of a broken chromosome",
+  "text": "Cancer cells that display profound genome instability have often lost their ability to repair\nchromosome double-strand breaks (DSBs) by the accurate processes of homologous\nrecombination; they also have lost their ability to activate the DNA damage response, which\narrests cell cycle progression. This proposal investigates the mechanisms of repairing DSBs by\nhomologous recombination and the interrelationship between DNA repair and the DNA damage\nresponse, primarily using budding yeast. This grant will also allow investigation of the poorly\nunderstood homologous recombination mechanisms that underlie the ability of the Lyme disease\nbacterium, Borrelia burgdorferi, to escape immune surveillance."
+ },
+ {
+  "id": "d3d5918b-c1e0-4e8e-8cad-08564db4e34e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Determining genetic mechanisms that drive in vitro hematopoiesis",
+  "text": "PROJECT NARRATIVE.\nMore efficient hematopoietic stem and progenitor cell (HSPC) generation from cultured induced pluripotent\nstem cells (iPSCs) would support translational research and cell therapies. Having identified Tropomyosin 1 as\na blood regulatory gene from human genetic data, we used iPSC and murine models to determine that\nTropomyosin 1 normally constrains HSPC production by modulating TNFa signaling. In this grant, we will\ndetermine the molecular basis for how Tropomyosin 1 regulates TNFa signaling to influence hematopoietic\ndevelopment and define its functional significance for blood cell derivation."
+ },
+ {
+  "id": "d3dff72f-3af6-40ff-b930-e4f50613f416",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "XAI-TRUST: Explainable AI Techniques to Rigorously Understand, Scrutinize, and Trust Clinical AI",
+  "text": "Complex, black-box machine learning (ML) models have become standard tools in biomedical inquiry and\nclinical medicine, and their opaque nature and consequent lack of interpretability gave rise to transformative\nexplainable AI (XAI) techniques. However, due to fundamental limitations, current XAI techniques provide only\na partial explanation of inner workings of clinical ML models. This project aims to address these challenges by\ndeveloping novel general XAI frameworks for medically relevant and computationally rigorous interpretation\nof clinical AI models and applying them to skin disease as an example."
+ },
+ {
+  "id": "d3f0d0a2-f56e-4fd0-80bc-737d0db091c4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Bypass Mechanisms in Eukaryotic Replication",
+  "text": "Chromosomes are duplicated by complex molecular machines called replisomes, which frequently\nencounter obstacles during DNA replication such as DNA damage, RNA:DNA hybrids, and\nnucleosomes, which are the basic units of chromatin that preserve epigenetic features across\ngenerations. Failure to preserve genomic information as it is copied is known to lead to a broad array of\nhuman pathologies; therefore, the candidate proposes to elucidate the molecular mechanisms of\nprocesses, collectively called damage tolerance, that allow replication through various obstacles on\nDNA while strictly enforcing genomic and epigenetic fidelity. The proposed research is poised to\nprovide critical insight into cellular processes that underlie reliable and accurate chromosomal heritage\nand is designed to add fundamental knowledge that enhances our ability to treat and/or prevent\ndiseases regulated by these processes."
+ },
+ {
+  "id": "d3f91ba7-9b21-494e-be15-f29045a8943d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms that Enhance and Suppress HIV-1 Resistance in Gene Edited Primary Human Cells",
+  "text": "Gene editing allows the potential of HIV patients to be cured by transplantation of a patient’s own blood stem\ncells after editing by deletion of required factors and addition of factors that inhibit virus replication. While\nstacking of these inhibitory factors in the primary infected cell, the CD4+ T cell, shows great promise there is a\nlarge variability in how efficiently the virus is inhibited. This proposal aims to understand the biology behind\nthe virus and the knock-in factors in relation to human-specific differences in these and other cells relevant for\ninfection in order to improve gene editing therapies."
+ },
+ {
+  "id": "d3fc9959-4b39-426e-ae76-378ae41b6a7b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Defining the role of Acss2 in T cell adaptation to metabolic stress",
+  "text": "Solid tumors create a nutrient-deprived and highly immunosuppressive microenvironment that limits the activity\nof cancer-killing T cells, preventing immunotherapy treatments from working fully. This study investigates the\nrole of acetyl-CoA synthetase 2 (Acss2), an enzyme induced by nutrient depletion, in regulating T cell function\nand longevity within the tumor microenvironment. This work is significant because it will elucidate the role of\nAcss2 in T cell adaptation to the metabolically stressful conditions of the tumor microenvironment and reveal\nnovel synergistic treatment strategies to improve the response rates of cancer immunotherapies."
+ },
+ {
+  "id": "d3fe1e5a-fcbc-4c9b-a858-75c7802ecc8e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Core E (Bioinformatics, Biostatistics, and Data Management Core)",
+  "text": "SUMMARY/ABSTRACT (CORE E) The complexity of multi-omics as well as cognitive/functional data generated by the Projects and Cores in this U19 application and the subsequent mandate for innovative bioinformatics and biostatistical analyses demand a dedicated Bioinformatics, Biostatistics, and Data Management Core (Core E). Core E will coordinate and perform all U19-related study design, data quality control and analytics, data/resource management activities, review manuscripts and resolve issues raised by reviewers. More importantly, Core E will take on the significant challenge of integrating and interpreting multi-omics and genotypic/phenotypic data to uncover molecular mechanisms and pathways driving age-related cognitive decline mediated by APOE. Core E will play a critical role in this proposed U19 program because it acts not only as the coordinator and synergizer between Cores and Projects to provide adequate analytic and data management support, but also as an investigative team to unveil the APOE-mediated aging mechanism using the multi-modalities and multi-omics datasets to be generated by the entire U19 program. Core E will ensure database, bioinformatics, and biostatistics integrity for study design and data analyses across the U19 program, and at the same time address the significant challenge of multi-omics data integration and interpretation by developing novel methodologies including the state-of-art machine learning and deep learning approaches. Core E staff have a track record of both extensive interactions/collaborations with the entire U19 team and independent investigations in aging and AD research, and are thus well situated to lead the database and analytic activities of the proposed U19 program as well as the search of APOE-mediated aging mechanism."
+ },
+ {
+  "id": "d413416a-0544-4b52-b529-f7ddc5cf643c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "mRNA-LNPs for ARDS",
+  "text": "Acute respiratory distress syndrome (ARDS) is an acute inflammation of the lungs, usually leading to 75,000\nannual US deaths, but several times that since the start of COVID-19, which can cause ARDS. In ARDS, any\nof several inflammatory stimuli cause the lungs’ air sacs to develop leaky capillaries and infiltration by white\nblood cells. Here we will deliver to these air sacs mRNA encapsulated in lipid nanoparticles, which will drive\nthe local expression of therapeutic proteins that will ameliorate both the capillary leak and deleterious white\nblood cells, potentially providing a new therapy for ARDS."
+ },
+ {
+  "id": "d4154417-18ae-4760-8a99-1c510f9dabfd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "AI-Driven Curation and Analysis of Immune-Related Adverse Events in Cancer Immunotherapy Using Secondary Immune-Oncology Databases",
+  "text": "This project aims to develop sharable AI-driven tools and models to curate and predict immune-\nrelated adverse events (irAEs) in cancer patients receiving immune checkpoint inhibitors (ICIs),\nleveraging a comprehensive Immuno-Oncology (IO) database with over 2,500 patients from\nGeorgetown Lombardi Comprehensive Cancer Center. By integrating a irAEs cancer registry and\nAI approaches, we will enhance the accuracy of curation and prediction of irAEs across cancer\ntypes for patients who received ICIs. External validation with data from Hackensack Meridian\nHealth John Theurer Cancer Center will ensure model generalizability, ultimately improving\nclinical decision-making and enabling personalized cancer treatment."
+ },
+ {
+  "id": "d41cc496-f0cd-45af-a12f-b7895f35fd56",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "TOX-driven CD8 T cell differentiation and dysfunction in tumors",
+  "text": "CD8 T cells are powerful immune cells that specifically recognize infected cells, and in some settings\ncancer cells, and eliminate them. However, CD8 T cells in cancer patients fail to eliminate cancer cells\nbecause T cells become hyporesponsive. We propose to understand the mechanisms that drive T cells\ninto cancer-induced hyporesponsiveness and test strategies to reprogram T cells into effective cancer\nkilling immune cells."
+ },
+ {
+  "id": "d41e5991-cde6-453f-8610-e773edbc5615",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Epigenetic regulation of the Meibomian gland in homeostasis and aging",
+  "text": "Meibomian glands prevent tear film evaporation by secreting an oily coating over the surface of the eye, and\ntheir decreased proliferation and shrinkage in aging is associated with evaporative dry eye disease that has no\neffective treatment. The overall goal of this grant is to uncover epigenetic mechanisms that maintain the\nMeibomian gland in homeostasis and are altered in aging; these studies have the potential to reveal new\ntherapeutic targets for aging-associated Meibomian gland dysfunction."
+ },
+ {
+  "id": "d4241196-a079-4d3a-9661-41ae07c873fe",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Developmental Funds",
+  "text": "The purpose of the Cancer Center Support Grant (CCSG) developmental funds is to provide services to further the University of Chicago Medicine Comprehensive Cancer Center (UCCCC) strategic goals, as well as interdisciplinary and inter-programmatic collaborations. Over the past five years, CCSG developmental funds have been used to support Pilot Projects, recruit new investigators, and develop new technologies both within existing Shared Resources and in creating a Developing Core. From 2018–2022, the CCSG investment of $1,716,629 yielded $33,969,766 in follow-on peer-reviewed funding, representing a return on investment (ROI) of 18.8 dollars for every dollar spent. This investment also resulted in 24 Pilot Project–generated publications, 10 (42%) of which were published in high-impact journals (impact factor ≥10). CCSG-support for 4 new investigators has enhanced the Clinical and Experimental Therapeutics (CET) and Cancer Prevention and Control (CPC) Programs. Recruitments include: (1) Mark Applebaum MD (CET), a pediatric physician scientist who focuses on neuroblastoma (NB) biology; (2) Akash Patnaik, MD, PhD (CET), a translational physician scientist working at the interface of laboratory-based investigations and early-phase clinical trials in prostate cancer; (3) Alex Pearson, MD, PhD (CET), a clinician/researcher focused on artificial intelligence and machine learning; and (4) Briseis Aschebrook-Kilfoy, PhD, MPH (CPC), an epidemiologist who develops and uses cohorts to investigate environmental contributors to cancer risk. New services supported within existing Cores included: further development of CRISPR/Cas9 technology in Transgenic Mouse Facility (TMF); enhancement of the radiochemistry program of the Imaging Chemistry Service Line within the Integrated Small Animal Imaging Research Resource (iSAIRR) Core; and building a user base for Helios mass cytometer (CyTOF) technology within Cytometry and Antibody Technology (CAT) Facility. In addition, CCSG Developmental Funds supported growth of a developing Core, the Organoid and Primary Cell Culture Research Core (OPCR) to contribute to interdisciplinary research. Over the next grant period, we are requesting $200K/year for: (1) recruitment of 1 new investigator/year ($60K/year); and (2) Program development and Program Pilot Projects ($140K/year). Intended investments will align with key areas of our Strategic Plan, including: (1) Expanding capacity for health communication research and implementation science; (2) Building expertise in drug development such as medicinal chemistry; (3) Enhancing tumor immunology, specifically immuno-engineering including development of synthetic biology and next generation cellular therapy capabilities; (4) Promoting adaptive oncology with clinical trialists focusing on innovative adaptive oncology trials; (5) Developing innovative cancer imaging approaches; (6) Enhancing cancer metabolism and immunometabolism research; (7) Building research in cancer epigenomics and epitranscriptomics."
+ },
+ {
+  "id": "d424b4e8-76dd-4164-9279-04216c66db1d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "FKBP5 AND CARDIAC ARRHYTHMOGENESIS",
+  "text": "Atrial fibrillation, the most prevalence arrhythmia, is a public health burden. The proposed work\nwill elucidate the function of a newly discovered protein FK506-binding protein 5 (FKBP5) in\nheart and how the FKBP5-deficiency in cardiomyocytes and fibroblasts promotes the\npathogenesis of atrial fibrillation."
+ },
+ {
+  "id": "d4297a32-4894-48e3-9544-878e13c7247a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Antiviral Factors restricting HIV in Systemic lupus erythematosus (SLE)",
+  "text": "Antiviral Factors restricting HIV in Systemic lupus erythematosus (SLE)\nProject Narrative\nThis project seeks to understand why HIV-1 infection is uncommon among individuals with systemic lupus\nerythematosus (SLE), a condition characterized by chronic immune activation. By examining how type I\ninterferon signalling and iron homeostasis influence HIV-1 replication in immune cells from individuals with\nSLE, this research will provide insight into naturally occurring antiviral mechanisms. Understanding these host–\nvirus interactions may inform future strategies to strengthen antiviral immunity in HIV and related infectious\ndiseases."
+ }
+]

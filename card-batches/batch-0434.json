@@ -1,0 +1,142 @@
+[
+ {
+  "id": "0d43fc16-5cd1-4d3b-950c-e65bdf39c850",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "CRISPRa-based rescue of sensorimotor deficits in the Scn2a+/- mouse model of autism spectrum disorder",
+  "text": "Relevance\nAutism spectrum disorder is a neurodevelopmental disorder that affects approximately 1% of the\npopulation, and is defined by social communication impairments, repetitive behaviors, and\nalterations in sensory and sensorimotor processing. This work will reveal how dysfunction in the\nautism-linked gene SCN2A disrupts sensory and sensorimotor processing in the brain, and will\ntest whether novel therapeutic methods that restore SCN2A expression to normal levels can\nrescue cellular, network, and behavioral alterations in a mouse model of Scn2a disruption. This\nmay enable development of novel therapies for severe genetic forms of autism."
+ },
+ {
+  "id": "0d4fcd16-e73d-4307-bd86-fe665c6f82ac",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Core A: Analytical and Medicinal Chemistry Core",
+  "text": "Project Summary – Analytical and Medicinal Chemistry (AMC) Core – Core A The overall goal of the new UC Davis CounterACT Center of Excellence is to identify and advance novel therapeutic strategies that, when administered as an adjunct to in-field standard-of-care (SOC) for acute organophosphate (OP) intoxication, will mitigate the onset and/or severity of long-term, adverse neurological consequences. Current medical countermeasures, which include the muscarinic receptor antagonist, atropine, combined with an oxime, to reactivate acetylcholinesterase and a benzodiazepine to terminate status epilepticus, do not sufficiently protect against the development of spontaneous recurrent seizures (SRS) and cognitive deficits unless administered in the first 15-min after exposure. Therefore, there exists an urgent need to identify novel therapeutic strategies that can be deployed at delayed times post-exposure to mitigate the chronic, adverse neurological sequelae of acute OP intoxication. There is also a critical need to identify quantifiable and predictive biomarkers that are suitable for evaluating potential therapeutics and that allow prediction of which patients are at increased risk of developing persistent seizure disorders and cognitive dysfunction and would most benefit from post-exposure treatment. The Analytical and Medicinal Chemistry Core (Core A) will function as an integral component of the Center by supporting and collaborating with all three Projects and the Neuroimaging Core. In general support of the entire Center, Core A will perform quality control and confirm the identity and purity of all commercially obtained key chemical resources and the threat agent diisopropylfluorophosphate (DFP). If necessary, compounds will be purified in-house before release to the Projects. Core A will further support the Projects by developing liquid chromatography–mass spectrometry (LC/MS) methods for the detection of antiseizure drugs, anti- inflammatories and neuroprotectants and their metabolites in plasma and tissues, and generate pharmacokinetic data to inform dose selection and demonstrate target engagement. Core A will use its medicinal chemistry expertise to synthesize small molecule probes and potential novel therapeutics as required by the Projects. Additionally, Core A will closely work with the Projects on the identification and quantification of biomarkers for seizure activity, neuroinflammation and changes in blood-brain-barrier permeability and their amelioration by potential therapeutics. Oversight and management of the Core will be provided by Core Lead, Heike Wulff, PhD, Professor of Pharmacology at UC Davis with broad expertise in pharmacology and medicinal chemistry; and Core Co-Lead, Jun Yang, PhD, Research Scientist at UC Davis, with extensive expertise in mass spectrometry and both global and targeted metabolomics, particularly lipid mediators. By providing analytical and medicinal chemistry expertise, and dedicated services of probe and reagent design, chemical resource verification, biomarker identification/detection and PK/PD analysis, Core A will ensure consistency, scientific rigor, efficiency, and reproducibility in research across the Projects of the UC Davis CounterACT Center."
+ },
+ {
+  "id": "0d53d657-bdb2-4ebc-bb2d-88b30f38151a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Statistical methods for analyzing messy microbiome data: detection of hidden artifacts and robust modeling approaches",
+  "text": "Human microbiome plays a critical role in the etiology and progress of many diseases.\nThis proposal explicitly addresses the hidden batches and biases in microbiome sequencing studies, two of the\nmost important challenges that impede our ability to make reproducible and trustworthy microbiome discoveries\nin large-scale microbiome studies. The proposed methods will be applied to ongoing microbiome studies to gain\na better understanding of the complex microbiome-relationship, laying the foundation toward microbiom-informed\ntreatment and prevention strategies."
+ },
+ {
+  "id": "0d570bd6-e5d9-4296-bbd2-ea2937387938",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "PIPKIgammai5 in the Immune Response to Head and Neck Squamous Cell Carcinoma",
+  "text": "The interferon-γ (IFN-γ) signaling pathway is essential for shaping the immunogenicity of head and neck\nsquamous cell carcinoma (HNSCC) and determining tumor responsiveness to immunotherapies. This proposal\ninvestigates the role of a phosphoinositide kinase in modulating IFN-γ signaling and regulating antitumor immune\nresponses in HNSCC. Targeting this kinase represents a promising therapeutic strategy to enhance tumor\nimmunogenicity and improve the efficacy of current immunotherapies for HNSCC."
+ },
+ {
+  "id": "0d591520-400f-4804-9319-f523df0f838d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Formation and Repair Mechanisms of DNA-Protein Cross-Links, and Functions and Regulatory Mechanisms of TREX1 in DNA Repair",
+  "text": "DNA-protein cross-links at 3′-DNA termini arising from apurinic/apyrimidinic sites that are induced by various\nendogenous and exogenous genotoxins, if not repaired, can have toxic effects and may lead to cell death.\nTREX1, the major human 3′ to 5′ exonuclease, has an unexpected role in processing DNA lesions at 3′-termini.\nWe propose to study the formation and repair mechanisms of these DNA-protein cross-links, and investigate the\nfunctions and regulatory mechanisms of TREX1 in DNA repair."
+ },
+ {
+  "id": "0d5b57d1-943b-4d73-99ed-c87fae70d428",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Determinants of cardioprotection by circulating prohibitin-1 during sepsis",
+  "text": "Sepsis is a very dangerous whole-body response to infection or trauma that often leads to death\ndue to overwhelming inflammatory and metabolic stress in critical organs such as the heart. In this project,\nusing genetically-modified mouse models and blood samples from sepsis patients, we will test the hypothesis\nthat a protein called PHB1 is released from the liver during sepsis and circulates throughout the body to protect\nthe heart from tissue damage caused by this stress. This work will lay groundwork for new clinical tests and\ndrugs that target sepsis-induced heart failure and other inflammatory diseases."
+ },
+ {
+  "id": "0d5d2de2-68c7-4d95-9649-7e45cea2c8ee",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Guadecitabine-directed immune regulation in targeting prostate cancer",
+  "text": "Despite considerable progress, prostate cancer remains the second leading cause of cancer-related deaths\nin American men. Immunotherapy has transformed the treatment landscape for many cancers, but its clinical\nbenefit is only marginal in prostate cancer patients. Therefore, we aimed to determine the significance of the\nhost immunity reconstitution following combination approaches of epigenetics editing and immunotherapy\ntargeting prostate cancer."
+ },
+ {
+  "id": "0d5f0722-960b-4efa-9dda-cd75ab92da53",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "2026 Intrinsically Disordered Proteins Gordon Research Conference and Gordon Research Seminar",
+  "text": "Intrinsically disordered proteins play key roles in human health and various aging-related and neurodegenerative\ndiseases. They also offer unique modes of functionality, including a high degree of environmental sensitivity and\nthe ability to self-assemble through multivalent interactions. The 2026 Gordon Research Conference (GRC) on\nIntrinsically Disordered Proteins will focus on revealing the link between disordered protein sequence and their\nfunction, to help uncover their roles in health and disease and develop tools for the design of functional\ndisordered proteins."
+ },
+ {
+  "id": "0d6155e7-f1f4-4d79-973d-6a9d4e6feb79",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Local regulation and deletion of T cells to induce tolerance and establish long-term survival of high-risk corneal transplants",
+  "text": "Corneal transplantation (>50,000 / yr.) is the most commonly performed solid organ transplant in the United\nStates. However, patients that suffer corneal blindness due to severe corneal scarring are poor candidates for\ntransplantation. The main goal of this investigation is to develop new combotherapy to locally control the\nimmune system and maintain corneal clarity which can be translated into clinical use for patients to restore\nnormal vision."
+ },
+ {
+  "id": "0d63af4e-4c38-4f2e-a220-d6015c200b1f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Integrating GPS, GIS, and Ecological Momentary Assessment to Determine the Effect of Home and Neighborhood Context on Adolescent Sleep",
+  "text": "Recommendations for addressing the high burden of insufficient sleep among adolescents largely focus on\nindividual-level factors (e.g. sleep hygiene), but the contribution of adolescents' larger environmental context to\nsleep health has been understudied. The proposed study will expand traditional approaches to assessing\nenvironmental effects on health by using advanced, spatiotemporal exposure assessment methods to\nunderstand how adolescents' home and neighborhood environments adolescents influence their sleep. This\nwork will provide foundational knowledge regarding adolescents' environmental risks that will lead to an\nimproved understanding of the determinants of adolescent sleep and development of an approach that can be\napplied across a wide range of modifiable health behaviors to inform preventive interventions and health\npolicies aimed at improving cardiovascular health across the lifespan."
+ },
+ {
+  "id": "0d713818-59db-42dd-bf4f-fdf112b4a952",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identifying neural circuits regulating entrance into REM sleep",
+  "text": "The proposed research is relevant to public health because appropriate regulation of sleep states is\nvital for quality sleep and is disrupted in many parasomnias. Understanding the neural mechanisms that\nunderlie REM sleep phenomena will inform how to develop effective treatments for sleep disorders, including\nnarcolepsy and REM-sleep behavior disorder. Thus, this proposal is relevant to the part of NIH’s mission that\npertains to fostering fundamental basic science discoveries, using innovative approaches, with the goal of\nultimately improving human health."
+ },
+ {
+  "id": "0d7640c1-b366-48e6-b966-7e5e6fe87f7f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Immunopathogenesis of Adenovirus Keratitis",
+  "text": "Adenovirus Is the most common cause of human eye infection; corneal inflammation from the\ninfection can persist and recur for years, even when the infection has resolved and the virus is no\nlonger present. We have identified a chronically altered inflammatory milieu in the post infected\ncornea, evident by the persistence of infiltrating immune cells and pro-inflammatory proteins. In\nthis application, we will explore the mechanisms of chronic corneal inflammation after adenovirus\ninfection in vivo, with the goal to develop evidence-based treatments to prevent vision loss."
+ },
+ {
+  "id": "0d76ae15-31c1-4d94-9534-1517ace6dff9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms and Therapeutic Role of C-terminus of Cav1.3 L-type Calcium Channel in the Heart",
+  "text": "L-type calcium channel (Cav1.3) contributes to cardiac function and contractility. Cav1.3 is\nnormally absent in the healthy adult ventricles but recently our group demonstrated that Cav1.3\ngene is re-expressed in the ventricles of patients with heart failure. Preliminary studies from our\nlaboratory demonstrated that Cav1.3 is truncated at its C-terminus portion which moves to the\nnucleus and causes an increase in its own gene expression thereby allowing more calcium\nentry into the heart. In this research, we aim at leveraging this C-terminus mobile property to\nenhance cardiac function and improve heart contractility in heart failure. The findings from this\nwork will have important therapeutic implications for Veterans suffering from heart failure."
+ },
+ {
+  "id": "0d7c7d6c-00bf-412f-8001-6af92370fa38",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "TCI Mentored Medical Student Summer Scholars (TCI-MMSSS) Program",
+  "text": "The overarching goal of the proposed Tisch Cancer Institute (TCI)-Mentored Medical Student Summer Scholar (TCI-MMSSS) Program is to inspire medical students to pursue careers in cancer research through engagement in an innovative, highly structured program of strongly mentored research projects and interactive curricular activities. Our program leverages institutional strengths in novel pedagogy and curricular innovation as well as the seasoned mentoring capacity and research expertise of the TCI Scientific Programs in Cancer Immunology, Cancer Mechanisms, Cancer Clinical Investigation, and Cancer Prevention and Control. Our outstanding cadre of exceptional mentors, enthusiastic pool of compelling students and academically rigorous and innovative training environment will accelerate the development of the next generation of MD physician scientists committed to meaningful and clinically impactful cancer investigation."
+ },
+ {
+  "id": "0d7e2e9c-dff7-47d2-8952-c068518dd69e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "SGK Regulation of Epithelial Sodium Transport",
+  "text": "The kidneys play an essential role in adjusting fluids and electrolytes and controlling blood pressure as we go\nthrough our daily lives and eat foods that might have huge amounts or very little salt ions like sodium and\npotassium. Our work will shed new light on how these systems work, and suggest avenues for treatment of high\nblood pressure, edema and electrolyte depletion."
+ },
+ {
+  "id": "0d80feeb-d28d-45c3-a713-4348454324af",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "University of Michigan O'Brien Kidney Translational Resource Center (MKTC)",
+  "text": "Chronic kidney disease (CKD) and Acute Kidney Injury (AKI) remain a major health\nproblem that causes substantial disability and premature death. The University of\nMichigan George M. O'Brien Kidney Translational Resource Center will provide\nresearchers the opportunity to utilize advanced technologies by providing the necessary\ninfrastructure and tools to improve care of patients with AKI and CKD. Through its\nresearch cores, enrichment activities, and community outreach, it will serve as a national\nresource for enabling new discoveries and enhance scientific progress supporting\ncutting-edge basic, clinical and translational kidney research."
+ },
+ {
+  "id": "0da26a76-213d-481e-9512-b3da9e3a869f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating how lifestyles selectively modify clonal hematopoiesis in atherosclerosis through immuno-metabolic reprogramming",
+  "text": "Clonal hematopoiesis modifies atherosclerosis, however, whether environmental factors, like\nlifestyle, modulated CH clonal dynamics and its associated atherosclerosis is unknown. Our\npreliminary data suggest that sleep and exercise selectively modify CH mutant cells and their\nimpact on atherosclerosis. We will conduct rigorous and causal experiments in mice to test how\nlifestyle modifies the immuno-metabolic programing of CH mutant cells, without impacting\nneighboring WT cells in the same tissue, to alter CH evolutions and its influence on\natherosclerosis."
+ },
+ {
+  "id": "0da44fdb-4a68-4306-aecc-106bdb483296",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Advancing Neurosymbolic AI for Smart and Trustworthy Healthcare",
+  "text": "A\nmechanisms\ndesigned\nkey component of trustworthy AI for clinical decision support is explainability the representation of t he\nunderlying AI systems' operation and the meaning of AI systems' output in the context of their\nfunctions We propose to develop Med-Scallop, an\n-\n. explainable neurosymbolic AI model for guiding\nclinical management and treatment selection using multi-modal electronic health record (EHR) data that can\nincorporate domain knowledge from healthcare providers to generate clinically meaningful, faithful\nexplanations. We will evaluate and validate Med-Scallop using both quantitative and mixed-methods\napproaches in clinical use cases in oncology and sepsis, using three large EHR databases collectively\nrepresenting millions of patients across the United States."
+ },
+ {
+  "id": "0da4ec92-da5b-49f0-8542-aea29ef36c91",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "varCUT&Tag: A Method for Simultaneous Identification and Characterization of Sequence Variants in Regulatory Elements and Genes",
+  "text": "Somatic sequence variants contribute to defects in tissue function and can lead to disease. Current methods\nfor identification of rare sequence variants often fail to identify variants in cis regulatory elements (CREs) and\nalso fail to determine the functional effects of each mutation. We will develop a new technology that fills both of\nthese gaps, allowing high sensitivity detection of variants in CREs and coding regions, while simultaneously\nannotating their effects on CRE activity."
+ },
+ {
+  "id": "0da70113-4e58-4de8-8e83-2c4c131556f0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Neural Operator Learning to Predict Aneurysmal Growth and Outcomes",
+  "text": "Diseases of the aorta (the largest artery in the body) are increasingly responsible for death and disability in the\nUnited States, but fortunately life-saving surgical procedures are available. Such surgeries need to be timed\nappropriately, however, because either premature or delayed surgery can increase risk to the patient. This\nresearch is novel and important for we will develop and validate a new computer model-based approach that will\nhelp surgeons to optimally time surgery, thus improving patient care."
+ }
+]

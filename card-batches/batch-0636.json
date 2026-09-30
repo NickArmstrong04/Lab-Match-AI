@@ -1,0 +1,142 @@
+[
+ {
+  "id": "55addfd9-cee5-40c3-b20a-906ff50eb1c3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Deciphering Networks Controlling DNA Amplification",
+  "text": "Gene amplifications are associated with a number of diseases. This application studies how chromatin factors,\nepigenetic states and nuclear organization impact DNA copy gains. Our studies will provide molecular insights\ninto copy number alterations, while identifying therapeutic targets associated with amplification driven diseases."
+ },
+ {
+  "id": "55b36452-6f87-4b70-9ccb-8c544fba2921",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Reduced Traumatic Lumbar Puncture Rates in Pediatric Oncology Patients Through Development of an AI-Assisted, Ultrasound-Based Interventional Guidance Platform",
+  "text": "Lumbar punctures (LPs) are frequently performed for the diagnosis and treatment of pediatric patients with\nacute lymphoblastic leukemia (ALL), and although traumatic LPs (TLPs) have been proven to negatively\nimpact patient outcomes, incidence rates of TLPs remain high due to the difficulty of the procedure in obese\nand infant pediatric patients. Although ultrasound guidance has been shown to improve success rates, broad\nutilization is limited by challenging workflow requirements and a lack of access to the training required to\nachieve competency in neuraxial imaging, and blind palpation remains the standard of care. The goal of this\nproject is to develop and validate an ultrasound-based pediatric LP guidance system that provides workflow\nintelligence to overcome barriers to ultrasound utilization, decrease TLP rates, and ultimately improve survival\noutcomes for pediatric patients with ALL."
+ },
+ {
+  "id": "55ba1de0-d2fe-4d35-a757-8e8d484c6372",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Leveraging Zika virus driven myeloid cell responses to treat GBM",
+  "text": "“Leveraging Zika virus-driven myeloid cell responses to treat GBM” Oncolytic viral therapy shows promise for high-grade solid tumors, but none have been shown to provide curative potential. This study explores the potential of harnessing the natural tropism of Zika virus (ZIKV) to target glioblastoma stem cells (GSCs) and reprogram the typically immune suppressive GBM tumor environment to an inflammatory, antigen-presenting environment that induces GBM-specific CD8+ T cell responses. The first goal of this proposal is to identify the cellular mechanisms that drive anti-tumor T cell responses following ZIKV treatment. Our research will examine the functional roles of two distinct myeloid cell subsets induced following ZIKV treatment - CCR2+ monocytes in the tumor microenvironment (TME) and dendritic cell subset-2 (DC-2s) in draining lymph nodes (dLN) - in driving anti-tumor T cell responses against GBM. Additionally, our study will examine the synergistic therapeutic potential of a highly novel Flt3 ligand therapy and ZIKV combination therapy as a strategy to activate both dendritic cell subset-1 (DC-1s) and DC-2, to maximize anti-tumor CD8+ T cell responses and subsequent GBM rejection. This research is significant because 1) it addresses the potential of ZIKV as an effective oncolytic virus for GBM treatment, 2) identifies key cellular mechanisms that contribute to its anti-tumor effects and 3) addresses the current failure of immunotherapy and maps a therapeutic path forward."
+ },
+ {
+  "id": "55c2b38a-6bfc-466d-919e-07576228bfbb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating the Role of High Fat Diet in Hematopoiesis and Clonal Hematopoiesis",
+  "text": "Clonal hematopoiesis (CH) has recently been discovered to be a premalignant condition that predisposes\npatients to developing malignancies like acute myeloid leukemia (AML) and myelodysplastic syndrome (MDS).\nThe mechanism by which CH transforms to MDS or AML remains unclear, and there are no curative treatment\noptions available for these conditions other than stem cell transplant which carries significant toxicity\nand mortality. My study will establish high fat diet (HFD) as an important factor to promote CH progression to\nblood cancers, and provide proof-of-concept that targeting HFD-induced pathways may be therapeutically\nbeneficial to prevent onset of severe blood diseases."
+ },
+ {
+  "id": "55c48070-4d47-4c2a-a14e-6dd6c91916ac",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting Specific ASIC Subunits and Heteromers Using Protein Engineering",
+  "text": "Acid-sensing ion channels are membrane proteins found throughout the brain and body that activate when\nextracellular pH becomes acidic. Targeting these channels for therapeutic purposes has been challenging but\nwe propose to solve this using protein engineering and functional testing. Our results will provide important\ninsights into basic channel function, how selective toxins interact with distinct types of ASICs and may produce\nnovel lead compounds for treatments of conditions such as peripheral pain."
+ },
+ {
+  "id": "55c65f17-948c-437f-b13c-a51c0a08aa75",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Bioinformatics Shared Resource",
+  "text": "The overall goal of the Bioinformatics Shared Resource (BISR) is to enhance AHWFBCCC’s infrastructure, enabling cancer researchers to maximize the use of comprehensive omics data in the big data era, and ultimately improve cancer therapeutics and patient outcomes. BISR is guided by the following Specific Aims: 1) Provide study design and data analysis in support of methodological-, computational-, and bioinformatics-related research: (1) Develop, apply, and advance state-of-the-art multiomics services; (2) Facilitate AI-driven multimodal data integration and federated learning; and (3) Enhance computational infrastructure and high-performance data analytics. 2) Collaborate on education and training activities: Provide guidance, instruction, and education to support research planning, grant development, and statistical and bioinformatics methods."
+ },
+ {
+  "id": "55c6a051-991d-4357-a477-88de40fc823f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Roles of p120-catenin in craniofacial development and disease",
+  "text": "Craniofacial abnormalities are among the most common birth defects, and these conditions often hinder the\nphysical and mental development of affected children. My project investigates the dynamic cell behaviors\nrequired for normal lip upper morphogenesis. These findings will better reveal the cellular and molecular bases\nof non-syndromic cleft lip and cleft lip seen in Blepharocheilodontic syndrome."
+ },
+ {
+  "id": "55cabbd9-2336-40c8-8810-0afdd2232b2c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Basic and Translational Science Core",
+  "text": "(Basic and Translational Science Core) The Basic and Translational Science Core is the major scientific core supporting the breadth of basic and translational research across the UCSF-Bay Area Center for AIDS Research (CFAR). This new encompassing Core is a product of our strategic planning process, which involved soliciting input from key stakeholders in the CFAR community. The Core consists of two continued and enhanced Sub-Cores including Immunology and Functional Genomics (formerly the Immunology Core) and Pharmacology of Cure and Pathogenesis (formerly the Pharmacology Core) as well as a new Bioinformatics Sub-Core. The Immunology and Functional Genomics Core broadens the focus of the prior flow cytometry-based Immunology core by adding both high- dimensional spectral flow cytometry and scRNAseq support. The Pharmacology of Cure and Pathogenesis core focuses pharmacology support on the needs of CFAR investigators for pharmacokinetic (PK) and pharmacodynamic (PD) studies for studies of potential cure interventions. The Sub-Core also provides tissue drug levels, and measurement of drugs and metabolites relevant to pathogenesis and co-morbidities. This enhanced focus complements the Biomarkers of Behavior Program in the Bio-behavioral Core, which measures antiretroviral drug levels in biomatrices for adherence research. Given the consistent need expressed by basic and translational investigators during our strategic planning process for bioinformatics support, we added a new Bioinformatics Sub-Core in the Basic and Translational Core to support investigators in computational high-dimensional data processing, analysis, visualization, and management of multi-omics data. Each one of our Sub-Cores is integrated not just administratively, but also functionally connected through well-attended bi- weekly “SCOPTIONS” (an interest group focused on HIV cure and inflammation) and monthly “Multi-Omics” (an interest group relevant to bioinformatics) work-in-progress sessions, which support early-stage investigators (ESI’s) in the basic and translational sciences across all our campuses and affiliates. These two interest groups also reinforce and grow community; spur multidisciplinary collaborations; and connect ESIs to core services, senior investigators, mentorship, specimens and data for pilot awards, and CFAR leadership. Finally, this Core is well integrated with the Developmental Core, through support of pilot awards and the CFAR Mentoring Program for our basic/translational ESIs; with the Clinical Core through the SCOPE cohort; and with the Bio-Behavioral Core through the Biomarkers of Behavior Program and the PrEP cohort. The Basic and Translational Core will also work closely with the other Cores to ensure efficient use of CFAR resources to address overall Center aims."
+ },
+ {
+  "id": "55cba8f9-8f00-45b9-89ba-1472a491a032",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "c-MYB overexpression for exhaustion resistant CAR-T cell therapies",
+  "text": "Therapeutic failures of CAR-T cells are in large part due to T cell exhaustion. This proposal is focused on\ndemonstrating the feasibility of NIH-patented technology US11098283B2, which will be licensed by LEAH Labs\nas part of the response to grant RFP NOSI NOT-NS-22-017, in generating CAR-T cells with enhanced anti-tu-\nmor functionality by overcoming exhaustion. Specifically, the ability of c-MYB to directly modulate transcrip-\ntional programs that promote stem-like memory T cell formation while limiting terminal differentiation will result\nin more effective CAR-T cell therapies."
+ },
+ {
+  "id": "55d50e3b-ac97-47ea-9885-53433b735458",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "T-helper 2-low pediatric asthma endotypes: omics, biomarkers, and clinical characteristics",
+  "text": "The most common chronic respiratory disease of childhood is asthma, a heterogenous syndrome driven by\ndifferent pathogenic mechanisms or “endotypes”. Although recent evidence suggests that T2LOW asthma\nendotypes are more prevalent than the T2HIGH asthma endotype in children, T2LOW asthma is poorly\ncharacterized and lacks targeted treatments due to inadequate diagnostic methods. The goal of this proposal\nis to improve diagnostic methods for and to better characterize clinical characteristics of T2LOW pediatric\nasthma endotypes."
+ },
+ {
+  "id": "55d682db-10e1-4dcc-9473-4d0bb483b316",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Leveraging a National Pediatric Health Learning System for Phenotyping Pediatric Chronic Primary Pain to Advance Timely Patient-Centered Care",
+  "text": "One in five children worldwide experience chronic primary pain, but many children are never referred for or receive pain treatment. To promote timely patient-centered care, we will leverage the infrastructure of the PEDSnet national pediatric learning health system to identify children with chronic primary pain from the electronic medical record. In prospective studies, we will identify children’s characteristics that predict health and pain outcomes across the continuum of pediatric care, and refine and evaluate a brief, patient-reported outcome measure to monitor patients’ overall perception of changes in response to pain treatments"
+ },
+ {
+  "id": "55d792a8-905a-4ccf-b397-d896875bf496",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Striatal Microcircuit Mechanisms of Tardive Dyskinesia",
+  "text": "Mental illnesses such as bipolar disorder and schizophrenia are most often treated with a class of medications\ncalled neuroleptics, which block dopamine signaling in the brain. Long-term treatment is often complicated by\nthe development of abnormal movements, such as lip smacking and tongue protrusion, termed tardive\ndyskinesia. This project will use brain recordings in a mouse model of tardive dyskinesia, to better understand\nhow dopamine and the brain cells it regulates cause involuntary movements."
+ },
+ {
+  "id": "55d7d193-d23a-45b3-a208-bfb131171da0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Childhood Asthma in Urban Settings Clinical Research Network - Leadership Center",
+  "text": "Asthma disproportionately affects children in urban communities in the United States and imposes a great\npersonal and health care burden. Despite treatment advances, a significant proportion of patients do not\nachieve disease control and continue to have high levels of morbidity and currently no intervention has proven\nto either prevent or cure this disease. By identifying and addressing these unmet needs in this application, we\npropose to improve current asthma care in urban children, pursue disease modification, and ultimately develop\neffective strategies to prevent asthma."
+ },
+ {
+  "id": "55d864f9-3931-43e0-889c-74b31b8c9b73",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of Growth Hormone and STAT2 in Modulating Neuroimmune Signaling and Mast Cell Recruitment in Neonatal Inflammatory Pain.",
+  "text": "Neonatal inflammatory pain is a significant public health concern with potential long-term neurodevelopmental\neffects. This proposal aims to elucidate how Growth Hormone signaling modulates neuroimmune communication\nthrough distinct transcription factors and signaling pathways, which is crucial for developing new therapeutic\nstrategies. By addressing these mechanisms, the research aligns with the NIH’s Federal Pain Research\nStrategy, prioritizing the understanding of childhood pain and its treatment."
+ },
+ {
+  "id": "55d874e2-b318-4d98-a554-ab402aa72377",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Proteomic Approaches to Understanding the Mechanisms Underlying Restless Legs Syndrome",
+  "text": "Restless legs syndrome (RLS) affects roughly 10% of people and can significantly disrupt sleep, resulting in an\nincreased risk of medical and mental health comorbidities including cardiovascular disease, hypertension,\nstroke, depression, and anxiety. This study will address critical components of the NIH-wide sleep research\ngoals by investigating the mechanisms responsible for the presence of RLS and identifying candidate\nbiomarkers providing a clinically available and objective measure to better diagnose and treat RLS. Results\nobtained from this study will provide insight into the mechanisms responsible for changes in RLS severity\nfollowing a non-pharmacological treatment approach and, therefore, will improve treatment and reduce the risk\nassociated with sleep deficiency, including concomitant disease and comorbidities."
+ },
+ {
+  "id": "55e2fdcf-9705-4e3b-b31e-811e0abea68a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Bromodomain and extra-terminal motif (BET) inhibitors in Solitary fibrous tumor (SFT)",
+  "text": "Solitary fibrous tumors (SFTs), historically sometimes called hemangiopericytomas (HPCs), are\nnonhereditary cancers which is a result of an environmental intrachromosomal gene fusion between NAB2 and\nSTAT6 on chromosome 12. We propose to systematically evaluate the in vitro and in vivo efficacy and\nspecificity of BET inhibitors against SFTs, and explore the underlying molecular mechanisms related to NAB2-\nSTAT6 fusions."
+ },
+ {
+  "id": "55ef4a55-350b-4738-b077-957136f1e253",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A systems-metabolism approach to identify mitochondria-dependent vulnerabilities in colorectal cancer",
+  "text": "PROJECT ABSTRACT/SUMMARY During tumorigenesis, mitochondrial function is altered by fusion/fission dynamics that control organelle structure and impact overall cell metabolism. Signaling from oncogenic RAS fragments mitochondrial tubules and causes metabolic changes that support tumor growth. However, the precise role of these oncogene- driven mitochondrial changes on cancer metabolism is unclear, especially when considering the diverse metabolic environments in which tumors develop. For example, colorectal cancer (CRC) initiates in the gut where the microbiota produces high quantities of short chain fatty acids (SCFAs) that are metabolized by normal colonocytes. During CRC tumorigenesis, mutations in the KRAS oncogene occur at the transition to adenomas, suggesting that mitochondrial adaptation in the gut may be critical for progression of primary tumors. And yet, the primary site of CRC metastasis is the liver, which provides a very different set of nutrients for metabolism and growth. Recognizing the complexity of metabolic networks both inside and outside a developing tumor, we propose a systems biology approach to examine the role of RAS-induced mitochondrial fission in CRC. Specifically, our objective is to identify metabolic adaptations that permit mitochondrially fragmented CRC cells to grow in the unique metabolic environment of the gut and metastatic CRC cells to grow in the liver. While the fragmentation of the mitochondrial network can impact tumor metabolism in multiple ways, we hypothesize that RAS-induced mitochondrial fragmentation leads to hyper- compartmentalization of specific metabolic reactions within the mitochondrial matrix that depend on low- abundance mitochondrial proteins. We predict that these adaptations create unique vulnerabilities in CRC cells as they switch from normal SCFA metabolism to promote biosynthesis and energy generation. The specific aims are to 1) curate a metabolic model of human CRC cells that incorporates the system-wide impact of mitochondrial fragmentation and the availability of microbe-derived SCFAs; 2) instantiate metabolic models of CRC with data characterizing in vivo metabolic states to assess impacts of gut microbiota metabolism and mitochondrial fragmentation; and 3) evaluate the impact of metabolic adaptations to mitochondrial organelle stress on CRC colonization and growth as liver metastases. Successful completion of this project will provide a better understanding of CRC metabolism that may one day point to dietary interventions or shifts in the gut microbiota that predictably influence organelle adaptation."
+ },
+ {
+  "id": "55effda7-fe61-4294-b836-d328afe7a382",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Whole Genome Sequencing for Genomic Evaluation and Risk Stratification of Patients with Myelodysplastic Syndromes",
+  "text": "The long-term goal of this project is to improve genetic profiling and risk stratification for patients with\nmyelodysplastic syndromes (MDS) using ChromoSeq, a CAP/CLIA-compliant whole-genome sequencing\n(WGS) assay. We propose to first optimize ChromoSeq for the detection of low frequency mutations, copy\nnumber alterations (CNAs) and copy neutral loss of heterozygosity (CNLOH), which are common events in MDS.\nWe will then use a prospective MDS cohort to establish the clinical validity of ChromoSeq for genomic profiling\nand risk assessment of MDS patients so that it may be used for future interventional clinical trials and routine\nclinical testing of patients with this malignancy."
+ },
+ {
+  "id": "55f46285-4a89-4d44-8af2-32450eae9a80",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Adolescent Insecticide Exposure and ADHD Risk: Mechanisms of Immediate Effects and Long-term Vulnerability",
+  "text": "Project Narrative and Relevance to Public Health\nInsecticides are ubiquitous in our environment and the general population is exposed through commercial use\nand the consumption of fruits and vegetables. Adolescent brain development is a sensitive process influenced\nby pubertal hormones during which exposures impact neurobehavioral functioning, including exposures to\ninsecticides in occupational and other settings. The research proposed here will advance our understanding of\nthe mechanisms and moderators of these effects by studying both adolescents occupationally exposed to\ninsecticides through working in agriculture and a translational mouse model of this exposure to examine brain\nmechanisms, which are the first steps to accelerate translation of scientific research into meaningful\nimprovements in human health, optimizing insecticide exposure policies, and developing interventions to protect\nthe brain health of youth."
+ },
+ {
+  "id": "55f59b34-9c2f-4d35-bacd-b80621114eb1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Spastic paraplegia, neurodegeneration and autism: possible role for AT- 1/SLC33A1?",
+  "text": "Genetic mutations as well as gene duplication events that disrupt lysine acetylation within the endoplasmic\nreticulum are all associated with similar neurodegenerative and neurodevelopmental defects. Here, we report\nthe successful generation of mouse models that reproduce the above human diseases. We also report novel\nmechanistic discoveries underlying the disease phenotypes. The long-term objective of this proposal is to\ndissect the molecular and biochemical mechanisms associated with the above diseases and explore\ntherapeutic strategies to prevent or rescue them."
+ }
+]

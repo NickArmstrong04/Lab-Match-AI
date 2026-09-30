@@ -1,0 +1,142 @@
+[
+ {
+  "id": "e6f4cdad-4f2b-46e9-96b5-df254317df6f",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Aquisition of new LC-MS/MS system",
+  "text": "LC-MS/MS is highly relevant to public health due to its exceptional sensitivity, specificity,\nenabling accurate detection and quantification of various biomarkers, contaminants, and\ntherapeutic drugs in biological and environmental samples. In research settings, it\nrevolutionizes areas like metabolomics, toxicology, and disease diagnostics, facilitating\nbiomarker discovery, drug development, and understanding complex biological\npathways. For education, integrating LC-MS/MS into Cleveland State University\ncurriculum will provide hands-on training in advanced analytical techniques, preparing\nfuture professionals for careers in clinical laboratories, public health, and research."
+ },
+ {
+  "id": "e6f51641-607b-44f9-a98a-0e6b1f0ffc72",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Evolutionary and drug resistance landscape of human tyrosine kinases",
+  "text": "Tyrosine kinases have broad roles in human disease that have led to the approval of 62 drugs, but we do not\ncomprehensively understand how genetic variation across the kinome affects kinase function or xenobiotic\nphenotypes. While current techniques allow us to comprehensively measure the effects of every possible\nmutation in a single gene, we still do not know how to scale residue-by-residue functional discovery to an entire\ngene family. Here we propose to combine experimental measurements across key family members and\ncomputational predictions that leverage the shared evolutionary and functional characteristics to create useful\nmeasurements and predictions of kinase variant effects in the presence and absence of approved xenobiotics."
+ },
+ {
+  "id": "e6f6c7c5-28f6-436a-b2f1-86576c4c2ec8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cancer Prevention & Control",
+  "text": "CANCER PREVENTION AND CONTROL PROGRAM: PROJECT SUMMARY The scientific goals of the Cancer Prevention and Control Program (CPC) are to help alleviate the burden of cancer by elucidating the biobehavioral underpinnings of cancer risk and response, motivating lifestyle and associated changes, and informing cancer care delivery and policy. Research falls under three integrated Specific Aims: (1) identifying risks associated with cancer causation and progression; (2) intervening to improve cancer outcomes and promote survivorship; and (3) conducting health services research to advise cancer practice and policy. This programmatic work addresses molecular and social determinants of health, and improves outcomes for cancers highly prevalent within the Catchment Area, including screening-eligible cancers. CPC is co-led by Laura Rozek, PhD, and Kenneth Tercyak, PhD, with complementary expertise in clinical science, molecular epidemiology, and health behaviors and outcomes. The recruitment of Rozek to CPC's leadership structure provides additional depth and strength in translating interventions to populations, and new opportunities for inter-programmatic partnerships with basic and clinical scientists. CPC includes 33 Members across 10 departments: 17 of these Members (52%) were recruited (13 strategically with 12 external, 1 internal) to the Program in the current cycle. During the reporting period, CPC benefited from $17M+ in strategic investments to extend its research portfolio. Georgetown University invested an additional $1M in physical space for the Program in Washington, DC. Hackensack Meridian Health invested an additional $3M in 6,000 sq/ft of new research space for the Program in Nutley, NJ. In April 2023, CPC holds $7.5M in cancer-focused, peer-reviewed funding, of which $5.6M (75%) is from NCI, $1.4M (19%) is from other NIH sources, and $0.5M (6%) derives from additional peer-reviewed agencies. CPC's total peer-reviewed funding is $7.5M (23% over 2018). Scientific leadership roles this cycle include 17 multi-PI grants, an FDA/NIH center for tobacco regulatory science, two NCI Cancer Intervention and Surveillance Modeling Network teams, an underserved Community Oncology Research Program grant, and six training-related grants (including a new NCI T32 in cancer population science) that enrich the overall mission and climate of the cancer center. In the current project period, CPC authored 348 cancer-relevant publications, of which 118 (34%) were intra-programmatic, 52 (15%) were inter-programmatic, and 12% were in high-impact (IF≥10) journals. CPC's influence has grown with the expansion of its leadership structure across the LCCC cancer research Consortium, the recruitment of highly talented early-stage and established faculty, a successful training program, and a substantial funding base. These transformations are accelerating the tempo of programmatic and interactive scientific discoveries, and deepen research impact in the Catchment Area. Moreover, they are driving LCCC’s ability to prevent and reduce cancer, enhance cancer survivors’ quality of life, and improve health outcomes."
+ },
+ {
+  "id": "e6f97e94-c329-448f-8e61-1f6f5fe259b1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular Physiology of Mitochondrial Calcium Uniporter",
+  "text": "Mitochondrial Ca2+ uptake plays an essential role in regulating ATP production, buffering cytosolic Ca2+,\nmaintaining redox homeostasis and triggering cell death; dysregulation of these Ca2+ uptake mechanisms has\nbeen implicated in several neuromuscular, cardiac and metabolic diseases. The proposed work utilizes\napplication of direct electrophysiological methods on the native mitochondrial membranes to study the gating of\nmitochondrial Ca2+ uniporter (MCU), the principal pathway for mitochondrial Ca2+ entry. This work will\npotentially identify novel molecular mechanisms that can be therapeutically targeted to modulate MCU activity\nin disease states."
+ },
+ {
+  "id": "e7016521-2733-4319-99fc-1031edd7a1f1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Leukotriene B4 Regulation in Heart",
+  "text": "Type 2 diabetes mellitus (T2DM) elevates the risk for life-threatening ventricular arrhythmias. We seek to utilize\ninnovative and comprehensive approaches to examine altered T2DM-related leukotriene B4 mechanisms that\npromote adverse electrical remodeling and propensity for arrhythmias. We expect our mechanism-based\nstudies to inform targeted therapies with significant implications for safer and more effective clinical\ninterventions."
+ },
+ {
+  "id": "e7024427-bcaf-496b-9724-4b6ea45df469",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Upgrading rigor and efficiency of germline cancer gene variant classification for the 2020s",
+  "text": "Since approximately 2010, the scale of clinical cancer predisposition genetic testing has increased\ndramatically; however, the ability to evaluate and classify DNA sequence variation reported from that testing\nhas not kept up. The difference between the rate of testing and the rate of sequence variant classification has\nresulted in a rapidly increasing number of sequence Variants of Uncertain Significance (VUS), causing\nproblems in patient counseling and management. Completion of the studies proposed here will improve rigor\nin the system used for evaluation of VUS in cancer susceptibility genes, enabling higher throughput VUS\nevaluation and improving confidence in the resulting classifications."
+ },
+ {
+  "id": "e7041592-522b-4672-ab14-09ab6dd9266b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Decoding the cellular and molecular mechanisms of epileptogenesis and disease progression in mTORopathies",
+  "text": "Dr. Yu Wang and his colleagues use both animal models and resected human tissues to study the cellular and\nmolecular mechanisms of mTORopathies-related epilepsy (e.g., focal cortical dysplasia type II), how the\noverexpression of complement component C3 disrupts the balance of excitation and inhibition, and whether C3\ninhibition can modify disease progression and improve seizure outcomes."
+ },
+ {
+  "id": "e704c6f9-5f0c-49f7-a12d-419fdc28c7c9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "CRISPR and Virulence Core",
+  "text": "Little is known about virulence mechanisms for most emerging fungal pathogens. Coccidioides immitis and C. posadasii, are of specific concern due to rapid increase in disease (coccidioidomycosis, aka Valley fever) incidence in the US, with a more than 10-fold increase in reported disease over the last 20 years. The Centers for Disease Control and Prevention (CDC) report that average cost for treating Valley fever is $50,000 per patient, including extensive hospital stays and treatment regimes. Use of CRISPR/Cas9 and functional assessment of targeted gene deletion on virulence can help improve our understanding of mechanisms of pathogenicity and represent the foundational framework that is necessary for development of these approaches. We propose to functionally delete 10 gene targets in Coccidioides posadasii strain Silveira and assay these deletions for loss of virulence. We will further investigate pathogenicity in C. immitis strain RS for those genes that show a loss of virulence. Currently, few specific mechanisms of virulence have been investigated in Coccidioides. Analysis of these data will provide new insights into functions of Coccidioides genes, which will increase our understanding of fungal pathogenesis mechanisms. Finally, we will work to develop tools to engineer fluorescently labeled live strains for Coccidioides using mCherry expression that will increase tools for interrogating host:pathogen interactions in an in vitro cell culture assay. In total, this proposal represents needed improvements in functional assessment of virulence in an important, yet understudied, fungal pathogen."
+ },
+ {
+  "id": "e707f909-1ddd-4302-9bdc-bd6dd885fadd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Defining Flares in VEXAS Syndrome",
+  "text": "VEXAS (vacuoles, E1 enzyme, X-linked, autoinflammatory, somatic) syndrome is a recently identified, late-onset,\ninflammatory and hematologic disease caused by somatic mutations in UBA1. Many questions remain regarding\nthe factors that impact disease progression and treatment response in patients. To better understand disease\nmanifestations, we plan to leverage the PAXIS trial (randomized, double-blind, placebo-controlled, dose-finding\nphase 2 study to assess the efficacy and safety of pacritinib in patients with VEXAS syndrome) along with\nconfirmatory cohorts to better define flares in VEXAS with time-sensitive ancillary studies."
+ },
+ {
+  "id": "e708077e-1f49-4a2b-bf1b-b797e131e3ff",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Better utilization of omics data to inform precision medicine for asthma throughout the life course",
+  "text": "Exposure to viral and bacterial infections represents a leading risk factor in asthma exacerbations, but individual\nvariability in response, and the role of multi-omics in this response, is not well-understood, particularly across\nthe life course. Characterization of virulent exposures through PhIP-Seq profiling in well-characterized child and\nadult asthma cohorts with existing genetic, epigenetic, and metabolomic data provides an ideal opportunity to\nleverage novel integrative omic methods, specifically cooperative learning, to increase our understanding of the\nimpact of these virulent exposures, their interactions with individual biology reflected by multi-omics, and their\nconsequences for asthma exacerbations. We apply PhIP-Seq in existing cohorts with minimal cost to this\nproposal, identify virulent and multi-omic factors with the highest contributions to asthma exacerbations, and\ndevelop universal and personalized predictive models to understand the interplay between these factors and to\nassess risk with respect to individual variability."
+ },
+ {
+  "id": "e708ff1f-15e8-4619-a810-f281782a947b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular Modeling Facility",
+  "text": "The goal of the Molecular Modeling Facility (MMF) is to provide FCCC members with structural information for proteins and protein complexes to enable the generation of mechanistic hypotheses in cancer biology, prevention, and therapeutic development. The MMF derives structural information from the Protein Data Bank (PDB) and the application of deep learning structure prediction methods such as DeepMind’s AlphaFold2 and AlphaFold-Multimer. The MMF identifies relevant experimental structures from bioinformatics tools developed in the Dunbrack lab and elsewhere. In the last two years, the accuracy of protein structure prediction has increased substantially. Previously molecular modeling relied on structure prediction by homology, which is dependent on the availability of experimental structures related to the target(s). Now, with AlphaFold2, it is possible for the MMF to predict the structures of the folded regions of almost all human proteins and those of relevant model organisms to near experimental accuracy. Even more important, AlphaFold-Multimer can predict structures of stable multi-protein complexes with high accuracy, guiding testable hypotheses on protein-protein interactions in cancer-relevant molecular pathways. In cancer genetics, the MMF utilizes experimental and computationally derived structures of proteins and proteins complexes to assist investigators in the interpretation of mutations observed in patient samples. As the field of deep-learning based structure prediction and protein design evolves, the MMF will continue to incorporate new methods in our computational pipelines and will develop high- throughput computational screening of protein-protein interactions and mutation assessments. The facility provided service to 18 FCCC members for the 12 months ending 10/31/23. Several of the projects required months of effort and comprised substantial portions of the relevant manuscripts. Table 2 further illustrates the number of peer reviewed users by services offered by the MMF. For the 12 months ending 10/31/23, 347 direct service hours (99% of the total hours billed) were performed for Peer-Review Funded FCCC members. The MMF was utilized by 30 FCCC Members and essential to all three Programs in 2019-2023 (through October). The MMF is advised by a dedicated Facility Advisory Committee (FAC) that meets annually. Recommendations from the FAC are directed to a governing Facility Parent Oversight Committee that advises Senior Leadership to ensure that the MMF continues to have the necessary resources to provide the highest quality services for FCCC members."
+ },
+ {
+  "id": "e70a3547-6d04-40e0-8a83-3559a9df16c7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular mechanism underlying FUS regulation under transcriptional and DNA damage stress",
+  "text": "Fused in Sarcoma (FUS) is a nuclear RNA Binding Protein (RBP) involved in many cellular processes, including\nDNA damage response (DDR) and transcription regulation. Mutations in FUS can induce aggregation,\nmislocalization, and disruptions in DDR and transcriptional pathways, contributing to the pathogenesis of adult-\nonset neurodegenerative disorders such as amyotrophic lateral sclerosis (ALS) and frontotemporal lobar\ndementia (FTLD). Through advanced microscopy and next-generation sequencing approaches, we aim to\ninvestigate the molecular mechanism underlying FUS regulation under transcriptional and DNA damage stress\nand its implications in ALS/FTLD, paving the way for novel therapeutic strategies."
+ },
+ {
+  "id": "e7186494-36e8-4c77-b49a-8e538b5d6ee0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Matrix Regenerative Nanotherapeutic Platform for Pelvic Organ Prolapse",
+  "text": "This project will lead to a new regenerative therapy for pelvic organ prolapse (POP) involving minimally\ninvasive delivery of biodegradable polymer beads to restore elasticity. These beads can also deliver\ndoxycycline (Dox), a drug which can further restore elasticity to the vagina and pelvic tissues. The proposed\napproach can make available a radically new approach to reversing adverse vaginal tissue changes in POP\nand provide an alternative to invasive surgery that can result in serious complications and require revisions."
+ },
+ {
+  "id": "e71c780b-4dd9-4148-90a6-30b8b4b53c01",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Defining the Role of HPV Integration Structures in HNSCC Molecular Heterogeneity",
+  "text": "The basic pathogenetic mechanisms of Human papilloma virus positive head and neck squamous cell carcinoma\n(HPV+ OPSCC) remain incompletely understood. This proposal seeks to overcome a substantial gap in\nknowledge by advancing on our recent technological developments to study the molecular impact of HPV to host\ntumor genome integrations on the host transcriptome. Furthermore, we will also advance the general\nunderstanding of when HPV integration events drive cancer progression."
+ },
+ {
+  "id": "e723e94a-ebbb-4312-82bb-386307d1d933",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Precompetitive Collaboration on Liquid Biopsy for Early Cancer Assessment: Data Management and Coordinating Unit",
+  "text": "Our goal is to establish the DMCU (Data Management and Coordinating Unit) to support the liquid\nbiopsy consortium for consortium coordination, data management, protocol development, as well as\ninnovative and state-of-the-art statistical and computational analysis."
+ },
+ {
+  "id": "e72506e3-6c01-4159-a9c9-ba34399c0753",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Ultrahigh-throughput imaging of 3D tumor microenvironment at nanoscale",
+  "text": "This research will significantly advance our understanding of cancer biology and improve therapeutic strategies\nby providing high-precision, large-scale 3D imaging of tumor microenvironments. The technology developed will\nenhance our ability to study subcellular interactions between cancer and immune cells, potentially leading to\nmore effective immunotherapies and better patient outcomes."
+ },
+ {
+  "id": "e726c1ff-35c2-4e41-b14e-e980e459ee6d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project 1. Maturation and Assembly",
+  "text": "Project 1 – HIV-1 Maturation and Assembly The overall goal of this project is to identify and exploit key, potentially druggable complexes and interactions that are present during HIV-1 assembly and maturation, including Gag and its maturation intermediates, the viral ribonucleoprotein (vRNP) complex, and the matrix (MA)-glycoprotein 41 (gp41) cytoplasmic tail interaction. The proposed studies are an integrated effort from 11 PCHPI investigators and four cores (NMR, CryoEM/ET, Computational, and HIV Virology). The specific aims are designed to i) understand the molecular, biochemical, and structural basis for maturation inhibitor (MI) and allosteric integrase inhibitor (ALLINI) activity and resistance pathways; ii) define the organization of RNA and proteins in the viral ribonucleoprotein complex (vRNPs) and at specific stages of maturation; and iii) characterize the interaction between the MA domain of Gag and the cytoplasmic tail of gp41. The structural and mechanistic knowledge gained through the proposed work will inform the development of novel MIs and ALLINIs with improved antiviral potency and potentially guide approaches to inhibit protein interactions in HIV-1 vRNPs and in MA-gp41 complexes."
+ },
+ {
+  "id": "e7292bdf-c0ef-4b14-b731-b75e236fb818",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Imaging of brain oxygen extraction fraction in vascular contributions to dementia",
+  "text": "The proposed research aims to translate innovative magnetic resonance imaging (MRI) techniques to\nimage brain oxygen extraction fraction in patients with vascular contributions in dementia, and understand\nits mechanistic relationship to ischemic injury in white matter hyperintensities. The technology developed\nand biological knowledge gained from the project will guide new imaging paradigms to measure brain\npathophysiology that leads to cognitive impairment, and improve early vascular interventions in many\nneurodegenerative disorders."
+ },
+ {
+  "id": "e7295b15-bc0f-48e3-ad1a-003f3393e084",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Study of Selective Cell and System Vulnerability in Alzheimer's Disease",
+  "text": "Alzheimer’s disease (AD) is the most prevalent age-related neurodegenerative disease with underlying\npathophysiological mechanisms remaining largely elusive. We will generate mechanistic hypotheses underlying\nAD with computational techniques and will validate top candidates by performing functional experiments in\niPSC-derived excitatory neurons, microglia, and forebrain organoids."
+ },
+ {
+  "id": "e7296c02-33e4-4ecb-911c-0d3c0755720b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Deciphering the role of the vaginal microbiome in spontaneous preterm birth via consideration of host genetics",
+  "text": "Spontaneous preterm birth (sPTB) poses an urgent, global threat to both maternal and neonatal health.\nThough the vaginal microbiome and human genetics have each been independently associated with\nprematurity, research has yet to disentangle the tripartite relationship between all three entities. I will analyze\npaired human genotype-microbiome data to infer causality of microbes on sPTB and to predict sPTB risk from\nboth microbes and genetic variants."
+ }
+]

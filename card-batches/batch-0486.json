@@ -1,0 +1,142 @@
+[
+ {
+  "id": "208e9838-252c-42fb-afbb-b5e1a43e8f77",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Optimized Anti-Epileptic Screening Using Drosophila Models",
+  "text": "Repurposing previously approved drugs for the treatment of epilepsy is a powerful approach to drug discovery\nthat does not require the usual regulatory process of drug approvals. Here we will refine a new epilepsy model\nin fruit flies to screen more than 3500 previously approved drugs for potential treatment of seizures in humans.\nThese repurposed drugs could then be used, off-label, for the treatment of seizures in people where current anti-\nseizure medications are not effective."
+ },
+ {
+  "id": "20903b36-0bb3-464d-9a2c-fdb9df3bebdb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Early detection and monitoring of Alzheimers Disease and Related Dementias using non-semantic linguistic and acoustic features of speech derived from hearing aids",
+  "text": "HAs have the digital signal processing, computational and wireless communication\ncapabilities needed for speech-analysis tasks that can be used to passively monitor\ncognition during normal activities of daily living. There are over 14 million people in the\nUS that use a hearing aid (HA) between the ages of 50 and 85 years-old, which\ncorresponds directly to the study population for the onset and progression of ADRD.\nThese 14+ million HA users are also at a threefold higher risk for developing ADRD,\nwhich strengthens the justification for a focus on this high-risk population."
+ },
+ {
+  "id": "2092e81b-7752-4a4c-a5b3-af3f429d8200",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dietary-dependent barrier protection by L. rhamnosus GG",
+  "text": "The lack of understanding of which patient population will benefit from probiotic intervention stems from\na deficient knowledge of how probiotic bacteria interact then modulate host physiology. This gap has\nhindered the translational research on probiotics. Using stable isotope tracing, genetics, and functional\nassays in disease models across species, this project investigates newly uncovered metabolic\npathways directly regulated by probiotics."
+ },
+ {
+  "id": "2092e8b8-5484-44a2-a73d-c9b3d865e8ec",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Project 2 - Verification and Molecular Mechanisms of T1D Modifier Mutations",
+  "text": "Project 2 will verify and then study the molecular mechanisms of phenotypes created and genetically solved in Core B and Core C. We expect to find scores of mutations with modifier effects over the term of funding, but we will not study all of them mechanistically. Herein we describe the key criteria used in selecting mutations to study and propose to begin with four mutations identified as T1D modifiers in our preliminary work (affecting Dusp10, Paqr8, Xpnpep1, and Rapgef1). We will proceed by re-targeting candidate genes in NOD/NckH and/or NOD/NckL backgrounds using CRISPR/Cas9 to create germline knockout alleles or replacement alleles (exact re-creations of the ENU-induced alleles) or both, to verify or exclude causation. Once verified, the encoded proteins will be studied in their mutant and WT forms to identify other proteins with which they associate, what effects the mutation might have on such associations, and also effects on cell signaling. Interactions will be directly tested in cells known to have altered function as a result of the mutation (based on studies from Project 1). Mass spectrometry pulldown will be performed using primary cells isolated from mice in which we have engineered epitope-tagged versions of the WT and/or mutant proteins in the germline. Verification of direct and indirect interactions will depend upon reciprocal pulldown of the target protein and putative interactors in HEK 293 cells. We will identify direct interactions using purified proteins and GST pulldown studies in vitro, as well as size-exclusion chromatography. Structural studies will be performed as warranted to determine precisely how each implicated protein interacts with its binding partners, and how the ENU-induced mutation alters this interaction. The effects of mutations on post-translational modification of cellular proteins will be examined when signaling abnormalities are suspected. These studies will, in many cases, reveal the molecular basis of acceleration or suppression of T1D. Frequent communication of our findings with Project 1, and vice versa, will mutually inform studies in both Projects, resulting in the understanding and development of the very best candidates. Our conclusions may point to alterations of signaling pathways affecting immune or β-cell function in a relatively subtle way. Yet in each case, there will be a highly significant effect on T1D development. Particularly in the case of strong and novel suppressor mutations, we hope to identify therapeutic opportunities for prevention or mitigation of T1D in human patients. Project 2 will undertake construction of inducible conditional alleles to test such therapeutic opportunities, instituting gene knockout or conversion immediately after the onset of T1D to determine whether remission may be established. This would point to the potential treatment of human patients during the honeymoon phase of T1D. We will make data on all modifier mutations publicly available via the Mutagenetix Candidate Explorer portal. The CRISPR/Cas9 alleles (like the ENU- induced alleles) will be available via the MMRRC."
+ },
+ {
+  "id": "2094396e-9ec8-4bbf-a2c4-9f837cdf86a4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Estrogen Receptor and NFkB Crosstalk in Breast Cancer",
+  "text": "We expect our proposed work to establish the concept that combination treatments that target both endocrine-\ntherapy sensitive and tolerant populations, prior to recurrence and the development of resistance, will be highly\neffective in preventing relapse and disease progression. Overall, the studies we propose have tremendous\npotential to impact outcome for women diagnosed with ER+ breast cancer by identifying new combination\ntherapies with that can lower their risk of disease relapse."
+ },
+ {
+  "id": "209980b0-8088-423f-b6e6-d7dab11b166e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Childhood adversity and substance use:  Integrating laboratory and ecological approaches to understand the role of affect",
+  "text": "Approximately 54% of adolescents report experiencing one or more adverse childhood experiences, making\nthem over 1.5 times more likely to use substances; however, many adolescents with adverse childhood\nexperiences deny substance use engagement. Using an innovative integrative model of ecological and\nlaboratory approaches, the current study examines the role of affect in the link between childhood adversity\nand adolescent substance use. This research will advance NIDA’s strategic plan (Objective 1) by improving our\nunderstanding of factors that influence substance use behaviors and informing future interventions that aim to\nimprove outcomes and reduce the health and economic costs of adolescent substance use."
+ },
+ {
+  "id": "209c5316-d759-4618-94ed-4c274fce1f12",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Advancing the Clinical Translation of Cyst Fluid Assays for Early Detection of Pancreatic Cancer",
+  "text": "Despite our reliance on pancreatic cyst fluid biochemical and cytological analyses to guide clinical decision-\nmaking for patients with pancreatic cystic lesions, little effort has been directed toward optimization of\nbiospecimen processing for pancreatic cyst fluid. We will systematically (1) evaluate the impact of preanalytical\nvariables on pancreatic cyst fluid biochemical and cytological analyses and (2) identify strategies to mitigate\nthe small volumes of available pancreatic cyst fluid in order to (3) develop a streamlined, reproducible protocol\nthat improves the reliable early detection of pancreatic cancer. By improving the reproducibility and diagnostic\nyield of our assays for the detection of mucinous pancreatic cysts, we will increase the proportion of patients\nwith pancreatic cystic lesions that undergo complete diagnostic testing, thereby improving the early diagnosis\nof pancreatic cancer while avoiding the burdens of overdiagnosis and overtreatment."
+ },
+ {
+  "id": "209cdffe-c185-44ae-a0d3-26e5745dc6e3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "C type Lectin Pathway Regulates Macrophage Immune Metabolism in Mtb-Infected Lung",
+  "text": "The proposed research is relevant to public health because it will significantly advance our understanding of\nhow the immune system regulates protective responses by myeloid cells in the lung following infection with\nMycobacterium tuberculosis, the causative agent of tuberculosis. The results of these studies will identify ways\nto target the host immune lipid metabolism and inflammation to improve tuberculosis disease outcomes."
+ },
+ {
+  "id": "209d8073-ca70-40f1-9daa-a9376168e197",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of computational tools for accounting for host variability in predicting T-cell epitopes",
+  "text": "Infectious diseases continue to be a major threat to the health and safety of people around the world, and\ntechnologies that can rapidly produce vaccines with long shelf-life, such as that promised by peptide-based\nvaccines, would significantly improve society’s ability to meet global needs in the face of a novel pathogen. Our\nability to rapidly develop peptide-based vaccines is dependent on the identification of epitopes, or pathogen\nfragments, that will sufficiently train the immune system to recognize a novel pathogen as foreign. The proposed\nwork is aimed at developing computational tools that account for the genetic variability between pathogen strains\nand across individuals to efficiently identify epitopes for the development of peptide-based vaccines."
+ },
+ {
+  "id": "209f7521-e4ee-4c5a-89b0-d5ecd1748803",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "New ionization source technology for single-cell multi-omics",
+  "text": "The goal of this project is to develop a new technology for ion creation, which in conjunction with ion mobility spectrometry and high-resolution mass spectrometry, will enable profiling of molecules in individual cells for phenotype characterization. This information is needed by the biomedical community to provide insights into the fundamental mechanisms underpinning heterogeneous cell response for advancing disease diagnosis, drug discovery and treatment stratification."
+ },
+ {
+  "id": "20ac0043-c7ba-4afc-96ef-59ff9f91c8eb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of Synaptic Transmission in Healthy and Disease States",
+  "text": "The active sites of central synapses are several times smaller than can be resolved using conventional\napproaches. Thus, much of what we know about the complex and dynamic processes involved in synaptic\ntransmission has been inferred from indirect electrophysiological and/or biochemical assays. Our innovative\nnanoscale resolution imaging technology can visualize, track, and quantify presynaptic processes with single-\nvesicle resolution. We propose a research program based on this technology that promises to close the gap in\nour knowledge of synaptic transmission, including the role such processes play in the pathophysiology of\nFragile X syndrome."
+ },
+ {
+  "id": "20ad0e07-ba25-41e5-b823-43bf4baca890",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of Epigenetic Regulator SIN3a in Pulmonary Endothelial Cells",
+  "text": "Defining the mechanisms underlying the regulation of BMPR2 expression and the role of the epigenetic modifier\nSIN3a in the lung vascular endothelial cells is critical. Our findings will be of great public health relevance, as we\naim to evaluate the effects of SIN3a gene target therapy in the lung vascular cells and right ventricle function.\nThis project supports the NIH’s mission to develop fundamental knowledge and its application to protect and\nimprove human health."
+ },
+ {
+  "id": "20ae65a0-49da-4a3d-b733-2d9716c7420b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of Dynamic Resting State Functional Connectivity Machine Learning Framework for Dementia",
+  "text": "There is an urgent need to evaluate whether new proposed presymptomatic Alzheimer's disease (AD) treatments\nare efﬁcacious in preventing cognitive decline. Current clinical endpoints, such as cognitive scores, are too noisy\nto access the cognitive decline after an intervention; however, neuroimaging can generate better biomarkers to\nmonitor cognitive decline. We aim to develop a machine learning framework to extract useful biomarkers from\nneuroimaging data to predict cognitive decline, which then can be used as endpoints to evaluate presymptomatic\nAD treatments."
+ },
+ {
+  "id": "20b1a7f0-c522-4d1a-8537-c64986390cc4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Unraveling the Role of Microenvironmental Chemokines in Beta-Catenin/TCF Signaling and Gene Occupancy during Colorectal Cancer Metastasis to the Liver and Lung",
+  "text": "Metastatic disease is the leading cause of death of colorectal cancer patients. However, the\nmolecular mechanisms underlying cell dissemination and survival within the liver and lungs\nremains poorly understood. In this study, we aim to elucidate the protein complex compositions\nand microenvironmental regulators in colorectal cancer metastasis which drive metastatic\noutgrowth and identify new targets for therapeutic intervention in advanced colorectal cancer."
+ },
+ {
+  "id": "20b51698-f3c4-4d7e-8168-1fbbe5a8db0c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Uncovering novel mechanisms and potential therapeutic targets for IgA vasculitis through GWAS and systems-level analysis of regulatory networks",
+  "text": "IgA vasculitis is an understudied pediatric disorder that often leads to serious complications, including kidney\nfailure. The exact pathogenic mechanisms of IgAV remain unclear, leading to the general lack of targeted\ntreatments and preventive strategies. This proposal aims to identify genetic determinants of IgAV to provide\nunbiased insights into the disease pathogenesis and enable prioritization of potential targets for new drug\ndevelopment."
+ },
+ {
+  "id": "20b72701-a46e-4be7-af1a-268255a13e37",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Biospecimen Analysis",
+  "text": "The Biospecimen Analysis Core (BAC) of our Vanderbilt-coordinated human Virome Characterization Center (V2C2) is designed to enable the composition and complexity of a host-contextualized human virome (replicating and integrated) to be rapidly and cost-effectively generated with high-quality across multiple tissue types. In Aim 1, the BAC will receive and characterize the virome across a range of biospecimen types from our Biospecimen Collection Core (BCC). This process will include viral sequencing (whole metagenomics/metatranscriptomic sequencing), validation studies (digital PCR and capture-based methods, among them), and host response characterization, including tropism studies (via bulk and single-cell RNA-seq approaches, in vitro infection studies) and assessments of host inflammatory state (targeted proteomics). In Aim 2, the BAC will establish standard operating procedures for metadata, analytics, and quality control and assessment, including consortium-wide benchmarking and reproducibility of critical assays to investigate and limit variability from the collection point to the final analysis. The BAC will synergize with all other V2C2 cores via (1) scientific counsel to the administrative core and the wider HVP on the development of new technologies based on HVP results to enable viral screening at the epidemiologic scale; (2) enabling collaborative projects with other HVP efforts (e.g., tropism studies with Functional Interactions projects; RFA-RM-23-017), augmenting essential human translational biology in the HVP. Our BCC has several fundamental strengths that ensure success, including: (1) leadership structure with extensive expertise in large epidemiologic efforts: Dr. Simon Mallal (a renowned physician-scientist who works on viral-host co-evolution and genetic interactions, Director of the Vanderbilt VANTAGE sequencing core), Dr. Jane Freedman (a leader in sequencing and proteomics and large NIH studies, including Common Fund efforts), and Dr. Suman Das (a human molecular virologist with extensive experience in methods development and discovery in human virology), all of whom have a track-record of collaboration in large NIH-funded human studies; (2) deep expertise in viral sequencing: Dr. Das and Mallal have sequenced many classes of human viruses (e.g., influenza, RSV, HIV, HCV, HBV, EBV, enteroviruses, rotavirus, norovirus, Ebola, Zika, coronaviruses, resulting in >400K Genbank accessions); (3) expertise in methods development in metagenomics: in this process, they have developed many new laboratory and computational methods enabling capture of the human virome (replicating eukaryotic RNA/DNA viruses and phages) and host integration; (5) rapid assessment of host response characteristics (including mucosal immunity, relation with other commensal microbial flora, and emerging types for characterization [e.g., extracellular vesicles, platelets, proteomics]); (6) large, NIH-funded core laboratory structures that enable cost-efficient BAC conduct (e.g., NHLBI TOPMed 2.0 Core; Vanderbilt resources led PD Mallal/PI Das). Successful completion will provide HVP with a comprehensive host-viral characterization for consortium-wide integration."
+ },
+ {
+  "id": "20b9469d-de18-4d1d-8419-f1e832814af1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Neuronal Kinase Signaling in Health and Disease",
+  "text": "This project aims to uncover how dysregulated kinase signaling contributes to neurological disorders by\ncombining cutting-edge AI tools and advanced proteomic methods. By identifying key kinase-substrate\ninteractions and understanding their role in disease, this research will pave the way for new therapeutic\napproaches to improve brain health and combat diseases such as neurodegeneration."
+ },
+ {
+  "id": "20c08038-3d94-49af-8638-02fe171fcd4b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Clinical Protocol and Data Management",
+  "text": "CLINICAL PROTOCOL AND DATA MANAGEMENT: ABSTRACT The Clinical Protocol and Data Management (CPDM) function provides comprehensive management and support services for clinical research activities at the Stephenson Cancer Center (SCC). CPDM services reside in the SCC’s Clinical Trials Office (CTO), which is comprised of ~200 FTEs and is under the direction of Muhammad Furqan, MD (CT), the SCC Associate Director for Clinical Research. The CTO provides centralized and integrated research support services to all SCC members and clinical programs, including comprehensive regulatory support, data management, research coordination embedded in disease-site clinical programs, bioinformatics, quality assurance (auditing and data integrity), finance, and biospecimen acquisition and coordination. For investigator-initiated trials (IITs), a Protocol Support Unit (PSU) provides comprehensive support from protocol conception to activation, registration of new trials, and results reporting with ClinicalTrials.gov. The CTO supports a Data Safety and Monitoring Committee (DSMC) and written DSM Plan (approved by NCI). In addition, it works to ensure robust and appropriate accrual to trials by women, children, and understudied populations. During this grant cycle, several new initiatives were launched to enhance CTO functions, including: 1) implementation of a new CTMS (OnCore) expected to complete in Q3 2022; 2) creation and staffing of a strategic initiative and project management team; 3) creation and staffing of a new Education and Training team and a new Serious Adverse Event (SAE) team; and 4) expansion of the Quality Assurance team and the IIT PSU. In addition, CTO developed a clinical research component for the SCC’s new cellular therapies program inclusive of inpatient research support. Between 2017 and 2021, the CTO oversaw the recruitment, management and reporting of 11,121 individuals into all clinical research studies being conducted within SCC (3,095 interventional treatment, 4,216 interventional non-treatment, 3,810 non-interventional). During this time it facilitated the activation of 524 studies, including 71 institutional and externally peer-reviewed interventional studies. This represents a 100% increase in IITs (interventional) from 2017 to 2021 and a concomitant 40% increase in accruals to interventional IITs between 2017 and 2021. Further, due to intentional outreach to the AI community the percentage of AI enrolled to interventional trials increased from 4.4% to 6.2% across the grant cycle."
+ },
+ {
+  "id": "20c281bd-fdc1-48ce-916d-ca1de152eea0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Personalized Machine Learning for Acute Kidney Injury Prediction and Prognosis",
+  "text": "Acute kidney injury (AKI) is a life-threatening clinical syndrome prevalent in hospitalized patients and have multiple etiologies and diverse outcomes, which highlights the need for personalized intervention. Building on our recent success in personalized predictive modeling, this project aims to develop personalized transfer learning methods to better quantify individual risk for developing AKI in the hospital setting. Results from this project has a broader impact on personalized decision support for improving patient outcomes."
+ },
+ {
+  "id": "20c3b815-7aa5-4816-bfdc-507a102e36e0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Modeling and treating T cell immunodeficiency in CHARGE syndrome by ESC- and iPSC-derived thymic epithelial cells",
+  "text": "CHARGE syndrome is a complex of multiple congenital malformations including T cell Immunodeficiency that\nis caused by thymic hypo/aplasia, and CHD7 is the key gene in the etiology of CHARGE syndrome. Thymic\nepithelial cells (TECs) that arise from thymic epithelial progenitors (TEPs) and definitive endoderm (DE) are the\nmajor component of the thymic microenvironment to support T cell development. The purpose of this project is\nto determine the ability of CHD7 gene deleted human embryonic stem cells and induced pluripotent stem cells\n(iPSCs) from CHARGE patients to develop into DE, TEPs and TECs, and the ability of gene correction to\nenable the CHARGE iPSCs to develop into functional DE, TEPs and TECs to support T cell development from\nco-transplanted human hematopoietic stem cells in immunodeficient mice."
+ }
+]

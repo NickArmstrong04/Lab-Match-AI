@@ -1,0 +1,142 @@
+[
+ {
+  "id": "593620ad-7c76-4ab8-90d3-b24265d0c8d2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Sequence transformations and microbiology: theory, tools, & discovery",
+  "text": "Databases of microbial genomes have been expanding rapidly, but our software tools have not\nkept up, especially when it comes to identifying mobile genetic elements. This is in part due to\nopen questions in the theory of string transformations for fast similarity search, and in part due\nto lack of good reference databases for sequences that move between species. In this project,\nwe develop new mathematical theory in k-mer sketching and alphabet reduction to design\nsoftware that is both faster and more accurate for analyzing microbial genomes for mobile\nelements."
+ },
+ {
+  "id": "5937855f-c947-4b62-92e7-b3190fb61701",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Optimized High-Resolution Fast Magnetic Resonance Fingerprinting with Cloud-Based Reconstruction",
+  "text": "In this project, we will leverage the expertise of our team in Magnetic Resonance Fingerprinting (MRF), machine\nlearning, and pulse sequence optimization to develop and optimize a rapid and robust quantitative MR technique,\napplicable to high-resolution volumetric brain imaging. The high-resolution 3D MRF imaging and reconstruction\npipeline to be developed in this project will make quantitative MRI more accessible in clinical settings. We will\nalso develop a cloud-based post-processing pipeline for convenient sharing and setup of our imaging\ntechnologies across imaging sites, promoting method validation and clinical translation."
+ },
+ {
+  "id": "59383cd5-73ac-4a3e-b590-6ae0d78b1424",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Readily deployable technology for reproducible cryogenic sample time-resolved electron microscopy (cryoTREM)",
+  "text": "PROJECT NARRATIVE/PUBLIC HEALTH RELEVANCE\nThis project combines experimental device design, fabrication and testing to provide an integrated and readily\ndeployable system for cryogenic sample time-resolved electron microscopy (cryoTREM). Macromolecular\ncomplexes are flexible dynamic systems that undergo a myriad of structural changes in response to perturbations\nand the work proposed herein will produce instrumentation and reagents for capturing the structural dynamics\nof biological machines that can be easily deployed by cryoEM laboratories. The use of this technology by the\nbroad community will advance our understanding of how such biological machines function, how they\nmalfunction in disease, and will aid in the development of therapeutics for a plethora of human diseases.\nFurthermore, the equipment and reagents from this project will be made fully available to the research community\nthrough the establishment of a cryoTREM shared resource facility."
+ },
+ {
+  "id": "59388fc5-1249-497f-9315-aad1b0504630",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular mechanism of Rheb-dependent mTORC1 regulation",
+  "text": "Mechanistic target rapamycin mTOR complex 1 (mTORC1), an evolutionarily conserved protein\nkinase complex, functions as a central controller of cell growth and proliferation. This proposal will\ninvestigate new upstream regulators for cellular mTORC1 activity. Our overarching goals are to\nunderstand how ubiquitinated Rheb-centered menbraneless structure facilitates mTORC1 activation\nand amplifies specific downstream signaling essential for cell growth and proliferation and organ\nhomeostasis."
+ },
+ {
+  "id": "593be5fc-0259-4561-a114-3c56ddb7f403",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Center for Musculoskeletal Disease Research (CMDR)",
+  "text": "Conditions such as osteoporosis, osteoarthritis, osteomyelitis; developmental skeletal abnormalities; and\nmalignancies such as multiple myeloma and breast cancer, negatively affect the skeleton. There is an ongoing\nneed to better understand the causes of these diseases to support the development of more effective and well-\ntolerated therapies. Comprehensive analyses of the molecular changes that contribute to these conditions may\nlead to the development of such therapies."
+ },
+ {
+  "id": "593ed5f8-1059-4291-a46a-a685f8af58e5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "CYP2A6 genetic score, nicotine metabolism and lung cancer",
+  "text": "A smoker's nicotine metabolism efficiency can influence their lung cancer risk. This is driven by variation in the \nactivity of the enzyme CYP2A6. In this grant we will develop a CYP2A6 genetic score to predict CYP2A6 \nactivity in ever smokers and then determine the association of the score with lung cancer risk."
+ },
+ {
+  "id": "5947d821-b3ca-4292-a7e5-22e5a41787cd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Impact of Maternal Stress and Poly(I:C)-Stimulated Viral Activation on Placental Immune Dynamics and Offspring Neurobehavioral Development",
+  "text": "Psychiatric disorders that arise during development are associated with exposure to maternal infections and\npsychological stress during pregnancy. These associations suggest the immune system has a critical role in\nthe development of these disorders. This work will use a mouse model of maternal stress and viral infection to\nbetter understand how these prenatal environmental factors influence the immune system and behavior of the\noffspring to find new therapeutic targets to improve mental health."
+ },
+ {
+  "id": "59499aad-94d8-4054-ab6e-61d8a8fe4ee0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A Novel Ultrafast Debinding Technology for Chairside 3D-Printing of Dental Zirconia Restorations",
+  "text": "The proposed research is highly relevant to public health, as it addresses the critical need for faster, more\naccessible, and cost-effective delivery of high-quality dental restorations. By enabling same-day, chairside\nfabrication of 3D-printed zirconia crowns through ultrafast debinding and sintering technologies, this work has\nthe potential to significantly reduce treatment time, lower costs, and expand access to care. It directly supports\nthe mission of the NIH/NIDCR to advance dental materials, digital workflows, and chairside manufacturing\nsolutions, ultimately improving dental care and patient outcomes."
+ },
+ {
+  "id": "594b32b3-19aa-4ea8-8ff7-8312784e36fa",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "[18F]fluoromannitol: A novel imaging agent to delineate osteomyelitis in sickle cell disease",
+  "text": "Sickle cell disease (SCD) is the most common inherited hematological disorder, affecting millions of patients\nworldwide and predominantly underserved populations with strained access to healthcare. Patients with SCD\nare at increased risk for an infection, called osteomyelitis, which can be very difficult to diagnose apart from other\ndiseases. One key focus of our research is to develop a novel imaging tool to specifically detect infection in the\nbody as this imaging tool would improve detection and treatment of infection, both in SCD and in patients\nsuffering from other infections."
+ },
+ {
+  "id": "594f7009-fad9-4a73-9439-dabe103715e5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of mitosis and size control in Xenopus",
+  "text": "During cell division, called mitosis, a critical step for maintaining healthy living cells is segregation of the\nreplicated chromosomes to two daughter cells, which is mediated by a dynamic structure called the mitotic\nspindle. We do not fully understand how the spindle forms, or how it adjusts its size and shape in different cell\ntypes. Investigating this process is important, since errors in spindle function can lead to cancer and other human\ndiseases."
+ },
+ {
+  "id": "59523375-9b41-4256-a4f5-41aed2e0028d",
+  "want_sentence": false,
+  "want_terms": true,
+  "title": "Data Science Tools to Increase Insight in Genomics Data",
+  "text": "High-throughput molecular technologies are increasingly being used in biomedical and basic science. We will\ndevelop data science tools to enable researchers to take advantage of high-throughput technologies."
+ },
+ {
+  "id": "5952b7a4-b274-45c9-839f-82f9bedfd556",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Reconstructing the ancestral neural crest-pluripotency gene regulatory network",
+  "text": "How do stem cells produce diverse and novel cell types, and what are the gene regulatory mechanisms that underly\nthese fundamental processes in vertebrates? My proposed research will address these questions through\ncomparative studies of neural crest (NC) stem cells and the pluripotent blastula stem cells from which they are\nderived in three evolutionarily informative model systems. Because NC cells give rise to many of the hallmark\nanatomical, physiological, and behavioral traits of vertebrate animals—including humans—and defects in the\ndevelopment of these stem cells is linked to birth defects (neurocristopathies) and cancers, my research will reveal\nfundamental new roles of NC and blastula stem cells in development, disease, and evolution."
+ },
+ {
+  "id": "595711c9-2030-4303-aed6-9cac7045b372",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Seronegative Autoimmune Encephalopathies: Biomarker Discovery, Validation & Deep Phenotyping",
+  "text": "The proposed research is relevant to public health because it focuses on characterizing poorly understood\nbrain diseases caused by the immune system, known as autoimmune encephalopathies, through identification\nand validation of new antibodies as disease biomarkers. Once this work has been completed, these\nbiomarkers have the potential to be informative in clinical practice for early diagnosis and immune treatment\ndecisions, and disease mechanism research. Thus, the proposed research is relevant to the part of the NIH's\nmission that pertains to reducing illness and disability."
+ },
+ {
+  "id": "595af2d0-7963-44df-8a0c-07d505f73ffe",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Enhanced Delivery of Cytotoxic Neural Stem Cells for Treatment of Glioblastoma Multiforme Using an Innovative In-situ Thermogelling Hydrogel and Focused Ultrasound",
+  "text": "RELEVANCE TO PUBLIC HEALTH\nThe benefit of effective and less invasive therapies that can replace invasive surgical procedures and enhance\ntreatment outcomes for glioblastoma multiforme (GBM) patients is significant. Biomaterial formulations providing\nsteady and prolonged release over several months of highly effective tumor homing killer cells known as neural\nstem cells (NSCs), and the use of a non-invasive dosing method known as focused ultrasound (FUS) to deliver\nNSCs systemically and across the blood brain barrier (BBB) can potentially increase efficacy outcomes to GBM\ntreatment regimen and transform the GBM treatment landscape. The overarching goal of this proposal is to\ndevelop and evaluate a new treatment modality that combines a biodegradable and highly tunable biomaterial\nscaffold and non-invasive FUS to enhance delivery of NSCs to tumor cells and to curb the treatment of GBM."
+ },
+ {
+  "id": "595c8eda-e4ab-4d1e-847f-e88293a8eaa3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "CSHL Course on Metabolomics (2026-2030)",
+  "text": "CSHL Metabolomics Course\nSystems biology experiments provide new, revolutionary insights into biological\nprocesses improving our understanding of their regulations and thus, laying the\nfoundation for the development of new medical methods and technology. Metabolomics\nrepresents a suit of methods that yield information about the qualitative and quantitative\nchanges in intracellular and extracellular metabolites upon physiological changes, in\ndisease or as a result of treatment. In the context of cancer, metabolomics allows\ninvestigators to probe the dynamic changes that occur in key metabolites as tumor cells\ninitiate, evolve, and metastasize. Increasing evidence shows that normal cells within the\ntumor niche or microenvironment also remodel their metabolism, indicating significant\nmetabolic crosstalk between the tumor and its microenvironment. The Cold Spring Harbor\nLaboratory Metabolomics Course `jump starts' researchers in this complex field by\nproviding hands-on training in experimental methods, thorough exercises in data analysis\nand tutorials on the latest technical developments. Thus, the course enables the\nparticipants, many of whom are anticipated to be cancer biologists, to immediately apply\nadvanced metabolomic technologies in their own research. In addition, it provides an\nopportunity to network with research peers, and to learn the challenges and pitfalls\nthrough hands-on access to the latest available equipment.\n."
+ },
+ {
+  "id": "595cb547-bb6a-4af2-96e7-a322271b5391",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Epithelial Immune Responses During Respiratory Viral Exacerbation of Asthma",
+  "text": "Relevance\nRespiratory viral infection of the susceptible epithelium is associated with the onset and progression of asthma.\nThe Seattle Center will focus on the identification of common and distinct mechanisms that drive persistent T2\nand non-T2 inflammation through epithelial interactions with immune cells that are in close contact with the\nepithelium in the context of viral infection. The results will provide the basis for novel therapeutics with efficacy\nin individuals with persistent T2 inflammation and non-T2 predominant disease."
+ },
+ {
+  "id": "59634580-021d-4901-bd3d-97bb4cfebc3b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Understanding How Stress-Induced Gut Dysbiosis Contributes to Development of Migraine",
+  "text": "Significant circumstantial evidence exists to suggest that the gut microbiome – or the collection of all\nmicroorganisms and metabolites found within the gastrointestinal tract – is a convergent mediator of both\nmigraine and associated gastrointestinal symptoms. Despite this, it is unclear how migraine triggers affect the\ngut microbiome and if gut dysbiosis is a causal factor in migraine development. Using a mouse migraine model\nof stress-induced hyperalgesic priming, this proposal will investigate how factors in the gut contribute to migraine\nbehavior and physiology."
+ },
+ {
+  "id": "5967f7b1-1f7b-4ffc-84db-cc10561f091e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "New Chemical Tools for Covalent Drug Discovery",
+  "text": "Recent FDA-approval of new irreversible inhibitors for cancer therapy has renewed interest in drugs which exert\ntheir influence via covalent modification of protein targets. However, our inability to accurately assess the full\nrepertoire on- and off-target proteins bound by covalent inhibitors, as well as the inhibitor occupancy of any given\ntarget, represent major obstacles to the expansion of covalent drug programs. Herein we develop a new modular\nplatform to rapidly synthesize and test chemical tools for target discovery and target occupancy with the ultimate\ngoal of accelerating development of new covalent inhibitors."
+ },
+ {
+  "id": "597059c5-72cc-4b15-8d9f-95360cb5a4ae",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "High-throughput Imaging-integrated Vascular Model for Understanding Thromboembolism and Therapeutics Screening",
+  "text": "We propose to harness our unique expertise in engineered in vitro human vascular tissue models and high-\nspeed volumetric imaging of thrombosis to create an enabling and first-of-its-kind high(er)-throughput real-time\nimaging-integrated thrombosis-on-chip model to study thrombosis and potential therapeutic agents, taking\nSARS-CoV-2 infection as a timely example to instruct future preparedness for pandemics and other vascular\ndisorders."
+ },
+ {
+  "id": "5975f9f8-79ce-45a8-aac9-d9622e9161a6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating the Mitochondrial Reprogramming Mechanism in Tumor-Associated Macrophages to Counteract Immunosuppression",
+  "text": "Exploring metabolic modulation in macrophages offers a promising therapeutic avenue to enhance immune\nresponses in cancer immunotherapy. This project will investigate the role of AMPK signaling in regulating\nmitochondrial homeostasis and immune polarization, paving the way for novel strategies to reprogram the\nimmunosuppressive activity of tumor-associated macrophages and improve therapeutic outcomes."
+ }
+]

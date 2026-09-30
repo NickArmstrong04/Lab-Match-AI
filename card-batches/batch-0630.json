@@ -1,0 +1,142 @@
+[
+ {
+  "id": "53a68ba7-3cab-47c3-b838-f12c64be9cb1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of Metabolic Adaptation: from Single Molecules to Systems Biology",
+  "text": "Unraveling the mechanisms of autophagy and cytochrome P450 metabolism, this proposal uniquely combines\nlive-cell imaging, single-molecule fluorescence, and proteomics, to shed light on these critical pathways activated\nin response to environmental stress. The study aims to provide unprecedented insights into metabolic\nadaptation, paving the way for both fundamental understanding and potential translational applications.\nUltimately, this research has the potential to significantly advance our knowledge of cellular responses to stress,\nimpacting diverse fields from basic biology to therapeutic development."
+ },
+ {
+  "id": "53a85330-a4a4-4328-911f-27232259f163",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Assessing how multilevel factors shape disparities in cancer screening",
+  "text": "Despite the success of cancer screening as an impactful cancer control strategy, utilization is suboptimal and\ndisparities in screening rates by race and ethnicity persist, contributing to the disparities in cancer-specific\nsurvival. Improving utilization of cancer screening is critical to achieve population-level mortality reduction, but\ncare must be taken to tailor interventions to underserved populations to ensure that existing disparities are\nnarrowed, rather than widened. This research will address a critical gap in our understanding of multilevel drivers\nof cancer screening rates by incorporating healthcare system-level factors and advancing understanding of\npatient- and provider-level factors while focusing on racial and ethnic disparities."
+ },
+ {
+  "id": "53ac41c1-7e08-4195-b0a5-9abdc765b19d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Therapeutic degradation of Capicua (CIC) fused oncoproteins in undifferentiated sarcomas",
+  "text": "CIC-DUX4 sarcomas represent an understudied and highly lethal subset of human cancer that affects children\nand adolescent and young adults (AYA). The proposed research is significant to the public health as there are\nno effective therapies to treat CIC-DUX4 sarcomas, leading to universal death in the metastatic setting. Upon\nconclusion of the proposed aims, we will reveal the role of MAPK-ERK mediated degradation of CIC-DUX4\noncoproteins as a prelude to the first precision-based therapeutic strategy to target CIC-DUX4 sarcomas."
+ },
+ {
+  "id": "53ad93e9-d9c9-460c-911a-2ac353cd3d14",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating VICE domain functions tied to altered ribosome localization and translational flux during HSV-1 infection",
+  "text": "Herpes simplex virus type-1 infection induces substantial nuclear remodeling, one feature of which is the\nformation of Virus Induced Chaperone Enriched (VICE) domains, distinct structures whose overall composition\nand functional significance are not well understood. We discovered that VICE domains recruit ribosome\nbiogenesis factors, subunits, and RNA. This proposal will build upon our findings, linking VICE domain regulation\nof proteostasis through the sequestration of translation machinery and chaperones to drivers of viral fitness."
+ },
+ {
+  "id": "53b19fca-4335-4b3d-ab9a-09684cb18cb0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dissecting the role of LDL uptake in tumor immunity and immunotherapy efficacy",
+  "text": "Immune checkpoint inhibitors (ICIs) have transformed cancer care by using the immune system to eliminate\ntumors, but many patients either do not respond or fail to maintain durable responses because tumors evolve\nmechanisms to evade CD8+ T cells, the key effectors of ICI efficacy. We propose that competition for immune-\nsupportive, diet-derived lipids carried by low-density lipoproteins (LDL) between tumors and CD8+ T cells is a\ncritical determinant of anti-tumor immunity and response to ICI. Moreover, by defining which LDL-derived lipids\nsustain T cell function, we aim to develop dietary strategies to improve ICI effectiveness and establish new\nbiomarkers that could predict patient response."
+ },
+ {
+  "id": "53b2fc68-b8f9-48d1-946c-3eb90206891a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Macrophage-targeting Nanoplatforms as Immunotherapy against Pulmonary Infections",
+  "text": "This project aims to develop a targeting strategy involving macrophage-targeting peptide ligands for targeted\ndelivery of nanoplatforms that carry RNA therapeutics. Deploying existing or newly discovered peptides and\ndeploying design rules from three broad classes of nanoparticles (lipid-based, tandem peptide-based, and\nmesoporous silicon-based) and it will identify an optimal nanoplatform to treat in vivo carbapenem-resistant\nKlebsiella pneumoniae (CRKP), Aspergillus fumigatus, and influenza A pneumonia."
+ },
+ {
+  "id": "53b44288-1b4c-41de-b0b3-ea186f935222",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Natural language processing and medical imaging analysis for multi-modality computer assisted diagnosis of ophthalmic diseases",
+  "text": "The proposed research is relevant to public health because it involves new strategies to develop accurate and generalized computer assisted disease diagnosis models that include multi-modality data (different medical imaging modalities, free-text clinical notes and structured information), benchmark the models via multi-center external validations, and explore solutions to improve the downstream capability. The research will provide a foundation to advance ophthalmic disease diagnosis applications and a refinement"
+ },
+ {
+  "id": "53b9f9a9-77d2-44e4-8bb7-5fa4bb3d4e11",
+  "want_sentence": false,
+  "want_terms": true,
+  "title": "Establishing pre-clinical models of osimertinib resistance-mediated brain metastasis",
+  "text": "Osimertinib is the best treatment for a type of lung cancer called EGFR mutant lung cancer, but over time, many\npatients develop resistance and new brain tumors. There are no effective drugs or animal models to study this\nproblem. This research aims to create better models to test new treatments for patients with drug-resistant lung\ncancer that has spread to the brain."
+ },
+ {
+  "id": "53c1c2ae-0a61-4bd0-9a6f-06d6df92c526",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "H2AJ as a regulator of placental senescence and genome organization",
+  "text": "Preeclampsia affects millions of pregnancies worldwide, and there are limited therapeutics for patients.\nSenescent cells have been implicated in the pathogenesis of preeclampsia, and designing drugs targeting\nsenescent cells holds great promise. The histone variant H2AJ has been shown to control the senescent-\nassociated secretory phenotype, and we have knocked down this protein in a model of trophoblast development\nto uncover its function."
+ },
+ {
+  "id": "53c81e28-8a85-4101-a2b1-f9686fd9446d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cell lineage and transcriptional analysis of the vertebrate neural plate border",
+  "text": "Neural crest and ectodermal placode cells are both transient embryonic progenitor cells that arise\nfrom the neural plate border. While ~10% of human birth defects affect early neural crest or\nplacode development, the molecular mechanisms underlying these defects are largely\nunknown. The proposed experiments promise to illuminate the transcriptional events underlying\nearly formation of neural crest and ectodermal placode cells from the neural plate border."
+ },
+ {
+  "id": "53cfdb55-9480-4a95-b382-320031c884e4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Transcriptome-wide mapping of brain m6A methylome in Alzheimer’s disease",
+  "text": "Alzheimer’s disease (AD) is the most common cause of dementia affecting over 55 million people worldwide,\nand this number is expected to triple by 2050. This project examines the potential causal role of a new\nmolecular mechanism, called N6-methyladenosine (m6A), in AD pathogenesis. Findings of this study will\nprovide new insight into and are likely to lead to novel therapeutic tools for AD treatment."
+ },
+ {
+  "id": "53da2e95-5b2e-4942-9484-41303af28bdf",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Enhancing Data Science Skills Through Bio-OCS - Biomedical Open Case Studies",
+  "text": "To address the gap in data science skills development for biomedical researchers due to rapid technological\nadvances, we propose Biomedical Open Case Studies (Bio-OCS), a comprehensive experiential education\nprogram centered around data analysis case studies. Learners will use real biomedical data to understand\nemerging computational technologies and best practices through the online case studies, guided hands-on\nworkshops, in-person collaborative events, and community dialogue. This scalable program, with its emphasis\non peer community support and learning, will help researchers take full advantage of cutting-edge\ntechnologies and practices (such as AI and other emerging methods) to further enhance their research."
+ },
+ {
+  "id": "53e46f2d-e3e4-4843-9f58-4cd21014bf87",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating the role of ESRP2 in craniofacial development using the cleft primary palate (cpp) avian model.",
+  "text": "Craniofacial malformations are among the most common congenital disorders in live human\nbirths. A major regulator of molecular mechanisms directing proper craniofacial development is\nalternative splicing, a process by which different isoforms are produced due to recruitment of\nsplicing machinery at various sites along the gene. Herein, we examine the role of splicing during\ndevelopment of the midface, which will provide potential avenues for therapeutics for congenital\ncraniofacial malformations."
+ },
+ {
+  "id": "53e4d5db-0329-4793-801e-26e4ecc4fd93",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Medical University of South Carolina - Cancer Center Support Grant",
+  "text": "The Hollings Cancer Center at the Medical University of South Carolina coordinates scientific research to promote interdisciplinary collaborations and translation of cancer research from the bench to the bedside to the community. Through the funding of the P30 Cancer Center Support Grant, the center provides research resources in support of its scientists, and impactful engagement with its catchment area with the goal of reducing the cancer burden for the 5.2 million residents of South Carolina."
+ },
+ {
+  "id": "53e8f8ec-c623-4e4d-8139-863ebe427683",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "GENETIC ATTRIBUTIONS AND PERCEPTIONS OF OBESITY",
+  "text": "The proposed research will examine primary care physicians’ attitudes and beliefs about the causes of obesity, as well as perceptions among U.S. adults with obesity of physicians who endorse genetic explanations of obesity, using a cross-sectional survey, experimental social science methodology, and qualitative focus-groups. The results will inform strategies for combatting misguided notions about the role of the genome in obesity and for ensuring that the integration of genetics into healthcare for obesity does not harm patients."
+ },
+ {
+  "id": "53ef6dec-8dbf-4bfc-b686-7c3c537f85f6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Social Media Signals for reducing Perinatal Death by Suicide",
+  "text": "ABSTRACT. Death by suicide is the 2nd leading cause of death among young adults in the United States. While most patients who die by suicide have had recent contact with their health care providers, the medical delivery system is poorly equipped to address this preventable issue. Risk of suicide is not detected or addressed in the majority of cases, particularly in health care settings serving low income and racially and ethnically diverse populations. In this R34 study we utilize human centered design (HCD) supported by the Center Methods Core to study how Ecological Momentary Assessment (EMA) based signals of suicide risk can be utilized in primary health care for Risk Detection, Assessment, Shared Decision-Making and Long-Term Surveillance. Patient and provider partner input is needed to design a system that has utility to the care of this population. EMA systems show promise as indicators of suicide risk and a means of enhancing existing resources in the primary care setting. However, little is known about how to apply these methods in the context of clinical care, nor is it apparent to what extent patients would agree to use EMA for risk prediction and monitoring. Through principles of HCD we propose to create a clinically actionable pathway for EMA derived signals of suicide risk that is acceptable to both young adult patients and their health care providers. We plan to carry out two specific aims to address this issue: (Aim 1) co-design a suicide risk monitoring system, Augmented Momentary Personal Ecological Risk Evaluation (AMPERE), with patients and health care providers through HCD and (Aim 2) conduct a pilot study of acceptability and usability of the prototype AMPERE suicide risk detection and response system as well as patient outcomes and our putative mechanisms of patient and provider self-efficacy and therapeutic alliance. Our goal in this study is to co-design a critical pathway for EMA from an innovative evidence-based suicide risk detection strategy to an acceptable and usable clinical tool that has potential for other effective risk detection strategies to follow."
+ },
+ {
+  "id": "53ef6ec6-49ba-4ee9-806a-4fbdb454c26c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Area-level Socio-economic Conditions and Individual-level Health and Mortality: Exploring Place-Based Mechanisms and Individual-level Psychosocial Processes",
+  "text": "Life expectancy in the US has not kept pace with other countries recently due to the rise in mortality related to\ndrug overdose, suicide, and alcohol as well as stalled progress in preventing cardiometabolic mortality. This\nstudy uses two longitudinal samples with twenty years of follow-up merged with rich place-based data to\nunderstand how structural, social, built, and environmental features prospectively affect individual-level\nsubstance misuse, mental health, cardiometabolic health, and mortality. This comprehensive research effort\nwill produce novel evidence to support the development of effective place-based interventions."
+ },
+ {
+  "id": "53f16f24-2a71-4e17-ac46-686a4d669abf",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Structural Dynamics and Mechanochemical Coupling in Nucleoprotein Machines",
+  "text": "This project uses biophysical measurements to determine the mechanisms of molecular machines that are\nused in gene editing applications or are targets of antibacterial drugs. Using newly developed single-\nmolecule approaches, CRISPR-Cas9 and related enzymes will be observed in real time as they unwind\nDNA, search for matches with a guide RNA molecule, and selectively cleave their DNA substrate. The same\napproaches will be applied to determine how DNA gyrase enzymes from pathogenetic bacteria harness\nATP hydrolysis to wind up the genome."
+ },
+ {
+  "id": "53f46b7e-766d-43c5-be66-cbd4a56b0b6a",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Metabolomics Shared Resource",
+  "text": "METABOLOMICS SHARED RESOURCE (MSR) The Metabolomics Shared Resource (MSR) provides advanced mass spectrometry (MS) approaches and technologies and expert data analytics for high-quality global and targeted metabolomics for support of cancer research studies. The MSR specializes in the discovery, identification, characterization, and quantification of small molecular weight metabolites and other biomolecules from a variety of specimens including tissues, cell lines, and body fluids, as well as metabolic flux analysis to trace metabolic pathways in real time. The main goals of the MSR are: to provide high-quality cost-effective services and innovative technologies to identify cancer-associated metabolic signatures; decode metabolic pathway dynamics in vitro and in vivo through precision metabolic flux isotopomer tracing; and advance clinical translational studies based on cancer-associated metabolic signatures. The MSR has a dedicated team of experts in MS-based metabolomics with extensive experience in unbiased and targeted metabolomics as well as metabolic flux and data analysis using computational machine learning approaches to identify metabolic signatures in various cancer models. Over the past four years the MSR has supported a total of 65 DLDCCC members across all scientific programs and has contributed to a total of 76 publications with 67% of these as cancer-related studies. The main infrastructure of the MSR consists of high-end MS systems including an Orbitrap IQX Tribrid (NIH S10 grant) for unbiased metabolomic profiling using intelligent data-dependent acquisition, a SCIEX Triple TOF mass spectrometer for unbiased lipidomics with data-independent acquisition, and two Agilent 6495 Triple Quadrupole MS for targeted metabolomics, metabolic flux, quantification of metabolites and lipids coupled with Biocrates technology. Over the next CCSG cycle, we plan to develop and implement services in emerging metabolomic platforms such as single-cell and spatial metabolomics, and quantification and analysis of metabolic alterations in organelles. Toward this end, we will use state-of-the-art mass spectrometry instruments combined with various front-end sources. In addition, we will extend our capacity and assays for stable isotope tracing of metabolic pathway flux in vivo and develop higher throughput global unbiased profiling assays to support research in cancer biology."
+ },
+ {
+  "id": "53f988eb-e714-4570-bf2c-b50d34ed0dad",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Optimizing prostate cancer care:  integrating risks, benefits, and patient experiences in the new era of molecular imaging",
+  "text": "New, molecular imaging tests offering improved detection of prostate cancer are changing the management of\nthe disease in ways that are not understood but have the potential for both positive and negative effects on\npatients and their disease. In this proposal we aim to understand the effectiveness of molecular imaging tests\nwith the goal of helping patients and prostate cancer stakeholders make more informed clinical decisions that\naccount for the cascade of effects that can be set into motion. To accomplish this, we will generate new\nevidence relating to the effects of PET imaging in the real-world setting, ultimately integrating this data in a\ndecision model that will generate a clearer picture about the tradeoffs of imaging, including practical scenarios\nthat are most or least likely to benefit patients."
+ }
+]

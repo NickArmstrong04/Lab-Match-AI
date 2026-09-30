@@ -1,0 +1,142 @@
+[
+ {
+  "id": "c769f9d6-dc6b-4065-ae19-7274a452ea16",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Enhancing Biomedical Engineering Education Clinical Needs Finding Courses through Immersive and Virtual Experiences",
+  "text": "The proposed junior level clinical immersion course will provide training and preparation\nof undergraduate engineering students through virtual reality clinical immersion\nexperiences to be able to identify and evaluate real world healthcare problems in\ntoday’s evolving healthcare infrastructure. Through both online and in class learning\nmodules, students will be able to work in multidisciplinary teams to develop a proposed\ninnovative medical solution that can improve current practices of healthcare that were\nobserved through virtual reality immersion. Using this scalable approach, large\ninstitutions and those institutions who do not have access to medical centers will be\nable to improve the next generation of biomedical engineering education by allowing\nstudents who would otherwise be unable to enter a clinic an understanding of current\nmedical practices and how to identify and use technologies to improve the current field\nof healthcare."
+ },
+ {
+  "id": "c76ef3c9-9ba9-4a5b-9c63-f0c91c2ba8bc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Predicting context-specific molecular and phenotypic effects of genetic variation through the lens of the cis-regulatory code",
+  "text": "The purpose of this project is to create a nucleotide-resolution cis-regulatory map of the human genome to\nconnect disease variants to functions and phenotypes, in collaboration with the IGVF Consortium. We will use\nour new methods to help interpret common and rare genetic variation, and to identify variants that may\ncontribute to disease. Outputs from the project will include new computational methods, open-source software,\nand publicly available cis-regulatory maps for diverse cell types."
+ },
+ {
+  "id": "c770c004-1df1-4791-8da5-59def67182d3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Computational Analyses of Family Auditory Communication: Linking Behavior, Vocalization, and Neural Dynamics",
+  "text": "Vocalizations convey an individual’s identity, location, or behavioral state, and may guide pivotal social decisions,\nyet the neural basis of acoustic communication is largely studied during brief, stereotyped interactions between\nunfamiliar adults in featureless test cages. Here, we propose to study auditory communication over weeks within\na cohesive social unit, families, of a highly social species, gerbils, in an undisturbed naturalistic setting. By\nintegrating audio, video, and neural data, and innovating upon modern machine learning approaches, we aim to\ntest how cortical mechanisms support the use of vocalizations to make social decisions."
+ },
+ {
+  "id": "c77343df-8b08-4f77-a5e1-e6adacd95c7d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Data-Driven Methods to Identify Social Determinants of Health",
+  "text": "There is increased attention on social determinants of health (SDOH) as a result of empirical\nevidence showing that the patient’s social background is associated with their health behaviors\nand clinical outcomes. Now more than ever, health care systems (HCS) are being held\naccountable for addressing social factors. Improving the quality of health care among racial\nand ethnic minorities is a VA priority. A systematic approach is needed for Health information\ntechnology (HIT) to be effective at addressing minority health and health disparities. Our\nproject will use HIT to address the SDOHs that contribute to health disparities in minority\npopulations and other medically underserved groups as a multi-step process that involves\nidentifying patients who have social risk factors and implementing an assessment system with\nthe goal of improving the outcomes of Veterans."
+ },
+ {
+  "id": "c774f026-3ee7-4e46-adef-6ab560240109",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Core C Experimental Models Core",
+  "text": "CORE C PROJECT NARRATIVE\nThe Experimental Models Core is responsible for curation, tracking, quality control, and distribution of all\nglioblastoma (GBM) animal models (patient-derived xenograft (PDX) models, PDX-derived organoids, syngeneic\nmouse and genetically engineered mice) for experimental studies in all Projects and biospecimens from humans\nfor validation across multiple institutions. The Core will also be responsible for the generation of organoids from\nthese models and for single cell and spatial transcriptomics, as well as chromatin fiber sequencing for whole\ndioplome, X-chromosome inactivation and promoter methylation. A decided benefit of the Experimental Models\nCore is the coordination and visibility of shared use of models across all Projects, with shared quality control,\nbatch (or passage) effects, growth characteristics, genomic profiling, and cross-Project data sharing from the\nexperimental outcomes."
+ },
+ {
+  "id": "c77b3813-961f-4fde-b8a5-e0e159944fa6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Biophysical Principles of Microtubule Dynamics",
+  "text": "The dynamic microtubule cytoskeleton plays vital roles in cell division, motility and differentiation. This project\naims to provide a fundamental molecular understanding of dynamic microtubule behavior using a\nmultidisciplinary approach that combines biochemical in vitro reconstitution, live-cell imaging and\ncomputational modeling. Because microtubules are a common target for chemotherapeutic agents and many\nof their regulating proteins are implicated in cancer and neurodegenerative diseases, the proposed research\nbears critical relevance for both basic science and human health."
+ },
+ {
+  "id": "c77d5cce-5bf2-465f-8c6d-536ec4b329e5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identifying human-specific neural progenitors and their role in neurodevelopment",
+  "text": "The human central nervous system (CNS) is characterized by an increase in cell diversity as well as size,\nfeatures which underlie our amazing cognitive and behavioral capacity. Neural progenitor cells directly dictate\nboth the size and cell diversity of the CNS; understanding how the human neural progenitor cell population\ndiffers from that of mice or monkeys is therefore fundamental to understanding what makes our nervous\nsystems unique. This project will profile and compare neural progenitor cell diversity in humans, monkeys and\nmice, and thereby identify human- or primate-specific progenitor cells, as well as characterize how they\ncontribute to CNS size and cell diversity."
+ },
+ {
+  "id": "c77db047-4a44-40fc-8e69-63c06c6935ac",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Restoring Dendritic-Cell-Derived Immune Signaling to Reinvigorate T Cells in Glioblastoma",
+  "text": "Glioblastoma multiforme (GBM) is the most common and lethal brain tumor, characterized by profound immune\nsuppression in which dendritic cells are scarce and dysfunctional, preventing T cells from attacking cancer cells.\nThis project develops new ways to restore local anti-tumor immunity by supplying the missing dendritic-cell–\nderived immunostimulatory cues through gene and vesicle-based delivery systems. Patient-derived organotypic\nGBM spheroids will serve as a translational platform, ensuring that insights from this work guide the design of\nsafer and more effective immunotherapies for patients with GBM."
+ },
+ {
+  "id": "c7865cce-4cbd-4e5d-9118-78b12a65797d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigate MOF regulated epigenetic mechanisms of skin development",
+  "text": "In this project, we will determine the role of MOF and Histone 4 Lys16 acetylation in epidermaldevelopment.\nWe will elucidate how MOF and the epigenetic mark control the expression of genes important for cilium\nmorphogenesis and mitochondria. Knowledge gained from the proposed studies will help to establish a new\ntranscriptional and epigenetic mechanism during mammalian skin development."
+ },
+ {
+  "id": "c78e1c93-761f-4129-ab7a-089018cb058a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Predicting Transcriptional and Epigenetic Networks in Cancer from Sequencing Data",
+  "text": "The proposed research will integrate rigorous computational and experimental methods to study the\ntranscriptional regulation of telomere-associated genes and immune checkpoint genes. The results of this\nresearch will help predict potential resistance mechanisms against therapies targeting the TERT promoter\nmutations that occur frequently in multiple cancer types and assist in developing effective combinatorial\ntherapies."
+ },
+ {
+  "id": "c7944ad9-de41-4009-903b-9c4cbdfb39b3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Personalizing EmerGency/Acute therapeuticS Utilizing Systems biology (PEGASUS-2)",
+  "text": "PROJECT NARRATIVE/PUBLIC HEALTH RELEVANCE\nThe PEGASUS-2 research program applies precision medicine discovery to improve the effectiveness and\nsafety of drugs administered for common acute conditions. This integrated systems biology approach utilizes\nmulti-omic methods to untangle the biology of drug effectiveness and safety in acute care settings decreasing\nhealth care costs and improving patient care."
+ },
+ {
+  "id": "c7a3bded-f5c1-4cfe-8074-93e7f1e84ff6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Understanding Heterogeneity Across PTSD, MDD and Anxiety By Leveraging Large-scale Multimodal Neuroimaging Datasets",
+  "text": "Diagnostic heterogeneity and high comorbidity among Posttraumatic stress disorder (PTSD), major depressive\ndisorder (MDD) and anxiety disorders (ANXs) significantly complicating progress in clarifying underlying neural\nmechanisms, and efforts to advance personalized medicine. Our research aims to utilize large clinical and\nimaging datasets and explainable deep learning models to identify neural biotypes underlying PTSD, MDD and\nANXs, and to test their predictive utility of clinical outcomes. These results may facilitate future treatment\ndevelopment by providing initial guidance of selecting best treatments that works the best for individual patient."
+ },
+ {
+  "id": "c7a67820-e88c-4131-be82-1253ecde7a89",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dissecting the Neural Circuitry Linking GLP-1 Receptor Agonists to Cardiovascular Health",
+  "text": "Obesity and Type 2 diabetes (T2D) increase the risk for both cardiovascular disease (CVD) and Alzheimer’s\ndisease (AD), highlighting the need to understand brain–heart interactions under metabolic stress. This study\ninvestigates how GLP-1 receptor agonists (GLP-1RAs), alone and combined with exercise, protect the brain and\nheart in APOE and 5xFAD mouse models representing genetic risk for late-onset and familial AD. By integrating\nadvanced imaging, molecular profiling, and machine learning, we aim to uncover shared neurocardiac pathways\nthat can inform targeted prevention strategies for AD and CVD."
+ },
+ {
+  "id": "c7a973aa-717c-4d5a-a83f-d0c832a0e777",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Harnessing smartphones for real-time detection of affective disturbance and future depression risk in adolescents",
+  "text": "The frequency of negative emotional states (e.g., high sadness, anxiety, and anger) and prevalence of\nemotional disorders (in particular, clinical depression) increases dramatically during adolescence. Using\npersonalized machine learning algorithms, the overarching goal of the project is to predict (1) acute states of\nemotional distress and (2) risk of depression onset among adolescents (12-16 years old) on the basis of\nsmartphone sensors and a wrist-worn actigraphy band. The ability to prospectively predict depression prior to\nits initial onset would have important clinical implications for the early identification of – and targeted\ndeployment of interventions for – at-risk youth."
+ },
+ {
+  "id": "c7ac572e-3b28-4ad1-b686-f59d369ae581",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Transcription and Replication of Oncogenic Viruses in Hypoxia",
+  "text": "Oncogenic human viruses are associated with many human malignancies. The mechanisms regulating\ntranscription and replication in hypoxia is not well investigated. This program will explore their strategies for\ncontrol in establishing long-term viral infection and will provide new clues for development of targeted therapies\nfor treatment of the associated cancers."
+ },
+ {
+  "id": "c7ad736c-fabe-46d2-851b-21db5bd04ca6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Support for Registration Enabling Phase 3 Clinical Trial for Nanotechnology-Based Treatment of Carcinoma in Situ of the Oral Cavity (Stage 0 Oral Cancer)",
+  "text": "RFA-CA-23-034 application entitled “Support for Registration Enabling Phase 3 Clinical Trial for\nNanotechnology-Based Treatment of Carcinoma in Situ of the Oral Cavity (Stage 0 Oral Cancer)”\nProject Narrative: Privo’s Nanotechnology-Engineered PRV111 Transmucosal Delivery System\ndelivers and retains high concentration of cisplatin directly in the tumor, with a safety and efficacy profile\nthat has been proven through multiple sets of preclinical and a phase 1/2 clinical study in patients\nsuffering from early-stage oral cancer. The treatment has been shown to be significantly safer and more\neffective than the standard of care, while demonstrating complete tumor regression in addition to\nmaintaining a recurrence-free status for up to 36 months post-treatment. PRV111 administration does not\nrequire any specialized training and the treatment duration is ~10-15 minutes per patch application – with\nthe funding from this proposal, Privo will conduct the registration enabling Phase 3 clinical trial to\ncommercialize PRV111 and effectively eliminate the need for disfiguring surgery for Stage 0 oral cancer\npatients."
+ },
+ {
+  "id": "c7ae53e6-cdfb-4b33-a156-a0c2cb8aa0f4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Integrating Genomic & Epigenomic Features for Noninvasive Characterization of T-Cell Lymphomas",
+  "text": "Peripheral T-cell lymphomas (PTCLs) are aggressive malignancies characterized by marked clinical, genetic,\nand pathological heterogeneity, along with poor outcomes, limited diagnostic accuracy, and a lack of reliable\nmethods for disease monitoring. This project aims to develop and validate innovative, noninvasive liquid biopsy\napproaches that integrate circulating cell-free DNA and RNA to enable accurate detection, classification, and\nlongitudinal monitoring of PTCL. In addition, we will investigate clonal evolution and intra-tumoral heterogeneity\nthrough integrative analysis of liquid biopsy and tumor tissue, providing insight into mechanisms of treatment\nresistance and disease progression."
+ },
+ {
+  "id": "c7b2a290-5e1c-4dc1-8d22-51cef24379c3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Super-multiplex optical imaging: development of novel spectroscopy and probes to illuminate complex biomedicine",
+  "text": "To understand complex biological systems, it would be crucial to be able to monitor a\nlarge number of interacting species with high spatiotemporal resolution, but the current\ntechnology (including omics and microscopy) have fundamental limitations in\naddressing this challenge. We propose a fundamentally novel spectroscopy and\nmicroscopy platform towards massively multiplex optical imaging. This general\ntechnology could transform our understanding of complex systems and could also lead\nto more accurate diagnosis of diseases.\n1"
+ },
+ {
+  "id": "c7b3dee9-042d-4623-be49-1cad1b7477b9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "CellLogic: Deep Learning Identification and Characterization of Rare Events in Fluorescent Whole Slide Imaging",
+  "text": "This project will develop an automated AI-based system to find and analyze extremely rare cancer cells\ncirculating in the blood by scanning large microscope images. By replacing labor-intensive manual cell searches\nwith a fast and reliable computer-guided method, the project can help doctors detect cancer spread or recurrence\nat an earlier stage and with greater accuracy. Ultimately, making this tool widely available could improve public\nhealth by enabling more timely cancer diagnoses and more personalized treatments for patients."
+ },
+ {
+  "id": "c7bba2eb-9810-45f9-bb54-2fcc1fe46469",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Programmable Mitochondrial DNA Annealase for Scarless, Human-Endogenous Genome Editing and Functional Screening",
+  "text": "Our proposal addresses limitations in gene editing technologies by engineering Twinkle, an\nendogenous mitochondrial recombination enzyme, into a programmable gene-editor that\neliminates toxicity concerns while maintaining high efficiency. This technology will enable\nresearchers to engineer genome variants, tag proteins across the proteome for live visualization\nor functional studies, providing insights into cellular processes and disease mechanisms. By\ndeveloping the first fully humanized gene-editor, we will generate a powerful tool for large-scale\nfunctional genomics that benefits the broader scientific community."
+ }
+]

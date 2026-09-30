@@ -1,0 +1,142 @@
+[
+ {
+  "id": "a15f7ef2-47f1-40f6-b848-c49883debca2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Transgenic Mouse Genome Editing Core",
+  "text": "(Transgenic Mouse Genome Editing Core) The Transgenic Mouse Genome Editing Core (TMGEC) has been an integral part of the Diabetes Research Center (DRC) at the Perelman School of Medicine, University of Pennsylvania since 1997. The TMGEC is directed by Dr. Douglas Epstein, PhD, Professor and Vice Chair, Department of Genetics. Dr. Epstein is an experienced investigator with considerable expertise in technologies and experimental approaches that center on mouse models of disease, developmental genetics, and genome editing. An experienced technical team, led by Dr. Jean Richa, provides expertise in a full range of transgenic technologies, enabling the TMGEC to regularly introduce new and improved services. Services provided by the TMGEC include the generation of genetically altered mice by direct genome editing (CRISPR/Cas9), DNA microinjection into fertilized oocytes to create transgenic lines, the generation of chimeric mice via embryonic stem cell injection into blastocysts. The TMGEC also carries out embryo re-derivation, embryo and sperm cryopreservation, in vitro fertilization (IVF), and centralized cryopreservation storage. The TMGEC uses state-of-the-art laser conditioning of the zona to facilitate IVF and has intracytoplasmic sperm injection capability to complement IVF services. Newly developed services during the current funding period include the major expansion of cryopreservation services with corresponding expansion of the cryopreservation facility, integration of CRISPR/Cas9 direct genome modifications with a newly established Perelman School of Medicine CRISPR core, and electroporation of DNA and RNA into embryos to increase throughput and decrease wait time for TMGEC services. In the past 5 years, 48 DRC investigators used TMGEC services to generate 225 independent mouse lines (primarily by CRISPR/Cas9 editing) and to store 134 mouse lines (by cryopreservation). Usage is expected to stay the same, or increase over the next five years. Additional Institutional (non-DRC) support is provided for equipment maintenance and facility infrastructure upgrades and maintenance. An extensive network of collaborations exist within the DRC focusing on the use of genetically modified mouse models of diabetes, obesity and metabolic disorders. These joint projects among DRC investigators highlight the role of the TMGEC not only as an essential technical resource but also as a key hub for collaborative research among DRC investigators, as exemplified by the numerous joint publications and successful grant applications arising from mice generated, stored, and/or re-derived by the TMGEC."
+ },
+ {
+  "id": "a15fff08-f884-49e7-9555-ce2e41497d5a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identifying host-interacting proteins of Sneathia vaginalis",
+  "text": "Sneathia vaginalis is a pathogen of the female reproductive tract and is associated with poor pregnancy\noutcomes. It is understudied and little is known about how this bacteria interacts with its human host. This study\nwill fill that gap in knowledge and could lead to the development of new strategies for therapeutic tools to combat\nthese infections."
+ },
+ {
+  "id": "a166307f-d134-43ea-afd4-8f23764aeb69",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Chronic Exposure to House Dust Mites: A New Risk Factor for Lung Cancer in Never Smokers",
+  "text": "In this revised R01 grant application we hypothesize that long-term exposure to house dust mites causes a\nparticular subtype of inflammation and somatic mutations in the lungs, and represents a new risk factor for lung\ncancer in never smokers."
+ },
+ {
+  "id": "a170e17c-50b6-46ed-a9ce-1614c3ced7b7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Inter-organ crosstalk and the regulation of lipid metabolism",
+  "text": "The proposed research will provide a comprehensive understanding of how adipocyte lipolysis regulates\nhepatic lipid metabolism through the glucocorticoid receptor. Our studies will interrogate how acute activation\nof HPA axis promotes ketogenesis in the liver through remodeling of lipid droplets."
+ },
+ {
+  "id": "a17289f0-f640-42f5-81ec-fa17fcc52a2d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A Drug Development Tool for Assessing CRS and Neurotoxicity in Immunotherapy",
+  "text": "Cytokine release syndrome (CRS) and immune effector cell–associated neurotoxicity syndrome (ICANS) are\nsevere complications of T cell–engaging cancer immunotherapies that current preclinical models fail to predict.\nOur study develops a human tandem-chip platform that models CRS-to-ICANS progression to improve drug\nsafety assessment and guide patient-specific treatment strategies."
+ },
+ {
+  "id": "a174095e-f231-4c38-9fdb-de8a264179c1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Computational Methods, Resources, and Tools to Assess Transparency and Rigor of Randomized Clinical Trials",
+  "text": "Randomized controlled trials (RCTs) are considered the “gold standard” study design to determine the\neffectiveness of therapeutic interventions; however, they often suffer from rigor and transparency problems,\nleading to potential research waste. The proposed research will develop a set of natural language processing\n(NLP) methods to identify information related to rigor and transparency from RCT reports (protocols and results\npublications). These methods will support tools and resources that assist stakeholders of clinical research in\nmaintaining high reporting standards, synthesizing information on methodological quality, and fostering open\nscience practices, and will contribute to improvements throughout the scientific ecosystem, leading to better\npatient care and health policy."
+ },
+ {
+  "id": "a174c3d0-f352-4177-80b4-f0f5989997c2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "SOX4-Mediated Transcription Program in Esophageal Adenocarcinoma",
+  "text": "The incidence of esophageal adenocarcinoma (EAC) has increased 600% in the last three decades, and\ntreatment options are limited. This proposal will identify the mechanisms underlying the initiation and\nmaintenance of EAC relevant to stem cell regulation. The knowledge gained will be used for comprehensively\nidentifying new therapeutic targets and medications for treating the disease."
+ },
+ {
+  "id": "a189476b-572b-4781-9534-f3cf50b75811",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Epidemiological and Entomological Factors Shaping Persistent Malaria Transmission",
+  "text": "PROJECT 1 SUMMARY Despite the deployment of proven malaria control interventions, malaria incidence in Cameroon has been increasing since 2012, ranking among the top 11 high-burden countries. The failure of current interventions to effectively reduce the malaria burden in Cameroon is evident, necessitating the urgent search for evidence to support the rational design and implementation of effective control strategies. The reasons for this failure are likely complex due to Cameroon's diverse eco-climatic settings and corresponding divergent malaria epidemiology. Therefore, the overall goal of this project is to characterize malaria transmission across various epidemiological settings in Cameroon where different interventions are being implemented and determine the underlying mechanism for the epidemics of Plasmodium vivax malaria. We hypothesize that current region-specific interventions in Cameroon do not effectively target the critical transmission reservoirs to reduce malaria transmission. To test this hypothesis, we will conduct longitudinal cohort studies and entomological assessments to elucidate the critical transmission reservoirs, evaluate the impacts of different interventions on the reservoirs, the vectorial system, and the spatiotemporal evolution of parasite populations, and identify key factors responsible for persistent malaria transmission. This research will be conducted in strategically selected sites located in different eco-climatic zones where different control interventions (e.g., different types of bednets, RTS,S vaccine, seasonal vs. perennial malaria chemoprevention) are implemented. Specifically, we will (1) conduct longitudinal cohort studies and mosquito feeding experiments to elucidate the critical transmission reservoirs for both P. falciparum and P. vivax malaria; (2) investigate the impact of the different interventions on vector community, biting behavior, and vectorial capacity and correlate these changes with disease incidence; and (3) determine how malaria interventions impact the spatiotemporal evolution of parasite populations using population genomics. The findings from these studies will provide insights into the underlying mechanisms responsible for the persistent high-level malaria transmission in different ecological settings and inform the development, evaluation, and implementation of integrated malaria management strategies in Cameroon and other high-burden countries to reduce the malaria burden."
+ },
+ {
+  "id": "a195646e-a7bd-4a94-881d-6a195bd87adc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cellular and Tissue Rejuvenation through Transcriptional Reprogramming",
+  "text": "A fundamentally new approach to the treatment and prevention of age-related diseases is to target the\nroot cause of aging. Under this new paradigm, rejuvenation of aging human tissues and organs represents a\npromising and exciting direction. Previously we identified 4 transcription factors that can rejuvenate human\nfibroblast cells aged in vitro through continuous passaging. This project proposes to test the rejuvenating effect\nof these factors in human fibroblast cells aged inside human body, and in mouse liver. New technologies will\nbe developed to systematically identify combinations of transcription factors for rejuvenation. The proposed\nresearch will set a unique stage for discovering combinations of small molecule drugs for rejuvenation therapy."
+ },
+ {
+  "id": "a19a2cde-848a-4fcd-b03c-e34b23843ced",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mining SCORCH transcriptomics data to resolve functionally relevant striatal cell types",
+  "text": "HIV infection is often comorbid with opioid use disorder, with each condition exacerbating the severity of the\nother, yet the underlying cellular and molecular mechanisms of HIV/opioid interactions are poorly understood.\nAs part of the SCORCH consortium, we used single-nuclei RNA sequencing and single cell-resolution spatial\ntranscriptomics to profile the nucleus accumbens (NAc) of HIV-infected mice that intravenously self-administered\nopioids. In this project, we will mine these unique sequencing datasets to identify HIV/opioid-responsive neuronal\npopulations in the NAc. Gene editing will be used in mice to determine the functional contributions of HIV/opioid-\ninduced differentially expressed genes in the NAc to behavioral abnormalities relevant to HIV/opioid interactions.\nThis research program will advance our understanding of HIV infection and opioid actions in the brain."
+ },
+ {
+  "id": "a19bf081-e01a-4885-90e9-e6912dcbab81",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Modelers and Storytellers: Advancing Transdisciplinary Community Health Intervention Research",
+  "text": "There is an urgent need to address health disparities using newer innovative approaches that\nintervene at multiple levels (e.g. policy, community, school, family) and harness AI and data science\nas a cornerstone of health for all research. Developing, implementing and evaluating such\ninterventions is challenging and requires effective collaboration among scientists trained in various,\nand usually disparate, disciplines. The goal of this research education program is to provide\nbehavioral and social science health researchers with training in computer-based methods (namely,\nsystems science, data science and AI methods) while also providing those adept in computer-based\nmethods with foundational knowledge in the behavioral and social sciences so to as support more\neffective transdisciplinary research collaborations."
+ },
+ {
+  "id": "a1c2a1c1-ac1d-47b3-a46f-db68a1943532",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular mechanisms of modular nuclease domains",
+  "text": "Nucleases are enzymes that degrade nucleic acids in many biological processes. Failures in nuclease activity\nare attributed to diseases including cancer predisposition syndromes, Huntington’s disease, and infertility. A\nmechanistic understanding of nuclease regulation and specificity informs models for these diseases and the\ndevelopment of new gene editing tools."
+ },
+ {
+  "id": "a1c97d6a-23ba-4120-a93f-7333a8b991a7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Combined engineering of human stem cell-derived beta cells and regulatory T cells to treat type 1 diabetes",
+  "text": "Type 1 diabetes (T1D) is an autoimmune disease caused by destruction of the body’s insulin-producing\ncells, the beta cells of the pancreas, by the patient’s immune system. This project will develop engineered\nstem cell-derived beta cells together with engineered regulatory T cells (Tregs) that prevent immune attack\nof the engineered beta cells locally, foregoing the need for toxic systemic immunosuppressive drugs. Our\nstrategy will leverage Tregs to advance safer, more durable cell replacement therapies for T1D and\npotentially other diseases addressable with stem cell–based treatments."
+ },
+ {
+  "id": "a1d190a3-1455-48ba-bcb2-602959d823d6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Center for Critical Assessment of Structure Prediction (CASP)",
+  "text": "Knowledge of macromolecular structure plays a critical role in biology and medicine, allowing for detailed\nstudies and understanding of biological processes and disease mechanisms. Yet, relatively few structures are\nobtained experimentally - the rest must be modeled. The Critical Assessment of Structure Prediction program\n(CASP) provides the primary means of evaluating performance of methods dedicated to this task."
+ },
+ {
+  "id": "a1d2e072-17bc-44e0-94ae-107fd527d14b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Advancing Early Detection of Mild Cognitive Impairment and Dementia through Digital Biomarkers",
+  "text": "Undiagnosed mild cognitive impairment leads to missed opportunities to address modifiable risk factors. This\nstudy will examine how spontaneous speech, voice signals, and sleep measures can predict subtle cognitive\nimpairment and will identify barriers and facilitators to implementing a future voice-based screening program. It\nwill also examine the relationship between voice features and sleepiness—a confounder in neuropsychological\nassessments—to establish a foundation for multimodal digital biomarkers for early cognitive screening in older\nadults."
+ },
+ {
+  "id": "a1d60604-cc93-416e-a8bb-f569433e090a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Tracking Depression and Associated Modifiable Social-Emotional Factors in Adolescent Girls with Autism",
+  "text": "This K99/R00 proposal will investigate longitudinal trajectories and social mechanisms of depression in\nadolescent girls with ASD. The studies will characterize momentary and cumulative social and emotional\nexperiences in adolescent girls with ASD and identify risk and protective social-emotional factors relevant to\ndepressive symptoms. Findings will have direct implications for designing ecologically valid prevention and\ntreatment strategies for depression in ASD."
+ },
+ {
+  "id": "a1e20639-93d4-4a34-937a-6035333ce2ba",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Transcranial Functional Ultrasound in Adult Humans",
+  "text": "Neurological disorders have been characterized as one of the greatest threats to public health. In order to\nprovide an additional widely useful tool, we will develop transcranial functional ultrasound for adult humans. To\naccomplish this, we will develop and integrate a series of solutions including a comprehensive signal processing\npipeline, a novel dual array transducer, image-to-physical localization and a custom imaging rig."
+ },
+ {
+  "id": "a1e2cca5-dba0-4c66-b3e5-9bf7e8c3eec5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dissecting and targeting mechanisms of genomic instability-triggered immune evasion in RBM10-deficient non-small cell lung cancer",
+  "text": "Somatic mutations in RBM10, encoding a regulator of alternative splicing, frequently co-occur with KRAS in non-\nsmall cell lung cancer. This proposal will characterize mechanisms of immune evasion and evaluate novel\ncombination immunotherapy strategies in RBM10-deficient NSCLC."
+ },
+ {
+  "id": "a1e3e14d-5433-460b-ae2f-23104c2ee79d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Exploring Diverse Mechanisms of Type III CRISPR-Cas signaling.",
+  "text": "Microbes, like us, have evolved sophisticated strategies to defend themselves against viruses. Type III\nCRISPR-Cas systems are prokaryotic adaptive immune systems that use RNA-guided nucleotide signaling to\ncontrol diverse cellular proteins. We aim to advance this emerging frontier of CRISPR and microbial biology\nusing biochemistry, molecular, cell and structural biology approaches and reveal biological insights that could\nlead to novel antimicrobials, diagnostics, RNA sensors, and tools for controlling cell behavior."
+ },
+ {
+  "id": "a1eb254a-9888-4a2d-b647-d64af321a680",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multi-Scale Nonlinear Optics Label-Free Microscopy for Rapid Prostate Cancer Research andDiagnosis",
+  "text": "This Phase I SBIR will revolutionize the prostate cancer diagnosis process by developing a novel workflow that\nuses the TetraQuant™ system with Nonlinear Optics Label-Free Imaging (NOLFI) to capture critical metabolic\nand structural information from fresh biopsy specimens. By preserving tissue in its native state and integrating\nAI-driven analysis, this approach will significantly improve diagnostic accuracy, speed, and reliability compared\nto conventional methods. The successful implementation of this technology has the potential to transform\nprostate cancer diagnosis, enabling more precise detection, better risk stratification, and ultimately improved\npatient outcomes."
+ }
+]

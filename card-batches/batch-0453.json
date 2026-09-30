@@ -1,0 +1,142 @@
+[
+ {
+  "id": "13f4bcf5-ab58-444b-85b0-3b1d04da511d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Deep neural networks to map the pace of brain aging before Alzheimer's disease",
+  "text": "This project aims to develop deep learning models for estimating local brain age (LBA) and the pace of brain\naging (PBA) from MRI, providing more precise and dynamic biomarkers of neurodegeneration. Using large da-\ntasets, we will train neural networks to map LBA and PBA across the brain, integrate generative AI to forecast\nfuture brain aging trajectories, and apply deep survival models to improve Alzheimer’s disease (AD) risk stratifi-\ncation. By advancing brain age estimation methods, this research will enhance early detection of AD risk, inform\nclinical monitoring strategies, and support personalized interventions to slow neurodegeneration."
+ },
+ {
+  "id": "13f5cb06-dc5b-4c31-94d1-2fb0e1fad5ff",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Comparative systems biology of apicomplexan cell division",
+  "text": "Apicomplexan parasites have major impacts on human health e.g. Plasmodium falciparum causes malaria whereas\nToxoplasma gondii and Babesia spp. cause opportunistic infections. At the heart of all apicomplexan pathogenesis lies\ncell division, which unfolds in seemingly diverse and exotic ways, and is one of the defining features of the Apicomplexa.\nThe dramatic phenomenological difference from the standard mammalian cell division model is pursued here in a\nopportunistic survey for urgently needed new and specific drugs to treat malaria, toxoplasmosis, and emerging tick-\ntransmitted babesiosis."
+ },
+ {
+  "id": "13f744b5-e25b-4f36-b5c3-96dbf930a086",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Streamlined development of an IND with the silica nanocapsule loaded with Cas9 genome editors to disrupt the dominant BEST1 mutant allele",
+  "text": "PROJECT SUMMARY– FOLLOWER PROJECT 3. Best Vitelliform Macular Dystrophy, or Best disease (BD), is a relatively common inherited macular degenerative disorder that results in retinal pigment epithelium (RPE) dysfunction and progressive loss of central vision. BD is caused by over 200 different missense mutations in the BEST1 gene. Currently, there are no treatments for autosomal dominant BD due in part to the absence of relevant animal models. To overcome the difficulties in modeling the effects of many pathogenic BEST1 mutations, we utilize patient-specific iPSC-RPE models to develop a biological system that can rapidly screen genome editing leads. As in Follower Project 2, we hypothesize that Cas9-mediated indel formation by the leads in the mutant BEST1 allele will cause frameshifts leading to premature stop codons and resulting in nonsense- mediated decay of the edited transcript, removing the dominant-negative effect and restoring function to the wild- type allele. Our objective in Project 3 is to develop an SNC product, SNC-201, containing a Cas9 payload to specifically target BEST1 mutant alleles and compare various approaches using ribonucleoproteins (RNPs) and Cas9 mRNA/sgRNAs. To achieve this, we will pursue four aims. First, we will generate dual BEST1 allele BD iPSC-RPE reporter systems to facilitate on/off-target analysis of mutant allele targeting. We have developed a BD dual reporter iPSC line that has the mutant BEST1 allele linked to a 3’ tdTomato reporter and the wild-type BEST1 allele linked to a 3’ GFP reporter. Via fluorescent imaging, we can monitor the expression of both the targeted mutant BEST1 allele and the wild-type allele, which is the top ‘off-target’ site for our strategy. Plus, we can monitor channel function on sorted cells. We will adapt this reporter iPSC line to create a wild-type and eight additional mutant lines. Second, we compare the modular editor components of the lead SNC-201s. Using the dual reporter systems transfected with SNC formulations containing RNPs or Cas9 mRNA/sgRNA, we will rapidly screen SNC formulations to disrupt each mutant allele in dual reporter iPSC-RPEs. A comparison of the editing efficiency of Cas9 mRNA/sgRNA and RNP will be achieved through this work. Third, we scale up the synthesis of the SNC RNP leads and rely on Lead Project 1 for protocols to scale up mRNA/sgRNA leads. Finally, we generate a preclinical package for SNC-201 targeting selected mutant BEST1 alleles. After evaluating the safety of an SNC-201 formulation in nonhuman primates, we will complete one INTERACT meeting with the FDA for a product that intends to treat BD patients with multiple different mutations. After obtaining feedback, we will draft a clinical development plan for a pre-IND meeting. Successful completion of our aims will provide a rigorous, stepwise approach to developing an IND for targeting specific mutations – a strategy that could be expanded for all individuals with BD – and address central questions pertaining to the application of gene editing for genotypically heterogeneous dominant diseases. It will also advance the utility of iPSC models as custom preclinical tools to rapidly develop somatic cell genome editing strategies."
+ },
+ {
+  "id": "13f902ec-0472-4207-8d04-f7dc022c2a1c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Regulation and Function of Viral and Endogenous Circular RNA in Cancer",
+  "text": "Circular ribonucleic acid (circRNA) molecules are enriched in head and neck squamous cell carcinomas\n(HNSCC) but their potential functions remain unclear. Through our study of human papillomavirus (HPV)\ncircRNAs, we have developed novel approaches and tools to study circular RNA in HNSCC. This study will\nadvance our understanding of HNSCC biology and may also identify new prognostic biomarkers and\ntreatment approaches for HNSCC."
+ },
+ {
+  "id": "13fcb34c-a604-4113-92b1-8b0980e46fe9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Imaging and Genomic Signatures of Brain Tumor Heterogeneity and Evolution to Optimize Patient Management",
+  "text": "OVERALL: PROJECT NARRATIVE\nThe overall goal of this renewal P01 proposal is to identify imaging and genomic signatures of brain tumor\nheterogeneity and evolution to optimize patient management of the two most common primary brain tumors in\nadults: glioblastoma and meningioma. This will be achieved by integrating multi-parametric imaging strategies\nassessing spatial and temporal changes in individual patients during the course of their disease along with\ngenomic properties of the tumor. We will ascertain non-invasive imaging markers that reflect the underlying\nbiological mechanisms driving glioblastoma evolution and mengingioma molecular differentiation to improve\npatient care through informing new therapeutic targets and ways to monitor early response."
+ },
+ {
+  "id": "140ae8f3-529c-4583-be42-2ad0fbc16a9f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "SCH: Simulation Optimization of Cardiac Surgical Planning",
+  "text": "This project is relevant to the mission of the National Heart, Lung, and Blood Institute because it will drive\ncardiac modeling and simulation into clinical applications, promote data-driven and simulation-guided\nsurgical planning, and develop an interdisciplinary workforce who possesses both computational skills\nand medical insights. The success of this project will make a lasting impact on our society and bring a\nheart-healthy future."
+ },
+ {
+  "id": "140e03f5-36ab-4b7b-9cb8-97d009508bcb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "PRECISE (PeRfusion imaging to identify postErior CIrculation candidateS for thrombectomy)",
+  "text": "PROJECT NARRATIVE .\nAcute ischemic stroke caused by occlusion of the vertebral or basilar arteries is a devastating disease that\nresults in high rates of death and disability. Patients with vertebral or basilar artery occlusions often undergo\nendovascular thrombectomy treatment to restore blood flow in these vessels, which is thought to improve the\nchances of a good outcome in these patients. The goal of PRECISE is to determine if advanced cerebral\nperfusion imaging can identify a subset of patients with vertebral or basilar artery occlusion who are more likely\nto benefit from endovascular thrombectomy. The results of PRECISE will improve our ability to identify patients\nfor emergency thrombectomy and may lead to improved patient selection and prognostication in this\nunderstudied stroke population."
+ },
+ {
+  "id": "140ed186-afba-4938-8a77-608dcba5864d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Association of Stigmatizing EHR Language with Clinician-Patient Communication and Patient Experience",
+  "text": "This administrative supplement to the parent grant will support the career of Amanda McArthur,\nPhD, who comes from a background underrepresented in science. Further, the project Dr.\nMcArthur undertakes will provide data about how stigmatizing documentation relates to observed\ninterpersonal processes and patient experience of care. The project proposed here could provide\ncompelling evidence of the need for change in the ways we document about patients."
+ },
+ {
+  "id": "14123c14-305c-4f5c-8009-cdfa1bd1d556",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Creating tools to make experimental biochemistry accessible to people with blindness",
+  "text": "The imagery, data and experimental tools of biomedical science are\ninaccessible to people with blindness, leading to systemic exclusion. This proposal is\nutilizing universal design to create and test new technology to make data and laboratory\ntools of molecular science accessible to lab members with blindness (and other people\nwith blindness). The tools will then be used by sighted and blind members of the PI’s lab\nto test biomedical hypotheses in bioinorganic and biophysical chemistry."
+ },
+ {
+  "id": "14124093-f7c5-46a7-a3d3-ba3996f6beb1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Hematopoietic stem cell encoded anti-tumor immunity: mechanisms and function",
+  "text": "This project investigates the immune mechanisms that underlie the success of the oldest immunotherapy of\ncancer, the bacterium BCG. By understanding how BCG unleashes the immune system against bladder\ncancer, we hope to predict who will respond to BCG and to learn broader lessons about immunotherapies that\ncan be applied to other cancers and therapies."
+ },
+ {
+  "id": "14191138-3f0b-4035-a38e-980dfbf222af",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Precision Diagnostics in T-cell Mediated Rejection: Predicting Treatment Resistance at Time of Diagnosis",
+  "text": "T-cell mediated rejection (TCMR) is the leading cause of kidney transplant failure, with treatment requiring\naggressive immunosuppression. With only a fraction of TCMR patients responsive to therapy, an urgent need\nexists for a means of identifying patients likely to be treatment resistant. The PI, Dr. Coley, has worked for years\nto identify a panel of genes differentially expressed in treatment resistant versus sensitive TCMR patients, and\nhere, we will develop a commercializable assay to guide treatment decisions in these fragile patients."
+ },
+ {
+  "id": "141d5e87-47a4-48c5-bfb4-93fc66167c1c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Summer Institute in Neuroimaging and Data Science",
+  "text": "Summer Institute in Neuroimaging and Data Science: Project Narrative\nThe Summer Institute in Neuroimaging and Data Science (“NeuroHackademy”) provides training in state-of-the-\nart data science methods and resources, such as programming, data stewardship, and machine learning, that\nare underrepresented in traditional neuroscience curricula. Through lectures, hands-on training sessions, and\nteam projects, the skills taught by the SINDS will empower scientists from diverse backgrounds to use these tools\nin research on the human brain and on neurological and psychiatric brain disorders."
+ },
+ {
+  "id": "141f2a7e-a420-4fea-b730-b1eadc4ee21f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Acquisition-independent machine learning for morphometric analysis of underrepresented aging populations with clinical and low-field brain MRI",
+  "text": "Brain MRI scans in the clinic (both with high-field scanners and low-field\nportable scanners) and in research are very different, as the former consist of a small set of\nwidely spaced slices, whereas the latter have more slices, closer together. Aging and\nAlzheimer’s research on the human brain with MRI currently relies on computer software\nthat requires scans like those used in research and does not work with clinical or low-field\nscans. We propose to create and distribute tools that use artificial intelligence to make\nclinical and low-field scans usable by research software, thus enabling researchers\nworldwide to study aging and Alzheimer’s in: (i) broader clinical populations that are\npresent in substantial numbers among the millions of scans already stored in hospitals;\nand (ii) populations in rural areas that may be reached with low-cost, portable scanners."
+ },
+ {
+  "id": "14265933-c698-4f9f-9ecc-9a0dc6d66420",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Plasma membrane stress response",
+  "text": "Many eukaryotic cells undergo rapid changes in shape or size, which changes the cell surface\narea. To accommodate these changes, cells fuse the cell surface to internal membrane structures\nto allow for the rapid exchange of membranes. This mechanism seems to play an important role\nnot only to avoid cell rupture but also in the function of many human cells, including blood platelets\nand neuronal development."
+ },
+ {
+  "id": "142b97f6-6fb9-4286-9c9f-e364a7fe2fa4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Effect of Extracellular Citrate on Neuronal Excitability in SLC13A5 Epilepsy",
+  "text": "SLC13A5 Epilepsy is a rare genetic epilepsy caused by mutations in the SLC13A5 citrate\ntransporter protein. Elevated citrate levels have been observed in these patients, but the effect\nof citrate on the nervous system are not well understood. I will use mouse models to investigate\nthe relationship between citrate levels and brain excitability to improve our understanding of\nSLC13A5 Epilepsy and its underlying mechanisms."
+ },
+ {
+  "id": "142c006d-47d2-42a5-88c9-597b667fbb36",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Aldosterone-Vascular Signaling on Cerebral Small Vessel Function",
+  "text": "Cerebral small vessel dysfunction is a major contributor to vascular cognitive impairment. Based on our\ncompelling preliminary evidence, this project aims to determine the blood pressure-independent mechanisms\nunderlying deterioration of cortical and subcortical small vessel function by excess plasma aldosterone\n(hyperaldosteronemia) and subsequent activation of mineralocorticoid receptors—the cognate receptors for\naldosterone."
+ },
+ {
+  "id": "143c26a6-0273-4f40-b035-ed9a9485dd24",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "CSHL Conference on Germ Cells (2026-2030)",
+  "text": "Animals and plants are composed of somatic cells, that form the body, and germ cells, that transmit genetic\nmaterial to the next generation through the union of egg and sperm. This international conference will\nhighlight the latest advances in germline biology in a range of organisms and experimental systems. By\nemphasizing emerging topics in germline specification, the development of germ cells, gamete formation,\nfertilization and egg to embryo transition, the meeting will offer valuable opportunities to share discoveries\nand for foster collaborations. The insights presented are expected to advance our understanding of gene\ntransmission and reproduction with important implications for human health."
+ },
+ {
+  "id": "143c2c6e-a819-4010-bf65-c6aca9bf3261",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Potent broadly neutralizing antibody development against the HIV-1 fusion peptide epitope",
+  "text": "The fusion peptide of HIV-1 is a vulnerable target site with tremendous promise for new preventions and\ntreatments. This project applies recently established technologies to understand how antibodies against the\nfusion peptide effectively suppress HIV-1. This study will reveal new best-in-class antibody drugs against the\nfusion peptide site and provide actionable vaccine strategies to help end the HIV-1 pandemic."
+ },
+ {
+  "id": "143db8e4-c22f-4100-80f6-868a5e206c97",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Synaptic organization of cholinergic interneurons in the nucleus accumbens",
+  "text": "The nucleus accumbens (NAc) is part of the ventral striatum, plays a key role in motivated behaviors, and is\ndisrupted in substance use disorder. Here we use advanced anatomy, electrophysiology, and optogenetics to\nexamine the long-range and local inputs onto cholinergic interneurons (CINs) in the mouse NAc core\n(NAcCore). Our experiments will further our understanding of how different types of glutamatergic and\nGABAergic inputs both contact and influence the firing properties of CINs in this important brain circuit."
+ },
+ {
+  "id": "14443bec-1512-416e-bae7-b075a2563924",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dissecting neocortical field potential dynamics using optical voltage imaging in genetically targeted cell-types",
+  "text": "Recordings of cortical field potentials are widely used in basic and clinical neuroscience and include electroencephalography (EEG), electrocorticography (ECoG) and local field potential (LFP) recordings, which all provide time-varying voltage signals reflecting neural population activity. However, the neural origins of field potential dynamics remain poorly understood, due to a lack of techniques for dissecting how different classes of cells contribute to field potential signals. To break this longstanding impasse, our project applies recently developed voltage-indicators and optical instrumentation for imaging the transmembrane voltage dynamics of genetically defined neuron classes; these techniques will enable us to systematically identify the contributions of 12 different cell- types to neocortical field potential activity."
+ }
+]

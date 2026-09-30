@@ -1,0 +1,142 @@
+[
+ {
+  "id": "cf68067f-f684-4f9a-b303-68e6bc87fcec",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Engineering Bacteriophage T4 as a Targeted Gene Therapy Drug for in vivo HIV Cure",
+  "text": "More than 40 million people across the globe are now living with HIV-1, of which the\nsubstance users constitute a disproportionate and “key population”, yet there is no cure or\nvaccine on the horizon. Using our recently developed bacteriophage T4 artificial virus vector\ntechnology, this proposal will establish a novel and affordable in vivo HIV cure platform that\ncan be easily administered to substance users through one or two infusions. The HIV cure\n“drug” will target stem cells and introduce genetic modifications that confer resistance to HIV\ninfection and then, by repopulating the body with HIV-resistant blood cells including resistant\nT cells, it replaces the HIV reservoir and leads to functional HIV cure."
+ },
+ {
+  "id": "cf694906-e198-4678-96a1-3ba91ad79317",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanistic and Bioinformatics Core",
+  "text": "SUMMARY – CORE C Trained immunity is characterized by pronounced changes in the epigenome, gene expression, metabolism, and cell dynamics. The investigators associated with this Program Project will perform comprehensive studies on trained immunity in the context of transplantation. To safeguard the appropriate implementation of trained immunity assays across the different projects, we have established a Mechanistic and Bioinformatics Core (Core C). Core C will operate at Mount Sinai and be directed by Dr. Jordi Ochando, an internationally recognized transplant immunologist and one of the founders of trained immunity in organ transplantation research. The Core team will provide expertise and in-house optimized protocols to profile immune cells and biologically validate promising therapeutic targets. Importantly, this Core will also safeguard bioinformatics and biostatistics analyses and general data management and storage. Lastly, Core C will implement and manage Labguru, a laboratory management system used to track samples, record, and share protocols and data, and keep inventory."
+ },
+ {
+  "id": "cf6d849b-bd20-461b-801f-ab68282847f6",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Multi-omic immune profiling",
+  "text": "We propose single-cell technologies to quantify multiparameter immune markers that provide in- depth single-cell data for analysis of immune responses to vaccination in our study cohorts. The shared platforms in this service core provide efficient and reproducible profiling in support of our research projects with greatly expanded sensitivity and cell-type specificity. To define cell phenotypes, we will employ mass cytometry or CyTOF (Cytometry by Time-Of-Flight) for multiparameter single-cell analysis, which uses heavy metal ions as antibody labels and provides tremendous detail for cellular analysis of immune subsets. To further profile and correlate the transcriptomes of targeted single cells with immunophenotype, we will employ single-cell cellular indexing of transcriptomes and epitopes by sequencing (CITE-Seq) for circulating blood cells and spatial-resolution proteo-transcriptomics via deterministic barcoding (DBiT-seq) in biopsies from tissues (skin, lymph node). These transcriptomics include in depth sequencing of BCR and TCR to investigate clonal expansion in the tissue compared to the circulation. To identify molecular signatures of vaccine responses across our cohorts, we will use a mass spectrometry (MS)-based MStern blotting-based serum proteomics platform for unbiased discovery of several hundred proteins with immunological function as an excellent reflection of the immunological state. Standardization, both at the assay and analytical levels, will allow comparisons and integration of data across projects. The goals of Core C are to provide a unique and essential resource to enable the comprehensive characterization of circulating immune cells from blood as well as cells available from tissue biopsies, with comparative data by CyTOF and RNA-sequencing (RNA-seq), and matched profiles of proteomic milieu."
+ },
+ {
+  "id": "cf6e3b28-63b5-41a7-aa2b-03c7b7a33615",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Integrative Oncogenomics of Multiple Myeloma",
+  "text": "This program will help develop minimal residual disease (MRD)-based therapeutics and will investigate whether\nMRD negativity should be the ultimate goal of therapy. Moreover, the oncogenomic studies will both identify\ngenomic and epigenomic correlates of disease behavior, and clonal evolution and develop new risk stratification\nmodel as well as identify novel targets."
+ },
+ {
+  "id": "cf717dba-5eda-4a31-9c62-72c0ed7d1290",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Auto-sensing, instantaneous adaptive ranging OCT",
+  "text": "Cameras and imaging systems that reveal the retinal blood vessels are essential tools in the clinical\nmanagement of multiple vision-threatening eye diseases. The proposed research will advance the capabilities\nof optical coherence tomography angiography (OCTA), one of the most common vascular imaging\ntechnologies in ophthalmology."
+ },
+ {
+  "id": "cf72349b-616d-4b45-a8ed-093acef621a0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Autonomous Evolution of Ultra-Specific Affinity Reagents for Epigenetic and Post-Translational Modifications",
+  "text": "This project develops a fully autonomous, high-throughput evolution platform to engineer precision\naffinity reagents for some of the most technically intractable molecular targets in biomedicine:\nmethylated DNA and post-translational modifications (PTMs). By building on our TurboPRANCE system\nand integrating novel strategies for non-canonical target presentation, real-time molecular\ncounterselection, and miniaturized multiplexed screening, we will enable atomic-level discrimination\nbetween highly similar molecular states. These technical innovations will directly address foundational\nlimitations of current detection technologies and produce powerful new tools for molecular profiling, with\nbroad impact across genomics, epigenetics, and synthetic biology."
+ },
+ {
+  "id": "cf73acd1-8b87-41d5-a7b9-ce29b03513b3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Center for Interdisciplinary Research on AIDS",
+  "text": "Recent advances in HIV science make ending the epidemic achievable, yet barriers to implementing proven strategies in practice persist. HIV disparities, rising incidence of HIV in certain geographic areas, increasingly complex HIV co-morbidities, presence of psychosocial barriers, and the need for cost-effective approaches present continuing challenges to public health. CIRA will provide a nexus for scientific inquiry and research collaborations to advance implementation of effective solutions to the epidemic in the U.S and globally."
+ },
+ {
+  "id": "cf770440-0328-4e60-8f2c-74ec10d1b5cf",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Defining The Role of Failed-Repair Proximal Tubule Cells in AdvancedRenal Disease in African Americans",
+  "text": "Kidney disease is a global health concern that disproportionately impacts Americans of African descent. Current\ntherapeutics to manage end-stage renal disease, the most severe form of kidney disease, include renal\nreplacement therapies, which are costly or have significant wait times to obtain. Findings from this research will\nenhance our fundamental knowledge of novel cellular and molecular mediators involved in the acute kidney\ninjury to chronic kidney disease transition, which could be targeted therapeutically to lessen the burden of kidney\ndisease, especially in the vulnerable African American community."
+ },
+ {
+  "id": "cf779d5d-a831-474d-a757-72b6caced8e0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular Interactions and Imaging Core (MIIC)",
+  "text": "The Molecular Interactions and Imaging Core (MIIC) increases the rigor and sophistication of bioMT research projects by facilitating the use of molecular binding and characterization assays, mass spectrometry, and advanced imaging technologies. The MIIC assists investigators interested in monitoring, and in most cases quantifying, binding interactions of their biomolecules, whether as purified components or within cells. The MIIC provides training and advice on best practices in the optimal selection of imaging equipment or technologies, experimental design, collection, analysis, and management of data. In Phases I and II, MIIC has centralized oversight of existing resources and participated in the acquisition of new equipment, both within the bioMT facility and in conjunction with existing cores at Dartmouth. We have hired staff to provide training, guidance, and experimental support in the characterization of molecular interactions. We have also hired imaging and mass-spectrometry navigators to help investigators with experimental design, image acquisition, and image analysis. These activities significantly enhanced the ability of our Phase I and II research project leaders (RPLs) and all bioMT investigators to conduct quantitative binding and imaging studies at Dartmouth. We have also significantly expanded our training programs to include larger groups. In Phase III, MIIC has three specific aims. Specific Aim 1 is to expand the technology portfolio available to Dartmouth and neighboring IDeA researchers. User input has identified technological needs, including additional super-resolution microscopy approaches and intensified support for mass spectrometry and surface binding techniques. Through annual Core reviews and our Faculty and Core Advisory Councils, and as bioMT leadership engages with faculty candidates and new pilot project leaders, we will ensure that Dartmouth has the necessary technologies to advance their work effectively. Specific Aim 2 is to continue supporting the research community. Our navigators work 1:1 with investigators providing training and project consultations. In Phase II, we have expanded our pedagogical offerings to reach a broader audience more efficiently. In Phase III we will continue this trajectory, expanding training programs for graduate students and postdocs, while ensuring sufficient staff bandwidth for on-going research demands. Specific Aim 3 is to ensure long-term availability of MIIC resources. Chargeback models have been developed and will be gradually implemented. MIIC resources and training materials will be valuable for hands-on training by dedicated staff hired to develop and deliver tuition-based bioMT certificate and MS in Biotechnology Programs. Reimbursement for core usage will provide further cost recovery. Together with post- COBRE instititutional support, these sources will lay the foundation for the long-term availability of the Institute’s research resources."
+ },
+ {
+  "id": "cf77d5f1-cbab-4f27-8176-aa8bdf060726",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Building Robust Open-Source Software Applications for the Identification, Prioritization, Visualization, and Selection of Neoantigens in Cancer Immunotherapy",
+  "text": "Susanna Kiwala, MSc, is a lead software developer in the Griffith lab at the Washington University in St. Louis\nSchool of Medicine where she has made significant open-source software and research contributions to the\nfields of precision oncology and immunogenomics. Support from this award will allow her to continue\nexpanding the functionalities of the immunotherapy tool suite pVACtools, which already supports multiple\nclinical trials. She will improve neoantigen prediction accuracy by incorporating validated immunogenicity data,\nporting the pVACview web application to a client-server architecture for scalability, reliability, and to enable\nadvanced features, and develop a first-of-its-kind depository of observed neoantigens for the community\nsharing of neoantigen data."
+ },
+ {
+  "id": "cf784fc4-b866-4def-b964-e6d50b014812",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Potentiating Checkpoint Blockade by Cross-Priming Tumor-Reactive T cells with In Situ Vaccination",
+  "text": "Checkpoint blockade immunotherapy has been a great advance in oncology, but still only\nbenefits a minority of patients. We have developed a novel immunotherapy in situ vaccination\n which has demonstrated clinical remissions in patients with lymphoma and in a pre-clinical\nmodel- greatly increases the efficacy of checkpoint blockade. Herein we will perform basic\nimmunology studies to improve our understanding of the in situ vaccine in previously banked\nand unidentified samples and in the animal model- testing the combination of checkpoint\nblockade and in situ vaccination."
+ },
+ {
+  "id": "cf7889ee-7753-4acc-89db-3dbb6027b21e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Flexible dual-duration multi-wavelength fiber sources for nonlinear and multimodal imaging",
+  "text": "The proposed program will develop robust, efficient, and flexible dual-duration and multi-wavelength fiber\nsources of light enabling several orders of magnitude contrast enhancement for nonlinear and multimodal\nlabel-free, deep, and diffraction-limited imaging in living tissue. Building from advances in ultrashort pulse\ngeneration pioneered by the PIs, all of the critical pulse durations and wavelengths required for the major\nnonlinear imaging modalities can be achieved synchronously, for the first time, in a compact and accessible\nmultimodal imaging platform. Successful completion of this program will have major impact for biomedical\nresearch and clinical applications by significantly improving performance and broadening access to this\npowerful new technology for deep-tissue, label-free, nonlinear optical imaging."
+ },
+ {
+  "id": "cf7f3c04-9072-4710-9f10-447b0f1319da",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "VGF in the nucleus accumbens: roles in synaptic and opioid-evoked plasticity",
+  "text": "This proposal aims to address significant gaps in our understanding of how neuropeptides derived from a specific\ngene (vgf) modulate synaptic plasticity in the nucleus accumbens, and how they modulate neurobehavioral\nplasticity caused by oxycodone exposure and withdrawal. Elucidating specific mechanisms of plasticity will\ncontribute to the development of novel therapeutics that harness neuropeptides and counteract the impact of\nopioids on the brain."
+ },
+ {
+  "id": "cf835b67-5194-406d-8c4e-c70033740c90",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Biostatistics Facility",
+  "text": "Biostatistics Facility (BF) The Biostatistics Facility (BF) is a UPMC Hillman Cancer Center (HCC) shared resource that provides experimental designs and data analyses for clinical, pre-clinical and translational research at HCC. Each HCC disease center has a contact statistician who oversees the support of that center’s clinical trials, grant applications, and pre-clinical and translational research. The laboratory-based and population programs are also served by statisticians selected on the basis of disease focus and technical specialty (e.g., RNAseq expression statistical analysis). The master statisticians support the programmatic biostatisticians’ work and also function independently. In addition to traditional statistical methods, the faculty and staff are proficient in Bayesian, computationally intense and machine learning methods. BF worked closely with the Cancer Therapeutics, Cancer Biology, Cancer Immunology and Immunotherapy, Biobehavioral Cancer Control, Cancer Epidemiology and Prevention, and Cancer Virology programs in the last funding cycle. BF personnel regularly interact with Cancer Bioinformatics Services, Cancer Genome Facility and IMCPL to ensure the integrity and appropriate statistical analyses of biomarker and -omics data. BF personnel meet on a nearly daily basis with CPDM to ensure that clinical trials are designed, implemented, completed and reported in accordance with the requirements of the Department of Health and Human Services. Due to the rapidly increasing complexity of research technology for DNA sequencing and genotyping, RNA sequencing and expression, targeting and discovery proteomics, and immunoassays, programmatic statisticians work closely with biostatisticians (some who are also programmatic biostatisticians, and some outside the BF), bioinformaticians, epidemiologists and informaticians who are experts in these platforms. Over 95% of the BF effort is dedicated to cancer-related research HCC."
+ },
+ {
+  "id": "cf8c6480-d74e-440f-8a72-4dd8b8685f1c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Improving emergency psychiatric care through machine learning, causal inference, and psychometrics",
+  "text": "The United States is experiencing a crisis in mental health care, with overcrowding and delayed mental health care in emergency departments (EDs) accelerating in recent years and contributing to health disparities. In this study, I will analyze ED visits for psychiatric care in a large regional health system, developing: 1) a transdiagnostic subtyping system to track trends in patient mixes, 2) machine learning models to predict ED utilization and post-discharge adverse events (suicide attempt, overdose, or psychotic episode), 3) a precision treatment rule for primary ED disposition decisions on adverse psychiatric events. By combining a large observational database with data science methods, this project will provide unique insights into modifiable risk and resilience factors, opportunities for personalized treatment approaches, and will inform the effective delivery of mental health services, contributing to improved mental health outcomes."
+ },
+ {
+  "id": "cf9812dd-996e-4fa9-be15-ec0544ad6457",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Randomized Trial to Improve Care of Patients with Hereditary Cancer Syndromes",
+  "text": "Among the estimated one million Americans who have screened positive for specific genetic variants related to\nHereditary Breast and Ovarian Cancer Syndrome (HBOC) or Lynch Syndrome (LS), less than half are up to\ndate on evidence-based cancer prevention measures that may increase early detection of syndrome-related\ncancers or prevent certain associated cancers altogether. We posit that providing clinical decision support to\nboth patients and primary care clinicians at clinical encounters will expedite the referral of patients with HBOC\nor LS to subspecialists for timely cancer preventive care, thus improving quality of care and clinical outcomes\nof these high-risk patients. To achieve this goal, we expand an existing, effective, patient-centered clinical\ndecision support system to identify patients who have consented to genetic testing and found to have specific\ngene variants related to HBOC or LS, and assess intervention impact on up-to-date cancer prevention care,\nshared decision making, and patient self-efficacy in managing hereditary cancer risk."
+ },
+ {
+  "id": "cf98338a-9f25-4493-bc71-dbdae0464eff",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Forward and Reverse Genetic Studies of AIS and Spine Development in Zebrafish",
+  "text": "Adolescent idiopathic scoliosis (AIS) is the most common spine disorder affecting nearly 3% of pediatric population worldwide, presenting in otherwise healthy children without overt structural defects of vertebral units. AIS is more common in young women. More severe cases require bracing or surgery. Despite its medical significance, understanding of the genetic bases and pathogenesis of AIS is just beginning and is driven by advances in human genetic studies, combined with forward and reverse genetic approaches in zebrafish and mouse, to which our collaborative Program Project team significantly contributed in the first funding period. During the previous funding period, our Project 2-Zebrafish screened 1,673 chemically-mutagenized F3 zebrafish families for mutations affecting spine development, yielding 73 recessive juvenile and adult scoliosis mutants. Whole genome and exome sequencing of 20 alleles, mapped them to 13 chromosomal loci, implicating numerous genes in normal spine development and indicating the screen is far from saturation. Our forward and reverse genetic efforts in collaboration with Project 1-Human and the Project 3-Genomics of this program identify (i) components of extracellular matrix, ii) inflammation, and (ii) pathways affecting the assembly of the Reissner fiber as culprits in scoliosis. Surprisingly, scoliosis phenotypes often result from hypomorphic mutations in otherwise essential genes, including adamts9 and scospondin. Leveraging the momentum of our productive forward genetic screen, here we propose to extend our morphologic scoliosis screen from 1 to 3 months post fertilization, allowing us to find new genes and pathways and monitor systematically sex distribution of the scoliosis phenotypes. New mutant loci molecularly characterized by whole exome or whole genome sequencing will become candidates for human genetic studies in Project 1-Human and for analyses of regulatory elements in Project 3-Genomics of this program. Applying highly efficient genome disruption and editing approaches, we will validate candidate loci identified by Project 1 in human AIS patients, including protein-altering mutations in RAPGEF3 and LBX1 genes. We will define the underlying tissue, and molecular mechanisms underlying scoliosis in the zebrafish mutants identified by our forward and reverse genetic approaches, through comprehensive assessment of skeletal morphology, bone density, inflammation pathways, the Reissner fiber formation and maintenance, transcriptomes and physiology of the spinal canal. We will test the ability of rationally chosen drugs to suppress the phenotypes. Our genetic efforts in Project 2-Zebrafish will complement and synergize with the Project 1-Human and Project 3-Genomics components of this program to provide the first atlas of genes and will define genetic pathways critical for proper spine development in general and to AIS specifically."
+ },
+ {
+  "id": "cf998511-f2c7-4c66-9839-4960604f0551",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A2: Striosomal models of drug use and cost",
+  "text": "A hallmark of substance use disorders is the continued pursuit of drug despite high costs. To understand this\npattern of behavior, we will develop and validate a computational and neurological model of costly drug\nconsumption. Determining the mechanisms underlying drug pursuit is timely and highly significant given the\nongoing substance use crisis in the United States."
+ },
+ {
+  "id": "cf9d47a2-68dd-4ad4-ae50-bd5ae452525b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Computational methods for benchmarking and development of best practices for virus discovery and characterization in the HVP consortium",
+  "text": "Researchers engaged in the Human Virome Program (HVP) currently lack a unified benchmarking platform to\nsystematically compare bioinformatic viral characterization tools based on sensitivity, resource consumption,\nand scope of application. We propose to establish a benchmarking framework for virome analysis tools\nincorporating curated real and synthetic datasets spanning diverse virome compositions and sequencing\napproaches in order to evaluate an HVP-prioritized suite of bioinformatic pipelines for common analytic needs\n(e.g. novel virus identification or phage profiling) all within an HVP shared cloud compute environment. We will\nleverage this platform to regularly evaluate these tools against standardized data sets and performance\nmetrics for the HVP community and conduct consortium-led challenges to benchmark these tools using the\nHVP’s Collaborative Pilot Project mechanism."
+ },
+ {
+  "id": "cfa2ed5d-c1f7-45ff-b60e-14e031a1ac24",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Immune regulation of arenavirus infections in the placenta",
+  "text": "Project Narrative.\nArenavirus infection during pregnancy can cause debilitating congenital infections and high rates of\nmaternal and fetal mortality. This project will use a combination of in vitro models of the human\nplacenta and experimental infections in guinea pigs to illuminate how these emerging viruses\nestablish productive infections in the placenta and the role of viral replication at the maternal-fetal\ninterface in severe disease."
+ }
+]

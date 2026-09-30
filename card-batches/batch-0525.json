@@ -1,0 +1,142 @@
+[
+ {
+  "id": "2ddce8c9-020c-4afd-be13-a50b37de64a0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Atrial Fibrillation Among Patients with Hematologic Malignancies on Tyrosine Kinase Inhibitor Therapy",
+  "text": "New onset atrial fibrillation (AF) in cancer patients is associated with a high risk of comorbidities including a 6-\nfold increased risk of heart failure and a 2-fold increased risk of thromboembolism. This effort will represent the\nfirst comprehensive study to systematically assess the incidence of AF in patients with hematologic malignancies\nand develop a novel multimodal AF prediction risk model using machine learning to identify those likely to\ndevelop AF when treated with Bruton’s tyrosine kinase inhibitors (BTKIs). This model would provide clinicians\nwith improved methods of determining patients with hematologic malignancies at risk for developing AF, such\nthat a non-BTKI-based treatment could be considered for those at high risk for developing AF, more widespread\nuse of BTKIs could be considered among patients with low AF risk, and optimal monitoring for rhythm problems\nand prompt intervention to decrease AF-related comorbidities could be implemented among those with an\nintermediate risk of developing AF."
+ },
+ {
+  "id": "2ddf650f-fd36-4d0e-9060-d02978cfca61",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Harnessing Diverse Bioinformatic Approaches To Repurpose Drugs For Alzheimers Disease And Related Dementias",
+  "text": "Repurposing existing FDA-approved drugs is one approach to accelerating proof-of-concept and ultimately\ntherapeutic clinical trials for Alzheimer's disease (AD). We propose to continue our bioinformatics campaign,\nparallel to a traditional drug campaign, using available expression data from AD brains in the public domain as\nour “laboratory” and electronic heath records (EHR) as our “clinical trial infrastructure”. Resulting data\npackages from these analyses will be shared on Open Science platforms and will help to prioritize follow on\nclinical and translational studies, which has lead to a new clinical trial."
+ },
+ {
+  "id": "2de060de-b886-4373-b671-93161f6ed6a4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Assessing performance of a Hepatitis C Emergency Department (HepC-END) Screening Tool",
+  "text": "Identifying individuals with hepatitis C virus (HCV) infection provides a critical opportunity to connect them with\ncare, including treatment with highly effective direct-acting antivirals that can cure HCV and thus may slow or\nreverse disease progression and reduce HCV transmission, and to identify individuals who, through shared\nroutes of transmission, may be co-infected with human immunodeficiency virus (HIV). Using machine-learning\nalgorithms, we propose to first develop prediction models to identify patients at risk of HCV and then to translate\nthe best prediction algorithm into a best practice advisory platform integrated into the electronic health records\nsystem. This innovative and integrated platform will better guide clinical providers and health care systems,\nimprove HCV and HIV screening in emergency department settings, and help link patients with care."
+ },
+ {
+  "id": "2de69fbc-7729-4045-9ec7-0110e7e38f81",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Research and Capacity Building in Antimicrobial Resistance in West Africa",
+  "text": "The objective of the proposed training program is to increase research into the detection, prevention\nand treatment of drug-resistant infections in West Africa, and expand knowledge and skills in clinical\nmicrobiology. The program involves providing a rigorous PhD student training, and offering tailored\ntraining to junior scientists and faculty from West Africa, in antimicrobial resistance. The major\noutcome will be a significant increase in antimicrobial resistance research capacity in the West\nAfrican sub-region."
+ },
+ {
+  "id": "2de6edb5-318b-4e4e-ac28-d9d6dc373e5d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating the acute role of corticotrophin releasing factor in visual cortical circuits and visual",
+  "text": "The ability to respond to environmental threats is critical for survival, and activation of the bodys stress-response signaling pathways is fundamentally adaptive. However, excessive stress accumulation can lead to neuropsychiatric illness such as generalized anxiety, depression, and post-traumatic stress disorder (PTSD). Disturbances in visual function and processing are common in PTSD and anxiety-related conditions; alterations in structure and function of visual cortex are reported widely in clinical and pre-clinical investigations. Studies of such conditions have focused primarily on the limbic-hypothalamic circuitry that mediates the stress response and threat learning/memory, with less attention paid to the visual cortical circuitry critical for sensory perception of threatening/aversive stimuli, key to the function of those stress processes. Our limited understanding of the functional links between stress signaling and visual circuitry thus represents a crucial knowledge gap in the field. Signaling through stress-related neuropeptide corticotrophin releasing factor (CRF) and its receptor (CRFR1) in visual cortical circuits provides a potential mechanism that links affective/stressful experience to acute and chronic changes in visual function. Cortical CRFexpressing cells are a sub-type of vasoactive intestinal peptide (VIP) inhibitory interneurons, that disinhibit local circuits in the primary visual cortex (V1), altering visual processing in response to attention and context. Our central hypothesis is that these V1CRF cells are activated by aversive stimuli, disinhibiting and exciting L2/3 pyramidal neurons synergistically through synaptic disinhibition and CRF neuromodulation, altering visual processing as needed during a stressful experience. The objectives of this proposal are to determine how V1CRF neurons are integrated into cortical circuits in primary visual cortex (V1), how V1CRF neurons respond to both affective and visual stimulation, and how V1CRF activity and CRF/CRFR1 signaling alter circuit function and visual processing. Using whole-cell electrophysiology, we will identify the distinct properties of V1CRF neurons and their efferent connectivity to excitatory and inhibitory neurons in V1, and determine how CRF/CRFR1 signaling alters pyramidal cell activity and output. Multiplexed fluorescence confocal imaging will reveal the spatial relationship between V1CRF terminals and CRFR1-positive dendritic spines on L2/3 pyramidal neurons. Using in vivo two-photon imaging, we will determine the visual responsivity and tuning properties of V1CRF neurons, whether their inhibition impairs gain and visual processing in pyramidal neurons, and how CRFR1 activation enhances principal cell responses to visual stimulation. Finally, we will use in vivo fiber photometry to understand how V1CRF neurons and V1 pyramidal neurons respond to affective stimuli of negative and positive valences. These studies will provide novel physiological information about how V1CRF neurons respond to stressful stimuli and influence sensory processing, reveal the influence of CRF peptidergic signaling on fundamental aspects of visual processing, and provide the foundation for future R01-level proposals investigating adaptive and dysregulated affective visual circuitry."
+ },
+ {
+  "id": "2de72dfb-fa53-4bce-901e-2c1ef89f8bb6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Redefining the Lifelong Natural History of Hip Osteoarthritis in Patients with Morphologic Abnormalities",
+  "text": "Many people exhibit morphological abnormalities of the hip joint that alter their natural biomechanics and it is\nsuspected that these morphological abnormalities contribute to the early development of end-stage\nosteoarthritis. This project will address some of the gaps in understanding surrounding hip morphological\nabnormalities by investigating: 1) the genetic basis for morphological abnormalities, 2) the extent to which\nthese abnormalities affect hip joint degeneration and 3) the effect of early intervention to treat these\nabnormalities on delaying the onset of osteoarthritis. By combining several long-term longitudinal cohorts,\ngenetic biobanks, and artificial intelligence-based image processing, we are poised to substantially advance\nthe scientific and clinical understanding of hip morphological abnormalities and their treatments."
+ },
+ {
+  "id": "2de8840c-8117-4aa6-851e-65bc3cd0a1e0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Rapid Cardiac Magnetic Resonance Imaging for Heart Failure",
+  "text": "Heart failure (HF) affects one million Americans aged 20+ annually and incurs the highest Medicare costs of any\ndiagnosis. While cardiac magnetic resonance imaging (CMR) can identify HF presence, severity, and etiology to\nguide treatment and predict outcomes, its clinical use is limited by lengthy exams and breath-hold requirements.\nTo address this, we propose developing and validating a rapid 10-minute CMR protocol for HF patients that\neliminates breath-holding, aiming to enhance accessibility and clinical adoption."
+ },
+ {
+  "id": "2de953c8-5bb6-4fa7-94ac-5a3c35f786f1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project 3 Integrative Histo-Genomic Analysis via Interpretable and Multi-dimensional Deep Learning Approaches for Pan-Cancer Risk Classification and Targeted Therapy",
+  "text": "Background and Significance: The level of genomic heterogeneity found within tumor cells suggests a multi-therapeutic approach is required to effectively treat patients with different cancers. To develop or make the best use of the existing drugs, a deep and precise understanding of the genomic signatures related to the common morphology of the tumor cells or spatial gene expression profile is necessary and much needed. In addition, if the cancer is not detected at an earlier stage, the mutational landscape will be much more complex because once the cell loses its genomic stability, mutations occur at a much higher rate. Thus, successful treatment would involve cataloging the signatures and providing specialized treatment to early stage or so-called “low risk” cancers [1]. While the causes of these statistics are multifactor, recent reports have highlighted that differences in tumor genetics and tumor biology significantly contribute to these disparate outcomes [2,3]. While many tumor types have undergone robust genome sequencing, there is a shortage of genomic profiling from patients with aggressive tumors, which has limited the development of targeted therapies [4,5]. Precision oncology, which focuses on developing targeted therapeutics, relies on a multi-omics approach of a patient’s information to guide treatment regimens [6]. There is robust evidence describing a multi-factorial model that describes the lack of data on such aggressive tumors in research or the tech industries [7,8, 9]. B. Hypothesis: Our hypothesis posits that leveraging deep learning techniques enables the inference of a range of genetic mutations, while establishing meaningful associations between genomic signatures, molecular tumor subtypes, gene expression/immune signatures, standard pathology biomarkers and actionable targets. This can be achieved by directly analyzing routine histology images across multiple solid tumor types (Pan-cancers, here-in referred to Pan-cancers related to reproductive system, mainly prostate cancers, breast cancers, ovarian cancers and cervical cancers). The goal of this proposal is to develop/adapt, optimize and extensively validate a workflow with an integrated deep learning framework that combines multi-omics integration, routine pathology image analysis, and molecular subtyping with better risk assessment and targeting approaches. Researchers have developed computational methods to improve prognosis and identify common key features associated with different cancers. As we know, the emerging computational methods could identify common key features associated with different cancers. These methods incorporate different features such as clinicopathological characteristics, imaging data, biomarkers, and multi-omics data. Recent advances in the field of machine learning (ML) and deep learning (DL) have shown promising results for cancer classification. Numerous reports have demonstrated that tumors with a suppressive immune tumor microenvironment [10]. For example, in breast, prostate, colon, and pancreatic tumors, upregulation of T-cell exhaustion signatures and tumor-associated macrophages have been observed [11,12]. Thus, we proposed the following specific aims: Specific Aim 1: Develop/adapt and evaluate predictive spatial transcriptomic AI algorithms to assess the accuracy of predicting distinct gene expression profiles and immune markers from histopathologic images Specific Aim 2: Integration of Deep Learning-Based Histopathological Features and Cancer Molecular Omics signature for Improving Risk Classification and Prognosis in Pan-Cancers Specific Aim 3: Characterize the functional genomic implications on the actionable targets in Pan-Cancers."
+ },
+ {
+  "id": "2deddc8f-aaa1-4ac8-9826-0a91ba95bcc1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Advancing Precision Lung Cancer Surveillance and Outcomes in Diverse Populations (PLuS2)",
+  "text": "Currently, it is unclear whether guideline-recommended CT imaging surveillance among patients with early-stage\nlung cancer improves survival. Our proposed study has direct value for advancing public health by examining\nreal-world, timely data on the outcomes of lung cancer surveillance. The project will combine multimodal real-\nworld data with simulation modeling to fill critical clinical and policy gaps regarding lung cancer surveillance."
+ },
+ {
+  "id": "2df04c91-1f64-451a-8cbd-c25e1e51cafd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Acquisition of a 96-channel high-throughput biolayer interferometry instrument",
+  "text": "We propose to acquire a high-throughput bio-layer interferometer (Octet RH96, Sartorius) used for quantitative\nmeasurements of protein-protein and protein-small molecule interactions. This instrument will be used by over\n14 laboratories at Northwestern University to carry out biomedical research in the areas of cancer,\nneurodegeneration, metabolic disorders, infectious diseases and psychostimulant substance use disorders."
+ },
+ {
+  "id": "2df4a020-4875-42dc-85fe-280a6cb76895",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "University of Texas Southwestern Medical Center SPORE in Kidney Cancer",
+  "text": "Overall Narrative\nKidney cancer is expected to be diagnosed in over 75,000 individuals in the US in 2021 and is particularly\nprevalent in Texas. Approximately 30% of patients develop metastatic disease, and 5-year survival rates are\n12%. To address this unmet medical need, the UT Southwestern Medical Center Kidney Cancer SPORE has\ndeveloped a comprehensive program to explore and translate therapeutic opportunities with established and\nnew treatment approaches."
+ },
+ {
+  "id": "2dfc5542-8981-44e5-a3b9-7c28aa2a2547",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Clinical Translation of MR Cytometry",
+  "text": "This Academic-Industrial Partnership (AIP) project seeks to translate MR cytometry, a diffusion MRI-based\ntechnique that noninvasively measures mean cell size and cell density in tumors, onto commercial clinical MRI\nplatforms. The resulting new, push-button imaging tool will enable clinicians to characterize tumors at the\ncellular level, improving diagnosis, treatment planning, and monitoring across a wide range of cancers."
+ },
+ {
+  "id": "2dfcb7ca-e82f-4f0c-851f-b1c78ec00bce",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "AI-Campus Workshops: Revolutionizing Healthcare with AI and Machine Learning",
+  "text": "This project proposes AI-Campus workshops to revolutionize healthcare with AI and\nmachine learning. It uses a multi-faceted approach that encompasses a series of events,\nincluding online competitions and workshops. It helps providing more opportunities for\nparticipants to engage with AI in healthcare."
+ },
+ {
+  "id": "2dfdc360-5fcd-4787-8d86-ae76fe4e8706",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular genetics of signaling lipids",
+  "text": "Signaling lipids, such as steroids, terpenoids, and eicosanoids, are critical regulators of animal physiology.\nHowever, in contrast to proteinaceous signaling molecules such as peptide hormones and cytokines, modern\nmolecular genetic tools have not been fully utilized for studying signaling lipids. This project aims to fill existing\nknowledge gaps regarding modes of action of signaling lipids, particularly concerning their transmembrane\ntransport mechanisms, using fruit fly genetics."
+ },
+ {
+  "id": "2e0ee742-d8bc-4faf-831a-88ecd1403680",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Characterization of innate immune signaling pathways in the tick Ixodes scapularis",
+  "text": "Our understanding of tick responses to infection by human health-relevant microbes such as the Lyme\npathogen Borrelia burgdorferi would be aided by efficient unbiased identification and functional validation of\ncomponents of tick innate immune signaling pathways. We will leverage technological advancements made by\nour groups to significantly expand our understanding of innate immune signaling in ticks via efficient\nidentification of new gene candidates in tick cells and in vivo validation."
+ },
+ {
+  "id": "2e126ee8-beb7-495b-82b9-9959cf93e615",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Immunosuppressive Function of Checkpoint Kinase 2 in Gliomas",
+  "text": "Using an in vivo CRISPR screen approach, we discovered Chek2 to be the top kinase contributing to the evasion\nfrom CD8 T cell-mediated killing. Chek2 inhibition with clinical grade drugs improved the efficacy of PD-1/PD- L1\nblockade. Understanding the immunosuppressive function of Chek2 is critical for testing in GBM patients."
+ },
+ {
+  "id": "2e13dc2a-114a-4fbe-93e3-22a97ac8d4b4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Early Detection and Prevention of Ovarian Cancer by Multi-modality Metabolomics and Proteomics",
+  "text": "Epithelial ovarian cancer is the most lethal gynecologic malignancy, partially due to its significant delay in diagnosis, where 80% of patients are diagnosed at an advanced stage, and endometriosis increases the risk to develop ovarian cancer. The overarching goal of this K00 stage is to decipher the molecular interplay between endometriosis and ovarian cancer, with the goal of developing preventative and early diagnostic strategies for invasive ovarian cancers using a multimodality approach: a) Nuclear Magnetic Resonance metabolomics, b) Mass spectrometry imaging and c) LC-MS proteomics. The success of this proposal has the potential for building diagnostic advances in the early-stage detection of ovarian cancers, which will increase therapeutic efficacy and provide therapies to prevent malignant progression toward ovarian cancer."
+ },
+ {
+  "id": "2e1491bb-bc60-41f9-a1df-776e94e6d1e3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of CPT1 activation in the pathogenesis of spinal cord injury",
+  "text": "Spinal cord injury (SCI) is a severe medical problem experienced by humans with no effective treatment avilable\nfor the patients. A deeper understanding of the molecular mechanisms underlying functional deficits in patients\nwith SCI is crucial for development of successful therapy. This project will explore whether mitochondrial CPT1\nplays a critical role in mediating secondary SCI and provides a promising therapeutic target for the treatment\nof SCI."
+ },
+ {
+  "id": "2e158ab0-8610-43e8-99a6-84296cb63661",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Treatment implications of heterogeneity in acute respiratory failure risk among patients with hospital-onset sepsis",
+  "text": "Patients with HOS frequently receive delayed treatment and have nearly 3-fold greater risk of ARF and death\nthan patients with community-onset sepsis yet remain an understudied population. A current absence of data\ncharacterizing clinical presentation, ARF risk, and treatment benefit in HOS presents a critical barrier to\ndesigning interventions that improve treatment timing and prevent ARF for the most vulnerable patients. This\nproposal aims to identify latent clinical HOS phenotypes, develop a model predicting progression to ARF in\nHOS, and estimate heterogeneity in the effect of antimicrobial delays among patients with hospital-onset\nsepsis."
+ },
+ {
+  "id": "2e22a64f-796d-4a53-aaba-d3c3a763b05f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Physiologic stress in advanced tissue culture models of cardiomyopathy",
+  "text": "Heart failure is a leading cause of morbidity and mortality in certain forms of muscular dystrophy. Novel drugs\nare in development or have been approved for muscular dystrophy, but the effect on the heart is unclear.\nThrough this work, we will develop platforms for testing drugs in human cells to evaluate the cardiac\neffectiveness of novel therapeutics for muscular dystrophy."
+ }
+]

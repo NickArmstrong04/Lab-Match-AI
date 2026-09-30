@@ -1,0 +1,142 @@
+[
+ {
+  "id": "2cbb45d1-a6f6-4882-a98e-92c1e72ece92",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "DeepCOPD: Development and Implementation of Deep Learning to Predict and Prevent COPD Health Care Encounters",
+  "text": "The proposed program in chronic obstructive pulmonary disease (COPD) will provide actionable tools and\ninformation from health care data and machine learning to identify early and prevent COPD disease\nprogression and major adverse health care encounters. The risk tools will be used in every day out-patient\nhealth care practice to help prevent disease progression requiring home oxygen use, major adverse health\ncare encounters, and improve health care delivery for patients living with COPD in the community."
+ },
+ {
+  "id": "2cbe6d99-cb98-4eb6-88ca-5387bc9c7b20",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Engineering the degradation of decellularized plant scaffolds for hard tissue engineering",
+  "text": "PROPOSAL NARRATIVE\nThere is a critical need for tissue-engineered substitutes due to the chronic shortage of donor tissues for\ncraniofacial reconstruction. Although they are attractive platforms for tissue engineering, the main challenge of\nusing decellularized plant scaffolds is their limited degradation in humans, which is essential for enhancing\nregenerated tissue quality. This project will develop a technique to control the degradation of decellularized plant\nscaffolds through ultrasound-triggered cellulase release from microbubbles and AI/machine learning-driven,\nimage-guided monitoring of degradation levels."
+ },
+ {
+  "id": "2cc009cd-4ead-4fd6-90db-d9be892278ae",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "UCSF Specialized Programs of Research Excellence (SPOREs) in Prostate Cancer",
+  "text": "The UCSF Prostate Cancer SPORE seeks to reduce the morbidity and mortality associated with prostate cancer\nby leveraging a deep understanding of the disease to translate biological findings into clinical impact. In this\nSPORE application, three translational projects focus on developing novel biomarkers and highly effective\ntherapies for patients with aggressive prostate cancer. These projects are highly collaborative with respect to\nthe multidisciplinary nature and expertise of the Co-Leaders."
+ },
+ {
+  "id": "2cc13edd-ba8e-4e87-b99b-bd09a631a5b8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Circulating cell-free DNA methylation as an accurate tool for detection and clinical follow-up of glioma",
+  "text": "Malignant gliomas, which include glioblastoma, account for 46.6% of primary (de novo) brain tumors that often\nprogress or recur as a more aggressive phenotype and are nearly uniformly fatal. Currently, the monitoring of\nrecurrence and progression is performed by imaging which is limited by its sensitivity, dependent on the tumor\nsize-threshold, the lack of specific criteria to diagnose and/or differentiate glioma from other conditions (e.g. CNS\nlymphoma, pseudoprogression or radiation necrosis), and availability and feasibility for some patients. This study\nproposes to establish a non-invasive approach using DNA methylation to improve detection and surveillance of\nglioma, with the ultimate goal of fine-tuning treatment by providing insight into the evolving tumor biology in real\ntime."
+ },
+ {
+  "id": "2cc341df-04b8-4276-990f-a3efa5801355",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Improve Electrical Integration of hiPSC-derived cardiac tissue with Host Heart",
+  "text": "The adult human heart cannot regenerate the cardiomyocytes to repair damaged myocardium following injury, which\nmay eventually lead to heart failure.\nCardiac cell therapy through implanting engineered cardiac tissue derived from human induced pluripotent stem cells\ninto the damaged host heart has shown promising therapeutic effects, but the electrical integration between the\nimplanted engineered tissue and the host heart, a key issue in cardiac cell therapy, is still understudied.\nThe proposed project will investigate potential methods to improve electrical integration between engineered graft\ntissue and host myocardium, aiming to improve the efficacy and safety of cardiac cell therapy."
+ },
+ {
+  "id": "2ccdc8df-7aca-48e7-9c4e-5318e6c6d135",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Anti-citrullinated Protein Antibodies in the Female Reproductive Tract",
+  "text": "This research is directly relevant to human health since rheumatoid arthritis (RA) is a chronic autoimmune\ndisease that disproportionally affects women. This work will advance our understanding of RA etiology by\ninvestigating anti-citrullinated protein antibodies in the female reproductive tract, which is highly relevant to the\nNIH-Wide Strategic Plan for Research on the Health of Women."
+ },
+ {
+  "id": "2ccecc49-8add-4299-95c3-9ca82f875646",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of CRISPR/Cas9-based exon-skipping strategies for the treatment of USH-associated deafness",
+  "text": "Gene and cell-based therapies using genome editing offer the promise of treatment for a variety of inherited\ndisorders but has not been used successfully for human hereditary deafness including Usher syndrome. Extraordinary new\ntools based on CRISPR/Cas9 based exon-skipping strategies have recently been developed to treat genetic disorders. We\nwill use these to correct mutations in three different Usher genes that cause inherited hearing loss in humans, using human\ninner ear cells and animal models engineered to carry these specific mutations."
+ },
+ {
+  "id": "2cd634a0-b2bc-4d28-80f3-a4cefed064b2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Computational methods for multiplex image analysis of the tumor microenvironment",
+  "text": "The environment in which a tumor develops contains a milieu of different cell types arranged in complex spatial\npatterns, where these features may play a critical role in cancer progression and treatment response. We will\ndevelop computational strategies rooted in spatial statistics and deep learning to analyze detailed images of\nthese tumor microenvironments. This analysis will deepen our understanding on the spatial structure of tumors\nand identify patterns that could facilitate individualized treatment decisions."
+ },
+ {
+  "id": "2cd87231-d344-4719-8743-07ca61c1d2d0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Peptibodies As Novel Therapies in Atrial Fibrillation",
+  "text": "Atrial fibrillation (AF) is the most common heart rhythm disturbance seen in the clinic and is a major cause of morbidity\nand mortality. Current treatments for AF are inadequate and are marred by dangerous side effects. Here, we will utilize\nprotein engineering approaches to provide proof of concept for the design of new therapeutic modalities that are safe and\neffective in stopping AF and restoring normal sinus rhythm."
+ },
+ {
+  "id": "2cdf1219-6000-4c28-a25b-a032a11bdce1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Role of Gardnerella and Prevotella Species as Early Colonizers in the Pathogenesis of Incident Bacterial Vaginosis",
+  "text": "Bacterial vaginosis (BV) is the most common vaginal infection worldwide and is associated with an increased\nrisk of HIV and sexually transmitted infection (STI) acquisition, infertility, preterm birth, and other adverse health\noutcomes. The etiology of BV remains unknown; however, Gardnerella and Prevotella species are hypothesized\nto be early colonizers of the BV biofilm with synergistic potential. Results from the proposed F31 project will\nprovide further insight into these bacterial species, their role in the pathogenesis of incident BV, and inform\nimprovements in BV diagnosis, treatment, and prevention."
+ },
+ {
+  "id": "2ced86fb-b050-41c5-a799-0d614c599574",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Statistical Methods for Integrative Analysis of Large-Scale Whole Genome Sequencing Studies and Biobanks of Common Diseases",
+  "text": "This project aims to develop and apply advanced statistical methods powered by synthetic data generated from\ngenerative ML/AI models for integrative analysis of large scale whole genome sequencing studies (WGS) and\nbiobanks. We will improve the power of common and rare variant association studies through synthetic WGS\nanalysis; develop synthetic and transfer causal medication analysis in the presence of missing omics data and\npopulation heterogeneity to uncover the biological causal pathways of exposure, molecular mediators and diseases\nand traits; and develop synthetic and transfer knockoff methods to enhance fine mapping and the identification of\ncausal variants in multi-ancestry studies. Ultimately, this work will accelerate biological discovery and advance\nprecision health."
+ },
+ {
+  "id": "2ceda045-da47-4a20-bdd4-f42e9df46b44",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Lipid-dependent host-microbe interactions",
+  "text": "Lipids are important mediators of signaling with underdefined roles in mediating communication between\nmammals and their beneficial gut microbes. Defining key mechanisms governing host-microbe lipid exchange\nwill allow us to target these exchanges for the benefit of human health."
+ },
+ {
+  "id": "2cedd272-6a1b-475d-8632-bef95957dc89",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Optimizing the Delivery of Obesity Treatment Through Facilitated Assessment and Selection Strategies",
+  "text": "Obesity (body mass index >30 kg/m2) and its associated chronic conditions (e.g., diabetes, hypertension)\nrepresents a major healthcare burden in the United States. While bariatric surgery and the more recently\napproved Glucagon-Like-Peptide-1 Receptor Agonists are effective obesity treatments, little is known about\ntheir current individual or combined use at the population level. This study will assess current obesity treatment\nuse at a population level, what factors contribute to variation in treatment use, as well as design, implement,\nand test a tool to help clinicians and patients select, deliver, and use the treatments."
+ },
+ {
+  "id": "2cf01d13-727b-48f0-8f7c-8fe99be6704d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Precision Medicine Policy and Treatment (PreEMPT) Model II",
+  "text": "With hundreds of genetic tests becoming available for clinical use, adding genomic sequencing for all newborns at birth to predict and prevent future diseases is becoming a possibility. Our research aims to extend the Precision Medicine Policy and Treatment (PreEMPT) Model – a sophisticated computer model capable of simulating short- and long-term clinical benefits and estimating the cost-effectiveness of integrating different genomic sequencing strategies into clinical care for newborns for a wide variety of heritable conditions – to evaluate outcomes through adulthood and in testing of siblings of newborns with mutations. We will also identify factors that influence the value of newborn genomic sequencing with the goal of improving medical care and health outcomes for all populations."
+ },
+ {
+  "id": "2cf100df-4cae-4cb7-b314-b2914378683a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanical properties of adipose tissue and its effect on breast cancer",
+  "text": "Metastasis is the leading cause of death in patients with advanced breast cancer and increases in frequency\nwith obesity; however, the underlying mechanisms that cause breast cancer metastasis remain unclear. By\niteratively coupling computer simulations, experiments, and advanced omics approaches, the proposed studies\nwill improve understanding of how obesity-dependent changes in breast adipose tissue mechanical properties\nregulate breast cancer invasion and metastasis and link these changes to targetable cellular mechanisms. The\ngenerated new insights have the potential to decrease breast cancer burden associated with the obesity\nepidemic in the U.S."
+ },
+ {
+  "id": "2cf15518-66a1-4f74-9748-af25eb96c0f5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Innate immune factors governing restriction of human coronaviruses",
+  "text": "Infection with human coronaviruses (HCoVs) causes a wide range of disease outcomes ranging from\nmild for endemic viruses like HCoV-OC43, to more lethal for SARS-CoV-2 suggesting there may be\ndifferences in the features of the innate immune response that control infection. The proposed studies\nbegin to test this hypothesis by comprehensively identifying innate immune factors that control HCoV-\nOC43 infection, and by comparatively assessing the activity of immune factors against HCoV-OC43\nand SARS-CoV-2 using a series of cell-based studies, as well as biochemical characterization of virus-\nhost protein interactions. These studies will provide a mechanistic framework to describe differences in\ninterferon-mediated innate immune responses to diverse coronavirus species and may help to inform\nbroadly acting therapeutic strategies targeting innate immunity."
+ },
+ {
+  "id": "2cf1b661-0642-4cdb-9fad-4f5f18a38551",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Data Science",
+  "text": "The Data Science Shared Resource (DSSR) of the H-H U54 initiative aims to provide comprehensive data support, ensure data integrity, and facilitate FAIR (findable, accessible, interoperable, and reusable) data curation. DSSR is co-led by a team of experts from Johns Hopkins University Sidney Kimmel Comprehensive Cancer Center and Howard University, with complementary expertise. The DSSR will implement advanced database technologies, optimize data access, and establish an analytical framework for scientific rigor and reproducibility. The DSSR plans to develop advanced curation tools, incorporate artificial intelligence, and create analytic tools to manage data. The shared resource will also enhance the data model by incorporating attributes relevant to population-based research and developing an analytics infrastructure to support robust and representative data analysis. The DSSR is committed to continuous advancement, promoting collaborative code sharing, and developing models that employ statistical methods, artificial intelligence, and machine learning to deepen scientific understanding and improve cancer research outcomes."
+ },
+ {
+  "id": "2cf44c4b-413f-4fbf-a8b9-698d9f9beb20",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Chronic sleep disruption as prognostic biomarker of cognitive recovery following traumatic brain injury.",
+  "text": "Disrupted sleep is a common and persistent symptom after traumatic brain injury, which\ncan significantly complicate recovery. Chronic disturbances in sleep patterns may induce\nadverse changes in cognitive performance and over time lead to memory dysfunction.\nHowever, the mechanisms underlying cognitive deficits due to chronic sleep disruption\nfollowing traumatic brain injury remain poorly understood. To improve quality of life in\nService Members and Veterans with traumatic brain injury, an understanding of the varied\nmechanisms triggered by traumatic brain injury is required to prevent or optimally manage\ncognitive recovery over time post injury. Therefore, the goal of this project is to interrogate\nchronic sleep disruption and related cognitive deficits using a clinically relevant large\nanimal model of traumatic brain injury."
+ },
+ {
+  "id": "2cf752f0-d441-4fd8-a73a-bf6919abc380",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of Gastrointestinal COVID-19",
+  "text": "Coronavirus disease 2019 (COVID-19) has infected millions, impacted billions of lives, and precipitated\nsocioeconomic destabilization. There is a pressing need to understand SARS-CoV-2 replicates in the host\ngastrointestinal tract, interacts with the mucosal immune system, and drives diarrheal disease. We expect our\nresults to drive innovative therapeutics to treat COVID-19 related enteric diseases with or without inflammatory\nbowel diseases."
+ },
+ {
+  "id": "2cfbbd40-d855-4524-899c-160d60271d74",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Integrative Analysis of Lung Cancer Etiology and Risk",
+  "text": "Worldwide and in the U.S. lung cancer is the leading cause of cancer mortality. Our proposal identifies risk\nfactors at each step of lung cancer development to understand the mechanisms controlling and influencing its\nprogression and to identify biomarkers that can be used clinically for early detection. We have also included\ndiverse communities in our research program, in order to identify approaches to engage them in risk reduction\nstrategies."
+ }
+]

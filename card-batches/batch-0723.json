@@ -1,0 +1,142 @@
+[
+ {
+  "id": "75982253-dee8-4f2c-ab14-ac424ed12d0a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Atherosclerosis core",
+  "text": "The Atherosclerosis Core (Core 3; C3) will be led by Dr. Edward Fisher and provide Program Project Grant (PPG) investigators with three complementary approaches for analyzing atherosclerotic lesions, lesion macrophages, and gene expression in myeloid cells and tissues investigated in the projects. First, C3 will provide histological staining, immunohistochemistry, and quantification of atherosclerotic lesions. Second, it will provide laser capture microdissection of macrophages and other types of cells in atherosclerotic lesions for analysis of gene expression changes. Third, C3 will provide expertise in aortic digestion to obtain specific cell compartments to provide samples to the NYU Genomic Technology Center (GTC) for RNA sequencing (RNA- seq) and single cell RNA-seq (scRNA-seq) analyses. These `omic' data will then undergo bioinformatic analyses under Core 1, which will oversee Administration, Data Management, Biostatistics, and Bioinformatics.By providing a central laboratory, C3 offers these services with optimal efficiency and cost- effectiveness, avoiding the need for PPG investigators to maintain the required instrumentation in their own laboratories or use expensive commercial services. By centralizing and standardizing procedures, C3 provides a common set of analytical tools to enable a unified understanding of molecular mechanisms involved in pathophysiologic processes of atherosclerosis and the biology of macrophages and endothelial cells. The Specific Aims of C3 are: 1. To provide comprehensive tissue analysis and quantification of atherosclerotic lesions; 2. To provide laser capture microdissection (LCM) of target cells, primarily macrophages, in atherosclerotic lesions for gene expression studies; 3. To prepare aortic tissue (by digestion and FACS) to provide samples to the GTC for RNA-seq and scRNA-seq (with the resulting data to be analyzed by Core 1)."
+ },
+ {
+  "id": "759c5c7e-1fe4-4817-beed-c009f316ba24",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "MMP-9 based immune-driven mechanisms of neovascular AMD",
+  "text": "Most patients with neovascular age-related macular degeneration (AMD) need eye injections every 1-3 months\nfor the remainder of their lives. This study will contribute to our understanding of a novel immune-mediated\nmechanism involved in neovascular AMD that is associated with incomplete response to treatment."
+ },
+ {
+  "id": "759e9acc-c3b2-4fa5-92f1-4b0168d07d58",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "HiJAKing the System: Investigating the Impact Mechanisms of Low Variant Allele Frequency JAK2V617F Clone on the Pathobiology of Myeloproliferative Neoplasms",
+  "text": "JAK2V617F (JAK2V/F) mutation is a major driver of myeloproliferative neoplasms (MPNs), however JAK\ninhibitors currently in clinical use fail to eradicate disease-initiating malignant hematopoietic stem cells and are\nnot curative. Our recent data indicate that JAK2V/F clone at low frequency induces profound and irreversible\nalterations in its microenvironment, which then prime pathogenic phenotype of the unmutated bystander cells to\ndrive MPN development. The outcome of this study will generate foundational information to explain why the\nJAK2V/F-targeted therapies are ineffective and inform new directions in MPN therapies."
+ },
+ {
+  "id": "75a09bba-e96d-49ac-a82b-471cf02b2794",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A Systems Biology Framework for Decoding Microbial Habitat Colonization",
+  "text": "This research establishes a systems biology framework for decoding microbial habitat\ncolonization. By integrating deep-learning–based genome modeling with the MagVAE\nmodel (Aim 1) and mechanistic studies of the novel colonization factof YigZ identified by\nmy recent study (Aim 2), the project will reveal how microbial genomes encode adaptive\nstrategies that enable colonization and persistence within mammalian hosts. These\ndiscoveries will advance fundamental understanding of microbial evolution, translational\ncontrol, and the genetic logic linking genome variation to ecological adaptation across the\nbiosphere."
+ },
+ {
+  "id": "75a10b78-f748-4452-a8f6-25dd4a752407",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Institutional Research Cancer Epidemiology Fellowship",
+  "text": "The Training Program in Cancer Epidemiology, Prevention, and Control prepares pre- and postdoctoral\ntrainees to be the next generation of population-based researchers who will set and address the nation’s\ncancer research agenda with the goal of reducing cancer incidence, morbidity, recurrence, and mortality."
+ },
+ {
+  "id": "75af108d-1cb0-4360-b189-5e41c170e297",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Orbitrap Ascend Tribrid Mass Spectrometer System for Advancing Proteomics Research in Southeastern Wisconsin",
+  "text": "The Medical College of Wisconsin, a nationally recognized freestanding medical school, is committed to establishing a regional mass spectrometry resource to advance research in critical health areas, including cancer, cardiovascular disease, metabolic disorders, and more. The requested mass spectrometer will significantly enhance proteomics research by enabling deeper molecular insights into these diseases and facilitating the discovery of novel diagnostic and therapeutic strategies. This state-of-the-art instrument will support NIH-funded programs and strengthen the research and educational missions of the College and its partner institutions across southeastern Wisconsin, fostering innovation and collaboration in translational biomedical science."
+ },
+ {
+  "id": "75b41379-9acb-42af-996f-917dd9e08ad8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Pathogenic Alterations of the 3D Epigenetic Landscape in Dystrophin-Deficient Skeletal Muscles and Reversal by Dystrophin Re-Expression",
+  "text": "Duchenne muscular dystrophy (DMD) is a devastating pediatric disease caused by mutations in the dystrophin\ngene, leading DMD boys to wheelchair, followed by premature death within the second/third decade of their\nlife. There is not yet a definitive cure of the disease; however, the recent entry into clinical trials of gene\ntherapies approaches aimed at restoring dystrophin in DMD boys prompted an interest to evaluate the full\nspectrum of alterations caused by dys deficiency and whether they can be completely or partly restored upon\ngene therapy. This proposal will address this urgent issue, by investigating the relationship between dystrophin\ndeficiency and the altered tri-dimensional genome topology and deregulated gene expression in DMD muscles,\nand by determining whether these alterations could be reversed upon dystrophin replacement."
+ },
+ {
+  "id": "75b655ac-8fc0-4d33-ac9b-d1321fc6ecc2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of protein-based nanostructures activated by ultrasound",
+  "text": "Gene cargo delivery systems remain the major challenges to advance cell-based and patient-specific therapies.\nThe goal of the proposed study is to develop an in vitro non-viral intracellular delivery approach for effective\ngene engineering by combining gas vesicles, protein shells containing gas in the core, and Cas9-\nribonucleoprotein (RNP) to form protein clouds as delivery cargo, controlled by ultrasound excitation for safe and\nefficient manipulation of target cells. The proposed approach has the potential to provide advanced genetic\nmodifications that are required to treat advanced diseases such as solid tumor immunotherapy and\nneurodegenerative diseases."
+ },
+ {
+  "id": "75b99264-bce7-4b67-8cbe-1da28f6c4b67",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Tissue Size and Precision Control in Growing Hair Follicles",
+  "text": "Tissue size control is one of the most fundamental, yet poorly understood problems in modern biology. The\nproposed work will combine mathematical modeling and experimental manipulations in mice and in vitro to\ndiscover how growing hair follicles regulate length of hairs. The results will be directly relevant to the\nunderstanding of normal tissue growth, the mechanisms of stem cell control, and the basis for high evolutionary\nvariability of sizes in the same tissue among closely related animal species."
+ },
+ {
+  "id": "75bd95f2-e986-4c44-b211-1ff901fff20b",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Core 4: Experimental Modeling Core",
+  "text": "Summary Experimental Modeling Core The Experimental Modeling Core (EMC) aims to establish a standardized and comprehensive framework for modeling Alzheimer’s disease (AD) cellular subtypes using induced pluripotent stem cell (iPSC)-derived brain cell models and sharing these with the scientific community. This approach will facilitate the characterization and validation of candidate subtype-specific therapeutic targets and secreted biomarkers. To achieve this, the EMC will generate and bank iPSC lines and differentiated brain cell types from ROSMAP participants of diverse ancestral backgrounds in Aim 1, ensuring rigorous and consistent quality control and genomic integrity. Notably, these iPSC lines will be derived from the same ROSMAP individuals whose brain and plasma multi-omic profiles provide critical insights into subtype-specific pathways. In Aim 2, the EMC will use CRISPR-Cas9 technology to create isogenic lines to study the functional consequences of perturbing high-priority genes identified in Project 1, and from these generate iPSC-derived neurons, astrocytes, microglia, pericytes, and endothelial cells for interrogating the molecular impact of genetic and chemical interventions under activities in Project 2. Finally, in Aim 3 the EMC will establish robust pipelines for sharing protocols and IPSC models with the greater scientific community in close collaboration with the Administrative and Data Management Core. Taken together, the EMC will execute activities and provide essential resources that will enable the work of Projects 1 and 2 which in turn will provide a comprehensive understanding of AD subtypes and accelerate the development of personalized targeted therapeutics."
+ },
+ {
+  "id": "75bda0fd-0243-46be-b1fd-8c1c346cf030",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A Genetic Engineering Toolbox for Marmosets (GETMarm): Development and optimization of genome editing and assisted reproduction techniques for marmoset models",
+  "text": "It is increasingly recognized that non-human primates (NHP) such as marmosets provide an essential\nmodel to study higher brain function and dysfunction which are difficult to study in widely-used rodent models.\nThis study will develop highly efficient genetic engineering tools and methods for genome engineering in\nmarmosets allowing functional interrogation of the marmoset brain in healthy and disease models. The\ndevelopment of highly efficient methods will also significantly reduce the number of animals used for each\nstudy."
+ },
+ {
+  "id": "75c023fc-9404-4a43-856a-486c3406214a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The role of MGA in the pathogenesis of Richter Transformation",
+  "text": "Richter Transformation (RT) is a critical complication of chronic lymphocytic leukemia (CLL) patients, and a\nbarrier to CLL management, as RT patients exhibit refractoriness to most existing therapies and a median overall\nsurvival of less than 12 months. The evolutionary trajectories, biological mechanisms and therapeutic\nvulnerabilities of RT are largely unknown, because of the relative rarity of primary RT samples and the limited\navailability of genetically-engineered mouse models faithful to the genetic complexity of human disease. The\nobjective of this proposal is to dissect the function of a prevalent genetic driver of RT – the MGA gene – and\nidentify novel immunotherapy-based combination treatments that can selectively benefit patients carrying this\nmutation."
+ },
+ {
+  "id": "75c8b069-2d78-4696-95fc-f5ceba22fb8c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Tracking Peripheral T-Cell Repertoire Changes for Preoperative and Early Ovarian Cancer Diagnosis",
+  "text": "Ovarian cancer is the deadliest female cancer in the world, and currently there is no effective preoperative\ndiagnostic biomarker. We have demonstrated that the circulating T cells can be used as indicators of cancer\nstatus, and plan to prospectively collect an ovarian cancer patient cohort with matched immunogenomics data\nand to train a machine learning model to obtain a novel TCR-based biomarker. Successful delivery of our Aims\nwill provide a validated, independent ovarian cancer biomarker with improved diagnostic accuracy."
+ },
+ {
+  "id": "75c8b7dc-573c-4eee-af13-4f171b8192e2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Oligosaccharide cross-feeding and competition in microbial communities",
+  "text": "Microbial carbohydrate metabolism is typically assayed by measuring biomass accumulation in pure cultures on a defined carbon source. This approach may obscure what occurs in natural microbial communities where cooperation or competition with other species may exist, where metabolic intermediate are generated that other species may utilize, and it ignores the physical features of the environment where that community resides. Humans host a taxonomically and functionally diverse microbial community in their gastrointestinal tracts that is influenced by multiple intrinsic and extrinsic factors that remain ill-defined. Extrinsic carbohydrate nutrients (diet- or host-derived) can support the growth of microbes that can access and utilize those nutrients. How bacteria intrinsically alter the nutrient landscape of their environment and how/whether active bacterial processes promote competition or cooperation for carbohydrate nutrients remains unclear. We have identified oligosaccharide intermediates produced during dietary plant polysaccharide (fiber) degradation that are structurally modified by bacteria before being released into the environment. We hypothesize that select human gut bacteria generate modified oligosaccharides to create extracellular nutrient reservoirs, enhancing their fitness and that of their kin in competitive environments. Over the next five years, we will first define the structures of modified oligosaccharides produced by gut bacteria to determine how human gut microbes synergize anabolism and catabolism to alter the pool of available carbohydrate nutrients. Next, we will establish how oligosaccharide structures influence the ability of bacteria to acquire, degrade, and utilize nutrients by employing forward- and reverse genetics approaches and synthetic microbial communities. Lastly, we will establish how microbial community composition and host diet shape oligosaccharide nutrient availability along the length of the gastrointestinal tract using mass spectrometry imaging. Using the mammalian gut microbiota as a model microbial community, we will define an intrinsic role for bacteria in shaping carbon nutrient accessibility. Our study will reveal an active biochemical mechanism that bacteria employ in nutrient- competitive environments to obtain carbohydrate nutrients and compete against other species."
+ },
+ {
+  "id": "75d19176-9d2e-4ef4-a30e-5151ce4af194",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Depression, Inflammation, Biological Age and Cognitive Function",
+  "text": "Statement of Public Health\nPast research has identified depression, inflammation, and accelerated biological aging as\nindependent risk factors for Alzheimer’s disease and related dementias (ADRD); however,\nbecause these factors have typically not been investigated at the same time, it is unclear how\nthey intersect to confer risk. This project will investigate the unique, cumulative, and interactive\nimpact of depression, inflammation, and biological aging on cognitive decline and ADRD risk,\nand will help unpack the underpinnings of racial disparities. Ultimately, this project will pave the\nway for tailored preventative interventions to reduce risk of cognitive aging and decline."
+ },
+ {
+  "id": "75d3d017-701d-4cc4-af4a-6440da8a584b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Regulatory Roles of Noncoding RNAs in Gene Expression and Cellular Stress Responses",
+  "text": "This research investigates the mechanisms underlying DoG RNA biogenesis and their roles in regulating gene\nexpression and stress responses. Understanding these processes will reveal how transcriptional dysregulation\ncontributes to diseases like cancer and uncover therapeutic targets for restoring cellular homeostasis."
+ },
+ {
+  "id": "75d511a0-a88d-4dfd-9fda-3954d36c7cf8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Light-Responsive Inorganic Compounds for Diagnosis and Therapy",
+  "text": "Many neoplasms treated with surgery recur due to incomplete removal of tumors. This project will create safe\nmolecules and systems to enhance surgical precision and simultaneously treat any residual cancer cells that\ncannot be completely removed during the procedure. The strategy enabled by the light-responsive agents could\nbe deployed to a variety of cancers and improve patient outcomes."
+ },
+ {
+  "id": "75d7afb1-bc8a-42d5-81f4-a7948386945e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Advanced Bioaerosols Technology Core",
+  "text": "Project Summary/Abstract – Advanced Bioaerosol Technology Core The Advanced Bioaerosol Technology Core (ABTC) will develop a comprehensive suite of innovative technologies for improved sampling, fractionation, culture, and characterization of influenza virus aerosols to enable new analytical capabilities in support of the U19 research project goals. The advanced technologies developed through the ABTC will be employed within each individual research project to yield more effective studies of airborne transmission and infectivity through a combination of efficient ambient sampling to evaluate size-dependent distributions of infective virus within the clinical environment, and high-resolution individual exhaled breath sampling to elucidate the fundamental source terms needed for accurate transmission modeling. The ABTC team will leverage expertise across the fields of bioengineering, bioaerosol system engineering, and respiratory virology to develop 5 interconnected technologies for advanced bioaerosol analysis. In Aim 1, a set of compact instruments will be developed for the collection and parallel size-based fractionation of ambient environmental aerosols to enable distributed monitoring of airborne virus during the proposed clinical studies. In Aim 2, a second aerosol sampling instrument employing a unique exhaled breath sampling technology will be developed to provide high resolution aerosol fractionation and collection, allowing us to evaluate both viable and non-infective virus emission from individual donors across narrow particle size ranges. To enhance infectivity characterization for sampled virus particles, a synthetic mucus hydrogel will be advanced in Aim 3 as a novel sample target for the environmental sampler, providing improved virus capture and cell culture, greatly improving virus capture and viability for downstream infectivity assays. A digital cell culture array technology will be developed in Aim 4, enabling the direct isolation of individual aerosol particles captured by the exhaled breath sampler, and allowing us to evaluate distribution and clustering of both viable and non-infective virus units at single particle resolution. The ABTC team will also develop an optimized cell line that will be employed for the analysis of virus collected with the developed instruments to enhance evaluation of infectivity. The core will validate the developed technologies for aerosol sampling, capture, isolation, culture, and analysis through a set of ferret studies before integration with the proposed U19 research projects, and will execute the required assays using clinical samples to support the goals of RP1 and RP2. The results of the ABTC research efforts will yield the instruments and technologies needed to enhance our understanding of influenza aerobiology, from the determination of critical source terms to the evaluation of infective particle distributions within the environment, supporting significant improvements to influenza transmission modeling, risk analysis, and mitigation, while making important contributions toward advancing our understanding of other respiratory viral pandemic threats."
+ },
+ {
+  "id": "75e05dab-084a-4f89-961b-19f2fef15ee7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Neuroimaging Phenotypes of Post-Traumatic Epilepsy",
+  "text": "Epilepsy is a chronic, debilitating neurological disorder that affects millions of people across the globe.\nEpilepsy due to head injury, known as post-traumatic epilepsy, represents an opportunity to understand the\nchanges in the brain that lead to epilepsy. This research will help us understand the unique structural and\nfunctional changes in the brain leading to post-traumatic epilepsy and develop tools for epilepsy risk\nstratification after head injury—a prerequisite for feasible clinical trials of therapies for the prevention of\nepilepsy."
+ },
+ {
+  "id": "75f407de-faff-4d92-a135-0a612e6c6d38",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Directed Clonal Evolution of Drug Resistant BRAF Mutant Melanoma for Cross-Sensitization to MAPK Hyperactivation",
+  "text": "Current standard of care targeted therapy options result in improved response rates and longer progression-free\nsurvival compared to traditional chemotherapy. However, the majority of responses to these treatment options\nare short-lived and limited by drug resistance. The main goal of this project is to establish a novel therapeutic\nstrategy to exploit targeted therapy resistance for sensitization to the next therapeutic intervention."
+ }
+]

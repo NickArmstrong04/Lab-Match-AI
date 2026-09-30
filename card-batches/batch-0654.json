@@ -1,0 +1,142 @@
+[
+ {
+  "id": "5ba5dd93-99f6-4cf3-98f9-b7b85497ea67",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Animal Imaging",
+  "text": "Small-animal imaging in mice and rats has become integral to preclinical and translational biomedical research. This non-invasive approach allows for in vivo assessment of biological structures and functions, providing quantitative data on normal and diseased tissues such as tumors, as well as surrounding reactive normal tissues. Its non-invasive nature enables longitudinal studies of rodent models, reducing biological variability and minimizing the number of animals required. These models, expanding exponentially with advances in genetic engineering, offer invaluable insights into the natural history of diseases and treatment responses, which are difficult to replicate in vitro. The Animal Imaging Core offers a comprehensive suite of animal imaging modalities, including MRI, PET, CT, SPECT, and ultrasound, all commonly used in clinical settings, enhancing the likelihood that findings in animal models will be translatable to human patients. Key instruments include 7.0T and 9.4T MRI systems, PET/MR, PET/CT, SPECT/CT, and advanced ultrasound systems, alongside specialized equipment including a small- animal radiation therapy unit and a variety of ancillary tools for advanced imaging analysis. The Core has demonstrated its value supporting at least 900 peer-reviewed publications from 2018-2024 and the acquisition of 11 major instruments funded by NIH and other grants. Supported by a centralized management system, the Core ensures efficient operation, regulatory compliance, and flexible user access. This infrastructure, combined with competitive pricing and integrated support services, establishes the Animal Imaging Core as an essential resource for driving innovation in preclinical cancer research at MSK."
+ },
+ {
+  "id": "5ba726f5-a512-4421-81e8-73e60a9ab664",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "An Integrated Analytical Framework for Human Virome Studies: Validation, Standardization, and Statistical Innovation",
+  "text": "Viral communities in the human body play critical roles in health and disease, from maintaining immune\nhomeostasis to driving inflammatory bowel disease, influencing vaccine responses, and affecting susceptibility\nto infections including HIV. The Human Virome Program seeks to comprehensively characterize these viral\ncommunities in healthy human cohorts to establish a baseline for comparison to unhealthy/disease virome\nstates, but current research is hampered by the lack of validated computational tools and statistical methods,\nleading to unreliable results and irreproducible findings that impede our understanding of virus-host-\nmicrobiome interactions in human health. This project will create the first integrated benchmarking platform for\nvirome research, providing validated tools, quality control standards, and statistical best practices that will\nensure HVP studies and the broader virome field can conduct rigorous, reproducible science linking viral\ncommunities to human health outcomes."
+ },
+ {
+  "id": "5bb0124e-a548-4e57-ad6f-88f7dbcd6304",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Prefrontal cortical microcircuit mechanisms for reciprocal interactions between arousal and ethanol consumption",
+  "text": "Alcohol use disorders (AUD) exact a major personal, economical, and societal toll, highlighting the urgent need\nfor developing effective therapeutics. Reciprocal interactions between autonomic arousal and alcohol\nconsumption play a key role in the etiology of AUD, but the underlying neurobiological mechanisms are poorly\nunderstood. By establishing how top-down modulation of arousal by the prefrontal cortex affects drinking and\nhow drinking itself modifies top-down control, this proposal will identify novel neural therapeutic targets for\ntreating excessive drinking driven by aberrant arousal."
+ },
+ {
+  "id": "5bb0f8de-39fe-4944-a363-49f5c7913952",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Unlocking the potential of human hepatocyte plasticity for therapy of cholestatic liver diseases",
+  "text": "Diseases of the biliary system are a major indication for liver transplantation, which illustrates the severity of\ntheir impact on patients’ lives and the healthcare system. Studies in mice indicate that hepatocytes can pivot\nfrom their normal function to build a functional biliary system, a therapeutic potential that the proposed project\naims to unlock in humans, particularly in patients with primary sclerosing cholangitis for whom no treatment is\ncurrently available that prevents or delays the need for liver transplantation."
+ },
+ {
+  "id": "5bb77e04-07a8-4454-9414-24a91acc7eaf",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Structure and Function of Ionotropic Glutamate Receptors",
+  "text": "Ionotropic glutamate receptors (iGluRs) mediate the majority of excitatory neurotransmission in the central\nnervous system, while their disfunction is associated with devastating psychiatric, neurological, and\nneurodegenerative disorders, including schizophrenia, depression, autism, amyotrophic lateral sclerosis,\nepilepsy, and Alzheimer’s disease. We aim to study heteromeric assembly, noncompetitive inhibition, and ion\nchannel block of AMPA and kainate subtypes of iGluRs using a combination of biophysical and biochemical\napproaches. Our results will advance understanding of iGluR structure and function and guide structure-based\ndrug design."
+ },
+ {
+  "id": "5bc2f134-d73c-461e-a421-efe24263a924",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "TL1A Regulation of Group 3 Innate Lymphoid Cells in Colitis",
+  "text": "Inflammatory bowel disease (IBD) affects millions of people worldwide and causes significant morbidity. The\nobjective of this proposal is to identify the cellular and molecular mechanisms underlying disease with the long-\nterm goal of designing targeted therapies that are safer and more effective."
+ },
+ {
+  "id": "5bc31cd6-a5c4-4d12-b137-3e73865aaa89",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Unraveling the pathogenesis of familial dilated cardiomyopathy towards precision medicine",
+  "text": "Dilated cardiomyopathy (DCM) is a leading cause of heart failure and death, and there is an urgent need to\nidentify new molecular targets that could lead to the development of more effective treatment strategies. Our\nresearch is focused on a protein called ATF4, which acts as a switch that turns on genes essential for cardiac\nmuscle function. By studying how ATF4 works, we hope to understand how mutations case DCM and identify\nnew ways to treat patients."
+ },
+ {
+  "id": "5bc3a69c-39fc-4353-8cf4-668b06a244ce",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting Dystroglycanopathies using Pluripotent-derived Myogenic Progenitors",
+  "text": "This proposal takes advantage of the ability of pluripotent stem cells (PSC) to uniquely produce differentiated\nsomatic cell types in large quantities. We have developed methods, based on the conditional expression of Pax3\nand Pax7, to induce the muscle program in early mesoderm, and thus derive muscle progenitors with great\nefficiency for regenerative medicine and disease modeling. Our investigations will focus on understanding the\neffect of the environment on the engraftment of PSC-derived myogenic progenitors, and the molecular signature\nand long-term regenerative potential of control and gene corrected FKRP mutant PSC-myogenic progenitors."
+ },
+ {
+  "id": "5bcf68d1-2fa3-4311-b8d7-19ec3881f0d1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cell State Network-Directed Therapy",
+  "text": "A major contribution to cancer drug resistance is that cancer cells can move into and out of different drug\nresistance states. This work aims to build computational models of the timing and probabilities of these events\nand how drugs affect them, so that better combination therapies can be designed."
+ },
+ {
+  "id": "5bd01ca1-c883-453e-b12b-e7da51788512",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The opposing effects of matrix aging and muscle activity on extracellular vesicle promotion of muscle regeneration",
+  "text": "A muscle injury often results in persistent functional declines and impaired mobility in older individuals\nowing in large part to impaired regenerative responses. With the goal of better understanding the mechanisms\nunderlying these declines over time, we will: 1) investigate how aging of the skeletal muscle extracellular matrix\n(i.e., the scaffolding material that surrounds all cells) alters the ability of extracellular vesicles to promote\nfunctional muscle regeneration, and 2) evaluate whether and how muscle contractile activity reverses these\nchanges. Our long-term goal is to develop novel therapeutics to enhance tissue healing in a geriatric\npopulation"
+ },
+ {
+  "id": "5bd67c98-d3dd-46e2-97c6-480f6a79042f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Diabetes Research Center",
+  "text": "The Diabetes Research Center at the University of Washington has a long-standing tradition and record of\nfacilitating scientific investigation aimed at informing on how best to treat and prevent diabetes, obesity, and\nrelated disorders. Through its biomedical research cores, Pilot and Feasibility Program as well as its Enrichment\nProgram, it will continue to support over 120 scientists in the Greater Seattle area and beyond who are pursuing\nbasic, translation and clinical investigation in these areas."
+ },
+ {
+  "id": "5bdabd81-c590-496b-93cf-dbeb00832641",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "MRI Core",
+  "text": "MR Core: Summary/Abstract ADNI MR data has been used extensively in designing Alzheimer’s disease clinical trials, for observational research in normal brain aging and dementia, and for developing new image analysis methods, e.g., machine learning and cognitive/clinical prediction. During ADNI 3, 129 million ADNI MR downloads were provided to users. As in ADNI 2 and 3, the acquisitions for ADNI 4 will be performed at 3T. All sequences will be vendor product and FDA approved for clinical use. The ADNI 4 protocol will include 8 sequences: 3D T1 for morphometry; 3D FLAIR for structural cerebral vascular disease (CVD) ascertainment; a new whole brain sagittal 3D T2 to identify dilated peri vascular spaces; a new 2-tiered T2* gradient recalled echo (GRE) sequence to accommodate standard T2* images as well as the creation of susceptibility weighted imaging (SWI) and quantitative susceptibility mapping (QSM) at sites that have this capability; a 2-tiered diffusion MRI (dMRI) approach; perfusion arterial spin labeling (ASL) imaging at sites that can acquire 3D ASL; high resolution coronal T2 for hippocampal subfield measures; and task free functional MRI (TF-fMRI). The acquisition time will be under 1 hour to minimize participant burden. The objectives in ADNI 4 will continue to focus on providing curated images and numeric summary values from all MR modalities. ADNI 4 recruitment is anticipated to result in greater pathologic variance, particularly a higher prevalence of CVD. To support this effort, we plan a total of six CVD-related measures in ADNI 4. This includes identification of infarctions, WMH volume, ASL perfusion, diffusion MRI, quantification of dilated peri vascular spaces, and cerebral micro bleeds. Specific aims of the MR core are: Aim 1) Perform data acquisition and quality control and distribute curated images for ADNI users. Aim 2) Provide quantitative measurements for all MR modalities and distribute these for ADNI users. Aim 3) Identify and deploy state of the art methods for post-acquisition data harmonization. While the ADNI core minimizes heterogeneity by standardizing acquisition parameters, some heterogeneity inevitably remains for a variety of reasons. To address this, a major new effort will be added in ADNI 4 to address MR data heterogeneity. Aim 4) Improve participant privacy protection by employing an optimized approach to deface images for each relevant MR modality and distribute defaced images for ADNI users. Aim 5) Optimize prediction of cognitive performance and clinical group membership cross sectionally using imaging and non-imaging data. Aim 6) Optimize predicting future change on functional/psychometric measures and progression from unimpaired to MCI, and MCI to dementia using imaging and non-imaging data. Aim 7) Identify optimum outcome metrics for clinical trials using imaging and non-imaging data."
+ },
+ {
+  "id": "5be15a35-3796-42a6-9c02-12050258778f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Discovery and Engineering of RiPP Natural Products",
+  "text": "Douglas A. Mitchell, Ph.D.\nNatural products are highly evolved molecules with useful biological functions and fascinating\nchemical structures. These molecules have inspired generations of organic chemists, aided in\nthe elucidation of fundamental life processes, and served as the most significant source of lead\nmaterial for drug discovery. We mine bacterial genomes to discover new natural product\nstructures and enzyme chemistry with current efforts seeking to engineer the biosynthetic\npathways to produce new-to-nature materials of enhanced biomedical value."
+ },
+ {
+  "id": "5be2296e-cbf1-4b4e-876c-834fa3303fcb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Latin American Center for Emerging Infectious Disease Research (LACER)",
+  "text": "Our LACER consortium brings together academics, Peruvian government officials, and NGOs with Peru-\nand US-based American researchers with established national and international collaborations (> 20\nyears), including strong regional connections in Ecuador and Brazil, to improve outbreak readiness and\nresponse through rational surveillance strategies for regionally relevant pathogens, across a gradient of\ngeographical landscapes that reflect the country’s vast ecological diversity. We will 1) Define the geographic\ndistribution of viral pathogens at the interfaces between human populations and zoonotic transmission\ncycles; 2) expand regional viral surveillance strategies tailored to local needs and capacities and improve\nlocal diagnostic assay capabilities and response times, 3) advance characterization of human infection\npatterns, phylogeographic relationships, murine and vector infections, and transmission dynamics for\narboviruses (flaviviruses, alphaviruses, and orthobunyaviruses), and 4) define serological impact of\nprevious viral infection on incursion with other viral species re-emerging and emerging in Latin America."
+ },
+ {
+  "id": "5be51e45-bce4-4256-8ef4-af3af7af809a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of HTS for discovery of IL-25 inhibitors",
+  "text": "Specific treatment options against the immune mediator IL-25, which drives inflammatory disease such as\nallergic asthma, are currently not available. An important reason for this shortcoming is the complexity of how\nIL-25 activates cells, which makes drug discovery difficult. We have devised a new screening approach based\non sophisticated, engineered cell lines and propose in this project to build a drug screening pipeline that can be\nused to efficiently identify and develop drugs to ultimately treat IL-25-mediated inflammatory diseases."
+ },
+ {
+  "id": "5be906eb-ec8f-4e13-804f-b64b2bbe28cc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Syntheses of homogeneous proteoglycan like glycopeptide and glycoprotein libraries for microarray studies",
+  "text": "Proteoglycans play important roles in many biological processes such as inflammatory responses,\ncancer development, immune modulation, and Alzheimer’s disease. In this project, a new\nmicroarray technology will be developed, which will contain many proteoglycan-like glycopeptides\nand glycoproteins bearing homogeneous glycan chains. The availability of this proteoglycan\nmicroarray will enable high-throughput screening of proteoglycan binding, and significantly\nadvance the better understanding of the fascinating biological functions of proteoglycans."
+ },
+ {
+  "id": "5bee696e-23e9-40b8-8471-1427905a30be",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dissecting the Metabolic Rewiring Mediated by SMARCB1 Loss in Metastatic Bladder Cancer",
+  "text": "This proposal aims to define the key metabolic pathways by SMARCB1 loss bladder cancer which support\ntumor progression and metastasis. We expect this proposed research will lead to the new targeted pathways\nincluding immunometabolism for bladder cancer patient harboring SMARCB1 loss and serve as a new\nmetabolic paradigm for the development of personalized therapeutic strategy for bladder cancer."
+ },
+ {
+  "id": "5bf1bc25-2759-4b46-a715-3f7c73d3f73d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of Nuclear Egress in Gamma-herpesviruses",
+  "text": "Kaposi’s sarcoma associated herpesvirus (KSHV) establishes lifelong infections in humans, where it reactivates\nand disseminates, causing lymphoproliferative diseases and cancer. Reactivation and dissemination of KSHV\nrequires production of infectious virions, a process that is dependent on nuclear egress. Given the absence of\nvirus-specific therapeutics against KSHV, this application proposes to characterize the mechanism of KSHV\nnuclear egress with the goal of improving our understanding of herpesvirus biology and identifying potential\ntherapeutic targets against KSHV and its associated malignancies."
+ },
+ {
+  "id": "5bf343a0-5910-4728-a668-78177661a17f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Probing functional HIV-1 envelope glycoprotein conformations with novel potent CD4-mimetic compounds",
+  "text": "Binding to the CD4 receptor triggers conformational changes in the metastable HIV-1 envelope glycoprotein\ntrimer that activate its potential to mediate virus entry. CD4-mimetic compounds, small organic molecules that\nmimic the CD4 receptor, bind to the envelope glycoprotein trimer and prematurely trigger it, leading to\nirreversible inactivation. We describe novel, more potent CD4-mimetic compounds that provide a platform for\nfurther improvement, enable exploration of the basis of susceptibility/resistance among primary HIV-1 strains\nand allow better definition of the mechanisms underlying the antiviral potency of CD4-mimetic compounds."
+ },
+ {
+  "id": "5bfae42b-fa85-4f65-927e-de205e0d6d3b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular mechanisms that control hematopoietic stem cell lineage bias",
+  "text": "Aging and malignancies in humans and mice are linked to disruptions in the epigenetic landscape, leading to\nbiased hematopoietic stem cell (HSC) differentiation. However, the mechanisms that maintain balanced lineage\noutput remain unclear. This study will investigate how chromatin remodeling regulates HSC differentiation,\nproviding insights that could inform novel therapeutic strategies for hematologic disorders."
+ }
+]

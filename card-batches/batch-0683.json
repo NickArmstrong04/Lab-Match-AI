@@ -1,0 +1,142 @@
+[
+ {
+  "id": "66ec211c-d9ff-43c5-b03f-cc32cc04435e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Applied Research",
+  "text": "Abstract (Applied Research) The generation of novel genetically modified rat models has greatly accelerated with the availability of rat embryonic stem cells and the advent of nuclease-based genome-editing technologies such as ZFNs, TALENs, and CRISPR/Cas9. There is a need for reliable and cost-effective methods of cryopreservation to archive these models and ensure their future availability. Sperm cryopreservation, which is straightforward and inexpensive to perform, is ideal for preserving genetically modified rat models. Unfortunately, successful cryorecovery using frozen rat sperm, which tends to be largely non-motile post-thaw, requires methods such as intracytoplasmic sperm injection (ICSI) that are beyond the means of most research laboratories or transgenic cores and are challenging even for experienced facilities like the RRRC. The ability to perform in vitro fertilization (IVF), which is a common and highly successful method of cryorecovery in the mouse, would be ideal for cryorecovery in the rat. Regrettably, the limited published protocols for rat IVF using frozen-thawed sperm have not been reliably repeatable by others, including the RRRC. Additionally, based on our preliminary data, strain/stock differences lead to variability in sperm post-thaw motility and IVF parameters which present challenges to ensuring reliable successful outcomes. We proposed to develop efficient and repeatable strain/stock-specific protocols for rat sperm freezing and IVF. Using the egg yolk-lactose-Equex STM based sperm freezing solution, the impact of Equex STM concentrations and media osmolality on sperm freezing will be examined. The effects of rapid sperm thawing and supplementation of IVF medium with amino acids that are abundantly found in rat oviductal fluids will be investigated. We will perform these optimization studies using common outbred stocks and inbred strains to address stock/strain variability. The successful completion of the proposed experiments is expected to improve the efficiency and repeatability of both rat sperm freezing and IVF, and thus enable us to replace ICSI with IVF for rat model cryo-banking and cryo-resuscitation."
+ },
+ {
+  "id": "66ecd0c4-933e-4477-bb6c-00343ea854fe",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Developmental Exposures, Stem Cell Reprogramming, and Breast Cancer Disparities",
+  "text": "African American women are two to three times more likely than European American women to\nget the most aggressive subtype of breast cancer, but the reasons for this disparity are not well\nunderstood. This project investigates how chemical exposures to which African American\nwomen are disproportionately exposed may promote the development of aggressive breast\ncancers."
+ },
+ {
+  "id": "66ed236e-1780-4857-9b6e-773e896bd8e7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The selective advantage of mismatch repair loss in colonic stem cells",
+  "text": "Lynch syndrome (LS) is a hereditary disease which predisposes patients to an increased risk of developing\ncolorectal and other extra-colonic cancers. Determining the mechanism by which loss of MMR contributes to\ntumorigenesis will aid in the diagnosis, prevention and treatment of these cancers. This proposal seeks to test\nwhether loss of MMR leads to an immediate growth and/or survival advantage in intestinal stem cells as an\nimportant early event in the tumorigenic process."
+ },
+ {
+  "id": "66f617e9-7e92-475e-a61f-02a01b427fde",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Yale/NIDA Neuroproteomics Center",
+  "text": "Drugs of abuse usurp and modify communication between different types of neurons within defined\ncircuits in the brain, resulting in stable changes in the expression and activities of proteins (the\n“neuroproteome”) required for normal neuronal function. Improving our understanding of how drugs of abuse\nalter the distinct neuroproteomes of the specific neuronal sub-types that define the circuits that underlie the\nactions and addictive properties of drugs of abuse will provide deeper insight into the molecular basis of drug\naddiction and thus help in the design of new and more effective therapeutic strategies."
+ },
+ {
+  "id": "66fad49a-85f2-4b7d-9cd7-87ebcb2008d8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A multiscale approach for elucidating nuclear entry mechanisms of HIV-1 capsid",
+  "text": "The import of the viral capsid into the nucleus is an essential step in human immunodeficiency virus (HIV)\ninfection of a host cell, yet little is known about this process at the molecular level. We will leverage innovative\nin vitro platforms and DNA nanotechnology to provide unprecedented molecular insight into the nuclear\ntransport of HIV. We expect that this project will provide new mechanistic insight into HIV-1 nuclear entry and\ninspire innovations in antiretroviral therapy."
+ },
+ {
+  "id": "67020c90-3b35-4e7b-92e0-f2e8cf42e42c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "An Engineered Surface of Mucociliary Transport for Medical Devices",
+  "text": "The proposed research seeks to develop an engineered surface that enables mucociliary transport (MCT)\nfunction. This project will benefit patients with implanted and indwelling medical devices to prevent mucus\nplugging, reduce bacterial infection, and reduce social and economic care burdens."
+ },
+ {
+  "id": "67075f35-454b-42d1-bca3-ca12a3e882ed",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mass Spectrometric Analytical Collaborations with Members of the Masonic Cancer Center of the University of Minnesota",
+  "text": "This project will provide researchers studying carcinogenesis, chemoprevention, and cellular mechanisms with\nadvanced analytical tools to advance their research goals. It will help them advance understanding of how cancer is\ninitiated and use this information to develop strategies for cancer prevention and/or treatment."
+ },
+ {
+  "id": "67084867-4811-49ad-8a66-ffaa1f2d70e1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Genetic dissection of mitonuclear interactions in aging and neurodegenerative disease",
+  "text": "Mitochondria are the “powerhouses” of the cell and are responsible for generating the bulk of our cellular\nenergy. Instructions for making mitochondria is contained in two different types of DNA, one that we\ninherited from both parents, and one that we inherit from only our mothers. These two types of DNA\nmust communicate with each other for mitochondria to properly function. As we age, communication\nbetween these two types of DNA appears to be breaking down, especially in the brains of patients with\nAlzheimer’s disease and related dementias. In this grant we will use cutting edge new methods in\ngenetics to understand how these two different types of DNA communicate with each other in health, and\nhow they break down in aging and in neurodegenerative disease."
+ },
+ {
+  "id": "670f2686-a906-46f6-aa5b-a51870c73f0f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "mHealth Estimate-based Algorithms Signaling Upcoming Recurrence of Episodes in Bipolar Disorders (MEASURE-BD)",
+  "text": "Bipolar disorders (BD) are among the leading psychiatric causes of disability worldwide. Similarly,\nVeterans with BD are at heightened risk for poor outcomes, such as chronic homelessness, disability, and death\nby suicide. The early identification of prospective manic and depressive episodes, as well as early detection of\ndeclines in functioning, are important components of treating BD and alleviating the suffering of Veterans with\nBD. The goal of the proposed study is to develop and validate early identification predictive algorithms based on\nsmartphone apps/mHealth measures that are passive, objective, and continuously updating in real-time without\nrequiring patient insight or high effort. If the project is successful, it could provide tools that would enable\nclinicians to collaborate with Veterans with BD and more effectively time clinical outreach efforts to re-engage\nVeterans in treatment at the times of greatest need, and subsequently prevent functional impairment and loss of\nlife by suicide."
+ },
+ {
+  "id": "6715bb9d-fefa-41b2-9b87-b5f9998df430",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Interplay Between Nuclear Organization and Function",
+  "text": "We have discovered that the same principles that cause mixtures of oil and water to spontaneously\nseparate into distinct liquid `droplets', known as phase separation, play a key role in how genomes are\norganized and regulated. Here we propose to advance our basic knowledge of how phase separation and\nother biophysical mechanisms and properties organize and regulate a mysterious part of our genomes, known\nas heterochromatin. Ultimately, we expect that the results of these and related studies will have enormous\nimpact on our understanding of the causes of human diseases such as dementia and cancer, and could\ngenerate novel and effective approaches to their diagnosis and treatment."
+ },
+ {
+  "id": "6729924f-1a6e-41bb-83fb-b1504c5e9d50",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "High performance wearable body odor sensor arrays for disease detection and monitoring",
+  "text": "Our interdisciplinary team of engineers, data scientists, and clinicians are developing a wearable device that can\nanalyze odors from the skin. Using data from this new wearable device, we will develop algorithms to detect and\nmonitor a variety of diseases and conditions, including skin diseases/conditions (e.g., psoriasis), emergency\ndiseases/conditions (e.g., stroke), pulmonary diseases/conditions (e.g., asthma), and pediatric\ndiseases/conditions (e.g., diabetic ketoacidosis). Because people will simply wear the small device, it can be\nused in a variety of settings like point-of-care, homes, and workplaces."
+ },
+ {
+  "id": "672ed721-33e2-4e2c-bf40-af049467efa4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Integrated PET+DBT for optimization of breast cancer therapy",
+  "text": "Building on our previous work, we are proposing an innovative dual-mode breast cancer scanner combining\npositron emission tomography (PET) and x-ray tomosynthesis (XT). It has been shown repeatedly over the last\ndecade by at least 11 studies that molecular imaging with clinical PET scanners can be used to gauge\nresponse of breast tumors to therapy within days. The high-resolution PET/XT scanner will provide quantitative\nassessment of response to breast cancer therapy for lesions <2 cm in size, which are are the most prevalent at\nbreast cancer diagnosis, and if there is no response then there is time to test second-line and other alternative\ntherapies and to guide the selection of an effective post-surgical adjuvant therapy."
+ },
+ {
+  "id": "672fbcbe-3b52-40b3-a604-cf7370722df0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular Mechanisms Drive Metabolic and Lipid Profiles that Define Cells in the Latent and Lytic Stages of Viral Infection",
+  "text": "Cellular metabolism encompasses several diverse pathways that are responsible for the production of both\nenergy and biosynthetic intermediates throughout the life of a cell. This MIRA ESI proposes innovative systems-\nlevel approaches, followed by rigorous mechanistic validation, to determine how cells control metabolism under\ndiverse perturbations, specifically viral infection. In alignment with the NIGMS mission, identifying key molecular\npathways that rewire cellular metabolism and maintain cellular homeostasis upon both long-term and acute viral\nperturbation is expected to contribute to the future development and improvement of interventions that will\nadvance treatment and prevention of disease."
+ },
+ {
+  "id": "67310226-7afa-4a1c-8dca-f478fab1e7ee",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Evolution and Latency of T-Tropic and M-Tropic HIV in People Infected with Subtype C",
+  "text": "HIV-1 normally grows in CD4+ T cells but under certain circumstances it can evolve to grow in myeloid cells\nwithin the central nervous system (called macrophage tropism). The appearance of macrophage-tropic virus in\nthe CNS and the potential of these variants to form a myeloid reservoir have been described for subtype B virus,\nbut the frequency and timing with which this happens is unknown, and the entire phenomenon has not been\nstudied in the subtype C epidemic, especially in Sub-Saharan Africa. We will study these questions using brain\nautopsy material from men and women who were infected with the subtype C lineage of HIV-1."
+ },
+ {
+  "id": "67332555-99ef-4e22-8836-464be7554ed3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating the Genetic, Cellular, and Metabolic Events Important for Urothelial Homeostasis and Response to Injury",
+  "text": "OVERALL: NARRATIVE\nLower urinary tract symptoms (LUTS) and urinary tract infections (UTI) are very common disorders in the general\npopulation. The multidisciplinary Research Projects of the Columbia University George M. O’Brien Urology\nCooperative Research Center build upon the work conducted in the prior cycle to address questions related to\nthe genetic, cellular, and metabolic events that lead to lower urinary tract disorders such as LUTS and UTI, and\ndevise new methods for prevention and treatment, while providing educational enrichment for future scientists\nand promoting collaborations with investigators within urology and other fields"
+ },
+ {
+  "id": "673435f3-e667-4b50-9a86-acad1b913a1f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Capitalizing on Artificial Intelligence to Capture Undiagnosed Structural Heart Disease from Electrocardiograms (CACTUS)",
+  "text": "Structural heart disease (SHD) causes significant cardiovascular issues but remains\nunderdiagnosed, especially in disadvantaged populations who primarily use emergency\ndepartments (EDs) for care, due to the high cost and complexity of traditional diagnostic\nmethods like transthoracic echocardiography (TTE). The EchoNext model, a novel AI-driven tool\ndeveloped to interpret ECG waveforms, offers the first unified and accurate detection of SHD,\naiming to help clinicians determine which patients need a TTE and improve timely diagnosis in\nat-risk patients. This project seeks to validate EchoNext's accuracy in detecting undiagnosed\nSHD in EDs, assess its performance across diverse racial, ethnic, and socioeconomic\npopulations, and monitor its performance over time to ensure its clinical efficacy in improving\ncardiovascular outcomes."
+ },
+ {
+  "id": "6738be26-6e4c-4411-9ef1-edb3eaac80ab",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Decoding disease-critical genomic architecture using multimodal single-cell omics data",
+  "text": "A vast majority of genetic variants associated with human complex diseases and traits are observed in the non-\ncoding regions of the genome with potential effects on gene regulation. To generate actionable hypotheses\ninforming drug design and functional characterization assays, it is critical to understand, for each\ndisease-causal variant, a precise characterization of its regulatory activity in terms of transcription\nfactor binding, methylation, or histone marks, its likely target gene of action, the downstream gene\npathways it impacts, and the cell types and biological contexts underlying the activity of this variant.\nMy proposed research plan aims to integrate single-cell omics data of various modalities (RNA, ATAC) and\nencompassing multiple cell types and contexts (such as tissue inflammation, cellular development stages, gene\nperturbations), with disease GWAS data to decode the role of enhancer regulation in linking GWAS variants to\ntarget genes, to map GWAS variants to function by leveraging the genetic variation of multiple molecular\nphenotypes, and to assess the role of context-specific activity of genes and genomic elements in shaping up\nthe genetic architecture of the disease."
+ },
+ {
+  "id": "673c2aca-7a84-4435-882c-27f0b3728cce",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Decoding the Dual CRX Super Enhancers",
+  "text": "Retinal development relies on dynamic and complex gene regulation of over 8000 genes often regulated by\nsuper enhancers that are modular in both developmental stage- and cell type-specific expression. This project\ninvestigates which super enhancer elements are necessary and sufficient for target gene expression and the\nevolutionary conservation between mice and humans. Successful completion of this study will contribute to the\nunderstanding of how mutations in noncoding regions of the genome affect retinal development and contribute\nto human pathologies."
+ },
+ {
+  "id": "6743b147-225e-4631-b83b-2636bb54fd2d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Understanding uptake of and adherence to clinical practice guidelines for airway disease among patients cared for in the Veterans Health Administration",
+  "text": "Airway disease, i.e. COPD and asthma, is highly prevalent among Veterans and leads to worsened quality of\nlife, lost work and personal time to illness, and increased risk of death. Evidence-based clinical practice\nguidelines exist, but clinician adherence is variable. Determining adherence rates could improve guideline\nadherence improvement efforts within the VA; however, methods to measure uptake have been unreliable. Our\nstudy develops a novel way to measure airway disease guideline adherence by iteratively developing, refining,\nand validating an electronic health record-based, natural language processing-enhanced model to measure\nrates of adherence and changes over time. We will also interview clinicians and Veterans to explore barriers\nand facilitators to adhering to clinical practice guidelines and treatment preferences. Our data will inform a\nfuture study seeking to improve guideline adherence that will ultimately lead to enhanced care for millions of\nVeterans living with asthma and COPD."
+ },
+ {
+  "id": "6747cc91-1ab9-4d23-ac80-a282dc675b46",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cerebellar Modulation of Ethanol Consumption in Dependent Mice",
+  "text": "The brain-wide neuronal networks that modulate excessive alcohol consumption in dependent\nsubjects has not been fully characterized. In this proposal, we will investigate the role of the\nposterior cerebellum in drinking escalation and will explore the brain-wide targets for this\nmodulation."
+ }
+]

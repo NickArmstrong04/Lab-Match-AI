@@ -1,0 +1,142 @@
+[
+ {
+  "id": "7743cefa-661f-4df2-ae8a-4a92e4e7f1a8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of Sensory Nerve Loss in HSV-1 Keratitis",
+  "text": "Herpes simplex virus type 1 is a significant health threat and is the leading cause of blindness due to infection\nin the USA and infection can result in clouding of the cornea and growth of new blood vessels into the normally\nclear cornea. We will use our unique panel of recombinant viruses with various levels of virulence to identify\nviral genes that drive Wallerian degeneration (loss of nerve projections into the eye), study the role of the viral\ngenes in promoting WD to confirm the mechanism of action, and confirm using two different mouse models\nthat WD is the mechanism of sensory nerve loss from the cornea. This information will be crucial in developing\nstrategies to prevent this nerve loss to retain corneal sensation and preserve the blink reflex."
+ },
+ {
+  "id": "7744de14-a655-4857-a972-87e14bfe58ff",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Informing mechanistic rules of agent-based models with single-cell multi-omics",
+  "text": "Sophisticated single-cell and spatial multi-omics data provide unprecedented characterization of the regulatory\nprograms of cellular phenotypes in tumors and their microenvironments, but they do not capture the dynamics\nof cell interactions that drive cancer progression. Agent-based simulation models (ABMs) allow scientists to test\nhypotheses as model rules, but it is challenging to determine model rules from imaging data. This project will\nmerge state-of-the-art bioinformatics tools for spatial multi-omics data with web-hosted ABM software to give\nscientists new, biologically interpretable tools to learn, refine, and manipulate the rules of cancer ecosystems,\npaving the way for future cancer patient digital twins and next-generation predictive medicine.\n‘"
+ },
+ {
+  "id": "77458180-1968-4744-90be-97111dc75bc1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Enhancement and further development of informatics methods for long-read cancer sequencing",
+  "text": "This proposal aims to advance applications of long-read sequencing to the identification of genetic changes in\ncancer cells by developing cutting edge informatic methods for long-read sequencing analysis."
+ },
+ {
+  "id": "7745b75d-0ce5-4a40-b1a3-ba895850e8ab",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multi-scale Analysis of the Role of Skeletal Muscle Actin Mutations in Dilated Cardiomyopathy",
+  "text": "The heart and skeletal muscle contract when myosin protein pulls on actin filaments and mutations in these and\nassociated proteins can lead to dilated cardiomyopathy through different mechanisms. This study will use\nmethods from single atoms to whole hearts to explore a unique mutation in an actin protein that normally causes\nskeletal muscle disease but, in this case, causes cardiomyopathy. The findings from this study will establish a\nnew way to study actin proteins in cardiomyopathy and lay the foundation for new heart failure therapies."
+ },
+ {
+  "id": "774f68d8-43f8-47d5-a93d-9ce4c2420c40",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating the role of anterior lateral motor cortex in control and execution of sequenced behaviors",
+  "text": "PUBLIC HEALTH RELEVANCE: Abnormal repetitive thoughts and behaviors are prominent, disabling, and\nnotoriously-treatment resistant symptoms of many severe and highly comorbid childhood onset\nneuropsychiatric disorders such as Obsessive Compulsive Disorder (OCD), Tourette Syndrome (TS), and\nautism. However, we still have a quite limited understanding of how these maladaptive behaviors are encoded\nin the brain. Defining the contribution of supplementary and pre-supplementary motor cortical regions to the\ngeneration and execution of perseverative thought patterns and repetitive actions may help develop new\nstrategies for prevention and optimize existing neurostimulation protocols for these symptoms."
+ },
+ {
+  "id": "77519ac6-e87f-4d76-a8d4-510d0ab13ace",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A fiber implant for long-term, deep-brain imaging and manipulation in mouse models of Alzheimer disease",
+  "text": "This project aims to advance longitudinal studies of the deep brain in animal models of neurological disease by\ndeveloping a miniature fiber implant that integrates functional-molecular imaging and electrical-pharmacological\nmanipulation. This innovative approach will enable the examination of the causal relationship between amyloid\npathology, vascular dysfunction, and memory loss in the hippocampus of mice with Alzheimer disease. Findings\nfrom this study may inform new therapeutic strategies targeting vascular dysfunction and restoration of oxygen\nsupply, ultimately improving public health outcomes related to Alzheimer disease."
+ },
+ {
+  "id": "7759d106-855f-432c-8a53-7e23f1c73235",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "VACCINES ADJUVANT DEVELOPMENT PROGRAM IN INFECTIOUS AND IMMUNE MEDIATED DISEASES",
+  "text": "Vaccination is a key biomedical intervention to reduce infection, cancer, and other diseases, but responses to vaccines may be inadequate in breadth, magnitude and/or durability. Agents that activate innate immune signaling via selective activation of pattern recognition receptors (PRRs) can serve as adjuvants to enhance vaccine-induced immune responses and protection. High throughput screening on primary human cells in culture (in vitro) identified a novel imidazopyrimidine adjuvant, Precision Vaccines Program (PVP)-037, which demonstrated broad innate immune activation via the PRR Toll-like receptor-7 (TLR7), including cytokine induction from human leukocytes in vitro as well as enhancement of influenza antigen-specific humoral responses in mice in vivo. As Contractor, the Precision Vaccine Program (PVP) at Boston Children’s Hospital (BCH) will supervise, coordinate, and undertake research activities aimed at developing a novel small molecule imidazopyridine TLR7 agonist analog, optimizing adjuvant formulation and stability as well as adjuvanticity in combination with licensed HA protein-based influenza vaccine towards human leukocytes in vitro and in animal models in vivo. The production of adjuvant formulation will be completed under good laboratory practice (GLP), to support Investigational New Drug application (IND)-enabling activities in preparedness for chemistry, manufacturing, and control (CMC) process-development and pre-current Good Manufacturing Practice (cGMP) production-grade formulation scaled up."
+ },
+ {
+  "id": "775dc4e3-9518-4969-b3ca-683787b2d14c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Immune Regulation of the Blood-Brain Barrier",
+  "text": "This project seeks to understand the mechanisms of immune signaling at the blood-brain barrier during\nneuroinflammation in both animal models of disease and human tissue. The general approach combines the\npower of a novel model of viral encephalitis, brain vasculature-specific genetic manipulation, and thorough\nvalidation in human cases of viral encephalitis. The long-term goal of this research is to generate novel\ntherapeutic targets at the blood-brain barrier to treat the millions of Americans who suffer from neuroinflammatory\nconditions including viral infection, autoimmune encephalitis, and multiple sclerosis."
+ },
+ {
+  "id": "775f7160-7f56-490b-816f-82ff5d4e273f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Nickel exposure disrupts Sp1/ZEB1-dependent transcriptional regulation",
+  "text": "Nickel is an environmental toxicant that is prevalent in the atmosphere due to a variety of industrial processes\nand extensive use of Ni-containing products. Although exposure to nickel is associated with a number of chronic\nlung diseases including cancer, the underlying mechanisms are not well-understood. Here, we propose to\ninvestigate the molecular basis of nickel-induced lung diseases by examining disruptions in the Sp1- and ZEB1-\nmediated transcriptional regulation and the associated alterations to the epigenomic landscape."
+ },
+ {
+  "id": "7763707a-afc9-40f6-ac86-06d124b7f996",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Radiochemical, Microbiological and Chemical Testing for Food Defense, Method Development and Building Capabilities.",
+  "text": "The overarching goal of this proposal leverages the Wadsworth Center’s considerable laboratory capabilities\nand capacity as a world-class public health laboratory and research institute, coupled with its scientific expertise\nto maintain the Radiochemical, Microbiological and Chemical Testing for Food Defense, Method\nDevelopment and Building Capabilities program. This program will serve the needs of the FDA’s Food\nEmergency Response Network (FERN), by building on its current success as an FDA-FERN Laboratory\nFlexible Funding Model (LFFM) Cooperative Agreement laboratory. As the laboratory of last resort that NY\nstate government agencies turn to for help, Wadswoth maintains expertise in microbiology, biodefense,\nradiochemistry and nuclear counting technologies, and chemical testing for emergency response and\npreparedness based on access to state-of-the-art mass spectrometry."
+ },
+ {
+  "id": "7763c58e-e6fe-4f7d-b37a-a5fa71ffabb7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Guild-Based Microbiome Biomarkers of Precision Risk Stratification for Obesity-related Cancer",
+  "text": "Colorectal cancer (CRC) is one of the most common and lethal obesity-related cancers in the United States, with a disproportionate burden in rural populations. Current precision-medicine approaches rely heavily on host genomic and biochemical markers, yet these tools capture only part of the biological complexity that drives CRC development, progression, and variability in outcomes. The gut microbiome represents a highly relevant but underutilized dimension of CRC biology: although dynamic and modifiable, it exhibits strong intra-individual stability and provides mechanistically meaningful signals related to inflammation, immune tone, metabolism, and tumor–host interactions. Our recent Cell publication identified the “Two Competing Guilds” (TCG) framework—a genome-resolved, ecology-anchored model capturing two interacting microbial guilds that are reproducibly associated with health and disease across >5,000 patients and 15 conditions. This proposal builds directly on these advances to develop CRC-specific, genome-resolved, explainable AI (XAI) classifiers for precision risk stratification and disease staging. Aim 1 refines the existing 284-genome TCG signature using 24 publicly available CRC datasets to build a unified, high-accuracy microbiome classifier capable of distinguishing (a) CRC vs controls and (b) localized (Stage I–III) vs metastatic (Stage IV) CRC. Using co-abundance networks, bootstrapped feature selection, and a transformer-based, guildaware XAI architecture, we will identify microbial genomes and guild-level shifts most strongly associated with CRC presence and metastatic progression, including those modified by obesity. Aim 2 prospectively validates the staging classifier using stool and blood from 50 newly diagnosed CRC patients (25 Stage I–III, 25 Stage IV). We will generate stool metagenomes, microbial cell-free DNA (cfDNA) profiles, and a targeted panel of inflammatory markers to test whether multi-omics integration improves detection of metastatic disease. A pilot multi-omics classifier will evaluate the combined predictive power of gut-resident and circulating microbial features. By identifying microbiome signatures that non-invasively indicate metastatic potential, this work has the potential to substantially improve early detection, reduce diagnostic delays, and enhance treatment decision-making, particularly for rural populations. The Kansas Institute for Precision Medicine (KIPM) COBRE provides essential bioinformatics, biobanking, engineering, and mentoring support to complete these foundational studies and prepare for a future NIH R01 focused on multi-omics tools for obesity-related cancer prevention and treatment."
+ },
+ {
+  "id": "776d3857-466b-48ba-9509-2d807f8e76b8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The neural circuitry of seizure-induced apnea and SUDEP",
+  "text": "Sudden Unexpected Death in Epilepsy (SUDEP) accounts for between 8 and 17% of all epilepsy-related\ndeaths and, although our understanding of SUDEP is rudimentary, there is increasing evidence that respiratory\narrest after a convulsive seizure is the primary cause in many cases. In support of this, we have found that\nseizure-induced apnea that occurs during the tonic phase and failure of postictal breathing recovery produce\nSUDEP in mouse models. Using novel mouse models of SUDEP, we propose to use chemogenetic,\noptogenetic, and electrophysiological techniques to elucidate the underlying neural circuitry that is recruited to\ncause seizure-induced apnea and SUDEP."
+ },
+ {
+  "id": "776f236e-bf5a-422d-b299-d499c238b9b5",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Core B - Technology Core",
+  "text": "The objective of the Technology Core is to provide state-of-the-art, innovative -OMICs technologies for the targeted and global characterization of Project samples in a quantitative, reproducible, and efficient manner. The core brings together cutting-edge tools and the expertise of leading systems biologists in three critical areas: (1) Proteomics led by Dr. Nevan Krogan at the J. David Gladstone Institutes; (2) Transcriptomics and Epigenetics led by Drs. Chris Benner and Ivan Marazzi at the University of California, San Diego and the Icahn School of Medicine at Mount Sinai; and (3) Viral Reverse Genetics led by Dr. Luis Martinez-Sobrido at the Texas Biomedical Research Institute. The Technology Core will be responsible for processing and analyzing both in vivo samples from infected patients and mice (Project 1) as well as ex vivo infected samples in primary and immortalized cells (Projects 1 and 2). The generated data will be processed, analyzed and stored in collaboration with the Data Management and Bioinformatics Core. Data integration will be performed by the Modeling Core to discover key drivers of coronavirus infection, transmission, host response, and host tropism as potential nodes for therapeutic intervention. Further integration of -OMICs data with longitudinal clinical data derived from patient cohorts will identify biomarkers of disease severity. The Technology Core will provide recombinant viruses (including reporter, deletion, and point mutation) and -OMICs services for essential functional and mechanistic follow-up studies probing the molecular mechanism of the critical drivers identified in each respective Project. This iterative cycle from networks-to-mechanism is driven by our effective collaborative efforts that unites multiple labs to optimally leverage best-in-class -OMICs approaches that rely on high-level specialized equipment and domain-specific expertise. The Technology Core has the unique challenge of processing coordinated samples and generating and integrating systems data spanning chromatin modifications and architecture, gene expression, protein abundance, post-translational modifications, and protein-protein interactions. In the previous iteration (the FluOMICs consortium), Drs. Benner and Krogan have successfully tackled these challenges and derived standardized protocols for sample generation, processing, and analysis across different cores and institutes. More recently, Drs. Marazzi and Martinez-Sobrido, who have already established relationships with FluOMICs team members, joined new collaborative efforts to study coronaviruses. Formalizing this relationship as a single core under the leadership of Dr. Krogan, an internationally recognized expert in the design and application of systems biology approaches to interrogate host-pathogen interactions, the Technology Core is ideally positioned to effectively coordinate Technology Core labs to implement previously developed pipelines under FluOMICS 1.0 and 2.0 and develop new approaches for the accomplishment of SYBIL Aims."
+ },
+ {
+  "id": "7770997a-0ed9-47f7-b1b9-24727104d114",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "CANARY CANCER RESEARCH EDUCATION SUMMER TRAINING (CANARY CREST) PROGRAM",
+  "text": "The Canary CREST Program fulfills the mission of the Canary Center at Stanford by educating and training a new generation of scientists as they explore new research experiences in the biological sciences. The importance of this training offered at the undergraduate level, with a focus on cancer early detection, provides a new understanding of career opportunities in biomedical research, including clinical translational science."
+ },
+ {
+  "id": "77743a84-d5a0-4472-805a-7c899779fec7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Point of Care Differential Scanning Calorimetry",
+  "text": "Approximately 70% of the 6 million U.S. patients presenting with chest pain concerning for myocardial infarction\n(MI, a heart attack) are assessed as benign, incurring costs of around $10 billion annually, with current\ndiagnostics failing to provide the critical differentiation between Type 1 (thrombotic) and Type 2 (non-thrombotic)\nMI that is necessary for directing safe and effective treatments. Our multidisciplinary team is developing a new\ndiagnostic system to characterize MI based on our pioneering work showing that the thermal analysis method\ndifferential scanning calorimetry (DSC) is sensitive to proteomic changes associated with types of MI. This project\naims to create an affordable and portable clinically-amenable diagnostic system based on microfabricated DSC\nsensors to enhance clinical assessment of MI, ultimately improving patient care, reducing hospital stays, and\nlowering healthcare costs."
+ },
+ {
+  "id": "7775d25b-379f-40b4-aa53-6b07b3791b51",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Research Project 1 - Hepatocellular Genetic Epidemiology of Fatty Liver Disease in Hispanics",
+  "text": "Fatty liver disease (FLD) is a major public health issue that affects millions of people worldwide. The two major subtypes of FLD include alcoholic FLD (AFLD) and nonalcoholic FLD (NAFLD) although the threshold of alcohol intake for subdivision is controversial. FLD is defined by excess fat in the liver and can lead to a more profound disease state of steatohepatitis (SH) in which there is liver inflammation/damage that may be reflected in hepatic fibrosis. SH can lead to liver failure or hepatocellular carcinoma. Major risk factors predisposing individuals to the development of FLD include biological factors (obesity, insulin resistance, type 2 diabetes) demographic characteristics (e.g., sex, age and ethnicity), behavioral and lifestyle-related variables (e.g., alcohol intake, dietary behavior and physical activity), and other environmental factors (e.g., infectious agents such as hepatitis viruses, microbiome variability, exposure to pollutants/contaminants/toxins). Risk for NAFLD is due to a complex mixture of genetic and environmental factors and their interactions that are still largely unidentified. Quantitative endophenotypes (i.e., biomarkers that are genetically correlated with disease risk) have important properties that can speed the discovery of disease-related genetic causal factors and aid in individual-level risk estimation. Here we propose a novel deep cellular phenotyping assessment of induced pluripotent stem cell (iPSC)-derived hepatocyte response to experimental lipid overload challenge, which mimics dietary lipid overfeeding. This experimental epidemiological study will allow us to rigorously test for genotype-by-environment interactions (GEI) to better understand the etiology/mechanisms of NAFLD risk and to enhance early detection and halt progression. Specifically, we will identify novel iPSC-derived hepatocellular endophenotypes involved in NAFLD using a high-throughput multiomic approach. The study will use existing data and cellular biosamples from 900 participants in our longitudinal Mexican American Family Study (MAFS), who have been extensively phenotyped (including liver MRI) and genetically characterized. Our specific aims include: 1) discovery of novel hepatocellular cellular endophenotypes for NAFLD risk by quantitative genome-wide RNA sequencing and functional evaluation of hepatocytes derived from existing iPSCs in 400 subjects; (2) discovery of multivariate hepatocellular transcriptional coherence endophenotypes using single-cell sequencing; and (3) confirmation of the highest ranking NAFLD endophenotypes using MRI-derived liver fat measures from an additional 500 MAFS subjects from the same families. By identifying genetically determined cellular endophenotypes, we hope to speed the identification of potential causal genes in NAFLD risk and for identifying non-invasive early biomarkers of genetic risk for NAFLD"
+ },
+ {
+  "id": "777ac61c-c172-4975-b75d-9b572bebf4c3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Predicting epilepsy surgery outcomes from individualized resting state functional anomalies",
+  "text": "Existing methods of predicting response to surgical treatment based on patient's clinical and\nimaging characteristics are inadequate for guiding personalized treatment of pharmacoresistant\nepilepsy and ameliorating its high burden in adults and children. This proposal uses advanced\nanalytic methods with a novel network-based approach to derive predictors of outcomes from\nnon-invasive and accessible functional brain images. The results of this proposal will guide\nfuture studies and advance the field toward developing biomarkers, predicting response to\ntreatment, and understanding the disease mechanisms in epilepsy."
+ },
+ {
+  "id": "77807107-35c2-49cf-836b-bb81ec780dfc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Chemical and Molecular Mechanisms of Mitochondrial DNA Degradation",
+  "text": "Mitochondrial dysfunction is known to cause more than 200 named disorders, and is associated\nwith aging, neurodegeneration, cardiovascular disease, and diabetes mellitus. Mitochondrial\nDNA degradation is an important, but poorly understood process. The application seeks to\ndecipher the chemical and molecular basis of mtDNA degradation, which is important for\nunderstanding mitochondrial genomic maintenance and developing new therapeutics for\nmitochondrial diseases."
+ },
+ {
+  "id": "77829ba6-357a-4867-9aec-d1cb3990f66e",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Yale SPORE in Lung Cancer (YSILC): The Biology and Personalized Treatment of Lung Cancer",
+  "text": "OVERALL NARRATIVE\nLung cancer is the leading cause of cancer death in the United States and worldwide. The Yale SPORE in Lung\nCancer is designed to identify and study novel biologic pathways in lung cancer and test new therapeutic\napproaches to interfere with lung cancer progression and metastasis. This program has the potential to make a\nsignificant impact in guiding the selection of novel therapies with biomarkers most likely to provide benefit to lung\ncancer patients with advanced metastatic and/or treatment refractory disease."
+ },
+ {
+  "id": "7785b96a-fa27-461f-ac8a-20ef7ee45fcc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Regulation of alloreactive CD8+ memory T cells by TIGIT",
+  "text": "Belatacept (CTLA4-Ig) preserves renal function in transplantation patients better than standard-of-care\ncalcineurin inhibitors (CNIs), at the cost of increased rates of acute rejection. This proposal seeks to harness\nTIGIT agonism to suppress belatacept resistant alloreactive memory T cells and reduce costimulation blockade\nresistant rejection. Our findings may encourage the use of TIGIT agonism and CTLA4-Ig instead of CNIs, to\nultimately reduce immunosuppression induced toxicities in patients."
+ }
+]

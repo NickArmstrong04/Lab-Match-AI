@@ -1,0 +1,142 @@
+[
+ {
+  "id": "57c06b1e-0195-455b-94dd-5e703a548025",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Ion channel regulation by auxiliary proteins",
+  "text": "This study aims to identify novel ion channel auxiliary proteins and elucidate the structural\nbasis and functional roles of their regulation of ion channel activity. The findings will advance our\nunderstanding of ion channel modulation in physiological and pathological contexts, contribute to the discovery\nof new therapeutic targets, and support the development of innovative strategies and reagents for treating or\npreventing ion channel–related diseases."
+ },
+ {
+  "id": "57c7203c-e149-4064-832a-19bcd243f302",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Evolution of B Lymphocyte Insulin Autoantigen Recognition in Type 1 Diabetes",
+  "text": "Individual heterogeneity in progression to type 1 diabetes (T1D) complicates clinical trial enrollment and\nevaluation. To address this, we will focus on how anti-insulin B lymphocytes, a key player in T1D pathogenesis,\nacquire the ability to recognize insulin, and how this changes with T1D progression. Completion of these\nstudies will elucidate the influence of somatic hypermutation on insulin affinity and polyreactivity for other\nantigens, to support future studies that track these changes to predict T1D progression or immunotherapy\nresponse."
+ },
+ {
+  "id": "57ce1c62-f08f-49c2-b6b8-133877bb57d9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Determining the Mechanisms of RING1- and YY1-Binding Protein (RYBP) Function and Dysregulation in Glioblastoma Cells",
+  "text": "Glioblastoma is a lethal tumor of the central nervous system with a median survival rate of less than fifteen\nmonths. The perturbation of gene expression patterns is a major driver of glioblastoma progression. Therefore,\nthe overall goal of this project is to understand a novel gene regulatory network in glioblastoma cells that may\nenlighten development of additional, more effective therapies."
+ },
+ {
+  "id": "57d3ed28-4f4b-42f6-96f1-059f0fb8b1a4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Delineating the network effects of mental disorder-associated variants using convex optimization methods",
+  "text": "Genetic studies have and continue to identify a large number of genetic associations with\nneuropsychiatric disorders, however translating these into causal genes or variants, biological\nmechanisms, and therapeutic targets remains a major challenge. Here, we develop a suite of\ncomputational innovations to 1) determine the shared and distinct genetic components of\nneuropsychiatric disorders, 2) infer the causal gene networks underlying these components, and 3) model\nhow common and rare genetic variants disrupt these networks. These novel methods will be applied to\ngenotyping and sequencing data from both early onset disorders such as Autism spectrum disorders and\ndevelopmental delay, and later onset disorders in particular schizophrenia, bipolar disorder and major\ndepressive disorder."
+ },
+ {
+  "id": "57d62dfe-fd4e-4704-9fe9-f699dd67840c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dissecting input-output relationships of Developmental BMP Signaling",
+  "text": "Signaling pathways are reused in multiple contexts from disease states, to development, to tissue homeostasis. Using a multidisciplinary approach, this proposal will establish how the context and dynamics of BMP signaling lead to correct patterns of gene expression. The quantitative input-output signaling relationships identified in this study will be foundational for the use of BMP molecules to promote robust cellular differentiation for regenerative biology applications and other therapeutics."
+ },
+ {
+  "id": "57d71a48-0819-4075-b278-2fd9880f812c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Genetic, Environmental, and Social Interactions Shaping Early Cannabis Use (GENESIS): Decoding Predictive Factors Among U.S. Youth",
+  "text": "This study will apply existing, state-of-the-art methods to develop composite genetic risk scores for cannabis\nuse that have improved performance for multi-ethnic populations and to identify complex gene by environment\ninteractions influencing risk for cannabis initiation in the Adolescent Brain Cognitive Development (ABCD) Study,\nwhich examines childhood factors (social, environmental, and genetics), neurocognitive measures, and initiation\nof substance use from ages 9-10 years to early adulthood in a population demographically reflective of the U.S.\nThe goal of this project is to 1) build comprehensive risk prediction models for early cannabis initiation among\nyouth that integrate robust genetic risk scores with pre-substance use neurocognitive, social, and environmental\nfactors, and 2) identify novel gene by environment interactions including modifiable environmental factors that\nsynergistically increase risk for early cannabis initiation. Comprehensive models and a more complete\nunderstanding of gene by environment interactions can identify high risk youth populations for targeted\nprevention and modifiable factors present among these populations for tailored interventions."
+ },
+ {
+  "id": "57d7ca6b-f522-493c-abcc-1c7d1279c8e1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dissecting myogenic-endothelial-immune interactomes in human ME/CFS skeletal muscles",
+  "text": "Together, these Aims will establish a novel single-nucleus and spatial transcriptomics atlas of human ME/CFS \nskeletal muscles and provide hypotheses and experimental data to shed light on the role of myogenic, \nendothelial, and immune cell interactions within ME/CFS muscles. These insights may provide a more \ncomplete understanding of the cellular etiology of ME/CFS and identify dysregulated pathways for therapeutic \ntargeting."
+ },
+ {
+  "id": "57dddd63-0115-42b9-a6f1-b4e34048e2ef",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Center for Dietary Supplements and Inflammation (CDSI) COBRE",
+  "text": "Inflammation is the underlying cause of a larger number of clinical disorders. Our Center will pursue multi-\ndisciplinary research to study how compounds found in botanicals can suppress inflammation and identify new\npathways that trigger or prevent inflammation by providing state-of-the-art research facilities to investigators."
+ },
+ {
+  "id": "57def496-a763-4981-a451-066ff0d98c66",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "UNDERSTANDING CADHERIN-11 IN THE DEVELOPMENT AND TREATMENT OF LUNG FIBROSIS",
+  "text": "Cadherin-11, an adhesion molecule, expressed on various cells during the development of\ntissue fibrosis, is an important mediator of the development of fibrosis and systemic sclerosis\n(scleroderma) is a potentially devastating disease clinically manifesting as progressive fibrosis\nof skin and lungs. The current proposal will extend these findings and determine the extent to\nwhich cadherin-11 regulates macrophages, type II alveolar epithelial cells and fibroblasts during\nthe development of fibrosis. We will also use cadherin-11 to identify novel mediators of fibrosis\nand target cells with cadherin-11 targeted nanoparticles to treat lung fibrosis."
+ },
+ {
+  "id": "57f1c0c5-fae2-4720-ac9e-7d7af9d44b52",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Intersections of pre-pregnancy cardiometabolic risk factors, preeclampsia and cardiovascular disease in a lifecourse framework",
+  "text": "This project will investigate the pathways linking pre-pregnancy cardiometabolic risk factors (hypertension,\nobesity and diabetes) with the development of preeclampsia and the long-term cardiovascular risks associated\nwith preeclampsia. This work will provide insights into therapeutic strategies to mitigate cardiovascular risks of\npreeclampsia."
+ },
+ {
+  "id": "57f62ac7-cf4d-4b7e-8208-6b224daf88ec",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Insights Into Immune-Related Diseases Born from Population Genomics",
+  "text": "The human major histocompatibility complex (MHC) that encodes essential products of innate and adaptive\nimmunity is extremely polymorphic, with wide-ranging consequences for immune-mediated disease. The MHC\nallele HLA-B*27 is highly associated with multiple syndromes, including the spondyloarthritis group of\ninflammatory musculoskeletal disease, and acute anterior uveitis, a potentially blinding eye inflammation. We\nwill investigate how the combinatorial diversity of MHC and NK cell receptors impacts HLA-B*27-associated\nsyndrome pathogenesis."
+ },
+ {
+  "id": "5802973d-c28d-4ec3-a353-40b19afd0be2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Smartphone-based Retinal Imaging for Diabetic Retinopathy Detection in Egypt",
+  "text": "Diabetic people are at high risk of eye disease, including diabetic retinopathy where untreated\nDR may result in varying degrees of vision lost and even blindness. Since the early detection\ncould improve the chances of effective treatment to prevent blindness, people with diabetes\nmust have annual eye exam. This project will develop a smartphone-based portable and\naffordable retinal imaging system to detect DR formation using machine learning."
+ },
+ {
+  "id": "5804279b-feb6-436c-a6bc-b4ad5eb7b239",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mosaic in Vivo Perturbation (MVP) for systematic assessment of gene function in the eye",
+  "text": "Genetic screens, in which mutations are randomly made in a large number of genes in the genome and their\nphenotypic effect on tissues of interest are assayed, have been a predominant approach for functionally\ncharacterizing the roles of genes in development. However, traditional genetic screens are limited because\nsome genes are required for multiple functions, some functions can be accomplished by multiple genes, and\nbecause screens are very laborious especially in vertebrates. Here, we leverage recent technological\nadvances in single cell perturbation and measurement along with the “regulative ability” of vertebrates to\ndevelop a new type of genetic screen in which cells with different mutations compete within an embryo to form\na normal embryo, and use this approach to study the eye."
+ },
+ {
+  "id": "5804df22-d1d4-4f02-a853-1cfb69e4eff8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Structural and Functional Characterization of the S. cerevisiae mRNA export platform",
+  "text": "Macromolecule transport in and out of the nucleus occurs via the nuclear pore complex (NPC) and dysfunction\nat the highly conserved mRNA export platform of the NPC, a critical site of post-transcriptional gene regulation,\nhas been heavily implicated in disease and aging. This proposal aims to integrate single particle cryo-EM and\ncrosslinking mass spectrometry to generate a high-resolution model of the mRNA export platform, to which\naging-associated mutations can be mapped and points of regulation identified. Concurrently, I will functionally\ncharacterize disruptive export platform mutations to understand the platform’s role in gene regulation and\nelucidate the mechanisms by which these mutations disrupt this regulatory function and manifest in aging\nphenotypes."
+ },
+ {
+  "id": "580fb61a-17ac-47d0-97db-2ab68cbe5bad",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "MATCHMAKERS - Creating and training AI tools for TCR binding prediction and design",
+  "text": "Understanding how T cell receptors (TCRs) see tumor antigens presented by MHCs is necessary to fully understand how the immune system recognizes tumor antigens, and to reap the full potential of antigen-specific immunotherapy. To achieve this goal, a quantum leap forward is required in which the revolutionary advances in machine learning are combined with a large volume of structure, function, data on matched TCR-pMHC pairs. The development of accurate predictors of TCR-antigen recognition will be dependent on the creation and integration sequencing-based datasets with high-throughput structural and functional insights. Our proposal, submitted as a CRUK/NCI Grand Challenge team (MATCHMAKERS) will combine researchers with expertise in immunology, methods development, structural biology, and computation to enable generalized prediction and design of TCR recognition. This work will be spread across four Work Packages (WPs): WP1: Large-scale generation of TCR-pMHC pairs from naturally occurring sources. We will build datasets of naturally occurring TCR-pMHC pairs. Our team will use an array of approaches to collect these datasets, from humans and from mouse models, and in the context of both cancer and immunity more generally. WP2: Ultra-high throughput TCR-pMHC matching using molecular engineering. Efforts to create general models will require a broader array of data than feasible to collect from natural TCR systems. We will use an array of synthetic approaches developed by our team to comprehensively match TCRs with pMHCs to train computational models. WP3: Large-scale structural and biochemical analyses of TCR-pMHC interactions. A key to our team’s vision is to match interaction datasets with high throughput structural and functional insights. A deep understanding of how the TCR contacts with MHC helices control function and orientation will be essential for training and testing computational models. WP4 AI-based prediction and design of TCR-pMHC interactions. We will integrate our data to train next- generation algorithms capable of generally predicting and designing TCR-pMHC interactions. These predictions will proceed through a reiterative testing and feedback circuits for further model optimization."
+ },
+ {
+  "id": "58101f2d-0058-458a-9811-ebfbfde94359",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Viral Module",
+  "text": "Virus-based technology has emerged as a powerful tool in neuroscience and vision research, enabling optogenetic and chemogenetic manipulation of brain activity, circuit tracing, and gain- and loss-of-function genetic modifications in the retina and brain. Electrophysiology- and imaging-focused laboratories, however, often lack the expertise and resources needed to effectively employ these molecular biology approaches, and standardized methods can enhance the productivity of even experienced molecular neuroscience groups. The Viral Module was created to fill this need by generating, maintaining, and designing high-quality viruses for vision applications. Led by Dr. Zhigang He, and a staff of experienced molecular biologists, the Viral module will serve as a repository for the proper storage, maintenance, handling, and distribution of pre-made viral vectors and also assist in the design, optimization, and generation of custom viral constructs. Despite its recent addition to the Vision Core, the Viral Module has already been utilized by a significant number of investigators working in both rodents and primates and constitutes an essential resource for the wider Harvard vision research community."
+ },
+ {
+  "id": "5810a43c-ecf4-490f-9cfa-29717baaa158",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Metabolic Modulation Suppresses Survival Signals in B-Cell Lymphoma",
+  "text": "Lymphoma, a tumor of the blood cells, is a common cancer type. Importantly, lymphoma is one of the few\ncancers for which the risk was significantly increased among Vietnam veterans. In addition, more recent data\n(1996-2007) from peacekeeping troops in the Balkans, and from personnel exposed to open burn pits in the\nSouthwest Asia theater of operations, also preliminarily suggest an increase in lymphoma incidence. Although\nthe mechanism associated with this elevated risk of lymphoma development have not been fully defined,\nchemical exposure in the battlefield as well as contact with infectious agents are likely possibilities. Thus, with\nthe extended deployment of US military forces in the past two decades, a new wave of increased lymphoma\ndiagnosis in military personnel may ensue. To specially attend to the needs of this population, we critically\nneed research that: a) leads to a better understanding of how lymphomas develop, b) identifies novel,\nrationally designed, treatment modalities that are more effective and less toxic."
+ },
+ {
+  "id": "58139762-ea8a-4879-a9ee-011c89856d70",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Transcriptome Analysis with RNA-Reactive Probes",
+  "text": "Narrative / Relevance\nOur proposed research is aimed at developing new chemical tools for analyzing the\ninteractions and functions of messenger RNAs in the cell, and applying them to address\nimportant biomedical questions. Our new methods will establish easy-to-install chemical\nhandles on large, complex RNAs that allow them to be labeled, tracked, analyzed, and\ncontrolled. We will use them to investigate how drugs and metabolites interact with RNAs in\nthe cell, and to study the effects of chemical modifications that are included in mRNA\nvaccines and upcoming RNA therapies."
+ },
+ {
+  "id": "581859cf-3e33-4cb7-96c8-b58c27b56958",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Approaches for PAH Source and Fate Determination in Exposures",
+  "text": "The Anderson Project will provide information about PAH sources that will enable Superfund site managers to\nselect the most environmentally sound and cost-effective remediation strategies and to evaluate the impacts of\nthose strategies. We will provide information about PAH sources that will help communities to connect their\npersonal exposures to specific indoor and outdoor features and to develop strategies that minimize their\nexposures. We will develop the ability to predict the concentrations of alkylated PAHs (a-PAHs) in crayfish and\nshellfish on the basis of measured concentrations in the surrounding water, thereby helping communities to\nminimize dietary risks, helping policy makers to evaluate the purity of water and the human risks from fish\nconsumption, reducing the need to destroy organisms in order to measure a-PAH contamination, and reducing\nthe time and expense associated with collecting crayfish and shellfish with the required spatial and temporal\nresolution."
+ },
+ {
+  "id": "581a3ec8-1871-488d-a123-ad35b513cf79",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Administrative, Biostatistics and Bioinformatics Core A",
+  "text": "Administrative, Biostatistics and Bioinformatics Core ABSTRACT The principal goal of the Administrative, Biostatistics and Bioinformatics Core (Core A) is to provide the essential operational plan and organizational structure to facilitate the short- and long-term success of this P01. This will be accomplished by coordinating both scientific and logistical issues for the individual Projects and the Transplant Pathology and Tissue Imaging Core (Core B) and the Nanotechnology Core (Core C), their interactions to enhance conceptual unity and Program synergy, and the P01 as a whole. The Core will coordinate communication and scientific meetings between the Program Director (PD), Project Leaders (PLs), Scientific Core Leaders and Co-investigators at the University of Pittsburgh and other institutions to facilitate scientific collaboration, project interaction, shared resource and scientific Core use prioritization, meeting of milestones, and data management and sharing,- each important goals of the P01. The Core will also co-ordinate data and statistical/bioinformatics input for each of the Projects through a faculty biostatistician and a faculty computational immunologist. It will provide logistical assistance for preparation of reports (including annual milestone reports), compliance and regulatory issues, grant renewal, and abstract and manuscript submissions. Also, by providing financial oversight, the Core will maximize the responsible and efficient use and allocation of funds, thus fulfilling obligations to the University of Pittsburgh and the NIAID. In executing these functions, the Core will also allow the PD, PLs, Scientific Core Leaders and Co-Investigators more time to address their research goals. An additional important function of the Core will be to co- ordinate communication with the NIAID Project Scientist. The goals of the Administrative and Biostatistics Core will be accomplished through the following Specific Aims: Aim 1: Facilitation of communication; Aim 2: Preparation of documents and reports; Aim 3: Financial administration; Aim 4: Shipping assistance; Aim 5: Travel assistance; Aim 6: Office and lab maintenance; Aim 7: Implementation of the data management and sharing plans; Aim 8: Coordination of biostatistical and bioinformatics support; Aim 9: Communication with DAIT and the NIAID Project Scientist; Aim 10: Resolution of disputes."
+ }
+]

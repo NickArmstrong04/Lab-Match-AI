@@ -1,0 +1,142 @@
+[
+ {
+  "id": "b704a2db-b957-45d7-93c5-07821b0f5d11",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Derivation of a Clinical Prediction Rule for Pediatric Abusive Fractures",
+  "text": "Child abuse and neglect represent one of the most serious pediatric public health crises, affecting nearly 1 in 7 children. Fractures are the 2nd most common abusive injury after skin and soft tissue injuries and there is much overlap between the types of fractures caused by abuse and unintentional mechanisms. The diagnosis of child abuse is complex and necessitates an accurate understanding of typical pediatric injury patterns within the context of history, mechanism, socio-demographics, and developmental capabilities. Many studies evaluating the relationship between fractures and abuse focused on specific fracture types, were restricted to children with a pre-defined abusive injury or included only admitted patients, and/or relatively small cohorts, thus limiting conclusions and raising concerns of spectrum bias. Additionally, prior literature has shown implicit and explicit biases related to socio-demographic factors in the identification and evaluation of abuse, likely resulting in over- and underdiagnosis of abuse in some populations. Furthermore, over 75% of children seeking ED care are seen in general ED’s by providers without specialized training in child development and abuse, and up to 1 in 5 children with abusive fractures may be missed in a general ED setting. Despite the frequency of abusive fractures and the potential limitations and biases in making the diagnosis, there are no validated clinical decision rules (CDRs) to assist clinicians in the real-time identification of children with fracture presentations associated with abuse. Our long-term goal is to develop a validated CDR that can be used by clinicians evaluating injured children to assist in the identification of abusive fracture presentations. Our primary objective is to utilize gradient boosted decision tree ensembles to develop a CDR that will identify fracture presentations highly concerning for abuse among patients ≤5 years presenting for emergency department (ED) care. An institutional child protection database that includes outcomes of thorough expert child abuse investigations will be used as a reference standard. The study objectives will be accomplished by 1) analyzing structured variables in the electronic health record (EHR) of patients with fractures evaluated in the Hasbro Children’s Hospital (HCH) ED and HCH Child Protection Program (CPP) using descriptive statistics, 2) applying natural language processing (NLP) techniques to extract data from clinical narratives and radiology reports to generate text-derived variables, 3) employing machine learning (ML) techniques to identify predictor variables to derive and iteratively refine a CDR, and 4) validating this CDR with a different HCH cohort of patients. The expected immediate outcome of this project is the development of a refined CDR to identify fracture presentations that are highly concerning for abuse among children ≤5 years old. This will inform the design of a prospective multi-center follow-up study for broad validation of CDR’s ability to identify high risk patient presentations, improve real-time clinical detection of potentially abusive injuries, and decrease disparities in clinical decision making."
+ },
+ {
+  "id": "b704c68f-7e2f-4b3c-a701-363dc62f1b0f",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Genetically and metabolically defining high-risk neuroblastoma to exploit effective therapeutic strategies",
+  "text": "Neuroblastoma, a nerve-cell cancer, is one of the most devastating pediatric cancers, causing nearly 15% of all\nchildhood cancer deaths, representing a significant public health burden. This proposal will develop and test\ntherapies for high-risk neuroblastoma using mouse models to explore how genetic and metabolic factors affect\nimmune system-tumor interactions. Data from this proposal strongly supports NCI NIH’s mission to conduct and\nsupport cancer research, specifically by better understanding and improving the treatment of acommon pediatric\ncancer."
+ },
+ {
+  "id": "b71961dd-9880-49fc-8337-4bbf8c3e1da4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of lmmunosuppression in MYCN-driven Neuroblastoma",
+  "text": "Most solid tumors, particularly neuronal cancers, respond poorly to immunotherapy due to their\nimmunosuppressive microenvironment. This research focuses on in-depth mechanistic studies and therapeutic\nstrategy evaluation for a newly identified chemokine in MYCN-driven high-risk neuroblastoma. The information\ngenerated from this study will deepen our understanding of how tumor cells repress immune clearance and serve\nas a rich resource to guide the development of improved immunotherapeutic strategies against neuroblastoma\nand other neuronal tumors."
+ },
+ {
+  "id": "b71e46a7-f4d9-43e8-9a8d-e99da74a6ba7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "CRCNS: Multimodal network interactions for internal state dynamics of resiliency",
+  "text": "RELEVANCE (See instructions):\nResiliency to stress is crucial to the health of individuals and of society, but there remains a critical\nknowledge gap regarding the mechanisms underlying resilience to adverse outcomes. Stress resiliency is\na complex phenomenon that arises from interactions across neural subsystems that span molecules to\nwhole-brain connectivity, and how resilient individuals tap into these systems to maintain normal\nbehavioral function is not fully understood. To address this gap, we propose to collect multimodal data at"
+ },
+ {
+  "id": "b71fce6d-dbe3-4fc6-b56e-0e2f73944afd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting leukemic stem cells in acute myeloid leukemia",
+  "text": "Acute myeloid leukemia (AML) is a devastating blood cancer with limited therapeutic options. Relapse is the\nmain cause of treatment failure, most likely due to the persistence of tumor precursor cells (leukemia\ninitiating/stem cells) that are resistant to current treatments. It remains a critical challenge to develop effective\ntherapeutics to eradicate these cells. The project proposed in this application seeks to target the metabolic\nvulnerability of these cells through inhibition of PTPMT1 that plays an important role in cell energy production.\nIf successful, this effort may lead to a novel strategy to deplete these root cells in AML."
+ },
+ {
+  "id": "b725483f-15d5-4c82-89f2-f63a24e530e4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "AI-powered Gradient Echo Plural Contrast Imaging (AI-GEPCI) MRI for Early Detection and Monitoring in Multiple Sclerosis",
+  "text": "This research aims to improve the early detection and monitoring of progressive multiple sclerosis (PMS), a form\nof MS that currently lacks sensitive diagnostic tools. By integrating deep learning with advanced MRI techniques,\nthe project will support the development of non-invasive imaging biomarkers to detect neuronal injury and\ndemyelination. This work will not only advance public health by enabling earlier and more personalized\ninterventions, but also serve as a foundation for my long-term career goal of becoming an independent\ninvestigator focused on clinical neuroimaging innovations for MS."
+ },
+ {
+  "id": "b72ed820-0f76-4a68-98cc-efbead8a4abf",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "CRCNS: Predictive Models of Human Speech Recognition in Natural Environmental Noise",
+  "text": "Human speech recognition is remarkably resilient to competing environmental noise, such as in a crowded\nrestaurant, yet this ability is severely compromised for the elderly and populations with hearing loss. This study\nproposes to study behavioral, neural, and computational mechanisms that humans use to segregate and recognize\nspeech in natural acoustic environments. This knowledge is critical to identify neural mechanisms that endow normal\nhearing abilities and to develop future interventions to diagnose and treat hearing loss."
+ },
+ {
+  "id": "b7335e21-bc25-467e-8c8b-6a2118cd734b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cardiac MRI Phenotyping of Coronary Microvascular Dysfunction",
+  "text": "Coronary microvascular dysfunction (MVD) is a common but underdiagnosed cause of ischemia and\ncardiometabolic disease, yet current diagnostic approaches are limited. This project aims to establish\nnon-invasive, quantitative cardiac MRI methods for diagnosing and monitoring MVD, with the goal of\nimproving care for patients with angina, heart failure, obesity, and diabetes."
+ },
+ {
+  "id": "b738cdea-726a-4c38-8613-98e33c356647",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Transmission",
+  "text": "Vector control, the mainstay of malaria prevention over the past few decades, has recently become less effective due in part to expanding insecticide resistance and changing mosquito behaviors involving more outdoor and early-evening/dawn biting. We have designed studies with the overall goal of understanding and overcoming the limitations of the current vector control strategies for further reductions of the burden of malaria globally, and specifically in Malawi. First, we will assess the effects of vector control interventions on population patterns of two important malaria parasite vectors, Anopheles funestus and An. arabiensis, in environmentally diverse sites with different transmission intensities, using a robust dataset from historical and prospective household-level vector sampling (Aim 1). Statistical models will also assess whether National Malaria Control Program sentinel surveillance sites are adequately representative and informative for evaluating vector control interventions nationwide. In another set of household-level studies, we will use human-landing catch methods to quantify the time of day and indoor/outdoor location when Anopheles species-specific biting behavior is occurring in different socio-ecological settings and seasons. We will then characterize the contribution of differences in the observed vector biting patterns to Plasmodium falciparum transmission (Aim 2), using concurrent measures of people's activity patterns, bed net use, infection status, and malaria incidence rate in coordination with the Epidemiology Project of this ICEMR Program. We expect these analyses will identify policy-relevant risks that could tailor implementation of existing vector control tools. These first two Aims, combined with the studies proposed in the Epidemiology Project, will provide a valuable multidisciplinary evaluation of the current malaria prevention tools used in Malawi. Improved understanding of Anopheles mosquito ecology, behavior, and parasite-transmission capacity can directly affect the health of U.S. citizens. Many Anopheles species are found throughout most of the U.S., and some can transmit the malaria parasite. New knowledge from Malawi is directly relevant to preventing domestic malaria transmission by helping to quickly track, contain, and block local U.S. transmission, thus preventing re-establishment. U.S. companies and their investors and workers benefit from this work through practical spinoff technologies and products (for example new repellents and fabrics). Understanding characteristics of malaria transmission helps the U.S. combat other mosquito-borne diseases. Methods for genetic sequencing, surveillance, and containment of mosquitoes developed for malaria are potentially applicable to various emerging infectious disease threats, in the in the U.S. and globally."
+ },
+ {
+  "id": "b73bc0af-7ddd-4e1a-aa4a-2a2d058ed403",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular evolution of entry receptor usage underlying zoonotic human betacoronaviruses",
+  "text": "The proposed research aims to identify animal viruses that could spread to humans and uncover how and why\nthese viruses evolved traits enabling such transmission. These studies will improve tools for predicting viral\noutbreaks and guide the development of vaccines and treatments to better prepare for future pandemics. This\nwork therefore supports efforts to understand and prevent infectious diseases and thereby protect public\nhealth."
+ },
+ {
+  "id": "b73dc5b4-46c4-4ece-8f48-6fd625af058e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Singlet Oxygen-cleavable Prodrugs for Treating Non-Muscle Invasive Bladder Cancers",
+  "text": "About 84,000 patients are expected to be diagnosed with bladder cancer this year and about 70-80% of the\npatients will have non-muscle invasive bladder cancer (NMIBC), which is considered the golden time for cure\nof bladder cancer. Although intravesical treatments have been used following transurethral surgery, recurrence\nand progression to the advanced stage still remain critical problems. This proposed integrative project will\nprovide new effective treatment strategy and prodrugs for treating NMIBC with a great potential for rapid\nclinical translation."
+ },
+ {
+  "id": "b743f050-0b37-4ee5-8d2e-79ae7af6689a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Testing Optimal Gene Editor for an Alzheimer's CRISPR therapeutic.",
+  "text": "The overall goal of this proposal is to determine the best genome-editor/gRNA combination for\nediting the APP gene and advancing a CRISPR-Cas9 based therapeutic modality for\nAlzheimer’s disease to the clinic; thus our project is highly relevant to public health and the\nmission of the NIH. Briefly, we have developed strategies to alter the balance of amyloid-\ncleavage pathways using CRISPR-Cas9 – attenuating pathologic cleavage, while favoring\nphysiologic cleavage. Upon completion, we will determine the best editor/gRNA combination to\nedit APP, and ultimately have an efficacious and safe CRISPR therapy for Alzheimer’s disease."
+ },
+ {
+  "id": "b74651b1-9320-44aa-a2ff-7c998775aa71",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identifying the Effects of Race-Related Stressors on Laboratory- Induced Stress and Craving among African Americans with Alcohol Use Disorder",
+  "text": "Social stress (SS) is related to increased risk for alcohol use disorder (AUD). Understanding how SS affects alcohol use and the risk of developing AUD can inform more effective, tailored interventions. This project uses a human laboratory paradigm and ecological momentary assessment (EMA) to examine the effects of SS on cue-induced stress and craving, and to evaluate the role of individual-level factors in shaping these responses. Findings will inform strategies to improve AUD treatment outcomes."
+ },
+ {
+  "id": "b74d6f6d-7fde-4f3c-bc5a-e0597c98be64",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Integrated omics analysis of clonal hematopoiesis and cardiovascular disease risk in TOPMed",
+  "text": "Clonal hematopoiesis of indeterminate potential (CHIP), which involves the gain of mutations in blood stem cells,\nis common in older individuals and is linked to increased risk for blood cancers and cardiovascular disease.\nGenes commonly mutated in CHIP include genes known to regulate epigenetic changes to DNA and splicing of\nRNA. We will use genome-wide epigenetic and RNA expression data collected from tens of thousands of\nindividuals to investigate whether epigenetic and gene expression patterns differ in individuals with CHIP, and\nwhether this may contribute to their increased risk for cardiovascular disease."
+ },
+ {
+  "id": "b74fe590-6bf3-49b8-9b87-98081878cddc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cardiac Fibroblast Modeling to Predict and Control Fibrosis in HFrEF Patients",
+  "text": "Cardiac fibrosis refers to an excessive buildup of extracellular matrix in the heart, which can contribute\nto the development of heart failure. Controlling cardiac fibrosis is very difficult due to a complex matrix\nregulation system and large variabilities between different patients. We are developing and testing\ncomputational models that can run personalized simulations using patient-specific measurements of\nbiochemical and mechanical conditions, so that we can better predict which patients will develop more fibrosis\nand predict which patients will respond best to which therapies."
+ },
+ {
+  "id": "b75304f7-ecf8-4c85-a3a3-d3baa37c9e76",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Developing non-viral gene therapy for acute pain treatment",
+  "text": "This R61/R33 project aims to develop a non-opioid lipid nanoparticle-delivered gene therapy for the treatment\nof acute focal pain conditions. The R61 phase consists of evaluating different lipid nanoparticle component\nformulations using immunostaining and physiology to assess delivery, duration, and effect on nociceptor\nphysiology. Following successful completion of the transition milestones, the R33 phase consists of more\nexpansive physiology and distribution studies, and proof-of-concept experiments using human organoid and\nmouse models."
+ },
+ {
+  "id": "b75fa068-3354-4b30-b35a-83f54def73b6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of heat shock transcription factors (HSFs) in hematological malignancies",
+  "text": "Therapeutic exploitation of oncogene addiction has become a central aim of modern cancer therapy, but\neffective targeted therapies for chemotherapy resistant and/or relapsed hematopoietic malignancies including\nacute myeloid leukemia (AML) are lacking. In this proposal, a collaborating team of experts will investigate\nwhether a valid approach for therapeutic interventions in AML can be based on a strategy to inhibit supportive\nnon-oncogene addiction pathways, interfering with tumor-promoting metabolic reprogramming and improving\nthe predicted power of anti-tumor immunity through depletion of Hsf1. This effort may provide an\nadvancement to overcome key existing barriers in refractory AML management."
+ },
+ {
+  "id": "b7636a03-b6a5-4955-af9c-4789d1e725de",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "In Vivo Imaging Facility",
+  "text": "In Vivo Imaging Facility (IVIF) Advances in cancer management require the development of new therapies, and state-of-the-art imaging technologies are needed to assess response to those therapies. The Hillman Cancer Center (HCC) In Vivo Imaging Facility (IVIF) provides novel quantitative imaging techniques that trace biomarkers of molecular events and immunotherapy response associated with effective cancer therapy. Validation of advanced imaging techniques that are specific for relevant cellular processes are required to detect and measure the efficacy of novel anticancer therapies and measure early tumoricidal response. As part of this facility, PET tracers targeting various tumor markers and immune cells in the tumor microenvironment, as well as complementary optical and MR methodologies, are being developed to sensitively and specifically quantify drug-cancer cell interactions. The IVIF provides a critical shared resource for testing PET tracers in in vivo rodent models of cancer and validating promising agents in humans through quantitative imaging trials. The overall goal of the IVIF is to provide pre-clinical and clinical imaging services to HCC investigators to assist in visualizing mechanisms of biomarker action, provide approaches for early disease detection, and monitor therapeutic efficacy. The IVIF supports all 7 programs at HCC, and has contributed to high impact publications in Immunity, Cancer Cell, Theranostics and Nature Communications, among other journals. IVIF had 76 users of which 66 were HCC investigators. Of the 66 HCC users, 42 had peer-reviewed funding. The Specific Aims of the IVIF: (1) Assess biomarker expression throughout cancer treatment using a single modality or a combination of modalities, both clinically and pre-clinically; (2) provide non-invasive imaging services for monitoring therapeutic efficacy in humans and animal models of cancer; (3) provide standard imaging assessment services to evaluate all types of treatment response using the FDA-approved and other standard imaging assessment criteria; (4) provide and incorporate novel imaging analytics such as radiomics and radiogenomics for clinical and preclinical tumor characterizations; and (5) develop novel imaging algorithms, advanced imaging analytics, radiotracers, and contrast agents for clinical and pre-clinical oncological imaging to monitor and evaluate treatment response and agents for targeted radionuclide therapy. Key Services Include: (1) PET radiotracer development and production for human PET-CT and PET-MRI; (2) pre-clinical PET-CT and clinical or preclinical assessment of biomarker expression during cancer treatment; and (3) developing methods for monitoring drug treatments and other types of therapy with PET-CT, CT, and/or MRI through the use of molecular imaging, standard imaging assessments, tumor volumetrics, radiomics and radiogenomics."
+ },
+ {
+  "id": "b76d983f-1f4e-4565-9ebf-a3056406ebc9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Comprehensive minimal residual disease tracking in cancer",
+  "text": "Liquid biopsies have made significant strides in cancer medicine but substantial questions remain, such\nas whether cancers which shed little tumor DNA into blood could be detected with higher sensitivity methods.\nThis proposal builds on work performed during the first cycle of this grant, aiming to develop and optimize a new\ntechnology, DS-DR-MAESTRO (minor allele enriched sequencing through recognition oligonucleotides), that\naffords extremely high sensitivity to detect circulating tumor DNA. The optimized DS-DR-MAESTRO technology\nwill be applied in detecting MRD in samples collected from esophageal cancer patients, a type of cancer that is\nnotorious for shedding low amounts of DNA in circulation."
+ },
+ {
+  "id": "b76fbe8d-46c7-4143-9e8c-90defbc0375a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Tissue-based biomarkers of anti-PD-1-based therapy in metastatic renal cell carcinoma",
+  "text": "In 2015, then-President Barack Obama launched the Precision Medicine Initiative, which dictated a patient-\npowered emerging approach to disease prevention and treatment that takes into account individual differences\nin people's genes, environment, and lifestyles – making possible more effective, targeted treatments for\ndiseases. In personalized medicine, biomarkers serve as indicators of disease prognosis and can potentially\npredict a patient's response to drug treatment, thereby informing clinical decisions and aiding risk stratification.\nCurrently, there are no established biomarkers to guide treatment of metastatic renal cell carcinoma, a disease\nwith many drugs with distinct mechanisms of action approved for first-line use. The establishment of robust\nbiomarkers that can reliably identify which patients will benefit from immune checkpoint inhibitor therapies in\nthe first-line setting would bring us closer to the overarching target of the Precision Medicine Initiative, and also\nreduce toxicities, lower treatment costs, and improve health-related quality of life in patients diagnosed with\nmetastatic renal cell carcinoma."
+ }
+]

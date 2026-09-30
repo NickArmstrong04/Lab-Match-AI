@@ -1,0 +1,142 @@
+[
+ {
+  "id": "ed188a5e-160d-479c-a862-3879362e9fbc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Nanovial Kits for Large-Scale Cell-Cell Interaction Sequencing",
+  "text": "This project delivers accessible tools that link functional cell–cell behavior to gene expression at large scale\nusing standard lab equipment and off-the-shelf single-cell sequencing kits. The results will accelerate selection\nof therapeutic antibodies and cell therapies, supporting faster development of treatments that improve health,\nextend life, and reduce illness."
+ },
+ {
+  "id": "ed1a56af-c1b0-4195-b1ba-ee8a88778215",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Precision screening in self-collected samples to reduce cervical cancer disparities among Latinas",
+  "text": "The goal of this project is to demonstrate the feasibility for the commercialization of the CervicalMethDx\nTest, a precision methylation test in self-collected samples to stratify Latina women for high risk of cervical \ncancer. Latinas have the highest cervical cancer prevalence and incidence rates in United States and Puerto \nRico. A highly sensitive and specific risk test on self-collected samples will enable a novel precision \nmedicine paradigm, enabling a reduction in cervical cancer disparities in US and ex-US communities."
+ },
+ {
+  "id": "ed1c94f2-c7d0-4561-af0a-e95c75111868",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Zygotic Genome Activation by Maternal Transcription Factors and Epigenetic Modifiers",
+  "text": "Understanding how the naive genome of the early embryo is progressively modified to control\ngene expression in time and space remains a central challenge in biology. We study the\ntransition from fertilization to zygotic genome activation, which marks a critical window during\nwhich maternal transcription factors and epigenetic regulators reprogram the parental genomes\nto establish totipotency and initiate embryonic development. Leveraging the unique advantages\nof the Xenopus system, we aim to resolve a fundamental biological question: how maternal\ncues shape the early epigenome and regulatory landscape, from nucleosome-level regulation to\nlarge-scale genome organization."
+ },
+ {
+  "id": "ed1ea250-00ef-4b5a-93a0-a549b69aa5a1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating the Human Virome Using Deep RNA-seq: Supplement to: The Oro-Respiratory-Gut Virome Axis over Space and Time",
+  "text": "The human body is inhabited in and on many body sites by a diverse population of viruses (the\nvirome), and the composition of the virome and how the virome affects human health and disease\nis not well understood. Viruses may be comprised of DNA or RNA, but RNA viruses are\nparticularly difficult to analyze. This supplement will allow very deep analysis of the RNA viruses\nwithin the human virome."
+ },
+ {
+  "id": "ed1f3f41-49f6-48d9-b746-7ff44f87677a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Expanding the cancer paralog genetic interaction map to enable precision oncology",
+  "text": "Targeted therapies have improved lung cancer patient survival, but not all tumors harbor druggable targets and\nthose that do invariably develop drug resistance. New drug targets are needed that could be used alone or in\ncombination with existing therapies to improve patient survival. Here we will develop a new therapeutic approach\nbased on a concept called “synthetic lethality” and validate this approach as a therapeutic strategy for\nsuppressing cancer growth and drug resistance."
+ },
+ {
+  "id": "ed1fac9f-02b9-4c9f-b9ad-7b7d1b3f765b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "SonoHeal: Smart Resonating Closed-loop Airway Clearance Technology",
+  "text": "Airway Clearance Therapy (ACT) is essential for Non-Cystic Fibrosis Bronchiectasis (NCFB) and Cystic\nFibrosis (CF) patients to clear mucus, prevent infections, and reduce exacerbations. Current ACT devices\nrely on non-adaptive mechanical vibrations, leading to ineffective, uncomfortable, and lengthy therapy\nsessions. SonoHeal is the first closed-loop ACT device that uses real-time airway resistance feedback and\nmachine learning-driven adaptive therapy to optimize oscillatory pressure waves closer to resonant\nfrequencies, reducing therapy time, intensity, and improving adherence."
+ },
+ {
+  "id": "ed24a0ab-9270-4663-bf64-52f9acb2f533",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "CRCNS: Investigating how neural dynamics transition along the time-frequency axis across scales",
+  "text": "While extensive evidence has shown the importance of whole-person approaches to physical and mental health, existing therapeutic interventions for neurological and mental disorders remain largely single-scale and segregated. The brain, in contrast, is a vastly multiscale and interconnected complex system, and neural dynamics transform dramatically across spatiotemporal scales, internal states, and external contexts. In particular, numerous bodies of neuroscience research have discovered methods for describing brain (dys)function in the time domain, whereas many parallel, largely disconnected efforts have discovered ways to characterize neural dynamics in the frequency domain. The goal of this project is to integrate the complementary dimensions of time and frequency into a unifying theory through the development of causal discovery methods across broad spatiotemporal scales, internal states, and external contexts. Based on extensive preliminary data, our central hypothesis (CH) is that causal mechanisms in complex networked systems such as the brain can be discovered more accurately and robustly in the frequency domain under (both of) two conditions: sufficient spatiotemporal averaging and sufficient stationarity of underlying dynamics. We test our CH through three Specific Aims, each of which combines formal mathematical analysis, causal algorithm design, large-scale numerical simulations, and in vivo electrophysiology and calcium imaging. Aim 1 tests the working hypothesis (WH) that stationary macroscopic causal mechanisms can be learned more robustly and accurately in the frequency domain. Aim 2 then tests the WH that mesoscopic causal mechanisms can best be understood using a novel form of integrated time-frequency analysis that avoids using conventional, Fourier-based decompositions, while Aim 3 tests the WH that macroscopic causal network mechanisms can be more accurately discovered using time-domain methods during the transient period following extrinsic events. The proposed research is thus highly synergistic with the NCCIH Strategic Plan, especially “Objective 1: Advance fundamental science and methods development”. Through the development of innovative causal discovery methods, the proposed research provides the computational theory needed to identify optimal intervention targets across scales and conditions. This project pioneers a transition from conventional, single-scale to a causal, systems understanding of neural information processing. Consequently, it will lay a rigorous foundation for much-needed holistic and multi-scale intervention design for neurological and mental disorders. RELEVANCE (See instructions): This project is relevant to public health because it develops an integrated framework for determining (1) where (at what nodes) and (2) how (in what “language”) to intervene for brain-related disorders. We achieve (1) by developing methods for identifying causal network mechanisms across broad spatiotemporal scales. We achieve (2) by developing a complex-systems theory to determine which analysis domain—time or frequency—is most appropriate for answering which sets of questions, at what scale, and why."
+ },
+ {
+  "id": "ed2aae4b-f499-46fc-8978-0a1a6688fd20",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Optimizing the HIV Prevention and Care Continua in the United States",
+  "text": "Getting to zero new infections in the US will require curbing the epidemic among Black and Latino trans women and men who have sex with men – or sexual and gender minorities of color (SGMoC). Intersectionality is an essential but underused framework in population health among SGMoC at elevated risk for HIV. The House and Ball Community (HBC) is a population that faces intersectional stigma and is underserved in the response to HIV. Research and interventions with the HBC have the potential to address intersectionality and transcend geographical boundaries to reach regions most impacted by HIV. Our proposal, One Ballroom, is a national mixed methods longitudinal population-based study of intersectional HIV stigma, and HIV prevention and care among SGMoC in the HBC. This study is the first step in a program of research that will lead to a stigma reduction intervention and includes a 3-year longitudinal qualitative phase, a 12-month longitudinal social epidemiologic phase, and an intensive longitudinal ecological momentary assessment phase."
+ },
+ {
+  "id": "ed2d11f1-6a33-4ed1-b5e9-c66b57e679bf",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Unraveling the impact of NUP98-HOXA9 on DNA damage responses",
+  "text": "Acute myeloid leukemia (AML) is an aggressive blood cancer driven by the combined effects of genetic\nalterations and DNA damage from environmental and endogenous sources. A recurrent, high-risk consequence\nof such exposures is the formation of NUP98 fusion proteins, including NUP98-HOXA9, which are strongly\nassociated with poor prognosis in both pediatric and adult AML. This project will define how NUP98-HOXA9\naffects DNA repair and genome stability, revealing new mechanisms by which environmental exposures promote\nAML, identifying new therapeutic targets, and advancing the NIEHS mission to understand and mitigate\nenvironmental impacts on human health."
+ },
+ {
+  "id": "ed2e500d-d7c9-4aeb-8c22-eebc899cc697",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "DNA nanodevices for molecular interrogation and regulation of lymphocytes in adaptive immune system",
+  "text": "The proposed research will use DNA nanotechnology to develop a new generation of molecular tension probes\nand nanodevices to be used in mechanobiology and structural biology. If successful, the project will provide\nanswers to many important questions related to T cell signaling and activation, and impact the development of\nnew immunotherapeutic methods. It will also open up a new paradigm for understanding mechano-biological\nprocesses involving other protein mechanosensors."
+ },
+ {
+  "id": "ed30c678-11ee-41fd-8cf7-edccb8d6f607",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Planarian behavioral screening of ToxCast Phase I chemicals to determine context of use",
+  "text": "There is an imminent need to develop high-throughput non-animal models that can replace, refine, and/or reduce\n(“3Rs”) animal toxicity testing to better understand the health impacts of the thousands of chemicals that we\nencounter in our environment. This is especially true for understanding how chemicals affect the developing\nnervous system, which has been undertested due to the extreme cost and time requirement of traditional animal\ntesting. The goal of this research is to use a large, well characterized library of chemicals to evaluate the utility\nand context of use of high-throughput behavioral screening using freshwater planarians as an invertebrate\nmethod for neurotoxicity and developmental neurotoxicity screening."
+ },
+ {
+  "id": "ed339183-a375-4b69-9a58-775f1ef84a50",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating the landscape and genetic architecture of germline mutagenesis",
+  "text": "All genetic diseases, cancers, and evolutionary innovations ultimately begin with genetic mutations. Despite\nthe fundamental role that mutagenesis plays in human health, we know little about the genetic factors that deter-\nmine how many mutations we are likely to transmit to our offspring, and it is unclear whether these same genes\nalso determine how we accumulate mutations in our bodies as we age. We propose strategies for identifying\ngenes that cause mutation rates to vary within species and among tissues with the aim of illuminating how the\nevolution of lifespan might be functionally linked to the rates of birth defects in future generations."
+ },
+ {
+  "id": "ed3a2a4f-8252-4014-a3c1-6b9953885233",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular drivers of tauopathies in stem cell models from diverse human populations",
+  "text": "This research and training plan will provide advanced training in stem cell biology and functional genomics that\nwill support a career in cutting-edge neurodegenerative disease research. These innovative approaches will be\nused to develop novel stem cell models from donors of diverse populations and to define the molecular\nmechanisms underlying genetic risk for tauopathy."
+ },
+ {
+  "id": "ed3e42f3-9d85-43b6-8f7e-ea32fc73d127",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Plasticity and Function of Dopamine Circuits Regulating the Transition to Habit",
+  "text": "A range of neuropsychiatric disorders, including obsessive-compulsive disorder (OCD) and addiction, are\ntheorized to involve maladaptive habit formation, contributing to compulsions and disruptive repetitive behavior.\nCurrent approaches to treating these disorders are limited because we lack a solid foundation for understanding\nthe basic neurobiological processes that go awry to produce symptoms. This project focuses on answering\nfundamental questions about the neural circuit mechanisms underlying habit formation and motor skill acquisition\nwith the ultimate goal of deciphering how dysfunction in these circuits contributes to OCD, addiction, and other\nneuropsychiatric disorders."
+ },
+ {
+  "id": "ed461e4f-ba20-4fc6-8296-0a0af47a2cc2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Artificial intelligence enabled Stroma-Weighted Automated Grading system to improve risk stratification in Black Men",
+  "text": "The proposed research is relevant to public health because it focuses on the development of an AI-enabled\nstroma-weighted automated Gleason grading system (SWAG) for early risk stratification of prostate cancer in\nBlack men. Once such a strategy is developed there is potential for faster adoption in routine clinical\ndecisions and risk stratification. Thus, the proposed research is relevant to the NIH's mission and goals that\npertain to enhancing health and reducing illness by early diagnosis of prostate cancer."
+ },
+ {
+  "id": "ed47e836-3d3c-4453-acb3-cc58da1a52e5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting Membrane Environments: The Role of Oleate Hydratase (OhyA) in Lipid-Protein Interactions Across Microbial Communities",
+  "text": "The research on oleate hydratase (OhyA) promises significant contributions to our understanding of bacterial\nphysiology and human health applications. By elucidating how OhyA interacts with bacterial membranes to\naccess and modify fatty acids, this study addresses fundamental questions about protein targeting and\nenzymatic function in host lipid-rich environments. This knowledge will enhance our grasp of microbial ecology\nand host-microbe interactions within diverse anatomical sites, and also holds the potential for developing novel\nbiocatalysts and therapeutic strategies aimed at modulating inflammation and metabolic disorders through\ntargeted lipid interventions."
+ },
+ {
+  "id": "ed4a585a-77cf-47e8-9177-f88d506f5c63",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Calcium encoding mechanisms in a model plant",
+  "text": "Calcium (Ca) is a ubiquitous second messenger in all eukaryotes ranging\nfrom budding yeast, plants, to human. Defects in Ca signaling cause\nnumerous human diseases including Alzheimer’s disease, heart failure,\nmetabolic diseases, immune disorders, neurodegenerative diseases, and\ncancer. Proposed research will contribute to the understanding of the basic\nconceptual framework of calcium signaling mechanisms highly relevant to\nhuman health."
+ },
+ {
+  "id": "ed4d9622-f616-4dce-b6d0-f9a99b6f6981",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "SCH: Counterfactual Explanations for AI-Assisted Cancer Diagnosis and Subtyping",
+  "text": "Accurate diagnosis of cancer hinges on histopathological assessment, with treatment\npivoting upon the tumor's morphological classification. AI models can often accurately\nclassify tumors from histopathological images, but their lack of interpretability severely\nhinders their deployment in clinical scenarios. This project develops a principled framework\nto systematically explain AI histopathological models using counterfactual explanations,\nthereby substantially improving AI-assisted cancer diagnosis for pathologists."
+ },
+ {
+  "id": "ed5c3c36-ba37-4637-b9a5-56799f69cd38",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Next-Gen Fluorescent Indicators for Imaging Synaptic Zinc in Cortical Sound Processing",
+  "text": "Zn2+ is an essential neuromodulator, and dysregulation of synaptic Zn2+ has been linked to numerous\nneurological disorders, such as stroke/ischemia, epilepsy, depression, Alzheimer’s disease, and hearing\ndisorders. This project aims to develop new technology for imaging synaptic Zn2+ secretion in awake behaving\nanimals and study the roles of Zn2+ in cortical sound processing. This project will pave the way toward\nelucidating connections between Zn2+ signaling, information processing, and neurological disorders."
+ },
+ {
+  "id": "ed684460-7146-4919-9a80-ad64e942506d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of Spindle Position Control by Cortical Cdc42 Waves",
+  "text": "Proper spindle positioning is critical for tissue morphogenesis, cell fate specification, and development, and\nvaries among symmetric and asymmetric divisions, while disruption of spindle positioning has been linked to the\npathology of neurological diseases. While the machinery responsible for anchoring and moving the spindle is\nwell-characterized, key features of its dynamic regulation are poorly understood, particularly in vertebrates. I\nseek to characterize how such features work and how they make flexible control of spindle positioning possible."
+ }
+]

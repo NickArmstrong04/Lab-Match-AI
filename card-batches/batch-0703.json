@@ -1,0 +1,142 @@
+[
+ {
+  "id": "6e3eebc5-b977-4ca4-947f-e5aa78eda8cc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Understanding membrane proteins’ allosteric modulation with cryo-EM",
+  "text": "Our research aims to investigate the role of transmembrane receptors, which play crucial roles in essential\nprocesses like heart and muscle function, kidney function, and blood pressure regulation. By studying these\nreceptors, we aim to improve our understanding of their function and regulation, focusing on understanding how\nsmall molecules, lipids, and protein regulators interact with these proteins and alter their function. This knowledge\nnot only enhances our understanding of cell signaling but also has broader implications for developing drugs to\ntreat various diseases associated with dysfunction in transmembrane receptors."
+ },
+ {
+  "id": "6e491d3c-f483-4038-934d-dcf2421d01e2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Smad8 is a driver of Duchenne muscular dystrophy pathology via myomiR repression",
+  "text": "This project seeks to advance our understanding of Duchenne muscular dystrophy. The\nproposal seeks specifically to advance our understanding of the Smad8 cell signaling pathway that is markedly\nelevated in dystrophic skeletal muscles. This will advance our understanding of the function of Smad8 which is\nhighly upregulated and associated with microRNA dysregulation in order to potentially discover novel therapeutic\ntargets."
+ },
+ {
+  "id": "6e4d582f-9e37-4f56-acba-32ec6069d427",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Integrative Data Science Approach to Advance Care Coordination of ADRD by Primary Care Providers",
+  "text": "PROJECT NARRATIVE/LAY STATEMENT\nPatients with Alzheimer’s disease and related dementias (ADRD) require effective coordination to manage\nnumerous longitudinal care needs including diagnosis, exacerbation of symptoms, and to treat existing\ncomorbidities. Supporting primary care providers to manage and coordinate healthcare delivery among specialist\nteams is important to improve outcomes and better quality of life for patients with ADRD. The goal of this project\nis to develop approaches that monitor trends in care coordination among primary care providers and specialist\nteams and recommend actionable opportunities for improvement, which will ensure that patients receive high-\nquality multidisciplinary care necessary to maintain long-term wellbeing."
+ },
+ {
+  "id": "6e571993-1adf-45f8-8c8d-0f38390c070f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Develop an electromagnetic-actuated, dynamic cell culture method for airway epithelial cells",
+  "text": "The proposed research seeks to develop a device for dynamic airway epithelial cell cultures. Completion of this\nproject will provide a research tool to understand how motions of the airway impact cell biology, physiology,\nand the progress of pulmonary diseases."
+ },
+ {
+  "id": "6e57e52e-8adb-46b3-921b-18a844dd161a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Regional Metabolomics and Fluxomics Core at Princeton",
+  "text": "The DRC Regional Metabolomics and Fluxomics Core at Princeton provides Penn DRC investigators with access to state-of-the-art metabolomics and flux analysis. These capabilities allow DRC investigators to measure, both broadly and quantitatively, metabolic activity in cell culture, animal model, and clinical specimens relevant to diabetes and obesity. Usage is high, at about 5000 samples annually. Scientific impact has also been high, with 34 DRC publications as a Primary Core, including Cell, Science, Nature x 2, Journal of Clinical Investigation x 2, Nature Metabolism x 3, and Cell Metabolism x 7. This impact reflects the intellectual synergies between the Core’s expertise in quantitative metabolomics and isotope tracing and DRC member expertise in diabetes and obesity. In the coming five years, the Core will continue to provide world-class Metabolomics and Lipodomics measurements with and without isotope labeling. It will also continue to assist Users with experimental design and data interpretation and to advance methods to meet User needs. In addition, the Core will introduce new capacity in Spatial Metabolomics and Fluxomics based on MALDI imaging mass spectrometry. The goal is to enable Users to make measurements of key diabetes-relevant metabolites and fluxes in tissue slices with single-cell spatial resolution. Access to these capabilities will both accelerate and expand the horizons of DRC science, leading to improved diagnosis and treatment of diabetes, obesity, and related disorders."
+ },
+ {
+  "id": "6e5b9c46-c412-46b9-ad3e-6d50b8f69564",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Overcoming Immunotherapy Resistance Through Opioid Antagonism in Head and Neck Cancer",
+  "text": "Immune checkpoint blockade is a promising therapeutic approach for head and neck cancer, however fewer\nthan 20% of patients will respond to treatment. The proposed studies investigate the impact of opioids used for\ncancer pain management on the anti-tumor immune response and test the efficacy of peripheral opioid\nreceptor antagonism to improve response to immunotherapy."
+ },
+ {
+  "id": "6e5e11ca-a833-4b86-b280-22b5ae93c570",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Charcot-Marie-Tooth Disease Type 2E: Mechanism and therapy",
+  "text": "Charcot-Marie-Tooth disease type 2E (CMT2E) is a hereditary sensory and motor neuropathy caused by\nmutations in a protein subunit of neurofilaments. Neurofilaments are microscopic intracellular protein polymers\nthat form a structural scaffold in the cytoplasm of nerve cells. The proposed research will use induced pluripotent\nstem cells from human patients as well as a genetically engineered mouse model to investigate the disease\nmechanism and to develop a gene therapy strategy. If successful, this would represent a pre-clinical proof-of-\nconcept of a potential therapy for CMT2E patients."
+ },
+ {
+  "id": "6e689bf3-eed2-42a3-b23d-85a06e2116fc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Microtubule dynamics and error correction",
+  "text": "Errors in chromosome segregation can promote stem cell dysfunction, birth defects and cancer development. Investigation of these kinesins during vertebrate development will determine how cells control polarity during embryonic cell division to facilitate neural development and prevent birth defects."
+ },
+ {
+  "id": "6e6a607f-313d-469c-a763-6a6d809bbc26",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The significant effects of butyrate on Clostridioides difficile fitness and pathogenesis",
+  "text": "Clostridioides difficile is a leading cause of infectious diarrhea and is considered to be an urgent threat to the\nnation's health by the Centers for Disease Control and Prevention. A better understanding of the metabolic\ninteractions between C. difficile, the gut microbiome, and the host is needed to devise novel strategies to mitigate\nC. difficile-associated disease. Here, we propose studies that will define how butyrate (a host-microbiome co-\nmetabolite that differentiates healthy and dysbiotic gut ecosystems) impacts C. difficile, in order to establish new\napproaches for mitigating C. difficile infection."
+ },
+ {
+  "id": "6e6d58a1-2e59-4026-9b28-b58e2b9a6c00",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Anti-PD1 driven tissue pathogenesis, towards preventing and treating irAE toxicity during cancer therapy",
+  "text": "PUBLIC HEALTH REVELANCE\nUnderstanding, treating, and preventing the very high rate of drug-toxicity reactions is an urgent, unmet need in\ncancer care. This application offers foundational insight into how drugs targeting immune cells expand immunity\nin peripheral tissues, where cancers metastasize, but also drive immune-related toxicity against healthy tissues.\nWe predict mechanisms being investigated in this application are central to understanding the efficacy and\ntoxicities of a class of immune based drugs being used in patients, and to generating better adoptive cell therapy."
+ },
+ {
+  "id": "6e6de69b-f0dc-4843-b983-bda199f3283e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Phase Changing Ultrasound Contrast Agents for Deep Tissue Imaging of Cellular Immunotherapies",
+  "text": "Technologies that allow real-time monitoring of engineered immune cell distribution within tissues would\ntransform patient treatment and management in oncology. This project will develop stimuli-responsive contrast\nagents that provide on-demand and long-term deep tissue imaging of cellular immunotherapies via diagnostic\nultrasound, using anti-tumor macrophages as an exemplary model. Through this work we will establish a platform\ntechnology that can be broadly adopted for in vivo monitoring and modulation of cellular immunotherapies."
+ },
+ {
+  "id": "6e6f36e4-e77a-4fd1-88fe-3d4cb12c5491",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "IntellipulseTM Platform Technology for Effective Delivery of Therapeutic Agents",
+  "text": "This study is designed to validate a next-generation device that can be used for electrically\nbased therapeutic applications and will be used to test a novel combination cancer therapy in a\npreclinical melanoma model and in a translational study in companion animals. The novel\nplatform enhances the ability to control and enhance the delivery of plasmid DNA. This enables\nthe potential for enhanced gene-based immunotherapeutics for cancer."
+ },
+ {
+  "id": "6e71a8af-f8c8-405b-a455-8008ffbfaccb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Technologies enabling robust closed-loop manufacturing of human pluripotent stem cell-derived cardiomyocytes",
+  "text": "This project strives to improve effectiveness and accessibility of cell therapies by advancing process to\nmanufacture cells in a more reliable and less expensive manner. Using human pluripotent stem cell-derived\ncardiomyocytes as a testbed, we will use single cell molecular profiling of cell state transitions during\nmanufacturing to identify failure points during manufacturing and to develop ways to correct these failures. We\ndevelop new feedback-controlled processes to manufacture cardiomyocytes in both 2D and 3D bioreactors,\nadvancing efforts to use these cardiomyocytes in drug development and as therapies to treat heart disease."
+ },
+ {
+  "id": "6e857744-f508-4c4d-aba9-718bbb4abb2d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Automated Liquid Spotter to Enhance Organoid High-Throughput Screening and Therapeutic Discoveries at Vanderbilt University.",
+  "text": "for studying disease, reducing research costs, and improving relevance to patients. This proposal seeks funding\nfor an automated organoid dispenser in Vanderbilt's High-Throughput Screening Core to expand technological\ncapabilities. The new system will accelerate biomedical discoveries, advance therapeutic development, and\nstrengthen interdisciplinary research at Vanderbilt, with direct public health impact."
+ },
+ {
+  "id": "6e8908e8-5965-47e7-8150-8f6a52c98bf2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Genetic Mechanisms",
+  "text": "Genetic Mechanisms Program Summary The Genetic Mechanisms (GM) Program is a basic science program that focuses on cancer gene discovery, mechanisms of genome instability, and gene therapy. The scientific goals of GM are to define and understand the genetic changes that occur during cancer development, including the specific changes that drive tumor initiation, progression, and drug resistance, and to translate our basic science discoveries into preclinical pipelines. We will continue to focus on areas where we have made significant progress over the last 5 years, including studies on the discovery of DNA damage tolerance pathways that can lead to drug resistance in repair-deficient cancers, repurposing of existing drugs for cancer therapy, and adoptive immunotherapy with genome-engineered cells and viruses. These larger goals are underpinned by the following Specific Aims: 1) Identify cancer vulnerabilities, 2) Understand cancer genome evolution, and 3) Develop viral & cellular therapies. The GM Program is co-led by Masato Yamamoto, MD, PhD, a clinician-scientist whose research program focuses on oncolytic viral therapies against solid tumors and the relationship between obesity and cancer, and R. Stephanie Huang, PhD, whose research uses bioinformatics to predict and analyze the efficient repurposing of FDA-approved drugs to treat cancer vulnerabilities. GM has 56 members, representing 20 departments and 8 schools or colleges. For the last budget year, these members were supported by $16.4 million in cancer- relevant research funding (direct costs), of which $3.1 million is from the National Cancer Institute. Since 2018, Program members have published 688 papers, 18% of which resulted from intraprogrammatic collaborations, 33% from interprogrammatic collaborations, and 82% from external collaborations. The Masonic Cancer Center has provided substantial value to the program, including access to Shared Resources and the cGMP-compliant Molecular and Cellular Therapeutics production facility. Internal funding for multiple pilot studies was crucial to developing new collaborative projects, including a P01 focused on APOBEC3B. Lastly, GM has greatly benefitted from new and diverse MCC recruits. Several physician- scientists, including several underrepresented minority researchers who have a strong interest in functional genomics, have joined our Program in the past 5 years."
+ },
+ {
+  "id": "6e8f440e-aff5-4736-b930-ca4ebc4dc98f",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Multidisciplinary Training Program in Cardiovascular Epidemiology",
+  "text": "We offer a comprehensive two-year multidisciplinary training program in cardiovascular epidemiology for MDs and PhDs to pursue a successful scientific research career addressing contemporary training needs of the specialty. The program will graduate five postdoctoral scholars every two years in four different training tracks (translational epidemiology and biology, translational epidemiology and implementation, statistical genetics- genomics, and bioinformatics-computational biology), with enrollment of at least 50% women. We will provide our scholars with multidisciplinary training that includes a broad educational curriculum to develop core competencies, research projects under the supervision of outstanding faculty, comprehensive mentorship, and appropriate career and professional developmental support to ensure their future success."
+ },
+ {
+  "id": "6e92a2b7-dfdb-4b96-b2a1-cc374dc64634",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Establishing a mechanistic basis for enhanced tumorigenesis under chronic circadian disruption",
+  "text": "8. Project Narrative\nEnvironmental disruption of circadian rhythms caused by altered timing of light exposure as\noccurs in shift work increases the risk of several types of cancer, including lung cancer. We\nfound that an altered lighting schedule that mimics the circadian disruption experienced by shift\nworkers enhances tumor formation in a mouse model of KRAS-driven lung adenocarcinoma.\nThis project tests the hypothesis that increased tumor formation in response to chronic circadian\ndisruption is caused by perturbation of normal daily cycles in signaling through the transcription\nfactor heat shock factor 1 (HSF1), which leads to chronic activation of a molecular proteotoxic\nstress response pathway."
+ },
+ {
+  "id": "6e976104-c34e-4c8e-9b8b-4031197d6fab",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Core C: BBC: Biostats and Bioinformatics Core",
+  "text": "The Biostatistics/Bioinformatics Core provides specialized analysis services to the clinical, laboratory, \ntranslational and “-omics” research projects of the Hillman Cancer Center Ovarian Cancer SPORE to ensure \nthat experiments are efficiently designed and data are analyzed in a rigorous and reproducible fashion by \nanalysts familiar with cancer in general and ovarian cancer in particular."
+ },
+ {
+  "id": "6e9ebbc0-73b2-4057-af61-d796acb25f28",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Endogenous Retroviruses and Myalgic Encephalomyelitis/Chronic Fatigue Syndrome",
+  "text": "Myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) is a disabling disease with no FDA-approved\ntreatments or molecular diagnostic tools. This project aims to identify endogenous retroviruses (ERVs) whose\nexpression and genetic variants are associated with ME/CFS and related phenotypes. Establishing\nconnections between ERVs and ME/CFS could lead to breakthroughs in antiretroviral or anti-inflammatory\ntherapies that may mitigate ERV effects and potentially reverse the disease."
+ },
+ {
+  "id": "6ea395bd-fafa-47dc-b407-1cf2a2281157",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Sensing Collimator Technology for Ultrasensitive SPECT Imaging of Targeted Radiopharmaceutical Therapies",
+  "text": "This application undertakes the development of a novel high sensitivity imaging technology. Using a novel\nsensing collimator detector design, computational models, physical phantoms, we optimize and validate a new\nparadigm for SPECT imaging. Our long-term goal is to employ this technology to detect and image the\ndistribution of ultralow photon fluxes in patients receiving alpha particle therapy."
+ }
+]

@@ -1,0 +1,142 @@
+[
+ {
+  "id": "48786719-9d35-486c-b87b-7855e2996e68",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of basal ganglia and cerebellar inputs to motor thalamus in gait",
+  "text": "Walking is essential for everyday life, and gait disturbances are among the most disabling symptoms in a\nrange of neurological disorders, including Parkinson’s disease. This study proposes to determine the functional\nrole of the motor thalamus, a central motor hub, and its inputs from basal ganglia and cerebellum in the control\nof gait, as well as its alterations in Parkinson’s disease mouse models. The results of this work will contribute\nto our understanding of how the brain controls gait, and inform the development of better treatment\napproaches for gait disturbances."
+ },
+ {
+  "id": "488876c7-c54e-4673-a631-0d50f2fb94cd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cancer Bioinformatics: Data analysis and method development for the Yale Cancer Center",
+  "text": "OVERALL PROJECT NARRATIVE\nCancer is a genetic disease driven by somatic or inherited mutations and, thus, genomic\ntechnologies, particularly next-generation sequencing and bioinformatic analysis, have made\nsignificant impact on cancer diagnosis, management, and treatment. However, unlike\nlaboratory protocols and benchwork, researchers find it difficult to bring the necessary expertise\nin bioinformatic data analysis into their labs. The support of this R50 award will allow Dr. Lopez-\nGiraldez to provide broader bioinformatics analysis access and training to Yale Cancer Center\nresearchers, and to expedite the progress, enable innovative NGS technologies, and enrich the\nscope of their research."
+ },
+ {
+  "id": "48895002-e1f7-452c-944c-55853e73d249",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Structural and functional definition of human astrovirus-receptor interactions",
+  "text": "Astroviruses are a global cause of gastroenteritis, commonly known as stomach flu, but currently there are no\nvaccines or treatments available to protect against these viruses. Identifying which human factors these viruses\nsubvert to infect the intestine is critical for the generation of much-needed tools to study astroviruses in cell\nculture and in animal models. Defining these factors will also reveal key targets for novel antiviral therapies to\nprevent infection."
+ },
+ {
+  "id": "488c078b-369a-4c0d-8f3e-9649e38c91e0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular mechanisms driving therapy-induced lineage plasticity",
+  "text": "Lineage plasticity is a developmental process of cell reprogramming employed by cancer cells as a mechanism\nof therapy resistance. Dr. Linares’s application for the R50 Research Specialist Award will support Dr.\nDiaz-Meco’s research program focused on elucidating the molecular mechanisms that regulate lineage plasticity\nin prostate tumors. Unveiling the mechanisms that control this process is crucial to find new targets for\ncastration-resistant prostate cancer."
+ },
+ {
+  "id": "488f4bd7-76ba-4720-a53f-de7e610cd31f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Unravelling the Role of Epigenetics and Cytokines in Type 2 Diabetes among African-ancestry Populations",
+  "text": "African-ancestry populations in the US and Europe are disproportionately affected by type 2 diabetes (T2D), while rates are rapidly increasing in sub-Saharan Africa. The reasons for this disproportionate burden are poorly understood but are thought to be a complex interplay between genetic and environmental factors, such as lifestyle. Previous work led by the candidate demonstrated that T2D in Africans can partly be traced back to DNA methylation-an important epigenetic mechanism that is a key mediator in the interplay between genetics and lifestyle factors. It also suggested that variations in circulating cytokines, partly driven by African-ancestry specific genetic variants, may play a role in the biology of T2D in Africans. The mentored phase of the Pathway to Independence award enabled the candidate to acquire the necessary knowledge and skills to build on this work. An outstanding mentoring committee guided her in mastering causal inference methods, including the application of Mendelian randomization approaches to epigenetic data, polygenic prediction, and mediation analysis, as well as multi-omics analysis. The Center for Research on Genomics and Global Health (CRGG H) at the National Human Genome Research Institute (NHGRI), renowned for its genetics and genomics research in diverse populations, especially African-ancestry populations, provided an ideal environment for the candidate's training du ring the K99 phase of the project. By inferring causality in the previously observed associations between DNA methylation, circulating cytokines, and diabetes, the candidate was able to identify specific DNA methylation sites causally associated with T2D in Africans through two-sample Mendelian randomization approaches. The candidate also identified three circulating cytokines causally associated with insulin sensitivity and beta-cell function, the hallmarks of T2D pathophysiology. To further improve our understanding of the etiology of T2D in Africans, it is imperative to better understand what drives variation in the circulating cytokines causally associated with T2D in Africans. Given the complex interplay of genetic and environmental factors in T2D etiology, the candidate aims to identify both lifestyle and genetic factors causing variability in these cytokines. To achieve this, the candidate will leverage data from two existing cohorts: sub-Saharan Africans living in Africa from the AADM study and sub-Saharan Africans living in Africa and Europe from the RODAM study. To test the hypothesis that both lifestyle factors and genetic regulatory mechanisms drive variation in circulating cytokines relevant forT2D in Africans, the candidate will accomplish two specific aims. Aim 1 is to infer causality in lifestyle-cytokine associations using Mendelian randomization approaches. Aim 2 will identify regulatory mechanisms of cytokines using multi-omics data. Mechanisms by which loci identified in the candidate's published GWAS analyses exert their effect will be studied using genotype, whole genome sequence, DNA methylation, RNA-seq data, and metabolic data. The training received during the mentored phase significantly enhanced the candidate's skill set, allowing the candidate to develop into an independent investigator and lead a lab at the University of Maryland aimed at studying cardiometabolic diseases among African-ancestry populations."
+ },
+ {
+  "id": "4892134b-3585-4603-a09a-f2952a12091a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Extracellular matrix-derived chemokines mediate smoking-associated coronary atherosclerosis",
+  "text": "Coronary artery disease (CAD) is a chronic inflammatory vascular condition that remains a\nleading cause of death in the United States with disproportionate impact on the US veteran\npopulation. Cigarette smoking and other tobacco products clearly accelerate the development of\nCAD; however, the cellular and molecular mechanisms linking smoke with CAD remain poorly\nunderstood. In this proposal, we present the matrikine proline-glycine-proline (PGP) and\nexosome-associated proteases (i.e. proteolytic exosomes) as novel mediators of smoke-induced\natherosclerosis. We propose an integrative mouse model of smoke-induced atherosclerosis to\ninvestigate the pathogenic role of PGP and its generating proteases. Our pre-clinical experiments\nwill be complimented by translational studies among veterans with CAD. Ultimately, PGP and\nproteolytic exosomes may represent new biomarkers and targets for the prevention of CAD."
+ },
+ {
+  "id": "489288d6-9050-4e62-a8ec-654eee73b55d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of CYB5R3 in erythropoiesis",
+  "text": "This study will elucidate the role of erythroid cell-specific cytochrome b5 reductase 3 (CYB5R3) in erythropoiesis.\nThe findings from this research have the potential to address a critical gap in our understanding of redox signaling\nin erythrocyte biology and may contribute to the development of novel therapeutic strategies to alleviate the\nsignificant global burden of anemia."
+ },
+ {
+  "id": "489fa01e-45fe-49ae-95a3-d0c1bfe215dd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Regulatory networks in lens development",
+  "text": "Cataracts impact lens transparency and its surgery accounts for substantial costs to the US Medicare budget\n(>$3.4 billion annually), as ~50% of Americans aged 80 and above are affected by cataract (and its prevalence\nis expected to double by 2050, further straining the US Medicare budget). Thus, to prevent or delay cataract, it\nis essential to define the mechanisms that contribute to the formation of the lens and to the maintenance of its\ntransparency. The proposed research will result in the characterization of new mechanisms and pathways in\nlens development, homeostasis and pathology and will continue development of a publicly available web-\nbased interactive bioinformatics tool – for both clinicians and scientists – that facilitates prediction and\nprioritization of genes/pathways to further accelerate cataract gene discovery."
+ },
+ {
+  "id": "489fa438-bee9-4971-a0e0-feafb82ad912",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project 1 - Sweeney_Hammers",
+  "text": "The multifaceted pathologies associated with muscular dystrophies, particularly Duchenne muscular dystrophy (DMD), represent major challenges to the development and clinical implementation of effective therapeutics for these diseases. AAV gene therapies delivering micro-dystrophin transgenes to all striated muscles are now in the clinic, with hopes of bringing transformative outcomes course of DMD disease. However, much work is still needed to advance the safety and efficacy of these therapies before widespread implementation for the treatment of DMD. In the clinic, there have been serious and fatal responses to viral capsids and the expressed transgenes. Furthermore, we have found that certain micro-dystrophin designs can hasten onset of lethal cardiomyopathy in mice. The goal of the current project is to develop next-generation AAV gene therapies for DMD that a) avoid transgene safety concerns and b) reduce the immune response to vector delivery, thereby advancing the path to safe, effective, and broad-use AAV gene therapies for muscular dystrophies. In Aim 1, we will develop novel utrophin-dystrophin chimeric transgenes that are less immunogenic than their micro- dystrophin counterparts. Aim 2 seeks to improve the design AAV capsids and vector genomes to reduce risks of provoking severe immune responses during treatment. It is anticipated that progress towards these aims will significant advancements towards safe and efficacious implementation of gene therapy for DMD and other muscular dystrophies."
+ },
+ {
+  "id": "48a45210-ec41-4a3e-aae2-cf12d215450a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Long-read, single-cell RNA sequencing of high-risk neuroblastoma samples",
+  "text": "The majority of patients with high-risk neuroblastoma, the most common extracranial solid tumor of\nchildhood, die despite intensive cytotoxic therapies; and survivors are burdened with treatment-related co-\nmorbidities. While immunotherapy with dinutuximab can be very effective, it is also highly toxic, and relapses\nstill occur in at least half of patients. Upon completion of this next-generation RNA sequencing project, we will\nbe in the position to nominate additional non-canonical surface proteoforms as targets for adoptive T cell\nimmunotherapy."
+ },
+ {
+  "id": "48a9d784-6693-45f6-a33d-2f3b953a3aab",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The MusicGens Consortium: Growing robust and rigorous approaches to musicality genomics",
+  "text": "Public Health Narrative\nThis project brings together world experts in complex traits genetics and music cognition to\nunderstand how DNA variation relates to many aspects of human musicality. By providing\nsupport for the annual meeting of the Musicality Genomics Consortium, we provide an important\nintellectual resource for this emerging field. Research findings may reveal new clinical-\ntranslational applications that could emerge from new knowledge of how and why human\nmusicality unfolds over the lifespan."
+ },
+ {
+  "id": "48b131f4-0075-4cc6-92a1-d99d45305c25",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cell and Tissue Imaging Facility",
+  "text": "Cell and Tissue Imaging Facility (CTIF) The goal of the Cell and Tissue Imaging Facility (CTIF) is to provide UPMC Hillman Cancer Center (HCC) members with a “cutting-edge” resource equipped to address all research-related microscopy needs and expert advice on experimental design and data analysis. The imaging specialties offered by CTIF include: light and fluorescence microscopy (macro-dissecting light and fluorescence, epi-fluorescence, confocal scanning, and multi-photon imaging); live cell microscopy (transmitted light and fluorescence) and fluorescence specialties including fluorescence resonance energy transfer (FRET), spectral analysis, ratiometric imaging, super-resolution microscopy (stimulated emission depletion microscopy [STED] structured illumination microscopy [SIM] and stochastic optical reconstruction microscopy [STORM]) technologies), light sheet approaches (both macro and lattice), ribbon scanning ultrafast confocal microscopy; ultrastructural electron microscopy (transmission electron microscopy [TEM], scanning electron microscopy [SEM], immuno-electron SEM and TEM. In addition, the faculty and staff of CTIF provide expertise for assisting with experimental design, instrument use, software use, and complex imaging and analysis methods. Furthermore we are expert in the development and application of computer aided morphometric analysis methods and actively develop algorithms for quantitation of events in living and fixed material."
+ },
+ {
+  "id": "48b6670b-6e0a-4692-9fad-2740058f0ad2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Core B: MPN-RC Tissue Bank",
+  "text": "Core B Project Narrative\nThe Core B Tissue Bank is an essential resource of the Myeloproliferative Neoplasms-Research Consortium\n(MPN-RC) which receives, processes and stores tissues collected from MPN patients consented under IRB\napproved Protocol 106 (Project 4), as well as patients on Project 4 clinical trials. Core B provides a central\nrepository for these tissues that are associated with clinical and mutational annotation (Core C), which enables\nappropriate selection of specimens for each project. Specimens are distributed to MPN-RC investigators and the\nlarger scientific community for translational research and clinical trial specimens are utilized for biomarker and\npharmacodynamic analysis of novel therapies (Core D)."
+ },
+ {
+  "id": "48b6c0e5-1ddc-4e00-86e0-9fbe636cbc9b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanistically Guided Immunometabolic CAR-TIL Therapy for Glioblastoma Heterogeneity and Immune Suppression",
+  "text": "Glioblastoma (GBM) is a highly aggressive primary brain tumor with poor prognosis due to cellular heterogeneity\nand a profoundly immunosuppressive tumor microenvironment (TME). This project develops dual-engineered\nME1-armored anti–PD-L1 CAR tumor-infiltrating lymphocytes (CAR-TILs) combined with pharmacologic\nmetabolic sensitization (clemastine + bexarotene) to enhance tumor eradication. By evaluating the impact of\nthese intracranial therapies on the tumor, TME, and central nervous system (CNS) cell populations, including\nneurons, astrocytes, and oligodendrocytes, this research establishes a mechanistic framework for metabolically\nguided immunotherapies, develop a future clinical trial, and advances strategies for improving outcomes in GBM\nand other neuroinflammatory disorders."
+ },
+ {
+  "id": "48ba98fa-1a29-46dc-b6fc-ff07b251abef",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Drug Selection and Direct Reprogramming in Generation and Culture of Otic Progenitors",
+  "text": "The stem cell like capabilities of otic progenitors giving rise to sensory hair cells and supporting cells may be key\nin developing novel strategies for treating hearing loss. We propose to use inner ear stem cells and induced otic\nprogenitors to identify critical pathways, transcription factors, and gene regulatory networks that mediate the\nstem cell potential of otic progenitors. Our findings would enhance understanding of otic progenitors during\ndevelopment and could potentially lead to novel strategies for cell-based treatment of hearing loss."
+ },
+ {
+  "id": "48bd0c2a-4bdc-47f2-9826-3c56143fdcb1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Uncovering Patterns in the Evolving Drug Supply to Detect Emerging Overdose Trends Using Machine Learning",
+  "text": "This research addresses the U.S. drug overdose crisis by leveraging advanced machine learning techniques to\ndetect shifts in the illicit drug supply and assess their impact on fatal overdose trends. By integrating drug\nseizure data from the National Forensic Laboratory Information System with county-level overdose mortality\ndata from the Centers for Disease Control and Prevention, this study will identify county-level warning signals\nof emerging high-risk substances and polysubstance combinations. These insights will inform policy decisions\nand strengthen localized overdose prevention strategies to mitigate overdose-related harm."
+ },
+ {
+  "id": "48c13fb0-ce78-4208-aa91-56b2294adace",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Glutamate receptors and human neurological disease",
+  "text": "Glutamate-activated NMDA receptors mediate a Ca2+-permeable component of excitatory\nsynaptic transmission in the brain that is involved in learning, memory, and development.\nNMDA receptors have been implicated in a wide range of neurological conditions, and there is\nintense interest in the development of allosteric modulators as new therapeutic treatments for\nneurological disease. This research program is designed to address all key aspects of glutamate\nreceptor signaling, including the structural underpinnings of function, genetic variation as it\nrelates to rare disease and risk factors, identification of therapeutically-relevant molecules that\ncan be used as probes to develop novel treatment strategies, and the fundamental process of\nsynaptic transmission."
+ },
+ {
+  "id": "48c36e7c-2ab7-4bca-8047-df74dd88c38d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Exploiting immunostimulatory microbial pattern recognition to improve head and neck cancer therapy",
+  "text": "Current management of head and neck cancer including radiation therapy or immunotherapy has not\nsignificantly improved the overall survival of patients with advanced HNSCC. This application aims to test a\nnovel molecular platform with a built-in microbial sequence that can potentially achieve robust and long-lasting\nantitumor immunity to enhance cure rates by overcoming the therapeutic barriers in the tumor\nmicroenvironment."
+ },
+ {
+  "id": "48c9571b-42a6-4112-ae54-6c1ebfe754f4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Characteristics and Determinants of Post-COVID Neurocognitive Dysfunction",
+  "text": "Neurologic and mental health complications are among the most common post-acute sequelae of COVID-19\ninfection. A recent study showed that Veterans surviving COVID-19 had over 80% increased risk of mental\nhealth diagnosis over the subsequent year. They might linger or worsen over time. Characteristics, predictors,\nand mechanisms of these complications remain unclear. We are planning to leverage a well-characterized\ncohort of Veterans with and without COVID-19 diagnosis to administer careful serial neuropsychological testing\nover up to three years to better characterize these complications and to establish whether antiviral therapy is\npreventive of cognitive impairment. We will also study blood biomarkers of brain damage and advanced\nimaging on a subset of these patients to determine whether these predict and/or explain the neurocognitive\nchanges. A successful completion of these aims will establish benchmarks to analyze and manage neurologic\nand mental health changes following acute COVID-19 infection."
+ },
+ {
+  "id": "48cd0f9d-da19-4c28-b45b-567de9ecddea",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Telomerase RNP Prisonbreaks from Phase-Separated Nuclear Body",
+  "text": "Phase separation is a common cell biology phenomenon with unsolved implications in human aging and\nneurodegenerative diseases. Specialized instruments, such as the NanoLive microscope, can visualize phase-\nseparated cell structures in living cells for a long period at unprecedented resolution, without harming cells. The\nuse of it in our program will lead to new knowledge in phase separation biology and likely new drug targets to\ntreat aging-related symptoms."
+ }
+]

@@ -1,0 +1,142 @@
+[
+ {
+  "id": "da2c152b-43da-4cd5-b22a-e5df7e96fdad",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Nothing Micro About It: Investigating the Role of miRNAs and Cannabis Use in Cardiac Dysfunction among People Living with HIV",
+  "text": "Substance use is one of the most modifiable risk factors for cardiac dysfunction in people with HIV (PWH).\nHowever, among PWH, the relationship between objective measures of cannabis and quantification of\ncannabinoids (e.g., CBD and THC) with cardiac dysfunction is limited. This dissertation research proposal will\naddress this gap by examining the potentially divergent associations of CBD and THC metabolite levels with\nmiRNA profiles and cardiac dysfunction in PWH."
+ },
+ {
+  "id": "da322e47-3f10-440d-90af-9dee14371d12",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Leveraging Drosophila to identify novel and conserved regulators of cardiomyocyte polyploidy",
+  "text": "Precise regulation of cardiomyocyte polyploidization is essential for heart development and preventing \nheart failure. Using accessible Drosophila genetics, I identified novel cardiac-specific ploidy regulators. My \nproposal aims to understand the novel regulatory mechanisms governing cardiomyocyte polyploidization \nand identify genes linked to cardiac disease. This work is critical for addressing global cardiovascular \nhealth challenges, particularly given the high mortality associated with cardiovascular diseases worldwide."
+ },
+ {
+  "id": "da354858-c6ae-4c4f-8c12-3b95caafc526",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Reproducible and Accurate PD-L1 Immunohistochemistry Biomarker Quantification Using Virtual Multiplex Immunofluorescence Restaining",
+  "text": "The PD-L1 protein assessment by a pathologist is critical for guiding clinical decision-making in groundbreaking\ncancer immunotherapies as well as some standard chemotherapies. However, PD-L1 is difficult to quantify on\nstandard immunohistochemistry-stained slides scored by pathologists, often requiring specific training for each\ntumor type. Using more informative multiplex immunofluorescence staining as a reference standard, we propose\nto refine, optimize, and validate an innovative computational tool to standardize and quantify PD-L1 on standard\nimmunohistochemistry staining for widespread clinical use."
+ },
+ {
+  "id": "da36c380-3b63-4df4-b364-420b4dbd24e2",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Cancer Research Training and EducationCoordination",
+  "text": "The Lurie Cancer Center (LCC) provides a comprehensive training environment to enhance the career development of cancer researchers and caregivers at all levels. The Cancer Research Training and Education Coordination (CRTEC) core at LCC enables numerous training opportunities for students, research fellows, clinical fellows, oncology nurses, and faculty. These include numerous seminar series, symposia, retreats, intramural grants, and travel awards. LCC investigators are supported by 11 T32 grants (6 NCI T32 grants, and 5 other cancer relevant NIH T32 grants), one T37 focused on health disparities, an NCI-funded R38 grant, 2 D43 global education and training grants, and several K and F fellowships. Close collaboration of CRTEC with the COE office has enabled the expansion of pipeline and mentorship programs for students, graduate and post-graduate trainees, and early career faculty. During the current funding period, centralized tracking mechanisms for longitudinal assessment of trainee career progression and outcomes were established. There are also new formalized training programs in coding and bioinformatics for undergraduate and graduate trainees, new student-led activities, and a formalized mentorship program for early-career faculty members. In addition, there are LCC-sponsored education opportunities for healthcare professionals and oncologists in the Chicago area, nationally, and internationally. Over the next funding period, the LCC will continue to expand its ongoing programs, optimize online education programs, and support the education components of new thematic elements in the strategic plan and new translational initiatives."
+ },
+ {
+  "id": "da3773cb-c3f7-460d-96d8-f25b70ad5b63",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Extracting network-level homeostatic rules for sleep/wake states",
+  "text": "The complex relationship between sleep and neural plasticity remains a subject of debate. In this project I\nhypothesize that experience-dependent changes in neuronal circuits undermine optimal information processing,\nthereby increasing the need for sleep. To support this hypothesis, a machine learning algorithm will be developed\nto extract the dynamical rules for sleep homeostasis, experimental work will be conducted to test the plasticity\nthresholds in neural circuits, and a model will be developed to build predictions and test the mathematical limits\nof such a problem."
+ },
+ {
+  "id": "da3cd5e1-7e18-4be4-810a-a7b93bdb0789",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Defining the role of NLRP3 inflammasome in clonal hematopoiesis",
+  "text": "Clonal hematopoiesis of indeterminate potential (CHIP), which refers to the presence of detectable recurrent\ngenetic mutations in blood cells, is a common condition of aging. CHIP is significantly associated with many\ndiseases with a strong inflammatory component and is also typified by increased and/or dysregulated\ninflammatory signals. This proposal seeks to understand how the NLRP3 inflammasome, a central regulator of\ninflammation, promotes Tet2-mutated clonal hematopoiesis and how it may be targeted therapeutically."
+ },
+ {
+  "id": "da403580-ccb6-42e5-9dbc-ad2b9a7bb77f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Defining the cellular dynamics that orchestrate alveolar epithelial cell repair behaviors in live mammal",
+  "text": "This proposal aims to understand how cell types in the injured mammalian lung are generated, how\nthey behave and the molecular pathways that control them to coordinate alveolar repair. Our findings\nwill inform lung biology and help identify novel targets for human lung disease"
+ },
+ {
+  "id": "da405f2f-f65a-48ef-b102-569d181d54cf",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "LncRNA EPIC1 induces immunotherapy resistance by activating EZH2 in breast cancer",
+  "text": "The goal of this proposal is to provide key preclinical data and biomarkers for the combination of\ntwo FDA-approved cancer drugs (i.e., tazemetostat and anti-PD1 therapies) for breast cancer patients.\nSpecifically, we hypothesize that in breast cancer patients, the overexpression of a lncRNA, EPIC1, is a\nmaster regulator of immunotherapy resistance by activating EZH2. We have designed mechanistic and\ntranslational experiments to test (1) whether EPIC1 induces immunotherapy resistance by activating EZH2 in\nbreast cancer and (2) whether EZH2 inhibitor treatment can enhance responses to PD-1 antagonists for\nEPIC1-EZH2-activated breast cancer tumors."
+ },
+ {
+  "id": "da46892b-602d-4055-accc-cd26ec01e708",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting Senescence- and Fibrosis-Associated Tumor States via Engineered Immunity",
+  "text": "To develop engineered immune cell therapies that selectively eliminate senescence-associated tumor states\nand fibrotic tumor microenvironments via targeting of the urokinase plasminogen activator receptor (uPAR), a\nconvergent surface antigen induced by senescence and tissue remodeling."
+ },
+ {
+  "id": "da4d244a-dc0b-4aee-8010-9bb09d842002",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Genetics & Genomics Training Program",
+  "text": "The Graduate Program in Genetics & Genomics trains a new generation of students in research topics that are\ndirectly related to human genetics, health, physiology, and disease. Training the next generation of geneticists\nin these subjects is essential for the continued development of health care in the US and throughout the world,\nespecially in the era of personalized genomic medicine."
+ },
+ {
+  "id": "da4e72be-44b3-4d58-a4ae-6d182b4c7be4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A Mechanoimmunological Basis for Metastatic Site Preference",
+  "text": "Metastases form in a wide range of target organs that vary not only in their chemical composition but also in\ntheir biophysical properties. We have found that patrolling immune cells preferentially engage and selectively\ndestroy stiffer cancer cells and that cancer cells mimic the stiffness of their environment. Our proposed studies\nwill investigate if and how the rigidity of the metastatic microenvironment influences the stiffness dependent\nkilling of cancer cells and, by extension, whether the interplay between tissue mechanics and immune function\neffectively dictates where metastasis grows, a process otherwise known as metastatic site preference."
+ },
+ {
+  "id": "da4f932f-031a-4023-891d-58465cebe484",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating the Molecular Mechanisms of Beta-Cell Expansion Factor A-induced Beta-Cell Proliferation",
+  "text": "Understanding the factors that promote the proliferation, full maturation, and function of pancreatic β-cells\nholds promise for unlocking potential therapeutics and cures for both type I and type II diabetes. Beta-Cell\nExpansion Factor A (BefA) is a microbiome-secreted protein that induces β-cells to proliferate and secrete\ninsulin. This project will explore how BefA exerts these effects on β-cells through interactions with β-cell\nplasma and mitochondrial membranes towards the goal of advancing the in vitro production of functional β-\ncells for cell therapies."
+ },
+ {
+  "id": "da58bc35-6685-4716-bd4b-05563f5c65a8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Core C - Integrated Quantitative Science (IQS)",
+  "text": "CORE C: PROJECT NARRATIVE\nThe Integrated Quantitative Sciences Core participates in the design of all clinical trials, animal studies, and\ntranslational research proposed in the SPORE to ensure that all relevant studies are well powered, utilize\nappropriate statistical methods, and are properly designed to address relevant hypotheses of study aims. In\nthis manner the Core supports the rigor and reproducibility of all results that are generated by the SPORE,\nwhich in turn has significant impacts in the fields of public health and medicine. Expert analysis of project data\nand clear reporting of scientific results are of similar importance for addressing scientific hypotheses and\nsimilarly have strong implications in public health."
+ },
+ {
+  "id": "da5da0f5-4a5e-4639-bb8a-bb2b3826307c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Tissue Analysis Imaging Core",
+  "text": "TAnIC The overarching mission of the WU-DDRCC is to promote collaborative, multidisciplinary research focused on interactions between host and environment in digestive diseases (DD). The newly reconfigured Tissue Analysis and Imaging Core (TAnIC) assists DDRCC members to meet this goal by offering advanced tissue imaging and analysis and tools to visualize spatial relationships and functions of diverse cell types. TAnIC supports studies of cellular and subcellular processes in the liver, pancreas, and luminal gastrointestinal tract. In the past funding period, this core provided image analysis services to an average of 33 Full and 15 Associate members per year, in an efficient and cost-effective manner. The TAnIC has two components: Tissue Analysis Component performs cell, animal and human DD tissue embedding, sectioning, staining, and immunohistochemical analyses, and trains Members and their staff in all analysis services. The Tissue Analysis Component and most equipment for the Image Analysis Component (light and fluorescence microscopes) reside in a dedicated 750 ft2 laboratory located within easy access to our members. Image Analysis Component provides members access to and training in (i) routine light, fluorescent and inverted fluorescent microscopy and quantitative image analysis, and (ii) subsidized access to the Washington University Center for Cellular Imaging (WUCCI) for confocal, super-resolution, electron microscopy (transmission, scanning, and cryo), and nanotomography. KEY ACCOMPLISHMENTS:(1) expanded services to include histology support for spatial transcriptomics and spatial lipidomics/metabolomics analyses; (2) hired two more histotechnicians to accommodate our increased load in support of spatial tissue analyses (2) purchased a 10X Genomics Chromium Controller for single cell RNAseq and immune cell profiling; (4) purchased new computers and upgraded Zeiss image analysis software in line with demand for microscope and image analysis usage; (5) purchased a new microtome and embedding center, and access to an automated slide scanner. From September 2019 to August 2023, despite the COVID19 pandemic, we prepared 34,950 tissue blocks, 89,698 paraffin sections with hematoxylin & eosin stains, 8,524 special stains, and performed 5,293 immunohistochemical (IHC) stains. Our members published 119 papers citing TAnIC since 2019, of which 84 (70.5%) represented collaborations between ≥ 2 Members with 67 (56%) in high impact journals (IF >10). The Specific Aims are 1. Provide cost-effective, comprehensive tissue analysis and training in diverse and advanced tissue and cell imaging methodologies, including rigorous and reproducible processing protocols, to accelerate understanding of digestive disease biology.2. Provide access to and training in the use of imaging and analysis tools and leverage Institutional Cores (WUCCI, GTAC, MTAC) to provide access to in vivo, live imaging, spatial analysis and advanced imaging capacity including 3D, cryo-electron microscopy, super-resolution, and x-ray microscopy."
+ },
+ {
+  "id": "da62cf38-8c43-45b9-99f8-725928f10a8a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "DMS/NIGMS 1: Improving Modern Diagnostics: Detecting and Genotyping of Evolving Viral Pathogens",
+  "text": "RELEVANCE (See instructions):\n Achieving the goals of this proposal will facilitate the development of many kinds of modern diagnostics\n for human and animal health. The proposed methodology can assist diagnostic test development,\n improvement, and maintenance in the face of evolving pathogen threats. Modern diagnostics that monitor\n infections and the genomic sequence of the infecting agent will facilitate pathogen-personalized\n treatments and better intervention strategies to protect a vulnerable population."
+ },
+ {
+  "id": "da662446-bb99-4038-9501-815032f527c6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Generation of functional lung stem cells from human iPSCs",
+  "text": "Diseases affecting lung airway or air sack (alveolar) cells cause significant morbidity and mortality in the\nUS today. Treatments for these diseases are often ineffective, and the development of novel therapeutics\nis hampered due to an inability to access living lung cells from patients. This renewal application continues\nto address critical hurdles in developing cell-based regenerative therapies for lung diseases by generating\na limitless supply of pure airway and alveolar stem cells from human induced pluripotent stem cells (iPSCs)\nin vitro and performing the detailed characterizations and in vivo safety tests that will be needed for their\nfuture clinical application."
+ },
+ {
+  "id": "da6763b9-de2c-485d-9738-a76eb83c444b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of microglia in neural infection",
+  "text": "The proposed project is to study the cellular and molecular mechanisms underlying Zika virus vertical\ntransmission from mother to fetal brain and its associated microcephaly. The outcomes of this study will pave\nthe way toward identification of innovative targets for the development of new treatments or preventive\nstrategies against ZIKV- and possibly other viruses-mediated brain teratogenesis."
+ },
+ {
+  "id": "da6a60c9-dc29-47c1-8cc4-0d356e1bcbf5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Maintenance of the SPF Breeding Colony at Emory National Primate Research Center",
+  "text": "Colony Genetics Core Genetic characterization of animals in the ENPRC Specific Pathogen Free (SPF) breeding colony is conducted by the Colony Genetics Core. Our efforts focus on preserving genetic variation through informed breeding and identifying animals suitable for HIV/AIDS infectious disease research assignments. The Colony Genetics Core leverages liquid-handling robots and systematic sample labeling to enable real-time tracking and ensure robust quality control. We have developed and maintain a suite of purpose-built tools that comprise our analytical framework for assigning genetic parentage, calculating genetic value, and generating breeding recommendations. All tools, datasets, and analyses are made available to the ENPRC through a web-based Colony Informatics platform. Across three Specific Aims, we will continue to ensure that animals are expeditiously genotyped for research assignment and prioritized for retention as breeders. We will expand our breeder exome sequencing efforts and work closely with the Husbandry and Management Core to increase the sophistication of our population projection and management capabilities. We maintain a highly collaborative and integrative role within ENPRC colony management, routinely working with other SPF cores, veterinarians, and investigators to ensure the colony’s needs are consistently met. Specific Aim 1: Provide breeding recommendations based on parentage and genetic value genotyping. Specific Aim 2: Perform allele-specific genotyping for infectious disease research assignment. Specific Aim 3: Expand primatized exome sequencing of new breeders to surveil for new alleles. Taken together, these proposed aims will ensure the genetic variation and sustainability of the ENPRC SPF colony for years to come."
+ },
+ {
+  "id": "da730c32-faa2-452e-8789-6b73871636ba",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Integrating Artificial Intelligence for Optimal Analysis of CardiacPET/CT",
+  "text": "Cardiac imaging with PET/CT has the unique ability to accurately quantify absolute myocardial blood flow and\nallows robust detection of coronary artery disease and patient risk stratification; however, it requires a high level\nof on-site technical expertise to maximize its broad capabilities. The investigators propose to develop novel\nartificial intelligence algorithms for simplified and automated cardiac PET/CT processing and integration of the\ninformation derived from these scans. This work will result in practical clinical tools for physicians—increasing\nthe accuracy of patient assessment beyond what is possible by the current practice of subjective visual analysis\nof images and mental integration of multimodal data."
+ },
+ {
+  "id": "da73640f-7b24-4830-abb6-4d5fd3da8c89",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of A Directed Evolution Platform for RNA Methyltransferases.",
+  "text": "Growing evidence suggests that dysregulations in the RNA chemical modification landscapes strongly correlate\nwith cancers. Tools that enable site-specific modulation of RNA modifications are critical to elucidate the function\nof RNA chemical modifications in biology and cancers; these tools provide basis for future development of\ngenetic medicine targeting RNA chemical modifications. In this proposal, we aim to develop robust, efficient, and\naccurate editing tools for site-specifically installing the N6-methyladenosine on human mRNAs, via establishing\na directed evolution platform to rapidly select high-performance N6-methyladenosine methyltransferases."
+ }
+]

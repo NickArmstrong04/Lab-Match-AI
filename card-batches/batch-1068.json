@@ -1,0 +1,142 @@
+[
+ {
+  "id": "ef346db5-cdc8-40c9-b84e-212fdb1791e3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Developing a Transcriptomic Assay for Rapid Antimicrobial Susceptibility Testing of Mycobacterium abscessus in Clinical Microbiology Laboratories",
+  "text": "The proposed research advances public health by developing rapid antimicrobial susceptibility testing using\ntranscriptomic technology for Mycobacterium abscessus, a highly drug-resistant pathogen responsible for\ndifficult-to-treat lung infections in vulnerable patient groups. Rapid and accurate antimicrobial susceptibility\ntesting will enable the discovery of new drugs and the design of antibiotic combination treatment regimens that\nare more effective, better tolerated, and of shorter duration than the current standard of care, leading to improved\npatient outcomes. The proposed research is directly relevant to the National Institute of Allergy and Infectious\nDiseases’ (NIAID) goal to develop rapid drug susceptibility testing using emerging technologies for\nnontuberculous mycobacteria such as Mycobacterium abscessus as outlined in NOSI NOT-AI-23-50."
+ },
+ {
+  "id": "ef3562b6-45fe-44af-a99e-d279589feb77",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Autologous transplantation of genetically modified induced pluripotent stem cells for rescue of autosomal dominant retinal disorders",
+  "text": "Blinding retinal pigmented epithelial (RPE) disorders impact as many as 8 million Americans today, across\ndisease backgrounds including autosomal dominant retinitis pigmentosa (RP) and age-related macular\ndegeneration (AMD). Current FDA-approved gene therapy trials are limited to the treatment of autosomal\nrecessive (loss-of-function) disorders but have shown varying long-term results, with one such proposed cause\nbeing the continued expression of mutant alleles after gene supplementation treatment. We propose to address\nthis problem by developing a CRISPR-repair strategy with patient-derived iPSCs to generate iRPEs for\nautologous transplantation, while both confirming the rescue of iRPE function as well as therapeutic safety."
+ },
+ {
+  "id": "ef374e9a-c417-4cb0-81d9-076ac884bc89",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Gene Network Perturbations in Alcohol Dependence - A Systems Biology Approach",
+  "text": "This proposal will bring to bear a single cell level systems biology framework to identify molecular\nmechanisms that can be targeted therapeutically for AUD. The results of this study will advance our\nunderstanding of the molecular mechanisms that orchestrate the transition from moderate to\nexcessive alcohol drinking and will delineate key genes driving the transition to escalated alcohol\nintake to uncover novel pathogenic mechanisms and transformative new therapeutics for AUD."
+ },
+ {
+  "id": "ef404569-cf64-4db1-93c4-3621ec4165f5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Head and Neck Cancer SPORE",
+  "text": "PROJECT NARRATIVE – OVERALL The research Projects and supporting state-of-the-art supporting Cores of the UPMC Hillman Cancer Center Head and Neck SPORE are directed at solving key remaining problems in head and neck squamous cell carcinoma treatment – debilitating toxicities, low immunotherapy response rates, and the need for precision oncology. The SPORE’s Developmental Research and Career Enhancement Programs will ensure continuous invigoration of the SPORE and the field of translational head and neck cancer research."
+ },
+ {
+  "id": "ef47128b-87c4-4dde-901c-e6dbe23799f8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Meaningful data integration, visualization and distribution for Human Pain Associated Genes & Cells Datasets",
+  "text": "Meaningful collaborative research requires a systematic approach to data collection, curation, and distribution.\nThe goal of this effort is to develop a rich, meaningful resource for knowledge transfer between researchers to\naccelerate research and our understanding of Human Pain which requires integration of generated data and\nmetadata and accompanying mechanisms to visualize, query and interact with these data resources. Our\ninterdisciplinary team will develop workflows, tools, and infrastructure to integrate and share Human Pain\nAssociated Genes and Cell Datasets with the larger scientific community and build a knowledge platform to\nvisualize, query and interact with these data in a meaningful way."
+ },
+ {
+  "id": "ef491410-e437-42ad-a68f-937fc2dfd0a9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Epileptiform corruption of dentate spikes in Alzheimer’s Disease",
+  "text": "There is a growing understanding that epileptiform activity often emerges early in Alzheimer’s disease and is a\nmajor contributor to cognitive impairment, but the circuit mechanisms underlying this change are poorly\nunderstood. We recently identified that a hippocampal population event, called a dentate spike, is the most\nsynchronous event in the brain and usually serves a role in memory, but becomes pathologically converted to\nepileptiform activity under hyperexcitable conditions. Here we aim to understand how the circuit mechanisms\nthat support this highly organized activity is altered to produce epileptiform patterns in mouse models of\nAlzheimer’s disease and whether non-invasive approaches to neuromodulation can restore circuit function and\ncognition."
+ },
+ {
+  "id": "ef4b6c7b-2d98-4945-9b18-d8eedfb83315",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Data Sharing and Integrative Analysis Core",
+  "text": "This Data Sharing and Integrative Analysis (DSIA) Core will support the overall mission of the Center through three interlocking functions: (Aim 1) to ensure effective data quality and full computability, (Aim 2) to provide innovative integrative analyses to support the scientific goals of this ROBIN center, and (Aim 3) to ensure seamless data sharing for inter-ROBIN network collaborations as well as to the NCI Cancer Research Data Ecosystem. Aim 1. To ensure effective data quality and computability. Under this Aim, we will collect, harmonize, and make accessible the digital data collected in this ROBIN Center, including the Molecular Characterization Trial, as well as Projects 1 and 2. These sets of data include: 1) clinical data (de-identified patient and tumor characteristics, Immunoscore of the diagnostic rectal cancer specimen, etc.), imaging data (MRI / CT images at baseline and prior to surgery), 2) radiotherapy treatment planning data (DICOM images, dose distributions to the contoured anatomic structures), and 3) biological data resulting from the two scientific projects associated with the MCT (e.g., spatial transcriptomics, microbiome, immune biomarkers in circulating blood, etc.). We will curate and transfer data from the Molecular Characterization Trial (MCT) and Scientific Projects 1 and 2 and will fully link all ROBIN data within NCI Cloud Resource FireCloud workspaces and the Imaging Data Commons, with imputation where necessary, providing fully computable subject data profiles. Aim 2. To conduct innovative, integrative analyses to support the scientific goals of this ROBIN center. Under this Aim, we will apply both unbiased/non-parametric and machine learning integrative (multi-datatype) analyses to identify critical immune phenotypes and their tumor/immune molecular signatures using the full spectrum of available biological and imaging data. To identify biological and imaging/radiomics signatures or subtypes, we will apply innovative clustering using network optimal mass transport methods. To understand the impact of radiation on Peripheral Blood Mononuclear Cells (PBMCs), we will conduct systematic multivariate analyses using machine learning approaches. To understand subtypes of RT response, we will apply a novel non-linear machine-learning integrative phenotypic mapping tool (iPhenMap), based on sparse Bayesian factor analysis modeling, that integrates molecular and functional multimodal patterns. Aim 3. To support seamless data sharing for inter-ROBIN network collaborations and cross-training. Under this Aim, we will document and demonstrate our tools, data, and rerunnable analysis workflows in FireCloud and Imaging Data Commons infrastructure, to support inter-ROBIN network collaborations, as well as inter-disciplinary cross-training."
+ },
+ {
+  "id": "ef4df297-6a1f-491b-92a3-a29dc7bf1cd9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanical Causation of Corneal Stromal Matrix Synthesis and Fibrosis",
+  "text": "The purpose of the proposed work is to test the hypothesis that mechanical forces directly drive tissue assembly\nin corneal stromal matrix produced by human corneal cells. A sophisticated battery of mechanobiological tools\nwill be combined to permit both local mechanical measurements and single molecule tracking while tissue is\nbeing elaborated in vitro. The results may change our understanding of how load-bearing tissues are made and\ncould guide mechanotherapeutics for problems such as keratoconus, fibrosis, ectasia, myopia, glaucoma and\neven aid efforts at corneal stromal regeneration."
+ },
+ {
+  "id": "ef607bde-f51f-4df0-b94f-c569f3779a86",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multimodal AI Fusion Model for Early Detection for Pancreatic Cancer",
+  "text": "Our project aims to transform early detection and screening methods for Pancreatic Ductal Adenocarcinoma\n(PDAC) by developing a robust and generalizable fusion model, “PRECISE” (PancREas Cancer multImodal riSk prEdiction), which integrates imaging and non-imaging biomarkers from multisite cohorts. The model leverages deep learning and adversarial debiasing techniques to incorporate diverse clinical data, enabling more effective risk predictions, especially for screening the general population for idiopathic PDAC. Through a scalable automated risk stratification, we aspire to provide opportunistic screening to patients undergoing routine abdominopelvic CT exams, aiming for an early and accurate prediction of future PDAC risk."
+ },
+ {
+  "id": "ef645daf-2a15-45b4-a7de-c12904440c83",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identification of leading causes and paths of death in alcoholic ARDS patients through clinical dataset-wide computations",
+  "text": "Acute respiratory distress syndrome (ARDS) is a life-threatening condition with a high death rate,\nand patients who drink heavily face even worse outcomes. This study will use advanced AI modeling to\nuncover how alcohol changes the causes and pathways leading to death in ARDS patients across the full\nspectrum of clinical variables collected by all eight NHLBI-funded clinical trials. The results will help guide new\ntreatments, improve patient care, and inform public health strategies for people with alcohol-related risks."
+ },
+ {
+  "id": "ef6b6907-a783-4c29-8c7e-7969406d09dc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of small molecule selective inhibitors of neuronal nitric oxide synthase (nNOS) for melanoma treatment",
+  "text": "Human cutaneous melanoma is one of the few cancers in which the incidence rate continues to increase,\nand despite the recent advances in immune and targeted therapies, the 5-year survival rate of the metastatic\ndisease remains low, at approximately 32%. An enzyme called neuronal nitric oxide synthase (nNOS) has been\nidentified as contributing to melanoma development, stimulating disease progression, and facilitating the escape\nof melanoma cells from the immune response. This project aims to develop selective and potent nNOS inhibitors\nas a novel therapeutic strategy to improve the treatment of melanoma."
+ },
+ {
+  "id": "ef6ed98d-be58-4af3-8afd-4a5ccdd8fae2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Impact of Little Cigar and Cigarillos on Co-Use of Multiple Tobacco Products and Cannabis In Young Adults",
+  "text": "The purpose of this study is to identify how use of little cigars and cigarillos fits within a broader pattern of multiple tobacco product use and cannabis co-use and how variable patterns of consumption may contribute to the development and exacerbation of symptoms associated with tobacco use disorder. Findings generated from this study are intended to improve the current understanding of the use of multiple tobacco products and cannabis co-use. This study will provide a strong foundation for future research that identifies novel, tailored strategies that disrupt dynamic patterns of use to promote successful smoking cessation among young adults."
+ },
+ {
+  "id": "ef7c73ee-d01e-4293-a256-5dd808d84f9d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Innovative therapeutic approaches to address excitotoxic CNS/neuronal damage in opioid-neuroHIV comorbidity",
+  "text": "Opioid use disorder (OUD) worsens the CNS injury seen in neuroHIV, and although excitotoxicity is a critical\ncomponent of HIV and/or opiate-driven injury, our evidence suggests that a loss of inhibitory control\ncontributes significantly to this damage since ‘disinhibition’ results in net excitation. We have shown that\ncertain behavioral deficits and structural changes in neurons can be reversed when [Cl−]i balance inside of\nstriatal neurons is stabilized by restoring activity of the K+-Cl− symporter KCC2. The proposed studies\nexplore this theory about the mechanisms underlying synaptodendritic dysfunction/injury in neuroHIV-OUD\ncomorbidity by systematically exploring Cl− regulation using electrophysiological, structural, optical imaging,\nand behavioral measures in 2 complementary transgenic models and in cultured murine and human cells,\nwith multiple interventional approaches."
+ },
+ {
+  "id": "ef808995-0d9e-4cd0-823e-e7578e593d68",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The skin microbiome and fungal infections of indigenous Malaysians",
+  "text": "Skin fungal infections affect millions of individuals in the United States, causing chronic disease,\nhealthcare burden, and reduced quality of life, yet the biological mechanisms underlying their\npersistence and recurrence remain poorly defined. This project will identify specific microbial and\nenvironmental determinants of chronic dermatophyte infection using a unique endemic population,\ngenerating quantitative data on microbiome composition and fungal genetics that cannot be\nobtained in U.S. settings. The results will inform improved diagnostics, prevention strategies, and\ntargeted treatments for fungal skin diseases relevant to U.S. populations, including infections\ncaused by related dermatophyte species."
+ },
+ {
+  "id": "ef819761-7df9-4298-bbfe-bc19d8c4fa15",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Allogeneic hepatocyte transplantation without immunosuppression",
+  "text": "Hepatocyte transplantation is a promising modality for the treatment of a host of severe liver diseases. The\nmethod, however, is hampered by the requirement for immune suppression and by a low engraftment index,\nlimiting therapeutic efficiency. Here we will demonstrate that genetically enhanced donor hepatocytes can\nexpand in vivo to treat several monogenic liver diseases as well as evade allogeneic immune responses,\nmaking posttransplant immune suppression unnecessary."
+ },
+ {
+  "id": "ef82cb50-6ffe-4360-9c66-cfa34d33cd7a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The barcode project: a strategy to track the early naïve reservoir",
+  "text": "Memory CD4+ T cells arise from naïve CD4+ T cells after exposure to infectious agents; they\nare considered to be the most important HIV reservoir. This proposal studies the earliest stages\nof the HIV reservoir and models this stage ex vivo using a barcoded virus to dissect the\nimportant role of a previously ignored reservoir in disguise within naïve CD4+ T cells."
+ },
+ {
+  "id": "ef856678-3496-4d73-99c5-d9553ed9be4d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Determinants of response to cancer immunotherapy",
+  "text": "Despite the success of cancer immunotherapy as a therapeutic modality, the majority of cancer patients do not\nbenefit from this treatment. Studies of the mechanisms of response and resistance to immune checkpoint\ninhibitors in the tumors and blood of treated cancer patients and in murine models will provide insights that will\nguide the design of new combinatorial therapies. By understanding the precise immune cells that can be induced\nto kill tumor cells, we ultimately seek to translate our findings to develop more effective immunotherapies tailored\nto drive these cells."
+ },
+ {
+  "id": "ef872341-bac5-477d-84fb-375fed1abb24",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Harnessing routine clinical suicide risk assessment for machine learning-guidedprediction and precision treatment in outpatient behavioral health care",
+  "text": "Suicide is the 11th leading cause of death in the United States, and nearly 80% of individuals who die by suicide\nreceive outpatient healthcare in the year prior. In this project, we will develop and evaluate suicide risk prediction\nmodels and a precision treatment rule that use clinician suicide risk assessment and routine electronic health\nrecord data to help clinicians detect the patients at highest risk and guide targeted treatment decisions in\noutpatient behavioral health practice. By partnering with clinicians and health system administrators, we will\nensure that the tools we develop can be successfully implemented and sustainable in real-world health systems."
+ },
+ {
+  "id": "ef89ff2d-d71b-4c63-ba52-93a463da9440",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Researching Ethics and Assessment of Unintended Consequences in Healthcare for Mental Health Earlier",
+  "text": "PROJECT SUMMARY — RESEARCH PROJECT 3 (RP3) Implementation science holds great potential to increase the reach of effective interventions. However, there has been an underemphasis on prospective planning for and investigating unintended consequences of implementation efforts. This can result in the inadvertent worsening of health outcomes among populations already experiencing disproportionately higher rates of disease burden. Specifically, early mental health screening, identification, and intervention, while promising to improve outcomes for children and families due to the outsized impact on lifespan mental health, has the potential for negative unintended consequences, particularly for children and families struggling with other health and social challenges. Prospectively anticipating and evaluating unintended consequences in pediatric mental health prevention is increasingly recognized as ethically imperative because of the potential harm that could emerge from the implementation of evidence-based approaches. Researching Ethics and Assessment of Unintended Consequences in Healthcare for Mental Health, Earlier (REACH4MHE) seeks to prospectively and concurrently explore and evaluate the unintended consequences that may occur with implementation of evidence-based practices for toddler mental health screening and intervention across all the Mental Health, Earlier (MHE) Center Projects. This work is informed by the Pullmann Compilation of the Ripple Effects of Implementing Children’s Mental Health Services and Rid’s Ethical Evaluation of Risks of Public Health Programs. Foundational to our approach is the inclusion of multiple constituent perspectives across ecological levels to ensure holistic perspectives of unintended consequences resulting from the screening, identification, and intervention for toddler mental health risk. In Aim 1, we will conduct a “pre-mortem\" with each MHE Project team, in which we will engage prospective hindsight to identify potential unintended consequences of each project’s implementation. In addition to producing project-specific evaluation plans, these activities will also generate a generalizable methodological approach for future studies. In Aim 2, we will employ a multimethod approach to evaluate ethical issues and unintended consequences across context (caregivers, clinician, organizational [exploratory]) and across MHE projects. This cross-cutting study addresses a prominent limitation of many implementation studies to purposively evaluate and attend to unintended consequences that threaten ethical implementation of early identification and prevention of mental health problems in pediatric primary care. The MHE Center, its individual Projects, and its innovative trial design, provide a unique opportunity to study unintended consequences of implementation across the stages of the mental health risk identification-to-care cascade. This project is significant because it will inform the ideal process through which to engage in collaborative, ethical implementation of early mental health identification, screening, and intervention."
+ },
+ {
+  "id": "ef8a3b39-04ce-49be-a9bf-394f49ed5868",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Developing Personalized Predictive Models of Aggression",
+  "text": "This project seeks to develop personalized models of aggression using data from ecological momentary\nsurveys and passive sensors from smartphones and wearable devices. This approach to studying aggression\nis important because psychological models of aggression emphasize that it is dynamic and contextualized but\naggression is rarely examined in daily life where these dynamics can be studied, hindering our ability to predict\nand intervene on aggressive urges and behavior in the contexts where they normally occur and are most\nconsequential. By revealing the personalized antecedents of aggressive urges and behavior, we can identify\nperson-specific mechanisms that precede instances of aggression, which in turn will provide crucial information\nneeded to develop personalized, technology-based interventions that can be delivered before the harmful\naggressive behavior occurs."
+ }
+]

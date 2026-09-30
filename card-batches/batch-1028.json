@@ -1,0 +1,142 @@
+[
+ {
+  "id": "e0e50537-fa02-4853-9c63-99bf93830156",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Functional Multi-omics of Aging",
+  "text": "Currently, we are in a period of history where the number of individuals over the age of 65 is doubling, leading\nto an epidemic of chronic multi-morbidities of old age, and creating an urgent need to discover underlying\nmechanisms of aging biology that promote disease. “Functional Multi-omics of Aging” is a training program in\nbasic and translational aging research for pre- and post-doctoral trainees addressing this need. The program's\nsuccess over the last 14 years is documented by outstanding publications and successful careers in biomedical\nresearch of former trainees."
+ },
+ {
+  "id": "e0e72dd7-5930-4f08-8ef2-1042c7661edd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Harnessing EHR to develop a Florida-based Coalition on Cancer Care Inequities among PHIV (Social Determinants of Health and Quality of Cancer Care in HIV-associated Cancers)",
+  "text": "Although cancer is a leading cause of morbidity and mortality among people with HIV (PWH), they are less likely\nto receive any treatment compared to their HIV-seronegative counterparts, even after considering important\nclinical factors such as cancer type and cancer stage at diagnosis. Despite the documented inequities in general\nhealthcare access PWH experience, limited prior work has investigated the role of multi-level social factors,\ncollectively known as social determinants of health (SDoH), that may impact PWH’s receipt of equitable, high-\nquality cancer care. Through the present one-year proposal, we set out to develop the necessary infrastructure\nto address this gap in scientific knowledge, leveraging a novel electronic health record-based linkage of multiple\nhealth systems throughout Florida called OneFlorida+ (19 million patients) to gain real world insights into the\nrole SDoH play in cancer treatment receipt among PWH in the US and facilitate the development of future patient\nor provider-level interventions tailored to the HIV oncology care context."
+ },
+ {
+  "id": "e0f1c04b-9b0b-41d3-a2ff-9922a7878b7b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Prostate cancer risk stratification via computational 3D pathology",
+  "text": "Relevance to public health\nThis project will develop a nondestructive assay for prostate cancer prognostication based on quantitative\nhistomorphometric analysis of 3D pathology datasets of prostate specimens (biopsies and surgical excisions).\nThis project will demonstrate that computational 3D pathology is superior to computational 2D pathology\n(including existing clinical nomograms) for distinguishing between aggressive and indolent prostate cancers,\nand therefore has value for guiding treatment decisions by urologists and oncologists."
+ },
+ {
+  "id": "e0faa443-e30b-4b96-9037-4e51a32ee366",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "New protein-engineered tools and technologies for identifying, deorphanizing, and targeting shed proteins in cancer",
+  "text": "Extracellular proteolysis is a hallmark of cancer and has major functional consequences for remodeling cell\nsurface proteins including receptor activation and shedding of functional extracellular domains. Here, we will\ndevelop technologies to identify novel shed proteins of cell surface, deorphanize interacting partners of these\nshed proteins, and generate proteolysis inhibitors to interrogate specific proteolysis events on the cell surface of\ncancer cells. We believe our work will significantly impact the functional understanding of shedding events in\ncancer, and identify new biomarkers and immunotherapeutic targets."
+ },
+ {
+  "id": "e106de9b-9f87-47f1-a229-ee790ba3e712",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "SCH: Spine-Hip Exoskeletons with Learning-Based Optimal Control for Low Back Pain Alleviation",
+  "text": "The proposed research entails integrative solutions that span design, modeling, and control to gain a\nscientific understanding of human-robot interaction for multi-disc human spine joints (in contrast to\nwell-studied robot interaction with single joints like ankle or knee). Optimal assistance of human joints is\nusually achieved with exoskeleton torques that are about 50% of biological human joint torques no matter\nhow much robotic torque is delivered to humans. How the human spine will respond to exoskeleton"
+ },
+ {
+  "id": "e10ff73e-b9e4-4d06-9d3c-fae38f3a1823",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Elucidating Reward Network Modulation in Medial Forebrain Bundle Deep Brain Stimulation for Treatment Resistant Depression",
+  "text": "Treatment resistant depression (TRD), representing up to 30% of major depression diagnoses, is an\nincapacitating disability affecting millions worldwide. Deep brain stimulation (DBS) is a promising effective\ntreatment strategy, however, progress has been limited due to an incomplete understanding of the reward\nnetwork effects of chronic stimulation for depression. The work proposed in this study, to perform imaging to\nunderstand the evolution of induced reward network expression changes due to stepwise stimulation amplitude\ntitration, and to correlate their change with improvement in anhedonia, will identify objective biomarkers that\ncan be used to ultimately guide programming for optimal reward processing improvement."
+ },
+ {
+  "id": "e1117a33-c50d-4171-a689-89577a63638b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project 2: InHANCE: Radiation Associated Dysphagia",
+  "text": "Project 2\nThe incidence of highly curable head and neck cancers is rapidly rising, and radiation treatment is very commonly\ngiven at doses sufficient to cause chronic dysphagia (difficulty swallowing). Swallowing function is a driver of\nquality-of-life (QOL) after cancer treatment and may cause death from treatment side effects (pneumonia) even\nafter cancer is cured. This application seeks to understand how quantitative imaging methods might reduce\ndysphagia burden through risk stratification, automated diagnostics, and image-guided de-escalation algorithms."
+ },
+ {
+  "id": "e116a7d9-e474-4c4f-900a-f0322756fa5d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development and Testing of a Multi-Component Intervention to Support HIV Care Engagement among Patients Receiving Cancer Treatment in Zimbabwe",
+  "text": "Much of the world’s population live in rural areas, where access to specialty care is limited, resulting in unique barriers to seeking care for comorbid conditions across siloed health systems. This study seeks to develop and test solutions to enable concurrent engagement in HIV and cancer care for people with HIV and cancer in Zimbabwe, who face similar barriers with siloed and dispersed treatment institutions. Lessons learned from this study will provide insight for other populations who face barriers to healthcare engagement across siloed systems with limited specialty care options, including rural US settings."
+ },
+ {
+  "id": "e1248373-dee2-4c18-a31a-5701e6901eae",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Viral Testing",
+  "text": "The primary purpose of the virology testing arm of CPRC-SPF breeding program is to assure that its Indian-\norigin rhesus macaque colony, supporting NIH-sponsored research specially on HIV/AIDS, is free of Simian\nimmunodeficiency virus (SIV), Type D Simian retrovirus (SRV-D), Simian T-lymphotropic virus (STLV-1) and\nHerpes B virus. Testing is conducted by using the state of the art methodologies."
+ },
+ {
+  "id": "e12b8a63-361a-4c0b-b00b-bf6d465ff3b4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Deciphering the Molecular Features Underlying LRP1-Mediated Tau Spread",
+  "text": "There are currently no effective treatments for tauopathies, such as Alzheimer’s Disease (AD). Uptake and\nspreading of pathogenic tau is recognized as a key driver of AD pathology, and is primarily mediated by tau's\ninteraction with the cellular receptor LRP1. Molecular dissection of the tau-LRP1 interaction will enable us to\ndevise new therapies for AD."
+ },
+ {
+  "id": "e132ca15-00cc-41d7-afc8-bb3b7cfbc95e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Developing MRI Biomarkers of Myelin and Iron in Veterans with Traumatic Brain Injury",
+  "text": "The goal of this study is to validate a 3D Short TR Adiabatic Inversion Recovery UTE (STAIR-UTE) sequence\nfor myelin imaging, and a 3D UTE quantitative susceptibility mapping (3D UTE-QSM) technique for iron imaging,\nthen characterize longitudinal changes in demyelination and iron accumulation in brains of mice subjected to\nopen-field low-intensity blast (LIB), and finally apply the 3D STAIR-UTE and UTE-QSM techniques to evaluate\ncross-sectional changes in demyelination and iron accumulation in two groups of Veterans, one group with\nhistory of mTBI and the other group with no history of mTBI."
+ },
+ {
+  "id": "e1355fde-103a-406a-beb7-646d8a3a9224",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Striatal Regulation of Prefrontal Cortical Circuit Maturation:  Mechanisms and Implications for ASD",
+  "text": "The dorsomedial prefrontal cortex (dmPFC) and the striatum are interconnected through recurrent cortico-basal\nganglia-thalamocortical loops that support a wide range of cognitive, affective, and motor functions. While the\ninfluence of cortical activity on striatal development is well recognized, the reciprocal impact of striatal activity on\ncortical maturation remains poorly understood. This proposal investigates how imbalances in postnatal striatal\noutput affect the development of prefrontal circuits, with a focus on the activity-dependent maturation of cortical\ninterneurons. We will further examine the relevance of this mechanism in a genetic mouse model of autism\nspectrum disorder (Shank3B). By uncovering how striatal dysfunction disrupts cortical circuit formation, this work\nwill provide critical insight into the pathogenesis of neurodevelopmental disorders involving frontostriatal\ndysfunction and may reveal novel targets for early therapeutic intervention."
+ },
+ {
+  "id": "e1394290-5ea2-4a11-a75a-538f34d3f229",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Optimizing gamma-delta T cell receptor-mediated signaling to improve cancer immunotherapy",
+  "text": "gd T cells, a subset of whole T cell population, can initiate tumor killing by detecting cancer antigens (some\nmetabolites or small fragments of cancer proteins) through their cell surface gd T cell receptor (TCR)-CD3 protein\ncomplexes. One type of immunotherapy that involves altering gdTCR-CD3 mediated signaling can help the\nimmune system to fight against deadly cancers. This proposal aims to identify and alter the critical amino acids\n(small molecules that constitute a protein) on the gdTCR that are involved in CD3-mediated signaling, leading to\nenhanced tumor killing by gd T cells as a means of devising new strategies for cancer immunotherapy."
+ },
+ {
+  "id": "e13a5a34-0cab-46df-8cd2-430f8e410a47",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Intestinal chondroitin sulfate glycosaminoglycans and their role in inflammatory bowel disease",
+  "text": "The worldwide prevalence of inflammatory bowel disease and its associated economic burden continue to rise.\nIncreasing evidence implicates impaired extracellular matrix function in the pathogenesis of inflammatory bowel\ndisease, but studies testing the role of extracellular matrix augmentation as therapy for inflammatory bowel\ndisease or as a biomarker are limited. The goal of this work is to investigate whether chondroitin sulfate\nglycosaminoglycan elements in the intestinal extracellular matrix can be used as novel therapeutic agents in\ninflammatory bowel disease and whether their composition at diagnosis can predict clinical disease outcomes."
+ },
+ {
+  "id": "e13dc801-c8a9-426f-88d6-fec8f212e7dd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Role of Ischemia Reperfusion Injury in Lung Allograft Rejection",
+  "text": "Lung transplantation is an established therapy for many patients who suffer from end stage\npulmonary failure. Current treatment strategies for lung transplant recipients, which rely on\ntargeting adaptive immune cells in the recipient, have many side effects and are only modestly\neffective as many lungs ultimately fail due to graft rejection. In this grant application we propose\nto study alternative approaches which are based on targeting innate immune pathways that are\nactivated immediately after reperfusion of the transplanted lung and augment alloimmune\nresponses."
+ },
+ {
+  "id": "e13fb343-88ed-4658-bf08-214f314604f1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Cancer Cell Map Initiative v2.0",
+  "text": "THE CANCER CELL MAP INITIATIVE v2.0\nOVERALL NARRATIVE\nAlthough much attention has been devoted to mapping the tumor genome, understanding cancer requires that\nwe move beyond simply cataloguing the genes associated with it. It is critical to understand the many interactions\namong these genes and the corresponding proteins, and how these complex networks give rise to tumor\ninitiation, progression and metastasis. The Cancer Cell Map Initiative (CCMI) is applying systematic approaches\nto comprehensively map the molecular networks that underlie cancer and to use these maps as key resources\nfor precision medicine."
+ },
+ {
+  "id": "e141088b-e1ea-432b-bdb5-4296330f6bc5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Role of SMARCAL1 Depletion on Increased Immunogenicity in ALT+ Gliomas",
+  "text": "PROJECT NARRATIVE.\nSMARCAL1 is a novel tumor specific therapeutic target for high grade gliomas (HGGs) that utilize alternative\nlengthening of telomeres (ALT). We will investigate the effects of targeting SMARCAL1 on inflammation\nwithin tumor cells and the ability of immune cells to recognize and respond. These studies will provide novel\ninsight into the mechanisms governing tumor-intrinsic inflammatory signaling and how they can be targeted\nfor glioma immunotherapy."
+ },
+ {
+  "id": "e14209ab-fafc-467b-9f16-1e226bce6b40",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "University of Pennsylvania Patient-derived Xenograft Development and Trials Center",
+  "text": "University of Pennsylvania PDX Development and Trial Centers Project Narrative –\nHuman malignancies, particularly AML and ovarian, continue to have a high mortality. We will optimize human\npatient derived xenotransplantation models for AML, ovarian cancer and other malignancies and use these\nmodels to test new therapies for these diseases."
+ },
+ {
+  "id": "e14c1d84-0383-42df-bc01-a8961ec4daef",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Wnt-Retinoic Acid Regulation of Gastric Epithelial Cells",
+  "text": "This project will define basic mechanisms of stomach tissue maintenance and uncover molecular pathways\nthat are important for cellular repair after tissue injury. The findings will advance knowledge of gastric stem cell\nbiology, which is important to refine strategies to propagate adult stem cells in culture for regenerative\ntherapies and to develop potential therapies for gastric hyperproliferative diseases."
+ },
+ {
+  "id": "e14c3be1-251d-4967-b951-6aa30433e5d7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanotransducive role of muscle progenitors and bone formation in fibrodysplasia ossificans progressiva",
+  "text": "Fibrodysplasia Ossificans Progressiva (FOP) is a debilitating human genetic disorder of\nprogressive bone growth within skeletal muscles and hence all current interventions aim\nto reduce bone formation. Here, we propose that FOP is not only a disease of ectopic\nbone formation, but also impaired skeletal muscle regeneration, and we provide a strategy\nto gain unique insight into fundamental mechanisms regulate tissue homeostasis and\nrepair. The studies present here will investigate previously undefined cellular extensions\nby which adult progenitor cells interact to sense their microenvironment, investigate how\nthe mechanosensory protein Piezo1 regulates function in fibroadipogenic progenitors, and\ntest a potential pharmacological intervention to boostregeneration and diminish aberrant\nbonein diseased tissues."
+ }
+]

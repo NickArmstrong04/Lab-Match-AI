@@ -1,0 +1,142 @@
+[
+ {
+  "id": "e415ba80-5e9f-4f16-be62-c2c9ec169b07",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dysregulated epigenetic control in leukemogenesis",
+  "text": "We hypothesize that specific gain-of-function (GOF) mutant p53 proteins promote leukemogenesis and mediate\ntherapy-resistance by interacting with transcription regulators that remodel chromatin accessibility and\nstructure in leukemia-initiating cells (LICs). We will employ multidisciplinary and complementary approaches,\nincluding molecular, biochemical, genetic, and pharmacological approaches, as well as unbiased proteomic\nand genome-wide RNA-seq, ATAC-seq, ChIP-seq, WGS, and Hi-C studies to elucidate the mechanisms by\nwhich GOF mutant p53 proteins promote leukemogenesis and mediate therapy-resistance."
+ },
+ {
+  "id": "e418a692-517b-446a-9344-089ffe141b05",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Defining and perturbing gene regulatory dynamics in the developing human heart to understand mechanisms of congenital heart defects",
+  "text": "This project aims to understand how heart tissues differentiate during human development by studying a 3D, in vitro, temporally dynamic differentiation system that faithfully recapitulates fetal differentiation patterns of the heart. We will carry out aims that span efforts toward mapping, perturbing, modeling, and validating our model-based understanding of these data, with a goal of learning DNA sequence elements that drive gene expression programs during development. These efforts will enable us to identify specific genetic determinants of developmental heart defects."
+ },
+ {
+  "id": "e419e08f-22db-4c82-8ad4-00001ecb6e91",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Spatiotemporal Neuropeptidomics with Isomer-Resolved Mass Spectrometry",
+  "text": "Neuropeptides are the most diverse and ancient class of signaling molecules, and act as critical\nregulators of memory, behavior, and physiology. Their functions are diversified by extensive post-\ntranslational modifications, including subtle structural variation including D-amino acid containing and\nisoaspartate-containing peptides. These enigmatic modifications can have profound effects on storage,\ntrafficking, and receptor binding, yet remain among the least understood features of the chemical\nsignaling process because our current technologies cannot fully capture their distribution, release, or\ndynamics. This proposal will develop a suite of instrumental and computational advances to overcome\nthis limitation. Aim 1 will push the spatial resolution of multiplexed, isomer-resolved imaging to the\ncellular level by mounting tissues on stretchable elastomeric supports, achieving a ten-fold\nenhancement in effective tissue area. Stretched tissues on elastomers will be imaged using nanoDESI\nmass spectrometry to map high molecular weight neuropeptides. The integration of mass spectrometry\nimaging with ion mobility is an exciting route to spatially resolve modified neuropeptides, but current\nimaging pipelines can take over 24 hours of imaging for a single tissue section. To address this gap,\nAim 2 will make isomer-resolved mass spectrometry imaging practical for large tissue domains and\nclinical studies by integrating ion mobility separations with deep learning-based acceleration. Aim 3\nwill provide the first real-time isomer-resolved neuropeptide measurements by integrating brain slice\nelectrophysiology, ion mobility, and ambient mass spectrometry sampling. The combination of\nmechanical sample expansion, computational imaging acceleration, and real time release profiling\nrepresents a fundamentally new framework for understanding signaling molecules that bridges gaps in\nspatial, temporal, and structural dimensions. I have identified key areas which require additional training\nto support my transition to independence, and which are logically integrated with the project aims: (1)\nnanoDESI MS for peptides/proteins, (2) deep learning algorithms for image acceleration, and (3) using\nelectrophysiology to characterize neuropeptides. I have carefully chosen world-class mentors and\ncollaborators, including my primary sponsor Dr. Jonathan Sweedler, and co-sponsor Dr. Fan Lam. The\nadoption of nanoDESI, deep learning-based acceleration of ion mobility separations, and stimulus-\nevoked neuropeptide isomer measurements are all directions not independently pursued by my\nsponsors and will help me establish a unique research niche."
+ },
+ {
+  "id": "e42900a4-49ef-418c-be81-59b1f036839b",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Tools and technology for high-fidelity mesoscale diffusion MRI",
+  "text": "The NCBIB P41 Center for Mesoscale Mapping (CMM) is dedicated to driving the convergence of tools and technologies for imaging and probing human brain structure and function at the mesoscopic scale. Technology Research and Development (TRD) Project 3 focuses on developing high-fidelity mesoscale diffusion MRI tools and technologies for investigating human brain microstructure and connectional anatomy at unprecedented resolutions, taking advantage of advances in MRI hardware over the past two decades. The greater availability of high-performance gradients and ultra-high field strengths for MRI is increasingly allowing for imaging of tissue microstructure at the mesoscopic scale, yet such hardware advances also pose significant challenges to obtaining high image quality throughout the whole brain. TRD3 seeks to overcome these limitations by developing high-fidelity, high-spatial resolution acquisition technology and interpretive frameworks, unlocking the full potential of high-performance MRI systems for acquiring biological insights at the mesoscopic scale. By integrating advanced diffusion-relaxometry methods, we aim to generate parametric maps of cellular-scale biophysical properties, providing insights into brain structure and organization across multiple scales. TRD3 will tackle technical challenges related to imaging at ultra-high field strengths, including motion artifacts, eddy current distortions, and field inhomogeneities. Our work will focus on three key objectives: (1) Developing robust sub- millimeter acquisition techniques for artifact-free diffusion MRI, (2) Innovating on parallel transmit (pTx) strategies to achieve uniform spin-echo diffusion MRI at 7T, and (3) Creating tools to link mesoscale diffusion MRI data with the underlying tissue microstructure. These technologies will offer powerful new tools for fundamental neuroscience research, with applications to understanding brain organization and the biological basis of neurological and psychiatric disorders."
+ },
+ {
+  "id": "e42c811e-571b-4b05-8972-9dfd2d4134da",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Developing an Index of Peer Support Specialist Work Settings and Activities",
+  "text": "Overdose death and the pervasive collateral consequences of substance use disorder (SUD) including justice\nsystem involvement, ill-health and personal and family distress have reached epidemic proportions in the U.S.\nPeer support specialists (PSS) are certified, trained professionals who identify as being in recovery from a\nSUD and are uniquely poised to engage persons across the service continuum; however, rigorous research on\nthe impact of this expanding field is limited due in part to the wide array of service activities and settings in\nwhich PSS work. This study will survey a national sample of PSS resulting in a distilled Index of work activities\nand service settings grounded in social ecological systems theory that will serve as a valuable resource to the\nwider scientific and recovery community."
+ },
+ {
+  "id": "e42cd962-038f-497a-9190-07c492530188",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "TCR-antigen foundation model to empower TCR-based diagnostics and therapeutics",
+  "text": "The interaction between T cell receptors (TCRs) and MHC-presented antigens is essential for T cell\nresponses, and understanding these interactions can elucidate the roles of T cells in human diseases and can\nyield novel diagnostics/therapeutics. Our lab has developed pMTnet-omni, a deep learning foundation model\nthat predicts TCR-antigen interactions efficiently. In this proposal, we will further innovate based upon this\nfoundation model, to discover therapeutic TCRs for T cell engagers, identify novel antigens from spatial-TCR\nsequencing data, and develop TCR-based biomarkers for immune-related adverse events."
+ },
+ {
+  "id": "e42d7d7a-76e8-41f6-b899-aceadb032a72",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "IP24-045, PREVENT: Preparedness through Respiratory Virus Epidemiology and Community Engagement",
+  "text": "“PREVENT: Preparedness through Respiratory Virus Epidemiology and Community Engagement” proposes to\nparticipate in Components A1, A2, and B of the CDC Pandemic Preparedness Network by enrolling and retaining\na diverse longitudinal community cohort of 2,000 individuals for collection of longitudinal symptom screening,\nrespiratory pathogen testing and sequencing, assessment of immunity, and case-ascertained tracking of\ntransmission. PREVENT also proposes to serve as the Data Hub for all nine CDC Pandemic Preparedness\nNetwork cohorts that will provide real-time publicly accessible data on incidence of the most common respiratory\ninfections. Results from this project will provide information on risk factors, incidence, clinical courses, and\nimpacts of important respiratory pathogens, that can be used for individual, institutional, and public health\ninfection risk and infectious disease management."
+ },
+ {
+  "id": "e42d9875-abfa-4787-8ae0-1c28a8625c3d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Specific Pathogen Free 18 Baboon Research Resource (SPF18BRR)",
+  "text": "OVERALL COMPONENT\nThe “Specific Pathogen Free 18 Baboon Research Resource” (SPF18BRR) is the only national research\nresource of adventitious virus free olive baboons (Papio anubis), their tissues and other biological materials,\nas well as the expertise to carry out research on this invaluable research animal. Scientist with NIH grants\nutilize virus free baboons to study the immunobiology of pig to baboon xenotransplantation, ways to develop\nor improve vaccines for SARS CoV-2, respiratory syncytial virus and pertussis, and to study the development\nof Alzheimer’s disease and related dementias. The goals of the SPF18BRR include provision of highly\ndefined baboons and biomaterials to scientists, continued improvement of this animal resource, support to\nresearchers requiring facilities and expertise to perform their studies, and training of the next generation of\nscientists, laboratory animal veterinarians, colony managers, and animal caregivers."
+ },
+ {
+  "id": "e4320dfd-056b-4a30-8cb6-c614416e44f5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Revealing astrocyte-endothelial signaling that regulates adult blood-brain barrier integrity",
+  "text": "Brain injuries, including concussions, damage the blood-brain barrier, allowing harmful substances to enter the\nbrain and potentially leading to long-term cognitive decline and neurodegeneration. This project will identify\nproteins secreted by astrocytes, a type of cell in the brain, that maintain or damage the blood-brain barrier, and\nthe endothelial receptor signaling through which they act, to establish a foundation for therapies that restore\nbarrier function after injury."
+ },
+ {
+  "id": "e436e567-43ef-45bc-8d05-43a66c33f622",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Improving Image-Guided Radiation Therapy of Gliomas with High-Resolution MR Spectroscopic Imaging",
+  "text": "Glioma is the most commonly occurring type of malignant brain tumor in the United States. This project will\nimprove image-guided radiation therapy of gliomas by using both metabolic and structural biomarkers obtained\nfrom a new magnetic resonance spectroscopy imaging technology for accurate delineation of tumor\nboundaries."
+ },
+ {
+  "id": "e43e8138-e1fe-4370-ab29-88dded05e61c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A Miniaturized and High-frequency Acoustic Imaging System for Oral Health and Diseases of the Head and Neck",
+  "text": "Dental health is critical to quality of life, but the tools that dentists and periodontists use to inspect the mouth\nhave major limitations related to studying the gingiva. This work will build an ultrasound-based device to non-\ninvasively map and measure periodontal disease easily, earlier, and more accurately. The imaging approach\nwill evaluate the entire pocket and be less variable than the existing method—this will improve quality of life."
+ },
+ {
+  "id": "e443f7f3-8359-4803-b79f-74f15dc11494",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Methodologic Core",
+  "text": "The proposed aims build on the prior successes with: an enhanced Enrichment Program; a Methodology Core that ensures methodologic rigor while incorporating behavioral theory and economics; and a Bioinformatics Core that provides bioinformatic support to better phenotype patient cohorts."
+ },
+ {
+  "id": "e4487f55-daf1-456f-bd49-8ef016244244",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cyanobacteria, cyanotoxins, and liver cancer development",
+  "text": "Our highly significant proposed study will investigate the role of cyanotoxins--potent liver toxins produced by\ncyanobacteria, which are common environmental bacteria-- as an emerging risk factor for hepatocellular\ncarcinoma, the major form of liver cancer. Our novel research may lead to improvements in liver cancer\nprevention and public health policies to improve environmental surveillance and testing and reducing exposure\nin communities."
+ },
+ {
+  "id": "e449d558-627e-42db-8f7a-278b6bffeee1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Transcriptional suppression of innate immunity by chimeric transcription factors",
+  "text": "Cancers driven by chimeric transcription factors are notoriously difficult to treat, underscoring an urgent need to\nbetter understand the biology of chimeric transcription factors for developing more effective therapies. Our\nobjective in this proposed research is to understand the novel functions of PAX3-FOXO1 in immunosuppression.\nWe propose a novel hypothesis that PAX3–FOXO1 suppresses the cancer cell-intrinsic innate immunity through\ntranscriptionally silencing dsRNA and dsDNA sensing pathways, which could be leveraged to develop new\nimmunotherapies."
+ },
+ {
+  "id": "e44da760-4354-4b0a-a9cb-dbc2a78959d5",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Core C: High Dimensional Cellular and Spatial Analysis",
+  "text": "Recent advances in single-cell genomic and high content spatial analysis technologies have shed new light on\norgan and tissue composition, delineating complex tissues and identifying new cell types. However, the data\nbeing generated by these approaches are becoming increasingly complex and difficult to fully analyze. The High\nDimensional Cellular and Spatial Analysis Core (HDCSAC – Core C) will facilitate the efficient use of single-cell\nsequencing, high-dimensional tissue imaging, and support integrated high-dimensional data analysis for\nunbiased discovery and novel hypothesis generation."
+ },
+ {
+  "id": "e45072d6-d047-491f-859a-b3217bbfa3b1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of Endoplasmic Reticulum Inter-Organelle Contacts in Neuronal Endosomal Traffic",
+  "text": "The endoplasmic reticulum (ER) is a contiguous membrane-bound compartment, that extends to the periphery\nof neurons and forms contacts with other organelles to regulate organelle fission, calcium signaling and other\nimportant functions. Genes involved in maintenance of ER structure and ER contact sites are commonly found\nto be mutated in neurodegenerative disorders such as Hereditary Spastic Paraplegia. This proposal will\ninvestigate how ER structure and ER contact sites are regulated in neurons, and how mutations in genes linked\nto human disease lead to defects in ER interactions with other organelles."
+ },
+ {
+  "id": "e4551f46-7ccd-4630-ab2f-9fa7f4a2f816",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "WormBase: a core data resource for C. elegans and other nematodes",
+  "text": "WormBase is an international consortium of biologists and computer scientists providing the research community\nwith accurate, current, accessible information concerning the genetics, genomics and biology of C. elegans and\nrelated nematodes. Using a combination of expert curation, machine learning, and AI-enhanced community\ncuration, we will integrate information about the C. elegans genome and sequence features, gene function,\nexpression and interaction, and human disease models. We will transition to using the software infrastructure of\nthe Alliance of Genome Resources for sustainability and economies of scale."
+ },
+ {
+  "id": "e455d381-9087-4549-8767-24b009b0dace",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Funding Mechanism of the Pilot Trial",
+  "text": "To reduce disparities in breast cancer survival, there is an urgent need to develop optimal screening strategies for the early detection of aggressive, young onset breast cancers among women at high risk for breast cancer based on inherited risk factors. Within the Chicago Alternative Prevention Study for BReast CAncer (CAPSBRACA), we will refine and expand on our biannual MRI protocol such that it is efficient, feasible and sustainable in community imaging centers outside academic medical center. Through a pragmatic study design, we will improve long-term adherence to screening in young women and establish a longitudinal cohort of high-risk women undergoing intensive surveillance for future cancer interception clinical trials."
+ },
+ {
+  "id": "e4593605-c793-4d38-a3e6-a96822232889",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "University of Washington Mendelian Genomics Research Center (UW-MGRC)",
+  "text": "Mendelian conditions, which include diseases, but also include phenotypic differences that may not be\nconsidered a “disease,” are caused mainly by mutations in the protein-coding regions of the genome. Although\nthe genes underlying thousands of Mendelian phenotypes have been identified, there are thousands of\nMendelian conditions for which the gene(s) remain to be discovered. We propose to use an extensive network\nof clinicians and investigators, next generation sequencing coupled with new analytical paradigms, and\ntechnological innovations to efficiently discover novel genes for as many Mendelian conditions as possible."
+ },
+ {
+  "id": "e46473fa-f522-469b-b88c-7ef30683a368",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Synthetic RNA Switch-Based Temporal and Dose Control of in Vivo Gene Therapies",
+  "text": "Genetic switches that allow precise temporal and dose control of transgene expression in vivo can improve\nsafety and efficacy and expand the use of adeno-associated viral (AAV) vector-delivered one-time in vivo gene\ntherapy, which has proven effective in providing long-lasting (years of, or even lifelong) treatments for several\nrare genetic diseases. Synthetic RNA switches, which are cis-acting RNA devices that can control gene\nexpression independent of any protein factors and have AAV-friendly tiny size, have key strengths over other\nregulation systems and are a perfect fit for precision control of AAV gene therapies. Here, we will develop an\nultra-efficient RNA ON switch and use two proof-of-concept studies in mice to test the feasibility of developing\nRNA switch-regulated ‘bio-factory’ gene therapy, to safely express short-lived biologics with narrow therapeutic\nwindows or biologics that require regulation of their expression timing, for the treatment of two common\ndiseases."
+ }
+]

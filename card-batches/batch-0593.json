@@ -1,0 +1,142 @@
+[
+ {
+  "id": "4690ac2d-8ba9-40ff-8e6d-46583e307aad",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Bioengineering of Enucleated Cell Therapeutics for Treating Inflammatory Diseases",
+  "text": "Many drugs fail to reach the clinic due to improper delivery leading to unwanted adverse events (toxicity). Work in this\napplication will engineer a novel precision drug delivery system called Cargocytes that limits drug toxicity and improves\nclinical outcomes for a wide range of therapeutics."
+ },
+ {
+  "id": "4690d862-5db0-41b0-bb20-baaf4330c8b5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Preclinical Development of an Anti- PTPRZ1 CAR T Cell for Precision Immunotherapy in Glioblastoma",
+  "text": "This project addresses antigen heterogeneity in glioblastoma (GB) by targeting PTPRZ1, a homogeneously\nexpressed and upregulated antigen identified through a comprehensive analysis of GB and normal brain tissue\natlases. Aim 1 will evaluate the therapeutic potential and safety of PTPRZ1-directed CAR T cells by assessing\non-target efficacy and off-target neurotoxicity, while Aim 2 will optimize CAR architecture using newly developed\nanti-PTPRZ1 scFvs and nanobodies to enhance tumor control, persistence, and translational potential.\nSuccessful completion of this work will advance anti-PTPRZ1 CAR T cell therapy toward clinical translation,\noffering a novel approach for treating GB."
+ },
+ {
+  "id": "4695d102-2380-4d70-8d7f-c89edcceffab",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Light and Electron Microscopic Dual-visible Genetically Encoded Tags for Molecular Resolution 3D Cell Imaging",
+  "text": "There is a lack of a universal genetically coded labeling method that is visible by electron microscopy for\nlocalizing and visualizing proteins of interest in their native environment with minimally perturbing. This\nproposal aims to develop genetically encoded LM/EM dual-visible tags based on protein nanostructures with\nlow molecular weight, compact size, stability, scaffolding capabilities, and detectability in cryo-tomograms. This\ninnovative labeling method will open new doors for biological and biomedical research."
+ },
+ {
+  "id": "4696a442-4c20-4e2e-bbc9-32d2311c3854",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Making the invisible visible: An automated clinical decision support tool for Intimate Partner Violence Risk and Severity Prediction (AIRS)",
+  "text": "Despite the high prevalence and urgency for early diagnosis, Intimate Partner Violence (IPV) remains\nprofoundly underdiagnosed. Our objective is to develop a novel clinical decision support tool derived from\nhistorical radiological and clinical data that provides IPV risk and severity prediction in every patient encountered\nat the point of care. The automated IPV risk and severity predictions can then be integrated into clinical care to\ntransform the care plan for victims and make the “invisible” visible."
+ },
+ {
+  "id": "46a56d6d-3f63-4224-9f7d-f068053ea7c4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Analysis of Metabolic Stress and Functional Integration in Prokaryotes",
+  "text": "Metabolism describes the processes required for life in biological systems.\nUnderstanding the specifies of metabolism is essential for progress in biomedical fields,\nfor instance, facilitating rational drug design and understanding antibiotic resistance. Our\nwork contributes new, fundamental knowledge about the nature and behavior of living\nsystems by defining a biochemical activity and metabolic role for conserved proteins of\nunknown function, one of which is a disease marker in humans."
+ },
+ {
+  "id": "46ada19a-f403-4c9a-9e2f-898cb51948b2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identification of therapeutic molecules to treat amphetamine use disorders using our DNA-encoded library (DEL) technology",
+  "text": "Substance use disorders (SUDs), like amphetamine use disorders, stem from disruptions in\nbrain signaling pathways affecting the reward system, with notable impacts on G-protein\ncoupled receptors (GPCRs), a key therapeutic category in FDA-approved medications. Among\nthese, approximately 85 understudied orphan GPCRs (oGPCRs) present promising targets for\nrestoring impaired brain pathways crucial for SUDs, particularly those interacting with the\ndopaminergic system. This Phase I SBIR proposal aims to validate the effectiveness of DNA-\nencoded library (DEL) technology in identifying high-affinity compounds, offering a novel\napproach to rectify chronic amphetamine-induced brain signaling abnormalities and potentially\nadvance treatments for SUDs."
+ },
+ {
+  "id": "46b0163b-e174-4244-8a7c-ae6a02127018",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Silent Zones of Lung Disease in COPD",
+  "text": "Chronic obstructive pulmonary disease (COPD) is diagnosed by spirometry but significant disagreement exists\nbetween spirometric diagnosis and presence of emphysema on computed tomography (CT) due to possibility\nthat a substantial portion of the lung has abnormal mechanics. Using image registration to match inspiratory and\nexpiratory scans point-to-point, we will identify Silent Zones of the lung that appear normal using density\nthresholds but have abnormal mechanics. The proposed project will use a combination of quantitative imaging\nand deep learning tools to establish a novel CT biomarker that will enhance diagnosis of clinically significant\nCOPD and also identify individuals at high risk for disease progression."
+ },
+ {
+  "id": "46baa9ba-5c33-424d-8167-357404545daf",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Medical Imaging Informatics Training Grant",
+  "text": "Remaining at the forefront of cutting-edge technologies to understand the human condition, the UCLA Medical\n& Imaging Informatics (MII) training program aims to train and inspire a new generation of scientists who will\nlead the development of innovative approaches that inform and enable the translation and analysis of these\nmethods into practice. MII establishes a cross-campus, interdisciplinary environment to teach and mentor future\nscientists in novel computational and data science methods for new types of sensing and imaging data; and\ncreates novel, team science research opportunities in which graduate students work and learn from leading\nexperts in the field. MII trainees are exposed to the breadth of contemporary research, and are ultimately pre-\npared to be productive, independent scientists that will participate in shaping the discipline as biomedical re-\nsearch and healthcare evolve."
+ },
+ {
+  "id": "46c65fab-dc9c-4abd-ad62-494ac35761d0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "SCH: Al-driven Flexible Electronics for Cardiac Organoid Maturation",
+  "text": "This proposal seeks to establish an Al-driven \"cyborg tissue\" platform that integrates flexible electronic \nsensors and actuators with developing human-induced pluripotent stem cell (hiPSC)-derived cardiac \ntissues for monitoring and controlling tissue maturation. The closed-loop system will collect multimodal \nelectrical, mechanical, and genetic data from cells, analyze the data using statistical models, and \ngenerate control policies through reinforcement learning to promote tissue maturation via distributed electrical actuations. By improving our understanding of how genetic, molecular, electrical, and mechanical \nprocesses regulate hiPSC-derived cardiac organoid maturation, this resulting bioelectronics system will have \nwide-ranging applications in regenerative medicine and pharmacology."
+ },
+ {
+  "id": "46cd4439-7cb2-4f61-9cd6-8a849312deab",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular detection of MBL and enhanced risk stratification through immunogenetic and proteomic profiling.",
+  "text": "Our findings will provide direct benefit for US-based\nlymphoma and leukemia patients as well as providing a new research direction for US cancer\nresearchers working on MBL. The results from our studies will enable the use of IGH gene\nrepertoire clonality as a proxy for MBL status, enabling its use in US biobanks that lack viable\ncells and thereby facilitate a profound expansion of the research capabilities for studying\nMBL. Further, we will have shown that the IGHV somatic mutation status and R110 mutation\nstatus is an important biomarker, beyond clonal B-cell count, in identifying individuals with\nMBL who are at high-risk for progression to CLL or other clinical outcomes, opening up early\ndetection and intervention strategies for US leukemia/lymphoma patients."
+ },
+ {
+  "id": "46cea70a-8189-4605-b969-971a2ee8dfa3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "PTSD and Autoimmune Disease: Towards Causal Effects, Risk Factors, and Mitigators",
+  "text": "Posttraumatic stress disorder (PTSD) is a chronic, debilitating condition among Veterans. In addition to\npsychological consequences, PTSD may increase risk for numerous physical health conditions, including\nautoimmune disease. Prior evidence suggests an association between PTSD and autoimmune (AI) disease,\nbut studies have not rigorously examined the prospective relationship between PTSD and development of AI\ndisease. Research is needed to examine potential racial or ethnic disparities in the relationship between PTSD\nand AI disease, and explore potential risk or mitigating factors, such as PTSD treatment. This study will\ninvestigate longitudinal associations between PTSD and AI disease, providing more stronger inference with\nadvanced epidemiological methods and identifying risk or mitigating factors that may exacerbate or offset the\nlink between PTSD and AI disease in a large, diverse sample of US Veterans. Such evidence can inform our\nunderstanding of causal mechanisms and identify targets for treatment and prevention."
+ },
+ {
+  "id": "46cf654f-02f7-4ab0-82e1-9c89c789e49b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Post-transcriptional regulatory networks in Chronic Obstructive Pulmonary Disease",
+  "text": "Chronic Obstructive Pulmonary Disease (COPD) is a leading cause of death worldwide, yet its\nmolecular basis is not well understood. In this project we will study the COPD-specific effects of\nRNA binding proteins (RBPs), a class of molecules critical for regulating RNA as part of its\ntranslation into protein. Using a combination of tools from network science, molecular biology,\nand genomic sequencing, we will investigate how the complex networks formed by RBPs and\ntheir targets are dysregulated in individuals suffering from COPD."
+ },
+ {
+  "id": "46eb140e-396e-4e0d-9212-7664e9688364",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Pre/postnatal substance exposure, maternal distress, and adolescent risk behaviors: Role of parent-child interpersonal processes at macro and micro time scales",
+  "text": "Adolescence is marked by an increase in risk behaviors, including the initiation and escalation of substance use, with prenatal substance exposure and co-occurring parental risks (depression, anger/hostility) potentially exacerbating negative adolescent outcomes. There is a pressing need to understand the developmental mechanisms (child physiological and behavioral regulation, parent-child interpersonal processes) from early childhood to adolescence that mediate these risks, including how parent use and risk processes play out in daily life. Results from this study will not only increase scientific knowledge of the role of parental tobacco and cannabis use for adolescent outcomes at micro and macro time scales, it will also inform timing and content of preventive interventions in addition to substance use treatment."
+ },
+ {
+  "id": "46f7e4bd-6596-4de5-a554-ac3c65b9318b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Gene therapy for SCID-X1 with low dose busulfan and a SIN-lentiviral vector",
+  "text": "We have conducted a gene therapy clinical trial using a unique lentivirus vector funded by our previous NIAID\nU01 (1U01AI125051) with the addition of low dose busulfan conditioning that has shown excellent results and to\ndate no evidence of safety issues. In this new U01 application, we propose to follow the latest enrolled patients\non this SCID-X1 trial (NCT03311503) for protocol-defined immunologic and safety studies, including vector\ninsertion site analysis (ISA), up to the 2 year follow-up time point. We seek to exploit the data generated by ISA\nfor new studies of the biological features of hematopoietic cell reconstitution."
+ },
+ {
+  "id": "46f86a72-7b6e-4915-9562-14bc121218ac",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Computational and experimental methods for scalable identification of oncogenic non-coding regions",
+  "text": "We will identify the non-protein-coding regions of the genome that play an important role in\ntumor initiation and growth by modulating the expression of protein-coding regions. We will\ndevelop innovative computational methods that will make it feasible to identify these regions in\nmetastatic cancer patients using non-invasive liquid biopsies. We will use high-throughput\nCRISPR screens to understand the impact of perturbation of thousands of regions and also\nprobe their roles in specific contexts, such as resistant to therapy in breast cancer patients."
+ },
+ {
+  "id": "4700107a-12e6-4c6f-b14e-e7c3bb6ab12b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Defining Molecular Targets and Optimizing Novel Small Molecules for Schistosomiasis Therapy",
+  "text": "Schistosomiasis is a neglected tropical disease (NTD) that affects 250 million people worldwide, with another\n700 million at risk. Despite its global burden, treatment relies on a single, decades-old drug, praziquantel. This\nK99/R00 proposal aims to develop a novel class of small molecules as anti-schistosomal agents and elucidate\ntheir mechanism of action. These studies will support the rational, target-driven identification of a preclinical drug\ncandidate for treating schistosomiasis."
+ },
+ {
+  "id": "470e3705-9708-4faa-aca9-d078f1243c8c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Modeling Human Trophoblast Differentiation and Function Using Pluripotent Stem Cells",
+  "text": "Our understanding of human placental development remains limited since it occurs inside the mother’s womb\nand animal models inadequately recapitulate human placental physiology. This project combines recently\nestablished stem-cell-based approaches with studies of primary first-trimester tissues to investigate the critical\ngenes and heritable phenotype changes that do not alter the DNA sequence (“epigenetics”) underlying human\nplacental development and function. This research will define the action and significance of specific molecules\nin regulating the specialization of trophoblast progenitors into the diverse cell types found within the human\nplacenta, with implications for understanding implantation failure, preeclampsia, and preterm birth."
+ },
+ {
+  "id": "47102829-f48b-478e-823f-7d7df5a4e055",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Data, Animals, and Translational Analytics (DATA) Core",
+  "text": "The precise mechanisms underlying sex-specific immune differences remain unclear. The\n“Exposome &Pregnancy-Associated Triggers of Host Immunity and Sex-Dimorphic Outcomes\"\nCenter (E-PATHS) at the C.S. Mott Center for Human Growth and Development at the Wayne State\nUniversity will contribute with a better understanding of the paternal and maternal contributions on\nthe sex specific immunological adaptation of the fetus and the sexual dimorphic effect of\nenvironmental stressors on fetal immune programming."
+ },
+ {
+  "id": "4711ea26-c086-4307-a20a-6c96f172d22f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Admin Module",
+  "text": "Administrative Core Summary The Administrative Core manages all activities of the McKnight Vision Research Center (MVRC) investigators related to the use of Core Grant modules (Experimental Models; Biological Imaging; In Vivo Imaging). Specific Aims are: 1) To provide administrative support for the use of shared Core modules with priority for NEI-R01 studies, 2) To review the quality, efficiency, progress and impact of Core Modules through Module Directors, Executive Committee, and the Advisory Committee of external members, 3) To manage financial operations of all core grant activities and the grant budget, 4) To provide the annual progress reports to the National Eye Institute. The Administrative Director is the Center Core PI with the assistance of: 1) Administrative Manager, 2) Module Directors and Module Managers), 3) Executive Committee (PI + Module Directors + Administrative Manager), 3) Advisory committee (five external advisors + PI + Module Directors) (see Figure 1 below). The Administrative Manager handles record keeping, billing, equipment usage, maintenance and repair, and manages the operating funds for all modules of the core P30 grant. Module Directors oversee the daily duties of Module Managers of three grant modules (Experimental Models, Biological Imaging, In Vivo Imaging) and meets with them weekly or on an as needed basis for prompt resolution of outstanding issues. Module directors and managers also meet with the users of the modules regarding experimental design and monitor usage through the scheduling websites. The Executive Committee meets quarterly to assess module usage, adherence to usage priority, equipment maintenance/repair and service contracts, budget, or any other activity relevant to the function of the Modules. The Executive Committee also meets on an as needed basis for issues that require prompt interventions such as the core grant budget or conflict with module users. The Advisory Committee meets once a year to assess efficiency and impact of Core Modules on the productivity of MVRC investigators and to formulate strategic decisions for the next year. Strategic decisions that involve technological expansion and module reconfiguration are discussed, if necessary, with the Chairs of the Departments of participating investigators and the Dean the School of Medicine."
+ },
+ {
+  "id": "47154fe5-2644-4fc0-baff-33b5ffb26e38",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Single Cell Analysis of the Infiltrative Margins of Glioblastoma and Post Treatment Recurrence",
+  "text": "PROJECT NARRATIVE \n \nGlioblastoma is a form of malignant brain tumor with poor prognosis. The tumor cells are highly heterogeneous \nand  involve  a  complex  microenvironment  that  includes  both  neoplastic  and  non-­neoplastic  brain  cells.  In  this \nproposal, we use acute tissue slices generated from patient-­derived brain tumor samples and orthotopic mouse \nmodels  that  recapitulate  the  cellular  features  of  these  complex  tumors,  combined  with  single-­cell  analysis,  to \ndetermine the effects of drugs and drug combinations that target specific subpopulations of cells in the tumors \nand surrounding brain."
+ }
+]

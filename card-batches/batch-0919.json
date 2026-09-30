@@ -1,0 +1,142 @@
+[
+ {
+  "id": "bc2f6561-d2ff-4ccf-b951-4e1f0ab43eb0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dispersion and the Biofilm Matrix of Pseudomonas aeruginosa",
+  "text": "Pseudomonas aeruginosa is the cause of many serious human infections, particularly in hospitalized patients\nwith weak immune systems and burn wounds, due to the ability of this human pathogen to form biofilms that are\nhighly resilient to antimicrobial treatment. This proposed research is aimed at elucidating genes and gene\nfunctions that enable dispersing bacteria to liberate themselves from the biofilm matrix, regardless of the biofilm\nmatrix composition, and drive the phenotype of dispersed cells. Findings from the proposed study are anticipated\nto lead to the identification of factors and mechanisms contributing to biofilm dispersion."
+ },
+ {
+  "id": "bc30358b-0981-4adc-9cb1-f72475eb40dd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Efficacy and Mechanisms of Web-Based Regulation of Craving Training for Smoking Cessation",
+  "text": "Cigarette smoking remains the leading preventable cause of disease, disability, and death; however, current\ncessation interventions only have modest efficacy, including standard care (SC; i.e., counseling and nicotine\nreplacement therapy). The goal of this project is to evaluate two versions of Regulation of Craving Training\n(ROC-T), which is a novel, brief, web-based intervention that directly targets core mechanisms implicated in\nsmoking: craving and the regulation of craving. Specifically, we propose to: (1) conduct a randomized-\ncontrolled trial in which individuals who smoke cigarettes are randomized to Reappraisal-Based ROC-T,\nMindfulness-Based ROC-T, or Sham ROC-T (control condition) as adjunctive preparation interventions that are\nintegrated into SC for smoking cessation; and (2) evaluate mechanisms of change with ecological momentary\nassessment (EMA)."
+ },
+ {
+  "id": "bc33ea47-fb60-4407-89b6-b4499481ef19",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating Endocytosis as the Mechanism Driving Differential Ligand-induced EGFR Responses",
+  "text": "Dysregulated epidermal growth factor receptor (EGFR) signaling is implicated in various cancers, including lung\ncancer and glioblastoma, where it drives uncontrolled cell proliferation and tumor growth. Understanding how\ndifferent endogenous ligands and receptor levels influence EGFR signaling outcomes could create new\nopportunities to `correct' aberrant signaling in cancer. This project examines the core mechanisms underlying\nligand-specific signaling, providing fundamental knowledge essential for strategies to modulate EGFR in cancer."
+ },
+ {
+  "id": "bc348efa-14cf-46f6-9aa8-b2883a6afd87",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Immune Signatures and Clinical Outcomes in Acute Pancreatitis",
+  "text": "NARRRATIVE\nAcute pancreatitis is a common gastrointestinal disease that can rapidly progress to life-threatening severe\npancreatitis (SAP). We propose the MoSAIC study to better understand the mechanisms of SAP and develop\na blood test that identifies which patients will progress to SAP during hospitalization."
+ },
+ {
+  "id": "bc38a420-6c2f-40c1-9ca8-2cd509597dab",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Roles and regulation of transcriptional reprogramming in squamous carcinogenesis",
+  "text": "Cells with activated proto-oncogenes or inactivated tumor-suppressor genes remain pre-cancerous and\nasymptomatic until elusive mechanisms transform them into cancer cells. We discovered that PITX1 and SOX2\nbecome expressed when skin epithelial cells form squamous cell carcinomas (SCCs), and propose to determine\nhow their expression is regulated, and whether and how they reprogram pre-cancerous epithelial cells into SCC\ncells. Answers to these questions will improve the mechanistic understanding of tumor promotion and reveal\nnovel approaches to prevent or treat SCCs, which kill >20,000 patients in the United States each year."
+ },
+ {
+  "id": "bc3f8379-a73e-477a-88bb-1a8ac0b22450",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of Gut Microbiota Fucosylation in Alcohol-Associated Liver Disease Progression",
+  "text": "This project investigates how gut microbiota fucosylation regulates the gut immune system and\ncontributes to alcohol-associated liver disease, potentially leading to new therapeutic strategies\nfor improving gut and liver health."
+ },
+ {
+  "id": "bc48693c-8da7-4917-99b0-0e7f2140bcb7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Viral and Host Dynamics during Pediatric COVID-19 and Respiratory Virus Co-Infection",
+  "text": "Children infected with SARS-CoV-2 are frequently reported to have co-infection with other respiratory viruses,\nwhich potentially results in worse COVID-19 clinical outcomes. Here, we propose to leverage a biobank of\nresidual diagnostic specimens from children with COVID-19 to determine the prevalence of respiratory viral co-\ninfection, its association with clinical outcome, its influence on the host immune response, and its influence on\nviral evolution. These data will help inform best practices in diagnosis and treatment of respiratory virus co-\ninfection to minimize child and adolescent morbidity and mortality."
+ },
+ {
+  "id": "bc4dadd7-930d-4f87-ab86-b8f308163066",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Shared Resource Core: Quantitative Sciences Core",
+  "text": "The Quantitative Sciences Core (QSC) of the Ponce Health Sciences University-Moffitt Cancer Center (PHSUMCC) Partnership provides resources and expertise for generating, managing, and analyzing big data. It is the focal point for expertise in quantitative approaches to address the cancer characteristics of people in our catchment area by enhancing our participation in “omics” studies and incorporating genetic variability analysis in Partnership research approaches. By joining PHSU's expertise in genetic variability with the MCC bioinformatics team, the QSC combines a unique set of skills required to address the molecular components of cancer differences in genetically admixed populations. The QSC provides expertise in bioinformatics, biostatistics, and informatics, and participates in every phase of the research life cycle. The QSC supports data provisioning, study design, analysis plans, and power estimates to demonstrate the feasibility and improve rigor and reproducibility in all Partnership research projects and grant submissions. In addition, the QSC contributes to the dissemination of high-throughput molecular data by developing web-based visualization tools. As a central resource for research projects, the QSC also facilitates collaboration, thereby leveraging the data gathered by the Partnership investigators. The QSC analyzed the first catchment area genomic data generated in collaboration with the Puerto Rico BioBank (PRBB)/Oncology Research Information Exchange Network (ORIEN) Avatar and implemented a unique Partnership resource of cBioportal (GLOBAL), a web-based resource. The QSC develops tools for visualizing and interpreting data, pipelines to estimate genetic variability, and has built expertise in genomics bioinformatics at PHSU, including hiring, training, and the acquisition of computing and storage infrastructure. The Specific Aims of the QSC will be: 1) Provide research project support for biostatistics and bioinformatics from study design, endpoint definition, sample size estimation, power calculation, and data analysis. Regular interactions between lead data scientists and project members will allow for the continuing development of novel analytic tools to address emerging questions aligned with the Partnership’s needs. 2) Provide data integration and management services for Partnership projects and cores. Projects needing tissue/data collection systems will leverage the existing software infrastructure from PRBB Biospecimen Management System (BMS). The QSC/PRBB Data Concierge provisions data and linkages from these systems. Other supported services include the Partnership Bioportal, the Estimated Cell Line Ancestry (ECLA) tool, and the Partnership Continuous Quality Improvement System for the Planning & Evaluation Core. 3) Provide quantitative sciences expertise in support of the Partnership. The QSC aims to develop expertise in statistics at PHSU; characterize publicly available molecular signatures in Partnership cohorts; develop analytics for PRBB optimization of consent and participant communications; expand the omics experience for students (collaboration with the Research Education Core), and enhance the use of genetic variability in quantitative studies."
+ },
+ {
+  "id": "bc4f3dc9-c116-4e20-8a73-3ae9c096d4d6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting the ROR2/p-GSK3bS9 pathway to suppress metastasis in SMARCA4-deficient lung adenocarcinoma",
+  "text": "Given that distant metastases occur in 10%-50% of patients with surgically resected lung adenocarcinoma\n(LUAD), there remains an unmet need to understand the tumor genomics that drive the biology of metastases\nand to develop innovative adjuvant therapies that could decrease the risk of metastases and improve survival.\nSMARCA4 is one of the most frequently mutated genes in LUAD, and altered SMARCA4 promotes metastasis\nthrough ROR2/inactive GSK3β signaling pathway. The goals of this research project are to elucidate the\nmechanisms through which altered SMARCA4 regulates transcription and promotes metastasis of LUAD and to\nidentify way(s) to specifically target this altered gene, decrease development of metastases, and, ultimately,\nsave lives."
+ },
+ {
+  "id": "bc50c6eb-9c8b-4e51-b13d-efc272fcc9b5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A genetic model for metazoan programmed DNA elimination",
+  "text": "Genome maintenance is essential to life and disruption of genome integrity often leads to\ndiseases. In this proposal, we will carry out genetics, molecular, and genomic studies in\na functional model to study programmed DNA elimination, an exception to the genome\nconstancy rule. These studies will reveal the functions and mechanisms of DNA\nelimination that will provide insights into genome maintenance and diseases."
+ },
+ {
+  "id": "bc53eca9-11a8-4094-8702-5ac14bc843e2",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "NextGen Spatial Multi-omics Technologies",
+  "text": "Many biological processes of interest, including those underlying disease, involve alterations in regulated gene\nexpression at the epigenome and transcriptome levels simultaneously in multiple cell types, with each cell’s\nactivities influencing those of other cells in its microenvironment. Technologies delivering multiomics data with\nspatial resolution are needed for deep understanding of this complexity, but currently available solutions are cost\nprohibitive and complex. We propose to develop a new platform of accessible technologies that will enable\nsimultaneous multi-omics scale measures encompassing full length transcriptomics and multiplexed chromatin\nmeasurements at scale."
+ },
+ {
+  "id": "bc579a4f-21b6-42b1-9920-f11384fbef9e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "AI-designed Nanobodies for Detection and Manipulation Applications Inside Living Cells",
+  "text": "Our research focuses on creating a new framework to engineer “conditionally stable” nanobodies—small,\nantibody-like proteins that precisely recognize and target specific molecules inside living cells. By designing\nnanobodies whose stability and function can be switched on or off under certain cellular conditions, we aim to\nprovide a more versatile and reliable tool for studying and manipulating intracellular processes. This platform\nhas the potential to advance fundamental biomedical research, facilitate the development of more targeted\ndiagnostics, and inform new therapeutic strategies through highly specific molecular control."
+ },
+ {
+  "id": "bc583d60-2024-45bd-b39f-597932fc7916",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Therapeutically harnessing anti-viral resident memory T cells in solid tumors",
+  "text": "T cells specific for previously encountered viruses are abundant in tissues throughout the body, including\ntumors, and can be leveraged for cancer immunotherapy. This proposal will further our understanding of how\nthese cells function and develop novel strategies to enhance their efficacy. In doing so we will drive the\ntranslation of virus-specific T cell based immunotherapy toward clinical use."
+ },
+ {
+  "id": "bc5f0439-fb9d-4811-bbce-2402ae1a19d8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Novel Biocompatible, High-Throughput Cryopreservation Medium and Method for Enhanced Post-Thaw Migration and Cytotoxicity of NK Cells",
+  "text": "Conventional cryopreservation methods significantly impair the post-thaw migration and cytotoxicity of NK cells,\nreducing their effectiveness in immunotherapies. This project aims to develop and optimize OdinSol®, a novel\nbiocompatible cryopreservation medium that eliminates the need for permeating cryoprotectants and addresses\nthe limitations of traditional methods."
+ },
+ {
+  "id": "bc6ba8ed-f861-447b-ba99-55b7c10ce6ae",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Novel therapeutic development for small cell lung cancer",
+  "text": "This grant focuses on novel therapeutic approaches to address small cell lung cancer, an exceptionally lethal\ndisease, using multiple emerging technologies including single cell profiling and novel disease models based on\ndirect modification of human tumors by genome editing in vivo. We will define and target a newly identified stem-\nlike tumor subpopulation we have identified, analyze and target lineage plasticity as a mechanism of acquired\ndrug resistance, and conduct screens to identify new and tractable therapeutic vulnerabilities in human small cell\nlung cancers."
+ },
+ {
+  "id": "bc6e9cde-bb82-48aa-8f09-45a17a168135",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Optimization of anal cancer screening for people with HIV using genomic methods",
+  "text": "Anal cancer is a major source of morbidity in people living with HIV. Screening has been demonstrated to\nprevent anal cancers but current procedures are suboptimal. The objective of this study is to validate a novel\ngenomic panel for identification of high-risk anal pre-cancers and find genomic biomarkers associated with anal\ncancer recurrence."
+ },
+ {
+  "id": "bc70a3e1-8ea3-4413-9fa7-5a8949e43d6f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanism of Herpes Simplex Virus (HSV) Induced Membrane Fusion",
+  "text": "This proposed research will further define the molecular mechanisms involved in herpesvirus infection using\nthe prototypic human herpesvirus herpes simplex virus type 1 (HSV-1). Herpesviruses cause significant\ndisease and morbidity within the human population, ranging from asymptomatic infections and blindness to\nlife-threatening illnesses such as encephalitis and cancer. The proposed research may result in the\nidentification of new prophylactics or therapeutics for herpesviruses that will lessen the pathologies\nassociated with viral infection."
+ },
+ {
+  "id": "bc728646-6400-4bae-ad10-1ac3644c6afc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Using Natural Language Processing and Speech Processing Techniques to Understand and Predict Cognitive Decline",
+  "text": "This proposal focuses on developing advanced Natural Language Processing (NLP) and Speech Processing\n(SP) tools to analyze unstructured text and audio data from World Trade Center (WTC) responders, a high-risk\ncohort for cognitive impairment due to neurotoxic exposure during the 9/11 disaster rescue and recovery effort.\nThe NLP tools will extract occupational exposure variables from text description of response activity, correlate\nthem with cognitive outcomes, and examine how surgical mask usage mediates these correlations. The\nultimate goal is to use NLP, SP, and machine learning methods to build a predictive model from clinical\ninterview recordings to monitor future cognitive changes."
+ },
+ {
+  "id": "bc74c7a3-13a0-4536-b75e-bbe707ee2ef7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "HABS-HD - Core B - Neuroimaging & Informatics Core",
+  "text": "HABS-HD Neuroimaging & Informatics Core (Core B) Abstract The Neuroimaging & Informatics Core (Core B) is responsible for all neuroimaging acquisition protocols, storage protocols, QA/QC protocols, processing pipelines, and longterm storage of raw scans for the Health and Aging Brain Study- Health Disparities (HABSHD) U19. The overall objective of Core B is to provide high quality imaging and summary data for Projects 1, 2, and 3 and for all U19 investigators. Core B is led by Dr. Arthur Toga (USC/LONI) and Co-Led by Dr. Meredith Braskie (USC/LONI/IGC). Images obtained as part of HABS-HD are stored and managed within the Laboratory of Neuro Imaging (LONI). At initiation of the HABS- HD U19, approximately 5,000 MRI scans and 6,000 PET scans will have been collected, stored and processed. HABS-HD magnetic resonance imaging (MRI) and amyloid positron emission tomography (PET) acquisition largely aligns to standard ADNI3 protocols. Selected imaging modalities will be processed by Core B and summary data will be uploaded to the HABS-HD database at 6-month intervals. All raw scans will also be available. Core B will provide the amyloid (A), tau (T), neurodegeneration (N), for the AT(N) framework that will be leveraged by Projects 1, 2 and 3, and will also provide summary vascular imaging data to be used by Project 2. All neuroimaging for the HABS-HD program occurs at the University of North Texas Health Science Center Institute for Translational Research (UNTHSC ITR) Imaging Center using the same MRI and PET scanners. Core strengths include decades of experience developing and managing multisite, large data projects. Under the leadership of Drs. Toga and Braskie and using the infrastructure of the USC Institute for Neuroimaging and Informatics (INI), LONI and ATRI, we will provide multi-site data management and dissemination of imaging and clinical data in a manner consistent with systems supporting the Alzheimer Disease Neuroimaging Initiative (ADNI), Global Alzheimer’s Association Interactive Network (GAAIN), Parkinson Progression Marker Initiative (PPMI), and others. All Core B activities will support the U19 scientific goals and the broader national AD and dementia research community. This firstever comprehensive multimodal study of AD risk using the AT(N) framework within the three largest population groups in the U.S. (75% of the population) requires robust informatics, data management, and harmonization. Core B Aims are as follows: Aim 1: To create an imaging and informatics data management framework for all U19 Projects. Aim 2: To ensure high quality control of all neuroimaging data. Aim 3: To deliver a harmonized analysis workflow for each imaging modality that can accommodate any computational environment."
+ },
+ {
+  "id": "bc775448-ba2f-43a1-9750-2fde39235616",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular Mechanisms of Regeneration Termination",
+  "text": "The failure of proper termination of tissue regeneration results in the emergence of unwanted cells, leading to\nabnormal organ size and a high risk of cancer. However, the mechanisms by which stem cell proliferation is\nprecisely controlled during the course of regeneration are poorly understood. The proposed study is designed\nto define the molecular mechanisms that function for stem cell inactivation and the extracellular matrix\nremodeling at the regeneration termination stage using the Drosophila midgut intestinal stem cell model."
+ }
+]

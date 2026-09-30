@@ -1,0 +1,142 @@
+[
+ {
+  "id": "e4f8d49b-bcc2-4bfb-94b4-ab6b4814b67f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cell Fusion and Gene Expression in the C. elegans Epidermis",
+  "text": "This project explores how cell fusion shapes gene expression and developmental progression using the C.\nelegans epidermis as a model system. Single-nucleus RNA sequencing, CRISPR-engineered mutants, and\nadvanced microscopy will be used to uncover the molecular mechanisms governing syncytial cell function.\nInsights from this research will improve understanding of normal development, diseases linked to defective cell\nfusion, and the role of multinucleation in cancer and viral pathogenesis."
+ },
+ {
+  "id": "e4febc38-6036-4a82-88a7-f296bc0f0db9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting Pediatric Cancer Vulnerabilities",
+  "text": "Pediatric cancer, the number one cause of disease-related death in school age children, is still largely treated\nwith old approaches such as cytotoxic chemotherapy, radiation, and surgery. These childhood malignancies\ntypically express cancer-promoting proteins that make for challenging drug targets and generally have been less\nresponsive to immunotherapy approaches that have revolutionized the care of subsets of adults with cancer. We\nwill apply innovative, transformative approaches in functional genomics and chemical biology to overcome these\nchallenges toward new, paradigm-shifting therapies for children with cancer."
+ },
+ {
+  "id": "e501410e-9f48-4725-9bec-f0ee935b362a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of sodium channel clustering at the neuromuscular junction",
+  "text": "Na+ channels are clustered at the neuromuscular junction (NMJ) and in a perijunctional\nzone where they function to prevent synapse fatigue. However, the mechanisms\nresponsible for NMJ Na+ channel clustering and assembly of the perijunctional zone are\nunknown. Here, we will determine the mechanisms responsible and investigate how\nthese change with aging and disease."
+ },
+ {
+  "id": "e5054e97-77e8-4e9f-8c94-5454975734d7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dissecting the shared genetic mechanisms driving fentanyl addiction, cocaine addiction, and incentive sensitization using the Collaborative Cross mouse panel",
+  "text": "In 2022, fentanyl overdose was the leading cause of death for US adults aged 18 - 45. This striking statistic\nunderscores the urgent need to discover and characterize the genetic causes of fentanyl addiction, a highly\nheritable disease. The successful completion of this project, in which we will use genetically diverse mice to\nbetter understand the genes that cause individuals to abuse fentanyl, will contribute to the development of\nnovel, more effective addiction treatments."
+ },
+ {
+  "id": "e50955ed-8f7c-4599-b981-cbf05f8bbf16",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Interneuron axonopathy underlies circuit dysfunction in a mouse model of Dravet syndrome",
+  "text": "Dravet syndrome is a severe neurodevelopmental disorder caused by mutations in the gene SCN1A and defined\nby treatment-resistant epilepsy, features of autism spectrum disorder, and a high rate of sudden unexpected\ndeath (SUDEP). The objective of this proposal, which uses innovative technical approaches in a well validated\npreclinical experimental model system, is to establish impairment of action potential propagation along\nGABAergic inhibitory interneuron axons as a key mechanism of Dravet syndrome pathology. The long-term goal\nof this research program is to advance from clinical genetic diagnosis to inform mechanistically oriented, targeted\ntherapy in human patients suffering from what is currently an incurable and essentially untreatable disease."
+ },
+ {
+  "id": "e5129ca9-0fcd-4435-b289-cee858a79bae",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Establishing the feasibility of measuring bereavement-related stress in a naturalistic setting",
+  "text": "The death of a spouse is a highly stressful life event that is associated with increased mortality and worsening\nmental and physical health. Although bereavement is a dynamic process, limited data is available on the day-\nto-day fluctuations in bereavement-related stress and the affective and physiological changes that follow. This\nstudy will use ecological momentary assessment and continuous electrocardiography to measure affective and\nautonomic stress reactivity among bereaved spouses in a naturalistic setting and has the potential of improving\nour overall understanding of bereavement-related stress and its link to worsening health."
+ },
+ {
+  "id": "e516ae67-cfe9-4b88-93f8-9bc593a8198c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Harnessing human gut-derived Bacteroides to drive systemic anti-tumor immunity",
+  "text": "This research will further our understanding of certain common bacteria which reside within our intestines\nthroughout our lifetime, and how some of these bugs in particular can make our immune system more\naggressive. By researching the way these bacteria “communicate” to our immune system, it may be feasible to\npick the correct ones to package together as a probiotic. Such a medication could help cancer patients who\nwant their immune system to behave aggressively against their growing tumor."
+ },
+ {
+  "id": "e519a5a9-ccef-4495-977f-f28f5085a835",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Capturing, quantifying, and understanding combinatorial effects in small molecule signaling",
+  "text": "Chemical landscapes in biology are composed of thousands to millions of different small molecules, which\nmeans that a cell or organism is always exposed to many different small molecules at the same time. The\noverall goal of this project is to understand how biological outcomes may be driven by combinatorial effects of\nmultiple small molecules, with an initial focus on such effects in the context of host-microbiome communication.\nThis work may allow us to predict and manipulate effects of the microbiome on the human host and more\nbroadly will establish general models to describe signaling in complex chemical landscapes, which are\nubiquitous in biology."
+ },
+ {
+  "id": "e524db61-97d6-411c-9e17-a672587af528",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Role of Myeloid Cells in Parkinson's Disease",
+  "text": "Parkinson’s disease is a brain disorder that leads to progressive movement and cognitive problems, and growing evidence suggests that innate immune cells in both the brain and blood play a key role in disease progression. This project will use a longitudinal study design, advanced molecular analyses, and patient-derived models to understand how genetic risk affects these innate immune cells over time, with the goal of identifying early changes and potential targets for new therapies."
+ },
+ {
+  "id": "e52d6fc7-abf3-412e-b3ff-fdc1c3b2df43",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Functional Genomics Core",
+  "text": "The Functional Genomics Core (FGC) provides state-of-the-art experiment planning, sample preparation, quality assessment, library construction, DNA sequencing, and data analysis services to DRC members using state-of-the-art Illumina Sequencers including the high-throughput but flexible NovaSEQ 6000 system. We have experience with ChIP-seq, nucleosome mapping, whole exome and whole genome resequencing in mouse, human, zebrafish, and other species. We offer RNAseq, microRNAseq, GroSeq, CLIP-seq, nucleosome mapping, ATAC-Seq, ChIPseq, whole genome and targeted DNA methylome analysis, hydroxymethyl DIP, single cell ATACseq, single cell RNAseq and multiomics approaches. A goal of the FGC is to quickly adapt and occasionally develop new protocols for sequencing-based functional genomics analysis relevant to DRC members. We also offer a self-service sequencing services for advanced users at a minimal fee. Importantly, in response to DRC member requests, we provide extensive bioinformatics services, tailored to individual projects, to DRC members. The Core remains in high demand, with 46 current users. The FGC has provided data and analysis for over 70 research publications of DRC members during the past funding period and supported multiple grant applications. PHS 398/2590 (Rev. 09/20) Page FUNCTIONAL GENOMICS CORE: Director - K. Kaestner"
+ },
+ {
+  "id": "e530daad-6207-4b89-8d9b-6fb4fcba7a12",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project 1: Hypoxia and metabolic dysregulation as a targetable barrier to immunotherapy in head and neck squamous cell carcinoma (HNSCC)",
+  "text": "PROJECT NARRATIVE − PROJECT 1\n Despite the promise of immune checkpoint inhibition in head and neck squamous cell carcinoma (HNSCC),\nonly a minority of patients ultimately benefit. Continuing Project 1 has already identified tumor metabolism and\nhypoxia as potential drivers of anti-PD-1 resistance in this disease and now seek to examine the interaction\nbetween tumor hypoxia and metabolism, combinatorial immunotherapy, and response. The goal of this project\nwill be to identify the next generation of metabolically driven immunotherapy combination for clinical trial."
+ },
+ {
+  "id": "e53416ed-e391-4c88-89d5-79951f584b5d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting Undruggable Lung Vascular Enhancers with Compact AAV-Cas12f CRISPR Activation",
+  "text": "This project will develop a compact, single-vector AAV CRISPRa system based on the miniature Cas12f\nnuclease to therapeutically activate distal FOXF1 enhancers in a neonatal mouse model of alveolar\ncapillary dysplasia. By restoring Foxf1 expression from the remaining healthy allele, this approach could\npave the way for treating fatal neonatal and pediatric vascular diseases."
+ },
+ {
+  "id": "e53e9a83-cbf6-4763-8f14-6e87109b7ba9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The role of apolipoprotein E in Alzheimer's adaptive immunity",
+  "text": "Variants of the Apolipoprotein E (APOE) gene are associated with risk of developing Alzheimer's disease (AD).\nThis project will explore the role of APOE variants in the adaptive immune response to pathogenic viruses in AD.\nThe study will utilize genomic, proteomic and immunohistochemical approaches to interpret APOE-associated\nadaptive immune changes to viral antigens in AD."
+ },
+ {
+  "id": "e5475e0e-e612-4117-8385-45fd0a32603d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Training and Research on Severe Malarial Anemia",
+  "text": "This project supports advanced research training focused on severe malaria, severe malarial anemia, and related infectious diseases through collaborative activities in Kenya and the United States. The foreign component provides access to endemic disease settings, severe malaria cases, and longitudinal pediatric cohorts that are essential for training and discovery but are not available in the United States. In addition to malaria, trainees gain experience investigating important co-infections and comorbid conditions that commonly occur in children residing in western Kenya, including HIV-1, tuberculosis, and invasive bacterial infections. These pathogens contribute substantially to disease burden, immune dysregulation, morbidity, and mortality and represent major global public health challenges.\n\nBecause most Americans who acquire malaria abroad lack naturally acquired antimalarial immunity, studies conducted in Kenyan pediatric populations provide a uniquely relevant model for understanding severe malaria pathogenesis in immunologically susceptible hosts. The resulting advances in malaria, HIV-1, tuberculosis, bacteremia, pathogen genomics, surveillance, diagnostics, therapeutics, and disease modeling directly benefit American health by improving prevention, diagnosis, and clinical management of infectious diseases affecting U.S. travelers, military personnel, immigrants, refugees, and other at-risk populations. The program also strengthens U.S. preparedness for emerging and re-emerging infectious disease threats through advanced training in genomics, bioinformatics, epidemiology, and translational biomedical research."
+ },
+ {
+  "id": "e54dc8be-76a6-405b-bd63-45412b561e49",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Endothelial cell targeting of factor VIII for hemophilia A",
+  "text": "Gene therapy for hemophilia A aims to provide long term expression of clotting factor VIII to correct the bleeding\ndisorder. While the natural site of factor VIII synthesis is the liver sinusoidal endothelial cell, current adeno-\nassociated viral vector delivery approaches target expression to hepatocytes. The goal of this study is to use a\ngenome editing or a gene addition approach to target liver sinusoidal endothelial cells to achieve therapeutic\nlevels of factor VIII and to understand how hepatocyte and endothelial cell specific expression may impact\noutcomes in gene therapy."
+ },
+ {
+  "id": "e54f7a93-b435-4e31-b601-32cf3000611e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular mechanisms of alkane hydroxylase (AlkB) reactivity and selectivity",
+  "text": "AlkB represents a large family of membrane proteins, the class-III diiron proteins, that help synthesize\ncritical fatty acids, lipids, and alcohols from bacteria to humans. This protein family includes\ntherapeutic targets for treating obesity, diabetes, attention deficit disorders, cancer, and fatty acid\nhydroxylase-associated neurodegeneration. Understanding how these proteins work will contribute\nfundamental knowledge of their catalytic reactions, generate insights for developing future\ntherapeutics, and inform new strategies for producing life-saving molecules."
+ },
+ {
+  "id": "e55048f3-c7d0-4164-aa68-fc00010e9962",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Anticipation and integration in the primate visual system",
+  "text": "Vision science seeks to understand how the visual system functions and aims to develop treatments for visual\npathologies. The proposed studies to investigate how the objective of temporal prediction shapes the processing\nof visual information in cortex will provide rigorous steps towards those goals. The obtained knowledge may help\nto advance the treatment of cortical-based visual pathologies such as agnosia, dyslexia, and amblyopia."
+ },
+ {
+  "id": "e550c480-531e-4775-a412-6d5ef3929c9e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Commercializing iDEP, an interactive and reproducible tool for analyzing RNA-Seq data",
+  "text": "RNA sequencing is a widely used technique for surveying the activities of tens of thousands of genes in\nhealthy or diseased tissues. Based on previous work, we will transform a web application into a\ncommercial product to help researchers with visualization, statistical analysis, and biological\ninterpretation of such data.\n3"
+ },
+ {
+  "id": "e55b2df6-d5da-4f3d-97d3-4412633aa35b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mentoring the next generation of patient-oriented translational virologists",
+  "text": "The primary goal of this project will be to provide mentorship to trainees and early career investigators in\nclinical studies and cutting-edge translational virology techniques in key priority areas of HIV research.\nTrainees will help lead research to 1) Determine the virologic features of HIV persistence, 2) reservoir\nmediators of post-treatment HIV control, and 3) Assess the impact of emerging HIV resistance to new\nantiretroviral agents. The results of the studies will also advance our understanding of the mechanisms of HIV\npersistence, post-treatment control, and the clinical impact of antiviral drug resistance."
+ },
+ {
+  "id": "e55c98f7-b917-45b8-9b9d-f6571e9cf7ef",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Genetic Determinants of Cardiovascular-Kidney-Metabolic Syndrome",
+  "text": "Cardiac, kidney, and metabolic conditions, including cardiovascular disease, chronic kidney disease, and type\n2 diabetes, are leading causes of morbidity and mortality in the United States and affect individuals from all\nbackgrounds. These interconnected conditions, recently recognized as cardiovascular-kidney-metabolic (CKM)\nsyndrome, share pathophysiology and risk factors, including dysfunctional adiposity, dysglycemia,\ndyslipidemia, ectopic lipid deposition, and hypertension. This project will investigate biological, genetic, and\nother factors that contribute CKM syndrome."
+ }
+]

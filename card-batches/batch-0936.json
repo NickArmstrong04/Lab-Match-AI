@@ -1,0 +1,142 @@
+[
+ {
+  "id": "c2174115-82a1-4702-81ff-31f7118989f3",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Project 2",
+  "text": "Loss of function of the SMARCA4/BRG1 gene occurs frequently in lung cancer, yet there is no targeted therapy\navailable for patients with this tumor genotype. Current treatment modalities for these patients are usually\nineffective, resulting in death of approximately 16,000 individuals this year in the United States alone. This work\nwill define new precision medicine opportunities for these patients and define how targeting replication stress\ncontributes to therapy response, which will be informative in a wide variety of cancers."
+ },
+ {
+  "id": "c2198fe1-8e02-4017-84d5-3b4be065d789",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Exploiting Primed Inflammatory Signaling to Target SETD2 Deficient Renal Tumors",
+  "text": "Deficiency of the SETD2 tumor suppressor is prevalent in kidney cancer and is associated with poor prognosis.\nThis proposal will comprehensively establish the mechanism behind a novel synthetic lethal interaction between\nSETD2 and the antiapoptotic BCL-XL protein by determining the cause of mtDNA leakage and altered cell cycle\ntransit in SETD2 deficient cancers. We propose to examine the how SETD2 deficiency and activation of intrinsic-\ninflammatory signaling affects immune cell function in the tumor microenvironment and explore opportunities to\ntarget this relationship as a therapeutic strategy for SETD2 mutant cancer."
+ },
+ {
+  "id": "c21a1e55-f97a-4935-805e-3dbec53c8c7b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Core Fucosylation-Focused Target Discovery for Alzheimer's Disease",
+  "text": "Alzheimer's disease (AD) has a significant impact on public health, and there are currently many\nchallenges in its prevention and treatment. Our project seeks to innovatively investigate core\nfucosylated glycoforms and core fucosylation patterns in AD to uncover novel biomarkers and\ntherapeutic targets. These findings aim to revolutionize the diagnosis and treatment landscape\nfor Alzheimer's disease."
+ },
+ {
+  "id": "c21d450b-a50a-46df-bf43-f9f33d07c5f5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Adipocyte PD-L1 in the Breast Tumor Microenvironment",
+  "text": "Efficacy of current αPD-1/PD-L1 immunotherapies in breast cancer is limited. In addition, obesity-\nassociated chronic inflammation and metabolic dysfunction have become an increasing health burden. By\nfocusing on a previously unappreciated source of PD-L1 in white adipose tissue, our proposed study could\ninform ways to improve efficacy of anticancer immunotherapy, especially among cancer patients who are\nobese."
+ },
+ {
+  "id": "c21e96de-77e6-431c-888c-5a41d77b2277",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Biomimetic Vascular Matrix for Vascular Smooth Muscle Cell Mechanobiology and Pathology",
+  "text": "Arterial stiffness is a predictor of cardiovascular diseases; however, the underlying mechanism by which\narterial stiffening promotes abnormal vascular smooth muscle cell (VSMC) function associated with\nneointima formation in the vessel wall is largely unknown. This proposed research explores the novel\nroles of survivin as a key regulator of stiffness-mediated VSMC phenotypes, neointima formation, and\narterial stiffening. In addition, we employ in vitro porcine aorta decellularized extracellular matrix-based\nexperimental systems, sophisticated single-cell-based analyses, and a mouse model system to examine\nthe interactions between VSMCs and the pathological vascular environment and to identify potential\nnew therapeutic targets for the treatment of cardiovascular disease."
+ },
+ {
+  "id": "c2201132-f7f7-4383-bf53-f55107c546ea",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Clinical and Translational Data Science Training Program",
+  "text": "This Clinical and Translational Data Science postdoc T32 Training Program will provide cross-training in both clinical science and data science, prepare future clinical and translational data science leaders with strong team science skills, and emphasize the importance of broadening the participation from multiple disciplines in science."
+ },
+ {
+  "id": "c222fed5-9625-4648-925b-de4c3620e888",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mapping the m3C epitranscriptome in cancer",
+  "text": "This project aims to develop and apply a new method to map m3C RNA modification at nucleotide resolution\nthroughout the mRNA transcriptome. Using this approach, we will profile m3C in mRNA across cancer cell lines,\nprimary tumors, and normal tissues. These findings will address critical knowledge gaps about the prevalence\nand distribution of m3C modification in mRNA - information that could lead to future cancer therapeutic\nadvancements."
+ },
+ {
+  "id": "c2255f8f-2d89-4502-8645-56520ef9c9c6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Precision Interception for MGUS/SMM",
+  "text": "Multiple Myeloma (MM) is almost always preceded by monoclonal gammopathy of undetermined significance (MGUS) and smoldering myeloma (SMM). In this P01, we aim to identify why some MGUS/SMM clones transform into cancer in some individuals but not in others. In Project 1, we examine whether this is driven by a tumor intrinsic mechanism of clonal evolution; in Project 2, we define the role of the immune system in being permissive or protective against “malignant transformation”; and in Project 3, we focus on defining genomic and immune changes that predict response to innovative clinical trials using immunotherapy for early interception of the disease. Our overarching hypothesis for this P01 proposal is to identify mechanisms of malignant transformation in MGUS/SMM and develop novel therapies for early interception."
+ },
+ {
+  "id": "c2257b2b-daf1-48e2-8323-76d7c075c78d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Extracellular Vesicles Secreted by Human Stem Cell-derived M2 Microglia-like Cells for Stroke",
+  "text": "In ischemic stroke, extracellular vesicles (EVs) and microglia might contribute to neuroinflammation and\ntissue recovery. We will focus on dissecting how EVs trigger the pathogenic cascades for neural\nregeneration depending on microglial function and EV properties. The proposed work will engineer and\ncharacterize EVs secreted by M2 microglia-like cells derived from human induced pluripotent stem cells and\ninvestigate the impacts of paracrine signaling on neural function in vitro using brain organoid models and in\nvivo for ischemic stroke, by focusing on the contributions of EVs to the pathogenic mechanisms."
+ },
+ {
+  "id": "c2302f0b-f841-4677-a59d-9f891b625c52",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Neural control of rhythmic orofacial movements",
+  "text": "Research Narrative\nDisorganization of orofacial rhythmic movements leads to severe behavioral consequences. For example,\ndiscoordination of swallowing and breathing produces choking, which is the fourth leading cause of unintentional\ndeath among preschool children and elderly and the leading cause of death among infants. This project aims to\nshed light on why these life-threatening symptoms occur in many forms neurological malfunctions by mapping\nand dissecting the brainstem circuits that control orofacial movements."
+ },
+ {
+  "id": "c236b972-4e44-473b-83c1-94d344651248",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Using natural language processing and machine learning to identify patients at high risk of potentially preventable carbapenem-resistant Enterobacterales (CRE) infection",
+  "text": "Asymptomatic colonization (i.e., carriage) with carbapenem-resistant Enterobacterales (CRE), a type of highly\ndrug-resistant bacteria, poses urgent challenges in U.S. hospitals: undetected colonized patients can transmit\nCRE to other patients, and colonized patients themselves are at a significantly higher risk of developing CRE\ninfections. Because widescale screening for CRE colonization remains impractical for most U.S. hospitals,\nhospitals miss critical opportunities to identify patients at high risk of CRE colonization and infection early,\nwhen it is still possible to prevent deleterious patient outcomes. We propose to leverage state-of-the-art\nmachine learning and natural language processing (NLP) techniques on electronic health records (EHRs) to\nimprove identification of CRE-colonized and infected patients by: (a) developing and validating natural\nlanguage processing classifiers to detect established and new CRE risk factors from free-text, narrative EHR\ndata; (b) using NLP-derived variables with EHR structured data to predict CRE colonization at admission; and\n(c) developing machine learning-based models to predict which CRE-colonized patients will progress to\ninfection during the hospital stay, in order to guide precision medicine-based approaches for interventions."
+ },
+ {
+  "id": "c23b7a6a-1f45-4503-b1e0-fa2ab394d5d7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Leveraging biobank-scale data to elucidate the role of the X chromosome in human complex diseases",
+  "text": "The X chromosome makes up 5% of our genomes, containing over 800 genes, and plays an important role in sex determination. Despite this, most genetic studies connecting variants to phenotypes have neglected to include the X chromosome. I propose to study how natural selection has shaped the X chromosome and how the X chromosome contributes to health and disease today."
+ },
+ {
+  "id": "c23e2749-a472-4370-8e44-23c12b27a964",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Factors Related to Purchasing of Toddler Ultra-Processed Foods",
+  "text": "Ultra-processed foods (UPFs) now supply almost half of American toddlers' daily calories and are increasingly\nimplicated in cardiometabolic disease risk, yet consumers struggle to accurately identify UPFs and remain\nunaware of associated health risks. Although mothers are primarily responsible for family food purchases, they\nface the challenge of balancing preferences, health, and value under time and budgetary constraints while the\nfood industry exploits these challenges by marketing UPFs with misleading health claims. Our goal in this\nproject is to test our comprehensive multi-method approach involving 1,200 participants across three aims to\nidentify the psychosocial-behavioral-child-marketing factors driving toddler UPF consumption and provide\nevidence-based targets for food and nutrition policy interventions."
+ },
+ {
+  "id": "c23ed13e-a543-49d0-97b7-a007e3bc8df3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A dynamic regulatory mechanism controlling bacterial persister formation and resuscitation within biofilms",
+  "text": "PROJECT RELEVANCE NARRATIVE\nBacterial persisters can survive intensive antibiotic treatments and contribute significantly to recurrent\ninfections that are a heavy healthcare burden. We have identified a dynamic regulatory mechanism controlling\nPseudomonas aeruginosa persister formation and resuscitation within biofilms. Investigating this novel system\ncan provide novel treatment strategies for controlling chronic and recurrent infections."
+ },
+ {
+  "id": "c2456030-b202-4911-bd66-d8577d0ab3ea",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Integrating frequency and phenotypic association data to improve interpretation of rare genetic variants",
+  "text": "Millions of people are having their genomes sequenced as part of common disease studies and in direct\nhealthcare settings, but interpreting the variants identified in their genomes remains a significant challenge. This\nproject will develop statistical and deep learning methods to accurately interpret genetic variation in order to\nimprove diagnosis of rare disease patients and provide insight into the function of human genes and their role in\nhuman disease."
+ },
+ {
+  "id": "c24e2aba-4549-4573-82b7-c9a1004d4220",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mammalian Modeling Core (MMC)",
+  "text": "(GMMC) The Genetically Modified Mouse Core (GMMC) has been an integral part of the CMSDLD at the Perelman School of Medicine, University of Pennsylvania since 1997. The GMMC is directed by Dr. Douglas Epstein, PhD, Professor and Vice Chair, Department of Genetics. Dr. Epstein is an experienced investigator with considerable expertise in technologies and experimental approaches that center on mouse models of disease, developmental genetics, and genome editing. An experienced technical team, led by Dr. Jean Richa, provides expertise in a full range of transgenic technologies, enabling the GMMC to regularly introduce new and improved services. GMMC services include the generation of genetically altered mice by direct genome editing (CRISPR/Cas9), DNA microinjection into fertilized oocytes to create transgenic lines, generation of chimeric mice via embryonic stem cell injection into blastocysts. The GMMC also carries out embryo re-derivation, embryo and sperm cryopreservation, in vitro fertilization (IVF), and centralized cryopreservation storage. The GMMC uses state-of- the-art laser conditioning of the zona to facilitate IVF and has intracytoplasmic sperm injection capability on-line to complement IVF services. Newly developed services during the current funding period include the major expansion of cryopreservation services with corresponding expansion of the cryopreservation facility, integration of CRISPR/Cas9 direct genome modifications with a newly established Perelman School of Medicine CRISPR core, and electroporation of DNA and RNA into embryos to increase throughput and decrease wait time for GMMC services. In the past 5 years, 32 CMSDLD investigators used GMMC services to generate 167 independent mouse lines (primarily by CRISPR/Cas9 editing) and to store 64 mouse lines (by cryopreservation). Usage is expected to stay the same, or increase over the next five years. Additional Institutional (non-CMSDLD) support is provided for equipment maintenance and facility infrastructure upgrades and maintenance. An extensive network of collaborations exists within the CMSDLD focusing on the use of genetically modified mouse models of digestive and liver diseases. These joint projects among CMSDLD members highlight the role of the GMMC not only as an essential technical resource but also as a key hub for collaborative research among CMSDLD investigators, as exemplified by the numerous joint publications and successful grant applications arising from mice generated, stored, and/or re-derived by the GMMC."
+ },
+ {
+  "id": "c2538834-4b9c-496f-ae36-143f4cd2d42a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting S1P-ACC Axis to Overcome MDSC Suppression",
+  "text": "The overall goal of this project is to improve the anti-tumor T cell function and immunotherapy response by\ntargeting immunosuppression mediated by myeloid-derived suppressor cells (MDSCs) through sphingosine\nkinase 2 (SphK2) and sphingosine 1-phosphate (S1P) metabolism and signaling. The successful completion of\nproposal will establish that fatty acid synthesis is key for suppressing immunosuppressive and pro-tumorogenic\nfunction of MDSCs – a strategy that can be included to improve future clinical trials for cancer."
+ },
+ {
+  "id": "c2541060-cac8-4431-a031-37b817cad640",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Enhance myogenic transdifferentiation efficiency using engineering approaches",
+  "text": "Myogenic direct reprogramming from non-muscle somatic cells has become an important strategy to\nproduce abundant, patient-specific, and disease-specific human myogenic cells, but applications of these cells\nare hampered by low reprogramming efficiency and their immature nature. In this project, we will develop a high-\nthroughput screening platform with a simple, low-cost, and physiologically relevant readout to effectively discover\nefficient myogenic reprogramming technologies. Successful accomplishment of this project will result in new\ntechnologies to generate directly reprogrammed human myogenic cells exhibiting more similarities to true\nmyogenic cells for therapeutic applications and disease modeling."
+ },
+ {
+  "id": "c264551e-36bb-43a1-9053-c95e24afe162",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting a Metabolic Pathway to Treat Ovarian Cancer",
+  "text": "Both intrinsic and acquired resistance to PARP inhibitors (PARPis) in high-grade serous ovarian cancer\n(HGSOC) remain major clinical challenges, underscoring the need for improved therapeutic strategies. We have\nidentified NAMPT inhibitors (NAMPTis) as promising agents that, particularly in combination with PARPis, induce\nmarked tumor regression in preclinical HGSOC models—especially those with genetic alterations that disrupt\nNAD⁺ homeostasis. This project will: (i) define the molecular determinants of sensitivity to the combination of\nRPT1G, a next-generation, first-in-class NAMPTi, and the PARPi olaparib; (ii) test the efficacy of this combination\nin a diverse set of preclinical models in vivo; and (iii) evaluate its clinical safety and biomarker correlates in\nHGSOC. The ultimate goal of this study is to inform a biomarker-driven therapeutic strategy that enhances PARPi\nefficacy, promotes durable responses, and prevents or overcomes the emergence of PARPi resistance in\nHGSOC."
+ },
+ {
+  "id": "c265da45-af86-4b9d-99ec-f00f62c60798",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Determine the functions of the heterogeneity of embryonic origins in shoulder girdle formation",
+  "text": "In human congenital skeletal diseases, subparts of shoulder girdle bones malform, but the\nunderlying etiology remains uncharacterized. While it is known that the shoulder girdle develops\nfrom multiple embryonic cell populations, the functions of heterogeneity of embryonic origins in\nshoulder girdle development remain unknown. This proposal will identify the regulations and\nfunctions of embryonic heterogeneity in the zebrafish pectoral (shoulder) girdle as a prominent\nmodel with its transparent and simple structure."
+ }
+]

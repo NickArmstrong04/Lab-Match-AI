@@ -1,0 +1,142 @@
+[
+ {
+  "id": "c0567a55-be4a-400f-801c-795da800babe",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Critical Upgrade of 7.0T Preclinical MRI Scanner",
+  "text": "We request funding to upgrade our existing Bruker Biospec 7.0T preclinical MRI scanner operating in the Imaging\nResearch Core at Case Western Reserve University. This proposed upgrade will allow the 7.0T MRI scanner to\nincorporate modern MRI scanning capabilities with a unique cryogen coil array that will provide the highest\ndetection sensitivity for all preclinical MRI studies including rapid, high resolution methods needed by our 24\nNIH-funded Major Users that cannot currently be performed on the outdated and unserviceable scanner. The\nMajor Users listed in this proposal span four different scientific groups including: MRI imaging technology\ndevelopment, cancer mechanisms and therapeutic development, neuroscience and neurodegenerative\ndiseases, and cardiac and metabolic studies."
+ },
+ {
+  "id": "c05ead38-8463-40e8-a4f3-199c6b8c3535",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Automated identification of larval mosquito species with computer vision",
+  "text": "Project Narrative. The proposed project aims to develop a commercially available image\nrecognition platform for operational larval surveillance of medically relevant mosquito species,\ninitially capable of identification of 10 key species to Placer County, CA as initial proof of\nconcept. The project will involve validating optics for larval species identification and modifying\nan existing imaging device to achieve these requirements, building a high-quality image dataset\nwith the device, and training a computer vision system to identify mosquito larvae species. This\ntool will enable mosquito control organizations to make same-day control decisions based on\nlarval surveillance data targeted to species of concern, leapfrogging conventional larval\nsurveillance practices, and providing accurate and timely data on mosquito populations and\npotential disease transmission."
+ },
+ {
+  "id": "c05eb158-626b-41b0-b9e6-0c7c6e97fc0a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Improving personalized breast cancer care through a COMputerized Patient Adaptable Shared decision-making System (COMPASS)",
+  "text": "At least half of the more than a quarter million newly diagnosed breast cancer patients do not make treatment\ndecisions that are optimally aligned with their goals, values, and preferences, resulting in decisional regret and\npoorer treatment experiences and outcomes. We will evaluate the real-world efficacy of a shared decision-\nmaking system, COMPASS, that is integrated in the EHR and patient portal, to support personalized treatment\ndecision making in breast cancer. Better personalization and involvement of patients in decision making can\nimprove cancer care quality and patient outcomes and reduce health care costs."
+ },
+ {
+  "id": "c067e9ae-84a2-433a-9457-29bcdb63c26e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cellular plasticity and lineage in mammalian digit tip regeneration",
+  "text": "Mammalian digit tips are capable of regenerating following amputation, yet the mechanism of this innate\nprocess is not well-understood. In the short term, this project stands to dissect the function(s) of newly\nidentified fibroblast subpopulations during digit tip regeneration towards understanding why the digit tip can\nregenerate but not other parts of the digit or limb. In the long term, this research serves as the foundation for\nbroader mammalian limb regeneration efforts."
+ },
+ {
+  "id": "c0683cbf-b292-4ba1-a13a-9dcb667b0c1a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Focal Adhesion Kinase inhibition for dual targeting of osteosarcoma cells and the tumor microenvironment to prevent metastasis",
+  "text": "Osteosarcoma (OS) is a devastating pediatric cancer for which outcomes have not improved in over three\ndecades due to our inability to prevent or slow lung metastasis in the 30-40% of patients who do not respond to\nstandard-of-care chemotherapy. To address this gap, we will define how an OS cell intrinsic signaling\ndependency promotes a metastasis permissive lung environment, and leverage dogs with naturally occurring\nOS, the most faithful model of this cancer, to test an oral immunotherapy drug targeting this signaling and which\ncould be readily implemented in human OS patients. This proposal will also use an advanced immune monitoring\ntechnique on samples obtained from the lungs, an innovation developed in our lab, to identify mechanistic\npredictors of clinical response to this new immunotherapy approach."
+ },
+ {
+  "id": "c06f6c4c-37fd-46a8-849c-546eeb4b8d59",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Deep learning approach for the assessment of arterial and arteriolar lesions in kidney biopsies and prediction of cardiovascular risk",
+  "text": "PROJECT NARRATVE\nThis proposal uses state-of-the art machine learning techniques to extract important clinical information from\ndigital kidney biopsy images. Deep learning models will integrate digital kidney pathology with proteomics and\nclinical data into a larger prediction framework to provide kidney disease patients with an automated\nassessment of vascular pathology and cardiovascular prognosis."
+ },
+ {
+  "id": "c072745c-d9da-4b61-908f-b0d202add659",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "2D and 3D Contrast-enhanced Ultrasound Evaluation of Chemoembolization.",
+  "text": "Initial work in this project conclusively demonstrated the ability of contrast-enhanced ultrasound (CEUS) to\ndetect residual viable hepatocellular carcinoma following transarterial chemoembolization significantly earlier\nand with improved sensitivity relative to the current clinical standard. We now seek to expand these findings to\nother solid tumors being treated with chemoembolization and to use advanced ultrasound imaging approaches\nto improve on the technique’s suboptimal specificity. Additionally, we plan to expand the role of CEUS by\ninvestigating intraoperative treatment assessment as well as pre-treatment assessment for guiding the\nselection of locoregional therapy."
+ },
+ {
+  "id": "c073c41e-6d80-4f47-a58d-c915c28fb221",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Resilient HIV Implementation Science with Sexual and Gender Minority Youths using Evidence (RISE) Clinical Research Center",
+  "text": "This implementation science study will test a youth-tailored intervention to improve HIV prevention and HIV\ncare continuum for vulnerable youths at risk of HIV or living with HIV across West, East, and Southern African\ncountries."
+ },
+ {
+  "id": "c074cd27-4112-48e6-b979-84f80d62415e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Changes in Parent Child Proximity Following the Birth of a Younger Sibling",
+  "text": "The arrival of a new sibling is considered a major developmental transition for children, but empirical evidence\nindicates significant variability in children's adjustment. Changes in the parent–child relationship, and\nparticularly time spent in close proximity, may play a key role in shaping older siblings’ responses to this\ntransition. This project will use a newly developed wearable device to quantify changes in time spent in close\nproximity with parents in daily ecological contexts from before the younger sibling’s birth to multiple post-birth\ntimepoints."
+ },
+ {
+  "id": "c0753c1a-7cdc-49ab-9ceb-935326992cc1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Inflammasome-mediated corneal epithelial cell defenses inhibited by pathogenic bacteria",
+  "text": "The healthy corneal surface is an effective barrier to bacteria, yet the bacterial pathogen Pseudomonas\naeruginosa is able to infect the eye during contact lens wear. We discovered that corneal epithelial cells\nnormally undergo pyroptosis, an inflammatory and lytic programmed cell death, in response to bacterial\ninvasion; however, P. aeruginosa inhibits this host response with one of its toxins, Exotoxin S. We will\ninvestigate the importance of pyroptosis in resolving microbial encounters at the ocular surface, and also\nidentify how P. aeruginosa is able to subvert this host defense mechanism."
+ },
+ {
+  "id": "c0788c6d-54cf-4fde-90f9-ca428bad16e3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Overcoming FVIII protein misfolding and cell toxicity",
+  "text": "Deficiency of clotting factor VIII (FVIII) causes the bleeding disorder hemophilia A (HA), an X chromosome-linked bleeding defect affecting 1/5,000 males world-wide. Although bleeding episodes are prevented by prophylactic administration of FVIII preparations or novel molecules that bypass FVIII, there is no effective long-term cure. Gene therapy through adeno-associated virus (AAV)-mediated ectopic FVIII expression in hepatocytes has emerged as a promising therapeutic approach for HA, but has met with two hurdles: 1) A requirement for very high vector doses to drive FVIII expression in hepatocytes; and 2) Declining therapeutic transgene expression over time accompanied with transient liver damage after vector injection, both of which may be directly linked to the fact that FVIII is prone to misfolding, aggregation and retention in the endoplasmic reticulum (ER). We demonstrated that increased FVIII synthesis does not equate to increased FVIII secretion. Since isolation of the FVIII gene in 1984, we have discovered many detrimental cellular responses as a consequence of heterologous expression of wildtype FVIII or B-domain deleted FVIII (BDD), presently the FVIII derivative in clinical gene therapy studies for HA. These responses include: 1) Formation toxic aggregates in the ER; 2) Hepatosteatosis; 3) Activation of an innate inflammatory response; 4) Activation of the ER unfolded protein response that leads to cell death; 5) Production of detrimental reactive oxygen species; and 6) Potential development of hepatocellular carcinoma (HCC). Moreover, we and the Xiao lab (Project 2) discovered two BDD variants that efficiently fold and are secreted from the cell. “F309S” BDD-FVIII has a single amino acid change at Phe309 to Ser so it does not aggregate in the ER. Another BDD-FVIII variant “X5”, which exchanges 5 amino acids in human BDD for corresponding porcine residues, is also secreted more efficiently than wildtype BDD-FVIII. We hypothesize that: a. FVIII expressed in hepatocytes by AAV delivery forms aggregates in the ER and activates stress responses resulting in cell death and potential HCC; and b. Novel FVIII molecules that more efficiently fold and are secreted will exhibit less toxicity in vivo are improved options for HA gene therapy. These hypotheses will be tested in 3 aims: 1. Delineate the cellular responses induced by AAV-BDD expression in hepatocytes of mice and define their pathophysiological consequences, especially HCC development; 2. Fully evaluate the potential of BDD variants F309S and X5 as more efficacious, safe and durable options for HA gene therapy; and 3. Characterize innate responses upon FVIII expression in primary human hepatocytes in humanized mice (Core 2). Our in- depth understanding of these issues should encourage the design of more optimal AAV-BDD vectors for HA gene therapy (Project 2) and increase our understanding of the impact of cellular stress and systemic inflammatory responses associated with AAV-BDD transduction in vivo (Project 3). Completion of this project will likely provide essential information required for development of a safe and durable long-term cure for HA."
+ },
+ {
+  "id": "c08467af-2f2c-4209-a9bd-87f1c3c7f2c9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "3D Bioprinted In Vitro Model: A New Research Tool for Investigating Bidirectional Communication in Chondrosarcoma",
+  "text": "This project aims to address the lack of effective treatments for chondrosarcoma (CHS) by\ndeveloping EXPECT, a novel 3D hydrogel system designed to replicate the complex cell-cell\ncommunication within the tumor microenvironment. EXPECT will enable the study of long-term,\nspatially organized interactions between mesenchymal stem cells (MSCs) and CHS cells, helping\nto explore how sustained signaling influences tumor progression and metastasis. By providing a\nmore physiologically relevant model, this work has the potential to advance our understanding of\nCHS biology and lay the groundwork for future therapeutic strategies."
+ },
+ {
+  "id": "c0887d31-6f15-4131-b890-7457dac17c26",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project 1 - Characterize the Mechanism by Which Papillomaviruses Evade Host Immunity",
+  "text": "PROJECT 1 − PROJECT NARRATIVE\nHigh-risk human papillomaviruses are the most common sexually transmitted virus and cause 5% of all human\ncancers. These cancers arise as a result of persistent infections that our bodies fail to eliminate. In this project,\nwe explore ways to activate our own immune system to eradicate the persistent infections that give rise to these\ncancers and to improve clinical approaches to treating the cancer that do arise."
+ },
+ {
+  "id": "c08a9bc8-f812-427d-b254-fece211eabe6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The impact of brain lipoprotein structure and composition on amyloid beta metabolism and Alzheimer's disease",
+  "text": "Brain lipoproteins are lipid-protein complexes produced in the central nervous system that are important for\nmaintaining brain health. The primary protein component on these particles is apolipoprotein (APO)E which has\nthree different forms in people: E2, E3, and E4 and people who have E4 are at an elevated risk for development\nof Alzheimer’s disease. This work is aimed at understanding how E4 impacts the ability of brain lipoproteins to\nprotect against the development of Alzheimer’s disease."
+ },
+ {
+  "id": "c08ee9b0-fe03-4914-9dbe-2cfce727d2c8",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Imaging and Electrophysiology",
+  "text": "Imaging and Electrophysiology - Project Summary The goal of the Imaging and Electrophysiology Core Module (IECM) is to provide shared resources to the investigators of the Vision Research Center (VRC) for imaging and electrophysiological recording. The core instruments of the IECM support imaging (confocal and two-photon) and electrophysiology (patch clamp in vitro, simultaneous with 2P imaging) as well as multiunit retinal recording using a multi-electrode array. The IECM also subsidizes the use of two confocal microscopes and a cSLO-OCT system for imaging of retina in vivo in canine. The IECM offers full technical assistance through trained personnel to facilitate use of the instruments. Importantly, the IECM also provides a hub of for collaborative work among members of the VRC across multiple schools by enabling multidisciplinary projects about the normal structure and function of the visual system and its pathological alterations."
+ },
+ {
+  "id": "c092f262-4832-4a14-83e2-93b05ed760ce",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Rapid AST through Metabolic Imaging at Single Cell Level",
+  "text": "In order to combat infections and reduce antimicrobial resistance, it is essential to detect and characterize\nbacterial/fungal susceptibility to antimicrobials in the early stages of infections to reduce the inappropriate use of\nantimicrobials and the rate of death. A stimulated Raman scattering imaging - wide-field fluorescence in situ\nhybridization system will be developed to enable single cell level antimicrobial susceptibility and identity test\nwithin 2 hours from fresh sample to final report."
+ },
+ {
+  "id": "c09349e2-9ae1-4b3e-aadb-1f7e2e7baeb1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Orofacial Biomechanics and the Consequences of Alveolar Cleft Morphology: Clinical Translation for Comprehensive Craniofacial Care",
+  "text": "Alveolar cleft morphology may affect orofacial function, leading to differential success of repair techniques like\nalveolar bone grafts, but the mechanical variables are poorly understood. We use in silico methods to isolate\nand test mechanical variables related to alveolar cleft (shape and size) and repair techniques to understand\ntheir role in orofacial function and identify risk factors for graft failure. By filling a critical gap in our\nbiomechanical knowledge, we take a first step towards the development of more successful, integrative\ntreatment plans that may reduce the number of operative interventions and improve patient quality of life, such\nas exploring 3D printed cell culture bioscaffolds."
+ },
+ {
+  "id": "c095888c-72b8-4bad-94e2-189e4e1c9543",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Genetic and metabolic regulation of macrophage activation at steady state",
+  "text": "Understanding the molecular rules and network logic of macrophage activation has implications for the design\nof natural and synthetic macrophage-targeted technologies for controlling inflammatory processes. This new\nknowledge will lead to technological developments needed to harness the properties of macrophages for\nbiological and engineering applications. The impact of these studies is far-reaching for addressing major public\nhealth issues associated with activated macrophages, chronic inflammation, and metabolic deficiencies, such\nas diabetes, obesity, and cancer."
+ },
+ {
+  "id": "c09e4538-6ed3-4a8a-8e1a-50d6df185904",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Gauging how the plasticity of cellular organizations dictates growth, death and adaptation in single bacterial cells",
+  "text": "Many pathogenic bacteria are notorious for surviving harsh environments, adapting to different niches in the\nhuman body, and developing tolerance to drug treatments, all examples of phenotypic plasticity. Cellular\norganizations, as a hallmark of cell phenotype, dictate the physiological state and fitness of bacteria, and\nunraveling the origins and consequences of its plasticity is key to understanding the survival, growth, adaption,\nand drug tolerance of pathogenic bacteria. Exploring the optimality principles for the cellular organization could\nhelp identify bottlenecking cellular processes that can serve as non-molecular-specific targets with minimal\nconcerns of rising drug resistance."
+ },
+ {
+  "id": "c0a260dc-b35e-4f36-8c53-1f999ddac9cc",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Training Translational Lung Biology and Pathobiology",
+  "text": "Disorders of the respiratory tract continue to be a major cause of morbidity and mortality, affecting tens of millions\nof people. Effective treatments are lacking or suboptimal due to our lack of understanding of the disease\npathogenesis, and a pipeline of scientists too small to meet the research needs. This grant will furnish MD and\nPhD scientists with superior training in areas relevant to lung biology and respiratory diseases and prepare them\nto be independent researchers in their selected field of research."
+ }
+]

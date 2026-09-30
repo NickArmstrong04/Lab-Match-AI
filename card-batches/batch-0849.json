@@ -1,0 +1,142 @@
+[
+ {
+  "id": "a35d36b9-ce2a-4b37-895c-de8d9248a80b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Optical Sequencing to Link Quantitative Bacterial Phenotypes to Human Mutations",
+  "text": "Many pathogenic bacteria grow within human cells as a critical step in the disease process.\nAlthough much progress has been made in identifying the pathogen proteins that cause\ndisease, the host proteins that modulate this battle have been difficult to identify. This\napplication proposes to overcome this block by using a strategy to link quantitative behaviors of\nthe pathogen to host cell mutations, using a standard laboratory microscope to perform DNA\nsequencing."
+ },
+ {
+  "id": "a361f270-12f2-4349-ad52-9a615b716270",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "CRISPR and Humanized mice-based Discovery of a Novel Drug target for HCC Therapy",
+  "text": "PUBLIC HEALTH SIGNIFICANCE\nAccording to the estimates of the National Cancer Institute over 30,000 Americans will die due to hepatocellular\ncarcinoma (HCC) this year alone; however, regrettably, current therapies provide only limited clinical benefit,\nand thus, new and more effective therapies are urgently needed for treating HCC effectively. Using an integrative\nfunctional genomics approach (humanized NSG mice with human immune system and in vivo CRISPR\nscreening), we have identified NSD3 as a driver and therapeutic target in HCC. The studies proposed in this\napplication will have a significant impact on the biology and therapy of HCC by establishing NSD3 as a driver of\nHCC and by providing novel drugs for effective treatment of HCC patients."
+ },
+ {
+  "id": "a362ba97-e4bc-437e-9593-76c3cbb80acb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Photoacoustic and epigenetic nerve scaffold for nerve regeneration",
+  "text": "Peripheral nerve injury is a serious clinical problem that affects approximately 360,000 people every year in the\nUnited States alone.This proposal aims at developing novel epigenetically stimulating, biodegradable, and pho-\ntoacoustic nerve guidance conduits (NGCs) for the repair of critical-sized peripheral nerve (PN) defects"
+ },
+ {
+  "id": "a36aab0c-5a4f-4d5c-9650-0c2f6059acbc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "\"Core B\" Viral RNA-seq and bioinformatics Core",
+  "text": "In the next project period, Core B will provide computational biology and bioinformatics services to Projects 1,\n2, and 3. Core B will also develop new comprehensive next generation sequencing analysis pipelines to expedite\ndata-to-interpretation times for P01 investigators, develop new project-specific software for Projects 1, 2, and 3,\nand continue training junior P01 investigators in computational biology and bioinformatics."
+ },
+ {
+  "id": "a37e3889-153c-4f3d-a23f-3799176912aa",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Metallo-Reagents as Photonic Tools",
+  "text": "This research advances light-activated metal compounds as safe, tunable photonic tools for biomedical imaging\nand minimally invasive photo-control. By uniting quantum design with coordination chemistry, it will enable more\nprecise, light-based technologies for diagnostics, sensing, and image-guided procedures."
+ },
+ {
+  "id": "a37e8d77-7cfe-4808-93d5-aebcc9fd0fc8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Interrogating spatiotemporal control of mRNA in Drosophila morphogenesis using Cas13-based techniques",
+  "text": "The regulation of gene expression to produce proteins at the right time and right place is essential for animal\ndevelopment. Localization of messenger RNA (mRNA) and local translation is one method of regulating gene\nexpression posttranscriptionally, and this mRNA regulation is necessary for establishing asymmetrical protein\ndistributions to create the architecture of polarized cells during a process called morphogenesis. This proposal\nexamines the localization and protein interactors of an mRNA as neurons remodel their axons and dendrites\nduring morphogenesis using a relevant fruit fly (Drosophila) model through novel CRISPR/Cas13-based\nmethods."
+ },
+ {
+  "id": "a37ed1aa-f15b-49b4-bce7-83b0223dc7d4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Biomaterials-based Immunoengineering for Periprosthetic Joint Infection",
+  "text": "Patients who have received joint replacement are at risk for periprosthetic joint infection, a serious condition\nwhich can lead to morbidity, disability, amputation, and even death. We will investigate how an injectable\nbiomaterials-based vaccine system improves host immunity to prevent Staphylococcus aureus periprosthetic\njoint infection in murine and rabbit models. This project will lead to a better understanding of immunity in device-\nrelated infection and characterize a new vaccine modality."
+ },
+ {
+  "id": "a37fc087-0c57-4723-b2fc-13a765a92f20",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms and Specificity of Proteins that Manipulate DNA and RNA Structure",
+  "text": "RNA and DNA form stable structures that must be transiently disrupted in many essential cellular processes. All\nhuman cells have proteins that promote disruptions or changes to RNA and DNA structures, and defects in these\nproteins are linked to many diseases including cancer. We are striving to understand how these proteins function\nto gain insight into why malfunctions in them lead to diseases and to improve treatments."
+ },
+ {
+  "id": "a3866870-ad28-4ce5-805b-2182bb87a128",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Integrating genomics and EHR to accelerate precision psychiatry",
+  "text": "Developing more personalized prevention and treatment options is the goal of precision psychiatry, but efforts\nto translate findings from psychiatric genomics have been limited by several factors related to data availability\nand methodological approach. In this proposal, we propose an innovative approach to address these\nchallenges by (1) performing large-scale genetic studies of clinically-important phenotypes derived from\nelectronic health records, (2) identifying data-driven genetic latent traits that move beyond pre-defined disorder\nboundaries, and (3) leveraging machine learning, big health data, and multiple genetic measures to train\npredictive models. In addition to building translational predictive models designed for clinical use, insights from\ngenetic studies will lay the groundwork for future research to identify novel treatment targets and develop more\nprecise interventions."
+ },
+ {
+  "id": "a387fd16-b3f0-4f56-be90-d8b63965f920",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating the role of human-specific 3D genome conformation in the context of brain development and disease",
+  "text": "The proposed project is relevant to public health because it investigates how the spatial organization\nof the human genome might be related to the evolution of brain development and how its disruption\nmight lead to neurodevelopmental disorders.\nThe proposed research is relevant to the NIH’s mission of increasing knowledge in order to reduce\ndisease."
+ },
+ {
+  "id": "a38b6c9a-6dd1-4dcf-8dc3-83efce21bf81",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Washington University Omics Production Center",
+  "text": "We propose to establish the Washington University Omics Production Center (WU-omics PC) as part of the\nMulti-Omics for Health and Disease Consortium. The WU-omics PC will profile human genes, proteins, and\nmetabolites by using six different omics profiling technologies. The integration of these omics datasets and\nothers will improve our understanding of human health and potentially lead to new strategies for the early\ndetection, prevention, and treatment of disease in ancestrally diverse populations."
+ },
+ {
+  "id": "a38ecef8-9ec5-4553-8f8e-523d43cb55af",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Implicating the SPOC domain of RBM15 in RBM15::MKL1 fusion protein-induced acute megakaryoblastic leukemia",
+  "text": "Hematopoiesis is the process by which blood cells, including megakaryocytes, are formed, developed, and\ndifferentiated from hematopoietic stem cells in the bone marrow. This proposed study investigates how the\npresence of the aberrant RBM15::MKL1 (RM) molecule dysregulates hematopoiesis, to promote a life-\nthreatening form of leukemia in newborns and toddlers. This work focuses on how the RBM15 component of RM\naffects cells to prevent normal blood development, and the findings will potentially lead to tailored treatment\nstrategies for AMKL patients."
+ },
+ {
+  "id": "a39148f4-7961-4716-be5e-9daaf56b91b8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Unbiased amplification of single stranded DNA oligos across versatile application spaces",
+  "text": "This project will develop a new technology for efficiently and uniformly amplifying single-stranded DNA mole-\ncules, which are essential building blocks in genomics, diagnostics, and biotechnology. Current methods are\ninefficient and biased, limiting applications such as DNA sequencing, gene editing, and synthetic biology. By\nenabling cost-effective and unbiased DNA amplification, this work will accelerate biomedical research and ex-\npand access to next-generation diagnostic and therapeutic technologies."
+ },
+ {
+  "id": "a3970226-b0e0-45bf-b4ac-5f877393f88c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Long term radiation treatment planning in brain tumors in the pediatric population",
+  "text": "Radiation therapy is often a lifesaving treatment for pediatric brain tumor patients, but simultanously may cause\nradiation toxicity to surrounding healthy tissues in the brain. Mitigating tissue damage is necessary in order to\navoid long-term developmental side effects to these children; our ClickBrain RT software will use deep learning\ntechnologies to automatically delineate key structures in the brain and predict volumetric changes that occur due\nto treatment-related radiation dosing to these key structures. This will help physicians to better avoid\nunnecessary radiation doses that may cause long-term deficits in children with brain tumors and can ultimately\nlead to better quality of life for these children."
+ },
+ {
+  "id": "a3a55f5e-5713-4110-84de-f2e8cd6a9731",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "1/4 Asian Bipolar Genetics Network (A-BIG-NET)",
+  "text": "This proposal will leverage the Asian Bipolar Genetics Network (A-BIG-NET), an international collaboration of investigators from the U.S. and Asia, to carry out a molecular genetics study of bipolar disorder. It will establish a valuable genetics resource with 4x low-pass whole genome sequence and rich phenotype data that will dramatically increase the range of alleles that are studied from varying geographic origins in persons with bipolar disorder. This approach will accelerate gene discovery in this disorder and help U.S. citizens diagnosed with BP."
+ },
+ {
+  "id": "a3ab2580-2756-4826-9294-9f0a733c34e0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Single Molecule analysis of KSHV/HHV8 DNA replication proteins",
+  "text": "8. Project Narrative\nTwo human herpesviruses, Epstein- Barr virus (EBV) and Kaposi’s sarcoma herpesvirus (KSHV/HHV8) are\nknown to cause several human cancers. Effective antiviral therapeutics are needed for the treatment of KSHV\ninfection. By using specialized electron microscopy (EM) to directly visualize protein-DNA structures and protein-\nprotein conformations our goal is to identify novel anti-viral targets."
+ },
+ {
+  "id": "a3abb9cd-fb89-4d7c-9b2a-3f15405735c2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Harnessing β-Catenin and NK2GD to enable HLA-Independent CD8+ T Cell immunotherapy Against AML",
+  "text": "Harnessing β-Catenin and NK2GD to enable HLA-Independent CD8+ T Cell\n immunotherapy Against AML\nNarrative\nOur NIH R01 project targets a critical challenge in acute myeloid leukemia (AML) therapy: the\ndownregulation of HLA-I, which limits CD8+ T cell efficacy. We propose an innovative HLA-\nindependent approach, enhancing NKG2D expression on CD8+ T cells through β-catenin\nmodulation. Our preliminary data show that increasing β-catenin activity boosts NKG2D and T-\nbet levels, promoting robust anti-AML responses without causing T-cell exhaustion or damage in\nhumanized mouse models. This project explores the molecular mechanisms behind this response\nand develops novel interventions, potentially transforming AML treatment strategies."
+ },
+ {
+  "id": "a3ad49b8-9094-41bd-8aae-775983eb05e3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Research Pathology Shared Resource",
+  "text": "RESEARCH PATHOLOGY SHARED RESOURCE The Research Pathology Shared Resource (RPSR) of the Fred Hutch/University of Washington/Seattle Children’s Cancer Consortium provides a suite of cutting-edge tools to enable the analysis of complex cancer phenotypes in a spatially resolved manner. Understanding the intricate pathologic “social network” within tumors is essential to further develop our mechanistic understanding of cancer and translate those insights into effective cancer treatments. The RPSR offers a range of services including routine histopathology, custom immunohistochemical assay development, multiplex immunohistochemistry, novel antibody discovery and production, and spatial transcriptomics/proteomics. RPSR is led by two directors, each with unique but complementary areas of expertise. Amanda Koehne, DVM, PhD, is a comparative pathologist and cancer biologist with background in cancer models, tissue architecture, and histopathology methodologies. David Jellyman, MS, is a biologist with mastery in antibody discovery platforms. Together, the directors provide customized pathology research solutions, even when commercial antibody reagents are unavailable. RPSR directors aid researchers with experimental design, study interpretation, and training/deployment of software- based quantitative image analysis. RPSR is committed to outreach and training the next generation of cancer researchers through participation in three college and post baccalaureate internship programs and hosting high school students for lab tours and case-based learning exercises. RPSR works with investigators to generate novel, customized assays to address specific scientific questions. One such assay combining in situ hybridization with multiplex immunohistochemistry without sacrificing tissue morphological integrity allowed for visualization of CAR T cells in the tumor immune microenvironment (Wright et al. Immunol Methods 2021). This technique has been used for in vivo studies as well as clinical patient specimens to interrogate mechanisms of therapeutic success or failure. In the past five years, collaborations with investigators have resulted in over 122 peer-reviewed publications, support on 60 grants, and over 1500 individual requests for core services annually. Future plans for RPSR include expanding spatial transcriptomics offerings, incorporating artificial intelligence into the current digital image analysis platforms, and developing B cell culture-based antibody discovery workflows. As the Resource develops assays for in vivo and clinical research specimens, RPSR is poised to serve the expanding translational medicine and precision oncology programs across the Consortium. RPSR is committed to fostering a culture of continuous improvement and providing innovative, high-quality, cost-effective, and expeditious services to the Consortium and to broadly contribute to the basic and translational mission of the Consortium."
+ },
+ {
+  "id": "a3ae73d4-5beb-4907-a4fd-44e962f5153c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of a smart transformable nanotherapeutic against cancers with acquired resistance to EGFR-targeted therapies caused by MET amplification",
+  "text": "Cancer remains a leading cause of death in the United States, and resistance to targeted therapies significantly limits treatment success. This project develops a novel dual-targeting nanotherapeutic strategy to overcome resistance in EGFR-driven cancers, a common clinical problem in patients in the United States. The expected outcomes may lead to more effective and durable treatments, ultimately improving patient survival and public health."
+ },
+ {
+  "id": "a3b18c51-d284-47b7-a69f-7fa2d27fab89",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Functional Analysis of Mrgpr Family in itch sensation",
+  "text": "Chronic itch is a debilitating disease that can have serious clinical consequences. Our studies suggest\nthat the sensory neuron expressed MrgprA1 and its human homolog MRGPRX4 are novel itch receptors and\ncontribute to multiple chronic itch conditions including medication caused itch side effect, allergic contact\ndermatitis, and uremic itch. Therefore, functional analysis of MrgprA1/X4 will not only provide a mechanistic\nunderstanding of itch but also open new avenues for the development of novel itch therapeutics."
+ }
+]

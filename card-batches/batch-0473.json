@@ -1,0 +1,142 @@
+[
+ {
+  "id": "1b23bf32-bbe6-497c-848f-34345a5deca1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project 1 - Balog",
+  "text": "Impaired wound healing increases the risks of infection and the development of chronic wounds, which can lead to significant morbidity and decreased quality of life, as well as increased healthcare costs. For people with additional risk factors for chronic wounds, such as aging, diabetes, and obesity, the failure of a wound to heal properly can be especially dangerous and may lead to amputation and even death. Current therapeutic approaches for wound healing are often inadequate because they do not address the underlying causes of impaired healing. If a wound is not healing properly because of poor blood flow, simply applying a bandage or topical antibiotic will not solve the problem. Regenerative medicine strategies, such as the use of stem cells, growth factors, and scaffolds, have the potential to revolutionize the treatment of acute and chronic wounds by promoting the body's natural healing processes and improving tissue regeneration. Angiogenesis, the formation of new blood vessels, is essential for tissue repair and regeneration. Acute inflammation plays a crucial role in the initial stages of wound healing, however chronic inflammation can impede wound healing. Therefore, it is crucial to develop therapies that can modulate these processes in a precise and controlled manner to promote optimal wound healing. However, the complexity of the interactions between cells, matrix, and microenvironment during wound healing hampers the development of effective biomaterials for wound repair. Experiments proposed here will investigate VEGFR signaling in engineered models of wound healing. Specific Aim 1 will use a novel engineered biopolymer to dissect the role of VEGFR1, a poorly understood growth factor receptor in both endothelial cells, which contribute to blood vessel formation, and macrophages, which are involved in tissue repair and inflammation. Specific Aim 2 will examine the biochemical events that contribute to cell-cell crosstalk between endothelial cells and macrophages. Embedded in both aims is demonstration of the potential of elastin-like polymers to be a supportive and instructive biomaterial for tissue engineering and regenerative medicine. This proposal uses the powerful dual approach of biomaterials development and characterization as both an end goal for clinical translation and a biotechnological tool for unraveling the intricacies of cell signaling events."
+ },
+ {
+  "id": "1b2ca164-6a30-4245-9de9-3b948e7ac635",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Improving HIV Prevention Through a Psychological Flexibility-Based Approach",
+  "text": "There is a high incidence of HIV in the South and interventions to enhance engagement in prevention services are urgently needed. Barriers to pre-exposure prophylaxis uptake among people at risk for HIV occur at each level of the modified social ecological model and include access, cost, transportation, low perceived HIV risk, and medical mistrust. Utilizing components of Acceptance and Commitment Therapy, we will design an intervention to improve pre-exposure prophylaxis uptake, persistence, and adherence through addressing these barriers."
+ },
+ {
+  "id": "1b31981e-d5b8-4432-90bd-dbc04897dd03",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Deep Learning-based retinal optical coherence tomography markers for optic neuropathies",
+  "text": "Optic neuropathies, a group of disorders leading to irreversible vision loss due to retinal ganglion cell\ndegeneration and optic nerve damage, present a significant challenge in ophthalmology, primarily due to delayed\ndiagnosis and diverse etiologies. This research aims to investigate the detection and management of these\ndiseases by harnessing deep learning and computational techniques to analyze optical coherence tomography\n(OCT) data. By developing precise biomarkers and utilizing advanced methods like deep generative models,\ngeometric modeling, and neural fields, the project seeks to improve early diagnosis, accurately predict disease\nprogression, and facilitate personalized treatment strategies, addressing the critical need for timely intervention\nin optic neuropathies."
+ },
+ {
+  "id": "1b372697-1404-4fc6-8226-b7055c2fde26",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Spatiotemporal control of early matricellular events in the injured lung",
+  "text": "Acute lung injury, or the acute respiratory distress syndrome (ARDS), is a major cause of ICU morbidity and\nmortality worldwide. Essential early on for optimal lung repair is the formation of a provisional matrix, which is\norchestrated by matricellular proteins that facilitate dynamic interactions between structural matrix proteins and\ncells directed into the site of injury. Our overarching goal is to better understand early matricellular events in\nthe injured lung, and the mechanisms that are critical for the stabilization of the provisional matrix to identify\ntargetable pathways."
+ },
+ {
+  "id": "1b3faa5c-f7ef-4ecc-a7e2-d5951b38e38e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Developing Mutation Signature Extraction (MSE) for human tissues",
+  "text": "Mutation signatures in human tumors are a product of the mutagenic events that lead to cancer. Given this,\ndetecting such signatures in normal human tissue samples could aid in cancer early detection, prevention, and\ninterception. Therefore, we propose to develop Mutation Signature Extraction (MSE) to detect the mutations\ngiving rise to these signatures in normal human tissue samples."
+ },
+ {
+  "id": "1b419351-add0-4b40-82b1-c945605d62a4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Reprograming CAR T cells by targeting IKZF-HDAC mediated chromatin remodeling to treat breast cancer",
+  "text": "Chimeric antigen receptor T cell therapy (CART) has represented a significant breakthrough in cancer research,\nbut many patients remain resistant to treatment. The abrogation of the IKZF family of epigenetic regulators may\nplay a critical role in promoting functional effector CD8 T cells. Therefore, the overall goal of this project is to\ndissect the epigenetic mechanisms that cause exhaustion and limit anti-tumor function, as this can help identify\nnovel cancer therapies."
+ },
+ {
+  "id": "1b483bd0-e018-4cf8-875a-9751ba472788",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Impact of fasting on intestinal stem cells and cancer",
+  "text": "Research narrative\nFasting is known to improve health and tissue repair, but its impact on cancer risk is not well\nunderstood. Our research investigates how fasting and refeeding influence intestinal stem\ncells, which are essential for gut repair but can also initiate intestinal tumors."
+ },
+ {
+  "id": "1b51161b-ee37-4c8b-abda-e054a51eb2b1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Proximity between partners and depression symptoms during the transition to parenthood",
+  "text": "Postpartum depression affects one in eight mothers, yet we have limited understanding of how daily patterns of\npartner support shape this risk during the transition to parenthood. This project will use innovative wearable\ndevices to objectively measure physical proximity between mothers and their partners across pregnancy and\nthe postpartum period, providing unprecedented insight into how moment-to-moment patterns of partner\ninteraction relate to depression symptoms in both parents. Through detailed measurement of proximity\npatterns during caregiving and non-caregiving contexts, this research will reveal how the demands of\nparenthood reshape partner support dynamics and their relationship to perinatal mental health outcomes."
+ },
+ {
+  "id": "1b56fe6c-7cab-4013-b941-848cc4f5dcbb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Biochemistry of membrane proteins involved in lipid and cannabinoid metabolism",
+  "text": "In the backdrop of growing recognition of lipids in the body and sparse knowledge of their biochemistry\nand function, herein, we propose to understand the mechanism of how membrane proteins metabolize\nlipids such as poly unsaturated fatty acids (PUFAs) and lipid-like xenobiotics and lead to the formation\nof novel lipid metabolites that are involved in immunomodulation."
+ },
+ {
+  "id": "1b596028-59a9-43a1-be9f-541cf669315c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Person-centered diagnostics and prediction for child dysregulatory psychopathology using novel phenotypes",
+  "text": "This study will employ cutting edge computational modeling of cognitive, behavioral, and environmental data,\ngenerated from large-scale, national mental health studies of youth, to enhance diagnostic and prognostic\nprediction for children with common forms of psychopathology. Effectiveness will be evaluated within pediatric\nand psychiatry clinic settings from several regions of the country. If successful, this work has the capacity to\ndramatically improve the efficiency and efficacy of child psychopathology identification and care."
+ },
+ {
+  "id": "1b6d9064-529d-4e21-bf3e-71362102c662",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Biobank Shared Resource",
+  "text": "BIOBANK SHARED RESOURCE: PROJECT SUMMARY/ABSTRACT The mission of the Biobank Shared Resource (BSR) is to support and promote human cancer research at the Wilmot Cancer Institute (Wilmot). The BSR offers a wide range of services to Wilmot members, including access to an extensive catalog of clinically annotated biospecimens and study design consultation to maximize project value and success. Bradley Mills, PhD (ZY), Research Assistant Professor of Surgery, serves as the BSR Director. Mills has extensive expertise in human tissue research, including technical proficiencies in primary cell culture, organoid development, various imaging modalities, flow cytometry, and traditional, as well as, emerging genomics analyses. He is further assisted by 10 staff members (clinical coordinators and laboratory technicians) with similar skill sets and financial support from Wilmot. The BSR prospective collection contains over 20,000 samples generated from a wide variety of solid and liquid tumors. In addition, the BSR is uniquely positioned to reduce access barriers to other shared resources that will add value and increase the impact of the research study. Wilmot investigators who request samples or study-specific services are supported by the BSR at all levels of their research, from project design through regulatory approval, scientific review, and manuscript submission. The BSR has a well-developed oversight structure including an advisory committee that evaluates resource utilization and informs strategic initiatives, and a utilization committee that reviews all investigator requests to ensure that BSR samples are disbursed fairly, responsibly, and for impactful research that aligns with Wilmot priorities. These committees are comprised of representatives spanning Wilmot leadership, programmatic research, community engagement, and human subject research compliance. This broad representation highlights how the BSR is central to the Wilmot clinical research initiative. The BSR staff is equipped to process a variety of sample preparations including whole or dissociated fresh tissue, viably frozen tissue fragments, optimal cutting temperature tissue blocks, primary cells, stem cells, cell lines, organoids, and xenografts, and regularly communicates with its companion shared resources to ensure that tissues are processed appropriately for downstream assays. The prospective sample catalog currently contains over 20,000 samples derived from more than 2,500 cases of various tumor origins. Many of these cases also provide paired specimens that were derived from a single subject (e.g., tumor and adjacent normal tissues) and thus possess superior research value. Prospectively collected tissues are routinely preserved as flash-frozen whole tissue (cryo), formalin-fixed paraffin-embedded (FFPE) blocks (when sufficient gross material is available), and processed blood derivates in order to maximize assay compatibility for future-use research. All BSR samples are stored within the BSR facility and annotated with minimum reportable clinical information and in vitro preanalytical variables for quality assurance."
+ },
+ {
+  "id": "1b6ecc1d-4cc5-4f49-9f52-ebb45da0d7eb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Immunologic Trajectories of Peanut Desensitization (INROADS)",
+  "text": "Peanut allergy has tripled in prevalence in recent decades, affecting nearly 2% of adults and up to 5% of\nchildren in some US regions. Our group and others performed the studies resulting in the recent FDA\napprovals of desensitization therapies that can raise the reaction threshold and provide safety from accidental\nexposures for approximately 67% of patients. This proposal, Immunologic Trajectories of Peanut\nDesensitization (INROADS), builds upon discoveries and techniques from our prior research to address the\nknowledge gaps of these desensitization therapies that will improve personalized care and provide mechanistic\ninsights for better treatments."
+ },
+ {
+  "id": "1b75ba81-e550-4b49-9d90-6a71849f6388",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "UCLA IDDRC",
+  "text": "For over 55 years, the UCLA IDDRC has been committed to improving the lives of individuals with intellectual\nand developmental disabilities (IDDs) through basic and translational research, education, and outreach. Our\ncenter aims to provide outstanding resources and infrastructure to UCLA researchers focused on IDDs using\nthe most innovative technologies that will significantly impact the well-being of individuals with IDDs and their\nfamilies. This application requests bridge funding to support and enhance our Core infrastructure."
+ },
+ {
+  "id": "1b77d045-d8a6-4470-9dcf-27a66d37c064",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Computational and Mathematical Modeling of Biomedical Systems",
+  "text": "In many areas of biomedical science, quantitative theoretical approaches are necessary in order to understand complex biological systems. This program prepares scientists for research careers in the computational and mathematical modeling of medically significant biological systems through interdisciplinary training at the predoctoral level. Trainees receive training in relevant research areas and develop the ability to collaborate across traditional disciplinary boundaries with researchers with complementary expertise."
+ },
+ {
+  "id": "1b7c80af-d9ed-42ac-92f0-96e4afc47923",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A lab-on-a-chip device for measuring multiple biochemical and biophysical biomarkers of Alzheimer’s disease",
+  "text": "These exploratory studies could lead to the development of a mass producible device that uses a simple blood\nsample to identify people most suited for clinical trials of Alzheimer’s disease therapeutics. The same device\ncould also be used for monitoring disease progression throughout the trial."
+ },
+ {
+  "id": "1b818532-ddbd-40aa-9ec5-c9555dedcafc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Leveraging human organoid models for the development of broad interventions to mitigate emergent respiratory viral pandemics",
+  "text": "We have assembled a broad and highly accomplished team to continue our investigations of Influenza and SARS-CoV-2 vaccination and infection, particular focusing on subjects that are vulnerable and seeking a deeper understanding of the effects of specific antibody glycosylation and specificity, bioinformatic signatures of pan virus responses and human immune organoids and the tissues and organs they interact with."
+ },
+ {
+  "id": "1b81880a-c163-48bb-979f-939097a8d895",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project 3: Functional Genomic Mechanisms of Epithelial Dysfunction in Pulmonary Fibrosis",
+  "text": "As per the instructions included in PAR-21-088, this narrative does not need to be completed for this\ncomponent. Please see Project Narrative for the entire Project in the Overall Component."
+ },
+ {
+  "id": "1b855478-048a-4174-be33-83536931b2b3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Gel Imager",
+  "text": "We request funds to purchase the Bio-Rad ChemiDoc MP, an advanced gel imager that supports sensitive\nchemiluminescent and fluorescent detection methods and is fully compatible with Bio-Rad's stain-free\ntechnology, which improves workflow efficiency through rapid fluorescent protein detection. These features, not\navailable on our current gel imager, will build research capacity by enabling our research teams to investigate\npesticide-induced changes in neuronal protein expression and study key proteins related to cardiovascular health\nand aging. An improved gel imager will also build education capacity by strengthening student training in upper-\ndivision biochemistry laboratory courses and better preparing Sacramento State graduates for competitive\ncareers in science."
+ },
+ {
+  "id": "1b86f919-e9d6-4d28-b3d7-bf12256b7b8d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Developing cell type-specific enhancers and connectivity mapping pipelines for marmosets",
+  "text": "It is increasingly recognized that non-human primates (NHP) such as marmosets provide an essential\nmodel to study higher brain function that are not difficult to study in widely used rodent models. However, lack\nof tools with cell type specificity has been a major obstacle in advancing structural and functional studies in\nNHP. This study will develop much needed essential tools, methods and computational pipelines for cell type-\nspecific mapping and functional interrogation of the marmoset brain in healthy and disease models."
+ },
+ {
+  "id": "1b893777-e7f1-4259-a1b6-3c7c36657146",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Stromal cells in immunity to infection",
+  "text": "In addition to differentiated organ-specific cells, organs contain connective tissue cells, or stromal cells, and\nresident immune cells, and tissue insults lead to changes in the activity of both cell populations, including the\nproduction by stromal cells of cytokines that affect T cell biology and the establishment of specialized T cells\ncapable of making cytokines that alter stromal cell biology. Ideally, these interactions lead to increased tissue\nresilience and help promote resistance to the source of the tissue insults, but dysregulated interactions can\nlead to loss of critical tissue functions. Our work will help delineate the mechanisms underlying these divergent\noutcomes and in so doing identify pathways amenable to therapeutic intervention."
+ }
+]

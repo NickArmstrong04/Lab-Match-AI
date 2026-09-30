@@ -1,0 +1,142 @@
+[
+ {
+  "id": "b0f7cc16-7447-474e-970b-d5397cc758ce",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Impact of hippocampal perineuronal net complexity on Alzheimer's disease-associated social memory dysfunction",
+  "text": "Social memory dysfunction is a common symptom of Alzheimer's disease. The proposed research will\ninvestigate differences in the perineuronal net sulfation in hippocampal CA2 region, an area essential for social\nmemory, in response to amyloid and tau pathology and determine whether reversing these changes can improve\nsocial memory dysfunction. These findings will provide critical insight to the contribution CA2 perineuronal net\nsulfation to the social memory deficits of Alzheimer’s disease, with the goal of alleviating this devastating\nsymptom."
+ },
+ {
+  "id": "b0fb7784-01ac-4262-806f-7c8e0e190a4e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Sub-Cellular Mass Spectrometry Discoveries: Metabolic Encoding of the Embryonic Body Plan",
+  "text": "Development of the vertebrate embryo requires the production and distribution of broad types of molecules.\nThis project uses uniquely sensitive technologies to understand how small molecules called metabolites\ncontribute to the coordination of embryonic development."
+ },
+ {
+  "id": "b0ff8c70-a2f9-4022-8933-2a61bec6f153",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular Mechanisms of Altered DNA Binding and Chromatin Regulation by FET::ETS Oncogenes",
+  "text": "Chromosomal translocation-derived oncogenic fusion transcription factors cause many cancers, yet the\nmechanisms they employ remain poorly understood. This project employs cutting-edge genomics, biophysical,\nand single molecule approaches to investigate EWSR1::FLI1, the fusion protein that causes Ewing sarcoma,\nrevealing how its distinct domains function together. High-resolution studies of fusion oncogenes are essential\nto uncover how they drive cancer and to develop targeted therapies that exploit unique features of their biology."
+ },
+ {
+  "id": "b10034eb-21a2-4777-add3-4547cc1d2542",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Human Immune Monitoring Shared Resource",
+  "text": "Overview: Immunotherapies are revolutionizing cancer treatments. The Human Immune Monitoring Shared Resource (HIMSR) provides basic and clinical science researchers with cutting-edge immune monitoring assays that are essential for the continued advancement of cancer immunotherapies. HIMSR's mission is to facilitate clinical and translational studies by dissecting immune-based mechanisms with diagnostic and therapeutic applications, including discovery of novel biomarkers. HIMSR partners with the research community to develop, test and implement new technologies for investigation of tumor immunology and assists translational researchers in selecting appropriate endpoints and ensures clinical samples are compatible with downstream immune-related assays. Services: Assays offered include immunophenotyping and functional characterization by flow and mass cytometry, multicolor fluorescence tissue imaging, multiplex cytokine analysis, and cellular assays (in vitro killing, proliferation, intracellular cytokines, etc). These assays are vital for understanding the response to recently developed cancer immunotherapies such as transfer of genetically modified T cells, vaccines, and various blocking and depleting antibodies. HIMSR collaborates with the Pathology Shared Resource (PSR) to provide clinical sample processing and currently supports 22 clinical studies. Reagents/Tools: To support investigators studying immune cell infiltrate in tumor microenvironments, HIMSR has acquired high parameter tissue imaging platforms, including the Vectra 3.0, Vectra Polaris, and Mutiplex Ion Beam Imaging (MIBI) systems. The SR has developed >150 different 7- and 9-color immunofluorescent panels for the Vectra platforms and is developing a 40 parameter panel for the MIBI. HIMSR collaborates with the Flow Cytometry SR (FCSR) by optimizing high parameter flow and mass cytometry panels, and preparing sample sets that are run on FCSR instruments by FCSR staff. HIMSR also acquired a multiplex protein array instrument to facilitate analysis of soluble factors like cytokines and chemokines. Consultation and Education: HIMSR personnel assist investigators in the design and optimization of customized flow, mass cytometry, and tissue imaging panels. They aid in the design of research endpoints for clinical trials, and work with other shared resources to ensure seamless access to all necessary technology. HIMSR hosts monthly user group meetings for investigators performing tissue imaging experiments and provides online training videos and workshops and remote access to image analysis software. Management: HIMSR is managed by the Human Immunology and Immunotherapy Initiative (HI3) with oversight by the UCCC Associate Director for Basic Research. Use of Services: Since July 2018, HIMSR has collaborated with 110 investigators, 49% of whom were UCCC members, representing all four UCCC programs and resulting in 21 publications. Operating Budget: With this renewal CCSG funding is proposed at 7% of the annual operating budget with the remaining from user fees (56%) and institutional support (37%). Future Directions: Customized panels and new technology will be expanded as needed by the research community, including access to Nanostring nCounter molecular barcoding technology and TCR/BCR sequencing."
+ },
+ {
+  "id": "b101b9ab-3eef-438d-85d2-aeca467befbf",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Link between immunometabolism and epigenetics in malaria vector mosquito Anopheles stephensi.",
+  "text": "Efforts in mosquito control have been hindered by the widespread insecticide resistance in mosquito\npopulations. There is an urgent need for novel tools to complement existing control strategies. A deeper\nunderstanding of the epigenetic regulation of immunometabolism in anti-Plasmodium immunity may provide\nvaluable insights for developing innovative mosquito control approaches."
+ },
+ {
+  "id": "b10222e9-8ddd-4390-ad92-4cbda860c8c9",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Core D: Next-Gen Sequencing and Bioinformatics",
+  "text": "CORE D - NEXT-GEN SEQUENCING AND BIOINFORMATICS\nPROJECT NARRATIVE\nGenomics and Bioinformatics are essential tools in cancer research. Core D provides services in high-throughput\nsequencing and bioinformatic analysis to identify changes in transcription, splicing, and chromatin that drive the\ngrowth and maintenance of cancer. Bioinformatic tools will be continuously developed by this Core to support\nthe evolving needs of the Projects."
+ },
+ {
+  "id": "b106def4-5715-445f-abee-545fc7d987c3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Explaining the contagious nature of measles virus",
+  "text": "Measles virus is so contagious that eradication would require a world-wide vaccination and booster rate of\n>95%, the highest of any human virus. The goal of these studies is to understand why measles virus is the\nmost contagious human virus. Elucidation of the most efficient mechanism of viral host-to-host spread may\nprotect against emerging pathogens or lead to refined intervention strategies in schools or health care\nenvironments."
+ },
+ {
+  "id": "b107043c-f2d0-4ee2-8efa-deb5b0501fde",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of CTCF in Nucleotide Excision Repair",
+  "text": "Cells have DNA repair mechanisms, like nucleotide excision repair, to detect and fix various types of DNA\ndamage. This project aims to understand how the architectural protein CTCF helps facilitate nucleotide excision\nrepair within the complex 3D structure of the cell's nucleus. The outcome of the proposed project will have the\npotential to inform the development of strategies for treating diseases associated with impaired DNA repair."
+ },
+ {
+  "id": "b107266b-d4ce-4a0e-b639-c569eea23042",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of Protein MRI Contrast Agent for Precision Imaging Lung Fibrosis   1R61HL173984-01",
+  "text": "Narratives\nOur proposed studies for development of novel collagen targeted MRI contrast agent will have a strong impact\non lung fibrosis patient care and clinical research by distinguishing IPF patients who are experiencing rapid\nprogression from those who are stable. It fills in major medical gaps, including guiding treatment strategies\ndesigned to reverse fibrosis, monitoring treatment of high-risk patients with fibrosis, and preclinical drug\ndiscovery to reduce collagen expression. It will allow us to understand the molecular mechanism of fibrosis\ninitiation and progression, and key factors that contribute to lung fibrosis, including public health issues related\nto e-smoking and COPD."
+ },
+ {
+  "id": "b108c751-0620-4093-8721-0fd1333ba43e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Research Program: Cancer Risk and Control (CRiC)",
+  "text": "CANCER RISK AND CONTROL PROGRAM (CRiC) The Cancer Risk and Control (CRiC) Program identifies disparities in population-based cancer risk and outcomes, creates behavioral interventions to improve outcomes, and develops implementation strategies to diminish morbidity and mortality from cancer. The CRiC Program’s aims to: 1) Discover the individual, molecular, structural, and community factors that impact cancer risk and outcomes across the cancer continuum; 2) Develop behavioral interventions to mitigate cancer risk and improve cancer outcomes; and 3) Implement programs that positively impact health systems and develop strategies towards improving quality of life in cancer survivors. CRiC members have generated paradigm-shifting findings that have enabled application of scientific advances to the translational pipeline, resulting in changes in public health policy and improved standards of care in the clinical setting. CRiC promotes transdisciplinary research through inter-programmatic collaborations with members in the other three Programs of the Sidney Kimmel Cancer Center (SKCC). The scientific findings of CRiC inform interventional studies that address the high incidence and mortality of the top cancers identified in the SKCC strategic plan that is facilitated by partnership with COE. Members are highly engaged in the development of trainees through multiple mechanisms including conference presentations and a pipeline research program. The CRiC Program is led by Nicole Simone, MD, and Terry Hyslop, PhD, who provide complementary expertise in behavioral interventions to improve cancer outcomes, and the development of computational frameworks in the study of cancer, respectively. To capture the research strengths across the consortium, the Program assembles 33 members from 15 departments across Thomas Jefferson University and Drexel University. CRiC members have successfully published and obtained grant support. Total cancer relevant funding is $15.2 M with $5 M from NCI and a further $5.8 M from other NIH institutes and DOD. CRiC has published 867 cancer-relevant research articles of which 18% are intra-programmatic, 17.7% are interprogrammatic, and 49.9% are collaborative with other NCI-designated Cancer Centers. Important discoveries have been published in high-impact journals including J Clin Oncol, N Eng J Med, and Lancet Planetary Health. CRiC aims to make an immediate and major impact on population health, quality of life, and survivorship across the catchment area. The CRiC Program’s future directions are aligned to the SKCC strategic plan, IMPACT PHL. Future goals are to: 1) Enhance programmatic approaches into new areas of research; 2) Increase community member-informed research to address catchment area needs; and 3) Recruiting members focused on social and contextual factors influencing cancer outcomes, healthcare access, and associated policies."
+ },
+ {
+  "id": "b10b60e9-5cdf-4595-9d33-bec5ee7fe418",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The role of autophagy in B cell tolerance",
+  "text": "This proposal will investigate how two specific defects in autophagy, a process of cell disposal of waste\nproducts, are involved in the formation of autoantibodies to the nucleic acids RNA and DNA in B lymphocytes\nin the setting of the autoimmune disease Systemic Lupus Erythematosus (SLE). We will investigate how the\nautophagy pathway interacts with the “cell danger” pathway that recognizes nucleic acids and how the two\nautophagy components under study regulate this pathway."
+ },
+ {
+  "id": "b1105175-0cdd-4c43-9f15-7990b493a16d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "ePACE: automation platforms for adaptable and scalable continuous evolution of biomolecules with therapeutic potential",
+  "text": "We have developed methods to evolve proteins continuously in the laboratory toward new biological activities.\nThese methods offer tremendous potential for evolving next-generation gene editing tools and protein\ntherapeutics to treat human diseases; however, they are limited by technical barriers that negatively impact their\nsuccess rate, efficiency, and broader application. To address these limitations, we propose to develop powerful\nautomation technologies that will dramatically increase the speed, scale, and wider adoption of these methods,\nand to use the resulting technologies to evolve two classes of proteins with therapeutic potential."
+ },
+ {
+  "id": "b1141f80-864f-403e-819d-b49d8bde425b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Immediate early events of the HPV life cycle",
+  "text": "Human Papillomaviruses (HPV) infect keratinocytes in the skin and mucosa and induce tumors such as cervical\ncarcinoma. Using a recently established infection model, we studied how HPV establishes infection. Studies\nproposed herein will focus on how infected cells maintain viral genomes and study the role of cellular pathways\nand viral oncoproteins in this process."
+ },
+ {
+  "id": "b117ca38-4039-43ac-9484-c727d3445954",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A Phase I Open Label, Dose Escalation Clinical Trial Assessing the Safety, Tolerability, and Feasibility of pNGVL4aCRTE6E7L2 HPV DNA Vaccine Administration Via Intramuscular TriGridTM Electroporation",
+  "text": "Human papillomavirus (HPV) type 16 infection causes 50-60% of all cervical cancers (and ~90% of other HPV-\nassociated anogenital and oropharyngeal cancers); HIV co-infection or immunosuppression after organ\ntransplantation increases risk for these cancers. Here we test a candidate therapeutic and preventive vaccine\nfor treatment of HPV16+ cancer precursor lesions in HIV+ and HIV- women, including HIV- patients waiting for\na kidney transplant."
+ },
+ {
+  "id": "b11a45a2-b74b-44fd-a359-0dd45be50b8f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "OutFlowGen: One-Time CRISPR Therapy for Glaucoma",
+  "text": "Glaucoma is a leading cause of irreversible vision loss, and many people struggle to adhere to daily pres-\nsure‑lowering eye drop prescriptions. This project develops a one-time non-viral, lipid nanoparticle gene editing\ntreatment placed into the front of the eye to lower intraocular pressure, removing the burden of daily medication.\nThis one-time therapy has the potential to prevent vision loss, reduce the need for surgery, and improve the\nquality of life for millions of people living with glaucoma."
+ },
+ {
+  "id": "b11aa63a-c3de-4021-bf22-a41490135d5e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Lupus nephritis: novel insights in the pathogenesis and treatment",
+  "text": "Overall Narrative\nLupus nephritis is a serious manifestation of systemic lupus erythematosus. Through this\nproposal we seek to better understand the involved processes, produce reliable biomarkers and\nadvance precision medicine to better the lives of people with lupus nephritis."
+ },
+ {
+  "id": "b11b6417-a10d-4b7b-bb52-09d72edb2562",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Regional Oncology Research Center",
+  "text": "Cancer is a leading cause of death in the United States and throughout the world. Given the tremendous medical advances over the past 50 years since the National Cancer Act of 1971, the United States population's life expectancy has dramatically increased, but because the incidence of most cancers increases with age, cancers have become an even more profound challenge to the United States health care system. To meet these challenges, dedicated cancer research at the SKCCC and elsewhere has generated fundamental insights into the molecular mechanisms that cause human cancers to arise, progress and threaten life, which create new opportunities to improve screening, detection, diagnosis, prevention and treatment."
+ },
+ {
+  "id": "b12311d7-5cc8-41ec-be2d-0810ac3e7eca",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Bioanalytics and Proteomics Shared Resource",
+  "text": "CORE 003 – BIOANALYTICS AND PROTEOMICS SHARED RESOURCE \nPROJECT NARRATIVE \nPer the PAR-13-386 FOA, the project narrative is not applicable for the Bioanalytics and Proteomics Shared \nResource."
+ },
+ {
+  "id": "b12574a3-2ecc-48a1-83dc-822402a6fab8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Exploiting Epigenetic Reprogramming of NGFR/NTRK Signaling in CARM1-Deficient Glioblastoma",
+  "text": "Glioblastoma is a deadly brain cancer that is resistant to treatment and driven by aggressive tumor stem cells.\nThis project will investigate how a specific protein, CARM1, controls the behavior of these stem cells by\nmodifying the transcription factor NFIA that regulates gene expression. Understanding this process will suggest\nthat existing FDA-approved drugs could make brain tumors more responsive to targeted therapies."
+ },
+ {
+  "id": "b126b18a-a1de-46de-b8e7-458d3e5c92a2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Advancing CRISPR-Based Genome Editing Strategies for managing Aedes aegypti mosquito populations",
+  "text": "Aedes aegypti mosquitoes transmit deadly diseases to humans caused by various viruses, including dengue,\nZika, and yellow fever. The use of insecticides has helped reduce their incidence, but these diseases still pose\na significant health and economic burden in disease-endemic countries. In this context, we will develop novel\ngene-editing technologies for mosquito population control, thereby expanding the available toolkit to combat\ndengue disease and others."
+ }
+]

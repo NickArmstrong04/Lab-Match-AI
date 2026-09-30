@@ -1,0 +1,142 @@
+[
+ {
+  "id": "4eba82b4-a017-46e6-b444-60502964fbfa",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Use of Digital Phenotyping to Understand Digital Media Influence on Adolescent Substance Use",
+  "text": "Adolescent-onset substance use disorders are linked to poorer psychosocial outcomes and are predictive of\nmortality in early adulthood. For this reason, it is important to identify social and environmental factors that\nincrease an adolescent’s risk of using substances and address those factors in clinical guidance and treatment\nplanning. This study proposes the use of digital phenotyping technology to examine the complex and growing\ninfluence of digital media, including online exposure to substance-related content, on adolescent use and\nprocurement of drugs and alcohol."
+ },
+ {
+  "id": "4ebe7c9d-8022-4a81-92d8-2ae1029628d6",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Core F: Induced Pluripotent Stem Cell Core",
+  "text": "PROJECT SUMMARY - INDUCED PLURIPOTENT STEM CELL (CORE F) Genome wide association studies (GWAS) have identified over 80 loci and candidate genes that are associated with altered risk of developing late-onset Alzheimer’s disease (AD). Similar approaches are also increasingly being used to identify loci associated with many other AD-Related Disorders (ADRD). Yet, precisely how these candidate genes impact the function of human cells to either promote or protect against the development or progression of AD/ADRD remains unclear. One promising approach that is increasingly being used by many in the field to examine such questions involves the use of induced pluripotent stem cells (iPSCs), which can be generated from control, AD, and ADRD participants and then differentiated into the key brain cells implicated in AD/ADRD. In 2013, the UCI Alzheimer’s Disease Research Center (ADRC) became the first Center in the network to establish a dedicated iPSC Core. Since then, the iPSC Core has generated over 400 AD/ADRD- related iPSC lines, including >120 CRISPR-edited isogenic pairs, and disseminated this unique resource to over 71 research groups around the world. In the current application, the iPSC Core will continue to embrace new advances in AD/ADRD genetics and CRISPR gene editing to generate and distribute additional highly unique iPSC lines generated from participants within the ADRC’s Clinical, Oldest-Old, and Down Syndrome Cores. Through four specific aims, the iPSC Core will employ innovative genetic studies and genome engineering to facilitate the study of genetic AD/ADRD risk factors across special populations (Aims 1, 2, 3), collaborate with AD/ADRD researchers worldwide (Aims 1-4), and educate the research and lay communities about the exciting scientific applications and implications of AD/ADRD iPSC research (Aim 4)."
+ },
+ {
+  "id": "4ec0f72b-bceb-4921-a2bc-58247fb7316f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Interrogating a novel axis of tumor suppression in small cell lung cancer",
+  "text": "Small cell lung cancer (SCLC) exhibits heterogeneity in genetic alterations and transcriptional features which\nimpact tumor progression/therapy response and, thus, are critical to understand. We performed functional\nscreens that revealed genes in the SAPK/AP-1 pathway as exhibiting tumor suppressor activity in SCLC, a\nfinding that we validated in vivo. Using cellular and in vivo models, we interrogate roles for this pathway in the\nbiology of SCLC and we will complement the functional studies with analyses of human data to link alteration in\nthis pathway to clinical responses."
+ },
+ {
+  "id": "4ec742df-d13b-4509-a554-fa11ac925fa5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Disease Modeling Unit",
+  "text": "6. ABSTRACT - Disease Modeling Unit (DMU) Up to 50-70% of patients with suspected genetic disease remain undiagnosed, and even when genetic testing is diagnostic, 90-95% of rare genetic disorders have no therapies. The knowledge gaps associated with undiagnosed diseases have solutions in genome modification technologies and model organism research, which can produce animal models that mimic human disease-associated variation. Among the available model organisms, Drosophila melanogaster (fly) and Mus musculus (mouse) have proven to be important tools for aiding in the interpretation of variants identified in human exome and genome data. Based on the experiences of the BCM Center for Precision Medicine Models (CPMM), fly and mouse models can successfully support new disease gene discovery by providing key data supporting variant pathogenicity, genetic mechanism, and phenotype association. Similarly, the CPMM has also demonstrated that fly and mouse models provide critical tools for discovering biomarkers of disease and performing pre-clinical assessment of new therapeutic strategies. The CPMM Disease Modeling Unit will continue to use genome modification techniques and phenotyping workflows developed by our animal modeling programs to (1) produce precision mouse and fly models that recapitulate human disease-associated variants and (2) validate variant-disease associations, identify disease mechanisms, and test putative interventions in fly and mouse models. The Unit will employ established phenotyping workflows and capabilities of BCM core facilities, as well as specialized capabilities of submitting investigators, to perform modeling studies. The Unit will use “omics” analysis, data curation, and data reporting infrastructures developed by the Bioinformatics Section. When submitted variants are selected for modeling, the Unit will work closely with the Resource and Service Section and the submitter to develop project plans, monitor project progression, and manage animal resources. Informatics tools developed by the Bioinformatics Section will be used to assist with study planning, monitoring, and data collection, and data sharing. These goals will be achieved through the following specific aims: (1) Participate in the review of variants submitted to the Center, (2) Produce and phenotype precision fly models of human disease variants, and (3) Produce and phenotype precision mouse models of human disease variants."
+ },
+ {
+  "id": "4ec9ddc9-ab95-4879-8086-0cf7d21075d4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Neuron-specific modulation of gene expression using systemically administered bispecific antibody-ASO conjugates",
+  "text": "The goal of this proposal is to improve the delivery of agents that increase or decrease gene expression – which\nare named anti-sense oligonucleotides – in a selective and non-invasive manner to neurons in the brain. This\nresearch will involve conjugating anti-sense oligonucleotides to binding proteins (antibodies) that penetrate the\nblood-brain barrier, target proteins on neurons, release their conjugated agents after cellular internalization, and\nmodulate gene expression. Successful completion of this research would enable a broad range of fundamental\nneuroscience and therapeutic applications, including treating diseases such as Dravet syndrome and other brain\ndisorders."
+ },
+ {
+  "id": "4eceadc8-ae9c-4ddb-9962-ca1d8aaf23a4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms and Prognostic Value of Ictal Onset Patterns for Epilepsy Neurostimulation",
+  "text": "Responsive neurostimulation (RNS) is a brain implant for patients with drug-resistant epilepsy that delivers\nelectrical stimulation to the seizure onset zone. However, seizure reduction after RNS placement can vary\nwidely, and up to 25% of patients have little to no benefit. The goals of this study are to explore the underlying\nmechanisms that give rise to ictal onset patterns (IOPs), determine their use in predicting outcomes after RNS\nplacement, and train artificial neural networks to classify IOPs automatically."
+ },
+ {
+  "id": "4ed728c4-1d64-457c-be08-d1c51edcc711",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Characterization of seasonal CoV immunity and operationalization of a novel controlled human infection model for the betacoronavirus OC43",
+  "text": "For both SARS-CoV-2 and influenza the difficulty of inducing long-lasting immunity that can protect against\nevolving viruses continues to complicate vaccine design. My proposed research will provide a functional assay\nto evaluate seasonal CoV immunity, characterize of the diversity of influenza mutations after a controlled\nhuman infection, and develop a protocol for a seasonal CoV controlled human infection model. These tools are\nnecessary to advance the development of a controlled human infection model with the seasonal CoV OC43,\nwhich will provide an efficient mechanism to evaluate broadly protective CoV countermeasures."
+ },
+ {
+  "id": "4edb77e7-8147-455d-95bb-d6a5da9ff0f6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of cancer mutations",
+  "text": "In this project, we will employ new methodologies for DNA damage analysis with the goal of mapping\nspecific DNA damage genome-wide and at the nucleotide level of resolution. The first and second Aims will\napply the new methodology for testing hypotheses that two specific types of DNA damage are linked to\nmutational signatures in human liver cancers and esophageal cancers, respectively, and the last Aim is\ndevoted to understanding the mechanisms of tobacco carcinogen-induced mutations."
+ },
+ {
+  "id": "4edf6ed4-a4c2-464b-8d85-443b01e59fec",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Probing citrate metabolism in tumor and immune cells in diffuse midline gliomas",
+  "text": "Diffuse midline gliomas (DMGs) are a devastating and lethal form of brain cancer in children. Our proposal will\nunravel vulnerabilities in glucose metabolism in DMGs that can be exploited for therapy and for imaging early\nresponse to therapy. Upon clinical translation, our studies have the potential to improve outcomes and quality of\nlife for children with this pernicious form of cancer."
+ },
+ {
+  "id": "4eeb4125-802f-4e94-8b99-ef5db00b8c82",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Proteomics and Metabolomics",
+  "text": "PROTEOMICS AND METABOLOMICS CORE B NARRATIVE\nThe use of state-of-the-art proteomics, metabolomics, and imaging mass spectrometry technologies in the\nthree Projects will identify protein, lipid, and metabolite changes in gastric cells and bacterial cells that play\nimportant roles in gastric cancer."
+ },
+ {
+  "id": "4ef70a83-6dd1-4f71-b896-c40b39fe0a19",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Renal endothelial cell signaling following viral priming in sepsis-associated acute kidney injury",
+  "text": "Sepsis is a substantial public health concern with significantly worse outcomes in patients who develop sepsis-\nassociated acute kidney injury. A key driver of kidney injury in sepsis is the propagation of systemic inflammation\nto renal vascular endothelial cells via direct contact, which subsequently alerts the renal tubules responsible for\nthe essential functions of the kidney and recruits immune cells that inflict additional injury. The intent of this\nproposal is to uncover mechanisms of renal endothelial and tubular injury in a common, yet understudied, form\nof sepsis in order to develop promising new therapies to address this global health priority."
+ },
+ {
+  "id": "4f001fe5-5059-4ebe-97e3-dec01c2e20fb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dopamine D2 Receptor Activation Dynamics and Function in Cocaine Use Disorder",
+  "text": "Cocaine use disorder (CUD) poses a serious public health concern and is driven by persistent dysregulation of\ndopamine and its receptors within the mesolimbic reward pathway. The overall goal of this proposal is to define\nthe relationship between the dynamics of dopamine D2 receptor (D2R) activation and function in CUD. This\nresearch will enhance our understanding of the role of D2R in CUD to inform the development of novel\ntherapeutic interventions, and potentially provide a framework to uncover the role of various neuronal receptors\nin health and disease."
+ },
+ {
+  "id": "4f126b6b-3e3f-4cd4-8cc1-91a7ade4b814",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "HIV Virology Core",
+  "text": "HIV Virology Core To support the needs of the three PCHPI projects, recipients of Collaborative Development Awards, and external collaborative projects, we will establish an HIV Virology Core (HVC). The primary missons of the HVC will be to test hypotheses resulting from new structural information generated by the center projects and to drive studies that are complementary to the proposed structural work, as detailed in the project descriptions. The HVC will achieve these goals by performing functional studies of HIV-1 using a battery of assays and tools of the trade. Three groups, led by experienced investigators, will contribute to the effort: Chris Aiken (specializing in assays of HIV-1 replication; purification and analysis of HIV-1 cores; functional studies of HIV-1 mutants; and assays of endogenous reverse transcription); Alan Engelman (specializing in functional studies of HIV-1 integration, including deep sequencing analysis of integration sites; gene knock-out and recoding knock-in experiments to anlyze effects of cell mutations on HIV-1 infection, with an emphasis on nuclear entry and integration defects; quantitative assessment of virion morphology by transmission electron microscopy; and work with primary human cell cultures); and Zandrea Ambrose (specializing in single-cycle infection assays; in vitro analysis of single-particle uncoating; staging of HIV-1 infection defects; and cell-based imaging studies of HIV-1 ingress, including intracellular trafficking, gene knockdown/knockout of trafficking proteins, and infections of primary cells). The HVC will be collaboratively managed by Aiken and Engelman, an arrangement that has served the PCHPI well and will ensure that the Projects are appropriately supported."
+ },
+ {
+  "id": "4f18291e-9e46-4dbc-8703-da297eef0eda",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Understanding of mutant splicing factor-derived novel protein isoforms in clonal hematopoietic disorders and antigen presentation.",
+  "text": "Mutations in genes encoding RNA splicing factors are the most common class of genetic alterations in patients\nwith myelodysplastic syndromes (MDS). In order to understand the functional connection between these\nmutations and MDS development, we conducted a high-throughput in vivo screen of aberrant RNA isoforms\ninduced by these mutaitons which created stable protein isoforms. Our preliminary data identify that mis-\nsplicing of the enzyme SPPL2A, critical for MHC II antigen presentation, drives MDS development and our\nproposal will investigate the hypothesis that specific mis-spliced RNA isoforms modulate immune-MDS\ninteractions to promote MDS development."
+ },
+ {
+  "id": "4f198cfd-0af5-426f-8ad8-fddadfcfb218",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Single molecule and biophysical studies of nucleic acid remodeling",
+  "text": "Accurate assembly and timely departure of CRISPR-Cas9 particles are critical for effective genome\nediting and future therapeutics. Chromatin remodelers and mismatch repair machinery are important\nfor gene regulation and genome maintenance. High resolution, dynamic studies of CRISPR-Cas9,\nchromatin remodelers and DNA mismatch repair will help us improve genome editing applications and\ndesign therapeutics for diseases that are caused by defects in chromatin remodeling and DNA repair."
+ },
+ {
+  "id": "4f1abc95-be0f-444d-b5ba-bfaf9be1ed57",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Core B: High Throughput Biology",
+  "text": "The objectives of Core B are to provide technical expertise in scaled recombinant protein\nproduction and high-throughput chemical and genetic screening to identify small molecule\ninhibitors of key molecular targets and genes that regulate signaling pathways, and phenotypes\nassociated with cellular senescence and age-related pathologies in tissues, including the pro-\naging senescence-associated secretory phenotype (SASP). These objectives will be completed\nin a centralized laboratory under the direction of an experienced core leader and highly trained\ntechnical staff in these approaches, which enable central hypotheses of this program project to\nbe tested and facilitate long-term programmatic interactions."
+ },
+ {
+  "id": "4f23fe26-65ee-4849-a23d-250486fc98c0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Biology of Subgenomic AAV Vector Particles",
+  "text": "Hemophilia A is an X-linked bleeding disorder caused by hereditary defects in the F8 gene (encoding coagulation factor VIII, FVIII), which affects approximately 1 in 5000 male births worldwide. Clinically, hemophilia A is manifested as a severe bleeding phenotype that typically requires costly protein replacement therapy. The recent development of a gene therapy holds the promise of curing hemophilia A. Although the outcome of clinical trials using AAV vectors for hemophilia A has been encouraging, Adeno-associated virus (AAV)-mediated delivery of FVIII has not yet received regulatory approval. Major hurdles persist since there are concerns on gradually decreasing levels of FVIII in circulation as well as clonal hepatocellular expansion in long-term studies in a canine model, which raises concerns over genotoxicity or even cancer formation when using AAV vectors for human gene therapy. Current AAV-FVIII gene delivery strategies (AAV-F8) follow a standard design, in which a mini- promoter is used to drive F8 expression with two flanking ITRs. Nevertheless, clinical-grade vectors produced were reasonably homogenous based on Southern blot analysis of vector genomes. Our new studies however, using single molecule sequencing (SMRT), have uncovered a broad complexity of vector population that has been missed using conventional methods of analysis. One notable subgenomic vector particle contains the snapback genome (SBG), which may lead to dsRNA production in the host cells. For other SBGs having only the promoter sequences, they run the risk of promoting oncogenic readthrough, which may be a substantial safety concern. The central hypothesis of this project is that the combination of trans factors such as host cellular proteins, viral helper functions and cis elements such as vector nucleotide compositions lead to SGP formation. Therefore, a comprehensive mechanistic understanding of how these factors mediate SGP formation will be essential for the development of new a vector production platform with reduced/eliminated SGP particles and for the design of strategies to control and manage the potential hazards of SGP. To achieve these goals, we will pursue the following aims: 1): To define the roles of trans factors in subgenomic particle formation; 2) to define the role of vector genome composition in subgenomic particle formation; and 3) to develop strategies to reduce/eliminate subgenomic particle formation."
+ },
+ {
+  "id": "4f262d55-9292-49d9-a06f-a0397bcc42b9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Physiological Dissection of the Mevalonate Pathway",
+  "text": "The intestine is a critical interface that controls the balance between cholesterol absorption and excretion from\nthe body. The functional importance of de novo cholesterol synthesis by enterocytes and stem cells in the\nintestine is poorly understood. This project will determine the mechanisms by which genetic loss of cholesterol\nsynthesis increases stem cell proliferation and promotes cholesterol excretion from the body."
+ },
+ {
+  "id": "4f286459-055a-4f00-8ad6-527693b5958b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of mitochondrial dynamics in rod photoreceptor cells",
+  "text": "While regulation of the shape and form of the energy generating organelles, mitochondria,\nthrough fission and fusion (mitochondrial dynamics) is linked to a variety of complex cellular\nprocesses, the exact relations between mitochondrial form and function are still not fully\nunderstood. In this study, we will examine the roles of mitochondrial dynamics in retinal rod\nphotoreceptor cells that display unique shape and arrangement of mitochondria using mouse\nmodels. Successful completion of this study will provide novel insights into the relationship\nbetween mitochondrial form and function as well as the functional significance of mitochondrial\ndynamics in the retinal health, and may suggest novel therapeutic strategies for retinal\nconditions associated with mitochondrial abnormalities."
+ },
+ {
+  "id": "4f31908e-7020-4738-ae93-f8964b217fe0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identifying the Specific Reward Processes Underlying the Maintenance of Binge-Eating Disorder using EEG and EMA",
+  "text": "Identifying the Specific Reward Processes Underlying the Maintenance of Binge-Eating Disorder using\nEEG and EMA\nPROJECT NARRATIVE\nTheory suggests that food reward wanting processes may serve as key maintenance mechanisms underlying\nthe persistence of binge eating, and preliminary data from our research group partially supports this\nhypothesis. The proposed project will systematically evaluate the role of food rewarding wanting, liking, and\nlearning processes assessed at the neural and behavioral level in relation to binge-eating disorder (BED). The\nknowledge gained from this study will directly inform interventions targeting binge-eating behavior among\nindividuals with BED."
+ }
+]

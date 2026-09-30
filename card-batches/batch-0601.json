@@ -1,0 +1,142 @@
+[
+ {
+  "id": "49c8c747-3556-43f2-b12f-4e4f5cbb11b7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Core D (Multi-Omics Core)",
+  "text": "SUMMARY/ABSTRACT (CORE D) The Multi-Omics Core aims to develop and apply state-of-the-art proteomics and lipidomics/metabolomics technologies with spatial and single-cell resolution to investigate the molecular, cellular, and pathogenic mechanisms underlying APOE-mediated resilience in Alzheimer’s disease (AD). Given that dysfunction in complex cellular and molecular pathways contributes to AD heterogeneity and resilience, identifying clinically relevant biomolecules (DNA, RNA, proteins, and lipids/metabolites) at spatial and single-cell resolution is critical. To address this challenge, Core D will integrate cutting-edge mass spectrometry (MS) technologies with transcriptomic analyses to uncover proteomic and lipidomic/metabolomic alterations. These spatial and single- cell omics assessments will be performed directly on human tissues, human organoids, and mouse and cell models of APOE-mediated disease resilience. To achieve these objectives, we have assembled a highly multidisciplinary team of established investigators in proteomics (Peng) and lipidomics/metabolomics (Han). Both have extensive experience in neurodegeneration research and have generated large-scale MS-based omics data in the previous funding cycle, demonstrating their essential contributions to this U19 team. Core D will continue to innovate and implement the latest proteomics and lipidomics/metabolomics strategies to support and enhance all U19 components. The proposal includes several specific aims to advance multi-tiered platforms for comprehensive analysis of proteome levels and turnover, to develop spatial and single-cell proteomics, largely using laser capture microdissection, to establish spatial lipidomics/metabolomics at single-cell resolution, primarily using imaging MS, and to leverage multi-omics single-cell approaches to elucidate mechanisms of APOE-mediated AD resilience. Overall, this Core will develop and provide spatial and single-cell MS-based multi- omics approaches for discovering novel, crucial APOE-related mechanisms of resilience during AD pathogenesis in this U19 renewal."
+ },
+ {
+  "id": "49d12c61-1c5b-46b6-ab56-b2389c489df1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Machine learning for identifying antigen-antibody interactions from massive sequencing data",
+  "text": "The project aims to utilize machine learning to understand and predict antigen-antibody interactions, potentially\nleading to diagnostic and therapeutic advancements in immune-related diseases. By developing deep learning\nmodels for the binding of antigens and antibodies, and leveraging multiplexed scRNA-seq/BCR-seq data, the\nteam aims to overcome the limitations of current experimental methods and bridge the gap between\nbioinformatics and immunology. Their multidisciplinary approaches and expertise in data science and\nimmunology will significantly impact the development of diagnostic tools, therapeutic antibodies, and vaccine\nstrategies for diseases involving humoral immune responses."
+ },
+ {
+  "id": "49d89780-8078-4802-a0d4-ef693fc77b9b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "SCH: Individualized learning and prediction for heterogeneous multimodal data from wearable devices",
+  "text": "The proposed project will have potentially profound impacts on applying mobile health and artificial intelligence to address health disparities in the U.S. By harnessing deep learning capabilities for extracting predictive features and integrating prior domain knowledge to define human-interpretable states, our proposed research will create a new framework for analyzing individual health data and understanding how reducing individuals’ stress, increasing physical activities, maintaining healthy glucose levels, and improving sleep patterns could effectively reduce cancer-related risk factors. The project will also provide fundamental and rigorous solutions for handling common challenges in mobile health data analysis, addressing issues such as irregular data collection, multi-resolution data features, and subject heterogeneity."
+ },
+ {
+  "id": "49e35925-df47-41e9-b530-46df091b6988",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Research Training in Vision Science",
+  "text": "Blinding diseases are some of the most devastating health concerns in the United States. This training program\nseeks to produce independent investigators capable of sustaining productive, innovative, independent research\nprograms in the vision sciences. These new scientists are expected to generate discoveries in the underlying\nmechanisms of vision and associated pathologies, and to help develop treatments for these diseases."
+ },
+ {
+  "id": "49e39822-1bf2-4c47-a2b5-6d0f8e159b9f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Integrative physiology of the organismal osmotic stress response",
+  "text": "Osmoregulation, or maintenance of salt and water balance, is one of the most aggressively\ndefended physiological setpoints in biology and plays significant roles in many diseases, including\ndiabetes, stroke, kidney disease, and hypertension. The molecular mechanisms that animals\nutilize to coordinate osmoregulation within and between tissues, including the nervous system,\nare poorly understood. Using unbiased genetic screening methods, CRISPR gene editing, and\nsophisticated neurobiological approaches in C. elegans, our research is providing important new\ninsights into the conserved mechanisms and inter-tissue signaling mechanisms governing this\nessential biological process."
+ },
+ {
+  "id": "49e833f4-446c-43ad-bcb9-fb6107f06e8e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Core A - Administrative/Statistics Core",
+  "text": "CORE A – PROJECT NARRATIVE\nIn this multi-investigator Program Project Grant (PPG), seven science laboratories at the University of Wisconsin\npursue research to understand how viruses cause human cancer and to discover ways to prevent and treat these\ncancers. The Administrative Core provides two important services to the PPG. First, it provides oversight, as\nwell as administrative and financial support to ensure that the science proposed can be carried out. Second, it\nprovides expertise in statistics and bioinformatics to ensure that conclusions drawn are valid and to discover new\ninsights based upon the analysis of high-dimensional genomics data."
+ },
+ {
+  "id": "49ea9d64-4659-426d-afdd-1a4c065531a2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Defining and Targeting Mechanisms of the Neurolysin-KIF11-WNT3A Axis Driving Therapy Resistance in Prostate Cancer",
+  "text": "Resistance to current AR-targeted therapies poses a major challenge in treating advanced Prostate Cancer\n(PCa), significantly worsening clinical outcomes for patients with this lethal disease. Neurolysin deficiency,\nobserved in 30% of PCa cases, leads to the release of the motor protein KIF11, which drives ectopic WNT3A\nsecretion into the tumor microenvironment (TME) and activates WNT signaling, ultimately conferring resistance\nto AR-targeted therapies. This project will define the molecular mechanisms by which PCa autonomously\nremodels the TME to escape therapeutic pressure through the Neurolysin–KIF11–WNT3A axis and translate\nthese insights into biomarker-driven and mechanism-based therapeutic strategies, laying the foundation for\nrational combinations that can overcome resistance and improve outcomes for patients with advanced PCa."
+ },
+ {
+  "id": "49eb8268-6360-49f4-b8b6-40943e5c2036",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Continuous in vitro culture and genetics of Plasmodium vivax in a bespoke blood cell bioreactor",
+  "text": "Studies on malaria caused by the parasite Plasmodium vivax would greatly benefit from continuous culture of\nthe pathogen in infected red blood cells. We will use a combination of optimizing red blood cell production,\nculture medium, and control of the environment using a custom-made bioreactor, all together to achieve\ncontinuous culture. Once continuous culture is established, we will develop genetic tools for P. vivax to further\nenhance its ability to proliferate in red blood cells.\n01/09/2024"
+ },
+ {
+  "id": "49ebd432-00b1-4bc3-97e1-2324f8742343",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Animal Model Shared Resource",
+  "text": "Program Director/Principal Investigator (Last, First, Middle): Chu, Edward \nANIMAL MODEL SHARED RESOURCE - PROJECT NARRATIVE \nPer PAR-21-321, a Project Narrative is not required for this Component. \nOMB No. 0925-0001/0002 (Rev. 03/2020 Approved Through 02/28/2023) Page"
+ },
+ {
+  "id": "49f269e5-1e65-430a-984e-f5811d9fbe69",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Diagnostic Innovations in Glaucoma Study (DIGS):  Glaucoma and High Myopia",
+  "text": "The overall goal of “Diagnostic Innovations in Glaucoma Study (DIGS): Glaucoma and High Myopia” is to\nimprove our understanding and detection of progressive glaucoma in patients who are particularly challenging\nto correctly diagnose with the disease, individuals with high myopia. The prevalence of myopia is increasing\nrapidly and Individuals with high myopia are at a higher risk of developing glaucoma. With its extensive\nlongitudinal structural, functional and vascular testing and deep learning analysis strategies, this study will\nenhance our understanding of the complex relationship between structural, functional and vascular changes in\nglaucoma and improve our ability to manage the disease and prevent glaucoma-related functional impairment\nand blindness in individuals with high myopia."
+ },
+ {
+  "id": "49f72ae7-d8e0-419c-8dc6-b8a5b209714a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Harnessing the In Vitro Selection for Activity-based Proteomics and Chemical Probe Development",
+  "text": "DNA-encoded chemical libraries and DNA-encoded enzyme activity probes are new approaches to facilitate\nbiomedical research by uitilizing the power of DNA analysis techniques. Advancing these techniques, particularly\nfor medicinal chemistry applications, will provide useful tools for researchers for biological discovery and in the\ndevelopment of new therapeutics.\n1"
+ },
+ {
+  "id": "49fbdf4f-3bfd-479c-a7b0-d76fc46fc384",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "X-chromosome Inactivation Catalyzed by Genes that Escape X-inactivation",
+  "text": "This proposal is relevant to public health because it seeks to understand how the X chromosome-encoded\nKDM5C protein regulates gene expression genome-wide in a sexually-dimorphic manner, including\ninvestigating how females with two X chromosomes and males with a single X chromosome equalize gene\nexpression from the X chromosome, independently of gonadal hormones. The proposal is relevant to the part\nof the NIH mission that seeks to advance fundamental knowledge about the nature of living systems."
+ },
+ {
+  "id": "49fc6e70-3d85-45c9-ba1b-7fcdbcaa047a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Bidirectional signaling by FGF proteins",
+  "text": "Bidirectional signaling has been shown for ephrins, semaphorins, and TNFα ligands, but not for fibroblast\ngrowth factor proteins (FGFs). We propose that the Drosophila protein Pyramus serves as a valuable model to\nexplore FGF's role in both canonical forward signaling and non-canonical reverse signaling in the context of\nearly heart development in Drosophila embryos. These insights may lead to a reevaluation of FGF function in\nvertebrates and could inform the development of next-generation synthetic FGFs or targeted therapeutics to\nmodulate signaling with high specificity, ultimately advancing strategies for tissue repair, regeneration, and\ncancer treatment."
+ },
+ {
+  "id": "4a0f8cff-f088-4aaf-8315-36a064cf8777",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Neurobiological mechanisms underlying resiliency and vulnerability to opioid use disorder",
+  "text": "Opioid use disorder (OUD) is a complex multi-symptomatic disorder whereby traits non-linearly interact on an\nindividual basis across the OUD phases influencing vulnerability and resiliency. Using a novel rat model\ncapturing this behavioral heterogeneity present in human OUD, cell- and pathway- specific adaptions underlying\nOUD propensity will be characterized. Work from this proposal will contribute to disentangling the neurobiological\nand behavioral complexities associated with OUD vulnerability, yielding valuable insight into the compensatory\nmechanisms in place to promote resiliency."
+ },
+ {
+  "id": "4a0fdec6-211a-4d5c-856d-4c6a294fe83b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Small Molecule ERG Inhibitors for Prostate Cancer",
+  "text": "The protein ERG is a known driver of prostate cancer. We are proposing to develop small molecule inhibitors of\nERG. Targeted ERG inhibitors have the potential to improve the long-term survival of prostate cancer patients\nwhile reducing side effects from standard-of-care treatments due to less toxicity."
+ },
+ {
+  "id": "4a116bbd-8b40-4682-8fb6-3a8f6e5b1868",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Uncovering the mechanism and significance of Kbhb formation",
+  "text": "We discovered that lysine β-hydroxybutyrylation, a new post-translational modification known as Kbhb, is\nformed through a novel function of class I histone deacetylases in which they reverse the direction of their\nactive site chemical reaction to directly acylate target proteins. We will test how cellular metabolism regulates\nBHB availability to control this protein modification and establish how this modification then contributes to\ncellular adaption to nutrient stress. These studies will uncover the rules and significance of this novel protein\nmodification pathway."
+ },
+ {
+  "id": "4a120db9-416e-4a6b-8ffd-5ce7a603653f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Using genomic modifiers to mechanistically link clonal hematopoiesis of indeterminate potential penetrance to coronary artery disease",
+  "text": "RELEVANCE (See instructions}:\nWhile the poorly understood age-related factors promoting cardiovascular disease {CVD) risk require urgent investigation as the population\nages, recent data establish CVD as the primary cause of the increased mortality in those with clonal hematopoiesis of indeterminate potential\n{CHIP}, which is common in elders {~1 in 10 among >70 years). The aims of this proposal will: discover the germline genetic predisposition\nthat induces CHIP-related CVD to construct CHIP-specific risk model for CVD, prioritize causal mechanisms for CHIP-related CVD, with\nintegrating genomic data and multi-omics data, and dissect the molecular mechanisms for CHIP-related CAD analyzing human specimens\nand combining with population genetics. Successful completion of this study will directly improve the management of CVD risks in CHIP\ncarriers and pave the way for developing direct intervention by revealing mechanisms."
+ },
+ {
+  "id": "4a1cd097-de65-41a5-a191-d76e7071150b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating NEK10 as a myosin light chain kinase",
+  "text": "The proposed research is relevant to public health because genetic mutations in the motor protein Myosin 7A\nresult in debilitating sensory disorders in humans, including the most common form of deaf-blindness known as\nUsher Syndrome. The discovery that the poorly characterized kinase NEK10 is able to regulate Myo7A activity\nis a clear vertical step forward for the field. Knowledge from this proposal may spur therapeutic interventions to\ntreat Myo7A-based sensory disorders."
+ },
+ {
+  "id": "4a21be5c-ff5d-44aa-8794-fa67b6759173",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "HIV Viral Load Testing Using CRISPR Cascade Signal Amplification",
+  "text": "To address the global health concern of HIV/AIDS epidemic, the rapid, simple and affordable HIV\nviral load testing is urgently needed. The project will develop a novel, highly sensitive and specific CRISPR\ncascade signal amplification approach for HIV viral load testing. We will rigorously evaluate its clinical\nperformance in quantifying HIV RNA in clinical samples, enabling the clinical translation of a sensitive,\npersonalized, HIV viral load testing."
+ },
+ {
+  "id": "4a268872-8c0c-40fe-9e75-c62c45d058cd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Epigenetic regulation of embryonic stem cell biology by Tet enzymes",
+  "text": "Embryonic stem cells (ESCs) and induced pluripotent stem cells (iPSCs) hold promise in regenerative\nmedicine by virtue of their ability to give rise to any cell type in our body. Therefore, understanding their\ngene regulation and biology is of paramount significance to our health. ESC properties are regulated by\nepigenetic modifications in the genome that control gene expression. This proposal studies the role of an\nimportant family of epigenetic modifiers (Tet enzymes) and their various enzymatic functions in regulation of\nESC gene expression programs and biology. Our findings will have implications not only for understanding\ngene regulation and ESC biology but also in diseases where Tet enzymes are deregulated."
+ }
+]

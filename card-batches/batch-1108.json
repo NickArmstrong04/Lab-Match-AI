@@ -1,0 +1,142 @@
+[
+ {
+  "id": "fd9fa187-917b-43ed-bc38-aacc7f592938",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Deconvoluting the Ewing sarcoma genetic program using ancestry-informed human iPSC modeling",
+  "text": "Ewing sarcoma (ES) is the second most common bone tumor in children and adolescents. As survival for ES has\nnot improved beyond ~60% in the last few decades, it is critical to understand its molecular underpinnings in order\nto improve therapy. The experiments outlined below represent a novel method for clarifying the molecular\nmechanisms that underlie ES, which if successful would uncover new pathways that could inform the\ndevelopment of novel therapies."
+ },
+ {
+  "id": "fda9549e-9453-4113-a14c-405965e7f063",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Tech Core 2",
+  "text": "Project Summary – Tech Core 2 Spatial tumor heterogeneity plays a critical role in multiple stages of cancer progression and metastasis including the venous invasion that contributes to increased risk of cancer cell dissemination. This process involves spatially distinct interaction between cancer cells and the surrounding microenvironment at multiple sites. In Tech1, PI Wirtz will develop a new 3D multiscale tumor cell mapping method, CODA, which can create a 3D large-scale tumor cell anatomy at single cell level via tissue histology image integration and trained deep-learning semantic algorithms. What is highly desired to further add to this 3D tumor cell anatomic atlas is genome-wide molecular information such as mRNAs and a large panel of proteins for unbiased discovery of cell subtype, state, and interaction, and potentially to infer new mechanisms or targets for therapeutic intervention. TECH2 PI Fan recently developed a novel technology called DBiT-seq for high-spatial-resolution multi-omics mapping via deterministic barcoding in tissue at cellular level (~10µm), whole transcriptome scale (>22,000 genes), high coverage (>2,000 genes per 10µm pixel), and multi-omics profiling (co-mapping of ~300 protein markers), which can be readily applied to FFPE tissue sections and integrated with CODA. In Tech2, we propose the following two aims: AIM 1. A high-throughput, low cost, high quality/coverage, multi-omic mapping method (DBiT-seq) with full compatibility with human PFA and FFPE tissue samples. AIM 2. Integrating CODA and DBiT-seq for 3D multi-omic tumor imaging. Successful completion of these two aims will lead to the first genome-wide multi- omics 3D view of vascular or lymphovascular invasion of human tumors and a powerful technology platform for the consortium to investigate spatial tissue heterogeneity in other human cancers."
+ },
+ {
+  "id": "fdadfd1d-7586-49a7-bc17-594d030ac300",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multiscale Computational Models to Investigate the Role of Phase Separation in Biology",
+  "text": "The formation of biomolecular condensates is emerging as a unifying mechanism underlying the\nformation of many membraneless organelles that perform essential biological functions, such as\ntranscription, genome organization, stress response, and DNA repair. Aberrant phase\nseparation has also been linked to diseases such as a number of sarcomas and\nneurodegenerative diseases, e.g. ALS, Alzheimers, and FTD. Thus, generating a molecular\nframework of phase-separated assemblies is vital to a mechanistic understanding of their\nfunction and dysfunction."
+ },
+ {
+  "id": "fdb3b58b-135b-4c25-a9c5-b915490e726a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Immunogenomics platform for the analysis of cancer",
+  "text": "Cancer remains to be a leading cause of death worldwide despite recent advancements made in therapeutics\nand treatment modalities, which include immunotherapies. The NCI-funded research program of Unit Director\nDr. Timothy Chan seeks to further identify the molecular and genomic drivers of immunotherapy efficacy in cancer\npatients to which I am a singularly essential driver of all computational efforts. The Research Specialist Award\nwill provide crucial support, allowing me to continue my essential work in NCI-funded research projects and to\nsharpen my expertise in bioinformatics to advance the fields of immunogenomics and precision oncology."
+ },
+ {
+  "id": "fdb4e9fd-3b11-4c83-9f27-93ebce266d85",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting EBV super-enhancers",
+  "text": "Epstein-Barr Virus (EBV) associated malignancies remain a significant threat to human health. These studies\nwill elucidate the molecular basis through which EBV super-enhancers activate oncogenic drivers to\nimmortalize normal B lymphocytes into lymphoblasts and identify potential targets for intervention."
+ },
+ {
+  "id": "fdb65eae-2325-47a1-9854-d82f7ffab5e5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Understanding mitochondrial mutations that drive human tissue aging",
+  "text": "The level of mutations in the mitochondrial genome (mtDNA) increases with human tissue aging, offering a\npotential metric of aging and a novel target for intervention; however, the scope and functional consequences\nof these mutations remains unclear due to technical barriers. I will utilize a novel long-read sequencing method\nI developed and published to discover the tissue specific scope of age-associated mtDNA mutations, along\nwith an induced pluripotent stem cell-based system I am developing, to directly test the relationship between\nage-induced mtDNA mutations and progenitor cell dysfunction. This work will provide an extraordinary,\nmentored career development experience and invaluable foundational knowledge for future work to understand\nthe consequences of mtDNA changes in aging and to test data-driven interventions that mitigate these\nchanges."
+ },
+ {
+  "id": "fdb72ae4-ef61-43ae-9cfc-149d54edc260",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Enhanced Imaging using Structured Glass-Ceramic Scintillators",
+  "text": "A novel glass-based material will be developed for radiographic imaging devices. The material has the\npotential to greatly improve radiographic image quality by detecting high energy x-rays more efficiently.\nMedical imaging technologies that will benefit include portal imaging and megavoltage cone-beam\ncomputed tomography."
+ },
+ {
+  "id": "fdc05d4f-f66a-465a-98b3-ec859c37eb02",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Scholars in Oncology Associated Research (SOAR)",
+  "text": "The purpose of this Research Education Training Program, Scholars in Oncology-Associated Research (SOAR), at the University of Chicago Pritzker School of Medicine (PSOM) is to inspire medical students to pursue careers in cancer research through exposure to the full continuum from basic science to translational research and interdisciplinary collaboration needed to provide patient centered care for 21st Century Precision Oncology Care. To this end, we have designed and implemented a 10-week period of intensive research experiences and related training that are not available through other formal NIH/NCI training mechanisms. An overarching goal of this renewal application is to build on our success, enhance the program and further provide educational activities that effectively supports training of a physician workforce to address the rising global burden of cancer and our nation’s biomedical, behavioral and clinical research needs."
+ },
+ {
+  "id": "fdc12787-ec32-426f-99d6-52a14e8f58a6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating the RNA-Regulatory Activities of the RNA Exosome during Human Motor Neuron Differentiation",
+  "text": "The RNA exosome is a ubiquitously expressed RNA-regulatory complex essential for cellular differentiation in\nhumans. Inherited mutations in RNA exosome subunit genes cause devastating neurodevelopmental diseases,\nseveral of which cause severe motor neuron defects. To investigate the role of the RNA exosome in\nneurodevelopment, we will use human motor neurons modeling disease-causing RNA exosome mutations in\nvitro to assess the role of the complex during motor neuron development and provide insight into RNA exosome-\nlinked motor neuropathy."
+ },
+ {
+  "id": "fdc25baf-86f3-405d-9a35-429cdfbcb302",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Generation of human skin organoids from pluripotency",
+  "text": "This project aims to create lab-grown human skin that closely matches the structure and function of skin from\nspecific body regions, such as the scalp, face, and feet. These improved skin models will help researchers better\nunderstand how skin forms, develops hair, and heals wounds, as well as how conditions like hair loss, genetic\nskin disorders, and chronic wounds occur. Ultimately, this research will help develop new treatments and improve\ncare for individuals affected by skin diseases and injuries."
+ },
+ {
+  "id": "fdc62646-60b3-4499-943e-6792ec9343ea",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "New Genes and Adaption",
+  "text": "Mutations that copy and shue pieces of DNA, moving them around the genome often create\nbrand new genes that can be important for adaptation but also for genetic disease. We study\nthese mutations in di erent animals to determine how they sometimes help animals adapt to\nchanging environments but in other cases create harmful variation. An account of how these\nmutations shape long term change in di erent animals will help us understand how and why\nthey in uence disease risk for cancer, autism, asthma, schizophrenia, and infertility."
+ },
+ {
+  "id": "fdcacb48-611e-40ce-8fe1-b6c791ee0f5b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Structure, Turnover and Safeguard of Mitochondria",
+  "text": "Defects in mitochondria structure and function have been linked to human health problems including\nmetabolic syndrome, cardiovascular diseases, and neurodegeneration. This proposal aims to determine\nfundamental mechanisms that control structure, turnover, and safeguarding of mitochondria. The successful\ncompletion of this work will provide major insights into the pathogenesis and treatment of human disease."
+ },
+ {
+  "id": "fdcad134-bee0-46eb-8f7c-55945e2187b6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Utilizing Multi-omics to Facilitate Cancer Biology Research",
+  "text": "This R50 NCI Research Specialist Award will support my ongoing and new bioinformatic developments and\nutilization within the context of the following three NCI-funded projects. (1) Development of Advanced\nPreclinical Models for Pediatric Solid Tumors (R01CA243555), (2) Development of Novel Protein-based\nTherapeutics for Lung Cancer (R01CA225103), (3) Role of Long Non-coding RNAs in Sarcoma Pathogenesis\n(R01CA211657). Software/data sources generated from these projects will be published and integrated into\nother computational workflows and released to the wider public."
+ },
+ {
+  "id": "fdd43fab-036f-4403-8f9b-55b90fa98e1c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular Regulation of LDL Receptor Expression",
+  "text": "The amount of LDL receptor expressed in a person’s liver is a major determinant of his or her lifetime\nrisk of atherosclerotic diseases such as heart attack and stroke. This proposal seeks to define a specific region\nof the noncoding genome that controls LDL receptor expression and that may be targeted as a novel strategy\nto prevent and treat atherosclerotic disease."
+ },
+ {
+  "id": "fdd7801e-9cdd-4496-8750-980ff9d7fba7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Epigenetic control of spermatogonial stem cell self-renewal",
+  "text": "Adult spermatogonial stem cells (SSCs) are the foundation of life-long sperm production in males. Our studies\nfocus on understanding how SSCs are maintained through adulthood and completion of this project will provide\nimportant insights into the regulation of male fertility, the etiology of infertility, and reproductive medicine."
+ },
+ {
+  "id": "fdd7d518-92c7-4be8-936f-c6b1ceb03756",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "CARE4Kids: Imaging Biomarker Core",
+  "text": "PROJECT SUMMARY/ABSTRACT – Imaging Biomarker Core The CARE4Kids Center Without Walls Project aims to discover measurable biomarkers of persistent post- concussive symptoms (PPCS) and use these markers to characterize subgroups (endophenotypes) that will inform prognosis and potential treatment. Advanced neuroimaging offers great promise in revealing how concussion affects brain structure and function, but relatively small sample sizes have limited the reliability and generalizability of imaging studies to date. The overall goal of the Imaging Biomarker Core is to collect state-of- the-art multimodal brain imaging data that is maximally informative about outcomes in children and adolescents with concussion. Multimodal imaging will be collected in the Development Cohort, at baseline only, and used to develop and test models of outcome prediction that will be examined in the Validation Cohort. The neuroimaging protocol is designed to maximize data quality and minimize discomfort for our injured, younger patient population and is based on existing multi-site efforts (i.e., ABCD, UK Biobank) and NINDS imaging recommendations. The Imaging Biomarker Core has the following Specific Aims: Specific Aim 1: Discover which multimodal brain imaging measures best predict clinical outcomes in concussion (separately, and when combined with other biomarkers and clinical measures). Specific Aim 2: Neuroimaging site qualification and training – site qualification using pilot data and coordinated training will prepare sites to collect high-quality data. Specific Aim 3: Collect high-quality multimodal brain MRI – 360 participants will be scanned across 6 sites in the Development Cohort. Specific Aim 4: Ongoing data quality control – ongoing quality control through phantoms, volunteers, and data review will ensure high-quality data that is maximally comparable across sites. Specific Aim 5: Analyze Data: Transfer images and derived measures to the University of Utah Data Coordinating Center (U-DCC) to disseminate to the research community. We will use standardized, validated, publicly-available protocols to process the neuroimaging data. Measures of regional brain volumes, cortical geometry, white matter organization, functional connectivity, perfusion, and neuropathology (i.e., microbleeds and white matter hyperintensities) will be compared between groups and examined for correlation with outcome measures. In addition to these simpler approaches, working with the U-DCC, we will employ machine learning approaches to identify which combination of imaging, demographic, and clinical measures best predicts functional outcome."
+ },
+ {
+  "id": "fdda44b3-4d09-45d0-9a4b-34e443a1702d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Discovery of Antivirals Targeting Mpox Virus",
+  "text": "Mpox is a zoonotic infectious disease caused by Mpox virus, which has been endemic in Africa and has recently\ncaused an ongoing global health emergency involving 100 countries around the world. There are currently no\nFDA-approved drugs that target Mpox virus, and while there are some options available to use repurposed drugs,\nthese antivirals have a low barrier to resistance, resulting in a lack of efficacious drugs for the treatment and\nprevention of Mpox virus. The goal of this project is to utilize exceptional expertise in drug discovery, high-\nthroughput assay development, screening technologies, and mechanism of action studies towards the discovery\nof innovative antivirals that target Mpox virus."
+ },
+ {
+  "id": "fdde7a7d-5c49-4fa9-b36f-d36c12e526b8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "ACR Basic & Clinical Research Conference:  Disrupting the Genetics of Rheumatology:  The Role of Somatic Mutations in Health and Disease",
+  "text": "To foster understanding of disease and development of new therapies for patients with rheumatic diseases, this conference seeks to (1) assemble rheumatology clinicians and researchers in a scientific forum to discuss advances in the disease (2) strategize on research related to new treatments of rheumatic diseases and (3) foster young investigators and fellows-in-training in the research exposure."
+ },
+ {
+  "id": "fde0495d-ffad-4f68-b312-d06ae2e93aff",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Translating Novel Peripheral Nerve Allograft Technologies Toward Clinical Use",
+  "text": "Segmental-loss peripheral nerve injuries are currently rather in-effectively treated with cadaveric nerve\nallografts, stimulating slow regeneration of outgrowing axons with various drugs or other substances. Our\nproposal seeks to investigate and develop potentially synergistic methods of axon fusion and localized\nimmunosuppression of peripheral nerve allografts to circumvent these problems and lead to a new standard of\ntreatment for segmental-loss peripheral nerve defects."
+ },
+ {
+  "id": "fde07594-9521-475c-8726-dd6db598cc0d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Malaria Vector ecology and transmission",
+  "text": "The project goal is to investigate the urban-rural continuum of malaria transmission in relation to vector ecology in urban, peri-urban, and surrounding rural areas of Bamako, Mali. Steps to mount effective malaria elimination programs in African countries are confounded by the resilience of the major vector species in the Anopheles gambiae complex. There are the well-known obstacles due to insecticide resistance and shifts in vector behavior to outdoor residual transmission. However, the challenge of elimination is even more complex and may not be solved even with the addition of new vector control tools. This project, which will be conducted in Mali, builds on data from 15 years of continuous NIH ICEMR support. During this period, there has been a decline in both human and vector transmission indicators following the scale up of core malaria control interventions. These interventions have been primarily implemented in rural settings because of the high malaria endemicity. In contrast, in urban settings of Bamako, there is a low prevalence of Plasmodium falciparum malaria (1-3%), and health facilities report malaria cases diagnosed year-long with a high proportion of severe malaria. This renewal application expends the vector ecology research capacity built in the ICEMR to address key issues related to malaria transmission in urban Bamako and its surrounding areas. Specific Aims include: 1) Determine the contribution of endogenous and exogenous sources of malaria mosquitoes in urban settings; 2) Determine spatial/ temporal concentrations and survival of malaria mosquitoes in urban, semiurban, and surrounding rural areas; 3) Assess insecticide resistance of Anopheline mosquito vectors in different ecological settings, in association with selection pressure regimes and potential impact on malaria transmission. This approach will generate new findings of high public health importance considering accelerating socio-economic and environmental changes in West African cities. Research will detail how future shifts in the species composition of primary and secondary local vector populations will change, especially with the imminent arrival of the invasive Anopheles stephensi. Overall, this project takes a holistic approach to reveal new aspects of vector ecology that impact the complexity and changing epidemiology of malaria parasite transmission in West Africa."
+ }
+]

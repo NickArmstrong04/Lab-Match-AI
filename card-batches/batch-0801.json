@@ -1,0 +1,142 @@
+[
+ {
+  "id": "918e87b3-c7fa-4978-82bd-4c8a4cffae62",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting Host Factors Essential for EBV Episome Persistence",
+  "text": "Epstein-Barr virus (EBV) establishes lifelong infection in humans and is associated with various\ndiseases, including infectious mononucleosis, nasopharyngeal carcinoma, and\nlymphoproliferative disorders. While the EBV genome is stably maintained within infected cells by\nits encoded viral protein EBNA1 and host cellular factors, the host factors involved in this process\nremain largely unknown. This study aims to identify these essential host factors, addressing a\ncritical gap in understanding how EBV hijacks host machinery to sustain lifelong infection and\npotentially revealing new therapeutic targets for EBV-associated diseases."
+ },
+ {
+  "id": "919067e9-6b05-4b4f-acb8-f4fcd530b36c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Linking Variants to Multi-scale Phenotypes via a Synthesis of Subnetwork Inference and Deep Learning",
+  "text": "Being able to characterize the impact of genetic variants on phenotypes is critical for interpreting the roles\nthese variants play in human health and disease. The proposed research will significantly advance our ability\nto predict the impact of genetic variants thereby boosting the effectiveness of genomic analyses ranging from\ngenome-wide association studies for common diseases to diagnostic odysseys searching for genetic causes of\nrare diseases."
+ },
+ {
+  "id": "9193c211-bd5f-42ba-8f13-7e7abb4c2f08",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Structural Biology & Biophysics Core (SBB)",
+  "text": "Structural Biology and Biophysical (SBB) Core The Structural Biology & Biophysics (SBB) Core of the Indiana University School of Medicine Purdue University TaRget Enablement to Accelerate Therapy Development for Alzheimer's Disease (IUSM-Purdue TREAT-AD) Center will help develop high quality lead compounds for novel Alzheimer's Disease (AD) targets. The SBB Core will work in concert with the other Technical Cores to select, produce, characterize, and structurally enable AD targets in support of structure-based drug design for lead optimization. The SBB Core will utilize a two-pronged approach to support the overall goals of the TREAT-AD center. The SBB Core will first characterize the biochemical and biophysical properties of target proteins in the unbound and ligand-bound forms to better understand the kinetics and thermodynamics of ligand engagement with the target. Enzyme kinetic studies, including the use of advanced Desorption Electrospray Ionization Mass Spectrometry (DESI-MS) assays, will be used to determine steady-state kinetic parameters for substrates and ligands. Surface Plasmon Resonance (SPR) will be used to determine ligand-binding kinetics and Isothermal Titration Calorimetry (ITC) and MicroScale Thermophoresis (MST) will be used to determine ligand-binding thermodynamics. Mass Photometry (MP) and size-exclusion chromatography (SEC) with Multi-Angle Light Scattering (MALS) will be used to determine protein quaternary structure and the influence of ligand binding on oligomeric state. Second, the SBB core will work to determine the structures for prioritized targets via X-ray diffraction and/or cryo-electron microscopy. The SBB core will develop approaches and integrated workflow in close collaboration with the MCCB and ADHTS cores for each target protein to acquire data in support SAR analysis and structure-based drug design. The SBB core will also help establish connectivity between molecular design and biological function to enhance understanding of the role of the target proteins in AD processes. The SBB core will work to accomplish these goals and those of the IUSM-Purdue TREAT-AD center through the following Specific Aims: 1) Evaluate the feasibility of nominated protein targets for structure-based design studies, 2) Produce and characterize the biochemical, biophysical, and structural properties of target proteins. 3) Elucidate target structures to guide drug discovery activities."
+ },
+ {
+  "id": "9196054e-e842-4487-be08-cf531307ece6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dissecting enhancer function through integrative genomics",
+  "text": "Enhancers are non-coding regulatory elements modulating gene transcription in human diseases. We will\ndevelop computational methods to dissect enhancer function through data integration and machine learning of\neight epigenomic features across hundreds of human cell types. The findings will fill up missing enhancer profiles\nand generate tools to prioritize enhancers’ impacts in human diseases."
+ },
+ {
+  "id": "91a4caee-fef5-4c80-b951-462465756b46",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Statistical tensor regression models for intracranial aneurysm growth prediction",
+  "text": "The proposed research aims to develop a comprehensive statistical and computational framework to predict the\ngrowth of unruptured intracranial aneurysms (UIA) growth at the 24th month as well as their growth trajecto-\nries over a period of ﬁve years. Successful completion of the proposed research will provide a comprehensive\ncomputational system that will serve as a decision support tool for physicians managing patients with UIA. This\ninformation will also help physicians to assess the rupture risk of intracranial aneurysms, and to develop an\nappropriate plan for longitudinal surveillance based on the unique hemodynamics of a particular patient's UIA."
+ },
+ {
+  "id": "91a66ebb-5405-48b7-9be7-efa35b6d5788",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Project 1: Temporal sequencing in plasma and PET that presage the 'caTAUstrophe'",
+  "text": "Project 1 - Timing the CaTAUstrophe. Recent findings from anti-Amyloid-β (Aβ) trials in early symptomatic Alzheimer’s disease (AD) have demonstrated the value of therapeutic intervention initiated before the rapid spread of neocortical tauopathy (“caTAUstrophe”) that heralds cognitive impairment. Our work using PET imaging in HABS was among the first to demonstrate that rapid neocortical Tau proliferation generally occurs only after Aβ is elevated in preclinical AD. Individual variability in the onset of neocortical Tau accumulation makes it challenging to identify individuals who are at imminent risk for rapid neocortical Tau proliferation. Further work to understand the spatiotemporal heterogeneity of Tau in aging and its relationship with Aβ in the transition to AD is needed to improve screening for current trials and provide a foundation for prevention trials to shift even earlier. We began Tau PET imaging in HABS at the end of the first Cycle with Flortaucipir (FTP), giving us one of the most expansive longitudinal Tau datasets in existence. In the current Cycle, we introduced an Advanced Imaging Cohort (AIC) who have undergone a more intense Tau-PET imaging program with the 18F-MK6240 tracer. Over the next five years, we propose to push the boundaries further by rolling out MK6240 to the entire HABS cohort and pilot testing a state-of-the-art PET/CT tomograph to dive deep into early tauopathy in vivo with more fine- grained anatomical detail than has ever been possible before (see Imaging Core). The overarching goal of Project 1 is to leverage breakthroughs in PET sensitivity and spatial resolution along with recent advances in plasma biomarker assays to go earlier into the spatiotemporal dynamics of Aβ and Tau pathology at the earliest detectable pathological stages of AD. Aim 1 will leverage up to 15 years of previously collected imaging and plasma samples in combination with prospective data acquired with innovative new technologies and methods to examine the joint spatiotemporal trajectories of Aβ and Tau pathologies and improve the prediction of early neocortical Tau accumulation. Aim 2 will focus on the spatiotemporal heterogeneity of MTL Tau in aging and its relationship with Aβ in the transition to AD. Finally, in Aim 3, we will move even earlier in the pathophysiological process to explore the contributions of locus coeruleus (LC) integrity and function to the vulnerability of the MTL region by combining ultra-high field MRI/fMRI (7T) with norepinephrine transporter PET (NET-PET, 11C-MeNER) imaging. Project 1 will contribute to the overall Program goals by providing optimized measures of Aβ and Tau, while collaborating directly with Project 2 to assess the contributions of vascular injury and immune dysregulation to neocortical Tau, with Project 3 to understand cognitive resilience in the face of Aβ and Tau pathology, and with Project 4 using digital tools to enhance detection of the cognitive and functional consequences of emerging pathology."
+ },
+ {
+  "id": "91b66af2-2e04-43f2-b2f0-946252d1cb41",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Integrative Omics Facility Core",
+  "text": "The Omics Facility Core (OFC) assists members in fulfilling the mission of SWEHSC to understand the mechanisms underlying environmental health science (EHS) risks and disease among people living in arid environments by providing high-quality, cost-efficient access to knowledgeable scientists and a full spectrum of modern technologies and techniques. The technologies and techniques within the OFC are used to measure environmental toxicants (exposomics) and their effects on the proteome, metabolome, epigenome, and genome of exposed populations and laboratory models. The OFC is composed of three labs: 1) an exposomic lab providing services to quantitate organic and inorganic toxicants of relevance from diverse matrices such as water, air, dust, bodily tissues, and plants; 2) the proteomics lab providing protein identification, mapping posttranslational modifications, disulfide linkage characterization, peptide sequencing, and biomarker quantitation; and 3) a genomics lab providing next-gen DNA sequencing of whole genomes, exomes, and transcriptomes (RNA-seq), real time RT-PCR, genotyping, fragment analysis, and Sanger sequencing. Finally, epigenomic and metabolomic services including analysis of histone protein modifications, DNA methylation, and quantitation of toxicant metabolites are distributed across the three Omics laboratories based on the analyte and expertise required. The OFC provides Center investigators with prioritized access to state-of-the-art equipment and approaches to achieve the environmental health science (EHS) goals of the SWEHSC. The three Co-Directors of the OFC component labs guide the choice of appropriate analysis, consult on experimental design, manage the analyses and related budget, provide logistical support, provide data interpretation and insight into results, and assist with dissemination of results. Further, the OFC provides training and education to Center investigators’ staff and students to 1) provide access to modern analytic techniques, 2) consult in experimental design and efficient use of resources, 3) ensure services are current through technique development and new equipment acquisition, 4) provide data analysis and interpretation, and 5) assist in the preparation of manuscripts and grant applications. Integration with other SWEHSC resources facilitates the acquisition of omics-level data and information that are necessary to fully determine the sites and modes of toxicant action."
+ },
+ {
+  "id": "91b73ea3-cd2f-4acd-b105-d163c8174ea0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Examining nicotine relapse in the habenulo-interpeduncular system",
+  "text": "Addiction to tobacco products is exceedingly common in the United States, and nicotine withdrawal and\nsubsequent relapse is a significant contributor to the addiction process. The goal of this project is to leverage our\nwell-qualified research team, our innovative tools, and our incisive methods to identify mechanisms that support\ntobacco addiction. By identifying these mechanisms, our project will promote the development of new and more\neffective strategies to help people quit smoking."
+ },
+ {
+  "id": "91b76971-8c15-4b69-9080-69d921461e0d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Synaptic function of BK channel-interacting proteins",
+  "text": "This project is to investigate how melatonin regulates synaptic transmission and sleep through the BK\nchannel, and how the BK channel is regulated by a newly identified molecular pathway. The results of this\nproject will help our understanding about the molecular mechanisms of BK channel regulation and of\nmelatonin’s sleep-promoting effects."
+ },
+ {
+  "id": "91bddaaf-1c7b-4d7d-b735-2f6ce14960ac",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identifying disparities in air pollution-attributable cardiovascular health outcomes within a quasi-experimental framework",
+  "text": "The overarching goal of this K01 Career Development Award is to foster Dr. Andrea Titus’s transition to\nindependence as a social epidemiologist with expertise in examining environmental drivers of cardiovascular\ndisease disparities. The proposed study will draw on multi-level statistical and machine learning approaches to\ninvestigate associations between fine particulate matter (PM2.5) and disparities across a range of\ncardiovascular disease outcomes, leveraging electronic health record data from a national cohort of U.S.\nveterans. Findings from this work will contribute to the evidence base regarding the pathogenesis of air\npollution-attributable cardiovascular outcomes and will shed light on potential population subgroups that may\nbenefit most from targeted interventions to reduce and mitigate air pollution exposures."
+ },
+ {
+  "id": "91be984e-8ea3-4059-937c-0024aa3150e6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Low Dose Multivalent Influenza Vaccine via Modified Self-Amplifying RNA",
+  "text": "Seasonal influenza remains a significant US health threat, and current egg-based, cell-culture, and RNA vaccine\nplatforms face substantial limitations such as slow production, high doses, significant side effects, and short-\nlived immunity. We propose a novel modified self-amplifying RNA (saRNA) vaccine that leverages a catalytic\nRNA and modified nucleotides to enable rapid production, substantially lower dosing, reduced side effects, and\ndurable immune responses of a multi-valent vaccine. Our innovative saRNA platform transforms influenza\nvaccination by achieving superior efficacy, improved safety, and faster pandemic response capabilities."
+ },
+ {
+  "id": "91c92fe5-94a5-430f-ac12-64581e6af6b0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mining Social Media for Barriers and Facilitators to PrEP Uptake and Persistence",
+  "text": "A major barrier to pre-exposure prophylaxis (PrEP) uptake and persistence in the United States (US) is the\nuncertainty regarding PrEP (e.g., uncertainties regarding costs, side effects, details of the drug regimen),\namong the general public, many of whom turn to the Internet for information about it—thus, their online posts\nand discussions provide insights into the public’s knowledge gaps regarding PrEP. To understand people’s\ninquiries and concerns about PrEP and ensure that guidelines and health communication directly address\nthose uncertainties, this proposal outlines an innovative, community-driven natural language processing (NLP)\nanalysis in which the trainee will collaborate with the Center for AIDS Research Community Liaison Council, a\ndiverse group of community members living in the Southeast, the region with the highest HIV prevalence, to\nexamine a decade’s worth of data from Reddit and Google and (1) assess the public’s knowledge gaps as well\nas the barriers and facilitators to PrEP uptake and persistence at the population level and (2) compare the\nresults of the community-driven NLP analysis with the CDC 2021 PrEP Clinical Practice Guidelines to identify\nconsistencies and discrepancies between the language laypeople use when discussing PrEP and the\ninformation they seek versus the information provided in the guidelines. This proposal is a step toward tackling\nthe widespread uncertainty regarding PrEP and will result in (A) community-built PrEP-related lexicon, a\ncompilation of terms that the general public uses to refer to PrEP and common search queries; (B) an\nunderstanding of PrEP related knowledge gaps, barriers, and facilitators to uptake and persistence at the\npopulation level; and (C) inform community-driven PrEP information dissemination."
+ },
+ {
+  "id": "91cab167-3189-4d09-99dc-3e85254260f9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Combining protein and DNA engineering to create bioswitches",
+  "text": "This project seeks to develop proteins and enzymes that are switched on and off by binding of specific DNA or\nRNA sequences, as well as by proteins and small molecules. These protein switches will be used as\nbiosensors for detecting pathogens and disease markers, and to selectively kill virally-infected cells while\nleaving uninfected cells unharmed."
+ },
+ {
+  "id": "91d0d8f4-4371-4e2a-8e2f-5afd93bb8e9b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Roles of DNA and Histone Methylation in Transposon Silencing, High-Temperature Growth, and Genome Stability in Cryptococcus neoformans",
+  "text": "Cryptococcus neoformans is a WHO-designated critical priority fungal pathogen responsible for\napproximately 194,000 annual cases of cryptococcal meningoencephalitis, a disease with a\nmortality rate of ~60% and limited treatment options. Central to Cryptococcus pathogenesis is the\nability to adapt to host-relevant stress conditions, including exposure to antifungals and high\ntemperatures. This study will investigate the roles of DNA and histone H3 methylation in silencing\nmutagenic transposable elements and facilitating growth and genome stability at elevated\ntemperatures, providing essential insights into the epigenetic mechanisms that govern adaptation\nto a host-like environment and the virulence of this globally distributed fungal pathogen."
+ },
+ {
+  "id": "91d40ac7-104f-4858-8e71-cb2872eb2c79",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "National Center for Quantitative Biology of Complex Systems",
+  "text": "The National Center for Quantitative Biology of Complex Systems (NCQBCS)\ndevelops, refines, and disseminates quantitative technologies for the analysis of proteins, lipids, and metabolites.\nThese essential technologies are honed in the context of pressing biomedical problems broad in scientific scope\nand efficiently brought out of the Center through a robust community engagement platform and\ncommercialization. The synergy across these activities ensures that the NCQBCS will fulfill its most critical\nmission: to empower all biomedical researchers to maximize biological insight through widespread access to\nenabling, sustainable technologies."
+ },
+ {
+  "id": "91d5e7a7-7d88-4b07-9b49-3ac23971a2c9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Combining Laboratory and Ecological Momentary Assessment-based Methods to Determine Age-related Differences in the Relationship Between Alcohol Use, Pain, and Inflammation",
+  "text": "Pain and problematic alcohol use each cost hundreds of billions of dollars annually, are attributed to\nincreased mortality, and co-occur at high rates. Evidence across the literature suggests important age-related\ndifferences in how pain is associated with alcohol use, but age has generally been overlooked with regard to\npain-related alcohol use. By combining data from laboratory-based pain-induction tasks and brief smartphone-\nbased surveys, this project will examine mechanisms and age-related differences underlying pain-related\nalcohol use."
+ },
+ {
+  "id": "91d66c05-b47a-421d-93e8-dd9d75f78628",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of an intelligent droplet acoustofluidic platform for automated liquid-liquid handing and monitoring in biomedical research",
+  "text": "The proposed project contributes to the development of automated technologies for liquid handling and\nmonitoring across various fields of chemistry, biology, and medicine. Successful development of this intelligent\ndroplet acoustofluidic platform may revolutionize current high throughput applications, including sequencing\nlibrary preparation, clinical diagnostics, large-scale compound screening, and high-throughput chemical\nreactions."
+ },
+ {
+  "id": "91deee24-9c9c-4bf9-9feb-9237588ddfe5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Virus breathing and assembly-disassembly transitions in host-entry",
+  "text": "Project Title: Virus breathing and assembly–disassembly transitions in host entry\nProject Narrative\nThe critical first steps in an infectious virus’ lifecycle which include receptor recognition and disassembly upon\ncontact, are poorly understood. Our proposed research program will determine the steps for how intact virus\nparticles precisely disassemble upon interactions with host cell receptors, to release the viral genome inside the\nhuman host cell. This will be achieved by monitoring virus dynamics in multiple icosahedral model viruses\nthrough integrative structural mass spectrometry, cryo-electron microscopy, biophysical and RNA chemistry\napproaches."
+ },
+ {
+  "id": "91e51ad2-8c6a-433d-8bf1-624502e36772",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "T cell response in Aggregatibacter actinomycetemcomitans-associated periodontal disease",
+  "text": "Periodontitis is a prevalent chronic inflammatory disease that affects hundreds of millions of people worldwide.\nThis project will determine the immunopathologic consequences of T cell recognition and response to antigen\nfrom a known periodontal pathogen, Aggregatibacter actinomycetemcomitans."
+ },
+ {
+  "id": "91e86482-94b6-4025-9e94-ad39efa87072",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Alterations to adipose tissue regulation and function by cART in SIV-infected rhesus macaques",
+  "text": "The proposed project will investigate how SIV and cART-mediated dysfunction in adipose tissue and adipose\nstem cells (ASCs) contributes to increased obesity in people living with HIV (PLWH). The research will\nspecifically examine how SIV, cART, and their combination alter the function and differentiation of adipocytes\nand ASCs. This study is crucial for elucidating the specific role of cART drugs on adipose tissue, an essential\nsite for HIV-related health issues."
+ }
+]

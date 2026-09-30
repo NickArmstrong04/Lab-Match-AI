@@ -1,0 +1,142 @@
+[
+ {
+  "id": "7a4813d9-3660-455e-9bdb-b16cb5ed32e7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Rapid Three-dimensional Simultaneous Knee Multi-Relaxation Mapping",
+  "text": "This proposal will develop a rapid multi-relaxation imaging technique that can provide simultaneous three-\ndimensional T1, T2, and T1ρ relaxation mapping for quantifying tissue composition and ultra-structure using\nmagnetic resonance imaging. The imaging technique incorporates a novel multi-relaxation mapping sequence\nusing 3D golden-angle rapid acquisition and a novel physics-informed deep learning reconstruction and will be\nevaluated in a knee disease model. Our novel proposal would provide a new rapid imaging approach to non-\ninvasively monitor disease-related and treatment-related changes in tissue composition and ultra-structure\nthrough multi-relaxation assessment and will have broad clinical applications for various diseases."
+ },
+ {
+  "id": "7a4ba205-f466-4ef6-b663-f5bc8096f737",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cancer Center Support (Core) Grant",
+  "text": "The Koch Institute for Integrative Cancer Research at MIT is a highly inter-disciplinary Cancer Center that\nbrings together the great strengths at MIT in cancer science and cancer-oriented engineering to address longstanding\nproblems in the diagnosis and treatment of cancer. The Koch Institute is focused on basic discovery\nand technology development; however, advancing projects toward the clinic and to the benefit of patients as\nrapidly as possible is a high priority. This occurs through extensive interactions with clinical centers as well as\nindustry partners."
+ },
+ {
+  "id": "7a53113d-6123-4d14-aaa3-dbf5dc6577a1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Synapse rescue and neuroprotection in the retina",
+  "text": "This proposal aims to evaluate the ability of the cell adhesion molecule Netrin-G ligand 2 (NGL2) to rescue\nsynapses and protect photoreceptors from degeneration. It will also elucidate the molecular composition and\nsignaling mechanisms of synaptic NGL2 complexes and the contributions of NGL2’s interaction partners to\nsynapse maintenance and neuroprotection. To accelerate translation, the proposal examines the function and\ntherapeutic potential of NGL2 and its interaction partners simultaneously in mice and human retinas."
+ },
+ {
+  "id": "7a56127a-00fb-463e-95cf-17618f2bf608",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Virtual Biopsy with Tissue-level Accuracy in Glioma",
+  "text": "Knowledge of molecular status for a variety of markers in gliomas has moved to the forefront in clinical decision-\nmaking. This requires direct tissue sampling either from an invasive brain biopsy or open surgical resection. In\nthis Bioengineering Research Grant proposal in response to PAR-19-158, we will develop and validate a non-\ninvasive method to determine a panel of the most critical molecular markers (IDH, 1p/19q and MGMT\nmethylation) with near tissue-level accuracies using routine T2-weighted (T2w) MR images and deep learning\nalgorithms to significantly reduce and in many cases eliminate the need for stereotactic biopsy in glioma."
+ },
+ {
+  "id": "7a59fe49-aad5-454c-a918-669ac4c4cd27",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Preclinical Pluripotent Stem Cell Investigation for Vascular Therapeutics",
+  "text": "Patients who require vascular reconstruction due to vascular diseases or injuries, who are not eligible for\nautologous grafts, require more hemocompatible graft alternatives to synthetic biomaterials. Induced pluripotent\nstem cells (iPSCs) that are immunocompatible to any patient are an engineering strategy to create robust tissue-\nengineered vascular grafts, which have shown promise in clinical trials for acellular grafts; however, while our\nlab has developed human universal iPSCs, the technology must be tested in a large animal preclinical model.\nTherefore, in this proposal, we aim to (1) generate a mechanically robust iPSC-TEVG that is endothelialized with\n“universal” pig iPSC-derived endothelial cells to mitigate xenograft rejection and (2) assess therapeutic efficacy\nof the universal TEVG technology in a preclinical porcine carotid model in vivo."
+ },
+ {
+  "id": "7a5faf9a-c2b1-4ee4-95c4-c14cca9c8558",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Genetics and Genomics Core",
+  "text": "PROJECT SUMMARY – GENETICS AND GENOMICS CORE The Genetics and Genomics Core provides advice, services and hands-on-training to Diabetes Research and Training Center (DRTC) investigators on the design and implementation of genetics and genomics studies in diabetes/obesity-related research. The Core serves not only DRTC-affiliated investigators but also diabetes investigators carrying out diabetes-related research throughout the United States and internationally. The same technology making genomic variation information accessible to everyone requires increasingly sophisticated analytic strategies that are not in the repertoire of most investigators, including the analysis and interpretation of genetic studies of diabetes and identification of diabetes-associated variants and predicted functionality of those variants. The Core also maintains the Monogenic Diabetes Registry that provides clinical and genetic data on more than 3,966 individuals from 1,971 families with a suspected genetic form of diabetes. It includes 482 with known cause MODY and 221 with neonatal as well as 29 patients with rare syndromic forms of diabetes. The Monogenic Diabetes Registry represents not only a resource that can be and is being used for longitudinal studies of these genetic forms of diabetes but is also a living biobank for cell biological and physiological studies. The expanding biobanks includes PBMCs from 21 patients and five iPSC lines. The growing awareness of the role of genetics as a primary cause of diabetes among patients and physicians has led the Core to become a national resource for genetic testing and interpretation of genetic testing results. The specific Aims of the Genetics and Genomics Core are to provide advice, training and service: 1. In the design, conduct and interpretation of genetic studies of diabetes and to make available specialized analytic tools taking advantage of cloud-based computing platforms (PrediXcan suite of analytic tools). 2. For monogenic diabetes genes mutation screening locally, regionally and nationally and consultation regarding implications of the test. This includes maintaining the Monogenic Diabetes Registry, a clinical and genetic resource and living biobank. 3. In genomic-based technologies in diabetes research, including generation of patient-specific cells (iPSCs) and animal models using BAC recombineering, transgenics, genome editing and other technologies; analysis of the epigenome and epitranscriptome and non-coding sequencing for functional effects. 4. For digital PCR services as a means to sensitively measure absolute levels of nucleic acids from tissues, cell and circulation (serum/plasma). These studies are also carried out using expertise in Cell Biology and Physiology Cores, where tissues and plasma samples often originate. The Genetics and Genomics Core integrates with the other Biomedical Research Cores by providing samples and data from patients with specific genetic forms of diabetes to the Cell Biology and Physiology Cores."
+ },
+ {
+  "id": "7a6985f8-5af0-4094-a64a-fee3c9e58ca4",
+  "want_sentence": false,
+  "want_terms": true,
+  "title": "Immunobiology of Normal and Neoplastic Lymphocytes",
+  "text": "This program offers comprehensive training to cultivate future leaders in cancer immunobiology research. By\nserving as a catalyst for scientific advancement, the program aims to accelerate the development of more\neffective, affordable cancer therapies. Ultimately, it seeks to improve patient outcomes and make a meaningful\nimpact on public health."
+ },
+ {
+  "id": "7a7079f9-312d-41b2-b67e-94ffd5030e75",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Unveiling Adolescent BNST Development with Deep Learning: Implications for Alcohol Use and Negative Affect",
+  "text": "Anxiety and problem drinking often start in early adolescence, emphasizing the need to study the BNST\ndevelopment during this period. This study will develop the first automatic BNST segmentation algorithm,\nand apply it to investigate whether the BNST can predict changes in alcohol drinking or negative affect during\nadolescence. Such gained knowledge could inform targeted interventions to mitigate alcohol-related risks\nduring adolescence."
+ },
+ {
+  "id": "7a70c591-d930-45c2-87b2-b400d68438a1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "T Cell Homeostasis",
+  "text": "A key feature of the immune system is the generation of “memory”, which allows us to become “immune” after\nthe first encounter with a pathogen or vaccine, successfully fending off future encounters with that pathogen.\nOne population of memory cells, called memory T cells, come in a variety of “flavors” which exhibit distinct\nfunctional properties – one major subdivision is into memory T cells that patrol the body incessantly\n(recirculating memory cells) and ones that stay in tissues long-term (resident memory cells) , which can\npromptly respond to local infections. Key to immune “memory” is that these T cell populations last long-term\n(decades in humans, years in mice) and preserve their distinct “identities” (e.g. as recirculating or resident\ncells): however, while this has been a topic of considerable interest for decades, discrepancies in published\nstudies need to be resolved in order to determine how memory T cells are maintained. We will use\nsophisticated genetic models, as well as pharmaceutical treatments, to accurately determine how distinct\nsubsets of memory T cells are sustained by the soluble factors (called cytokines) IL-7 and IL-15 and how the\n“identity” of recirculating and resident memory cells is maintained by expression of a DNA binding protein\ncalled KLF2 and some of the genes it regulates. These studies will give us an improved understanding of how\nmemory T cell maintenance is maintained and identify areas of potential therapeutic intervention to enhance or\nreshape the T cell memory population for clinical goals."
+ },
+ {
+  "id": "7a72e025-b4e0-4ee7-82e5-dcc2d9ef4dc7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Addressing Thyroid Cancer Overdiagnosis: AI-Driven Identification, Characterization, and Outcomes of Incidental Thyroid Nodules",
+  "text": "Thyroid cancer overdiagnosis, driven by the incidental detection of small, asymptomatic nodules during\nimaging, leads to unnecessary treatments and significant financial burdens. This project aims to develop and\nvalidate an AI-assisted system for identifying and evaluating incidental thyroid nodules, establishing guidelines\nto reduce low-value workups and mitigate overdiagnosis, ultimately improving patient outcomes and reducing\nhealthcare costs."
+ },
+ {
+  "id": "7a74f4c9-2c0b-4406-ab74-a3aa38270934",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Bridging Function, Connectivity, and Transcriptomics of Mouse Cortical Neurons",
+  "text": "This project seeks to elucidate the concept of the brain cell type and its relation to the brain architecture and\nfunction, by establishing links between molecular and anatomical cell types, circuit connectivity, and functional\nneural activity in the mouse primary visual cortex (V1). We will record activity of neurons, use multiplexed\nfluorescence in-situ hybridization (mFISH) to identify their cell types as defined by gene expression, analyze\nneuronal morphologies and connectivity using Electron Microscopy (EM) reconstruction of the V1 circuit, and\nrelease the resulting data and knowledge as a free atlas for the community. The findings and data from this\nproject will serve as foundational resources for future scientific studies and biomedical applications aiming to\nleverage the relations between brain cell types, circuit structure, and its function."
+ },
+ {
+  "id": "7a782572-e649-43b7-8763-205ffad1e8a7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Facilitating Ultrasound Utilization for Diagnosis of Abdominal Pain in Rural Children",
+  "text": "Rural populations have decreased access to diagnostic ultrasound, which provides a low-cost and radiation­free method for evaluating abdominal pain in children. This project will 1) compare the reach and effectiveness of three potential ultrasound utilization models to improve access to guideline-adherent imaging, 2) identify patient, facility, and area-level contextual factors associated with ultrasound use in rural Appalachian communities, and 3) use qualitative methods to identify caregiver and organizational-level contextual factors that influence ultrasound use at community hospitals in Appalachia. The long-term objective of this research is to create a feasible and effective implementation strategy to increase access to ultrasound for diagnostic imaging for underserved children in rural areas."
+ },
+ {
+  "id": "7a850a50-5f67-4e4b-bb74-624946fc432d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "New tools for tick-borne pathogen surveillance",
+  "text": "Nanopore adaptive sampling will provide affordable, mobile sequencing for surveillance of tick vectors, rodent\nreservoirs, and tick-borne pathogens. We will test NAS for diagnostic accuracy (sensitivity, specificity, and\nthreshold of detection), test for detection of a variety of in vitro grown DNA and RNA-based pathogens,\ndifferentiate closely related pathogen species and strains, develop and ground truth protocols for field testing on\nwild ticks and rodents from a well-characterized region, and comprehensively field test the methods and\nprotocols in a region predicted to have the one of the highest densities of emerging rodent-associated zoonoses\nin the US."
+ },
+ {
+  "id": "7a87ae39-32b8-4f5b-a656-d76122110d82",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project 1-Combination Immunotherapy with  Radioligned Therapy for Metastatic Prostate Cancer",
+  "text": "THERAPY FOR METASTATIC PROSTATE CANCER \nThe goal of this project is to dissect the immunogenic capacity of 177Lu-PMSA-617 to prime a T cell response in \ncombination with immune checkpoint inhibition for patients with advanced prostate cancer. Defining and \nfunctionally validating the immunogenic impact of systemic radioligand therapy (RLT) with 177Lu-PSMA-617 \nwould significantly accelerate the development and optimization of combinatorial approaches to induce more \npotent anti-tumor immunity and more durable clinical efficacy."
+ },
+ {
+  "id": "7a87b75e-f959-4acd-874d-664470fdc9f8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Modulating the Hippo pathway in Charcot-Marie-Tooth disease",
+  "text": "This\ndisease\nadvanced\nredefine\n proposal explores the therapeutic potential of modulating the Hippo pathway in Charcot-Marie-Tooth\n type 1A (CMT1A) by targeting TAZ and TEAD1 activity to reduce PMP22 expression. By combining\n genetic models, repurposed TEAD inhibitors, and comprehensive assessments, the study aims to\nCMT1A treatment and improve outcomes for patients with this debilitating neuropathy."
+ },
+ {
+  "id": "7a8de48d-5e09-40d6-b056-910f51933168",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Maturation, Germination, and Pathogenesis of Cryptococcus Spores",
+  "text": "Fungi, including the spore-forming environmental yeast Cryptococcus, are emerging pathogens that cause life-\nthreatening diseases in humans. The proposed research is relevant to public health because determining the\nfundamental biology of Cryptococcus spores and how they infect the mammalian lung will provide information\nnecessary to understand how fungal pathogens infect people and cause fatal diseases. This project is relevant\nto the missions of the NIH and NIAID because it proposes basic research that will ultimately lead to new\nstrategies to prevent and/or treat severe fungal disease, which will enhance human health and reduce illness,\nparticularly among immunocompromised patients."
+ },
+ {
+  "id": "7a91fa8f-f514-4347-9af8-ed4a79d826c3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Core 2: Biostatistics/Bioinformatics Shared Resource",
+  "text": "The Biostatistics and Bioinformatics Shared Resource (BBSR) will lead efforts to support the data analysis needs of investigators across the MSM/TU/UAB OCCC Partnership. The BBSR will provide centralized, comprehensive, state-of-the-art support to ensure scientific rigor and reproducibility in the development and execution of the Partnership’s cancer research projects and programs."
+ },
+ {
+  "id": "7a920bff-f585-4ebd-81a5-3c75db24ab9a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Tuning the anterior cingulate from the outside in: a new way forward for treating mental health disorders and beyond",
+  "text": "Dysfunction within the dorsal anterior cingulate cortex has been implicated in a large breadth of\nbrain disorders with psychiatric underpinnings. Targeting neuromodulation using focused\nultrasound in lieu of ablative strategies to this region holds promise as an important therapeutic\nstrategy, but substantial optimization is needed to make this a viable treatment. In addition, the\nserendipitous adjacency of the dorsal anterior cingulate to the centrally located inferior sagittal\nsinus provides an incredible opportunity to leverage this anatomical relationship to develop an\nincisionless, intravascular ultrasound device-based strategy from bench to bedside."
+ },
+ {
+  "id": "7aa57379-7c55-4d42-9908-ff640939b90a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular mechanisms and therapeutic targeting of activated NRF2 signaling in MiT/TFE translocation renal cell carcinoma",
+  "text": "Cancer is the second leading cause of death in the United States. Translocation renal cell carcinoma (tRCC) is\nan aggressive kidney cancer without effective therapies and is an unmet medical need. This project explores\nhow the antioxidant response may be a defining feature of, and therapeutic vulnerability in, tRCC."
+ },
+ {
+  "id": "7aabb292-13a8-42ed-8d0b-423aa6df3a82",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "GEARs Combining advances in Genomics and Environmental science to accelerate Actionable Research and practice in ASD",
+  "text": "This ACE GEARs Network application seeks to establish a Network for the study of gene- environment\ninteraction in ASD and health outcomes among people with ASD. The “Combining advances in Genomics and\nEnvironmental science to accelerate Actionable Research and practice in ASD” (GEARs) Network will create\ninfrastructure and processes to harmonize data from 18 sites to investigate gene-environment interaction at\nscale. These population studies will be supported by laboratory-based experimental studies using 3D in vitro\nbrain organoids and translation and dissemination efforts."
+ }
+]

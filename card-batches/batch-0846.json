@@ -1,0 +1,142 @@
+[
+ {
+  "id": "a264e29d-3975-4f8f-85b6-c18712197201",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Astroglia-Mediated Pathogenic Mechanisms in Fragile X Syndrome (FXS)",
+  "text": "Fragile X syndrome (FXS) is one of the most common inherited intellectual disabilities (ID) that is caused\nby transcriptional silencing of the Fmr1 gene and loss of its encoded fragile X messenger ribonucleoprotein\n(FMRP). This project will investigate how a particular small non-coding RNA, microRNA-128, regulates postnatal\nastroglial development and also how the selective loss of this microRNA in brain astroglial cells impact typical\nFXS phenotypes. Results from this project will begin to define specific microRNA that regulates postnatal\nastroglial development and will reveal astroglia specific mechanisms and targets to modulate FXS disease\ndevelopment, thus will advance our understanding about the role of astroglia in FXS pathogenesis."
+ },
+ {
+  "id": "a264e931-78b1-47ad-8077-d0e65caa963c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "hiPSC and Progenitor Heterogeneity as Predictors of Variability in 3D Human Neural Differentiation",
+  "text": "The lack of standardization, high costs, and variability in brain organoid protocols hinder progress and\nwidespread applicability. To tackle these issues, this MPI group recently established the Brain Organoid Hub at\nEmory University. Our goal, and the focus of this proposal, is to investigate the morphological, transcriptomic,\nand epigenomic features of hiPSCs and neural progenitors that reliably predict optimal regional patterning,\ncell type specification, and neural maturation."
+ },
+ {
+  "id": "a26575f7-29ed-45a0-bd55-d01263693b7b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A novel approach to restore functional TDP43 for the treatment of FTD and ALS",
+  "text": "TDP43 mislocalization and aggregation are central to diseases like FTD and ALS, but current drug discovery\nefforts have struggled to produce effective treatments. Using a novel high-throughput screening platform that we\nhave engineered, we will identify small molecules that restore TDP43 function. Promising compounds will be\nfurther tested in advanced cellular models, with the aim of developing potent lead candidates for future\ntherapeutic development."
+ },
+ {
+  "id": "a265a3b1-7ddf-4063-ba1c-c8695e4b4ab7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Pathogenesis of mitochondrial trifunctional protein deficiency: linking fatty acid oxidation and cardiolipin remodeling",
+  "text": "Mitochondrial trifunctional protein and long-chain 3-hydroxyacyl-CoA dehydrogenase deficiencies cause life-\nthreatening metabolic crises, cardiomyopathy, progressive neurodegeneration, and retinopathy. This project will\ndefine how pathogenic variants in HADHA and HADHB disrupt fatty acid oxidation and cardiolipin remodeling,\nleading to toxic lipid peroxidation and mitochondrial dysfunction. By testing targeted interventions—medium-\nchain fatty acids, elamipretide, and deuterated arachidonic acid—the study will clarify disease mechanisms and\nidentify new therapeutic approaches, directly bridging actionable molecular processes to improved clinical\nmanagement of these rare disorders."
+ },
+ {
+  "id": "a26d56f4-ba3a-44f9-bef1-b6ed5b8473d6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Methods for sequencing data analysis and archive-scale data science - Renewal",
+  "text": "Analyzing data from DNA sequencers requires sophisticated software capable of assembling and ana-lyzing puzzles made from billions of DNA fragments. Meanwhile, publicly-funded archives are filling with huge datasets that could be used in everyday research, but which are not organized in a convenient way. We propose a suite of projects that will allow everyday scientists to (a) analyze the raw data from DNA sequencers, (b) search for answers to scientific questions with respect to vast public archives, and\n(c) measure evolutionary distances between genomic sequences to better understand their histories and relationships."
+ },
+ {
+  "id": "a26ec244-1100-4102-b81d-100f270768f8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Advancing METASPACE and Spatial Metabolomics for Cancer Research",
+  "text": "This project aims to advance METASPACE, a cloud platform for spatial metabolomics, enhancing its capabilities\nand fostering its adoption in cancer research. By implementing machine learning-based metabolite identification,\nimproving data quality and interoperability, and reducing adoption barriers through training and collaboration, we\nwill drive new discoveries in cancer biology. Ultimately, these efforts will improve cancer diagnosis, treatment,\nand patient outcomes."
+ },
+ {
+  "id": "a270051b-7f3b-4846-80e4-8f38f8c31d65",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Advancing evolutionary genetics through deep learning",
+  "text": "The work proposed here seeks to develop and apply powerful deep learning software tools for evolutionary\ngenetic inference in mosquito vectors and other species. Such efforts have important health implications—for\nexample, these tools will be used to identify genes involved in adaptations such as resistance to insecticides\nand other control efforts."
+ },
+ {
+  "id": "a2833b79-aac7-444e-8f46-10ce46f46c28",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Technology Core",
+  "text": "PROJECT SUMMARY/ABSTRACT – Technology Core This innovative Systems Biology Center application seeks to model the complex host/pathogen interactions occurring in patients with severe pneumonia. The overall goals of the Technology Core (TechCore) are to provide sample processing, biobanking, and data generation support for all Projects and other Cores in the Super- Successful Clinical Response In Pneumonia Therapy (SCRIPT2) Systems Biology Center. Our Technology Core is uniquely poised to contribute to the success of the SCRIPT2 Study, as we possess expertise in flow cytometry, cell sorting, cryopreservation, and various next-generation sequencing (NGS) techniques, including bulk and single-cell technologies for gene expression (single-cell RNA-seq) and protein expression profiling (cellular indexing of transcriptomes and epitopes [CITE]-seq), T and B cell receptor (TCR and BCR) clonotyping, genome- wide DNA methylation analysis, metagenomics sequencing, and deep pathogen sequencing. The Technology Core will process clinical samples, cryopreserve them, and then cryorecover them for pre-designated NGS assays in close coordination with the Projects and other Cores. The data generated from the TechCore’s activities will feed back to the DMBI and Modeling Cores to support the aims of Projects 1 and 2 as well as iteratively inform sample selection to determine the most informative NGS assays to perform on a given sample. The Technology Core has conceptualized its activities into two Specific Aims: Aim 1. To immunophenotype and perform biobanking of BAL, nasal curettage, and blood samples obtained from patients with severe pneumonia for subsequent NGS analysis. In Aim 1.1, we will use multiparameter flow cytometry to immunophenotype subsets of epithelial and immune cells from samples obtained from patients with severe pneumonia. In Aim 1.2, we will perform cryopreservation of all samples using techniques that allow for downstream NGS assays on selected samples. Aim 2. To perform NGS assays, including single-cell RNA-seq, CITE-seq, single-cell TCR and BCR clonotyping, T cell subset DNA methylation analysis, metagenomics sequencing, and deep pathogen sequencing on selected cryopreserved samples. We will cryorecover samples selected by the Projects in conjunction with the DMBI and Modeling Cores to perform pre-designated NGS assays and subsequent bioinformatics processing. We will also perform other assays, such as cytokine profiling, as directed by the Projects."
+ },
+ {
+  "id": "a283ab69-451c-466a-bff4-acfca8ae5660",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Overcoming Challenging Clinical Scenarios in Non-invasive Coronary Artery Imaging using Next Generation Photon Counting Detector CT and Artificial Intelligence",
+  "text": "We will develop the next generation of photon-counting detector computed tomography (PCD-CT) to reduce\nnon-ideal detector properties and improve spectral resolution. Deep learning techniques will be developed to\nreduce image noise and correct motion artifacts and thus enable a comprehensive assessment of coronary\nartery disease in challenging clinical scenarios. These technical advances will culminate in a small clinical\nstudy to demonstrate not merely that the images are “better,” as is so often done, but that the next-generation\ndual-source PCD-CT combined with custom deep-learning algorithms provides clinically-significant\nimprovements in the diagnosis and management of patients with suspected coronary artery disease or in-stent\nrestenosis."
+ },
+ {
+  "id": "a2866636-a845-43b9-931f-b3bcefa4f482",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "ARDVARC-Advancing Rare Disorders: Vascular mAlformation Research Network with CaNVAS: Admin Core",
+  "text": "ARDVARC Administrative Core: Project Summary/Abstract The Administrative Core (AC) of Advancing Rare Disorders – Vascular mAlformation Research network with CaNVAS is responsible for the overall administration and operation of this RDCRC, including coordination and management of policy and procedure development, contracting, funds allocation, communication, collaboration with other RDCRCs, the DMCC, and the overarching RDCRN. The AC will develop metrics to assess the success of ARDVARC. ARDVARC’s AC will build upon the existing CaNVAS consortium infrastructure to manage its Rare Disease Clinical Research Center’s (RDCRC’s) executive functions. Administrative support for ARDVARC (CaNVAS) will be headquartered at the Children’s Hospital of Philadelphia (CHOP) where Dr. Denise Adams, is the Chair of CaNVAS. Dr. Adams will serve as the PD of ARDVARC and the Administrative Core PI because of her experience in the management of rare disease and multisite research programs in hematology, oncology, and vascular anomalies. Michael Jeng, PD of ARDVARC will serve as Co-I. They will be joined by two patient advocates from groups that work with CaNVAS: Mellenee Finger, Director of the Klippel- Trenaunay (K-T) Support Group and Elizabeth Bovee, a member of the Lymphangiomatosis and Gorham’s Disease Alliance (LGDA). The administrative core will also include a Research Program Manager, Melissa Casey, who has comprehensive experience in collaborating with industry, contracting, budget and clinical trial administration as well as an Administrative and Research Coordinator, Joelle Pitkoff. As a member of the Cancer Center at CHOP, Dr. Adams receives support from the Clinical Research Center who will then provide regulatory guidance, grant submission assistance, and biostatistics/bioinformatics support. The experience that already exists amongst this team will strengthen the outcomes for ARDVARC. The AC core will ensure a robust scientific approach which includes seasoned and early career practitioners, scientists, patient advocates, an external advisory committee and administrative staff with the skills and experience in the management of multisite clinical research programs and rare disease research. The AC will provide administrative support for ARDVARC, establish an infrastructure for clinical trial participation and facilitate collaboration and coordination of the patient advocacy participation. ARDVARC will work with the RDCRN, the DMCC and other RDCRCs to promote collaboration and discovery."
+ },
+ {
+  "id": "a29076b4-11f8-4059-b348-60a9bede3355",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of force production in cytokinesis",
+  "text": "Cytokinesis, the separation of a mother cell into two daughter cells, is central to development and a cornerstone\nin the progression of fibrotic diseases and cancers. Cytokinesis occurs by the constriction of a ring of actin\nfilaments and myosin, yet we do not understand how this structure produces the forces necessary to drive the\ncell shape changes required for cytokinesis. This research will determine the molecular mechanisms that drive\ncytokinesis using genetics, quantitative microscopy, biochemistry, force probing and computational simulations\nin fission yeast providing a prime environment for enhancing training diversity in the biomedical field."
+ },
+ {
+  "id": "a2936476-8933-4ba3-a53b-bfea2c16c251",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Reverse Metabolomics for the Discovery of Disease Associated Microbial Molecules",
+  "text": "In the human body, for 100 human cells that are present, there are 130 microbial cells. Those\nmicrobes often define the balance of human health and disease, yet the molecules by which\nthey promote this balance are unknown. We have designed a reverse metabolomics and big\ndata mining strategy to discover microbial metabolites with emphasis on microbial metabolites\nassociated with inflammatory bowel disease and other gut associated metabolic\ndisorders."
+ },
+ {
+  "id": "a2995805-a145-4040-aea0-140876996675",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Delaware Clinical and Translational Research ACCEL Program  (BERD Core)",
+  "text": "While Delaware has high quality healthcare compared to other states, it still lags behind other states in a number of areas, including drug-related deaths, obesity, high preventable hospitalization rates, multiple chronic conditions and cancer. As such, the overarching goal for the continuation of the ACCEL CTR Program is to create a unified Delaware Clinical and Translational Research Community (inclusive of investigators and community members) that breaks down existing barriers, capitalizes on the unique strengths of its partners to establish infrastructure and accelerates the creation of solutions that improve the health of all Delawareans and all Americans."
+ },
+ {
+  "id": "a2a1778e-2a10-45f4-b3a9-0e1467d19e2f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular Imaging Core",
+  "text": "Molecular Imaging Core Summary The one shared resource core of the Acquired Resistance to Therapy and Iron (ARTI) Center is the Molecular Imaging Core (MIC). The MIC is a build out of the Molecular Imaging Laboratory (MIL), a central facility within the Department of Cancer Systems Imaging at The University of Texas MD Anderson Cancer Center that has received support from The Radiation Oncology and Cancer Imaging Program (ROCIP) under the Cancer Center Grant (P30CA016672). For more than two decades, the MIL has been an expert hub for preclinical imaging, including positron emission tomography (PET) and bioluminescence imaging, and has already established national and international collaborations and distributed key plasmids, cell lines, and reporter animals to the global scientific community. The virtual MIC will support the central theme of the ARTI Center, which is to determine whether ferroptosis plays a major role in acquired resistance to radiation therapy (RT). The MIC will implement and manage the precise, preclinical imaging support infrastructure (personnel, reagents, animals, software, and customized hardware resources) for the three research projects. The MIC will collaborate with ARTI Center investigators in developing preclinical imaging protocols and analyses with appropriate biological and biochemical controls, robust test-retest analysis, and imaging statistical support when appropriate (Aim 1). In Aim 2, the MIC will provide timely access to unique plasmid-based reporters, reporter animals, PET reagents, and fluorescent biosensors, while leveraging MIL and MD Anderson cores’ expertise to modify reagents when appropriate to meet ARTI Center needs. Regarding workflow, the MIC will provide timely service, training, access to customized macro- and microscopic imaging systems, premium image analytics, and custom imaging analysis to ARTI Center investigators (Aim 3). For Project 1, the MIC will perform noninvasive bioluminescence imaging in preclinical small animal models of lung and esophageal cancer to test the effects of ferroptosis inducers (FINs) combined with RT as well as FINs combined with immunotherapy in overcoming acquired tumor RT resistance. To help determine whether hypoxia modulates ferroptosis and acquired RT resistance in Project 2, the MIC will perform bioluminescence imaging to monitor hypoxic tumor growth resistance in response to RT and the potential radiosensitizing effects of FINs, hypoxia-inducible factor (HIF) and activating transcription factor 4 (ATF4) inhibitors or knockdown, and hyperbaric oxygen therapy as well as to identify hypoxic regions within tumors. With Project 3, the MIC will assess the role of myeloid cell expansion in conferring ferroptosis resistance to chemoradiation therapy using preclinical tumor models derived from esophageal adenocarcinoma patients and using a novel PET tracer developed by the MIC. The MIC will also serve as a resource for not only ARTI Center investigators, but also for other Acquired Resistance to Therapy Network (ARTNet) as well as for other National Cancer Institute-funded programs and initiatives."
+ },
+ {
+  "id": "a2ab9988-7d22-4bfc-a1b3-eecbf329605a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "ORBIL-AI: Orthogonality-Regularized Biomedical Information-theoretic Learning",
+  "text": "This project will create a novel machine learning framework that learns non-redundant,\ncomplementary features from multimodal biomedical data, which is crucial for building\ntrustworthy AI for clinical use. Our work will be grounded in our recently published\nComplementary Feature Domains for Multimodal ECG Deep-Learning (CFD-MED) Theory\nand will create a durable research pipeline at Morgan State University by providing hands-on\ntraining to a diverse cohort of students. The results have the potential to accelerate the clinical\nadoption of AI systems by ensuring they are not only accurate but also interpretable and reliable."
+ },
+ {
+  "id": "a2ae52aa-f2ab-470f-ad14-7dad0579ed7c",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Training Program in Computational Genomics",
+  "text": "The goal of this project is to create a training program for graduate students to acquire skills to apply Data Science and Artificial Intelligence techniques to genomics of human diseases. Success of the program will contribute to training the next generation of the biomedical workforce in the application of state-of-the-art computation to genomics data."
+ },
+ {
+  "id": "a2ae6a6a-29c8-40d1-84f4-7e12eb47829a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Event-level Antecedents of Heavy Drinking Among Bisexual and Heterosexual Women with and without Histories of Sexual Assault",
+  "text": "This study involves identifying antecedents (i.e., psychological distress, drinking motives, and\nmicroaggressions) of heavy drinking in real-time among bisexual and heterosexual women with and without\nhistories of sexual assault. Investigation of antecedents of heavy drinking is of immediate public health\nimportance due to the very high rates of heavy drinking and sexual assault among bisexual women, particularly\nthose with histories of sexual assault. Identifying event-level antecedents will aid in the development of\necological momentary and/or just-in-time interventions to decrease heavy drinking among bisexual women."
+ },
+ {
+  "id": "a2b5f2d4-d9f1-4301-9af2-db6a1bb60353",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Understanding ASPSCR1:TFE3 fusion protein-driven therapeutic vulnerabilities and potential targets within the tumor immune microenvironment of alveolar soft part sarcoma",
+  "text": "Our NIH COBRE project will enable us to use state-of-the-art multi-omics and immuno-engineering approaches\nto define the tumor-immune microenvironment in alveolar soft part sarcoma, identify neoantigen-related\ntherapeutic vulnerabilities, with broader applications for other fusion-based rare tumors to drive novel drug\ndevelopment approaches."
+ },
+ {
+  "id": "a2b8dd27-7e07-4ff5-97b8-3d72060dd6fe",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of radioresistance and strategies for radiosensitization in ovarian clear cell carcinoma",
+  "text": "In this application, we focus our research on our new discovery that ARID1A\nregulates transcriptional silencing and restricts de-repression of heterochromatin repetitive DNA sequences\ninduced by radiation. This new mechanism allows us to augment radiotherapy and immunotherapy through\nselectively modulating DNA damage(RNA/DNA sensing pathway)-dependent innate immune responses in\nARID1A-deficient tumors."
+ },
+ {
+  "id": "a2b8eccf-e9d0-48cc-b284-b87b72e09199",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Undiagnosed Obstructive Sleep Apnea in Primary Care Clinics",
+  "text": "Obstructive sleep apnea (OSA) is a very common condition that is associated with significant health problems.\nThis study will assess the rate of underdiagnosis of OSA in primary care practices, determine the factors that\nlead to underdiagnosis, and also develop a more efficient way to identify OSA in primary care practices using\nsophisticated computerized techniques using data from electronic medical records."
+ }
+]

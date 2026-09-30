@@ -1,0 +1,142 @@
+[
+ {
+  "id": "a8489a8d-ba15-4edc-bb4e-9ac4369d93a5",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Data Management and Analysis Core",
+  "text": "Data Management Core Principal Investigator: Olivier Elemento, PhD. Co-I: Zhengming Chen, PhD Abstract This Core will provide bioinformatics expertise and support with data integration and analyses. The Core will serve three main goals. First, it will provide central data storage and data management ensuring that the integrity of the data of the Projects and Cores is protected using appropriate safeguards. Second, it will assure data and metadata sharing and dissemination through the ImmPort, database or other databases as recommended by NIAID. Third, it will support Projects 1 and 2, by performing state of the art statistical analyses. Specifically, the Core will be responsible for: 1) Deploying an informatics platform for data ingestion, processing and sharing using a cloud-based platform. The platform is capable of ingesting data from all participant sites and will interface with the clinical data based (REDCap) and sample tracking databases (OpenSpecimen) using appropriate safeguards. In addition, the Data Management Core will deploy automated quality control scripts to detect potential batch effects and low-quality samples. Importantly the core will use the ImmPort data model for data storage, thus standardizing data relations and facilitating data dissemination; 2) Perform statistical and integrative analyses of diverse datasets using state-of-the-art univariate and multivariate statistical as well as machine learning techniques. This approach will optimize the use of resources and will facilitate integration and synergy among all projects."
+ },
+ {
+  "id": "a84c1f7c-c6f0-4b61-b5e7-27afca2281c5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating the Role of ZEB1 in Alzheimer's Disease",
+  "text": "Transcription factors orchestrate cellular responses to disease by turning genes off and on, and we have\nidentified a transcription factor, ZEB1, as a potential therapeutic target in Alzheimer’s disease. This study will\ndetermine how ZEB1 functions in neurons to mediate the effects of Alzheimer’s disease. The results generated\nfrom this study will determine if modulating ZEB1 activity could prevent cell death in Alzheimer’s disease."
+ },
+ {
+  "id": "a84c6f4a-fd30-43bd-a213-cbc64cfdc99b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Computational Simulations of DNA Transaction Enzymes - Application and  Development",
+  "text": "(Relevance)\nThe detailed understanding of the mechanisms by which enzymes maintain, repair and\nmodify DNA is extremely important since errors in the genome can often be key for the\ndevelopment of a large number of diseases. This project focuses on the continued\ndevelopment of advanced QM/MM methods for the computational simulation of biological\nsystems and the computational investigation of the structural, functional and dynamical\nfactors of selected proteins of key families involved in DNA maintenance, repair and\nmodification."
+ },
+ {
+  "id": "a84d67a6-48ed-4064-9ddd-45a89f36d030",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A genetically encoded toolset to decipher the biology of post-translational modifications in the mammalian proteome",
+  "text": "We propose to develop technology for modeling a wide variety of novel post-translational\nmodifications of proteins found in eukaryotic cells with high accuracy and versatility. Using this\ntechnology, we aim to understand the roles of these post-translational modifications in human\nhealth and diseases, such as autoimmune disorders and cancer."
+ },
+ {
+  "id": "a84f3006-6455-4141-8048-399bef64d2e2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Epigenetic control of microglial activation in Alzheimer’s disease via DNA methylation",
+  "text": "Activation of microglia, brain-resident, innate immune cells, has recently been recognized as a key modifier for\nthe progression of Alzheimer's disease and related dementias. Early work focused on understanding the\ngenetic risk factors acting in microglia and identified disease-relevant functional states. Building on my\nprevious work and that of others, I will build a framework to understand the role of epigenetic mechanisms in\ndriving microglial activation in disease and work towards enabling future epigenetic-based therapeutics."
+ },
+ {
+  "id": "a85473c3-1a07-4803-af9d-1a56a9d8f4c7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "IBIS-iPSC: Organoid modeling of cortical surface area hyperexpansion in autism spectrum disorder",
+  "text": "Many individuals with autism spectrum disorder exhibit larger brain volumes early in life. We will generate and\nstudy cortical organoids from individuals with ASD and matched controls who have been profiled with behavioral\nassessments and neuroimaging since infancy in order to identify cellular and molecular mechanisms leading to\nearly brain overgrowth. Insight into these mechanisms will enable further understanding of disease pathogenesis,\ndelineate convergent biological pathways within a heterogeneous disorder, and will identify therapeutic targets\nfor early personalized treatments."
+ },
+ {
+  "id": "a864822e-ce51-49fa-929b-9b4d40f4037a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Elucidating natural resistance among Salmonellae to MCOLN2-mediated nutritional immunity",
+  "text": "This project will uncover how Salmonella serovars evade the human immune cell’s MCOLN2-mediated\nnutritional immunity mechanism. This research will enhance our understanding of Salmonella pathogenesis,\nuncover how Salmonellae manipulate the human immune cell environment, and reveal how molecular host-\npathogen interactions differ among serovars. Elucidating how the host cell utilizes MCOLN2 during S. enterica\ninfection will bolster our knowledge of how human cells generate nutritional immunity against intracellular\npathogens and how this ability fits into a larger picture of the cell’s immune response."
+ },
+ {
+  "id": "a86d6c8a-e1e1-40e0-be09-88ba8099ab7d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "CART II signaling effects on escalated alcohol intake",
+  "text": "The cocaine- and amphetamine-regulated transcript (CART) neuropeptides play a role in several\nphysiological processes, including alcohol use disorder (AUD). This proposal aims to investigate\nthe impact of CART II-LPAR2 signaling on escalated alcohol intake and the neuroadaptations\nassociated with AUD. The findings from this project will inform the development of novel\ntherapeutics for AUD."
+ },
+ {
+  "id": "a86f9fbc-67de-4fe6-b3ef-d2d8c9c44046",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development and Evaluation of an Avatar Guided Mobile Health for Emerging Adults",
+  "text": "Emerging adults have higher rates of binge drinking, thoughts of suicide, and suicide attempts than any other age\ngroup, but very low use of substance use treatment. This project seeks to develop a mobile health intervention\nguided by an avatar for emerging adults who visit the emergency department and who binge drink and experience\nthoughts of suicide. Because emerging adults prefer mobile health and self-guided interventions and such\ntechnology is widely accessible, the proposed mobile health intervention could offer significant public health benefit\nin reducing alcohol use disorders and suicidal thoughts in emerging adults."
+ },
+ {
+  "id": "a876d6e9-2bc5-44c2-83c8-1f6f494c4ef2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Regulation of intestinal stem cell proliferative state",
+  "text": "Tight regulation of intestinal stem cells controls tissue homeostasis and cellular expansion in development and\nin response to injury, in order to prevent disease states. In development a hyper-proliferative intestinal stem cell\n(i.e., active proliferation) transitions to a latent quiescent state with the onset of intestinal maturation. The\nproposed study will investigate the key regulatory networks that govern the intestinal stem cell’s proliferative\nstate (active versus latent) at different phases of development (growth versus homeostatic phase) and explore\nthe underlying mechanism(s) regulating the process; these insights will provide the insights to control epithelial\nrenewal in the context of tissue development, and cancer."
+ },
+ {
+  "id": "a87cf09c-691c-457d-91e9-df9693161200",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Data Mining and Functional Validation of SCORCH Datasets",
+  "text": "Substance use disorder (SUD) in people with HIV (PWH) is associated with treatment non-compliance, greater\nrisk of viral transmission, and more rapid disease progression. To investigate the molecular mechanisms behind\nthe interactions of HIV and SUD, this interdisciplinary project will carry out a data mining campaign centered on\na comparative analysis of the gene networks associated with SUD, HIV, and their interaction from the single\ncell/single nucleus RNA-Seq datasets generated by the SCORCH components to identify the molecular drivers\nof disease progression or resilience and therapeutic targets to improve neuropsychological functioning in PWH\nwith SUD comorbidity. To this end we will bring to bear computational methods to elucidate the key genes driving\nthe altered gene expression at the single cell level, which will provide a framework for new testable hypotheses\non the mechanisms underlying the neuropathogenesis of the neuronal damage and neuroinflammation in the\ncontext of SUD in PWH that can reveal new pathogenic concepts and more effective therapeutic targets to\nimprove neuropsychological functioning in PWH and SUD comorbidity."
+ },
+ {
+  "id": "a87d6111-2692-4949-84f4-b32909ac5075",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Ultrasensitive quantification of cytokine release from T cells",
+  "text": "The R35 proposal will develop ultrasensitive quantification tools to characterize cytokine release from the\nplasma membrane. Using T cells and interleukin-2 as a model system, the research will probe the temporal\nand directional cytokine release profiles, proximity-based membrane regulation, and the distribution between\nsoluble and extracellular-vesicle-associated cytokines during T cell activation. The research program will\nenhance the fundamental understanding of the cytokine release at the molecular level and enable the search\nfor membrane mechanisms to modulate the process."
+ },
+ {
+  "id": "a87e052a-e20d-4da6-84b0-9c5e783d9f5a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Role of Transitional Epithelial CCN1 (Cyr61) in Lung Fibrosis",
+  "text": "Fibrotic lung diseases such as idiopathic pulmonary fibrosis are deadly, progressive, and have very few\neffective therapies. Fibrosis arises due to disordered or ineffective repair after injury, but we do not understand\nwhy some lungs scar after injury and some lungs heal normally. This project is relevant to public health as it\nseeks to further our understanding of the mechanisms of lung repair after injury to develop more effective\ntherapies."
+ },
+ {
+  "id": "a882f688-9067-47f2-8ff9-ff0fb7309f1e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Overcoming immune evasion in chordoma by therapeutic targeting of the hypoxia-regulated adenosine pathway",
+  "text": "Chordomas are rare, malignant bone tumors of the skull base and spine that recur often, can cause neurological\ndeficits and early death, and for which no effective drug treatment is available. Our experimental results support\nthe hypothesis that almost all human chordomas can produce high levels of extracellular adenosine in response\nto low intra-tumoral oxygen, which may prevent the body’s inflammatory cells from infiltrating and attacking\nchordoma tumor cells. We intend to test the hypothesis that repurposing existing potent drugs that can reverse\nadenosine’s suppression of the body’s immune system could help accelerate the drug discovery process and\nprovide faster access to safe and effective immunotherapy for most chordoma patients."
+ },
+ {
+  "id": "a883988c-4cbc-498c-bf6f-89d7694ea956",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Functional organization of descending neuron networks for collision avoidance",
+  "text": "Motor programs are driven by descending pathways that originate from the brain. How descending pathways\nare recruited to generate behavioral programs is not well understood. We here seek to establish this\nunderstanding to inform the development of technologies to restore motor function when descending pathways\nare damaged from spinal cord injury or neurodegenerative disorders."
+ },
+ {
+  "id": "a889b68d-789c-4c5c-9841-20b04036a1c7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "UAB Childhood Cystic Kidney Disease Center (UAB-CCKDC) - Resource Development Core",
+  "text": "(RESOURCE DEVELOPMENT CORE) Polycystic kidney diseases (PKD), including both autosomal dominant (ADPKD) and autosomal recessive (ARPKD) forms, are significant causes of kidney failure, affecting millions globally. Despite advances in understanding disease pathogenesis, effective therapies remain limited. This Resource Development Core (RDC) aims to create and nurture a dynamic incubator space that promotes innovation and ensures robust validation of new resources not already available through the proposed Biomedical Resource Cores or in any of the other PKD Centers. The CCKDC RDC provides unique expertise and capabilities to the PKD research community through the PKD RRC Steering Committee to implement the development of new and highly innovative resources. The RDC provides the capability to generate novel mouse and rat PKD resources. We also provide the capability to engineer pluripotent stem cells and differentiate these stem cells into kidney organoids. Together the RDC will facilitate a generation of novel resources for the PKD community based on their research needs and as prioritized by the PKD RRC."
+ },
+ {
+  "id": "a88af161-49a4-484e-b0c7-9945d2e0fe8c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A single-cell approach to developing non-traditional antibiotics",
+  "text": "Due to rising rates of resistance to traditional antibiotics, we are in critical need of novel types of\napproaches for combatting life-threatening bacterial infections. Here I propose a new direction\nfor my lab that harnesses our newfound abilities to monitor gene expression in single bacteria,\nmammalian cells, and phages, as well as to manipulate host gene expression in a cell-type-\nspecific manner. We will combine these new methods to understand bacterial pathogenesis and\nphage therapy dynamics at unprecedented single-cell resolution and to engineer new types of\nnontraditional phage therapies and host-directed antibiotics to combat the rising antibiotic\nresistance crisis."
+ },
+ {
+  "id": "a88c7c40-3375-4cea-91b1-8221f6b8e69e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Photon-Efficient Spectral Lifetime Microscopy",
+  "text": "Fluorescence microscopy allows visualization of intracellular processes at resolutions down to the nanometer\nscale, providing a critical window into mechanisms underlying health and disease. However, differentiating\nmultiple distinct labels in a single measurement remains a key challenge that limits the ability to study complex\nmolecular interactions and functional signals in cells and tissues. This study will develop new optical\ntechnologies that exploit time-domain information to achieve simultaneous measurement of multiple probes in\na single image, dramatically improving the information throughput of fluorescence microscopy."
+ },
+ {
+  "id": "a895ebf1-9c98-401e-9568-e5bf010b9d32",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Partial maturation in mosquito-borne flaviviruses: developing new approaches to characterize the role of lattice heterogeneity in fusion, infectivity, and antibody neutralization",
+  "text": "Mosquito-borne flaviviruses present a significant global health burden, with Dengue, West Nile\nand Zika viruses causing millions of infections and thousands of deaths annually. A better\nunderstanding of the viral surface will aid structure-based pharmaceutical design efforts to\ndevelop more effective treatments and safer vaccines. This proposal describes research to\ncharacterize poorly understood heterogeneity in the viral surface lattice of E proteins, combining\nnovel technologies and analyses to improve structural models and antibody neutralization\nstoichiometry predictions, and clearly establishing which lattice arrangements are most important\nfor infectivity."
+ },
+ {
+  "id": "a8a1f9a8-3e50-4b82-810d-25f3353ed36c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cell-penetrating botulinum proteases as topical therapeutics",
+  "text": "Sensory neurons and immune cells play key roles in skin inflammation and disease. In this application, we seek\nto develop recombinant botulinum proteases that can penetrate into skin cells to inhibit the release of\nneuropeptides in neurons and cytokines in immune cells. When successful, these studies will identify topical\ntherapeutic candidates that could be used to regulate inflammation for the treatment of a myriad of skin diseases."
+ }
+]

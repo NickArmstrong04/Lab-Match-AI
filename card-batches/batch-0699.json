@@ -1,0 +1,142 @@
+[
+ {
+  "id": "6cbdc9e8-84a2-40fe-a7b9-f6b39b58d57a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Signal transduction mechanisms used by a group of uncharacterized ITAM- containing receptors in jawless vertebrates",
+  "text": "Distantly related species are a valuable resource of divergent protein motifs that can be adapted to engineer\nimmunotherapies, such as Chimeric Antigen Receptors. In this project, we will analyze a novel series of chimeric\nantigen receptors that contain previously uncharacterized Immunoreceptor tyrosine-based activation motifs\n(ITAMs) from jawless vertebrates. This work will enable us to optimize the design of engineered antigen\nreceptors."
+ },
+ {
+  "id": "6cc487e1-66f7-42f8-962e-77b64e45ffc9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Minnesota Training Program in Virology",
+  "text": "8. Project Narrative\nThe training of young scientists that will become the next generation of virologists is essential for our nation’s\ncapacity to respond to existing, emerging, and future viral diseases. Furthermore, research on viruses continues\nto lead to fundamental discoveries in biology. Through the Institute for Molecular Virology and this T32 program,\nthe University of Minnesota – Twin Cities campus has established itself as a leader in virology research, with\nstrengths in biophysical virology, cancer virology, influenza virus, herpesviruses, along with emerging and other\nhighly pathogenic viruses."
+ },
+ {
+  "id": "6cc63967-ae79-41f2-b142-5538e8d3ac20",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Core C: Community Outreach and Engagement",
+  "text": "As a part of the UCSF SPORE, the goal of the Community Outreach and Engagement (COE) Core is to ensure that all activities within the SPORE are responsive and relevant to communities’ lived experiences and will ultimately advance cancer health within the SPORE’s catchment area and beyond. Working with an experienced Community Advisory Board (CAB), this will be accomplished through three broad aims: (1) catalyze collaborations between SPORE researcher and communities through activities to promote synergistic interactions, build community capacity for engaging in translational research, and identify opportunities for impactful dissemination; (2) identify barriers and facilitators of participating in clinical trials in broad populations through applying machine learning to clinical trials enrollment and population-based cancer registry data and ground-truthing results with the CAB; and (3) support research on external factors by developing a collaborative community-research framework and approach that reflect communities’ lived experiences and working with projects to ensure the approach is integrated into planned research and training activities. These Core activities will leverage the extensive infrastructure, capacity, and programmatic activities available at UCSF, including the HDFCCC Office of Community Engagement and the innovative and impactful SF CAN initiative. We will additionally leverage Core expertise in community-engaged research, machine learning and accrual of different populations into clinical research, and conduct of “cells-to-society” research incorporating measures of external factors to develop and disseminate community-informed methodologies. The COE Core will ensure these methodologies are applied to and support the projects, and shared across the U54 network."
+ },
+ {
+  "id": "6cc937dd-47c4-4553-b76c-565dc3e7db0a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Engineering and application of modular chimeric tRNA synthetases in mRNA display",
+  "text": "Macrocyclic peptide therapeutics represent a promising class of drugs for targeting difficult\nproteins in disease pathology, such as Alzheimer’s disease. Here, I propose engineering\nmodular chimeric tRNA synthetases to allow easy diversification of these drug candidates to\nimprove their specificity, bioavailability, and efficacy."
+ },
+ {
+  "id": "6cdbeaf1-5eeb-4508-90ef-31281038603f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The role of tolerogenic macrophages in tumor metastasis",
+  "text": "Metastasis is the leading cause of cancer-related deaths globally, with the liver being one of the most frequent\nand detrimental sites of metastatic spread. Our recent findings reveal that a type of immune cells called\nmacrophages promote metastasis to the liver by shielding cancer cells from immune reactions. In this project,\nwe use advanced technologies to study liver metastasis in mice with pancreas or colon cancer to identify the\nroot cause of liver metastasis and evaluate novel treatments to counteract it."
+ },
+ {
+  "id": "6cdd38d0-fa48-40b1-af2e-c05756b9eaf4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Adipose stem cells' niche in obesity",
+  "text": "Obesity, a chronic disease in Veterans, promotes comorbidities such as cardiovascular diseases, metabolic\nsyndrome and type 2 diabetes mellitus. Obese subjects with COVID19 have 33% fatality rate. 61-83% of\nVeterans and DoD beneficiaries are overweight or obese, a significantly higher percent compared to civilians.\nThe healthcare costs of obesity and its related diseases exceeds $1.7 billion annually for the VA. Of note is\nthat even though women veterans are only 10% of the total veteran population, 44% women veterans are\nobese. Furthermore, a startling 75% of Iraq and Afghanistan veterans are overweight or obese and\napproximately 30% of Gulf War and Gulf Era veterans are morbidly obese (BMI>40) (VA/DoD statistics).\nAs part of personalized, proactive Veteran‐driven care, treatment of obesity is consistent with the priorities\noutlined by the Department of Veterans Affairs (VA/DoD Clinical Guidelines, 2014)."
+ },
+ {
+  "id": "6cde121d-7c4f-4fae-8f16-56ece2d629b8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The impact of mitochondrial and peroxisomal fission dynamics on metabolic signaling during corticogenesis.",
+  "text": "Encephalopathy due to mitochondrial and peroxisomal elongation (EMPF) is a devastating neurodevelopmental\ndisease with no effective treatment. This project investigates the mechanism of EMPF by exploring the role of\nmitochondrial and peroxisomal dynamics in early neurodevelopment using patient-derived induced pluripotent\nstem cells (iPSCs) and cerebral brain organoids. Through these efforts, we hope to uncover novel mechanisms\nof metabolic signaling in human brain development that may lead to potential therapeutic targets."
+ },
+ {
+  "id": "6ce05e5e-46b3-4b24-a18a-b4a7646fa93b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Toward Personalized Dental Surgery Planning: Dental Bone Stiffness Discovery and Strain Prediction Using Physics-Informed Machine Learning",
+  "text": "This project aims to revolutionize dental implant surgery planning by using advanced machine learning tech-\nniques to estimate the distributed stiffness in bone and predict strain inside bone under physical forces in implant\nsurgery, which are critical for the success of implant surgery. By combining advanced machine learning with ex-\nperimental bone biomechanics and finite element computational models, our research aims to enable rapid and\npersonalized surgical planning tailored to an individual’s bone geometry and quality. The outcomes of this pro-\nposed study will lead to more effective dental surgeries with higher short-term and long-term success rates and\nmay potentially be extended to improve outcomes in other orthopedic surgery procedures, ultimately contributing\nsignificantly to public health by improving quality of life."
+ },
+ {
+  "id": "6ce0c1b0-00de-4019-98f6-8a1057c9d05b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Biomarker Discovery in Portopulmonary Hypertension",
+  "text": "Portopulmonary hypertension (PoPH) patients suffer from a cardiovascular disease with very high morbidity\nand mortality that occurs exclusively in those with underlying liver disease. Although both the incidence and\nprevalence of chronic liver disease and PoPH have been increasing, the mechanisms by which liver\ndysfunction leads to PoPH, the optimal markers of disease, and the best treatments to improve outcomes in\nthis high-risk population, are all poorly developed. This work, focusing on dysregulated vascular endothelial\ngrowth factor signaling and hepatocellular dysfunction, addresses this urgent and growing clinical need by\nidentifying and developing new biomarkers that will enable more accurate diagnosis, improved risk\nstratification, and more precise treatment for patients with PoPH, ultimately leading to improved clinical\noutcomes in this high-risk population."
+ },
+ {
+  "id": "6ce72960-49ca-4be2-9690-2087dff63e9e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Simultaneous PET/MR Imaging of Brain Glucose and Oxygen Metabolism to Assess Energy Deficits Related to Alzheimer's Disease and the Response to Intervention",
+  "text": "It is projected that by 2030, one in every five Americans will be of retirement age, and this demographic shift is\nexpected to result in more people suffering from dementia. A key feature of the brain is its need for a constant\nsupply of glucose and oxygen to meet the high energy costs of mental activity. This program aims to develop\nclinically practical, noninvasive imaging methods based on combined positron emission tomography and mag-\nnetic resonance imaging to assess brain energy in order to better understand how this critical component of\nbrain health is impacted by aging."
+ },
+ {
+  "id": "6ce7a2be-0a66-4f1a-84a3-325a0a296abe",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multispray Technology for Studying Biomolecular Interactions",
+  "text": "Cutting-edge technologies enable new breakthroughs in biomedicine. Innovative mass spectrometry front-end\nsystem with silicon microfluidic chips, working in conjunction with AI-powered molecular predictions and mass\nspectrometry detections, will accelerate the discovery and validation of new therapeutics and druggable targets."
+ },
+ {
+  "id": "6cea751f-67ee-45e3-9d5c-60e9860401e0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Causal Pathways and Machine Learning Innovations to Improve Emergency Department Outcomes",
+  "text": "This project addresses critical disparities in emergency department (ED) outcomes and resource utilization by developing machine learning tools that support attainment of recommended care, improve clinical decision-making, and enhance healthcare delivery. By identifying causal pathways and integrating structured and unstructured data, the study will uncover mechanisms contributing to disparities and develop actionable approaches to address them. The findings will support scalable approaches to reduce disparities, improve emergency department outcomes, and enhance the quality of care for patients across healthcare settings."
+ },
+ {
+  "id": "6cecd7bb-6589-429a-9313-553b803264e7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The role of SWI/SNF chromatin remodeling complexes in germ line transcription and nuclear organization",
+  "text": "Errors in the process of distributing chromosomes to the gametes, are the major cause of spontaneous\npregnancy loss and birth defects and are an important contributor to infertility. This project combines genomics,\ngenetic, and biochemical approaches to unravel the mechanisms by which chromatin remodeling establish the\nenvironment necessary for proper association and disjunction of the parental homologous chromosomes, all of\nwhich is of paramount importance in preventing the chromosome segregation errors that lead to birth defects."
+ },
+ {
+  "id": "6cf1e217-d4e6-47c6-b595-c5014fdbb3f0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Oncogene Activated Mitochondrial Unfolded Protein Response Regulates Senescence Biology",
+  "text": "Cancer occurs when cells acquire changes that convert them from a normal to a malignant state. Oncogene-\ninduced senescence is a cellular brake that prevents aberrant cells from becoming cancer; and oncogene-\ninduced senescence also controls the tumor microenvironment which adds mechanistic complexities to the\nprocesses of tumorigenesis and metastasis – and therapeutic successes or failures. Therefore, it is important to\ninvestigate the pathways that control oncogene-induced senescence to understand how cancer may be\nprevented, diagnosed, and clinically treated."
+ },
+ {
+  "id": "6cf32fe4-ecf3-43e6-ad24-964dbe0c25e3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Clinical Research Core",
+  "text": "The Columbia University (CU) – Weill Cornell Medicine (WCM) Center for AIDS Research (CFAR) brings together researchers from 2 major institutions united by a single large hospital system in New York City to catalyze and promote HIV research; foster new collaborations; provide robust services to faculty and community members engaged in HIV research; and develop the careers of new investigators entering the HIV field. The CU-WCM CFAR will promote HIV basic, translational, clinical, behavioral, implementation and outcomes research with a regional, national, and international impact and the overall goal of ending the HIV epidemic."
+ },
+ {
+  "id": "6cf38402-49d9-47a8-bccd-830976ed0382",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Structure-guided design of durable pan-lyssavirus vaccines and anti-viral antibody therapies",
+  "text": "Untreated rabies infections are nearly 100% lethal and kill over 50,000 people every year, disproportionately affecting children. While lifesaving, current rabies vaccines and post-exposure therapies can be prohibitively expensive and do not elicit long-lasting protection, with some individuals needing revaccination as frequently as every 6 months. Modern techniques, such as rational vaccine design and monoclonal antiviral antibody cocktails have excellent potential to develop more affordable post-exposure therapies and longer lasting vaccines. However, these techniques require high-resolution structural information about how antibodies bind to rabies glycoprotein (RABV-G) to neutralize infection and how RABV-G interacts with cellular receptors to facilitate infection. To address the knowledge gap in rabies protein structures, I will use the resources available in the Advanced Biological Imaging and Cell Analysis (ABICA) research core to determine multiple high-resolution cryo-electron microscopy (cryo-EM) structures of RABV-G in complex with receptors and neutralizing antibodies. These structures will allow identification of the specific protein-protein binding interactions between RABV-G, antibodies, and cellular receptor(s) and will serve as a road map to inform future rational design of improved rabies vaccines and antiviral therapeutics. I will express and purify anti-rabies monoclonal antibodies from sequencing (NCBI) and patent databases, determine the strength and mechanism of antibody neutralization, solve high-resolution RABV- G/antibody structures, and then correlate strength and mechanism of neutralization to specific protein-protein contacts in the structures. I will also cleave N- and O-linked glycans from the cell surface and quantify the changes in rabies pseudovirus cell binding to determine if glycans act as attachment factors during infection, identify nicotinic acetylcholine receptor (nAChR) isoforms with high affinity for RABV-G with bio-layer interferometry, and solve high-resolution cryo-EM structures of high binding affinity nAChR/RABV-G complexes. This work will result in at least three manuscripts, establishing me as an independent researcher in the fields of rabies virology and cryo-electron microscopy, and will serve as key preliminary data in my first R01 grant application. The Cell and Molecular Pathogenesis (CAMP) Core will further support my development as an independent researcher by providing me with access to key equipment and technical expertise through the ABICA research core. My internal and external mentors will help me develop and revise my R21 and R01 grants, advise me on personnel and logistics as I set up my laboratory, and provide me with feedback on my research as I write my first independent manuscripts. CAMP’s available support and workshops on translational science will also help me progress my long-term research goal of developing an improved rabies vaccine and antiviral therapeutics by connecting me with the resources to submit patents, conduct clinical trials, and find industry partners to develop, produce, and market these products."
+ },
+ {
+  "id": "6cfa2eb4-d89a-40f8-93f3-4e8118716dda",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Causal and Event Based Modeling of Brain Alterations in ADRD",
+  "text": "Large-scale aging and epidemiological datasets can be harmonized alongside studies specific to Alzheimer’s\ndisease and related dementias to generate computational models that can map normal brain aging and identify\nthe first non-invasive indicators of abnormal brain aging and ADRD pathology and the modifiable lifestyle factors\nthat can potentially alter the course of the abnormalities. Here, we propose advanced modeling techniques of\nharmonized high dimensional data from existing and public datasets to 1) create normative aging models of the\nentire brain at the individual level to identify the first signs of deviations at local brain regions; 2) use high\ndimensional event based modeling and subtyping approaches to identify the order in which different\nmicrostructural and structural properties of brain tissue start to deviate from normality in the progression of\ndisease; and 3) use marginal sensitivity analysis to model the extent to which modifications in lifestyle factors\nmay causally relate to changes in trajectories of brain abnormalities in the progression of dementia."
+ },
+ {
+  "id": "6d0bffc5-bb0e-49ac-9b35-85b436298dec",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Computational Drug Repurposing for AD/ADRD with Integrative Analysis of Real World Data and Biomedical Knowledge",
+  "text": "The goal of this project is to develop a comprehensive learning-based causal inference framework to generate\nhigh-throughput drug repurposing hypotheses for Alzheimer’s' disease and related dementias (AD/ADRD) from\nreal-world data and biomedical knowledge bases. The generated drug repurposing hypotheses will be validated\nwith diverse data sources and approaches including (1) using multi-omics data based on the network medicine\napproach, and (2) using the trial emulation approach and with i) high-quality cohorts’ data from the National\nAlzheimer's Coordinating Center (NACC), and ii) a prospective RWD-based cohort. The developed algorithms\nand software tools will be made publicly available and widely disseminated in the AD/ADRD research\ncommunities."
+ },
+ {
+  "id": "6d0d5593-0cf4-40c6-ab75-7dda3a3d07f8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "In vivo CRISPR engineering of B cells to produce anti-HIV broadly neutralizing antibodies using novel nanoparticles",
+  "text": "This research will develop scalable and cost-effective gene therapy to elicit directed immunity against human\nimmunodeficiency virus infections which impact tens of millions of patients worldwide. We are proposing to use\ngold nanoparticles to deliver precise genetic insertion of broadly neutralizing antibody genes against HIV in\nimmune cells and repopulating hematopoietic stem and progenitor cells inside the body. This single step\napproach combines the latest CRISPR delivery technology with a new strategy to direct humoral immunity which\ncould represent a one-time treatment with cure potential for persons living with HIV."
+ },
+ {
+  "id": "6d0dcb0a-abab-4831-814d-ad38a6b6539e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Real-time Monitoring and Correction of Clinical Decision Support Systems using Artificial Intelligence",
+  "text": "This project develops methods to monitor and update clinical decision support (CDS) systems in real time, ensuring they remain accurate and reliable as healthcare practices evolve. The primary application is a machine learning system that predicts inpatient admissions in the emergency department to improve patient flow and resource use. These methods aim to enhance the safety, efficiency, and consistency of AI-assisted clinical decision-making in diverse care settings."
+ }
+]

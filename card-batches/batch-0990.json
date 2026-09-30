@@ -1,0 +1,142 @@
+[
+ {
+  "id": "d42a65f3-c01f-48fc-a879-6ef11a829e01",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Advancing Spatial Metallomics/Metabolomics, Genome Editing, and Biocatalysis by Designing and Selecting DNAzymes, Aptamers, and Biosynthetic Models",
+  "text": "This research will develop advanced tools for high-resolution spatial mapping of metal ions and metabolites\nin cells and tissues, providing critical insights into their roles in human health and disease. It will also create a\nnovel genome editing technology with fewer off-target effects, greater accessibility to compacted genomic\nregions, and reduced immunogenicity, which will lead to safer and more effective genetic therapies. Additionally,\nby designing biosynthetic models of metalloenzymes involved in oxygen and nitrogen metabolism, this work will\ndeepen our understanding of key biochemical processes, guiding therapeutic strategies for oxidative stress-\nrelated diseases."
+ },
+ {
+  "id": "d42a6afc-fbcb-45fd-983e-8db9239da1f5",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "MMS22L loss and PARP inhibition in prostate cancer",
+  "text": "One of the major barriers to effective treatment using PARP inhibitor is how to select patients who\nmost likely benefit from PARP inhibition. In this project, we will determine whether loss of MMS22L can\npredict response to PARP inhibitor in prostate cancer."
+ },
+ {
+  "id": "d42dd24e-3fa0-4644-848f-b406088410a0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Peripheral nervous system aging",
+  "text": "We are interested in the peripheral nervous system, which connects the brain to all organs, and\nhow it could set the tempo of aging. Understanding the role of peripheral organ innervation during\naging is important because it could lead to entirely new strategies to counter aging and diseases.\nSolutions to this question could also be broadly applied to other biological phenomena where time\nand organ coordination are critical."
+ },
+ {
+  "id": "d4310d89-2927-4671-a30c-ee7b2a02dd55",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Implementing breast cancer screening using clinical breast exam in the primary health centers of Abuja, Nigeria",
+  "text": "Women served by under-resourced health systems in the USA face higher mortality if diagnosed with breast cancer, in part because of limited access to breast cancer screening and a higher likelihood of being diagnosed with late-stage cancer. Programs using clinical breast examination (CBE) to screen for breast cancer have been shown to decrease late-stage diagnoses and improve cancer mortality but are difficult to implement in the resource-constrained healthcare systems. This research aims to work with primary care providers and patients to develop strategies for implementing CBE screening programs in Nigeria, in order to generate implementation science techniques that can inform efforts to improve breast cancer care in under-resourced health systems in the USA and globally."
+ },
+ {
+  "id": "d431dbc8-da85-4bba-b500-1024409b6492",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Oral Pathogen-triggered Progression of Oral Squamous Cell Carcinoma",
+  "text": "Oral squamous cell carcinoma (OSCC) is the most common type of oral cancer worldwide with an average 5- year survival rate of only 68% and accounts for over 180,000 deaths annually. Risk factors for OSCC include tobacco and alcohol usage, and human papillomavirus infections. Poor oral hygiene has also been correlated with various cancers and other chronic diseases. The oral microbiome has therefore been hypothesized to play a role in the development of these diseases. In recent years, multiple studies have clearly shown a significant difference in the oral microbiome composition of OSCC patients versus non-OSCC individuals. However, only two oral pathogens, Porphyromonas gingivalis, and Fusobacterium nucleatum, have been shown to have direct effect on OSCC development, while little is known about whether other members of the oral microbiome also contribute to cancer progression. Recently, we discovered that Prevotella intermedia, another well-known periodontal pathogen previously found to have higher abundance in oral cavity of OSCC patients, also contribute to cancer progression. We showed that certain P. intermedia isolates enhanced the proliferation and migration of multiple human OSCC cell lines in part by the secretion of the cysteine proteinase Interpain A (InpA). We further revealed that InpA might enhance OSCC proliferation and migration by interacting with the human protease-activators receptor 2 (PAR2), a known oncoprotein. To test the hypothesis that P. intermedia is a novel oncobacterium, we aim to identify the mechanism by which P. intermedia stimulates OSCC progression. In addition to confirm the role of InpA and PAR2 in P. intermedia-stimulated OSCC progression, we will perform transcriptomic studies to reveal the full extent of P. intermedia’s effect on OSCC gene expression. Identification of P. intermedia genes associated with OSCC progression will be achieved by the establishment of a high-throughput assay to screen for P. intermedia transposon mutants deficient in their ability to enhance cell proliferation and migration. In the second aim, we will determine if polymicrobial interaction plays a role in P. intermedia-stimulated carcinogenesis by in vitro assays and by establishing a murine model of oral tumorigenesis. The studies presented here will reveal for the first time that P. intermedia contributes to OSCC progression. Equally important are the novel high-throughput screening system developed in this study which will provide invaluable tools for other investigators to examine the role of P. intermedia in other diseases. Finally, our study will yield clues to the mechanisms behind oral microbiota facilitated OSCC development."
+ },
+ {
+  "id": "d433cb9f-5cbf-421f-be07-07260f75e034",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Cancer Data Analysis",
+  "text": "CANCER DATA ANALYSIS SHARED RESOURCE (CDA) The overall mission of The Jackson Laboratory Cancer Center (JAXCC) is to bring genomic solutions to cancer medicine. Our basic research goal is to tackle the question of “Genetics and Genomics of Aging and Cancer”, while our translational intent is to contribute new concepts, technologies, and clinical education initiatives originating from basic science to advance precision cancer medicine. The JAX Cancer Data Analysis Shared Resource (CDA) is central to the achievement of the JAXCC's Research Program goals. As cancer research has become increasingly data intensive, it is vital that investigators have support for interpreting and leveraging vast data sets, both publicly available and internally generated, to understand cancer biology. CDA services are spread across three main resource delivery areas that function in a modular manner so that JAXCC members can access the right mix of expertise and resources tailored to their scientific. These areas are, first, Biostatistics and Technologies, which develops multi-modal data integration approaches to better model human disease; cross-species genetic and genomic analyses; systems and algorithms to analyze short- and long-read sequencing data; and standardization of bioinformatics, genetic analyses, and other omics workflows across JAX to facilitate research reproducibility. Second, Genomic Computing, which develops and applies computational methods for single-cell sequencing, single-cell imaging, and related spatially aware approaches; provides expert analysis; supports data interpretation; and supports the development, maintenance, and improvement of scientific databases and web applications, with a focus on FAIR and TRUSTworthy ecosystems for data governance. Third, Machine Learning and Imaging, which develops and applies deep learning methods for genomic, epigenomic, proteomic, metabolomic, and imaging data analysis, and explores application of Large Language Models (LLMs) for mining literature, integrating data, and supporting tumor boards. In the next funding cycle, CDA will expand into big data analytical platforms pursuing expanded hybrid cloud and in-house high- performance computing capabilities and will provide support for artificial intelligence (AI) applications. The Specific Aims of CDA are: Aim 1: To support JAXCC members in developing cutting-edge analytical procedures for emerging problems in cancer genomics, and to carry out integrative analysis in fundamental and translational cancer research; Aim 2: To develop bioinformatics applications, maintain scientific analysis workflows, and provide data architecture and software engineering expertise for the development and management of scientific data portals pertaining to specific scientific questions addressed by JAXCC members; and Aim 3: To assist in resource planning for and management of complex computational projects and long-term information technology and data science development for JAXCC members."
+ },
+ {
+  "id": "d433f19d-f528-47b5-ae8f-cda34bf86185",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Biomek i7 Hybrid Automated Liquid Handler to Support Biomedical Research and Discovery",
+  "text": "The Biomek i7 Hybrid platform requested in this application is a robotic system required to automate\nlaboratory protocols and procedures to increase efficiency, precision and reproducibility. The demand for\nthis technology is high as it can be used to improve both basic science and translational, clinically relevant\nresearch operations. The access to this technology would fill a critical gap and represent a major\nopportunity for researches studying microbial pathogenesis, immunobiology, neonatal and pediatric\nmedicine, oncology, therapeutic radiology, dermatology and many other research fields."
+ },
+ {
+  "id": "d442d367-0467-4ff6-b935-1744233093c2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Human leukocyte antigen and immune response in non-small cell lung cancer: A multi-omics approach",
+  "text": "While immune checkpoint inhibitors (ICIs) have transformed cancer therapy, durable response\nhas been observed in only 20-30% of patients with non-small cell lung cancer (NSCLC),\nhighlighting the urgent and unmet need for novel accurate biomarkers. Human leukocyte antigen\n(HLA) genes are key to antigen presentation, with their inherited and acquired polymorphisms\nmarkedly influencing the diversity of peptide repertoire and individual immune response. The\noverarching goal of this proposal is to elucidate the role of germline and somatic HLA variations\nin cellular immunity and the efficacy of ICI monotherapy in patients with NSCLC, employing novel\nstatistical and machine learning methods to analyze multi-omic and clinical data."
+ },
+ {
+  "id": "d44835eb-a9f0-409f-83a1-16362d843119",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Therapeutic Disruption of HIV Transcription by HIV-1 Tat Protein-Degrading Molecules",
+  "text": "HIV transcription is regulated by the HIV Tat protein, but Tat inhibitors are not yet part of the clinical antiretroviral\nammunition despite their immense potential at shutting down particle production from infected cells and blocking\nTat toxicity. A high throughput drug screening of 369,203 compounds yielded three strong leads with the unique\nproperty of degrading the Tat protein. We now propose to develop improved compounds through medicinal\nchemistry, characterize, and tested them in animal models of HIV infection to expand our panel of Tat inhibitors\nfor commercialization of this unique class drugs."
+ },
+ {
+  "id": "d4497cff-6a3d-416b-b83a-a672e398ce86",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Connecting Circadian Clock Dynamics to Metabolism and Fitness",
+  "text": "Modern lifestyles which rely on artificial lighting and irregular work schedules cause conflicts with\nour internal circadian rhythm which anticipates regular 24-hour cycles in behavior. We seek to\nunderstand how the circadian clock creates rhythms in metabolism that support health and fitness.\nBy mapping how the circadian rhythm is altered by mutation we will define the relationship\nbetween the environment and the clock needed for fitness, ultimately revealing strategies to\nmitigate circadian disruption."
+ },
+ {
+  "id": "d449d4bd-f853-4c82-ab39-b6da959ad469",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cell Biology of Endosomal Escape",
+  "text": "We will characterize the cellular mechanism(s) of endosomal membrane damage and repair, which we can now\nobserve directly, to relate these mechanisms to delivery of cargo into the cytosol. This understanding will\nfacilitate development of strategies for enhancing delivery of biological therapeutics into targeted cells."
+ },
+ {
+  "id": "d450c7c7-22ff-4f5c-8183-262ebc3c99e4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Transgenic Animal Models (TAM)",
+  "text": "(TRANSGENIC ANIMAL MODELS SHARED RESOURCE) The Transgenic Animal Models Shared Resource (TAM-SR) was formally established in 1989 to provide specialized equipment and expertise in transgenic technology and genome engineering to University of Michigan (U-M) faculty. Recognizing its high scientific impact, TAM-SR had been continuously funded by the Cancer Center Support Grant (CCSG) since 1996. The CCSG in combination with institutional support provides Rogel Cancer Center (Rogel) members with a cost-effective resource that eliminates the need to independently establish resource intensive assets in their individual laboratories. TAM-SR provides specialized equipment and staff trained in embryo micromanipulation, CRISPR/Cas9 reagent construction/validation, embryonic stem cell culture, and provides training in these technologies. Rogel members benefit from the ability to use genetically engineered mouse models in their research at a reasonable cost because of the SR’s extensive capabilities and expertise as well as institutional and CCSG support. TAM-SR is located in the School of Medicine in close proximity to the majority of Rogel members."
+ },
+ {
+  "id": "d45b61a0-bd5a-4ff5-8c1d-e299a5923653",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Systematic Characterization and Targeting of Neomorphic Drivers in Cancer",
+  "text": "To address the challenge of how to effectively target neomorphic driver aberrations, where the functional\nconsequences of the gene on tumor cell-intrinsic or tumor microenvironment processes are altered\nthrough changes in regulatory processes, binding partners, or cellular location, we propose a CTD2\nCenter that will employ\ncharacterize,\n state-of-the-art, high-throughput computational and experimental approaches to identify,\n validate, and target novel neomorphic drivers. Focusing on glioma, sarcoma, and endometrial\ncancers that represent high unmet need where we have identified multiple candidate neomorphic drivers, our\napplication\npathways\nfew\nmarkers,\nspecific\nimmune\n will address three key areas listed in PAR-21-274: (i) improve understanding of gene functions in\nand cellular wiring important in cancer initiation, progression, and metastasis within the context of a\n human tumors; ( ii) identify and confirm biological candidate targets, and possibly associated predictive\ninvolved in ancer etiolog y which are amenable to modulation; and (iii) determine how these context-\n neomorphic pathways can be harnessed in combination with established strategies that target the\n system, and identify mechanisms of resistance. Our collaborative, interdisciplinary team, comprising\nc\nDrs. Mills (tumor biology/clinical trials), Deneen (molecular genetics/electroporation tumor models), Liang\n(computational biology), and Chen (innovative algorithms) will address this challenge through three Specific\nAims: (i) to develop computational algorithms for predicting neomorphic driver aberrations; (ii) to\nidentify and elucidate mechanisms underlying potential neomorphic driver aberrations; and (iii) to\nelucidate therapeutic liabilities engendered by neomorphic driver aberrations."
+ },
+ {
+  "id": "d4609d77-16b1-4641-a8ff-3a43b35271e2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting Polyamine Metabolism in Relapsed Acute Myeloid Leukemia Stem Cells",
+  "text": "Acute myeloid leukemia (AML) is a devasting blood cancer with particularly poor outcomes. Outcomes for AML\npatients have remained poor, due to our inability to fully eradicate a population of therapy resistant cells called\nleukemia stem cells (LSC). In this proposal, we will use advanced pre-clinical models to examine a newly\ndiscovered vulnerability of LSCs, polyamine metabolism, with the overall goal of developing new strategies to\nbetter target LSCs and improve AML patient outcomes."
+ },
+ {
+  "id": "d465a57e-7d10-4fe0-ab76-1cd946a6c861",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Artificial Intelligence Augmentation to Guide Clinicians in Hospital-Based Treatment of Substance Use Disorders",
+  "text": "This project renewal aims to transform hospital-based screening for substance use disorders into a multi-task\nartificial intelligence (AI) Assistant that supports the full addiction care continuum, from early identification to\ntreatment initiation to communication quality. Our work will benefit patients by providing timely, evidence-based\ninterventions and supporting clinicians with tailored, data-driven recommendations, with the long-term goals of\ndecreasing adverse events, reducing morbidity and mortality, and improving communication in addiction care\ndelivery."
+ },
+ {
+  "id": "d466f495-0367-4bed-b490-2d83adf3dd80",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Instantaneous digital subtraction angiography for neurovascular applications",
+  "text": "_________________________________________________________________________________\nRelevance to Public Health h\nThe morbidity/mortality of cerebrovascular diseases (CVD) ranks 5th in major causes of death and\ndisability in the US, necessitating more investment in basic and clinical research to address the unmet\nneeds in its prevention, diagnosis, prognosis and therapeutic intervention. As a minimum invasive\nprocedure, digital subtraction angiography (DSA) is the gold-standard for CVD diagnosis and\ntherapeutic intervention, but its image quality is suboptimal due to insufficient contrast sensitivity and\nspatial misregistration induced by vascular pulsation or involuntary patient motion. In this study, we\nexplore the feasibility of instantaneous DSA (iDSA) with sufficient contrast sensitivity for intravenous\nangiography and no motion artifacts towards the long-term goal of establishing iDSA as a standalone\nmodality for CVD screening, diagnosis and therapeutic intervention."
+ },
+ {
+  "id": "d46ceeaa-2438-4ee9-af0f-a59dc6e566cd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Islet-specific CD8 T cells in the pathogenesis of type 1 diabetes",
+  "text": "Type 1 diabetes occurs due to autoimmune destruction of insulin-secreting beta cells in the pancreas. Identifying\ntarget molecules (i.e. antigens) for T-immune cells is important to develop immunotherapy to halt autoimmune\nattack against beta cells and ultimately prevent and cure type 1 diabetes. In this project, we will determine antigen\nspecificity and phenotypes of CD8 T-immune cells that are crucial in the pathogenesis of type 1 diabetes."
+ },
+ {
+  "id": "d46d2320-516d-4f81-8614-24a915bdefd3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Uncovering Nodal signaling and transcription factor interactions in somitic mesoderm development using single-cell deep learning methods",
+  "text": "The proposed research will create a cis-regulatory map of how Nodal signaling and T-Box transcription factors,\naffect cell-type specification during somitic mesoderm development. Improvements to high-throughput\nsingle-cell technologies and computational methods will be developed to uncover TF interactions during the\ndifferentiation of somitic mesoderm in zebrafish. The success of deep learning methods for in silico\nexperiments to predict TF-TF interactions paired with high throughput CRISPR mutagenesis of F0 zebrafish\nwould represent a significant advance toward understanding gene regulation required for development."
+ },
+ {
+  "id": "d473e625-8e93-4f10-9830-c583f9cd6453",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Complementary Biotherapeutic Delivery Platforms for Enabling Gene Re-delivery",
+  "text": "Addressing the pivotal challenge of re-delivering gene therapy via Adeno-associated viruses (AAVs) due to\nimmune constraints, this research pioneers advanced delivery and targeting strategies across three distinct\npharmaceutical platforms to modulate immune responses and enable repeated gene therapy. By overcoming\nspecific biological barriers and controlling adverse immune reactions, this work aspires to significantly advance\nthe safety and efficacy of gene therapies while developing novel delivery platforms for therapeutic cells,\nenzymes, and vaccines. The realization of this research promises to mitigate illnesses and disabilities\nassociated with genetic disorders, thereby contributing to enhanced public health."
+ },
+ {
+  "id": "d476c118-e718-4449-b479-8c2860f58f01",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Exploring CLK2 as a novel therapeutic target in rhabdomyosarcoma",
+  "text": "The overall goal of this project is to explore a novel therapeutic target CLK2 in rhabdomyosarcoma, thereby\nunderstanding the splicing dependency of rhabdomyosarcoma for therapy development."
+ }
+]

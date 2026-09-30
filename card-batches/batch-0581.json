@@ -1,0 +1,142 @@
+[
+ {
+  "id": "42205592-f7b3-479f-941a-346209483846",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Advancing positron lifetime tomography for clinical translation",
+  "text": "Positron emission tomography (PET) is a medical imaging technique extensively employed in clinic for the\ndetection of cancer, cardiovascular diseases, and neurological disorders. This project aims to advance a novel\nimaging technique that enables the measurement of positronium lifetime in human body, thereby offering\ncomplementary information about the tissue environment. This innovative approach holds significant promise for\nadvancing our understanding of human diseases."
+ },
+ {
+  "id": "42233675-9eba-4e82-a0d1-0e1c2123d591",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Six-Dimensional Single-Molecule Nanoscopy for Elucidating the Dynamic Organization of Biomolecules",
+  "text": "8. PROJECT NARRATIVE\nInteractions between proteins and nucleic acids give rise to self-assembly and phase separation that directly\nimpact gene regulation, cell-cell signaling, and amyloid aggregation. This research will develop new technologies\nto visualize the motions, organization, and interactions of these biomolecules at the molecular level. These\ntechnologies will be an invaluable tool in the study of the mechanisms of Alzheimer’s disease and amyotrophic\nlateral sclerosis (ALS)."
+ },
+ {
+  "id": "422e4dcf-84fb-467e-8a82-462ffb0a36dc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting the FBXO44/SUV39H1 Pathway in Cancer",
+  "text": "Viral mimicry is an emerging therapeutic approach that transcriptionally reactivates endogenous retroviruses\nand retrotransposons in cancer cells to elicit intracellular antiviral pathways that promote antitumor effects and\naugment the efficacy of certain cancer therapies, including immunotherapy. However, viral mimicry inducing\nagents identified to date target both cancer and normal cells, leading to significant side effects for cancer\npatients. Understanding how the FBXO44/SUV39H1 pathway promotes DNA replication-coupled repetitive\nelement silencing selectively in cancer cells could uncover a targetable epigenetic vulnerability whose inhibition\ninduces viral mimicry to prevent tumor growth and progression and enhance the efficacy of cancer\ntherapeutics."
+ },
+ {
+  "id": "423349f2-5c85-42bd-a1af-4f8656a67610",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Divergent Calcium Channels of the Apicomplexan parasite Toxoplasma gondii",
+  "text": "Calcium signaling is essential for pathogenesis. The studies proposed will use as a model, the\nunicellular pathogen Toxoplasma gondii, which infects almost one third of the world population. Our\nstudies will highlight fundamental concepts on the mechanism by which eukaryotic pathogens may\ncause disease."
+ },
+ {
+  "id": "4237967d-2c44-4a60-9596-f676b4a39989",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Contribution of striatum to central auditory processing",
+  "text": "The striatum receives both ascending and descending auditory inputs and is proposed to play a significant\nrole in central auditory processing. However, fundamental questions about how specific auditory information\nis processed and integrated in the striatum and transformed into appropriate actions remain poorly\nunderstood. By focusing on the caudal striatum (TS) which receives intensive projections from auditory\ncortex, and investigating a previously unrecognized ascending pathway to TS, we aim to generate new\ninsights into auditory processing in the striatum, and the findings may also enhance our understanding of\nthe pathophysiology of auditory processing disorders as well as striatum-related neuropsychiatric disorders."
+ },
+ {
+  "id": "423e8ff3-619d-431f-8d62-50df968f09bb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting purine salvage dependency for disease control in FH-deficient renal cell carcinoma",
+  "text": "Hereditary leiomyomatosis and renal cell carcinoma (HLRCC) is a morbid genetic cancer syndrome that lacks\ntargeted therapeutics and is characterized by loss of fumarate hydratase (FH), which our group has shown drives\na nutritional reliance on purine salvage. While this finding may carry strong translational implications, our ability\nto leverage this dependency is limited by a lack of in vivo disease models and gaps in fundamental knowledge\nof HLRCC pathogenesis. I aim to address these gaps and advance research towards targeted treatment options\nfor patients by 1) generating an in vivo spontaneous HLRCC model which mimics the genetic perturbations and\nprogression in patients to understand FH-loss mediated pathogenesis and 2) design and implement a purine\nrestriction-based dietary intervention for HLRCC disease control."
+ },
+ {
+  "id": "42496f63-f7ad-4b1a-9c7d-d1d2443431eb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Pediatric Early Phase Clinical Trials Network (PEP-CTN) Transfer Application",
+  "text": "The Pediatric Early Phase Clinical Trials Network (PEP-CTN) is a consortium whose mission is to identify and\ndevelop effective new agents and treatment strategies for children and adolescents with cancer, through\nrational and efficient clinical and laboratory research. PEP-CTN clinical trials will incorporate correlative\ngenomics, biology, pharmacology, imaging studies, and patient reported outcomes to help further the\nunderstanding of the disposition and action of new treatments for children with cancer. Ultimately, PEP-CTN\naims to develop innovative pediatric cancer therapies which are more effective and less toxic.\nProject Narrative Page 22"
+ },
+ {
+  "id": "42648a6b-d545-44b3-9b36-acd50325e41d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular Mechanisms of MDS pathogenesis with aging",
+  "text": "Using 3 mouse models of MDS, patient cells and iPSC models of age-related clonal hematopoiesis (ARCH) we\nidentify a transcriptional signature comprising Nucleoporin (NUPs) family members as highly associated with\nMDS induction and disease transformation in patients and disease inducing in mice and human models. Our\ngoal in is to comprehensively examine the role of the NUP pathway in the induction of MDS from aging\nrelated factors of ARCH and inflammation and identify the mechanisms of their actions."
+ },
+ {
+  "id": "42698610-cae4-4b93-a7f7-95f1f014dca1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "An Integrative Computational Multimodal approach to disentangle Pathophysiologic Heterogeneity of age-related White Matter Hyperintensities",
+  "text": "This proposal combines advanced pattern analysis applied to magnetic resonance imaging with integrative\nomics analysis to enhance understanding of the disease biology of white matter hyperintensities (WMH), a\ncommon age-related imaging finding indicative of poor brain health. We will leverage novel machine\nlearning-derived spatial patterns representing unique causes of WMH to improve prediction of related clinical\noutcomes including stroke and cognitive impairment on an individual basis, discover new genes relevant to\nWMH, and identify potential drug targets to advance development of mechanism-based therapies."
+ },
+ {
+  "id": "426c7b7a-514a-40ae-8d3a-af407cdb1217",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Unraveling the Role of Water Hyacinth in Modulating Schistosomiasis to Facilitate Scaling a Proven Disease Control Intervention",
+  "text": "Schistosomiasis is among the most common travel-associated parasitic infections and remains relevant\nto U.S. travelers, military personnel, and immigrant populations. Kenya provides a unique natural\nlaboratory where active schistosomiasis transmission overlaps with naturally occurring gradients of\ninvasive water hyacinth, conditions that do not exist in the United States. This project will identify\necological and behavioral mechanisms needed to safely adapt an innovative environmental control\nstrategy for schistosomiasis, generating reproducible knowledge that will strengthen prevention and\ncontrol for Americans at risk of schistosomiasis."
+ },
+ {
+  "id": "42731893-b9b1-46a0-8aad-803218885752",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of oxidative stress in doxorubicin-induced cardiotoxicity",
+  "text": "Doxorubicin (dox) is a widely used chemotherapy with dose-dependent cardiotoxicity. Genetic variability contributes to inter-patient variability in cardiotoxicity severity, with patients having particular genotypes conferring a 3-fold higher risk. Single-nucleotide polymorphisms (SNPs) that are associated with a higher risk of dox-cardiotoxicity in a particular group of patients do not show the same association in a different group of patients, emphasizing the role of the patient-dependent genetic landscape in dox-cardiotoxicity. On the other hand, we showed that oxidative stress is a major underlying mechanism of dox-cardiotoxicity. Notably, the oxidative stress severity is dependent on patient-specific genetic makeup. Our preliminary data identified a novel dox-cardiotoxicity-related genetic locus that encodes for a long non-coding RNA (lncRNA) EPHA2-AS1 and may regulate dox-cardiotoxicity via tuning oxidative stress in cardiomyocytes. Importantly, SNPs in EPHA2-AS1 are associated with altered EPHA2 expression, calcium levels, and hepatic inflammatory markers. EPHA2.AS1 is located on the antisense strand adjacent to EPH receptor A2 (EPHA2). EPHA2 promotes mitochondrial dysregulation and oxidative stress and is upregulated during the pathogenesis of multiple diseases. Therefore, we hypothesize that heart cells generated from patients with higher oxidative stress are more prone to severe dox-induced cardiotoxicity than those derived from patients with lower oxidative stress and that EPHA2.AS1 regulates EPHA2 in the human heart, which dysregulates cardiac mitochondria, exacerbating dox-induced cardiotoxicity. We will investigate the role of patient-specific cardiac regulation of oxidative stress in dox-induced cardiotoxicity. We will use a cohort of patient-specific human induced pluripotent stem cell-cardiomyocytes derived from patients (with low and high oxidative stress based on patient-specific genetic architecture) with and without dox-cardiotoxicity to examine ROS production, investigate their effect on dox-cardiotoxicity using our well-established biochemical and functional assays, reveal genes/pathways implicating patient-specific cardiac regulation using RNA-Seq, and screen for cardioprotective antioxidants in iPSC-cardiomyocytes and mice (Aim1). In Aim 2, we will define the role of EPHA2.AS1 in mitochondrial dysregulation-driven dox-cardiotoxicity. We will use CRISPR-Cas9-generated EPHA2.AS1 KO, OE, and isogenic iPSC-cardiomyocytes to assess its effect on the severity of dox-cardiotoxicity and on EPHA2 regulation and signaling. Furthermore, we will use CRISPR-Cas9 to introduce a potential candidate EPHA2.AS1 SNPs in isogenic iPSC-cardiomyocytes followed by characterization of mitochondria dysregulation-driven dox-cardiotoxicity. Moreover, we will use an Epha2 KO mouse to assess the implication of Epha2 in dox-cardiotoxicity in vivo. Successful completion of these aims will establish the implication of oxidative stress in dox-induced cardiotoxicity in a patient-specific manner, uncover novel patient-specific cardioprotective agents, and reveal a novel role for EPHA2.AS1 in the cardiac regulation of oxidative stress-induced cardiotoxicity."
+ },
+ {
+  "id": "42756be3-9ac7-46e6-952d-2de80493e7b2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Structural/functional characterization of TGFB superfamily signaling and regulation",
+  "text": "The Transforming Growth Factor Beta (TGFb) family is a complex, highly diversified,\nsignaling pathway essential to life. This proposal will provide significant insights into the molecular\nmechanisms of TGFb family signaling and its regulation. While providing a fundamental understanding of\nTGFb family biology, these studies support therapeutic development in human diseases, including those\nimpacting bone and muscle, iron homeostasis, cancer and cardiovascular disease."
+ },
+ {
+  "id": "42859908-97d8-407c-8d2e-59571d9fabbc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Restoring Immune Tolerance in a Model of Multiple Sclerosis",
+  "text": "MS is a neuro-inflammatory autoimmune disease in which T cell driven inflammation leads to demyelination\nand damage of axons. The overall goal for is proposal is to develop a clinically relevant Adeno-associated virus\n(AAV) immunotherapy that will restore tolerance in an autoimmune setting such as Multiple Sclerosis (MS). We\nwill show that our protocol will induce and expand antigen (Ag)-specific regulatory T-cells (Tregs) in vivo and\nindependent of MHC or epitope restrictions."
+ },
+ {
+  "id": "4285e89e-45e2-4768-b5cf-8807789d1e2b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Structural Dynamics of Active Transporters",
+  "text": "Steady emergence of microbes displaying acquired drug resistance phenotypes has prompted health\norganizations to declare multidrug resistance a global public health concern. In addition, multidrug resistance\ncompromises the efficacy of cancer treatment. The proposed studies will yield a structural dynamic blueprint for\ntransporters underlying basic multidrug resistance phenomena in bacteria and humans, knowledge which can\nbe exploited to develop strategies to inhibit these transporters."
+ },
+ {
+  "id": "4287182b-f72d-498c-9878-423a6f3148f1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Accumulation of Elevated Risk Associated with Treatment-Escalation Differences in patients with Type 2 Diabetes (ACCELERATED-T2D)",
+  "text": "In order to prevent costly and clinically severe complications, it is essential to effectively manage glucose levels in patients with type 2 diabetes by adjusting medication strategies according to their therapeutic needs throughout their lifetime. However, the different treatment patterns and timing of these adjustments cannot be explained solely by clinical indications but are often influenced by socioeconomic backgrounds. To address the gaps in achieving optimal outcomes in healthcare delivery, we propose a comprehensive examination of the associations between patient-level diabetes treatment modality; their impact on glycemic control and diabetic complications; and social health determinants including educational attainment, healthcare coverage, and neighborhood characteristics, aiming to generate evidence on the factors contributing to treatment outcome variations and identify strategies to improve effectiveness in managing type 2 diabetes."
+ },
+ {
+  "id": "4289fe95-1dff-4795-9034-46935fc07e8f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of first-in-class AAK1 PROTACs for ovarian cancer",
+  "text": "Paclitaxel is the front-line treatment for ovarian cancer but often results in the development of resistance leading\nto therapeutic failure. We identified AAK1 as a key player in mediating paclitaxel resistance in ovarian cancer. In\nthis proposal, we will develop, synthesis, optimize and evaluate novel proteolysis targeting chimeras (PROTACs)\nto therapeutically target AAK1 and improve paclitaxel-based therapy in ovarian cancer."
+ },
+ {
+  "id": "428d02af-ef88-4809-b78b-65afe01dec90",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of Cofilin-1 in Mitochondrial Quality Control Influencing Mechanisms of Airway Epithelial Dysfunction in Chronic Bronchitis",
+  "text": "Chronic Obstructive Pulmonary Disease (COPD) is a devastating disease with progressive lung function\nafflicting 13% of the world’s population, with significant damage to the lung epithelium. We have identified\nactin cytoskeletal changes that occur due to the loss of cofilin-1 in COPD. In this proposal, we dissect the role of\ncofilin-1 in compromising mitochondrial quality control in airway epithelial thereby contributing to the pathology\nin chronic bronchitis."
+ },
+ {
+  "id": "428df182-6281-4c30-8ec5-ad5430fcf6f1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cryo-Electron Tomography derived cell population analysis through novel high-throughput machine learning approaches",
+  "text": "This program will create a series of data-efﬁcient machine-learning algorithms to facilitate cellular cryo-ET-\nderived cell population-wide analysis of subcellular objects. For easy use, we will develop an open-source\nsoftware with GUI to pipeline the new approaches from the subcellular object segmentation step to the ﬁ-\nnal cell population-wide analysis of the structure and morphology of subcellular objects. We will validate the\nperformance of our system by applying it to publicly available large-scale Cryo-ET datasets and monitor the\nimprovement of the ﬁnal results."
+ },
+ {
+  "id": "4291b248-930a-4a98-ac16-06118d68683d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Using causal machine learning for personalized treatment recommendations in critically ill patients",
+  "text": "This project is relevant to public health because it aims to develop highly accurate causal machine learning\nmodels for acute care treatment recommendations as well as design a causal machine learning clinical decision\nsupport tool for future implementation using human factors methods. This will result in the foundational research\nnecessary to shift the paradigm toward evidence-based personalized care for critically ill adults to improve\noutcomes and decrease preventable death. Further, the proposed research is relevant to NHLBI's mission that\npertains to 1) developing and optimizing novel therapeutic strategies to enhance health, lengthen life, and reduce\nmorbidity; 2) identifying factors that account for individual differences in treatment response; and 3) leveraging\nemerging opportunities in data science to open new frontiers in research."
+ },
+ {
+  "id": "429432ab-aeab-4f07-8210-05d68c7dd904",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project 3: Mechanistic studies and comparisons of vaccines in preclinical models",
+  "text": "PROJECT SUMMARY– PROJECT 3: Mechanistic studies and comparisons of vaccines in preclinical models The two primary goals of the Project are to: (i) define the immunological parameters (i.e., CD4+ T cell help; innate immune response) that regulate the breadth of the antibody response in mechanistic studies in mice, and (ii) evaluate pan-sarbecovirus and pan-betacoronavirus vaccine candidates aimed at inducing broadly protective immune responses in nonhuman primates (NHPs) (with Core D, Nonhuman Primates, Villinger). In Aim 1, we will determine the mechanisms by which the innate immune system and T follicular cells regulate the breadth of antibody responses induced by broadly protective coronavirus vaccines designed in Project 2 (King). We will perform mechanistic studies in mice to determine the impact of CD4+ T cell help and specific DC subsets in regulating the breadth of vaccine-elicited Ab responses. This will yield insights about critical immunological parameters that determine antibody breadth and, looking ahead, provide a rational basis for the development of adjuvants that stimulate broad Ab responses. In Aim 2 we will conduct two studies in NHPs to evaluate pan-sarbecovirus and pan-betacoronavirus vaccine candidates from Project 2 and select lead candidates for further preclinical and clinical development. These studies will use clinically relevant adjuvants to ensure optimal translation to humans. We will assess the magnitude, breadth and durability of nAb responses induced by immunization with nanoparticle immunogens formulated with AS03 and 3M-052/alum, both of which have demonstrated superior adjuvant effects in terms of their capacity to promote high-magnitude and durable neutralizing antibody responses in NHPs. We will thus directly compare AS03 with 3M-052/alum for their capacity to enhance the breadth of nAb responses. We will work with Project 1 (Veesler) and Cores B (Virology, Baric), C (Viral Evolution, Bloom) and D to evaluate the immunogenicity and protective breadth of the responses elicited by each nanoparticle vaccine candidate and define the epitope specificities of cross-reactive responses. We will characterize the dynamics of the antigen-specific B cell response, assess plasmablast and plasma cell frequencies, and sort antigen-specific single B cells and isolate monoclonal antibodies from immunized NHPs. These mAbs will be produced by Core A (Protein Sciences, King) and analyzed in Project 1 and Cores B and C for their binding and neutralizing breadth, epitope specificity, and resistance to escape mutations."
+ }
+]

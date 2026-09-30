@@ -1,0 +1,142 @@
+[
+ {
+  "id": "fab4d6a2-fb71-4bdd-9d45-5e3488e02fa7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Pharmacology and Drug Design Core",
+  "text": "The Pharmacology and Drug Design Core (PDDC) serves the overall structure of the San Antonio Nathan Shock Center (SA NSC) by providing investigators access to unique expertise and resources to design, conduct, and interpret studies of pharmacologic interventions that target aging processes. The discovery that xenobiotics can improve lifespan and healthspan in animal models complements other geroscience-based approaches to prevent and treat various age-related diseases. Identification and application of novel drug-based approaches to aging requires expertise in rational drug discovery and pharmacology. As part of the overall goal of the SA NSC, the PDDC provides this required expertise and the unique resources needed to discover, develop, and validate novel therapeutics targeting geroscience through synergy with our other Research Cores. The PDDC is poised to provide leadership and training that integrates with the other Cores, serving external and internal investigators with comprehensive aging-focused pharmacologic studies from pilot to full-scale. We accomplish these goals in the following Specific Aims: 1. To assist in assay design and measurement of tissue and formulation concentrations of novel or repurposed medications for studies using geroscience-guided pharmaceutical interventions. 2. To assist with PK and PD assessments designed to help define optimal dose, and the timing and route of drug administration to affect age-related targets. 3. To provide expertise and resources for target identification and validation, and discovery and development of small molecule interventions based on geroscience. 4. To educate and develop new investigators (including faculty and trainees) in drug-discovery and pharmacologic interventions in geroscience. We continue to innovate PDDC services, and now expand our capabilities, to provide expertise in novel aging target identification and validation to geroscience drug discovery and delivery. SA NSC investigators can now leverage the PDDC’s expertise and resources in target identification and validation using the state-of-the- art arrayed CRISPR knockout screening, and in drug discovery using a well-established platform consisting of high-throughput screening (HTS), computer-aided drug discovery (CADD), and proteolysis targeting chimeras (PROTAC), to design novel, or modify existing, gerotherapeutics. This will significantly expand our capabilities, from providing expertise in novel aging target identification and validation to geroscience drug discovery. The PDDC is poised to provide leadership and training that integrates with the other Cores, serving external and internal investigators with comprehensive aging-focused pharmacologic studies from pilot to full-scale."
+ },
+ {
+  "id": "fab78c53-8b71-4e76-8cf7-dc9085540d09",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Metabolite Markers of Diabetic Kidney Disease",
+  "text": "Kidney disease in type 1 diabetes (T1D) progresses unchecked because its earliest metabolic driver, and a\nT1D-specific therapy, remain undefined. By integrating cutting-edge spatial multi-omics, longitudinal T1D\ncohorts, and precision mouse genetics, we will test whether excess tubular adenine is a causal, druggable driver\nof early kidney injury. Confirming this pathway will yield a pathogenic biomarker and launch the first cell-targeted\nmetabolic therapies to prevent diabetic kidney disease in people with T1D."
+ },
+ {
+  "id": "fab9be7e-13af-4900-851e-d5ddcf2010f6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Linking retinal circuits to perception",
+  "text": "Technological advancements in stem cells, gene therapy, and retinal prostheses show great promise for\nrestoring or providing new light sensitivity to retinas of the blind; however, understanding of the basic circuitry\nfor daylight vision lags behind the technology to provide light sensitivity. There is an urgent need to elucidate\nthe circuitry of visual pathways and to understand their role in visual perception in order to identify the best\ntherapeutic strategies and the most effective implementations of them."
+ },
+ {
+  "id": "fabbd61f-4540-4998-aefe-0e6ef0add89c",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Design of a Novel Nanocarrier Technology to Drug-Load CAR T cells",
+  "text": "We propose to develop a platform technology to drug-load CAR T cells with nanocarriers, thus enhancing the\ntherapeutic window of CAR T cells, and addressing one of the major obstacles to CAR T cells in brain tumors."
+ },
+ {
+  "id": "fabbdb3f-a2c3-44b4-b01e-657c1f6c26f9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Genomic regulation of VWF levels in health and disease",
+  "text": "Project 1 Von Willebrand Factor levels are a complex trait with an estimated heritability of 30-50%, and represent a risk factor for bleeding, thrombosis and cardiovascular disease. Genetic studies of VWF antigen levels (VWF:Ag) have been successful in identifying more than two dozen loci associated with levels but have fallen short of identifying the genes driving the associations or elucidating the underlying biological mechanisms of the associated genes. VWF levels have been shown to be 25% higher in individuals of African Ancestry, who are at increased risk of cardiovascular disease, and the mechanisms that account for this difference are not understood. Approximately 35% of patients with low VWF (30-50 IU/dL) do not have a pathogenic variant in VWF. Project 1 will focus on resolving, by identifying common and rare variants, including complex loci, the condition called low von Willebrand factor; the 20-25% increase in VWF levels seen in individuals from African Ancestry; and the increase in VWF levels observed with aging. Cohorts of subjects with low VWF, with no sequence variants in VWF will undergo whole genome and long read sequencing. Whole genome sequencing of multiple multiethnic cohorts will allow for admixture studies that will leverage the power of trans-ethnic fine mapping and haplotype association. We have recently performed whole genome sequencing (WGS) of a cohort of patients with low VWF and no mutations in VWF (n=339). In Aim 1 We will perform whole genome sequencing of a joint discovery French cohort with Low VWF and no mutations in VWF (n=300) as well as the Genes and Blood Clotting Study (n=1189). We will use available databases such as dbGaP and UK Biobank, collaborate with the CHARGE Hemostasis Working Group for replication of identified variants in the cohort of individuals with low VWF. With these discoveries (and the multiomics approach of Project 2) we will generate polygenic risk scores for low VWF and VWD. In Aim 2a we will perform WGS in available cohorts of individuals of multiethnic ancestry, intentionally selected to enrich for novel associations, as they include: participants from non-European ancestries and extensive admixture, that we will leverage in trans-ethnic fine mapping and haplotype association. We will also incorporate local ancestry in association testing to identify alleles with differential effects based on local ancestry this will be performed for all admixed populations. As in SA1 we will collaborate with the CHARGE Hemostasis Working Group for replication of identified variants. Finally, in Aim 2b, and in order to characterize multiple complex genetic loci associated with VWF levels in a multi ethnic cohort, we will use long read sequencing technology developed at the Washington University McDonnell Genome Institute to generate complex genomic maps of 120 African American, 100 European American, 100 Hispanic Americans and 100 Asian Americans and perform association studies with VWF levels and other complex traits involved in VWD and VWF biology. Taken together, these analyses will provide the first large-scale, well- powered, systematic investigation of the contribution of complex variants to human VWF and VWD."
+ },
+ {
+  "id": "fac84b1d-e417-4ff2-91ca-ef9ad63f24a2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mitochondrial regulation of structural plasticity in ventral hippocampus-nucleus accumbens projection neurons and cocaine seeking after prolonged abstinence from self-administration",
+  "text": "I propose to study the molecular and cellular mechanisms underlying substance use disorders. I\nwill examine structural adaptations and the underlying molecular mechanisms in key brain reward\nneurons following cocaine re-exposure after prolonged abstinence from cocaine intravenous self-\nadministration. My studies will provide new insights into the molecular mechanisms in key reward\nbrain region neuron subtypes that occur during prolonged abstinence."
+ },
+ {
+  "id": "fac8c32d-543d-4bb3-b380-e3f77b6a43f4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multidimensional Stress Measures and Cognition: Cause, Consequence, or Catalyst",
+  "text": "As the elderly population in the United States continues to grow rapidly, Alzheimer’s disease poses a major\npublic health challenge, and the disease may disproportionately burden a few communities. Our proposal aims\nto address the knowledge gaps regarding the role of modifiable risk factors, such as stress, and how they may\ndifferentially impact cognitive function in high-risk groups. Findings from our studies will provide a deeper\nunderstanding of how stress can increase Alzheimer’s disease risk and the mechanistic pathways involved."
+ },
+ {
+  "id": "facb07ca-a0b9-4bd5-a417-2463d78dbe6f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Halting Breast Cancer Metastasis by Blocking Cancer-MSC Engulfment",
+  "text": "Our preliminary research uncovered a strong correlation between breast cancer-MSC engulfment, elevated\nmetastasis, and treatment resistance, so we propose to inhibit cancer metastasis by blocking MSC engulfment.\nOur strategy involves (1) identifying anti-engulfment compounds through FDA-approved compound screening\nusing our high-throughput single-cell pairing platform, validating their efficacy in vivo, and (2) investigating the\nidentification and pivotal regulators of engulfing cancer cells through scRNA-Seq and CRISPR screening.\nSuccessfully executing this grant could unveil valuable compounds and gene targets for metastatic breast cancer\ntreatment while advancing a high-throughput technology for diverse cell-cell interaction research."
+ },
+ {
+  "id": "faecdb72-757a-47c2-b17c-832a6fa8e228",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Core C: Bioinformatics and Computational Analysis Core",
+  "text": "The Biostatistics and Computational Analysis Core (BCAC) will provide investigators with optimized and robust support in study design, sample size calculations and the analysis of genomic, transcriptomic, immunophenotyping and single cell omics data. Our computational workflows, comprising state-of-the-art methods will facilitate data analysis for all research projects. In communication with investigators, we will expand the capabilities of current tools for the projects’ analysis requirements. We foresee that such development will be required for the detection of mutational signatures in long read whole genome sequence data, the integration of long and short read genome sequencing data for optimal mutational signature inferrence and the customizing of spatial transcriptomics. A centralized workflow for all biostatistics, bioinformatics and computational analyses will ensure efficiency, aid in the integration of diverse data sources across projects and ensure rigorous and reproducible analysis. Furthermore, the core will implement systems for data aggregation, dissemination and visualization to allow meta-analysis across all projects, including the Developmental Research and Career Enhancement Projects. In addition the BCAC will provide open source software and public facing data portals to the scientific community upon publication our findings."
+ },
+ {
+  "id": "faf051ee-d18a-437e-88f2-dd3cebe86e5f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Exploring novel strategies for immunoprevention of estrogen receptor negative breast cancer",
+  "text": "This R01 application tackles one of the unmet challenging problems in the breast cancer field: prevention\nof estrogen receptor-negative (ER-) breast cancer. The major goal of this research is to determine whether\nand how vitamin E administration via both local and systemic deliveries would enforce dendritic cell antigen\npresentation, increase tumor antigen-specific T-cell response, boost effector memory T-cells, and potentiate\ncancer vaccine-induced immunoprevention against ER- mammary tumor and human breast cancer. If\npreclinical studies are successful, our new strategies could be fast-track translated into breast cancer\nimmunoprevention clinical trials for women at high risk for ER- breast cancer."
+ },
+ {
+  "id": "faf23c42-c0da-4e54-805b-babb41bff1bd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Synchronous network activity in the maturing prefrontal cortex: mechanistic impact of birth timing and serotonin",
+  "text": "The earliest critical period in brain development is regulated by the timing of birth and serotonin signaling, but its\nrole in the establishment of frontal circuits that support cognitive function is unknown. This proposal uses a broad\ncombination of tools for probing circuit function to determine how neonatal patterns of intrinsic cortical activity\nand serotonin signaling shape the development of prefrontal circuits in mice."
+ },
+ {
+  "id": "faf60f22-5469-4bd4-8fc1-9081a596acea",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Characterization of short H2A Oncohistones in Cancer",
+  "text": "Histones are highly-conserved proteins that regulate gene expression and are mutated in cancers. We recently\nidentified a testis-specific histone variant, H2A.B, that is aberrantly upregulated in a broad array of common\ncancers and mimics cancer-associated mutant histones. This proposal is designed to identify the mechanism by\nwhich H2A.B contributes to cancer."
+ },
+ {
+  "id": "faf62286-1cb7-48ce-8088-c202108a0c94",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dual targeting of AML by BCL-2 inhibition and by CD123-directed NK engager/NK cell immune therapies",
+  "text": "Acute myeloid leukemia (AML) is a blood cancer that can rarely be cured with current therapeutic approaches\ndue to persistence of treatment-resistant cancer cells. Here we investigate a novel therapeutic strategy that\nfacilitates both patient- and healthy donor-derived immune cells termed natural killer (NK), to attack cancer cells\nby recognizing a marker that is universally expressed on the surface of cancer cells, but largely absent in normal\ncells. We will examine the efficacy of this new approach combined with a current treatment of targeting cancer\nmitochondria to synergistically eliminate leukemia cells, with the goal to improve cure rate in patients with AML."
+ },
+ {
+  "id": "fafb74fd-7b3e-4dd3-9f86-44dedd3cfa0c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Image Deeper with Synthetic Waves: A Novel Non-Invasive Optical Approach for Skin Lesion Assessment at Multiple Scales",
+  "text": "Skin cancer is the most common malignancy worldwide, but current optical imaging technologies remain limited\nin their ability to visualize clinically relevant tumor features at depth while preserving high resolution and contrast.\nThis supplement will develop calibrated, tissue-mimicking phantoms based on real measured skin cancer\nproperties to support rigorous evaluation of Synthetic Wavelength Imaging and other skin cancer imaging\ntechnologies. By preparing these phantoms for dissemination through the National Medical Phantom Library,\nthis work will support reproducible development of imaging technologies that may improve future skin neoplams\ndiagnosis, treatment monitoring, and surveillance."
+ },
+ {
+  "id": "fafd5c90-4f0e-4349-a942-8b3c454622bc",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "MAVDA: High Throughout Screening and Bioassay Core for Metropolitan AntiViral",
+  "text": "The overall goal of this program is to discover and develop small molecule orally bioavailable drugs to treat SARS-CoV2 and other viruses with pandemic potential. Our specific role is to provide a central core facility, with expertise and technologies that use high-throughput screening to identify potent and selective drug-like lead compounds and further characterize these compounds for concentration-response relationships, affinity, stoichiometry, off-rates, contributions of entropy and enthalpy of binding of the chosen molecular targets. We will also support testing in high-throughput phenotypic assays for anti-viral efficacy. We intend to work closely with the project leaders and medicinal chemists to rapidly gain critical information on the mechanism of action of various compounds derived from the chemical scaffolds identified in the screens conducted and to support medicinal chemistry programs in testing improved congeners for potency and selectivity against the primary targets."
+ },
+ {
+  "id": "fb041443-3dc9-4207-b839-d42043826873",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Integrating Evolutionary History and Biophysics to Combat Antibiotic Resistance",
+  "text": "Proteins that exchange sodium and protons across the cell membrane, such as Mrp\nand NhaA, are essential for the survival of many pathogenic bacteria. This project will combine\nevolutionary analysis, biophysical experiments, and machine learning to identify essential evolutionary\ninnovations required for the emergence of oligomerization and robust function observed in extant\nantiporters. Insights from the proposed project will inform strategies for disrupting antiporter complex\nassembly under stressful conditions."
+ },
+ {
+  "id": "fb0ad902-6f93-4a95-a1b4-078c973167f5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mapping the Druggable Genome of the Human Ductus Arteriosus: Integrative Omics and High Throughput Screening for Novel Therapeutics",
+  "text": "Relevance\nThe ductus arteriosus (DA) is a fetal blood vessel whose patency is critical for survival in the womb, and\nwhose closure after birth is essential for circulatory adaption to newborn life. Persistent patency of the DA\n(PDA) occurs frequently in preterm infants, increasing their risks for chronic lung disease and other adverse\noutcomes. This proposal will address the knowledge gaps that separate our understanding of DA regulatory\nmechanisms from efforts to develop new therapeutic strategies for management of PDA in vulnerable\npreterm infants."
+ },
+ {
+  "id": "fb0f51a3-5a8c-4905-a1e2-7cb1ac1f99ff",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Next-generation dystrophin gene therapy for DMD",
+  "text": "Failing of respiratory and heart function is the leading cause of mortality in Duchenne muscular dystrophy (DMD)\npatients. Adeno-associated virus (AAV)-mediated gene therapy is a highly promising approach to treat the\nunderlying cause of muscle and heart dysfunction in DMD. This project aims to develop a more efficient gene\ntherapy to deliver full-length, fully functional dystrophin with improved safety for DMD."
+ },
+ {
+  "id": "fb19b1bb-5383-476d-832f-bea74f4517c2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Engineered microglia for the treatment of Adult-onset Leukoencephalopathy with Axonal Spheroids and Pigmented Glia (ALSP)",
+  "text": "The objective of this work is to advance a novel microglia cell replacement therapy for diseases with microglia\ndeficiency. This strategy has the potential to be developed into new therapies to treat patients with\nmicrogliopathies, for which there is no cure."
+ },
+ {
+  "id": "fb1b0c37-338d-4308-884f-a5298ce5bbc2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Genetic Architecture and Clinical Correlates of Kidney Size.",
+  "text": "This project aims to use deep learning techniques to extract kidney volume from image scans and radiology\nreports of over 300,000 diverse individuals, By evaluating relationships between kidney size, genetic factors,\nrisk factors, and clinical outcomes, it seeks to provide a complementary understanding of kidney function and\nstructure beyond traditional filtration and glomerular integrity measures, The goal is to better understand how\nkidney size contributes to health and disease."
+ }
+]

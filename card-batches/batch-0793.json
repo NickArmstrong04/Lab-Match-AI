@@ -1,0 +1,142 @@
+[
+ {
+  "id": "8e495ebd-0140-4f7e-8a9a-7f9dbc243926",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Robust mapping of chromatin loops from sparse or single cell Hi-C data with DeepLoop",
+  "text": "Hi-C is a popular technology to map how DNA folds and affects gene expression and diseases in the\nnucleus. However, high resolution Hi-C analysis requires ultra-deep sequencing, which is a major\nfinancial burden and often not feasible for low-input or single cell samples. This project will use deep-\nlearning techniques to reduce such burden by more than 10-fold, and also enables high-resolution\nanalysis with single cell Hi-C data."
+ },
+ {
+  "id": "8e55f5c8-fc8d-4828-968b-baa9e99ed166",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "2026 Genetic Biocontrol Gordon Research Conference and Gordon Research Seminar",
+  "text": "Genetic Biocontrol uses genetic engineering to advance biocontrol, a method of using organisms such as\nmicrobes or insects to manage pests of medical or agricultural significance and nuisance pests. There are\nmany potential applications for the use of genetic biocontrol across public health and agriculture, for example\nnew methods to control mosquitoes that spread disease-causing pathogens and various flies that destroy\ncrops and disrupt the food chain. The Genetic Biocontrol Gordon Research Conference (GBGRC), which is\nheld in conjunction with a Gordon Research Seminar (GRS) for genetic biocontrol trainees, will bring together\nscientists, researchers that engage with stakeholders, and regulators to promote collaboration, the cross\nfertilization of ideas, and the identification of potential new avenues for the safe use of genetic biocontrol\napplications to promote human health and well-being."
+ },
+ {
+  "id": "8e561e2e-822f-4b63-b2a1-6ed63e73e905",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Decoding the gene regulatory network of mammalian cardiac maturation",
+  "text": "Our understanding of the gene regulatory mechanisms governing cardiac maturation remains incomplete,\nlimiting the ability to generate fully mature cardiomyocytes from stem cells for therapeutic applications. This\nproposal seeks to systematically characterize the cell-type-specific gene regulatory networks that drive cardiac\nmaturation. Mechanistic insights obtained from this project will enhance maturation of stem cell-derived\ncardiomyocytes, providing both a deeper understanding of cardiac development and novel therapeutic strategies\nfor treating heart disease."
+ },
+ {
+  "id": "8e56825f-e178-4b9e-b617-a6a237ac18a0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Illuminating Neuropeptide Modulation of Substance Abuse Withdrawal: Novel Photochemical Tools for Precision Control",
+  "text": "Altered neuropeptide signaling profoundly influences the physiological and behavioral outcomes of withdrawal\nfrom methamphetamine and other substances of abuse. However, the lack of versatile, high-precision chemical\nprobes has prevented dissection of individual peptide contributions to somatic, affective, and reward-related\nendpoints. We will develop and validate a modular, light-activated caging scaffold to release neuropeptides in\nvivo during withdrawal paradigms—creating broadly applicable tools for spatiotemporal dissection of peptide\nfunction across neuroscience."
+ },
+ {
+  "id": "8e5ab67e-d2f1-433e-855b-1ae1abc8a3ee",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Higher Order Convolutional Neural Network for Classification of Lewy-body Diseases and Alzheimers Disease",
+  "text": "This grant is focused on the development of a novel higher order interpretable deep convolutional neural network\ncalled VolterraNet for automated classiﬁcation of multi-modality magnetic resonance images (MRI) (structural\nand diffusion MRI) acquired from individuals with Lewy Body diseases and Alzheimers disease respectively.\nThe VolterraNet will be tested on a cohort of 1167 brain dMRIs from individuals with Lewy body diseases and\nAlzheimers disease."
+ },
+ {
+  "id": "8e610453-6df8-4d7c-8b06-9e8cefdb8097",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dissecting the Role of Epithelial-Fibroblast Crosstalk in Endometriosis-Associated Infertility",
+  "text": "Endometriosis is a chronic inflammatory condition that affects up to 15% of women, frequently causing\ndebilitating pain and infertility. This project investigates how disrupted communication between two different types\nof cells in the uterus, fibroblast and epithelial cells, prevents the endometrial lining from becoming ready to\nsupport pregnancies in endometriosis patients. By identifying the specific signals involved, I aim to identify new\ntherapeutic targets to improve fertility and quality of life for people with endometriosis."
+ },
+ {
+  "id": "8e6f1cf0-a322-40e2-af57-d39c04c6ed40",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Metabolism of Carcinogenic Tobacco-Specific Nitrosamines",
+  "text": "Cigarette smoking and smokeless tobacco use are major causes of deadly cancers in the U.S. and worldwide.\nThis project continues research on tobacco-specific nitrosamines, widely viewed as important causes of cancer\nin people who use tobacco products, and expands the research scope to include other tobacco carcinogens.\nMajor emphasis is placed on genetic damage in the oral mucosa of people who use tobacco products, and the\nrelationship of this damage to cancer."
+ },
+ {
+  "id": "8e7af943-b5a1-4394-bf48-6d59d076c0d7",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "MATCHMAKERS - Solving TCR recognition and design via integrated high-throughput screening, structural, functional, and computational approaches",
+  "text": "Understanding how T cell receptors (TCRs) see tumor antigens presented by MHCs is necessary to fully understand how the immune system recognizes tumor antigens, and to reap the full potential of antigen-specific immunotherapy. To achieve this goal, a quantum leap forward is required in which the revolutionary advances in machine learning are combined with a large volume of structure, function, data on matched TCR-pMHC pairs. The development of accurate predictors of TCR-antigen recognition will be dependent on the creation and integration sequencing-based datasets with high-throughput structural and functional insights. Our proposal, submitted as a CRUK/NCI Grand Challenge team (MATCHMAKERS) will combine researchers with expertise in immunology, methods development, structural biology, and computation to enable generalized prediction and design of TCR recognition. This work will be spread across four Work Packages (WPs): WP1: Large-scale generation of TCR-pMHC pairs from naturally occurring sources. We will build datasets of naturally occurring TCR-pMHC pairs. Our team will use an array of approaches to collect these datasets, from humans and from mouse models, and in the context of both cancer and immunity more generally. WP2: Ultra-high throughput TCR-pMHC matching using molecular engineering. Efforts to create general models will require a broader array of data than feasible to collect from natural TCR systems. We will use an array of synthetic approaches developed by our team to comprehensively match TCRs with pMHCs to train computational models. WP3: Large-scale structural and biochemical analyses of TCR-pMHC interactions. A key to our team's vision is to match interaction datasets with high throughput structural and functional insights. A deep understanding of how the TCR contacts with MHC helices control function and orientation will be essential for training and testing computational models. WP4 AI-based prediction and design of TCR-pMHC interactions. We will integrate our data to train next- generation algorithms capable of generally predicting and designing TCR-pMHC interactions. These predictions will proceed through a reiterative testing and feedback circuits for further model optimization."
+ },
+ {
+  "id": "8e88c3eb-e4e4-4888-9ba5-470ff4a7c1f1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Characterizing Entorhinal Cortex Circuit Dysfunction in an APOE Mouse Model of Chemotherapy-Induced Cognitive Impairment",
+  "text": "Cognitive impairment is a debilitating side-effect of chemotherapy treatment that affects learning, memory,\nattention, and executive functions in cancer patients. This condition is worse in people who have the APOE4\ngene, which is also the strongest genetic risk factor for Alzheimer’s Disease. The experiments in this proposal\nuse a novel mouse model of chemotherapy-treated APOE mice to 1) identify circuit-based mechanisms in the\nentorhinal cortex underlying cognitive impairment and 2) test whether altering apoE levels can prevent CICI\ndevelopment."
+ },
+ {
+  "id": "8e939182-e503-437f-ab21-ee6ed802dc9f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The role of the CNG channel-NCKX exchanger complex in maintaining photoreceptor outer segment integrity",
+  "text": "Inherited retinal degenerations, which affect over two million individuals worldwide, represent a genetically and\nphenotypically heterogeneous group of visual disorders characterized by progressive loss of photoreceptor\ncells. Some of the most severe forms of inherited retinal degenerations arise from defects in the formation and\nmaintenance of the light-sensitive outer segment compartment of rod and cone photoreceptor cells. Studies\ndescribed in this application aim to elucidate fundamental molecular mechanisms responsible for the\nmaintenance of healthy outer segments, thereby providing a scientific basis for developing strategies of disease\nprevention and future therapeutic intervention."
+ },
+ {
+  "id": "8e9524c2-9c79-4bea-88f4-5c860b64c51b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Genomic Engineering Shared Resource",
+  "text": "GENETIC ENGINEERING SHARED RESOURCE The exploration of gene and protein function — both at the individual gene and protein level and on a genome-wide scale - is integral to cancer research and to the ultimate goal of devising effective and personalized therapeutics. Such explorations demand not only appropriate genomic resources, but also physiologically relevant, genetically engineered cell and animal models. The Genetic Engineering Shared Resource (GESR) of the Dan L Duncan Comprehensive Cancer Center (DLDCCC) is constructed to meet the needs of Cancer Center investigators wishing to use experimentally demanding, state-of-the-art cell and mouse cancer models that require specialized techniques and a high degree of experimental ingenuity. The primary focus of the GESR is to provide DLDCCC investigators with highly customizable CRISPR/Cas9-based gene editing services in cells of their choice, from primary cells and established cell lines to cancer patient-derived induced pluripotent stem cells (iPSC) and in the mouse germline. Our genome editing services are comprehensive, starting with genome editing project design and ending with allele validation. Additional services for cell model production include reprogramming of patient-derived cancer cells into iPSC, generation of shRNA/cDNA/gRNA expressing cancer cell lines, and distribution of shRNA/cDNA clones and a Lenti-CRISPR-sgRNA library for DLDCCC investigators to generate their own cell models. Additional services for mouse model production include traditional and bacterial artificial chromosome transgenics and mouse embryonic stem cell-based gene targeting and chimera production. Moreover, we offer the latest in available mouse imaging modalities, including PET/SPECT/CT, X-Ray, MRI, NMR, luminescence, fluorescence, and ultrasound, to facilitate studies involving genetically engineered mice. Finally, to facilitate maintenance of cell and mouse models used by DLDCCC investigators, we provide cryopreservation and cryostorage services. By housing these resources in a single, cohesive Shared Resource, the GESR allows investigators to employ a myriad of genetic engineering platforms that are often cost- and labor-prohibitive or simply not feasible for individual laboratories. This synergistic combination of expertise and resources makes GESR an invaluable asset to the DLDCCC."
+ },
+ {
+  "id": "8e955236-4e1e-4e4c-8b76-0ee7ed1557b9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Balancing Act: Equalizing Sex Specific Differences in CENP-A levels is Critical for Mammalian Embryogenesis",
+  "text": "Chromosomal abnormalities (i.e., aneuploidy) in oocytes and embryos are a major cause of infertility and\nrecurrent pregnancy loss, with about 30-80% of embryos derived in IVF clinics being aneuploid. While it has\nbeen known that chromosome segregation errors occur during female meiosis, recent findings reveal that an\nincreasing number of aneuploidies originate during mitotic divisions in the embryo, affecting only subsets of\ncells, and contribute to embryo mosaicism. Thus, this project proposes and tests the role of maternally\ninherited CENP-A in regulating early mammalian embryo development and preventing mosaicism."
+ },
+ {
+  "id": "8e95cf4b-7fe0-4c21-b382-85fc1b4114ba",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Imaging and Response Assessment Core",
+  "text": "IMAGING AND RESPONSE ASSESSMENT CORE (IRAC) SHARED RESOURCE: PROJECT SUMMARY The Imaging and Response Assessment Core (IRAC) is a shared resource (SR) operated by the Department of Radiology within the Washington University School of Medicine (WUSM). The IRAC facilitates research by providing support services and analysis for both standard and novel imaging methods used for characterizing tumor biology and predicting and monitoring response to therapy in patients enrolled in clinical trials performed at the Siteman Cancer Center (SCC). To accomplish this, the IRAC provides a variety of services to investigators including: 1) assistance with protocol development; 2) imaging-related regulatory services; 3) site qualification; 4) coordination of imaging examinations to ensure protocol compliance; 5) data transfer to trial sponsors or external core laboratories; and 6) tumor measurements on both anatomical and functional imaging studies performed by dedicated radiologists and nuclear medicine physicians. Additionally, the IRAC implements new software tools to improve the accuracy and reproducibility of tumor measurements and to allow for incorporation of newer approaches of tumor measurement (for example, three-dimensional volumetric measurements and metabolic tumor volume) into clinical trials at SCC. The overall goal of IRAC is to increase the impact that quantitative imaging plays in clinical cancer research. The IRAC provides unique imaging management and analysis services that are not available elsewhere within the WUSM. The SCC has a large portfolio of clinical trials that use computed tomography (CT), magnetic resonance imaging (MRI) and positron emission tomography (PET), and the IRAC contributes to the overall success of SCC trials by providing these imaging support services to investigators."
+ },
+ {
+  "id": "8e9b528b-6756-43db-8193-c77bb6022a79",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Computational Approaches to Reconstruct the Evolutionary History of Cancer Metastases",
+  "text": "The focus of this study is to develop new computational approaches to reconstruct the evolutionary history of\ncancer metastases using whole genome sequencing. Deeper study of metastatic cancer evolution could lead to\ninterventions preventing up to 90% of cancer deaths. We will demonstrate the effectiveness of our methods\nthrough application to small-cell lung cancer, one of the deadliest cancer types, often diagnosed when it is\nalready metastatic."
+ },
+ {
+  "id": "8e9e29b2-2ca0-49c6-a44c-00b4d9d26e24",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Leveraging biodiversity and utilizing genetic engineering to expand the structure and function of silk fibroin biopolymers for biomedical applications",
+  "text": "Relevance to Public Health\nNatural biopolymers are gaining traction as components of surgical materials as noted by the 2019 Food\nand Drug Administration approval silk fibroin's use in tissue reconstruction-based implants. Silk fibroin, a\nlong biopolymer often isolated from the cocoons of the domesticated silkworm, has many applications,\nbut it is hard to modify to fit specific structural or biological needs, leading us to explore a new silk-\nproducing moth called the Indianmeal moth. We will advance the opportunities for use of silk proteins in\nbiomedical applications by tailoring the sequence and structure of the silk fiber produced by the\nIndianmeal moth through control over environmental conditions (humidity, temperature, pathogens) and\ncontrol over the actual biopolymer sequence using targeted genetic engineering strategies, highlighting\na new way to leverage the biodiversity of insect species for healthcare applications."
+ },
+ {
+  "id": "8ea45b74-83d6-4d26-9a33-d38bebf9f7ed",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Circulating senescent proteins and their trajectories in relation to age-related outcomes in cancer survivors",
+  "text": "The number of cancer survivors is rapidly increasing in the U.S., so is the number of cancer survivors who\nexperience premature death and age-related diseases. Using circulating senescence-associated proteins would\nhelp identify cancer survivors at high risk of morbidity and mortality. Understanding the role of these proteins in\ncancer survivors will inform future clinical trials of anti-senescence therapies in this vulnerable group."
+ },
+ {
+  "id": "8eaef651-b169-486c-888c-37b7db8dc1e6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Synaptotagmin C2B Domain as a Ca2+ Sensing Module",
+  "text": "The regulated exocytosis of neurotransmitters from neurons underlies the function of the nervous system. By\nelucidating this process, and the mechanisms that underly presynaptic plasticity, we will uncover novel targets\nand approaches to treat pathophysiological states in which neuronal communication is impaired."
+ },
+ {
+  "id": "8eb06ed3-14e7-4763-85c3-83eb4a250dfd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Acquisition of an Orbitrap Astral Mass Spectrometer System for Proteomics and Metabolomics Facility of Cornell University",
+  "text": "The requested integrated LC-MS system offers technical capabilities that far exceed those of the existing instruments at Cornell. By enabling significant improvements in the quantity and quality of data, reducing turnaround times, and minimizing required sample input, the system would significantly enhance the ability to meet the goals of 31 NIH-funded projects across 15 investigators. The data generated by this new shared instrument will advance knowledge and broaden understanding across a wide range of health-related research including human health promotion (e.g., infertility, DNA damage/repair, circadian clocks and biosynthesis of accurate proteins) and disease treatment (e.g., cancers, Alzheimer’s disease, Parkinson’s disease, Lyme disease and biosynthetic pain relievers)."
+ },
+ {
+  "id": "8eb75655-5c6f-4ff7-b752-7493465b7b1d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Upper respiratory-genetic and nasal microbiome risk factors for rheumatoid arthritis",
+  "text": "The proposed research studies upper respiratory genetics and the nasal microbiome in rheumatoid arthritis\n(RA). Such work is relevant to public health because it helps uncover possible genetic and microbiome causes\nof RA, giving new options for RA prevention, diagnosis, and treatment. Doing so is relevant to NIH's mission of\nreducing disability and lengthening life for individuals living with RA."
+ },
+ {
+  "id": "8eb9cefe-312b-491c-9e24-445b7e6e56a5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "CRISPR diagnostic for rapid pathogen detection in the Emergency Department",
+  "text": "In this proposed project, we seek to develop an amplification-free, Cas13a-based species-agnostic\nbacterial RNA detection with sample-to-result time less than 1 hour such that it would guide clinical decision\nmaking for antibiotics administration in patients presenting with sepsis/septic shock. Our systematic\ninvestigation to improve Cas13a-based diagnostic tools will guide future CRISPR diagnostic design principles,\nincluding the incorporation of circular RNA for improved molecular stability, Cas13a protein engineering for\noptimizing trans cleavage activity at low pathogenic RNA load, and novel crude sample preparation protocol\nthat alleviates the downstream assay interference. We believe that successful completion of the study will have\nsignificant impact on the initial manage patients suspected of sepsis, allowing for a more targeted\nadministration of the antibiotics."
+ }
+]

@@ -1,0 +1,142 @@
+[
+ {
+  "id": "894eaf68-d68a-4781-9ebc-bbba36760a32",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Rewired Metabolism and Immunosuppression in MYCN-driven Neuroblastoma",
+  "text": "Strategies disrupting MYCN oncogenic programs are critically needed for neuroblastoma therapy. High-risk,\nMYCN-amplified neuroblastoma is characterized by high relapse and mortality rates, dysregulated tumor\nmetabolism, and an immune-suppressive tumor microenvironment. As the development of effective\nimmunotherapies requires new definitions of the negative regulations impairing an adequate immune response,\nour proposed research will provide a novel view on how oncogenic MYCN reprograms the metabolic environment\nof NB to drive immune evasion. Our proposed research will also aim at modulating the metabolic environment\nof neuroblastoma to enhance immune-based approaches for high-risk MYCN-amplified disease."
+ },
+ {
+  "id": "895501a0-372d-4013-ba9a-82ea6f896ac9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identification of Computational Phenotypes in Pediatric Status Asthmaticus and Determination of Treatment Effect",
+  "text": "Status asthmaticus is a life-threatening condition in the pediatric critical-care population that can be difficult to\ntreat, and while there are a host of proposed therapies, there is little evidence regarding the optimal treatment\nstrategy. We propose a novel approach using unsupervised machine learning methods to identify and validate\ndistinct clinical phenotypes of pediatric patients with status asthmaticus, and to test the effects of magnesium\nand aminophylline between the identified phenotypes. The goal of this line of research is to establish precision\nmedicine treatment approaches to improve the clinical outcomes for these patients."
+ },
+ {
+  "id": "895744c3-34fd-4a9d-8c82-567b712b1aa7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Functional and Structural Diversity in Hypoglossal Motoneurons",
+  "text": "Beginning at birth, the activity of eight different tongue muscles must be precisely coordinated for the\nsuccessful performance of diverse tasks such as breathing, suckling, and swallowing but how this is\naccomplished is unknown. Tongue muscles are innervated by motor neurons in the hypoglossal motor nucleus\nof the brainstem, which is a bilateral collection of seven motor neuron pools, with motor neurons in each pool\ninnervating a different tongue muscle. The proposed basic science studies will reveal unique physiologic and\ngenetic properties of the motoneurons that supply a given muscle, which can then be targeted to activate or\ninhibit specific tongue muscles."
+ },
+ {
+  "id": "89583704-5885-454d-9a28-c96a683b6125",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular Regulation of Foraging Behavior by the Nervous System",
+  "text": "Sensorimotor integration occurs throughout the animal kingdom and is critical for animal survival. Gaining a\nmechanistic understanding of molecular regulators of sensory processing, however, remain challenging. This\nproposal aims to investigate parallel, antagonistic pathways that act in a single neuron to modulate food\nsearching behavior, providing insights on how multimodal stimuli are processed by neurons to modulate neural\nactivity, neuropeptide release, and behavior."
+ },
+ {
+  "id": "895bad3c-de15-499e-aba2-a278ac1974c6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Genome Analysis Shared Resource",
+  "text": "GENOME ANALYSIS SHARED RESOURCE: ABSTRACT The Genome Analysis Shared Resource (GENSR) provides Mayo Clinic Comprehensive Cancer Center (MCCCC) researchers efficient, high-quality, cost-effective access to state-of-the-art genomics technologies for studying gene structure and function. Since 2003, the GENSR components at Mayo Clinic in Rochester (MCR) and Mayo Clinic in Florida (MCF) have been working in a coordinated fashion to provide technical expertise, instrumentation, and comprehensive support for nucleic acid sequencing, gene expression profiling, and genotyping to achieve three Specific Aims: Aim 1: Provide MCCCC members with access to personalized and cost-effective technology and expertise that enables comprehensive analysis of genome structure and function. Aim 2: Ensure the quality and integrity of all GENSR workflows through continuous training and implementation of a rigorous quality management program. Aim 3: Continually upgrade GENSR service lines and instruments to remain a state-of-the-art resource for the MCCCC community. The services provided by the GENSR include deep-sequencing studies of RNA and DNA on Illumina NovaSeq, NextSeq, and MiSeq instruments and Pacific Biosciences Single Molecule Real-Time Sequencing on the new Revio platform. In addition, GENSR offers full-service genotyping and methylation analyses using Illumina arrays and reduced representational bisulfite sequencing on Illumina sequencers. The Oxford Nanopore Technologies PromethION platform enables long-read whole genome sequencing, providing resolution of hard to sequence repetitive gene regions, including allele specific telomere lengths, phasing, methylation and focused enrichment of defined genomic regions through adaptive sampling. The Mayo Clinic Spatial Biology component of GENSR was established at MCF in 2019 under the direction of E. Aubrey Thompson (ACTS, MCF). The facility is designed to provide spatial biology analytical resources, on a collaborative basis, to Mayo Clinic investigators. The facility relies primarily on NanoString technology to enable investigators to quantify spatial distribution of both RNA and protein and to carry out single-cell spatial transcriptome and proteome profiling of clinical samples and mouse models of cancer. There is a well-developed cooperative administrative structure that oversees activities and ensures timely access and affordable pricing to MCCCC members, who make up about 40% of the GENSR customer base. All GENSR activities are data intensive. GENSR interacts closely with Information Technology (IT) and Bioinformatics Share Resource (BISR) resources to meet user needs from project inception through the final delivery of data. Member Utilization 2019-2023: 216 Total (8 CPCS, 20 REDI, 45 CGSM, 44 CII, 41 NTTM, 58 ACTS) Publication by Members: 165, 60 with Impact Factor >10"
+ },
+ {
+  "id": "895d558c-6e7a-4fa0-aeff-96a7195d5945",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Building and implementing a TBI prognostic model featuring real-time analysis of brain CT images",
+  "text": "Traumatic brain injury (TBI) affects the lives of an estimated 5 million patients each year, but it is notoriously\ndifficult to treat due to great complexities in diagnosis and prognosis. We will leverage large-scale EHR\ndata from 17 hospitals across two healthcare systems to train, deploy, and prospectively validate a cutting\nedge deep learning model that uses real-time discrete patient data and raw CT image volumes to predict\npatient risk for a set of key actionable TBI complications. By referring to the model’s interpretable\npredictions and how they change across time, frontline providers in emergency rooms, in-patient units, and\nneurosurgery units will make better decisions about treatment and withdrawal of care, meaning the threat of\nthis ubiquitous and devastating condition will be minimized."
+ },
+ {
+  "id": "895e3d87-886f-45b5-a34d-604caaa9e407",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cell adhesion and tissue dynamics in the skin",
+  "text": "Stem cells are natural units of tissue repair and homeostasis, and their versatility holds promise for\ntissueregeneration. This research focuses on deciphering how progenitors within a single layer of developing\nskinsense local signals, remodel their cellular connections between themselves, their underlying basement\nmembrane, and their surrounding niche cells to form a stratified, differentiating epidermis that maintains a\nbalance between growth and differentiation. Our study is a fundamental prerequisite to understanding how these\nbasic properties go awry in skin cancers, including squamous cell carcinomas."
+ },
+ {
+  "id": "895ec864-a57c-46c4-86d3-a9fb2a8a0a43",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Characterizing the neuronal diversity of rapid activity in the olfactory bulb with a high speed two-photon microscope",
+  "text": "Understanding how neurons in the olfactory bulb work together to process odor information and inform\nperception has the potential to transform our understanding of the brain. Two primary types of neurons in the\nolfactory bulb form divergent output streams, but their roles in conveying odor information are ambiguous, and\nprevious observations lack the temporal resolution to resolve rapid features known to be important to olfactory\nencoding. This research will develop and apply a powerful new fluorescence microscopy approach based on\ntwo-photon voltage imaging to capture activity from networks of these cells at single spike resolution, clarifying\ncell-type specific mechanisms."
+ },
+ {
+  "id": "896bcb8e-6230-4e38-aff8-3691f65abcbd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Low-Cost Software-based Solution for Commercial Application of PDS",
+  "text": "The technology development project aims to develop an algorithm to perform non-uniform\nsampling of Pulsed Dipolar Electron Spin Resonance Spectroscopy (PDS) data and utilize the algorithm to with\nreduced signal acquisition time by “partially” collecting the data and lower sample concentration requirements\nby trading off with “saved” averaging time, while preserving accurate P(r) shape information to enable high\nthroughput analysis. The target system used in the proposed work will be CRISPR-Cas9, a protein-RNA-DNA\ncomplex that has revolutionized genome engineering. Success in the proposed work is expected to significantly\nadvance the utility of PDS for probing structure and dynamics of biological molecules."
+ },
+ {
+  "id": "8971514f-8581-4329-9981-7713d2630195",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Coronavirus Infection Dynamics and Cross-species Transmission in Bats",
+  "text": "Coronavirus Infection Dynamics and Cross-species Transmission in Bats\nNewly emerged coronaviruses are a major threat to public health and understanding infection dynamics in\nreservoir bat hosts has the potential to inform on disease emergence and mitigation of epidemic and pandemic\nrisk. This proposal will investigate host and environmental conditions facilitating cross-species transmission in\nwildlife sampled across Asia, Africa, and the Middle East. I will also prospectively collect data on bat-borne\ncoronaviruses in diverse ecosystems locally in California (USA) and at an international field site (Myanmar) to\nassess seasonality, model disease dynamics, and investigate drivers of cross-species disease transmission."
+ },
+ {
+  "id": "897173ae-6a3e-45be-bd71-000fb5e008bf",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Core 1 Krogan",
+  "text": "THE HARC CENTER: HIV ACCESSORY AND REGULATORY COMPLEXES PROTEOMICS CORE SUMMARY The Proteomics Core will support all HARC Center Projects by applying and developing mass spectrometry (MS)-based proteomic technologies for the functional and structural characterization of HIV-host protein complexes. Together with the Genetics, Structural Biology, and Computational Cores, we provide a systematic pipeline for the structure determination of Vif-, Tat-, and Rev-host protein complexes. This novel HARC endogenous protein structure (HEPS) platform will collect and integrate structural data to build comprehensive structural models of endogenously purified virus-host complexes. The Proteomics Core will perform endogenous protein purifications and map protein-protein interactions (PPIs) of HIV and host proteins in HIV-infected and genomically edited and unedited primary CD4+ T cells by affinity-purification MS. We will additionally provide structural proteomics methodologies, including native MS (nM); cross-linking (XL)-MS, and hydrogen/deuterium exchange-MS (H/DX-MS), to support the structure determination of challenging and flexible HIV-host protein complexes. Finally, to characterize changes to chromatin and RNA-binding proteins involved in HIV transcription and latency, we will identify and quantitatively compare post-translational modifications (PTMs) of wild-type (WT) and genomically modified CD4+ primary cells infected with WT or mutant HIV."
+ },
+ {
+  "id": "8975da18-054c-421b-b2ec-1fffab022728",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "CORE C: Data Management and Analysis",
+  "text": "CORE C: PROJECT SUMMARY/ABSTRACT Data Management and Analysis Core The Projects proposed in this P01 bring together investigators with diverse expertise and innovative technologies to shed new light into the immune mechanisms involved in the pathogenesis of celiac disease (CeD). Large, multi-parameter datasets, ranging from microscopy-based tissue analysis to blood proteomics, will together yield comprehensive immune characterization of CeD patients across a range of disease activity levels, capitalizing on synergy between the strong experimental and computational expertise of the project investigators and the world leading clinical programs in CeD at the collaborating centers. Over the course of the projects, these datasets will need to be managed and shared among the project investigators and submitted to appropriate databases for dissemination to the wider research community. In addition, to achieve the goals of using these data types to address fundamental questions in CeD pathogenesis, cutting-edge statistical and data analysis approaches will be required. The Data Management and Analysis (DMAC) Core will facilitate the systems and computational immunology aspects of the program by providing a centralized infrastructure for data management and storage, and an innovative strategy for sharing data and resources that prioritizes timely dissemination of data both in and outside the Program and easy replication of computational analyses by the scientific community. The Core will provide biostatistical support and consultation across projects to ensure reproducibility, responsible statistical interpretation, and optimal resource usage via iterative study design. The data generated across projects will be analyzed by the Core using standardized, state-of-the-art bioinformatics procedures. Crucially, the Core will work with the Project teams to compare and integrate the immune signatures identified across tissues and blood, with the goal of developing a framework capable of connecting immune status and pathologic response both locally in tissue and systemically in blood. The Core will utilize and integrate statistical, machine learning, and dynamical modeling approaches. Overall, the DMAC Core will support and advance the overarching goal of the Program to elucidate the key principles of CeD pathology, circulating biomarkers of tissue-level disease activity, and predictors and determinants of disease progression in humans."
+ },
+ {
+  "id": "8977a65e-c250-4704-9058-5be627a7d126",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Site-specific Integration of Large (10-100 kb) DNA Constructs into the Mouse Genome and Human Induced Pluripotent Stem Cells Using the Cas9-Bxb1 Integrase Toolbox",
+  "text": "RELEVANCE TO PUBLIC HEALTH\nAdvances in experimental techniques to modify the genetic makeup of mice have enabled development of mice\nthat “model” particular diseases, including cancers, providing live organisms that researchers can use to study\ndisease progression and test therapies. However, a major roadblock in the development of such models is the\ninefficiency of inserting large tracts of DNA into mouse chromosomes, a limitation that hinders research on the\nrole of many coding and non-coding DNA regions in cancer. In the proposed project we will develop, validate,\nand make publically available an innovative technique for precise insertion of large tracts of DNA into mouse\nchromosomes, enabling researchers to develop improved and new models of cancer."
+ },
+ {
+  "id": "89857eab-9eef-430c-95c7-e7d5c6c02510",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A Gene-Network Discovery Approach to Structural Brain Disorders",
+  "text": "The proposed work examines the role of PIDD1 in brain development and is motivated by genetic findings in patients\nwith lissencephaly, a devastating disorder characterized by simplified or absent convolutions in the anterior part of the\nbrain. The work aims to understand the function of PIDD1 in mammalian brain development and to apply a novel\napproach to the analysis of existing whole exome sequencing datasets from additional patients with smooth brain, to\ndiscover other genes and gene networks that are involved in this condition. Successful completion of the work will\nprovide insights into the biology and function of PIDD1, expand our understanding of the development of the normal\nbrain and the genetic causes of smooth brain, and inform future studies aimed at the identification of possible\ninterventions for this disorder."
+ },
+ {
+  "id": "898697e2-c683-4f50-9da0-422915406327",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular Neuroscience and Imaging Core",
+  "text": "The overall goal of the UMMC Balance and Auditory Research Center (BARC) is to employ and expand innovative molecular, cellular, and physiological approaches to the study of balance and hearing to develop novel diagnostic and therapeutic breakthroughs and provide advanced training and mentorship opportunities for students, residents, and junior faculty. The Molecular Neuroscience and Imaging Core (Core B) will serve BARC-affiliated faculty, the larger university-wide research community, and other IDeA supported faculty by pursuing two major aims. Core B will be divided into two arms- a molecular neuroscience arm and an imaging arm. In Aim 1, Core B will provide centralized support for mouse line genotyping and sperm isolation/cryopreservation for mouse line protection. One of the main activities of the Molecular Neuroscience arm is expected to be providing support for genotyping mutant mouse lines used in experiments. Emphasis will be on performing genotyping PCR reactions quickly and inexpensively, lessening the burden of lab technicians and students. A second main activity for the molecular neuroscience arm will be to fill a much-needed gap in protecting irreplaceable elements of many research programs- the mice themselves. Currently, while all investigators should protect their mouse lines via some sort of cryopreservation, few have the capital to rigorously preserve all lines, and many do not have the ability to protect any lines. Critically, by ensuring novel mouse lines created and maintained by BARC faculty, faculty of the wider UMMC institution outside BARC, and IDeA participants are protected against catastrophic events often witnessed in the Deep South region of the US (hurricane, tornado, extended power outages) via offering sperm cryopreservation and long-term storage at extremely affordable prices, the Core B molecular neuroscience arm will further enhance future reproducibility of experiments. In Aim 2, Core B will provide centralized support for specialized sample preparation, imaging and final image analysis as a partner with each lab. This aim will be pursued by the second arm of Core B- the Imaging arm. The Imaging arm will support specimen preparation, data gathering, and image analysis via standard, confocal, and electron microscopy imaging and post-acquisition image analysis. Altogether, Core B will provide a pipeline by which technical support from the Core can be leveraged by each participating lab to effectively shift efforts from students and technicians involved in the routine analysis of mouse genotypes and sample preparation for imaging to efforts more directly aligned with running and analyzing final outcomes of experiments."
+ },
+ {
+  "id": "8988a35d-13a1-457e-bb30-93a2342d2909",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Elucidating the role of the microbiome in inducing gut permeability and inflammation",
+  "text": "The microbiome induces intestinal permeability and inflammation in metabolic syndrome. Identifying gut bacterial\nmetabolites that damage intestinal integrity will illuminate how the microbiome affects host health. This will further\nallow development of therapeutics to alleviate microbiome-mediated disruption of intestinal homeostasis."
+ },
+ {
+  "id": "89893d77-0a2f-45f0-9889-e0d0b4b93660",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Understanding Transplant Relapse of the Myelodysplastic Syndromes through Early Detection of Residual Disease among Hematopoietic Stem Cells",
+  "text": "Despite 30 years of advancement in our treatment and understanding of the myelodysplastic syndromes (MDS),\nthe 15,000 patients diagnosed with these conditions every year in the US face two harsh realities: their diagnosis\ncarries a 37% 5-year survival rate, and a bone marrow transplantation is their only curative treatment option. We\nhave developed a new sequencing method capable of detecting treatment refractory MDS stem cells present\nmonths prior to relapse after transplant, and we aim to use this technique to understand how the persistence or\nresponse of these rare cells drives clinical outcomes. The results from this proposal promise to completely\nchange how patients with MDS are monitored and treated by focusing not on the bulk disease cells, but rather\ntheir cellular origins in stem cells."
+ },
+ {
+  "id": "898a8d6e-fee3-4960-980f-4175f55922f3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "CORE C (Biostatistics and Bioinformatics Core)",
+  "text": "The purpose of the Biostatistics and Bioinformatics Core (Core C) is to provide professional expertise\nin computing, bioinformatics, and biostatistics for all P01 projects, investigators, and participants."
+ },
+ {
+  "id": "898efa5c-0635-422d-8163-aeaeaa28e3a4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Neuroproteomics Core - Yates",
+  "text": "The Neuroproteomics Core of The Scripps Research Institute Alcohol Research Center (TSRI-ARC) will provide mass spectrometry-based bioanalytical collaborations to meet the specific needs of the TSRI-ARC and Center- at-Large. Given the breadth of work to be conducted in this translational research center, it is understandable that not all personnel will have expertise in specialized areas of analytical chemistry. The first goal of the Neuroproteomics Core is to provide access to proteomic methods, such as protein expression analysis, phosphoproteomics, protein interactions, and biorthogonal chemistry, for the discovery of molecular mechanisms in animal models of alcohol drinking and dependence to TSRI-ARC investigators. Personalized consultation with investigators on issues related to experimental design, sample collection, sample handling, and data interpretation will be provided. The second goal of the Core is to advance methods to perform single-neuron proteomic measurements in combination with electrophysiology measurements to study alcohol use disorder (AUD). In all these experiments, Core personnel will work closely with TSRI-ARC investigators to solve technical problems and assess and analyze the data."
+ },
+ {
+  "id": "899245ac-f293-430d-a924-c6160cc0c1ae",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "High-Throughput Automated Patch Clamp Instrument",
+  "text": "Ion channels are essential for normal physiological function, and their disruption can lead to a wide range of\ndisorders affecting the heart, brain, skeletal muscle and more. These channels and associated diseases are best\nstudied using patch clamp electrophysiology. We seek to acquire a high-throughput automated patch clamp\nsystem to increase experimental capacity and broaden access to this technology, thereby advancing multiple\nNIH-funded projects focused on diverse conditions including cardiac arrhythmia, neurological dysfunction, and\ncancer."
+ }
+]

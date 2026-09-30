@@ -1,0 +1,142 @@
+[
+ {
+  "id": "f6e57bec-8bd6-41be-b6b4-a1662a8465c8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Understanding Pancreatic Cancer Immune Microenvironment and Treatment Response through Integrating in vivo Imaging with Immunophenotyping",
+  "text": "The overall goal of this proposal is to develop an integrated in vivo imaging with immunophenotyping\napproach to understand the immune evasion mechanisms of pancreatic cancer and develop more effective\ntherapies for this disease. The successful completion of this study may provide an innovative approach to\ntreating pancreatic cancer, and the knowledge gained from this study may also help us develop a rationally\ndesigned intervention for pancreatic cancer patients."
+ },
+ {
+  "id": "f6e7a7b7-a538-4711-96d3-4c459fdc2351",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Cancer Engineering Training Program",
+  "text": "The central mission of the T32 “Cancer Engineering Training Program” (CETP) is to provide a supportive and\nimmersive learning environment for predoctoral trainees focused on the application of engineering-based\napproaches to address fundamental and translational challenges in cancer biology, diagnosis, and treatment.\nThe program emphasizes interdisciplinary collaboration, combining expertise in engineering, physical sciences,\nbiology, and medicine to drive innovation in cancer research. In addition to educating trainees in multiple aspects\nof cancer engineering, the CETP will emphasize collaboration across a wide spectrum of disciplines."
+ },
+ {
+  "id": "f6ec5770-5db0-4003-8341-e10b8b807f4c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Real-Time Monitoring of Nanobubble-Labeled Chimeric Antigen Receptor T cell Trafficking via Contrast-Enhanced Ultrasound",
+  "text": "Current CAR-T cell therapies for solid tumors encounter significant challenges due to inadequate methods for\nreal-time monitoring of CAR-T cell behavior and distribution, which complicates the assessment of treatment\nefficacy and safety. The proposed research will develop a novel technique that employs nanobubble-based\nultrasound contrast agents to effectively label CAR-T cells, enabling their visualization in vivo. Once validated,\nthis approach will yield critical insights into CAR-T cell dynamics, supporting personalized treatment strategies\nand improving the overall efficacy of cancer immunotherapy."
+ },
+ {
+  "id": "f6ecab10-308f-4145-8c45-da933000edbc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cancer Genomics Technologies",
+  "text": "The TCI Cancer Genomics Technologies Shared Resource (CGTSR) facilitates scientific, translational, and clinical breakthroughs by harnessing cutting-edge molecular -omics techniques, advanced instrumentation, and computational methods. The CGTSR offers TCI members the latest developments in bulk, single-cell, spatial, and in-situ multi-omics data generation platforms; while also providing expertise to optimize experimental design, data quality, affordability, and access. The team is comprised of 29 staff and faculty harbored in the brand new Mount Sinai Discovery and Innovation Center which includes instrumentation, molecular and cell biology spaces, and BSL2/BSL2+ laboratories. Post-sequencing data analyses are performed using the secured and centralized Mount Sinai High-Performance Computing facility with 1.5 Petabyte storage capacity. The CGTSR maintains a comprehensive suite of genomics services that accelerates cancer discovery, inter- and intra-programmatic collaborations within the TCI community, and benchmarks new technologies to continually match the evolving needs of TCI members. The Specific Aims of this Shared Resource are to: (1) Provide comprehensive Next Generation Sequencing (NGS) equipment, services, and expertise; (2) Offer comprehensive single cell, low abundance, and spatial transcriptomics equipment, expertise, and services."
+ },
+ {
+  "id": "f6f411d0-b2ab-4e20-95ed-6ed360d21ce7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Melanocyte PDL1 control of UVB-induced IFN-I",
+  "text": "Nras-mutated melanomas are difficult to treat and in need of improved therapies. We perform studies to\nunderstand how Nras mutations, PDL1 and UVB interact in sunlight exposure-associated melanomas and how\nthese affect tumor progression, metastases and treatment resistance. Understanding mechanisms of how\nPDL1 affects UVB-driven melanomas and treatment resistance will help improve therapies."
+ },
+ {
+  "id": "f6f659a1-9717-439c-b3a6-bfaa65b8159d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "KU Nanofabrication Facility",
+  "text": "PROJECT SUMMARY – CORE D Over the past twenty-five years, there has been tremendous growth in the development of lab-on-a-chip technologies for clinical, environmental and biological applications. These devices are constructed using fabrication technologies that were originally developed to produce integrated circuits. Similar to integrated circuits, these devices can integrate several different bioanalytical processes into a single platform only a few centimeters in size. Microfluidics have been used for many applications in biomedical research, from analyzing the contents of single cells to mimicking the complex environments of human organs to better understand cell- cell interactions. The KU Nanofabrication Facility is a Core Laboratory supported by the COBRE Center for Molecular Analysis of Disease Pathways at the University of Kansas. It provides the resources and personnel for the production of micro- and nanoscale devices that are used by project investigators for their studies. Equipment and training are available to investigators for the fabrication of devices for biomedical, biophysical, and bioanalytical studies related to disease pathways. The goals of KUNF in Phase 3 are (1) to develop and maintain a Core infrastructure that allows the efficient design and fabrication of nano- and microscale devices for use by project investigators and researchers from the University of Kansas, other regional universities, and private institutions for biomedical research, (2) to provide outreach, training and assistance in the development of nano- and microfluidic devices for the investigation of disease pathways, (3) to provide access to and assistance with the development of nano- and microfluidic devices and to fabricate custom devices for investigators, and (4) to continue developing a critical mass of Core Lab users, so that the facility becomes a self-sustaining, integral part of the biomedical research infrastructure in the state of Kansas and the surrounding region."
+ },
+ {
+  "id": "f7056859-30d5-4e57-8f5c-6f9a4b725671",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Calling germline and mosaic variants from long genomic and RNA-seq reads",
+  "text": "Accurately calling genetic variants from high-throughput sequence data may be critical to the understanding of\nthe phenotypes and to the clinical decision. The proposed studies aim to develop novel variant calling\nalgorithms for accurately calling most of types of germline and mosaic variants from long sequence reads. The\nsuccess of the proposal is likely to enhance the study of mosaic mutations and structural variants in biomedical\nresearch."
+ },
+ {
+  "id": "f7071d5e-667f-4658-86fb-3bfd0c49f6df",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Fluorescent Probes that Span the Spectrum for Multi-Color Imaging of Peroxynitrite in Living Cells",
+  "text": "(Public Health Relevance Statement)\nReactive oxygen species and reactive nitrogen species are required for a range of cellular functions, including\ncell differentiation and cell death. Dysfunctional reactive oxygen and nitrogen species production is connected\nto chronic inflammation, which underlies many diseases including cancer, heart disease, and respiratory\ndiseases. We are developing new chemical probes and imaging platforms for imaging these oxidative\nmetabolites to help decipher how they contribute to healthy and disease states."
+ },
+ {
+  "id": "f70b988e-6136-4e97-9b96-45955462ec55",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mentoring patient-oriented research to improve cardiovascular health among people with HIV in sub-Saharan Africa",
+  "text": "Cardiovascular disease (CVD) is a leading cause of morbidity and mortality among people living with HIV\n(PWH) including in sub-Saharan Africa where approximately 70% of the global population of PWH reside.\nHowever, CVD screening and prevention remains extremely limited in practice in that region, due in part to lack\nof patient-oriented research (POR) on diagnostic modalities and locally-derived risk prediction criteria. Dr. Mark\nSiedner is a clinician scientist and emerging leader in research on CVD among PWH who has an extensive\ntrack record of scientific mentorship in patient-oriented clinical research. This award will provide him the\nprotected time and support to 1) develop a POR mentoring program on CVD research focused on PWH in sub-\nSaharan Africa, 2) grow the careers of promising scientists in this area, and 3) identify optimal CVD screening\nalgorithms and risk prediction scores for PWH in the region."
+ },
+ {
+  "id": "f70c1fd8-b9ee-449e-913c-3ca4a9b26458",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Functional Genomics Shared Resource",
+  "text": "Overview: Functional genomics approaches are a central pillar of modern cancer research. By enabling the manipulation of gene function and quantitative analysis of such perturbations, functional genomic tools contribute to the elucidation of genotype-to-phenotype relationships controlling cancer development and response to therapies. The field of functional genomics, a direct product of the Human Genome Project, has rapidly evolved with the advent of technologies such as RNA interference (RNAi) and rapid genome editing (e.g. CRISPR), which in turn facilitated the investigation of large numbers of genes in vertebrate cells in a single experiment. The Functional Genomics Shared Resource (FGSR) provides UCCC members access to tools that investigate gene function on a genome-wide scale; develops novel protocols and offers expertise for the use of functional genomics tools; and provides a forum for scientific exchange. By promoting collaboration in functional genomics, the FGSR serves to catalyze discoveries by UCCC members. Services: The FGSR provides reagents to members in ready-to-use and cost-effective formats. Additionally, a variety of personalized services like custom design and creation of shRNA and CRISPR panels targeting gene collections of interest, and cell engineering are also offered. Reagents/Tools: Through continuous assessment of novel technologies and UCCC members' needs, the FGSR has acquired genome-wide short hairpin RNA (shRNA), Open Reading Frame (ORF) and CRISPR libraries. The FGSR's human and mouse shRNA collections contain 176,283 clones and 138,538 clones, respectively. The ORF library contains 15,744 plasmids for overexpression of 13,082 unique human genes. The arrayed CRISPR library has 2 gRNAs per gene for 16,190 human genes. The FGSR also houses genome-wide shRNA libraries, myriad of pathway-focused shRNA panels, gene knockout CRISPR libraries like the GeCKO and Brunello and transactivating SAM libraries in ready-to-use format. Management: The FGSR is managed by the UCCC, and is overseen by the Associate Director for Basic Research. Use: Since July 2016, 318 individuals from 146 investigator laboratories have used services. Fifty-nine percent of these teams (86) were UCCC members, representing all four Programs and resulting in 80 peer-reviewed publications. Operating Budget: CCSG funding represents 43% of the annual operating budget and the remaining support is from user fees (30%) and institutional funds (27%). Consultation/Education: FGSR personnel assist members on a daily basis with experimental design and troubleshooting. The FGSR collaborates with other SRs to create robust protocols for seamless use of reagents across SRs. The website hosts a large number of very detailed protocols and bibliographic sources that are updated constantly. The FGSR also hosts `technology forums' where UCCC members are updated on the latest developments and applications in the field. Future Directions: The FGSR will continue to acquire the latest tools in the functional genomics field, such as novel CRISPR-based technologies. The service and education portfolio will be expanded via technology forums and webinars."
+ },
+ {
+  "id": "f70c378a-f2fe-4c26-8b90-db3694408e65",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "High-throughput screening and structure-guided optimization of oligonucleotides for site-directed RNA editing by ADARs.",
+  "text": "Concerns of permanent undesirable off-target DNA edits has hampered acceptance of genomic\nediting tools to treat genetic disorders. The long-term goal of this proposal aims to treat these\ndisorders by selectively editing the RNA transcripts to produce functional protein. Guide\noligonucleotides will be screened and optimized to target mRNA mutations that can be repaired\nby the cell’s RNA editing enzymes."
+ },
+ {
+  "id": "f70c79f6-8e1e-4750-81fc-546968732f50",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "UCLA Medical Genetics Research Training Program",
+  "text": "The UCLA Medical Genetics Research Training Program has a mission of training the next generation of\nclinician scientists with an emphasis on medical genetics. Our trainees have gone on to contribute to the\nbiomedical enterprise with impactful careers in all aspects of genetics and genomics. Our training program is\nfocused on Medical Genetics research."
+ },
+ {
+  "id": "f70eff49-a7cb-4330-bc4a-d44e780eecd4",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Core F - Fluid Biomarkers and Genomics",
+  "text": "Mount Sinai ADRC: Biomarkers and Genetics Core (Core F) – Research Summary - REVISED One hundred years ago dementing illnesses were classified based upon their clinical presentation and neuropathology. The promise of the twenty-first century is that we will be able to classify these same diseases by their molecular signatures measured from biofluids. With recent advancements in molecular technologies and analytical approaches we can classify neurodegenerative disorder pathologies with greater precision during life and quantify multiple contributing factors leading to dementia. Core F will use multi-modal approaches, including genetics and proteomics to advance early detection, risk stratification and better classifications of at-risk individuals into biologically informed groups. Our Core investigators are internationally renowned for work on fluid biomarkers, and genetic methods development for ADRD. The major goal of our efforts is to leverage genomic, fluid biomarkers and imaging data generated by our local ADRC in synergy with other ADRCs to build risk models for ADRD disease traits and outcomes. To achieve this goal, four specific aims are proposed. Our most fundamental Aim is to collect, process and bank plasma and DNA for broad sharing with the ADRD research community. Our second and third Aims include the quantification of disease contributions from an individual’s genome, via polygenic risk scores (PRS), incorporating risk identified by genome-wide association studies for AD, and quantification of AD risk and perturbed biological pathways from plasma. The fourth Aim of our proposal is central to the ADRC’s mission—training of the next generation of ADRD researchers. Our Core leadership is dedicated to sharing knowledge, training, and mentoring researchers in all aspects of our work. Our Core is highly integrated with other ADRC Cores and central to the work pursued by ADRD researchers at Mount Sinai, given the importance of plasma biomarkers and genetics for most clinical and translational studies in ADRD."
+ },
+ {
+  "id": "f71089ba-ac60-4851-a986-3d2f43689f0a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Machine learning and statistical tools for subcellular spatial biology",
+  "text": "Spatial molecular biology is a leading frontier in biotechnology today, with widely recognized\npotential for aiding biomedical advances. The proposed work will develop a suite of\ncomputational tools to extract testable and actionable biological insights regarding subcellular\nphenomena, from spatial transcriptomics data. We will deliver powerful machine learning tools\nand rigorous statistical procedures targeted specifically to subcellular spatial omics data, for\nwhich few tools exist today."
+ },
+ {
+  "id": "f714a27c-40d7-4888-9e4c-21fea4f72ec7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Single-cell dissection of CD4 T cell changes in patients with immune-related adverse events following PD-1 inhibition",
+  "text": "PD-1 immune checkpoint inhibition (ICI) in patients with cancer is associated with secondary immune-related\nadverse events (irAEs) that limit its use, especially for those patients with the higher-grade toxicities. PD-1\nsignaling is important for maintaining immune homeostasis but the exact mechanism through which PD-1\ninhibition leads to autoimmunity is not understood. This proposal will test the hypothesis that de novo loss of PD-\n1 signaling enhances the antigen sensitivity of CD4 T cells and leads to the activation of autoreactive CD4 T\ncells that mediate irAE development."
+ },
+ {
+  "id": "f7168103-71fd-4910-afd0-933235558a83",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Regenerative engineering for complex extremity trauma",
+  "text": "Trauma is the leading cause of death and disability in the United States for people under the age of 45,\nand the current clinical management of complex extremity trauma is associated with high rates of complication,\nrepeated hospitalizations, and permanent disability. Advancements in the treatment and functional restoration of\ncomposite bone-muscle traumas are hindered by the lack of available therapies that can repair both of these\ntissues together. Our research will guide the development of highly regenerative materials that work in concert\nwith the body's healing programs and physical rehabilitation to restore the structure-function relationship within\nand between damaged muscle and bone with the potential to improve treatments for extremity trauma."
+ },
+ {
+  "id": "f718fc76-90fd-48cd-9904-a420e9a91e99",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Capsid-engineered AAV vectors with Brec1-based gene therapeutics for inactivating the HIV reservoir",
+  "text": "This project will use adeno-associated viral vectors guided by nanobodies or peptides to deliver HIV-1 specific\nrecombinase-based effector molecules to inactivate the HIV proviral DNA in persistently infected human T cells\nand myeloid cells. The significance is a clinically-viable non-invasive systemic approach to kill HIV in all tissues\nincluding the CNS without harming the host."
+ },
+ {
+  "id": "f71c0104-e5d8-492f-bcc4-a9d81128e0fd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The microenvironment in bone marrow hematopoiesis",
+  "text": "Using state of the art imaging and mouse genetics we will identify the cellular composition and molecular\nmechanisms through which specific vascular microenvironments in the bone marrow regulate hematopoiesis in\na lineage-, bone-, and insult-specific manner. We will establish new paradigms to understand the normal\nphysiology of hematopoiesis, the pathophysiology of blood diseases, and to build new organ systems capable\nof producing blood ex vivo."
+ },
+ {
+  "id": "f725acb2-555e-495c-af1c-6456d419a068",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Bifunctional small molecules for biosensing and continuous enzyme evolution",
+  "text": "Continuous directed evolution is a powerful approach to steer the activity of natural and designed proteins, but\nwe cannot apply it to the most useful class of proteins: enzymes that make small molecules. Drawing on my\nprevious discovery that enables the import of bifunctional molecules into E. coli to interact with genetic circuits,\nI propose a general strategy to biosense any small molecule. This is a radical new approach to evolving enzyme\nbiocatalysts that will impact how we synthesize bioactive small molecules, including peptides and glycopeptide\nantibiotics."
+ },
+ {
+  "id": "f7261f30-403d-4a94-99df-6ba7be131c26",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Physiologically-inspired exoskeleton controller to enhance human balance",
+  "text": "Robotic exoskeletons improve an individual’s ability to navigate their community and have the potential to reduce the risk\nof falling; however, current exoskeletons do not assist in balance control. This project will develop a generalizable,\nphysiologically-inspired controller for a multi-joint exoskeleton to enhance reactive balance control during standing and\nwalking. This work could lead to significant advances in the usability of robotic exoskeletons for balance control, which\ncan ultimately be used to develop exoskeletons aimed at improving balance in individuals at a high risk for falls, including\nolder adults and individuals with neuromuscular pathologies."
+ }
+]

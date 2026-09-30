@@ -1,0 +1,142 @@
+[
+ {
+  "id": "7909c2d1-c3c0-4671-8c57-26603ee446a9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of Deep Mutational Scanning with Duplex Sequencing (DMS-DS) for anti-cancer drug evaluation and administration",
+  "text": "Targeted therapies have revolutionized patient care for a wide range of cancers, but are fundamentally\nlimited by acquired resistance mutations. Current technologies used in industry to evaluate the mutational\nlandscapes of next generation targeted therapies are limited in sensitivity, incomplete, and retrospective.\nThis project proposes to develop and commercialize deep mutational scanning with duplex sequencing\n(DMS-DS), the most comprehensive and accurate platform available for measuring the mutational\nlandscape of investigational targeted therapies."
+ },
+ {
+  "id": "790ae4c8-58cc-4b89-8422-33891b7aa49a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "WESTPA: A high-performance framework for simulating at the frontiers of biology",
+  "text": "The project will continue development of WESTPA software to power the next decade of rare-\nevents research at any scale (e.g., molecular, cellular) via enhancements in performance and\nease of use on high-performance clusters as well as cloud computing. The primary impact will\nbe to facilitate simulations throughout the community at the frontiers in biology, making possible\ncomputations that otherwise would be out of reach for typical research groups. Research to be\nperformed directly by the investigators will include studies of drug membrane permeability and\nviral infections with potential to enhance drug design efforts."
+ },
+ {
+  "id": "790b0c13-a5ac-41e9-8f01-e1c56170f722",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Multidisciplinary Training Program in Basic Diabetes Research",
+  "text": "Our program provides basic science trainees with the tools they need to develop a deep understanding of the\nmolecular aspects of diabetes through strong laboratory-based research experiences, excellent mentorship, and\nan academic environment with a focus on multidisciplinary and comprehensive diabetes research. Training is a\ncombination of immersion in specific research projects under the direction of experienced and accomplished\nsenior researchers, formal education, and participation in a variety of other research-related educational\nactivities. This training program fills a critical need to increase the number of future leaders in diabetes research."
+ },
+ {
+  "id": "7910addc-9fe2-4ee8-8020-a21ea254152d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Asymmetric CRISPR Approach for Nucleic Acid Quantification",
+  "text": "Early and accessible cancer detection is critical for improving patient outcomes and reducing mortality rates.\nThis project aims to develop a simple, sensitive, and cost-effective asymmetric CRISPR-based microfluidic\ndiagnostic platform for the quantitative detection of exosomal microRNA biomarkers, enabling non-invasive early\ndetection of breast cancer. By enhancing diagnostic accuracy and accessibility, this approach has the potential\nto advance personalized medicine and improve cancer screening."
+ },
+ {
+  "id": "791edb4a-4cad-47f8-a04f-a950a4a2c75b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Technical Development Unit 1: Intelligent live imaging of metastasis patterns and subcellular molecular states at the whole organism level",
+  "text": "Fluorescence microscopy combined with the optically transparent Zebrafish xenograft model has the potential to unravel the functional heterogeneity and adaptation of cancer cells that underlies their metastatic potential. However, this requires bridging disparate scales, as metastatic sites can form across an entire organism, and cancer cells within need to be imaged with sub-micron 3D resolution. Further, low occupancy of specific metastatic niches requires imaging many xenografts. This stretches the capabilities of current microscope technology as they fail to provide high-throughput, high-spatial resolution, and whole organism imaging capability at the same time. To break through this boundary, we will develop a new multi-modal microscope to autonomously image both at the organism and subcellular scale in a high-throughput fashion. An optogenetic module further allows to manipulate pathways or photo-convert selected cancer cells for either tracking or single cell sequencing approaches. A computational pipeline will automatically detect and select recurring metastatic sites across many xenografts for high-resolution imaging. This will allow for the first time the quantitative comparison of functional states such as morphology, survival and proliferation, and signaling between different niches. We anticipate that the combination of multi-modal microscopy and the computational pipelines for autonomous imaging will shed new light on key aspects of functional heterogeneity in cancer metastasis."
+ },
+ {
+  "id": "7920b4d7-8220-4865-a3c4-ae29d10c5250",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Living beyond cancer: the short- and long-term cognitive effects of breast cancer and its treatment for cancer survivors",
+  "text": "Dr. Peng proposes to comprehensively investigate breast cancer and its treatment (chemotherapy, radiation,\nand hormone therapy) with global and domain-specific cognitive trajectory over time and to characterize cancer\nhallmark pathways in brain tissues of Alzheimer’s disease (AD) patients and controls to identify intersecting\nmechanisms for cancer and AD to inform targeted intervention. This research, together with Dr. Peng’s proposed\ntrainings in aging epidemiology, cancer survivorship, and advanced statistical modeling, will enable Dr. Peng to\nconduct interdisciplinary research to study the deep connections between cancer and aging and to identify\ninterventions targeting common pathways of cancer and AD to prevent both diseases."
+ },
+ {
+  "id": "7922feba-5425-4ec4-b3f3-3e9672859738",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Full Project 2: I CARE (Immunotherapy Cutaneous Adverse events Research)",
+  "text": "Immune checkpoint inhibitors are immunotherapy drugs that treat various types of cancer, but up to half of patients have adverse events from taking these drugs, with the result that they discontinue the drug early, and may have worse quality of life or shorter life expectancy. This study investigates whether these adverse events are more likely to happen in certain cancer patients and if so, what are the specific social factors involved, to address this problem."
+ },
+ {
+  "id": "79268e47-61c4-4f42-bf5b-f67e80d4421f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Characterizing longitudinal post-acute rehabilitation utilization and outcomes during the first year after stroke in Medicare beneficiaries",
+  "text": "Post-acute rehabilitation utilization after stroke is poorly characterized, leaving us unable to improve the\ncontinuity of care, patient outcomes, and the value of rehabilitation after stroke. This proposal aims to fill this\ngap by comprehensively characterizing longitudinal post-acute rehabilitation utilization during the first year after\nstroke and determining its impact on one-year outcomes. This will establish the foundational knowledge\nneeded to improve the value of rehabilitation after stroke."
+ },
+ {
+  "id": "792b9128-6d36-41c5-af18-6a84105a5e24",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of diagnostic and prognostic ultrasound imaging biomarkers for plantar heel pain",
+  "text": "This research addresses the pressing issue of underdiagnosed myofascial pain, which plays a\nsignificant role in various musculoskeletal pain conditions, including plantar fasciitis. By\ndeveloping novel imaging biomarkers, this study aims to provide objective means of detecting\nmyofascial pain, understanding its underlying mechanisms, and guiding personalized\ntreatments. Given the high prevalence of plantar fasciitis and its long-lasting impact, this\nresearch has the potential to improve the diagnosis and treatment of not only this condition but\nalso other lower extremity musculoskeletal disorders, ultimately enhancing public health by\nreducing illness and disability associated with chronic pain."
+ },
+ {
+  "id": "792dbde2-0e85-4694-a7b9-834be68c9e2f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Unsupervised Deep Photon-Counting Computed Tomography  Reconstruction for Human Extremity Imaging",
+  "text": "An unsupervised deep learning approach will be developed to enable high-quality photon-counting CT image\nreconstruction from less data by synergistically combining deep learning, compressive sensing, and iterative\nreconstruction techniques. It will significantly enhance the imaging performance of photon-counting CT at\nincreased scanning speed, increased spatial resolution, and reduced radiation dose, with initial applications in\nclinical human extremity imaging."
+ },
+ {
+  "id": "792f5035-a291-4cf1-92a5-ad69066406e3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Beyond Genetics: Unveiling Epigenetic Drivers of Lifespan Heterogeneity through Yeast Single-Cell Aging Atlases",
+  "text": "Wide ranges of lifespan are observed within species, including some laboratory species whose\npopulations are maintained in a genetically stable manner, such as yeast and worms, and in identical growth\nenvironments. Hence, the underlying cause of such lifespan variation is likely epigenetic. In this exploratory\nproject, we will attempt to identify and define the factors and pathways that contribute to the observed lifespan\nvariation beyond invariable genetic and environmental factors."
+ },
+ {
+  "id": "79309af3-9a56-41e6-b888-64e745f8f465",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "TRD3: Endoscopic and Probe-based Coherence Imaging",
+  "text": "TRD 3 The goal of this TRD project is to enhance the power and functionality of endoscopic and probe-based OCT. The small form factor of fiber-optic OCT probes affords the capacity to reach remote organs of the human body, enabling OCT to be routinely used for clinical investigation of the coronary arteries, the gastrointestinal tract, and the lung. However, many strategies to improve image contrast through advanced OCT signal collection and processing are incompatible with the spatial and practical constraints of probe-based OCT. This impairs diagnostic performance and feedback to guide interventions. The focus of TRD 3 is to address some of these limitations. OCT derives image contrast from variations in the tissue’s backscattering properties, but subtle differences in the scattering properties can be difficult to identify because the signal from subsurface microstructure adds up coherently, resulting in speckle. Polarization offers a complementary endogenous contrast mechanism that can afford contrast between tissues that are indiscernible in OCT’s backscattering signal. Many tissues with a fibrillar architecture exhibit birefringence and delay light depending on the alignment of its polarization state with the fibrillar tissue components. Specific Aim 1 capitalizes on tissue’s intrinsic birefringence to measure the orientation of fibrillar tissue elements in all three spatial dimensions through fiber-optic imaging probes. This is specifically relevant for imaging birefringent white matter tracts during stereotactic neurosurgery in the brain. Imaging probes containing two imaging channels at distinct illumination angles and interfaced through a multi-channel motor drive unit will be fabricated. Algorithms that leverage the multiple imaging angles and observe additional continuity constraints will be developed to reconstruct 3D vectorial birefringence. Visualizing the 3D orientation of axonal tracts surrounding an intracranial probe will enable microscopic guidance of stereotactic procedures, such as the implantation of stimulation electrodes for deep brain stimulation. Specific Aim 2 responds to the persistent challenge of speckle in OCT by leveraging machine learning to encapsulate the physical meaning of hardware-based speckle suppression into a trained algorithm. A novel method to generate ground truth speckle-suppressed tomograms using sample tilting for angular compounding will be developed to enable supervised training of a deep neural network. The specific challenge of deploying the trained algorithm to new imaging systems will be addressed by developing both a supervised and an unsupervised method for domain adaptation. Improved image contrast and speckle suppression are critical for interpretation of many tissue pathologies, including, e.g., the diagnosis and staging of skin and oral cancer. Combined, these efforts will improve the contrast achievable with probe-based OCT, thereby enhancing its practical use and extending its utility to new applications where decisive contrast has been lacking."
+ },
+ {
+  "id": "7937791c-78dd-4ad2-b739-e68e1d410b43",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Post-Infectious Dysautonomia: Insights into Clinical Phenotypes and Disease Pathogenesis",
+  "text": "A subset of patients develop chronic disabling symptoms of autonomic dysfunction such as fatigue and\ndizziness following infection with COVID-19 (Long Covid) or Lyme disease (Chronic Lyme), but the\nmechanisms through which this occurs are not understood. We will study a group of patients with chronic\npost-infectious autonomic symptoms to understand the markers and subtypes of this syndrome, and to test\nwhether it is driven by an autoimmune attack on the nerves leading to chronic nerve damage."
+ },
+ {
+  "id": "7937d749-e29e-42ed-a56b-316dcae0315c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of adverse gastrointestinal events during oral immunotherapy",
+  "text": "Oral immunotherapy (OIT) is a promising treatment for food allergy; however, it may cause gastrointestinal\nside effects including eosinophilic esophagitis (EoE). The overall goal of the proposed research is to\nunderstand the mechanisms underlying the gastrointestinal side effects of OIT. We will pursue this goal by\nstudying eosinophil and other immune responses in the blood and the esophagus during a clinical trial of\ndupilumab with milk OIT, which may help us improve treatments for food allergy and better understand the\npathogenesis of EoE."
+ },
+ {
+  "id": "7947dceb-8faa-4822-9947-b1bacbb54ba6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Pacific Center for Artificial Intelligence and Data Science in Medicine (PAC-AID)",
+  "text": "The Pacific Center for Artificial Intelligence and Data Science in Medicine (PAC-AID) aims to significantly\nimprove public health outcomes in Hawaii and the Pacific Islands through the innovative application of artificial\nintelligence and advanced data science. By training researchers and developing cutting-edge methods in data\nanalysis, this project will enhance our ability to understand and address pressing health challenges. The\nadvancements from this initiative will be broadly applicable, ensuring improved health outcomes across various\npopulations and contributing to the well-being of all."
+ },
+ {
+  "id": "7959531a-d2e5-4722-8489-9ee8b17066b6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Protein-Based Inheritance in Mammals",
+  "text": "The objective of our studies is to test the novel and highly innovative idea that protein-based inheritance is a\nmechanism of epigenetic inheritance in mammals. Our studies will reveal a unique mechanism by which\nenvironmental exposures can be linked to the inheritance of new phenotypes including human disease."
+ },
+ {
+  "id": "795ca390-5e67-4e7d-8e11-1efa2f49470f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multiplexed imaging of viral protein processing and assembly in live cells",
+  "text": "Conventional technology for intracellular imaging of viral proteins is limited in spatial and\ntemporal resolution. This project will generate next-generation genetically encoded probe\nproteins that allow scientists to image when a given segment of a viral protein emerges from the\nribosome, and observe when that segment moves or is buried during viral protein assembly.\nThese tags will be used to image previously inaccessible processes, including viral polyprotein\ntranslation and homo-oligomerization of viral capsid proteins."
+ },
+ {
+  "id": "796f6103-1879-4d18-b30f-e0095124c7c7",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Multidisciplinary Training in Digestive Diseases",
+  "text": "The objective of this training grant is to develop the next generation of physicians and scientists for the successful pursuit of new knowledge to understand diseases, enhance health, and develop new treatments for digestive diseases."
+ },
+ {
+  "id": "797189e5-ead7-43e5-8f1c-3e3ae2039d5b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Understanding the role of altered lipid metabolism in CD8 T cell exhaustion within the tumor microenvironment",
+  "text": "A major barrier to the success of immune checkpoint inhibitor therapies is CD8 T cell exhaustion, which is a state\ncharacterized by reduced tumor killing and metabolic insufficiency. Our lab and others have identified\nmitochondrial stress as a key driver of CD8 T cell dysfunction, yet the impact of mitochondrial stress on\nconnected metabolic pathways remains understudied. This proposal aims to examine the role of altered lipid\nmetabolism in exhausted T cells, which will provide mechanistic insight into the metabolic underpinnings of T cell\nexhaustion."
+ },
+ {
+  "id": "7977038a-f37b-439b-a715-1cf1903b3996",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Unraveling the immunobiology of tumor-specific T follicular helper CD4 T cells",
+  "text": "Despite recent advances in immunotherapy, the majority of cancer patients still do not respond to treatment.\nWhile it is well established that CD8 T cells are critical for generating productive responses, it has been recently\nappreciated that CD4 helper T cells, especially T follicular helper cells, can predict response to immunotherapy\nand play important roles in the immunotherapy response. This project will help to define the mechanisms of the\ngeneration of Interleukin-21 producing CD4 T cells within tumor draining lymph nodes and the immunologic\nfactors necessary for their expansion with therapy."
+ }
+]

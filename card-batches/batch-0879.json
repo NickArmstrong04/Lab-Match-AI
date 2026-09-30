@@ -1,0 +1,142 @@
+[
+ {
+  "id": "ad63ba98-5c6e-466b-b160-fa969e3242bb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Advancing Causal Inference in Integrative Omics Analysis",
+  "text": "Advances in omics technologies – such as genomics, transcriptomics, proteomics, and metabolomics,\nand microbiomes – have introduced an unprecedented level of granularity into both clinical and bio-\nlogical measurements. However, using these data to discern causal factors and mechanisms under-\nlying diseases is challenging due to their high dimensionality, correlation, and complexity. The current\nproposal aims to address this gap by developing rigorous causal inference methods and software for\nintegrative analysis of omics data, providing new insights on disease etiology and ultimately transform\nthe potential of massive biomedical data into trustworthy, actionable, and generalizable knowledge to\nsolve public health challenges."
+ },
+ {
+  "id": "ad68af91-de37-451a-9289-3bd358088bad",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "PhacoTrainer: Implementing and Evaluating an Artificial Intelligence Tool to Improve Cataract Surgery",
+  "text": "Public Health Narrative\nCataract surgery is the most commonly performed surgery in the United States, but complications from poor\ntechnique can lead to lasting vision loss—highlighting the need for better surgical training. We are developing\nand evaluating PhacoTrainer, an AI-powered platform that provides automated, objective feedback on surgical\nperformance using video analysis, with the goal to improve cataract surgical education. This project is aligned\nwith the objectives of the National Eye Institute to protect and prolong vision for the American people."
+ },
+ {
+  "id": "ad69afe4-22d5-4920-b6f7-e63cb6ab6ec7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Islet Cell Biology Core",
+  "text": "Reduced islet β cell number and function underlie the progression of all forms of diabetes. It is therefore essential for all laboratories investigating causes and potential cures for diabetes to be able to study islet function in relation to their specific models and molecules of interest. The objective of the Islet Cell Biology Core (ICBC) is to provide DRC members with state of the art support including experiment design, islet isolation, and performance of and/or training in an expansive range of assays for physiological and morphometric assessment of pancreatic islet function and growth. This will be accomplished through four Aims: Aim 1: To provide islet isolation service and training: We will continue to offer islet isolation services using rodent animal models. Depending on the needs of specific investigators, the ICBC provides training for graduate students, postdoctoral fellows and research staff in pancreatic islet isolation techniques. Aim 2: To provide state of the art assays for physiological assessment of islet function: We will continue to provide consultation on experimental design and to offer a broad range of assays of pancreatic islet function, including batch incubation and perifusion, islet and cell fluorescence imaging (Cai2+), mitochondrial function assays by Seahorse Extracellular Flux Analyzer, perifusion coupled with respirometry, and closed respirometry. We will continue to provide access and instruction for quantitative imaging of pancreatic islet mass. The ICBC provides training in perfusion techniques, in basic principles of respiration and oxidative phosphorylation and measurement of oxygen consumption by different methods, and in all aspects of islet cell physiology and biochemistry. Aim 3: To pursue procedural and equipment advances: We will support the studies of collaborators at Penn and CHOP involving human islets affected by a range of pathophysiological conditions. We will also adapt our technology and expertise to the analysis of non-islet, metabolically relevant tissues, reflecting the complex, intercommunicating, multi-organ control required to maintain normal glucose homeostasis. Technological advances will include new equipment acquisitions and the investigation of cell function, signaling and bioenergetics in α cell enriched pseudoislets. Aim 4: To continue to offer a unique Electrophysiology Resource: Prompted by the research needs of DRC investigators and recognizing the preeminent role that ion channels play in physiology and pathology of pancreatic islet cells, during the previous cycle we established a successful collaboration with our Physiology Department, widely acknowledged for excellence in cell membrane biophysics, to provide expert consultation and experimental services in this crucial aspect of pancreatic islet cell biology and disease. In sum, the Islet Cell Biology Core is well aligned with the overall goals of the DRC, enabling investigators to perform state of the art basic and clinical research. Correlation of our phenotypic analysis performed on genetically altered or metabolically challenged mice or human source material with in vivo metabolic phenotyping and high throughput sequencing performed by other DRC cores will deepen our insights with the potential for therapeutic translation."
+ },
+ {
+  "id": "ad69e775-8f5e-47f3-adb4-3e2175bc1510",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Machine learning to predict cure in severe pneumonia episodes",
+  "text": "Pneumonia is the most common cause of death due to infection worldwide and in patients admitted to the\nintensive care unit (ICU); it is not clear why some patients improve quickly while others do not, despite receiving\nappropriate therapy. Machine learning offers great opportunity to reveal important early features of response to\ntreatment and predict which patients will be subsequently cured or not. This proposal will use state-of-the-art\nmachine learning using clinical features and local lung host response transcriptomics to predict pneumonia cure,\nthereby providing opportunities for earlier diagnostic and treatment interventions to promote cure in critically ill\npatients."
+ },
+ {
+  "id": "ad7027a6-6592-486e-a2e9-a76f66c2c881",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Integrated telehealth intervention to reduce chronic pain and unhealthy drinking among people living with HIV",
+  "text": "Unhealthy drinking and chronic pain are common co-occurring conditions among people living with HIV (PLWH) each of which negatively influences physical and mental functioning, HIV-related outcomes, and one another. Health care providers face a number of challenges to addressing these frequently co-occurring conditions for PLWH including restricted time and resources, limitations of pharmacological treatments to adequately treat both conditions (particularly among those with other co-occurring medical conditions or substance use histories), and poor patient adherence to recommended non-pharmacological treatments. Although there are empirically-supported behavioral approaches to address the full spectrum of each of these conditions, they often require multiple session, in-person interventions. Such requirements are burdensome to PLWH, who may face stigma and considerable economic challenges regarding transportation, child-care, and missed work. These challenges are compounded when considering treatments for multiple conditions. Given the rates of chronic pain and heavy drinking among PLWH, their combined impact on daily functioning and HIV-outcomes, and available treatment limitations, there would be considerable benefit to an integrative behavioral approach to address these comorbid conditions in a manner that may be easily utilized by patients. In our prior work, we have developed an integrated behavioral video telehealth intervention designed to reduce unhealthy alcohol use and chronic pain among PLWH. This intervention, Motivational and Cognitive Behavioral Treatment for the Management of Alcohol Use and Pain (MCBMAP) is a 7-session integrated intervention that is delivered through telehealth and supplemented with materials available on a website. The intervention, which was tailored for PLWH based on qualitative interviews, has been shown to have high patient acceptability and be readily delivered through smartphones. The current study seeks to test the efficacy of this intervention for reducing unhealthy drinking and chronic pain in a fully-scaled, randomized controlled trial among PLWH that compares MCBMAP to a Brief Advice and Information condition at 6-month outcomes. In addition, this project will examine moderators and mediators of intervention through self-report questionnaires and through the use of ecological momentary assessment (EMA) conducted before and after treatment. These EMA methods will allow us to examine how the processes through which the intervention may reduce unhealthy drinking and pain as well as provide insight into the association between pain, unhealthy drinking, and functional outcomes in this population."
+ },
+ {
+  "id": "ad73f945-d63d-45dd-b3dd-a2e276c9c538",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Toward Precision Gene Therapy for Treatment of Severe Pain in Older Individuals",
+  "text": "The proposed research describes studies to support the development, optimization, and proof-of-\nconcept efficacy of a novel gene therapy-based treatment for severe pain in the elderly."
+ },
+ {
+  "id": "ad7e3d4d-9fb0-4f81-873e-526cfada6d47",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Novel Approaches for Gestational E-Cigarette Vaping-Induced Neuronal Adaptations",
+  "text": "The United States Surgeon General recently announced vaping of electronic cigarettes (e-cigs) as a major public\nhealth concern. Utilizing a state-of-the-art custom-engineered vaping system with a commercial e-cig unit and\natomizer sold in vape shops, the proposed studies discerning the health effects of e-cigs during development\nwill allow to test novel approaches in gestational e-cig field and will pave the way for strategic treatment design.\nThe proposed studies develop a strong mechanistic framework for e-cig-induced developmental morphological\nand functional adaptations and directly address a “major research area” of developmental impacts under Theme\nOne of NIEHS Strategic Plan 2018-2023, titled “Advancing Environmental Health Sciences”."
+ },
+ {
+  "id": "ad805768-b266-4b38-930b-0ec438c57e17",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Deciphering and predicting ecologically sensitive gut microbiome contributions to human metabolic health",
+  "text": "The human gut microbiome contributes critically to metabolism and varies with modifiable lifestyle factors such\nas diet, exercise, and social contact, but we currently know very little about how ecological plasticity in the gut\nmicrobiome causally affects metabolic health. We propose to close this gap by leveraging natural variation\namong human gut microbiomes and controlled experiments in conventional and germ-free mice to elucidate the\nconditions under which gut microbiome plasticity exerts beneficial or detrimental effects, decipher the\nmechanisms underlying these effects, and predict microbiome metagenomic and metabolomic features\npromoting metabolic health. Collectively, this work will enhance our understanding of human energy metabolism,\nenable us to more responsibly interpret microbiome variation observed across humans, and reveal the contexts\nand levers favoring effective gut microbiome modification in the service of health."
+ },
+ {
+  "id": "ad86c1f9-069e-41cc-a20b-1296451975c6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Programmable Lithium-Ion Delivery Devices for Motor-Sparing Neuropathic Pain Therapy",
+  "text": "This project will develop lithium-delivering bioelectronic devices for targeted, minimally invasive neural inhibition\nby repurposing lithium iron phosphate as a biocompatible and stable source of localized lithium-ion delivery. By\nintegrating materials science, bioelectronics, neuroscience, and artificial intelligence, the platform will incorporate\nclosed-loop control systems that adaptively regulate lithium release based on physiological signals. This\napproach establishes a scalable, ion-mediated strategy for precise neural control with broad implications for the\ntreatment of neuropathic pain and other neurological disorders."
+ },
+ {
+  "id": "ad8cbd06-7a20-4c78-985d-fc21bdfded2d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mitochondrial determinants of cognitive aging outcomes: A longitudinal study in marmosets",
+  "text": "Aging is the single greatest risk factor for both cognitive decline and neurodegenerative diseases such as\nAlzheimer’s disease, but why some individuals maintain cognitive resilience into advanced age while others\nexperience decline remains unclear, reflecting a critical gap in the current understanding of the biology of\ncognitive aging. Given the brain’s exceptional energy demands and its vulnerability to mitochondrial dysfunction,\nthis project integrates longitudinal cognitive testing with repeated, minimally invasive measurements of\nmitochondrial energy production and network maintenance mechanisms across the lifespan of a short-lived non-\nhuman primate, the common marmoset (Callithrix jacchus). By pinpointing the mitochondrial mechanisms with\nthe largest cognitive consequences, identifying when they fail, and establishing the most sensitive readouts of\nthat failure, this project will directly enable the development of early biomarkers and mechanism-based\ninterventions to preserve mitochondrial health, maintain cognition, and reduce risk for neurodegenerative\ndisease, including Alzheimer’s disease."
+ },
+ {
+  "id": "ad98e5b8-ceda-4698-8b15-c74ff589b535",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The role of sex chromosomes in neonatal hyperoxic lung injury",
+  "text": "Bronchopulmonary dysplasia is a chronic lung disease that primarily affects male preterm neonates and is the\nmost common complication associated with preterm birth. Sex chromosomes can contribute to sex-biased\ndisease outcomes through expression of genes found on chromosomes X and Y. We will determine the role of\nsex chromosome dosage and the role of an X-linked gene, Kdm6a, in driving sex-specific outcomes in a\nmouse model of bronchopulmonary dysplasia to provide insight into new mechanisms and therapeutic targets\nthat may be protective against disease."
+ },
+ {
+  "id": "ad9ac4f2-8f6d-49a0-a137-fbde75c4831a",
+  "want_sentence": false,
+  "want_terms": true,
+  "title": "Training Grant on Genetic Aspects of Alcoholism",
+  "text": "The objective of this program is to train individuals to study the genetic\nand neurobiological basis of high alcohol-seeking and drinking behaviors. This field of\nresearch is important for developing treatment strategies for both the prevention and\ntreatment of alcohol use disorders."
+ },
+ {
+  "id": "ada01703-189a-4d9c-980e-77da44e42da2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mast Cell Lineage Commitment and Function",
+  "text": "The prevalence of mast cell-mediated allergy and mast cell activation syndrome have risen considerably in\ndeveloped countries. By better elucidating how transcription factors and enhancers regulate mast cell lineage\ncommitment and mast cell-mediated anaphylaxis, we will identify therapeutic targets for interventions aimed at\nbetter controlling mast cell-mediated allergic disorders."
+ },
+ {
+  "id": "ada0b115-9642-46f9-b464-46654b51a3e7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular Mechanisms",
+  "text": "Modern biomedical research to uncover the metabolic basis of disease – the theme of this COBRE – depends on the application of complex technology. In many cases, the required costs for equipment and the necessary technical expertise exceed the capabilities of individual laboratories - particularly those of investigators at the start of their careers. Hence, the overarching goal for the COBRE Molecular Mechanisms Core is to provide investigators with such technologies in the fields of functional genomics and molecular bioimaging, support with bioinformatics, and thus help them to apply state of the art approaches in their research projects. The Core seeks to achieve this goal in three Specific Aims: Specific Aim 1: To provide COBRE investigators with mentoring support for molecular bioimaging and functional genomics technologies. Covering the range from experimental design to data interpretation, the Molecular Mechanisms Core will serve as an intellectual and advisory resource for COBRE investigators. Specific Aim 2: To provide COBRE investigators with turn-key access to technologies to answer two questions: (i) which gene activities change in a disease situation, and (ii) where, or in which cells, do those changes occur? The answers are crucial to understand pathogenic mechanisms. Specific Aim 3: To provide bioinformatics support at all stages of bioimaging and genomics experiments. Bioinformatics provides the underlying fabric for success in both Aims 1 and 2. With the specific goal to enhance and strengthen the Center, the Molecular Mechanisms Core will provide extended bioinformatics support before as well as after experiments, thus covering the range from experimental design to data analysis, visualization, management, and sharing. Genomics and bioimaging have typically been viewed as separate technological realms in biomedical science. The Molecular Mechanisms Core has long held the conviction that this separation is an obstacle to scientific progress, and we posit that the synergy resulting from the merger of genomics, bioimaging and bioinformatics is essential for scientific advance. With strong emphasis on bioinformatics as the crucial element for this Phase II application, the Molecular Mechanisms Core is well positioned to contribute to that advance, and at the same time addresses critical needs in the health sciences: by training new investigators in cutting edge science and technology, and by providing direct experimental support. –"
+ },
+ {
+  "id": "ada8ce5b-f3fc-420c-b14a-e80784ba15dc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dual-modality FLIm and PSOCT for intravascular imaging of plaque in patients",
+  "text": "In this grant application, we will develop a novel intracoronary imaging catheter system combining two\ncomplementary optical modalities for tissue characterization. The proposed system will be able to simultaneously\nassess structural and biomolecular changes in coronaries arteries that are associated with atherosclerotic plaque\nprogression and sudden cardiac events. This approach will allow interventional cardiologists to detect plaque\nthat may cause future major adverse cardiovascular events in patients with coronary artery disease – the leading\ncause of death in the US. Results from this study will support the advancement of new paradigms that could\nutilize the hybrid catheter system to guide interventional decision making in the catheterization lab, thus patients\nundergoing percutaneous coronary intervention may benefit from personalized treatment of these plaques and\nimproved outcome."
+ },
+ {
+  "id": "adacda1c-e4fc-4f3d-82a6-71e8211f415d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Understanding the role of the stromal cell niche in intestinal stem cell aging",
+  "text": "Aging decreases mammalian intestinal stem cell (ISC) numbers, function, and regenerative capacity; however,\nhow age-related changes in stromal niche cells contribute to ISC aging remains unknown due to the lack of\nexperimental tools. Here, we develop new heterotypic organoid co-culture systems and novel mouse models to\ninvestigate how stromal niche cell aging influences the biology of ISCs. We will further interrogate how short-\nterm dietary methionine restriction can modulate the stromal niche cells to enhance ISC function and intestinal\nregeneration in aging."
+ },
+ {
+  "id": "adafe0c6-42af-4e95-ade7-f4247d609c57",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Deciphering the IgG glycosylation code of Alzheimer's Disease",
+  "text": "Antibodies are critical components of the immune system that direct inflammation and other immune responses\nthrough interactions with receptors, which are controlled in large part by conserved sugar, or glycan, molecules\non the antibody. Proinflammatory changes in antibody glycosylation have been shown to correlate with\nAlzheimer’s Disease and may be a predictive biomarker of disease onset and/or severity. We have developed a\nnovel method for comprehensive profiling the glycosylation states of antibodies that we will use to decipher the\nglycosylation code of Alzheimer’s Disease."
+ },
+ {
+  "id": "adb10079-343c-400f-9cad-4855bc03c8a0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Novel therapeutic gene editing to induce fetal hemoglobin for sickle cell disease",
+  "text": "We are leveraging cutting edge technologies in CRISPR/Cas9-mediated genome editing to treat sickle cell\ndisease (SCD), a painful, life-threatening genetic disorder that affects 100,000 Americans and millions\nworldwide. Specifically, we will modify the blood forming cells of affected individuals to recreate a naturally\noccurring genetic condition that eliminates the deleterious effects of SCD. Our work has the potential to relieve\nsuffering and extend the lifespan of patients with severe SCD."
+ },
+ {
+  "id": "adb15679-0b4e-41f3-a43c-eefa82323dff",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Engineering and targeting the sperm-specific calcium channel CatSper for contraception",
+  "text": "Approximately 45% of pregnancies are unintended, demonstrating an unmet need for comprehensive\ncontraception. This project is relevant to public health because it aims to generate new small molecule hits and\ninsights for a highly validated contraceptive target, the sperm-specific CatSper calcium channel, using an\ninnovative functional expression system that allows for high-throughput cell-based screening and mechanism\nof action studies. The proposed research is relevant to the NIH’s mission because it will contribute to the\ndevelopment of a new class of contraceptives and the improvement of reproductive health in men and women."
+ },
+ {
+  "id": "adbbe8cd-b8ad-4248-b6b9-f0cbc63e4baa",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Thyroid Follicular Cell Signaling and Development in Humans",
+  "text": "Thyroid hormone (TH) is a critical mediator of fetal development and then essential for normal health\nduring adulthood—currently, therapy for those with hypothyroidism (either congenital or acquired later in\nlife) is with L-thyroxine and many individuals on therapy do not feel adequately replaced. In this proposal\nwe propose to continue our work designed to develop functional thyroid hormone secreting follicular cells\nfrom human induced pluripotent stem cells. Completion of this work will give us significant insight into\nthe developmental biology of the human thyroid and potentially offer a unique and powerful approach to\ntreat hypothyroidism in humans."
+ }
+]

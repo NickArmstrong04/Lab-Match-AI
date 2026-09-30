@@ -1,0 +1,142 @@
+[
+ {
+  "id": "3447635e-3a62-47af-8926-c31fe2bc66ed",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of Neural Stem Cell Mechanoregulation",
+  "text": "Adult neural stem cells (NSCs) are a population of cells in the adult brain that can self-renew and give rise to a\nvariety of cell types, including neurons. NSCs are of tremendous interest for both their potential role in neural\ndevelopment and disease and because they may be harnessed in various ways to treat neurodegenerative\ndisease (e.g., Alzheimer’s, Parkinson’s, and Lou Gehrig’s Diseases). The goal of this proposal is to understand\nmechanisms through which biomechanical inputs from the cellular microenvironment influence NSC\nneurogenesis, which we expect will significantly add to our understanding of NSC biology and help inform the\ndesign of tissue engineering and regenerative medicine strategies to treat disease."
+ },
+ {
+  "id": "344ac34a-1bdb-4398-bc15-da3d291a6a23",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Developing a gene therapy-based solution for early intervention in age related macular degeneration (AMD) to prevent disease progression",
+  "text": "This research addresses the urgent need for early intervention in intermediate age-related macular\ndegeneration (iAMD), a major cause of vision loss among the elderly, affecting millions of Americans. The de-\nvelopment of our novel gene therapy, OCLX-001, aims to prevent the progression of iAMD to the more severe\nstages, enhancing quality of life and reducing associated healthcare costs. By restoring and maintaining cellular\nfunction in the retina, our approach has the potential to fundamentally alter the management of AMD, delivering\na much-needed solution to lengthen effective vision and reduce the burden of blindness in the aging population."
+ },
+ {
+  "id": "344ae4ab-8c02-4a62-823a-89e30638d4d9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Alternative Perioperative Strategies to Control Cerebral Edema",
+  "text": "Brain tumor patients are usually given a steroid called dexamethasone (Dex) before and after surgery to reduce\nbrain swelling, but new evidence shows it may weaken the immune system and make treatments like radiation\nand immunotherapy less effective. This study will test whether it is safe to avoid using Dex and whether a different\ndrug, Azeliragon, can control brain swelling without harming the immune system. If successful, this research\ncould change how brain tumors are treated, helping patients respond better to therapy and live longer."
+ },
+ {
+  "id": "34517969-6565-4511-a6c2-0ca515f773aa",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Brain Mechanisms Mediating Genetic Risk for Anxiety and Depression",
+  "text": "New treatments for anxiety disorders are critically needed and a more complete understanding of pathological\nanxiety at the molecular, cellular and circuit levels will provide a foundation for new treatment development.\nUsing our non-human primate model of extreme anxiety, the proposed studies will use neuroimaging, molecular\nsequencing techniques and chemogenetics to understand the extent to which neurons in the dorsolateral\nprefrontal cortex are involved in the expression of early-life pathological anxiety and could serve as treatment\ntargets for anxiety disorders. Additionally, these studies will serve as a proof-of-concept to understand the\nfeasibility of developing chemogenetic approaches for the modulation of prefrontal cortical function in the\ntreatment of severe and refractory psychiatric disorders."
+ },
+ {
+  "id": "34525b7c-9ffa-4773-8517-65de500c8820",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A blind source separation approach for deconvolution of bulk transcriptional data leads to early detection of ATF cell-states in complex bacterial populations, in vitro and in vivo",
+  "text": "SUMMARY – PROJECT 3 Transient bacterial cell-states including tolerance, persistence and hetero-resistance (HR) are harbingers of antibiotic treatment failure (ATF) and enablers of antibiotic resistance. Importantly, they are missed in any currently employed diagnostic assay or antibiotic susceptibility tests. Intriguingly, in the treatment of different types of cancer, physicians are often confronted with similar treatment failure issues. It turns out that these epigenetic cell-states create extended opportunities for high-level resistance mutations to emerge. Moreover, due to the phenotype’s transience, they themselves can directly drive the re-emergence of the (susceptible) population after drug pressure subsides. While these cell-states are increasingly recognized as drivers that sit at the root of treatment failure, new strategies are emerging to specifically identify, track and target them. To achieve such highly targeted treatment, approaches are developed that map out the composition of complex cancer tissue, for instance through single cell RNA-Seq (scRNA-Seq), or computational deconvolution of bulk RNA-Seq data. While, scRNA-Seq on bacteria remains technically challenging we found that by modifying existing tools, specific bacterial cell-states can be identified in complex bacterial populations. However, the capabilities of current tools are limited, and through the implementation of state-of-the-art machine learning algorithms there is much room for improvement. Moreover, ATF cell-states are poorly characterized, making it currently impossible to effectively define them. Herein, 3 aims are pursued to develop an approach that, based on bulk RNA-Seq data, dissects a complex bacterial population into its separate cell-states, and calculates their frequencies and MICs. In Aim 1 a large and diverse temporal RNA-Seq dataset is generated by following a wide variety of strains and species while they are exposed to antibiotics and a subset of the population switches to an ATF cell state. In Aim 2 a blind source separation algorithm is explored to design a state-of-the-art machine learning tool that deconvolves bulk RNA-Seq data from a complex bacterial population into the cell-states and their frequencies that make up the population. Moreover, by reconstituting each cell-state’s expression profile we enable transcriptional entropy calculations and thereby cell-state specific MIC predictions. In Aim 3 the approach is validated by retrospectively predicting the presence of ATF cell-states in patient samples. Finally, the model’s applicability is extended to bulk dual RNA-Seq data from host and bacterium, and validated on patient serum samples. This project therefore not only informs on how ATF cell-states develop and are maintained in a population, but also creates a path towards the development of diagnostics that can detect them in an active infection. Combined with the collateral sensitivities from Project 2 this could eventually enable linking detection to targeted treatment decisions."
+ },
+ {
+  "id": "345d9b24-e1d9-4c72-bcf0-3c77ae718778",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Advancing statistical genetics tools for reliable drug target discovery and treatment optimization",
+  "text": "This program aims to develop and apply advanced statistical genetics tools to overcome methodological\nchallenges in characterizing the potential causal effects of circulating proteins and metabolites on complex\ndiseases. These innovations will facilitate the discovery of novel drug targets, optimize therapeutic regimens,\nand enable precision treatment strategies, ultimately improving health outcomes across diverse populations."
+ },
+ {
+  "id": "3468414f-46ff-40db-a73a-cf37bc5b2f99",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of an mHealth intervention to reduce substance use and HIV risk for young adult women affected by sex trafficking",
+  "text": "Sex trafficking has known adverse health effects that affect young adult women disproportionally due to a wide\ngap in available state and federally-funded health and social services. The proposed study will utilize\nqualitative and ecological momentary assessment (EMA) methods to establish the needs of young adult\nwomen affected by sex trafficking, available resources, and complex determinants that contribute to HIV risk\nand substance use. Findings will guide the development of an mHealth intervention that will include resource\nand just-in-time adaptive intervention (JITAI) components, which will be tested in a two-group pilot randomized\ncontrolled trial."
+ },
+ {
+  "id": "3475e317-7fe0-4830-a9ab-ef8ab880d880",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Perivascular tissue models to overcome MGMT-mediated temozolomide resistance in glioblastoma",
+  "text": "Glioblastoma is the most aggressive and deadly form of brain cancer whose poor clinical outcome stems from\nits diffuse invasion throughout the brain and drug resistance. This project will develop and thoroughly\ncharacterize a tissue engineering platform to investigate pathophysiological processes responsible for invasive\nspreading, therapeutic resistance, and poor survival."
+ },
+ {
+  "id": "3478a1af-6de9-470a-8739-847a6752d5c9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identifying how alcohol-evoked changes in neural firing affect systems level computations during decision-making",
+  "text": "The proposed project will advance our understanding of how changes in brain cell function relate to\nmalfunctioning decision-making in alcohol use disorder. The results of this research will guide future studies that\nseek to develop new treatments for people with or at risk of developing alcohol use disorder."
+ },
+ {
+  "id": "34796aed-a094-4215-8519-3062712251fa",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "BCCMA: Basic and Translational Mechanisms of Cancer Initiation of the Urothelium in Veterans Exposed to Carcinogens: Leveraging Artificial Neural Networks to Enhance Detection of Carcinoma in situ",
+  "text": "Bladder cancer is the fourth most prevalent cancer among Veterans. Carcinoma in situ (CIS) of the bladder\nis a pre-invasive lesion caused by carcinogens in tobacco smoke, occupational exposures to hazardous\nchemicals, and chemical/biologic warfare. CIS has a high rate of recurrence and progression to invasion and\nmetastasis. CIS is a major diagnostic challenge and up to 40% of CIS are missed by standard cystoscopy.\nCurrent approved cystoscopy technologies have significant shortcomings, particularly high false positive\nrates. We aim to leverage artificial intelligence to augment enhanced cystoscopy imaging technologies to\nimprove real-time cystoscopic detection and characterization of CIS. We propose three specific aims: 1) to\ndevelop an annotated multimodal cystoscopy imaging dataset for CIS of the bladder; 2) to develop and train\ndeep learning algorithms for detection of CIS of the bladder; and 3) to augment detection of CIS of the bladder\nusing deep learning algorithms in clinical settings."
+ },
+ {
+  "id": "347bb0f3-2030-415e-8db6-c962d3490353",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Impact of microbiota on AIDS-Kaposi’s sarcoma development and therapy",
+  "text": "Kaposi’s sarcoma-associated herpesvirus (KSHV) causes several human cancers including Kaposi’s\nsarcoma, the most common cancer in AIDS patients. KSHV infection and Kaposi’s sarcoma inflict morbidity\nand mortality to the society in US and worldwide, which particularly affect underrepresented people living with\nHIV (PLWH) and cancer. This project will identify the factors that contribute to the development and\ntherapeutic outcome of Kaposi’s sarcoma, thus providing the scientific basis for developing novel prevention\nand treatment approaches to benefit the patients."
+ },
+ {
+  "id": "347d6096-5150-495a-9a7d-c4b094fe62e1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Plasticity and Nitric Oxide Signaling: Identifying the Novel Adaptive Mechanisms Associated with Response to Hypoxia",
+  "text": "The objective of this project is to prepare Dr. Allie Graham to transition to a position as an independent, tenure-\ntrack academic investigator. This project focuses on identifying convergent mechanisms in the adaptation to\nhypoxia in high-altitude mammal lineages, and also utilizes zebrafish as a model for hypoxia response to\nspecifically probe the roles of nitric-oxide signaling in hypoxia acclimatization, as well as understanding how\nhypoxia exposure during development primes future response, both in the adult and in its offspring. This\nproposal represents an opportunity to improve our understanding of which mechanisms hypoxia-adapted\nlineages use to mitigate the long-term detrimental physiological effects of long-term hypoxia exposure, like\npulmonary hypertension, erythrocytosis/polycythemia, and cardiovascular disease."
+ },
+ {
+  "id": "347ddd1e-0a68-4a16-b782-ca32a8ccab6d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Resting and Dynamic Brain Glutamate by MRS In Vivo: Relation to Suicidal Behavior",
+  "text": "Rising suicide fatality rates in the US underscore the need to identify novel and effective therapeutic targets\nfor suicide risk, beyond existing monoamine-focused treatments such as antidepressants. Evidence\nsuggests that glutamatergic neurotransmission is important to the pathophysiology of suicide. This project\nwill assess alterations in brain glutamatergic signaling both at rest and during task-related activity\nin depressed individuals at risk for suicidal behavior."
+ },
+ {
+  "id": "3484182b-8ae3-4433-9640-0e3cf3c2fd59",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Function of Zymogen Granule 16B (ZG16B) in Salivary Glands",
+  "text": "Salivary proteome analysis could identify risk factors of the salivary gland tissues in chronic oral inflammatory\nconditions such as chronic graft-versus-host disease (cGVHD) and lichenoid lesions (including oral lichen\nplanus). Recently, our lab quantified a decrease in the salivary levels of zymogen granule 16B (ZG16B), a\njacalin-related lectin protein, in the saliva of cGVHD observed in survivors of allogeneic hematopoietic stem\ntransplants (HSCT). This project aims to further elucidate the functional consequences of ZG16B through the\nchanges in saliva content of ZG16B (healthy vs. oral inflammatory conditions), identify relevant protein-protein\nbinding partners and contributions to cell signaling pathways."
+ },
+ {
+  "id": "348d24f7-c5b7-4dba-861e-dc9dc1f1f7c3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Quantitative Light Microscopy Shared Resource",
+  "text": "The Quantitative Light Microscopy Shared Resource (QLMSR – formerly known as the Live Cell Imaging Shared Resource) of the Simmons Comprehensive Cancer Center (SCCC) enables SCCC members to leverage state- of-the-art light microscopy techniques in support of their cancer-focused research. QLMSR capabilities include digital imaging of histologically stained samples, laser-scanning and spinning disk confocal microscopy, two- photon microscopy for imaging in live animals and thick tissues, total internal reflection fluorescence (TIRF) microscopy, and multiple modes of super-resolution imaging, as well as three image processing workstations with comprehensive image analysis software. Led by the QLMSR Director, the shared resource staff consults on experimental design, experimental goals, and sample preparation, then advises on the optimal imaging platform to use and provides individualized training of users on any given system. Finally, the QLMSR helps with image quantification and automation of analysis as needed. To stay at the forefront of technology, QLMSR has been proactive in constantly evaluating new instrumentation and in obtaining funding for the purchase of cutting-edge hardware and software. Since 2020, based on user feedback and usage analysis, QLMSR has expanded its capacity by adding two spinning disk confocal microscopes – one funded through the NIH S10 program (S10OD028630) – as well as one laser scanning confocal microscope. Latter imaging platform is a Zeiss LSM980 with Airyscan-2 attachment for “one-click\" super resolution imaging, an optical configuration that allows imaging in the near infrared spectrum, as well as a fluorescence correlation spectroscopy module for examining molecular interactions in solution and in living cells. To enable the use of highly specialized imaging modalities, QLMSR partners with various UT Southwestern (UTSW) departments to provide expertise in, and access to, additional imaging platforms, including a 'facility line STED microscope' (Aberrior), an 'ImageXpress confocal HT.ai' high- content imaging system (Molecular devices), as well as custom-build light sheet microscopes. These platforms are made available to SCCC members through the QLMSR. Since 2020, QLMSR has been used by principal investigators across all five SCCC research programs, resulting in 141 cancer-focused manuscripts, including publications in Cell, Nature, Science, Cancer Cell, Nature Communications, Developmental Cell, and Nature Microbiology. The number of SCCC member laboratories using the QLMSR has been steady since 2020 and ranges from 74 to 92 on a yearly basis, yet, with the addition of new imaging platforms, the hourly usage per year of QLMSR's equipment and services has doubled, from 4,432 hrs in 2021 (similar to pre-Covid usage) to 8,987 hrs in 2024. This significant increase is largely due to the expansion of QLMSR’s hardware resources, a strong increase in autonomous use, as well as an increase in projects that require long-term (overnight) imaging sessions. Overall, the extensive usage of the QLMSR highlights the great value and importance of this SR in support of cancer-focused research."
+ },
+ {
+  "id": "3491022d-1566-4261-a5ee-a1db5c2bed9e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Computer-aided design and development of isoform selective inhibitors of Casein Kinase 1",
+  "text": "Off-target effects by therapeutic agents are mainly connected to the toxicity of current drug candidates in\nclinical studies, while achieving specific inhibition of the desired target of interest is a challenging task due to\nthe high degree of similarity among enzymes inside cells. We propose a research plan that combines\ncomputational studies, multi-step synthesis, biochemical assay, and structural biology to systematically\ninvestigate a family of enzymes and to identify distinct structural features in enzymes of interest. This research\nwill provide new insights into specific inhibition mechanisms for targets of interest, and it aims to produce highly\nspecific chemical agents that may be further developed to new therapeutic candidates."
+ },
+ {
+  "id": "3491a09a-b5f4-4a4b-8779-f9a04a51a691",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mapping the cell-type-specific molecular and genetic basis of lupus using single cell multiomics",
+  "text": "Systemic lupus erythematosus (SLE) is a chronic autoimmune disease with variable presentation of symptoms\nand inconsistent response to therapy. Here, we propose to use highly innovative single cell epigenomic,\ntranscriptomic, and proteomic analyses to map the cell-type-specific molecular and genetic basis underlying SLE\nheterogeneity. We expect our findings to shed light on the pathogenic states in specific immune cell subsets\nstratifying SLE patients, which, in turn, will create new opportunities for therapies directed toward each specific\npatient subgroup.\n2"
+ },
+ {
+  "id": "3493069a-2e03-46c6-81f8-4975219028c9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating The Role of The Human Mannose Receptor (CD206) During M. tuberculosis Infection in a Novel Transgenic Mouse",
+  "text": "The mannose receptor (MR), a pattern recognition receptor (PRR) abundantly expressed on alveolar\nmacrophages (AMs), mediates phagocytosis of Mycobacterium tuberculosis (M.tb) but paradoxically facilitates\nintracellular bacterial growth and survival. Using a novel transgenic mouse model that exclusively expresses the\nhuman MR (hMR), this project will investigate hMR-mediated downstream signaling during TB pathogenesis.\nThese studies will enhance our understanding of species-specific differences in MR signaling and immune\nresponse and may reveal novel targets for HDT against TB and other airborne infectious agents."
+ },
+ {
+  "id": "34942b37-1f68-4c5c-8aa1-88ee1509b697",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "WashU Somatic Mosaicism across Human Tissues (SMaHT) Program Organizational Center",
+  "text": "The WashU Somatic Mosaicism across Human Tissues Program Organizational Center (SMaHT-OC) will\nserve as the nucleus for facilitating all activities of the SMaHT Network. We will define rules and mechanisms of\ncommunication, will empower researchers to engage with multimodal \"big bio-data\", and will provide\nadministrative and budget support for developing and managing engagement and training. Through innovative\nmethodology, we will establish a research environment that promotes collaboration, coordination, and\ncommunication among SMaHT Network participants and the scientific community.\n."
+ },
+ {
+  "id": "3495de50-a024-4c2b-ab1e-e3ac48a047f3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Precision Approaches to Reduce Asthma Disparities with Electronic Health Record Data",
+  "text": "Asthma, a chronic lung disease that affects 20 million American adults, has well-known disparities in prevalence,\nseverity and death by race/ethnicity, socioeconomic status and sex. We will use Electronic Health Record (EHR)\ndata enhanced with information on social, economic, and environmental characteristics to identify sub-groups of\nadults with asthma who share common patterns of risk factors. This information will be used to create a tool that\ncan support precision patient care strategies, as well as motivate public health strategies to decrease asthma risk\nin specific geographic areas."
+ }
+]

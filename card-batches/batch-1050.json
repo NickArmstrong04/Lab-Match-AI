@@ -1,0 +1,142 @@
+[
+ {
+  "id": "e8583e45-030c-4b29-8ad0-a589b4d9f893",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Evaluating the role of protein self-assembly in the innate immune system",
+  "text": "Aging in humans leads to a chronic inflammatory state, known as inflammaging, which increases the risk for age-related diseases such as type 2 diabetes, atherosclerosis, and Alzheimer's disease. This proposal applies novel approaches to identify a potential molecular mechanism of inflammaging and the associated impairment in blood cell differentiation, while illuminating the physiological roles of protein self-assemblies in innate immune signaling. The insights that emerge from this research will advance our understanding of aging from a fundamental molecular perspective and potentially illuminate new opportunities to combat age- and disease-associated autoinflammation."
+ },
+ {
+  "id": "e85962c0-26ee-4bbd-84ee-f43a1321c20d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Medicinal Chemistry and Radiochemistry Core",
+  "text": "MEDICINAL CHEMISTRY AND RADIOCHEMISTRY CORE ABSTRACT The Medicinal Chemistry and Radiochemistry (MCRC) Core is responsible for the development of radiotracers for Projects 1 and 2 and the Clinical Core. The MCRC Core is composed of three sites: University of Pennsylvania (Penn), Washington University in St. Louis (WUSTL), and the University of Pittsburgh (Pitt). The MCRC also benefits from a collaboration on structural biology through the NINDS U01/U19 Proteinopathy consortium. The studies conducted during our first 4 years of U19 support have provided 18 putative alpha- synuclein (Asyn) PET tracers and >10 putative 4R tau radiotracers. We will optimize candidate ligands to develop: 1) disease-specific radiotracers for imaging Asyn in Parkinson’s disease (PD) or Multiple System Atrophy (MSA), 2) pan-Asyn radiotracers for both PD and MSA, and 3) 4R tau selective radiotracers for Progressive Supranuclear Palsy (PSP), Corticobasal Degeneration (CBD), and frontotemporal dementia (FTD). The MCRC Core will guide these efforts with a unique combination of 1) chemical biology approaches (photo- crosslinking MS proteomics and fluorescent probes); 2) structural biology approaches (both solid state NMR and cryo-electron microscopy); 3) computational modeling (ultra-high throughput screening, molecular dynamics, and machine learning); and 4) extensive radiochemistry expertise. Chemical biology studies will take place at Penn in conjunction with structural biology studies done through the U01/U19 Proteinopathy consortium to determine high resolution structures of the candidate molecules bound to Asyn or tau fibrils, as well as the selectivity determinants between binding sites. The resulting structural information will be used in computational modeling and ultra-high throughput screening at Penn to guide the design of new leads. The Asyn compound synthesis will take place at Penn and WUSTL. The tau lead compound synthesis will take place at Pitt in collaboration with Penn. These leads will be tested in radioligand competition binding assays, and where desirable, new radioligands will be synthesized for binding assays and animal experiments. The radiochemistry studies will be done at Penn to support the rodent imaging studies in Project 1, WUSTL to support the radioligand binding assays and nonhuman primate imaging studies in Project 1, and Pitt to support the radioligand binding and non-human primate imaging studies conducted in Project 2. The chemical biology studies of the MCRC Core, in combination with the structural biology done in collaboration with the U01/U19 Consortium, represents a comprehensive approach for determining the molecular interactions of U19 radiotracers with Asyn and 4R tau fibrils isolated from patient brain samples. This structural information will guide the in silico and SAR studies to generate a suite of high affinity radiotracers that are specific for the different subtypes of the synucleinopathies (PD and MSA) and 4R tauopathies (CBD, PSP, FTD), as well as radiotracers for pan-Asyn imaging studies in both PD and MSA patients."
+ },
+ {
+  "id": "e85d4d5c-b8dc-4b8c-9293-f9bf44bcf402",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "DF/HCC Prostate SPORE",
+  "text": "Prostate cancer is the most common cancer and second leading cause of cancer death for men in the United States. New approaches are urgently needed to improve outcomes for men with prostate cancer. By bringing together basic and clinical investigators across the Dana Farber/Harvard Cancer Center (DF/HCC) and fostering a research community focused on collaboration and innovation, the DF/HCC SPORE in Prostate Cancer will address the most important translational research questions and unmet needs in prostate cancer. The three projects take distinct approaches to address the identification and treatment of aggressive prostate cancer, mechanisms of resistance to existing and emerging therapies, and the development of biomarker-driven tailored treatment approaches for patients. These projects will combine biologic studies with patient data to provide new insights into prostate cancer initiation and progression and to develop novel clinical approaches for patients. The DF/HCC Prostate SPORE will also catalyze and enhance interactions within and beyond the DF/HCC that will generate new discoveries, identify future research questions, and promote the next generation of prostate cancer researchers."
+ },
+ {
+  "id": "e85e6bfc-0c31-42a3-b637-0fab196edbed",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Core Grant for Vision Research - Core 1",
+  "text": "CORE 1: OCULAR OMICS AND QUANTITATIVE MOLECULAR BIOLOGY\nNARRATIVE\nThe goal of Core 1 is to provide the following services to users with qualifying grants and other vision\nresearchers. The quantitative molecular biology services include providing consultation for and\naccess to quantitative PCR, access to plate readers for quantitation of antibodies, cytokines, and\nother analytes, access to spectrophotometers and a bionalazyer for RNA, DNA and protein samples,\na laser microdissection system to obtain material from tissue sections for transcriptomics,\nmetabolomics, or proteomics analysis, allelic characterization of normal and genetically modified\nmice, nucleic acid probe design, in situ hybridization, quantitative reporter gene analysis. This core\nwill also facilitate use of campus resources such as the Biotechnology Center (NextGen Sequencing,\nRNAseq, data handling and analysis, proteomics, etc.) and the Flow Cytometry Facility."
+ },
+ {
+  "id": "e85e931b-3948-49ff-baf1-7cfd1e01c4cc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cell Type-Specific Transcriptional Changes Underlying Memory Impairment in Temporal Lobe Epilepsy",
+  "text": "Cognitive impairment is a major comorbidity of epilepsy and may be more disabling to patients than the\nseizures themselves. This proposal focuses on identifying the molecular and cellular mechanisms underlying\nmemory impairment in temporal lobe epilepsy, which is the most common form of focal epilepsy and is often\nrefractory to medications. Identifying these mechanisms will enable the development of targeted therapeutics\nto restore memory processes in patients."
+ },
+ {
+  "id": "e8610f69-7c5f-45de-8de5-c680ce87487c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Probe and Target Lysyl oxidases (LOXs) in Cancer",
+  "text": "LOX enzymes are key players in both health and disease and are implicated in almost all cancer types. Despite\ntheir significance, our knowledge of LOX roles remains strikingly limited, with few substrates identified or\nvalidated, underexplored functions beyond traditional ECM crosslinking, and a lack of selective and effective\nLOX-targeting strategies. Our development of a novel chemical toolbox to probe and inhibit LOX enzymes will\nenable precise investigations of their roles in biological and pathological contexts, while our highly specific\ninhibitors hold substantial therapeutic promise, potentially enhancing the efficacy of various cancer treatments."
+ },
+ {
+  "id": "e8695708-11aa-4262-bb07-a1fc74991437",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Training Grant in Academic Gastroenterology",
+  "text": "The Training Grant in Academic Gastroenterology at Stanford University, in the past 46 years has supported\nresearch training to prepare the best-qualified physician-scientists for an investigative career in digestive\ndiseases. Based on the strong track record, environment and pipeline of outstanding trainees, we are\ncommitted to provide the best training possible to prepare our fellows as future academic leaders in digestive\nmedicine."
+ },
+ {
+  "id": "e872ab69-ca95-4876-8659-63af2edc3512",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Lifecourse Predictors and Mechanisms of Early Clinical ADRD among Black and White Adults in their Sixties",
+  "text": "The transition from midlife to early late-life offers an exciting and under investigated time period to study early\nclinical Alzheimer disease (AD) and Alzheimer disease related dementias (ADRD) development and how this\nmay differ according to race and sex. We propose to conduct a Year 40 (participant mean age of 65) cognitive\nassessment and AD/ADRD adjudication with AD biomarker assays among the ongoing biracial Coronary\nArtery Risk Development in Young Adults (CARDIA) study in order to investigate this crucial early-late life\ntransition to AD/ADRD and to determine underlying mechanistic pathways by race and sex. In this way, the\nproposal has great significance as it will provide critical information on the earliest transition to AD/ADRD,\nexamine pressing health disparities, and identify targeted ways to possibly delay or prevent AD/ADRD."
+ },
+ {
+  "id": "e8744f79-fe46-4772-86ce-0992888c5e00",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Elucidation of targetable mechanisms sustaining immunosuppressive neutrophils in the brain tumor microenvironment",
+  "text": "Neutrophil-induced immunosuppression critically contributes to the failure of promising immunotherapies in\npatients with glioblastoma. The knowledge gained from this proposal will be critical for the design of novel\ntailored interventions to block specific subsets of immunosuppressive neutrophils, thus contributing to the\nrefinement and expansion of therapeutic approaches to overcome immunosuppression and enhance the\nefficacy of cancer immunotherapy."
+ },
+ {
+  "id": "e8867b26-977b-4061-a4d4-bd50a9c99403",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Placental Organoids to Model Preeclampsia",
+  "text": "We will generate a new model of trophoblast organoid using human induced pluripotent\nstem cells, replicating the early stage of gestation from normal and preeclamptic\npregnancies and will evaluate novel drugs that target pathways unique to humans with\npreeclampsia."
+ },
+ {
+  "id": "e88bfab7-98c8-4a16-8622-7721deaa7d65",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Emergent Properties of Complex Systems: From Atoms to Macromolecules; from Humans to Societies",
+  "text": "(8 lines)\nWith revised title “Emergent Properties of Complex Systems: From Atoms to Macromolecules; from\nHumans to Societies” this proposal uses data analysis and simulation to show how fundamental interactions\nlead to complex emergent behavior. Our half a century of experience on how atomic interactions lead to\nthe complex molecular systems key to human health will be applied to protein structure refinement and\nribosome function, two long-standing difficult problems. The scope of the work will be broadened to apply\nthe same philosophical approach to a pressing public health problem: how viral diseases spread. Atoms will\nbe replaced by people, atom type by their mobility, infectivity and recovery rate, and the “interatomic forces”\nby human interactions. Such ‘atomistic’ simulations are expected to reveal how spread can be controlled."
+ },
+ {
+  "id": "e88ec6a4-548b-4fcd-a715-0b20185046a9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cellular Determinants and Function Consequences of PP2A-B56 Degradation by HIV-1 Vif",
+  "text": "HIV-1 encodes proteins that modify the host cell to create an environment that is hospitable for replication. This\nproject aims to understand a specific interaction between an HIV-1 protein, Vif, and a human protein complex,\nPP2A-B56. By understanding how this interaction occurs and why this interaction is important for HIV-1 infection,\nwe aim to identify critical weaknesses that can be targeted for drug development."
+ },
+ {
+  "id": "e88f641c-95b4-4b0f-8528-65e68f2c4d20",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Tools for probing the physical paralipidome of membrane proteins",
+  "text": "(Public Health Relevance)\nMembranes proteins in mammalian cells are surrounded by a complex array of lipids with unique structural\nconsequences. While the properties of bulk membranes have been extensively studied, the local properties\naround membrane proteins have not been measured in living cells. This proposal aims to address this\ntechnology gap by developing sensors that will reveal the properties and functions of the local lipid environments\naround membrane proteins."
+ },
+ {
+  "id": "e8914754-6fb1-4548-aea0-34678da473b3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identifying and targeting the genetic determinants of immune suppression and immunotherapy failure in prostate cancer.",
+  "text": "We do not currently have effective treatment regimens for prostate patients that develop neuroendocrine prostate\ncancer (NEPC) following hormone therapy failure. This proposal aims to characterize the role of interferon\ngamma (IFNg) signaling that we find to be elevated in NEPC on tumor growth, immune suppression, and the\noutcomes of immune checkpoint blockade immunotherapy. Successful completion will lead to a better\nunderstanding of the signaling pathways the drive NEPC progression and the development of novel\nimmunotherapy regimens to treat aggressive NEPC."
+ },
+ {
+  "id": "e8926ae4-226b-4416-8008-7f97c87efab1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mid-Infrared Fiber Photothermal Imaging",
+  "text": "Endoscopes have become important tools for diagnostics in modern medicine, providing a\ncompact, mobile and minimally invasive approach for high-resolution imaging. However, current\nclinical endoscope technology offers limited insights into the molecular composition and chemical\ncontent of tissue abnormalities, which is critical for early detection, improved understanding of\ndisease progression, monitoring of therapeutic interventions and personalized medicine. In this\nproposal, label-free mid-infrared photothermal imaging, combined with fluorescence imaging, is\nminiaturized for the first time into fiber probes to assess biomarker for identification of tissue\nabnormalities and tumors and to offer user-friendly operation with translational potential into\nendoscopes."
+ },
+ {
+  "id": "e894dd5d-c079-4c76-8b21-1382a9f46f79",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Immunogenomics Core",
+  "text": "The Immunogenomics Core will be responsible for accurate and reproducible monitoring of immune and genomic\nchanges in peripheral blood and tumor microenvironment in patients with ovarian cancer. The Immunogenomics\nCore will leverage the expertise of Center for Immunotherapy and Shared Resources at Roswell Park.\nCentralization and standardization of the performance of the immunologic and genomic assays will facilitate\nhead-to-head comparisons of the immune/genomic signatures and changes being induced by cutting-edge\nimmunotherapies in the Roswell Park Ovarian Cancer SPORE. The Immunogenomics Core personnel will work\nclosely with Individual Research Project Leaders and Core Directors for accomplishing the projects and\ndiscovering novel findings through the immunologic and genomic data."
+ },
+ {
+  "id": "e8963df5-7c09-4754-9246-d57ce699c70b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cause and Effect Relationships Between Glycation and the Ancestry Specific Tumor Stroma",
+  "text": "The study aims to define how lifestyle associated factors called advanced glycation end products (AGEs) alter prostate tumor biology in different populations to mitigate disease in high-risk populations. As AGEs accumulate and are oncogenic they may represent a scalable framework that links life-course experience to mechanism and intervention across transdisciplinary studies. Together, this approach may provide actionable tools to improve risk stratification, prevention, survivorship, and disparities reduction across high risk population groups."
+ },
+ {
+  "id": "e899642b-022c-4128-895a-7039aaab7aab",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "ADPKD: Disease Spectrum & Genotype-Phenotype Correlations",
+  "text": "Autosomal dominant polycystic kidney disease (PKD) is a common inherited disorder accounting for ~5% of the\ndialysis and kidney transplant population in the US. This grant seeks to determine new genetic causes of this\ndisease, develop cellular and whole animal systems to determine the significance of variants found in genes\ncausing ADPKD, explore treatment options that take advantage of increased understanding of the ADPKD\nmutational mechanism, and determine the importance of genetic events within cystic cells to disease\ndevelopment. These studies will result in a better understanding of the causes of ADPKD and improve\ndiagnostics and treatment options."
+ },
+ {
+  "id": "e89c083b-b771-4f32-a088-63dfaad8c3a4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Tyk2 and Associated Cytokines in Salivary Gland Autoimmunity",
+  "text": "Sjögren disease is a complex, chronic autoimmune disease that leads to severe dry mouth with\ncomplications due to poor oral health and severe dry eye disease with potential for vision-\nthreatening complications. Despite being one of the most common autoimmune rheumatologic\ndiseases, affecting up to 4 million Americans, the cause of Sjögren disease is unknown. The\ngoal of this research is to define the mechanisms by which the immune system is driven to\nattack saliva producing glands–the hallmark of Sjögren disease–which will lead to better early\ndiagnostic tests and new treatments for this and other autoimmune diseases."
+ },
+ {
+  "id": "e89c2d89-64dd-40e8-a55a-6a2c1a3adef4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Chromatin Biology",
+  "text": "CHROMATIN BIOLOGY (CB) PROGRAM PROJECT SUMMARY/ABSTRACT The Dan L Duncan Comprehensive Cancer Center (DLDCCC) Program in Chromatin Biology Program is a newly expanded Program with expertise in epigenomics, DNA mutations, transcriptional regulation, technologies, and early-stage translation. The CB Program has 27 Research members and 1 Clinical member with current support of 34.3 million. In the last 5 years, members of the CB Program published 297 cancer-related manuscripts in peer-reviewed journals, 46% of which represent inter-programmatic and 23% intra-programmatic collaborations. Notably, 41% were published in journals with an impact factor >10. The overall scientific goal of the CB Program is to conduct impactful discovery research and promote rapid translation of discoveries on mechanisms of tumorigenesis linked to chromatin biology. CB Program faculty catalyze research advances on DNA integrity, epigenetics, RNA biology and transcription. Theme 1 is focused on DNA and Epigenetics. Theme 1 Aims are to identify and characterize genomic DNA and epigenomic alterations associated with cancer initiation, plasticity, heterogeneity, and progression. Theme 2 is focused on RNA biology and Transcription. Theme 2 Aims are to target transcriptional regulation as a new therapeutic approach using new technologies and applications of machine learning, epigenetic regulation of transcription, and translation of new discoveries to the clinic. The two themes are scientifically intertwined and focus on equally impactful areas of cancer research."
+ }
+]

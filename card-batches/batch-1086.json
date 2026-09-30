@@ -1,0 +1,142 @@
+[
+ {
+  "id": "f55fe6a1-79e4-409c-93a5-f3a67bb230b5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanistic Targeting of the Type I Interferon Pathway to Improve Efficacy of Cancer Therapies",
+  "text": "A translational bottleneck in cancer therapy is how to properly use interferon effect to maximize their potential\nin combat tumor growth. The aim of this application is to study an interferon signal inhibitor USP18 in cancer.\nThe results from this work will provide potential novel insights into the prevention and therapeutic treatment of\nblood cell malignancies and other cancers."
+ },
+ {
+  "id": "f5620723-8c09-43d5-8aba-7d6a82b144f1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Focused Imaging as a Novel Diagnostic Strategy for Aortic Stenosis",
+  "text": "Aortic stenosis (AS) is a common heart valve condition that can be deadly. It is difficult to\ndiagnose AS though there are effective treatments for this condition. The goal of our research is\ndevelop and validate machine learning methods to automate the diagnosis of AS using imaging\nfrom handheld ultrasound devices and improve treatment of this life-threating condition."
+ },
+ {
+  "id": "f56eb9a7-b779-4990-9344-7d3ac269bb50",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identifying Nonverbal Social Communication Features of Autism and Anxiety using CV Facial Expression Analysis",
+  "text": "Nonverbal social communication difficulties (e.g., perceiving and producing social cues and facial expressions)\nare both a core feature of autism and a transdiagnostic symptom present in anxiety disorders, complicating\ndifferential diagnosis and treatment planning. Computer vision-based digital phenotyping stands to overcome\nthe limitations of traditional measurement of nonverbal social behavior by accounting for substantial variation\nacross autistic and anxious behavioral profiles and capturing the inherently dyadic and interpersonal nature of\nsocial communication. By (1) identifying shared and unique nonverbal communication features of autism and\nanxiety and (2) parsing the heterogeneity of social communication profiles using data-driven modeling, the\nproposed study will investigate how individual and interpersonal facial expression characteristics can be used\nas precise diagnostic biomarkers, paving the way for early detection and personalized treatments based on a\nbetter understanding of heterogeneous clinical presentations of social impairment."
+ },
+ {
+  "id": "f56f0c0f-97c5-4549-8d09-12f9259ee11f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Image informatics tools for curation and prognostic modeling in pediatric brain tumors",
+  "text": "RELEVANCE: This project will result in development of PBTi2, a new image informatics toolkit to systematically\novercome challenges in developing image-based companion-prognostic tools for pediatric brain tumors. By\nleveraging our access to one of the largest multi-institutional pediatric brain tumor repositories, along with the\nproposed integration of PBTi2 modules into different NCI platforms as well as the public release of expert-vetted\nsegmentations and radiomic features, PBTi2 will have far-reaching implications for efforts in\ndiagnostic/prognostic predictive models for improving patient outcomes in this underserved population."
+ },
+ {
+  "id": "f56f6503-e6c0-4ed4-b290-7fc65628b0dd",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Training Program in Reproductive, Perinatal and Pediatric Epidemiology",
+  "text": "UNC's Reproductive, Perinatal, and Pediatric Epidemiology Predoctoral Training Program\nprepares the next generation of epidemiologists to investigate the real world problems in\nreproductive, perinatal, and pediatric health."
+ },
+ {
+  "id": "f5756539-177a-4f48-81d6-79a5c0f8f86d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "TR&D 2: Unshackling the Scanners of the Future: From Rigid Control to Flexible Sensor-Rich Navigation",
+  "text": "TRD2 Project Summary The broad mission of our Center for Advanced Imaging Innovation and Research (CAI2R) is to bring together collaborative translational research teams for the development of high-impact biomedical imaging technologies, with the ultimate goal of changing day-to-day clinical practice. Technology Research and Development (TRD) Project 2 aims to re-evaluate biomedical imaging hardware in light of rapidly evolving modern capabilities for MRI acquisition and reconstruction. We have leading expertise in the development of novel and state-of-the-art radiofrequency (RF) detectors and transmitters for high-performance magnetic resonance imaging (MRI). We will continue to develop advanced flexible RF technologies to maximize SNR, especially for low-field imaging and dynamic musculoskeletal imaging applications. We will also explore what clinically valuable information can be collected with additional types of sensors that operate outside of the Larmor frequency range with the goals of complementing clinical MRI data and potentially enabling risk prediction and monitoring without the need for expensive and time-consuming MR scans. Finally, we will develop computational tools for speed and flexibility in safety assurance in standard and novel MR systems. Such tools will enable subject-specific anatomic-based safety assurance as well as evaluation of proposed non-traditional, highly accessible MR systems and novel imaging methods."
+ },
+ {
+  "id": "f57ba001-1bc0-45b7-98f5-e3e93609df5c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Translational Analysis Core",
+  "text": "Translational Analysis Core The main objectives of the Translational Analysis Core are to provide VDDRC investigators with seamless access to a well-coordinated suite of investigative modalities including molecular non-invasive small animal imaging, large-scale digital archiving and quantitative analysis of histologic, immunohistochemical and immunofluorescence staining of tissue sections, state-of-the art research immunohistochemistry, and consultative services in interpretation of morphologic findings in animal models and human digestive diseases. The Core has three components: the Preclinical Imaging Service led by Dr. Peterson, the Digital Histology Service led by Dr. Goldenring, and the Tissue Morphology Service led by Drs. Piazuelo and Washington. In the current funding period, Core services were utilized by 42 VDDRC members leading to 217 peer-reviewed publications. The expansion and strategic realignment of this Core now provides VDDRC investigators the opportunity to move nimbly from investigations utilizing non-invasive molecular imaging (Preclinical Imaging) and histology (Tissue Morphology), often in tandem, in tractable model systems of digestive diseases to digitization and state-of-the-art high throughput analysis of morphology-based findings (Digital Histology). Continually expanding services include access to a variety of molecular imaging probes specifically tailored for imaging GI disease in preclinical animal models, including NIR-based optical imaging reagents and translational imaging compounds labeled with positron emitting isotopes (PET), and providing GI-focused digital imaging services. The Preclinical Imaging Service will support all major small animal imaging modalities including optical, SPECT, and PET methods for molecular imaging, as provided by the Center for Small Animal Imaging within the Vanderbilt University Institute of Imaging Science. The Tissue Morphology Service provides research immunohistochemistry services for both human and animal gastrointestinal tissue. In addition, Dr. Washington, the Core Director, and Dr. Piazuelo provide the necessary expertise for interpretation of histologic findings obtained in these studies. The Digital Histology Service provides high resolution digital imaging of and quantitative analysis methods for whole slides and TMA in brightfield and fluorescence, and works with the Tissue Morphology Service to facilitate multiplexed immunohistochemistry. Collectively, this Core offers VDDRC members a tightly knit compendium of services provided by leaders with a rich history of collaboration that are designed to increase the breadth and depth of animal studies with human validation focused on digestive diseases."
+ },
+ {
+  "id": "f57c22da-c938-467c-9791-f59fe782d935",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting Replication Stress and DNA Damage Response in Uterine Cancer",
+  "text": "Because of the worsening survival of women with advanced and relapsed endometrial cancer, this P01 grant is\nfocused on targeting replication stress (RS) in order to improve therapeutic outcomes in these patients. Each of\nthe 3 projects focuses on different strategies for targeting RS in endometrial cancer: i) using WEE1 inhibition as\nmonotherapy against uterine serous carcinomas (USC) and other p53-mutated uterine cancers characterized by\ngenomic alterations associated with high RS; ii) using combined ATR and PI3K inhibition to capitalize on\nconcomitant PI3K pathway alterations and genomic alterations associated with high RS in USCs and ARID1A\nmutated uterine carcinomas; and iii) using ATR and WEE1 inhibitors in combination with immune checkpoint\ninhibitors to facilitate effective anti-tumor immunity in this disease."
+ },
+ {
+  "id": "f58f2f4f-21da-4cb2-bdac-35dd10bdb745",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Bioinformatics/Modeling/Biostatistics Core",
+  "text": "ABSTRACT — JHU TRAC BIOINFORMATICS, MODELING AND BIOSTATISTICS CORE (BMBC) Mycobacterium tuberculosis has evolved with humankind for centuries; as such, tuberculosis (TB) is arguably one of the most complex infectious diseases to represent analytically. From within-host processes (e.g., macrophage heterogeneity and granuloma formation) to clinical presentation (e.g., latency and a prolonged waxing-and-waning disease course) to population-level dynamics (e.g., slow epidemics driven by heterogeneous transmission and susceptibility), TB presents distinctive challenges for modeling. By the same token, however, advances in the development of computational models – including systems dynamics, statistical, and epidemiological approaches – offer an unparalleled opportunity for developing new quantitative insights into the dynamics of this uniquely human pathogen. The overall goal of the Johns Hopkins University (JHU) TRAC Bioinformatics, Modeling and Biostatistics Core (BMBC) is to ensure that innovative TB research is accelerated by access to the most recent advances in computational methods for infectious disease research. These include bioinformatics to make use of genomic, proteomic, and other high-throughput, genome-scale data; modeling, to turn these data sets into mechanistic models; and biostatistics, for expertise in applying computational methods to clinical and epidemiological research. To ensure the ability of the BMBC to achieve these goals, we have recruited leaders whose expertise spans these areas. Dr. Joel Bader, Core Director, has extensive experience in bioinformatics and modeling applied to infectious disease, as well as a long record of technology development. Co-Director Dr. David Dowdy spans mathematical modeling and epidemiology; Co-Director Dr. Aletta Nonyane has expertise in biostatistics and high-dimensional clinical data. Additional Core faculty provide deeper expertise in key content areas, including genomics, biostatistics, mechanistic modeling (within-host and population-level), systems dynamics, bioinformatics, and data science. The BMBC will achieve its overall goal and provide added value to the JHU TRAC by enabling New Investigators (NI) and Early Stage Investigators (ESI) to achieve independence in their research, whether by learning to perform computational research themselves or by establishing productive partnerships with computational counterparts. The BMBC will assist NI/ESI, as well as researchers new to the TB field, in gaining access to the high-performance computing facilities required for modern studies. Additional examples of services the BMBC will provide include partnership with NI/ESI to navigate computationally intensive components of their research, assistance with study design and/or analytical approaches relevant to specific research questions, and linkage to formal training opportunities for interested investigators. In addition, the BMBC faculty will provide synergy with the other JHU TRAC Cores and foster multi-disciplinary collaborations by participating in the weekly TRAC Seminar Series, with a focus on computational approaches to addressing critical TB knowledge gaps, as well as NI/ESI-focused Writing Accountability Groups, TRAC K-Club and K2R Club, and the annual TB Scientific Meeting and TRAC Data Fair."
+ },
+ {
+  "id": "f58fa45e-51bf-4ef5-916d-0dfc3e9a792d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "ASH1L mediated transcription networks in autism spectrum disorders",
+  "text": "Mutations in ASH1L are a major cause of autism spectrum disorder (ASD) when these genetic changes impair\nprotein function. The ASH1L transcription factor is a protein that regulates large groups of genes\nsimultaneously, including other autism genes. Our goals in this proposal are 1) identify cellular defects in\nhuman neurons with patient mutations in ASH1L using iPSC-derived experimental systems, 2) study the\nfunctional and circuit defects associated with ASH1L deficiency, and 3) identify the epigenetic and\ntranscriptional signatures associated with ASH1L using mouse and human experimental systems. For all of\nthese Aims, we will rescue the phenotypes identified using a mechanistic approach."
+ },
+ {
+  "id": "f590be15-a0a2-4644-ac43-0ceed2187fd8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Gene regulatory networks in early lung epithelial cell fate decisions",
+  "text": "This proposal aims to define the gene regulatory network (GRN) that underlies the primordial lung progenitor,\nthe epithelial progenitor with the broadest competency in the respiratory system. Understanding and\nmanipulating the primordial lung progenitor GRN can lead to the robust and efficient derivation of different types\nof functional respiratory epithelial cells from patient-specific induced pluripotent stem cells (iPSCs). Our studies\nwill advance iPSC-based therapies for and in vitro modeling of diseases affecting the lung epithelium, such as\nchronic obstructive pulmonary disease (COPD), cystic fibrosis and alpha-1 antitrypsin deficiency."
+ },
+ {
+  "id": "f596087f-8f25-4d7b-9f67-f422e8d4babb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Elucidating the Molecular Pathogenesis of PICALM::MLLT10 Pediatric Acute Myeloid Leukemia",
+  "text": "PICALM::MLLT10 pediatric AML is the result of a rare chromosomal translocation t(10;11)(p12;q14) with a\nmedian onset age of 14.5 years and overall poor prognosis with high rates of relapse. This proposal aims to\naddress the lack of mechanistic insights into this leukemic subtype through multiomic analyses in combination\nwith CRISPR/Cas9 validation to identify potential targets for therapeutic intervention. By uncovering the\npathways and interacting proteins central to PICALM::MLLT10 leukemogenesis, this research has the potential\nto significantly improve outcomes for this high-risk patient population."
+ },
+ {
+  "id": "f5a69883-965b-4f59-9d92-6bb834d09785",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Regulation of blood-retina barrier by placental growth factor",
+  "text": "Diabetic retinopathy (DR) is a common and sight-threatening complication of diabetes.\nPlacental growth factor (PlGF) has emerged as a promising target molecule to treat DR, yet how\nPlGF mediates DR pathogenesis remains incompletely understood. This project will elucidate a\nnew mechanism for PlGF to mediate diabetes-induced retinal pathology by reprogramming\nglucose metabolism, determine the protective role of glucose-6-phosphate dehydrogenase\n(G6PD)’s antioxidant function via oxidative pentose phosphate pathway (oxPPP) in DR, and\nexplore a new intervention approach to prevent or delay DR progression by increasing G6PD\nactivity and oxPPP flux."
+ },
+ {
+  "id": "f5aa8857-10ea-4423-9674-289176370e56",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Regulation of Mitochondrial Respiration in  Diabetic Kidney Disease",
+  "text": "Mitochondria are increasingly emerging as critical hubs for integrating intracellular signaling,\nbiosynthetic and bioenergetic activities of the cell. In this application, we will address how the electron\ntransport chain (ETC) of mitochondria is regulated in podocytes and whether dysregulated ETC\nfitness contributes to the development and progression of diabetic kidney disease (DKD). The\ncompletion of this project will define the central role of ETC as a targetable therapy for progression of\nDKD."
+ },
+ {
+  "id": "f5af6cb6-b475-4143-9655-899973aeb004",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Computational Models for New Developments in Radical Chemistry",
+  "text": "This project aims to develop new computational models and tools for the discovery and optimization of synthetic\nprocesses harnessing organic radical intermediates. Control over the generation, reactivity, and\nenantioselectivity of triplet diradicals will be studied, and general predictive models for the site selectivities of\nhomolytic substitutions will be developed and validated. Conceptual advances will be harnessed to create a\npractical and broadly applicable computational platform for (i) developing radical strategies for the preparation\nof new drug candidates and (ii) predicting small molecules’ metabolic stabilities."
+ },
+ {
+  "id": "f5b252bb-c1b0-4cae-b152-741b6ae03caa",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Phenotype-Genotype Relationships in Tuberous Sclerosis",
+  "text": "Tuberous Sclerosis is a genetic disorder associated with autism and epilepsy that is caused by mutations in\nthe TSC1/2 genes. Available treatments are only effective in a subset of patients. By rigorously assessing the\nphenotypic effects of different human TSC2 variants in a preclinical murine mutation-screening platform this\nresearch will 1) determine whether different TSC2 mutations modulate disease severity and 2) generate proof-\nof-concept data for a personalized medicine approach to treating children with TS."
+ },
+ {
+  "id": "f5b2bc55-f828-4570-86b6-4d4ca34babf1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Ultra-Fast Knee MRI with Deep Learning",
+  "text": "This study aims to use Deep Learning to simultaneously accelerate knee MRI acquisition and automate post\nprocessing pipelines including multi tissue segmentation, detection and severity staging of osteoarthritis\ndegenerative changes.\nThe proposed study builds a novel translational platform to revolutionize knee MR images in research studies,\nbut also is paradigm-shifting in that it may provide a first step towards on real time automatic image inspection\nand personalized imaging protocolling."
+ },
+ {
+  "id": "f5b3ff8f-868e-46c6-9c73-a2e0cc042113",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cellular and Physical Function Outcomes Leading to Failed Muscle Recovery After Critical Illness",
+  "text": "Patients surviving critical illness acquire impairments in muscle and physical function that can persist for years\nafter hospital discharge. The planned proposal will identify cellular and physical function outcomes that\ncontribute to failed muscle regrowth in the recovery phase of critical illness. My training will entail statistical\nanalyses for basic and applied science and the experiments to assess human skeletal muscle to determine\ncellular mechanisms that drive impairments in muscle and contribute to sustained physical functional deficits."
+ },
+ {
+  "id": "f5b46979-24d7-49d7-96f8-c4ed8db908b2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Intersecting clinical, genomic, and experimental investigation to understand the mechanisms and impact of coronary artery patterning",
+  "text": "Coronary artery disease (CAD) continues to be a leading cause of death in the United States despite lifesaving\ndrugs and procedures like angioplasty and bypass surgery. We propose to study the genetics of human\ncoronary artery structural variation to discover the biological mechanisms behind coronary artery formation and\nthe development of naturally occurring bypass arteries termed `collaterals'. Ultimately, our goal is to use this\ninformation to develop new pharmacological or gene therapies that promote arterial growth to improve and\nlengthen the life of those afflicted with CAD."
+ },
+ {
+  "id": "f5b92e1e-c30d-4ff8-a399-3e068b85c29b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Core F: Data Management and Analysis Core (DMAC)",
+  "text": "The Data Management and Analysis Core provides comprehensive and essential data\nmanagement support, bioinformatics analysis, statistical consultation and assistance with\neducation to Projects and Cores of the Superfund Research. It will implement a relatively simple\nbut comprehensive Data Management Plan (DMP). The combined data analyses and integration\nhave the potential to lead to novel mechanistic insights that would not be apparent to individual\nprojects or cores."
+ }
+]

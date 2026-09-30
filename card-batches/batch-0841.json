@@ -1,0 +1,142 @@
+[
+ {
+  "id": "a0443b31-6459-4ac7-93e5-b709e6099302",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "CORE 2 - Mass Spectrometry Core",
+  "text": "PROJECT SUMMARY/ABSTRACT – Core 2-Lipid Mass Spectrometry Core The Lipid Mass Spectrometry Core (LMSC) will draw on the strong lipid mass spectrometry culture at UT Southwestern in the Center for Human Nutrition that has been developed and is managed by Dr. Jeff McDonald to serve needs of UT Southwestern NORC investigators. Through an extensive suite of instruments in the Center along with significant experience and knowledge in all aspects of mass spectrometry-based lipid analysis, the goal of this Core is to support all NORC investigators to provide lipid measurements needed relevant to their NORC research projects. The three primary objectives of the LMSC are: 1) Provide quantitative analysis of targeted lipid classes that include fatty acids, sterols/oxysterols, bile acids, steroids, eicosanoids, and sphingolipids; 2) Provide untargeted, relative lipidomic analysis that covers the major classes of lipids including steryl esters, glycerolipids, phospholipids, and sphingolipids; and 3) Develop novel methods to support unique needs of NORC investigators. The services and capabilities provided by the LMSC cover almost all aspects of lipid analysis from extraction to analysis to data interpretation and dissemination. The LMSC has proven capabilities from effectively handling large cohorts (clinical and research) for targeted lipid analysis to broad exploratory work on small pilot projects."
+ },
+ {
+  "id": "a046a6ed-eadc-4d79-a70e-76ecbef1ca42",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Phosphatidylinositol Metabolism and Trafficking in Atherosclerosis and Inflammation",
+  "text": "Dysfunctional inflammatory response to modified lipids and bacterial metabolites leads to unresolved and\nchronic inflammation. This project aims to identify novel pathways and mechanisms involved in promoting the\ninflammation-induced progression of atherosclerosis and progressive familial intrahepatic cholestasis with the\ngoal of therapeutic interventions for treating these debilitating diseases."
+ },
+ {
+  "id": "a0473f9f-1b75-40fc-ac29-3d0c654dd745",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mapping spatiotemporal dynamics during enterovirus infection across cells and tissues",
+  "text": "Enteroviruses are a major source for disease and hospitalization, but currently little is known about their\nmechanism of infection and there is no available treatment. Using recent advances in single-cell\ntranscriptomics and ultra-deep virus population sequencing, we will explore the dynamics of in vivo enterovirus\ninfection and the host response to it across cells and tissues. Combining these strategies with animal models\ndefective in specific antiviral pathways, we will gain mechanistic insights into viral spread and pathogenesis,\nwhich is critical to develop effective antiviral drugs and vaccines."
+ },
+ {
+  "id": "a04c7526-c92e-41c6-86a0-ba94d764d66c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "RaceCAR-M immunotherapy for cancer and beyond",
+  "text": "Cellular immunotherapies are revolutionizing cancer treatment but suffer from serious\nlimitations. Drawing inspiration from a surprising discovery we made working on fruit flies, we\npropose to revolutionize and democratize an emerging cellular immunotherapy called CAR-M.\nWe further propose to generalize the approach to remove any unwanted cell or substance from\nthe body – from cancer to drug resistant microbes to amyloid plaques."
+ },
+ {
+  "id": "a04f6177-c75e-4575-bf44-65fcc5d10f1e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project 3: Modified RNA and LNP formulation as immunomodulatory agents for cellular immunity",
+  "text": "PROJECT 3 ABSTRACT RNA has become a new and successful therapeutic modality that entails the introduction of in vitro transcribed (IVT) modified mRNA into cells via lipid nanoparticle (LNP) delivery vehicles. RNA modifications and LNP formulation both critically impact RNA translation, immunogenicity, biodistribution, and the efficacy of such therapeutics. While incorporation of N1-methylpseudouridine (m1ψ) modifications into IVT mRNA in COVID-19 vaccines has demonstrated safety and potent antibody generation, the fundamental concepts underlying RNA modification and LNP formulation for the generation of cellular immunity are unknown. Unlike vaccination, such cellular (macrophage and T cell) immunity will be required for efficacious application of mRNA-LNPs to cancer immunotherapy. Macrophages are ideal targets for mRNA-LNP cancer therapeutics due to their propensity to internalize nanoparticles, central role in modulating the tumor immune microenvironment, and capacity to present cancer antigen to T cells. We propose that optimization of mRNA modifications and LNP formulations will lead to the generation of improved effector anti-cancer chimeric antigen receptor-macrophages (CAR-M) (aim 1) or promote macrophage cross-presentation of cancer antigens leading to T cell immunity (aim 2). We propose simultaneously screening IVT mRNA modifications, beyond m1ψ, and LNP formulation parameters to optimize anti-cancer macrophage immunity. Anti-HER2 CAR sequences (aim 1) or model cancer antigen (aim 2) will be encoded into IVT mRNA, IVT reactions with T7 RNA polymerase will allow incorporation of modified nucleosides with expected variability in immune stimulatory to antagonistic behavior. These modified IVT mRNAs will be incorporated LNPs with varying immunostimulatory properties. MC3, a lipid used in the FDA approved RNA-LNP therapeutic Onpattro®, will be a ‘non-inflammatory’ control LNP, to compare experimental lipids with heterocyclic head groups, previously shown to promote immune activation. Libraries generated by varying both RNA modification and LNP formulation will be screened in vitro, to identify mRNA-LNPs that maximize CAR-M cancer phagocytosis (aim 1) or antigen presentation (aim 2). Finally, top mRNA-LNPs will be tested for therapeutic efficacy in murine models of peritoneal disseminated ovarian cancer (aim 1) or OVA-antigen expressing melanoma (aim 2). Ultimately, we expect to identify mRNA modification and LNP formulations capable of optimizing macrophage-driven anti-cancer cellular immunity. The insights generated by this proposal will be critical to understanding how IVT mRNA and LNPs modify immunity in the tumor microenvironment and will elucidate fundamental concepts underlying the design of RNA-LNP therapeutics for diverse clinical applications."
+ },
+ {
+  "id": "a04fefb3-d45f-45c9-b70c-89c794cff7a8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Roles of Chromatin Remodeler CHD2 in Diffuse Midline Glioma with Onco-Histone Mutations",
+  "text": "Diffuse midline gliomas (DMG)-H3K27 altered represent the leading cause of glioma-related deaths in children\nand adolescents currently without effective treatment options. In this proposal, we are seeking conceptual\nadvances on gene regulation and tumorigenesis of DMG and discovering novel drug targets for this deadly\ndisease."
+ },
+ {
+  "id": "a0568468-8f30-4188-a698-c00cbe100aac",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Machine learning-driven multifunctional peptide engineering for sustained intraocular pressure lowering",
+  "text": "We have discovered an approach for merging high-throughput peptide microarray screening with machine\nlearning to develop multifunctional peptides that show prolonged residence time in the eye. When conjugated to\nsmall molecule drugs, these peptide-drug conjugates can provide sustained treatment of ocular diseases, such\nas glaucoma. At the end of the project period, we will have developed a peptide-drug conjugate that provides\nsafe and sustained intraocular pressure lowering for 3-6 months with a single injection."
+ },
+ {
+  "id": "a0569fbd-d49c-430b-8674-30dc140b4127",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Elucidating the evolution of Krt8+ alveolar cells to Kras-mutant lung preneoplasia and cancer",
+  "text": "Lung adenocarcinoma (LUAD) with genetic alterations in the KRAS oncogene is the most common lung cancer\ndiagnosed in smokers, and strategies to intercept this ominous malignancy heavily rest on understanding the\nearliest events in its development. While it is understood that tobacco carcinogen exposure results in\nwidespread injury in the lung in the form of molecular and inflammatory changes that commence in visually\nnormal cells, we still poorly understand how KRAS-mutant LUAD is conceived from the tobacco-exposed lung.\nThis project will discern how a unique population of lung cells that arise following tobacco exposure evolve to\npremalignancy and KRAS-mutant LUAD, discern mechanisms that promote their oncogenic progression, as\nwell as identify drugs that can target these cells and prevent development of KRAS-mutant LUAD."
+ },
+ {
+  "id": "a05e9001-52c2-41ba-a8b6-a1131c3a2506",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The IRF regulatory network in innate immune training of macrophages",
+  "text": "When exposed to pathogens or cytokines, macrophages can remodel their epigenome through formation of de novo enhancers, thereby altering responses to subsequent stimuli in a phenomenon known as innate immune training. We have shown that the IRF family of transcription factors plays a key role in macrophage epigenome remodeling, but what role each IRF plays is not known. In this project we will employ systems biology approaches to dissect the regulatory logic and functional specificity of IRFs in epigenome reprogramming and identify IRF1 as a key regulator of innate immune training in vitro and in vivo."
+ },
+ {
+  "id": "a05f352f-b92b-45d0-9931-f16d1884f8b0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Improving accessibility and efficacy of in vivo forward genetic screening",
+  "text": "The development of therapies for genetic disorders is currently limited by our incomplete understanding of the\nroles played by individual genes across development and during disease. These limitations are due in large\npart to the difficulties of measuring phenotypes associated with genetic perturbations at scale. In this proposal,\nwe assess the obstacles preventing extensive in vivo adoption of CRISPR-based forward genetic screens in\nmammalian model organisms and present a plan to overcome these challenges using novel functional\ngenomics-based approaches."
+ },
+ {
+  "id": "a061f7c0-8a9c-4168-a57b-451a6b3cb6bb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Regulation of hair cell mechanotransduction by PIP2",
+  "text": "Lipids regulate the activity of a variety of mechanically gated ion channels, including those found in cochlear hair\ncells. Here, I propose to determine the molecular mechanism by which PIP2 affects mechanotransduction in\ncochlear hair cells. Based on published and preliminary data, I anticipate that PIP2 affects MET at least in part\nby direct interactions with components of the MET channel in cochlear hair cells."
+ },
+ {
+  "id": "a0761085-7202-4397-851f-6fdf31a3f3bb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Functional approach to communication sound processing in mouse auditory cortex",
+  "text": "The proposed research is relevant to public health because it will uncover mechanisms underlying the func-\ntioning during acoustic communication learning of a key auditory processing stream between Core and second-\nary auditory cortical fields. Elucidating the normal operation of this system for perception and learning of com-\nmunicative sounds in complex soundscapes will be important in implicating mechanisms that may fail in auditory\nprocessing disorders, social disorders with auditory dysfunctions, age-related hearing loss and temporal lobe\nstrokes."
+ },
+ {
+  "id": "a08070c9-398e-4438-9dee-8bac31afd735",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Engineered Granular Hydrogels for Endogenous Tissue Repair",
+  "text": "Myocardial infarction (MI) and the progression to heart failure is a major public health concern that puts a large\neconomic burden on the healthcare system. We propose an innovative approach to treat patients after an MI,\nwhere injectable biomaterials are injected into the heart early after MI to provide mechanical and biological\nsignals that can improve the healing response. We evaluate our approach in a clinically-relevant animal model\nof MI, which if successful represents a translational therapy that could impact the welfare of many patients."
+ },
+ {
+  "id": "a0862d59-fd0c-4195-8119-760bcac19c18",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Biostatistics and Bioinformatics Shared Resource (BBSR)",
+  "text": "BIOSTATISTICS & BIOINFORMATICS: ABSTRACT The goal of the Biostatistics & Bioinformatics Shared Resource (BBSR) is to ensure excellent and timely collaborative support in a cost-effective manner for all Research Programs of the University of Arizona Cancer Center (UACC). In 2020, bioinformatics services were combined with the existing Biostatistics Shared Resource to provide UACC investigators with one cohesive team to achieve a high level of statistical rigor and innovation in their research. This integration was a result of an external ad hoc review of Shared Resources conducted in 2020. This change is critical in an era when many animal studies and clinical trials involve the collection of ‘omics data. Under this new structure, BBSR provides efficient design, accurate data management, and customized data analyses and interpretation, as well as statistical and bioinformatics innovations, to ensure UACC investigators achieve their scientific goals. This support is facilitated by the long- term coordination of BBSR personnel across all three UACC Research Programs and campus-wide data science initiatives. BBSR faculty and staff are collaboratively involved in the conception, design, implementation, analysis, and reporting of laboratory, genomic, clinical, and population-based research conducted within the UACC. BBSR provides the following services: (1) integrated biostatistical and bioinformatics analysis planning for grant applications; (2) biostatistical and bioinformatics analysis of user- generated and publicly available data; (3) monitoring of clinical study progress; (4) data and software management; (5) clinical protocol development including sample size justification; (6) statistical review of UACC protocols through service on the Scientific Review Committee (SRC); (7) monitoring study safety and data integrity through service on the Data and Safety Monitoring Board; and (8) education and training for clinical fellows, students, and UACC Members. In CY20, BBSR served 35 UACC Members, provided statistical protocol development support for 10 UACC investigator-initiated trials, and provided statistical reviews for 63 SRC protocols. Over the course of the project period, BBSR has supported 97 publications by UACC Members and 203 peer-reviewed funding applications."
+ },
+ {
+  "id": "a08c6da8-bd11-4889-854b-9dad2f7ef5a2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "SHIV-OPT4: A new model of rapid and consistent V2 apex bNAb elicitation",
+  "text": "A major obstacle to rational HIV-1 immunogen design is the lack of an outbred animal model where the induction of\nbroadly neutralizing antibodies (bNAbs) can be achieved in a consistent and reproducible manner such that the\nevents leading to bNAb elicitation can be deciphered at a molecular level. This application proposes to develop such\na model using a set of novel germline-targeting SHIVs with vastly improved priming and downstream bNAb induction\ncapacities that will be leveraged to design immunogens for rapid and consistent elicitation of V2 apex bNAbs."
+ },
+ {
+  "id": "a093eae4-cfca-4564-b3ce-345bb0f24565",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Novel Therapies for Congenital Hyperinsulinism",
+  "text": "Congenital hyperinsulinism is a devastating infant/childhood disease characterized by persistent insulin\nsecretion and life-threatening hypoglycemia, and it is caused most commonly by loss of function mutations in\nthe KATP potassium channel genes. The goal of this project is to explore novel therapeutic concepts for the\ndisease by developing cell and animal disease models and testing pharmacological and molecular agents\ndesigned to correct KATP channel surface expression and functional defects in these models."
+ },
+ {
+  "id": "a0960cf1-bffb-4675-81f6-5796f1fcbd4c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Advanced Spatial Analysis Core",
+  "text": "CORE C PROJECT SUMMARY A comprehensive understanding of the dynamic interplay between immune responses and the virus within the spatial context of infected tissues after SIV challenge will be essential to dissect the mechanisms responsible for initiating and maintaining 68-1 RhCMV/SIV vaccine-mediated SIV replication arrest efficacy and to define the basis of the ability of MHC-E-restricted CD8+ T cells, but not MHC-Ia or MHC-II-restricted CD8+ T cells, to mediate this type of protection. In order to capture the dynamic breadth and nature of the complex immunologic processes within tissues in early primary SIV infection and to unravel the mechanisms of RhCMV/SIV vaccine efficacy, the Advanced Spatial Analysis Core (Core C) will utilize a battery of novel high-dimensional spatial approaches to elucidate 1) the state of the virus, including identity of infected cells, viral gene and protein expression, and infected cell transcriptional patterns (S.A.1), and 2) essential immune cell profiles, including phenotypes, subsets, activation/immunoregulatory states, cytokine signaling, effector functions and transcriptomic landscapes (S.A.2) that will define the virology and immunology of established replication arrest (Project 1) and will distinguish the in vivo immune interception of primary SIV infection by protective MHC-E-restricted CD8+ T cells from non-protective MHC-E-, MHC-Ia- or MHC-II-restricted CD8+ T cells elicited by differentially programmed RhCMV/SIV vectors, or MHC-Ia-restricted CD8+ T cell responses elicited by a conventional prime- boost vaccine (Project 2). The Core will interrogate spatial virologic, phenotypic, and transcriptomic data on single-cells, populations, and cell neighborhoods in tissues associated with SIV transmission using high- dimensional RNAscope/DNAscope, PANINI-CODEX spatial phenotyping, and GeoMx DSP and CosMx SMI spatial transcriptomics platforms, and will link spatial data sets with bulk and single-cell transcriptomic data sets on matched tissues (and blood), to comprehensively define gene expression signatures, networks and immunological responses (but with additional spatial context) associated with RhCMV/SIV vaccine-mediated SIV replication arrest. Core D will apply cutting edge bioinformatics approaches to model the functional outputs and inform the mechanisms of action by which RhCMV/SIV vaccination programs the immune response for protection against SIV infection. Core C is directed by Dr. Jacob Estes, who will work closely with Core D, Drs. Michael Gale, Jr. and Ben Bimber, and with Core A, statistician Dr. Paul Edlefsen, to provide consistent, high-quality functional multi-omics data generation, integrated data analysis, biostatistical analyses and computational modeling in support of the advanced spatial analysis being performed for this scientific program. 1"
+ },
+ {
+  "id": "a0a024c2-f79a-4384-9082-319be74db0c3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multimodal omics approach to identify health to cardiometabolic disease transitions",
+  "text": "Despite the on-going serious obesity epidemic, genetic factors, gene-environment and gene-sex interactions as\nwell as biological mechanisms driving obesity-related health-to-disease transitions towards manifestation of\nobesity-induced cardiometabolic disorders (CMDs) have remained largely elusive, leaving a significant number\nof individuals without proper prevention and care. To address these pressing medical knowledge gaps, we\npropose to 1) elucidate epigenetic and transcriptional markers for health-to-cardiometabolic disease transitions\nin males and females; and 2) discover gene-environment and gene-sex interactions for health-to-CMD transitions\nusing a new function-to-variants omics approach and its follow-up in extensive biobanks. Overall, our health-to-\nCMD approach has a great potential to help prevent CMDs and delay their onset."
+ },
+ {
+  "id": "a0aa0b13-fba5-4104-b8f7-853b31f01804",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Wide-Bore 3T MRI System for Advancing Multidisciplinary Research",
+  "text": "This application seeks support for a United Imaging uMR Ultra 3T MRI scanner to expand capacity at the UC\nDavis Imaging Research Center. The new system will alleviate severe scheduling bottlenecks that currently delay\nover 20 NIH-funded studies, many of which require longitudinal or time-sensitive imaging. Its advanced technical\ncapabilities will enhance data quality, participant compliance, and translational impact across broad health-\nrelated research areas."
+ },
+ {
+  "id": "a0ad97de-5716-405d-9cae-9d9d0651f62b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Computational and biochemical screening for the discovery of molecules that stabilize ITPA clinical variants",
+  "text": "Defects of the inosine triphosphate pyrophosphohydrolase (ITPA) protein can complicate treatment of certain\nlife-threatening conditions, and severe defects can result in a deadly infantile encephalopathy, DEE 35. We aim\nto discover a molecule that can bind to ITPA variants and reverse these defects using computational and\nbiochemical methods to screen a virtual and physical library of 300,000 drug-like molecules. By identifying a\nmolecule that can interact with ITPA to restore proper ITPA function, we aim to provide the groundwork for the\ndevelopment of a drug that can reduce negative outcomes for patients with ITPA defects."
+ }
+]

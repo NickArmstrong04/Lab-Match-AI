@@ -1,0 +1,142 @@
+[
+ {
+  "id": "1e93111b-7c1d-423b-92b9-2f6d492b8769",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "COG NCTN Network Group Operations Center",
+  "text": "The Children’s Oncology Group (COG) is the world’s largest organization devoted exclusively to childhood and\nadolescent cancer research. Over 220 leading children’s hospitals, universities, and cancer centers across US,\nCanada and other countries participate in COG research, which is focused on developing better treatments\nthat can improve the cure rate and outcome for all children with cancer."
+ },
+ {
+  "id": "1e959540-8031-45d4-adb4-1093a3146f65",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "I-REACH (Infrastructure for REsearch on Cancer and Aging)",
+  "text": "Cancer is the second most common chronic disease and cause of death among those ages 65 and older and 75% of the 22 million projected US cancer survivors will be 65+ by 2030. Unfortunately, there is limited research on the complex relationships between aging and cancer, leaving survivors and their geriatrics and oncology teams with insufficient evidence to guide chronic disease and cancer survivorship care. The “Infrastructure for REsearch on Aging, Cancer and Health” (I-REACH) will support a national community of scientists focused on generating new knowledge about aging and cancer that can be leveraged to design, deliver and evaluate interventions to improve the health of the growing population of older cancer survivors."
+ },
+ {
+  "id": "1e96a900-5d48-44ae-8e22-23145ea91e0f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular mechanisms that regulate the degradation of dying cells",
+  "text": "This proposal highlights our planned approaches to investigate how dying cells in animal bodies are clearer\nefficiently through phagocytosis and degradation, using the nematode C. elegans as our model organism. The\nclearance of dying cells protects humans from the harmful inflammatory and auto-immune responses induced\nby the contents of the dying cells. Understanding the mechanisms controlling this process will have important\ntherapeutic implications, in fighting chronic inflammatory and autoimmune diseases, and in developing new\nstrategies to target cancer cells for engulfment and digestion."
+ },
+ {
+  "id": "1e97261b-701c-4550-b080-6dfe7543e83c",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Screening and confirmatory machine learning for explainable modeling of non-cancer deaths in cancer patients",
+  "text": "The proposed research is relevant to public health because the development and better\nutilization novel machine learning for classifying non-cancer deaths in cancer patients with\ndisabilities is expected to reduce the morbidity and mortality in these patients. Thus, the\nproposed research is relevant to the part of the NIH’s mission that pertains to developing\nfundamental knowledge that will help to lengthen human lives and reduce the burdens of human\nillness."
+ },
+ {
+  "id": "1e9f9a7e-b7a6-4ce5-8e97-4594138b22d6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting cell regulatory states to complement MEK/autophagy inhibition in pancreatic cancer",
+  "text": "Combination MEK/autophagy inhibition has shown promise in some pancreatic ductal adenocarcinoma\npatients, but responses have been variable and of limited duration. Using single cell RNA sequencing and an\nadvanced computational framework, we have identified three predominant cell types in pancreatic tumors that\nrespond to MEK/autophagy inhibition. We propose to study the mechanisms of these responses and evaluate\npotential combination agents that will potentiate the anticancer effects of this regimen."
+ },
+ {
+  "id": "1e9fe493-826d-4936-b474-9d7e0d324a23",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Understanding developmental neurogenomic mechanisms in externalizing disorders",
+  "text": "Externalizing disorders are a leading cause of morbidity and mortality in the United States, and the\ndevelopment of novel prevention and therapeutic intervention efforts for these illnesses will require a deeper\nunderstanding of their etiological bases. Motivated by recent discoveries implicating early life as a critical risk\nwindow, the proposed research will characterize the developmental neurogenomic pathways that confer\nliability for externalizing psychopathology by combining cutting-edge methods from genomics, neuroscience,\nand informatics. Findings will provide an integrated, systems-level understanding of the complex molecular\nunderpinnings of externalizing disorders, thus laying the foundation for improved risk stratification, drug\ndiscovery, and other translational efforts."
+ },
+ {
+  "id": "1ea17301-ee35-4001-9ddb-96ac10e4cb93",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "BLRD Research Career Development Transition Award Application",
+  "text": "Garth Terry, MD, PhD, is a VA psychiatrist and researcher with extensive training and expertise developing\nnew compounds for positron emission tomography (PET) imaging of brain neurotransmitter receptors in living\npersons. His laboratory seeks to visualize how brain stress response systems contribute to disorders such as\nposttraumatic stress disorder (PTSD), concussion, drug and alcohol use, and dementia, all of which affect\nmany Veterans. By imaging the actions of drugs targeting the brain noradrenaline system (responsible for fight\nor flight responses), endocannabinoid system (responsible for the effects of cannabis), and immune system\n(responsible for brain inflammation) his laboratory hopes to better understand the underlying mechanisms of\nthese disorders and to develop new and better treatments for them. This proposal seeks to support Dr. Terry\nduring his current research project and provide the foundation for his further development as a clinical PET\nresearcher addressing the unmet needs of Veterans affected by neuropsychiatric disorders."
+ },
+ {
+  "id": "1ea65e68-17b8-4ac6-beb3-76709b23c39d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Developing Engagement Protocols for Donor Family Members and Healthcare Staff During Research Involving the Recently Deceased",
+  "text": "Research involving recently deceased humans physiologically maintained following declaration of death by\nneurologic criteria (“DNC research”) is currently the mainstay for human studies of xenotransplantation, and\nhas potential to become the optimal model for studying countless interventions that carry risks we cannot\njustify imposing on living human research participants. Respectful and collaborative engagement with donor\nfamily members and healthcare staff is essential to preserve trust in DNC research and organ donation, and to\npromote willingness to authorize organ and body donation. This study will be the first to develop novel\nengagement protocols based on multiple sources of qualitative data."
+ },
+ {
+  "id": "1ea8c5fc-a8b6-4c59-8a1c-bee61f2353f7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The role of B cell Cul4b in cross-protective antibody responses to Influenza A virus",
+  "text": "Influenza A virus (IAV) causes a highly contagious respiratory infection that infects millions in the United States\nannually and can be mitigated by vaccination which elicits IAV-specific antibody production in B cells, however,\nvaccine efficiency varies by year due to viral immune evasion. The goal of this proposal is to uncover novel B\ncell-intrinsic mechanisms that promote cross-protective antibody responses which protect against multiple IAV\nstrains by exploring the role of the ubiquitin ligase, Cul4b, in B cell dynamics, differentiation, and antibody\nproduction. Insights gained from this proposal will be pivotal in understanding how cross-protective antibodies\narise which constitutes a major barrier to the efficacy of current IAV vaccination strategies and may inform\ntherapeutic targets to overcome this."
+ },
+ {
+  "id": "1eb1df37-3d88-480a-b5ad-ac94bdc583a5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Spatial access to medications for opioid use disorder and co-located mental health care",
+  "text": "Medications for opioid use disorder (MOUD, i.e., buprenorphine and methadone) can prevent opioid overdoserelated morbidity and mortality, especially when co-located with mental health care. However, lack of\ntransportation or far distance is one of the most frequently cited reasons for not using MOUD and mental\nhealth care. Through spatial statistics and examination of place-based determinants of health, this proposal will\ncontribute to a better understanding of the spatial dimensions of MOUD and mental health care and position\nthe applicant to be an independent investigator."
+ },
+ {
+  "id": "1eb35855-e939-4154-8f48-39f3aa68ec65",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Research Training Program in Mental Health Biostatistics and Data Science",
+  "text": "Mental health disorders are a major cause of disability that significantly reduces the quality of life. As new\ntechnologies emerge for assessing mental health disorders and as research design becomes increasingly\ncomplex, the Department of Biostatistics at Columbia University, in partnership with Columbia’s Department of\nPsychiatry and New York State Psychiatric Institute, has developed an innovative program to train predoctoral\nscholars in biostatistical methods, machine learning, data science, and interdisciplinary research in order to meet\nthe emerging challenges brought by cutting edge technologies and big data. The program will build on the\nDepartment’s strengths and decades of success in rigorous training of biostatisticians to prepare trainees as\nnext-generation leaders in mental health biostatistics and data science (MH-BDS)."
+ },
+ {
+  "id": "1ebad915-ee1a-4753-aacc-b759c602a494",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Structural Biology",
+  "text": "The Structural Biology Shared Resource (STRBIO) provides a comprehensive platform of expertise, education, and infrastructure that enables UNC Lineberger Comprehensive Cancer Center (UNC Lineberger) researchers to perform cutting-edge structural biological studies. Cancer center members have all the resources needed to determine macromolecular structures using X-ray crystallography, biomolecular NMR, and single-particle cryo- electron microscopy (cryoEM). This mission is accomplished through seven complementary components: 1) macromolecular X-ray crystallography, 2) multi-dimensional nuclear magnetic resonance (NMR) spectroscopy, 3) cryo-electron microscopy, 4) structural bioinformatics, 5) protein expression and purification, 6) synthesis of peptides and peptidomimetics, and 7) biophysical measurements of macromolecular properties in solution and their interactions. Each component of STRBIO is managed by an on-site director with a PhD and years of relevant scientific and managerial experience. All Core Directors hold the rank of Assistant Research Professor or higher and most teach graduate-level classes in their respective disciplines. John Sondek (MT) continues as faculty director of STRBIO and leads this team of experienced directors. Dr. Sondek has over 20 years of experience in structural biology and drug discovery and meets bimonthly with Core Directors as a group to coordinate efforts and develop strategic plans. The STRBIO was used by 131 users last year. UNC Lineberger members accounted for 34% of the use. There are no alternatives to STRBIO on campus or at nearby academic institutions. In fact, STRBIO attracts numerous users from outside the UNC system due to its competitive rates and extensive services. STRBIO requests $119,631 for this shared resource, approximately 6% of the total operating budget of $1.9M. To accomplish its mission STRBIO will continue to expand services into areas of high demand, areas that take advantage of the inherent synergies embodied among the STRBIO components, and areas predicted to provide major advances in cancer biology including new fragment-based drug discovery and expanding capacity to label proteins isotopically."
+ },
+ {
+  "id": "1ebadcef-4c8d-4b93-9352-f22a7e821aae",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cellular basis of complex behavior",
+  "text": "Project Narrative, Streelman PI\nThis project asks how the neural circuitry controlling divergent vertebrate social behaviors (1) is\nactivated within cells of the brain, (2) is encoded in the genome and (3) evolves among closely\nrelated species. Such knowledge is central to a comprehensive understanding of neurological\ndisorders and diseases of the brain, which affect one in every seven humans."
+ },
+ {
+  "id": "1ebdc915-beb2-4b92-a2da-c2a4c5e49e8b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Pericyte contribution to capillary remodeling in pulmonary arterial hypertension",
+  "text": "Excessive vascular remodeling is a major disease feature of pulmonary arterial hypertension, but how\npericytes are involved in capillary remodeling is unclear. We show for the first time that lung pericyte dysfunction\nreduces distal vessels and increases vessel muscularization in severe pulmonary hypertension. Through a\ncombination of established cellular assays, novel transgenic mouse models and cutting-edge stem cell-derived\nculturing techniques, we will demonstrate the essential role of RGS5 signaling pathway activation for PC\ndysfunction. We will use our findings to discover new therapeutic approaches to reverse muscularization and\nrestore lung vascular health."
+ },
+ {
+  "id": "1ebe8298-1229-45ea-be5a-3e8fbee0ec28",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "11th Machine Learning for Healthcare Conference (MLHC) 2026",
+  "text": "The Machine Learning for Healthcare (MLHC) annual conference serves as a premier venue for translational re-\nsearch at the intersection of machine learning and medicine, providing a critical forum for sharing state-of-the-art\nadvances, evaluating real-world deployment, and fostering responsible innovation that benefits patients. Support\nfor this conference represents a strategic investment in accelerating methodological and clinical breakthroughs,\nstrengthening the career development of trainees, and expanding opportunities to build a deeply interdisciplinary\ncommunity of AI scientists, clinicians, and healthcare practitioners. This focus directly supports the National Li-\nbrary of Medicine’s mission in biomedical informatics and data science by advancing methods, standards, and\ninfrastructure toward the development, dissemination, and real-world use of health data and machine learning\ntools."
+ },
+ {
+  "id": "1ec04bd0-6e69-4656-8862-309b7d896ca0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Examining the role of synaptic facilitation in cortical network function and behavioral flexibility",
+  "text": "Neurological disorders often impair the brain’s ability to learn and adapt, which may be linked to changes in\nhow neuronal connections are rapidly reshaped on sub-second timescales. This project investigates how\ndisruptions in this process, called short-term plasticity, impact behavioral flexibility using both behavioral and\nmodeling approaches. The proposed experiments will improve our understanding of the role of short-term\nplasticity in cognition, paving the way for novel diagnostic tools and treatments targeting this poorly understood\nfeature of neurotransmission."
+ },
+ {
+  "id": "1ecba17c-ba8e-42f6-b911-72eeeb5c2f53",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Quantitative mass spectrometry for comprehending epigenetic mechanisms in a new underlying neurological developmental disorder",
+  "text": "We propose to develop and apply proteomics tools for understanding the mechanisms involved in the regulatory\nnetworks crucial to a new set of neuroepigenetic syndromes. Understanding the underlying epigenetic\nmechanisms behind these novel neuroepigenetic disorders has incredible potential, as their disruption leads to\nneurodevelopmental delays, neurological degeneration, congenital anomalies and epilepsy."
+ },
+ {
+  "id": "1ecea292-0a0c-4b1a-bffc-304a72677340",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Complement convertase imaging techniques for optimization of complement therapeutic amelioration of antibody mediated rejection",
+  "text": "It is becoming increasingly clear that antibody-mediated rejection has many endotypes, with donor-specific\nantibodies facilitating a host of complement dependent and independent functions. Thus, the development of\nstrategies to stratify patients based upon endotype has the potential to revolutionize the treatment of AMR. In\nthis proposal, novel fluorogenic complement convertase imaging probes will be characterized and their clinical\ntranslatability will be assessed."
+ },
+ {
+  "id": "1ed01161-750e-4eaf-95ba-2005ec3f4451",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Medicare Advantage and cancer care for older adults",
+  "text": "Enrollment in Medicare Advantage has grown rapidly over recent years and, unlike traditional Medicare, Medicare Advantage plans feature limited provider networks, utilization management, and lower out-of-pocket costs that may impact access to cancer care and outcomes for patients with cancer. This project will use population-based data and methods from health economics and cancer health services research to generate evidence on how Medicare Advantage affects cancer treatment access, quality, and outcomes."
+ },
+ {
+  "id": "1ed05e06-66b9-4b36-bdb9-e21a6f88507c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mosaic Display of Multivalent Tau and A-Beta peptides on Immunogenic SNAP Liposomes",
+  "text": "The objective of this follow-on STTR Phase II proposed project is to further the development of a multivalent\n\"mosaic\" vaccine, termed SNAP-AD, targeting multiple epitopes of Aβ and tau simultaneously with a novel\nspontaneous nanoliposome antigen particle (SNAP) vaccine system and to investigate its therapeutic effects for\ntreating Alzheimer’s disease (AD) in two transgenic mouse models (efficacy) and safety in non-human primates.\nPositive outcomes of this project would further the clinical translation of SNAP-AD as a novel vaccine for the\ntreatment of AD and AD-related dementia, which would have an immense impact on the health of our society."
+ }
+]

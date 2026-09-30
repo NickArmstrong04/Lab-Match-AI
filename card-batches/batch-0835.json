@@ -1,0 +1,142 @@
+[
+ {
+  "id": "9de3cc00-6ee7-48aa-9640-73be2b0744dd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating Fucosylation as a Mediator of Limbal Stem Cell Viability",
+  "text": "This research addresses how low levels of the monosaccharide fucose in limbal stem cells (LSCs) effect their\nsurvival and function, especially during inflammation. The results will enhance our understanding of the role of\nthe glycocalyx in cell survival and may lead to new treatments for Limbal Stem Cell Deficiency (LSCD) and\nother diseases."
+ },
+ {
+  "id": "9dedf67c-3982-43fe-aca1-60c4524fe094",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Precision Prediction of Right Ventricular Size, Function, and Outcomes in Patients with Repaired Tetralogy of Fallot",
+  "text": "Adolescent and adult patients with repaired Tetralogy of Fallot, who are at increased risk of heart failure and\nsudden cardiac death, require frequent cardiac MRI evaluation of right ventricular volumes (which are poorly\nassessed by traditional ECG and echocardiography). To improve risk stratification and reduce the need for\ncardiac MRI, which is resource-intensive and unavailable to some, we will create an algorithm to predict right\nventricular size, function, and clinical outcome from ECG waveforms, echocardiographic video, and clinical\ndata using deep learning technology. This mentored research proposal, along with comprehensive training in\nmachine learning methods for clinical risk prediction and career development, will position Dr. Son Duong as a\nleader in the translational application of machine and deep learning technologies to congenital cardiology and\ncardiac imaging, and lay the foundation for successful transition to independent R01 funding."
+ },
+ {
+  "id": "9dee426b-2041-4be6-9174-dd50e018365f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Galectin-12 and neuroinflammation in Alzheimer’s disease",
+  "text": "A sugar-binding protein called galectin-12 may play a significant role in regulating\nlipid metabolism in microglia, the brain inflammatory cells. We hypothesize that\ngalectin-12 has a pathological role in Alzheimer’s disease by contributing to brain\ninflammation, and therefore suppressing it may be beneficial. This study could\nlead to novel therapeutic approaches targeting galectin-12."
+ },
+ {
+  "id": "9df1e388-1c8c-48c4-8e1b-602105148ef1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Circuitry Underlying Escalation and Frontloading of Alcohol Drinking",
+  "text": "Alcohol use disorder is characterized by escalating alcohol intake over time, accompanied by development of tolerance to alcohol’s reinforcing effects that may promote further increases in drinking. Binge and high- intensity drinking (BHID) is a pattern of excessive drinking marked by both rapid alcohol intake and sustained high alcohol consumption over time, but the role of reward tolerance in and the neurobiological causes of BHID are unknown. C57BL/6J mice and the selectively bred crossed High Alcohol Preferring (cHAP) mice provide ideal models to investigate the neural bases of BHID: C57BL/6J mice develop rapid, binge-like drinking in the Drinking in the Dark paradigm, whereas cHAP steadily consume alcohol throughout the day under 2-bottle choice (10% alcohol vs. water) access to achieve blood ethanol concentrations three times the legal driving limit. Using these two mouse genotypes and their respective models of BHID, this project examines how BHID alters alcohol motivation, measured as changes in alcohol seeking and taking in operant self-administration and conditioned place preference. Additionally, neurocircuits that may underlie these shifts in behavior will be investigated, centering on the dorsomedial striatum (DMS) as a terminal region that shows tolerance to alcohol at the single neuron level after excessive alcohol intake in cHAP mice, particularly in females. This proposal investigates whether increased DMS excitatory activity after drinking and the associated alcohol tolerance is due to strengthening of inputs from the basolateral amygdala (BLA), assessed using slice electrophysiology. Centrality of potentiated BLA input to DMS for neuroadaptations to BHID, as well as involvement of this BLA- DMS circuit in alcohol-motivated behaviors altered after BHID, will be investigated using chemogenetics to manipulate circuit activity. Finally, cortical inputs to the BLA from the anterior insula and medial prefrontal cortex will be tested for their ability to regulate the activity of BLA neurons that project to DMS and plasticity following BHID. Together, these studies examine if BHID is associated with reward tolerance and examine one putative neuroadaptive mechanism that may underlie this tolerance. By elucidating how BHID alters activity in a disynaptic circuit terminating in the DMS, and how the BLA-DMS node of the circuit regulates alcohol reinforcement and consumption, this project will provide knowledge about one putative source of BHID effects on the brain and behavior. Given the sex differences in DMS adaptation to alcohol history, these studies may also elucidate sex-specific mechanisms for neuroadaptations underlying excessive alcohol intake."
+ },
+ {
+  "id": "9df5630e-7cc7-4372-b927-a01fb61f8d30",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Rainbar Technology",
+  "text": "This program will develop technologies useful to study functional genomics in living cells to help discover\nand understand therapeutic interventions in human health, aging, and disease such as cancer."
+ },
+ {
+  "id": "9df6060c-dcdd-4c19-b0f7-54454872b545",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Research Software Engineering Support For The Simvascular Open-Source Project",
+  "text": "SimVascular is a vibrant and growing open-source software project for modeling blood ﬂow\nand biomechanics in the heart and circulatory system. This project would provide support\nfor Dr. David Parker, a career research software engineer to support software development,\nsustainability, and dissemination to support NIH funded projects and the wider\nSimVascular user community."
+ },
+ {
+  "id": "9dfb5148-2868-4d07-b919-81bae6f00c48",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Proteolysis targeting chimera against nuclear receptor NR4A1 for melanoma therapy",
+  "text": "The proposed research aims to establish NR4A1 as a valid therapeutic target for melanoma. Using Proteolysis\ntargeting chimera (PROTAC) technology, this project will develop first-of-its-kind NR4A1 degrader to potentially\ntreat melanoma. Using in vivo models and cancer specimens, we will determine the mechanisms how NR4A1-\ntargeting PROTACs work to promote an immune active environment and whether NR4A1 PROTAC is a useful\ntool for treating melanoma as a single agent or in combination with other frontline therapeutics."
+ },
+ {
+  "id": "9e00f6f2-f21b-435f-9445-5a82d4c9a933",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Rutgers Youth Enjoy Science (RUYES) program",
+  "text": "The Rutgers Youth Enjoy Science project is relevant to public health because it will develop a more diverse\nbiomedical, cancer research and healthcare workforce to reduce cancer health disparities in New Jersey and\nnationally. This project at the Rutgers Cancer Institute of New Jersey will train, motivate and support students\nfrom underrepresented groups to pursue biomedical, cancer research careers. High school and undergraduate\nstudents will engage in mentored hands-on research experience, co-curricular and professional career\ndevelopment activities and science teachers and undergraduate faculty will be provided with mentored research\nexperience and curriculum development support. Innovative outreach activities will connect program participants\nwith schools and families in their communities to enhance awareness and appreciation of science education and\nresearch careers."
+ },
+ {
+  "id": "9e013ca5-dca9-4bf0-aa62-a37a51c99829",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "In vivo role of the fibroblast in muscular dystrophy-Renewal",
+  "text": "Relevance (narrative)\nThe relevance of this application is rooted in the fundamental translational biology of how we might directly\ntreat and address Ullrich CMD in patients. We propose a series of experiments in Col6a2-/- mice that if\nsuccessful will directly suggest future treatment approaches in afflicted individuals. We are also hopeful that\nthe proposed course of investigation will suggest treatment strategies that could be in common with all the\nCMDs."
+ },
+ {
+  "id": "9e038727-4eba-4c32-8f74-4886e003af92",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Sphingolipid signaling in the endothelium during viral host defense",
+  "text": "Respiratory viruses such as influenza cause serious cardiovascular adverse effects in individuals who\nhave poor vascular endothelial cell function. This proposal hypothesizes that circulating sphingosine 1-\nphosphate that activates endothelial receptors promotes effective host defense and minimizes\ncardiovascular complications such as blood clots and bleeding. Experiments will define underlying\nmechanisms and develop new therapeutic strategies to combat cardiovascular complications during\nrespiratory viral infections."
+ },
+ {
+  "id": "9e127853-0202-4e47-bfd2-5f0c59fc8a4e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Animal Models Shared Resource",
+  "text": "ANIMAL MODELS SHARED RESOURCE: PROJECT SUMMARY Animal models are powerful tools that are vital to translational cancer research. The Georgetown Lombardi Comprehensive Cancer Center (LCCC) Animal Models Shared Resource (AMSR), directed by Christopher Albanese, PhD (DC), comprises three components: rodent, zebrafish, and the Preclinical Imaging Research Lab (PIRL). Andrew Nelson, DVM (NJ), and Patricia Foley, DVM (DC), manage the rodent component; Eric Glasgow, PhD (DC) manages the zebrafish component; Albanese directs the PIRL. The function of AMSR is to facilitate the efficient, economical, state-of-the-art use and imaging of animals for the performance of cancer-related studies. This is accomplished through resources situated at both LCCC Consortium sites in DC and NJ, where highly trained faculty and staff provide access to animal services to LCCC Members. Significant emphasis is placed on assisting users with the design, performance, and imaging of studies using vertebrate models extending from zebrafish to genetically engineered and immunodeficient rodents. Major services in the rodent component of the AMSR include establishing and managing xenograft, patient-derived xenograft (PDX), and orthotopic models; performance of surgical procedures; mouse colony management; monitoring tumor growth and metastasis; blood collection; necropsy procedures; and administration of drugs or other compounds and delivery of specialized diets. Services for zebrafish include generation and maintenance of genetic models; toxicity screening; and xenotransplantation experiments (i.e., “zevatars”—zebrafish avatars. Animal studies are performed within Georgetown University’s (GU) Division of Comparative Medicine (DCM) and a centralized animal facility in NJ, both accredited by AAALAC International. Imaging services provided by the AMSR allow monitoring of tumor initiation, progression, metabolism, and response to therapy. Imaging equipment includes high-resolution, in vivo and ex vivo, small animal imaging and image analysis using a new (April 2021) Bruker 7 tesla magnetic resonance imaging and spectroscopy console secured with an NIH Shared Equipment grant (NIH S10 OD0251531), a new (March 2020) small animal ultrasound (VisualSonics Vevo 3100) workstation to supplement the existing Vevo 3100, a mouse DEXA instrument (Lunar PIXImus) and bioluminescent and visible to near-infrared Lumina spectroscopic imagers. The AMSR works closely with the Histopathology & Tissue Shared Resource, the Microscopy & Imaging Shared Resource, and the Biostatistics & Bioinformatics Shared Resource to support its users in correlating in vivo data with pathologic, genetic/genomic, molecular, mechanistic, and statistical analyses. In FY22, the AMSR supported 26 LCCC Members across all three Research Programs (10 Cancer Cell Biology [CCB], 15 Cancer Host Interactions [CHI], and 1 Cancer Prevention and Control [CPC] Member). During the current funding period, the AMSR contributed to 33 publications, of which 8 are in high-impact journals, and provided support that enabled the success of 42 extramurally funded research project grants."
+ },
+ {
+  "id": "9e1342f4-d20e-4e2f-b222-4dda3cd46193",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Precision Radiotheranostics Targeting Oncogenic Mutations",
+  "text": "Precision oncology requires highly selective diagnostic and therapeutic strategies to target oncogenic mutations\nwhile minimizing off-target effects. Combining advanced protein engineering with radiopharmaceuticals, we\npropose the development of covalent antibody fragments and protein-based chelators to improve radiometal\nstability and precision and thereby advance our ability to precisely image and treat tumors bearing oncogenic\nmutations. Ultimately, we aim to establish a versatile platform for next-generation cancer diagnostics and\ntreatment."
+ },
+ {
+  "id": "9e169b72-6a67-40ca-80e6-f9c3a19aa59e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting GPR84 to Overcome Macrophage Mediated Resistance to Immunotherapy",
+  "text": "Immune checkpoint blockade (ICB) produces extraordinary clinical responses in more than 25 types of tumor,\nbut only a small number of patients benefit from this therapy. Our data support a provocative model that G Pro-\ntein-Coupled Receptor 84 (GPR84) pathway can be pharmacologically activated to shape macrophages to-\nward the anti-tumorigenic phenotype to overcome ICB therapy resistance. Results will inform the development\nof promising treatments to reshape immunosuppressive tumor microenvironment through manipulation of met-\nabolic signaling, and thereby restore responsiveness to PD-1 blockade for bladder cancer patients."
+ },
+ {
+  "id": "9e1b1780-1553-438b-ba25-38079a87b08c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development and Application of T1rho Dispersion Imaging of Aging Muscle",
+  "text": "This administrative supplement is requested to support research continuity and retention of the scientific aims outlined in a K25 NIAAward #1K25AG076864, titled \"Development and Application of T1rho Dispersion Imaging of Aging Muscle.\" The principal investigator is currently managing a high-risk pregnancy and childbirth-related life events that may temporarily affect her research productivity and the success of her K25 grant. The aims of the parent grant are (1) to develop R1p (R1p = 1/T1p - the spin-lattice relaxation rates in the rotating frame) dispersion imaging at weak locking field frequency, a novel approach that can quantify degenerative changes in microvasculature and abnormal macromolecule accumulation in muscle fiber membranes, (2) to validate extracted-MRI indices using gold-standard ex vivo methods through a longitudinal study of skeletal muscle in F344 rats to establish the pathophysiological relevance of these novel MRI biomarkers with aging, and (3) to translate R1p dispersion imaging to human research, utilizing a clinical 3T MRI scanner to assess skeletal muscle changes with healthy aging. The parent grant has enabled successful completion of Aim 1 and Aim 2, and partial progress toward Aim 3. To fully accomplish the objectives outlined in Aim 2, additional computational analysis of histological data is necessary. To support this activity, I have established a collaboration with experts at the Digital Histology Shared Resource (DHSR), in partnership with the Translational Pathology Shared Resource (TPSR) at Vanderbilt University Medical Center. This collaboration will enable cost-effective computational quantification of ex vivo biomarkers, which are essential for interpreting MRI-derived indices from Aim 2. This supplement is also vital for advancing Aim 3 by ensuring continuity of human research activities during a temporary reduction in the principal investigator's availability and productivity. A research assistant (RA) will be hired through this administrative supplement to support subject recruitment, scheduling volunteer visits, and conducting clinical assessments. The RA has received or will receive appropriate training to perform basic clinical evaluation and analyze demographic data, helping to maintain momentum in the human imaging component of the study. Overall, this support is crucial for maintaining the integrity and progress of the parent grant during a period of limited Pl availability."
+ },
+ {
+  "id": "9e1c05ef-64c0-4e96-a86c-8b15afbf25cd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The integrated stress response in cognitive disorders",
+  "text": "Activation of the integrated stress response (ISR), a conserved signaling network that restores\nprotein homeostasis by regulating protein synthesis, is emerging as a main causative\nmechanism underlying the memory deficits in a wide range of cognitive disorders. By using a\nnovel human-based mouse model and a multidisciplinary approach that combines mouse\ngenetics, molecular biology, electrophysiology, pharmacology, chemical biology and behavioral\nstudies, we aim to define the precise molecular, cellular, and circuit mechanisms by which\nactivation of the ISR leads to cognitive dysfunction. By providing new fundamental insights into\nthe mechanisms by which inhibition of the ISR reverses cognitive dysfunction our studies could\nlead to the development of new treatments for cognitive disorders resulting from perturbation of\nprotein homeostasis."
+ },
+ {
+  "id": "9e2396cf-45ef-46d7-adc2-1c91e30e3af1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A Clinical Trial of AAV2-BDNF Gene Therapy in Alzheimer's Disease",
+  "text": "We propose to conduct a first-in-human clinical trial of BDNF gene therapy in Alzheimer’s\ndisease. BDNF (“Brain Derived Neurotrophic Factor”) builds new synapses in the brain,\nprevents cell death and stimulates neuronal function. It offers the potential to slow or even\nreverse cognitive decline in Alzheimer’s disease."
+ },
+ {
+  "id": "9e267deb-3b15-46ed-bd02-9365953245a6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Developing new antifungals against sterolglycosidases",
+  "text": "Fungal infections have dramatically increased during the last decade and new treatment strategies are needed. This proposal\nfocuses on developing new antifungal compounds targeting a new fungal-specific enzyme (sterylglycosidase) to improve the\ninfection caused by Cryptococcus spp. and Aspergillus spp."
+ },
+ {
+  "id": "9e2b125d-7d8e-4e57-bf90-12b124986be3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A blastocyst complementation approach to study forebrain development, evolution and function",
+  "text": "Interspecies blastocyst complementation (IBC) is an innovative technique that allows us to generate an organ of\none species within another. By developing a new and efficient IBC method, we have successfully grown rat brain\ntissue in mice, unlocking new possibilities for understanding how brains develop, function, and evolve. Our\nproposal aims to explore the barriers that exist between different species that affect brain development, how rat\ncells adjust to functioning in a mouse environment, and to extend this research to a broader range of rodents,\nthereby greatly enriching our knowledge of neuroscience."
+ },
+ {
+  "id": "9e2dc364-db60-46f5-b572-ce80bfd8aea0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Spatially Resolved Single-Cell DNA Sequencing: A General Spatial Genomics Platform with Application to HIV Reservoir Mapping",
+  "text": "Spatial genomics has surged in popularity over the past five years, enabling high-resolution profiling of RNA\nand protein in tissue, however, no existing platform allows whole-genome spatial DNA sequencing. This\napproach requires extremely sensitive assays due to the chromatin-bound, nuclear protein-associated,\nsingle-copy nature of genomic DNA. This proposal aims to develop the first commercially viable multi-omic\nplatform for single-cell DNA sequencing, simultaneously analyzing RNA and protein, with broad applications in\noncology, neurodegeneration, and infectious disease mapping."
+ },
+ {
+  "id": "9e36680e-b630-4953-94b3-9b8fb718de8c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Control of germline stem cells and the switch to meiotic development in C. elegans",
+  "text": "Defects in the key developmental process where germline stem cells switch to entry into meiotic prophase and\ngametogenesis can result in the formation of aneuploid progeny and infertility. Since ethical and practical issues\nlimit studies in humans, research in model organisms is essential. This work will complete the regulatory network\nand delineate processes governing this essential step in germline development, informing on how the switch is\nexecuted in other animals, including humans."
+ }
+]

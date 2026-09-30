@@ -1,0 +1,142 @@
+[
+ {
+  "id": "3bb89063-9b34-4dc5-9127-915f1d7b8c33",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Program in Genetics and Genomics PhD Training Grant",
+  "text": "Genetic perturbations underlie many human maladies including diabetes, cancer, and heart disease. Our\nunderstanding of the genetic variants contributing to such diseases, the mechanistic underpinning of how these\nvariants contribute to disease, and, most importantly, how we might intervene to fix or ameliorate disease-\ncausing genetic perturbations remains poor. The PGG training program at Harvard Medical School will provide\nspecialized training in the fields of Genetics and Genomics to our Ph.D. students so that they are prepared to\nlead our Nation’s efforts towards defining the causes of, and developing treatments for, genetic disease in\npeople."
+ },
+ {
+  "id": "3bb946f4-4aae-4f33-bf97-e1931459cefc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Understanding the mechanistic link between vascular dysfunction and Alzheimers disease-related protein accumulation in the medial temporal lobe",
+  "text": "The aim of the proposed research is to understand the interactions between cerebral small vessel disease and\nAlzheimer’s Disease related pathology in the medial temporal lobe, a brain region crucial for cognition and\naffected by the disease at early stages. The combined use of ultra-high resolution ex vivo MRI, corresponding\nhistopathological serial sectioning, and deep-learning based quantitative measures of MRI and histology is\npromising to quantitatively and objectively identify these relationships, also inferring the role of potential\nmechanisms, such as blood-brain barrier leakage and clearance dysfunction. The results will enhance our\nunderstanding of the causal links between vascular and AD pathology and produce histologically validated\nneuroimaging markers of microvascular health of the medial temporal lobe, which could potentially be applied in\nvivo to monitor the effects of much needed disease-modifying interventions."
+ },
+ {
+  "id": "3bba0033-83c4-4188-9b26-88d98306c8cc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Center for Innovative NeuroTech Advancement (CINTA) - Resource Core",
+  "text": "As the Resource Subawards Core, VentureWell will leverage their more than 25 years of experience and network of providers in supporting CINTA innovators through providing technical support in the fields of medical device commercialization and biomedical engineering. For CINTA, VentureWell will expand the partnership with CIMIT that was developed as part of the RADx Tech initiative by providing expert consultants, vendors, and service providers tailored to supporting neuro medical devices. The Resource Core will manage a roster of service providers, vendors, and individuals that can assist CINTA in providing support for selected projects and will provide administrative and programmatic oversight for all resource subawards. VentureWell will maintain a Qualified Resource Database, a database of experts, vendors, and service providers that includes verified expertise as well as availability, timeline to engagement, and expected rates for CINTA projects. As needs are identified by the Deep Dive teams, the Resource Subawards Core will work to develop a relevant scope of work and assess potential resources, both from the existing roster of resources and via solicitation of new or competitive resources. Once a resource is matched to an innovator subproject, the scope of work will be reviewed and confirmed by the Evaluation Core. Requests for resource support, whether for individual consultant or vendors, will be managed via similar processes as in the RADx Tech program; these processes have been streamlined based on lessons learned from RADx Tech. Specifically, both individual consultants and vendors will develop a scope of work with associated budgets, timelines, and deliverables, and once linked to an innovator subproject and awarded, they will be managed to deliverables and milestones by the Resource Subawards Core, in collaboration with the Mentor teams. Managing individual consultants and vendors/service providers through the same process will maximize efficiency and streamline project management and reporting."
+ },
+ {
+  "id": "3bbae7fb-2d4e-479f-af1d-e1f562634936",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Robust verification of genetic variant-associated candidate off-target sites",
+  "text": "In this project, we will optimize computational and experimental methods to assess unintended (so-called “off-\ntarget”) effects of gene editing therapies, with a focus on accounting for human genetic diversity. Our approach\ncombines CRISPRme, a computational tool for nominating off-target sites associated with genetic variants, with\nABSOLVE-seq, an experimental method for verifying the editing of these candidate off-target sites in the context\nof relevant gene edited cells. Through active collaboration with SCGE Consortium members, we will contribute\ntools, datasets, and expertise to the broader gene editing community, advancing the safety evaluation of genome\nediting therapeutics during the regulatory review process and potentially accelerating their clinical translation\nacross diverse patient populations."
+ },
+ {
+  "id": "3bc69cc2-94eb-4f4d-8b53-684a7e26bd1d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Characterization of a ubiquitin binding domain in interferon pathway protein RIOK3",
+  "text": "Upon viral infection of mammalian cells, immediate generic responses are initiated by the cell to\nattempt to suppress the infection. The research proposed here is designed to shed light on the\nfunctions of one poorly understood protein, RIOK3, that is important in this response. This\nresearch will enhance our understanding of some immune responses that have potential\napplications for treatment of viral or autoimmune diseases."
+ },
+ {
+  "id": "3bcc42bc-71dd-4a09-aef6-4987c880643c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Determining the impact of synthetic coolants on abuse liability and initiation-related behaviors",
+  "text": "The proposed research is relevant to public health because nicotine addiction remains the number\none cause of preventable death. High concentrations of nicotine in vaping products are now being\ncombined with synthetic coolants that may exacerbate nicotine’s abuse liability and increase risks\nfor nicotine-related diseases and disorders. Understanding the impact that synthetic coolants\nexert on nicotine’s abuse liability and impact on initiation-related behaviors will provide a\nfoundation for future regulations that will improve the public health of individuals that chose to\nvape and those that are exposed second- and third-hand to vaping."
+ },
+ {
+  "id": "3bcde143-0423-4ef5-a627-a0a037287975",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating descending control of walking",
+  "text": "Precise control of behavior is a fundamental function of the nervous system, and its dysfunction leads to\ndevastating movement disorders such as Parkinson’s disease and amyotrophic lateral sclerosis. However, the\nnature of the neural code by which the brain controls behavior—which features of the motor output are\nencoded and the organizational logic of these representations—remain incompletely understood. The\nexperiments outlined in this proposal will provide novel insights into what information the brain conveys to\nnerve cord, informing studies of movement disorders and the development of prosthetics and robotics that\nrecapitulate features of the brain’s control of motor action."
+ },
+ {
+  "id": "3bd3b174-bc80-4a6a-98c2-2b08e34dc191",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "AI Driven End-to-End 4D flow MRI Pipeline for Hemodynamic Assessment in BAV Disease",
+  "text": "Bicuspid aortic valve, the most common congenital heart defect, can lead to severe\ncomplications, but current risk-stratification methods based on aortic diameter are\ninadequate. Studies using 4D flow MRI have identified promising hemodynamic\nbiomarkers, such as elevated wall shear stress, that improve risk prediction for BAV\npatients. To overcome challenges like long scan times and complex analysis, this study\nproposes a deep learning-based end-to-end pipeline to accelerate 4D flow MRI,\nautomate hemodynamic analysis, and conduct multi-site evaluations for better clinical\nadoption and outcome prediction."
+ },
+ {
+  "id": "3bd5437a-0e45-463f-bcd2-c8ba5d5eb438",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dual-isotope SPECT imaging and immunophenotyping of immune cells to determine response to immunotherapy",
+  "text": "This project is relevant to patients with melanoma and renal cell carcinoma who are being treated with\nimmunotherapy. We will develop a non-invasive imaging strategy that can potentially determine who will respond\nto these treatments early in the course of therapy to spare non-responders from physical and financial toxicity."
+ },
+ {
+  "id": "3bd592aa-c2ec-4e2e-901e-f99a77e24725",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Using Routine Care Electronic Medical Record Data and Artificial Intelligence to Develop a Passive Digital Marker to Predict Postoperative Delirium",
+  "text": "Patients with postoperative delirium are at higher risk for other surgical complications, prolonged hospital\nstays, cognitive decline, higher costs, and mortality. As nearly half of delirium cases can be prevented with\nmulticomponent interventions, identifying high risk patients preoperatively may offer an opportunity to improve\ntheir perioperative cognitive health. This project will develop and test a passive method for postoperative\ndelirium risk prediction using routine care electronic health data and artificial intelligence techniques."
+ },
+ {
+  "id": "3be13a76-0ee2-4db8-8a0b-8d7c82c6320a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular Mechanisms of Delta-2 Receptor Dysfunction in Neurological Diseases",
+  "text": "The delta-2 type ionotropic glutamate receptor (GluD2) is a ligand-gated ion channel that is central to the\ncerebellum’s ability to coordinate movement and motor learning. Mutations in GluD2 are linked to neurological\nand neurodevelopmental disorders such as cerebellar ataxia, autism spectrum disorder, and schizophrenia, but\nhow these mutations dysregulate GluD2 function is unknown. In this research, we will uncover the molecular\nmechanisms of how disease-linked mutations alter GluD2 structure and function to provide a framework for\ntherapeutic strategies targeting GluD2."
+ },
+ {
+  "id": "3be1a03f-3e83-4657-a7ae-7f06cc1d4f85",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular mechanisms underlying microbial modulation of host behavior",
+  "text": "This project investigates the mechanisms underlying microbial modulation of behavior. We will integrate\nsingle-cell transcriptomics, metabolomics, Drosophila genetics, and quantitative behavioral assays to reveal to\nwhat extent and how host genetics-microbiome interactions shape feeding behavior and food preferences. The\nresults will advance foundational knowledge of behavioral genetics and may yield molecular targets for\ndeveloping treatments to combat diseases caused by behavioral disorders."
+ },
+ {
+  "id": "3be31633-3e5d-4da5-a7ab-7d93534d7ae9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Clinical Pharmacology, Drug Action and Pharmacogenetics",
+  "text": "The goal of the Clinical Pharmacology and Therapeutics (CPT) Postdoctoral Training Program at UCSF is to train the next generation of clinical pharmacologist researchers so that they may pursue independently funded careers as academic investigators or clinical pharmacologists who can translate advances in biomedical research to the discovery, development, and use of pharmacological therapies to advance public health. We achieve this goal through a rigorous program structure of mentored research training accompanied by didactic coursework and participation in a biweekly seminar series. Throughout the course of the training program, trainees are exposed to a wide variety of research topics and interests leading to the development of a well-trained, highly-motivated, and forward-thinking group of clinical-scientist investigators who will serve as tomorrow’s leaders in clinical pharmacology research and practice in academia, the pharmaceutical and biotechnology industries, and regulatory agencies."
+ },
+ {
+  "id": "3be80ab0-c0a8-413a-b63d-f6bfe4836685",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Prefrontal-hypothalamic circuitry mediates chronic stress-induced cardiovascular susceptibility",
+  "text": "Cardiovascular disease is the worldwide leading cause of death and is frequently initiated or\nexacerbated by stress. Further, both chronic stress exposure and heightened physiological reactivity to acute\npsychological stress predict cardiovascular mortality. Our prior work found that the rodent infralimbic prefrontal\ncortex divergently regulates male and female stress responses and the goal of this proposal is to determine\nhow sex-specific function of infralimbic projections to the hypothalamus mediate stress-induced cardiovascular\nsusceptibility."
+ },
+ {
+  "id": "3be956da-5905-475c-9038-54957fb740d3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A new epitope-tagged estrogen receptor-beta mouse model to facilitate the study of estrogen receptor-beta in disease biology",
+  "text": "The proposed research is relevant to public health because fundamental aspects of estrogen signaling remain\npoorly understood due to limitations in the detection of a key estrogen receptor subtype, estrogen receptor beta.\nResearch supports beneficial estrogen signaling as a potential means to treat a wide array of diseases, but\nestrogen receptor beta-targeted therapies have not successfully completed clinical trials. An improved\nunderstanding of estrogen receptor beta biology could have a major impact on multiple diseases demonstrating\nimprovement following treatment with therapeutic estrogens."
+ },
+ {
+  "id": "3bf05a19-6878-4e67-bed2-7812e1c080d6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "UCLA IDDRC: Structural and Functional Visualization Core",
+  "text": "CORE E: STRUCTURAL AND FUNCTIONAL VISUALIZATION Samantha Butler, Core Director; Peyman Golshani, Core Co-Director; Neil Harris and Susan Bookheimer; MRI sub-core directors Abstract The Structural and Functional Visualization Core provides comprehensive imaging services to the members of UCLA Intellectual & Developmental Disabilities Research Center (IDDRC), working on any aspect of the genetic and environmentally-induced developmental diseases affecting nervous system development and function. The research ongoing in the UCLA IDDRC spans basic scientists using reductionist approaches to elucidate the mechanisms specific to intellectual developmental disabilities (IDDs) to clinicians assessing therapeutic interventions for patients. To accommodate all of their imaging requirements, we provide access to three light microscopy cores, including a microscopy suite dedicated to IDDRC researchers, human and animal MRI facilities and the technical support needed to initiate and complete any imaging analysis. The Structural and Functional Visualization Core also works to develop new technologies for visualizing biological samples and in turn provide them to IDDRC researchers. In this proposal, we are focused on [1] developing smaller lighter one-photon miniaturized fluorescent microscopes for live imaging neural activity in freely moving animals and [2] refining the methods for CLARITY and iDISCO, protocols that render tissue transparent thereby permitting unparalleled visual acuity into the complex circuitry of the brain. These techniques offer the promise of a holistic approach to imaging, permitting IDDRC researchers to translate mechanism into therapy. For example, researchers investigating a specific intellectual disorder will be able perform MRI on patients to identify the affected region of the brain, implant miniaturized microscopes in rodent models to perform Ca2+ imaging in vivo to examine how the firing patterns of specific populations of neuron are mechanistically altered by the disease, while concomitantly examining putative aberrant circuit formation using light microscopy coupled with CLARITY. Finally, this core also supports the efforts of all the other cores, offering IDDRC researchers the ability to both probe molecular and cellular function at any level from the sub- cellular to living animals and determine the consequence of therapeutic interventions."
+ },
+ {
+  "id": "3bfe29de-09f6-4b41-afac-a4f2febb5646",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Elucidating the Role of Multinuclearity in Healthy and Diseased Mammalian Cardiomyocytes",
+  "text": "The majority of muscle cells in the heart, unlike most other cells in the body, contain more than the standard\ntwo copies of DNA, with these extra copies frequently located within additional nuclei within the cell. Research\non this phenomenon has typically focused on its relevance to the low rate of cell division see in this type of cell\nand its implications for heart health, but exciting, recently published results suggest that the separate nuclei\nwithin these muscle cells may be combining together in a nuclear ‘code’ that informs the nature of the resulting\ncell and its resistance to stressors such as heart attacks. This Steven I. Katz proposal will result in the\nidentification of the elements of this code and its implications with regards to genetic variation and heart attack\nseverity using state-of-the-art experimental approaches and novel computational algorithms."
+ },
+ {
+  "id": "3c0d4f4b-310f-4dc0-bbda-1792f3417592",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Identifying the reservoirs of pathogenic bacteria in Illinois",
+  "text": "According to CDC, foodborne illnesses are a major public health concern, causing 48 million illnesses and\n3,000 deaths annually in the United States alone. By collec�ng and analyzing environmental samples—\nincluding water, sediment, soil, and soil components—this study aims to iden�fy and characterize major\npathogen hotspots, explore the microbial communi�es they inhabit, and assess the role of environment\nand humans in their dynamic growth, spread and diversity. The data collected in this project will improve\nour understanding of pathogens, their ecology and evolu�on, and help us prevent and mi�gate disease\noutbreaks."
+ },
+ {
+  "id": "3c0f18d6-a07b-4ba2-b30b-eb2808d7701b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Chronic Lung Allograft Dysfunction: Role for Tumor Suppressor LKB1 in Exosomes",
+  "text": "Based upon our novel findings that: 1) circulating exosomes released from lung transplant\nrecipients (LTxRs) diagnosed with BOS induces epithelial mesenchymal transition of airway\nepithelial cells in an LKB1 dependent manner; and 2) our observed significant down regulation\nof LKB1 in the biopsies from LTxRs with BOS and inverse correlation with PDGFRβ. We will\ndefine the mechanism by which tumor suppressor, LKB1, participates in the development of\nchronic lung allograft dysfunction by determining signals leading to PDGFRβ upregulation and\nmechanisms leading to down regulation of LKB1. Studies proposed will employ both clinical\nsamples from LTxRs and human airway epithelial cell culture models towards these goals."
+ },
+ {
+  "id": "3c0f97bb-bd69-444d-b9d8-01f5f217e368",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Adaptive imaging for pioneering multiplexed spatial profiling of tumors and tissues for cancer research and diagnosis",
+  "text": "Pathologists use stained tissue sections from biopsies and surgical resections to diagnose, stage, and manage\npatients with cancer; however, this approach is often insufficient to provide mechanistic insights into cancer\nbiology and personalized treatment for individual patients. The instruments and methods we propose to\ndevelop and commercialize will bring greater molecular detail to diagnostic workflows, advance fundamental\nunderstanding of cancer mechanisms, and enable more precise matching of cancer therapies to the needs of\nindividual patients."
+ }
+]

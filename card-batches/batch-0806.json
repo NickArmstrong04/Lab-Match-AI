@@ -1,0 +1,142 @@
+[
+ {
+  "id": "934d395a-4eaf-4f4f-a104-773255943ee1",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Role of lncRNA mediated R-loops in CTCF boundary function and AML genome organization",
+  "text": "The goal of this project is to understand the role of HOTTIP mediated aberrant R-loops in CTCF\nboundary function, leukemic TAD formation, and pathogenesis of AML. Our studies will unveil\nthe mechanisms by which HOTTIP lncRNA and CTCF boundary fine-tune WNT/β-catenin target\nTAD formation and transcription to modulate HSC behavior and leukemogenesis. Our project\nwill define novel function of R-loops in lncRNA mediated CTCF boundary activity and AML\ngenome organization."
+ },
+ {
+  "id": "9350150b-3668-4d03-910d-993ccd7d5c30",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Pharmacogenomic discovery of therapeutic targets for corrector-refractory cystic fibrosis",
+  "text": "Cystic fibrosis (CF) is a severe lung disease caused by loss-of-function mutations to the CFTR\nchloride ion channel. The aim of this proposal is to expand the number of people with CF who qualify\nfor drug therapies that restore CFTR activity in the cell. We will use genome-wide functional genomics\nscreens to identify drug targets that work through different mechanisms than the current FDA-\napproved corrector drug therapies and validate that modulating these targets rescue CFTR function in\npatient-derived airway epithelia."
+ },
+ {
+  "id": "936050e7-c70a-42b3-8301-0427140fc54a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms underlying the development, evolution, and function of human-specific cortical dopaminergic interneurons",
+  "text": "Dopamine is a brain neuromodulator that contributes to higher-order brain functions and is critically\ninvolved in a wide range of psychiatric disorders, most notably schizophrenia. This proposal will unravel\nthe physiology and function of a human-specific dopaminergic interneuron in the cerebral cortex along with\nan investigation of the evolutionary mechanisms that underlie these functions. The knowledge gained from\nthese experiments will impart a refined understanding of the human dopaminergic system, provide\npotential therapeutic targets for dopamine-associated psychopathologies, and better position researchers\nand clinicians to tackle the increasingly heavy burden of psychiatric illness."
+ },
+ {
+  "id": "9363689f-1c22-40b2-97d4-3a3dad9ecef6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of High-Resolution Ion Mobility and Tandem Mass Spectrometry Approaches for Advanced Metabolomic Characterization of Eukaryotic Pathogenic Systems",
+  "text": "Eukaryotic pathogens threaten public health in the US, accentuated by ease of dissemination, difficulty in diagnosis, and/or emergence of common drug resistance. Two concerning threats include Naegleria fowleri and Aspergillus fumigatus. N. fowleri, the “brain-eating amoeba”, is found in warm freshwater and can cause primary amebic meningoencephalitis (PAM). However, PAM progresses rapidly and diagnostic laboratory tests are not widely available, resulting in a >97% fatality rate. On the other hand, A. fumigatus is a respiratory fungus especially dangerous to those with weakened immune systems. Inadequate diagnostic procedures lead to empiric drug administration and the associated rise of resistance. In both cases, the metabolomic effects of infection and/or their treatment are still not well characterized due to the biological complexity of these systems; specifically, challenges in sensitivity/dynamic range, breadth of metabolite polarity, and isomeric heterogeneity complicate analyses and often prompt very narrowly focused studies (i.e., of a particular molecular subclass as opposed to the global metabolome). Nevertheless, elucidating the metabolomic determinants of these infections promises improved development of therapeutics. Advances in ionization sources, mass analyzers, and associated techniques like chromatographic separations and ion mobility (IM) spectrometry have led to acquisition of biological datasets that are richer in both qualitative and quantitative data. Our long-term goal is to develop advanced technologies for determining the global metabolomic underpinning of eukaryotic pathogenic infections and associated changes resulting from therapeutic drug treatments. Our objective here is to integrate multidimensional chromatographic separations, high-resolution ion mobility (HRIM), and mass spectrometry imaging (MSI) for metabolomic studies of amoebic (i.e., Naegleria fowleri) and respiratory fungal pathogens (i.e., Aspergillus). Our central hypothesis is that these hyphenated measurements will collectively expand our breadth/depth of analysis by advancing molecular identification, quantification, and spatial localization, therefore enabling critical biological insights that will ultimately lead to improvements in diagnosis and treatment. The objective of this proposal will involve pursuing the following two specific aims: 1. Identify metabolomic differences in pathogen-infected and drug-treated models relative to healthy controls using two-dimensional chromatography coupled to high-resolution ion mobility-mass spectrometry (HRIMMS). Our hypothesis is that this depth will provide more comprehensive identification of metabolomic signatures representative of infection and/or treatment. 2. Determine spatial localization of metabolomic biomarkers and drugs in biological tissue samples using matrix-assisted laser desorption/ionization (MALDI) imaging with high resolution tandem mass spectrometry (HRMS/MS) and targeted chemical probes. Our hypothesis is that spatial analysis will provide single cell-specific profiling to elucidate biological pathways and treatment effectiveness."
+ },
+ {
+  "id": "936a5b60-a33c-4794-b5f4-ebdd921d070b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A Genome Data Analysis Center Focused on Batch Effect Analysis and Data Integration",
+  "text": "* * * * NARRATIVE * * * *\nThe principal goals of the Genome Data Analysis Center (GDAC) proposed here are (i) to perform batch effects\nidentification, quantitation, diagnosis, and (when appropriate) correction, proactively and as requested by the\nNetwork; (ii) to contribute when useful to integrated cluster analysis, RPPA proteomic data analysis, and high-\nlevel interactive visualization of omic data (including single-cell sequencing data); (iii) to communicate results to\nother network members, project stakeholders, and the scientific community. The GDAC will primarily support\nprojects managed by the Center for Cancer Genomics (CCG), whose principal goal is better understanding of\nthe biology of cancer and mechanisms of resistance to therapy."
+ },
+ {
+  "id": "936aa09a-ed09-4eaa-8fcf-ade8de8c0d5d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cross-scale integration and modeling",
+  "text": "Cross-scale integration and modeling No current imaging technology can directly and without significant distortion visualize the defining three dimensional microscopic features of the human brain. Ex vivo histological techniques yield exquisite planar images, but the cutting, mounting and staining they require induce slice-specific distortions, introducing cross- slice differences that prohibit true 3D analysis. Clearing techniques such as CLARITY have proven difficult to apply to large blocks of human tissue and cause dramatic distortions as well. Thus, we have only a poor understanding of human brain structures that occur at a scale of 1-200μm, in which neurons are organized into functional cohorts. This impairs our ability to understand brain function, as the functional properties of any given cell are a function of both its molecular characteristics and the spatial context within which it resides. To date, mesoscopic features such as cortical laminar and columnar structures that are critical components of this spatial context, have only been quantified in studies of 2D histologic images acquired in a small number of subjects and/or over a small region of the brain, typically in the coronal orientation, implying that features that are oblique or orthogonal to the coronal plane are difficult to properly analyze. In TRD1 we aim to develop analysis tools to overcome many of these barriers and make micro- and mesoscopic information available in commonly used coordinate frameworks. In Aim 1 we seek to improve preprocessing pipelines for ex vivo Optical Coherence Tomography (OCT) and MRI, including measuring and removing mesoscale distortions and leveraging deep learning (DL) to remove noise and artifacts to improve the quality of the images, in collaboration with CP Akkin (OCT) and SP Tisdall (MRI). In Aim 2 we will develop the infrastructure to map micro- and mesoscale images to whole-brain coordinate systems, enabling the transfer of information from e.g. light-sheet microscopy to MRI. This will be accomplished through the development of a set of innovative algorithms – one that segments vascular trees in ex vivo images and one that incorporates segmentations into a generative model - allowing the automated creation of large training sets in novel imaging modalities without requiring manual labeling. This novel functionality will be of particular importance as it will open up the vessel segmentation to any imaging modality in which vessels are visible without the need for manual annotations in the target modality. The vascular segmentation will then serve as endogenous fiducial markers to guide cross-modal, cross-scale registration algorithms in collaboration with CP Gee. Finally, in Aim 3 we will use the higher-quality images from Aim 1 and the registration from Aim 2 to build models of mesoscopic structures such as cortical layers and develop cross-subject registration tools that optimally warp them into common coordinate systems, making them easily available to the larger neuroimaging community."
+ },
+ {
+  "id": "936b5e54-893b-46f8-9856-273472525f32",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Viral subversion of intercellular coupling during myocarditis",
+  "text": "Cardiovascular disease remains the leading cause of death in the United States, with myocarditis contributing\nto 42% of all sudden deaths in young adults annually, yet the relationship between viral infection and fatal\narrhythmias is unknown. Our research reveals that cardiac cellular junctional structures, essential for normal\nelectrical activity in the heart, are targeted during infection to facilitate viral replication and spread. This\nresearch will identify mechanisms underlying viral sudden cardiac death and mechanisms of arrhythmogenic\nion channel remodeling, and will reveal therapeutic targets applicable not just to myocarditis, but also to the\nbroad array of heart diseases involving deadly disruption of cardiac intercellular communication."
+ },
+ {
+  "id": "936d2c91-9ac2-4b25-859c-c2254288ca0c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Impact of mutational order on molecular mechanisms of oncogenesis",
+  "text": "It is now clear from large-scale sequencing of cancer genomes that mutational co-occurrence and the relative\ntiming of mutational acquisition follow non-random patterns, but limited studies have addressed the impact of\nmutational order and cooperation in oncogenesis. The proposed project harnesses a unique iPSC-based\nmodel of de novo oncogenesis developed in my laboratory to address fundamental principles underlying the\neffects of mutational order on leukemogenesis and oncogenesis in general."
+ },
+ {
+  "id": "936db571-178e-4614-9d0b-95f1ceb411f7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Genetic and Ancestral Determinants of Pathological and Molecular Tumor Immune Phenotypes in A Multi-Ethnic Population of Breast Cancer Patients:  An Evolutionary Perspective",
+  "text": "The goal of this project is to investigate the genetic and ancestral determinants of immune phenotype in breast \ntumors from women of different populations. The results will advance our understanding of the multifaceted \nunderlying mechanisms of cancer health disparities from a unique new perspective of ancestry and tumor \nimmunity and may inform clinical investigations of immunotherapy for patients of all backgrounds."
+ },
+ {
+  "id": "937028eb-3825-44b0-8bee-7aa72a48d912",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Improving Anaphylaxis Outcomes Through Personalized Care Strategies",
+  "text": "Pediatric emergency department visits for anaphylaxis have tripled during the past decade, with mandatory\nprolonged observation periods driving emergency department overcrowding and excessive healthcare costs.\nThere is a need for personalized clinical prediction models and the discovery of prognostic biomarkers to\nenhance patient risk stratification, optimize observation periods and prevent unnecessary hospitalizations. The\nresearch goals of this K23 award are consistent with the mission of NIAID, to better understand, treat, and\nultimately prevent allergic diseases, and will improve patient outcomes and optimize healthcare utilization."
+ },
+ {
+  "id": "9373e67c-f5dc-4da1-b505-95803c69703d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Reprogramming of myelopoiesis by DNMT3A mutation in lung cancer",
+  "text": "The presence of age-associated mutations in hematopoietic stem cells, which give rise to all immune cells, has\nbeen strongly associated with poorer outcomes in numerous chronic diseases including lung cancer. As the\nsecond most lethal malignancy worldwide, lung cancer evades and alters the immune system in countless\nways, leading to diminished tumor-clearing responses. This interdisciplinary proposal will examine how\nage-associated mutations in hematopoietic cells further impair immune cell responses to lung cancer, which\nwill help define blood-based biomarkers that predict resistance to cancer treatments and form the basis for\ntargeted therapeutics with greater response rates."
+ },
+ {
+  "id": "93813c01-9cdf-4928-b7fd-925528cca884",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Acquisition of a Spinning Disk Confocal Microscope",
+  "text": "The acquisition of the Spinning Disk Echo Confocal Microscope at Winthrop University will enhance basic\nbiomedical research, such as cancer therapy and vision research. It will modernize undergraduate and graduate\ntraining in Life Sciences through course work and experiential learning allowing our diverse next generation to\nexperience a piece of modern technology that drives biomedical advancements. Research and education across\nthree departments, nine research labs, and at least four classes will be impacted by the cutting-edge yet easy-\nto-use spinning disk technology of the Echo microscope."
+ },
+ {
+  "id": "93819c48-1c4b-441b-83c9-c9e097fca16e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Vagus nerve stimulation modulates synaptic plasticity in the rat prefrontal cortex during the extinction of drug-seeking",
+  "text": "Extinguishing the drug-cue associations that trigger craving and relapse is an important goal in the treatment of\nsubstance use disorders. The experiments in this project will use an animal model of cocaine-seeking to study\nmaladaptive changes in synaptic plasticity that drive drug-seeking and they will determine the mechanisms through\nwhich vagus nerve stimulation can reverse these neuronal adaptations to facilitate extinction and reduce relapse."
+ },
+ {
+  "id": "938f455f-04e9-4839-b48f-8bcf9a033915",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular and cellular characterization of congenital hydrocephalus",
+  "text": "The revised R01 proposal aims to establish a diverse cohort of primary congenital hydrocephalus (CH)\npatients, with a particular emphasis on non-European populations, to ensure broader applicability and\ninclusivity of our findings. Through the integration of genomics, phenomics, and neuroimaging data, we will\ncomprehensively characterize germline and somatic variants, explore temporal expression patterns of CH risk\ngenes across various cell types, enhance diagnostic precision, and unravel genotype-phenotype correlations.\nFurthermore, the development of the HYDRO-Seq Genome Browser, integrated with the WashU Epigenome\nBrowser, will streamline data analysis and enable seamless sharing of patient genetic and phenotypic\ninformation."
+ },
+ {
+  "id": "93983387-9253-4ec6-b167-33001a8ff901",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Pangenome-Aware Methods for Accurate Somatic Variant Discovery in Cancer Genomics",
+  "text": "This project will create and apply new pangenome-aware methods for detecting somatic variation, improving\naccuracy by reducing reference bias and better handling complex genomic regions. To enable this work and\nsupport the broader research community, we will generate comprehensive sequencing data across multiple\ntechnologies for multiple tumor-normal cell line pairs and create benchmark variant sets validated by\nindependent technologies, making all data openly available without access restrictions. The resulting tools -\nwhich will be capable of handling both long and short reads, tumor-normal and tumor-only samples - will be\napplied to create standardized variant call sets for major somatic variant projects including SMaHT and CARD."
+ },
+ {
+  "id": "939ae335-f050-48b1-920c-542156e3c30f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Decoding the modified small RNAs that drive TLR7/8-mediated neuroinflammation in Alzheimer’s disease",
+  "text": "Alzheimer’s disease is a devastating brain disorder that causes memory loss and cognitive decline. This project\ninvestigates how certain dysregulated small RNAs and their modifications activate immune receptors called toll-\nlike receptors, exacerbating chronic inflammation that worsens Alzheimer’s disease. By identifying and targeting\nthese RNA molecules and their chemical modifications, we aim to develop new strategies to slow or prevent this\nillness."
+ },
+ {
+  "id": "939bccb7-7b30-49c8-8515-4419199c5782",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Virology Core Laboratory (VCL)",
+  "text": "The Virology Core Laboratory (VCL) is one of four centralized Core laboratories supporting the mission of NIAID Division of AIDS (DAIDS) to perform assays for comprehensively evaluating the immunogenicity and efficacy of candidate AIDS vaccines in nonhuman primate (NHP) studies conducted by Simian Vaccine Evaluation Units (SVEU). Thus, the primary objective of the VCL is to provide support for activities to conduct, develop, acquire, improve, implement, validate, and analyze (data from) assays to detect, characterize, and quantify nucleic acid levels in samples from in vivo or in vitro studies investigating SIV, simian-(SHIV), HIV, and/or other infectious agents. In addition, the contract shall acquire and/or produce reagents, including viral stocks, for contract use and for distribution."
+ },
+ {
+  "id": "939c0e3d-a8d3-4f3b-89f8-6fb0e268fb67",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Metamaterials Implants for Magnetic Resonance Imaging",
+  "text": "The proposed research aims at designing, developing, and testing novel NiTi-based on MRI-\ncompatible metamaterial technology of a depth and an ECoG electrode set for Neuropace. The\ndevelopment of such novel technology could result in significant benefits to patients that suffer from\nsome medically refractory pathological conditions such as Parkinson’s disease, epilepsy, and stroke."
+ },
+ {
+  "id": "939d68e5-7055-4f49-a4cc-b431d017811b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Nanoformulated small molecule immunotherapy for SHH medulloblastoma",
+  "text": "This project focuses on improving treatment of a pediatric brain cancer, medulloblastoma, that despite aggressive treatments\nkills 30% of the children from recurrent disease and often leaves the survivors with severe and lifelong treatment-associated\ncognitive and motor deficits and at risk of subsequent neoplasms. We will use small-molecule toll-like receptor 7 and 8\nagonist, resiquimod, packaged in innovative nanoparticles to deliver resiquimod to the tumor, remodel tumor\nmicroenvironment and promote antitumor immune response. This project will determine mechanisms of immunotherapy\nusing our novel therapeutic modality and asses its potential in combination with antineoplastic agents to improve treatment\noutcomes in medulloblastoma."
+ },
+ {
+  "id": "93a240b6-8ff1-479c-b178-047faee14604",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Real-time and randomized tests of social media and mental health interplay in early adolescence",
+  "text": "Adolescent mental health has worsened in recent years and increased time spent on social media is cited as a\ncontributing factor. This study provides a prospective, high-resolution, multi-informant, and experimental test of\nbi-directional influences between young adolescents’ social media use and mental health symptoms. In doing\nso, the research is positioned to advance science, support adolescents, and respond to calls from policymakers,\nresearchers, educators, and parents to better understand how social media engagement can impact\nadolescents’ mental health."
+ }
+]

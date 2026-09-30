@@ -1,0 +1,142 @@
+[
+ {
+  "id": "355e8697-257e-4881-b6e3-542fb54b57a8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Immune Cell Interactions in Atherosclerosis",
+  "text": "Overall Narrative\nCardiovascular disease remains a leading cause of death world-wide. Immune cells (B cells, T cells,\nmonocytes, and macrophages) are key protective cells in blood vessels. But, unfortunately, these cells\ncan functionally change to increase cardiovascular disease. The goal of our Program is to understand\nhow and why these changes occur in order to prevent them so that the immune cells continue to function\nin a protective manner. We will tackle these goals by studying human subjects with low and high CAD\nrisk in three clinical cohorts, and in well-defined mouse models of atherosclerosis. The end goal of our\nstudies is to identify safe new therapeutic strategies targeting immune cell function to limit cardiovascular\ndisease."
+ },
+ {
+  "id": "3566b69e-9fbb-42a1-8144-e0fa73500006",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Endothelial Cell-Specific CSE Transgenic (EC-CSE Tg) Mice",
+  "text": "The overall goal of this Phase 2 COBRE is to facilitate the growth of young intellectual talent and strengthen and enhance the scientific infrastructure that will promote biomedical research discoveries that will enhance our understanding of the metabolic aspects of different diseases. Specifically, we have identified three research project leaders (RPLs) with scientific interests in different, but complementary aspects of disease research. Each Research Project focuses on the metabolic aspect of a disease (HFpEF/heart failure with preserved ejection fractions, HCC/hepatocellular carcinoma, and undernutrition and iron metabolism). Despite the breadth in tissues and metabolic diseases of interest, each project strongly fits into Pennington Biomedical’s general mission, to discover the triggers of chronic diseases through innovative research that improves human health across the lifespan. Within this Metabolic Basis of Disease (MBD) COBRE proposal, we established two scientific cores in Phase 1. The Preclinical Research Core brings together strengths from our Comparative Biology Core, Animal Models and Behavior Core, and Genetically Engineered Models Core. The Molecular Mechanisms core integrates aspects of our Genomic Cores and Cell Biology Bioimaging Core and provides mentoring and technical support for the RPLs and PBRC faculty. In Phase 2, this core will have a stronger emphasis on bioinformatics and new leadership. We will also establish a new Pilot and Feasibility Program to identify new RPLs and promote metabolic basis of disease research."
+ },
+ {
+  "id": "356743bd-f2b0-45aa-96ac-5535c5e07de5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "High throughput screening to generate and investigate cancer driver mutations in hepatocellular carcinoma.",
+  "text": "The genetics of cancer impact cell growth as well as tumor formation, progression, and response to treatment.\nThis proposal aims to use gene editing to install common genetic alterations found in primary liver cancer into\nhuman liver cells and mice, and characterize their effects at the cellular level and in tumors. This work will\nimprove our understanding of how certain genetic alterations lead to liver cancer, helping to inform diagnosis,\nprognosis, and treatment."
+ },
+ {
+  "id": "356a1868-9e33-4dcd-b14c-5d3077c1d879",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Refinement of Brain Mechanisms Underlying the Developmental Stabilization from Adolescent to Adult Neurocognitive Processing",
+  "text": "Understanding changes in the brain that occur during the transition from adolescence to adulthood is critical for\ninforming how major mental illness such as schizophrenia, mood disorders, substance use disorders, and others\nemerge at this time. Past studies, primarily in animals and in postmortem human brains, indicate a normative\ndecrease of neural connections that is critical for refining brain communication and determining adult trajectories.\nWe propose to use state of the art brain imaging and genetic approaches to delineate how the brain refines from\nadolescence to adulthood to support maturation of cognition, a critical first step for discerning what goes awry in\npsychopathology."
+ },
+ {
+  "id": "35718e82-728c-4eec-b818-ed9522f385be",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The LS2 initiative: an open-source light-sheet microscope for imaging across scales",
+  "text": "Microscopic examination of cells, organs, and entire organisms is the gold standard for probing the mechanisms\nthat underly diseases states and the response of diseased cells and tissues to treatments. Our recently re-\nengineered and optimized large-scale light-sheet (LS2) microscopy system enables us to examine these\nspecimens with unprecedented scale and detail, capabilities which would be transformative for many\ninvestigators and institutions. This project will expedite dissemination and establish a foundation for future\ninnovations in large-scale imaging based on the LS2 system."
+ },
+ {
+  "id": "3571c096-df1f-44e2-98fa-65f93433405b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Interplay of CDH17 CAR T cells and tumor microenvironment in suppressing colorectal cancer",
+  "text": "CAR T-cell therapy has shown remarkable success in treating leukemia but faces significant challenges in\ntreating solid tumors such as colorectal cancer (CRC) partly due to the immunosuppressive tumor\nmicroenvironment (TME). Oncolytic viruses can lyse tumor cells and activate immune responses but are limited\nby inefficient delivery into the tumor site. This proposal integrates enhanced CDH17CAR T cells with oncolytic\nvirus tethering to overcome these barriers, offering a transformative strategy to enhance immune responses and\nadvance solid tumor immunotherapy."
+ },
+ {
+  "id": "3579700e-6528-46f9-8645-8601c17e614c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Regulation of age-related chronic inflammation in cancer immunity",
+  "text": "A condition known as “inflammaging” refers to a chronic, sterile low-grade inflammatory state characterized by\nelevated circulating pro-inflammatory cytokines, and plays key roles in many age-related diseases, including\ncancer. This proposal aims to investigate the determinants of age-related chronic inflammation,\nimmunosuppression in the tumor microenvironment, and cancer progression and metastasis using pre-clinical\nmodels and human samples. This project is expected to advance our knowledge of the causes and\nmechanisms underlying the age-related chronic inflammation, and make significant contributions to cancer\ntreatment."
+ },
+ {
+  "id": "357e6464-49a8-40ce-9c88-fa70b324bd72",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Global studies into the Genetic Architecture of the Brain's White Matter Network through Harmonized and Coordinated Analyses in the ENIGMA-Consortium",
+  "text": "White matter circuitry is the basis for neuronal communication in the human brain and has been found to be\nabnormal in all major psychiatric, neurological, and developmental conditions. Our proposed work significantly\nextends the worldwide ENIGMA (Enhancing NeuroImaging Genetics through Meta Analysis) consortium by\nmapping novel white matter circuitry biomarkers and the variability that drives underlying risk for mental illness.\nWe will coordinate global genome-wide investigations into the genomic architecture of white matter structural\nand microstructural metrics in over 100,000 individuals of all ages in a discovery/replication framework and\nfurther, construct and disseminate an integrated ENIGMA DSI Studio pipeline offering coordinated, high-\nthroughput, tractography and fiber analytic methods to identify structural dysconnectivity in ENIGMA working\ngroups on severe mental illnesses."
+ },
+ {
+  "id": "35812f42-301b-47d5-abc0-4906cc41346e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Harnessing Deep Learning Methods for Drug Discovery for Atrial Fibrillation",
+  "text": "Atrial fibrillation (AF) represents one of the most common arrhythmias seen clinically and is associated with\na significant increase in morbidity and mortality. The current study proposes to harness deep-learning methods\nfor the de novo design of mini-proteins targeting the cardiac small conductance Ca2+-activated K+ channel, for\nrapid translation for AF treatment."
+ },
+ {
+  "id": "35836681-04a6-49d3-a85d-3943e76996a8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Angiography-derived Imaging Biomarkers of the Coronary Microcirculation",
+  "text": "The microcirculation plays a critical role in organ homeostasis and disease pathogenesis, yet developing\nquantitative methods to assess organ-specific microcirculation remains an ongoing challenge. Our proposal\nestablishes methods to identify and validate measures of the coronary microcirculation from clinical coronary\nangiography cine imaging data (2-dimensional x time imaging). This project is therefore relevant to the NIH's\nmission to address an unmet need by developing novel imaging methods to improve the diagnosis of\nmicrovascular diseases and accelerate research into this crucial and understudied area."
+ },
+ {
+  "id": "3584eb15-b903-4b72-b9b8-dd7254ad010e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project 1 The epidemiology of complex malaria in Southeast Asia",
+  "text": "Project 1: Abstract The epidemiology of complex malaria in Southeast Asia Malaria is a significant health concern in Southeast Asia. The main parasites in this region are Plasmodium vivax and Plasmodium falciparum. At present, Southeast Asian countries are working to eliminate malaria; however, its epidemiology is rapidly changing, creating new obstacles. The current challenges include a shift from P. falciparum to P. vivax in many countries, the large social and ecological diversity of the remaining endemic areas, the change in land use that alters the disease transmission ecology, and a rapid increase in zoonotic cases due to P. knowlesi. To address these challenges, our study has four main objectives: 1. To understand the epidemiology of malaria in Southeast Asia by monitoring and understanding transmission dynamics, risk factors, and parasite genetics; 2. To identify seromarkers for P. knowlesi infection, enabling cost-effective serosurveys to track P. knowlesi transmission; 3. To identify new parasite antigens to improve point-of-care diagnosis, including rapid diagnostic tests for panmalaria detection and P. knowlesi-specific detection; 4. To understand the parasitological factors that underly severe P. knowlesi malaria by examining parasite genes associated with virulence and in vitro phenotypes; The study will improve our understanding of the disease and the complexity of its transmission in Southeast Asia, provide better tools for point-of-care diagnosis and community surveillance, and elicit information-rich datasets to inform malaria-elimination strategies in Southeast Asia. The ICEMR activities will strengthen international collaboration, accelerate the exchange of scientific knowledge and technologies, and support the development of more effective malaria prevention and elimination strategies worldwide. The program will also promote partnerships and scientific exchange that may help U.S. biotechnology and pharmaceutical companies advance new tools for the diagnosis, prevention, and treatment of infectious diseases. These collaborations will stimulate innovation, expand commercial opportunities, and contribute to economic growth in the U.S. and around the world."
+ },
+ {
+  "id": "3587db84-bde1-41e4-8cf6-04835a430bdf",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Sensory Development in Human Cochlear Organoids",
+  "text": "Profound hearing loss is one of the most common sensory disabilities, and caused primarily by loss of sound-\nsensing cells, called hair cells, in the cochlea. The primary goal of this study is to develop human dish-grown,\nthree-dimensional cochlear-like tissues, so called “human cochlear organoids”, which mimic the structure and\nfunction of native human cochleae. These 3D organ replicas will be used to develop and test new hearing\nrestoration therapies."
+ },
+ {
+  "id": "35910e92-7b72-45d2-9a76-468f007de2d4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Blacklegged tick exposure and management among understudied rural human populations",
+  "text": "Residents of rural areas are disproportionately affect by tick-borne disease in the United States; however, most\nLyme disease research historically has taken place in suburban settings, and many of our assumptions about\nwhere people are likely to encounter ticks and the most viable practices to reduce tick bite exposure risk may\nbe challenged in rural communities due to a combination of ecological, behavioral, and economic\nconsiderations. This project will investigate the environmental and social conditions contributing to tick\nexposure and willingness to adopt tick management strategies in a rural, high-Lyme disease incidence state.\nOur undergraduate student team will investigate how three key factors (density of ticks in the environment, how\npeople interact with the outdoors, and willingness to pay for tick control) vary among suburban and rural\npopulations, ultimately illuminating environmental and behavioral drivers of Lyme disease exposure and\nsuggesting viable avenues for tick management in rural communities."
+ },
+ {
+  "id": "35943462-49fa-4e0e-91f7-a156b1641f44",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "CSHL Cancer Center Support Grant",
+  "text": "OVERALL – NARRATIVE\nThe mission of the Cold Spring Harbor Laboratory Cancer Center is to unravel the fundamental mechanisms\nthat govern the biology of cancer through collaborative research and technology development while training\nexceptional cancer scientists to become future leaders in the field. The Cancer Center achieves this by promoting\ncollaborative interactions that help researchers make key discoveries about how cancers initiate, progress, and\nevade therapies. Through partnerships with hospitals and clinical sites, Cancer Center members are translating\ntheir findings into clinical applications that will improve the diagnosis, treatment, and prevention of cancer."
+ },
+ {
+  "id": "35958498-38fd-4930-a00b-1bdb9c93d171",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating the roles of the H3K4 methyltransferases KMT2C and KMT2D in chondrocyte differentiation and endochondral ossification",
+  "text": "Chondrocyte differentiation is a crucial process during craniofacial development and bone\nformation. This project will interrogate two histone-modifying enzymes, KMT2C and KMT2D, in\nthis differentiation process to elucidate the mechanism underlying facial dysmorphology\ncharacteristic of various craniofacial development disorders. The results of this study will have\nsignificant implications for the understanding and treatment of craniofacial and skeletal disease\nin the context of DNA accessibility."
+ },
+ {
+  "id": "359891b0-feb8-4eda-a844-ed7bf005e0a5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Combining Molecular Simulations and Biophysical Methods to Characterize Conformational Dynamics of the HIV-1 Envelope Glycoprotein",
+  "text": "This application brings a unique combination of biophysical tools and molecular simulations together to study\nthe HIV-1 envelope glycoprotein spike (Env), a complex molecular machine that mediates viral entry while\nevading the immune system. Our project will provide an unprecedented level of detail into Env conformational\ndynamics, enabling improved design of new antiviral entry inhibitors and stable immunogens needed for\nvaccine development."
+ },
+ {
+  "id": "359d1831-bac9-46b5-8d8f-0a9d5c575a34",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Bioinformatics and Data Management Core",
+  "text": "BIOINFORMATICS AND DATA MANAGEMENT (BDMC) CORE Creating and establishing the translational relevance of mouse models of late-onset Alzheimer’s disease requires a centralized data management and analysis platform interacting with all Center components. To this end, the Bioinformatics and Data Management Core (BDMC) will: combine human and mouse data to predict combinations of genetic factors in polygenic models of LOAD; jointly analyze multi-omics, biomarker, and imaging data to characterize new mouse models of LOAD; systematically align multimodal mouse data to analogous human study data to determine the precise disease relevance of each mouse models; identify mouse models with alterations in pathways targeted by precision therapeutics for preclinical testing; expand, maintain, and further populate a data-sharing platform for broad and FAIR access of all data and protocols. This core will address this goal through the following aims: (1) Iteratively analyze human and mouse data to prioritize multi- factorial mouse models of LOAD; (2) Determine translational relevance of mouse models through alignment with human LOAD and identification of therapeutically-relevant alterations; (3) Enable open science practices for all Center mouse models through data dissemination and an interactive web platform. The BDMC will build upon existing resources such as the AD Knowledge Portal, the MODEL-AD Explorer, the Agora platform, Alz-PED, and the workflows from existing NIA-funded consortia, including AMP-AD, TREAT-AD, MODEL-AD, MOVE-AD, and Resilience-AD. We will add the outcomes of this mouse-centered project to this foundation to optimize translational relevance and responsible data reuse. Internal and external researchers will be positioned to efficiently and reliably assess the disease relevance of mouse models. Finally, the broader research community will be empowered to use responsibly use mouse models to understand and guide their research into therapeutics for Alzheimer’s disease."
+ },
+ {
+  "id": "35a04874-d7cb-46a6-a32c-d3e314d8beb3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Biophysical and genetic approaches to uncover ventral disc contractile attachment mechanisms in Giardia",
+  "text": "Giardia is a common single-celled intestinal parasite causing diarrheal disease in human\nand animals. Parasite colonization begins when Giardia cells attach to the intestinal wall\nusing a specialized suction cup-like structure known as the ventral disc. This research\nfocuses on determining the mechanisms of disc contraction that are required for parasite\nattachment to the host gut, with the ultimate goal of developing therapies to restrict\nGiardia attachment and reduce infection."
+ },
+ {
+  "id": "35a4c06f-59ef-4e72-b214-711020ed40f9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting the HIF-2 Signaling Pathway as a Radioprotective Strategy for Bone",
+  "text": "Approximately 50% of all cancer patients will receive radiation therapy during the course of their illness;\nunfortunately, bone is often in the direct path of exposure during treatment. As disease free survival continues\nto improve, bone damage from radiation which includes increased risk for fracture has become a prominent\nclinical issue. In this proposal we seek to aid patients by identifying unique molecular mechanisms and\npharmacological agents which can be used to protect bone after exposure to radiation."
+ },
+ {
+  "id": "35a4dea5-a830-42d8-97d7-a3bf9882ad09",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "PROJECT 4: Somatic evolution of the hematopoietic system in cardiovascular disease",
+  "text": "Cardiovascular disease (CVD) has recently been shown to associate with clonal expansions in the blood (clonal hematopoiesis, CH). These clonal expansions often carry mutations in characteristic driver genes and are thought to be causally linked to CVD progression. Therapeutic approaches targeting mutant blood cells are therefore in development. However, the causal link between CVD and CH remains incompletely understood. This application proposes to tackle the next set of crucial unsolved questions in this area. In Specific Aim 1, we will clarify the relationship between CVD and leukemogenic driver-free CH. All studies that so far observed an association with CVD have defined CH as clonal expansions carrying specific leukemogenic driver (LD) genes. This approach misses the bulk of positive selection in the blood, as most clonal expansions occur in the absence of LD mutations. It is currently unclear if the CVD-CH association is specific to CH that harbors (potentially pro- inflammatory) LD mutations. Currently, progress in this area is limited by a lack of methods for sensitive and scalable detection of LD-free CH. In Specific Aim 1A, we will make a decisive step toward facilitating the diagnosis of LD-free CH. We will adapt a novel microsatellite sequencing technology developed by our lab to enable ultra-sensitive detection of all (LD-free and LD-bearing) clonal expansions in the blood. We will then use this assay in combination with deep targeted sequencing to determine whether LD-free CH is associated with CVD in 100 patients and 100 age-matched controls. In Specific Aim 1B, we will determine whether LD-free CH associates with CVD to the same degree as LD-bearing CH in large-scale publicly available blood whole genome sequencing data. In Specific Aim 2, we will study the disease-specific selective pressures that CVD exerts on the hematopoietic system. Seminal genomics studies in illnesses such as chronic liver disease and inflammatory bowel disease have shown that pathological conditions exert disease-specific evolutionary pressures on tissues, resulting in the emergence of genetic variants that are not selected for during normal tissue evolution. In Specific Aim 2A, we will use the publicly available data sets that we also leverage in Aim 1B to search for genes that are under selective pressure specifically in CVD patients. To do so, we will calculate ratios of nonsynonymous to synonymous substitutions (dN/dS) across all protein-coding genes in the genomes of CVD patients and controls and search for genes that are under CVD-specific selective pressure. In Specific Aim 2B, we will use an in vivo screening platform to validate potential novel driver genes emerging from Aim 2A and study the effects of different CVD forms on known CH drivers. We will use custom CRISPR libraries to perform in vivo screens in the hematopoietic system of mice with atherosclerosis, hypertension, and myocardial infarction and ascertain whether distinct kinds of CVD select for different mutation patterns. Together, these experiments will provide a detailed portrait of the evolutionary pressures that shape the hematopoietic system in CVD."
+ }
+]

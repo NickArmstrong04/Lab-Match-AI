@@ -1,0 +1,142 @@
+[
+ {
+  "id": "eabdd1cb-4abf-4993-b6c4-2fcc6e95b44b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Advancing Success & Developmental Outcomes in Autism Spectrum Disorder through Analysis of Secondary Data (ASD3 Outcomes Project)",
+  "text": "Autistic children experience some of the lowest health care quality and highest unmet needs of any pediatric chronic condition. Additionally, disparities persist in service use and life course outcomes among autistic people. These problems exist because (1) we have not adequately assessed which outcomes are most essential for autistic children and their caregivers, and (2) few large-scale studies have assessed which individual and family factors, service use factors, and local/state environmental features are associated with optimal and suboptimal health outcomes. The proposed project, Advancing Success and Developmental Outcomes in Autism Spectrum Disorder through the Analysis of Secondary Data (ASD3 Outcomes), will fill these evidence gaps by linking multiple large, population-based data sets providing rich information on various factors driving health outcomes for autistic children. By the end of this project, we will have generated actionable evidence to guide national and state-level strategies for improving health outcomes for autistic children ages 1–17 years. Leveraging cutting-edge data science methodologies including multi-source data harmonization and deep learning, this initiative will identify the most salient predictors of optimal and suboptimal outcomes among children and youth, examine geographic and demographic disparities in these outcomes, inform system-level interventions, and advance evidence-based policy change to improve health for autistic individuals. First, we will assemble a community advisory panel of autistic youth and adults, parents and caregivers, and health and educational providers, and a technical advisory panel of autism and data science researchers. We will use the panelists’ expertise to identify key health and educational outcomes that can be measured in Medicaid claims data in all 50 states, the National Survey of Children’s Health (NSCH) in all 50 states, and/or Early Intervention state data (HI, IN, MN, OR, VT). Next, we will use the NSCH to create state-level, age-specific Autism Quality Indices that measure factors driving health outcomes for autistic children at different developmental stages. We will apply these indices, along with child-level demographic markers, neighborhood measures (using the Child Opportunity Index 3.0), and other state health and education systems variables, to model key outcomes in Medicaid Claims and State Early Intervention data, through interpretable machine and deep learning models. Finally, we will translate evidence into action by harnessing the collective expertise of our community and technical advisory panels to develop recommendations based on the community-engaged and data- driven findings generated. These efforts will produce actionable insights to guide policy, programs, and practice that optimize health outcomes for autistic children and their families nationwide. We will disseminate this work broadly."
+ },
+ {
+  "id": "eacc8e39-4424-471f-87d7-209020d81e85",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Interdisciplinary Training in the Chemical Senses",
+  "text": "The Monell Chemical Senses Center is a multidisciplinary research institute devoted to improving health and\nwell-being by advancing the scientific understanding of taste, smell, and related senses. Monell’s Postdoctoral\nTraining Program provides interdisciplinary training for postdocs coming from a range of scientific disciplines,\nand we have trained 12 scientists under our T32 Institutional NRSA during the preceding funding period (4 of\nwhom are still in training and 8 of whom have obtained individual postdoctoral funding or finished their training\nand taken on positions in the biomedical research workforce). We provide the tools for young scientists to gain\nindependence—a high-yield scientific environment, committed faculty, and coursework in a range of\nbiomedical research areas, including the responsible conduct of research—and we have adapted training to\nconduct science safely during the current pandemic."
+ },
+ {
+  "id": "ead47094-a61e-4f3b-9852-8327b400f4e6",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Systematic discovery of metabolic transporter functions",
+  "text": "Metabolic transporters play a critical role in maintaining cellular and organismal homeostasis, and their\ndysfunction underlies a wide range of disorders. However, the functions of many of these transporters remain\nelusive, partly due to limitations in current methods for identifying their substrates. This proposal aims to uncover\nthe functions of metabolic transporters and dissect their roles in renal physiology and disease by leveraging a\ncombination of advanced computational and experimental methods."
+ },
+ {
+  "id": "eadb81c2-0c16-4838-a1ad-72af5add6c0f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Tissue engineering tools for monitoring the cellular and molecular response to therapy",
+  "text": "Approval was recently obtained for the treatment of triple negative breast cancer with neo-\nadjuvant therapy, and adjuvant immunotherapy. Some patients may be overtreated, and others\nmay develop resistance to therapy that is undetected until disease progression. We are applying\ntissue engineering technologies to develop a niche for the monitoring the systemic effects of\nresidual disease as reflected by the presence of immune and/or tumor cells, which we apply to\nreduce undertreatment and identify resistance to therapy at early times."
+ },
+ {
+  "id": "eadcbe05-f233-4d2a-9548-45a8988a2a41",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Kilohertz 3D voltage imaging using near-infrared confocal squeezed light field microscopy",
+  "text": "We propose to develop a NIR confocal squeezed light field microscopy method for high-\nspeed 3D imaging of neuronal action potentials in deep tissues. The resultant system will be the first optical\nimaging modality that can record dynamic 3D neuronal activity at a kilohertz volumetric frame rate."
+ },
+ {
+  "id": "eae64b4b-aa03-4a31-9951-804b2e6e232e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project 1 Mouse Models Analysis",
+  "text": "SUMMARY/ABSTRACT: PROJECT 1 Lymph node (LN) metastasis precedes further dissemination for most solid malignancies and confers a stage III diagnosis. Nonetheless, the mechanistic role of LN metastasis in further disease progression is poorly understood. We discovered in mice that in colonizing LNs, tumor cells activate transcriptional programs that enable their induction of tumor-specific immune tolerance through interactions with LN leukocytes. These leukocytes subsequently recirculate throughout the host, resulting in systemic immune tolerance facilitating metastatic seeding of distant sites. Importantly, we found the same conserved transcriptional signature in LN metastases in humans, suggesting that the mechanisms driving LN metastasis and immune tolerance in our mouse model are pertinent to human cancers. We hypothesize that local interactions between tumor cells, leukocytes, and stroma within LNs before, during, and following LN colonization alter distant tissues to promote disease progression. We expect these interactions to involve homotypic and heterotypic cell-cell interactions, orchestration of architectural changes within LNs, tumors, and distant sites, and trafficking of various populations throughout the host. We will use syngeneic mouse models to identify the mechanisms by which these interactions facilitate disease progression through the following approaches. 1: Determine the kinetics by which tumors generate systemic immune tolerance. Using a high-dimensional imaging platform (CODEX), we will uncover longitudinal changes in local microenvironments across the host. 2: Interrogate the nature of heterotypic cell-cell interactions within LNs and the mechanisms by which these interactions facilitate immune evasion and induction of immune tolerance. We will use scRNA-seq to identify transcriptional changes in immune and stromal populations interacting with malignant cells within LNs. Using spatial transcriptomics, we will determine how the gene expression patterns of cells interacting with malignant cells differ from those at a distance. To confirm the functional significance of these targets identified and those identified in Project 2, we will combine CRISPR- mediated gene editing of LN metastatic tumors, along with cell depletion studies and knockout mice or inducible mouse models. 3: Determine how trafficking of immune cells from tumor-involved LNs establish a pro-metastatic microenvironment at distant sites. We will employ a novel cell labeling platform to evaluate trafficking of leukocytes and stromal cells from tumor-involved LNs to distant sites and back to the primary tumor. These studies will reveal the mechanisms whereby LN metastases promote tumor spread to distant sites and identify novel targets for the prevention and treatment of metastatic disease."
+ },
+ {
+  "id": "eae6fe3c-48c3-48d7-b4a7-6b40049eb569",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Microsystems-Based Imaging Systems",
+  "text": "A Center will be established at the University of Michigan as a national resource to develop miniature\nsilicon-based devices to perform scanning, actuation, and sensing in flexible, fiber coupled instruments for live\nimaging in a broad range of biomedical research applications."
+ },
+ {
+  "id": "eaf082de-745b-4a74-a8ee-d405619521ad",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Neuroimaging of Instrumental Learning Networks in Adolescent Cannabis Use Treatment",
+  "text": "Adolescent cannabis use disorder (CUD) has a high economic, social, and health cost that impacts\nmany Americans. This project will use cutting-edge machine learning techniques to investigate the\nrole of neural instrumental learning systems in cannabis using adolescents and whether integrity of\ninstrumental learning systems predicts success during contingency management treatment. The\nimmediate goal of this project is to identify reproducible markers of CUD symptom levels and\npredictors of contingency management success, with the long-term goal of conducting mechanistic\nclinical trials aimed at testing neurobiological predictors of individual differences in treatment\nsuccess."
+ },
+ {
+  "id": "eafba149-cf35-4308-81ea-bc9891acfcd0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Bicuspid Aortic Valve Biomechanics and Calcification",
+  "text": "The proposed study is relevant to public health as it examines the mechanistic-basis of\ncalcific aortic stenosis; a prevalent disease observed in up to 35% of the population,\nincluding children suffering the congenital aortic valve malformation, Bicuspid Aortic\nValve disease. The planned research has the potential to improve patient outcome by\nunderstanding the contributions to disease pathogenesis that can be used to improve\nearly diagnosis and better predict those at risk."
+ },
+ {
+  "id": "eafde2e8-0737-4aa7-828b-4ce6a458311d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Federated learning algorithms to overcome statistical and algorithmic bias and privacy concerns in machine learning for health",
+  "text": "Federated learning is a technique that allows researchers to build common machine learning models without\nsharing data. However, current implementations present challenges related to bias, data heterogeneity,\ndata privacy, and interoperability among institutions. We propose new mathematical and algorithmic\napproaches to make federated learning a practical reality in biomedical research by developing domain-\nspecific add-on algorithms that leverage techniques such as optimal transport and secure multiparty\ncomputation to overcome statistical and algorithmic bias and privacy concerns."
+ },
+ {
+  "id": "eb030367-c078-4537-ac15-e0af8dea96ff",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Condensates Biophysics",
+  "text": "Fusion oncoproteins (FOs) are observed in ~17% of all cancers and are commonly oncogenic drivers in pediatric\ncancers, including those with poor prognosis. We discovered that some FOs promote oncogenesis by forming\naberrant biomolecular condensates, and here we test the generality of this mechanism for FOs associated with\ndiverse, high-risk pediatric cancers."
+ },
+ {
+  "id": "eb052c2d-7d80-4de2-8fbd-912da300aa88",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targetable epigenetic modifiers that promote neuroblastoma malignancy and plasticity",
+  "text": "Projective Narrative\nThis project is to rigorously determine the mechanisms by which epigenetic modifiers wire MYC oncoproteins\nwith core regulatory circuitry in high-risk neuroblastoma and cellular plasticity of neuroblastoma, and develop\nmore effective therapies by targeting epigenetic modifiers in combination with standard of care."
+ },
+ {
+  "id": "eb07d04f-4fec-474e-84c3-09e2877b40fa",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Contribution of germline copy number variations to the susceptibility of aggressive prostate cancer in men of African and European ancestry",
+  "text": "The primary goal of this study is to identify germline copy number variants (CNVs) associated with risk of\ntotal and aggressive prostate cancer in men of African and European ancestry. Findings from this study will\nprovide valuable insights into the role of CNVs in susceptibility of prostate cancer, which has not been the\nfocus of past genetic studies. The identification of risk-associated CNVs will also improve our understanding\nof the genetic architecture of prostate cancer and aid the development of more comprehensive risk prediction\nmodels of prostate cancer across populations."
+ },
+ {
+  "id": "eb0cd306-4fe1-43db-ab95-e59d3e218781",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating the AMPK-FNIP1 Axis in Lung Cancer Tumorigenesis",
+  "text": "Lung cancer is the leading cause of cancer-related mortality worldwide and the most common subtype, non-\nsmall cell lung cancer (NSCLC), is often characterized by oncogenic driver, of which oncogenic KRAS is the\nmost common. Efforts to characterize the pathways regulating metabolic adaptations and define their\ncontributions to tumorigenesis in oncogenic KRAS-driven tumors will provide insight into NSCLC initiation and\nidentify liabilities that could be targeted therapeutically to improve patient outcomes. The proposed study aims\nto interrogate the signaling cascades that confer neoplastic cells the ability to overcome tumorigenic stress and\nprogress though a metabolic checkpoint in oncogenic transformation."
+ },
+ {
+  "id": "eb1af251-9eac-4613-837a-5a7a86846b19",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Improving Strategies for Cancer Reduction through Early-detection and ENgagement (I-SCREEN)",
+  "text": "Leveraging decades of NCI investments in clinical trials, data infrastructure, and cancer screening research, the I-SCREEN (Improving Strategies for Cancer Reduction through Early-detection and ENgagement) CSRN ACCESS Hub consists of an NCI-designated Cancer Center, two integrated care delivery systems, one rural/suburban health system accepting >25 types of insurance, and one rural critical access hospital system. I-SCREEN, in collaboration with other ACCESS Hubs, will recruit a representative sample of the United States (US) population. Our goal is to reduce cancer-related mortality by rapidly investigating emerging, novel screening technologies in multiple study cohorts and translating beneficial screening technologies broadly across the US population."
+ },
+ {
+  "id": "eb1d5b5b-c792-473d-a577-30428e75f485",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project 2 - Astrocytic insulin signaling and AD",
+  "text": "PROJECT 2 – ABSTRACT/SUMMARY In alignment with the overall proposal and goal of this P01— Strategies for Targeting Astrocyte Reactivity in AD and ADRD—we believe astrocytes can be targeted to impact a multitude of functions known to be dysregulated in Alzheimer’s disease (AD) and AD-related dementias (ADRD) because of their close physical proximity to other cell types and essential role in brain metabolism. It is our intention to use an astrocyte-centric approach to discover new pathways and signals previously uncharacterized in vivo in order to better address future therapies targeting the health of astrocytes in AD. Here, we will test the hypothesis that elevating insulin signaling specifically in astrocytes in mouse models of AD-like pathology, will normalize cerebrovascular, metabolic, and neuronal Ca2+ network changes commonly associated with AD and ADRD. We will combine our expertise using intranasal insulin (INI) delivery in combination with two-photon (2P) microscopy in the 5xFAD mouse model of AD-like pathology to investigate astrocyte-specific overexpression and knockdown of insulin receptors (IR) in the brain, and will characterize the impact of this manipulation on: (Aim 1) neurovascular unit (NVU) function using red blood cell flow measures; (Aim 2) astrocytic and neuronal bioenergetics using fluorescent measures of ATP/ADP ratios, glucose imaging using 2-NBDG, and glucose and lactate levels using multi-electrode arrays (MEAs); and (Aim 3) neuronal/ astrocytic Ca2+ networks using GCaMP6 fluorescent measures of Ca2+. Results in 5xFAD males and females will be compared to age-matched WT littermates. All imaging experiments will be conducted in the somatosensory cortex (S1) at rest and during ambulation in head-fixed mice. We will corroborate some of our results with hippocampal investigations using electrophysiology in the slice, and also measure spatial and memory processes using the radial arm water maze (RAWM). Our work will investigate networks of neurons, astrocytes, and blood vessels as targets of amyloidogenesis and vascular impairment across sex, and will also test the hypothesis that astrocytes represent a target of INI in the brain and can help regulate the onset of Ca2+ dysregulation. Together, a conceptually novel and experimentally rich set of data will be extracted in order to address new potential therapeutic targets in AD and ADRD and to elucidate how particular elements of the NVU integrate to maintain function in health and disease. Under the leadership of Core A, our proposed collaborations with the other projects and cores sharing resources and expertise will provide a unique opportunity to share experimental protocols, data results, and interpretation across groups, and will lead to a thorough and unprecedented characterization of astrocytic reactivity through the lens of experienced leaders in the field. This project, within the context of the P01, could lead to a paradigm shift such that astrocyte health and reactivity are considered along with other biological manifestations of AD in the clinic 1, perhaps switching from the ATN classification (amyloid/tau/neuron degeneration) to the ATRAN (amyloid/tau/reactive astrocytes/neuron degeneration) classification."
+ },
+ {
+  "id": "eb1deabd-5670-4fcf-b478-d037fa826d57",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mobile phone-based deep learning algorithm for oral lesion screening in low-resource settings",
+  "text": "Oral cancer occurs with high incidence rates and prevalence in low-and middle-income countries (LMICs), with poor survival rates (10-40%) due to late diagnosis and treatment. We propose a low-cost portable easy-to-use mobile phone-based intra-oral imaging device, powered with deep learning image classification, for timely screening and early detection of oral cancers in LMICs. Machine learning algorithms developed with a large amount of image data from the significantly larger patient population in India (~200,000 new cases/year) will be robust and can be rapidly re-trained with domestic data from MSKCC, validated in the smaller domestic US patient population (~54,000 new cases/year) and implemented in US clinical settings, and, our proposed work in India will thus circle back to benefit patients in the USA (reverse innovation and impact)."
+ },
+ {
+  "id": "eb2679e3-f6bf-438f-a846-7e727a68bda3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Down Syndrome: a potential treatment XISTs",
+  "text": "Down Syndrome (DS) is caused by a triplication of genes on chromosome 21 (HSA21) and gives rise to mental\nretardation (MR). Silencing of one of three copies of HSA21 has been shown to rescue the cell phenotype. In\nour prior funded work, we have developed several approaches to overcome the technical hurdles to allow for\ntherapeutic intervention – efficient genomic integration and specific targeting of one of the three HSA21\nchromosomes. The current proposal seeks to address whether enhanced efficiency of silencing seen in vitro\ncan be achieved in vivo. After lentiviral based infection of the targeting construct into the TcMAC21 DS mouse\nmodel, we will evaluate whether these mice show normalization in phenotype at the behavioral,\nneurophysiological, histological and genetic/epigenetic levels."
+ },
+ {
+  "id": "eb2a2a52-40ae-4569-8ba1-a7c83433ac4d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Center for the Translational Neuroscience of Alcohol",
+  "text": "Overall-Narrative\nPUBLIC HEALTH SIGNIFICANCE: Building from genetics to brain biology to behavior, this renewal\napplication will provide fundamental new insight into mechanisms underlying alcohol use disorder (AUD).\nThese analyses have already yielded two new potential treatments for AUD that will be tested in this research\nprogram in animal and human laboratory models. Thus, this program of research has the potential to address\nthe public health impact of AUD by identifying new treatments for pathological drinking."
+ },
+ {
+  "id": "eb2d1f1f-65d4-46fc-8cad-7b80bfeafab3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Engineering Immunocompetent Systems for Modeling, Modulating, and Treating Inflammatory Diseases",
+  "text": "This proposal aims to produce more physiologically representative human tissue models by leveraging human\npluripotent stem cell (hPSC) technology and genetic engineering approaches to create innovative\n“immunocompetent tissues-in-a-dish” that incorporate bona fide tissue-resident macrophages. These new\nmodels will enhance our understanding of how tissue-resident immune cells shift between inflammatory and\nanti-inflammatory states within tissues and reveal foundational immunoregulatory mechanisms linking\nmetabolic diseases to dysregulated inflammation. Finally, this research will employ these tools to explore and\ndevelop strategies to improve the efficacy and function of adoptive hPSC-macrophage transfer for therapeutic\napplications."
+ }
+]

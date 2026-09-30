@@ -1,0 +1,142 @@
+[
+ {
+  "id": "05ffa404-2cd6-4ece-abce-5313d6a37ead",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "PROJECT 2 – CHEMICAL MODULATION OF DNA DEAMINASES IN CANCER",
+  "text": "PROJECT 2 – CHEMICAL BIOLOGY OF DNA DEAMINASES IN CANCER\nNARRATIVE\n APOBEC3A (A3A) and APOBEC3B (A3B) are DNA-mutating enzymes frequently activated in cancer cells,\nwhich contribute to tumor evolution including mutations that cause drug resistance. The long-term goal of this\nProgram is to therapeutically inhibit A3A and A3B and thereby help to suppress detrimental outcomes such as\ndrug resistance and metastasis. Project 2 – Chemical Biology of DNA Deaminases in Cancer will contribute to\nthis overarching goal by developing novel A3A and A3B inhibitors and degraders (nucleic acids, small molecules,\nand peptidomimetics) that will serve as mechanistic probes of enzyme function and provide lead compounds for\ndrug development."
+ },
+ {
+  "id": "060bea8c-8d24-4ef7-8517-d6c429cfecd9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Controlling tumor-infiltrating regulatory T cell function by the IL-17-Ybx1 signaling pathway",
+  "text": "This project aims to uncover how IL-17 promotes the expression of Ybx1, an RNA binding protein, in regulatory\nT cells and controls alternative splicing of RNAs. We also aim to provide novel insights into the importance of\nthe IL-17-Ybx1 pathway in Treg function during colorectal cancer development and immunotherapy."
+ },
+ {
+  "id": "060fc5e8-d789-4385-9cb0-42bfae9429f9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Synthetic mRNA Control Set for Nanopore-Based Pseudouridine Modification Profiling in Human Transcriptomes",
+  "text": "Next-generation sequencing studies have begun to unveil that RNA modifications are present in mRNAs,\nsuggesting the intriguing potential of fine-tuning gene expression; however, identifying the precise\nlocation and occupancy has been a challenge. The low copy number of individual mRNA species, and\ndifficulties in detecting RNA modifications in general, precludes the use of existing methods such as\nmass spectrometry and chemical labeling for transcriptome-wide identification. We propose to develop a\nnanopore/computational pipeline for discovery and quantification of the pseudouridine modification in\norder to facilitate the discovery of RNA modification sites important in disease and development."
+ },
+ {
+  "id": "061222e7-cef9-4ef1-a655-0bbd04f782cb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Defining the cellular and molecular mechanism of IDO2 function driving autoimmune vs.protective immune responses",
+  "text": "Understanding the factors that contribute to the initiation and propagation of autoimmunity is important in the\ndesign of therapeutic strategies to treat these devastating diseases. The studies in the proposal will provide\ninsights into the mechanism by which the immune system becomes activated to induce inflammatory\nautoimmune responses and explore a novel strategy to differentially target its role in autoreactive vs. protective\nimmune responses. In the future, this strategy could lead to a new approach to treat autoimmune diseases\nwithout the immunosuppressive complications of current therapeutics."
+ },
+ {
+  "id": "0613a5d1-a143-4172-a400-38843377dce1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identifying pediatric asthma subtypes using novel privacy-preserving federated machine learning methods",
+  "text": "PROJECT NARRATIVE / PUBLIC HEALTH RELEVANCE\nPediatric asthma is a heterogeneous disease, with different etiologies, triggers, clinical manifestations, severities,\nand treatment responses. Identifying groups of children with asthma by those specific characteristics (i.e.,\nasthma subtypes) can improve asthma management, including primary care and emergency treatment. This\nproject applies novel privacy-preserving machine learning tools to a large (~ 20 million patients) real-world data\nsource to identify pediatric asthma subtypes and their progression over time (i.e., progression subtypes), with\nthe goal of improving care and outcomes for the millions of children with asthma in the United States."
+ },
+ {
+  "id": "0621d05f-ad28-4279-a0f9-f1b74db8c201",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A Novel Transcription Factor-Driven Approach for Mural Progenitor Cells Generation",
+  "text": "This project aims to enhance our understanding of a type of cell called a mural cell, which plays a crucial role in\nthe health and function of our blood vessels. We plan to utilize cutting-edge techniques to manipulate stem cells,\nturning them into mural cells, which we will then study in a lab-created miniature organ model. This research will\nexpand our knowledge of blood vessel development and function and pave the way for potential new vascular\ndisease treatments and regenerative medicine advancements."
+ },
+ {
+  "id": "06237c7e-aeb9-4038-8752-c1d1d2ba5963",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular Dissection of CMG helicase assembly in Metazoa",
+  "text": "The initiation of DNA replication is tightly regulated to maintain genome integrity, yet the\nmolecular mechanisms that underlie this fundamental process are poorly understood, especially\nin multicellular organisms. Mutations in proteins that drive the initiation of DNA replication\ncause an array of developmental disorders and often present in metastatic tumors. This project\nwill employ a powerful single-molecule approach to dissect the mechanisms of replication\ninitiation, determine how the CMG helicase component CDC45 is loaded onto origins, and\nsystematically dissect which initiation factors require phosphorylation by the kinases CDK2 and\nDDK to mediate initiation."
+ },
+ {
+  "id": "0624640c-fc14-494f-b43d-3792007a99ba",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Illuminating Reactive Astrocyte Contributions to Alzheimer’s Pathology via PIP-sort Technology",
+  "text": "Reactive astrocytes are pivotal in the progression of Alzheimer's disease, yet their scarcity in archived brain\nsamples hampers detailed study. PIP-sort addresses this challenge by enabling the isolation and comprehensive\nanalysis of these important, rare cells through a microfluidic-free, droplet digital PCR-based method. This\napproach facilitates high-throughput, single-nucleus multi-omic profiling, offering new insights into astrocyte\ncontributions to Alzheimer's pathology and potential therapeutic targets."
+ },
+ {
+  "id": "06258a09-f38d-477a-8c4f-0e00da489f64",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of lateral habenula in methamphetamine TAAR1-mediated synaptic plasticity and aversion",
+  "text": "Methamphetamine (MA) is a highly addictive drug that has both rewarding and aversive effects. We recently\ndiscovered that a receptor called the trace-amine associated receptor 1 (TAAR1) mediates MA aversion and\nprotects against MA intake. By using genetic tools and electrophysiology, this project will identify how MA\nactivation of TAAR1 produces aversion and reduces MA intake, which could lead to the identification of a\nnew class of therapeutics for MA addiction."
+ },
+ {
+  "id": "0626bf52-1767-4afd-af8e-d30fb3f76107",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Protecting the kidney from cisplatin induced injury and progression to chronic kidney disease",
+  "text": "Protecting the kidney from cisplatin induced injury and progression to chronic kidney disease\n Many cancer patients have decreased kidney function prior to initiation of cancer treatment and following\ntreatment with cisplatin up to 30% of patients will suffer acute kidney injury. We have found that the presence\nof a distal lung tumor is sufficient to alter kidney physiology and establish a pre-fibrotic niche within the kidney.\nHerein, we will examine the mechanisms of cancer and cisplatin induced kidney injury and test novel\ntherapeutics to block kidney injury and progression to chronic kidney disease."
+ },
+ {
+  "id": "062c681d-8e75-4b87-9e66-23665b2aff3e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cre-driver rat resource project R24",
+  "text": "This R24 resource grant utilizes our capabilities for high throughput transgenic model development to develop\nnovel transgenic rat models to be used to broadly study normal biology, physiology, and disease mechanisms.\nThese transgenic models will allow for the manipulation of genes and other transgenes in a tissue- and/or time-\ndependent manner. Collectively, this resource of genetic tools will be very useful to the broad research\ncommunity that uses laboratory rats to study gene function in a wide variety of behavioral and physiological\nstudies."
+ },
+ {
+  "id": "062caf72-1305-4ed4-bf16-503f4ede5d7f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating the molecular mechanism of the bat antiviral factor RTP4",
+  "text": "RTP4 is an RNA-binding innate immune factor that strongly suppresses flaviviruses in bats, but only\nmodestly in humans, through an unknown mechanism. This research proposal will test whether RTP4\npreferentially binds a sequence motif in viral RNA to block the viral replicase machinery. This work will\nprovide the first comprehensive characterization of this important mammalian antiviral factor, and may\ninform the field’s understanding and therapeutic interventions for viral spillover from bats to humans."
+ },
+ {
+  "id": "062debeb-a318-4934-ae9f-d991d8845eab",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms and Predictions of Interindividual Variability in Drug Pharmacokinetics and Adverse Drug Reactions",
+  "text": "Unanticipated drug-drug interactions, adverse drug reactions and lack of efficacy and target site exposure remain\nmajor causes for drug development failures and restricted access to medications. This research program will\nestablish novel experimental and computational tools to evaluate mechanisms of drug-drug interactions and\nadverse drug reactions that can be incorporated into drug discovery and development workflows. The outcomes\nof this research program will enable more accurate predictions of drug responses across broad disease states\nand expand approaches to individualized therapy."
+ },
+ {
+  "id": "0631e20a-22d5-4894-9715-d1cc0e4a3336",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Epigenetic regulation of the neuroendocrine axis in brain development and behavior",
+  "text": "Disruptive variation in lysine methyltransferase 5B (KMT5B) has repeatedly been classified as high impact in\nautism spectrum disorder (ASD), yet the role that this gene plays in the developing brain is poorly understood.\nThis application will generate novel mouse models to identify how KMT5B epigenetically regulates\nneuroendocrine factors during development contributing to changes in brain growth and patterning. The\nproposed studies will significantly advance the study of KMT5B gene regulation beyond our current limitations\nand will illuminate potential therapeutic targets for ASD."
+ },
+ {
+  "id": "06331e1c-4548-40c1-bd76-a5fe5b29bcad",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Functional Studies of NDD Gene(s)",
+  "text": "It is critical to better understand genetic causes of human neurodevelopmental disorders such as autism,\nintellectual disability, and other rare syndromes and to use animal models of such causes to identify potential\ntreatments. This R01 proposal capitalizes on a genetic animal model deleting an understudied gene for autism\nand neurodevelopmental disorders that will allow us to advance the field. Characterization of this model at\nmolecular, cellular, synaptic, morphological, and behavioral levels will provide important data for future studies\nincluding final outcome measures in the mouse model along with hypothesis-generating studies of what\ndownstream genes are altered in a cell-type-specific manner, thereby allowing future studies aimed at\ncorrecting altered brain function in the hope of treating behavioral symptoms in both the model and eventually\nin patients."
+ },
+ {
+  "id": "0634d8db-5cbc-45e1-8b0b-66e3fe5114e1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Model Core - Core 2 - Helmrath",
+  "text": "Defects in the Cystic Fibrosis Transmembrane Conductance Regulator chloride channel are strongly associated with genetic variations in the CFTR gene that are unique to individual CF patients or subgroups within the CF patient population. Our Cystic Fibrosis (CF) Centers at Cincinnati Children’s, University of Cincinnati, and Cedars-Sinai Medical Center already have a robust research infrastructure, which was expanded through the previous P30 funding, and an excellent IRB-approved genotype-phenotype database available for clinical and research use. We intend to leverage these capabilities to develop a Personalized Cystic Fibrosis Therapy and Research Center for individual patients to determine individual susceptibility to a particular form of CF mutation and take steps to mitigate the early onset of the disease. Given the large number of people with CF in Cincinnati and Southern California, and the fact that CF patients with rare mutations have higher mortality rate compared to the more common F508del-CF patients, in this renewal application, a simple but critical question of a CF-health will be addressed ‘What are the biologic contributors that lead to better outcome in rare CF-mutations, inclusive of all people’."
+ },
+ {
+  "id": "063ba639-1b5a-4345-8f43-33d4486883f1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Effects of Developmental Alcohol Exposure on Primary and Associative Sensory Cortices",
+  "text": "We will use a combination of in vivo electrophysiology and optical imaging of intrinsic\nsignals to test the effects of developmental alcohol exposure in the organization, function\nand integration in primary and associative cortical auditory areas."
+ },
+ {
+  "id": "0647d6c3-fc6d-4246-a5b2-83b486bcf209",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of SARS-CoV-2-Mediated Disruption of Trophoblast Dynamics",
+  "text": "The proposed Pathway to Independence project will support the training and research objectives outlined in\npreparation for transition to a tenure-track faculty research position. The research project will focus on\ninvestigating specific mechanisms employed by the SARS-CoV-2 virus to disrupt placental homeostasis and will\ndevelop clinically relevant organoid models to identify potential avenues for therapeutic development that target\nthese mechanisms. The training plan will include learning methods with extracellular vesicles, mass\nspectrometry, small molecule library screening and high-resolution microscopy, along with lab management,\ngrant writing, mentorship and leadership skills development."
+ },
+ {
+  "id": "06485888-01c9-4d96-ba01-36173161278b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A Uniquely Scalable Platform for Sequencing Tens of Millions of Single Cells from Complex Clinical Samples with a Streamlined Workflow",
+  "text": "This project addresses critical barriers to the routine use of single-cell sequencing in clinical and\ntranslational research by developing a scalable, high-throughput platform for analyzing tens of\nmillions of single cells per experiment. By enabling efficient processing of peripheral whole blood\nand dissociated tissue with improved cell retention and streamlined workflows, this technology\npreserves cellular integrity and reduces biases in gene expression data. The platform has the\npotential to transform clinical diagnostics, rare cell detection, and drug development, directly\ncontributing to improved health outcomes and advancing the understanding and treatment of\ncomplex diseases."
+ },
+ {
+  "id": "064e72d5-460b-42f1-a595-77d8eb0cb807",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "longitudinal assessment of stress and stress-related concepts across a behavioral weight loss intervention",
+  "text": "Obesity prevalence can be reduced by individual-focused lifestyle interventions as these interventions are generally effective at helping people lose weight. However, some people who engage in these interventions lose less weight than others. This variability in weight loss may be influenced by psychological factors, such as perceived stress, that play a key role in behavior change. Fluctuations in daily stress and ability to cope with this stress (i.e., coping) can negatively impact behavior, and potentially initial weight loss. Nevertheless, successfully assessing this relationship on the day-to-day level has been difficult and with limited assessment especially among participants who are trying to change behavior (e.g., behavioral weight loss program). These limitations can be addressed by ecological momentary assessment (EMA) methodology which assesses these daily psychological constructs and behaviors in real-time and across multiple days. Intensive longitudinal assessment with EMA of these psychological factors and daily behavior can inform the design of adaptive interventions that can intervene in real-time to change behavior and improve weight loss success. To this end, the overarching aim of this study is to elucidate mechanisms of stress and related concepts with subsequent health behaviors during a behavioral weight loss intervention. To thoroughly assess the mechanism, this study will conduct EMA measures at multiple timepoints within participants who have engaged in a community-based weight management program. Specifically, we will examine the association between variability in individual stress and weight loss across a behavioral weight loss program (Specific Aim 1). We will test the hypothesis that high variability in daily stress will be related to less weight loss (Hypothesis 1a), and less physical activity and sleep across the initial (3-months) and full program (6-months, Hypothesis 1b). We will also examine the association between variability in daily coping and positive affect, and weight loss across the behavioral weight loss program (Specific Aim 2). We will test the hypothesis that individuals with high variability in coping and positive affect will be related to less weight lost across the initial and full program (Hypothesis 2). The results from our study will advance our understanding of stress, coping, and affect during a weight loss program, and lead to the development of an ecological momentary intervention to improve stress and mental health while engaging in a behavioral weight loss program supporting long-term behavior change and weight loss success."
+ }
+]

@@ -1,0 +1,142 @@
+[
+ {
+  "id": "745217e5-31ef-471e-8453-fc93c711f8f4",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Interactions between prefrontal and insula circuits during normal and disrupted state representation processes in mice",
+  "text": "PROJECT 1 - PROJECT SUMMARY The purpose of PROJECT 1 is to use mice as an experimental system to study the effects of NMDA receptor (NMDAR) disruption on interactions between medial prefrontal cortex (mPFC) and insular cortex. During the initial grant period, we found that individuals with early psychosis (EP) showed significant failures during exploration and state learning in salience network (SN) activation (of which the insular cortex is a critical hub), implicating deficits in communication from this network in engaging appropriate strategy switching. These findings highlight the potential role for activity in the insular cortex as an important influence on the mPFC, as well as the ability to learn and maintain state representations. A large body of evidence indicates that NMDAR hypofunction in frontal cortex is a pathogenic factor in psychosis spectrum illness. We will build on our substantial progress during the initial funding period, which includes establishing a molecular genetic platform to manipulate NMDAR function via CRISPR/Cas9-mediated gene editing in mice. Building on findings across PROJECTS from the first cycle, we hypothesize that neuronal synchrony in the mPFC is necessary to support state representations, and this synchrony is controlled at multiple levels: molecularly within mPFC by NMDAR ablation, and at a circuit level by insular cortex inputs driving the engagement of mPFC. Both should be necessary to engage mPFC-mediated cognitive control to support state learning and maintenance. In two Aims, we will test the relationship between neuronal activity in mPFC and insular cortex inputs, and discover how this relationship is impacted by CRISPR-mediated loss of NMDAR function across mPFC neurons. In Aim 1, we will determine the relationship between mPFC in vivo activity supporting state representation with insular cortex activity via silicon probe recordings across regions, testing the directionality of ensemble and local field potentials from insula to mPFC, and determine whether this relationship is impaired by ablation of NMDAR function in mPFC neurons. In Aim 2, we will measure and modulate synaptic input from insular cortex after NMDAR ablation in mPFC, using parallel optogenetic manipulations in vivo (behaving animals) and ex vivo (acute brain slice physiology). We will combine these approaches to test whether state representation processes and mPFC synaptic connectivity can be bidirectionally modulated by insular cortex, and whether this is prevented by NMDAR manipulations."
+ },
+ {
+  "id": "74522d62-259c-4a4d-951b-e34c7801ff22",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Machine-Learning Models for big data omics",
+  "text": "The proposed research is relevant to public health because understanding Mass Spectrometry (MS) based omics can\nallow systematic analysis of thousands of proteins with the promise of discovering new proteins, and biomarkers for\nvarious disease conditions and better understanding of human systems biology. Artificial intelligence and machine-\nlearning tools are needed to explain the high-dimensional MS data and such accurate tools will be instrumental in\nelucidating the microbiome and cell function which affects virtually all aspects of human health. Therefore, this MIRA\nproposal is relevant to NIH’s broader mission which support fundamental and innovative research strategies which\ncan become the basis of protecting and improving human health."
+ },
+ {
+  "id": "74555ab2-03c7-44be-9ae3-f16ffe388248",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Intensive Blood Pressure Control During Cardiotoxic Breast Cancer Treatment (PROTECT) Trial",
+  "text": "There is a critical need to develop effective strategies to mitigate the cardiotoxic effects of breast cancer therapies\nand to improve cardiovascular health in breast cancer survivors. We propose a randomized controlled trial of\nintensive systolic blood pressure (SBP) control (goal SBP <120 mm Hg) versus standard SBP control (goal SBP\n<140 mm Hg) among 130 patients with breast cancer at risk for cardiotoxicity due to hypertension and treatment\nwith cardiotoxic cancer therapies. Results will: 1) establish critical data to inform clinical implementation of an\nintensive SBP control strategy for patients with breast cancer at risk for cardiotoxicity, 2) provide functional and\nmechanistic insights into the effects of intensive SBP control on mitigation of cardiotoxicity risk, and 3) guide\nfuture cardio-oncology practice recommendations on the role of HTN management to improve cardiovascular\nhealth in patients with cancer."
+ },
+ {
+  "id": "745c7400-990b-4e1f-8548-de09772147ec",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Understanding and harnessing quality control  in the secretory pathway",
+  "text": "This proposal aims to uncover the mechanism behind substrate recognition by ER-associated degradation\n(ERAD), and to develop tools to modulate the ERAD pathway for targeted protein degradation. As of now, the\none-third of the proteome that is made at the ER is not accessible by the current generation of targeted protein\ndegradation systems, positioning the strategy proposed here as a potential means to unlock this significant\nportion of the proteome. The findings from these studies could also have significant impact for diseases\ncaused by protein misfolding, including neurodegenerative disease and metabolic diseases such as diabetes."
+ },
+ {
+  "id": "745c8bc4-1331-414a-8911-0394fccde8fe",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Bioprintable composite materials and microfluidic tools for vocal fold restoration and repair",
+  "text": "Voice problems constitute the most common communication disorder across the lifespan. Many malignant and\nbenign vocal fold lesions require surgical removal using cold cutting tools or lasers, leaving a wound and in some\ncases a large void in the lamina propria and/or a tear in the epithelium. We are developing novel biomaterials\nthat can be injected or deposited layer by layer into the wound site to help vocal fold tissue healing and promote\nthe permanent regeneration of engineered tissue with the same viscoelasticity and morphology than the native\nuninjured lamina propria. These materials and tools would help patients with vocal fold injuries to completely\nrecover their voice, with less hoarseness or dysphonia."
+ },
+ {
+  "id": "74609150-e7fd-4a35-97da-ed7c13fac29c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "UCLA High-Throughput Neuropsychiatric Disorder Phenotyping Center (UCLA HT-NPC)",
+  "text": "Through the UCLA High Throughput Neuropsychiatric Disease Phenotyping Center, a highly collaborative group\nof investigators will identify potential convergent and distinct mechanisms by which risk genes act using highly\nparallel quantitative analyses in human stem cell models of brain development and function."
+ },
+ {
+  "id": "746212d6-ff7e-4886-adcf-2bc79e2f2c47",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular and Cellular Oncology Program",
+  "text": "The Molecular and Cellular Oncology (MCO) Program at Atrium Health Wake Forest Baptist Comprehensive Cancer Center (AHWFBCCC) conducts fundamental cancer research to uncover the mechanisms of cancer development and progression, including the role of host factors, with the overarching goal of improving patients’ overall survival and quality of life. Comprising 81 members from 18 departments, MCO was established in 2024, during the strategic restructuring of former research programs, to create a more dynamic, bench-to-bedside flow of research and better facilitate collaboration between AHWFBCCC scientists. The MCO Program is led by two well-established scientists with complementary strengths: Cristina Furdui, PhD, with expertise in redox metabolism, mass spectrometry-based omics technologies, and tissue toxicities; and Karen Haas, PhD with expertise in immunology, therapeutic antibody development, and animal models. The program’s research spans from cancer cell biology to tumor-host interactions and environmental influences on cancer development and treatment outcomes. MCO members pursue three primary aims: (1) Identifying key molecular drivers of cancer initiation, progression, and metastasis (cancer cell focus); (2) Investigating tumor microenvironment dynamics (tumor focus); and (3) Determining the mechanisms underlying host responses to tumors, therapies, and exposures and the impact on tumor progression, patient survival, and quality of life (host focus). MCO fosters interdisciplinary collaboration through annual retreats, quarterly meetings, symposia, workshops, and pilot funding opportunities, creating a tightly knit and highly interactive research environment. The program’s members have been exceptionally productive during the current project period, authoring 551 cancer-related publications with extensive collaboration; 34% intra-programmatic, 38% inter-programmatic, and 44% multi-institutional. Research efforts have resulted in 19% high-impact publications (impact factor >10). In 2025, MCO members received $16.9M in total peer-reviewed cancer-related funding, which included $5.6M from the National Cancer Institute and $9.4M from other NIH institutes. Notable advancements by MCO members include innovations in organoid technology to mimic the tumor environment, advances in precision oncology, novel insights into the microbiome and diet’s role in cancer, new treatment technologies, and machine learning-based diagnosis and research tools. Working closely with the Office of Community Outreach and Engagement and the Cancer Research Training and Education Coordination Office, MCO has a strong focus on lung, breast, prostate, and colorectal cancers as well as common cancer risk factors (tobacco, obesity, alcohol) in the catchment area impacting patients’ survival and quality of life. With a strong foundation in mechanistic cancer research and a mission to translate discoveries into clinical applications, MCO is poised to empower cancer breakthroughs, decrease the cancer burden in the catchment area, and train the next generation of cancer researchers in support of AHWFBCCC’s Strategic Priorities."
+ },
+ {
+  "id": "746611d4-0096-4adf-abbb-be61deadb1c1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Optimizing prostate cancer screening among older men",
+  "text": "Although prostate cancer is the most commonly diagnosed cancer among U.S. men ages 70 years and older,\nthe majority of men diagnosed with prostate cancer will die with prostate cancer and not from prostate cancer\ndue to the high frequency of other comorbid conditions among older prostate cancer patients and the slow-\ngrowing nature of many prostate tumors. Prostate cancer screening is common among men ages 70 years or\nolder even its relative benefits and harms are unclear in this age group, as any reduction in prostate cancer\nmortality from screening may be offset by increased harms from overscreening, such as overdiagnosis\n(diagnosis of slow-growing tumors unlikely to impact the health and well-being of patients) and subsequent\ntreatments for these tumors that lead to worse patient quality of life without any benefit in extending the\nlifespan. In this project, we seek to optimize prostate cancer screening in men 70 years or older by\nimplementing a multifaceted approach to 1) understand key factors that influence patient and physician\ndecision-making regarding prostate cancer screening among older men, 2) generate additional evidence to\ninform clinical guidelines regarding the benefits and harms of continued prostate cancer screening among\nolder men, and 3) develop and validate a risk prediction tool to provide personalized estimates of the likelihood\nof developing aggressive prostate cancer for older men, tailored to their health condition, to help guide\ndecision-making regarding continued prostate cancer screening."
+ },
+ {
+  "id": "74661295-7754-4969-9bb4-cd1f2abd2d00",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "One-shot morphologic, hemodynamic and metabolic MR imaging of brain tumors",
+  "text": "The proposed research is relevant to public health because it aims to validate and apply a practical, integrated\nimaging approach for tumor imaging that will reduce patient costs and discomfort while enabling a more\ncomprehensive assessment of tumors. This project is relevant to NIH’s mission as it focuses on a significant\ntechnological and clinically meaningful refinement in brain tumor imaging methodology that could enable\npersonalized therapy based on lesion morphology, regional perfusion and metabolic heterogeneity."
+ },
+ {
+  "id": "746774f2-314b-4da3-a01a-cb023f8cd89e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Impact of Body Composition and Related Inflammatory and Immune States on Prognosis of Non-Muscle Invasive Bladder Cancer",
+  "text": "Bladder cancer is one of the top ten most common cancers in the U.S., with 75% diagnosed with non-muscle\ninvasive disease (NMIBC) and up to 70% of which experience recurrence, making it one of the most expensive\ncancers to treat per patient. Body composition, which is the amount of fat and muscle tissue, affects the\ninflammatory and immune environments, and thus can possibly influence treatment response and disease\nprognosis in NMIBC patients. In a prospective study of 1,472 NMIBC patients, we will conduct a\ncomprehensive study of body composition, inflammation, and immunity to evaluate their impact on treatment\nand prognosis outcomes over eight years of follow-up."
+ },
+ {
+  "id": "746b15fe-be99-4c8b-8ff5-664764677700",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Defining signaling networks in epithelial homeostasis",
+  "text": "The fundamental biology of tissue maintenance and homeostasis directly relates to public health because our\ntissues are in constant interaction with our environment and respond in healthy and pathological ways. We\nreasonably understand the cells and molecules involved in tissue maintenance and repair, yet we do not know\nhow they work in complex communities and networks to preserve a healthy state. The work outlined in this\nproposal aims to understand the fundamental biology of signaling that controls cell fate during tissue renewal\nand identify new avenues for therapeutic intervention."
+ },
+ {
+  "id": "747049cd-f805-43c2-b25a-57f723683989",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "BLR&D Research Career Scientist Application",
+  "text": "Many US veterans suffer from neurodegenerative disorders such as Alzheimer’s disease (AD), Parkinson’s\ndisease (PD), dementia, multiple sclerosis (MS), and traumatic brain injury (TBI). Therefore, the primary focus\nof our lab is to delineate signaling pathways in the central nervous system (CNS) that leads to the loss of\nneurons in AD, PD and dementia, and the death of myelin-producing cells oligodendrocytes leading to\ndemyelination in MS and TBI. All these disorders are characterized by activation of CNS glial cells (astroglia\nand microglia), production of different proinflammatory molecules, decrease in autophagy in the CNS, and\nloss of either neurons or oligodendrocytes. Accordingly, we are investigating molecular mechanisms for glial\nactivation, neuroinflammation, autophagy dysregulation, and protein aggregation in order to target pathogenic\nmechanisms in animal models of different neurodegenerative diseases by nontoxic drugs/monoclonal\nantibodies/small molecules/exercise for achieving neuroprotection.\n1"
+ },
+ {
+  "id": "747171c0-fb5d-4ca3-a383-23186a3ae082",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Engineered Nano-formulations for STING Activation",
+  "text": "The proposed research is relevant to public health as these studies will generate new fundamental knowledge\nin head and neck cancer and address the current technical limitations in immunotherapy against head and neck\ncancer."
+ },
+ {
+  "id": "7473df43-6715-4ec1-9308-73dc9df74863",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Etiologic Heterogeneity Between Molecular Subtypes of Prostate Cancer",
+  "text": "Prostate cancer is more common than many other cancers, but its causes are less well understood, partially\nbecause research in large, population-based studies has typically been unable to differentiate the molecular\nsubtypes that make up prostate cancer. This proposal seeks to understand in which men some of the most\nimportant molecular subtypes of prostate cancer occur; to assess risk factors for specific molecular subtypes\nto elucidate which subtypes could be prevented and how; and to create new functionality for a widely-used\ndata sharing and exploration platform to make molecular epidemiology data publicly available."
+ },
+ {
+  "id": "747c8ba8-c731-4664-9b88-ed8a76bf5f06",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Integrating Systems of Care to End the HIV Epidemic SWG",
+  "text": "The Columbia University (CU) – Weill Cornell Medicine (WCM) Center for AIDS Research (CFAR) brings together researchers from 2 major institutions united by a single large hospital system in New York City to catalyze and promote HIV research; foster new collaborations; provide robust services to faculty and community members engaged in HIV research; and develop the careers of new investigators entering the HIV field. The CU-WCM CFAR will promote HIV basic, translational, clinical, behavioral, implementation and outcomes research with a regional, national, and international impact and the overall goal of ending the HIV epidemic."
+ },
+ {
+  "id": "74831e42-48b4-4254-8dd7-0f0892e902c0",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Discovery and Analysis Project",
+  "text": "Discovery and Analysis Project Project Summary Diabetes is traditionally classified in two broad categories: autoimmune Type 1 and obesity-related Type 2. Numerous phenotypically and etiologically distinct forms exist and are emerging, collectively termed “atypical diabetes”, that do not fit into either category. We hypothesize that atypical diabetes comprises a spectrum that includes numerous forms, both known (e.g., MODY/monogenic, Ketosis-Prone Diabetes) and unknown. During the current U54 funding cycle we established the Rare and Atypical Diabetes Network (RADIANT), with a well-functioning infrastructure to identify and enroll participants with atypical diabetes; a pipeline for harmonized screening and adjudication of enrolled participants; full genomic characterization of participants via whole genome sequencing; transcriptomic characterization via RNA sequencing; quantitative plasma metabolomics; patient-specific, inducible pluripotent stem cell-based molecular physiology; enrollment of informative family members; and both standard and specialized phenotyping for each participant. In the next cycle of RADIANT, we propose to continue to recruit persons with atypical forms of diabetes to fulfill the original goals, together with discovery and analysis of the mechanisms and pathways that define these new forms of diabetes, by achieving the following Aims: 1) Continue the identification, genome sequencing, transcriptomic and metabolomic interrogation, and deep phenotyping of individuals and families with atypical forms of diabetes; 2) Discover and describe new forms of monogenic diabetes; 3) Expand and enrich the growing database to characterize atypical diabetes and recognize different genotypic and phenotypic clusters; and 4) Determine the pathophysiological mechanisms of atypical diabetes genomic variants. Thus, in the next cycle of RADIANT, our collaborative, multidisciplinary and diverse group of accomplished diabetes investigators will expand our repository of atypical diabetes cases, identify new disease mechanisms, target pathogenic pathways, advance our understanding of diabetes pathophysiology and develop an improved, etiologically based classification of diabetes."
+ },
+ {
+  "id": "74832d25-ef53-4932-8299-f412a38b935e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Genomics-Empowered AI for Personalized Cancer Risk Assessment, Monitoring, and Prevention",
+  "text": "The proposed research is relevant to public health because it will develop AI tools identify individuals at\nhigh genetic risk for cancer and predict their personalized risk throughout the course of their lives. This will\nguide targeted cancer screening and suggest appropriate lifestyle or treatment interventions, and we will\nidentify the ethical, social, and legal impacts of adopting such AI tools in healthcare. This contribution aligns\nwith NIH's mission because it will help advance personalized risk assessment, screening, and prevention\nto save lives from cancer and life-threatening diseases."
+ },
+ {
+  "id": "748a5d75-a5d0-427d-9fcd-9b12c8857696",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Regulation of blood flow in the brain by capillary KATP channels",
+  "text": "Brain capillaries are the site of nutrient and waste exchange throughout the entire brain. Ubiquitous coverage\nof brain capillaries allows them to sense brain activity and modulate blood flow. Here I test the novel\nhypothesis that brain capillary pericytes and endothelial cells are equipped with KATP channels and are\nelectrically coupled allowing them sense hypoxia and regulate blood flow."
+ },
+ {
+  "id": "748b025b-e784-4f94-969b-3fa494e57f63",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Understanding the role of area-level factors, smoking, and epigenetics in lung cancer risk across populations groups",
+  "text": "This study will examine the relationships of area-level factors, smoking behavior, and biological changes with lung cancer risk in more than 272,000 U.S. adults. Findings from this study will inform strategic interventions to improve health and reduce the burden of this chronic disease across population groups."
+ },
+ {
+  "id": "748bad1c-da66-44ad-8496-e073873e0cf6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Core 2",
+  "text": "THE HARC CENTER: HIV ACCESSORY AND REGULATORY COMPLEXES GENETICS CORE SUMMARY To support all HARC Center Projects, the Genetics Core will provide innovative high-throughput methods for the discovery and functional characterization of HIV-host protein complexes in primary cells (i.e. activated primary CD4+ T cells, resting primary CD4+ T cells, and primary macrophages). Working in tandem with the Proteomics, Structural Biology, and Computational Cores, we will develop the HARC endogenous protein structure (HEPS) platform for the discovery and functional characterization of different HIV-host protein complexes by inserting affinity tags at genomic loci to allow affinity purification of endogenous protein complexes directly from HIV infected primary cells. Using our breakthrough CRISPR knock-out (CRISPRko), activation (CRISPRa), interference (CRISPRi), and knock-in (CRISPRki) technologies in primary human T cells, we will (1) generate a systematic map of proviral and antiviral HIV-interacting host factors, (2) functionally validate novel HIV-host interactions, (3) undertake endogenous deep mutational scanning of specific protein domains to identify critical host-pathogen interaction interfaces, and (4) introduce/replace small stretches of DNA at targeted genomic sites to study the function of specific genetic variants. Collectively, these genetic studies will strengthen the central HARC mission to understand interactions between HIV accessory proteins and host factors and open new experimental and therapeutic avenues for a broader HIV research community. In summary, the Genetics Core will develop a toolbox for genetic perturbations to complement innovative structural biology and proteomic efforts."
+ }
+]

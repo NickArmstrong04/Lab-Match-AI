@@ -1,0 +1,142 @@
+[
+ {
+  "id": "45091fce-8a76-4971-94c9-3e07a8f26432",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating the mechanisms of aggressive prostate cancer in African American Veterans",
+  "text": "Prostate cancer is the common cancer diagnosed in the Veterans population. African American (AA) men\nrepresent ~1/3 of all Veterans diagnosed with prostate cancer. In the U.S., AA men are more likely to be\ndiagnosed with and die from prostate cancer compared to European American (EA) men. It is not well understood\nwhat differences in prostate tumors might contribute to these large disparities. To develop a molecular\nunderstanding of prostate cancers in AA men, we will perform state-of-the-art sequencing of prostate cancers\nfrom AA men to determine the genetic changes that are associated with ancestry and with aggressive prostate\ncancers. To study how certain genes drive prostate cancer, we will develop new prostate organoid models\nderived directly from prostate tissue and test the effects of altering these genes. Overall, these studies will\nadvance our understanding of the mechanisms of prostate cancer in AA veterans and all veterans and will inform\nnew strategies to reduce prostate cancer disparities."
+ },
+ {
+  "id": "450d5933-8057-4656-852e-ea91b104c0e0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Next Generation Immunotherapies for Pediatric Cancers",
+  "text": "This proposal is relevant to US public health since cancer remains the leading cause of disease related death in\nchildhood in the US. In addition, while approximately 80% of patients diagnosed with cancer today will be cured\nof their original disease, few of these survivors will have a normal lifespan and most will experience secondary\ndiseases and disabilities as a result of the toxic cancer therapies they receive. The proposed research is highly\nrelevant to the NIH mission, as it seeks to discover new scientific principles and develop new immunotherapies\nfor the treatment of children’s cancers, which will also provide generalizable knowledge regarding optimal\napproaches to develop immunotherapies for low mutational burden cancers occurring in other populations."
+ },
+ {
+  "id": "450f743a-4910-4736-aa41-05d40141955f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "New software tools for differential analysis of single-cell genomics perturbation experiments",
+  "text": "For many human diseases, we do not know which cell types and which genes within those cell types are at the\nroot of the problem. Rapid advances in DNA sequencing technology now allow us to look inside individual cells\nfrom healthy tissue, but we lack algorithms and software for comparing such measurements to those from\ndiseased tissue. This proposal aims to develop generally applicable software tools that will allow scientists to\ncompare the regulation of genes in healthy and diseased tissue, as well as uncover fundamental mechanisms\nin embryonic development and other biological processes."
+ },
+ {
+  "id": "450fac9b-d795-4d57-b950-631c2662380e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Understanding and Treating NAXD Deficiency Using Vitamin B3-Based Approaches",
+  "text": "Our research focuses on understanding NAXD deficiency and its potential treatment through vitamin B3 therapy.\nUsing a NAXD knockout mouse model, we aim to uncover the organ-specific pathologies and underlying\nmechanisms contributing to the disease, while also exploring the efficacy of dietary and environmental\ninterventions. This study not only addresses the fundamental pathophysiology of NAXD deficiency but also\ninforms the development of novel vitamin-based therapies."
+ },
+ {
+  "id": "4511a713-1968-4be3-a5c8-f4167e875d11",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Regulation of Piezo1 and its contribution to renal fibrosis",
+  "text": "The distal part of the kidney tubule is imperative for fine-tuning salt and water balance to\nmaintain blood pressure and volume. Proteins that sense changes in mechanical stretch or pull\non cells are increasingly being recognized as contributing to the functions of the distal tubule.\nThis project examines the contribution of one mechanosensitive protein, Piezo1, to distal\ntubule physiology and pathology."
+ },
+ {
+  "id": "45150b5a-d0f7-4f3f-9439-646bce3c13e9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Understanding Ubiquitin-dependent Regulation of Iron Metabolism using Mass Spectrometry",
+  "text": "This proposal focuses on using a combination of biochemistry and proteomic mass spectrometry to understand\nhow iron metabolism is coordinately regulated to generate an integrated cellular response to changes in iron\navailability. Considering defects in iron metabolism have been linked to many diseases including anemias,\nhemochromatosis, and cancer, the elucidation of these pathways will have important implications for\nunderstanding the molecular basis of these disorders."
+ },
+ {
+  "id": "45200619-8639-48d7-901f-0fa1cd0d3d78",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Advancing MRI with an open inhomogeneous B0 magnet",
+  "text": "This project is aimed at developing new approaches to MRI through advances in the use of field cycling, novel\nspatial encoding strategies, and spin editing methods. The aim is to further a class of open MRI devices that\ncan be made in any shape or size. These developments will pave the way for small footprint, low-cost\nscanners, making MRI much more accessible for screening and treatment monitoring, especially of common,\nchronic, and potentially progressive diseases for which MRI is currently underutilized."
+ },
+ {
+  "id": "4520ead9-c567-44a1-9546-5e6f5681f53e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Epitranscriptomic regulation in the mammalian nervous system",
+  "text": "The overarching goal of this research program is to investigate the roles and mechanisms of RNA modification\nin the development and function of the mammalian nervous system, and pathological consequences of\ndisrupting these processes, using both mouse and human iPSC-derived 2D and 3D brain organoid models."
+ },
+ {
+  "id": "4521fede-a6aa-481e-87bc-51ee28f64e8a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Characterization of HIV persistence and neuroinflammation in the CNS reservoir in vivo",
+  "text": "HIV persists in the central nervous system (CNS) despite effective antiretroviral therapy (ART) in infected individuals, evading treatment attempts and the immune system from clearing it from the body and contributing to neurological disorders. We will use advanced humanized mouse models, barcoded HIV tracking, spatial transcriptomics, and single-cell RNA sequencing to define the contribution of the HIV infected T cell reservoir to viral persistence and inflammation in the CNS. Our study aims to provide critical insights into how HIV persists in the CNS and will attempt to advance chimeric antigen receptor (CAR) T cell-based strategies to attempt to eradicate HIV from the body."
+ },
+ {
+  "id": "45294975-9578-450e-b052-ea8cf4726e3a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multi-Omics Approaches for the Diagnosis and Risk Stratification of Pulmonary Fibrosis-Associated Pulmonary Hypertension",
+  "text": "Pulmonary hypertension (PH) is an incurable disease that often afflicts patients with pulmonary fibrosis (PF),\nleading to significantly reduced survival and increased morbidity; however, no standardized screening\napproach for detection of PH in PF or specific biomarker of disease exists. An enhanced understanding of the\ndysregulated pathways in PF-PH is required to develop novel methods to identify patients with clinically\nsignificant PF-PH earlier in the disease course. The proposed studies will utilize multi-omic methods, coupled\nwith machine learning approaches to clinical data analysis, to provide greater insight into PF-PH disease\npathogenesis and lay the groundwork for future translational studies that seek to permit earlier diagnosis and\npersonalize clinical risk stratification and management of pulmonary vascular disease in PF."
+ },
+ {
+  "id": "452b20eb-0c33-496e-a871-2fbf7f24362c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of a Novel Therapeutic Strategy Against HIV-1 by Simultaneously Targeting IN/INI1 and IN/RNA Interactions",
+  "text": "The emergence of drug-resistant HIV-1 remains a major barrier to durable antiretroviral therapy (ART), largely\nbecause most therapies target viral enzymes that rapidly acquire resistance mutations. This project\ninvestigates a natural small-molecule inhibitor identified through high-throughput virtual screening that disrupts\ncritical HIV-1 integrase interactions with the host factor INI1 and viral TAR RNA, resulting in defective virion\nproduction, while also blocking viral entry. By targeting host–virus interfaces and multiple stages of the\nreplication cycle, this strategy offers a promising approach to limit resistance and achieve more durable viral\nsuppression."
+ },
+ {
+  "id": "453f9667-b40e-455f-b748-ea887bb2ace5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cell Lines and Animal Models Core (Core B)",
+  "text": "Cell Lines and Animal Models (Core B)\nCell Lines and Animal Models Core (Core B) will provide essential support to all Projects and Cores to help\nachieve the goals of this P01 program. It serves as the centralized resource for developing and maintaining key\nresearch models including new ATC cell lines, genetically engineered mouse models, and patient-derived\nxenografts (PDX). The Core's work is instrumental in helping the program identify biomarkers of treatment\nresponse, discover novel druggable targets, and understand resistance mechanisms in ATC."
+ },
+ {
+  "id": "454521f6-1389-4b70-b592-2e664b68881e",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Generation and characterization of PET-reporter pigs for noninvasive imaging and cell therapy research",
+  "text": "Cell therapy to repair damaged or diseased tissues is emerging as an important therapeutic tool for a range of\nintractable and non-druggable diseases. A major bottleneck for realizing the full potential of cell therapies is a\nlack of tools and resources in large animal models such as pigs, which provide the best cost-benefit\nconsiderations for safety and efficacy studies, and for better translatability of findings to humans. To address this\nstated gap, the main goal is to develop foundational tools and resources for non-invasively detecting and tracking\nthe implanted cells and tissues in a large animal pig model."
+ },
+ {
+  "id": "4549a6f7-a743-46b0-bdb2-49d2a099dda4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Structural and Functional Studies of Chromatin",
+  "text": "The Cancer Genome Atlas (TCGA) Project has revealed that chromatin factors are highly mutated in\nhuman cancers. Our proposed studies aim to understand how these proteins cooperate and modify\nchromatin to regulate transcription. The research will reveal new interaction interfaces that can\npotentially lead to development of more specific drugs to treat cancer."
+ },
+ {
+  "id": "454b0a34-619a-4c4e-8ba3-971ab00c5481",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identifying Phenotypes in Carpometacarpal Osteoarthritis through Pain, Biomechanics, and Machine Learning Analyses",
+  "text": "Carpometacarpal osteoarthritis (CMC OA) is a leading cause of global disability with limited treatment options.\nThere is a need for holistic evaluation of this disease to understand the relationship between structural\ndegeneration of the joint, functional ability, and pain. The proposed research will comprehensively evaluate the\nbiomechanical and somatosensory implications of CMC OA and utilize machine learning to identify alternative\ndiagnosis, evaluation, and treatment methods, thereby informing more effective management of CMC OA in the\nfuture."
+ },
+ {
+  "id": "454ebe0b-ee76-427f-a5ce-0449673eb2a1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dissecting the Genetic and Phenotypic Architecture of Stillbirth and Fetal Structural Anomalies to Improve Prenatal Diagnosis",
+  "text": "Stillbirth (SB) and fetal structural anomalies (FSA) are highly heritable conditions, yet their genetic causes and\nlinks to postnatal developmental disorders remain poorly understood. While some risk variants have been\nidentified, the genetic and phenotypic overlap across SB, FSA, and developmental disorders has not been well\ncharacterized. This project will define the genetic and phenotypic architecture of SB and FSA by integrating\nlarge-scale genomic and clinical datasets and developing a framework for data federation, sharing, and\ncollaboration."
+ },
+ {
+  "id": "454f9b23-a644-46b8-a31c-b1e15996985e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Effects of noise-induced hearing loss on auditory decision-making",
+  "text": "Noise-induced hearing loss (NIHL) is a leading cause of sensory deficits and can also result in cognitive\nimpairments. This proposal will investigate whether NIHL impairs auditory cognition by disrupting ascending and\ndescending interactions between auditory and parietal cortices that support auditory cognitive functions, like\ndecision-making. The long-term impact of this research is to establish a cortical circuit-based framework for\nhearing loss-induced obstructions to cognitive function."
+ },
+ {
+  "id": "455220be-2d42-4861-a7c6-25ea3b5a6fd9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Novel strategies for induction of aging in human PSC-derived lineages for modeling Alzheimer's Disease",
+  "text": "Human pluripotent stem cells offer access to the major cell types of the nervous system and can be used for\nmodeling a broad range of neurological disorders such as Alzheimer’s disease. Over the last few years, we have\nworked extensively on devising strategies to measure and manipulate the cellular age of pluripotent-derived\nnerve cells, so that they better match the age of cells in the human brain affected by Alzheimer’s disease. This\napplication builds on such progress and will extend cellular aging approaches to glial cells and apply those\ninduced aging technologies to establish improved human models of Alzheimer’s disease."
+ },
+ {
+  "id": "455a4642-8ff6-4918-b74c-7363baabf986",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The role of non-coding variants in Usher disease",
+  "text": "Usher Syndrome type II (USH2) is inherited in an autosomal recessive manner; however, in\napproximately 20% of patients with clinical features typical for USH2, only one mutation of USH2A has\nbeen identified by whole exome sequencing, thereby precluding a definitive diagnosis. Genomic\nassembly of the USH2A loci that combines the base-level accuracy of Illumina short-read sequencing\nwith the longer read lengths obtained from Nanopore based amplification-free targeted sequencing will\nprovide a more accurate detection of pathogenic variants in monoallelic USH2A patients. Candidate\nvariants will be further interrogated using CRISPR-Cas9 editing technology in patient-derived retinal\norganoids to validate the pathogenicity of these novel non-coding variants and establish their\nsufficiency and necessity in causing disease in USH2A monoallelic subjects."
+ },
+ {
+  "id": "455b5db7-0011-47dd-a7fc-4794116b9ae6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A direct-indirect dual-layer flat-panel detector for breast cancer detection",
+  "text": "The goal of this proposed work is to develop and clinically-translate a novel dual-layer flat-panel\ndetector (DLFPD) for breast cancer detection. It acquires two x-ray images simultaneously at\ndifferent energies, thereby allowing additional contrast information for improved breast cancer\nscreening and diagnosis at low cost."
+ }
+]

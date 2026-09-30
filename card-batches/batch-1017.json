@@ -1,0 +1,142 @@
+[
+ {
+  "id": "dd5f98eb-5825-44f3-a83c-0a94ef480a92",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Manipulating and Interrogating Spatial Transcriptomics",
+  "text": "Mounting evidence correlates the dysregulation of spatial mRNA organization to an increasing number of\ndiseases, including amyotrophic lateral sclerosis (ALS), fragile X syndrome (FXS), and spinal muscular atrophy\n(SMA). However, the regulatory mechanism and pathological consequences of spatial RNA organization have\nonly been explored for a limited fraction of mRNAs, due to a lack of technologies that allow for tracking and\nmanipulating the subcellular localization of endogenous mRNAs. We develop a transformative framework\nincluding several technologies: single-molecule, real-time RNA monitoring (RNA-LiveFISH), manipulation of any\nendogenous mRNA(s) for spatial localization on a large scale (CRISPR-TO), and related machine learning\nalgorithms, and we will apply the framework to gain new insights into the functional roles of spatial RNA\norganization in axon development and guidance in primary neurons and explore the approach of modulating\nmRNA localization as a therapeutic strategy to treat spinal muscular atrophy."
+ },
+ {
+  "id": "dd60a3fa-32a3-4268-8913-1f88ab7b9f11",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Hypoxia's role in regulating stressed hematopoietic stem cells",
+  "text": "Isolation and processing hematopoietic stem cells (HSC) in the hypoxia condition strikingly improve numbers and functionalities of HSCs. Here, we propose to study the functions of p38 MAPK/Nrf2/Bach1 pathway in the hypoxia condition in the context of Fanc-/- HSCs. We will also develop a Spacer-Nick gene correction system along with inhibition of p38 pathway to restore the functions of Fanc-/- HSCs."
+ },
+ {
+  "id": "dd631f20-d78c-4570-b4ce-e7039ff62d02",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Basic Cancer Center - Cancer Center at Illinois",
+  "text": "The Cancer Center at Illinois (CCIL) promotes fundamental advances in basic science and engineering for cancer research, accelerating their development into new technologies and treatments to improve care. Two complementary programs and three shared resources support activities that span the career arcs of diverse cancer researchers. Guided by a Strategic Plan and effective leadership, CCIL coordinates relevant institutional resources, integrates educational and mentoring programs, and forms translational partnerships to provide new opportunities in advancing its “Discovery-to-Use” paradigm."
+ },
+ {
+  "id": "dd647c6b-3894-4b57-955f-0e21fbd3ef25",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms and Treatments for Right Ventricular-related Inherited Arrhythmias Using Chamber-specific iPSC Models and Engineered tRNA Therapy",
+  "text": "The right ventricle of the heart can be a source of life-threatening arrhythmias in a number of acquired and\ninherited forms of heart disease. Brugada syndrome is an inherited arrhythmia syndrome associated with\narrhythmias originating in the right ventricle. Human induced pluripotent stem cells from patients with Brugada\nsyndrome will be used to investigate the underlying mechanisms leading to arrhythmias and test an innovative\ntherapeutic approach."
+ },
+ {
+  "id": "dd65676f-06cf-4e9c-8e5b-81dd80c4f81c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Lineage and functional consequences of clonally expanded microglia in AD brain",
+  "text": "This study will investigate how genetic changes that occur during a person’s lifetime could affect immune cells\nin the brain and contribute to the development of Alzheimer’s disease. By understanding how these changes\ninfluence response to brain inflammation, this work will advance our knowledge of how aging impacts brain\nhealth. In the long term, the findings could help identify new ways to detect, prevent, or treat Alzheimer’s and\nrelated neurodegenerative diseases."
+ },
+ {
+  "id": "dd6592fc-900e-4f94-a39a-8414479758d5",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Research Track Radiology Residency",
+  "text": "The University of Pennsylvania seeks to continue its highly successful physician-scientist\ntraining program for radiologists in the form of the Research Track Radiology Residency.\nThis program is motivated by rapid advances in imaging technology and methodology\nand the need for radiology physician-scientists who are equipped to translate these\nadvances to the clinic. The ongoing success of the Program's trainees, evidenced by\nacademic radiology faculty appointments, NIH funding and radiology research leadership\nroles, support the continuation of this program and the innovations in the proposed\nrenewal designed for the evolving landscape of radiology research."
+ },
+ {
+  "id": "dd67ed6b-0136-4a1a-a45e-5ad02a11deb3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "HIV-1 membrane fusion and inhibition",
+  "text": "In this project, we will capitalize on advanced technologies to examine how HIV-1 enters a host cell and to dissect\nthe mechanisms of entry inhibition. The goal is to transform our understanding of early steps of HIV-1 infection\nand to inform the design of novel antiviral inhibitors and vaccines."
+ },
+ {
+  "id": "dd6aa6bb-25d1-47e0-818b-d1ab450a9da0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Characterizing neurogenic progenitors in the adult intestine",
+  "text": "The adult enteric nervous system contains neuronal progenitors that can be leveraged for regenerative cell\ntherapy to treat neurointestinal diseases, but the pathways that mediate the neurogenic response in the\npostnatal intestine are unknown. Based on our preliminary data, we hypothesize that inflammatory mediators\nreleased by intestinal macrophages act on specific populations of enteric glial cells to activate their\ndifferentiation to a neuronal lineage. In this proposal, we will determine the role of activated macrophages and\ntheir inflammatory cytokines in glial-derived neurogenesis, examine the role of Sox2 and Sox10 transcription\nfactors in this process, and characterize the phenotypic diversity of the glial-derived neurons that are\ngenerated."
+ },
+ {
+  "id": "dd6e7a50-8906-4427-8f26-e9d9f50ca1b4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Elucidating the Role of the Thousand and One Kinases in Retinal Ganglion Cell Death",
+  "text": "We previously identified dual leucine zipper kinase (DLK) and leucine zipper kinase (LZK) as the master\nregulators of the signaling pathway that mediates cell death following axon injury as observed in optic\nneuropathies like glaucoma. Using a clustered regularly interspaced short palindromic repeat (CRISPR)-based\nscreen in primary retinal ganglion cells, we identified the thousand and one kinases 1 and 2 (TAOK1/2) to be\npreviously unknown participants in the DLK/LZK signaling and thus, promising neuroprotective targets. In this\nproposal, we develop and use novel adenovirus and adeno-associated virus/CRISPR vectors and\npharmacological means to test the hypothesis that TAOK1/2 work as regulators of the DLK/LZK/JNK signaling\naxis and mediate neuronal cell death in rodent and human in vitro models of optic neuropathy."
+ },
+ {
+  "id": "dd72fa86-f85c-431f-8750-6038a8d049c1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Harnessing single cell RNA sequencing and integrative bioinformatics to identify precision therapeutics for dermatomyositis",
+  "text": "The majority of children and adults with dermatomyositis (DM) still experience long-term functional impairment\nwith modern treatments. Drug repositioning is an untapped opportunity to identify existing treatments that work\nin a precise manner for complex autoimmune diseases, like DM. Using a combination of single-cell RNA\nsequencing, computational drug repurposing, and ex-vivo cell culture assays, we will identify existing\ncompounds that perturb DM-associated molecular networks in DM-associated cell types with the long-term\ngoal of improving health outcomes through the identification of precision medicine treatments."
+ },
+ {
+  "id": "dd7375d6-5952-4bc9-82f1-d0ae32446e0a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Single cell investigation of co-evolution in cancer cells and host cell immune microenvironment",
+  "text": "Although new advances in the field of cancer immunology and genomics have transformed the\nway people are thinking about the importance of immunotherapy in cancer treatment, remaining\nquestions of current immunotherapy are how the cancer cells and microenviroment immune\ncells evolve during therapy and how to increase the cancer patient response rate. Here, we\npropose to use novel single cell/genomics technologies to understand both the changes in\ncellular circuitry underlying malignancy initiation, progression, and transformation, and the co-\nevolving changes in the tumor microenvironment. These aims will be pursued in the context of\nexisting NCI-funded research programs in the Translational Immunogenomics Laboratory\ndirected by Dr. Catherine Wu at Dana-Farber Cancer Institute."
+ },
+ {
+  "id": "dd77779f-da03-4237-83e7-3018193e1d68",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Clinical Validation of DystoniaNet Deep Learning Platform for Diagnosis of Isolated Dystonia",
+  "text": "The proposed research aims to conduct retrospective and prospective studies for clinical validation of a\nDystoniaNet deep learning platform for the diagnosis of isolated dystonia. The proposed research is relevant to\npublic health because the translation and implementation of a robustly validated, objective and accurate\ndiagnostic approach of isolated dystonia is expected to have a significant positive impact on the clinical\nmanagement of this disorder. Thus, the proposed research is relevant to the part of NIH’s mission that pertains\nto developing and applying fundamental knowledge that will help to reduce the burdens of human disability."
+ },
+ {
+  "id": "dd7d5f08-65d4-437a-b4c6-b72e4d29e649",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Structure-Guiding Tools to Study the Role of Choline in the Development of Congenital Hydrocephalus",
+  "text": "Mutations in the blood brain barrier (BBB) choline transporter FLVCR2, and the related choline and ethanolamine\ntransporter, FLVCR1 (expressed in brain neuroprogenitor cells, NPCs), cause congenital hydrocephalus (CH).\nWhile both proteins transport choline and can also regulate intracellular heme, the mechanisms linking defective\ncholine transport and cellular heme metabolism to CH are unknown. Our goal is to develop new tools to address\nthese questions at a molecular level."
+ },
+ {
+  "id": "dd7f1ceb-9c1c-4c17-85f8-c47335ece380",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Deciphering Mechanisms of Limb Malformations Caused by Noncoding Variants In Vivo",
+  "text": "Limb malformations are the second most common congenital abnormality and are becoming increasingly linked\nto rare noncoding variants in transcriptional enhancers, short DNA sequences that activate gene expression.\nYet, the disease mechanisms by which these rare noncoding variants disrupt normal limb development remain\nunclear. In this proposal, I will use novel transgenic mouse technology and single-cell epigenomics to determine\nthe genetic factors mediating the unique susceptibility of limb-specific enhancers to pathogenic noncoding\nvariants."
+ },
+ {
+  "id": "dd88f8fd-1647-4164-81e1-72d000bfbe3b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Imaging",
+  "text": "PROJECT SUMMARY—Imaging Core (Core E) Brain imaging plays a critical role in research and care of dementia. The Imaging Core of this PPG on frontotemporal dementia (FTD) has facilitated scientific discovery since its initiation in 2002. Brain imaging has been used by this PPG to characterize different forms of FTD, support diagnosis, and advance knowledge about a variety of brain functions that are particularly affected in FTD, including executive control, social and emotional behavior, speech, and langauge. To achieve these goals, we have used a variety of imaging modalities including structural MRI; diffusion MRI (dMRI); task-free functional MRI (tf-fMRI); and FDG, amyloid, and tau PET. Over the last few years, this core has also focused on the development of longitudinal processing pipelines for multiple imaging modalities to facilitate tracking disease over time. In the next cycle of the PPG, the Imaging Core will continue to support novel uses of brain imaging to validate new assessments of emotion and language (in Project 1: Language and Emotions); develop biological markers of specific proteinopathies (Project 2: Molecular Biomarkers); understand the factors that influence caregiver health (Project 3: Caregiver Health); and understand cognitive resilience, variation in rates of decline, and develop a new clinical trials meaure (Project 4: FTD Heterogeneity). All of these projects will utilize cross-sectional and longitudinal imaging data generated by this core, in particular structural MRI, dMRI, and tf-fMRI. To support this work, the Imaging Core will pursue the following aims: Aim 1: Collection and archiving of images and maintainenance of an image database. We will collect and manage the following MRI sequences in patients with the behavioral variant of FTD; the nonfluent, semantic, and logopenic variants of primary progressive aphasia; corticobasal syndrome; progressive supranuclear palsy-Richardson’s syndrome; and Alzheimer’s diseas;, and in controls: MP-RAGE, FLAIR, dMRI, ASL-perfusion tf-fMRI, and T2-weighted MRI. We will also acquire 18F-PI2620 and 18F-Florbetaben PET scans in patients for whom clinical features and blood biomarkers for AD are inconsistent. Aim 2: Extraction of imaging data to create cross-sectional estimates of structure, function, and molecular pathology. We will generate regional estimates of volume and structural connectivity coinciding with the baseline visit for each participant. Aim 3: Creation of longitudinal MRI-based change data. We will generate regional estimates of volume and structural connectivity coinciding with each visit in each participant, and voxelwise maps of longitudinal change in volume and white matter integrity. Aim 4: Data archiving and analytical consultation. We will work with PPG investigators and staff and other researchers at our center to incorporate imaging data into their analyses."
+ },
+ {
+  "id": "dd8c740e-6652-4e59-ae03-61ee26b9ae2d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating the anti-tumor roles of tumor-draining lymph nodes in renal cell carcinoma",
+  "text": "Cytotoxic CD8+ T cells play critical roles in anti-tumor immunity, but they become exhausted in the solid tumor\nmicroenvironment and lose the ability to kill cancer cells. Studies in mice demonstrate that stem-like CD8+ T\ncells in the tumor-draining lymph nodes (tdLNs) play a key role in sustaining anti-tumor immunity, but how this\ntranslates to human solid tumors remains unclear. This project aims to leverage complementary human and\nmouse models of renal cell carcinoma to investigate how CD8+ T cell subsets and tdLNs drive anti-tumor\nimmunity, advancing our understanding of these mechanisms and informing the development of adoptive cell\ntherapies."
+ },
+ {
+  "id": "dd8ca603-bcbf-40d4-afac-e067c824993c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "CLEC16A-Driven Regulation of Astrocytes",
+  "text": "Astrocytes play important roles in central nervous system (CNS) physiology and pathology. Indeed, specific\nastrocyte subsets contribute to the pathology of neurologic diseases including multiple sclerosis (MS), but little\nis known about the control of disease-promoting astrocyte responses and their therapeutic targeting. In this\nproject we use novel genomic and interactomic tools, animal models and clinical samples to investigate the\nregulation of pathogenic astrocyte responses and subsets in MS, and approaches for their therapeutic targeting."
+ },
+ {
+  "id": "dd930ac8-7142-4f6d-9db2-6975ebd2b086",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Technologies to study and control patterning and differentiation in multicellular development, a case study for multilayered arterial wall of controlled thickness",
+  "text": "Naturally evolved genetic networks based on signals and receptors are implicated in the normal development of\nembryos and adult homeostasis of organs like for example arterial vessels and, when disrupted, can cause\ndevelopmental abnormalities, cancers, and degenerative diseases. To cure diseases, we need to understand\nhow genes control signaling networks at multiple scales, and how these networks drive cells to form coherent\nfunctional tissues and organs or dysfunctional disease states. We propose to use approaches of synthetic\nbiology to control signals and receptors that would affect cell-cell signaling, with application to the construction\nof a multilayered arterial tissue, to increase our understanding of cell decision-making in multicellular contexts\nand to construct more realistic model systems."
+ },
+ {
+  "id": "dd937a5e-711e-4e89-aaf3-bd4fc549fcc2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cutaneous biomarkers of pediatric non-alcoholic fatty liver disease",
+  "text": "Non-alcoholic fatty liver disease (NAFLD) is the most common liver disease in the world, affecting 8% of all\nchildren and 34% or more of those with obesity. This study will determine and validate the role of skin surface\nlipids, which can be collected using painless tape stripping, as novel, non-invasive biomarkers of disease\npresence and severity in youth with NAFLD. The results have the potential to revolutionize clinical practice and\nto enhance therapeutic discovery, which is currently limited by the need for invasive liver biopsies to accurately\ndetect and stage disease severity."
+ },
+ {
+  "id": "dd957d4f-59aa-4729-851e-3ce2efa7241a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Imaging intracerebral and systemic T cell immunity in patients with Alzheimer's disease using 18F-F-AraG",
+  "text": "(Relevance)\nThe development of an imaging method for noninvasive detection of aberrant T cell activity in\npatients with Alzheimer disease is crucial for enhancing our understating of the role of adaptive\nimmunity in the development and progression of Alzheimer disease. This technique has the\npotential to pave the way for new immunotherapy approaches and fundamentally change the\nparadigm by which Alzheimer's disease is treated and managed."
+ }
+]

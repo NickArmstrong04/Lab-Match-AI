@@ -1,0 +1,142 @@
+[
+ {
+  "id": "15177ba2-744b-4672-9b73-bde85011b386",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Advancing Thyroid Cancer Diagnostics with AI-enhanced Multimodal Optical Histopathology",
+  "text": "The proposed project offers substantial public health advantages by potentially transforming the diagnosis of\nthyroid cancer and lymph node metastasis. By creating an AI-powered multimodal, nonlinear, and label-free\noptical microscopy imaging system, diagnosis can be accelerated compared to current histopathology or\ncytopathology methods. Expanding the benchtop microscopy system into a label-free multimodal\nmicroendoscope enables virtual histopathology without tissue excision, facilitating near real-time accurate\ndiagnosis."
+ },
+ {
+  "id": "15192046-d1c0-4757-b044-dc739b88a8ac",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Advanced Biological Imaging and Cell Analysis (ABICA)",
+  "text": "Breakthroughs in biomedical research are increasingly dependent on the integration of sophisticated technologies capable of measuring, imaging, and engineering biomolecules with higher spatial and temporal resolution. The aim of the Advanced Biological Imaging and Cell Analysis (ABICA) Research Core is to support the Center for Advanced Molecular Pathogenesis (CAMP) with state-of-the-art instrumentation and technical expertise that will accelerate scientific breakthroughs, while improving rigor and reproducibility of CAMP research programs. The long-term goal of the ABICA Research Core is to create a sustainable resource that contributes to the recruitment, development, and retention of nationally competitive investigators who share a common interest in translating fundamental new discoveries in molecular pathogenesis into new treatments, vaccines, cures, and diagnostics. To achieve this goal, we propose two specific aims: 1) Provide integrated access to cutting-edge, imaging-based technologies and instrumentation that support CAMP research in molecular pathogenesis and 2) Provide education, training, technical support, and assistance with data analysis for Research Project Leaders (RPLs) and Pilot Project Leaders (PPLs). Instrumentation within the ABICA Research Core will enable high resolution structural biology (cryo-TEM), live cell imaging of specific biological and chemical moieties (light, fluorescence, and Raman microscopy), and multimodal single-cell analysis and cell-sorting of complex cell populations. RPLs and PPLs will have priority access to this equipment and the prerogative to use the instrumentation independently or benefit from technical assistance provided by the staff and a team of technical experts. The ABICA Research Core has been intentionally structured to provide wraparound services that include one-on-one training opportunities and group workshops that are accompanied by external technical experts who are invited to participate in CAMP seminars. These seminars and training workshops will be responsive to the needs of RPLs and PPLs, with topics that range from sample preparation to data collection and data analysis, while also extending the scientific network of RPLs and PPLs to technical experts outside of MSU. We anticipate that this integrated approach will expose RPLs and PPLs to innovative new technologies that enable novel experimental directions and foster new collaborations. Resources provided by the ABICA Research Core will help RPLs, PPLs, and other CAMP-associated investigators across the Northwest Rockies region achieve their scientific objectives and career goals. Collectively, the ABICA Research Core will build biomedical research capacity by connecting a critical mass of new investigators with state-of-the-art technologies to enable creative discoveries that benefit humanity."
+ },
+ {
+  "id": "151ffaeb-4704-42bd-a57e-a7a969ef4cf7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Bioengineering the bone microenvironment for improved craniofacial regeneration leveraging biomimetic mechanotransduction",
+  "text": "This work aims to enhance craniofacial reconstruction by developing a nuanced understanding of the\nmechanisms underlying bone regeneration, focusing on the influence of the microenvironment in this process.\nBy engineering a series of biomimicking hydrogels that replicate the stages of bone formation, this project seeks\nto evaluate the role of the microenvironment, by varying matrix density and mineralization, on stem cell\ndifferentiation and bone regeneration, aiming to find factors conducive to faster healing to overcome the\nlimitations of current bone grafting methods. The potential to accelerate bone regeneration presents profound\npublic health implications, including decreasing the dependency on limited donor grafts, eliminating donor-site\nmorbidity, expediting patient recovery, and broadening treatment options for managing bone loss."
+ },
+ {
+  "id": "15280711-c20c-4be5-af2c-c35105fe6ebe",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project 3",
+  "text": "The proposed research is relevant to the public health because genetic and acquired diseases affecting the\nairways pose major disease and economic burdens. This proposal takes an innovative approach using gene\ntherapy to modify cells lining the airways. In this proposal, our goal is to create reagents and delivery tools with\nthe ability to efficiently, safely, and persistently complement PCD genetic defects in appropriate cell types."
+ },
+ {
+  "id": "1531dc44-9c92-4732-a924-30f9dc927bbf",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Functional Genomics and Bioinformatics Data management Core",
+  "text": "FGBDMC ABSTRACT: The University of California, Irvine (UCI) MODEL-AD Functional Genomics and Bioinformatics Data Management Core (FGBDMC) will centralize all functional genomics as well as bioinformatics tasks to support the efforts of the UCI MODEL-AD Center. The core will characterize deeply UCI Late-Onset AD (LOAD) mouse models using bulk as well as single-cell techniques, and advise the UCI MODEL-AD Disease Model Development and Phenotyping Project (DMP) as to the best combination of variants and genetic backgrounds for subsequent models. Specifically, the FGBDMC will: 1) characterize novel mouse AD models using bulk RNA sequencing to identify model-specific changes in gene expression, 2) characterize selected mouse AD models using single-cell and single-nucleus RNA-seq and ATAC-seq to identify cell-type specific changes in gene expression and chromatin accessibility associated with AD GWAS risk-variant function, 3) analyze integratively all UCI MODEL-AD ‘omics data with AMP-AD and other publicly-available data in order to characterize the human AD relevance of the novel UCI mouse AD models as well as to predict the best variant combination to support DMP efforts, and 4) make UCI MODEL-AD results accessible on the Sage Bionetworks Synapse Portal."
+ },
+ {
+  "id": "1537c3a8-6438-43b1-a216-cb2359a558bd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Time to ATTAC: Adoptive Transfer of T cells Against gp100+ Cells to treat LAM",
+  "text": "We will prepare transgenic T cells targeting melanoma-associated antigens, and optimize their attributes for\neffective targeting of cells responsible for tumor nodule formation in lymphangioleiomyomatosis (LAM). Efficacy\ntesting in vitro and in vivo will be accompanied by state-of-the-art immune monitoring, with the objective of\ndeveloping a safe and effective approach to eliminating LAM lesions."
+ },
+ {
+  "id": "15384c77-5aed-429b-9c68-829a3e93f3dc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Composition and function of Optix-Cofactor transcription complexes in the eye.",
+  "text": "Fly Optix and its homologs human SIX3 and SIX6 are evolutionarily conserved transcription factors that\ncontrol cell fate, morphology, proliferation and survival in the eye, and in other tissues and organs of\nmetazoans. In humans, mutations in SIX family transcription factors and some of their partner co-factors\n(CoFs) have been shown to cause birth defects (e.g., HPE2, Microphthalmia, and Coloboma) and\nsusceptibility to disease (POAG). The strong conservation of SIX factors and CoFs from human to fly\nenables us to use the fly to perform detailed analyses of Optix-CoF interactions and gain insight not only\ninto fly eye and brain development but also into properties of SIX-CoF complexes most likely relevant to\nhuman birth defects and disease."
+ },
+ {
+  "id": "1538bcd5-3139-4413-a3fc-72c02a88ec2b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Functional role of Gastrin Releasing Peptide (GRP) and GRP expressing neurons in the gustatory cortex",
+  "text": "Taste and appetite are inherently intertwined, yet very little in known about the cortical circuits that integrate\ngustatory perception and expectation with interoception related to hunger/satiety. The gustatory cortex has been\nextensively studied for its involvement in taste perception and expectation, and for its role in mediating taste-\nrelated behaviors, decisions and learning. Recent data show that cortical responses to taste, anticipatory cues\nand spontaneous activity are affected by hunger and thirst. Yet, the nature and the function of these interoceptive\nhomeostatic signals in the cortex is poorly understood. Here we propose to address this gap, focusing on a\npopulation of gustatory cortical neurons expressing gastrin-releasing peptide (GRP), a feeding-suppressing\npeptide. Neurons containing GRP are ideal candidates to integrate gustatory perception, expectation and\ninteroception, and drive behavior through release of GRP.\n We will combine anatomical and electrophysiological analyses, cellular imaging and manipulations of neural\nactivity to unveil the organization and function of GRP in the circuit involving the gustatory cortex and the\nbasolateral amygdala. The results of this research will advance our understanding of the neural basis of taste-\nbased consumption and help us revise existing models of the function of the gustatory cortex. In addition to\nfurthering our knowledge, this work will test the validity of GRP as a target for modulating feeding behaviors."
+ },
+ {
+  "id": "153d7958-1bb6-4fc0-9bdf-b896cbadd86f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "UCSF Environmental Research and Translation for Health Center (EaRTH Center)",
+  "text": "Established in 2020, the UCSF Environmental Research and Translation for Health (EaRTH) Center has\nbecome a beacon for multi-disciplinary research, innovation, and engagement. With a focus on vulnerable\nperiods of development and highly exposed populations, EaRTH has made significant achievements through\nhigh impact published papers, novel laboratory approaches, and evidence-based clinical improvements and\npublic policies. Through partnerships, state-of-the-art infrastructure, and a transdisciplinary approach, EaRTH\nwill continue to catalyze new research, foster collaborations, mentor the next generation of environmental\nhealth researchers, and accelerate health-positive systemic change."
+ },
+ {
+  "id": "15434e6d-3e90-4a2c-b59c-626d27dd30b5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Melanocortin 4 receptor agonists to treat sleep disordered breathing in obesity",
+  "text": "Obesity hypoventilation syndrome, accumulation of carbon dioxide in the body, is the most severe form of\nsleep disordered breathing, which does not have effective drug therapy. We have collected preliminary data\nshowing that a melanocortin 4 receptor (MC4R) agonist setmelanotide, which is FDA approved to treat genetic\nobesity, is a powerful stimulator of breathing, and will perform a randomized controlled trial of this drug in mice\nwith obesity hypoventilation and sleep apnea. We will employ state-of-the-art neuroscience tools to identify\nspecific neurons in the brain in which MC4R agonists work to stimulate breathing, enhance responses to carbon\ndioxide and treat obesity hypoventilation and sleep apnea."
+ },
+ {
+  "id": "1546435f-8be8-46c6-b71a-d69620b93bed",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Electrophysiological Events Underlying Human Gastric Motility.",
+  "text": "Functional disorders of the stomach plague many patients in the United States and present significant health\ncare costs. Relief from these problems depends upon better understanding of the mechanisms underlying gastric\nmotor activity. To date, little is known about mechanisms of electrical pacemaker activity and propagation of\nelectrical activity in the human stomach, and many clinical diagnoses and decisions rely heavily on information\nobtained from studies of laboratory animals. This proposal examines the mechanisms underlying human gastric\nmotility and will provide the first systematic NIH investigation of living human gastric muscles at a cellular and\nmechanistic level. We believe the results collected will help physicians understanding of how the human stomach\ngenerates and propagates the peristaltic contractions necessary for efficient gastric emptying and provide new\nideas to pharmaceutical companies attempting to design and implement effective treatments for functional\ngastric disorders."
+ },
+ {
+  "id": "154797cd-b922-43de-8efb-ee12f36e84a1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of Motor Neuron Injury in Acute Flaccid Myelitis",
+  "text": "Acute flaccid myelitis is an emerging infectious disorder caused primarily by Enterovirus D68\nthat resembles polio and is affecting increasing numbers of children in the Unites States and\nworldwide. It is poorly understood and therefore has few effective treatment options. To better\ndefine the pathophysiology of acute flaccid myelitis and evaluate therapeutic targets, I will study\nthe infection of motor neurons by Enterovirus D68 to evaluate the role of disrupted\nnucleocytoplasmic transport in motor neuron toxicity, define early events in motor neuron\npathology, and determine the role of host genetics in disease."
+ },
+ {
+  "id": "1548bca9-10f3-4880-9c3d-e4117eb7cc17",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The role of SAP positive T cells in lupus nephritis.",
+  "text": "Our group has previously demonstrated that unfavorable outcomes in lupus nephritis (LN) are linked to\ntubulointerstitial inflammation, characterized by the presence of kidney-infiltrating T cells with elevated levels of\nSAP (SLAM Associated Protein). This study will test for clonal proliferation of SAP+ T cells, determine the enriched\nsignaling pathways in these cells, and validate their localization in the LN microenvironment. (Aim 1). The\nmechanisms by which SAP signaling regulates T cell survival and differentiation will be investigated in an in vitro\nexperimental setup with epigenetic modifications of target genes as the readout. (Aim 2)."
+ },
+ {
+  "id": "154d4b12-fb44-4dc6-91b8-e46b2d93691a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The impact of inflammation induced alterations to microbially derived bile acids on susceptibility and severity of Clostridioides difficile infection",
+  "text": "Despite increasing incidence of Clostridioides difficile infection (CDI) in inflammatory bowel disease (IBD)\npatients, the mechanism by which IBD confers susceptibility is unknown. The aim of this proposal is to define\nthe role of the gut microbiota and the microbially derived secondary bile acids in conferring susceptibility and\ncontributing to the severity of C. difficile infection during intestinal inflammation caused by IBD. The work in this\nproposal will directly impact public health through the development of novel non-antibiotic therapeutic and\npreventative interventions aimed at substantially reducing morbidity, mortality, and health care costs for IBD\npatients with CDI."
+ },
+ {
+  "id": "154d6994-3b8e-4802-b4a6-91465e68bf4f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular Mechanisms of Chromatin Remodeling and Deacetylation",
+  "text": "ATP-dependent chromatin remodeling and covalent histone-modifying\npathways are essential for gene regulation, and their disruption is linked to diseases such as cancer. This\nproposal aims to investigate the molecular mechanisms governing chromatin remodeling and regulation, with a\nfocus on chromatin dynamics, post-translational histone modifications, and the interplay between these\nprocesses. By uncovering these mechanisms, we seek to advance our understanding of disease prevention and\ndevelop more effective treatment strategies for conditions associated with disrupted chromatin remodeling,\nincluding cancer and developmental disorders."
+ },
+ {
+  "id": "15512521-87b1-4e46-ae47-eddbae7bc4d4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Elucidating the pathogenic mechanisms by which KAT6A mutations alter human in vitro neurodevelopment",
+  "text": "(Limit: Three sentences)\nThe KAT6A gene is a key epigenetic regulator of human neurodevelopment, causing a rare monogenic\nneurodevelopmental disorder (NDD) called Arboleda-Tham Syndrome (ARTHS, OMIM#616268) when mutated\nin utero. This project will enhance our currently-sparse mechanistic understanding of KAT6A’s influence on\ngene regulation & cell phenotypes during human in vitro neurodevelopment to identify potential therapies for\nARTHS -- thereby serving as a framework for other monogenic NDDs. Our approach identifies the effects of\nnonsense KAT6A mutations (i.e. protein-truncating) on gene regulation & cell phenotypes during neuronal\ndifferentiation using cutting-edge omics technologies and novel ARTHS induced pluripotent stem cells,\nfollowed by orthogonal validation of key findings using KAT6A-specific loss-of-function inhibitors."
+ },
+ {
+  "id": "1555d232-508f-4aa3-988f-376aaee17bdc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cellular mechanisms governing nutrient sensing and organismal energy homeostasis",
+  "text": "Fat reserves release hormones called adipokines that act on neural circuits to regulate decisions on several\nphysiological processes including hunger, immunity, and reproduction. If not tightly coupled to energy status,\nadipokine release is detrimental to the organism and leads to obesity and metabolic disorders. By studying how\nfat stores communicate nutrient state to an organism we will elucidate the molecular and cellular mechanisms\nthat underpin healthy energy balance."
+ },
+ {
+  "id": "155c74a7-3e2b-4ed6-abbb-6ca1dbe0d978",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating CD4+ T cell memory in cancer immunotherapy",
+  "text": "Immunotherapy has revealed the potential of the immune system to mediate durable tumor control via\nimmunological memory. This proposal seeks to determine how the immune system initiates anti-tumor ‘memory’\nand how cancer disrupts this process. Better understanding of the pathways underlying immune memory may\ndirect the development of novel immunotherapy strategies to improve outcomes for patients with cancer."
+ },
+ {
+  "id": "155cf277-9922-4949-9f4d-23764146aca8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A New Method to Comprehensively Profile Cell-Free RNA",
+  "text": "Cell-free RNA (cfRNA) in blood and urine originates from diverse cellular sources and reflects real-time immune\nactivity and tissue damage, offering diagnostic potential in conditions like pediatric inflammation, tuberculosis,\npreeclampsia, cancer, and transplantation. However, existing library preparation methods introduce biases\nfavoring either short or long RNAs, limiting the ability to fully leverage cfRNA for clinical applications. This project\nwill develop an unbiased library preparation method using advanced chemistries and high-performance enzymes\nto enable comprehensive cfRNA profiling, unlocking its full potential as a molecular fingerprint for disease\ndetection and precision medicine."
+ },
+ {
+  "id": "155deac5-7aac-4f5b-9b31-2806fde2eed1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Data Management Core",
+  "text": "The Northwestern HeartShare Data Translation Center (DTC) Data Management Core will leverage prior leadership and experience in the field of machine learning for the identification of novel heart failure with preserved ejection fraction (HFpEF) subtypes, along with a track record of leading data management for multi- center studies, to facilitate multi-dimensional, multi-omics analyses (including machine learning/artificial intelligence) for the entire HeartShare program. The HeartShare Data Management Core includes a highly integrated team of individuals from a variety of disciplines with expertise in data coordinating center operations, statistics, machine learning, omics, and HFpEF. These experts will work in concert to achieve the following specific aims: (1) to develop procedures and standards for data pooling, cleaning, and harmonization of all data from cohorts and trials; compile the data as a shared resource for the research community; and host these data on BioData Catalyst as part of the retrospective component of HeartShare; (2) to integrate self-reported data, home monitoring data from mobile health (mHealth) technologies, environmental data, electronic health record (EHR) data (including natural language processing [NLP] techniques), deep phenotyping data, and outcome data into a core data resource for the prospective component of HeartShare; (3) to create integrated biorepository and imaging repository resources; coordinate these resources with TOPMed; and facilitate automated deep learning analyses of images relevant to HeartShare; and (4) plan and facilitate advanced analytics (multi-omics and machine learning analyses) to identify HFpEF subtypes and the pathobiological basis underlying these subtypes. The Data Management Core will also ensure efficient visualization, reporting, and communication of findings; and we will work with BioData Catalyst experts in our Data Portal Core to transition publicly available data into cloud storage, implement governance within BioData Catalyst, and make tools and workflows cloud compatible."
+ }
+]

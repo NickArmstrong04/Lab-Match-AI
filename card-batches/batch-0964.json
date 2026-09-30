@@ -1,0 +1,142 @@
+[
+ {
+  "id": "cb7bd7f6-e181-45b5-9fab-3a8a36e351ae",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Alpha-Emitter Therapy of Osteosarcoma",
+  "text": "Metastatic osteosarcoma (OS) in people and dogs is almost uniformly fatal with little advances in treatment in\nthe past four decades. Alpha-emitter therapy offers a targeted means to treat metastatic OS and is impervious\nto treatment resistance often seen with chemotherapy, radiation therapy, and immunotherapy. Using a\nspontaneously occurring canine OS in client-owned pets, we will investigate the efficacy and toxicity of alpha-\nemitter therapy in a real-world model for future translation to human OS patients."
+ },
+ {
+  "id": "cb7c086e-bf2d-4ad2-9de0-69efaab00c77",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Revealing cell-level gene regulation through integration of single-cell multi-omics measurements",
+  "text": "The proposed research aims to infer gene regulation at the single-cell level. Revealing cell-level gene regulation\nwould not only help to unveil the mystery of the working principle of different living organisms but also provide\ninsights for disease diagnosis, treatment, and prevention."
+ },
+ {
+  "id": "cb7f053b-8ad3-4a5d-954f-51faad4a11f3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Lymph Node-Targeted Codelivery of Albumin-Binding Peptide Antigens and Di-Adjuvant for Melanoma Combination Immunotherapy",
+  "text": "Melanoma is the most serious type of skin cancer with a low survival rate at advanced stages. Here, we propose\n1) developing a melanoma peptide vaccine delivery system for effective antitumor immunomodulation, and 2)\ntesting such delivered vaccines to elicit potent, broad, and long-lasting immune responses to promote the\nefficacy of melanoma combination immunotherapy. The results may improve the clinical practice and outcomes\nof melanoma treatment.\n1"
+ },
+ {
+  "id": "cb88166a-fb9b-4cf7-b431-e39ea5b1c699",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular Biology and Gene Delivery Core",
+  "text": "PROJECT SUMMARY – MBGD CORE The Molecular Biology & Gene Delivery (MBGD) core is a consolidated core of the previous Biochemistry and Molecular Instrumentation (BMBI) core and Gene & Cell Delivery (G&CD) core. This MBGD core is an essential resource supporting vision research activities at UCLA and will be heavily used in the coming years. The director of the MBGD core is Dr. Xian-Jie Yang, Professor of Ophthalmology, with expertise in molecular biology, neurodevelopment, stem cell biology, mouse genetics, and viral vector-mediated gene delivery. The major part of the MBGD core consists of common equipment and instrumentations required for research using biochemistry and molecular biology approaches. These include instruments such as autoclaves, various spectrophotometers, centrifuges, incubators, microplate readers, immunoassay protein analyzers, and PCR machines for DNA amplification and RNA analysis. Most of these instruments are basic but their utilization is extensive and fundamental for the specific research program of each laboratory. A majority of our core investigators employ basic biochemistry and molecular biological tools to prepare and analyze various biological samples qualitatively and quantitatively. The research activities include molecular cloning, RNA and DNA preparation, PCR genotyping of genetically engineered mice, gene expression analysis by qPCR, mutagenesis and CRISPR-Cas gene editing, protein extraction and expression analysis using Western blot, biochemical and enzymatic assays by microplate readers. Besides the common instruments, this core also includes specialized spectrophotometers with capabilities of fluorescence, UV and near/infra-red wavelengths. Several recently acquired instruments, including the Lonza 4d-Nucleofector, Applied Biosystems Digital Absolute Q for digital PCR, and SONY MA900 Multi-Application Cell Sorter, have further updated and enhanced the capacity of the MBGD core. To serve the research needs of gene delivery, the MBGD core has established a viral production facility to produce recombinant lentiviruses and AAVs for UCLA vision researchers. This facility is staffed with a specialist who is skilled to produce high titer purified lentiviral and AAV stocks at low cost for various research projects involving gene delivery in vitro and in vivo. The MBGD core director Dr. Xian-Jie Yang will consult with investigators on viral vector designs and supervise the core specialist to produce viral stocks and perform quality control assays. The MBGD core also has a designated mouse room, which is equipped with micromanipulators and a square-wave generator for in vivo eye electroporation and intraocular injections. The same facility can house post-operative mice deemed to need BSL2 containment. The MBGD core director Dr. Xian-Jie Yang will supervise the viral production and the core technician to ensure the continuous functionality and reliability. Additionally, each laboratory has a senior staff researcher who provides support and distributes established protocols to new trainees in our research community."
+ },
+ {
+  "id": "cb8a7b07-6a51-43aa-a220-495b47ac12e7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating Trypanosomatid life-cycle transitions using live-cell imaging",
+  "text": "Trypanosomatids are highly motile single-celled parasites that cause a range of deadly diseases\naround the world. Imaging live trypanosomatids has proven difficult, which has greatly limited our\nunderstanding of key events during the parasite life cycle, which are essential for elucidating how these\nparasites infect their hosts. We have developed a strategy employing agarose microwells that allows\nlive trypanosomatids to be imaged for days, permitting us to directly observe how these parasites\nundergo life cycle transitions for the first time, which will answer many open questions about their\nbiology."
+ },
+ {
+  "id": "cb8d2992-e79f-4ab5-93bc-8133ffc6aaf9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Shared Resource Core 1: Molecular Data Science and Advanced Dosimetry",
+  "text": "The convergence of radiation oncology, cancer genomics, data science, computational modeling, and artificial intelligence presents spectacular opportunities and challenges. In the Harvard/UCSF ROBIN, we propose to capitalize on these opportunities to improve our understanding of radiation response and resistance. The clinical vehicles for our ROBIN Center are diffuse midline gliomas (DMGs) and neuroblastoma, the two most clinically significant pediatric tumors of neural ectodermal origin. We hypothesize that intratumoral heterogeneity drives radiation response and resistance, and that the mechanisms thereof can be identified by deciphering tumor cell-intrinsic and -extrinsic components of the tumor microenvironment before, during, and after radiotherapy. The Molecular Data Science and Advanced Dosimetry Core (Data Science Core) is an essential component of the Harvard/UCSF ROBIN Center. It will serve as the hub for data storage and management, analysis, and integration of all molecular datatypes generated by the Center, advanced dosimetry modeling, and predictive computational modeling platforms. Specifically, the Core will work to (i) retrieve, curate, and manage molecular data related to the Harvard/UCSF ROBIN Center and provide the infrastructure necessary to efficiently provide access to all data required for achieving the ROBIN goals; (ii) analyze and integrate all molecular data types generated in Projects 1 and 2; (iii) generate advanced dosimetry data, including accurate distributions of dose for radionuclide therapy and dose received by tumor cells, that are required to investigate the biological hypotheses proposed in Projects 1 and 2; (iv) conduct mechanistic modeling of radiation effects and evolution of resistance to radiotherapy that directly supports the aims of Projects 1 and 2 and can inform data collection and address the hypotheses of the ROBIN Center; and (v) share findings and novel methods with the ROBIN Network and the scientific community at large. Toward these ends, the Core will coordinate its activities closely with Projects 1 and 2 and the other cores, in particular with the AI Core, focusing on imaging, radiomics, and natural language processing, and the Molecular Characterization Trial. The Core will also work closely with the Cross-Training Core and the Administrative Core to reach other members of the ROBIN Network and the larger scientific community. The Core will be directed by two investigators, Drs. Michor and Seo, who have expansive and complementary expertise and have assembled a team of experienced investigators to contribute to the goals of the Core. We anticipate that the results of the Data Science Core will be broadly utilized by all components of the ROBIN Center and the larger ROBIN Network as well as the broader scientific community, and will significantly contribute to understanding data science and dosimetry/cancer evolution aspects across a broad suite of cancers and treatments."
+ },
+ {
+  "id": "cb8fe690-12db-4afa-a97c-94b9930a1074",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Predictors of Momentary Smoking Lapse Among Adults Who Smoke Menthol Cigarettes",
+  "text": "Adults who smoke menthol cigarettes experience disproportionate tobacco-caused health burdens and have increased difficulty quitting smoking. Our novel examination of momentary predictors of smoking lapse will further our understanding of how to prevent smoking lapses and relapse among adults who smoke menthol cigarettes and try to quit smoking. These data can be used to inform high-impact, technology-supported observational studies and interventions aimed at mitigating differences in tobacco-related outcomes among adults who smoke menthol cigarettes."
+ },
+ {
+  "id": "cb943b50-b3e3-45d6-bb7d-d8d96e0c4687",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "United Imaging uNeuroExplorer Brain PET/CT Scanner",
+  "text": "This proposal requests funds to purchase a state-of-the-art positron emission tomography/computed\ntomography (PET/CT) brain scanner, the United Imaging (UI) uNeuroEXPLORER, to meet the demands of the\nvibrant PET neuroimaging research community at the University of Pittsburgh. This program has been\nresponsible for translational research successes with worldwide impact such as the development of the original\nPET/CT scanner and non-invasive imaging agents for brain beta-amyloid (Ab) deposits, a hallmark pathology in\nAlzheimer’s disease (AD). The availability of a state-of-the-art PET/CT scanner designed expressly for brain\nimaging, with unparalleled performance in terms of resolution and sensitivity, will significantly enhance our PET\nneuroimaging research by enabling the collection of ultra-high resolution human brain PET images with excellent\nstatistical noise properties, yielding significant improvements in image data accuracy and allowing the study of\nsmall brain structures relevant to neurologic and psychiatric disorders (such as AD and substance use disorder)\nthat were previously beyond the capabilities of human PET imaging."
+ },
+ {
+  "id": "cb95939a-44f2-4eff-93e0-542255b020ec",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Non-Canonical Functions of Polycomb Complexes in Health and Disease",
+  "text": "By converting both R01 grants into a MIRA-R35, our research endeavors to elucidate new mechanisms and\nfunctions of Polycomb complexes in human health and disease that include cancer and neurodevelopmental\ndisorders."
+ },
+ {
+  "id": "cb98d06e-651d-4231-b46f-fc01d7a81e9f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Core C: Mouse and Cell Phenotyping Core",
+  "text": "Core C has two overarching goals: (1) to provide reliable and technically consistent complex murine models of lung transplantation to identify pathways causally linked to primary graft dysfunction (PGD) and chronic lung allograft dysfunction (CLAD); (2) to provide the Project investigators expertise with established and emerging technology platforms for advanced phenotyping of mice and human tissues after lung transplantation. All four Projects will use these tools to test and validate their hypotheses. Because the technologies deployed by Core C generate unbiased data that can inform multiple studies, Core C will work with Core A to make this resource available to all PPG investigators and the research community. Achieving these goals will provide the PPG investigators with (1) quantitative insights into the molecular pathways that underlie the development of PGD and CLAD, (2) pathways that drive the enhanced incidence of allograft dysfunction in the presence of clinical risk factors, and (3) measurements of the response to current therapeutic strategies as well as novel, validated protein targets for therapeutic intervention. Accordingly, the Cell Phenotyping and Mouse core (Core C) will support all four scientific projects by focusing on the following specific aims: Aim 1: Provide well-characterized murine models of murine orthotopic lung transplant and live cell imaging of immune infiltration into the allograft. Core C investigators have published extensively using murine lung transplant PGD models and chronic lung allograft dysfunction. Core C measures of PaO2/FIO2 ratio, flow cytometry assessment of lung inflammatory cell populations, lung fibrosis measurements, murine pulse oximetry, and in vivo live imaging through a surgically placed window to accurately phenotype these models. Aim 2. Provide a multi-omic assessment of lung injury and fibrosis after lung transplantation using homologous approaches to those used in humans. Core C investigators have developed protocols to process lung tissue for various techniques that would undergo multi-omic bioinformatics analyses by Core B. These techniques include flow cytometry, single-cell RNA- seq/CITE seq, microbiome analysis, TCR profiling, whole genome DNA methylation assays, proteomics, and metabolomics. Core C will collaborate with Core C for the sequencing and bioinformatics analyses of murine tissues processed by Core C. Aim 3: Perform breeding and genotyping of all the murine strains, including the generation of tissue- and cell-type-specific knockout and reporter animals required by the Project Investigators. Core C will breed wild-type and genetically engineered mice, including global knockouts, conditional knockouts, and transgenic and overexpressing mice, to generate inducible cell-type- and tissue-specific knockout or overexpressing mice. Core C will maintain a centralized database of all animals and perform strategic planning according to experimental plans proposed by individual Project Leaders."
+ },
+ {
+  "id": "cb99a100-d12a-49d0-ad04-4529366bf061",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cancer Genomics Shared Resource",
+  "text": "CANCER GENOMICS SHARED RESOURCE (CGSR) The Sidney Kimmel Cancer Center (SKCC) Cancer Genomics Shared Resource (CGSR) provides investigators with state-of-the-art DNA and RNA analytic services through a coordinated and complementary multi-site team composed of expert faculty and staff. The CGSR provides faculty-level experimental design consultations, state- of-the-art laboratory services covering multiple levels of DNA and RNA analysis, education and training in applying available technologies, and assistance with grant applications and manuscript preparation. Multiple new sequencing instruments are in place, and new single cell and spatial sequencing technologies have been integrated. Specifically, a NovaSeq 6000 and Hamilton NGS-Star liquid handling robot were recently installed to increase throughput and reduce sequencing costs to SKCC investigators, while NextSeq 500 and MiSeq platforms remain available for targeted sequencing and pilot projects. Additional new instrumentation for single cell analysis include 10X Genomics Chromium Controller, Miltenyi Biotec GentleMACS Dissociator, and 10X Genomics Visium platform for unbiased spatial genomics. Furthermore, state-of-the-art long-read sequencing instruments for high-quality genome assembly, phasing, and repeat analysis are operational including the high- capacity, high-fidelity Pacific Biosciences Sequel IIe and the flexible ultra-long read Oxford Nanopore platform. The CGSR is led by Co-Directors Andrew South, PhD, and Brian Wigdahl, PhD. Wigdahl oversees the Drexel University (DU) site, which focuses on long-read sequencing, microbial genome and microbiome analysis, bioinformatic pipeline development, and preparation of diverse library types for functional genomics. South oversees the Thomas Jefferson University (TJU) site, which focuses on single cell analysis in addition to standard genetic and epigenetic approaches. The CGSR is located in the Bluemle Life Sciences Building (TJU) and New College Building (DU) and is easily accessible to all SKCC investigators via a short walk (<1 mile). The Specific Aims of the CGSR are to: 1) Provide long- and short-read DNA and RNA sequencing to SKCC investigators, 2) Develop single cell analysis for all tissues and model systems, and 3) Provide education and training to SKCC members, staff, and trainees. During the project period, the CGSR served 83 SKCC members, 45 (54.2%) of which had peer-reviewed funding, representing all four Research Programs. CGSR services were utilized by 126 total users in 96 peer reviewed publications (average impact factor 12.10) and 28 grant applications. In line with the SKCC strategic plan, IMPACT PHL, and under the guidance of the Co-Directors and advisory boards, the CGSR has set four goals for future development: 1) Hire additional personnel to perform single cell and spatial biology analyses and a project manager to assist with day-to-day operations, 2) Foster training seminars focused on particular technological advancements, 3) Collaborate with other SRs to integrate bioinformatics and microscopy into CGSR consultation and project management, and 4) Establish a user group independent of the SAC and EAB that includes SKCC trainees to provide additional review of services."
+ },
+ {
+  "id": "cb9dbfc3-6d90-4508-beff-5053e9188c0a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "EEGLab: Software Analysis of Human Brain Dynamics",
+  "text": "The EEGLAB signal processing environment is now used in many electrophysiological research\nand teaching laboratories worldwide. To accelerate progress in basic and clinical cognitive\nneuroscience, we will continue its development and maintenance, introducing new tools for\nsource separation, localization, and connectivity, and for across-studies metaanalysis, and will\nextend its scope to include processing of intracranial EEG data and multimodal mobile brain/body\nimaging (MoBI) data."
+ },
+ {
+  "id": "cba62015-a2f2-434c-ba3a-bf9381af1683",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project 4 - Astrocytic KATP channels in LATE+HS",
+  "text": "PROJECT 4 SUMMARY/ABSTRACT An astrocyte mechanism will be targeted with the goal of preventing a common subtype of dementia. Limbic- predominant age-related TDP-43 encephalopathy (LATE) and hippocampal sclerosis (HS) pathology are present at autopsy in approximately 25% of “Alzheimer’s-type dementia” cases. Notably, a specific ABCC9 gene variant is associated with increased risk of developing LATE+HS. ABCC9 encodes a protein that serves as a “metabolic sensor” linking brain hypoxia and stress to changes in intracellular calcium and blood flow. We hypothesize that dysregulation of ABCC9 in astrocytes causes or exacerbates LATE+HS via impaired cerebrovascular function, hypometabolism (with ionic dyshomeostasis), and neuronal hyperexcitability, aligning perfectly with themes of this P01. These astrocyte mechanisms can be targeted by a well-tolerated drug (nicorandil) that has been shown to be clinically safe and effective, with high potential public health impact. The research will be conducted with the following Specific Aims: Aim 1: Characterize ABCC9/SUR2 transcripts and proteins in human astrocytes. We will test the hypothesis that the ABCC9 genetic variant associated with LATE+HS risk is also associated with decreased ABCC9 expression in astrocytes. Astrocyte ABCC9 transcripts are mostly unknown. In human samples, we will evaluate the repertoire of mRNA transcripts and splicing in astrocytes. We will characterize ABCC9 gene expression with RNA-Seq data across cell types. In genotyped human brains from Core C (LATE+HS and controls), we will evaluate ABCC9 proteins immunohistochemically, and we will explore Sur2 expression in mouse models. Aim 2: Test the hypothesis that modulation of astrocytic ABCC9//KATP leads to improved neurovascular and metabolic function in LATE+HS model mice. The novel (TetR-TDP) mouse, an excellent animal model that has proven hippocampal cell loss, astrocytosis, TDP-43 proteinopathy, and memory impairment, will be used to test the impact of astrocyte specific ABCC9 upregulation on neurovascular function (multiphoton to look at neurovascular coupling and vessel leakiness; MRI to look at cerebral blood flow and other endpoints). The impact of astrocyte specific upregulation of SUR2B on brain metabolism will also be tested (glutamate uptake in astrocytes; Ca2+ dynamics [GCaMP]; and, MRS to characterize brain metabolites). Aim 3: Test the hypothesis that pharmacological modulation with nicorandil (a KATP channel agonist well-tolerated in oral preparations) leads to improved neuronal and astrocyte function and neurobehavioral assessment outcomes in TetR-TDP mice. These outcomes will include readouts of neurobehavioral parameters (RAWM and Y- maze) and other endpoints including electrophysiological assessments in astrocytes. Follow-up assessments will include detailed neuropathology (astrocytosis, HS, TDP-43 proteinopathy, and small vessel morphology). In summary, while studying the mechanisms of astrocyte metabolic and neurovascular pathophysiology in LATE+HS, we hope to test a novel therapeutic strategy."
+ },
+ {
+  "id": "cba66855-308f-444d-9842-8118347a2448",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Deep Learning-based Protein Design of HIV-1 Env GP120 Core Immunogens for CD4 Binding Site Germline Targeting",
+  "text": "Despite effective prevention tools, the annual incidence of new HIV-1 infections remains high, emphasizing the\nneed for a vaccine. This proposal introduces an innovative approach using deep learning to design immunogens\ncomputationally, expanding structural design possibilities to generate gp120 core immunogens that more closely\nresemble the pre-fusion gp120 and assess their potential to elicit potent B-cell responses for broadly neutralizing\nantibodies. This research will provide valuable insights into new antigen design techniques and their application in\nHIV-1 vaccine strategies."
+ },
+ {
+  "id": "cbaa8998-3439-4d0b-adfe-47fd50b54b10",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of capsid interactions with the viral RNA genome in assembly of HIV-1 cores",
+  "text": "The long-term efficacy of current antiretroviral therapies is compromised by the continual emergence of drug-\nresistant HIV-1 variants. The recently discovered HIV-1 capsid targeting antiretroviral lenacapavir has been\nsuccessfully used to treat people infected with multi-drug-resistant HIV-1 variants. Here, we propose to\ninvestigate a previously unknown yet essential function of HIV-1 capsid to interact with the viral RNA genome to\nform the infectious virions, which in turn will define new, clinically unexploited therapeutic targets for the\ndevelopment of next generation of antiretrovirals."
+ },
+ {
+  "id": "cbac5f6e-d342-4929-8111-7499243393c2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Key gut microbes shape intestinal epithelial lineage development, differentiation and metabolic function",
+  "text": "Proper lineage development and function of intestinal epithelium is critical to human health. Preliminary\nevidence suggests that epithelial PPARsignaling and fatty acid oxidation may be under the modulation of\nintestinal microbiota. This project will determine the mechanism of actions of how key members of human gut\nmicrobiota spatially shape epithelial differentiation and function along the crypt-villus axis and provide novel\nmetabolites that have potential to impact intestinal health."
+ },
+ {
+  "id": "cbaeecc0-04aa-4e73-8428-8ca98875ef52",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Hormonal regulation of sensory processing during parental care",
+  "text": "Sensory cues unique to dependent offspring, such as baby cries, elicit necessary and appropriate behavior from\nparents, but how these sounds are encoded by the brain to elicit behavioral responses is not well understood.\nThis proposal will test the hypothesis that prolactin, a hormone involved in both maternal and paternal behavior,\ninteracts with auditory circuits to alter the sensory processing of offspring cues, in order to elicit parental behavior.\nParents with postpartum mood disorders show lower neural activation to baby cries and subsequently display\nless or impaired parental behavior, leading to adverse child health and economical outcomes; therefore,\nunderstanding how parental brain circuits are able to detect and respond to offspring sensory cues during stages\nof parenting is imperative for developing novel interventions to effectively treat the unique impairments\nassociated with postpartum mood disorders."
+ },
+ {
+  "id": "cbb0678e-e555-4e14-9de0-028c57a2f29f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Novel macrophage-tropic transmitted/founder SHIV model of CNS persistence to evaluate CRISPR/Cas9 gene editing",
+  "text": "Narrative.\nCharacterization of the CNS reservoir and empiric testing of novel cure strategies require physiologically\nrelevant animal models of HIV persistence in the brain. Here, we propose to integrate major advances from our\ngroups in transmitted/founder (TF) SHIV NHP models and AAV-delivered CRISPR/Cas9 editing to delineate\nkey features of the CNS reservoir and assess a promising approach to eradicative cure. In coordinated NHP\nexperiments, we will use barcoded, macrophage-tropic TF SHIV.D to elucidate the mechanisms of CNS\npersistence and test the efficacy of global and myeloid-specific CRISPR/Cas9 gene editing to cure HIV."
+ },
+ {
+  "id": "cbb51606-0e9b-417f-8077-c116c18663e5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Imaging and computational platform for integrated analysis of biodata",
+  "text": "RELEVANCE TO PUBLIC HEALTH\nMany developmental and adult cases of neural injury and degeneration such as Alexander disease, multiple\nsclerosis and Alzheimer’s disease are associated with alterations in the development of glia (gliogenesis).\nHowever, studying gliogenesis using classical techniques is labor-intensive and tedious, as gliogenesis displays\nlarge variances in its spatial and temporal outputs. To address this challenge, we will develop a technological\nplatform that enables rapid and unbiased analysis of histological tissues with multiple labeled elements to reveal\neffects of genetic manipulation on gliogenesis."
+ },
+ {
+  "id": "cbb5f546-f21e-4c84-944a-ce240dc1363f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular Mechanisms Governing Non-canonical miR-146a Biogenesis",
+  "text": "Excessive inflammation contributes to serious autoimmune diseases and cancers, affecting millions of people\nworldwide. Our research aims to uncover how immune cells regulate the production of microRNA-146a, a small\nnoncoding RNA that acts as a natural \"brake\" on inflammation and immune cell activation. Understanding these\nregulatory processes will potentially lead to new treatments that restore proper levels of this anti-inflammatory\nmolecule in patients with inflammatory diseases and cancer."
+ }
+]

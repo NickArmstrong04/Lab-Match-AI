@@ -1,0 +1,142 @@
+[
+ {
+  "id": "ebd1b0d3-af45-472b-b1b6-5e398b88946d",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Multi-modal insights of spatially distributed cells with associations of diseases and drug response",
+  "text": "Recent advances of spatial technologies enable the elucidation of single-cell spatial heterogeneity, with\nunprecedented opportunities to decipher the underlying mechanisms of disease etiology and drug therapeutics.\nHowever, there is a lack of computational methods that leverage the strengths of data from different sources\n(e.g., genomics, epigenomics, clinical data) to achieve multi-modal insights into the spatially distributed cells. In\nthis project, we propose to develop a series of computational methods to recover the full picture of spatial profiles,\nunleash the power of spatial profiles for deciphering the regulatory mechanisms underpinning diseases and drug\nresponse."
+ },
+ {
+  "id": "ebd5e79c-3074-4b35-83c6-7e8ac2e66556",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Regional tau deposition and digital assessment of cognition in preclinical AD and MCI",
+  "text": "Clinical trials for Alzheimer’s disease are increasingly focused on preclinical and prodromal stages given that\npathological hallmarks (i.e., beta-amyloid plaques and tau protein aggregates) are present years before the\nonset of dementia. The applicant’s K99/R00 award examines these clinical stages and determines the precise\ncognitive consequences of early tau aggregation. By combining imaging and digital biomarkers in clinically\nnormal individuals and those with mild cognitive impairment, the applicant’s award improves the sensitivity and\nspecificity of Alzheimer’s disease diagnosis, the screening of individuals at highest risk for cognitive decline,\nand the monitoring of therapeutic response."
+ },
+ {
+  "id": "ebd97caa-ac84-4c93-9d81-f1c0929e1d7d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "PhysioNet: A FAIR and sustainable data repository",
+  "text": "Since 1999, PhysioNet has been a leader in providing free access to large, impacƞul databases of de-idenƟﬁed\nphysiological and clinical data. These resources are essenƟal for advancing machine learning and arƟﬁcial intelligence\n(ML/AI) in healthcare. Over the past decade, the use of PhysioNet data has grown near exponenƟally, creaƟng a need to\nstreamline and automate its operaƟons to conƟnue to serve its global user community with high-quality, carefully\ncurated data."
+ },
+ {
+  "id": "ebe263d6-1a28-4628-a937-a27a7f547875",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Role of DHCR7 in Endotoxemia",
+  "text": "Sepsis, or dysregulated host response to infection, is one of the most common causes of hospitalization\nin the U.S. with a high mortality rate. DHCR7, an enzyme involved in cholesterol synthesis, was\nassociated with mortality in human sepsis, and fish treated with a DHCR7 inhibitor were protected from\ntoxicity in a zebrafish model that recapitulates features of human sepsis. This proposal will clarify the\nmechanisms by which inhibition of this enzyme exerts a protective effect, with implications for the\ndevelopment of human sepsis therapeutics."
+ },
+ {
+  "id": "ebe2b4fb-b910-4284-9c5f-50f22e308da2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Circuit-Level Computations of Social Opportunity Costs under Foraging Constraints",
+  "text": "Pathological fixation on a single reward class—whether social isolation in autism or drug\nseeking in addiction—erodes health and quality of life. By revealing how specific brain\ncircuits normally balance social and primary drives under realistic ecological pressures, this\nwork will identify concrete neural targets for therapies aimed at restoring flexible,\ngoal-directed behavior in these and related psychiatric conditions."
+ },
+ {
+  "id": "ebe606c4-b70c-4272-880b-e04ab3b90056",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Oral and Craniofacial Sciences Health Research Training",
+  "text": "The UCSF Oral and Craniofacial Sciences training program educates exceptional students to apply scientific\napproaches to solve the most challenging problems in dental, oral and craniofacial health. The goal of this\ntraining grant is to provide the financial resources for education and training of DDS/PhD, PhD and\npostdoctoral fellows to become influential leaders in academic and industrial biomedical research, and other\nfields related to dental, oral and craniofacial science."
+ },
+ {
+  "id": "ebea3896-692c-4f86-9758-8ca106993198",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Allele-specific inactivation for dominant negative NEFL Mutations",
+  "text": "Genome editing technologies are poised to revolutionize the practice of modern medicine for the treatment of\ngenetic diseases. Novel strategies are needed to address the diversity of dominant genetic mutations that\ncause severe neurodegenerative diseases. The primary objective of this proposal is to develop and validate\nmultiple therapeutic gene editing approaches for dominant motor neuron diseases, using human induced\npluripotent stem cell models of Charcot-Marie-Tooth type 2E as a test case."
+ },
+ {
+  "id": "ebed9391-c98b-4240-93b1-22207176b3b3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "System for unitary automation of library preparation",
+  "text": "This TABA supplement will support the commercialization of an automated microfluidic system\nfor NGS library preparation, a critical step in genomic analysis. By enabling reliable, hands-free\nsample prep for low-input and FFPE samples, the technology will improve access to\nsequencing-based diagnostics and research tools. The requested support will accelerate market\nreadiness and adoption of this innovation in clinical, translational, and biomedical research\nsettings."
+ },
+ {
+  "id": "ebf30668-f321-43b4-a575-16aac0fdcd95",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "eDyNAmiC (extrachromosomal DNA in Cancer) - Understanding the biology of ecDNA generation and action, and developing new ways to target these mechanisms in cancer",
+  "text": "eDyNAmiC (extrachromosomal DNA in Cancer) Human genes are arranged on 23 pairs of chromosomes, but in cancer, tumour-promoting genes can free themselves from chromosomes and relocate to circular, extrachromosomal pieces of DNA (ecDNA). These ecDNA do not follow the normal “rules” of chromosomal inheritance, enabling tumours to achieve far higher levels of cancer-causing oncogenes than would otherwise be possible, and licensing cancers with a way to evolve and change their genomes to evade treatments at rates that would be unthinkable for human cells. The altered circular architecture of ecDNAs also changes the way that the cancer-causing genes are regulated and expressed, further contributing to aggressive tumour growth. These unique features make ecDNA-containing cancers especially aggressive and difficult to treat. Cancer patients whose tumours harbour ecDNA have markedly shorter survival. Despite being first seen over fifty years ago, the critical importance of ecDNA has only recently come to light, and the scale of the problem is substantial. ecDNAs are present in nearly half of all human cancer types and potentially up-to a third of all cancer patients. The collective current understanding of how ecDNA form, how they function, how they move around the cell, how they evolve to resist treatment, how they impact the immune system, and how they can be effectively targeted are lacking. We bring together an internationally recognized, pioneering interdisciplinary team of cancer biologists, geneticists, computer scientists, evolutionary biologists, mathematicians, clinicians, and patient advocates to boldly create novel insights and resources and to provide transformative solutions to one of Cancer’s Grand Challenges. A core team of experienced and productive ecDNA investigators will work with new investigators in the ecDNA and cancer fields to bring completely new perspectives and approaches to this daunting challenge. By bridging cutting-edge and diverse approaches and insights from cancer genomics, yeast genetics, epigenomics, artificial genome synthesis, longitudinal patient tracking, combinatorial and machine learning algorithms, mathematical modelling, immunobiology, and innovative chemistry we will develop a new understanding of the role of ecDNA in cancer, and we will find new ways to drug the undruggable. This bold programme, which consists of 7 work packages and a committed international infrastructure, generates new and unusual collaborations that would simply be impossible under any other type of funding mechanism. Our programme endeavours to foster bold innovative solutions to one of the hardest problems in cancer and to one of the greatest challenges facing cancer patients."
+ },
+ {
+  "id": "ebfad48f-6212-4f6c-8e80-9eef7454805f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cocaine effects on spatial patterns of striatal dopamine release",
+  "text": "Cocaine use disorder (CUD) is defined by a variety of symptoms, including disruptions in non-drug stimulus\nprocessing. The ability to perceive and respond appropriately to environmental stimuli is necessary for many\ntypes of learning and is dependent on dopamine release in the nucleus accumbens core. The goal of this project\nis to define how cocaine-induced alterations in the dopamine system disrupt spatial patterns of dopamine release\nin response to salient stimuli, providing a framework for how chronic cocaine use can dysregulate drug and non-\ndrug stimulus processing."
+ },
+ {
+  "id": "ebfc3adf-cc82-496e-a6ad-977e582a73a3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Additional Sequencing for the Alzheimer Disease Sequencing Project (ADSP) the Follow-Up Study (FUS), The Global Population Initiative",
+  "text": "This project will provide genotyping array and whole genome\nsequence data on an additional ~16,000 individuals and genotyping only data on ~7,650\nindividuals to continue to increase the ancestral detail of the sample sets that are part of\nthe Alzheimer's Disease Sequencing Project (ADSP). This will add to this invaluable\nresource for the Alzheimer's disease (AD) research community to enhance e􀆯orts to\ndiscover targets tor AD diagnosis, prevention, and treatment that apply to all individuals."
+ },
+ {
+  "id": "ec016855-aaa7-4871-9382-f3d14176fada",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Role of codon usage bias in eukaryotic evolution and regulation",
+  "text": "PROJECT NARATIVE\nDespite being a key step in the central dogma of biology, there are major gaps in our knowledge of the\ndynamics and downstream effects of the interaction between codons and tRNAs. This project explores the\nevolutionary and cellular consequences of codon biases and tRNA fluctuations. The findings of this work are\ncritical to the construction of evolutionary models and our understanding of cellular regulation."
+ },
+ {
+  "id": "ec02b3dc-adfb-4c0d-9632-864594262a7b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project 2: Acute Cocaine Sensitivity and Chronic Sensitization",
+  "text": "SENSITIZATION (PROJECT 2) Most people who use cocaine do not go on to develop a cocaine use disorder (CUD) suggesting that individual differences drive susceptibility to addiction. The progression from initial drug use to drug dependence is driven, in part, by genetic differences but there remain significant gaps in our knowledge of the genetic and biological etiologies underlying CUD. Individual differences in behavioral and neurobiological changes that occur in response to repeated drug exposure have been associated with CUD risk. In rodents, repeated psychostimulant exposure progressively augments locomotor activation – a phenomenon referred to as behavioral or psychomotor sensitization. Repeated exposure to drugs of abuse that yields psychomotor sensitization also alters the reward circuitry and results in hypersensitivity to the incentive motivational effects of drugs and drug- associated stimuli (incentive sensitization). Although psychomotor sensitization is often used as an indirect measure of underlying neuroadaptations, direct comparisons between individual variation in psychomotor sensitization and incentive sensitization have not been reported. The overall objective of Project 2 is to identify neurogenetic mechanisms contributing to individual differences in cocaine sensitization that may be relevant to patterns of drug use. Using our high-throughput screening regimen for behavioral sensitization developed over the current funding period, and implemented in the Behavioral Phenotyping Core, we found significant phenotypic variation in behavioral sensitization across 50 Collaborative Cross (CC) strains. We also identified CC strains with extreme phenotypes in cocaine-induced locomotor sensitivity and demonstrated that these strains exhibit divergent phenotypes in cocaine self-administration (Project 3). In this renewal, our research goals will be achieved with the following three aims: 1) To establish the relationship between behavioral and incentive sensitization in CC strains. In collaboration with the Behavioral Phenotyping Core, we will measure incentive sensitization in the same 50 CC strains. These studies will enable us to understand how strain variation in behavioral sensitization relates to differences in the motivational salience of cocaine. 2) To evaluate potential mechanisms for behavioral phenotypes observed in the CC. In collaboration with the Integrated Genetics and Genomics Core, we will characterize CC strains with extreme phenotypes to identify biological mechanisms that contribute to behavioral differences. 3) To validate candidate genes by studying behavioral sensitization and other CSNA behaviors in genetically engineered mouse models. In collaboration with the Mouse Resources and Validation Core, we will engineer overexpression and knockout models of Eed to test the role of this candidate gene in behavioral sensitization. We will also continue mapping efforts using our Diversity Outbred (DO) phenotype data to identify additional candidate genes for evaluation."
+ },
+ {
+  "id": "ec07afb1-d11d-4bd1-98fb-10f800229dfc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Models and Gene Therapies for AAT Deficiency-Project 2",
+  "text": "Project Summary – Project 2 Current methods for manufacturing recombinant adeno-associated virus (rAAV), such as plasmid triple transfection in HEK293 cells, are increasingly becoming a bottleneck to the advancement of rAAV gene therapy. Major challenges include: (1) the presence of various impurities - including plasmid DNA, empty capsids, and replication-competent AAV (rcAAV) - raises safety concerns and complicates downstream purification; (2) the growing demand for high-dose rAAV necessitates scalable production methods; and (3) the lower transduction efficiency of rAAV compared to wild-type AAV (wtAAV) often requires administration of excessive doses. These limitations are particularly problematic for gene therapy applications that require very high doses of rAAV, such as alpha-1 antitrypsin (AAT) gene replacement and gene editing therapies. Project 2 aims to address these challenges by developing innovative rAAV production methods that improve product purity, enable scalable manufacturing, and enhance vector potency. Successful implementation of these strategies will support high-dose AAT gene replacement and gene editing therapies in other projects within the Program Project. Additionally, the high-quality rAAV vectors produced will facilitate immunology studies to better understand and manage immune responses in gene therapy applications. The project focuses on three specific aims: (1) enhancing the AAVPureMfg platform to reduce rcAAV production and improve purity by using a conditional Rep mutant; (2) developing a producer cell line (PCL) approach for scalable, plasmid-free rAAV production; and (3) improving rAAV potency by mimicking the replication dynamics of wild-type AAV using the AAVPCR method. These advancements are expected to significantly improve the efficiency and safety of rAAV-based gene therapies, ultimately enabling their clinical translation."
+ },
+ {
+  "id": "ec0fcc58-fcce-45a2-851a-fda59b79e85f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "BioGRID: An open resource for biological interaction data and disease network analysis",
+  "text": "The BioGRID project provides a comprehensive, expertly-curated repository of biological interactions that are\nessential for understanding the molecular mechanisms underlying human health and disease. This project will\nimprove public health by providing researchers with high-quality, rich datasets that are critical for\nunderstanding disease mechanisms, identifying drug targets, and developing personalized medicine strategies\nusing AI and other advanced computational technologies. The implementation of AI-assisted curation and\nexpansion of BioGRID data coverage will accelerate biomedical discovery in areas such as autism spectrum\ndisorder, Alzheimer’s disease, and pediatric obesity and insulin resistance."
+ },
+ {
+  "id": "ec109977-353e-4ba4-95e0-fd1f076833ee",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "C9orf72-mediated features transcriptomic signatures and translational studies for frontotemporal dementia and related disorders",
+  "text": "A repetitive sequence in the C9orf72 gene is the most common known cause of two fatal diseases:\nfrontotemporal dementia (FTD) and amyotrophic lateral sclerosis (ALS). We will use innovative technologies to\ncapture changes in the transcriptome, or molecular hallmarks of these diseases, across affected brain regions\nand the spinal cord. Our in-depth studies will uncover culprits driving these diseases and aid in identifying\nurgently needed disease modifiers, biomarkers, and treatments."
+ },
+ {
+  "id": "ec11640d-7df5-45e6-acf4-72dd41920064",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Deep Learning Serial Radiomics for Improved Cancer Therapy Response Assessment.",
+  "text": "Global spending on clinical trials is approximately $200 billion, with oncology drug development\naccounting for about 45% of this total expenditure. However, despite this considerable\ninvestment, approximately 30-40% of Phase 3 oncology trials fail. These failures are largely due\nto the complex nature of cancer and the challenges in demonstrating both safety and efficacy in\nclinical trials. To address these costly failures, there is a growing focus on improving trial design\nand patient selection. Onc.AI is developing an automated imaging-based tool that is more\nprognostic of overall survival than current standard-of-care methods like RECIST. Our deep\nlearning serial imaging tool offers more accurate and early predictions of treatment outcomes,\nstreamlining the drug development process, reducing the risk of advancing ineffective treatments,\nand ultimately saving time and resources. Identifying the most promising therapies early on\nspares patients from unnecessary side effects associated with ineffective treatments thus\nimproving their overall quality of care. By integrating this tool into clinical trials, Onc.AI not only\naims to enhance the precision of early drug development but also to improve patient safety by\nensuring that only the most promising therapies proceed to later stages. This approach aligns\nwith the increasing demand in oncology to move beyond traditional response metrics and adopt\nmore sophisticated, data-driven methods for evaluating new treatments."
+ },
+ {
+  "id": "ec11a20b-8a2c-4662-93e3-bae99012dad7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identifying Mechanisms of Resistance to SLC6AB Inhibition in CRC Liver Metastasis",
+  "text": "Colorectal cancer (CRC), a killer disease both in men and women, metastasize to the liver, and survive by\nimporting phosphocreatine, as a source of energy in liver hypoxic environment. However, they become resistant\nto an inhibitor of phosphocreatine transporter. This study will uncover mechanisms of resistance using high\nthroughput and state-of-the-art approaches, aiming to improve clinical outcomes for patients with metastatic\nCRC."
+ },
+ {
+  "id": "ec18297e-9fda-400d-a6cd-eb6088f8ea9d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of AHR in Dendritic Cells in the Control of CNS Autoimmunity",
+  "text": "Autoimmune diseases are caused by the dysregulated activity of the immune system. This competitive renewal\nproposes to use unique experimental systems to study the mechanisms by which the aryl hydrocarbon receptor\ncontrols the immune response, and to identify potential therapeutic targets for immune-mediated diseases."
+ },
+ {
+  "id": "ec1a9d45-bd09-4511-b23e-1d3a1b2068b0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identification of New Biomarkers for Determining Risk of Lower Extremity Fracture during Exoskeleton-assisted Ambulation: Developing a Personal Rehabilitation Approach to Optimize Function after SCI",
+  "text": "There are ~285,000 people with traumatic spinal cord injury (SCI) currently living in the United States. Persons with\nchronic SCI represent a unique population that is permanently immobilized, which places them at heightened risk of\nfracture. An approach should be developed that could identify individuals who are at highest risk of fracture to enable\nthem to avoid activities that would further predispose them to fracture. With computed tomography (CT) imaging of the\nlegs and then processing the images with the assistance of sophisticated computer methods to determine the geometry and\nstrength (or weakness) of a region of interest, such an approach is now possible. The proposed study will develop new\nevidence-based biomarkers to identify persons with SCI at highest risk of long-bone and/or calcaneus fractures when\nparticipating in upright rehabilitation activities, specifically exoskeleton-assisted walking (EAW). The ability to predict\npersons with SCI who are at highest risk for fracture during EAW will allow evidence-based approaches to minimize the\noccurrence of fractures, prevent avoidable medical costs, and maximize participation in upright rehabilitation activities."
+ }
+]

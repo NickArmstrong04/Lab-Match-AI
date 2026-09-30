@@ -1,0 +1,142 @@
+[
+ {
+  "id": "ab990dd0-a742-4558-8fd2-4dc79a901a54",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Condensates in Ependymoma",
+  "text": "The overall goal of this proposal is to understand the role of condensate formation as a driver of oncogenic\ntranscription and tumor initiation in ZFTA fusion oncoprotein driven ependymoma. Our studies will also\ninvestigate the impact of drugs upon condensate characteristics and FO driven gene expression."
+ },
+ {
+  "id": "aba09c63-b7c6-4282-a861-dc0fbf57ba07",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dissemination of a Scalable and FAIR Open-Source Motion Analysis Framework",
+  "text": "Technological advancements have dramatically improved our ability to capture rich datasets from relatively\nsimple analyses, and the advent of markerless motion capture (MMC) technology presents an opportunity to\nmake biomechanics and kinematics analysis more accessible and straightforward. Existing MMC systems fail to\nmeet the needs of biomechanics researchers because their proprietary acquisition and analysis software is\ndifficult to implement in many environments, and the datasets they produce are similarly constrained, limiting\ntheir potential for broad dissemination and open-source sharing. The proposed work seeks to overcome these\nobstacles by developing an open-source and FAIR(4RS)-compliant MMC acquisition and analysis toolkit that\nproduces datasets and metadata that can be easily shared, democratizing access to MMC across the broader\nresearch community."
+ },
+ {
+  "id": "aba0b5dd-2e52-40c3-a416-42562693c5e3",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "The Delta Ecology of NSCLC Treatment",
+  "text": "Tumors are not simply collections of mutated cells that grow in isolation; rather, they respond to and modify both\nthe physical microenvironment and a variety of host cells in the organ they are invading. These changes in\necology (“∆-Ecology”) are key to understanding tumor progression and the response to therapy – particularly the\ndevelopment of resistance. We focus on NSCLC, the most common and among the most lethal of human cancers\nand will define the ecological and evolutionary dynamics that govern disease progression and treatment, with\nthe goal of driving novel therapeutic strategies that exploit this ∆-Ecology."
+ },
+ {
+  "id": "aba9c0b1-8ebe-4305-b98a-26739ce4751c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "New methods for computational modeling of RNA structures",
+  "text": "Quantitative modeling of RNA folding has a far-reaching impact on RNA-based and RNA-targeted disease\nprevention and therapeutics. Recent advancements in machine learning and the ever-increasing data from RNA-\nbased technologies have now positioned us to develop powerful computational tools and make significant\nbreakthroughs in understanding, modeling, and designing RNAs. These new tools will provide a foundation for\nthe designs of mRNA vaccines, antiviral drugs, and CRISPR genome editing."
+ },
+ {
+  "id": "abafb28c-5c9e-4cbe-b9ca-c7f305cbfa4f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Epigenetic Regulation in Human Embryonic Stem Cell Lineage Specification",
+  "text": "Our research aims to understand the epigenetic mechanisms that regulate human embryonic development.\nThe proposal uses human embryonic stem cells to determine how DNA methylation and microRNAs regulate\nneural crest and mesoderm lineage specification. The results of this study will impact our understanding of\nhuman neural crest and mesoderm-related disorders, like congenital disabilities, caused by uncharacteristic\nepigenetic mechanisms."
+ },
+ {
+  "id": "abb12cff-3f2e-406c-b0ff-b2756bb5bd33",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Leveraging Cystine Transporters for Kidney-Targeted Drug Delivery",
+  "text": "Kidney disease affects millions worldwide, and current treatments often rely on anti-inflammatory and\nimmunosuppressive drugs that cause severe systemic toxicity. This research seeks to develop a novel strategy\nfor kidney-targeted drug delivery by exploiting solute carrier (SLC) transporters, aiming to improve therapeutic\nefficacy while reducing adverse effects. In the long term, this approach could establish a broadly applicable\nframework for tissue-specific drug delivery, advancing precision medicine and improving patient outcomes."
+ },
+ {
+  "id": "abb20bc9-b086-4fe1-a2c9-7a34440ff984",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Harnessing Molecular Imaging for the Delineation of Sessile Serrated Adenomas",
+  "text": "Colorectal cancer is the third most commonly diagnosed and third most deadly cancer in the United States.\nScreening via colonoscopy is a powerful tool for the prevention and diagnosis of colon cancer, but the\nidentification of one type of pre-cancerous lesion ¾ sessile serrated adenomas ¾ can be notoriously difficult. In\nthis proposal, we describe the synthesis, characterization, in vitro validation, and in vivo evaluation of a\nfluorescence molecular imaging agent for the non-invasive delineation of sessile serrated adenomas."
+ },
+ {
+  "id": "abb36f73-f96b-495e-ab85-cfaf7a8bf25d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Env-Ab coevolution in SHIV infected RMs leading to V3 glycan bNAbs",
+  "text": "A major roadblock to rational HIV-1 vaccine design is the lack of a suitable primate model in which broadly neutralizing antibodies (bNAbs) can be consistently induced and the underlying molecular, biological and immunological mechanisms studied in an iterative fashion. Since most HIV-1 bNAbs have come from humans infected by HIV-1, we hypothesized that one means to elicit bNabs in primates might be by infecting rhesus macaques (RMs) with simian-human immunodeficiency virus (SHIV) strains that bear primary or transmitted/founder HIV-1 Envs, including those that induced bNAbs in humans. SHIV infected RMs could then be employed to assess the potential of different HIV-1 Envs to elicit bNAbs and to characterize the coevolutionary pathways of bNAb lineages and cognate Envs that elicited them, thereby serving as a “molecular guide” for rational vaccine design. Recent innovations in SHIV design by our lab have made this experimental strategy testable. In this renewal application, we show that 24 of 150, or 16%, of RMs infected by SHIVs bearing different primary HIV-1 Envs developed bNAbs targeting V3 glycan, V2 apex, CD4bs or fusion peptide epitopes. Nine of these animals developed V3 glycan bNAbs. From this extensive dataset, we identified HIV-1 CH848 and BG505.N332 Envs as immunogens that most consistently elicited V3 glycan bNAbs in RMs. We further showed that by reducing the length of V1 and the number of potential N-linked glycans in V1 (designated CH848.dV1 and BG505.N332.dV1), we could enhance the frequency and speed of induction of V3 glycan bNAbs in SHIV infected RMs. Based on these findings, we propose in this project to test the hypothesis that infection of RMs by SHIV.CH848.dV1 or SHIV.BG505.N332.dV1 will selectively prime V3 glycan bNAb lineage B cell precursors, and through a process of Env-Ab coevolution, mature these responses to achieve neutralization breadth. Moreover, by identifying evolved Env intermediates that select for V3 glycan bNAb affinity maturation, we can design lineage-based Env immunogens that, when constructed as SOSIP Env trimers and used to immunize outbred RMs, will elicit V3 glycan bNAbs that are protective against heterologous virus challenge. Specific Aims are: (i) to decipher molecular pathways of Env-Ab coevolution in SHIV-infected RMs that lead to the development of V3 glycan bNAbs, including the identification of inferred germline bNAb precursors, bNAb lineage intermediates and evolved Env intermediates that select for affinity maturation and neutralization breadth; (ii) to evaluate the ability of nanoparticle-delivered, germline-targeted CH848.dV1 and BG505.N332.dV1 SOSIP Env trimers to prime V3 glycan bNAb lineage precursors and for subsequent homologous SHIV infection to select for affinity maturation and neutralization breadth; and (iii) to conduct a statistically-powered, proof-of-concept vaccine trial in RMs testing the hypothesis that germline-targeted, B lineage-designed SOSIP Env trimers can prime, boost and affinity mature V3 glycan bNAb responses to an extent that is superior to conventional SOSIP Env immunogens and that protects RMs from heterologous virus challenge."
+ },
+ {
+  "id": "abb52384-fe4c-4b4c-ae76-a3370b1f2530",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Generation, Characterization, and Validation of Marmoset Models of Alzheimer's Disease",
+  "text": "OVERALL\nAlzheimer’s disease (AD) affects an estimated 5.8 million Americans, with patient numbers expected to triple over\nthe next 30 years, yet there is no cure. There is an urgent need to stop, prevent, and treat AD. By establishing\nmarmoset models of AD, we will be able to investigate primate-specific cellular and molecular root causes that\nunderlie the pathogenesis and progression of AD and support future translational studies to accelerate the pace\nof bringing therapies to patients."
+ },
+ {
+  "id": "abc33f97-8f13-49dc-8a20-7247f76ba8c5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Vascularized liver-heart on-a-chip modeling antibody-mediated rejection and tolerance of allografts",
+  "text": "Despite the tremendous advancement in organ-on-a-chip technologies, antibody-mediated rejection (ABMR)\nmodels on-a-chip have not been developed. Therefore, the overarching goal of this proposal is to engineer a\nsynergistically integrated multi-organ-on-chip platform comprised of biomimetic vascularized human-tissue chips\nthat will recapitulate the pathophysiology of ABMR, which will be coupled with a fully automated, compact, cost-\neffective, electrochemical biosensor monitoring allograft function and injury. Our goal is to offer a novel platform\nthat can significantly impact transplant immunology research while accelerating the understanding of ABMR,\nincreasing the translation of novel ABMR treatment protocols and regimens to the clinic, and improving organ\nallocation schemes for highly sensitized patients."
+ },
+ {
+  "id": "abd33312-70e0-4630-81de-725e14bced5a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Leveraging targeted cell therapy to promote heart transplant tolerance through topical application of a nanoparticle infused polymeric membrane",
+  "text": "The gap between available donor organs and organ need continues to grow for patients with end-stage organ\nfailure, including heart failure. In this award we aim to engineer a drug delivery technology that will improve\nutilization of previously discarded organs and improve outcomes after organ transplantation. Ultimately, our\ninnovation will be implemented as part of the organ procurement pipeline to save lives across the spectrum of\nsolid organ transplantation."
+ },
+ {
+  "id": "abd8e6e7-55f4-4f29-9ef7-fbbb89ea7d41",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Podocyte-Proximal Tubule Interactions in Diabetic Kidney Disease",
+  "text": "While podocyte loss and glomerular injury are the inciting events in diabetic kidney disease (DKD), the severity\nof proximal tubular injury is the key determinant of DKD progression to end-stage kidney disease. In this\nproposal, we postulate that the podocytes can signal the proximal tubule to precondition it against injury and\nslow the progression of DKD."
+ },
+ {
+  "id": "abe55ff1-9d2e-493e-88cd-89289d6edc56",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Redox Biology and Medicine Training Program",
+  "text": "Redox biology and medicine, the theme of this predoctoral training program at Wake Forest University for which funding is requested, denotes the specialized chemistry of oxidation and reduction occurring in biological systems which orchestrates metabolism and signaling to elicit specific cellular responses. Redox mechanisms support well-being and are also involved in the development and progression of many diseases. The goal of this training program is to bring scientists from chemistry, physics and molecular medicine together to train in the performance of interdisciplinary redox research to improve human health."
+ },
+ {
+  "id": "abebefa4-9db0-4ccf-8779-4c3e613c783d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Regeneration of radiation-damaged salivary glands using neurogenicstimulation of stem cells",
+  "text": "Hydronovo’s mission is to drive tissue regeneration by restoring crosstalk between the nerve and organ-specific\nstem cells. Our innovative product, Ceviginate (CVGN8), is an injectable neuromimetic hydrogel that restores\nsalivary gland function by regenerating saliva-producing cells via reactivation of stem cells. Based on our\nnonclinical studies establishing the mechanism of action and efficacy of CVGN8, this SBIR application will\nsupport critical IND-enabling studies needed to translate our product through the 505(b)2 regulatory pathway\nand into the clinic to improve the quality of life and survivorship of patients suffering from debilitating xerostomia."
+ },
+ {
+  "id": "abef8d67-efc6-4fb7-9b02-2cac7f19a288",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "University of Rochester Wilmot Cancer Institute Support Grant",
+  "text": "Wilmot Cancer Institute at the University of Rochester serves a distinct population in a catchment area of more than three million people in Central and Western New York State with cancer incidence and mortality significantly above national averages, a disproportionately aging population, high rates of tobacco use, pockets of urban poverty, and extensive rural regions. Guided by a strategic plan, Wilmot’s mission is to provide the highest quality treatment and care, through expert and innovative medicine, science, and education, for all patients burdened by cancer. With support from the P30, Wilmot will improve patient outcomes by fostering transdisciplinary discovery integrating basic, translational and population science; translating discoveries through interventional treatment and symptom management trials; enhancing mentoring and career development; and implementing cancer prevention programs and community-driven research responsive to catchment area needs."
+ },
+ {
+  "id": "abf084b1-a5f3-490f-942d-5dd79583d403",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Neural Plasticity and Myelin Dynamics after Amputation",
+  "text": "Successful recovery after traumatic accidents that cause nerve damage or limb loss depends on the brain’s\nability to adapt; these adaptations support learning to use the damaged limb after nerve reconnection, or use a\nprosthesis after limb loss. Neural activity and connectivity are altered after unilateral denervation injuries in\nways that likely impair optimal learning, but the mechanisms underlying these alterations are not known.\nFindings from this research will determine the cellular, synaptic and structural adaptations that impact circuit\nfunction and influence recovery after unilateral denervation injury."
+ },
+ {
+  "id": "abf65a80-6e5c-4495-af94-5d2661c6734c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dissecting the logic of mammalian gene regulation using synthetic biology and single-cell sequencing",
+  "text": "The precise control of gene expression is crucial for the faithful orchestration of the developmental\nprogram, but mis-expression of genes can be pathogenic in many contexts. The proposed work will\ncombine advances in large-scale DNA synthesis and single-cell sequencing to study the regulation of\ngenes that pattern the developing nervous system, but are also implicated in diseases such as\nAlzheimer’s and cancer. Therefore, the results of this project will reveal fundamental principles of\ndevelopment but will also inform disease mechanisms and potential therapies."
+ },
+ {
+  "id": "abfb2cb5-8b79-4de0-941b-fc7917049d0e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Microglial control of thalamocortical circuits in Alzheimer's disease",
+  "text": "Alzheimer’s disease affects millions of Americans, yet current treatments provide limited relief, emphasizing the\nurgent need for novel therapeutic strategies. The proposed research will investigate how TREM2R47H, one of the\ntop genetic risk factors for Alzheimer’s disease, disrupts microglial function, thalamocortical circuits, and synapse\nremodeling, and examines whether manipulating microglia can alleviate Alzheimer’s disease symptoms in rodent\nmodels. This proposal will yield the mechanisms by which TREM2R47H increases risk for disease and inspire the\ndevelopment of novel therapeutic interventions to improve outcomes for individuals with Alzheimer’s disease."
+ },
+ {
+  "id": "abfec67f-41b9-41de-abf3-9bba5fbd9afa",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identification and therapeutic application of endogenous tumor suppression activities in human breast milk",
+  "text": "(Public Health Relevance Statement)\nBreastfeeding has been linked to a reduced risk of breast cancer, and our research shows that human breast\nmilk contains natural substances that can kill cancer cells. We propose to identify these specific components in\nbreast milk that trigger cancer cell death, which could lead to new ways of breast cancer therapy. If successful,\nthis research could provide a natural, safe, and effective way to develop novel cancer therapeutics based on the\nunique properties found in human breast milk."
+ },
+ {
+  "id": "abff6564-8cf5-42a0-8681-19acccbad807",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "How sound processing in the ear and brain relates to educational outcomes, mental health, and quality of life in adolescents living with HIV",
+  "text": "This combined cross-sectional and longitudinal study will show whether central auditory tests could offer\nvalue for assessing or predicting the central nervous system effects of HIV infection in children and\nadolescents. Diagnosing and monitoring of central nervous system co-morbidities is essential in HIV infection,\nand central auditory tests may offer a simpler, easier to perform way to assess this than current techniques.\nThis could alter clinical practice if central auditory tests are shown to be useful for screening for or predicting\ncentral nervous system effects in children and adolescents living with HIV in resource-limited settings."
+ }
+]

@@ -1,0 +1,142 @@
+[
+ {
+  "id": "4c506062-f172-4b42-aaf4-2a6c45104613",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Quantifying Psychological Resilience and Susceptibility to Predict Childhood Outcomes",
+  "text": "Social Determinants of Health (SDoH) are potent predictors of psychopathology; however,\nwhat leaves individuals resilient and/or susceptible to SDoH-related psychopathology\nremains poorly understood. The goal of my F31 is to develop a quantitative measure of\nresilience/susceptibility to SDoH-related psychopathology and then characterize its\ngenomic and neural correlates. Ultimately, a better understanding of who is most vulnerable\nto SDoH-related psychopathology and its biological correlates will further elucidate our\netiologic understanding of psychopathology to pave the way for future developments in\ntreatment, prevention, and policy."
+ },
+ {
+  "id": "4c58930e-6319-4253-9861-c118a14edf9a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project 3: Chromatin remodeling mechanisms in alcohol use disorder",
+  "text": "Chronic alcohol consumption results in brain gene expression changes that contribute to the risk of developing alcohol use disorder (AUD). Gene expression is regulated by epigenetic and chromatin remodeling mechanisms that alter transcription factor binding to DNA at specific genomic regions. This proposal focuses on the mammalian (m)SWI/SNF chromatin remodeling complex, which has previously been linked to AUD in human genetic studies and to ethanol tolerance in worms by the VCU-ARC. We will study two mutually exclusive core enzymatic subunits of the mSWI/SNF complex, SMARCA2 and SMARCA4, for their roles in regulating gene expression, ethanol consumption, and behavioral responses to ethanol in mice. We hypothesize that ethanol- induced increases in SMARCA2 and SMARCA4 in the ventral hippocampus result in increased occupancy of SMARCA2 and SMARCA4 at specific genomic locations to subsequently alter gene expression, and that these two members of the mSWI/SNF complex differentially regulate gene expression and behavioral responses to ethanol. In Specific Aim 1, we will use sensitive, state of the art methods to identify genomic regions at which SMARCA2 and SMARCA4 bind to regulate chromatin states and gene expression in specific cell types. The first experiment will employ cleavage under targets and release using nuclease (CUT&RUN) followed by massively parallel sequencing to determine the genome-wide targets of SMARCA2 and SMARCA4 under ethanol-naïve conditions and after chronic binge-like ethanol consumption. In the second experiment, we will perform single- nuclei RNA sequencing (snRNA-Seq) to identify genes in specific cell types that are altered by chronic binge- like ethanol consumption. Integration of the CUT&RUN and snRNA-Seq data will identify cell type-specific genes regulated by SMARCA2 and SMARCA4. Finally, we will use fluorescent in situ hybridization (RNAscope) to determine the ventral hippocampal regional specificity and cell types where SMARCA2, SMARCA4, and selected target genes, are altered following chronic binge-like drinking. In Specific Aim 2, in collaboration with the Behavior Core, we will use pharmacological and genetic tools to determine the roles of SMARCA2 and SMARCA4 in ethanol consumption, ethanol-induced locomotor activation and anxiolysis, and ethanol sedation sensitivity and tolerance. In the first experiment, we will employ dual SMARCA2/SMARCA4 small-molecule inhibitors and in the second experiment, we will conditionally knockout Smarca2 and Smarca4 in a Cre-dependent manner in the ventral hippocampus using a viral approach. This project will provide important functional information to VCU- ARC Projects 1, 2, 4, and 5. The overall impact of this study will be greater knowledge of the molecular mechanisms driving brain gene expression and behavioral alterations following chronic alcohol drinking and identification of a potential new pharmacotherapeutic target for AUD."
+ },
+ {
+  "id": "4c58c8eb-25a4-4c53-bab4-cd46b233f7b4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Impact of Zika Virus Infection on Fetal Innate and Adaptive Immunity",
+  "text": "This proposal will provide the first comprehensive analysis of the early events in fetal innate and adaptive\nimmune programming to viral infection and inflammation across the second and third trimesters and how\nimmune signaling influences cellular stress-response in the fetal brain. Creation of a fetal immune atlas in\nresponse to viral infection and inflammation will provide a critical foundation for understanding how immune\nsignaling can be targeted by novel therapeutics for fetal neuroprotection."
+ },
+ {
+  "id": "4c67363d-e5a8-405b-8e41-ee3779505967",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Advancing our knowledge of IDP-membrane interactions by ESR",
+  "text": "We study how many types of viruses (SARS-CoV, flu, HIV...) attack cells, and what factors can help or hinder\nthis. We use a technique called Electron Spin Resonance (ESR) to learn how the parts of viruses that do the\nattacks, called “fusion peptides,” are built, and how proteins in viruses interact with membranes (cell walls), to\nfind possible targets for new drugs to fight the viruses. We also use ESR to study how complexin, an important\nprotein that is related to diseases of the nervous system, interacts with membranes."
+ },
+ {
+  "id": "4c6c49a6-defc-4c5a-aafd-5fdd466bf127",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Lung resident Treg suppression of Th2 resident memory T cells in allergicasthma",
+  "text": "T helper type 2 tissue-resident memory cells (Th2-Trm) are key drivers of allergic asthma due to their\npersistence in the airways and amnestic responses upon local allergen re-exposure. FoxP3+ regulatory T cells\n(Tregs) are potent suppressors of allergic inflammation. This proposal explores the possibility that allergen-\nspecific tissue resident (r) Tregs in the lung are particularly effective at suppressing allergic inflammation due\nto their positioning in a unique niche alongside Th2-Trm through shared chemokine receptor systems."
+ },
+ {
+  "id": "4c71207f-cce1-4d77-ac79-85b77a1b5991",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Novel Glaucoma Diagnostics for Structure and Function.",
+  "text": "This research proposal focuses on the development and refinement of innovative image processing and\nanalytical methods that will substantially improve detection of glaucoma and the identification and prediction of\nits progression in order to prevent blindness. We will develop technology to improve optical coherence\ntomography (OCT) signal and image quality and harmonize OCTs such that it is possible to be agnostic as to\ndevice manufacturer or model. Finally, we will use recently developed analytical techniques including\nmultidimensional information compression analysis (MICA) and enhanced machine learning and deep learning\nmodels incorporating clinical features in addition to OCT and visual fields to significantly improve glaucoma\ndetection and the identification of progression and prediction of future disease progression."
+ },
+ {
+  "id": "4c74bfee-9e74-4f89-91da-13e7a9be05af",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The regulation of cancer and aging by methionine",
+  "text": "As the population ages, the number of people suffering from age-related diseases including cancer is also\nincreasing. Our knowledge of how cancer develops naturally during aging, and how host age impacts cancer\ndevelopment and progression, has been limited by the use of young, inbred animal models for cancer studies.\nHere, we will utilize methionine restriction (MR) as a geroprotective treatment paradigm, determining the effect\nof MR on cancer frequency, type, and the epigenome in wild-type genetically heterogeneous animals, testing\nhow host and tumor age interact with MR in multiple xenograft breast cancer models to determine cancer\nphenotypes and epigenetic response, and determine the role of a specific molecular mediator of the benefits of\nMR in cell culture and in vivo."
+ },
+ {
+  "id": "4c79728c-85c0-4b03-9201-a838dbfae7cb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project 3: PHLDA2-mediated Phospholipid Oxidation in Ferroptosis and Tumor Suppression",
+  "text": "Ferroptosis has been shown to be a natural defense against cancer development. The central hypothesis to be\ntested here is whether PHLDA2-mediated non-canonical ferroptosis plays a key role in tumor growth suppression\nof breast and liver cancers and how this new non-canonical ferroptosis response is modulated by the ferroptosis\nsurveillance pathways involving MBOAT1/2 and ADCK3 in vivo."
+ },
+ {
+  "id": "4c7cfbaa-371b-415f-a768-e20e51225684",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Engineered Heart Tissue and Atrial Phenotyping Scientific Core 1",
+  "text": "SC1 PROJECT SUMMARY Atrial fibrillation is the most common cardiac arrhythmia. The lifetime risk of atrial fibrillation increases with advancing age and other risk factors that include obesity, smoking, hypertension, and diabetes mellitus. Atrial fibrillation is often a progressive condition, frequently beginning with brief episodes that progress to longer episodes that do not terminate without either drug- or electrical shock induced cardioversion. The cost and health burden of atrial fibrillation are expected to rise as the American population ages and the obesity rates increase, thus highlighting the need for interventions and therapies that can slow the progression and reduce the burden of atrial fibrillation. The overall goal of the Atrial Fibrillation Post-GWAS: Mechanisms to Treatment PPG application is to translate AF genomic discoveries back to the bedside, focusing on genes to mechanisms, genes to drugs, and interactions of genes with metabolism and environment. Our central hypothesis is that increasing our knowledge about molecular mechanisms involved in genetic, metabolic and structural changes in the atria will allow us to pinpoint possible targets for safer and more effective therapeutic strategies. The Engineered Heart Tissue and Atrial Phenotyping Scientific Core 1 (SC1) will provide support for all Projects in this PPG application via two aims. Aim 1 will maintain and propagate inducible pluripotent stem cells (iPSCs), differentiate iPSCs to atrial- or ventricular-like cardiomyocytes (a-iCM, v-iCM), from these create engineered heart tissues, and maintain atrial fibroblasts. Aim 2 will coordinate the contractile, metabolic, and structural phenotyping of iCMs, EHTs, and mouse LA. SC1 provides unique access to human a-iCMs, as well as a-EHTs that will enable all investigators on this PPG to achieve their scientific goals in a coordinated and efficient manner. While we focus on a-iCMs and a-EHTs for most of the studies proposed in the Program, we also support studies using v-iCMs and v-EHTs that will help differentiate atrial vs. ventricular effects. Our experience with generating and maintaining human iCMs and EHTs provides an opportunity for Projects within our PPG to use this leading-edge technology to test innovative hypotheses. Importantly, the use of SC1 expertise for the phenotyping of these experimental models, including evaluation of contractile function, mitochondrial respiration, mitochondrial content, subcellular structure, and isolation of RNA ensures uniform methodology across multiple models, through all projects, and makes these techniques available to individual laboratories that were otherwise not feasible. SC1 eliminates duplication of effort and optimizes the use of personnel, equipment, and supplies. The unique expertise provided by SC1 will support the goal of this PPG to translate AF genomic discoveries back to the bedside."
+ },
+ {
+  "id": "4c7da850-2335-4a2e-8ce4-f056e886c1f9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Therapeutic Strategies to Prevent Small Cell Lung Cancer Histological Transformation",
+  "text": "Small cell lung cancer (SCLC) transformation is a mechanism of drug resistance in lung cancer and correlates\nto elevated activity of the PRC2 histone methyltransferase complex. There are currently no treatment strategies\nto combat SCLC transformation. This proposal will elucidate the role for the PRC2 complex in SCLC\ntransformation and test whether clinical grade inhibitors of the PRC2 complex can be used to block SCLC\ntransformation as a therapeutic strategy for EGFR-Mutant lung cancer."
+ },
+ {
+  "id": "4c835db5-f9bf-4d69-b058-a9c4c8708b32",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Steroid hormone dependent gene expression and neuroplasticity in the brain.",
+  "text": "Social behaviors in humans and other animals are dynamically regulated by steroid hormones such as\nandrogens (e.g., testosterone) and estrogens (e.g., estradiol); however, the effects androgens and estrogens\nhave on the brain are unclear. The proposed research will use the highly social cichlid fish Astatotilapia burtoni\nto study how androgens and estrogens regulate genetic and neurobiological mechanisms in the brain. Given\nthat all vertebrates have androgens and estrogens and similar genes and neurons that regulate social\nbehavior, the mechanisms identified by this work can be studied further in other organisms, including humans."
+ },
+ {
+  "id": "4c8ae407-247e-4968-bbc9-a93b8e444c03",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "08 Oncologic Imaging Program",
+  "text": "ONCOLOGIC IMAGING PROGRAM (OIP): PROJECT SUMMARY The Oncologic Imaging Program (OIP) develops novel imaging agents and innovative methods for radionuclide, MR, ultrasound, optical, and hybrid imaging technologies, including photoacoustic imaging and theranostics. Application of artificial intelligence and informatics platforms to solve advanced oncologic imaging challenges demonstrates the evolving nature of OIP. OIP’s major goals are to facilitate new research initiatives, expand ongoing collaborations, mentor junior faculty, train students and fellows, and develop new methods to solve fundamental and clinical cancer imaging needs. These goals will be achieved through intra- and inter- programmatic activities and external partnerships. OIP’s highest priorities include developing imaging agents and technologies for detecting, diagnosing, and treating cancer, and expanding our knowledge of animal models used for basic cancer research. OIP activities will pursue four specific aims. (1) Develop innovative imaging instruments and methods for diagnostic and theranostic applications and image-guided cancer therapies. (2) Develop new molecular imaging agents and theranostics for accurate detection and, assessment of tumor- specific properties as well as for monitoring therapeutic response to improve treatment outcomes. (3) Advance applications of quantitative imaging (QI) to elucidate the molecular mechanisms driving cancer progression and treatment responses via deep learning and radiomics. (4) Educate, train, and mentor students, fellows, and junior faculty in cancer imaging research. OIP will continue to develop strong intra- and inter-programmatic collaborations, industry partnerships, and integrated trainee support to champion collective innovation in cancer imaging research and clinical translation. The program currently includes 36 members from seven departments and three schools. The extensive collaborative network of OIP members has resulted in more than $10.1 million in current grant awards, of which $5.4 million is NCI funding and $2.5 million is other peer-reviewed funding, and an additional $5 million in NIH S10 large instrument grant funding. OIP research is anchored by one NCI-funded research center (Center for Multiple Myeloma Nanotherapy [U54 CA199092]), the institutionally supported Molecular Imaging Center (continuation of previous NCI-supported ICMIC [CA094056]), three NIH-supported Resource Centers (Gropler P41 EB025815, Marcus U24 CA204854, Shoghi U24 CA209837), two imaging training grants (Culver T32 EB014855, Woodard T32 EB021955), and more than 1,104 publications in the current project period of which 28% are inter-programmatic, 26% are intra-programmatic and 10% with impact factor >10. OIP research has been accelerated by recent installation of several new instruments, including PET/CT scanner (Siemens Vision), micro PET/CT, microPET/MR, GE SPINlab hyperpolarization unit, Oxford Instruments PulsarTM benchtop permanent-magnet-based 1.5-T NMR spectrometer, fluorescence molecular tomography system, multispectral optoacoustic tomography system, and IVIS-CT multimodal imaging system. Clinical translation of new discoveries will remain the cornerstone of OIP."
+ },
+ {
+  "id": "4c94bd2a-04b7-457b-9465-90d1e855360e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The American Consortium of the HCSRN (TACH) for the All of Us Research Program",
+  "text": "With the advancement of genomics, preventive and treatment measures have the potential to be tailored to both an individual’s genetics and setting. The AoURP’s research platform is designed to accelerate the discovery of individual variations that are critical to optimal medical care and increasing the health span of the American public."
+ },
+ {
+  "id": "4c95ff13-3a99-4e0b-a575-fd053d6d2c76",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Social Health Factors Associated with the Transition from Acute to Chronic Low Back Pain",
+  "text": "Chronic low back pain (LBP) is costly and highly common worldwide, with limited effective treatment options.\nThe proposed research will identify how social factors are involved in developing chronic LBP, including immune\nsystem involvement in the acute LBP stage. By identifying potential new groups of individuals or novel\nintervention pathways, this study could have far-reaching clinical impacts for preventing chronic LBP."
+ },
+ {
+  "id": "4c9bbedd-38e6-4898-bb13-b03fd7d4d9e2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cancer Control and Population Science (CCPS)",
+  "text": "The Cancer Control and Population Sciences (CCPS) Program is a realigned, unified program of the former Cancer Epidemiology and Prevention and Health Behavior and Outcomes programs. CCPS members pursue research in epidemiology, prevention and occurrence reduction, behavioral interventions, cancer care delivery, and methods development, along with implementation science and policy research. CCPS’s aims and strengths are closely aligned with the Rogel Cancer Center’s broad- based themes, strategic vision, and mission via the program’s focus on team science, its commitment to understanding cancer etiology, improving primary prevention and early detection strategies, and improving cancer care delivery. The CCPS program has three main specific aims: 1) Identify key environmental, lifestyle, genetic, and socio-structural targets for cancer prevention, risk reduction, improved detection, and better outcomes; 2) Develop, test, and deploy innovative strategies to reduce the burden of cancer; and 3) Create and apply novel scientific approaches to cancer control and population science research across the continuum."
+ },
+ {
+  "id": "4c9ec0e6-7b1b-46b2-b2b6-6b72b0ce10cf",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cell type-specific effects of ICMS on brain cells: new approaches integrating spatial transcriptomics, modeling, and behavior",
+  "text": "Intracortical microstimulation (ICMS) can be used to treat sensory loss and other neurological disorders, but its\nmechanisms of action and sources of side effects remain unclear, limiting the ability to rationally design safe,\neffective therapies. Studies of ICMS effects traditionally rely on gross histological assessments which do not\ninvestigate underlying cell type-specific mechanisms. This project will use a combination of spatial\ntranscriptomics, computational modeling, electrophysiology, and behavioral outcomes to reveal a holistic view\nof the biophysical impacts of intracortical microstimulation over a wide range of parameter settings."
+ },
+ {
+  "id": "4c9f5de3-10c2-48f5-a1de-31315cec3553",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Deep learning microscope for slide-free and digital histology",
+  "text": "Surgery is the most important treatment method for oral cancer, and intraoperative histopathology via frozen section is\nthe gold standard to diagnose positive margins and to guide surgical resections. However, frozen section histopathology\nrequires specialized equipment and expert personnel that are not available in many settings including rural US, and\nsurgeons struggle with the need to ensure complete tumor removal while sparing normal tissue. The DeepDOF platform\ndeveloped here will provide an affordable tool to rapidly examine tumor margins of large areas of fresh tissue resections,\nallowing precisely guided surgical resections at the point of care."
+ },
+ {
+  "id": "4ca28006-45e6-4171-aeac-2ee3936f34e1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular and Computational Tools for Identifying Somatic Mosaicism in Human Tissues",
+  "text": "Human genomes harbor significant variation within and between individual tissues, referred to as somatic\nmosaicism. Investigations into this phenomenon have been mostly limited to higher frequency mosaicism and\ncertain variant types (SNVs, large deletions) due to technical limitations in both molecular assays and\ncomputational methodology. This proposal seeks to overcome these limitations by developing and deploying\ninnovative sequencing technologies and computational approaches to identify somatic variation across the\nfrequency spectrum for multiple variant types."
+ },
+ {
+  "id": "4ca2b2c8-4c2e-4a78-817e-a7142fece8c5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Elucidating the Neural Computations Underlying Spatial Learning, Decision-Making and Generalization in Virtually-Navigating Monkeys",
+  "text": "It is believed that spatial navigation, learning, and generalization deficits in patients with Alzheimer’s disease and\nAlzheimer’s disease-related dementias result from dysfunction in medial temporal lobe and frontal lobe brain\nstructures. However, surprisingly little is known about the underlying computations that go awry in these\ndiseases. This grant seeks to elucidate those underlying neural mechanisms by determining if/how learning\nspatial rules in new environments, decision-making, and generalization are supported by population-level\ncomputations across a circuit spanning the hippocampus, prefrontal cortex, and motor output pathways."
+ },
+ {
+  "id": "4caafa79-333a-4ebd-b598-031d5d172877",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Endothelial glycocalyx shedding in septic injury",
+  "text": "Sepsis is a life-threatening disease arising from dysregulated host response to infection. There are limited\ndiagnostic tools or effective drugs to treat this problem. This study examines the molecular property and function\nof novel molecules produced during septic injury that contribute to multiple organ dysfunction, with the potential\nto develop new diagnostic and therapeutic targets for effective treatment of infectious diseases."
+ }
+]

@@ -1,0 +1,142 @@
+[
+ {
+  "id": "0f057e09-0751-42e3-9773-ec66e1d40e51",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A Novel Instrument and Consumables for Quality Control in Next Generation Sequencing",
+  "text": "NIH Project Narrative\nEvizia, Inc.\nEvizia developed an instrument which visualizes and measures single molecules. The\ncompany’s objective is to support researchers and clinicians who are urgently pushing the\nbounds of discovery in genomics and precision medicine. The instrument aims to replace\nold, technologically inferior and expensive processes with a platform that is lower cost,\npreserves precious patient samples and provides higher quality information."
+ },
+ {
+  "id": "0f06e4fe-6f45-445a-b343-6726a6c09a19",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multilevel health system intervention to increase surveillance colonoscopy for high-risk colorectal polyps",
+  "text": "Colorectal cancer (CRC) is a common and deadly disease that is largely preventable through the\ndetection and removal of colorectal polyps. One million Americans are diagnosed with high-risk polyps of the\ncolon or rectum annually and are at increased risk for CRC; however, uptake of recommended repeat\ncolonoscopy in 3 years to reduce CRC risk is low in this group. The proposed study will evaluate the impact of\na multicomponent health system intervention to increase uptake of timely repeat colonoscopy in a large,\nintegrated health care system."
+ },
+ {
+  "id": "0f07d90e-dcdd-48ea-ae0d-d1af02066756",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Right place, wrong time: Characterizing how hybrid E/M cancer cells co-opt invasive gene signatures from pubertal development via machine learning & spatial profiling",
+  "text": "The application of matrix factorization to sequencing data has been particularly efficacious in the\nfield of cancer biology by learning molecular signatures of the heterogeneous tumor\nmicroenvironment. However, previous efforts to characterize hybrid epithelial-mesenchymal\n(E/M) cell states in cancer have solely relied on terminal markers of epithelial and mesenchymal\nidentity. However, with paired machine learning and spatially resolved single-cell profiling and\nvalidation in robust ex vivo 3D organoid cultures, this project aims to further characterize novel\nsignatures of cells undergoing this dynamic transition during the early invasion stage of the\nmetastatic cascade."
+ },
+ {
+  "id": "0f09b2d9-cf38-4cf2-aa64-c016e915bd78",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Data-Science Guided Study and Design of Phosphoranyl Radical-Mediated Reactions",
+  "text": "Transformations that form C–N bonds are essential to the synthesis and exploration of pharmaceutical\ncompounds, with C–N coupling reactions contributing to 23% of the reactions performed in medicinal chemistry\ncampaigns. Phosphoranyl radical-mediated reactions have the potential to significantly increase the diversity of\nC–N bond forming transformations, which in turn would facilitate the synthesis and discovery of new biologically\nactive compounds. The work proposed herein would offer a significant contribution to the field through delivering\na machine learning model which will be used to gain new mechanistic understanding of phosphoranyl radical\nscission selectivity and will aid in extending phosphine catalysis to more complex transformations, both of which\nwill have longstanding impacts in the development of novel C–N bond forming reactions."
+ },
+ {
+  "id": "0f0b3615-a3b6-4d3b-8ce6-3981ed39fdc8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Integrated blood and radiomic subtyping to guide immunotherapy treatment selection and early response assessment in metastatic non-small cell lung cancer",
+  "text": "Lay Summary\nThis project aims to use blood-based sequencing and imaging to help guide the use of immune checkpoint\ninhibitors for patients with non-small cell lung cancer (NSCLC). The proposed studies will develop new algorithms\nto apply blood-based tumor sequencing and novel radiomic image analyses to predict which patients are likely\nto respond to immune checkpoint inhibitors alone or with chemotherapy, and to help determine whether a patient\nis responding to therapy. The new compound blood-imaging biomarkers will address unmet clinical needs in\nthoracic oncology by helping guide therapeutic decision making without requiring invasive biopsies, ushering in\na new era of non-invasive precision immunooncology."
+ },
+ {
+  "id": "0f0bb983-ec10-4b64-8666-92e2002dcd54",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Ms. LILAC: Muscle Mass in the Life and Longevity After Cancer (LILAC) Study",
+  "text": "This project will provide the first-ever direct measure of muscle mass in a large sample of community dwelling\npostmenopausal women using the D3-creatine method, a highly accurate and scalable measure of muscle\nmass that can be carried out remotely (at home). This novel approach will be used to compare the antecedents\nand consequences of low muscle mass in cancer survivors and age-matched cancer-free controls. This\nresearch will contribute to the development of public health recommendations and intervention strategies to\nprevent low muscle mass and associated adverse health outcomes in older and long-term cancer survivors."
+ },
+ {
+  "id": "0f10e783-f4ea-4458-9e3d-8b6367e74daa",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Advanced retinal imaging for kidney precision medicine",
+  "text": "The prevalence of chronic kidney disease (CKD) is growing with that of its two most common causes, diabetes\nand hypertension. This project will determine how advanced noninvasive retinal imaging can be used to\nunderstand the mechanisms, subtypes, and outcomes of CKD that are common among people with diabetes\nand hypertension. The ultimate goal of this work is to use retinal imaging to inform individual patients of their\npersonal CKD diagnosis, prognosis, and optimal treatment options."
+ },
+ {
+  "id": "0f11069a-32a0-4ef6-a26b-69232b275ea3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Repositioning sitagliptin for treating cutaneous capillary malformations",
+  "text": "Cutaneous capillary malformation (CM) is a congenital vascular defect of the\nskin with an estimated prevalence of 3–9 per 1,000 newborns. The proposed study aims to\nreposition an FDA-approved antidiabetic drug sitagliptin for treating CM patients. This study will\nuse clinically relevant CM in vitro and in vivo models to determine a novel mechanistic action of\nsitagliptin and validate its’ efficacy in reversing treatment-resistance in CM."
+ },
+ {
+  "id": "0f199350-f0b5-4ec9-961d-850311a5c330",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Intrinsically Disordered Protein Structural Dynamics from Combined Solution and Gas-Phase Approaches",
+  "text": "The proposed research represents a new and alternative strategy for characterizing important structural\nparameters of disordered proteins, proteins with intrinsically disordered regions, and mixtures of disordered\nproteins, all of which are critical for cellular function and are implicated in many degenerative disorders and\nepigenetic diseases. Disorder makes these proteins difficult to characterize structurally, and existing methods\nfor analyzing them are unable to separately analyze mixtures of disordered proteins often found in cells. Thus,\nthe proposed research is relevant to the NIH mission as it contributes to the fundamental knowledge of human\nmolecular biology and is relevant for its application in reducing illness in patients with neurodegenerative\ndisorders and epigenetic diseases."
+ },
+ {
+  "id": "0f256592-1db9-4b4f-9698-e8cc36b7ba0c",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Predoctoral Training in Molecular Biophysics",
+  "text": "This Molecular Biophysics Training Program (MBTP) will provide comprehensive instruction and theoretical/practical skills to talented graduate students interested in quantitative problem- solving in biology, bringing together trainees and trainers from biological and physical backgrounds, with the opportunity to exchange ideas and collaborate within a stimulating environment. As a result of their graduate experience within the program, our trainees will learn to become independent thinkers and acquire the ability to choose important problems and answer compelling questions at the interface between physics, chemistry, engineering and biology. The objectives of this training program match the goals of the National Institutes of General and Medical Sciences (NIGMS), which favors basic biomedical research and training to ultimately advance structure-based mechanistic knowledge, disease diagnosis, treatment, and prevention."
+ },
+ {
+  "id": "0f25a015-c80c-4aac-8973-47857e57cb00",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Novel approaches for assessing the relationship between stress, cognition, and alcohol biomarkers in real-time",
+  "text": "While stress and executive function have independently been associated with harmful alcohol use, these\nvariables have predominately been investigated in controlled laboratory settings and treatment seeking\nindividuals with alcohol use disorder, thereby potentially limiting the generalizability of findings. Using novel\ntechnologies and intensive longitudinal assessments, the proposed study will investigate the relationship\nbetween objective measures of stress, executive function, and alcohol use in laboratory and real-world settings\nin non-treatment seeking individuals with alcohol use disorder. Findings from this study have the potential to\nimprove the field’s understanding of mechanisms underlying the addiction cycle and inform interventions for\nAUD."
+ },
+ {
+  "id": "0f26d67a-ba82-4c69-bcd2-403d88da4336",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Using genetics in the selection of candidates for therapies to prevent type 1 diabetes and its progression.",
+  "text": "The proposed research is relevant to public health because it seeks to use genetics, in combination with other known factors, to predict type 1 diabetes risk in a timely manner and select individuals who will respond to immunomodulatory therapies to prevent disease development and progression, which are increasing in incidence and impose a substantial burden on individuals, families, and society. Thus, the proposed research aligns with NIDDK’s mission to conduct and support research on diabetes to improve people’s health and quality of life.​"
+ },
+ {
+  "id": "0f279db7-062f-45d4-96a6-9d2a16e10cc8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identifying and characterizing functional noncoding mutations in multiple myeloma",
+  "text": "In addition to the increasingly well understood repertoire of mutations in coding sequences of oncogenes and\ntumor suppressor genes, genome-wide sequencing of human cancers has revealed abundant mutations in\nnon-coding sequences. Most of these mutations are expected to be neutral, i.e., passengers, with only a small\npercentage having a functional impact, so identifying bona fide oncogenic mutations within this large\nbackground of neutral ones is an important challenge. In this project we seek to address this challenge in a\ncommon and difficult to treat human cancer, multiple myeloma, using a mechanism-based genetic-epigenetic\nmapping strategy, followed by functional assays on the resulting candidate oncogenic non-coding mutations."
+ },
+ {
+  "id": "0f29d88b-4d02-4fb3-93a1-e5687c999973",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular tools for precise manipulation of defined synaptic connections",
+  "text": "The proposed research is relevant to public health because the development and validation of crucial new\ntechnologies for selective control of synaptically-connected circuit elements across the brain during\nbehavior is essential for defining novel brain circuits and therapeutic strategies for treating devastating\npsychiatric disorders, such as depression, anxiety disorders, and schizophrenia, as well as neurological\ndisorders including memory decline, stroke, and epilepsy, which currently have a profound negative impact\non public health. The proposed research is relevant to NIH’s mission in that it directly addresses the call\nfor innovating and validating novel tools to facilitate the detailed analysis of complex circuits and to enable\nthe immense potential of circuit manipulation (BRAIN Initiative)."
+ },
+ {
+  "id": "0f2dfe3f-aade-483e-83eb-ffbf8e611f8e",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Advancing continuous biomanufacturing of monoclonal antibodies using an experimentally validated modeling platform",
+  "text": "We propose to develop an integrated toolbox to provide the necessary scientific, technological, and regulatory\ncontextual understanding for a continuous production of monoclonal antibodies, via an experimentally validated\nprocess model. Such an approach will enable both industry and the FDA to make more science- and risk-based\ndecisions with respect to continuous bioprocessing. We will work closely with our network of industrial partners\nand with NIIMBL, vendors, and the FDA to maximize overall success."
+ },
+ {
+  "id": "0f2e92c6-d3dc-4a68-b1ea-70b24fb6947e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Immune Cells and Secretory Pathways Leading to Human Systemic Autoimmunity",
+  "text": "Narrative OVERALL; PD – Pascual, V.\nA major problem in the field of human autoimmunity is the diversity of clinical manifestations and pathways\nleading to disease. The ACE at Weill Cornell Medicine aims to 1) better understand pathways and mechanisms\nthat contribute to development and amplification of Human Systemic Autoimmune Diseases, 2) develop tools\nand identify biomarkers to monitor these pathways in patients, and 3) share expertise with colleagues across all\nbasic and clinical ACE Programs.The proposed Center will employ state-of-the-art technologies to gain insight\ninto how two major and complementary compartments contribute to systemic disease: Immune cells and extra-\ncellular nanoparticles that can modulate the function of cells that uptake them."
+ },
+ {
+  "id": "0f314ed4-60e4-4a21-a79e-7946051d5403",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of ZC3H15 in Pancreatic Cancer Pathogenesis and Therapeutic Response",
+  "text": "Pancreatic cancer is a devastating malignancy. Key reason of high lethality of this cancer is poorly understood\nmolecular mechanism and poor therapeutic response to existing therapies. The proposed studies will elucidate\nthe role of metabolic-epigenetic crosstalk in pancreatic cancer pathogenesis and pre-clinical evaluation of\nnovel therapeutic combinations, which could be utilized in future for pancreatic cancer management."
+ },
+ {
+  "id": "0f362f06-4fd4-4a13-a6ec-9ac601534d0a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "METABOLIC AND CELLULAR PHENOTYPING CORE",
+  "text": "The overall objective of the Metabolic and Cellular Phenotyping Core (MCPC) at the University of Washington Diabetes Research Center is to provide affiliates with analyses of glucose metabolism, mitochondrial function and intracellular signaling to support research of diabetes, obesity and related disorders. To achieve this goal, the Core aims to: (1) Provide in vivo assessments of metabolic phenotypes in rodent models important in diabetes research; (2) Provide real time cellular function analysis using in vitro perifusion and Seahorse systems (3) Provide static assessment of cellular metabolism and function in vitro; (4) Harvest, isolate and culture primary tissue from rodents, including islets and islet cells, liver, retina and brain, for subsequent morphological and functional characterization, as well as to procure human islets for the same purposes; (5) Offer training and consultation to affiliates, their trainees and staff; and (6) Develop new analytical tools requested by affiliates to support their studies of the metabolic regulation of cell function as it relates to research in diabetes, obesity and related disorders. Since inception of the Core in 2002, in vitro analysis has been the major focus. Cell and tissue types that have been analyzed include islets, retina, skeletal myocytes, stem cells, macrophages, lymphocytes, adipocytes, endothelial cells, neurons and hepatocytes. During the last funding cycle, in vivo services were added to combine both the detailed and mechanistic analyses provided in cell and tissue studies with the ability to test the roles of identified processes in whole body settings. Whole animal studies currently offered include glycemic clamps, glucose and insulin tolerance tests, islet transplantation, CT/PET imaging, continuous glucose monitor implant and pancreatic ductal infusion of adeno- associated viruses. With the ability to provide in vivo, ex vivo, and in vitro services, the Core can better serve the needs of the Center’s research base. As diabetes affects metabolism and signaling in many cell types, the services of the MCPC continue to be of great value to many Center affiliate investigators. The Core plans to continue to provide users with systematic and integrated approaches to the analysis of a wide range of tissues/cell types that are critically involved in diabetes and its complications, obesity and related disorders."
+ },
+ {
+  "id": "0f40de99-6e84-4409-881a-f74311bb0649",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Characterization of KSHV-Associated Disease Specific Gene Therapy",
+  "text": "KSHV-associated cancer expresses KSHV latent protein, which functions to maintain terminal repeat sequences\ncontaining a circular viral genome in tumors. We take advantage of viral protein expression and unique viral\ngene transcription and genome maintaining mechanisms to develop a gene therapy vector. The proof-of-concept\nstudies will open a new avenue to combat KSHV-associated diseases."
+ },
+ {
+  "id": "0f43b734-c24f-442a-85bb-cbd95f88715e",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "TR&D 1: Reimagining the Future of Scanning: Intelligent Image Acquisition, Reconstruction and Analysis",
+  "text": "TRD1 Project Summary The broad mission of our Center for Advanced Imaging Innovation and Research (CAI2R) is to bring together collaborative translational research teams for the development of high-impact biomedical imaging technologies, with the ultimate goal of changing day-to-day clinical practice. Technology Research and Development (TRD) Project 1 aims to replace traditional complex and inefficient imaging protocols with simple, comprehensive acquisitions that also yield quantitative parameters sensitive to specific disease processes. Working with a diverse set of collaborators around the world, TRD1 investigators have made substantial progress and significant contributions over the previous two funding periods since 2014. Building upon the foundation established in the previous funding periods, we are now poised to expand TRD1 into exciting new areas that we believe have the potential to help shape the future of rapid MRI. We will reimagine the process of MR scanning, leveraging our core expertise in pulse-sequence design, parallel imaging, compressed sensing, model-based image reconstruction and machine learning to enable intelligent quantification in MRI. We will also diversify our rapid MRI methods to integrate multifaceted sampling schemes, such as spiral or rosette trajectories, to achieve more efficient and effective sampling for new MRI applications such as low-field imaging and diffusion imaging. Additionally, we will also explore a new area of rapid MRI exploiting longitudinal image memory, with a focus on emerging new applications such as MR-guided radiotherapy and longitudinal disease monitoring. These new developments will be closely connected with the other two TRDs and will provide key enabling technologies to our CPs and SPs. Successful completion of the projects proposed in TRD1 will result in new MRI techniques that enable rapid and multifaced data acquisition, as well as more intelligent image reconstruction, quantification and interpretation. These techniques, in turn, will help advance imaging research and enhance patient care."
+ }
+]

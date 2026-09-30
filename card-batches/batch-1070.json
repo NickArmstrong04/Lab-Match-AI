@@ -1,0 +1,142 @@
+[
+ {
+  "id": "efcacf3f-4811-4d39-8e97-ec9ae1e53c47",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Stanford Cancer Immune Monitoring and Analysis Center (CIMAC)",
+  "text": "The Stanford CIMAC center will provide access to a suite of state-of-the-art immune assays,\nmany of them developed or refined at Stanford and work collaboratively with the other CIMAC\ncenters as well as the CIDC, clinical trial teams, NCI, PACT/FNIH and pharma collaborators.\nOur unmatched set of technologies will facilitate the discovery of new biomarkers for predicting\ncancer outcome or therapeutic response, as well as defining potential new mechanisms of\nimmune control of cancer."
+ },
+ {
+  "id": "efcaed68-faaf-4f8c-95c1-60623e43a92f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "TR&D3: Novel Imaging Agents & Physiological Modeling for Quantitative PET/MR",
+  "text": "PET and MRI offer complementary views of physiology. The ability to measure data from both modalities concurrently has many advantages; in addition to perfect registration, it offers the possibility of studying biological mechanisms in ways that were heretofore impossible to realize in intact animals, including human subjects. PET and MRI are based upon different physical principles and generally reflect different in vivo phenomena, so the availability of multimodal hardware and data acquisition raises new opportunities and challenges for probe development, image analysis and interpretation. Our approach to PET/MR is therefore to develop methods that exploit the complementary information from PET and MRI, including the creation of new radiotracers, acquisition protocols, and analysis techniques where appropriate. In the previous funding cycle, our pharmacokinetic modeling and radiochemistry efforts resulted in the development of imaging methods and radiotracers for PET/MR enabling non-invasive measurement of neuroreceptor signaling with PET/fMRI, mitochondrial membrane potential in cardiac studies with a voltage-sensitive tracer and extracellular volume by T1 mapping, radiolabeled nitroxide radicals for imaging oxidative stress, and development of radiolabeled nanoparticles. Our recent findings and collaborations motivated methods for improved quantification of tau burden as well as mapping cellular membrane potential and demyelination as new directions. In the renewal application, we will build on progress made during the first funding cycle and advance our technologies to their next stages of development. Specifically, we propose to develop PET/MR imaging methods and radiotracers for measuring cellular membrane potential in the myocardium and mitochondrial membrane potential outside the heart, demyelination in the brain, and immune function throughout the body. Together these novel imaging technologies span diverse organ systems, physiological processes, and potential disease applications that will be pursued in detail through interactions with numerous Collaborative and Service Projects."
+ },
+ {
+  "id": "efd35c5f-e864-4f03-81e8-875a45c8a44a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Computational Design of Protein Structures and Complexes",
+  "text": "We are developing computer-based methods for designing new protein structures and complexes. Proteins are\nthe most versatile molecules in nature and improved methods for controlling their activity will enable the creation\nof therapeutics and critical reagents for understanding biological processes."
+ },
+ {
+  "id": "efd4e936-1939-4669-9544-42ebbd809c21",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "DeepTOBIDx: deep learning-enhanced multimodal diagnostic breast imaging",
+  "text": "Integrating tumor function-orientated imaging technology such as near-infrared tomographic optical breast\nimaging (TOBI) with predominantly structure-oriented clinical diagnostic imaging modalities has demonstrated\nconsiderable potential in improving the specificity of breast cancer diagnoses. This project seeks to address\nthe limitation of optical breast imaging in characterizing small lesions by utilizing a deep learning-based image\nreconstruction framework accompanied by a dual-modal integration with diagnostic x-ray mammography under\nspot compression (DeepTOBIDx) to achieve marked improvement in optical image resolution, as well as in\nquantification accuracy and speed. Once validated in the proposed reader study, this work will offer\nradiologists with actionable lesion functional information to effectively avoid unnecessary biopsies during the\ndiagnostic workup."
+ },
+ {
+  "id": "efd50d3d-af23-46b5-86fe-e4c0f09d02fc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identifying neurons for interoception using simultaneous profiling of activity- and projection- specific populations",
+  "text": "Interoception, the body’s ability to sense its own internal state and bodily sensations, is important for maintaining\nhomeostatic set points, but its dysfunction is also hypothesized to underlie both addictive behaviors and\npsychiatric disorders. This proposal seeks to uncover the identity of “interoception neurons” in the insular cortex\nthrough the examination of context-dependent valence, as well as the validation of a new molecular profiling\ntechnique to simultaneously identify activity-dependent and projection-specific neuronal populations. By\nimplementing a strategy to study interoception in non-verbal subjects, we will gain insight into the neural\nunderpinnings of complex and maladaptive behaviors that underlie anorexia, addiction, and other psychiatric\ndisorders."
+ },
+ {
+  "id": "efd97c29-abec-4791-bcb8-30a2b91d8329",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Structural and Drug Screening (SDS)",
+  "text": "The Structure and Drug Screening Shared Resource (SDS-SR) provides services encompassing the key elements of early-stage drug development through lead optimization. SDS-SR is a collaboration of Structural Biology (SB), High-Throughput Screening (HTS), and Medicinal Chemistry (MC). SB, HTS, and MC frequently coordinate services for Rogel Cancer Center (Rogel) members to increase the efficiency and impact of cancerrelated projects. SDS-SR enables Rogel members to use advanced structure-based drug design and/or nonbiased HTS strategies to identify chemical matter that can be advanced through a milestone-driven research plan resulting in efficient and effective discovery and development of precision oncology medicines - a strategic goal of the Rogel Cancer Center. The overall goals of SDS-SR are to identify novel molecular targets for new cancer therapeutics and to identify novel chemical leads and/or tool molecules that interact with these targets. Our services start with refining the protein target via high throughput cloning and expression through confirmation and optimization of hit binding via X-ray crystallography. Once the target is refined, it is purified in quantities ranging from micrograms to grams for high-throughput screening (HTS) assay development and large scale HTS for hit identification. Additional biophysical orthogonal assays are offered to determine whether the compound binds directly to the target prior to structure determination. Rogel members are provided with training, advisement, consultation, and specialized equipment through every step of the process. SDS-SR services are provided by scientific staff with a breadth of expertise and experience in both academia and industry. Many of these services are not available through vendors or other institutions. SDS-SR continues to be an invaluable resource to Rogel members. The SDS-SR’s cohesive activities, services, and processes ensure that projects are advanced along the translational pipeline, from basic science discoveries into early cancer drug discovery."
+ },
+ {
+  "id": "efdbef2e-2fce-4d8e-b859-384e9f678909",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Research Test-Bed Unit",
+  "text": "Research Test-Bed Unit: PROJECT SUMMARY The overall goal of the U54 Northwestern University Center for Chromatin Nanoimaging in Cancer (NU-CCNIC) is to develop and deploy a multi-scale chromatin nanoimaging platform together with molecular analyses and computational modeling to characterize chromatin structure and transcriptional patterns associated with the cancer stem cell (CSC) and chemoresistance phenotype. The immediate application of the proposed studies will be ovarian cancer, a malignancy of unmet need. It has been speculated that CSCs represent the reservoir from which recurrent, chemotherapy-resistant tumors arise. The key biological question addressed by this Center is whether reprogramming of the transcriptome through epigenetic and chromatin organization-regulated mechanisms leads to significant transcriptional plasticity, which is critical for CSCs to withstand and survive stressors in the tumor environment, driving tumor initiation and progression. As part of NU-CCNIC, the Research Test-Bed Unit (RTB) will provide source materials for the nanoimaging technologies developed by the Technology Development Unit (TECH). These resources include cells and tissues at various transition points between stem cell and non-stem cell phenotypes and between chemotherapy-sensitive and resistant states. The studies conducted by the RTB will test the applicability of the Nanoscale Chromatin Imaging and Analysis (nano- ChIA) platform and provide feedback to optimize its use. In addition, the RTB will perform state-of-the-art computational genomic analyses of CSCs and chemotherapy-resistant cells, including single-cell mRNA sequencing and genome mapping (e.g., Hi-C, ATAC-sequencing and ChIP-sequencing). The specific objectives of this unit are: 1) To identify CSC-specific epigenomic features and 3D chromatin packing conformations by integrating genome-wide maps of chromatin accessibility, contact frequency and gene expression networks with high resolution nano-scale chromatin imaging features. 2) To identify whether the transition to a chemotherapy-resistant state promotes stemness-like chromatin packing and conformation. Locus specific epigenetic manipulations will be coupled with high resolution imaging technologies to investigate resistant-state specific 3D chromatin packing and its relation to the CSC state. 3) To discover how global epigenome manipulations induced by small enzymatic inhibitors block stemness and chemo-resistance through alterations of chromatin packing. In all, the integrated interrogation of cancer through chromatin nanoimaging methods (TECH) and genome-wide mapping (RTB) will discover how transcriptional plasticity of CSCs and chemo-resistant cancer cells is regulated. The project is at the forefront of the field by using highly innovative molecular and nanometer-scale chromatin imaging technologies to better understand the relationship between higher level chromatin structure and key drivers of stemness and chemo-resistance in a disease that remains lethal and difficult to treat."
+ },
+ {
+  "id": "efdc1672-99d5-41d2-be50-ae06820c6df3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Developing proteomics pipelines to improve depth, throughput, and accuracy",
+  "text": "Mass spectrometry (MS)-based proteomics has become an essential tool for addressing important biological\nquestions, yet significant room for improvement persists throughout the sample preparation and data\nacquisition process. This research program seeks to develop and optimize MS-based proteomics technologies\nalong every step of the workflow, to enable more efficient, accurate, and comprehensive characterization of\nproteomes, post-translational modifications, and accessible cysteines. We will provide the community with a\nplatform to establish pipelines to address diverse and specific research questions that will advance our\nunderstanding of biological processes and related diseases."
+ },
+ {
+  "id": "efe97628-33b8-45b7-b6b3-f6c94d0ee787",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Gene-Environment interactions in Autism",
+  "text": "Autism spectrum disorder (ASD) is a highly prevalent disease affecting 1 in 54 children in the US and risk to this\ndisease is increased in individuals exposed to environmental chemicals such as BPA. Although mutations in the\ncoding regions of genes affecting protein function have been identified in patients with ASD, the contribution of\nnon-coding variants present in different individuals to ASD phenotypes and their interaction with the environment\nhas not been explored. This study will identify non-coding genome variants that respond to BPA exposure by\ncausing gene expression changes and alterations of neural cell fate similar to those observed in ASD patients,\nincreasing our understanding of how chemicals in the environment may alter brain development in children with\nautism."
+ },
+ {
+  "id": "efe9ac92-b1f8-4c7d-8b7e-e0e2f490040c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Environmental and social determinants of mammographic features",
+  "text": "This proposal takes a comprehensive approach to understanding the impact of a wide range of environmental\nfactors including air pollution, and physical stressors (ultraviolet radiation [UV], radon), demographic factors (age,\nrace and ethnicity), and social determinants of health (SDOH) on mammographic features in the Nurses’ Health\nStudy 3. We expect our findings to provide valuable information on the role of modifiable exposures on\nmammographic features and thus, subsequent breast cancer risk. These findings will inform individual- and\npopulation-level prevention, risk assessments, and policy decisions, with the long-term goal of reducing the\nburden of breast cancer."
+ },
+ {
+  "id": "eff65f5e-cf82-43a6-a7d6-542e0c8a44d2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of New Technologies at Roswell Park to Further Cancer-Based Research and Treatment Through Genome Modification",
+  "text": "The Gene Targeting and Transgenic Shared Resource is an integral part of the Roswell Park Comprehensive\nCancer Center (Roswell Park) Cancer Center Support Grant (CCSG) program (P30CA016056, PI Johnson). As\nthe Director of the Gene Targeting and Transgenic Shared Resource with over 25 years of relevant experience,\nDr. Stablewski's efforts are solely dedicated to supporting all 4 CCSG research programs with regards to keeping\nabreast of current genome editing technologies for the creation of genetically modified tools (animal models and\ncell lines). Funding of Dr. Stablewski as NCI Core-based Research Specialist will ensure the stability of an\nessential resource to Roswell Park's CCSG program."
+ },
+ {
+  "id": "effaa783-e258-4cd3-a430-9f4c95511ae7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Indiana University clinical Center for acute pancreatitis and diabetes clinical research network",
+  "text": "Diabetes mellitus (DM) is a known complication of acute pancreatitis (AP); however, knowledge\ngaps remain in our understanding of the incidence, risk factors, pathophysiology, and best\nmanagement of DM following an episode of AP. Since network inception in 2020, the Indiana\nUniversity Clinical Center has been an active contributor and collaborator in the Type 1 Diabetes\nin Acute Pancreatitis Consortium (T1DAPC), in which “Diabetes RElated to acute pancreatitis And\nits Mechanisms” (DREAM) is the primary study. In the current proposal, submitted in response to\nRFA-DK-25-017, we are targeting renewal of the Indiana University T1DAPC Clinical Center to\nprovide the resources and collaborative opportunities necessary for ongoing enrollment of well-\ncharacterized individuals in DREAM and other consortium studies, with the aim of furthering our\nunderstanding of critical knowledge gaps surrounding the development of DM after AP."
+ },
+ {
+  "id": "f0015a62-f772-43f1-89fa-ff7f92edddd4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Impact of early overnutrition on leptin signaling in hypothalamic neuropeptide Y neurons",
+  "text": "Childhood obesity is spiraling out of control and leads to metabolic disease and premature death later in life. Understanding the impact of early life overnutrition is critically important, and the hypothalamus is a key brain region in metabolic regulation. This proposal addresses the mechanisms by which developmental overnutrition affects the function of neural circuits essential for energy balance with particular effort placed on the interplay between metabolic processing and time of day."
+ },
+ {
+  "id": "f0025d43-13f0-4e0c-99eb-b887b2d158dc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Deep integrative analysis of Hi-C data",
+  "text": "A variety of experimental methods, most notably the Hi-C assay, have been developed to measure the chromatin\n3D architecture that is often represented in the form of a “contact matrix.” Despite considerable progress in\nanalyzing these contact matrices, computational tools that can perform joint analyses of Hi-C and other types of\ndata are still lacking, hindering the progress toward deciphering the relationship between genome structure and\nfunction. Here, we propose to develop novel machine learning methods that can integrate time-course Hi-C data\nand RNA-seq data, co-embed genome sequences, and low-coverage contact data for resolution enhancement,\nand translate between Hi-C and ATAC-seq."
+ },
+ {
+  "id": "f004ce08-07f6-4297-9ed3-ea98904958b8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Advanced Imaging Tools to Assess Cancer Therapeutics in Pediatric",
+  "text": "Our project aims to develop child-tailored quantitative imaging tools for assessing treatment effects in children\nwith cancer while ensuring the lowest possible radiation exposure. We are testing novel diffusion-weighted\nmagnetic resonance imaging and positron emission tomography technologies for therapy response\nassessment of pediatric cancers. We anticipate that child-tailored imaging tests will introduce a new, safer,\nmore efficient, and more accurate generation of imaging exams for children that can be widely applied to\ninterrogate health and disease without the risk of radiation-induced secondary cancers later in life."
+ },
+ {
+  "id": "f008f0f1-028a-4edd-bc82-9a3eef139527",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mobile technologies for delivering hearing care through community health workers",
+  "text": "R21 R33 Narrative\nHearing loss is a major global health problem, especially in low and middle income countries\nwhere most people lack access to hearing health care. This proposal offers innovative mobile\nhealth solutions, focusing on the fitting and support of good quality low-cost hearing aids by\ncommunity health workers. If successful, this approach could be scaled up to address hearing\nhealth care for underserved populations globally."
+ },
+ {
+  "id": "f00c9c1c-edaa-4959-98e8-520141ac59e1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mesoscale MRI of Brain Iron and Myelin: Development of a Motion-Robust Multiparametric Imaging Framework at 7 T",
+  "text": "The goal of this project is to develop novel high-resolution MRI methods for improved characterization of brain iron and myelin in mesoscale brain structures. We will establish our approach through novel technology development and rigorous validation. The results are applicable to a variety of neurologic and psychiatric diseases in which iron accumulation and myelin loss are pertinent."
+ },
+ {
+  "id": "f00df4f8-0c5d-41af-8428-31d358529104",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dissecting the Role of Donor CCR2- Macrophages During Acute Cellular Rejection After Heart Transplantation",
+  "text": "This career development proposal has two important components that will benefit public health. The first is the\ndevelopment of the principal investigator into a physician-scientist, which is a uniquely trained medical doctor\nwho by treating patients and conducting research identifies important gaps in our medical knowledge and is\npositioned to subsequently investigate new therapies. The second is the identification of a previously\nunexplored contribution of the donor immune system to the immediate post-transplant outcomes after heart\ntransplant."
+ },
+ {
+  "id": "f00e0e1e-2fa5-41c2-937d-caf58953edee",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cerebral amyloid angiopathy: Role of ApoE, innate immunity, and meningeal lymphatics",
+  "text": "Project 2 will investigate the interplay of APOE genotype, innate immunity, and meningeal lymphatics on cerebral amyloid angiopathy (CAA) and the translational implications of modifying lymphatic function on passive immunotherapy of CAA. CAA occurs in ~90% of individuals who develop Alzheimer’s disease (AD) and can occur independently of AD. The pathological hallmarks of CAA are deposition of amyloid composed in the majority of cases of amyloid-β (Aβ) along small arteriole vessel walls of the cerebral vasculature and leptomeninges. CAA leads to loss of vascular smooth muscle cells, impaired vasoreactivity, hemorrhages, and ischemia resulting in cognitive impairment and transient ischemic episodes. CAA is also linked with edema and microhemorrhages that are common side effects observed with several anti-Aβ antibodies known as amyloid-related imaging abnormalities (ARIA). The mechanisms underlying the development of CAA are not well understood, but prior studies indicate that APOE genotype, perivascular fluid flux, and innate immune cells can all influence CAA pathology. Like AD, APOE4 increases the risk of developing CAA. Recently, we demonstrated that anti-apoE antibodies that target a form of apoE that co- deposits with vascular amyloid reduced CAA and improved vascular function. In the brain parenchyma, apoE is predominantly expressed by astrocytes and reactive microglia. Vascular-associated cells, such as perivascular macrophages (PVMs), pericytes, and the recently described fibroblast-like vascular leptomeningeal cells (VLMCs) are also reported to express apoE. ApoE produced by different cell types differ in their lipidation state and post-translational modifications which could suggest a cell-specific role for apoE in CAA or subsequent vascular dysfunction and inflammation. Recent studies by the Kipnis lab have shown important contributions of the meningeal lymphatic system to Aβ deposition in parenchymal and leptomeningeal plaques. Impaired clearance of Aβ from perivascular spaces may also contribute to the formation of CAA, although the role of the meningeal immune system and the meningeal lymphatics in CAA formation and pathogenesis is unexplored. We hypothesize that 1) apoE plays a multifaceted role in CAA formation by influencing perivascular Aβ seeding and clearance in part via the meningeal lymphatic system and perivascular immune cells, 2) the meningeal lymphatic system plays a key role in CAA formation; and 3) augmenting the meningeal lymphatic system will increase the efficacy of anti-apoE immunotherapy reduction of CAA. We propose these Aims: Aim 1: To determine effect of cell-type specific apoE expression on CAA and meningeal lymphatic function. Aim 2: To determine the role of meningeal lymphatics on CAA pathology and associated inflammation and vascular dysfunction. Aim 3: To determine the effect of lymphatic function on the efficacy of anti-apoE antibody treatment on CAA and vascular dysfunction. Project 2 will collaborate extensively with all Projects and Cores in this grant to accomplish these goals."
+ },
+ {
+  "id": "f00ee85a-d762-436f-89da-bc2e1b2b5f80",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The developmental origin of adult pluripotent stem cells",
+  "text": "The proposed research is relevant to human health because the discovery of novel\nmechanisms that establish and maintain pluripotency will increase our understanding of stem cell biology.\nThus, this research is relevant to the part of the NIH’s mission that pertains to developing fundamental\nknowledge to enhance heath and reduce illness and disease."
+ }
+]

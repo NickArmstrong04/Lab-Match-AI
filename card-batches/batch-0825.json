@@ -1,0 +1,142 @@
+[
+ {
+  "id": "9a3a9da7-b541-4ee7-9bc5-561debceb634",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Signaling dynamics in the control of ectoderm patterning and morphogenesis",
+  "text": "We propose to create models of human ectodermal development using human pluripotent stem cells, and to\nuse these to understand the interplay between cell-cell signaling, fate patterning, and morphogenesis. As this\nstage of human development is almost completely inaccessible to observation and crucial for understanding\nbirth defects and infertility, these models and the information gained will be valuable for engineering treatments\nfor these conditions. We will use these models to gain an understanding of crucial questions about how\npatterns of signaling are established and interpreted in cell fate decisions and morphogenesis in order to shape\nthe body plan."
+ },
+ {
+  "id": "9a419334-7e53-4c24-8be9-38fd3aa0e633",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Evaluating the renal complications in Cockayne Syndrome",
+  "text": "This project is important for public health because it aims to understand how kidney damage occurs with\npremature aging disease and develop ways to prevent it, which will also help those at high risk, especially\nolder adults. It is in perfect alignment with NIGMS’s research goals to better understand biological processes\nand to improve how we diagnose, treat, and prevent kidney diseases."
+ },
+ {
+  "id": "9a441fac-60e2-4043-9fba-2fd96d6842a4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dissecting the Role of Germline Genetics in RAS-Driven Cancers",
+  "text": "The RAS gene family encodes the central components of the RAS signaling pathway, which is the most\nfrequently altered oncogenic pathway across all cancers but is especially prominent in pancreatic, colorectal,\nlung, and skin malignancies. These RAS-driven cancers collectively account for the largest single source of\ncancer-related mortality in the United States but are often treatable if intercepted at an early stage, meaning that\nnew strategies are desperately needed to anticipate and prevent RAS-driven cancers. In this proposal, I outline\nan interdisciplinary research project grounded in my 12 years of experience in genomic data science to\nsystematically discover new inherited genetic factors that influence the onset, progression, and dynamics of\nRAS-driven cancer, which has the potential to uncover previously unknown facets of cancer biology, enable\npreventative screening tailored to an individual’s inherited genetic risk, improve equity in clinical oncology, and\nnominate new targets for the prevention or treatment of these devastating malignancies."
+ },
+ {
+  "id": "9a4a5233-80b1-40dd-8474-90b0270e92d3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The role of the epicardium and IRE1 in mediating environmental exposure on cardiac function",
+  "text": "Exogenous chemicals (e.g., per-and polyfluoroalkyl substances (PFAS), drugs, etc.) and endogenous\nmetabolites (e.g., cholesterol and saturated fatty acids (SFAs)) are linked to cardiovascular disease (CVD).\nCVD is the leading cause of death globally, claiming more lives each year than all cancers and chronic lower\nrespiratory disease combined. Understanding how environmental factors induced changes in the lipid profile\nand cardiac function will provide novel insights into heart disease and could lead to better design and\ndevelopment of novel therapeutics."
+ },
+ {
+  "id": "9a5250af-ef4c-4579-81cb-18b646e8c564",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Single-cell, multi-omic investigation of epicardial adipose and coronary endothelial dysfunction in type 1 diabetes",
+  "text": "Cardiovascular disease is the leading cause of death in people with type 1 diabetes, but its\ncauses are poorly understood in this vulnerable population. This project seeks to uncover the\nmolecular mechanisms by which dysfunction in epicardial adipose tissue cascades onto\ncoronary arteries to cause cardiac disease in people with type 1 diabetes."
+ },
+ {
+  "id": "9a534504-de87-4d2b-9193-b5599b4c179e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Method Development for Single-Cell Multi-omics",
+  "text": "Relevance to public health.\nGene regulation is largely defined by the interactions between different epigenetic marks under the genetic\ncontext within the cells. To understand the gene regulation in heterogeneous tissues, we propose to develop\nseveral computational methods and experimental assays in single-cell multi-omics. My long-term goal is to\nunderstand gene regulation from genetic variations to phenotypic variations, which will eventually pave the road\nfor the discovery of drug targets and early intervention strategy for the different complex diseases."
+ },
+ {
+  "id": "9a669864-edfc-45c8-8ee0-eaf209d160e5",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Center for Modeling Non-Coding Disease Variants: Bioinformatics Core",
+  "text": "BIOINFORMATICS CORE The vast majority of disease-associated variants reside in the non-coding genome (estimated at 90%), yet their contributions to disease mechanisms remain underrepresented in current models. Despite growing evidence that non-coding variants influence gene regulation, cellular processes, and disease phenotypes, understanding their function from genomic sequence alone remains a significant challenge. This program seeks to address this gap by identifying and characterizing causal monogenic mutations within the non-coding genome, focusing on when and where these regions are active. Our approach builds on recent advancements in transcriptomic mapping, leveraging both long- and short-read sequencing in human and mouse models to uncover active regulatory elements and their associated unstable transcripts (e.g., enhancer RNAs, TSS-RNA, PROMPTs). By depleting factors involved in transcription-coupled ncRNA degradation, we provide unprecedented insight into the functional outputs of regulatory noncoding loci. These datasets enable integrative bioinformatic analyses, generating a summary score for each mutated Active Non-Coding Variant (ANCV) based on conservation, context-specific interactions, and cell-specific mechanisms. The program's central aims are to 1) Defining ANCV expression patterns, conservation, and gene-regulatory networks to prioritize disease-relevant variants. Using a stepwise pipeline, we will narrow down the hundreds of thousands of non-coding variants to a manageable list for further study. And 2) Functionally dissecting prioritized ANCVs using massively parallel reporter assays (MPRAs) to validate their regulatory roles and identify downstream targets in native cellular contexts. Our novel MPRA design simultaneously measures local and distal regulatory functions, bridging computational predictions and experimental validation. In collaboration with the Preclinical Core, the Disease Modeling Core, and external partners, the Bioinformatics Core will support the identification, prioritization, and validation of non-coding variants associated with rare and undiagnosed diseases. By integrating computational and molecular tools, the program will nominate actionable genomic regions for experimental modeling and characterization of disease mechanisms. Through an iterative and collaborative framework, we aim to elucidate the regulatory roles of noncoding variants, advancing the understanding of their contributions to disease and enabling the development of targeted therapeutic strategies. This effort will be bolstered by a user-friendly platform for data sharing, fostering accessibility and collaboration within the broader research community."
+ },
+ {
+  "id": "9a70a1b7-88b6-4c73-b5c8-0165a39d2ddc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating a positively-selected chromosome 7 haplotype associated with decreased susceptibility of Plasmodium falciparum to artemisinin and lumefantrine in Africa",
+  "text": "A new drug resistance marker has been discovered in Africa in Plasmodium falciparum, the cause of malaria,\nthat threatens frontline artemisinin-combination therapies. We aim to study how far this marker has spread in\nAfrica, validate the specific mutations in the gene PX1 as causative, and determine how strong the resulting\ndrug resistance is. This work is critical to ensuring effective malaria treatment and control globally."
+ },
+ {
+  "id": "9a7ecdca-14cf-4e06-9a66-a7224240e874",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Characterization of sexual dimorphism in the brain",
+  "text": "The specific cell types that make up neural circuits, the ensembles of cells in our brain that coordinate behavior in health,\nare poorly understood. Our basic research project focuses on characterizing a specific cell type located in a brain center\ncritical for social interactions. Our study will shed light on how this cell type normally regulates social behaviors and may\nhave implications for how disease states alter such neural circuits and disrupt emotional well-being and social interactions\nin neurological and psychiatric disorders."
+ },
+ {
+  "id": "9a7ef88a-52c6-45f1-90bb-dcd01c1ea709",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Systematic mapping of innate immune signaling pathways",
+  "text": "Innate immunity plays a vital role in protecting the body against viruses, but we still do not fully\nunderstand the processes and protein networks that make this possible. This project studies how\nproteins function in key immune pathways activated by signaling molecules called type I and II\ninterferons and IL-12, which are crucial for fighting viral infections. It also develops a method to map\nsimilar pathways triggered by other immune signals, paving the way for broader insights into how the\nimmune system defends against disease."
+ },
+ {
+  "id": "9a83de82-36df-412e-b1ef-16cb2472d669",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Integrating physics-based and machine learning methods to accelerate computational drug design",
+  "text": "Discovering new drug molecules resembles finding a needle in a haystack, where the success rate heavily depends on the number of molecules screened. Computer simulations together with machine learning methods are employed in the pharmaceutical industry to select compounds for synthesis, but most of these methods have been designed for a throughput which is very low compared to the fast-growing space of molecules which can be synthesized. This application will develop new robust and efficient computational methods to accelerate small-molecule drug discovery, in order to identify more drug candidates with fewer liabilities."
+ },
+ {
+  "id": "9a87d6a1-78d9-4f23-83db-e95ce67dfb4b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Human Virome Characterization Center for the Oral-Gut-Brain Axis",
+  "text": "Biospecimen Analysis Core: Abstract The Biospecimen Analysis Core of the Human Virome Characterization Center (HVCC) for the Oral–Gut–Brain Axis will provide comprehensive analysis of a broad array of biospecimen samples collected by the Biospecimen Collection Core. Sample analysis will be performed using previously standardized and validated sequencing protocols, such as whole-genome shotgun metagenomic sequencing and targeted viral capture enrichments, allowing investigation and characterization of the virome and other microbiome components present in diverse sample types. Additionally, new technologies and protocols will be implemented as they are developed in coordination with other components of the Human Virome Program (HVP). Our Core will be led by Dr. Matthew Clayton Ross, an Assistant Professor of Molecular Virology and Microbiology and Laboratory Director at the Alkek Center for Metagenomics and Microbiome Research (CMMR) at Baylor College of Medicine (BCM), with broad expertise in sequencing platforms for the microbiome/virome. He will be joined by an expert team of investigators, including Dr. Joseph Petrosino, Professor at BCM and prior investigator for the Human Microbiome Project, Dr. Sara Joan Javornik Cregeen, an Assistant Professor and Team Lead at the CMMR at BCM, Dr. Jonathan Jacobs, a physician–scientist and Co-Director of the Goodman–Luskin Microbiome Center (GLMC) at the University of California, Los Angeles (UCLA), and Dr. Xinmin Li, Director of the Technology Center for Genomics and Bioinformatics (TCGB) at UCLA. Dr. Hong Zhou, Director of the Electron Imaging Center for NanoMachines and Professor at UCLA, will serve as a contributing member with content expertise in the application of cryogenic electron microscopy to the study of viral structures. The Biospecimen Analysis Core will ensure production-level sequencing of samples collected by the Biospecimen Collection Core; oversee the technical development of sample extraction, processing, and sequencing methods; incorporate new technologies and analytical tools to permit spatiotemporal visualization, tracking, and tracing of viruses in cells and their environment in vivo and possibly ex vivo. We will build additional analytical capacity to accommodate new or updated imaging, single-cell, or other technologies developed through the HVP Consortium. In total, our multidisciplinary team of expert investigators will work together with the other Cores within our HVCC, as well as members of other HVP groups and the Consortium Organization and Data Coordination Center, to develop, refine, and apply cutting-edge tools and technologies for detailed analysis of the viral communities within a broad array of biospecimen types. Through these efforts, we will support the broad aims of our HVCC, which are to identify and characterize the human virome across the oral–gut–brain axis, providing accurate estimates of its richness and complexity in health across the lifespan and healthspan. 1"
+ },
+ {
+  "id": "9a9695e1-7892-46a3-a77b-46a46e54ad7c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Evaluating Candidate Genes for Evidence of Epilepsy",
+  "text": "Many types of epilepsy have recently been associated with genetic changes that arise in utero\nand result in mosaic variants, present in only a portion of brain cells, in genes related to the\nmTOR pathway, the gene SLC35A2, and others. The proposed research will create functional\nmodels, using CRISPR/Cas gene editing in the genetically tractable zebrafish system, to assess\npathogenicity, understand the role of these genes in brain development and epilepsy, and\nprovide a platform for drug screening for mosaic epilepsy. These studies have the potential for\nimpact on a large portion of patients with epilepsy."
+ },
+ {
+  "id": "9a99f202-7205-4efc-9b5c-24e807e82dc8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Catsper Inhibitors for Male Contraception",
+  "text": "The voltage-gated ion channel CatSper is an exceptionally promising and validated target for male\ncontraception because it is exclusively expressed in sperm, is critical for sperm function, and is required for\nmale fertility. CatSper knock-out mice are completely infertile and naturally occurring CatSper mutations are a\ncause of male factor infertility in humans. We are developing compounds to inhibit CatSper and sperm function\nthat can be used as male contraceptives."
+ },
+ {
+  "id": "9a9a61e4-e209-4868-9644-bf5ff637106c",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Training Program in Genomic Medicine",
+  "text": "The increasing affordability of genome sequencing has created new opportunities to personalize health care. To\nmaximize the clinical impact of genomic information, we must train a workforce of physicians and scientists to\nmanage, process, and interpret genomic data; to work within teams of researchers from different disciplines; and\nto communicate genomic information effectively and responsibly to patients. Armed with this training, a new\ngeneration of scientists will develop and apply precision diagnostics and therapies to provide truly personalized\nhealth care."
+ },
+ {
+  "id": "9a9a7589-98fc-4e6f-b0f1-1ff3bfa8d4c4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Neural circuit mechanisms underlying cognitive control of sensory-guided behavior",
+  "text": "Response inhibition is a key aspect of learned behavior and is impaired in a variety of neurological disorders that\ninvolve impulsivity, including Huntington’s disease, Tourette’s syndrome, and obsessive-compulsive disorder.\nThis project uses in vivo and ex vivo approaches in mouse models to investigate cortical and thalamic influences\non the neural circuits of the dorsal striatum, an important site of sensory-motor integration and learning. The\nresults of this project will further our understanding of the neural circuit mechanisms underlying learned response\ninhibition and have implications for understanding and treatment of impulsive behavior."
+ },
+ {
+  "id": "9a9c0a4c-2896-4fe7-9f73-2db621c1b540",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Defining the role of the Trichomonas vaginalis cytoskeleton during infection",
+  "text": "The three major components of the T. vaginalis cytoskeleton, the pelta, axostyle and costa, have been\nimplicated in numerous parasite behaviors including cell division, motility, and adherence to the host epithelia.\nDrawing from multiple methodologies, I will dissect the molecular structure and function of each component,\nwhile concurrently using an in vitro infection model to track cytoskeletal changes during adhesion and\nmolecularly characterize the host-pathogen interface. By identifying the function of specific cytoskeletal\ncomponents and probing the molecular basis of colonization, this work will identify new targets for next\ngeneration T. vaginalis therapies."
+ },
+ {
+  "id": "9a9d5454-915c-4a0c-b629-b0e1c193749e",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Alteration and Renovation",
+  "text": "PROJECT SUMMARY – Alterations and Renovations The University of Hawai`i Cancer Center (UHCC) and the John A Burns School of Medicine are committed to advancing its capabilities in data science and machine learning to address critical biomedical challenges in Hawai`i and beyond. This proposal seeks to renovate and expand the UHCC data center to create a state-of- the-art facility capable of supporting next-generation high-performance computing (HPC) systems. The current infrastructure, designed before the AI revolution, is at capacity, with limitations in HVAC and power systems that hinder further growth. Additionally, the demand for secure, HIPAA-compliant environments to manage sensitive medical data underscores the need for an upgraded computational space. This project will transform an existing utility space into a secure, high-performance server room, enabling UHCC to deploy advanced NVIDIA H200 systems and establish itself as a leader in artificial intelligence (AI), machine learning (ML), and biomedical data analysis. The following specific aims guide this effort: 1) Procure and Install Critical Systems for High-Performance Computing: This aim includes the acquisition and installation of essential components, such as a liquid cooling system to efficiently manage heat loads, and uninterruptible power supplies (UPS) to ensure reliable and continuous operation. These upgrades will provide a scalable environment for GPU-intensive systems. 2) Upgrade Building Infrastructure to Support HPC Integration: This aim focuses on upgrading wiring, network connectivity, and physical security measures to support high data throughput and ensure compliance with data privacy regulations. Additionally, the liquid cooling system will be integrated into the building's existing chilled water system, promoting sustainability. The proposed renovations will deliver transformative impacts, including enhanced research capabilities, a competitive edge in securing grant funding, economic development through AI and ML innovation, and workforce development by training the next generation of researchers and engineers. These advancements will position UHCC as a leader in AI-driven biomedical research and address complex challenges in health, climate resilience, and beyond."
+ },
+ {
+  "id": "9a9db0a8-46ad-477e-b204-d2041eb69af5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Biostatistics & Epidemiology Methodology Core",
+  "text": "The JHU CFAR Biostatistics and Epidemiology Methodology (BEM) Core provides leadership to support collaborative, educational, and research initiatives for the Johns Hopkins HIV/AIDS community to promote and support innovative HIV-related research. The BEM Core blends the best aspects of existing resources at JHU and expertise in HIV/AIDS that is scattered across different Departments into a Core that has been serving to enhance and coordinate high quality HIV/AIDS research. Johns Hopkins has strong areas of methodological research expertise with individuals that have been highly productive and on the forefront of methodological research and application. Biostatistical and epidemiological methods are necessary tools that support and extend the full spectrum of research in HIV/AIDS here at Johns Hopkins: from basic biochemical, pharmacological and genetic research investigations to epidemiological studies and clinical trials to policy-level research initiatives; including both domestic and international experience as well as spanning HIV prevention and treatment. The BEM Core also seeks to support the CFAR-wide initiatives such as the Baltimore Collaboratory. Indeed, the BEM Core has been integral to help foster a stronger relationship with the Baltimore City Health Department. Therefore the overall goals of the BEM Core is threefold: 1) Service — to provide state-of-the-art bioinformatics, biostatistical, epidemiological, and dynamic modeling services in support of innovative HIV/AIDS research, 2) Education — to train and mentor staff, students, fellows, and junior investigators (with particular focus on Sub-Saharan Africa, Ending the HIV Epidemic, and dynamic modeling) in state-of-the-art population and quantitative methods used in HIV research, and 3) Collaboration — to collaborate in initiatives across the JHU CFAR as well as with other CFAR biostatistics cores. Together, the BEM Core provides value added to the HIV/AIDS research community as well as to our Baltimore community."
+ },
+ {
+  "id": "9aa71a90-df5d-4557-b7c6-9c1e8d7cbf9a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "African-ancestry Breast Cancer Genetic Consortium",
+  "text": "Breast cancer is the most diagnosed malignancy in the United States. Genetic factors\nplay an important role in breast cancer etiology, but known genetic factors explain only a\nsmall fraction of breast cancer heritability, particularly in women of African ancestry. In\nthis application, we propose a large multi-ancestry study to search the whole genome to\nidentify genetic risk factors for breast cancer and evaluate how genetic factors influence\nracial disparities in breast cancer risk."
+ }
+]

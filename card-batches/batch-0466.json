@@ -1,0 +1,142 @@
+[
+ {
+  "id": "1874d5e3-fea8-49e5-b777-d0e87826e2da",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Integrative Genomics and Bioinformatics Core (IGC)",
+  "text": "PROJECT SUMMARY – INTEGRATIVE GENOMICS AND BIOINFORMATICS The Integrative Genomics and Bioinformatics Shared Resource (IGC) provides analytical, computational, and technical services for all types of -OMICS (e.g., genomics, metabolomics and proteomics) research performed by Salk Cancer Center (SCC) members. In the era of big data in biology, bioinformatics analysis is crucial for deriving biological insights from large and noisy high-throughput data. The goal of the IGC has been to provide SCC members access to state-of-the-art bioinformatics expertise and support. Staff in the IGC assist SCC members with integrative analysis of sequencing datasets, provide software and tools that SCC members can use to perform their own analyses, provide training in software use, and develop customized tools and pipelines for cutting-edge analyses. As needed, they also develop new tools and techniques for SCC members whose projects push the boundaries of research, generate publication quality visualizations of analyses, and help prepare scientific manuscripts and grants containing bioinformatics or genomics components. The IGC is used by 20 SCC members (65%) accounting for 49% of the services utilized."
+ },
+ {
+  "id": "1878ad15-02cf-49b3-bb3c-f65ad15f5fad",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The role of NEK2 in molecular carcinogenesis of esophageal adenocarcinoma",
+  "text": "The incidence of esophageal adenocarcinoma has been rising rapidly in the US and Western countries during\nthe past 4 decades and the overall 5-year survival rate is below 20%. We propose to investigate the gene\nregulatory mechanisms and molecular function(s) of a novel NEK2-STAT3 axis in esophageal\nadenocarcinoma, to identify its biological, diagnostic, prognostic, and therapeutic significance."
+ },
+ {
+  "id": "187a129d-1254-408d-a336-bec02ccc0823",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Exploiting unicellular animal relatives to understand the evolution of sensory systems",
+  "text": "Animals utilize complex multicellular nervous systems to sense their environment, but little is known about the\nsensory systems of unicellular eukaryotes and how these sensory transduction mechanisms laid the foundations\nfor animal origins. As a novel model for sensory biology, we propose the study of choanoflagellates, the closest\nrelatives of animals which display both unicellular and simple multicellular forms, both of which integrate\nenvironmental cues to find bacterial prey. We plan to build a mechanistic understanding of choano sensory\nbiology by identifying receptors, signal transduction mechanisms and behavioral outputs, with particular interest\nin how these sensory systems evolve as choanos speciate and adapt to new environments, particularly through\nthe evolution of simple multicellular forms."
+ },
+ {
+  "id": "187c2c91-2a0d-490d-a195-1833b1b33707",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Neurotrophins and post-infarct plasticity in cardiac sympathetic neurons",
+  "text": "Coronary heart disease is the leading cause of death in the U.S, and patients have a high risk for cardiac\narrhythmias after surviving a myocardial infarction. Spatial heterogeneity of sympathetic nerves, including\ndenervation, is a major contributor to post-infarct cardiac arrhythmias. The studies proposed here will restore\ncardiac sympathetic nerves using novel therapeutics and will determine the diverse mechanisms by which\nreinnervation prevents arrhythmias and alters cardiac inflammation."
+ },
+ {
+  "id": "18806b73-3c70-46e0-8eff-87063a28f537",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The role of vascular sphingolipid metabolism in Alzheimer's Disease",
+  "text": "Dysfunction of cerebral blood vessels is thought to be critical to the pathophysiology of Alzheimer’s\ndisease, yet very little is known about the molecular mechanism that leads to neurovascular dysfunction.\nWe have identified that there is a downregulation of sphingolipid metabolism in the cerebral blood\nvessels of patients with Alzheimer’s disease, and here we will examine how this downregulation affects\nneurovascular function and the pathogenesis of Alzheimer’s disease. Ultimately, we aim to determine\nwhether targeting cerebrovascular sphingolipid metabolism may be of therapeutic benefit for patients\nwith Alzheimer’s disease."
+ },
+ {
+  "id": "1883191b-8251-4717-b015-096307b89c09",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Coagulations 'Drake Passage': The Bumpy Transition Between Fibrinogen and Fibrin",
+  "text": "The ability to specifically and selectively identify and target the protein fibrin is essential for clinically diagnosing\nand delivering therapeutic drugs to a variety of diseases including cardiovascular disease, Alzheimer’s, and even\npregnancy-related conditions such as eclampsia. Fibrin is remarkably similar to its precursor, fibrinogen, and yet\nthese two proteins have drastically different biochemical properties; unfortunately, we currently lack reliable tools\nto differentiate between the two blood proteins. In this project, we will utilize novel structural biology approaches\nto identify distinguishing characteristics between fibrinogen and fibrin and understand how the structural\ndynamism of fibrinogen influences the interconversion between soluble fibrinogen and polymeric fibrin that links\nfibrinogen conformer ensemble and dynamics to its biological function."
+ },
+ {
+  "id": "18841219-2f0d-46f9-90f5-de48cee8704a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigate the function of NDF in chromatin dynamics and gene expression",
+  "text": "A diverse range of biological phenomena requires the precise and coordinated control of gene\nexpression. We recently identified NDF, an evolutionarily conserved, novel RNA Polymerase II\n(Pol II) transcription factor. In this project, we will address molecular mechanisms of NDF-\nmediated Pol II transcription, which will increase the breadth and depth of our understanding of\nthe regulation of eukaryotic transcription through chromatin."
+ },
+ {
+  "id": "18884cfa-dbad-4d3e-895b-26f7137183cd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Synergistic role of signaling and epigenetics in leukemic transformation",
+  "text": "We will use studies in patient samples and in innovative preclinical models to delineate how clonal evolution\ncontributes to malignancy and to the response to cancer therapies. We will model clonal evolution using novel\nin vivo preclinical models and perform functional studies to delineate the key networks and targets which govern\nmalignancy. This work will delineate how mutational evolution contributes to cancer initiation and progression\nand use these insights to identify novel therapeutic targets which can intercept/prevent or attenuate malignancy."
+ },
+ {
+  "id": "188eea50-83b9-4727-bc4a-129b1598b054",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multiscale hydrogel biomaterials-enabled 3D modeling of cancer drug resistance",
+  "text": "We propose to develop a novel bioinspired 1-cell culture technology for isolating cancer stem cells (CSCs) that\nare capable of cross-tissue multilineage differentiation from cancer patients’ tumors, and to further utilize the\nCSCs for engineering 3D vascularized tumors using an innovative bottom-up strategy. This project may lay the\nfoundation for creating novel high-fidelity CSC-based 3D tumor models to accelerate cancer drug discovery\nand for developing effective CSC-targeted therapies to combat cancer drug resistance-induced cancer\nrecurrence and metastasis that are the main causes of mortality in cancer patients."
+ },
+ {
+  "id": "1896a8ae-e2f4-4680-b277-489307074e32",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cell-derived extracellular vesicle mediated epigenetic silencing of HIV in the brain",
+  "text": "This project will develop and characterize a highly innovative modular approach that will utilize\nextracellular vesicles to deliver anti-HIV genes to virus infected cells and epigenetically silence HIV\nexpression in a long term and stable manner. This method may also lead to a therapeutically relevant\nmeans to not only control HIV/HAND but also usher in a new highly innovative methodology that could\nbe used to control the epigenetic state of those genes involved in various other human diseases."
+ },
+ {
+  "id": "1896ca63-15dc-47db-b618-152cb8017d15",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Nighttime Drinking Contexts and Risks in Young Adult Drinkers Before and After Legal Drinking Age",
+  "text": "Opportunities and constraints to drink in different contexts change when young people can access alcohol legally, but also change momentarily across nighttime hours. We will investigate how contextual risks (e.g., drinking locations, number of people, other's drinking) across weekend evening hours change when young people attain the legal drinking age and how they contribute to heavier drinking and alcohol-related problems. Young people drink most often during weekend nighttime hours. Prior research has demonstrated that over those hours drinking and problems may increase, and that drinking is associated with situational (e.g., alcohol availability) and social (e.g., number of people, age composition) characteristics of drinking locations. The legal drinking age is a life milestone that affects young people's drinking contexts, behaviors, and problems. Our goal is to identify the contextual and personal characteristics (e.g., drinking motives) that contribute to drinking risks over evening hours to inform nighttime preventive interventions for young people moving to the legal drinking age. The specific aims are to: (1) measure changes in use of contexts and context-specific risks before and after the legal drinking age, (2) assess differences in personal and contextual covariates related to the use of nighttime drinking contexts and transitions between contexts among drinkers before and after the legal drinking age, (3) determine the degree to which personal and contextual covariates differently increase risks for heavier drinking and problems over evening hours before and after the legal drinking age, and (4) evaluate the roles of evening plans on actual drinking and problems over evening hours. We propose a two- wave Ecological Momentary Assessments (EMA) study with a sample of 300 young adult current drinkers in California before they are of legal drinking age (19-20 years old) and two years later, after they attain legal drinking age (21-22 years). A baseline and three 6-month follow-up surveys between EMA waves will be used to assess and track changes in personal covariates (e.g., prior drinking, college attendance) and maintain a high response rate. EMA is well suited to examining changes in contexts, opportunities, constraints, drinking behaviors, and risks as they unfold in natural settings over evening hours because it minimizes recall bias, maximizes ecological validity, and allows assessment of micro-ecological processes that influence behaviors and risks in near real time. Our sample will include college and non-college young adult drinkers in different life circumstances (e.g., living on their own or with parents) to capture the full range of drinking contexts and opportunities of young adults as they move to legal drinking age. Results will inform context-based nighttime preventive interventions by specifying when, where, and to whom prevention options should be provided."
+ },
+ {
+  "id": "18a1032d-dca7-4b7f-8d61-39a0ebe9c416",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cellular and Molecular Physiology Core",
+  "text": "PROJECT SUMMARY – CELLULAR MOLECULAR PHYSIOLOGY CORE Basic and translational liver research depends on access to appropriate experimental models, including isolated cells and cell systems, animal models, and relevant molecular tools. The Cellular and Molecular Physiology Core typically serves as the “work horse” of the Liver Center, but it is also its “innovation hub”, as it has a long history of developing and updating these models and tools. The overall purpose of this Core is to provide both traditional and cutting-edge experimental models as resources to Center members. It is organized to provide these resources, along with relevant technical expertise, equipment, and personnel, to Liver Center Investigators to ensure that state of the art research can be conducted in an efficient, quality controlled and cost-effective manner. The Core is divided into two Components: (1) The Cell Isolation and Cell Culture Component and (2) The “Molecular” Component. These are subdivided into: (a) Isolated cell preparations including: hepatocytes, cholangiocytes, endothelial cells, stellate cells, portal fibroblasts and intra-hepatic white blood cells, primarily from mice and rats. Up to 700 separate cell isolations per year have been performed during this past award period. Human hepatocytes are also utilized when available, mostly from the NIH-supported consortium at Pittsburgh. Furthermore, human hepatocytes and stellate cells are occasionally isolated using non-transplanted grafts obtained from the New England Organ Bank and are available (b) Cell culture facilities for short and long-term cultures of primary cells and cell lines; (c) Protein and gene expression using Quantitative RT-PCR and Infrared imaging detection; (d) Altering gene expression in these cells and tissues using siRNA transfection, adenovirus infection, and CRISPR/Cas9 technologies; (e) iPSC/liver organoid service that can derive cholangiocytes and biliary organoids from murine or human liver tissue, bile or PBMCs. By centralizing these procedures in a Core facility, investigators are assured of a high degree of quality control and preparations can often be used simultaneously by more than one investigator. A detailed list of these services, the Center members that use each service, and their actual current and anticipated future use is provided in Table D. The Core also maintains and distributes a number of liver-related cell lines and KO mice, although this is not tracked or reported in the table. Mario Strazzabosco, MD, PhD, who has more than 30 years of relevant experience, directs this core He is assisted by Romina Fiorotto, PhD, and Rachel Perry, PhD, which assures daily supervision, availability, and advice to investigators for many of these services."
+ },
+ {
+  "id": "18a1f8ca-aef5-4193-8c16-1ea28836dd54",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Baboon Genotype-Tissue Expression (GTEx) Project",
+  "text": "This project aims to leverage a unique and extensive collection of baboon tissue samples to conduct a comprehensive\nmulti-tissue functional genomic study, mapping expression quantitative trait loci (eQTLs) and comparing gene\nregulation between humans and baboons. By generating valuable insights into gene regulatory differences and\ndeveloping an open-access portal for baboon genomic data, this research will contribute to the utility of baboons as a\nmodel system, increase our understanding of human-specific traits and adaptations, and facilitate comparative genomic\nstudies in primates."
+ },
+ {
+  "id": "18a27846-cfc3-4e73-b902-4a8685c44ec1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Understanding thymic epithelial and hematopoietic stem cell-intrinsic immune abnormalities driving T1D in optimized HIS mouse models",
+  "text": "We can replicate T1D genetic variability in vivo in a human immune system (HIS) mouse model in which T1D\npatient- and healthy control (HC)-specific immune systems are constructed from bone marrow stem and\nprogenitor cells (HSPCs) of volunteer donors in immunodeficient mice, allowing access to human immune cells\nin tissues that are not accessible in humans. We now propose a new multidisciplinary collaboration, including\nexpertise in HIS mice, stem cell biology, genetic engineering, and human T cell biology, to use a novel toolset\nwith this model to investigate previously inaccessible aspects of human T1D, including selection of T cells in a\n“self”-derived thymus and destruction of the patient’s own insulin-producing β cells generated from stem cells.\nWe will obtain new insights into the genetic drivers that influence the thymus, immune system and β cells to\ninduce T1D and to compare responses in T1D and HC immune systems to a novel form of antigen-specific\nimmunotherapy."
+ },
+ {
+  "id": "18a40c60-5137-4ab0-9897-5fed1accffe5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Alpha defensins: innate keepers of host-commensal homeostasis",
+  "text": "The project uses a combination of CRSPR/Cas9 gene targeting and gnotobiotic technology to\naddress the role of alpha defensins in shaping the microbiome and response to pathogens."
+ },
+ {
+  "id": "18a6e991-0703-40ff-9ce9-454ea7705183",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multi-Omics Core",
+  "text": "Multi-omics Core (Core B) – Project Summary The Multi-omics Core (Core B) will provide unique, centralized bulk, single-cell, and spatial profiling capabilities for phenotypic and functional multi-omics analyses of the mechanisms informing the efficacy of bNAb (Project 1) and vaccination (Project 2) against the HIV/SHIV/SIV viral reservior. These include bulk and single-cell genomic methodologies (ATAC-seq, RNA-seq, CITE-seq and viral sequencing), and spatial-omic profiling (PANINI, CODEX and CosMx) with the unique established ability to assess HIV viral reservoir states. In collaboration with Project Leaders and other Cores, Core B will leverage its deep expertise in bulk, single- cell, and spatial multi-omics to design, profile, and analyze samples from the Projects, providing essential technical support to execute the planned studies. Interfacing intimately with the Computational Analysis Core C downstream, we will empower a deep, multi-model understanding to help identify cellular and/or spatial signatures that can predict or inform mechanisms of interventional efficacy against HIV viral reservoirs. The Specific Aims of the Core are to: 1) Perform bulk and single-cell genomic profiling (RNA-seq, ATAC-seq, CITE-seq, viral sequencing) of PBMC and dissociated tissues for samples from Projects 1 & 2 to identify molecular and cellular correlates of orchestrated host immune responses and viral transcripts in the presence and absence of intervention; 2) Employ customized Spatial Proteomics and Genomics (RNA and DNA) using CODEX-PANINI to dissect host-pathogen interactions in situ within viral tissue reservoirs in the presence and absence of intervention; and, 3) Apply customized targeted Spatial Transcriptomics with CosMx to identify molecular signatures of orchestrated host immune responses and viral transcripts in tissues due to intervention. Core B members are leaders in the fields of single-cell and spatial genomic technology development, and will be involved in all Projects at every stage. Core B will interface with the other investigators in sample preparation, processing, data acquisition, quality control, and preparation of manuscripts. Core C will be co-led by Drs. Sizun Jiang (Harvard/BIDMC), Alex K. Shalek (MIT/Ragon/Broad), and Malika Boudries (BIDMC). All Core members have extensive experience in methods for high quality bulk, single-cell and spatial multi-omics data generation. They will work closely with the other cores (e.g., Computational Core C and NHP Core D) for seamless integration of all aspects of this innovative P01. Specifically, Drs. Shalek, Boudries and Jiang will oversee bulk and single-cell related data acquisition, and Drs. Jiang and Shalek will oversee spatial-omics data acqusition (CODEX-PANINI and CosMX). In summary, Core B will ensure that innovative technological platforms, with the unique established ability to assess HIV viral reservoir states and cells, are robustly applied to the mechanistic studies proposed in this P01, to yield a deeper understanding of the viral reservoir and its targetability."
+ },
+ {
+  "id": "18afbd80-9476-4acb-8631-a2429332b260",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Auditory Information Processing in the Amygdala",
+  "text": "Dysfunction in the amygdala may play a critical role in inappropriate or abnormal emotional responses to\nspeech and other sounds that occur in anxiety disorder, autism, schizophrenia, post-traumatic stress disorder,\nand tinnitus, disorders that may differ between male and female populations. This work will assess functional\ncircuits of the amygdala that form the basis for these emotional responses, establish how experience, sex, and\nhormonal state shape their activity, and describe how a neuromodulatory circuit that is impaired in dementia\nregulates their outputs. By establishing a mechanistic understanding of these circuits, the results will lay\ngroundwork for therapeutic study of acoustic communication and amygdalar dysfunction through animal\nmodels of these disorders."
+ },
+ {
+  "id": "18bf4b5f-f95a-4783-b379-9bbde77e4647",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "A multi-organoid-on-a-chip platform for interrogating human brain (dys)connectivity",
+  "text": "The proposed research is relevant to public health because it focuses on developing a new\nhuman-cell based model system to recapitulate the functional and dysfunctional connectivity of\nthe human brain with unprecedented fidelity. Thus, the proposed research is relevant to the part\nof the NIHM’s mission that pertains to treating neuropsychiatric disorders that often involve\nalterations in neural connectivity."
+ },
+ {
+  "id": "18c13f98-2c5f-4613-b98a-1ee23929bf0b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Role of Lysosomal Membrane Permeabilization and Cathepsin B Release in Stroke Brain Injury",
+  "text": "Ischemic stroke is a devastating neurological disease affecting millions of Americans. There is now an urgent\nneed to understand the underlying mechanisms of stroke brain injury and to develop therapeutics against\nstroke brain injury. This proposal will use state-of-the-art animal models to study the role of the endolysosomal\nsystem in stroke brain injury."
+ },
+ {
+  "id": "18c47372-c3df-4bb8-9ab8-9f1c6e0cd3b5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Analysis of a Large Family of Candidate Taste Receptors",
+  "text": "Insects transmit a wide variety of diseases to hundreds of millions of people each year,\nand the geographic ranges of some of these diseases have been increasing. Many of\nthese insects rely on their chemosensory systems to identify their human hosts, their\nfood, and their mates. This project is designed to elucidate how these systems operate\nand could lead to new means of manipulating them so as to control these insect vectors\nof disease."
+ }
+]

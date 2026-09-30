@@ -1,0 +1,142 @@
+[
+ {
+  "id": "55099bda-4c6b-4dd8-b5d1-d2b15a23e5a2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Fast, powerful, scalable, usable, and distributable methods for multi-modal single cell analyses",
+  "text": "Single-cell methods for assaying RNA, chromatin state, protein abundance, and other molecular features are\nbecoming increasingly common means to investigate biological phenomena, especially in complex,\nheterogeneous tissues. However, while single-cell data sets are being generated rapidly, creating a massive\ncorpus of single-cell data across multiple measurement modalities, computational methods for interpreting these\nlarge-scale data and extracting biological insights from these rich, diverse data modalities are lagging behind the\nmolecular methodological advances that have enabled this prodigious data generation. In this proposal, we aim\nto address this critical need of the field by further extending a widely used analysis platform, ArchR, to 1) further\nimprove performance on large data sets, 2) elegantly interpret and explore multi-modal data sets from diverse\ncellular assays, and 3) deploy cutting-edge deep learning platforms to use single-cell data sets to link regulatory\nactivities to individual bases in the genome."
+ },
+ {
+  "id": "550cf053-5ed1-421c-85f7-f9da7c2be702",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Computational Studies of Molecular Medicine for Voltage-Gated Sodium Channels",
+  "text": "Computational Studies of Molecular Medicine and Pharmacology of Voltage-Gated Sodium Channels\n Project Narrative\nA variety of mutations in voltage-gated sodium (Nav) channels are associated with diverse excitability disorders,\nyet their molecular-level impacts on channel function remain elusive. This project aims to elucidate the roles of\nmutations and their interactions with post-translational modifications in structural dynamics at the atomic level\nusing molecular dynamics (MD) simulations. We also aim to develop a machine-learning model to predict variant\neffects of Nav channels, potentially revolutionizing diagnosis and treatment strategies of channelopathies.\n1"
+ },
+ {
+  "id": "550d04ba-bde2-4137-8bc7-09b592444016",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of strategies to enhance titin (TTN) expression and treat dilated cardiomyopathy caused by TTN haploinsufficiency",
+  "text": "Rare genetic variants of the essential sarcomere protein titin (TTN) is the most common genetic cause of dilated\ncardiomyopathy (DCM), a disease characterized by enlargement and weakening of one or both of main\nchambers of the heart. DCM often progresses to heart failure, a devastating disorder with high morbidity and\nearly mortality, but only limited options are currently available to treat DCM. This proposal aims to determine\nhow TTN gene expression is regulated, augment the amount of TTN expression via genome editing, assess\neffects of increased TTN protein level on cardiomyocytes with pathogenic TTN variants, and ultimately establish\ntherapeutic strategies for DCM."
+ },
+ {
+  "id": "55177e60-4a09-472d-b860-62f73f88256f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project 1: KSHV reprograms replication and metabolic activities in hypoxia",
+  "text": "KSHV is an important pathogenic oncovirus associated with human cancers. Kaposi’s sarcoma (KS) and pleural\neffusion lymphomas (PELs) are tightly linked to KSHV-infection, seen in immunocompromised individuals, as well\nas endemic populations. This study aims to understand the replication of KSHV, and to elucidate the molecular\nmechanisms that drive persistence of KSHV in daughter cells in the hypoxic microenvironment of associated\ncancers.\n15"
+ },
+ {
+  "id": "55198218-2140-485c-8e34-6880b55aacf9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Prefrontal-Accumbens Neurocircuits Mediating Response to Social Stress",
+  "text": "(revised) \nThis research is relevant to public health because chronic stress profoundly impacts brain circuit function and is a major risk factor for many neuropsychiatric disorders. In this project the causal role of neural circuits in chronic social stress-induced behavioral impairments in both male and female mice will be studied to provide a mechanistic understanding on social circuit maladaptive changes in response to chronic stress. Successful completion of this study will likely establish a lead neural circuit for targeted interventions to neuropsychiatric diseases featuring social impairments."
+ },
+ {
+  "id": "5519a8bc-74ca-4895-92db-73cb02d34abc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Genetic Basis of the Risk and Consequences of Cannabis Exposure in Humans",
+  "text": "Genetic Basis of the Risk and Consequences of Cannabis Exposure in Humans\nCannabis use is associated with negative outcomes including cannabis use disorder (CanUD), psychosis, and\ncognitive impairment. We propose a translational research program to 1) understand the genetics of CanUD,\nand 2) study the influence of genetic risk for CanUD and SCZ on the effects of cannabinoids administered in\nhuman laboratory studies and clinical trials."
+ },
+ {
+  "id": "551cc8a8-2df7-4668-a411-7015ae34438b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Core D - Recombinant Antibody Core",
+  "text": "CORE SUMMARY Core D is a new core in this renewal that will be used by all three Projects. Use of recombinant antibodies (rAbs) and novel bispecifics allows for precise control over and targeting of inhibitory receptors PD1 and LAG3 and provides invaluable insights into their synergy and roles in orchestrating immune responses across diverse cell types and diseases. Common rAbs and bispecifics will also facilitate comparison across the all Projects. AIM 1: To provide core antibody reagents. Core D will use a rigorous and efficient process to generate murinized IgG1-based rAbs specific for PD1 and LAG3 along with a PD1:LAG3 bispecific rAb, plus controls, for all Projects. Core D is optimizing a version of the bispecific that will selectively bind to only PD1+LAG3+ T cells using scFv yeast display affinity optimization system. AIM 2: To provide novel antibody tool reagents. Core D has the capacity and capability to generate innovative, high-risk/high-reward rAbs, bispecifics, and ADCs as needed for the Projects, with careful consideration mediated through Core A. Initially, we plan to develop 2 new rAb-based tools outlined in P2 and P3: [i] a cytolytic version of the PD1:LAG3 bispecific, achieved by mutating the IgG1 Fc or using an IgG1-IgA Fc fusion to broaden susceptibility to Fc receptor binding; and [ii] an antibody–drug conjugate (ADC) with IFNγ and/or IL2 attached to a PD1:LAG3 mono- and bi-specifics. These new tools will be generated, validated, and shipped to the Projects by Core D. IR-PPG Interactions: In addition to supporting all three Projects, Core D will also work with Core A to provide data access, facilitate production, monitor budget and core usage, and facilitate shipping to outside investigators once reagents are published, and Core C to consider additional, novel rAb tools."
+ },
+ {
+  "id": "551cdfa9-a384-436a-ba47-134690d60f3e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Fast-Track Multimodal monitoring for neonatal neurocritical care",
+  "text": "Neonatologists provide life-supporting care to babies born with difficult health conditions. In this\nproposal we will build an electronic tool to improve the quality of care and patient safety for these very\nfragile patients. Improved care is realized by providing a variety of clinical decision support tools to\nclinicians including: a continuous searchable stream of relevant data, smart thresholds and alarms,\nprotocol support, shift-change hand-off support, and improved information visualization utilities that\nhighlight critical changes in patient condition."
+ },
+ {
+  "id": "55216e03-4881-48a4-b999-92bc977094ce",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular regulation of cell fate and progenitor function in the distal human respiratory airways",
+  "text": "The smallest airways in the human lung are called the respiratory airways and are a site of injury\nin many chronic lung diseases including Chronic Obstructive Lung Disease (COPD). We have\nidentified a new lung stem cell in this region that is altered in COPD, potentially affecting the lung's\nability to heal and repair. Understanding the mechanisms that regulate this cell type will help\nidentify new avenues for treatment in COPD."
+ },
+ {
+  "id": "55274ed2-4d48-47c4-b897-ad446b9f5fe6",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Mechanisms of liver metastasis and associated resistance to immunotherapy",
+  "text": "Melanoma is an aggressive cancer with an increasing incidence. Metastatic melanoma to the liver is frequent\nand associated with poor prognosis and resistance to novel therapies, such as immunotherapies. The current\nstudy will use novel models, methodologies and a large cohort of patient biopsies to elucidate the molecular\nunderpinnings of the development of liver metastasis and how these lesions confer resistance to\nimmunotherapies. This will inform rationale design of novel therapeutic avenues for patients with metastatic\nmelanoma to the liver."
+ },
+ {
+  "id": "552b7319-22ed-4a6f-bd69-5a294c69ad50",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of Action of Peripheral Nerve Stimulation for the Treatment of Chronic Neuropathic Pain",
+  "text": "Peripheral nerve stimulation (PNS) is a promising, non-addictive, non-pharmacologic intervention for the treatment of chronic neuropathic pain (CNP) with demonstrated efficacy. Despite major technical advances with advent of dedicated percutaneous PNS systems, much remains unknown regarding the underlying mechanisms of pain relief. We propose to identify the biopsychosocial predictors of PNS treatment response and characterize parallel longitudinal changes in central and peripheral pain processing induced by PNS to advance the evidence-base for PNS in the treatment of CNP in a mechanistic randomized trial comparing combined PNS therapy and conventional medical management (CMM) to CMM alone."
+ },
+ {
+  "id": "55342a1a-782e-488d-be82-ca0642b9863b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanical regulation of transcription in dental epithelial stem cells through cell packing and tissue forces",
+  "text": "As human teeth have limited regenerative potential, tooth loss is a common and chronic condition that can deeply\naffect our lifestyles. The continuously growing mouse incisor offers an ideal system to study dental stem cells\nand a thorough understanding of the molecular process that regulates tooth stem cells is crucial to efforts to\ndevelop stem cell-based therapies for regenerating human teeth. We propose to investigate the role of tissue\narchitecture and forces during dental epithelial renewal in mice and the proposed study will be transformative\nbecause it will for the first time reveal how these physical factors are coordinated to control gene expression in\nepithelial stem cells."
+ },
+ {
+  "id": "55378edc-546b-4fbd-a343-737417e645d6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "New Technologies for Accelerating the Discovery and Characterization of Neuroactives that Address Substance Use Disorders",
+  "text": "Behavioral profiling of zebrafish larvae under the influence of neuroactives is at the vanguard of in vivo\nneuropharmacology, which has historically been dominated by costly and challenging experiments in rodents\nand primates. I co-developed a state-of-the-art platform in which drug-induced behaviors of hundreds of\nthousands of animals can be assessed, cataloged, and compared rapidly and on a scale that far exceeds\nhistorical precedents; I have coupled this technology with the recent advances in whole brain imaging to make\nobservations that saliently connect chemistry, neuroanatomy, and behavior. This proposal is focused on new\nprojects directed towards the discovery of substance use disorder pharmacotherapies, including alternatives to\naddictive opioids for pain management, acute reversal agent interventions, and attenuators of drug self-\nadministration."
+ },
+ {
+  "id": "553e38e9-9ba6-44a1-92e5-03d0a4531d31",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Characterization of Homotypic Fusion in Chlamydia muridarum",
+  "text": "HEALTH RELEVANCE.\nChlamydia trachomatis is the most common etiological agent of bacterial sexually transmitted disease and is\nthe leading cause of infectious blindness worldwide. Clinical and experimental evidence suggests that the\nhomotypic fusion of chlamydial inclusions is important for virulence; however, the molecular basis for this effect\nis unknown. Determining how Chlamydia fuses its inclusions together and the impact of such an event on\nChlamydia pathogenicity in vivo will provide much-needed insight into the virulence factors that influence\ndisease progression and could guide the development of novel therapeutic strategies."
+ },
+ {
+  "id": "553facd5-3924-4dcc-b005-e299d11cdb3b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multi-organ culture and pumping systems for ex vivo models of immunity in hybrid tissue-chips",
+  "text": "Narrative.\nCommunication between the lymph node and the organs it drains is imperative for predicting immune responses\nto vaccination, infection, and chronic disease, but have been difficult to study in vivo or in vitro. To address this\ngap, we will develop a user friendly, microscale system specifically co-culture intact samples of live tissue from\nthe lymph node with other organs and allow recirculating of white blood cells between them as occurs in vivo.\nAfter determining the effects of various modes of fluid motion on intact lymph node tissue for the first time, we\nwill generate a simple model the response of the lymph node to vaccination, as a proof-of-principle of this new\nsystem for modeling multi-tissue immunity outside the body."
+ },
+ {
+  "id": "5543732f-cc01-48d9-ad8f-31393b5725df",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Disparities in AML treatment",
+  "text": "Nucleophosmin (NPM) is a nuclear-cytoplasmic shuttle protein that mutated and re-localized into\ncytoplasm together with its interaction partner FOXM1 in one third of all cases of acute myeloid\nleukemia (AML). We demonstrated that this mutation is associated with a highly favorable\noutcome in White AML patients because of inactivation of FOXM1 in cytoplasm. The reason of\nunfavorable outcome of Black AML patients with mutant NPM1 will be investigated in this grant."
+ },
+ {
+  "id": "5547909c-6088-4868-90f2-1d2a5d679228",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanistically informed deep learning to characterize autoreactive B cells in Myasthenia Gravis",
+  "text": "Seronegative Myasthenia Gravis (SNMG) presents a critical diagnostic challenge, with standard tests failing\nto detect autoantibodies in up to 15% of MG patients, delaying diagnosis, treatment, and access to clinical\ntrials. This project combines deep learning, evolutionary modeling, structural analysis, and experimental\nvalidation using matched single-cell RNA-seq and B cell receptor (BCR) sequencing data from a new cohort\nof SNMG patients to identify novel autoreactive BCRs. The resulting tools will enhance diagnostic precision\nin MG and establish a broadly applicable computational framework for autoimmune disease investigation and\ndiagnosis."
+ },
+ {
+  "id": "5548c543-7678-45c9-850b-0b66e3030cba",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Predictors and determinants of pediatric immunity (Peds)",
+  "text": "OVERALL PROJECT NARRATIVE\nThe ‘Predictors and determinants of pediatric immunity’ (Peds) Program Project Grant will advance our\nunderstanding of how genetics, developmental stage, and immune challenges shape the pediatric immune\nsystem, with an experimental emphasis on leveraging cutting-edge, multimodal analyses of very small blood\nsamples. Our Projects cover multiple pediatric patient cohorts that will enable us to learn from pediatric\nresponses to vaccines, immune set points in the first year of life for premature and full-term babies, and genetic\nimmune diseases of childhood. Together, this work will enable us to construct a ‘growth chart’ of sorts for\nthe pediatric immune system that will better enable identification and assessment of genetic, environmental,\nand developmental conditions that deviate immune trajectories into unhealthy ranges."
+ },
+ {
+  "id": "554c8f89-c08d-45ad-949c-45fd6f149f9a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Phenotypes REimagined to Define Clinical Treatment and Outcome Research (PREDiCTOR)",
+  "text": "This proposal aims to address the lack of objective measures in psychiatry by leveraging advancements in\ncomputational approaches and incorporating rich behavioral data from clinical interviews, smartphones, and\ncognitive testing. The goal is to predict outcomes such as treatment (dis)continuation, hospitalizations, and ER\nvisits for psychiatric patients in the first years of their illness. Leveraging the integrated Mount Sinai health\nsystem and bringing together a team of clinicians, AI experts and data scientists, our study aims to reimagine\nclinical phenotypes, using objective, scalable and cost-effective measurements, such as audiovisual recordings\nduring clinical visits and data obtained from smartphones, to predict outcome in young help-seeking psychiatric\npatients."
+ },
+ {
+  "id": "55571ab9-8cfc-4e6d-906d-738107ff94e0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Interactions of Leptin and the Melanocortin System",
+  "text": "The melanocortin system represents a fundamental component of metabolic, body weight and glucose\nregulation, but it is unclear which endogenous melanocortin peptides are required for normal metabolic\nresponses. We will use our newly developed mouse models targeting α-MSH to test whether deletion of α-\nMSH impairs adaptive response to surviving metabolic challenges and to determine the specific neurons or\norgans that are responsible for α-MSH actions on metabolism."
+ }
+]

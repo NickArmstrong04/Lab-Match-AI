@@ -1,0 +1,142 @@
+[
+ {
+  "id": "f443ede5-0e5e-4fad-b70a-8cfa2502ca58",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Therapeutic small molecule modulation of Kv channels",
+  "text": "Ion channels pass electrical currents in the form of charged ions and are essential for processes as diverse as\nthe heartbeat, thought, and movement. This project is targeted toward defining mechanisms of ligand activation\nof voltage-dependent potassium channels, discovering new potassium channel openers, and ultimately the\ndevelopment of novel therapies for disorders including ataxia, epilepsy and addiction."
+ },
+ {
+  "id": "f44ae3d0-f456-4482-8673-e5a881199ef5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Epitranscriptomic mechanism of environmental stress response and tumorigenesis",
+  "text": "Dysfunction of the stress response following exposure environmental insults can lead to cancer and aging as\nwell as a wide range of other diseases. Our proposed work will provide new insights into the fundamental\nmechanisms by which environmental agents interact with the epitranscriptomic machinery to regulate stress\nresponse and the functional significance of dysregulated RNA modifications in environmental carcinogenesis.\nOur proposed work may also identify potential new druggable targets in the epitranscriptomic machinery for\ndeveloping new preventive and therapeutic approaches to reduce the burden of cancer as well as other\ndiseases."
+ },
+ {
+  "id": "f44b2599-4efc-46cc-8d69-d92fbfbcc0d0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identifying the molecular mechanisms of GEMIN5 mutations in a novel cerebellar ataxia syndrome",
+  "text": "Our proposed studies are aimed to understand the functional consequences of pathogenic\nmutations in GEMIN5 in motor neuron degeneration and examine the biological pathways that\nare perturbed in patient iPSC neurons."
+ },
+ {
+  "id": "f44b887b-4204-43df-844e-284c3206e8ce",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of the tumor NLRP3 inflammasome in the generation of anti-PD-1 antibody immunotherapy-associated toxicities",
+  "text": "This proposed project promises to contribute significantly to the growing field of immuno-oncology by providing\ninsights into a novel mechanism contributing to the development of immune-related adverse events (irAEs). In\ndoing so, this work will lay the foundation for the development of a novel therapeutic strategy to suppress the\nside-effects associated with checkpoint inhibitor immunotherapies while also establishing previously unknown\ncandidate biomarkers for predicting the development of these irAEs in cancer patients."
+ },
+ {
+  "id": "f44e9878-6c45-4493-a344-28a64902eb93",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Pathology Shared Resource",
+  "text": "Overview: The Pathology Shared Resource (PSR) merges the Tissue Biobank and Histology SR and Molecular Pathology SRs into a single entity. The PSR, through four integrated sections, provides specialized expertise and an extensive array of services to support basic and translational research. Services and Expertise: The PSR leverages the clinical infrastructure of the Dept. of Pathology (DOP) to provide researchers access to a full spectrum of expertise in biobanking, pathology, histology, molecular pathology, and cytogenetics. Services include archival and real-time biospecimen collection, management, clinical trial support, and access to annotated biospecimens. Associated curated comprehensive clinical, pathologic, and molecular data is provided through the Pathology Data Warehouse and Health Data Compass in collaboration with the Biostatistics and Bioinformatics SR. Research Histology provides histology and immunohistochemistry services on animal and human tissue specimens. Molecular Pathology offers CLIA-level pre-analytical and molecular testing services; and the Cytogenetics section offers analysis for cancer genomic aberrations at chromosomal and whole genome levels. The PSR is equipped to support basic and translational research projects and support the logistics for institutional and multi-institutional clinical trials including investigator-initiated trials (IIT). Management: The PSR is managed by the Department of Pathology with oversight of CCSG resources performed by UCCC's Associate Director for Basic Research. Operating Budget: CCSG funding represents 13% of the annual $2.5M operating budget with the remaining from user fees (46%), institutional support (26%) and other grants (15%). Consultation and Education: The PSR provides education to research teams on proper biospecimen practices, clinical and research laboratory testing, and biomarker assay development using individual consultations and group seminars. Innovation: The PSR has established strategic partnerships with other SRs, including the Human Immune Monitoring, Mass Spectrometry, Genomics, Flow, and Cell Technologies SRs to provide specialized biospecimen analysis and access to high-throughput biomarker analysis platforms. Over the last funding cycle investments of $2.5M institutional funds have enabled centralization of biobanking and expansion of data capabilities, leading to improved availability of biospecimens with annotated clinicopathological data and shorter turn-around times for projects. Use of Services: During the last funding period >10k services and >20k specimens were provided to 290 investigators (48% UCCC members), supporting 350 clinical trials, 20 IITs, and basic research projects resulting in 117 cancer related publications. Future Directions: Annotation of biospecimen cohorts will be enhanced with pathological, clinical, and molecular data and made available in formats, such as TMAs, that enable high-throughput analysis through partner SRs. With UCCC's strategic decision to form a single PSR and leverage DOP's wide range of expertise, the PSR is well-positioned to expand its critical role within the UCCC and to facilitate basic and translational research for its members."
+ },
+ {
+  "id": "f44ef8e1-880b-4013-9ee6-0837b4fcddc5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "High-resolution, motion-tolerant spectral DSA for small vessel imaging",
+  "text": "Digital subtraction angiography (DSA) is the gold standard modality for diagnostics and image guidance in\ninterventional applications; however, poor visualization of sub-millimeter vessels poses challenges for accurate\nlesion localization and reduces the safety and effectiveness of interventions. This proposal develops the next\ngeneration DSA system that combines the hardware benefits of photon-counting detectors and advanced algo-\nrithms to simultaneous address the three image quality challenges confounding small vessel visualization – spa-\ntial resolution, motion-artifact, and noise. Completion of the proposal will yield a functional, validated next gen-\neration DSA platform that enables sub-millimeter vessel visualization not achievable with current imaging equip-\nment."
+ },
+ {
+  "id": "f4561837-a606-449f-a357-dbeea9520737",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "METEOR-Data Synthesis and Transfer (METEOR-DST)",
+  "text": "METEOR-DST SUMMARY The METEOR Data Synthesis and Transfer (DST) shared resource provides expertise and systems for synthesizing data from across all data sources in METEOR and enabling the ability to transfer the synthesized data into the larger NCI Data ecosystem and repositories. DST addresses the critical issue of aggregating multi- omics data, imaging, radiotherapy, and clinical data as well as enabling these data to be shared in a user-friendly manner. With the successful completion of the aims outlined, we will ensure that the collection and management of patient-derived data is performed in a manner consistent with FAIR and TRUST principles. We will augment CIELO, a HIPAA-secure open science platform for health research, to support the workflows and data types needed for ROBIN. CIELO allows diverse end-users to share, discover, and adapt/adopt “bundles” of health information, such as multi-scale, longitudinally defined phenotypes. This will serve as a comprehensive and “end-to-end” solution for enabling Trans-ROBIN data-centric research collaborations involving multiple ROBIN Centers and beyond. We will add: (1) the capability to ingest the data from multiple sources and then harmonize and integrate the data by creating consistent identifiers for patients, tissues, and sample; (2) API-based interfaces with a number of internal platforms and systems such as REDCap, XNAT OpenSpecimen, and institutional EHR warehouse; (3) addition of support for external data export to other data repositories in the NCI data ecosystem. We will deploy and enhance XNAT to support imaging and radiation therapy data in ROBIN and integrate with CIELO. XNAT is a web-based software platform designed to facilitate common management and productivity tasks for imaging and associated data. It consists of an image repository to store raw and post-processed images, a database to store metadata and non-imaging measures, and user interface tools for accessing, querying, visualizing, and exploring data. We will enhance XNAT to store radiation therapy DICOM formats (RT Structure Set, RT Dose, Segmentation Objects) and to visualize radiation therapy annotations in XNAT’s web- based imaging viewer. We will fully integrate XNAT with CIELO via XNAT’s extensive REST API. We will ensure that the collection and management of patient-derived data is performed in a manner consistent with FAIR and TRUST principles. All METEOR data (eCRFs, biospecimen availability & characterization) will be aggregated into CIELO and XNAT, using REST interfaces, and automated data extraction from our Research Data Core, as well as manual upload capabilities. Processed results of the METEOR-BLST team’s genomics, transcriptomics, proteomics, and metabolomics analyses, including bulk, single-cell, and spatial experiments, will be uploaded into CIELO."
+ },
+ {
+  "id": "f458a955-3386-4aa4-9333-3228efcec5a3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Core 3: Biospecimens and Pathology Core",
+  "text": "Histologic and molecular analysis of lymphoma specimens is central to each SPORE Project, enabling investigators to uncover drivers of disease and develop novel diagnostic and therapeutic strategies. The Biospecimens and Pathology Core provides critical infrastructure for accurate tissue collection pathology review and advanced analysis, including multiplex imaging, spatial transcriptomics, and the development of tissue derivatives and patient-derived xenografts. In collaboration with other SPORE Cores, Core 2 will digitize pathology slides, integrate clinical and biospecimen data, enabling efficient selection of samples with specific molecular, cytogenetic, immunophenotypic, or clinical characteristics for translational studies."
+ },
+ {
+  "id": "f45a90c7-bb1d-4215-a5a2-d88cf0121b64",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "NETs: Protection or Harm in Neonatal Inflammation and Infection",
+  "text": "This project will determine the role of neutrophil proteinase 3 (PR3) in mediating the Neutrophil Extracellular\nTrap (NET) inhibitory effects of NET-Inhibitory Peptides (NIPs) – novel inhibitors of NET formation that we\ndiscovered in human umbilical cord blood. NETs are DNA-based structures formed by neutrophils to trap and\nkill bacteria outside of the cell, but unregulated NET formation can kill mouse pups in models of neonatal\noverwhelming infection, and use of NIPs in these models rescues survival. In these studies, we will uncover\nmechanisms through which NIPs inhibit NET formation, establish PR3 as a required neutrophil receptor for NIP-\nmediated NET inhibition, and determine survival and illness severity in infected neonatal mice lacking PR3\nexpression."
+ },
+ {
+  "id": "f45dadd9-6242-486b-8a3a-2bbb4f31fb33",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular mechanism of gamete fusion in malaria parasite",
+  "text": "PROJECT NARRATIVE.\nMalaria parasite infection causes tremendous human morbidity and mortality, and sexual reproduction of the\nparasite is essential for the transmission to mosquitoes. In this proposal, we will reveal gamete fusion machinery\nthat regulates fertilization during sexual reproduction in Plasmodium falciparum gamete and will determine its\npotential as transmission blocking vaccines. Together, the findings might lead to new avenues for targeting the\nmalaria parasite at the sexual reproductive bottleneck of the life cycle."
+ },
+ {
+  "id": "f45e946f-5ed4-44b0-9ccc-ddd9dcf68e68",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Exploiting KCNQ2 upstream open reading frames for therapeutic opportunity",
+  "text": "Genetic defects in the gene KCNQ2 can result in severe epilepsy affecting infants and children, but there are\ncurrently no specific therapies that target this gene. In this proposal, we are focusing on a specific element in the\ngene called an upstream open reading frame (uORF) that we discovered impairs optimal KCNQ2 translation into\nprotein. Our work will determine if removing or blocking this uORF, possibly with a new class of drugs called\nantisense oligonucleotides, can boost levels of KCNQ2 protein in neurons as a potential strategy to overcome\nthe predisposition to seizures and epilepsy caused by genetic defects in this gene."
+ },
+ {
+  "id": "f46280b7-cd76-4e9d-9254-cd6cef5a4ca3",
+  "want_sentence": false,
+  "want_terms": true,
+  "title": "Development of the brain penetrant ATM inhibitor WSD0628 in combination with radiation for recurrent high grade glioma",
+  "text": "High grade gliomas, including glioblastoma, are the most common primary brain tumor in adults, and despite\naggressive radiation therapy, almost 80% of tumors recur locally. The goal of this project is to develop a novel\nradiation sensitizer to make the radiation more effective. The first-in-man testing of this drug, WSD0628, will be\nperformed in combination with radiation in patients with recurrent high-grade gliomas."
+ },
+ {
+  "id": "f462e9a7-c187-4f74-9556-e5d3cfae75c6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of nicotine reinforcement",
+  "text": "Tobacco dependence is a leading cause of premature death and disease in the United States. We have shown that medial habenula neurons that project to the interpeduncular nucleus play a critical role in regulating the motivational properties of nicotine. In new findings, we show that the transcription factor Tcf7l2 acts in the habenula to exert profound control over nicotine intake. Here, we will use cutting-edge molecular, cellular and behavioral approaches to understand the mechanisms by which Tcf7l2 acts. This program of research promises to identify new classes of targets for the development of therapeutic agents to aid smoking cessation."
+ },
+ {
+  "id": "f4719496-1e47-4ff7-a7c5-36d1b965e43a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of parvovirus replication in viral hepatitis",
+  "text": "The study of animal viruses has been critical for understanding basic disease mechanisms, including the origin\nand pathogenesis of related human viruses. In this career development proposal, Dr. Jager will use a novel\nhepatotropic equine parvovirus to study the role of the DNA damage response pathways in viral genome\nreplication and the impact of exogenous DNA damage on viral hepatitis. These findings will have broad\nimplications on the fundamental mechanisms of viral DNA replication and the synergy between toxins and\nhepatotropic viruses in humans and animals."
+ },
+ {
+  "id": "f471bb08-a95b-49c2-a9dc-60536d2c2d7d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Deconstructing Disparities in Lupus Pregnancies",
+  "text": "The objective of this Mentored Patient-Oriented Research Career Development Award is to determine the contributions of social determinants of health to the risk of adverse pregnancy outcomes in systemic lupus erythematosus, while gaining the skills and training to become an independent investigator. By skillfully integrating diverse data sources, we will identify the most meaningful social determinants of health that contribute to adverse pregnancy outcomes risk in patients with systemic lupus erythematosus both at an individual and community level. This innovative approach combines clinical factors with social determinants of health and stakeholder feedback to create a synthesis that will streamline the identification of at-risk patients, with the long-term goal of improving pregnancy outcomes and overall health for individuals with systemic lupus erythematosus."
+ },
+ {
+  "id": "f47416b2-b41c-460c-92eb-34591e407b47",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Mechanism of Hematological Abnormalities in Systemic Autoimmunity",
+  "text": "Systemic autoimmune diseases such as systemic lupus erythematosus (SLE) are frequently associated with\nhematological complications such as lymphopenia, anemia and/or thrombocytopenia, which can be\ndebilitating and even life-threatening. The proposed studies will dissect the mechanism of these\nabnormalities, paving the way for improved strategies for their treatment."
+ },
+ {
+  "id": "f4749a08-9b44-402a-bbe8-3a3cadc1ee2c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Detection and quantification of amyloidosis deposition and circulating amyloid fibrils in asymptomatic carriers of the V122I TTR allele",
+  "text": "The proposed research is relevant to public health because it will address the fundamental question of whether\namyloidosis is present in V122I TTR carriers and provide a strong scientific justification to develop screening\nand to test preventive treatment strategies for subclinical hereditary ATTR-CA. Key findings from this proposal\nwill change how we think about this disease and will justify future research towards reducing heart failure\nmorbidity and mortality by way of earlier ATTR-CA recognition and earlier treatment. Thus, the proposed\nresearch is relevant to part of the NHLBI’s mission to promote the prevention and treatment of heart disease."
+ },
+ {
+  "id": "f478bb26-0166-47a8-982a-8258ddf429af",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanistic studies of protein kinases",
+  "text": "Fundamental decisions regarding cell fate or number are controlled by signaling pathways, and when\nthese pathways are disrupted they lead to disease. This work aims to understand the molecular mechanisms\ncontrolling integral components of these pathways, protein kinases. The proposed work will provide key insight\ninto the function of protein kinases that will accelerate the development of therapeutics including those with\nanti-cancer or tissue repair properties."
+ },
+ {
+  "id": "f48910e5-886b-4fbd-99f2-62330fe1cf30",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Pediatric Oncology Program",
+  "text": "The Pediatric Oncology (PO) Program of the Abramson Cancer Center (ACC) discovers, develops and translates novel therapeutic approaches to improve cure rates and reduce acute and long-term toxicities in children with cancer. Established in 1992, the Program has the overall goal to change the standard of care for children with cancer in the US and across the world. Scientific aims are: 1) Characterize molecular mechanisms of childhood cancers and predisposition for risk evaluation and precision therapies; 2) Further develop innovative cell therapies for hematologic malignancies to improve cure rates and minimize the use of allogeneic stem cell transplantation; and 3) Identify targets in high risk and relapsed solid tumors and develop new therapies for these challenging tumors. The Program is led by Stephan Grupp, MD, PhD, Professor of Pediatrics, Chief of the Cell Therapy and Transplant Section and Medical Director of the Cell and Gene Therapy Laboratory, and Kai Tan, PhD, Associate Professor of Pediatrics. Dr. Grupp is a world leader in cellular therapy, immunotherapy and translational research. Dr. Tan is a leading researcher in cancer genomics and systems biology. They provide translational and transdisciplinary leadership for 35 Program members, who form a dynamic community of investigators from three Departments in the Perelman School of Medicine. The Program has integrated basic, translational, and clinical research components, with a broad group of investigators who have expertise in cancer genomics, cell biology and signal transduction, tumor immunology and immunotherapy, drug development, clinical pharmacology, epidemiology, clinical research, cancer control, survivorship, and behavioral oncology. Members collaborate within Pediatric Oncology, and with the Cancer Control, Cancer Therapeutics, Tumor Biology, Hematologic Malignancies, and Immunobiology Programs. Clinical investigations are robust, with 1,156 accruals to interventional trials and 2,946 to non-interventional trials in the current funding period. Members engage in research that is relevant to major pediatric cancer issues within our catchment area, and are highly engaged in educational activities across Penn and beyond. Most notably in the current funding period, PO members worked collaboratively with members of other Programs to develop CD19-targeted CAR-T cells (tisagenlecleucel), taking the first CAR-T therapy to FDA approval for children and young adults with ALL. Other accomplishments include advances for targeted therapy of pediatric leukemia, discovery of novel cancer pathways in neuroblastoma and gliomas, and two new FDA approved drugs for pediatric solid tumors. Program members also play major leadership roles in the national pediatric cooperative groups. Program members have $15.1M in annual grant funding (direct), of which $9M is peer-reviewed and $6.3M is NCI-funded. The Program holds 21 R01 equivalents. There were 570 cancer-related publications from the Program since 2015. Of these, 30% are intra-Programmatic, 18% resulted from inter-Programmatic collaboration, and 83% are multi-institutional."
+ },
+ {
+  "id": "f48ec350-1977-4694-8fa2-86e54fa0d82c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Liver disease impact on myeloid cells driving immunotherapy resistance in hepatocellular carcinoma",
+  "text": "Hepatocellular carcinoma (HCC) is a highly morbid cancer which arises in the background of liver inflammation\nand immune suppression which may limit the success of immunotherapy. We recently identified a novel\nmechanism of myeloid cells inducing immune paralysis in T cells in other primary liver tumors. The objective of\nthe proposed research is to decipher the mechanism of myeloid cell immune suppression in relation to the\nunderlying liver disease etiology in HCC, both in circulation and in tumors, and the impact of combination\nimmunotherapy and tyrosine kinase inhibitors on myeloid cells."
+ }
+]

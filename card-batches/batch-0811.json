@@ -1,0 +1,142 @@
+[
+ {
+  "id": "952aae3a-080e-4af5-b097-771659bbfa8c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Unraveling the Interplay: Microbiome, p16 Expression, High-Risk HPV Infection, and Clinical Outcomes in Penile Cancer Across Diverse Patient Cohorts with Varied Mortality and Incidence Profiles",
+  "text": "The incidence of penile cancer varies significantly between across geographic areas. Our proposal will compare\nmolecular profiles across geographic areas representing a spectrum of disease prevalence to discover the\npossible biological cause of this health disparity."
+ },
+ {
+  "id": "952acd43-4993-4e73-9810-8d008b03e6f5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Developing large language models for drug safety and effectiveness causal analysis",
+  "text": "The objective of this study is to build a novel large language model (LLM) based causal\nanalytical platform for drug safety and effectiveness. It will generate a wide range of high-validity\nclinical features that enable causal effect estimation of pharmacotherapies with adequate\npatient outcome ascertainment, confounding adjustment, and subgroup effect evaluation."
+ },
+ {
+  "id": "952de289-eaf4-4cf2-83c0-9ac3cb5838cc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Electrocardiogram-based deep learning and decision analysis to improve atrial fibrillation risk estimation",
+  "text": "Atrial fibrillation (AF) is a major public health problem resulting in preventable strokes and increased incidence\nof heart failure and early cognitive decline. Preventive interventions such as AF screening have potential to\nimprove outcomes but appear inefficient when applied indiscriminately. In this proposal, we will develop novel\ndeep learning-based methods to estimate AF risk in an automated fashion using mobile single-lead\nelectrocardiograms, develop a comprehensive simulation to quantify the comparative effectiveness of a risk-\nbased approach to AF screening, and perform a pilot study to quantify the user acceptability of prospective AF\nrisk estimation and quantify associations between estimated AF risk and true AF incidence."
+ },
+ {
+  "id": "9532306e-9f24-480f-8636-77d185cc680f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Immunotherapeutic targeting of gangliosides in Ewing Sarcoma",
+  "text": "Ewing sarcoma is the second most common bone tumor occurring in children, but there have been no improvements in treatments or survival rates for more than a decade for patients with advanced disease. While immunotherapy with chimeric antigen receptor (CAR) T cells has mediated major advances in pediatric leukemia, it has not yet proven effective in Ewing sarcoma. We will explore approaches to apply CAR T cells targeting the validated target GD2 and other ganglioside targets to treat this highly recalcitrant pediatric cancer."
+ },
+ {
+  "id": "953337f0-4906-459a-bf83-fd45c79bb6de",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A novel framework for estimating personalized genomic variants of hypertension for precision medicine",
+  "text": "Blood pressure is a key risk factor for many cardiovascular diseases, and hypertension was\nprimarily responsible for about 7.8 million world-wide deaths in 2015 alone. The rapidly\naccumulating genomic data are crucial for understanding the disease mechanism of\nhypertension, including its racial differences. The proposed study will not only help advance\nprecision medicine by identifying the causative genomic variants of hypertension for each\nindividual, but also help predict, intervene and prevent hypertension via developing advanced\nmachine learning predictive models for hypertension."
+ },
+ {
+  "id": "9534a9b7-6edd-4f71-a095-a6041da303df",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Airway epithelial cell reprogramming mechanisms leading to chronic lung allograft dysfunction",
+  "text": "By targeting a key biological mechanism that leads to chronic lung rejection with an available drug, this\nresearch aims to improve the long-term success of lung transplantation. We will determine how specific signals\nin airway cells contribute to transplant failure that will allow personalized therapies in lung transplant recipients\nto improve lung function and survival."
+ },
+ {
+  "id": "9535ebfe-41eb-4203-b00e-58fab848662e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Implementing and Personalizing Best-In-Class Opioid-sparing Pain Management for Major Inpatient Surgeries in Children",
+  "text": "Each year, >5 million American children undergo surgeries including major and painful cardiac surgeries and\nspine fusion surgeries. More than 50% of these children experience uncontrolled severe acute surgical pain,\nsignificant opioid-related adverse outcomes including respiratory depression, persistent opioid use/misuse, opi-\noid dependence, overdoses, and deaths, and chronic persistent surgical pain. Implementation of evidence-based\nstandardized perioperative methadone-based multimodal acute surgical pain management in this clinical trial,\nand proactive and personalized risk identification will maximize acute surgical pain relief while minimizing opioid\nuse, serious opioid-related adverse outcomes, and transition of acute surgical pain to chronic surgical pain in\nmillions of children undergoing major and painful surgeries each year."
+ },
+ {
+  "id": "953d65fa-60f2-4a22-b20c-0e4e74abcd77",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Proteogenetics of Autism Spectrum Disorders",
+  "text": "PROJECT NARRATIVE.\nThe goal of the proposed research is to use mass spectrometry-based methods to characterize proteomes in\nneuron and organoid models of Rett syndrome and CNV 16p11.2 genotypes that are on the Autism Spectrum."
+ },
+ {
+  "id": "9548e148-008b-46ce-97bf-ff3309327678",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Data-driven Clustering of fMRI in Children with OCD and Subclinical Symptoms: Characterizing Cognitive Control Network Alterations and Predicting Outcomes of a Digital Cognitive Training",
+  "text": "Middle childhood is a pivotal period when obsessive-compulsive symptoms (OCS) fluctuate\nand children begin seeking treatment for obsessive-compulsive disorder (OCD), coinciding with the maturation\nof neural circuits involved in cognitive control. This innovative project will use data-driven machine learning of\nfMRI data to (1) identify subtypes of cognitive control network alterations in pediatric OCD and (2) across\nclinical-to-subclinical OCS severity, and (3) determine which subtypes predict improvements in cognitive\ncontrol following a digital cognitive training intervention. This research directly aligns with the mission of the\nNIMH’s experimental therapeutics framework, with the potential to inform the development of transdiagnostic\nneurobiological models of OCS and inform the development of more precise, personalized treatment and\nprevention strategies."
+ },
+ {
+  "id": "954dbda6-7b9b-464c-9a22-56626e88e0b8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Expanding support and training for new users of next-generation electrophysiology probes",
+  "text": "Neuropixels have become a dominant technology with more than user 1200 labs, but these\nprobes are sold by their fabricator at cost with no support. The 2023 introduction of 4 shank\nNeuropixels 2.0 and the expected early access to the NIH funded 1536 channel Neuropixels\nNXT and the continued growth of the user community demand a formalized support including\nhands on courses."
+ },
+ {
+  "id": "955edbb7-34be-4348-a8c5-d731ec7c7b72",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Methods for Evolutionary Genomics Analysis",
+  "text": "The long-term goal of my research program is to develop methods and tools for comparative analysis of\nmolecular sequences. This project will expand the scope of our investigations by developing a new class of\nmethods and models for molecular evolution and phylogenetic analysis using deep learning with transformers.\nNew techniques and their software implementations will complement conventional approaches for many\nevolutionary and functional genomics applications."
+ },
+ {
+  "id": "95638b55-a1e1-4e07-aaa6-344b8d3f6b36",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Cancer Biology Training Program",
+  "text": "A steady stream of new researchers is necessary to continue the fight against cancer, the primary cause of death in the U.S. The training of a strong workforce is a key component to the next generation of scientists. The goal of this Cancer Biology Training Program is to continue to give trainees a broad exposure to the many areas of cancer research, so that they can learn multidisciplinary and cutting-edge approaches to better understand and treat cancer, thereby reducing its overall burden nationwide."
+ },
+ {
+  "id": "9566b356-7eb7-40ec-836e-89f4f2ae2b0c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Nucleic Acid Nanoparticle-based Monoclonal Antibody Mimics",
+  "text": "This proposal aims to leverage nucleic acid nanotechnology to create a set of non-immunogenic monoclonal\nantibody mimics for precise targeting, detection, and treatment of prostate cancer. Utilizing programmable\ncharacteristics of modular, thermodynamically and enzymatically stable, and non-toxic triangular RNA scaffold,\nwe will construct various isotypes mimicking structures and binding functions of monoclonal antibodies. The goal\nis to establish a reliable platform for monoclonal antibody alternatives that can be employed in therapeutic\ninterventions across various diseases."
+ },
+ {
+  "id": "9568baf0-8656-4511-b272-90eefa3c2c7c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "OCTA Precursors of Vision-Threatening Complications of Diabetic Retinopathy",
+  "text": "The current approach to prevent vision loss in diabetic retinopathy is inefficient due to the inherent imprecision\nof photograph-based screening in identifying eyes at short-term risk for vision-threatening complications. We\npropose an advanced optical coherence tomography angiography (OCTA) systemthat can reliably capture high-\nresolution, widefield angiographic and structural images with automated extraction of biomarkers that represent\ndirect precursors of these complications, identifying patients that would benefit from treatment more precisely\nthan clinical or photographic grading. This application includes foundational technological innovation,\ndevelopment of deep-learning aided biomarker detection algorithms, and prospective and cross-sectional\nvalidation of the technology in a real-life clinical setting with diabetic participants."
+ },
+ {
+  "id": "956ecd8a-efa8-4bda-a7bf-6648b999f231",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Functional consequences of cocaine self-administration on astrocytes",
+  "text": "The considerable public health burden of psychostimulant use disorders creates a priority for intervention.\nAccumulating evidence indicates that the long-lasting cellular effects of cocaine use include astrocytes and\nneuron-astrocyte communication within the brain’s reward circuitry. This proposal seeks to determine how\npersistent cocaine-dependent adaptations in astrocyte structure affect critical functional roles of astrocytes and\ndrug seeking behavior."
+ },
+ {
+  "id": "9571545e-fd74-47ba-a450-33bb48cb2221",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Exploring ATR as a Novel Vulnerability of Osimertinib-Resistant EGFR-Driven Lung Adenocarcinomas",
+  "text": "Although targeted therapies like osimertinib significantly extend the lives of patients with EGFR-mutant lung\ncancer, they are not curative. We aim to investigate how ATR, a key protein activated by replication stress,\ninfluences tumor growth and contributes to osimertinib resistance in patient-derived lung cancer models. Our\ngoal is to determine whether ATR inhibition or using antibody drug conjugates like trastuzumab deruxtecan\n(TDXd), can delay tumor relapse and to identify biomarkers in human tumors that predict response to these\ntherapies."
+ },
+ {
+  "id": "957423ba-77c3-4f2e-9c74-4b85488e76a3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanism and function of interkinetic nuclear migration in mouse embryonic neural stem cells",
+  "text": "Investigating neural stem cell behavior in the developing brain in vivo may provide key insights into the\npathogenesis of developmental disabilities and reveal important clues on the design of in vitro brain tissue\nengineering. Using the embryonic mouse neocortex as an experimental system, this project aims to elucidate\nbasic principles underlying the self-organization of neural stem cells during brain tissue morphogenesis."
+ },
+ {
+  "id": "95752d20-b18b-4a82-96ab-ff2ae6916e71",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Transforming ANA Testing: Leveraging Epidemiology and AI to Detect Autoimmune Disease",
+  "text": "Systemic and organ-specific autoimmune diseases, including lupus, affect millions of individuals and are often\nmisdiagnosed due to limitations in current testing methods that detect the presence of antinuclear antibodies\n(ANAs) in patient blood samples. The proposed study is relevant for public health as it will investigate the\nlong-term risk of progression from ANA positivity to autoimmune disease—a longstanding question within the\nfield—and leverage artificial intelligence (AI) to develop models for the identification of specific ANAs and\nautoimmune diseases. Through this research, which aligns with NIAMS's priorities of using AI to advance\nknowledge and address unmet needs in autoimmune disease research, we aim to facilitate the early detection\nof autoimmune disease, standardize test interpretation, and reduce unnecessary referrals, thereby improving\npatient outcomes."
+ },
+ {
+  "id": "9579e4df-f249-47af-a8b4-237278122a56",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Multidisciplinary Training in Environmental Toxicology",
+  "text": "There is growing realization that disease susceptibility is a complex interaction between genetics, age, lifestyle\nchoices, and environmental exposure. Training interdisciplinary scientist that can deal with this complexity,\nincluding analyzing the large amount of data necessary to quantify the different biological facets, is required if\nwe are to develop interventions, cope with fallout from environmental accidents, and accurately inform public\nhealth officials. This predoctoral and postdoctoral training program, in collaboration with its experienced and\nresearch-intensive faculty, produces scientists with the skillset necessary to make a positive impact in addressing\nenvironmental issues using state-of-the-science mechanistic and translational toxicology."
+ },
+ {
+  "id": "957d7830-cb4e-47e1-8053-f6e7831dd161",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multimodal Biomedical Imaging Shared Resource",
+  "text": "Multimodal Biomedical Imaging Shared Resource The Multimodal Biomedical Imaging Shared Resource (MBI) at the Cancer Center at Illinois (CCIL) offers comprehensive imaging capabilities for cancer research. Co-leaders Glenn Fried and Cate Wallace have over 20 years of combined experience initiating, managing, and leading this resource. The MBI provides access to advanced instruments and analysis tools covering imaging scales relevant for cancer, from sub-cellular to whole animal. The expert staff at MBI guide researchers through experimental design, data acquisition, and interpretation. Working with the CCIL Associate Director for Shared Resources, MBI has enhanced its research capabilities even further since the last submission through strategic investments in new equipment supported by CCIL investments, external grants and institutional matching funds. The resource also develops customized workflows that integrate with other shared resources and establishes cost-effective partnerships with equipment manufacturers. MBI coordinates access to all UIUC imaging, with complementary facilities at the Carl R. Woese Institute for Genomic Biology (IGB) and the Imaging Technology Group (ITG) at the Beckman Institute. This creates a seamless multiscale imaging workflow that CCIL members can access, located near their laboratories. These facilities offer microscopes, spectroscopy instruments, image-processing software, and technical expertise that are most relevant to cancer research. Other technologies include micro- and nano-x-ray computed tomography, electron microscopy, nanoparticle tracking, dynamic light scattering analysis, and magnetic resonance imaging for whole animal studies. Sophisticated image-processing software and supercomputing resources are available to manage large datasets, with technical experts guiding researchers in their use. Highly qualified co-directors lead MBI, collaborating to organize training, ensure comprehensive coverage of CCIL needs, and streamline research processes. MBI continually expands its capabilities based on member needs. Recent additions include a 9.4T MRI scanner, a \"microscopy to -omics\" pipeline, and a two-color 3D MINFLUX super-resolution microscope. The resource is currently used by 66 CCIL members. It offers priority access, low- cost services, free consultation, and full-time technical support. A total of >140 peer-reviewed grants with total cost >$250M (last four years) are led by CCIL members who use MBI, thus supporting a large and extensive set of activities. Modern cancer research relies heavily on understanding spatial context in discovering, detecting, and diagnosing disease as well as in developing anticancer compounds. MBI services provide this crucial ability to the CCIL. We anticipate that the use of imaging in cancer research will continue to rise, partly due to the increase in technological capabilities and partly due to increase in analytical and computing capabilities. Our plans call for continued nurturing of this impactful resource to continue its highly responsive and useful services that keep it an invaluable asset for cancer research."
+ }
+]

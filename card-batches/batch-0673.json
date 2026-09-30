@@ -1,0 +1,142 @@
+[
+ {
+  "id": "63312d95-1df2-4db5-b809-6604a6d07d9b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Engineering the biology of AAV secretion and production",
+  "text": "We have recently identified the function of the adeno-associated virus (AAV) membrane-associated accessory\nprotein (MAAP) as a novel viral egress factor that both promotes enhanced AAV secretion into the media during\nAAV production and increases the production of exosomes from MAAP-expressing cells. In this proposal, we\naim to define the define the molecular mechanisms by which MAAP enhances AAV secretion and exosome\nproduction, and further engineer novel MAAP proteins to improve up on its endogenous functionalities. These\nstudies not only have far reaching implications for AAV vectors by improving production processes and yield, but\nalso, expand the exosome delivery technology platform."
+ },
+ {
+  "id": "63346015-9659-4e0a-a637-716296657811",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Formation and restriction of coronavirus double-membrane vesicles",
+  "text": "Coronaviruses form endoplasmic reticulum (ER) derived double-membrane vesicles (DMVs) essential for their\nreplication and highly conserved amongst positive-sense RNA viruses, but the mechanism behind their\nformation and innate immune processes which target them remain largely unknown. I have identified an\ninterferon-stimulated gene, ring finger protein 213 (RNF213), which restricts coronavirus primary translation\nand localizes to DMVs. Determining the complete mechanism behind this will reveal novel mechanisms by\nwhich the cell restricts virus replication, as well as a greater understanding of the process behind formation of\nDMVs."
+ },
+ {
+  "id": "633d94e3-188b-4eee-a73f-10f08add69bd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Leveraging Latent Factors and Machine Learning to Forecast Internalizing Psychopathology in Emerging Adulthood",
+  "text": "Mood and anxiety disorders are highly prevalent, debilitating psychopathologies that commonly emerge in young\nadulthood, which in turn is a developmental period characterized by increased exposure to stressors related to\nthe transition to independence. The proposed study takes a longitudinal, mechanistic approach to understand\nhow distinct profiles of cognitive functioning (related to executive functioning and responsiveness to reward or\nthreat) interact to confer general or specific vulnerability for internalizing symptoms (anhedonia, anxious\narousal, and mania). By testing new interdisciplinary tools for predicting future psychiatric health, this research\naims to provide information that may be translated to inform the delivery of preventive interventions to young\nadults."
+ },
+ {
+  "id": "633eccd6-42e7-413e-a389-5190820147f3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Browning of fatty infiltration in rotator cuff tears using novel nanotherapeutics for improved healing, regeneration, and functional outcomes",
+  "text": "Rotator cuff tears often lead to irreversible muscle degeneration marked by fatty infiltration (FI) and atrophy,\nlimiting functional recovery even after tendon repair. This project introduces a novel nanotechnology to convert\nFI into thermogenic fat, which enhances muscle regeneration and supports anti-inflammatory activity. Through\nin-vitro and in-vivo models, the study aims to optimize the nanotherapy system, characterize the regenerative\neffects of thermogenic fat in muscle, and evaluate functional outcomes following therapy treatment with and\nwithout tendon repair."
+ },
+ {
+  "id": "634ad922-b364-48a3-ac4e-66d4e66f8c72",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular Mechanisms of Integrative Signal Transduction",
+  "text": "Organisms evolve to detect and respond to their specific ecological or behavioral context. This research\nleverages several specialized sensory systems across organisms to probe mechanisms underlying the detection,\ndiscrimination, and integration of cellular signals. Results from our studies will expand our understanding of\nsignal transduction, single protein evolution and function, and aim to establish a foundation from which to develop\ntherapeutics for various sensory processing disorders."
+ },
+ {
+  "id": "634d3fe3-655a-461c-b97c-090f8b98dd97",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The role of host mRNA cleavage by RNase L in viral infections",
+  "text": "The persistent presence and continuing emergence of viral infections is one of the major obstacles to\nimproved human health. The majority of viruses, such as human immunodeficiency virus 1 and potentially\nSARS-CoV2, activate an endoribonuclease, RNase L, that consequently induces several physiological\nchanges in the cell from autophagy to apoptosis. In the present proposal I will investigate how the activity of\nRNase L is modulated and its role in determining cell fate by using a combination of new innovative and\nclassical molecular biology techniques."
+ },
+ {
+  "id": "6352581d-49f4-4f25-9a09-d9feab9bf458",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The impact of wildfire smoke exposure on cardiovascular health in the western US",
+  "text": "Given the extraordinary rise in the number of wildfires in the Western US over the past decade, we seek to use Medicare data and emergency department visit data to quantify the relationships between acute and chronic exposure to wildfire smoke and cardiovascular disease outcomes. Combining advanced chemical transport models and machine learning techniques, we will generate detailed estimates of major air pollutants in smoke, then establish concentration-response functions of multiple CVD endpoints with both total and speciated fire smoke pollution. Finally, we will estimate long-term smoke CVD disease burden. The findings of this study will fill major knowledge gaps and improve our understanding of the serious threat of increasing wildfire activities to population health."
+ },
+ {
+  "id": "6354fff3-f999-4484-a729-5b04b16d6c9d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "CORE 2: Technology Core",
+  "text": "TECHNOLOGY CORE SUMMARY Systematic characterization of protein and genetic interaction networks of respiratory pathogens in disease- relevant cells and 3D culture is critical for the identification of functional host-pathogen complexes and targets for therapeutic development. Systems biology approaches that determine protein-protein interactions (PPIs), characterize protein and posttranslational modification (PTM) abundance changes during infection, and classify functional host factors that regulate infectious disease pathogenesis, can provide strategic insight and generate models of respiratory pathogen infection. Combined with visualization of key host-pathogen complexes at atomic level through structural biology, and integrating with clinical and patient data related to disease severity, our innovative “systems to mechanism, bedside to benchtop” approach can be incredibly powerful for the identification of new therapeutic targets and for predicting respiratory disease outcome. The Technology Core will provide the infrastructure and technological expertise essential to the completion of the overall Host Pathogen Map Initiative (HPMI) 2.0 objectives. With support of Core facilities, the Technology Core will provide a suite of state-of-the-art proteomic technologies (Thermo Fisher Scientific Proteomics Facility for Disease Target Discovery, UCSF, Quantitative Biosciences Institute (QBI), Gladstone Institute), genetic screens (Innovative Genomics Institute, UCBerkeley), and structural biology approaches (UCSF Advanced Microscopy Laboratory and Crystallography Facilities, UCSF) for the generation of high-quality data, which will be integrated in collaboration with the Data Management and Bioinformatics and Modeling Core with clinical and patient derived data. Our goal is to provide PPI and global proteomic analyses, genome-wide and targeted knockdown and knockout genetic screens, and structural characterization of host-pathogen interactions for Mycobacterium tuberculosis (Mtb) (Project 1), and respiratory viruses: SARS-CoV-2, IAV, IBV, RSV, and HPIV (Project 2). We will analyze selected variants and clinical isolates for each pathogen in disease-relevant cell lines, primary cells isolated from healthy donors or mice, 3D-culture models including human airway epithelial organoids, and infected patient samples. Finally, we will continue to develop, optimize, and innovate new technological advances as needed to support Project 1 and 2 and HPMI 2.0 overall goals."
+ },
+ {
+  "id": "635aca67-114b-4f75-adf8-0041cc0a790b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Characterizing Xist in the white-footed deermouse (Peromyscus leucopus)",
+  "text": "Disrupted X chromosome gene regulation is linked to numerous diseases, including developmental\ndisorders and cancer, yet the mechanisms underlying chromatin-based regulation remain poorly\nunderstood. In this proposal, I aim to investigate the role of Xist, a long noncoding RNA, in mediating\ngene silencing through H3K27me3 histone modifications in male Peromyscus leucopus. My findings\nshould provide insights into a novel mechanism of sex chromosome regulation and expand our\nunderstanding of noncoding RNA function in mammalian gene expression."
+ },
+ {
+  "id": "635b5345-ec55-43dd-b07f-7cea9781dfd8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Analytical Services Core",
+  "text": "The Analytical Services Core The Analytical Services Core is based on the former Histology, Microscopy & Imaging Core, whose functions and equipment have been expanded. Yet, the goal of the Core remained the same, which is to enhance the capabilities of individual vision research laboratories by enabling them to conduct studies that require understanding the ocular tissue structure and function in normal and pathological conditions as well as upon pharmacologic treatments. This goal is accomplished by providing the resources and expertise for histology, microscopy, and mass spectrometry services as well as access to the tissue culture equipment. The Core also offers an incentive (vouchers) for using state-of-the art technologies at the Case Western Reserve University Cores. The histology services of the Core prepare in a timely fashion cryo or paraffin sections of eyes and mounts them on slides for histo/immunohistochemistry analyses. If requested, routine histological stains are also performed. The microscopy services of the Core help investigators acquire and produce publication quality images or videos from histological slides, fixed or live cells. The mass spectrometry services of the Core provide an equipment, support in experiment design, and training on quantitative analyses of pharmaceutical molecules, metabolites, and proteins. All tissues culture equipment, which was previously available through the Tissue Culture and Hybridoma Core, still remains available through the Analytical Services Core. Finally, access to state-of-the art technologies at the University cores is encouraged via vouchers that help offset some of the cost of these services. A physical space, resources, and expertise of the Core, operated and supervised by highly experienced personnel, serve as the basis for the following Specific Aims: 1) to process, embed, and section eyes followed by section mounting on slides and staining (if requested); 2) to guide users in the proper dissection, fixation and staining techniques, thus ensuring the production of high quality histological specimens; 3) to provide access to the Core’s microscopes along with training and consultation in all aspects of a microscopy-based experiments; 4) to provide access to and training on the use of Metamorph and microscope-specific imaging software to properly analyze and generate relevant data from images; 5) to assist in production of publication quality images and/or videos; 6) to provide access to and training on the use of a mass spectrometer to detect or quantify molecules of interest; 7) to provide access to the tissue culture equipment and incentive for use of the University Core facilities for the services that are currently unavailable at the P30 grant Cores. The former Histology, Microscopy & Imaging Core had the heaviest usage of all P30 grant Cores. Hence we expect that the Analytical Services Core will have usage at the same or higher levels and continue assisting VSRC investigators in conducting high-quality and high-profile research."
+ },
+ {
+  "id": "6362985a-e44e-42e2-8f94-fc02987c9d0f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dual-Platform Plasma Assay for Early Lung Cancer Detection in African Americans",
+  "text": "Lung cancer remains the leading cause of cancer-related mortality, with African Americans (AAs)\nexperiencing a disproportionate burden due to delayed detection and limited access to timely\ndiagnostic tools. This project will develop and validate a rapid, affordable, and highly sensitive\nplasma assay to simultaneously detect ethnicity-specific non-coding RNAs and cytokines\nassociated with lung cancer in AAs. By enabling early, accurate, and accessible diagnosis in\nunderserved communities, this innovative approach has the potential to reduce health disparities,\nimprove clinical outcomes, and improve access to cancer care."
+ },
+ {
+  "id": "636b1941-a11f-4e38-b84b-7a57e6127fdd",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Training Program in Basic and Translational Gene Therapy Research",
+  "text": "The Center for Gene Therapy at the Abigail Wexner Research Institute at Nationwide Children’s\nHospital proposes a Training Program in Basic and Translational Gene Therapy that builds\nupon our extensive expertise in therapeutic development, including first-in-human gene\ntherapies, to develop the next generation of gene therapy basic and translational scientists."
+ },
+ {
+  "id": "63714df1-de9e-4cc7-a352-e41321700176",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Polarized Protein Trafficking and Angiogenesis",
+  "text": "Blood vessels carry oxygen and nutrients and are vital to organismic viability and continued homeostasis.\nDuring angiogenic development, endothelial cells create a hollow cavity called a lumen, providing a continuous\nconduit for blood to ﬂow. This proposal will help determine the molecular and cellular mechanisms that\ncontribute to the creation of a lumen during embryonic blood vessel development."
+ },
+ {
+  "id": "6371cc80-fa27-497a-8860-74a871b037ff",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Genetic basis of neuropsychiatric symptoms in Alzheimer's disease",
+  "text": "Although neuropsychiatric symptoms (e.g. aggression, psychosis, anxiety, apathy,\ndepression, and sleep disturbances) occur in ~85% of Alzheimer disease patients and\nare associated with accelerated decline, increased cost, out-of-home placement, and\ngreatly increased suffering of patients and families, our understanding of their etiology is\nstill inadequate, with treatments often being ineffective and even associated with serious\nadverse effects (including increased mortality). This knowledge gap is particularly\negregious in population groups such as Hispanics and African-Americans. We propose\nto expand the ADSP-FUS and related resources to include harmonized neuropsychiatric\nsymptom data allowing researchers to assess a variety of additional critical hypotheses,\nand to utilize these harmonized data to identify ancestry-specific genetic determinants,\nmolecular pathways, and polygenic effects underlying neuropsychiatric symptoms in\nAlzheimer disease"
+ },
+ {
+  "id": "6375dc56-2f67-4a4e-b471-68375ff482d7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Optimization of an in vivo base editing strategy to treat SOD1-linked ALS",
+  "text": "Amyotrophic lateral sclerosis (ALS) is a debilitating and invariably fatal disorder that can be caused by mutations\nin superoxide dismutase 1 (SOD1). We have developed an approach to inactivate the production of this mutant\nprotein in vivo using CRISPR base editing, a gene-editing modality capable of introducing precise single-base\nsubstitutions in DNA, but without the requirement for a mutagenic DNA break. Now, we aim to refine this strategy\nby optimizing its targeting specificity, its editing capabilities, its pharmacokinetics and its safety for the ultimate\ngoal of developing a permanently effective gene therapy for ALS."
+ },
+ {
+  "id": "63792018-41b9-4cee-bbee-86bd9d92d3d4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Advanced functional MRI of cerebral cortical layers in the human brain using ultrahigh-resolution linescan MRI technology",
+  "text": "Functional Magnetic Resonance Imaging (fMRI) is a common tool for measuring human brain function, but it\ndoes not measure neuronal firing directly—instead it tracks changes in blood delivery and blood oxygen that\naccompany this neuronal activity. New evidence shows that the brain is capable of controlling these\n“hemodynamic” changes finely enough to use it to identify neuronal activity at the scale of the “layers” of the\ncerebral cortex, which are the inputs and outputs of brain circuits, yet, unfortunately, the imaging resolution of\nmodern fMRI is not high enough to resolve these layers. To address this, in this F32 fellowship we propose to\ndevelop a high-resolution one-dimensional imaging approach called “linescan fMRI” that rapidly scans across\nthe cerebral cortical layers, then fully characterize its performance, validate it as a tool for measuring brain activity\nwithin cerebral cortical layers, then apply it to a new experiment we have designed, all to establish linescan fMRI\nas a mainstream tool for human neuroscience."
+ },
+ {
+  "id": "637954b1-f816-4551-80a2-3a7e3580cbc3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Ultrafast wireless voltage imaging with event-based cameras",
+  "text": "Neurons in the brain encode and process information in the form of electrical signals. Innovative methods for\nmonitoring these signals are required to understand brain function in health and disease. We will leverage a new\ngeneration of sensors – event cameras - to develop an ultrafast wireless microscope for imaging voltage signals\nfrom large areas in the brain of unconstrained animals."
+ },
+ {
+  "id": "63851016-423e-4dcd-a982-dd6a291120c5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Advancing our Understanding of the Development, Phenotypes, and Progression of Chronic Rejection after Lung Transplantation",
+  "text": "The leading cause of poor outcomes for lung transplant recipients is chronic rejection, but we lack prediction\nmodels both for 1) the development of chronic rejection and 2) survival after chronic rejection. Chronic rejection\nhas been associated with changes in the lung microbiome (i.e., the community of bacteria in the lungs), the\nrecipient's immune response, and lung scarring that originates from mesenchymal cells that reside in the\ntransplanted lung. This project will integrate clinical data with biological signals from the lung microbiome,\nimmune response, and mesenchymal cell activation to: 1) Develop prediction models for the development of\nchronic rejection in healthy lung transplant recipients, and 2) Develop prediction models for survival at the time\nchronic rejection is diagnosed."
+ },
+ {
+  "id": "638ce41b-efb0-461a-8844-2b4e6691df47",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Miniaturized Two-Photon Microscope (Mini-2P) for Shared Neuroscience Research at Albert Einstein College of Medicine",
+  "text": "The Mini-2P Two-Photon Imaging System will allow researchers at Albert Einstein College of\nMedicine to study brain activity in freely moving animals, revealing how brain circuits influence\nbehaviors tied to disorders like addiction, dementia, obesity, and autism. This research will pave\nthe way for new pre-clinical animal models, treatments, improving health and quality of life for\nthose affected by these conditions."
+ },
+ {
+  "id": "63992334-56e0-48da-bc2a-ad91ffd822ee",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Functional Analysis of the Visual System and In Vivo Ocular Imaging Core Module",
+  "text": "Functional Analysis of the Visual System and In Vivo Ocular Imaging – Abstract The Functional Analysis of the Visual System and In Vivo Ocular Imaging Core Module plays a critical role in advancing the overarching objectives of the Vision Research Core by improving both the quality and efficiency of vision research. The main objectives of the Vision Research Core are to enhance the productivity and efficiency of the research programs of the UW vision scientists and to facilitate collaboration among investigators. This module achieves these goals by providing access to shared equipment and facilities, preventing the unnecessary duplication of equipment and technical expertise. Shared equipment is cost- effective when multiple labs need the same expensive technology, but individual labs lack the resources to purchase the technology, to support personnel with the necessary technical expertise to use or maintain equipment or are unable to make full-time use of such technology. Structural analyses of the eye using in vivo ocular imaging and functional analyses of the visual system with in vivo and ex vivo electrophysiological and psychophysical methods are fundamentally important for modern basic and translational vision research. This core module provides specialized support for these analytical approaches through access to shared instruments and technical expertise in the acquisition and analysis of data using the module’s instruments. The shared instruments and technical expertise offered by this module expand the capability of UW vision researchers in the structural and functional analysis of the visual system, which in turn facilitates the sharing of applications through collaborative exchange."
+ }
+]

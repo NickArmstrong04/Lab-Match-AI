@@ -1,0 +1,142 @@
+[
+ {
+  "id": "f4d615b7-a80d-4634-8e37-e1a8b83920fb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Effects of alcohol on sleep/activity rhythms: Focus on Hypocretin/Orexin",
+  "text": "This project tests the hypothesis that, in the rat, exposure to alcohol during adolescence induces long-term\nchanges in sleep and activity rhythms, increases in drinking, that are in part mediated by hypocretin/Orexin\nsystem in key sleep circuits. These studies also test new therapeutics for adolescent alcohol-induced sleep/wake\npathology."
+ },
+ {
+  "id": "f4daa863-8883-4b50-8194-228d2cc35271",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "AIDS Malignancies Training and Research International Program (AMTRIP)",
+  "text": "HIV/AIDS is at epidemic proportions in Zambia, where approximately 1.2 million people – representing about 12% of the country's adult population – are infected. Concomitant with this epidemic, the widespread availability of free anti-retroviral treatment in-country has increased the lifespan of HIV-1 infected individuals, resulting in prolonged chronic immunosuppression and increased occurrence of HIV-associated cancers. However, in-country efforts to prevent, diagnose, and manage cancer in Zambia have been hindered by a lack of laboratory facilities, insufficient cancer research infrastructure, and a shortage of trained personnel. Recognizing these critical gaps, the University of Zambia School of Medicine, the University Teaching Hospitals, and the Louisiana State University leveraged the success of a previous Fogarty partnership to establish the AIDS Malignancies Training and Research International Program (AMTRIP) in collaboration with a new lead partner, the Cancer Diseases Hospital (CDH). This unique program aims to enhance Zambia's cancer research infrastructure and capacity by training Zambian biomedical researchers and health care providers in laboratory techniques and research methodology related to basic cancer biology, molecular genomics, and bioinformatics. Now in its fifth year, AMTRIP has made significant strides by providing intensive long-term graduate degree training and short- and medium-term technical training for 25 trainees; hosting workshops for over 300 health care professionals; successfully transitioning trainees into mentorship roles; adapting program activities to meet the needs of trainees and the rapidly changing cancer research landscape; and leveraging partnerships with other D43 programs to expand the program's impact. Building on these accomplishments, this application seeks to further enhance cancer research capacity in Zambia by: 1) continuing to provide long-term academic instruction and research experiences for eight current master's and three current PhD students in Zambia and recruiting four additional master's and two additional PhD students; 2) providing medium-term (six months to one year) technical training for trainees in topics related to molecular pathology, cancer biology, bioinformatics and genomics; and 3) delivering short- term training (less than three months) and technical workshops (3-5 days) designed to enhance basic, clinical, implementation, genomics, bioinformatics, and behavioral cancer research in collaboration with other regional partners and programs. Expected outcomes of this renewal include the graduation of eight current master's and three current PhD candidates; recruitment and training of an additional four master's and two PhD students in relevant cancer research fields; the transition of trainees into mentorship roles; enhanced infrastructure at Zambian institutions, including the completion of a CDH laboratory renovation; and expanded partnerships with other D43 programs. Given current progress and anticipated renewal outcomes, AMTRIP is on track to transition program leadership to the next generation of cancer researchers in a future renewal."
+ },
+ {
+  "id": "f4dc9b3b-915f-41ab-b2b1-2c0c28151006",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Novel tunable metformin-releasing injectable scaffolds to enhance dental pulp stem cell-based craniofacial bone regeneration",
+  "text": "Public Health Relevance: The limited intrinsic regenerative potential of large craniofacial bone defects represents a\nconsiderable challenge in oral and maxillofacial surgery. The long-term goal of this proposal is to develop novel tissue\nengineering platforms where mesenchymal stem cells (MSCs) with functional organic cation transporters belonging to\nthe solute carrier 22A gene family can be encapsulated within tunable metformin-releasing injectable scaffolds to\npotentiate regeneration of vascularized critical-sized bone defects. We anticipate this innovative project will lead to\nbroader metformin-releasing tissue engineering platforms to benefit many patients in need of oral, craniofacial as well\nas orthopedic bone regenerative procedures."
+ },
+ {
+  "id": "f4de8571-c23d-4be6-91ec-8cb0a3df8364",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Replication study of in vivo postnatal gene editing for metabolic liver disease in the nonhuman primate model",
+  "text": "In vivo gene editing via lipid nanoparticle delivery of messenger RNA (mRNA) encoding a gene-editing protein\nand a guide RNA (gRNA) offers the potential to treat phenylketonuria (PKU), hereditary tyrosinemia type 1 (HT1)\nand other diseases. However, there are currently no clinical-grade LNP formulations available for unrestricted\nuse by academic investigators. We have developed our own LNP formulation comprising four lipid excipients,\nan adenine base editor mRNA, and a gRNA targeting the PCSK9 gene which, when delivered to juvenile\ncynomolgus monkeys, resulted in whole liver editing adequate to treat PKU and HT1 and we will now perform\nreplication studies to validate these findings providing critical information to other academic investigators and for\nIND applications for PKU, HT1 and other diseases."
+ },
+ {
+  "id": "f4e8a0fa-a9ec-4267-b381-c92990bc670c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Neurodevelopmental defects of the thalamocortical pathway as a convergent feature of psychiatric disorders",
+  "text": "We seek to understand the mechanisms underlying human thalamocortical pathway development and to study\nhow genetic mutations found in patients with neurodevelopmental psychiatric disorders may disrupt the\nthalamocortical pathway formation. In order study these processes in human cell-based models, we will take\nadvantage of human pluripotent stem cell technology which enables scalable in vitro differentiation into tissue\nmodels of the cerebral cortex and the thalamus. Moreover, using cutting-edge single cell sequencing\ntechnologies, we will identify the molecular pathways that may be involved in regulating thalamocortical\npathway development in humans."
+ },
+ {
+  "id": "f4eafe56-8fc6-46a6-91d3-df4535be77cc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "FastPlex: A Fast Deep Learning Segmentation Method for Accurate Choroid Plexus Morphometry",
+  "text": "The proposed research is relevant to public health because the choroid plexus has been implicated in\nneurodevelopment and a range of brain disorders. Evidence demonstrates that the choroid plexus is critical for\nbrain maturation, immune/inflammatory regulation, and behavioral/cognitive functioning, however current\nneuroimaging segmentation tools are poor at accurately and reliably segmenting the choroid plexus. The\nproposed studies will utilize large patient cohorts (n=22,000+) from high resolution (Human Connectome Project\nand Connectome Related Human Disease) and conventional (inclusive of high risk for psychosis, first episode\nand chronic psychosis, bipolar disorder, and Alzheimer's disease) neuroimaging datasets to develop an opensource\ndeep learning choroid plexus segmentation method that will be used to elucidate changes in the choroid\nplexus across the lifespan and within various brain."
+ },
+ {
+  "id": "f4edddff-f8aa-45a0-8a4b-48e43df7a829",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular mechanisms of mitochondrial complex I rescue by hypoxia and genetic suppressors",
+  "text": "Mitochondrial dysfunction is a central driver of age-associated neurodegeneration, including Parkinson’s and\nAlzheimer’s disease. Surprisingly, breathing hypoxia rescues mitochondrial mutants in diverse organisms, but\nthe precise molecular mechanism remains unknown. This proposal combines advanced mitochondrial\ngenetics with cryoEM microscopy to solve the structures of wild type and mutant electron transport chain\ncomplexes, with the ultimate goal of determining how hypoxia rescues mitochondrial dysfunction."
+ },
+ {
+  "id": "f4f22e42-5748-4682-ae4b-5d706ba0f1b1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Quantifying Endogenous Transcription and Translation Kinetics in Living Cells",
+  "text": "This research will advance our fundamental understanding of how gene expression is regulated in living cells,\nrevealing dynamic events that are invisible to traditional methods. By developing tools to visualize transcription,\ntranslation, and chromatin modifications at the single-molecule level, we aim to uncover the molecular\nprinciples that govern gene regulation. These discoveries will shed light on core biological processes and lay\nthe groundwork for future applications in health and disease."
+ },
+ {
+  "id": "f4fae016-a3be-4068-be7a-cf253233b443",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "AstroTarget™ Astro-Enrichment Kit: A Microfluidic-Free Platform for High-Throughput Rare-Astrocyte Isolation and Multi-Omic Profiling from Frozen Alzheimer’s Brain",
+  "text": "Plaque-associated reactive astrocytes, key drivers of Alzheimer’s pathology, make up less than 2% of nuclei in\nfrozen human brain archives, rendering them prohibitively expensive to isolate and characterize with current\nsingle-nucleus sequencing tools. This project will create the AstroTarget™ Astro-Enrichment Kit-a\nmicrofluidic-free workflow that enriches these scarce nuclei more than 50-fold while capturing both their\ntranscriptomes and chromatin landscapes, thereby unlocking archived tissue for mechanistic discovery and\ntherapeutic target identification."
+ },
+ {
+  "id": "f51a20b9-72d1-4cad-a59a-c895c02803f6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dormancy-dependent determination of hematopoietic stem cell fate from hemogenic endothelium",
+  "text": "Transplantation of hematopoietic (blood-forming) stem cells is a life-saving therapy used to cure blood and\nimmune disorders. However, not all patients in need of hematopoietic stem cell transplantation have suitable\ndonors of these precious cells. To overcome this obstacle, the research in this proposal seeks to identify the\ninstructions that guide the initial formation of hematopoietic stem cells during development in order to replicate\ntheir production in the laboratory."
+ },
+ {
+  "id": "f51f0e3a-fbcf-4f05-bafc-2036a0f76f57",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Optimizing outcomes for children and young adults with relapse of B-cell acute lymphoblastic leukemia after CD19-targeted chimeric antigen receptor T-cell therapy",
+  "text": "Chimeric antigen receptor T-cell therapy targeting CD19 (CAR19) has revolutionized the treatment landscape\nfor children and young adults with relapsed or refractory B-cell acute lymphoblastic leukemia. Unfortunately,\nhowever, approximately 50% of children relapse after initial response to CAR19 and their subsequent survival\nis dismal. This proposal aims to optimize outcomes after post-CAR19 relapse through two mutually informative\napproaches: 1) A phase 1/2 clinical trial testing the delivery of a novel, dual-antigen targeted CAR designed to\novercome the primary mechanisms of CAR19 failure; and 2) An advanced comparative effectiveness study to\ndetermine optimal existing salvage treatment approaches for post-CAR19 relapse."
+ },
+ {
+  "id": "f5230104-1a62-44b1-a3e5-83aac26c360b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Control of Developmental Timing by NADH Redox Metabolism",
+  "text": "The intrinsically slow pace of human development represents a significant limitation for the use of induced\npluripotent stem cells in disease modeling and regenerative therapies. The research proposed in this\napplication will uncover the role of NADH redox balance in regulating species-specific rates of embryonic\ndevelopment. This improved understanding of developmental timing will enable us to devise novel strategies to\naccelerate human developmental speed, thereby enhancing the therapeutic applications of pluripotent stem\ncells."
+ },
+ {
+  "id": "f536411d-0062-4ef0-b539-f11e07996637",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Host and parasite determinants of Leishmania Viannia persistence in naturally infected human populations",
+  "text": "The natural history of human dermal leishmaniasis caused by Leishmania Viannia species\nprovides unequivocal evidence of long-term persistence of parasites in asymptomatically as well as\nsymptomatically infected individuals. This project aims at studying the role of parasite\nsubpopulations and characterizing the transcriptomes, metabolomes and immunophenotypes of\nhost tissues and cells associated with persistent Leishmania infection. It will provide critical\nknowledge on the metabolic and immunological microenvironments of human tissues permissive for\nLeishmania persistence, define the signatures and biomarkers of persistence, and advance ex vivo\nmodels of persistent Leishmania infection."
+ },
+ {
+  "id": "f54708f9-a947-4180-b1ca-a4499022ae1e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A multi-scale systems biology framework for understanding and engineering the human gut  microbiome",
+  "text": "The human gut microbiome consists of trillions of bacteria that shape our immune system, metabolism and\nbehavior via a myriad of bioactive microbial metabolites. These metabolites are produced by complex and\ndynamic multi-scale interaction networks spanning gene regulatory networks within individual cells to the inter-\nspecies interactions at the community-level. We will revolutionize our ability to decipher these interaction\nnetworks by combining construction of human gut communities from the bottom-up, state-of-the-art techniques\nfor high-throughput community characterization, advanced computational models of different resolutions, multi-\nobjective optimization and quantitative measurements of host phenotypes using in vitro and germ-free mouse\nmodels."
+ },
+ {
+  "id": "f54908c8-9348-447d-be2b-271ba9519eff",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Understanding How Distinct Heterochromatin States Control Pioneer Factor Binding",
+  "text": "Restriction of transcription factor (TF) binding by heterochromatin is essential for spatiotemporal control of gene\nexpression and proper embryonic development. Despite developmental transitions from gene repression to\nactivation being often initiated by pioneer factors which overcome the heterochromatin barrier, it remains poorly\nunderstood whether distinct types of heterochromatin differentially regulate DNA accessibility and TF binding.\nHere, I will directly compare how G9A/GLP and SETDB1, responsible for histone H3 Lysine 9 di and\ntrimethylation, respectively, restrict TF and pioneer factor binding to the same gene regulatory sequences."
+ },
+ {
+  "id": "f5522980-120e-47cc-a30c-9081fac33196",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Network medicine-based discovery of therapeutics for knee osteoarthritis",
+  "text": "While knee osteoarthritis represents a major public health burden affecting more than 30 million older\nindividuals in the United States alone, the standard of care is primarily limited to symptom management. This\nstudy will mechanistically interrogate the effects of different exercise protocols, applied in isolation or in\ncombination with nutritional approaches, on cartilage integrity with aging and according to sex. We anticipate\nthat the innovative research studies proposed will aid in the development of effective rehabilitation programs\nthat consider sex-specific variables for the treatment of osteoarthritis."
+ },
+ {
+  "id": "f553aa1d-2d15-48c8-8e63-eec1dab23a49",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Impact of Aging and Exercise on Glymphatic Function Using Multi-modal MRI",
+  "text": "The glymphatic system is brain-wide network supporting the clearance of metabolic waste including amyloid\nbeta, of which excessive accumulation in the brain can lead to Alzheimer's disease (AD). However, valid\nmethods for imaging the human glymphatic system are not established. In this project, the research team will\napply a multi-modal MRI approach to comprehensively evaluate the glymphatic system and establish its\neffectiveness in capturing glymphatic function changes associated with aging, preclinical AD pathology and\naerobic exercise."
+ },
+ {
+  "id": "f554cdb4-181d-4563-b7cd-6f9f3422a5cc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Developing and testing a mobile health intervention to promote sun protection behaviors and skin examination among Hispanics",
+  "text": "Research on preventing skin cancer among the Hispanic population is needed since melanoma rates are\nincreasing among Hispanics, and mortality rates are higher than among non-Hispanic whites. The Hispanic\npopulation tends to have misperceptions regarding skin cancer: they are less aware of the symptoms and harms\nof skin cancers and are less likely to engage in sun protection behaviors. The proposed project will develop and\npilot test a mobile intervention to increase both sun protection and skin self-examination behaviors among\nHispanic individuals."
+ },
+ {
+  "id": "f55b64ad-1f32-4779-8c9a-1562be688811",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project 1: Effects of inflammation on clonal competition and malignant transformation",
+  "text": "By unveiling new molecular and pathogenic mechanisms that account for clonal hematopoiesis (CH) and\nhematologic malignancies, Project 1 of our Program is tightly aligned with the NCI mission. Our studies will\nprovide important insights on how the modifiable stressors of infection and high-fat diet-induced obesity exert\nselective advantages on hematopoietic stem and progenitor cells (HSPCs) with CH-associated mutations and\npromote to their malignant transformation. Our discoveries will define the mechanisms by which CH progresses\ntoward malignancy and provide the groundwork for risk stratification of CH-associated mutations."
+ },
+ {
+  "id": "f55cd2dd-e460-43df-9c1d-05d5a7b74097",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Regulation of Retinal Ganglion Cell Regeneration",
+  "text": "In many diseases of the eye, selective progressive retinal cell loss eventually leads to blindness, necessitating\ntherapies for replacing the lost cells to restore vision to patients. Intriguingly, the cells responsible for\nregenerating retinal cells in fish retain the ability to regenerate retinal cells in mammals, however, fully\nawakening this regenerative potential has proven difficult and the results, to date, have been limited. We\npropose to use fish models of selective retinal cell regeneration for large-scale genetic screens to define the\ngenetic programs controlling retinal stem cell regenerative potential and thereby provide insights that will\nsupport the development of regenerative therapeutics for restoring vision to those who have lost it."
+ }
+]

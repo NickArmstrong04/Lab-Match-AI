@@ -1,0 +1,142 @@
+[
+ {
+  "id": "886a1f98-001b-4160-aa48-894d3287eb4a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Alternative splicing of UMOD as a protective mechanism for thick ascending cells in kidney injury.",
+  "text": "Deterioration of kidney function, or acute kidney failure is an important contributing factor to the morbidity\nand mortality of hospitalized patients. Our proposed research will study the role of a protein, Uromodulin\nwhich is made uniquely in the kidney. A specific form of this protein can help protect kidney cells, and\nunderstanding this role holds promise for future therapeutic stategies that improve outcomes of kidney\nfailure ."
+ },
+ {
+  "id": "886be575-eb16-4ff6-80ad-81c3c202e4d9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Tumor Tissue and Pathology Shared Resource",
+  "text": "The Tumor Tissue and Pathology Shared Resource (TTPSR) of Atrium Health Wake Forest Baptist Comprehensive Cancer Center (AHWFBCCC) facilitates translational cancer research by: (1) collecting and supplying high quality, well- characterized human and animal tissues (neoplastic and normal) and (2) providing various pathology services to AHWFBCCC investigators. The TTPSR maintains a repository of patient-derived tumors and matched normal tissues, accompanied by pertinent clinical information, in addition to tissues from other species. It facilitates investigators’ access to available data on tumor and normal tissues, serum, plasma, and white blood cells via the Translational Data Warehouse and Informatics for Integrating Biology and the Bedside (i2b2), as well as the Shared Resources’ web-based biospecimen management tool, in a regulatory-compliant manner. TTPSR also assists investigators with the customized collection of fresh human and animal tissue samples for prospective translational research projects. TTPSR includes the Tumor Procurement Lab (TPL), the Human Pathology Lab (HPL), the Comparative Pathology Lab (CPL), and the Organoid Processing Lab (OPL). HPL works closely with TPL for quality control of samples and provides clinical pathology expertise to investigators. CPL provides unique samples and pathology expertise for a variety of experimental animals ranging from rodents to non-human primates. OPL is a newly added lab to TTPSR, which is a collaborative entity with the Wake Forest Organoid Research Center. OPL focuses on the formation of 3D patient-specific tumor organoids and applying them translationally, with the goal of informing personalized cancer treatments as well as research and development of new therapies. All four laboratories comprising TTPSR have one centralized reception point for seamless operations and they are equipped with state-of-the-art instrumentation overseen by trained staff. TTPSR provides high quality tissue samples with a stringent quality control process by a certified pathologist. It maintains a formalin-fixed, paraffin-embedded tissue bank dedicated for research use. In addition, TTPSR provides investigators with both pre-made tissue microarrays (TMAs) of various tissue types, as well as custom-made TMAs for specific research questions. TTPSR also provides automated tissue dissociation in collaboration with the Cancer Genomics Shared Resource for single cell RNAseq, to help investigators answer inquiries into the cell type makeup of the tumor microenvironment. New services include collection of pediatric cases, and production of TMAs and organoids. The TTPSR leadership consists of Edward Levine, MD, Director, and his highly qualified team of Assistant Directors: Gregory Kucera, PhD (TPL) , Wencheng Li, MD (HPL), David Caudell, DVM, PhD(CPL), and Konstantinos Votanopoulos, MD, PhD (OPL). Providing key services and data to 16 funded projects, a total of 84 AHWFBCCC investigators utilized the services of TTPSR over the project period – over a 6-fold increase from the prior reporting period, in which 13 members were served. Thus far in the funding period, 39 peer-reviewed manuscripts acknowledged TTPSR support."
+ },
+ {
+  "id": "88713643-3b03-4c9f-833f-54f6f57a62b7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular Regulation of Stem Cell Aging",
+  "text": "The overall goal of this project is to identify functional metabolic changes in adult neural stem cells during aging, with the objective of `reprogramming' chromatin and transcriptional states in old stem cells and rejuvenate their function. The adult brain contains regenerative neurogenic niches that comprise neural stem cells (NSCs). NSCs can give rise to new neurons, astrocytes, and oligodendrocytes and contribute to aspects of learning and memory as well as injury repair. During aging, the ability of NSCs to generate new neurons decline dramatically. Interestingly, neurogenic decline can be reversed at least in part by `rejuvenating interventions' (e.g. diet and exercise), raising the exciting possibility that specific mechanisms can boost regenerative niches to counter aging. While some mechanisms underlying NSC decline have been identified, a systematic characterization of the program that regulate regenerative neurogenic regions during aging has been elusive. Identifying how metabolic changes impacts neurogenic niche aging and how metabolic interventions `reprogram' chromatin and transcriptional states will be critical to design efficient molecular strategies to slow the functional deterioration of regenerative niches and enhance the repair potential of the nervous system during aging. We have recently performed large scale CRISPR-Cas9 functional screens in vitro and in vivo in old NSCs, which unbiasedly identified glucose metabolism as a critical way to boost old NSC function during aging. In parallel, our lab has embarked on a systematic effort to identify the reversible changes in the epigenome, transcriptome and metabolome in neurogenic regions during aging, at both single cell and spatial resolution. Our central hypothesis is that boosting the metabolic states of old NSCs could reprogram chromatin and transcriptional states to rejuvenate the function of old neurogenic region. We propose the following experiments: 1. To identify the mechanisms by which manipulating glucose metabolism boosts old neural stem cells by impacting their chromatin and transcriptional states in collaboration with Project 1, Core B, and Core C; 2. To use `aging clocks' based on single cell RNA-seq to test in a scalable manner the impact of metabolic interventions on specific cell types in old stem cell niches in synergy with Projects 1 and 3 and Core C; 3. To examine the spatial relationship between metabolic and chromatin/transcription states in cells from the neurogenic niche in young, old, and rejuvenated individuals in collaboration with Core B. This project has major implications for countering brain aging and diseases such as Alzheimer's disease."
+ },
+ {
+  "id": "8871e330-d222-403e-a367-d01be0add6f1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identifying cell-type specific genetic control of T1D risk variants in TEDDY",
+  "text": "Type 1 diabetes (T1D) is a complex disorder, arising from the action of multiple genetic and environmental risk\nfactors. We have identified over seventy T1D risk loci and via fine mapping efforts showed that T1D risk\nvariants mapped to regulatory regions of the genome, especially in immune related tissue. We aim to define\nthe distinct role these risk variants play in initiation and progression of islet autoimmunity in circulating immune\ncells and identify biomarkers predictive of disease stage (islet autoimmunity and T1D) to guide development of\nrisk prediction models."
+ },
+ {
+  "id": "887b819c-3733-4151-9be9-11bf60d60fe3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Protein Nutrition in Experimental Uremia",
+  "text": "Skeletal muscle wasting is a dread complication of chronic kidney disease that increases\nmorbidity and mortality. We have evidence that CRL4ACRBN E3 ubiquitin ligase promotes\nmuscle wasting. Pharmacological inhibition of this enzyme, through repurposing of the\npomalidomide could prevent muscle wasting in chronic kidney disease."
+ },
+ {
+  "id": "887b833c-a4a6-4e81-9173-b97ca798c438",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A novel approach for the use of normal colon organoids in the identification of true casual variants and mechanistic interrogation of their gene targets in colon cancer risk",
+  "text": "The promise of genome-wide association studies (GWAS) of colorectal cancer (CRC) will not be fully realized\nuntil the biological mechanisms driving the risk association at risk loci have been defined. We identified a\nsignificant overlap between genes mapping to CRC GWAS loci and those identified through network analysis of\ncolon organoids enriched for stem cell populations. Here we aim to build upon our novel approach through a\nwell-powered study that integrates transcriptomic, chromatic, and genotypic differences to identify CRC causal\nvariants, and elucidate the effects of their gene targets on normal colon epithelial cell risk biology, which may\nprovide markers for improved surveillance, as well as novel targets for drug discovery."
+ },
+ {
+  "id": "88829fc0-da7d-4838-9518-027a390c533d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting regenerative reprogramming in colorectal cancer",
+  "text": "Accumulating evidence indicate that a small subset of tumor cells readily adapt to different types of cellular\nstresses, including anticancer drugs, ultimately giving rise to tumors for which no effective treatments exist. Using\ndifferent innovative technologies, this project aims to understand the mechanisms through which cancer cells\nescape treatment, and to develop approaches that reverse these adaptations, restrain the growth of resistant\ncells, and improve the outcomes of patients with colorectal cancer and other malignancies."
+ },
+ {
+  "id": "888547ee-c82f-4df2-8069-a37617c10772",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "WNK1 drives glioblastoma progression",
+  "text": "Glioblastoma remains challenging to treat, underscoring the need for a deeper understanding of disease-driving\nmechanisms. We identified a novel signaling network in the treatment-resistant cancer stem cell population\ninvolving WNK lysine-deficient protein kinase 1 (WNK1), for which these is limited information in glioblastoma.\nIn this project, we will mechanistically interrogate the kinase-dependent and kinase-independent functions of\nWNK1, providing much needed insight into this new signaling network in glioblastoma."
+ },
+ {
+  "id": "888d0ccc-f5a6-4f40-9796-aca36c5ca033",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of Wnt-Beta-catenin in liver development and metabolic zonation",
+  "text": "The current study will help understand what controls b-catenin in developing livers. This study will also help\nunravel the mechanism of how Wnt-b-catenin signaling patterns liver zonation by activating expression of\nspecific genes while inhibiting expression of other genes in specific zone of liver lobule. Finally, this study will\ninvestigate hypoxia to endothelial cells in specific liver zone to be driving Wnt-b-catenin signaling and zonation."
+ },
+ {
+  "id": "8893d5c9-bff5-4965-bc34-148c64aabe48",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multi-omic signatures of ALS-spectrum disorders",
+  "text": "There is considerable variability in signs and symptoms observed in patients with motor neuron diseases, such\nas amyotrophic lateral sclerosis (ALS), primary lateral sclerosis (PLS), and progressive muscular atrophy (PMA).\nCurrently, for instance, it remains largely unknown why survival varies from just a couple of months to over a\ndecade. We will perform thorough studies of RNA and DNA to find genetic drivers that might assist in explaining\nthis variability and could lead to the development of novel biomarkers and treatments for these devastating\ndiseases."
+ },
+ {
+  "id": "88950930-19f3-480d-862b-c2d60cf655f1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Insulin regulation of hepatic transport",
+  "text": "Bile acids, which are important for promoting fat digestion in the intestine, are made in liver and circulate\nrepeatedly between liver and intestine through the bile and the blood. The transport of bile acids must be tightly\ncontrolled, because excess levels of bile acids in blood or tissues can be toxic. We have found that bile acid\ntransport is regulated by the hormone insulin, and this grant is designed to determine how this regulation\noccurs."
+ },
+ {
+  "id": "889dd970-975f-4ce8-8390-2ab857325f89",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A multi-omics approach to understanding pediatric epilepsies",
+  "text": "Identifying the genetic etiologies and understanding how those molecular causes lead to disease are essential\ncomponents of ushering genome research into the era of precision medicine. The research proposed here will\nuse overlapping genomic, epigenomic, and transcriptomic datasets to discover novel genetic causes of severe\npediatric epilepsies and to understand the underlying disease biology with CHD2-encephaopathy as a model.\nImportantly, this work will determine if DNA methylation signatures can be used as a readout of CHD2 function\nin brain-relevant cell types that can be rescued upon restoration of CHD2 levels and serve as a potential\nbiomarker to monitor therapeutic development."
+ },
+ {
+  "id": "88a06fda-b0b4-467b-ba0e-6918c61ac5c1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Learning gene regulatory networks under latent confounding and data dependence",
+  "text": "RELEVANCE (See instructions):\nUnderstanding the underlying causality for gene regulation is an important problem in medical science and\npublic health. The high-level goal of this project is to develop novel mathematical models and statistical\nmethods to construct gene regulatory networks from biomedical data, motivated by a few practical\ndifficulties present to available approaches. The new methods will facilitate causal discovery in many\nbiomedical problems, such as identification of potential causes for diseases."
+ },
+ {
+  "id": "88a07c98-d59c-47dd-821f-67416405523d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Bayesian Statistical Learning for Robust and Generalizable Causal Inferences in Alzheimer Disease and Related Disorders Research",
+  "text": "This project responds to the research need of more diverse cohorts, more participants, more variables, and\nmore occasions of measurement to advance progress in the epidemiology of cognitive resilience and decline.\nWe will develop advanced models for causal mediation analysis based on Bayesian machine learning\napproaches along with computationally efficient and user-friendly R packages to integrate rich longitudinal data\non exposures and health markers and account for biases inherent in observational data from life-course\nstudies. The proposed approaches will enable causal inference on joint exposure effects and time-to-event and\nlongitudinal mediators to inform policy for environmental exposures and cardiovascular health in mid and late\nlife to prevent Alzheimer’s Disease and Related Disorders in diverse populations."
+ },
+ {
+  "id": "88ad92a1-cf4e-4747-a150-95082b324274",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Synergistic immune response after EphrinB2 inhibition & PD-1 antibody therapy in urothelial carcinoma.",
+  "text": "This randomized phase II trial compares the combination of sEphB4-HSA with pembrolizumab vs\npembrolizumab alone in neoadjuvant setting for EphrinB2 high, Nectin4 low/no expressing muscle invasive\nbladder cancer patients who refuse or are ineligible for chemotherapy. We expect that sEphB4-HSA will\nsynergistically work with pembrolizumab and result in superior clinical outcomes. Through investigation of the\nmechanisms of this synergy, we will lay the foundation upon which further improvements such as elimination of\nmorbid surgery, reduction of the costs of care, and return of patients to more productive and gainful living could\nbe achieved."
+ },
+ {
+  "id": "88addae3-f4bd-4b91-8501-75574d358992",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The role of novel lincRNAs in regulating RGC survival after injury",
+  "text": "Retinal ganglion cells (RGCs) are especially vulnerable to optic nerve damage. Our new study shows that\nsilencing lincRNAs in RGCs promotes strong neuroprotection after optic nerve injury. We will use viral strategies\nto examine the extent to which distinct lincRNAs regulate RGC survival in mouse models of optic neuropathy,\nand investigate the underlying molecular mechanisms."
+ },
+ {
+  "id": "88ae0f65-fb5a-42fe-8cbf-d93d02762406",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The role of rRNA transcription and ribosome biogenesis in neural crest progenitors and stem cells during embryonic and postnatal craniofacial development",
+  "text": "Developmental anomalies affecting the head and face are among the most common congenital defects, and\naffected individuals typically undergo extensive surgical, dental, speech and other therapies, spanning many\nyears, which imposes a significant psychosocial and financial burden. This project, through the generation and\nanalysis of new mouse models to study craniofacial disorders, will lead to novel discoveries in the fundamental\ngenetic, cellular and biochemical mechanisms that are essential for embryonic and juvenile growth and\ndevelopment. Results have the potential to guide new therapies and improve the clinical management of\npatients."
+ },
+ {
+  "id": "88b38024-dd97-4cf6-8e58-3e3e9df68e8d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Data Management and Bioinformatics Core",
+  "text": "Project Summary - Data Management and Bioinformatics Core The Center for Viral Systems Biology (CViSB) produces vast amounts of rapidly changing, heterogeneous systems biology data, creating a challenge in managing, tracking, and sharing data. The goal of the Data Management and Bioinformatics (DMB) Core is to promote the reuse and understanding of the large, multidisciplinary systems biology data we generate and curate. We aim to release as much of our data and results as possible, as quickly as possible, by managing, tracking, and monitoring all CViSB activities and data assets and publishing them on our CViSB Data Portal, data.cvisb.org. To aid in the understanding of these data, we will develop approaches to improve the accessibility and interpretability of our data through innovative bioinformatics software and visualization tools. Lastly, we seek to engage with the community to promote the adoption and adaptation of our data and tools and to proliferate FAIR-sharing best practices throughout the Systems Biology community. To accomplish these objectives and support the overall mission of CViSB, we have the following four aims: (1) Maintain and expand open data platforms for real-time sharing, tracking, and analysis of diverse host, pathogen, and contextual FAIR data; (2) Harden and extend open bioinformatics pipelines and computational tools for predictive modeling of diverse systems biological datasets; (3) Develop novel visualization tools to aid in the interpretation and analysis of complex, multi-dimensional infectious disease datasets; (4) Promote data management and bioinformatics activities beyond CViSB. Our approach will enable a robust data and analysis ecosystem to provide multidimensional data in real-time to CViSB and external researchers to understand virus dynamics."
+ },
+ {
+  "id": "88b8661b-0e09-4171-b6ee-c576a4d7978b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Pittsburgh Biomedical Informatics Training Program",
+  "text": "The mission of the Pittsburgh Biomedical Informatics Training Program is to prepare trainees to\nbecome outstanding leaders in biomedical informatics research, education, and practice, through\nworld-class training with a focus on artificial intelligence and computing methods for biomedical\nproblems. This proposed renewal will support upcoming predoctoral, postdoctoral, and short-term\ntrainees in translational bioinformatics, clinical informatics, imaging information, clinical research\ninformatics, and public health informatics. Enhanced plans for recruitment, outreach, and evaluation will strengthen our program."
+ },
+ {
+  "id": "88be98a9-417b-4b68-8147-ad8f3056c6ad",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Writing and erasing O-GlcNAc on target proteins in the brain",
+  "text": "WRITING AND ERASING O-GLCNAC ON TARGET PROTEINS IN THE BRAIN\nPROJECT NARRATIVE\nThe sugar modification O-linked N-acetyl glucosamine (O-GlcNAc) is a nutrient sensor that cells and organisms\nuse to maintain essential biological processes. Dysregulation of O-GlcNAc is linked to disruptions in essential\nbiological processes, including sleep and circadian rhythm, and neurodegenerative diseases like Alzheimer’s\ndisease. In this proposal, we aim to systematically investigate precisely when and where O-GlcNAc is\ndysregulated in the brain using targeted O-GlcNAc writers and erasers in Drosophila models of sleep and\nAlzheimer’s disease."
+ }
+]

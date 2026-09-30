@@ -1,0 +1,142 @@
+[
+ {
+  "id": "af168ae6-1a1c-42ba-add6-6e661e3f3813",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Emergency Myelopoiesis in the Control of Blood Production",
+  "text": "Disruption of mechanisms regulating emergency myelopoiesis (EM) pathways, in particular in response\nto inflammatory triggers, has significant detrimental consequences for the organism across many life stages and\ndisease contexts, making EM pathways prime mechanisms to target for translational applications. A major barrier\nin turning these findings into therapeutic strategies is our lack of understanding of EM pathways contributions to\nmany pathophysiological situations. Our research project seeks to remove this roadblock by investigating the\ncontribution of EM pathways to adaptive and maladaptive myelopoiesis associated with immune deregulations,\nsolid cancers, and blood disorders."
+ },
+ {
+  "id": "af18af26-b54e-41f4-aaae-7926b4e18c0a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Macrophages and fibroblasts in the progression of lung cancer",
+  "text": "While treatments like immunotherapy have improved, late-stage patients often don’t respond well. Few\ntherapies target macrophages and fibroblasts within the tumor, despite evidence suggesting these cell\ntypes contribute to tumor progression. This K00 project will use in vivo gene editing of macrophages and\nfibroblasts to identify immune suppressive phenotypes and pathways contributing to lung cancer tumor\nprogression."
+ },
+ {
+  "id": "af1df7af-16bd-4e70-a231-2699b70e2612",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "A Novel Open-Source Optimization Framework for the Design and Simulation of Radiofrequency Coils for Magnetic Resonance Imaging",
+  "text": "The goal of this project is to develop and demonstrate a novel shape optimization approach for the design of\nradiofrequency coils based on ultimate performance benchmarks. This project will introduce a new method for\nrational coil design that relies on rapid volume-surface integral equation techniques to simulate the coils’\nradiofrequency fields and advanced shape modeling algorithms to automatically explore geometric variations\nand find the optimal design. The proposed coil design optimization framework will be validated in simulations\nand experiments, and released as open-source with potential applications beyond MRI."
+ },
+ {
+  "id": "af23964c-4d04-4fde-8ffd-2d7f2183be10",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Decoy Adhesion by Veillonella atypica: Hag1-Mediated Shielding of Oral Epithelium from Porphyromonas gingivalis - Mechanisms and Therapeutic Potential",
+  "text": "Periodontal disease affects millions worldwide and arises from polymicrobial dysbiosis driven by the keystone\npathogen Porphyromonas gingivalis. This R21 will define how the commensal Veillonella atypica – focusing on\nits giant adhesin Hag1 and domain-specific interactions with oral epithelial cells and P. gingivalis – modulates\ncolonization and host inflammatory responses. Elucidating these mechanisms could enable adhesin-based or\nprobiotic strategies to block P. gingivalis colonization, offering innovative preventative or therapeutic approaches\nto improve oral and systemic health."
+ },
+ {
+  "id": "af26be60-8745-4f5b-8457-ef3644217150",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Impact of TrpA1/TrpV1 activity on the Ocular Mucinome",
+  "text": "Bacterial corneal infections are sight-threatening, cost the USA an estimated $175 million in annual direct health\nexpenditures (2010 estimates), and are becoming increasingly difficult to combat due to the global antimicrobial\nresistance crisis. Previously, the Fleiszig group discovered that ocular mucins and a family of sensory nerve-\nassociated ion channels both function to protect the cornea against bacterial adhesion, the latter displaying\nspecificity for pathogen type (i.e. TRPA1 against P. aeruginosa, and TRPV1 against S. aureus) Here, I will test\nthe hypothesis that the two nerve associated channel types differentially modulate mucin expression using novel\nmethods that enable unprecedented detail, thereby improving our understanding of the ocular surface mucinome\nand its regulation during health, which could ultimately lead to novel mucin-based strategies for protecting\nagainst sight-threatening eye infections and possibly also life-threatening infections caused by the same\npathogens in other mucosal systems."
+ },
+ {
+  "id": "af2f9d6b-e133-4ab6-aa33-761cda594dd1",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Epigenetics, DNA repair and Genomics (EDGe) Training Program in Cancer",
+  "text": "A steady stream of new researchers is necessary to continue the fight against cancer, one of the primary causes of death in the U.S. To achieve this goal, it is critical that we train the next generation of scientists in state-of-the-art cancer research; this is a key aspect of this proposed training program. The goal of this Epigenetic, DNA repair and Genomics (EDGe) Training Program in Cancer is to train 4 Ph.D. students per year in multidisciplinary cancer research building on our institutional faculty's strength in DNA repair and epigenetics - key areas that impact cancer development and treatment."
+ },
+ {
+  "id": "af3880cd-1477-44a4-a120-41f4fa3372f2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Computational Analysis of Enzyme Catalysis and Regulation",
+  "text": "The multi-faceted computational methodologies we develop will be applicable to a broad set\nof metalloenzymes and proteins of biomedical importance. We target fundamental mechanistic problems in\nenzymes that catalyze phosphoryl transfer reactions, since mutations in these enzymes are implicated in nu-\nmerous human diseases such as cancer, insulin resistance and diabetes; abnormal cysteine dioxygenase\nactivity is also linked to many human diseases, including autoimmunity, Alzheimer's disease, Parkinson's dis-\nease, rheumatoid arthritis, and motor neuron diseases. Although our project does not focus on design of\ndrugs, the mechanistic insights into enzyme catalysis and allosteric regulation will broaden strategies that can\nbe used to target various systems of biomedical signiﬁcance."
+ },
+ {
+  "id": "af3e92d8-4011-420e-88e4-e78b71e5f274",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanistic Elucidation of Mitochondrial Stress Response in Human Cells",
+  "text": "Mitochondrial dysfunction is closely linked to a spectrum of disorders, ranging from primary\nmitochondrial diseases to age-associated conditions like neurodegenerative diseases. The\nproposed work here seeks to comprehensively uncover the intricate molecular mechanisms\ngoverning the maintenance of mitochondrial homeostasis. These findings hold significant promise\nfor unlocking potential therapeutic avenues to treat diseases associated with mitochondrial\ndysfunction."
+ },
+ {
+  "id": "af444294-cd26-49a5-a2fe-faec91c32f32",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identifying novel small molecule molting regulators for anthelmintic drug development",
+  "text": "Parasitic nematodes infect over a billion people worldwide, and there is an urgent need for new therapeutic\ntargets to combat rising drug resistance to current treatments. Molting, a biological process fundamental to\nnematode development, is an attractive anti-parasitic drug target, but there is a gap in knowledge of how small\nmolecule signals can regulate molting. I aim to identify the first known small molecule regulators of molting,\nadvancing our understanding of the biology of molting across nematodes and developing molting as a feasible\nanti-parasitic drug target for future drug development efforts."
+ },
+ {
+  "id": "af494d8d-40e1-42ad-ba50-0d715fba4065",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The evolution and diversity of mutation, molecular fidelity, and genome structure",
+  "text": "The structure and sequence of genomes is shaped by the forces of mutation, selection, and drift acting in the\ncontext of different life histories and environments. Over evolutionary timescales, changes to genome structure and\ncontent are associated with vast phenotypic changes between and within species, while throughout the lifetime of\nan organism individual cells accumulate somatic mutations and germ cells accumulate damage and lesions that are\npassed down to progeny. We seek to understand the processes that guide these changes to genomes across\ndifferent timescales."
+ },
+ {
+  "id": "af4ab66e-e242-4df5-bc0b-b2ef19586d08",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting nutrient microenvironment imprinted therapy resistance in pancreatic cancer",
+  "text": "The tumor microenvironment of pancreatic adenocarcinomas endows these tumors with profound resistance to\nchemotherapies, which severely hinders clinical management of this disease. We have found that nutrient\navailability in pancreatic tumors is a key microenvironmental factor that leads to this therapy resistance. In this\nproposal, we will determine the molecular mechanisms by which tumor nutrition imparts therapy resistance upon\npancreatic cancer cells, and if manipulating tumor nutrition and its impact on pancreatic cancer cells can sensitize\npancreatic tumors to chemotherapies, which may lead to new therapeutic approaches in this disease."
+ },
+ {
+  "id": "af4fde20-3dcd-4470-8a22-c70d90d5a9f5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dissecting metabolic functions of mitochondrial electron transport in kidney epithelium",
+  "text": "The kidney relies on mitochondria, the cell’s powerhouses, to generate the\nenergy required for ion, solute, and water transport. Impaired mitochondrial function not only disrupts\nthese processes but also leads to kidney injury and inflammation. This project will define the role of\nmitochondrial electron transport in the regulation of kidney epithelial cell metabolism and signaling and\naims to identify new therapeutic targets that mitigate the consequences of mitochondrial dysfunction in\nthe kidney."
+ },
+ {
+  "id": "af52d0e7-1efc-437f-bfac-1ccec71317ca",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Optimization of a single cell multi-omic analysis platform for circulating and therapeutic immune cells",
+  "text": "We propose further optimization and application of a new single cell multi-omics platform that\nallows thousands of single immune cells to be captured, localized, visualized and serially\nanalyzed by MALDI mass spectrometry to sequentially detect multiple analytes. Analysis\nworkflows will be standardized for analysis of metabolites, lipids, glycans and proteins in\nperipheral blood mononuclear cell preparations undergoing differentiation and from clinical\ntherapeutic preparations of CAR-T cells targeting cancers."
+ },
+ {
+  "id": "af52d59e-222a-4b20-a2db-3c9ea9c42832",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A Transformative Structural Proteomics Platform for Early Detection of Misfolding-Driven Cardiovascular Diseases",
+  "text": "This project will develop a first-in-class blood test platform for the minimally invasive detection of\nmisfolded proteins, a key driver of numerous life-threatening heart and blood diseases such as\ntransthyretin amyloid cardiomyopathy and unexplained heart failure, that affect millions of people\nin the U.S. yet remain largely undetectable by conventional diagnostic methods due to a lack of\nmolecular tools. By enabling the direct and importantly, pre-symptomatic detection of misfolding\nevents in just 10 µl of plasma, our novel platform technology has the potential to accurately\ndiagnose previously hard-to-detect conditions, prevent or reverse disease progression, and shift\nfatal diseases into manageable chronic conditions. Its broader application to other misfolding-\nrelated disorders may transform how heart, lung, blood, and sleep diseases are detected and\nmanaged, greatly improving treatment outcomes."
+ },
+ {
+  "id": "af5849d6-1ca6-4d07-b638-e71e6dac2f1c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Global proteomics mass spectrometry data sharing infrastructure",
+  "text": "Global proteomics mass spectrometry data sharing infrastructure – Project Narrative\nMass spectrometry based proteomics is a key technology for the identification and quantification of proteins in\nmany types of biological samples, which can be used to determine how abundances of proteins are affected by\nperturbed cellular systems under stress or the cause of a disease. We propose a substantial advancement of\nproteomics mass spectrometry data repository resources to enable researchers to share, find, access, and reuse\nproteomics datasets at a global scale."
+ },
+ {
+  "id": "af58efc6-821d-495c-9c6b-128fcf4c7910",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Unraveling the genetic basis of cellular behaviors with deep learning and imaging-based reverse genetics",
+  "text": "Modern imaging technologies now allow us to measure the spatial, temporal, and genomic axes\nof variation in living systems; as such, it is now possible for images to be a universal data type\nfor the life sciences. This proposal seeks to make this vision reality by developing new\ncomputational methods for characterizing the behavior of single cells in biological images and\ncreating a new experimental approach to imaging-based reverse genetics. The proposed work\nwill make spatial genomics methods accessible to users of all skill levels and empower a new\ngeneration of multi-modal single cell measurements – advances that will drive broad and\nsustained impact throughout the scientific community."
+ },
+ {
+  "id": "af5d4578-26b2-487a-9175-d257332707ca",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Decoding the Genetic and Epigenetic Mechanisms of Bifunctional Cis-Regulatory Elements",
+  "text": "Bifunctional cis-regulatory elements (CREs) can drive distinct biological processes by acting as enhancers in\none cell type, but as silencers in another. However, we still do not understand the cellular, genetic, and epigenetic\ncontexts that confer bifunctional CRE activity across different cell types or developmental stages. Our findings\nwill help us understand how DNA sequence and cell-type-specific epigenetic states drive bifunctional CRE\nactivity."
+ },
+ {
+  "id": "af62595c-1118-48db-ae7d-adabad605b32",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Clinical context of SuicIde following OPIOID transitionS in Veterans, CSI:OPIOIDS-V",
+  "text": "Opioid prescribing has fallen across the US, both within and outside the US Veterans Administration. Although\nthis change likely will prevent prescription-related harm for a number of patients, reports signal adverse events\nincluding suicide, for others. Where harm has occurred, it is crucial to know what factors, modifiable and\nnonmodifiable, played a role. Whereas much research has sought statistical associations between prescription\nopioid change and outcomes like suicide, we offer a different approach. We will recruit bereaved survivors of\nsuicides following a prescription opioid change. We will carry out detailed survey, medical record review, and\nin-depth psychological autopsy interviews to learn which patient and clinical context factors could help to\naccount for why the suicides took place. This research is descriptive. The research team includes scholarly\nexperts and members of the affected communities. Working with VA partners, we seek actionable points of\nleverage for policy makers, and for health systems seeking to prevent these suicides from taking place."
+ },
+ {
+  "id": "af6c5ec2-1e56-47de-b473-cd7787d6dc67",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Structural Dynamics of Viral Proteins: Development and Application of Multiscale Computational Methods for Studying Viral Capsids, Proteins and Membrane Systems",
+  "text": "This project will use computational methods to characterize molecular details of viral infection processes in\nenteroviruses, which include severe pathogens EV-A71 and EV-D68. Children are most susceptible to these\nviruses, which can cause severe respiratory symptoms, paralysis and can even be fatal, and at the current time\nthere are no approved treatments for these viral infections. This project will provide fundamental knowledge\nabout the enterovirus infection process, which can lead to new drug development strategies against these\npathogens."
+ },
+ {
+  "id": "af6ffa38-a573-436b-a597-f17127227a59",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of human NK cells in the immune response to Coccidioides",
+  "text": "Coccidioides is a dimorphic fungus endemic to the United States with a geographical distribution \nthat is rapidly expanding, and which can cause mild lung disease or severe disseminated \ndisease. The proposed studies will dissect the human innate immune response to Coccidioides \nwith a focus on natural killer (NK) cells, through spatial analysis of patient granulomas, \nmechanistic studies of NK cell/fungus interactions, patient cohort immune profiling, and human \nairway infection models. Successful completion of the proposed Aims will reveal mechanisms of \nCoccidioides pathogenesis and host defense and point the way to new treatments for severe \ndisease and methods for the study of fungal pathogenesis."
+ }
+]

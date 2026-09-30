@@ -1,0 +1,142 @@
+[
+ {
+  "id": "4a8b3240-d93b-4704-aaf2-d64a0941df6f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Extracellular Vesicle-Encapsulated AAVs for Therapeutic Gene Delivery to the Heart",
+  "text": "In this proposal, we will develop a novel gene delivery vector for cardiac gene therapy by using extracellular vesicle-\nencapsulated AAVs (EV-AAVs), which resists neutralizing antibodies. This is based on our recently published\nresearch showing that EV-AAVs are clinically compatible, superior gene delivery vectors to the heart, that may\nallow redosing and expand the patient population receiving AAV-gene therapy. Our study will optimize EV-AAV\ncardiotropism and delivery for its clinical translation, using human iPSC-derived cardiomyocytes, engineered heart\ntissues, and both small and large animal models."
+ },
+ {
+  "id": "4a8c7c34-6613-4ae4-8dd4-ba6e352465db",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "New Proteomics Approaches to Study the Full Human Kinome, Inhibitor Resistance, and Kinase Degraders",
+  "text": "The ability to functionally characterize all human kinases, understand potential mechanisms leading to drug\nresistance in cancer therapy and identify new compounds targeting them for degradation is severely hampered\nby technological limitations to interrogate all expressed human kinases in a single assay. The objectives of this\nproposal are to develop a new targeted kinome assay to enable simultaneous relative and absolute\nquantification of all human kinases and then to apply the assay to chemical library screening."
+ },
+ {
+  "id": "4a8dc5b7-ac53-45a2-a240-d54eeef9aa48",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Melanoma Immunotherapy with GPR182 blockade",
+  "text": "Most melanomas fail to immune checkpoint blockade therapy because of lack of immune cells within the\ntumors. Our proposed study will look at how a newly- identified chemokine scavenger on tumor lymphatics\nregulates immune cell infiltration into melanoma, with the aim of targeting this molecule for immunotherapy."
+ },
+ {
+  "id": "4a95090d-d2c1-4f00-a833-8b657a69c66c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project 1: Glutaminolytic GDH1 activation-dependent immunotherapy resistance in LKB1-mutant lung adenocarcinoma",
+  "text": "Elevated glutaminolysis has been considered as a hallmark of cancer, but the mechanism through which\nglutaminolysis is upregulated and how it contributes to immunotherapy resistance is largely unclear. We found\nthat glutamate dehydrogenase 1 (GDH1), an essential enzyme in the glutaminolysis pathway, is selectively\nactivated by FAK in LKB1-deficient lung cancer and suppresses anti-tumor immunity via alpha KG-mediated\nmetabolic, transcriptional, and protein stability regulation. In this proposal, we will explore the mechanism by\nwhich FAK-mediated GDH1 activation inhibits antitumor immunity specifically in LKB1-deficient lung cancer and\nvalidate the therapeutic efficacy of targeting GDH1 in combination with immune checkpoint inhibitors as a novel\nanti-cancer therapy."
+ },
+ {
+  "id": "4a9cd1b3-37bc-4251-b7ab-280a2eb00c17",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating the Effect of Synthetic Medical Images on Fairness in Medical Deep Learning Research",
+  "text": "This proposal aims to create a series of deep learning (DL)-based pipelines for generating synthetic data points from chest radiographs for medical dataset augmentation and improved performance in pathology detection. By leveraging generative modeling and Denoising Diffusion Probabilistic Models (DDPMs), this research has the potential to improve the accuracy of pathology detection in chest radiographs for underserved populations"
+ },
+ {
+  "id": "4a9e9d8b-74b2-4221-8ce0-b1c5d26675d7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Role of Immature Tumor Subpopulations In Pediatric Rhabdomyosarcoma",
+  "text": "Tumor relapse is a major clinical challenge for patients with rhabdomyosarcoma. The goal of this interdisciplinary\nproposal is to combine single-cell omics profiling, computational, statistical and experimental approaches to\nidentify immature subpopulations in rhabdomyosarcoma samples, to investigate the effect of chemotherapy on\nselection for immature cells and to establish predictive promoter/enhancer activity markers of immature cells for\nanalyzing clinical samples."
+ },
+ {
+  "id": "4aa3ec3a-6eae-4676-80ae-3bec034b8ffb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Glyoxalase 1 and its Role in Metabolic Syndrome",
+  "text": "The incidence of obesity and type 2 diabetes continues to rise in the United States. Non-alcoholic fatty liver\ndisease is a significant co-morbidity in the pathogenesis of type 2 diabetes. We believe that methylglyoxal\nrestores metabolic and transcriptional homeostasis in the pathogenesis of these disease states and this project\nis designed to test this hypothesis."
+ },
+ {
+  "id": "4aa949d3-6ed8-4337-a4d5-3b46612d0c53",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Revealing Stochastic Switches in Bacteria",
+  "text": "This grant applies a combination of microfluidics, microscopy, synthetic biology, and mathematical modeling to\nstudy a broad class of bacterial survival mechanisms known as stochastic switches. The research will reveal\nthe impact of stochastic switching on bacterial aggregation and its consequences for antimicrobial treatment,\nthe variety and molecular mechanisms of antibiotic persistence pathways in E. coli, and the interplay of\nstochastic switches with recombination in the emergence and maintenance of antibiotic resistant bacteria in the\nhuman gut microbiome. The project will yield clinically important findings including the ability to control the\ngenetic pathways that underlie cell-cell aggregation, new strategies for combating and controlling bacterial\npersistence, and a new understanding of how host-to-host variation and dynamics of the human gut microbiota\nimpacts antibiotic resistance and antigenic variation in bacteria."
+ },
+ {
+  "id": "4aa99e3d-ae5e-4d51-be84-c99a76b3644b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "CRACD-controlled cell plasticity and small cell lung cancer",
+  "text": "(RELEVANCE)\nThe proposed research is directly related to public health because understanding the mechanisms of small cell\nlung cancer initiation and progression is expected to give rise to new types of diagnoses, treatments, and\npreventions for small cell lung cancer. Thus, this study is relevant to the part of NIH’s mission that pertains to\nfostering fundamental creative discoveries and innovative research strategies as a basis for ultimately protecting\nhealth."
+ },
+ {
+  "id": "4ab05116-e9e1-4c15-8ebd-2e080e2f1235",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Center of Excellence for High Throughput Proteogenomic Characterization",
+  "text": "Genetic alterations in human cancer have been systematically studied over the past decade, but the impact of\na majority of these changes on the proteome – the functional end of the genome – are poorly understood. In\nthis project we will use a state-of-the-art, unbiased analysis method, mass spectrometry-based proteomics, to\ndefine the protein content and identify key posttranslational modifications of the proteins that are involved in\ncell signaling. By integrating the proteomics data with the genomics and metabolomics data for the same\nsamples/tumors we will shed new light on the biology of cancer and, importantly, we will help to identify new\ntargets for therapeutic intervention."
+ },
+ {
+  "id": "4ab54d19-73c7-439d-ad70-1e1b2c549996",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Defining Mechanical Landscapes at Cell-Cell Junctions",
+  "text": "Intercellular forces are critical regulators in multiple physiological and pathological processes. However, these\nmechanical events are still poorly characterized and lack of precise control. This project aims to further develop\nreliable and versatile DNA-based mechanoprobes, actuators, and screening platforms, which can be broadly\nused in understanding and modulating various mechanosensitive intercellular signaling events."
+ },
+ {
+  "id": "4ab64277-17d9-45a1-9972-8374a8dddfcb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Functional Interrogation of Germinal Center Independent Memory B Cells in Head and Neck Cancer",
+  "text": "Immunotherapy focuses on killing tumor cells by stimulating and reinvigorating cell-mediated immunity in\ncancer patients without considering the impact of humoral immunity. Our work will contribute to future cancer\ntreatments by investigating the role of B cells in antitumor immunity, which will improve targeting of humoral\nimmunity to amplify the immune response to cancer."
+ },
+ {
+  "id": "4abdace8-0c78-4c0d-9eb4-0cc412654a1b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Neuropathlogy Core",
+  "text": "NEUROPATHOLOGY CORE - REVISED The Neuropathology Core supports the vision of the Stanford Alzheimer's Disease Research Center (ADRC) by serving as a shared resource to facilitate and enhance multidisciplinary and interdisciplinary research in Alzheimer's disease (AD) and Lewy Body Disease (LBD). It aims to continue providing comprehensive postmortem examinations and brain banking, ensuring adequate tissue preservation for high-content imaging and multiomics technologies. The Neuropathology Core’s mission is realized through five specific aims. Aim 1 focuses on providing comprehensive neuropathological evaluations for ADRC participants, well-documented dementia patients followed by Stanford Neurology clinicians, clinical trial participants, and healthy controls. Aim 2 involves maintaining and expanding a biorepository of fresh-frozen, short-fixed, and formalin-fixed paraffin-embedded brain tissue from patients within the AD spectrum, LBD spectrum, and cognitively normal individuals, employing methods that maximize tissue quality. Aim 3 supports interdisciplinary research by facilitating the application of cutting-edge and high-content technologies, particularly multiomics techniques, to both fresh-frozen and fixed postmortem brain tissue samples. Additionally, the core aims to support digital pathology research for quantitative neuropathology, including harmonizing data with other centers to enhance tissue sharing. Aim 4 supports a newly established ADRC Stem Cell Program to provide the community with deeply characterized human induced pluripotent stem cells, augment their use by genetic engineering to make the lines more user-friendly for downstream neuronal modeling, and generate a biobank of neuronal progenitors and early organoids for pilot studies. Aim 5 emphasizes training, maintaining a rich environment for trainees and faculty and providing education in neuropathology, clinico-pathological correlations, and state-of-the-art techniques. Several new training modules for iPSC derivation and modeling will be provided. Through these aims, the Neuropathology Core is instrumental in bridging research, discovery, and clinical domains, ultimately contributing to a deeper understanding of AD and related disorders."
+ },
+ {
+  "id": "4ac156eb-a558-4b45-9c79-e3c1e0363418",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "FASEB Virus Structure and Assembly Conference",
+  "text": "The 2026 FASEB Virus Structure and Assembly Conference in Niagara Falls, NY will bring together scientists at\nall career stages to discuss advances in virus structure, assembly, dynamics, function, and therapeutic targeting.\nThis highly interactive and training-focused meeting will feature sessions on pandemic-causing viruses, novel\nantivirals, phage therapy, and emerging tools such as cryo-electron tomography and mass spectrometry. By\nfostering cross-disciplinary collaboration, promoting career development, and engaging early-career scientists,\nthe conference aims to drive innovation in infectious disease research and strengthen public health\npreparedness."
+ },
+ {
+  "id": "4ac8172f-dcdd-4f14-a8ed-8fb824b78f4d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of the cardiac neural crest in development and regeneration",
+  "text": "While approximately 10% of human birth defects, including congenital heart defects, affect early neural crest\ndevelopment, the molecular mechanisms underlying these defects are largely unknown. The proposed\nexperiments promise to illuminate the molecular and cellular processes that result in formation of the cardiac\nneural crest. The results of this study may inform upon diagnosis, therapeutic intervention and also yield\napproaches guiding maintenance of neural crest cells in the developing heart for the purpose of repair and\nregeneration."
+ },
+ {
+  "id": "4ac8a56d-bba7-4a12-b9ad-2b1240b42193",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Circuit mechanisms underlying network disruption and temporal processing deficits in Alzheimer's",
+  "text": "There is widespread consensus that early detection of Alzheimer's using non-invasive\nbiomarkers is critical, because cognitive and memory deficits occur past the point of no return.\nFull validity and relevance of these biomarkers requires detailed understanding of their\nunderlying biological mechanisms, and how they relate to disease progression. Here we seek to\nunderstand the cellular and circuit mechanisms underlying two emerging biomarkers, gap\ndetection and fMRI functional connectivity measures. This understanding will deepen and\nextend the validity of these biomarkers for early diagnosis of Alzheimer's, could also provide a\nbasis for the development of new therapeutic strategies."
+ },
+ {
+  "id": "4acc48ba-490d-4fcc-a6e6-1c75a1fbb4a3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Minerals in Nutrition and Development",
+  "text": "Transporters are proteins that required for nutrient absorption and secretion in the developing infant\ngut, and in the adapting maternal gut and lactating breast. Despite their critical role in maternal and\ninfant health, human transporters are poorly understood due to challenges in obtaining human tissue\nderived models to study their function. Our Transporter Elucidation Center (TEC) on Minerals in\nNutrition and Development (MINeD) will develop human organoid models to study physiologic\nmechanisms of intestinal and mammary gland adaptation to support pregnancy, development and\nlactation. It will support critical infrastructure, drive fundamental discovery and foster career\ndevelopment in the scientific areas of human transporter physiology."
+ },
+ {
+  "id": "4accb746-f77c-4e98-9dc9-e961c881169b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Modulating mitochondrial quality control in endothelial and smooth muscle cells of donor hearts to improve cardiac allograft survival",
+  "text": "Mitochondrial quality control (mitoQC) is a protective housekeeping mechanism in cells during stress. In\nheart transplantation, inevitable injury to the donor heart causes defects in mitoQC in endothelial cells (EC)\nand smooth muscle cells (SMC) lining the blood vessels of the donor's heart, ultimately leading to heart\ntransplant failure. In this proposal, we study the impact of modulating mitoQC in donor heart EC and SMC\nto improve heart transplant outcomes"
+ },
+ {
+  "id": "4ad399e3-636e-4167-a5e3-a00fb4a8385e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of mTOR Hyperactivation in Pulmonary Vascular Remodeling",
+  "text": "Mechanistic target of rapamycin (mTOR) is a highly conserved signaling network upregulated in a number of\nproliferative lung diseases including pulmonary arterial hypertension (PAH) and lymphangioleiomyomatosis\n(LAM). This proposal uses three transgenic mouse lines and primary PAH and LAM lung tissues to investigate\nthe role of mTOR hyperactivation on pulmonary vascular remodeling and pulmonary hypertension. The results\nfrom this work will help define the role of aberrant mTOR signaling on cellular crosstalk and identify mechanisms\nof vascular remodeling that can be harnessed to provide potential new therapeutic targets."
+ },
+ {
+  "id": "4ad9512e-2b3d-4669-b286-3737bab38163",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "2/2 Collaborative Union for Cancer Research and Educational Development (CURED)",
+  "text": "The BCM-TSU P20 “Collaborative Union for Cancer Research, and Educational Development (CURED)”\nProposal will establish a formal collaborative alliance between BCM and TSU for cancer research, education,\nand community outreach. Our multipronged approach will maximize the strengths of each institution and leverage\nexisting collaborative relationships to create a shared infrastructure between BCM and TSU that will provide an\noptimal environment for cancer research, education, community outreach, and opportunities for career\ndevelopment and pathway enhancement focused on augmenting the biomedical workforce. BCM-TSU P20\nCURED will also develop sustainable research capacity and obtain preliminary data through pilot projects that\nwill develop into independent investigator research applications and collaborative applications to the NIH/NCI\nand/or other Federal/Non-federal funding agencies."
+ }
+]

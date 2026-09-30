@@ -1,0 +1,142 @@
+[
+ {
+  "id": "a9359ca6-d027-48c6-809e-1017eebf5805",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Core E: Cellular and Organismic Systems for Antiviral Testing",
+  "text": "Core E – Cellular and Organismic Systems for Antiviral Testing\nRelevance\nReadily available and efficacious interventions for viruses with pandemic potential are desperately needed.\nAntiviral testing using live virus in relevant cell and animal models is essential to evaluate drugs these drugs.\nThis Core’s expertise in coronaviruses, flaviviruses, arenaviruses and filoviruses will allow us to provide\nrigorous antiviral evaluation in coordination with the 5 projects and 5 other cores."
+ },
+ {
+  "id": "a93d116c-8049-4058-b32a-bf37e031e4bc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Signature Project",
+  "text": "Suicide is a leading cause of death among young adults (ages 18–34), representing a significant public health crisis. The Safety Planning Intervention (SPI) is an evidence-based, scalable suicide prevention tool; however, ensuring its continued use remains a challenge, particularly among young adults navigating the transition to adulthood. The Supporting Transitions to Adulthood to Reduce Suicide (STARS) program integrates SPI with digital peer mentorship to enhance safety plan quality and adherence. In preliminary work, STARS showed high engagement and acceptability, yet rigid protocols limited peer mentors’ ability to respond to participants’ evolving needs. Near real-time feedback—using digital assessments and artificial intelligence (AI)—offers a novel strategy to support responsive, patient-centered peer mentoring. This project will conduct a three-arm, Type 2 hybrid effectiveness-implementation randomized controlled trial to evaluate the comparative effectiveness of: (1) SPI alone (Control), (2) SPI with peer mentorship (STARS), and (3) SPI with peer mentorship enhanced by near real-time feedback (STARS+). We will enroll 600 young adults with recent suicidal ideation and assess outcomes over time. The primary clinical outcome is suicidal ideation; secondary outcomes include suicide attempts and mechanisms of change such as safety plan use. Implementation outcomes include fidelity, adoption, acceptability, feasibility, and cost. Specific Aims are: (1) Develop an implementation strategy to integrate near real-time client feedback into STARS using machine learning and human-centered design; (2) Evaluate the clinical effectiveness of SPI, STARS, and STARS+ on suicidal ideation and attempts; and (3) Assess implementation outcomes and cost of peer mentorship with and without near real-time feedback. This research is innovative in its integration of AI-powered feedback into suicide prevention and will provide critical evidence on how peer-delivered, data-informed interventions can enhance the personalization, quality, and reach of SPI. Findings will inform scalable, sustainable strategies to reduce suicide risk among young adults."
+ },
+ {
+  "id": "a94ee588-8744-4f6c-92f6-3e5fd1e857d2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Improving Quality of End-of-Life Care for Veterans Receiving Hospice in Community Nursing Homes",
+  "text": "VA is a national leader in the provision of high-quality hospice and palliative care, particularly in\nVA Community Living Centers (CLCs). Yet the demand for CLC-based hospice care has\noutpaced supply, a gap that is expected to increase with the aging of the Veteran population. To\naddress this need, VA contracts with community nursing homes (CNHs) and hospice agencies\nto provide CNH-based hospice care to Veterans. Our preliminary work has revealed that quality\nratings of EOL care provided in CNHs are soberingly lower than in VA CLCs. Thus, VA must\nidentify ways to improve quality of EOL care in CNHs. This novel project uses a mixed methods\ndesign to develop a rich understanding of the structural characteristics and care processes that\nare associated with the provision of high-quality CNH-based hospice care. The results will be\nused to inform policies and practices that improve the quality of EOL care provided in CNHs."
+ },
+ {
+  "id": "a96f34fd-ab83-47bd-90c8-7bbf22167e59",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Quantifying the Effects of Shear Flow on Blood using a Magnetically Levitated Device",
+  "text": "Blood pumps and other blood contacting medical devices may cause damage to the cells within\nthe blood itself. Pumps designers design these devices to minimize these negative effects, but\nno reliable method is currently available to accurately predict these effects during the design\nprocess. This project will utilize a novel device developed by our lab to improve our understanding\nof the effects of shear flow on blood cell viability which will provide critical information to guide the\ndevelopment of next generation blood pumps or other blood contacting medical devices."
+ },
+ {
+  "id": "a97171bf-44ed-4e07-8409-f76ea8b6cb38",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of human papillomavirus entry",
+  "text": "The human papillomaviruses (HPV) are responsible for approximately 5% of all cancers worldwide and most people will remain unvaccinated against HPV for the foreseeable future. We have identified and characterized cellular proteins required for HPV infection, and here we will focus on the role of these proteins in trafficking of HPV to the nucleus during infection. These studies will provide proof-of-principle of new approaches to inhibit infection by these important human tumor viruses and the cancers they cause and provide new insights into fundamental cellular processes."
+ },
+ {
+  "id": "a97d5b92-493b-4c08-86d1-f905403ea498",
+  "want_sentence": false,
+  "want_terms": true,
+  "title": "Developing synthetic RNA organelles for spatiotemporal separation, control, and monitoring in living cells",
+  "text": "Artificial biomolecular condensates are emerging as a groundbreaking technology to manipulate\ndiverse cellular processes including gene regulation, metabolism, and stress. This project\nestablishes a new class of artificial condensates using computationally-designed RNA as a\nbuilding block. We will develop methods to customize RNA condensates to recruit a multitude of\ntarget molecules and to form at target cellular locations, providing tools for control of gene\nexpression and biosensing that are immediately portable to a variety of organisms."
+ },
+ {
+  "id": "a97dfa19-c9ca-4dbe-ac34-33614d7cbf9d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cilia and Centrosomes",
+  "text": "Defects in cilia lead to developmental disorders and disease ranging from congenital heart defects, bone\nmalformations and inherited kidney disease to blindness, obesity and cancer. The goal of this proposal is to\nsupport junior investigators to attend the 2026, 2028 and 2030 FASEB SRC on Cilia and Centrosomes. The\nmeeting will promote and advance research on cilia and cilia-related disease, facilitate collaborations between\nbasic and physician investigators, and provide training and career development for junior scientists."
+ },
+ {
+  "id": "a98010fc-cb96-4d9e-a1f9-7c70b7d1110a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dissecting AAV silencing in humanized mice",
+  "text": "Transgene silencing has been identified as a clinical hurdle for long-term AAV gene therapy\napproaches. We will dissect vector genome silencing mechanisms and explore potential therapeutic\nstrategies in a novel human liver chimeric mouse model using xenografted human hepatocytes from\npatients with metabolic liver disease."
+ },
+ {
+  "id": "a98b8837-0e83-44f9-9485-cae3ce43a44f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Elucidating and Directing Heteromolecular Mechanobiology with Nanoengineered Cell Interfaces",
+  "text": "Despite recent progresses in mechanobiology research, there is still a fundamental knowledge gap in critical\ncellular functions and molecular mechanisms, which take place between the molecular and cellular scale.\nCombining the state-of-the-art top-down nanotechnology and the bottom-up synthetic biology, we will create\nartificial cell interfaces with multiplexed physicochemical features to elucidate and direct cellular functions.\nConsidering the interplay and crosstalk between multiple receptors and physicochemical cues, we will reveal the\nunderlying synergistic mechanisms of heteromolecular mechanobiology for cell-extracellular matrix signaling\n(fibroblast as a model) and cell-cell signaling (T cell as a model)."
+ },
+ {
+  "id": "a98f3872-4d76-4323-9046-d2ae9e986a10",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Update of the WTC Cancer Tissue Biobank",
+  "text": "We address the increase cancer incidence among the World Trade Center (WTC) responders by updating the\nWTC tissue bank system with the newly diagnosed cancers (after 2018), and to link the tissue bank with Biome\nto access complete medical record history, and blood samples collected before or after a cancer diagnosis for\nWTC cancers who are also MSSM patients.\nPUBLIC HEALTH RELEVANCE: The biobank will represent the necessary infrastructure for addressing\nquestions such as the link between specific carcinogens exposures and certain cancer sites, molecular\nsignatures of exposure that could be linked to cancer, specific markers of tumor aggressiveness among WTC\nresponders."
+ },
+ {
+  "id": "a98fc6a8-41bc-47ff-a061-44a50dcffeb4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Advancing FTIR-based Multimodal Imaging with AI for Risk Stratification of Oral Precancer",
+  "text": "A significant portion of oral cancer is preceded by precancerous clinical lesions known as oral potentially\nmalignant disorders (OPMDs). The objective of this proposal is to develop and validate a multimodal imaging\ndiagnostic system that integrates Fourier transform infrared spectroscopic imaging with histological imaging,\nenhanced by advanced machine learning and deep learning approaches. The proposed system will enable\nobjective, accurate, and personalized risk stratification for OPMDs, supporting clinicians in effective diagnosis\nand management of oral precancer, facilitating early oral cancer detection and improving patient outcomes."
+ },
+ {
+  "id": "a996c6b5-ca87-439f-be7a-d77c761956db",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Risk stratification of malaria among school-age children with mHealth spectroscopy of blood analysis",
+  "text": "Noninvasive detection of malaria strengthens biosecurity preparedness while supporting the development of low-cost mobile health technologies that can later be adapted for rural, community-based, and at-home health settings with limited access to diagnostic services. The proposed mHealth technology will help identify children who are most likely to need malaria testing and treatment, maximize available resources, and generate scalable strategies relevant to both settings with limited healthcare access and US public health preparedness."
+ },
+ {
+  "id": "a999957f-e55b-4950-99df-0b31a47f3f30",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of SUV39H1-selective inhibitor for human colon cancer therapy",
+  "text": "This proposal will develop the SUV39H1-selective small molecule inhibitor F5446 nanoparticle eNP-\nF5446 to restore tumor cell sensitivity to cell death induction and to re-activate tumor-infiltrating CTL\neffector function in colorectal cancer. eNP-F5446 is expected to overcome human colorectal cancer\nresistance to PD-(L)1 blockade immunotherapy."
+ },
+ {
+  "id": "a99b4d9d-7ead-4598-ab27-27bf58ce394f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating metformin and cocaine interactions in the brain at the level of pharmacokinetics, physiology, and proteomics",
+  "text": "Despite years of research into the neurobiological basis of cocaine use disorder (CUD), there remains no FDA-\napproved pharmacological therapy. Our preclinical studies provide support for repurposing metformin, a drug\nprescribed mainly for the treatment of type 2 diabetes, for the treatment of CUD. The primary objective of this\nproject is to carry out a systematic interrogation of the cellular and molecular mechanisms of metformin in the\nbrain that mediate the drug's effects on cocaine related behaviors utilizing integrative pharmacokinetic, molecular\nbiology, in vivo imaging, and proteomic techniques."
+ },
+ {
+  "id": "a99b69f9-abf4-466e-a6cf-0d77af797818",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Advancing Protein Isoform Analysis through an Integrated Computational Framework.",
+  "text": "Alternative splicing, a process where genes create different versions of proteins, is crucial for normal\ncell function. In cancer, this process often goes awry, leading to the production of harmful proteins that fuel\ntumor growth and spread. Our project aims to develop novel informatics tools to comprehensively understand\nthese aberrant proteins, with the ultimate goal of facilitating the discovery of novel biomarkers and the\ndevelopment of precisely targeted therapies for cancer patients."
+ },
+ {
+  "id": "a9a008b6-a34d-48ca-83e1-ec3c11909e81",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Vascular regulation of fatty acid transport in metastatic tumor outgrowth",
+  "text": "Metastatic outgrowth of tumor cells requires nutrients to fuel cell proliferation. Blood\nvessels play a critical role in supplying nutrients. This application investigates how\nmTORC1, a signaling molecule, in regulating fatty acids transport across blood vessel\nto support tumor metastasis."
+ },
+ {
+  "id": "a9a230a2-3f95-49aa-8b44-d7ae2746a3fe",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Elucidating the molecular basis of piperaquine resistance in Plasmodium falciparum",
+  "text": "Piperaquine is a vital drug in the fight against malaria, yet resistance has emerged in Southeast Asia.\nOur project will predict the risk that resistance emerges and spreads in Africa and will identify the causal\ngenetic factors in Plasmodium falciparum parasites. We will also define the molecular basis of\nresistance and identify new chemical compounds that can suppress the resistance pathway in parasites."
+ },
+ {
+  "id": "a9a4d43a-8562-4760-aef8-cfb8c0436893",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Toxicant-induced neurotoxicity mediated by glia-neuron and gene-environment interactions in Parkinson's disease",
+  "text": "In the United States alone, about one million people have Parkinson’s disease and 50-60,000 new cases\nof PD are diagnosed each year. The causes of PD in most of these cases remain unknown; however,\nenvironmental factors have been implicated. The focus of this grant is of two folds: first, to elucidate the\nmechanisms by which manganese induces neurotoxicity through impaired autophagy and second, to identify\npotential novel therapeutic targets for PD."
+ },
+ {
+  "id": "a9b0d7f3-9621-446b-80d5-4c0d299dd231",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "p16 Cellular Senescence and Vascular Dysfunction in Sleep Apnea",
+  "text": "The physiological and molecular mechanisms of Obstructive Sleep Apnea (OSA)-induced vascular senescence\nleading to vascular dysfunction remain to be elucidated. Transgenic mouse models enable the detection and\nselective ablation of cells expressing p16, a known marker of cellular senescence. These models will be exposed\nto Intermittent Hypoxia and Sleep Fragmentation to investigate aorta and coronary artery function, epigenetic\nage acceleration and molecular alterations induced by OSA in cardiovascular dysfunction."
+ },
+ {
+  "id": "a9b329a4-9cd1-4cf9-a95a-25638929bda1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "COBRE Phase III: Delaware Center for Neuroscience Research",
+  "text": "Delaware Center for Neuroscience Research\nPublic Health Relevance\nSummary\nThe foundation of Phase III proposal is Delaware’s expanding set\nof human and research resources in neuroscience, which has\nDelaware neuroscience research competitive on a national level.\nOur project supports research aimed at determining how thoughts, memories, feelings and\nactions emerge from dynamic activities in the brain and are changed over time; as well\neducational programs to develop a workforce that can participate in and benefit from\nadvances in our understanding of brain function. An increased understanding of how the\nbrain and nervous system functions will facilitate treatments for diseases and injuries and\nprovide insights into human behavior, biases, and cognition."
+ }
+]

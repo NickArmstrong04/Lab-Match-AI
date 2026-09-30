@@ -1,0 +1,142 @@
+[
+ {
+  "id": "a7fa24a7-365f-466f-879c-eb2ed41197d9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "BCAT1 targeted metabolic reprogramming in myeloid derived suppressor cells in glioblastoma",
+  "text": "Glioblastomas are highly aggressive brain tumors characterized by poor survival rates and limited treatment\noptions, with minimal responses to existing immunotherapies. Our research aims to elucidate how metabolic\nreprogramming, particularly through branched-chain amino acid metabolism, influences the functionality of\nmyeloid-derived suppressor cells in glioblastoma, with a focus on uncovering the precise mechanisms underlying\ntheir contributions to tumor growth, T cell suppression, and resistance to immunotherapies. These investigations\nwill enhance our understanding of the immunobiology of brain tumors and guide the development of innovative\ncombination immune-based therapies, potentially offering improved survival prospects for glioblastoma patients."
+ },
+ {
+  "id": "a7fb4222-3f75-4024-bb19-8e6a1d27f9a6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Comprehensive Phenotypic Profiling of Chronic Wasting Disease to Assess Transmissibility and Species Barriers",
+  "text": "Project IV: Summary Background: Chronic wasting disease (CWD) is an infectious prion disease of cervids (elk, deer, moose, and reindeer) with no current treatment, few management tools, and lack of clarity regarding potential for transmissibility to humans. Overall goal: In this project, we will establish comprehensive phenotypic profiling in CWD diseased mouse models and investigate zoonotic barriers. Proposal: This project will expand critical scientific knowledge in an underexplored field of zoonotic diseases. Limited phenotypic analyses have made definitive diagnosis of CWD difficult, even though early diagnosis is crucial to reducing spread of disease in wildlife and aiding in understanding the zoonotic capabilities. We propose two aims to address this deficit of knowledge. In the first, we will establish comprehensive phenotyping profiling in cervidized mouse models (with CWD modulating genetics of mule deer). Extensive behavioral assessments will be performed, clinical biomarkers tracked, and a peripheral organ study will be performed to understand the course of disease better, thereby, contributing new strain information and early diagnostic tools which may inform strategies for management and therapies in the future. In the second, we will probe transmissibility of CWD to humans using novel knock-in mice carrying human PRNP inoculated with CWD. Innovation: We will develop new clinical capabilities in mouse models to explore the mechanisms, progression, and transmissibility of CWD. The uniqueness of this project is twofold. First, phenotyping assessments have been limited for CWD mouse models and have not translated to better or earlier diagnosis in wildlife. Due to the limitations with current methods, it is also still unknown if this disease is zoonotic. This will be the first comprehensive investigation of this type regarding CWD. Second, a limited number of studies in mouse models have been performed on the PRNP variant chosen, a particularly highly disease resistant polymorphism found in wild mule deer. Our studies of PRNP variants will aid in determining mechanisms of disease resistance and transmissibility factors. Significance: Immediate significance is in providing guidelines for earlier and efficient detection of prion disease manifestations. Additional significance: Investigating the phenotypes of mice with CWD modulating genetics may contribute vital information regarding disease characteristics already occurring in wild mule deer which may affect species barriers and disease outcomes."
+ },
+ {
+  "id": "a7ff83ee-6cb4-482d-aee5-3cc02637b43c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Bayesian estimation of gene effects on traits from coding variants",
+  "text": "The goal of this project is to develop new statistical and machine learning techniques to estimate the importance\nof each gene for driving effects on human traits and diseases. Software and results will be made freely and\npublicly available. This work will be useful for understanding disease mechanisms and identifying potential\npoints of clinical intervention."
+ },
+ {
+  "id": "a8013f90-d2da-45b1-bacf-cf5046fe7591",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Characterizing Information Needs and Peer Engagement Regarding Medication for Opioid Use Disorder on Social Media",
+  "text": "Title: Characterizing Information Needs and Peer Engagement Regarding Medication for\n Opioid Use Disorder on social media\nAlthough medications for opioid use disorder (MOUD) are the most effective, evidence-based\ntreatment for OUD, there remain significant knowledge gaps and misperceptions regarding\nthese medications that adversely impact treatment initiation, adherence, and retention. Social\nmedia platforms like Reddit contain millions of self-reported narrations on critical MOUD-related\ntreatment information needs and how thousands of individuals with lived experiences address\nthem. By utilizing advanced natural language processing and novel mixed-method solutions on\nlarge-scale, population-level Reddit data, this exploratory project aims to characterize clinically\nrelevant MOUD treatment information needs to inform the design of tailored communication\nprograms and interventions (e.g., chatbot) and ultimately improve MOUD treatment access and\nquality."
+ },
+ {
+  "id": "a8045e04-4c21-4e1d-83e7-3eb48288887e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Immune cell regulation by swelling-activated ion channels",
+  "text": "Ion channels are understudied in immune cells. This research proposal aims to identify and characterize novel\nion channels and transporters to understand how they regulate the development and function of immune cells."
+ },
+ {
+  "id": "a809a4f4-bc21-4226-bd06-4a521b5803d7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mitochondrial transfer from astrocytes to glioblastoma cells drives tumor growth",
+  "text": "Complex interactions among neurons, glia, immune and endothelial cells in the microenvironment drive the\nprogression, treatment resistance, and recurrence of glioblastoma (GBM), an incurable primary brain tumor. The\nshort-term goal of this project is to elucidate how a poorly understood microenvironmental interaction—namely,\nmitochondrial transfer from neural cells to GBM—drives tumorigenicity, focusing on astrocytes as predominant\norganelle donors. The long-term goal and future studies will (a) investigate the differential mechanistic role of\nmitochondrial transfer from diverse brain cell lineages, (b) interrogate how mitochondrial transfer influences\nspatio-temporal heterogeneity in primary and recurrent patient GBM specimens, and (c) develop therapeutics\ntargeting molecular mediators of this protumorigenic interaction."
+ },
+ {
+  "id": "a80e9be5-a7a7-47e1-a424-ccbcf372f43c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Human monoclonal antibodies for hantaviruses",
+  "text": "PROJECT SUMMARY – RP4 The hantaviruses represent collections of diverse virus species, and these groups of viruses are ideal for prototype pathogen immunity approaches. The goal of developing medical countermeasures is to confer protective immunity to hantaviruses, which can be provided by active immunization (as in our BP4 consortium RP3 colleagues) or by passive immunization with long-acting (90-day half-life) monoclonal antibodies (mAbs). In this RP4, we will used several different state-of-the-art antibody discovery approaches to isolate and engineer optimal mAbs for this major of viruses. Virus-immune B cells will be interrogated with several well- developed human mAb discovery platforms, including high-throughput single cell sorting and single cell RNAseq techniques, or converted to stable human hybridoma cell lines. B cell line supernatants or recombinant mAbs will be subjected to high-throughput screening to identify Abs that bind to hantavirus surface proteins and functionally inhibit virus replication. Our objectives include determining the principles governing optimal mAb combinations and synergy, developing new in vitro selection methods to enhance antibody neutralization potency and breadth, and genetically modifying mAbs for extended-half-life properties to enable the use of injections of long-lived antibodies to confer protective immunity and protection like that of vaccines. Lessons learned in the year 1 to 3 studies of the prototype viruses Sin Nombre virus (SNV) and Andes virus (ANDV) will be applied to new discovery campaigns for related viruses in the same family or genera. We will focus these efforts on Hantaan virus as a model for applying Test Cases for the prototype pathogen approach. Identifying antibodies to Hantaan virus will validate the prototype pathogens approach, preparing us for an unexpected epidemic of a previously unknown hantavirus or other bunyavirus. Also, this program will isolate promising medical countermeasures for additional potential causes of future epidemics. Further, incorporating screens for wide breadth of recognition in these studies may enable identification of pan- family or pan-genus antibodies that can but used for multiple related agents, including future related pathogens for which we have not yet specifically prepared. Identifying major sites of vulnerability on the virus surface Gn- Gc proteins for recognition by neutralizing and/or protective antibodies also will be useful for our consortium partners working on antigen design. Prioritized mAbs then will be tested for therapeutic efficacy in multiple animal models of infection. The lead mAbs will be selected, and CHO cell lines will be made by our industry partner IDBiologics for Ab production, in preparation for cGMP manufacture and IND planning. The work promises to yield best-in-class mAb combinations for broad and potent activity against hantaviruses that can be used to treat or prevent human virus infections. These studies will identify protective/neutralizing epitopes of mAbs through structural studies of antigen-Ab complexes that inform immunogen design in RP3 using rational vaccine antigen design approaches."
+ },
+ {
+  "id": "a814ef25-4721-4ab8-9f9b-101d68013ed2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Core 1: Biostatistics/Bioinformatics Core",
+  "text": "The goal of the Biostatistics/Bioinformatics Core is to collaborate with SPORE Investigators and other Core resource scientists to enhance the quality of the research undertaken in the Michigan Prostate SPORE. The Core personnel have been chosen because of their expertise in relevant areas of Biostatistics and Bioinformatics that are specifically required for the SPORE projects to succeed. Support will be provided in all stages of the research, beginning with the formulation of the research question, through the experimental design stage and data collection stage, including genomic sequencing, data analysis, and interpretation, to the writing of reports and dissemination of results. It will be apparent from this proposal that Core personnel have played a significant role in designing the proposed experiments and planning the data analyses. The exact nature of the collaboration will depend on the specifics of the science and the needs of the project. In addition to direct support of the projects and other Cores, senior statisticians will also focus on statistical methodology development and the advancement of genomic/bioinformatic capabilities related to the needs of prostate cancer research in this SPORE. Thus, the Specific Aims of the Core are: 1) Assist investigators in the design of clinical, laboratory, and high-throughput genomic sequencing experiments; 2) Assist investigators in the analysis and interpretation of data from clinical and laboratory experiments, the processing and examination of high-throughput genomic datasets, and in writing of manuscripts relaying Michigan Prostate SPORE results to the scientific community; 3) Undertake translational biostatistics/bioinformatics research to develop methodology and software implementation relevant to prostate cancer including the development of algorithmic toolkits for emerging types of genomic assays and the adaptation/refinement of existing computational approaches to the needs of the Michigan Prostate SPORE. The Biostatistics/Bioinformatics Core will be led by Dr. Alexander Tsodikov, Ph.D., a Professor of Biostatistics at the University of Michigan. He has served as the Director of the Prostate SPORE Biostatistics Core since 2009 and has substantial experience in the development of mechanistic statistical models of prostate cancer and biostatistical methodology and software, and statistical models in cancer. Drs. Jeremy Taylor, Ph.D., Marcin Cieslik, Ph.D., Matthew Schipper, Ph.D., and Yuping Zhang, Ph.D. will serve as Co-Investigators. Together, this team of investigators will provide rigorous statistical and bioinformatics support to the Michigan Prostate SPORE to ensure the highest caliber of research studies and reported results."
+ },
+ {
+  "id": "a81c5f9f-e5a3-4def-b9b5-bdd389dbeece",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Structural and mechanistic studies of the RAS/RAF MAPkinase pathway",
+  "text": "Many cancers are caused by malfunctioning proteins in a cellular signaling chain called the RAS/RAF/MEK/ERK\npathway that normally controls cell growth and proliferation. Current drugs targeting this pathway have limitations\nand unwanted side effects that reduce their effectiveness. This research will determine the detailed structures of\ncomplexes of key proteins in this pathway to understand how they work to form this signaling chain and to help\nguide the development of improved cancer treatments."
+ },
+ {
+  "id": "a81ee6cc-f321-423c-b87b-bd75a78407b6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating novel T cell autocrine pathways governing T cell fate",
+  "text": "CD8+ T cells are crucial immune cells in our body’s fight against cancer and the degree to which CD8+ T cells\ntraffic to and infiltrate the tumor greatly impacts cancer patient survival, especially melanoma patient survival.\nThe F99 section of this proposal focuses on a new pathway existing between CD8+ T cells and a protein present\nat the tumor that negatively impacts CD8+ T-cell survival. Through mouse models, we will illuminate this\nmechanism to be able to block this negative interaction between CD8+ T cells and this suppressive protein to\nincrease CD8+ T-cell survival, and ultimately improve melanoma patient survival."
+ },
+ {
+  "id": "a81f361b-68b8-4e41-ade0-c4e35846f958",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Lymph node inspired hydrogels for immune cell reprogramming",
+  "text": "Cellular immunotherapy is transforming treatments for cancer, cardiovascular disease, and autoimmune\ndisorders, but production challenges lead to delays, high costs, and inconsistent final products. This project\nmerges DNA origami, colloids, and supramolecular biomaterials to create an injectable hydrogel that mimics\nlymph nodes, where T cells are naturally trained and expanded. We hypothesize that this lymph node mimicry\nwill enable our hydrogel to be used for in vivo T cell engineering, revolutionizing current cell therapy\napproaches."
+ },
+ {
+  "id": "a81fac0b-2e9e-4c93-b377-763e6e1864b6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Elucidating function of disease-related SAMD9L mutations in hematopoiesis",
+  "text": "Inherited mutations in SAMD9L cause serious disorders of blood formation in children and young adults, often requiring intensive treatment and stem cell transplantation. This research aims to improve understanding of why these diseases develop and progress, with the goal of enabling earlier diagnosis and more personalized, effective therapies. Ultimately, this work seeks to improve survival and quality of life for individuals affected by inherited bone marrow disorders."
+ },
+ {
+  "id": "a8247787-8571-482a-89e2-1c5b41b53d49",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Recruitment of Cerebellar Circuits to Modulate Cognition, Reward and Avoidance of Threat",
+  "text": "Evidence of cerebellar dysfunction which correlates with the severity of cognitive and emotional symptoms in\nVeterans with psychiatric disorders is beginning to be elucidated. Aberrant dopamine signaling arising from the\nventral tegmental area (VTA) is also a likely contributor to many psychiatric disorders, and it is known that\ncerebellar nuclei project to the VTA, the heart of the mesolimbic dopamine system which mediates reward and\nfear learning. We hypothesize that a novel locus of aberrant function in psychiatric disorders stems from faulty\ncircuitry between the VTA and the understudied cerebellum. We will target specific cerebellar-VTA circuits with\ncutting edge tools to map, characterize, and manipulate this circuit’s function in different cognitive domains.\nThis will result in novel insights into mechanisms and novel interventions for cognitive and emotional symptoms\nin Veterans, which are of great interest."
+ },
+ {
+  "id": "a825b98b-0552-4ec7-853d-2c146b2a746e",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Clinical Research Unit:  Johns Hopkins University",
+  "text": "CRC Narrative\nThe major objective of the Johns Hopkins Clinical Research Center is to provide the optimal environment for\nthe conduct of food allergy research, including leadership at all levels as well as the staffing and other\nresources to conduct even the most complicated studies. The site brings to the consortium a long standing\ntrack record of recruitment and retention in CoFAR studies which we are poised to continue. In addition, this\napplication includes an exciting network wide protocol exploring a novel treatment for peanut allergy as well as\ntwo site specific protocols led by outstanding junior investigators."
+ },
+ {
+  "id": "a82fa545-99ed-4205-b5be-d2fd0fa99cdd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Developing a quantitative MRI application to monitor hypoxia during radiation therapy for improved outcomes",
+  "text": "Radiation therapy is used to treat over 50% of cancer patients but is less effective in poorly oxygenated tumors.\nThis project develops a method for identifying poorly oxygenated regions within tumors that are resistant to\nradiation therapy and will validate this approach in an Oncopig model by comparing tumor response between\npoorly and well-oxygenated tumors. If successful, this strategy will be further investigated in humans through an\nobservational trial and may ultimately reduce cancer-related morbidity and mortality."
+ },
+ {
+  "id": "a833a115-5337-4b4c-8694-971ecd5feb08",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "DEER spectroscopy tools for probing protein conformational dynamics",
+  "text": "This project develops new methods for DEER spectroscopy. DEER is a technique that measures\nthe internal motions of proteins, which are crucial for many molecular-level processes in the\nhuman body. The resulting data are essential for understanding the molecular basis of life and\ndisease and for providing the knowledge base necessary to develop new drugs"
+ },
+ {
+  "id": "a83470a0-2346-4912-a3dd-48b0a9b6454e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Deep Learning-Based Retinal Imaging Screening Tool for Preclinical Alzheimer’s Disease",
+  "text": "This project aims to develop innovative deep learning techniques to (1) optimize the quality of real-world non-\nmydriatic retinal color fundus images and (2) automatically analyze color fundus images to screen patients for\npreclinical Alzheimer's disease (AD) in routine urban and rural clinical practice, thereby enabling early\ninterventions and enrollment in clinical trials. The outcomes of this research have the potential to develop an\naccurate and cost-effective point-of-care AI-assisted retinal imaging tool for screening AD patients in their\npreclinical stages during routine eye care visits, decrease recruitment costs for AD clinical trials, and expedite\nthe development of therapeutic interventions for patients with preclinical AD."
+ },
+ {
+  "id": "a839b35e-089c-4048-ae27-9396e5e2695d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The molecular mechanism linking respiratory NADH oxidation and virulence in Staphylococcus aureus",
+  "text": "Staphylococcus aureus is one of the most dangerous and costly bacterial pathogens in the United States. This\nproposal will uncover the mechanism by which the respiratory metabolism regulates virulence and advance our\nunderstanding on the adaptive mechanisms that enable this organism to be such a versatile pathogen."
+ },
+ {
+  "id": "a83c5637-b950-417e-81da-ca02b366ee39",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Machine learning drives translational research from drug interactions to pharmacogenetics",
+  "text": "In order to discover and generate new pharmacogenetic hypotheses from drug interaction evidences published\nin the scientific literature, we will develop novel machine learning methods, including active learning allowing\nhuman involvement and knowledge base reasoning. These new pharmacogenetics hypotheses will be tested\nin a biobank. These pharmacogenetics findings will contribute significantly towards precision medicine and\nimprove clinical care."
+ },
+ {
+  "id": "a8471f41-5e0d-417d-832f-1a0c9c5348e3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Influence of developmental programming in adult stem cells and cancer",
+  "text": "In the United States, almost 50% of women of childbearing age are overweight or obese, and the incidence of\nCRC is increasing in younger populations. We propose that maternal obesity establishes a risk for CRC by\nexposing offspring to a pro-tumor environment that directly enhances stem cell features and function permitting\nincreased early oncogenic events. We take a genetic and molecular approach using mouse models to dissect\nthe developmental programming and reversibility of tumor risk in offspring from maternal obesogenic\nconditions."
+ }
+]

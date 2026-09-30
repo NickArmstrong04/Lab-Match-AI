@@ -1,0 +1,142 @@
+[
+ {
+  "id": "86c3c88c-427b-4760-a4ae-4847d182a451",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Core C: Subtractive Single Nucleus Seq and Spatial Multi-omics Core",
+  "text": "PROJECT SUMMARY – CORE C Efficient and reproducible detection of immune cell states is paramount to our understanding of the immune responses in the context of health and disease, such as cancer and autoimmunity. Immune function is highly dependent upon costimulatory signals where their role has become apparent in the study of tumor infiltrating lymphocytes with PD-1/PD-L1 expression, as well as in autoimmune disease particularly with activation of autoreactive T cells and costimulatory receptor CD226 and its ligand CD155 which is shared with TIGIT. Achieving a mechanistic understanding by which PD-1/PD-L1 and TIGIT/CD155 axes regulate T cell and myeloid cell function will enable refinement of the therapeutic use and target of these costimulatory pathways. The Single Cell and Spatial Multi-omics Core (Core C) at Yale University will provide support for novel transcriptional, epigenetic, and spatial profiling of single cells as well as enriched immune cell types across all three projects of the Program Project Grant. Our core has established systematic pipelines for processing single cell RNA-seq and ATAC-seq from low-input samples, from single cells or single nuclei, as well as for spatial transcriptomics using DBiT-seq, a single cell spatial technology newly developed at Yale which will be used in both experimental models and in human tissues across the three projects. This core provides capabilities and a pipeline for the preparation, sequencing and single cell analysis and data integration across species. Our experimental and computational resource will facilitate (1) the investigations of immunity in mouse models that are deficient for TIGIT, PD1, or both, (2) the characterization of cells or nuclei or sections human tissues from patients with multiple sclerosis and glioblastoma, and (3) the single cell, integrative analysis of all data generated in Projects 1-3. Overall, the outcome will be a better understanding of co-stimulatory and co-inhibitory mechanisms, and its function in regulating inflammasome activation in T cells and myeloid cells in human diseases and disease models. This may potentially lead to new avenues for therapy for autoimmunity and cancer."
+ },
+ {
+  "id": "86c6bdbf-8a3d-4e0b-9e47-5368f691d553",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Clinical Research in Digestive Diseases (CRDD) Training Program",
+  "text": "The University of Michigan's Clinical Research in Digestive Diseases (CRDD) Training Program provides patient-oriented clinical research training to physician-scientists whose goal is to improve the treatment of digestive diseases. The purpose of this training is to produce outstanding clinically oriented medical researchers who investigate the causes, prevention, and treatment of digestive diseases. Since 2003, our trainees have fulfilled this goal, and 95% of our graduates are now faculty at academic medical centers, being awarded multiple research grants, and producing numerous publications of their research work over the past 19 years of funding, leading to improved care and outcomes in a broad range of digestive diseases."
+ },
+ {
+  "id": "86c96302-063f-4a2b-83bd-8f344db0c2e6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of novel malaria vaccine antigen targeting multiple stages of the Plasmodium lifecycle.",
+  "text": "Malaria is one of the deadliest infectious diseases, causing over half a million deaths each year.\nThis project aims to develop a novel fusion malaria vaccine antigen that targets five epitopes,\nspecifically those involved in parasite fertilization for both male and female gametes within the\nmosquito midgut, as well as sporozoite-liver binding, sporozoite-Kupffer cell traversal, and\nsporozoite-hepatocyte invasion. The vaccine antigen consists of five small peptides, each\nindependently tested for their ability to induce strong parasite-inhibiting antibody production,\nthereby blocking both malaria infection and mosquito transmission simultaneously."
+ },
+ {
+  "id": "86d87126-4e40-484b-b581-c798685034ae",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Elucidating Molecular Mechanisms Linking Fructose to Cholesterol Metabolism",
+  "text": "Cardiovascular disease (CVD), the number one killer in men and women, is associated with the prevalence of\nnonalcoholic fatty liver disease (NAFLD). Consumption of fructose, primarily found in sugar-sweetened\nbeverages and processed foods, is a major risk factor for development of both NAFLD and CVD. The primary\ngoal of this proposal is to determine the mechanisms by which fructose increases cholesterol levels, which will\nyield insight into novel therapeutic options for NAFLD and associated CVD risk."
+ },
+ {
+  "id": "86e7edbf-aa8c-4b67-a300-9330f30b10bb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting p21-Highly Expressing Cells to Increase Lifespan and Healthspan in Old Age",
+  "text": "A key challenge for the aging research community is to extend lifespan in tandem with\nhealthspan (life with good health) so that the period of frailty and disability can be compressed.\nHere, we propose to examine the role of a specific cell population in lifespan and healthspan\nusing our novel animal model along with a cutting-edge technology, single cell transcriptomics.\nThis project is likely to provide a deeper understanding of aging and lay the foundation for the\ndrug development to extend both lifespan and healthspan in old population."
+ },
+ {
+  "id": "86e7ef68-29ba-4946-82c3-fd1585529b1a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Modeling Drug Induced Liver Injury with Patient-Derived Liver Organoids and Microfluidic Chips",
+  "text": "Drug-induced liver injury (DILI) is a serious adverse drug reaction that can occur with the use of many prescription and non-prescription medications and lead to mild-to-severe liver damage. This project seeks to develop a next generation, animal-free human DILI risk prediction platform through human liver tissue engineering and the development of a microfluidic organ-on-a-chip. Results from this study could improve DILI risk prediction and may ultimately lead to the development of safer and more effective medications and identify potential strategies to treat DILI."
+ },
+ {
+  "id": "86ed016b-9a3e-4c54-be4f-114bdfc79d05",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "New Jersey Department of Agriculture LFFM Project for Integrated Food Safety",
+  "text": "(Overall)\nThe Laboratory Flexible Funding Model (LFFM) co-operative agreement program will provide\nequipment, supplies, personnel, and training in standardized testing methodologies and quality\nassurance. These provisions will enhance the New Jersey Department of Agriculture's (NJDA)\ncapabilities in animal food sample analysis, molecular epidemiology, outbreak response, and\nsurveillance testing. The NJDA’s participation in the LFFM will help strengthen the nationwide\nintegrated laboratory sciences and food safety supporting the Food Safety Modernization Act\n(FSMA)."
+ },
+ {
+  "id": "86f5bb05-a3cd-4f7d-b428-0ef2ee85e47f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Evaluating the role of local context in the effectiveness of state-level overdose prevention policies",
+  "text": "Deaths due to drug overdose continue to be a pressing public health crisis as more than\n1,000,000 people have died of overdose in the United States since 1999. Interventions are\ncritically needed that can effectively reduce overdose mortality. This project will fill important gaps\nin the evidence for effectiveness of overdose prevention policies to reduce rates of fatal overdose\nand will provide information that will help policymakers determine which policy tools may be best\nsuited to address the overdose crisis."
+ },
+ {
+  "id": "86f983ef-95c7-4853-8b3e-831f5adbe1f9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Defining and targeting CIC::DUX4-dependent survival in fusion-positive sarcomas",
+  "text": "CIC::DUX4 sarcoma, the most common of the Ewing sarcoma family of tumors that is negative for the canonical\nt(11;22) translocation, has a strong predilection for metastasis, a high rate of chemotherapy resistance, and a\ndismal prognosis. My team has developed and assembled the largest known collection of CIC::DUX4-driven\nhuman and mouse sarcoma models. In this proposal, I will combine these models with genomic and proteomic\ntechnologies to help understand the molecular oncologic drivers of this lethal disease."
+ },
+ {
+  "id": "870a9e34-2112-48b3-99ad-fe9818ee4fad",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Administrative Core - The Center for Innovation in Point-of-Care Technologies for HIV/AIDS and Emerging Infectious Diseases at Northwestern University (C-THAN)",
+  "text": "SUMMARY – ADMINISTRATIVE (ADMIN) CORE The Center for Innovation in Point-of-Care Technologies for HIV/AIDS and Emerging Infectious Diseases at Northwestern (C-THAN) will be a vital partner as a Technology Research and Development Centers (TRDC) in the NIBIB Point-of-Care Technologies Research Network (POCTRN) focusing its mission to catalyze innovation in diagnostic technologies through a model that enhances complementary strengths to build multidisciplinary partnerships across technology platforms, clinical, regulatory and commercialization domains with a specific focus on HIV/AIDS and emerging infectious diseases in low-resource settings including those with direct benefit to persons living with HIV in the U.S. The structure of C-THAN will consist of scientific and technology expertise in point-of-care (POC) and home-based diagnostics along with clinical study design and sites to facilitate the identification and integration of enabling technologies into devices that address the specific clinical needs of HIV/AIDS and emerging infectious diseases globally including the U.S. C-THAN will be comprised of four Cores: Administrative, Technology, Clinical, and Dissemination. An emphasis will be directed to specific technology domains by establishing the following technology working groups (WG): 1) molecular, 2) lateral flow, 3) synthetic biology, and 4) product engineering. The Admin Core will provide the appropriate leadership and structure to manage the many facets of C-THAN, a large and complex TRDC. The Admin Core will serve as the managing component of C-THAN that is charged with leading the organization, governance of the center, collaboration within and outside POCTRN, communication and continuous quality improvement and efficiency of the activities. C-THAN will be directed by the MPIs, Drs. Chad Achenbach, MD, MPH, a biomedical engineer (BME) and medical doctor with expertise in infectious diseases and public health with over 20 years of experience in clinical research on HIV and emerging infectious diseases, Robert Murphy, MD, an infectious diseases trained research physician who has been working with partner sites for more than 22 years, Sally McFall, PhD a biomedical engineer and expert in developing POC medical devices. They will be assisted by the C-THAN Steering Committee which will provide scientific and administrative oversight of C-THAN functions including review and selection of projects to receive sub-award funding. Key partner institutions of C-THAN include Northwestern University (lead partner); University of Cape Town, University of the Witwatersrand (WITS), Stellenbosch University, University of Lagos, University of Ibadan, University of Jos, Muhimbili University of Health and Allied Sciences (MUHAS), Université des Sciences, des Techniques et des Technologies de Bamako (USTTB), and the University Cheikh Anta Diop (UCAD). The C-THAN consortium will build upon its 20-year history of infrastructure development and research training with key partners in the U.S., Nigeria, Mali, Senegal, Tanzania, and South Africa."
+ },
+ {
+  "id": "870e69f2-10c3-4c04-b5c1-88611c1e7fe8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Slippery, Omniphobic Coating to Prevent Thrombosis and Biofilm Formation on Peripheral Vascular Grafts",
+  "text": "After peripheral artery disease (PAD) progresses to critical limb ischemia (CLI), many patients require a\nperipheral vascular graft (PVG) to increase blood blow to the affected limbs; however, PVG have failure rates\nof 20–50% within the first year of surgery, and >60% after 5 years. Unfortunately, no available single solution\naddresses the three main causes of PVG failure to improve long-term patient outcomes. FreeFlow developed a\ncoating technology to reduce the failure rate of PVG by ameliorating these causes of failure; in this proposal,\nwe will further validate our technology in PVG and complete our path to marketability, with the long-term goal\nof improving the outcomes of patients with PAD and CLI."
+ },
+ {
+  "id": "871089a0-0aea-49fe-ba09-46b6a6701fd9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Evaluating impacts of stiffness and neutral angle on stair ambulation and overground walking performance in Cerebral Palsy using an real-time variable stiffness ankle foot orthosis",
+  "text": "Difficulties with fixed, rigid-stiffness ankle foot orthoses (AFOs), the current standard-of-care for people with\ncerebral palsy (CP), pose a significant barrier to community participation due to excessive restriction for\nmobility tasks that require a greater range of motion compared to overground walking. This proposal seeks to\ndetermine the optimal ankle foot orthosis stiffness and neutral angle that makes overground walking and stair\nambulation easier for children with CP. Findings from this study will contribute to increased community\nengagement and quality of life for children with CP by enhancing clinicians’ knowledge and AFO interventions."
+ },
+ {
+  "id": "8717ca07-5a6a-4b70-8adf-cd63c2266921",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanism of inflammation in deficiency of adenosine deaminase 2",
+  "text": "Deficiency of adenosine deaminase 2 (DADA2) is an inborn error of immunity characterized by systemic\ninflammation, vasculitis and bone marrow failure. This proposal investigates how different genetic variants\nin the ADA2 gene result in the variable disease phenotypes. The proposed studies will inform the\ndevelopment of personalized medicine for patients with DADA2 and more broadly illuminate how defects in\none gene can lead to different disease manifestations."
+ },
+ {
+  "id": "871f0091-91a0-43db-9189-ff4d610f0856",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular dissection of Hematopoietic Stem Cell specification triggered by inflammatory mediators",
+  "text": "This research will contribute to fundamental knowledge of the molecular mechanisms required to specify\nhematopoietic stem cells. The proposed research is relevant to public health because these findings will inform\nthe development of in vitro protocols for the generation of patient-derived hematopoietic stem cells to treat blood\ndisorders such as leukemia, anemia and hemoglobinopathies, enhancing these patient's treatment options and\nsuccess rates."
+ },
+ {
+  "id": "871fcb2c-77d7-4895-9dc6-d63f8c7b9702",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of E. coli alpha-hemolysin toxicity to renal epithelium",
+  "text": "Many E. coli bacteria that cause urinary tract infections emit a toxin called alpha-hemolysin, which is known to\ndamage white and red blood cells. We have found that alpha-hemolysin amplifies tissue damage during E. coli\ninfection of the kidney, and we have newly identified certain cellular pathways and a receptor that are\nnecessary for the toxin to kill kidney epithelial cells. In this project, we will define how alpha-hemolysin uses\nthese pathways to damage internal cellular components and ultimately cause cell death."
+ },
+ {
+  "id": "8726f7dc-dfd2-4da1-9563-7cd0a066aff4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Functional Magnetic Resonance Imaging and Deep Learning to Improve Deep Brain Stimulation Therapy",
+  "text": "GE Research and the University Health Network propose to develop a novel functional MRI (fMRI) and deep\nlearning (DL)-based method for rapid optimization of newer directional deep brain stimulation (DBS)\nelectrodes, which have been proven to be more effective but very difficult (and time consuming) to optimize\nusing the current standard-of-care clinical optimization of Parkinson's disease (PD) patients. The proposed\nsemi-automated DBS optimization system will reduce the time to optimization per patient from ~1 year (based\non the standard-of-care protocol) to ~1 hour and significantly improve PD patient outcomes and increase\naccess to DBS therapy worldwide."
+ },
+ {
+  "id": "872708c3-3729-4875-a51d-6dfd0edbddba",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Non-sensory Circuits for Auditory Perceptual Learning",
+  "text": "Practice-based improvements in our ability to detect or discriminate subtle sound features – a process known\nas perceptual learning – is important for the development of speech and language, and for maximizing the\nbenefits of hearing aids and cochlear implants. While non-sensory factors, such as attentional state or delivery\nof reward, are known to shape perceptual learning, we lack a comprehensive understanding of the neural\nmechanisms involved. The experiments proposed here will address this issue by assessing the contribution of\none non-sensory brain region, the orbitofrontal cortex, and its descending projection to the auditory cortex to\nperceptual learning."
+ },
+ {
+  "id": "872ef8e5-b230-463f-ba53-09ea7cd07a84",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Statistical Methods for Enhanced Mapping of Microbiome Relationships",
+  "text": "The microbiome is related to a vast range of disorders and conditions, yet our limited understanding of how\nmicrobes interact with each other, with host genomics, and with disease outcomes poses a serious barrier to\ntranslation. Within the context of three of the largest and richest microbiome profiling studies, this proposal seeks\nto develop statistical and computational approaches to enhance the mapping of these critical relations. The\nknowledge gained from our methods offers the potential to improve etiology and also drive the development of\nnew therapies, particularly as the microbiome is modifiable."
+ },
+ {
+  "id": "873c9dc3-8dd7-489a-81a0-554b053d8b46",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of opioid hormone regulation of tumor immunity",
+  "text": "Cancer is a significant cause of morbidity and mortality worldwide. Although immune-based therapies are\nshowing great success in treating cancer, a large fraction of patients still fails to respond. The proposed study\nwill determine the mechanisms by which opioid signaling disables anti-tumor immunity and how this pathway\ncan be exploited therapeutically to improve the number of responder patients."
+ },
+ {
+  "id": "873e1cec-e3bf-47db-8f9f-96a09c71af06",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dissecting the Rapid  Multifocal Emergence of the Kelch13 441L Artemisinin Resistance Mutation across Southern and Eastern Africa",
+  "text": "Artemisinin-based combination therapies (ACTs) remain the cornerstone of Plasmodium falciparum malaria\ntreatment; however, their efficacy is increasingly threatened by emerging mutations in the Kelch13 (K13) gene\nthat confer artemisinin partial resistance (ART-R). A particularly concerning variant, K13 P441L, has recently\nbeen identified in multiple African countries, yet its evolutionary dynamics and resistance potential remain\npoorly understood. This project aims to investigate the spread of this variant and how it could compromise\nfrontline malaria treatments."
+ }
+]

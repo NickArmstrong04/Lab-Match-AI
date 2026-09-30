@@ -1,0 +1,142 @@
+[
+ {
+  "id": "8b9740a8-158c-4c2d-a87f-163096e185b8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "High-throughput Characterization of Genetic Mechanisms of Traditional and Paired Prime Editing",
+  "text": "Prime editing has the potential to fill in gaps for studying and treating genetic variants, in particular deletions and\ninsertions, which make up around 30% of all known human pathogenic genetic variants. However, the cellular\nrepair mechanism(s) that process prime editing intermediates is currently under-studied, especially for larger\nedits, which cannot be process by mismatch-repair pathways, which were previously discovered to process point\nmutation intermediates by prime editing. Mechanistic studies describing the repair pathways involved in\ntraditional and “paired” prime editing systems will lead to improved prime editors for creation of larger edits,\nultimately adding to the gene editing toolbox and increasing clinical-relevance."
+ },
+ {
+  "id": "8b9aa145-1705-436e-adf2-e45677a72693",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A microphysiological model of prostate cancer metastasis into vascularized and innervated bone",
+  "text": "Bone metastasis occurs in over 80% of advanced prostate cancer patients, causing debilitating fractures and pain\nwhile remaining incurable due to critical gaps in understanding microenvironmental drivers. We address this by\nengineering the first bone-on-a-chip platform with vascular, neural, bone remodeling compartments, which we\nwill use to decode how intravascular events and tumor-nerve crosstalk accelerate metastatic niche formation. This\nmodel will expose novel therapeutic targets to disrupt metastasis while providing a paradigm-shifting tool to study\nhuman organ-specific cancer spread without the need for animal models."
+ },
+ {
+  "id": "8b9eb784-c495-430f-bb1a-0b1dd5bdd3a0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating the mycomembrane protein assembly pathway",
+  "text": "Bacteria in the Mycobacteriales order, which includes Mycobacterium tuberculosis and Corynebacterium\ndiphtheriae, represent a major healthcare burden worldwide. The unique cell envelope of this group of bacteria\ncontributes greatly to pathogenicity of members of this order as well as intrinsic resistance to environmental\nthreats, including antibiotics. Here, I will investigate the biogenesis of the Mycobacteriales cell envelope in the\nmodel organism Corynebacterium glutamicum by characterizing the pathway that transports and assembles\nproteins into the unique outer membrane characteristic of bacteria in this order."
+ },
+ {
+  "id": "8ba330d4-540e-40c8-b22d-c20bfdcebd31",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular Dissection of Alcohol Use Disorder Through Targeted Brain Multi-omics",
+  "text": "Alcohol use disorder is among the most common and severe major psychiatric disorders. This proposal seeks\nto combine AUD GWAS with gene expression and DNA methylation findings from a large cohort of postmortem\nbrains and regions. This novel, integrated analysis will detail so far unknown AUD-associated genes and\nepigenetic marks and will allow identification of neurobiological mechanisms and novel therapeutic targets."
+ },
+ {
+  "id": "8badbdee-0fdd-42d7-9e53-e7027a785c41",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "X3DNA-DSSR: a resource for structural bioinformatics of nucleic acids",
+  "text": "Insight into the 3D architectures of nucleic acids is essential for understanding their diverse roles in\nbiotechnology and medicine, especially in the growing use of DNA and RNA vaccines and therapeutics.\nX3DNA-DSSR is a sophisticated, highly used software tool for the analysis, annotation, and visualization\nof 3D nucleic acid structures. The resource is employed in biomedical research and teaching in academic\ninstitutions and for the design of pharmaceuticals in industry."
+ },
+ {
+  "id": "8bb10302-0b93-4c9b-95eb-12957f7e434d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Uncovering the physiological role of functional hyperemia",
+  "text": "Many neuro-degenerative/cognitive disorders manifest vascular impairments, including reduced functional\nhyperemia. However, isolating the impact of reduced functional hyperemia from other vascular changes is\ntechnically challenging. This proposal will harness a novel technique to block functional hyperemia\nindependently from other vascular changes to determine the impact on neural function in health and in\nAlzheimer's disease."
+ },
+ {
+  "id": "8bb29787-06e6-4bdc-9c5a-560260126bf1",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "DATAOmics Core",
+  "text": "DATAOMICS CORE PROJECT SUMMARY/ABSTRACT The overarching role of the Data and Omics Sciences Core (DATAOmics) is to support and bolster collaborative cancer research in the Addressing Cancer Health Drivers and Infection-Driven Malignancies Program (ACTION). The overall goal of DATAOmics is to enhance the quality, efficiency, and impact of ACTION’s research projects through the provision of high-quality and timely data science and omics analysis, collaboration, and consulting at all stages of research – i.e., concept development, study design, data gathering and management, database design and use, statistical analysis, and reporting. Since 2004, previous versions of DATAOmics have provided consulting and computational support in study design and statistical analysis for projects within the research partnership and for UPRCCC, including trainees. We propose to continue these relationships. To support the development of investigators and trainees, we will provide capacitybuilding in study design, statistical and bioinformatics methods, data management, and reproducibility through educational activities in collaboration with the Research Education Core. As we conduct these activities, we will mentor partnership researchers in study design and in robust, reproducible data science to position our trainees at the leading edge of cancer science. Our experienced, collaborative team will achieve our aims of supporting and elevating the data science sophistication and capacity within ACTION, increasing publications in high-impact journals and applications for external research funding. Successful completion of our aims will be a vital component of ACTION’s goals to improve the health of Texans and Puerto Ricans and ultimately achieve NCI designation for UPRCCC. In sum, these activities are organized into the following three aims."
+ },
+ {
+  "id": "8bb655ee-75d7-4898-9078-5a1ba849fb1e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Astrocyte RNA degradation and cognitive function",
+  "text": "Although NMD is the only RNA regulatory pathway that has been linked to numerous mental illnesses, a\ncomprehensive model of how cell-specific NMD influences synaptic and cognitive function remains elusive.\nAstrocyte dysfunction has been implicated in the pathophysiology of numerous neurological disorders, with a\nstrong impact on synaptic plasticity and behavior. This research proposal is designed to elucidate the\nastrocytic mechanisms that regulate synaptic plasticity through mRNA degradation, and will illuminate an\nimportant molecular mechanism with likely relevance to a broad range of neurodevelopmental disorders."
+ },
+ {
+  "id": "8bb69a6a-02e4-47d7-9a45-fb77d3eb8ee0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identifying novel therapies targeting Merkel cell carcinoma and tumor microenvironment",
+  "text": "1 Merkel cell carcinoma (MCC) is an aggressive skin cancer with increasing incidence and few treatment options.\n2 Utilizing clinically relevant animal models and integrated systems-level approaches, we will investigate a novel\n3 drug with high translational potential to overcome or circumvent current limitations in therapeutic options."
+ },
+ {
+  "id": "8bb7674f-3b82-4808-9ea9-f03060afe09e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Evaluating the mechanism of heat-induced labor-associated signaling at the feto-maternal interface.",
+  "text": "Environmental heat exposure during pregnancy increases the risk of preterm birth; however, the underlying\nbiological mechanisms at the maternal-fetal interface, including the placenta and fetal membranes, remain\npoorly explored. We will utilize an innovative humanized multi-organ (placenta-decidua-fetal membrane) feto-\nmaternal interface organ-on-a-chip device that recreates the in utero environment in the laboratory to explore\nheat-induced changes and associated key regulator molecules at the cellular level. In addition, we will evaluate\nthe molecular content of extracellular vesicles released from feto-maternal tissues after heat exposure as a\npotential biomarker for identifying high-risk pregnancies."
+ },
+ {
+  "id": "8bbec236-f800-4753-b74d-19e8c1107168",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Uncovering Axonal and Synaptic Pathological Interplay in Preclinical Alzheimer's Disease through Organ-on-a-Chip Platforms",
+  "text": "Early intervention is key for enhancing treatment outcomes in Alzheimer’s disease (AD); however, recognizing\nthe initial pathological signs of AD continues to be a significant challenge. This project will implement an\ninnovative bioengineering-driven approach using microfluidic organ-on-a-chip platforms to enable an\nunprecedented, in-depth analysis of axonopathy, a key pathological feature of early AD that can be detected\nbefore well-established AD-related hallmarks emerge. By elucidating the role of axonopathy and its interplay with\nsynaptic dysfunction in early AD, this work will provide key insights into preclinical AD progression, identifying\nnovel biomarkers and therapeutic targets for earlier detection and intervention."
+ },
+ {
+  "id": "8bc2eabe-c36f-4ce7-a4f0-96d3d6ba719b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Core A: Administration",
+  "text": "CORE A – ADMINISTRATION\nPROJECT NARRATIVE\nCore A is responsible for organizing the different components of this Program Project. It provides the\ninfrastructure that organizes Program meetings, oversees Program expenditures, and enriches the scientific\nenvironment of the Program. Core A also provides access to a biostatistician to assist investigators within the\nProgram."
+ },
+ {
+  "id": "8bc6b487-0443-4b48-85db-92b04a4780f8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Immunometabolic Programs Controlled by ER Stress in Cancer",
+  "text": "The proposed project will uncover new approaches to enhance the anti-cancer activity of immune cells,\nespecially in the setting of aggressive malignancies that are refractory to current immune-based treatments.\nUpon completion, our project will provide new mechanistic understanding of how “stress signals” generated and\ndelivered by tumors inhibit the protective function of our immune system. This knowledge should pave the way\nfor developing novel forms of immunotherapy that more effectively control cancer progression and recurrence."
+ },
+ {
+  "id": "8bcc5ab7-ab83-4a7b-9e17-6de3b1206f4a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Community Outreach Core",
+  "text": "The goal of the Community Outreach Core (COC) is to continue supporting the Florida-California Cancer Research, Education, and Engagement (CaRE2) Health Center by sharing scientific data and results from ongoing projects with our communities, promoting clinical research education, and training community members to be supporters leading dissemination efforts on cancer prevention and early detection, and participating in cancer research as well as ambassadors participating in research advisory committees. Our Community Outreach Core (COC) team has over 20 years of experience working in bicoastal community engagement research, with all populations. We will continue supporting Center investigators conducting prostate, pancreatic, and now, lung cancer research. Building on COC’s prior work, our four (4) aims are to: 1) Create and implement a Community Engagement Academy designed to train, support, and measure the impact of 600 community members in sharing information about cancer, cancer research, and the CaRE2 Center and its projects; 2) Develop and deliver to 5,000 community members evidence-based multimedia educational materials, maximizing the use of technology and media, focusing on pancreatic and lung cancer information, cancer research and clinical trials participation, and biospecimens donation for cancer research; 3) Partner with CaRE2 investigators to host educational activities that increase knowledge and awareness about cancer prevention and research in the CaRE2 Center; and 4) Partner with the CaRE2 Planning and Evaluation Core to evaluate the effects of the COC program and activities."
+ },
+ {
+  "id": "8bccf842-f816-46dc-92b7-58519725cffd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Stanford Integrated Cardiovascular/Pulmonary Residency Research Training Program",
+  "text": "Cardiovascular and pulmonary diseases are the leading causes of death in the United States, claiming over a\nmillion lives each year and exerting an undue financial toll. There is an ongoing unmet need to develop a cohort\nof clinician scientists who can combine their rigorous clinical training with research initiatives to pioneer new\napproaches and innovations for cardiovascular and pulmonary disease therapy and prevention strategies. The\nrenewal of the R38 StARR grant will continue to provide mentored training opportunities for medical residents in\nlaboratories at Stanford University School of Medicine focused on Cardiovascular and Pulmonary Health,\npromoting their pursuit of the clinician-scientist career path."
+ },
+ {
+  "id": "8bd0ae63-b0c3-498e-acd9-84100e6ee9d4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular strategies for resolving differential regulation of dopamine subpopulations",
+  "text": "Dopamine neurons play a critical role in regulating many aspects of motivated behavior, including facilitating\nlearning about cue-reward associations and driving motivation. Different subpopulations of dopamine neurons\nhave variable properties and regulate different functions, but we do not yet have a clear understanding of how\ndifferences in gene expression between subtypes of dopamine neurons drive differences in the physiology of\nthese neurons. This proposal aims to identify specific genes that underlie variability in dopamine neuron\nphysiology and establish an advanced approach for CRISPR-based manipulation of gene expression in\nprecise subsets of neurons, with the goal of enabling the future development of more precise therapeutics for\ntargeting dopamine neuron physiology."
+ },
+ {
+  "id": "8bd2d73f-c63a-45bf-8965-44837615c509",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Integration of FTT-PET and ctDNA to predict response to PARP inhibitor therapy in mPC",
+  "text": "Poly-ADP ribose polymerase inhibitors (PARPi) are drugs targeting a protein essential in prostate cancer\nprogression. However, less than 60% of patients who receive PARPi therapy, respond to therapy. In this\nproposal, we propose a strategy to identify patients who will benefit from PARPi therapy, avoiding unnecessary\ntoxicities, to design better treatment strategies."
+ },
+ {
+  "id": "8bd5aa0b-dca1-4095-b546-a759a8e50369",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Alloimmune-compatible stem cells for ocular diseases",
+  "text": "Induced pluripotent stem cells (iPSCs) hold immense potential for treating eye conditions;\nhowever, their clinical application is hindered by the risk of immune rejection and the time-consuming and\nexpensive process of generating patient-specific cell lines. Our proposal aims to minimize the immunogenicity\nof iPSCs, enabling the creation of immune-compatible, off-the-shelf iPSCs. This approach offers a more efficient\nand universally accepted stem cell therapy for ocular tissue regeneration."
+ },
+ {
+  "id": "8bd6d41b-0d55-4df4-9207-10c02ddce1ec",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Local Neoadjuvant Immunotherapy to Reduce Recurrence in Resectable Oral Cancers",
+  "text": "The objective of this project is to develop a sustained-release MultiDomain Peptide (MDP) hydrogel formulation\nof an iNOS inhibitor L-NIL and the STING-agonist CDN to be used in combination with an immune checkpoint\ninhibitor monoclonal antibody to enhance immune priming in the neoadjuvant setting to control residual\ndisease following tumor resection and lead to reduced recurrence. Despite advances in surgery and\nradiotherapy, five-year survival rates for patients with HNSCC across all stages remain 40–50% for tumors\ncaused by traditional carcinogens (HPV-negative). This research program will synthesize and characterize a\nseries of L-NIL functionalized MDP hydrogels loaded with a STING agonist (CDN) and check point inhibitor\n(anti-PD-1 and/or anti-CTLA-4) cargo with the plan to evaluate disease control, safety, and immune stimulating\neffects in a head and neck cancer model."
+ },
+ {
+  "id": "8bd7b0e0-aa5c-4c14-a7c2-3e104c919481",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Localized mitochondrial metabolic activity in Xenopus mesendoderm cells undergoing collective cell migration",
+  "text": "The morphogenetic movements during gastrulation have been well characterized, however the cellular\nmechanisms that drive such dynamics remains limited. This project will investigate the role of integrin\nadhesion and signaling in regulating carbon metabolism and mitochondrial localization during the energy\nintensive process of collective cell migration at gastrulation. By understanding the mechanisms that engage\ntissue rearrangements in gastrulation during human development, we will expand our knowledge of congenital\nmalformations that may arise from dysregulated interactions between adhesive signaling and cellular\nenergetics.\n1"
+ }
+]

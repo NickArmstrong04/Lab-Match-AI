@@ -1,0 +1,142 @@
+[
+ {
+  "id": "0f4c857e-e619-4c3c-9dc3-91300b6b268f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Technology Development Unit",
+  "text": "Technology Development Unit: PROJECT SUMMARY The overall goal of the U54 Northwestern University Center for Chromatin Nanoimaging in Cancer (NU-CCNIC) is to develop and deploy a multi-scale chromatin nanoimaging platform together with molecular analyses and computational modeling to characterize chromatin structure and transcriptional patterns associated with cancer stem cells (CSCs) and the chemoresistance phenotype. We seek to fill three technology gaps in developing such a nanoimaging platform. (1) The multi-scale challenge stems from the need to investigate how chromatin regulates gene expression across a wide range of scales, from the diameter of DNA (~2 nm) to the size of nucleosomes (~10 nm) to chromatin domains (~100 nm) to cell nuclei (~10 µm) and to a population of cells to account for intercellular heterogeneity. (2) The multiplexed molecular imaging challenge arises due to a large number of critical genes and molecular regulators that need to be co-registered with the 3D chromatin structural data. And (3) The temporal dynamics challenge requires the ability to work across a wide range of time scales to study short-term processes that may occur within minutes, such as chromatin remodeling, and long-term processes that may progress over weeks, such as the emergence of chemoresistance in cancer cells. No single technique satisfies all three requirements. Our solution to address these three challenges is to organically correlate three families of technologies: chromatin scanning transmission electron microscopy (ChromSTEM), spectroscopic single-molecule localization microscopy (sSMLM), and partial wave spectroscopic (PWS) nanosensing microscopy. After registering these technologies with 1 nm precision, they will collectively satisfy the multi-scale, multiplexing, and dynamics requirements. We will achieve three objectives in TECH. (1) Develop next-generation sSMLM that enables, in principle, unlimited multiplexing with the highest photon utilization and at 1 nm spatial precision. (2) Develop correlative ChromSTEM-sSMLM-PWS imaging that enables cross-modality registration at 1 nm precision assisted by novel quantum dot-based nano assembly fiduciary markers. And (3) Develop a multi-scale molecular modeling platform to elucidate the etiological relationship between chromatin structure and transcriptional reprogramming in CSCs imaged with the nanoimaging platform. The proposed technology development is driven by the needs of the Research Test-Bed unit (RTB) to elucidate epigenetic and chromatin drivers of transcriptional plasticity in CSC processes, in particular the development of adaptive resistance to chemotherapy, and to explore the feasibility of reprogramming CSCs out of the stem-states as a therapeutic strategy. Continuous feedback from RTB investigators will be integrated with the TECH platform's optimization, enabling, in the longer-term, our U54 technologies to impact the broader cancer research community within and beyond the Cellular Cancer Biology Imaging Research Network."
+ },
+ {
+  "id": "0f512fba-9bd6-4f67-99d8-38a1b61656b6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Two-Component System Design Principles",
+  "text": "Bacteria in the gut microbiota play complex and important roles in human health and disease. In the prevalent\ngut bacteria Bacteroides, a distinct class of hybrid two-component signal transduction systems controls gene\nexpression systems that enable utilization of complex carbohydrates as an energy source for growth, balancing\nutilization of dietary fiber and host mucin glycans in the lining of the gut. The proposed research will\ncharacterize these relatively unexplored gene expression systems in gut bacteria, laying a foundation for\ntherapeutic strategies to improve human health."
+ },
+ {
+  "id": "0f59ad90-fc7e-40cc-a2ef-74bbc6720b01",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Biacore 1S+ Surface Plasmon Resonance Instrument",
+  "text": "The procurement of a device using a technique called surface plasmon resonance (model Biacore 1S+),\nmarketed by Cytiva, will allow researchers at the University of Texas Southwestern Medical Center (UTSW) to\nuse a specialized application of the interaction of light with a conductive metal surface to detect the binding of\nsmall molecules to protein targets that are immobilized on or near to the metal. This powerful technique will\nenable a dynamic group of UTSW scientists to efficiently achieve their aims of developing treatments for\nnumerous pathologies, including Alzheimer’s disease, malaria, schistosomiasis, liver disease, and cancer."
+ },
+ {
+  "id": "0f5c2e1a-86d7-441c-a5f5-9a5b1d1f7e9b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Pediatric-specific computer aided detection of pulmonary nodules in computed tomography scans",
+  "text": "Cancer is the leading cause of death from disease for children in developed nations. The overall aim of this\nproject is to develop and test artificial intelligence methods, specifically designed for children, to detect when\ncancer has spread to the lungs (one of the most common sites of metastatic cancer). Our pediatric-specific\nsystem will provide earlier and more accurate detection of lung nodules in computed tomography imagery to\nhelp doctors adjust treatment to improve outcomes for children with cancer."
+ },
+ {
+  "id": "0f5fb0ff-69d7-4ad6-9972-e542ad6c9c6a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Developing MRI-Guided Preventive Dendritic Cell Vaccination Strategy to Avoid Post-surgical Pancreatic Cancer Recurrence and Metastasis",
+  "text": "Pancreatic ductal adenocarcinoma (PDAC) has a high risk of recurrence and mortality even after removal and\nsubsequent chemoradiotherapy. We will perform the first study of preventive dendritic cell (DC) vaccination\ncombined with chemotherapy to prevent PDAC recurrence while simultaneously using imaging of migrating\nmagnetically labeled DC vaccine to predict vaccine efficacy."
+ },
+ {
+  "id": "0f644a52-5026-4f45-a31d-03a548ccaf47",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Biomimetic CRISPR Nanoformulations for Targeted Gene Editing in Thallasemia and Sickle Cell Disease",
+  "text": "Gene editing technologies, like CRISPR, hold great potential for treating genetic blood disorders by modifying\nHematopoietic stem cells (HSCs), particularly long-term hematopoietic stem cells (LT-HSCs). However, the\ncurrent ex vivo approach for gene editing is costly and limits accessibility, making the development of in vivo\nCRISPR delivery vehicles crucial. Our biomimetic CRISPR delivery vehicle, inspired by exosomes (Exo-\nCRISPR), offers a promising strategy to enhance the specificity and efficiency of gene editing in LT-HSCs,\nproviding a therapeutic avenue for beta hemoglobinopathies."
+ },
+ {
+  "id": "0f65685a-8535-4003-920d-4d652a4a3143",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Validating immune and epigenetic biomarkers of immunotherapy response in head and neck squamous cell carcinoma",
+  "text": "This application seeks to validate biomarkers of response to immunotherapy in head and neck cancers. To\npredict which patients will and will not benefit from immunotherapy, we propose to validate biomarkers using\nroutinely collected clinical lab data that have potential for rapid uptake and understand the extent of improvement\nwhen including additional assays. To address timely and significant needs for patients and clinicians, we also\nwill test generalizability of validated biomarkers to newly approved immunotherapy administered as a first line\ntherapy for curative intent."
+ },
+ {
+  "id": "0f6c4bc2-8b26-47af-9f5c-70e73bed36e7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Inducing Off-pathway Assembly of HIV Gag Polyprotein with Computationally Designed Peptides",
+  "text": "Viral replication requires the formation of infectious particle through the bottom-up self-assembly of\neach individual virion. Cellular mechanisms are commonly used to guide the process toward the\ncorrectly assembled structure. This project aims to exploit this inherent vulnerability in the viral life cycle,\nand will yield innovative therapeutic strategies to drive the formation of aberrant viral structures using\npeptides that mimic native initiators of self-assembly."
+ },
+ {
+  "id": "0f6fc274-2a6e-4954-9044-9d54c27cfc6a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "T Cell Alloreactivity and Organ Transplant Risk Stratification Models Using High-Resolution HLA and Genomic Data",
+  "text": "The conventional focus for histocompatibility in clinical solid organ transplantation (SOT) focuses on humoral\nimmunity, avoiding donor HLA molecules against which the recipient has pre-existing alloantibodies capable of\nmediating hyperacute rejection. While this is a practical approach based on clinically-available information, it\ndoes not address the inherent risks of T cell alloreactivity, which is a significant contributor to allograft rejection\nand requires life-long immunosuppression. In this proposal, we will leverage sequencing technologies and\napproaches adapted from immuno-oncology to identify HLA allele-specific factors in solid organ transplant\ndonors and recipients driving T cell alloimmune responses. Here we propose a new method, Computational\nHistocompatibility Assessment for Rejection by T cells (CHART) that adopts measures employed for predicting\ntumor immunogenicity and adapts them for prediction of T cell alloreactivity and rejection risk in SOT. Specifically,\nCHART will include functionality to perform variant calling from donor whole exome sequencing data and and\nannotate variants according to abundance, binding to HLA and T cell cross reactivity using measures already\nemployed for neoantigen prioritization. CHART will further predict sample level T cell alloreactivity while\naccounting for direct (donor peptides presented by donor HLA) versus indirect (donor peptides presented by\nrecipient HLA) modes of recognition, an aspect unique to transplant. We will validate and refine CHART using\nhigh resolution HLA typing and molecular profiling data from 20 healthy blood donors and 400 heart transplant\nrecipient-donor pairs with blood and tissue samples available and associated extensive clinical laboratory and\nclinical outcomes data. The predictive capability of CHART will be tested in an independent cohort of 100 heart\ntransplant donor/recipient pairs. We expect that this will yield significant new insight into HLA biology with\ninformation about HLA-allele-specific capability of presenting alloantigens, and potentially result in a novel\nbioinformatic tool for improved assessment of histocompatibility and evaluating clinical risk in SOT, enabling\nprecision medicine approaches for personalized immunosuppression."
+ },
+ {
+  "id": "0f7422bc-e01d-4ee5-b9ee-96c4dc7595af",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Non-destructive assessment of retinal differentiation capacity and developmental maturity",
+  "text": "The death of photoreceptor cells in the outer neural retina is a leading cause of irreversible blindness in the\nUnited States. As the human retina is incapable of regenerating, cell replacement strategies are required to\nrestore vision. In this application, we seek to develop an AI-guided approach to facilitate high-throughput\nautomated manufacturing of clinical grade autologous photoreceptor cell therapeutics."
+ },
+ {
+  "id": "0f787042-539f-4509-a478-9d14bf832e40",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Training Core",
+  "text": "(Training Core) In the Training Core, our central goal is education, outreach, and active support for rigorous and effective implementation of state-of-the-art circuit analysis tools, specifically in the setting of drug of abuse research. Here we expand upon the team’s existing training infrastructure, but move in new directions essential for the field-- specifically seeking to enable and advance the study of drug abuse and related phenomena with these methods, and assisting others seeking to learn and apply modern circuit analysis tools to further this mission. In Aim 1 we specifically leverage our infrastructure for advancing the application of modern optogenetic methods to drug abuse research, including in the setting of multiunit electrophysiology and behavioral readouts in awake rodents. Trainees directly benefiting from the Core (with no charged cost or obligation) will include (across all categories and career stages) 1) P50 Center personnel; 2) all labs from the NIDA intramural research program (including but not limited to collaborative groups) and leading human brain banks; and 3) researchers across the nation and world with drug-abuse relevant basic or applied missions. Second, hydrogel-tissue chemistry (HTC) is a technology for creating composites of biological molecules in tissue covalently linked to polymer hydrogels, allowing removal of unlinked tissue elements to create transparency and accessibility to macromolecular labels; the resulting new structure allows high-resolution optical access to structural and molecular detail within intact tissues without disassembly. In Aim 2 we specifically leverage our infrastructure for advancing the application of modern HTC including STARmap to drug abuse research, targeting the participant categories above. And third, fiber photometry is a versatile method for collecting activity information from anatomically and/or genetically- defined cells and projections across the brain during free behavior, in a manner designed to be exactly aligned with optogenetic intervention via the same device and positioning in the same experimental subject. In Aim 3, we specifically leverage our infrastructure for advancing the application of fiber photometry methods to drug abuse research, targeting the same participant categories with drug-abuse relevant vision. The Training Core, by disseminating versatile, powerful new circuit-dynamics tools for use in the NIDA Center and for the drug abuse community more broadly, will advance the understanding of drug altered states, of drug abuse and recovery, and of the brain itself as a dynamical system. This Core is tightly intertwined with the work in all projects, but we will be alert to new opportunities for cross-fertilization certain to arise in the Center."
+ },
+ {
+  "id": "0f7e80b6-bf6a-41f3-a684-940ae700f671",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Optimizing Enhanced Hammerhead Ribozymes for Retinal Nucleic Acid Therapeutics",
+  "text": "We recently discovered a novel form of Enhanced hammerhead ribozyme (EhhRz), an RNA therapeutic with\nidealized properties for cellular target mRNA knockdown (speed, concentration, specificity). Here we optimize\nthis agent for gene or injectable nucleic acid therapeutics capacity and cellular knockdown performance, and\nconduct a highly focused preclinical therapeutic test to rescue retinal degeneration in a mouse model of\nautosomal dominant retinitis pigmentosa (adRP) that expresses human rhodopsin genes. Success would be\na first step to translate EhhRz therapeutic agents into clinical trials for adRP, and validate a new\nnucleic acid pharmacological modality, which is highly relevant to the National Eye Institute mission."
+ },
+ {
+  "id": "0f8660e9-4cfd-4dd1-aa36-5c5d16fb6f6e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A copy number variant discovery pipeline for integrated genome-exome sequencing",
+  "text": "Copy number variants (CNVs) of the human genome represent one of the most penetrant sources of genetic risk for neuropsychiatric disorders, yet large-scale datasets of CNVs for the study of neuropsychiatric conditions at the resolution of genes and exons do not yet exist due to the technical limitations of older technologies used to capture and discover CNVs. Promisingly, the new blended genome exome (BGE) sequencing technique is being rapidly adopted for large-scale neuropsychiatric sequencing efforts, and we propose a rapid development and deployment of a unified workflow to discover CNVs using BGE data at unprecedented scale, resolution, and affordability. We will apply the pipeline to generate a publicly accessible, high-quality CNV callset across a large collection of neuropsychiatric sample with BGE in order to catalyze a more complete understanding of the CNV landscape across these disorders."
+ },
+ {
+  "id": "0f979e5a-4dfa-4282-bfbe-13a5e810c68d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Finding and pushing the limits of macrophage efferocytosis in atherosclerosis",
+  "text": "The search for mechanism-driven therapeutic targets in atherosclerosis remains ongoing and the scientific\ncommunity needs breakthroughs to identify novel therapeutic strategies to further reduce the residual risk of\natherosclerotic cardiovascular disease (ACVD). Preclinical, clinical, and human genomic studies support that\nenhancing efferocytosis may represent an attractive therapeutic strategy in ACVD. The proposal will apply\nintegrative genomic, functional genomic, and imaging-based screening to identify pro-efferocytic genes,\nexpanding the translational pipeline for atherosclerosis therapies."
+ },
+ {
+  "id": "0fa4039f-b79b-4f73-ae9e-65239c487edc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A novel brain-to-pancreatic islet neural circuit regulates glucose homeostasis",
+  "text": "The brain–to–pancreatic islet neuronal pathway plays a critical role in maintaining blood glucose homeostasis,\nbut the underlying mechanisms remain to be fully understood. Here we will delineate the mechanisms by which\na novel neural population in the brain can rapidly sense a glucose fall (hypoglycemia) or increase (hyperglycemia)\nand then regulate blood glucose by changing glucagon and insulin secretion. This study may provide a\nframework for the development of novel therapeutic strategies to diabetes and obesity."
+ },
+ {
+  "id": "0fa9c0f5-119f-41c6-b346-fbfb34dcaec9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Fast high-resolution simultaneous metabolic and multiparametric imaging of the whole brain",
+  "text": "This Bioengineering Partnership with Industry (BPI) project will develop and validate a new technology for\nsimultaneous multimodal brain imaging. The technology will provide an unprecedented capability to acquire a\nlarge set of quantitative molecular and tissue property biomarkers of the whole brain using proton magnetic\nresonance spectroscopic signals on clinical MRI scanners. The technical capability will significantly enhance\nour ability to diagnose and characterize brain diseases and assess their treatment response and efficacy for\npersonalized and precision medicine."
+ },
+ {
+  "id": "0fab44e0-4555-4142-b475-4c58845c8bba",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Modeling Myotonic Dystrophy Type 1 and Type 2 (DM1 and DM2) Neuropathology with iPSC-Derived Cortical Organoids",
+  "text": "Myotonic dystrophy types 1 and 2 cause progressive cognitive, behavioral, and neuromuscular decline, yet no\ntherapies address their central-nervous-system complications. This project establishes human cortical organoids\nthat accurately model repeat-expansion RNA toxicity, tau mis-splicing, and CELF2-driven excitotoxicity, providing\nan essential platform to reveal disease mechanisms and screen candidate interventions. By pinpointing\ndruggable nodes and quantitative biomarkers, the proposed work will accelerate the development of treatments\naimed at preserving brain function and quality of life for affected individuals"
+ },
+ {
+  "id": "0faf0f9a-160c-42de-a60a-87f76979d3b1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Advancing Craniosynostosis Treatment (ACT) Rare Diseases Consortium Administrative Core",
+  "text": "ABSTRACT: ADMINISTRATIVE CORE The Advancing Craniosynostosis Treatment (ACT) Rare Diseases Consortium brings together 4 leading craniofacial centers and PEDSnet to study 5 craniosynostosis (CS) syndromes: Apert, Pfeiffer, Crouzon, Muenke, and Saethre-Chotzen. The Administration Core is established to enable the operational success of ACT across all participating sites and readily integrate ACT into the Rare Diseases Clinical Research Network (RDCRN). To achieve this, the Administration Core will have the following main efforts: 1) Operationalizing ACT across sites and RDCRN, through leadership, administrative support, communication, establishment of consortium-wide procedures and collaboration with the Data Management and Coordinating Center (DMCC). 2) Ensuring regulatory compliance through oversight of clinical projects, human subjects research, and data management. 3) Partnering with patient groups to engage patient populations with syndromic CS. 4) Providing administrative oversight for the Pilot/Feasibility Governance Core and Career Enhancement Core to enable each Core’s respective mission. The leadership team of the ACT Administrative Core comprises of experts in craniofacial surgery, genetics, pediatrics, dentistry, biostatistics, bioinformatics, and clinical data management. Additionally, all administrative personnel have extensive experience that will optimize the success of the Administrative Core. Overall, the Administrative Core sets forth the critical organizational infrastructure for productivity and collaboration across all ACT sites and compliance and data sharing across DMCC and RDCRN."
+ },
+ {
+  "id": "0fb05c61-a9e4-4e93-9847-c7d5aaf1f554",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Building an Integrated Laboratory System to Advance the Safety of Human and Animal Food",
+  "text": "The purpose of this proposal from the Association of Public Health Laboratories (APHL)\nis to support and enhance the capabilities of state human and animal food (HAF) testing\nlaboratories that engage in surveillance and response activities associated with\nfoodborne hazards, including foodborne outbreak investigations. APHL will build a\ncompetent HAF Laboratory workforce, plan and host conferences related to LFFM\ndisciplines, the GenomeTrakr network, and NARMS, provide direct technical assistance\nto non-FDA funded HAF laboratories, maximize HAF laboratory participation in the\nGenomeTrakr network including development of the bioinformatics workforce, and\npromote information sharing between strategic partners. Leveraging our experience will\nbetter position FDA to work in partnership with state and local authorities to build an\nIntegrated Food Safety System and achieve national public health goals."
+ },
+ {
+  "id": "0fb5832d-a1c3-4259-abe0-e7eca6378f1b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The role of oxytocin as an abortive and preventive anti-migraine therapy in a spreading depolarization model of migraine with aura",
+  "text": "Migraine is among the most burdensome neurological disorders in the United States. Sadly, there are not enough\nwell-tolerated treatments to meet the tremendous need. This project will study the effectiveness of oxytocin as a\nnew treatment for migraine to reduce pain and pain-related symptoms, social disability and attack frequency\nusing a mouse model of migraine with aura."
+ }
+]

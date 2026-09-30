@@ -1,0 +1,142 @@
+[
+ {
+  "id": "248a0662-6804-431b-963f-d17b66c17d30",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Lipidomics Shared Resource",
+  "text": "The Lipidomics Shared Resource (LSR) mission is a specialized facility that provides state-of-the-art technology and resources to study complex lipid metabolism and signaling. Its mission is to support Hollings Cancer Center (HCC) members and the scientific community by offering state-of-the-art instrumentation and cost-effective services to identify bioactive lipids and their roles in tumor cell biology, as well as to discover and evaluate drugs that target these pathways. The LSR is organized into three units: the Analytical, Synthesis, and MALDI-Imaging Units. It is directed by Besim Ogretmen, PhD (DCT), a renowned lipid biologist with expertise in sphingolipids and glycosphingolipids. The LSR is unique and the only NCI cancer center-affiliated lipidomics facility with combined analytical, synthetic, and imaging capabilities. This is enabled by state-of-the-art technology, including Thermo TSQ-50003, SCIEX Q-Trap triple quadrupole/ion trap, Advion TriVersa Nanomat, Bruker Faltonics AutoFlex III linear MALDI, and AutoFLexIII MALDI TOF-TOF. The LSR is highly integrated with HCC and its research programs, as well as other NCI-designated cancer centers. It has become a nationally and internationally recognized scientific resource for academic and commercial organizations outside of HCC. It has integrated matrix-assisted laser desorption/ionization (MALDI) imaging capability for direct tissue analysis of sphingolipid and glycolipid species in tissues, drug distribution in tumor xenograft tissue and organs (brain, kidney, liver), and structure confirmation of drug or metabolites of interest by collision-induced fragmentation. Thus, by combining mass spectrometry and MALDI imaging, this resource not only quantifies sphingolipids, glycolipids, free fatty acids, and prostaglandins in tissues but also provides information about their cellular location and distribution. LSR works with investigators to continually develop and validate new reagents and protocols in emerging fields related to lipidomics and cancer. By providing deep exploratory and high throughput lipidomic options to analyze cancer cells and tissues, combined with educational workshops, LSR serves a significant number of users, fostering interactions among basic, clinical, and population scientists at HCC as well as many other cancer centers. During the current cycle, LSR directly supported 151 investigators, resulting in impactful discoveries, top-tier publications, programmatic grants, and clinical studies. LSR is highly integrated with HCC research through effective communication of available services and expertise, as evidenced by the prevalence of lipidomics-related science and data in cancer center publications and investigator-initiated clinical trials. The future goals and impact of LSR include advancing and supporting important emerging scientific disciplines for HCC members and the broader scientific community to help them understand lipidomics, metabolomics, and their involvement in cancer progression."
+ },
+ {
+  "id": "248df286-cd73-4892-bb2f-e53af517b3a8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of mutant mitochondrial genome modulation",
+  "text": "Mutations in the mitochondrial genome can cause severe and devastating disorders. The research described\nhere aims to understand the propagation of mutant mitochondrial genomes. Insights gained from this work will\nallow for better prediction of disease development, and for the eventual discovery of therapeutics."
+ },
+ {
+  "id": "2491246b-2b82-4a79-a698-1a1e51313a7c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "From pathogenesis to new therapeutic targets in diffuse large B cell lymphoma",
+  "text": "Diffuse-Large-B-cell-lymphoma (DLBCL) is the most common B-cell non-Hodgkin lymphoma and remains\nincurable in ~30% of patients. Coding-genome sequencing efforts identified several genes/pathways altered in\nthis disease, including new potential therapeutic targets; however, the non-coding genome of DLBCL remains\nlargely unexplored. This proposal builds on our recent discovery of a highly pervasive, pathogenetically relevant\nmutational mechanism targeting super-enhancers in DLBCL that is likely to significantly influence the current\nunderstanding of the somatic genetic landscape of this disease, by identifying novel mechanisms of\ndysregulation for known oncogenes, as well as new dysregulated genes and pathways, with implications for\nprecision classification and therapeutic targeting of DLBCL."
+ },
+ {
+  "id": "2492beb8-8e53-4d99-b0d0-d033e180d9b2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular design for circuit engineering in the Drosophila brain",
+  "text": "Mapping the structure and function of neural circuits is an important prerequisite to understand how groups of\ninterconnected neurons produce perceptions and drive behavior. Here, we will use molecular design and in vivo\nwork in Drosophila to develop and test a new method to re-engineer the connectivity of brain circuits, by\npreventing the formation of specific synapses between neurons. Our strategies are in principle applicable to any\ngenetic system and will enable scientists to design new experiments and interventions not possible with existing\ntechniques."
+ },
+ {
+  "id": "24954a6e-cb24-4c7c-9a23-02f91e7f3e4a",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Predoctoral Training in Bioinformatics and Computational Biology",
+  "text": "Biomedical research is evolving rapidly as new high-throughput technologies, producing massive quantities of data, open new frontiers in data-driven predictive capabilities, boosting the applicability of complex data analysis and machine learning algorithms in areas ranging from personalized medicine and drug discovery to structural biology and microbial ecology. Simultaneously, high standards for production, use, and open access to data have become essential. This application seeks support for the Predoctoral Training Program in Bioinformatics and Computational Biology at Boston University which will train young scientists to become leaders in this transformational era."
+ },
+ {
+  "id": "24a1c0b3-213e-4b4b-807f-4ecdb10941f9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "LC: HIV PREVENTION TRIALS NETWORK",
+  "text": "The goal of the HIV Prevention Trials Network (HPTN) is to identify safe, effective, implementable, and scalable\ninterventions for HIV prevention. The HPTN Laboratory Center (LC) will provide leadership, expertise, and\nlaboratory support to the HPTN and oversee all laboratory activities in HPTN studies. The HPTN LC will\nparticipate in all phases of science generation; oversee and support activities at study sites; perform testing for\nHPTN protocols; develop, evaluate, and validate new laboratory methods; and perform innovative laboratory-\nbased research related to HIV prevention."
+ },
+ {
+  "id": "24a1e4a8-7f5f-469b-8603-92ca25d2daf2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A mechanistic 3D AI-powered map of genetic chILD",
+  "text": "Our Research Center will leverage our extensive lung tissue biobank and expertise in multi-omics, induced\npluripotent stem cells (iPSC) differentiation, and bioinformatics to construct a multi-scale map of the developing\nacinar and alveolar structures for the normal human lung and those with childhood interstitial lung disease\n(chILD). We will establish new technologies, experimental protocols, and computational approaches to support\nthe pulmonary research community and develop AI-powered analysis of complex multi-omic data to identify gene\nregulatory networks underlying normal lung formation and disease-related tissue remodeling. We will also\ngenerate patient-derived iPSCs to model and interrogate disease pathogenesis.\nLungMAP 2 - Project Narrative-v7"
+ },
+ {
+  "id": "24a2f4fd-362e-4475-b93c-4f7febc3621a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "E.M.P.O.W.E.R. (Electron Microscopy Program for Organellar Workflow Education and Research)",
+  "text": "The E.M.P.O.W.E.R. R25 program will establish a national model for advanced electron microscopy training, preparing scientists with the expertise required to apply, innovate, and expand cutting-edge imaging technologies across biomedical research. By integrating foundational microscopy techniques with modern computational and three-dimensional imaging approaches, the program will strengthen the cellular and structural biology workforce and ensure that electron microscopy remains at the forefront of biological discovery and technological innovation."
+ },
+ {
+  "id": "24ad775f-a011-4db5-8f71-e26c1e0dbc86",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Random field methods for integrative genomic analysis and high-dimensional risk prediction of congenital heart defects",
+  "text": "The genetic and maternal environmental exposures that influence the risk of congenital heart defects\nremain unclear. The proposed research by an early-stage new investigator will use advanced biostatistical\nmethods to identify the maternal genes, fetal genes, maternal lifestyle factors, and their complex biological\npathways that influence the disease risk. The findings will be used in a disease risk prediction model that will\nultimately improve prenatal disease detection, standardize genetic testing after birth, and inform subsequent\npregnancies."
+ },
+ {
+  "id": "24b3fd47-cfe4-4180-9468-2043ed00cdcc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Use of gold-based photothermal nanomaterials for the comminution of kidney stones",
+  "text": "(3 sentences max):\nKidney stones represent a significant burden on the US healthcare system with approximately 10% of\nAmericans suffering from this disease at some point in their life. The objective of this proposed body of work is\nto develop a nanotechnology based treatment that can specifically target kidney stones and cause stone\ncomminution through irradiation with a low power near-infrared laser in a non-contact mode. This project will\nadvance the career development of the investigator and provide the basis for the introduction of a paradigm\nchanging treatment modality for urolithiasis."
+ },
+ {
+  "id": "24b641db-a317-4a8f-a6cb-104f377bacd9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multiomic Investigation of Sudden Unexplained Pediatric Deaths",
+  "text": "In this proposed research, we will study the causative mechanisms underlying sudden unexpected deaths of\npediatric-aged children through careful analysis of the clinical information, comprehensive genetic analysis\nusing genome sequencing, novel assessment of genetic risk in unexpected death, and innovative metabolomic\ntechniques. The data obtained will inform future research aimed at early detection and intervention strategies\nto identify living infants and children at risk for sudden unexpected death and the prevention of this devastating\noutcome."
+ },
+ {
+  "id": "24b764b1-457e-4924-99bf-bbb8293f48e9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of a Video-based Personal Protective Equipment Monitoring System",
+  "text": "The proposed project is relevant to public health because it focuses on the design, implementation, and\nevaluation of a computer-aided real-time approach for detecting PPE nonadherence in high-acuity medical\nsettings. This system will facilitate monitoring of PPE adherence by healthcare workers in settings at high-risk\nfor infection transmission and will form the foundation for developing alerting approaches to PPE\nnonadherence. The results of this research are expected to have an important positive impact on the protection\nof healthcare workers and their patients."
+ },
+ {
+  "id": "24b9a2ec-4084-400c-8f75-5beace2a647e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Anterior Cingulate Dysfunction in a PAE-AIE Combined Model During Protracted Abstinence",
+  "text": "MAIN 5 Alcohol consumption during early pregnancy is a common occurrence in our society. Unfortunately, prenatal alcohol exposure increases the risk of onset of alcohol consumption to problematic levels earlier in adolescence. Both prenatal and adolescence periods are critical windows for neurodevelopment and insults to the developing nervous system, such as alcohol exposure, may dysregulate typical neurogenesis and synapse formation, ultimately resulting in behavioral maladaptations such as augmented anxiety-like behavior and pathological pain perception. The pain and the addiction circuit overlap with many mesocortical interactions. The anterior cingulate cortex (ACC) is at the intersection of addiction and pain circuit and receives dopamine projections from the ventral tegmental area. Dopamine in the ACC contributes to the excitation/inhibition balance within layer 2/3 in the ACC and is affected by chronic ethanol exposure during adolescence in the nucleus accumbens in a sex- and age of exposure-dependent manner. Interestingly however, changes in cortical dopamine and the resulting shift in excitation/inhibition balance is unknown following prenatal ethanol exposure (PAE), adolescent intermittent ethanol exposure (AIE), or double-hit with PAE+AIE exposure. Therefore in Main Project 5, we will elucidate the effect of PAE alone, AIE alone, and the combination of the two (PAE+AIE) on the interplay between dopamine and glutamate and the resulting changes in affective behavior and mechanical nociception. Our overarching hypothesis is that PAE+AIE exposure synergistically augments anxiety-like behaviors and mechanical allodynia in male and female rats via altered interactions between glutamate and dopamine in the ACC. Specifically, in Aim 1 we will examine the excitability of glutamate neurons and dopamine terminal excitability in the ACC during protracted abstinence from PAE, AIE, and PAE+AIE exposures using electrophysiology and fast scan cyclic voltammetry (FSCV), respectively. We predict that PAE+AIE with reduce glutamate and dopamine transmission significantly more than either PAE or AIE alone. In Aim 2, we will determine the impact of subsequent ethanol exposure on overall neural activity and glutamate and dopamine transmission in ACC layer 2/3 using electrophysiology and FSCV, respectively. We expect to find a sensitized response to acute ethanol with respect to glutamate and dopamine transmission in PAE+AIE exposed rats compared to rats with single (PAE or AIE) exposure. Finally, in Aim 3 we will determine a causal link between ACC layer 2/3 neuron activity and/or dopamine and anxiety-like behavior and mechanical allodynia using chemogenetics. We predict that dysregulation in both glutamate and dopamine will contribute to the pathological pain perception and augmented anxiety-like behavior in PAE+AIE exposed rats. Collectively, this proposal will identify the impact of alcohol exposure during two developmentally critical windows on interactions between glutamate and dopamine in the ACC resulting in augmented anxiety-like behavior and mechanical allodynia."
+ },
+ {
+  "id": "24c713a9-3dcb-4e92-b828-e2f5de68297e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identifying gene-level host/bacterial interactions that regulate intestinal inflammation",
+  "text": "The development of intestinal inflammatory diseases is associated with characteristic and consistent shifts in\nthe intestinal microbiome. We have developed a novel technique to measure the transcriptome of individual\nbacterial taxa within a mixed population and will couple this with novel bioinformatic techniques to uncover the\ncore set of bacterial genes that drive intestinal inflammation across multiple disease models. Identification of\nthe bacterial genetic pathways that drive inflammation could lead to the development of drugs that are effective\nagainst multiple intestinal diseases, including inflammatory bowel disease."
+ },
+ {
+  "id": "24c93f0f-89c2-4ee0-91a9-b589e753e6e7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Optimizing Mobile Photon-Counting CT Image Quality via Deep Learning for Neuro Intensive Care Unit",
+  "text": "Mobile computed tomography (CT) is widely used in the neuro intensive care units (ICU) to reduce the risk during\nthe transportation of critically ill patients to a fixed CT scanner. However, it suffers from deteriorated image quality\ncompared to a fixed scanner and is insufficient for the diagnosis of small lesions. In this project, we propose to\nleverage the benefits from a photon-counting mobile CT, as well as deep learning-based image reconstruction\nalgorithms, to improve the image quality of mobile CT to or beyond the level of a fixed CT scanner."
+ },
+ {
+  "id": "24cc46c2-c3ee-46a8-8520-fe2ef33bc6fc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Integrating Acute and Ambulatory Care with Post-Discharge Monitoring and Machine Learning",
+  "text": "Unplanned Emergency Department visits and hospitalizations are costly and burdensome to patients and the\nhealth system. Some of these visits may be preventable by appropriately monitoring high-risk patients to\ngenerate early warnings of deterioration and unmet health needs, but current research is limited in the patient\npopulations studied, and by a lack of integration between remote monitoring and acute care. This project will\nproduce a machine learning framework for integrating continuous home monitoring of vital signs and activity\nwith acute care, to guide the development of monitoring and intervention strategies for patients discharged\nfrom the hospital, and the effective use of home monitoring data when patients return to the hospital."
+ },
+ {
+  "id": "24d1ea95-c96c-4f40-9f20-13d49710cfe5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Deep Learning for low Vision Enhancement (DELVE)",
+  "text": "Low vision rehabilitation (LVR) can improve functional ability and quality of life for people with visual impairment,\nbut referral rates for LVR are inconsistent and can be extraordinarily low since it is unknown which patients would\nbe most likely candidates to pursue LVR with successful outcomes. Thus, we aim to validate and refine deep\nlearning prediction models applied to ophthalmologic electronic health records (EHR) to determine visual\nprognosis and predict which patients received LVR interventions, as well as establish a multicenter network of\nLVR providers who will coordinate and harmonize their EHR data for future research involving deep learning\nmethods. Our long-term initiative beyond this planning grant is to leverage deep learning techniques to identify\nbest practices and gaps in care for LVR services, in order to drive new intervention development and significantly\nenhance patient care for visually-impaired individuals."
+ },
+ {
+  "id": "24d22e8f-662d-4736-8023-137f875151cd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating the role of cGMP signaling in glaucomatous neurodegeneration",
+  "text": "Glaucoma is the leading age-related cause of irreversible blindness worldwide and will afflict an estimated 112\nmillion people by 2040. The disease causes retinal and optic nerve degeneration through sensitivity to ocular\npressure, but lowering pressure does not always stop progression. The work proposed here investigates a novel\nIOP-independent role for cGMP in the pathophysiology of glaucoma and may identify a novel opportunity for\ntherapies to slow degeneration and preserve vision."
+ },
+ {
+  "id": "24d36a08-e2ad-4de3-ae40-60d1e4474cab",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cellular-level Vascular Oculomics (CVO) for monitoring systemic vascular health",
+  "text": "The eye presents an optimal and unique window for evaluating the vascular health of the entire body. Using advanced imaging tools, this project will visualize the individual cellular components of the retinal vascular system.  By coupling high resolution imaging to artificial intelligence powered software, this project will deliver cellular level imaging of the retinal vasculature to monitor the vascular system of the entire body. Success of this approach will inform other approaches that use lower resolution imaging, by providing the cellular basis for the findings that underlie the different vascular patterns in systemic diseases."
+ },
+ {
+  "id": "24daa5cb-925f-4aca-b972-1f66915bb6a7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "3D High Resolution Magnetic Resonance Fingerprinting for Prostate Cancer",
+  "text": "The proposed research is relevant to public health because it focuses on advancing the detection and\ncharacterization of prostate cancer by developing reproducible and repeatable quantitative MR imaging methods.\nOnce proposed technologies have been developed, they have potentials to provide an objective identification\nand classification of prostate cancer, thus reducing unnecessary biopsies and facilitating appropriate treatment\nselection. Thus, the proposed research is relevant to the part of the NIH’s mission that pertains to improving the\ndiagnosis of human diseases."
+ }
+]

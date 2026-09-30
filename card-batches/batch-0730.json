@@ -1,0 +1,142 @@
+[
+ {
+  "id": "781e6860-a33a-4eb4-b1c0-bda49bb2cc7e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Deciphering the role of chemical signals in inflammation with open microfluidic functional assays",
+  "text": "Molecular communication across cell types is central to life—communication between cell types in a human\norgan is critical to normal function, and microbe-host or microbe-microbe communication drives microbial\necosystems. This proposal will study signaling between human immune cells and fibroblasts and signaling\nbetween microbes relevant for human health (e.g., commensal and pathogenic bacteria and fungi). We will\ndevelop a suite of microfluidic tools to broaden the scope of mechanistic questions that can be addressed,\nultimately enabling the development of therapies to target dysfunctional signaling and inflammation in human\ndisease."
+ },
+ {
+  "id": "781f04e7-3f90-4bf5-a9f5-be17bb6cddfa",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Association of Phenotypes and Genotype with Treatment Response in Psoriatic Arthritis",
+  "text": "Despite an increasing number of therapeutic options for psoriatic arthritis (PsA), a chronic progressive\ninflammatory disease of the skin and musculoskeletal system affecting over half a million Americans, less than\na third of patients respond to therapy. This is, in part, because PsA is studied and managed as if it were a single\ndisease. In this proposal, we will use two unique real-world PsA cohorts to better understand clinical and genetic\nheterogeneity in PsA and to identify those who are more likely or less likely to respond to therapy."
+ },
+ {
+  "id": "782246b9-bb64-4de3-b995-c9f5cfe865f0",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Mechanisms of Assembly and Functional Regulation in Non-canonical Biomolecular Condensates",
+  "text": "Proteins-only biomolecular condensates are a crucial part of normal cellular processes and their mis-regulation\nis at the heart of various pathologies. Unfortunately, current understanding on what sequence motifs promote\nthe assembly of such condensates and the biophysical principles that regulate their composition and dynamics\nhas been limited. Discoveries from this work will provide a framework in fundamental understanding of these\ncondensates and bring new opportunities to prevent, diagnose, and treat condensate-driven diseases."
+ },
+ {
+  "id": "7825fe6e-3aef-4e60-b803-0b1cf33fcffb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Structure-based discovery and development of next-generation sCD4 immunotherapeutics for HIV",
+  "text": "HIV remains a major public health challenge because existing therapies suppress viral replication\nbut do not eliminate infected cells or viral reservoirs. This project seeks to develop a new class of\nsoluble CD4 (single D1 domain)-based bifunctional immunotherapies that not only block HIV\ninfection with broad potency but also harness the immune system to eliminate HIV-infected cells.\nSuccessful completion of this work could enable durable, ART-free HIV remission and directly\nsupports NIH and HHS priorities in advancing innovative treatments for HIV/AIDS."
+ },
+ {
+  "id": "7832adbd-2cf7-4bdf-ba5f-d26e429b0e97",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "An Engineered Bioprinting Platform to Study Neural Migration in Assembloids",
+  "text": "Human induced pluripotent stem cell (hiPSC)-derived neural assembloids represent a powerful tool to study\nneural interactions across multiple brain regions; unfortunately, current assembloid generation protocols\ncommonly yield randomly oriented, heterogeneous structures with limited spatial control, which significantly limits\ntheir application in functional studies. We propose to develop a novel, non-destructive 3D-bioprinting technology\nto pattern reproducible, precise, and spatially-relevant, assembloid structures as in vitro models for studying\ninterneuron migration in neurodevelopment and its disorders. The success of our work will establish a\ntransformational technology that yields robust and reproducible assembloids for in vitro functional investigations\ninto human brain development and diseases, with proof of concept studies targeting autism spectrum disorder."
+ },
+ {
+  "id": "7833c9b8-af40-496f-b77b-af446fa714d5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Transcriptional overload: unlocking a new anti-cancer paradigm by targeting DDX19A",
+  "text": "This proposal is relevant to public health as it identifies the mechanism of action of the RNA helicase DDX19A,\na regulator of transcription in the bone malignancy Ewing sarcoma. This research will also lead to the\ndevelopment of first-in-class small molecule inhibitors of DDX19A which will serve as future therapeutics in this\naggressive disease. Thus, since this work addresses the critical need to determine novel approaches to target\ncancer-driving transcription factors, the proposed research is also relevant to the NCI mission of advancing\nfundamental knowledge to enhance health and reduce illness and disability from cancer."
+ },
+ {
+  "id": "7836113a-b59f-45c0-930b-6c21a9df6459",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "TopoROP: Multi-View Topology-Integrated Analytics for Diagnosis of Retinopathy of Prematurity",
+  "text": "TOPOROP: MULTI-VIEW TOPOLOGY-INTEGRATED ANALYTICS FOR DIAGNOSIS OF RETINOPATHY OF\nPREMATURITY\nRELEVANCE. With increasing survival of premature infants, largely due to improved perinatal and neonatal care, Retinopa-\nthy of Prematurity (ROP) is the leading cause of preventable childhood blindness globally, resulting in significant societal\ncosts from lost productivity. We introduce a novel multi-view framework that models retinal vascular topology with deep\nlearning at the network level to derive interpretable biomarkers for comprehensive quantification of ROP disease progression\nto secure optimal treatment outcomes. By enabling more efficient, accurate and objective screening for telemedicine, this\ntopology-integrated model will decrease the prevalence of preventable vision loss in both childhood and adulthood to combat\nthe latest epidemiological phase of ROP."
+ },
+ {
+  "id": "783c13af-a328-4423-aeee-d8bfdfdcc445",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Non-coding RNA structure change in Chronic Obstructive Pulmonary Disease",
+  "text": "Chronic obstructive pulmonary disease (COPD) affects between 5 and 7% percent of the adult US population.\nMost mutations associated with COPD change regions of the genome that do not code for protein but are\ntranscribed into RNA. By combining RNA sequencing analysis of lungs from COPD patients with novel RNA\nstructure probing technologies to identify functional RNA structures in COPD associated genes, we will illuminate\nnew causative features of COPD and, over longer periods, inspire new RNA-based therapeutic strategies."
+ },
+ {
+  "id": "783dd4f4-d302-47b1-9e59-a5b6fc365b13",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Motion Adaptive Neural Interfaces for Brain-Body Communication",
+  "text": "This project will create soft, motion-adaptive hydrogel microelectrodes that can stably record neural activity from\nthe spinal cord and internal organs while animals move and breathe normally. These tools will help scientists\nunderstand how the brain communicates with the body through spinal and autonomic circuits and may guide\nnew treatments for spinal cord injury, autonomic dysfunction, and gut-brain axis disorders."
+ },
+ {
+  "id": "78416881-25e0-4d47-81aa-582551c23c43",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Impact of Shiftwork on Metabolic Flexibility and Skeletal Muscle Clocks",
+  "text": "Shiftwork is now recognized as a risk factor for type 2 diabetes, yet the mechanisms underlying these\nassociations are poorly understood. Herein, we will test the hypothesis that real-world nightshift work impairs\nwhole-body metabolic flexibility across the 24h day-night cycle, and that this will be associated with disrupted\nskeletal muscle clocks. To test this hypothesis, we will conduct rigorously controlled in-patient studies to assess\nand compare whole-body metabolic flexibility using innovative 24h metabolic chamber protocols, as well as\nskeletal muscle clock function by comparing diurnal shifts in skeletal muscle clock genes, in dayshift versus\nnightshift workers."
+ },
+ {
+  "id": "78451577-6ba1-4293-8601-6bd01622fafc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mount Sinai Alzheimer's Disease Research Center",
+  "text": "The Mount Sinai Alzheimer’s Disease Research Center is dedicated to using our strengths in genetics and genomics to serve our cohort at risk for ADRD by studying the relationship between the polygenic risk scores (PRS), fluid and imaging biomarkers, cognitive phenotype, and neuropathological profiles to identify pathways of vulnerability or resistance to disease to improve diagnosis, treatment, and prevention of ADRD."
+ },
+ {
+  "id": "784b1b3a-bd65-4be5-a713-e648e0a2dad8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A computational framework for quality assessment and curation of models at scale",
+  "text": "Although modeling is an important component of a research pipeline in biology, there is no systematic or\nstandardized approach for quality assessment and annotation of models, thus reducing their trustworthiness and\nreuse potential. Our goal is to standardize and fully automate the iterative process of assembly, documentation,\nand assessment of models of cell signaling, and as such, maximize the model reuse potential and their long-\nterm value, while minimizing the risk for models to become obsolete. The objective of this proposal is to develop\na computational framework that allows researchers to automatically verify, validate, annotate, modify, and update\ntheir models using open access information in published literature and databases."
+ },
+ {
+  "id": "784eec6f-683c-4f64-a834-c8d19743ef96",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The chemical language of human gut bacteria in healthy aging",
+  "text": "This research is relevant to public health because elucidating how microbiome-derived bioactive molecules\nregulate host aging can reveal molecular targets to mitigate age-related decline and promote healthy aging. It\ndirectly supports the NIH mission to advance fundamental knowledge that improves health and reduces the\nburden of age-associated disease."
+ },
+ {
+  "id": "7852a70a-b1c5-4785-88dc-4422229a0dcb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Placental and breastmilk microRNAs in relation to early-life growth and metabolism",
+  "text": "Gestational and early childhood exposures, including maternal metabolic status and breastfeeding, are\nincreasingly recognized as critical in the development of childhood and life-long obesity. The proposed\nresearch seeks to comprehensively assess the impact of maternal metabolic status on early childhood growth\nand metabolism, through the gene regulatory dynamics of placental and breastmilk microRNAs. This research\nhas the potential to advance our understanding of the contribution of microRNAs and early-life exposures on\ngrowth and metabolism, and to more broadly contribute the Developmental Origins of Health and Disease."
+ },
+ {
+  "id": "78543df0-fb28-42f6-8dd4-a009e81d7a85",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Application of precision medicine to phototherapy: a stepped care approach to consolidate sleep and slow cognitive decline in older adults",
+  "text": "Consolidated sleep is crucial for older individuals' cognition, health, and well-being, but the fragmentation of\nsleep and wake increases with age. This study will investigate underlying mechanisms contributing to sleep-\nwake fragmentation and explore the utility of a novel intervention, afternoon phototherapy, to reduce the\nconsequences of sleep-wake fragmentation, including ameliorated cognition. Results from this project may lead\nto an inexpensive or free scalable intervention with the potential to ameliorate cognitive decline and other\nconcomitants of fragmented sleep, delay institutionalization, and improve the quality of life in older individuals."
+ },
+ {
+  "id": "78554c9c-6b35-4876-afe4-90b7d0b95539",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Center Core Grant for Vision Research",
+  "text": "(Overall)\nThe renewal of this Vision Research Core Grant is to request continuing funds by 22 vision scientists (holding\n15 core-eligible NEI R01 grants) to provide crucially needed expertise and instrumentation to enable and\nenhance NEI-R01 funded vision research at the James and Jean Vision Discovery Institute (VDI) with members\nfrom Augusta University, and UGA Clinical and Experimental Therapeutics group in Augusta. We have organized\nthe services and shared instrumentation into three modules: 1) Functional Vision Assessment; 2) Histology and\nImaging; and 3) Bioinformatics and Biostatistics Support, led by NEI-R01 funded VDI researchers to enhance\nthe capability of vision scientists at VDI performing cutting-edge research/discovery of blindness and visual\ndisorders."
+ },
+ {
+  "id": "7858e5ef-29b7-4cab-b8cf-c800fe010e80",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating the impact of chromosomal instability on prostate cancer aggressiveness",
+  "text": "Advanced lethal prostate cancer (PC) exhibits high chromosomal instability (CIN), yet the role of CIN in PC\nremains poorly understood. This proposal will investigate how CIN shapes transcriptional reprogramming and\ngene bookmarking, identify new proteins and mechanisms of CIN adaptation, and study CIN impact on the\nimmune cell microenvironment in advanced PC. Combining epigenomics, transcriptomics, proteomics, high-\nresolution microscopy, and genetics in in vitro and in vivo models our studies will help define novel PC\nvulnerabilities arising with CIN and uncover new targetable mechanism that may improve PC patients outcomes."
+ },
+ {
+  "id": "785ca274-9995-4b38-be4d-3222caca60b7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms Underlying the HIV-HSV-2 Syndemic",
+  "text": "Herpes simplex virus type 2 (HSV-2) is one of the most significant factors fueling the global HIV\nepidemic and coinfection is associated with higher HIV plasma viral loads and increased rates\nof HIV transmission. The goal of this application is to identify the mechanisms by defining the\ntranscriptional responses to HSV-2 in HIV-infected individuals using primary cells and genital\nskin biopsies obtained during HSV-2 recurrences and to determine how these responses\npromote HIV replication. The results obtained will have broad implications and accelerate the\ndevelopment of strategies for HIV eradication."
+ },
+ {
+  "id": "786171dc-2a6b-4b23-9f11-b4e713c7670d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Computational Population Genetics",
+  "text": "In this MIRA proposal we seek to continue our work at developing computational methods for\npopulation genetic inference from whole genome data. We propose three areas of interest: 1) spatial\npopulation genetics, 2) the population genetics of adaptation, and 3) development of community\nlibrary aimed at improving rigor and reproducibility in the field. We will produce multiple tools and\nresources that will usher in the next generation of inference for the incredibly rich genomic data\ncurrently under collection."
+ },
+ {
+  "id": "7865e16d-e084-4c2c-9f60-2d05af4ac1e6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Basal airway epithelial cell dysfunction in lung cancer development",
+  "text": "Lung squamous cell carcinoma (LUSC), the second most common subtype of lung cancer, continues to have\nlimited treatment options and cause significant mortality. The series of bronchial premalignant lesions (PMLs)\nthat precede LUSC may serve as a target for early targeted chemoprevention strategies. We propose to use\nin-vitro and in-vivo models to understand the changes in the transcriptome and chromatin states during the\nearly development of LUSC to identify novel targets for LUSC chemoprevention and assess the efficacy of a\nsmall molecule inhibitor in intercepting bronchial PML progression."
+ }
+]

@@ -1,0 +1,142 @@
+[
+ {
+  "id": "cca3b661-8706-4af5-87e6-7f562afa5e28",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "DeepHIV-AoU: A Multi-modal Deep Learning Framework Leveraging the All of Us Research Program for HIV Precision Prevention",
+  "text": "This project leverages advanced multi-modal deep learning and the All of Us Research Program\ndataset to develop a precision framework for HIV risk stratification. By integrating electronic health records,\ngenomics, behavioral surveys, and non-medical drivers of health, the tool identifies individuals at high risk for\nHIV acquisition and those likely to discontinue preventive medications. This research directly supports national\nefforts to end the HIV epidemic by providing clinicians with actionable data to improve the delivery and\npersistence of life-saving prevention strategies."
+ },
+ {
+  "id": "cca854b8-6234-40d9-a655-fbaa27330ea5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Advancing Functionality and Delivery of Miniature CRISPR Systems through Directed Evolution",
+  "text": "The large size of commonly used CRISPR nucleases limits their delivery. Miniature CRISPR systems offer a\nsolution but face challenges in efficiency and specificity. Leveraging directed evolution, machine learning, and\nadvanced delivery vehicles, we aim to transform miniature CRISPR systems into versatile genome-editing tools."
+ },
+ {
+  "id": "ccac3254-cdf6-411f-860d-7227ec39360e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Vascular niche restoration to prevent delayed effects of acute radiation exposure (DEARE) in the hematopoietic system",
+  "text": "Delayed effects of acute radiation exposure to the blood system can be severe, including failure\nof blood production and transformation to leukemia. Blood stem cells depend on signals from\nnearby blood vessels, the “vascular niche”, for survival and regeneration after injury. We will test\nwhether therapeutic restoration of the damaged vascular niche can prevent blood system failure\nand development of leukemia over time following acute radiation injury."
+ },
+ {
+  "id": "ccb254a1-b67c-4c5a-aafd-47613f581a32",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Genetically-engineered Bacteria Overcome Therapy Resistance",
+  "text": "This proposal in response to PAR-22-085: Microbial-based Cancer Imaging and Therapy - Bugs as Drugs, is\nrelevant to public health since it focuses on metastatic pancreatic ductal adenocarcinoma (PDAC), a cancer\nconsidered particularly difficult to target and generally unresponsive to current therapies. We propose to\ninvestigate the systemic administration of genetically-engineered Bifidobacterium delivering a novel human IL-\n2 (SumIL2) to the TME in combination with radiotherapy and/or immunotherapy. Our approach takes\nadvantage of the natural features and genetic engineering of Bifidobacterium to reinvigorate the immune\nsuppressive TME via systemic injection, and thus could have broad applicability in other hard-to-treat cancers."
+ },
+ {
+  "id": "ccb411cf-f9f5-4848-86e6-ad8986f139a5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Analytical Biochemistry Shared Resource",
+  "text": "Analytical Biochemistry Shared Resource Summary The goals of the Analytical Biochemistry Shared Resource (ABSR) are to provide access to state-of-the-art mass spectrometry, advanced data analysis, and validated biomarker quantitative assay services to members of the Masonic Cancer Center (MCC). These goals are met through 3 Specific Aims: 1) Through the Mass Spectrometry Laboratory services, provide expertise on trace analysis of biologically important compounds, including DNA adductomic, exposomic, metabolomic, and proteomic services; 2) Through the Bioinformatics and Advanced Data Analysis services, process and analyze large and complex mass spectrometry -omics data sets, including DNA adductomics, exposomics, metabolomics, and proteomics data, and support and train users in the use of advanced data analysis software tools; and 3) Through the Biomarker Quantitation service, offer sensitive and quantitative methods for determining numerous chemical exposures in human urine, blood, or DNA. The members of MCC rely on ABSR staff for maintenance of instrumentation, guidance on related projects, method development, chromatography, and troubleshooting analytical problems. The Resource teaches and trains new users, including graduate students and postdoctoral fellows, on chemical analyses and mass spectrometric methods. New users receive one-on-one training from the staff on hands-on operation of both instrumentation and software. After training, the new users are usually capable of semi-independent use of most instrumentation. Experienced, trained users have continuous access 7 days a week. The less- experienced users operate the instruments under staff supervision. Dr. Peter Villalta (Carcinogenesis and Chemoprevention Program [CC]) has been the director of ABSR since 2019, before which he coordinated the Mass Spectrometry Laboratory for 20 years. Other key staff include Dr. Sharon Murphy (CC), who coordinates the Biomarker Quantitation service; Dr. Scott Walmsley, who is the Bioinformatics Coordinator; Dr. Linda von Weimar, who supports the work of both the Mass Spectrometry Laboratory and the Biomarker Quantitation service; and Dr. Yangchuan Zhao, an analytic chemist in the Mass Spectrometry Laboratory. Users are billed by the hour for instrument usage, with CCSG funds subsidizing the rates for MCC members. ABSR was used by 48 investigators in fiscal year 2022, of whom 37 were members of MCC."
+ },
+ {
+  "id": "ccb67744-15e4-40ae-9d29-b1cbcd4b1041",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Bundled Outreach of Multiple Cancer Screenings for Under-screened Populations (BUNDLE)",
+  "text": "Primary care clinics can successfully increase low rates of cancer screening using outreach strategies, but\nmost studies focus on a single cancer rather than all recommended cancer screenings. Therefore, we will\nadapt and test a multicomponent outreach intervention (text, mailings, patient navigation) of multiple cancer\nscreenings (breast, cervical, lung, colorectal) as the BUNDLE intervention. This study is a collaboration\nbetween long-term research partners that will engage at least 18 unique primary care clinics in Oregon and\nNorth Carolina and reach over 1600 patients to improve early detection, prevention, and treatment of multiple\ncancers."
+ },
+ {
+  "id": "ccc5e09f-50a3-4126-a787-cdd9cca29666",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms underlying chromosome specific telomere lengths in yeast",
+  "text": "Telomeres length equilibrium plays a key role in age-related degenerative disease and cancer.\nWe discovered that, contrary to current models, each telomere has a distinct length distribution.\nWe will test the mechanisms that establish these distinct length distributions."
+ },
+ {
+  "id": "ccc77701-cf2b-4c63-8fac-b9291ae6cc36",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Motion and distortion-robust quantitative MRI of early brain developments",
+  "text": "The proposed research is relevant to public health because it develops innovative quantitative medical imaging\ntechnology that enables fast, efficient, and safe in-vivo evaluation of neurovascular structures and\ncharacterization of normal versus abnormal brain growth in fetuses and neonates with perinatal stroke. The\nproposed research is relevant to the NIH mission as it pertains to developing fundamental technology and\nknowledge that enables the development of early preventive interventions that lengthen life and reduce the\nburdens of human disability."
+ },
+ {
+  "id": "ccd3553d-8204-4793-9784-f1bf84c2d863",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Creation of the Framingham Heart Study Cardiovascular Biobank and Atlas",
+  "text": "Our understanding of the pathobiology of complex cardiovascular diseases has been hindered by animal\nmodels that do not recapitulate the spectrum of phenotypes observed in patients, limitations in access to\nhuman cardiovascular tissue, and an incomplete understanding of the clinical phenotypic spectrum. We\npropose to create the Framingham Heart Study (FHS) Cardiovascular Biobank and Atlas, consisting of a\ndetailed postmortem cardiac and blood vessel tissue repository and cardiovascular tissue-level omics (single-\nnucleus RNA sequencing) from consented FHS participants, linked to rich longitudinal phenotypes and\ncirculating omics data across the lifespan. This unique FHS resource will advance our understanding of the\nrelation of cardiovascular risk factors with cardiovascular structure and phenotype and enable us to identify\nnew biomarker signatures for CVD in an unprecedented and systematic manner."
+ },
+ {
+  "id": "ccd41270-5aa1-43bb-83c8-60ffc736aa28",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Psycho-neuro-immune Mechanisms Linking Stigma and Discrimination to Carotid Plaque Formation in Persons living with HIV",
+  "text": "Modified Narrative: Public Health Relevance Section\nThis study is relevant to the health of individuals at risk for atherosclerotic cardiovascular\ndisease who are predisposed to psychosocial stressors related to their HIV-positive\nstatus. A multidisciplinary research team will evaluate laboratory and ecological\nmomentary assessments of the psychoneuroimmunological response to psychosocial\nstress to further our understanding of the biobehavioral risk factors for coronary plaque\nburden in people living with HIV."
+ },
+ {
+  "id": "ccd5b6b3-c550-49ad-aec3-0993c43f3cee",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Scaling clinical wearable foundation models for the detection of in-hospital deterioration",
+  "text": "This research is highly relevant to public health by developing and disseminating advanced AI-driven software\ntools aimed at the early prediction of clinical deterioration in hospitalized patients. By enabling more timely and\npersonalized interventions, this work has the potential to significantly improve patient outcomes, reduce the\nincidence of preventable adverse events, and decrease healthcare costs associated with acute in-hospital\ndeterioration. Ultimately, these efforts will contribute to enhancing patient safety, lengthening life, and reducing\nillness for a broad population of patients in non-critical care settings."
+ },
+ {
+  "id": "ccf14527-1bac-42f3-948e-adf201f5df63",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Novel Quality Measures for Primary Care Management of Attention-Deficit/Hyperactivity Disorder",
+  "text": "There is an urgent need to develop meaningful quality measures for Attention-Deficit/Hyperactivity Disorder\n(ADHD) treatment by pediatric primary care providers, as a prerequisite for improving health outcomes for\nchildren with this highly prevalent condition. This project will leverage recent advances in machine learning\nmethods and engage key stakeholders to develop robust quality measures for ADHD treatment, and to prepare\nfor quality improvement interventions. The completion of this project will strengthen collaborations between\nstakeholders to continuously improve evidence-based practices in primary care settings and mitigate health\ndisparities for individuals with ADHD and other mental and behavioral health conditions."
+ },
+ {
+  "id": "ccf48140-d236-42fd-9c09-1b32db0e563b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Examining somatostatin receptor pathways following binge drinking: a focus on PFC-->PAG projections",
+  "text": "Somatostatin (SST) functions as a brake on cortical excitatory signaling; however, this effect is decreased\nfollowing binge-like alcohol consumption in mice. The goal of this proposal is to determine how alcohol alters\nSST peptide signaling onto glutamate projections from the prefrontal cortex (PFC) to areas implicated in aversion\nand reward signaling such as the periaqueductal grey (PAG). Through this training fellowship, I will examine\ndifferences in SST function, and in vivo neuronal signaling following binge-like consumption of alcohol in mice,\nas well as develop necessary skillsets for a successful future academic career."
+ },
+ {
+  "id": "ccf5c546-b10a-4902-9ee2-f4cf16f5bf11",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cannabis use, PrEP and HIV transmission risk",
+  "text": "This project seeks to investigate relationships between multiple aspects of cannabis use in relation to HIV prevention behaviors (e.g., pre-exposure prophylaxis [PrEP] use, adherence, and discontinuation) and biological vulnerability to HIV infection among populations in the United States heavily impacted by HIV/AIDS."
+ },
+ {
+  "id": "ccfb7bd3-0911-42bb-b383-921478ecbe68",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Developing Switchable and Functional Fluorophores For Multi-Functional Super-Resolution Microscopy",
+  "text": "This project aims to develop a library of switchable and functional fluorescent probes for\nmulti-functional single-molecule super-resolution imaging of live cells. I will encode\ndistinct single-molecule spectral features of the switchable fluorophores and integrate\nthem with a spectroscopic single-molecule optical imaging platform in the three\nresearch thrusts to collectively achieve multi-functional nanoscopic imaging capabilities.\nThis project will allow biomedical researchers, for the first time, to achieve simultaneous\ninteraction imaging of multiple molecules and functional imaging of their surrounding\nnanoenvironment which fundamentally regulate distinct subcellular processes."
+ },
+ {
+  "id": "cd0379cd-674a-48f4-8762-e2899aeff74d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular Insights into Membrane Pathways of Alzheimer's Disease",
+  "text": "Alzheimer’s disease's pathology in the brain includes the accumulation of β-amyloid plaques related to key\nmembrane protein pathways. This project aims to elucidate the regulatory mechanisms of these key factors\nusing structural, biophysical, and functional techniques. The insights gained from this study will advance the\nunderstanding of AD pathology and pave the way for innovative treatments that target these key proteins."
+ },
+ {
+  "id": "cd080b23-e26c-4b57-9d59-b29eedd47739",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting WNT7A Signaling in Pulmonary Fibrosis",
+  "text": "Idiopathic pulmonary fibrosis (IPF) is a fatal form of interstitial lung disease and there is no effective therapeutics\nfor the disease currently. In this proposal, we will test the hypothesis that the dysregulated signaling pathways\nin the pathogenically accumulating basal-like cells in IPF promote fibrogenesis by activation of the WNT signaling\nin the fibrotic niche, leading to impairment of AT2 renewal and fibroblast activation. This study will further aid us\nto understand the biology and pathology of basal cell-mediated fibrogenesis in IPF and help us to develop\ntherapeutic strategies for patients with IPF."
+ },
+ {
+  "id": "cd0acf04-f671-4a09-9c89-2ccd202e1da5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "An end-to-end informatics framework to study Multiple Chronic Conditions (MCC)'s impact on Alzheimer's disease using harmonized electronic health records",
+  "text": "We will build an end-to-end system to convert electronic health records (EHR) to Fast Healthcare Interoperability\nResources (FHIR) with integrated machine learning models to explore multiple chronic diseases (MCC)’s impact\non Alzheimer's disease. Partnering with ACTIVE MIND, an interventional trial that examines the potential efficacy\nof cognitive training (CT) in reducing dementia incidences, we will develop a demonstration project to promote\nthe use of interoperable health records in clinical research by identifying and stratifying patients with Mild\nCognitive Impairment (MCI) who are at risk for developing Alzheimer's disease."
+ },
+ {
+  "id": "cd14d0e9-5f11-46e4-991e-2575378753ba",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Developing AI-measures of Pedestrian Environment Features for Physical Activity and Cancer Prevention in Rural Communities",
+  "text": "8. Project Narrative\nThis research is critical for understanding the link between rural pedestrian resources and modifiable cancer\nrisk factors such as physical activity. Existing research has ostensibly focused on large-scale walkability\nfeatures that are infeasible to improve in rural areas, but substantial barriers exist to measuring more\nchangeable micro-scale pedestrian environment features (e.g. sidewalks, lighting) across rural geographies.\nThis project will overcome feasibility issues in conducting in-person audits of micro-scale environmental\nfeatures in under-resourced and expansive rural communities by leveraging artificial intelligence and assessing\nthe understudied link between disparate micro-scale pedestrian environments and physical activity among\nmiddle to older-aged adults across the United States."
+ },
+ {
+  "id": "cd174652-1816-45d8-b11e-8e4a086f56e7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Immune checkpoint Inhibitor-Induced Autoimmune Diabetes: Immunological Mechanisms and Biomarker Discovery in Provoked Beta Cell Autoimmunity",
+  "text": "Immune checkpoint inhibitor (CPI) induced diabetes (CPI-DM), a rare but highly morbid endocrine immune\nrelated adverse event (irAE), offers a unique opportunity to study beta-cell autoimmune disease. Identifying\ngenetic risk and immune features of CPI-DM will advance possible prediction and intervention for prevention\nand treatment of CPI-DM, thereby furthering cancer care. Furthermore, these findings will illuminate steps\nrequired for autoimmune destruction of beta-cells occuring in type 1 diabetes mellitus (T1DM)."
+ }
+]

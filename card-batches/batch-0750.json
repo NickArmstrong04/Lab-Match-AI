@@ -1,0 +1,142 @@
+[
+ {
+  "id": "7ee61438-bb95-4717-9bed-9d6091dcb2c6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dissecting mechanisms of inflammation driven cancer susceptibility in epithelial barrier tissues",
+  "text": "The body’s epithelial barriers are routinely subjected to inflammatory stressors, necessitating robust\nregenerative potential to sustain barrier integrity. Following recurrent exposures to inflammatory stressors,\ntissues and their stem cells become increasingly susceptible to cancer formation. The proposed research will\nevaluate the long term effects that inflammation has on barrier tissues and how these effects lead to epigenetic\nrewiring in stem cell populations that results in cancer susceptibility and tumor formation."
+ },
+ {
+  "id": "7ee9dbd0-393d-459a-95b6-24c82d0f0f1e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of skeletal muscle cell fusion",
+  "text": "Skeletal muscle mass is a critical predictor of healthspan and longevity. Since maintenance of skeletal muscle\nrequires cell fusion events to sustain the vast number of nuclei present in myofibers, the goal of this project is to\nprovide mechanistic detail about these cell fusion events. It is anticipated that information from this proposal will\nenable targeted therapies for muscle regeneration and growth."
+ },
+ {
+  "id": "7eea8a50-eab0-4ccb-b72f-fb1531c87cdc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Automated Characterization of Arterial Calcification in Dental Cone Beam Computed Tomography as Predictors of Cardiovascular Disease",
+  "text": "PROJECT RELEVANCE: Cone beam computed tomography (CBCT) is evolving into the standard of care for\ndiagnostic imaging in many facets of dentistry, however, there is growing concern about potentially significant\nincidental findings going unnoticed by dentists due to lack of experience and familiarity with the complex\ncraniofacial anatomy. Arterial calcifications are among these incidental findings with proven association with\nCVD. Currently, there are no established quantifiable metrics for prediction of CVD based on the imaging\nappearance, severity, and extent of these calcifications. The goal of this project is to automatically detect these\ncalcifications, quantify their imaging appearance, and explore their implication in CVD prediction using\ncomputational image analysis, radiomics, and self-supervised learning techniques."
+ },
+ {
+  "id": "7ef0a3d5-5078-4366-bf41-47c020055ba4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular Genetic Analysis of TORC1 and TORC2 Signaling in Neuronal Maintenance",
+  "text": "Mitochondrial dysfunction and protein homeostasis (proteostasis) failure are pathological features commonly\nassociated with neurological disorders, but the mechanism behind this association is poorly understood. We have\ndiscovered that a key factor involved in ribosome-associated quality control mechanistically links mitochondrial\ndysfunction with proteostasis failure. By studying the mechanism, function, and regulation of this newly discovered\nprocess, this project will generate new knowledge on the pathogenesis of neurodegenerative diseases and help\ndevelop novel strategies to treat these devastating diseases."
+ },
+ {
+  "id": "7ef6618a-dc1c-49a6-b960-a8b431876cb3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The role of BCAM-positive cells in central cornea, limbus and conjunctiva",
+  "text": "Basal epithelial cells play critical roles in maintaining a healthy corneal epithelium and are responsible for wound\nhealing after corneal injury. We propose to characterize the diversity of basal epithelial cells in the central cornea,\nlimbus, and conjunctiva and their roles in homeostasis and wound healing. Successful completion of this study\nwill advance our understanding of the maintenance of a healthy corneal epithelium and reveal new targets for\nthe treatment of severe corneal epithelial defects."
+ },
+ {
+  "id": "7f005040-9cd3-4cff-aacc-700bcb6a79c5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Structural surfaceomics to probe conformation-selective immunotherapy targets",
+  "text": "Engineering a patient’s own immune cells to fight cancer is one of the most promising new advances in cancer\ntherapy, yet this strategy has been limited by a lack of tumor-specific surface targets. Here we aim to advance\nthe development and capabilities of a technology we invented, called “structural surfaceomics”, to characterize\nthe set of potential tumor-specific surface antigens defined by their 3-dimensional protein conformation. The\nlong term goal of this proposal is to directly spur the development of new cancer therapies for patients currently\nin need."
+ },
+ {
+  "id": "7f05765b-60ee-4de1-b8f1-eb000f31d490",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Encephalitogenic stem-like T cells in MS and its disease models",
+  "text": "It remains difficult to precisely identify MS-linked T cells and characterize their functions.\nWe have designed new ways to identify and characterize these cells using state-of-the-art transcriptomic\nsignatures based on multiple genes rather than relying on the conventional single-gene approach.\nWe further extended these studies in animal models for uncovering specific encephalitogenic molecular\nmechanisms and differentiation trajectories."
+ },
+ {
+  "id": "7f08d35e-afab-415c-bfcf-229c5050be89",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanistic Insight to Predict and Prevent Nilotinib-Induced Artery Disease",
+  "text": "Nilotinib (Tasigna) is now the standard best-choice therapy for chronic myelogenous leukemia (CML), yet many\npatients suffer from a side effect of nilotinib-induced artery disease (NIAD) which requires the cessation of their\notherwise very successful therapy. There is currently no way to predict which patients will experience NIAD or\nmethods to prevent it happening. We aim to recruit 100 nilotinib-treated patients and, using a cell culture model,\nidentify genetic markers that correlate with susceptibility to NIAD, test these findings in a patient replication\ncohort, and use this validated information to develop methods to protect these patients."
+ },
+ {
+  "id": "7f0d10b2-7325-4fa2-8047-2e5e0486964b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Characterizing genomic risk factors of lung cancers in Native Hawaiians",
+  "text": "Lung cancer is the second most common cancer in the United States and the leading cause of cancer-related\ndeaths, with Native Hawaiians (NHs) having not just the greatest risk of lung cancer but also the poorest\nsurvival outcome when compared with other populations. We propose to conduct a genomic and epigenomic\nprofiling study to help understand the health disparities of NH population in lung cancer risk. This project has\nthe potential to be translated into improved lung cancer screening, precision prevention, and therapeutic\nintervention in NH and other populations, besides enabling us to train students, researchers, and community\nworkers with fundamental genomic technologies such as whole genome DNA sequencing, a useful technology\nfor conducting biomedical research in any human diseases."
+ },
+ {
+  "id": "7f0dc3d5-f534-4457-aa59-17a524563122",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Research Resources: Epigenomic and Transcriptomic Profile of Human Immune Cells",
+  "text": "For many human diseases, large-scale genomic studies have identified common genetic variants that occur\nmore frequently in people with cardiovascular, autoimmune, inflammatory and infectious diseases, diabetes\nand asthma than in those without these diseases. Here we propose to understand how these genetic variants\ncause susceptibility to immune-mediated diseases across populations, and use this information to find novel\ntherapeutic targets for these diseases."
+ },
+ {
+  "id": "7f0dca30-69bd-4a12-ac89-3e8401c8be66",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Structural and functional analysis of novel microbial membrane proteins",
+  "text": "Pathogenic microorganisms interact with their environment via membrane embedded transport proteins and\nsignaling systems. Characterizing the mechanisms of these membrane proteins will reveal novel microbial\nvulnerabilities, and understanding their molecular architecture will pave the way for therapeutic drug design to\nexploit those vulnerabilities."
+ },
+ {
+  "id": "7f140691-8131-4204-a980-b9c05cd40d4d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of a new class of EZH2 inhibitors in ERa-negative breast cancer",
+  "text": "In this study, we developed a first-in-class small-molecule inhibitor of EZH2, a histone methyltransferase\nthat has been demonstrated by a myriad of studies to drive cancer development and progression. Instead of the\nC-terminal catalytic domain that current EZH2-targeting drugs interfere with, our compound binds to an N-\nterminal domain that is essential for the gene activation activity and methyltransferase-independent oncogenic\neffect of EZH2 in estrogen receptor a-negative (ERa-) breast cancer cells. Therefore, our prototype compound\ndownregulated a group of genes that promote cancer cell migration and inhibited the malignant phenotypes of\nERa- breast cancer cells that are insensitive to present EZH2 inhibitors. Results from our work will yield a new\nclass of anticancer agents that specifically target a totally different functional domain of EZH2, which hold\npromise for broader clinical applications than current EZH2-targeted therapies."
+ },
+ {
+  "id": "7f1539a9-7daf-4504-bbde-dcd407078133",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Subcellular and mesoscale circuit organization for taste and visceral processing",
+  "text": "Vital for health and survival, taste and visceral sensations convey information about the body’s internal state,\nbut we do not fully understand the neural connections in the brain that mediate and integrate these senses. In\nthis study, I propose to construct a refined model for how the insular cortex integrates internal sensory infor-\nmation at the cellular and mesoscale levels, and to investigate the role of insular circuits in taste-visceral asso-\nciation learning. By uncovering the anatomy and behavioral function of these two internal sensory systems, this\nwork will enhance our fundamental understanding of the brain-body axis in health and disease."
+ },
+ {
+  "id": "7f19351a-ea9c-400a-8d72-1a74ae64aed0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cancer Prevention and Control Program (CPCP)",
+  "text": "CANCER PREVENTION & CONTROL PROGRAM: ABSTRACT The Cancer Prevention & Control Program (CPCP) at the University of Arizona Cancer Center (UACC) conducts highly interactive, transdisciplinary cancer prevention and control research to reduce the cancer burden. CPCP maintains a strong emphasis on catchment-relevant cancer research that informs and impacts the UACC Catchment Area. The Specific Aims are to: (1) advance understanding and early detection of cancer through identification of risk factors and development of detection biomarker and imaging technologies (Discovery); (2) evaluate novel cancer preventive agents and strategies to reduce the cancer burden (Intervention); and (3) implement evidence-based behavioral, psychosocial, and system-level strategies to promote health and improve outcomes (Dissemination and Implementation). CPCP Members have made significant progress on cancer prevention and control research in the following areas: (1) demonstrated exposure of firefighters to carcinogens that alter their DNA methylation patterns, leading to changes in policy; (2) identified differences in drivers of renal cancer in Hispanics versus non-Hispanic Whites; (3) developed a new highly sensitive breast-CT imaging system and smartphone confocal microscope; (4) showed that a broccoli seed extract upregulated detoxification of tobacco carcinogens; (5) completed HPV vaccine dosing studies that informed on WHO policy for worldwide vaccination guideline; (6) developed a highly effective symptom management program for support of Latina breast cancer survivors and caregivers; and (7) increased cancer screening rates in American Indians from 9% to 19%. CPCP has a peer-reviewed, cancer focused funding base of $8.9M (direct costs) of which $6M (67%) is from the National Cancer Institute (NCI), $2.1M (24%) from other National Institutes of Health sources, and $0.8M (9%) from other peer-reviewed sources. Of note, CPCP’s NCI funding is 50% higher than that reported during the prior reporting period. During the reporting period, CPCP Members were awarded $47M in 33 peer-reviewed cancer-relevant multi-PI grants. These MPIs included 12 R01s, two P01s, one U54, and partnerships with 66 institutions across the country, of which three were NCI-designated cancer centers. Funding includes a new P01 in skin cancer prevention; a new UG1 grant to lead early-phase clinical trials of cancer preventive agents, one of only five NCI-funded programs; new Centers for Disease Control and Prevention cancer funding as the Arizona site for the national Cancer Prevention Clinical Trials Network; and P42 funding to address mine waste exposures and cancer promotion. During the current project period, CPCP Members authored 525 cancer-relevant publications, of which 122 (23%) were intraprogrammatic, 76 (14%) were interprogrammatic, 311 (59%) were inter-institutional. In addition, CPCP members filed 59 patents, of which 12 (20%) were issued. During the project period, CPCP accrued 8,941 participants to clinical studies, 6,496 of which were accrued to investigator-initiated trials representing a 2-fold increase compared to the prior period."
+ },
+ {
+  "id": "7f1a224f-cad4-445e-acb5-22d157aa7e12",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of Open-Source Software for DNA and RNA Modification Detection from Oxford Nanopore Sequencing",
+  "text": "We will develop open-source software to detect base modifications in DNA and RNA molecules from Oxford\nNanopore sequencing using deep-learning. We will provide pre-trained models and a computational framework\nthat will allow users to train their own modification detection models, along with detailed documentation and\ntutorials to assist the users. This work will provide the scientific community with novel methods study\nepigenome and epitranscriptome and facilitate the use of synthetic base analogs as markers to study\nfundamental biological processes."
+ },
+ {
+  "id": "7f2f973b-742c-4be2-a1ed-f057265a972a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Structure/Function of Protein Tyrosine Phosphatases",
+  "text": "This proposal focuses on therapeutic targeting of SHP1 protein tyrosine phosphatase, which is a negative\nregulator in immune cells and a promising target for cancer immunotherapy. We have identified a novel\nallosteric covalent SHP1 inhibitor and demonstrated that systemic SHP1 inhibition enhances immune cell\nfunction and induces robust anti-tumor immunity. The overall goal of this project is to optimize the existing\nSHP1 inhibitor into optimized preclinical leads that can be evaluated either stand-alone and/or in combination\nwith checkpoint inhibitors as novel and improved cancer immunotherapies."
+ },
+ {
+  "id": "7f3fd7a6-61ff-42bc-9c7f-51e19da74e0b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Overcoming resistance to STING agonist therapy in breast cancer",
+  "text": "Chromosomal instability (CIN) is a feature of aggressive human cancers; and it is often associated with \nimmune evasion and resistance to immunotherapies. Our preliminary data suggests that this resistance arises \nin part through chronic inflammation induced by CIN in the cancer and inflammatory memory, enabling cancer \ncells to adapt to immune pressures. Here we devise a novel approach that aims to inhibit chronic inflammation \nto restore sensitivity of breast cancers with CIN to immune activating therapies."
+ },
+ {
+  "id": "7f4bdde4-4183-470a-a0c5-825ddc017249",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identifying genomic variation in CD101 associated with functional characteristics of the innate immune response to bacterial vaginosis",
+  "text": "We have insufficient understanding about how the immune system coordinates across multiple cell-type-specific\nfunctions to respond to stimuli that cause disorders in mucosal tissues. Recent data suggests that CD101 could\nbe an important regulator of these functions. We propose studies using existing samples and data to better\nunderstand if CD101 or other candidate genes regulate the genital mucosal response to the disorder called\nbacterial vaginosis."
+ },
+ {
+  "id": "7f4ce91f-969c-41ff-95c9-6cd69fc6e05c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Aligning Patient Acuity with Resource Intensity after Major Surgery",
+  "text": "For more than 15 million major surgeries performed in the United States annually, surgeons must decide whether\nthe patient should receive close monitoring by specialists in a high-cost intensive care unit (ICU) or intermittent\nmonitoring on a general ward, and when the patient can be safely discharged home. Prior work suggests that\nartificial intelligence models can identify cases in which doctors have opportunities to make better decisions.\nThe purpose of this project is to design a real-world framework to help doctors make the right decision at the\nright time so that patients receive the resources they need while recovering safely from major surgery."
+ },
+ {
+  "id": "7f5c41b0-fadf-48ca-bf59-3b40a30fd78d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Brain-wide circuits for drug-induced changes to cognition",
+  "text": "(Project 2) Dissociative and non-dissociative drugs, such as ketamine, PCP, methamphetamine and morphine, exert powerful psychological effects by inducing profoundly altered brain states. The popularity of these drugs, their psychologically and physiologically addictive nature and the rising prevalence of a subclass of dissociative drugs as potential therapeutic agents indicate an urgent need to understand the acute and long-term effects of these drugs on brain-states. A large gap exists however, in our understanding of the circuit mechanisms underlying drug-altered states themselves. To bridge this gap, we seek to elucidate the molecular, circuit and network mechanisms of drug induced cognitive states by taking advantage of a set of highly tractable response properties of neurons across the multiple brain regions that support spatial cognition. Our focus on spatial cognition is motivated by the shared capability of dissociative and non-dissociative drugs to alter neural representations of space. Dissociative drugs are well documented to induce out-of-body experiences and can impair spatial memory. Non-dissociative drugs of abuse can leverage the spatial memory system to encode drug-context associations, leading to drug-associated contexts serving as a potent trigger for relapse to drug use. However, the brain-wide circuit mechanisms underlying these alterations in spatial cognition, as well as how this impacts behavior, remain incompletely understood. Here, we use cutting-edge large scale in vivo electrophysiology combine with behavioral techniques to examine the link between drug-induced spatial cognitive effects and the microcircuits of spatial and memory coding. First, we perform wide-scale electrophysiology to measure the neural correlates of spatial estimates in multiple cortical and sub-cortical brain regions during navigation to investigate how dissociative and non-dissociative drugs induce changes in spatial cognition. Next, we hone in on particular brain regions of interest in freely moving animals to examine how dissociative and non-dissociative drugs drive changes in the neural correlates of behavior in spatial tasks. Finally, in vivo electrophysiology is combined with genetic and behavioral approaches to parse out the molecular basis of ketamine’s potentially therapeutic versus negative effects on spatial cognition. Together, this work will provide new insight regarding the brain wide-circuit mechanisms for cognitive states associated with drugs of addiction and the behavioral impacts of these drug-induced cognitive states on spatial memory and navigational behavior. ."
+ }
+]

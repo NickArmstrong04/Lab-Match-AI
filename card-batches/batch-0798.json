@@ -1,0 +1,142 @@
+[
+ {
+  "id": "9067e093-a435-487d-b122-41b7444ab9c4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Near-infrared fluorescent probes and optogenetic tools",
+  "text": "We will develop new types of fluorescent proteins, reporters and optogenetic tools for imaging, detection and\nlight-regulation of molecular processes and interactions in mammalian cells, tissues and model animals. These\nprobes will emit or be activated in the near-infrared spectral range where tissue transparency is the highest\nand will use the heme-derived compound biliverdin, naturally available in mammalian tissues, as the\nchromophore. The planned genetically encoded near-infrared optical probes will allow non-invasive\nvisualization, sensing and light-control of the biochemistry and physiology of cells, organs and whole\norganisms in normal and pathological conditions, as well as spectral multiplexing with optical reagents of the\nvisible range."
+ },
+ {
+  "id": "906b87f5-8c0e-4000-96bf-bc7269806f39",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Domain- and protein-selective BET mechanisms in cocaine-seeking behaviors",
+  "text": "Although epigenetic therapeutics are promising treatment options for cocaine use disorder, many epigenetic\ninhibitors are non-selective and have adverse side effects, significant issues that restrict mechanistic insight and\ntranslational applications. The proposed studies will address these limitations by using novel highly selective,\nclinically relevant approaches to identify and characterize epigenetic-based treatments for cocaine use disorder."
+ },
+ {
+  "id": "906f0dc2-d5ff-43c5-946b-8f41fe4f5ef8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Spatial and temporal tumor-immune co-evolution and interactions that model lung adenocarcinoma development",
+  "text": "Lung adenocarcinoma (LUAD), even when detected in its early stages, exhibits very poor prognosis warranting\ncontinued improvements for its treatment. Efforts to treat LUAD are stymied by our poor understanding of how\nthe tumor early on emerges from the complex lung ecosystem. Using unique and richly annotated human\ncohorts, experimental mouse models that faithfully recapitulate the disease, as well as state-of-the-art\ntechnologies that sequence individual cells and mathematical modeling, the proposed work seeks to unravel\nhow LUAD develops across space and time, thus providing a foundation for developing new strategies for\ninterception of this fatal disease."
+ },
+ {
+  "id": "90735620-eb56-45af-b81f-177be6edcfbf",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Preclinical Imagining Labs",
+  "text": "The Preclinical Imaging shared resource (PCI) mission is to foster cutting-edge research by providing highly specialized expertise and service in noninvasive small animal imaging to Perlmutter Cancer Center (PCC) members in a collaborative environment. PCI was established in 2011 under the direction of Dr. Youssef Wadghiri in response to growing demand for assorted imaging instruments and modalities. Wadghiri brings more than 32 years of imaging experience and a wealth of expertise in high-throughput strategies implemented in-house. He is aided by an Assistant Director and 3 highly trained scientists. Since its establishment, PCI has expanded steadily by continuously upgrading equipment and acquiring new scanners, while modernizing imaging suites and making them accessible throughout the NYU Grossman School of Medicine campus. Growth has been accompanied by significantly increased usage with 45 PCC members across all four Research programs using PCI during the funding period. Since the last CCSG review, PCI contributed to PCC publications in high impact journals including Nature, Cell, Cancer Discovery, Cancer Cell, and Nature Cancer. Also, 6 additional scanners were acquired, resulting in 18 scanners across 4 research buildings. PCI services also increased from 5 to 7 imaging modalities with the addition of dual energy X-ray absorptiometry (DEXA) and single photon emission tomography (SPECT). The expansion and modern, up-to-date, capabilities of PCI enable cost-effective, campus-wide access to cutting-edge imaging technologies to meet the needs of PCC researchers. These needs are assessed regularly via surveys and meetings with an Advisory Board. Renovations are underway for the installation of a third state-of-the-art mouse micro-MRI scanner within the SPF Skirball vivarium projected to be operative in the summer of 2023."
+ },
+ {
+  "id": "9074d9f2-7cba-4c18-ba0b-242a6eadb3dd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Machine Learning for Ventricular Arrhythmias",
+  "text": "The heart rhythm disorders of ventricular arrhythmias affect hundreds of thousands of\nindividuals in the U.S. alone and are substantial causes of mortality, yet their therapy is\nsuboptimal. A major problem is that it is difficult to identify which patient will respond to\ndrug or ablation therapy. This project will develop a computer-based framework to\npersonalize therapy for ventricular tachycardia, using machine learning and personalized\ncomputer models."
+ },
+ {
+  "id": "90793155-1e6b-41ce-91b9-bd83ad2f3409",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Statistical physics and network-based approaches for elucidating molecular biomarkers of COPD",
+  "text": "A key goal of this project is to detect the disease module of the chronic obstructive pulmonary disease (COPD)\nto improve our understanding of its pathogenesis and inform therapeutic treatment. The proposed research is\nrelevant to public health because it enables us to systematically identify disease genes associated with COPD.\nThus, the proposed research is relevant to NIH’s mission towards developing fundamental knowledge about the\nnature and behavior of living systems and the application of that knowledge to enhance human health and reduce\nillness."
+ },
+ {
+  "id": "907956ab-698c-479b-8614-4c008f01bcd8",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Core C - Data Core",
+  "text": "Mount Sinai ADRC (Sano): Data Core (Core C) – Research Summary - REVISED An effective Data Management and Statistical Core (Data Core) facilitates strong connections across all Cores within the ADRC, serves as a critical resource for ongoing Center activities and for other investigators who are interested in research in Alzheimer’s disease (AD) and AD-related dementias (ADRD), and helps accelerate research and translation in the field. Specifically, our Data Core will provide a data and analytic foundation for Mount Sinai ADRC to explore the relationships between multi-model data types to uncover unique pathways to diagnosis, treatment, and prevention of AD/ADRD. We will build on our newly modernized and standardized electronic data capture (EDC) enabled REDCap database structure that has curated, linked and integrated data across all cores. We will enable new data types including polygenic risk scores (PRS), fluid and imaging biomarkers, recorded speech for natural language processing (NLP), and digital neuropathological profiles associated with vulnerability or resistance to disease in AD/ADRD. The Data Core will provide expert statistical services and training on a variety of topics including study design, data harmonization and integration, and advanced statistical methods within our Center, especially through the Research Education Component (REC) core. The Data Core will continue to strengthen our productive Center-NACC, Center-Center, and Center-NIH partnerships, building on our success with new publications, grant proposals, and training opportunities. We will initiate new efforts in facilitating connection of AI and AD/ADRD researchers to develop new partnerships. Our Specific Aims are (1) Provide a reliable, quality assured, and secure multi-modal data and analytic infrastructure; (2) Provide integrated data and statistical analysis and support; (3) Educate ADRC investigators, trainees, and junior faculty; and (4) Broaden our impact by increasing Findability, Accessibility, Interoperability and Reusability (FAIR) of our data. These activities are well aligned with priorities highlighted in the RFA. Throughout all Data Core activities, we will continue to build a culture of innovation through the application of novel data methods and encouraging open science through data sharing. We also aim to ensure different perspectives of our faculty who are from multiple scientific disciplines and backgrounds and also engage and serve our participants who have a wide range of backgrounds."
+ },
+ {
+  "id": "907b4c32-e5c7-4282-8867-303aba923912",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "CSHL Mechanisms of Aging Conference (2024 - 2028)",
+  "text": "This biennial conference series on the Mechanisms of Aging at the Cold Spring Harbor Laboratory\nis designed to be an interdisciplinary forum that accelerates research into the biological basis of aging, which\nwill improve treatment for age-associated diseases and reveal mechanisms of the aging process itself. The\nconference is unique in the aging research field because it features selected talks from influential invited\nspeakers combined with a large number of short talks chosen by the organizers from openly submitted abstracts,\nwhich are submitted three months before the meeting. This format provides ample opportunity for presentation\nof cutting-edge discoveries and for broad and diverse representation of junior scientists. The research program\nis augmented by mentoring and career development events that target graduate students and post-doctoral\nresearchers."
+ },
+ {
+  "id": "907b4ddd-1c7f-465c-8275-0f0b8d450deb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Structural Studies and Drug Discovery to Interrogate the Function of Neuronal SLC4 Transporters",
+  "text": "The bicarbonate transporters SLC4A7, SLC4A8, and SLC4A10 are highly expressed in the brain where they\nnot only regulate cellular pH homeostasis through Na+-coupled import of the base HCO3-/CO32-, but thereby\nalso control neuronal excitability. Mutations in these transporters have been associated with numerous\nneurological and neurodevelopmental disorders including traits of autism spectrum disorder, as well as seizure\ndisorders such as epilepsy. Our studies will provide fundamental mechanistic insights and generate first-in-\nclass SLC4-targeted tool compounds that will pave the way to developing efficacious treatments for SLC4-\nassociated disorders."
+ },
+ {
+  "id": "907f89f6-c27c-4f71-936a-95e426b9f40e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Epigenetic regulation of premalignant states in the skin",
+  "text": "Cutaneous squamous cell carcinoma (cSCC) is one of the most common skin cancers in the United States\nwith an estimated incidence of greater than 1 million yearly cases and is a major cause of cancer-related\ndeath, disfigurement, and healthcare expenditure. As our advanced-age population grows, the incidence of\ncSCC continues to rise, increasing the urgency to better understand cSCC pathogenesis. This study explores\nthe key, early events that drive cSCC using biochemical and genetic analyses of human tissues and cell lines\nand a novel cSCC mouse model, which may drive novel treatment and prevention strategies."
+ },
+ {
+  "id": "907f8a1c-4851-4e77-949b-0bbd584f0a90",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Computational Analysis of TCR Load Propagation and Dynamics",
+  "text": "(Project 3) Recent discoveries indicate the αβT-cell receptor (TCR) is a mechanosensor in recognizing the antigenic peptide-loaded major histocompatibility complex (pMHC) molecule. For the cognate antigen, the TCR-pMHC bond lifetime increases with force, reaching a maximum at forces comparable to those generated between a T cell and an antigen-presenting cell during immune surveillance. Once the catch bond forms, the TCR-pMHC complex may enter cycles of conformational transitions between compact and extended states termed volleying. Our past molecular dynamics simulations of the complex under force revealed that ligand recognition and catch bond formation is mediated not only by the contacts at the TCR-pMHC interface, but that the conformational dynamics of the whole complex plays a critical role. We shall further advance our computational efforts to address emerging questions regarding the TCR mechanosensing. In Aim 1, by developing methods to measure strains and stresses across the dynamically fluctuating TCR-pMHC complex, we will find the load propagation pathway, which we hypothesize to be a determining factor for the memory T cell lineage. In Aim 2, using a novel simulation protocol, we will also find the loading condition under which partial unfolding of the TCR constant domain occurs, to enter the volleying state. The ability for an αβTCR to form catch bond and volley is important for recognizing ligands displayed in low copy numbers on antigen-presenting cell. As a first step to understanding how the conformational dynamics of the TCR-pMHC complex initiates signaling for T-cell activation, in Aim 3 we will simulate the organization of the transmembrane domains of the αβTCR holoreceptor including the CD3 signaling subunits. Based on this, effects of the ectodomain conformational dynamics upon pMHC ligation on the transmembrane domain assemblies will be investigated. Our overarching strategy consists of performing all-atom simulations on parts of the system to obtain detailed atomistic information, then perform simulations of larger assemblies using implicit solvent, coarse-grained, and kinetic models for computational efficiency and to directly compare with experiments. These approaches will also be used to investigate the preTCR-pMHC complex as a mechanosensor, where high-affinity mutant preTCR or peptide will be designed to study β-selection in T-lineage progenitor differentiation experiments. To be developed in close collaboration with experimental partners within our team, atomistic mechanisms of TCRs and preTCRs found via simulations will help with developing T-cell immunotherapy protocols where mechanical force and ligand density are crucial."
+ },
+ {
+  "id": "908065ae-462b-4106-9c28-68efa6ab393a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Real-world Assessment of Social Functioning during OUD Treatment: Integrating Reports from Patients and their Concerned Significant Others",
+  "text": "d\nProblems with social functioning are core to opioid use disorder (OUD), though specific, modifiable social\nfunctioning targets and how they relate to OUD treatment outcomes are poorly understood. The proposed study\nwill utilize both dyadic data and innovative ecological momentary assessment methods to examine associations\nbetween specific social functioning metrics and OUD treatment outcomes. Findings from this study will inform\nfuture precision-medicine approaches for people with OUD, a population in significant need of enhanced\ntreatment approaches to combat opioid morbidity and mortality."
+ },
+ {
+  "id": "90949043-47ba-4093-a631-7b60d2c301d7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Computational identification and experimental validation of senescent cells and signature genes in lung aging and diseases",
+  "text": "Understanding the mechanisms and specific roles of senescent cells in idiopathic pulmonary fibrosis lung is\nessential to grasp the full spectrum of their impact on lung health and disease, yet it is challenging due to the\nheterogeneity and rarity nature of senescent cells. This project aims to enhance our understanding of cellular\nsenescence in IPF lungs via new single-cell and spatial omics dataset generation, novel deep learning tools and\nstatistical model development, and carefully designed experimental validations. The insights gained and tools\ndeveloped from this project could have far-reaching implications on cell senescence studies and pave the way\nfor novel therapeutic strategies targeting senescent cells in not only IPF lungs but also other lung diseases and\norgans.\n1"
+ },
+ {
+  "id": "90972e0f-3eb2-42ac-afa7-68f19538fb0f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Examining the role of BDNF in the synaptic neuron-astrocyte program underlying genetic risk for schizophrenia",
+  "text": "Schizophrenia is a complex polygenic disorder with limited biological understanding. Our single-cell analysis\nidentified a synaptic neuron and astrocyte program (SNAP) that is markedly diminished in individuals with\nschizophrenia, yet the mechanisms by which SNAP coordinates synchronized gene expression in neurons and\nastrocytes remain unclear. The proposed studies aim to investigate the relationship between brain-derived\nneurotrophic factor (BDNF) and SNAP to uncover how disruptions of their coordinated action contribute to\nschizophrenia pathology, which has the potential to inform strategies for developing novel treatments and\ndiagnostics for schizophrenia."
+ },
+ {
+  "id": "90bcd748-12c9-4335-943e-4c3f4a4506e2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Endothelial complement C3a receptor mediated cerebral injury in a murine stroke model.",
+  "text": "Stroke remains a leading cause of death and disability worldwide, creating a huge socio-economic societal\nburden. Aberrant endothelial C3a/C3aR signaling post-stroke exacerbates BBB dysfunction, inflammation,\nsynaptic loss, and functional deficits. Our study will contribute to our understanding of the molecular mechanisms\nunderlying stroke to facilitate the future translation of therapeutics to prevent brain tissue injury and long-term\nfunctional and cognitive impairment post-stroke."
+ },
+ {
+  "id": "90c28455-98b6-47eb-bcb7-5501d46bce5f",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Pilot Project Program",
+  "text": "PILOT PROJECTS: ABSTRACT The Pilot Project Program is a key component of the Center of Excellence in Environmental Toxicology (CEET) that builds capacity in environmental health sciences (EHS). The Pilot Project Program serves to support Early-Stage Investigators (ESI) that are interested in pursuing EHS, and senior investigators who may be embarking on EHS projects for the first time. To assist in the pilot project application process, we run a grant writing program within the Career Development Program of the Administrative Core. The Pilot Project award opportunities fall into four categories: (a) Mentored Scientist Transition Award (MSTA) which is our primary mechanism of funding ESI (new recruits, clinician scientists, research track faculty) who need protected time through salary support to establish their independent research programs; (b) an Opportunity Award open to all junior and senior faculty who propose an innovative EHS or Implementation Science project which is not ready for federal funding; (c) a “Rapid Response” award to promote community-engaged research or provide funds to a faculty member who urgently needs to generate preliminary data for an EHS relevant grant application; and (d) a Focused Research Award to support research in the thematic areas of the Center: Air Pollution & Lung Health, Environmental Exposures & Cancer, Windows-of-Susceptibility and Environmental Neuroscience and cross-cutting themes in exposomics and the effects of extreme weather on health, and support research that may lead to multi-investigator grant applications. Applications receive high priority if they are likely to lead to extramural funding from NIEHS or respond to a RFA on which NIEHS is a sponsor; and if they use one or more facility cores: the Translational Research Support Core (TRSC), the Biomolecular Mass Spectrometry Core (BMSC), or the Environmental Health Informatics Core (EHIC). Pilot projects are reviewed by expert faculty in the area of study and recommendations for funding are made to the Executive Committee for a final decision. At the end of the funding period, pilot project awardees are invited to present on their progress in the CEET seminar series. Outcome metrics such as grant applications submitted, grants awarded, and publications are updated on an annual basis to account for the significant lag phase that can exist between the pilot project award and these successful outcomes."
+ },
+ {
+  "id": "90c46c0a-ebed-46b0-9b30-42fa6fc529e7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "ATR: targeting mechanical stress induced EMT and immune suppression in triple negative breast cancer",
+  "text": "PROJECT NARRATIVE/LAY SUMMARY\nWe have discovered a new role for a protein called ATR in promoting aggressive triple negative breast cancer\n(TNBC) behavior and the ability of TNBC to survive by hiding from the immune system. Our goal in this\nproposal is two-fold: 1) investigate how ATR promotes aggressive TNBC behavior in response to external\nforces that are commonly applied to cancer cell walls as tumors progress and 2) examine whether targeting\nATR and this new ATR pathway can reverse TNBC aggressive features and promote the immune system’s\nability to fight TNBC. As there are over 32,000 cases of TNBC diagnosed in the United States each year and\nnearly all patients with metastatic progression succumb to the disease, our results could have a profound\nimpact on health and society."
+ },
+ {
+  "id": "90c5be62-455f-46b0-8db6-c56fb15b5347",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cytogenetics and Cell Authentication Core (CCAC)",
+  "text": "CYTOGENETICS AND CELL AUTHENTICATION CORE (CCAC) The University of Texas MD Anderson Cancer Center (MD Anderson) Cytogenetics and Cell Authentication Core (CCAC) offers conventional and molecular cytogenetic services, cell line authentication by short tandem repeat (STR) analysis, mycoplasma contamination testing, and distribution of authenticated cell lines. The aims of the CACC are to 1) provide high-quality, cost-effective, state-of-the-art cytogenetic services and expertise; 2) provide cell authentication and distribution services; and 3) develop and implement novel assays and methods. CCAC offers conventional and molecular cytogenetics services including genomic instability analysis, Giemsa (G), C, Q, R –banding, Sister Chromatid Exchange (SCE) analysis, silver staining of metaphase chromosomes, spectral karyotyping, fluorescence in situ hybridization (FISH), and telomere analysis. Since 2019, to meet the needs of CCSG program members, CCAC has developed a novel quantitative telomere FISH assay for organoids and a FISH assay for circulating tumor cells. The CCAC works closely with the Advanced Technology Genomics Core (ATGC) to provide STR cell line authentication to investigators. The CCAC’s instrumentation includes two Nikon 80i, a Nikon Eclipse 400, a Nikon Eclipse 200, a Nikon 50i, and a Nikon Eclipse TS100 microscope. Since 2019 the facility installed two new HiBand Hyperspectral karyotyping workstations with Applied Spectral Imaging software, Image analysis system with PCO Tech Panda camera and metamorph software, a Tecan Spark base unit plate reader, a Nanodrop Lite Spectrophotometer, Genemapper software IDX v1.7, and a rapid link laptop system. During 2024, the CCAC supported 85 Cancer Center members (56% of user base) from all nine RPs, reflecting the critical importance of CCAC services to members. In 2024, the CCAC contributed to 68 publications (57% of those were in high-impact journals, Journal Impact Factor ≥10) and facilitated 84 peer-reviewed grants awarded to members. CCAC services are cost-effective compared with external vendors. Rigorous standard operating procedures (SOPs) and quality control (QC) measures ensure reproducibility and data integrity. In the upcoming grant period, the CCAC will expand its services to include 1) the evaluation of extrachromosomal DNA in cancer cells; 2) chromosomal analysis for instability, karyotyping and FISH assays on organoids; 3) Mass Spectrometry (MS) for cell authentication, particularly to identify clones of the same cell line or distinguish between drug-resistant sublines that cannot be determined by STR analysis. CCAC will continue to develop new technologies and methodologies to ensure program members across campus have access to the latest advancements in mission specific technologies. Through team science, CCAC has significantly contributed to the advancement of both basic and applied cancer research at MD Anderson by collaborating and providing cytogenetic expertise to program members."
+ },
+ {
+  "id": "90ca1dc4-9fdf-4035-be47-679353f92bf7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Integrative computational and experimental approaches to visualize highly heterogeneous structural ensembles through Cryo-EM and Cryo-ET",
+  "text": "The ability to visualize structural heterogeneity at high resolution is essential for understanding\nbiological processes critical to human health and disease. This project advances state-of-the-art\nstructure determination methods in cryo-electron microscopy and tomography by developing\nsophisticated data collection and computational analysis approaches designed to reveal structural\nchanges within critical protein complexes that cells rely on to sustain life. Additionally, by applying\nthese cutting-edge methods to key biological systems, this research aims to uncover novel\nmechanistic insights and identify new therapeutic targets for diseases linked to disrupted protein\nfolding, assembly, and degradation."
+ },
+ {
+  "id": "90cbab92-5fcf-40f8-9a31-a574b5865d56",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A Novel Mouse Model for the Detection of Genome Editing",
+  "text": "Genome editing with CRISPR/Cas carries enormous potential to treat numerous genetic diseases. However,\nbefore clinical use, genome editing treatments must be tested to ensure that they reach the intended target,\nand avoid unintended targets. Our research proposes to develop a mouse model that will allow researchers to\ntest, with accuracy and sensitivity, the ability of a genome editing treatment to target the correct organ."
+ }
+]

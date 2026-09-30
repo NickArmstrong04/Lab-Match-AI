@@ -1,0 +1,142 @@
+[
+ {
+  "id": "7e948126-8738-42b1-9e08-bb7122743852",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Vascular regulation of macrophage function in brain tumor",
+  "text": "Glioblastoma (GBM) is among the most lethal of human malignancies with a current median\nsurvival of about 14-18 months. The goals of this project are to understand the mechanism of\nmacrophage-mediated tumor immune suppression and to develop new immunotherapy against\nGBM."
+ },
+ {
+  "id": "7e94ed98-a2a1-487c-801c-a19737b0ad3f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Octahedral iron coordination cages as T1 MRI probes",
+  "text": "MRI contrast agents based on iron may be safer alternatives to the gadolinium-based MRI\ncontrast agents that are used in 40% of clinical MRI procedures. Our approach uses coordination\ncages with multiple tightly connected trivalent iron centers to produce a large signal from a low\nconcentration of agent. Studies proposed here will focus on modifying the iron coordination cage\nto improve water solubility, biodistribution and clearance in mice models to further develop this\nnew class of contrast agent."
+ },
+ {
+  "id": "7e96080c-cf86-4f1c-b1af-417990046ebc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Hydroxyproline Dehydrogenase Inhibitors for the Treatment of Primary Hyperoxaluria",
+  "text": "The breakdown of hydroxyproline, a component of collagen, significantly contributes to the heightened synthesis\nof oxalate resulting in kidney stone formation as well as renal damage in those with primary hyperoxaluria,\nespecially types 2 and 3. This proposal focuses on the development and optimization of drugs that will block this\nprocess and prevent such occurrences in those afflicted with these disorders."
+ },
+ {
+  "id": "7e9a0710-dd0a-48ef-bbad-9770f3cfad2c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Overcoming resistance to anti-PD1 immunotherapy",
+  "text": "The overall purpose of this proposal is to continue to identify new strategies for cancer\nimmunotherapy based on understanding the molecular features of the T cell-inflamed and non-T\ncell-inflamed tumor microenvironment. Our overall approach centers on a bi-directional work flow\nbetween patient outcomes and clinical samples, and mouse models for mechanistic\nunderstanding. Our 5-pronged research stream investigates novel T cell immune checkpoints,\ninnate immune strategies to promote de novo T cell responses in the tumor microenvironment,\ntumor cell-intrinsic oncogenic events mediating immune resistance, regulation of anti-tumor\nimmunity by the commensal microbiota, and germline variants influencing host anti-tumor T cell\nresponses."
+ },
+ {
+  "id": "7e9ef8f0-d284-447e-9f7c-d458afdb7155",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Contribution of the Integrator subunit INTS12 in transcription elongation control during human erythropoiesis and in a rare congenital erythroid disorder.",
+  "text": "The INTS12 subunit of the mammalian Integrator complex regulates transcription by interacting with chromatin,\nis highly expressed in red blood cells, and significantly reduced in the rare red cell disease Congenital\nDyserythropoietic Anemia Type IV (CDA IV/CDAN4). This proposal will investigate the uncharacterized\ncontribution of INTS12 to normal red cell development, and the effect of reduced INTS12 in CDA IV by\nexamining genome-wide INTS12 binding, and nascent transcription activation by controlling RNA Polymerase\nII pausing and elongation. The chromatin interaction domain of INTS12 is susceptible to certain drugs that can\nmodulate its gene regulatory functions, which can be explored long-term as a therapeutic strategy against CDA\nIV as well as other red cell diseases where INTS12 function is compromised."
+ },
+ {
+  "id": "7ea33e8e-c638-4d5a-9302-b74f40c0fc80",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identification and interrogation of glial gene signatures in volitional opioid seeking",
+  "text": "This project aims to identify novel transcriptomic and chromatin alterations in mesolimbic glial\npopulations to elucidate their role in opioid use disorder (OUD). Beyond uncovering key molecular\nadaptations in glia, we will also develop and employ innovative CRISPR-based tools to interrogate\nthe role of such changes in the transition to the addicted state. Collectively, this work will advance\nour understanding of the complex molecular basis of addiction and expand potential therapeutic\noptions for treatment."
+ },
+ {
+  "id": "7ea94e06-c2fd-4734-b8db-6d06ca65c623",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting Angiocrine Signaling in Vascular Repair and Ischemic Stroke Recovery",
+  "text": "Vascular endothelial cell dysfunction, endothelial injury and inadequate angiogenesis represent critical,\ncurrently unaddressed barriers to recovery after ischemic stroke, as existing treatments offer limited benefit.\nThis project directly tackles this unmet need by proposing to uncover a previously unrecognized role of\nendothelial epsins in regulating CXCR4-mediated angiocrine signaling pathway, and building on this\nmechanism, we will develop a novel, targeted nanoparticle therapy designed to specifically inhibit endothelial\nepsins, aimed at significantly enhancing therapeutic blood vessel regeneration after stroke. These findings are\npoised to establish a new therapeutic strategy to treat ischemic stroke and a broad spectrum of other\ncardiovascular diseases characterized by impaired or inadequate angiogenesis."
+ },
+ {
+  "id": "7eaf8aec-c6ba-4307-81bf-b7990fcb9c2c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Microbial biomarkers of intestinal MDR colonization after solid organ transplantation",
+  "text": "Multi-drug resistant organisms (MDRO) are a growing threat to public health and result in increased morbidity\nand mortality due to limited treatment options, especially in high-risk solid organ transplant recipients. Here we\naim to identify gut microbial factors that predict colonization and clearance of MDROs and progression to\nsystemic infection, using high-resolution analysis of long and short- read sequencing data and rigorous machine\nlearning modeling. Our work is relevant to public health because it provides first steps towards personalized risk\nmanagement algorithms to aid in critical clinical decision-making for MDRO colonization in high-risk patients."
+ },
+ {
+  "id": "7eb24c38-72f3-4ffe-a91a-8ff85099d5b7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Deciphering microbial metalloenzyme functions in microaerobic host environments",
+  "text": "Microbes require unique biochemical strategies to adapt to changing environmental conditions, such as oxygen\nlimitation. We will define the chemical and biological functions of a new class of metalloenzymes abundant in\ncommensal and pathogenic bacteria that inhabit oxygen-depleted niches in the human body. This work will\nachieve a fundamental understanding of anaerobic biochemistry in microbial pathogenesis to reveal novel\ntargets for antibacterial therapeutics."
+ },
+ {
+  "id": "7eb395fb-7dd3-4baa-bccc-9b5ba78a9ec7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multimodal Imaging Biomarkers for Early Detection of Glioblastoma Progression",
+  "text": "Glioblastoma is an aggressive brain cancer that is often detected only after symptoms appear and abnormal changes are visible on brain MRI. This project will test whether imaging features from the eye, combined with brain MRI and microscopic tumor imaging, can identify earlier signs of glioblastoma-associated progression. The long-term goal is to develop AI-enabled imaging biomarkers that support earlier detection, longitudinal monitoring, and future clinical imaging workflows and devices."
+ },
+ {
+  "id": "7ebe9198-6634-449a-8d7d-20d796852b4b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Integrating genetics and health data to discover common drug effects on cancer and Alzheimer's disease",
+  "text": "Finding previously uncharacterized effects of common drugs on cancer or Alzheimer's disease has the\npotential to immediately impact clinical care. These discoveries can both prevent some cases of disease, and\npoint to new treatments. Instead of requiring thousands of experiments, we will find these effects systematically\nand efficiently by creating new methods for analysis of existing data."
+ },
+ {
+  "id": "7ebf0f70-44ff-47af-8cc4-4d5ab6fbc46a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Impact of DNA Methylation on Microglial Innate Immune Memory Following Prenatal Immune Activation",
+  "text": "Prenatal inflammation increases the risk for neurodevelopmental diseases, many of which remain poorly\nunderstood. Microglia, the immune cells of the brain, are reprogrammed by prenatal inflammation resulting in a\ntolerized innate immune phenotype. The proposed research aims to 1) identify a mechanism by which prenatal\ninflammation imprints on microglia during development and 2) provide a structured and coordinated training\nenvironment to equip me with the necessary skill to develop into an independent scientist."
+ },
+ {
+  "id": "7ebfa552-fcbe-4179-a2e1-388fb6402c37",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Point-of-care DNA diagnostics from raw samples",
+  "text": "This project seeks to develop bacteria into living biosensors that can detect and analyze DNA in\ndirty samples at low cost and with minimal labor and no equipment. The living biosensors will\ndetect DNA of interest, analyze it for precise DNA sequences or differences, and produce easily\nread output on a lateral flow strip. The living biosensors coupled to a lateral flow assay, which\nwill be as straightforward as a consumer pregnancy or covid test, will provide rapid diagnostic\ninformation even in low-resource settings, or when transporting samples to a central lab would\nadd too much time or cost."
+ },
+ {
+  "id": "7eca2bbc-ce7e-40c6-8f58-ccbb31d778cd",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Center for Label-free Imaging and Multiscale Biophotonics (CLIMB)",
+  "text": "The Center for Label-free Imaging and Multiscale Biophotonics (CLIMB) develops cutting-edge optical and\ncomputational imaging technologies for addressing grand challenges in biomedicine, including cancer and\nneurodegenerative diseases. We developed a rigorous technology training and dissemination plan, as well as\na comprehensive educational program to prepare the next generation of biophotonics researchers for excelling\nin label-free imaging."
+ },
+ {
+  "id": "7eca83f8-84fa-457b-a315-8f3db1feb1de",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Defining the mechanisms of Epstein-Barr virus persistence and recurrence",
+  "text": "Epstein-Barr virus (EBV) is a common herpesvirus that causes a benign infection in nearly 95% of all\nadults worldwide. However, genetic susceptibility of rare variants lead to poor control of EBV infection that can\nlead to chronic infection or lymphoma."
+ },
+ {
+  "id": "7ecd3c3d-acc2-46dc-8a61-5ee67b9cc2ad",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Enhancing AI-based Speech Therapy through Acoustic-Derived Articulatory Feedback",
+  "text": "Children with residual speech sound disorder experience barriers to social and academic participation that may\nmanifest as life-long personal and professional obstacles if their speech deviations are not remediated in a\ntimely manner [14, 22]. The current proposed research will meet a public health need by developing and\ntesting machine learning methods to recognize a speaker’s articulatory pattern for perceptually accurate and\ninaccurate American English /ɹ/ from the corresponding acoustic signal. This study has significant potential for\nlong-term clinical impact through incorporating customized automated articulatory feedback into a freely\naccessible application for visual-acoustic biofeedback software which will support more effective at-home\npractice, thereby filling in gaps in service delivery and expanding access for underserved populations [3, 5]."
+ },
+ {
+  "id": "7ed6ca9e-2c7c-49ad-a12e-d756b6062cbe",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "AI-Driven Biomedical Knowledge Hypergraphs for Interpretable Drug Repurposing and Precision Therapy",
+  "text": "This project will build upon the NCATS Translator’s foundational knowledge graph to construct the first largescale biomedical knowledge hypergraph, and develop a novel interpretable hypergraph attention neural network method with zero-shot learning ability. This approach will enable precision medicine combination strategies by modeling complex multi-entity relationships such as which drug combinations are most effective for specific patient subpopulations, therapeutic contexts that traditional knowledge graphs cannot adequately represent. These innovations directly align with NIH’s mission to accelerate translational research, support precision medicine."
+ },
+ {
+  "id": "7ed7425f-70a8-42ec-a019-3e5b297e270c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Brain-Behavior Mechanisms of Social Cognition in First-Episode Psychosis",
+  "text": "Social cognitive impairments are highly prominent in psychotic disorders and have been linked to social and\nfunctional outcomes beyond the impact of other illness-related factors (i.e., psychiatric symptoms, nonsocial\ncognition), yet available treatments for social and social cognitive dysfunction are limited in their effectiveness.\nDespite recognition as an area of clinical relevance and unmet need, the brain-behavior mechanisms that give\nrise to social cognitive impairment in psychosis remain poorly characterized, thus limiting our attempts to target\nprimary sources of observed dysfunction. The proposed study will examine the neural bases of mentalizing, a\nkey social cognitive process in psychosis, and its association with clinical and real-world functioning in a\ntransdiagnostic sample of young adults with first-episode psychosis."
+ },
+ {
+  "id": "7ed85680-6075-485a-8fba-7ffca875e929",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Artificial intelligence for the automated detection of polycystic ovary syndrome on ultrasonography",
+  "text": "Polycystic ovary syndrome (PCOS) is a highly prevalent gynecological disorder that is often misdiagnosed\nleading to significant distress for patients and delays in accessing evidence-based care. This project addresses\nthe need to improve the timely and accurate diagnosis of PCOS by applying deep-learning approaches to a\nunique archive of sonograms, garnered from women across the reproductive spectrum, to generate a novel\nimaging-based model for the detection of PCOS. The demonstration that artificial intelligence can accurately\npredict PCOS will usher future practices that standardize the clinical evaluation of PCOS and obviate the\ncurrent delays in diagnosis experienced by patients."
+ },
+ {
+  "id": "7ee4eb75-734d-41b1-9e5d-adf2b4d1c746",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of the chromatin regulator HMGA1 in KMT2A-rearranged leukemia",
+  "text": "KMT2A-rearranged (formerly MLL-rearranged) leukemia is a particularly aggressive form of blood cancer that is\noften resistant to current chemotherapies, thus highlighting the need for better treatment strategies. We\ndiscovered that a key factor, called HMGA1, is required for KMT2A-r leukemic cells to grow and evade therapy.\nI now propose studies to determine how HMGA1 functions in KMT2A-r leukemia in order to develop better\ntherapies."
+ }
+]

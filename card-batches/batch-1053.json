@@ -1,0 +1,142 @@
+[
+ {
+  "id": "e9964582-11b7-492c-8a97-f7fd5bd54593",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project 2. cGMP manufacture of HIV-1 Env trimer sortase A-conjugated nanoparticles",
+  "text": "ABSTRACT-PROJECT 2 A key goal of HIV-1 vaccine development is to induce long-lasting protective broadly neutralizing antibody (bnAb) responses that can inhibit HIV-1 infection. However, such protective immune responses have been difficult to induce in the setting of vaccination. One strategy to induce these protective responses is to present to the immune system the target for neutralizing antibodies, HIV-1 envelope (Env) trimers in their native form. Multimerizing Env trimers on nanoparticles (NPs) enhances their immunogenicity, thus a goal for immunogen design is to present multiple copies of well-folded Env trimers. Env is a metastable protein that adopts multiple conformations. The primary obstacle facing Env trimer NP vaccines is that Env fusion nanoparticles, recombinantly expressed as a single polypeptide chain, can adopt a mixture of well-folded and misfolded conformations. The misfolded Env trimers may induce non-neutralizing antibody responses that change Env conformation upon binding or compete with bnAb precursors for binding to HIV-1 Env. For HIV-1 Env trimer NPs to become a rapid and widely-used platform for HIV-1 vaccine design, a nanoparticle platform that easily incorporates well-folded Env trimers without the need for costly, year-long protein engineering experiments is needed. To overcome the hurdles of HIV-1 Env nanoparticle vaccines, we have innovated a rapid system for generating well-folded HIV-1 Env trimer nanoparticles using a sortase A conjugation method. The HIV-1 Env trimers and ferritin are produced separately and to a high purity, allowing for elimination of misfolded protein. By mixing HIV-1 Env trimer, ferritin and sortase A enzyme, the HIV-1 Env trimer is covalently linked to the ferritin nanoparticle. The resulting sortase A-conjugated nanoparticles (scNPs) display the Env trimer in the desired conformation. The overall goals of Project 2 are to translate sortase A-conjugated nanoparticles into a cGMP-capable process for generation of viral vaccines against numerous pathogens and to manufacture two HIV-1 bnAb-targeting immunogens for evaluation in a Phase I trial conducted by the HIV Vaccine Trials Network (HVTN). To accomplish this goal, we will first determine optimal expression system for ferritin and sortase A and establish target product profiles for platform production (Aim 1). Then, we will develop, manufacture, and quality release recombinant sortase A and ferritin platform molecules for the conjugation of Env stabilized trimer to ferritin nanoparticles (Aim 2). Next, we will cGMP produce and quality release >1 g of two different stabilized Env trimer scNP drug substances and drug products for toxicology studies and clinical testing in a Phase I clinical trial (Aim 3). The first Env trimer scNP, CH505 TF Env trimer scNP, will be used as the first boosting immunogen in a CH505 Env NP sequential vaccine targeting CD4 binding site bnAbs. Finally, we will produce an additional sequential Env trimer scNP to select for further maturation of the same CD4 binding site bnAb lineage (Aim 3). The impact of translating this platform to cGMP manufacturing is that it will enable rapid production and quicker testing in clinical trials of high-quality HIV-1 Env trimer NP vaccines."
+ },
+ {
+  "id": "e99b9f67-997a-45b1-bcc8-aadf9e39903c",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "TR&D Project 3",
+  "text": "The overarching objective of TR&D 3 is to design and develop a novel category of immunomodulatory proteins, both as tools to study the immune response and as targeted disease therapeutics. Cytokines control all aspects of immune homeostasis and are thus of great interest as potential interventions to either stimulate immune activity for treatment of cancer and infectious diseases or to suppress activity response for treatment of autoimmune disorders and to promote transplant tolerance. Unfortunately, natural cytokines have several intrinsic properties that limit their therapeutic application, including: (1) Pleiotropy, which hinders specificity, safety, and efficacy; (2) Instability, which leads to challenges in formulation and manufacturability; and (3) Short in vivo half-life, which limits durability of disease control. To overcome inherent limitations of natural cytokines, emerging molecular engineering technologies aim to modify native cytokines in order to improve their suitability as drugs. Our team has established a unique approach to empower cytokines as therapeutics: fusion of natural cytokines to anti-cytokine antibodies, creating intramolecularly assembled immunocytokines (ICs) that selectively direct the activities of cytokines to particular immune cell subsets while also extending circulation half-life. Using this approach, we generated a complementary pair of interleukin-2 (IL-2)-based ICs that mount either immune effector cell-biased (immunostimulatory) or regulatory T cell (Treg)-biased (immunosuppressive) responses. Our promising preliminary work in developing ICs illustrates the potential for designing off-the-shelf molecular therapeutics that selectively manipulate immune activity. Here, we aim to advance clinical translation of our technology by evaluating IL-2 ICs in animal models of cancer, inflammatory bowel disease, and type 1 diabetes. In parallel, we will extend our versatile cytokine/antibody fusion protein concept to the IL-7 system to promote T cell survival. We will also harness our team’s recent discovery of a particularly suppressive subset of tumor-infiltrating Tregs to specifically target an antagonistic IC to the tumor microenvironment that will promote anti-cancer immunity. Our interdisciplinary team of protein engineers and immunologists is uniquely equipped to carry out the proposal aims, which promise to help realize the potential of cytokine therapeutics. The IC deliverables resulting from this project will be integrated with other platforms in the Center, installing these targeted proteins on artificial antigen- presenting cells from TR&D 1 to promote antigen-specific immune activation, and coating ICs on nanoimmunomaterials in TR&D 2 to selectively direct gene delivery. Moreover, ICs will be iteratively developed through Collaborative Projects 1, 8, 9, and 10 and deployed in Service Projects 8, 10, and 12. Collectively, the proposed work will demonstrate the translatability, modularity, and antagonistic potential of ICs, presenting a novel molecular engineered technology for biasing immune activity to achieve therapeutically relevant outcomes."
+ },
+ {
+  "id": "e99e57a5-75cc-407b-86e3-c65c34af80f2",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Unveiling Cancer Risk Through AI-Powered Spatial Insights",
+  "text": "This project leverages large-scale cancer datasets to better understand tumor progression, therapy response,\nand cancer risk by integrating genomic, spatial, and clinical data. It will develop an AI-powered infrastructure to\nenhance data analysis, including an advanced image search tool for studying the tumor microenvironment and\nmapping cellular interactions. This effort will enable comprehensive studies of cancer risk factors, immune\npathways, and disease progression, ultimately improving predictive models and guiding more effective\ntreatments."
+ },
+ {
+  "id": "e9a058a1-d396-4702-bfaf-a3930b6a2c18",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Reprogramming intestinal immunity in preterm neonates to prevent and cure necrotizing enterocolitis",
+  "text": "Necrotizing enterocolitis (NEC) is a devastating consequence of prematurity that results from an aberrant pro-\ninflammatory immune response and leads to intestinal necrosis. In the United States, NEC has a mortality rate\nthat can approach 50% and is responsible for 1 in 10 deaths in the neonatal intensive care unit. My innovative\nresearch program is dedicated to preventing and curing this deadly disease through studies focused on\nmechanisms of disease pathogenesis, identification of early disease biomarkers, and development of targeted\npreventative and therapeutic strategies to improve outcomes for these vulnerable neonates."
+ },
+ {
+  "id": "e9a0c992-c688-4821-8549-2e0d29f50d03",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigate the effects of rare damaging mutations in TGFB latent complex proteins found in preeclamptic placentas",
+  "text": "Dysregulation of extravillous trophoblast cell (EVT) differentiation and function is commonly observed in\npreeclampsia, a leading cause of pregnancy-related death in the United States. The proposed research is\nrelevant to public health because it will elucidate potential drivers of TGFβ dysregulation in preeclampsia. This\nresearch is relevant to NICHD’s mission as it will help us understand how TGFβ signaling mediates EVT\ndifferentiation and contributes to EVT dysregulation."
+ },
+ {
+  "id": "e9b0313f-675d-4acb-9ae5-483dec4d9c69",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms underlying regulation of injured axons in CNS autoimmunity",
+  "text": "This project is to determine the novel role of one type of voltage-gated ion channel in the simultaneous\nregulation of immune and neural functions in autoimmune-induced injury of the central nervous system. The\nfindings may contribute to the development of a new strategy for treating multiple sclerosis and other\nautoimmune diseases."
+ },
+ {
+  "id": "e9b103b9-540b-479d-a84c-a4bb392efe1c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular Mechanisms of Atrial Fibrillation: A Multimodal Analysis",
+  "text": "Atrial fibrillation (AF) leads to high health economic burden of >$15 billion for new onset AF and an annual cost\nof $6.65 billion for the care of these patients. Improved identification of risk factors from multimodal data can\nhelp select patients who will most benefit from invasive therapy, thus providing a cost-effective approach to\nmanagement of AF."
+ },
+ {
+  "id": "e9bf6aab-4e35-4f76-8d0a-243e3ec09caa",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Developing probe-based transcriptional profiling of mucosal infections in humans",
+  "text": "Chlamydia trachomatis is the leading bacterial cause of sexually transmitted disease worldwide. The proposed\nresearch is relevant to public health because it will significantly advance our ability to study active mucosal\ninfection and improve understanding of the underlying molecular mechanisms driving protection and disease in\nhumans. This is anticipated to reduce the burden of involuntary infertility and improve the health of young\npeople and is well aligned with the NIH’s mission that seeks to apply knowledge to ‘enhance health, lengthen\nlife, and reduce illness and disability’."
+ },
+ {
+  "id": "e9c2d3f3-7c5f-4bcd-9c7e-f32b183e392f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Immunoengineering of donor lungs to optimize long-term graft function",
+  "text": "Lung transplant recipients have low survival rates because their immune system rejects the donor lung. Our\nproject will use new CRISPR genome editing technologies to modify the genetic composition of donor lungs\nand make them better tolerated in transplant patients. Our studies will enable transplant recipients to live\nhealthy and fulfilling lives without the need for lifelong medication or the fear of organ rejection."
+ },
+ {
+  "id": "e9c80d02-74b2-4049-84af-6be3de9590bc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "In vivo regulation of cell trafficking and the extracellular matrix",
+  "text": "For cells to be viable and work cooperatively with other cells within an organism, they must routinely\nmove proteins and lipids between various internal compartments, as well as from the inside to the outside of\nthe cell and vice versa. This internal–external exchange of proteins and lipids is essential for building and\nremodeling the extracellular matrix, a highly complex protein-based network that surrounds all cells, providing\nstructural support and affecting nearly all aspects of cell function. We study this cellular transport system and\nits impact on the extracellular matrix to understand fundamental aspects of cell and developmental biology and\nbecause defects in this conserved process lead to human disease including physiological and neurological\ndisorders and cancer."
+ },
+ {
+  "id": "e9cef02a-aeb8-4243-b588-af8582a3b2d6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting oncogenic Myb fusions in salivary gland cancer with the elongation inhibitor SVC112",
+  "text": "NARRATIVE. The major limitations in identifying new drugs for salivary gland cancer is that these cancers lack\ngenetic events that can be inhibited conventionally because the gene fusions give rise to abnormal proteins, and\nthere are few reliable models derived from patients. We have discovered a drug (SVC112) that inhibits production\nof such proteins vital to cancer cells, and we generated human models of this disease, which can actually mimic\nwhat happens in a patient more closely, and will make the testing of SVC112 more robust. Our goal is to\ndetermine if modulating protein synthesis with SVC112 constitutes a novel therapy for salivary gland cancers, a\ndisease orphan of options."
+ },
+ {
+  "id": "e9cf67f5-eb20-4e88-bf4c-8b69fee603eb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Early Life Lead Exposure and Later Life Cognitive Function: Biological and Psychosocial Pathways",
+  "text": "Emerging evidence suggests that early life lead exposure may increase the risk of later-life cognitive decline\nand neurodegenerative disease, but little is known about sensitive windows of vulnerability, interactions with\npsychosocial factors, and underlying mechanisms. As the global population of highly lead exposed children\nbegin to enter older age, there is urgent need to identify possible intervention points to prevent or delay the\nprogression of cognitive aging. This project will leverage a unique cohort of older adults who donated baby\nteeth as children in the 1950s-70s, which can be used as a biomarker of historical lead exposure across the\nprenatal and early postnatal periods, to elucidate the biological and psychosocial pathways linking early life\nlead exposures and later life cognitive function, informing potential interventions across the life course."
+ },
+ {
+  "id": "e9d43797-c8d8-4925-8fcf-8aeb69756aa3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Brain-region-specific humanized cortical interneuron mice",
+  "text": "Human iPSCs can provide unlimited sources of human neurons to study disease mechanisms; but in vitro\nneuronal cultures lack many important brain components that play crucial roles in neuronal functions. Thus, we\nwill generate brain-region-specific humanized cortical interneuron mice to allow for the study of the role of\ngrafted human neurons in brain circuit and behavioral functions. Such physiological humanized models will\nfacilitate the understanding of cell-type-specific and brain-region-specific disease mechanisms, and the\ndevelopment of novel therapeutics."
+ },
+ {
+  "id": "e9d5e549-ffc7-4581-9c61-a616f831aa59",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "UTS-1401 as a Medical Countermeasure to H-ARS Consequent to a Radiation Mass Casualty",
+  "text": "The objective of this research is to demonstrate that a new compound, UTS-1401, has superior chemical and\nbiological properties to current medical countermeasures to limit the lethal damage suffered, specifically to the\nhematopoietic system, by exposed individuals following a nuclear disaster including war, terrorism, reactor\nmalfunction or inadvertent exposure to ionizing radiation. The ability of UTS-1401 to increase the survival of both\nmale and female mice exposed to high dose, whole body irradiation at intervals longer than current radiation\nmitigating agents (radiation countermeasures) following exposure will be studied and correlated with UTS-1401\nlevels in the blood of the irradiated animals. Further, we will demonstrate that UTS-1401 can be effective when\nadministered by either the intravenous, oral or subcutaneous route making it a first-in-class mitigating agent to\nprovide a cost-effective, stable and versatile addition to the USA defense against radiation incidents."
+ },
+ {
+  "id": "e9df24ef-8b10-4c09-b7b8-ce778670e5c5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Non-invasive, quantitative microscopic biomarkers for chemotherapy-induced peripheral neuropathy",
+  "text": "Chemotherapy-induced peripheral neuropathy (CIPN) causes acute sensory dysfunction (e.g. numbness,\ntingling) and pain in a large proportion (40-90%) of the cancer patients undergoing chemotherapy. Currently,\nthere is no standardized and reliable tool for assessing CIPN. This project aims to develop a low-cost, portable\nconfocal microscope that provides non-invasive, quantitative microscopic biomarkers for CIPN."
+ },
+ {
+  "id": "e9eabb7c-2ed5-4db2-aed3-ee2394c8a01a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "From variants to mechanisms for cardiac arrhythmias",
+  "text": "Cardiac arrhythmias reduce the quality of life and increase the risk of death for millions of Americans, yet\ncurrent treatments are inadequate to the scope of the problem. While there are clear genetic factors that\ncontribute to the risk of arrhythmias, the mechanisms through which genetics confer risk remain unclear. The\ngoal of this project is to address this gap in knowledge with the goal of facilitating new therapeutic\ndevelopment."
+ },
+ {
+  "id": "e9f7ac5a-47be-4719-a6aa-78495709dc86",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Linear diribonucleotides regulation of bacterial physiology and infections",
+  "text": "In our last funding period, we showed that specific enzymes have diribonuclease activity to cleave\ndiribonucleotides to mononucleotides and that mutants lacking these enzymes have phenotypes involving\ngrowth and virulence. This proposal seeks to define how cells make and degrade diribonucleotides, how\ndiribonucleotides bind proteins to alter their function, and diribonucleotides affects bacterial physiology and\npathogenesis. Results from these studies will reveal how diribonucleotides act to regulate bacterial cell\nphysiology and virulence."
+ },
+ {
+  "id": "e9fcdb6b-8b26-45ff-85c3-839582ceca21",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Capturing Isomeric Heterogeneity and Structural Dynamics Using Transformative Ion Manipulation Platforms",
+  "text": "The Clowers Research Group at Washington State University is advancing new tools to improve\nhow scientists identify and study molecules in complex biological systems. By developing next-\ngeneration technologies that separate molecules based on their shape and interactions in\ncontrolled gas environments, their work aims to uncover hidden chemical details that could\nimprove our understanding of diseases, drug effectiveness, and human health."
+ },
+ {
+  "id": "e9ff142a-7b25-4f96-81b6-8e5f71190290",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Immunosuppression and Metabolic Rewiring in Tumor-infiltrating Neutrophils",
+  "text": "The majority of patients with metastatic breast cancer do not respond to immunotherapy with the tumor-\ninfiltrating neutrophils as a major factor to mediate the immunotherapy resistance. Our preliminary results\nidentify the metabolic enzyme aconitate decarboxylase (ACOD1) to be dramatically upregulated and\nfunctionally critical in tumor-infiltrating neutrophils. Upon completion of our project, we expect to define the\nmechanisms underlying neutrophil ACOD1 function in breast cancer metastasis and demonstrate the\npotential of ACOD1 inhibition to enhance metastatic breast cancer response to immunotherapy."
+ },
+ {
+  "id": "ea03d845-0a7e-4742-a284-786b7793403c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The role of p53 in regulating chaperone-mediated autophagy",
+  "text": "p53 is the most frequently mutated gene in human tumors, and its mechanism of action holds the key to\nunderstanding essential aspects of tumor suppression. This proposal seeks to define the role of p53 in regulating\nchaperone-mediated autophagy, a highly selective form of autophagy unique for vertebrates. It will enhance our\nunderstanding of p53 biological function and inform the development of effective therapies."
+ }
+]

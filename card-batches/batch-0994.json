@@ -1,0 +1,142 @@
+[
+ {
+  "id": "d5713b66-b46a-4178-9bf6-84f9f8b06398",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Computational Feature Profiling and Modeling for Prostate Cancer Detection and Risk Stratification",
+  "text": "Prostate cancer is a leading cause of cancer death in American men, but up to 60% of patients who receive\ntreatment may not require it as they would eventually succumb to a different health problem. The focus of this\nresearch is to investigate new methods for more accurately detecting cancer and assessing its aggression us-\ning medical imaging data, histology data, genetic data, and other risk factors towards reducing overdiagnosis\nand overtreatment, thus preventing patients from receiving unnecessary treatment and incurring associated\nnegative functional outcomes."
+ },
+ {
+  "id": "d57e6d59-918b-440c-9884-7883ce8f34c7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Boosting treatment effects on teenage binge drinking with a mechanistic understanding of parental monitoring",
+  "text": "Family-based treatments for adolescent alcohol misuse invest time and effort teaching parents to monitor what\nwhere teens go, who they spend time with, and what they do. This project aims to understand how monitoring\nreduces alcohol misuse, which specific parent behaviors matter most, and which mechanisms are important for\nwhich teens and families. In turn, this information will enable clinicians to coach monitoring more efficiently,\npowering up the interventions that rely on monitoring as mechanism of change. More powerful family-based\ninterventions will reduce the burden of alcohol misuse to teens, their families, and society."
+ },
+ {
+  "id": "d581e0b1-f4e6-4f8d-a680-dc293454df03",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Administrative, Biostatistics and GLP Management Core (ABGMC)",
+  "text": "Over the past four years, our U19 AG060917 has evolved from being multi–disciplinary to a transdisciplinary program that has begun to enable team science encompassing aging epidemiology, bone biology, adipose tissue biology and the neurosciences. Based at three primary sites in the U.S.––Icahn School of Medicine at Mount Sinai, Maine Medical Center Research Institute, and University of California at San Francisco––the U19 receives collaborative input from Harvard Medical School, U.S. Department of Agriculture, University of Leiden, Icelandic Heart Association, Columbia University, and, importantly, the National Institute on Aging. The overall thrust that now integrates disciplines ranging from physical chemistry, biochemistry and pharmacology, to complex mouse genetics, to case–cohort studies in people necessitates a mechanism that will not only maintain connectivity between the groups over time, but also, more importantly, enable true synergy. Thus, one function of the Administrative, Biostatistical and GLP Management Core (Core C) is to provide overarching leadership, coordination and support across all sites. This has already been achieved under the joint leadership of Drs. Zaidi and Rosen and will continue in earnest. For further seamlessness, Core C has put in place a purposefully–crafted administrative structure for budget management, personnel management, general scheduling and communication, and record maintenance. Dedicated biostatistical support will ensure conformity of statistical procedures across multiple sites, and together with the MediaLab Document Control System (Core A), will facilitate data re–analysis and cross–institutional validation. For Projects that require analysis or re–analysis of RNA sequencing data, Core C will provide bioinformatics support. Finally, we have recently expanded Core C to include the management of our new Good Laboratory Practice (GLP) Platform. This platform has a separate GLP lab, is supported by an independent Quality Assurance Program, and complies with the Code of Federal Regulations, Title 21, Part 58. The platform will allow the proposed studies to be carried out under the strictest standards––which we consider not only a step forward towards full transparency and rigor but is also key to the movement of our therapeutic FSH–blocking antibody, MS-Hu6, into the clinic. In all, Core C, which is now matrixed within the Center for Translational Medicine and Pharmacology of which Dr. Zaidi is Director, has become a vital overarching component of all U19 Projects and both Cores."
+ },
+ {
+  "id": "d5822e79-6c6b-419c-8735-638a04dd7af3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Hydrogel Delivery of Bacteriophage to Treat Wound Infections",
+  "text": "Bacteriophages, viruses that kill bacteria, are a promising but currently inadequate solution to the problem of\nmultidrug-resistant bacterial infections. We propose to develop hydrogel-based wound dressings to enable\nconsistent, effective delivery of phage therapy and imaging platforms to assess this delivery. These studies\nhave the potential to transform the treatment of chronic, multidrug-resistant bacterial infections."
+ },
+ {
+  "id": "d585d53c-a126-4d39-b7f4-f1bde44d1af9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Characterizing the feedback loop between cells and the pericellular region during cell-material interactions",
+  "text": "Interactions between human mesenchymal stem cells (hMSCs) and their environment are a main factor in the\nfunction of these cells. During cell-material interactions, there is a feedback loop between environmental cues\nand hMSC-mediated remodeling of the pericellular region which is poorly understood. The proposed work will\nuse synthetic hydrogel scaffolds to mimic aspects of the native tissue environment to quantitatively characterize\nthe change in 3D encapsulated hMSC processes and dynamic hMSC-mediated pericellular degradation and\nremodeling to build a fundamental understanding of the role of cell-material interactions and the inﬂuence on\nbasic cellular processes."
+ },
+ {
+  "id": "d58dda1a-09f1-46c5-9432-e57fbaf3cc05",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Unraveling Proteasome Inhibitor-Induced Cardiovascular Toxicity through Integrative Multiomics",
+  "text": "Carfilzomib (CFZ), a second-generation proteasome inhibitor, demonstrates high efficacy against hematologic\nmalignancies, but its clinical use is hindered by significant cardiovascular adverse events, including hypertension,\narrhythmia, thrombosis, and heart failure. This proposal aims to elucidate the mechanisms of CFZ-induced\nvascular dysfunction by utilizing advanced techniques, including iPSC technologies, tissue engineering, single-\ncell RNA sequencing, deep learning, CRISPR perturbation screens, RNA alternative splicing biology, and\nantisense oligonucleotide-based gene therapy. The findings from this study will offer novel insights into the\npathogenic alternative splicing isoforms in CFZ-induced cardiovascular toxicity, which will facilitate the\ndevelopment of molecularly targeted therapeutics tailored to specific cardiovascular cell types."
+ },
+ {
+  "id": "d5915c4e-b733-4014-b135-0168056950bc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Patient-specific Outcome Prediction from Cardiovascular Multimodality Imaging by Artificial Intelligence",
+  "text": "Heart attacks–a major cause of death–are most commonly caused by coronary artery disease. While there are\npowerful imaging methods to detect coronary disease by PET (looking at blood flow in heart and inflammation\nin the arteries) or CT (depicting anatomy and calcium deposits in the artery), physicians are not able to use these\ndata effectively to identify patients at the highest risk of adverse events— due to complexity and lack of\nautomation. The investigator proposes to establish a large multicenter PET and CT imaging registry and with\nartificial intelligence tools, automate analysis and quality control, and develop decision support tools utilizing\ncollectively all available PET/CT images and clinical information (beyond what is possible by subjective visual\nanalysis and mental integration) for identification of patients with high-risk disease who can benefit from\ntreatment with aggressive therapies—while providing patient-specific explanations of the risk factors."
+ },
+ {
+  "id": "d59de5ab-e116-4965-8c47-8022371d5399",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Triglycerides, Diabetes and Cardiovascular Disease",
+  "text": "The proposed studies will have important implications for the management of patients with diabetes and\nprediabetes, in whom the risk of premature cardiovascular disease remains a serious threat. The\ninvestigations will provide important and interrelated insights into novel fundamental mechanisms of diabetic\nvascular disease, which in the long-term will set the stage for the development of new therapeutic agents and\npharmacological strategies designed to prevent and interrupt the devastating complications of diabetes."
+ },
+ {
+  "id": "d5aa1d0a-23c7-4870-be5d-61dd0efbff5a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of Processive Antitermination in Gram-Positive Bacteria",
+  "text": "We recently discovered novel genetic regulatory mechanisms that are widespread in Gram-positive\nbacteria, and that control expression of operons that encode for biofilm exopolysaccharides,\nantibiotics, and other secondary metabolites. Elucidating these molecular strategies will provide\nimportant insights into the textbook depiction of transcription elongation mechanisms. It will also\nimprove our understanding of biofilm regulation in pathogens and influence the strategies used to\ndiscover novel natural products, such as antibiotics."
+ },
+ {
+  "id": "d5ab942d-c42a-411c-8650-71fb6e4aa458",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cis-Regulatory Role of Alternative Promoters in Cancer",
+  "text": "Cancer cells often exploit alternative promoters to drive the expression of gene isoforms that promote\ntumorigenesis. This project will explore how alternative promoters in cancer cells act as regulatory elements to\nenhance or compensate for the primary promoter, supporting oncogene expression and cancer cell fitness. By\ndefining the mechanisms of these promoter interactions, this research could reveal novel targets for cancer\ntherapies, providing a foundation for strategies to modulate oncogene expression in a cancer-type specific\nmanner."
+ },
+ {
+  "id": "d5ad78f7-407f-4425-9a7b-2ee6bcf5f976",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Combined Photoacoustic and Ultrasound Imaging for Enabling Quantitative Evaluation of Hidradenitis Suppurativa",
+  "text": "Hidradenitis suppurativa (HS) is a chronic, inflammatory, debilitating skin disease that is treated symptomatically,\nbut only a subset of its symptoms can be identified clinically by visual inspection and palpation, which is the\ncurrent standard of care in the United States. This project proposes development of an advanced photoacoustic\nand ultrasound imaging system with an easy-to-use hand-held probe that will generate a 3D map of likely HS\ninvolvement throughout the epidermis, dermis, and hypodermis. The proposed photoacoustic/ultrasound\nimaging system and associated HS-detection algorithm not only hold promise for reducing HS morbidity in direct\nclinical use by enabling more accurate surgeries and better-targeted pharmacological treatments but will also\nassist future HS investigators to develop more effective drugs and individualized therapeutic strategies."
+ },
+ {
+  "id": "d5adc599-b7c2-4055-adaf-20886ca50094",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Interpretable Deep Learning Methods to Investigate Genetics and Epigenetics of Alzheimer's Disease at a Single-Cell Resolution",
+  "text": "In addition to genetic variants, a series of epigenetic, network, and genome organizational\nperturbations, and their complex interplays, have been reported to contribute to Alzheimer's\ndisease and related dementias (ADRDs), so dissecting such multiple-scale gene regulation rules\nis the cornerstone to informing new cellular etiologies in such complex disorders. The recent\nsingle-cell revolution, especially the multimodal genomic profiling within the same cell, allows us\nto scrutinize ADRD dysregulations at the finest possible resolution, but its computational modeling\nis still in its infancy due to its ultra-high dimensionality, complex feature interactions, and high\nvulnerabilities to numerous confounding factors. This research aims to develop a suite of\ninterpretable deep learning models and open-source software tools to construct personalized\nregulome via flexible single-cell multiome integration and highlight multi-scale dysregulations\ncontributing to ADRD with detailed mechanistic explanations."
+ },
+ {
+  "id": "d5b374e9-a2e2-4574-8d32-698bdaa40c7a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Noninvasive, Trial-Ready Multimodal Imaging Endpoints for Uveitis",
+  "text": "Noninfectious uveitis (NIU) is a leading cause of preventable vision loss worldwide, yet current\nclinical trials depend on invasive fluorescein angiography to assess disease activity. This project\nwill develop consensus-based, noninvasive imaging biomarkers using optical coherence\ntomography and ultra-widefield fundus photography and establish the operational framework for\na multicenter clinical trial. The resulting tools will enable safer, more scalable evaluation of\nretinal inflammation, accelerating therapeutic development and improving patient outcomes."
+ },
+ {
+  "id": "d5b65efd-4036-4e13-8781-5d218114f732",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identifying Organ-Specific Blood Biomarkers of Aging and Assessing their Effects on Cardiovascular Health",
+  "text": "The proposed research is of significant clinical relevance as it uses some of the largest health databases in the\nworld to generate novel metrics of the biological age of different organs based on clinical measurements that\ncan be used in different populations. Additionally, by identifying blood biomarkers of organ age, the proposed\nstudy has the potential to assess from a blood sample from a person which of their organs are aging faster and\nmore susceptible to diseases. Furthermore, by focusing on blood markers of cardiac dysfunction and brain during\naging, this study will aim to define new targets and pharmacological interventions to maintain function during\naging."
+ },
+ {
+  "id": "d5c33f14-7cc3-4bec-a36b-44d28637e384",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "High-throughput computational modeling to assess the role of 3D genome folding in human congenital heart defects.",
+  "text": "Congenital heart defects are the leading cause of defect-associated infant mortality. Approaches focusing on\ndirect mutations to protein-coding elements do not fully explain the heritability of this disease. I propose that\nCHD variants disrupt 3D genome organization, leading to misregulated gene expression, and I therefore aim to\ncharacterize the extent to which this occurs in human heart defects and validate specific examples."
+ },
+ {
+  "id": "d5c3417d-03e4-49bd-8137-094c2239be0a",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Antibody Technologies Shared Resource",
+  "text": "ANTIBODY TECHNOLOGIES SHARED RESOURCE – PROJECT SUMMARY/ABSTRACT The mission of the Cold Spring Harbor Laboratory Cancer Center (CSHL-CC) is to unravel the fundamental mechanisms that govern the biology of cancer through collaborative research and technology development while training exceptional cancer scientists to become future leaders in the field. Led by Faculty Head Adrian Krainer, Ph.D., and Director Johannes Yeh, Ph.D., and located in the Hillside Complex, the Antibody Technologies Shared Resource (Ab-SR) supports that mission by providing members access to cutting-edge antibody technologies and specialized expertise. The Ab-SR's comprehensive services include consultation on experimental design, antibody development and optimization, antibody validation, molecular engineering such as humanization of antibodies, conjugation to linkers, and antibody production services. Services extensively used by CSHL-CC members include hybridoma development through rodent spleen cell fusion, nanobody generation from immunized alpacas, and direct cloning of VH-VL domains from immunized animal B cells into expression plasmids. Moreover, the antibodies provided by the Ab-SR enable genomics experiments, cell separation, single-cell analyses, and potential diagnostic or therapeutic development. In the current funding period, the facility implemented new services, including epitope mapping by NMR and mutagenesis scanning, sortase-tag-based site-specific antibody conjugation, antibody-drug conjugates using click chemistry, and solid- phase peptide synthesis for various applications. The Ab-SR prides itself on working closely with CSHL-CC members on all aspects of project development and on developing customized solutions to meet member needs. This level of customized service is not available in outside antibody cores or companies. The novel antibodies that the Ab-SR generates support member research in the molecular drivers of cancer, cancer heterogeneity, cancer physiology, and preclinical therapeutics and diagnostics cross-Programmatic themes of the CSHL-CC strategic plan. Moreover, the novel antibodies the Ab-SR is developing have high translational potential, supporting the strategic goal of fostering translational research, and the Ab-SR is working closely with the Animal & Tissue Imaging SR on a strategic goal to develop new preclinical “theranostic” agents by conjugating antibodies to radionuclides and novel small molecules. Thus, the research enabled by the Ab-SR is essential for CSHL-CC to complete its strategic plan. Over the past five years, the Ab-SR was used by 20 CSHL-CC members (35% of members) from all three Programs and contributed to 16 publications, of which 7 (44%) were in journals with impact factor greater than 10. In addition, 3 publications enabled by the Ab-SR feature Ab-SR staff as coauthors, demonstrating the value their contributions add to CSHL-CC research. The services provided by the Ab-SR make advanced antibody technologies accessible to investigators who would otherwise be unable to incorporate these critical tools into their cancer research at CSHL."
+ },
+ {
+  "id": "d5c6fd7a-eb12-4ccb-bec5-ed6591c1f0a6",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Alcohol Research Training in epigenetics and pathophysiology (ARTEP)",
+  "text": "Alcohol use disorder (AUD) is a chronic relapsing disease that is often comorbid with psychiatric\ndisorders and other addictive drugs. Epigenetic mechanisms that may underlie both molecular and\nbehavioral phenotypes appear to be important in better understanding AUD and related comorbidities.\nThis alcohol research training grant will train the next generation of basic and clinical alcohol\nresearchers leading to more research in this area so that discovery leads to development of new drugs\nto treat or prevent AUD."
+ },
+ {
+  "id": "d5c9ccab-1dd7-4a74-a45b-c65241a8ff4a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Biophysical modeling of inward and outward membrane curvature generation",
+  "text": "The proposed research is relevant to public health because defects in endocytosis and extracellu-\nlar vesicle formation play important roles in pathological conditions including inflammation, cancer, neurodegeneration,\nand heart disease. Therefore, the proposed research plan to elucidate the fundamental biophysical principles underly-\ning inward and outward membrane curvature generation is relevant to the part of NIH’s mission that seeks to develop\nfundamental knowledge that will mitigate the burden of human disease. Further, the proposed work will develop in-\nnovative computational models that will allow for potential design and rapid testing of new strategies to treat multiple\npathologies and the development of nanotherapeutics."
+ },
+ {
+  "id": "d5cc6753-d092-4c37-9b06-db67b16e73ee",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Understanding the Nature and Regulation of Extramedullary Hematopoiesis in the Liver",
+  "text": "Hematopoietic stem cells (HSCs), typically located in the bone marrow in adult organisms, can migrate to the\nliver to initiate extramedullary hematopoiesis (EMH). This proposal aims to understand how the HSCs in the\nEMH liver are cell-extrinsically and -intrinsically regulated. The gained knowledge is expected to offer a\ncomprehensive understanding of liver EMH applicable to manipulating various pathological processes."
+ },
+ {
+  "id": "d5d0a9b0-42d0-430e-9bd8-4400d3021444",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multi-Scale Modeling of Microbial Metabolic Interactions",
+  "text": "The complex communities of microbial organisms associated with the human body “the human\nmicrobiome” have been intricately linked to health and disease physiology. The dynamics of\nthese communities are driven by metabolic interactions between microbial organisms. Gaining\nimproved understanding of these interactions, and their metabolic mechanisms, will allow us to\neffectively engineer the human microbiome to improve health."
+ }
+]

@@ -1,0 +1,142 @@
+[
+ {
+  "id": "6eaeff3f-889f-4f08-8819-b07f5729048d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Autologous Non-viral CRISPR/Cas Homology-directed Repair for Artemis-deficient Severe Combined Immunodeficiency",
+  "text": "There are over 500 genetic diseases that cause problems with immune deficiency or dysregulation, and a major\nlimitation to developing genome editing therapies at scale is the lack of methods that do not use viruses, which\nare challenging and expensive to manufacture and do not work equally well for all patient’s cells. Here, I propose\nto focus on one inherited immune disease, Artemis-deficient severe combined immunodeficiency (ART-SCID),\nand 1) develop a pre-clinical genome editing therapy using non-viral techniques and 2) develop methods to\nquickly and accurately determine if a patient has a true mutation in the gene that causes ART-SCID. If successful,\nthis could be translated into a clinical trial for patients with ART-SCID and have broad implications for patients\nwith other genetic disorders of the immune system."
+ },
+ {
+  "id": "6eaf4b23-69c3-4a0f-bd34-e1e1968d253c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Applying a Machine Learning and Causal Inference Approach to Analyzing Long-Term Sequelae of Viral Infection.",
+  "text": "This project aims to inform how we can repurpose medications and other interventions to reduce long-term sequelae and mortality following viral infections by analyzing electronic health record data. This work will inform infectious disease treatment strategies and advance causal inference methods for electronic health record data, strengthening our understanding of and preparedness for viral threats. \nReferences\n1 National Institutes of Health. About the National Clinical Cohort Collaborative. National Center for Advancing Translational Sciences 2023. URL: https://ncats.nih.gov/n3c/about.\n2 Halabitska I, Petakh P, Lushchak O, Kamyshna I, Oksenych V, Kamyshnyi O. Metformin in Antiviral Therapy: Evidence and Perspectives. Viruses 2024;16:. https://doi.org/10.3390/v16121938.\n3 Li Y-S, Ren H-C, Cao J-H. Roles of Interleukin-6-mediated immunometabolic reprogramming in COVID-19 and other viral infection-associated diseases. Int Immunopharmacol 2022;110:109005. https://doi.org/10.1016/j.intimp.2022.109005.\n4 Sato T, Shimizu T, Fujita H, Imai Y, Drucker DJ, Seino Y, et al. GLP-1 Receptor Signaling Differentially Modifies the Outcomes of Sterile vs Viral Pulmonary Inflammation in Male Mice. Endocrinology 2020;161:. https://doi.org/10.1210/endocr/bqaa201.\n5 Tanaka T, Narazaki M, Kishimoto T. IL-6 in inflammation, immunity, and disease. Cold Spring Harb Perspect Biol 2014;6:a016295. https://doi.org/10.1101/cshperspect.a016295.\n6 van der Laan MJ, Rose S. Targeted learning: causal inference for observational and experimental data. New York: Springer; 2011.\n7 Van der Laan MJ, Rose S. Targeted learning in data science: causal inference for complex longitudinal studies. New York, NY: Springer Berlin Heidelberg; 2017.\n8 van der Laan M, Coyle J, Hejazi N, Malenica I, Phillips R, Hubbard A. Targeted Learning in R: Causal Data Science with the tlverse Software Ecosystem. 2023.\n9 Bonanni P, Heo JY, Honda H, Lee P-I, Mouliom A, Leong HN, et al. Optimal Timing of Vaccination: A Narrative Review of Integrating Strategies for COVID-19, Influenza, and Respiratory Syncytial Virus. Infect Dis Ther 2025;14:911–32. https://doi.org/10.1007/s40121-025-01135-0."
+ },
+ {
+  "id": "6eb47009-cb6e-4f39-9bde-fda7b8d6b500",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms, Structures and Engineering of Flavonoid-producing Dioxygenase Enzymes",
+  "text": "The goal of this research is to enhance our understanding of the biochemistry of alpha ketoglutarate dependent\ndioxygenase enzymes by studying Flavanone Synthase 1 (FLS1) and Flavanone 3-Hydroxylase (F3H), which\nproduce the medically significant compounds quercetin and (2S,3R)-trans-taxifolin, respectively. Methods\ndeveloped through this research will enable future studies on these and the related family of enzymes, many of\nwhich are medically important. This research will further support public health by providing accurate enzyme\nstructures to serve as tools to enable the biosynthetic development of specific or novel flavonoids that can be\nused to study the roles of flavonoids on the microbiome in relation to diseases associated with gut dysbiosis."
+ },
+ {
+  "id": "6eb60278-9256-40c2-b1bb-0b8d66a0facb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project 5: Microencapsulation Delivery Vehicles for the Implementation of Precision Bioremediation at PAH-Contaminated Superfund Sites",
+  "text": "Polycyclic aromatic hydrocarbons (PAHs) are contaminants of great concern commonly encountered at\nSuperfund sites. In this project, we will develop innovative precision bioremediation approaches that promote\nPAH degradation and minimize co-contaminant mobilization. A fundamental feature of our project will be the\nengineering of microcapsule delivery vehicles that facilitate targeted delivery and optimized activity of microbes\ncarrying out key remediation functions, ultimately reducing the potential for human and environmental exposure."
+ },
+ {
+  "id": "6eb7d132-e278-4584-9b7d-89aad2bc2be2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Shaping of offline cortical reactivations of recent experiences by pre-existing ensembles and inhibitory microcircuits",
+  "text": "Offline replay of neural activity patterns evoked by prior experiences offers a window into early stages of memory\nconsolidation, but the mechanisms that reshape neural representations during replay remain poorly understood.\nThe proposed research project will investigate the hypothesis that during spontaneous replay, neocortical activity\nmaps new experiences onto a pre-existing “scaffold” defined by stable recurrent connectivity. This work will\nprovide mechanistic insight into the nature of offline learning in the cortex and hippocampus to inform our basic\nunderstanding of the neurobiology of memory consolidation."
+ },
+ {
+  "id": "6ebc5e9d-0274-4bdb-a183-85ed84ec2c1b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Metabolism of dietary fatty acids promotes castration resistance in prostate cancer",
+  "text": "This proposal will investigate the molecular mechanism of which high-fatty-acid diets promote prostate\ncastration resistance mediated by lipid/fatty acid metabolism. We aim to determine a rate-limiting step in the\nbiosynthesis of fatty acyl-CoAs and myristoylated proteins that regulates androgen receptor stability and\ncontributes to castration resistance in prostate cancer."
+ },
+ {
+  "id": "6ec5fd07-852f-4ed2-830f-f91037617536",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting the CDK4/6 pathway in MiT/TFE-translocation renal cell carcinoma",
+  "text": "Cancer is the second leading cause of death in the United States. Translocation renal cell carcinoma (tRCC) is\nan aggressive kidney cancer without effective therapies and is an unmet medical need. This project explores\nwhether CDK4/6 signaling may be a defining feature of, and therapeutic vulnerability in, tRCC."
+ },
+ {
+  "id": "6ec60092-6607-4475-9969-932fc5d36cf2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Novel roles of PDK4 in regulating mitochondrial protein phosphorylation, carbon flux and metabolic resilience",
+  "text": "RELEVANCE STATEMENT\nMitochondria are tiny engines that generate the chemical power that cells use to grow and function. This project\naims to understand how an enzyme known as PDK4 helps mitochondria to maintain high rates of energy\nproduction in during normal stresses, such as food restriction and exercise. These studies will delineate the\nprecise role of PDK4 in regulating fuel selection and use in tissues such as muscle and heart. The results could\nprovide new approaches to treating metabolic disorders such as diabetes and heart disease."
+ },
+ {
+  "id": "6ec64a7c-fed0-4b71-9839-4d3cc1bf4881",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Determining the role of a TENT5 family non-canonical polyA polymerase in Drosophila spermatogenesis",
+  "text": "In this project we will determine the role of the non-canonical polyA polymerase TENT5 in spermatogenesis in the fruit\nﬂy Drosophila melanogaster. A TENT5 gene has been linked to infer�lity in human males and our research ﬁndings will\nincrease our understanding about causes and treatment of human male infer�lity."
+ },
+ {
+  "id": "6ec75cc9-8cab-44b3-bc4d-6759053e4a81",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A cortex-midbrain circuit regulates energy balance",
+  "text": "Despite the rapidly growing rate of obesity, the development of safe and effective therapeutics has become\nprogressively more promising, yet is still limited, largely due to insufficient understanding of how the brain\nmanages energy balance. Serotonin (5-HT) remains an excellent potential target for an anti-obesity therapeutic,\nbut a gap in our understanding of the regulators of 5-HT persists. This proposal will focus on how 5-HT-projecting\nneurons in the Agranular Insular Cortex (AIC) respond to internal and environmental cues to regulate 5-HT and\ndownstream metabolic mechanisms, like brown adipose tissue thermogenesis and energy balance."
+ },
+ {
+  "id": "6ed38d21-bf9b-4646-b861-3213309c78f2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mentoring Translational Cancer Research in Oklahoma",
+  "text": "The Oklahoma COBRE in Cancer Research supports the development of cancer research infrastructure, mentoring of early-stage investigators, and advancement of innovative cancer research programs in Oklahoma. These efforts are intended to strengthen the state’s biomedical research capacity and contribute to improved approaches for cancer prevention, diagnosis, and treatment."
+ },
+ {
+  "id": "6eda3fe4-9045-425a-bd3f-6b5ea91057cc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Novel multimodal neural, physiological, and behavioral sensing and machine learning for mental states",
+  "text": "Simultaneous brain-behavior quantification for mental states can provide novel neural-physiological markers to\nenable personalized therapies for diverse mental disorders but remains immensely difficult. Our interdisciplinary\nteam will develop novel hardware and software tools that address several challenges on the physiology,\nbehavior, machine learning, and ethics fronts to enable multimodal neural-physiological-behavioral sensing and\nmachine learning for mental states. Our multimodal, convergent, and integrated tools will likely enable unique\nbrain-behavior insights into human emotion functioning applicable to broad domains of mental health."
+ },
+ {
+  "id": "6edad462-78c6-431d-9300-897d689e39ef",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Using genetics to discover mechanisms of abdominal aortic aneurysm",
+  "text": "Abdominal aortic aneurysms (AAA) are increasingly prevalent, especially among the elderly, and can be fatal\nupon rupture. Currently, there are no effective medications for AAA treatment. To address this, the study\nemploys a comprehensive approach involving genetics, statistics, computer analysis, biology, and mouse\nmodels to better understand the genetics and biology of AAA, potentially leading to new treatment strategies."
+ },
+ {
+  "id": "6ee146cf-70d9-47df-8648-6aaa6c71d5e5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The role of EZH1 in neuronal differentiation and neurological disorders",
+  "text": "Intellectual disabilities are group of debilitating conditions causing life-long cognitive and behavioral defects that\noften remain undiagnosed and untreated. Advances in genetic studies have uncovered that defects in chromatin\nregulation during cerebral cortex development significantly contribute to the pathogenic mechanisms leading to\nintellectual disability. Our goal is to uncover the role of the chromatin modifier Enhancer of Zeste Homologue 1\n(EZH1) in cortical neurogenesis that will ultimately provide new insights into the mechanisms and treatments for\na novel intellectual disability syndrome caused by mutations in EZH1."
+ },
+ {
+  "id": "6ee1d755-0927-4aa7-a5e3-2b144d5fe3c4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "University of New Mexico's CURE for Cancer",
+  "text": "The proposed CURE for Cancer program aims to create a comprehensive research experience focused on cancer for high school and undergraduate students, and an introductory, hands-on research experience for rural middle school students. The program seeks to cultivate students' interest in science, boost their self-efficacy in science, and help them attain skills needed to apply and ultimately succeed in higher education programs and prepare them for success in graduate and professional schools. By emphasizing students from rural and under-resourced communities, the CURE for Cancer program addresses national priorities for recruiting students in STEM-Health careers, particularly in biomedical science and cancer-care workforce."
+ },
+ {
+  "id": "6ee2a120-b879-4c2b-a64f-fb120c324ce1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Enhanced Viro-Immunotherapy for Breast Cancer Brain Metastasis",
+  "text": "Breast cancer brain metastasis (BCBM) is associated with deadly outcomes due to limited therapeutic options\nand poor response, urgently calling for the development of novel therapeutic intervention strategies. We have\nfound that oncolytic herpes simplex virus-1 (oHSV) therapy induces neutrophil infiltration and neutrophil\nextracellular trap (NET) formation through induction of Insulin-like growth factor-2 (IGF2) expression and\nsecretion into tumor microenvironment (TME), hampering therapeutic efficacy of oHSV. In this proposed\nresearch, we will uncover the mechanistic relationship between oHSV-induced IGF2 and oHSV-triggered\nneutrophil infiltration and NET in BCBM, and characterize the preclinical therapeutic impact of novel IGF2-\nscavenging oHSV in combination with radiation therapy as well as NET-mitigating oHSV for significant advance\nof BCBM treatment in the future clinical application."
+ },
+ {
+  "id": "6ee67931-0766-4e10-a184-5d2c73f79481",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Robot-Assisted Personalized Prostate Biopsy",
+  "text": "Current systematic prostate biopsies use a one-size-fits-all biopsy plan that is still being used even in conjunction\nwith modern MRI-guided fusion biopsy devices, and the biopsy remains freehanded making the results variable\namong urologists. We have developed novel software that optimizes the biopsy plan for each patient and a robot\nthat handles the ultrasound probe and automatically orients the needle-guide to follow the plan, making the\nbiopsy procedure hands-free and independent of physician’s skills. We have successfully completed a safety\nand feasibility clinical trial, and propose a larger randomized clinical trial to investigate if our robot increases the\ndetection rate of clinically significant prostate cancer relative to that of a modern commercial biopsy device."
+ },
+ {
+  "id": "6eeeda07-717c-4b81-bca9-432ff676b42c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Novel cytoskeletal mechanisms of pathogenic bacteria interactions with intestinal epithelium",
+  "text": "Gastrointestinal disorders caused by pathogenic bacteria represent a serious health problem worldwide by\ncausing high mortality in infant, immunocompromised and elderly people and contributing to chronic\ninflammatory conditions, such as inflammatory bowel diseases. This project will improve understanding the\npathogenesis of gastrointestinal bacterial infections by exploring novel mechanisms that regulate pathogen\ninteractions with intestinal epithelium and bacterial invasion into host cells. Furthermore, it will identify novel\ntargets for pharmacological prevention of intestinal colonization by pathogenic bacteria, which would decrease\nmorbidity and mortality of a large cohort of patients with enteric infections."
+ },
+ {
+  "id": "6f0022d4-c261-43f0-80f1-4b5e057e3720",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating Common Molecular Pathogenic Pathways in Frontotemporal Dementia Patients iPSC-Derived Neurons",
+  "text": "Frontotemporal dementia (FTD) is the most common form of dementia before the age of 60 and about 40% of\nFTD cases are familial and caused by genetic mutations in multiple genes. Common molecular pathogenic\nmechanisms in FTD are largely unknown and effective treatment remains elusive. We will use patient iPSC-\nderived cortical neurons with different genetic mutations as our main experimental system. A combination of\nclassical and cutting-edge molecular and cellular approaches (such as CRISPR editing and transcriptomic\nanalysis) will be employed to reveal common pathogenic mechanisms and modifier pathways in patient\nneurons and identify potential therapeutic targets for FTD."
+ },
+ {
+  "id": "6f053ff3-44a8-4318-ad5c-e7a8487f1006",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The contributions of quantal and nonquantal transmission to vestibular input",
+  "text": "Vestibular disfunctions can be debilitating, life-altering conditions to those affected. To develop effective\ntreatments, we need to understand the ways in which the vestibular system operates, and the ways in which\nhair cells, the sensory organ in the vestibular system, relay information to the brain. This project seeks to\ninvestigate a direct electrical transmission pathway between hair cells and neurons that may be playing a\nlarger role in synaptic transmission than previously appreciated."
+ }
+]

@@ -1,0 +1,142 @@
+[
+ {
+  "id": "dea1c3e1-2569-4df5-8589-784ea7a224dc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Smart Laser Capturing Microscope for Genome Wide Single Cell Spatial Transcriptomics",
+  "text": "We aim to add a spatial coordinate to existing single-cell RNA sequencing techniques, thereby achieving single-\ncell resolution and genome-wide coverage for spatial single-cell transcriptomics. This can enhance our\nunderstanding of cells and their interactions, as well as diseases like cancer. Such research could lead to deeper\ninsights into living systems, potentially resulting in improved health outcomes and longer lifespans."
+ },
+ {
+  "id": "dea8c1ad-5d4b-4b92-96a8-4ed7a1ae67dd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mining microbe-treatment interactions to combat multi-drug resistant polymicrobial CAUTI",
+  "text": "PROJECT 3 – ABSTRACT/SUMMARY Urinary catheters are essential medical devices, yet their use is associated with a high risk of catheter-associated urinary tract infections (CAUTIs), the leading cause of hospital-acquired infections, which affect over 2 million people and cause 100,000 deaths per year. CAUTIs can be life threatening, especially in the vulnerable populations most likely to require the use of catheters. Current CAUTI treatment and prophylaxis relies heavily on antibiotics but rising multidrug resistance (MDR) and the formation of polymicrobial biofilms in the catheterized bladder complicate treatment. Thus, to better combat CAUTIs, particularly those caused by MDR uropathogens (including Escherichia coli, Enterococcus faecalis, Klebsiella pneumoniae, Pseudomonas aeruginosa, and Acinetobacter baumannii), we must fill fundamental gaps in our understanding of how CAUTI-associated uropathogens establish and persist within the catheterized bladder, despite frequent catheter exchange and antibiotic use. This proposal aims to fill these gaps and leverage insights for therapeutic development, including how these communities respond to adhesin-neutralizing therapeutics (Project 1). We hypothesize that the uropathogens colonizing the polymicrobial catheterized bladder exhibit distinct transcriptional programs depending on their biogeography and microbial co-colonizers, and that identifying these programs will reveal therapeutic vulnerabilities. To test this, in Aim 1, we will determine key factors of polymicrobial uropathogen colonization in the catheterized bladder to identify therapeutic targets. We will integrate multi-omic analyses of human catheter samples with ex vivo and in vitro colonization models to discover mechanisms driving polymicrobial colonization and persistence across microhabitats, followed by functional validation using targeted mutagenesis and mouse CAUTI models. This work will directly inform Project 1’s work to develop adhesinneutralizing therapeutics that prevent host-pathogen interactions and biofilm formation. In Aim 2, we will evaluate the effects of candidate therapeutics on polymicrobial CAUTI communities, including Project 1's adhesinneutralizing miniproteins and monoclonal antibodies. In ex vivo, in vitro, and animal models, these therapeutics will be assessed for their ability to disrupt polymicrobial biofilms, prevent persistence, and shift bacterial transcriptional programs away from a colonization-ready state. By elucidating the microbial dynamics and transcriptional responses that drive CAUTI, this work will provide critical mechanistic insights to the entire CAUTI research field and guide Project 1 in refining therapeutic approaches. Together, these efforts will accelerate development of therapeutics to combat CAUTI, reduce dependence on standard antibiotics, improve patient outcomes, reduce clinical and economic burdens, and ultimately restore quality of life for millions of Americans."
+ },
+ {
+  "id": "deab6cd4-76cd-4ca7-bc08-8e9c3497f9a1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting MMP14 to overcome therapeutic resistance in brain tumors",
+  "text": "Glioblastoma (GBM) is the most prevalent primary malignant brain tumor and remains uniformly fatal despite\naggressive therapies including surgery and chemoradiation. GBM tumors are often resistant to standard therapies\nand are also cold, limiting the success of immunotherapy. We propose to target the metalloproteinase MMP14\nby using the selective, novel inhibitor (R)-ND336. (R)-ND336 is expected to increase GBM sensitivity to chemoradiation\nwhile providing an inflamed TME, thus leading to improved patients’ outcomes."
+ },
+ {
+  "id": "deb0b25d-d7df-4906-9063-3103d81301c5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Redox cofactor diversification in enzyme superfamilies",
+  "text": "All organisms make use of electron transfer-based processes for energetic needs, and for engaging in the\ntransformation of molecules required for life, and most often the electron transfer is mediated by a metal-\ncontaining cofactor, such a heme or an iron-sulfur cluster which are specifically bound by a protein or an\nenzyme. Understanding how Nature achieves such different kinds of chemistry using the same electron-\ntransfer cofactors, and how metallocofactors are used by microorganisms to make critical biomolecules are the\nguiding principles of this proposal."
+ },
+ {
+  "id": "debf2dc0-e463-4e37-9f1d-2f8663d2afc0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Using Machine Learning to find a life saving needle in a haystack of children's emergencies",
+  "text": "The long-term goal of our research is to develop an automated system to identify and mitigate adverse safety\nevents in the out-of-hospital care of pediatric cardiac arrest. We will create a computerized tool using rules-\nand regression-based models, as well as both ontology-driven and neural NLP techniques, to identify adverse\nsafety events from Emergency Medical Services clinical charts of pediatric out-of-hospital cardiac arrest and\nprospectively demonstrate the scalability of this automated screening system on two statewide samples of\nchildren with out-of-hospital cardiac arrest to understand and describe the incidence of and contributors to\npreventable adverse safety events."
+ },
+ {
+  "id": "debf3a9b-72f4-4e56-a07f-84b94d5e1f8c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mapping the spatial and functional response of placental macrophages to Group B Streptococcus infection",
+  "text": "Streptococcus agalactiae (Group B Streptococcus, GBS) is a bacterium that can cause serious infection during\npregnancy, leading to adverse outcomes like premature labor, stillbirth, or neonatal infection. The placenta is the\nphysical and immune barrier to the fetus, and macrophages in the placenta are the initial immune cell responders\nto combat invading GBS. The goal of this research is to uncover how macrophages in the placenta respond to\nGBS infection, thus improving our ability to predict and prevent infection-related adverse pregnancy outcomes."
+ },
+ {
+  "id": "debf4cd5-74a6-454d-bedd-e95c6eb422d9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Polymeric Nanomaterials for Probing and Modulating Innate Immune Responses",
+  "text": "Abnormal activation of inflammasomes can initiate undesirable inflammatory responses associated with the\nprogression of chronic inflammatory diseases. Nanomaterials that are used to target immune cells at the disease\nsite to modulate immune responses have been shown to non-specifically activate inflammasomes potentially\nexacerbating the disease, however this is poorly understood. The central vision of my program is to perform a\ncomprehensive understanding of nanomaterial properties that drive inflammasome activation and the\nmechanisms behind their activity for their effective use across a variety of biological applications."
+ },
+ {
+  "id": "debf5afa-3f20-4754-a95a-5c8405d36784",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multimodal imaging of prodromal synaptic, circuit, and network-level dysfunction in a murine model of Alzheimer's disease",
+  "text": "Alzheimer's disease causes disrupted brain organization, which is evident across spatial scales, from the\nsynapse to the whole-brain, and manifests prior to or at the first appearance of symptoms. Many neuroimaging\nmodalities have contributed to our understanding of these changes, yet mechanistic insight into how dysfunction\ntranslates across spatial scales, and species, is lacking. To close these gaps, we propose a multimodal approach\nthat leverages the strengths of complementary modes to deepen our collective understanding of these changes\nin brain organization and inform the development of early-stage and preventative treatment strategies which\nincludes approaches that facilitate basic science to clinical translation (positron emission tomography and\nfunctional magnetic resonance imaging)."
+ },
+ {
+  "id": "dec3852c-7af7-45b7-857d-115c6ff0983e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Role of Keratinocytes and TRPM3 in CIPN Pain",
+  "text": "Keratinocytes, the cells comprising the outer layer of skin, have recently been shown to be essential in\ntransmitting normal and painful touch information to the sensory neurons that innervate them. This proposal\nwill explore the role of keratinocytes, and a specific ion channel, TRPM3, in chemotherapy induced pain.\nUnderstanding how keratinocytes and TRPM3 mediate different aspects of chemotherapy-induced pain will set\nthe foundation for future development of novel topical therapies that relieve the side effects of chemotherapy,\npotentially improving the quality of life of hundreds of thousands of patients with cancer diagnoses."
+ },
+ {
+  "id": "decb1dcb-f24a-4365-8948-f056e766f527",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Augmented Transgenic TCR-mediated tumor therapy",
+  "text": "We propose three approaches to optimize the efficacy of engineered T cells therapies against the\nhighly aggressive and lethal skin cancer, Merkel cell carcinoma (MCC). Building on previous findings,\nwe plan a clinical trial to test functional CD8 and CD4 T cells armored with the CD200R/CD28\nimmunomodulatory fusion protein aimed at producing inflammatory responses at the tumor site and\nenhancing engineered T cell numbers/function. We also plan laboratory tests of additional genetically\nengineered immunomodulatory fusion proteins to inform the proposed and future clinical strategies."
+ },
+ {
+  "id": "decd3e08-2c76-4f9e-9940-42d6e9b35c83",
+  "want_sentence": false,
+  "want_terms": true,
+  "title": "IPSC Core",
+  "text": "FOR iPSC CORE The Yale ADRC seeks cell biological understanding of neural cell dysfunction in Alzheimer’s Disease (AD) with the long-term goal of identifying new targets for successful therapeutic intervention across population groups. Mechanistic knowledge and hypothesis testing at the cellular and molecular level are required. We propose a new Core in our Center to promote cell biological studies using induced pluripotent stem cells (iPSC)-derived neural cells. This approach utilizes human cells to increase translational relevance and allows assessment across varied genetic backgrounds. While cellular assays are by their nature reductionist, when designed with care they can accurately model specific endophenotypes of AD, including cellular responses and cell-cell interactions triggered by disease-associated aggregates. Our iPSC Core will deliver live, differentiated and well-characterized mature cultures of iPSC-derived neural cells to local research teams for numerous investigator-initiated studies. Specifically, we will establish a collection of well-characterized iPSC lines within the Yale ADRC iPSC Core and deposit new lines at NCRAD. The Core will then distribute live cultures of human iPSC-derived neural cells for AD research. Protocols to differentiate iPSC lines into cortical excitatory neurons, microglia, astrocytes, and inhibitory neurons, as well as cortical organoids will be standardized. The Core will also support implementation and optimization of cell-based AD endophenotype assays. An additional goal will be to facilitate training in iPSC-derived neural cell use for AD research."
+ },
+ {
+  "id": "decde641-725a-4edf-9686-37cfda84cb7e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cortical-Hippocampal Circuit Dynamics for Statistical Learning",
+  "text": "The proposed project seeks to provide a mechanistic neurobiological understanding of statistical learning, a\nfundamental process that allows humans to rapidly learn about their environment and supports many key\naspects of cognition, such as perception and language. Using both non-invasive and intracranial\nmeasurements from the human hippocampus and cortex, we will identify the circuit-level mechanisms\nunderlying the acquisition of knowledge based on statistical learning. Understanding these processes would\nshed light on how the human brain makes meaning from continuous streams of information, and may lead to\nnew diagnostic and therapeutic approaches to neurological disorders."
+ },
+ {
+  "id": "dece0b2f-e7cd-4265-bc71-3dc2bad4e96f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Developing Bioinformatics and Computational Biology Methods for Integrative Structure-Function Analysis of CRISPR Base-Editor TilingMutagenesis Experiments",
+  "text": "Changes in our DNA can lead to diseases, especially when they affect how proteins function in the body. Thanks\nto advances in technology, scientists can now edit genes to better understand how these edits affect health and\nto develop gene-editing therapies; however, connecting gene-edits to proteins and real-world health outcomes\nis difficult because of the complexity of biological data. This project aims to develop innovative computational\nmethods using modern computing, data science, and artificial intelligence technologies to integrate diverse data\ntypes, help scientists interpret the effects of gene editing, and catalyze biomedical discoveries."
+ },
+ {
+  "id": "ded1da99-48f1-4f5a-8a37-f6628428023a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Core D - Data Management and Bioinformatics Core",
+  "text": "The SYBIL Data Management and Bioinformatics Core (DMBC) will support the Center's mission at all stages of research and publication by tracking projects and experiments, facilitating reproducible analysis, developing bioinformatic tools, and ensuring access and dissemination of data and resources. Research will be accelerated by the centralization of primary and processed data, models, workflows, and pipelines using a comprehensive data management platform to connect all Projects and Cores of the program. The DMBC will implement comprehensive workflows and quality control pipelines to ensure rigor and reproducibility of the data generated throughout the SYBIL Consortium. Program data and resources will be disseminated through public repositories and a Center website developed and maintained by the Core. The workflow of the DMBC has been optimized and improved during the previous FluOMICS Consortium, through facilitating cooperation and the exchange of data, bioinformatics tools and models between Cores and Projects, resulting in the present integrated structure. An important goal of the DMBC will be the development of public tools that facilitate the use and reuse of data generated by both the SYBIL program and the broader scientific community. The availability of systems-level data in the infectious disease field has grown to unprecedented levels in recent years, particularly during the ongoing COVID-19 pandemic. However, due to a lack of accessible and easy-to-use tools that provide consolidated access and perform meta-analyses of large-scale datasets, the vast potential for infectious disease OMICs datasets to inform design and development of new therapeutic strategies likely remains unrealized. To help overcome this barrier, the DMBC plans to establish Coronascape, a new tool that enables researchers to match the network and pathway signatures of their experiments to publicly available host-pathogen data sets and leverage those data to overcome emerging challenges of an advancing field. Building on the highly successful Metascape platform previously developed by the DMBC, Coronascape promises to promote the utilization and reuse of the vast amounts of SARS-CoV-2 data that are publicly available."
+ },
+ {
+  "id": "ded2ee59-7c5c-4024-8788-4248ca260c76",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Computational Tools for Population-Scale Assembly and Genotyping with Pangenomes",
+  "text": "This project develops a suite of scalable computational methods for pangenome assembly and ref-\nerence construction by integrating cutting-edge techniques from de novo assembly, complex geno-\ntyping, and privacy-enhancing technologies. Our goal is to enable cost-efﬁcient, population-scale\npangenome assembly while extending its applicability to private or controlled-access data through\nsecure computation algorithms. In the long term, these tools have the potential to accelerate the\ncreation of large-scale pangenomes, providing novel insights into the human genome—particularly\nin highly complex, multiallelic regions of clinical signiﬁcance."
+ },
+ {
+  "id": "ded393b8-aa26-47a9-92e8-579e312d7fa3",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Training Program on Development of Medications for Substance Use Disorder",
+  "text": "This T32 application, the Center for Drug Discovery “Training Program on Medications Development for\nSubstance Use Disorder (SUD)” is to provide broad training to PhD students and postdoctoral scientists on\ndiscovery and development of medicines to treat SUD. The Training Program rationale is driven by the\nsocioeconomic burden and medical need associated with lack of safe and effective medications to address SUD\nin the US and globally. The Training Program blends mentorship, coursework, and research activities supervised\nby Center for Drug Discovery faculty based at Northeastern University, McLean Hospital/Harvard Medical\nSchool, and Tufts University and Medical Center to equip trainees to develop as productive biomedical research\nscientists, with consummate expertise in SUD medications development."
+ },
+ {
+  "id": "ded3b366-01a8-4232-9d99-e4b8a70c8c2e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Inflammation-Driven Clonal Evolution in RUNX1 Carriers: Mechanisms and Therapeutic Vulnerabilities",
+  "text": "RUNX1-FPD is a rare autosomal dominant disorder, and 40-50% of these patients have a lifelong risk of\nprogressing to leukemia with early onset; however, no prevention or early intervention strategies exist. We\nidentified a new key inflammatory pathway regulating HSPC fitness, myeloid expansion, and clonal selection.\nHere, we will examine how this pathway regulates clonal expansion in a context-dependentmanner and establish\nstrategies for therapeutic intervention to improve patient monitoring and outcomes for FPD and related disorders."
+ },
+ {
+  "id": "ded52d9b-6008-4ca9-b60e-9a98e648584d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Optimizing ultraflexible electrodes and integrated electronics for high-resolution, large-scale intraspinal recording and modulation",
+  "text": "The proposed research is relevant to public health because the development of high-density, long-term neural recording tools has the potential to help us understand the fundamental mechanisms of neural circuitry in the spinal cord and explore treatments of neurological conditions. Thus, the proposed research is relevant to the part of NIH’s mission that pertains to the development of new biomedical techniques and devices that will improve the understanding, treatment, and prevention of disease."
+ },
+ {
+  "id": "ded6eddf-b718-47b9-946a-08caa0e6c94d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development and clinical validation of domain-aware anthropomorphic model observers for task-based image quality assessment",
+  "text": "Design of medical imaging devices and algorithms requires a quantitative way to measure medical\nimage quality, which has customarily been done using basic numerical metrics (which are too\nsimplistic) or experts reader studies in which clinician view and interpret the images (an ideal\napproach, but impractical for everyday engineering work). In this project we use deep learning to\ncreate so-called “anthropomorphic model observers” that mimic the feedback of expert users,\nduring device development, thus yielding a practical and effective solution to improve the clinical\ndiagnostic performance."
+ },
+ {
+  "id": "dedf2658-6ad4-4157-8dc6-e260941d0b8b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "3D-Printed Glass Micro-Optical System for Biomedical and Clinical Applications",
+  "text": "Our project focuses on developing a novel 3D-printed glass micro-optical system for biomedical and clinical\nimaging applications, addressing the limitations of current glass micro-optical systems. We aim to create cutting-\nedge 3D printing technology and materials to fabricate micro-optical systems that offer unparalleled compactness\nand imaging performance. The unique properties of our proposed 3D-printed glass micro-optical systems are\npivotal, with the potential to drive transformative advancements in biomedical and clinical imaging."
+ }
+]

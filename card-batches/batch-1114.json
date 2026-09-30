@@ -1,0 +1,128 @@
+[
+ {
+  "id": "ffaa2e14-74c0-4e41-9555-8cf14b045180",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multimodal Federated Learning for Pan-Cancer Detection of Cachexia and Early Detection of Pancreatic Cancer",
+  "text": "The overarching goal of this proposal is to develop and validate privacy-preserving multimodal\nmachine/deep learning (ML/DL) models for the early detection of cachexia across multiple cancer\ntypes and risk stratification of PDAC from IPMNs using clinical, imaging, genetic mutational, and\nsocial determinants of health (SDOH) data. To access large-scale representative data while\nrespecting the privacy and the security of sensitive patient data, this proposal leverages\nFederated Learning (FL). Moffitt Cancer Center will act as a server and as a site for other projects."
+ },
+ {
+  "id": "ffb202e7-9137-4cd6-a61f-68ab37febeb8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Rescuing ⍺-synuclein toxicity through neuron-specific enhancement of autophagy",
+  "text": "Parkinson disease (PD) is an incurable and progressive neurodegenerative condition marked by the\naccumulation of ⍺-synuclein in affected neurons. To inform innovative therapeutic strategies with disease-\nmodifying potential, this proposal takes advantage of a human induced pluripotent stem cell (iPSC) PD model\nsystem to investigate the autophagy suppressor, myotubularin-related phosphatase 5 (MTMR5). These studies\npromise to reveal discrete therapeutic targets for selectively augmenting autophagy in neurons and reducing\nneuronal death in PD, while simultaneously uncovering the unique biology of myotubularins and their contribution\nto autophagy flux in neurons."
+ },
+ {
+  "id": "ffb36609-3cf0-4e05-8ddc-b7bba9a0831c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Assessing Benefits and Harms of Cannabis and Cannabinoid Use Among a Cohort of Cancer Patients Treated in Community Oncology Clinics",
+  "text": "Cancer patients are increasingly using a diverse set of cannabis and cannabinoid products to treat cancer-\nrelated symptoms, despite limited evidence of beneficial effects and largely unknown risk. This study, which is\na collaboration with the NCI Community Oncology Research Program (NCORP), will measure the complex\nvariability of the real-life context of cannabis and cannabinoid use among a large cohort of cancer patients\nrecruited through NCORP clinics across the U.S. We will longitudinally assess the impact of these\ncomplexities on the course of cancer care, from diagnosis through the treatment experience, providing critical\nevidence to inform future clinical trials and practice-based recommendations."
+ },
+ {
+  "id": "ffb91855-53ed-4a9b-8ad8-434976047de1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Promoting Access to Payment Pathways for Emerging Molecular Diagnostics",
+  "text": "PROJECT NARRATIVE.\nMolecular diagnostics (MDx) can provide personalized care and improve patient outcomes; however,\ndisparities in payment for MDx create barriers that delay or prevent patients from accessing these diagnostic\ntests. The proposed project uses innovative mixed methods to address key gaps in our understanding of MDx\npayment disparities and identify strategies to promote access to MDx payment pathways. Results will lay the\ngroundwork for developing policy and practice interventions that guide equitable MDx implementation."
+ },
+ {
+  "id": "ffba6905-58c9-42cf-8d4a-90aa9d7914b5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Functional plasticity in retinal degenerative disease",
+  "text": "The proposed research is relevant to public health because it reveals a compensatory plasticity mechanism\ninduced by cell death that could be harnessed as a treatment strategy to promote vision in photoreceptor\ndegenerative diseases where compensation does not naturally occur. Secondly, this work will define the time\ncourse of constructive and destructive remodeling in the inner retina to better understand expected prognoses\nof retinitis pigmentosa diseases and their treatment outcomes by photoreceptor or optogenetic rescue therapies.\nThus, this research is relevant to NEI’s goal to understand how plasticity and rewiring impacts signaling between\nphotoreceptors and neurons and how this could be harnessed in degenerative disease and injury."
+ },
+ {
+  "id": "ffbc7fd9-cb37-4098-933e-2c4ac21f8424",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular and Structural Biology Program",
+  "text": "12.0 Abstract: Molecular and Structural Biology (MSB) Program The MSB Program is a highly innovative basic science research program at the University of Maryland Marlene and Stewart Greenebaum Comprehensive Cancer Center (UMGCCC) that aims to bring new agents to the clinic. MSB members study mechanistic cancer-relevant questions at the cellular and molecular level and use these discoveries to design novel cancer therapeutic strategies and drug candidates. These agents are then available for testing in the clinical programs (ET, HRC, TII). MSB work is focused in three areas: Aim 1, Define mechanisms of genomic instability in cancer, investigates sources of genomic instability due to DNA damage and/or loss of DNA repair capabilities in cancer and validating actionable therapeutic targets to develop new clinical approaches that take advantage of such genomic instability for treating cancer. Aim 2, Identify changes in gene expression and RNA function in cancer, focuses on therapeutic targeting of translation initiation, RNA biology, and gene expression processes that are co-opted by cancer cells to drive tumor growth and/or metastasis. Aim 3, Define how signaling pathways in cancer are deregulated, seeks to understand how cancer cell signaling can be used to target cancer cells, including developing strategies to inhibit oncogenic and/or cancer stem cell-specific pathways and/or to restore tumor suppression functions. To achieve these aims, MSB members are supported by extensive expertise available in other UMGCCC programs in translating basic research findings to the clinic, and by availability of exceptional shared services. The 47 members of the MSB Program include 34 full members and 13 associate members who conduct cancer-focused research supported by $9.6 million annual direct cost funding ($13.2 million total), including $1.2 million (12.5%) from NCI and $7.5 million from other peer-reviewed sources. MSB members receive $0.83 million annually from non–peer-reviewed funding sources. During this funding period, MSB members authored 455 cancer-related publications, of which 13% resulted from intraprogrammatic, 20% from interprogrammatic, and 2% from intra and interprogrammatic collaborations. A high percentage of publications (58%) are with external investigators, reflecting the high national impact of the MSB Program and 13% of publications are in journals with an impact factor ≥10. The MSB Program collaborates with other UMGCCC research programs and engages Community Outreach and Engagement as a bridge to identify cancer research priorities of our community in the catchment area."
+ },
+ {
+  "id": "ffc0c0ac-d864-445e-9511-97eacb8bef7c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "In vivo hematopoietic stem cell genetic modification by viral particles",
+  "text": "Gene therapies can definitively treat genetic blood diseases like Sickle Cell Disease, Severe Combined\nImmunodeficiency (“Bubble Boy Disease”), and Bone Marrow Failure disorders without requiring bone marrow\ntransplant from another individual. However, current gene therapy treatment approaches rely on collection of\nblood stem cells by a medical procedure from the bone marrow or peripheral blood, then complex manufacture\nof gene modified blood stem cells outside of the body, and finally transplant of the gene modified blood stem\ncells back to the patient after first treating the patient with high-dose chemotherapy to allow for blood stem cell\nreplacement. In this proposal, building from our expertise in virus engineering, gene editing, and disease biology,\nwe aim to develop a novel gene therapy approach that could be administered directly to a patient’s blood stem\ncells by vein, thereby avoiding stem cell collection, complex cell manufacture, and toxic chemotherapy."
+ },
+ {
+  "id": "ffc3fb64-fc14-4b7d-8201-1c9a11bdfe84",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Suburothelial Myofibroblasts Function in Young and Aging Bladder",
+  "text": "Aging is commonly associated with voiding dysfunctions, such as overactivity, urgency,\nand nocturia. This project aims to investigate the role of suburothelial myofibroblasts in\nregulating bladder filling and voiding, and how aging alters their function, leading to\nthese dysfunctions. Understanding of this mechanism will facilitate the development of\nnovel treatment strategies and medications for aging-related urinary disorders."
+ },
+ {
+  "id": "ffc96c0e-1042-4b35-aa47-71f1cc668011",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Preclinical Efficacy and Safety Core",
+  "text": "PRECLINICAL EFFICACY AND SAFETY CORE The PRECISION-AD Preclinical Efficacy and Safety (PE&S) Core will serve three key functions: 1) optimize automated methods for scaling iPSC-derived 2D and 3D cultures to enable testing of interventions across genetic backgrounds; 2) implement automated assays to test candidate therapeutic interventions for AD across 100 genetic backgrounds; and 3) establish robust and efficient pipelines for sharing protocols and cellular models developed under this award. In order to accomplish these goals, the PE&S will work closely with the MPS Core to adapt their assays and protocols for automation. The work proposed under this core is made possible by NYSCF’s fully robotic platform (the NYSCF Global Stem Cell Array, GSCA)1 that automates iPSC derivation, differentiation, gene editing, high-content imaging, and drug screening to enable population-scale stem cell disease modeling and high-throughput drug discovery. Using this robotic platform, this core will scale both 2D and 3D microphysiological systems (MPS) to enable the testing of therapeutic interventions across 100 genetic backgrounds. Across these genetic backgrounds, the PE&S core will measure a panel of biomarkers identified by the BCB and MPS core that reflect responsiveness to each intervention tested. In addition, the core will establish and implement robust assays of cell health and cell type proportions using high throughput imaging and automated analysis pipelines. This core will develop rigorous best practices for testing of efficacy and toxicity in both 2D and 3D MPS and establish a core set of reporting standards and protocols for interrogating person- specific or subtype-specific responses to treatments. This work will be shared with the scientific community through efforts within the ADM Core including the development of online resources allowing the dissemination of protocols, data and cell line availability."
+ },
+ {
+  "id": "ffcd54eb-afca-4adb-9333-0a388a87ab49",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating opioid-induced dopamine rhythms and their role in respiratory suppression",
+  "text": "Within the current opioid crisis, opioid-induced respiratory depression (OIRD) is the primary cause of death in\nopioid overdoses, yet current treatments like naloxone also block pain relief, highlighting the need for new\ntherapeutic strategies. This research uncovers a novel, rhythmic dopamine signal in the brain that emerges after\nrepeated high-dose fentanyl exposure and precedes gasping breaths, suggesting it may serve as an\nendogenous adaptive mechanism to maintain respiration. The proposed studies aim to determine the origin,\nfunction, and molecular underpinnings of this dopamine rhythm to understand how chronic opioid-use affects\nneural circuitry, and to identify new drug targets that can prevent OIRD without compromising analgesia."
+ },
+ {
+  "id": "ffe1fef7-a185-44a4-8f18-9bac8b28b7d2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project II",
+  "text": "Project II: Narative\nDespite remarkable advances in high-throughput sequencing and computational genomics, a major problem\nhas been in developing tests to validate the predicted causality genetic variants amongst a sea of other\nvariants in any given person. Whereas mouse modeling of human variants is a gold standard for variant\nvalidation, it is expensive and time-consuming, a problem exacerbated by the high false positive rate of in silico\npredictions. This project will deploy and further develop scalable in vitro gametogenesis platforms that have the\npromise of enabling functional assessment of large numbers of predicted infertility alleles found in the\ngenomes of infertile patients, thereby enabling more rapid and confident clinical diagnostics and potential gene\ntherapies."
+ },
+ {
+  "id": "ffe2f7e5-e779-49d2-85fc-dcfb961511d1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Defining the role of NUDT5 in ovarian cancer",
+  "text": "The goal of the proposed project is to investigate NUDT5 as a potential target for ovarian cancer treatment. We\nidentified NUDT5 as predicated mechanical regulator of ovarian cancer behaviors associated with elevated\nlevels in increasing ovarian tumor grade. If we can understand how NUDT5 drives ovarian cancer progression,\nthis would guide future therapeutic interventions to improve patient survival."
+ },
+ {
+  "id": "ffe3e1c0-0b76-4ec6-848f-63456190e7e1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Chromatin Regulation of Immune Cells in Myocardial Inflammation",
+  "text": "Heart failure (HF) remains a major public health challenge, with high rates of morbidity and mortality worldwide.\nThis research aims to uncover the epigenetic mechanisms that drive maladaptive immune responses after\nmyocardial infarction, with a specific focus on BRD4 and its role in cardiac macrophage function. By identifying\nnovel therapeutic targets, this work has the potential to guide the development of more precise treatments that\nreduce chronic inflammation and improve outcomes in HF patients."
+ },
+ {
+  "id": "ffe581f0-85bf-4826-a555-838efad92eed",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular Biology Core",
+  "text": "Molecular Biology Core Project Summary Molecular biology approaches are utilized to understand the mechanisms underlying respiratory diseases caused by respiratory pathogens. The overall objective of the Molecular Biology Core (MBC) is to provide centralized services and technical expertise in molecular biology for Phase III CoBRE and non-CoBRE investigators. Under the Phase I CoBRE award, the MBC was established to provide services involving molecular biology technologies, including RNAi gene silencing, transgene expression, mutagenesis, gene and pathway reporter assays, real-time PCR, and DNA microarray analyses for gene profiling. State-of-the-art technologies and other services based on the needs of the CoBRE investigators have been continuously developed and added to the Core since its inception. In Phase II, the MBC was expanded to include new techniques, including CRISPR/Cas9 technology and bulk RNA sequencing, and to offer reagents for respiratory and infectious disease research, including cell lines, primary lung cells, and respiratory viruses and bacteria. This Phase III application describes additional cutting-edge technologies and valuable reagents that will be offered to Center investigators, including single-cell RNA sequencing, spatial gene profiling, genome- wide CRISPR screening, human lung tissue models (lung organoids) and clinical samples from respiratory infectious disease patients. The specific aims of the MBC are to provide services and support for 1) functional studies using RNAi and CRISPR/Cas9, transgene overexpression, mutagenesis and deletion, lentiviral, adenoviral and nonviral vectors for gene transfer, and stable knockout and transgenic cell lines, 2) genome- wide gene profiling using bulk RNA sequencing, single-cell RNA sequencing, and spatial gene profiling, 3) genome-wide CRISPR gene activation, knockout and interference screens, 4) molecular assays including reporter assays, real-time PCR and droplet digital PCR, 5) reagents for respiratory and infectious disease research including respiratory viruses and bacteria, and reporter viruses, cell lines, primary lung cells, human lung organoids and clinical samples from respiratory infectious disease patients, and 6) advice, consultation and training on various aspects of molecular biology, developing or adapting new methods as needed and disseminating core resources and technologies."
+ },
+ {
+  "id": "ffe89bec-24f2-45eb-abf4-389fc6a6ac60",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Spatial protein-protein interaction networks in situ by multiplexed proximity ligation",
+  "text": "Cell signaling therapies target lung cancer patients with a well-defined mutation in the common cellular signaling,\nbut almost all patients ultimately develop acquired resistance to this targeted therapy due to the emergence of\nclones with genomic alterations that confer survival advantage and their tumors' molecular heterogeneity. The\nproposed research will build a molecular screening platform for imaging signaling protein interactions in human\ncell cultures and tissues from physiologically relevant cancer models using multiplexed measurement techniques\nto record spatial signaling interactome patterning of subcellular and cellular distributions in patients' biopsies with\ngene mutations. The biological lung cancer model system will demonstrate how subcellular wiring of signaling\nfactors provides subset patients that can be used for personalized and precision signaling therapies in lung\ncancers."
+ },
+ {
+  "id": "ffe8f34d-5371-47db-a2c3-95dae7098d8a",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Trans-disciplinary Basic Biomedical Science (TDS) Predoctoral Training at MU",
+  "text": "The University of Missouri-Columbia (MU) proposes to direct a Trans-disciplinary Basic Biomedical Science (TDS) T32 training program for predoctoral students in PhD programs. The TDS T32 will be trans-departmental in organization and cross-disciplinary in its approach to enhancing trainee professional development across biomedical research units found on campus. With a foundation based on enhancing acquisition of a sense of science identity, our program will develop these students into independent scientists who are active producers of new biomedical knowledge and are adept at solving the complex problems of disease and illness that adversely affect human health."
+ },
+ {
+  "id": "fffa33d3-006b-4740-806a-2998f90d3384",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Navigating Pathways of Innate Immunity and Epigenetic Memory in Checkpoint Immunotherapy",
+  "text": "I pioneered many aspects of checkpoint immunobiology and cancer immunotherapy. Here, I outline my vision\nof unifying and synthesizing our previous work into new approaches for identifying vulnerabilities of innate\nimmunity mediated by immune checkpoints. This knowledge will lead to the identification of new targets for\npersonalized immunotherapy and new strategies to overcome barriers of immunotherapy that could be\nbeneficial in lethal cancers affecting hundreds of thousands of Americans."
+ },
+ {
+  "id": "fffdd661-c5ca-4a23-b5f3-cc38d6afb959",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Engineering Vascularized Cardiac Muscle",
+  "text": "Cardiovascular disease continues to take more human lives than all cancer combined, prompting\nthe need for improved research models and treatment options. We propose to study the patient-\nspecific vascularized model of adult human myocardium, in the context of ischemic injury and\nacute viral myocarditis. This work is designed to advance our understanding and treatment of two\nforms of heart disease, which differentially affect males and females."
+ }
+]

@@ -1,0 +1,142 @@
+[
+ {
+  "id": "d71b564a-8a91-494b-98b1-fb7fd78d9ab8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "SCH: Flavor Charter: Precision Data-Driven Diagnosis, Monitoring and Guidance for Dysgeusia",
+  "text": "This project directly advances the NIDCR mission by addressing fundamental\ngaps in the biology, measurement, and clinical management of oral sensory dysfunction. Dysgeusia\nremains poorly understood at the mechanistic level, particularly in how disruptions to taste receptor\nfunction, salivary gland activity, and swallowing pathways jointly impair perception. Flavor Charter explicitly\ntargets these gaps by integrating longitudinal, real-world data with physiological sensing to model how oral\nsensory signals are generated, altered, and experienced across diverse populations and disease states. It\nadvances NCl's mission by addressing treatment-related complications that compromise cancer patient\noutcomes, providing precision oncology tools to prevent nutrition-related complications like sarcopenia\nbefore they impact survival. This work democratizes access to personalized nutrition guidance for diverse\npopulations experiencing taste loss from aging, neurological conditions, viral infections, injury, and\nmedications. Applications extend to NICU patients, stroke survivors, and individuals with digestive\nconditions. By empowering patients with precise symptom communication tools and providing clinicians\nwith evidence-based decision support, the project will increase adherence to nutritional guidance, reduce\nfuture nutrition-related health problems, and improve health outcomes across populations."
+ },
+ {
+  "id": "d722ed64-18b9-418a-8e2f-ba4c3e95e0ce",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Leadership, Planning and Evaluation (LPE)",
+  "text": "PROJECT SUMMARY/ABSTRACT – LEADERSHIP, PLANNING AND EVALUATION St. Jude Comprehensive Cancer Center (SJCCC) is led by Charles Roberts, MD, PhD, Cancer Center Director, and a group of highly engaged cancer-focused clinicians and scientists who are renowned in their respective fields. Appointed by Roberts, the Senior Leadership Team (SLT) has evolved and grown over the project period with 4 new leaders in existing roles and 3 new leadership roles for a total of 10 Associate Directors. The SLT is charged with guiding vision, identifying strategic opportunities, leading strategic planning, and providing high- level management of all scientific, clinical, educational, and outreach endeavors, and overseeing the CCSG application. Together, Roberts and the SLT have formed an integral network of advisory bodies, each with a specific charge and focus, and implemented a dynamic strategic planning and evaluation process that engages members, supports strategic investments, and guides the implementation of innovative initiatives in pursuit of its mission and vision. The SLT collaborates with research program leaders and institutional stakeholders through the Cancer Center Advisory Committee (CCAC), which fosters communication and alignment on scientific direction, and strategic initiatives. Additionally, leadership actively engages an External Advisory Board (EAB), each member carefully chosen for their complementary and relevant expertise, to provide further guidance and recommendations on the scientific directions of the Center and its Research Programs, Strategic Plan goals and initiatives, and other CCSG-related activities of the Center. This collaborative approach has led to significant achievements, including the successful completion of the FY2016-2021 Strategic Plan and the launch of the FY2022-2027 Strategic Plan, the establishment of three Centers of Excellence in Leukemia Science , Pediatric Immuno-Oncology, and Neuro-Oncology Sciences, supported by a $76.1 million investment over six years, the recruitment of accomplished leaders and faculty, the expansion of the inter-institutional Research Collaboratives program, and the enhancement of clinical genomics services and immunotherapy programs. The SJCCC also launched the Center for Spatial Omics and strengthened Shared Resource oversight and evaluation. These initiatives have collectively advanced the SJCCC's mission to advance cures for pediatric cancer through research and treatment. Future plans include execution of the FY2022-2027 Strategic Plan goals and planning and launch of the FY2028-2033 Strategic Plan, additional expansion of the Research Collaboratives program, and advancing efforts in pediatric cancer education and outreach. By providing ongoing review and assessment, the leadership and advisory committees ensure that strategic priorities are continuously pursued and refined to respond to emerging needs."
+ },
+ {
+  "id": "d72791e3-1ec1-4bc2-8156-931d09c47735",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of Spinal Stiffening After Growing Rod Insertion",
+  "text": "STATEMENT\nEarly onset scoliosis affects approximately 25,000 children annually, with high complication rates and\nsubstantial treatment costs. My research aims to define the pathological mechanisms underlying\nautofusion, a condition where the spine prematurely stiffens following distraction-based growing rod\nsurgery, significantly impacting patient outcomes. This investigation will enhance our understanding of\nautofusion and inform the development of preventative strategies, ultimately improving the clinical\nmanagement of EOS and advancing my career as an independent surgeon-scientist."
+ },
+ {
+  "id": "d72851ed-a385-4add-84d3-e6d2bc14af81",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Leveraging k-mer sketching statistics to enhance metagenomic methods and alignment algorithms",
+  "text": "This project develops statistical foundations necessary for understanding how the interaction of sketching\ntechniques and molecular evolution affects the accuracy of commonly used algorithms for sequencing data.\nThese foundations allow us to quantify uncertainty when studying communities of microorganisms and both\nidentify the taxa present in biological samples and identify samples that possess a large fraction of novel\ngenetic material. We also develop new functionality that captures uncertainty in sequence alignment, one of\nthe most ubiquitous computational techniques in biomedicine."
+ },
+ {
+  "id": "d72a5fc1-8d55-4afe-b56e-bb6df2ae2cb8",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Allosteric Mechanisms and Regulation of Drp1-catalyzed Mitochondrial Fission",
+  "text": "(PROJECT NARRATIVE)\nDefects in mitochondrial division (MD) are linked to various human neurological disorders, including Alzheimer's,\nParkinson's, and Huntington's diseases, as well as cardiovascular disease and cancer. Therefore, gaining a\ndetailed understanding of the complex mechanisms that control MD is crucial as a first step toward designing\neffective drugs and developing new therapeutic approaches to regulate this process in diseased states. The\nproposed research aims to move us closer to this objective by examining the interactions between protein\npartners and dynamin-related protein 1 (Drp1), the primary driver of MD."
+ },
+ {
+  "id": "d72aa7fe-373f-4f4d-9928-8fa8548340c0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Deep Learning Based Phenotyping and Outcomes Prediction for Valvular Heart Disease",
+  "text": "Mitral valve disease is often under-recognized and not well characterized in echocardiography, the most common\nform of cardiac imaging. Artificial intelligence has the potential to identify subtle phenotypes, often not recognized\nby human clinicians, and distinguish between stable asymptomatic incidental findings and high-risk features that\ncan lead to sudden cardiac death and other adverse outcomes. We will leverage deep learning applied to\ncardiovascular imaging to capture key features of mitral valve disease that could represent intervenable targets\nfor mitigating cardiovascular risk."
+ },
+ {
+  "id": "d7322e04-aed3-46b2-a225-545888c24707",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Bridging the gap between GWAS and mechanism in arthritis",
+  "text": "Genome-wide associated studies (GWAS) have identified many genetic loci associated with risk of juvenile\nidiopathic arthritis (JIA) and rheumatoid arthritis (RA), but these findings have so far largely failed to translate\ninto understanding of pathogenesis because few genomic associations correspond to coding variants. We\nhave pioneered a highly effective experimental approach to identify non-coding variants and related DNA-\nprotein interactions, beginning from GWAS data. We will use these tools to bridge the gap from GWAS to\nmechanism in JIA and RA."
+ },
+ {
+  "id": "d73256a5-4371-47d0-a27b-d8df8ad397ab",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Functional impact, mechanistic role, and targetability of ROS1 aberrations in cancer",
+  "text": "This project will determine how cell signaling pathways, protein stability, and gene regulation collectively\ncontrol the cancer gene ROS1. Understanding these mechanisms will clarify why ROS1 promotes tumor\ngrowth in some forms of cancer but not others. The resulting insights will inform broader strategies to\nunderstand and treat cancers driven by receptor tyrosine kinases."
+ },
+ {
+  "id": "d735e0cf-3c25-4375-95f4-adf91ee4a864",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Personalized vaccine immunotherapy in combination with anti-PD 1 antibody for recurrent or metastatic squamous cell carcinoma of the head and neck",
+  "text": "Head and neck cancer is one of the major causes of cancer related death in the US and worldwide and exhibits\na high degree of interpersonal and intratumoral heterogeneity, making it difficult to treat. Our grant application\nproposes to develop a novel personalized immunotherapy approach using membrane vesicles prepared from\npatients’ own surgically excised tumor tissue, modifying them by protein transfer to express immunostimulatory\nmolecules and administering them to patients along with immune checkpoint inhibitor to boost the immune\nresponse against cancer cells. The proposed approach does not require establishment of cell lines, identification\nof tumor antigens or in vitro manipulation of immune cells, thus making it applicable to wide number of patients\nin a cost-effective manner."
+ },
+ {
+  "id": "d7388ef3-fbd1-4c5d-b4dd-e40be4e0b7b6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Genetic interactions and the evolution of complex traits in yeast",
+  "text": "Adaptive genome evolution has produced the remarkable diversity of life on Earth, yet it is also the\nprocess by which pathogens and cancers resist drug treatments and evade the immune system. High-\nthroughput experimental evolution is a powerful and versatile technique that provides a way to test\nevolutionary theory in the laboratory with exquisite control over experimental parameters. By identifying\nthe genes and pathways that respond to selective pressures, the proposed experiments will not only\nadvance our understanding of the process of adaptive evolution but will lead to new mechanistic insights\ninto how genetic variation produces the phenotypes on which selection acts."
+ },
+ {
+  "id": "d74612eb-3d73-42e9-bda4-37524f800752",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Developing a Nanopore Tweezer Toolkit for Analyzing Kinase Structural Dynamics and Screening Allosteric Inhibitors",
+  "text": "The project aims to develop a set of nanopore tweezers to study the motions of kinase proteins in\nan effort to inform drug design and screen for cancer therapeutics. The nanopore tweezers platform,\noperating independent of the enzyme activity, will also provide a new paradigm for label-free, single\nmolecule and high-throughput drug screening."
+ },
+ {
+  "id": "d74708f1-cb7c-4205-a23c-68ca1e63cfa7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Elucidating Thiol Reductive Stress in Lung Cancer Growth and Metastasis",
+  "text": "NRF2 is hyperactivated by oncogenic mutation in ~30% of non-small cell lung cancers (NSCLCs), a destructive\ncancer with high rates of metastasis. NRF2 coordinates cellular antioxidant responses and promotes an\nenvironment that supports cell growth and metastasis, but its overactivation leads to reductive stress in a subset\nof NSCLCs. The goal of this project is to use cutting-edge functional genomics and chemical proteomics,\ninnovatively uncover how NRF2 activity blocks tumor growth and metastasis through thiol reductive stress\nleading to a blockage in mitochondrial respiration."
+ },
+ {
+  "id": "d747ca1b-c5c7-472b-9cc5-8f78beccc502",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identification of Kidney Disease Modifier Genes in Mouse and Human Alport Syndrome",
+  "text": "RELEVANCE TO PUBLIC HEALTH\nDespite the enormous clinical, societal and economic challenges for patients with end-stage renal disease\n(ESRD) and the predicted increase due to a growing aging and diabetic population (the two largest risk factors),\nthere have been no new therapies in the past 15 years. By focusing on the genetics of X-linked Alport syndrome,\nthe most common inherited glomerular disease leading to renal failure, and identifying the modifier genes that\naffect the age-of-onset and severity of the disease, our studies will lead to a better understanding of the initiation\nand progression of the disease process in general and will help to reveal novel therapeutic targets to combat\nESRD in patients with Alport syndrome as well as patients with other forms of kidney disease."
+ },
+ {
+  "id": "d74916cc-e2bc-408a-ad6f-5169e669d2ed",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Broad-spectrum DNA recording to enable the next generation of developmental biology",
+  "text": "This research project aims to massively improve on a biological \"recording device\" that allows living cells to\nwrite a permanent diary of their experiences directly into their DNA, capturing when different genes turn on and\noff during development from embryo to adult in animal models, or in organoid differentiation as a model of hu-\nman development. Just as a flight recorder tracks an airplane's journey, these DNA recorders will help scien-\ntists understand how cells make decisions during normal development and what goes wrong in diseases, by\ncreating a molecular history that can be read out later using DNA sequencing. The technology will enable re-\nsearchers to track multiple cellular events simultaneously across thousands of cells, providing unprecedented\ninsight into how complex tissues and organs form, which could ultimately lead to better understanding of devel-\nopmental disorders and new therapeutic approaches."
+ },
+ {
+  "id": "d74d1cc0-2bd2-46c0-bc2a-966c4016b869",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Computational Genomic Epidemiology of Cancer (CoGEC) Training Program",
+  "text": "The Computational Genomic Epidemiology of Cancer (CoGEC) training program provides transdisciplinary,\npostdoctoral training at the intersection of cancer research, epidemiology, biostatistics, genetics, and computer\nscience. CoGEC catalyzes the integration of multidisciplinary cancer genetics and genomics research within\nthe Case Comprehensive Cancer Center. Thus, developing highly dynamic and interactive new investigators\nwith the expertise to lead integrated research teams conducting the most promising and forward-looking\ncancer research."
+ },
+ {
+  "id": "d74de8d5-38af-4942-b27b-357db42ca4de",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multispecies NHP dGTEx Research Center",
+  "text": "Many human diseases are the result of defects in developmental processes that occur during gestation or in\nearly life. In order to improve our understanding of the developmental origins of disease, it is essential to have a\nrigorous understanding of the normal processes of human development. This study will provide essential data\nto better understand human development by providing insight into which molecular changes are conserved\namong primate species and which are human-specific."
+ },
+ {
+  "id": "d74e8204-a1ce-4e8a-902f-81414f97434a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Defining the role of cell mechanics in regulating hair follicle stem cells across homeostasis and aging",
+  "text": "Self-renewal and differentiation are fundamental properties of adult stem cells essential for tissue\nhomeostasis and aging. In this project, we will investigate mechanisms of cell mechanics, which are regulated\nby a noncoding, regulatory RNA, to promote hair follicle stem cell division and hair growth in young and\ngeriatric mice. The knowledge gained from the proposed study will shed light on the mechanisms underlying\nhair follicle stem cell maintenance and aging."
+ },
+ {
+  "id": "d7500786-5565-4d07-bb22-8f0399ccba40",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Unravelling Membrane Protein-Lipid Interactions using Nanodiscs and Mass Spectrometry",
+  "text": "Membrane proteins are critical drug targets for a wide range of human diseases, but existing\nmethods are poorly suited to understanding interactions between membrane proteins and the\nsurrounding lipid environment. We will develop new technologies combining lipid nanodiscs and\nmass spectrometry to understand the structure, biophysics, and function of these interactions and\ntheir relevance to biology and disease."
+ },
+ {
+  "id": "d751b7d7-762f-487b-99d2-aed262eae05e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "FDA approved IND 29644: Multicenter Phase 1 Trial to Evaluate Safety and Immunogenicity of Preventive Tau Vaccine, AV-1980R/A, in cognitively unimpaired preclinical AD participants.",
+  "text": "This project proposes the Phase 1 safety and immunogenicity trial of the first-in-human\nadjuvanted preventive tau vaccine, AV-1980R/A, in cognitively unimpaired preclinical AD\nparticipants based on FDA-cleared IND 29644. MultiTEP platform-based AV-1980R/A vaccine is\ndesigned to augment pathological tau-specific antibody production without activating potentially\nharmful autoreactive Th cells. It is also designed to activate Th cells specific to foreign epitopes\nincorporated in MultiTEP, providing broad coverage of the targeted population with high MHC\nclass II gene polymorphism and overcoming the immunosenescence in older people by targeting\nnot only naïve but also memory Th cells."
+ },
+ {
+  "id": "d75d21a9-ac2d-4513-ad76-132c26b9a719",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Discovery and Machine Learning Classification of Metabolite Biomarkers of Neurocognitive Impairment in Older People with HIV",
+  "text": "Despite the high prevalence of neurocognitive impairment (NCI) in even virally suppressed older people with HIV\n(PWH), no effective intervention strategies exist to date, primarily due to the heterogeneity of HIV brain health\ndisorders and its multisystemic determinants. The current K23 proposes to leverage cutting-edge metabolomics\nand machine learning technology to discover and classify metabolite biomarkers of NCI, and thus provide insight\ninto the complex interplay between intrinsic (measured via endogenous metabolites) and extrinsic influences\n(measured via exogenous metabolites) on NCI in older PWH. This study will advance fundamental understanding\nof NCI pathogenesis and inform precision medicine approaches for improving the brain health of vulnerable older\nPWH at high-risk for NCI."
+ }
+]

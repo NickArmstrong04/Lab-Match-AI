@@ -1,0 +1,142 @@
+[
+ {
+  "id": "15706d08-617c-490c-ae5b-49db9c2beca8",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Dynamics of Developmental Defect Formation",
+  "text": "Endpoint phenotypes resulting from genetic developmental disorders are well defined, but the molecular\nmechanisms underlying the emergence of these phenotypes remain unclear. The proposed work will advance\nthe understanding of human developmental disorders by identifying the variability in developmental trajectories\nthat lead to a similar endpoint phenotype and the magnitude by which signaling needs to be changed to lead to\na qualitative phenotype."
+ },
+ {
+  "id": "15764d71-4e91-4325-8564-f8cab1c852e2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Advanced Microscopy Core",
+  "text": "PROJECT SUMMARY – ADVANCED MICROSCOPY CORE (AMC; CORE B) Core Leader: Dr. Michael Gerner The Advanced Microscopy Core (AMC) is an integral component of this Program Project Grant (P01), which aims to define conserved and tissue-specific mechanisms regulating Type 2 immune responses across the gut, skin, lung, and associated lymphoid organs. Many of the key processes under study—including neuro-immune crosstalk, dendritic cell migration and clustering, microenvironments involved in Th2 differentiation, B cell positioning, and tertiary lymphoid structure (TLS) formation—are inherently spatial and cannot be fully resolved using dissociation-based methods such as flow cytometry or single-cell RNA sequencing. The AMC will enable all participating projects to visualize, quantify, and compare these processes within intact tissues using cutting-edge imaging technologies and spatial analysis. Under the leadership of Dr. Michael Gerner, an expert in tissue immunology and spatial imaging, the AMC will provide centralized support for multiplexed confocal imaging, iterative IBEX-based high-plex microscopy, tissue clearing and volumetric imaging, real-time 2-photon intravital microscopy (2P-IVM), and advanced spatial analytics. The AMC will pursue three primary tasks: 1. Multiplexed Imaging of Tissue Microenvironments: Support high-resolution imaging (up to 15-plex routine, >45-plex with IBEX) in murine and human samples, and tissue clearing for large-volume imaging of intact organs. 2. Intravital Microscopy of Cellular Dynamics: Enable live imaging of immune cell behavior and interactions in skin, gut, lymph nodes, and lung explants using 2P-IVM and calcium reporters. 3. Quantitative Spatial Analysis and Mapping: Provide standardized pipelines for segmentation, phenotyping, cell-cell proximity analyses, microenvironment clustering, as well as cross-sample, cross- organ, and cross-species integration using CytoMAP and complementary tools. The AMC will provide uniform workflows, ensure data reproducibility, and foster synergy across projects through shared marker panels, centralized data infrastructure, and joint analysis meetings. It will also support cross- species comparative imaging to validate mechanistic findings from murine models in human tissues. By enabling deep, quantitative profiling of Type 2 immune microenvironments in situ, the AMC will be essential for uncovering how spatially organized cellular networks govern tissue-specific immune responses. The core will elevate the rigor, integration, synergy, and translational impact of the entire P01 program."
+ },
+ {
+  "id": "1576589e-57f0-4b94-a371-0d3bea6be696",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Programmable RNA engineering to target Integrator-mediated noncanonical RNA processing in neuroendocrine prostate cancer",
+  "text": "The development of targeted therapies for lethal neuroendocrine prostate cancer (NEPC) remains an urgent\nunmet need. This proposal aims to comprehensively define the novel regulatory functions of INTS7 in mRNA\n3′end processing in NEPC, and to perform preclinical evaluations of nanoparticle-based CRISPR RNA\nengineering systems for therapeutic applications. Successful completion of this project will substantially advance\nour understanding of the Integrator complex in gene regulation and establish new paradigms for developing\ntherapies that target traditionally undruggable oncoproteins or 3′UTR alterations in cancer and other diseases."
+ },
+ {
+  "id": "157d6667-a3b5-46c2-913f-716be13624f8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Building Bridges to New Luciferins",
+  "text": "Fireflies emit light when an enzyme, firefly luciferase, oxidizes a small molecule in the\nfirefly called D-luciferin. Introduction of D-luciferin and this firefly enzyme into mice will\nalso cause mice to glow, and the bioluminescence produced can be used to report on\ngene expression, enzyme activity, and the growth of cells in mice simply by taking a\npicture with a sensitive camera. Our work seeks to modify these two components to\ngreatly improve the sensitivity and applicability of bioluminescence to image otherwise\ninvisible physiological responses in live animals."
+ },
+ {
+  "id": "158497b1-104a-4278-b4a5-a78d80ed26bd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "PET Tracer for Imaging Cardiac Amyloidosis",
+  "text": "Cardiac involvement in amyloidosis (CA) is a major determinant of clinical expression of the\ndisease and may be present as transthyretin-related amyloidosis (ATTR) or mutated TTR\n(ATTRv) or primary immunoglobulin light-chain–derived amyloidosis. CA shares several clinical\nmanifestations with heart failure patients with preserved ejection fraction thus the disease is often\nunrecognized until later stages. Diagnosing cardiac amyloidosis in the later stages of the disease\nresults in poor prognosis. While the gold standard for diagnosing cardiac amyloidosis continues\nto be a positive endomyocardial biopsy, it is an invasive technique thus prone to sampling error.\nOther noninvasive morphological imaging techniques, such as echocardiography and cardiac\nmagnetic resonance have limitations and are less specific. Currently, cardiac scintigraphy using\n99mTc-PYP (initially developed for bone imaging) scan is used for confirming presence of cardiac\nATTR is used as a standard of care in nuclear medicine. However, it lacks sensitivity to detect\nprodromal stages of the disease, likely detects presence of microcalcifications within amyloid\nfibrils, and lacks ability to quantify the misfolded protein. This clinical translational imaging project\nis focused upon evaluating a new PET tracer, named herein as 18F-Fluselenamyl (18F-FSA) for\nassessment of its sensitivity for differentiating ATTR and AL amyloidosis, while also ascertaining\nits utility as companion diagnostic for stratification of therapeutic choices. 18F-FSA shows highly\npromising data in 99mTc-PYP SPECT imaging confirmed ATTRwt participants on efficacy of\nTafamidis, the TTR inhibitor, while showing minimum effect on amyloidosis in ATTRv. These\npreliminary data make it a highly worthy candidate for further exploration of its potential to acts as\na molecular PET imaging agent in ATTR and AL subjects with or without therapy. Overall,\nsuccessful realization of the proposed aims would facilitate translation of the candidate PET\nmolecular imaging tracer for noninvasive differentiation of ATTR and AL amyloidosis patients thus\ntransforming clinical cardiovascular healthcare space towards image-guided personalized\nmedicine for managing these patients."
+ },
+ {
+  "id": "15879401-b40d-42a1-b2d8-0dc43aec7721",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular and genomic basis of transposon-associated alternative splicing",
+  "text": "Transposons are mobile genetic elements that are normally suppressed in cells. When this\nregulation fails, particularly due to dysregulated RNA-binding proteins and genomic mutations,\ntransposons can alter gene function through abnormal splicing. This project aims to uncover\nhow these disruptions occur across human tissues and diseases and to identify new strategies\nto correct them, with the goal of improving human health."
+ },
+ {
+  "id": "1587e9d0-340f-4798-9477-5c2dcc5b5e4e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Enhancing CAR-T solid tumor efficacy with secretory iRGD",
+  "text": "Chimeric Antigen Receptor T-cell (CAR-T) therapy currently has limited efficacy against solid cancers, largely\ndue to immunosuppression and impenetrability of the solid tumor microenvironment. Here, we engineer CAR-T\ncells to secrete iRGD, a tumor-targeting peptide that increases permeability of tumor tissues and vasculature.\nOur goal is to improve CAR-T cell infiltration into solid cancers and remodel the tumor microenvironment with\niRGD, leading to better therapeutic efficacy."
+ },
+ {
+  "id": "15888a89-e604-447d-ba97-b7947d07f562",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Non-canonical roles of Mitotic Arrest Deficient 1 (Mad1) in tumor promotion",
+  "text": "Cancer is the second most common cause of death in the USA. Mad1 (Mitotic arrest deficient 1) is\ncommonly upregulated in cancer, where it serves as a marker of poor prognosis. The experiments in this\nproposal will define the role of Mad1 upregulation in tumor formation and metastasis, with the ultimate goal of\ndeveloping novel treatments to improve cancer patient outcomes."
+ },
+ {
+  "id": "158bbb31-1ed1-48d7-9faf-6a1dcbf1f9d8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Genomics approaches to investigate the evolution of germinal center responses",
+  "text": "This application is relevant to public health because it seeks to understand the pathways that regulate the for-\nmation of germinal centers. Germinal centers are immune structures that are crucial to development of high\naffinity and long-lived immune responses, which are necessary to prevent infections. Our application seeks to\nunderstand the evolutionary underpinnings of germinal center formation in order to gain insights into the genes\nand pathways that are needed for these crucial structures."
+ },
+ {
+  "id": "158be5fa-4c35-48bd-bf21-4abfe6cb5fbe",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Strategies for targeting T follicular helper cells to improve HIV Env vaccine immunogenicity and efficacy",
+  "text": "This project will test strategies for targeting T follicular helper (Tfh) and cytotoxic (Tfc) cells to\nimprove immunogenicity and efficacy of mRNA LNP vaccines based on advanced HIV envelope\n(Env) immunogens in nonhuman primates. Proposed vaccine strategies will directly physically\ntarget Tfh/Tfc cells via surface-receptor engagement and also test mucosal boosting strategies\nto generate an optimized HIV B cell vaccine"
+ },
+ {
+  "id": "158e95df-b821-4824-804a-5f8a8d9b7a51",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Structural Studies of Ion Channel Assembly and Signaling Complexes",
+  "text": "Voltage-gated ion channels (VGICs) are the targets of drugs used to treat hypertension, arrhythmia, pain,\nepilepsy, and mood disorders. Our work aims to understand the molecular architecture that underlies VGIC\nfunction and modulation and how such complex molecules are assembled. Such understanding has direct\nrelevance for development of more efficacious treatments of nervous system and cardiovascular disorders."
+ },
+ {
+  "id": "1590d70e-8106-472a-9e66-540ba2318637",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Machine learning approaches for the detection of emergency department patients with opioid misuse",
+  "text": "Opioid overdose is a leading cause of death in the United States with approximately 49,000 deaths and 1.5\nmillion Emergency Department (ED) encounters related to opioid misuse annually. ED-based interventions for\nopioid misuse are effective but limited in scale by barriers to the accurate detection of all patients who could\nbenefit from these interventions. This proposal seeks to use machine learning approaches to better identify and\ncharacterize ED patients with opioid misuse so that timely treatments can be targeted to decrease opioid-related\nmortality."
+ },
+ {
+  "id": "1592e97e-5fce-4441-bf29-9c96a85850a6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Artificial intelligence analysis of atrial remodeling evolution in patients with atrial fibrillation: Towards optimal ablation strategies",
+  "text": "RELEVANCE TO PUBLIC HEALTH\n The goal of the proposed research is to use a novel combination of imaging, artiﬁcial intelligence, elec-\ntroanatomical mapping, and mechanistic computational modeling to characterize atrial remodeling and under-\nstand the causes for atrial ﬁbrillation recurrence in rhythm-controlled patients. Successful execution of the project\nwill pave the way for a paradigm shift in the clinical procedure of atrial ﬁbrillation ablation and in the quest to\neliminate repeat procedures, resulting in a dramatic improvement in the efﬁcacy of the therapy. The project will\nculminate in a pilot prospective patient study that will test the new ablation strategy."
+ },
+ {
+  "id": "159bab1c-4ebe-4947-9bb8-922dcaf0ca50",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Lung Adenocarcinoma: From Genome Alterations to Therapeutic Discovery",
+  "text": "Lung cancer is the leading cause of cancer death in the United States, with the major subtype being lung\nadenocarcinoma. The goal of our proposed research is to use genomic approaches to understand lung\nadenocarcinoma: how genome alterations in individual genes cause the disease, how we can find immunological\ntargets, and how we can understand genome-wide structural alterations. I anticipate that the insights that we\ngain from this research could lead to new treatments for this deadly disease."
+ },
+ {
+  "id": "15a55956-cdc2-4b8d-83c3-79cf37f3025f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A cardiopulmonary unit-on-a-chip to investigate the pathophysiology and develop targeted treatments for right ventricular hypertrophy caused by pulmonary arterial hypertension",
+  "text": "Pulmonary arterial hypertension (PAH) is a severe lung disease where narrowed arteries force the heart’s right\nventricle, responsible for pumping blood to the lungs, to work much harder. Over time, this extra exertion causes\nthe right ventricle to dangerously enlarge (maladaptive right ventricular hypertrophy, RVH), eventually weakening it\nand leading to heart failure and death. While animal models are used to study PAH associated RVH, they do not\nfully simulate human disease. We propose an innovative solution: a ‘cardiopulmonary-unit-on-a-chip’, a miniaturized\ndevice containing human cells that mimics the key features of RVH and PAH. This chip has the potential to\nrevolutionize research by allowing us to study these processes in detail and develop life-saving treatments for PAH\nand other heart-lung conditions."
+ },
+ {
+  "id": "15a6b164-2857-4215-bdd2-4c5835024f23",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "AI-informed Signaling Factor Design for in vitro Rejuvenating Mesenchymal Stromal Cells",
+  "text": "Mesenchymal stromal cells are promising therapeutic cells that may treat many challenging diseases, yet very\ndifficult to produce as they often rapidly age and lose their therapeutic functions during expansion. This proposal\nwill develop an AI-based method for designing the drugs that can delay the MSC aging process by controlling\nthe biochemical signaling of the MSCs. Upon completion, this proposal will enable us to produce highly\ntherapeutic potent MSCs in a reproducible manner and advance fundamental understandings in aging signaling\nof MSCs."
+ },
+ {
+  "id": "15af299e-75b2-466b-a0e9-6956a2fa1b19",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "CRCNS: Waste-clearance flows in the brain measured using physics-informed neural network",
+  "text": "Diseases like Alzheimer’s and Parkinson’s are linked to buildup of waste in the brain. Much waste is cleared by the circulation of water-like fluids through the brain, but the pathways, velocities, and pressures of that circulation are not yet known. Measuring their details directly is not possible because optical methods produce only sparse measurements and magnetic resonance imaging (MRI) cannot capture small structures or fast changes. This project will use artificial intelligence to augment optical and MRI measurements with the known laws of fluid dynamics, inferring accurate velocities and pressures with great detail. Major pathways will be revealed, and key information will be provided for modelers and clinicians investigating what drives the circulation. That knowledge could help detect Alzheimer’s and Parkinson’s diseases before other symptoms arise and might enable doctors to prevent or cure them."
+ },
+ {
+  "id": "15b219c3-cadc-499e-b321-891885f27b5a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Microbiome-Mediated Tumor Immunomodulation in a Pathomimetic Colorectal Cancer Chip",
+  "text": "The vast majority of CRC patients with MMR-p and MSS tumors do not respond to ICI immunotherapy, with over\n95% showing unresponsiveness. To tackle this challenge, we propose a patient-derived CRC Chip model\ncombined with quantitative molecular analyses to explore the microbiome's influence on ICI modulation in\nunresponsive tumors. Through this approach, we aim to provide a mechanism-driven translational impact,\nconsidering genetic, sociodemographic, and microbial factors, to enhance our understanding of\nimmunotherapeutic responsiveness."
+ },
+ {
+  "id": "15b2ce79-d43c-4609-9808-b8a90b977c7a",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Training in Tumor Virology",
+  "text": "Principal Investigator: Robertson, Erle S.\nNarrative:\nThe Tumor Virology Training Program at the University of Pennsylvania serves as the central\nforum for facilitating interactions among investigators involved in cancer-related viral research\non the Penn campus which provides a more directed training for trainees."
+ },
+ {
+  "id": "15b53bbc-0d98-4918-ac92-9636ae3a9783",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Deuterium metabolic imaging (DMI) of the heart: Application to Ischemia",
+  "text": "A new contrast agent for MRI uses “heavy hydrogen” tagged onto the body’s energy sources (glucose or fatty\nacids), and then uses MRI imaging to identify where these energy sources travel and how they are\nmetabolized by the heart. We will image controls and patients with ischemia (low oxygen available for their\nheart) and seek differences in energy utilization, to understand this type of heart-disease."
+ }
+]

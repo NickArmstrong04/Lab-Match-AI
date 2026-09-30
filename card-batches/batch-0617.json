@@ -1,0 +1,142 @@
+[
+ {
+  "id": "4f68efe5-dd9d-4fe0-bb4d-c474c05ed0dd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Scientific Core: Animal Models",
+  "text": "Despite advances in treatment in recent years, HIV is still responsible for more than half a million deaths annually; new infections have, furthermore, continued to exceed the milestones set by public health institutions. Recently, a number of candidate immunogens based on either germline targeting or epitope focusing have moved to Phase 1 clinical trials. These developments in HIV vaccinology have been immensely aided by improved technology for the generation of humanized mouse models, which can be used in iterative immunogen design, early stage down-selection, and other important components of vaccine development. Among those improvements include the multiplexed CRISPR/Cas9 dual immunoglobulin heavy and light chain knockins (KI) developed by the Batista lab. With this approach, mice with B cells bearing genuine human BCRs, which can be produced in a matter of weeks. Here, the Batista lab proposes to use this approach and its expertise in animal experiments to act as the Animal Model Core (AMC) for the Multi-Omics Vaccine Evaluation (MOVE) Consortium. The AMC will develop up to six new KI lines based on MOVE's interrogation of the naïve human B cell repertoire. The AMC will furthermore contribute its existing HIV models to immunization experiments initiated by MOVE Project 1. Samples generated from murine lymph, spleen, and other tissues will then be provided to MOVE Project 2 for immunocharacterization. The AMC will act as the fulcrum of prime and boost stage immunogen, formulation, and regiment development and assessment."
+ },
+ {
+  "id": "4f69a38f-8084-4f8d-a78d-ec48a86a52c1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Neuroimaging and genetics of the glymphatic system in Alzheimer's disease",
+  "text": "This research proposal focuses on understanding Alzheimer's disease by investigating the brain's glymphatic\nsystem, a crucial mechanism for clearing protein waste. Using innovative non-invasive imaging measures, the\nstudy aims to identify correlations between glymphatic clearance, amyloid and tau protein accumulation, and\nmemory in Alzheimer's patients and healthy aging controls. By leveraging genomics data, the research will also\nexplore the intricate relationship between glymphatic function, Alzheimer's disease, and genomics, offering\npotential insights for early interventions and paving the way for a future without Alzheimer's."
+ },
+ {
+  "id": "4f72984a-5e03-40e8-84f4-200f49a256e1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Functional MRI to Identify High-risk CKD Phenotypes",
+  "text": "Assessment of the underlying chronic scarring of kidney tissue identifies patients with chronic kidney disease\n(CKD) at risk of worsening kidney function over time, but this approach requires a native kidney biopsy that\ncarries risks. We propose to incorporate kidney functional magnetic resonance imaging (fMRI)-derived\nassessments of kidney fibrosis, oxygen status, and perfusion into all Recruitment Sites of the Kidney Precision\nMedicine Project, which enrolls patients with CKD undergoing a research native kidney biopsy. The results will\ngenerate multicenter data on the associations of kidney fMRI-derived assessments of kidney fibrosis, oxygen\nstatus, and perfusion with chronic lesions in the kidney that will advance kidney fMRI as a non-invasive tool to\nidentify chronic scarring in the kidneys and patients with CKD at risk of adverse outcomes."
+ },
+ {
+  "id": "4f7543d9-6420-4038-bb80-5b7f7bc6bed3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular mechanisms that regulate vesicle formation and transport",
+  "text": "The directed movement of proteins and membranes between different cellular locations is a fundamental process\nrequired for the proper functioning of all eukaryotic cells. Many diseases including cancer, neurodegenerative\ndisorders, diabetes, and immune dysfunction can be caused by intracellular protein transport defects. The\nproposed research will determine how membrane trafficking pathways are appropriately regulated, enhancing\nour fundamental understanding of this process, which should facilitate the future identification of therapeutic\ntargets for disease intervention."
+ },
+ {
+  "id": "4f75a655-3f1c-49ca-b9da-172f70d19a67",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Clinical Translation of dual-modality transrectal ultrasound and photoacoustic imaging for detection of aggressive human prostate cancer",
+  "text": "Proposed novel dual-modality transrectal ultrasound and photoacoustic imaging platform, with unique\ncapabilities to map functional, chemical, and molecular information reflecting pathological conditions over the\nentire human prostate in vivo, will likely help differentiate aggressive from non-aggressive prostate cancer."
+ },
+ {
+  "id": "4f77595b-9690-4c89-962b-74b639c69338",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Rapid Generation of Transgenic Rhesus Macaques using a Safe-harbor Genomic Docking Site",
+  "text": "Thanks to advances in genome editing technologies, it is possible to generate nonhuman primates (NHPs) with\nprecise germline genomic alterations, enabling researchers to generate highly refined models of human\ndisease; however, the time and cost associated with existing technologies limits the availability of these NHPs.\nHere we propose an innovative technology to aid in the rapid and cost effective generation of transgenic NHPs\nfor research. This resource will significantly benefit science across multiple disciplines, and pave the way for\nadditional technologies to improve transgenic NHP research."
+ },
+ {
+  "id": "4f814005-259e-4074-b117-a1c117b7cb0e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of Perovskite CsPbBr3 Sensors for SPECT Imaging of Higher-Energy Gamma Ray Emitters",
+  "text": "The major research goal of this project is to develop a modular perovskite CsPbBr3 (CLB) imaging sensor\nplatform that is combined with CLB-specific, fully digital waveform sampling application-specific integrated\ncircuitry (ASIC), and a compact digital readout system to offer excellent spatial resolution and spectral\nperformance. The CLB sensors could potentially be produced at a significantly reduced cost compared to CZT\ndetectors of comparable detection area. This detector platform could potentially serve as a building block for\nfuture preclinical and clinical SPECT imaging systems."
+ },
+ {
+  "id": "4f8a8245-0443-4eb3-8b12-a0630259a23f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multi-cancer early detection using cell-free DNA methylome analysis",
+  "text": "This project will develop and validate an MCED test for the early detection and localization of\ncolon/gastric/liver/lung cancers. If successful, it will be transformative in fighting against these types of cancer,\nand benefit human kind.\n1"
+ },
+ {
+  "id": "4f8d206a-6588-4195-9793-fca674a8c5c3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Neurophysiology Component - Roberto",
+  "text": "Protracted withdrawal is characterized by negative emotional symptoms and their alleviation is a driving force for continued alcohol consumption. Our TSRI-ARC focuses on identifying the enduring neuroadaptations in the brain stress systems that drive relapse. In rats with ethanol dependence, an overactivation of the central nucleus of the amygdala (CeA) is driven by recruitment of the corticotropin-releasing factor (CRF) and CRF1 receptors (CRF1). Nociceptin/orphanin FQ (N/OFQ) peptide and its receptor (NOP) exert anti-stress effects by counteracting the function of endogenous CRF in CeA. The infralimbic (IL) subdivision of the mPFC exerts “top- down” control over the amygdala to regulate emotional aspects of goal-directed behaviors. Our main hypothesis is that dysfunction of mPFC contributes to the negative affect that drives withdrawal-induced drinking. We predict that IL pyramidal neurons that project to CeA (ILàCeA) may normally inhibit ethanol seeking and drinking under stress, a function that is compromised (decreased) in AUD, rendering subjects vulnerable to stress-induced negative urgency for ethanol. Preliminary chemogenetic data from Zorrilla’s component point to a causal role of rat ILàCeA inhibition in negative affect. Moreover, Martin-Fardon’s component showed that intra-IL CRF1 or hypocretin/orexin (Hcrt) antagonist infusion reduced stress-induced reinstatement of ethanol seeking in rats. These peptides are highly expressed in IL, but their interplay is understudied. The Neurophysiology Project (Lead: Roberto; Co-Lead: Bajo) will elucidate the mechanisms and neurotransmitters that disrupt IL functions and identify the ILàCeA role in these behavioral phenotypes. We will test the hypothesis that ethanol dependence [induced by chronic intermittent ethanol (CIE)] and abstinence produce an imbalance between brain stress (e.g., CRF) and anti-stress (e.g., N/OFQ) systems within the ILàCeA circuitry. Here we show that 1) CRF decreases spontaneous GABA release but increases glutamate release onto layer V IL pyramidal neurons of naïve male rats, 2) the CRF-associated reduction of GABA release onto ILàCeA neurons is stronger than onto other IL neurons. Our preliminary data support that the ILàCeA neurons represent a subset of neurons with unique electrophysiological properties and responsiveness to dependence/withdrawal that account for a decrease in ILàCeA connectivity. Moreover, CRF-induced facilitation of glutamate release and firing are opposed by N/OFQ in the IL. Thus, this proposal will a) investigate the mechanisms mediating N/OFQ and CRF modulation of overall IL function (Specific Aim 1) and b) will unveil the unique electrophysiological properties of IL pyramidal neurons that project to CeA and their role in negative behavioral symptomatology of ethanol withdrawal (Specific Aim 2). This project will use ex vivo electrophysiology and proteomics of circuit-defined neurons, protein assays, in situ hybridization, neuronal tracing, chemogenetics, and behavioral testing. These techniques will involve the Animal Models and Neuroproteomics Cores, and collaborations with the Zorrilla, Martin-Fardon, Contet, and George Components. PHS 398/2590 (Rev. 06/09) Page Continuation Format Page"
+ },
+ {
+  "id": "4f93c688-6b9f-4ba5-b876-d01536dbef24",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Lung Cancer Care and Prognosis: Medicare Advantage vs Traditional Medicare",
+  "text": "Despite a rapid growth in enrollment in Medicare Advantage (MA), an option for Medicare enrollees to receive benefits through private insurance plans, it remains unclear about the impact of MA vs traditional Medicare (TM) fee-for-service program on cancer care and prognosis. Leveraging large population-based databases, we will comprehensively assess the role of MA vs TM in lung cancer early detection, treatment quality, and survival outcomes among older adults, as well as lung cancer care for selected subgroups. The findings will inform Medicare policy and financial incentives to better meet the needs of older adults with lung cancer and improve the quality of care."
+ },
+ {
+  "id": "4f9a8422-b620-45ac-bcc0-afeb0db27029",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Co-designing Ethical Multimodal AI Systems for Mapping T1D Progression",
+  "text": "The MAI- T1D project will serve the diabetes research community, focusing on Type 1 diabetes pathogenesis and progression, and cater to clinical scientists, basic scientists, data scientists, and developers. The project will accelerate the progress in the understanding Type 1 diabetes and informing transformative changes in diabetes prevention and care."
+ },
+ {
+  "id": "4f9c1948-d25c-4718-8c88-f73084f22e27",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Integrating molecular and social exposures to understand accelerated aging in cancer patients with HIV in the Southeastern US",
+  "text": "In the US, the proportion of people with HIV (PWH) living to at least 50 years of age has drastically increased\ndue to effective HIV therapy, but this has translated into a higher prevalence of chronic diseases such as cancer,\na troubling trend given the fact that PWH are over twice as likely to die due after a cancer diagnosis compared\nto cancer patients without HIV. To investigate our observation that PWH living in low-income areas experience a\nuniquely high risk of death after a cancer diagnosis, we will evaluate the hypothesis that multi-level social and\nsocioeconomic stressors can drive premature biological aging, reflected in genomic biomarkers such as DNA\nmethylation patterns and acquired somatic mutations in blood cells, and thereby influence cancer outcomes\namong PWH. Our results will establish a biological mechanism for cancer outcome differences among PWH in\nlow-resourced US communities in the region most impacted by HIV in the US – the Southeast."
+ },
+ {
+  "id": "4fa10c07-042e-4237-95dc-4e631bf1ac12",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Understanding the genomic basis of problematic alcohol use through integrative analysis of multi-omics data",
+  "text": "Alcohol use disorder (AUD) affects millions of people in the US. Although genetic studies have identified loci\nassociated with AUD, its genetic etiology has not been fully explained. This project aims to 1) develop integrative\nmethods for analyzing large-scale genomic datasets of AUD to increase power for genetic discovery, and 2)\nelucidate the genomic architecture of AUD by using systems biology approaches."
+ },
+ {
+  "id": "4fa8828c-2d48-4aa4-9a99-64d7be6d10ab",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Algorithms for HLA-E based cancer immunotherapy",
+  "text": "T-cell immunotherapy faces considerable challenges in addressing solid tumors due to the scarcity of tumor-\nspecific antigens. This project aims to develop bioinformatics tools and algorithms to predict and identify cancer-\nspecific HLA-E bound neoepitopes derived from structural variants and non-canonical open reading frames. This\nproof-of-concept presents a novel strategy for HLA-E-based cancer immunotherapies by targeting widely\nexpressed neoantigens."
+ },
+ {
+  "id": "4faabf12-e8d9-40df-8d4b-32d698c6f774",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Evaluating the impact of malaria on immunogenicity of the Ebola virus vaccine",
+  "text": "Studies from the Zaire Ebola virus (EBOV) outbreak in West Africa suggested that the FDA-approved EBOV\nvaccine can be highly effective; however, more recent data from the Democratic Republic of the Congo\nrevealed that EBOV vaccine failure rates may be as high as 30%. We postulate that acute Plasmodium\nparasitemia that is prevalent in Central Africa decreases immune responses to the FDA-approved vaccine.\nHere, we use a mouse model to mechanistically define the effect of acute Plasmodium infection on the efficacy\nof EBOV vaccine."
+ },
+ {
+  "id": "4fac36b1-5ead-4713-8b6e-b91207ba5374",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Structural basis of integral membrane enzyme function",
+  "text": "The atomic-level details of lipid/enzyme interactions and the determinants of their specificity remain poorly\nunderstood, despite their importance in biosynthesis and modification of cellular membranes, and in the\nassembly and use of lipid conjugates for essential cellular functions such as glycosylation. By applying a\nstructural biology-based integrated approach to enzymes that are involved in assembly of the peptidoglycan\nlayer and modification of the lipopolysaccharide component of the outer membrane of Gram-negative bacteria,\nbiosynthesis of the mycobacterial cell well and processes of protein glycosylation, we will gain testable\nhypotheses on the basic principles of substrate recognition, and on how membrane, membrane enzymes, and\nlipidic substrates interact to facilitate these reactions. These data should also provide pathways toward new\nclasses of therapeutics targeting lipid/enzyme active sites."
+ },
+ {
+  "id": "4fb0e64f-a54c-4572-a249-67a9ee45415c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Machinery of the Microbial Mobilome",
+  "text": "Mobile genetic elements provide an accessory genome for microbial populations that can help microbes survive\nassaults such as antibiotic treatment and viral infection. The machinery encoded by such elements to promote\ntheir own transfer and maintenance provides a rich source of novel enzymes that are interesting as examples of\nhow fundamental DNA-related manipulations can occur, and that are a potential source of new biotechnology\ntools. Our work focuses on the mechanistic and structural understanding of mobile element-encoded machinery,\nwhich has lagged far behind bioinformatics in this field."
+ },
+ {
+  "id": "4fb8c7c0-e4ff-43d0-bbad-76671f2f4799",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Developing molecular diagnostic methods for cervical cancer",
+  "text": "Cervical cancer is the fourth most common cancer in women worldwide, leading to over 300,000 deaths each\nyear. Most cervical cancers are caused by human papillomavirus (HPV) infection, and recent studies\ndemonstrate that detection of high-risk HPV cervical infection is a more effective strategy than Pap testing for\nearly screening of cervical cancer. The main objective of this application is to develop and validate a new HPV\ndiagnostic method for low-cost, point-of-care screening of cervical cancer."
+ },
+ {
+  "id": "4fb904b6-7528-4e55-8708-06aaf783bf02",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Defining the role of the mitochondrial protein, GOT2, in pancreatic cancer metastasis and epigenetic dysregulation",
+  "text": "Pancreatic adenocarcinoma (PDAC) is a deadly form of pancreatic cancer with a poor prognosis and low survival\nrate, largely due to its late-stage diagnosis and resistance to chemotherapy and radiation therapy. Epigenetic\nalterations are known to play a role in the progression of PDAC toward metastasis, but the underlying mediators\nare largely unknown. This proposal aims to examine the epigenetic landscape of pancreatic cancer and define\na novel role for the mitochondrial protein GOT2 (glutamic-oxaloacetic transaminase) in epigenetic\nreprogramming and in promoting PDAC metastasis."
+ },
+ {
+  "id": "4fba9641-4bcc-400e-9ece-1c1beef93dac",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Induction, fate and function of inflammatory fibroblasts",
+  "text": "We recently identified a novel population of fibroblasts that emerge in response to lung injury. This grant will\nexplore the signals that induce these fibroblasts and the pathways by which inflammatory fibroblasts\nmodulate lung inflammation and fibrosis."
+ }
+]

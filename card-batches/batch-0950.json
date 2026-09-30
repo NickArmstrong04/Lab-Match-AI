@@ -1,0 +1,142 @@
+[
+ {
+  "id": "c6a7f677-2a17-46eb-add3-3d659d5d31d0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Tools for gene editing in marmosets",
+  "text": "The goal of this proposal is to create an efficient new set of tools and techniques for the generation of\ngenetically modified marmosets suitable for use as models of brain physiology and function. These studies will\nprovide tools for future gene editing experiments in marmosets, will establish an initial set of genetically modified\ntool lines for use in the field, and will provide initial proof-of-principle lines for marmoset models of genetic\nalterations potentially relevant to the neurobiology of human brain diseases."
+ },
+ {
+  "id": "c6b8af56-c827-464d-be45-e6192919c5c3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Functionalization of rare noncoding variants as drivers of Alzheimer's disease risk",
+  "text": "Alzheimer’s disease is ~70% heritable but decades of genetics research focused on common variants and\nwell-established familial drivers has only explained ~11% of that heritability, leaving the vast majority of the\ngenetic drivers of AD risk unknown. We postulate that much of that unexplained predisposition resides in rare\nnoncoding variants, which have remained largely unexplored because they present daunting challenges for the\ngenetic and analytical tools currently at our disposal. Here, we propose to use machine learning and other\nnovel approaches to overcome these challenges and unlock the potential of rare variants to link new genes to\nAD and, eventually, inspire new therapeutic strategies that should serve large numbers of patients with familial\nor sporadic AD."
+ },
+ {
+  "id": "c6baccb3-9ee2-44ad-8ee0-461312982444",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mentoring Research Excellence in Aging and Regenerative Medicine",
+  "text": "The unprecedented expansion of life expectancy during the past several decades and especially to the\ncontinuing retirement of the baby-boomers has led to hitherto unknown expectations related to the retention of\nphysical and cognitive function abilities in the later decades of life. The program described here provides\noutstanding and highly translational projects aimed at the development of preventive and compensatory\nmeasures to enhance the quality of life in an aging population, an issue of premier importance for U.S. public\nhealth in the Twenty-First Century."
+ },
+ {
+  "id": "c6c2444f-8ace-4590-bb43-27f73832cffe",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "THE INFORMATICS, DATA ANALYSIS, AND STATISTICS CORE (IDASC)",
+  "text": "The informatics, data analysis, and statistics core for the aging adult brain connectome project will: (1) Archive\nthe imaging data and behavioral and biological measures in a database. (2) Perform quality control on the brain\nimage data. (3) Develop and maintain brain imaging analysis pipelines, including analyses across subjects and\nwithin subjects across time, for multiple imaging modalities including those measuring brain structure, function,\nand connectivity to produce imaging-based measures for each subject and timepoint. (4) Perform optimized\nstatistical analyses of biological, behavioral, and imaging-based measures together with the four sub-projects."
+ },
+ {
+  "id": "c6c7a3ee-a4bb-4d0d-94a1-e4769d167cef",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Toward understanding the role of altered glycosylation in cancer",
+  "text": "Altered glycosylation is concomitant with malignant transformation and numerous other disease processes, but the functional significance of these changes remains poorly understood. This gap in knowledge is largely attributable to the difficulties associated with studying complex glycoproteins and their associated glycans. Therefore, it is imperative to understand how dysregulated glycosylation contributes to biological function and disease while simultaneously developing technologies that allow for more comprehensive characterization of glycoproteins and glycoforms. We seek to attain these goals through an interdisciplinary research program combining glycoproteomics, biochemistry, bioinformatics, mass spectrometry, and spatial visualization of glycans.\n\nFirst, glycosylation contributes to important signaling events that regulate immune function and cellular communication. We will investigate how specific glycan structures regulate protein interactions and signaling pathways using advanced glycoproteomic, biochemical, and functional approaches. These studies will provide mechanistic insight into how glycosylation modulates biologically important protein functions.\n\nSecond, we will develop methods for visualization of glycan spatial distribution in tissues. Building upon our expertise in mass spectrometry imaging and glycoproteomics, we will create approaches that enable spatial characterization of glycans and their associated glycoproteins within complex biological specimens. These technologies will provide molecular context for understanding how glycosylation varies across tissues and disease states.\n\nFinally, one of the most significant challenges facing the glycoproteomics field is the lack of robust analytical methods capable of comprehensively characterizing glycoproteins and their diverse glycoforms. We will develop next-generation glycoproteomic workflows and middle-down sequencing approaches that preserve connectivity between glycosylation sites, glycan composition, and protein sequence. These methods will enable direct characterization of intact glycosylated protein domains and glycoproteoforms while improving confidence, throughput, and reproducibility in glycoproteomic analyses.\n\nUltimately, attainment of these goals will provide fundamental insight into glycoprotein structure and function while generating widely applicable technologies for the biomedical research community. The methods and knowledge developed through this work will advance the fields of mass spectrometry, glycobiology, and glycoproteomics and improve our understanding of how glycosylation contributes to normal physiology and disease."
+ },
+ {
+  "id": "c6cae58c-9046-4c38-b4dc-56cf5dff7f36",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Role and Function of a Novel Signature Gene in BCR::ABL1 (Ph) B-cell Acute Lymphoblastic Leukemia",
+  "text": "Philadelphia chromosome (Ph)-positive and Ph-like B-cell acute lymphoblastic leukemia are high-risk leukemia\nsubtypes with poor long-term survival rates. Our research focuses on a novel hallmark gene, AL021978.1\n(A978), which we have identified as a key driver in these leukemias. We aim to understand how A978\ncontributes to leukemic cell proliferation and explore therapeutic strategies to target A978, potentially improving\noutcomes for patients with these high-risk leukemia subtypes."
+ },
+ {
+  "id": "c6cafdd3-7181-4d79-9cde-903b10c21e48",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Radiochemistry and Molecular Imaging Probes",
+  "text": "The Radiochemistry and Molecular Imaging Probes (RMIP) Core functions at the intersection of the Cancer Center's laboratory research and clinical molecular imaging initiatives—including cancer biology, medicine, chemistry, physics, radiochemistry, pharmacology, and engineering, and is one of the largest manufacturing units at MSK in terms of the number of clinical and research products produced. The RMIP Core was established to provide investigators with radionuclides and to incorporate these radionuclides into radiolabeled diagnostic and/or therapeutic pharmaceuticals for both basic research investigations and patient formulations. The RMIP Core consists of 4 major elements working closely together to provide the following services: the Cyclotron Radionuclide Production Section, the Radiolabeling Section, the Development and Clinical Translation Section, and the Hyperpolarized Magnetic Resonance Section. MSK and the RMIP Core have an outstanding reputation for supporting clinical translation of both imaging and therapeutic agents. Specifically, with regard to the translation of radiopharmaceuticals, over the past 25 years, the RMIP Core has produced over 60 radiopharmaceuticals and molecular imaging agents for research clinical trials (imaging and therapy) in humans including radiolabeled antibodies, small molecules, nanoparticles and radiotherapeutics. In the most recent grant period, the RMIP Core contributed to 254 publications from researchers across eight research programs."
+ },
+ {
+  "id": "c6e1a350-3523-49ae-b1d1-c60b42f6228f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeted Gene Repair Therapy for Multisystemic Smooth Muscle Dysfunction Syndrome (MSMDS) Caused by ACTA2 R179H Mutation",
+  "text": "CRIPR/Cas9 technology has created the prospect of correcting some gene mutations in living animals and\nhumans with genetic disease. In this study we will perform the necessary activities for bringing a novel gene\ntherapeutic that edits a mutation causing the disease multisystem smooth muscle dysfunction syndrome\n(MSMDS, a severe disease that causes strokes in children)."
+ },
+ {
+  "id": "c6e5481d-6b09-4234-85c9-73b34bf20744",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Deciphering LKB1-associated immunotherapy resistance in lung adenocarcinoma (LUAD)",
+  "text": "Lung cancer accounts for more than 1.5 million deaths worldwide each year. This proposed Emory University\nP01 program intends to generate new therapeutic strategies for treating lung cancer patients by improving\nunderstanding of the dysregulated growth regulatory and immunotherapy resistance mechanisms in lung cancer\npatients with lost LKB1. Overseen by an Executive Committee, Internal and External Advisory Boards, the\nprogram will encompass three interconnected research projects supported by three core resources and an\ninterdisciplinary team that will integrate novel insights from LKB1 biology and its role in resistance to\nimmunotherapy in order to discover innovative clinical strategies for lung cancer patients based on LKB1 status."
+ },
+ {
+  "id": "c6e727cc-03ed-4cde-a9f1-b71776f391d9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Machine learning discovery of variants that alter gene regulation in cardiovascular development and disease",
+  "text": "Despite running in families, most cases of congenital heart disease cannot be explained by genetic changes to\nproteins, suggesting a role for noncoding genetic variants. This project will develop machine learning models\nand use them in combination with advanced genomic techniques to identify rare and de novo noncoding variants\nthat alter gene regulation in heart development by disrupting chromatin interactions, nucleosome positioning\nand/or transcription factor binding."
+ },
+ {
+  "id": "c6e74797-f58e-4787-b4fe-032ab2992df9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Oncology Tissue and Imaging Services",
+  "text": "The Oncology Tissue and Imaging Services (OTIS) Shared Resource (SR) provides a number of technologies, services and scientific consultations to support the research of Sidney Kimmel Comprehensive Cancer Center (SKCCC) Members and other Johns Hopkins University (JHU) investigators. The now combined SR is comprised of the former Oncology Tissues Service (OTS) and Cell Imaging SRs. The OTIS SR provides traditional G-band metaphase analysis and fluorescent in situ hybridization technologies, as well as, light and fluorescence microscopy, stereo and confocal microscopy, infrared imaging, multiwell live-cell time-lapse imaging and laser capture microdissection. In recent years, there has been tremendous growth in the service of providing tissue cores from formalin-fixed paraffin-embedded tissue blocks for RNA and DNA molecular analyses. Instrumentation and expertise are available to automatically capture high-resolution digital images of both standard histology/IHC-based slides and TMA slides. The OTIS SR obtained an automated slide stainer to convert laboratory discoveries of novel protein staining into clinical biomarkers. The SR also provides web-based software tools and two back-end databases (TMAJ/Spectrum) to facilitate all facets of research involving TMAs, routine slides and quantitative image analysis. Images can be acquired using a variety of video and charge-coupled device cameras and then analyzed and manipulated with cutting-edge image analysis software programs. The SR Manager is available for consultation before and during scheduled imaging sessions. Users receive technical support and detailed instruction in the use of all SR equipment. The SR Manager routinely monitors the performance of the SR's equipment and regularly receives updated technical training from manufacturers to meet the constantly evolving needs of the SKCCC membership. A Core Advisory Committee, composed of three senior SKCCC investigators, provides an additional level of oversight of SR operations and provides guidance for the acquisition of new technologies and capabilities. SKCCC Managed Shared Resource Reporting Period: January 1, 2020 to December 31, 2020"
+ },
+ {
+  "id": "c6e7c25f-85e0-48f1-8f6e-ecb5e25ef37a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Personalized oxygen therapy for critically ill adults: a randomized trial",
+  "text": "For each of the 2-3 million critically ill adults who receive invasive mechanical ventilation each\nyear in the United States, the oxygen-saturation target that will result in the best patient\noutcomes has historically been unknown. Recently, machine learning analyses of randomized\ntrials have derived and validated a statistical model for predicting which personalized oxygen-\nsaturation target will result in the best outcomes for each individual patient. The randomized trial\nproposed in this application will examine whether the use of a personalized oxygen-saturation\ntarget decreases mortality for critically ill adults receiving mechanical ventilation, compared to\nusual care."
+ },
+ {
+  "id": "c6ed038b-9245-4030-90c4-fe18b7a34bcf",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Molecular Basis of Nasal Pit Morphogenesis and its Role in Upper Lip Formation",
+  "text": "Cleft lip with or without cleft palate, is a leading birth defect worldwide, but the fundamental morphogenesis that\ndrives upper lip formation remains largely mysterious. Our preliminary data indicate that improper nasal pit\nmorphogenesis is a driver of cleft lip and that TGFβ signaling through TGFβRI is a key regulator of this process.\nThe experiments outlined in this application will contribute to understanding the dynamics driving nasal pit\nmorphogenesis as it contributes to lip formation and cleft etiology."
+ },
+ {
+  "id": "c6f58623-f741-4562-b2de-9fc19814b318",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Unraveling Molecular Mechanisms Underlying Heroin-induced Mitochondrial Perturbations",
+  "text": "Opioid use disorder continues to be a major public health crisis affecting nearly 2.1 million\npeople in the United States with broad impact. The complex molecular changes following heroin\nabuse remain understudied. My project aims to investigate heroin-induced changes of\nmitochondrial biology and metabolism in the brain relevant to neurodegenerative processes."
+ },
+ {
+  "id": "c6f60e10-1733-46f5-9ae6-07abbfadf897",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "High-throughput tools to track the fate of prematurely terminated transcripts in cancer cells",
+  "text": "The proposed research is relevant to public health because dysregulated alternative polyadenylation leads to\nnumerous cancers by inactivating tumor suppressor genes through the generation of truncated transcripts. Our\ninnovative technologies will track the dynamic fate of alternatively processed transcripts across subcellular\ncompartments, enabling the identification of critical regulatory nodes that are impacted by oncogenic RNA\nprocessing. As such, the proposed research is relevant to the part of the NIH's mission that seeks to develop\nfundamental knowledge to inform our diagnosis and treatment of human disease."
+ },
+ {
+  "id": "c6fab72b-8147-4582-9f4b-9a681ff80e38",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of lens epithelium fibrosis and its relevance to posterior capsule opacification",
+  "text": "Secondary cataract is the most common complication after cataract surgery. This study is intended to\nunderstand the fundamental role of inflammation and oxidation in the progression of this complication."
+ },
+ {
+  "id": "c7000058-53b9-417c-89f1-64548f536361",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Neuroimaging Core",
+  "text": "REVISED ABSTRACT: The Neuroimaging Core (Imaging Core) of the Massachusetts Alzheimer’s Disease Research Center (MADRC) provides state-of-the-art neuroimaging expertise for the MADRC and affiliated research studies, for collaborative efforts with other ADRCs, and for national ADRD research initiatives. The Imaging Core brings together a multidisciplinary group of investigators and a rich array of resources to better understand the drivers of clinical progression of Alzheimer’s Disease and Related Disorders (ADRD). We will acquire, analyze, and share MRI scans on all Research Cohort participants every other year and will obtain, process, and distribute longitudinal amyloid and tau PET scans and an enhanced MRI protocol on an Intensive Imaging Subgroup (in response to the RFA mandated imaging datasets). We will promote the exchange of expertise and collaboration to make optimal use of participant involvement and scan data, and to support MADRC-affiliated research. This will catalyze the pooling of local resources and imaging datasets, supporting emergent scientific discovery through collaborative analyses beyond those funded by individual grants. In addition, MADRC Imaging Core personnel work closely with national and international research efforts in and beyond the ADRCs to optimize neuroimaging biomarkers for use in ADRD research and trials as we enter an era of disease-modifying therapies. The Imaging Core will play a major role in helping MADRC achieve its overarching goal of understanding drivers of clinical progression. The Core aims to contribute MRI and PET data and analytic and interpretive expertise to local, regional, national, and international ADRD research (Aim 1). The Core will develop, implement, and share new MRI and PET imaging methods and data to better understand inter-individual variability in the pace of change. We will utilize imaging data from MADRC-funded and affiliated studies as well as uniformly collected imaging data from clinical assessments to better understand how new treatment modalities affect clinical progression and impact research (Aim 2). We will train clinical and translational researchers in imaging methods and support imaging clinicians/scientists in conducting ADRD imaging research by collaborating with the Research Education Component (REC) (Aim 3). The Core aims to maximize the Research Cohort and other ADRD imaging research participants as well as staff by working with the ORE Core and other cores in outreach and educational efforts (Aim 4). We will freely disseminate our methodological innovations to the scientific community and promote open and reproducible science through imaging data and acquisition and analytic methods sharing."
+ },
+ {
+  "id": "c707a122-fc3d-432b-9da1-92b9f0fb7956",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cell Imaging and Histology",
+  "text": "ABSTRACT – CELL IMAGING AND HISTOLOGY SHARED RESOURCE The mission of the Cell Imaging and Histology Shared Resource, which is managed by the Cancer Center, is to provide state-of-the-art imaging and histological services to Center researchers. The Core offers the instrumentation, expertise, training, and service to enable advanced cellular imaging and data analysis. The Cell Imaging facility's technology includes a recently acquired hybrid confocal/super-resolution Nikon A1 microscope system equipped for live-cell imaging, as well as three other confocal microscope systems—a Zeiss LSM 710 NLO laser point scanning system equipped with a multiphoton laser, An Olympus FloView 1000, and a Yokogawa spinning disk confocal microscope. In addition, the facility has six other fluorescence microscopes supporting a wide range of imaging technologies such as FRET, TIRF, live cell and time-lapse imaging. Most of the advanced microscopes at SBP are located within the facility. The facility's computer workstations provide access to image analysis software packages including Image-Pro plus, MetaMorph, Volocity, and Imaris 8.0, as well as Nikon software for off-line reconstruction of Nikon Super-Resolution data. The Histology facility services include preparation and cryosectioning of tissues; automated staining for H&E (Leica XLf), and immunohistochemistry, immunofluorescence, and in situ hybridization (Leica Bond RX). The facility's Aperio slide scanners (AT2 and FL ScanScopes, Leica) provide automated high-resolution scanning of whole IHC or fluorescence stained slides for data documentation, analysis, storage, and dissemination. The facility also provides assistance in obtaining human tissues, including assistance with IRB and MTA issues. Both the adjacent Cell Imaging and Histology facilities provide user training or full-service. Trained microscope users have 24/7 access to the equipment, with reservations for each instrument made through an on-line iLab calendar. The Core is very broadly used—in the past 5 years, the Core has contributed to research in 47 Cancer Center member laboratories representing all three Center programs and assisted in projects resulting in more than 190 cancer-relevant publications."
+ },
+ {
+  "id": "c707a90b-c191-4b9e-a6ed-00b0b9f352b1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Pathoadaptive Modulation of Porphyromonas gingivalis Lipopolysaccharide Structure and Function",
+  "text": "Periodontitis afflicts ~ 50% of the adult population in the United States with substantial socio-\neconomic impacts. Porphyromonas gingivalis has been strongly implicated in periodontitis. The\nproposed studies will decipher the regulatory role of a novel signaling pathway that controls the\nlipopolysaccharide driven pathoadaptation and pathogenesis of Pg, contributing to periodontitis\nprogression."
+ },
+ {
+  "id": "c708d766-87c5-4634-b24b-81cf9106a79f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identifying Pathogenic Somatic Mutations in Pulmonary Arterial Hypertension",
+  "text": "This project will investigate whether somatic (acquired) mutations are present in disease-relevant pathways in\nsubjects with pulmonary arterial hypertension (PAH). Using both cell-free DNA analysis of patient and control\nblood samples and spatially resolved genomic analysis of pulmonary vascular tissue, this research seeks to\nuncover novel acquired genetic drivers of disease. This project has the potential to lead to new clinical\ndiagnostics that may be used in precision-medicine approaches to the treatment of PAH."
+ }
+]

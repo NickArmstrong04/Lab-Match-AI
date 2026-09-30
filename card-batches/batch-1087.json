@@ -1,0 +1,142 @@
+[
+ {
+  "id": "f5bcb456-012e-4121-b7d4-ffccd948dbba",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Discovery of apoE4 modulators for Alzheimer’s disease therapy",
+  "text": "The ε4 allele of the apolipoprotein E (APOE) gene is the strongest genetic risk factor for Alzheimer disease.\nApoE4 exacerbates not only amyloid pathology but also tau-mediated neurodegeneration. Our proposal seeks\nto identify small molecule apoE4 inhibitors, thereby reducing apoE4-related pathogenic effects for AD therapy."
+ },
+ {
+  "id": "f5bfd312-acf2-4010-b1ff-bdb7ad41993e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Orbitrap Astral MS Instrument",
+  "text": "Revolutions in mass spectrometry technology have broken through prior imitations in\nsensitivity allowing for the analysis of 10,000-15,000 proteins from 150 ng of protein. In\naddition, ultra fast acquisition speeds and high resolution data independent acquisition will\nenable identiﬁcation and quantiﬁcation of post-translational modiﬁcations important for\nunderstanding cellular signaling. The acquisition of the Orbitrap Astral will provide cutting\nedge technology in sensitivity and detection for proteomic expression and structural biology\nprojects accelerating biomarker and drug discovery efforts."
+ },
+ {
+  "id": "f5c26c9e-3eba-4528-823a-efdd59d5ef2b",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Single cell multi-omics approaches in identifying driving cells and genes in pediatric MODS patients requiring ECMO support",
+  "text": "(See instructions): This NIH R00 proposal seeks support for developing an independent research program to gain a deeper understanding of the cellular and molecular mechanisms associated with MODS deterioration, who may require advanced life support. My long-term goal is to develop innovative diagnostic and therapeutic methods for pediatric diseases in the intensive care unit (ICU), using cutting-edge single-cell multi-omics techniques and machine learning approaches. My previous research focused on identifying novel drugs, biomarkers, prognostic, and diagnostic markers for various diseases and cancers using big data approaches. However, MODS in pediatric patients with veno-arterial extracorporeal membrane oxygenation (ECMO) support has drawn my attention, as the survival rate for severe MODS patients with ECMO support is very low and there are no clinical or molecular biomarkers available to diagnose deterioration of MODS patients requiring ECMO support. To gain a deeper understanding of the cellular and molecular mechanisms associated with MODS deterioration, who may require advanced life support, I aim to utilize advanced single-cell multi-omics and machine learning approaches. My previous research using bulk RNA-seq analysis on a small sample size showed that dysregulation of the immune response and epigenetic variations are significant factors associated with MODS deterioration in patients requiring ECMO support. However, a more detailed analysis using advanced single-cell multi-omics and machine learning is needed. The objective of this award is to use cutting-edge single-cell multi-omics techniques to investigate the cellular heterogeneity and their dynamics, as well as their transcriptional regulatory elements in MODS and ECMO patients at two different time points. Furthermore, a machine learning approach along with bulk RNA-seq will be implemented to identify crucial cells and genes associated with MODS patients' deterioration who may require ECMO support. The successful completion of this research will expand my knowledge in single-cell multi-omics, statistics, machine learning approaches, immune responses, and pediatric diseases."
+ },
+ {
+  "id": "f5c5b96e-a74e-4ff9-a358-0a9db275ea57",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Pathogenesis of Immune checkpoint inhibitors-induced myocarditis",
+  "text": "Immune checkpoint inhibitor-associated myocarditis (ICI-myocarditis) is a highly fatal disease occurring in cancer\npatients, but the mechanism, pathogenesis, and risk factors are understudied. We propose that tissue resident\nT cells autoreactive to myosin (Myhc-specific TRM) drive the development of ICI-myocarditis and that targeting\nMyhc-specific TRM can prevent the development of ICI-myocarditis. This study is highly translational and can\ndirectly impact our understanding of the pathogenesis and risk factors of ICI-myocarditis, and designing new\ntherapeutic strategies."
+ },
+ {
+  "id": "f5ca1141-42da-4735-954a-a60472c388fe",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular mechanisms of Ras and Receptor Tyrosine Kinase Convergence on PI3K in cancer",
+  "text": "Phosphoinositide 3-kinase (PI3K) alpha, a crucial lipid kinase, catalyzes the conversion of PIP2 to PIP3 at the\ncell membrane, initiating signaling cascades governing cellular growth, proliferation, and survival. Despite the\nprevalence of activating mutations in PI3K alpha across diverse human cancers, their mechanistic underpinnings\nremain elusive, hampering therapeutic interventions targeting PI3K. This proposal integrates structural studies\nusing cryo-electron microscopy (cryo-EM), enzymology and native mass spectrometry to investigate how\nactivation of PI3K is orchestrated by key upstream signals: activated Ras and Receptor Tyrosine Kinases, and\nhow disease mutations interfere with these mechanisms leading to cancer."
+ },
+ {
+  "id": "f5d379c4-a4a3-4f76-a185-96202f9896b6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identification of novel osmosensing receptors in C. elegans",
+  "text": "The ability to sense osmolarity changes is vital for human health, and robust mechanisms are evolved to keep\nthe osmolarity of body fluids within a narrow range. The knowledge gap in the molecular identities of\nosmosensors has greatly hindered our understanding of osmoregulation mechanisms. The proposed work\naims to identify the first osmosensors in the animal kingdom, providing novel insights into the mechanisms of\nosmosensation, osmoregulation and related diseases."
+ },
+ {
+  "id": "f5dccc2b-ca67-4cea-86c3-bc920d81d4d6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Real time relapse risk scoring for Opioid Use Disorder (OUD) from clinical trial datasets",
+  "text": "Clinicians who treat patients with OUD collect standardized clinical data such as urine toxicology and self-\nreport of use of substances, as well as medication dosing and clinic treatment engagement. Nevertheless, it is\ncurrently not possible to predict, in real time, what the risk is for a patient to relapse in the next week or month.\nThis project aims to apply well developed contemporary statistical and machine learning methodologies to\nbuild such a relapse risk score, which would be of benefit to both clinicians and researchers."
+ },
+ {
+  "id": "f5dcf13b-3081-4e2e-a45c-f9ae2031936a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Underdiagnosis of primary immunodeficiency disorders: Recognize and Educate",
+  "text": "Knowledge generated from the proposed research will provide an evidence base for addressing disparities in the diagnosis of primary immune deficiency (PID). Because early diagnosis and treatment of PID are crucial for the prevention of permanent organ damage and death, addressing disparities in PID diagnosis will have a significant public health impact and is relevant to NIMHD’s mission to reduce health disparities."
+ },
+ {
+  "id": "f5e19a1c-46a7-4bc3-97ac-fb3f53b33a8f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "AI-assisted quantitative photon-counting-detector CT imaging for cytogenetic risk prediction and treatment response in multiple myeloma",
+  "text": "This project will develop a new low-dose CT imaging technique to quantitatively identify response to multiple\nmyeloma therapy, stratify cytogenetic risk, and provide prognostic models, which will guide treatment choices.\nIn the long-term this project will establish CT imaging as a noninvasive pathway to measures changes in the\nactivity of multiple myeloma disease after therapy and eliminate the need for routine invasive bone marrow\nbiopsies."
+ },
+ {
+  "id": "f5e632e3-38c4-4a08-9a57-6474217e1f76",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Programming multi-pronged immune response to glioblastoma with IL-13Ra2/TGF-b CAR-T cell therapy.",
+  "text": "We aim to develop effective immunotherapy for glioblastoma multiforme (GBM) by deploying IL-13Rα2/TGF-β\nbispecific chimeric antigen receptor (CAR)-T cells that can both (a) directly target GBM through IL-13Rα2\nsurface-antigen recognition and (b) modify the tumor microenvironment by converting TGF-β from an\nimmunosuppressant into a stimulant of engineered CAR-T cells. We will evaluate the ability of IL-13Rα2/TGF-β\nCAR-T cells to directly eliminate IL-13Rα2+ GBM, as well as to induce endogenous immunity against IL-13Rα2–\nGBM, in both patient-derived orthotopic xenograft models and immunocompetent mouse models. This work will\nrigorously evaluate the safety and toxicity profile of IL-13Rα2/TGF-β CAR-T cell therapy, and generate\ncomprehensive preclinical data in support of a phase-1 clinical trial for the treatment of patients with GBM."
+ },
+ {
+  "id": "f5eda34a-fea6-4a21-9266-709072d27bd1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mutations and Target Genes in Adenoid Cystic Carcinoma",
+  "text": "Adenoid Cystic Carcinoma (ACC) is a slow-growing salivary gland tumor that is treated by surgery and\nradiation, often leaving patients disfigured and with significant morbidity. Many ACC patients survive more than\n10 years after the standard therapy of surgery and radiation, but a fraction succumb much more quickly and\nothers acquire distant metastases or relapse 5 or more years after the initial treatment. This project will use\ndetailed RNA sequencing analyses to learn more about the biology of ACC tumors, to identify the patients at\nhighest risk of relapse and to translate our findings to clinical laboratories so the information can be\nsuccessfully used to help patients."
+ },
+ {
+  "id": "f5ef5bd8-8d4b-461a-b689-23a6ad20db47",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "MOSAIC: Imaging Human Tissue State Dynamics In Vivo",
+  "text": "PROJECT 2: IMAGING THE DYNAMIC TISSUE STATE IN PATIENTS IN VIVO \nMagnetic resonance imaging (MRI) measures many different physical properties of the tissue which may be \ncorrelated with the specific tumor behavior (e.g., proliferation, inflammation, angiogenesis) found in the limited \nbiopsies available per patient. This project will fuse readily available MRI to spatially localized biopsies to build \npredictive models of cellular composition across the unsampled tumor (and brain) to track and validate cell \ncomposition changes to standard and immune therapies. Connecting these imaging changes to patient survival \nwill allow identification of clinically beneficial shifts in cellular cohabitation."
+ },
+ {
+  "id": "f5efb061-4370-489c-8c00-bbf8f072ef4d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Repeat enhancers as drivers of ETV6-RUNX1+ and ETV6-RUNX1-like B-lymphoblastic leukemia",
+  "text": "The proposed research is relevant to public health because ETV6-RUNX1+ B-lymphoblastic leukemia (B-ALL)\nis one of the most common cancers of children, requiring many months to years of intensive therapy for cure,\nwith some patients relapsing and dying. Understanding the fundamental driver mechanisms that sustain\nmalignancy in this cancer and a rarer but more aggressive subtype, ETV6-RUNX1-like B-ALL, could lead to less\ntoxic therapies."
+ },
+ {
+  "id": "f5f5ae48-c24a-41d1-884e-f303a92218cd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Training Program in Big Data Systems Neuroscience",
+  "text": "Research in neuroscience is crucial for attacking the causes of neurological and mental health\ndisorders. If the field of neuroscience is to continue its rapid advance, neuroscientists must use,\nunderstand, and develop new technologies, acquire and analyze ever larger data sets, and\ngrapple more directly with the complexity of neurobiological systems. The primary goal of this\ntraining program will be to help train the next generation of systems neuroscientists with the\nexperimental and computational skills needed to make the discoveries of tomorrow."
+ },
+ {
+  "id": "f5f73b1b-ec7c-4d6c-b3e4-c5c0e522122f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanistic studies of chromatin modification in transcription regulation",
+  "text": "Many tumor types are characterized by altered patterns chemical tags found on the histone proteins that\npackage the human genome, leading to defects in gene regulation and DNA repair. Insights into the molecular\nmechanism by which cells attach and remove these tags, as well as how the tags regulate gene expression,\ncan be used to devise new treatments. This research is being used to drive efforts to develop drugs to treat\ncancers that are resistant to current therapies."
+ },
+ {
+  "id": "f5f977ab-731f-4b64-95ad-8cab8b605174",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of vascular smooth muscle cell-enriched lncRNA in atherosclerosis",
+  "text": "The project will study the function and mechanism of the long noncoding RNA PRDM16-DT, which is highly\nexpressed in vascular smooth muscle cells (VSMCs) and lies within an atherosclerosis risk locus of unknown\nfunction. Defining how PRDM16-DT regulates VSMC phenotypes and atherosclerosis development will advance\nunderstanding of vascular disease mechanisms and may guide the development of new VSMC-based gene\ntherapies for atherosclerosis."
+ },
+ {
+  "id": "f601551f-4c89-4130-b0cd-1e84cc86bdd3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Trpc5-activated neural circuits and maternal behavior",
+  "text": "We discovered that loss-of-function mutations affecting the TRPC5 gene (encoding a calcium channel) can\nimpair maternal behavior. Here we will further unravel the neurobiological mechanisms by which the Trpc5\nchannel maintains normal maternal behavior during the postpartum period, and will provide pre-clinical evidence\nto identify Trpc5 as a potential target to improve maternal behavior."
+ },
+ {
+  "id": "f6069fa7-5aa6-4b2e-b8fc-a751554b2771",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Defining the Role of Retinal Microglia and Infiltrating Monocytes on Photoreceptor Cell Death in Retinal Detachment",
+  "text": "Retinal detachment is an ocular emergency that can lead to permanent blindness due to photoreceptor cell\ndeath. Detachment of the retina can occur in all ages, from newborns to adults, and is characterized by active\ninfiltration and activation of local microglia and peripheral monocyte/macrophages. Through the successful\nexecution of this proposal, we will gain new mechanistic insights to effectively target these populations and\ndevelop novel neuroprotective strategies to prevent vision loss."
+ },
+ {
+  "id": "f60a0588-9b2b-438f-b147-428664678978",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular and Functional Evaluation of NOTCH1 Deficient iPSC Derived Cardiomyocytes in Hypoplastic Left Heart Syndrome",
+  "text": "Patients with congenital heart disease (CHD) are the fastest growing population of adults in the world. While\npatients with severe forms of CHD are surviving into adulthood, they face a disproportionate burden of\narrhythmias and heart failure that leads to their morbidity and mortality, the cause of which is unknown."
+ },
+ {
+  "id": "f611dbec-b960-4199-8f5f-648b4c4805cb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "CRISPR Screens to Reveal Key Regulators of Radiation-Induced Cardiovascular Injury",
+  "text": "Radiation therapy can save lives by treating cancer but often damages the heart, increasing the risk of heart\ndisease in cancer survivors and astronauts exposed to radiation. This research will uncover the genes and\npathways that cause radiation-related heart injury and develop new strategies to protect heart health and improve\nlong-term survival."
+ }
+]

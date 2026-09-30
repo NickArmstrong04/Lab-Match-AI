@@ -1,0 +1,142 @@
+[
+ {
+  "id": "2e333731-331f-493b-8d43-e45baa5001fe",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating the functional impact of genetic variants in the human proteome",
+  "text": "All genetic diseases and cancers ultimately begin with genetic variation or mutations, but not all genetic\nvariants are pathogenic. Understanding the effects of these genetic variants on proteins is critical for\ndetermining which variants cause disease and which are part of background variation. We are developing\nbioinformatic and analytical tools for measuring proteins with variants in disease and applying them to study\nthe health effects of carrying specific variants on protein misfolding in amyloidosis."
+ },
+ {
+  "id": "2e361b98-d052-40ab-96f5-79b0652b1dfc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Naturalistic Brain Mapping in Children with Diffuse Optical Tomography",
+  "text": "Innovative methods for early detection of the alterations in brain function underlying autism\nspectrum disorder prior to manifestation of behavioral symptoms are necessary to advance\ntreatment strategies and improve prognoses. This grant will develop a high performance\nnaturalistic optical neuroimaging device and complementary naturalistic functional imaging\nparadigms and analysis methods for mapping typical and atypical brain development."
+ },
+ {
+  "id": "2e39ebe3-4ac3-44e9-80f3-7c44fbf8d217",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting muscle stress responses to improve metabolic healthspan",
+  "text": "Skeletal muscle is critical for organismal healthspan, as it regulates whole-body metabolism, maintains\nmobility, and naturally declines with age (sarcopenia), increasing our susceptibility to chronic metabolic\ndiseases. This proposal uses systems biology and integrative physiology approaches in Drosophila to\ninvestigate how cellular stress responses impact muscle health in three contexts translatable to human health:\nnatural aging, long-term exercise training, and metabolic disorders following high calorie diets. The ultimate\ngoal is to identify targets related to stress responses to improve muscle aging and overall healthspan."
+ },
+ {
+  "id": "2e3b3d5e-cf75-44c5-947e-00066535b29f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Real-time noninvasive visualization of endotracheal tube placement and 3D lung monitoring in infants with electrical impedance tomography",
+  "text": "Intubating newborns for mechanical ventilation is challenging due to their size and\ndelicate nature. Unfortunately, nearly 40% of initial intubation attempts result in\naccidental misplacement of the endotracheal tube in the esophagus instead of the\ntrachea or incorrectly in the trachea or bronchus, and it is critical to detect such tube\nmisplacement promptly. This proposal combines deep learning Simultaneous Multi\nSource Electrical Impedance Tomography (EIT)-based confirmation of tube placement\nwith EIT images of lungs being ventilated, resulting in a real-time, closed-loop system\nfor tube placement detection and ventilation imaging."
+ },
+ {
+  "id": "2e42b618-9210-4653-b8f6-1ced94a64d13",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Instrument & Electronics Services Core",
+  "text": "ABSTRACT - INSTRUMENT AND ELECTRONICS SERVICES CORE The Instrument and Electronics Services Core (IESC) will provide support for NEI-R01 funded research at the University of Michigan through a variety of design, fabrication, and maintenance services. This Core will be staffed by a full-time electronic engineer and a full-time instrument maker. IESC will enhance the research environment by working closely with investigators from disparate scientific areas of vision research to design and construct unique, non-commercially available, electronic systems and mechanical instruments that are required to successfully complete NEI-supported research projects. In addition to supporting on-going projects, IESC’s expertise will facilitate the research programs of investigators preparing to become PIs on NEI grants. In addition to design and fabrication services, IESC will provide a critical support role related to maintenance and repair of equipment in PI labs or other Center Cores, which will minimize disruption to experiments and improve the rigor of research output. This will include maintaining software and databases as well as computers that are dedicated to running particular instrument systems but are not maintained by university information technology services. IESC will be formed from two existing Cores with a long history of contributions to NEI-supported research projects. Mechanical components will be built in the instrument shop, equipped with a Sharp CNC (computer numerical control) lathe, Bridgeport CNC milling machine, a metal vertical band saw, a Tennsmith squaring shear, a Tennsmith hand brake, and access to a Zortrax M200 3D printer. To aid in instrument design and to increase efficiency in fabrication processes, IESC will utilize the SolidWorks CAD system. In the electronics lab, IESC will have a full complement of electronic test equipment, light meters, computer hardware and software to support research, including Tektronix oscilloscopes, general purpose pulse/function generators, power supplies and breadboards, programmers for programmable memory and logic devices, multimeters and logic probes, Windows and Macintosh computers, spectrophotometer, and A/D and D/A boards for program development, measurement, and testing purposes. Programming software will include C, LabVIEW, and MATLAB. During the prior funding period, the Instrument Shop Core was extensively or moderately utilized by 10 participating investigators, while the Electronics and Computer Core was heavily or moderately utilized by 8 participating investigators. 12 participating investigators anticipate using IESC to a moderate or extensive degree in the next funding period."
+ },
+ {
+  "id": "2e460155-7394-492e-b3cd-304b59fe4179",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Scalable Non-viral Gene Delivery for Neuromuscular Diseases",
+  "text": "Gene delivery using adeno-associated viral (AAV) vectors for genetic diseases are promising, but\nfraught with high cost, toxicity, and immunogenicity. Kinea Bio and its partners propose to validate\nnon-viral gene delivery using human cell-derived nanovesicles in a myotonic dystrophy type 1\n(DM1) model."
+ },
+ {
+  "id": "2e54d173-1603-439c-bee0-0251161da573",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Precision IBD via genetics and genomics: integrating International and multi-omic datasets, expanding studies in diverse populations, and defining mechanisms of unmet clinical needs in IBD",
+  "text": "IBD is a model, complex trait for which genetic factors play a substantial role. Major effect loci show major\ndifferences in allele frequencies and effect sizes across populations, for which expanding case-control genetic\ndata will provide substantial mechanistic insight. Treatments for Crohn’s disease and ulcerative colitis are\nincreasingly diverging, and multi-omic data integration, with serial tissue and blood-based biosampling in clinical\nscenarios of unmet clinical needs, will broadly advance Precision IBD."
+ },
+ {
+  "id": "2e554c47-d1c2-4003-ac7b-203e30d38054",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "9/11 Neuroimmunophysiology of excessive alcohol intake",
+  "text": "Excessive alcohol consumption is a major public health hazard. This component of the Integrative Neuroscience\nInitiative on Alcoholism-Neuroimmune consortium is a research project that will examine neuroimmune activity\nin the nucleus accumbens, a brain region that mediates the reinforcing effects of alcohol. The results of this\nproject will shed new light on how interactions between neurons and non-neuronal brain cells promote excessive\nalcohol consumption."
+ },
+ {
+  "id": "2e58872d-449e-4264-92ba-a07b81da86bb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Novel mechanisms of metabolic reprogramming of reactive astrocytes and brain repair after focal cerebral ischemia",
+  "text": "Focal cerebral ischemia (FCI) or stroke is a leading cause of human disability and death with limited therapeutic\noptions. The current project will investigate the metabolic adaptation of reactive astrocytes (ReAs) and its effect\non brain repair after FCI using cell and mouse models. Our study will elucidate novel mechanisms of metabolic\nreprogramming of ReAs and brain repair and provide potential therapeutic insights for FCI."
+ },
+ {
+  "id": "2e5a986d-e8e5-4bb6-b2c5-6b598d55095b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Ecological mHealth Cannabis Prevention for Youth Involved in the Juvenile Legal System",
+  "text": "Youth involved in the legal system report elevate rates of cannabis use and are much more likely to develop\ncannabis use disorder than non-involved peers. The proposed K23 project aims to use Ecological Momentary\nAssessment to study cannabis use and Ecological Momentary Intervention to prevent cannabis use disorder\nfor youth involved in the legal system. The proposed research will expand the investigator’s capacities as an\nindependent health services researcher with expertise in: 1) cannabis use for youth involved in the legal\nsystem, 2) secondary prevention of cannabis use disorder, 3) Ecological Momentary Assessment and\nIntervention, 4) Personalized Feedback interventions, and 4) mobile health technology."
+ },
+ {
+  "id": "2e6abc3f-8784-4d70-a602-e3d55282636d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "National Resource for Advanced NMR Technology",
+  "text": "NMR spectroscopy is a primary tool for metabolomics and the structural biology of proteins, membrane proteins\nand complexes they form, providing powerful means for understanding how structure, dynamics, and chemistry\ndrive functional mechanisms. Here, we advance the sensitivity and spectral resolution of NMR technology in\nmultiple ways that will lead to new tools for biomedical science that provide novel insights into metabolic flux,\nenzyme mechanisms, structure-function relationships for many drug targets, mechanisms of intrinsically\ndisordered proteins, and cell wall structure. We interface to NIH-funded programs aimed at addressing\nnonalcoholic fatty liver disease, gene regulation, amino acid synthesis, bacterial biofilms, fungal infections,\nbacterial drug resistance, and drug development."
+ },
+ {
+  "id": "2e71c6ab-b0cc-42b5-be1c-4a6704f889ad",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Training Grant in Cancer Biology",
+  "text": "A fuller mechanistic understanding of cancer biology will lead to progressively more effective cancer\ndiagnosis, therapy, and prevention. This application continues support for the Training Program in Cancer\nBiology launched in 2011 in order to train the next generation of basic, translational and clinical researchers at\nthe University of Maryland Baltimore’s Marlene and Stewart Greenebaum Comprehensive Cancer Center. A\nstrength of this program is the training of exceptionally talented physician-scientists and PhD scientists to\ntranslate between the laboratory bench and the bedsides of patients with cancer."
+ },
+ {
+  "id": "2e730976-4f14-49c8-8532-26f969f205c1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Rapid Point-of-Care Molecular Imaging of Immune Activation in ACS and Acute Myocarditis",
+  "text": "Diagnostic molecular imaging with novel site-directed targeted contrast agents has the potential\nto improve diagnostic performance of conventional non-invasive cardiac imaging by directly\nexamining abnormal cellular or molecular processes. This proposal describes the use of rapid\nbedside cardiac ultrasound molecular imaging of inflammation to detect either acute coronary\nsyndromes (unstable angina and heart attach) or acute drug-induced myocarditis that occurs in\npatients receiving chemotherapy."
+ },
+ {
+  "id": "2e750230-c37d-41b1-95ce-db1160a59f0e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Integrated therapies for alcohol use and ALD (ITAALD) Network - IU Clinical Center",
+  "text": ":\nAlcohol-associated liver disease (ALD) is a leading cause of mortality/morbidity, and there is no FDA-approved therapy for any stage of ALD. Unfortunately, patients with ALD rarely have their underlying alcohol use disorder (AUD) concomitantly addressed. This consortium links health providers with expertise in AUD and ALD in a unified treatment strategy to evaluate novel combined treatments for AUD/ALD in patients with advanced ALD. The exiting resources of the NIAAA-funded consortium are used for patient studies, biospecimen collection and site-specific translational studies."
+ },
+ {
+  "id": "2e7682f7-0d48-41b0-b4ea-90a59d35d67b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular and neuronal basis for sexual dimorphism in a vocal-motor control circuitry",
+  "text": "With mounting evidence of sex differences in brain function and behavior and incidence of neurological and\npsychiatric disorders, as well as growing prevalence of hormone therapies for sex developmental disorders\nand gender-affirming hormone therapy, there is pressing need for mechanistic studies of sexually dimorphic\ncircuits of relevance to human brain function. The Mello and von Gersdorff labs will use their expertise in\nmolecular, anatomical, electrophysiological and behavioral approaches to investigate the hormonal, genetic\nand neuronal basis of the marked sexual dimorphism of a vocal-motor nucleus of zebra finches, a key model\norganism for human vocal learning and related cortical functions and disorders. This effort will lead to in-depth\nunderstanding of how hormonal vs. sex-linked genetic mechanisms contribute to sex differences in brain and\nbehavior, and provide a solid basis for the design of effective hormone and genetic therapies for human sex\ndevelopment disorders and conditions."
+ },
+ {
+  "id": "2e7a151c-2468-4ee2-8fa2-69927f078ff7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of the histone modifier MLL3 mutation in breast cancer cell plasticity",
+  "text": "This project seeks to understand how mutations of MLL3, a key cancer driver gene, drive tumor\nformation and growth and lead to metastasis in breast cancer. These insights will help developing\ntherapeutic strategies to target highly aggressive MLL3-mutant breast cancer cells. Importantly,\nMLL3 mutations frequently occur in other major cancer types as well. Therefore, our findings will\nhave broad implications in developing new cancer therapeutic strategies."
+ },
+ {
+  "id": "2e7ca2f7-5aca-4778-a234-79fefabb14f1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Inflammation and Hepatocellular Carcinoma: A Multiomics Approach to Improve Early Detection, Causal Inference, and Lifestyle Based Prevention",
+  "text": "To address the current challenges for hepatocellular carcinoma (HCC), a cancer with rising incidence and high\nmortality rate associated with diagnosis commonly at a late stage, Dr. Xinyuan (Cindy) Zhang proposes to\nintegrate proteomics and genomics data from multiple cohorts and patient registries to identify novel\nbiomarkers that can be used to identify HCC in its early stage and also can refine our understanding of\nbiological pathways linking chronic inflammation to HCC. Further, she proposes to integrate these biomarkers\nwith epidemiological data to develop an anti-inflammatory lifestyle associated with subsequently lower HCC\nrisk. This innovative project will form the basis for HCC early detection, mechanism inference, and lifestyle-\nbased prevention strategies, and will extend Dr. Zhang in an interdisciplinary direction with new skills and data\nto launch her independent career."
+ },
+ {
+  "id": "2e863c7e-8f57-4e2e-850c-19b2a4f26147",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Small Scale Robotics for Automated Dental Biofilm Theranostics",
+  "text": "We have designed small-scale robots using catalytic nanoparticles as building blocks that display automated\nand tether-free controlled motion with multifunctionality. These robots can locally kill, degrade and retrieve\nbiofilms with high precision and efficacy. This pioneering approach combining nanotechnology and robotics\nprinciples will afford an unprecedented level of endodontic biofilm detection and treatment, and will generate\nthe first instance of robotics devices for automated clinical application in the dental field."
+ },
+ {
+  "id": "2e869cde-9679-4ca0-8c8e-16cd2fc53d23",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Regulation of sex-specific development by transcription factors",
+  "text": "Differences/Disorders of Sexual Development (DSDs) occur when proper sex-specific development of the\ngonads or other organs does not occur correctly. DSDs represent a significant human health concern since\nthey result in infertility and other health problems. In this proposal we study the founding member of the\nDoublesex, MAB-3 Related Transcription Factor (DMRT) family, which control sex-specific development of the\ngonads across the animal kingdom and are mutated in human DSDs."
+ },
+ {
+  "id": "2e87b929-901c-4fe3-894f-dc6ccd0bdb71",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Innate and Adaptive Immunity in the Pathogenesis of Glaucoma",
+  "text": "The World Health Organization has identified glaucoma as the leading cause of irreversible blindness, affecting\n4.22 million people in the US with a direct economic burden of $3 billion. Advancing our understanding of\nmicroglial regulation and the interaction between microglia and T cells in the initiation and perpetuation of\nneuroinflammation and how their dysregulation contributes to neurodegeneration and vision loss may reveal a\nnovel immunomodulatory axis. Such insight could inform the development of new therapeutic strategies to\nprevent or slow the progression of glaucoma, thereby reducing visual disability and saving billions in healthcare\ncosts."
+ }
+]

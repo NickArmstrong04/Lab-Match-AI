@@ -1,0 +1,142 @@
+[
+ {
+  "id": "3cd9e621-d471-43f8-8f64-da37da50f418",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Elucidating the role of type 2 conventional dendritic cells in shaping anti-tumor immunity",
+  "text": "Cancer affects millions of people worldwide and treatment options that leverage the immune system have only\nbeen effective in a subset of patients. Conventional dendritic cells (cDCs) are innate immune cells that play an\nessential role in regulating cytotoxic CD8 T cell responses. The goal of this project is to define the mechanisms\nby which cDC subsets regulate CD8 T cell responses within the tumor microenvironment that can be applied to\ndevelop novel treatment strategies to boost the anti-tumor immune response."
+ },
+ {
+  "id": "3cdfd3d9-6ec2-4543-aaa9-09ce242d4fcc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of Enteric Neuron Diversification",
+  "text": "The Enteric Nervous System (ENS) is necessary for normal intestinal motility, nutrient\nabsorption and elimination of waste. The work in this proposal uses mouse disease\nmodels to determine how nerve cells in the intestinal wall form and segregate into\ndistinct neuron types. Results are needed to aid in directed differentiation of progenitor\ncells that form mature enteric neuron types for treatment of intestinal motility disorders\nwhich result from ENS deficiences."
+ },
+ {
+  "id": "3ce83a6a-394d-46fc-987e-bd9afc39a4ed",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Define the role of chromosome 17q gain in neuroblastoma malignancy",
+  "text": "Neuroblastoma has few recurrent mutations but frequently has chromosome copy number changes. Gain of\nchromosome 17q is the most frequent chromosome copy number change and my proposal seeks to\ninvestigate the role of chromosome 17q gain in neuroblastoma tumorigenesis and malignancy."
+ },
+ {
+  "id": "3cf7e68e-72b3-40bc-95d7-348f0ccd2171",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Engineering novel CAR-T cell therapy to overcome the cancer cell glycocalyx",
+  "text": "Cancer cells encase themselves in a soft material coating, termed the cellular glycocalyx, with specific properties\nthat protect them from recognition and destruction by the immune system, including engineered CAR-T cell\ntherapy. This research project aims to develop new strategies to equip CAR-T cells to effectively bind to or\npenetrate the cancer-associated glycocalyx barrier in solid tumors. These strategies are expected to advance\nCAR-T therapy for solid tumors by addressing a key mechanism of immune evasion."
+ },
+ {
+  "id": "3cfa421b-6cc8-4148-a995-70c8b2f0c1d1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identifying metabolic regulation of T cells during early childhood development",
+  "text": "Children remain a vulnerable group against many illnesses and in particular disease processes that require\ntherapeutic administration of immune modulating agents, (e.g. cancer treatment) have not been studied in the\ncontext of the immature immune system. The proposed studies from this application will directly investigate this\nfundamental gap in knowledge using cellular metabolism to identify mechanisms regulating immune cell\ndevelopment and response to the childhood cancer neuroblastoma. The long-term goal of these studies is to\nidentify metabolic vulnerabilities unique to interactions between the pediatric immune system and childhood\ncancers to enhance immunotherapy, increase survival, and decrease treatment related toxicity in children with\ncancer."
+ },
+ {
+  "id": "3d055408-4743-4a6f-8b72-ea092afa42e5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Genetic Modifiers of AKI in SCA",
+  "text": "Individuals with sickle cell disease (SCD) have an increased risk of developing acute kidney injury (AKI) during\nacute SCD related events. Several candidate gene variants implicated in kidney health have been associated\nwith chronic kidney disease progression in individuals with SCD, of which apolipoprotein L1 gene (APOL1) has\na strong association. The proposed research includes the following aims: 1) clarify the association between\nAPOL1, as well as other selected gene variants in the development of AKI in individuals with SCD; and 2)\ndevelop a machine learning algorithm that integrates clinical and genetic data to predict AKI which will set the\nstage for future integration into the electronic medical records to implement protective measures and evaluate\ntreatment strategies for preventing AKI."
+ },
+ {
+  "id": "3d0851c7-a403-4373-9d41-b0c05c387cac",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Early Onset Parkinson’s disease subtypes and pathogenic mechanisms",
+  "text": "Early Onset Parkinson’s disease refers to a sub-group of patients where the disease starts early in life (before\nthe age of 50 years) and has a profound impact on most of patient’s life and on important productive years. A\nclear understanding of the pathogenic mechanisms of EOPD is lacking, although this is crucial for the successful\ndesign of therapeutic strategies and stratifying patients for clinical trials. The proposed research is relevant to\npublic health because it aims to clarify the contribution of recognized important pathogenic mechanisms of\nParkinson’s disease (genetics, inflammation, and alpha-synuclein accumulation) in patient with Early Onset\nParkinson’s disease to help patients stratification for clinical counseling and clinical trials."
+ },
+ {
+  "id": "3d12ee35-2f35-40af-9a34-fe7c3af6f54c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Eicosanoids, Chronic Kidney Disease Progression, and Associated Cardiovascular Risk",
+  "text": "For persons living with chronic kidney disease, the leading causes of morbidity and mortality are cardiovascular.\nWe propose to use comprehensive molecular profiling methods to interrogate upstream inflammatory mediators\nof cardiorenal risk with the overarching goal of identifying potential targets for prevention and intervention."
+ },
+ {
+  "id": "3d1755b5-5056-4a1c-a9d2-10be271d3144",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Age-based genomic screening in newborns, infants, and children: a novel paradigm in public health genomics",
+  "text": "Genomic medicine seeks to improve clinical outcomes and public health, and identification of clinically\nactionable inherited genetic conditions before symptoms manifest can enable physicians to intervene earlier\nand achieve these goals. The newborn screening program exemplifies this paradigm but is limited to a narrow\nsubset of conditions relevant at birth, thereby missing the opportunity to identify many other similarly actionable\nconditions. Given the many challenges associated with clinical whole genome sequencing in the newborn\nperiod, we propose to expand the scope of genomic screening by offering parents targeted sequencing of their\nchildren at distinct time-points during development, to discover actionable genetic conditions when that\ninformation would have the greatest relevance."
+ },
+ {
+  "id": "3d1cd53c-3749-49f6-b114-fe2b8ffcebd5",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Evaluation of iDMV-1.0: A Single Dose Self-Amplifying Vaccine for SARS-CoV-2",
+  "text": "PROJECT SUMMARY: Devdoot Majumdar, PhD, Research Project Leader (RPL) Lipid nanoparticles (LNPs) are critical delivery vehicles for a range of therapeutic modalities, including vaccines and gene therapies; however, the precise mechanisms by which their physicochemical characteristics dictate the nature and magnitude of ensuing immune responses remain incompletely understood. This project will investigate the complex interplay between LNP properties and the immune system, with a focus on two key areas: (1) identifying the molecular pathways that LNPs encode a differential immune response by disrupting endosomes and (2) identifying which stromal cells are responsible for sensing and transducing that immune response. Differential responses by LNPs are imperative to understand, as precise tuning of the LNP response translates directly into the strength of adjuvancy. The research design utilizes CRISPR-Cas9 screens in relevant immune cell types to systematically uncover novel molecular regulators of LNP-induced immunogenicity. By dissecting these fundamental interactions, this research will identify key cellular and molecular determinants that govern LNP-immune system engagement. The anticipated outcomes of this work will provide crucial insights into LNP immunobiology, thereby facilitating the rational design of next-generation LNPs with precisely tailored immunological profiles. This knowledge is expected to significantly advance the development of safer and more effective LNP-based vaccines and therapeutics, ultimately benefiting public health by improving strategies for disease prevention and treatment."
+ },
+ {
+  "id": "3d2b1418-2c21-4b63-8b88-8a120dbc7582",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dual-pronged nano-drug delivery using plant virus-like particles",
+  "text": "This proposal builds on a strong portfolio of data demonstrating potent efficacy of a plant virus nanoparticle\nimmunotherapy to launch adaptive, systemic, and durable antitumor immunity. In this continued research, we\npropose to develop immuno-combination and targeted therapies for treatment of triple negative breast cancer,\nwhich is an aggressive life-threatening disease with poor prognosis. Efficacy and mechanism of action will be\nstudied in mouse models and canine patients with breast cancer."
+ },
+ {
+  "id": "3d2b862b-0037-4693-9379-3182fd813ced",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Distinct and Overlapping Pathways of Fibrosis and Emphysema in Cigarette Smokers",
+  "text": "The pathogenesis of COPD and IPF is poorly understood. In this program project we have integrated the\nexpertise of investigators from COPD and IPF communities, both basic and translational/clinical researchers,\nto come together to better understand the pathogenesis of these chronic lung diseases, and hopefully identify\nnew molecular targets in the treatment of these dreadful diseases in the future."
+ },
+ {
+  "id": "3d2bb09a-e4dc-4219-8b42-95f2ff9b3353",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "PHORA-Pulmonary Hypertension Outcome Risk Assessment",
+  "text": "Pulmonary arterial hypertension (PAH) is a rapidly progressive fatal disease for which there are few\ntherapeutic options. Understanding how to predict clinical responses to available therapeutics would be a\nsignificant clinical advance in treating this disease by permitting tailored, targeted and effective first line\ntherapies. Our continued studies seek to develop and validate a decision support tool for predicting survival in\nAdult and Pediatric PAH, which will allow the scientific community and patients a means to choose appropriate\nspecific therapies based on individual risks and patient choices in order to improve survival and quality of life\nfor our patients."
+ },
+ {
+  "id": "3d2c5a72-0fe7-4124-996d-be1ee75f4a4d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Immune mechanisms hindering plaque regression in type 2 diabetes",
+  "text": "These studies are relevant to public health for two reasons. First, they will identify the effect of γδ T cells on\nplaque inflammation and atherosclerosis progression in type 2 diabetes (T2D), which will affect >600 million\npeople in the next two decades. Secondly, they will uncover how γδ T cells contribute the resistance to\natherosclerosis regression in individuals with well-managed T2D, and whether these factors play a role in the\nheightened cardiovascular risk observed in T2D patients."
+ },
+ {
+  "id": "3d2cd098-d8fd-4e0f-8477-347acc7d3404",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Machine Learning Models of Appropriate Medevac Utilization in Rural Alaska",
+  "text": "Alaska Native people predominate in rural Alaska where the lack of roads creates a dependency on air medical\nevacuation (medevacs) for access to emergency care which in turn creates the highest medevac rate, the\nhighest airplane crash rate, and the poorest access to emergency care of any region in the US. Work proposed\nin this grant aims to generate a novel medevac outcomes database from existing electronic health records,\ncombine those data with community-engaged qualitative methodology to ultimately create context-specific\nmachine learning models able to classify the appropriateness of medevac utilization. This continuum of\nresearch has the potential to directly address the disparities in access to and outcomes of emergency care\nexperienced by both Alaska Native people in rural Alaska and by rural Americans more generally, by improving\nthe safety, timeliness and appropriateness of medevacs."
+ },
+ {
+  "id": "3d324ddf-dadb-403a-a21e-6cffbf5d1515",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cancer Cell & Gene Therapy Program",
+  "text": "CANCER CELL AND GENE THERAPY PROGRAM PROJECT SUMMARY/ABSTRACT The goals of the Cancer Cell and Gene Therapy (CCGT) Program are to incorporate advances in cellular and gene therapy into the treatment of cancer. The CCGT Program is a sub-component of the Center for Cell and Gene Therapy and has 26 Research Members and 13 Clinical Members from multiple academic departments at Baylor College of Medicine, including Medicine, Pediatrics, Surgery, Pathology and Immunology, Molecular and Cell Biology, Neurosurgery, and Molecular and Human Genetics. The Program received a total of $5.1 million in direct support from the NCI last year and overall received $14.9 million in direct peer-reviewed funding and $19.1 million in total direct funding. In the last 5 years, Program investigators published 340 cancer-related manuscripts in peer-reviewed journals, of which 38% represented intra- and 39% inter-programmatic collaborations each, while 50% were published in journals with an impact factor >10 and 26% with an impact factor >20. Our research focuses on three themes: normal and malignant stem cells, adoptive immunotherapy of cancer, and outcomes of stem cell transplantation on cancer and has basic, translational, and clinical research components. Our basic research investigators work to understand the mechanisms by which normal and malignant stem cell growth is controlled and the molecular and cellular interactions involved in tumor vasculature and stroma development. These researchers are also identifying new targets for immunotherapy and optimizing the presentation of weak tumor antigens to the immune system. Our translational investigators are moving cell- and gene-based therapies from bench to bedside in a series of small-scale, iterative laboratory-clinical laboratory protocols and developing pivotal trials. We have a long history of successful and timely implementation of clinical translational projects in gene and cellular therapy, and we have the resources to supply and test all clinical reagents required through the DLDCCC clinical research infrastructure and the Cell Processing and Vector Production Shared Resource. Major accomplishments in the last 5 years include first-in-man trials of 15 new cell types/constructs and the commercial transfer of several strategies for late-phase testing. We have shown activity of CD5.CAR T cells against T cell malignancies (resulting in licensure of the approach for late-phase trials), and ongoing studies are showing anti-tumor activity of genetically modified T cells in subjects with Hodgkin and non- Hodgkin lymphoma, neuroblastoma, brain cancer, and liver cancer. Our clinical researchers oversee the adult and (in collaboration with the Pediatric Cancer Program) pediatric hematopoietic stem cell transplant programs. They are also expanding the applicability of transplantation for malignancy using pre-transplant immunotherapy to enable transplant and post-transplant immunotherapy to augment graft-versus-tumor activity and reconstitute anti-viral immunity, as well as exploring strategies to reduce the risk of graft-versus-host disease. In response to community input, CCGT investigators are also focusing on making cell therapies more broadly accessible."
+ },
+ {
+  "id": "3d32c2b7-af3a-4991-9f37-96543d35bc48",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Probing the mechanisms of dependency underlying skeletal genetic pathways of p53 and Notch in the pathogenesis of osteosarcoma",
+  "text": "Understanding the operation of cancer drivers in tumorigenesis has significant implications for enhancing\nhuman health and disease treatment. Specifically, acquiring fresh understanding and perspectives on the\ninvolvement of cancer dependency genes and pathways in osteosarcoma growth and spread will be essential.\nThe project seeks to apply these discoveries to support the creation of precise targeted treatments for\nchildhood cancer."
+ },
+ {
+  "id": "3d32c89e-b6a5-47e8-8310-cbf79ea3126e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Developmental immunotoxicity of PFAS",
+  "text": "This project uses cutting-edge approaches to establish how developmental exposure to a PFAS mixture affects\nthe immune system. In the context of fighting human respiratory virus infection, we will define how PFAS\ninfluence immune function at cellular levels, parse sex differences, and establish dose-response relationships."
+ },
+ {
+  "id": "3d353baa-28f0-4a03-af1a-ef3b1dd14067",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Precision Gene Editing on Osteogenesis Imperfecta",
+  "text": "Osteogenesis imperfecta (OI) is the most common skeletal rare disease accompanied by bone fragility\ndisease, with an incidence of approximately 1 in 15,000 worldwide and 25,000–50,000 in the US. This proposal\nwill develop and test precision gene editing strategies to repair OI mutations including type I collagen gene\nmutations, using bone-targeting recombinant adeno-associated virus (rAAV)."
+ },
+ {
+  "id": "3d373076-055e-4701-8bc3-89b77854172a",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "UNC Immunotherapy Training Grant (IM-TAG)",
+  "text": "This is a training program from investigators at the University of North Carolina Chapel Hill focused on training\nthe next generation of scientific leaders working in tumor immunology, tumor immunotherapy, and stem cell\ntransplant immunology."
+ }
+]

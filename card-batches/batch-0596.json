@@ -1,0 +1,142 @@
+[
+ {
+  "id": "4815a916-e2d4-4fef-80aa-f9fe98174fb0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cell Models Core",
+  "text": "Cell Models Core – Abstract The DDRCC Cell Models Core proposes to provide DDRCC members with access to state-of-the-art tissue culture models of digestive and liver disease. We will use genome engineering technologies including CRIPSR- Cas9 to introduce genetic alterations into established cell lines and into induced pluripotent stem cells (iPSCs). The iPSCs will be differentiated to form cells of the gastrointestinal tract and liver that will be used for study by DDRCC members. The Core will also provide members with primary parenchymal and non-parenchymal livers cells from both human and rodent livers as well as critical tools for the analyses of cells. In addition to providing DDRCC members with cell lines that can be used for direct analyses, the Core will also provide members with training and critical reagents that will allow them to establish many of the procedures in their own laboratories. The Core will adopt a program of rigorous evaluation that will ensure that it performs optimally and continues to provide DDRCC members access to new technologies as they are developed. Dr. Duncan, who will lead the core, is an expert in stem cell biology and cell differentiation, and he has used genome engineering extensively to generate cells to model liver disease. He will be supported by Dr. Don Rockey who has extensive experience in the isolation of cells from both human and rodent livers."
+ },
+ {
+  "id": "4816c616-93de-47e7-ad30-bed59dfab33b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Roles for Nox4 in Macrophage (Dys)function and Atherogenesis",
+  "text": "Macrophages play a critical role in host defense and tissue homeostasis, but their dysregulation leads\nto chronic inflammatory diseases associated with metabolic disorders, including atherosclerosis. Our\ndata implicate the H2O2-generating enzyme NADPH oxidase 4 in the dysregulation of macrophages by\nmetabolic disorders and the subsequent reprogramming of the macrophage proteome as an early\nprimary contributor to diet-induced atherogenesis. The studies I propose here aim to test this novel\nhypothesis and to elucidate the underlying molecular mechanisms."
+ },
+ {
+  "id": "4820baf9-bf16-4036-b0ca-97af63a9c8eb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Injectable cell-free piezoelectric scaffold to treat osteoarthritis in large animal models",
+  "text": "Millions of American suffer from osteoarthritis, a painful joint disease caused by damages of cartilage tissues\nwhich cushion bone impacts during the joint movement. The current treatment methods including the use of\nanalgesics or anti-inflammation drugs only alleviate the symptoms but do not cure the disease while surgical\napproaches are invasive. Here, we propose a novel piezoelectric nanocomposite hydrogel scaffold which can\nbe injected into cartilage defects via a minimally invasive manner and receive ultrasound activation to\neffectively promote cartilage healing for the treatment of osteoarthritis."
+ },
+ {
+  "id": "4823cad3-67f0-4219-8702-1d05d7f08a53",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting RNA Splicing in Glioma",
+  "text": "Targeting RNA Splicing in Glioma\n RNA alternative splicing (AS) is an evolutionally conserved co-transcriptional process. AS regulates\nlandscapes of transcriptomes and proteomes in development and diseases such as cancer. This application\nwill investigate the relationship between glioma driver mutations and tumor-associated AS programs that\naffect glioma malignancy, and test whether targeting RNA splicing constitutes a therapeutic vulnerability to\ntreat gliomas."
+ },
+ {
+  "id": "48321692-44e5-408d-945b-3962084778f8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Transfer learning leveraging large-scale transcriptomics to map disrupted gene networks in cardiovascular disease",
+  "text": "Mapping the network of genes disrupted in human disease allows us to design treatments that correct the\nnetwork back to the normal state to treat the core disease process rather than only managing symptoms.\nHowever, mapping the network requires large amounts of data to learn the connections between genes, and in\nmany human diseases we do not have enough data to confidently map the network, especially in rare diseases\nand diseases that affect tissues in the body that are difficult to reach to obtain samples to study, like the heart.\nIn this research, we develop a new method for computers to learn connections between genes from tissues\nwhere we do have a large amount of data, serving as a knowledge base so that the machine can then\nconfidently map the networks disrupted even in diseases where we have only a small amount of data, enabling\nus to design network-correcting treatments for those diseases."
+ },
+ {
+  "id": "4836d7ed-087f-40dd-b58c-6d94e7da7339",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The role of phosphorylation in the cellular organization of the proteome",
+  "text": "This research will provide spatial and temporal knowledge on how phosphorylation regulates the function and\norganization of proteins in the cell, which will allow devising approaches to control cellular functions and\nphenotypes. This research will also provide mechanistic insight on deleterious protein variants. Collectively,\nthis research will be relevant in combating genetic diseases and diseases where signaling malfunctions,\nincluding cancer, metabolic, neurological and infectious diseases."
+ },
+ {
+  "id": "48375a75-c153-4cfe-8ae4-2d2f85f8b5a6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Sex differences in operant cocaine memories",
+  "text": "Individuals suffering from substance use disorders are susceptible to relapse when presented with \ncontextual cues, suggesting that contextual memories associated with drugs of abuse impede abstinence \nsuccess. Developing effective treatments to assist with maintaining abstinence is a significant challenge, \ncomplicated by unique, sex-dependent responses to drugs of abuse in women compared to men. Thus, \nunderstanding sex differences in neural circuitry driving contextual drug memories is critical to the"
+ },
+ {
+  "id": "483cdd23-f605-45dc-bebd-c240fc96736c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Unravel Tumor-Intrinsic and Age-Associated Mechanisms of Immune Evasion",
+  "text": "While immunotherapy has significantly improved cancer survival, some patients still exhibit limited benefits. In this proposal, we will apply Perturb-map spatial functional genomics to investigate the mechanisms by which tumor-intrinsic genetic alterations and age-associated changes in the tumor microenvironment modulate the response to therapy. Ultimately, the goal of this research is to inform precision immunotherapy strategies tailored to patients based on specific mutations and age groups, with the aim of improving survival outcomes."
+ },
+ {
+  "id": "483fc948-2863-40ca-b93f-c4a1467571bf",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Traits on trees: Population genomics for understanding complex phenotypes",
+  "text": "There are now hundreds of thousands of people enrolled in biobank studies, presenting\nunprecedented opportunities for understanding the genetic basis of complex traits,\nincluding vulnerability to disease. Novel computational methods from population\ngenetics allow these vast genetic datasets to be expressed in terms of genealogical\nrelationships among segments of DNA scattered across people, which naturally\nencodes all historical information available in a set of contemporary genomes, as well\nas all correlations among genetic variants. We will use these new resources to\nunderstand the evolution of complex biomedical traits and better identify genetic\nvariants associated with disease."
+ },
+ {
+  "id": "4841a448-aa9d-4945-8b0c-54416d294556",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Revealing the neural mechanisms of amygdala-striatal control of stress-induced habits",
+  "text": "Overreliance on habit strategies can be driven by environmental factors, like stress exposure, or genetic\ndisruptions, and contributes to a range of psychiatric conditions, including autism. However, the mechanisms by\nwhich stress promotes habit is unknown. This project will identify the cell-type- and subregion-specific effects\nand interactions of stress and autism-associated genetic alteration on the striatal circuitry that controls habits."
+ },
+ {
+  "id": "4844e75c-aa75-4d87-aa36-c1334972b56f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Interrogating the relationship between translational dynamics and non-canonical antigen presentation in lung cancer",
+  "text": "Antigen presentation is a critical component of anti-tumor immunity. While numerous classes of tumor\nspecific antigens have been described, a deep understanding of the most clinically valuable immune targets and\nthe mechanisms by which they are presented remains limited. In this proposal, we will utilize a multidisciplinary\napproach to understand non-canonical antigens in lung cancer that will pave the way forward to broaden the\nantigen repertoire that can be targeted for next-generation precision immunotherapies."
+ },
+ {
+  "id": "484c04be-c7bf-46f1-b226-eaf19c20ccbb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Functional and population genetic architectures of complex disease",
+  "text": "Recent progress in the genetics of complex diseases, including neuropsychiatric diseases, has revealed that\nthe bulk of disease heritability is explained by the action of many common non-coding variants. We propose to\ndevelop new statistical and computational methods to infer biological function of these variants at different\nlevels of organization. We will apply these methods to genome-scale genotype-phenotype and functional\ngenomics datasets."
+ },
+ {
+  "id": "4857fcc9-75ba-4f72-b4cf-8f1cabd228fc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Defining the remote effects of cortical spreading depolarizations on hippocampus after traumatic brain injury",
+  "text": "Cortical spreading depolarizations (CSDs), or “brain tsunamis” are waves of electrical activity that occur in 60%\nof patients with traumatic brain injury (TBI) and are associated with poor outcomes. In this proposal we test the\nhypothesis that CSDs have remote effects on hippocampus after TBI. Successful completion of this project will\nhelp determine how CSDs cause poor outcomes, and hence can identify treatment targets."
+ },
+ {
+  "id": "485bef30-cf54-41df-91d2-b1a32cd3fa01",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms and consequences of antigen-dependent T cell homing for adoptive immunotherapies",
+  "text": "A major advance in using immunology to treat disease has been giving patients T cells that have been\nexpanded in the laboratory and are specific for an antigen associated with the patient's medical condition,\nusing either naturally antigen-specific T cells or using gene transfer to make the T cells specific for a particular\nantigen. Not all patients benefit from these therapies partly because the administered T cells must also have\nthe right machinery to go to the site where they are needed. Antigen displayed on the lining of the local blood\nvessels normally can direct T cell homing to the right sites and, in this application, we will determine if the\nsame process can also direct homing of expanded T cells, and if so, how to make it more efficient."
+ },
+ {
+  "id": "4865b5d3-0b96-4e99-ae88-6d8a8e647700",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanism and function of transplacental IgD",
+  "text": "Allergies are major causes of pregnancy complications and neonatal morbidity. This project explores the\nfunction of maternal IgD transferred to the fetus during pregnancy in the protection from neonatal allergy. The\nnovel scientific concept and clinical implications of this project fit well both the scientific and public health goals\nof NIH, and will have a significantly positive impact on how to innovatively and more efficiently tackle early\ninfant morbidity due to increasing incidences of allergies."
+ },
+ {
+  "id": "486b4ee9-e301-4bdd-bc98-35d54d02a927",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Adminstrative Core",
+  "text": "ADMINISTRATIVE CORE The overall goal of the Administrative Core of this Program Project Grant (PPG) is to facilitate, coordinate, and support the 4 PPG Projects, their collaborators, and the iPSC Gene Editing Core (iGEC) in their mission of advancing our understanding and treatment of lung diseases using pluripotent stem cell-based approaches. Many daily interactions, monthly group meetings, regular advisory board meetings, and contractual agreements are required to integrate and synergize the many components of this proposed Program Project Grant (PPG). In addition, shared research aims are commonly pursued between multiple projects and their subcontracts, and a broad variety of gene-edited stem cell lines, protocols, vectors, therapeutic approaches, and datasets are anticipated to be produced, curated, and archived for public sharing. Ensuring cohesion, transparency, synergy, cost-efficiency, and smooth communications, here we propose an Administrative Core with a defined organizational and management structure. We define the chain of responsibility for management of the PPG, outline effective use of the shared Scientific Core (iGEC), explain our plans for internal quality controls of on-going research, and detail methods for management of day-to-day activities, contractual agreements, allocation of funds, and resolution of disputes. The Administrative Core will be led by the PPG Program Director and corresponding Principal Investigator, Dr. Darrell Kotton. Dr. Kotton will supervise a PPG Program Manager and Administrative Assistant to lead this PPG, which is supported by a variety of Boston University administrative offices, Institutes, Departments, and Centers, including a state-of-the-art physically contiguous Center for Regenerative Medicine (CReM), which serves as the physical home of the offices and laboratories of all 4 Project Leaders and the proposed iGEC. An Internal Advisory Board and External Advisory Board, together comprising an Executive Oversight Committee, will provide essential oversight, monitoring, and guidance, maximizing the success and productivity of the entire PPG team as the group works together to understand mechanisms driving genetic lung diseases and to advance next generation therapeutic approaches designed to ameliorate dysfunctional lung airway and alveolar cells."
+ },
+ {
+  "id": "486cd231-3b44-49cf-80b6-c46815105d76",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanistic and Transcriptomic Modeling of Aztreonam/Avibactam vs. Aztreonam Plus Ceftazidime/Avibactam in Stenotrophomonas maltophilia",
+  "text": "Stenotrophomonas maltophilia, a multidrug-resistant bacterium, causes severe infections with high death rates\nup to 91.2% in cancer patients and over 60% in those with lung diseases, posing a major public health challenge.\nThis research compares two promising treatments to find the best way to kill the bacteria and prevent resistance,\naiming to save lives by improving care for vulnerable patients. By creating tools to guide personalized therapy,\nthis work will also help reduce the growing threat of antibiotic resistance, which affects millions of people each\nyear in the U.S."
+ },
+ {
+  "id": "486cec85-0625-41a5-9616-48593fc8eb53",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Advanced Analytics Core",
+  "text": "ADVANCED ANALYTICS CORE PROJECT SUMMARY The Advanced Analytics (AA) Core provides two classes of advanced analytics services: Bulk/single cell genomics and EpCultures, which are 3D organoid or planar cultures derived from the intestines of human donors or model organisms. These services are sophisticated in nature, challenging and expensive for laboratories to independently perform, and require a high level of technical training. The AA Core has always focused on developing innovative practices to reduce barriers of entry to these cutting-edge technologies. . The AA Core continues to provide popular histology services, which are critical supporting technologies for in situ validation of the genomics/spatial transcriptomics and EpCulture services. While seemingly disparate, the services have been grouped together because of common management expertise, consultation practices, and efficient business model practices. The core provides services at substantially reduced costs and very rapid turnaround times. The AA Core is under the direction of Scott Magness, PhD, who is considered a leader in single-cell genomics, single-cell functional assays, and organoid technologies. He has broad expertise in intestinal and colonic 3D organoid and self-renewing monolayer cultures using primary tissue sources derived from humans and other model organisms. Heather McCauley, PhD, will serve as the co-director. Dr. McCauley is a new addition to the scientific expertise and management team. She is considered a leader in human intestinal organoids derived from induced pluripotent stem cells (iPSCs), intestinal stem cell biology and physiology, and humanized mouse models of the GI tract. The AA Core personnel are highly trained professionals in these technically demanding methods and have made the AA Core nationally recognized for single-cell sequencing services. The Specific Aims of the AA Core are: 1) To offer state-of-the-art single cell isolation and single- and bulk-cell transcriptomic/genomic assays. These services will enable investigators to study disease processes and gut regeneration & repair with unprecedented sensitivity and resolution. 2) To offer services related to organoid and epithelial monolayer cultures (EpCultures), custom EpCulture assays, intestinal stem cell gene editing, and training in EpCultures. These services will provide investigators with physiologically relevant epithelial culture systems to model diseases and injury of the gut lining and democratize the technologies by training the GI community scientists in these powerful methods."
+ },
+ {
+  "id": "486ea06c-125b-4dea-8ccb-981d0b97c5ee",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Neural and computational mechanisms of invariant speech perception in human auditory cortex",
+  "text": "Speech perception is essential for everyday communication, yet the neural mechanisms that enable humans to\nrecognize speech across variable acoustic conditions remain poorly understood. This project combines\nintracranial recordings in human auditory cortex with computational modeling to uncover the neural and\ncomputational mechanisms of invariant speech perception. Findings from this research will guide the design of\nimproved auditory prosthetics and rehabilitation strategies to enhance speech perception in individuals with\nhearing impairment and other communication disorders."
+ },
+ {
+  "id": "48774349-2de6-4613-bd10-5ef42cf949c2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeted Gene Delivery and Human Dendritic Cell Maturation Through a Novel Hybrid Biological-Biomaterial Vector System",
+  "text": "Successful antigen delivery to effector cells of the immune system is crucial in eliciting a potent\nimmunotherapeutic response. This proposal will utilize novel antigen delivery technology with the goal of\ndeveloping new immunotherapies to be directed at cancer (the focus of this application) and more general\nfuture vaccine-related applications (across a range of disease types)."
+ }
+]

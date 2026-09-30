@@ -1,0 +1,142 @@
+[
+ {
+  "id": "6a68cf73-43cf-47ed-99c0-7cf157b5cac9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The immunoPeptidoGenomic (iPepGen) informatics resource forimmuno-oncology research",
+  "text": "Cancer cells produce non-normal protein sequences, which can be exploited for immunotherapy and vaccines\nfor tumor prevention. We will build a novel, publicly accessible informatics resource containing software for\npredicting these non-normal sequences (called neoantigens) from DNA or RNA sequencing data, and confirming\ntheir presence by integration with mass spectrometry-based peptide data, thereby accelerating research in this\ncritical area of cancer treatment."
+ },
+ {
+  "id": "6a6cef1b-1e1d-4794-bef6-731d2b500351",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Optimizing Implementation of Digital X-ray with Computer-Aided Detection for Community-Based Tuberculosis Screening",
+  "text": "Computer-aided detection (CAD), which uses artificial intelligence to analyze chest X-rays, is\nnow WHO- recommended for tuberculosis (TB) screening and holds the potential to improve TB\ndetection in high-burden, low-resource communities. This proposed research seeks to evaluate\nthe adaptive application of CAD for community-based TB screening, utilizing individualized and\ncontext-specific methods, as an alternative to the current standard of a \"one-size-fits-all\"\napproach. By assessing diagnostic accuracy, implementation barriers, and cost-effectiveness of\neach screening strategy, the insights gained from this study could be used to facilitate earlier\ndetection of TB and reduce the high morbidity and mortality caused by tuberculosis."
+ },
+ {
+  "id": "6a6ed556-2637-44c6-8f90-a03b750937e1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Regulation of Lymphatic Endothelial Cell Junction and Drainage",
+  "text": "Lymphatic dysfunction is closely related to major human diseases, including lymphedema, glaucoma,\nimmune dysfunction, cancer, metabolic disease, and neurodegenerative disease. This project will decipher\nregulation of lymphatic endothelial cell junction and drainage, focusing on ROCK1/2 and integrin α5 signals\nby using a bioengineered 3D lymphatic vascular system in vitro and mouse inflammation and lymphedema\nmodels in vivo."
+ },
+ {
+  "id": "6a71e591-6a2f-45bc-a22f-70eafef5011d",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "SEER CORE INFRASTRUCTURE SUPPORT",
+  "text": "The purpose of the National Cancer Institute (NCI) Surveillance Epidemiology and End Results (SEER) Program is to assemble and report annual estimates of cancer statistics that pertain to incidence, prevalence, and patient survival; monitor trends to identify important changes in cancer rates for population subgroups defined by geographic, demographic, and social characteristics; provide information on changes over time in stage of disease at diagnosis and types of therapy, as well as associated changes in cancer patient survival; carry out special studies that provide insight into trends in cancer rates, treatment patterns, and other relevant aspects of cancer control; and provide an infrastructure to support cancer research through its data."
+ },
+ {
+  "id": "6a731f6e-de17-4474-b3d6-da4b65e291f7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cell types and functional circuitry in the retina",
+  "text": "A long-term goal of our research is to understand the visual processing in the inner plexiform layer\n(IPL) of the retina. Our study will integrate state-of-the-art techniques including mouse genetic, viral\ntechnology, optical imaging, electrophysiology, and optogenetics to study distinct amacrine cell types and\nto understand how they shape ganglion cell responses through inhibitory interactions. Our proposed\nexperiments will provide new insights into pathophysiological neuronal mechanisms of retinal diseases,\nand help design better strategies for therapy."
+ },
+ {
+  "id": "6a7658de-17bb-4931-9b88-c35f20bbfeb4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project 3 - Modulation of Antiviral Immunity and T cell Exhaustion by Inhibitory Receptors",
+  "text": "Chronic infections with viruses such as HIV, HCV and HBV affect half a billion people and are significant\ncauses of morbidity and mortality. T cell dysfunction or “exhaustion” is a major immunological defect during\nthese infections and can be modeled with LCMV infection in mice. The studies proposed will define the role of\nthe inhibitory receptors PD1 and LAG3 in CD8+ T cell exhaustion and provide new insights into how to reverse\nand avoid T cell exhaustion and improve immunity during these and other chronic infections."
+ },
+ {
+  "id": "6a7a5855-ff70-442e-8ddd-8c38585a02a9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development and Characterization of the MAIT-Boost Knock-In (MBKI) Mouse to Investigate MAIT Cell Biology and Cancer Immunotherapy",
+  "text": "Mucosal-associated invariant T (MAIT) cells, a conserved subset of T lymphocytes, play critical roles in bridging\ninnate and adaptive immunity and are implicated in a wide range of conditions, including infections, cancer, and\nimmune homeostasis. This research project aims to overcome the limitations of existing mouse models by\ndeveloping a novel genetically engineered mouse strain that significantly increases MAIT cell frequency while\npreserving natural TCR diversity and selection. By enhancing our understanding of MAIT cell biology, including\ntheir development, tissue distribution, and functional roles, this work holds significant potential to inform the\ndevelopment of therapeutic strategies for treating infections, cancer, and immune-related disorders."
+ },
+ {
+  "id": "6a7cf36d-343d-43d8-95a0-0dfd2e460a07",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating the molecular mechanisms of MYC-driven transcriptional reprogramming of the tumor microenvironment in prostate cancer",
+  "text": "Prostate cancer remains largely resistant to immunotherapy due to its immunologically cold tumor\nmicroenvironment, yet the mechanisms driving this immune suppression remain poorly understood. This\nproject investigates how MYC, acting as a molecular switch, reprograms the prostate cancer immune\nlandscape through transcriptional and chromatin remodeling mechanisms. Identifying key transcriptional and\nepigenetic regulators of immune suppression will pave the way for novel therapeutic strategies to enhance\nimmune responsiveness in prostate cancer."
+ },
+ {
+  "id": "6a8306d5-13a4-4ff1-9bc3-02e83ef20a40",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Next-generation optical nanoprobes: From quantum biosensing to cellular monitoring",
+  "text": "By leveraging optical spectroscopy, nanofabrication, and machine learning, this proposal advocates the\ndevelopment of three innovative platforms for ultrasensitive molecular sensing and nano-imaging in diverse\nbiological systems. We propose to develop highly sensitive and spectrally enriched Raman sensing approach\nfor multiplexed molecular detection by realizing surface-enhanced Raman spectroscopy in the strong coupling\nregime. We also seek to employ self-assembly principles to: engineer a highly sensitive nanoscale\nmagnetometer for intracellular quantum sensing; and design a new class of Raman-active peptide-based\nnanoprobes for targeted cellular imaging."
+ },
+ {
+  "id": "6a867731-29c0-4880-acb2-c187a7c0aa36",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Biomedical Technology Program",
+  "text": "BIOMEDICAL TECHNOLOGY PROGRAM PROJECT SUMMARY/ABSTRACT The central theme of the Biomedical Technology Program (BTP) is to establish and capitalize on novel technologies and computational methods and adapt and apply these technologies towards the overall reduction of the cancer burden in the UC Davis Comprehensive Cancer Center catchment area and beyond. BTP brings together engineers and scientists with key clinical investigators in the School of Medicine and School of Veterinary Medicine to advance its goal of translating new or adapted technologies to improve cancer detection, diagnosis, and therapy. BTP has three Specific Aims that drive innovation across the cancer research continuum, leveraging artificial intelligence (AI) and machine learning (ML) approaches to accelerate the translation of its technological advances into clinical practice. Aim 1 is to develop and validate radiological diagnostic and therapeutic technologies. Aim 2 is to develop and validate optical spectroscopic and imaging technologies (biophotonics). Aim 3 is to develop molecular and cellular technologies for translational and clinical applications. The Program's research portfolio encompasses a wide range of technologies and computational methods, from transformative developments related to PET and CT (including the development of the world's first total-body PET scanner), establishing fluorescence lifetime imaging as a means for intra-operative tissue characterization, advancing spectroscopic approaches for cancer detection, developing novel theranostic agents for imaging and therapy, and developing robust neural networks and other AI/ML techniques to improve cancer imaging. BTP has 35 Full members and 14 Associate members from five schools/colleges and 16 departments at UC Davis. BTP's total cancer relevant funding is $8.3M direct costs, including $7.9M in peer-reviewed and $3M in NCI funding. As a strong Program with several technologies entering clinical implementation or evaluation, the UCDCCC has deployed measures to ensure technology development and clinical translation continue. This includes institutional support to maintain robust transdisciplinary fora and provide discretionary funding support to BTP, providing its leadership the ability to support pilot projects that will continue the Program's transformative impact."
+ },
+ {
+  "id": "6a88b4d2-ea56-4314-a4b3-d37fe38e8ded",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Receptor Recognition and Cell Entry of Coronaviruses",
+  "text": "This research investigates the molecular and structural mechanisms of receptor recognition and cell entry of coronaviruses. It explores novel principles that govern viral evolution, receptor recognition, cell entry, immune evasion, host ranges, cross-species infections, tissue tropism, and pathogenesis. These studies are crucial for assessing the emerging disease potential of coronaviruses, for preventing, controlling, and treating the spread of coronaviruses in humans and other animals, and for pandemic preparedness and global health."
+ },
+ {
+  "id": "6a8ab91c-c47b-4dce-8fdb-f917e3d2bf5e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Leadership in AD/ADRD Drug Discovery",
+  "text": "Alzheimer’s disease and related disorders (AD/ADRD) are the most common neurodegenerative disease of\naging, affecting millions of Americans and increasing in prevalence each year. Here, via this R35 Leadership\nAward, the PI, Dr. Stuart Lipton, who is the developer of several of the current FDA-approved drugs for AD, will\nmentor junior faculty and trainees in drug development, and pursue new pathways toward novel drug\ndevelopment for AD/ADRD using the very considerable Drug Discovery Facilities and Chemistry Department of\nScripps Research in La Jolla, California."
+ },
+ {
+  "id": "6a948e69-7e36-4388-b3e5-536fdf19a94b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "In vivo imaging of mitochondria structure and function in therapy resistant lung tumors",
+  "text": "The overarching goal of this study is to identify effective metabolic based diagnostic and therapeutic strategies\nto improve the overall survival of patients with Non-small cell lung cancer (NSCLC). We propose to investigate\nthe positron emission tomography (PET) tracer, 18F-BnTP as a novel metabolic diagnostic and to develop\nmetabolic based therapeutic strategies targeting oxidative mitochondrial metabolism in therapy resistant\nKRAS/LKB1 and EGFR mutant lung tumors. This work represents a new approach to overcoming therapy\nresistance in KRAS/LKB1 and EGFR mutant lung tumors – one in which the tumor’s metabolic and\nbioenergetic dependencies are profiled and then selectively targeted."
+ },
+ {
+  "id": "6a96f994-ef3d-47fa-a6d8-ee3a73904f69",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Core B: Molecular Pathology and Bioinformatics Core",
+  "text": "CORE B NARRATIVE \nThe Molecular Pathology and Bioinformatics Core will perform deep molecular characterization of tumors collected from patients across all participating cancer centers to identify DNA- and RNA-based features that correlate with clinical outcomes. In line with the goals of the Research Projects, we will select and prioritize tumors representative of all populations, subclasses of patients who have received immunotherapy, and ERBB2 and BRAF fusion cancer types, and that benefit from coordinated efforts across many institutions to adequately study."
+ },
+ {
+  "id": "6a9c2f08-4ec2-450f-8f39-1efa0803cd3e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A Multifaceted Radiomics Model to Predict Cervical Lymph Node Metastasis for Involved Nodal Radiation Therapy",
+  "text": "In definitive radiation therapy for head and neck cancer patients, there is often significant uncertainty about the\nmalignant potential of cervical lymph nodes during treatment target identification. We will develop an advanced\nmachine learning method through analyzing PET and CT images and patient clinical characteristics to accurately\npredict lymph node metastasis status. This tool will be deployed in a prospective randomized trial to show how\nstrictly irradiating these identified lymph nodes, rather than the entire at-risk cervical neck, is oncologically sound\nand associated with improved quality-of-life."
+ },
+ {
+  "id": "6a9c35a6-eba4-427c-b0a9-807ab5538cda",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Connecting housing insecurity, health, and aging in place among older adults with cancer",
+  "text": "The majority of older adults in the United States prefer to remain in their current homes as they age (‘age in\nplace’), which is associated with health benefits. Meanwhile, both living in less supportive neighborhood\nenvironment and residential relocation are linked to negative health outcomes including greater healthcare\nutilization, mortality, and falls with injury. Establishing: 1) whether older adults with cancer differ from those\nwithout cancer in the type and frequency of their residential relocations and, 2) how housing insecurity in the\narea where older adults live and residential relocation jointly influence cancer-related health outcomes, will\ninform development of patient-, provider-, and system-level strategies to assess and mitigate impairments in\nphysical function and promote aging in place for this growing population."
+ },
+ {
+  "id": "6aa2e0f2-9c85-43a2-8577-3666c5b3f422",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dissecting the role of Six1 and its co-factors during calvarial bone and suture development",
+  "text": "Variants in SIX1, a transcription factor implicated in many cellular processes during craniofacial development\nand in branchio-oto-renal syndrome, have been recently linked to craniosynostosis (premature closure of the\nsutures between the skull bones); this is one of the most prevalent birth defects affecting ~1:2500 live births.\nThe studies proposed in this NIDCR career development award application will address the major knowledge\ngap regarding the role of Six1 in calvarial bone development, and provide new knowledge regarding the\npathogenesis of this prevalent birth defect, thus facilitating diagnosis and care of craniosynostosis patients."
+ },
+ {
+  "id": "6aadb0d1-c6cb-45c6-8979-aa114fd393d3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "High Quality Force Field Models for Biased Ligand Design",
+  "text": "We plan to develop a new generation of general AMBER force field (GAFF3) for accurately modeling\nbiomolecule-ligand interactions. GAFF3 and GAFF3-based scoring functions will provide an advanced\nframework for addressing three challenges in computer-aided drug design via artificial intelligence, including\naccurate and efficient scoring functions to fill the gap between two widely used virtual screening methods, biased\nligand design to rationally design drugs that target a particular signaling pathway with high specificity and\nselectivity to minimize side effects, and to expand the druglike chemical space for promising drug targets or drug\ntarget classes using generative AI."
+ },
+ {
+  "id": "6ab91923-26b2-4ac8-b54a-ce778011bd7f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Regulation of inflammation by the ubiquitin proteasome pathway",
+  "text": "VEXAS (Vacuoles, E1 enzyme, X-linked, Autoinflammatory, Somatic) syndrome is a newly identified\ninflammatory and hematologic disease caused by somatic mutations in UBA1. VEXAS syndrome is present in\ntens of thousands of Americans, confers higher morbidity and mortality, and remains treatment resistant. Here\nwe propose to utilize mouse models to define the cellular and molecular mechanisms of disease to improve our\nunderstanding of pathogenesis and potential treatments."
+ },
+ {
+  "id": "6ab9579c-8c0d-4e6e-9524-37c7da2eb198",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Therapy with fecal microbiota transplantation and immune checkpoint blockade for solid tumors",
+  "text": "One of the most intriguing findings in the field of cancer immunotherapy is the recent demonstration that the\ngut microbiome regulates immune and clinical antitumor responses to immune checkpoint blockade (ICB) in\ncancer patients. Here, we propose to identify whether a baseline beneficial and a detrimental gut microbiome\npredict clinical outcome and immune-related adverse events to ICB in cancer patients. We will also investigate\nwhether fecal microbiota transplant convert ICB-refractory cancer patients into responders and impede the\noccurrence of serious adverse events."
+ }
+]

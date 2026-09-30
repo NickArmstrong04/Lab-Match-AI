@@ -1,0 +1,142 @@
+[
+ {
+  "id": "b6065c7e-b9f3-43db-a572-3483ce112da7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular Mechanisms and Genetic Basis of Human Ovarian Aging",
+  "text": "There is overwhelming evidence that female reproductive aging influences lifespan and diverse health outcomes.\nHowever, female reproductive aging has been one of the most under-studied and under-served areas of\nresearch and its mechanisms remain elusive. To gain insights into the molecular basis of reproductive aging and\nits influences in later life health outcomes, we aim to characterize gene regulatory landscapes that are altered in\nthe ovary during aging and that are causally linked to genetic factors influencing age at menopause."
+ },
+ {
+  "id": "b6095ed7-f8dc-406c-bca1-01a7225d850c",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "NC State Genetics and Genomics Training Program",
+  "text": "To ensure that the recent increases in the power and sophistication of genetics and genomics research result in broad benefits to public health, researchers in genetics and genomics must be informed about the complex history of Genetics and actively engage with researchers in other disciplines as well as the public and policy makers. The NC State Genetics and Genomics Training Program will provide PhD students with fundamental knowledge and research tools of genetics and genomics. The Program will integrate this technical training with courses and activities led by social scientists to prepare our T32 trainees to design their research and disseminate their knowledge effectively and appropriately for the benefit of society."
+ },
+ {
+  "id": "b628d1e1-109b-4f3c-9232-6173fa7b3f35",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project 1: Inhibition of Complement C5aR1 Radioprotects Normal Tissue and Radiosensitizes Tumors",
+  "text": "(Project 1) \nThe main focus of this proposal is to explore how inhibition of the complement pathway regulates the radiation \nresponse of tissues and tumors and our data show that targeting complement receptor C5aR1 improves radiation \nresponse in colorectal cancer models while reducing radiation-induced toxicity. No study has evaluated the effect \nof complement inhibition on both tumor and normal tissue radiation response. Our data, therefore, suggest that \ngenetically or pharmacologically targeting C5aR1 can improve radiation response in colorectal tumor models \nwhile reducing radiation-induced small bowel toxicity, so together, these findings suggest that targeting \ncomplement could be a promising approach to increasing the therapeutic window of radiotherapy."
+ },
+ {
+  "id": "b6374fca-a39f-4189-9fe1-9b8b0f5f4123",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Interstitial Chemophototherapy as an Intervention in Locally Advanced Pancreatic Cancer",
+  "text": "Locally advanced pancreatic cancer is difficult to treat, contributing to the dismal survival rate of the disease. We\nwill translate a next-generation nanotechnology based on light-activated drug delivery by testing the approach\nin large advanced pancreatic tumor models in mice, rats and rabbits. We will focus on interstitial light delivery,\ncombination with immune checkpoint blockade, and understanding the pharmacokinetics of the novel treatment."
+ },
+ {
+  "id": "b638bfdd-05b9-4c38-b800-b2a39007bc7e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cancer Screening Research Network - North Carolina Hub (CSRN-NC HUB)",
+  "text": "We propose to leverage our cumulative expertise in cancer screening and the resources of the University of North Carolina, UNC Lineberger, and UNC Health, and Federally Qualified Health Centers (FQHCs) to create an ACCESS Hub in the new NCI Cancer Screening Research Network (CSRN). Our catchment area serves the entire state of North Carolina, offering a comprehensive and representative participant population similar to the southeastern US population as a whole. We will build our capacity as an ACCESS Hub and participate in the initial feasibility study of multi-cancer early detection screening (Vanguard)."
+ },
+ {
+  "id": "b63d6f2b-1f67-44f5-ab7f-4f5a16f8b102",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Multimodal Learning for Contextually-Aware Longitudinal PET/CT image analysis",
+  "text": "This proposal will improve the automatic analysis of longitudinal, multi-time point PET/CT images of lymphoma\nby developing contextually-aware and multimodal vision-language deep learning algorithms. Quantitative PET\nmetrics are highly predictive of outcome for lymphoma and could be used to improve the efficacy of PET-adapted\ntherapy, but quantification of whole-body PET/CT images is time consuming and automated analysis of interim-\ntherapy images is technically challenging. This project will address these challenges by designing and validating\ndeep learning PET analysis algorithms that can simultaneously consider baseline and interim PET scans, thus\nmimicking the processes used by physicians, and also by designing semi-supervised multimodal algorithms that\ncan use the information in radiology narrative reports for enhanced image analysis."
+ },
+ {
+  "id": "b63e5b1b-d2ec-4feb-84be-0f62c879af4c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "CNS-Met Metabolomics Core",
+  "text": "Neurological disorders and central nervous system (CNS) injuries show clear metabolic defects, which in turn disrupts bioenergetics balances, redox status, and neurotransmitter biosynthesis that are required for maintaining, synaptic activity, neuronal homeostasis, and neuroinflammation. For these reasons, CNS metabolism research has generated interest from those studying Alzheimer’s disease, traumatic brain injury, epilepsy, spinal cord injury, Parkinson’s disease, and others. Modern metabolomics allows for the profiles of hundreds of metabolites from a single sample. It is both informative and transformative, supports both hypothesis-generating and hypothesis-driven research. Current applications of metabolomics include, molecular basis of metabolic diseases, biomarker discovery, disease prediction, drug responses, and personalized medicine. The overarching goal of the CNS-Met Metabolomics Core is to make cutting-edge metabolomics and mitochondrial energetics techniques and analyses available to CNS-Met Research Project Leaders (RPL) and pilot project PIs. The available expertise and instrumentation are well-aligned with the RPL proposals. The core directors have worked with each RPL to generate exciting preliminary data. The core will engage with, assist in experimental design, run samples, train personnel, and analyze brain metabolism data. The CNS-Met Metabolomics Core will support the talented RPLs in the area of CNS metabolism and enhance their success in competing for NIH R-level grants. To achieve these goals, the core will Aim 1: Provide experimental design consultation and project-specific study planning. The core has worked closely with the RPLs, and will continue to do so, on experimental design, data processing, and biostatistical analyses. Proper experimental design and sample preparation will lay the foundation for a successful metabolomics experiment. Aim 2: Provide metabolomics expertise and training. The core will house an Agilent 5977B GCMS, 2) Agilent 6545 quadrupole time of flight LC/CE-QTOF, and 3) a Seahorse Biosciences XF24e and XFe96 Flux Analyzers as well as Oroboros O2KFluorometer. The core will run samples, assist, train, and/or supervise data analysis from basic data reduction, incorporating procedural control, normalization, pathway ontology matching, data interpretation, and offer possible next steps. Aim 3: Perform sample processing, technical analyses, and data reduction-interpretation-presentation. The core will assist users by performing sample preparation, instrument operation, mass spectrometry peak matching to metabolites with a known compound library, sample normalization, and statistical analyses. The core will utilize integrated processes established by core leadership from experimental design though rapid and consistent sample acquisition, sample fixation, sample extraction, data reduction, statistical analysis, data analysis, and biological interpretation to ensure the success of the CNS-Met RPLs and pilot project PIs."
+ },
+ {
+  "id": "b649bd19-160b-42b9-8c39-9211667d5d28",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "More heart transplants through informed donor selection",
+  "text": "Many people in the US urgently need heart transplants (HT), but most potential donor hearts are felt to be of\ninsufficient quality and thus turned down for HT. This leads to long wait times and hundreds of deaths each\nyear among those on the HT waitlist. The proposed research will make donor heart assessment more data-\ndriven and systematic, leading to the utilization of more donor hearts for HT (and thus more lives saved)."
+ },
+ {
+  "id": "b65284d7-2a74-4fb1-9a69-26dad56636b5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Understanding hematopoietic stem and progenitor cell diversity during ontogeny",
+  "text": "Hematopoietic Stem Cells (HSCs) are responsible for sustaining lifelong hematopoiesis and are\nclinically valuable in hematopoietic replacement therapies for treating a variety of hematological\ndiseases and cancers. In embryonic development, HSCs form concurrently with HSC-\nindependent Progenitor Cells (HPCs) that have a more limited capacity to generate mature blood\ncell lineages yet are invaluable in establishing early hematopoiesis. Our study will identify distinct\ncharacteristics and molecular mechanisms that differentiate HSCs from HPC with implications for\nhuman hematopoietic and immune disorders and their treatments."
+ },
+ {
+  "id": "b6606b17-bdf6-43e5-af38-19b6cf0b6e12",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Baculovirus-Based Minimally Invasive Therapy for Head and Neck Squamous Cell Carcinoma",
+  "text": "A conundrum in the management of head and neck squamous cell carcinoma (HNSCC) lies in the delicate\nbalance of eliminating malignant tissue while safeguarding the integrity and functionality of the affected\nanatomical structure. To address this challenge, we aim to develop a precise in vivo gene-editing platform\nutilizing baculoviral vectors, nanotechnology, and synthetic biology approaches, enabling cancer cell-specific\ngene disruption. If successful, this project has the potential to offer a minimally invasive therapy to treat HNSCC\nwith unparalleled cellular precision."
+ },
+ {
+  "id": "b664588c-3376-4644-88ec-22299cab5dc9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Novel molecular and cardiac imaging paradigms for precision medicine in aortopathy",
+  "text": "Thoracic aortic aneurysm is a prevalent and currently incurable cardiovascular disease associated with\nsignificant morbidity and mortality, which affects children and adults. The proposed research seeks to identify\nnovel genetic factors that modify its degree of severity and to develop a novel echocardiographic image analysis\nalgorithm. We anticipate that the knowledge arising from this research will benefit patients by increasing the\nability to give more precise assessment of prognosis and tailor management accordingly as well as identify\nmechanisms that may be amenable to future therapeutic targeting."
+ },
+ {
+  "id": "b66931ed-60bc-45e8-b054-a25828631179",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Tracking SARS-CoV-2 one molecule at a time: Spatiotemporal investigation of coronavirus replication dynamics and host response in single cells in vitro and in vivo",
+  "text": "This project aims to provide a quantitative understanding of coronavirus biology and host immune responses using single-cell and single-molecule approaches in vitro and with in vivo murine models. We will develop computational models combined with an imaging-based platform to quantitatively assess replication kinetics and spatiotemporal host cell responses of SARS-CoV-2. This platform will then be applied to the study of clinically relevant human genetic variation and pre-existing anti-interferon autoantibodies, emerging viral variants of concern, and to explore the differences in susceptibility to severe COVID-19 disease. To study long-term consequences of past inflammatory responses, we will employ murine model systems of lung disease to investigate how recovery from respiratory viral infections impacts disease caused by unrelated pathogens, including other viruses and helminths."
+ },
+ {
+  "id": "b66976cb-46c3-4265-952f-f8cec52649d4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Detection, Radiosensitization and Theranostic Targeting of Metastatic Breast Cancer by PTPmu",
+  "text": "When cancer cells grow, invade and migrate along nerves in either the central (CNS) or peripheral nervous\nsystem (PNS), it results in the worst outcomes for patients yet there is very little knowledge about this process\nand no effective treatments. We hypothesize that a biomarker resulting from proteolysis of a cell-cell adhesion\nmolecule can be utilized to detect and treat cancer growth along nerves in both the CNS and PNS. Here, we\nseek to enhance detection and treatment by developing a tumor-specific biomarker targeted theranostic agent\nthat selectively enhances radiosensitization of primary, invasive, and metastatic breast cancer to the brain for\nimproved radiation therapy."
+ },
+ {
+  "id": "b66a85ff-df03-410f-8149-84e78ba60c32",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Next-generation approaches for comprehensive mapping of post-translational modification landscapes",
+  "text": "Post-translational modifications (PTMs), chemical changes to proteins, are crucial for maintaining cell function,\nand their disruption is linked to various diseases. However, comprehensive analysis of PTMs remains\nchallenging due to their low abundance and the lack of effective methods for enrichment and detection. This\nstudy aims to develop ultra-sensitive probes for system-wide and unparalleled PTM detection and analysis,\nleading to a deeper understanding of their role in cellular processes and paving the way for new approaches to\ndiagnose and treat diseases."
+ },
+ {
+  "id": "b67369e2-27ca-46a4-b97d-822edf4842ff",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "HIV-OPN/SPP1Triad II: Molecular Pathways Regulating Neuronal-Glial Inflammation in the Brain",
+  "text": "Using the gold-standard HIV infection mouse model available at the time and microPET-neuroimaging, we\ndiscovered that osteopontin/secreted phosphoprotein-1 (OPN/SPP1) is a potent sensor of neuroinflammation in\nthe brain. The conservation of OPN/SPP1 as a sensor/regulator of CNS homeostasis and abundant expression\nin microglia during development and under injury to the brain, strongly suggests that it plays a key central\nmechanistic role in neuroprotective pathways that modulate neuroinflammation. This proposal will apply a\ncombinatorial approach to identify and study how OPN/SPP1 performs its functions which we hypothesize occur\nvia specific ligand-receptor interactions initiated by microglia and propagated by specific neurons in the striatum."
+ },
+ {
+  "id": "b67f8edf-7760-4ed2-b77a-30c30d10a238",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Structural determination of TrkB assembly and activation",
+  "text": "Tropomyosin receptor kinase B (TrkB) is a receptor tyrosine kinase (RTK) that is responsible for neurotrophin-\ndriven cellular responses with implications in many disease processes. However, the lack of TrkB structural\ninformation relating to receptor activation has prevented a clear understanding of what conformational and\nassembled states contribute to TrkB activation. The proposed project aims to combine structural, biophysical,\nand cellular approaches to investigate the structural and molecular determinants of TrkB activation and assembly\nto develop a dynamic model of how TrkB structural conformation is related to its functional state."
+ },
+ {
+  "id": "b6831da9-d4e3-41af-b6e0-3b446147ec5f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Rac-enhanced Chimeric Antigen Receptor-Macrophage (Race-CAR-M) Immunotherapy for Triple Negative Breast Cancer",
+  "text": "Triple-Negative Breast Cancer (TNBC) poses a significant public health challenge due to its aggressive nature\nand lack of targeted therapies. This research aims to develop an innovative immunotherapeutic strategy using\nRac-enhanced Chimeric Antigen Receptor-Macrophages (Race-CAR-M) targeting Chondroitin Sulfate\nProteoglycan 4 (CSPG4), a marker overexpressed in TNBC. This approach aims to boost the tumor-infiltrating\nand engulfment abilities of macrophages and understanding their metabolic adaptations within the TNBC tumor\nmicroenvironment, potentially providing a targeted therapy to improve health outcomes for TNBC."
+ },
+ {
+  "id": "b6897c1f-f45b-490d-8d86-388d0b9a21d6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Combined Fetal Magnetocardiography and Echocardiography Using Quantum Sensors",
+  "text": "The long-term goal of this program is to develop simultaneous fetal magnetocardiography-fetal\nechocardiography as a new multi-modal technology for fetal investigation and clinical application. If\nsuccessful, the research will improve the diagnosis and treatment of life-threatening forms of fetal\narrhythmia and congenital heart disease and shed light on causes of unexplained fetal death."
+ },
+ {
+  "id": "b68ab481-cc18-4686-8d4d-06e6a77045f2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Subcellular Imaging: Advanced Light and Electron Microscopy Resource (SIMR)",
+  "text": "SUBCELLULAR IMAGING (SIMR) The University of Texas MD Anderson Cancer Center (MD Anderson) Subcellular Imaging: Advanced Light and Electron Microscopy Resource (SIMR) provides state-of-the-art microscopy resources and expertise in an array of light microscopy technologies and electron imaging to dynamically assess cells, tissues, and their requisite contents. SIMR provides ultra-high-resolution electron and optical imaging systems capable of capturing features smaller than one nanometer. With an emphasis on nanoscale imaging, including transmission electron microscopy (TEM-EM), scanning electron microscopy (SEM) and super-resolution light microscopy, the facility also offers a spectrum of optical microscopes and functional assays. In addition, SIMR offers specialized assays including protein-interaction assays, DNA damage repair studies, fluorescence lifetime-based metabolomic imaging, subcellular distribution analysis and cellular analyses, and intravital and whole organ imaging. The overarching mission of SIMR is to advance cancer research by providing: 1) access to cutting-edge microscopy instruments, 2) comprehensive sample preparation services for both electron and fluorescence applications (e.g., sectioning, clearing, staining), and 3) expert technical support and consultation in light and electron imaging instruments and techniques. SIMR microscopy suites are located on South Campus, where members can reserve electron microscopes (TEM-EM, SEM), a wide variety of light microscopes (e.g., confocal, super- resolution, multiphoton, and lightsheet), and image analysis workstations. The microscopy suites are fully staffed with highly qualified personnel who provide training and assisted sessions on instruments and guidance for advanced techniques, such as laser micro-irradiations, fluorescence resonance energy transfer (FRET), fluorescence recovery after photobleaching (FRAP), and intravital imaging. These locations also support sample preparation services specific to imaging applications. SIMR supported 91 Cancer Center members from all nine RPs in 2024 (88% of user base), reflecting the critical importance of SIMR services to members. In 2024, the SIMR supported 27 publications of which 56% were in high-impact journals (Journal Impact Factor ≥10)) and facilitated 101 peer-reviewed grants awarded to Cancer Center members. Future plans include: 1) Acquire new optical microscopes and develop new applications, such as Tau-STED, a live cell compatible super-resolution optical microscope; 2) Acquire new electron microscope technologies and develop new EM-related applications, eg. volumetric TEM-EM imaging and 3D rendering; 3) Integrate smart imaging and/or AI-assisted image processing in TEM-EM/SEM and optical imaging techniques to increase analysis efficiency, sensitivity and accuracy."
+ },
+ {
+  "id": "b68c2aa6-26d7-4609-a421-a836933af647",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cancer Adoptive Cell Therapy (Can-ACT) Network Coordinating Center at Mayo Clinic",
+  "text": "The Network Coordinating Center at Mayo Clinic (NCC-MC) will facilitate and be responsible for network-wide\ncoordination and harmonization of scientific and administrative needs of the funded UG3/UH3 centers as part\nof the Cancer Adoptive Cellular Therapy (Can-ACT) Network. The NCC-MC will serve as the administrative\nhub and coordinating center for all network-related trials and projects, including but not limited to: (1)\nadministrative coordination of the Can-ACT Network, (2) oversight and management of biological specimens\nand associated policies, and (3) provision of analytic and data management support for the Can-ACT Network,\nincluding biostatistical and bioinformatics and data science collaboration and clinical and correlative data\nmanagement. The infrastructure, expertise, and experience of the individuals at Mayo Clinic is extensive for\nthe national coordination of translational and clinical cellular product-based research, making this group well-\npositioned to effectively function as an outstanding coordinating center for the Can-ACT Network."
+ }
+]

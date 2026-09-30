@@ -1,0 +1,142 @@
+[
+ {
+  "id": "b8f7b09e-e2d4-4de5-b64d-4651ac7e953f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Exosomal biomarkers for the early detection of hepatocellular carcinoma",
+  "text": "We will establish a robust methodology for exosome isolation and characterization followed by a\ncomprehensive and genome-wide evaluation of exosomal and circulating microRNAs in plasma samples as\npotential noninvasive biomarkers for the early detection and prevention of hepatocellular cancer. Successful\nidentification of microRNA biomarkers will exert a substantial diagnostic and prognostic impact on the\nmanagement of this fatal disease."
+ },
+ {
+  "id": "b8f92ef1-133a-42cc-a1f8-6ed44ed3e99a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cancer Immune-Interception in a Spontaneous Non-Human Primate Model of Lynch Syndrome",
+  "text": "The proposed research is relevant to public health because the development of novel immune interception strat-\negies in relevant animal models will accelerate the translation to humans and decrease cancer incidence among\nLynch Syndrome patients. Thus, the proposed research is relevant to the mission of the NIH, particularly the\nportion pertaining to the pursuit of fundamental knowledge to extend healthy life."
+ },
+ {
+  "id": "b8ffd334-0f0d-4e61-803f-13f053097675",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Eukaryotic Gene Regulation (EGR) Training Program",
+  "text": "Nearly all aspects of biology and human disease are rooted in gene regulation. Our knowledge and ability to understand, control, and rectify gene expression and mis-expression are fundamental to basic biological knowledge and medicine. We propose continuing our successful predoctoral training program to prepare a cadre of young scientists who excel in cross-disciplinary skills and address fundamental questions in gene regulation and their impact on human health."
+ },
+ {
+  "id": "b900e168-52a2-41e1-b5ae-9c31ca4db685",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "High throughput, high efficiency, rapid mechanical transfection for CAR T-cell therapeutics",
+  "text": "CAR T-cell therapies have proven to be life-saving treatments for blood cancers, but the manufacturing costs\nare high, and the process fails too often. CellFE aims to simplify production of life-saving CAR T-cell gene\ntherapies with our rapid and efficient method to genetically modify patient T-cells."
+ },
+ {
+  "id": "b9059e7e-9750-43af-b858-9bba9e249450",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Defining developmentally regulated retroelement-based mechanisms to better understand and treat their dysregulation in disease.",
+  "text": "Nearly 50% of the human genome is made up of mobile elements and ancient retroviruses called RetroElements\n(REs) that are present in thousands of nearly identical copies. As REs are paradoxically expressed during\npreimplantation development and recent findings reveal that RE reactivation is precise and essential for\nmammalian development, this proposal seeks to establish the functional importance and mechanistic basis of\nRE reactivation through gene editing, comparative biology and novel CRISPR based screening. Notably, REs\nare unintentionally reactivated in aging, autoimmunity, neurodegeneration and cancer and we predict that by\ncataloging RE-based mechanisms in embryos and identifying RE-regulation, we can therapeutically manipulate\nREs in adult tissue to mitigate or potentially reverse disease states."
+ },
+ {
+  "id": "b91a2bd0-61ba-4844-b12a-a92dd38a4475",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Rare sperm screening and retrieval with a domain-adaptive deep learning-enabled microwell system.",
+  "text": "The current gold standard method for sperm retrieval is still manual microscopic examination and retrieval, which\nis highly subjective, time-consuming, and expensive. To the best of our knowledge, there is currently no assay\nin the market or the commercial development pipeline that can efficiently, reliably, and rapidly help in the retrieval\nof sperm cells from testicular biopsies or severe factor ejaculated semen samples, and all previously developed\nsystems and networks for sperm localization are highly susceptible to domain bias and may not maintain\nefficiency when identifying sperm in clinical microTESE samples. Here, we propose to develop the first domain-\nadaptive, automated, high-throughput, sensitive, and inexpensive AI-assisted screening, and retrieval tool for\nrare sperm from minimally processed heterogenous microTESE and semen samples."
+ },
+ {
+  "id": "b9224115-abbc-4e9b-9fcb-730721780d0e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Structural and functional principles underlying germline genome transmission",
+  "text": "Genetic alterations in eggs or sperm (e.g., abnormal chromosome numbers, genome\nrearrangements, and other mutations) cause developmental disabilities or miscarriage. These\nabnormalities often arise because of defects in meiotic homologous recombination, which can\nalso cause infertility. This project will address fundamental questions about the mechanism and\ncontrol of recombination and thus is of direct relevance to human reproductive health and\ndisease."
+ },
+ {
+  "id": "b9260505-8a4f-40a1-bc4e-040eca10b456",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular Mechanisms for Resolving Air Pollution Induced Pulmonary Inflammation: Potential Differences by Asthma and Sex (RAPIDAS)",
+  "text": "This project will investigate the effect of PM2.5, a ubiquitous air pollutant, on the biosynthesis and degradation\nof specialized pro-resolving mediators (SPMs) during the dynamic process of inflammation initiation to resolution\nin the respiratory tract. Potential differences by asthma and sex will be examined. This project will be carried out\nusing a translational approach integrating a cell culture mechanistic investigation and a human observational\nstudy of SPMs and inflammation resolution in adults exposed to urban traffic PM2.5."
+ },
+ {
+  "id": "b92d825b-faad-4122-a38e-15f016c28eee",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Breathing, Full Volume Pulmonary Deposition Model to Transform Development of Aerosol Therapeutics",
+  "text": "The biggest translational hurdle to advancing inhaled therapeutic and vaccine systems is predicting how they\nwill work in the lung, owing to a dearth of experimental models capable of recreating the complex structure and\nphysics occurring in the respiratory tract. With this work, we aim to exploit the “total inhalable deposition in an\nactuated lung” (TIDAL) model, a new tool capable of approximating spatial deposition under a complete\nbreathing cycle, to quantitatively predict how distinct breathing sequences and diseased airway features\ninfluence deposition from varied inhaler devices and formulations."
+ },
+ {
+  "id": "b938a92e-ccb8-4d47-850d-3244d21b5ca7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Structurally Programmed Microfluidic Bioreactors to Manufacture Retinal Organoids for Regenerative Medicine",
+  "text": "This project aims to engineer a semi-automated, contactless bioreactor system to improve the production of\nretinal organoids (ROs), which are essential tools for studying retinal development, modeling diseases, and\ndeveloping therapies. This proposal aims to achieve good manufacturing practices for therapeutic tissue while\nreducing labor, contamination risks, and variability in organoid manufacturing. The project’s outcomes will\naccelerate advancements in regenerative medicine and support the development of personalized treatments for\nretinal disorders."
+ },
+ {
+  "id": "b943440f-3211-4cce-a251-e2b12e991f75",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Statistics, Data Science, and Data Management (SDM) Core",
+  "text": "The SDM Core will collaborate with other HIV Center Cores to develop and promote state-of-the-art approaches to study design, data science, and data analytic methods, including mixed-methods, and machine learning that can enhance the impact of and add value to Center research. The Core will create an online knowledge and resource hub to help researchers at all career stages utilize the most rigorous and innovative statistical, data science, and data management tools in their work. The Core will also provide expertise and resources to ensure rigorous, modern data management. Through the HIV Center Metadatabase, the SDM Core will provide searchable information about HIV datasets to facilitate greater utilization of existing research data, generate new insights, and support collaborations across ARCs and beyond the HIV Center. The SDM Core has three Aims. Aim 1 promises to provide consultation and support for state-of-the-art study design, data science, and machine learning methods. To meet Aim 1, the SDM Core will promote use of rigorous study designs and statistical and data analytic methods for all studies across the Center from the grant proposal through the manuscript development phase; and collaborate across Cores to develop new ways of utilizing cutting-edge statistical methods and machine learning strategies. Aim 2 pledges to develop and maintain an online knowledge and resource hub that builds study design skills, bolsters statistical knowledge, and improves communication of methods and results among HIV Center investigators and with stakeholder communities. To meet Aim 2, the SDM Core will produce the Digital Seminar Series comprising high-quality educational content on research design, statistical methods, data science, and database management; create and maintain an online portfolio of resource videos, step-by-step walkthroughs, and annotated examples of results sections for manuscript-writing and other communication strategies; and produce podcasts to communicate state-of-the art analysis methods and other new scientific results in HIV research. Aim 3 commits to facilitate rigorous data management and data harmonization as well as to collect and collate metadata about HIV-related studies both within the Center and between the Center and other HIV research organizations. To meet Aim 3, the SDM Core will maximize investigators’ and project staff’s understanding of methods to ensure data quality, data security, and tracking of all study elements. Additionally, the continued development of the HIV Center Metadatabase will improve scientific productivity and resource-sharing and facilitate projects transitioning to public-facing study data repositories in alignment with NIMH goals. The SDM Core will ensure the use of modern and rigorous scientific methods and data management tools across all HIV Center while educating HIV Center investigators, while leveraging the substantial resources of the Columbia University (CU) Department of Psychiatry/NYSPI Mental Health Data Science area and the CU Mailman School of Public Health Department of Biostatistics."
+ },
+ {
+  "id": "b946b996-0edb-4ffa-b54b-02055102ec6f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating Biomolecular Condensates and Heat Shock Proteins in Cellular Responses to Sublethal Heat Shock and Fever",
+  "text": "Heat is a potent environmental and physiological influence on human health, whether in the form of heat illness and exhaustion, or in the form of fevers which we frequently experience in infection. Thus, it is critical to understand how heat regulates human biology at the cellular and subcellular level. This proposal investigates how biomolecular condensates and heat shock proteins—two types of molecular entities that help cells adapt to heat—may enable cells, including those of the human immune system, to sense and respond to heat shock and fever."
+ },
+ {
+  "id": "b94a1dd4-5efb-48ac-b151-98cf17f402f0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Flexible multivariate models for linking multi-scale connectome and genome data in Alzheimer’s disease and related disorders",
+  "text": "It is clear that multimodal data fusion provides benefits over unimodal analysis by leveraging the joint infor-\nmation among complementary modalities, however current models have limited flexibility to handle multiscale\ndata. We propose to develop the next generation of flexible fusion models to progressively fuse multiple spatial\nand temporal scales, nonlinear relationships, by leveraging information that is typically ignored in the joint data.\nWe will use these models to characterize and predict various aspects of Alzheimer's disease and related de-\nmentias, including differentiating types of dementia including those with proteopathy and vascular pathologies,\nincluding characterizing common and distinct imaging, genomic, and behavioral pathological pathways.\n6"
+ },
+ {
+  "id": "b94decb3-9a43-4f74-84ab-a6a1c5bc4e7f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Primate inhibitory neurons in hippocampal CA3-CA1 intrinsic circuits",
+  "text": "The hippocampus is a brain region that has a key role in learning, memory, and emotions. A group of neurons\nin the hippocampus, called inhibitory neurons, are needed to keep in check overall activity, and when they are\nabnormal the hippocampus becomes hyperactive, as occurs in schizophrenia and anxiety. The goal of this\nstudy is to investigate how these inhibitory neurons function and are connected in primates, which is necessary\nto develop therapies for psychiatric diseases."
+ },
+ {
+  "id": "b94e170a-f7d0-46db-b89c-562ef9d1f6c3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Effects of Maternal Diabetes on early brain development",
+  "text": "Identifying neural markers of increased vulnerability for obesity in very young children exposed to maternal\ndiabetes may enhance our understanding of etiologic pathways of obesity development and serve as a\nspringboard for the development of early interventions before the risks manifest as long-term consequences.\nGiven the vast health costs associated with obesity, knowledge gained from this study could offset the burden\nassociated with obesity."
+ },
+ {
+  "id": "b94f0e03-7e48-4cd0-b29b-3a0800da89f7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Scientific Core: Perturb-seq library generation, sequencing, and data analysis",
+  "text": "Perturb-seq Core Perturb-seq is a powerful tool to map gene programs in health and disease. Perturb-seq begins with a high- throughput assay to perturb 10-10,000 genes with CRISPRi and read out their effects on cell state using single- cell RNA-seq. Computational analysis of Perturb-seq data enables the definition of gene programs — sets of genes that work together in a biological pathway. The overarching goal of this Scientific Core is to apply Perturb- seq to map gene programs in a consistent, coordinated fashion across all 3 Projects. This will enable the team to investigate the shared Program hypothesis that gene programs in endothelial cells and smooth muscle cells have context-specific activities that vary across disease states, tissue beds, and biological sex to mediate genetic risk for different vascular diseases. The Perturb-seq Core, directed by Assistant Professor Jesse Engreitz, will build on recent work and new innovations to design, collect, sequence, and analyze Perturb-seq datasets. In a recent study in collaboration with Project 1 Lead Dr. Rajat Gupta, we demonstrated the power of Perturb-seq to map gene programs and identify causal pathways for vascular disease (Schnitzler*, Kang* et al. Nature 2024). To expand this approach to map gene programs in vascular cells across contexts, our Perturb-seq Core team has collaborated with 14 other trainees and staff scientists in the Gupta, Quertermous, Rabinovitch, and Red-Horse laboratories. Together, we have conducted successful pilots in endothelial cells and smooth muscle cells in vitro, and endothelial cells in the aorta, lung, and brain in vivo. We have also optimized Perturb-seq for scalability, robustness, cost, and efficacy, and implemented the method as a core workflow in the lab. With innovative Perturb-seq technologies and analysis pipelines and validated cellular and animal models, we are now ready to conduct systematic studies of gene programs in vascular cells. The activities of the Perturb-seq Core are to: (i) Consult on experimental design and power for Perturb-seq; (ii) Design and clone gRNA libraries; (iii) Prepare and sequence Perturb-seq libraries; (iv) Conduct computational analyses to infer gene programs; (v) Manage samples and data; and (vi) Develop and share optimized methods. The work of this Scientific Core will be deeply intertwined with the 3 Projects and the Mouse Core, and each of these 6 activities will be extensively utilized by each of the 3 Projects. These activities do not duplicate existing institutional resources at Stanford or Havard/BWH. These activities will ultimately reveal causal genes for vascular diseases and advance the development of precise therapies."
+ },
+ {
+  "id": "b9505980-a480-40bf-a025-6ab99ea5987f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Unraveling The Mechanism of Heart Failure in Hypertrophic Cardiomyopathy with Exercise CMR",
+  "text": "Heart failure (HF) is the most common adverse complication and cause of death in hypertrophic\ncardiomyopathy (HCM). With the robust capability to probe myocardial tissue composition, micro- to\nmacro-structure, function, fibrosis, and energetics, cardiac magnetic resonance imaging (CMR) has\nemerged as an imaging modality well suited to characterize HCM pathophysiology. This proposal aims\nto improve our understanding of HF in HCM and its treatment with established and novel therapies."
+ },
+ {
+  "id": "b9530ecf-fdd8-430a-b270-5171b36b52b7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dissecting the Molecular Mechanisms of Exocytic Vesicle Tethering and Fusion",
+  "text": "Cellular growth, development, movement and communication absolutely require accurate intracellular cargo\ntransport by vesicle targeting and membrane fusion. Essential components of these fundamental cell biological\nprocesses are the exocyst complex, Sec1, SNARE proteins, and their regulatory partners. These mechanisms\nare conserved from yeast to man, and have been implicated in a variety of human diseases, such as cancer,\ndiabetes, ciliopathies, and infections by pathogens. Our multidisciplinary studies will lead to a molecular\nunderstanding of the regulation of vesicle tethering and membrane fusion. In addition, our research will also\nlead to the development of many technologies, constructs, reagents and ideas that will be valuable tools for\nstudying how these factors regulate secretion in all eukaryotic cells."
+ },
+ {
+  "id": "b955a55c-2c7b-48ad-a387-35a3d8100614",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Statistical Approaches to Unlock Protein Function from Deep Mutational Scans",
+  "text": "Although we have discovered millions of rare genetic variants in large population studies, we have only\ncharacterized about 2% of them. A technology, Deep Mutational Scanning (DMS), enables us to study many of\nthese rare protein variants experimentally, but is currently lacking rigorous statistical tooling to robustly analyze\nand interpret these data. This proposal develops statistical models for the analysis and interpretation of various\ntypes of DMS data to enable studying many molecular phenotypes, genetic interactions, and their connections\nat both the molecular level and disease level."
+ },
+ {
+  "id": "b95c6c30-baba-4e40-9bff-e00bd65bc3b0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Blood-Brain Barrier Leakiness and Inflammation in Schizophrenia: Implications for Dopamine Alterations",
+  "text": "Schizophrenia involves brain and body inflammation that disrupts the blood-brain barrier (BBB),\npromotes immune cell activation and transmigration to the brain and CSF. Here, we will discover\nspecific molecular changes within the various cell types constituting the blood-brain barrier (BBB)\nduring midbrain inflammation in schizophrenia, providing a platform to prioritize candidates for\namelioration. We will analyze endothelial cells, glial cells, immune cells, dopamine neurons, and\nblood biomarkers to pinpoint the communication pathways inflammation uses to damage the\nBBB, change glia function, and disrupt dopamine neurons."
+ }
+]

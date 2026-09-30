@@ -1,0 +1,142 @@
+[
+ {
+  "id": "5b48d0ef-c282-4ae4-b9d1-7c30b5bddc15",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting the MAP4K4 pathway to inhibit pediatric high-grade glioma invasion",
+  "text": "High-grade gliomas (HGGs) pose a devastating prognosis for children, because they\nare highly invasive tumors with minimal treatment options. The kinase MAP4K4 is an\nidentified negative prognostic indicator in several cancers; reducing its levels can\ndecrease tumor invasiveness and increase the effectiveness of chemotherapeutics. Our\nresearch aims to improve and extend children’s lives, by focusing on this MAP4K4\npathway using cell lines and mouse models to design drugs targeting these tumors."
+ },
+ {
+  "id": "5b4e8aa8-2f2e-493a-8a47-e62e2e6059cf",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeted rewiring of a fibrosis driver to enhance cardiac reprogramming",
+  "text": "This proposal aims to leverage cutting-edge bioengineering techniques to reprogram cardiac fibroblast signaling\npathways, directing them toward a cardiogenic genetic network. The overarching goal is to develop a novel\nCRISPR-based pathway editor for precise targeting of fibrosis drivers following myocardial injury. This research\nwill 1) elucidate the mechanisms governing fibroblast cell fate decisions by modulating fibrogenic and cardiogenic\ntranscription factors, 2) translate these findings into novel therapeutic approaches to reverse pathological fibrosis,\nand 3) potentiate functional regeneration of the fibrotic heart."
+ },
+ {
+  "id": "5b4ffa82-d5e6-4f51-bac0-b24fbacb99fe",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Uncovering immune network principles driving humoral immunity in inflammatory conditions",
+  "text": "Germinal center (GC) reactions generate high-affinity antibodies through an intricate and tightly controlled\ninterplay of various immune cells, which represent a crucial line of defense in inflammatory conditions. Clinical\nwork has observed the occurrence of ectopic GC-like lymphoid cell structures arising in non-lymphoid tissues of\ncancer patients that correlate with improved response to immunotherapy. The proposed research will\ncharacterize the principles and mechanisms controlling the canonical and non-canonical humoral immune\nresponses forming in tissues to understand, treat and prevent cancer by harnessing the body’s own immune\npotential."
+ },
+ {
+  "id": "5b524da9-a823-4153-8e5e-48672c5a299f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular mechanisms relating Poldip2 to endothelial permeability",
+  "text": "Increased endothelial cell permeability often results in tissue edema (fluid accumulation) and inflammation,\nwhich have been associated with increased death and disability in patients with acute lung injury or acute\nrespiratory distress syndrome. Genetic deletion of the multifunctional protein Poldip2 protects against lung\nedema and inflammation produced by bacterial toxins and viruses. This proposal is designed to investigate\nthe mechanism by which Poldpip2 regulates permeability, to identify how Poldip2 itself is regulated and to\nbegin developing and testing Poldip2 inhibitors as a first step in creating new therapies."
+ },
+ {
+  "id": "5b5b5119-27a2-449f-84c2-da85e086fd8b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "AI-accelerated optical simulation for fast timing nuclear imaging",
+  "text": "The exploding field of radio-theranostics makes nuclear imaging a central tool and redefines its\nperformance requirements. Nuclear imaging technology is undergoing a paradigm shift focusing on utilizing\ntiming information to enable a leap in image quality. Biomedical researchers need new simulation and\nexperimental tools to develop these fast radiation detectors, which this project proposes to develop and\napply with AI-based optical simulation software."
+ },
+ {
+  "id": "5b5cd227-8c85-4fea-879b-c5b51d8eb86d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Evaluating iPSC-Derived Models to Study and Treat Mitchell Syndrome",
+  "text": "Mitchell Syndrome is a newly defined progressive fatal childhood-onset neurodegenerative disorder caused by\nan autosomal dominant gain-of-function variant in acyl-CoA oxidase 1 (ACOX1) protein. Therapeutic\ndevelopment efforts to treat Mitchell Syndrome are stalled by a lack of human models to evaluate therapeutic\nefficacy. Based on our unique expertise in this condition, we propose generating two disease-relevant human\nmodels of Mitchell Syndrome using cells derived from individuals with Mitchell Syndrome; these cell culture\nmodels will be key for mechanistic studies, therapeutic development, and biomarker exploration – critical steps\nto treat this lethal disease."
+ },
+ {
+  "id": "5b5d41d9-b2a1-470c-a7c9-8df4688a24f7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "New approach for identification pHFO networks to predict epileptogenesis",
+  "text": "Epilepsy affects over 3 million Americans, yet current methods cannot predict who will develop the disease after a brain\ninjury. This project will use fMRI and EEG in a rat model of mesial temporal lobe epilepsy (mTLE) to identify early brain\nnetwork changes and to build predictive models that turn invasive biomarkers into non-invasive imaging tests. The results\nwill inform new strategies for early detection and prevention of epilepsy, directly benefiting patients at risk."
+ },
+ {
+  "id": "5b6436c7-b2e2-43da-967e-ec90c95c7a76",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Enhancing and expanding the CGC Strain Collection",
+  "text": "Project Summary/Abstract—Applied Research Component The Caenorhabditis Genetics Center (CGC) seeks to enhance the efficiency with which scientists can make biomedical research advances using a premier model organism, Caenorhabditis elegans. Analysis of transgenic animals is an integral part of essentially all model organism research. The introduction of fluoresent protein (FP) tags to animal models by Nobel Laureate Martin Chalfie in 1994, using C. elegans, profoundly revolutionized transgenesis by allowing gene expression to be monitored in real time in living organisms. For genes with low level expression, detection of fluorescent protein fusions can be challenging, driving interest in ever more bright and photostable variations of fluorescent proteins. In addition, many applications call for multi-plexing of fluorescently tagged proteins, increasing demand for new proteins with non-overlapping emission spectra. Thus, development of that first green fluorescent protein has inspired discovery and design of numerous variations that can differ in color, brightness, photostability and time to maturation. However, these characteristics can be impacted by environmental conditions such that in vitro properties may not hold in vivo, posing a challenge for researchers looking to expand their FP palette. When a new FP is developed with highly touted characteristics, the in vitro characterized parameters allow selection of good candidates to test in vivo, but adoption of a new protein by the worm community requires significant optimization and in vivo testing. This project will eliminate uncertainties about the in vivo use of new fusion proteins for the C. elegans community by direct quantitative comparison of a set of new FPs relative to each other and to those currently in broad use. Data derived from this project will be used by the C. elegans community broadly to improve experimental designs for diverse research questions, and by researchers using other model organisms to suggest the best candidate FPs to test in vivo in their systems. This project will also result in a set of C. elegans strains expressing FPs for laboratories to test on their own microscopes and/or on demonstration equipment they are considering for purchase. Finally, this project will establish a set of common metrics with which to evaluate future FPs ensuring rigor and reproducibility of testing. All strains and reagents generated in this work will be curated by the CGC and immediately available to the community."
+ },
+ {
+  "id": "5b672e3f-1174-46e8-8c14-0f6ec46385af",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of Near-Infrared Photothermal Chemiluminescent Gold Nanoprobes by Utilizing Retro Diels-Alder Reaction of Trapped Singlet Oxygens",
+  "text": "Cancer detection and monitoring are challenging in hypoxic tumors, where current bioluminescence imaging\nmethods fail due to their dependence on oxygen. This project aims to develop innovative, oxygen-independent\nnanoprobes that improve imaging precision in these oxygen-deficient environments. By enabling photothermally\nstimulated luminescence without relying on oxygen, this technology will enhance tumor detection and monitoring,\nultimately leading to better treatment outcomes for cancer patients."
+ },
+ {
+  "id": "5b68e61b-5d88-41c7-8415-4a4e9575537e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A new framework for self-adaptive artificial intelligence to personalize assistance for patients using robotic exoskeletons and prostheses",
+  "text": "This research aims to innovate a new artificial intelligence (AI) framework for self-adapting wearable robotic control to\npersonalize assistance to a patient’s unique walking pattern. The aim is to improve the way a robotic exoskeleton or\nprosthesis responds to a unique patient by providing a human-in-the-loop control framework for seamless self-learning of\noptimal assistance over dynamic, unstructured locomotion tasks. These results have the potential to enhance quality of life\nfor patient populations such as those with stroke or amputation by improving stability and gait quality, increasing\npreferred walking speed and improving independent community ambulation."
+ },
+ {
+  "id": "5b6a2d5f-5eb6-463f-ba98-68f10c1c8f62",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Sex-Dependent E-cig Impact on Fetal Lungs: The Role of Benzoic acid and Freebase Nicotine",
+  "text": "The United States Surgeon General recently announced vaping of electronic cigarettes (e-cigs) as a major public\nhealth concern. Utilizing a state-of-the-art custom-engineered vaping system with a commercial e-cig unit and\natomizer identical to those sold in vape shops world-wide, the proposed studies dissect the health effects of\nacidic (benzoic), basic (nicotine), and salt (nicotine benzoate) components of e-cigs during pregnancy, test novel\napproaches in gestational e-cig field, and pave the way for strategic sex-dependent treatment design. The\nproposed studies develop a strong mechanistic framework for e-cig-induced developmental adaptations and\ndirectly address a “major research area” of developmental impacts under Theme One of NIEHS Strategic Plan\n2018-2023, titled “Advancing Environmental Health Sciences”."
+ },
+ {
+  "id": "5b70f7bb-f65f-483b-a3d8-2710158f4354",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Core 1 - Biostatistics and Bioinformatics Core  (BBC)",
+  "text": "The Biostatistics and Bioinformatics Core is critical to the success of the UCSF Prostate SPORE. It has\nparticipated in a meaningful way in the planning and design of the proposed projects, with the ultimate goal to\ndecrease the morbidity and mortality of prostate cancer through innovative research that is supported by\nrigorous bioinformatics and biostatistical support."
+ },
+ {
+  "id": "5b730817-169b-4b21-a6fe-c94fcc14cdba",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting NAD Metabolism to Improve Glucose Homeostasis in Obesity and Aging",
+  "text": "Relevance\nSupplementing vitamin B3 derivatives to increase nicotinamide adenine dinucleotide (NAD+) has recently shown\npromise in preclinical studies for multiple indications. However, this promise is based on a dosing strategy that\nmay not be feasible in humans and much remains to be learned about the pharmacokinetics, mechanisms of\naction, and therapeutic potential of these molecules at doses that can be tolerated. This grant uses genetics and\nstate of the art mass spectrometric techniques to test the sensitivity of biochemical pathways to fluctuations in\nNAD+ availability, determine where in the cell NAD+ is required for beneficial effects, and to identify alternative\nforms of vitamin B3 that might be more therapeutically effective."
+ },
+ {
+  "id": "5b79bc9a-424b-4ddd-8bcf-38dbff937c3f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Elucidating mechanisms of cellular communication critical for head and neck cancer progression and metastasis.",
+  "text": "Understanding the role of cellular communication in head and neck cancer squamous cell carcinoma (HNSCC)\nand how it changes across heterogenic tumors could provide important targets for potential therapies designed\nto inhibit tumor progression. We propose to provide comprehensive insight into the diverse molecular\nlandscape of HNSCC carcinogenesis through creation of a cellular atlas of human HNSCC with unparalleled\nresolution. Through the application of innovate computational methods we will identify associations between\nphenotypes, genotypes, and cellular heterogeneity programs, and identify cellular communication events that\ndrive tumor progression."
+ },
+ {
+  "id": "5b7c41a1-f9b7-437e-bd3d-0408d003b3c5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Deciphering the role of FAM210A in cardiac physiopathology",
+  "text": "Heart disease is the leading cause of morbidity and mortality in the United States and\nmitochondrial dysfunction is a major contributor in disease progression. Better understanding of\nthe pathological mechanisms underlying mitochondrial dysfunction during heart disease will\nimprove preventive and therapeutic interventions. In this proposal, we will investigate the function\nand mechanism of a novel mitochondrial Ca2+ signaling regulatory factor, namely, family with\nsequence similarity 210 member A (FAM210A), which is required for maintaining mitochondrial\nhomeostasis and cardiac health. These studies will lead to identification of novel therapeutic\ntargets for treatment of mitochondrial cardiomyopathy and ischemic heart failure such as\nmyocardial infarction among other mitochondrial disorders."
+ },
+ {
+  "id": "5b7e6f72-3b18-4d44-9226-4eac7fb54f12",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A Mouse Model Resource for Peroxisome Research",
+  "text": "The Mouse Peroxisome Research Resource (MPRR) serves as a central resource for mouse models and\nmonoclonal antibodies for basic and translational research in peroxisome biology. The MPRR is a\ncommunity-driven resource that enhances basic research to better define the roles peroxisomes play in\nhuman health and accelerate preclinical testing of therapeutic hypothesis aimed at developing and\nimplementing improved treatments for peroxisomal disorders."
+ },
+ {
+  "id": "5b814861-b302-4775-9b9f-8c28a0e8af9d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mitochondrial dynamics underlying oligodendrocyte generation",
+  "text": "Myelinating oligodendrocytes are generated throughout life, a process that fails in aging and disease potentially\ndue to altered cell metabolism. To investigate this feature, we have developed advanced methodologies for\nvisualizing mitochondria morphometrics and dynamics across the oligodendrocyte lineage in the live brain. Using\nthese tools this project will investigate how and when mitochondria shape, localization, and function impact\noligodendrocyte development, death, and regeneration."
+ },
+ {
+  "id": "5b8d5714-627b-49f8-b0f1-f73d57bb4e29",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Neural correlates and behavioral impact of withdrawal-induced hyperalgesia among people who smoke with and without chronic pain",
+  "text": "Individuals with chronic pain are more likely to smoke cigarettes and have more difficulty quitting smoking than\nthe general population, in part because withdrawal from smoking can lead to temporary increases in pain. This\nresearch will examine how smoking withdrawal changes the way the brain processes pain, and whether these\nwithdrawal-related changes interfere with the ability to stop smoking. The results of this research will provide\nimportant information that can be used to guide the development of interventions to help people with chronic\npain who smoke cigarettes to quit smoking and improve their health."
+ },
+ {
+  "id": "5b9aa998-76c7-4a9c-a3ca-c42f27c938f8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Chronic manganese exposure as an environmental risk factor for Alzheimer’s disease pathogenesis",
+  "text": "Manganese (Mn) contamination of drinking water is a modifiable environmental risk factor that may\naccelerate cognitive decline and contribute to Alzheimer’s disease (AD) pathogenesis. This project will\ndetermine how subchronic Mn exposure alters neurotransmission and promotes tau pathology using advanced\nimaging, behavioral, and biochemical approaches in a transgenic mouse model. Findings from this work will\nadvance our understanding of how environmental exposures influence neurodegeneration and may inform\nfuture strategies to mitigate AD risk and progression."
+ },
+ {
+  "id": "5ba57bb3-9fcf-4c2f-877b-0af558fe5ef3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Pilot Project",
+  "text": "PROJECT SUMMARY – Pilot Core Substance use disorders (SUDs) are highly complex and heterogeneous and are influenced by genetics and by environmental factors, such as development, sex, and exposure history. The long-term potential of precision medicine to improve prevention and treatment of SUDs depends on gaining a much better understanding of the underlying biological pathways that influence behavior. One path to developing this insight is the integration of omics data across brain regions and cell types using systems genetics, artificial intelligence, and other quantitative genetic approaches. Unfortunately, there are serious challenges that prevent individual researchers from adopting these approaches. The goal of the NIDA Core Center of Excellence in Omics, Systems Genetics, and the Addictome (OSGA Center) is to build and empower a community of SUD researchers to use large-scale data approaches to test and confirm causal links from genetic, molecular, and cellular traits to SUD-related behaviors in rodent models and to translate these findings to human clinical SUD prevention and treatment. We will provide researchers with the training, data resources, and analytical tools needed to integrate data science, quantitative genetics, and AI techniques into their work, making precision medicine for SUD an attainable goal. We believe that to enable the wide-spread use of data science/quantitative genetics/artificial intelligence techniques that will make the ultimate goal of precision medicine solutions for SUD treatment and prevention attainable, the next generation (and the current generation) of SUD scientists needs (1) high quality training in these quantitative skills and (2) large-scale data resources and tools to enhance current research projects. Each core includes specific plans to address each of our three main themes: 1) building a collaborative community of NIDA genetics researchers, 2) developing synergistic public omics data sets, and 3) creating user- friendly advanced analysis tools. In the Pilot core, we will focus on broadening our community of NIDA genetics researchers by catalyzing new collaborations among early career investigators in the field through open pilot grant calls and through targeted recruitment of applications. We are specifically looking for applications with SUD-related novel omic data generation and/or analyses for well-defined rat model systems and applications that use multiple genetically distinct rat strains to explore the role of genetic variation on SUD-related phenotypes. Awardees will be continuously supported through the pilot grant period and during their preparation for an independent NIH application in SUD research. Ultimately, this core will provide financial resources, infrastructure, and mentorship, when needed, to entice early career researchers into this field."
+ }
+]

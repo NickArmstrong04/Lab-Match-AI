@@ -1,0 +1,142 @@
+[
+ {
+  "id": "7c96df03-050e-4ad2-8451-88a74fc2d05e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "SNV Regulation of Diabetic Wound Re-epithelialization Mechanisms: T2D vs T1D",
+  "text": "Diabetics (type 1 or 2) have a 25% risk of developing diabetic foot ulcers in their lifetime, many of whom\nultimately end up with an ulcer related amputation. Genetic variations are known to determine differences in a\nperson’s health outcomes, but it remains unclear if such variations particularly impact healing outcomes in\ndiabetic foot ulcers between type 1 and 2 diabetics. This new research aims to identify such variations and\nunderstanding how they can enable targeted treatment decisions to promote better wound healing."
+ },
+ {
+  "id": "7c971bf0-756f-49b5-858f-46b142052bf3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development of Kv3.1 potentiators for correcting fast-spiking-interneuron hypofunction in schizophrenia and autism spectrum disorder",
+  "text": "Autism spectrum disorder (ASD) and schizophrenia are associated with an increased ratio of excitatory-to-\ninhibitory (E/I) neurotransmission in brains of affected individuals, raising the possibility that therapeutics\ndesigned to restore E/I balance could be effective in treating these disorders. Fast-spiking parvalbumin (PV)\nGABAergic interneurons (PV-IN) are critical regulators of E/I balance and owe their ability to generate high-\nfrequency action potentials in part to the restricted expression and function of Kv3.1 (gene KCNC1) voltage-\ngated potassium channels, mutations in which are associated with ASD in humans. Here, we propose to employ\nhigh-throughput screening, medicinal chemistry, automated and manual patch clamp electrophysiology, and\nelectrophysiological recordings from identified PV-IN to develop a series of potent and specific Kv3.1 potentiators\nto restore E/I balance in ASD and schizophrenia."
+ },
+ {
+  "id": "7ca3b41e-0379-4dfc-9341-faec71dc95c5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project 1:Al-driven patho-genomic predictive models for personalized treatment of cervical and anal cancers.",
+  "text": "Using novel and interpretable computer vision and machine learning tools, we will develop population tailored AI models for predicting disease outcomes and treatment response across different modalities including chemotherapy, radiation and immunotherapy."
+ },
+ {
+  "id": "7cb21fa5-6967-4466-a67b-36ac727287c2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Treatment of Vocal Fold Paralysis with Muscle Progenitor Cells",
+  "text": "Vocal fold paralysis (VFP) is a devastating condition that affects over 120,000 patients annually\nin the US; it commonly leaves patients with deficits in the voice production, swallowing, and\nbreathing functions of the voicebox, and some patients even require a tracheotomy. Current\ntreatments for VFP are suboptimal as they involve foreign body implants or are destructive of\nthe vocal mechanism; the ideal treatment that restores vocal fold movement has not been\nfound. This project tests a new approach using implanted adult muscle stem cells, which may be\ncapable of restoring muscle activity to the paralyzed vocal fold muscles and allow for satisfactory\nvoicing, swallowing and breathing without damaging the vocal folds."
+ },
+ {
+  "id": "7cb2d188-27bc-4dbe-acc6-35e97ec89d45",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Quantitative Optical Imaging Biomarkers of Interstitial Lung Disease",
+  "text": "Optical Coherence Tomography (OCT) can provide low-risk, minimally invasive, volumetric visualization of\nmicroscopic ILD features, however, its clinical implementation is currently hindered by time and labor-intensive\nqualitative evaluation and manual feature segmentation techniques. This application aims to develop novel AI\nand deep learning-based imaging biomarkers for rapid, automated detection and robust, serial quantification of\nmicroscopic ILD features on OCT images, which could have major impact for early diagnosis and therapeutic\nstrategizing. This career development proposal unifies my knowledge in optical imaging and advanced image\nanalysis and will provide me with crucial training in clinical translation of AI-based quantitative optical imaging\nbiomarkers needed to achieve my long-term scientific career goals."
+ },
+ {
+  "id": "7cc10404-adf0-4d20-b48d-89a7f8e2bcc9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Biomarker Developmental Laboratory",
+  "text": "There is a critical need for a new generation of prostate cancer biomarkers capable of accurately detecting aggressive cancers at a localized, curable stage. The overarching goal of this project is to selectively identify those patients with potentially lethal prostate cancers that stand to benefit from early definitive treatment, while preventing unnecessary testing, overdiagnosis, and subsequent overtreatment in the remaining population. To achieve this goal, we have assembled the Michigan-Vanderbilt University Medical Center EDRN Biomarker Characterization Center, which represents a multi-disciplinary team of accomplished academic and industry investigators committed to discovering, developing, and scaling clinical-grade assays for the early detection of aggressive forms of prostate cancer."
+ },
+ {
+  "id": "7cc71152-75b7-4efa-948e-72c7811826ac",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Assessing the Impact of Psychosocial Risks Among Veterans on Complications of Major Cancer Surgery",
+  "text": "Detection of Veteran Psychosocial Risks. This proposal directly addresses a major VA priority: better\ndetecting and intervening on housing instability, suicide ideation, and other psychosocial risks.\nDirect Effect of the Burden of Veteran Psychosocial Risk on Surgery. Critical events such as surgery are\nparticularly vulnerable to intrinsic patient risks. We do not currently assess veteran psychoscial risks prior to\nsurgery, and we do not know the association between these risks and surgical outcomes.\nPsychosocial Risks of Veterans Are Myriad. We intend to evaluate the use of a natural language processing\nalgorithm detection of psychosocial risks to inform interventions that can mitigate their effects around the time\nof surgery."
+ },
+ {
+  "id": "7cce12cf-5613-4f6b-b223-e0f9636c88e9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Microbial Genomics and Analytical Laboratory (MGAL) Core",
+  "text": "PROJECT SUMMARY – Microbial Genomics and Analytical Laboratory (MGAL) The Microbial Genomics and Analytical Laboratory (MGAL) Core of the Integrative Center for Environmental Microbiomes and Human Health provides a centralized facility and technical expertise at the University of Hawai‘i at Mānoa (UHM) to support the study of the interface between the microbial environment and human health. The characterization of microbiota community composition by high throughput sequencing and metabolite analysis are standard techniques used in the field of microbiome research. The MGAL Core enables access to these key methods by providing the following: (i) services for the preparation of genomic libraries and quantification of gene expression; (ii) high-performance liquid chromatography and mass spectrometry instrumentation for the analysis of lipids and metabolites; and (iii) facilities for the cultivation, isolation, and long-term storage of microbial strains. To expand Core capabilities and user base while continuing to support current and past COBRE researchers, MGAL services will be expanded to include metagenomic and transcriptomic library preparation, metabolomic analysis, and enhanced microbial biobanking facilities that will include the creation of a community searchable database containing information about endemic Hawaiian strains. The MGAL Core is available to researchers throughout the state of Hawai'i and visiting scientists, thus encouraging greater interaction within the local microbiome research community and seeding collaborative efforts from abroad. The facility will beneficially impact COBRE investigators and affiliates by providing essential infrastructure and expertise to advance research and foster the careers of junior faculty. Moreover, the Core will support the continued growth of UHM as a major center for microbiome studies in the Pacific Region by providing hands-on training in library preparation and metabolite analysis, hosting summer workshops on fundamental microbiome research methods, integrating with undergraduate and graduate laboratory classes, and facilitating outreach efforts to characterize Hawai'i’s microbiome."
+ },
+ {
+  "id": "7cce3dfb-e150-440f-9552-b12254642eb6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A Dynamic Patient Data Library and Virtual Imaging Trial Platform for Training and Evaluating AI-based Algorithms in CT Imaging",
+  "text": "Our goal is to create a dynamic, vendor-neutral patient projection data library and software platform\nfor training and evaluating AI-based reconstruction and noise reduction methods in CT. Designed with\nhigh customizability, this platform will enable dynamic adjustments in radiation dose and disease\nconditions and will provide automated capabilities for image quality and diagnostic performance\nevaluation."
+ },
+ {
+  "id": "7cd0ed22-3f27-48ad-933b-4c651e49fd03",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Autoimmunity in Cardiopulmonary Toxicities from Radiotherapy andImmunotherapy",
+  "text": "In this proposal, we will investigate autoimmune mechanisms of cardiac and lung toxicities from thoracic\nirradiation in the presence of PD-1 blockade. Outcomes of the proposed studies will help to identify novel\nbiomarkers for early diagnosis of serious and fatal adverse events and novel therapeutic targets for managing\nthe toxicities and improving therapeutic ratio."
+ },
+ {
+  "id": "7cd99f9a-6b25-4786-b1ee-1ab8b3b2898d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular genetics of gustatory detection in Aedes aegypti",
+  "text": "Aedes aegypti are mosquitoes that spread the viruses that cause dengue and other diseases that afflict\nmillions of people each year. We propose to reveal the mechanism through which a safe, long-lasting repellent\nthat we have discovered is so effective in keeping mosquitoes away. Since mosquitoes taste the chemicals on\nour skin before deciding to bite, we propose to characterize the mechanisms underlying Ae. aegypti taste as a\nstep towards identifying additional safe, long-lasting repellents."
+ },
+ {
+  "id": "7cdb4fa3-c82b-4893-8067-4a7a29875aff",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A Pathogenic Role for the Natriuretic Peptide Clearance Receptor in Heart Failure with Preserved Ejection Fraction.",
+  "text": "Heart failure with preserved ejection fraction (HFpEF) constitutes nearly half of all heart failure hospitalizations,\nand HFpEF is responsible for the death of nearly 1 in 14 Veterans. However, currently there are no treatments\nthat improve mortality in this disease. This proposal aims to test a promising new target that may alter energy\nutilization and metabolism in the failing right heart in HFpEF. This proposal also supports the training and\ncareer development of Dr. Vineet Agrawal to study the disease of HFpEF and identify new therapies for a\ndisease that currently has none."
+ },
+ {
+  "id": "7cde2fbb-4bc5-47cf-b9ed-9c84c4a2639d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of mRNA internal 2′-O methylation in post-transcriptional regulation",
+  "text": "2′-O-methylation (Nm) is a highly abundant modification type in various RNA species. In this study, we will\ninvestigate the function of mRNA internal 2′-O methylation by: 1) Identification of HNRNPF/H1 as distinct Nm\nanti-readers in mRNA; 2) Functional study of the crosstalk between Nm and m6A in mRNA; and 3) Unveiling the\nrole of mRNA Nm during neuronal differentiation. Our ultimate goal is to unlock the full potential of mRNA Nm in\nadvancing our understanding of biological processes and developing targeted interventions."
+ },
+ {
+  "id": "7cdf648b-de0c-4207-bf5d-bbf57779d3ef",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Neural Systems and Behavior",
+  "text": "The Neural Systems and Behavior Course (NS&B) provides an exceptional and singular training opportunity that\nenables the next generation of researchers to tackle the problems central to issues of mental illness. This 8-\nweek course is characterized by a rigorous and innovative curriculum that is focused on discovery research and\nintegrates across diverse levels of biological organization thus leading the alumni and faculty to a better\nunderstanding of the human brain and the truly complex causes of mental illness. Since its inception in 1978,\nNS&B has prepared students to understand how the brain generates behavior by using unique and\ncomplementary inquiry-based laboratory exercises to teach experimental techniques, concepts and\nexperimental design at the cutting edge of systems neuroscience."
+ },
+ {
+  "id": "7ce7c2bf-fd09-46bd-b907-41cce1ab8f0d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Identifying the Ecological Forces driving Global Divergence in Infant Microbiome Assembly",
+  "text": "Infants worldwide are born without a microbiome, but by age three their microbiomes assemble into distinct\nstates, some of which are linked to the later immune disease development. Here, we will use a reverse-\ntranslation pipeline to identify the ecological forces that shape this divergence, laying the foundation for\ntherapeutic strategies to steer infant microbiomes toward immune-protective states and restore immune health\nin the U.S. to pre-industrial levels."
+ },
+ {
+  "id": "7ce97fc4-0a7e-4c5c-a3a2-4c793e0173dd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A Confocal Fluorescence Microscopy Brain Data Archive",
+  "text": "Brain image data collected by the neuroscience community will continue to grow\ndramatically over the next 5-10 years. Increases in data volume will come from a push to image\nphysically larger volumes such as whole brains from humans (and other primates) and from\nhigher speed for smaller specimens. The Brain Image Library (BIL) is an important public\nresource for sharing this data by providing a persistent and scalable repository for microscopy\ndata generated by brain researchers."
+ },
+ {
+  "id": "7cf6738a-93e8-49df-9513-015b921a9871",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Rat Resource and Research Center",
+  "text": "(Overall)\nRats are instrumental for the understanding of human disease and they play an important role in the development\nof drugs and therapeutics. The Rat Resource and Research Center provides a unique centralized repository for\nimporting, storing and distributing a large number of rat strains, embryonic stem cells and related reagents. The\nRRRC also provides critical services to assist biomedical researchers and performs innovative research to\nensure the quality, reproducibility and availability of rat models."
+ },
+ {
+  "id": "7cf74996-d568-4e0e-90e5-dc703d207c7b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The role of cholesterol metabolic enzyme CYP46A1 and its metabolite 24S-hydroxycholesterol in ischemic stroke.",
+  "text": "The proposed research will disclose a new mechanism and signaling cascade that have critical\nimpact on stroke outcome: CYP46A1 → 24S-HC → NMDAR → ischemic brain injury. This is\nexpected to be a significant contribution because it will expand our knowledge of the\nmechanism of ischemic brain injury. Additionally, it validates and identifies new targets for stoke\nintervention, e.g., CYP46A1 and those allosteric modulatory sites on NMDAR that are critical for\nthe binding of 24S-HC."
+ },
+ {
+  "id": "7cf7ae10-19dc-4c1b-a51b-7a934eefddda",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Sperm tsRNAs/rsRNAs and their RNA modifications in diet-induced epigenetic inheritance",
+  "text": "Increasing evidence reveals that unhealthy diet induced metabolic disorders in mammals can be transmitted\nfrom father to offspring via sperm RNAs. Understanding of how sperm RNA and their modifications regulate\noffspring health through embryo development would potentially guide interventions to mitigate the risk of\ntransgenerational transmission of diet-related disorders."
+ },
+ {
+  "id": "7cf9cfec-6368-4868-b12f-2dac2d24ed9d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dynamic Contrast Enhanced- Magnetic Resonance Fingerprinting to Detect Early Response to Neoadjuvant Chemotherapy in Breast Cancer Patient",
+  "text": "This project will develop a new MRI methodology, Dynamic Contrast Enhanced-Magnetic Resonance\nFingerprinting (DCE-MRF), for accurate and early detection of TCHP neoadjuvant chemotherapy treatment\nresponse in HER2+ breast cancer patients. While this proposal focuses on breast cancer, this technology can\nbe adapted for use in other cancers, enabling early prediction of treatment success or failure to avoid\nunnecessary treatments and associated toxicities, enhancing understanding of tumor physiology, and improving\nresource allocation within the healthcare system. This innovation will advance the field of oncology imaging,\nleading to more precise treatment strategies and improved patient outcomes, with the ultimate goal of\ncontributing to reduced cancer-related morbidity and mortality."
+ }
+]

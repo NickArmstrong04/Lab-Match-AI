@@ -1,0 +1,142 @@
+[
+ {
+  "id": "0da82a8a-e829-4c3c-a9a4-ab0e291be8f6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Core A: Pathobiology Core",
+  "text": "The Pathobiology Core A will provide all Program investigators multiple pathology services. Core A is\nessential for the success of all projects via the expertise provided in pathological characterization of mouse and\nannotated human tissue. Further, Core A will provide expertise in generation and use of 3-dimensional\norganotypic and organoid models, performing scRNASeq experiments in highly annotated human tissue and\nsophisticated imaging for in situ localization of antibodies and genes discovered."
+ },
+ {
+  "id": "0da9d7d0-b674-408f-8d31-9fe1e29b76d3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Characterization of Selenomonas sputigena invasion, intracellular life cycle, and exocytosis in gingival epithelial cells.",
+  "text": "Outgrowth of a large variety of pathogenic bacteria contributes to the progression of periodontal disease. The\nproposed research will provide insight into how an otherwise unstudied pathogen, Selenomonas sputigena, invades into the\ncells of the gingival tissue where the organism then disrupts host biology. This research is among the first ever investigations\ninto how this organism interacts with the host and will help elucidate the collective knowledge of how bacteria in the\ncomplex plaque biofilm cause periodontal disease."
+ },
+ {
+  "id": "0dabddf3-5cc3-43f9-ae24-bbd749cf8fee",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Integrated host-microbe metagenomic sequencing to improve diagnosis, prognostication, and subphenotyping of complications following lung transplantation.",
+  "text": "Lung transplant recipients face the highest mortality among all solid organ transplant patients, largely due to\nfrequent post-transplant complications including lower respiratory tract infections and chronic lung allograft\ndysfunction. This study will be the first to apply integrated host-microbe metagenomic sequencing on\nbronchoalveolar lavage samples from lung transplant recipients to develop novel diagnostic and prognostic tools\nfor the most common post-transplant complications. Together, this work employs cutting-edge genomic\ntechnologies and novel machine learning and informatic techniques to benefit the clinical care of this vulnerable,\nimmunocompromised patient population."
+ },
+ {
+  "id": "0dbb823a-cece-494f-91c7-ea95c104e835",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Photoreceptor mosaic in health and disease",
+  "text": "This proposal outlines a plan to develop and apply high-resolution retinal imaging technology (Adaptive optics,\nSLO, OCT) to study the human retina in health, prematurity and aging. The outcomes of this work stand to reveal\nfundamental insights into vision loss due to diseases and put forth entirely new biomarkers for the evaluation of\ntherapies."
+ },
+ {
+  "id": "0dbe34f3-587f-4500-95c1-efd61b659682",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Alternative Protein Isoforms in Ventricular Remodeling",
+  "text": "Changes in alternative splicing are an important feature of cardiac remodeling and heart failure. This project will\nemploy mass spectrometry and computational methods to decipher how alternative splicing networks rewire\ncardiac protein composition, structure, and function. The results may provide insights into disease mechanisms\nby revealing how alternative splicing regulates cardiac gene expression."
+ },
+ {
+  "id": "0dc08404-9a11-41e3-84ef-2f11354028c4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of SHE and ABL signaling in vascular tubulogenesis",
+  "text": "Molecular and cellular mechamisms that regulate the formation and maintenance of vascular lumen, or\ntubulogenesis, are poorly understood. The proposed study will investigate the functional role of an\nevolutionarily conserved novel adaptor protein Src homology 2 domain containing E (She) and its interaction\nwith Abelson (Abl) kinase signaling pathway in regulating vascular lumen size in zebrafish embryos and human\nvascular endothelial cells. We will further explore the potential application of SHE as a tool to normalize\nvascular lumen size in human venous malformation. The acquired knowledge will promote development of new\nstrategies aimed at treating vascular malformations as well as bioengineering new vessels for regenerative\ntherapies."
+ },
+ {
+  "id": "0dc23061-f8a3-4ac0-9947-d59941e06cb7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Fronto-insular network in cognitive-affective interactions during decision-making",
+  "text": "Cognitive and affective processes engage distinct but interacting systems in the brain, which are important\nin decision-making but disrupted by stress. This proposal will use innovative approaches to identify the functional\ncontributions of specific circuits and neuromodulation in frontal brain regions to cognitive-affective interactions\nduring decision-making, and the effects of stress on these circuits. Elucidating these neural mechanisms will not\nonly provide fundamental knowledge about the circuit mechanisms underlying higher brain functions, but also\nidentify potential therapeutic targets for alleviating the detrimental effects of stress and psychiatric illnesses."
+ },
+ {
+  "id": "0dc7fe3f-e2cd-488f-89d1-ed3029c3d618",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Determining drivers of mast cell expansion and function during human airway disease",
+  "text": "Mast cells (MC) are potent inflammatory cells that dramatically increase in concentration in the lungs of\nasthmatics and nasal polyps, however the committed progenitor from which they are thought to arise from is\none of the rarest cells in circulation. After identifying a series of markers to better identify MC progenitors\n(MCps) within inflamed airway tissue, we observed that MCp robustly proliferative within inflamed tissue, likely\nexplaining their disproportionate relationship with tissue resident MC concentration. This proposal seeks to\nbetter characterize infiltrating MCp in human airway tissue, identify the discrete epithelial- and fibroblast-\nderived signals responsible for directing MCp proliferation and differentiation, and determining the transcription\nfactor networks that underly the resulting MC phenotypes."
+ },
+ {
+  "id": "0dd34ea1-7ebf-4b58-a080-6efd353174d1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Predicting the spread of antimalarial drug resistance using deep learning surrogates",
+  "text": "Malaria remains one of the major global public health challenges and emerging resistance to antimalarials in\nAfrica threaten to increase morbidity and mortality. Currently, a major challenge for disease ecology is\nunderstanding and predicting how resistance to interventions emerges and spreads, which is information that\nnational control programs could use to tailor interventions. Here we use deep learning surrogates (DLS) to\novercome current limitations in modeling approaches to develop surrogates to predict temporal and spatial\nemergence and spread of antimalarial resistance."
+ },
+ {
+  "id": "0dd6f072-2cde-44ae-9b6c-b1daac0d6748",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "O-GlcNAcylation and YAP: Defining a novel pathway in heart failure",
+  "text": "The incidence of heart failure is increasing and deadly with 50% of patients dying within 5 years of diagnosis. I propose to\ntest a novel hypothesis that excessive carbohydrate modification of heart proteins (O-GlcNAcylation) activates a powerful\npro-growth pathway (YAP) to cause heart failure. If affirmed, this hypothesis may serve as a basis for new and improved\nheart failure therapies."
+ },
+ {
+  "id": "0dda24b2-cc89-4072-a1c5-5e92c49b561b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Joint Biology Consortium Resource-based Center",
+  "text": "The Joint Biology Consortium Resource-based Center\nUnderstanding inflammatory arthritis and related diseases requires access to high-quality biosamples and to\nincreasingly sophisticated experimental and analytical tools. The Joint Biology Consortium represents the\ncollective effort of a network of more than 70 researchers from 18 centers to overcome logistical challenges\ntogether to build a powerful engine of translational research in rheumatology and orthopedics."
+ },
+ {
+  "id": "0dde0918-4f97-4a60-889e-47bf6915c132",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "PIEZO1-Mediated Mechanotransduction in Neural Development",
+  "text": "Neural stem cells play a crucial role in brain development and have potential therapeutic applications in\ntreating neurological disorders and injuries. This research aims to understand how mechanical forces shape\nneural development through a protein called PIEZO1, which helps cells sense and respond to physical forces.\nOur findings will provide fundamental insights into brain development and may guide improved therapeutic\nstrategies for neural repair and treatment of neurodevelopmental disorders, ultimately helping to improve public\nhealth."
+ },
+ {
+  "id": "0ddfe8f1-1ad4-4650-93c6-ba12514bd15d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Elucidating the function of astacin metalloproteinases during host invasion in the skin-penetrating nematode Strongyloides stercoralis",
+  "text": "The soil-transmitted, skin-penetrating nematode Strongyloides stercoralis infects over 610 million individuals\nglobally and can cause chronic, debilitating conditions that persist for over 50 years. S. stercoralis infective larvae\ninvade hosts by penetrating through host skin, yet the molecular mechanisms that drive skin penetration are\npoorly understood. This proposal aims to determine the functional role of astacin metalloproteinases during skin\npenetration. The results will provide fundamental groundwork for the development of targeted therapeutics and\nprophylactics against skin-penetrating nematodes."
+ },
+ {
+  "id": "0de472f2-11a9-42e0-a529-153287a10a97",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "NeuroTech Harbor - 21701",
+  "text": "PET imaging is the gold standard for Alzheimer’s diagnosis, but current systems are expensive\nand inaccessible. We propose a compact, flexible, low-cost, portable Time-of-Flight Positron\nEmission Tomography (TOF-PET) system to enable accessible, confirmatory imaging for\nAlzheimer’s Disease (AD) diagnosis in outpatient and mobile care settings."
+ },
+ {
+  "id": "0de4a277-1a97-4006-b58f-76d154045628",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Real-Time, Longitudinal, Functional Brain Imaging via 4D Smart Epidermal Photoacoustic Tomography",
+  "text": "The ability to see inside the brain quickly and non-invasively is crucial for basic neuroscience research.\nPhotoacoustic tomography (PAT) can provide a powerful way to image the brain, but applying it to awake non-\nhuman primates (NHPs) has been challenging due to the skull’s distortion. Here we will design, develop, and\nvalidate a new epidermal PAT technology that overcomes all these challenges to advance the NHP brain imaging\nmethodology toward future medical applications."
+ },
+ {
+  "id": "0ded4205-c530-41ce-87cb-f81f0ebe3266",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Bispecific Antibody Therapeutics for Neuroblastoma and Diffuse Midline Glioma",
+  "text": "Our desire to replace or complement chemoradiotherapy with immunotherapy for children with solid or brain\ntumors is undermined by the fact that most of these tumors have very few genetic mutations and very few T\ncells in the tumor. The blood brain barrier prevents many immunotherapies from entering the brain. We\npropose protein engineering strategies to create next-generation bispecific T cell engagers that overcome\nthese barriers and instruct patients’ own T cells to kill the cancer cells."
+ },
+ {
+  "id": "0df04697-5e1c-4993-abb4-631468a222a9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Engineering RNA biodevices for precise modulation of fibroblasts to boost cardiac reprogramming",
+  "text": "This exploratory research aims to harness cutting-edge gene-editing techniques to enhance the efficiency and\nspecificity of reprogramming fibroblasts’ cell fate. We will pioneer innovative bioengineering approaches to\ndevelop precise strategies targeting cardiac fibroblasts for anti-fibrotic interventions or reprogramming purposes.\nOur primary target is a subset of cardiac fibroblasts, with the ultimate goal of fabricating more potent biodevices\nto prevent adverse remodeling and heart failure through in vivo cardiac reprogramming."
+ },
+ {
+  "id": "0df31a87-0ba4-451d-af40-ddbbe5f78a6f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Theory and infrastructure to expand the universe of statistical genetic models",
+  "text": "This proposal aims to produce statistical and computational tools that separate biological signal from social and\nenvironmental structure in large-scale human genetic studies. The resulting methods and scientific infrastructure\nwill improve the accuracy and interpretability of statistical genetic methods. These advances will accelerate\ndiscovery of mechanisms relevant to disease etiology and efforts toward mechanism-aware precision medicine."
+ },
+ {
+  "id": "0df34c95-7829-444d-a2a9-1028e97a4598",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Multidisciplinary Training in Microbial Pathogenesis",
+  "text": "The UCLA Microbial Pathogenesis Training Program provides essential support that unites students,\npostdoctoral fellows and faculty conducting research on pathogens that cause immense morbidity and mortality,\nand the host immune responses to these agents. Trainees are broadly educated in an array of biochemical and\ncellular mechanisms critical for establishing and maintaining microbial infections, as well as approaches used to\ncombat diseases. Developing and achieving research career objectives are also integral components of our\ntraining program."
+ },
+ {
+  "id": "0df57f35-0edc-450b-a3ff-e4e69c3fe42f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Metabolic Imaging Using Hyperpolarized Agents at Tracer Concentrations",
+  "text": "This project seeks to produce a low cost, continuous flow device capable of producing highly\nhyperpolarized agents of clinical importance, at concentrations suitable for continuous infusion\ninto in vitro cell culture and small animal preclinical experiments. This scheme is expected to\nsupport higher signal-to-noise and more easily understood measures of aberrant metabolism in\ndisease and its response to therapy. We then demonstrate this utility by comparing in vitro\nmetabolism of a cancer cell line to that of the same line in an induced tumor."
+ }
+]

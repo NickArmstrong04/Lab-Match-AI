@@ -1,0 +1,142 @@
+[
+ {
+  "id": "162410b8-0e65-4234-9024-37a4bf7b3965",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The UCSD Microbiome and Metagenomics Center",
+  "text": "The proposed Microbiome and Metagenomics Center is relevant to human health because we anticipate results\ncan be used by the Nutrition for Precision Health Consortium to understand the relationship between the\nmicrobiome, nutrition, and human health. Data and technologies developed will be widely available to the\ncommunity to promote further scientific advances. The Center is relevant to NIH and NIDDK’s mission because\nit seeks to produce high quality metagenomic and metatranscriptomic data that will help determine how nutrition\nand the microbiome can be used to improve people’s health and quality of life."
+ },
+ {
+  "id": "1631ca7f-8ede-4777-b569-4cbc3ee536f6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Imaging with high chemical and spatial resolutions using mass spectrometry",
+  "text": "Biomedical imaging provides important functional, metabolic, and molecular information to scientists and\nphysicians to facilitate a wide variety of basic, diagnostic, and therapeutic applications. In particular, molecular\nimaging at high chemical resolution offers the opportunity to discover novel biomarkers and mechanisms of\ndisease, while molecular imaging at high spatial resolutions offers the opportunity to directly measure changing\nconcentrations of molecules in exceedingly small areas within and between individual cells. Our lab proposes to\ndevelop novel instrumentation, gas-phase reactions, sample preparation protocols, and computational strategies\nto enable unique molecular imaging technologies in a wide variety of biomedical research settings, such as in\nstudies of infectious disease, diabetes, neurodegeneration, and cancer."
+ },
+ {
+  "id": "1632a3c1-dfbb-47a9-be13-a9c512dd20b8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Integrative Multidisciplinary Discovery Platform to Unlock Marine Natural Products Therapeutic Opportunities",
+  "text": "The genomes of cyanobacteria and sponge-associated microbes encode numerous compounds that could\nprovide the basis for new drugs. Discovery and development of these chemicals as drug candidates, however,\nis challenging due to their low availability in Nature. The proposed multidisciplinary research will address this\nlimitation and should provide the methodology to increase the number of new natural products as starting points\nfor drug discovery and development."
+ },
+ {
+  "id": "163edaaf-08bc-44c3-bed8-ab065b920f46",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The nose-lung cross talk in upper respiratory virus infection induced asthma exacerbations",
+  "text": "Upper respiratory virus infection (URVI) is responsible for 80% of asthma attacks; however, the underlying\nmechanisms remain poorly understood. This project is proposed to dissect the cellular and molecular\nmechanisms undelying the nose -lung cross talk, particularly how URVI causes asthma attacks. Findings from\nthis research are expected to lead to not only novel preventive and therapeutic strategies for asthmatics, but\nalso to define nasal mucosal immune system and subsequently facilitate nasal vaccine development against\nairborne pathogens.\nOMB No. 0925-0001/0002 (Rev. 01/18 Approved Through 03/31/2020) Page Continuation Format Page"
+ },
+ {
+  "id": "164296ad-6125-4ac1-9b4e-58fedc292b3a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A kinetic framework to map the genetic determinants of alternative RNA isoform expression",
+  "text": "The biogenesis of mRNA is a complex and highly regulated process, requiring coordination between transcrip-\ntional and RNA processing machinery that each comprise of hundreds of regulatory RNAs and proteins, resulting\nin many possible alternative isoforms expressed from a single gene. While we can now extensively catalog the\nabundance and variability of mRNA isoforms across cellular states, we are still limited in our abilities to predict\ncoordination between the molecular steps that give rise to cellular diversity and the rates at which each of these\nmechanisms occurs. Here, we propose to generate checkpointed time-series RNA-sequencing data and robust\nstatistical models to quantify RNA processing rates, fully characterize the kinetic competition underlying alterna-\ntive isoform expression, and identify genetic variants associated with variabilty in RNA processing rates across\nhuman cell lines."
+ },
+ {
+  "id": "16441b35-187e-472e-9b07-ad097b87418c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "SUNBEAM Birth Cohort: Deciphering the role of early life skin dysfunction in development of the allergic march",
+  "text": "Atopic dermatitis (AD) and food allergy are among the most common chronic diseases of early childhood. These\ndiseases often occur in the same individuals and many times lead to the development of hay fever and asthma,\nin a poorly understood process termed the allergic march. In this project we will investigate whether early-life\nbarrier and immune abnormalities of the skin result in not only AD, but affect the overall immune system, leading\nto the allergic march."
+ },
+ {
+  "id": "164bf7e2-913f-4959-b5cd-2a244944d7aa",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Linking microbes to cardiovascular-associated metabolites using knowledge-based machine learning",
+  "text": "The gut microbiome produces metabolites that directly influence the development of cardiovascular disease\n(CVD), but we currently have no reliable way to determine how we could manipulate the microbiome to improve\ncardiovascular health. This project will utilize state-of-the-art protein language models to identify metabolic\nenzymes in over 200,000 gut bacterial genomes, develop machine learning frameworks that can predict the\nmetabolite production of bacterial communities, and analyze 10,000 CVD patients to identify microbial drivers of\ntheir disease. By establishing mechanistic links between specific microbes, metabolites, and CVD outcomes,\nthis work will enable precision microbiome therapies that reduce CVD morbidity and mortality."
+ },
+ {
+  "id": "1651c869-bb34-40a5-9d28-2a376d5e657e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Improved Methods and Commercialization of a Multimodal Vibrating Sharp-Edge Spray Ionization Source",
+  "text": "The proposed work will produce a disruptive product, the Spanda MultimodalTM ionization source. This source\nwill replace the top three selling ionization sources that are utilized by high-end mass spectrometers in many\ndifferent types of analytical laboratories. The new source will provide cost savings to customers with much\nimproved performance (e.g., throughput, sensitivity, and functionality)."
+ },
+ {
+  "id": "165577a3-f02b-4242-a3c2-19409e4a6bf5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting dsRNA sensing and ADAR1 in melanoma",
+  "text": "Targeting dsRNA pattern recognition receptors (PRRs) in tumors represents a promising strategy to treat\npatients with melanoma and other tumor types. In this proposal we address gaps in knowledge that limit the\ntranslation of dsRNA PRR-targeting strategies, determining the effects of dsRNA sensing on T cells, evaluating\nthe efficacy of targeting single versus multiple sensing pathways and identifying the tumors most likely to\nrespond to therapy. If successful, this work will help define the rules that govern tumor and immune responses\nto dsRNA and advance novel therapeutic strategies that target RIG-I and ADAR1."
+ },
+ {
+  "id": "165c7e0f-3640-4531-9185-41e9c7535828",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of NBR2, a Long Non-Coding RNA, in Human Ovarian Aging",
+  "text": "This project aims to uncover the molecular mechanisms underlying ovarian aging by investigating the role of the\nlong non-coding RNA, NBR2, and its regulatory variant, which is associated with later age at natural menopause\nand longer reproductive lifespan. I will investigate how NBR2 regulates pro-longevity signaling pathways and\novarian cell function and how the regulatory variant alters NBR2 expression through changes in transcription\nfactor binding and chromatin architecture. This research will advance our understanding of the genetic and\nmolecular drivers of ovarian aging and may lead to new intervention strategies to promote reproductive longevity\nand healthspan in women."
+ },
+ {
+  "id": "1660b645-f1c0-4fcb-ab09-73f3f797774e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Precision Medicine in Prediabetes: Identifying Cardiometabolic Subtypes to Improve Risk Stratification",
+  "text": "Prediabetes is defined based solely on glycemic biomarkers, but there is substantial variation in\npathophysiology, cardiometabolic risk factor profiles, and prognosis among people with prediabetes. We will\nuse state-of-the-art methods to classify individuals with prediabetes into clusters with distinct cardiometabolic\nrisk profiles with varying risks of diabetes and complications."
+ },
+ {
+  "id": "1665940e-60b6-4766-8cae-efcb77207bc5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Precision Targeting of Hippocampal Subfields with AAVs",
+  "text": "The hippocampus is responsible for key memory functions and spatial navigation and is a focal point of several\nneurodegenerative diseases such as epilepsy and Alzheimer’s disease, affecting millions of people worldwide.\nDevelopments from this proposal will lead to novel and potentially therapeutic tool development for a fuller\nunderstanding of basic neuronal function in hippocampus."
+ },
+ {
+  "id": "166a4739-afb9-40d8-8455-2c567a7baa11",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Developing allogeneic iNKT cell adoptive therapy to improve outcomes for HSCT indications",
+  "text": "Hematopoietic Stem Cell Transplantation (HSCT) is a life-saving treatment for multiple chronic debilitating\ndiseases, including blood cancers, immunodeficiencies, and certain viral infections. However, HSCT is limited\nby several critical problems, including failure of the graft to take hold, and attack of patient tissues by graft\ncells. MiNK Therapeutics has developed a cellular immunotherapy (agenT-797) composed of a highly\nspecialized immune population called invariant Natural Killer T (iNKT) cells, that has shown promise for\ntreating immune disorders in other disease settings. This project investigates the potential of agenT-797 to\nenhance the success of HSCT by inhibiting attack of patient tissues and promoting successful immune\nrepopulation by graft cells. Completion of these studies will provide key data to support the clinical application\nof agenT-797 in HSCT procedures."
+ },
+ {
+  "id": "1670fb22-6046-4381-8aa7-c19ec6768e76",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "IL17 dependent angiocrine signaling drives inflammation in alcohol associated hepatitis",
+  "text": "Alcoholic hepatitis is a disease of intense liver inflammation and injury caused by heavy alcohol use that can be\ndeadly when severe. Cytokine IL17 may contribute to the development of alcoholic hepatitis by stimulating liver\nsinusoidal endothelial cells (LSECs) to produce chemokines that drives the inflammatory response. In this study,\nwe will explore the mechanisms of IL17-mediated LSEC activation in alcoholic hepatitis and experiment with\nnovel ways of inhibiting IL17 production by targeting a gene regulatory element."
+ },
+ {
+  "id": "167c4aa2-f4c0-4762-974c-1b4a434b0018",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "ENaC regulation and its role in blood pressure homeostasis",
+  "text": "Epithelial sodium channels (ENaCs) are expressed in distal aspects of the nephron and facilitate the reabsorption\nof filtered sodium from kidney tubules, thereby regulating body sodium content, fluid volume and blood pressure.\nENaCs are expressed at other sites that influence blood pressure, including antigen presenting dendritic cells\nand monocytes where they have a role in linking a high salt diet, inflammation and blood pressure. Proposed\nstudies will delineate the roles of specific ENaC subunits and key ENaC regulators in dendritic cell and monocyte\nactivation and blood pressure."
+ },
+ {
+  "id": "16805324-43d9-4804-88f1-f4c72c47e896",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Linking Genetic and Clinical Data to Optimize Surgical Opioid Analgesic Prescribing and Predict Risks of Opioid-Related Adverse Drug Events",
+  "text": "This proposal aims to quantitatively evaluate effects of opioid drugs on post-surgical pain relief and risk of\nopioid-related adverse drug events using patient-level clinical and genetic information. Statistical and machine\nlearning models will be developed to recommend optimal opioid prescription dosage (oral morphine milligram\nequivalents). Polygenic risk score will be built to represent patients' genetic susceptibility to the given post-\nsurgical opioid prescription-related outcomes and identify high-risk patient populations."
+ },
+ {
+  "id": "1690046b-b544-443a-995b-7a602d5875af",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Daily experiences and cognitive mediators of behavioral obesity treatment outcomes",
+  "text": "A significant proportion of individuals who enroll in behavioral weight loss interventions do not achieve clinically meaningful weight reductions. This project will characterize the mechanisms through which adverse daily experiences and present bias -- a cognitive tendency to prioritize immediate needs over long-term goals -- account for variation in weight loss outcomes."
+ },
+ {
+  "id": "1692152e-74a7-437d-bccf-56bc895299f0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Toward Personalized Prognosis and Outcomes in Primary Progressive Aphasia",
+  "text": "Primary progressive aphasia (PPA), a devastating neurodegenerative syndrome that\ninvolves relentless development of language impairment, is currently not treatable in part\nbecause of a lack of tools available for identifying the underlying molecular diagnosis\nand for monitoring patients. This project aims to employ and validate new imaging\nmethods for use as markers in clinical research and care, one goal of which is to serve\nas markers to determine whether potential therapies are effective."
+ },
+ {
+  "id": "16966bd8-68d9-407d-8d45-ad5020eda5c3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Resources and Workforce Development for the Regional Biocontainment Laboratories",
+  "text": "The Duke Regional Biocontainment Laboratory was commissioned in 2007 as a part of a network of 12 RBLs\ntasked with providing state-of-the-art facilities to aid in the response emerging pathogens and pandemic\npreparedness. This grant will provide critical support of the RBL operational infrastructure, comprehensive\ntraining program, and enhancement of Research Support services."
+ },
+ {
+  "id": "169783de-b806-4700-a0e6-f2a85bab8833",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Molecular Biology and Genetics of Human Tumor Viruses",
+  "text": "OVERALL – PROJECT NARRATIVE\nViruses contribute to at least 21 different human cancers, representing approximately 15% of all human cancers.\nUnderstanding the biology of these human tumor viruses and how they cause cancer will provide new\napproaches for preventing and treating the associated cancers. In this program project grant a highly interactive\ngroup of seven investigators and their laboratory members engage in collaborative research focused on two\nobjectives: to elucidate the life cycles of and transformation by human tumor viruses and to translate this\nunderstanding into the identification of targets for specific anti-viral, anti-tumor therapies."
+ }
+]

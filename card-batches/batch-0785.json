@@ -1,0 +1,142 @@
+[
+ {
+  "id": "8b1bd0d7-f20e-4de8-830b-3cfdbb24542b",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "The Stanford Training Program in ELSI Research",
+  "text": "This application is for continued support of a T32 research training program at Stanford University to develop\nindependent scholars who can conduct rigorous research on ethical, legal and social implications of genetics\nand genomics (ELSI). Since 2016, with support of this T32 award, we have appointed 13 postdoctoral scholars\ninto the program, and 9 have completed their training. The goal of this renewal is to train 7 postdoctoral fellows\n(including 5 new trainees) and to continue our successful contribution to the excellence of the ELSI research\ncommunities."
+ },
+ {
+  "id": "8b1c1b69-76b8-41de-99b5-da68e6d8437e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Nano Electrospun Polymeric Biomaterial Scaffold for GBM Interstitial Immunotherapy",
+  "text": "Glioblastoma (GBM) is an aggressive brain cancer with poor survival rates, even with current treatments like\nsurgery. This project uses a biodegradable material called acetalated dextran (Ace-DEX) to deliver an immune-\nactivating drug directly to the tumor site after surgery. The goal is to boost the body’s immune response against\nthe cancer while minimizing side effects, offering a new and more effective way to treat GBM."
+ },
+ {
+  "id": "8b28223b-1cf6-4465-943e-5513760eff67",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Contribution of DNA replication to epigenetic inheritance in a model multi-cellular organism",
+  "text": "RELEVANCE (See instructions): \nAsymmetric cell division (ACD) contributes to cellular diversity during development and adult tissue homeostasis \nbecause it produces two genetically identical cells with distinct fates influenced by the information they inherit. \nFailure to properly regulate these programs leads to many diseases such as tissue degeneration and cancer. In this \nproject, I will provide insight into how DNA replication-coupled chromatin assembly generates asymmetries that \nunderlie ACD in development and germline stem cells."
+ },
+ {
+  "id": "8b2ac7f0-6155-49df-b408-8b33cf8d5a9d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Defining the molecular interactions within nanoparticles that enable delivery of long nucleic acids",
+  "text": "Therapeutic use of CRISPR/Cas is currently limited by the lack of safe and effective delivery carriers that can\nmediate gene editing in vivo to targeted tissues and cells. In this grant, we study recently developed Selective\nORgan Targeting (SORT) lipid nanoparticles (LNPs) that can mediate tissue-specific gene editing in the liver,\nlung, and spleen. Outcomes of this work will include elucidating the fundamental mechanisms how and why\nSORT LNPs target extrahepatic tissues, determining how SORT molecules control efficacy and tolerability for\nimproved gene editing, quantifying cell-type gene editing specificity to expand targeted gene editing, and\nultimately opening new avenues for CRISPR/Cas-based correction of genetic diseases by developing\nefficacious, safe, and translatable nanoparticle carriers."
+ },
+ {
+  "id": "8b351c2b-0736-4a6d-8451-98cfb62f37d6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Impacts of Consultants on Financial, Operational, and Quality Outcomes in the U.S. Health System",
+  "text": "Health care providers – particularly nonprofit health care delivery organizations – are increasingly turning to\nconsultants for financial and operational expertise; however, no empirical research has yet examined the costs\nor impacts of these consultants. By creatively leveraging publicly available IRS tax filings for nonprofit health\ncare delivery organizations, using machine learning to identify consulting contracts, linking to health care- and\npatient-level datasets, and applying causal inference methods, the proposed work will provide the first\nassessment of consultants in the U.S. health system."
+ },
+ {
+  "id": "8b380501-a6a4-4f3b-a9e2-cb13141d8c6a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Family-centered Risk Information and Screening Education to Support Children with Genetic Cancer Risk",
+  "text": "Hereditary cancer predisposition syndromes affect 5-10% of patients with incident cancers, with heightened risk\namong patients who develop cancer at a young age, especially children. As a result, genetic counseling and\ntesting is increasingly recommended for children with new cancer diagnoses so that screening for new cancers\ncan take place; however, no family-centered models for cancer risk communication have been developed. The\nproposed study will develop and test a novel, patient- and family-centered model for cancer risk communication\nto meet the unique needs of children with genetic cancer risk."
+ },
+ {
+  "id": "8b3d59e8-ebf0-403d-9b31-6cd7eaf34e93",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Shark Radiotherapy for the Treatment of Triple-Negative Breast Cancer",
+  "text": "Triple-negative breast cancer (TNBC) is a highly lethal subtype of breast cancer and there is an unmet need\nto develop innovative, effective therapies to combat TNBC. Radiopharmaceutical therapies (RPTs) are in\ndevelopment for nearly all forms of cancer, however, no FDA-approved RPTs exist for TNBC nor are there any\nundergoing clinical trials. The goal of this project is to develop a clinically relevant therapeutic strategy using\ntargeted RPTs derived from sharks that will effectively and safely deliver therapeutic radionuclides to the tumor\nresulting in an increased therapeutic index for RPTs and improved patient outcomes."
+ },
+ {
+  "id": "8b3fd2ec-221e-4b2f-aa25-1d6a5b1663c6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Automated speech assessment for diagnosis of FTD spectrum disorders",
+  "text": "Frontotemporal dementia (FTD) spectrum disorders represent one of the most common causes of dementia in\nyounger individuals but can be challenging to diagnose, resulting in high social and economic burden. FTD\noften causes changes to a patient’s speech, which makes speech an ideal target for a digital tool to aid the\ndiagnosis of FTD. In this proposal, we outline a project to develop a digital technology that will use speech\nrecordings from a self-administered speech exam and provide predictions for abnormal speech characteristics\nand FTD subtype using machine learning."
+ },
+ {
+  "id": "8b497aa2-d6ac-448a-8ef8-4e3b2e26d2b0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "In vivo genome editing for cerebrovascular disorders",
+  "text": "Cerebral small vessel disease (cSVD) is a major cause of neurodegeneration and stroke. This multi-PI project\nuses an ACTA2 R179H genetic vasculopathy model to test gene editing as a therapy to restore vascular and\nwhite-matter integrity and to develop imaging and behavioral biomarkers that guide translation to human trials."
+ },
+ {
+  "id": "8b51f2d5-522c-49c3-9027-633a60279258",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mapping the determinants of bedaquiline resistance in Mycobacterium tuberculosis",
+  "text": "Bedaquiline (BDQ) is recently developed antibiotic that is used to treat extensively drug-resistant Mycobacterium\ntuberculosis (Mtb). In this proposal, we will use saturating mutagenesis to create a comprehensive database of\nmmpR loss-of-function mutations that lead to BDQ resistance. This database can be used together with whole-\ngenome or amplicon sequencing approaches to rapidly diagnose resistance in clinical isolates."
+ },
+ {
+  "id": "8b54cc6d-e46c-4e6f-94f7-258c268da006",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Combating melanoma with an attenuated bacterial therapeutic",
+  "text": "Despite great advancement in immunotherapy for melanoma, such as adoptive cell transfer therapy and\ncheckpoint blockade, the clinical outcomes remain less satisfactory due to a variety of factors that lessen\nantitumor efficacy. By investigating the role and mechanism of a safe attenuated Brucella melitensis mutant\nproducing a tryptophan metabolite in modulating the suppressive tumor microenvironment and immunotherapy\nresistance, the proposed research will define and establish this microbe as a novel immunomodulatory agent\nthat can be exploited to significantly improve current melanoma immunotherapy."
+ },
+ {
+  "id": "8b55bb94-6414-4871-ba49-8f964b474d10",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "PHARMACOLOGICAL MODULATION OF PIEZO1 CHANNELS",
+  "text": "Pharmacological modulation of mechanosensitive Piezo ion channels could help treat numerous diseases such\nas inflammation, pain, and hypertension. To expand the currently limited Piezo channel pharmacome, this\nproposal will investigate structural mechanisms of Piezo1 activation by a small molecule agonist and leverage a\nrecently identified pharmacological binding site to rationally design novel modulators with improved properties.\nSuccessful completion of this project will deepen our fundamental understanding of vertebrate\nmechanosensation and uncover novel molecules with potential value for basic research and the clinic."
+ },
+ {
+  "id": "8b65ae71-31ad-44df-9dd2-9a59a82643aa",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Advanced PET/MRI to quantify heterogeneity of HER2 and vasculature in HER2+ breast-to-brain metastasis prior to combination targeted and radiotherapy",
+  "text": "Human epidermal growth factor receptor 2 positive (HER2+) breast cancer has a higher incidence of brain\nmetastases compared to other breast cancer subtypes and standard-of-care treatment is typically radiation and\nsystemic targeted HER2 therapy. The overall goal of this proposal is to integrate advanced molecular imaging\nwith [89Zr] trastuzumab- positron emission tomography (PET) of HER2 expression and dynamic contrast\nenhanced magnetic resonance imaging (MRI) of vascularity to assess treatment response to radiation following\nquantification of targeted HER2 bioavailability and heterogeneity in HER2+ breast-to-brain metastasis."
+ },
+ {
+  "id": "8b712cee-e8d7-49f8-92a9-f9d470e80d04",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of cancer immunotherapy-associated thrombosis",
+  "text": "Immunotherapy is one of the most important new approaches to cancer therapy to emerge over the last\nseveral decades but is associated with unique side effects that often mimic immune diseases. Recent studies\nhave identified thrombosis (excessive blood clotting) as an important side effect of immunotherapy, however,\nnothing is known about the underlying causes of blood clots in these patients. The goal of this application is to\ndefine these mechanisms using patient samples and a mouse model of blood clots induced by immunotherapy."
+ },
+ {
+  "id": "8b74d0f8-5307-4136-bf34-bb2a6152258c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Common Stem Cell of Origin for Junctional and Gastric Adenocarcinoma",
+  "text": "The molecular features of esophageal adenocarcinoma and intestinal gastric cancer suggest they are a single\ndisease from a common and unusual cell-of-origin. Therapeutics that target this common cell-of-origin could\ncontribute to strategies for the elimination of these lethal cancers."
+ },
+ {
+  "id": "8b7a6ba2-f961-404f-87bd-2cd2c99ee81a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Transcriptional Regulation of Dormancy and Emergence in Breast Cancer",
+  "text": "Breast cancer-related death primarily results from metastatic growth of disseminated cells. The goal of this\nproject is to identify gene regulation programs that are critical for metastatic outgrowth of breast cancer cells\nand amenable to pharmacological inhibition to reduce metastatic burden in breast cancer patients."
+ },
+ {
+  "id": "8b8150b0-c259-4c19-842d-12d2a26bdf3e",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "South Texas Medical Scientist Training Program (STX-MSTP)",
+  "text": "The South Texas MSTP trains the next generation of physician scientists in an interdisciplinary\nbasic science training environment with translational science and bioinformatics components. The\nSouth Texas MSTP emphasizes training in high quality clinical care and rigorous scientific\ninvestigation while also developing leadership and communication skillsets."
+ },
+ {
+  "id": "8b8f69d0-ff2f-4fc4-a9ca-dc1c201a01e1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of microridge protrusion morphogenesis on mucosal epithelial cells",
+  "text": "Many mucosal epithelial cells project elaborate protrusions on their apical surfaces, called microridges, which\nhelp adsorb and retain mucus. The Sagasti lab has established a zebrafish model to investigate the\nmorphogenesis of these understudied protrusions, revealing novel mechanisms by which the actomyosin\ncortex, cytolinkers, and intermediate filaments contribute to protrusion morphogenesis. Future work will\ninvestigate how cortical contractility is temporally and spatially regulated to promote microridge\nmorphogenesis, and identify additional regulatory proteins that build the microridge cytoskeletal scaffold."
+ },
+ {
+  "id": "8b90a32c-0c82-4477-b6f3-c36a8a89c542",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Restriction of Toxoplasma growth in human cells",
+  "text": "Toxoplasma gondii is an obligate intracellular pathogen that can cause serious disease in\nimmunocompromised individuals, such as AIDS patients, and fetuses, and is also a major cause of blindness\nin otherwise healthy individuals. In this proposal we will determine the mechanisms by which stimulated\nprimary human cells inhibit Toxoplasma growth and how the parasite’s secreted effectors counteract these\nmechanisms. This will provide valuable insights into how human cells detect and destroy Toxoplasma and how\nToxoplasma counteracts this, potentially leading to novel therapeutics and allowing prediction of the virulence\nof specific Toxoplasma strains in humans."
+ },
+ {
+  "id": "8b963ef2-4d72-49d3-8b44-377578d25839",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Functional genomics of microglial phagocytosis for precision neuroimmune therapeutics",
+  "text": "This project aims to develop the first in vivo CRISPR KO genetic screening platform to identify genetic\nregulators of phagocytosis in microglia, the brain resident macrophage, in the context of Alzheimer's disease.\nBy leveraging advanced hematopoietic stem cell gene editing, barcoding, and transplantation into disease\nmodels, this research will uncover novel therapeutic targets to enhance microglial function and mitigate\ncognitive decline in AD. The findings and methods developed here will have broad implications for\nunderstanding the basic biology of tissue resident macrophages and diseases involving tissue-resident\nmacrophage phagocytosis, such as cancer and atherosclerosis."
+ }
+]

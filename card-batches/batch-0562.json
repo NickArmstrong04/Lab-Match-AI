@@ -1,0 +1,142 @@
+[
+ {
+  "id": "3b445d8a-e25d-4e1f-adb2-7302d51613a5",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "A unified probabilistic model and software implementation for analysis of nascent RNA sequencing data",
+  "text": "Methods for sequencing newly transcribed RNA molecules, or “nascent” RNAs, have become widely used in\nthe study of transcription, with broad implications for both basic biology and human disease. However, these\nmethods produce complex data sets that are challenging to analyze, and limited software for analysis is\navailable to the scientific community. We propose to develop a powerful new statistical and machine-learning\nframework, and a well-engineered open-source software implementation, that together will enable a wide\nvariety of new and improved analyses of nascent RNA sequencing data."
+ },
+ {
+  "id": "3b4de603-da35-4ffd-9966-be089b6f2ff3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cell and Tissue Imaging",
+  "text": "Cell and Tissue Imaging Core Advanced cellular microscopy is a powerful tool for biological research and plays an important role in the study of the pathogenesis and eventual treatment of diabetes mellitus. Imaging technology has evolved rapidly over the last decade leading to improvements in resolution, sensitivity and speed that have created new opportunities for studying processes across many orders of magnitude and in real-time in living cells and animals. However, the costs of increasingly sophisticated equipment are substantial and the expertise to efficiently use, maintain, and develop this equipment is not common in most labs. There is therefore a significant gap between the availability of these powerful tools and the ability of investigators to access and use them efficiently. The Cell and Tissue Imaging Core was established in response to feedback from DRC center members to leverage the significant institutional investment in the newly created Washington University Center for Cellular Imaging (WUCCI) by providing an integrated approach to investigate the structure and dynamic behavior of diabetes-related cells and tissues. The overall objective of the Core is to provide access to and technical support in using advanced cellular microscopy to accelerate the pace, expand the scope, and improve the efficiency of diabetes research at Washington University. Core services meet the unique requirements of numerous investigators over a wide range of basic and translational research and attract new investigators into diabetes research. Importantly, users benefit from the in-depth diabetes and technical expertise of the Core directors and technical staff in time spent in consultation for experimental design and interpretation of data. During the past funding cycle, the Core served 67 DRC investigator research laboratories (including 14 P&F recipients), who expensed $788,342 in core recharges, representing approximately 18% of all WUCCI activity. Eighteen DRC member laboratories received micro-grant funding through the DRC Imaging Core Scholarship program. Ten of these labs were directed by junior faculty members at the rank of Assistant Professor. Thirty-five publications used and cited core services. Given the broad use of the Core over the past funding cycle, and the establishment of new imaging technologies (e.g. cryo-EM and lattice lightsheet), sample preparation services (e.g. tissue clearing), and analysis approaches (e.g. AI-based immunohistochemistry and immunofluorescent image analysis), it is anticipated that requests for Cell and Tissue Imaging Core services will continue to grow. The substantial demand by DRC members for advanced microscopic imaging and image analysis is strong evidence that the Cell and Tissue Imaging Core provides services that leverage generous institutional support and unique expertise to facilitate important and innovative diabetes research."
+ },
+ {
+  "id": "3b5415d2-3eb2-465a-b518-9c56c97ebf85",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Impact of RB activation on the pancreatic cancer epigenome and tumor microenvironment",
+  "text": "RELEVANCE:\nPancreatic cancer has the worst prognosis of any common cancer, and is the 3rd leading cause of cancer deaths\nin the United States. Here we will explore how targeting two important pathways in pancreatic cancer can be\nexploited therapeutically by limiting tumor proliferation and inducing an immune response. These studies are\nspecifically directed at improving the outcome of pancreatic cancer."
+ },
+ {
+  "id": "3b5556df-6a6a-46dc-87b0-9586e875acbe",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Core C: Infectious Disease Core",
+  "text": "CORE C: INFECTIOUS DISEASE ABSTRACT Microbiological safety is central to clinical xenotransplantation. The Infectious Disease Core will provide microbiological surveillance of multi-GE pigs and non-human primate (NHP) xenograft recipients using advanced metagenomic techniques. We will provide expertise to complement veterinary support. Quantitative next generation sequencing (NGS) will be provided on cell-free DNA and RNA for panels of known and common pathogens of swine and NHP and nontargeted sequencing for unknown and unexpected organisms. Based on experience with clinical and preclinical xenotransplantation, the core will provide data on viruses, bacteria, fungi, and parasites for which sequence data are available (>20,000). The NGS approach will also provide potential pathogen discovery to advance screening for clinical xenotransplantation where knowledge of potential porcine pathogens is limited. We will apply screening using hybrid capture for viral target enrichment for Whole Transcriptome Sequencing using a Comprehensive Viral Capture Panel (targeted and non- targeted) to validate this technique and increase assay sensitivity via detection of viruses not found by standard NGS. Samples will be obtained from xenograft recipients in each Project under either standard or costimulatory blockade-based immunosuppression. These data will be provided to Projects as a basis for refining management of antimicrobial prophylaxis, adjusting intensity of immunosuppression, and provide sequences for spatial transcriptomics probes in the pathology core to further document the presence of infection in specific xenograft tissues and cells(B)."
+ },
+ {
+  "id": "3b5b76fc-9140-4a13-9c13-81dd73efcdc8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Structural and functional basis of myocardial dysregulation in genetic cardiomyopathy",
+  "text": "Mutations in sarcomere proteins can lead to hypertrophic and dilated cardiomyopathy in humans, and treating\nthese diseases requires us to understand how these mutations alter sarcomere structure and function. To\naddress this gap, we will use high-energy x-ray diffraction, which provides structural details at the molecular\nlevel, in live intact beating myocardium in transgenic pig hearts, expressing these various mutations, as pig\nmyocardium is similar to humans."
+ },
+ {
+  "id": "3b5d5e28-fcc3-4ba0-8e10-d272ea390e2c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Transgenerational Inheritance of a Cocaine Resistance Phenotype",
+  "text": "A growing body of evidence indicates that environmental information can be inherited, which suggests that\nchanges in the mammalian germline can act as a trans-generational carrier of environmental information. Here,\nwe describe a rat model developed in order to delineate heritable behavioral characteristics resulting from\npaternal self-administration of the psychostimulants cocaine and methamphetamine. The experiments\ndescribed in this application will use state-of-the-art molecular and behavioral methodologies to examine\nepigenetic mechanisms whereby psychostimulant-associated information can be transmitted from sires to\noffspring and grand-offspring."
+ },
+ {
+  "id": "3b672248-baac-4f05-881b-1f9be323a964",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Monoclonal Antibody Therapeutics for Candida auris",
+  "text": "In the past decade Candida auris has emerged a new pathogenic fungus that causes disease associated with high morbidity and mortality. C. auris has an intrinsic resistance to azoles and polyenes, leaving echinocandins as the only reliably effective class of antifungal agents. Unfortunately, drug resistance to echinocandins is rising rapidly and there is an urgent need for new antifungal drugs and new approaches to therapy. This project proposes the pre-clinical development of mAb-based therapy against C. auris. In recent decades mAbs have emerged as major therapeutic agents in medicine but they are relatively underused in the field of infectious diseases. Antibody therapies have a storied history for the treatment of infectious diseases and there is considerable evidence that they are active against Candida spp., including C. auris. Immunotherapy in the form of mAbs makes sense because most C. auris- related disease occurs in debilitated individuals with impaired immunity and antibody therapies provide immediate immunity. Furthermore, antibody therapies represent a fundamentally different form of antifungal therapy than that associated with small molecule drugs and thus provide the opportunities for synergy and additivity with existing therapies. Unfortunately, no mAbs to C. auris have been made and relatively little work has been done to understand humoral and cellular immunity to this increasingly important fungal pathogen. Hence, we propose to generate a suite of new mAbs to identify suitable candidates for clinical development and will study their mechanisms of action and efficacy in combination with the three classes of antifungal drugs. Three Aims are proposed: 1) To generate a large repertoire of mAbs to C. auris surface determinants; 2) To identify protective mAbs to C. auris and establish their mechanism of action; and 3) To identify the most effective mAb combinations with antifungal drugs. This project will deliver mAbs for future clinical development, provide a new understanding of the mechanisms of antibody-mediated protection against C. auris and create an immunological knowledge base that is essential for the development of immune mediated therapies and vaccines."
+ },
+ {
+  "id": "3b70958d-58df-46e6-8ce0-c073e0cce8f9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Data Management and Statistical Core C",
+  "text": "PROJECT SUMMARY - DATA MANAGEMENT AND STATISTICAL CORE The Data Management and Statistics (DMS) Core plays a central role in all activities of the Northwestern ADRC by ensuring that information generated across ADRC operations is systematically captured, curated, integrated, and shared, while also providing advanced design and analytic expertise. Over the past five years, the Core has undergone a major transformation, investing in infrastructure and expertise that have enhanced its impact on intramural research, streamlined data submissions to NACC, and strengthened collaborations with other ADRCs and external partners. The DMS Core established a modern, secure, and flexible database ecosystem equipped with tools to support data capture, curation, storage, search, sharing, transfer, and analysis across all ADRC components. Statisticians within the DMS Core provide expertise across the full research lifecycle, from the generation and refinement of hypotheses to the design and execution of rigorous analyses. They contribute to grant development by formulating and documenting power and sample size calculations, and they design and implement data collection instruments, oversee data quality monitoring, and perform advanced statistical analyses. Beyond standard applications, the DMS Core develops and applies innovative biostatistical methods to meet emerging research needs within the Northwestern ADRC, including approaches tailored to complex longitudinal, high-dimensional, and multimodal data. Increasingly, the Core is also leveraging artificial intelligence and machine learning techniques to complement traditional statistical methodologies, enhancing prediction, enabling integration across diverse data types (e.g., clinical, imaging, and omics), and supporting individualized, data-driven insights into aging and dementia. Statistical consultation and collaboration are available to all investigators, from senior faculty to postdoctoral and graduate trainees, ensuring broad access to state-of-the-art quantitative expertise. Looking ahead, the DMS Core will be guided by four interrelated goals: (1) to develop and implement innovative data management and sharing strategies that foster collaboration across ADRCs and NACC, advancing standardization of data systems and processes; (2) to provide advanced biostatistical support to ensure methodological rigor and maximize the impact of research findings; (3) to develop and apply novel biostatistical approaches that enable individualized, data-driven insights into aging-related diseases; and (4) to integrate artificial intelligence and machine learning methods to accelerate discovery in Alzheimer’s disease and related dementias. These efforts will ensure that the DMS Core continues to serve as a critical hub of data and analytic innovation, enabling the Northwestern ADRC to address emerging scientific challenges and to contribute leadership in national data harmonization and resource sharing initiatives."
+ },
+ {
+  "id": "3b71eed4-5f5d-4ce9-970d-9827797abc41",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Determining the role of the glucocorticoid receptor in phagocyte pro-inflammatory responses.",
+  "text": "Glucocorticoid anti-inflammatory therapy increases the risk of opportunistic infections. Using an in vivo larval zebrafish model, the proposed research aims to identify how endogenous glucocorticoid signaling affects macrophage and neutrophil responses to pathogens, in order to discover new strategies for the development of safe glucocorticoid therapy."
+ },
+ {
+  "id": "3b729890-2f9a-4d96-a0e2-9978a8533510",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Chronic Stress Effects on Aversion Encoding by D1- and D2- Medium Spiny Neurons in the Nucleus Accumbens",
+  "text": "Disorders of motivated behavior, such as depression can be triggered or aggravated by chronic stress. This\nproject will investigate the effects of chronic stress on the encoding of aversive stimuli by different types of striatal\nneurons and the underlying neurobiological mechanisms. Specifically, the proposed experiments will determine\nhow stress mediates changes in striatal activity during negative reinforcement and punishment learning."
+ },
+ {
+  "id": "3b7f6c13-f775-401b-94e9-6db15156fc44",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mechanisms of TDP-43 neurotoxicity in Alzheimer's disease",
+  "text": "Alzheimer’s disease, the most frequent aging-associated dementia, predominantly affects individuals age\n65 or older. After age 65, the likelihood of developing Alzheimer’s disease doubles every 5 years.\nApproximately half of American Veterans are age 65 years or older, making them vulnerable to developing\nAlzheimer’s disease. Further, head injuries, including traumatic brain injuries experienced by Veterans\nduring their military service, puts individuals at elevated risk of dementia. The burden placed on American\nVeterans afflicted by Alzheimer’s disease is incalculable, as the disease causes progressive memory loss\nthat erodes their independence and ultimately leads to death. Here we propose to use models to examine\nfunctional and molecular aspects of brain changes that occur in Alzheimer’s disease and to identify new\nneuroprotective strategies. This may lead to potential therapeutic interventions for the benefit of all those\naffected by Alzheimer’s disease including Veterans."
+ },
+ {
+  "id": "3b9098ff-7e54-4ad2-8da4-3b9c27935a8a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "TGF-beta signaling in mitochondrial dynamics",
+  "text": "Mitochondria are cellular organelles that control energy production and oxidative stress. Defects in mitochondrial\nfunctions underlie numerous metabolic disorders including obesity and type 2 diabetes. Here our proposal\ninvestigates two novel and opposing signaling mechanisms that regulate mitochondrial remodeling, which we\nhypothesize play critical roles during development and tissue homeostasis."
+ },
+ {
+  "id": "3b9e66e1-68b2-46de-ae4a-f58d8edfc1f5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Learning a molecular shape space for the adaptive immune system",
+  "text": "The adaptive immune system can mount a specific response against a multitude of pathogens, through\nmolecular recognition grounded in complex biophysics of protein-protein interaction. The proposed project aims\nto develop data-driven approaches to characterize a representation of protein interactions in general, and of\nimmune receptors, in particular. The learned representation reflects the relevant biophysical properties that\ndetermine a protein receptor’s stability, and function, and can be used to predict immune recognition and to\ndesign novel immune receptors and antibodies against a desired target."
+ },
+ {
+  "id": "3ba6ad17-c692-4030-b8c1-56515a71dcb3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Imaging Shared Resource",
+  "text": "PROJECT SUMMARY – IMAGING SHARED RESOURCE The primary goal of the Imaging Shared Resource (ISR) is to provide Wistar Institute Cancer Center members with comprehensive and flexible imaging solutions, leveraging state-of-the-art technologies, to investigate fundamental questions in cancer biology at the cellular, sub-cellular, and organismic levels. The ISR provides advanced instrumentation ranging from optical microscopy systems to small animal imaging and targeted radiotherapy platforms, including support for post-acquisition image analysis. Recent technological advances have made it possible to utilize automated, quantitative, high-resolution imaging approaches to investigate the spatio-temporal aspects of cellular behavior related to malignant transformation, metastatic dissemination, and therapeutic response, and the ISR has positioned itself to support inquiries into these areas. The overall mission of the ISR is to assist Cancer Center researchers in visualizing and analyzing events that initiate malignant transformation with the goal of improving cancer diagnosis, and the development of better therapeutic agents. During the last budget cycle, the ISR was enhanced with new leadership, additional personnel, and a significant expansion of new instrumentation. The ISR provides low magnification and macro imaging for routine applications and offers basic widefield, upright and inverted microscopy, augmented with the addition of a new Nikon NiE automated upright microscope. It has also invested in a new Leica Stellaris 8 3X TauSTED scanning confocal microscope to complement an existing Leica SP8 WLL confocal. This new super-resolution microscope provides approximately 30 micron spatial resolution and signal separation for both live and fixed specimens, enabling real-time measurements of protein localization and interactions. A second Stellaris 8 system and fully automated Leica Mica microscope were also installed to address increased demand. A new Hamamatsu Nanozoomer S60 slide scanner enables whole-slide imaging (WSI) in both brightfield and fluorescence with all images being uploaded to Concentriq, a cloud-based retrieval and visualization platform. Significant upgrades have also been made to support imaging studies in live mouse models designed to interrogate metastatic progression and response to targeted therapies, including the addition of a new co-manager position to oversee the new instrumentation. A new Revvity Vega ultrasound system was purchased to complement our IVIS Spectrum CT and the Institute was awarded an S10 shared instrument grant (S10 OD030244) for the purchase of a new Xstrahl Small Animal Radiation Research Platform (SARRP). The Vega supports non-invasive imaging and quantitative 3D measurement of non-labeled targets such as orthotopic or subcutaneous tumors while also offering modalities for measuring vascularization, tissue stiffness and cardiac function, as well as image-guided injection. The SARRP supports both whole-body and targeted radiotherapy. Combined, these systems respond to an increasing role for advanced imaging and associated therapies within the Wistar Cancer Center."
+ },
+ {
+  "id": "3ba7b0a0-53da-4cac-a997-9814d23f40e7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Uncovering Druggable Allosteric Sites in HCN Channels",
+  "text": "The proposed research is geared towards discovering novel druggable sites on a physiologically important ion\nchannel to treat neurological conditions such as infantile epileptic encephalopathy, which is a severe form of\nearly-onset epilepsy. We will apply novel and established techniques and approaches towards determining the\nbinding sites and the mechanisms of action of known allosteric inhibitors and activators, which will help us\nunderstand how these molecules affect these channels. The insight we gain into the basic mechanism of this\nimportant class of channels will also enable the design and discovery of novel therapeutics that specifically target\nthe channels responsible for these disease conditions."
+ },
+ {
+  "id": "3ba84892-c7a9-4552-b6ba-bdf99a7738d5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Synaptic and behavioral changes induced by hearing loss and Alzheimer's disease in the auditory brainstem.",
+  "text": "Alzheimer’s disease is usually not diagnosed until cognitive decline is perceived late in life. We propose to\nstudy fundamental mechanisms of how the auditory system operates in mammals when Alzheimer's\nprogresses, and how hearing loss at different ages can be used as a property to investigate mechanisms of\nneuronal signal conduction and binaural hearing, aiming to develop an early forecast of AD through hearing\ndisorders. These studies will lead to an improved understanding of auditory signal processing in animals\nsuffering from hearing loss in the presence of Alzheimer’s disease and will guide future studies on how deficits\nin auditory brainstem signal conduction contribute to its progression."
+ },
+ {
+  "id": "3bac6229-bff2-4ec8-8806-086a66d84792",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Non-invasive monitoring of uterine contractions throughout the menstrual cycle",
+  "text": "Abnormalities in uterine contractions (UC) throughout the menstrual cycle are correlated to\nmany uterine issues including infertility, dysmenorrhea, endometriosis, irregular menstruation,\namong others, yet are highly understudied due to lack of tools which can monitor UC\ncontinuously throughout the menstrual cycle. This study will develop a non-invasive and low-\ncost wearable electrode-based UC measurement device capable of monitoring throughout the\ncycle and a corresponding computational simulation, both of which can distinguish differences in\nnormal and abnormal UC using this novel method. Results obtained here will result in the\ndevelopment of new technologies and methods for measuring UC which can open the doors to\na new field of research, which can not only allow for a better understanding of uterine\nphysiology but also brain-body connections involving the uterus."
+ },
+ {
+  "id": "3bb44196-4903-420e-981c-29ef8ed7479a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Neoadjuvant checkpoint blockade for recurrent glioblastoma",
+  "text": "The studies proposed herein are designed to investigate how pre-surgical/neoadjuvant immunotherapy may\nalter the systemic immune response and modify the tumor immune microenvironment in recurrent glioblastoma\npatients. We will take advantage of our unique access to biological samples, clinical data, and imaging data\nfrom an ongoing investigator-initiated clinical trial with Bristol Myers Squibb testing PD-1 (nivolumab) with or\nwithout CTLA-4 (ipilimumab) antibody blockade in the neoadjuvant setting and following a planned surgical\nresection. This project could potentially be transformative, as a better understanding of how neoadjuvant\nimmunotherapy alters immune responses within the tumor could teach us important lessons about the critical\nrequirements for productive anti-tumor responses in glioblastoma and how adaptive resistance occurs in this\ndisease."
+ },
+ {
+  "id": "3bb70e7c-e08c-4c69-9f2e-1f75f04e9186",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Real-World Assessment of Daily Functioning in Veterans with Type 2 Diabetes",
+  "text": "Nearly 25% of Veterans have diabetes, which costs the VA 1.5 billion annually. Diabetes is associated with\nimpaired daily functioning and quality of life. Most Veterans to do not engage in recommended physical activity\nand other diabetes self-management behaviors. Most self-management takes place outside of medical visits;\nhowever, factors related to self-management are only assessed at the time of medical visits, likely missing\nlarge amounts of variability. The proposed study will use real-world ambulatory assessment methods to\nexamine daily fluctuations in symptoms like mood, pain, and stress, and social context like social support and\ndaily interactions in relation to physical activities, in real-time, in Veteran’s own environments. Results will\ninform more effective assessment tools and interventions that may improve daily functioning and quality of life.\nTechnology-supported interventions can provide the right type of support at the right time by adapting to an\nindividual’s changing internal and contextual state to maximize physical, psychological, and social functioning."
+ },
+ {
+  "id": "3bb77ad9-5b91-4b20-8397-2fc27f545e26",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "De novo design and engineering of biological error correction",
+  "text": "Biology has evolved powerful error correction mechanisms to ensure the extreme fidelity of processes critical for\nlife and human health: DNA replication, protein translation, cellular proliferation, and immune signaling. Inspired\nby nature, the planned research will develop generalizable strategies to build such error correction into human-\nengineered systems to drastically increase specificity (correct versus incorrect outcomes) in therapeutic and\nbiotechnological applications. Examples range from highly sensitive diagnostics to tissue engineering to\nadvanced cell therapies."
+ }
+]

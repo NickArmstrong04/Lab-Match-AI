@@ -1,0 +1,142 @@
+[
+ {
+  "id": "6b1539e1-de80-401a-adfb-328329a2cb4d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Computational Models to Aid Personalized Stroke Decision-Making in AD/ADRD",
+  "text": "Stroke and Alzheimer’s Disease (AD) are leading causes of disability in older adults and often occur together,\nyet this population remains understudied and has been largely excluded from clinical trials of stroke\ntreatments. This project applies machine learning-based phenotyping and causal modeling to large, real-world\nmedical record datasets to efficiently identify patients with AD, determine when AD was first recognized in\nrelation to stroke, and examine how it influences treatment use and outcomes. The findings will help clinicians\nadvance safer, more personalized, and goal-concordant stroke care for people with AD and support the\nNational Institute on Aging’s mission and Strategic Direction Goal D to improve understanding of AD and\ndevelop interventions that enhance health and quality of life in aging populations."
+ },
+ {
+  "id": "6b197182-ecb4-4648-8bdd-883b56019e51",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating the molecular mechanisms of Plasmodium vivax invasion in Duffy-negative hosts",
+  "text": "The realization of Plasmodium vivax's ability to invade red blood cells of Duffy negative\nindividuals and occurring commonly in Africa changed the paradigm of our understanding of\nPlasmodium vivax biology. However, the underlying mechanisms of this phenomenon are yet to\nbe understood. This proposal will provide career development, through didactic and mentored\ntraining, for a promising MD/PhD student to investigate potential mechanisms using a combined\nin vitro and in vivo approach that leverages advanced genomic and bioinformatic techniques."
+ },
+ {
+  "id": "6b267281-1485-457f-87ed-4459382c974b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Fluorescence lifetime-based tumor contrast enhancement using exogenous probes",
+  "text": "There is an urgent unmet need for imaging techniques that provide improved tumor contrast\nenhancement in preclinical and clinical oncologic applications. We will validate the feasibility and\naccuracy of a novel approach, based on detecting the sub-nanosecond decay times of cancerous\ntissue stained with fluorescent dyes, for tumor margin assessment in patients undergoing head and\nneck cancer surgery."
+ },
+ {
+  "id": "6b2d2b09-5334-4962-908e-18956b3f67f8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Machine learning and AI-based tools for translational precision medicine",
+  "text": "We will develop AI/ML-based methodologies that leverage emerging genomics and high-throughput screening\ndata to address four critical gaps in translational precision medicine: improved spatial transcriptomic analysis,\nrare-disease methylation integration, reduced-representation CRISPR library design, and ultra–high-throughput\ndrug combination screening. By creating robust, open-source computational tools for each of these emerging\ndata modalities, our work will enable improved preclinical modeling of diseases and the more efficient\nidentification of new therapeutic strategies. Overall, this research program will expand AI’s impact on\ntranslational precision medicne, facilitating more effective treatments for human diseases."
+ },
+ {
+  "id": "6b2ff860-76cc-4e0b-b49d-6f79e97812c4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Neural Quantification & Imaging Core",
+  "text": "Abstract/Summary: Neural Quantification & Imaging Core The Neural Quantification & Imaging Core will manage, support, and provide access to the major equipment and resources of the Center for Pediatric Brain Health. It will be the only research core of the Center and will be housed in the new 15,000+ square feet Institute for Human Neuroscience at Boys Town National Research Hospital (BTNRH). The Core will provide critical support and infrastructure to all four of the COBRE research project leaders (RPLs), as well as a collection of established research programs associated with the Institute and across BTNRH more broadly. The key equipment and resources of the Core will include two state-of-the- art Triux Neo magnetoencephalography (MEG) systems for recording and imaging neural oscillations, a 3-Tesla Siemens Prisma MRI scanner equipped with high-performance gradients and a 64-channel head coil for high- resolution structural, functional, diffusion, and spectroscopic imaging, and a realistic mock scanner for helping children and other participants prepare for the claustrophobic and loud MRI environment. In addition, the Core will operationalize a brain stimulation suite, extensive computing and data processing resources, comprehensive analytical support, and in the near future, an ultra-modern optically-pumped magnetometry (OPM) system for advanced neurophysiological measurements. The Neural Quantification & Imaging Core will also host at least two neuroimaging workshops per year, support targeted equipment usage through the Center’s pilot projects program, and serve as the home base for fellows supported through the Center’s postdoctoral neuroimaging training program. The Core will be directed by Dr. Tony Wilson, who is an expert in multimodal neuroimaging with over 20 years of experience with MEG imaging, structural and functional MRI, brain stimulation, and other tools and analytical approaches for advanced human neuroscience research. The Core’s staff will also include a dedicated site engineer/physicist and technicians for the MEG and MRI systems. Financially, the Core will be supported by instrument use fees, BTNRH, and the COBRE, with BTNRH covering any year-to-year deficits and all capital depreciation. As the only Core at BTNRH capable of measuring biological parameters of the living human brain, the facility will fill a major void in the institution’s overall research infrastructure and be a critical component to the success of the Center for Pediatric Brain Health."
+ },
+ {
+  "id": "6b355cc2-c56d-4970-91c1-14d3ec14cfd6",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Non-viral genome, epigenome, and transcriptome engineering for clinical CAR-T cell manufacturing",
+  "text": "CRISPR-based T cell engineering offers unprecedented opportunities to reprogram cellular functions in order to\ndevelop advanced cell therapies that improve cancer outcomes and expand patient access. This project will\nimplement a diverse CRISPR toolset for genome, epigenome, and transcriptome modification to understand\ncritical parameters affecting primary human T cell engineering outcomes, and will incorporate these tools within\na multiplexed and clinically-compatible T cell manufacturing pipeline to develop safer and more effective cancer\ntherapies."
+ },
+ {
+  "id": "6b3854ba-eeb0-48ca-b14b-3a8a53b7fd63",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "The Bacterial and Viral Bioinformatics Resource Center (BV-BRC)",
+  "text": "The Bacterial and Viral Bioinformatics Center (BV-BRC), a unified knowledgebase and analysis\nresource, serves over 45,000 infectious disease researchers studying bacterial and viral\npathogens by providing integrated access to omics data, analysis services, workspace, and\nextensive training material. We propose to maintain, extend, and enhance BV-BRC by building\ninnovative tools for comprehensive bacterial, viral and metagenomic analyses, aiding\ndevelopment of diagnostics and therapeutics, developing a next-generation AI- driven natural\nlanguage-based user interface, and honing tools and procedures for pandemic preparedness.\nWe are strongly committed to enhancing accessibility to bioinformatics resources through our\nrobust training and outreach program, with special emphasis on increasing outreach to\nstudents by conducting training for educators."
+ },
+ {
+  "id": "6b3aeb9c-1d5d-4c93-ab1f-44af2a005fbf",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Integrated Program for Cutaneous Immune-Stromal Interactions in SLE (IPCISS)",
+  "text": "(Overall)\nSkin lesions associated with cutaneous and systemic lupus are triggered by exposure to sunlight, are difficult to\ntreat, and result in poor quality of life and increased health care costs for patients. The University of Michigan\nIntegrated Program in Cutaneous Immune-Stromal interactions in SLE (IPCISS) will focus on implementing novel\ntechnologies and analysis strategies to 1) study the stromal and immune cellular interactions that drive persistent\ninflammation and 2) the communication mechanisms and cellular players critical for sensitivity to ultraviolet light.\nThis Program, coupled with the training and mentorship, scientific discourse, and patient involvement supported\nby the Enrichment Programs, will achieve the NIH's mission to foster fundamental discoveries and their\napplications to protect and improve public health, with a specific focus on lupus and its associated skin disease."
+ },
+ {
+  "id": "6b42caa9-87a8-4319-a800-114390aa02cf",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Precision prevention strategy to increase uptake and engagement in lung cancer screening and smoking cessation treatment",
+  "text": "Annual lung cancer screening and tobacco treatment are pillars of cancer prevention and control yet are often\nnot provided by physicians or received by patients in primary care settings. New evidence suggests that\npersonalized risk feedback including a patient's genetic and clinical information could highlight the benefits of\nthese practices and engage physicians and patients in improved care. This study will test the impact of a\ngenetically-informed intervention on physicians' ordering and patients' completion of lung cancer screening and\ntobacco treatment in primary care."
+ },
+ {
+  "id": "6b445ccb-5028-4f61-91d2-b956a1404f14",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mentored Research (K01) Integrative Spatial Epidemiology Study of Wildlife Rabies Spillover",
+  "text": "The proposed research on rabies spillover from wildlife to humans and livestock is relevant to public health because\npathogen spillover (i) can generate highly infectious emerging zoonotic diseases, (ii) can cause human and economic losses,\nand (iii) generally originates from wildlife. Little is known about ecological drivers of rabies spillover (and pathogen\nspillover more generally), including why some geographic areas are infected while others are not. This proposal represents\na novel theoretical and analytical approach to understand pathogen spillover transmission, which is directly relevant to\nNIH’s mission to seek fundamental knowledge of the nature of living systems and application of that knowledge to enhance\nhuman health."
+ },
+ {
+  "id": "6b4cb1a5-b004-4bab-97e8-9e3d35a6c06d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Telomere-to-telomere assemblies of human genomes",
+  "text": "Assembling the first fully complete human genome sequence was a breakthrough for understanding human\nbiology and cellular life more broadly. It has given researchers access to over 200 million base pairs of DNA of\nthe human genome that had previously been considered impossible to sequence but are critical to\nunderstanding cell function, human evolution, and chromosome segregation. The T2T Consortium’s technology\ndevelopment, funded through this award, is fundamentally changing how genetic variation, including variation\nknown to be associated with important phenotypes in health and disease, is discovered not just in humans, but\nmodel organisms, endangered species, and agriculturally important plants and animals."
+ },
+ {
+  "id": "6b5992fd-b334-4e0f-8d40-fecfb40c5813",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Deciphering tumor heterogeneity, metastatic spread, and treatment resistance in advanced bladder cancer",
+  "text": "Bladder cancer (BLCA) is a common and deadly disease, especially in its metastatic form, which often exhibits\ndiverse and aggressive histological subtypes. This research will investigate how tumor heterogeneity and\nclonal dynamics contribute to oligometastatic disease progression and treatment resistance using multi-organ\nsampling of mBLCA patient specimens, rare variant histology metastatic patient-derived xenograft models,\nstate-of-the-art genomic sequencing, and mechanistic studies. Insights from this work provide a new\nunderstanding of the role of clonal diversity in bladder cancer pathogenesis and potential strategies to improve\noutcomes for patients with mBLCA through more effective and personalized therapies."
+ },
+ {
+  "id": "6b5e246a-feee-47d3-b7c4-5ab2608b8bdd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating the Genesis of Tumor Immune Microenvironment (TIME) as a function of Inflammation",
+  "text": "The type and pattern of immune cell infiltrate in breast cancer is of growing clinical importance as they associate\nwith response to therapy and are the specific target of immunotherapy. However, the factors that influence the\ngenesis of the type of tumor immune microenvironment (TiME) have yet to be defined. Our proposed systematic,\nmechanistic, high content analysis and modeling of the cellular and molecular mechanisms by which breast\ncancers evade the immune system focuses on will elucidate key factors that govern the origins of the TiME."
+ },
+ {
+  "id": "6b5ef825-dc1a-4b04-ac91-9b40f46628d4",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Modulation of Microglial Immunometabolism by B-Hydroxybutyrate in Tauopathy",
+  "text": "This research addresses the urgent need for new Alzheimer's disease (AD) treatments by investigating how the\nketone body β-hydroxybutyrate (BHB) reprograms microglial metabolism to reduce tau pathology and\nneuroinflammation. Discovering the molecular pathways through which BHB acts will provide critical insight into\nthe relationship between metabolism and brain health. Ultimately, these findings will inform the development of\nnovel metabolic-based strategies to slow or prevent neurodegeneration in AD, benefiting public health."
+ },
+ {
+  "id": "6b62db02-5571-40a3-ad10-c3de29211e9c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Functional Interrogation of Somatic Mosaicism in Neurodevelopmental Disorders",
+  "text": "Understanding the role of mosaic somatic variation in neuropsychiatric disease is limited by traditional statistical\nmethods in linking disease status to risk variants, but high-throughput genomic- and stem cell-based\ntechnologies offer a novel approach to identify causal variants across cellular and developmental contexts. By\nintegrating these advanced technologies with my computational and experimental expertise, I will create a\ncomprehensive functional catalog of somatic mosaicism in schizophrenia and autism and mechanistically\ninterrogate potential disease-causal candidates. This F32 will support my multi-disciplinary training in\ncomputational genomics, stem cells biology, and a diverse array of phenotyping techniques towards my goal of\nestablishing an independent laboratory to study the causal role of intercellular genomic differences in human\ndisease."
+ },
+ {
+  "id": "6b68bf40-9b38-4a00-80ad-aeb6c1c09371",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Role of CLIC/GEEC pathway in VCC formation and HIV-1 transmission from macrophages",
+  "text": "This project will determine how a cellular process in macrophages, the CLIC/GEEC endocytic pathway, is\nused by HIV-1 to transport captured viruses inside the cell and create a unique structure called the virus-\ncontaining compartment or VCC. The VCC is important for virus storage prior to transmission to other cells\nincluding T cells. New mechanisms underlying the formation of the VCC and transmission of HIV-1 from\ninfected macrophages will be defined in this project."
+ },
+ {
+  "id": "6b6b890c-aa29-4b28-9273-b0f9d90aba58",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development and Improvement of Research Software for DNA Methylation and RNA Sequencing Analysis",
+  "text": "Computer science, software engineering, and bioinformatics play a central role in understanding how cancer\narises and develops, but many biology software programs are developed as disparate scripts that are difficult to\nmaintain, and are frequently abandoned once the individual project ends. In this project, I will develop standards-\ncompliant, easy-to-use, widely disseminated software that works with multiple data types, and help users\nunderstand how DNA methylation patterns cause cancer. I will also complete my MS in software engineering\nand apply that knowledge to store and manipulate large biomedical datasets, thus establishing myself as a high-\nquality research software engineer at Van Andel Institute, and for the larger biomedical field."
+ },
+ {
+  "id": "6b77d87d-19b2-4a29-926a-c68bf6a94f93",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Translational Biomarker Analytical Core",
+  "text": "The Translational Biomarker Analytical Core (TBAC) Laboratory makes available to DRC investigators analytical techniques to support studies of diabetes mellitus, insulin resistance, intermediary metabolism, and medical consequences of diabetes in human subjects and animal models. The services provided are best based in a Core Laboratory because they require investigator consultation, special instrumentation and methods that are difficult or impracticable to establish in individual laboratories. In addition, this arrangement allows for coordinated attention to reliability and reproducibility of the assays employed. In investigations of glucose homeostasis, insulin secretion, insulin resistance, dyslipidemia, hormone action, molecular genetics, or drug effects, it is essential to be able to monitor hormones such as insulin, C-peptide, glucagon, GLP-1, GIP, PYY, cortisol and catecholamines and such metabolites as glucose, FFA, glycerol, ketones, amino acids, lipids, as well as more detailed assessment of the metabolomics fingerprint. With the increasing technical capabilities to develop and validate novel disease biomarkers, one of the key functions of the Core is to expeditiously develop and inaugurate these new methods so that the research base can avail itself of these assays. The SPECIFIC AIMS of the TBAC are: 1) To meet the high demand for a dynamic range of bioassays by the research base, enhancing efficiency, quality, and reproducibility, while minimizing costs. 2) To respond to members’ needs by supporting the development of new assays and methods that leverage the expertise of the Core staff. 3) To facilitate access to targeted and untargeted metabolomics/lipidomics determinations by the Columbia Irving Biomarker Laboratory and the newly expanded Metabolomics core. 4) To facilitate access to experts in bioinformatics, kinetic studies and pathway analyses required to appropriately interpret metabolomics/lipidomics determinations and stable isotopes kinetic studies. 5) To provide expert advice to investigators and their associates on analytical methods, experimental design, and data interpretation for state-of-the art phenotyping of diabetes. 6) To train junior investigators and post-doctoral fellows in practical skills in the Core methods and, if appropriate, transfer analytical methods to their own labs.7) To facilitate collaborations among the research base, advertise available resources, and develop and/or facilitate investigator access to new technologies, such as MS-based methods to analyze and quantify metabolites. TBAC analytic and consultative capabilities are closely articulated with the other DRC Cores to provide an integrated approach to quantitative metabolic analyses."
+ },
+ {
+  "id": "6b79a6b0-0df7-4730-9ac4-8c8f375dbb4d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Advancing the Genomics Knowledge Base for Oral Diseases",
+  "text": "This project seeks to perform the largest genome-wide association scans of dental caries and periodontitis,\ndevelop polygenic risk scores, and identify gene-by-environment interactions in a research consortium of over\n800,000 adult participants of at least 27 studies. Knowledge gained may ultimately be useful for informing\naspects of underlying biology, DNA-based risk assessment, and designing interventions to improve oral health."
+ },
+ {
+  "id": "6b7b6af2-6654-4bb4-b616-079e051fb446",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Understanding Schizophrenia Risk Mechanisms Via Multimodal Analysis of Patient-derived Neurons and 3D Cortical Organoids and Correlation with Clinical and Cognitive Phenotypes",
+  "text": "Schizophrenia is a common and debilitating mental illness with relatively unknown etiology or pathophysiology.\nWe are proposing to identify pathophysiology by studying neurons derived from schizophrenia patient and control\ninduced pluripotent stem cells. Electrophysiology, cell biology, imaging, and molecular analyses will be applied\nto these models to discover pathophysiology associated with specific clinical and cognitive symptomatology\nunique to each individual patient with the goal of developing new therapeutic treatments."
+ }
+]

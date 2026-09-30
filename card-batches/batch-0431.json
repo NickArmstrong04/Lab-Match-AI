@@ -1,0 +1,142 @@
+[
+ {
+  "id": "0c38b51a-4ad1-4e2e-928f-41318cf6f132",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Fair Phenotype Annotation and Genomic Reinterpretation",
+  "text": "Successful completion of these aims will enable the efficient, scalable extraction of evolving phenotypes from EHRs to \nimprove our understanding of the nuanced phenotypic manifestations of genetic conditions, and ultimately facilitate the \nsuccessful implementation of genomic variant reinterpretation in clinical practice."
+ },
+ {
+  "id": "0c3ae1c9-a8cf-4b9d-b055-53fbe19af174",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Developing a Dre-rox Recombination-Based Genetically Engineered Mouse Model (GEMM) for NUT Carcinoma",
+  "text": "NUT-rearranged neoplasm, such as Nut Carcinoma (NC), is an emerging group of aggressive cancers. We have\nbuilt an innovative cre-lox-based genetically engineered mouse model of NC and will transform it into a dre-rox-\nbased model. The new model will allow the application of dre-cre dual recombinase for mechanism studies and\ntherapeutic target testing and provide a new generalizable strategy for developing preclinical models for NUT\ncarcinoma and other NUT-rearranged neoplasms."
+ },
+ {
+  "id": "0c43ed33-b7df-4231-8ff6-361342d083f7",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Manganese in inflammatory bowel disease",
+  "text": "Inflammatory bowel disease (IBD), including Crohn's disease and ulcerative colitis, is a family of chronic\ninflammatory disorders of the gastrointestinal tract that affects over 3 million Americans. This project aims to\ndefine the critical developmental time windows during which dietary manganese and the SLC39A8 gene play\ncrucial roles in maintaining intestinal health. By advancing our understanding of the etiology of IBD, our findings\nwill pave the way for future research to develop precise dietary recommendations and therapeutic interventions,\nultimately mitigating IBD risk across the lifespan."
+ },
+ {
+  "id": "0c470915-d9d1-4e93-a01d-0dc0d39894d5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Air Pollution and Neighborhood Stressors as Determinants of Non-Small Cell Lung Cancer (NSCLC) Mutation Patterns and Recurrence",
+  "text": "This study will explore how environmental exposures—particularly air pollution and neighborhood deprivation measures—affect lung cancer development and progression in individuals diagnosed with non-small cell lung cancer. By understanding how external exposures influence tumor biology and outcomes, this research may help identify mechanisms of disease variation and support improved early detection and prevention intervention strategies for individuals with elevated exposure risk."
+ },
+ {
+  "id": "0c475a8b-076e-485d-a654-03442aefe0e1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Dissecting and Predicting Lethal Prostate Cancer using Biologically Informed Artificial Intelligence",
+  "text": "PROJECT 3 NARRATIVE \n \nDetermination of the coordinated molecular and histopathologic features underlying various clinical states is critically needed to enable molecularly guided therapeutic strategies and biologically grounded predictive models for patients with localized prostate cancer who undergo surgery. We are developing biologically-guided artificial intelligence algorithms to understand the molecular and histopathologic features that distinguish key clinical outcomes in this context. This project will guide the convergence of artificial intelligence with translational prostate cancer research to enable precision oncology strategies for this patient population."
+ },
+ {
+  "id": "0c49e299-d995-4dcc-9663-91b3667e9c69",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Modeling mTOR network dynamics to achieve optimal drug rescue of congenital mTORopathies",
+  "text": "PROJECT NARRARATIVE\nThe mTOR signaling network plays a critical role in regulating brain cell function, including processes like\nprotein production and neuron communication. Disruptions in this pathway are linked to a range of neurological\ndisorders, including epilepsy, neuropsychiatric and neurodegenerative diseases. This project will investigate\nhow mTOR protein interactions within neurons are altered by disease-causing mutations and by drugs\ntargeting the mTOR pathway, providing insights that could lead to new therapeutic strategies for mTOR-related\ndisorders."
+ },
+ {
+  "id": "0c4a1d5c-25b2-4979-bae8-840a44986808",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Mapping the Full Spectrum of Human Genetic Variation and Archaic Hominin Introgression in Oceania",
+  "text": "While our understanding of the patterns of human genomic variation has greatly improved in the past decades,\ngenetic studies failed to capture the full picture of genetic variation harbored in human populations across the\nglobe. Research in my newly established lab aims to bridge one of the largest gaps in representation in\ngenomics, by leading two large-scale genome sequencing studies of geographically diverse populations in\nOceania, with the goal of reconstructing our evolutionary past and disentangling the genetic basis of\nphenotypic variation and disease susceptibility."
+ },
+ {
+  "id": "0c4c9d89-14ab-4bf5-91da-6ca6d2678e1a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Clemson Light Imaging Facility (CLIF)",
+  "text": "The Clemson Light Imaging Facility (CLIF) will serve as the Imaging and Cell Sorting Core for the EPIC COBRE. The CLIF is a multi-user core facility located in the Clemson University Life Sciences Facility. The core is under the direction of Dr. Terri Bruce, and houses a suite of Nikon microscopes as well as several high-end Leica microscopes with confocal, multiphoton spectral confocal, STED Super-Resolution, and HyVolution® capabilities. The core also has a high content screener (GE InCell Analyzer 2500 HS) and cell sorting equipment (BioRad S3e). The specific aims of the Imaging and Cell Sorting Core are 1) to promote and facilitate the research undertaken by the project leaders of this COBRE; 2) to enhance the technical assistance capacity/capabilities of the CLIF; and 3) to promote and facilitate research at Clemson University and in the state of South Carolina. Aim 1 will be addressed by providing assistance to project leaders with design and implementation of visualization and cell sorting experiments, providing advanced technique and equipment training, and providing organized workshops on microscopy and advanced cell sorting. Aim 2 will be addressed by the addition of a second full- time technician, who will assist with experiment development, advanced imaging and cytometry. Aim 3 will be addressed by hosting educational workshops on advanced light imaging techniques, the principles and uses of flow cytometry and sorting, and data analysis."
+ },
+ {
+  "id": "0c54f0d5-849b-4252-be93-d42366b4d46e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "HIV-CRISP for Same Visit Test and Switch Viral Load and Resistance Testing",
+  "text": "This project aims to develop HIV-CRISP, a same-visit, point-of-care diagnostic platform that combines a\nbioinspired microchip with CRISPR technology to simultaneously detect HIV-1 viral load and drug resistance.\nThe test is designed to be cost-effective, automated, and user-friendly, enabling resistance-informed treatment\ndecisions (“test-and-switch”) during a single clinic visit. By integrating microfluidics, nanotechnology, and artificial\nintelligence, HIV-CRISP addresses a critical gap in HIV care for disproportionately affected populations and has\nthe potential to reduce treatment delays, prevent therapeutic failure, and improve outcomes for millions of people\nliving with HIV in the U.S. and worldwide, while also providing a flexible foundation adaptable to other infectious\ndiseases."
+ },
+ {
+  "id": "0c635f42-f717-4dfb-a52a-47257b362f9e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Transcriptional and metabolic heterogeneity in T cell differentiation",
+  "text": "Statement\nT cells are the cornerstone for immunotherapies for cancer and other diseases, but poor functional and\nproliferative capacity of cytotoxic T cells limit immunotherapeutic efficacy. We reveal transcriptional and\nmetabolic pathways as novel regulators of T cell differentiation, heterogeneity and antitumor immunity, and a\nbetter understanding of these pathways using both candidate and screening approaches is essential for our\nefforts to develop next-generation immunotherapeutic strategies."
+ },
+ {
+  "id": "0c6ab877-ae03-4d3d-8102-ec1164659800",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Northwestern Cancer Prevention Consortium",
+  "text": "The prevention of cancer avoids not only the burden of diagnostic testing and treatment, it also extends life (most demonstrably for those who are affected at younger ages). Safe and tolerable cancer prevention can be achieved to some extent through behavioral interventions, but these have proven difficult to implement for the majority of the population. Our project has the primary goal of evaluating new, effective strategies in early phase clinical trials, to provide cancer preventive options that can be precisely targeted to specific cancer causes, and personalized for individuals."
+ },
+ {
+  "id": "0c6d90c9-5a88-464e-ad46-94ff046cda29",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Defining the impact of detachment sensing proteins in ovarian cancer metastasis",
+  "text": "Ovarian cancer is the most lethal gynecological cancer in the United States. This study focuses on understanding\nhow cancer cells adapt during metastasis by focusing on a novel class of proteins activated by matrix\ndetachment, which are integral to oncogenic signaling pathways necessary for metastasis and disease\nprogression. Knowledge gained from this work will aid in our long-term goal to improve outcomes for ovarian\ncancer patients."
+ },
+ {
+  "id": "0c70fa12-6e1f-4865-a26f-101ca32cbccc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Receptor kinase signal integration in stem cell maintenance and development.",
+  "text": "Understanding the signaling pathways and networks that control development and stem cell production in\nplants will enable us to elucidate the common regulatory principals which govern stem cell biology and\ndevelopment across all species, including humans. This knowledge could help in efforts to engineer synthetic\nsignaling circuits to probe human disease pathways and develop new clinical applications. Additionally, as\nprojected population increases impact future food challenges, the ability to modify these pathways could help\nimprove yield and nutritional qualities of critical crop species."
+ },
+ {
+  "id": "0c781dc7-c3db-4008-a579-3760e46d43b6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Metabolic regulation of microglia, therapeutic ketosis, and Alzheimer’s disease",
+  "text": "It is critical to understand metabolic abnormalities of microglia in Alzheimer’s\ndisease but this remains challenging due to marked focal and regional\nheterogeneities of microglia. We will employ our spatial metabolomics workflow\nto characterize metabolic features/signatures of individual microglia in tissue\nsections, which will reveal Alzheimer’s disease-relevant microglial mechanisms."
+ },
+ {
+  "id": "0c792188-e88c-4499-aa1d-9f8de091a36b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Functional Genomics and Bioinformatics Core",
+  "text": "Functional Genomics and Bioinformatics (FGB) Core The Functional Genomics and Bioinformatics (FGB) Core is housed in a designated space within the Sanford Research Center and offers a range of molecular biology, genomics and bioinformatics services. The FGB Core has the infrastructure, expertise, equipment, and technical capabilities to provide both standard as well as specialized molecular and functional genomics services. The state-of-the-art equipment in the laboratory, along with the well-trained staff enable the core to continue to provide a wide range of molecular and genomics assays, including nucleic acid isolation and quality analysis and manipulation, quantitative real-time PCR analysis, RNAScope based gene expression pattern analysis, transcriptomics, single cell genomic studies, chromatin immunoprecipitation (chIP) studies, CRISPR/Cas9 mediated genome editing studies and bioinformatics services. Many of these services interface with other core facilities at Sanford Research such as the Flow Core for the genome editing projects, and Histology and Imaging Core for RNAScope studies. The bioinformatics services include analysis of RNA-sequencing, ChIP-sequencing, ATAC-sequencing, and single cell RNA- sequencing and whole exome sequencing results. We also provide network analysis as well as other customized informatics analysis. These bioinformatics services are provided in partnership with the South Dakota State University (SDSU) High Performance Computing Center. The FGB Core also assists with communicating and coordinating studies between Sanford Research scientists and providers of high throughput sequencing services such as the Sanford Prebys Burnham Medical Discovery Institute (SPBMDI) Genomics Core. The Core staff directly interact with research investigators to provide consultations, to assist with experimental design, assay execution and data analysis. The FGB Core also assists with preparation of manuscripts and grant proposals as well training of students interested in learning the techniques provided by the core. These FGB Core services have contributed extensively to publications, grant applications, and preclinical studies. The FGB core intends to continue to serve as a provider of current and advanced genomics techniques that strengthen the independent research programs at Sanford Research as well as at other regional Research Centers."
+ },
+ {
+  "id": "0c7c0993-a367-409e-90cf-0e27e772ba56",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "ISG Tregs in infection and inflammation",
+  "text": "Regulatory T cells are a type of T cell that plays a key role in preventing autoimmunity, reducing inflammation\nduring infection, and promoting tissue-repair after damage due to infection or trauma. We have recently\nidentified a subset of Tregs that have a unique gene program characterized by expression of\ninterferon-induced genes – this grant will identify where these different subsets go, what they recognize, and\nwhat they do to restore lung function following flu infections. Such information could be valuable for developing\nnew strategies to prevent autoimmunity triggered by viruses and augment recovery from infections."
+ },
+ {
+  "id": "0c86cb4d-d83e-48d5-a42d-15f131dca8d3",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Educating and Training Tomorrow’s Biomedical Workforce",
+  "text": "Morehouse School of Medicine’s training program addresses the critical need for development of a sustainable pool of biomedical scientists as leading investigators for the 21st century. This will be accomplished by developing and implementing innovative strategies that expand on the strengths of existing programs at Morehouse School of Medicine."
+ },
+ {
+  "id": "0c86df62-d991-4ac5-b5cb-199fdfa4b93d",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Establishing and benchmarking advanced methods to comprehensively characterize somatic genome variation in single human cells",
+  "text": "Numerous recent studies have consistently shown that likely no two cells in the human body have\nthe exact same genomes, a phenomenon called somatic mosaicism. Mosaicism can be studied\nusing various approaches, but the study of mutations directly in the cell promises a\ncomprehensive characterization of mosaicism in any tissue. However, all existing methods have\nsignificant limitations for studying the genome in a cell. Here we propose to benchmark and test\nnew approaches for comprehensive, accurate, and high-throughput analyses of the genomes of\nsingle cells."
+ },
+ {
+  "id": "0c883184-038d-4a53-8c39-52b39fb683f8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular basis of glycan recognition by T and B cells",
+  "text": "While our PO1 aims at positioning anti-glycan immunotherapy as a new approach to treat severe bacterial diseases, we will contribute some essential basic studies to it by deconstructing the immune recognition of glycans by T and B cells. This work is made possible by the chemistry groups (Projects 1, 2, and 3) who will provide unique immunogens and reagents and will fit next to the bacteriology and structural biology components of the consortium to perform in vivo studies and structure determinations. The integration of the immunology results within this framework will inform the chemists on how to modify glycan epitopes and their linkages to optimize immune recognition and in vivo effector functions. Our effort will be divided between three specific aims: Aim 1: Establish the molecular basis of glycan recognition by T cells. We have shown that cognate recognition of the glycopeptide (GP) by T cells occurred. We will determine its importance in driving high affinity anti-glycan antibodies and study the repertoire diversity of these cells. The biophysical and structural basis of MHC-GP T cell recognition will be examined as well. We hypothesize that cognate glycan recognition by T cells is important for driving high affinity B cell maturation. Aim 2: Establish the molecular basis of glycan recognition by B cells. We will examine the kinetics of germinal center formation upon immunization and follow the maturation of anti- glycan B cells towards high affinity by isolating single B cells with antigen specific reagents and sequencing their receptors. Biophysical studies after recombinant expression of antibodies, paired with the structural effort of Core 3 should allow to decipher the basic rules of glycan antibody recognition. Here, recognition of capsular antigens will be compared to the recognition of teichoic acids, peptidoglycans and O-linked saccharides. Aim 3: Effectiveness of the vaccinal immune response to glycan in mice. As we evaluate in standard models the protection capacity of anti-glycan antibodies, we will compare vaccine to passive immunotherapy. The possibility to optimize this latter intervention will be explored with recombinant antibodies aimed at avoiding Staphylococcus aureus ability to foil the B cell response. While we have shown that we could produce monoclonal antibodies of high affinity against bacterial glycans protective in challenges models, here, we should provide fundamental mechanistic insights into the recognition of glycans by B and T cells. Our team will challenge this knowledge in the context of one of the most threatening bacterial infections of man: Staphylococcus aureus."
+ },
+ {
+  "id": "0c8fbe38-89a2-4ee3-b103-71a5bbf861ea",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "CVM Vet-LIRN Veterinary Laboratory Diagnostic Program (U18)",
+  "text": "The Vet-LIRN program adds a unique component to FDA investigations and testing programs, by\ndirectly examining veterinary diagnostic samples to facilitate early detection of animal food and drug\nadulteration or contamination. The previous outbreak of Salmonella infantis in humans from\ncommercial pet food, and melamine in dog food as well as infant formula directly highlight the\nimportance of effective screening of animal food and tissues to prevent disease in humans. Virginia\nTech Animal Laboratory Services (ViTALS) is fully accredited by the AAVLD, a member of NAHLN, and\nhas been a member of the FDA CVM Vet-LIRN community since 2012, and has experience and expertise\nin testing clinical samples and can provide technical skill and support for ongoing outbreak testing."
+ }
+]

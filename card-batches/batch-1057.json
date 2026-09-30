@@ -1,0 +1,142 @@
+[
+ {
+  "id": "eb334fd9-625c-4ca9-8d03-101e4494cf83",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Integrated Detection and Classification of Sepsis via Tensor Methods Using EHR",
+  "text": "We will develop Sepsis Pulse, a suite of innovative tensor-based machine learning tools for the analysis of elec-\ntronic health record (EHR) data, with the goal of improving progress assessment, patient phenotyping, and treat-\nment planning of sepsis. These machine learning tools will focus on aligning sepsis progress timelines, pheno-\ntyping, and estimating treatment effects while accounting for the high dimensionality, sparsity, and temporality of\nEHR data. Sepsis Pulse will be integrated as a module within Sepsis Watch, the digital workflow utilized in Duke\nHospital’s healthcare system, to enhance the quality and outcomes of patient care."
+ },
+ {
+  "id": "eb33956a-1534-4408-a0eb-d2da0522255e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Spinal cord structure-function relationships in degenerative cervical myelopathy",
+  "text": "Degenerative cervical myelopathy (DCM) is a major cause of spinal cord\ndysfunction and disability in older adults. This project will use novel spinal cord imaging and functional\nassessments to improve prediction of outcomes after surgery for DCM. This will enhance our knowledge of\nrecovery of function and reduction of disability in DCM."
+ },
+ {
+  "id": "eb34205b-87ff-4b87-817e-269f8b6f2e35",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Immunosuppressive impact of the GPCR/MALT1 protease axis in triple-negative breast cancer",
+  "text": "Triple-negative breast cancer (TNBC) is a subtype of breast cancer that is associated with particularly poor\noutcomes and chemotherapy has been the mainstay of TNBC treatment for many years. With the recent advent\nof immunotherapy, certain patients with TNBC have experienced improved outcomes, although most patients\nfail to respond initially or develop resistance due to an immunosuppressive tumor microenvironment. This\nproposal investigates a molecular mechanism by which TNBC cells induce immunosuppression in their tumor\nmicroenvironment, paving the way for future development of new immunotherapeutic approaches to improving\noutcomes for patients with this challenging cancer."
+ },
+ {
+  "id": "eb3b2ad0-25a0-4a16-bbbe-21d3b7ecaccf",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "PUS7-tRNA axis in translational control of MYC-driven transcription and metabolic reprogramming",
+  "text": "Cancers driven by MYC oncoproteins, especially high-risk neuroblastoma in children, remain a major cause of\nmortality. This project explains how a cancer-controlled enzyme, PUS7, adds a chemical mark to tRNAs to\nboost production of proteins and metabolites that tumors need, and tests practical strategies to block this\nPUS7–tRNA pathway. The goal is a new, mechanism-based therapeutic approach for children and adults with\nMYC-driven tumors."
+ },
+ {
+  "id": "eb3f7b1c-2e19-4adb-a3e8-906a3a942bc3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cell and Genome Engineering Core",
+  "text": "The creation of safer and more effective off-the-shelf immune effector cells targeting cancer is highly relevant to\npublic health. T regulatory cells (Treg), NK cells and induced pluripotent stem cell (iPSC)-Tregs are alternatives\nto conventional T cells. Core D produces molecular reagents, provides molecular monitoring of cells, and\ndistributes cell populations, novel peptides (e.g., nanobodies) and constructing nucleic acid elements (e.g.,\nCARs, CRISPR/Cas9/base/gene targeting reagents etc.) for delivery to cells as outlined in the 3 Projects."
+ },
+ {
+  "id": "eb43af0d-e59d-4303-a2fb-32aaf1bdf0c2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Reversible stem cell dormancy in the basal chordate, Botrylloides diegensis",
+  "text": "Stem cell dormancy is a fundamental biological state that preserves regenerative capacity and tissue\nhomeostasis, and dysregulation of dormancy contributes to aging, degenerative diseases, and\nmalignancies. Despite its importance, the molecular mechanisms that establish and maintain dormancy\nremain poorly defined. We are developing a new model system that allows novel approaches to study\ndormancy, with the long-term goal of identifying potential targets for regenerative medicine and cancer\nbiology."
+ },
+ {
+  "id": "eb478c2a-26a2-4428-9b57-1330eddbba60",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Developmental programming of stress-sensitive neural circuits underlying social behavior",
+  "text": "Social anxiety is more common in women than in men, but the underlying mechanisms are unknown. The\nproposed experiments use rodent models to determine the mechanisms through which gonadal hormones\nshape neural circuits that mediate social approach and vigilance during adolescence."
+ },
+ {
+  "id": "eb4d5228-ba5b-478e-b8d9-9e682d5c10e2",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigation and engineering of natural killer cells for cancer immunotherapy",
+  "text": "(Relevance)\nNatural killer (NK) cell-based immunotherapy is an attractive strategy against cancer but faces several\nobstacles. We performed in vivo gain-of-function CRISPR screen on CAR-NK cells and identified a novel G-\nprotein coupled receptor as a functional NK booster. This study will unbiasedly dissect the regulatory\nmechanisms underlying this NK booster and harness it to advance NK cell therapy for effective next-generation\ncancer treatment."
+ },
+ {
+  "id": "eb4ddad9-009e-47cc-a59a-5519a957e8cc",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Omics Data Generation and Processing Core",
+  "text": "Abstract The Omics Data Generation and Processing Core will support the generation, analysis and dissemination of di<erent omics data types in support of scientiﬁc objectives of both MI-CARB projects. The Omics Core is led by experts in microbial genomics and metabolomics, and will support generation and analysis of isolate whole-genome sequencing, metagenomics (culture-enriched and untargeted), transcriptomics and untargeted metabolomics. In addition to performing data generation, the Omics Core will also lead data quality control, organization and analysis to facilitate robust, reproducible and cutting-edge integration of omics data. Lastly, the Omics Core will also lead e<orts to disseminate raw and processed omics data to the broader research community upon generation."
+ },
+ {
+  "id": "eb56b3e2-b805-4e0a-81f8-4445584fb8e1",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Synthetic epigenetic circuits: tunable cell fate switches controlled by dynamic and combinatorial inputs",
+  "text": "Harnessing epigenetic regulation into Synthetic Biology has the potential of augmenting the scope of cellular\nengineering with the functional capabilities of that support natural development, such as integration of multiple\nsignals over time to support cellular fate decisions that are stably inherited and the execution of temporally\ncontrolled gene expression programs. To address this need, the proposed research aims will establish a versatile\ncircuit design platform that leverages epigenetic regulation to elicit memory and temporally regulated expression\nprogramming in mammalian cells, such as cellular timers to orchestrate gene expression sequences, recorders\nfor monitoring and appropriately responding to disease in the host and artificial cell differentiation to drive cells\nto adopt distinct and complementary functional roles. These capabilities will be critical for engineering novel cell\ntherapies to effectively tackle complex diseases and address future therapeutic challenges."
+ },
+ {
+  "id": "eb5852cb-d001-4823-b378-421769b9a3c6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A novel oncolytic virus for pancreatic cancer immunotherapy",
+  "text": "Pancreatic cancer is a lethal malignancy. Even with surgical resection, the recurrence rate is high, and chemotherapy is recommended for all patients due to the systemic nature of the disease. A major treatment challenge is the high rate of resistance to the available treatments. Therefore, there is an urgent need to develop novel treatment modalities with effective and durable responses. Immunotherapy has recently revolutionized the treatment of several malignancies. While these patients have a durable response to immunotherapy and benefit from improved survival, many solid tumors and in particular, pancreatic cancer, do not respond to standard immunotherapy. They do not elicit a significant immune response and are considered immunologically “cold” tumors. A dense tumor microenvironment is a physical barrier against treatment delivery. It also suppresses the immune system to fight against cancer. Therefore, a multi-modality approach targeting tumor cells and tumor microenvironment can overcome treatment resistance more effectively. Converting “cold” tumors to “hot” tumors is an area of great interest in immuno-oncology research. Oncolytic viruses are one of the desirable platforms for this purpose. Their anti-cancer activity is not only the direct killing of tumor cells but also modulating the immune response against cancer. In this project, we have designed novel oncolytic viruses, on a vesicular stomatitis virus backbone, that are bioengineered to express enzymes that target the stroma and tumor microenvironment. In addition, they express antibodies against the immune checkpoint LAG-3. Immune checkpoints inhibit immune response against tumors and by blocking them, they can prevent tumor evasion from the immune system. The combination of LAG-3 inhibition with conventional immune checkpoint inhibitors (PD-1 inhibitors) has been recently shown to enhance immunotherapy efficacy and reverse resistance to PD-1 inhibitors. We hypothesize that this multi-target design offers a comprehensive approach against important resistance mechanisms in pancreatic cancer and not only offers an effective immunotherapeutic approach but also improves the response to available conventional therapies. This study aims to investigate whether targeting the extracellular matrix with the oncolytic virus platform improves anti-tumor toxicity. It determines whether dual targeting of the tumor microenvironment and immune checkpoint inhibition with this oncolytic virus elicits an enhanced immune response. Finally, we will investigate whether combining this novel oncolytic virus with PD-1 inhibitors and standard chemotherapy can elicit safe and effective tumor toxicity and enhanced immune response and if the approach can convert the “cold” tumors to “hot” tumors. Validating our hypothesis in preclinical models provides the required evidence for designing clinical trials that investigate the treatment efficacy and safety of this approach in pancreatic cancer patients. Establishing a successful immunotherapeutic approach can revolutionize the treatment of pancreatic cancer."
+ },
+ {
+  "id": "eb6074fa-2ce7-4290-9bbf-a0f66ec60abb",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Targeting mTORC1 translational control in FOXO1 fusion positive rhabdomyosarcoma",
+  "text": "PAX3-FOXO1 and related fusions remain elusive targets for drug therapy despite their clear oncogenic role\nand adverse prognostic impact in rhabdomyosarcoma (RMS), the most common soft tissue sarcoma of\nchildhood. Our recent genetic and biochemical discoveries offer hope that bi-steric mTORC1 inhibitors\ncapable of suppressing cap-dependent translation can directly target PAX3-FOXO1, but molecular insights into\nthe mechanisms for response to such inhibitors are essential to guide us beyond ongoing phase 1 testing.\nHere, we will test our hypothesis that bi-steric mTORC1 inhibition prevents translation of PAX3-FOXO1 mRNA\nand thus ablates its oncogenic program and target mechanisms of resistance that limit efficacy in preclinical\nmodels, with the long term goal of enabling biologically grounded combination treatments to cure children\naffected by this disease."
+ },
+ {
+  "id": "eb6205ee-b244-4120-a1c2-31471c90f829",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "New Statistical Methods for Modelling Cancer Outcomes",
+  "text": "The project has two critical components: first, to develop a cloud-native pipeline that enables\nscalable computing and extends the original Aims of the parent award; and second, to leverage\nthis pipeline to develop and test new methods for predicting and inferring adverse outcomes among\nlung cancer patients using the All of Us data."
+ },
+ {
+  "id": "eb6b5894-5f7f-4593-a80a-c41fdf6e839e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Genome Sequencing Core",
+  "text": "PROJECT SUMMARY – CORE B Next generation sequencing is a central tool in the analysis of signaling pathways important in development and disease. The Genome Sequencing Core (GSC) was established in Phase 1 of the CMADP to provide researchers at the University of Kansas and the state of Kansas with next-generation sequencing technologies as well as expertise in experimental design and analysis of sequence data. Projects in the GSC include whole genome assembly, genome re-sequencing for identification of mutations important in development and disease, transcriptome analysis (RNA-seq), variant mapping and genotyping, and identification of transcription factor interaction sites using chromatin immunoprecipitation combined with DNA sequencing (ChIP seq). The GSC houses Illumina MiSeq and NextSeq 550 sequencers with dedicated processor and storage space to run the instruments. To keep the GSC on the cutting edge of technology, a NextSeq 2000 instrument will be installed in the summer of 2021 to enhance and expand services. Next generation sequencing is an enabling technology in that it has the power to allow investigators from many different disciplines to ask new questions in their research areas of interest. The GSC enables genomics research at the University of Kansas by eliminating the barriers of cost and communication involved with using off-campus facilities. The GSC has been utilized by a broad user base at the University of Kansas, including Molecular Biosciences, Ecology and Evolutionary Biology, the Natural History Museum, Engineering, Pharmacy, and the KU Medical Center. Researchers at other universities in Kansas, including Kansas State University, Wichita State University, and Fort Hays State University have used the GSC. The GSC works with other IDeA program projects including the K-INBRE and the CBID COBRE. This broad and diverse user base will be key to the future sustainability of the GSC after Phase 3 as a University Core Research Laboratory."
+ },
+ {
+  "id": "eb71c47f-9cbe-4fe6-a4c5-cc3a2035d697",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "LHCGR signaling and responses during ovarian aging",
+  "text": "VA provides primary and specialty health care, including reproductive health care, to women Veterans.\nApproximately 40% of women Veterans are within their reproductive years and experience infertility at greater\nrates greater than the general population. Ovarian aging is a naturally occurring physiological process marked\nby declining fertility and eventual menopause at midlife. As ovarian function declines, changes in the hormonal\nmilieu increase the susceptibility to developing several co-morbidities including osteoporosis and metabolic\ndisorders, which have significant impact on quality of life and result in a heavy healthcare cost burden. This study\nwill reveal unique molecular signatures induced by gonadotropins (LH/hCG) using a combination of mouse and\nhuman aging models coupled with integrated transcriptomics and genomics analysis which will provide key\ninsights to improve ovarian function and translate to approaches that improve not only Veteran’s reproductive\nhealth, but overall health and longevity."
+ },
+ {
+  "id": "eb7657dd-46dc-4954-ac67-267e39b14f12",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "A Tolerance Approach to Xenotransplantation",
+  "text": "This is a highly synergistic program project grant engaging multidisciplinary expertise in order to accelerate the\nadvancement of xenotransplantation, the transplantation of organs from animals to humans, which is our best\nhope for overcoming the severe shortage of human organs for transplantation. We will use the most advanced\ngenetic engineering techniques to rapidly modify miniature pigs that are close in size to humans and have\nbeen inbred for 45 years to provide a standardized, renewable source of organs for xenotransplantation.\nAnimal models including rodents with robust human immune systems as well as non-human primates will use\nthese genetically modified pigs in studies that will optimize immune tolerance induction to avoid graft rejection\nwhile assuring a well-functioning immune system and optimizing the function of transplanted pig organs."
+ },
+ {
+  "id": "eb782906-68c8-43be-860c-aea78d594a80",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Fast motion-robust fetal neuroimaging with MRI",
+  "text": "Subject motion is the fundamental impediment to reaping the full benefits of fetal-brain magnetic resonance\nimaging, as it frequently produces images with dramatic artifacts.\nThe goal of this project is to exploit innovations in deep learning and integrate them into the acquisition pipeline\nto overcome the challenges posed by motion in fetal neuroimaging studies.\nThis will be achieved by using fast, automated scan prescription of standard anatomical planes and by adaptively\nupdating the acquisition as motion happens in the scanner, based on sub-second navigator scans interleaved\nwith the imaging sequence."
+ },
+ {
+  "id": "eb784790-05a6-4f3f-9dbc-1a99765a284a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Developing a Comparative Single-Cell Spatial Transciptomic Atlas of Brain Aging in Non-Human and Humans",
+  "text": "As people age, they often experience cognitive decline and an increased risk for neurodegenerative diseases\nlike Alzheimer's, which significantly impact quality of life. This research will create detailed, single-cell maps of\nbrain regions critical for memory and cognition—the prefrontal cortex and hippocampus—by comparing tissues\nfrom humans and closely related non-human primates across different life stages. By identifying specific\nmolecular and cellular changes associated with aging, this study seeks to uncover pathways that could offer\npromising new strategies for treating, or even preventing, age-related cognitive decline and neurodegenerative\ndiseases, ultimately improving brain health and quality of life for the aging population."
+ },
+ {
+  "id": "eb7b6c85-7f62-4f29-8f02-a2c4f83eea7b",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Regulation of innate antiviral responses by the DNA-binding transcriptional repressor complex CIC-ATXN1/L",
+  "text": "Several human illnesses such as chronic viral infection, cancer, autoimmunity, and neurodegenerative\ndiseases are due to aberrant activation of innate immune responses and are associated with production of\nproinflammatory cytokines. We have identified a novel repressor complex composed of Capicua-Ataxin1 or 1L,\nwhich prevents aberrant expression of antiviral genes in the absence of virus infection; and, upon viral\ninfection, this complex is rapidly degraded to turn on antiviral responses. Our proposed study will investigate\nthe Capicua-Ataxin1 mediated regulation of innate immune responses in human cells and knock out mouse\nmodels."
+ },
+ {
+  "id": "eb7e0020-e2e6-4327-a160-1c0a9df6174c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Leveraging MRI Technology for Atypical Femoral Fracture Risk Management",
+  "text": "Osteoporosis, affecting over 10 million individuals aged 50 and above in the United States, is managed with\nantiresorptive drugs. Prolonged use of these treatments is linked to a rare but severe adverse event called\natypical femoral fracture (AFF), leading to a treatment gap. This research aims to develop a web-based tool\nphysicians could use to screen individuals who are predisposed to high AFF risk incorporating state-of-the art\nMRI and finite-element methods, potentially improving risk identification and treatment for osteoporotic fractures."
+ }
+]

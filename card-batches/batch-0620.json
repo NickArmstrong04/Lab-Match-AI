@@ -1,0 +1,142 @@
+[
+ {
+  "id": "50356d73-31d6-45a3-9143-08e607577194",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "From genotype to phenotype in a GWAS locus: the role of REST in atherosclerosis",
+  "text": "Atherosclerotic cardiovascular disease (ASCVD) is a challenging and highly prevalent human disease that has\na major genetic component, but many of the identified genetic risk loci for the disease remain unexplored with\nunknown target genes or tissues in which they act. In my prior work I have used human genetic data from multiple\nindividuals and discovered that one of those uncharacterized genetic loci affects a new gene in endothelial cells\ncalled REST. This proposal will use novel laboratory genetics methods that manipulate endothelial cells in the\nlab and a genetic mouse model of REST inactivation to understand how our DNA affects REST in endothelial\ncells and how REST can affect the walls of our arteries to cause ASCVD."
+ },
+ {
+  "id": "50426608-330a-4b18-b52a-a0a4b8b7ca0a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Structure and Function of TRPV channels",
+  "text": "The transient receptor potential vanilloid channels, TRPV2 and TRPV5, contribute to a broad range of\nphysiological and pathophysiological events in human body. The overall goal of this proposal is to understand\nhow TRPV2 and TRPV5 channels are gated by endogenous and exogenous modulators at the atomic level; and\nto elucidate TRPV2 channel precise molecular function in developing neurons and immune cells."
+ },
+ {
+  "id": "504388bc-3588-4b1e-9326-2487e3175285",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Impact of developmental serotonin on prefrontal cortex parvalbumin interneuron excitability and cognitive behavior",
+  "text": "Prefrontal parvalbumin (PV) interneuron activity during early development is required for shaping prefrontal\ncortex connectivity, function, and cognitive flexibility, which go awry in psychiatric disorders like depression,\nschizophrenia and attention-deficit hyperactivity disorder; however, the factors responsible for altering PV\ninterneuron activity are largely unknown. Here, we aim to elucidate the neurodevelopmental impact of serotonin\non PV interneuron excitability and cognitive behavior by employing a combination of cellular, circuit and\nbehavioral approaches. This proposed work would have tremendous public health relevance, as the research\noutlined will 1) provide insight into the development of neural circuitry supporting cognitive function; 2) promote\nnewfound understanding of early risk factors of psychiatric disease 3) enable identification of timepoints for\neffective prevention and treatment of cognitive impairments."
+ },
+ {
+  "id": "50482f48-3a41-4b1f-858d-d55df887c5c6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "AI Driven Drug Discovery Pipeline for Lead Optimization: from Virtual Screening to Preclinical Validation of Brain-Penetrant AD Therapeutics",
+  "text": "In this proposed research, we will develop Al-driven computational tools to accelerate drug discovery for AD/ADRD\ntargets. Specifically, we focus on developing Al-driven virtual screening pipelines to enable billion-scale compound\nlibrary screening and accurate prediction of blood-brain barrier (BBB) permeability."
+ },
+ {
+  "id": "50493a9b-ae0a-4bf3-8850-38663dc8bad0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Quantitative OCT angiography toward 4D blood flow analysis in embryonic cardiovascular system",
+  "text": "Congenital heart defects are present in 1.8% of newborns and account for one third of congenital defects, yet\n80% of cases have no identifiable causes. This project proposes a high-resolution in vivo imaging approach for\nquantitative blood flow analysis in the early mouse embryonic cardiovascular system to build the first dynamic\nvolumetric cardiac flow pattern in early embryos, set a platform for functional cardiovascular phenotyping, and\nstudy the biomechanical forces that regulate cardiac development. This will provide valuable insight to the role\nof blood flow in regulating cardiovascular development and allow investigation into the interplay between genetic\nand biomechanical factors in cardiac development and disease."
+ },
+ {
+  "id": "504a904d-8e1c-4b0d-bfc3-36420bd416af",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Analysis of the heterogeneity of cell death responses in the influenza virus-infected cells",
+  "text": "Host defense against viral infections involves an intricate interplay between gene expression changes that help\nrestrict viral replication and recruit immune cells, and cell death, which helps eliminate infected cells.\nUnderstanding of these mechanisms is further complicated because death of individual cells in a population\noccurs asynchronously, and individual cells have different capacities to activate cell death. To address the\ncomplexities of these responses, we are developing a new assay that allows the correlation of gene expression,\ncell death, and infection status of each individual cell, and propose to use it to characterize responses to influenza\nvirus infection in the lung cells."
+ },
+ {
+  "id": "504f5df2-bd77-4e3a-a62f-41591798cdf8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Assessment of a Radiomics-Based Computer-Aided Diagnosis Tool for Cancer Risk Stratification of Pulmonary Nodules",
+  "text": "Pulmonary nodules (PNs) are detected via computed tomography (CT) in approximately 2 million adults in the\nU.S. each year, but the current diagnostic process for PN evaluation and management results in delayed\ncancer diagnoses and unnecessary invasive biopsy procedures among individuals with benign diagnoses.\nExisting clinical malignancy risk prediction models provide only modest diagnostic accuracy, but radiomics-\nbased computer-aided diagnosis (CAD) tools, which synthesize quantitative features from CT imaging data to\npredict cancer risk, may help clinicians estimate PN malignancy risk more accurately. This proposal will\nevaluate the clinical utility, clinical effectiveness, and cost-effectiveness of a CAD-based risk stratification\nstrategy for PN evaluation and management, with the goal of optimizing the PN diagnostic process to improve\npatient outcomes."
+ },
+ {
+  "id": "504f601e-135e-4677-aa4a-3acb4bf14339",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Repeated Transurethral Interventions and Progressive Urethral Stricture Disease: Elucidation of Mechanisms and Novel Interventional Strategies",
+  "text": "Urethral stricture (narrowing of urethra leading to voiding dysfunction) is a major medical illness, as it affects\nmany older men, and its progression increases with repeated interventions. The major focus of this proposal is\nto evaluate the pathophysiological changes and molecular mechanisms of injury and urethral wall scarring\nmechanisms. We will also test if pathogenic microorganisms present in urine play a role in urethral wall\ndamage using in-vitro approaches. We believe the proposed studies have important therapeutic implications\nfor the prevention and treatment strategies for stricture in older patients."
+ },
+ {
+  "id": "5050b72a-de81-4c83-8a59-25606c92fd5e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Development and optimization of skeletal muscle delivery vehicles",
+  "text": "Skeletal muscle diseases are debilitating and therapeutic options sparce. The goal of this project is to explore\nnew strategies to enhance delivery of therapeutic material to skeletal muscle by harnessing the activity of\nendogenous fusogenic proteins."
+ },
+ {
+  "id": "50545141-1d3d-4099-bd34-0f609f365d67",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Project 2: Investigating the role of PAH exposures associated with superfund site proximity in preterm birth etiology through placental transcriptomics and metagenomics",
+  "text": "Project 2 Narrative\nPreterm birth remains as a major cause of morbidity and mortality in the United States, and the rates in Harris\nCounty are higher than the national average at approximately 12%. The research outlined in this proposal aims\nto continue our molecular studies of the placenta to understand how environmental exposures in pregnancy\ncan contribute to preterm delivery. We will focus our investigation on polycyclic aromatic hydrocarbons, which\nare found in multiple Superfund sites in Harris County, and expand our investigation into other Superfund-\nrelated environmental toxins to comprehensively assess exposure levels, proximity to Superfund sites and risk\nof preterm birth."
+ },
+ {
+  "id": "50596c66-0e05-4335-bd08-d7c909a2296e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Support for National Primate Research Center",
+  "text": "OVERALL\nPROJECT NARRATIVE\nThe Oregon National Primate Research Center (ONPRC) is an established national resource whose primary\nmission is to improve human health and quality of life through exceptional nonhuman primate (NHP) research\nprograms. The ONPRC maintains the facilities, expertise, and infrastructure required to conduct the most\nadvanced biomedical research using NHPs in a collaborative and interdisciplinary manner that leads to novel\ntherapies and cures for human diseases."
+ },
+ {
+  "id": "5061c2bf-9b44-4672-b13a-908233ba1f55",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Functional Assessment Core",
+  "text": "SUMMARY/ABSTRACT - FUNCTIONAL ASSESSMENT CORE The Functional Assessment Core (FAC) provides access to expert personnel and equipment for non-invasively assessing ocular structure and visual function in living animals. The FAC enhances the research environment by making available state-of-the-art equipment as well as a full-time technician who can provide training in the use of instruments and make consistent measurements for longitudinal studies. The FAC fulfills the growing needs of investigators to characterize the phenotype of rodent models for retinal and other ocular diseases and evaluate the efficacy of therapeutic interventions. This Core also promotes pilot projects by providing technical help, which, because of current commitments or lack of experience, is often unavailable in individual laboratories. The Core is located in three designated and specifically designed light-tight procedure rooms within the Brehm Tower, specific-pathogen-free (SPF) animal housing facility, which is readily accessible to our vision scientists. Adjacent to these procedure rooms is a rodent housing room maintained specifically for dark adaptation/dark animal housing. The procedure rooms, totaling 428 sq. ft., are accessed via a corridor that is lit by dim red light and house a Diagnosys Espion E2 electrophysiology system and a Celeris electrophysiology system for electroretinogram (ERG) measurements; a Phoenix Research Laboratories Micron III retinal imaging device with green, red, and far-red filters for retinal fluorescent imaging and equipped with a slit-lamp for imaging the anterior eye. The Micron III system also includes a Meridian Merilas 532D laser for performing laser-induced choroidal neovascularization. The FAC also has a Bioptigen Spectral-Domain Ophthalmic Imaging System with an InVivoVue ClinicTM software suite for spectral domain optical coherence tomography (SD-OCT) imaging; a CerebralMechanics OptoMotry system for optokinetic analysis; a Neuroptics A-2000 animal pupillometer for measurement of pupillary responses to light stimulation; and an Icare Tonolab™ research rebound tonometer for measuring rodent ocular pressure. During the prior funding period, the FAC was extensively utilized by 6 participating investigators with another 4 being moderate users. In the next funding period, among the 28 participating investigators, 11 investigators (7 with NEI-R01 funding) anticipate using the Core to a moderate or extensive degree to facilitate their vision research."
+ },
+ {
+  "id": "50623431-7e12-49b3-84c1-220a2ad45ccc",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Novel Antivirals Targeting Lenacapavir-Resistant HIV",
+  "text": "Nearly three-fourths of the 40 million people with human immunodeficiency virus (HIV) worldwide have access\nto anti-HIV therapies that target essential viral proteins, but mutations in HIV can develop during treatment that\ncause resistance to these antivirals. To combat the mounting burden of HIV resistance against lenacapavir (the\nnewest FDA-approved HIV drug), I will use a multidisciplinary approach to determine how three promising\ncompounds are able to target lenacapavir-resistant HIV. Ultimately, these studies can inspire the design of future\ntherapeutics with the potential to treat lenacapavir-resistant HIV."
+ },
+ {
+  "id": "506480d9-b869-4f09-bdba-26eb26024252",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Friend or Foe? The AMPK Signaling Pathway During Developmental Myelination",
+  "text": "Myelination, a crucial aspect of brain development, occurs prominently during childhood and extends through the mid-20s\nin humans. Abnormal myelination has been linked to autism, ADHD, and OCD. Metformin, a diabetes drug, has been found\nto promote myelin repair and rejuvenate the aged cells responsible for myelin production. However, despite its FDA\napproval for individuals over the age of 10 and ongoing clinical trials involving younger children, there is a gap in research\non metformin’s impact on early myelin development. This proposal aims to investigate metformin-regulated signaling\npathways and their influence on early developmental myelination in mice, with hopes of providing insights into its safety\nfor use in children."
+ },
+ {
+  "id": "5069d9d8-f212-4e3c-aebc-68747f4ac744",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Molecular basis of mammalian cochlear regeneration",
+  "text": "Hair cells and supporting cells are required for auditory function. Their loss causes permanent hearing\nloss. The proposed research aims to test the roles of reprogramming factors and reveal the\nmechanisms of mitotic and non-mitotic regeneration of supporting cells and hair cells in mice."
+ },
+ {
+  "id": "506a756f-c3ac-4561-aa01-7f3e7d1ca152",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Evolutionary dynamics and microenvironmental determinants of metastatic breast cancer",
+  "text": "In this Administrative Supplement to the Stanford Breast Metastasis Center (SBMC), we perform an in-depth\nfunctional and spatial dissection of FGFR1-amplified breast cancer to define novel vulnerabilities and strategies\nto circumvent endocrine resistance. By integrating spatially resolved functional screens with our SBMC multi-\nmodal spatial breast cancer atlas, we will map genetic vulnerabilities onto clinically observed tumor states,\nidentify microenvironment-dependent resistance mechanisms, and devise rational combination strategies for\nhigh-risk ER+ breast cancer."
+ },
+ {
+  "id": "5070888b-f915-4be0-9148-ac8c281dfbce",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Hexokinase 1 mitochondrial binding and its role in cardiac endothelial cell function and the development of HFpEF",
+  "text": "Heart failure with preserved ejection fraction (HFpEF) is a common disorder, but our treatments\nfor this disorder are limited. We have generated a mouse model in which the enzyme that\nphosphorylates glucose (i.e., hexokinase 1) cannot bind to the mitochondria, and have shown that\nthese mice develop HFpEF and display dysfunctional endothelial cells in their hearts. In this proposal,\nwe will study the mechanism for the endothelial dysfunction in these mice and will study novel\ntherapies for HFpEF."
+ },
+ {
+  "id": "50754b05-f2fc-4c47-bcd7-56907e1e895e",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "CORE C - Cellular Aging Core",
+  "text": "The main purpose of the Cellular Aging Core (Core C) is to isolate and distribute mouse bone marrow-derived\nmesenchymal stem/progenitor cells (MSCs) and primary myoblasts, and provide services for hypoxic cell culture,\nmultiplex cytokine assays, mitochondrial function assays, and Cre-expressing adenovirus production and\ninfection for the Program Project. The Core C is essential for the success of the Program Project as all individual\nprojects in the Program will need to use the same cells and standardized services in order for the data sets\ngenerated from individual projects are comparable, consistent and synergistic."
+ },
+ {
+  "id": "507851b3-da35-41ce-8fd2-e49c55dd1208",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Revealing Cellular Determinants of LINE-1 Retrotransposition Outcomes",
+  "text": "L1 retrotransposition is a complex process orchestrated by L1-encoded proteins, their interacting partners,\nand cellular host factors, including DNA repair mechanisms, which together produce diverse genomic insertion\noutcomes. Dissecting key determinants of L1 mutagenesis is crucial to understand retroelement propagation\nand roles for L1 in human health and disease. The proposed studies will be the first to leverage state-of-the-art\nlong-read sequencing technologies to identify critical retroelement and host factors that affect L1 insertion\noutcomes and will probe the contribution of L1-mediated somatic mosaicism in genetic diseases."
+ },
+ {
+  "id": "507d05a8-1f79-4b61-bd83-16b98f6b9889",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Opioid-Induced Epigenetic Mechanisms in Glaucoma",
+  "text": "In glaucoma, retinal ganglion cells (RGCs) slowly and progressively degenerate leading to visual impairment.\nWe have shown hypoacetylation, decline in neurotrophic factors, and an increase in DNA methylation in ocular\nhypertensive animals. These changes were reversed by δ-opioid-receptor activation and subsequently\nprovides RGCs neuroprotection."
+ }
+]

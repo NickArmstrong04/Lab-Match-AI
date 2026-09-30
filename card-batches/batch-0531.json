@@ -1,0 +1,142 @@
+[
+ {
+  "id": "2fe0d9a5-0486-42ce-947b-3df74c5fc5c0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Life-long phenotypic correction of CF airways",
+  "text": "The proposed research is relevant to public health because genetic and acquired diseases affecting the\nairways pose major disease and economic burdens. This proposal takes an innovative approach using novel\ngene addition and base editing gene therapy strategies to correct cells lining the airways of a large animal\nmodel of cystic fibrosis. In this proposal, our goal is to create reagents with the ability to efficiently, safely, and\npersistently correct cystic fibrosis causing gene mutations in appropriate cell types."
+ },
+ {
+  "id": "2fe27f18-830d-4e0f-a090-a8f2a6db4209",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Uncovering new genes and disease modifiers for ALS and related disorders",
+  "text": "(Project 2: Genes and Modifiers) Missing heritability is a major unsolved problem in amyotrophic lateral sclerosis (ALS) and related motor neuron diseases (MNDs), such as primary lateral sclerosis, progressive muscular atrophy, and hereditary spastic paraplegia. Additionally, much remains unknown about the considerable phenotypic heterogeneity observed in the course of these devastating diseases, even in people harboring the same mutation (e.g., C9orf72 repeat expansion). As such, in our present proposal, we seek to discover novel genes or genomic loci as well as disease modifiers for ALS-spectrum disorders. To this end, we will expand our recently developed rare variant analysis framework to include coding, non-coding, and structural variants, in addition to integrating public control data (Aim 1). Our streamlined cloud-based workflows and publicly accessible data portal will handle genomic data in an efficient, reliable, and cost-effective manner, while promoting collaborations among rare disease investigators, thereby accelerating discoveries. Moreover, we will leverage innovative statistical modeling methods to identify latent variables underlying disease progression and intra-patient clinical variability (Aim 2). Our method has been designed to deal with irregularly spaced time points, measurement noise, and non-linear trends, enabling us to reconstruct full disease progression trajectories. Those trajectories will then be used to uncover genetic disease modifiers, refine disease subtypes, and predict disease-related outcomes (e.g., survival time). Furthermore, we will capitalize on our long-read sequencing experience to comprehensively characterize the expanded C9orf72 repeat (Aim 3). By measuring the length, purity, and methylation profile of the expansion at an unprecedented resolution, we can determine whether they may account for different aspects of phenotypes associated with the expanded repeat. Taken together, our cutting-edge approaches that exploit cloud-based computational methods, statical learning models, and long-read sequencing technologies, will not only improve upon our ability to find new genes, genomic loci, and disease modifiers for ALS-spectrum disorders, but also lay the foundation for personalized prognostic and therapeutic strategies."
+ },
+ {
+  "id": "2fe46d1a-4852-44f2-ac2b-a3b1b956a5f6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Deep Learning for Individualized Treatment Effect Inference with Multimodal Depiction",
+  "text": "This project will develop, optimize and evaluate a deep learning (DL) framework for accurate, reliable, and\ninterpretable individualized treatment effect (ITE) inference, and can be widely generalizable to benefit aboard\npopulation that suffers from treatment selection. The proposed technique explores modeling the causal relations\namong multimodal status depiction, multi-treatment, and ITE in an end-to-end fashion by leveraging the novel DL\ntechnology, which is incapable of the current direct models for pre-operative prognosis, e.g., glioblastoma survival\ninference. Successful completion of the project will provide a clinically applicable DL technique for advising best\ninterventions and improving treatment-specific pathology patterns investigation."
+ },
+ {
+  "id": "2ff37f66-9421-41af-8209-65c2a0b98213",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Swift Outpatient Alternatives for Rapid Stabilization (SOARS)",
+  "text": "Suicide is a leading cause of death for youth and prevention efforts embedded in healthcare systems have promise for reducing this substantial public health problem. There is a significant gap between the expectations of a suicide care pathway and existing capacity and could be improved with optimized intervention packages that address key stakeholders- youth, patient, behavioral health providers, and outpatient medical providers- needs. Building upon promising pilot results, this project seeks to evaluate components of the Swift Outpatient Alternative for Rapid Stabilization (SOARS) intervention to build the strongest combination to reduce youth suicidal thoughts and behaviors (STB; Aim 1). We will test the impact patient characteristics (Aim 2) and if SOARS components function through their putative mechanisms. The optimized treatment package will be refined through co-design with providers to augment its acceptability and usability (Aim 4). Results will be used to create an optimized intervention package to accelerate the pace of adoption by healthcare systems and reduction of youth STBs. This will result in a youth suicide care intervention package optimized for ecological validity, effectiveness and efficiency, and ready for evaluation in a hybrid implementation trial."
+ },
+ {
+  "id": "2ff39cf9-8716-497d-9d4e-4d4d0abd1471",
+  "want_sentence": false,
+  "want_terms": true,
+  "title": "CAROLINA CANCER NANOTECHNOLOGY TRAINING PROGRAM (C-CNTP)",
+  "text": "This multidisciplinary program is designed to train postdoctoral research fellows working at the intersection of\nnanoscience and cancer research. The goal is to prepare scientists who will successfully pursue careers in\nacademia, industry, and government agencies, and will become significant contributors to addressing emerging\nchallenges in public health and medical research using nanotechnology to diagnose and treat cancer."
+ },
+ {
+  "id": "2ff6a0e4-33c0-4fa8-af61-01e467b9815f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Developing a Measure to Characterize Suicide-Related Disclosure Processes in Adolescents and Caregivers",
+  "text": "Researchers and clinicians need more effective tools to identify not only who is at risk for suicide, but also\nwhen that risk is highest. Preliminary evidence shows that indirect suicide-related disclosure—by which an\nindividual discloses suicidal intent vaguely or euphemistically, without stating it outright—may be a proximal\nwarning sign for suicide, but it has not been widely studied. The current project will refine and pilot a measure\nto dyadically characterize indirect suicide-related disclosure among adolescents and their caregivers, paving\nthe way for just-in-time interventions that may prevent suicide at moments of elevated risk."
+ },
+ {
+  "id": "2ff6c30d-c2e2-486d-a90e-ae17cac50442",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "In situ bioprinting of high-density cell-laden core-shell microgel bioinks enabling cellular condensation for vascularized bone tissue regeneration",
+  "text": "Regeneration of bone injuries that will not heal on their own remains a significant clinical challenge, as this affects\nmany veterans and soldiers in US Military and there are few viable treatment options. We propose to engineer\nscaffold-free cell condensation-based vascularized bone tissue using direct assembly of high-density stem cell-\nladen core-shell microgel and individual cell-only bioinks via new in situ bioprinting technology with precise\nspatiotemporally controlled delivery of tissue-specific growth factors. This platform strategy to create\ngeometrically complex functional vascularized bone tissue by means of multi-tissue type cellular condensations\nmay represent a powerful clinical therapeutic advance to treat patients suffering from craniofacial bone tissue\ndamage or loss and improve their lives."
+ },
+ {
+  "id": "2ff9773c-66f5-4d49-b38b-39808e8a53be",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "SCH: Mechanism-based dose titration for modifying brain electrophysiology during antidepressant therapy",
+  "text": "Treatment-resistant depression (TRD) is a severe form of major depressive disorder that is associated with persistent symptoms and reduced quality of life. A promising new treatment strategy for TRD involves using anesthetic drugs like propofol to modify pathological brain activity. This study will enable and optimize these treatments for TRD by developing new computational techniques to systematically predict how anesthetic drugs modify brain activity at the level of individual patients."
+ },
+ {
+  "id": "2ffef41a-b813-4e71-8302-e1e3c52075b0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Artificial Intelligence for effective communication to promote vaping cessation on social media",
+  "text": "Title: Artificial Intelligence for effective communication to promote vaping cessation on social media\nThe proposed study will identify key features of e-cigarette-related social media (Twitter/X, Instagram, TikTok,\nand YouTube) posts associated with high user engagement (such as the number of likes) by leveraging cutting-\nedge artificial intelligence, including but not limited to natural language processing techniques and deep learning\nmodels, along with advanced statistical modeling techniques. Furthermore, we will conduct cross-sectional\nanonymous online surveys and semi-structured interview studies to verify the key features contributing to high\nuser engagement and, more importantly, identify features targeting specific populations. The identified key\nfeatures will be valuable for designing multimedia messages (text, image, and video) that effectively promote\nvaping cessation, especially among youth, young adults, and other disadvantaged groups."
+ },
+ {
+  "id": "3004620a-8251-45ec-9c1a-c82050555282",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Applying Large Language Models to Accelerate Abstraction of Cancer Pathology Reports for Cancer Registry (LLMs for Unstructured Data Extraction)",
+  "text": "This research aims to train Large Language Models (LLMs) to extract five key oncological data elements from\npathology reports, focusing on common (breast) cancer and rare (gastric) cancer. Different training methods\nwill be used for each cancer type, utilizing supervised fine-tuning for the common cancer and parameter-\nefficient inference/tuning for the rare type. The ultimate goal is to develop high-throughput software to improve\nthe efficiency of cancer registry operations."
+ },
+ {
+  "id": "3005bc5c-58e4-4cca-85cc-75d7683178a6",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Fast motion-tolerant pediatric MRI with reduced anesthesia",
+  "text": "The proposed work will focus on the development of novel MRI methodology, using combinations of non-\ncartesian k-space acquisition and deep learning reconstruction, to increase the speed and tolerance of both\npatient and respiratory motion in pediatric MRI without the use of anesthesia. Technical advances will be based\nin the use of deep learning to capture motion in a live, motion-resolved image, rather than rejecting or correcting\nfor motion, and on the use of generative AI models to transform the distribution of accelerated motion-corrupted\nimages to those of motion-free images. Successful completion of the project will result in increased safety,\nefficiency, and quality in the use of MRI for evaluation of pediatric abdominal tumors, such as for neuroblastoma\nand Wilms tumor."
+ },
+ {
+  "id": "30090d62-f630-4107-a69c-849588810a90",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Kruppel-like factor-2 CD4+ T cells and intestinal inflammation",
+  "text": "Intestinal disorders including Crohn’s disease, ulcerative colitis, and irritable bowel syndrome are increasingly\nlinked with aberrant commensal microbe driven inflammation. This application will investigate how the immune\nsystem recognizes and responds to commensal microbes to achieve immunological homeostasis that protects\nagainst aberrant intestinal inflammation."
+ },
+ {
+  "id": "300e1d67-2fe2-4506-b234-2d2ac67f03b5",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "BMP2/6 ligand formation and function in development and iron homeostasis",
+  "text": "BMPs are signaling proteins that have a critical role in many biologic processes from embryo formation to\nmaintaining body balance of the essential nutrient iron. This proposal will investigate the formation and function\nof these critical signaling proteins, understand how they contribute to body iron balance, and set the stage for\nfuture studies on how they contribute to embryo formation."
+ },
+ {
+  "id": "300eddc8-b06a-4973-b0bd-1a23111c6649",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Bioinformatics and Data Integration Core",
+  "text": "BIOINFORMATICS AND DATA INTEGRATION CORE (BDIC) Systematic analysis of the translational relevance of marmoset models of Alzheimer’s disease will require a centralized data management and analysis team that interacts with all Projects and Cores. To this end, the Bioinformatics and Data Integration Core (BDIC) will: generate multi-omics data to characterize marmoset genomes, proteomes, and transcriptomes; provide data processing and storage for sequencing, genomics, and similar molecular data; import and curate data and results from relevant human genetic and genomic studies; create the processes and tools to systematically align human and marmoset data for multi-scale cross-species analyses; and create and populate a data-sharing platform for broad and open access of all data and protocols. This core will address this goal through the following aims: (1) generate, process, and manage genome-scale molecular data from aging outbred and mutant marmoset populations; (2) develop and apply statistical methods for rigorous marmoset and cross-species data analysis based on matched multi-omic measures; and (3) broadly disseminate data and protocols through open science platforms to ensure reliable replication of studies and reuse of all marmoset data. The BDIC will build upon existing resources such as the AD Knowledge Portal, the Agora platform, Alz-PED, and the workflows from existing NIA-funded consortia, including AMP-AD, TREAT-AD, MODEL-AD, MOVE-AD, and Resilience-AD. We will add the outcomes of this marmoset-centered project to this foundation to optimize translational relevance and responsible data reuse. In achieving these goals, the BDIC will manage data and facilitate its integrated analysis in multiple contexts across multiple project components. Internal and external researchers will be positioned to efficiently and reliably assess the disease relevance of marmoset models and associated phenotypes. Finally, the broader research community will be empowered to use the marmoset as a model to understand and guide their research into therapeutics for Alzheimer’s disease."
+ },
+ {
+  "id": "301d90f2-dfa9-4c66-8612-eea3c16b96a9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Ethical Multimodal fusion Artificial Intelligence platform (EMAP) to bridge the gap between imaging modalities: Application to prostate cancer diagnosis.",
+  "text": "The Ethical Multimodal fusion Artificial Intelligence Platform (eMAP) improves prostate cancer \ndiagnosis through accurate targeting during the biopsy procedures performed with or without \nMRI. eMAP bridges the information and resolution gap between clinical reports, MRI and \nultrasound images via advanced AI approaches for effective multimodal fusion and knowledge \ntransfer. eMAP is developed to ensure reproducibility across clinical settings, in an ethical \nframework that is trusted by both clinicians and patients."
+ },
+ {
+  "id": "3021fc5b-0627-4b03-9684-a5e35dbdce33",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "In vivo analysis of secretory pathways driving systemic inflammation",
+  "text": "Systemic inflammation underlies acute syndromes such as sepsis and cytokine storm as well as chronic\nconditions including autoimmune and metabolic disease. This project will develop innovative secretome reporter\nmouse models to identify, in vivo, the proteins secreted by specific cell types and through distinct pathways that\ndrive inflammatory responses. These tools will enable discovery of new therapeutic targets to prevent and treat\nsystemic inflammatory diseases."
+ },
+ {
+  "id": "30252136-a50c-498e-832a-d45d2bad306f",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Nanoscale synaptic heterogeneity, loss, and plasticity in Alzheimer's disease",
+  "text": "Alzheimer’s disease (AD) is the leading cause of dementia in the US and an estimated 6.5 million people over\nthe age of 65 are living with it in 2022, making it a significant health burden, particularly as the number of elderly\nis expected to grow. The hallmark of AD is the accumulation of amyloid-beta (A) and tangles in the brain, that\ncause decline in synaptic function and plasticity thru unknown mechanisms. The goal of our research project is\nto determine how Aβ impacts structural plasticity and function of molecularly diverse synapses in the brain and\nthe mechanisms that underlie destabilization of synaptic substructures."
+ },
+ {
+  "id": "302910a7-7151-4fd0-b431-6fb4969d4dda",
+  "want_sentence": false,
+  "want_terms": true,
+  "title": "Molecular & Environmental Toxicology Predoctoral Training Program",
+  "text": "The human chemical environment influences a significant fraction of human morbidity and\nmortality. This proposal is designed to train the next generation of scientists to take leadership\npositions in the arena of human oriented environmental health research. Training of such\nscientists is essential if we are to understand how our environment impacts our health and if we\nare to properly identify and regulate those important causal chemicals."
+ },
+ {
+  "id": "302a3b1a-88db-4cef-ae70-6d3fbe6b0ee9",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "2/3 Akili: Phenotypic and genetic characterization of ADHD in Kenya and South Africa",
+  "text": "The Akili project will address both of these critical gaps, phenotypically and genetically characterizing 4,000 children with ADHD and 2,000 age- and ancestry-matched controls in Kenya and South Africa. Akili will unite genetic sequencing with deep clinical phenotyping expertise to improve biological understanding of ADHD, a common and impactful diagnosis for families in the United States; and will also introduce genomic data currently missing from reference databases, directly advancing genetic diagnostic accuracy and precision medicine for all U.S. demographic groups.Genetic research into attention deficit hyperactivity disorder (ADHD) lags in terms of both sample size and consideration of phenotypic heterogeneity."
+ },
+ {
+  "id": "302ca3dd-aa25-4af3-9b44-b66f20e8e1bd",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Understanding the regulation of a program of indcuible DNA replication driven by Innate Immune Activation",
+  "text": "We have identified a novel mechanism by which NF-κB activation drives a program of inducible DNA replication\nand rereplication to produce extrachromosomal DNA (ecDNA) from numerous innate immune-related gene loci.\nThis proposal will rigorously assess how the previously unexplored NF-κB driven replication program is\nestablished in cells and identify the key signaling and epigenetic regulators. We will assess the importance of\nthe transient increase in gene dosage through ecDNA from innate immune-related genes to the NF-κB and\ninterferon responses."
+ }
+]

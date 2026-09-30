@@ -1,0 +1,142 @@
+[
+ {
+  "id": "8f96b573-f1ff-4eb2-984f-59cb329fca7a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Reconstructing transposable element activity in cancer via local assembly of long reads",
+  "text": "Transposition is a mutational process, during which DNA sequences, called transposable elements,\njump or copy themselves from one location in the genome to another; such events are common in\ncancer and can reshape genomic architecture but are difficult to study using conventional (short-read)\nsequencing technologies. This project will develop computational methods capable of reconstructing\nsomatic transposon activity in cancer by leveraging local assembly combined with recent\nmethodological advances for analyzing long reads and nearly complete genome assemblies. The\nmethods developed by this project will be applied to head-and-neck, lung, and other cancers,\nproviding insights into tumorigenesis and potentially identifying novel targets for therapy."
+ },
+ {
+  "id": "8f97e38f-3095-42ee-baad-003256586ffe",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Concurrent Optical Spectroscopy and Breast MRI to Improve Diagnosis without Contrast Injection",
+  "text": "This project aims to continue development of an innovative breast MRI approach by integrating near-infrared\nspectroscopic tomography (NIRST), transforming this multi-modality exam from an academic concept into a\nclinically practical tool. The rigor of our prior research and the human data collected have demonstrated that\nMRg-NIRST can contribute significantly to improved clinical management of women receiving breast MRI. In this\nnext phase, we will focus on advancing the new technology to significantly enhance breast cancer detection\ncapabilities and investigate whether MRg-NIRST combined with non-contrast MRI can serve as a substitute for\ndynamic contrast-enhanced (DCE) MRI, eliminating the need for contrast injection."
+ },
+ {
+  "id": "8f986444-188c-46f1-bd01-3add15aea48c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Systematic Identification and Phenotypic Characterization of causal genetic variants in Rare Disease-Associated Birth Defects",
+  "text": "Although the implementation of whole genome sequencing in a clinical setting has greatly facilitated the detection\nof birth defect-associated genetic variants, distinguishing the specific variants that cause congenital birth defects\nremains a major challenge. This project aims to address current obstacles in variant interpretation through the\napplication of innovative experimental approaches and scalable genomic technologies to profile the functional\nand phenotypic consequences of congenital defect-associated genetic variants identified in undiagnosed rare\ndisease patients. These methods will rapidly accelerate the process of identifying causal variants and in some\ncases may reveal previously unappreciated avenues for therapeutic intervention."
+ },
+ {
+  "id": "8fa8308e-c772-4162-8a47-16296efdf16c",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Aptamer-based biosensing probes for chemical imaging of multiple analytes at single cells",
+  "text": "Advanced electroanalytical techniques are essential for addressing complex biological challenges, such as\nacquiring spatial information on cellular uptake and release, and the real-time detection of multiple\nneurotransmitters. The proposed imaging and sensing technologies will operate across various size scales to\nmeasure concentrations of small molecules in extracellular media, providing insights into the behavior of healthy\nand diseased cells. This approach has the potential to significantly enhance our understanding of disease\nmechanisms that are difficult to study with current imaging modalities, potentially leading to improved diagnoses\nstrategies across a range of health conditions."
+ },
+ {
+  "id": "8faf095f-b32f-4247-9b9b-914cdf124325",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "\"Lnc\"ing XIST Ribonucleoprotein Particles to Female Sex-Attributed Biases in Autoimmunity",
+  "text": "Autoimmune diseases are an under-served and unacknowledged public health crisis rivaling cancer and\nheart disease in societal cost and prevalence. However, the triggers and factors contributing to autoimmune\ndisease development and the higher vulnerability for females remains an unsolved and poorly understood\nwomen’s health issue. The proposed work will study the role of the ribonucleoprotein particle of the female-\nspecific long noncoding RNA (lncRNA), XIST, in contributing to a higher background of self-reactivity and\nautoimmune disease development with the goal of developing better diagnostics and identifying more effective\ntherapeutic targets."
+ },
+ {
+  "id": "8fb0b796-8519-4b7d-8d18-7832503c0329",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Animal Models and In Vivo Imaging Core",
+  "text": "ANIMAL MODELS AND IN VIVO IMAGING CORE The Animal Models and In Vivo Imaging Core will meet the needs of participating investigators for using animal models of ocular diseases to conduct basic and translational vision research. The Core will provide access to advanced technologies and highly qualified technical support for generating and performing in vivo ocular imaging of animal models. The availability of animal models coupled with comprehensive in vivo tissue structure and function assessment will greatly accelerate study of molecular and cellular mechanisms underlying ocular disease processes, and facilitate translation of basic science findings for diagnostic and therapeutic applications. The specific aims are to provide instrumentation and technical expertise for: 1) generating and maintaining animal models of ocular diseases, performing surgical procedures, obtaining samples for genotyping, and harvesting ocular tissues; 2) enabling investigators to use various in vivo ocular imaging and visual function testing technologies; 3) training investigators and research staff on the utility and operation of ocular imaging and function testing equipment; and 4) providing consultation on the appropriate animal models, surgical and imaging procedures, addressing the research needs of participating investigators. ."
+ },
+ {
+  "id": "8fbbc85b-2b4d-4ec8-9eb9-550c456eb056",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "An Atlas of Human Brain Cell Variation",
+  "text": "The focus of our project is to understand how the cells of the human brain vary from person to person, in the\ngenes they use, and in how they are spatially organized within brain tissue. Through a detailed study of this\nvariation, we seek to deepen our understanding of how the human brain works, and uncover the cellular and\nmolecular basis for vulnerability to neurodevelopmental, neuropsychiatric, and neurological disorders."
+ },
+ {
+  "id": "8fc91f7d-f42c-404f-a062-f4626e5d626a",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cell & Tissue Imaging and Data Science Core",
+  "text": "CELL & TISSUE IMAGING AND DATA SCIENCE CORE The Cell & Tissue Imaging and Data Science Core will enhance the activities and accomplishments of ongoing research projects by providing histology services, access to a range of advanced imaging equipment, and technical expertise for image analysis and implementation of artificial intelligence (AI) approaches. It will provide essential resources for microscopic evaluation of ocular tissues and extraction of biological data from images, thereby increasing the innovative capabilities of participating investigators for conducting productive vision research. The Core will provide equipment and technical expertise for performing histology, light/confocal and electron microscopy, live cell imaging, image analysis, and development/application of AI algorithms. The specific aims are to provide resources for: 1) performing histology of ocular tissue specimens; 2) enabling investigators to evaluate ocular tissues with the use of sophisticated light/confocal and electron microscopy and emerging imaging modalities; 3) training investigators and their research staff on the utility and operation of imaging equipment; 4) consultations on cell and tissue preparation and imaging for experimental design and appropriateness of techniques; 5) providing expertise and technical support for image analysis and development of AI methodologies."
+ },
+ {
+  "id": "8fcd5068-912c-4a0d-bbe2-eb4a640ffa02",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Amygdala pain mechanisms",
+  "text": "(Project Narrative)\nChronic pain is a major health care issue, but mechanisms of the transition from acute to chronic pain still remain to be\ndetermined, particularly at the level of the brain. The proposed multidisciplinary research project addresses this\nimportant knowledge gap by identifying neuro-immune signaling in the amygdala, a brain center for emotions and pain\nmodulation, as an important pain mechanism. Successful completion of the proposed studies will advance our\nknowledge about neuro-immune brain mechanisms of pain that can be targeted for pain management, which is highly\nsignificant from a basic science and clinical perspective hence translational."
+ },
+ {
+  "id": "8fd50a50-d167-49f7-9d63-b648edc55ec3",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Microbiome-Mediated Persistent Neuroimmune Injury After Single Fentanyl Exposure",
+  "text": "A single exposure to fentanyl can cause persistent disruption of the gut microbiome, systemic inflammation,\nand long-term effects on brain function. This research will identify the biological pathways responsible for these\ndelayed injuries and support the development of early interventions that may protect individuals exposed to\nultra-potent synthetic opioids."
+ },
+ {
+  "id": "8fd5e958-c74a-4008-9721-8341e6555c90",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating R-pyocins as a therapeutic approach to treat high-risk, multidrug-resistant Pseudomonas aeruginosa wound infections",
+  "text": "Multidrug-resistant (MDR) and extensively drug-resistant (XDR) Pseudomonas aeruginosa (Pa) strains are a\nsignificant healthcare burden, particularly in the context of chronic wound infections. This project aims to\ninvestigate the use of R-pyocins, narrow-spectrum antimicrobial proteins produced by Pa, as a novel\ntherapeutic approach to treat infections caused by high-risk, antibiotic-resistant Pa strains and to explore\ntheir potential to reverse antibiotic resistance. The findings of this project will provide new insights into the\ntherapeutic applications of R-pyocins and potential strategies to combat antibiotic-resistant pathogens in\nhuman infections, addressing a critical healthcare challenge and informing the development of novel\nantimicrobial therapies."
+ },
+ {
+  "id": "8fd5f558-139e-4cf3-9540-89fab60235f0",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Investigating the role of norepinephrine in learned cue-reward associations",
+  "text": "The proposed research is relevant to public health because substance-use disorder has significant health and\nfinancial costs, and despite many treatment options, over 50% of persons with substance-use disorder relapse.\nThe neural mechanisms underlying responses to drug and reward-associated cues, and how these contribute\nto relapse, are unknown. Thus, this proposal is pertinent to the core goals of the NIH: to foster fundamental\nbasic science discoveries, using innovative approaches, with the goal of ultimately improving health."
+ },
+ {
+  "id": "8fe117e6-1f3b-42d8-a065-17ad655dc6db",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "An innovative integrated computational framework using gene signatures for patient stratification",
+  "text": "In this project, we will develop a new statistical framework to integrate genomic and transcriptomic data to\ndefine gene signatures that recapitulate the downstream oncogenic pathways underlying driver genomic\naberrations in cancer. This framework will be utilized to perform secondary data analysis using a vast\namount of existing cancer data generated from previous studies. Accomplishment of this project will lead to\na comprehensive list of cancer-specific gene signatures and prediction models that can be used to stratify\npatients for directing personalized treatment in multiple cancer types, especially early-stage lung cancer."
+ },
+ {
+  "id": "8fe89727-2d89-46a4-9de0-a108558f96ea",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Screening Electronic Records for Veterans whoshould be referred for specialty care Evaluations(SERVE)",
+  "text": "Delays with diagnosis and treatment of chronic diseases can cause unnecessary suffering and irreversible\nconsequences. Axial spondyloarthritis (axSpA) is a type of arthritis that commonly begins in early adulthood\nand remains unrecognized for an average of 6-14 years. Without treatment, axSpA can cause pain and\ndamage in several locations (spine, joints, eyes, intestine, skin, tendons, etc.). This project will use machine\nlearning to train computers to identify Veterans who should be evaluated for undiagnosed axSpA, using\nmedical record data. We will also develop processes for educating Veterans about their disease risk and\nrecommending appropriate care. By enabling earlier diagnosis and treatment, this research will reduce\nsuffering, unnecessary testing, inappropriate treatments, and disability for Veterans with axSpA. The methods\nfrom this project may be adapted to improve early diagnoses for other under-recognized diseases."
+ },
+ {
+  "id": "8fea3a0b-162e-409e-8283-c9aaa0d44233",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Cancer Research Training & Education Coordination",
+  "text": "CANCER RESEARCH TRAINING & EDUCATION COORDINATION Cancer Research Training & Education Coordination (CRTEC) at Moffitt Cancer Center (Moffitt) comprises 30+ distinct research education and training opportunities that engaged more than 5,700 research, clinical, and oncology health professional students, trainees, and faculty since 2016. These activities highly impact each of the five research Programs and span the education continuum, from primary school students to faculty, and throughout all scientific disciplines. CRTEC’s overarching goal is to foster the best talent across the spectrum of cancer researchers and oncology professionals. Strategic focus areas are developing advanced support for fellowship and training grant submissions, enhancing recruitment at all career stages, expanding educational integration in the catchment area, and supporting new initiatives through four Specific Aims: Aim 1: To coordinate educational operations and multi-institutional collaborations. Aim 2: To expand the tracking of all trainees and education activities. Aim 3: To facilitate career mentorship and career development activities that enable trainees and faculty to maximize their career potential. Aim 4: To expand the biomedical career development pipeline through internal and external education, peer networking, and proactive recruitment. CRTEC is a key area of the Research Strategic Plan, evidenced by consolidation of the educational structure into two integrated offices, Research Education & Training (RET) and Office of Clinical Education (OCE), under the ACD of Research Education & Training. Together, the RET/OCE offices coordinate all educational activities of the Center, facilitating the integration and synergy of education. The Center provides over $14 million annually to support CRTEC efforts. Peer-reviewed funding for training grants increased the from $2.0M last cycle $2.4M including 3 NCI T32, 1 F, 6 K, and 2 R25 awards. A majority of K-12 and undergraduate trainees are from the catchment area with 47% from underserved populations, while PhD trainees, fellows, and faculty are from around the world. Former trainees are now leaders in cancer research and clinical care, including 29 faculty who matriculated from our T32, K, and PhD programs. We also established three novel PhD majors (Cancer Immunology & Immunotherapy, Cancer Chemical Biology, Integrated Mathematical Oncology), enhanced fellow training, created an Instructor level to advance senior fellows into faculty, doubled our K grant portfolio, and established strong mentoring programs for all junior faculty. Finally, integrated efforts with the Community Outreach & Engagement Office has further expanded our activities into the community, by providing STEM exposure to children, parents, and teachers."
+ },
+ {
+  "id": "8feb9293-a01e-4379-8609-1c2d82c531ce",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Therapeutic editing for cardiovascular diseases",
+  "text": "With recent advances in CRISPR gene editing, and my success in developing a gene-editing therapy that\npermanently reduces blood cholesterol levels in patients, there is now the opportunity to tackle cardiovascular\ndiseases more broadly with gene editing: heart attack and stroke, the leading causes of death worldwide; rare\nconnective tissue disorders like Marfan syndrome; and congenital heart disease and inherited forms of heart\nfailure."
+ },
+ {
+  "id": "900390c7-cdc5-4b53-b50f-47c91bc045ab",
+  "want_sentence": true,
+  "want_terms": true,
+  "title": "Graduate Training in Biostatistics",
+  "text": "The Training Program in Environmental Health Biostatistics at the Harvard T. H. Chan School of Public Health\nprepares pre-doctoral and postdoctoral fellows for research in the application of biostatistics, statistical\ngenetics and genomics, and data science to the environmental health sciences. The Program combines first\nclass training in biostatistical theory and methods, formal training in computer science and environmental\nhealth, practical experience in environmental health collaborations in interdisciplinary team science settings,\nand rigorous training in reproducible science. The Program provides trainees with skills necessary for scientific\nleadership in interdisciplinary settings, focusing on skills for project management, grant writing, and other skills\nneeded for scientific leadership."
+ },
+ {
+  "id": "9008d58b-3b77-4fca-9b3c-88dd20a344e8",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Synthetic Studies Related to Cancer Research/Treatment",
+  "text": "This project involves interconnected synthetic, mechanistic, structural, computer\nmodeling, biochemical mode of action, preclinical, and extensive collaborative studies directed at\nbryostatin 1, a PKC modulator entered into clinical trials for HIV/AIDS eradication and for treating\nAlzheimer's disease and proposed as a clinical candidate for enhancing immuno-therapy for cancer,\nsuppressing T cell exhaustion and treating multiple sclerosis. This project is directed at understanding\nhow the structures of bryostatin and other natural as well as designed PKC modulators influence their\nPKC binding, translocation selectivity, clinically relevant biological activity and tolerability and the use of\nthis knowledge to design, synthesize and evaluate potentially superior, better tolerated, disease specific\nand more synthetically accessible candidates for clinical use."
+ },
+ {
+  "id": "90090ff5-6d71-4ba9-992c-83712f379189",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Imaging and Radiation Oncology Core (IROC) Group",
+  "text": "Today’s cancer trials frequently require the use of imaging and/or radiation therapy to achieve the\nmost effective treatment. Rigorous QA of these methodologies and efficient data collection\nsecures consistency across participating sites by managing potential variability that would\notherwise obscure true therapeutic outcomes."
+ },
+ {
+  "id": "900b3c67-82f6-4efb-aa2b-8a86eec0f548",
+  "want_sentence": true,
+  "want_terms": false,
+  "title": "Metal-Mediated C-H Radiofluorination for Rapid Access to PET Imaging Agents",
+  "text": "Fluorinated drugs, accounting for 29% of all 276 Type 1 FDA new drug approvals between 2011-2019, \ndemonstrate the growing importance of fluorine-18 labeled molecules in PET applications. By merging \nradiochemistry with organometallic chemistry, this proposal aims to meet the demand for aromatic fluorine\u000218 radiomedicines. The development of new metal-mediated and metal-free late-stage radiolabeling methods \ncan significantly expedite the production of fluorine-containing molecules, particularly those of high \ncommercial importance."
+ }
+]
