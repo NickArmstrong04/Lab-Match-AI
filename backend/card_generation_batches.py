@@ -41,6 +41,7 @@ index terms and still need the one-liner (terms are then not asked for).
 import argparse
 import datetime
 import json
+import re
 import sys
 import warnings
 from pathlib import Path
@@ -79,6 +80,7 @@ For every item write ONE line of JSON to the output file, in the same order:
 
 Write ONE sentence that says what this project is trying to find out or build.
 
+- Begin the sentence with the words "This project", followed by a plain verb: "This project studies how ...", "This project builds a tool that ...". Never begin with the verb alone ("Studies how ...").
 {sentence_rules}
 ## Rules for the terms
 
@@ -92,6 +94,29 @@ nouns in the sentence. Work from the material only, never from what you know abo
 subject. Do not skip an item; if an item gives you nothing to work with, write its line
 with `"sentence": null` and `"terms": []`.
 """
+
+
+# The first 400 answers (2026-09-29) opened two ways: 179 with "This project studies
+# ..." and 150 with the verb alone ("Studies ...", "Builds ..."), because the rules give
+# "studies how" as an example of plain wording and say nothing about the subject. Both
+# pass the validator, and a deck that alternates between them reads as two products.
+# The instructions now ask for "This project". For an answer that still opens with one
+# of these verbs the two words are put in front HERE, before validation. It adds a
+# subject and no fact. The list is the verbs those answers used; a sentence that opens
+# any other way is left exactly as written.
+_BARE_VERB_RE = re.compile(
+    r"^(Studies|Builds|Develops|Tries|Uses|Tests|Brings|Supports|Works|Explores|Designs|"
+    r"Upgrades|Acquires|Searches|Keeps|Watches|Finishes|Sets|Expands|Looks|Creates|"
+    r"Examines|Investigates|Measures|Makes|Finds|Combines|Maps|Improves)\b"
+)
+
+
+def with_subject(sentence: str) -> str:
+    """`sentence` with "This project" in front when it opens with a bare verb."""
+    stripped = sentence.strip()
+    if not _BARE_VERB_RE.match(stripped):
+        return sentence
+    return "This project " + stripped[0].lower() + stripped[1:]
 
 
 def _columns_exist(db) -> bool:
@@ -245,8 +270,14 @@ def import_answers(db, *, directory: Path, model: str, apply: bool, out=print) -
                                    card_terms_generated_at=stamp)
             if _ps.needs_plain_summary(row) and isinstance(answer.get("sentence"), str):
                 sent_asked += 1
-                text, why = _ps.validate_summary(answer["sentence"], title=given["title"],
-                                                 agency_text=given["text"])
+                text, why = _ps.validate_summary(with_subject(answer["sentence"]),
+                                                 title=given["title"], agency_text=given["text"])
+                if text is None and with_subject(answer["sentence"]) != answer["sentence"]:
+                    # Two more words can put a sentence over the length limit. The
+                    # sentence as the model wrote it is then judged by itself.
+                    text, why_plain = _ps.validate_summary(
+                        answer["sentence"], title=given["title"], agency_text=given["text"])
+                    why = why if text is None else why_plain
                 for reason in why:
                     reasons["sentence_" + reason] = reasons.get("sentence_" + reason, 0) + 1
                 if text is not None:
