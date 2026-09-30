@@ -18,6 +18,7 @@ For every item write ONE line of JSON to the output file, in the same order:
 
 Write ONE sentence that says what this project is trying to find out or build.
 
+- Begin the sentence with the words "This project", followed by a plain verb: "This project studies how ...", "This project builds a tool that ...". Never begin with the verb alone ("Studies how ...").
 - One sentence only, at most 25 words, ending with a full stop. No semicolon.
 - Write for a first-year undergraduate. Use plain everyday words for the verbs and descriptions: "studies how", "tries to find out why", "builds a tool that". Prefer a short common word to a technical one wherever the meaning stays the same.
 - Name only what the material names. Every organism, disease, body part, molecule, material, method, instrument and place in your sentence must be in the material. Do not swap one for another and do not add one.
